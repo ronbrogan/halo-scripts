@@ -1,0 +1,37 @@
+
+("trm1_cleanup", MethodDecl<Void> @:366 op:0,dt:0,nt:65535,next:16884,str:38859,d0:0,d1:0;
+    (____, Scope<Void> @:16884 op:0,dt:4,nt:8,next:65535,str:6950,d0:16885,d1:42345;
+        ("begin", Expression<MethodOrOperator> @:16885 op:0,dt:2,nt:9,next:16851,str:11,d0:0,d1:0;
+            (____, Scope<Void> @:16851 op:19,dt:4,nt:8,next:16854,str:6981,d0:16852,d1:42312;
+                ("sleep", Expression<MethodOrOperator> @:16852 op:19,dt:2,nt:9,next:16853,str:90,d0:0,d1:0;
+                    (90, Expression<Short> @:16853 op:7,dt:7,nt:9,next:65535,str:6988,d0:90,d1:65535;)))
+            (____, Scope<Void> @:16854 op:21,dt:4,nt:8,next:16875,str:6994,d0:16855,d1:42315;
+                ("sleep_until", Expression<MethodOrOperator> @:16855 op:21,dt:2,nt:9,next:16856,str:241,d0:0,d1:0;
+                    (____, Scope<Boolean> @:16856 op:5,dt:5,nt:8,next:16874,str:7010,d0:16857,d1:42317;
+                        ("and", Expression<MethodOrOperator> @:16857 op:5,dt:2,nt:9,next:16858,str:677,d0:0,d1:0;
+                            (____, Scope<Boolean> @:16858 op:34,dt:5,nt:8,next:16863,str:7019,d0:16859,d1:42319;
+                                ("volume_test_objects_all", Expression<MethodOrOperator> @:16859 op:34,dt:2,nt:9,next:16860,str:38717,d0:0,d1:0;
+                                    ("tv_trm1_start", Expression<Trigger> @:16860 op:13,dt:13,nt:9,next:16861,str:38741,d0:24,d1:0;
+                                        (____, Scope<List> @:16861 op:28,dt:31,nt:8,next:65535,str:7058,d0:16862,d1:42322;
+                                            ("players", Expression<MethodOrOperator> @:16862 op:28,dt:2,nt:9,next:65535,str:31,d0:0,d1:0;)))))
+                            (____, Scope<Boolean> @:16863 op:13,dt:5,nt:8,next:16869,str:7073,d0:16864,d1:42324;
+                                ("=", Expression<MethodOrOperator> @:16864 op:13,dt:2,nt:9,next:16865,str:306,d0:0,d1:0;
+                                    (-1.8583863E-16f, Scope<Float> @:16865 op:257,dt:6,nt:8,next:16868,str:7076,d0:16866,d1:42326;
+                                        ("device_get_position", Expression<MethodOrOperator> @:16866 op:257,dt:2,nt:9,next:16867,str:32795,d0:0,d1:0;
+                                            ("trm1_door_exit", Expression<Device> @:16867 op:60,dt:54,nt:9,next:65535,str:38755,d0:480,d1:65535;)))
+                                    (0f, Expression<Float> @:16868 op:6,dt:6,nt:9,next:65535,str:7113,d0:0,d1:0;)))
+                            (____, Scope<Boolean> @:16869 op:15,dt:5,nt:8,next:65535,str:7120,d0:16870,d1:42330;
+                                (">", Expression<MethodOrOperator> @:16870 op:15,dt:2,nt:9,next:16871,str:31129,d0:0,d1:0;
+                                    ("player_count", ScriptInvocation<Short> @:16871 op:2,dt:7,nt:10,next:16873,str:7123,d0:16872,d1:42332;
+                                        ("player_count", Expression<MethodOrOperator> @:16872 op:2,dt:2,nt:9,next:65535,str:38770,d0:0,d1:0;))
+                                    (0, Expression<Short> @:16873 op:7,dt:7,nt:9,next:65535,str:7138,d0:0,d1:65535;)))))
+                    (1, Expression<Short> @:16874 op:7,dt:7,nt:9,next:65535,str:7148,d0:1,d1:65535;)))
+            (____, Scope<Void> @:16875 op:298,dt:4,nt:8,next:16878,str:7153,d0:16876,d1:42336;
+                ("ai_erase", Expression<MethodOrOperator> @:16876 op:298,dt:2,nt:9,next:16877,str:31916,d0:0,d1:0;
+                    ("atr1_cov_bbalcony", Expression<AI> @:16877 op:19,dt:19,nt:9,next:65535,str:27902,d0:43,d1:16384;)))
+            (____, Scope<Void> @:16878 op:298,dt:4,nt:8,next:16881,str:7184,d0:16879,d1:42339;
+                ("ai_erase", Expression<MethodOrOperator> @:16879 op:298,dt:2,nt:9,next:16880,str:31916,d0:0,d1:0;
+                    ("atr1_cov_fbalcony", Expression<AI> @:16880 op:19,dt:19,nt:9,next:65535,str:27884,d0:42,d1:16384;)))
+            (____, Scope<Void> @:16881 op:298,dt:4,nt:8,next:65535,str:7215,d0:16882,d1:42342;
+                ("ai_erase", Expression<MethodOrOperator> @:16882 op:298,dt:2,nt:9,next:16883,str:31916,d0:0,d1:0;
+                    ("atr1_cov_stairs", Expression<AI> @:16883 op:19,dt:19,nt:9,next:65535,str:37777,d0:39,d1:16384;))))))

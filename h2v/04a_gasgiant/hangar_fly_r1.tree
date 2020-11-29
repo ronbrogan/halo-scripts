@@ -1,0 +1,31 @@
+
+("hangar_fly_r1", MethodDecl<Void> @:288 check:0,op:0,dt:0,nt:65535,next:10870,nextCheck:36330,str:22772,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:10870 check:36330,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:59644,h:1,d0:10871,d1:36331;
+        ("begin", Expression<MethodOrOperator> @:10871 check:36331,op:0,dt:2,nt:9,next:10843,nextCheck:36303,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:10843 check:36303,op:449,dt:4,nt:8,next:10846,nextCheck:36306,str:59683,h:1,d0:10844,d1:36304;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:10844 check:36304,op:449,dt:2,nt:9,next:10845,nextCheck:36305,str:17375,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10845 check:36305,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:59715,h:1,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:10846 check:36306,op:21,dt:4,nt:8,next:10855,nextCheck:36315,str:59723,h:1,d0:10847,d1:36307;
+                ("sleep_until", Expression<MethodOrOperator> @:10847 check:36307,op:21,dt:2,nt:9,next:10848,nextCheck:36308,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:10848 check:36308,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:59736,h:1,d0:10849,d1:36309;
+                        ("=", Expression<MethodOrOperator> @:10849 check:36309,op:13,dt:2,nt:9,next:10850,nextCheck:36310,str:301,h:0,d0:0,d1:0;
+                            (____, Scope<Boolean> @:10850 check:36310,op:33,dt:5,nt:8,next:10854,nextCheck:36314,str:59739,h:1,d0:10851,d1:36311;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:10851 check:36311,op:33,dt:2,nt:9,next:10852,nextCheck:36312,str:16793,h:0,d0:0,d1:0;
+                                    ("vol_hangar_center", Expression<Trigger> @:10852 check:36312,op:13,dt:13,nt:9,next:10853,nextCheck:36313,str:22535,h:0,d0:35,d1:0;
+                                        ("ai_current_actor", VariableAccess<List> @:10853 check:36313,op:31,dt:31,nt:13,next:65535,nextCheck:65535,str:17461,h:0,d0:33564,d1:65535;))))
+                            (True, Expression<Boolean> @:10854 check:36314,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:59796,h:1,d0:65281,d1:65535;)))))
+            (____, Scope<Void> @:10855 check:36315,op:407,dt:4,nt:8,next:10858,nextCheck:36318,str:59805,h:1,d0:10856,d1:36316;
+                ("cs_vehicle_speed", Expression<MethodOrOperator> @:10856 check:36316,op:407,dt:2,nt:9,next:10857,nextCheck:36317,str:22064,h:0,d0:0,d1:0;
+                    (0.5f, Expression<Float> @:10857 check:36317,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:59823,h:1,d0:0,d1:16128;)))
+            (____, Scope<Void> @:10858 check:36318,op:383,dt:4,nt:8,next:10861,nextCheck:36321,str:59829,h:1,d0:10859,d1:36319;
+                ("cs_fly_by", Expression<MethodOrOperator> @:10859 check:36319,op:383,dt:2,nt:9,next:10860,nextCheck:36320,str:19081,h:0,d0:0,d1:0;
+                    ("hangar_too/r1_0", Expression<SpatialPoint> @:10860 check:36320,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:22423,h:0,d0:6,d1:5;)))
+            (____, Scope<Void> @:10861 check:36321,op:383,dt:4,nt:8,next:10864,nextCheck:36324,str:59859,h:1,d0:10862,d1:36322;
+                ("cs_fly_by", Expression<MethodOrOperator> @:10862 check:36322,op:383,dt:2,nt:9,next:10863,nextCheck:36323,str:19081,h:0,d0:0,d1:0;
+                    ("hangar_too/r1_1", Expression<SpatialPoint> @:10863 check:36323,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:22407,h:0,d0:7,d1:5;)))
+            (____, Scope<Void> @:10864 check:36324,op:379,dt:4,nt:8,next:10867,nextCheck:36327,str:59889,h:1,d0:10865,d1:36325;
+                ("cs_fly_to", Expression<MethodOrOperator> @:10865 check:36325,op:379,dt:2,nt:9,next:10866,nextCheck:36326,str:17423,h:0,d0:0,d1:0;
+                    ("hangar_too/r1_2", Expression<SpatialPoint> @:10866 check:36326,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:22585,h:0,d0:8,d1:5;)))
+            (____, Scope<Void> @:10867 check:36327,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:59919,h:1,d0:10868,d1:36328;
+                ("ai_erase", Expression<MethodOrOperator> @:10868 check:36328,op:298,dt:2,nt:9,next:10869,nextCheck:36329,str:17452,h:0,d0:0,d1:0;
+                    ("ai_current_actor", VariableAccess<AI> @:10869 check:36329,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:17461,h:0,d0:33564,d1:65535;))))))

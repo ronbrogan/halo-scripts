@@ -1,0 +1,35 @@
+
+("cs_room_b_brute_ini_a", MethodDecl<Void> @:368 op:0,dt:0,nt:65535,next:18336,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:18336 op:0,dt:4,nt:8,next:65535,str:7804,d0:18337,d1:43797;
+        ("begin", Expression<MethodOrOperator> @:18337 op:0,dt:2,nt:9,next:18305,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:18305 op:439,dt:4,nt:8,next:18308,str:7851,d0:18306,d1:43766;
+                ("cs_abort_on_alert", Expression<MethodOrOperator> @:18306 op:439,dt:2,nt:9,next:18307,str:16644,d0:0,d1:0;
+                    (True, Expression<Boolean> @:18307 op:5,dt:5,nt:9,next:65535,str:7870,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:18308 op:449,dt:4,nt:8,next:18311,str:7878,d0:18309,d1:43769;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:18309 op:449,dt:2,nt:9,next:18310,str:1066,d0:0,d1:0;
+                    (True, Expression<Boolean> @:18310 op:5,dt:5,nt:9,next:65535,str:7910,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:18311 op:21,dt:4,nt:8,next:65535,str:7918,d0:18312,d1:43772;
+                ("sleep_until", Expression<MethodOrOperator> @:18312 op:21,dt:2,nt:9,next:18313,str:231,d0:0,d1:0;
+                    (____, Scope<Boolean> @:18313 op:0,dt:5,nt:8,next:65535,str:7934,d0:18314,d1:43774;
+                        ("begin", Expression<MethodOrOperator> @:18314 op:0,dt:2,nt:9,next:18315,str:1,d0:0,d1:0;
+                            (____, Scope<Void> @:18315 op:386,dt:4,nt:8,next:18319,str:7945,d0:18316,d1:43776;
+                                ("cs_go_to", Expression<MethodOrOperator> @:18316 op:386,dt:2,nt:9,next:18317,str:23611,d0:0,d1:0;
+                                    ("room_b/p0", Expression<SpatialPoint> @:18317 op:28,dt:28,nt:9,next:18318,str:36666,d0:0,d1:8;
+                                        (1f, Expression<Float> @:18318 op:6,dt:6,nt:9,next:65535,str:7965,d0:0,d1:16256;))))
+                            (____, Scope<Void> @:18319 op:19,dt:4,nt:8,next:18325,str:7972,d0:18320,d1:43780;
+                                ("sleep", Expression<MethodOrOperator> @:18320 op:19,dt:2,nt:9,next:18321,str:80,d0:0,d1:0;
+                                    (____, Scope<Short> @:18321 op:124,dt:7,nt:8,next:65535,str:7979,d0:18322,d1:43782;
+                                        ("random_range", Expression<MethodOrOperator> @:18322 op:124,dt:2,nt:9,next:18323,str:19725,d0:0,d1:0;
+                                            (0, Expression<Short> @:18323 op:7,dt:7,nt:9,next:18324,str:7993,d0:0,d1:65535;
+                                                (15, Expression<Short> @:18324 op:7,dt:7,nt:9,next:65535,str:7995,d0:15,d1:65535;))))))
+                            (____, Scope<Void> @:18325 op:386,dt:4,nt:8,next:18329,str:8004,d0:18326,d1:43786;
+                                ("cs_go_to", Expression<MethodOrOperator> @:18326 op:386,dt:2,nt:9,next:18327,str:23611,d0:0,d1:0;
+                                    ("room_b/p1", Expression<SpatialPoint> @:18327 op:28,dt:28,nt:9,next:18328,str:36676,d0:1,d1:8;
+                                        (1f, Expression<Float> @:18328 op:6,dt:6,nt:9,next:65535,str:8024,d0:0,d1:16256;))))
+                            (____, Scope<Void> @:18329 op:19,dt:4,nt:8,next:18335,str:8031,d0:18330,d1:43790;
+                                ("sleep", Expression<MethodOrOperator> @:18330 op:19,dt:2,nt:9,next:18331,str:80,d0:0,d1:0;
+                                    (____, Scope<Short> @:18331 op:124,dt:7,nt:8,next:65535,str:8038,d0:18332,d1:43792;
+                                        ("random_range", Expression<MethodOrOperator> @:18332 op:124,dt:2,nt:9,next:18333,str:19725,d0:0,d1:0;
+                                            (0, Expression<Short> @:18333 op:7,dt:7,nt:9,next:18334,str:8052,d0:0,d1:65535;
+                                                (15, Expression<Short> @:18334 op:7,dt:7,nt:9,next:65535,str:8054,d0:15,d1:65535;))))))
+                            (False, Expression<Boolean> @:18335 op:5,dt:5,nt:9,next:65535,str:8062,d0:65280,d1:65535;))))))))

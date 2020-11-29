@@ -1,0 +1,25 @@
+
+("to_hangar_secondtime", MethodDecl<Void> @:326 check:0,op:0,dt:0,nt:65535,next:28470,nextCheck:53930,str:38815,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:28470 check:53930,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9123,h:4,d0:28471,d1:53931;
+        ("begin", Expression<MethodOrOperator> @:28471 check:53931,op:0,dt:2,nt:9,next:28449,nextCheck:53909,str:210,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:28449 check:53909,op:21,dt:4,nt:8,next:28459,nextCheck:53919,str:9162,h:4,d0:28450,d1:53910;
+                ("sleep_until", Expression<MethodOrOperator> @:28450 check:53910,op:21,dt:2,nt:9,next:28451,nextCheck:53911,str:440,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:28451 check:53911,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:9175,h:4,d0:28452,d1:53912;
+                        ("=", Expression<MethodOrOperator> @:28452 check:53912,op:13,dt:2,nt:9,next:28453,nextCheck:53913,str:505,h:0,d0:0,d1:0;
+                            (____, Scope<Boolean> @:28453 check:53913,op:33,dt:5,nt:8,next:28458,nextCheck:53918,str:9178,h:4,d0:28454,d1:53914;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:28454 check:53914,op:33,dt:2,nt:9,next:28455,nextCheck:53915,str:11830,h:0,d0:0,d1:0;
+                                    ("vol_underhangar_from_top", Expression<Trigger> @:28455 check:53915,op:13,dt:13,nt:9,next:28456,nextCheck:53916,str:34264,h:0,d0:75,d1:0;
+                                        (____, Scope<List> @:28456 check:53916,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:9224,h:4,d0:28457,d1:53917;
+                                            ("players", Expression<MethodOrOperator> @:28457 check:53917,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:230,h:0,d0:0,d1:0;)))))
+                            (True, Expression<Boolean> @:28458 check:53918,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9235,h:4,d0:65281,d1:65535;)))))
+            (____, Scope<Void> @:28459 check:53919,op:300,dt:4,nt:8,next:28463,nextCheck:53923,str:9244,h:4,d0:28460,d1:53920;
+                ("ai_disposable", Expression<MethodOrOperator> @:28460 check:53920,op:300,dt:2,nt:9,next:28461,nextCheck:53921,str:16817,h:0,d0:0,d1:0;
+                    ("underhangar_return_flood", Expression<AI> @:28461 check:53921,op:19,dt:19,nt:9,next:28462,nextCheck:53922,str:34702,h:0,d0:33,d1:16384;
+                        (True, Expression<Boolean> @:28462 check:53922,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9284,h:4,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:28463 check:53923,op:300,dt:4,nt:8,next:28467,nextCheck:53927,str:9292,h:4,d0:28464,d1:53924;
+                ("ai_disposable", Expression<MethodOrOperator> @:28464 check:53924,op:300,dt:2,nt:9,next:28465,nextCheck:53925,str:16817,h:0,d0:0,d1:0;
+                    ("underhangar_return_heretics", Expression<AI> @:28465 check:53925,op:19,dt:19,nt:9,next:28466,nextCheck:53926,str:35011,h:0,d0:34,d1:16384;
+                        (True, Expression<Boolean> @:28466 check:53926,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9335,h:4,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:28467 check:53927,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:9343,h:4,d0:28468,d1:53928;
+                ("wake", Expression<MethodOrOperator> @:28468 check:53928,op:22,dt:2,nt:9,next:28469,nextCheck:53929,str:1275,h:0,d0:0,d1:0;
+                    ("other_hall_fx", Expression<ScriptReference> @:28469 check:53929,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:35123,h:0,d0:325,d1:65535;))))))

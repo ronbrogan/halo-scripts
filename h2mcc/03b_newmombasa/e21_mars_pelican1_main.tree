@@ -1,0 +1,17 @@
+
+("e21_mars_pelican1_main", MethodDecl<Void> @:319 op:0,dt:0,nt:65535,next:11345,str:24362,d0:0,d1:0;
+    (____, Scope<Void> @:11345 op:0,dt:4,nt:8,next:65535,str:13626,d0:11346,d1:36806;
+        ("begin", Expression<MethodOrOperator> @:11346 op:0,dt:2,nt:9,next:11332,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:11332 op:21,dt:4,nt:8,next:11335,str:13667,d0:11333,d1:36793;
+                ("sleep_until", Expression<MethodOrOperator> @:11333 op:21,dt:2,nt:9,next:11334,str:236,d0:0,d1:0;
+                    ("g_e21_cov_phantom1_retreating", VariableAccess<Boolean> @:11334 op:5,dt:5,nt:13,next:65535,str:23254,d0:38,d1:0;)))
+            (____, Scope<Void> @:11335 op:19,dt:4,nt:8,next:11338,str:13713,d0:11336,d1:36796;
+                ("sleep", Expression<MethodOrOperator> @:11336 op:19,dt:2,nt:9,next:11337,str:85,d0:0,d1:0;
+                    (60, Expression<Short> @:11337 op:7,dt:7,nt:9,next:65535,str:13720,d0:60,d1:65535;)))
+            (____, Scope<Void> @:11338 op:290,dt:4,nt:8,next:11341,str:13752,d0:11339,d1:36799;
+                ("ai_place", Expression<MethodOrOperator> @:11339 op:290,dt:2,nt:9,next:11340,str:16628,d0:0,d1:0;
+                    ("e21_mars_pelican1", Expression<AI> @:11340 op:19,dt:19,nt:9,next:65535,str:21490,d0:61,d1:0;)))
+            (____, Scope<Void> @:11341 op:366,dt:4,nt:8,next:65535,str:13783,d0:11342,d1:36802;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:11342 op:366,dt:2,nt:9,next:11343,str:15752,d0:0,d1:0;
+                    ("e21_mars_pelican1/pelican0", Expression<AI> @:11343 op:19,dt:19,nt:9,next:11344,str:23906,d0:0,d1:49213;
+                        ("cs_e21_mars_pelican1_entry", Expression<AIScript> @:11344 op:21,dt:21,nt:9,next:65535,str:23933,d0:310,d1:0;)))))))

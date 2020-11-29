@@ -1,0 +1,25 @@
+
+("c07_2070_pot", MethodDecl<Void> @:190 check:0,op:0,dt:0,nt:65535,next:6785,nextCheck:65012,str:16226,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:6785 check:65012,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:25084,h:1,d0:6786,d1:65013;
+        ("begin", Expression<MethodOrOperator> @:6786 check:65013,op:0,dt:2,nt:9,next:6764,nextCheck:64991,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:6764 check:64991,op:19,dt:4,nt:8,next:6767,nextCheck:64994,str:25115,h:1,d0:6765,d1:64992;
+                ("sleep", Expression<MethodOrOperator> @:6765 check:64992,op:19,dt:2,nt:9,next:6766,nextCheck:64993,str:80,h:0,d0:0,d1:0;
+                    (231, Expression<Short> @:6766 check:64993,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:25122,h:1,d0:231,d1:65535;)))
+            (____, Scope<Void> @:6767 check:64994,op:596,dt:4,nt:8,next:6772,nextCheck:64999,str:25129,h:1,d0:6768,d1:64995;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:6768 check:64995,op:596,dt:2,nt:9,next:6769,nextCheck:64996,str:1513,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\07_highcharity\cinematic\c07_2070_pot", Expression<Sound> @:6769 check:64996,op:32,dt:32,nt:9,next:6770,nextCheck:64997,str:16168,h:0,d0:985,d1:58703;
+                        (4294902017, Expression<Entity> @:6770 check:64997,op:56,dt:50,nt:9,next:6771,nextCheck:64998,str:12779,h:0,d0:257,d1:65535;
+                            (1f, Expression<Float> @:6771 check:64998,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:25214,h:1,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:6772 check:64999,op:562,dt:4,nt:8,next:6776,nextCheck:65003,str:25219,h:1,d0:6773,d1:65000;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:6773 check:65000,op:562,dt:2,nt:9,next:6774,nextCheck:65001,str:2861,h:0,d0:0,d1:0;
+                    ("c07_2070_pot", Expression<StringId> @:6774 check:65001,op:11,dt:11,nt:9,next:6775,nextCheck:65002,str:16226,h:0,d0:5189,d1:3072;
+                        (2f, Expression<Float> @:6775 check:65002,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:25252,h:1,d0:0,d1:16384;))))
+            (____, Scope<Void> @:6776 check:65003,op:220,dt:4,nt:8,next:6782,nextCheck:65009,str:25260,h:1,d0:6777,d1:65004;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:6777 check:65004,op:220,dt:2,nt:9,next:6778,nextCheck:65005,str:11016,h:0,d0:0,d1:0;
+                    ("mercy", Expression<Unit> @:6778 check:65005,op:57,dt:51,nt:9,next:6779,nextCheck:65006,str:11327,h:0,d0:258,d1:65535;
+                        ("pain", Expression<StringId> @:6779 check:65006,op:11,dt:11,nt:9,next:6780,nextCheck:65007,str:13497,h:0,d0:432,d1:1024;
+                            (1f, Expression<Float> @:6780 check:65007,op:6,dt:6,nt:9,next:6781,nextCheck:65008,str:25297,h:1,d0:0,d1:16256;
+                                (60, Expression<Short> @:6781 check:65008,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:25299,h:1,d0:60,d1:65535;))))))
+            (____, Scope<Void> @:6782 check:65009,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:25305,h:1,d0:6783,d1:65010;
+                ("print", Expression<MethodOrOperator> @:6783 check:65010,op:27,dt:2,nt:9,next:6784,nextCheck:65011,str:86,h:0,d0:0,d1:0;
+                    ("mercy - pain 1 60", Expression<String> @:6784 check:65011,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:16239,h:0,d0:1847,d1:12543;))))))

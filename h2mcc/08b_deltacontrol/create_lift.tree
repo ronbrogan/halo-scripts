@@ -1,0 +1,25 @@
+
+("create_lift", MethodDecl<Void> @:161 op:0,dt:0,nt:65535,next:6468,str:16261,d0:0,d1:0;
+    (____, Scope<Void> @:6468 op:0,dt:4,nt:8,next:65535,str:10006,d0:6469,d1:64696;
+        ("begin", Expression<MethodOrOperator> @:6469 op:0,dt:2,nt:9,next:6447,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:6447 op:27,dt:4,nt:8,next:6450,str:10038,d0:6448,d1:64675;
+                ("print", Expression<MethodOrOperator> @:6448 op:27,dt:2,nt:9,next:6449,str:91,d0:0,d1:0;
+                    ("create lift", Expression<String> @:6449 op:9,dt:9,nt:9,next:65535,str:16171,d0:16171,d1:0;)))
+            (____, Scope<Void> @:6450 op:48,dt:4,nt:8,next:6453,str:10062,d0:6451,d1:64678;
+                ("object_create_anew", Expression<MethodOrOperator> @:6451 op:48,dt:2,nt:9,next:6452,str:8260,d0:0,d1:0;
+                    ("c08_intra3_lift", Expression<EntityIdentifier> @:6452 op:56,dt:56,nt:9,next:65535,str:16183,d0:68,d1:65535;)))
+            (____, Scope<Void> @:6453 op:60,dt:4,nt:8,next:6459,str:10101,d0:6454,d1:64681;
+                ("object_set_function_variable", Expression<MethodOrOperator> @:6454 op:60,dt:2,nt:9,next:6455,str:4956,d0:0,d1:0;
+                    (4294901828, Expression<Entity> @:6455 op:56,dt:50,nt:9,next:6456,str:16183,d0:68,d1:65535;
+                        ("effect", Expression<StringId> @:6456 op:11,dt:11,nt:9,next:6457,str:16199,d0:5263,d1:1536;
+                            (0f, Expression<Float> @:6457 op:6,dt:6,nt:9,next:6458,str:10156,d0:0,d1:0;
+                                (0f, Expression<Float> @:6458 op:6,dt:6,nt:9,next:65535,str:10158,d0:0,d1:0;))))))
+            (____, Scope<Void> @:6459 op:19,dt:4,nt:8,next:6462,str:10163,d0:6460,d1:64687;
+                ("sleep", Expression<MethodOrOperator> @:6460 op:19,dt:2,nt:9,next:6461,str:85,d0:0,d1:0;
+                    (10, Expression<Short> @:6461 op:7,dt:7,nt:9,next:65535,str:10170,d0:10,d1:65535;)))
+            (____, Scope<Void> @:6462 op:60,dt:4,nt:8,next:65535,str:10176,d0:6463,d1:64690;
+                ("object_set_function_variable", Expression<MethodOrOperator> @:6463 op:60,dt:2,nt:9,next:6464,str:4956,d0:0,d1:0;
+                    (4294901828, Expression<Entity> @:6464 op:56,dt:50,nt:9,next:6465,str:16183,d0:68,d1:65535;
+                        ("effect", Expression<StringId> @:6465 op:11,dt:11,nt:9,next:6466,str:16199,d0:5263,d1:1536;
+                            (1f, Expression<Float> @:6466 op:6,dt:6,nt:9,next:6467,str:10231,d0:0,d1:16256;
+                                (60f, Expression<Float> @:6467 op:6,dt:6,nt:9,next:65535,str:10233,d0:0,d1:17008;)))))))))

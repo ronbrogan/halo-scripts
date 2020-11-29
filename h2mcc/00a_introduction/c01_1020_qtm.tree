@@ -1,0 +1,25 @@
+
+("c01_1020_qtm", MethodDecl<Void> @:155 op:0,dt:0,nt:65535,next:8150,str:14156,d0:0,d1:0;
+    (____, Scope<Void> @:8150 op:0,dt:4,nt:8,next:65535,str:46074,d0:8151,d1:33611;
+        ("begin", Expression<MethodOrOperator> @:8151 op:0,dt:2,nt:9,next:8129,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:8129 op:19,dt:4,nt:8,next:8132,str:46105,d0:8130,d1:33590;
+                ("sleep", Expression<MethodOrOperator> @:8130 op:19,dt:2,nt:9,next:8131,str:80,d0:0,d1:0;
+                    (18, Expression<Short> @:8131 op:7,dt:7,nt:9,next:65535,str:46112,d0:18,d1:65535;)))
+            (____, Scope<Void> @:8132 op:596,dt:4,nt:8,next:8137,str:46118,d0:8133,d1:33593;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:8133 op:596,dt:2,nt:9,next:8134,str:3766,d0:0,d1:0;
+                    ("sound\dialog\levels\01_spacestation\cinematic\c01_1020_qtm", Expression<Sound> @:8134 op:32,dt:32,nt:9,next:8135,str:14097,d0:2783,d1:60501;
+                        (4294901813, Expression<Entity> @:8135 op:56,dt:50,nt:9,next:8136,str:13163,d0:53,d1:65535;
+                            (1f, Expression<Float> @:8136 op:6,dt:6,nt:9,next:65535,str:46210,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:8137 op:562,dt:4,nt:8,next:8141,str:46215,d0:8138,d1:33598;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:8138 op:562,dt:2,nt:9,next:8139,str:5905,d0:0,d1:0;
+                    ("c01_1020_qtm", Expression<StringId> @:8139 op:11,dt:11,nt:9,next:8140,str:14156,d0:9704,d1:3072;
+                        (2f, Expression<Float> @:8140 op:6,dt:6,nt:9,next:65535,str:46248,d0:0,d1:16384;))))
+            (____, Scope<Void> @:8141 op:220,dt:4,nt:8,next:8147,str:46256,d0:8142,d1:33602;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:8142 op:220,dt:2,nt:9,next:8143,str:9441,d0:0,d1:0;
+                    ("master_guns", Expression<Unit> @:8143 op:57,dt:51,nt:9,next:8144,str:13163,d0:53,d1:65535;
+                        ("annoyed", Expression<StringId> @:8144 op:11,dt:11,nt:9,next:8145,str:14169,d0:429,d1:1792;
+                            (1f, Expression<Float> @:8145 op:6,dt:6,nt:9,next:8146,str:46302,d0:0,d1:16256;
+                                (0, Expression<Short> @:8146 op:7,dt:7,nt:9,next:65535,str:46304,d0:0,d1:65535;))))))
+            (____, Scope<Void> @:8147 op:27,dt:4,nt:8,next:65535,str:46309,d0:8148,d1:33608;
+                ("print", Expression<MethodOrOperator> @:8148 op:27,dt:2,nt:9,next:8149,str:86,d0:0,d1:0;
+                    ("master guns - annoyed 1 0", Expression<String> @:8149 op:9,dt:9,nt:9,next:65535,str:14177,d0:14177,d1:0;))))))

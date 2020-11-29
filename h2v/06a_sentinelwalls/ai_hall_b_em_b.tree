@@ -1,0 +1,26 @@
+
+("ai_hall_b_em_b", MethodDecl<Void> @:240 check:0,op:0,dt:0,nt:65535,next:10138,nextCheck:35598,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:10138 check:35598,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:40102,h:1,d0:10139,d1:35599;
+        ("begin", Expression<MethodOrOperator> @:10139 check:35599,op:0,dt:2,nt:9,next:10116,nextCheck:35576,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:10116 check:35576,op:2,dt:4,nt:8,next:10122,nextCheck:35582,str:40139,h:1,d0:10117,d1:35577;
+                ("if", Expression<MethodOrOperator> @:10117 check:35577,op:2,dt:2,nt:9,next:10118,nextCheck:35578,str:456,h:0,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:10118 check:35578,op:5,dt:5,nt:13,next:10119,nextCheck:35579,str:11180,h:0,d0:3,d1:0;
+                        (____, Scope<Void> @:10119 check:35579,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:40149,h:1,d0:10120,d1:35580;
+                            ("print", Expression<MethodOrOperator> @:10120 check:35580,op:27,dt:2,nt:9,next:10121,nextCheck:35581,str:86,h:0,d0:0,d1:0;
+                                ("b", Expression<String> @:10121 check:35581,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:19373,h:0,d0:64085,d1:12464;))))))
+            (____, Scope<Void> @:10122 check:35582,op:290,dt:4,nt:8,next:10125,nextCheck:35585,str:40164,h:1,d0:10123,d1:35583;
+                ("ai_place", Expression<MethodOrOperator> @:10123 check:35583,op:290,dt:2,nt:9,next:10124,nextCheck:35584,str:1415,h:0,d0:0,d1:0;
+                    ("hall_b_sen/b", Expression<AI> @:10124 check:35584,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19375,h:0,d0:0,d1:49165;)))
+            (____, Scope<Void> @:10125 check:35585,op:4,dt:4,nt:8,next:10132,nextCheck:35592,str:40190,h:1,d0:10126,d1:35586;
+                ("set", Expression<MethodOrOperator> @:10126 check:35586,op:4,dt:2,nt:9,next:10127,nextCheck:35587,str:2575,h:0,d0:0,d1:0;
+                    ("g_hall_b_em_count", VariableAccess<Short> @:10127 check:35587,op:65535,dt:7,nt:13,next:10128,nextCheck:35588,str:19388,h:0,d0:63,d1:0;
+                        (____, Scope<Short> @:10128 check:35588,op:7,dt:7,nt:8,next:65535,nextCheck:65535,str:40213,h:1,d0:10129,d1:35589;
+                            ("+", Expression<MethodOrOperator> @:10129 check:35589,op:7,dt:2,nt:9,next:10130,nextCheck:35590,str:983,h:0,d0:0,d1:0;
+                                ("g_hall_b_em_count", VariableAccess<Float> @:10130 check:35590,op:6,dt:6,nt:13,next:10131,nextCheck:35591,str:19388,h:0,d0:63,d1:0;
+                                    (1f, Expression<Float> @:10131 check:35591,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:40234,h:1,d0:0,d1:16256;)))))))
+            (____, Scope<Void> @:10132 check:35592,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:40241,h:1,d0:10133,d1:35593;
+                ("sleep", Expression<MethodOrOperator> @:10133 check:35593,op:19,dt:2,nt:9,next:10134,nextCheck:35594,str:80,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:10134 check:35594,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:40248,h:1,d0:10135,d1:35595;
+                        ("random_range", Expression<MethodOrOperator> @:10135 check:35595,op:124,dt:2,nt:9,next:10136,nextCheck:35596,str:17579,h:0,d0:0,d1:0;
+                            ("g_sleep_lower_bound", VariableAccess<Short> @:10136 check:35596,op:7,dt:7,nt:13,next:10137,nextCheck:35597,str:10859,h:0,d0:6,d1:0;
+                                ("g_sleep_upper_bound", VariableAccess<Short> @:10137 check:35597,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:10879,h:0,d0:7,d1:0;)))))))))

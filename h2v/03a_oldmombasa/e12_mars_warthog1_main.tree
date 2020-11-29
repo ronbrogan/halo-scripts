@@ -1,0 +1,30 @@
+
+("e12_mars_warthog1_main", MethodDecl<Void> @:199 check:0,op:0,dt:0,nt:65535,next:6938,nextCheck:65165,str:14587,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:6938 check:65165,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:17319,h:1,d0:6939,d1:65166;
+        ("begin", Expression<MethodOrOperator> @:6939 check:65166,op:0,dt:2,nt:9,next:6912,nextCheck:65139,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:6912 check:65139,op:21,dt:4,nt:8,next:6920,nextCheck:65147,str:17360,h:1,d0:6913,d1:65140;
+                ("sleep_until", Expression<MethodOrOperator> @:6913 check:65140,op:21,dt:2,nt:9,next:6914,nextCheck:65141,str:294,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:6914 check:65141,op:33,dt:5,nt:8,next:6919,nextCheck:65146,str:17373,h:1,d0:6915,d1:65142;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:6915 check:65142,op:33,dt:2,nt:9,next:6916,nextCheck:65143,str:10884,h:0,d0:0,d1:0;
+                            ("tv_e12_mars_warthog1_begin", Expression<Trigger> @:6916 check:65143,op:13,dt:13,nt:9,next:6917,nextCheck:65144,str:14346,h:0,d0:80,d1:0;
+                                (____, Scope<List> @:6917 check:65144,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:17421,h:1,d0:6918,d1:65145;
+                                    ("players", Expression<MethodOrOperator> @:6918 check:65145,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:84,h:0,d0:0,d1:0;)))))
+                    (10, Expression<Short> @:6919 check:65146,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17432,h:1,d0:10,d1:65535;)))
+            (____, Scope<Void> @:6920 check:65147,op:366,dt:4,nt:8,next:6924,nextCheck:65151,str:17478,h:1,d0:6921,d1:65148;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:6921 check:65148,op:366,dt:2,nt:9,next:6922,nextCheck:65149,str:4703,h:0,d0:0,d1:0;
+                    ("e12_mars_warthog0", Expression<AI> @:6922 check:65149,op:19,dt:19,nt:9,next:6923,nextCheck:65150,str:13139,h:0,d0:102,d1:0;
+                        ("cs_e12_mars_horrible_cleanup", Expression<AIScript> @:6923 check:65150,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:14373,h:0,d0:182,d1:0;))))
+            (____, Scope<Void> @:6924 check:65151,op:19,dt:4,nt:8,next:6927,nextCheck:65154,str:17551,h:1,d0:6925,d1:65152;
+                ("sleep", Expression<MethodOrOperator> @:6925 check:65152,op:19,dt:2,nt:9,next:6926,nextCheck:65153,str:143,h:0,d0:0,d1:0;
+                    (15, Expression<Short> @:6926 check:65153,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17558,h:1,d0:15,d1:65535;)))
+            (____, Scope<Void> @:6927 check:65154,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:17595,h:1,d0:6928,d1:65155;
+                ("if", Expression<MethodOrOperator> @:6928 check:65155,op:2,dt:2,nt:9,next:6929,nextCheck:65156,str:519,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:6929 check:65156,op:18,dt:5,nt:8,next:6935,nextCheck:65162,str:17599,h:1,d0:6930,d1:65157;
+                        ("<=", Expression<MethodOrOperator> @:6930 check:65157,op:18,dt:2,nt:9,next:6931,nextCheck:65158,str:11797,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:6931 check:65158,op:327,dt:7,nt:8,next:6934,nextCheck:65161,str:17603,h:1,d0:6932,d1:65159;
+                                ("ai_living_count", Expression<MethodOrOperator> @:6932 check:65159,op:327,dt:2,nt:9,next:6933,nextCheck:65160,str:11800,h:0,d0:0,d1:0;
+                                    ("e12_mars_warthog0", Expression<AI> @:6933 check:65160,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13139,h:0,d0:102,d1:0;)))
+                            (2, Expression<Short> @:6934 check:65161,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17639,h:1,d0:2,d1:65535;)))
+                    (____, Scope<Void> @:6935 check:65162,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:17645,h:1,d0:6936,d1:65163;
+                        ("ai_place", Expression<MethodOrOperator> @:6936 check:65163,op:290,dt:2,nt:9,next:6937,nextCheck:65164,str:4642,h:0,d0:0,d1:0;
+                            ("e12_mars_warthog1", Expression<AI> @:6937 check:65164,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13175,h:0,d0:103,d1:0;))))))))

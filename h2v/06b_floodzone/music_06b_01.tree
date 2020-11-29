@@ -1,0 +1,18 @@
+
+("music_06b_01", MethodDecl<Void> @:135 check:0,op:0,dt:0,nt:65535,next:4310,nextCheck:62537,str:25159,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:4310 check:62537,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:51735,h:0,d0:4311,d1:62538;
+        ("begin", Expression<MethodOrOperator> @:4311 check:62538,op:0,dt:2,nt:9,next:4296,nextCheck:62523,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:4296 check:62523,op:21,dt:4,nt:8,next:4299,nextCheck:62526,str:51766,h:0,d0:4297,d1:62524;
+                ("sleep_until", Expression<MethodOrOperator> @:4297 check:62524,op:21,dt:2,nt:9,next:4298,nextCheck:62525,str:236,h:0,d0:0,d1:0;
+                    ("g_music_06b_01", VariableAccess<Boolean> @:4298 check:62525,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:10673,h:0,d0:11,d1:0;)))
+            (____, Scope<Void> @:4299 check:62526,op:2,dt:4,nt:8,next:4305,nextCheck:62532,str:51797,h:0,d0:4300,d1:62527;
+                ("if", Expression<MethodOrOperator> @:4300 check:62527,op:2,dt:2,nt:9,next:4301,nextCheck:62528,str:461,h:0,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:4301 check:62528,op:5,dt:5,nt:13,next:4302,nextCheck:62529,str:10567,h:0,d0:3,d1:0;
+                        (____, Scope<Void> @:4302 check:62529,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:51807,h:0,d0:4303,d1:62530;
+                            ("print", Expression<MethodOrOperator> @:4303 check:62530,op:27,dt:2,nt:9,next:4304,nextCheck:62531,str:91,h:0,d0:0,d1:0;
+                                ("start music 06b_01", Expression<String> @:4304 check:62531,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:10688,h:0,d0:61888,d1:12389;))))))
+            (____, Scope<Void> @:4305 check:62532,op:605,dt:4,nt:8,next:65535,nextCheck:65535,str:51839,h:0,d0:4306,d1:62533;
+                ("sound_looping_start", Expression<MethodOrOperator> @:4306 check:62533,op:605,dt:2,nt:9,next:4307,nextCheck:62534,str:10707,h:0,d0:0,d1:0;
+                    ("scenarios\solo\06b_floodzone\06b_music\06b_01", Expression<LoopingSound> @:4307 check:62534,op:35,dt:35,nt:9,next:4308,nextCheck:62535,str:10727,h:0,d0:6980,d1:64717;
+                        (4294967295, Expression<Entity> @:4308 check:62535,op:50,dt:50,nt:9,next:4309,nextCheck:62536,str:1,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:4309 check:62536,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:51911,h:0,d0:0,d1:16256;))))))))

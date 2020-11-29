@@ -1,0 +1,23 @@
+
+("bridge_wraith_warn", MethodDecl<Void> @:228 op:0,dt:0,nt:65535,next:9879,str:19859,d0:0,d1:0;
+    (____, Scope<Void> @:9879 op:0,dt:4,nt:8,next:65535,str:50701,d0:9880,d1:35340;
+        ("begin", Expression<MethodOrOperator> @:9880 op:0,dt:2,nt:9,next:9860,str:54,d0:0,d1:0;
+            (____, Scope<Void> @:9860 op:4,dt:4,nt:8,next:9864,str:50745,d0:9861,d1:35321;
+                ("set", Expression<MethodOrOperator> @:9861 op:4,dt:2,nt:9,next:9862,str:1895,d0:0,d1:0;
+                    ("wraith_warning_go", VariableAccess<Boolean> @:9862 op:65535,dt:5,nt:13,next:9863,str:19747,d0:14,d1:0;
+                        (True, Expression<Boolean> @:9863 op:5,dt:5,nt:9,next:65535,str:50768,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:9864 op:374,dt:4,nt:8,next:9867,str:50776,d0:9865,d1:35325;
+                ("cs_switch", Expression<MethodOrOperator> @:9865 op:374,dt:2,nt:9,next:9866,str:15425,d0:0,d1:0;
+                    ("bridge_ally", Expression<StringId> @:9866 op:11,dt:11,nt:9,next:65535,str:19765,d0:12403,d1:2816;)))
+            (____, Scope<Void> @:9867 op:449,dt:4,nt:8,next:9870,str:50802,d0:9868,d1:35328;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:9868 op:449,dt:2,nt:9,next:9869,str:15268,d0:0,d1:0;
+                    (True, Expression<Boolean> @:9869 op:5,dt:5,nt:9,next:65535,str:50834,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:9870 op:440,dt:4,nt:8,next:9873,str:50842,d0:9871,d1:35331;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:9871 op:440,dt:2,nt:9,next:9872,str:15443,d0:0,d1:0;
+                    (True, Expression<Boolean> @:9872 op:5,dt:5,nt:9,next:65535,str:50862,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:9873 op:27,dt:4,nt:8,next:9876,str:50870,d0:9874,d1:35334;
+                ("print", Expression<MethodOrOperator> @:9874 op:27,dt:2,nt:9,next:9875,str:139,d0:0,d1:0;
+                    ("ally: 'watch out, chief!  wraiths on the far side!'", Expression<String> @:9875 op:9,dt:9,nt:9,next:65535,str:19777,d0:19777,d1:0;)))
+            (____, Scope<Void> @:9876 op:418,dt:4,nt:8,next:65535,str:50934,d0:9877,d1:35337;
+                ("cs_play_line", Expression<MethodOrOperator> @:9877 op:418,dt:2,nt:9,next:9878,str:15491,d0:0,d1:0;
+                    ("0480", Expression<StringId> @:9878 op:11,dt:11,nt:9,next:65535,str:19829,d0:12056,d1:1024;))))))

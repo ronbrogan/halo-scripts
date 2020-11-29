@@ -1,0 +1,28 @@
+
+("holo2_deleteme", MethodDecl<Void> @:359 check:0,op:0,dt:0,nt:65535,next:30443,nextCheck:55903,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:30443 check:55903,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28677,h:4,d0:30444,d1:55904;
+        ("begin", Expression<MethodOrOperator> @:30444 check:55904,op:0,dt:2,nt:9,next:30419,nextCheck:55879,str:210,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:30419 check:55879,op:21,dt:4,nt:8,next:30427,nextCheck:55887,str:28710,h:4,d0:30420,d1:55880;
+                ("sleep_until", Expression<MethodOrOperator> @:30420 check:55880,op:21,dt:2,nt:9,next:30421,nextCheck:55881,str:440,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:30421 check:55881,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:28723,h:4,d0:30422,d1:55882;
+                        ("=", Expression<MethodOrOperator> @:30422 check:55882,op:13,dt:2,nt:9,next:30423,nextCheck:55883,str:505,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:30423 check:55883,op:327,dt:7,nt:8,next:30426,nextCheck:55886,str:28726,h:4,d0:30424,d1:55884;
+                                ("ai_living_count", Expression<MethodOrOperator> @:30424 check:55884,op:327,dt:2,nt:9,next:30425,nextCheck:55885,str:11564,h:0,d0:0,d1:0;
+                                    ("hl_boss_holo_random_01", Expression<AI> @:30425 check:55885,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:37680,h:0,d0:136,d1:0;)))
+                            (1, Expression<Short> @:30426 check:55886,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28767,h:4,d0:1,d1:65535;)))))
+            (____, Scope<Void> @:30427 check:55887,op:77,dt:4,nt:8,next:30432,nextCheck:55892,str:28773,h:4,d0:30428,d1:55888;
+                ("object_set_scale", Expression<MethodOrOperator> @:30428 check:55888,op:77,dt:2,nt:9,next:30429,nextCheck:55889,str:3543,h:0,d0:0,d1:0;
+                    ("holo2", VariableAccess<Entity> @:30429 check:55889,op:50,dt:50,nt:13,next:30430,nextCheck:55890,str:37737,h:0,d0:52,d1:0;
+                        (0.1f, Expression<Float> @:30430 check:55890,op:6,dt:6,nt:9,next:30431,nextCheck:55891,str:28797,h:4,d0:52429,d1:15820;
+                            (30, Expression<Short> @:30431 check:55891,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28800,h:4,d0:30,d1:65535;)))))
+            (____, Scope<Void> @:30432 check:55892,op:41,dt:4,nt:8,next:30437,nextCheck:55897,str:28806,h:4,d0:30433,d1:55893;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:30433 check:55893,op:41,dt:2,nt:9,next:30434,nextCheck:55894,str:7000,h:0,d0:0,d1:0;
+                    ("holo_death", VariableAccess<Effect> @:30434 check:55894,op:33,dt:33,nt:13,next:30435,nextCheck:55895,str:37726,h:0,d0:55,d1:0;
+                        ("holo2", VariableAccess<Entity> @:30435 check:55895,op:50,dt:50,nt:13,next:30436,nextCheck:55896,str:37737,h:0,d0:52,d1:0;
+                            ("body", Expression<StringId> @:30436 check:55896,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:8250,h:0,d0:189,d1:1024;)))))
+            (____, Scope<Void> @:30437 check:55897,op:19,dt:4,nt:8,next:30440,nextCheck:55900,str:28862,h:4,d0:30438,d1:55898;
+                ("sleep", Expression<MethodOrOperator> @:30438 check:55898,op:19,dt:2,nt:9,next:30439,nextCheck:55899,str:289,h:0,d0:0,d1:0;
+                    (15, Expression<Short> @:30439 check:55899,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28869,h:4,d0:15,d1:65535;)))
+            (____, Scope<Void> @:30440 check:55900,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:28875,h:4,d0:30441,d1:55901;
+                ("object_destroy", Expression<MethodOrOperator> @:30441 check:55901,op:52,dt:2,nt:9,next:30442,nextCheck:55902,str:4282,h:0,d0:0,d1:0;
+                    ("holo2", VariableAccess<Entity> @:30442 check:55902,op:50,dt:50,nt:13,next:65535,nextCheck:65535,str:37737,h:0,d0:52,d1:0;))))))

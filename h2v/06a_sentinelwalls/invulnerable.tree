@@ -1,0 +1,31 @@
+
+("invulnerable", MethodDecl<Void> @:274 check:0,op:0,dt:0,nt:65535,next:12533,nextCheck:37993,str:22175,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:12533 check:37993,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:62544,h:1,d0:12534,d1:37994;
+        ("begin", Expression<MethodOrOperator> @:12534 check:37994,op:0,dt:2,nt:9,next:12506,nextCheck:37966,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:12506 check:37966,op:444,dt:4,nt:8,next:12509,nextCheck:37969,str:62582,h:1,d0:12507,d1:37967;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:12507 check:37967,op:444,dt:2,nt:9,next:12508,nextCheck:37968,str:17498,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:12508 check:37968,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:62600,h:1,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:12509 check:37969,op:90,dt:4,nt:8,next:12514,nextCheck:37974,str:62605,h:1,d0:12510,d1:37970;
+                ("object_cannot_take_damage", Expression<MethodOrOperator> @:12510 check:37970,op:90,dt:2,nt:9,next:12511,nextCheck:37971,str:618,h:0,d0:0,d1:0;
+                    (____, Scope<List> @:12511 check:37971,op:284,dt:31,nt:8,next:65535,nextCheck:65535,str:62632,h:1,d0:12512,d1:37972;
+                        ("ai_get_object", Expression<MethodOrOperator> @:12512 check:37972,op:284,dt:2,nt:9,next:12513,nextCheck:37973,str:2308,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:12513 check:37973,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:3425,h:0,d0:33564,d1:65535;)))))
+            (____, Scope<Void> @:12514 check:37974,op:21,dt:4,nt:8,next:12522,nextCheck:37982,str:62668,h:1,d0:12515,d1:37975;
+                ("sleep_until", Expression<MethodOrOperator> @:12515 check:37975,op:21,dt:2,nt:9,next:12516,nextCheck:37976,str:231,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:12516 check:37976,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:62681,h:1,d0:12517,d1:37977;
+                        (">=", Expression<MethodOrOperator> @:12517 check:37977,op:17,dt:2,nt:9,next:12518,nextCheck:37978,str:671,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:12518 check:37978,op:353,dt:7,nt:8,next:12521,nextCheck:37981,str:62685,h:1,d0:12519,d1:37979;
+                                ("ai_combat_status", Expression<MethodOrOperator> @:12519 check:37979,op:353,dt:2,nt:9,next:12520,nextCheck:37980,str:17304,h:0,d0:0,d1:0;
+                                    ("ai_current_actor", VariableAccess<AI> @:12520 check:37980,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:3425,h:0,d0:33564,d1:65535;)))
+                            ("ai_combat_status_certain", VariableAccess<Short> @:12521 check:37981,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:22150,h:0,d0:33577,d1:65535;)))))
+            (____, Scope<Void> @:12522 check:37982,op:19,dt:4,nt:8,next:12528,nextCheck:37988,str:62750,h:1,d0:12523,d1:37983;
+                ("sleep", Expression<MethodOrOperator> @:12523 check:37983,op:19,dt:2,nt:9,next:12524,nextCheck:37984,str:80,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:12524 check:37984,op:9,dt:7,nt:8,next:65535,nextCheck:65535,str:62757,h:1,d0:12525,d1:37985;
+                        ("*", Expression<MethodOrOperator> @:12525 check:37985,op:9,dt:2,nt:9,next:12526,nextCheck:37986,str:981,h:0,d0:0,d1:0;
+                            (30f, Expression<Float> @:12526 check:37986,op:6,dt:6,nt:9,next:12527,nextCheck:37987,str:62760,h:1,d0:0,d1:16880;
+                                (1f, Expression<Float> @:12527 check:37987,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:62763,h:1,d0:0,d1:16256;))))))
+            (____, Scope<Void> @:12528 check:37988,op:91,dt:4,nt:8,next:65535,nextCheck:65535,str:62769,h:1,d0:12529,d1:37989;
+                ("object_can_take_damage", Expression<MethodOrOperator> @:12529 check:37989,op:91,dt:2,nt:9,next:12530,nextCheck:37990,str:644,h:0,d0:0,d1:0;
+                    (____, Scope<List> @:12530 check:37990,op:284,dt:31,nt:8,next:65535,nextCheck:65535,str:62793,h:1,d0:12531,d1:37991;
+                        ("ai_get_object", Expression<MethodOrOperator> @:12531 check:37991,op:284,dt:2,nt:9,next:12532,nextCheck:37992,str:2308,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:12532 check:37992,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:3425,h:0,d0:33564,d1:65535;))))))))

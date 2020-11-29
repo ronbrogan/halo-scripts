@@ -1,0 +1,36 @@
+
+("lz_turret_track", MethodDecl<Void> @:211 op:0,dt:0,nt:65535,next:7946,str:18130,d0:0,d1:0;
+    (____, Scope<Void> @:7946 op:0,dt:4,nt:8,next:65535,str:30501,d0:7947,d1:33407;
+        ("begin", Expression<MethodOrOperator> @:7947 op:0,dt:2,nt:9,next:7914,str:54,d0:0,d1:0;
+            (____, Scope<Void> @:7914 op:21,dt:4,nt:8,next:7922,str:30535,d0:7915,d1:33375;
+                ("sleep_until", Expression<MethodOrOperator> @:7915 op:21,dt:2,nt:9,next:7916,str:284,d0:0,d1:0;
+                    (____, Scope<Boolean> @:7916 op:16,dt:5,nt:8,next:65535,str:30548,d0:7917,d1:33377;
+                        ("<", Expression<MethodOrOperator> @:7917 op:16,dt:2,nt:9,next:7918,str:900,d0:0,d1:0;
+                            (____, Scope<Short> @:7918 op:327,dt:7,nt:8,next:7921,str:30551,d0:7919,d1:33379;
+                                ("ai_living_count", Expression<MethodOrOperator> @:7919 op:327,dt:2,nt:9,next:7920,str:15991,d0:0,d1:0;
+                                    ("lz_enemies_turrets", Expression<AI> @:7920 op:19,dt:19,nt:9,next:65535,str:16805,d0:7,d1:16384;)))
+                            (1, Expression<Short> @:7921 op:7,dt:7,nt:9,next:65535,str:30588,d0:1,d1:65535;)))))
+            (____, Scope<Void> @:7922 op:27,dt:4,nt:8,next:7925,str:30594,d0:7923,d1:33383;
+                ("print", Expression<MethodOrOperator> @:7923 op:27,dt:2,nt:9,next:7924,str:139,d0:0,d1:0;
+                    ("all turrets down", Expression<String> @:7924 op:9,dt:9,nt:9,next:65535,str:17090,d0:17090,d1:0;)))
+            (____, Scope<Void> @:7925 op:4,dt:4,nt:8,next:7929,str:30623,d0:7926,d1:33386;
+                ("set", Expression<MethodOrOperator> @:7926 op:4,dt:2,nt:9,next:7927,str:1895,d0:0,d1:0;
+                    ("turrets_down", VariableAccess<Boolean> @:7927 op:65535,dt:5,nt:13,next:7928,str:17107,d0:10,d1:0;
+                        (True, Expression<Boolean> @:7928 op:5,dt:5,nt:9,next:65535,str:30641,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:7929 op:21,dt:4,nt:8,next:65535,str:30649,d0:7930,d1:33390;
+                ("sleep_until", Expression<MethodOrOperator> @:7930 op:21,dt:2,nt:9,next:7931,str:284,d0:0,d1:0;
+                    (____, Scope<Boolean> @:7931 op:6,dt:5,nt:8,next:7944,str:30665,d0:7932,d1:33392;
+                        ("or", Expression<MethodOrOperator> @:7932 op:6,dt:2,nt:9,next:7933,str:897,d0:0,d1:0;
+                            (____, Scope<Boolean> @:7933 op:363,dt:5,nt:8,next:7938,str:30673,d0:7934,d1:33394;
+                                ("ai_scene", Expression<MethodOrOperator> @:7934 op:363,dt:2,nt:9,next:7935,str:16359,d0:0,d1:0;
+                                    ("lz_turrets_down_scene", Expression<StringId> @:7935 op:11,dt:11,nt:9,next:7936,str:17120,d0:12394,d1:5376;
+                                        ("odst_turrets_down", Expression<AIScript> @:7936 op:21,dt:21,nt:9,next:7937,str:17142,d0:210,d1:0;
+                                            ("all_allies", Expression<AI> @:7937 op:19,dt:19,nt:9,next:65535,str:15908,d0:1,d1:16384;)))))
+                            (____, Scope<Boolean> @:7938 op:16,dt:5,nt:8,next:65535,str:30739,d0:7939,d1:33399;
+                                ("<", Expression<MethodOrOperator> @:7939 op:16,dt:2,nt:9,next:7940,str:900,d0:0,d1:0;
+                                    (____, Scope<Short> @:7940 op:327,dt:7,nt:8,next:7943,str:30742,d0:7941,d1:33401;
+                                        ("ai_living_count", Expression<MethodOrOperator> @:7941 op:327,dt:2,nt:9,next:7942,str:15991,d0:0,d1:0;
+                                            ("all_allies", Expression<AI> @:7942 op:19,dt:19,nt:9,next:65535,str:15908,d0:1,d1:16384;)))
+                                    (1, Expression<Short> @:7943 op:7,dt:7,nt:9,next:65535,str:30771,d0:1,d1:65535;)))))
+                    (30, Expression<Short> @:7944 op:7,dt:7,nt:9,next:7945,str:30781,d0:30,d1:65535;
+                        ("2070", Expression<Int> @:7945 op:8,dt:8,nt:9,next:65535,str:30784,d0:600,d1:0;)))))))

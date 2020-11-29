@@ -1,0 +1,30 @@
+
+("ai_cond_b_b_em", MethodDecl<Void> @:325 check:0,op:0,dt:0,nt:65535,next:15831,nextCheck:41291,str:29924,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:15831 check:41291,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:24388,h:2,d0:15832,d1:41292;
+        ("begin", Expression<MethodOrOperator> @:15832 check:41292,op:0,dt:2,nt:9,next:15805,nextCheck:41265,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:15805 check:41265,op:21,dt:4,nt:8,next:15813,nextCheck:41273,str:24421,h:2,d0:15806,d1:41266;
+                ("sleep_until", Expression<MethodOrOperator> @:15806 check:41266,op:21,dt:2,nt:9,next:15807,nextCheck:41267,str:231,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:15807 check:41267,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:24434,h:2,d0:15808,d1:41268;
+                        ("<=", Expression<MethodOrOperator> @:15808 check:41268,op:18,dt:2,nt:9,next:15809,nextCheck:41269,str:16164,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:15809 check:41269,op:327,dt:7,nt:8,next:15812,nextCheck:41272,str:24438,h:2,d0:15810,d1:41270;
+                                ("ai_living_count", Expression<MethodOrOperator> @:15810 check:41270,op:327,dt:2,nt:9,next:15811,nextCheck:41271,str:18070,h:0,d0:0,d1:0;
+                                    ("cond_b_sen_b", Expression<AI> @:15811 check:41271,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25274,h:0,d0:76,d1:0;)))
+                            (0, Expression<Short> @:15812 check:41272,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:24469,h:2,d0:0,d1:65535;)))))
+            (____, Scope<Void> @:15813 check:41273,op:19,dt:4,nt:8,next:15816,nextCheck:41276,str:24475,h:2,d0:15814,d1:41274;
+                ("sleep", Expression<MethodOrOperator> @:15814 check:41274,op:19,dt:2,nt:9,next:15815,nextCheck:41275,str:80,h:0,d0:0,d1:0;
+                    ("g_emitter_delay", VariableAccess<Short> @:15815 check:41275,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:10899,h:0,d0:8,d1:0;)))
+            (____, Scope<Void> @:15816 check:41276,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:24501,h:2,d0:15817,d1:41277;
+                ("if", Expression<MethodOrOperator> @:15817 check:41277,op:2,dt:2,nt:9,next:15818,nextCheck:41278,str:456,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:15818 check:41278,op:13,dt:5,nt:8,next:15825,nextCheck:41285,str:24505,h:2,d0:15819,d1:41279;
+                        ("=", Expression<MethodOrOperator> @:15819 check:41279,op:13,dt:2,nt:9,next:15820,nextCheck:41280,str:296,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:15820 check:41280,op:124,dt:7,nt:8,next:15824,nextCheck:41284,str:24508,h:2,d0:15821,d1:41281;
+                                ("random_range", Expression<MethodOrOperator> @:15821 check:41281,op:124,dt:2,nt:9,next:15822,nextCheck:41282,str:17579,h:0,d0:0,d1:0;
+                                    (0, Expression<Short> @:15822 check:41282,op:7,dt:7,nt:9,next:15823,nextCheck:41283,str:24522,h:2,d0:0,d1:65535;
+                                        (2, Expression<Short> @:15823 check:41283,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:24524,h:2,d0:2,d1:65535;))))
+                            (0, Expression<Short> @:15824 check:41284,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:24527,h:2,d0:0,d1:65535;)))
+                    (____, Scope<Void> @:15825 check:41285,op:290,dt:4,nt:8,next:15828,nextCheck:41288,str:24530,h:2,d0:15826,d1:41286;
+                        ("ai_place", Expression<MethodOrOperator> @:15826 check:41286,op:290,dt:2,nt:9,next:15827,nextCheck:41287,str:1415,h:0,d0:0,d1:0;
+                            ("cond_b_sen_b/a", Expression<AI> @:15827 check:41287,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25287,h:0,d0:4,d1:49228;)))
+                    (____, Scope<Void> @:15828 check:41288,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:24556,h:2,d0:15829,d1:41289;
+                        ("ai_place", Expression<MethodOrOperator> @:15829 check:41289,op:290,dt:2,nt:9,next:15830,nextCheck:41290,str:1415,h:0,d0:0,d1:0;
+                            ("cond_b_sen_b/b", Expression<AI> @:15830 check:41290,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25302,h:0,d0:5,d1:49228;))))))))

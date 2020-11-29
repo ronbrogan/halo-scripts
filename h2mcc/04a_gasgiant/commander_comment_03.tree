@@ -1,0 +1,41 @@
+
+("commander_comment_03", MethodDecl<Void> @:249 op:0,dt:0,nt:65535,next:8175,str:18111,d0:0,d1:0;
+    (____, Scope<Void> @:8175 op:0,dt:4,nt:8,next:65535,str:31484,d0:8176,d1:33636;
+        ("begin", Expression<MethodOrOperator> @:8176 op:0,dt:2,nt:9,next:8138,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:8138 op:281,dt:4,nt:8,next:8141,str:31523,d0:8139,d1:33599;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:8139 op:281,dt:2,nt:9,next:8140,str:17599,d0:0,d1:0;
+                    (False, Expression<Boolean> @:8140 op:5,dt:5,nt:9,next:65535,str:31543,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:8141 op:19,dt:4,nt:8,next:8144,str:31552,d0:8142,d1:33602;
+                ("sleep", Expression<MethodOrOperator> @:8142 op:19,dt:2,nt:9,next:8143,str:85,d0:0,d1:0;
+                    (60, Expression<Short> @:8143 op:7,dt:7,nt:9,next:65535,str:31559,d0:60,d1:65535;)))
+            (____, Scope<Void> @:8144 op:27,dt:4,nt:8,next:8147,str:31565,d0:8145,d1:33605;
+                ("print", Expression<MethodOrOperator> @:8145 op:27,dt:2,nt:9,next:8146,str:91,d0:0,d1:0;
+                    ("spec-ops commander: 'you may wish to do the same, arbiter.'", Expression<String> @:8146 op:9,dt:9,nt:9,next:65535,str:17738,d0:17738,d1:0;)))
+            (____, Scope<Void> @:8147 op:19,dt:4,nt:8,next:8153,str:31637,d0:8148,d1:33608;
+                ("sleep", Expression<MethodOrOperator> @:8148 op:19,dt:2,nt:9,next:8149,str:85,d0:0,d1:0;
+                    (____, Scope<Short> @:8149 op:362,dt:7,nt:8,next:65535,str:31644,d0:8150,d1:33610;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:8150 op:362,dt:2,nt:9,next:8151,str:17710,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:8151 op:50,dt:50,nt:9,next:8152,str:1,d0:65535,d1:65535;
+                                ("1000", Expression<StringId> @:8152 op:11,dt:11,nt:9,next:65535,str:17798,d0:11734,d1:1024;))))))
+            (____, Scope<Void> @:8153 op:19,dt:4,nt:8,next:8156,str:31776,d0:8154,d1:33614;
+                ("sleep", Expression<MethodOrOperator> @:8154 op:19,dt:2,nt:9,next:8155,str:85,d0:0,d1:0;
+                    (30, Expression<Short> @:8155 op:7,dt:7,nt:9,next:65535,str:31783,d0:30,d1:65535;)))
+            (____, Scope<Void> @:8156 op:27,dt:4,nt:8,next:8159,str:31863,d0:8157,d1:33617;
+                ("print", Expression<MethodOrOperator> @:8157 op:27,dt:2,nt:9,next:8158,str:91,d0:0,d1:0;
+                    ("'but, take heed. your armor's system is not asnew as ours. your camouflage will not last forever.'", Expression<String> @:8158 op:9,dt:9,nt:9,next:65535,str:17803,d0:17803,d1:0;)))
+            (____, Scope<Void> @:8159 op:19,dt:4,nt:8,next:8165,str:31975,d0:8160,d1:33620;
+                ("sleep", Expression<MethodOrOperator> @:8160 op:19,dt:2,nt:9,next:8161,str:85,d0:0,d1:0;
+                    (____, Scope<Short> @:8161 op:362,dt:7,nt:8,next:65535,str:31982,d0:8162,d1:33622;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:8162 op:362,dt:2,nt:9,next:8163,str:17710,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:8163 op:50,dt:50,nt:9,next:8164,str:1,d0:65535,d1:65535;
+                                ("1010", Expression<StringId> @:8164 op:11,dt:11,nt:9,next:65535,str:17903,d0:11735,d1:1024;))))))
+            (____, Scope<Void> @:8165 op:4,dt:4,nt:8,next:8169,str:32144,d0:8166,d1:33626;
+                ("set", Expression<MethodOrOperator> @:8166 op:4,dt:2,nt:9,next:8167,str:2368,d0:0,d1:0;
+                    ("stealth_hint_done", VariableAccess<Boolean> @:8167 op:65535,dt:5,nt:13,next:8168,str:17908,d0:4,d1:0;
+                        (True, Expression<Boolean> @:8168 op:5,dt:5,nt:9,next:65535,str:32167,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:8169 op:19,dt:4,nt:8,next:8172,str:32175,d0:8170,d1:33630;
+                ("sleep", Expression<MethodOrOperator> @:8170 op:19,dt:2,nt:9,next:8171,str:85,d0:0,d1:0;
+                    (30, Expression<Short> @:8171 op:7,dt:7,nt:9,next:65535,str:32182,d0:30,d1:65535;)))
+            (____, Scope<Void> @:8172 op:281,dt:4,nt:8,next:65535,str:32188,d0:8173,d1:33633;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:8173 op:281,dt:2,nt:9,next:8174,str:17599,d0:0,d1:0;
+                    (True, Expression<Boolean> @:8174 op:5,dt:5,nt:9,next:65535,str:32208,d0:65281,d1:65535;))))))

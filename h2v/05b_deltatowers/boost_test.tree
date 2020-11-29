@@ -1,0 +1,28 @@
+
+("boost_test", MethodDecl<Void> @:249 check:0,op:0,dt:0,nt:65535,next:16014,nextCheck:41474,str:26980,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:16014 check:41474,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:39374,h:2,d0:16015,d1:41475;
+        ("begin", Expression<MethodOrOperator> @:16015 check:41475,op:0,dt:2,nt:9,next:15990,nextCheck:41450,str:142,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:15990 check:41450,op:438,dt:4,nt:8,next:15993,nextCheck:41453,str:39410,h:2,d0:15991,d1:41451;
+                ("cs_vehicle_boost", Expression<MethodOrOperator> @:15991 check:41451,op:438,dt:2,nt:9,next:15992,nextCheck:41452,str:13133,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15992 check:41452,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:39428,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:15993 check:41453,op:442,dt:4,nt:8,next:15996,nextCheck:41456,str:39436,h:2,d0:15994,d1:41454;
+                ("cs_enable_targeting", Expression<MethodOrOperator> @:15994 check:41454,op:442,dt:2,nt:9,next:15995,nextCheck:41455,str:16203,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15995 check:41455,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:39457,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:15996 check:41456,op:404,dt:4,nt:8,next:15999,nextCheck:41459,str:39465,h:2,d0:15997,d1:41457;
+                ("cs_shoot", Expression<MethodOrOperator> @:15997 check:41457,op:404,dt:2,nt:9,next:15998,nextCheck:41458,str:16223,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15998 check:41458,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:39475,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:15999 check:41459,op:444,dt:4,nt:8,next:16002,nextCheck:41462,str:39483,h:2,d0:16000,d1:41460;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:16000 check:41460,op:444,dt:2,nt:9,next:16001,nextCheck:41461,str:26684,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16001 check:41461,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:39501,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:16002 check:41462,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:39509,h:2,d0:16003,d1:41463;
+                ("sleep_until", Expression<MethodOrOperator> @:16003 check:41463,op:21,dt:2,nt:9,next:16004,nextCheck:41464,str:372,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:16004 check:41464,op:16,dt:5,nt:8,next:65535,nextCheck:65535,str:39522,h:2,d0:16005,d1:41465;
+                        ("<", Expression<MethodOrOperator> @:16005 check:41465,op:16,dt:2,nt:9,next:16006,nextCheck:41466,str:988,h:0,d0:0,d1:0;
+                            (-1.7024972E-18f, Scope<Float> @:16006 check:41466,op:114,dt:6,nt:8,next:16013,nextCheck:41473,str:39525,h:2,d0:16007,d1:41467;
+                                ("objects_distance_to_object", Expression<MethodOrOperator> @:16007 check:41467,op:114,dt:2,nt:9,next:16008,nextCheck:41468,str:13847,h:0,d0:0,d1:0;
+                                    (____, Scope<List> @:16008 check:41468,op:28,dt:31,nt:8,next:16010,nextCheck:41470,str:39553,h:2,d0:16009,d1:41469;
+                                        ("players", Expression<MethodOrOperator> @:16009 check:41469,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:162,h:0,d0:0,d1:0;))
+                                    (____, Scope<Entity> @:16010 check:41470,op:284,dt:50,nt:8,next:65535,nextCheck:65535,str:39563,h:2,d0:16011,d1:41471;
+                                        ("ai_get_object", Expression<MethodOrOperator> @:16011 check:41471,op:284,dt:2,nt:9,next:16012,nextCheck:41472,str:16264,h:0,d0:0,d1:0;
+                                            ("ai_current_actor", VariableAccess<AI> @:16012 check:41472,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:16278,h:0,d0:33564,d1:65535;)))))
+                            (30f, Expression<Float> @:16013 check:41473,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:39597,h:2,d0:0,d1:16880;))))))))

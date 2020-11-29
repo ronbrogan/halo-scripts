@@ -1,0 +1,67 @@
+
+("island_miranda_conversation", MethodDecl<Void> @:240 op:0,dt:0,nt:65535,next:15317,str:27030,d0:0,d1:0;
+    (____, Scope<Void> @:15317 op:0,dt:4,nt:8,next:65535,str:32109,d0:15318,d1:40778;
+        ("begin", Expression<MethodOrOperator> @:15318 op:0,dt:2,nt:9,next:15254,str:142,d0:0,d1:0;
+            (____, Scope<Void> @:15254 op:281,dt:4,nt:8,next:15257,str:32155,d0:15255,d1:40715;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:15255 op:281,dt:2,nt:9,next:15256,str:10448,d0:0,d1:0;
+                    (False, Expression<Boolean> @:15256 op:5,dt:5,nt:9,next:65535,str:32175,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:15257 op:19,dt:4,nt:8,next:15260,str:32184,d0:15258,d1:40718;
+                ("sleep", Expression<MethodOrOperator> @:15258 op:19,dt:2,nt:9,next:15259,str:221,d0:0,d1:0;
+                    (60, Expression<Short> @:15259 op:7,dt:7,nt:9,next:65535,str:32191,d0:60,d1:65535;)))
+            (____, Scope<Void> @:15260 op:27,dt:4,nt:8,next:15263,str:32197,d0:15261,d1:40721;
+                ("print", Expression<MethodOrOperator> @:15261 op:27,dt:2,nt:9,next:15262,str:227,d0:0,d1:0;
+                    ("miranda: 'how's it going, you two?'", Expression<String> @:15262 op:9,dt:9,nt:9,next:65535,str:26206,d0:26206,d1:0;)))
+            (____, Scope<Void> @:15263 op:19,dt:4,nt:8,next:15269,str:32245,d0:15264,d1:40724;
+                ("sleep", Expression<MethodOrOperator> @:15264 op:19,dt:2,nt:9,next:15265,str:221,d0:0,d1:0;
+                    (____, Scope<Short> @:15265 op:362,dt:7,nt:8,next:65535,str:32252,d0:15266,d1:40726;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:15266 op:362,dt:2,nt:9,next:15267,str:10115,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:15267 op:50,dt:50,nt:9,next:15268,str:52,d0:65535,d1:65535;
+                                ("0170", Expression<StringId> @:15268 op:11,dt:11,nt:9,next:65535,str:26242,d0:12410,d1:1024;))))))
+            (____, Scope<Void> @:15269 op:19,dt:4,nt:8,next:15272,str:32378,d0:15270,d1:40730;
+                ("sleep", Expression<MethodOrOperator> @:15270 op:19,dt:2,nt:9,next:15271,str:221,d0:0,d1:0;
+                    (30, Expression<Short> @:15271 op:7,dt:7,nt:9,next:65535,str:32385,d0:30,d1:65535;)))
+            (____, Scope<Void> @:15272 op:27,dt:4,nt:8,next:15275,str:32391,d0:15273,d1:40733;
+                ("print", Expression<MethodOrOperator> @:15273 op:27,dt:2,nt:9,next:15274,str:227,d0:0,d1:0;
+                    ("cortana: 'so far, so good. we're nearing the main-temple now.'", Expression<String> @:15274 op:9,dt:9,nt:9,next:65535,str:26247,d0:26247,d1:0;)))
+            (____, Scope<Void> @:15275 op:19,dt:4,nt:8,next:15281,str:32466,d0:15276,d1:40736;
+                ("sleep", Expression<MethodOrOperator> @:15276 op:19,dt:2,nt:9,next:15277,str:221,d0:0,d1:0;
+                    (____, Scope<Short> @:15277 op:362,dt:7,nt:8,next:65535,str:32473,d0:15278,d1:40738;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:15278 op:362,dt:2,nt:9,next:15279,str:10115,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:15279 op:50,dt:50,nt:9,next:15280,str:52,d0:65535,d1:65535;
+                                ("0180", Expression<StringId> @:15280 op:11,dt:11,nt:9,next:65535,str:26310,d0:12412,d1:1024;))))))
+            (____, Scope<Void> @:15281 op:19,dt:4,nt:8,next:15284,str:32599,d0:15282,d1:40742;
+                ("sleep", Expression<MethodOrOperator> @:15282 op:19,dt:2,nt:9,next:15283,str:221,d0:0,d1:0;
+                    (30, Expression<Short> @:15283 op:7,dt:7,nt:9,next:65535,str:32606,d0:30,d1:65535;)))
+            (____, Scope<Void> @:15284 op:27,dt:4,nt:8,next:15287,str:32612,d0:15285,d1:40745;
+                ("print", Expression<MethodOrOperator> @:15285 op:27,dt:2,nt:9,next:15286,str:227,d0:0,d1:0;
+                    ("miranda: 'roger that. i'm as close to the library as i can get.'", Expression<String> @:15286 op:9,dt:9,nt:9,next:65535,str:26315,d0:26315,d1:0;)))
+            (____, Scope<Void> @:15287 op:27,dt:4,nt:8,next:15290,str:32689,d0:15288,d1:40748;
+                ("print", Expression<MethodOrOperator> @:15288 op:27,dt:2,nt:9,next:15289,str:227,d0:0,d1:0;
+                    ("'there's some sort of barrier...we're trying to find a way around it.'", Expression<String> @:15289 op:9,dt:9,nt:9,next:65535,str:26380,d0:26380,d1:0;)))
+            (____, Scope<Void> @:15290 op:27,dt:4,nt:8,next:15293,str:32772,d0:15291,d1:40751;
+                ("print", Expression<MethodOrOperator> @:15291 op:27,dt:2,nt:9,next:15292,str:227,d0:0,d1:0;
+                    ("'i'll keep you posted.'", Expression<String> @:15292 op:9,dt:9,nt:9,next:65535,str:26451,d0:26451,d1:0;)))
+            (____, Scope<Void> @:15293 op:19,dt:4,nt:8,next:15299,str:32808,d0:15294,d1:40754;
+                ("sleep", Expression<MethodOrOperator> @:15294 op:19,dt:2,nt:9,next:15295,str:221,d0:0,d1:0;
+                    (____, Scope<Short> @:15295 op:362,dt:7,nt:8,next:65535,str:32815,d0:15296,d1:40756;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:15296 op:362,dt:2,nt:9,next:15297,str:10115,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:15297 op:50,dt:50,nt:9,next:15298,str:52,d0:65535,d1:65535;
+                                ("0190", Expression<StringId> @:15298 op:11,dt:11,nt:9,next:65535,str:26475,d0:12413,d1:1024;))))))
+            (____, Scope<Void> @:15299 op:19,dt:4,nt:8,next:15302,str:32941,d0:15300,d1:40760;
+                ("sleep", Expression<MethodOrOperator> @:15300 op:19,dt:2,nt:9,next:15301,str:221,d0:0,d1:0;
+                    (30, Expression<Short> @:15301 op:7,dt:7,nt:9,next:65535,str:32948,d0:30,d1:65535;)))
+            (____, Scope<Void> @:15302 op:281,dt:4,nt:8,next:15305,str:32954,d0:15303,d1:40763;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:15303 op:281,dt:2,nt:9,next:15304,str:10448,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15304 op:5,dt:5,nt:9,next:65535,str:32974,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:15305 op:587,dt:4,nt:8,next:15307,str:32982,d0:15306,d1:40766;
+                ("game_save", Expression<MethodOrOperator> @:15306 op:587,dt:2,nt:9,next:65535,str:10957,d0:0,d1:0;))
+            (____, Scope<Void> @:15307 op:22,dt:4,nt:8,next:15310,str:32996,d0:15308,d1:40768;
+                ("wake", Expression<MethodOrOperator> @:15308 op:22,dt:2,nt:9,next:15309,str:1207,d0:0,d1:0;
+                    ("music_05b_09_start", Expression<ScriptReference> @:15309 op:10,dt:10,nt:9,next:65535,str:26480,d0:134,d1:65535;)))
+            (____, Scope<Void> @:15310 op:19,dt:4,nt:8,next:15313,str:33035,d0:15311,d1:40771;
+                ("sleep", Expression<MethodOrOperator> @:15311 op:19,dt:2,nt:9,next:15312,str:221,d0:0,d1:0;
+                    (90, Expression<Short> @:15312 op:7,dt:7,nt:9,next:65535,str:33042,d0:90,d1:65535;)))
+            (____, Scope<Void> @:15313 op:304,dt:4,nt:8,next:65535,str:33048,d0:15314,d1:40774;
+                ("ai_set_blind", Expression<MethodOrOperator> @:15314 op:304,dt:2,nt:9,next:15315,str:13173,d0:0,d1:0;
+                    ("gondola_02_banshees", Expression<AI> @:15315 op:19,dt:19,nt:9,next:15316,str:26499,d0:124,d1:0;
+                        (False, Expression<Boolean> @:15316 op:5,dt:5,nt:9,next:65535,str:33082,d0:65280,d1:65535;)))))))

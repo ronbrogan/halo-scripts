@@ -1,0 +1,20 @@
+
+("cs_e5_cov_inf0_wait", MethodDecl<Void> @:319 op:0,dt:0,nt:65535,next:12514,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:12514 op:0,dt:4,nt:8,next:65535,str:24701,d0:12515,d1:37975;
+        ("begin", Expression<MethodOrOperator> @:12515 op:0,dt:2,nt:9,next:12498,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:12498 op:440,dt:4,nt:8,next:12501,str:24746,d0:12499,d1:37959;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:12499 op:440,dt:2,nt:9,next:12500,str:15078,d0:0,d1:0;
+                    (True, Expression<Boolean> @:12500 op:5,dt:5,nt:9,next:65535,str:24766,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:12501 op:441,dt:4,nt:8,next:12504,str:24774,d0:12502,d1:37962;
+                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:12502 op:441,dt:2,nt:9,next:12503,str:13781,d0:0,d1:0;
+                    ("ai_combat_status_clear_los", VariableAccess<Short> @:12503 op:7,dt:7,nt:13,next:65535,str:13973,d0:33579,d1:65535;)))
+            (____, Scope<Void> @:12504 op:423,dt:4,nt:8,next:12507,str:24831,d0:12505,d1:37965;
+                ("cs_crouch", Expression<MethodOrOperator> @:12505 op:423,dt:2,nt:9,next:12506,str:17958,d0:0,d1:0;
+                    (True, Expression<Boolean> @:12506 op:5,dt:5,nt:9,next:65535,str:24842,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:12507 op:21,dt:4,nt:8,next:65535,str:24850,d0:12508,d1:37968;
+                ("sleep_until", Expression<MethodOrOperator> @:12508 op:21,dt:2,nt:9,next:12509,str:294,d0:0,d1:0;
+                    (____, Scope<Boolean> @:12509 op:337,dt:5,nt:8,next:12513,str:24863,d0:12510,d1:37970;
+                        ("ai_trigger_test", Expression<MethodOrOperator> @:12510 op:337,dt:2,nt:9,next:12511,str:21970,d0:0,d1:0;
+                            ("e5_cov_inf0_ambush_sprung", Expression<String> @:12511 op:9,dt:9,nt:9,next:12512,str:21986,d0:21986,d1:0;
+                                ("ai_current_squad", VariableAccess<AI> @:12512 op:19,dt:19,nt:13,next:65535,str:12161,d0:33563,d1:65535;))))
+                    (5, Expression<Short> @:12513 op:7,dt:7,nt:9,next:65535,str:24924,d0:5,d1:65535;))))))

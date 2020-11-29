@@ -1,0 +1,25 @@
+
+("boss_tartarus_invincible_off", MethodDecl<Void> @:42 op:0,dt:0,nt:65535,next:1956,str:6582,d0:0,d1:0;
+    (____, Scope<Void> @:1956 op:0,dt:4,nt:8,next:65535,str:22044,d0:1957,d1:60184;
+        ("begin", Expression<MethodOrOperator> @:1957 op:0,dt:2,nt:9,next:1935,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:1935 op:60,dt:4,nt:8,next:1943,str:22095,d0:1936,d1:60163;
+                ("object_set_function_variable", Expression<MethodOrOperator> @:1936 op:60,dt:2,nt:9,next:1937,str:4956,d0:0,d1:0;
+                    (____, Scope<Entity> @:1937 op:284,dt:50,nt:8,next:1940,str:22125,d0:1938,d1:60165;
+                        ("ai_get_object", Expression<MethodOrOperator> @:1938 op:284,dt:2,nt:9,next:1939,str:1422,d0:0,d1:0;
+                            ("boss_tartarus", Expression<AI> @:1939 op:19,dt:19,nt:9,next:65535,str:1436,d0:102,d1:0;)))
+                    ("invincibility", Expression<StringId> @:1940 op:11,dt:11,nt:9,next:1941,str:4985,d0:12294,d1:3328;
+                        (0f, Expression<Float> @:1941 op:6,dt:6,nt:9,next:1942,str:22171,d0:0,d1:0;
+                            (0.1f, Expression<Float> @:1942 op:6,dt:6,nt:9,next:65535,str:22173,d0:52429,d1:15820;)))))
+            (____, Scope<Void> @:1943 op:107,dt:4,nt:8,next:1952,str:22180,d0:1944,d1:60171;
+                ("object_set_shield", Expression<MethodOrOperator> @:1944 op:107,dt:2,nt:9,next:1945,str:831,d0:0,d1:0;
+                    (____, Scope<Entity> @:1945 op:284,dt:50,nt:8,next:1948,str:22199,d0:1946,d1:60173;
+                        ("ai_get_object", Expression<MethodOrOperator> @:1946 op:284,dt:2,nt:9,next:1947,str:1422,d0:0,d1:0;
+                            ("boss_tartarus", Expression<AI> @:1947 op:19,dt:19,nt:9,next:65535,str:1436,d0:102,d1:0;)))
+                    (-1.7412127E+26f, Scope<Float> @:1948 op:10,dt:6,nt:8,next:65535,str:22229,d0:1949,d1:60176;
+                        ("/", Expression<MethodOrOperator> @:1949 op:10,dt:2,nt:9,next:1950,str:4999,d0:0,d1:0;
+                            (0f, Expression<Float> @:1950 op:6,dt:6,nt:9,next:1951,str:22232,d0:0,d1:0;
+                                (1000f, Expression<Float> @:1951 op:6,dt:6,nt:9,next:65535,str:22234,d0:0,d1:17530;))))))
+            (____, Scope<Void> @:1952 op:4,dt:4,nt:8,next:65535,str:22371,d0:1953,d1:60180;
+                ("set", Expression<MethodOrOperator> @:1953 op:4,dt:2,nt:9,next:1954,str:1888,d0:0,d1:0;
+                    ("boss_tartarus_invincible", VariableAccess<Boolean> @:1954 op:65535,dt:5,nt:13,next:1955,str:5001,d0:6,d1:0;
+                        (False, Expression<Boolean> @:1955 op:5,dt:5,nt:9,next:65535,str:22401,d0:65280,d1:65535;)))))))

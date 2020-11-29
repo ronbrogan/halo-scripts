@@ -1,0 +1,25 @@
+
+("x06_0100_pot", MethodDecl<Void> @:70 op:0,dt:0,nt:65535,next:2274,str:5428,d0:0,d1:0;
+    (____, Scope<Void> @:2274 op:0,dt:4,nt:8,next:65535,str:27249,d0:2275,d1:60502;
+        ("begin", Expression<MethodOrOperator> @:2275 op:0,dt:2,nt:9,next:2253,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:2253 op:19,dt:4,nt:8,next:2256,str:27280,d0:2254,d1:60481;
+                ("sleep", Expression<MethodOrOperator> @:2254 op:19,dt:2,nt:9,next:2255,str:80,d0:0,d1:0;
+                    (418, Expression<Short> @:2255 op:7,dt:7,nt:9,next:65535,str:27287,d0:418,d1:65535;)))
+            (____, Scope<Void> @:2256 op:596,dt:4,nt:8,next:2261,str:27294,d0:2257,d1:60484;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:2257 op:596,dt:2,nt:9,next:2258,str:1619,d0:0,d1:0;
+                    ("sound\dialog\levels\06_sentinelwall\cinematic\x06_0100_pot", Expression<Sound> @:2258 op:32,dt:32,nt:9,next:2259,str:5369,d0:836,d1:58554;
+                        (4294901851, Expression<Entity> @:2259 op:56,dt:50,nt:9,next:2260,str:4533,d0:91,d1:65535;
+                            (1f, Expression<Float> @:2260 op:6,dt:6,nt:9,next:65535,str:27380,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:2261 op:562,dt:4,nt:8,next:2265,str:27385,d0:2262,d1:60489;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:2262 op:562,dt:2,nt:9,next:2263,str:4288,d0:0,d1:0;
+                    ("x06_0100_pot", Expression<StringId> @:2263 op:11,dt:11,nt:9,next:2264,str:5428,d0:3896,d1:3072;
+                        (6f, Expression<Float> @:2264 op:6,dt:6,nt:9,next:65535,str:27418,d0:0,d1:16576;))))
+            (____, Scope<Void> @:2265 op:19,dt:4,nt:8,next:2268,str:27426,d0:2266,d1:60493;
+                ("sleep", Expression<MethodOrOperator> @:2266 op:19,dt:2,nt:9,next:2267,str:80,d0:0,d1:0;
+                    (78, Expression<Short> @:2267 op:7,dt:7,nt:9,next:65535,str:27433,d0:78,d1:65535;)))
+            (____, Scope<Void> @:2268 op:220,dt:4,nt:8,next:65535,str:27439,d0:2269,d1:60496;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2269 op:220,dt:2,nt:9,next:2270,str:4696,d0:0,d1:0;
+                    ("truth", Expression<Unit> @:2270 op:57,dt:51,nt:9,next:2271,str:4533,d0:91,d1:65535;
+                        ("annoyed", Expression<StringId> @:2271 op:11,dt:11,nt:9,next:2272,str:5441,d0:429,d1:1792;
+                            (0.75f, Expression<Float> @:2272 op:6,dt:6,nt:9,next:2273,str:27479,d0:0,d1:16192;
+                                (60, Expression<Short> @:2273 op:7,dt:7,nt:9,next:65535,str:27483,d0:60,d1:65535;)))))))))

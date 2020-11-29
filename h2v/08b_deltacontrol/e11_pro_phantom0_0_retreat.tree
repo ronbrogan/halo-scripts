@@ -1,0 +1,23 @@
+
+("e11_pro_phantom0_0_retreat", MethodDecl<Boolean> @:369 check:0,op:0,dt:0,nt:65535,next:12904,nextCheck:38364,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Boolean> @:12904 check:38364,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:23543,h:2,d0:12905,d1:38365;
+        ("begin", Expression<MethodOrOperator> @:12905 check:38365,op:0,dt:2,nt:9,next:12885,nextCheck:38345,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Boolean> @:12885 check:38345,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:23595,h:2,d0:12886,d1:38346;
+                ("or", Expression<MethodOrOperator> @:12886 check:38346,op:6,dt:2,nt:9,next:12887,nextCheck:38347,str:849,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:12887 check:38347,op:18,dt:5,nt:8,next:12895,nextCheck:38355,str:23617,h:2,d0:12888,d1:38348;
+                        ("<=", Expression<MethodOrOperator> @:12888 check:38348,op:18,dt:2,nt:9,next:12889,nextCheck:38349,str:6210,h:0,d0:0,d1:0;
+                            (-8.328218E-26f, Scope<Float> @:12889 check:38349,op:69,dt:6,nt:8,next:12894,nextCheck:38354,str:23621,h:2,d0:12890,d1:38350;
+                                ("object_get_health", Expression<MethodOrOperator> @:12890 check:38350,op:69,dt:2,nt:9,next:12891,nextCheck:38351,str:854,h:0,d0:0,d1:0;
+                                    (____, Scope<Entity> @:12891 check:38351,op:340,dt:50,nt:8,next:65535,nextCheck:65535,str:23640,h:2,d0:12892,d1:38352;
+                                        ("ai_vehicle_get", Expression<MethodOrOperator> @:12892 check:38352,op:340,dt:2,nt:9,next:12893,nextCheck:38353,str:26765,h:0,d0:0,d1:0;
+                                            ("e11_pro_phantom0_0/phantom0", Expression<AI> @:12893 check:38353,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29372,h:0,d0:0,d1:49231;)))))
+                            (0.05f, Expression<Float> @:12894 check:38354,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:23686,h:2,d0:52429,d1:15692;)))
+                    (____, Scope<Boolean> @:12895 check:38355,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:23735,h:2,d0:12896,d1:38356;
+                        (">=", Expression<MethodOrOperator> @:12896 check:38356,op:17,dt:2,nt:9,next:12897,nextCheck:38357,str:676,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:12897 check:38357,op:83,dt:7,nt:8,next:12903,nextCheck:38363,str:23739,h:2,d0:12898,d1:38358;
+                                ("object_model_targets_destroyed", Expression<MethodOrOperator> @:12898 check:38358,op:83,dt:2,nt:9,next:12899,nextCheck:38359,str:29400,h:0,d0:0,d1:0;
+                                    (____, Scope<Entity> @:12899 check:38359,op:340,dt:50,nt:8,next:12902,nextCheck:38362,str:23771,h:2,d0:12900,d1:38360;
+                                        ("ai_vehicle_get", Expression<MethodOrOperator> @:12900 check:38360,op:340,dt:2,nt:9,next:12901,nextCheck:38361,str:26765,h:0,d0:0,d1:0;
+                                            ("e11_pro_phantom0_0/phantom0", Expression<AI> @:12901 check:38361,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29372,h:0,d0:0,d1:49231;)))
+                                    ("target_front", Expression<StringId> @:12902 check:38362,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:29431,h:0,d0:5391,d1:3072;)))
+                            (3, Expression<Short> @:12903 check:38363,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23832,h:2,d0:3,d1:65535;))))))))

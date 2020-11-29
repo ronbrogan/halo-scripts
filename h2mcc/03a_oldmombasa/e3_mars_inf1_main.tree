@@ -1,0 +1,32 @@
+
+("e3_mars_inf1_main", MethodDecl<Void> @:359 op:0,dt:0,nt:65535,next:14438,str:24714,d0:0,d1:0;
+    (____, Scope<Void> @:14438 op:0,dt:4,nt:8,next:65535,str:46482,d0:14439,d1:39899;
+        ("begin", Expression<MethodOrOperator> @:14439 op:0,dt:2,nt:9,next:14410,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:14410 op:21,dt:4,nt:8,next:14418,str:46554,d0:14411,d1:39871;
+                ("sleep_until", Expression<MethodOrOperator> @:14411 op:21,dt:2,nt:9,next:14412,str:294,d0:0,d1:0;
+                    (____, Scope<Boolean> @:14412 op:15,dt:5,nt:8,next:65535,str:46567,d0:14413,d1:39873;
+                        (">", Expression<MethodOrOperator> @:14413 op:15,dt:2,nt:9,next:14414,str:12453,d0:0,d1:0;
+                            (____, Scope<Short> @:14414 op:335,dt:7,nt:8,next:14417,str:46570,d0:14415,d1:39875;
+                                ("ai_spawn_count", Expression<MethodOrOperator> @:14415 op:335,dt:2,nt:9,next:14416,str:16178,d0:0,d1:0;
+                                    ("e3_mars_pelican0", Expression<AI> @:14416 op:19,dt:19,nt:9,next:65535,str:24257,d0:35,d1:0;)))
+                            (0, Expression<Short> @:14417 op:7,dt:7,nt:9,next:65535,str:46604,d0:0,d1:65535;)))))
+            (____, Scope<Void> @:14418 op:291,dt:4,nt:8,next:14431,str:46628,d0:14419,d1:39879;
+                ("ai_place", Expression<MethodOrOperator> @:14419 op:291,dt:2,nt:9,next:14420,str:4681,d0:0,d1:0;
+                    ("e3_mars_inf1", Expression<AI> @:14420 op:19,dt:19,nt:9,next:14421,str:23234,d0:33,d1:0;
+                        (____, Scope<Short> @:14421 op:26,dt:7,nt:8,next:65535,str:46651,d0:14422,d1:39882;
+                            ("pin", Expression<MethodOrOperator> @:14422 op:26,dt:2,nt:9,next:14423,str:16288,d0:0,d1:0;
+                                (-3.378538E-22f, Scope<Float> @:14423 op:8,dt:6,nt:8,next:14429,str:46656,d0:14424,d1:39884;
+                                    ("-", Expression<MethodOrOperator> @:14424 op:8,dt:2,nt:9,next:14425,str:4125,d0:0,d1:0;
+                                        (3f, Expression<Float> @:14425 op:6,dt:6,nt:9,next:14426,str:46659,d0:0,d1:16448;
+                                            (-3.4281696E-22f, Scope<Float> @:14426 op:327,dt:6,nt:8,next:65535,str:46661,d0:14427,d1:39887;
+                                                ("ai_living_count", Expression<MethodOrOperator> @:14427 op:327,dt:2,nt:9,next:14428,str:12058,d0:0,d1:0;
+                                                    ("e3_mars_inf0", Expression<AI> @:14428 op:19,dt:19,nt:9,next:65535,str:23221,d0:32,d1:0;))))))
+                                (0f, Expression<Float> @:14429 op:6,dt:6,nt:9,next:14430,str:46693,d0:0,d1:0;
+                                    (3f, Expression<Float> @:14430 op:6,dt:6,nt:9,next:65535,str:46695,d0:0,d1:16448;)))))))
+            (____, Scope<Void> @:14431 op:346,dt:4,nt:8,next:65535,str:46701,d0:14432,d1:39892;
+                ("ai_vehicle_enter_immediate", Expression<MethodOrOperator> @:14432 op:346,dt:2,nt:9,next:14433,str:4384,d0:0,d1:0;
+                    ("e3_mars_inf1", Expression<AI> @:14433 op:19,dt:19,nt:9,next:14434,str:23234,d0:33,d1:0;
+                        (____, Scope<Unit> @:14434 op:340,dt:51,nt:8,next:14437,str:46742,d0:14435,d1:39895;
+                            ("ai_vehicle_get", Expression<MethodOrOperator> @:14435 op:340,dt:2,nt:9,next:14436,str:4335,d0:0,d1:0;
+                                ("e3_mars_pelican0/pelican0", Expression<AI> @:14436 op:19,dt:19,nt:9,next:65535,str:23834,d0:0,d1:49187;)))
+                        ("pelican_p_r", Expression<VehicleSeat> @:14437 op:12,dt:12,nt:9,next:65535,str:24325,d0:10,d1:1;)))))))

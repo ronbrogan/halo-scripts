@@ -1,0 +1,36 @@
+
+("gun_flyby", MethodDecl<Void> @:380 check:0,op:0,dt:0,nt:65535,next:18068,nextCheck:43528,str:41787,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:18068 check:43528,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:24736,h:3,d0:18069,d1:43529;
+        ("begin", Expression<MethodOrOperator> @:18069 check:43529,op:0,dt:2,nt:9,next:18036,nextCheck:43496,str:11,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:18036 check:43496,op:46,dt:4,nt:8,next:18039,nextCheck:43499,str:24764,h:3,d0:18037,d1:43497;
+                ("object_create", Expression<MethodOrOperator> @:18037 check:43497,op:46,dt:2,nt:9,next:18038,nextCheck:43498,str:6847,h:0,d0:0,d1:0;
+                    ("carrier_02", Expression<EntityIdentifier> @:18038 check:43498,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:23422,h:0,d0:3,d1:65535;)))
+            (____, Scope<Void> @:18039 check:43499,op:186,dt:4,nt:8,next:18045,nextCheck:43505,str:24793,h:3,d0:18040,d1:43500;
+                ("scenery_animation_start_relative", Expression<MethodOrOperator> @:18040 check:43500,op:186,dt:2,nt:9,next:18041,nextCheck:43501,str:3726,h:0,d0:0,d1:0;
+                    ("carrier_02", Expression<Scenery> @:18041 check:43501,op:61,dt:55,nt:9,next:18042,nextCheck:43502,str:23422,h:0,d0:3,d1:65535;
+                        ("scenarios\objects\covenant\military\capital_ship\spacestation\spacestation", Expression<Animation> @:18042 check:43502,op:36,dt:36,nt:9,next:18043,nextCheck:43503,str:40370,h:0,d0:4417,d1:62305;
+                            ("capital_ship_02", Expression<StringId> @:18043 check:43503,op:11,dt:11,nt:9,next:18044,nextCheck:43504,str:41727,h:0,d0:8293,d1:3840;
+                                (4294901784, Expression<Entity> @:18044 check:43504,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:18776,h:0,d0:24,d1:65535;))))))
+            (____, Scope<Void> @:18045 check:43505,op:41,dt:4,nt:8,next:18050,nextCheck:43510,str:24948,h:3,d0:18046,d1:43506;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:18046 check:43506,op:41,dt:2,nt:9,next:18047,nextCheck:43507,str:7864,h:0,d0:0,d1:0;
+                    ("effects\scenery\solids\human_fleet_ships_attack_carrier", Expression<Effect> @:18047 check:43507,op:33,dt:33,nt:9,next:18048,nextCheck:43508,str:40310,h:0,d0:4406,d1:62294;
+                        (4294901763, Expression<Entity> @:18048 check:43508,op:56,dt:50,nt:9,next:18049,nextCheck:43509,str:23422,h:0,d0:3,d1:65535;
+                            ("bow", Expression<StringId> @:18049 check:43509,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:40366,h:0,d0:8684,d1:768;)))))
+            (____, Scope<Void> @:18050 check:43510,op:19,dt:4,nt:8,next:18053,nextCheck:43513,str:25051,h:3,d0:18051,d1:43511;
+                ("sleep", Expression<MethodOrOperator> @:18051 check:43511,op:19,dt:2,nt:9,next:18052,nextCheck:43512,str:90,h:0,d0:0,d1:0;
+                    (330, Expression<Short> @:18052 check:43512,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:25058,h:3,d0:330,d1:65535;)))
+            (____, Scope<Void> @:18053 check:43513,op:45,dt:4,nt:8,next:18056,nextCheck:43516,str:25065,h:3,d0:18054,d1:43514;
+                ("damage_players", Expression<MethodOrOperator> @:18054 check:43514,op:45,dt:2,nt:9,next:18055,nextCheck:43515,str:31114,h:0,d0:0,d1:0;
+                    ("effects\damage_effects\carrier_flyby", Expression<DamageEffect> @:18055 check:43515,op:34,dt:34,nt:9,next:65535,nextCheck:65535,str:40527,h:0,d0:4419,d1:62307;)))
+            (____, Scope<Void> @:18056 check:43516,op:21,dt:4,nt:8,next:18065,nextCheck:43525,str:25124,h:3,d0:18057,d1:43517;
+                ("sleep_until", Expression<MethodOrOperator> @:18057 check:43517,op:21,dt:2,nt:9,next:18058,nextCheck:43518,str:241,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:18058 check:43518,op:13,dt:5,nt:8,next:18064,nextCheck:43524,str:25137,h:3,d0:18059,d1:43519;
+                        ("=", Expression<MethodOrOperator> @:18059 check:43519,op:13,dt:2,nt:9,next:18060,nextCheck:43520,str:306,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:18060 check:43520,op:190,dt:7,nt:8,next:18063,nextCheck:43523,str:25140,h:3,d0:18061,d1:43521;
+                                ("scenery_get_animation_time", Expression<MethodOrOperator> @:18061 check:43521,op:190,dt:2,nt:9,next:18062,nextCheck:43522,str:40564,h:0,d0:0,d1:0;
+                                    ("carrier_02", Expression<Scenery> @:18062 check:43522,op:61,dt:55,nt:9,next:65535,nextCheck:65535,str:23422,h:0,d0:3,d1:65535;)))
+                            (0, Expression<Short> @:18063 check:43523,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:25180,h:3,d0:0,d1:65535;)))
+                    (1, Expression<Short> @:18064 check:43524,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:25183,h:3,d0:1,d1:65535;)))
+            (____, Scope<Void> @:18065 check:43525,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:25188,h:3,d0:18066,d1:43526;
+                ("object_destroy", Expression<MethodOrOperator> @:18066 check:43526,op:52,dt:2,nt:9,next:18067,nextCheck:43527,str:2937,h:0,d0:0,d1:0;
+                    (4294901763, Expression<Entity> @:18067 check:43527,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:23422,h:0,d0:3,d1:65535;))))))

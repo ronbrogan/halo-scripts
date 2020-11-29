@@ -1,0 +1,28 @@
+
+("gondola_01_cortana_reminder", MethodDecl<Void> @:152 op:0,dt:0,nt:65535,next:5150,str:14949,d0:0,d1:0;
+    (____, Scope<Void> @:5150 op:0,dt:4,nt:8,next:65535,str:61258,d0:5151,d1:63378;
+        ("begin", Expression<MethodOrOperator> @:5151 op:0,dt:2,nt:9,next:5126,str:142,d0:0,d1:0;
+            (____, Scope<Void> @:5126 op:281,dt:4,nt:8,next:5129,str:61304,d0:5127,d1:63354;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:5127 op:281,dt:2,nt:9,next:5128,str:10448,d0:0,d1:0;
+                    (False, Expression<Boolean> @:5128 op:5,dt:5,nt:9,next:65535,str:61324,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:5129 op:19,dt:4,nt:8,next:5132,str:61333,d0:5130,d1:63357;
+                ("sleep", Expression<MethodOrOperator> @:5130 op:19,dt:2,nt:9,next:5131,str:221,d0:0,d1:0;
+                    (60, Expression<Short> @:5131 op:7,dt:7,nt:9,next:65535,str:61340,d0:60,d1:65535;)))
+            (____, Scope<Void> @:5132 op:27,dt:4,nt:8,next:5135,str:61346,d0:5133,d1:63360;
+                ("print", Expression<MethodOrOperator> @:5133 op:27,dt:2,nt:9,next:5134,str:227,d0:0,d1:0;
+                    ("cortana: 'this gondola won't bring us all the way to the main-temple,'", Expression<String> @:5134 op:9,dt:9,nt:9,next:65535,str:12739,d0:12739,d1:0;)))
+            (____, Scope<Void> @:5135 op:27,dt:4,nt:8,next:5138,str:61429,d0:5136,d1:63363;
+                ("print", Expression<MethodOrOperator> @:5136 op:27,dt:2,nt:9,next:5137,str:227,d0:0,d1:0;
+                    ("'but it'll get us close. let's get on-board.'", Expression<String> @:5137 op:9,dt:9,nt:9,next:65535,str:12810,d0:12810,d1:0;)))
+            (____, Scope<Void> @:5138 op:19,dt:4,nt:8,next:5144,str:61487,d0:5139,d1:63366;
+                ("sleep", Expression<MethodOrOperator> @:5139 op:19,dt:2,nt:9,next:5140,str:221,d0:0,d1:0;
+                    (____, Scope<Short> @:5140 op:362,dt:7,nt:8,next:65535,str:61494,d0:5141,d1:63368;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:5141 op:362,dt:2,nt:9,next:5142,str:10115,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:5142 op:50,dt:50,nt:9,next:5143,str:52,d0:65535,d1:65535;
+                                ("0950", Expression<StringId> @:5143 op:11,dt:11,nt:9,next:65535,str:12856,d0:12482,d1:1024;))))))
+            (____, Scope<Void> @:5144 op:19,dt:4,nt:8,next:5147,str:61620,d0:5145,d1:63372;
+                ("sleep", Expression<MethodOrOperator> @:5145 op:19,dt:2,nt:9,next:5146,str:221,d0:0,d1:0;
+                    (30, Expression<Short> @:5146 op:7,dt:7,nt:9,next:65535,str:61627,d0:30,d1:65535;)))
+            (____, Scope<Void> @:5147 op:281,dt:4,nt:8,next:65535,str:61633,d0:5148,d1:63375;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:5148 op:281,dt:2,nt:9,next:5149,str:10448,d0:0,d1:0;
+                    (True, Expression<Boolean> @:5149 op:5,dt:5,nt:9,next:65535,str:61653,d0:65281,d1:65535;))))))

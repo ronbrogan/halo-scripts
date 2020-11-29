@@ -1,0 +1,35 @@
+
+("e8_mars_inf0_main", MethodDecl<Void> @:286 check:0,op:0,dt:0,nt:65535,next:10786,nextCheck:36246,str:19849,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:10786 check:36246,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:2346,h:2,d0:10787,d1:36247;
+        ("begin", Expression<MethodOrOperator> @:10787 check:36247,op:0,dt:2,nt:9,next:10755,nextCheck:36215,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:10755 check:36215,op:309,dt:4,nt:8,next:10759,nextCheck:36219,str:2410,h:2,d0:10756,d1:36216;
+                ("ai_migrate", Expression<MethodOrOperator> @:10756 check:36216,op:309,dt:2,nt:9,next:10757,nextCheck:36217,str:13128,h:0,d0:0,d1:0;
+                    ("e7_mars_inf0", Expression<AI> @:10757 check:36217,op:19,dt:19,nt:9,next:10758,nextCheck:36218,str:19708,h:0,d0:65,d1:0;
+                        ("e8_mars_inf0", Expression<AI> @:10758 check:36218,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19721,h:0,d0:67,d1:0;))))
+            (____, Scope<Void> @:10759 check:36219,op:317,dt:4,nt:8,next:10762,nextCheck:36222,str:2451,h:2,d0:10760,d1:36220;
+                ("ai_renew", Expression<MethodOrOperator> @:10760 check:36220,op:317,dt:2,nt:9,next:10761,nextCheck:36221,str:13207,h:0,d0:0,d1:0;
+                    ("e8_mars_inf0", Expression<AI> @:10761 check:36221,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19721,h:0,d0:67,d1:0;)))
+            (____, Scope<Void> @:10762 check:36222,op:300,dt:4,nt:8,next:10766,nextCheck:36226,str:2477,h:2,d0:10763,d1:36223;
+                ("ai_disposable", Expression<MethodOrOperator> @:10763 check:36223,op:300,dt:2,nt:9,next:10764,nextCheck:36224,str:13193,h:0,d0:0,d1:0;
+                    ("e8_mars_inf0", Expression<AI> @:10764 check:36224,op:19,dt:19,nt:9,next:10765,nextCheck:36225,str:19721,h:0,d0:67,d1:0;
+                        (False, Expression<Boolean> @:10765 check:36225,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:2505,h:2,d0:65280,d1:65535;))))
+            (____, Scope<Void> @:10766 check:36226,op:21,dt:4,nt:8,next:10782,nextCheck:36242,str:2588,h:2,d0:10767,d1:36227;
+                ("sleep_until", Expression<MethodOrOperator> @:10767 check:36227,op:21,dt:2,nt:9,next:10768,nextCheck:36228,str:294,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:10768 check:36228,op:5,dt:5,nt:8,next:65535,nextCheck:65535,str:2604,h:2,d0:10769,d1:36229;
+                        ("and", Expression<MethodOrOperator> @:10769 check:36229,op:5,dt:2,nt:9,next:10770,nextCheck:36230,str:730,h:0,d0:0,d1:0;
+                            (____, Scope<Boolean> @:10770 check:36230,op:15,dt:5,nt:8,next:10776,nextCheck:36236,str:2613,h:2,d0:10771,d1:36231;
+                                (">", Expression<MethodOrOperator> @:10771 check:36231,op:15,dt:2,nt:9,next:10772,nextCheck:36232,str:12195,h:0,d0:0,d1:0;
+                                    (____, Scope<Short> @:10772 check:36232,op:335,dt:7,nt:8,next:10775,nextCheck:36235,str:2616,h:2,d0:10773,d1:36233;
+                                        ("ai_spawn_count", Expression<MethodOrOperator> @:10773 check:36233,op:335,dt:2,nt:9,next:10774,nextCheck:36234,str:15920,h:0,d0:0,d1:0;
+                                            ("e8_cov_inf0", Expression<AI> @:10774 check:36234,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19679,h:0,d0:69,d1:0;)))
+                                    (0, Expression<Short> @:10775 check:36235,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2645,h:2,d0:0,d1:65535;)))
+                            (____, Scope<Boolean> @:10776 check:36236,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:2652,h:2,d0:10777,d1:36237;
+                                ("<=", Expression<MethodOrOperator> @:10777 check:36237,op:18,dt:2,nt:9,next:10778,nextCheck:36238,str:11797,h:0,d0:0,d1:0;
+                                    (____, Scope<Short> @:10778 check:36238,op:327,dt:7,nt:8,next:10781,nextCheck:36241,str:2656,h:2,d0:10779,d1:36239;
+                                        ("ai_living_count", Expression<MethodOrOperator> @:10779 check:36239,op:327,dt:2,nt:9,next:10780,nextCheck:36240,str:11800,h:0,d0:0,d1:0;
+                                            ("e8_cov_inf0", Expression<AI> @:10780 check:36240,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19679,h:0,d0:69,d1:0;)))
+                                    (0, Expression<Short> @:10781 check:36241,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2686,h:2,d0:0,d1:65535;)))))))
+            (____, Scope<Void> @:10782 check:36242,op:366,dt:4,nt:8,next:65535,nextCheck:65535,str:2700,h:2,d0:10783,d1:36243;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:10783 check:36243,op:366,dt:2,nt:9,next:10784,nextCheck:36244,str:4703,h:0,d0:0,d1:0;
+                    ("e8_mars_inf0", Expression<AI> @:10784 check:36244,op:19,dt:19,nt:9,next:10785,nextCheck:36245,str:19721,h:0,d0:67,d1:0;
+                        ("cs_e8_mars_inf0_no_assholes", Expression<AIScript> @:10785 check:36245,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:19734,h:0,d0:275,d1:0;)))))))

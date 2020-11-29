@@ -1,0 +1,28 @@
+
+("cs_ins_weld_b", MethodDecl<Void> @:207 op:0,dt:0,nt:65535,next:7949,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:7949 op:0,dt:4,nt:8,next:65535,str:23299,d0:7950,d1:33410;
+        ("begin", Expression<MethodOrOperator> @:7950 op:0,dt:2,nt:9,next:7925,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:7925 op:440,dt:4,nt:8,next:7928,str:23338,d0:7926,d1:33386;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:7926 op:440,dt:2,nt:9,next:7927,str:17606,d0:0,d1:0;
+                    (True, Expression<Boolean> @:7927 op:5,dt:5,nt:9,next:65535,str:23358,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:7928 op:449,dt:4,nt:8,next:7931,str:23366,d0:7929,d1:33389;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:7929 op:449,dt:2,nt:9,next:7930,str:1239,d0:0,d1:0;
+                    (True, Expression<Boolean> @:7930 op:5,dt:5,nt:9,next:65535,str:23398,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:7931 op:381,dt:4,nt:8,next:7935,str:23406,d0:7932,d1:33392;
+                ("cs_fly_to_and_face", Expression<MethodOrOperator> @:7932 op:381,dt:2,nt:9,next:7933,str:17625,d0:0,d1:0;
+                    ("insertion/p5", Expression<SpatialPoint> @:7933 op:28,dt:28,nt:9,next:7934,str:17683,d0:9,d1:0;
+                        ("insertion/p6", Expression<SpatialPoint> @:7934 op:28,dt:28,nt:9,next:65535,str:17696,d0:10,d1:0;))))
+            (____, Scope<Void> @:7935 op:406,dt:4,nt:8,next:7939,str:23455,d0:7936,d1:33396;
+                ("cs_shoot_point", Expression<MethodOrOperator> @:7936 op:406,dt:2,nt:9,next:7937,str:17363,d0:0,d1:0;
+                    (True, Expression<Boolean> @:7937 op:5,dt:5,nt:9,next:7938,str:23471,d0:65281,d1:65535;
+                        ("insertion/p6", Expression<SpatialPoint> @:7938 op:28,dt:28,nt:9,next:65535,str:17696,d0:10,d1:0;))))
+            (____, Scope<Void> @:7939 op:19,dt:4,nt:8,next:7945,str:23492,d0:7940,d1:33400;
+                ("sleep", Expression<MethodOrOperator> @:7940 op:19,dt:2,nt:9,next:7941,str:80,d0:0,d1:0;
+                    (____, Scope<Short> @:7941 op:124,dt:7,nt:8,next:65535,str:23499,d0:7942,d1:33402;
+                        ("random_range", Expression<MethodOrOperator> @:7942 op:124,dt:2,nt:9,next:7943,str:17670,d0:0,d1:0;
+                            (150, Expression<Short> @:7943 op:7,dt:7,nt:9,next:7944,str:23513,d0:150,d1:65535;
+                                (300, Expression<Short> @:7944 op:7,dt:7,nt:9,next:65535,str:23517,d0:300,d1:65535;))))))
+            (____, Scope<Void> @:7945 op:406,dt:4,nt:8,next:65535,str:23525,d0:7946,d1:33406;
+                ("cs_shoot_point", Expression<MethodOrOperator> @:7946 op:406,dt:2,nt:9,next:7947,str:17363,d0:0,d1:0;
+                    (False, Expression<Boolean> @:7947 op:5,dt:5,nt:9,next:7948,str:23541,d0:65280,d1:65535;
+                        ("insertion/p6", Expression<SpatialPoint> @:7948 op:28,dt:28,nt:9,next:65535,str:17696,d0:10,d1:0;)))))))

@@ -1,0 +1,13 @@
+
+("sleep_underhangar_return", MethodDecl<Void> @:376 check:0,op:0,dt:0,nt:65535,next:31468,nextCheck:56928,str:42000,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:31468 check:56928,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:38938,h:4,d0:31469,d1:56929;
+        ("begin", Expression<MethodOrOperator> @:31469 check:56929,op:0,dt:2,nt:9,next:31459,nextCheck:56919,str:210,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:31459 check:56919,op:20,dt:4,nt:8,next:31462,nextCheck:56922,str:38985,h:4,d0:31460,d1:56920;
+                ("sleep_forever", Expression<MethodOrOperator> @:31460 check:56920,op:20,dt:2,nt:9,next:31461,nextCheck:56921,str:9653,h:0,d0:0,d1:0;
+                    ("underhangar_secondtime_start", Expression<ScriptReference> @:31461 check:56921,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:38786,h:0,d0:324,d1:65535;)))
+            (____, Scope<Void> @:31462 check:56922,op:20,dt:4,nt:8,next:31465,nextCheck:56925,str:39032,h:4,d0:31463,d1:56923;
+                ("sleep_forever", Expression<MethodOrOperator> @:31463 check:56923,op:20,dt:2,nt:9,next:31464,nextCheck:56924,str:9653,h:0,d0:0,d1:0;
+                    ("to_hangar_secondtime", Expression<ScriptReference> @:31464 check:56924,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:38815,h:0,d0:326,d1:65535;)))
+            (____, Scope<Void> @:31465 check:56925,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:39071,h:4,d0:31466,d1:56926;
+                ("sleep_forever", Expression<MethodOrOperator> @:31466 check:56926,op:20,dt:2,nt:9,next:31467,nextCheck:56927,str:9653,h:0,d0:0,d1:0;
+                    ("underhangar_return_commander", Expression<ScriptReference> @:31467 check:56927,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:34376,h:0,d0:323,d1:65535;))))))

@@ -1,0 +1,27 @@
+
+("cs_e23_mars_pelican2_0_entry", MethodDecl<Void> @:239 op:0,dt:0,nt:65535,next:7365,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:7365 op:0,dt:4,nt:8,next:65535,str:24741,d0:7366,d1:32826;
+        ("begin", Expression<MethodOrOperator> @:7366 op:0,dt:2,nt:9,next:7342,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:7342 op:438,dt:4,nt:8,next:7345,str:24795,d0:7343,d1:32803;
+                ("cs_vehicle_boost", Expression<MethodOrOperator> @:7343 op:438,dt:2,nt:9,next:7344,str:15358,d0:0,d1:0;
+                    (True, Expression<Boolean> @:7344 op:5,dt:5,nt:9,next:65535,str:24813,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:7345 op:435,dt:4,nt:8,next:7348,str:24821,d0:7346,d1:32806;
+                ("cs_ignore_obstacles", Expression<MethodOrOperator> @:7346 op:435,dt:2,nt:9,next:7347,str:15375,d0:0,d1:0;
+                    (True, Expression<Boolean> @:7347 op:5,dt:5,nt:9,next:65535,str:24842,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:7348 op:449,dt:4,nt:8,next:7351,str:24850,d0:7349,d1:32809;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:7349 op:449,dt:2,nt:9,next:7350,str:15395,d0:0,d1:0;
+                    (True, Expression<Boolean> @:7350 op:5,dt:5,nt:9,next:65535,str:24882,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:7351 op:383,dt:4,nt:8,next:7354,str:24890,d0:7352,d1:32812;
+                ("cs_fly_by", Expression<MethodOrOperator> @:7352 op:383,dt:2,nt:9,next:7353,str:15426,d0:0,d1:0;
+                    ("e23_mars_pelican2_flyby/p0", Expression<SpatialPoint> @:7353 op:28,dt:28,nt:9,next:65535,str:15436,d0:0,d1:30;)))
+            (____, Scope<Void> @:7354 op:383,dt:4,nt:8,next:7357,str:24931,d0:7355,d1:32815;
+                ("cs_fly_by", Expression<MethodOrOperator> @:7355 op:383,dt:2,nt:9,next:7356,str:15426,d0:0,d1:0;
+                    ("e23_mars_pelican2_flyby/p1", Expression<SpatialPoint> @:7356 op:28,dt:28,nt:9,next:65535,str:15463,d0:1,d1:30;)))
+            (____, Scope<Void> @:7357 op:52,dt:4,nt:8,next:7362,str:24972,d0:7358,d1:32818;
+                ("object_destroy", Expression<MethodOrOperator> @:7358 op:52,dt:2,nt:9,next:7359,str:2030,d0:0,d1:0;
+                    (____, Scope<Entity> @:7359 op:340,dt:50,nt:8,next:65535,str:24988,d0:7360,d1:32820;
+                        ("ai_vehicle_get", Expression<MethodOrOperator> @:7360 op:340,dt:2,nt:9,next:7361,str:15490,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:7361 op:19,dt:19,nt:13,next:65535,str:13888,d0:33564,d1:65535;)))))
+            (____, Scope<Void> @:7362 op:298,dt:4,nt:8,next:65535,str:25025,d0:7363,d1:32823;
+                ("ai_erase", Expression<MethodOrOperator> @:7363 op:298,dt:2,nt:9,next:7364,str:15505,d0:0,d1:0;
+                    ("ai_current_actor", VariableAccess<AI> @:7364 op:19,dt:19,nt:13,next:65535,str:13888,d0:33564,d1:65535;))))))

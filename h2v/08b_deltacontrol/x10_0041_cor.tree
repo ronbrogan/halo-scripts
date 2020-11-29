@@ -1,0 +1,28 @@
+
+("x10_0041_cor", MethodDecl<Void> @:256 check:0,op:0,dt:0,nt:65535,next:9461,nextCheck:34921,str:22983,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:9461 check:34921,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:44841,h:1,d0:9462,d1:34922;
+        ("begin", Expression<MethodOrOperator> @:9462 check:34922,op:0,dt:2,nt:9,next:9437,nextCheck:34897,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:9437 check:34897,op:19,dt:4,nt:8,next:9440,nextCheck:34900,str:44872,h:1,d0:9438,d1:34898;
+                ("sleep", Expression<MethodOrOperator> @:9438 check:34898,op:19,dt:2,nt:9,next:9439,nextCheck:34899,str:85,h:0,d0:0,d1:0;
+                    (520, Expression<Short> @:9439 check:34899,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:44879,h:1,d0:520,d1:65535;)))
+            (____, Scope<Void> @:9440 check:34900,op:220,dt:4,nt:8,next:9446,nextCheck:34906,str:44889,h:1,d0:9441,d1:34901;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:9441 check:34901,op:220,dt:2,nt:9,next:9442,nextCheck:34902,str:9857,h:0,d0:0,d1:0;
+                    ("cortana", Expression<Unit> @:9442 check:34902,op:57,dt:51,nt:9,next:9443,nextCheck:34903,str:22882,h:0,d0:96,d1:65535;
+                        ("pain", Expression<StringId> @:9443 check:34903,op:11,dt:11,nt:9,next:9444,nextCheck:34904,str:11607,h:0,d0:432,d1:1024;
+                            (0.25f, Expression<Float> @:9444 check:34904,op:6,dt:6,nt:9,next:9445,nextCheck:34905,str:44928,h:1,d0:0,d1:16000;
+                                (60, Expression<Short> @:9445 check:34905,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:44932,h:1,d0:60,d1:65535;))))))
+            (____, Scope<Void> @:9446 check:34906,op:27,dt:4,nt:8,next:9449,nextCheck:34909,str:44938,h:1,d0:9447,d1:34907;
+                ("print", Expression<MethodOrOperator> @:9447 check:34907,op:27,dt:2,nt:9,next:9448,nextCheck:34908,str:91,h:0,d0:0,d1:0;
+                    ("cortana - pain .25 60", Expression<String> @:9448 check:34908,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:22903,h:0,d0:16511,d1:12561;)))
+            (____, Scope<Void> @:9449 check:34909,op:19,dt:4,nt:8,next:9452,nextCheck:34912,str:44975,h:1,d0:9450,d1:34910;
+                ("sleep", Expression<MethodOrOperator> @:9450 check:34910,op:19,dt:2,nt:9,next:9451,nextCheck:34911,str:85,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:9451 check:34911,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:44982,h:1,d0:30,d1:65535;)))
+            (____, Scope<Void> @:9452 check:34912,op:596,dt:4,nt:8,next:9457,nextCheck:34917,str:44988,h:1,d0:9453,d1:34913;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:9453 check:34913,op:596,dt:2,nt:9,next:9454,nextCheck:34914,str:1586,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\08_controlroom\cinematic\x10_0041_cor", Expression<Sound> @:9454 check:34914,op:32,dt:32,nt:9,next:9455,nextCheck:34915,str:22925,h:0,d0:783,d1:58501;
+                        (4294901856, Expression<Entity> @:9455 check:34915,op:56,dt:50,nt:9,next:9456,nextCheck:34916,str:22882,h:0,d0:96,d1:65535;
+                            (1f, Expression<Float> @:9456 check:34916,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:45075,h:1,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:9457 check:34917,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:45080,h:1,d0:9458,d1:34918;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:9458 check:34918,op:562,dt:2,nt:9,next:9459,nextCheck:34919,str:7661,h:0,d0:0,d1:0;
+                    ("x10_0041_cor", Expression<StringId> @:9459 check:34919,op:11,dt:11,nt:9,next:9460,nextCheck:34920,str:22983,h:0,d0:4642,d1:3072;
+                        (1f, Expression<Float> @:9460 check:34920,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:45113,h:1,d0:0,d1:16256;)))))))

@@ -1,0 +1,24 @@
+
+("x03_fov_03", MethodDecl<Void> @:122 check:0,op:0,dt:0,nt:65535,next:4075,nextCheck:62302,str:9918,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:4075 check:62302,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:48820,h:0,d0:4076,d1:62303;
+        ("begin", Expression<MethodOrOperator> @:4076 check:62303,op:0,dt:2,nt:9,next:4055,nextCheck:62282,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:4055 check:62282,op:19,dt:4,nt:8,next:4058,nextCheck:62285,str:48849,h:0,d0:4056,d1:62283;
+                ("sleep", Expression<MethodOrOperator> @:4056 check:62283,op:19,dt:2,nt:9,next:4057,nextCheck:62284,str:85,h:0,d0:0,d1:0;
+                    (27, Expression<Short> @:4057 check:62284,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:48856,h:0,d0:27,d1:65535;)))
+            (____, Scope<Void> @:4058 check:62285,op:27,dt:4,nt:8,next:4061,nextCheck:62288,str:48862,h:0,d0:4059,d1:62286;
+                ("print", Expression<MethodOrOperator> @:4059 check:62286,op:27,dt:2,nt:9,next:4060,nextCheck:62287,str:91,h:0,d0:0,d1:0;
+                    ("fov change: 5 -> 50 over 38 ticks", Expression<String> @:4060 check:62287,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:9719,h:0,d0:54191,d1:12462;)))
+            (____, Scope<Void> @:4061 check:62288,op:459,dt:4,nt:8,next:4065,nextCheck:62292,str:48908,h:0,d0:4062,d1:62289;
+                ("camera_set_field_of_view", Expression<MethodOrOperator> @:4062 check:62289,op:459,dt:2,nt:9,next:4063,nextCheck:62290,str:1949,h:0,d0:0,d1:0;
+                    (60f, Expression<Float> @:4063 check:62290,op:6,dt:6,nt:9,next:4064,nextCheck:62291,str:48934,h:0,d0:0,d1:17008;
+                        (38, Expression<Short> @:4064 check:62291,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:48937,h:0,d0:38,d1:65535;))))
+            (____, Scope<Void> @:4065 check:62292,op:19,dt:4,nt:8,next:4068,nextCheck:62295,str:48943,h:0,d0:4066,d1:62293;
+                ("sleep", Expression<MethodOrOperator> @:4066 check:62293,op:19,dt:2,nt:9,next:4067,nextCheck:62294,str:85,h:0,d0:0,d1:0;
+                    (191, Expression<Short> @:4067 check:62294,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:48950,h:0,d0:191,d1:65535;)))
+            (____, Scope<Void> @:4068 check:62295,op:27,dt:4,nt:8,next:4071,nextCheck:62298,str:48957,h:0,d0:4069,d1:62296;
+                ("print", Expression<MethodOrOperator> @:4069 check:62296,op:27,dt:2,nt:9,next:4070,nextCheck:62297,str:91,h:0,d0:0,d1:0;
+                    ("fov change: 50 -> 15 over 26 ticks", Expression<String> @:4070 check:62297,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:9753,h:0,d0:54225,d1:12462;)))
+            (____, Scope<Void> @:4071 check:62298,op:459,dt:4,nt:8,next:65535,nextCheck:65535,str:49004,h:0,d0:4072,d1:62299;
+                ("camera_set_field_of_view", Expression<MethodOrOperator> @:4072 check:62299,op:459,dt:2,nt:9,next:4073,nextCheck:62300,str:1949,h:0,d0:0,d1:0;
+                    (25f, Expression<Float> @:4073 check:62300,op:6,dt:6,nt:9,next:4074,nextCheck:62301,str:49030,h:0,d0:0,d1:16840;
+                        (26, Expression<Short> @:4074 check:62301,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:49033,h:0,d0:26,d1:65535;)))))))

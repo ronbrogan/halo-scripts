@@ -1,0 +1,29 @@
+
+("prep_return_from_intro", MethodDecl<Void> @:242 op:0,dt:0,nt:65535,next:7894,str:35946,d0:0,d1:0;
+    (____, Scope<Void> @:7894 op:0,dt:4,nt:8,next:65535,str:28873,d0:7895,d1:33355;
+        ("begin", Expression<MethodOrOperator> @:7895 op:0,dt:2,nt:9,next:7869,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:7869 op:290,dt:4,nt:8,next:7872,str:28918,d0:7870,d1:33330;
+                ("ai_place", Expression<MethodOrOperator> @:7870 op:290,dt:2,nt:9,next:7871,str:17225,d0:0,d1:0;
+                    ("intro_phantom", Expression<AI> @:7871 op:19,dt:19,nt:9,next:65535,str:17234,d0:1,d1:0;)))
+            (____, Scope<Void> @:7872 op:105,dt:4,nt:8,next:7877,str:28947,d0:7873,d1:33333;
+                ("object_teleport", Expression<MethodOrOperator> @:7873 op:105,dt:2,nt:9,next:7874,str:17248,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:7874 op:0,dt:50,nt:10,next:7876,str:28964,d0:7875,d1:33335;
+                        ("player0", Expression<MethodOrOperator> @:7875 op:0,dt:2,nt:9,next:65535,str:607,d0:0,d1:0;))
+                    ("player0_start", Expression<LocationFlag> @:7876 op:14,dt:14,nt:9,next:65535,str:17264,d0:3,d1:0;)))
+            (____, Scope<Void> @:7877 op:105,dt:4,nt:8,next:7882,str:28991,d0:7878,d1:33338;
+                ("object_teleport", Expression<MethodOrOperator> @:7878 op:105,dt:2,nt:9,next:7879,str:17248,d0:0,d1:0;
+                    ("player1", ScriptInvocation<Entity> @:7879 op:1,dt:50,nt:10,next:7881,str:29008,d0:7880,d1:33340;
+                        ("player1", Expression<MethodOrOperator> @:7880 op:1,dt:2,nt:9,next:65535,str:615,d0:0,d1:0;))
+                    ("player1_start", Expression<LocationFlag> @:7881 op:14,dt:14,nt:9,next:65535,str:17278,d0:4,d1:0;)))
+            (____, Scope<Void> @:7882 op:290,dt:4,nt:8,next:7885,str:29037,d0:7883,d1:33343;
+                ("ai_place", Expression<MethodOrOperator> @:7883 op:290,dt:2,nt:9,next:7884,str:17225,d0:0,d1:0;
+                    ("intro_elites", Expression<AI> @:7884 op:19,dt:19,nt:9,next:65535,str:17292,d0:0,d1:0;)))
+            (____, Scope<Void> @:7885 op:290,dt:4,nt:8,next:7888,str:29063,d0:7886,d1:33346;
+                ("ai_place", Expression<MethodOrOperator> @:7886 op:290,dt:2,nt:9,next:7887,str:17225,d0:0,d1:0;
+                    ("allies_elites_01", Expression<AI> @:7887 op:19,dt:19,nt:9,next:65535,str:17305,d0:3,d1:0;)))
+            (____, Scope<Void> @:7888 op:290,dt:4,nt:8,next:7891,str:29093,d0:7889,d1:33349;
+                ("ai_place", Expression<MethodOrOperator> @:7889 op:290,dt:2,nt:9,next:7890,str:17225,d0:0,d1:0;
+                    ("hacker", Expression<AI> @:7890 op:19,dt:19,nt:9,next:65535,str:17322,d0:4,d1:0;)))
+            (____, Scope<Void> @:7891 op:290,dt:4,nt:8,next:65535,str:29113,d0:7892,d1:33352;
+                ("ai_place", Expression<MethodOrOperator> @:7892 op:290,dt:2,nt:9,next:7893,str:17225,d0:0,d1:0;
+                    ("allies_grunts_01", Expression<AI> @:7893 op:19,dt:19,nt:9,next:65535,str:17329,d0:2,d1:0;))))))

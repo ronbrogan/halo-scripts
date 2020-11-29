@@ -1,0 +1,38 @@
+
+("cinematic_lighting_iac_ext_02", MethodDecl<Void> @:293 op:0,dt:0,nt:65535,next:11176,str:26827,d0:0,d1:0;
+    (____, Scope<Void> @:11176 op:0,dt:4,nt:8,next:65535,str:5986,d0:11177,d1:36637;
+        ("begin", Expression<MethodOrOperator> @:11177 op:0,dt:2,nt:9,next:11142,str:11,d0:0,d1:0;
+            (____, Scope<Void> @:11142 op:19,dt:4,nt:8,next:11145,str:6037,d0:11143,d1:36603;
+                ("sleep", Expression<MethodOrOperator> @:11143 op:19,dt:2,nt:9,next:11144,str:90,d0:0,d1:0;
+                    (502, Expression<Short> @:11144 op:7,dt:7,nt:9,next:65535,str:6044,d0:502,d1:65535;)))
+            (____, Scope<Void> @:11145 op:27,dt:4,nt:8,next:11148,str:6051,d0:11146,d1:36606;
+                ("print", Expression<MethodOrOperator> @:11146 op:27,dt:2,nt:9,next:11147,str:96,d0:0,d1:0;
+                    ("light iac exterior", Expression<String> @:11147 op:9,dt:9,nt:9,next:65535,str:26511,d0:26511,d1:0;)))
+            (____, Scope<Void> @:11148 op:96,dt:4,nt:8,next:11155,str:6085,d0:11149,d1:36609;
+                ("cinematic_lighting_set_primary_light", Expression<MethodOrOperator> @:11149 op:96,dt:2,nt:9,next:11150,str:2271,d0:0,d1:0;
+                    (6f, Expression<Float> @:11150 op:6,dt:6,nt:9,next:11151,str:6123,d0:0,d1:16576;
+                        (0f, Expression<Float> @:11151 op:6,dt:6,nt:9,next:11152,str:6125,d0:0,d1:0;
+                            (0.47451f, Expression<Float> @:11152 op:6,dt:6,nt:9,next:11153,str:6127,d0:62202,d1:16114;
+                                (0.423529f, Expression<Float> @:11153 op:6,dt:6,nt:9,next:11154,str:6135,d0:55499,d1:16088;
+                                    (0.392157f, Expression<Float> @:11154 op:6,dt:6,nt:9,next:65535,str:6144,d0:51405,d1:16072;)))))))
+            (____, Scope<Void> @:11155 op:97,dt:4,nt:8,next:11162,str:6156,d0:11156,d1:36616;
+                ("cinematic_lighting_set_secondary_light", Expression<MethodOrOperator> @:11156 op:97,dt:2,nt:9,next:11157,str:2308,d0:0,d1:0;
+                    (45f, Expression<Float> @:11157 op:6,dt:6,nt:9,next:11158,str:6196,d0:0,d1:16948;
+                        (116f, Expression<Float> @:11158 op:6,dt:6,nt:9,next:11159,str:6199,d0:0,d1:17128;
+                            (0.0784314f, Expression<Float> @:11159 op:6,dt:6,nt:9,next:11160,str:6203,d0:41124,d1:15776;
+                                (0.0745098f, Expression<Float> @:11160 op:6,dt:6,nt:9,next:11161,str:6213,d0:39064,d1:15768;
+                                    (0.101961f, Expression<Float> @:11161 op:6,dt:6,nt:9,next:65535,str:6223,d0:53486,d1:15824;)))))))
+            (____, Scope<Void> @:11162 op:98,dt:4,nt:8,next:11167,str:6235,d0:11163,d1:36623;
+                ("cinematic_lighting_set_ambient_light", Expression<MethodOrOperator> @:11163 op:98,dt:2,nt:9,next:11164,str:2347,d0:0,d1:0;
+                    (0.0392157f, Expression<Float> @:11164 op:6,dt:6,nt:9,next:11165,str:6273,d0:41124,d1:15648;
+                        (0.0392157f, Expression<Float> @:11165 op:6,dt:6,nt:9,next:11166,str:6283,d0:41124,d1:15648;
+                            (0.0470588f, Expression<Float> @:11166 op:6,dt:6,nt:9,next:65535,str:6293,d0:49338,d1:15680;)))))
+            (____, Scope<Void> @:11167 op:885,dt:4,nt:8,next:11170,str:6309,d0:11168,d1:36628;
+                ("rasterizer_bloom_override", Expression<MethodOrOperator> @:11168 op:885,dt:2,nt:9,next:11169,str:2595,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11169 op:5,dt:5,nt:9,next:65535,str:6336,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:11170 op:888,dt:4,nt:8,next:11173,str:6341,d0:11171,d1:36631;
+                ("rasterizer_bloom_override_threshold", Expression<MethodOrOperator> @:11171 op:888,dt:2,nt:9,next:11172,str:2621,d0:0,d1:0;
+                    (0.6f, Expression<Float> @:11172 op:6,dt:6,nt:9,next:65535,str:6378,d0:39322,d1:16153;)))
+            (____, Scope<Void> @:11173 op:889,dt:4,nt:8,next:65535,str:6385,d0:11174,d1:36634;
+                ("rasterizer_bloom_override_brightness", Expression<MethodOrOperator> @:11174 op:889,dt:2,nt:9,next:11175,str:2657,d0:0,d1:0;
+                    (0.5f, Expression<Float> @:11175 op:6,dt:6,nt:9,next:65535,str:6423,d0:0,d1:16128;))))))

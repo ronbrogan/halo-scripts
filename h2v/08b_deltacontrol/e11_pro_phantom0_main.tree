@@ -1,0 +1,28 @@
+
+("e11_pro_phantom0_main", MethodDecl<Void> @:375 check:0,op:0,dt:0,nt:65535,next:13085,nextCheck:38545,str:30051,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:13085 check:38545,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:25515,h:2,d0:13086,d1:38546;
+        ("begin", Expression<MethodOrOperator> @:13086 check:38546,op:0,dt:2,nt:9,next:13061,nextCheck:38521,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:13061 check:38521,op:21,dt:4,nt:8,next:13064,nextCheck:38524,str:25604,h:2,d0:13062,d1:38522;
+                ("sleep_until", Expression<MethodOrOperator> @:13062 check:38522,op:21,dt:2,nt:9,next:13063,nextCheck:38523,str:236,h:0,d0:0,d1:0;
+                    ("g_e11_door_open", VariableAccess<Boolean> @:13063 check:38523,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:29810,h:0,d0:33,d1:0;)))
+            (____, Scope<Void> @:13064 check:38524,op:21,dt:4,nt:8,next:13074,nextCheck:38534,str:25636,h:2,d0:13065,d1:38525;
+                ("sleep_until", Expression<MethodOrOperator> @:13065 check:38525,op:21,dt:2,nt:9,next:13066,nextCheck:38526,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:13066 check:38526,op:25,dt:5,nt:8,next:13073,nextCheck:38533,str:25652,h:2,d0:13067,d1:38527;
+                        ("not", Expression<MethodOrOperator> @:13067 check:38527,op:25,dt:2,nt:9,next:13068,nextCheck:38528,str:402,h:0,d0:0,d1:0;
+                            (____, Scope<Boolean> @:13068 check:38528,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:25657,h:2,d0:13069,d1:38529;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:13069 check:38529,op:33,dt:2,nt:9,next:13070,nextCheck:38530,str:4732,h:0,d0:0,d1:0;
+                                    ("tv_e11_outer_cove", Expression<Trigger> @:13070 check:38530,op:13,dt:13,nt:9,next:13071,nextCheck:38531,str:29826,h:0,d0:67,d1:0;
+                                        (____, Scope<List> @:13071 check:38531,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:25696,h:2,d0:13072,d1:38532;
+                                            ("players", Expression<MethodOrOperator> @:13072 check:38532,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))))
+                    (30, Expression<Short> @:13073 check:38533,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:25711,h:2,d0:30,d1:65535;)))
+            (____, Scope<Void> @:13074 check:38534,op:290,dt:4,nt:8,next:13077,nextCheck:38537,str:25737,h:2,d0:13075,d1:38535;
+                ("ai_place", Expression<MethodOrOperator> @:13075 check:38535,op:290,dt:2,nt:9,next:13076,nextCheck:38536,str:5315,h:0,d0:0,d1:0;
+                    ("e11_pro_phantom0_0", Expression<AI> @:13076 check:38536,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29752,h:0,d0:79,d1:0;)))
+            (____, Scope<Void> @:13077 check:38537,op:292,dt:4,nt:8,next:13081,nextCheck:38541,str:25796,h:2,d0:13078,d1:38538;
+                ("ai_place_in_vehicle", Expression<MethodOrOperator> @:13078 check:38538,op:292,dt:2,nt:9,next:13079,nextCheck:38539,str:29771,h:0,d0:0,d1:0;
+                    ("e11_pro_wraith0_0", Expression<AI> @:13079 check:38539,op:19,dt:19,nt:9,next:13080,nextCheck:38540,str:28686,h:0,d0:73,d1:0;
+                        ("e11_pro_phantom0_0", Expression<AI> @:13080 check:38540,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29752,h:0,d0:79,d1:0;))))
+            (____, Scope<Void> @:13081 check:38541,op:312,dt:4,nt:8,next:65535,nextCheck:65535,str:25857,h:2,d0:13082,d1:38542;
+                ("ai_braindead", Expression<MethodOrOperator> @:13082 check:38542,op:312,dt:2,nt:9,next:13083,nextCheck:38543,str:28673,h:0,d0:0,d1:0;
+                    ("e11_pro_wraith0_0", Expression<AI> @:13083 check:38543,op:19,dt:19,nt:9,next:13084,nextCheck:38544,str:28686,h:0,d0:73,d1:0;
+                        (True, Expression<Boolean> @:13084 check:38544,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:25889,h:2,d0:65281,d1:65535;)))))))

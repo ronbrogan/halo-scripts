@@ -1,0 +1,34 @@
+
+("test_scarab_boarding", MethodDecl<Void> @:271 op:0,dt:0,nt:65535,next:8935,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:8935 op:0,dt:4,nt:8,next:65535,str:46267,d0:8936,d1:34396;
+        ("begin", Expression<MethodOrOperator> @:8936 op:0,dt:2,nt:9,next:8905,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:8905 op:105,dt:4,nt:8,next:8910,str:46310,d0:8906,d1:34366;
+                ("object_teleport", Expression<MethodOrOperator> @:8906 op:105,dt:2,nt:9,next:8907,str:18689,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:8907 op:0,dt:50,nt:10,next:8909,str:46327,d0:8908,d1:34368;
+                        ("player0", Expression<MethodOrOperator> @:8908 op:0,dt:2,nt:9,next:65535,str:607,d0:0,d1:0;))
+                    ("e23_test", Expression<LocationFlag> @:8909 op:14,dt:14,nt:9,next:65535,str:18705,d0:10,d1:0;)))
+            (____, Scope<Void> @:8910 op:46,dt:4,nt:8,next:8913,str:46377,d0:8911,d1:34371;
+                ("object_create", Expression<MethodOrOperator> @:8911 op:46,dt:2,nt:9,next:8912,str:7648,d0:0,d1:0;
+                    ("scarab", Expression<EntityIdentifier> @:8912 op:56,dt:56,nt:9,next:65535,str:13941,d0:102,d1:65535;)))
+            (____, Scope<Void> @:8913 op:469,dt:4,nt:8,next:8916,str:46402,d0:8914,d1:34374;
+                ("pvs_set_object", Expression<MethodOrOperator> @:8914 op:469,dt:2,nt:9,next:8915,str:16704,d0:0,d1:0;
+                    (4294901862, Expression<Entity> @:8915 op:56,dt:50,nt:9,next:65535,str:13941,d0:102,d1:65535;)))
+            (____, Scope<Void> @:8916 op:105,dt:4,nt:8,next:8920,str:46428,d0:8917,d1:34377;
+                ("object_teleport", Expression<MethodOrOperator> @:8917 op:105,dt:2,nt:9,next:8918,str:18689,d0:0,d1:0;
+                    (4294901862, Expression<Entity> @:8918 op:56,dt:50,nt:9,next:8919,str:13941,d0:102,d1:65535;
+                        ("e23_scarab_start", Expression<LocationFlag> @:8919 op:14,dt:14,nt:9,next:65535,str:18714,d0:16,d1:0;))))
+            (____, Scope<Void> @:8920 op:4,dt:4,nt:8,next:8924,str:46472,d0:8921,d1:34381;
+                ("set", Expression<MethodOrOperator> @:8921 op:4,dt:2,nt:9,next:8922,str:2724,d0:0,d1:0;
+                    ("g_e23_scarab_arrived", VariableAccess<Boolean> @:8922 op:65535,dt:5,nt:13,next:8923,str:18731,d0:8,d1:0;
+                        (True, Expression<Boolean> @:8923 op:5,dt:5,nt:9,next:65535,str:46498,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:8924 op:2,dt:4,nt:8,next:8932,str:46508,d0:8925,d1:34385;
+                ("if", Expression<MethodOrOperator> @:8925 op:2,dt:2,nt:9,next:8926,str:461,d0:0,d1:0;
+                    (____, Scope<Boolean> @:8926 op:25,dt:5,nt:8,next:8929,str:46512,d0:8927,d1:34387;
+                        ("not", Expression<MethodOrOperator> @:8927 op:25,dt:2,nt:9,next:8928,str:402,d0:0,d1:0;
+                            ("g_e23_started", VariableAccess<Boolean> @:8928 op:5,dt:5,nt:13,next:65535,str:16773,d0:20,d1:0;)))
+                    (____, Scope<Void> @:8929 op:22,dt:4,nt:8,next:65535,str:46532,d0:8930,d1:34390;
+                        ("wake", Expression<MethodOrOperator> @:8930 op:22,dt:2,nt:9,next:8931,str:1071,d0:0,d1:0;
+                            ("e23_main", Expression<ScriptReference> @:8931 op:10,dt:10,nt:9,next:65535,str:18450,d0:270,d1:65535;)))))
+            (____, Scope<Void> @:8932 op:22,dt:4,nt:8,next:65535,str:46551,d0:8933,d1:34393;
+                ("wake", Expression<MethodOrOperator> @:8933 op:22,dt:2,nt:9,next:8934,str:1071,d0:0,d1:0;
+                    ("e23_scarab", Expression<ScriptReference> @:8934 op:10,dt:10,nt:9,next:65535,str:18752,d0:257,d1:65535;))))))

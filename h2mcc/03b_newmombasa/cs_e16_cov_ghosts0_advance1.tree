@@ -1,0 +1,34 @@
+
+("cs_e16_cov_ghosts0_advance1", MethodDecl<Void> @:375 op:0,dt:0,nt:65535,next:13560,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:13560 op:0,dt:4,nt:8,next:65535,str:46082,d0:13561,d1:39021;
+        ("begin", Expression<MethodOrOperator> @:13561 op:0,dt:2,nt:9,next:13530,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:13530 op:440,dt:4,nt:8,next:13533,str:46135,d0:13531,d1:38991;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:13531 op:440,dt:2,nt:9,next:13532,str:16394,d0:0,d1:0;
+                    (True, Expression<Boolean> @:13532 op:5,dt:5,nt:9,next:65535,str:46155,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:13533 op:441,dt:4,nt:8,next:13536,str:46163,d0:13534,d1:38994;
+                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:13534 op:441,dt:2,nt:9,next:13535,str:22358,d0:0,d1:0;
+                    ("ai_combat_status_clear_los", VariableAccess<Short> @:13535 op:7,dt:7,nt:13,next:65535,str:17189,d0:33579,d1:65535;)))
+            (____, Scope<Void> @:13536 op:438,dt:4,nt:8,next:13539,str:46220,d0:13537,d1:38997;
+                ("cs_vehicle_boost", Expression<MethodOrOperator> @:13537 op:438,dt:2,nt:9,next:13538,str:15358,d0:0,d1:0;
+                    (True, Expression<Boolean> @:13538 op:5,dt:5,nt:9,next:65535,str:46238,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:13539 op:442,dt:4,nt:8,next:13542,str:46246,d0:13540,d1:39000;
+                ("cs_enable_targeting", Expression<MethodOrOperator> @:13540 op:442,dt:2,nt:9,next:13541,str:27560,d0:0,d1:0;
+                    (True, Expression<Boolean> @:13541 op:5,dt:5,nt:9,next:65535,str:46267,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:13542 op:385,dt:4,nt:8,next:13545,str:46275,d0:13543,d1:39003;
+                ("cs_go_to", Expression<MethodOrOperator> @:13543 op:385,dt:2,nt:9,next:13544,str:18763,d0:0,d1:0;
+                    ("e16_cov_ghosts0_advance/start", Expression<SpatialPoint> @:13544 op:28,dt:28,nt:9,next:65535,str:27580,d0:10,d1:7;)))
+            (____, Scope<Void> @:13545 op:385,dt:4,nt:8,next:13548,str:46318,d0:13546,d1:39006;
+                ("cs_go_to", Expression<MethodOrOperator> @:13546 op:385,dt:2,nt:9,next:13547,str:18763,d0:0,d1:0;
+                    ("e16_cov_ghosts0_advance/p0", Expression<SpatialPoint> @:13547 op:28,dt:28,nt:9,next:65535,str:27610,d0:0,d1:7;)))
+            (____, Scope<Void> @:13548 op:385,dt:4,nt:8,next:13551,str:46358,d0:13549,d1:39009;
+                ("cs_go_to", Expression<MethodOrOperator> @:13549 op:385,dt:2,nt:9,next:13550,str:18763,d0:0,d1:0;
+                    ("e16_cov_ghosts0_advance/p5", Expression<SpatialPoint> @:13550 op:28,dt:28,nt:9,next:65535,str:27637,d0:5,d1:7;)))
+            (____, Scope<Void> @:13551 op:385,dt:4,nt:8,next:13554,str:46398,d0:13552,d1:39012;
+                ("cs_go_to", Expression<MethodOrOperator> @:13552 op:385,dt:2,nt:9,next:13553,str:18763,d0:0,d1:0;
+                    ("e16_cov_ghosts0_advance/p6", Expression<SpatialPoint> @:13553 op:28,dt:28,nt:9,next:65535,str:27664,d0:6,d1:7;)))
+            (____, Scope<Void> @:13554 op:385,dt:4,nt:8,next:13557,str:46438,d0:13555,d1:39015;
+                ("cs_go_to", Expression<MethodOrOperator> @:13555 op:385,dt:2,nt:9,next:13556,str:18763,d0:0,d1:0;
+                    ("e16_cov_ghosts0_advance/p7", Expression<SpatialPoint> @:13556 op:28,dt:28,nt:9,next:65535,str:27691,d0:7,d1:7;)))
+            (____, Scope<Void> @:13557 op:385,dt:4,nt:8,next:65535,str:46478,d0:13558,d1:39018;
+                ("cs_go_to", Expression<MethodOrOperator> @:13558 op:385,dt:2,nt:9,next:13559,str:18763,d0:0,d1:0;
+                    ("e16_cov_ghosts0_advance/p8", Expression<SpatialPoint> @:13559 op:28,dt:28,nt:9,next:65535,str:27718,d0:8,d1:7;))))))

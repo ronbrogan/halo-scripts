@@ -1,0 +1,45 @@
+
+("test_halls", MethodDecl<Void> @:451 check:0,op:0,dt:0,nt:65535,next:26791,nextCheck:52251,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:26791 check:52251,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:44728,h:4,d0:26792,d1:52252;
+        ("begin", Expression<MethodOrOperator> @:26792 check:52252,op:0,dt:2,nt:9,next:26750,nextCheck:52210,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:26750 check:52210,op:552,dt:4,nt:8,next:26756,nextCheck:52216,str:44761,h:4,d0:26751,d1:52211;
+                ("fade_out", Expression<MethodOrOperator> @:26751 check:52211,op:552,dt:2,nt:9,next:26752,nextCheck:52212,str:71,h:0,d0:0,d1:0;
+                    (0f, Expression<Float> @:26752 check:52212,op:6,dt:6,nt:9,next:26753,nextCheck:52213,str:44771,h:4,d0:0,d1:0;
+                        (0f, Expression<Float> @:26753 check:52213,op:6,dt:6,nt:9,next:26754,nextCheck:52214,str:44773,h:4,d0:0,d1:0;
+                            (0f, Expression<Float> @:26754 check:52214,op:6,dt:6,nt:9,next:26755,nextCheck:52215,str:44775,h:4,d0:0,d1:0;
+                                (0, Expression<Short> @:26755 check:52215,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:44777,h:4,d0:0,d1:65535;))))))
+            (____, Scope<Void> @:26756 check:52216,op:19,dt:4,nt:8,next:26759,nextCheck:52219,str:44782,h:4,d0:26757,d1:52217;
+                ("sleep", Expression<MethodOrOperator> @:26757 check:52217,op:19,dt:2,nt:9,next:26758,nextCheck:52218,str:80,h:0,d0:0,d1:0;
+                    (1, Expression<Short> @:26758 check:52218,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:44789,h:4,d0:1,d1:65535;)))
+            (____, Scope<Void> @:26759 check:52219,op:473,dt:4,nt:8,next:26762,nextCheck:52222,str:44794,h:4,d0:26760,d1:52220;
+                ("player_enable_input", Expression<MethodOrOperator> @:26760 check:52220,op:473,dt:2,nt:9,next:26761,nextCheck:52221,str:471,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:26761 check:52221,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:44815,h:4,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:26762 check:52222,op:27,dt:4,nt:8,next:26765,nextCheck:52225,str:44824,h:4,d0:26763,d1:52223;
+                ("print", Expression<MethodOrOperator> @:26763 check:52223,op:27,dt:2,nt:9,next:26764,nextCheck:52224,str:86,h:0,d0:0,d1:0;
+                    ("switching bsp...", Expression<String> @:26764 check:52224,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:48307,h:0,d0:33915,d1:12543;)))
+            (____, Scope<Void> @:26765 check:52225,op:19,dt:4,nt:8,next:26768,nextCheck:52228,str:44853,h:4,d0:26766,d1:52226;
+                ("sleep", Expression<MethodOrOperator> @:26766 check:52226,op:19,dt:2,nt:9,next:26767,nextCheck:52227,str:80,h:0,d0:0,d1:0;
+                    (15, Expression<Short> @:26767 check:52227,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:44860,h:4,d0:15,d1:65535;)))
+            (____, Scope<Void> @:26768 check:52228,op:507,dt:4,nt:8,next:26771,nextCheck:52231,str:44866,h:4,d0:26769,d1:52229;
+                ("switch_bsp", Expression<MethodOrOperator> @:26769 check:52229,op:507,dt:2,nt:9,next:26770,nextCheck:52230,str:44175,h:0,d0:0,d1:0;
+                    (1, Expression<Short> @:26770 check:52230,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:44878,h:4,d0:1,d1:65535;)))
+            (____, Scope<Void> @:26771 check:52231,op:27,dt:4,nt:8,next:26774,nextCheck:52234,str:44883,h:4,d0:26772,d1:52232;
+                ("print", Expression<MethodOrOperator> @:26772 check:52232,op:27,dt:2,nt:9,next:26773,nextCheck:52233,str:86,h:0,d0:0,d1:0;
+                    ("teleporting players...", Expression<String> @:26773 check:52233,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:48324,h:0,d0:33932,d1:12543;)))
+            (____, Scope<Void> @:26774 check:52234,op:105,dt:4,nt:8,next:26779,nextCheck:52239,str:44918,h:4,d0:26775,d1:52235;
+                ("object_teleport", Expression<MethodOrOperator> @:26775 check:52235,op:105,dt:2,nt:9,next:26776,nextCheck:52236,str:44227,h:0,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:26776 check:52236,op:0,dt:50,nt:10,next:26778,nextCheck:52238,str:44935,h:4,d0:26777,d1:52237;
+                        ("player0", Expression<MethodOrOperator> @:26777 check:52237,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:602,h:0,d0:0,d1:0;))
+                    ("halls", Expression<LocationFlag> @:26778 check:52238,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:48347,h:0,d0:1,d1:0;)))
+            (____, Scope<Void> @:26779 check:52239,op:551,dt:4,nt:8,next:26785,nextCheck:52245,str:44999,h:4,d0:26780,d1:52240;
+                ("fade_in", Expression<MethodOrOperator> @:26780 check:52240,op:551,dt:2,nt:9,next:26781,nextCheck:52241,str:547,h:0,d0:0,d1:0;
+                    (0f, Expression<Float> @:26781 check:52241,op:6,dt:6,nt:9,next:26782,nextCheck:52242,str:45008,h:4,d0:0,d1:0;
+                        (0f, Expression<Float> @:26782 check:52242,op:6,dt:6,nt:9,next:26783,nextCheck:52243,str:45010,h:4,d0:0,d1:0;
+                            (0f, Expression<Float> @:26783 check:52243,op:6,dt:6,nt:9,next:26784,nextCheck:52244,str:45012,h:4,d0:0,d1:0;
+                                (60, Expression<Short> @:26784 check:52244,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:45014,h:4,d0:60,d1:65535;))))))
+            (____, Scope<Void> @:26785 check:52245,op:19,dt:4,nt:8,next:26788,nextCheck:52248,str:45146,h:4,d0:26786,d1:52246;
+                ("sleep", Expression<MethodOrOperator> @:26786 check:52246,op:19,dt:2,nt:9,next:26787,nextCheck:52247,str:80,h:0,d0:0,d1:0;
+                    (10, Expression<Short> @:26787 check:52247,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:45153,h:4,d0:10,d1:65535;)))
+            (____, Scope<Void> @:26788 check:52248,op:473,dt:4,nt:8,next:65535,nextCheck:65535,str:45159,h:4,d0:26789,d1:52249;
+                ("player_enable_input", Expression<MethodOrOperator> @:26789 check:52249,op:473,dt:2,nt:9,next:26790,nextCheck:52250,str:471,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:26790 check:52250,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:45180,h:4,d0:65281,d1:65535;))))))

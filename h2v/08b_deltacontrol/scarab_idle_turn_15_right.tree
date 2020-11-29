@@ -1,0 +1,29 @@
+
+("scarab_idle_turn_15_right", MethodDecl<Void> @:310 check:0,op:0,dt:0,nt:65535,next:10635,nextCheck:36095,str:25062,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:10635 check:36095,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:57434,h:1,d0:10636,d1:36096;
+        ("begin", Expression<MethodOrOperator> @:10636 check:36096,op:0,dt:2,nt:9,next:10610,nextCheck:36070,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:10610 check:36070,op:27,dt:4,nt:8,next:10613,nextCheck:36073,str:57482,h:1,d0:10611,d1:36071;
+                ("print", Expression<MethodOrOperator> @:10611 check:36071,op:27,dt:2,nt:9,next:10612,nextCheck:36072,str:91,h:0,d0:0,d1:0;
+                    ("scarab_idle_turn_15_right", Expression<String> @:10612 check:36072,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:25062,h:0,d0:18670,d1:12561;)))
+            (____, Scope<Void> @:10613 check:36073,op:266,dt:4,nt:8,next:10618,nextCheck:36078,str:57520,h:1,d0:10614,d1:36074;
+                ("device_set_position_track", Expression<MethodOrOperator> @:10614 check:36074,op:266,dt:2,nt:9,next:10615,nextCheck:36075,str:24779,h:0,d0:0,d1:0;
+                    ("scarab", Expression<Device> @:10615 check:36075,op:60,dt:54,nt:9,next:10616,nextCheck:36076,str:9804,h:0,d0:105,d1:65535;
+                        ("combat:turn_15_right", Expression<StringId> @:10616 check:36076,op:11,dt:11,nt:9,next:10617,nextCheck:36077,str:25088,h:0,d0:5159,d1:5120;
+                            ("g_scarab_interpolation", VariableAccess<Float> @:10617 check:36077,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:24822,h:0,d0:28,d1:0;)))))
+            (____, Scope<Void> @:10618 check:36078,op:268,dt:4,nt:8,next:10626,nextCheck:36086,str:57601,h:1,d0:10619,d1:36079;
+                ("device_animate_position", Expression<MethodOrOperator> @:10619 check:36079,op:268,dt:2,nt:9,next:10620,nextCheck:36080,str:24845,h:0,d0:0,d1:0;
+                    ("scarab", Expression<Device> @:10620 check:36080,op:60,dt:54,nt:9,next:10621,nextCheck:36081,str:9804,h:0,d0:105,d1:65535;
+                        (1f, Expression<Float> @:10621 check:36081,op:6,dt:6,nt:9,next:10622,nextCheck:36082,str:57633,h:1,d0:0,d1:16256;
+                            (4f, Expression<Float> @:10622 check:36082,op:6,dt:6,nt:9,next:10623,nextCheck:36083,str:57637,h:1,d0:0,d1:16512;
+                                (0f, Expression<Float> @:10623 check:36083,op:6,dt:6,nt:9,next:10624,nextCheck:36084,str:57639,h:1,d0:0,d1:0;
+                                    (0f, Expression<Float> @:10624 check:36084,op:6,dt:6,nt:9,next:10625,nextCheck:36085,str:57641,h:1,d0:0,d1:0;
+                                        (True, Expression<Boolean> @:10625 check:36085,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:57643,h:1,d0:65281,d1:65535;))))))))
+            (____, Scope<Void> @:10626 check:36086,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:57651,h:1,d0:10627,d1:36087;
+                ("sleep_until", Expression<MethodOrOperator> @:10627 check:36087,op:21,dt:2,nt:9,next:10628,nextCheck:36088,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:10628 check:36088,op:17,dt:5,nt:8,next:10634,nextCheck:36094,str:57664,h:1,d0:10629,d1:36089;
+                        (">=", Expression<MethodOrOperator> @:10629 check:36089,op:17,dt:2,nt:9,next:10630,nextCheck:36090,str:676,h:0,d0:0,d1:0;
+                            (-3.8697667E-31f, Scope<Float> @:10630 check:36090,op:257,dt:6,nt:8,next:10633,nextCheck:36093,str:57668,h:1,d0:10631,d1:36091;
+                                ("device_get_position", Expression<MethodOrOperator> @:10631 check:36091,op:257,dt:2,nt:9,next:10632,nextCheck:36092,str:5946,h:0,d0:0,d1:0;
+                                    ("scarab", Expression<Device> @:10632 check:36092,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:9804,h:0,d0:105,d1:65535;)))
+                            (1f, Expression<Float> @:10633 check:36093,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:57697,h:1,d0:0,d1:16256;)))
+                    (1, Expression<Short> @:10634 check:36094,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:57702,h:1,d0:1,d1:65535;))))))

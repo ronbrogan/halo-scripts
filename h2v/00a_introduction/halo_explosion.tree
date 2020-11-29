@@ -1,0 +1,15 @@
+
+("halo_explosion", MethodDecl<Void> @:109 check:0,op:0,dt:0,nt:65535,next:6358,nextCheck:64585,str:10526,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:6358 check:64585,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:24169,h:1,d0:6359,d1:64586;
+        ("begin", Expression<MethodOrOperator> @:6359 check:64586,op:0,dt:2,nt:9,next:6347,nextCheck:64574,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:6347 check:64574,op:19,dt:4,nt:8,next:6350,nextCheck:64577,str:24202,h:1,d0:6348,d1:64575;
+                ("sleep", Expression<MethodOrOperator> @:6348 check:64575,op:19,dt:2,nt:9,next:6349,nextCheck:64576,str:80,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:6349 check:64576,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:24209,h:1,d0:60,d1:65535;)))
+            (____, Scope<Void> @:6350 check:64577,op:27,dt:4,nt:8,next:6353,nextCheck:64580,str:24215,h:1,d0:6351,d1:64578;
+                ("print", Expression<MethodOrOperator> @:6351 check:64578,op:27,dt:2,nt:9,next:6352,nextCheck:64579,str:86,h:0,d0:0,d1:0;
+                    ("effect - halo explosion", Expression<String> @:6352 check:64579,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:10402,h:0,d0:43418,d1:10406;)))
+            (____, Scope<Void> @:6353 check:64580,op:41,dt:4,nt:8,next:65535,nextCheck:65535,str:24251,h:1,d0:6354,d1:64581;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:6354 check:64581,op:41,dt:2,nt:9,next:6355,nextCheck:64582,str:10426,h:0,d0:0,d1:0;
+                    ("effects\cinematics\01\halo_destruction", Expression<Effect> @:6355 check:64582,op:33,dt:33,nt:9,next:6356,nextCheck:64583,str:10454,h:0,d0:2206,d1:59924;
+                        (4294901786, Expression<Entity> @:6356 check:64583,op:56,dt:50,nt:9,next:6357,nextCheck:64584,str:10122,h:0,d0:26,d1:65535;
+                            ("explosion_poa_front", Expression<StringId> @:6357 check:64584,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:10493,h:0,d0:2760,d1:4864;))))))))

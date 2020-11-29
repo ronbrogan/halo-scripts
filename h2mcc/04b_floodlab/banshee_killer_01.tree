@@ -1,0 +1,25 @@
+
+("banshee_killer_01", MethodDecl<Void> @:289 op:0,dt:0,nt:65535,next:20313,str:31616,d0:0,d1:0;
+    (____, Scope<Void> @:20313 op:0,dt:4,nt:8,next:65535,str:11116,d0:20314,d1:45774;
+        ("begin", Expression<MethodOrOperator> @:20314 op:0,dt:2,nt:9,next:20292,str:210,d0:0,d1:0;
+            (____, Scope<Void> @:20292 op:21,dt:4,nt:8,next:20307,str:11152,d0:20293,d1:45753;
+                ("sleep_until", Expression<MethodOrOperator> @:20293 op:21,dt:2,nt:9,next:20294,str:440,d0:0,d1:0;
+                    (____, Scope<Boolean> @:20294 op:13,dt:5,nt:8,next:65535,str:11165,d0:20295,d1:45755;
+                        ("=", Expression<MethodOrOperator> @:20295 op:13,dt:2,nt:9,next:20296,str:505,d0:0,d1:0;
+                            (____, Scope<Boolean> @:20296 op:224,dt:5,nt:8,next:20306,str:11168,d0:20297,d1:45757;
+                                ("vehicle_test_seat", Expression<MethodOrOperator> @:20297 op:224,dt:2,nt:9,next:20298,str:30291,d0:0,d1:0;
+                                    (____, Scope<Vehicle> @:20298 op:341,dt:52,nt:8,next:20301,str:11187,d0:20299,d1:45759;
+                                        ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:20299 op:341,dt:2,nt:9,next:20300,str:19017,d0:0,d1:0;
+                                            ("ledge_banshees_02/left", Expression<AI> @:20300 op:19,dt:19,nt:9,next:65535,str:30343,d0:1,d1:49243;)))
+                                    ("banshee_d", Expression<StringId> @:20301 op:11,dt:11,nt:9,next:20302,str:30333,d0:5920,d1:2304;
+                                        (____, Scope<Unit> @:20302 op:24,dt:51,nt:8,next:65535,str:11262,d0:20303,d1:45763;
+                                            ("unit", Expression<MethodOrOperator> @:20303 op:24,dt:2,nt:9,next:20304,str:216,d0:0,d1:0;
+                                                ("player1", ScriptInvocation<Entity> @:20304 op:1,dt:50,nt:10,next:65535,str:11268,d0:20305,d1:45765;
+                                                    ("player1", Expression<MethodOrOperator> @:20305 op:1,dt:2,nt:9,next:65535,str:819,d0:0,d1:0;)))))))
+                            (False, Expression<Boolean> @:20306 op:5,dt:5,nt:9,next:65535,str:11280,d0:65280,d1:65535;)))))
+            (____, Scope<Void> @:20307 op:196,dt:4,nt:8,next:65535,str:11290,d0:20308,d1:45768;
+                ("unit_kill", Expression<MethodOrOperator> @:20308 op:196,dt:2,nt:9,next:20309,str:11231,d0:0,d1:0;
+                    (____, Scope<Unit> @:20309 op:24,dt:51,nt:8,next:65535,str:11301,d0:20310,d1:45770;
+                        ("unit", Expression<MethodOrOperator> @:20310 op:24,dt:2,nt:9,next:20311,str:216,d0:0,d1:0;
+                            ("player1", ScriptInvocation<Entity> @:20311 op:1,dt:50,nt:10,next:65535,str:11307,d0:20312,d1:45772;
+                                ("player1", Expression<MethodOrOperator> @:20312 op:1,dt:2,nt:9,next:65535,str:819,d0:0,d1:0;)))))))))

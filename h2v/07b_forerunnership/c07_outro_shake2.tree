@@ -1,0 +1,30 @@
+
+("c07_outro_shake2", MethodDecl<Void> @:77 check:0,op:0,dt:0,nt:65535,next:2177,nextCheck:60404,str:6476,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:2177 check:60404,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:26053,h:0,d0:2178,d1:60405;
+        ("begin", Expression<MethodOrOperator> @:2178 check:60405,op:0,dt:2,nt:9,next:2151,nextCheck:60378,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:2151 check:60378,op:676,dt:4,nt:8,next:2153,nextCheck:60380,str:26091,h:0,d0:2152,d1:60379;
+                ("time_code_reset", Expression<MethodOrOperator> @:2152 check:60379,op:676,dt:2,nt:9,next:65535,nextCheck:65535,str:1504,h:0,d0:0,d1:0;))
+            (____, Scope<Void> @:2153 check:60380,op:19,dt:4,nt:8,next:2156,nextCheck:60383,str:26114,h:0,d0:2154,d1:60381;
+                ("sleep", Expression<MethodOrOperator> @:2154 check:60381,op:19,dt:2,nt:9,next:2155,nextCheck:60382,str:80,h:0,d0:0,d1:0;
+                    (290, Expression<Short> @:2155 check:60382,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:26121,h:0,d0:290,d1:65535;)))
+            (____, Scope<Void> @:2156 check:60383,op:27,dt:4,nt:8,next:2159,nextCheck:60386,str:26128,h:0,d0:2157,d1:60384;
+                ("print", Expression<MethodOrOperator> @:2157 check:60384,op:27,dt:2,nt:9,next:2158,nextCheck:60385,str:86,h:0,d0:0,d1:0;
+                    ("shake start", Expression<String> @:2158 check:60385,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:5855,h:0,d0:39679,d1:11039;)))
+            (____, Scope<Void> @:2159 check:60386,op:653,dt:4,nt:8,next:2164,nextCheck:60391,str:26152,h:0,d0:2160,d1:60387;
+                ("player_effect_set_max_rotation", Expression<MethodOrOperator> @:2160 check:60387,op:653,dt:2,nt:9,next:2161,nextCheck:60388,str:5867,h:0,d0:0,d1:0;
+                    (0f, Expression<Float> @:2161 check:60388,op:6,dt:6,nt:9,next:2162,nextCheck:60389,str:26184,h:0,d0:0,d1:0;
+                        (1f, Expression<Float> @:2162 check:60389,op:6,dt:6,nt:9,next:2163,nextCheck:60390,str:26186,h:0,d0:0,d1:16256;
+                            (1f, Expression<Float> @:2163 check:60390,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:26188,h:0,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:2164 check:60391,op:655,dt:4,nt:8,next:2168,nextCheck:60395,str:26193,h:0,d0:2165,d1:60392;
+                ("player_effect_start", Expression<MethodOrOperator> @:2165 check:60392,op:655,dt:2,nt:9,next:2166,nextCheck:60393,str:5898,h:0,d0:0,d1:0;
+                    (0.25f, Expression<Float> @:2166 check:60393,op:6,dt:6,nt:9,next:2167,nextCheck:60394,str:26214,h:0,d0:0,d1:16000;
+                        (0f, Expression<Float> @:2167 check:60394,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:26218,h:0,d0:0,d1:0;))))
+            (____, Scope<Void> @:2168 check:60395,op:19,dt:4,nt:8,next:2171,nextCheck:60398,str:26226,h:0,d0:2169,d1:60396;
+                ("sleep", Expression<MethodOrOperator> @:2169 check:60396,op:19,dt:2,nt:9,next:2170,nextCheck:60397,str:80,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:2170 check:60397,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:26233,h:0,d0:60,d1:65535;)))
+            (____, Scope<Void> @:2171 check:60398,op:656,dt:4,nt:8,next:2174,nextCheck:60401,str:26239,h:0,d0:2172,d1:60399;
+                ("player_effect_stop", Expression<MethodOrOperator> @:2172 check:60399,op:656,dt:2,nt:9,next:2173,nextCheck:60400,str:5918,h:0,d0:0,d1:0;
+                    (1f, Expression<Float> @:2173 check:60400,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:26259,h:0,d0:0,d1:16256;)))
+            (____, Scope<Void> @:2174 check:60401,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:26264,h:0,d0:2175,d1:60402;
+                ("print", Expression<MethodOrOperator> @:2175 check:60402,op:27,dt:2,nt:9,next:2176,nextCheck:60403,str:86,h:0,d0:0,d1:0;
+                    ("shake stop", Expression<String> @:2176 check:60403,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:5937,h:0,d0:39761,d1:11039;))))))

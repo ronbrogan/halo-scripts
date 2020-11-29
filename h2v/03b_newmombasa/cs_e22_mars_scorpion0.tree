@@ -1,0 +1,28 @@
+
+("cs_e22_mars_scorpion0", MethodDecl<Void> @:285 check:0,op:0,dt:0,nt:65535,next:9826,nextCheck:35286,str:22061,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:9826 check:35286,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:56994,h:1,d0:9827,d1:35287;
+        ("begin", Expression<MethodOrOperator> @:9827 check:35287,op:0,dt:2,nt:9,next:9802,nextCheck:35262,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:9802 check:35262,op:448,dt:4,nt:8,next:9805,nextCheck:35265,str:57041,h:1,d0:9803,d1:35263;
+                ("cs_force_combat_status", Expression<MethodOrOperator> @:9803 check:35263,op:448,dt:2,nt:9,next:9804,nextCheck:35264,str:19735,h:0,d0:0,d1:0;
+                    (3, Expression<Short> @:9804 check:35264,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:57065,h:1,d0:3,d1:65535;)))
+            (____, Scope<Void> @:9805 check:35265,op:396,dt:4,nt:8,next:9809,nextCheck:35269,str:57070,h:1,d0:9806,d1:35266;
+                ("cs_aim", Expression<MethodOrOperator> @:9806 check:35266,op:396,dt:2,nt:9,next:9807,nextCheck:35267,str:18924,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:9807 check:35267,op:5,dt:5,nt:9,next:9808,nextCheck:35268,str:57078,h:1,d0:65281,d1:65535;
+                        ("e22_scarab_target/target", Expression<SpatialPoint> @:9808 check:35268,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:18899,h:0,d0:0,d1:27;))))
+            (____, Scope<Void> @:9809 check:35269,op:21,dt:4,nt:8,next:9813,nextCheck:35273,str:57111,h:1,d0:9810,d1:35270;
+                ("sleep_until", Expression<MethodOrOperator> @:9810 check:35270,op:21,dt:2,nt:9,next:9811,nextCheck:35271,str:236,h:0,d0:0,d1:0;
+                    ("g_e22_scarab_visible", VariableAccess<Boolean> @:9811 check:35271,op:5,dt:5,nt:13,next:9812,nextCheck:35272,str:19949,h:0,d0:27,d1:0;
+                        (5, Expression<Short> @:9812 check:35272,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:57145,h:1,d0:5,d1:65535;))))
+            (____, Scope<Void> @:9813 check:35273,op:406,dt:4,nt:8,next:9817,nextCheck:35277,str:57161,h:1,d0:9814,d1:35274;
+                ("cs_shoot_point", Expression<MethodOrOperator> @:9814 check:35274,op:406,dt:2,nt:9,next:9815,nextCheck:35275,str:15515,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:9815 check:35275,op:5,dt:5,nt:9,next:9816,nextCheck:35276,str:57177,h:1,d0:65281,d1:65535;
+                        ("e22_scarab_target/target", Expression<SpatialPoint> @:9816 check:35276,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:18899,h:0,d0:0,d1:27;))))
+            (____, Scope<Void> @:9817 check:35277,op:21,dt:4,nt:8,next:9821,nextCheck:35281,str:57210,h:1,d0:9818,d1:35278;
+                ("sleep_until", Expression<MethodOrOperator> @:9818 check:35278,op:21,dt:2,nt:9,next:9819,nextCheck:35279,str:236,h:0,d0:0,d1:0;
+                    ("g_e22_scorpion_asplode", VariableAccess<Boolean> @:9819 check:35279,op:5,dt:5,nt:13,next:9820,nextCheck:35280,str:19970,h:0,d0:35,d1:0;
+                        (5, Expression<Short> @:9820 check:35280,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:57246,h:1,d0:5,d1:65535;))))
+            (____, Scope<Void> @:9821 check:35281,op:196,dt:4,nt:8,next:65535,nextCheck:65535,str:57251,h:1,d0:9822,d1:35282;
+                ("unit_kill", Expression<MethodOrOperator> @:9822 check:35282,op:196,dt:2,nt:9,next:9823,nextCheck:35283,str:19993,h:0,d0:0,d1:0;
+                    (____, Scope<Unit> @:9823 check:35283,op:340,dt:51,nt:8,next:65535,nextCheck:65535,str:57262,h:1,d0:9824,d1:35284;
+                        ("ai_vehicle_get", Expression<MethodOrOperator> @:9824 check:35284,op:340,dt:2,nt:9,next:9825,nextCheck:35285,str:15437,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:9825 check:35285,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:13835,h:0,d0:33564,d1:65535;))))))))

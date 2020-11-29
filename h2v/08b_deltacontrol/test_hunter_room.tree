@@ -1,0 +1,26 @@
+
+("test_hunter_room", MethodDecl<Void> @:458 check:0,op:0,dt:0,nt:65535,next:18386,nextCheck:43846,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:18386 check:43846,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:42965,h:3,d0:18387,d1:43847;
+        ("begin", Expression<MethodOrOperator> @:18387 check:43847,op:0,dt:2,nt:9,next:18364,nextCheck:43824,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:18364 check:43824,op:507,dt:4,nt:8,next:18367,nextCheck:43827,str:43004,h:3,d0:18365,d1:43825;
+                ("switch_bsp", Expression<MethodOrOperator> @:18365 check:43825,op:507,dt:2,nt:9,next:18366,nextCheck:43826,str:5067,h:0,d0:0,d1:0;
+                    (1, Expression<Short> @:18366 check:43826,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:43016,h:3,d0:1,d1:65535;)))
+            (____, Scope<Void> @:18367 check:43827,op:19,dt:4,nt:8,next:18370,nextCheck:43830,str:43021,h:3,d0:18368,d1:43828;
+                ("sleep", Expression<MethodOrOperator> @:18368 check:43828,op:19,dt:2,nt:9,next:18369,nextCheck:43829,str:85,h:0,d0:0,d1:0;
+                    (1, Expression<Short> @:18369 check:43829,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:43028,h:3,d0:1,d1:65535;)))
+            (____, Scope<Void> @:18370 check:43830,op:105,dt:4,nt:8,next:18375,nextCheck:43835,str:43033,h:3,d0:18371,d1:43831;
+                ("object_teleport", Expression<MethodOrOperator> @:18371 check:43831,op:105,dt:2,nt:9,next:18372,nextCheck:43832,str:5131,h:0,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:18372 check:43832,op:0,dt:50,nt:10,next:18374,nextCheck:43834,str:43050,h:3,d0:18373,d1:43833;
+                        ("player0", Expression<MethodOrOperator> @:18373 check:43833,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:607,h:0,d0:0,d1:0;))
+                    ("e6_test", Expression<LocationFlag> @:18374 check:43834,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:37095,h:0,d0:4,d1:0;)))
+            (____, Scope<Void> @:18375 check:43835,op:290,dt:4,nt:8,next:18378,nextCheck:43838,str:43071,h:3,d0:18376,d1:43836;
+                ("ai_place", Expression<MethodOrOperator> @:18376 check:43836,op:290,dt:2,nt:9,next:18377,nextCheck:43837,str:5315,h:0,d0:0,d1:0;
+                    ("e6_cov_inf0", Expression<AI> @:18377 check:43837,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36847,h:0,d0:41,d1:0;)))
+            (____, Scope<Void> @:18378 check:43838,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:43096,h:3,d0:18379,d1:43839;
+                ("if", Expression<MethodOrOperator> @:18379 check:43839,op:2,dt:2,nt:9,next:18380,nextCheck:43840,str:461,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:18380 check:43840,op:25,dt:5,nt:8,next:18383,nextCheck:43843,str:43100,h:3,d0:18381,d1:43841;
+                        ("not", Expression<MethodOrOperator> @:18381 check:43841,op:25,dt:2,nt:9,next:18382,nextCheck:43842,str:402,h:0,d0:0,d1:0;
+                            ("g_e6_started", VariableAccess<Boolean> @:18382 check:43842,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:36975,h:0,d0:57,d1:0;)))
+                    (____, Scope<Void> @:18383 check:43843,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:43119,h:3,d0:18384,d1:43844;
+                        ("wake", Expression<MethodOrOperator> @:18384 check:43844,op:22,dt:2,nt:9,next:18385,nextCheck:43845,str:5851,h:0,d0:0,d1:0;
+                            ("e6_main", Expression<ScriptReference> @:18385 check:43845,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:36988,h:0,d0:457,d1:65535;))))))))

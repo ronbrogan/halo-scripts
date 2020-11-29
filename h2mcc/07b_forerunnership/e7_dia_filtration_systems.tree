@@ -1,0 +1,18 @@
+
+("e7_dia_filtration_systems", MethodDecl<Void> @:146 op:0,dt:0,nt:65535,next:4181,str:20079,d0:0,d1:0;
+    (____, Scope<Void> @:4181 op:0,dt:4,nt:8,next:65535,str:52618,d0:4182,d1:62409;
+        ("begin", Expression<MethodOrOperator> @:4182 op:0,dt:2,nt:9,next:4167,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:4167 op:2,dt:4,nt:8,next:4173,str:52662,d0:4168,d1:62395;
+                ("if", Expression<MethodOrOperator> @:4168 op:2,dt:2,nt:9,next:4169,str:456,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:4169 op:5,dt:5,nt:13,next:4170,str:10462,d0:3,d1:0;
+                        (____, Scope<Void> @:4170 op:27,dt:4,nt:8,next:65535,str:52675,d0:4171,d1:62398;
+                            ("print", Expression<MethodOrOperator> @:4171 op:27,dt:2,nt:9,next:4172,str:86,d0:0,d1:0;
+                                ("cortana: flood spores have contaminated the city's life-support infrastructure - the filtration systems are overloading!", Expression<String> @:4172 op:9,dt:9,nt:9,next:65535,str:11890,d0:11890,d1:0;))))))
+            (____, Scope<Void> @:4173 op:19,dt:4,nt:8,next:4178,str:52855,d0:4174,d1:62401;
+                ("sleep", Expression<MethodOrOperator> @:4174 op:19,dt:2,nt:9,next:4175,str:80,d0:0,d1:0;
+                    (____, Scope<Short> @:4175 op:601,dt:7,nt:8,next:65535,str:52862,d0:4176,d1:62403;
+                        ("sound_impulse_language_time", Expression<MethodOrOperator> @:4176 op:601,dt:2,nt:9,next:4177,str:12011,d0:0,d1:0;
+                            ("sound\dialog\levels\07_highcharity\mission\l07_2850_cor", Expression<Sound> @:4177 op:32,dt:32,nt:9,next:65535,str:12039,d0:6033,d1:63922;)))))
+            (____, Scope<Void> @:4178 op:19,dt:4,nt:8,next:65535,str:52953,d0:4179,d1:62406;
+                ("sleep", Expression<MethodOrOperator> @:4179 op:19,dt:2,nt:9,next:4180,str:80,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:4180 op:7,dt:7,nt:13,next:65535,str:10580,d0:4,d1:0;))))))

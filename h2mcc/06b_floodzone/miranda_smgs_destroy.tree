@@ -1,0 +1,39 @@
+
+("miranda_smgs_destroy", MethodDecl<Void> @:107 op:0,dt:0,nt:65535,next:3371,str:8868,d0:0,d1:0;
+    (____, Scope<Void> @:3371 op:0,dt:4,nt:8,next:65535,str:40675,d0:3372,d1:61599;
+        ("begin", Expression<MethodOrOperator> @:3372 op:0,dt:2,nt:9,next:3336,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:3336 op:676,dt:4,nt:8,next:3338,str:40716,d0:3337,d1:61564;
+                ("time_code_reset", Expression<MethodOrOperator> @:3337 op:676,dt:2,nt:9,next:65535,str:2000,d0:0,d1:0;))
+            (____, Scope<Void> @:3338 op:19,dt:4,nt:8,next:3341,str:40739,d0:3339,d1:61566;
+                ("sleep", Expression<MethodOrOperator> @:3339 op:19,dt:2,nt:9,next:3340,str:85,d0:0,d1:0;
+                    (98, Expression<Short> @:3340 op:7,dt:7,nt:9,next:65535,str:40746,d0:98,d1:65535;)))
+            (____, Scope<Void> @:3341 op:27,dt:4,nt:8,next:3344,str:40752,d0:3342,d1:61569;
+                ("print", Expression<MethodOrOperator> @:3342 op:27,dt:2,nt:9,next:3343,str:91,d0:0,d1:0;
+                    ("stop firing", Expression<String> @:3343 op:9,dt:9,nt:9,next:65535,str:8769,d0:8769,d1:0;)))
+            (____, Scope<Void> @:3344 op:251,dt:4,nt:8,next:3349,str:40778,d0:3345,d1:61572;
+                ("weapon_hold_trigger", Expression<MethodOrOperator> @:3345 op:251,dt:2,nt:9,next:3346,str:7564,d0:0,d1:0;
+                    ("smg_real_01", Expression<WeaponReference> @:3346 op:59,dt:53,nt:9,next:3347,str:7502,d0:49,d1:65535;
+                        (0, Expression<Int> @:3347 op:8,dt:8,nt:9,next:3348,str:40811,d0:0,d1:0;
+                            (False, Expression<Boolean> @:3348 op:5,dt:5,nt:9,next:65535,str:40813,d0:65280,d1:65535;)))))
+            (____, Scope<Void> @:3349 op:251,dt:4,nt:8,next:3354,str:40822,d0:3350,d1:61577;
+                ("weapon_hold_trigger", Expression<MethodOrOperator> @:3350 op:251,dt:2,nt:9,next:3351,str:7564,d0:0,d1:0;
+                    ("smg_real_02", Expression<WeaponReference> @:3351 op:59,dt:53,nt:9,next:3352,str:7514,d0:50,d1:65535;
+                        (0, Expression<Int> @:3352 op:8,dt:8,nt:9,next:3353,str:40855,d0:0,d1:0;
+                            (False, Expression<Boolean> @:3353 op:5,dt:5,nt:9,next:65535,str:40857,d0:65280,d1:65535;)))))
+            (____, Scope<Void> @:3354 op:19,dt:4,nt:8,next:3357,str:40868,d0:3355,d1:61582;
+                ("sleep", Expression<MethodOrOperator> @:3355 op:19,dt:2,nt:9,next:3356,str:85,d0:0,d1:0;
+                    (131, Expression<Short> @:3356 op:7,dt:7,nt:9,next:65535,str:40875,d0:131,d1:65535;)))
+            (____, Scope<Void> @:3357 op:27,dt:4,nt:8,next:3360,str:40882,d0:3358,d1:61585;
+                ("print", Expression<MethodOrOperator> @:3358 op:27,dt:2,nt:9,next:3359,str:91,d0:0,d1:0;
+                    ("destroy smgs", Expression<String> @:3359 op:9,dt:9,nt:9,next:65535,str:8781,d0:8781,d1:0;)))
+            (____, Scope<Void> @:3360 op:76,dt:4,nt:8,next:3364,str:40907,d0:3361,d1:61588;
+                ("objects_detach", Expression<MethodOrOperator> @:3361 op:76,dt:2,nt:9,next:3362,str:8794,d0:0,d1:0;
+                    (4294901785, Expression<Entity> @:3362 op:56,dt:50,nt:9,next:3363,str:5468,d0:25,d1:65535;
+                        (4294901809, Expression<Entity> @:3363 op:56,dt:50,nt:9,next:65535,str:7502,d0:49,d1:65535;))))
+            (____, Scope<Void> @:3364 op:76,dt:4,nt:8,next:3368,str:40946,d0:3365,d1:61592;
+                ("objects_detach", Expression<MethodOrOperator> @:3365 op:76,dt:2,nt:9,next:3366,str:8794,d0:0,d1:0;
+                    (4294901785, Expression<Entity> @:3366 op:56,dt:50,nt:9,next:3367,str:5468,d0:25,d1:65535;
+                        (4294901810, Expression<Entity> @:3367 op:56,dt:50,nt:9,next:65535,str:7514,d0:50,d1:65535;))))
+            (____, Scope<Void> @:3368 op:53,dt:4,nt:8,next:65535,str:40985,d0:3369,d1:61596;
+                ("object_destroy_containing", Expression<MethodOrOperator> @:3369 op:53,dt:2,nt:9,next:3370,str:2016,d0:0,d1:0;
+                    ("smg_real", Expression<String> @:3370 op:9,dt:9,nt:9,next:65535,str:8809,d0:8809,d1:0;))))))

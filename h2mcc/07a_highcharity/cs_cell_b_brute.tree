@@ -1,0 +1,35 @@
+
+("cs_cell_b_brute", MethodDecl<Void> @:339 op:0,dt:0,nt:65535,next:15963,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:15963 op:0,dt:4,nt:8,next:65535,str:53936,d0:15964,d1:41424;
+        ("begin", Expression<MethodOrOperator> @:15964 op:0,dt:2,nt:9,next:15932,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:15932 op:441,dt:4,nt:8,next:15935,str:53977,d0:15933,d1:41393;
+                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:15933 op:441,dt:2,nt:9,next:15934,str:31235,d0:0,d1:0;
+                    ("ai_combat_status_active", VariableAccess<Short> @:15934 op:7,dt:7,nt:13,next:65535,str:31888,d0:33574,d1:65535;)))
+            (____, Scope<Void> @:15935 op:449,dt:4,nt:8,next:15938,str:54031,d0:15936,d1:41396;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:15936 op:449,dt:2,nt:9,next:15937,str:1066,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15937 op:5,dt:5,nt:9,next:65535,str:54063,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:15938 op:21,dt:4,nt:8,next:65535,str:54071,d0:15939,d1:41399;
+                ("sleep_until", Expression<MethodOrOperator> @:15939 op:21,dt:2,nt:9,next:15940,str:231,d0:0,d1:0;
+                    (____, Scope<Boolean> @:15940 op:0,dt:5,nt:8,next:65535,str:54087,d0:15941,d1:41401;
+                        ("begin", Expression<MethodOrOperator> @:15941 op:0,dt:2,nt:9,next:15942,str:1,d0:0,d1:0;
+                            (____, Scope<Void> @:15942 op:386,dt:4,nt:8,next:15946,str:54098,d0:15943,d1:41403;
+                                ("cs_go_to", Expression<MethodOrOperator> @:15943 op:386,dt:2,nt:9,next:15944,str:23611,d0:0,d1:0;
+                                    ("jails/jail_b_p0", Expression<SpatialPoint> @:15944 op:28,dt:28,nt:9,next:15945,str:33928,d0:17,d1:6;
+                                        (1f, Expression<Float> @:15945 op:6,dt:6,nt:9,next:65535,str:54124,d0:0,d1:16256;))))
+                            (____, Scope<Void> @:15946 op:19,dt:4,nt:8,next:15952,str:54131,d0:15947,d1:41407;
+                                ("sleep", Expression<MethodOrOperator> @:15947 op:19,dt:2,nt:9,next:15948,str:80,d0:0,d1:0;
+                                    (____, Scope<Short> @:15948 op:124,dt:7,nt:8,next:65535,str:54138,d0:15949,d1:41409;
+                                        ("random_range", Expression<MethodOrOperator> @:15949 op:124,dt:2,nt:9,next:15950,str:19725,d0:0,d1:0;
+                                            (5, Expression<Short> @:15950 op:7,dt:7,nt:9,next:15951,str:54152,d0:5,d1:65535;
+                                                (10, Expression<Short> @:15951 op:7,dt:7,nt:9,next:65535,str:54154,d0:10,d1:65535;))))))
+                            (____, Scope<Void> @:15952 op:386,dt:4,nt:8,next:15956,str:54163,d0:15953,d1:41413;
+                                ("cs_go_to", Expression<MethodOrOperator> @:15953 op:386,dt:2,nt:9,next:15954,str:23611,d0:0,d1:0;
+                                    ("jails/jail_b_p1", Expression<SpatialPoint> @:15954 op:28,dt:28,nt:9,next:15955,str:33944,d0:18,d1:6;
+                                        (1f, Expression<Float> @:15955 op:6,dt:6,nt:9,next:65535,str:54189,d0:0,d1:16256;))))
+                            (____, Scope<Void> @:15956 op:19,dt:4,nt:8,next:15962,str:54196,d0:15957,d1:41417;
+                                ("sleep", Expression<MethodOrOperator> @:15957 op:19,dt:2,nt:9,next:15958,str:80,d0:0,d1:0;
+                                    (____, Scope<Short> @:15958 op:124,dt:7,nt:8,next:65535,str:54203,d0:15959,d1:41419;
+                                        ("random_range", Expression<MethodOrOperator> @:15959 op:124,dt:2,nt:9,next:15960,str:19725,d0:0,d1:0;
+                                            (5, Expression<Short> @:15960 op:7,dt:7,nt:9,next:15961,str:54217,d0:5,d1:65535;
+                                                (10, Expression<Short> @:15961 op:7,dt:7,nt:9,next:65535,str:54219,d0:10,d1:65535;))))))
+                            (False, Expression<Boolean> @:15962 op:5,dt:5,nt:9,next:65535,str:54227,d0:65280,d1:65535;))))))))

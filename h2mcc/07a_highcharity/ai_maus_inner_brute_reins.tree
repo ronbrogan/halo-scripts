@@ -1,0 +1,24 @@
+
+("ai_maus_inner_brute_reins", MethodDecl<Void> @:404 op:0,dt:0,nt:65535,next:19976,str:44096,d0:0,d1:0;
+    (____, Scope<Void> @:19976 op:0,dt:4,nt:8,next:65535,str:22612,d0:19977,d1:45437;
+        ("begin", Expression<MethodOrOperator> @:19977 op:0,dt:2,nt:9,next:19956,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:19956 op:21,dt:4,nt:8,next:19964,str:22656,d0:19957,d1:45417;
+                ("sleep_until", Expression<MethodOrOperator> @:19957 op:21,dt:2,nt:9,next:19958,str:231,d0:0,d1:0;
+                    (____, Scope<Boolean> @:19958 op:18,dt:5,nt:8,next:65535,str:22669,d0:19959,d1:45419;
+                        ("<=", Expression<MethodOrOperator> @:19959 op:18,dt:2,nt:9,next:19960,str:21122,d0:0,d1:0;
+                            (____, Scope<Short> @:19960 op:327,dt:7,nt:8,next:19963,str:22673,d0:19961,d1:45421;
+                                ("ai_living_count", Expression<MethodOrOperator> @:19961 op:327,dt:2,nt:9,next:19962,str:19381,d0:0,d1:0;
+                                    ("maus_inner_brutes_ini", Expression<AI> @:19962 op:19,dt:19,nt:9,next:65535,str:39362,d0:233,d1:0;)))
+                            (0, Expression<Short> @:19963 op:7,dt:7,nt:9,next:65535,str:22713,d0:0,d1:65535;)))))
+            (____, Scope<Void> @:19964 op:19,dt:4,nt:8,next:19967,str:22719,d0:19965,d1:45425;
+                ("sleep", Expression<MethodOrOperator> @:19965 op:19,dt:2,nt:9,next:19966,str:80,d0:0,d1:0;
+                    (90, Expression<Short> @:19966 op:7,dt:7,nt:9,next:65535,str:22726,d0:90,d1:65535;)))
+            (____, Scope<Void> @:19967 op:290,dt:4,nt:8,next:19970,str:22732,d0:19968,d1:45428;
+                ("ai_place", Expression<MethodOrOperator> @:19968 op:290,dt:2,nt:9,next:19969,str:14833,d0:0,d1:0;
+                    ("maus_inner_brutes_rein", Expression<AI> @:19969 op:19,dt:19,nt:9,next:65535,str:39384,d0:234,d1:0;)))
+            (____, Scope<Void> @:19970 op:19,dt:4,nt:8,next:19973,str:22768,d0:19971,d1:45431;
+                ("sleep", Expression<MethodOrOperator> @:19971 op:19,dt:2,nt:9,next:19972,str:80,d0:0,d1:0;
+                    (1, Expression<Short> @:19972 op:7,dt:7,nt:9,next:65535,str:22775,d0:1,d1:65535;)))
+            (____, Scope<Void> @:19973 op:22,dt:4,nt:8,next:65535,str:22780,d0:19974,d1:45434;
+                ("wake", Expression<MethodOrOperator> @:19974 op:22,dt:2,nt:9,next:19975,str:1146,d0:0,d1:0;
+                    ("ai_maus_inner_order_transitions", Expression<ScriptReference> @:19975 op:10,dt:10,nt:9,next:65535,str:39407,d0:403,d1:65535;))))))

@@ -1,0 +1,32 @@
+
+("e1_cs_freakout", MethodDecl<Void> @:226 op:0,dt:0,nt:65535,next:10112,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:10112 op:0,dt:4,nt:8,next:65535,str:63536,d0:10113,d1:35573;
+        ("begin", Expression<MethodOrOperator> @:10113 op:0,dt:2,nt:9,next:10084,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:10084 op:422,dt:4,nt:8,next:10087,str:63576,d0:10085,d1:35545;
+                ("cs_movement_mode", Expression<MethodOrOperator> @:10085 op:422,dt:2,nt:9,next:10086,str:21640,d0:0,d1:0;
+                    ("ai_movement_flee", VariableAccess<Short> @:10086 op:7,dt:7,nt:13,next:65535,str:21657,d0:33584,d1:65535;)))
+            (____, Scope<Void> @:10087 op:21,dt:4,nt:8,next:65535,str:63614,d0:10088,d1:35548;
+                ("sleep_until", Expression<MethodOrOperator> @:10088 op:21,dt:2,nt:9,next:10089,str:231,d0:0,d1:0;
+                    (____, Scope<Boolean> @:10089 op:0,dt:5,nt:8,next:65535,str:63630,d0:10090,d1:35550;
+                        ("begin", Expression<MethodOrOperator> @:10090 op:0,dt:2,nt:9,next:10091,str:1,d0:0,d1:0;
+                            (____, Scope<Void> @:10091 op:1,dt:4,nt:8,next:10111,str:63641,d0:10092,d1:35552;
+                                ("begin_random", Expression<MethodOrOperator> @:10092 op:1,dt:2,nt:9,next:10093,str:14469,d0:0,d1:0;
+                                    (____, Scope<Void> @:10093 op:385,dt:4,nt:8,next:10096,str:63660,d0:10094,d1:35554;
+                                        ("cs_go_to", Expression<MethodOrOperator> @:10094 op:385,dt:2,nt:9,next:10095,str:20715,d0:0,d1:0;
+                                            ("e1_panic/p0", Expression<SpatialPoint> @:10095 op:28,dt:28,nt:9,next:65535,str:21674,d0:0,d1:10;)))
+                                    (____, Scope<Void> @:10096 op:385,dt:4,nt:8,next:10099,str:63688,d0:10097,d1:35557;
+                                        ("cs_go_to", Expression<MethodOrOperator> @:10097 op:385,dt:2,nt:9,next:10098,str:20715,d0:0,d1:0;
+                                            ("e1_panic/p1", Expression<SpatialPoint> @:10098 op:28,dt:28,nt:9,next:65535,str:21686,d0:1,d1:10;)))
+                                    (____, Scope<Void> @:10099 op:385,dt:4,nt:8,next:10102,str:63716,d0:10100,d1:35560;
+                                        ("cs_go_to", Expression<MethodOrOperator> @:10100 op:385,dt:2,nt:9,next:10101,str:20715,d0:0,d1:0;
+                                            ("e1_panic/p2", Expression<SpatialPoint> @:10101 op:28,dt:28,nt:9,next:65535,str:21698,d0:2,d1:10;)))
+                                    (____, Scope<Void> @:10102 op:385,dt:4,nt:8,next:10105,str:63744,d0:10103,d1:35563;
+                                        ("cs_go_to", Expression<MethodOrOperator> @:10103 op:385,dt:2,nt:9,next:10104,str:20715,d0:0,d1:0;
+                                            ("e1_panic/p3", Expression<SpatialPoint> @:10104 op:28,dt:28,nt:9,next:65535,str:21710,d0:3,d1:10;)))
+                                    (____, Scope<Void> @:10105 op:385,dt:4,nt:8,next:10108,str:63772,d0:10106,d1:35566;
+                                        ("cs_go_to", Expression<MethodOrOperator> @:10106 op:385,dt:2,nt:9,next:10107,str:20715,d0:0,d1:0;
+                                            ("e1_panic/p4", Expression<SpatialPoint> @:10107 op:28,dt:28,nt:9,next:65535,str:21722,d0:4,d1:10;)))
+                                    (____, Scope<Void> @:10108 op:385,dt:4,nt:8,next:65535,str:63800,d0:10109,d1:35569;
+                                        ("cs_go_to", Expression<MethodOrOperator> @:10109 op:385,dt:2,nt:9,next:10110,str:20715,d0:0,d1:0;
+                                            ("e1_panic/p5", Expression<SpatialPoint> @:10110 op:28,dt:28,nt:9,next:65535,str:21734,d0:5,d1:10;)))))
+                            (True, Expression<Boolean> @:10111 op:5,dt:5,nt:9,next:65535,str:63832,d0:65281,d1:65535;))))))))

@@ -1,0 +1,11 @@
+
+("cs_atr1_turret_fbalcony", MethodDecl<Void> @:348 check:0,op:0,dt:0,nt:65535,next:16192,nextCheck:41652,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:16192 check:41652,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:65349,h:2,d0:16193,d1:41653;
+        ("begin", Expression<MethodOrOperator> @:16193 check:41653,op:0,dt:2,nt:9,next:16185,nextCheck:41645,str:11,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:16185 check:41645,op:429,dt:4,nt:8,next:16188,nextCheck:41648,str:65398,h:2,d0:16186,d1:41646;
+                ("cs_deploy_turret", Expression<MethodOrOperator> @:16186 check:41646,op:429,dt:2,nt:9,next:16187,nextCheck:41647,str:32044,h:0,d0:0,d1:0;
+                    ("atr1_turrets/fbalcony", Expression<SpatialPoint> @:16187 check:41647,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:37203,h:0,d0:1,d1:7;)))
+            (____, Scope<Void> @:16188 check:41648,op:42,dt:4,nt:8,next:65535,nextCheck:65535,str:65441,h:2,d0:16189,d1:41649;
+                ("damage_new", Expression<MethodOrOperator> @:16189 check:41649,op:42,dt:2,nt:9,next:16190,nextCheck:41650,str:32928,h:0,d0:0,d1:0;
+                    ("effects\damage_effects\glass_breaker", Expression<DamageEffect> @:16190 check:41650,op:34,dt:34,nt:9,next:16191,nextCheck:41651,str:37225,h:0,d0:4390,d1:62278;
+                        ("fbalcony_flag", Expression<LocationFlag> @:16191 check:41651,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:37262,h:0,d0:24,d1:0;)))))))

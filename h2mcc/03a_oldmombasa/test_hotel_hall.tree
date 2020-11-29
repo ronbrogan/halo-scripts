@@ -1,0 +1,36 @@
+
+("test_hotel_hall", MethodDecl<Void> @:298 op:0,dt:0,nt:65535,next:11425,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:11425 op:0,dt:4,nt:8,next:65535,str:10909,d0:11426,d1:36886;
+        ("begin", Expression<MethodOrOperator> @:11426 op:0,dt:2,nt:9,next:11393,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:11393 op:105,dt:4,nt:8,next:11398,str:10947,d0:11394,d1:36854;
+                ("object_teleport", Expression<MethodOrOperator> @:11394 op:105,dt:2,nt:9,next:11395,str:13665,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:11395 op:0,dt:50,nt:10,next:11397,str:10964,d0:11396,d1:36856;
+                        ("player0", Expression<MethodOrOperator> @:11396 op:0,dt:2,nt:9,next:65535,str:665,d0:0,d1:0;))
+                    ("e7_test", Expression<LocationFlag> @:11397 op:14,dt:14,nt:9,next:65535,str:20855,d0:9,d1:0;)))
+            (____, Scope<Void> @:11398 op:290,dt:4,nt:8,next:11401,str:10985,d0:11399,d1:36859;
+                ("ai_place", Expression<MethodOrOperator> @:11399 op:290,dt:2,nt:9,next:11400,str:4681,d0:0,d1:0;
+                    ("e7_mars_inf0", Expression<AI> @:11400 op:19,dt:19,nt:9,next:65535,str:19966,d0:65,d1:0;)))
+            (____, Scope<Void> @:11401 op:2,dt:4,nt:8,next:11409,str:11011,d0:11402,d1:36862;
+                ("if", Expression<MethodOrOperator> @:11402 op:2,dt:2,nt:9,next:11403,str:519,d0:0,d1:0;
+                    (____, Scope<Boolean> @:11403 op:25,dt:5,nt:8,next:11406,str:11015,d0:11404,d1:36864;
+                        ("not", Expression<MethodOrOperator> @:11404 op:25,dt:2,nt:9,next:11405,str:460,d0:0,d1:0;
+                            ("g_e7_started", VariableAccess<Boolean> @:11405 op:5,dt:5,nt:13,next:65535,str:20694,d0:28,d1:0;)))
+                    (____, Scope<Void> @:11406 op:22,dt:4,nt:8,next:65535,str:11034,d0:11407,d1:36867;
+                        ("wake", Expression<MethodOrOperator> @:11407 op:22,dt:2,nt:9,next:11408,str:1129,d0:0,d1:0;
+                            ("e7_main", Expression<ScriptReference> @:11408 op:10,dt:10,nt:9,next:65535,str:20707,d0:297,d1:65535;)))))
+            (____, Scope<Void> @:11409 op:2,dt:4,nt:8,next:11417,str:11088,d0:11410,d1:36870;
+                ("if", Expression<MethodOrOperator> @:11410 op:2,dt:2,nt:9,next:11411,str:519,d0:0,d1:0;
+                    (____, Scope<Boolean> @:11411 op:25,dt:5,nt:8,next:11414,str:11092,d0:11412,d1:36872;
+                        ("not", Expression<MethodOrOperator> @:11412 op:25,dt:2,nt:9,next:11413,str:460,d0:0,d1:0;
+                            ("g_e8_started", VariableAccess<Boolean> @:11413 op:5,dt:5,nt:13,next:65535,str:20037,d0:24,d1:0;)))
+                    (____, Scope<Void> @:11414 op:22,dt:4,nt:8,next:65535,str:11111,d0:11415,d1:36875;
+                        ("wake", Expression<MethodOrOperator> @:11415 op:22,dt:2,nt:9,next:11416,str:1129,d0:0,d1:0;
+                            ("e8_main", Expression<ScriptReference> @:11416 op:10,dt:10,nt:9,next:65535,str:20050,d0:287,d1:65535;)))))
+            (____, Scope<Void> @:11417 op:2,dt:4,nt:8,next:65535,str:11129,d0:11418,d1:36878;
+                ("if", Expression<MethodOrOperator> @:11418 op:2,dt:2,nt:9,next:11419,str:519,d0:0,d1:0;
+                    (____, Scope<Boolean> @:11419 op:25,dt:5,nt:8,next:11422,str:11133,d0:11420,d1:36880;
+                        ("not", Expression<MethodOrOperator> @:11420 op:25,dt:2,nt:9,next:11421,str:460,d0:0,d1:0;
+                            ("g_e12_started", VariableAccess<Boolean> @:11421 op:5,dt:5,nt:13,next:65535,str:14725,d0:13,d1:0;)))
+                    (____, Scope<Void> @:11422 op:22,dt:4,nt:8,next:65535,str:11153,d0:11423,d1:36883;
+                        ("wake", Expression<MethodOrOperator> @:11423 op:22,dt:2,nt:9,next:11424,str:1129,d0:0,d1:0;
+                            ("e12_main", Expression<ScriptReference> @:11424 op:10,dt:10,nt:9,next:65535,str:14739,d0:201,d1:65535;))))))))

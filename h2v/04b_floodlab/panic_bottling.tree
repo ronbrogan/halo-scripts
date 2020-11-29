@@ -1,0 +1,24 @@
+
+("panic_bottling", MethodDecl<Void> @:310 check:0,op:0,dt:0,nt:65535,next:23790,nextCheck:49250,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:23790 check:49250,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:38927,h:3,d0:23791,d1:49251;
+        ("begin", Expression<MethodOrOperator> @:23791 check:49251,op:0,dt:2,nt:9,next:23770,nextCheck:49230,str:210,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:23770 check:49230,op:435,dt:4,nt:8,next:23773,nextCheck:49233,str:38967,h:3,d0:23771,d1:49231;
+                ("cs_ignore_obstacles", Expression<MethodOrOperator> @:23771 check:49231,op:435,dt:2,nt:9,next:23772,nextCheck:49232,str:24154,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:23772 check:49232,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:38988,h:3,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:23773 check:49233,op:444,dt:4,nt:8,next:23776,nextCheck:49236,str:38996,h:3,d0:23774,d1:49234;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:23774 check:49234,op:444,dt:2,nt:9,next:23775,nextCheck:49235,str:11397,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:23775 check:49235,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:39014,h:3,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:23776 check:49236,op:422,dt:4,nt:8,next:23779,nextCheck:49239,str:39022,h:3,d0:23777,d1:49237;
+                ("cs_movement_mode", Expression<MethodOrOperator> @:23777 check:49237,op:422,dt:2,nt:9,next:23778,nextCheck:49238,str:32665,h:0,d0:0,d1:0;
+                    (3, Expression<Short> @:23778 check:49238,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:39040,h:3,d0:3,d1:65535;)))
+            (____, Scope<Void> @:23779 check:49239,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:39045,h:3,d0:23780,d1:49240;
+                ("sleep_until", Expression<MethodOrOperator> @:23780 check:49240,op:21,dt:2,nt:9,next:23781,nextCheck:49241,str:440,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:23781 check:49241,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:39058,h:3,d0:23782,d1:49242;
+                        ("=", Expression<MethodOrOperator> @:23782 check:49242,op:13,dt:2,nt:9,next:23783,nextCheck:49243,str:505,h:0,d0:0,d1:0;
+                            (____, Scope<Boolean> @:23783 check:49243,op:32,dt:5,nt:8,next:23789,nextCheck:49249,str:39061,h:3,d0:23784,d1:49244;
+                                ("volume_test_object", Expression<MethodOrOperator> @:23784 check:49244,op:32,dt:2,nt:9,next:23785,nextCheck:49245,str:11084,h:0,d0:0,d1:0;
+                                    ("vol_bottling_enter", Expression<Trigger> @:23785 check:49245,op:13,dt:13,nt:9,next:23786,nextCheck:49246,str:32256,h:0,d0:63,d1:0;
+                                        (____, Scope<Entity> @:23786 check:49246,op:284,dt:50,nt:8,next:65535,nextCheck:65535,str:39100,h:3,d0:23787,d1:49247;
+                                            ("ai_get_object", Expression<MethodOrOperator> @:23787 check:49247,op:284,dt:2,nt:9,next:23788,nextCheck:49248,str:18989,h:0,d0:0,d1:0;
+                                                ("ai_current_actor", VariableAccess<AI> @:23788 check:49248,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:11813,h:0,d0:33564,d1:65535;))))))
+                            (True, Expression<Boolean> @:23789 check:49249,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:39134,h:3,d0:65281,d1:65535;))))))))

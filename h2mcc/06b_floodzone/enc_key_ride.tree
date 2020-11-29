@@ -1,0 +1,42 @@
+
+("enc_key_ride", MethodDecl<Void> @:281 op:0,dt:0,nt:65535,next:13734,str:28049,d0:0,d1:0;
+    (____, Scope<Void> @:13734 op:0,dt:4,nt:8,next:65535,str:31446,d0:13735,d1:39195;
+        ("begin", Expression<MethodOrOperator> @:13735 op:0,dt:2,nt:9,next:13641,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:13641 op:27,dt:4,nt:8,next:13644,str:31478,d0:13642,d1:39102;
+                ("print", Expression<MethodOrOperator> @:13642 op:27,dt:2,nt:9,next:13643,str:91,d0:0,d1:0;
+                    ("initialize key ride scripts", Expression<String> @:13643 op:9,dt:9,nt:9,next:65535,str:27424,d0:27424,d1:0;)))
+            (____, Scope<Void> @:13644 op:317,dt:4,nt:8,next:13647,str:31535,d0:13645,d1:39105;
+                ("ai_renew", Expression<MethodOrOperator> @:13645 op:317,dt:2,nt:9,next:13646,str:18416,d0:0,d1:0;
+                    ("covenant", Expression<AI> @:13646 op:19,dt:19,nt:9,next:65535,str:10547,d0:0,d1:16384;)))
+            (____, Scope<Void> @:13647 op:22,dt:4,nt:8,next:13650,str:31562,d0:13648,d1:39108;
+                ("wake", Expression<MethodOrOperator> @:13648 op:22,dt:2,nt:9,next:13649,str:1071,d0:0,d1:0;
+                    ("music_06b_05", Expression<ScriptReference> @:13649 op:10,dt:10,nt:9,next:65535,str:27452,d0:139,d1:65535;)))
+            (____, Scope<Void> @:13650 op:22,dt:4,nt:8,next:13653,str:31585,d0:13651,d1:39111;
+                ("wake", Expression<MethodOrOperator> @:13651 op:22,dt:2,nt:9,next:13652,str:1071,d0:0,d1:0;
+                    ("music_06b_06", Expression<ScriptReference> @:13652 op:10,dt:10,nt:9,next:65535,str:27465,d0:140,d1:65535;)))
+            (____, Scope<Void> @:13653 op:22,dt:4,nt:8,next:13656,str:31608,d0:13654,d1:39114;
+                ("wake", Expression<MethodOrOperator> @:13654 op:22,dt:2,nt:9,next:13655,str:1071,d0:0,d1:0;
+                    ("music_06b_07", Expression<ScriptReference> @:13655 op:10,dt:10,nt:9,next:65535,str:27478,d0:141,d1:65535;)))
+            (____, Scope<Void> @:13656 op:21,dt:4,nt:8,next:13881,str:31633,d0:13657,d1:39117;
+                ("sleep_until", Expression<MethodOrOperator> @:13657 op:21,dt:2,nt:9,next:13658,str:236,d0:0,d1:0;
+                    (____, Scope<Boolean> @:13658 op:33,dt:5,nt:8,next:65535,str:31646,d0:13659,d1:39119;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:13659 op:33,dt:2,nt:9,next:13660,str:11117,d0:0,d1:0;
+                            ("tv_key_ride_cinematic", Expression<Trigger> @:13660 op:13,dt:13,nt:9,next:13661,str:27491,d0:17,d1:0;
+                                (____, Scope<List> @:13661 op:28,dt:31,nt:8,next:65535,str:31689,d0:13662,d1:39122;
+                                    ("players", Expression<MethodOrOperator> @:13662 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))))
+            ("cinematic_fade_to_white", ScriptInvocation<Void> @:13881 op:9,dt:4,nt:10,next:13883,str:34115,d0:13882,d1:39342;
+                ("cinematic_fade_to_white", Expression<MethodOrOperator> @:13882 op:9,dt:2,nt:9,next:65535,str:27513,d0:0,d1:0;))
+            (____, Scope<Void> @:13883 op:299,dt:4,nt:8,next:13885,str:34143,d0:13884,d1:39344;
+                ("ai_erase_all", Expression<MethodOrOperator> @:13884 op:299,dt:2,nt:9,next:65535,str:27537,d0:0,d1:0;))
+            (____, Scope<Void> @:13885 op:105,dt:4,nt:8,next:13890,str:34163,d0:13886,d1:39346;
+                ("object_teleport", Expression<MethodOrOperator> @:13886 op:105,dt:2,nt:9,next:13887,str:20125,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:13887 op:0,dt:50,nt:10,next:13889,str:34180,d0:13888,d1:39348;
+                        ("player0", Expression<MethodOrOperator> @:13888 op:0,dt:2,nt:9,next:65535,str:607,d0:0,d1:0;))
+                    ("player0_end", Expression<LocationFlag> @:13889 op:14,dt:14,nt:9,next:65535,str:28069,d0:37,d1:0;)))
+            (____, Scope<Void> @:13890 op:105,dt:4,nt:8,next:13910,str:34205,d0:13891,d1:39351;
+                ("object_teleport", Expression<MethodOrOperator> @:13891 op:105,dt:2,nt:9,next:13892,str:20125,d0:0,d1:0;
+                    ("player1", ScriptInvocation<Entity> @:13892 op:1,dt:50,nt:10,next:13894,str:34222,d0:13893,d1:39353;
+                        ("player1", Expression<MethodOrOperator> @:13893 op:1,dt:2,nt:9,next:65535,str:615,d0:0,d1:0;))
+                    ("player1_end", Expression<LocationFlag> @:13894 op:14,dt:14,nt:9,next:65535,str:28081,d0:38,d1:0;)))
+            (____, Scope<Void> @:13910 op:565,dt:4,nt:8,next:65535,str:34380,d0:13911,d1:39371;
+                ("game_won", Expression<MethodOrOperator> @:13911 op:565,dt:2,nt:9,next:65535,str:28114,d0:0,d1:0;)))))

@@ -1,0 +1,28 @@
+
+("c07_1080_pot", MethodDecl<Void> @:151 check:0,op:0,dt:0,nt:65535,next:5105,nextCheck:63332,str:12475,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:5105 check:63332,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:2675,h:1,d0:5106,d1:63333;
+        ("begin", Expression<MethodOrOperator> @:5106 check:63333,op:0,dt:2,nt:9,next:5081,nextCheck:63308,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:5081 check:63308,op:19,dt:4,nt:8,next:5084,nextCheck:63311,str:2706,h:1,d0:5082,d1:63309;
+                ("sleep", Expression<MethodOrOperator> @:5082 check:63309,op:19,dt:2,nt:9,next:5083,nextCheck:63310,str:80,h:0,d0:0,d1:0;
+                    (412, Expression<Short> @:5083 check:63310,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2713,h:1,d0:412,d1:65535;)))
+            (____, Scope<Void> @:5084 check:63311,op:596,dt:4,nt:8,next:5089,nextCheck:63316,str:2720,h:1,d0:5085,d1:63312;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:5085 check:63312,op:596,dt:2,nt:9,next:5086,nextCheck:63313,str:1513,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\07_highcharity\cinematic\c07_1080_pot", Expression<Sound> @:5086 check:63313,op:32,dt:32,nt:9,next:5087,nextCheck:63314,str:12417,h:0,d0:909,d1:58627;
+                        (4294902041, Expression<Entity> @:5087 check:63314,op:56,dt:50,nt:9,next:5088,nextCheck:63315,str:10101,h:0,d0:281,d1:65535;
+                            (1f, Expression<Float> @:5088 check:63315,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:2811,h:1,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:5089 check:63316,op:562,dt:4,nt:8,next:5093,nextCheck:63320,str:2816,h:1,d0:5090,d1:63317;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:5090 check:63317,op:562,dt:2,nt:9,next:5091,nextCheck:63318,str:2861,h:0,d0:0,d1:0;
+                    ("c07_1080_pot", Expression<StringId> @:5091 check:63318,op:11,dt:11,nt:9,next:5092,nextCheck:63319,str:12475,h:0,d0:4189,d1:3072;
+                        (2f, Expression<Float> @:5092 check:63319,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:2849,h:1,d0:0,d1:16384;))))
+            (____, Scope<Void> @:5093 check:63320,op:19,dt:4,nt:8,next:5096,nextCheck:63323,str:2857,h:1,d0:5094,d1:63321;
+                ("sleep", Expression<MethodOrOperator> @:5094 check:63321,op:19,dt:2,nt:9,next:5095,nextCheck:63322,str:80,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:5095 check:63322,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2864,h:1,d0:30,d1:65535;)))
+            (____, Scope<Void> @:5096 check:63323,op:220,dt:4,nt:8,next:5102,nextCheck:63329,str:2873,h:1,d0:5097,d1:63324;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:5097 check:63324,op:220,dt:2,nt:9,next:5098,nextCheck:63325,str:11016,h:0,d0:0,d1:0;
+                    ("truth_intro", Expression<Unit> @:5098 check:63325,op:57,dt:51,nt:9,next:5099,nextCheck:63326,str:10101,h:0,d0:281,d1:65535;
+                        ("arrogant", Expression<StringId> @:5099 check:63326,op:11,dt:11,nt:9,next:5100,nextCheck:63327,str:12488,h:0,d0:428,d1:2048;
+                            (0.5f, Expression<Float> @:5100 check:63327,op:6,dt:6,nt:9,next:5101,nextCheck:63328,str:2920,h:1,d0:0,d1:16128;
+                                (30, Expression<Short> @:5101 check:63328,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2923,h:1,d0:30,d1:65535;))))))
+            (____, Scope<Void> @:5102 check:63329,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:2929,h:1,d0:5103,d1:63330;
+                ("print", Expression<MethodOrOperator> @:5103 check:63330,op:27,dt:2,nt:9,next:5104,nextCheck:63331,str:86,h:0,d0:0,d1:0;
+                    ("truth - arrogant .5 30", Expression<String> @:5104 check:63331,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12497,h:0,d0:63641,d1:12542;))))))

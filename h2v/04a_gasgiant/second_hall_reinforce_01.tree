@@ -1,0 +1,28 @@
+
+("second_hall_reinforce_01", MethodDecl<Void> @:323 check:0,op:0,dt:0,nt:65535,next:15179,nextCheck:40639,str:27770,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:15179 check:40639,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:40491,h:2,d0:15180,d1:40640;
+        ("begin", Expression<MethodOrOperator> @:15180 check:40640,op:0,dt:2,nt:9,next:15155,nextCheck:40615,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:15155 check:40615,op:21,dt:4,nt:8,next:15171,nextCheck:40631,str:40534,h:2,d0:15156,d1:40616;
+                ("sleep_until", Expression<MethodOrOperator> @:15156 check:40616,op:21,dt:2,nt:9,next:15157,nextCheck:40617,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:15157 check:40617,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:40551,h:2,d0:15158,d1:40618;
+                        ("or", Expression<MethodOrOperator> @:15158 check:40618,op:6,dt:2,nt:9,next:15159,nextCheck:40619,str:849,h:0,d0:0,d1:0;
+                            (____, Scope<Boolean> @:15159 check:40619,op:15,dt:5,nt:8,next:15165,nextCheck:40625,str:40560,h:2,d0:15160,d1:40620;
+                                (">", Expression<MethodOrOperator> @:15160 check:40620,op:15,dt:2,nt:9,next:15161,nextCheck:40621,str:14879,h:0,d0:0,d1:0;
+                                    (____, Scope<Short> @:15161 check:40621,op:353,dt:7,nt:8,next:15164,nextCheck:40624,str:40563,h:2,d0:15162,d1:40622;
+                                        ("ai_combat_status", Expression<MethodOrOperator> @:15162 check:40622,op:353,dt:2,nt:9,next:15163,nextCheck:40623,str:14881,h:0,d0:0,d1:0;
+                                            ("second_hall_grunts_01", Expression<AI> @:15163 check:40623,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:27458,h:0,d0:79,d1:0;)))
+                                    ("ai_combat_status_idle", VariableAccess<Short> @:15164 check:40624,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:20748,h:0,d0:33572,d1:65535;)))
+                            (____, Scope<Boolean> @:15165 check:40625,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:40631,h:2,d0:15166,d1:40626;
+                                (">", Expression<MethodOrOperator> @:15166 check:40626,op:15,dt:2,nt:9,next:15167,nextCheck:40627,str:14879,h:0,d0:0,d1:0;
+                                    (____, Scope<Short> @:15167 check:40627,op:353,dt:7,nt:8,next:15170,nextCheck:40630,str:40634,h:2,d0:15168,d1:40628;
+                                        ("ai_combat_status", Expression<MethodOrOperator> @:15168 check:40628,op:353,dt:2,nt:9,next:15169,nextCheck:40629,str:14881,h:0,d0:0,d1:0;
+                                            ("second_hall_heretic_01", Expression<AI> @:15169 check:40629,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:27480,h:0,d0:78,d1:0;)))
+                                    ("ai_combat_status_idle", VariableAccess<Short> @:15170 check:40630,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:20748,h:0,d0:33572,d1:65535;)))))))
+            (____, Scope<Void> @:15171 check:40631,op:291,dt:4,nt:8,next:15175,nextCheck:40635,str:40710,h:2,d0:15172,d1:40632;
+                ("ai_place", Expression<MethodOrOperator> @:15172 check:40632,op:291,dt:2,nt:9,next:15173,nextCheck:40633,str:17177,h:0,d0:0,d1:0;
+                    ("second_hall_heretic_02", Expression<AI> @:15173 check:40633,op:19,dt:19,nt:9,next:15174,nextCheck:40634,str:27503,h:0,d0:80,d1:0;
+                        (1, Expression<Short> @:15174 check:40634,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:40743,h:2,d0:1,d1:65535;))))
+            (____, Scope<Void> @:15175 check:40635,op:366,dt:4,nt:8,next:65535,nextCheck:65535,str:40748,h:2,d0:15176,d1:40636;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:15176 check:40636,op:366,dt:2,nt:9,next:15177,nextCheck:40637,str:18267,h:0,d0:0,d1:0;
+                    ("second_hall_heretic_02", Expression<AI> @:15177 check:40637,op:19,dt:19,nt:9,next:15178,nextCheck:40638,str:27503,h:0,d0:80,d1:0;
+                        ("snap_alert", Expression<AIScript> @:15178 check:40638,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:21431,h:0,d0:216,d1:0;)))))))

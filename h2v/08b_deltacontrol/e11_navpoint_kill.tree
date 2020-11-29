@@ -1,0 +1,18 @@
+
+("e11_navpoint_kill", MethodDecl<Void> @:383 check:0,op:0,dt:0,nt:65535,next:13416,nextCheck:38876,str:30353,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:13416 check:38876,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:35013,h:2,d0:13417,d1:38877;
+        ("begin", Expression<MethodOrOperator> @:13417 check:38877,op:0,dt:2,nt:9,next:13402,nextCheck:38862,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:13402 check:38862,op:21,dt:4,nt:8,next:13409,nextCheck:38869,str:35049,h:2,d0:13403,d1:38863;
+                ("sleep_until", Expression<MethodOrOperator> @:13403 check:38863,op:21,dt:2,nt:9,next:13404,nextCheck:38864,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:13404 check:38864,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:35062,h:2,d0:13405,d1:38865;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:13405 check:38865,op:33,dt:2,nt:9,next:13406,nextCheck:38866,str:4732,h:0,d0:0,d1:0;
+                            ("tv_e12_ledge", Expression<Trigger> @:13406 check:38866,op:13,dt:13,nt:9,next:13407,nextCheck:38867,str:27598,h:0,d0:39,d1:0;
+                                (____, Scope<List> @:13407 check:38867,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:35096,h:2,d0:13408,d1:38868;
+                                    ("players", Expression<MethodOrOperator> @:13408 check:38868,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))))
+            (____, Scope<Void> @:13409 check:38869,op:20,dt:4,nt:8,next:13412,nextCheck:38872,str:35110,h:2,d0:13410,d1:38870;
+                ("sleep_forever", Expression<MethodOrOperator> @:13410 check:38870,op:20,dt:2,nt:9,next:13411,nextCheck:38871,str:1139,h:0,d0:0,d1:0;
+                    ("e11_navpoint", Expression<ScriptReference> @:13411 check:38871,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:30189,h:0,d0:382,d1:65535;)))
+            (____, Scope<Void> @:13412 check:38872,op:643,dt:4,nt:8,next:65535,nextCheck:65535,str:35141,h:2,d0:13413,d1:38873;
+                ("deactivate_team_nav_point_flag", Expression<MethodOrOperator> @:13413 check:38873,op:643,dt:2,nt:9,next:13414,nextCheck:38874,str:30202,h:0,d0:0,d1:0;
+                    ("player", Expression<Team> @:13414 check:38874,op:45,dt:45,nt:9,next:13415,nextCheck:38875,str:5092,h:0,d0:1,d1:65535;
+                        ("e11_exit_door", Expression<LocationFlag> @:13415 check:38875,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:30135,h:0,d0:18,d1:0;)))))))

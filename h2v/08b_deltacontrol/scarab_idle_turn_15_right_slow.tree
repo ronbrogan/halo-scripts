@@ -1,0 +1,29 @@
+
+("scarab_idle_turn_15_right_slow", MethodDecl<Void> @:311 check:0,op:0,dt:0,nt:65535,next:10667,nextCheck:36127,str:25109,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:10667 check:36127,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:57709,h:1,d0:10668,d1:36128;
+        ("begin", Expression<MethodOrOperator> @:10668 check:36128,op:0,dt:2,nt:9,next:10642,nextCheck:36102,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:10642 check:36102,op:27,dt:4,nt:8,next:10645,nextCheck:36105,str:57762,h:1,d0:10643,d1:36103;
+                ("print", Expression<MethodOrOperator> @:10643 check:36103,op:27,dt:2,nt:9,next:10644,nextCheck:36104,str:91,h:0,d0:0,d1:0;
+                    ("scarab_idle_turn_15_right_slow", Expression<String> @:10644 check:36104,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:25109,h:0,d0:18717,d1:12561;)))
+            (____, Scope<Void> @:10645 check:36105,op:266,dt:4,nt:8,next:10650,nextCheck:36110,str:57805,h:1,d0:10646,d1:36106;
+                ("device_set_position_track", Expression<MethodOrOperator> @:10646 check:36106,op:266,dt:2,nt:9,next:10647,nextCheck:36107,str:24779,h:0,d0:0,d1:0;
+                    ("scarab", Expression<Device> @:10647 check:36107,op:60,dt:54,nt:9,next:10648,nextCheck:36108,str:9804,h:0,d0:105,d1:65535;
+                        ("combat:turn_15_right", Expression<StringId> @:10648 check:36108,op:11,dt:11,nt:9,next:10649,nextCheck:36109,str:25088,h:0,d0:5159,d1:5120;
+                            ("g_scarab_interpolation", VariableAccess<Float> @:10649 check:36109,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:24822,h:0,d0:28,d1:0;)))))
+            (____, Scope<Void> @:10650 check:36110,op:268,dt:4,nt:8,next:10658,nextCheck:36118,str:57886,h:1,d0:10651,d1:36111;
+                ("device_animate_position", Expression<MethodOrOperator> @:10651 check:36111,op:268,dt:2,nt:9,next:10652,nextCheck:36112,str:24845,h:0,d0:0,d1:0;
+                    ("scarab", Expression<Device> @:10652 check:36112,op:60,dt:54,nt:9,next:10653,nextCheck:36113,str:9804,h:0,d0:105,d1:65535;
+                        (1f, Expression<Float> @:10653 check:36113,op:6,dt:6,nt:9,next:10654,nextCheck:36114,str:57918,h:1,d0:0,d1:16256;
+                            (6f, Expression<Float> @:10654 check:36114,op:6,dt:6,nt:9,next:10655,nextCheck:36115,str:57922,h:1,d0:0,d1:16576;
+                                (0f, Expression<Float> @:10655 check:36115,op:6,dt:6,nt:9,next:10656,nextCheck:36116,str:57924,h:1,d0:0,d1:0;
+                                    (0f, Expression<Float> @:10656 check:36116,op:6,dt:6,nt:9,next:10657,nextCheck:36117,str:57926,h:1,d0:0,d1:0;
+                                        (True, Expression<Boolean> @:10657 check:36117,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:57928,h:1,d0:65281,d1:65535;))))))))
+            (____, Scope<Void> @:10658 check:36118,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:57936,h:1,d0:10659,d1:36119;
+                ("sleep_until", Expression<MethodOrOperator> @:10659 check:36119,op:21,dt:2,nt:9,next:10660,nextCheck:36120,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:10660 check:36120,op:17,dt:5,nt:8,next:10666,nextCheck:36126,str:57949,h:1,d0:10661,d1:36121;
+                        (">=", Expression<MethodOrOperator> @:10661 check:36121,op:17,dt:2,nt:9,next:10662,nextCheck:36122,str:676,h:0,d0:0,d1:0;
+                            (-4.78132E-31f, Scope<Float> @:10662 check:36122,op:257,dt:6,nt:8,next:10665,nextCheck:36125,str:57953,h:1,d0:10663,d1:36123;
+                                ("device_get_position", Expression<MethodOrOperator> @:10663 check:36123,op:257,dt:2,nt:9,next:10664,nextCheck:36124,str:5946,h:0,d0:0,d1:0;
+                                    ("scarab", Expression<Device> @:10664 check:36124,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:9804,h:0,d0:105,d1:65535;)))
+                            (1f, Expression<Float> @:10665 check:36125,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:57982,h:1,d0:0,d1:16256;)))
+                    (1, Expression<Short> @:10666 check:36126,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:57987,h:1,d0:1,d1:65535;))))))

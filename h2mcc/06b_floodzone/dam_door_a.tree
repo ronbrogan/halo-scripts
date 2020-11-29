@@ -1,0 +1,21 @@
+
+("dam_door_a", MethodDecl<Void> @:181 op:0,dt:0,nt:65535,next:7414,str:16291,d0:0,d1:0;
+    (____, Scope<Void> @:7414 op:0,dt:4,nt:8,next:65535,str:19706,d0:7415,d1:32875;
+        ("begin", Expression<MethodOrOperator> @:7415 op:0,dt:2,nt:9,next:7397,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:7397 op:21,dt:4,nt:8,next:65535,str:19735,d0:7398,d1:32858;
+                ("sleep_until", Expression<MethodOrOperator> @:7398 op:21,dt:2,nt:9,next:7399,str:236,d0:0,d1:0;
+                    (____, Scope<Boolean> @:7399 op:0,dt:5,nt:8,next:65535,str:19751,d0:7400,d1:32860;
+                        ("begin", Expression<MethodOrOperator> @:7400 op:0,dt:2,nt:9,next:7401,str:6,d0:0,d1:0;
+                            (____, Scope<Void> @:7401 op:21,dt:4,nt:8,next:7409,str:19762,d0:7402,d1:32862;
+                                ("sleep_until", Expression<MethodOrOperator> @:7402 op:21,dt:2,nt:9,next:7403,str:236,d0:0,d1:0;
+                                    (____, Scope<Boolean> @:7403 op:33,dt:5,nt:8,next:7408,str:19775,d0:7404,d1:32864;
+                                        ("volume_test_objects", Expression<MethodOrOperator> @:7404 op:33,dt:2,nt:9,next:7405,str:11117,d0:0,d1:0;
+                                            ("tv_dam_door_a", Expression<Trigger> @:7405 op:13,dt:13,nt:9,next:7406,str:16277,d0:62,d1:0;
+                                                (____, Scope<List> @:7406 op:28,dt:31,nt:8,next:65535,str:19810,d0:7407,d1:32867;
+                                                    ("players", Expression<MethodOrOperator> @:7407 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))
+                                    (5, Expression<Short> @:7408 op:7,dt:7,nt:9,next:65535,str:19821,d0:5,d1:65535;)))
+                            (____, Scope<Void> @:7409 op:256,dt:4,nt:8,next:7413,str:19828,d0:7410,d1:32870;
+                                ("device_set_position", Expression<MethodOrOperator> @:7410 op:256,dt:2,nt:9,next:7411,str:4999,d0:0,d1:0;
+                                    ("dam_door_a", Expression<Device> @:7411 op:60,dt:54,nt:9,next:7412,str:16291,d0:70,d1:65535;
+                                        (1f, Expression<Float> @:7412 op:6,dt:6,nt:9,next:65535,str:19860,d0:0,d1:16256;))))
+                            (False, Expression<Boolean> @:7413 op:5,dt:5,nt:9,next:65535,str:19866,d0:65280,d1:65535;))))))))

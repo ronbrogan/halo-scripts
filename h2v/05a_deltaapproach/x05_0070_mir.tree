@@ -1,0 +1,29 @@
+
+("x05_0070_mir", MethodDecl<Void> @:51 check:0,op:0,dt:0,nt:65535,next:1283,nextCheck:59510,str:3216,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:1283 check:59510,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:14638,h:0,d0:1284,d1:59511;
+        ("begin", Expression<MethodOrOperator> @:1284 check:59511,op:0,dt:2,nt:9,next:1258,nextCheck:59485,str:54,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:1258 check:59485,op:19,dt:4,nt:8,next:1261,nextCheck:59488,str:14669,h:0,d0:1259,d1:59486;
+                ("sleep", Expression<MethodOrOperator> @:1259 check:59486,op:19,dt:2,nt:9,next:1260,nextCheck:59487,str:133,h:0,d0:0,d1:0;
+                    (327, Expression<Short> @:1260 check:59487,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:14676,h:0,d0:327,d1:65535;)))
+            (____, Scope<Void> @:1261 check:59488,op:598,dt:4,nt:8,next:1267,nextCheck:59494,str:14683,h:0,d0:1262,d1:59489;
+                ("sound_impulse_start_effect", Expression<MethodOrOperator> @:1262 check:59489,op:598,dt:2,nt:9,next:1263,nextCheck:59490,str:3023,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\05_deltatemple\cinematics\x05_0070_mir", Expression<Sound> @:1263 check:59490,op:32,dt:32,nt:9,next:1264,nextCheck:59491,str:3139,h:0,d0:749,d1:58467;
+                        (4294967295, Expression<Entity> @:1264 check:59491,op:50,dt:50,nt:9,next:1265,nextCheck:59492,str:1392,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:1265 check:59492,op:6,dt:6,nt:9,next:1266,nextCheck:59493,str:14775,h:0,d0:0,d1:16256;
+                                ("radio_default_out", Expression<StringId> @:1266 check:59493,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:3198,h:0,d0:11373,d1:4352;))))))
+            (____, Scope<Void> @:1267 check:59494,op:562,dt:4,nt:8,next:1271,nextCheck:59498,str:14798,h:0,d0:1268,d1:59495;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:1268 check:59495,op:562,dt:2,nt:9,next:1269,nextCheck:59496,str:2529,h:0,d0:0,d1:0;
+                    ("x05_0070_mir", Expression<StringId> @:1269 check:59496,op:11,dt:11,nt:9,next:1270,nextCheck:59497,str:3216,h:0,d0:3664,d1:3072;
+                        (1f, Expression<Float> @:1270 check:59497,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:14831,h:0,d0:0,d1:16256;))))
+            (____, Scope<Void> @:1271 check:59498,op:19,dt:4,nt:8,next:1274,nextCheck:59501,str:14839,h:0,d0:1272,d1:59499;
+                ("sleep", Expression<MethodOrOperator> @:1272 check:59499,op:19,dt:2,nt:9,next:1273,nextCheck:59500,str:133,h:0,d0:0,d1:0;
+                    (27, Expression<Short> @:1273 check:59500,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:14846,h:0,d0:27,d1:65535;)))
+            (____, Scope<Void> @:1274 check:59501,op:220,dt:4,nt:8,next:1280,nextCheck:59507,str:14855,h:0,d0:1275,d1:59502;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:1275 check:59502,op:220,dt:2,nt:9,next:1276,nextCheck:59503,str:2561,h:0,d0:0,d1:0;
+                    ("johnson", Expression<Unit> @:1276 check:59503,op:57,dt:51,nt:9,next:1277,nextCheck:59504,str:3229,h:0,d0:72,d1:65535;
+                        ("inquisitive", Expression<StringId> @:1277 check:59504,op:11,dt:11,nt:9,next:1278,nextCheck:59505,str:3237,h:0,d0:423,d1:2816;
+                            (0.5f, Expression<Float> @:1278 check:59505,op:6,dt:6,nt:9,next:1279,nextCheck:59506,str:14901,h:0,d0:0,d1:16128;
+                                (10, Expression<Short> @:1279 check:59506,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:14904,h:0,d0:10,d1:65535;))))))
+            (____, Scope<Void> @:1280 check:59507,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:14910,h:0,d0:1281,d1:59508;
+                ("print", Expression<MethodOrOperator> @:1281 check:59508,op:27,dt:2,nt:9,next:1282,nextCheck:59509,str:139,h:0,d0:0,d1:0;
+                    ("johnson - inquisitive .5 10", Expression<String> @:1282 check:59509,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:3249,h:0,d0:14625,d1:12768;))))))

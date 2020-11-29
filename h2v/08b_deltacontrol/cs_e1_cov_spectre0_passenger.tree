@@ -1,0 +1,31 @@
+
+("cs_e1_cov_spectre0_passenger", MethodDecl<Void> @:511 check:0,op:0,dt:0,nt:65535,next:20412,nextCheck:45872,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:20412 check:45872,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:5633,h:4,d0:20413,d1:45873;
+        ("begin", Expression<MethodOrOperator> @:20413 check:45873,op:0,dt:2,nt:9,next:20385,nextCheck:45845,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:20385 check:45845,op:394,dt:4,nt:8,next:20388,nextCheck:45848,str:5709,h:4,d0:20386,d1:45846;
+                ("cs_look_player", Expression<MethodOrOperator> @:20386 check:45846,op:394,dt:2,nt:9,next:20387,nextCheck:45847,str:27144,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:20387 check:45847,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:5725,h:4,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:20388 check:45848,op:400,dt:4,nt:8,next:20391,nextCheck:45851,str:5733,h:4,d0:20389,d1:45849;
+                ("cs_face_player", Expression<MethodOrOperator> @:20389 check:45849,op:400,dt:2,nt:9,next:20390,nextCheck:45850,str:1207,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:20390 check:45850,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:5749,h:4,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:20391 check:45851,op:21,dt:4,nt:8,next:20401,nextCheck:45861,str:5757,h:4,d0:20392,d1:45852;
+                ("sleep_until", Expression<MethodOrOperator> @:20392 check:45852,op:21,dt:2,nt:9,next:20393,nextCheck:45853,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:20393 check:45853,op:5,dt:5,nt:8,next:20400,nextCheck:45860,str:5773,h:4,d0:20394,d1:45854;
+                        ("and", Expression<MethodOrOperator> @:20394 check:45854,op:5,dt:2,nt:9,next:20395,nextCheck:45855,str:672,h:0,d0:0,d1:0;
+                            ("players_in_vehicle", ScriptInvocation<Boolean> @:20395 check:45855,op:265,dt:5,nt:10,next:20397,nextCheck:45857,str:5782,h:4,d0:20396,d1:45856;
+                                ("players_in_vehicle", Expression<MethodOrOperator> @:20396 check:45856,op:265,dt:2,nt:9,next:65535,nextCheck:65535,str:30073,h:0,d0:0,d1:0;))
+                            (____, Scope<Boolean> @:20397 check:45857,op:222,dt:5,nt:8,next:65535,nextCheck:65535,str:5807,h:4,d0:20398,d1:45858;
+                                ("unit_in_vehicle", Expression<MethodOrOperator> @:20398 check:45858,op:222,dt:2,nt:9,next:20399,nextCheck:45859,str:23658,h:0,d0:0,d1:0;
+                                    ("g_cov_commander", VariableAccess<Unit> @:20399 check:45859,op:51,dt:51,nt:13,next:65535,nextCheck:65535,str:38919,h:0,d0:27,d1:0;)))))
+                    (10, Expression<Short> @:20400 check:45860,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:5849,h:4,d0:10,d1:65535;)))
+            (____, Scope<Void> @:20401 check:45861,op:394,dt:4,nt:8,next:20404,nextCheck:45864,str:5858,h:4,d0:20402,d1:45862;
+                ("cs_look_player", Expression<MethodOrOperator> @:20402 check:45862,op:394,dt:2,nt:9,next:20403,nextCheck:45863,str:27144,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:20403 check:45863,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:5874,h:4,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:20404 check:45864,op:400,dt:4,nt:8,next:20407,nextCheck:45867,str:5883,h:4,d0:20405,d1:45865;
+                ("cs_face_player", Expression<MethodOrOperator> @:20405 check:45865,op:400,dt:2,nt:9,next:20406,nextCheck:45866,str:1207,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:20406 check:45866,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:5899,h:4,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:20407 check:45867,op:426,dt:4,nt:8,next:65535,nextCheck:65535,str:5908,h:4,d0:20408,d1:45868;
+                ("cs_go_to_vehicle", Expression<MethodOrOperator> @:20408 check:45868,op:426,dt:2,nt:9,next:20409,nextCheck:45869,str:39937,h:0,d0:0,d1:0;
+                    (____, Scope<Vehicle> @:20409 check:45869,op:341,dt:52,nt:8,next:65535,nextCheck:65535,str:5926,h:4,d0:20410,d1:45870;
+                        ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:20410 check:45870,op:341,dt:2,nt:9,next:20411,nextCheck:45871,str:27736,h:0,d0:0,d1:0;
+                            ("e1_cov_spectre0/spectre0", Expression<AI> @:20411 check:45871,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:39954,h:0,d0:0,d1:49154;))))))))

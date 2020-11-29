@@ -1,0 +1,21 @@
+
+("cs_e3_cov_stealth_major_charge", MethodDecl<Void> @:183 op:0,dt:0,nt:65535,next:6782,str:13070,d0:0,d1:0;
+    (____, Scope<Void> @:6782 op:0,dt:4,nt:8,next:65535,str:20210,d0:6783,d1:65010;
+        ("begin", Expression<MethodOrOperator> @:6783 op:0,dt:2,nt:9,next:6765,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:6765 op:449,dt:4,nt:8,next:6768,str:20266,d0:6766,d1:64993;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:6766 op:449,dt:2,nt:9,next:6767,str:6389,d0:0,d1:0;
+                    (True, Expression<Boolean> @:6767 op:5,dt:5,nt:9,next:65535,str:20298,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:6768 op:307,dt:4,nt:8,next:6772,str:20306,d0:6769,d1:64996;
+                ("ai_set_active_camo", Expression<MethodOrOperator> @:6769 op:307,dt:2,nt:9,next:6770,str:12794,d0:0,d1:0;
+                    ("ai_current_actor", VariableAccess<AI> @:6770 op:19,dt:19,nt:13,next:6771,str:6458,d0:33564,d1:65535;
+                        (True, Expression<Boolean> @:6771 op:5,dt:5,nt:9,next:65535,str:20343,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:6772 op:385,dt:4,nt:8,next:6775,str:20351,d0:6773,d1:65000;
+                ("cs_go_to", Expression<MethodOrOperator> @:6773 op:385,dt:2,nt:9,next:6774,str:6475,d0:0,d1:0;
+                    ("e3_sword_elites/p2", Expression<SpatialPoint> @:6774 op:28,dt:28,nt:9,next:65535,str:12813,d0:2,d1:9;)))
+            (____, Scope<Void> @:6775 op:385,dt:4,nt:8,next:6778,str:20383,d0:6776,d1:65003;
+                ("cs_go_to", Expression<MethodOrOperator> @:6776 op:385,dt:2,nt:9,next:6777,str:6475,d0:0,d1:0;
+                    ("e3_sword_elites/p3", Expression<SpatialPoint> @:6777 op:28,dt:28,nt:9,next:65535,str:12832,d0:3,d1:9;)))
+            (____, Scope<Void> @:6778 op:307,dt:4,nt:8,next:65535,str:20415,d0:6779,d1:65006;
+                ("ai_set_active_camo", Expression<MethodOrOperator> @:6779 op:307,dt:2,nt:9,next:6780,str:12794,d0:0,d1:0;
+                    ("ai_current_actor", VariableAccess<AI> @:6780 op:19,dt:19,nt:13,next:6781,str:6458,d0:33564,d1:65535;
+                        (False, Expression<Boolean> @:6781 op:5,dt:5,nt:9,next:65535,str:20452,d0:65280,d1:65535;)))))))

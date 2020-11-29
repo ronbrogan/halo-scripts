@@ -1,0 +1,34 @@
+
+("sc_ledge_chieftan", MethodDecl<Void> @:241 op:0,dt:0,nt:65535,next:8990,str:31129,d0:0,d1:0;
+    (____, Scope<Void> @:8990 op:0,dt:4,nt:8,next:65535,str:47991,d0:8991,d1:34451;
+        ("begin", Expression<MethodOrOperator> @:8991 op:0,dt:2,nt:9,next:8960,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:8960 op:2,dt:4,nt:8,next:8965,str:48027,d0:8961,d1:34421;
+                ("if", Expression<MethodOrOperator> @:8961 op:2,dt:2,nt:9,next:8962,str:456,d0:0,d1:0;
+                    ("g_cheiftan", VariableAccess<Boolean> @:8962 op:5,dt:5,nt:13,next:8963,str:20838,d0:8,d1:0;
+                        (____, Scope<Void> @:8963 op:20,dt:4,nt:8,next:65535,str:48042,d0:8964,d1:34424;
+                            ("sleep_forever", Expression<MethodOrOperator> @:8964 op:20,dt:2,nt:9,next:65535,str:16662,d0:0,d1:0;)))))
+            (____, Scope<Void> @:8965 op:19,dt:4,nt:8,next:8968,str:48061,d0:8966,d1:34426;
+                ("sleep", Expression<MethodOrOperator> @:8966 op:19,dt:2,nt:9,next:8967,str:80,d0:0,d1:0;
+                    (30, Expression<Short> @:8967 op:7,dt:7,nt:9,next:65535,str:48068,d0:30,d1:65535;)))
+            (____, Scope<Void> @:8968 op:2,dt:4,nt:8,next:8974,str:48074,d0:8969,d1:34429;
+                ("if", Expression<MethodOrOperator> @:8969 op:2,dt:2,nt:9,next:8970,str:456,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:8970 op:5,dt:5,nt:13,next:8971,str:19054,d0:4,d1:0;
+                        (____, Scope<Void> @:8971 op:27,dt:4,nt:8,next:65535,str:48087,d0:8972,d1:34432;
+                            ("print", Expression<MethodOrOperator> @:8972 op:27,dt:2,nt:9,next:8973,str:86,d0:0,d1:0;
+                                ("cortana: watch out for the captain!", Expression<String> @:8973 op:9,dt:9,nt:9,next:65535,str:20849,d0:20849,d1:0;))))))
+            (____, Scope<Void> @:8974 op:2,dt:4,nt:8,next:8980,str:48136,d0:8975,d1:34435;
+                ("if", Expression<MethodOrOperator> @:8975 op:2,dt:2,nt:9,next:8976,str:456,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:8976 op:5,dt:5,nt:13,next:8977,str:19054,d0:4,d1:0;
+                        (____, Scope<Void> @:8977 op:27,dt:4,nt:8,next:65535,str:48149,d0:8978,d1:34438;
+                            ("print", Expression<MethodOrOperator> @:8978 op:27,dt:2,nt:9,next:8979,str:86,d0:0,d1:0;
+                                ("cortana: it's got a brute shot", Expression<String> @:8979 op:9,dt:9,nt:9,next:65535,str:20885,d0:20885,d1:0;))))))
+            (____, Scope<Void> @:8980 op:19,dt:4,nt:8,next:8986,str:48193,d0:8981,d1:34441;
+                ("sleep", Expression<MethodOrOperator> @:8981 op:19,dt:2,nt:9,next:8982,str:80,d0:0,d1:0;
+                    (____, Scope<Short> @:8982 op:362,dt:7,nt:8,next:65535,str:48200,d0:8983,d1:34443;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:8983 op:362,dt:2,nt:9,next:8984,str:19089,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:8984 op:50,dt:50,nt:9,next:8985,str:1586,d0:65535,d1:65535;
+                                ("2200", Expression<StringId> @:8985 op:11,dt:11,nt:9,next:65535,str:20916,d0:13857,d1:1024;))))))
+            (____, Scope<Void> @:8986 op:4,dt:4,nt:8,next:65535,str:48238,d0:8987,d1:34447;
+                ("set", Expression<MethodOrOperator> @:8987 op:4,dt:2,nt:9,next:8988,str:2177,d0:0,d1:0;
+                    ("g_cheiftan", VariableAccess<Boolean> @:8988 op:65535,dt:5,nt:13,next:8989,str:20838,d0:8,d1:0;
+                        (True, Expression<Boolean> @:8989 op:5,dt:5,nt:9,next:65535,str:48254,d0:65281,d1:65535;)))))))

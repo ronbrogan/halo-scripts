@@ -1,0 +1,25 @@
+
+("x05_0210_wo1", MethodDecl<Void> @:79 check:0,op:0,dt:0,nt:65535,next:2376,nextCheck:60603,str:6070,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:2376 check:60603,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:27393,h:0,d0:2377,d1:60604;
+        ("begin", Expression<MethodOrOperator> @:2377 check:60604,op:0,dt:2,nt:9,next:2355,nextCheck:60582,str:54,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:2355 check:60582,op:19,dt:4,nt:8,next:2358,nextCheck:60585,str:27424,h:0,d0:2356,d1:60583;
+                ("sleep", Expression<MethodOrOperator> @:2356 check:60583,op:19,dt:2,nt:9,next:2357,nextCheck:60584,str:133,h:0,d0:0,d1:0;
+                    (602, Expression<Short> @:2357 check:60584,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:27431,h:0,d0:602,d1:65535;)))
+            (____, Scope<Void> @:2358 check:60585,op:596,dt:4,nt:8,next:2363,nextCheck:60590,str:27438,h:0,d0:2359,d1:60586;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:2359 check:60586,op:596,dt:2,nt:9,next:2360,nextCheck:60587,str:1321,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\05_deltatemple\cinematics\x05_0210_wo1", Expression<Sound> @:2360 check:60587,op:32,dt:32,nt:9,next:2361,nextCheck:60588,str:6011,h:0,d0:813,d1:58531;
+                        (4294901834, Expression<Entity> @:2361 check:60588,op:56,dt:50,nt:9,next:2362,nextCheck:60589,str:2662,h:0,d0:74,d1:65535;
+                            (1f, Expression<Float> @:2362 check:60589,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:27531,h:0,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:2363 check:60590,op:562,dt:4,nt:8,next:2367,nextCheck:60594,str:27536,h:0,d0:2364,d1:60591;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:2364 check:60591,op:562,dt:2,nt:9,next:2365,nextCheck:60592,str:2529,h:0,d0:0,d1:0;
+                    ("x05_0210_wo1", Expression<StringId> @:2365 check:60592,op:11,dt:11,nt:9,next:2366,nextCheck:60593,str:6070,h:0,d0:4705,d1:3072;
+                        (3f, Expression<Float> @:2366 check:60593,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:27569,h:0,d0:0,d1:16448;))))
+            (____, Scope<Void> @:2367 check:60594,op:220,dt:4,nt:8,next:2373,nextCheck:60600,str:27577,h:0,d0:2368,d1:60595;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2368 check:60595,op:220,dt:2,nt:9,next:2369,nextCheck:60596,str:2561,h:0,d0:0,d1:0;
+                    ("weap_officer", Expression<Unit> @:2369 check:60596,op:57,dt:51,nt:9,next:2370,nextCheck:60597,str:2662,h:0,d0:74,d1:65535;
+                        ("pensive", Expression<StringId> @:2370 check:60597,op:11,dt:11,nt:9,next:2371,nextCheck:60598,str:2702,h:0,d0:431,d1:1792;
+                            (0.5f, Expression<Float> @:2371 check:60598,op:6,dt:6,nt:9,next:2372,nextCheck:60599,str:27624,h:0,d0:0,d1:16128;
+                                (60, Expression<Short> @:2372 check:60599,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:27627,h:0,d0:60,d1:65535;))))))
+            (____, Scope<Void> @:2373 check:60600,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:27633,h:0,d0:2374,d1:60601;
+                ("print", Expression<MethodOrOperator> @:2374 check:60601,op:27,dt:2,nt:9,next:2375,nextCheck:60602,str:139,h:0,d0:0,d1:0;
+                    ("weap_officer - pensive .5 60", Expression<String> @:2375 check:60602,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:6083,h:0,d0:17459,d1:12768;))))))

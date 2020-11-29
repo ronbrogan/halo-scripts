@@ -1,0 +1,57 @@
+
+("monitor_chat_02", MethodDecl<Void> @:333 op:0,dt:0,nt:65535,next:29466,str:37236,d0:0,d1:0;
+    (____, Scope<Void> @:29466 op:0,dt:4,nt:8,next:65535,str:18283,d0:29467,d1:54927;
+        ("begin", Expression<MethodOrOperator> @:29467 op:0,dt:2,nt:9,next:29413,str:210,d0:0,d1:0;
+            (____, Scope<Void> @:29413 op:4,dt:4,nt:8,next:29417,str:18324,d0:29414,d1:54874;
+                ("set", Expression<MethodOrOperator> @:29414 op:4,dt:2,nt:9,next:29415,str:2644,d0:0,d1:0;
+                    ("monitor_available", VariableAccess<Boolean> @:29415 op:65535,dt:5,nt:13,next:29416,str:36433,d0:44,d1:0;
+                        (False, Expression<Boolean> @:29416 op:5,dt:5,nt:9,next:65535,str:18347,d0:65280,d1:65535;))))
+            (____, Scope<Void> @:29417 op:4,dt:4,nt:8,next:29421,str:18356,d0:29418,d1:54878;
+                ("set", Expression<MethodOrOperator> @:29418 op:4,dt:2,nt:9,next:29419,str:2644,d0:0,d1:0;
+                    ("monitor_done_talking", VariableAccess<Boolean> @:29419 op:65535,dt:5,nt:13,next:29420,str:35627,d0:43,d1:0;
+                        (False, Expression<Boolean> @:29420 op:5,dt:5,nt:9,next:65535,str:18382,d0:65280,d1:65535;))))
+            (____, Scope<Void> @:29421 op:446,dt:4,nt:8,next:29424,str:18391,d0:29422,d1:54882;
+                ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:29422 op:446,dt:2,nt:9,next:29423,str:35648,d0:0,d1:0;
+                    (True, Expression<Boolean> @:29423 op:5,dt:5,nt:9,next:65535,str:18420,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:29424 op:374,dt:4,nt:8,next:29427,str:18428,d0:29425,d1:54885;
+                ("cs_switch", Expression<MethodOrOperator> @:29425 op:374,dt:2,nt:9,next:29426,str:11448,d0:0,d1:0;
+                    ("monitor", Expression<StringId> @:29426 op:11,dt:11,nt:9,next:65535,str:6383,d0:4715,d1:1792;)))
+            (____, Scope<Void> @:29427 op:19,dt:4,nt:8,next:29430,str:18450,d0:29428,d1:54888;
+                ("sleep", Expression<MethodOrOperator> @:29428 op:19,dt:2,nt:9,next:29429,str:289,d0:0,d1:0;
+                    (60, Expression<Short> @:29429 op:7,dt:7,nt:9,next:65535,str:18457,d0:60,d1:65535;)))
+            (____, Scope<Void> @:29430 op:433,dt:4,nt:8,next:29435,str:18463,d0:29431,d1:54891;
+                ("cs_start_approach_player", Expression<MethodOrOperator> @:29431 op:433,dt:2,nt:9,next:29432,str:20509,d0:0,d1:0;
+                    (3f, Expression<Float> @:29432 op:6,dt:6,nt:9,next:29433,str:18489,d0:0,d1:16448;
+                        (50f, Expression<Float> @:29433 op:6,dt:6,nt:9,next:29434,str:18491,d0:0,d1:16968;
+                            (50f, Expression<Float> @:29434 op:6,dt:6,nt:9,next:65535,str:18494,d0:0,d1:16968;)))))
+            (____, Scope<Void> @:29435 op:444,dt:4,nt:8,next:29438,str:18501,d0:29436,d1:54896;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:29436 op:444,dt:2,nt:9,next:29437,str:11483,d0:0,d1:0;
+                    (True, Expression<Boolean> @:29437 op:5,dt:5,nt:9,next:65535,str:18519,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:29438 op:443,dt:4,nt:8,next:29441,str:18527,d0:29439,d1:54899;
+                ("cs_enable_looking", Expression<MethodOrOperator> @:29439 op:443,dt:2,nt:9,next:29440,str:12915,d0:0,d1:0;
+                    (True, Expression<Boolean> @:29440 op:5,dt:5,nt:9,next:65535,str:18546,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:29441 op:27,dt:4,nt:8,next:29444,str:18554,d0:29442,d1:54902;
+                ("print", Expression<MethodOrOperator> @:29442 op:27,dt:2,nt:9,next:29443,str:295,d0:0,d1:0;
+                    ("343 guilty spark: 'the tether connecting the mine to the high-altitude suspension-grid was the primary failsafe.'", Expression<String> @:29443 op:9,dt:9,nt:9,next:65535,str:36797,d0:36797,d1:0;)))
+            (____, Scope<Void> @:29444 op:418,dt:4,nt:8,next:29447,str:18680,d0:29445,d1:54905;
+                ("cs_play_line", Expression<MethodOrOperator> @:29445 op:418,dt:2,nt:9,next:29446,str:11547,d0:0,d1:0;
+                    ("0930", Expression<StringId> @:29446 op:11,dt:11,nt:9,next:65535,str:36911,d0:12298,d1:1024;)))
+            (____, Scope<Void> @:29447 op:27,dt:4,nt:8,next:29450,str:18702,d0:29448,d1:54908;
+                ("print", Expression<MethodOrOperator> @:29448 op:27,dt:2,nt:9,next:29449,str:295,d0:0,d1:0;
+                    ("343 guilty spark: 'i'm glad that someone was aware of the necessary protocols and severed the tether locally.'", Expression<String> @:29449 op:9,dt:9,nt:9,next:65535,str:36916,d0:36916,d1:0;)))
+            (____, Scope<Void> @:29450 op:418,dt:4,nt:8,next:29453,str:18825,d0:29451,d1:54911;
+                ("cs_play_line", Expression<MethodOrOperator> @:29451 op:418,dt:2,nt:9,next:29452,str:11547,d0:0,d1:0;
+                    ("0940", Expression<StringId> @:29452 op:11,dt:11,nt:9,next:65535,str:37027,d0:12299,d1:1024;)))
+            (____, Scope<Void> @:29453 op:434,dt:4,nt:8,next:29455,str:18847,d0:29454,d1:54914;
+                ("cs_approach_stop", Expression<MethodOrOperator> @:29454 op:434,dt:2,nt:9,next:65535,str:13368,d0:0,d1:0;))
+            (____, Scope<Void> @:29455 op:446,dt:4,nt:8,next:29458,str:18868,d0:29456,d1:54916;
+                ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:29456 op:446,dt:2,nt:9,next:29457,str:35648,d0:0,d1:0;
+                    (False, Expression<Boolean> @:29457 op:5,dt:5,nt:9,next:65535,str:18897,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:29458 op:4,dt:4,nt:8,next:29462,str:18906,d0:29459,d1:54919;
+                ("set", Expression<MethodOrOperator> @:29459 op:4,dt:2,nt:9,next:29460,str:2644,d0:0,d1:0;
+                    ("monitor_done_talking", VariableAccess<Boolean> @:29460 op:65535,dt:5,nt:13,next:29461,str:35627,d0:43,d1:0;
+                        (True, Expression<Boolean> @:29461 op:5,dt:5,nt:9,next:65535,str:18932,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:29462 op:4,dt:4,nt:8,next:65535,str:18940,d0:29463,d1:54923;
+                ("set", Expression<MethodOrOperator> @:29463 op:4,dt:2,nt:9,next:29464,str:2644,d0:0,d1:0;
+                    ("monitor_available", VariableAccess<Boolean> @:29464 op:65535,dt:5,nt:13,next:29465,str:36433,d0:44,d1:0;
+                        (True, Expression<Boolean> @:29465 op:5,dt:5,nt:9,next:65535,str:18963,d0:65281,d1:65535;)))))))

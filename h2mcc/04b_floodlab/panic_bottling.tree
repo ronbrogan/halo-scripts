@@ -1,0 +1,24 @@
+
+("panic_bottling", MethodDecl<Void> @:310 op:0,dt:0,nt:65535,next:23868,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:23868 op:0,dt:4,nt:8,next:65535,str:40331,d0:23869,d1:49329;
+        ("begin", Expression<MethodOrOperator> @:23869 op:0,dt:2,nt:9,next:23848,str:210,d0:0,d1:0;
+            (____, Scope<Void> @:23848 op:435,dt:4,nt:8,next:23851,str:40371,d0:23849,d1:49309;
+                ("cs_ignore_obstacles", Expression<MethodOrOperator> @:23849 op:435,dt:2,nt:9,next:23850,str:24255,d0:0,d1:0;
+                    (True, Expression<Boolean> @:23850 op:5,dt:5,nt:9,next:65535,str:40392,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:23851 op:444,dt:4,nt:8,next:23854,str:40400,d0:23852,d1:49312;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:23852 op:444,dt:2,nt:9,next:23853,str:11483,d0:0,d1:0;
+                    (True, Expression<Boolean> @:23853 op:5,dt:5,nt:9,next:65535,str:40418,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:23854 op:422,dt:4,nt:8,next:23857,str:40426,d0:23855,d1:49315;
+                ("cs_movement_mode", Expression<MethodOrOperator> @:23855 op:422,dt:2,nt:9,next:23856,str:33032,d0:0,d1:0;
+                    (3, Expression<Short> @:23856 op:7,dt:7,nt:9,next:65535,str:40444,d0:3,d1:65535;)))
+            (____, Scope<Void> @:23857 op:21,dt:4,nt:8,next:65535,str:40449,d0:23858,d1:49318;
+                ("sleep_until", Expression<MethodOrOperator> @:23858 op:21,dt:2,nt:9,next:23859,str:440,d0:0,d1:0;
+                    (____, Scope<Boolean> @:23859 op:13,dt:5,nt:8,next:65535,str:40462,d0:23860,d1:49320;
+                        ("=", Expression<MethodOrOperator> @:23860 op:13,dt:2,nt:9,next:23861,str:505,d0:0,d1:0;
+                            (____, Scope<Boolean> @:23861 op:32,dt:5,nt:8,next:23867,str:40465,d0:23862,d1:49322;
+                                ("volume_test_object", Expression<MethodOrOperator> @:23862 op:32,dt:2,nt:9,next:23863,str:11170,d0:0,d1:0;
+                                    ("vol_bottling_enter", Expression<Trigger> @:23863 op:13,dt:13,nt:9,next:23864,str:32623,d0:63,d1:0;
+                                        (____, Scope<Entity> @:23864 op:284,dt:50,nt:8,next:65535,str:40504,d0:23865,d1:49325;
+                                            ("ai_get_object", Expression<MethodOrOperator> @:23865 op:284,dt:2,nt:9,next:23866,str:19090,d0:0,d1:0;
+                                                ("ai_current_actor", VariableAccess<AI> @:23866 op:19,dt:19,nt:13,next:65535,str:11899,d0:33564,d1:65535;))))))
+                            (True, Expression<Boolean> @:23867 op:5,dt:5,nt:9,next:65535,str:40538,d0:65281,d1:65535;))))))))

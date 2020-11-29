@@ -1,0 +1,16 @@
+
+("reserve_throne", MethodDecl<Void> @:282 check:0,op:0,dt:0,nt:65535,next:18758,nextCheck:44218,str:30980,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:18758 check:44218,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:2453,h:3,d0:18759,d1:44219;
+        ("begin", Expression<MethodOrOperator> @:18759 check:44219,op:0,dt:2,nt:9,next:18746,nextCheck:44206,str:142,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:18746 check:44206,op:19,dt:4,nt:8,next:18749,nextCheck:44209,str:2493,h:3,d0:18747,d1:44207;
+                ("sleep", Expression<MethodOrOperator> @:18747 check:44207,op:19,dt:2,nt:9,next:18748,nextCheck:44208,str:221,h:0,d0:0,d1:0;
+                    (2, Expression<Short> @:18748 check:44208,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2500,h:3,d0:2,d1:65535;)))
+            (____, Scope<Void> @:18749 check:44209,op:343,dt:4,nt:8,next:18755,nextCheck:44215,str:2505,h:3,d0:18750,d1:44210;
+                ("ai_vehicle_reserve", Expression<MethodOrOperator> @:18750 check:44210,op:343,dt:2,nt:9,next:18751,nextCheck:44211,str:13668,h:0,d0:0,d1:0;
+                    (____, Scope<Vehicle> @:18751 check:44211,op:340,dt:52,nt:8,next:18754,nextCheck:44214,str:2525,h:3,d0:18752,d1:44212;
+                        ("ai_vehicle_get", Expression<MethodOrOperator> @:18752 check:44212,op:340,dt:2,nt:9,next:18753,nextCheck:44213,str:30866,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:18753 check:44213,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:16278,h:0,d0:33564,d1:65535;)))
+                    (True, Expression<Boolean> @:18754 check:44214,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:2559,h:3,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:18755 check:44215,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:2567,h:3,d0:18756,d1:44216;
+                ("sleep", Expression<MethodOrOperator> @:18756 check:44216,op:19,dt:2,nt:9,next:18757,nextCheck:44217,str:221,h:0,d0:0,d1:0;
+                    (2, Expression<Short> @:18757 check:44217,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2574,h:3,d0:2,d1:65535;))))))

@@ -1,0 +1,14 @@
+
+("e2_cov_sword_elites_charge0", MethodDecl<Void> @:196 op:0,dt:0,nt:65535,next:7583,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:7583 op:0,dt:4,nt:8,next:65535,str:30052,d0:7584,d1:33044;
+        ("begin", Expression<MethodOrOperator> @:7584 op:0,dt:2,nt:9,next:7573,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:7573 op:366,dt:4,nt:8,next:7577,str:30102,d0:7574,d1:33034;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:7574 op:366,dt:2,nt:9,next:7575,str:7486,d0:0,d1:0;
+                    ("e2_cov_gold_elite", Expression<AI> @:7575 op:19,dt:19,nt:9,next:7576,str:12992,d0:12,d1:0;
+                        ("cs_e2_cov_gold_elite_charge0", Expression<AIScript> @:7576 op:21,dt:21,nt:9,next:65535,str:13666,d0:194,d1:0;))))
+            (____, Scope<Void> @:7577 op:366,dt:4,nt:8,next:65535,str:30175,d0:7578,d1:33038;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:7578 op:366,dt:2,nt:9,next:7579,str:7486,d0:0,d1:0;
+                    (____, Scope<AI> @:7579 op:336,dt:19,nt:8,next:7582,str:30198,d0:7580,d1:33040;
+                        ("object_get_ai", Expression<MethodOrOperator> @:7580 op:336,dt:2,nt:9,next:7581,str:7403,d0:0,d1:0;
+                            ("g_cov_stealth_major", VariableAccess<Entity> @:7581 op:50,dt:50,nt:13,next:65535,str:13050,d0:9,d1:0;)))
+                    ("cs_e2_cov_stealth_elite_charge0", Expression<AIScript> @:7582 op:21,dt:21,nt:9,next:65535,str:13695,d0:195,d1:0;))))))

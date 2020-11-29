@@ -1,0 +1,33 @@
+
+("cs_shrink_cortana", MethodDecl<Void> @:379 check:0,op:0,dt:0,nt:65535,next:18030,nextCheck:43490,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:18030 check:43490,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:21144,h:3,d0:18031,d1:43491;
+        ("begin", Expression<MethodOrOperator> @:18031 check:43491,op:0,dt:2,nt:9,next:18001,nextCheck:43461,str:11,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:18001 check:43461,op:445,dt:4,nt:8,next:18004,nextCheck:43464,str:21187,h:3,d0:18002,d1:43462;
+                ("cs_enable_dialogue", Expression<MethodOrOperator> @:18002 check:43462,op:445,dt:2,nt:9,next:18003,nextCheck:43463,str:41660,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:18003 check:43463,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:21207,h:3,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:18004 check:43464,op:19,dt:4,nt:8,next:18007,nextCheck:43467,str:21216,h:3,d0:18005,d1:43465;
+                ("sleep", Expression<MethodOrOperator> @:18005 check:43465,op:19,dt:2,nt:9,next:18006,nextCheck:43466,str:90,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:18006 check:43466,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:21223,h:3,d0:60,d1:65535;)))
+            (____, Scope<Void> @:18007 check:43467,op:41,dt:4,nt:8,next:18014,nextCheck:43474,str:21229,h:3,d0:18008,d1:43468;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:18008 check:43468,op:41,dt:2,nt:9,next:18009,nextCheck:43469,str:7864,h:0,d0:0,d1:0;
+                    ("effects\objects\characters\cortana\teleport_out", Expression<Effect> @:18009 check:43469,op:33,dt:33,nt:9,next:18010,nextCheck:43470,str:41679,h:0,d0:4437,d1:62325;
+                        (____, Scope<Entity> @:18010 check:43470,op:284,dt:50,nt:8,next:18013,nextCheck:43473,str:21306,h:3,d0:18011,d1:43471;
+                            ("ai_get_object", Expression<MethodOrOperator> @:18011 check:43471,op:284,dt:2,nt:9,next:18012,nextCheck:43472,str:31830,h:0,d0:0,d1:0;
+                                ("ai_current_actor", VariableAccess<AI> @:18012 check:43472,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:31942,h:0,d0:33564,d1:65535;)))
+                        ("body", Expression<StringId> @:18013 check:43473,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:41655,h:0,d0:189,d1:1024;))))
+            (____, Scope<Void> @:18014 check:43474,op:19,dt:4,nt:8,next:18017,nextCheck:43477,str:21349,h:3,d0:18015,d1:43475;
+                ("sleep", Expression<MethodOrOperator> @:18015 check:43475,op:19,dt:2,nt:9,next:18016,nextCheck:43476,str:90,h:0,d0:0,d1:0;
+                    (3, Expression<Short> @:18016 check:43476,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:21356,h:3,d0:3,d1:65535;)))
+            (____, Scope<Void> @:18017 check:43477,op:77,dt:4,nt:8,next:18024,nextCheck:43484,str:21361,h:3,d0:18018,d1:43478;
+                ("object_set_scale", Expression<MethodOrOperator> @:18018 check:43478,op:77,dt:2,nt:9,next:18019,nextCheck:43479,str:41578,h:0,d0:0,d1:0;
+                    (____, Scope<Entity> @:18019 check:43479,op:284,dt:50,nt:8,next:18022,nextCheck:43482,str:21379,h:3,d0:18020,d1:43480;
+                        ("ai_get_object", Expression<MethodOrOperator> @:18020 check:43480,op:284,dt:2,nt:9,next:18021,nextCheck:43481,str:31830,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:18021 check:43481,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:31942,h:0,d0:33564,d1:65535;)))
+                    (0.01f, Expression<Float> @:18022 check:43482,op:6,dt:6,nt:9,next:18023,nextCheck:43483,str:21412,h:3,d0:55050,d1:15395;
+                        (20, Expression<Short> @:18023 check:43483,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:21417,h:3,d0:20,d1:65535;))))
+            (____, Scope<Void> @:18024 check:43484,op:19,dt:4,nt:8,next:18027,nextCheck:43487,str:21423,h:3,d0:18025,d1:43485;
+                ("sleep", Expression<MethodOrOperator> @:18025 check:43485,op:19,dt:2,nt:9,next:18026,nextCheck:43486,str:90,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:18026 check:43486,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:21430,h:3,d0:30,d1:65535;)))
+            (____, Scope<Void> @:18027 check:43487,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:21436,h:3,d0:18028,d1:43488;
+                ("ai_erase", Expression<MethodOrOperator> @:18028 check:43488,op:298,dt:2,nt:9,next:18029,nextCheck:43489,str:31860,h:0,d0:0,d1:0;
+                    ("ai_current_actor", VariableAccess<AI> @:18029 check:43489,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:31942,h:0,d0:33564,d1:65535;))))))

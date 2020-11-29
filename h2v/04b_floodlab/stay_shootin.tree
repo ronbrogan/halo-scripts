@@ -1,0 +1,15 @@
+
+("stay_shootin", MethodDecl<Void> @:218 check:0,op:0,dt:0,nt:65535,next:8998,nextCheck:34458,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:8998 check:34458,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:32195,h:1,d0:8999,d1:34459;
+        ("begin", Expression<MethodOrOperator> @:8999 check:34459,op:0,dt:2,nt:9,next:8987,nextCheck:34447,str:210,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:8987 check:34447,op:442,dt:4,nt:8,next:8990,nextCheck:34450,str:32233,h:1,d0:8988,d1:34448;
+                ("cs_enable_targeting", Expression<MethodOrOperator> @:8988 check:34448,op:442,dt:2,nt:9,next:8989,nextCheck:34449,str:12353,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:8989 check:34449,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:32254,h:1,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:8990 check:34450,op:404,dt:4,nt:8,next:8993,nextCheck:34453,str:32262,h:1,d0:8991,d1:34451;
+                ("cs_shoot", Expression<MethodOrOperator> @:8991 check:34451,op:404,dt:2,nt:9,next:8992,nextCheck:34452,str:12176,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:8992 check:34452,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:32272,h:1,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:8993 check:34453,op:427,dt:4,nt:8,next:8996,nextCheck:34456,str:32280,h:1,d0:8994,d1:34454;
+                ("cs_set_behavior", Expression<MethodOrOperator> @:8994 check:34454,op:427,dt:2,nt:9,next:8995,nextCheck:34455,str:18877,h:0,d0:0,d1:0;
+                    ("guard", Expression<AIBehavior> @:8995 check:34455,op:22,dt:22,nt:9,next:65535,nextCheck:65535,str:18893,h:0,d0:5,d1:0;)))
+            (____, Scope<Void> @:8996 check:34456,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:32306,h:1,d0:8997,d1:34457;
+                ("sleep_forever", Expression<MethodOrOperator> @:8997 check:34457,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:9653,h:0,d0:0,d1:0;)))))

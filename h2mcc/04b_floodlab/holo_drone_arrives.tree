@@ -1,0 +1,35 @@
+
+("holo_drone_arrives", MethodDecl<Void> @:157 op:0,dt:0,nt:65535,next:4803,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:4803 op:0,dt:4,nt:8,next:65535,str:58621,d0:4804,d1:63031;
+        ("begin", Expression<MethodOrOperator> @:4804 op:0,dt:2,nt:9,next:4772,str:210,d0:0,d1:0;
+            (____, Scope<Void> @:4772 op:449,dt:4,nt:8,next:4775,str:58665,d0:4773,d1:63000;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:4773 op:449,dt:2,nt:9,next:4774,str:11827,d0:0,d1:0;
+                    (True, Expression<Boolean> @:4774 op:5,dt:5,nt:9,next:65535,str:58697,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:4775 op:404,dt:4,nt:8,next:4778,str:58705,d0:4776,d1:63003;
+                ("cs_shoot", Expression<MethodOrOperator> @:4776 op:404,dt:2,nt:9,next:4777,str:12277,d0:0,d1:0;
+                    (False, Expression<Boolean> @:4777 op:5,dt:5,nt:9,next:65535,str:58715,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:4778 op:383,dt:4,nt:8,next:4781,str:58724,d0:4779,d1:63006;
+                ("cs_fly_by", Expression<MethodOrOperator> @:4779 op:383,dt:2,nt:9,next:4780,str:12286,d0:0,d1:0;
+                    ("disposal_chamber/p0", Expression<SpatialPoint> @:4780 op:28,dt:28,nt:9,next:65535,str:12296,d0:0,d1:0;)))
+            (____, Scope<Void> @:4781 op:383,dt:4,nt:8,next:4784,str:58758,d0:4782,d1:63009;
+                ("cs_fly_by", Expression<MethodOrOperator> @:4782 op:383,dt:2,nt:9,next:4783,str:12286,d0:0,d1:0;
+                    ("disposal_chamber/p1", Expression<SpatialPoint> @:4783 op:28,dt:28,nt:9,next:65535,str:12316,d0:1,d1:0;)))
+            (____, Scope<Void> @:4784 op:383,dt:4,nt:8,next:4787,str:58792,d0:4785,d1:63012;
+                ("cs_fly_by", Expression<MethodOrOperator> @:4785 op:383,dt:2,nt:9,next:4786,str:12286,d0:0,d1:0;
+                    ("disposal_chamber/p2", Expression<SpatialPoint> @:4786 op:28,dt:28,nt:9,next:65535,str:12336,d0:2,d1:0;)))
+            (____, Scope<Void> @:4787 op:383,dt:4,nt:8,next:4790,str:58826,d0:4788,d1:63015;
+                ("cs_fly_by", Expression<MethodOrOperator> @:4788 op:383,dt:2,nt:9,next:4789,str:12286,d0:0,d1:0;
+                    ("disposal_chamber/p3", Expression<SpatialPoint> @:4789 op:28,dt:28,nt:9,next:65535,str:12356,d0:3,d1:0;)))
+            (____, Scope<Void> @:4790 op:383,dt:4,nt:8,next:4793,str:58860,d0:4791,d1:63018;
+                ("cs_fly_by", Expression<MethodOrOperator> @:4791 op:383,dt:2,nt:9,next:4792,str:12286,d0:0,d1:0;
+                    ("disposal_chamber/p4", Expression<SpatialPoint> @:4792 op:28,dt:28,nt:9,next:65535,str:12376,d0:4,d1:0;)))
+            (____, Scope<Void> @:4793 op:380,dt:4,nt:8,next:4797,str:58894,d0:4794,d1:63021;
+                ("cs_fly_to", Expression<MethodOrOperator> @:4794 op:380,dt:2,nt:9,next:4795,str:12396,d0:0,d1:0;
+                    ("disposal_chamber/p5", Expression<SpatialPoint> @:4795 op:28,dt:28,nt:9,next:4796,str:12406,d0:5,d1:0;
+                        (0.5f, Expression<Float> @:4796 op:6,dt:6,nt:9,next:65535,str:58925,d0:0,d1:16128;))))
+            (____, Scope<Void> @:4797 op:4,dt:4,nt:8,next:4801,str:58931,d0:4798,d1:63025;
+                ("set", Expression<MethodOrOperator> @:4798 op:4,dt:2,nt:9,next:4799,str:2644,d0:0,d1:0;
+                    ("holo_drone_arrived", VariableAccess<Boolean> @:4799 op:65535,dt:5,nt:13,next:4800,str:12426,d0:4,d1:0;
+                        (True, Expression<Boolean> @:4800 op:5,dt:5,nt:9,next:65535,str:58955,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:4801 op:20,dt:4,nt:8,next:65535,str:58963,d0:4802,d1:63029;
+                ("sleep_forever", Expression<MethodOrOperator> @:4802 op:20,dt:2,nt:9,next:65535,str:9739,d0:0,d1:0;)))))

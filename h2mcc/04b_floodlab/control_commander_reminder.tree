@@ -1,0 +1,54 @@
+
+("control_commander_reminder", MethodDecl<Void> @:236 op:0,dt:0,nt:65535,next:10916,str:23785,d0:0,d1:0;
+    (____, Scope<Void> @:10916 op:0,dt:4,nt:8,next:65535,str:50885,d0:10917,d1:36377;
+        ("begin", Expression<MethodOrOperator> @:10917 op:0,dt:2,nt:9,next:10866,str:210,d0:0,d1:0;
+            (____, Scope<Void> @:10866 op:21,dt:4,nt:8,next:10876,str:50930,d0:10867,d1:36327;
+                ("sleep_until", Expression<MethodOrOperator> @:10867 op:21,dt:2,nt:9,next:10868,str:440,d0:0,d1:0;
+                    (____, Scope<Boolean> @:10868 op:15,dt:5,nt:8,next:10874,str:50943,d0:10869,d1:36329;
+                        (">", Expression<MethodOrOperator> @:10869 op:15,dt:2,nt:9,next:10870,str:13549,d0:0,d1:0;
+                            (-1.4493216E-30f, Scope<Float> @:10870 op:257,dt:6,nt:8,next:10873,str:50946,d0:10871,d1:36331;
+                                ("device_get_position", Expression<MethodOrOperator> @:10871 op:257,dt:2,nt:9,next:10872,str:14377,d0:0,d1:0;
+                                    ("elev_control_up", Expression<Device> @:10872 op:60,dt:54,nt:9,next:65535,str:21486,d0:372,d1:65535;)))
+                            (0f, Expression<Float> @:10873 op:6,dt:6,nt:9,next:65535,str:50984,d0:0,d1:0;)))
+                    (30, Expression<Short> @:10874 op:7,dt:7,nt:9,next:10875,str:50987,d0:30,d1:65535;
+                        (3600, Expression<Int> @:10875 op:8,dt:8,nt:9,next:65535,str:50990,d0:3600,d1:0;))))
+            (____, Scope<Void> @:10876 op:2,dt:4,nt:8,next:65535,str:50998,d0:10877,d1:36337;
+                ("if", Expression<MethodOrOperator> @:10877 op:2,dt:2,nt:9,next:10878,str:665,d0:0,d1:0;
+                    (____, Scope<Boolean> @:10878 op:18,dt:5,nt:8,next:10884,str:51002,d0:10879,d1:36339;
+                        ("<=", Expression<MethodOrOperator> @:10879 op:18,dt:2,nt:9,next:10880,str:16395,d0:0,d1:0;
+                            (-1.5109523E-30f, Scope<Float> @:10880 op:257,dt:6,nt:8,next:10883,str:51006,d0:10881,d1:36341;
+                                ("device_get_position", Expression<MethodOrOperator> @:10881 op:257,dt:2,nt:9,next:10882,str:14377,d0:0,d1:0;
+                                    ("elev_control_up", Expression<Device> @:10882 op:60,dt:54,nt:9,next:65535,str:21486,d0:372,d1:65535;)))
+                            (0f, Expression<Float> @:10883 op:6,dt:6,nt:9,next:65535,str:51044,d0:0,d1:0;)))
+                    (____, Scope<Void> @:10884 op:0,dt:4,nt:8,next:65535,str:51050,d0:10885,d1:36345;
+                        ("begin", Expression<MethodOrOperator> @:10885 op:0,dt:2,nt:9,next:10886,str:210,d0:0,d1:0;
+                            (____, Scope<Void> @:10886 op:281,dt:4,nt:8,next:10889,str:51061,d0:10887,d1:36347;
+                                ("ai_dialogue_enable", Expression<MethodOrOperator> @:10887 op:281,dt:2,nt:9,next:10888,str:17925,d0:0,d1:0;
+                                    (False, Expression<Boolean> @:10888 op:5,dt:5,nt:9,next:65535,str:51081,d0:65280,d1:65535;)))
+                            (____, Scope<Void> @:10889 op:19,dt:4,nt:8,next:10892,str:51092,d0:10890,d1:36350;
+                                ("sleep", Expression<MethodOrOperator> @:10890 op:19,dt:2,nt:9,next:10891,str:289,d0:0,d1:0;
+                                    (60, Expression<Short> @:10891 op:7,dt:7,nt:9,next:65535,str:51099,d0:60,d1:65535;)))
+                            (____, Scope<Void> @:10892 op:27,dt:4,nt:8,next:10895,str:51107,d0:10893,d1:36353;
+                                ("print", Expression<MethodOrOperator> @:10893 op:27,dt:2,nt:9,next:10894,str:295,d0:0,d1:0;
+                                    ("spec-ops commander: 'make your way up to the cable, arbiter.'", Expression<String> @:10894 op:9,dt:9,nt:9,next:65535,str:21502,d0:21502,d1:0;)))
+                            (____, Scope<Void> @:10895 op:19,dt:4,nt:8,next:10901,str:51183,d0:10896,d1:36356;
+                                ("sleep", Expression<MethodOrOperator> @:10896 op:19,dt:2,nt:9,next:10897,str:289,d0:0,d1:0;
+                                    (____, Scope<Short> @:10897 op:362,dt:7,nt:8,next:65535,str:51190,d0:10898,d1:36358;
+                                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:10898 op:362,dt:2,nt:9,next:10899,str:18029,d0:0,d1:0;
+                                            (4294967295, Expression<Entity> @:10899 op:50,dt:50,nt:9,next:10900,str:137,d0:65535,d1:65535;
+                                                ("1350", Expression<StringId> @:10900 op:11,dt:11,nt:9,next:65535,str:21564,d0:12339,d1:1024;))))))
+                            (____, Scope<Void> @:10901 op:27,dt:4,nt:8,next:10904,str:51326,d0:10902,d1:36362;
+                                ("print", Expression<MethodOrOperator> @:10902 op:27,dt:2,nt:9,next:10903,str:295,d0:0,d1:0;
+                                    ("spec-ops commander: 'there should be an elevator above you!'", Expression<String> @:10903 op:9,dt:9,nt:9,next:65535,str:21569,d0:21569,d1:0;)))
+                            (____, Scope<Void> @:10904 op:19,dt:4,nt:8,next:10910,str:51401,d0:10905,d1:36365;
+                                ("sleep", Expression<MethodOrOperator> @:10905 op:19,dt:2,nt:9,next:10906,str:289,d0:0,d1:0;
+                                    (____, Scope<Short> @:10906 op:362,dt:7,nt:8,next:65535,str:51408,d0:10907,d1:36367;
+                                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:10907 op:362,dt:2,nt:9,next:10908,str:18029,d0:0,d1:0;
+                                            (4294967295, Expression<Entity> @:10908 op:50,dt:50,nt:9,next:10909,str:137,d0:65535,d1:65535;
+                                                ("1360", Expression<StringId> @:10909 op:11,dt:11,nt:9,next:65535,str:21630,d0:12340,d1:1024;))))))
+                            (____, Scope<Void> @:10910 op:19,dt:4,nt:8,next:10913,str:51544,d0:10911,d1:36371;
+                                ("sleep", Expression<MethodOrOperator> @:10911 op:19,dt:2,nt:9,next:10912,str:289,d0:0,d1:0;
+                                    (30, Expression<Short> @:10912 op:7,dt:7,nt:9,next:65535,str:51551,d0:30,d1:65535;)))
+                            (____, Scope<Void> @:10913 op:281,dt:4,nt:8,next:65535,str:51559,d0:10914,d1:36374;
+                                ("ai_dialogue_enable", Expression<MethodOrOperator> @:10914 op:281,dt:2,nt:9,next:10915,str:17925,d0:0,d1:0;
+                                    (True, Expression<Boolean> @:10915 op:5,dt:5,nt:9,next:65535,str:51579,d0:65281,d1:65535;))))))))))

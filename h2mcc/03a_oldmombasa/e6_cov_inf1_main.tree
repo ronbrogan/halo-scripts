@@ -1,0 +1,27 @@
+
+("e6_cov_inf1_main", MethodDecl<Void> @:308 op:0,dt:0,nt:65535,next:11753,str:21537,d0:0,d1:0;
+    (____, Scope<Void> @:11753 op:0,dt:4,nt:8,next:65535,str:16113,d0:11754,d1:37214;
+        ("begin", Expression<MethodOrOperator> @:11754 op:0,dt:2,nt:9,next:11730,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:11730 op:2,dt:4,nt:8,next:11741,str:16199,d0:11731,d1:37191;
+                ("if", Expression<MethodOrOperator> @:11731 op:2,dt:2,nt:9,next:11732,str:519,d0:0,d1:0;
+                    (____, Scope<Boolean> @:11732 op:25,dt:5,nt:8,next:11739,str:16203,d0:11733,d1:37193;
+                        ("not", Expression<MethodOrOperator> @:11733 op:25,dt:2,nt:9,next:11734,str:460,d0:0,d1:0;
+                            (____, Scope<Boolean> @:11734 op:33,dt:5,nt:8,next:65535,str:16208,d0:11735,d1:37195;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:11735 op:33,dt:2,nt:9,next:11736,str:11142,d0:0,d1:0;
+                                    ("tv_e6_main_begin2", Expression<Trigger> @:11736 op:13,dt:13,nt:9,next:11737,str:21135,d0:30,d1:0;
+                                        (____, Scope<List> @:11737 op:28,dt:31,nt:8,next:65535,str:16247,d0:11738,d1:37198;
+                                            ("players", Expression<MethodOrOperator> @:11738 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;)))))))
+                    (____, Scope<Void> @:11739 op:20,dt:4,nt:8,next:65535,str:16259,d0:11740,d1:37200;
+                        ("sleep_forever", Expression<MethodOrOperator> @:11740 op:20,dt:2,nt:9,next:65535,str:10303,d0:0,d1:0;))))
+            (____, Scope<Void> @:11741 op:290,dt:4,nt:8,next:11744,str:16278,d0:11742,d1:37202;
+                ("ai_place", Expression<MethodOrOperator> @:11742 op:290,dt:2,nt:9,next:11743,str:4681,d0:0,d1:0;
+                    ("e6_cov_inf1", Expression<AI> @:11743 op:19,dt:19,nt:9,next:65535,str:21153,d0:64,d1:0;)))
+            (____, Scope<Void> @:11744 op:21,dt:4,nt:8,next:65535,str:16324,d0:11745,d1:37205;
+                ("sleep_until", Expression<MethodOrOperator> @:11745 op:21,dt:2,nt:9,next:11746,str:294,d0:0,d1:0;
+                    (____, Scope<Boolean> @:11746 op:363,dt:5,nt:8,next:11751,str:16341,d0:11747,d1:37207;
+                        ("ai_scene", Expression<MethodOrOperator> @:11747 op:363,dt:2,nt:9,next:11748,str:18243,d0:0,d1:0;
+                            ("e6_hotel_grunt_scene", Expression<StringId> @:11748 op:11,dt:11,nt:9,next:11749,str:21165,d0:13274,d1:5120;
+                                ("cs_e6_hotel_grunt_scene", Expression<AIScript> @:11749 op:21,dt:21,nt:9,next:11750,str:21186,d0:305,d1:0;
+                                    ("e6_cov_inf1", Expression<AI> @:11750 op:19,dt:19,nt:9,next:65535,str:21153,d0:64,d1:0;)))))
+                    (30, Expression<Short> @:11751 op:7,dt:7,nt:9,next:11752,str:16412,d0:30,d1:65535;
+                        ("two_minutes", VariableAccess<Int> @:11752 op:8,dt:8,nt:13,next:65535,str:10165,d0:8,d1:0;)))))))

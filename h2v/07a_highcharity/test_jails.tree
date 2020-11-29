@@ -1,0 +1,31 @@
+
+("test_jails", MethodDecl<Void> @:452 check:0,op:0,dt:0,nt:65535,next:26825,nextCheck:52285,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:26825 check:52285,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:45192,h:4,d0:26826,d1:52286;
+        ("begin", Expression<MethodOrOperator> @:26826 check:52286,op:0,dt:2,nt:9,next:26798,nextCheck:52258,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:26798 check:52258,op:507,dt:4,nt:8,next:26801,nextCheck:52261,str:45225,h:4,d0:26799,d1:52259;
+                ("switch_bsp", Expression<MethodOrOperator> @:26799 check:52259,op:507,dt:2,nt:9,next:26800,nextCheck:52260,str:44175,h:0,d0:0,d1:0;
+                    (2, Expression<Short> @:26800 check:52260,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:45237,h:4,d0:2,d1:65535;)))
+            (____, Scope<Void> @:26801 check:52261,op:19,dt:4,nt:8,next:26804,nextCheck:52264,str:45242,h:4,d0:26802,d1:52262;
+                ("sleep", Expression<MethodOrOperator> @:26802 check:52262,op:19,dt:2,nt:9,next:26803,nextCheck:52263,str:80,h:0,d0:0,d1:0;
+                    (1, Expression<Short> @:26803 check:52263,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:45249,h:4,d0:1,d1:65535;)))
+            (____, Scope<Void> @:26804 check:52264,op:105,dt:4,nt:8,next:26809,nextCheck:52269,str:45254,h:4,d0:26805,d1:52265;
+                ("object_teleport", Expression<MethodOrOperator> @:26805 check:52265,op:105,dt:2,nt:9,next:26806,nextCheck:52266,str:44227,h:0,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:26806 check:52266,op:0,dt:50,nt:10,next:26808,nextCheck:52268,str:45271,h:4,d0:26807,d1:52267;
+                        ("player0", Expression<MethodOrOperator> @:26807 check:52267,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:602,h:0,d0:0,d1:0;))
+                    ("jails0_tele", Expression<LocationFlag> @:26808 check:52268,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:48353,h:0,d0:24,d1:0;)))
+            (____, Scope<Void> @:26809 check:52269,op:105,dt:4,nt:8,next:26814,nextCheck:52274,str:45296,h:4,d0:26810,d1:52270;
+                ("object_teleport", Expression<MethodOrOperator> @:26810 check:52270,op:105,dt:2,nt:9,next:26811,nextCheck:52271,str:44227,h:0,d0:0,d1:0;
+                    ("player1", ScriptInvocation<Entity> @:26811 check:52271,op:1,dt:50,nt:10,next:26813,nextCheck:52273,str:45313,h:4,d0:26812,d1:52272;
+                        ("player1", Expression<MethodOrOperator> @:26812 check:52272,op:1,dt:2,nt:9,next:65535,nextCheck:65535,str:610,h:0,d0:0,d1:0;))
+                    ("jails1_tele", Expression<LocationFlag> @:26813 check:52273,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:48365,h:0,d0:25,d1:0;)))
+            (____, Scope<Void> @:26814 check:52274,op:21,dt:4,nt:8,next:26822,nextCheck:52282,str:45340,h:4,d0:26815,d1:52275;
+                ("sleep_until", Expression<MethodOrOperator> @:26815 check:52275,op:21,dt:2,nt:9,next:26816,nextCheck:52276,str:231,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:26816 check:52276,op:33,dt:5,nt:8,next:26821,nextCheck:52281,str:45353,h:4,d0:26817,d1:52277;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:26817 check:52277,op:33,dt:2,nt:9,next:26818,nextCheck:52278,str:17285,h:0,d0:0,d1:0;
+                            ("tv_jails", Expression<Trigger> @:26818 check:52278,op:13,dt:13,nt:9,next:26819,nextCheck:52279,str:44456,h:0,d0:56,d1:0;
+                                (____, Scope<List> @:26819 check:52279,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:45383,h:4,d0:26820,d1:52280;
+                                    ("players", Expression<MethodOrOperator> @:26820 check:52280,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:21,h:0,d0:0,d1:0;)))))
+                    (5, Expression<Short> @:26821 check:52281,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:45394,h:4,d0:5,d1:65535;)))
+            (____, Scope<Void> @:26822 check:52282,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:45399,h:4,d0:26823,d1:52283;
+                ("wake", Expression<MethodOrOperator> @:26823 check:52283,op:22,dt:2,nt:9,next:26824,nextCheck:52284,str:1146,h:0,d0:0,d1:0;
+                    ("enc_jails", Expression<ScriptReference> @:26824 check:52284,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:44465,h:0,d0:416,d1:65535;))))))

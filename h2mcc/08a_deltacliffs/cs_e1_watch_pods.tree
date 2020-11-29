@@ -1,0 +1,35 @@
+
+("cs_e1_watch_pods", MethodDecl<Void> @:213 op:0,dt:0,nt:65535,next:8679,str:16527,d0:0,d1:0;
+    (____, Scope<Void> @:8679 op:0,dt:4,nt:8,next:65535,str:42964,d0:8680,d1:34140;
+        ("begin", Expression<MethodOrOperator> @:8680 op:0,dt:2,nt:9,next:8648,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:8648 op:19,dt:4,nt:8,next:8651,str:43006,d0:8649,d1:34109;
+                ("sleep", Expression<MethodOrOperator> @:8649 op:19,dt:2,nt:9,next:8650,str:143,d0:0,d1:0;
+                    (15, Expression<Short> @:8650 op:7,dt:7,nt:9,next:65535,str:43013,d0:15,d1:65535;)))
+            (____, Scope<Void> @:8651 op:391,dt:4,nt:8,next:8654,str:43019,d0:8652,d1:34112;
+                ("cs_go_to_nearest", Expression<MethodOrOperator> @:8652 op:391,dt:2,nt:9,next:8653,str:15388,d0:0,d1:0;
+                    ("e1_watch_pods/p0", Expression<SpatialPoint> @:8653 op:28,dt:28,nt:9,next:65535,str:15405,d0:0,d1:3;)))
+            (____, Scope<Void> @:8654 op:395,dt:4,nt:8,next:8660,str:43057,d0:8655,d1:34115;
+                ("cs_look_object", Expression<MethodOrOperator> @:8655 op:395,dt:2,nt:9,next:8656,str:6594,d0:0,d1:0;
+                    (True, Expression<Boolean> @:8656 op:5,dt:5,nt:9,next:8657,str:43073,d0:65281,d1:65535;
+                        (____, Scope<Entity> @:8657 op:340,dt:50,nt:8,next:65535,str:43078,d0:8658,d1:34118;
+                            ("ai_vehicle_get", Expression<MethodOrOperator> @:8658 op:340,dt:2,nt:9,next:8659,str:5987,d0:0,d1:0;
+                                ("e1_cov_inf2/gold_elite", Expression<AI> @:8659 op:19,dt:19,nt:9,next:65535,str:13985,d0:0,d1:49154;))))))
+            (____, Scope<Void> @:8660 op:401,dt:4,nt:8,next:8666,str:43121,d0:8661,d1:34121;
+                ("cs_face_object", Expression<MethodOrOperator> @:8661 op:401,dt:2,nt:9,next:8662,str:8681,d0:0,d1:0;
+                    (True, Expression<Boolean> @:8662 op:5,dt:5,nt:9,next:8663,str:43137,d0:65281,d1:65535;
+                        (____, Scope<Entity> @:8663 op:340,dt:50,nt:8,next:65535,str:43142,d0:8664,d1:34124;
+                            ("ai_vehicle_get", Expression<MethodOrOperator> @:8664 op:340,dt:2,nt:9,next:8665,str:5987,d0:0,d1:0;
+                                ("e1_cov_inf2/gold_elite", Expression<AI> @:8665 op:19,dt:19,nt:9,next:65535,str:13985,d0:0,d1:49154;))))))
+            (____, Scope<Void> @:8666 op:21,dt:4,nt:8,next:8670,str:43218,d0:8667,d1:34127;
+                ("sleep_until", Expression<MethodOrOperator> @:8667 op:21,dt:2,nt:9,next:8668,str:294,d0:0,d1:0;
+                    ("g_e1_zealot_revealed", VariableAccess<Boolean> @:8668 op:5,dt:5,nt:13,next:8669,str:15422,d0:33,d1:0;
+                        (10, Expression<Short> @:8669 op:7,dt:7,nt:9,next:65535,str:43252,d0:10,d1:65535;))))
+            (____, Scope<Void> @:8670 op:27,dt:4,nt:8,next:8673,str:43258,d0:8671,d1:34131;
+                ("print", Expression<MethodOrOperator> @:8671 op:27,dt:2,nt:9,next:8672,str:149,d0:0,d1:0;
+                    ("stealth: a zealot? so much for stealth...", Expression<String> @:8672 op:9,dt:9,nt:9,next:65535,str:15443,d0:15443,d1:0;)))
+            (____, Scope<Void> @:8673 op:19,dt:4,nt:8,next:65535,str:43312,d0:8674,d1:34134;
+                ("sleep", Expression<MethodOrOperator> @:8674 op:19,dt:2,nt:9,next:8675,str:143,d0:0,d1:0;
+                    (____, Scope<Short> @:8675 op:361,dt:7,nt:8,next:65535,str:43319,d0:8676,d1:34136;
+                        ("ai_play_line_at_player", Expression<MethodOrOperator> @:8676 op:361,dt:2,nt:9,next:8677,str:6641,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:8677 op:19,dt:19,nt:13,next:8678,str:6458,d0:33564,d1:65535;
+                                ("0320", Expression<StringId> @:8678 op:11,dt:11,nt:9,next:65535,str:15485,d0:13022,d1:1024;)))))))))

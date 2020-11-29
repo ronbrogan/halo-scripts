@@ -1,0 +1,32 @@
+
+("e11_pro_wraith1_main", MethodDecl<Void> @:380 check:0,op:0,dt:0,nt:65535,next:13357,nextCheck:38817,str:31314,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:13357 check:38817,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28602,h:2,d0:13358,d1:38818;
+        ("begin", Expression<MethodOrOperator> @:13358 check:38818,op:0,dt:2,nt:9,next:13329,nextCheck:38789,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:13329 check:38789,op:21,dt:4,nt:8,next:13337,nextCheck:38797,str:28641,h:2,d0:13330,d1:38790;
+                ("sleep_until", Expression<MethodOrOperator> @:13330 check:38790,op:21,dt:2,nt:9,next:13331,nextCheck:38791,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:13331 check:38791,op:33,dt:5,nt:8,next:13336,nextCheck:38796,str:28654,h:2,d0:13332,d1:38792;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:13332 check:38792,op:33,dt:2,nt:9,next:13333,nextCheck:38793,str:4732,h:0,d0:0,d1:0;
+                            ("tv_e11_pro_wraiths1_begin", Expression<Trigger> @:13333 check:38793,op:13,dt:13,nt:9,next:13334,nextCheck:38794,str:29946,h:0,d0:80,d1:0;
+                                (____, Scope<List> @:13334 check:38794,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:28701,h:2,d0:13335,d1:38795;
+                                    ("players", Expression<MethodOrOperator> @:13335 check:38795,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                    (15, Expression<Short> @:13336 check:38796,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28712,h:2,d0:15,d1:65535;)))
+            (____, Scope<Void> @:13337 check:38797,op:22,dt:4,nt:8,next:13340,nextCheck:38800,str:28906,h:2,d0:13338,d1:38798;
+                ("wake", Expression<MethodOrOperator> @:13338 check:38798,op:22,dt:2,nt:9,next:13339,nextCheck:38799,str:5851,h:0,d0:0,d1:0;
+                    ("e11_pro_wraith_checkpoints", Expression<ScriptReference> @:13339 check:38799,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:29972,h:0,d0:379,d1:65535;)))
+            (____, Scope<Void> @:13340 check:38800,op:290,dt:4,nt:8,next:13343,nextCheck:38803,str:34260,h:2,d0:13341,d1:38801;
+                ("ai_place", Expression<MethodOrOperator> @:13341 check:38801,op:290,dt:2,nt:9,next:13342,nextCheck:38802,str:5315,h:0,d0:0,d1:0;
+                    ("e11_pro_wraith1_0", Expression<AI> @:13342 check:38802,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29999,h:0,d0:75,d1:0;)))
+            (____, Scope<Void> @:13343 check:38803,op:290,dt:4,nt:8,next:13346,nextCheck:38806,str:34291,h:2,d0:13344,d1:38804;
+                ("ai_place", Expression<MethodOrOperator> @:13344 check:38804,op:290,dt:2,nt:9,next:13345,nextCheck:38805,str:5315,h:0,d0:0,d1:0;
+                    ("e11_pro_wraith1_1", Expression<AI> @:13345 check:38805,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:30017,h:0,d0:76,d1:0;)))
+            (____, Scope<Void> @:13346 check:38806,op:21,dt:4,nt:8,next:13354,nextCheck:38814,str:34354,h:2,d0:13347,d1:38807;
+                ("sleep_until", Expression<MethodOrOperator> @:13347 check:38807,op:21,dt:2,nt:9,next:13348,nextCheck:38808,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:13348 check:38808,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:34367,h:2,d0:13349,d1:38809;
+                        ("<=", Expression<MethodOrOperator> @:13349 check:38809,op:18,dt:2,nt:9,next:13350,nextCheck:38810,str:6210,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:13350 check:38810,op:327,dt:7,nt:8,next:13353,nextCheck:38813,str:34371,h:2,d0:13351,d1:38811;
+                                ("ai_living_count", Expression<MethodOrOperator> @:13351 check:38811,op:327,dt:2,nt:9,next:13352,nextCheck:38812,str:5988,h:0,d0:0,d1:0;
+                                    ("e11_pro_wraith1", Expression<AI> @:13352 check:38812,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:30035,h:0,d0:42,d1:16384;)))
+                            (0, Expression<Short> @:13353 check:38813,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:34405,h:2,d0:0,d1:65535;)))))
+            (____, Scope<Void> @:13354 check:38814,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:34447,h:2,d0:13355,d1:38815;
+                ("wake", Expression<MethodOrOperator> @:13355 check:38815,op:22,dt:2,nt:9,next:13356,nextCheck:38816,str:5851,h:0,d0:0,d1:0;
+                    ("e11_pro_phantom0_main", Expression<ScriptReference> @:13356 check:38816,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:30051,h:0,d0:375,d1:65535;))))))

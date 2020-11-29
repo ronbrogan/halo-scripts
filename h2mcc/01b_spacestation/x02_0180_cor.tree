@@ -1,0 +1,37 @@
+
+("x02_0180_cor", MethodDecl<Void> @:99 op:0,dt:0,nt:65535,next:3907,str:10413,d0:0,d1:0;
+    (____, Scope<Void> @:3907 op:0,dt:4,nt:8,next:65535,str:47500,d0:3908,d1:62135;
+        ("begin", Expression<MethodOrOperator> @:3908 op:0,dt:2,nt:9,next:3874,str:11,d0:0,d1:0;
+            (____, Scope<Void> @:3874 op:19,dt:4,nt:8,next:3877,str:47533,d0:3875,d1:62102;
+                ("sleep", Expression<MethodOrOperator> @:3875 op:19,dt:2,nt:9,next:3876,str:90,d0:0,d1:0;
+                    (10, Expression<Short> @:3876 op:7,dt:7,nt:9,next:65535,str:47540,d0:10,d1:65535;)))
+            (____, Scope<Void> @:3877 op:220,dt:4,nt:8,next:3883,str:47549,d0:3878,d1:62105;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:3878 op:220,dt:2,nt:9,next:3879,str:1808,d0:0,d1:0;
+                    ("cortana_x02", Expression<Unit> @:3879 op:57,dt:51,nt:9,next:3880,str:7784,d0:312,d1:65535;
+                        ("angry", Expression<StringId> @:3880 op:11,dt:11,nt:9,next:3881,str:7686,d0:430,d1:1280;
+                            (0.25f, Expression<Float> @:3881 op:6,dt:6,nt:9,next:3882,str:47593,d0:0,d1:16000;
+                                (0, Expression<Short> @:3882 op:7,dt:7,nt:9,next:65535,str:47597,d0:0,d1:65535;))))))
+            (____, Scope<Void> @:3883 op:19,dt:4,nt:8,next:3886,str:47604,d0:3884,d1:62111;
+                ("sleep", Expression<MethodOrOperator> @:3884 op:19,dt:2,nt:9,next:3885,str:90,d0:0,d1:0;
+                    (117, Expression<Short> @:3885 op:7,dt:7,nt:9,next:65535,str:47611,d0:117,d1:65535;)))
+            (____, Scope<Void> @:3886 op:220,dt:4,nt:8,next:3892,str:47621,d0:3887,d1:62114;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:3887 op:220,dt:2,nt:9,next:3888,str:1808,d0:0,d1:0;
+                    ("cortana_x02", Expression<Unit> @:3888 op:57,dt:51,nt:9,next:3889,str:7784,d0:312,d1:65535;
+                        ("happy", Expression<StringId> @:3889 op:11,dt:11,nt:9,next:3890,str:2010,d0:422,d1:1280;
+                            (0.25f, Expression<Float> @:3890 op:6,dt:6,nt:9,next:3891,str:47665,d0:0,d1:16000;
+                                (60, Expression<Short> @:3891 op:7,dt:7,nt:9,next:65535,str:47669,d0:60,d1:65535;))))))
+            (____, Scope<Void> @:3892 op:27,dt:4,nt:8,next:3895,str:47675,d0:3893,d1:62120;
+                ("print", Expression<MethodOrOperator> @:3893 op:27,dt:2,nt:9,next:3894,str:96,d0:0,d1:0;
+                    ("cortana - happy .15 60", Expression<String> @:3894 op:9,dt:9,nt:9,next:65535,str:10331,d0:10331,d1:0;)))
+            (____, Scope<Void> @:3895 op:19,dt:4,nt:8,next:3898,str:47712,d0:3896,d1:62123;
+                ("sleep", Expression<MethodOrOperator> @:3896 op:19,dt:2,nt:9,next:3897,str:90,d0:0,d1:0;
+                    (30, Expression<Short> @:3897 op:7,dt:7,nt:9,next:65535,str:47719,d0:30,d1:65535;)))
+            (____, Scope<Void> @:3898 op:596,dt:4,nt:8,next:3903,str:47725,d0:3899,d1:62126;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:3899 op:596,dt:2,nt:9,next:3900,str:1446,d0:0,d1:0;
+                    ("sound\dialog\levels\01_spacestation\cinematic\x02_0180_cor", Expression<Sound> @:3900 op:32,dt:32,nt:9,next:3901,str:10354,d0:4525,d1:62413;
+                        (4294902072, Expression<Entity> @:3901 op:56,dt:50,nt:9,next:3902,str:7784,d0:312,d1:65535;
+                            (1f, Expression<Float> @:3902 op:6,dt:6,nt:9,next:65535,str:47817,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:3903 op:562,dt:4,nt:8,next:65535,str:47822,d0:3904,d1:62131;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:3904 op:562,dt:2,nt:9,next:3905,str:1689,d0:0,d1:0;
+                    ("x02_0180_cor", Expression<StringId> @:3905 op:11,dt:11,nt:9,next:3906,str:10413,d0:9602,d1:3072;
+                        (1f, Expression<Float> @:3906 op:6,dt:6,nt:9,next:65535,str:47855,d0:0,d1:16256;)))))))

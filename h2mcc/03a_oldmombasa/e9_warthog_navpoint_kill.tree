@@ -1,0 +1,20 @@
+
+("e9_warthog_navpoint_kill", MethodDecl<Void> @:257 op:0,dt:0,nt:65535,next:9633,str:19029,d0:0,d1:0;
+    (____, Scope<Void> @:9633 op:0,dt:4,nt:8,next:65535,str:52505,d0:9634,d1:35094;
+        ("begin", Expression<MethodOrOperator> @:9634 op:0,dt:2,nt:9,next:9617,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:9617 op:21,dt:4,nt:8,next:9629,str:52614,d0:9618,d1:35078;
+                ("sleep_until", Expression<MethodOrOperator> @:9618 op:21,dt:2,nt:9,next:9619,str:294,d0:0,d1:0;
+                    (____, Scope<Boolean> @:9619 op:6,dt:5,nt:8,next:65535,str:52630,d0:9620,d1:35080;
+                        ("or", Expression<MethodOrOperator> @:9620 op:6,dt:2,nt:9,next:9621,str:907,d0:0,d1:0;
+                            ("player_in_vehicle", ScriptInvocation<Boolean> @:9621 op:156,dt:5,nt:10,next:9623,str:52638,d0:9622,d1:35082;
+                                ("player_in_vehicle", Expression<MethodOrOperator> @:9622 op:156,dt:2,nt:9,next:65535,str:15771,d0:0,d1:0;))
+                            (____, Scope<Boolean> @:9623 op:18,dt:5,nt:8,next:65535,str:52662,d0:9624,d1:35084;
+                                ("<=", Expression<MethodOrOperator> @:9624 op:18,dt:2,nt:9,next:9625,str:12055,d0:0,d1:0;
+                                    (-1.7110308E-33f, Scope<Float> @:9625 op:239,dt:6,nt:8,next:9628,str:52666,d0:9626,d1:35086;
+                                        ("unit_get_health", Expression<MethodOrOperator> @:9626 op:239,dt:2,nt:9,next:9627,str:12769,d0:0,d1:0;
+                                            ("g_e8_warthog", VariableAccess<Unit> @:9627 op:51,dt:51,nt:13,next:65535,str:16663,d0:16,d1:0;)))
+                                    (0f, Expression<Float> @:9628 op:6,dt:6,nt:9,next:65535,str:52697,d0:0,d1:0;)))))))
+            (____, Scope<Void> @:9629 op:644,dt:4,nt:8,next:65535,str:52711,d0:9630,d1:35090;
+                ("deactivate_team_nav_point_object", Expression<MethodOrOperator> @:9630 op:644,dt:2,nt:9,next:9631,str:12824,d0:0,d1:0;
+                    ("player", Expression<Team> @:9631 op:45,dt:45,nt:9,next:9632,str:12762,d0:1,d1:65535;
+                        ("g_e8_warthog", VariableAccess<Entity> @:9632 op:50,dt:50,nt:13,next:65535,str:16663,d0:16,d1:0;)))))))

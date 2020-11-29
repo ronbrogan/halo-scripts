@@ -1,0 +1,31 @@
+
+("cs_e26_fld_infections_entry0", MethodDecl<Void> @:228 op:0,dt:0,nt:65535,next:10574,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:10574 op:0,dt:4,nt:8,next:65535,str:54427,d0:10575,d1:36035;
+        ("begin", Expression<MethodOrOperator> @:10575 op:0,dt:2,nt:9,next:10547,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:10547 op:440,dt:4,nt:8,next:10550,str:54481,d0:10548,d1:36008;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:10548 op:440,dt:2,nt:9,next:10549,str:17029,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10549 op:5,dt:5,nt:9,next:65535,str:54501,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:10550 op:19,dt:4,nt:8,next:10553,str:54509,d0:10551,d1:36011;
+                ("sleep", Expression<MethodOrOperator> @:10551 op:19,dt:2,nt:9,next:10552,str:85,d0:0,d1:0;
+                    (30, Expression<Short> @:10552 op:7,dt:7,nt:9,next:65535,str:54516,d0:30,d1:65535;)))
+            (____, Scope<Void> @:10553 op:385,dt:4,nt:8,next:10556,str:54522,d0:10554,d1:36014;
+                ("cs_go_to", Expression<MethodOrOperator> @:10554 op:385,dt:2,nt:9,next:10555,str:21562,d0:0,d1:0;
+                    ("e26_fld_infection_forms0/p0", Expression<SpatialPoint> @:10555 op:28,dt:28,nt:9,next:65535,str:21767,d0:0,d1:26;)))
+            (____, Scope<Void> @:10556 op:385,dt:4,nt:8,next:10559,str:54563,d0:10557,d1:36017;
+                ("cs_go_to", Expression<MethodOrOperator> @:10557 op:385,dt:2,nt:9,next:10558,str:21562,d0:0,d1:0;
+                    ("e26_fld_infection_forms0/p1", Expression<SpatialPoint> @:10558 op:28,dt:28,nt:9,next:65535,str:21795,d0:1,d1:26;)))
+            (____, Scope<Void> @:10559 op:385,dt:4,nt:8,next:10562,str:54604,d0:10560,d1:36020;
+                ("cs_go_to", Expression<MethodOrOperator> @:10560 op:385,dt:2,nt:9,next:10561,str:21562,d0:0,d1:0;
+                    ("e26_fld_infection_forms0/p2", Expression<SpatialPoint> @:10561 op:28,dt:28,nt:9,next:65535,str:21571,d0:2,d1:26;)))
+            (____, Scope<Void> @:10562 op:385,dt:4,nt:8,next:10565,str:54645,d0:10563,d1:36023;
+                ("cs_go_to", Expression<MethodOrOperator> @:10563 op:385,dt:2,nt:9,next:10564,str:21562,d0:0,d1:0;
+                    ("e26_fld_infection_forms0/p3", Expression<SpatialPoint> @:10564 op:28,dt:28,nt:9,next:65535,str:21599,d0:3,d1:26;)))
+            (____, Scope<Void> @:10565 op:385,dt:4,nt:8,next:10568,str:54686,d0:10566,d1:36026;
+                ("cs_go_to", Expression<MethodOrOperator> @:10566 op:385,dt:2,nt:9,next:10567,str:21562,d0:0,d1:0;
+                    ("e26_fld_infection_forms0/p4", Expression<SpatialPoint> @:10567 op:28,dt:28,nt:9,next:65535,str:21627,d0:4,d1:26;)))
+            (____, Scope<Void> @:10568 op:385,dt:4,nt:8,next:10571,str:54727,d0:10569,d1:36029;
+                ("cs_go_to", Expression<MethodOrOperator> @:10569 op:385,dt:2,nt:9,next:10570,str:21562,d0:0,d1:0;
+                    ("e26_fld_infection_forms0/p5", Expression<SpatialPoint> @:10570 op:28,dt:28,nt:9,next:65535,str:21655,d0:5,d1:26;)))
+            (____, Scope<Void> @:10571 op:298,dt:4,nt:8,next:65535,str:54768,d0:10572,d1:36032;
+                ("ai_erase", Expression<MethodOrOperator> @:10572 op:298,dt:2,nt:9,next:10573,str:15947,d0:0,d1:0;
+                    ("ai_current_actor", VariableAccess<AI> @:10573 op:19,dt:19,nt:13,next:65535,str:10463,d0:33564,d1:65535;))))))

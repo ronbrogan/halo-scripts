@@ -1,0 +1,65 @@
+
+("hologram_ally_03", MethodDecl<Void> @:163 check:0,op:0,dt:0,nt:65535,next:5131,nextCheck:63358,str:14472,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:5131 check:63358,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:61730,h:0,d0:5132,d1:63359;
+        ("begin", Expression<MethodOrOperator> @:5132 check:63359,op:0,dt:2,nt:9,next:5070,nextCheck:63297,str:210,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:5070 check:63297,op:4,dt:4,nt:8,next:5074,nextCheck:63301,str:61772,h:0,d0:5071,d1:63298;
+                ("set", Expression<MethodOrOperator> @:5071 check:63298,op:4,dt:2,nt:9,next:5072,nextCheck:63299,str:2606,h:0,d0:0,d1:0;
+                    ("holo_ally_03_go", VariableAccess<Boolean> @:5072 check:63299,op:65535,dt:5,nt:13,next:5073,nextCheck:63300,str:13124,h:0,d0:13,d1:0;
+                        (True, Expression<Boolean> @:5073 check:63300,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:61793,h:0,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:5074 check:63301,op:374,dt:4,nt:8,next:5077,nextCheck:63304,str:61801,h:0,d0:5075,d1:63302;
+                ("cs_switch", Expression<MethodOrOperator> @:5075 check:63302,op:374,dt:2,nt:9,next:5076,nextCheck:63303,str:11362,h:0,d0:0,d1:0;
+                    ("commander", Expression<StringId> @:5076 check:63303,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:3029,h:0,d0:3992,d1:2304;)))
+            (____, Scope<Void> @:5077 check:63304,op:431,dt:4,nt:8,next:5083,nextCheck:63310,str:61825,h:0,d0:5078,d1:63305;
+                ("cs_start_approach", Expression<MethodOrOperator> @:5078 check:63305,op:431,dt:2,nt:9,next:5079,nextCheck:63306,str:12758,h:0,d0:0,d1:0;
+                    (4294902001, Expression<Entity> @:5079 check:63306,op:56,dt:50,nt:9,next:5080,nextCheck:63307,str:12776,h:0,d0:241,d1:65535;
+                        (2f, Expression<Float> @:5080 check:63307,op:6,dt:6,nt:9,next:5081,nextCheck:63308,str:61856,h:0,d0:0,d1:16384;
+                            (20f, Expression<Float> @:5081 check:63308,op:6,dt:6,nt:9,next:5082,nextCheck:63309,str:61858,h:0,d0:0,d1:16800;
+                                (20f, Expression<Float> @:5082 check:63309,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:61861,h:0,d0:0,d1:16800;))))))
+            (____, Scope<Void> @:5083 check:63310,op:444,dt:4,nt:8,next:5086,nextCheck:63313,str:61868,h:0,d0:5084,d1:63311;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:5084 check:63311,op:444,dt:2,nt:9,next:5085,nextCheck:63312,str:11397,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:5085 check:63312,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:61886,h:0,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:5086 check:63313,op:443,dt:4,nt:8,next:5089,nextCheck:63316,str:61894,h:0,d0:5087,d1:63314;
+                ("cs_enable_looking", Expression<MethodOrOperator> @:5087 check:63314,op:443,dt:2,nt:9,next:5088,nextCheck:63315,str:12814,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:5088 check:63315,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:61913,h:0,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:5089 check:63316,op:27,dt:4,nt:8,next:5092,nextCheck:63319,str:61921,h:0,d0:5090,d1:63317;
+                ("print", Expression<MethodOrOperator> @:5090 check:63317,op:27,dt:2,nt:9,next:5091,nextCheck:63318,str:295,h:0,d0:0,d1:0;
+                    ("spec-ops commander: 'he's using a holo-drone. he must be close!'", Expression<String> @:5091 check:63318,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13140,h:0,d0:1628,d1:10912;)))
+            (____, Scope<Void> @:5092 check:63319,op:418,dt:4,nt:8,next:5095,nextCheck:63322,str:61998,h:0,d0:5093,d1:63320;
+                ("cs_play_line", Expression<MethodOrOperator> @:5093 check:63320,op:418,dt:2,nt:9,next:5094,nextCheck:63321,str:11461,h:0,d0:0,d1:0;
+                    ("0050", Expression<StringId> @:5094 check:63321,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:13205,h:0,d0:9539,d1:1024;)))
+            (____, Scope<Void> @:5095 check:63322,op:19,dt:4,nt:8,next:5098,nextCheck:63325,str:62020,h:0,d0:5096,d1:63323;
+                ("sleep", Expression<MethodOrOperator> @:5096 check:63323,op:19,dt:2,nt:9,next:5097,nextCheck:63324,str:289,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:5097 check:63324,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:62027,h:0,d0:30,d1:65535;)))
+            (____, Scope<Void> @:5098 check:63325,op:27,dt:4,nt:8,next:5101,nextCheck:63328,str:62033,h:0,d0:5099,d1:63326;
+                ("print", Expression<MethodOrOperator> @:5099 check:63326,op:27,dt:2,nt:9,next:5100,nextCheck:63327,str:295,h:0,d0:0,d1:0;
+                    ("spec-ops commander: 'come out. so we may kill you.'", Expression<String> @:5100 check:63327,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13210,h:0,d0:1698,d1:10912;)))
+            (____, Scope<Void> @:5101 check:63328,op:418,dt:4,nt:8,next:5104,nextCheck:63331,str:62097,h:0,d0:5102,d1:63329;
+                ("cs_play_line", Expression<MethodOrOperator> @:5102 check:63329,op:418,dt:2,nt:9,next:5103,nextCheck:63330,str:11461,h:0,d0:0,d1:0;
+                    ("0060", Expression<StringId> @:5103 check:63330,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:13262,h:0,d0:9540,d1:1024;)))
+            (____, Scope<Void> @:5104 check:63331,op:434,dt:4,nt:8,next:5106,nextCheck:63333,str:62119,h:0,d0:5105,d1:63332;
+                ("cs_approach_stop", Expression<MethodOrOperator> @:5105 check:63332,op:434,dt:2,nt:9,next:65535,nextCheck:65535,str:13267,h:0,d0:0,d1:0;))
+            (____, Scope<Void> @:5106 check:63333,op:374,dt:4,nt:8,next:5109,nextCheck:63336,str:62142,h:0,d0:5107,d1:63334;
+                ("cs_switch", Expression<MethodOrOperator> @:5107 check:63334,op:374,dt:2,nt:9,next:5108,nextCheck:63335,str:11362,h:0,d0:0,d1:0;
+                    ("heretic_leader", Expression<StringId> @:5108 check:63335,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:3379,h:0,d0:6387,d1:3584;)))
+            (____, Scope<Void> @:5109 check:63336,op:401,dt:4,nt:8,next:5118,nextCheck:63345,str:62171,h:0,d0:5110,d1:63337;
+                ("cs_face_object", Expression<MethodOrOperator> @:5110 check:63337,op:401,dt:2,nt:9,next:5111,nextCheck:63338,str:13284,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:5111 check:63338,op:5,dt:5,nt:9,next:5112,nextCheck:63339,str:62187,h:0,d0:65281,d1:65535;
+                        (____, Scope<Entity> @:5112 check:63339,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:62192,h:0,d0:5113,d1:63340;
+                            ("list_get", Expression<MethodOrOperator> @:5113 check:63340,op:37,dt:2,nt:9,next:5114,nextCheck:63341,str:221,h:0,d0:0,d1:0;
+                                (____, Scope<List> @:5114 check:63341,op:332,dt:31,nt:8,next:5117,nextCheck:63344,str:62202,h:0,d0:5115,d1:63342;
+                                    ("ai_actors", Expression<MethodOrOperator> @:5115 check:63342,op:332,dt:2,nt:9,next:5116,nextCheck:63343,str:11965,h:0,d0:0,d1:0;
+                                        ("disposal_commander", Expression<AI> @:5116 check:63343,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:11226,h:0,d0:0,d1:0;)))
+                                (0, Expression<Short> @:5117 check:63344,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:62233,h:0,d0:0,d1:65535;))))))
+            (____, Scope<Void> @:5118 check:63345,op:27,dt:4,nt:8,next:5121,nextCheck:63348,str:62239,h:0,d0:5119,d1:63346;
+                ("print", Expression<MethodOrOperator> @:5119 check:63346,op:27,dt:2,nt:9,next:5120,nextCheck:63347,str:295,h:0,d0:0,d1:0;
+                    ("heretic leader: 'get in line.'", Expression<String> @:5120 check:63347,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13299,h:0,d0:1787,d1:10912;)))
+            (____, Scope<Void> @:5121 check:63348,op:418,dt:4,nt:8,next:5124,nextCheck:63351,str:62282,h:0,d0:5122,d1:63349;
+                ("cs_play_line", Expression<MethodOrOperator> @:5122 check:63349,op:418,dt:2,nt:9,next:5123,nextCheck:63350,str:11461,h:0,d0:0,d1:0;
+                    ("0070", Expression<StringId> @:5123 check:63350,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:13330,h:0,d0:9541,d1:1024;)))
+            (____, Scope<Void> @:5124 check:63351,op:374,dt:4,nt:8,next:5127,nextCheck:63354,str:62359,h:0,d0:5125,d1:63352;
+                ("cs_switch", Expression<MethodOrOperator> @:5125 check:63352,op:374,dt:2,nt:9,next:5126,nextCheck:63353,str:11362,h:0,d0:0,d1:0;
+                    ("commander", Expression<StringId> @:5126 check:63353,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:3029,h:0,d0:3992,d1:2304;)))
+            (____, Scope<Void> @:5127 check:63354,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:62383,h:0,d0:5128,d1:63355;
+                ("set", Expression<MethodOrOperator> @:5128 check:63355,op:4,dt:2,nt:9,next:5129,nextCheck:63356,str:2606,h:0,d0:0,d1:0;
+                    ("holo_ally_03_done", VariableAccess<Boolean> @:5129 check:63356,op:65535,dt:5,nt:13,next:5130,nextCheck:63357,str:13335,h:0,d0:16,d1:0;
+                        (True, Expression<Boolean> @:5130 check:63357,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:62406,h:0,d0:65281,d1:65535;)))))))

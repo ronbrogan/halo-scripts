@@ -1,0 +1,30 @@
+
+("cs_boss_johnson_idle2", MethodDecl<Void> @:31 check:0,op:0,dt:0,nt:65535,next:1004,nextCheck:59231,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:1004 check:59231,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:10868,h:0,d0:1005,d1:59232;
+        ("begin", Expression<MethodOrOperator> @:1005 check:59232,op:0,dt:2,nt:9,next:978,nextCheck:59205,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:978 check:59205,op:448,dt:4,nt:8,next:981,nextCheck:59208,str:10915,h:0,d0:979,d1:59206;
+                ("cs_force_combat_status", Expression<MethodOrOperator> @:979 check:59206,op:448,dt:2,nt:9,next:980,nextCheck:59207,str:1071,h:0,d0:0,d1:0;
+                    (4, Expression<Short> @:980 check:59207,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:10939,h:0,d0:4,d1:65535;)))
+            (____, Scope<Void> @:981 check:59208,op:444,dt:4,nt:8,next:984,nextCheck:59211,str:10944,h:0,d0:982,d1:59209;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:982 check:59209,op:444,dt:2,nt:9,next:983,nextCheck:59210,str:1094,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:983 check:59210,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:10962,h:0,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:984 check:59211,op:423,dt:4,nt:8,next:987,nextCheck:59214,str:10967,h:0,d0:985,d1:59212;
+                ("cs_crouch", Expression<MethodOrOperator> @:985 check:59212,op:423,dt:2,nt:9,next:986,nextCheck:59213,str:1397,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:986 check:59213,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:10978,h:0,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:987 check:59214,op:401,dt:4,nt:8,next:993,nextCheck:59220,str:10983,h:0,d0:988,d1:59215;
+                ("cs_face_object", Expression<MethodOrOperator> @:988 check:59215,op:401,dt:2,nt:9,next:989,nextCheck:59216,str:1407,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:989 check:59216,op:5,dt:5,nt:9,next:990,nextCheck:59217,str:10999,h:0,d0:65281,d1:65535;
+                        (____, Scope<Entity> @:990 check:59217,op:284,dt:50,nt:8,next:65535,nextCheck:65535,str:11001,h:0,d0:991,d1:59218;
+                            ("ai_get_object", Expression<MethodOrOperator> @:991 check:59218,op:284,dt:2,nt:9,next:992,nextCheck:59219,str:1422,h:0,d0:0,d1:0;
+                                ("boss_tartarus", Expression<AI> @:992 check:59219,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1436,h:0,d0:102,d1:0;))))))
+            (____, Scope<Void> @:993 check:59220,op:398,dt:4,nt:8,next:999,nextCheck:59226,str:11034,h:0,d0:994,d1:59221;
+                ("cs_aim_object", Expression<MethodOrOperator> @:994 check:59221,op:398,dt:2,nt:9,next:995,nextCheck:59222,str:1450,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:995 check:59222,op:5,dt:5,nt:9,next:996,nextCheck:59223,str:11049,h:0,d0:65281,d1:65535;
+                        (____, Scope<Entity> @:996 check:59223,op:284,dt:50,nt:8,next:65535,nextCheck:65535,str:11051,h:0,d0:997,d1:59224;
+                            ("ai_get_object", Expression<MethodOrOperator> @:997 check:59224,op:284,dt:2,nt:9,next:998,nextCheck:59225,str:1422,h:0,d0:0,d1:0;
+                                ("boss_tartarus", Expression<AI> @:998 check:59225,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1436,h:0,d0:102,d1:0;))))))
+            (____, Scope<Void> @:999 check:59226,op:27,dt:4,nt:8,next:1002,nextCheck:59229,str:11084,h:0,d0:1000,d1:59227;
+                ("print", Expression<MethodOrOperator> @:1000 check:59227,op:27,dt:2,nt:9,next:1001,nextCheck:59228,str:91,h:0,d0:0,d1:0;
+                    ("johnson idle2", Expression<String> @:1001 check:59228,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:1477,h:0,d0:60621,d1:12560;)))
+            (____, Scope<Void> @:1002 check:59229,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:11110,h:0,d0:1003,d1:59230;
+                ("sleep_forever", Expression<MethodOrOperator> @:1003 check:59230,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:1139,h:0,d0:0,d1:0;)))))

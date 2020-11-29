@@ -1,0 +1,26 @@
+
+("cs_e11_cov_phantom0_exit", MethodDecl<Void> @:203 op:0,dt:0,nt:65535,next:7226,str:16211,d0:0,d1:0;
+    (____, Scope<Void> @:7226 op:0,dt:4,nt:8,next:65535,str:22663,d0:7227,d1:65454;
+        ("begin", Expression<MethodOrOperator> @:7227 op:0,dt:2,nt:9,next:7204,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:7204 op:449,dt:4,nt:8,next:7207,str:22713,d0:7205,d1:65432;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:7205 op:449,dt:2,nt:9,next:7206,str:4284,d0:0,d1:0;
+                    (True, Expression<Boolean> @:7206 op:5,dt:5,nt:9,next:65535,str:22745,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:7207 op:380,dt:4,nt:8,next:7211,str:22753,d0:7208,d1:65435;
+                ("cs_fly_to", Expression<MethodOrOperator> @:7208 op:380,dt:2,nt:9,next:7209,str:14959,d0:0,d1:0;
+                    ("e11_cov_phantom0/p0", Expression<SpatialPoint> @:7209 op:28,dt:28,nt:9,next:7210,str:14969,d0:0,d1:31;
+                        (1f, Expression<Float> @:7210 op:6,dt:6,nt:9,next:65535,str:22784,d0:0,d1:16256;))))
+            (____, Scope<Void> @:7211 op:382,dt:4,nt:8,next:7216,str:22791,d0:7212,d1:65439;
+                ("cs_fly_to_and_face", Expression<MethodOrOperator> @:7212 op:382,dt:2,nt:9,next:7213,str:14989,d0:0,d1:0;
+                    ("e11_cov_phantom0/p1", Expression<SpatialPoint> @:7213 op:28,dt:28,nt:9,next:7214,str:15008,d0:1,d1:31;
+                        ("e11_cov_phantom0/p2", Expression<SpatialPoint> @:7214 op:28,dt:28,nt:9,next:7215,str:15028,d0:2,d1:31;
+                            (1f, Expression<Float> @:7215 op:6,dt:6,nt:9,next:65535,str:22851,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:7216 op:381,dt:4,nt:8,next:7220,str:22858,d0:7217,d1:65444;
+                ("cs_fly_to_and_face", Expression<MethodOrOperator> @:7217 op:381,dt:2,nt:9,next:7218,str:14989,d0:0,d1:0;
+                    ("e11_cov_phantom0/p2", Expression<SpatialPoint> @:7218 op:28,dt:28,nt:9,next:7219,str:15028,d0:2,d1:31;
+                        ("e11_cov_phantom0/p3", Expression<SpatialPoint> @:7219 op:28,dt:28,nt:9,next:65535,str:15048,d0:3,d1:31;))))
+            (____, Scope<Void> @:7220 op:383,dt:4,nt:8,next:7223,str:22921,d0:7221,d1:65448;
+                ("cs_fly_by", Expression<MethodOrOperator> @:7221 op:383,dt:2,nt:9,next:7222,str:15068,d0:0,d1:0;
+                    ("e11_cov_phantom0/p3", Expression<SpatialPoint> @:7222 op:28,dt:28,nt:9,next:65535,str:15048,d0:3,d1:31;)))
+            (____, Scope<Void> @:7223 op:298,dt:4,nt:8,next:65535,str:22955,d0:7224,d1:65451;
+                ("ai_erase", Expression<MethodOrOperator> @:7224 op:298,dt:2,nt:9,next:7225,str:4540,d0:0,d1:0;
+                    ("ai_current_squad", VariableAccess<AI> @:7225 op:19,dt:19,nt:13,next:65535,str:12161,d0:33563,d1:65535;))))))

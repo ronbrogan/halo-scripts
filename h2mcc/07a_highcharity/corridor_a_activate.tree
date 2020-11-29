@@ -1,0 +1,22 @@
+
+("corridor_a_activate", MethodDecl<Void> @:324 op:0,dt:0,nt:65535,next:15244,str:40892,d0:0,d1:0;
+    (____, Scope<Void> @:15244 op:0,dt:4,nt:8,next:65535,str:47885,d0:15245,d1:40705;
+        ("begin", Expression<MethodOrOperator> @:15245 op:0,dt:2,nt:9,next:15226,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:15226 op:21,dt:4,nt:8,next:15234,str:47923,d0:15227,d1:40687;
+                ("sleep_until", Expression<MethodOrOperator> @:15227 op:21,dt:2,nt:9,next:15228,str:231,d0:0,d1:0;
+                    (____, Scope<Boolean> @:15228 op:17,dt:5,nt:8,next:65535,str:47936,d0:15229,d1:40689;
+                        (">=", Expression<MethodOrOperator> @:15229 op:17,dt:2,nt:9,next:15230,str:671,d0:0,d1:0;
+                            (____, Scope<Short> @:15230 op:353,dt:7,nt:8,next:15233,str:47940,d0:15231,d1:40691;
+                                ("ai_combat_status", Expression<MethodOrOperator> @:15231 op:353,dt:2,nt:9,next:15232,str:31871,d0:0,d1:0;
+                                    ("hall_a_prophets", Expression<AI> @:15232 op:19,dt:19,nt:9,next:65535,str:32885,d0:13,d1:16384;)))
+                            ("ai_combat_status_active", VariableAccess<Short> @:15233 op:7,dt:7,nt:13,next:65535,str:31888,d0:33574,d1:65535;)))))
+            (____, Scope<Void> @:15234 op:4,dt:4,nt:8,next:15238,str:48003,d0:15235,d1:40695;
+                ("set", Expression<MethodOrOperator> @:15235 op:4,dt:2,nt:9,next:15236,str:2177,d0:0,d1:0;
+                    ("g_corridor_a_active", VariableAccess<Boolean> @:15236 op:65535,dt:5,nt:13,next:15237,str:32292,d0:59,d1:0;
+                        (True, Expression<Boolean> @:15237 op:5,dt:5,nt:9,next:65535,str:48028,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:15238 op:2,dt:4,nt:8,next:65535,str:48033,d0:15239,d1:40699;
+                ("if", Expression<MethodOrOperator> @:15239 op:2,dt:2,nt:9,next:15240,str:456,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:15240 op:5,dt:5,nt:13,next:15241,str:17539,d0:3,d1:0;
+                        (____, Scope<Void> @:15241 op:27,dt:4,nt:8,next:65535,str:48043,d0:15242,d1:40702;
+                            ("print", Expression<MethodOrOperator> @:15242 op:27,dt:2,nt:9,next:15243,str:86,d0:0,d1:0;
+                                ("corridor a prophets active", Expression<String> @:15243 op:9,dt:9,nt:9,next:65535,str:32901,d0:32901,d1:0;)))))))))

@@ -1,0 +1,29 @@
+
+("x06_texture_camera_02_01", MethodDecl<Void> @:64 op:0,dt:0,nt:65535,next:1987,str:4938,d0:0,d1:0;
+    (____, Scope<Void> @:1987 op:0,dt:4,nt:8,next:65535,str:23692,d0:1988,d1:60215;
+        ("begin", Expression<MethodOrOperator> @:1988 op:0,dt:2,nt:9,next:1962,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:1962 op:27,dt:4,nt:8,next:1965,str:23737,d0:1963,d1:60190;
+                ("print", Expression<MethodOrOperator> @:1963 op:27,dt:2,nt:9,next:1964,str:86,d0:0,d1:0;
+                    ("start texture camera", Expression<String> @:1964 op:9,dt:9,nt:9,next:65535,str:3629,d0:3629,d1:0;)))
+            (____, Scope<Void> @:1965 op:48,dt:4,nt:8,next:1968,str:23772,d0:1966,d1:60193;
+                ("object_create_anew", Expression<MethodOrOperator> @:1966 op:48,dt:2,nt:9,next:1967,str:2344,d0:0,d1:0;
+                    ("texture_camera", Expression<EntityIdentifier> @:1967 op:56,dt:56,nt:9,next:65535,str:3650,d0:36,d1:65535;)))
+            (____, Scope<Void> @:1968 op:48,dt:4,nt:8,next:1971,str:23810,d0:1969,d1:60196;
+                ("object_create_anew", Expression<MethodOrOperator> @:1969 op:48,dt:2,nt:9,next:1970,str:2344,d0:0,d1:0;
+                    ("texture_space", Expression<EntityIdentifier> @:1970 op:56,dt:56,nt:9,next:65535,str:3665,d0:70,d1:65535;)))
+            (____, Scope<Void> @:1971 op:48,dt:4,nt:8,next:1974,str:23847,d0:1972,d1:60199;
+                ("object_create_anew", Expression<MethodOrOperator> @:1972 op:48,dt:2,nt:9,next:1973,str:2344,d0:0,d1:0;
+                    ("texture_halo", Expression<EntityIdentifier> @:1973 op:56,dt:56,nt:9,next:65535,str:3679,d0:71,d1:65535;)))
+            (____, Scope<Void> @:1974 op:92,dt:4,nt:8,next:1978,str:23886,d0:1975,d1:60202;
+                ("object_cinematic_lod", Expression<MethodOrOperator> @:1975 op:92,dt:2,nt:9,next:1976,str:2408,d0:0,d1:0;
+                    (4294901831, Expression<Entity> @:1976 op:56,dt:50,nt:9,next:1977,str:3679,d0:71,d1:65535;
+                        (True, Expression<Boolean> @:1977 op:5,dt:5,nt:9,next:65535,str:23921,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:1978 op:95,dt:4,nt:8,next:1982,str:23929,d0:1979,d1:60206;
+                ("object_uses_cinematic_lighting", Expression<MethodOrOperator> @:1979 op:95,dt:2,nt:9,next:1980,str:2044,d0:0,d1:0;
+                    (4294901831, Expression<Entity> @:1980 op:56,dt:50,nt:9,next:1981,str:3679,d0:71,d1:65535;
+                        (True, Expression<Boolean> @:1981 op:5,dt:5,nt:9,next:65535,str:23974,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:1982 op:144,dt:4,nt:8,next:65535,str:23982,d0:1983,d1:60210;
+                ("texture_camera_set_object_marker", Expression<MethodOrOperator> @:1983 op:144,dt:2,nt:9,next:1984,str:3692,d0:0,d1:0;
+                    (4294901796, Expression<Entity> @:1984 op:56,dt:50,nt:9,next:1985,str:3650,d0:36,d1:65535;
+                        ("primary_trigger", Expression<StringId> @:1985 op:11,dt:11,nt:9,next:1986,str:3725,d0:219,d1:3840;
+                            (40f, Expression<Float> @:1986 op:6,dt:6,nt:9,next:65535,str:24047,d0:0,d1:16928;))))))))

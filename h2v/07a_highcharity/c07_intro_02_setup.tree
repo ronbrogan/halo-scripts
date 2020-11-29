@@ -1,0 +1,31 @@
+
+("c07_intro_02_setup", MethodDecl<Void> @:133 check:0,op:0,dt:0,nt:65535,next:4271,nextCheck:62498,str:10335,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:4271 check:62498,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:57043,h:0,d0:4272,d1:62499;
+        ("begin", Expression<MethodOrOperator> @:4272 check:62499,op:0,dt:2,nt:9,next:4244,nextCheck:62471,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:4244 check:62471,op:22,dt:4,nt:8,next:4247,nextCheck:62474,str:57087,h:0,d0:4245,d1:62472;
+                ("wake", Expression<MethodOrOperator> @:4245 check:62472,op:22,dt:2,nt:9,next:4246,nextCheck:62473,str:1146,h:0,d0:0,d1:0;
+                    ("c07_intro_foley_02", Expression<ScriptReference> @:4246 check:62473,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:10214,h:0,d0:127,d1:65535;)))
+            (____, Scope<Void> @:4247 check:62474,op:22,dt:4,nt:8,next:4250,nextCheck:62477,str:57115,h:0,d0:4248,d1:62475;
+                ("wake", Expression<MethodOrOperator> @:4248 check:62475,op:22,dt:2,nt:9,next:4249,nextCheck:62476,str:1146,h:0,d0:0,d1:0;
+                    ("c07_1010_pot", Expression<ScriptReference> @:4249 check:62476,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:9622,h:0,d0:128,d1:65535;)))
+            (____, Scope<Void> @:4250 check:62477,op:22,dt:4,nt:8,next:4253,nextCheck:62480,str:57140,h:0,d0:4251,d1:62478;
+                ("wake", Expression<MethodOrOperator> @:4251 check:62478,op:22,dt:2,nt:9,next:4252,nextCheck:62479,str:1146,h:0,d0:0,d1:0;
+                    ("lightmap_shadows_on", Expression<ScriptReference> @:4252 check:62479,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:10233,h:0,d0:130,d1:65535;)))
+            (____, Scope<Void> @:4253 check:62480,op:22,dt:4,nt:8,next:4256,nextCheck:62483,str:57169,h:0,d0:4254,d1:62481;
+                ("wake", Expression<MethodOrOperator> @:4254 check:62481,op:22,dt:2,nt:9,next:4255,nextCheck:62482,str:1146,h:0,d0:0,d1:0;
+                    ("c07_intro_dof_02", Expression<ScriptReference> @:4255 check:62482,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:10253,h:0,d0:129,d1:65535;)))
+            (____, Scope<Void> @:4256 check:62483,op:22,dt:4,nt:8,next:4259,nextCheck:62486,str:57198,h:0,d0:4257,d1:62484;
+                ("wake", Expression<MethodOrOperator> @:4257 check:62484,op:22,dt:2,nt:9,next:4258,nextCheck:62485,str:1146,h:0,d0:0,d1:0;
+                    ("c07_intro_cinematic_light_02", Expression<ScriptReference> @:4258 check:62485,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:10270,h:0,d0:131,d1:65535;)))
+            (____, Scope<Void> @:4259 check:62486,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:57240,h:0,d0:4260,d1:62487;
+                ("if", Expression<MethodOrOperator> @:4260 check:62487,op:2,dt:2,nt:9,next:4261,nextCheck:62488,str:456,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:4261 check:62488,op:13,dt:5,nt:8,next:4266,nextCheck:62493,str:57244,h:0,d0:4262,d1:62489;
+                        ("=", Expression<MethodOrOperator> @:4262 check:62489,op:13,dt:2,nt:9,next:4263,nextCheck:62490,str:296,h:0,d0:0,d1:0;
+                            ("legendary", Expression<GameDifficulty> @:4263 check:62490,op:44,dt:44,nt:9,next:4264,nextCheck:62491,str:318,h:0,d0:3,d1:65535;
+                                (____, Scope<GameDifficulty> @:4264 check:62491,op:468,dt:44,nt:8,next:65535,nextCheck:65535,str:57259,h:0,d0:4265,d1:62492;
+                                    ("game_difficulty_get_real", Expression<MethodOrOperator> @:4265 check:62492,op:468,dt:2,nt:9,next:65535,nextCheck:65535,str:10299,h:0,d0:0,d1:0;)))))
+                    (____, Scope<Void> @:4266 check:62493,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:57290,h:0,d0:4267,d1:62494;
+                        ("begin", Expression<MethodOrOperator> @:4267 check:62494,op:0,dt:2,nt:9,next:4268,nextCheck:62495,str:1,h:0,d0:0,d1:0;
+                            (____, Scope<Void> @:4268 check:62495,op:48,dt:4,nt:8,next:65535,nextCheck:65535,str:57301,h:0,d0:4269,d1:62496;
+                                ("object_create_anew", Expression<MethodOrOperator> @:4269 check:62496,op:48,dt:2,nt:9,next:4270,nextCheck:62497,str:2052,h:0,d0:0,d1:0;
+                                    ("grunt_card", Expression<EntityIdentifier> @:4270 check:62497,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:10324,h:0,d0:108,d1:65535;))))))))))

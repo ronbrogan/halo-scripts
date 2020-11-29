@@ -1,0 +1,15 @@
+
+("cs_johnson_glanceat_guns", MethodDecl<Void> @:30 check:0,op:0,dt:0,nt:65535,next:1043,nextCheck:59270,str:12530,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:1043 check:59270,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:11383,h:0,d0:1044,d1:59271;
+        ("begin", Expression<MethodOrOperator> @:1044 check:59271,op:0,dt:2,nt:9,next:1032,nextCheck:59259,str:11,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:1032 check:59259,op:443,dt:4,nt:8,next:1035,nextCheck:59262,str:11433,h:0,d0:1033,d1:59260;
+                ("cs_enable_looking", Expression<MethodOrOperator> @:1033 check:59260,op:443,dt:2,nt:9,next:1034,nextCheck:59261,str:1257,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:1034 check:59261,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:11452,h:0,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:1035 check:59262,op:395,dt:4,nt:8,next:1041,nextCheck:59268,str:11457,h:0,d0:1036,d1:59263;
+                ("cs_look_object", Expression<MethodOrOperator> @:1036 check:59263,op:395,dt:2,nt:9,next:1037,nextCheck:59264,str:1275,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:1037 check:59264,op:5,dt:5,nt:9,next:1038,nextCheck:59265,str:11473,h:0,d0:65281,d1:65535;
+                        (____, Scope<Entity> @:1038 check:59265,op:284,dt:50,nt:8,next:65535,nextCheck:65535,str:11475,h:0,d0:1039,d1:59266;
+                            ("ai_get_object", Expression<MethodOrOperator> @:1039 check:59266,op:284,dt:2,nt:9,next:1040,nextCheck:59267,str:1238,h:0,d0:0,d1:0;
+                                ("guns", Expression<AI> @:1040 check:59267,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1252,h:0,d0:0,d1:0;))))))
+            (____, Scope<Void> @:1041 check:59268,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:11499,h:0,d0:1042,d1:59269;
+                ("sleep_forever", Expression<MethodOrOperator> @:1042 check:59269,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:1209,h:0,d0:0,d1:0;)))))

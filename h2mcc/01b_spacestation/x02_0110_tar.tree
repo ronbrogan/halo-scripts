@@ -1,0 +1,25 @@
+
+("x02_0110_tar", MethodDecl<Void> @:78 op:0,dt:0,nt:65535,next:2738,str:6808,d0:0,d1:0;
+    (____, Scope<Void> @:2738 op:0,dt:4,nt:8,next:65535,str:32339,d0:2739,d1:60966;
+        ("begin", Expression<MethodOrOperator> @:2739 op:0,dt:2,nt:9,next:2717,str:11,d0:0,d1:0;
+            (____, Scope<Void> @:2717 op:19,dt:4,nt:8,next:2720,str:32370,d0:2718,d1:60945;
+                ("sleep", Expression<MethodOrOperator> @:2718 op:19,dt:2,nt:9,next:2719,str:90,d0:0,d1:0;
+                    (213, Expression<Short> @:2719 op:7,dt:7,nt:9,next:65535,str:32377,d0:213,d1:65535;)))
+            (____, Scope<Void> @:2720 op:596,dt:4,nt:8,next:2725,str:32384,d0:2721,d1:60948;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:2721 op:596,dt:2,nt:9,next:2722,str:1446,d0:0,d1:0;
+                    ("sound\dialog\levels\01_spacestation\cinematic\x02_0110_tar", Expression<Sound> @:2722 op:32,dt:32,nt:9,next:2723,str:6749,d0:4497,d1:62385;
+                        (4294902075, Expression<Entity> @:2723 op:56,dt:50,nt:9,next:2724,str:2736,d0:315,d1:65535;
+                            (1f, Expression<Float> @:2724 op:6,dt:6,nt:9,next:65535,str:32473,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:2725 op:562,dt:4,nt:8,next:2729,str:32478,d0:2726,d1:60953;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:2726 op:562,dt:2,nt:9,next:2727,str:1689,d0:0,d1:0;
+                    ("x02_0110_tar", Expression<StringId> @:2727 op:11,dt:11,nt:9,next:2728,str:6808,d0:9564,d1:3072;
+                        (1.5f, Expression<Float> @:2728 op:6,dt:6,nt:9,next:65535,str:32511,d0:0,d1:16320;))))
+            (____, Scope<Void> @:2729 op:220,dt:4,nt:8,next:2735,str:32521,d0:2730,d1:60957;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2730 op:220,dt:2,nt:9,next:2731,str:1808,d0:0,d1:0;
+                    ("tartarus", Expression<Unit> @:2731 op:57,dt:51,nt:9,next:2732,str:2736,d0:315,d1:65535;
+                        ("inquisitive", Expression<StringId> @:2732 op:11,dt:11,nt:9,next:2733,str:6821,d0:423,d1:2816;
+                            (1f, Expression<Float> @:2733 op:6,dt:6,nt:9,next:2734,str:32568,d0:0,d1:16256;
+                                (60, Expression<Short> @:2734 op:7,dt:7,nt:9,next:65535,str:32570,d0:60,d1:65535;))))))
+            (____, Scope<Void> @:2735 op:27,dt:4,nt:8,next:65535,str:32576,d0:2736,d1:60963;
+                ("print", Expression<MethodOrOperator> @:2736 op:27,dt:2,nt:9,next:2737,str:96,d0:0,d1:0;
+                    ("tartarus - inquisitive 1 60", Expression<String> @:2737 op:9,dt:9,nt:9,next:65535,str:6833,d0:6833,d1:0;))))))

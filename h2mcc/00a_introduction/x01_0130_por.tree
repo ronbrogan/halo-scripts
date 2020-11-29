@@ -1,0 +1,22 @@
+
+("x01_0130_por", MethodDecl<Void> @:92 op:0,dt:0,nt:65535,next:5848,str:9534,d0:0,d1:0;
+    (____, Scope<Void> @:5848 op:0,dt:4,nt:8,next:65535,str:18291,d0:5849,d1:64076;
+        ("begin", Expression<MethodOrOperator> @:5849 op:0,dt:2,nt:9,next:5830,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:5830 op:19,dt:4,nt:8,next:5833,str:18322,d0:5831,d1:64058;
+                ("sleep", Expression<MethodOrOperator> @:5831 op:19,dt:2,nt:9,next:5832,str:80,d0:0,d1:0;
+                    (141, Expression<Short> @:5832 op:7,dt:7,nt:9,next:65535,str:18329,d0:141,d1:65535;)))
+            (____, Scope<Void> @:5833 op:596,dt:4,nt:8,next:5838,str:18336,d0:5834,d1:64061;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:5834 op:596,dt:2,nt:9,next:5835,str:3766,d0:0,d1:0;
+                    ("sound\dialog\levels\01_spacestation\cinematic\x01_0130_por", Expression<Sound> @:5835 op:32,dt:32,nt:9,next:5836,str:9475,d0:2735,d1:60453;
+                        (4294901816, Expression<Entity> @:5836 op:56,dt:50,nt:9,next:5837,str:6086,d0:56,d1:65535;
+                            (1f, Expression<Float> @:5837 op:6,dt:6,nt:9,next:65535,str:18423,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:5838 op:562,dt:4,nt:8,next:5842,str:18428,d0:5839,d1:64066;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:5839 op:562,dt:2,nt:9,next:5840,str:5905,d0:0,d1:0;
+                    ("x01_0130_por", Expression<StringId> @:5840 op:11,dt:11,nt:9,next:5841,str:9534,d0:9653,d1:3072;
+                        (3f, Expression<Float> @:5841 op:6,dt:6,nt:9,next:65535,str:18461,d0:0,d1:16448;))))
+            (____, Scope<Void> @:5842 op:220,dt:4,nt:8,next:65535,str:18469,d0:5843,d1:64070;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:5843 op:220,dt:2,nt:9,next:5844,str:9441,d0:0,d1:0;
+                    ("regret", Expression<Unit> @:5844 op:57,dt:51,nt:9,next:5845,str:6086,d0:56,d1:65535;
+                        ("angry", Expression<StringId> @:5845 op:11,dt:11,nt:9,next:5846,str:9547,d0:430,d1:1280;
+                            (1f, Expression<Float> @:5846 op:6,dt:6,nt:9,next:5847,str:18508,d0:0,d1:16256;
+                                (30, Expression<Short> @:5847 op:7,dt:7,nt:9,next:65535,str:18510,d0:30,d1:65535;)))))))))

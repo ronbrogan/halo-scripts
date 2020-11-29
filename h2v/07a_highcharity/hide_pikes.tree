@@ -1,0 +1,20 @@
+
+("hide_pikes", MethodDecl<Void> @:163 check:0,op:0,dt:0,nt:65535,next:5573,nextCheck:63800,str:13668,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:5573 check:63800,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:8817,h:1,d0:5574,d1:63801;
+        ("begin", Expression<MethodOrOperator> @:5574 check:63801,op:0,dt:2,nt:9,next:5557,nextCheck:63784,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:5557 check:63784,op:676,dt:4,nt:8,next:5559,nextCheck:63786,str:8847,h:1,d0:5558,d1:63785;
+                ("time_code_reset", Expression<MethodOrOperator> @:5558 check:63785,op:676,dt:2,nt:9,next:65535,nextCheck:65535,str:9635,h:0,d0:0,d1:0;))
+            (____, Scope<Void> @:5559 check:63786,op:19,dt:4,nt:8,next:5562,nextCheck:63789,str:8867,h:1,d0:5560,d1:63787;
+                ("sleep", Expression<MethodOrOperator> @:5560 check:63787,op:19,dt:2,nt:9,next:5561,nextCheck:63788,str:80,h:0,d0:0,d1:0;
+                    (300, Expression<Short> @:5561 check:63788,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:8874,h:1,d0:300,d1:65535;)))
+            (____, Scope<Void> @:5562 check:63789,op:27,dt:4,nt:8,next:5565,nextCheck:63792,str:8881,h:1,d0:5563,d1:63790;
+                ("print", Expression<MethodOrOperator> @:5563 check:63790,op:27,dt:2,nt:9,next:5564,nextCheck:63791,str:86,h:0,d0:0,d1:0;
+                    ("hide pikes", Expression<String> @:5564 check:63791,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13469,h:0,d0:64613,d1:12542;)))
+            (____, Scope<Void> @:5565 check:63792,op:57,dt:4,nt:8,next:5569,nextCheck:63796,str:8904,h:1,d0:5566,d1:63793;
+                ("object_hide", Expression<MethodOrOperator> @:5566 check:63793,op:57,dt:2,nt:9,next:5567,nextCheck:63794,str:590,h:0,d0:0,d1:0;
+                    (4294901887, Expression<Entity> @:5567 check:63794,op:56,dt:50,nt:9,next:5568,nextCheck:63795,str:13441,h:0,d0:127,d1:65535;
+                        (True, Expression<Boolean> @:5568 check:63795,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:8931,h:1,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:5569 check:63796,op:57,dt:4,nt:8,next:65535,nextCheck:65535,str:8939,h:1,d0:5570,d1:63797;
+                ("object_hide", Expression<MethodOrOperator> @:5570 check:63797,op:57,dt:2,nt:9,next:5571,nextCheck:63798,str:590,h:0,d0:0,d1:0;
+                    (4294901888, Expression<Entity> @:5571 check:63798,op:56,dt:50,nt:9,next:5572,nextCheck:63799,str:13455,h:0,d0:128,d1:65535;
+                        (True, Expression<Boolean> @:5572 check:63799,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:8966,h:1,d0:65281,d1:65535;)))))))

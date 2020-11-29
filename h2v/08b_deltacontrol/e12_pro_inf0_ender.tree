@@ -1,0 +1,33 @@
+
+("e12_pro_inf0_ender", MethodDecl<Void> @:351 check:0,op:0,dt:0,nt:65535,next:12021,nextCheck:37481,str:28421,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:12021 check:37481,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:11528,h:2,d0:12022,d1:37482;
+        ("begin", Expression<MethodOrOperator> @:12022 check:37482,op:0,dt:2,nt:9,next:11992,nextCheck:37452,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:11992 check:37452,op:21,dt:4,nt:8,next:12000,nextCheck:37460,str:11565,h:2,d0:11993,d1:37453;
+                ("sleep_until", Expression<MethodOrOperator> @:11993 check:37453,op:21,dt:2,nt:9,next:11994,nextCheck:37454,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:11994 check:37454,op:33,dt:5,nt:8,next:11999,nextCheck:37459,str:11578,h:2,d0:11995,d1:37455;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:11995 check:37455,op:33,dt:2,nt:9,next:11996,nextCheck:37456,str:4732,h:0,d0:0,d1:0;
+                            ("tv_e12_pro_inf0_end", Expression<Trigger> @:11996 check:37456,op:13,dt:13,nt:9,next:11997,nextCheck:37457,str:27543,h:0,d0:78,d1:0;
+                                (____, Scope<List> @:11997 check:37457,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:11619,h:2,d0:11998,d1:37458;
+                                    ("players", Expression<MethodOrOperator> @:11998 check:37458,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                    (15, Expression<Short> @:11999 check:37459,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:11630,h:2,d0:15,d1:65535;)))
+            (____, Scope<Void> @:12000 check:37460,op:20,dt:4,nt:8,next:12003,nextCheck:37463,str:11636,h:2,d0:12001,d1:37461;
+                ("sleep_forever", Expression<MethodOrOperator> @:12001 check:37461,op:20,dt:2,nt:9,next:12002,nextCheck:37462,str:1139,h:0,d0:0,d1:0;
+                    ("e12_pro_inf0_main", Expression<ScriptReference> @:12002 check:37462,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:27563,h:0,d0:350,d1:65535;)))
+            (____, Scope<Void> @:12003 check:37463,op:262,dt:4,nt:8,next:12007,nextCheck:37467,str:11697,h:2,d0:12004,d1:37464;
+                ("device_one_sided_set", Expression<MethodOrOperator> @:12004 check:37464,op:262,dt:2,nt:9,next:12005,nextCheck:37465,str:27454,h:0,d0:0,d1:0;
+                    ("e12_door1", Expression<Device> @:12005 check:37465,op:60,dt:54,nt:9,next:12006,nextCheck:37466,str:5288,h:0,d0:110,d1:65535;
+                        (False, Expression<Boolean> @:12006 check:37466,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:11729,h:2,d0:65280,d1:65535;))))
+            (____, Scope<Void> @:12007 check:37467,op:264,dt:4,nt:8,next:12011,nextCheck:37471,str:11738,h:2,d0:12008,d1:37468;
+                ("device_closes_automatically_set", Expression<MethodOrOperator> @:12008 check:37468,op:264,dt:2,nt:9,next:12009,nextCheck:37469,str:27475,h:0,d0:0,d1:0;
+                    ("e12_door1", Expression<Device> @:12009 check:37469,op:60,dt:54,nt:9,next:12010,nextCheck:37470,str:5288,h:0,d0:110,d1:65535;
+                        (False, Expression<Boolean> @:12010 check:37470,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:11781,h:2,d0:65280,d1:65535;))))
+            (____, Scope<Void> @:12011 check:37471,op:256,dt:4,nt:8,next:12015,nextCheck:37475,str:11790,h:2,d0:12012,d1:37472;
+                ("device_set_position", Expression<MethodOrOperator> @:12012 check:37472,op:256,dt:2,nt:9,next:12013,nextCheck:37473,str:15536,h:0,d0:0,d1:0;
+                    ("e12_door1", Expression<Device> @:12013 check:37473,op:60,dt:54,nt:9,next:12014,nextCheck:37474,str:5288,h:0,d0:110,d1:65535;
+                        (1f, Expression<Float> @:12014 check:37474,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:11821,h:2,d0:0,d1:16256;))))
+            (____, Scope<Void> @:12015 check:37475,op:22,dt:4,nt:8,next:12018,nextCheck:37478,str:11840,h:2,d0:12016,d1:37476;
+                ("wake", Expression<MethodOrOperator> @:12016 check:37476,op:22,dt:2,nt:9,next:12017,nextCheck:37477,str:5851,h:0,d0:0,d1:0;
+                    ("music_08b_09_stop", Expression<ScriptReference> @:12017 check:37477,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:27507,h:0,d0:298,d1:65535;)))
+            (____, Scope<Void> @:12018 check:37478,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:11867,h:2,d0:12019,d1:37479;
+                ("wake", Expression<MethodOrOperator> @:12019 check:37479,op:22,dt:2,nt:9,next:12020,nextCheck:37480,str:5851,h:0,d0:0,d1:0;
+                    ("music_08b_10_stop", Expression<ScriptReference> @:12020 check:37480,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:27525,h:0,d0:301,d1:65535;))))))

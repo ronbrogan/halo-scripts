@@ -1,0 +1,19 @@
+
+("e12_dia_go_conduit_a", MethodDecl<Void> @:156 check:0,op:0,dt:0,nt:65535,next:4385,nextCheck:62612,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:4385 check:62612,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:55554,h:0,d0:4386,d1:62613;
+        ("begin", Expression<MethodOrOperator> @:4386 check:62613,op:0,dt:2,nt:9,next:4370,nextCheck:62597,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:4370 check:62597,op:2,dt:4,nt:8,next:4376,nextCheck:62603,str:55593,h:0,d0:4371,d1:62598;
+                ("if", Expression<MethodOrOperator> @:4371 check:62598,op:2,dt:2,nt:9,next:4372,nextCheck:62599,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:4372 check:62599,op:5,dt:5,nt:13,next:4373,nextCheck:62600,str:10397,h:0,d0:3,d1:0;
+                        (____, Scope<Void> @:4373 check:62600,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:55606,h:0,d0:4374,d1:62601;
+                            ("print", Expression<MethodOrOperator> @:4374 check:62601,op:27,dt:2,nt:9,next:4375,nextCheck:62602,str:86,h:0,d0:0,d1:0;
+                                ("cortana: get to the conduit. i'll keep it attached to the ship as long as i can.", Expression<String> @:4375 check:62602,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12804,h:0,d0:46628,d1:11039;))))))
+            (____, Scope<Void> @:4376 check:62603,op:19,dt:4,nt:8,next:4382,nextCheck:62609,str:55700,h:0,d0:4377,d1:62604;
+                ("sleep", Expression<MethodOrOperator> @:4377 check:62604,op:19,dt:2,nt:9,next:4378,nextCheck:62605,str:80,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:4378 check:62605,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:55707,h:0,d0:4379,d1:62606;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4379 check:62606,op:362,dt:2,nt:9,next:4380,nextCheck:62607,str:10487,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:4380 check:62607,op:50,dt:50,nt:9,next:4381,nextCheck:62608,str:1386,h:0,d0:65535,d1:65535;
+                                ("2940", Expression<StringId> @:4381 check:62608,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12885,h:0,d0:10363,d1:1024;))))))
+            (____, Scope<Void> @:4382 check:62609,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:55745,h:0,d0:4383,d1:62610;
+                ("sleep", Expression<MethodOrOperator> @:4383 check:62610,op:19,dt:2,nt:9,next:4384,nextCheck:62611,str:80,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:4384 check:62611,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:10515,h:0,d0:4,d1:0;))))))

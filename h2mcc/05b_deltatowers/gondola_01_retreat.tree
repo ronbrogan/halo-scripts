@@ -1,0 +1,21 @@
+
+("gondola_01_retreat", MethodDecl<Void> @:172 op:0,dt:0,nt:65535,next:6988,str:15971,d0:0,d1:0;
+    (____, Scope<Void> @:6988 op:0,dt:4,nt:8,next:65535,str:14847,d0:6989,d1:65216;
+        ("begin", Expression<MethodOrOperator> @:6989 op:0,dt:2,nt:9,next:6971,str:142,d0:0,d1:0;
+            (____, Scope<Void> @:6971 op:449,dt:4,nt:8,next:6974,str:14891,d0:6972,d1:65199;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:6972 op:449,dt:2,nt:9,next:6973,str:11009,d0:0,d1:0;
+                    (True, Expression<Boolean> @:6973 op:5,dt:5,nt:9,next:65535,str:14923,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:6974 op:407,dt:4,nt:8,next:6977,str:14931,d0:6975,d1:65202;
+                ("cs_vehicle_speed", Expression<MethodOrOperator> @:6975 op:407,dt:2,nt:9,next:6976,str:13304,d0:0,d1:0;
+                    (1f, Expression<Float> @:6976 op:6,dt:6,nt:9,next:65535,str:14949,d0:0,d1:16256;)))
+            (____, Scope<Void> @:6977 op:384,dt:4,nt:8,next:6981,str:14954,d0:6978,d1:65205;
+                ("cs_fly_by", Expression<MethodOrOperator> @:6978 op:384,dt:2,nt:9,next:6979,str:13228,d0:0,d1:0;
+                    ("bsp1_airspace/ph_02_4", Expression<SpatialPoint> @:6979 op:28,dt:28,nt:9,next:6980,str:15785,d0:9,d1:1;
+                        (2f, Expression<Float> @:6980 op:6,dt:6,nt:9,next:65535,str:14987,d0:0,d1:16384;))))
+            (____, Scope<Void> @:6981 op:380,dt:4,nt:8,next:6985,str:14992,d0:6982,d1:65209;
+                ("cs_fly_to", Expression<MethodOrOperator> @:6982 op:380,dt:2,nt:9,next:6983,str:13333,d0:0,d1:0;
+                    ("bsp1_airspace/ph_02_x", Expression<SpatialPoint> @:6983 op:28,dt:28,nt:9,next:6984,str:15807,d0:10,d1:1;
+                        (2f, Expression<Float> @:6984 op:6,dt:6,nt:9,next:65535,str:15025,d0:0,d1:16384;))))
+            (____, Scope<Void> @:6985 op:298,dt:4,nt:8,next:65535,str:15030,d0:6986,d1:65213;
+                ("ai_erase", Expression<MethodOrOperator> @:6986 op:298,dt:2,nt:9,next:6987,str:13431,d0:0,d1:0;
+                    ("gondola_01_phantom", Expression<AI> @:6987 op:19,dt:19,nt:9,next:65535,str:15829,d0:36,d1:0;))))))

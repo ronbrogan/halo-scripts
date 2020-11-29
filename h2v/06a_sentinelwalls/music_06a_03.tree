@@ -1,0 +1,33 @@
+
+("music_06a_03", MethodDecl<Void> @:156 check:0,op:0,dt:0,nt:65535,next:5162,nextCheck:63389,str:28027,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:5162 check:63389,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:59122,h:0,d0:5163,d1:63390;
+        ("begin", Expression<MethodOrOperator> @:5163 check:63390,op:0,dt:2,nt:9,next:5133,nextCheck:63360,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:5133 check:63360,op:21,dt:4,nt:8,next:5137,nextCheck:63364,str:59153,h:0,d0:5134,d1:63361;
+                ("sleep_until", Expression<MethodOrOperator> @:5134 check:63361,op:21,dt:2,nt:9,next:5135,nextCheck:63362,str:231,h:0,d0:0,d1:0;
+                    ("g_music_06a_03", VariableAccess<Boolean> @:5135 check:63362,op:5,dt:5,nt:13,next:5136,nextCheck:63363,str:11859,h:0,d0:23,d1:0;
+                        (1, Expression<Short> @:5136 check:63363,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:59181,h:0,d0:1,d1:65535;))))
+            (____, Scope<Void> @:5137 check:63364,op:2,dt:4,nt:8,next:5143,nextCheck:63370,str:59186,h:0,d0:5138,d1:63365;
+                ("if", Expression<MethodOrOperator> @:5138 check:63365,op:2,dt:2,nt:9,next:5139,nextCheck:63366,str:456,h:0,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:5139 check:63366,op:5,dt:5,nt:13,next:5140,nextCheck:63367,str:11180,h:0,d0:3,d1:0;
+                        (____, Scope<Void> @:5140 check:63367,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:59196,h:0,d0:5141,d1:63368;
+                            ("print", Expression<MethodOrOperator> @:5141 check:63368,op:27,dt:2,nt:9,next:5142,nextCheck:63369,str:86,h:0,d0:0,d1:0;
+                                ("start music 06a_03", Expression<String> @:5142 check:63369,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:11874,h:0,d0:56586,d1:12464;))))))
+            (____, Scope<Void> @:5143 check:63370,op:605,dt:4,nt:8,next:5148,nextCheck:63375,str:59228,h:0,d0:5144,d1:63371;
+                ("sound_looping_start", Expression<MethodOrOperator> @:5144 check:63371,op:605,dt:2,nt:9,next:5145,nextCheck:63372,str:11663,h:0,d0:0,d1:0;
+                    ("scenarios\solo\06a_sentinelwalls\06a_music\06a_03", Expression<LoopingSound> @:5145 check:63372,op:35,dt:35,nt:9,next:5146,nextCheck:63373,str:11893,h:0,d0:7205,d1:65112;
+                        (4294967295, Expression<Entity> @:5146 check:63373,op:50,dt:50,nt:9,next:5147,nextCheck:63374,str:1694,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:5147 check:63374,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:59304,h:0,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:5148 check:63375,op:21,dt:4,nt:8,next:5153,nextCheck:63380,str:59311,h:0,d0:5149,d1:63376;
+                ("sleep_until", Expression<MethodOrOperator> @:5149 check:63376,op:21,dt:2,nt:9,next:5150,nextCheck:63377,str:231,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:5150 check:63377,op:25,dt:5,nt:8,next:65535,nextCheck:65535,str:59324,h:0,d0:5151,d1:63378;
+                        ("not", Expression<MethodOrOperator> @:5151 check:63378,op:25,dt:2,nt:9,next:5152,nextCheck:63379,str:397,h:0,d0:0,d1:0;
+                            ("g_music_06a_03", VariableAccess<Boolean> @:5152 check:63379,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:11859,h:0,d0:23,d1:0;)))))
+            (____, Scope<Void> @:5153 check:63380,op:2,dt:4,nt:8,next:5159,nextCheck:63386,str:59348,h:0,d0:5154,d1:63381;
+                ("if", Expression<MethodOrOperator> @:5154 check:63381,op:2,dt:2,nt:9,next:5155,nextCheck:63382,str:456,h:0,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:5155 check:63382,op:5,dt:5,nt:13,next:5156,nextCheck:63383,str:11180,h:0,d0:3,d1:0;
+                        (____, Scope<Void> @:5156 check:63383,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:59358,h:0,d0:5157,d1:63384;
+                            ("print", Expression<MethodOrOperator> @:5157 check:63384,op:27,dt:2,nt:9,next:5158,nextCheck:63385,str:86,h:0,d0:0,d1:0;
+                                ("stop music 06a_03", Expression<String> @:5158 check:63385,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:11943,h:0,d0:56655,d1:12464;))))))
+            (____, Scope<Void> @:5159 check:63386,op:606,dt:4,nt:8,next:65535,nextCheck:65535,str:59389,h:0,d0:5160,d1:63387;
+                ("sound_looping_stop", Expression<MethodOrOperator> @:5160 check:63387,op:606,dt:2,nt:9,next:5161,nextCheck:63388,str:11840,h:0,d0:0,d1:0;
+                    ("scenarios\solo\06a_sentinelwalls\06a_music\06a_03", Expression<LoopingSound> @:5161 check:63388,op:35,dt:35,nt:9,next:65535,nextCheck:65535,str:11893,h:0,d0:7205,d1:65112;))))))

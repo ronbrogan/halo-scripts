@@ -1,0 +1,25 @@
+
+("c05_2020_cor", MethodDecl<Void> @:36 op:0,dt:0,nt:65535,next:880,str:1780,d0:0,d1:0;
+    (____, Scope<Void> @:880 op:0,dt:4,nt:8,next:65535,str:10138,d0:881,d1:59108;
+        ("begin", Expression<MethodOrOperator> @:881 op:0,dt:2,nt:9,next:859,str:142,d0:0,d1:0;
+            (____, Scope<Void> @:859 op:19,dt:4,nt:8,next:862,str:10169,d0:860,d1:59087;
+                ("sleep", Expression<MethodOrOperator> @:860 op:19,dt:2,nt:9,next:861,str:221,d0:0,d1:0;
+                    (135, Expression<Short> @:861 op:7,dt:7,nt:9,next:65535,str:10176,d0:135,d1:65535;)))
+            (____, Scope<Void> @:862 op:596,dt:4,nt:8,next:867,str:10183,d0:863,d1:59090;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:863 op:596,dt:2,nt:9,next:864,str:1420,d0:0,d1:0;
+                    ("sound\dialog\levels\05_deltatemple\cinematics\c05_2020_cor", Expression<Sound> @:864 op:32,dt:32,nt:9,next:865,str:1713,d0:864,d1:58582;
+                        (4294901834, Expression<Entity> @:865 op:56,dt:50,nt:9,next:866,str:1772,d0:74,d1:65535;
+                            (1f, Expression<Float> @:866 op:6,dt:6,nt:9,next:65535,str:10271,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:867 op:562,dt:4,nt:8,next:871,str:10276,d0:868,d1:59095;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:868 op:562,dt:2,nt:9,next:869,str:1681,d0:0,d1:0;
+                    ("c05_2020_cor", Expression<StringId> @:869 op:11,dt:11,nt:9,next:870,str:1780,d0:3961,d1:3072;
+                        (1f, Expression<Float> @:870 op:6,dt:6,nt:9,next:65535,str:10309,d0:0,d1:16256;))))
+            (____, Scope<Void> @:871 op:220,dt:4,nt:8,next:877,str:10317,d0:872,d1:59099;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:872 op:220,dt:2,nt:9,next:873,str:1793,d0:0,d1:0;
+                    ("cortana", Expression<Unit> @:873 op:57,dt:51,nt:9,next:874,str:1772,d0:74,d1:65535;
+                        ("angry", Expression<StringId> @:874 op:11,dt:11,nt:9,next:875,str:1818,d0:430,d1:1280;
+                            (0.5f, Expression<Float> @:875 op:6,dt:6,nt:9,next:876,str:10357,d0:0,d1:16128;
+                                (60, Expression<Short> @:876 op:7,dt:7,nt:9,next:65535,str:10360,d0:60,d1:65535;))))))
+            (____, Scope<Void> @:877 op:27,dt:4,nt:8,next:65535,str:10366,d0:878,d1:59105;
+                ("print", Expression<MethodOrOperator> @:878 op:27,dt:2,nt:9,next:879,str:227,d0:0,d1:0;
+                    ("cortana - angry .5 60", Expression<String> @:879 op:9,dt:9,nt:9,next:65535,str:1824,d0:1824,d1:0;))))))

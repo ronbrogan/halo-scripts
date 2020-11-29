@@ -1,0 +1,12 @@
+
+("cs_alert_combat", MethodDecl<Void> @:200 check:0,op:0,dt:0,nt:65535,next:7232,nextCheck:65459,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:7232 check:65459,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:30175,h:1,d0:7233,d1:65460;
+        ("begin", Expression<MethodOrOperator> @:7233 check:65460,op:0,dt:2,nt:9,next:7224,nextCheck:65451,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:7224 check:65451,op:439,dt:4,nt:8,next:7227,nextCheck:65454,str:30216,h:1,d0:7225,d1:65452;
+                ("cs_abort_on_alert", Expression<MethodOrOperator> @:7225 check:65452,op:439,dt:2,nt:9,next:7226,nextCheck:65453,str:16571,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:7226 check:65453,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:30235,h:1,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:7227 check:65454,op:422,dt:4,nt:8,next:7230,nextCheck:65457,str:30243,h:1,d0:7228,d1:65455;
+                ("cs_movement_mode", Expression<MethodOrOperator> @:7228 check:65455,op:422,dt:2,nt:9,next:7229,nextCheck:65456,str:16603,h:0,d0:0,d1:0;
+                    ("ai_movement_combat", VariableAccess<Short> @:7229 check:65456,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:16620,h:0,d0:33583,d1:65535;)))
+            (____, Scope<Void> @:7230 check:65457,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:30283,h:1,d0:7231,d1:65458;
+                ("sleep_forever", Expression<MethodOrOperator> @:7231 check:65458,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:16589,h:0,d0:0,d1:0;)))))

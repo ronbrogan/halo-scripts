@@ -1,0 +1,32 @@
+
+("music_04a_04_stop", MethodDecl<Void> @:240 check:0,op:0,dt:0,nt:65535,next:7716,nextCheck:33176,str:35278,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:7716 check:33176,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:26265,h:1,d0:7717,d1:33177;
+        ("begin", Expression<MethodOrOperator> @:7717 check:33177,op:0,dt:2,nt:9,next:7688,nextCheck:33148,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:7688 check:33148,op:21,dt:4,nt:8,next:7710,nextCheck:33170,str:26356,h:1,d0:7689,d1:33149;
+                ("sleep_until", Expression<MethodOrOperator> @:7689 check:33149,op:21,dt:2,nt:9,next:7690,nextCheck:33150,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:7690 check:33150,op:6,dt:5,nt:8,next:7708,nextCheck:33168,str:26372,h:1,d0:7691,d1:33151;
+                        ("or", Expression<MethodOrOperator> @:7691 check:33151,op:6,dt:2,nt:9,next:7692,nextCheck:33152,str:849,h:0,d0:0,d1:0;
+                            (____, Scope<Boolean> @:7692 check:33152,op:13,dt:5,nt:8,next:7700,nextCheck:33160,str:26380,h:1,d0:7693,d1:33153;
+                                ("=", Expression<MethodOrOperator> @:7693 check:33153,op:13,dt:2,nt:9,next:7694,nextCheck:33154,str:301,h:0,d0:0,d1:0;
+                                    (____, Scope<Boolean> @:7694 check:33154,op:33,dt:5,nt:8,next:7699,nextCheck:33159,str:26383,h:1,d0:7695,d1:33155;
+                                        ("volume_test_objects", Expression<MethodOrOperator> @:7695 check:33155,op:33,dt:2,nt:9,next:7696,nextCheck:33156,str:16793,h:0,d0:0,d1:0;
+                                            ("vol_dog_obj_04", Expression<Trigger> @:7696 check:33156,op:13,dt:13,nt:9,next:7697,nextCheck:33157,str:16813,h:0,d0:77,d1:0;
+                                                (____, Scope<List> @:7697 check:33157,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:26419,h:1,d0:7698,d1:33158;
+                                                    ("players", Expression<MethodOrOperator> @:7698 check:33158,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                                    (True, Expression<Boolean> @:7699 check:33159,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:26430,h:1,d0:65281,d1:65535;)))
+                            (____, Scope<Boolean> @:7700 check:33160,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:26440,h:1,d0:7701,d1:33161;
+                                ("=", Expression<MethodOrOperator> @:7701 check:33161,op:13,dt:2,nt:9,next:7702,nextCheck:33162,str:301,h:0,d0:0,d1:0;
+                                    (____, Scope<Boolean> @:7702 check:33162,op:33,dt:5,nt:8,next:7707,nextCheck:33167,str:26443,h:1,d0:7703,d1:33163;
+                                        ("volume_test_objects", Expression<MethodOrOperator> @:7703 check:33163,op:33,dt:2,nt:9,next:7704,nextCheck:33164,str:16793,h:0,d0:0,d1:0;
+                                            ("vol_dog_obj_07", Expression<Trigger> @:7704 check:33164,op:13,dt:13,nt:9,next:7705,nextCheck:33165,str:16828,h:0,d0:80,d1:0;
+                                                (____, Scope<List> @:7705 check:33165,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:26479,h:1,d0:7706,d1:33166;
+                                                    ("players", Expression<MethodOrOperator> @:7706 check:33166,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                                    (True, Expression<Boolean> @:7707 check:33167,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:26490,h:1,d0:65281,d1:65535;)))))
+                    (30, Expression<Short> @:7708 check:33168,op:7,dt:7,nt:9,next:7709,nextCheck:33169,str:26503,h:1,d0:30,d1:65535;
+                        (8000, Expression<Int> @:7709 check:33169,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:26506,h:1,d0:8000,d1:0;))))
+            (____, Scope<Void> @:7710 check:33170,op:27,dt:4,nt:8,next:7713,nextCheck:33173,str:26514,h:1,d0:7711,d1:33171;
+                ("print", Expression<MethodOrOperator> @:7711 check:33171,op:27,dt:2,nt:9,next:7712,nextCheck:33172,str:91,h:0,d0:0,d1:0;
+                    ("music 04a_04 stop", Expression<String> @:7712 check:33172,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:16843,h:0,d0:32755,d1:10848;)))
+            (____, Scope<Void> @:7713 check:33173,op:606,dt:4,nt:8,next:65535,nextCheck:65535,str:26544,h:1,d0:7714,d1:33174;
+                ("sound_looping_stop", Expression<MethodOrOperator> @:7714 check:33174,op:606,dt:2,nt:9,next:7715,nextCheck:33175,str:16564,h:0,d0:0,d1:0;
+                    ("scenarios\solo\04a_gasgiant\04a_music\04a_04", Expression<LoopingSound> @:7715 check:33175,op:35,dt:35,nt:9,next:65535,nextCheck:65535,str:16748,h:0,d0:5492,d1:63399;))))))

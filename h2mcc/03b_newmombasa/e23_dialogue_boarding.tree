@@ -1,0 +1,33 @@
+
+("e23_dialogue_boarding", MethodDecl<Void> @:260 op:0,dt:0,nt:65535,next:8293,str:17586,d0:0,d1:0;
+    (____, Scope<Void> @:8293 op:0,dt:4,nt:8,next:65535,str:38827,d0:8294,d1:33754;
+        ("begin", Expression<MethodOrOperator> @:8294 op:0,dt:2,nt:9,next:8264,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:8264 op:19,dt:4,nt:8,next:8267,str:38867,d0:8265,d1:33725;
+                ("sleep", Expression<MethodOrOperator> @:8265 op:19,dt:2,nt:9,next:8266,str:85,d0:0,d1:0;
+                    (30, Expression<Short> @:8266 op:7,dt:7,nt:9,next:65535,str:38874,d0:30,d1:65535;)))
+            (____, Scope<Void> @:8267 op:27,dt:4,nt:8,next:8270,str:38880,d0:8268,d1:33728;
+                ("print", Expression<MethodOrOperator> @:8268 op:27,dt:2,nt:9,next:8269,str:91,d0:0,d1:0;
+                    ("cortana: chief, you're going to have to board the scarab!", Expression<String> @:8269 op:9,dt:9,nt:9,next:65535,str:17397,d0:17397,d1:0;)))
+            (____, Scope<Void> @:8270 op:362,dt:4,nt:8,next:8274,str:38950,d0:8271,d1:33731;
+                ("ai_play_line_on_object", Expression<MethodOrOperator> @:8271 op:362,dt:2,nt:9,next:8272,str:16995,d0:0,d1:0;
+                    (4294967295, Expression<Entity> @:8272 op:50,dt:50,nt:9,next:8273,str:1,d0:65535,d1:65535;
+                        ("2020", Expression<StringId> @:8273 op:11,dt:11,nt:9,next:65535,str:17455,d0:13465,d1:1024;))))
+            (____, Scope<Void> @:8274 op:19,dt:4,nt:8,next:8277,str:39006,d0:8275,d1:33735;
+                ("sleep", Expression<MethodOrOperator> @:8275 op:19,dt:2,nt:9,next:8276,str:85,d0:0,d1:0;
+                    (600, Expression<Short> @:8276 op:7,dt:7,nt:9,next:65535,str:39013,d0:600,d1:65535;)))
+            (____, Scope<Void> @:8277 op:27,dt:4,nt:8,next:8280,str:39020,d0:8278,d1:33738;
+                ("print", Expression<MethodOrOperator> @:8278 op:27,dt:2,nt:9,next:8279,str:91,d0:0,d1:0;
+                    ("cortana: we can't do anything more to that scarab from here", Expression<String> @:8279 op:9,dt:9,nt:9,next:65535,str:17460,d0:17460,d1:0;)))
+            (____, Scope<Void> @:8280 op:362,dt:4,nt:8,next:8284,str:39092,d0:8281,d1:33741;
+                ("ai_play_line_on_object", Expression<MethodOrOperator> @:8281 op:362,dt:2,nt:9,next:8282,str:16995,d0:0,d1:0;
+                    (4294967295, Expression<Entity> @:8282 op:50,dt:50,nt:9,next:8283,str:1,d0:65535,d1:65535;
+                        ("2040", Expression<StringId> @:8283 op:11,dt:11,nt:9,next:65535,str:17520,d0:13467,d1:1024;))))
+            (____, Scope<Void> @:8284 op:19,dt:4,nt:8,next:8287,str:39129,d0:8285,d1:33745;
+                ("sleep", Expression<MethodOrOperator> @:8285 op:19,dt:2,nt:9,next:8286,str:85,d0:0,d1:0;
+                    (75, Expression<Short> @:8286 op:7,dt:7,nt:9,next:65535,str:39136,d0:75,d1:65535;)))
+            (____, Scope<Void> @:8287 op:640,dt:4,nt:8,next:65535,str:39142,d0:8288,d1:33748;
+                ("activate_team_nav_point_object", Expression<MethodOrOperator> @:8288 op:640,dt:2,nt:9,next:8289,str:17525,d0:0,d1:0;
+                    ("default", Expression<NavigationPoint> @:8289 op:27,dt:27,nt:9,next:8290,str:17556,d0:0,d1:0;
+                        ("player", Expression<Team> @:8290 op:45,dt:45,nt:9,next:8291,str:17564,d0:1,d1:65535;
+                            (4294901862, Expression<Entity> @:8291 op:56,dt:50,nt:9,next:8292,str:13941,d0:102,d1:65535;
+                                (8.5f, Expression<Float> @:8292 op:6,dt:6,nt:9,next:65535,str:39196,d0:0,d1:16648;)))))))))

@@ -1,0 +1,29 @@
+
+("scarab_idle_to_twist_5_right", MethodDecl<Void> @:224 check:0,op:0,dt:0,nt:65535,next:6969,nextCheck:65196,str:14895,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:6969 check:65196,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:15871,h:1,d0:6970,d1:65197;
+        ("begin", Expression<MethodOrOperator> @:6970 check:65197,op:0,dt:2,nt:9,next:6944,nextCheck:65171,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:6944 check:65171,op:27,dt:4,nt:8,next:6947,nextCheck:65174,str:15922,h:1,d0:6945,d1:65172;
+                ("print", Expression<MethodOrOperator> @:6945 check:65172,op:27,dt:2,nt:9,next:6946,nextCheck:65173,str:91,h:0,d0:0,d1:0;
+                    ("scarab_idle_to_twist_5_right", Expression<String> @:6946 check:65173,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:14895,h:0,d0:59367,d1:12462;)))
+            (____, Scope<Void> @:6947 check:65174,op:266,dt:4,nt:8,next:6952,nextCheck:65179,str:15963,h:1,d0:6948,d1:65175;
+                ("device_set_position_track", Expression<MethodOrOperator> @:6948 check:65175,op:266,dt:2,nt:9,next:6949,nextCheck:65176,str:13964,h:0,d0:0,d1:0;
+                    ("scarab", Expression<Device> @:6949 check:65176,op:60,dt:54,nt:9,next:6950,nextCheck:65177,str:13888,h:0,d0:102,d1:65535;
+                        ("combat:idle_to_twist_5_right", Expression<StringId> @:6950 check:65177,op:11,dt:11,nt:9,next:6951,nextCheck:65178,str:14952,h:0,d0:5124,d1:7168;
+                            ("g_scarab_interpolation", VariableAccess<Float> @:6951 check:65178,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:14007,h:0,d0:19,d1:0;)))))
+            (____, Scope<Void> @:6952 check:65179,op:268,dt:4,nt:8,next:6960,nextCheck:65187,str:16052,h:1,d0:6953,d1:65180;
+                ("device_animate_position", Expression<MethodOrOperator> @:6953 check:65180,op:268,dt:2,nt:9,next:6954,nextCheck:65181,str:14030,h:0,d0:0,d1:0;
+                    ("scarab", Expression<Device> @:6954 check:65181,op:60,dt:54,nt:9,next:6955,nextCheck:65182,str:13888,h:0,d0:102,d1:65535;
+                        (1f, Expression<Float> @:6955 check:65182,op:6,dt:6,nt:9,next:6956,nextCheck:65183,str:16084,h:1,d0:0,d1:16256;
+                            (1.5f, Expression<Float> @:6956 check:65183,op:6,dt:6,nt:9,next:6957,nextCheck:65184,str:16088,h:1,d0:0,d1:16320;
+                                (0f, Expression<Float> @:6957 check:65184,op:6,dt:6,nt:9,next:6958,nextCheck:65185,str:16092,h:1,d0:0,d1:0;
+                                    (0f, Expression<Float> @:6958 check:65185,op:6,dt:6,nt:9,next:6959,nextCheck:65186,str:16094,h:1,d0:0,d1:0;
+                                        (True, Expression<Boolean> @:6959 check:65186,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:16096,h:1,d0:65281,d1:65535;))))))))
+            (____, Scope<Void> @:6960 check:65187,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:16104,h:1,d0:6961,d1:65188;
+                ("sleep_until", Expression<MethodOrOperator> @:6961 check:65188,op:21,dt:2,nt:9,next:6962,nextCheck:65189,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:6962 check:65189,op:17,dt:5,nt:8,next:6968,nextCheck:65195,str:16117,h:1,d0:6963,d1:65190;
+                        (">=", Expression<MethodOrOperator> @:6963 check:65190,op:17,dt:2,nt:9,next:6964,nextCheck:65191,str:676,h:0,d0:0,d1:0;
+                            (-1.1172579E+38f, Scope<Float> @:6964 check:65191,op:257,dt:6,nt:8,next:6967,nextCheck:65194,str:16121,h:1,d0:6965,d1:65192;
+                                ("device_get_position", Expression<MethodOrOperator> @:6965 check:65192,op:257,dt:2,nt:9,next:6966,nextCheck:65193,str:14054,h:0,d0:0,d1:0;
+                                    ("scarab", Expression<Device> @:6966 check:65193,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:13888,h:0,d0:102,d1:65535;)))
+                            (1f, Expression<Float> @:6967 check:65194,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:16150,h:1,d0:0,d1:16256;)))
+                    (1, Expression<Short> @:6968 check:65195,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:16155,h:1,d0:1,d1:65535;))))))

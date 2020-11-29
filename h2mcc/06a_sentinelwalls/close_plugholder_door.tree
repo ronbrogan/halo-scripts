@@ -1,0 +1,29 @@
+
+("close_plugholder_door", MethodDecl<Void> @:276 op:0,dt:0,nt:65535,next:12601,str:28930,d0:0,d1:0;
+    (____, Scope<Void> @:12601 op:0,dt:4,nt:8,next:65535,str:63250,d0:12602,d1:38062;
+        ("begin", Expression<MethodOrOperator> @:12602 op:0,dt:2,nt:9,next:12576,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:12576 op:19,dt:4,nt:8,next:12579,str:63290,d0:12577,d1:38037;
+                ("sleep", Expression<MethodOrOperator> @:12577 op:19,dt:2,nt:9,next:12578,str:80,d0:0,d1:0;
+                    (150, Expression<Short> @:12578 op:7,dt:7,nt:9,next:65535,str:63297,d0:150,d1:65535;)))
+            (____, Scope<Void> @:12579 op:21,dt:4,nt:8,next:12597,str:63304,d0:12580,d1:38040;
+                ("sleep_until", Expression<MethodOrOperator> @:12580 op:21,dt:2,nt:9,next:12581,str:231,d0:0,d1:0;
+                    (____, Scope<Boolean> @:12581 op:5,dt:5,nt:8,next:65535,str:63317,d0:12582,d1:38042;
+                        ("and", Expression<MethodOrOperator> @:12582 op:5,dt:2,nt:9,next:12583,str:667,d0:0,d1:0;
+                            (____, Scope<Boolean> @:12583 op:25,dt:5,nt:8,next:12590,str:63328,d0:12584,d1:38044;
+                                ("not", Expression<MethodOrOperator> @:12584 op:25,dt:2,nt:9,next:12585,str:397,d0:0,d1:0;
+                                    (____, Scope<Boolean> @:12585 op:33,dt:5,nt:8,next:65535,str:63333,d0:12586,d1:38046;
+                                        ("volume_test_objects", Expression<MethodOrOperator> @:12586 op:33,dt:2,nt:9,next:12587,str:11664,d0:0,d1:0;
+                                            ("tv_plugholder_a", Expression<Trigger> @:12587 op:13,dt:13,nt:9,next:12588,str:22279,d0:31,d1:0;
+                                                (____, Scope<List> @:12588 op:28,dt:31,nt:8,next:65535,str:63370,d0:12589,d1:38049;
+                                                    ("players", Expression<MethodOrOperator> @:12589 op:28,dt:2,nt:9,next:65535,str:21,d0:0,d1:0;)))))))
+                            (____, Scope<Boolean> @:12590 op:25,dt:5,nt:8,next:65535,str:63388,d0:12591,d1:38051;
+                                ("not", Expression<MethodOrOperator> @:12591 op:25,dt:2,nt:9,next:12592,str:397,d0:0,d1:0;
+                                    (____, Scope<Boolean> @:12592 op:33,dt:5,nt:8,next:65535,str:63393,d0:12593,d1:38053;
+                                        ("volume_test_objects", Expression<MethodOrOperator> @:12593 op:33,dt:2,nt:9,next:12594,str:11664,d0:0,d1:0;
+                                            ("tv_plugholder_b", Expression<Trigger> @:12594 op:13,dt:13,nt:9,next:12595,str:22295,d0:32,d1:0;
+                                                (____, Scope<List> @:12595 op:28,dt:31,nt:8,next:65535,str:63430,d0:12596,d1:38056;
+                                                    ("players", Expression<MethodOrOperator> @:12596 op:28,dt:2,nt:9,next:65535,str:21,d0:0,d1:0;)))))))))))
+            (____, Scope<Void> @:12597 op:256,dt:4,nt:8,next:65535,str:63455,d0:12598,d1:38058;
+                ("device_set_position", Expression<MethodOrOperator> @:12598 op:256,dt:2,nt:9,next:12599,str:3798,d0:0,d1:0;
+                    ("plugholder_door", Expression<Device> @:12599 op:60,dt:54,nt:9,next:12600,str:22311,d0:423,d1:65535;
+                        (0f, Expression<Float> @:12600 op:6,dt:6,nt:9,next:65535,str:63492,d0:0,d1:0;)))))))

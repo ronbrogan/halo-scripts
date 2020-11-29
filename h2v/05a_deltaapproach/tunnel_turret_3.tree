@@ -1,0 +1,13 @@
+
+("tunnel_turret_3", MethodDecl<Void> @:285 check:0,op:0,dt:0,nt:65535,next:15615,nextCheck:41075,str:27557,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:15615 check:41075,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:47129,h:2,d0:15616,d1:41076;
+        ("begin", Expression<MethodOrOperator> @:15616 check:41076,op:0,dt:2,nt:9,next:15606,nextCheck:41066,str:54,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:15606 check:41066,op:449,dt:4,nt:8,next:15609,nextCheck:41069,str:47170,h:2,d0:15607,d1:41067;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:15607 check:41067,op:449,dt:2,nt:9,next:15608,nextCheck:41068,str:15210,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15608 check:41068,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:47202,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:15609 check:41069,op:385,dt:4,nt:8,next:15612,nextCheck:41072,str:47210,h:2,d0:15610,d1:41070;
+                ("cs_go_to", Expression<MethodOrOperator> @:15610 check:41070,op:385,dt:2,nt:9,next:15611,nextCheck:41071,str:15241,h:0,d0:0,d1:0;
+                    ("tunnel_turrets/go_p3", Expression<SpatialPoint> @:15611 check:41071,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:27281,h:0,d0:7,d1:8;)))
+            (____, Scope<Void> @:15612 check:41072,op:429,dt:4,nt:8,next:65535,nextCheck:65535,str:47244,h:2,d0:15613,d1:41073;
+                ("cs_deploy_turret", Expression<MethodOrOperator> @:15613 check:41073,op:429,dt:2,nt:9,next:15614,nextCheck:41074,str:25098,h:0,d0:0,d1:0;
+                    ("tunnel_turrets/p3", Expression<SpatialPoint> @:15614 check:41074,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:27302,h:0,d0:3,d1:8;))))))

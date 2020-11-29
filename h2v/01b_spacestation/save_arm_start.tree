@@ -1,0 +1,28 @@
+
+("save_arm_start", MethodDecl<Void> @:314 check:0,op:0,dt:0,nt:65535,next:12034,nextCheck:37494,str:36584,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:12034 check:37494,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:14294,h:2,d0:12035,d1:37495;
+        ("begin", Expression<MethodOrOperator> @:12035 check:37495,op:0,dt:2,nt:9,next:12010,nextCheck:37470,str:11,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:12010 check:37470,op:21,dt:4,nt:8,next:12019,nextCheck:37479,str:14327,h:2,d0:12011,d1:37471;
+                ("sleep_until", Expression<MethodOrOperator> @:12011 check:37471,op:21,dt:2,nt:9,next:12012,nextCheck:37472,str:241,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:12012 check:37472,op:13,dt:5,nt:8,next:12018,nextCheck:37478,str:14340,h:2,d0:12013,d1:37473;
+                        ("=", Expression<MethodOrOperator> @:12013 check:37473,op:13,dt:2,nt:9,next:12014,nextCheck:37474,str:306,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:12014 check:37474,op:327,dt:7,nt:8,next:12017,nextCheck:37477,str:14343,h:2,d0:12015,d1:37475;
+                                ("ai_living_count", Expression<MethodOrOperator> @:12015 check:37475,op:327,dt:2,nt:9,next:12016,nextCheck:37476,str:27755,h:0,d0:0,d1:0;
+                                    ("arm_cov_stl", Expression<AI> @:12016 check:37476,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:27784,h:0,d0:60,d1:0;)))
+                            (0, Expression<Short> @:12017 check:37477,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:14373,h:2,d0:0,d1:65535;)))
+                    (1, Expression<Short> @:12018 check:37478,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:14376,h:2,d0:1,d1:65535;)))
+            (____, Scope<Void> @:12019 check:37479,op:587,dt:4,nt:8,next:12021,nextCheck:37481,str:14381,h:2,d0:12020,d1:37480;
+                ("game_save", Expression<MethodOrOperator> @:12020 check:37480,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:27552,h:0,d0:0,d1:0;))
+            (____, Scope<Void> @:12021 check:37481,op:786,dt:4,nt:8,next:12024,nextCheck:37484,str:14395,h:2,d0:12022,d1:37482;
+                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:12022 check:37482,op:786,dt:2,nt:9,next:12023,nextCheck:37483,str:27509,h:0,d0:0,d1:0;
+                    ("01b_arm_start", Expression<String> @:12023 check:37483,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:27796,h:0,d0:60612,d1:12558;)))
+            (____, Scope<Void> @:12024 check:37484,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:14445,h:2,d0:12025,d1:37485;
+                ("set", Expression<MethodOrOperator> @:12025 check:37485,op:4,dt:2,nt:9,next:12026,nextCheck:37486,str:3320,h:0,d0:0,d1:0;
+                    ("timer_flavor", VariableAccess<Short> @:12026 check:37486,op:65535,dt:7,nt:13,next:12027,nextCheck:37487,str:27576,h:0,d0:22,d1:0;
+                        (____, Scope<Short> @:12027 check:37487,op:12,dt:7,nt:8,next:65535,nextCheck:65535,str:14463,h:2,d0:12028,d1:37488;
+                            ("max", Expression<MethodOrOperator> @:12028 check:37488,op:12,dt:2,nt:9,next:12029,nextCheck:37489,str:27589,h:0,d0:0,d1:0;
+                                ("timer_flavor", VariableAccess<Float> @:12029 check:37489,op:6,dt:6,nt:13,next:12030,nextCheck:37490,str:27576,h:0,d0:22,d1:0;
+                                    (-7.6735207E-28f, Scope<Float> @:12030 check:37490,op:9,dt:6,nt:8,next:65535,nextCheck:65535,str:14481,h:2,d0:12031,d1:37491;
+                                        ("*", Expression<MethodOrOperator> @:12031 check:37491,op:9,dt:2,nt:9,next:12032,nextCheck:37492,str:1,h:0,d0:0,d1:0;
+                                            (10f, Expression<Float> @:12032 check:37492,op:6,dt:6,nt:9,next:12033,nextCheck:37493,str:14484,h:2,d0:0,d1:16672;
+                                                ("seconds", VariableAccess<Float> @:12033 check:37493,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:3,h:0,d0:18,d1:0;)))))))))))))

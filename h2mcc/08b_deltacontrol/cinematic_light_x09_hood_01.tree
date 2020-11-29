@@ -1,0 +1,35 @@
+
+("cinematic_light_x09_hood_01", MethodDecl<Void> @:236 op:0,dt:0,nt:65535,next:8736,str:21424,d0:0,d1:0;
+    (____, Scope<Void> @:8736 op:0,dt:4,nt:8,next:65535,str:36208,d0:8737,d1:34197;
+        ("begin", Expression<MethodOrOperator> @:8737 op:0,dt:2,nt:9,next:8705,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:8705 op:19,dt:4,nt:8,next:8708,str:36257,d0:8706,d1:34166;
+                ("sleep", Expression<MethodOrOperator> @:8706 op:19,dt:2,nt:9,next:8707,str:85,d0:0,d1:0;
+                    (124, Expression<Short> @:8707 op:7,dt:7,nt:9,next:65535,str:36264,d0:124,d1:65535;)))
+            (____, Scope<Void> @:8708 op:27,dt:4,nt:8,next:8711,str:36271,d0:8709,d1:34169;
+                ("print", Expression<MethodOrOperator> @:8709 op:27,dt:2,nt:9,next:8710,str:91,d0:0,d1:0;
+                    ("light hood 01", Expression<String> @:8710 op:9,dt:9,nt:9,next:65535,str:21200,d0:21200,d1:0;)))
+            (____, Scope<Void> @:8711 op:96,dt:4,nt:8,next:8718,str:36300,d0:8712,d1:34172;
+                ("cinematic_lighting_set_primary_light", Expression<MethodOrOperator> @:8712 op:96,dt:2,nt:9,next:8713,str:5553,d0:0,d1:0;
+                    (0f, Expression<Float> @:8713 op:6,dt:6,nt:9,next:8714,str:36338,d0:0,d1:0;
+                        (94f, Expression<Float> @:8714 op:6,dt:6,nt:9,next:8715,str:36340,d0:0,d1:17084;
+                            (0.47451f, Expression<Float> @:8715 op:6,dt:6,nt:9,next:8716,str:36343,d0:62202,d1:16114;
+                                (0.443137f, Expression<Float> @:8716 op:6,dt:6,nt:9,next:8717,str:36351,d0:58074,d1:16098;
+                                    (0.333333f, Expression<Float> @:8717 op:6,dt:6,nt:9,next:65535,str:36360,d0:43679,d1:16042;)))))))
+            (____, Scope<Void> @:8718 op:97,dt:4,nt:8,next:8725,str:36372,d0:8719,d1:34179;
+                ("cinematic_lighting_set_secondary_light", Expression<MethodOrOperator> @:8719 op:97,dt:2,nt:9,next:8720,str:5590,d0:0,d1:0;
+                    (0f, Expression<Float> @:8720 op:6,dt:6,nt:9,next:8721,str:36412,d0:0,d1:0;
+                        (320f, Expression<Float> @:8721 op:6,dt:6,nt:9,next:8722,str:36414,d0:0,d1:17312;
+                            (0.184314f, Expression<Float> @:8722 op:6,dt:6,nt:9,next:8723,str:36418,d0:48335,d1:15932;
+                                (0.176471f, Expression<Float> @:8723 op:6,dt:6,nt:9,next:8724,str:36427,d0:46288,d1:15924;
+                                    (0.266667f, Expression<Float> @:8724 op:6,dt:6,nt:9,next:65535,str:36436,d0:34964,d1:16008;)))))))
+            (____, Scope<Void> @:8725 op:98,dt:4,nt:8,next:8730,str:36448,d0:8726,d1:34186;
+                ("cinematic_lighting_set_ambient_light", Expression<MethodOrOperator> @:8726 op:98,dt:2,nt:9,next:8727,str:5629,d0:0,d1:0;
+                    (0f, Expression<Float> @:8727 op:6,dt:6,nt:9,next:8728,str:36486,d0:0,d1:0;
+                        (0f, Expression<Float> @:8728 op:6,dt:6,nt:9,next:8729,str:36488,d0:0,d1:0;
+                            (0f, Expression<Float> @:8729 op:6,dt:6,nt:9,next:65535,str:36490,d0:0,d1:0;)))))
+            (____, Scope<Void> @:8730 op:888,dt:4,nt:8,next:8733,str:36498,d0:8731,d1:34191;
+                ("rasterizer_bloom_override_threshold", Expression<MethodOrOperator> @:8731 op:888,dt:2,nt:9,next:8732,str:11554,d0:0,d1:0;
+                    (0.75f, Expression<Float> @:8732 op:6,dt:6,nt:9,next:65535,str:36535,d0:0,d1:16192;)))
+            (____, Scope<Void> @:8733 op:889,dt:4,nt:8,next:65535,str:36543,d0:8734,d1:34194;
+                ("rasterizer_bloom_override_brightness", Expression<MethodOrOperator> @:8734 op:889,dt:2,nt:9,next:8735,str:11590,d0:0,d1:0;
+                    (0.5f, Expression<Float> @:8735 op:6,dt:6,nt:9,next:65535,str:36581,d0:0,d1:16128;))))))

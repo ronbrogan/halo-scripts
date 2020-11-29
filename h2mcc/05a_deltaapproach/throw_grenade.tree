@@ -1,0 +1,25 @@
+
+("throw_grenade", MethodDecl<Void> @:270 op:0,dt:0,nt:65535,next:14135,str:25874,d0:0,d1:0;
+    (____, Scope<Void> @:14135 op:0,dt:4,nt:8,next:65535,str:32638,d0:14136,d1:39596;
+        ("begin", Expression<MethodOrOperator> @:14136 op:0,dt:2,nt:9,next:14114,str:54,d0:0,d1:0;
+            (____, Scope<Void> @:14114 op:444,dt:4,nt:8,next:14117,str:32677,d0:14115,d1:39575;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:14115 op:444,dt:2,nt:9,next:14116,str:23536,d0:0,d1:0;
+                    (True, Expression<Boolean> @:14116 op:5,dt:5,nt:9,next:65535,str:32695,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:14117 op:442,dt:4,nt:8,next:14120,str:32703,d0:14118,d1:39578;
+                ("cs_enable_targeting", Expression<MethodOrOperator> @:14118 op:442,dt:2,nt:9,next:14119,str:14735,d0:0,d1:0;
+                    (True, Expression<Boolean> @:14119 op:5,dt:5,nt:9,next:65535,str:32724,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:14120 op:404,dt:4,nt:8,next:14123,str:32732,d0:14121,d1:39581;
+                ("cs_shoot", Expression<MethodOrOperator> @:14121 op:404,dt:2,nt:9,next:14122,str:14755,d0:0,d1:0;
+                    (True, Expression<Boolean> @:14122 op:5,dt:5,nt:9,next:65535,str:32742,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:14123 op:21,dt:4,nt:8,next:14131,str:32750,d0:14124,d1:39584;
+                ("sleep_until", Expression<MethodOrOperator> @:14124 op:21,dt:2,nt:9,next:14125,str:284,d0:0,d1:0;
+                    (____, Scope<Boolean> @:14125 op:17,dt:5,nt:8,next:65535,str:32763,d0:14126,d1:39586;
+                        (">=", Expression<MethodOrOperator> @:14126 op:17,dt:2,nt:9,next:14127,str:724,d0:0,d1:0;
+                            (____, Scope<Short> @:14127 op:353,dt:7,nt:8,next:14130,str:32767,d0:14128,d1:39588;
+                                ("ai_combat_status", Expression<MethodOrOperator> @:14128 op:353,dt:2,nt:9,next:14129,str:20607,d0:0,d1:0;
+                                    ("ai_current_actor", VariableAccess<AI> @:14129 op:19,dt:19,nt:13,next:65535,str:20624,d0:33564,d1:65535;)))
+                            ("ai_combat_status_clear_los", VariableAccess<Short> @:14130 op:7,dt:7,nt:13,next:65535,str:25503,d0:33579,d1:65535;)))))
+            (____, Scope<Void> @:14131 op:408,dt:4,nt:8,next:65535,str:32834,d0:14132,d1:39592;
+                ("cs_grenade", Expression<MethodOrOperator> @:14132 op:408,dt:2,nt:9,next:14133,str:25530,d0:0,d1:0;
+                    ("w_path_turrets/p3", Expression<SpatialPoint> @:14133 op:28,dt:28,nt:9,next:14134,str:25541,d0:6,d1:5;
+                        (1, Expression<Short> @:14134 op:7,dt:7,nt:9,next:65535,str:32864,d0:1,d1:65535;)))))))

@@ -1,0 +1,32 @@
+
+("tower3_dock_above", MethodDecl<Void> @:179 check:0,op:0,dt:0,nt:65535,next:7491,nextCheck:32951,str:16973,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:7491 check:32951,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:20191,h:1,d0:7492,d1:32952;
+        ("begin", Expression<MethodOrOperator> @:7492 check:32952,op:0,dt:2,nt:9,next:7463,nextCheck:32923,str:142,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:7463 check:32923,op:21,dt:4,nt:8,next:7479,nextCheck:32939,str:20227,h:1,d0:7464,d1:32924;
+                ("sleep_until", Expression<MethodOrOperator> @:7464 check:32924,op:21,dt:2,nt:9,next:7465,nextCheck:32925,str:372,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:7465 check:32925,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:20244,h:1,d0:7466,d1:32926;
+                        ("or", Expression<MethodOrOperator> @:7466 check:32926,op:6,dt:2,nt:9,next:7467,nextCheck:32927,str:985,h:0,d0:0,d1:0;
+                            (____, Scope<Boolean> @:7467 check:32927,op:18,dt:5,nt:8,next:7473,nextCheck:32933,str:20252,h:1,d0:7468,d1:32928;
+                                ("<=", Expression<MethodOrOperator> @:7468 check:32928,op:18,dt:2,nt:9,next:7469,nextCheck:32929,str:12097,h:0,d0:0,d1:0;
+                                    (____, Scope<Short> @:7469 check:32929,op:327,dt:7,nt:8,next:7472,nextCheck:32932,str:20256,h:1,d0:7470,d1:32930;
+                                        ("ai_living_count", Expression<MethodOrOperator> @:7470 check:32930,op:327,dt:2,nt:9,next:7471,nextCheck:32931,str:10757,h:0,d0:0,d1:0;
+                                            ("tower3_dock_snipers", Expression<AI> @:7471 check:32931,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:16483,h:0,d0:44,d1:0;)))
+                                    (0, Expression<Short> @:7472 check:32932,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:20294,h:1,d0:0,d1:65535;)))
+                            (____, Scope<Boolean> @:7473 check:32933,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:20301,h:1,d0:7474,d1:32934;
+                                ("=", Expression<MethodOrOperator> @:7474 check:32934,op:13,dt:2,nt:9,next:7475,nextCheck:32935,str:437,h:0,d0:0,d1:0;
+                                    (-1.543884E-38f, Scope<Float> @:7475 check:32935,op:257,dt:6,nt:8,next:7478,nextCheck:32938,str:20304,h:1,d0:7476,d1:32936;
+                                        ("device_get_position", Expression<MethodOrOperator> @:7476 check:32936,op:257,dt:2,nt:9,next:7477,nextCheck:32937,str:13927,h:0,d0:0,d1:0;
+                                            ("gondola_01_a", Expression<Device> @:7477 check:32937,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:13947,h:0,d0:86,d1:65535;)))
+                                    (0f, Expression<Float> @:7478 check:32938,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:20339,h:1,d0:0,d1:0;)))))))
+            (____, Scope<Void> @:7479 check:32939,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:20353,h:1,d0:7480,d1:32940;
+                ("if", Expression<MethodOrOperator> @:7480 check:32940,op:2,dt:2,nt:9,next:7481,nextCheck:32941,str:597,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:7481 check:32941,op:15,dt:5,nt:8,next:7487,nextCheck:32947,str:20357,h:1,d0:7482,d1:32942;
+                        (">", Expression<MethodOrOperator> @:7482 check:32942,op:15,dt:2,nt:9,next:7483,nextCheck:32943,str:10389,h:0,d0:0,d1:0;
+                            (-1.6173535E-38f, Scope<Float> @:7483 check:32943,op:257,dt:6,nt:8,next:7486,nextCheck:32946,str:20360,h:1,d0:7484,d1:32944;
+                                ("device_get_position", Expression<MethodOrOperator> @:7484 check:32944,op:257,dt:2,nt:9,next:7485,nextCheck:32945,str:13927,h:0,d0:0,d1:0;
+                                    ("gondola_01_a", Expression<Device> @:7485 check:32945,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:13947,h:0,d0:86,d1:65535;)))
+                            (0f, Expression<Float> @:7486 check:32946,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:20395,h:1,d0:0,d1:0;)))
+                    (____, Scope<Void> @:7487 check:32947,op:291,dt:4,nt:8,next:65535,nextCheck:65535,str:20401,h:1,d0:7488,d1:32948;
+                        ("ai_place", Expression<MethodOrOperator> @:7488 check:32948,op:291,dt:2,nt:9,next:7489,nextCheck:32949,str:10226,h:0,d0:0,d1:0;
+                            ("tower3_dock_snipers", Expression<AI> @:7489 check:32949,op:19,dt:19,nt:9,next:7490,nextCheck:32950,str:16483,h:0,d0:44,d1:0;
+                                (2, Expression<Short> @:7490 check:32950,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:20431,h:1,d0:2,d1:65535;)))))))))

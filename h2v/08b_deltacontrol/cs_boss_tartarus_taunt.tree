@@ -1,0 +1,27 @@
+
+("cs_boss_tartarus_taunt", MethodDecl<Void> @:28 check:0,op:0,dt:0,nt:65535,next:905,nextCheck:59132,str:6367,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:905 check:59132,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:10013,h:0,d0:906,d1:59133;
+        ("begin", Expression<MethodOrOperator> @:906 check:59133,op:0,dt:2,nt:9,next:882,nextCheck:59109,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:882 check:59109,op:444,dt:4,nt:8,next:885,nextCheck:59112,str:10061,h:0,d0:883,d1:59110;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:883 check:59110,op:444,dt:2,nt:9,next:884,nextCheck:59111,str:1094,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:884 check:59111,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:10079,h:0,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:885 check:59112,op:442,dt:4,nt:8,next:888,nextCheck:59115,str:10084,h:0,d0:886,d1:59113;
+                ("cs_enable_targeting", Expression<MethodOrOperator> @:886 check:59113,op:442,dt:2,nt:9,next:887,nextCheck:59114,str:1222,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:887 check:59114,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:10105,h:0,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:888 check:59115,op:400,dt:4,nt:8,next:891,nextCheck:59118,str:10110,h:0,d0:889,d1:59116;
+                ("cs_face_player", Expression<MethodOrOperator> @:889 check:59116,op:400,dt:2,nt:9,next:890,nextCheck:59117,str:1207,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:890 check:59117,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:10126,h:0,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:891 check:59118,op:19,dt:4,nt:8,next:894,nextCheck:59121,str:10131,h:0,d0:892,d1:59119;
+                ("sleep", Expression<MethodOrOperator> @:892 check:59119,op:19,dt:2,nt:9,next:893,nextCheck:59120,str:85,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:893 check:59120,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:10138,h:0,d0:60,d1:65535;)))
+            (____, Scope<Void> @:894 check:59121,op:201,dt:4,nt:8,next:902,nextCheck:59129,str:10144,h:0,d0:895,d1:59122;
+                ("custom_animation", Expression<MethodOrOperator> @:895 check:59122,op:201,dt:2,nt:9,next:896,nextCheck:59123,str:1242,h:0,d0:0,d1:0;
+                    (____, Scope<Unit> @:896 check:59123,op:285,dt:51,nt:8,next:899,nextCheck:59126,str:10162,h:0,d0:897,d1:59124;
+                        ("ai_get_unit", Expression<MethodOrOperator> @:897 check:59124,op:285,dt:2,nt:9,next:898,nextCheck:59125,str:1259,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:898 check:59125,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:1271,h:0,d0:33564,d1:65535;)))
+                    ("objects\characters\brute\brute", Expression<Animation> @:899 check:59126,op:36,dt:36,nt:9,next:900,nextCheck:59127,str:1288,h:0,d0:2891,d1:60609;
+                        ("combat:rifle:taunt", Expression<StringId> @:900 check:59127,op:11,dt:11,nt:9,next:901,nextCheck:59128,str:1338,h:0,d0:6259,d1:4608;
+                            (True, Expression<Boolean> @:901 check:59128,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:10247,h:0,d0:65281,d1:65535;)))))
+            (____, Scope<Void> @:902 check:59129,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:10255,h:0,d0:903,d1:59130;
+                ("sleep", Expression<MethodOrOperator> @:903 check:59130,op:19,dt:2,nt:9,next:904,nextCheck:59131,str:85,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:904 check:59131,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:10262,h:0,d0:60,d1:65535;))))))

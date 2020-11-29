@@ -1,0 +1,41 @@
+
+("ice_cream_superman", MethodDecl<Void> @:134 op:0,dt:0,nt:65535,next:4264,str:27895,d0:0,d1:0;
+    (____, Scope<Void> @:4264 op:0,dt:4,nt:8,next:65535,str:51046,d0:4265,d1:62492;
+        ("begin", Expression<MethodOrOperator> @:4265 op:0,dt:2,nt:9,next:4227,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:4227 op:46,dt:4,nt:8,next:4230,str:51083,d0:4228,d1:62455;
+                ("object_create", Expression<MethodOrOperator> @:4228 op:46,dt:2,nt:9,next:4229,str:8818,d0:0,d1:0;
+                    ("ice_cream_head", Expression<EntityIdentifier> @:4229 op:56,dt:56,nt:9,next:65535,str:10556,d0:48,d1:65535;)))
+            (____, Scope<Void> @:4230 op:21,dt:4,nt:8,next:4249,str:51119,d0:4231,d1:62458;
+                ("sleep_until", Expression<MethodOrOperator> @:4231 op:21,dt:2,nt:9,next:4232,str:236,d0:0,d1:0;
+                    (____, Scope<Boolean> @:4232 op:6,dt:5,nt:8,next:4248,str:51136,d0:4233,d1:62460;
+                        ("or", Expression<MethodOrOperator> @:4233 op:6,dt:2,nt:9,next:4234,str:849,d0:0,d1:0;
+                            (____, Scope<Boolean> @:4234 op:242,dt:5,nt:8,next:4241,str:51157,d0:4235,d1:62462;
+                                ("unit_has_weapon", Expression<MethodOrOperator> @:4235 op:242,dt:2,nt:9,next:4236,str:10571,d0:0,d1:0;
+                                    (____, Scope<Unit> @:4236 op:24,dt:51,nt:8,next:4240,str:51174,d0:4237,d1:62464;
+                                        ("unit", Expression<MethodOrOperator> @:4237 op:24,dt:2,nt:9,next:4238,str:12,d0:0,d1:0;
+                                            ("player0", ScriptInvocation<Entity> @:4238 op:0,dt:50,nt:10,next:65535,str:51180,d0:4239,d1:62466;
+                                                ("player0", Expression<MethodOrOperator> @:4239 op:0,dt:2,nt:9,next:65535,str:607,d0:0,d1:0;))))
+                                    ("objects\weapons\multiplayer\ball\head_sp.weapon", Expression<TagReference> @:4240 op:38,dt:38,nt:9,next:65535,str:10587,d0:6721,d1:64439;)))
+                            (____, Scope<Boolean> @:4241 op:242,dt:5,nt:8,next:65535,str:51259,d0:4242,d1:62469;
+                                ("unit_has_weapon", Expression<MethodOrOperator> @:4242 op:242,dt:2,nt:9,next:4243,str:10571,d0:0,d1:0;
+                                    (____, Scope<Unit> @:4243 op:24,dt:51,nt:8,next:4247,str:51276,d0:4244,d1:62471;
+                                        ("unit", Expression<MethodOrOperator> @:4244 op:24,dt:2,nt:9,next:4245,str:12,d0:0,d1:0;
+                                            ("player1", ScriptInvocation<Entity> @:4245 op:1,dt:50,nt:10,next:65535,str:51282,d0:4246,d1:62473;
+                                                ("player1", Expression<MethodOrOperator> @:4246 op:1,dt:2,nt:9,next:65535,str:615,d0:0,d1:0;))))
+                                    ("objects\weapons\multiplayer\ball\head_sp.weapon", Expression<TagReference> @:4247 op:38,dt:38,nt:9,next:65535,str:10587,d0:6721,d1:64439;)))))
+                    (5, Expression<Short> @:4248 op:7,dt:7,nt:9,next:65535,str:51351,d0:5,d1:65535;)))
+            (____, Scope<Void> @:4249 op:2,dt:4,nt:8,next:4255,str:51359,d0:4250,d1:62477;
+                ("if", Expression<MethodOrOperator> @:4250 op:2,dt:2,nt:9,next:4251,str:461,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:4251 op:5,dt:5,nt:13,next:4252,str:10635,d0:3,d1:0;
+                        (____, Scope<Void> @:4252 op:27,dt:4,nt:8,next:65535,str:51369,d0:4253,d1:62480;
+                            ("print", Expression<MethodOrOperator> @:4253 op:27,dt:2,nt:9,next:4254,str:91,d0:0,d1:0;
+                                ("you're going to get fat!!!!! or dead...", Expression<String> @:4254 op:9,dt:9,nt:9,next:65535,str:10641,d0:10641,d1:0;))))))
+            (____, Scope<Void> @:4255 op:2,dt:4,nt:8,next:4261,str:51422,d0:4256,d1:62483;
+                ("if", Expression<MethodOrOperator> @:4256 op:2,dt:2,nt:9,next:4257,str:461,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:4257 op:5,dt:5,nt:13,next:4258,str:10635,d0:3,d1:0;
+                        (____, Scope<Void> @:4258 op:27,dt:4,nt:8,next:65535,str:51432,d0:4259,d1:62486;
+                            ("print", Expression<MethodOrOperator> @:4259 op:27,dt:2,nt:9,next:4260,str:91,d0:0,d1:0;
+                                ("because now everyone is superman!!!!", Expression<String> @:4260 op:9,dt:9,nt:9,next:65535,str:10681,d0:10681,d1:0;))))))
+            (____, Scope<Void> @:4261 op:872,dt:4,nt:8,next:65535,str:51482,d0:4262,d1:62489;
+                ("ice_cream_flavor_stock", Expression<MethodOrOperator> @:4262 op:872,dt:2,nt:9,next:4263,str:10718,d0:0,d1:0;
+                    (10, Expression<Int> @:4263 op:8,dt:8,nt:9,next:65535,str:51506,d0:10,d1:0;))))))

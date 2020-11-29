@@ -1,0 +1,17 @@
+
+("ship_take_off_03", MethodDecl<Void> @:103 check:0,op:0,dt:0,nt:65535,next:3164,nextCheck:61391,str:8813,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:3164 check:61391,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:38862,h:0,d0:3165,d1:61392;
+        ("begin", Expression<MethodOrOperator> @:3165 check:61392,op:0,dt:2,nt:9,next:3151,nextCheck:61378,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:3151 check:61378,op:676,dt:4,nt:8,next:3153,nextCheck:61380,str:38897,h:0,d0:3152,d1:61379;
+                ("time_code_reset", Expression<MethodOrOperator> @:3152 check:61379,op:676,dt:2,nt:9,next:65535,nextCheck:65535,str:1504,h:0,d0:0,d1:0;))
+            (____, Scope<Void> @:3153 check:61380,op:19,dt:4,nt:8,next:3156,nextCheck:61383,str:38917,h:0,d0:3154,d1:61381;
+                ("sleep", Expression<MethodOrOperator> @:3154 check:61381,op:19,dt:2,nt:9,next:3155,nextCheck:61382,str:80,h:0,d0:0,d1:0;
+                    (111, Expression<Short> @:3155 check:61382,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:38924,h:0,d0:111,d1:65535;)))
+            (____, Scope<Void> @:3156 check:61383,op:27,dt:4,nt:8,next:3159,nextCheck:61386,str:38931,h:0,d0:3157,d1:61384;
+                ("print", Expression<MethodOrOperator> @:3157 check:61384,op:27,dt:2,nt:9,next:3158,nextCheck:61385,str:86,h:0,d0:0,d1:0;
+                    ("effect - take off 02", Expression<String> @:3158 check:61385,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8591,h:0,d0:42415,d1:11039;)))
+            (____, Scope<Void> @:3159 check:61386,op:41,dt:4,nt:8,next:65535,nextCheck:65535,str:38964,h:0,d0:3160,d1:61387;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:3160 check:61387,op:41,dt:2,nt:9,next:3161,nextCheck:61388,str:3497,h:0,d0:0,d1:0;
+                    ("effects\objects\cinematics\forerunner_ship\initial_take_off_scale04", Expression<Effect> @:3161 check:61388,op:33,dt:33,nt:9,next:3162,nextCheck:61389,str:8680,h:0,d0:804,d1:58522;
+                        (4294901826, Expression<Entity> @:3162 check:61389,op:56,dt:50,nt:9,next:3163,nextCheck:61390,str:6285,h:0,d0:66,d1:65535;
+                            ("thruster", Expression<StringId> @:3163 check:61390,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:6301,h:0,d0:3730,d1:2048;))))))))

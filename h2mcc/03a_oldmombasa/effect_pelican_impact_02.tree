@@ -1,0 +1,19 @@
+
+("effect_pelican_impact_02", MethodDecl<Void> @:104 op:0,dt:0,nt:65535,next:3711,str:8756,d0:0,d1:0;
+    (____, Scope<Void> @:3711 op:0,dt:4,nt:8,next:65535,str:40903,d0:3712,d1:61939;
+        ("begin", Expression<MethodOrOperator> @:3712 op:0,dt:2,nt:9,next:3696,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:3696 op:19,dt:4,nt:8,next:3699,str:40948,d0:3697,d1:61924;
+                ("sleep", Expression<MethodOrOperator> @:3697 op:19,dt:2,nt:9,next:3698,str:143,d0:0,d1:0;
+                    (434, Expression<Short> @:3698 op:7,dt:7,nt:9,next:65535,str:40955,d0:434,d1:65535;)))
+            (____, Scope<Void> @:3699 op:27,dt:4,nt:8,next:3702,str:40962,d0:3700,d1:61927;
+                ("print", Expression<MethodOrOperator> @:3700 op:27,dt:2,nt:9,next:3701,str:149,d0:0,d1:0;
+                    ("pelican impact 2", Expression<String> @:3701 op:9,dt:9,nt:9,next:65535,str:8067,d0:8067,d1:0;)))
+            (____, Scope<Void> @:3702 op:41,dt:4,nt:8,next:3707,str:40991,d0:3703,d1:61930;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:3703 op:41,dt:2,nt:9,next:3704,str:7645,d0:0,d1:0;
+                    ("effects\generic\explosions_air\human_vehicle_air_hit", Expression<Effect> @:3704 op:33,dt:33,nt:9,next:3705,str:7904,d0:995,d1:58713;
+                        (4294901836, Expression<Entity> @:3705 op:56,dt:50,nt:9,next:3706,str:1473,d0:76,d1:65535;
+                            ("johnson", Expression<StringId> @:3706 op:11,dt:11,nt:9,next:65535,str:2043,d0:2444,d1:1792;)))))
+            (____, Scope<Void> @:3707 op:42,dt:4,nt:8,next:65535,str:41100,d0:3708,d1:61935;
+                ("damage_new", Expression<MethodOrOperator> @:3708 op:42,dt:2,nt:9,next:3709,str:8084,d0:0,d1:0;
+                    ("objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion", Expression<DamageEffect> @:3709 op:34,dt:34,nt:9,next:3710,str:8095,d0:1014,d1:58732;
+                        ("intro_junction_flag_01", Expression<LocationFlag> @:3710 op:14,dt:14,nt:9,next:65535,str:8170,d0:39,d1:0;)))))))

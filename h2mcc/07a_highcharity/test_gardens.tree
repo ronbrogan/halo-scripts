@@ -1,0 +1,45 @@
+
+("test_gardens", MethodDecl<Void> @:454 op:0,dt:0,nt:65535,next:26988,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:26988 op:0,dt:4,nt:8,next:65535,str:46388,d0:26989,d1:52449;
+        ("begin", Expression<MethodOrOperator> @:26989 op:0,dt:2,nt:9,next:26947,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:26947 op:552,dt:4,nt:8,next:26953,str:46423,d0:26948,d1:52408;
+                ("fade_out", Expression<MethodOrOperator> @:26948 op:552,dt:2,nt:9,next:26949,str:71,d0:0,d1:0;
+                    (0f, Expression<Float> @:26949 op:6,dt:6,nt:9,next:26950,str:46433,d0:0,d1:0;
+                        (0f, Expression<Float> @:26950 op:6,dt:6,nt:9,next:26951,str:46435,d0:0,d1:0;
+                            (0f, Expression<Float> @:26951 op:6,dt:6,nt:9,next:26952,str:46437,d0:0,d1:0;
+                                (0, Expression<Short> @:26952 op:7,dt:7,nt:9,next:65535,str:46439,d0:0,d1:65535;))))))
+            (____, Scope<Void> @:26953 op:19,dt:4,nt:8,next:26956,str:46444,d0:26954,d1:52414;
+                ("sleep", Expression<MethodOrOperator> @:26954 op:19,dt:2,nt:9,next:26955,str:80,d0:0,d1:0;
+                    (1, Expression<Short> @:26955 op:7,dt:7,nt:9,next:65535,str:46451,d0:1,d1:65535;)))
+            (____, Scope<Void> @:26956 op:473,dt:4,nt:8,next:26959,str:46456,d0:26957,d1:52417;
+                ("player_enable_input", Expression<MethodOrOperator> @:26957 op:473,dt:2,nt:9,next:26958,str:471,d0:0,d1:0;
+                    (False, Expression<Boolean> @:26958 op:5,dt:5,nt:9,next:65535,str:46477,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:26959 op:27,dt:4,nt:8,next:26962,str:46486,d0:26960,d1:52420;
+                ("print", Expression<MethodOrOperator> @:26960 op:27,dt:2,nt:9,next:26961,str:86,d0:0,d1:0;
+                    ("switching bsp...", Expression<String> @:26961 op:9,dt:9,nt:9,next:65535,str:48380,d0:48380,d1:0;)))
+            (____, Scope<Void> @:26962 op:19,dt:4,nt:8,next:26965,str:46515,d0:26963,d1:52423;
+                ("sleep", Expression<MethodOrOperator> @:26963 op:19,dt:2,nt:9,next:26964,str:80,d0:0,d1:0;
+                    (15, Expression<Short> @:26964 op:7,dt:7,nt:9,next:65535,str:46522,d0:15,d1:65535;)))
+            (____, Scope<Void> @:26965 op:507,dt:4,nt:8,next:26968,str:46528,d0:26966,d1:52426;
+                ("switch_bsp", Expression<MethodOrOperator> @:26966 op:507,dt:2,nt:9,next:26967,str:44248,d0:0,d1:0;
+                    (3, Expression<Short> @:26967 op:7,dt:7,nt:9,next:65535,str:46540,d0:3,d1:65535;)))
+            (____, Scope<Void> @:26968 op:27,dt:4,nt:8,next:26971,str:46545,d0:26969,d1:52429;
+                ("print", Expression<MethodOrOperator> @:26969 op:27,dt:2,nt:9,next:26970,str:86,d0:0,d1:0;
+                    ("teleporting players...", Expression<String> @:26970 op:9,dt:9,nt:9,next:65535,str:48397,d0:48397,d1:0;)))
+            (____, Scope<Void> @:26971 op:105,dt:4,nt:8,next:26976,str:46580,d0:26972,d1:52432;
+                ("object_teleport", Expression<MethodOrOperator> @:26972 op:105,dt:2,nt:9,next:26973,str:44300,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:26973 op:0,dt:50,nt:10,next:26975,str:46597,d0:26974,d1:52434;
+                        ("player0", Expression<MethodOrOperator> @:26974 op:0,dt:2,nt:9,next:65535,str:602,d0:0,d1:0;))
+                    ("garden", Expression<LocationFlag> @:26975 op:14,dt:14,nt:9,next:65535,str:48474,d0:2,d1:0;)))
+            (____, Scope<Void> @:26976 op:551,dt:4,nt:8,next:26982,str:46662,d0:26977,d1:52437;
+                ("fade_in", Expression<MethodOrOperator> @:26977 op:551,dt:2,nt:9,next:26978,str:547,d0:0,d1:0;
+                    (0f, Expression<Float> @:26978 op:6,dt:6,nt:9,next:26979,str:46671,d0:0,d1:0;
+                        (0f, Expression<Float> @:26979 op:6,dt:6,nt:9,next:26980,str:46673,d0:0,d1:0;
+                            (0f, Expression<Float> @:26980 op:6,dt:6,nt:9,next:26981,str:46675,d0:0,d1:0;
+                                (60, Expression<Short> @:26981 op:7,dt:7,nt:9,next:65535,str:46677,d0:60,d1:65535;))))))
+            (____, Scope<Void> @:26982 op:19,dt:4,nt:8,next:26985,str:46809,d0:26983,d1:52443;
+                ("sleep", Expression<MethodOrOperator> @:26983 op:19,dt:2,nt:9,next:26984,str:80,d0:0,d1:0;
+                    (10, Expression<Short> @:26984 op:7,dt:7,nt:9,next:65535,str:46816,d0:10,d1:65535;)))
+            (____, Scope<Void> @:26985 op:473,dt:4,nt:8,next:65535,str:46822,d0:26986,d1:52446;
+                ("player_enable_input", Expression<MethodOrOperator> @:26986 op:473,dt:2,nt:9,next:26987,str:471,d0:0,d1:0;
+                    (True, Expression<Boolean> @:26987 op:5,dt:5,nt:9,next:65535,str:46843,d0:65281,d1:65535;))))))

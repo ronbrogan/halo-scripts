@@ -1,0 +1,28 @@
+
+("cs_e12_pro_inf0_berserker", MethodDecl<Void> @:348 check:0,op:0,dt:0,nt:65535,next:11856,nextCheck:37316,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:11856 check:37316,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9156,h:2,d0:11857,d1:37317;
+        ("begin", Expression<MethodOrOperator> @:11857 check:37317,op:0,dt:2,nt:9,next:11832,nextCheck:37292,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:11832 check:37292,op:444,dt:4,nt:8,next:11835,nextCheck:37295,str:9207,h:2,d0:11833,d1:37293;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:11833 check:37293,op:444,dt:2,nt:9,next:11834,nextCheck:37294,str:1094,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11834 check:37294,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9225,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:11835 check:37295,op:442,dt:4,nt:8,next:11838,nextCheck:37298,str:9233,h:2,d0:11836,d1:37296;
+                ("cs_enable_targeting", Expression<MethodOrOperator> @:11836 check:37296,op:442,dt:2,nt:9,next:11837,nextCheck:37297,str:1222,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11837 check:37297,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9254,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:11838 check:37298,op:21,dt:4,nt:8,next:11846,nextCheck:37306,str:9262,h:2,d0:11839,d1:37299;
+                ("sleep_until", Expression<MethodOrOperator> @:11839 check:37299,op:21,dt:2,nt:9,next:11840,nextCheck:37300,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:11840 check:37300,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:9275,h:2,d0:11841,d1:37301;
+                        (">", Expression<MethodOrOperator> @:11841 check:37301,op:15,dt:2,nt:9,next:11842,nextCheck:37302,str:2516,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:11842 check:37302,op:353,dt:7,nt:8,next:11845,nextCheck:37305,str:9278,h:2,d0:11843,d1:37303;
+                                ("ai_combat_status", Expression<MethodOrOperator> @:11843 check:37303,op:353,dt:2,nt:9,next:11844,nextCheck:37304,str:27103,h:0,d0:0,d1:0;
+                                    ("ai_current_actor", VariableAccess<AI> @:11844 check:37304,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:1271,h:0,d0:33564,d1:65535;)))
+                            ("ai_combat_status_active", VariableAccess<Short> @:11845 check:37305,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:27120,h:0,d0:33574,d1:65535;)))))
+            (____, Scope<Void> @:11846 check:37306,op:19,dt:4,nt:8,next:11852,nextCheck:37312,str:9342,h:2,d0:11847,d1:37307;
+                ("sleep", Expression<MethodOrOperator> @:11847 check:37307,op:19,dt:2,nt:9,next:11848,nextCheck:37308,str:85,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:11848 check:37308,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:9349,h:2,d0:11849,d1:37309;
+                        ("random_range", Expression<MethodOrOperator> @:11849 check:37309,op:124,dt:2,nt:9,next:11850,nextCheck:37310,str:4910,h:0,d0:0,d1:0;
+                            (0, Expression<Short> @:11850 check:37310,op:7,dt:7,nt:9,next:11851,nextCheck:37311,str:9363,h:2,d0:0,d1:65535;
+                                (30, Expression<Short> @:11851 check:37311,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:9365,h:2,d0:30,d1:65535;))))))
+            (____, Scope<Void> @:11852 check:37312,op:322,dt:4,nt:8,next:65535,nextCheck:65535,str:9372,h:2,d0:11853,d1:37313;
+                ("ai_berserk", Expression<MethodOrOperator> @:11853 check:37313,op:322,dt:2,nt:9,next:11854,nextCheck:37314,str:5026,h:0,d0:0,d1:0;
+                    ("ai_current_actor", VariableAccess<AI> @:11854 check:37314,op:19,dt:19,nt:13,next:11855,nextCheck:37315,str:1271,h:0,d0:33564,d1:65535;
+                        (True, Expression<Boolean> @:11855 check:37315,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9401,h:2,d0:65281,d1:65535;)))))))

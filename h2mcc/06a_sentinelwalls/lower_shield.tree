@@ -1,0 +1,38 @@
+
+("lower_shield", MethodDecl<Void> @:269 op:0,dt:0,nt:65535,next:11997,str:21675,d0:0,d1:0;
+    (____, Scope<Void> @:11997 op:0,dt:4,nt:8,next:65535,str:57700,d0:11998,d1:37458;
+        ("begin", Expression<MethodOrOperator> @:11998 op:0,dt:2,nt:9,next:11963,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:11963 op:2,dt:4,nt:8,next:11969,str:57731,d0:11964,d1:37424;
+                ("if", Expression<MethodOrOperator> @:11964 op:2,dt:2,nt:9,next:11965,str:456,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:11965 op:5,dt:5,nt:13,next:11966,str:11238,d0:3,d1:0;
+                        (____, Scope<Void> @:11966 op:27,dt:4,nt:8,next:65535,str:57741,d0:11967,d1:37427;
+                            ("print", Expression<MethodOrOperator> @:11967 op:27,dt:2,nt:9,next:11968,str:86,d0:0,d1:0;
+                                ("containment-field created", Expression<String> @:11968 op:9,dt:9,nt:9,next:65535,str:21471,d0:21471,d1:0;))))))
+            (____, Scope<Void> @:11969 op:46,dt:4,nt:8,next:11972,str:57780,d0:11970,d1:37430;
+                ("object_create", Expression<MethodOrOperator> @:11970 op:46,dt:2,nt:9,next:11971,str:11145,d0:0,d1:0;
+                    ("containment_field", Expression<EntityIdentifier> @:11971 op:56,dt:56,nt:9,next:65535,str:21497,d0:441,d1:65535;)))
+            (____, Scope<Void> @:11972 op:21,dt:4,nt:8,next:11976,str:57818,d0:11973,d1:37433;
+                ("sleep_until", Expression<MethodOrOperator> @:11973 op:21,dt:2,nt:9,next:11974,str:231,d0:0,d1:0;
+                    ("g_lower_shield", VariableAccess<Boolean> @:11974 op:5,dt:5,nt:13,next:11975,str:21515,d0:73,d1:0;
+                        (5, Expression<Short> @:11975 op:7,dt:7,nt:9,next:65535,str:57846,d0:5,d1:65535;))))
+            (____, Scope<Void> @:11976 op:2,dt:4,nt:8,next:11982,str:57851,d0:11977,d1:37437;
+                ("if", Expression<MethodOrOperator> @:11977 op:2,dt:2,nt:9,next:11978,str:456,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:11978 op:5,dt:5,nt:13,next:11979,str:11238,d0:3,d1:0;
+                        (____, Scope<Void> @:11979 op:27,dt:4,nt:8,next:65535,str:57861,d0:11980,d1:37440;
+                            ("print", Expression<MethodOrOperator> @:11980 op:27,dt:2,nt:9,next:11981,str:86,d0:0,d1:0;
+                                ("lowering the containment-shield", Expression<String> @:11981 op:9,dt:9,nt:9,next:65535,str:21530,d0:21530,d1:0;))))))
+            (____, Scope<Void> @:11982 op:256,dt:4,nt:8,next:11986,str:57906,d0:11983,d1:37443;
+                ("device_set_position", Expression<MethodOrOperator> @:11983 op:256,dt:2,nt:9,next:11984,str:3798,d0:0,d1:0;
+                    ("containment_field", Expression<Device> @:11984 op:60,dt:54,nt:9,next:11985,str:21497,d0:441,d1:65535;
+                        (1f, Expression<Float> @:11985 op:6,dt:6,nt:9,next:65535,str:57945,d0:0,d1:16256;))))
+            (____, Scope<Void> @:11986 op:21,dt:4,nt:8,next:11994,str:57953,d0:11987,d1:37447;
+                ("sleep_until", Expression<MethodOrOperator> @:11987 op:21,dt:2,nt:9,next:11988,str:231,d0:0,d1:0;
+                    (____, Scope<Boolean> @:11988 op:17,dt:5,nt:8,next:65535,str:57966,d0:11989,d1:37449;
+                        (">=", Expression<MethodOrOperator> @:11989 op:17,dt:2,nt:9,next:11990,str:671,d0:0,d1:0;
+                            (-6.411324E-28f, Scope<Float> @:11990 op:257,dt:6,nt:8,next:11993,str:57970,d0:11991,d1:37451;
+                                ("device_get_position", Expression<MethodOrOperator> @:11991 op:257,dt:2,nt:9,next:11992,str:17252,d0:0,d1:0;
+                                    ("containment_field", Expression<Device> @:11992 op:60,dt:54,nt:9,next:65535,str:21497,d0:441,d1:65535;)))
+                            (1f, Expression<Float> @:11993 op:6,dt:6,nt:9,next:65535,str:58010,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:11994 op:52,dt:4,nt:8,next:65535,str:58016,d0:11995,d1:37455;
+                ("object_destroy", Expression<MethodOrOperator> @:11995 op:52,dt:2,nt:9,next:11996,str:2551,d0:0,d1:0;
+                    (4294902201, Expression<Entity> @:11996 op:56,dt:50,nt:9,next:65535,str:21497,d0:441,d1:65535;))))))

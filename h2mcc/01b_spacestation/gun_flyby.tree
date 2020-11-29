@@ -1,0 +1,36 @@
+
+("gun_flyby", MethodDecl<Void> @:380 op:0,dt:0,nt:65535,next:18123,str:42197,d0:0,d1:0;
+    (____, Scope<Void> @:18123 op:0,dt:4,nt:8,next:65535,str:25654,d0:18124,d1:43584;
+        ("begin", Expression<MethodOrOperator> @:18124 op:0,dt:2,nt:9,next:18091,str:11,d0:0,d1:0;
+            (____, Scope<Void> @:18091 op:46,dt:4,nt:8,next:18094,str:25682,d0:18092,d1:43552;
+                ("object_create", Expression<MethodOrOperator> @:18092 op:46,dt:2,nt:9,next:18093,str:6884,d0:0,d1:0;
+                    ("carrier_02", Expression<EntityIdentifier> @:18093 op:56,dt:56,nt:9,next:65535,str:23478,d0:3,d1:65535;)))
+            (____, Scope<Void> @:18094 op:186,dt:4,nt:8,next:18100,str:25711,d0:18095,d1:43555;
+                ("scenery_animation_start_relative", Expression<MethodOrOperator> @:18095 op:186,dt:2,nt:9,next:18096,str:3763,d0:0,d1:0;
+                    ("carrier_02", Expression<Scenery> @:18096 op:61,dt:55,nt:9,next:18097,str:23478,d0:3,d1:65535;
+                        ("scenarios\objects\covenant\military\capital_ship\spacestation\spacestation", Expression<Animation> @:18097 op:36,dt:36,nt:9,next:18098,str:40780,d0:4871,d1:62759;
+                            ("capital_ship_02", Expression<StringId> @:18098 op:11,dt:11,nt:9,next:18099,str:42137,d0:10049,d1:3840;
+                                (4294901784, Expression<Entity> @:18099 op:56,dt:50,nt:9,next:65535,str:18832,d0:24,d1:65535;))))))
+            (____, Scope<Void> @:18100 op:41,dt:4,nt:8,next:18105,str:25866,d0:18101,d1:43561;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:18101 op:41,dt:2,nt:9,next:18102,str:7901,d0:0,d1:0;
+                    ("effects\scenery\solids\human_fleet_ships_attack_carrier", Expression<Effect> @:18102 op:33,dt:33,nt:9,next:18103,str:40720,d0:4860,d1:62748;
+                        (4294901763, Expression<Entity> @:18103 op:56,dt:50,nt:9,next:18104,str:23478,d0:3,d1:65535;
+                            ("bow", Expression<StringId> @:18104 op:11,dt:11,nt:9,next:65535,str:40776,d0:10443,d1:768;)))))
+            (____, Scope<Void> @:18105 op:19,dt:4,nt:8,next:18108,str:25969,d0:18106,d1:43566;
+                ("sleep", Expression<MethodOrOperator> @:18106 op:19,dt:2,nt:9,next:18107,str:90,d0:0,d1:0;
+                    (330, Expression<Short> @:18107 op:7,dt:7,nt:9,next:65535,str:25976,d0:330,d1:65535;)))
+            (____, Scope<Void> @:18108 op:45,dt:4,nt:8,next:18111,str:25983,d0:18109,d1:43569;
+                ("damage_players", Expression<MethodOrOperator> @:18109 op:45,dt:2,nt:9,next:18110,str:31170,d0:0,d1:0;
+                    ("effects\damage_effects\carrier_flyby", Expression<DamageEffect> @:18110 op:34,dt:34,nt:9,next:65535,str:40937,d0:4874,d1:62762;)))
+            (____, Scope<Void> @:18111 op:21,dt:4,nt:8,next:18120,str:26042,d0:18112,d1:43572;
+                ("sleep_until", Expression<MethodOrOperator> @:18112 op:21,dt:2,nt:9,next:18113,str:241,d0:0,d1:0;
+                    (____, Scope<Boolean> @:18113 op:13,dt:5,nt:8,next:18119,str:26055,d0:18114,d1:43574;
+                        ("=", Expression<MethodOrOperator> @:18114 op:13,dt:2,nt:9,next:18115,str:306,d0:0,d1:0;
+                            (____, Scope<Short> @:18115 op:190,dt:7,nt:8,next:18118,str:26058,d0:18116,d1:43576;
+                                ("scenery_get_animation_time", Expression<MethodOrOperator> @:18116 op:190,dt:2,nt:9,next:18117,str:40974,d0:0,d1:0;
+                                    ("carrier_02", Expression<Scenery> @:18117 op:61,dt:55,nt:9,next:65535,str:23478,d0:3,d1:65535;)))
+                            (0, Expression<Short> @:18118 op:7,dt:7,nt:9,next:65535,str:26098,d0:0,d1:65535;)))
+                    (1, Expression<Short> @:18119 op:7,dt:7,nt:9,next:65535,str:26101,d0:1,d1:65535;)))
+            (____, Scope<Void> @:18120 op:52,dt:4,nt:8,next:65535,str:26106,d0:18121,d1:43581;
+                ("object_destroy", Expression<MethodOrOperator> @:18121 op:52,dt:2,nt:9,next:18122,str:2937,d0:0,d1:0;
+                    (4294901763, Expression<Entity> @:18122 op:56,dt:50,nt:9,next:65535,str:23478,d0:3,d1:65535;))))))

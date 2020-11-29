@@ -1,0 +1,31 @@
+
+("bridge_cortana_response", MethodDecl<Void> @:242 check:0,op:0,dt:0,nt:65535,next:10989,nextCheck:36449,str:21311,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:10989 check:36449,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:64461,h:1,d0:10990,d1:36450;
+        ("begin", Expression<MethodOrOperator> @:10990 check:36450,op:0,dt:2,nt:9,next:10962,nextCheck:36422,str:54,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:10962 check:36422,op:281,dt:4,nt:8,next:10965,nextCheck:36425,str:64503,h:1,d0:10963,d1:36423;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:10963 check:36423,op:281,dt:2,nt:9,next:10964,nextCheck:36424,str:15090,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:10964 check:36424,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:64523,h:1,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:10965 check:36425,op:19,dt:4,nt:8,next:10968,nextCheck:36428,str:64532,h:1,d0:10966,d1:36426;
+                ("sleep", Expression<MethodOrOperator> @:10966 check:36426,op:19,dt:2,nt:9,next:10967,nextCheck:36427,str:133,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:10967 check:36427,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:64539,h:1,d0:60,d1:65535;)))
+            (____, Scope<Void> @:10968 check:36428,op:27,dt:4,nt:8,next:10971,nextCheck:36431,str:64545,h:1,d0:10969,d1:36429;
+                ("print", Expression<MethodOrOperator> @:10969 check:36429,op:27,dt:2,nt:9,next:10970,nextCheck:36430,str:139,h:0,d0:0,d1:0;
+                    ("cortana: 'a sermon, actually.  i've been listening to him since we landed.'", Expression<String> @:10970 check:36430,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:20988,h:0,d0:32364,d1:12768;)))
+            (____, Scope<Void> @:10971 check:36431,op:27,dt:4,nt:8,next:10974,nextCheck:36434,str:64633,h:1,d0:10972,d1:36432;
+                ("print", Expression<MethodOrOperator> @:10972 check:36432,op:27,dt:2,nt:9,next:10973,nextCheck:36433,str:139,h:0,d0:0,d1:0;
+                    ("cortana: 'so far it's the standard covenant liturgy,'", Expression<String> @:10973 check:36433,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:21064,h:0,d0:32440,d1:12768;)))
+            (____, Scope<Void> @:10974 check:36434,op:27,dt:4,nt:8,next:10977,nextCheck:36437,str:64699,h:1,d0:10975,d1:36435;
+                ("print", Expression<MethodOrOperator> @:10975 check:36435,op:27,dt:2,nt:9,next:10976,nextCheck:36436,str:139,h:0,d0:0,d1:0;
+                    ("cortana: 'but i'll translate if he says anything interesting.'", Expression<String> @:10976 check:36436,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:21118,h:0,d0:32494,d1:12768;)))
+            (____, Scope<Void> @:10977 check:36437,op:19,dt:4,nt:8,next:10983,nextCheck:36443,str:64774,h:1,d0:10978,d1:36438;
+                ("sleep", Expression<MethodOrOperator> @:10978 check:36438,op:19,dt:2,nt:9,next:10979,nextCheck:36439,str:133,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:10979 check:36439,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:64781,h:1,d0:10980,d1:36440;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:10980 check:36440,op:362,dt:2,nt:9,next:10981,nextCheck:36441,str:15182,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:10981 check:36441,op:50,dt:50,nt:9,next:10982,nextCheck:36442,str:1392,h:0,d0:65535,d1:65535;
+                                ("0080", Expression<StringId> @:10982 check:36442,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:21181,h:0,d0:9692,d1:1024;))))))
+            (____, Scope<Void> @:10983 check:36443,op:19,dt:4,nt:8,next:10986,nextCheck:36446,str:64916,h:1,d0:10984,d1:36444;
+                ("sleep", Expression<MethodOrOperator> @:10984 check:36444,op:19,dt:2,nt:9,next:10985,nextCheck:36445,str:133,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:10985 check:36445,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:64923,h:1,d0:30,d1:65535;)))
+            (____, Scope<Void> @:10986 check:36446,op:281,dt:4,nt:8,next:65535,nextCheck:65535,str:64929,h:1,d0:10987,d1:36447;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:10987 check:36447,op:281,dt:2,nt:9,next:10988,nextCheck:36448,str:15090,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10988 check:36448,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:64949,h:1,d0:65281,d1:65535;))))))

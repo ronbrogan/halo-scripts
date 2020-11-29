@@ -1,0 +1,47 @@
+
+("regret_beam_comment", MethodDecl<Void> @:269 op:0,dt:0,nt:65535,next:17454,str:32295,d0:0,d1:0;
+    (____, Scope<Void> @:17454 op:0,dt:4,nt:8,next:65535,str:56063,d0:17455,d1:42915;
+        ("begin", Expression<MethodOrOperator> @:17455 op:0,dt:2,nt:9,next:17411,str:142,d0:0,d1:0;
+            (____, Scope<Void> @:17411 op:21,dt:4,nt:8,next:17419,str:56101,d0:17412,d1:42872;
+                ("sleep_until", Expression<MethodOrOperator> @:17412 op:21,dt:2,nt:9,next:17413,str:372,d0:0,d1:0;
+                    (____, Scope<Boolean> @:17413 op:17,dt:5,nt:8,next:65535,str:56114,d0:17414,d1:42874;
+                        (">=", Expression<MethodOrOperator> @:17414 op:17,dt:2,nt:9,next:17415,str:812,d0:0,d1:0;
+                            (____, Scope<Short> @:17415 op:353,dt:7,nt:8,next:17418,str:56118,d0:17416,d1:42876;
+                                ("ai_combat_status", Expression<MethodOrOperator> @:17416 op:353,dt:2,nt:9,next:17417,str:19933,d0:0,d1:0;
+                                    ("regret", Expression<AI> @:17417 op:19,dt:19,nt:9,next:65535,str:2055,d0:137,d1:0;)))
+                            ("ai_combat_status_clear_los", VariableAccess<Short> @:17418 op:7,dt:7,nt:13,next:65535,str:29380,d0:33579,d1:65535;)))))
+            (____, Scope<Void> @:17419 op:21,dt:4,nt:8,next:17425,str:56175,d0:17420,d1:42880;
+                ("sleep_until", Expression<MethodOrOperator> @:17420 op:21,dt:2,nt:9,next:17421,str:372,d0:0,d1:0;
+                    (____, Scope<Boolean> @:17421 op:13,dt:5,nt:8,next:65535,str:56188,d0:17422,d1:42882;
+                        ("=", Expression<MethodOrOperator> @:17422 op:13,dt:2,nt:9,next:17423,str:437,d0:0,d1:0;
+                            ("bossfight_chatter", VariableAccess<Boolean> @:17423 op:0,dt:5,nt:13,next:17424,str:28336,d0:25,d1:0;
+                                (True, Expression<Boolean> @:17424 op:5,dt:5,nt:9,next:65535,str:56209,d0:65281,d1:65535;))))))
+            (____, Scope<Void> @:17425 op:4,dt:4,nt:8,next:17429,str:56218,d0:17426,d1:42886;
+                ("set", Expression<MethodOrOperator> @:17426 op:4,dt:2,nt:9,next:17427,str:2971,d0:0,d1:0;
+                    ("bossfight_chatter", VariableAccess<Boolean> @:17427 op:65535,dt:5,nt:13,next:17428,str:28336,d0:25,d1:0;
+                        (False, Expression<Boolean> @:17428 op:5,dt:5,nt:9,next:65535,str:56241,d0:65280,d1:65535;))))
+            (____, Scope<Void> @:17429 op:281,dt:4,nt:8,next:17432,str:56250,d0:17430,d1:42890;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:17430 op:281,dt:2,nt:9,next:17431,str:10448,d0:0,d1:0;
+                    (False, Expression<Boolean> @:17431 op:5,dt:5,nt:9,next:65535,str:56270,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:17432 op:19,dt:4,nt:8,next:17435,str:56279,d0:17433,d1:42893;
+                ("sleep", Expression<MethodOrOperator> @:17433 op:19,dt:2,nt:9,next:17434,str:221,d0:0,d1:0;
+                    (60, Expression<Short> @:17434 op:7,dt:7,nt:9,next:65535,str:56286,d0:60,d1:65535;)))
+            (____, Scope<Void> @:17435 op:27,dt:4,nt:8,next:17438,str:56292,d0:17436,d1:42896;
+                ("print", Expression<MethodOrOperator> @:17436 op:27,dt:2,nt:9,next:17437,str:227,d0:0,d1:0;
+                    ("cortana: 'keep clear of that beam! i don't think you'll survive a direct hit!'", Expression<String> @:17437 op:9,dt:9,nt:9,next:65535,str:29407,d0:29407,d1:0;)))
+            (____, Scope<Void> @:17438 op:19,dt:4,nt:8,next:17444,str:56383,d0:17439,d1:42899;
+                ("sleep", Expression<MethodOrOperator> @:17439 op:19,dt:2,nt:9,next:17440,str:221,d0:0,d1:0;
+                    (____, Scope<Short> @:17440 op:362,dt:7,nt:8,next:65535,str:56390,d0:17441,d1:42901;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:17441 op:362,dt:2,nt:9,next:17442,str:10115,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:17442 op:50,dt:50,nt:9,next:17443,str:52,d0:65535,d1:65535;
+                                ("1270", Expression<StringId> @:17443 op:11,dt:11,nt:9,next:65535,str:29486,d0:12514,d1:1024;))))))
+            (____, Scope<Void> @:17444 op:19,dt:4,nt:8,next:17447,str:56516,d0:17445,d1:42905;
+                ("sleep", Expression<MethodOrOperator> @:17445 op:19,dt:2,nt:9,next:17446,str:221,d0:0,d1:0;
+                    (30, Expression<Short> @:17446 op:7,dt:7,nt:9,next:65535,str:56523,d0:30,d1:65535;)))
+            (____, Scope<Void> @:17447 op:281,dt:4,nt:8,next:17450,str:56529,d0:17448,d1:42908;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:17448 op:281,dt:2,nt:9,next:17449,str:10448,d0:0,d1:0;
+                    (True, Expression<Boolean> @:17449 op:5,dt:5,nt:9,next:65535,str:56549,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:17450 op:4,dt:4,nt:8,next:65535,str:56557,d0:17451,d1:42911;
+                ("set", Expression<MethodOrOperator> @:17451 op:4,dt:2,nt:9,next:17452,str:2971,d0:0,d1:0;
+                    ("bossfight_chatter", VariableAccess<Boolean> @:17452 op:65535,dt:5,nt:13,next:17453,str:28336,d0:25,d1:0;
+                        (True, Expression<Boolean> @:17453 op:5,dt:5,nt:9,next:65535,str:56580,d0:65281,d1:65535;)))))))

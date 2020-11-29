@@ -1,0 +1,19 @@
+
+("c03_intro_shake_01_3", MethodDecl<Void> @:44 op:0,dt:0,nt:65535,next:1156,str:3171,d0:0,d1:0;
+    (____, Scope<Void> @:1156 op:0,dt:4,nt:8,next:65535,str:12907,d0:1157,d1:59384;
+        ("begin", Expression<MethodOrOperator> @:1157 op:0,dt:2,nt:9,next:1141,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:1141 op:19,dt:4,nt:8,next:1144,str:12946,d0:1142,d1:59369;
+                ("sleep", Expression<MethodOrOperator> @:1142 op:19,dt:2,nt:9,next:1143,str:143,d0:0,d1:0;
+                    (560, Expression<Short> @:1143 op:7,dt:7,nt:9,next:65535,str:12953,d0:560,d1:65535;)))
+            (____, Scope<Void> @:1144 op:27,dt:4,nt:8,next:1147,str:12960,d0:1145,d1:59372;
+                ("print", Expression<MethodOrOperator> @:1145 op:27,dt:2,nt:9,next:1146,str:149,d0:0,d1:0;
+                    ("shake", Expression<String> @:1146 op:9,dt:9,nt:9,next:65535,str:2147,d0:2147,d1:0;)))
+            (____, Scope<Void> @:1147 op:653,dt:4,nt:8,next:1152,str:12978,d0:1148,d1:59375;
+                ("player_effect_set_max_rotation", Expression<MethodOrOperator> @:1148 op:653,dt:2,nt:9,next:1149,str:2153,d0:0,d1:0;
+                    (0f, Expression<Float> @:1149 op:6,dt:6,nt:9,next:1150,str:13010,d0:0,d1:0;
+                        (1f, Expression<Float> @:1150 op:6,dt:6,nt:9,next:1151,str:13012,d0:0,d1:16256;
+                            (1f, Expression<Float> @:1151 op:6,dt:6,nt:9,next:65535,str:13014,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:1152 op:655,dt:4,nt:8,next:65535,str:13019,d0:1153,d1:59380;
+                ("player_effect_start", Expression<MethodOrOperator> @:1153 op:655,dt:2,nt:9,next:1154,str:2184,d0:0,d1:0;
+                    (0.25f, Expression<Float> @:1154 op:6,dt:6,nt:9,next:1155,str:13040,d0:0,d1:16000;
+                        (0f, Expression<Float> @:1155 op:6,dt:6,nt:9,next:65535,str:13044,d0:0,d1:0;)))))))

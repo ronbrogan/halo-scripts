@@ -1,0 +1,36 @@
+
+("hangar_door_monitor", MethodDecl<Void> @:298 check:0,op:0,dt:0,nt:65535,next:12163,nextCheck:37623,str:25957,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:12163 check:37623,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9247,h:2,d0:12164,d1:37624;
+        ("begin", Expression<MethodOrOperator> @:12164 check:37624,op:0,dt:2,nt:9,next:12131,nextCheck:37591,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:12131 check:37591,op:21,dt:4,nt:8,next:12139,nextCheck:37599,str:9285,h:2,d0:12132,d1:37592;
+                ("sleep_until", Expression<MethodOrOperator> @:12132 check:37592,op:21,dt:2,nt:9,next:12133,nextCheck:37593,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:12133 check:37593,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:9298,h:2,d0:12134,d1:37594;
+                        (">", Expression<MethodOrOperator> @:12134 check:37594,op:15,dt:2,nt:9,next:12135,nextCheck:37595,str:14879,h:0,d0:0,d1:0;
+                            (-1.3895638E-27f, Scope<Float> @:12135 check:37595,op:257,dt:6,nt:8,next:12138,nextCheck:37598,str:9301,h:2,d0:12136,d1:37596;
+                                ("device_get_position", Expression<MethodOrOperator> @:12136 check:37596,op:257,dt:2,nt:9,next:12137,nextCheck:37597,str:18171,h:0,d0:0,d1:0;
+                                    ("hangar_door_cinematic", Expression<Device> @:12137 check:37597,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:23941,h:0,d0:242,d1:65535;)))
+                            (0f, Expression<Float> @:12138 check:37598,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:9345,h:2,d0:0,d1:0;)))))
+            (____, Scope<Void> @:12139 check:37599,op:22,dt:4,nt:8,next:12142,nextCheck:37602,str:9351,h:2,d0:12140,d1:37600;
+                ("wake", Expression<MethodOrOperator> @:12140 check:37600,op:22,dt:2,nt:9,next:12141,nextCheck:37601,str:1071,h:0,d0:0,d1:0;
+                    ("hangar_allies_reinforce", Expression<ScriptReference> @:12141 check:37601,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:23963,h:0,d0:296,d1:65535;)))
+            (____, Scope<Void> @:12142 check:37602,op:281,dt:4,nt:8,next:12145,nextCheck:37605,str:9384,h:2,d0:12143,d1:37603;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:12143 check:37603,op:281,dt:2,nt:9,next:12144,nextCheck:37604,str:17551,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:12144 check:37604,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9404,h:2,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:12145 check:37605,op:19,dt:4,nt:8,next:12148,nextCheck:37608,str:9413,h:2,d0:12146,d1:37606;
+                ("sleep", Expression<MethodOrOperator> @:12146 check:37606,op:19,dt:2,nt:9,next:12147,nextCheck:37607,str:85,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:12147 check:37607,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:9420,h:2,d0:60,d1:65535;)))
+            (____, Scope<Void> @:12148 check:37608,op:27,dt:4,nt:8,next:12151,nextCheck:37611,str:9426,h:2,d0:12149,d1:37609;
+                ("print", Expression<MethodOrOperator> @:12149 check:37609,op:27,dt:2,nt:9,next:12150,nextCheck:37610,str:91,h:0,d0:0,d1:0;
+                    ("phantom pilot: 'hold position! i am making my approach!'", Expression<String> @:12150 check:37610,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:23987,h:0,d0:39899,d1:10848;)))
+            (____, Scope<Void> @:12151 check:37611,op:19,dt:4,nt:8,next:12157,nextCheck:37617,str:9495,h:2,d0:12152,d1:37612;
+                ("sleep", Expression<MethodOrOperator> @:12152 check:37612,op:19,dt:2,nt:9,next:12153,nextCheck:37613,str:85,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:12153 check:37613,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:9502,h:2,d0:12154,d1:37614;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:12154 check:37614,op:362,dt:2,nt:9,next:12155,nextCheck:37615,str:17662,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:12155 check:37615,op:50,dt:50,nt:9,next:12156,nextCheck:37616,str:1,h:0,d0:65535,d1:65535;
+                                ("2030", Expression<StringId> @:12156 check:37616,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:24044,h:0,d0:9107,d1:1024;))))))
+            (____, Scope<Void> @:12157 check:37617,op:19,dt:4,nt:8,next:12160,nextCheck:37620,str:9634,h:2,d0:12158,d1:37618;
+                ("sleep", Expression<MethodOrOperator> @:12158 check:37618,op:19,dt:2,nt:9,next:12159,nextCheck:37619,str:85,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:12159 check:37619,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:9641,h:2,d0:30,d1:65535;)))
+            (____, Scope<Void> @:12160 check:37620,op:281,dt:4,nt:8,next:65535,nextCheck:65535,str:9647,h:2,d0:12161,d1:37621;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:12161 check:37621,op:281,dt:2,nt:9,next:12162,nextCheck:37622,str:17551,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:12162 check:37622,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9667,h:2,d0:65281,d1:65535;))))))

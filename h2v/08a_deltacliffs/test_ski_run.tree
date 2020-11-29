@@ -1,0 +1,20 @@
+
+("test_ski_run", MethodDecl<Void> @:125 check:0,op:0,dt:0,nt:65535,next:4433,nextCheck:62660,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:4433 check:62660,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:52092,h:0,d0:4434,d1:62661;
+        ("begin", Expression<MethodOrOperator> @:4434 check:62661,op:0,dt:2,nt:9,next:4417,nextCheck:62644,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:4417 check:62644,op:105,dt:4,nt:8,next:4422,nextCheck:62649,str:52127,h:0,d0:4418,d1:62645;
+                ("object_teleport", Expression<MethodOrOperator> @:4418 check:62645,op:105,dt:2,nt:9,next:4419,nextCheck:62646,str:8547,h:0,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:4419 check:62646,op:0,dt:50,nt:10,next:4421,nextCheck:62648,str:52144,h:0,d0:4420,d1:62647;
+                        ("player0", Expression<MethodOrOperator> @:4420 check:62647,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:665,h:0,d0:0,d1:0;))
+                    ("e9_test", Expression<LocationFlag> @:4421 check:62648,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:9260,h:0,d0:6,d1:0;)))
+            (____, Scope<Void> @:4422 check:62649,op:290,dt:4,nt:8,next:4425,nextCheck:62652,str:52165,h:0,d0:4423,d1:62650;
+                ("ai_place", Expression<MethodOrOperator> @:4423 check:62650,op:290,dt:2,nt:9,next:4424,nextCheck:62651,str:6905,h:0,d0:0,d1:0;
+                    ("e9_cov_ghosts0", Expression<AI> @:4424 check:62651,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:8062,h:0,d0:62,d1:0;)))
+            (____, Scope<Void> @:4425 check:62652,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:52193,h:0,d0:4426,d1:62653;
+                ("if", Expression<MethodOrOperator> @:4426 check:62653,op:2,dt:2,nt:9,next:4427,nextCheck:62654,str:519,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:4427 check:62654,op:25,dt:5,nt:8,next:4430,nextCheck:62657,str:52197,h:0,d0:4428,d1:62655;
+                        ("not", Expression<MethodOrOperator> @:4428 check:62655,op:25,dt:2,nt:9,next:4429,nextCheck:62656,str:460,h:0,d0:0,d1:0;
+                            ("g_e9_started", VariableAccess<Boolean> @:4429 check:62656,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:9075,h:0,d0:16,d1:0;)))
+                    (____, Scope<Void> @:4430 check:62657,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:52216,h:0,d0:4431,d1:62658;
+                        ("wake", Expression<MethodOrOperator> @:4431 check:62658,op:22,dt:2,nt:9,next:4432,nextCheck:62659,str:1129,h:0,d0:0,d1:0;
+                            ("e9_main", Expression<ScriptReference> @:4432 check:62659,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:9088,h:0,d0:124,d1:65535;))))))))

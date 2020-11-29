@@ -1,0 +1,27 @@
+
+("test_road_skirmishes", MethodDecl<Void> @:331 op:0,dt:0,nt:65535,next:11739,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:11739 op:0,dt:4,nt:8,next:65535,str:19472,d0:11740,d1:37200;
+        ("begin", Expression<MethodOrOperator> @:11740 op:0,dt:2,nt:9,next:11716,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:11716 op:507,dt:4,nt:8,next:11719,str:19515,d0:11717,d1:37177;
+                ("switch_bsp", Expression<MethodOrOperator> @:11717 op:507,dt:2,nt:9,next:11718,str:22338,d0:0,d1:0;
+                    (1, Expression<Short> @:11718 op:7,dt:7,nt:9,next:65535,str:19527,d0:1,d1:65535;)))
+            (____, Scope<Void> @:11719 op:19,dt:4,nt:8,next:11722,str:19532,d0:11720,d1:37180;
+                ("sleep", Expression<MethodOrOperator> @:11720 op:19,dt:2,nt:9,next:11721,str:85,d0:0,d1:0;
+                    (1, Expression<Short> @:11721 op:7,dt:7,nt:9,next:65535,str:19539,d0:1,d1:65535;)))
+            (____, Scope<Void> @:11722 op:105,dt:4,nt:8,next:11727,str:19544,d0:11723,d1:37183;
+                ("object_teleport", Expression<MethodOrOperator> @:11723 op:105,dt:2,nt:9,next:11724,str:18689,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:11724 op:0,dt:50,nt:10,next:11726,str:19561,d0:11725,d1:37185;
+                        ("player0", Expression<MethodOrOperator> @:11725 op:0,dt:2,nt:9,next:65535,str:607,d0:0,d1:0;))
+                    ("e20_test", Expression<LocationFlag> @:11726 op:14,dt:14,nt:9,next:65535,str:24769,d0:6,d1:0;)))
+            (____, Scope<Void> @:11727 op:52,dt:4,nt:8,next:11730,str:19583,d0:11728,d1:37188;
+                ("object_destroy", Expression<MethodOrOperator> @:11728 op:52,dt:2,nt:9,next:11729,str:2030,d0:0,d1:0;
+                    (4294901862, Expression<Entity> @:11729 op:56,dt:50,nt:9,next:65535,str:13941,d0:102,d1:65535;)))
+            (____, Scope<Void> @:11730 op:290,dt:4,nt:8,next:11733,str:19609,d0:11731,d1:37191;
+                ("ai_place", Expression<MethodOrOperator> @:11731 op:290,dt:2,nt:9,next:11732,str:16628,d0:0,d1:0;
+                    ("e20_mars_warthog0", Expression<AI> @:11732 op:19,dt:19,nt:9,next:65535,str:24079,d0:55,d1:0;)))
+            (____, Scope<Void> @:11733 op:22,dt:4,nt:8,next:11736,str:19640,d0:11734,d1:37194;
+                ("wake", Expression<MethodOrOperator> @:11734 op:22,dt:2,nt:9,next:11735,str:1071,d0:0,d1:0;
+                    ("e20_main", Expression<ScriptReference> @:11735 op:10,dt:10,nt:9,next:65535,str:24671,d0:330,d1:65535;)))
+            (____, Scope<Void> @:11736 op:22,dt:4,nt:8,next:65535,str:19658,d0:11737,d1:37197;
+                ("wake", Expression<MethodOrOperator> @:11737 op:22,dt:2,nt:9,next:11738,str:1071,d0:0,d1:0;
+                    ("e21_main", Expression<ScriptReference> @:11738 op:10,dt:10,nt:9,next:65535,str:24265,d0:325,d1:65535;))))))

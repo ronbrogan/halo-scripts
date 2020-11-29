@@ -1,0 +1,29 @@
+
+("test_generator_cave", MethodDecl<Void> @:478 op:0,dt:0,nt:65535,next:19043,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:19043 op:0,dt:4,nt:8,next:65535,str:53005,d0:19044,d1:44504;
+        ("begin", Expression<MethodOrOperator> @:19044 op:0,dt:2,nt:9,next:19018,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:19018 op:507,dt:4,nt:8,next:19021,str:53047,d0:19019,d1:44479;
+                ("switch_bsp", Expression<MethodOrOperator> @:19019 op:507,dt:2,nt:9,next:19020,str:5067,d0:0,d1:0;
+                    (1, Expression<Short> @:19020 op:7,dt:7,nt:9,next:65535,str:53059,d0:1,d1:65535;)))
+            (____, Scope<Void> @:19021 op:19,dt:4,nt:8,next:19024,str:53064,d0:19022,d1:44482;
+                ("sleep", Expression<MethodOrOperator> @:19022 op:19,dt:2,nt:9,next:19023,str:85,d0:0,d1:0;
+                    (1, Expression<Short> @:19023 op:7,dt:7,nt:9,next:65535,str:53071,d0:1,d1:65535;)))
+            (____, Scope<Void> @:19024 op:105,dt:4,nt:8,next:19029,str:53076,d0:19025,d1:44485;
+                ("object_teleport", Expression<MethodOrOperator> @:19025 op:105,dt:2,nt:9,next:19026,str:5131,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:19026 op:0,dt:50,nt:10,next:19028,str:53093,d0:19027,d1:44487;
+                        ("player0", Expression<MethodOrOperator> @:19027 op:0,dt:2,nt:9,next:65535,str:607,d0:0,d1:0;))
+                    ("e4_test", Expression<LocationFlag> @:19028 op:14,dt:14,nt:9,next:65535,str:38185,d0:2,d1:0;)))
+            (____, Scope<Void> @:19029 op:290,dt:4,nt:8,next:19032,str:53114,d0:19030,d1:44490;
+                ("ai_place", Expression<MethodOrOperator> @:19030 op:290,dt:2,nt:9,next:19031,str:5315,d0:0,d1:0;
+                    ("e4_cov_inf0", Expression<AI> @:19031 op:19,dt:19,nt:9,next:65535,str:37661,d0:25,d1:0;)))
+            (____, Scope<Void> @:19032 op:290,dt:4,nt:8,next:19035,str:53139,d0:19033,d1:44493;
+                ("ai_place", Expression<MethodOrOperator> @:19033 op:290,dt:2,nt:9,next:19034,str:5315,d0:0,d1:0;
+                    ("e4_cov_hunters0", Expression<AI> @:19034 op:19,dt:19,nt:9,next:65535,str:37645,d0:26,d1:0;)))
+            (____, Scope<Void> @:19035 op:2,dt:4,nt:8,next:65535,str:53168,d0:19036,d1:44496;
+                ("if", Expression<MethodOrOperator> @:19036 op:2,dt:2,nt:9,next:19037,str:461,d0:0,d1:0;
+                    (____, Scope<Boolean> @:19037 op:25,dt:5,nt:8,next:19040,str:53172,d0:19038,d1:44498;
+                        ("not", Expression<MethodOrOperator> @:19038 op:25,dt:2,nt:9,next:19039,str:402,d0:0,d1:0;
+                            ("g_e4_started", VariableAccess<Boolean> @:19039 op:5,dt:5,nt:13,next:65535,str:38005,d0:60,d1:0;)))
+                    (____, Scope<Void> @:19040 op:22,dt:4,nt:8,next:65535,str:53191,d0:19041,d1:44501;
+                        ("wake", Expression<MethodOrOperator> @:19041 op:22,dt:2,nt:9,next:19042,str:5851,d0:0,d1:0;
+                            ("e4_main", Expression<ScriptReference> @:19042 op:10,dt:10,nt:9,next:65535,str:38018,d0:477,d1:65535;))))))))

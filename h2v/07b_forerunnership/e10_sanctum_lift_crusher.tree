@@ -1,0 +1,24 @@
+
+("e10_sanctum_lift_crusher", MethodDecl<Void> @:180 check:0,op:0,dt:0,nt:65535,next:6461,nextCheck:64688,str:16831,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:6461 check:64688,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:17345,h:1,d0:6462,d1:64689;
+        ("begin", Expression<MethodOrOperator> @:6462 check:64689,op:0,dt:2,nt:9,next:6441,nextCheck:64668,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:6441 check:64668,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:17388,h:1,d0:6442,d1:64669;
+                ("sleep_until", Expression<MethodOrOperator> @:6442 check:64669,op:21,dt:2,nt:9,next:6443,nextCheck:64670,str:231,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:6443 check:64670,op:0,dt:5,nt:8,next:6460,nextCheck:64687,str:17404,h:1,d0:6444,d1:64671;
+                        ("begin", Expression<MethodOrOperator> @:6444 check:64671,op:0,dt:2,nt:9,next:6445,nextCheck:64672,str:1,h:0,d0:0,d1:0;
+                            (____, Scope<Void> @:6445 check:64672,op:2,dt:4,nt:8,next:6459,nextCheck:64686,str:17415,h:1,d0:6446,d1:64673;
+                                ("if", Expression<MethodOrOperator> @:6446 check:64673,op:2,dt:2,nt:9,next:6447,nextCheck:64674,str:456,h:0,d0:0,d1:0;
+                                    (____, Scope<Boolean> @:6447 check:64674,op:17,dt:5,nt:8,next:6453,nextCheck:64680,str:17419,h:1,d0:6448,d1:64675;
+                                        (">=", Expression<MethodOrOperator> @:6448 check:64675,op:17,dt:2,nt:9,next:6449,nextCheck:64676,str:671,h:0,d0:0,d1:0;
+                                            (-6.85792E+36f, Scope<Float> @:6449 check:64676,op:257,dt:6,nt:8,next:6452,nextCheck:64679,str:17423,h:1,d0:6450,d1:64677;
+                                                ("device_get_position", Expression<MethodOrOperator> @:6450 check:64677,op:257,dt:2,nt:9,next:6451,nextCheck:64678,str:16232,h:0,d0:0,d1:0;
+                                                    ("sanctum_lift", Expression<Device> @:6451 check:64678,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:9547,h:0,d0:158,d1:65535;)))
+                                            (0.955f, Expression<Float> @:6452 check:64679,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:17458,h:1,d0:31457,d1:16244;)))
+                                    (____, Scope<Void> @:6453 check:64680,op:29,dt:4,nt:8,next:6456,nextCheck:64683,str:17470,h:1,d0:6454,d1:64681;
+                                        ("kill_volume_enable", Expression<MethodOrOperator> @:6454 check:64681,op:29,dt:2,nt:9,next:6455,nextCheck:64682,str:16268,h:0,d0:0,d1:0;
+                                            ("kill_sanctum_crusher", Expression<Trigger> @:6455 check:64682,op:13,dt:13,nt:9,next:65535,nextCheck:65535,str:16287,h:0,d0:72,d1:0;)))
+                                    (____, Scope<Void> @:6456 check:64683,op:30,dt:4,nt:8,next:65535,nextCheck:65535,str:17517,h:1,d0:6457,d1:64684;
+                                        ("kill_volume_disable", Expression<MethodOrOperator> @:6457 check:64684,op:30,dt:2,nt:9,next:6458,nextCheck:64685,str:16308,h:0,d0:0,d1:0;
+                                            ("kill_sanctum_crusher", Expression<Trigger> @:6458 check:64685,op:13,dt:13,nt:9,next:65535,nextCheck:65535,str:16287,h:0,d0:72,d1:0;)))))
+                            (False, Expression<Boolean> @:6459 check:64686,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:17597,h:1,d0:65280,d1:65535;)))
+                    (3, Expression<Short> @:6460 check:64687,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17611,h:1,d0:3,d1:65535;))))))

@@ -1,0 +1,16 @@
+
+("hangar_fly_out_r1", MethodDecl<Void> @:282 check:0,op:0,dt:0,nt:65535,next:10717,nextCheck:36177,str:22882,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:10717 check:36177,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:58354,h:1,d0:10718,d1:36178;
+        ("begin", Expression<MethodOrOperator> @:10718 check:36178,op:0,dt:2,nt:9,next:10705,nextCheck:36165,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:10705 check:36165,op:449,dt:4,nt:8,next:10708,nextCheck:36168,str:58397,h:1,d0:10706,d1:36166;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:10706 check:36166,op:449,dt:2,nt:9,next:10707,nextCheck:36167,str:17375,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10707 check:36167,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:58429,h:1,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:10708 check:36168,op:407,dt:4,nt:8,next:10711,nextCheck:36171,str:58437,h:1,d0:10709,d1:36169;
+                ("cs_vehicle_speed", Expression<MethodOrOperator> @:10709 check:36169,op:407,dt:2,nt:9,next:10710,nextCheck:36170,str:22064,h:0,d0:0,d1:0;
+                    (0.5f, Expression<Float> @:10710 check:36170,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:58455,h:1,d0:0,d1:16128;)))
+            (____, Scope<Void> @:10711 check:36171,op:383,dt:4,nt:8,next:10714,nextCheck:36174,str:58461,h:1,d0:10712,d1:36172;
+                ("cs_fly_by", Expression<MethodOrOperator> @:10712 check:36172,op:383,dt:2,nt:9,next:10713,nextCheck:36173,str:19081,h:0,d0:0,d1:0;
+                    ("hangar_too/r1_1", Expression<SpatialPoint> @:10713 check:36173,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:22407,h:0,d0:7,d1:5;)))
+            (____, Scope<Void> @:10714 check:36174,op:379,dt:4,nt:8,next:65535,nextCheck:65535,str:58491,h:1,d0:10715,d1:36175;
+                ("cs_fly_to", Expression<MethodOrOperator> @:10715 check:36175,op:379,dt:2,nt:9,next:10716,nextCheck:36176,str:17423,h:0,d0:0,d1:0;
+                    ("hangar_too/r1_0", Expression<SpatialPoint> @:10716 check:36176,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:22423,h:0,d0:6,d1:5;))))))

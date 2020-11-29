@@ -1,0 +1,36 @@
+
+("intro_turret_fire", MethodDecl<Void> @:156 op:0,dt:0,nt:65535,next:5373,str:12715,d0:0,d1:0;
+    (____, Scope<Void> @:5373 op:0,dt:4,nt:8,next:65535,str:309,d0:5374,d1:63601;
+        ("begin", Expression<MethodOrOperator> @:5374 op:0,dt:2,nt:9,next:5341,str:54,d0:0,d1:0;
+            (____, Scope<Void> @:5341 op:46,dt:4,nt:8,next:5344,str:347,d0:5342,d1:63569;
+                ("object_create", Expression<MethodOrOperator> @:5342 op:46,dt:2,nt:9,next:5343,str:12369,d0:0,d1:0;
+                    ("turret_handheld", Expression<EntityIdentifier> @:5343 op:56,dt:56,nt:9,next:65535,str:12383,d0:99,d1:65535;)))
+            (____, Scope<Void> @:5344 op:74,dt:4,nt:8,next:5350,str:381,d0:5345,d1:63572;
+                ("objects_attach", Expression<MethodOrOperator> @:5345 op:74,dt:2,nt:9,next:5346,str:11105,d0:0,d1:0;
+                    (4294901845, Expression<Entity> @:5346 op:56,dt:50,nt:9,next:5347,str:11373,d0:85,d1:65535;
+                        ("primary_trigger", Expression<StringId> @:5347 op:11,dt:11,nt:9,next:5348,str:12399,d0:219,d1:3840;
+                            (4294901859, Expression<Entity> @:5348 op:56,dt:50,nt:9,next:5349,str:12383,d0:99,d1:65535;
+                                (0, Expression<StringId> @:5349 op:11,dt:11,nt:9,next:65535,str:0,d0:0,d1:0;))))))
+            (____, Scope<Void> @:5350 op:57,dt:4,nt:8,next:5354,str:450,d0:5351,d1:63578;
+                ("object_hide", Expression<MethodOrOperator> @:5351 op:57,dt:2,nt:9,next:5352,str:643,d0:0,d1:0;
+                    (4294901859, Expression<Entity> @:5352 op:56,dt:50,nt:9,next:5353,str:12383,d0:99,d1:65535;
+                        (True, Expression<Boolean> @:5353 op:5,dt:5,nt:9,next:65535,str:479,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:5354 op:19,dt:4,nt:8,next:5357,str:490,d0:5355,d1:63582;
+                ("sleep", Expression<MethodOrOperator> @:5355 op:19,dt:2,nt:9,next:5356,str:133,d0:0,d1:0;
+                    (131, Expression<Short> @:5356 op:7,dt:7,nt:9,next:65535,str:497,d0:131,d1:65535;)))
+            (____, Scope<Void> @:5357 op:27,dt:4,nt:8,next:5360,str:504,d0:5358,d1:63585;
+                ("print", Expression<MethodOrOperator> @:5358 op:27,dt:2,nt:9,next:5359,str:139,d0:0,d1:0;
+                    ("turret fire", Expression<String> @:5359 op:9,dt:9,nt:9,next:65535,str:12415,d0:12415,d1:0;)))
+            (____, Scope<Void> @:5360 op:251,dt:4,nt:8,next:5365,str:528,d0:5361,d1:63588;
+                ("weapon_hold_trigger", Expression<MethodOrOperator> @:5361 op:251,dt:2,nt:9,next:5362,str:12427,d0:0,d1:0;
+                    ("turret_handheld", Expression<WeaponReference> @:5362 op:59,dt:53,nt:9,next:5363,str:12383,d0:99,d1:65535;
+                        (0, Expression<Int> @:5363 op:8,dt:8,nt:9,next:5364,str:565,d0:0,d1:0;
+                            (True, Expression<Boolean> @:5364 op:5,dt:5,nt:9,next:65535,str:567,d0:65281,d1:65535;)))))
+            (____, Scope<Void> @:5365 op:19,dt:4,nt:8,next:5368,str:578,d0:5366,d1:63593;
+                ("sleep", Expression<MethodOrOperator> @:5366 op:19,dt:2,nt:9,next:5367,str:133,d0:0,d1:0;
+                    (150, Expression<Short> @:5367 op:7,dt:7,nt:9,next:65535,str:585,d0:150,d1:65535;)))
+            (____, Scope<Void> @:5368 op:251,dt:4,nt:8,next:65535,str:592,d0:5369,d1:63596;
+                ("weapon_hold_trigger", Expression<MethodOrOperator> @:5369 op:251,dt:2,nt:9,next:5370,str:12427,d0:0,d1:0;
+                    ("turret_handheld", Expression<WeaponReference> @:5370 op:59,dt:53,nt:9,next:5371,str:12383,d0:99,d1:65535;
+                        (0, Expression<Int> @:5371 op:8,dt:8,nt:9,next:5372,str:629,d0:0,d1:0;
+                            (False, Expression<Boolean> @:5372 op:5,dt:5,nt:9,next:65535,str:631,d0:65280,d1:65535;))))))))

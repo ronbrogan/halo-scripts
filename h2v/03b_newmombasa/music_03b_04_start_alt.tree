@@ -1,0 +1,19 @@
+
+("music_03b_04_start_alt", MethodDecl<Void> @:194 check:0,op:0,dt:0,nt:65535,next:6002,nextCheck:64229,str:18483,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:6002 check:64229,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:5352,h:1,d0:6003,d1:64230;
+        ("begin", Expression<MethodOrOperator> @:6003 check:64230,op:0,dt:2,nt:9,next:5987,nextCheck:64214,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:5987 check:64214,op:21,dt:4,nt:8,next:5995,nextCheck:64222,str:5393,h:1,d0:5988,d1:64215;
+                ("sleep_until", Expression<MethodOrOperator> @:5988 check:64215,op:21,dt:2,nt:9,next:5989,nextCheck:64216,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:5989 check:64216,op:33,dt:5,nt:8,next:5994,nextCheck:64221,str:5406,h:1,d0:5990,d1:64217;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:5990 check:64217,op:33,dt:2,nt:9,next:5991,nextCheck:64218,str:13177,h:0,d0:0,d1:0;
+                            ("tv_scarab", Expression<Trigger> @:5991 check:64218,op:13,dt:13,nt:9,next:5992,nextCheck:64219,str:13622,h:0,d0:84,d1:0;
+                                (____, Scope<List> @:5992 check:64219,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:5437,h:1,d0:5993,d1:64220;
+                                    ("players", Expression<MethodOrOperator> @:5993 check:64220,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                    (15, Expression<Short> @:5994 check:64221,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:5448,h:1,d0:15,d1:65535;)))
+            (____, Scope<Void> @:5995 check:64222,op:27,dt:4,nt:8,next:5998,nextCheck:64225,str:5454,h:1,d0:5996,d1:64223;
+                ("print", Expression<MethodOrOperator> @:5996 check:64223,op:27,dt:2,nt:9,next:5997,nextCheck:64224,str:91,h:0,d0:0,d1:0;
+                    ("music 03b_04 start alt", Expression<String> @:5997 check:64224,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13632,h:0,d0:58104,d1:12462;)))
+            (____, Scope<Void> @:5998 check:64225,op:609,dt:4,nt:8,next:65535,nextCheck:65535,str:5489,h:1,d0:5999,d1:64226;
+                ("sound_looping_set_alternate", Expression<MethodOrOperator> @:5999 check:64226,op:609,dt:2,nt:9,next:6000,nextCheck:64227,str:13322,h:0,d0:0,d1:0;
+                    ("scenarios\solo\03b_newmombasa\03b_music\03b_04", Expression<LoopingSound> @:6000 check:64227,op:35,dt:35,nt:9,next:6001,nextCheck:64228,str:13575,h:0,d0:7714,d1:65507;
+                        (True, Expression<Boolean> @:6001 check:64228,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:5567,h:1,d0:65281,d1:65535;)))))))

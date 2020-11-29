@@ -1,0 +1,31 @@
+
+("cs_e2_cov_grunts0_abort", MethodDecl<Void> @:193 op:0,dt:0,nt:65535,next:7433,str:13935,d0:0,d1:0;
+    (____, Scope<Void> @:7433 op:0,dt:4,nt:8,next:65535,str:28526,d0:7434,d1:32894;
+        ("begin", Expression<MethodOrOperator> @:7434 op:0,dt:2,nt:9,next:7406,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:7406 op:2,dt:4,nt:8,next:65535,str:28575,d0:7407,d1:32867;
+                ("if", Expression<MethodOrOperator> @:7407 op:2,dt:2,nt:9,next:7408,str:519,d0:0,d1:0;
+                    (____, Scope<Boolean> @:7408 op:18,dt:5,nt:8,next:7418,str:28579,d0:7409,d1:32869;
+                        ("<=", Expression<MethodOrOperator> @:7409 op:18,dt:2,nt:9,next:7410,str:6041,d0:0,d1:0;
+                            (-9.469441E-39f, Scope<Float> @:7410 op:114,dt:6,nt:8,next:7417,str:28583,d0:7411,d1:32871;
+                                ("objects_distance_to_object", Expression<MethodOrOperator> @:7411 op:114,dt:2,nt:9,next:7412,str:9430,d0:0,d1:0;
+                                    (____, Scope<List> @:7412 op:28,dt:31,nt:8,next:7414,str:28611,d0:7413,d1:32873;
+                                        ("players", Expression<MethodOrOperator> @:7413 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;))
+                                    (____, Scope<Entity> @:7414 op:284,dt:50,nt:8,next:65535,str:28621,d0:7415,d1:32875;
+                                        ("ai_get_object", Expression<MethodOrOperator> @:7415 op:284,dt:2,nt:9,next:7416,str:9340,d0:0,d1:0;
+                                            ("ai_current_actor", VariableAccess<AI> @:7416 op:19,dt:19,nt:13,next:65535,str:6458,d0:33564,d1:65535;)))))
+                            (2f, Expression<Float> @:7417 op:6,dt:6,nt:9,next:65535,str:28655,d0:0,d1:16384;)))
+                    (____, Scope<Void> @:7418 op:423,dt:4,nt:8,next:7421,str:28661,d0:7419,d1:32879;
+                        ("cs_crouch", Expression<MethodOrOperator> @:7419 op:423,dt:2,nt:9,next:7420,str:11012,d0:0,d1:0;
+                            (True, Expression<Boolean> @:7420 op:5,dt:5,nt:9,next:65535,str:28672,d0:65281,d1:65535;)))
+                    (____, Scope<Void> @:7421 op:21,dt:4,nt:8,next:65535,str:28681,d0:7422,d1:32882;
+                        ("sleep_until", Expression<MethodOrOperator> @:7422 op:21,dt:2,nt:9,next:7423,str:294,d0:0,d1:0;
+                            (____, Scope<Boolean> @:7423 op:15,dt:5,nt:8,next:65535,str:28694,d0:7424,d1:32884;
+                                (">", Expression<MethodOrOperator> @:7424 op:15,dt:2,nt:9,next:7425,str:6188,d0:0,d1:0;
+                                    (-1.0846995E-38f, Scope<Float> @:7425 op:114,dt:6,nt:8,next:7432,str:28697,d0:7426,d1:32886;
+                                        ("objects_distance_to_object", Expression<MethodOrOperator> @:7426 op:114,dt:2,nt:9,next:7427,str:9430,d0:0,d1:0;
+                                            (____, Scope<List> @:7427 op:28,dt:31,nt:8,next:7429,str:28725,d0:7428,d1:32888;
+                                                ("players", Expression<MethodOrOperator> @:7428 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;))
+                                            (____, Scope<Entity> @:7429 op:284,dt:50,nt:8,next:65535,str:28735,d0:7430,d1:32890;
+                                                ("ai_get_object", Expression<MethodOrOperator> @:7430 op:284,dt:2,nt:9,next:7431,str:9340,d0:0,d1:0;
+                                                    ("ai_current_actor", VariableAccess<AI> @:7431 op:19,dt:19,nt:13,next:65535,str:6458,d0:33564,d1:65535;)))))
+                                    (4f, Expression<Float> @:7432 op:6,dt:6,nt:9,next:65535,str:28769,d0:0,d1:16512;))))))))))

@@ -1,0 +1,19 @@
+
+("gen_dia_locking_doors_behind", MethodDecl<Void> @:136 op:0,dt:0,nt:65535,next:3896,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:3896 op:0,dt:4,nt:8,next:65535,str:48194,d0:3897,d1:62124;
+        ("begin", Expression<MethodOrOperator> @:3897 op:0,dt:2,nt:9,next:3881,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:3881 op:2,dt:4,nt:8,next:3887,str:48241,d0:3882,d1:62109;
+                ("if", Expression<MethodOrOperator> @:3882 op:2,dt:2,nt:9,next:3883,str:456,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:3883 op:5,dt:5,nt:13,next:3884,str:10462,d0:3,d1:0;
+                        (____, Scope<Void> @:3884 op:27,dt:4,nt:8,next:65535,str:48254,d0:3885,d1:62112;
+                            ("print", Expression<MethodOrOperator> @:3885 op:27,dt:2,nt:9,next:3886,str:86,d0:0,d1:0;
+                                ("cortana: if it makes you feel any better, i'm locking the doors behind you. should keep some of the flood off your back.", Expression<String> @:3886 op:9,dt:9,nt:9,next:65535,str:10898,d0:10898,d1:0;))))))
+            (____, Scope<Void> @:3887 op:19,dt:4,nt:8,next:3893,str:48388,d0:3888,d1:62115;
+                ("sleep", Expression<MethodOrOperator> @:3888 op:19,dt:2,nt:9,next:3889,str:80,d0:0,d1:0;
+                    (____, Scope<Short> @:3889 op:362,dt:7,nt:8,next:65535,str:48395,d0:3890,d1:62117;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:3890 op:362,dt:2,nt:9,next:3891,str:10552,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:3891 op:50,dt:50,nt:9,next:3892,str:1386,d0:65535,d1:65535;
+                                ("2840", Expression<StringId> @:3892 op:11,dt:11,nt:9,next:65535,str:11019,d0:13569,d1:1024;))))))
+            (____, Scope<Void> @:3893 op:19,dt:4,nt:8,next:65535,str:48433,d0:3894,d1:62121;
+                ("sleep", Expression<MethodOrOperator> @:3894 op:19,dt:2,nt:9,next:3895,str:80,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:3895 op:7,dt:7,nt:13,next:65535,str:10580,d0:4,d1:0;))))))

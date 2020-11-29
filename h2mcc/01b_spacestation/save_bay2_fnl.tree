@@ -1,0 +1,25 @@
+
+("save_bay2_fnl", MethodDecl<Void> @:313 op:0,dt:0,nt:65535,next:12010,str:36947,d0:0,d1:0;
+    (____, Scope<Void> @:12010 op:0,dt:4,nt:8,next:65535,str:14221,d0:12011,d1:37471;
+        ("begin", Expression<MethodOrOperator> @:12011 op:0,dt:2,nt:9,next:11989,str:11,d0:0,d1:0;
+            (____, Scope<Void> @:11989 op:21,dt:4,nt:8,next:11998,str:14253,d0:11990,d1:37450;
+                ("sleep_until", Expression<MethodOrOperator> @:11990 op:21,dt:2,nt:9,next:11991,str:241,d0:0,d1:0;
+                    (____, Scope<Boolean> @:11991 op:13,dt:5,nt:8,next:11997,str:14266,d0:11992,d1:37452;
+                        ("=", Expression<MethodOrOperator> @:11992 op:13,dt:2,nt:9,next:11993,str:306,d0:0,d1:0;
+                            (____, Scope<Short> @:11993 op:327,dt:7,nt:8,next:11996,str:14269,d0:11994,d1:37454;
+                                ("ai_living_count", Expression<MethodOrOperator> @:11994 op:327,dt:2,nt:9,next:11995,str:27811,d0:0,d1:0;
+                                    ("bay2_cov_fnl", Expression<AI> @:11995 op:19,dt:19,nt:9,next:65535,str:27827,d0:33,d1:16384;)))
+                            (0, Expression<Short> @:11996 op:7,dt:7,nt:9,next:65535,str:14300,d0:0,d1:65535;)))
+                    (1, Expression<Short> @:11997 op:7,dt:7,nt:9,next:65535,str:14303,d0:1,d1:65535;)))
+            (____, Scope<Void> @:11998 op:587,dt:4,nt:8,next:12000,str:14308,d0:11999,d1:37459;
+                ("game_save", Expression<MethodOrOperator> @:11999 op:587,dt:2,nt:9,next:65535,str:27608,d0:0,d1:0;))
+            (____, Scope<Void> @:12000 op:4,dt:4,nt:8,next:65535,str:14322,d0:12001,d1:37461;
+                ("set", Expression<MethodOrOperator> @:12001 op:4,dt:2,nt:9,next:12002,str:3357,d0:0,d1:0;
+                    ("timer_flavor", VariableAccess<Short> @:12002 op:65535,dt:7,nt:13,next:12003,str:27632,d0:22,d1:0;
+                        (____, Scope<Short> @:12003 op:12,dt:7,nt:8,next:65535,str:14340,d0:12004,d1:37464;
+                            ("max", Expression<MethodOrOperator> @:12004 op:12,dt:2,nt:9,next:12005,str:27645,d0:0,d1:0;
+                                ("timer_flavor", VariableAccess<Float> @:12005 op:6,dt:6,nt:13,next:12006,str:27632,d0:22,d1:0;
+                                    (-6.9162027E-28f, Scope<Float> @:12006 op:9,dt:6,nt:8,next:65535,str:14358,d0:12007,d1:37467;
+                                        ("*", Expression<MethodOrOperator> @:12007 op:9,dt:2,nt:9,next:12008,str:1,d0:0,d1:0;
+                                            (10f, Expression<Float> @:12008 op:6,dt:6,nt:9,next:12009,str:14361,d0:0,d1:16672;
+                                                ("seconds", VariableAccess<Float> @:12009 op:6,dt:6,nt:13,next:65535,str:3,d0:18,d1:0;)))))))))))))

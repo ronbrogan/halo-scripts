@@ -1,0 +1,14 @@
+
+("juggernaut_abort", MethodDecl<Void> @:156 check:0,op:0,dt:0,nt:65535,next:4724,nextCheck:62951,str:14015,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:4724 check:62951,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:57878,h:0,d0:4725,d1:62952;
+        ("begin", Expression<MethodOrOperator> @:4725 check:62952,op:0,dt:2,nt:9,next:4714,nextCheck:62941,str:210,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:4714 check:62941,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:57913,h:0,d0:4715,d1:62942;
+                ("if", Expression<MethodOrOperator> @:4715 check:62942,op:2,dt:2,nt:9,next:4716,nextCheck:62943,str:665,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:4716 check:62943,op:371,dt:5,nt:8,next:4720,nextCheck:62947,str:57930,h:0,d0:4717,d1:62944;
+                        ("cs_command_script_running", Expression<MethodOrOperator> @:4717 check:62944,op:371,dt:2,nt:9,next:4718,nextCheck:62945,str:12144,h:0,d0:0,d1:0;
+                            ("all_allies", Expression<AI> @:4718 check:62945,op:19,dt:19,nt:9,next:4719,nextCheck:62946,str:11887,h:0,d0:0,d1:16384;
+                                ("juggernaut_gosh", Expression<AIScript> @:4719 check:62946,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:12047,h:0,d0:153,d1:0;))))
+                    (____, Scope<Void> @:4720 check:62947,op:366,dt:4,nt:8,next:65535,nextCheck:65535,str:58055,h:0,d0:4721,d1:62948;
+                        ("cs_run_command_script", Expression<MethodOrOperator> @:4721 check:62948,op:366,dt:2,nt:9,next:4722,nextCheck:62949,str:12097,h:0,d0:0,d1:0;
+                            ("all_allies", Expression<AI> @:4722 check:62949,op:19,dt:19,nt:9,next:4723,nextCheck:62950,str:11887,h:0,d0:0,d1:16384;
+                                ("abort", Expression<AIScript> @:4723 check:62950,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:12170,h:0,d0:115,d1:0;)))))))))

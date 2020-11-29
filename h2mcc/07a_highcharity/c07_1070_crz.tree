@@ -1,0 +1,25 @@
+
+("c07_1070_crz", MethodDecl<Void> @:150 op:0,dt:0,nt:65535,next:5081,str:12428,d0:0,d1:0;
+    (____, Scope<Void> @:5081 op:0,dt:4,nt:8,next:65535,str:2486,d0:5082,d1:63309;
+        ("begin", Expression<MethodOrOperator> @:5082 op:0,dt:2,nt:9,next:5060,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:5060 op:19,dt:4,nt:8,next:5063,str:2517,d0:5061,d1:63288;
+                ("sleep", Expression<MethodOrOperator> @:5061 op:19,dt:2,nt:9,next:5062,str:80,d0:0,d1:0;
+                    (236, Expression<Short> @:5062 op:7,dt:7,nt:9,next:65535,str:2524,d0:236,d1:65535;)))
+            (____, Scope<Void> @:5063 op:596,dt:4,nt:8,next:5068,str:2531,d0:5064,d1:63291;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:5064 op:596,dt:2,nt:9,next:5065,str:1513,d0:0,d1:0;
+                    ("sound\dialog\levels\07_highcharity\cinematic\c07_1070_crz", Expression<Sound> @:5065 op:32,dt:32,nt:9,next:5066,str:12370,d0:1048,d1:58766;
+                        (4294902029, Expression<Entity> @:5066 op:56,dt:50,nt:9,next:5067,str:8749,d0:269,d1:65535;
+                            (1f, Expression<Float> @:5067 op:6,dt:6,nt:9,next:65535,str:2619,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:5068 op:562,dt:4,nt:8,next:5072,str:2624,d0:5069,d1:63296;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:5069 op:562,dt:2,nt:9,next:5070,str:2897,d0:0,d1:0;
+                    ("c07_1070_crz", Expression<StringId> @:5070 op:11,dt:11,nt:9,next:5071,str:12428,d0:4533,d1:3072;
+                        (2f, Expression<Float> @:5071 op:6,dt:6,nt:9,next:65535,str:2657,d0:0,d1:16384;))))
+            (____, Scope<Void> @:5072 op:220,dt:4,nt:8,next:5078,str:2665,d0:5073,d1:63300;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:5073 op:220,dt:2,nt:9,next:5074,str:11070,d0:0,d1:0;
+                    ("truth_intro", Expression<Unit> @:5074 op:57,dt:51,nt:9,next:5075,str:10155,d0:281,d1:65535;
+                        ("shocked", Expression<StringId> @:5075 op:11,dt:11,nt:9,next:5076,str:12441,d0:426,d1:1792;
+                            (0.75f, Expression<Float> @:5076 op:6,dt:6,nt:9,next:5077,str:2711,d0:0,d1:16192;
+                                (0, Expression<Short> @:5077 op:7,dt:7,nt:9,next:65535,str:2715,d0:0,d1:65535;))))))
+            (____, Scope<Void> @:5078 op:27,dt:4,nt:8,next:65535,str:2720,d0:5079,d1:63306;
+                ("print", Expression<MethodOrOperator> @:5079 op:27,dt:2,nt:9,next:5080,str:86,d0:0,d1:0;
+                    ("truth - shocked .75 0", Expression<String> @:5080 op:9,dt:9,nt:9,next:65535,str:12449,d0:12449,d1:0;))))))

@@ -1,0 +1,24 @@
+
+("mission_main", MethodDecl<Void> @:245 check:0,op:0,dt:0,nt:65535,next:11129,nextCheck:36589,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:11129 check:36589,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:12848,h:2,d0:11130,d1:36590;
+        ("begin", Expression<MethodOrOperator> @:11130 check:36590,op:0,dt:2,nt:9,next:11109,nextCheck:36569,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:11109 check:36569,op:310,dt:4,nt:8,next:11113,nextCheck:36573,str:12968,h:2,d0:11110,d1:36570;
+                ("ai_allegiance", Expression<MethodOrOperator> @:11110 check:36570,op:310,dt:2,nt:9,next:11111,nextCheck:36571,str:23714,h:0,d0:0,d1:0;
+                    ("player", Expression<Team> @:11111 check:36571,op:45,dt:45,nt:9,next:11112,nextCheck:36572,str:23728,h:0,d0:1,d1:65535;
+                        ("human", Expression<Team> @:11112 check:36572,op:45,dt:45,nt:9,next:65535,nextCheck:65535,str:23735,h:0,d0:2,d1:65535;))))
+            (____, Scope<Void> @:11113 check:36573,op:310,dt:4,nt:8,next:11117,nextCheck:36577,str:12999,h:2,d0:11114,d1:36574;
+                ("ai_allegiance", Expression<MethodOrOperator> @:11114 check:36574,op:310,dt:2,nt:9,next:11115,nextCheck:36575,str:23714,h:0,d0:0,d1:0;
+                    ("covenant", Expression<Team> @:11115 check:36575,op:45,dt:45,nt:9,next:11116,nextCheck:36576,str:23741,h:0,d0:3,d1:65535;
+                        ("prophet", Expression<Team> @:11116 check:36576,op:45,dt:45,nt:9,next:65535,nextCheck:65535,str:23750,h:0,d0:7,d1:65535;))))
+            (____, Scope<Void> @:11117 check:36577,op:570,dt:4,nt:8,next:11120,nextCheck:36580,str:13034,h:2,d0:11118,d1:36578;
+                ("game_can_use_flashlights", Expression<MethodOrOperator> @:11118 check:36578,op:570,dt:2,nt:9,next:11119,nextCheck:36579,str:23758,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11119 check:36579,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:13060,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:11120 check:36580,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:13152,h:2,d0:11121,d1:36581;
+                ("if", Expression<MethodOrOperator> @:11121 check:36581,op:2,dt:2,nt:9,next:11122,nextCheck:36582,str:456,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:11122 check:36582,op:15,dt:5,nt:8,next:11127,nextCheck:36587,str:13156,h:2,d0:11123,d1:36583;
+                        (">", Expression<MethodOrOperator> @:11123 check:36583,op:15,dt:2,nt:9,next:11124,nextCheck:36584,str:13805,h:0,d0:0,d1:0;
+                            ("player_count", ScriptInvocation<Short> @:11124 check:36584,op:2,dt:7,nt:10,next:11126,nextCheck:36586,str:13159,h:2,d0:11125,d1:36585;
+                                ("player_count", Expression<MethodOrOperator> @:11125 check:36585,op:2,dt:2,nt:9,next:65535,nextCheck:65535,str:23783,h:0,d0:0,d1:0;))
+                            (0, Expression<Short> @:11126 check:36586,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:13174,h:2,d0:0,d1:65535;)))
+                    ("start", ScriptInvocation<Void> @:11127 check:36587,op:244,dt:4,nt:10,next:65535,nextCheck:65535,str:13178,h:2,d0:11128,d1:36588;
+                        ("start", Expression<MethodOrOperator> @:11128 check:36588,op:244,dt:2,nt:9,next:65535,nextCheck:65535,str:23796,h:0,d0:0,d1:0;)))))))

@@ -1,0 +1,28 @@
+
+("dogfight_objectives", MethodDecl<Void> @:385 op:0,dt:0,nt:65535,next:23723,str:35475,d0:0,d1:0;
+    (____, Scope<Void> @:23723 op:0,dt:4,nt:8,next:65535,str:60171,d0:23724,d1:49184;
+        ("begin", Expression<MethodOrOperator> @:23724 op:0,dt:2,nt:9,next:23699,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:23699 op:281,dt:4,nt:8,next:23702,str:60209,d0:23700,d1:49160;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:23700 op:281,dt:2,nt:9,next:23701,str:17599,d0:0,d1:0;
+                    (False, Expression<Boolean> @:23701 op:5,dt:5,nt:9,next:65535,str:60229,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:23702 op:19,dt:4,nt:8,next:23705,str:60238,d0:23703,d1:49163;
+                ("sleep", Expression<MethodOrOperator> @:23703 op:19,dt:2,nt:9,next:23704,str:85,d0:0,d1:0;
+                    (60, Expression<Short> @:23704 op:7,dt:7,nt:9,next:65535,str:60245,d0:60,d1:65535;)))
+            (____, Scope<Void> @:23705 op:27,dt:4,nt:8,next:23708,str:60251,d0:23706,d1:49166;
+                ("print", Expression<MethodOrOperator> @:23706 op:27,dt:2,nt:9,next:23707,str:91,d0:0,d1:0;
+                    ("phantom pilot: 'the heretics have weapon-emplacements all over the facility, arbiter.'", Expression<String> @:23707 op:9,dt:9,nt:9,next:65535,str:34825,d0:34825,d1:0;)))
+            (____, Scope<Void> @:23708 op:27,dt:4,nt:8,next:23711,str:60350,d0:23709,d1:49169;
+                ("print", Expression<MethodOrOperator> @:23709 op:27,dt:2,nt:9,next:23710,str:91,d0:0,d1:0;
+                    ("'we'll take them out, one-by-one, until we find the heretic-leader!'", Expression<String> @:23710 op:9,dt:9,nt:9,next:65535,str:34912,d0:34912,d1:0;)))
+            (____, Scope<Void> @:23711 op:19,dt:4,nt:8,next:23717,str:60431,d0:23712,d1:49172;
+                ("sleep", Expression<MethodOrOperator> @:23712 op:19,dt:2,nt:9,next:23713,str:85,d0:0,d1:0;
+                    (____, Scope<Short> @:23713 op:362,dt:7,nt:8,next:65535,str:60438,d0:23714,d1:49174;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:23714 op:362,dt:2,nt:9,next:23715,str:17710,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:23715 op:50,dt:50,nt:9,next:23716,str:1,d0:65535,d1:65535;
+                                ("2040", Expression<StringId> @:23716 op:11,dt:11,nt:9,next:65535,str:34981,d0:11783,d1:1024;))))))
+            (____, Scope<Void> @:23717 op:19,dt:4,nt:8,next:23720,str:60570,d0:23718,d1:49178;
+                ("sleep", Expression<MethodOrOperator> @:23718 op:19,dt:2,nt:9,next:23719,str:85,d0:0,d1:0;
+                    (30, Expression<Short> @:23719 op:7,dt:7,nt:9,next:65535,str:60577,d0:30,d1:65535;)))
+            (____, Scope<Void> @:23720 op:281,dt:4,nt:8,next:65535,str:60583,d0:23721,d1:49181;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:23721 op:281,dt:2,nt:9,next:23722,str:17599,d0:0,d1:0;
+                    (True, Expression<Boolean> @:23722 op:5,dt:5,nt:9,next:65535,str:60603,d0:65281,d1:65535;))))))

@@ -1,0 +1,23 @@
+
+("test_scarab_boarding", MethodDecl<Void> @:439 op:0,dt:0,nt:65535,next:17056,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:17056 op:0,dt:4,nt:8,next:65535,str:19298,d0:17057,d1:42517;
+        ("begin", Expression<MethodOrOperator> @:17057 op:0,dt:2,nt:9,next:17037,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:17037 op:105,dt:4,nt:8,next:17042,str:19341,d0:17038,d1:42498;
+                ("object_teleport", Expression<MethodOrOperator> @:17038 op:105,dt:2,nt:9,next:17039,str:5131,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:17039 op:0,dt:50,nt:10,next:17041,str:19358,d0:17040,d1:42500;
+                        ("player0", Expression<MethodOrOperator> @:17040 op:0,dt:2,nt:9,next:65535,str:607,d0:0,d1:0;))
+                    ("e7_test", Expression<LocationFlag> @:17041 op:14,dt:14,nt:9,next:65535,str:35994,d0:5,d1:0;)))
+            (____, Scope<Void> @:17042 op:290,dt:4,nt:8,next:17045,str:19379,d0:17043,d1:42503;
+                ("ai_place", Expression<MethodOrOperator> @:17043 op:290,dt:2,nt:9,next:17044,str:5315,d0:0,d1:0;
+                    ("e7_cov_inf0", Expression<AI> @:17044 op:19,dt:19,nt:9,next:65535,str:35543,d0:52,d1:0;)))
+            (____, Scope<Void> @:17045 op:290,dt:4,nt:8,next:17048,str:19404,d0:17046,d1:42506;
+                ("ai_place", Expression<MethodOrOperator> @:17046 op:290,dt:2,nt:9,next:17047,str:5315,d0:0,d1:0;
+                    ("e7_cov_hunters0", Expression<AI> @:17047 op:19,dt:19,nt:9,next:65535,str:35520,d0:53,d1:0;)))
+            (____, Scope<Void> @:17048 op:2,dt:4,nt:8,next:65535,str:19433,d0:17049,d1:42509;
+                ("if", Expression<MethodOrOperator> @:17049 op:2,dt:2,nt:9,next:17050,str:461,d0:0,d1:0;
+                    (____, Scope<Boolean> @:17050 op:25,dt:5,nt:8,next:17053,str:19437,d0:17051,d1:42511;
+                        ("not", Expression<MethodOrOperator> @:17051 op:25,dt:2,nt:9,next:17052,str:402,d0:0,d1:0;
+                            ("g_e7_started", VariableAccess<Boolean> @:17052 op:5,dt:5,nt:13,next:65535,str:35846,d0:51,d1:0;)))
+                    (____, Scope<Void> @:17053 op:22,dt:4,nt:8,next:65535,str:19456,d0:17054,d1:42514;
+                        ("wake", Expression<MethodOrOperator> @:17054 op:22,dt:2,nt:9,next:17055,str:5851,d0:0,d1:0;
+                            ("e7_main", Expression<ScriptReference> @:17055 op:10,dt:10,nt:9,next:65535,str:35859,d0:438,d1:65535;))))))))

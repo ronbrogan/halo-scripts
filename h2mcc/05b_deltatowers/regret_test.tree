@@ -1,0 +1,57 @@
+
+("regret_test", MethodDecl<Void> @:286 op:0,dt:0,nt:65535,next:19878,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:19878 op:0,dt:4,nt:8,next:65535,str:12861,d0:19879,d1:45339;
+        ("begin", Expression<MethodOrOperator> @:19879 op:0,dt:2,nt:9,next:19825,str:142,d0:0,d1:0;
+            (____, Scope<Void> @:19825 op:290,dt:4,nt:8,next:19828,str:12895,d0:19826,d1:45286;
+                ("ai_place", Expression<MethodOrOperator> @:19826 op:290,dt:2,nt:9,next:19827,str:10304,d0:0,d1:0;
+                    ("regret/1", Expression<AI> @:19827 op:19,dt:19,nt:9,next:65535,str:31231,d0:0,d1:49289;)))
+            (____, Scope<Void> @:19828 op:19,dt:4,nt:8,next:19831,str:12917,d0:19829,d1:45289;
+                ("sleep", Expression<MethodOrOperator> @:19829 op:19,dt:2,nt:9,next:19830,str:221,d0:0,d1:0;
+                    (60, Expression<Short> @:19830 op:7,dt:7,nt:9,next:65535,str:12924,d0:60,d1:65535;)))
+            (____, Scope<Void> @:19831 op:4,dt:4,nt:8,next:19840,str:12930,d0:19832,d1:45292;
+                ("set", Expression<MethodOrOperator> @:19832 op:4,dt:2,nt:9,next:19833,str:2971,d0:0,d1:0;
+                    ("regret_corpse", VariableAccess<Entity> @:19833 op:65535,dt:50,nt:13,next:19834,str:30853,d0:30,d1:0;
+                        (____, Scope<Entity> @:19834 op:37,dt:50,nt:8,next:65535,str:12949,d0:19835,d1:45295;
+                            ("list_get", Expression<MethodOrOperator> @:19835 op:37,dt:2,nt:9,next:19836,str:153,d0:0,d1:0;
+                                (____, Scope<List> @:19836 op:332,dt:31,nt:8,next:19839,str:12959,d0:19837,d1:45297;
+                                    ("ai_actors", Expression<MethodOrOperator> @:19837 op:332,dt:2,nt:9,next:19838,str:13658,d0:0,d1:0;
+                                        ("regret", Expression<AI> @:19838 op:19,dt:19,nt:9,next:65535,str:2055,d0:137,d1:0;)))
+                                (0, Expression<Short> @:19839 op:7,dt:7,nt:9,next:65535,str:12978,d0:0,d1:65535;))))))
+            (____, Scope<Void> @:19840 op:4,dt:4,nt:8,next:19851,str:12984,d0:19841,d1:45301;
+                ("set", Expression<MethodOrOperator> @:19841 op:4,dt:2,nt:9,next:19842,str:2971,d0:0,d1:0;
+                    ("regret_throne", VariableAccess<Entity> @:19842 op:65535,dt:50,nt:13,next:19843,str:30890,d0:31,d1:0;
+                        (____, Scope<Entity> @:19843 op:73,dt:50,nt:8,next:65535,str:13003,d0:19844,d1:45304;
+                            ("object_get_parent", Expression<MethodOrOperator> @:19844 op:73,dt:2,nt:9,next:19845,str:30918,d0:0,d1:0;
+                                (____, Scope<Entity> @:19845 op:37,dt:50,nt:8,next:65535,str:13022,d0:19846,d1:45306;
+                                    ("list_get", Expression<MethodOrOperator> @:19846 op:37,dt:2,nt:9,next:19847,str:153,d0:0,d1:0;
+                                        (____, Scope<List> @:19847 op:332,dt:31,nt:8,next:19850,str:13032,d0:19848,d1:45308;
+                                            ("ai_actors", Expression<MethodOrOperator> @:19848 op:332,dt:2,nt:9,next:19849,str:13658,d0:0,d1:0;
+                                                ("regret", Expression<AI> @:19849 op:19,dt:19,nt:9,next:65535,str:2055,d0:137,d1:0;)))
+                                        (0, Expression<Short> @:19850 op:7,dt:7,nt:9,next:65535,str:13051,d0:0,d1:65535;))))))))
+            (____, Scope<Void> @:19851 op:48,dt:4,nt:8,next:19854,str:13058,d0:19852,d1:45312;
+                ("object_create_anew", Expression<MethodOrOperator> @:19852 op:48,dt:2,nt:9,next:19853,str:2641,d0:0,d1:0;
+                    ("regret03", Expression<EntityIdentifier> @:19853 op:56,dt:56,nt:9,next:65535,str:23966,d0:80,d1:65535;)))
+            (____, Scope<Void> @:19854 op:27,dt:4,nt:8,next:19857,str:13090,d0:19855,d1:45315;
+                ("print", Expression<MethodOrOperator> @:19855 op:27,dt:2,nt:9,next:19856,str:227,d0:0,d1:0;
+                    ("destroy him", Expression<String> @:19856 op:9,dt:9,nt:9,next:65535,str:31240,d0:31240,d1:0;)))
+            (____, Scope<Void> @:19857 op:52,dt:4,nt:8,next:19860,str:13114,d0:19858,d1:45318;
+                ("object_destroy", Expression<MethodOrOperator> @:19858 op:52,dt:2,nt:9,next:19859,str:4424,d0:0,d1:0;
+                    ("regret_corpse", VariableAccess<Entity> @:19859 op:50,dt:50,nt:13,next:65535,str:30853,d0:30,d1:0;)))
+            (____, Scope<Void> @:19860 op:27,dt:4,nt:8,next:19863,str:13147,d0:19861,d1:45321;
+                ("print", Expression<MethodOrOperator> @:19861 op:27,dt:2,nt:9,next:19862,str:227,d0:0,d1:0;
+                    ("attach him", Expression<String> @:19862 op:9,dt:9,nt:9,next:65535,str:31252,d0:31252,d1:0;)))
+            (____, Scope<Void> @:19863 op:74,dt:4,nt:8,next:19869,str:13170,d0:19864,d1:45324;
+                ("objects_attach", Expression<MethodOrOperator> @:19864 op:74,dt:2,nt:9,next:19865,str:2806,d0:0,d1:0;
+                    ("regret_throne", VariableAccess<Entity> @:19865 op:50,dt:50,nt:13,next:19866,str:30890,d0:31,d1:0;
+                        ("driver", Expression<StringId> @:19866 op:11,dt:11,nt:9,next:19867,str:2821,d0:5183,d1:1536;
+                            (4294901840, Expression<Entity> @:19867 op:56,dt:50,nt:9,next:19868,str:23966,d0:80,d1:65535;
+                                (0, Expression<StringId> @:19868 op:11,dt:11,nt:9,next:65535,str:0,d0:0,d1:0;))))))
+            (____, Scope<Void> @:19869 op:27,dt:4,nt:8,next:19872,str:13224,d0:19870,d1:45330;
+                ("print", Expression<MethodOrOperator> @:19870 op:27,dt:2,nt:9,next:19871,str:227,d0:0,d1:0;
+                    ("animate him", Expression<String> @:19871 op:9,dt:9,nt:9,next:65535,str:31263,d0:31263,d1:0;)))
+            (____, Scope<Void> @:19872 op:202,dt:4,nt:8,next:65535,str:13248,d0:19873,d1:45333;
+                ("custom_animation_loop", Expression<MethodOrOperator> @:19873 op:202,dt:2,nt:9,next:19874,str:15104,d0:0,d1:0;
+                    ("regret03", Expression<Unit> @:19874 op:57,dt:51,nt:9,next:19875,str:23966,d0:80,d1:65535;
+                        ("objects\characters\prophet\prophet", Expression<Animation> @:19875 op:36,dt:36,nt:9,next:19876,str:10065,d0:1722,d1:59440;
+                            ("combat:any:any:cheer", Expression<StringId> @:19876 op:11,dt:11,nt:9,next:19877,str:29731,d0:5553,d1:5120;
+                                (True, Expression<Boolean> @:19877 op:5,dt:5,nt:9,next:65535,str:13338,d0:65281,d1:65535;)))))))))

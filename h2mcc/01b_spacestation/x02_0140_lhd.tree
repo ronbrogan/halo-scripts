@@ -1,0 +1,28 @@
+
+("x02_0140_lhd", MethodDecl<Void> @:86 op:0,dt:0,nt:65535,next:3025,str:7615,d0:0,d1:0;
+    (____, Scope<Void> @:3025 op:0,dt:4,nt:8,next:65535,str:35817,d0:3026,d1:61253;
+        ("begin", Expression<MethodOrOperator> @:3026 op:0,dt:2,nt:9,next:3001,str:11,d0:0,d1:0;
+            (____, Scope<Void> @:3001 op:19,dt:4,nt:8,next:3004,str:35848,d0:3002,d1:61229;
+                ("sleep", Expression<MethodOrOperator> @:3002 op:19,dt:2,nt:9,next:3003,str:90,d0:0,d1:0;
+                    (300, Expression<Short> @:3003 op:7,dt:7,nt:9,next:65535,str:35855,d0:300,d1:65535;)))
+            (____, Scope<Void> @:3004 op:220,dt:4,nt:8,next:3010,str:35865,d0:3005,d1:61232;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:3005 op:220,dt:2,nt:9,next:3006,str:1808,d0:0,d1:0;
+                    ("hood_x02", Expression<Unit> @:3006 op:57,dt:51,nt:9,next:3007,str:7527,d0:310,d1:65535;
+                        ("happy", Expression<StringId> @:3007 op:11,dt:11,nt:9,next:3008,str:2010,d0:422,d1:1280;
+                            (0.25f, Expression<Float> @:3008 op:6,dt:6,nt:9,next:3009,str:35906,d0:0,d1:16000;
+                                (30, Expression<Short> @:3009 op:7,dt:7,nt:9,next:65535,str:35910,d0:30,d1:65535;))))))
+            (____, Scope<Void> @:3010 op:27,dt:4,nt:8,next:3013,str:35916,d0:3011,d1:61238;
+                ("print", Expression<MethodOrOperator> @:3011 op:27,dt:2,nt:9,next:3012,str:96,d0:0,d1:0;
+                    ("hood - happy .25 30", Expression<String> @:3012 op:9,dt:9,nt:9,next:65535,str:7536,d0:7536,d1:0;)))
+            (____, Scope<Void> @:3013 op:19,dt:4,nt:8,next:3016,str:35951,d0:3014,d1:61241;
+                ("sleep", Expression<MethodOrOperator> @:3014 op:19,dt:2,nt:9,next:3015,str:90,d0:0,d1:0;
+                    (41, Expression<Short> @:3015 op:7,dt:7,nt:9,next:65535,str:35958,d0:41,d1:65535;)))
+            (____, Scope<Void> @:3016 op:596,dt:4,nt:8,next:3021,str:35964,d0:3017,d1:61244;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:3017 op:596,dt:2,nt:9,next:3018,str:1446,d0:0,d1:0;
+                    ("sound\dialog\levels\01_spacestation\cinematic\x02_0140_lhd", Expression<Sound> @:3018 op:32,dt:32,nt:9,next:3019,str:7556,d0:4499,d1:62387;
+                        (4294902070, Expression<Entity> @:3019 op:56,dt:50,nt:9,next:3020,str:7527,d0:310,d1:65535;
+                            (1f, Expression<Float> @:3020 op:6,dt:6,nt:9,next:65535,str:36053,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:3021 op:562,dt:4,nt:8,next:65535,str:36058,d0:3022,d1:61249;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:3022 op:562,dt:2,nt:9,next:3023,str:1689,d0:0,d1:0;
+                    ("x02_0140_lhd", Expression<StringId> @:3023 op:11,dt:11,nt:9,next:3024,str:7615,d0:9566,d1:3072;
+                        (2f, Expression<Float> @:3024 op:6,dt:6,nt:9,next:65535,str:36091,d0:0,d1:16384;)))))))

@@ -1,0 +1,26 @@
+
+("save_bay2_retreat", MethodDecl<Void> @:311 op:0,dt:0,nt:65535,next:11961,str:36762,d0:0,d1:0;
+    (____, Scope<Void> @:11961 op:0,dt:4,nt:8,next:65535,str:13840,d0:11962,d1:37422;
+        ("begin", Expression<MethodOrOperator> @:11962 op:0,dt:2,nt:9,next:11939,str:11,d0:0,d1:0;
+            (____, Scope<Void> @:11939 op:21,dt:4,nt:8,next:11946,str:13876,d0:11940,d1:37400;
+                ("sleep_until", Expression<MethodOrOperator> @:11940 op:21,dt:2,nt:9,next:11941,str:241,d0:0,d1:0;
+                    (____, Scope<Boolean> @:11941 op:33,dt:5,nt:8,next:65535,str:13889,d0:11942,d1:37402;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:11942 op:33,dt:2,nt:9,next:11943,str:27748,d0:0,d1:0;
+                            ("tv_bay2_hall", Expression<Trigger> @:11943 op:13,dt:13,nt:9,next:11944,str:27768,d0:16,d1:0;
+                                (____, Scope<List> @:11944 op:28,dt:31,nt:8,next:65535,str:13923,d0:11945,d1:37405;
+                                    ("players", Expression<MethodOrOperator> @:11945 op:28,dt:2,nt:9,next:65535,str:31,d0:0,d1:0;)))))))
+            (____, Scope<Void> @:11946 op:587,dt:4,nt:8,next:11948,str:13937,d0:11947,d1:37407;
+                ("game_save", Expression<MethodOrOperator> @:11947 op:587,dt:2,nt:9,next:65535,str:27608,d0:0,d1:0;))
+            (____, Scope<Void> @:11948 op:786,dt:4,nt:8,next:11951,str:13951,d0:11949,d1:37409;
+                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:11949 op:786,dt:2,nt:9,next:11950,str:27565,d0:0,d1:0;
+                    ("01b_bay2_retreat", Expression<String> @:11950 op:9,dt:9,nt:9,next:65535,str:27781,d0:27781,d1:0;)))
+            (____, Scope<Void> @:11951 op:4,dt:4,nt:8,next:65535,str:14004,d0:11952,d1:37412;
+                ("set", Expression<MethodOrOperator> @:11952 op:4,dt:2,nt:9,next:11953,str:3357,d0:0,d1:0;
+                    ("timer_flavor", VariableAccess<Short> @:11953 op:65535,dt:7,nt:13,next:11954,str:27632,d0:22,d1:0;
+                        (____, Scope<Short> @:11954 op:12,dt:7,nt:8,next:65535,str:14022,d0:11955,d1:37415;
+                            ("max", Expression<MethodOrOperator> @:11955 op:12,dt:2,nt:9,next:11956,str:27645,d0:0,d1:0;
+                                ("timer_flavor", VariableAccess<Float> @:11956 op:6,dt:6,nt:13,next:11957,str:27632,d0:22,d1:0;
+                                    (-5.3700117E-28f, Scope<Float> @:11957 op:9,dt:6,nt:8,next:65535,str:14040,d0:11958,d1:37418;
+                                        ("*", Expression<MethodOrOperator> @:11958 op:9,dt:2,nt:9,next:11959,str:1,d0:0,d1:0;
+                                            (10f, Expression<Float> @:11959 op:6,dt:6,nt:9,next:11960,str:14043,d0:0,d1:16672;
+                                                ("seconds", VariableAccess<Float> @:11960 op:6,dt:6,nt:13,next:65535,str:3,d0:18,d1:0;)))))))))))))

@@ -1,0 +1,28 @@
+
+("cs_e10_weapon_scene1", MethodDecl<Void> @:92 op:0,dt:0,nt:65535,next:2858,str:7382,d0:0,d1:0;
+    (____, Scope<Void> @:2858 op:0,dt:4,nt:8,next:65535,str:34948,d0:2859,d1:61086;
+        ("begin", Expression<MethodOrOperator> @:2859 op:0,dt:2,nt:9,next:2834,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:2834 op:395,dt:4,nt:8,next:2840,str:35018,d0:2835,d1:61062;
+                ("cs_look_object", Expression<MethodOrOperator> @:2835 op:395,dt:2,nt:9,next:2836,str:6594,d0:0,d1:0;
+                    (True, Expression<Boolean> @:2836 op:5,dt:5,nt:9,next:2837,str:35034,d0:65281,d1:65535;
+                        (____, Scope<Entity> @:2837 op:340,dt:50,nt:8,next:65535,str:35039,d0:2838,d1:61065;
+                            ("ai_vehicle_get", Expression<MethodOrOperator> @:2838 op:340,dt:2,nt:9,next:2839,str:5987,d0:0,d1:0;
+                                ("e10_pro_phantom0/phantom0", Expression<AI> @:2839 op:19,dt:19,nt:9,next:65535,str:6002,d0:0,d1:49234;))))))
+            (____, Scope<Void> @:2840 op:19,dt:4,nt:8,next:2843,str:35085,d0:2841,d1:61068;
+                ("sleep", Expression<MethodOrOperator> @:2841 op:19,dt:2,nt:9,next:2842,str:143,d0:0,d1:0;
+                    (30, Expression<Short> @:2842 op:7,dt:7,nt:9,next:65535,str:35092,d0:30,d1:65535;)))
+            (____, Scope<Void> @:2843 op:394,dt:4,nt:8,next:2846,str:35098,d0:2844,d1:61071;
+                ("cs_look_player", Expression<MethodOrOperator> @:2844 op:394,dt:2,nt:9,next:2845,str:6579,d0:0,d1:0;
+                    (True, Expression<Boolean> @:2845 op:5,dt:5,nt:9,next:65535,str:35114,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:2846 op:19,dt:4,nt:8,next:2849,str:35122,d0:2847,d1:61074;
+                ("sleep", Expression<MethodOrOperator> @:2847 op:19,dt:2,nt:9,next:2848,str:143,d0:0,d1:0;
+                    (15, Expression<Short> @:2848 op:7,dt:7,nt:9,next:65535,str:35129,d0:15,d1:65535;)))
+            (____, Scope<Void> @:2849 op:27,dt:4,nt:8,next:2852,str:35135,d0:2850,d1:61077;
+                ("print", Expression<MethodOrOperator> @:2850 op:27,dt:2,nt:9,next:2851,str:149,d0:0,d1:0;
+                    ("elite: perhaps i spoke too soon", Expression<String> @:2851 op:9,dt:9,nt:9,next:65535,str:6609,d0:6609,d1:0;)))
+            (____, Scope<Void> @:2852 op:19,dt:4,nt:8,next:65535,str:35179,d0:2853,d1:61080;
+                ("sleep", Expression<MethodOrOperator> @:2853 op:19,dt:2,nt:9,next:2854,str:143,d0:0,d1:0;
+                    (____, Scope<Short> @:2854 op:361,dt:7,nt:8,next:65535,str:35186,d0:2855,d1:61082;
+                        ("ai_play_line_at_player", Expression<MethodOrOperator> @:2855 op:361,dt:2,nt:9,next:2856,str:6641,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:2856 op:19,dt:19,nt:13,next:2857,str:6458,d0:33564,d1:65535;
+                                ("0510", Expression<StringId> @:2857 op:11,dt:11,nt:9,next:65535,str:6664,d0:13042,d1:1024;)))))))))

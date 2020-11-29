@@ -1,0 +1,32 @@
+
+("cs_ledge_turrets_right", MethodDecl<Void> @:307 op:0,dt:0,nt:65535,next:14222,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:14222 op:0,dt:4,nt:8,next:65535,str:38697,d0:14223,d1:39683;
+        ("begin", Expression<MethodOrOperator> @:14223 op:0,dt:2,nt:9,next:14194,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:14194 op:449,dt:4,nt:8,next:14197,str:38745,d0:14195,d1:39655;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:14195 op:449,dt:2,nt:9,next:14196,str:1066,d0:0,d1:0;
+                    (True, Expression<Boolean> @:14196 op:5,dt:5,nt:9,next:65535,str:38777,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:14197 op:2,dt:4,nt:8,next:65535,str:38788,d0:14198,d1:39658;
+                ("if", Expression<MethodOrOperator> @:14198 op:2,dt:2,nt:9,next:14199,str:456,d0:0,d1:0;
+                    (____, Scope<Boolean> @:14199 op:25,dt:5,nt:8,next:14202,str:38792,d0:14200,d1:39660;
+                        ("not", Expression<MethodOrOperator> @:14200 op:25,dt:2,nt:9,next:14201,str:397,d0:0,d1:0;
+                            ("g_ledge_turret_right", VariableAccess<Boolean> @:14201 op:5,dt:5,nt:13,next:65535,str:32043,d0:58,d1:0;)))
+                    (____, Scope<Void> @:14202 op:0,dt:4,nt:8,next:14214,str:38822,d0:14203,d1:39663;
+                        ("begin", Expression<MethodOrOperator> @:14203 op:0,dt:2,nt:9,next:14204,str:1,d0:0,d1:0;
+                            (____, Scope<Void> @:14204 op:4,dt:4,nt:8,next:14208,str:38833,d0:14205,d1:39665;
+                                ("set", Expression<MethodOrOperator> @:14205 op:4,dt:2,nt:9,next:14206,str:2177,d0:0,d1:0;
+                                    ("g_ledge_turret_right", VariableAccess<Boolean> @:14206 op:65535,dt:5,nt:13,next:14207,str:32043,d0:58,d1:0;
+                                        (True, Expression<Boolean> @:14207 op:5,dt:5,nt:9,next:65535,str:38859,d0:65281,d1:65535;))))
+                            (____, Scope<Void> @:14208 op:385,dt:4,nt:8,next:14211,str:38866,d0:14209,d1:39669;
+                                ("cs_go_to", Expression<MethodOrOperator> @:14209 op:385,dt:2,nt:9,next:14210,str:23611,d0:0,d1:0;
+                                    ("dervish_ledge_turret/deploy_p0", Expression<SpatialPoint> @:14210 op:28,dt:28,nt:9,next:65535,str:32064,d0:0,d1:14;)))
+                            (____, Scope<Void> @:14211 op:429,dt:4,nt:8,next:65535,str:38912,d0:14212,d1:39672;
+                                ("cs_deploy_turret", Expression<MethodOrOperator> @:14212 op:429,dt:2,nt:9,next:14213,str:31995,d0:0,d1:0;
+                                    ("dervish_ledge_turret/deploy_p0", Expression<SpatialPoint> @:14213 op:28,dt:28,nt:9,next:65535,str:32064,d0:0,d1:14;)))))
+                    (____, Scope<Void> @:14214 op:0,dt:4,nt:8,next:65535,str:38974,d0:14215,d1:39675;
+                        ("begin", Expression<MethodOrOperator> @:14215 op:0,dt:2,nt:9,next:14216,str:1,d0:0,d1:0;
+                            (____, Scope<Void> @:14216 op:385,dt:4,nt:8,next:14219,str:38985,d0:14217,d1:39677;
+                                ("cs_go_to", Expression<MethodOrOperator> @:14217 op:385,dt:2,nt:9,next:14218,str:23611,d0:0,d1:0;
+                                    ("dervish_ledge_turret/deploy_p1", Expression<SpatialPoint> @:14218 op:28,dt:28,nt:9,next:65535,str:32095,d0:1,d1:14;)))
+                            (____, Scope<Void> @:14219 op:429,dt:4,nt:8,next:65535,str:39031,d0:14220,d1:39680;
+                                ("cs_deploy_turret", Expression<MethodOrOperator> @:14220 op:429,dt:2,nt:9,next:14221,str:31995,d0:0,d1:0;
+                                    ("dervish_ledge_turret/deploy_p1", Expression<SpatialPoint> @:14221 op:28,dt:28,nt:9,next:65535,str:32095,d0:1,d1:14;))))))))))

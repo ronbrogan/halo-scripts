@@ -1,0 +1,34 @@
+
+("prep_return_from_intro", MethodDecl<Void> @:141 check:0,op:0,dt:0,nt:65535,next:3969,nextCheck:62196,str:32359,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:3969 check:62196,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:48415,h:0,d0:3970,d1:62197;
+        ("begin", Expression<MethodOrOperator> @:3970 check:62197,op:0,dt:2,nt:9,next:3939,nextCheck:62166,str:142,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:3939 check:62166,op:48,dt:4,nt:8,next:3942,nextCheck:62169,str:48460,h:0,d0:3940,d1:62167;
+                ("object_create_anew", Expression<MethodOrOperator> @:3940 check:62167,op:48,dt:2,nt:9,next:3941,nextCheck:62168,str:2641,h:0,d0:0,d1:0;
+                    ("in_game_throne", Expression<EntityIdentifier> @:3941 check:62168,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:10198,h:0,d0:5,d1:65535;)))
+            (____, Scope<Void> @:3942 check:62169,op:48,dt:4,nt:8,next:3945,nextCheck:62172,str:48498,h:0,d0:3943,d1:62170;
+                ("object_create_anew", Expression<MethodOrOperator> @:3943 check:62170,op:48,dt:2,nt:9,next:3944,nextCheck:62171,str:2641,h:0,d0:0,d1:0;
+                    ("regret01", Expression<EntityIdentifier> @:3944 check:62171,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:9978,h:0,d0:78,d1:65535;)))
+            (____, Scope<Void> @:3945 check:62172,op:74,dt:4,nt:8,next:3951,nextCheck:62178,str:48530,h:0,d0:3946,d1:62173;
+                ("objects_attach", Expression<MethodOrOperator> @:3946 check:62173,op:74,dt:2,nt:9,next:3947,nextCheck:62174,str:2806,h:0,d0:0,d1:0;
+                    (4294901765, Expression<Entity> @:3947 check:62174,op:56,dt:50,nt:9,next:3948,nextCheck:62175,str:10198,h:0,d0:5,d1:65535;
+                        ("driver", Expression<StringId> @:3948 check:62175,op:11,dt:11,nt:9,next:3949,nextCheck:62176,str:2821,h:0,d0:4826,d1:1536;
+                            (4294901838, Expression<Entity> @:3949 check:62176,op:56,dt:50,nt:9,next:3950,nextCheck:62177,str:9978,h:0,d0:78,d1:65535;
+                                (0, Expression<StringId> @:3950 check:62177,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:0,h:0,d0:0,d1:0;))))))
+            (____, Scope<Void> @:3951 check:62178,op:314,dt:4,nt:8,next:3955,nextCheck:62182,str:48585,h:0,d0:3952,d1:62179;
+                ("ai_disregard", Expression<MethodOrOperator> @:3952 check:62179,op:314,dt:2,nt:9,next:3953,nextCheck:62180,str:10213,h:0,d0:0,d1:0;
+                    ("regret01", Expression<List> @:3953 check:62180,op:56,dt:31,nt:9,next:3954,nextCheck:62181,str:9978,h:0,d0:78,d1:65535;
+                        (True, Expression<Boolean> @:3954 check:62181,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:48608,h:0,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:3955 check:62182,op:291,dt:4,nt:8,next:3959,nextCheck:62186,str:48616,h:0,d0:3956,d1:62183;
+                ("ai_place", Expression<MethodOrOperator> @:3956 check:62183,op:291,dt:2,nt:9,next:3957,nextCheck:62184,str:10226,h:0,d0:0,d1:0;
+                    ("initial_allies", Expression<AI> @:3957 check:62184,op:19,dt:19,nt:9,next:3958,nextCheck:62185,str:10235,h:0,d0:0,d1:0;
+                        (2, Expression<Short> @:3958 check:62185,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:48641,h:0,d0:2,d1:65535;))))
+            (____, Scope<Void> @:3959 check:62186,op:105,dt:4,nt:8,next:3964,nextCheck:62191,str:48751,h:0,d0:3960,d1:62187;
+                ("object_teleport", Expression<MethodOrOperator> @:3960 check:62187,op:105,dt:2,nt:9,next:3961,nextCheck:62188,str:10250,h:0,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:3961 check:62188,op:0,dt:50,nt:10,next:3963,nextCheck:62190,str:48768,h:0,d0:3962,d1:62189;
+                        ("player0", Expression<MethodOrOperator> @:3962 check:62189,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:743,h:0,d0:0,d1:0;))
+                    ("tower1_player0", Expression<LocationFlag> @:3963 check:62190,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:10266,h:0,d0:58,d1:0;)))
+            (____, Scope<Void> @:3964 check:62191,op:105,dt:4,nt:8,next:65535,nextCheck:65535,str:48796,h:0,d0:3965,d1:62192;
+                ("object_teleport", Expression<MethodOrOperator> @:3965 check:62192,op:105,dt:2,nt:9,next:3966,nextCheck:62193,str:10250,h:0,d0:0,d1:0;
+                    ("player1", ScriptInvocation<Entity> @:3966 check:62193,op:1,dt:50,nt:10,next:3968,nextCheck:62195,str:48813,h:0,d0:3967,d1:62194;
+                        ("player1", Expression<MethodOrOperator> @:3967 check:62194,op:1,dt:2,nt:9,next:65535,nextCheck:65535,str:751,h:0,d0:0,d1:0;))
+                    ("tower1_player1", Expression<LocationFlag> @:3968 check:62195,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:10281,h:0,d0:59,d1:0;))))))

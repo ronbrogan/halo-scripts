@@ -1,0 +1,40 @@
+
+("intra1_texture_camera_on", MethodDecl<Void> @:55 op:0,dt:0,nt:65535,next:1526,str:4369,d0:0,d1:0;
+    (____, Scope<Void> @:1526 op:0,dt:4,nt:8,next:65535,str:17322,d0:1527,d1:59754;
+        ("begin", Expression<MethodOrOperator> @:1527 op:0,dt:2,nt:9,next:1490,str:142,d0:0,d1:0;
+            (____, Scope<Void> @:1490 op:48,dt:4,nt:8,next:1493,str:17367,d0:1491,d1:59718;
+                ("object_create_anew", Expression<MethodOrOperator> @:1491 op:48,dt:2,nt:9,next:1492,str:2641,d0:0,d1:0;
+                    ("texture_camera", Expression<EntityIdentifier> @:1492 op:56,dt:56,nt:9,next:65535,str:4144,d0:31,d1:65535;)))
+            (____, Scope<Void> @:1493 op:186,dt:4,nt:8,next:1499,str:17405,d0:1494,d1:59721;
+                ("scenery_animation_start_relative", Expression<MethodOrOperator> @:1494 op:186,dt:2,nt:9,next:1495,str:4159,d0:0,d1:0;
+                    ("texture_camera", Expression<Scenery> @:1495 op:61,dt:55,nt:9,next:1496,str:4144,d0:31,d1:65535;
+                        ("objects\cinematics\texture_camera\05_intra1\05_intra1", Expression<Animation> @:1496 op:36,dt:36,nt:9,next:1497,str:4192,d0:898,d1:58616;
+                            ("texture_camera_02", Expression<StringId> @:1497 op:11,dt:11,nt:9,next:1498,str:4246,d0:4098,d1:4352;
+                                (4294901772, Expression<Entity> @:1498 op:56,dt:50,nt:9,next:65535,str:4264,d0:12,d1:65535;))))))
+            (____, Scope<Void> @:1499 op:19,dt:4,nt:8,next:1502,str:17549,d0:1500,d1:59727;
+                ("sleep", Expression<MethodOrOperator> @:1500 op:19,dt:2,nt:9,next:1501,str:221,d0:0,d1:0;
+                    (150, Expression<Short> @:1501 op:7,dt:7,nt:9,next:65535,str:17556,d0:150,d1:65535;)))
+            (____, Scope<Void> @:1502 op:27,dt:4,nt:8,next:1505,str:17563,d0:1503,d1:59730;
+                ("print", Expression<MethodOrOperator> @:1503 op:27,dt:2,nt:9,next:1504,str:227,d0:0,d1:0;
+                    ("texture camera on", Expression<String> @:1504 op:9,dt:9,nt:9,next:65535,str:4279,d0:4279,d1:0;)))
+            (____, Scope<Void> @:1505 op:144,dt:4,nt:8,next:1510,str:17596,d0:1506,d1:59733;
+                ("texture_camera_set_object_marker", Expression<MethodOrOperator> @:1506 op:144,dt:2,nt:9,next:1507,str:4297,d0:0,d1:0;
+                    (4294901791, Expression<Entity> @:1507 op:56,dt:50,nt:9,next:1508,str:4144,d0:31,d1:65535;
+                        ("marker", Expression<StringId> @:1508 op:11,dt:11,nt:9,next:1509,str:2475,d0:5248,d1:1536;
+                            (50f, Expression<Float> @:1509 op:6,dt:6,nt:9,next:65535,str:17652,d0:0,d1:16968;)))))
+            (____, Scope<Void> @:1510 op:57,dt:4,nt:8,next:1514,str:17661,d0:1511,d1:59738;
+                ("object_hide", Expression<MethodOrOperator> @:1511 op:57,dt:2,nt:9,next:1512,str:731,d0:0,d1:0;
+                    (4294901842, Expression<Entity> @:1512 op:56,dt:50,nt:9,next:1513,str:2668,d0:82,d1:65535;
+                        (False, Expression<Boolean> @:1513 op:5,dt:5,nt:9,next:65535,str:17682,d0:65280,d1:65535;))))
+            (____, Scope<Void> @:1514 op:57,dt:4,nt:8,next:1518,str:17691,d0:1515,d1:59742;
+                ("object_hide", Expression<MethodOrOperator> @:1515 op:57,dt:2,nt:9,next:1516,str:731,d0:0,d1:0;
+                    (4294901837, Expression<Entity> @:1516 op:56,dt:50,nt:9,next:1517,str:2676,d0:77,d1:65535;
+                        (False, Expression<Boolean> @:1517 op:5,dt:5,nt:9,next:65535,str:17710,d0:65280,d1:65535;))))
+            (____, Scope<Void> @:1518 op:57,dt:4,nt:8,next:1522,str:17719,d0:1519,d1:59746;
+                ("object_hide", Expression<MethodOrOperator> @:1519 op:57,dt:2,nt:9,next:1520,str:731,d0:0,d1:0;
+                    (4294901844, Expression<Entity> @:1520 op:56,dt:50,nt:9,next:1521,str:2682,d0:84,d1:65535;
+                        (False, Expression<Boolean> @:1521 op:5,dt:5,nt:9,next:65535,str:17743,d0:65280,d1:65535;))))
+            (____, Scope<Void> @:1522 op:57,dt:4,nt:8,next:65535,str:17752,d0:1523,d1:59750;
+                ("object_hide", Expression<MethodOrOperator> @:1523 op:57,dt:2,nt:9,next:1524,str:731,d0:0,d1:0;
+                    (4294901828, Expression<Entity> @:1524 op:56,dt:50,nt:9,next:1525,str:2715,d0:68,d1:65535;
+                        (False, Expression<Boolean> @:1525 op:5,dt:5,nt:9,next:65535,str:17779,d0:65280,d1:65535;)))))))

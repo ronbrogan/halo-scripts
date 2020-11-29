@@ -1,0 +1,26 @@
+
+("cs_e15_mars_inf0_init", MethodDecl<Void> @:402 op:0,dt:0,nt:65535,next:14534,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:14534 op:0,dt:4,nt:8,next:65535,str:58687,d0:14535,d1:39995;
+        ("begin", Expression<MethodOrOperator> @:14535 op:0,dt:2,nt:9,next:14512,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:14512 op:442,dt:4,nt:8,next:14515,str:58734,d0:14513,d1:39973;
+                ("cs_enable_targeting", Expression<MethodOrOperator> @:14513 op:442,dt:2,nt:9,next:14514,str:27560,d0:0,d1:0;
+                    (True, Expression<Boolean> @:14514 op:5,dt:5,nt:9,next:65535,str:58755,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:14515 op:423,dt:4,nt:8,next:14518,str:58763,d0:14516,d1:39976;
+                ("cs_crouch", Expression<MethodOrOperator> @:14516 op:423,dt:2,nt:9,next:14517,str:16563,d0:0,d1:0;
+                    (True, Expression<Boolean> @:14517 op:5,dt:5,nt:9,next:65535,str:58774,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:14518 op:21,dt:4,nt:8,next:65535,str:58820,d0:14519,d1:39979;
+                ("sleep_until", Expression<MethodOrOperator> @:14519 op:21,dt:2,nt:9,next:14520,str:236,d0:0,d1:0;
+                    (____, Scope<Boolean> @:14520 op:6,dt:5,nt:8,next:14533,str:58836,d0:14521,d1:39981;
+                        ("or", Expression<MethodOrOperator> @:14521 op:6,dt:2,nt:9,next:14522,str:849,d0:0,d1:0;
+                            ("g_e16_started", VariableAccess<Boolean> @:14522 op:5,dt:5,nt:13,next:14523,str:28562,d0:47,d1:0;
+                                (____, Scope<Boolean> @:14523 op:18,dt:5,nt:8,next:65535,str:58862,d0:14524,d1:39984;
+                                    ("<=", Expression<MethodOrOperator> @:14524 op:18,dt:2,nt:9,next:14525,str:17216,d0:0,d1:0;
+                                        (-5.8968597E-22f, Scope<Float> @:14525 op:114,dt:6,nt:8,next:14532,str:58866,d0:14526,d1:39986;
+                                            ("objects_distance_to_object", Expression<MethodOrOperator> @:14526 op:114,dt:2,nt:9,next:14527,str:16475,d0:0,d1:0;
+                                                (____, Scope<List> @:14527 op:28,dt:31,nt:8,next:14529,str:58894,d0:14528,d1:39988;
+                                                    ("players", Expression<MethodOrOperator> @:14528 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;))
+                                                (____, Scope<Entity> @:14529 op:284,dt:50,nt:8,next:65535,str:58904,d0:14530,d1:39990;
+                                                    ("ai_get_object", Expression<MethodOrOperator> @:14530 op:284,dt:2,nt:9,next:14531,str:13874,d0:0,d1:0;
+                                                        ("ai_current_actor", VariableAccess<AI> @:14531 op:19,dt:19,nt:13,next:65535,str:13888,d0:33564,d1:65535;)))))
+                                        (8f, Expression<Float> @:14532 op:6,dt:6,nt:9,next:65535,str:58938,d0:0,d1:16640;))))))
+                    (15, Expression<Short> @:14533 op:7,dt:7,nt:9,next:65535,str:58949,d0:15,d1:65535;))))))

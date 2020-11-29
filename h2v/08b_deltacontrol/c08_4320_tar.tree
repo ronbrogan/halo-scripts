@@ -1,0 +1,37 @@
+
+("c08_4320_tar", MethodDecl<Void> @:153 check:0,op:0,dt:0,nt:65535,next:6151,nextCheck:64378,str:15284,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:6151 check:64378,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:5711,h:1,d0:6152,d1:64379;
+        ("begin", Expression<MethodOrOperator> @:6152 check:64379,op:0,dt:2,nt:9,next:6118,nextCheck:64345,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:6118 check:64345,op:19,dt:4,nt:8,next:6121,nextCheck:64348,str:5742,h:1,d0:6119,d1:64346;
+                ("sleep", Expression<MethodOrOperator> @:6119 check:64346,op:19,dt:2,nt:9,next:6120,nextCheck:64347,str:85,h:0,d0:0,d1:0;
+                    (106, Expression<Short> @:6120 check:64347,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:5749,h:1,d0:106,d1:65535;)))
+            (____, Scope<Void> @:6121 check:64348,op:596,dt:4,nt:8,next:6126,nextCheck:64353,str:5756,h:1,d0:6122,d1:64349;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:6122 check:64349,op:596,dt:2,nt:9,next:6123,nextCheck:64350,str:1586,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\08_controlroom\cinematic\c08_4320_tar", Expression<Sound> @:6123 check:64350,op:32,dt:32,nt:9,next:6124,nextCheck:64351,str:15226,h:0,d0:687,d1:58405;
+                        (4294901843, Expression<Entity> @:6124 check:64351,op:56,dt:50,nt:9,next:6125,nextCheck:64352,str:11004,h:0,d0:83,d1:65535;
+                            (1f, Expression<Float> @:6125 check:64352,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:5844,h:1,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:6126 check:64353,op:562,dt:4,nt:8,next:6130,nextCheck:64357,str:5849,h:1,d0:6127,d1:64354;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:6127 check:64354,op:562,dt:2,nt:9,next:6128,nextCheck:64355,str:7661,h:0,d0:0,d1:0;
+                    ("c08_4320_tar", Expression<StringId> @:6128 check:64355,op:11,dt:11,nt:9,next:6129,nextCheck:64356,str:15284,h:0,d0:4464,d1:3072;
+                        (1f, Expression<Float> @:6129 check:64356,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:5882,h:1,d0:0,d1:16256;))))
+            (____, Scope<Void> @:6130 check:64357,op:220,dt:4,nt:8,next:6136,nextCheck:64363,str:5890,h:1,d0:6131,d1:64358;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:6131 check:64358,op:220,dt:2,nt:9,next:6132,nextCheck:64359,str:9857,h:0,d0:0,d1:0;
+                    ("miranda", Expression<Unit> @:6132 check:64359,op:57,dt:51,nt:9,next:6133,nextCheck:64360,str:11305,h:0,d0:80,d1:65535;
+                        ("pain", Expression<StringId> @:6133 check:64360,op:11,dt:11,nt:9,next:6134,nextCheck:64361,str:11607,h:0,d0:432,d1:1024;
+                            (0.5f, Expression<Float> @:6134 check:64361,op:6,dt:6,nt:9,next:6135,nextCheck:64362,str:5929,h:1,d0:0,d1:16128;
+                                (0, Expression<Short> @:6135 check:64362,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:5932,h:1,d0:0,d1:65535;))))))
+            (____, Scope<Void> @:6136 check:64363,op:27,dt:4,nt:8,next:6139,nextCheck:64366,str:5938,h:1,d0:6137,d1:64364;
+                ("print", Expression<MethodOrOperator> @:6137 check:64364,op:27,dt:2,nt:9,next:6138,nextCheck:64365,str:91,h:0,d0:0,d1:0;
+                    ("miranda - pain .5 0", Expression<String> @:6138 check:64365,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:15297,h:0,d0:8905,d1:12561;)))
+            (____, Scope<Void> @:6139 check:64366,op:19,dt:4,nt:8,next:6142,nextCheck:64369,str:5973,h:1,d0:6140,d1:64367;
+                ("sleep", Expression<MethodOrOperator> @:6140 check:64367,op:19,dt:2,nt:9,next:6141,nextCheck:64368,str:85,h:0,d0:0,d1:0;
+                    (45, Expression<Short> @:6141 check:64368,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:5980,h:1,d0:45,d1:65535;)))
+            (____, Scope<Void> @:6142 check:64369,op:220,dt:4,nt:8,next:6148,nextCheck:64375,str:5989,h:1,d0:6143,d1:64370;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:6143 check:64370,op:220,dt:2,nt:9,next:6144,nextCheck:64371,str:9857,h:0,d0:0,d1:0;
+                    ("miranda", Expression<Unit> @:6144 check:64371,op:57,dt:51,nt:9,next:6145,nextCheck:64372,str:11305,h:0,d0:80,d1:65535;
+                        ("scared", Expression<StringId> @:6145 check:64372,op:11,dt:11,nt:9,next:6146,nextCheck:64373,str:15317,h:0,d0:427,d1:1536;
+                            (0.5f, Expression<Float> @:6146 check:64373,op:6,dt:6,nt:9,next:6147,nextCheck:64374,str:6030,h:1,d0:0,d1:16128;
+                                (15, Expression<Short> @:6147 check:64374,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:6033,h:1,d0:15,d1:65535;))))))
+            (____, Scope<Void> @:6148 check:64375,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:6040,h:1,d0:6149,d1:64376;
+                ("print", Expression<MethodOrOperator> @:6149 check:64376,op:27,dt:2,nt:9,next:6150,nextCheck:64377,str:91,h:0,d0:0,d1:0;
+                    ("miranda - scared .5 15", Expression<String> @:6150 check:64377,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:15324,h:0,d0:8932,d1:12561;))))))

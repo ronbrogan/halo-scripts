@@ -1,0 +1,16 @@
+
+("sc_lift_reins", MethodDecl<Void> @:254 op:0,dt:0,nt:65535,next:10031,str:36477,d0:0,d1:0;
+    (____, Scope<Void> @:10031 op:0,dt:4,nt:8,next:65535,str:58518,d0:10032,d1:35492;
+        ("begin", Expression<MethodOrOperator> @:10032 op:0,dt:2,nt:9,next:10019,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:10019 op:2,dt:4,nt:8,next:10025,str:58550,d0:10020,d1:35480;
+                ("if", Expression<MethodOrOperator> @:10020 op:2,dt:2,nt:9,next:10021,str:456,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:10021 op:5,dt:5,nt:13,next:10022,str:19054,d0:4,d1:0;
+                        (____, Scope<Void> @:10022 op:27,dt:4,nt:8,next:65535,str:58563,d0:10023,d1:35483;
+                            ("print", Expression<MethodOrOperator> @:10023 op:27,dt:2,nt:9,next:10024,str:86,d0:0,d1:0;
+                                ("cortana: hostile reinforcements! coming down the lift!", Expression<String> @:10024 op:9,dt:9,nt:9,next:65535,str:23343,d0:23343,d1:0;))))))
+            (____, Scope<Void> @:10025 op:19,dt:4,nt:8,next:65535,str:58631,d0:10026,d1:35486;
+                ("sleep", Expression<MethodOrOperator> @:10026 op:19,dt:2,nt:9,next:10027,str:80,d0:0,d1:0;
+                    (____, Scope<Short> @:10027 op:362,dt:7,nt:8,next:65535,str:58638,d0:10028,d1:35488;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:10028 op:362,dt:2,nt:9,next:10029,str:19089,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:10029 op:50,dt:50,nt:9,next:10030,str:1586,d0:65535,d1:65535;
+                                ("2430", Expression<StringId> @:10030 op:11,dt:11,nt:9,next:65535,str:23398,d0:13881,d1:1024;)))))))))

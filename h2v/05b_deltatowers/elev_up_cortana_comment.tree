@@ -1,0 +1,61 @@
+
+("elev_up_cortana_comment", MethodDecl<Void> @:223 check:0,op:0,dt:0,nt:65535,next:12698,nextCheck:38158,str:23480,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:12698 check:38158,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:5244,h:2,d0:12699,d1:38159;
+        ("begin", Expression<MethodOrOperator> @:12699 check:38159,op:0,dt:2,nt:9,next:12641,nextCheck:38101,str:142,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:12641 check:38101,op:281,dt:4,nt:8,next:12644,nextCheck:38104,str:5286,h:2,d0:12642,d1:38102;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:12642 check:38102,op:281,dt:2,nt:9,next:12643,nextCheck:38103,str:10370,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:12643 check:38103,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:5306,h:2,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:12644 check:38104,op:19,dt:4,nt:8,next:12647,nextCheck:38107,str:5315,h:2,d0:12645,d1:38105;
+                ("sleep", Expression<MethodOrOperator> @:12645 check:38105,op:19,dt:2,nt:9,next:12646,nextCheck:38106,str:221,h:0,d0:0,d1:0;
+                    (180, Expression<Short> @:12646 check:38106,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:5322,h:2,d0:180,d1:65535;)))
+            (____, Scope<Void> @:12647 check:38107,op:27,dt:4,nt:8,next:12650,nextCheck:38110,str:5329,h:2,d0:12648,d1:38108;
+                ("print", Expression<MethodOrOperator> @:12648 check:38108,op:27,dt:2,nt:9,next:12649,nextCheck:38109,str:227,h:0,d0:0,d1:0;
+                    ("cortana: 'regret's carrier just received a response from high charity.'", Expression<String> @:12649 check:38109,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:22791,h:0,d0:37823,d1:11074;)))
+            (____, Scope<Void> @:12650 check:38110,op:27,dt:4,nt:8,next:12653,nextCheck:38113,str:5413,h:2,d0:12651,d1:38111;
+                ("print", Expression<MethodOrOperator> @:12651 check:38111,op:27,dt:2,nt:9,next:12652,nextCheck:38112,str:227,h:0,d0:0,d1:0;
+                    ("'a very well-encrypted message from the prophet of truth.'", Expression<String> @:12652 check:38112,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:22863,h:0,d0:37895,d1:11074;)))
+            (____, Scope<Void> @:12653 check:38113,op:19,dt:4,nt:8,next:12659,nextCheck:38119,str:5484,h:2,d0:12654,d1:38114;
+                ("sleep", Expression<MethodOrOperator> @:12654 check:38114,op:19,dt:2,nt:9,next:12655,nextCheck:38115,str:221,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:12655 check:38115,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:5491,h:2,d0:12656,d1:38116;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:12656 check:38116,op:362,dt:2,nt:9,next:12657,nextCheck:38117,str:10037,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:12657 check:38117,op:50,dt:50,nt:9,next:12658,nextCheck:38118,str:52,h:0,d0:65535,d1:65535;
+                                ("2150", Expression<StringId> @:12658 check:38118,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:22922,h:0,d0:9878,d1:1024;))))))
+            (____, Scope<Void> @:12659 check:38119,op:19,dt:4,nt:8,next:12662,nextCheck:38122,str:5617,h:2,d0:12660,d1:38120;
+                ("sleep", Expression<MethodOrOperator> @:12660 check:38120,op:19,dt:2,nt:9,next:12661,nextCheck:38121,str:221,h:0,d0:0,d1:0;
+                    (15, Expression<Short> @:12661 check:38121,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:5624,h:2,d0:15,d1:65535;)))
+            (____, Scope<Void> @:12662 check:38122,op:27,dt:4,nt:8,next:12665,nextCheck:38125,str:5630,h:2,d0:12663,d1:38123;
+                ("print", Expression<MethodOrOperator> @:12663 check:38123,op:27,dt:2,nt:9,next:12664,nextCheck:38124,str:227,h:0,d0:0,d1:0;
+                    ("cortana: 'listen to this: your haste has jeopardized the fulfillment of our covenant -'", Expression<String> @:12664 check:38124,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:22927,h:0,d0:37959,d1:11074;)))
+            (____, Scope<Void> @:12665 check:38125,op:27,dt:4,nt:8,next:12668,nextCheck:38128,str:5730,h:2,d0:12666,d1:38126;
+                ("print", Expression<MethodOrOperator> @:12666 check:38126,op:27,dt:2,nt:9,next:12667,nextCheck:38127,str:227,h:0,d0:0,d1:0;
+                    ("'threatened our grand design. that you shall be spared a public display of our contempt...'", Expression<String> @:12667 check:38127,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:23015,h:0,d0:38047,d1:11074;)))
+            (____, Scope<Void> @:12668 check:38128,op:27,dt:4,nt:8,next:12671,nextCheck:38131,str:5834,h:2,d0:12669,d1:38129;
+                ("print", Expression<MethodOrOperator> @:12669 check:38129,op:27,dt:2,nt:9,next:12670,nextCheck:38130,str:227,h:0,d0:0,d1:0;
+                    ("'...is thanks only to mercy and his wise counsel.'", Expression<String> @:12670 check:38130,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:23107,h:0,d0:38139,d1:11074;)))
+            (____, Scope<Void> @:12671 check:38131,op:19,dt:4,nt:8,next:12677,nextCheck:38137,str:5897,h:2,d0:12672,d1:38132;
+                ("sleep", Expression<MethodOrOperator> @:12672 check:38132,op:19,dt:2,nt:9,next:12673,nextCheck:38133,str:221,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:12673 check:38133,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:5904,h:2,d0:12674,d1:38134;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:12674 check:38134,op:362,dt:2,nt:9,next:12675,nextCheck:38135,str:10037,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:12675 check:38135,op:50,dt:50,nt:9,next:12676,nextCheck:38136,str:52,h:0,d0:65535,d1:65535;
+                                ("2160", Expression<StringId> @:12676 check:38136,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:23158,h:0,d0:9879,d1:1024;))))))
+            (____, Scope<Void> @:12677 check:38137,op:27,dt:4,nt:8,next:12680,nextCheck:38140,str:6030,h:2,d0:12678,d1:38138;
+                ("print", Expression<MethodOrOperator> @:12678 check:38138,op:27,dt:2,nt:9,next:12679,nextCheck:38139,str:227,h:0,d0:0,d1:0;
+                    ("cortana: 'truth, mercy, regret. three prophet hierarchs.'", Expression<String> @:12679 check:38139,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:23163,h:0,d0:38195,d1:11074;)))
+            (____, Scope<Void> @:12680 check:38140,op:27,dt:4,nt:8,next:12683,nextCheck:38143,str:6101,h:2,d0:12681,d1:38141;
+                ("print", Expression<MethodOrOperator> @:12681 check:38141,op:27,dt:2,nt:9,next:12682,nextCheck:38142,str:227,h:0,d0:0,d1:0;
+                    ("'killing regret should shake-up the covenant leadership, but, frankly'", Expression<String> @:12682 check:38142,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:23221,h:0,d0:38253,d1:11074;)))
+            (____, Scope<Void> @:12683 check:38143,op:27,dt:4,nt:8,next:12686,nextCheck:38146,str:6185,h:2,d0:12684,d1:38144;
+                ("print", Expression<MethodOrOperator> @:12684 check:38144,op:27,dt:2,nt:9,next:12685,nextCheck:38145,str:227,h:0,d0:0,d1:0;
+                    ("'it sounds like you might be doing truth a favor.'", Expression<String> @:12685 check:38145,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:23292,h:0,d0:38324,d1:11074;)))
+            (____, Scope<Void> @:12686 check:38146,op:19,dt:4,nt:8,next:12692,nextCheck:38152,str:6248,h:2,d0:12687,d1:38147;
+                ("sleep", Expression<MethodOrOperator> @:12687 check:38147,op:19,dt:2,nt:9,next:12688,nextCheck:38148,str:221,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:12688 check:38148,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:6255,h:2,d0:12689,d1:38149;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:12689 check:38149,op:362,dt:2,nt:9,next:12690,nextCheck:38150,str:10037,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:12690 check:38150,op:50,dt:50,nt:9,next:12691,nextCheck:38151,str:52,h:0,d0:65535,d1:65535;
+                                ("2170", Expression<StringId> @:12691 check:38151,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:23343,h:0,d0:9880,d1:1024;))))))
+            (____, Scope<Void> @:12692 check:38152,op:19,dt:4,nt:8,next:12695,nextCheck:38155,str:6381,h:2,d0:12693,d1:38153;
+                ("sleep", Expression<MethodOrOperator> @:12693 check:38153,op:19,dt:2,nt:9,next:12694,nextCheck:38154,str:221,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:12694 check:38154,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:6388,h:2,d0:30,d1:65535;)))
+            (____, Scope<Void> @:12695 check:38155,op:281,dt:4,nt:8,next:65535,nextCheck:65535,str:6394,h:2,d0:12696,d1:38156;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:12696 check:38156,op:281,dt:2,nt:9,next:12697,nextCheck:38157,str:10370,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:12697 check:38157,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:6414,h:2,d0:65281,d1:65535;))))))

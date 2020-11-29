@@ -1,0 +1,22 @@
+
+("e8_wraith_dialogue", MethodDecl<Void> @:417 op:0,dt:0,nt:65535,next:15745,str:34036,d0:0,d1:0;
+    (____, Scope<Void> @:15745 op:0,dt:4,nt:8,next:65535,str:1835,d0:15746,d1:41206;
+        ("begin", Expression<MethodOrOperator> @:15746 op:0,dt:2,nt:9,next:15727,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:15727 op:21,dt:4,nt:8,next:15735,str:1908,d0:15728,d1:41188;
+                ("sleep_until", Expression<MethodOrOperator> @:15728 op:21,dt:2,nt:9,next:15729,str:236,d0:0,d1:0;
+                    (____, Scope<Boolean> @:15729 op:18,dt:5,nt:8,next:65535,str:1921,d0:15730,d1:41190;
+                        ("<=", Expression<MethodOrOperator> @:15730 op:18,dt:2,nt:9,next:15731,str:6210,d0:0,d1:0;
+                            (____, Scope<Short> @:15731 op:327,dt:7,nt:8,next:15734,str:1925,d0:15732,d1:41192;
+                                ("ai_living_count", Expression<MethodOrOperator> @:15732 op:327,dt:2,nt:9,next:15733,str:5988,d0:0,d1:0;
+                                    ("e8_pro_wraiths0", Expression<AI> @:15733 op:19,dt:19,nt:9,next:65535,str:33948,d0:31,d1:16384;)))
+                            (2, Expression<Short> @:15734 op:7,dt:7,nt:9,next:65535,str:1959,d0:2,d1:65535;)))))
+            (____, Scope<Void> @:15735 op:19,dt:4,nt:8,next:15738,str:1965,d0:15736,d1:41196;
+                ("sleep", Expression<MethodOrOperator> @:15736 op:19,dt:2,nt:9,next:15737,str:85,d0:0,d1:0;
+                    (30, Expression<Short> @:15737 op:7,dt:7,nt:9,next:65535,str:1972,d0:30,d1:65535;)))
+            (____, Scope<Void> @:15738 op:27,dt:4,nt:8,next:15741,str:1978,d0:15739,d1:41199;
+                ("print", Expression<MethodOrOperator> @:15739 op:27,dt:2,nt:9,next:15740,str:91,d0:0,d1:0;
+                    ("johnson: hah, how do you like it?", Expression<String> @:15740 op:9,dt:9,nt:9,next:65535,str:33986,d0:33986,d1:0;)))
+            (____, Scope<Void> @:15741 op:362,dt:4,nt:8,next:65535,str:2024,d0:15742,d1:41202;
+                ("ai_play_line_on_object", Expression<MethodOrOperator> @:15742 op:362,dt:2,nt:9,next:15743,str:30626,d0:0,d1:0;
+                    (4294967295, Expression<Entity> @:15743 op:50,dt:50,nt:9,next:15744,str:1,d0:65535,d1:65535;
+                        ("0660", Expression<StringId> @:15744 op:11,dt:11,nt:9,next:65535,str:34020,d0:13465,d1:1024;)))))))

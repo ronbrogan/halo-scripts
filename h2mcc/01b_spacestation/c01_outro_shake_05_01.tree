@@ -1,0 +1,21 @@
+
+("c01_outro_shake_05_01", MethodDecl<Void> @:240 op:0,dt:0,nt:65535,next:9160,str:22568,d0:0,d1:0;
+    (____, Scope<Void> @:9160 op:0,dt:4,nt:8,next:65535,str:45782,d0:9161,d1:34621;
+        ("begin", Expression<MethodOrOperator> @:9161 op:0,dt:2,nt:9,next:9143,str:11,d0:0,d1:0;
+            (____, Scope<Void> @:9143 op:676,dt:4,nt:8,next:9145,str:45822,d0:9144,d1:34604;
+                ("time_code_reset", Expression<MethodOrOperator> @:9144 op:676,dt:2,nt:9,next:65535,str:5225,d0:0,d1:0;))
+            (____, Scope<Void> @:9145 op:19,dt:4,nt:8,next:9148,str:45842,d0:9146,d1:34606;
+                ("sleep", Expression<MethodOrOperator> @:9146 op:19,dt:2,nt:9,next:9147,str:90,d0:0,d1:0;
+                    (470, Expression<Short> @:9147 op:7,dt:7,nt:9,next:65535,str:45849,d0:470,d1:65535;)))
+            (____, Scope<Void> @:9148 op:27,dt:4,nt:8,next:9151,str:45859,d0:9149,d1:34609;
+                ("print", Expression<MethodOrOperator> @:9149 op:27,dt:2,nt:9,next:9150,str:96,d0:0,d1:0;
+                    ("shake", Expression<String> @:9150 op:9,dt:9,nt:9,next:65535,str:21324,d0:21324,d1:0;)))
+            (____, Scope<Void> @:9151 op:653,dt:4,nt:8,next:9156,str:45877,d0:9152,d1:34612;
+                ("player_effect_set_max_rotation", Expression<MethodOrOperator> @:9152 op:653,dt:2,nt:9,next:9153,str:21330,d0:0,d1:0;
+                    (0f, Expression<Float> @:9153 op:6,dt:6,nt:9,next:9154,str:45909,d0:0,d1:0;
+                        (1f, Expression<Float> @:9154 op:6,dt:6,nt:9,next:9155,str:45911,d0:0,d1:16256;
+                            (1f, Expression<Float> @:9155 op:6,dt:6,nt:9,next:65535,str:45913,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:9156 op:655,dt:4,nt:8,next:65535,str:45918,d0:9157,d1:34617;
+                ("player_effect_start", Expression<MethodOrOperator> @:9157 op:655,dt:2,nt:9,next:9158,str:21361,d0:0,d1:0;
+                    (0.25f, Expression<Float> @:9158 op:6,dt:6,nt:9,next:9159,str:45939,d0:0,d1:16000;
+                        (0f, Expression<Float> @:9159 op:6,dt:6,nt:9,next:65535,str:45943,d0:0,d1:0;)))))))

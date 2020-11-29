@@ -1,0 +1,23 @@
+
+("ai_sentinel_spawn", MethodDecl<Void> @:200 op:0,dt:0,nt:65535,next:8684,str:18479,d0:0,d1:0;
+    (____, Scope<Void> @:8684 op:0,dt:4,nt:8,next:65535,str:31827,d0:8685,d1:34145;
+        ("begin", Expression<MethodOrOperator> @:8685 op:0,dt:2,nt:9,next:8665,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:8665 op:21,dt:4,nt:8,next:65535,str:31863,d0:8666,d1:34126;
+                ("sleep_until", Expression<MethodOrOperator> @:8666 op:21,dt:2,nt:9,next:8667,str:236,d0:0,d1:0;
+                    (____, Scope<Boolean> @:8667 op:0,dt:5,nt:8,next:65535,str:31879,d0:8668,d1:34128;
+                        ("begin", Expression<MethodOrOperator> @:8668 op:0,dt:2,nt:9,next:8669,str:6,d0:0,d1:0;
+                            (____, Scope<Void> @:8669 op:21,dt:4,nt:8,next:8677,str:31890,d0:8670,d1:34130;
+                                ("sleep_until", Expression<MethodOrOperator> @:8670 op:21,dt:2,nt:9,next:8671,str:236,d0:0,d1:0;
+                                    (____, Scope<Boolean> @:8671 op:18,dt:5,nt:8,next:65535,str:31903,d0:8672,d1:34132;
+                                        ("<=", Expression<MethodOrOperator> @:8672 op:18,dt:2,nt:9,next:8673,str:11908,d0:0,d1:0;
+                                            (____, Scope<Short> @:8673 op:327,dt:7,nt:8,next:8676,str:31907,d0:8674,d1:34134;
+                                                ("ai_living_count", Expression<MethodOrOperator> @:8674 op:327,dt:2,nt:9,next:8675,str:11911,d0:0,d1:0;
+                                                    ("gorge_sen", Expression<AI> @:8675 op:19,dt:19,nt:9,next:65535,str:18425,d0:83,d1:0;)))
+                                            (0, Expression<Short> @:8676 op:7,dt:7,nt:9,next:65535,str:31935,d0:0,d1:65535;)))))
+                            (____, Scope<Void> @:8677 op:19,dt:4,nt:8,next:8680,str:31943,d0:8678,d1:34138;
+                                ("sleep", Expression<MethodOrOperator> @:8678 op:19,dt:2,nt:9,next:8679,str:85,d0:0,d1:0;
+                                    (150, Expression<Short> @:8679 op:7,dt:7,nt:9,next:65535,str:31950,d0:150,d1:65535;)))
+                            (____, Scope<Void> @:8680 op:290,dt:4,nt:8,next:8683,str:31959,d0:8681,d1:34141;
+                                ("ai_place", Expression<MethodOrOperator> @:8681 op:290,dt:2,nt:9,next:8682,str:16231,d0:0,d1:0;
+                                    ("gorge_sen", Expression<AI> @:8682 op:19,dt:19,nt:9,next:65535,str:18425,d0:83,d1:0;)))
+                            ("g_gorge_sen_spawn", VariableAccess<Boolean> @:8683 op:5,dt:5,nt:13,next:65535,str:18435,d0:48,d1:0;))))))))

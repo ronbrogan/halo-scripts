@@ -1,0 +1,30 @@
+
+("cinematic_lighting_chief_02", MethodDecl<Void> @:216 check:0,op:0,dt:0,nt:65535,next:8500,nextCheck:33960,str:20698,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:8500 check:33960,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:38001,h:1,d0:8501,d1:33961;
+        ("begin", Expression<MethodOrOperator> @:8501 check:33961,op:0,dt:2,nt:9,next:8474,nextCheck:33934,str:11,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:8474 check:33934,op:27,dt:4,nt:8,next:8477,nextCheck:33937,str:38050,h:1,d0:8475,d1:33935;
+                ("print", Expression<MethodOrOperator> @:8475 check:33935,op:27,dt:2,nt:9,next:8476,nextCheck:33936,str:96,h:0,d0:0,d1:0;
+                    ("light chief", Expression<String> @:8476 check:33936,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:19742,h:0,d0:52558,d1:12558;)))
+            (____, Scope<Void> @:8477 check:33937,op:96,dt:4,nt:8,next:8484,nextCheck:33944,str:38074,h:1,d0:8478,d1:33938;
+                ("cinematic_lighting_set_primary_light", Expression<MethodOrOperator> @:8478 check:33938,op:96,dt:2,nt:9,next:8479,nextCheck:33939,str:2271,h:0,d0:0,d1:0;
+                    (33f, Expression<Float> @:8479 check:33939,op:6,dt:6,nt:9,next:8480,nextCheck:33940,str:38112,h:1,d0:0,d1:16900;
+                        (188f, Expression<Float> @:8480 check:33940,op:6,dt:6,nt:9,next:8481,nextCheck:33941,str:38115,h:1,d0:0,d1:17212;
+                            (0.388235f, Expression<Float> @:8481 check:33941,op:6,dt:6,nt:9,next:8482,nextCheck:33942,str:38119,h:1,d0:50877,d1:16070;
+                                (0.380392f, Expression<Float> @:8482 check:33942,op:6,dt:6,nt:9,next:8483,nextCheck:33943,str:38128,h:1,d0:49853,d1:16066;
+                                    (0.372549f, Expression<Float> @:8483 check:33943,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:38137,h:1,d0:48830,d1:16062;)))))))
+            (____, Scope<Void> @:8484 check:33944,op:97,dt:4,nt:8,next:8491,nextCheck:33951,str:38149,h:1,d0:8485,d1:33945;
+                ("cinematic_lighting_set_secondary_light", Expression<MethodOrOperator> @:8485 check:33945,op:97,dt:2,nt:9,next:8486,nextCheck:33946,str:2308,h:0,d0:0,d1:0;
+                    (-28f, Expression<Float> @:8486 check:33946,op:6,dt:6,nt:9,next:8487,nextCheck:33947,str:38189,h:1,d0:0,d1:49632;
+                        (54f, Expression<Float> @:8487 check:33947,op:6,dt:6,nt:9,next:8488,nextCheck:33948,str:38193,h:1,d0:0,d1:16984;
+                            (0.207843f, Expression<Float> @:8488 check:33948,op:6,dt:6,nt:9,next:8489,nextCheck:33949,str:38196,h:1,d0:54476,d1:15956;
+                                (0.219608f, Expression<Float> @:8489 check:33949,op:6,dt:6,nt:9,next:8490,nextCheck:33950,str:38205,h:1,d0:57579,d1:15968;
+                                    (0.258824f, Expression<Float> @:8490 check:33950,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:38214,h:1,d0:33940,d1:16004;)))))))
+            (____, Scope<Void> @:8491 check:33951,op:98,dt:4,nt:8,next:8496,nextCheck:33956,str:38226,h:1,d0:8492,d1:33952;
+                ("cinematic_lighting_set_ambient_light", Expression<MethodOrOperator> @:8492 check:33952,op:98,dt:2,nt:9,next:8493,nextCheck:33953,str:2347,h:0,d0:0,d1:0;
+                    (0f, Expression<Float> @:8493 check:33953,op:6,dt:6,nt:9,next:8494,nextCheck:33954,str:38264,h:1,d0:0,d1:0;
+                        (0f, Expression<Float> @:8494 check:33954,op:6,dt:6,nt:9,next:8495,nextCheck:33955,str:38266,h:1,d0:0,d1:0;
+                            (0f, Expression<Float> @:8495 check:33955,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:38268,h:1,d0:0,d1:0;)))))
+            (____, Scope<Void> @:8496 check:33956,op:95,dt:4,nt:8,next:65535,nextCheck:65535,str:38276,h:1,d0:8497,d1:33957;
+                ("object_uses_cinematic_lighting", Expression<MethodOrOperator> @:8497 check:33957,op:95,dt:2,nt:9,next:8498,nextCheck:33958,str:2384,h:0,d0:0,d1:0;
+                    (4294902010, Expression<Entity> @:8498 check:33958,op:56,dt:50,nt:9,next:8499,nextCheck:33959,str:20633,h:0,d0:250,d1:65535;
+                        (True, Expression<Boolean> @:8499 check:33959,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:38323,h:1,d0:65281,d1:65535;)))))))

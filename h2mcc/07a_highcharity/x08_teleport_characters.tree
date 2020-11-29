@@ -1,0 +1,26 @@
+
+("x08_teleport_characters", MethodDecl<Void> @:117 op:0,dt:0,nt:65535,next:3439,str:8114,d0:0,d1:0;
+    (____, Scope<Void> @:3439 op:0,dt:4,nt:8,next:65535,str:46326,d0:3440,d1:61667;
+        ("begin", Expression<MethodOrOperator> @:3440 op:0,dt:2,nt:9,next:3417,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:3417 op:19,dt:4,nt:8,next:3420,str:46370,d0:3418,d1:61645;
+                ("sleep", Expression<MethodOrOperator> @:3418 op:19,dt:2,nt:9,next:3419,str:80,d0:0,d1:0;
+                    (470, Expression<Short> @:3419 op:7,dt:7,nt:9,next:65535,str:46377,d0:470,d1:65535;)))
+            (____, Scope<Void> @:3420 op:27,dt:4,nt:8,next:3423,str:46384,d0:3421,d1:61648;
+                ("print", Expression<MethodOrOperator> @:3421 op:27,dt:2,nt:9,next:3422,str:86,d0:0,d1:0;
+                    ("effect - teleport dervish", Expression<String> @:3422 op:9,dt:9,nt:9,next:65535,str:7981,d0:7981,d1:0;)))
+            (____, Scope<Void> @:3423 op:41,dt:4,nt:8,next:3428,str:46422,d0:3424,d1:61651;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:3424 op:41,dt:2,nt:9,next:3425,str:7832,d0:0,d1:0;
+                    ("effects\gameplay\regret_teleport", Expression<Effect> @:3425 op:33,dt:33,nt:9,next:3426,str:8007,d0:1012,d1:58730;
+                        (4294902014, Expression<Entity> @:3426 op:56,dt:50,nt:9,next:3427,str:3241,d0:254,d1:65535;
+                            ("body", Expression<StringId> @:3427 op:11,dt:11,nt:9,next:65535,str:8040,d0:189,d1:1024;)))))
+            (____, Scope<Void> @:3428 op:19,dt:4,nt:8,next:3431,str:46505,d0:3429,d1:61656;
+                ("sleep", Expression<MethodOrOperator> @:3429 op:19,dt:2,nt:9,next:3430,str:80,d0:0,d1:0;
+                    (5, Expression<Short> @:3430 op:7,dt:7,nt:9,next:65535,str:46512,d0:5,d1:65535;)))
+            (____, Scope<Void> @:3431 op:27,dt:4,nt:8,next:3434,str:46517,d0:3432,d1:61659;
+                ("print", Expression<MethodOrOperator> @:3432 op:27,dt:2,nt:9,next:3433,str:86,d0:0,d1:0;
+                    ("effect - teleport chief", Expression<String> @:3433 op:9,dt:9,nt:9,next:65535,str:8045,d0:8045,d1:0;)))
+            (____, Scope<Void> @:3434 op:41,dt:4,nt:8,next:65535,str:46553,d0:3435,d1:61662;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:3435 op:41,dt:2,nt:9,next:3436,str:7832,d0:0,d1:0;
+                    ("effects\gameplay\regret_teleport", Expression<Effect> @:3436 op:33,dt:33,nt:9,next:3437,str:8007,d0:1012,d1:58730;
+                        (4294902012, Expression<Entity> @:3437 op:56,dt:50,nt:9,next:3438,str:1958,d0:252,d1:65535;
+                            ("body", Expression<StringId> @:3438 op:11,dt:11,nt:9,next:65535,str:8040,d0:189,d1:1024;))))))))

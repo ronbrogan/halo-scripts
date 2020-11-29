@@ -1,0 +1,27 @@
+
+("cs_boss_tartarus_cheer", MethodDecl<Void> @:27 check:0,op:0,dt:0,nt:65535,next:876,nextCheck:59103,str:6390,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:876 check:59103,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9754,h:0,d0:877,d1:59104;
+        ("begin", Expression<MethodOrOperator> @:877 check:59104,op:0,dt:2,nt:9,next:853,nextCheck:59080,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:853 check:59080,op:444,dt:4,nt:8,next:856,nextCheck:59083,str:9802,h:0,d0:854,d1:59081;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:854 check:59081,op:444,dt:2,nt:9,next:855,nextCheck:59082,str:1094,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:855 check:59082,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9820,h:0,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:856 check:59083,op:442,dt:4,nt:8,next:859,nextCheck:59086,str:9825,h:0,d0:857,d1:59084;
+                ("cs_enable_targeting", Expression<MethodOrOperator> @:857 check:59084,op:442,dt:2,nt:9,next:858,nextCheck:59085,str:1222,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:858 check:59085,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9846,h:0,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:859 check:59086,op:400,dt:4,nt:8,next:862,nextCheck:59089,str:9851,h:0,d0:860,d1:59087;
+                ("cs_face_player", Expression<MethodOrOperator> @:860 check:59087,op:400,dt:2,nt:9,next:861,nextCheck:59088,str:1207,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:861 check:59088,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9867,h:0,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:862 check:59089,op:19,dt:4,nt:8,next:865,nextCheck:59092,str:9872,h:0,d0:863,d1:59090;
+                ("sleep", Expression<MethodOrOperator> @:863 check:59090,op:19,dt:2,nt:9,next:864,nextCheck:59091,str:85,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:864 check:59091,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:9879,h:0,d0:60,d1:65535;)))
+            (____, Scope<Void> @:865 check:59092,op:201,dt:4,nt:8,next:873,nextCheck:59100,str:9885,h:0,d0:866,d1:59093;
+                ("custom_animation", Expression<MethodOrOperator> @:866 check:59093,op:201,dt:2,nt:9,next:867,nextCheck:59094,str:1242,h:0,d0:0,d1:0;
+                    (____, Scope<Unit> @:867 check:59094,op:285,dt:51,nt:8,next:870,nextCheck:59097,str:9903,h:0,d0:868,d1:59095;
+                        ("ai_get_unit", Expression<MethodOrOperator> @:868 check:59095,op:285,dt:2,nt:9,next:869,nextCheck:59096,str:1259,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:869 check:59096,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:1271,h:0,d0:33564,d1:65535;)))
+                    ("objects\characters\brute\brute", Expression<Animation> @:870 check:59097,op:36,dt:36,nt:9,next:871,nextCheck:59098,str:1288,h:0,d0:2891,d1:60609;
+                        ("combat:rifle:cheer", Expression<StringId> @:871 check:59098,op:11,dt:11,nt:9,next:872,nextCheck:59099,str:1319,h:0,d0:3646,d1:4608;
+                            (True, Expression<Boolean> @:872 check:59099,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9988,h:0,d0:65281,d1:65535;)))))
+            (____, Scope<Void> @:873 check:59100,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:9996,h:0,d0:874,d1:59101;
+                ("sleep", Expression<MethodOrOperator> @:874 check:59101,op:19,dt:2,nt:9,next:875,nextCheck:59102,str:85,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:875 check:59102,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:10003,h:0,d0:60,d1:65535;))))))

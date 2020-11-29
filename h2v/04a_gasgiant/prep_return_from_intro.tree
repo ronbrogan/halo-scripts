@@ -1,0 +1,29 @@
+
+("prep_return_from_intro", MethodDecl<Void> @:242 check:0,op:0,dt:0,nt:65535,next:7888,nextCheck:33348,str:35767,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:7888 check:33348,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28791,h:1,d0:7889,d1:33349;
+        ("begin", Expression<MethodOrOperator> @:7889 check:33349,op:0,dt:2,nt:9,next:7863,nextCheck:33323,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:7863 check:33323,op:290,dt:4,nt:8,next:7866,nextCheck:33326,str:28836,h:1,d0:7864,d1:33324;
+                ("ai_place", Expression<MethodOrOperator> @:7864 check:33324,op:290,dt:2,nt:9,next:7865,nextCheck:33325,str:17177,h:0,d0:0,d1:0;
+                    ("intro_phantom", Expression<AI> @:7865 check:33325,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:17186,h:0,d0:1,d1:0;)))
+            (____, Scope<Void> @:7866 check:33326,op:105,dt:4,nt:8,next:7871,nextCheck:33331,str:28865,h:1,d0:7867,d1:33327;
+                ("object_teleport", Expression<MethodOrOperator> @:7867 check:33327,op:105,dt:2,nt:9,next:7868,nextCheck:33328,str:17200,h:0,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:7868 check:33328,op:0,dt:50,nt:10,next:7870,nextCheck:33330,str:28882,h:1,d0:7869,d1:33329;
+                        ("player0", Expression<MethodOrOperator> @:7869 check:33329,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:607,h:0,d0:0,d1:0;))
+                    ("player0_start", Expression<LocationFlag> @:7870 check:33330,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:17216,h:0,d0:3,d1:0;)))
+            (____, Scope<Void> @:7871 check:33331,op:105,dt:4,nt:8,next:7876,nextCheck:33336,str:28909,h:1,d0:7872,d1:33332;
+                ("object_teleport", Expression<MethodOrOperator> @:7872 check:33332,op:105,dt:2,nt:9,next:7873,nextCheck:33333,str:17200,h:0,d0:0,d1:0;
+                    ("player1", ScriptInvocation<Entity> @:7873 check:33333,op:1,dt:50,nt:10,next:7875,nextCheck:33335,str:28926,h:1,d0:7874,d1:33334;
+                        ("player1", Expression<MethodOrOperator> @:7874 check:33334,op:1,dt:2,nt:9,next:65535,nextCheck:65535,str:615,h:0,d0:0,d1:0;))
+                    ("player1_start", Expression<LocationFlag> @:7875 check:33335,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:17230,h:0,d0:4,d1:0;)))
+            (____, Scope<Void> @:7876 check:33336,op:290,dt:4,nt:8,next:7879,nextCheck:33339,str:28955,h:1,d0:7877,d1:33337;
+                ("ai_place", Expression<MethodOrOperator> @:7877 check:33337,op:290,dt:2,nt:9,next:7878,nextCheck:33338,str:17177,h:0,d0:0,d1:0;
+                    ("intro_elites", Expression<AI> @:7878 check:33338,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:17244,h:0,d0:0,d1:0;)))
+            (____, Scope<Void> @:7879 check:33339,op:290,dt:4,nt:8,next:7882,nextCheck:33342,str:28981,h:1,d0:7880,d1:33340;
+                ("ai_place", Expression<MethodOrOperator> @:7880 check:33340,op:290,dt:2,nt:9,next:7881,nextCheck:33341,str:17177,h:0,d0:0,d1:0;
+                    ("allies_elites_01", Expression<AI> @:7881 check:33341,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:17257,h:0,d0:3,d1:0;)))
+            (____, Scope<Void> @:7882 check:33342,op:290,dt:4,nt:8,next:7885,nextCheck:33345,str:29011,h:1,d0:7883,d1:33343;
+                ("ai_place", Expression<MethodOrOperator> @:7883 check:33343,op:290,dt:2,nt:9,next:7884,nextCheck:33344,str:17177,h:0,d0:0,d1:0;
+                    ("hacker", Expression<AI> @:7884 check:33344,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:17274,h:0,d0:4,d1:0;)))
+            (____, Scope<Void> @:7885 check:33345,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:29031,h:1,d0:7886,d1:33346;
+                ("ai_place", Expression<MethodOrOperator> @:7886 check:33346,op:290,dt:2,nt:9,next:7887,nextCheck:33347,str:17177,h:0,d0:0,d1:0;
+                    ("allies_grunts_01", Expression<AI> @:7887 check:33347,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:17281,h:0,d0:2,d1:0;))))))

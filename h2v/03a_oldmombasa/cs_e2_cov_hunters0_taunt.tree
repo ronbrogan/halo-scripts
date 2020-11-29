@@ -1,0 +1,36 @@
+
+("cs_e2_cov_hunters0_taunt", MethodDecl<Void> @:364 check:0,op:0,dt:0,nt:65535,next:14771,nextCheck:40231,str:24632,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:14771 check:40231,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:51606,h:2,d0:14772,d1:40232;
+        ("begin", Expression<MethodOrOperator> @:14772 check:40232,op:0,dt:2,nt:9,next:14739,nextCheck:40199,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:14739 check:40199,op:4,dt:4,nt:8,next:14743,nextCheck:40203,str:51656,h:2,d0:14740,d1:40200;
+                ("set", Expression<MethodOrOperator> @:14740 check:40200,op:4,dt:2,nt:9,next:14741,nextCheck:40201,str:3332,h:0,d0:0,d1:0;
+                    ("g_e2_cov_hunters0_active", VariableAccess<Boolean> @:14741 check:40201,op:65535,dt:5,nt:13,next:14742,nextCheck:40202,str:24549,h:0,d0:45,d1:0;
+                        (True, Expression<Boolean> @:14742 check:40202,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:51686,h:2,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:14743 check:40203,op:440,dt:4,nt:8,next:14746,nextCheck:40206,str:51694,h:2,d0:14744,d1:40204;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:14744 check:40204,op:440,dt:2,nt:9,next:14745,nextCheck:40205,str:14820,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:14745 check:40205,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:51714,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:14746 check:40206,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:51722,h:2,d0:14747,d1:40207;
+                ("if", Expression<MethodOrOperator> @:14747 check:40207,op:2,dt:2,nt:9,next:14748,nextCheck:40208,str:519,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:14748 check:40208,op:15,dt:5,nt:8,next:14754,nextCheck:40214,str:51726,h:2,d0:14749,d1:40209;
+                        (">", Expression<MethodOrOperator> @:14749 check:40209,op:15,dt:2,nt:9,next:14750,nextCheck:40210,str:12195,h:0,d0:0,d1:0;
+                            (-1.9485077E-21f, Scope<Float> @:14750 check:40210,op:329,dt:6,nt:8,next:14753,nextCheck:40213,str:51729,h:2,d0:14751,d1:40211;
+                                ("ai_strength", Expression<MethodOrOperator> @:14751 check:40211,op:329,dt:2,nt:9,next:14752,nextCheck:40212,str:16880,h:0,d0:0,d1:0;
+                                    ("ai_current_actor", VariableAccess<AI> @:14752 check:40212,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4311,h:0,d0:33564,d1:65535;)))
+                            (0.98f, Expression<Float> @:14753 check:40213,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:51760,h:2,d0:57672,d1:16250;)))
+                    (____, Scope<Void> @:14754 check:40214,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:51770,h:2,d0:14755,d1:40215;
+                        ("begin", Expression<MethodOrOperator> @:14755 check:40215,op:0,dt:2,nt:9,next:14756,nextCheck:40216,str:64,h:0,d0:0,d1:0;
+                            (____, Scope<Void> @:14756 check:40216,op:201,dt:4,nt:8,next:14764,nextCheck:40224,str:51781,h:2,d0:14757,d1:40217;
+                                ("custom_animation", Expression<MethodOrOperator> @:14757 check:40217,op:201,dt:2,nt:9,next:14758,nextCheck:40218,str:23668,h:0,d0:0,d1:0;
+                                    (____, Scope<Unit> @:14758 check:40218,op:285,dt:51,nt:8,next:14761,nextCheck:40221,str:51799,h:2,d0:14759,d1:40219;
+                                        ("ai_get_unit", Expression<MethodOrOperator> @:14759 check:40219,op:285,dt:2,nt:9,next:14760,nextCheck:40220,str:12527,h:0,d0:0,d1:0;
+                                            ("ai_current_actor", VariableAccess<AI> @:14760 check:40220,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4311,h:0,d0:33564,d1:65535;)))
+                                    ("objects\characters\hunter\hunter", Expression<Animation> @:14761 check:40221,op:36,dt:36,nt:9,next:14762,nextCheck:40222,str:24574,h:0,d0:6407,d1:64311;
+                                        ("combat:unarmed:shakefist", Expression<StringId> @:14762 check:40222,op:11,dt:11,nt:9,next:14763,nextCheck:40223,str:24607,h:0,d0:10957,d1:6144;
+                                            (True, Expression<Boolean> @:14763 check:40223,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:51892,h:2,d0:65281,d1:65535;)))))
+                            (____, Scope<Void> @:14764 check:40224,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:51902,h:2,d0:14765,d1:40225;
+                                ("sleep", Expression<MethodOrOperator> @:14765 check:40225,op:19,dt:2,nt:9,next:14766,nextCheck:40226,str:143,h:0,d0:0,d1:0;
+                                    (____, Scope<Short> @:14766 check:40226,op:199,dt:7,nt:8,next:65535,nextCheck:65535,str:51909,h:2,d0:14767,d1:40227;
+                                        ("unit_get_custom_animation_time", Expression<MethodOrOperator> @:14767 check:40227,op:199,dt:2,nt:9,next:14768,nextCheck:40228,str:23736,h:0,d0:0,d1:0;
+                                            (____, Scope<Unit> @:14768 check:40228,op:285,dt:51,nt:8,next:65535,nextCheck:65535,str:51941,h:2,d0:14769,d1:40229;
+                                                ("ai_get_unit", Expression<MethodOrOperator> @:14769 check:40229,op:285,dt:2,nt:9,next:14770,nextCheck:40230,str:12527,h:0,d0:0,d1:0;
+                                                    ("ai_current_actor", VariableAccess<AI> @:14770 check:40230,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4311,h:0,d0:33564,d1:65535;))))))))))))))

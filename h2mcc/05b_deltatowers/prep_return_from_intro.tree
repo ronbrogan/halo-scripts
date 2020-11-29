@@ -1,0 +1,34 @@
+
+("prep_return_from_intro", MethodDecl<Void> @:141 op:0,dt:0,nt:65535,next:3978,str:32437,d0:0,d1:0;
+    (____, Scope<Void> @:3978 op:0,dt:4,nt:8,next:65535,str:48555,d0:3979,d1:62206;
+        ("begin", Expression<MethodOrOperator> @:3979 op:0,dt:2,nt:9,next:3948,str:142,d0:0,d1:0;
+            (____, Scope<Void> @:3948 op:48,dt:4,nt:8,next:3951,str:48600,d0:3949,d1:62176;
+                ("object_create_anew", Expression<MethodOrOperator> @:3949 op:48,dt:2,nt:9,next:3950,str:2641,d0:0,d1:0;
+                    ("in_game_throne", Expression<EntityIdentifier> @:3950 op:56,dt:56,nt:9,next:65535,str:10276,d0:5,d1:65535;)))
+            (____, Scope<Void> @:3951 op:48,dt:4,nt:8,next:3954,str:48638,d0:3952,d1:62179;
+                ("object_create_anew", Expression<MethodOrOperator> @:3952 op:48,dt:2,nt:9,next:3953,str:2641,d0:0,d1:0;
+                    ("regret01", Expression<EntityIdentifier> @:3953 op:56,dt:56,nt:9,next:65535,str:10056,d0:78,d1:65535;)))
+            (____, Scope<Void> @:3954 op:74,dt:4,nt:8,next:3960,str:48670,d0:3955,d1:62182;
+                ("objects_attach", Expression<MethodOrOperator> @:3955 op:74,dt:2,nt:9,next:3956,str:2806,d0:0,d1:0;
+                    (4294901765, Expression<Entity> @:3956 op:56,dt:50,nt:9,next:3957,str:10276,d0:5,d1:65535;
+                        ("driver", Expression<StringId> @:3957 op:11,dt:11,nt:9,next:3958,str:2821,d0:5183,d1:1536;
+                            (4294901838, Expression<Entity> @:3958 op:56,dt:50,nt:9,next:3959,str:10056,d0:78,d1:65535;
+                                (0, Expression<StringId> @:3959 op:11,dt:11,nt:9,next:65535,str:0,d0:0,d1:0;))))))
+            (____, Scope<Void> @:3960 op:314,dt:4,nt:8,next:3964,str:48725,d0:3961,d1:62188;
+                ("ai_disregard", Expression<MethodOrOperator> @:3961 op:314,dt:2,nt:9,next:3962,str:10291,d0:0,d1:0;
+                    ("regret01", Expression<List> @:3962 op:56,dt:31,nt:9,next:3963,str:10056,d0:78,d1:65535;
+                        (True, Expression<Boolean> @:3963 op:5,dt:5,nt:9,next:65535,str:48748,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:3964 op:291,dt:4,nt:8,next:3968,str:48756,d0:3965,d1:62192;
+                ("ai_place", Expression<MethodOrOperator> @:3965 op:291,dt:2,nt:9,next:3966,str:10304,d0:0,d1:0;
+                    ("initial_allies", Expression<AI> @:3966 op:19,dt:19,nt:9,next:3967,str:10313,d0:0,d1:0;
+                        (2, Expression<Short> @:3967 op:7,dt:7,nt:9,next:65535,str:48781,d0:2,d1:65535;))))
+            (____, Scope<Void> @:3968 op:105,dt:4,nt:8,next:3973,str:48891,d0:3969,d1:62196;
+                ("object_teleport", Expression<MethodOrOperator> @:3969 op:105,dt:2,nt:9,next:3970,str:10328,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:3970 op:0,dt:50,nt:10,next:3972,str:48908,d0:3971,d1:62198;
+                        ("player0", Expression<MethodOrOperator> @:3971 op:0,dt:2,nt:9,next:65535,str:743,d0:0,d1:0;))
+                    ("tower1_player0", Expression<LocationFlag> @:3972 op:14,dt:14,nt:9,next:65535,str:10344,d0:58,d1:0;)))
+            (____, Scope<Void> @:3973 op:105,dt:4,nt:8,next:65535,str:48936,d0:3974,d1:62201;
+                ("object_teleport", Expression<MethodOrOperator> @:3974 op:105,dt:2,nt:9,next:3975,str:10328,d0:0,d1:0;
+                    ("player1", ScriptInvocation<Entity> @:3975 op:1,dt:50,nt:10,next:3977,str:48953,d0:3976,d1:62203;
+                        ("player1", Expression<MethodOrOperator> @:3976 op:1,dt:2,nt:9,next:65535,str:751,d0:0,d1:0;))
+                    ("tower1_player1", Expression<LocationFlag> @:3977 op:14,dt:14,nt:9,next:65535,str:10359,d0:59,d1:0;))))))

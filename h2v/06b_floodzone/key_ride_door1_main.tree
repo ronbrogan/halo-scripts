@@ -1,0 +1,30 @@
+
+("key_ride_door1_main", MethodDecl<Void> @:213 check:0,op:0,dt:0,nt:65535,next:9454,nextCheck:34914,str:20224,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:9454 check:34914,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:40044,h:1,d0:9455,d1:34915;
+        ("begin", Expression<MethodOrOperator> @:9455 check:34915,op:0,dt:2,nt:9,next:9428,nextCheck:34888,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:9428 check:34888,op:27,dt:4,nt:8,next:9431,nextCheck:34891,str:40100,h:1,d0:9429,d1:34889;
+                ("print", Expression<MethodOrOperator> @:9429 check:34889,op:27,dt:2,nt:9,next:9430,nextCheck:34890,str:91,h:0,d0:0,d1:0;
+                    ("key_ride_door1 begins to open", Expression<String> @:9430 check:34890,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:19711,h:0,d0:5375,d1:12390;)))
+            (____, Scope<Void> @:9431 check:34891,op:256,dt:4,nt:8,next:9435,nextCheck:34895,str:40142,h:1,d0:9432,d1:34892;
+                ("device_set_position", Expression<MethodOrOperator> @:9432 check:34892,op:256,dt:2,nt:9,next:9433,nextCheck:34893,str:4943,h:0,d0:0,d1:0;
+                    ("key_ride_door1", Expression<Device> @:9433 check:34893,op:60,dt:54,nt:9,next:9434,nextCheck:34894,str:19741,h:0,d0:53,d1:65535;
+                        (1f, Expression<Float> @:9434 check:34894,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:40178,h:1,d0:0,d1:16256;))))
+            (____, Scope<Void> @:9435 check:34895,op:21,dt:4,nt:8,next:9444,nextCheck:34904,str:40220,h:1,d0:9436,d1:34896;
+                ("sleep_until", Expression<MethodOrOperator> @:9436 check:34896,op:21,dt:2,nt:9,next:9437,nextCheck:34897,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:9437 check:34897,op:17,dt:5,nt:8,next:9443,nextCheck:34903,str:40233,h:1,d0:9438,d1:34898;
+                        (">=", Expression<MethodOrOperator> @:9438 check:34898,op:17,dt:2,nt:9,next:9439,nextCheck:34899,str:676,h:0,d0:0,d1:0;
+                            (-6.3839776E-34f, Scope<Float> @:9439 check:34899,op:257,dt:6,nt:8,next:9442,nextCheck:34902,str:40237,h:1,d0:9440,d1:34900;
+                                ("device_get_position", Expression<MethodOrOperator> @:9440 check:34900,op:257,dt:2,nt:9,next:9441,nextCheck:34901,str:19505,h:0,d0:0,d1:0;
+                                    ("key_ride_door1", Expression<Device> @:9441 check:34901,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:19741,h:0,d0:53,d1:65535;)))
+                            (0.9f, Expression<Float> @:9442 check:34902,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:40274,h:1,d0:26214,d1:16230;)))
+                    (10, Expression<Short> @:9443 check:34903,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:40279,h:1,d0:10,d1:65535;)))
+            (____, Scope<Void> @:9444 check:34904,op:19,dt:4,nt:8,next:9447,nextCheck:34907,str:40285,h:1,d0:9445,d1:34905;
+                ("sleep", Expression<MethodOrOperator> @:9445 check:34905,op:19,dt:2,nt:9,next:9446,nextCheck:34906,str:85,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:9446 check:34906,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:40292,h:1,d0:60,d1:65535;)))
+            (____, Scope<Void> @:9447 check:34907,op:27,dt:4,nt:8,next:9450,nextCheck:34910,str:40319,h:1,d0:9448,d1:34908;
+                ("print", Expression<MethodOrOperator> @:9448 check:34908,op:27,dt:2,nt:9,next:9449,nextCheck:34909,str:91,h:0,d0:0,d1:0;
+                    ("key_ride_door1 begins to close", Expression<String> @:9449 check:34909,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:19756,h:0,d0:5420,d1:12390;)))
+            (____, Scope<Void> @:9450 check:34910,op:256,dt:4,nt:8,next:65535,nextCheck:65535,str:40362,h:1,d0:9451,d1:34911;
+                ("device_set_position", Expression<MethodOrOperator> @:9451 check:34911,op:256,dt:2,nt:9,next:9452,nextCheck:34912,str:4943,h:0,d0:0,d1:0;
+                    ("key_ride_door1", Expression<Device> @:9452 check:34912,op:60,dt:54,nt:9,next:9453,nextCheck:34913,str:19741,h:0,d0:53,d1:65535;
+                        (0f, Expression<Float> @:9453 check:34913,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:40398,h:1,d0:0,d1:0;)))))))

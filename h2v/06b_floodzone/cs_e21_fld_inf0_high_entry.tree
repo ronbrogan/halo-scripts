@@ -1,0 +1,33 @@
+
+("cs_e21_fld_inf0_high_entry", MethodDecl<Void> @:261 check:0,op:0,dt:0,nt:65535,next:11981,nextCheck:37441,str:24402,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:11981 check:37441,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9623,h:2,d0:11982,d1:37442;
+        ("begin", Expression<MethodOrOperator> @:11982 check:37442,op:0,dt:2,nt:9,next:11952,nextCheck:37412,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:11952 check:37412,op:441,dt:4,nt:8,next:11955,nextCheck:37415,str:9675,h:2,d0:11953,d1:37413;
+                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:11953 check:37413,op:441,dt:2,nt:9,next:11954,nextCheck:37414,str:23005,h:0,d0:0,d1:0;
+                    ("ai_combat_status_clear_los", VariableAccess<Short> @:11954 check:37414,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:23743,h:0,d0:33579,d1:65535;)))
+            (____, Scope<Void> @:11955 check:37415,op:449,dt:4,nt:8,next:11958,nextCheck:37418,str:9732,h:2,d0:11956,d1:37416;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:11956 check:37416,op:449,dt:2,nt:9,next:11957,nextCheck:37417,str:13791,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11957 check:37417,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9764,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:11958 check:37418,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:9845,h:2,d0:11959,d1:37419;
+                ("if", Expression<MethodOrOperator> @:11959 check:37419,op:2,dt:2,nt:9,next:11960,nextCheck:37420,str:461,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:11960 check:37420,op:13,dt:5,nt:8,next:11965,nextCheck:37425,str:9849,h:2,d0:11961,d1:37421;
+                        ("=", Expression<MethodOrOperator> @:11961 check:37421,op:13,dt:2,nt:9,next:11962,nextCheck:37422,str:301,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:11962 check:37422,op:509,dt:7,nt:8,next:11964,nextCheck:37424,str:9852,h:2,d0:11963,d1:37423;
+                                ("structure_bsp_index", Expression<MethodOrOperator> @:11963 check:37423,op:509,dt:2,nt:9,next:65535,nextCheck:65535,str:14026,h:0,d0:0,d1:0;))
+                            (3, Expression<Short> @:11964 check:37424,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:9874,h:2,d0:3,d1:65535;)))
+                    (____, Scope<Void> @:11965 check:37425,op:0,dt:4,nt:8,next:11973,nextCheck:37433,str:9880,h:2,d0:11966,d1:37426;
+                        ("begin", Expression<MethodOrOperator> @:11966 check:37426,op:0,dt:2,nt:9,next:11967,nextCheck:37427,str:6,h:0,d0:0,d1:0;
+                            (____, Scope<Void> @:11967 check:37427,op:385,dt:4,nt:8,next:11970,nextCheck:37430,str:9891,h:2,d0:11968,d1:37428;
+                                ("cs_go_to", Expression<MethodOrOperator> @:11968 check:37428,op:385,dt:2,nt:9,next:11969,nextCheck:37429,str:21494,h:0,d0:0,d1:0;
+                                    ("e21_fld_bsp5/p0_0", Expression<SpatialPoint> @:11969 check:37429,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:23858,h:0,d0:0,d1:12;)))
+                            (____, Scope<Void> @:11970 check:37430,op:385,dt:4,nt:8,next:65535,nextCheck:65535,str:9924,h:2,d0:11971,d1:37431;
+                                ("cs_go_to", Expression<MethodOrOperator> @:11971 check:37431,op:385,dt:2,nt:9,next:11972,nextCheck:37432,str:21494,h:0,d0:0,d1:0;
+                                    ("e21_fld_bsp5/p0_1", Expression<SpatialPoint> @:11972 check:37432,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:23876,h:0,d0:2,d1:12;)))))
+                    (____, Scope<Void> @:11973 check:37433,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9961,h:2,d0:11974,d1:37434;
+                        ("begin", Expression<MethodOrOperator> @:11974 check:37434,op:0,dt:2,nt:9,next:11975,nextCheck:37435,str:6,h:0,d0:0,d1:0;
+                            (____, Scope<Void> @:11975 check:37435,op:385,dt:4,nt:8,next:11978,nextCheck:37438,str:9972,h:2,d0:11976,d1:37436;
+                                ("cs_go_to", Expression<MethodOrOperator> @:11976 check:37436,op:385,dt:2,nt:9,next:11977,nextCheck:37437,str:21494,h:0,d0:0,d1:0;
+                                    ("e21_fld_bsp6/p0_0", Expression<SpatialPoint> @:11977 check:37437,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:23894,h:0,d0:0,d1:13;)))
+                            (____, Scope<Void> @:11978 check:37438,op:385,dt:4,nt:8,next:65535,nextCheck:65535,str:10005,h:2,d0:11979,d1:37439;
+                                ("cs_go_to", Expression<MethodOrOperator> @:11979 check:37439,op:385,dt:2,nt:9,next:11980,nextCheck:37440,str:21494,h:0,d0:0,d1:0;
+                                    ("e21_fld_bsp6/p0_1", Expression<SpatialPoint> @:11980 check:37440,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:23912,h:0,d0:1,d1:13;))))))))))

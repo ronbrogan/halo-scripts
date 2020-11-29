@@ -1,0 +1,18 @@
+
+("cs_trm1_lookat_johnson_crouch", MethodDecl<Void> @:354 op:0,dt:0,nt:65535,next:16483,str:38364,d0:0,d1:0;
+    (____, Scope<Void> @:16483 op:0,dt:4,nt:8,next:65535,str:2862,d0:16484,d1:41944;
+        ("begin", Expression<MethodOrOperator> @:16484 op:0,dt:2,nt:9,next:16469,str:11,d0:0,d1:0;
+            (____, Scope<Void> @:16469 op:444,dt:4,nt:8,next:16472,str:2917,d0:16470,d1:41930;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:16470 op:444,dt:2,nt:9,next:16471,str:37929,d0:0,d1:0;
+                    (False, Expression<Boolean> @:16471 op:5,dt:5,nt:9,next:65535,str:2935,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:16472 op:423,dt:4,nt:8,next:16475,str:2940,d0:16473,d1:41933;
+                ("cs_crouch", Expression<MethodOrOperator> @:16473 op:423,dt:2,nt:9,next:16474,str:37946,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16474 op:5,dt:5,nt:9,next:65535,str:2951,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:16475 op:401,dt:4,nt:8,next:16481,str:2956,d0:16476,d1:41936;
+                ("cs_face_object", Expression<MethodOrOperator> @:16476 op:401,dt:2,nt:9,next:16477,str:31954,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16477 op:5,dt:5,nt:9,next:16478,str:2972,d0:65281,d1:65535;
+                        (____, Scope<Entity> @:16478 op:284,dt:50,nt:8,next:65535,str:2974,d0:16479,d1:41939;
+                            ("ai_get_object", Expression<MethodOrOperator> @:16479 op:284,dt:2,nt:9,next:16480,str:31886,d0:0,d1:0;
+                                ("trm1_hum_johnson", Expression<AI> @:16480 op:19,dt:19,nt:9,next:65535,str:37988,d0:77,d1:0;))))))
+            (____, Scope<Void> @:16481 op:20,dt:4,nt:8,next:65535,str:3010,d0:16482,d1:41942;
+                ("sleep_forever", Expression<MethodOrOperator> @:16482 op:20,dt:2,nt:9,next:65535,str:27349,d0:0,d1:0;)))))

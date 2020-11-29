@@ -1,0 +1,22 @@
+
+("cable_nav_b", MethodDecl<Void> @:264 op:0,dt:0,nt:65535,next:13165,str:25101,d0:0,d1:0;
+    (____, Scope<Void> @:13165 op:0,dt:4,nt:8,next:65535,str:8402,d0:13166,d1:38626;
+        ("begin", Expression<MethodOrOperator> @:13166 op:0,dt:2,nt:9,next:13147,str:210,d0:0,d1:0;
+            (____, Scope<Void> @:13147 op:640,dt:4,nt:8,next:13153,str:8432,d0:13148,d1:38608;
+                ("activate_team_nav_point_object", Expression<MethodOrOperator> @:13148 op:640,dt:2,nt:9,next:13149,str:24881,d0:0,d1:0;
+                    ("default", Expression<NavigationPoint> @:13149 op:27,dt:27,nt:9,next:13150,str:2172,d0:0,d1:0;
+                        ("player", Expression<Team> @:13150 op:45,dt:45,nt:9,next:13151,str:24912,d0:1,d1:65535;
+                            (4294901852, Expression<Entity> @:13151 op:56,dt:50,nt:9,next:13152,str:24967,d0:92,d1:65535;
+                                (0f, Expression<Float> @:13152 op:6,dt:6,nt:9,next:65535,str:8494,d0:0,d1:0;))))))
+            (____, Scope<Void> @:13153 op:21,dt:4,nt:8,next:13161,str:8499,d0:13154,d1:38614;
+                ("sleep_until", Expression<MethodOrOperator> @:13154 op:21,dt:2,nt:9,next:13155,str:440,d0:0,d1:0;
+                    (____, Scope<Boolean> @:13155 op:18,dt:5,nt:8,next:65535,str:8512,d0:13156,d1:38616;
+                        ("<=", Expression<MethodOrOperator> @:13156 op:18,dt:2,nt:9,next:13157,str:16395,d0:0,d1:0;
+                            (-3.5252236E-25f, Scope<Float> @:13157 op:69,dt:6,nt:8,next:13160,str:8516,d0:13158,d1:38618;
+                                ("object_get_health", Expression<MethodOrOperator> @:13158 op:69,dt:2,nt:9,next:13159,str:1058,d0:0,d1:0;
+                                    (4294902139, Expression<Entity> @:13159 op:56,dt:50,nt:9,next:65535,str:24396,d0:379,d1:65535;)))
+                            (0f, Expression<Float> @:13160 op:6,dt:6,nt:9,next:65535,str:8549,d0:0,d1:0;)))))
+            (____, Scope<Void> @:13161 op:644,dt:4,nt:8,next:65535,str:8555,d0:13162,d1:38622;
+                ("deactivate_team_nav_point_object", Expression<MethodOrOperator> @:13162 op:644,dt:2,nt:9,next:13163,str:24934,d0:0,d1:0;
+                    ("player", Expression<Team> @:13163 op:45,dt:45,nt:9,next:13164,str:24912,d0:1,d1:65535;
+                        (4294901852, Expression<Entity> @:13164 op:56,dt:50,nt:9,next:65535,str:24967,d0:92,d1:65535;)))))))

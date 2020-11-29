@@ -1,0 +1,35 @@
+
+("mission_main", MethodDecl<Void> @:531 check:0,op:0,dt:0,nt:65535,next:21143,nextCheck:46603,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:21143 check:46603,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:16029,h:4,d0:21144,d1:46604;
+        ("begin", Expression<MethodOrOperator> @:21144 check:46604,op:0,dt:2,nt:9,next:21112,nextCheck:46572,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:21112 check:46572,op:310,dt:4,nt:8,next:21116,nextCheck:46576,str:16088,h:4,d0:21113,d1:46573;
+                ("ai_allegiance", Expression<MethodOrOperator> @:21113 check:46573,op:310,dt:2,nt:9,next:21114,nextCheck:46574,str:5078,h:0,d0:0,d1:0;
+                    ("player", Expression<Team> @:21114 check:46574,op:45,dt:45,nt:9,next:21115,nextCheck:46575,str:5092,h:0,d0:1,d1:65535;
+                        ("covenant", Expression<Team> @:21115 check:46575,op:45,dt:45,nt:9,next:65535,nextCheck:65535,str:5105,h:0,d0:3,d1:65535;))))
+            (____, Scope<Void> @:21116 check:46576,op:310,dt:4,nt:8,next:21120,nextCheck:46580,str:16122,h:4,d0:21117,d1:46577;
+                ("ai_allegiance", Expression<MethodOrOperator> @:21117 check:46577,op:310,dt:2,nt:9,next:21118,nextCheck:46578,str:5078,h:0,d0:0,d1:0;
+                    ("player", Expression<Team> @:21118 check:46578,op:45,dt:45,nt:9,next:21119,nextCheck:46579,str:5092,h:0,d0:1,d1:65535;
+                        ("human", Expression<Team> @:21119 check:46579,op:45,dt:45,nt:9,next:65535,nextCheck:65535,str:5099,h:0,d0:2,d1:65535;))))
+            (____, Scope<Void> @:21120 check:46580,op:310,dt:4,nt:8,next:21124,nextCheck:46584,str:16153,h:4,d0:21121,d1:46581;
+                ("ai_allegiance", Expression<MethodOrOperator> @:21121 check:46581,op:310,dt:2,nt:9,next:21122,nextCheck:46582,str:5078,h:0,d0:0,d1:0;
+                    ("covenant", Expression<Team> @:21122 check:46582,op:45,dt:45,nt:9,next:21123,nextCheck:46583,str:5105,h:0,d0:3,d1:65535;
+                        ("human", Expression<Team> @:21123 check:46583,op:45,dt:45,nt:9,next:65535,nextCheck:65535,str:5099,h:0,d0:2,d1:65535;))))
+            (____, Scope<Void> @:21124 check:46584,op:865,dt:4,nt:8,next:21127,nextCheck:46587,str:16201,h:4,d0:21125,d1:46585;
+                ("weather_start", Expression<MethodOrOperator> @:21125 check:46585,op:865,dt:2,nt:9,next:21126,nextCheck:46586,str:22101,h:0,d0:0,d1:0;
+                    (0f, Expression<Float> @:21126 check:46586,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:16216,h:4,d0:0,d1:0;)))
+            (____, Scope<Void> @:21127 check:46587,op:867,dt:4,nt:8,next:21131,nextCheck:46591,str:16221,h:4,d0:21128,d1:46588;
+                ("weather_change_intensity", Expression<MethodOrOperator> @:21128 check:46588,op:867,dt:2,nt:9,next:21129,nextCheck:46589,str:22115,h:0,d0:0,d1:0;
+                    (0f, Expression<Float> @:21129 check:46589,op:6,dt:6,nt:9,next:21130,nextCheck:46590,str:16247,h:4,d0:0,d1:0;
+                        (0.1f, Expression<Float> @:21130 check:46590,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:16249,h:4,d0:52429,d1:15820;))))
+            (____, Scope<Void> @:21131 check:46591,op:30,dt:4,nt:8,next:21134,nextCheck:46594,str:16276,h:4,d0:21132,d1:46592;
+                ("kill_volume_disable", Expression<MethodOrOperator> @:21132 check:46592,op:30,dt:2,nt:9,next:21133,nextCheck:46593,str:31261,h:0,d0:0,d1:0;
+                    ("kill_e13_0", Expression<Trigger> @:21133 check:46593,op:13,dt:13,nt:9,next:65535,nextCheck:65535,str:5202,h:0,d0:56,d1:0;)))
+            (____, Scope<Void> @:21134 check:46594,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:16399,h:4,d0:21135,d1:46595;
+                ("if", Expression<MethodOrOperator> @:21135 check:46595,op:2,dt:2,nt:9,next:21136,nextCheck:46596,str:461,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:21136 check:46596,op:15,dt:5,nt:8,next:21141,nextCheck:46601,str:16403,h:4,d0:21137,d1:46597;
+                        (">", Expression<MethodOrOperator> @:21137 check:46597,op:15,dt:2,nt:9,next:21138,nextCheck:46598,str:2516,h:0,d0:0,d1:0;
+                            ("player_count", ScriptInvocation<Short> @:21138 check:46598,op:2,dt:7,nt:10,next:21140,nextCheck:46600,str:16406,h:4,d0:21139,d1:46599;
+                                ("player_count", Expression<MethodOrOperator> @:21139 check:46599,op:2,dt:2,nt:9,next:65535,nextCheck:65535,str:6134,h:0,d0:0,d1:0;))
+                            (0, Expression<Short> @:21140 check:46600,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:16421,h:4,d0:0,d1:65535;)))
+                    ("start", ScriptInvocation<Void> @:21141 check:46601,op:530,dt:4,nt:10,next:65535,nextCheck:65535,str:16425,h:4,d0:21142,d1:46602;
+                        ("start", Expression<MethodOrOperator> @:21142 check:46602,op:530,dt:2,nt:9,next:65535,nextCheck:65535,str:41031,h:0,d0:0,d1:0;)))))))

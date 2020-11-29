@@ -1,0 +1,58 @@
+
+("sc_plug_ride", MethodDecl<Void> @:171 check:0,op:0,dt:0,nt:65535,next:5860,nextCheck:64087,str:20974,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:5860 check:64087,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:416,h:1,d0:5861,d1:64088;
+        ("begin", Expression<MethodOrOperator> @:5861 check:64088,op:0,dt:2,nt:9,next:5806,nextCheck:64033,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:5806 check:64033,op:2,dt:4,nt:8,next:5812,nextCheck:64039,str:447,h:1,d0:5807,d1:64034;
+                ("if", Expression<MethodOrOperator> @:5807 check:64034,op:2,dt:2,nt:9,next:5808,nextCheck:64035,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:5808 check:64035,op:5,dt:5,nt:13,next:5809,nextCheck:64036,str:12699,h:0,d0:4,d1:0;
+                        (____, Scope<Void> @:5809 check:64036,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:460,h:1,d0:5810,d1:64037;
+                            ("print", Expression<MethodOrOperator> @:5810 check:64037,op:27,dt:2,nt:9,next:5811,nextCheck:64038,str:86,h:0,d0:0,d1:0;
+                                ("tartarus: our path to the library is clear.", Expression<String> @:5811 check:64038,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13926,h:0,d0:58638,d1:12464;))))))
+            (____, Scope<Void> @:5812 check:64039,op:2,dt:4,nt:8,next:5818,nextCheck:64045,str:517,h:1,d0:5813,d1:64040;
+                ("if", Expression<MethodOrOperator> @:5813 check:64040,op:2,dt:2,nt:9,next:5814,nextCheck:64041,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:5814 check:64041,op:5,dt:5,nt:13,next:5815,nextCheck:64042,str:12699,h:0,d0:4,d1:0;
+                        (____, Scope<Void> @:5815 check:64042,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:530,h:1,d0:5816,d1:64043;
+                            ("print", Expression<MethodOrOperator> @:5816 check:64043,op:27,dt:2,nt:9,next:5817,nextCheck:64044,str:86,h:0,d0:0,d1:0;
+                                ("tartarus: i'll pick you up on the ledge ahead.", Expression<String> @:5817 check:64044,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13970,h:0,d0:58682,d1:12464;))))))
+            (____, Scope<Void> @:5818 check:64045,op:19,dt:4,nt:8,next:5824,nextCheck:64051,str:590,h:1,d0:5819,d1:64046;
+                ("sleep", Expression<MethodOrOperator> @:5819 check:64046,op:19,dt:2,nt:9,next:5820,nextCheck:64047,str:80,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:5820 check:64047,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:597,h:1,d0:5821,d1:64048;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:5821 check:64048,op:362,dt:2,nt:9,next:5822,nextCheck:64049,str:12979,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:5822 check:64049,op:50,dt:50,nt:9,next:5823,nextCheck:64050,str:1694,h:0,d0:65535,d1:65535;
+                                ("0050", Expression<StringId> @:5823 check:64050,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:14017,h:0,d0:10501,d1:1024;))))))
+            (____, Scope<Void> @:5824 check:64051,op:19,dt:4,nt:8,next:5827,nextCheck:64054,str:635,h:1,d0:5825,d1:64052;
+                ("sleep", Expression<MethodOrOperator> @:5825 check:64052,op:19,dt:2,nt:9,next:5826,nextCheck:64053,str:80,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:5826 check:64053,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:12774,h:0,d0:36,d1:0;)))
+            (____, Scope<Void> @:5827 check:64054,op:21,dt:4,nt:8,next:5830,nextCheck:64057,str:663,h:1,d0:5828,d1:64055;
+                ("sleep_until", Expression<MethodOrOperator> @:5828 check:64055,op:21,dt:2,nt:9,next:5829,nextCheck:64056,str:231,h:0,d0:0,d1:0;
+                    ("g_plug_ride_enforcer", VariableAccess<Boolean> @:5829 check:64056,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:14022,h:0,d0:31,d1:0;)))
+            (____, Scope<Void> @:5830 check:64057,op:2,dt:4,nt:8,next:5836,nextCheck:64063,str:703,h:1,d0:5831,d1:64058;
+                ("if", Expression<MethodOrOperator> @:5831 check:64058,op:2,dt:2,nt:9,next:5832,nextCheck:64059,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:5832 check:64059,op:5,dt:5,nt:13,next:5833,nextCheck:64060,str:12699,h:0,d0:4,d1:0;
+                        (____, Scope<Void> @:5833 check:64060,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:716,h:1,d0:5834,d1:64061;
+                            ("print", Expression<MethodOrOperator> @:5834 check:64061,op:27,dt:2,nt:9,next:5835,nextCheck:64062,str:86,h:0,d0:0,d1:0;
+                                ("tartarus: (angry growl) blasted machines!", Expression<String> @:5835 check:64062,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:14043,h:0,d0:58755,d1:12464;))))))
+            (____, Scope<Void> @:5836 check:64063,op:19,dt:4,nt:8,next:5842,nextCheck:64069,str:771,h:1,d0:5837,d1:64064;
+                ("sleep", Expression<MethodOrOperator> @:5837 check:64064,op:19,dt:2,nt:9,next:5838,nextCheck:64065,str:80,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:5838 check:64065,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:778,h:1,d0:5839,d1:64066;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:5839 check:64066,op:362,dt:2,nt:9,next:5840,nextCheck:64067,str:12979,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:5840 check:64067,op:50,dt:50,nt:9,next:5841,nextCheck:64068,str:1694,h:0,d0:65535,d1:65535;
+                                ("0070", Expression<StringId> @:5841 check:64068,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:14085,h:0,d0:10504,d1:1024;))))))
+            (____, Scope<Void> @:5842 check:64069,op:19,dt:4,nt:8,next:5845,nextCheck:64072,str:816,h:1,d0:5843,d1:64070;
+                ("sleep", Expression<MethodOrOperator> @:5843 check:64070,op:19,dt:2,nt:9,next:5844,nextCheck:64071,str:80,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:5844 check:64071,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:12774,h:0,d0:36,d1:0;)))
+            (____, Scope<Void> @:5845 check:64072,op:2,dt:4,nt:8,next:5851,nextCheck:64078,str:843,h:1,d0:5846,d1:64073;
+                ("if", Expression<MethodOrOperator> @:5846 check:64073,op:2,dt:2,nt:9,next:5847,nextCheck:64074,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:5847 check:64074,op:5,dt:5,nt:13,next:5848,nextCheck:64075,str:12699,h:0,d0:4,d1:0;
+                        (____, Scope<Void> @:5848 check:64075,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:856,h:1,d0:5849,d1:64076;
+                            ("print", Expression<MethodOrOperator> @:5849 check:64076,op:27,dt:2,nt:9,next:5850,nextCheck:64077,str:86,h:0,d0:0,d1:0;
+                                ("tartarus: make your own way through the wall, arbiter!", Expression<String> @:5850 check:64077,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:14090,h:0,d0:58802,d1:12464;))))))
+            (____, Scope<Void> @:5851 check:64078,op:19,dt:4,nt:8,next:5857,nextCheck:64084,str:924,h:1,d0:5852,d1:64079;
+                ("sleep", Expression<MethodOrOperator> @:5852 check:64079,op:19,dt:2,nt:9,next:5853,nextCheck:64080,str:80,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:5853 check:64080,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:931,h:1,d0:5854,d1:64081;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:5854 check:64081,op:362,dt:2,nt:9,next:5855,nextCheck:64082,str:12979,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:5855 check:64082,op:50,dt:50,nt:9,next:5856,nextCheck:64083,str:1694,h:0,d0:65535,d1:65535;
+                                ("0080", Expression<StringId> @:5856 check:64083,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:14145,h:0,d0:10505,d1:1024;))))))
+            (____, Scope<Void> @:5857 check:64084,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:969,h:1,d0:5858,d1:64085;
+                ("sleep", Expression<MethodOrOperator> @:5858 check:64085,op:19,dt:2,nt:9,next:5859,nextCheck:64086,str:80,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:5859 check:64086,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:12774,h:0,d0:36,d1:0;))))))

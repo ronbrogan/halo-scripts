@@ -1,0 +1,23 @@
+
+("e7_mars_inf0_main", MethodDecl<Void> @:433 check:0,op:0,dt:0,nt:65535,next:16651,nextCheck:42111,str:35780,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:16651 check:42111,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:14521,h:3,d0:16652,d1:42112;
+        ("begin", Expression<MethodOrOperator> @:16652 check:42112,op:0,dt:2,nt:9,next:16632,nextCheck:42092,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:16632 check:42092,op:290,dt:4,nt:8,next:16635,nextCheck:42095,str:14557,h:3,d0:16633,d1:42093;
+                ("ai_place", Expression<MethodOrOperator> @:16633 check:42093,op:290,dt:2,nt:9,next:16634,nextCheck:42094,str:5315,h:0,d0:0,d1:0;
+                    ("e7_mars_inf0", Expression<AI> @:16634 check:42094,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:35251,h:0,d0:55,d1:0;)))
+            (____, Scope<Void> @:16635 check:42095,op:21,dt:4,nt:8,next:16643,nextCheck:42103,str:14622,h:3,d0:16636,d1:42096;
+                ("sleep_until", Expression<MethodOrOperator> @:16636 check:42096,op:21,dt:2,nt:9,next:16637,nextCheck:42097,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:16637 check:42097,op:33,dt:5,nt:8,next:16642,nextCheck:42102,str:14639,h:3,d0:16638,d1:42098;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:16638 check:42098,op:33,dt:2,nt:9,next:16639,nextCheck:42099,str:4732,h:0,d0:0,d1:0;
+                            ("tv_e7_on_ledge", Expression<Trigger> @:16639 check:42099,op:13,dt:13,nt:9,next:16640,nextCheck:42100,str:35264,h:0,d0:38,d1:0;
+                                (____, Scope<List> @:16640 check:42100,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:14675,h:3,d0:16641,d1:42101;
+                                    ("players", Expression<MethodOrOperator> @:16641 check:42101,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                    (3, Expression<Short> @:16642 check:42102,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:14689,h:3,d0:3,d1:65535;)))
+            (____, Scope<Void> @:16643 check:42103,op:4,dt:4,nt:8,next:16647,nextCheck:42107,str:14716,h:3,d0:16644,d1:42104;
+                ("set", Expression<MethodOrOperator> @:16644 check:42104,op:4,dt:2,nt:9,next:16645,nextCheck:42105,str:1888,h:0,d0:0,d1:0;
+                    ("g_e7_pro_sentry_alerted", VariableAccess<Boolean> @:16645 check:42105,op:65535,dt:5,nt:13,next:16646,nextCheck:42106,str:34808,h:0,d0:55,d1:0;
+                        (True, Expression<Boolean> @:16646 check:42106,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:14745,h:3,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:16647 check:42107,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:14753,h:3,d0:16648,d1:42108;
+                ("set", Expression<MethodOrOperator> @:16648 check:42108,op:4,dt:2,nt:9,next:16649,nextCheck:42109,str:1888,h:0,d0:0,d1:0;
+                    ("g_e7_mars_johnson_go", VariableAccess<Boolean> @:16649 check:42109,op:65535,dt:5,nt:13,next:16650,nextCheck:42110,str:34572,h:0,d0:52,d1:0;
+                        (True, Expression<Boolean> @:16650 check:42110,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:14779,h:3,d0:65281,d1:65535;)))))))

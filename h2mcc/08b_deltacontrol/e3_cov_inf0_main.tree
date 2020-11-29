@@ -1,0 +1,20 @@
+
+("e3_cov_inf0_main", MethodDecl<Void> @:492 op:0,dt:0,nt:65535,next:19683,str:38982,d0:0,d1:0;
+    (____, Scope<Void> @:19683 op:0,dt:4,nt:8,next:65535,str:60551,d0:19684,d1:45144;
+        ("begin", Expression<MethodOrOperator> @:19684 op:0,dt:2,nt:9,next:19667,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:19667 op:290,dt:4,nt:8,next:19670,str:60586,d0:19668,d1:45128;
+                ("ai_place", Expression<MethodOrOperator> @:19668 op:290,dt:2,nt:9,next:19669,str:5315,d0:0,d1:0;
+                    ("e3_cov_inf0", Expression<AI> @:19669 op:19,dt:19,nt:9,next:65535,str:37976,d0:19,d1:0;)))
+            (____, Scope<Void> @:19670 op:21,dt:4,nt:8,next:19680,str:60646,d0:19671,d1:45131;
+                ("sleep_until", Expression<MethodOrOperator> @:19671 op:21,dt:2,nt:9,next:19672,str:236,d0:0,d1:0;
+                    (____, Scope<Boolean> @:19672 op:15,dt:5,nt:8,next:19678,str:60662,d0:19673,d1:45133;
+                        (">", Expression<MethodOrOperator> @:19673 op:15,dt:2,nt:9,next:19674,str:2516,d0:0,d1:0;
+                            (-7.541538E-10f, Scope<Float> @:19674 op:257,dt:6,nt:8,next:19677,str:60665,d0:19675,d1:45135;
+                                ("device_get_position", Expression<MethodOrOperator> @:19675 op:257,dt:2,nt:9,next:19676,str:5946,d0:0,d1:0;
+                                    ("e2_exit_door", Expression<Device> @:19676 op:60,dt:54,nt:9,next:65535,str:38504,d0:107,d1:65535;)))
+                            (0f, Expression<Float> @:19677 op:6,dt:6,nt:9,next:65535,str:60700,d0:0,d1:0;)))
+                    (5, Expression<Short> @:19678 op:7,dt:7,nt:9,next:19679,str:60706,d0:5,d1:65535;
+                        (30, Expression<Int> @:19679 op:8,dt:8,nt:9,next:65535,str:60711,d0:30,d1:0;))))
+            (____, Scope<Void> @:19680 op:22,dt:4,nt:8,next:65535,str:60733,d0:19681,d1:45141;
+                ("wake", Expression<MethodOrOperator> @:19681 op:22,dt:2,nt:9,next:19682,str:5851,d0:0,d1:0;
+                    ("music_08b_02_stop", Expression<ScriptReference> @:19682 op:10,dt:10,nt:9,next:65535,str:38913,d0:286,d1:65535;))))))

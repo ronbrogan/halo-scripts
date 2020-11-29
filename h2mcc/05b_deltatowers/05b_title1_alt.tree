@@ -1,0 +1,27 @@
+
+("05b_title1_alt", MethodDecl<Void> @:109 op:0,dt:0,nt:65535,next:3220,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:3220 op:0,dt:4,nt:8,next:65535,str:39380,d0:3221,d1:61448;
+        ("begin", Expression<MethodOrOperator> @:3221 op:0,dt:2,nt:9,next:3197,str:142,d0:0,d1:0;
+            (____, Scope<Void> @:3197 op:625,dt:4,nt:8,next:3201,str:39413,d0:3198,d1:61425;
+                ("hud_cinematic_fade", Expression<MethodOrOperator> @:3198 op:625,dt:2,nt:9,next:3199,str:654,d0:0,d1:0;
+                    (0f, Expression<Float> @:3199 op:6,dt:6,nt:9,next:3200,str:39433,d0:0,d1:0;
+                        (0.5f, Expression<Float> @:3200 op:6,dt:6,nt:9,next:65535,str:39435,d0:0,d1:16128;))))
+            (____, Scope<Void> @:3201 op:557,dt:4,nt:8,next:3204,str:39442,d0:3202,d1:61429;
+                ("cinematic_show_letterbox", Expression<MethodOrOperator> @:3202 op:557,dt:2,nt:9,next:3203,str:8648,d0:0,d1:0;
+                    (True, Expression<Boolean> @:3203 op:5,dt:5,nt:9,next:65535,str:39468,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:3204 op:19,dt:4,nt:8,next:3207,str:39476,d0:3205,d1:61432;
+                ("sleep", Expression<MethodOrOperator> @:3205 op:19,dt:2,nt:9,next:3206,str:221,d0:0,d1:0;
+                    (30, Expression<Short> @:3206 op:7,dt:7,nt:9,next:65535,str:39483,d0:30,d1:65535;)))
+            (____, Scope<Void> @:3207 op:559,dt:4,nt:8,next:3210,str:39489,d0:3208,d1:61435;
+                ("cinematic_set_title", Expression<MethodOrOperator> @:3208 op:559,dt:2,nt:9,next:3209,str:8620,d0:0,d1:0;
+                    ("title_2alt", Expression<CinematicTitle> @:3209 op:16,dt:16,nt:9,next:65535,str:8681,d0:2,d1:0;)))
+            (____, Scope<Void> @:3210 op:19,dt:4,nt:8,next:3213,str:39524,d0:3211,d1:61438;
+                ("sleep", Expression<MethodOrOperator> @:3211 op:19,dt:2,nt:9,next:3212,str:221,d0:0,d1:0;
+                    (150, Expression<Short> @:3212 op:7,dt:7,nt:9,next:65535,str:39531,d0:150,d1:65535;)))
+            (____, Scope<Void> @:3213 op:625,dt:4,nt:8,next:3217,str:39538,d0:3214,d1:61441;
+                ("hud_cinematic_fade", Expression<MethodOrOperator> @:3214 op:625,dt:2,nt:9,next:3215,str:654,d0:0,d1:0;
+                    (1f, Expression<Float> @:3215 op:6,dt:6,nt:9,next:3216,str:39558,d0:0,d1:16256;
+                        (0.5f, Expression<Float> @:3216 op:6,dt:6,nt:9,next:65535,str:39560,d0:0,d1:16128;))))
+            (____, Scope<Void> @:3217 op:557,dt:4,nt:8,next:65535,str:39567,d0:3218,d1:61445;
+                ("cinematic_show_letterbox", Expression<MethodOrOperator> @:3218 op:557,dt:2,nt:9,next:3219,str:8648,d0:0,d1:0;
+                    (False, Expression<Boolean> @:3219 op:5,dt:5,nt:9,next:65535,str:39593,d0:65280,d1:65535;))))))

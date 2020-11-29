@@ -1,0 +1,23 @@
+
+("cs_invul_8", MethodDecl<Void> @:131 op:0,dt:0,nt:65535,next:4200,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:4200 op:0,dt:4,nt:8,next:65535,str:50682,d0:4201,d1:62428;
+        ("begin", Expression<MethodOrOperator> @:4201 op:0,dt:2,nt:9,next:4181,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:4181 op:444,dt:4,nt:8,next:4184,str:50718,d0:4182,d1:62409;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:4182 op:444,dt:2,nt:9,next:4183,str:10432,d0:0,d1:0;
+                    (True, Expression<Boolean> @:4183 op:5,dt:5,nt:9,next:65535,str:50736,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:4184 op:90,dt:4,nt:8,next:4189,str:50741,d0:4185,d1:62412;
+                ("object_cannot_take_damage", Expression<MethodOrOperator> @:4185 op:90,dt:2,nt:9,next:4186,str:623,d0:0,d1:0;
+                    (____, Scope<List> @:4186 op:284,dt:31,nt:8,next:65535,str:50768,d0:4187,d1:62414;
+                        ("ai_get_object", Expression<MethodOrOperator> @:4187 op:284,dt:2,nt:9,next:4188,str:10449,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:4188 op:19,dt:19,nt:13,next:65535,str:10463,d0:33564,d1:65535;)))))
+            (____, Scope<Void> @:4189 op:19,dt:4,nt:8,next:4195,str:50804,d0:4190,d1:62417;
+                ("sleep", Expression<MethodOrOperator> @:4190 op:19,dt:2,nt:9,next:4191,str:85,d0:0,d1:0;
+                    (____, Scope<Short> @:4191 op:9,dt:7,nt:8,next:65535,str:50811,d0:4192,d1:62419;
+                        ("*", Expression<MethodOrOperator> @:4192 op:9,dt:2,nt:9,next:4193,str:986,d0:0,d1:0;
+                            (30f, Expression<Float> @:4193 op:6,dt:6,nt:9,next:4194,str:50814,d0:0,d1:16880;
+                                (8f, Expression<Float> @:4194 op:6,dt:6,nt:9,next:65535,str:50817,d0:0,d1:16640;))))))
+            (____, Scope<Void> @:4195 op:91,dt:4,nt:8,next:65535,str:50823,d0:4196,d1:62423;
+                ("object_can_take_damage", Expression<MethodOrOperator> @:4196 op:91,dt:2,nt:9,next:4197,str:649,d0:0,d1:0;
+                    (____, Scope<List> @:4197 op:284,dt:31,nt:8,next:65535,str:50847,d0:4198,d1:62425;
+                        ("ai_get_object", Expression<MethodOrOperator> @:4198 op:284,dt:2,nt:9,next:4199,str:10449,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:4199 op:19,dt:19,nt:13,next:65535,str:10463,d0:33564,d1:65535;))))))))

@@ -1,0 +1,32 @@
+
+("e3_mars_inf1_main", MethodDecl<Void> @:359 check:0,op:0,dt:0,nt:65535,next:14363,nextCheck:39823,str:24456,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:14363 check:39823,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:45577,h:2,d0:14364,d1:39824;
+        ("begin", Expression<MethodOrOperator> @:14364 check:39824,op:0,dt:2,nt:9,next:14335,nextCheck:39795,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:14335 check:39795,op:21,dt:4,nt:8,next:14343,nextCheck:39803,str:45649,h:2,d0:14336,d1:39796;
+                ("sleep_until", Expression<MethodOrOperator> @:14336 check:39796,op:21,dt:2,nt:9,next:14337,nextCheck:39797,str:294,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:14337 check:39797,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:45662,h:2,d0:14338,d1:39798;
+                        (">", Expression<MethodOrOperator> @:14338 check:39798,op:15,dt:2,nt:9,next:14339,nextCheck:39799,str:12195,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:14339 check:39799,op:335,dt:7,nt:8,next:14342,nextCheck:39802,str:45665,h:2,d0:14340,d1:39800;
+                                ("ai_spawn_count", Expression<MethodOrOperator> @:14340 check:39800,op:335,dt:2,nt:9,next:14341,nextCheck:39801,str:15920,h:0,d0:0,d1:0;
+                                    ("e3_mars_pelican0", Expression<AI> @:14341 check:39801,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:23999,h:0,d0:35,d1:0;)))
+                            (0, Expression<Short> @:14342 check:39802,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:45699,h:2,d0:0,d1:65535;)))))
+            (____, Scope<Void> @:14343 check:39803,op:291,dt:4,nt:8,next:14356,nextCheck:39816,str:45723,h:2,d0:14344,d1:39804;
+                ("ai_place", Expression<MethodOrOperator> @:14344 check:39804,op:291,dt:2,nt:9,next:14345,nextCheck:39805,str:4642,h:0,d0:0,d1:0;
+                    ("e3_mars_inf1", Expression<AI> @:14345 check:39805,op:19,dt:19,nt:9,next:14346,nextCheck:39806,str:22976,h:0,d0:33,d1:0;
+                        (____, Scope<Short> @:14346 check:39806,op:26,dt:7,nt:8,next:65535,nextCheck:65535,str:45746,h:2,d0:14347,d1:39807;
+                            ("pin", Expression<MethodOrOperator> @:14347 check:39807,op:26,dt:2,nt:9,next:14348,nextCheck:39808,str:16030,h:0,d0:0,d1:0;
+                                (-2.1377482E-22f, Scope<Float> @:14348 check:39808,op:8,dt:6,nt:8,next:14354,nextCheck:39814,str:45751,h:2,d0:14349,d1:39809;
+                                    ("-", Expression<MethodOrOperator> @:14349 check:39809,op:8,dt:2,nt:9,next:14350,nextCheck:39810,str:4086,h:0,d0:0,d1:0;
+                                        (3f, Expression<Float> @:14350 check:39810,op:6,dt:6,nt:9,next:14351,nextCheck:39811,str:45754,h:2,d0:0,d1:16448;
+                                            (-2.1873798E-22f, Scope<Float> @:14351 check:39811,op:327,dt:6,nt:8,next:65535,nextCheck:65535,str:45756,h:2,d0:14352,d1:39812;
+                                                ("ai_living_count", Expression<MethodOrOperator> @:14352 check:39812,op:327,dt:2,nt:9,next:14353,nextCheck:39813,str:11800,h:0,d0:0,d1:0;
+                                                    ("e3_mars_inf0", Expression<AI> @:14353 check:39813,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:22963,h:0,d0:32,d1:0;))))))
+                                (0f, Expression<Float> @:14354 check:39814,op:6,dt:6,nt:9,next:14355,nextCheck:39815,str:45788,h:2,d0:0,d1:0;
+                                    (3f, Expression<Float> @:14355 check:39815,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:45790,h:2,d0:0,d1:16448;)))))))
+            (____, Scope<Void> @:14356 check:39816,op:346,dt:4,nt:8,next:65535,nextCheck:65535,str:45796,h:2,d0:14357,d1:39817;
+                ("ai_vehicle_enter_immediate", Expression<MethodOrOperator> @:14357 check:39817,op:346,dt:2,nt:9,next:14358,nextCheck:39818,str:4345,h:0,d0:0,d1:0;
+                    ("e3_mars_inf1", Expression<AI> @:14358 check:39818,op:19,dt:19,nt:9,next:14359,nextCheck:39819,str:22976,h:0,d0:33,d1:0;
+                        (____, Scope<Unit> @:14359 check:39819,op:340,dt:51,nt:8,next:14362,nextCheck:39822,str:45837,h:2,d0:14360,d1:39820;
+                            ("ai_vehicle_get", Expression<MethodOrOperator> @:14360 check:39820,op:340,dt:2,nt:9,next:14361,nextCheck:39821,str:4296,h:0,d0:0,d1:0;
+                                ("e3_mars_pelican0/pelican0", Expression<AI> @:14361 check:39821,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:23576,h:0,d0:0,d1:49187;)))
+                        ("pelican_p_r", Expression<VehicleSeat> @:14362 check:39822,op:12,dt:12,nt:9,next:65535,nextCheck:65535,str:24067,h:0,d0:10,d1:1;)))))))

@@ -1,0 +1,25 @@
+
+("revive_aware", MethodDecl<Void> @:165 check:0,op:0,dt:0,nt:65535,next:5182,nextCheck:63409,str:14546,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:5182 check:63409,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:62664,h:0,d0:5183,d1:63410;
+        ("begin", Expression<MethodOrOperator> @:5183 check:63410,op:0,dt:2,nt:9,next:5161,nextCheck:63388,str:210,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:5161 check:63388,op:21,dt:4,nt:8,next:5169,nextCheck:63396,str:62695,h:0,d0:5162,d1:63389;
+                ("sleep_until", Expression<MethodOrOperator> @:5162 check:63389,op:21,dt:2,nt:9,next:5163,nextCheck:63390,str:440,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:5163 check:63390,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:62708,h:0,d0:5164,d1:63391;
+                        (">", Expression<MethodOrOperator> @:5164 check:63391,op:15,dt:2,nt:9,next:5165,nextCheck:63392,str:13448,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:5165 check:63392,op:331,dt:7,nt:8,next:5168,nextCheck:63395,str:62711,h:0,d0:5166,d1:63393;
+                                ("ai_nonswarm_count", Expression<MethodOrOperator> @:5166 check:63393,op:331,dt:2,nt:9,next:5167,nextCheck:63394,str:13450,h:0,d0:0,d1:0;
+                                    ("disposal_infection", Expression<AI> @:5167 check:63394,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13468,h:0,d0:4,d1:16384;)))
+                            (0, Expression<Short> @:5168 check:63395,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:62750,h:0,d0:0,d1:65535;)))))
+            (____, Scope<Void> @:5169 check:63396,op:596,dt:4,nt:8,next:5179,nextCheck:63406,str:62756,h:0,d0:5170,d1:63397;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:5170 check:63397,op:596,dt:2,nt:9,next:5171,nextCheck:63398,str:1435,h:0,d0:0,d1:0;
+                    ("sound\dialog\combat\elite_loose\02_danger\warn_fldreanimate", Expression<Sound> @:5171 check:63398,op:32,dt:32,nt:9,next:5172,nextCheck:63399,str:13487,h:0,d0:5557,d1:63465;
+                        (____, Scope<Entity> @:5172 check:63399,op:37,dt:50,nt:8,next:5178,nextCheck:63405,str:62837,h:0,d0:5173,d1:63400;
+                            ("list_get", Expression<MethodOrOperator> @:5173 check:63400,op:37,dt:2,nt:9,next:5174,nextCheck:63401,str:221,h:0,d0:0,d1:0;
+                                (____, Scope<List> @:5174 check:63401,op:332,dt:31,nt:8,next:5177,nextCheck:63404,str:62847,h:0,d0:5175,d1:63402;
+                                    ("ai_actors", Expression<MethodOrOperator> @:5175 check:63402,op:332,dt:2,nt:9,next:5176,nextCheck:63403,str:11965,h:0,d0:0,d1:0;
+                                        ("allies_elites_03a", Expression<AI> @:5176 check:63403,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:11259,h:0,d0:1,d1:0;)))
+                                (0, Expression<Short> @:5177 check:63404,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:62877,h:0,d0:0,d1:65535;)))
+                        (1f, Expression<Float> @:5178 check:63405,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:62880,h:0,d0:0,d1:16256;))))
+            (____, Scope<Void> @:5179 check:63406,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:62885,h:0,d0:5180,d1:63407;
+                ("print", Expression<MethodOrOperator> @:5180 check:63407,op:27,dt:2,nt:9,next:5181,nextCheck:63408,str:295,h:0,d0:0,d1:0;
+                    ("ally warns about reanimation", Expression<String> @:5181 check:63408,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13547,h:0,d0:2035,d1:10912;))))))

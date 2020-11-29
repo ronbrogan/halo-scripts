@@ -1,0 +1,23 @@
+
+("test_scarab_cove", MethodDecl<Void> @:507 check:0,op:0,dt:0,nt:65535,next:20220,nextCheck:45680,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:20220 check:45680,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:2085,h:4,d0:20221,d1:45681;
+        ("begin", Expression<MethodOrOperator> @:20221 check:45681,op:0,dt:2,nt:9,next:20201,nextCheck:45661,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:20201 check:45661,op:105,dt:4,nt:8,next:20206,nextCheck:45666,str:2124,h:4,d0:20202,d1:45662;
+                ("object_teleport", Expression<MethodOrOperator> @:20202 check:45662,op:105,dt:2,nt:9,next:20203,nextCheck:45663,str:5131,h:0,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:20203 check:45663,op:0,dt:50,nt:10,next:20205,nextCheck:45665,str:2141,h:4,d0:20204,d1:45664;
+                        ("player0", Expression<MethodOrOperator> @:20204 check:45664,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:607,h:0,d0:0,d1:0;))
+                    ("e2_test", Expression<LocationFlag> @:20205 check:45665,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:39595,h:0,d0:0,d1:0;)))
+            (____, Scope<Void> @:20206 check:45666,op:2,dt:4,nt:8,next:20214,nextCheck:45674,str:2162,h:4,d0:20207,d1:45667;
+                ("if", Expression<MethodOrOperator> @:20207 check:45667,op:2,dt:2,nt:9,next:20208,nextCheck:45668,str:461,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:20208 check:45668,op:25,dt:5,nt:8,next:20211,nextCheck:45671,str:2166,h:4,d0:20209,d1:45669;
+                        ("not", Expression<MethodOrOperator> @:20209 check:45669,op:25,dt:2,nt:9,next:20210,nextCheck:45670,str:402,h:0,d0:0,d1:0;
+                            ("g_e2_started", VariableAccess<Boolean> @:20210 check:45670,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:39395,h:0,d0:67,d1:0;)))
+                    (____, Scope<Void> @:20211 check:45671,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:2185,h:4,d0:20212,d1:45672;
+                        ("wake", Expression<MethodOrOperator> @:20212 check:45672,op:22,dt:2,nt:9,next:20213,nextCheck:45673,str:5851,h:0,d0:0,d1:0;
+                            ("e2_main", Expression<ScriptReference> @:20213 check:45673,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:39408,h:0,d0:506,d1:65535;)))))
+            (____, Scope<Void> @:20214 check:45674,op:290,dt:4,nt:8,next:20217,nextCheck:45677,str:2203,h:4,d0:20215,d1:45675;
+                ("ai_place", Expression<MethodOrOperator> @:20215 check:45675,op:290,dt:2,nt:9,next:20216,nextCheck:45676,str:5315,h:0,d0:0,d1:0;
+                    ("e2_cov_wraith0", Expression<AI> @:20216 check:45676,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:39331,h:0,d0:10,d1:0;)))
+            (____, Scope<Void> @:20217 check:45677,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:2231,h:4,d0:20218,d1:45678;
+                ("ai_place", Expression<MethodOrOperator> @:20218 check:45678,op:290,dt:2,nt:9,next:20219,nextCheck:45679,str:5315,h:0,d0:0,d1:0;
+                    ("e2_cov_spectre0", Expression<AI> @:20219 check:45679,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:39362,h:0,d0:11,d1:0;))))))

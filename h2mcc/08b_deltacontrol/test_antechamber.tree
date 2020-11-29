@@ -1,0 +1,20 @@
+
+("test_antechamber", MethodDecl<Void> @:356 op:0,dt:0,nt:65535,next:12328,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:12328 op:0,dt:4,nt:8,next:65535,str:16002,d0:12329,d1:37789;
+        ("begin", Expression<MethodOrOperator> @:12329 op:0,dt:2,nt:9,next:12312,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:12312 op:507,dt:4,nt:8,next:12315,str:16041,d0:12313,d1:37773;
+                ("switch_bsp", Expression<MethodOrOperator> @:12313 op:507,dt:2,nt:9,next:12314,str:5067,d0:0,d1:0;
+                    (2, Expression<Short> @:12314 op:7,dt:7,nt:9,next:65535,str:16053,d0:2,d1:65535;)))
+            (____, Scope<Void> @:12315 op:105,dt:4,nt:8,next:12320,str:16058,d0:12316,d1:37776;
+                ("object_teleport", Expression<MethodOrOperator> @:12316 op:105,dt:2,nt:9,next:12317,str:5131,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:12317 op:0,dt:50,nt:10,next:12319,str:16075,d0:12318,d1:37778;
+                        ("player0", Expression<MethodOrOperator> @:12318 op:0,dt:2,nt:9,next:65535,str:607,d0:0,d1:0;))
+                    ("e12_test", Expression<LocationFlag> @:12319 op:14,dt:14,nt:9,next:65535,str:28623,d0:6,d1:0;)))
+            (____, Scope<Void> @:12320 op:2,dt:4,nt:8,next:65535,str:16097,d0:12321,d1:37781;
+                ("if", Expression<MethodOrOperator> @:12321 op:2,dt:2,nt:9,next:12322,str:461,d0:0,d1:0;
+                    (____, Scope<Boolean> @:12322 op:25,dt:5,nt:8,next:12325,str:16101,d0:12323,d1:37783;
+                        ("not", Expression<MethodOrOperator> @:12323 op:25,dt:2,nt:9,next:12324,str:402,d0:0,d1:0;
+                            ("g_e12_started", VariableAccess<Boolean> @:12324 op:5,dt:5,nt:13,next:65535,str:28412,d0:30,d1:0;)))
+                    (____, Scope<Void> @:12325 op:22,dt:4,nt:8,next:65535,str:16121,d0:12326,d1:37786;
+                        ("wake", Expression<MethodOrOperator> @:12326 op:22,dt:2,nt:9,next:12327,str:5851,d0:0,d1:0;
+                            ("e12_main", Expression<ScriptReference> @:12327 op:10,dt:10,nt:9,next:65535,str:28426,d0:355,d1:65535;))))))))

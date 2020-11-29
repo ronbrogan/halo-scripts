@@ -1,0 +1,42 @@
+
+("x06_texture_camera_01b_01", MethodDecl<Void> @:50 check:0,op:0,dt:0,nt:65535,next:1574,nextCheck:59801,str:3854,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:1574 check:59801,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:18559,h:0,d0:1575,d1:59802;
+        ("begin", Expression<MethodOrOperator> @:1575 check:59802,op:0,dt:2,nt:9,next:1536,nextCheck:59763,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:1536 check:59763,op:676,dt:4,nt:8,next:1538,nextCheck:59765,str:18605,h:0,d0:1537,d1:59764;
+                ("time_code_reset", Expression<MethodOrOperator> @:1537 check:59764,op:676,dt:2,nt:9,next:65535,nextCheck:65535,str:1554,h:0,d0:0,d1:0;))
+            (____, Scope<Void> @:1538 check:59765,op:19,dt:4,nt:8,next:1541,nextCheck:59768,str:18627,h:0,d0:1539,d1:59766;
+                ("sleep", Expression<MethodOrOperator> @:1539 check:59766,op:19,dt:2,nt:9,next:1540,nextCheck:59767,str:80,h:0,d0:0,d1:0;
+                    (143, Expression<Short> @:1540 check:59767,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:18634,h:0,d0:143,d1:65535;)))
+            (____, Scope<Void> @:1541 check:59768,op:27,dt:4,nt:8,next:1544,nextCheck:59771,str:18641,h:0,d0:1542,d1:59769;
+                ("print", Expression<MethodOrOperator> @:1542 check:59769,op:27,dt:2,nt:9,next:1543,nextCheck:59770,str:86,h:0,d0:0,d1:0;
+                    ("start texture camera", Expression<String> @:1543 check:59770,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:3591,h:0,d0:48303,d1:12464;)))
+            (____, Scope<Void> @:1544 check:59771,op:48,dt:4,nt:8,next:1547,nextCheck:59774,str:18676,h:0,d0:1545,d1:59772;
+                ("object_create_anew", Expression<MethodOrOperator> @:1545 check:59772,op:48,dt:2,nt:9,next:1546,nextCheck:59773,str:2344,h:0,d0:0,d1:0;
+                    ("texture_camera", Expression<EntityIdentifier> @:1546 check:59773,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:3612,h:0,d0:36,d1:65535;)))
+            (____, Scope<Void> @:1547 check:59774,op:48,dt:4,nt:8,next:1550,nextCheck:59777,str:18714,h:0,d0:1548,d1:59775;
+                ("object_create_anew", Expression<MethodOrOperator> @:1548 check:59775,op:48,dt:2,nt:9,next:1549,nextCheck:59776,str:2344,h:0,d0:0,d1:0;
+                    ("texture_space", Expression<EntityIdentifier> @:1549 check:59776,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:3627,h:0,d0:70,d1:65535;)))
+            (____, Scope<Void> @:1550 check:59777,op:48,dt:4,nt:8,next:1553,nextCheck:59780,str:18751,h:0,d0:1551,d1:59778;
+                ("object_create_anew", Expression<MethodOrOperator> @:1551 check:59778,op:48,dt:2,nt:9,next:1552,nextCheck:59779,str:2344,h:0,d0:0,d1:0;
+                    ("texture_halo", Expression<EntityIdentifier> @:1552 check:59779,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:3641,h:0,d0:71,d1:65535;)))
+            (____, Scope<Void> @:1553 check:59780,op:92,dt:4,nt:8,next:1557,nextCheck:59784,str:18790,h:0,d0:1554,d1:59781;
+                ("object_cinematic_lod", Expression<MethodOrOperator> @:1554 check:59781,op:92,dt:2,nt:9,next:1555,nextCheck:59782,str:2408,h:0,d0:0,d1:0;
+                    (4294901831, Expression<Entity> @:1555 check:59782,op:56,dt:50,nt:9,next:1556,nextCheck:59783,str:3641,h:0,d0:71,d1:65535;
+                        (True, Expression<Boolean> @:1556 check:59783,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:18825,h:0,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:1557 check:59784,op:95,dt:4,nt:8,next:1561,nextCheck:59788,str:18833,h:0,d0:1558,d1:59785;
+                ("object_uses_cinematic_lighting", Expression<MethodOrOperator> @:1558 check:59785,op:95,dt:2,nt:9,next:1559,nextCheck:59786,str:2044,h:0,d0:0,d1:0;
+                    (4294901831, Expression<Entity> @:1559 check:59786,op:56,dt:50,nt:9,next:1560,nextCheck:59787,str:3641,h:0,d0:71,d1:65535;
+                        (True, Expression<Boolean> @:1560 check:59787,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:18878,h:0,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:1561 check:59788,op:144,dt:4,nt:8,next:1566,nextCheck:59793,str:18886,h:0,d0:1562,d1:59789;
+                ("texture_camera_set_object_marker", Expression<MethodOrOperator> @:1562 check:59789,op:144,dt:2,nt:9,next:1563,nextCheck:59790,str:3654,h:0,d0:0,d1:0;
+                    (4294901796, Expression<Entity> @:1563 check:59790,op:56,dt:50,nt:9,next:1564,nextCheck:59791,str:3612,h:0,d0:36,d1:65535;
+                        ("primary_trigger", Expression<StringId> @:1564 check:59791,op:11,dt:11,nt:9,next:1565,nextCheck:59792,str:3687,h:0,d0:219,d1:3840;
+                            (40f, Expression<Float> @:1565 check:59792,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:18951,h:0,d0:0,d1:16928;)))))
+            (____, Scope<Void> @:1566 check:59793,op:19,dt:4,nt:8,next:1569,nextCheck:59796,str:18960,h:0,d0:1567,d1:59794;
+                ("sleep", Expression<MethodOrOperator> @:1567 check:59794,op:19,dt:2,nt:9,next:1568,nextCheck:59795,str:80,h:0,d0:0,d1:0;
+                    (156, Expression<Short> @:1568 check:59795,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:18967,h:0,d0:156,d1:65535;)))
+            (____, Scope<Void> @:1569 check:59796,op:145,dt:4,nt:8,next:1571,nextCheck:59798,str:18977,h:0,d0:1570,d1:59797;
+                ("texture_camera_off", Expression<MethodOrOperator> @:1570 check:59797,op:145,dt:2,nt:9,next:65535,nextCheck:65535,str:3703,h:0,d0:0,d1:0;))
+            (____, Scope<Void> @:1571 check:59798,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:19000,h:0,d0:1572,d1:59799;
+                ("print", Expression<MethodOrOperator> @:1572 check:59799,op:27,dt:2,nt:9,next:1573,nextCheck:59800,str:86,h:0,d0:0,d1:0;
+                    ("stop texture camera", Expression<String> @:1573 check:59800,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:3722,h:0,d0:48434,d1:12464;))))))

@@ -1,0 +1,18 @@
+
+("cs_e8_cov_inf2_patrol0", MethodDecl<Void> @:278 check:0,op:0,dt:0,nt:65535,next:10496,nextCheck:35956,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:10496 check:35956,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:64958,h:1,d0:10497,d1:35957;
+        ("begin", Expression<MethodOrOperator> @:10497 check:35957,op:0,dt:2,nt:9,next:10482,nextCheck:35942,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:10482 check:35942,op:441,dt:4,nt:8,next:10485,nextCheck:35945,str:65006,h:1,d0:10483,d1:35943;
+                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:10483 check:35943,op:441,dt:2,nt:9,next:10484,nextCheck:35944,str:13523,h:0,d0:0,d1:0;
+                    ("ai_combat_status_uninspected", VariableAccess<Short> @:10484 check:35944,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:19498,h:0,d0:33575,d1:65535;)))
+            (____, Scope<Void> @:10485 check:35945,op:440,dt:4,nt:8,next:10488,nextCheck:35948,str:65065,h:1,d0:10486,d1:35946;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:10486 check:35946,op:440,dt:2,nt:9,next:10487,nextCheck:35947,str:14820,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10487 check:35947,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:65085,h:1,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:10488 check:35948,op:395,dt:4,nt:8,next:10494,nextCheck:35954,str:65093,h:1,d0:10489,d1:35949;
+                ("cs_look_object", Expression<MethodOrOperator> @:10489 check:35949,op:395,dt:2,nt:9,next:10490,nextCheck:35950,str:19527,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10490 check:35950,op:5,dt:5,nt:9,next:10491,nextCheck:35951,str:65109,h:1,d0:65281,d1:65535;
+                        (____, Scope<Entity> @:10491 check:35951,op:284,dt:50,nt:8,next:65535,nextCheck:65535,str:65114,h:1,d0:10492,d1:35952;
+                            ("ai_get_object", Expression<MethodOrOperator> @:10492 check:35952,op:284,dt:2,nt:9,next:10493,nextCheck:35953,str:4457,h:0,d0:0,d1:0;
+                                ("e8_cov_inf2/grunt0", Expression<AI> @:10493 check:35953,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19542,h:0,d0:2,d1:49223;))))))
+            (____, Scope<Void> @:10494 check:35954,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:65152,h:1,d0:10495,d1:35955;
+                ("sleep_forever", Expression<MethodOrOperator> @:10495 check:35955,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:10045,h:0,d0:0,d1:0;)))))

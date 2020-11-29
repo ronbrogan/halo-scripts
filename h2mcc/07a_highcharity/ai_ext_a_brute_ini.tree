@@ -1,0 +1,19 @@
+
+("ai_ext_a_brute_ini", MethodDecl<Void> @:374 op:0,dt:0,nt:65535,next:18526,str:41849,d0:0,d1:0;
+    (____, Scope<Void> @:18526 op:0,dt:4,nt:8,next:65535,str:9571,d0:18527,d1:43987;
+        ("begin", Expression<MethodOrOperator> @:18527 op:0,dt:2,nt:9,next:18511,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:18511 op:290,dt:4,nt:8,next:18514,str:9608,d0:18512,d1:43972;
+                ("ai_place", Expression<MethodOrOperator> @:18512 op:290,dt:2,nt:9,next:18513,str:14833,d0:0,d1:0;
+                    ("ext_a_brute_ini", Expression<AI> @:18513 op:19,dt:19,nt:9,next:65535,str:36867,d0:149,d1:0;)))
+            (____, Scope<Void> @:18514 op:21,dt:4,nt:8,next:18522,str:9639,d0:18515,d1:43975;
+                ("sleep_until", Expression<MethodOrOperator> @:18515 op:21,dt:2,nt:9,next:18516,str:231,d0:0,d1:0;
+                    (____, Scope<Boolean> @:18516 op:18,dt:5,nt:8,next:65535,str:9652,d0:18517,d1:43977;
+                        ("<=", Expression<MethodOrOperator> @:18517 op:18,dt:2,nt:9,next:18518,str:21122,d0:0,d1:0;
+                            (____, Scope<Short> @:18518 op:327,dt:7,nt:8,next:18521,str:9656,d0:18519,d1:43979;
+                                ("ai_living_count", Expression<MethodOrOperator> @:18519 op:327,dt:2,nt:9,next:18520,str:19381,d0:0,d1:0;
+                                    ("ext_a_elite_ini", Expression<AI> @:18520 op:19,dt:19,nt:9,next:65535,str:36851,d0:148,d1:0;)))
+                            (0, Expression<Short> @:18521 op:7,dt:7,nt:9,next:65535,str:9690,d0:0,d1:65535;)))))
+            (____, Scope<Void> @:18522 op:309,dt:4,nt:8,next:65535,str:9696,d0:18523,d1:43983;
+                ("ai_migrate", Expression<MethodOrOperator> @:18523 op:309,dt:2,nt:9,next:18524,str:30388,d0:0,d1:0;
+                    ("ext_a_brute_ini", Expression<AI> @:18524 op:19,dt:19,nt:9,next:18525,str:36867,d0:149,d1:0;
+                        ("ext_a_watch_brutes", Expression<AI> @:18525 op:19,dt:19,nt:9,next:65535,str:36902,d0:144,d1:0;)))))))

@@ -1,0 +1,20 @@
+
+("cs_big", MethodDecl<Void> @:205 op:0,dt:0,nt:65535,next:7889,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:7889 op:0,dt:4,nt:8,next:65535,str:22888,d0:7890,d1:33350;
+        ("begin", Expression<MethodOrOperator> @:7890 op:0,dt:2,nt:9,next:7873,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:7873 op:444,dt:4,nt:8,next:7876,str:22920,d0:7874,d1:33334;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:7874 op:444,dt:2,nt:9,next:7875,str:17589,d0:0,d1:0;
+                    (True, Expression<Boolean> @:7875 op:5,dt:5,nt:9,next:65535,str:22938,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:7876 op:19,dt:4,nt:8,next:7882,str:22946,d0:7877,d1:33337;
+                ("sleep", Expression<MethodOrOperator> @:7877 op:19,dt:2,nt:9,next:7878,str:80,d0:0,d1:0;
+                    (____, Scope<Short> @:7878 op:9,dt:7,nt:8,next:65535,str:22953,d0:7879,d1:33339;
+                        ("*", Expression<MethodOrOperator> @:7879 op:9,dt:2,nt:9,next:7880,str:981,d0:0,d1:0;
+                            (30f, Expression<Float> @:7880 op:6,dt:6,nt:9,next:7881,str:22956,d0:0,d1:16880;
+                                (10f, Expression<Float> @:7881 op:6,dt:6,nt:9,next:65535,str:22960,d0:0,d1:16672;))))))
+            (____, Scope<Void> @:7882 op:77,dt:4,nt:8,next:65535,str:22967,d0:7883,d1:33343;
+                ("object_set_scale", Expression<MethodOrOperator> @:7883 op:77,dt:2,nt:9,next:7884,str:17572,d0:0,d1:0;
+                    (____, Scope<Entity> @:7884 op:284,dt:50,nt:8,next:7887,str:22985,d0:7885,d1:33345;
+                        ("ai_get_object", Expression<MethodOrOperator> @:7885 op:284,dt:2,nt:9,next:7886,str:2308,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:7886 op:19,dt:19,nt:13,next:65535,str:3463,d0:33564,d1:65535;)))
+                    (2.1f, Expression<Float> @:7887 op:6,dt:6,nt:9,next:7888,str:23018,d0:26214,d1:16390;
+                        (0, Expression<Short> @:7888 op:7,dt:7,nt:9,next:65535,str:23022,d0:0,d1:65535;)))))))

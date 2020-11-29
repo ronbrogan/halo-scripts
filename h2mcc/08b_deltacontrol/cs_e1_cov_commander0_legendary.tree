@@ -1,0 +1,25 @@
+
+("cs_e1_cov_commander0_legendary", MethodDecl<Void> @:512 op:0,dt:0,nt:65535,next:20446,str:40848,d0:0,d1:0;
+    (____, Scope<Void> @:20446 op:0,dt:4,nt:8,next:65535,str:6301,d0:20447,d1:45907;
+        ("begin", Expression<MethodOrOperator> @:20447 op:0,dt:2,nt:9,next:20425,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:20425 op:400,dt:4,nt:8,next:20428,str:6357,d0:20426,d1:45886;
+                ("cs_face_player", Expression<MethodOrOperator> @:20426 op:400,dt:2,nt:9,next:20427,str:1207,d0:0,d1:0;
+                    (True, Expression<Boolean> @:20427 op:5,dt:5,nt:9,next:65535,str:6373,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:20428 op:21,dt:4,nt:8,next:20440,str:6430,d0:20429,d1:45889;
+                ("sleep_until", Expression<MethodOrOperator> @:20429 op:21,dt:2,nt:9,next:20430,str:236,d0:0,d1:0;
+                    (____, Scope<Boolean> @:20430 op:6,dt:5,nt:8,next:20439,str:6446,d0:20431,d1:45891;
+                        ("or", Expression<MethodOrOperator> @:20431 op:6,dt:2,nt:9,next:20432,str:849,d0:0,d1:0;
+                            ("players_in_vehicle", ScriptInvocation<Boolean> @:20432 op:265,dt:5,nt:10,next:20434,str:6476,d0:20433,d1:45893;
+                                ("players_in_vehicle", Expression<MethodOrOperator> @:20433 op:265,dt:2,nt:9,next:65535,str:30200,d0:0,d1:0;))
+                            (____, Scope<Boolean> @:20434 op:33,dt:5,nt:8,next:65535,str:6534,d0:20435,d1:45895;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:20435 op:33,dt:2,nt:9,next:20436,str:4732,d0:0,d1:0;
+                                    ("tv_e1_canyon_entry", Expression<Trigger> @:20436 op:13,dt:13,nt:9,next:20437,str:40107,d0:46,d1:0;
+                                        (____, Scope<List> @:20437 op:28,dt:31,nt:8,next:65535,str:6574,d0:20438,d1:45898;
+                                            ("players", Expression<MethodOrOperator> @:20438 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))))
+                    (15, Expression<Short> @:20439 op:7,dt:7,nt:9,next:65535,str:6593,d0:15,d1:65535;)))
+            (____, Scope<Void> @:20440 op:394,dt:4,nt:8,next:20443,str:6603,d0:20441,d1:45901;
+                ("cs_look_player", Expression<MethodOrOperator> @:20441 op:394,dt:2,nt:9,next:20442,str:27271,d0:0,d1:0;
+                    (False, Expression<Boolean> @:20442 op:5,dt:5,nt:9,next:65535,str:6619,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:20443 op:400,dt:4,nt:8,next:65535,str:6628,d0:20444,d1:45904;
+                ("cs_face_player", Expression<MethodOrOperator> @:20444 op:400,dt:2,nt:9,next:20445,str:1207,d0:0,d1:0;
+                    (False, Expression<Boolean> @:20445 op:5,dt:5,nt:9,next:65535,str:6644,d0:65280,d1:65535;))))))

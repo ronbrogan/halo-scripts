@@ -1,0 +1,16 @@
+
+("x05_fov_04", MethodDecl<Void> @:82 check:0,op:0,dt:0,nt:65535,next:2432,nextCheck:60659,str:6377,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:2432 check:60659,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28218,h:0,d0:2433,d1:60660;
+        ("begin", Expression<MethodOrOperator> @:2433 check:60660,op:0,dt:2,nt:9,next:2420,nextCheck:60647,str:54,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:2420 check:60647,op:676,dt:4,nt:8,next:2422,nextCheck:60649,str:28249,h:0,d0:2421,d1:60648;
+                ("time_code_reset", Expression<MethodOrOperator> @:2421 check:60648,op:676,dt:2,nt:9,next:65535,nextCheck:65535,str:6299,h:0,d0:0,d1:0;))
+            (____, Scope<Void> @:2422 check:60649,op:19,dt:4,nt:8,next:2425,nextCheck:60652,str:28271,h:0,d0:2423,d1:60650;
+                ("sleep", Expression<MethodOrOperator> @:2423 check:60650,op:19,dt:2,nt:9,next:2424,nextCheck:60651,str:133,h:0,d0:0,d1:0;
+                    (588, Expression<Short> @:2424 check:60651,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28278,h:0,d0:588,d1:65535;)))
+            (____, Scope<Void> @:2425 check:60652,op:459,dt:4,nt:8,next:2429,nextCheck:60656,str:28285,h:0,d0:2426,d1:60653;
+                ("camera_set_field_of_view", Expression<MethodOrOperator> @:2426 check:60653,op:459,dt:2,nt:9,next:2427,nextCheck:60654,str:1887,h:0,d0:0,d1:0;
+                    (34f, Expression<Float> @:2427 check:60654,op:6,dt:6,nt:9,next:2428,nextCheck:60655,str:28311,h:0,d0:0,d1:16904;
+                        (0, Expression<Short> @:2428 check:60655,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28314,h:0,d0:0,d1:65535;))))
+            (____, Scope<Void> @:2429 check:60656,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:28319,h:0,d0:2430,d1:60657;
+                ("print", Expression<MethodOrOperator> @:2430 check:60657,op:27,dt:2,nt:9,next:2431,nextCheck:60658,str:139,h:0,d0:0,d1:0;
+                    ("fov change: 60 -> 34 over 0 ticks", Expression<String> @:2431 check:60658,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:6315,h:0,d0:17691,d1:12768;))))))

@@ -1,0 +1,26 @@
+
+("cs_e11_cov_phantom0_exit", MethodDecl<Void> @:203 check:0,op:0,dt:0,nt:65535,next:7151,nextCheck:65378,str:15953,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:7151 check:65378,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:21758,h:1,d0:7152,d1:65379;
+        ("begin", Expression<MethodOrOperator> @:7152 check:65379,op:0,dt:2,nt:9,next:7129,nextCheck:65356,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:7129 check:65356,op:449,dt:4,nt:8,next:7132,nextCheck:65359,str:21808,h:1,d0:7130,d1:65357;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:7130 check:65357,op:449,dt:2,nt:9,next:7131,nextCheck:65358,str:4245,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:7131 check:65358,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:21840,h:1,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:7132 check:65359,op:380,dt:4,nt:8,next:7136,nextCheck:65363,str:21848,h:1,d0:7133,d1:65360;
+                ("cs_fly_to", Expression<MethodOrOperator> @:7133 check:65360,op:380,dt:2,nt:9,next:7134,nextCheck:65361,str:14701,h:0,d0:0,d1:0;
+                    ("e11_cov_phantom0/p0", Expression<SpatialPoint> @:7134 check:65361,op:28,dt:28,nt:9,next:7135,nextCheck:65362,str:14711,h:0,d0:0,d1:31;
+                        (1f, Expression<Float> @:7135 check:65362,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:21879,h:1,d0:0,d1:16256;))))
+            (____, Scope<Void> @:7136 check:65363,op:382,dt:4,nt:8,next:7141,nextCheck:65368,str:21886,h:1,d0:7137,d1:65364;
+                ("cs_fly_to_and_face", Expression<MethodOrOperator> @:7137 check:65364,op:382,dt:2,nt:9,next:7138,nextCheck:65365,str:14731,h:0,d0:0,d1:0;
+                    ("e11_cov_phantom0/p1", Expression<SpatialPoint> @:7138 check:65365,op:28,dt:28,nt:9,next:7139,nextCheck:65366,str:14750,h:0,d0:1,d1:31;
+                        ("e11_cov_phantom0/p2", Expression<SpatialPoint> @:7139 check:65366,op:28,dt:28,nt:9,next:7140,nextCheck:65367,str:14770,h:0,d0:2,d1:31;
+                            (1f, Expression<Float> @:7140 check:65367,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:21946,h:1,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:7141 check:65368,op:381,dt:4,nt:8,next:7145,nextCheck:65372,str:21953,h:1,d0:7142,d1:65369;
+                ("cs_fly_to_and_face", Expression<MethodOrOperator> @:7142 check:65369,op:381,dt:2,nt:9,next:7143,nextCheck:65370,str:14731,h:0,d0:0,d1:0;
+                    ("e11_cov_phantom0/p2", Expression<SpatialPoint> @:7143 check:65370,op:28,dt:28,nt:9,next:7144,nextCheck:65371,str:14770,h:0,d0:2,d1:31;
+                        ("e11_cov_phantom0/p3", Expression<SpatialPoint> @:7144 check:65371,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:14790,h:0,d0:3,d1:31;))))
+            (____, Scope<Void> @:7145 check:65372,op:383,dt:4,nt:8,next:7148,nextCheck:65375,str:22016,h:1,d0:7146,d1:65373;
+                ("cs_fly_by", Expression<MethodOrOperator> @:7146 check:65373,op:383,dt:2,nt:9,next:7147,nextCheck:65374,str:14810,h:0,d0:0,d1:0;
+                    ("e11_cov_phantom0/p3", Expression<SpatialPoint> @:7147 check:65374,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:14790,h:0,d0:3,d1:31;)))
+            (____, Scope<Void> @:7148 check:65375,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:22050,h:1,d0:7149,d1:65376;
+                ("ai_erase", Expression<MethodOrOperator> @:7149 check:65376,op:298,dt:2,nt:9,next:7150,nextCheck:65377,str:4501,h:0,d0:0,d1:0;
+                    ("ai_current_squad", VariableAccess<AI> @:7150 check:65377,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:11903,h:0,d0:33563,d1:65535;))))))

@@ -1,0 +1,33 @@
+
+("you_win", MethodDecl<Void> @:358 check:0,op:0,dt:0,nt:65535,next:17941,nextCheck:43401,str:31212,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:17941 check:43401,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:45328,h:2,d0:17942,d1:43402;
+        ("begin", Expression<MethodOrOperator> @:17942 check:43402,op:0,dt:2,nt:9,next:17912,nextCheck:43372,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:17912 check:43372,op:2,dt:4,nt:8,next:17918,nextCheck:43378,str:45354,h:2,d0:17913,d1:43373;
+                ("if", Expression<MethodOrOperator> @:17913 check:43373,op:2,dt:2,nt:9,next:17914,nextCheck:43374,str:456,h:0,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:17914 check:43374,op:5,dt:5,nt:13,next:17915,nextCheck:43375,str:11180,h:0,d0:3,d1:0;
+                        (____, Scope<Void> @:17915 check:43375,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:45364,h:2,d0:17916,d1:43376;
+                            ("print", Expression<MethodOrOperator> @:17916 check:43376,op:27,dt:2,nt:9,next:17917,nextCheck:43377,str:86,h:0,d0:0,d1:0;
+                                ("you win script called...", Expression<String> @:17917 check:43377,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:27424,h:0,d0:6600,d1:12465;))))))
+            (____, Scope<Void> @:17918 check:43378,op:21,dt:4,nt:8,next:17927,nextCheck:43387,str:45402,h:2,d0:17919,d1:43379;
+                ("sleep_until", Expression<MethodOrOperator> @:17919 check:43379,op:21,dt:2,nt:9,next:17920,nextCheck:43380,str:231,h:0,d0:0,d1:0;
+                    ("g_qz_phantom", VariableAccess<Boolean> @:17920 check:43380,op:5,dt:5,nt:13,next:17921,nextCheck:43381,str:27449,h:0,d0:118,d1:0;
+                        (30, Expression<Short> @:17921 check:43381,op:7,dt:7,nt:9,next:17922,nextCheck:43382,str:45428,h:2,d0:30,d1:65535;
+                            (____, Scope<Int> @:17922 check:43382,op:9,dt:8,nt:8,next:65535,nextCheck:65535,str:45431,h:2,d0:17923,d1:43383;
+                                ("*", Expression<MethodOrOperator> @:17923 check:43383,op:9,dt:2,nt:9,next:17924,nextCheck:43384,str:981,h:0,d0:0,d1:0;
+                                    (30f, Expression<Float> @:17924 check:43384,op:6,dt:6,nt:9,next:17925,nextCheck:43385,str:45434,h:2,d0:0,d1:16880;
+                                        (60f, Expression<Float> @:17925 check:43385,op:6,dt:6,nt:9,next:17926,nextCheck:43386,str:45437,h:2,d0:0,d1:17008;
+                                            (2f, Expression<Float> @:17926 check:43386,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:45440,h:2,d0:0,d1:16384;)))))))))
+            (____, Scope<Void> @:17927 check:43387,op:19,dt:4,nt:8,next:17930,nextCheck:43390,str:45446,h:2,d0:17928,d1:43388;
+                ("sleep", Expression<MethodOrOperator> @:17928 check:43388,op:19,dt:2,nt:9,next:17929,nextCheck:43389,str:80,h:0,d0:0,d1:0;
+                    (120, Expression<Short> @:17929 check:43389,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:45453,h:2,d0:120,d1:65535;)))
+            ("playtest_mission", ScriptInvocation<Void> @:17930 check:43390,op:23,dt:4,nt:10,next:17932,nextCheck:43392,str:45460,h:2,d0:17931,d1:43391;
+                ("playtest_mission", Expression<MethodOrOperator> @:17931 check:43391,op:23,dt:2,nt:9,next:65535,nextCheck:65535,str:27462,h:0,d0:0,d1:0;))
+            (____, Scope<Void> @:17932 check:43392,op:614,dt:4,nt:8,next:17937,nextCheck:43397,str:45484,h:2,d0:17933,d1:43393;
+                ("sound_class_set_gain", Expression<MethodOrOperator> @:17933 check:43393,op:614,dt:2,nt:9,next:17934,nextCheck:43394,str:6922,h:0,d0:0,d1:0;
+                    ("", Expression<String> @:17934 check:43394,op:9,dt:9,nt:9,next:17935,nextCheck:43395,str:0,h:0,d0:44712,d1:12464;
+                        (0f, Expression<Float> @:17935 check:43395,op:6,dt:6,nt:9,next:17936,nextCheck:43396,str:45509,h:2,d0:0,d1:0;
+                            (15, Expression<Short> @:17936 check:43396,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:45511,h:2,d0:15,d1:65535;)))))
+            ("cinematic_fade_to_white", ScriptInvocation<Void> @:17937 check:43397,op:9,dt:4,nt:10,next:17939,nextCheck:43399,str:45517,h:2,d0:17938,d1:43398;
+                ("cinematic_fade_to_white", Expression<MethodOrOperator> @:17938 check:43398,op:9,dt:2,nt:9,next:65535,nextCheck:65535,str:27479,h:0,d0:0,d1:0;))
+            (____, Scope<Void> @:17939 check:43399,op:565,dt:4,nt:8,next:65535,nextCheck:65535,str:45547,h:2,d0:17940,d1:43400;
+                ("game_won", Expression<MethodOrOperator> @:17940 check:43400,op:565,dt:2,nt:9,next:65535,nextCheck:65535,str:27503,h:0,d0:0,d1:0;)))))

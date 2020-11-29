@@ -1,0 +1,19 @@
+
+("cs_cov_def_spec_ops_a", MethodDecl<Void> @:174 op:0,dt:0,nt:65535,next:7169,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:7169 op:0,dt:4,nt:8,next:65535,str:17172,d0:7170,d1:65397;
+        ("begin", Expression<MethodOrOperator> @:7170 op:0,dt:2,nt:9,next:7154,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:7154 op:449,dt:4,nt:8,next:7157,str:17219,d0:7155,d1:65382;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:7155 op:449,dt:2,nt:9,next:7156,str:13859,d0:0,d1:0;
+                    (True, Expression<Boolean> @:7156 op:5,dt:5,nt:9,next:65535,str:17251,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:7157 op:394,dt:4,nt:8,next:7160,str:17259,d0:7158,d1:65385;
+                ("cs_look_player", Expression<MethodOrOperator> @:7158 op:394,dt:2,nt:9,next:7159,str:15973,d0:0,d1:0;
+                    (True, Expression<Boolean> @:7159 op:5,dt:5,nt:9,next:65535,str:17275,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:7160 op:21,dt:4,nt:8,next:7164,str:17286,d0:7161,d1:65388;
+                ("sleep_until", Expression<MethodOrOperator> @:7161 op:21,dt:2,nt:9,next:7162,str:236,d0:0,d1:0;
+                    ("g_qz_cov_def_progress", VariableAccess<Boolean> @:7162 op:5,dt:5,nt:13,next:7163,str:11886,d0:19,d1:0;
+                        (5, Expression<Short> @:7163 op:7,dt:7,nt:9,next:65535,str:17321,d0:5,d1:65535;))))
+            (____, Scope<Void> @:7164 op:426,dt:4,nt:8,next:65535,str:17326,d0:7165,d1:65392;
+                ("cs_go_to_vehicle", Expression<MethodOrOperator> @:7165 op:426,dt:2,nt:9,next:7166,str:15988,d0:0,d1:0;
+                    (____, Scope<Vehicle> @:7166 op:341,dt:52,nt:8,next:65535,str:17344,d0:7167,d1:65394;
+                        ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:7167 op:341,dt:2,nt:9,next:7168,str:13188,d0:0,d1:0;
+                            ("qz_cov_def_ghosts/a", Expression<AI> @:7168 op:19,dt:19,nt:9,next:65535,str:13263,d0:0,d1:49154;))))))))

@@ -1,0 +1,43 @@
+
+("e8_end_open", MethodDecl<Void> @:190 check:0,op:0,dt:0,nt:65535,next:6950,nextCheck:65177,str:18268,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:6950 check:65177,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:22780,h:1,d0:6951,d1:65178;
+        ("begin", Expression<MethodOrOperator> @:6951 check:65178,op:0,dt:2,nt:9,next:6911,nextCheck:65138,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:6911 check:65138,op:21,dt:4,nt:8,next:6919,nextCheck:65146,str:23064,h:1,d0:6912,d1:65139;
+                ("sleep_until", Expression<MethodOrOperator> @:6912 check:65139,op:21,dt:2,nt:9,next:6913,nextCheck:65140,str:231,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:6913 check:65140,op:33,dt:5,nt:8,next:6918,nextCheck:65145,str:23077,h:1,d0:6914,d1:65141;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:6914 check:65141,op:33,dt:2,nt:9,next:6915,nextCheck:65142,str:13534,h:0,d0:0,d1:0;
+                            ("tv_e8_end", Expression<Trigger> @:6915 check:65142,op:13,dt:13,nt:9,next:6916,nextCheck:65143,str:17173,h:0,d0:41,d1:0;
+                                (____, Scope<List> @:6916 check:65143,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:23108,h:1,d0:6917,d1:65144;
+                                    ("players", Expression<MethodOrOperator> @:6917 check:65144,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:21,h:0,d0:0,d1:0;)))))
+                    (15, Expression<Short> @:6918 check:65145,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23119,h:1,d0:15,d1:65535;)))
+            (____, Scope<Void> @:6919 check:65146,op:21,dt:4,nt:8,next:6926,nextCheck:65153,str:23125,h:1,d0:6920,d1:65147;
+                ("sleep_until", Expression<MethodOrOperator> @:6920 check:65147,op:21,dt:2,nt:9,next:6921,nextCheck:65148,str:231,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:6921 check:65148,op:13,dt:5,nt:8,next:6925,nextCheck:65152,str:23138,h:1,d0:6922,d1:65149;
+                        ("=", Expression<MethodOrOperator> @:6922 check:65149,op:13,dt:2,nt:9,next:6923,nextCheck:65150,str:296,h:0,d0:0,d1:0;
+                            ("g_dialogue_counter", VariableAccess<Short> @:6923 check:65150,op:0,dt:7,nt:13,next:6924,nextCheck:65151,str:13605,h:0,d0:5,d1:0;
+                                (5, Expression<Short> @:6924 check:65151,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23160,h:1,d0:5,d1:65535;))))
+                    (15, Expression<Short> @:6925 check:65152,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23163,h:1,d0:15,d1:65535;)))
+            (____, Scope<Void> @:6926 check:65153,op:22,dt:4,nt:8,next:6929,nextCheck:65156,str:23235,h:1,d0:6927,d1:65154;
+                ("wake", Expression<MethodOrOperator> @:6927 check:65154,op:22,dt:2,nt:9,next:6928,nextCheck:65155,str:1066,h:0,d0:0,d1:0;
+                    ("music_07b_05_stop", Expression<ScriptReference> @:6928 check:65155,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:17215,h:0,d0:120,d1:65535;)))
+            (____, Scope<Void> @:6929 check:65156,op:19,dt:4,nt:8,next:6932,nextCheck:65159,str:23262,h:1,d0:6930,d1:65157;
+                ("sleep", Expression<MethodOrOperator> @:6930 check:65157,op:19,dt:2,nt:9,next:6931,nextCheck:65158,str:80,h:0,d0:0,d1:0;
+                    (120, Expression<Short> @:6931 check:65158,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23269,h:1,d0:120,d1:65535;)))
+            (____, Scope<Void> @:6932 check:65159,op:2,dt:4,nt:8,next:6938,nextCheck:65165,str:23276,h:1,d0:6933,d1:65160;
+                ("if", Expression<MethodOrOperator> @:6933 check:65160,op:2,dt:2,nt:9,next:6934,nextCheck:65161,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:6934 check:65161,op:5,dt:5,nt:13,next:6935,nextCheck:65162,str:10397,h:0,d0:3,d1:0;
+                        (____, Scope<Void> @:6935 check:65162,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:23295,h:1,d0:6936,d1:65163;
+                            ("print", Expression<MethodOrOperator> @:6936 check:65163,op:27,dt:2,nt:9,next:6937,nextCheck:65164,str:86,h:0,d0:0,d1:0;
+                                ("cortana: apparently these are the prophet hierarch's private quarters - their inner sanctum.", Expression<String> @:6937 check:65164,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:17233,h:0,d0:51057,d1:11039;))))))
+            (____, Scope<Void> @:6938 check:65165,op:19,dt:4,nt:8,next:6944,nextCheck:65171,str:23404,h:1,d0:6939,d1:65166;
+                ("sleep", Expression<MethodOrOperator> @:6939 check:65166,op:19,dt:2,nt:9,next:6940,nextCheck:65167,str:80,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:6940 check:65167,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:23411,h:1,d0:6941,d1:65168;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:6941 check:65168,op:362,dt:2,nt:9,next:6942,nextCheck:65169,str:10487,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:6942 check:65169,op:50,dt:50,nt:9,next:6943,nextCheck:65170,str:1386,h:0,d0:65535,d1:65535;
+                                ("2770", Expression<StringId> @:6943 check:65170,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:17326,h:0,d0:10346,d1:1024;))))))
+            (____, Scope<Void> @:6944 check:65171,op:4,dt:4,nt:8,next:6948,nextCheck:65175,str:23449,h:1,d0:6945,d1:65172;
+                ("set", Expression<MethodOrOperator> @:6945 check:65172,op:4,dt:2,nt:9,next:6946,nextCheck:65173,str:2094,h:0,d0:0,d1:0;
+                    ("g_dialogue_counter", VariableAccess<Short> @:6946 check:65173,op:65535,dt:7,nt:13,next:6947,nextCheck:65174,str:13605,h:0,d0:5,d1:0;
+                        (6, Expression<Short> @:6947 check:65174,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23473,h:1,d0:6,d1:65535;))))
+            (____, Scope<Void> @:6948 check:65175,op:587,dt:4,nt:8,next:65535,nextCheck:65535,str:23478,h:1,d0:6949,d1:65176;
+                ("game_save", Expression<MethodOrOperator> @:6949 check:65176,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:15771,h:0,d0:0,d1:0;)))))

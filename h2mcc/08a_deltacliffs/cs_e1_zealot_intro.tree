@@ -1,0 +1,25 @@
+
+("cs_e1_zealot_intro", MethodDecl<Void> @:214 op:0,dt:0,nt:65535,next:8706,str:16366,d0:0,d1:0;
+    (____, Scope<Void> @:8706 op:0,dt:4,nt:8,next:65535,str:43374,d0:8707,d1:34167;
+        ("begin", Expression<MethodOrOperator> @:8707 op:0,dt:2,nt:9,next:8685,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:8685 op:393,dt:4,nt:8,next:8689,str:43418,d0:8686,d1:34146;
+                ("cs_look", Expression<MethodOrOperator> @:8686 op:393,dt:2,nt:9,next:8687,str:6498,d0:0,d1:0;
+                    (True, Expression<Boolean> @:8687 op:5,dt:5,nt:9,next:8688,str:43427,d0:65281,d1:65535;
+                        ("e1_zealot/p0", Expression<SpatialPoint> @:8688 op:28,dt:28,nt:9,next:65535,str:15490,d0:0,d1:4;))))
+            (____, Scope<Void> @:8689 op:19,dt:4,nt:8,next:8692,str:43448,d0:8690,d1:34150;
+                ("sleep", Expression<MethodOrOperator> @:8690 op:19,dt:2,nt:9,next:8691,str:143,d0:0,d1:0;
+                    (25, Expression<Short> @:8691 op:7,dt:7,nt:9,next:65535,str:43455,d0:25,d1:65535;)))
+            (____, Scope<Void> @:8692 op:360,dt:4,nt:8,next:8696,str:43461,d0:8693,d1:34153;
+                ("ai_play_line", Expression<MethodOrOperator> @:8693 op:360,dt:2,nt:9,next:8694,str:6561,d0:0,d1:0;
+                    ("ai_current_actor", VariableAccess<AI> @:8694 op:19,dt:19,nt:13,next:8695,str:6458,d0:33564,d1:65535;
+                        ("0330", Expression<StringId> @:8695 op:11,dt:11,nt:9,next:65535,str:13900,d0:13023,d1:1024;))))
+            (____, Scope<Void> @:8696 op:27,dt:4,nt:8,next:8699,str:43500,d0:8697,d1:34157;
+                ("print", Expression<MethodOrOperator> @:8697 op:27,dt:2,nt:9,next:8698,str:149,d0:0,d1:0;
+                    ("zealot: over so soon? bah", Expression<String> @:8698 op:9,dt:9,nt:9,next:65535,str:15503,d0:15503,d1:0;)))
+            (____, Scope<Void> @:8699 op:393,dt:4,nt:8,next:8703,str:43538,d0:8700,d1:34160;
+                ("cs_look", Expression<MethodOrOperator> @:8700 op:393,dt:2,nt:9,next:8701,str:6498,d0:0,d1:0;
+                    (True, Expression<Boolean> @:8701 op:5,dt:5,nt:9,next:8702,str:43547,d0:65281,d1:65535;
+                        ("e1_zealot/p1", Expression<SpatialPoint> @:8702 op:28,dt:28,nt:9,next:65535,str:15193,d0:1,d1:4;))))
+            (____, Scope<Void> @:8703 op:19,dt:4,nt:8,next:65535,str:43568,d0:8704,d1:34164;
+                ("sleep", Expression<MethodOrOperator> @:8704 op:19,dt:2,nt:9,next:8705,str:143,d0:0,d1:0;
+                    (30, Expression<Short> @:8705 op:7,dt:7,nt:9,next:65535,str:43575,d0:30,d1:65535;))))))

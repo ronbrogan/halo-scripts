@@ -1,0 +1,24 @@
+
+("e10_pro_inf0_main", MethodDecl<Void> @:108 op:0,dt:0,nt:65535,next:3775,str:8453,d0:0,d1:0;
+    (____, Scope<Void> @:3775 op:0,dt:4,nt:8,next:65535,str:44796,d0:3776,d1:62003;
+        ("begin", Expression<MethodOrOperator> @:3776 op:0,dt:2,nt:9,next:3755,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:3755 op:290,dt:4,nt:8,next:3758,str:44832,d0:3756,d1:61983;
+                ("ai_place", Expression<MethodOrOperator> @:3756 op:290,dt:2,nt:9,next:3757,str:6964,d0:0,d1:0;
+                    ("e10_pro_inf0_0", Expression<AI> @:3757 op:19,dt:19,nt:9,next:65535,str:8022,d0:72,d1:0;)))
+            (____, Scope<Void> @:3758 op:21,dt:4,nt:8,next:3773,str:44881,d0:3759,d1:61986;
+                ("sleep_until", Expression<MethodOrOperator> @:3759 op:21,dt:2,nt:9,next:3760,str:294,d0:0,d1:0;
+                    (____, Scope<Boolean> @:3760 op:6,dt:5,nt:8,next:3772,str:44898,d0:3761,d1:61988;
+                        ("or", Expression<MethodOrOperator> @:3761 op:6,dt:2,nt:9,next:3762,str:907,d0:0,d1:0;
+                            (____, Scope<Boolean> @:3762 op:33,dt:5,nt:8,next:3767,str:44906,d0:3763,d1:61990;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:3763 op:33,dt:2,nt:9,next:3764,str:7259,d0:0,d1:0;
+                                    ("tv_e10_armory_entrance", Expression<Trigger> @:3764 op:13,dt:13,nt:9,next:3765,str:7427,d0:34,d1:0;
+                                        (____, Scope<List> @:3765 op:28,dt:31,nt:8,next:65535,str:44950,d0:3766,d1:61993;
+                                            ("players", Expression<MethodOrOperator> @:3766 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;)))))
+                            (____, Scope<Boolean> @:3767 op:33,dt:5,nt:8,next:65535,str:44966,d0:3768,d1:61995;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:3768 op:33,dt:2,nt:9,next:3769,str:7259,d0:0,d1:0;
+                                    ("tv_e10_second_half", Expression<Trigger> @:3769 op:13,dt:13,nt:9,next:3770,str:7450,d0:48,d1:0;
+                                        (____, Scope<List> @:3770 op:28,dt:31,nt:8,next:65535,str:45006,d0:3771,d1:61998;
+                                            ("players", Expression<MethodOrOperator> @:3771 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;)))))))
+                    (15, Expression<Short> @:3772 op:7,dt:7,nt:9,next:65535,str:45026,d0:15,d1:65535;)))
+            (____, Scope<Void> @:3773 op:587,dt:4,nt:8,next:65535,str:45035,d0:3774,d1:62001;
+                ("game_save", Expression<MethodOrOperator> @:3774 op:587,dt:2,nt:9,next:65535,str:7417,d0:0,d1:0;)))))

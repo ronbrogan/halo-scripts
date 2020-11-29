@@ -1,0 +1,26 @@
+
+("ai_cond_a_em_k", MethodDecl<Void> @:229 op:0,dt:0,nt:65535,next:9092,str:19171,d0:0,d1:0;
+    (____, Scope<Void> @:9092 op:0,dt:4,nt:8,next:65535,str:32589,d0:9093,d1:34553;
+        ("begin", Expression<MethodOrOperator> @:9093 op:0,dt:2,nt:9,next:9070,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:9070 op:2,dt:4,nt:8,next:9076,str:32626,d0:9071,d1:34531;
+                ("if", Expression<MethodOrOperator> @:9071 op:2,dt:2,nt:9,next:9072,str:456,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:9072 op:5,dt:5,nt:13,next:9073,str:11238,d0:3,d1:0;
+                        (____, Scope<Void> @:9073 op:27,dt:4,nt:8,next:65535,str:32636,d0:9074,d1:34534;
+                            ("print", Expression<MethodOrOperator> @:9074 op:27,dt:2,nt:9,next:9075,str:86,d0:0,d1:0;
+                                ("k", Expression<String> @:9075 op:9,dt:9,nt:9,next:65535,str:18809,d0:18809,d1:0;))))))
+            (____, Scope<Void> @:9076 op:290,dt:4,nt:8,next:9079,str:32651,d0:9077,d1:34537;
+                ("ai_place", Expression<MethodOrOperator> @:9077 op:290,dt:2,nt:9,next:9078,str:1415,d0:0,d1:0;
+                    ("cond_a_sen_b/k", Expression<AI> @:9078 op:19,dt:19,nt:9,next:65535,str:18811,d0:2,d1:49163;)))
+            (____, Scope<Void> @:9079 op:4,dt:4,nt:8,next:9086,str:32679,d0:9080,d1:34540;
+                ("set", Expression<MethodOrOperator> @:9080 op:4,dt:2,nt:9,next:9081,str:2613,d0:0,d1:0;
+                    ("g_cond_a_count", VariableAccess<Short> @:9081 op:65535,dt:7,nt:13,next:9082,str:18681,d0:55,d1:0;
+                        (____, Scope<Short> @:9082 op:7,dt:7,nt:8,next:65535,str:32699,d0:9083,d1:34543;
+                            ("+", Expression<MethodOrOperator> @:9083 op:7,dt:2,nt:9,next:9084,str:983,d0:0,d1:0;
+                                ("g_cond_a_count", VariableAccess<Float> @:9084 op:6,dt:6,nt:13,next:9085,str:18681,d0:55,d1:0;
+                                    (1f, Expression<Float> @:9085 op:6,dt:6,nt:9,next:65535,str:32717,d0:0,d1:16256;)))))))
+            (____, Scope<Void> @:9086 op:19,dt:4,nt:8,next:65535,str:32724,d0:9087,d1:34547;
+                ("sleep", Expression<MethodOrOperator> @:9087 op:19,dt:2,nt:9,next:9088,str:80,d0:0,d1:0;
+                    (____, Scope<Short> @:9088 op:124,dt:7,nt:8,next:65535,str:32731,d0:9089,d1:34549;
+                        ("random_range", Expression<MethodOrOperator> @:9089 op:124,dt:2,nt:9,next:9090,str:17670,d0:0,d1:0;
+                            ("g_sleep_lower_bound", VariableAccess<Short> @:9090 op:7,dt:7,nt:13,next:9091,str:10917,d0:6,d1:0;
+                                ("g_sleep_upper_bound", VariableAccess<Short> @:9091 op:7,dt:7,nt:13,next:65535,str:10937,d0:7,d1:0;)))))))))

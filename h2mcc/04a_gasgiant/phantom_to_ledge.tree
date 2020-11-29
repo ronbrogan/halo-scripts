@@ -1,0 +1,21 @@
+
+("phantom_to_ledge", MethodDecl<Void> @:339 op:0,dt:0,nt:65535,next:16082,str:29629,d0:0,d1:0;
+    (____, Scope<Void> @:16082 op:0,dt:4,nt:8,next:65535,str:50888,d0:16083,d1:41543;
+        ("begin", Expression<MethodOrOperator> @:16083 op:0,dt:2,nt:9,next:16065,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:16065 op:449,dt:4,nt:8,next:16068,str:50930,d0:16066,d1:41526;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:16066 op:449,dt:2,nt:9,next:16067,str:17423,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16067 op:5,dt:5,nt:9,next:65535,str:50962,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:16068 op:407,dt:4,nt:8,next:16071,str:50970,d0:16069,d1:41529;
+                ("cs_vehicle_speed", Expression<MethodOrOperator> @:16069 op:407,dt:2,nt:9,next:16070,str:22163,d0:0,d1:0;
+                    (0.75f, Expression<Float> @:16070 op:6,dt:6,nt:9,next:65535,str:50988,d0:0,d1:16192;)))
+            (____, Scope<Void> @:16071 op:384,dt:4,nt:8,next:16075,str:50995,d0:16072,d1:41532;
+                ("cs_fly_by", Expression<MethodOrOperator> @:16072 op:384,dt:2,nt:9,next:16073,str:19180,d0:0,d1:0;
+                    ("airspace/ph0x", Expression<SpatialPoint> @:16073 op:28,dt:28,nt:9,next:16074,str:29071,d0:0,d1:10;
+                        (10f, Expression<Float> @:16074 op:6,dt:6,nt:9,next:65535,str:51020,d0:0,d1:16672;))))
+            (____, Scope<Void> @:16075 op:382,dt:4,nt:8,next:16080,str:51026,d0:16076,d1:41536;
+                ("cs_fly_to_and_face", Expression<MethodOrOperator> @:16076 op:382,dt:2,nt:9,next:16077,str:23923,d0:0,d1:0;
+                    ("airspace/ph00", Expression<SpatialPoint> @:16077 op:28,dt:28,nt:9,next:16078,str:29085,d0:1,d1:10;
+                        ("airspace/ph01", Expression<SpatialPoint> @:16078 op:28,dt:28,nt:9,next:16079,str:29099,d0:2,d1:10;
+                            (5f, Expression<Float> @:16079 op:6,dt:6,nt:9,next:65535,str:51074,d0:0,d1:16544;)))))
+            (____, Scope<Void> @:16080 op:20,dt:4,nt:8,next:65535,str:51079,d0:16081,d1:41541;
+                ("sleep_forever", Expression<MethodOrOperator> @:16081 op:20,dt:2,nt:9,next:65535,str:15175,d0:0,d1:0;)))))

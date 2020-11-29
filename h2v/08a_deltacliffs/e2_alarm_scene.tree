@@ -1,0 +1,22 @@
+
+("e2_alarm_scene", MethodDecl<Void> @:197 check:0,op:0,dt:0,nt:65535,next:7601,nextCheck:33061,str:13693,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:7601 check:33061,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:30266,h:1,d0:7602,d1:33062;
+        ("begin", Expression<MethodOrOperator> @:7602 check:33062,op:0,dt:2,nt:9,next:7583,nextCheck:33043,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:7583 check:33043,op:21,dt:4,nt:8,next:7592,nextCheck:33052,str:30342,h:1,d0:7584,d1:33044;
+                ("sleep_until", Expression<MethodOrOperator> @:7584 check:33044,op:21,dt:2,nt:9,next:7585,nextCheck:33045,str:294,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:7585 check:33045,op:17,dt:5,nt:8,next:7591,nextCheck:33051,str:30355,h:1,d0:7586,d1:33046;
+                        (">=", Expression<MethodOrOperator> @:7586 check:33046,op:17,dt:2,nt:9,next:7587,nextCheck:33047,str:734,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:7587 check:33047,op:353,dt:7,nt:8,next:7590,nextCheck:33050,str:30359,h:1,d0:7588,d1:33048;
+                                ("ai_combat_status", Expression<MethodOrOperator> @:7588 check:33048,op:353,dt:2,nt:9,next:7589,nextCheck:33049,str:5745,h:0,d0:0,d1:0;
+                                    ("e2_pro_inf0", Expression<AI> @:7589 check:33049,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13549,h:0,d0:14,d1:0;)))
+                            ("ai_combat_status_visible", VariableAccess<Short> @:7590 check:33050,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:13668,h:0,d0:33578,d1:65535;)))
+                    (15, Expression<Short> @:7591 check:33051,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:30416,h:1,d0:15,d1:65535;)))
+            (____, Scope<Void> @:7592 check:33052,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:30474,h:1,d0:7593,d1:33053;
+                ("sleep_until", Expression<MethodOrOperator> @:7593 check:33053,op:21,dt:2,nt:9,next:7594,nextCheck:33054,str:294,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:7594 check:33054,op:363,dt:5,nt:8,next:7599,nextCheck:33059,str:30490,h:1,d0:7595,d1:33055;
+                        ("ai_scene", Expression<MethodOrOperator> @:7595 check:33055,op:363,dt:2,nt:9,next:7596,nextCheck:33056,str:7257,h:0,d0:0,d1:0;
+                            ("e2_alarm_scene", Expression<StringId> @:7596 check:33056,op:11,dt:11,nt:9,next:7597,nextCheck:33057,str:13693,h:0,d0:10277,d1:3584;
+                                ("cs_e2_alarm_scene", Expression<AIScript> @:7597 check:33057,op:21,dt:21,nt:9,next:7598,nextCheck:33058,str:13708,h:0,d0:191,d1:0;
+                                    ("e2_pro_inf0", Expression<AI> @:7598 check:33058,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13549,h:0,d0:14,d1:0;)))))
+                    (15, Expression<Short> @:7599 check:33059,op:7,dt:7,nt:9,next:7600,nextCheck:33060,str:30549,h:1,d0:15,d1:65535;
+                        (300, Expression<Int> @:7600 check:33060,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:30555,h:1,d0:300,d1:0;)))))))

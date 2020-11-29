@@ -1,0 +1,23 @@
+
+("ai_sentinel_spawn", MethodDecl<Void> @:200 check:0,op:0,dt:0,nt:65535,next:8675,nextCheck:34135,str:18411,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:8675 check:34135,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:31697,h:1,d0:8676,d1:34136;
+        ("begin", Expression<MethodOrOperator> @:8676 check:34136,op:0,dt:2,nt:9,next:8656,nextCheck:34116,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:8656 check:34116,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:31733,h:1,d0:8657,d1:34117;
+                ("sleep_until", Expression<MethodOrOperator> @:8657 check:34117,op:21,dt:2,nt:9,next:8658,nextCheck:34118,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:8658 check:34118,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:31749,h:1,d0:8659,d1:34119;
+                        ("begin", Expression<MethodOrOperator> @:8659 check:34119,op:0,dt:2,nt:9,next:8660,nextCheck:34120,str:6,h:0,d0:0,d1:0;
+                            (____, Scope<Void> @:8660 check:34120,op:21,dt:4,nt:8,next:8668,nextCheck:34128,str:31760,h:1,d0:8661,d1:34121;
+                                ("sleep_until", Expression<MethodOrOperator> @:8661 check:34121,op:21,dt:2,nt:9,next:8662,nextCheck:34122,str:236,h:0,d0:0,d1:0;
+                                    (____, Scope<Boolean> @:8662 check:34122,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:31773,h:1,d0:8663,d1:34123;
+                                        ("<=", Expression<MethodOrOperator> @:8663 check:34123,op:18,dt:2,nt:9,next:8664,nextCheck:34124,str:11840,h:0,d0:0,d1:0;
+                                            (____, Scope<Short> @:8664 check:34124,op:327,dt:7,nt:8,next:8667,nextCheck:34127,str:31777,h:1,d0:8665,d1:34125;
+                                                ("ai_living_count", Expression<MethodOrOperator> @:8665 check:34125,op:327,dt:2,nt:9,next:8666,nextCheck:34126,str:11843,h:0,d0:0,d1:0;
+                                                    ("gorge_sen", Expression<AI> @:8666 check:34126,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:18357,h:0,d0:83,d1:0;)))
+                                            (0, Expression<Short> @:8667 check:34127,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:31805,h:1,d0:0,d1:65535;)))))
+                            (____, Scope<Void> @:8668 check:34128,op:19,dt:4,nt:8,next:8671,nextCheck:34131,str:31813,h:1,d0:8669,d1:34129;
+                                ("sleep", Expression<MethodOrOperator> @:8669 check:34129,op:19,dt:2,nt:9,next:8670,nextCheck:34130,str:85,h:0,d0:0,d1:0;
+                                    (150, Expression<Short> @:8670 check:34130,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:31820,h:1,d0:150,d1:65535;)))
+                            (____, Scope<Void> @:8671 check:34131,op:290,dt:4,nt:8,next:8674,nextCheck:34134,str:31829,h:1,d0:8672,d1:34132;
+                                ("ai_place", Expression<MethodOrOperator> @:8672 check:34132,op:290,dt:2,nt:9,next:8673,nextCheck:34133,str:16163,h:0,d0:0,d1:0;
+                                    ("gorge_sen", Expression<AI> @:8673 check:34133,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:18357,h:0,d0:83,d1:0;)))
+                            ("g_gorge_sen_spawn", VariableAccess<Boolean> @:8674 check:34134,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:18367,h:0,d0:48,d1:0;))))))))

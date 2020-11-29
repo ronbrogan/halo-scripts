@@ -1,0 +1,23 @@
+
+("flashlight_control", MethodDecl<Void> @:198 check:0,op:0,dt:0,nt:65535,next:6101,nextCheck:64328,str:31315,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:6101 check:64328,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:6253,h:1,d0:6102,d1:64329;
+        ("begin", Expression<MethodOrOperator> @:6102 check:64329,op:0,dt:2,nt:9,next:6082,nextCheck:64309,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:6082 check:64309,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:6290,h:1,d0:6083,d1:64310;
+                ("sleep_until", Expression<MethodOrOperator> @:6083 check:64310,op:21,dt:2,nt:9,next:6084,nextCheck:64311,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:6084 check:64311,op:0,dt:5,nt:8,next:6100,nextCheck:64327,str:6306,h:1,d0:6085,d1:64312;
+                        ("begin", Expression<MethodOrOperator> @:6085 check:64312,op:0,dt:2,nt:9,next:6086,nextCheck:64313,str:6,h:0,d0:0,d1:0;
+                            (____, Scope<Void> @:6086 check:64313,op:2,dt:4,nt:8,next:6099,nextCheck:64326,str:6356,h:1,d0:6087,d1:64314;
+                                ("if", Expression<MethodOrOperator> @:6087 check:64314,op:2,dt:2,nt:9,next:6088,nextCheck:64315,str:461,h:0,d0:0,d1:0;
+                                    (____, Scope<Boolean> @:6088 check:64315,op:33,dt:5,nt:8,next:6093,nextCheck:64320,str:6366,h:1,d0:6089,d1:64316;
+                                        ("volume_test_objects", Expression<MethodOrOperator> @:6089 check:64316,op:33,dt:2,nt:9,next:6090,nextCheck:64317,str:13177,h:0,d0:0,d1:0;
+                                            ("tv_dark_area0", Expression<Trigger> @:6090 check:64317,op:13,dt:13,nt:9,next:6091,nextCheck:64318,str:13728,h:0,d0:100,d1:0;
+                                                (____, Scope<List> @:6091 check:64318,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:6401,h:1,d0:6092,d1:64319;
+                                                    ("players", Expression<MethodOrOperator> @:6092 check:64319,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                                    (____, Scope<Void> @:6093 check:64320,op:570,dt:4,nt:8,next:6096,nextCheck:64323,str:6417,h:1,d0:6094,d1:64321;
+                                        ("game_can_use_flashlights", Expression<MethodOrOperator> @:6094 check:64321,op:570,dt:2,nt:9,next:6095,nextCheck:64322,str:13742,h:0,d0:0,d1:0;
+                                            (True, Expression<Boolean> @:6095 check:64322,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:6443,h:1,d0:65281,d1:65535;)))
+                                    (____, Scope<Void> @:6096 check:64323,op:570,dt:4,nt:8,next:65535,nextCheck:65535,str:6454,h:1,d0:6097,d1:64324;
+                                        ("game_can_use_flashlights", Expression<MethodOrOperator> @:6097 check:64324,op:570,dt:2,nt:9,next:6098,nextCheck:64325,str:13742,h:0,d0:0,d1:0;
+                                            (False, Expression<Boolean> @:6098 check:64325,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:6480,h:1,d0:65280,d1:65535;)))))
+                            (False, Expression<Boolean> @:6099 check:64326,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:6501,h:1,d0:65280,d1:65535;)))
+                    (60, Expression<Short> @:6100 check:64327,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:6515,h:1,d0:60,d1:65535;))))))

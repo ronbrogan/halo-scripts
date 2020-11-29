@@ -1,0 +1,31 @@
+
+("c05_outro_01_setup", MethodDecl<Void> @:84 check:0,op:0,dt:0,nt:65535,next:2425,nextCheck:60652,str:6820,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:2425 check:60652,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28334,h:0,d0:2426,d1:60653;
+        ("begin", Expression<MethodOrOperator> @:2426 check:60653,op:0,dt:2,nt:9,next:2398,nextCheck:60625,str:142,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:2398 check:60625,op:48,dt:4,nt:8,next:2401,nextCheck:60628,str:28377,h:0,d0:2399,d1:60626;
+                ("object_create_anew", Expression<MethodOrOperator> @:2399 check:60626,op:48,dt:2,nt:9,next:2400,nextCheck:60627,str:2641,h:0,d0:0,d1:0;
+                    ("carrier", Expression<EntityIdentifier> @:2400 check:60627,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:6596,h:0,d0:1,d1:65535;)))
+            (____, Scope<Void> @:2401 check:60628,op:92,dt:4,nt:8,next:2405,nextCheck:60632,str:28408,h:0,d0:2402,d1:60629;
+                ("object_cinematic_lod", Expression<MethodOrOperator> @:2402 check:60629,op:92,dt:2,nt:9,next:2403,nextCheck:60630,str:2729,h:0,d0:0,d1:0;
+                    (4294901761, Expression<Entity> @:2403 check:60630,op:56,dt:50,nt:9,next:2404,nextCheck:60631,str:6596,h:0,d0:1,d1:65535;
+                        (True, Expression<Boolean> @:2404 check:60631,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:28438,h:0,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:2405 check:60632,op:22,dt:4,nt:8,next:2408,nextCheck:60635,str:28448,h:0,d0:2406,d1:60633;
+                ("wake", Expression<MethodOrOperator> @:2406 check:60633,op:22,dt:2,nt:9,next:2407,nextCheck:60634,str:1207,h:0,d0:0,d1:0;
+                    ("c05_outro_score_01", Expression<ScriptReference> @:2407 check:60634,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:6604,h:0,d0:78,d1:65535;)))
+            (____, Scope<Void> @:2408 check:60635,op:22,dt:4,nt:8,next:2411,nextCheck:60638,str:28476,h:0,d0:2409,d1:60636;
+                ("wake", Expression<MethodOrOperator> @:2409 check:60636,op:22,dt:2,nt:9,next:2410,nextCheck:60637,str:1207,h:0,d0:0,d1:0;
+                    ("c05_outro_foley_01", Expression<ScriptReference> @:2410 check:60637,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:6623,h:0,d0:79,d1:65535;)))
+            (____, Scope<Void> @:2411 check:60638,op:22,dt:4,nt:8,next:2414,nextCheck:60641,str:28507,h:0,d0:2412,d1:60639;
+                ("wake", Expression<MethodOrOperator> @:2412 check:60639,op:22,dt:2,nt:9,next:2413,nextCheck:60640,str:1207,h:0,d0:0,d1:0;
+                    ("effect_dust_scrape", Expression<ScriptReference> @:2413 check:60640,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:6642,h:0,d0:80,d1:65535;)))
+            (____, Scope<Void> @:2414 check:60641,op:22,dt:4,nt:8,next:2417,nextCheck:60644,str:28535,h:0,d0:2415,d1:60642;
+                ("wake", Expression<MethodOrOperator> @:2415 check:60642,op:22,dt:2,nt:9,next:2416,nextCheck:60643,str:1207,h:0,d0:0,d1:0;
+                    ("c05_outro_01_dof", Expression<ScriptReference> @:2416 check:60643,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:6661,h:0,d0:81,d1:65535;)))
+            (____, Scope<Void> @:2417 check:60644,op:22,dt:4,nt:8,next:2420,nextCheck:60647,str:28561,h:0,d0:2418,d1:60645;
+                ("wake", Expression<MethodOrOperator> @:2418 check:60645,op:22,dt:2,nt:9,next:2419,nextCheck:60646,str:1207,h:0,d0:0,d1:0;
+                    ("c05_outro_cinematic_light_01", Expression<ScriptReference> @:2419 check:60646,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:6678,h:0,d0:82,d1:65535;)))
+            (____, Scope<Void> @:2420 check:60647,op:41,dt:4,nt:8,next:65535,nextCheck:65535,str:28602,h:0,d0:2421,d1:60648;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:2421 check:60648,op:41,dt:2,nt:9,next:2422,nextCheck:60649,str:2384,h:0,d0:0,d1:0;
+                    ("effects\cinematics\05\covenant_beam", Expression<Effect> @:2422 check:60649,op:33,dt:33,nt:9,next:2423,nextCheck:60650,str:6707,h:0,d0:844,d1:58562;
+                        (4294901761, Expression<Entity> @:2423 check:60650,op:56,dt:50,nt:9,next:2424,nextCheck:60651,str:6596,h:0,d0:1,d1:65535;
+                            ("beam", Expression<StringId> @:2424 check:60651,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:6743,h:0,d0:4709,d1:1024;))))))))

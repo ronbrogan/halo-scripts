@@ -1,0 +1,23 @@
+
+("test_park", MethodDecl<Void> @:355 op:0,dt:0,nt:65535,next:12750,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:12750 op:0,dt:4,nt:8,next:65535,str:34168,d0:12751,d1:38211;
+        ("begin", Expression<MethodOrOperator> @:12751 op:0,dt:2,nt:9,next:12731,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:12731 op:507,dt:4,nt:8,next:12734,str:34200,d0:12732,d1:38192;
+                ("switch_bsp", Expression<MethodOrOperator> @:12732 op:507,dt:2,nt:9,next:12733,str:22338,d0:0,d1:0;
+                    (1, Expression<Short> @:12733 op:7,dt:7,nt:9,next:65535,str:34212,d0:1,d1:65535;)))
+            (____, Scope<Void> @:12734 op:105,dt:4,nt:8,next:12739,str:34217,d0:12735,d1:38195;
+                ("object_teleport", Expression<MethodOrOperator> @:12735 op:105,dt:2,nt:9,next:12736,str:18689,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:12736 op:0,dt:50,nt:10,next:12738,str:34234,d0:12737,d1:38197;
+                        ("player0", Expression<MethodOrOperator> @:12737 op:0,dt:2,nt:9,next:65535,str:607,d0:0,d1:0;))
+                    ("e18_test", Expression<LocationFlag> @:12738 op:14,dt:14,nt:9,next:65535,str:26381,d0:5,d1:0;)))
+            (____, Scope<Void> @:12739 op:290,dt:4,nt:8,next:12742,str:34256,d0:12740,d1:38200;
+                ("ai_place", Expression<MethodOrOperator> @:12740 op:290,dt:2,nt:9,next:12741,str:16628,d0:0,d1:0;
+                    ("e18_mars_inf0", Expression<AI> @:12741 op:19,dt:19,nt:9,next:65535,str:24997,d0:42,d1:0;)))
+            (____, Scope<Void> @:12742 op:2,dt:4,nt:8,next:65535,str:34283,d0:12743,d1:38203;
+                ("if", Expression<MethodOrOperator> @:12743 op:2,dt:2,nt:9,next:12744,str:461,d0:0,d1:0;
+                    (____, Scope<Boolean> @:12744 op:25,dt:5,nt:8,next:12747,str:34287,d0:12745,d1:38205;
+                        ("not", Expression<MethodOrOperator> @:12745 op:25,dt:2,nt:9,next:12746,str:402,d0:0,d1:0;
+                            ("g_e18_started", VariableAccess<Boolean> @:12746 op:5,dt:5,nt:13,next:65535,str:26142,d0:41,d1:0;)))
+                    (____, Scope<Void> @:12747 op:22,dt:4,nt:8,next:65535,str:34307,d0:12748,d1:38208;
+                        ("wake", Expression<MethodOrOperator> @:12748 op:22,dt:2,nt:9,next:12749,str:1071,d0:0,d1:0;
+                            ("e18_main", Expression<ScriptReference> @:12749 op:10,dt:10,nt:9,next:65535,str:26156,d0:354,d1:65535;))))))))

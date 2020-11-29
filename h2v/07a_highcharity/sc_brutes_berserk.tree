@@ -1,0 +1,51 @@
+
+("sc_brutes_berserk", MethodDecl<Void> @:235 check:0,op:0,dt:0,nt:65535,next:8412,nextCheck:33872,str:29463,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:8412 check:33872,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:41867,h:1,d0:8413,d1:33873;
+        ("begin", Expression<MethodOrOperator> @:8413 check:33873,op:0,dt:2,nt:9,next:8365,nextCheck:33825,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:8365 check:33825,op:2,dt:4,nt:8,next:8390,nextCheck:33850,str:41903,h:1,d0:8366,d1:33826;
+                ("if", Expression<MethodOrOperator> @:8366 check:33826,op:2,dt:2,nt:9,next:8367,nextCheck:33827,str:456,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:8367 check:33827,op:15,dt:5,nt:8,next:8373,nextCheck:33833,str:41907,h:1,d0:8368,d1:33828;
+                        (">", Expression<MethodOrOperator> @:8368 check:33828,op:15,dt:2,nt:9,next:8369,nextCheck:33829,str:19306,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:8369 check:33829,op:327,dt:7,nt:8,next:8372,nextCheck:33832,str:41910,h:1,d0:8370,d1:33830;
+                                ("ai_living_count", Expression<MethodOrOperator> @:8370 check:33830,op:327,dt:2,nt:9,next:8371,nextCheck:33831,str:19308,h:0,d0:0,d1:0;
+                                    ("council_brute_ini", Expression<AI> @:8371 check:33831,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19324,h:0,d0:19,d1:0;)))
+                            (0, Expression<Short> @:8372 check:33832,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:41946,h:1,d0:0,d1:65535;)))
+                    (____, Scope<Void> @:8373 check:33833,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:41952,h:1,d0:8374,d1:33834;
+                        ("begin", Expression<MethodOrOperator> @:8374 check:33834,op:0,dt:2,nt:9,next:8375,nextCheck:33835,str:1,h:0,d0:0,d1:0;
+                            (____, Scope<Void> @:8375 check:33835,op:2,dt:4,nt:8,next:8381,nextCheck:33841,str:41963,h:1,d0:8376,d1:33836;
+                                ("if", Expression<MethodOrOperator> @:8376 check:33836,op:2,dt:2,nt:9,next:8377,nextCheck:33837,str:456,h:0,d0:0,d1:0;
+                                    ("dialogue", VariableAccess<Boolean> @:8377 check:33837,op:5,dt:5,nt:13,next:8378,nextCheck:33838,str:18981,h:0,d0:4,d1:0;
+                                        (____, Scope<Void> @:8378 check:33838,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:41976,h:1,d0:8379,d1:33839;
+                                            ("print", Expression<MethodOrOperator> @:8379 check:33839,op:27,dt:2,nt:9,next:8380,nextCheck:33840,str:86,h:0,d0:0,d1:0;
+                                                ("cortana: they don't have shield generators, but take them out before...", Expression<String> @:8380 check:33840,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:19342,h:0,d0:4950,d1:12543;))))))
+                            (____, Scope<Void> @:8381 check:33841,op:19,dt:4,nt:8,next:8387,nextCheck:33847,str:42063,h:1,d0:8382,d1:33842;
+                                ("sleep", Expression<MethodOrOperator> @:8382 check:33842,op:19,dt:2,nt:9,next:8383,nextCheck:33843,str:80,h:0,d0:0,d1:0;
+                                    (____, Scope<Short> @:8383 check:33843,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:42070,h:1,d0:8384,d1:33844;
+                                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:8384 check:33844,op:362,dt:2,nt:9,next:8385,nextCheck:33845,str:19016,h:0,d0:0,d1:0;
+                                            (4294967295, Expression<Entity> @:8385 check:33845,op:50,dt:50,nt:9,next:8386,nextCheck:33846,str:1586,h:0,d0:65535,d1:65535;
+                                                ("2080", Expression<StringId> @:8386 check:33846,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:19414,h:0,d0:10784,d1:1024;))))))
+                            (____, Scope<Void> @:8387 check:33847,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:42110,h:1,d0:8388,d1:33848;
+                                ("sleep", Expression<MethodOrOperator> @:8388 check:33848,op:19,dt:2,nt:9,next:8389,nextCheck:33849,str:80,h:0,d0:0,d1:0;
+                                    ("dialogue_pause", VariableAccess<Short> @:8389 check:33849,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:19044,h:0,d0:38,d1:0;)))))))
+            (____, Scope<Void> @:8390 check:33850,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:42148,h:1,d0:8391,d1:33851;
+                ("if", Expression<MethodOrOperator> @:8391 check:33851,op:2,dt:2,nt:9,next:8392,nextCheck:33852,str:456,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:8392 check:33852,op:15,dt:5,nt:8,next:8398,nextCheck:33858,str:42152,h:1,d0:8393,d1:33853;
+                        (">", Expression<MethodOrOperator> @:8393 check:33853,op:15,dt:2,nt:9,next:8394,nextCheck:33854,str:19306,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:8394 check:33854,op:327,dt:7,nt:8,next:8397,nextCheck:33857,str:42155,h:1,d0:8395,d1:33855;
+                                ("ai_living_count", Expression<MethodOrOperator> @:8395 check:33855,op:327,dt:2,nt:9,next:8396,nextCheck:33856,str:19308,h:0,d0:0,d1:0;
+                                    ("council_brute_ini", Expression<AI> @:8396 check:33856,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19324,h:0,d0:19,d1:0;)))
+                            (0, Expression<Short> @:8397 check:33857,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:42191,h:1,d0:0,d1:65535;)))
+                    (____, Scope<Void> @:8398 check:33858,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:42197,h:1,d0:8399,d1:33859;
+                        ("begin", Expression<MethodOrOperator> @:8399 check:33859,op:0,dt:2,nt:9,next:8400,nextCheck:33860,str:1,h:0,d0:0,d1:0;
+                            (____, Scope<Void> @:8400 check:33860,op:2,dt:4,nt:8,next:8406,nextCheck:33866,str:42208,h:1,d0:8401,d1:33861;
+                                ("if", Expression<MethodOrOperator> @:8401 check:33861,op:2,dt:2,nt:9,next:8402,nextCheck:33862,str:456,h:0,d0:0,d1:0;
+                                    ("dialogue", VariableAccess<Boolean> @:8402 check:33862,op:5,dt:5,nt:13,next:8403,nextCheck:33863,str:18981,h:0,d0:4,d1:0;
+                                        (____, Scope<Void> @:8403 check:33863,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:42221,h:1,d0:8404,d1:33864;
+                                            ("print", Expression<MethodOrOperator> @:8404 check:33864,op:27,dt:2,nt:9,next:8405,nextCheck:33865,str:86,h:0,d0:0,d1:0;
+                                                ("cortana: it's berserking!", Expression<String> @:8405 check:33865,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:19419,h:0,d0:5027,d1:12543;))))))
+                            (____, Scope<Void> @:8406 check:33866,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:42262,h:1,d0:8407,d1:33867;
+                                ("sleep", Expression<MethodOrOperator> @:8407 check:33867,op:19,dt:2,nt:9,next:8408,nextCheck:33868,str:80,h:0,d0:0,d1:0;
+                                    (____, Scope<Short> @:8408 check:33868,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:42269,h:1,d0:8409,d1:33869;
+                                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:8409 check:33869,op:362,dt:2,nt:9,next:8410,nextCheck:33870,str:19016,h:0,d0:0,d1:0;
+                                            (4294967295, Expression<Entity> @:8410 check:33870,op:50,dt:50,nt:9,next:8411,nextCheck:33871,str:1586,h:0,d0:65535,d1:65535;
+                                                ("2090", Expression<StringId> @:8411 check:33871,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:19445,h:0,d0:10785,d1:1024;)))))))))))))

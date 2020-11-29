@@ -1,0 +1,54 @@
+
+("approach_cortana_comment", MethodDecl<Void> @:335 check:0,op:0,dt:0,nt:65535,next:22270,nextCheck:47730,str:34809,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:22270 check:47730,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:52008,h:3,d0:22271,d1:47731;
+        ("begin", Expression<MethodOrOperator> @:22271 check:47731,op:0,dt:2,nt:9,next:22220,nextCheck:47680,str:54,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:22220 check:47680,op:281,dt:4,nt:8,next:22223,nextCheck:47683,str:52051,h:3,d0:22221,d1:47681;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:22221 check:47681,op:281,dt:2,nt:9,next:22222,nextCheck:47682,str:15090,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:22222 check:47682,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:52071,h:3,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:22223 check:47683,op:19,dt:4,nt:8,next:22226,nextCheck:47686,str:52080,h:3,d0:22224,d1:47684;
+                ("sleep", Expression<MethodOrOperator> @:22224 check:47684,op:19,dt:2,nt:9,next:22225,nextCheck:47685,str:133,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:22225 check:47685,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:52087,h:3,d0:60,d1:65535;)))
+            (____, Scope<Void> @:22226 check:47686,op:27,dt:4,nt:8,next:22229,nextCheck:47689,str:52093,h:3,d0:22227,d1:47687;
+                ("print", Expression<MethodOrOperator> @:22227 check:47687,op:27,dt:2,nt:9,next:22228,nextCheck:47688,str:139,h:0,d0:0,d1:0;
+                    ("cortana: 'good. still no word about in amber clad on the covenant battle-net.'", Expression<String> @:22228 check:47688,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:34267,h:0,d0:45643,d1:12768;)))
+            (____, Scope<Void> @:22229 check:47689,op:19,dt:4,nt:8,next:22235,nextCheck:47695,str:52185,h:3,d0:22230,d1:47690;
+                ("sleep", Expression<MethodOrOperator> @:22230 check:47690,op:19,dt:2,nt:9,next:22231,nextCheck:47691,str:133,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:22231 check:47691,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:52192,h:3,d0:22232,d1:47692;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:22232 check:47692,op:362,dt:2,nt:9,next:22233,nextCheck:47693,str:15182,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:22233 check:47693,op:50,dt:50,nt:9,next:22234,nextCheck:47694,str:1392,h:0,d0:65535,d1:65535;
+                                ("0760", Expression<StringId> @:22234 check:47694,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:34346,h:0,d0:9755,d1:1024;))))))
+            (____, Scope<Void> @:22235 check:47695,op:19,dt:4,nt:8,next:22238,nextCheck:47698,str:52327,h:3,d0:22236,d1:47696;
+                ("sleep", Expression<MethodOrOperator> @:22236 check:47696,op:19,dt:2,nt:9,next:22237,nextCheck:47697,str:133,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:22237 check:47697,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:52334,h:3,d0:60,d1:65535;)))
+            (____, Scope<Void> @:22238 check:47698,op:27,dt:4,nt:8,next:22241,nextCheck:47701,str:52340,h:3,d0:22239,d1:47699;
+                ("print", Expression<MethodOrOperator> @:22239 check:47699,op:27,dt:2,nt:9,next:22240,nextCheck:47700,str:139,h:0,d0:0,d1:0;
+                    ("cortana: 'it's odd - the covenant know we made land-fall,'", Expression<String> @:22240 check:47700,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:34351,h:0,d0:45727,d1:12768;)))
+            (____, Scope<Void> @:22241 check:47701,op:27,dt:4,nt:8,next:22244,nextCheck:47704,str:52411,h:3,d0:22242,d1:47702;
+                ("print", Expression<MethodOrOperator> @:22242 check:47702,op:27,dt:2,nt:9,next:22243,nextCheck:47703,str:139,h:0,d0:0,d1:0;
+                    ("'but they don't seem to consider us a very serious threat.'", Expression<String> @:22243 check:47703,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:34410,h:0,d0:45786,d1:12768;)))
+            (____, Scope<Void> @:22244 check:47704,op:19,dt:4,nt:8,next:22250,nextCheck:47710,str:52484,h:3,d0:22245,d1:47705;
+                ("sleep", Expression<MethodOrOperator> @:22245 check:47705,op:19,dt:2,nt:9,next:22246,nextCheck:47706,str:133,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:22246 check:47706,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:52491,h:3,d0:22247,d1:47707;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:22247 check:47707,op:362,dt:2,nt:9,next:22248,nextCheck:47708,str:15182,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:22248 check:47708,op:50,dt:50,nt:9,next:22249,nextCheck:47709,str:1392,h:0,d0:65535,d1:65535;
+                                ("0770", Expression<StringId> @:22249 check:47709,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:34470,h:0,d0:9756,d1:1024;))))))
+            (____, Scope<Void> @:22250 check:47710,op:19,dt:4,nt:8,next:22253,nextCheck:47713,str:52626,h:3,d0:22251,d1:47711;
+                ("sleep", Expression<MethodOrOperator> @:22251 check:47711,op:19,dt:2,nt:9,next:22252,nextCheck:47712,str:133,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:22252 check:47712,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:52633,h:3,d0:30,d1:65535;)))
+            (____, Scope<Void> @:22253 check:47713,op:27,dt:4,nt:8,next:22256,nextCheck:47716,str:52639,h:3,d0:22254,d1:47714;
+                ("print", Expression<MethodOrOperator> @:22254 check:47714,op:27,dt:2,nt:9,next:22255,nextCheck:47715,str:139,h:0,d0:0,d1:0;
+                    ("cortana: 'boy are they in for a big surprise!'", Expression<String> @:22255 check:47715,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:34475,h:0,d0:45851,d1:12768;)))
+            (____, Scope<Void> @:22256 check:47716,op:19,dt:4,nt:8,next:22262,nextCheck:47722,str:52699,h:3,d0:22257,d1:47717;
+                ("sleep", Expression<MethodOrOperator> @:22257 check:47717,op:19,dt:2,nt:9,next:22258,nextCheck:47718,str:133,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:22258 check:47718,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:52706,h:3,d0:22259,d1:47719;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:22259 check:47719,op:362,dt:2,nt:9,next:22260,nextCheck:47720,str:15182,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:22260 check:47720,op:50,dt:50,nt:9,next:22261,nextCheck:47721,str:1392,h:0,d0:65535,d1:65535;
+                                ("0780", Expression<StringId> @:22261 check:47721,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:34522,h:0,d0:9757,d1:1024;))))))
+            (____, Scope<Void> @:22262 check:47722,op:19,dt:4,nt:8,next:22265,nextCheck:47725,str:52841,h:3,d0:22263,d1:47723;
+                ("sleep", Expression<MethodOrOperator> @:22263 check:47723,op:19,dt:2,nt:9,next:22264,nextCheck:47724,str:133,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:22264 check:47724,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:52848,h:3,d0:30,d1:65535;)))
+            (____, Scope<Void> @:22265 check:47725,op:281,dt:4,nt:8,next:22268,nextCheck:47728,str:52854,h:3,d0:22266,d1:47726;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:22266 check:47726,op:281,dt:2,nt:9,next:22267,nextCheck:47727,str:15090,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:22267 check:47727,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:52874,h:3,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:22268 check:47728,op:587,dt:4,nt:8,next:65535,nextCheck:65535,str:52882,h:3,d0:22269,d1:47729;
+                ("game_save", Expression<MethodOrOperator> @:22269 check:47729,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:13272,h:0,d0:0,d1:0;)))))

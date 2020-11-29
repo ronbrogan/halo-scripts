@@ -1,0 +1,35 @@
+
+("test_cylinder_room", MethodDecl<Void> @:207 check:0,op:0,dt:0,nt:65535,next:8033,nextCheck:33493,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:8033 check:33493,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:34997,h:1,d0:8034,d1:33494;
+        ("begin", Expression<MethodOrOperator> @:8034 check:33494,op:0,dt:2,nt:9,next:8002,nextCheck:33462,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:8002 check:33462,op:507,dt:4,nt:8,next:8005,nextCheck:33465,str:35038,h:1,d0:8003,d1:33463;
+                ("switch_bsp", Expression<MethodOrOperator> @:8003 check:33463,op:507,dt:2,nt:9,next:8004,nextCheck:33464,str:12138,h:0,d0:0,d1:0;
+                    (1, Expression<Short> @:8004 check:33464,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:35050,h:1,d0:1,d1:65535;)))
+            (____, Scope<Void> @:8005 check:33465,op:19,dt:4,nt:8,next:8008,nextCheck:33468,str:35055,h:1,d0:8006,d1:33466;
+                ("sleep", Expression<MethodOrOperator> @:8006 check:33466,op:19,dt:2,nt:9,next:8007,nextCheck:33467,str:143,h:0,d0:0,d1:0;
+                    (1, Expression<Short> @:8007 check:33467,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:35062,h:1,d0:1,d1:65535;)))
+            (____, Scope<Void> @:8008 check:33468,op:105,dt:4,nt:8,next:8013,nextCheck:33473,str:35067,h:1,d0:8009,d1:33469;
+                ("object_teleport", Expression<MethodOrOperator> @:8009 check:33469,op:105,dt:2,nt:9,next:8010,nextCheck:33470,str:8547,h:0,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:8010 check:33470,op:0,dt:50,nt:10,next:8012,nextCheck:33472,str:35084,h:1,d0:8011,d1:33471;
+                        ("player0", Expression<MethodOrOperator> @:8011 check:33471,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:665,h:0,d0:0,d1:0;))
+                    ("e2_test", Expression<LocationFlag> @:8012 check:33472,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:14267,h:0,d0:0,d1:0;)))
+            (____, Scope<Void> @:8013 check:33473,op:290,dt:4,nt:8,next:8016,nextCheck:33476,str:35105,h:1,d0:8014,d1:33474;
+                ("ai_place", Expression<MethodOrOperator> @:8014 check:33474,op:290,dt:2,nt:9,next:8015,nextCheck:33475,str:6905,h:0,d0:0,d1:0;
+                    ("e2_cov_inf0", Expression<AI> @:8015 check:33475,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:12979,h:0,d0:10,d1:0;)))
+            (____, Scope<Void> @:8016 check:33476,op:4,dt:4,nt:8,next:8022,nextCheck:33482,str:35130,h:1,d0:8017,d1:33477;
+                ("set", Expression<MethodOrOperator> @:8017 check:33477,op:4,dt:2,nt:9,next:8018,nextCheck:33478,str:2053,h:0,d0:0,d1:0;
+                    ("g_cov_stealth_major", VariableAccess<Unit> @:8018 check:33478,op:65535,dt:51,nt:13,next:8019,nextCheck:33479,str:12991,h:0,d0:9,d1:0;
+                        (____, Scope<Unit> @:8019 check:33479,op:285,dt:51,nt:8,next:65535,nextCheck:65535,str:35155,h:1,d0:8020,d1:33480;
+                            ("ai_get_unit", Expression<MethodOrOperator> @:8020 check:33480,op:285,dt:2,nt:9,next:8021,nextCheck:33481,str:6387,h:0,d0:0,d1:0;
+                                ("e2_cov_inf0/stealth_major", Expression<AI> @:8021 check:33481,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:14275,h:0,d0:2,d1:49162;))))))
+            (____, Scope<Void> @:8022 check:33482,op:290,dt:4,nt:8,next:8025,nextCheck:33485,str:35198,h:1,d0:8023,d1:33483;
+                ("ai_place", Expression<MethodOrOperator> @:8023 check:33483,op:290,dt:2,nt:9,next:8024,nextCheck:33484,str:6905,h:0,d0:0,d1:0;
+                    ("e2_cov_gold_elite", Expression<AI> @:8024 check:33484,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:12933,h:0,d0:12,d1:0;)))
+            (____, Scope<Void> @:8025 check:33485,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:35229,h:1,d0:8026,d1:33486;
+                ("if", Expression<MethodOrOperator> @:8026 check:33486,op:2,dt:2,nt:9,next:8027,nextCheck:33487,str:519,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:8027 check:33487,op:25,dt:5,nt:8,next:8030,nextCheck:33490,str:35233,h:1,d0:8028,d1:33488;
+                        ("not", Expression<MethodOrOperator> @:8028 check:33488,op:25,dt:2,nt:9,next:8029,nextCheck:33489,str:460,h:0,d0:0,d1:0;
+                            ("g_e2_started", VariableAccess<Boolean> @:8029 check:33489,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:14032,h:0,d0:25,d1:0;)))
+                    (____, Scope<Void> @:8030 check:33490,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:35252,h:1,d0:8031,d1:33491;
+                        ("wake", Expression<MethodOrOperator> @:8031 check:33491,op:22,dt:2,nt:9,next:8032,nextCheck:33492,str:1129,h:0,d0:0,d1:0;
+                            ("e2_main", Expression<ScriptReference> @:8032 check:33492,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:14045,h:0,d0:206,d1:65535;))))))))

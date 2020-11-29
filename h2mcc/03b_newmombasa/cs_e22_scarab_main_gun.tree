@@ -1,0 +1,20 @@
+
+("cs_e22_scarab_main_gun", MethodDecl<Void> @:286 op:0,dt:0,nt:65535,next:9854,str:20846,d0:0,d1:0;
+    (____, Scope<Void> @:9854 op:0,dt:4,nt:8,next:65535,str:57398,d0:9855,d1:35315;
+        ("begin", Expression<MethodOrOperator> @:9855 op:0,dt:2,nt:9,next:9838,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:9838 op:405,dt:4,nt:8,next:9844,str:57446,d0:9839,d1:35299;
+                ("cs_shoot", Expression<MethodOrOperator> @:9839 op:405,dt:2,nt:9,next:9840,str:16052,d0:0,d1:0;
+                    (True, Expression<Boolean> @:9840 op:5,dt:5,nt:9,next:9841,str:57456,d0:65281,d1:65535;
+                        (____, Scope<Entity> @:9841 op:340,dt:50,nt:8,next:65535,str:57461,d0:9842,d1:35302;
+                            ("ai_vehicle_get", Expression<MethodOrOperator> @:9842 op:340,dt:2,nt:9,next:9843,str:15490,d0:0,d1:0;
+                                ("e22_mars_scorpions0/scorpion0", Expression<AI> @:9843 op:19,dt:19,nt:9,next:65535,str:20056,d0:0,d1:49228;))))))
+            (____, Scope<Void> @:9844 op:19,dt:4,nt:8,next:9847,str:57526,d0:9845,d1:35305;
+                ("sleep", Expression<MethodOrOperator> @:9845 op:19,dt:2,nt:9,next:9846,str:85,d0:0,d1:0;
+                    (120, Expression<Short> @:9846 op:7,dt:7,nt:9,next:65535,str:57533,d0:120,d1:65535;)))
+            (____, Scope<Void> @:9847 op:4,dt:4,nt:8,next:9851,str:57540,d0:9848,d1:35308;
+                ("set", Expression<MethodOrOperator> @:9848 op:4,dt:2,nt:9,next:9849,str:2724,d0:0,d1:0;
+                    ("g_e22_scorpion_asplode", VariableAccess<Boolean> @:9849 op:65535,dt:5,nt:13,next:9850,str:20023,d0:35,d1:0;
+                        (True, Expression<Boolean> @:9850 op:5,dt:5,nt:9,next:65535,str:57568,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:9851 op:19,dt:4,nt:8,next:65535,str:57584,d0:9852,d1:35312;
+                ("sleep", Expression<MethodOrOperator> @:9852 op:19,dt:2,nt:9,next:9853,str:85,d0:0,d1:0;
+                    (45, Expression<Short> @:9853 op:7,dt:7,nt:9,next:65535,str:57591,d0:45,d1:65535;))))))

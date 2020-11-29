@@ -1,0 +1,32 @@
+
+("scarab_walk_front_var0_fast", MethodDecl<Void> @:208 check:0,op:0,dt:0,nt:65535,next:6457,nextCheck:64684,str:20915,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:6457 check:64684,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:11272,h:1,d0:6458,d1:64685;
+        ("begin", Expression<MethodOrOperator> @:6458 check:64685,op:0,dt:2,nt:9,next:6429,nextCheck:64656,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:6429 check:64656,op:27,dt:4,nt:8,next:6432,nextCheck:64659,str:11322,h:1,d0:6430,d1:64657;
+                ("print", Expression<MethodOrOperator> @:6430 check:64657,op:27,dt:2,nt:9,next:6431,nextCheck:64658,str:91,h:0,d0:0,d1:0;
+                    ("scarab_walk_front_var0", Expression<String> @:6431 check:64658,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:14125,h:0,d0:58597,d1:12462;)))
+            (____, Scope<Void> @:6432 check:64659,op:266,dt:4,nt:8,next:6437,nextCheck:64664,str:11357,h:1,d0:6433,d1:64660;
+                ("device_set_position_track", Expression<MethodOrOperator> @:6433 check:64660,op:266,dt:2,nt:9,next:6434,nextCheck:64661,str:13964,h:0,d0:0,d1:0;
+                    ("scarab", Expression<Device> @:6434 check:64661,op:60,dt:54,nt:9,next:6435,nextCheck:64662,str:13888,h:0,d0:102,d1:65535;
+                        ("combat:walk_front:var0", Expression<StringId> @:6435 check:64662,op:11,dt:11,nt:9,next:6436,nextCheck:64663,str:14148,h:0,d0:5138,d1:5632;
+                            ("g_scarab_interpolation", VariableAccess<Float> @:6436 check:64663,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:14007,h:0,d0:19,d1:0;)))))
+            (____, Scope<Void> @:6437 check:64664,op:268,dt:4,nt:8,next:6448,nextCheck:64675,str:11440,h:1,d0:6438,d1:64665;
+                ("device_animate_position", Expression<MethodOrOperator> @:6438 check:64665,op:268,dt:2,nt:9,next:6439,nextCheck:64666,str:14030,h:0,d0:0,d1:0;
+                    ("scarab", Expression<Device> @:6439 check:64666,op:60,dt:54,nt:9,next:6440,nextCheck:64667,str:13888,h:0,d0:102,d1:65535;
+                        (1f, Expression<Float> @:6440 check:64667,op:6,dt:6,nt:9,next:6441,nextCheck:64668,str:11472,h:1,d0:0,d1:16256;
+                            (-6.525608E+36f, Scope<Float> @:6441 check:64668,op:10,dt:6,nt:8,next:6445,nextCheck:64672,str:11476,h:1,d0:6442,d1:64669;
+                                ("/", Expression<MethodOrOperator> @:6442 check:64669,op:10,dt:2,nt:9,next:6443,nextCheck:64670,str:14171,h:0,d0:0,d1:0;
+                                    (80f, Expression<Float> @:6443 check:64670,op:6,dt:6,nt:9,next:6444,nextCheck:64671,str:11479,h:1,d0:0,d1:17056;
+                                        (30f, Expression<Float> @:6444 check:64671,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:11484,h:1,d0:0,d1:16880;))))
+                            (0f, Expression<Float> @:6445 check:64672,op:6,dt:6,nt:9,next:6446,nextCheck:64673,str:11490,h:1,d0:0,d1:0;
+                                (0f, Expression<Float> @:6446 check:64673,op:6,dt:6,nt:9,next:6447,nextCheck:64674,str:11492,h:1,d0:0,d1:0;
+                                    (True, Expression<Boolean> @:6447 check:64674,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:11494,h:1,d0:65281,d1:65535;)))))))
+            (____, Scope<Void> @:6448 check:64675,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:11502,h:1,d0:6449,d1:64676;
+                ("sleep_until", Expression<MethodOrOperator> @:6449 check:64676,op:21,dt:2,nt:9,next:6450,nextCheck:64677,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:6450 check:64677,op:17,dt:5,nt:8,next:6456,nextCheck:64683,str:11515,h:1,d0:6451,d1:64678;
+                        (">=", Expression<MethodOrOperator> @:6451 check:64678,op:17,dt:2,nt:9,next:6452,nextCheck:64679,str:676,h:0,d0:0,d1:0;
+                            (-6.982537E+36f, Scope<Float> @:6452 check:64679,op:257,dt:6,nt:8,next:6455,nextCheck:64682,str:11519,h:1,d0:6453,d1:64680;
+                                ("device_get_position", Expression<MethodOrOperator> @:6453 check:64680,op:257,dt:2,nt:9,next:6454,nextCheck:64681,str:14054,h:0,d0:0,d1:0;
+                                    ("scarab", Expression<Device> @:6454 check:64681,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:13888,h:0,d0:102,d1:65535;)))
+                            (1f, Expression<Float> @:6455 check:64682,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:11548,h:1,d0:0,d1:16256;)))
+                    (1, Expression<Short> @:6456 check:64683,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:11553,h:1,d0:1,d1:65535;))))))

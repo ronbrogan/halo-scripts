@@ -1,0 +1,34 @@
+
+("cs_e3_mars_pelican0_entry", MethodDecl<Void> @:348 op:0,dt:0,nt:65535,next:14097,str:24274,d0:0,d1:0;
+    (____, Scope<Void> @:14097 op:0,dt:4,nt:8,next:65535,str:42642,d0:14098,d1:39558;
+        ("begin", Expression<MethodOrOperator> @:14098 op:0,dt:2,nt:9,next:14067,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:14067 op:449,dt:4,nt:8,next:14070,str:42693,d0:14068,d1:39528;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:14068 op:449,dt:2,nt:9,next:14069,str:4284,d0:0,d1:0;
+                    (True, Expression<Boolean> @:14069 op:5,dt:5,nt:9,next:65535,str:42725,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:14070 op:399,dt:4,nt:8,next:14074,str:42733,d0:14071,d1:39531;
+                ("cs_face", Expression<MethodOrOperator> @:14071 op:399,dt:2,nt:9,next:14072,str:11404,d0:0,d1:0;
+                    (True, Expression<Boolean> @:14072 op:5,dt:5,nt:9,next:14073,str:42742,d0:65281,d1:65535;
+                        ("e3_mars_evac/p2", Expression<SpatialPoint> @:14073 op:28,dt:28,nt:9,next:65535,str:23639,d0:2,d1:13;))))
+            (____, Scope<Void> @:14074 op:379,dt:4,nt:8,next:14077,str:42766,d0:14075,d1:39535;
+                ("cs_fly_to", Expression<MethodOrOperator> @:14075 op:379,dt:2,nt:9,next:14076,str:14959,d0:0,d1:0;
+                    ("e3_mars_evac/p0", Expression<SpatialPoint> @:14076 op:28,dt:28,nt:9,next:65535,str:23655,d0:0,d1:13;)))
+            (____, Scope<Void> @:14077 op:4,dt:4,nt:8,next:14081,str:42796,d0:14078,d1:39538;
+                ("set", Expression<MethodOrOperator> @:14078 op:4,dt:2,nt:9,next:14079,str:3371,d0:0,d1:0;
+                    ("g_e3_mars_pelican0_arrived", VariableAccess<Boolean> @:14079 op:65535,dt:5,nt:13,next:14080,str:23671,d0:38,d1:0;
+                        (True, Expression<Boolean> @:14080 op:5,dt:5,nt:9,next:65535,str:42828,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:14081 op:19,dt:4,nt:8,next:14084,str:42836,d0:14082,d1:39542;
+                ("sleep", Expression<MethodOrOperator> @:14082 op:19,dt:2,nt:9,next:14083,str:143,d0:0,d1:0;
+                    (45, Expression<Short> @:14083 op:7,dt:7,nt:9,next:65535,str:42843,d0:45,d1:65535;)))
+            (____, Scope<Void> @:14084 op:379,dt:4,nt:8,next:14087,str:42849,d0:14085,d1:39545;
+                ("cs_fly_to", Expression<MethodOrOperator> @:14085 op:379,dt:2,nt:9,next:14086,str:14959,d0:0,d1:0;
+                    ("e3_mars_evac/p1", Expression<SpatialPoint> @:14086 op:28,dt:28,nt:9,next:65535,str:23698,d0:1,d1:13;)))
+            (____, Scope<Void> @:14087 op:380,dt:4,nt:8,next:14091,str:42879,d0:14088,d1:39548;
+                ("cs_fly_to", Expression<MethodOrOperator> @:14088 op:380,dt:2,nt:9,next:14089,str:14959,d0:0,d1:0;
+                    ("e3_mars_evac/p3", Expression<SpatialPoint> @:14089 op:28,dt:28,nt:9,next:14090,str:23714,d0:3,d1:13;
+                        (1f, Expression<Float> @:14090 op:6,dt:6,nt:9,next:65535,str:42906,d0:0,d1:16256;))))
+            (____, Scope<Void> @:14091 op:4,dt:4,nt:8,next:14095,str:42913,d0:14092,d1:39552;
+                ("set", Expression<MethodOrOperator> @:14092 op:4,dt:2,nt:9,next:14093,str:3371,d0:0,d1:0;
+                    ("g_e3_mars_pelican0_landed", VariableAccess<Boolean> @:14093 op:65535,dt:5,nt:13,next:14094,str:23730,d0:39,d1:0;
+                        (True, Expression<Boolean> @:14094 op:5,dt:5,nt:9,next:65535,str:42944,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:14095 op:20,dt:4,nt:8,next:65535,str:42952,d0:14096,d1:39556;
+                ("sleep_forever", Expression<MethodOrOperator> @:14096 op:20,dt:2,nt:9,next:65535,str:10303,d0:0,d1:0;)))))

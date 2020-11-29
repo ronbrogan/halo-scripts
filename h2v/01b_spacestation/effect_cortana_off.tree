@@ -1,0 +1,15 @@
+
+("effect_cortana_off", MethodDecl<Void> @:153 check:0,op:0,dt:0,nt:65535,next:6079,nextCheck:64306,str:15486,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:6079 check:64306,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:8966,h:1,d0:6080,d1:64307;
+        ("begin", Expression<MethodOrOperator> @:6080 check:64307,op:0,dt:2,nt:9,next:6068,nextCheck:64295,str:11,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:6068 check:64295,op:19,dt:4,nt:8,next:6071,nextCheck:64298,str:9003,h:1,d0:6069,d1:64296;
+                ("sleep", Expression<MethodOrOperator> @:6069 check:64296,op:19,dt:2,nt:9,next:6070,nextCheck:64297,str:90,h:0,d0:0,d1:0;
+                    (809, Expression<Short> @:6070 check:64297,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:9010,h:1,d0:809,d1:65535;)))
+            (____, Scope<Void> @:6071 check:64298,op:27,dt:4,nt:8,next:6074,nextCheck:64301,str:9017,h:1,d0:6072,d1:64299;
+                ("print", Expression<MethodOrOperator> @:6072 check:64299,op:27,dt:2,nt:9,next:6073,nextCheck:64300,str:96,h:0,d0:0,d1:0;
+                    ("cortana off", Expression<String> @:6073 check:64300,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:15440,h:0,d0:48256,d1:12558;)))
+            (____, Scope<Void> @:6074 check:64301,op:41,dt:4,nt:8,next:65535,nextCheck:65535,str:9041,h:1,d0:6075,d1:64302;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:6075 check:64302,op:41,dt:2,nt:9,next:6076,nextCheck:64303,str:7864,h:0,d0:0,d1:0;
+                    ("effects\objects\characters\cortana\cortana_on_off", Expression<Effect> @:6076 check:64303,op:33,dt:33,nt:9,next:6077,nextCheck:64304,str:7892,h:0,d0:4078,d1:61966;
+                        (4294901901, Expression<Entity> @:6077 check:64304,op:56,dt:50,nt:9,next:6078,nextCheck:64305,str:7942,h:0,d0:141,d1:65535;
+                            ("holo_effect", Expression<StringId> @:6078 check:64305,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:7960,h:0,d0:8570,d1:2816;))))))))

@@ -1,0 +1,18 @@
+
+("intra2_texture_cam_01", MethodDecl<Void> @:86 op:0,dt:0,nt:65535,next:4081,str:9963,d0:0,d1:0;
+    (____, Scope<Void> @:4081 op:0,dt:4,nt:8,next:65535,str:45865,d0:4082,d1:62309;
+        ("begin", Expression<MethodOrOperator> @:4082 op:0,dt:2,nt:9,next:4067,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:4067 op:48,dt:4,nt:8,next:4070,str:45905,d0:4068,d1:62295;
+                ("object_create_anew", Expression<MethodOrOperator> @:4068 op:48,dt:2,nt:9,next:4069,str:8260,d0:0,d1:0;
+                    ("texture_camera", Expression<EntityIdentifier> @:4069 op:56,dt:56,nt:9,next:65535,str:9586,d0:38,d1:65535;)))
+            (____, Scope<Void> @:4070 op:144,dt:4,nt:8,next:4075,str:45943,d0:4071,d1:62298;
+                ("texture_camera_set_object_marker", Expression<MethodOrOperator> @:4071 op:144,dt:2,nt:9,next:4072,str:9601,d0:0,d1:0;
+                    (4294901798, Expression<Entity> @:4072 op:56,dt:50,nt:9,next:4073,str:9586,d0:38,d1:65535;
+                        ("marker", Expression<StringId> @:4073 op:11,dt:11,nt:9,next:4074,str:9634,d0:4904,d1:1536;
+                            (35f, Expression<Float> @:4074 op:6,dt:6,nt:9,next:65535,str:45999,d0:0,d1:16908;)))))
+            (____, Scope<Void> @:4075 op:186,dt:4,nt:8,next:65535,str:46005,d0:4076,d1:62303;
+                ("scenery_animation_start_relative", Expression<MethodOrOperator> @:4076 op:186,dt:2,nt:9,next:4077,str:9641,d0:0,d1:0;
+                    ("texture_camera", Expression<Scenery> @:4077 op:61,dt:55,nt:9,next:4078,str:9586,d0:38,d1:65535;
+                        ("objects\cinematics\texture_camera\08_intra2\08_intra2", Expression<Animation> @:4078 op:36,dt:36,nt:9,next:4079,str:9674,d0:676,d1:58394;
+                            ("texture_camera_01", Expression<StringId> @:4079 op:11,dt:11,nt:9,next:4080,str:9728,d0:3603,d1:4352;
+                                (4294901770, Expression<Entity> @:4080 op:56,dt:50,nt:9,next:65535,str:9746,d0:10,d1:65535;)))))))))

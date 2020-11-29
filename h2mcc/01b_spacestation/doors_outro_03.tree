@@ -1,0 +1,19 @@
+
+("doors_outro_03", MethodDecl<Void> @:214 op:0,dt:0,nt:65535,next:8390,str:20723,d0:0,d1:0;
+    (____, Scope<Void> @:8390 op:0,dt:4,nt:8,next:65535,str:36914,d0:8391,d1:33851;
+        ("begin", Expression<MethodOrOperator> @:8391 op:0,dt:2,nt:9,next:8375,str:11,d0:0,d1:0;
+            (____, Scope<Void> @:8375 op:256,dt:4,nt:8,next:8379,str:36949,d0:8376,d1:33836;
+                ("device_set_position", Expression<MethodOrOperator> @:8376 op:256,dt:2,nt:9,next:8377,str:3025,d0:0,d1:0;
+                    ("outro_door_01", Expression<Device> @:8377 op:60,dt:54,nt:9,next:8378,str:20465,d0:428,d1:65535;
+                        (1f, Expression<Float> @:8378 op:6,dt:6,nt:9,next:65535,str:36984,d0:0,d1:16256;))))
+            (____, Scope<Void> @:8379 op:19,dt:4,nt:8,next:8382,str:36989,d0:8380,d1:33840;
+                ("sleep", Expression<MethodOrOperator> @:8380 op:19,dt:2,nt:9,next:8381,str:90,d0:0,d1:0;
+                    (360, Expression<Short> @:8381 op:7,dt:7,nt:9,next:65535,str:36996,d0:360,d1:65535;)))
+            (____, Scope<Void> @:8382 op:265,dt:4,nt:8,next:8386,str:37003,d0:8383,d1:33843;
+                ("device_group_change_only_once_more_set", Expression<MethodOrOperator> @:8383 op:265,dt:2,nt:9,next:8384,str:20479,d0:0,d1:0;
+                    ("outro_door_01", Expression<DeviceGroup> @:8384 op:18,dt:18,nt:9,next:8385,str:20465,d0:1,d1:58725;
+                        (False, Expression<Boolean> @:8385 op:5,dt:5,nt:9,next:65535,str:37057,d0:65280,d1:65535;))))
+            (____, Scope<Void> @:8386 op:256,dt:4,nt:8,next:65535,str:37066,d0:8387,d1:33847;
+                ("device_set_position", Expression<MethodOrOperator> @:8387 op:256,dt:2,nt:9,next:8388,str:3025,d0:0,d1:0;
+                    ("outro_door_01", Expression<Device> @:8388 op:60,dt:54,nt:9,next:8389,str:20465,d0:428,d1:65535;
+                        (0f, Expression<Float> @:8389 op:6,dt:6,nt:9,next:65535,str:37101,d0:0,d1:0;)))))))

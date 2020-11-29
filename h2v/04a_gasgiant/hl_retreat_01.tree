@@ -1,0 +1,28 @@
+
+("hl_retreat_01", MethodDecl<Void> @:332 check:0,op:0,dt:0,nt:65535,next:15870,nextCheck:41330,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:15870 check:41330,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:47986,h:2,d0:15871,d1:41331;
+        ("begin", Expression<MethodOrOperator> @:15871 check:41331,op:0,dt:2,nt:9,next:15846,nextCheck:41306,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:15846 check:41306,op:374,dt:4,nt:8,next:15849,nextCheck:41309,str:48025,h:2,d0:15847,d1:41307;
+                ("cs_switch", Expression<MethodOrOperator> @:15847 check:41307,op:374,dt:2,nt:9,next:15848,nextCheck:41308,str:15164,h:0,d0:0,d1:0;
+                    ("heretic_01", Expression<StringId> @:15848 check:41308,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:28426,h:0,d0:9405,d1:2560;)))
+            (____, Scope<Void> @:15849 check:41309,op:448,dt:4,nt:8,next:15852,nextCheck:41312,str:48050,h:2,d0:15850,d1:41310;
+                ("cs_force_combat_status", Expression<MethodOrOperator> @:15850 check:41310,op:448,dt:2,nt:9,next:15851,nextCheck:41311,str:15141,h:0,d0:0,d1:0;
+                    (4, Expression<Short> @:15851 check:41311,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:48074,h:2,d0:4,d1:65535;)))
+            (____, Scope<Void> @:15852 check:41312,op:400,dt:4,nt:8,next:15855,nextCheck:41315,str:48079,h:2,d0:15853,d1:41313;
+                ("cs_face_player", Expression<MethodOrOperator> @:15853 check:41313,op:400,dt:2,nt:9,next:15854,nextCheck:41314,str:19225,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15854 check:41314,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:48095,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:15855 check:41315,op:446,dt:4,nt:8,next:15858,nextCheck:41318,str:48125,h:2,d0:15856,d1:41316;
+                ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:15856 check:41316,op:446,dt:2,nt:9,next:15857,nextCheck:41317,str:15198,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15857 check:41317,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:48154,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:15858 check:41318,op:27,dt:4,nt:8,next:15861,nextCheck:41321,str:48162,h:2,d0:15859,d1:41319;
+                ("print", Expression<MethodOrOperator> @:15859 check:41319,op:27,dt:2,nt:9,next:15860,nextCheck:41320,str:91,h:0,d0:0,d1:0;
+                    ("heretic leader: 'there! the assassin!'", Expression<String> @:15860 check:41320,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:28437,h:0,d0:44349,d1:10848;)))
+            (____, Scope<Void> @:15861 check:41321,op:416,dt:4,nt:8,next:15867,nextCheck:41327,str:48213,h:2,d0:15862,d1:41322;
+                ("cs_custom_animation", Expression<MethodOrOperator> @:15862 check:41322,op:416,dt:2,nt:9,next:15863,nextCheck:41323,str:20317,h:0,d0:0,d1:0;
+                    ("objects\characters\elite\elite", Expression<Animation> @:15863 check:41323,op:36,dt:36,nt:9,next:15864,nextCheck:41324,str:19533,h:0,d0:1528,d1:59246;
+                        ("combat:rifle:warn", Expression<StringId> @:15864 check:41324,op:11,dt:11,nt:9,next:15865,nextCheck:41325,str:28476,h:0,d0:4539,d1:4352;
+                            (1f, Expression<Float> @:15865 check:41325,op:6,dt:6,nt:9,next:15866,nextCheck:41326,str:48285,h:2,d0:0,d1:16256;
+                                (True, Expression<Boolean> @:15866 check:41326,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:48287,h:2,d0:65281,d1:65535;))))))
+            (____, Scope<Void> @:15867 check:41327,op:400,dt:4,nt:8,next:65535,nextCheck:65535,str:48295,h:2,d0:15868,d1:41328;
+                ("cs_face_player", Expression<MethodOrOperator> @:15868 check:41328,op:400,dt:2,nt:9,next:15869,nextCheck:41329,str:19225,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:15869 check:41329,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:48311,h:2,d0:65280,d1:65535;))))))

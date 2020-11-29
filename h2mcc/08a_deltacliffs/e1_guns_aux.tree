@@ -1,0 +1,37 @@
+
+("e1_guns_aux", MethodDecl<Void> @:219 op:0,dt:0,nt:65535,next:9043,str:15755,d0:0,d1:0;
+    (____, Scope<Void> @:9043 op:0,dt:4,nt:8,next:65535,str:46747,d0:9044,d1:34504;
+        ("begin", Expression<MethodOrOperator> @:9044 op:0,dt:2,nt:9,next:9010,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:9010 op:21,dt:4,nt:8,next:9018,str:46822,d0:9011,d1:34471;
+                ("sleep_until", Expression<MethodOrOperator> @:9011 op:21,dt:2,nt:9,next:9012,str:294,d0:0,d1:0;
+                    (____, Scope<Boolean> @:9012 op:33,dt:5,nt:8,next:9017,str:46835,d0:9013,d1:34473;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:9013 op:33,dt:2,nt:9,next:9014,str:7259,d0:0,d1:0;
+                            ("tv_e1_area_entrance", Expression<Trigger> @:9014 op:13,dt:13,nt:9,next:9015,str:15707,d0:67,d1:0;
+                                (____, Scope<List> @:9015 op:28,dt:31,nt:8,next:65535,str:46876,d0:9016,d1:34476;
+                                    ("players", Expression<MethodOrOperator> @:9016 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;)))))
+                    (15, Expression<Short> @:9017 op:7,dt:7,nt:9,next:65535,str:46887,d0:15,d1:65535;)))
+            (____, Scope<Void> @:9018 op:46,dt:4,nt:8,next:9021,str:46893,d0:9019,d1:34479;
+                ("object_create", Expression<MethodOrOperator> @:9019 op:46,dt:2,nt:9,next:9020,str:6993,d0:0,d1:0;
+                    ("e1_gun4", Expression<EntityIdentifier> @:9020 op:56,dt:56,nt:9,next:65535,str:15727,d0:33,d1:65535;)))
+            (____, Scope<Void> @:9021 op:19,dt:4,nt:8,next:9024,str:46919,d0:9022,d1:34482;
+                ("sleep", Expression<MethodOrOperator> @:9022 op:19,dt:2,nt:9,next:9023,str:143,d0:0,d1:0;
+                    (1, Expression<Short> @:9023 op:7,dt:7,nt:9,next:65535,str:46926,d0:1,d1:65535;)))
+            (____, Scope<Void> @:9024 op:251,dt:4,nt:8,next:9029,str:46931,d0:9025,d1:34485;
+                ("weapon_hold_trigger", Expression<MethodOrOperator> @:9025 op:251,dt:2,nt:9,next:9026,str:15735,d0:0,d1:0;
+                    ("e1_gun4", Expression<WeaponReference> @:9026 op:59,dt:53,nt:9,next:9027,str:15727,d0:33,d1:65535;
+                        (0, Expression<Int> @:9027 op:8,dt:8,nt:9,next:9028,str:46960,d0:0,d1:0;
+                            (True, Expression<Boolean> @:9028 op:5,dt:5,nt:9,next:65535,str:46962,d0:65281,d1:65535;)))))
+            (____, Scope<Void> @:9029 op:19,dt:4,nt:8,next:9032,str:46970,d0:9030,d1:34490;
+                ("sleep", Expression<MethodOrOperator> @:9030 op:19,dt:2,nt:9,next:9031,str:143,d0:0,d1:0;
+                    (10, Expression<Short> @:9031 op:7,dt:7,nt:9,next:65535,str:46977,d0:10,d1:65535;)))
+            (____, Scope<Void> @:9032 op:251,dt:4,nt:8,next:9037,str:46983,d0:9033,d1:34493;
+                ("weapon_hold_trigger", Expression<MethodOrOperator> @:9033 op:251,dt:2,nt:9,next:9034,str:15735,d0:0,d1:0;
+                    ("e1_gun4", Expression<WeaponReference> @:9034 op:59,dt:53,nt:9,next:9035,str:15727,d0:33,d1:65535;
+                        (0, Expression<Int> @:9035 op:8,dt:8,nt:9,next:9036,str:47012,d0:0,d1:0;
+                            (False, Expression<Boolean> @:9036 op:5,dt:5,nt:9,next:65535,str:47014,d0:65280,d1:65535;)))))
+            (____, Scope<Void> @:9037 op:19,dt:4,nt:8,next:9040,str:47023,d0:9038,d1:34498;
+                ("sleep", Expression<MethodOrOperator> @:9038 op:19,dt:2,nt:9,next:9039,str:143,d0:0,d1:0;
+                    (1, Expression<Short> @:9039 op:7,dt:7,nt:9,next:65535,str:47030,d0:1,d1:65535;)))
+            (____, Scope<Void> @:9040 op:52,dt:4,nt:8,next:65535,str:47035,d0:9041,d1:34501;
+                ("object_destroy", Expression<MethodOrOperator> @:9041 op:52,dt:2,nt:9,next:9042,str:2409,d0:0,d1:0;
+                    (4294901793, Expression<Entity> @:9042 op:56,dt:50,nt:9,next:65535,str:15727,d0:33,d1:65535;))))))

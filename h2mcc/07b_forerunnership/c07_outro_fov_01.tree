@@ -1,0 +1,24 @@
+
+("c07_outro_fov_01", MethodDecl<Void> @:80 op:0,dt:0,nt:65535,next:2271,str:6537,d0:0,d1:0;
+    (____, Scope<Void> @:2271 op:0,dt:4,nt:8,next:65535,str:26890,d0:2272,d1:60499;
+        ("begin", Expression<MethodOrOperator> @:2272 op:0,dt:2,nt:9,next:2251,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:2251 op:19,dt:4,nt:8,next:2254,str:26927,d0:2252,d1:60479;
+                ("sleep", Expression<MethodOrOperator> @:2252 op:19,dt:2,nt:9,next:2253,str:80,d0:0,d1:0;
+                    (357, Expression<Short> @:2253 op:7,dt:7,nt:9,next:65535,str:26934,d0:357,d1:65535;)))
+            (____, Scope<Void> @:2254 op:27,dt:4,nt:8,next:2257,str:26941,d0:2255,d1:60482;
+                ("print", Expression<MethodOrOperator> @:2255 op:27,dt:2,nt:9,next:2256,str:86,d0:0,d1:0;
+                    ("fov change: 60 -> 12 over 15 ticks", Expression<String> @:2256 op:9,dt:9,nt:9,next:65535,str:5992,d0:5992,d1:0;)))
+            (____, Scope<Void> @:2257 op:459,dt:4,nt:8,next:2261,str:26988,d0:2258,d1:60485;
+                ("camera_set_field_of_view", Expression<MethodOrOperator> @:2258 op:459,dt:2,nt:9,next:2259,str:2168,d0:0,d1:0;
+                    (12f, Expression<Float> @:2259 op:6,dt:6,nt:9,next:2260,str:27014,d0:0,d1:16704;
+                        (15, Expression<Short> @:2260 op:7,dt:7,nt:9,next:65535,str:27017,d0:15,d1:65535;))))
+            (____, Scope<Void> @:2261 op:19,dt:4,nt:8,next:2264,str:27026,d0:2262,d1:60489;
+                ("sleep", Expression<MethodOrOperator> @:2262 op:19,dt:2,nt:9,next:2263,str:80,d0:0,d1:0;
+                    (46, Expression<Short> @:2263 op:7,dt:7,nt:9,next:65535,str:27033,d0:46,d1:65535;)))
+            (____, Scope<Void> @:2264 op:27,dt:4,nt:8,next:2267,str:27039,d0:2265,d1:60492;
+                ("print", Expression<MethodOrOperator> @:2265 op:27,dt:2,nt:9,next:2266,str:86,d0:0,d1:0;
+                    ("fov change: 12 -> 60 over 0 ticks", Expression<String> @:2266 op:9,dt:9,nt:9,next:65535,str:6027,d0:6027,d1:0;)))
+            (____, Scope<Void> @:2267 op:459,dt:4,nt:8,next:65535,str:27085,d0:2268,d1:60495;
+                ("camera_set_field_of_view", Expression<MethodOrOperator> @:2268 op:459,dt:2,nt:9,next:2269,str:2168,d0:0,d1:0;
+                    (60f, Expression<Float> @:2269 op:6,dt:6,nt:9,next:2270,str:27111,d0:0,d1:17008;
+                        (0, Expression<Short> @:2270 op:7,dt:7,nt:9,next:65535,str:27114,d0:0,d1:65535;)))))))

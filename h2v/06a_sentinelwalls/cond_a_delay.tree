@@ -1,0 +1,11 @@
+
+("cond_a_delay", MethodDecl<Void> @:238 check:0,op:0,dt:0,nt:65535,next:10042,nextCheck:35502,str:19360,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:10042 check:35502,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:39460,h:1,d0:10043,d1:35503;
+        ("begin", Expression<MethodOrOperator> @:10043 check:35503,op:0,dt:2,nt:9,next:10035,nextCheck:35495,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:10035 check:35495,op:19,dt:4,nt:8,next:10038,nextCheck:35498,str:39491,h:1,d0:10036,d1:35496;
+                ("sleep", Expression<MethodOrOperator> @:10036 check:35496,op:19,dt:2,nt:9,next:10037,nextCheck:35497,str:80,h:0,d0:0,d1:0;
+                    (90, Expression<Short> @:10037 check:35497,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:39498,h:1,d0:90,d1:65535;)))
+            (____, Scope<Void> @:10038 check:35498,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:39504,h:1,d0:10039,d1:35499;
+                ("set", Expression<MethodOrOperator> @:10039 check:35499,op:4,dt:2,nt:9,next:10040,nextCheck:35500,str:2575,h:0,d0:0,d1:0;
+                    ("g_cond_a_continue", VariableAccess<Boolean> @:10040 check:35500,op:65535,dt:5,nt:13,next:10041,nextCheck:35501,str:19329,h:0,d0:60,d1:0;
+                        (True, Expression<Boolean> @:10041 check:35501,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:39527,h:1,d0:65281,d1:65535;)))))))

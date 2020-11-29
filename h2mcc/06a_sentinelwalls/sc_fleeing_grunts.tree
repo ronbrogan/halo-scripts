@@ -1,0 +1,70 @@
+
+("sc_fleeing_grunts", MethodDecl<Void> @:167 op:0,dt:0,nt:65535,next:5642,str:13439,d0:0,d1:0;
+    (____, Scope<Void> @:5642 op:0,dt:4,nt:8,next:65535,str:63511,d0:5643,d1:63870;
+        ("begin", Expression<MethodOrOperator> @:5643 op:0,dt:2,nt:9,next:5576,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:5576 op:2,dt:4,nt:8,next:5582,str:63554,d0:5577,d1:63804;
+                ("if", Expression<MethodOrOperator> @:5577 op:2,dt:2,nt:9,next:5578,str:456,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:5578 op:5,dt:5,nt:13,next:5579,str:12757,d0:4,d1:0;
+                        (____, Scope<Void> @:5579 op:27,dt:4,nt:8,next:65535,str:63567,d0:5580,d1:63807;
+                            ("print", Expression<MethodOrOperator> @:5580 op:27,dt:2,nt:9,next:5581,str:86,d0:0,d1:0;
+                                ("grunt: big, scary thing! run away!", Expression<String> @:5581 op:9,dt:9,nt:9,next:65535,str:13204,d0:13204,d1:0;))))))
+            (____, Scope<Void> @:5582 op:19,dt:4,nt:8,next:5588,str:63615,d0:5583,d1:63810;
+                ("sleep", Expression<MethodOrOperator> @:5583 op:19,dt:2,nt:9,next:5584,str:80,d0:0,d1:0;
+                    (____, Scope<Short> @:5584 op:361,dt:7,nt:8,next:65535,str:63622,d0:5585,d1:63812;
+                        ("ai_play_line_at_player", Expression<MethodOrOperator> @:5585 op:361,dt:2,nt:9,next:5586,str:12793,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:5586 op:19,dt:19,nt:13,next:5587,str:3463,d0:33564,d1:65535;
+                                ("0460", Expression<StringId> @:5587 op:11,dt:11,nt:9,next:65535,str:13239,d0:13699,d1:1024;))))))
+            (____, Scope<Void> @:5588 op:19,dt:4,nt:8,next:5591,str:63672,d0:5589,d1:63816;
+                ("sleep", Expression<MethodOrOperator> @:5589 op:19,dt:2,nt:9,next:5590,str:80,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:5590 op:7,dt:7,nt:13,next:65535,str:12832,d0:36,d1:0;)))
+            (____, Scope<Void> @:5591 op:2,dt:4,nt:8,next:5597,str:63699,d0:5592,d1:63819;
+                ("if", Expression<MethodOrOperator> @:5592 op:2,dt:2,nt:9,next:5593,str:456,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:5593 op:5,dt:5,nt:13,next:5594,str:12757,d0:4,d1:0;
+                        (____, Scope<Void> @:5594 op:27,dt:4,nt:8,next:65535,str:63712,d0:5595,d1:63822;
+                            ("print", Expression<MethodOrOperator> @:5595 op:27,dt:2,nt:9,next:5596,str:86,d0:0,d1:0;
+                                ("grunt: please! no make go back!", Expression<String> @:5596 op:9,dt:9,nt:9,next:65535,str:13244,d0:13244,d1:0;))))))
+            (____, Scope<Void> @:5597 op:19,dt:4,nt:8,next:5603,str:63757,d0:5598,d1:63825;
+                ("sleep", Expression<MethodOrOperator> @:5598 op:19,dt:2,nt:9,next:5599,str:80,d0:0,d1:0;
+                    (____, Scope<Short> @:5599 op:361,dt:7,nt:8,next:65535,str:63764,d0:5600,d1:63827;
+                        ("ai_play_line_at_player", Expression<MethodOrOperator> @:5600 op:361,dt:2,nt:9,next:5601,str:12793,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:5601 op:19,dt:19,nt:13,next:5602,str:3463,d0:33564,d1:65535;
+                                ("0470", Expression<StringId> @:5602 op:11,dt:11,nt:9,next:65535,str:13276,d0:13700,d1:1024;))))))
+            (____, Scope<Void> @:5603 op:19,dt:4,nt:8,next:5606,str:63814,d0:5604,d1:63831;
+                ("sleep", Expression<MethodOrOperator> @:5604 op:19,dt:2,nt:9,next:5605,str:80,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:5605 op:7,dt:7,nt:13,next:65535,str:12832,d0:36,d1:0;)))
+            (____, Scope<Void> @:5606 op:21,dt:4,nt:8,next:5609,str:63841,d0:5607,d1:63834;
+                ("sleep_until", Expression<MethodOrOperator> @:5607 op:21,dt:2,nt:9,next:5608,str:231,d0:0,d1:0;
+                    ("g_hall_b_sen_dialogue", VariableAccess<Boolean> @:5608 op:5,dt:5,nt:13,next:65535,str:13281,d0:32,d1:0;)))
+            (____, Scope<Void> @:5609 op:19,dt:4,nt:8,next:5612,str:63879,d0:5610,d1:63837;
+                ("sleep", Expression<MethodOrOperator> @:5610 op:19,dt:2,nt:9,next:5611,str:80,d0:0,d1:0;
+                    (90, Expression<Short> @:5611 op:7,dt:7,nt:9,next:65535,str:63886,d0:90,d1:65535;)))
+            (____, Scope<Void> @:5612 op:2,dt:4,nt:8,next:5618,str:63894,d0:5613,d1:63840;
+                ("if", Expression<MethodOrOperator> @:5613 op:2,dt:2,nt:9,next:5614,str:456,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:5614 op:5,dt:5,nt:13,next:5615,str:12757,d0:4,d1:0;
+                        (____, Scope<Void> @:5615 op:27,dt:4,nt:8,next:65535,str:63907,d0:5616,d1:63843;
+                            ("print", Expression<MethodOrOperator> @:5616 op:27,dt:2,nt:9,next:5617,str:86,d0:0,d1:0;
+                                ("grunt: (shriek) more bad things!", Expression<String> @:5617 op:9,dt:9,nt:9,next:65535,str:13303,d0:13303,d1:0;))))))
+            (____, Scope<Void> @:5618 op:19,dt:4,nt:8,next:5624,str:63953,d0:5619,d1:63846;
+                ("sleep", Expression<MethodOrOperator> @:5619 op:19,dt:2,nt:9,next:5620,str:80,d0:0,d1:0;
+                    (____, Scope<Short> @:5620 op:361,dt:7,nt:8,next:65535,str:63960,d0:5621,d1:63848;
+                        ("ai_play_line_at_player", Expression<MethodOrOperator> @:5621 op:361,dt:2,nt:9,next:5622,str:12793,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:5622 op:19,dt:19,nt:13,next:5623,str:3463,d0:33564,d1:65535;
+                                ("0480", Expression<StringId> @:5623 op:11,dt:11,nt:9,next:65535,str:13336,d0:13701,d1:1024;))))))
+            (____, Scope<Void> @:5624 op:19,dt:4,nt:8,next:5627,str:64010,d0:5625,d1:63852;
+                ("sleep", Expression<MethodOrOperator> @:5625 op:19,dt:2,nt:9,next:5626,str:80,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:5626 op:7,dt:7,nt:13,next:65535,str:12832,d0:36,d1:0;)))
+            (____, Scope<Void> @:5627 op:2,dt:4,nt:8,next:5633,str:64037,d0:5628,d1:63855;
+                ("if", Expression<MethodOrOperator> @:5628 op:2,dt:2,nt:9,next:5629,str:456,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:5629 op:5,dt:5,nt:13,next:5630,str:12757,d0:4,d1:0;
+                        (____, Scope<Void> @:5630 op:27,dt:4,nt:8,next:65535,str:64050,d0:5631,d1:63858;
+                            ("print", Expression<MethodOrOperator> @:5631 op:27,dt:2,nt:9,next:5632,str:86,d0:0,d1:0;
+                                ("grunt: arbiter! protect! protect!", Expression<String> @:5632 op:9,dt:9,nt:9,next:65535,str:13341,d0:13341,d1:0;))))))
+            (____, Scope<Void> @:5633 op:19,dt:4,nt:8,next:5639,str:64097,d0:5634,d1:63861;
+                ("sleep", Expression<MethodOrOperator> @:5634 op:19,dt:2,nt:9,next:5635,str:80,d0:0,d1:0;
+                    (____, Scope<Short> @:5635 op:361,dt:7,nt:8,next:65535,str:64104,d0:5636,d1:63863;
+                        ("ai_play_line_at_player", Expression<MethodOrOperator> @:5636 op:361,dt:2,nt:9,next:5637,str:12793,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:5637 op:19,dt:19,nt:13,next:5638,str:3463,d0:33564,d1:65535;
+                                ("0490", Expression<StringId> @:5638 op:11,dt:11,nt:9,next:65535,str:13375,d0:13702,d1:1024;))))))
+            (____, Scope<Void> @:5639 op:19,dt:4,nt:8,next:65535,str:64154,d0:5640,d1:63867;
+                ("sleep", Expression<MethodOrOperator> @:5640 op:19,dt:2,nt:9,next:5641,str:80,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:5641 op:7,dt:7,nt:13,next:65535,str:12832,d0:36,d1:0;))))))

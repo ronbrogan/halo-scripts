@@ -1,0 +1,65 @@
+
+("sc_enforcer", MethodDecl<Void> @:169 op:0,dt:0,nt:65535,next:5725,str:28572,d0:0,d1:0;
+    (____, Scope<Void> @:5725 op:0,dt:4,nt:8,next:65535,str:64420,d0:5726,d1:63953;
+        ("begin", Expression<MethodOrOperator> @:5726 op:0,dt:2,nt:9,next:5664,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:5664 op:21,dt:4,nt:8,next:5667,str:64450,d0:5665,d1:63892;
+                ("sleep_until", Expression<MethodOrOperator> @:5665 op:21,dt:2,nt:9,next:5666,str:231,d0:0,d1:0;
+                    ("g_enforcer", VariableAccess<Boolean> @:5666 op:5,dt:5,nt:13,next:65535,str:13457,d0:33,d1:0;)))
+            (____, Scope<Void> @:5667 op:588,dt:4,nt:8,next:5669,str:64477,d0:5668,d1:63895;
+                ("game_save_cancel", Expression<MethodOrOperator> @:5668 op:588,dt:2,nt:9,next:65535,str:12956,d0:0,d1:0;))
+            (____, Scope<Void> @:5669 op:19,dt:4,nt:8,next:5672,str:64498,d0:5670,d1:63897;
+                ("sleep", Expression<MethodOrOperator> @:5670 op:19,dt:2,nt:9,next:5671,str:80,d0:0,d1:0;
+                    (60, Expression<Short> @:5671 op:7,dt:7,nt:9,next:65535,str:64505,d0:60,d1:65535;)))
+            (____, Scope<Void> @:5672 op:2,dt:4,nt:8,next:5678,str:64513,d0:5673,d1:63900;
+                ("if", Expression<MethodOrOperator> @:5673 op:2,dt:2,nt:9,next:5674,str:456,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:5674 op:5,dt:5,nt:13,next:5675,str:12757,d0:4,d1:0;
+                        (____, Scope<Void> @:5675 op:27,dt:4,nt:8,next:65535,str:64526,d0:5676,d1:63903;
+                            ("print", Expression<MethodOrOperator> @:5676 op:27,dt:2,nt:9,next:5677,str:86,d0:0,d1:0;
+                                ("tartarus: it's useless to attack an enforcer from the front.", Expression<String> @:5677 op:9,dt:9,nt:9,next:65535,str:13468,d0:13468,d1:0;))))))
+            (____, Scope<Void> @:5678 op:2,dt:4,nt:8,next:5684,str:64600,d0:5679,d1:63906;
+                ("if", Expression<MethodOrOperator> @:5679 op:2,dt:2,nt:9,next:5680,str:456,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:5680 op:5,dt:5,nt:13,next:5681,str:12757,d0:4,d1:0;
+                        (____, Scope<Void> @:5681 op:27,dt:4,nt:8,next:65535,str:64613,d0:5682,d1:63909;
+                            ("print", Expression<MethodOrOperator> @:5682 op:27,dt:2,nt:9,next:5683,str:86,d0:0,d1:0;
+                                ("tartarus: especially when their shields are up.", Expression<String> @:5683 op:9,dt:9,nt:9,next:65535,str:13529,d0:13529,d1:0;))))))
+            (____, Scope<Void> @:5684 op:19,dt:4,nt:8,next:5690,str:64674,d0:5685,d1:63912;
+                ("sleep", Expression<MethodOrOperator> @:5685 op:19,dt:2,nt:9,next:5686,str:80,d0:0,d1:0;
+                    (____, Scope<Short> @:5686 op:362,dt:7,nt:8,next:65535,str:64681,d0:5687,d1:63914;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:5687 op:362,dt:2,nt:9,next:5688,str:13037,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:5688 op:50,dt:50,nt:9,next:5689,str:1694,d0:65535,d1:65535;
+                                ("0500", Expression<StringId> @:5689 op:11,dt:11,nt:9,next:65535,str:13577,d0:13703,d1:1024;))))))
+            (____, Scope<Void> @:5690 op:19,dt:4,nt:8,next:5693,str:64719,d0:5691,d1:63918;
+                ("sleep", Expression<MethodOrOperator> @:5691 op:19,dt:2,nt:9,next:5692,str:80,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:5692 op:7,dt:7,nt:13,next:65535,str:12832,d0:36,d1:0;)))
+            (____, Scope<Void> @:5693 op:2,dt:4,nt:8,next:5699,str:64746,d0:5694,d1:63921;
+                ("if", Expression<MethodOrOperator> @:5694 op:2,dt:2,nt:9,next:5695,str:456,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:5695 op:5,dt:5,nt:13,next:5696,str:12757,d0:4,d1:0;
+                        (____, Scope<Void> @:5696 op:27,dt:4,nt:8,next:65535,str:64759,d0:5697,d1:63924;
+                            ("print", Expression<MethodOrOperator> @:5697 op:27,dt:2,nt:9,next:5698,str:86,d0:0,d1:0;
+                                ("tartarus: stay in the shadows. wait 'til it loses interest", Expression<String> @:5698 op:9,dt:9,nt:9,next:65535,str:13582,d0:13582,d1:0;))))))
+            (____, Scope<Void> @:5699 op:19,dt:4,nt:8,next:5705,str:64832,d0:5700,d1:63927;
+                ("sleep", Expression<MethodOrOperator> @:5700 op:19,dt:2,nt:9,next:5701,str:80,d0:0,d1:0;
+                    (____, Scope<Short> @:5701 op:362,dt:7,nt:8,next:65535,str:64839,d0:5702,d1:63929;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:5702 op:362,dt:2,nt:9,next:5703,str:13037,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:5703 op:50,dt:50,nt:9,next:5704,str:1694,d0:65535,d1:65535;
+                                ("0510", Expression<StringId> @:5704 op:11,dt:11,nt:9,next:65535,str:13642,d0:13704,d1:1024;))))))
+            (____, Scope<Void> @:5705 op:19,dt:4,nt:8,next:5708,str:64877,d0:5706,d1:63933;
+                ("sleep", Expression<MethodOrOperator> @:5706 op:19,dt:2,nt:9,next:5707,str:80,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:5707 op:7,dt:7,nt:13,next:65535,str:12832,d0:36,d1:0;)))
+            (____, Scope<Void> @:5708 op:2,dt:4,nt:8,next:5714,str:64904,d0:5709,d1:63936;
+                ("if", Expression<MethodOrOperator> @:5709 op:2,dt:2,nt:9,next:5710,str:456,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:5710 op:5,dt:5,nt:13,next:5711,str:12757,d0:4,d1:0;
+                        (____, Scope<Void> @:5711 op:27,dt:4,nt:8,next:65535,str:64917,d0:5712,d1:63939;
+                            ("print", Expression<MethodOrOperator> @:5712 op:27,dt:2,nt:9,next:5713,str:86,d0:0,d1:0;
+                                ("tartarus: then strike the beast when it it's back is turned!", Expression<String> @:5713 op:9,dt:9,nt:9,next:65535,str:13647,d0:13647,d1:0;))))))
+            (____, Scope<Void> @:5714 op:19,dt:4,nt:8,next:5720,str:64991,d0:5715,d1:63942;
+                ("sleep", Expression<MethodOrOperator> @:5715 op:19,dt:2,nt:9,next:5716,str:80,d0:0,d1:0;
+                    (____, Scope<Short> @:5716 op:362,dt:7,nt:8,next:65535,str:64998,d0:5717,d1:63944;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:5717 op:362,dt:2,nt:9,next:5718,str:13037,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:5718 op:50,dt:50,nt:9,next:5719,str:1694,d0:65535,d1:65535;
+                                ("0520", Expression<StringId> @:5719 op:11,dt:11,nt:9,next:65535,str:13708,d0:13705,d1:1024;))))))
+            (____, Scope<Void> @:5720 op:19,dt:4,nt:8,next:5723,str:65036,d0:5721,d1:63948;
+                ("sleep", Expression<MethodOrOperator> @:5721 op:19,dt:2,nt:9,next:5722,str:80,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:5722 op:7,dt:7,nt:13,next:65535,str:12832,d0:36,d1:0;)))
+            (____, Scope<Void> @:5723 op:589,dt:4,nt:8,next:65535,str:65064,d0:5724,d1:63951;
+                ("game_save_no_timeout", Expression<MethodOrOperator> @:5724 op:589,dt:2,nt:9,next:65535,str:13183,d0:0,d1:0;)))))

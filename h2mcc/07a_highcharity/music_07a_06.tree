@@ -1,0 +1,18 @@
+
+("music_07a_06", MethodDecl<Void> @:212 op:0,dt:0,nt:65535,next:7829,str:42683,d0:0,d1:0;
+    (____, Scope<Void> @:7829 op:0,dt:4,nt:8,next:65535,str:36730,d0:7830,d1:33290;
+        ("begin", Expression<MethodOrOperator> @:7830 op:0,dt:2,nt:9,next:7815,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:7815 op:21,dt:4,nt:8,next:7818,str:36823,d0:7816,d1:33276;
+                ("sleep_until", Expression<MethodOrOperator> @:7816 op:21,dt:2,nt:9,next:7817,str:231,d0:0,d1:0;
+                    ("g_music_07a_06", VariableAccess<Boolean> @:7817 op:5,dt:5,nt:13,next:65535,str:18301,d0:30,d1:0;)))
+            (____, Scope<Void> @:7818 op:2,dt:4,nt:8,next:7824,str:36854,d0:7819,d1:33279;
+                ("if", Expression<MethodOrOperator> @:7819 op:2,dt:2,nt:9,next:7820,str:456,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:7820 op:5,dt:5,nt:13,next:7821,str:17539,d0:3,d1:0;
+                        (____, Scope<Void> @:7821 op:27,dt:4,nt:8,next:65535,str:36864,d0:7822,d1:33282;
+                            ("print", Expression<MethodOrOperator> @:7822 op:27,dt:2,nt:9,next:7823,str:86,d0:0,d1:0;
+                                ("start music 07a_06", Expression<String> @:7823 op:9,dt:9,nt:9,next:65535,str:18316,d0:18316,d1:0;))))))
+            (____, Scope<Void> @:7824 op:605,dt:4,nt:8,next:65535,str:36896,d0:7825,d1:33285;
+                ("sound_looping_start", Expression<MethodOrOperator> @:7825 op:605,dt:2,nt:9,next:7826,str:17676,d0:0,d1:0;
+                    ("scenarios\solo\07a_highcharity\07a_music\07a_06", Expression<LoopingSound> @:7826 op:35,dt:35,nt:9,next:7827,str:18335,d0:8099,d1:33131;
+                        (4294967295, Expression<Entity> @:7827 op:50,dt:50,nt:9,next:7828,str:1586,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:7828 op:6,dt:6,nt:9,next:65535,str:36970,d0:0,d1:16256;))))))))

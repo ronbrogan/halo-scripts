@@ -1,0 +1,26 @@
+
+("oes_e7_spring_ambush", MethodDecl<Boolean> @:289 check:0,op:0,dt:0,nt:65535,next:10955,nextCheck:36415,str:20091,h:0,d0:0,d1:0;
+    (____, Scope<Boolean> @:10955 check:36415,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:5234,h:2,d0:10956,d1:36416;
+        ("begin", Expression<MethodOrOperator> @:10956 check:36416,op:0,dt:2,nt:9,next:10933,nextCheck:36393,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Boolean> @:10933 check:36393,op:5,dt:5,nt:8,next:65535,nextCheck:65535,str:5280,h:2,d0:10934,d1:36394;
+                ("and", Expression<MethodOrOperator> @:10934 check:36394,op:5,dt:2,nt:9,next:10935,nextCheck:36395,str:730,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:10935 check:36395,op:6,dt:5,nt:8,next:10949,nextCheck:36409,str:5288,h:2,d0:10936,d1:36396;
+                        ("or", Expression<MethodOrOperator> @:10936 check:36396,op:6,dt:2,nt:9,next:10937,nextCheck:36397,str:907,h:0,d0:0,d1:0;
+                            (____, Scope<Boolean> @:10937 check:36397,op:33,dt:5,nt:8,next:10943,nextCheck:36403,str:5296,h:2,d0:10938,d1:36398;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:10938 check:36398,op:33,dt:2,nt:9,next:10939,nextCheck:36399,str:10884,h:0,d0:0,d1:0;
+                                    ("tv_e7_cov_inf0_spring_ambush", Expression<Trigger> @:10939 check:36399,op:13,dt:13,nt:9,next:10940,nextCheck:36400,str:19997,h:0,d0:40,d1:0;
+                                        (____, Scope<List> @:10940 check:36400,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:5346,h:2,d0:10941,d1:36401;
+                                            ("ai_actors", Expression<MethodOrOperator> @:10941 check:36401,op:332,dt:2,nt:9,next:10942,nextCheck:36402,str:12392,h:0,d0:0,d1:0;
+                                                ("e7_cov_inf0", Expression<AI> @:10942 check:36402,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:20026,h:0,d0:66,d1:0;))))))
+                            (____, Scope<Boolean> @:10943 check:36403,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:5375,h:2,d0:10944,d1:36404;
+                                (">=", Expression<MethodOrOperator> @:10944 check:36404,op:17,dt:2,nt:9,next:10945,nextCheck:36405,str:734,h:0,d0:0,d1:0;
+                                    (____, Scope<Short> @:10945 check:36405,op:353,dt:7,nt:8,next:10948,nextCheck:36408,str:5379,h:2,d0:10946,d1:36406;
+                                        ("ai_combat_status", Expression<MethodOrOperator> @:10946 check:36406,op:353,dt:2,nt:9,next:10947,nextCheck:36407,str:13451,h:0,d0:0,d1:0;
+                                            ("e7_cov_inf0", Expression<AI> @:10947 check:36407,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:20026,h:0,d0:66,d1:0;)))
+                                    ("ai_combat_status_certain", VariableAccess<Short> @:10948 check:36408,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:20038,h:0,d0:33577,d1:65535;)))))
+                    (____, Scope<Boolean> @:10949 check:36409,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:5444,h:2,d0:10950,d1:36410;
+                        (">", Expression<MethodOrOperator> @:10950 check:36410,op:15,dt:2,nt:9,next:10951,nextCheck:36411,str:12195,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:10951 check:36411,op:335,dt:7,nt:8,next:10954,nextCheck:36414,str:5447,h:2,d0:10952,d1:36412;
+                                ("ai_spawn_count", Expression<MethodOrOperator> @:10952 check:36412,op:335,dt:2,nt:9,next:10953,nextCheck:36413,str:15920,h:0,d0:0,d1:0;
+                                    ("e7_cov_inf0", Expression<AI> @:10953 check:36413,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:20026,h:0,d0:66,d1:0;)))
+                            (0, Expression<Short> @:10954 check:36414,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:5476,h:2,d0:0,d1:65535;))))))))

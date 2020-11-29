@@ -1,0 +1,32 @@
+
+("cs_e8_mars_inf0_no_assholes", MethodDecl<Void> @:275 op:0,dt:0,nt:65535,next:10450,str:19992,d0:0,d1:0;
+    (____, Scope<Void> @:10450 op:0,dt:4,nt:8,next:65535,str:64512,d0:10451,d1:35911;
+        ("begin", Expression<MethodOrOperator> @:10451 op:0,dt:2,nt:9,next:10422,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:10422 op:444,dt:4,nt:8,next:10425,str:64565,d0:10423,d1:35883;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:10423 op:444,dt:2,nt:9,next:10424,str:14000,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10424 op:5,dt:5,nt:9,next:65535,str:64583,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:10425 op:442,dt:4,nt:8,next:10428,str:64591,d0:10426,d1:35886;
+                ("cs_enable_targeting", Expression<MethodOrOperator> @:10426 op:442,dt:2,nt:9,next:10427,str:19586,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10427 op:5,dt:5,nt:9,next:65535,str:64612,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:10428 op:440,dt:4,nt:8,next:10431,str:64620,d0:10429,d1:35889;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:10429 op:440,dt:2,nt:9,next:10430,str:15078,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10430 op:5,dt:5,nt:9,next:65535,str:64640,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:10431 op:19,dt:4,nt:8,next:10437,str:64721,d0:10432,d1:35892;
+                ("sleep", Expression<MethodOrOperator> @:10432 op:19,dt:2,nt:9,next:10433,str:143,d0:0,d1:0;
+                    (____, Scope<Short> @:10433 op:124,dt:7,nt:8,next:65535,str:64728,d0:10434,d1:35894;
+                        ("random_range", Expression<MethodOrOperator> @:10434 op:124,dt:2,nt:9,next:10435,str:13866,d0:0,d1:0;
+                            (15, Expression<Short> @:10435 op:7,dt:7,nt:9,next:10436,str:64742,d0:15,d1:65535;
+                                (45, Expression<Short> @:10436 op:7,dt:7,nt:9,next:65535,str:64745,d0:45,d1:65535;))))))
+            (____, Scope<Void> @:10437 op:305,dt:4,nt:8,next:10441,str:64752,d0:10438,d1:35898;
+                ("ai_magically_see", Expression<MethodOrOperator> @:10438 op:305,dt:2,nt:9,next:10439,str:19606,d0:0,d1:0;
+                    ("ai_current_squad", VariableAccess<AI> @:10439 op:19,dt:19,nt:13,next:10440,str:12161,d0:33563,d1:65535;
+                        ("e8_cov_phantom0", Expression<AI> @:10440 op:19,dt:19,nt:9,next:65535,str:19623,d0:74,d1:0;))))
+            (____, Scope<Void> @:10441 op:398,dt:4,nt:8,next:10447,str:64806,d0:10442,d1:35902;
+                ("cs_aim_object", Expression<MethodOrOperator> @:10442 op:398,dt:2,nt:9,next:10443,str:19639,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10443 op:5,dt:5,nt:9,next:10444,str:64821,d0:65281,d1:65535;
+                        (____, Scope<Entity> @:10444 op:340,dt:50,nt:8,next:65535,str:64826,d0:10445,d1:35905;
+                            ("ai_vehicle_get", Expression<MethodOrOperator> @:10445 op:340,dt:2,nt:9,next:10446,str:4335,d0:0,d1:0;
+                                ("e8_cov_phantom0/phantom0", Expression<AI> @:10446 op:19,dt:19,nt:9,next:65535,str:19653,d0:0,d1:49226;))))))
+            (____, Scope<Void> @:10447 op:21,dt:4,nt:8,next:65535,str:64871,d0:10448,d1:35908;
+                ("sleep_until", Expression<MethodOrOperator> @:10448 op:21,dt:2,nt:9,next:10449,str:294,d0:0,d1:0;
+                    ("g_e8_cov_phantom0_arrived", VariableAccess<Boolean> @:10449 op:5,dt:5,nt:13,next:65535,str:19085,d0:25,d1:0;))))))

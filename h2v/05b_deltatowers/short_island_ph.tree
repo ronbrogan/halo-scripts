@@ -1,0 +1,21 @@
+
+("short_island_ph", MethodDecl<Void> @:238 check:0,op:0,dt:0,nt:65535,next:14847,nextCheck:40307,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:14847 check:40307,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28185,h:2,d0:14848,d1:40308;
+        ("begin", Expression<MethodOrOperator> @:14848 check:40308,op:0,dt:2,nt:9,next:14830,nextCheck:40290,str:142,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:14830 check:40290,op:310,dt:4,nt:8,next:14834,nextCheck:40294,str:28223,h:2,d0:14831,d1:40291;
+                ("ai_allegiance", Expression<MethodOrOperator> @:14831 check:40291,op:310,dt:2,nt:9,next:14832,nextCheck:40292,str:25863,h:0,d0:0,d1:0;
+                    ("covenant", Expression<Team> @:14832 check:40292,op:45,dt:45,nt:9,next:14833,nextCheck:40293,str:25877,h:0,d0:3,d1:65535;
+                        ("prophet", Expression<Team> @:14833 check:40293,op:45,dt:45,nt:9,next:65535,nextCheck:65535,str:25886,h:0,d0:7,d1:65535;))))
+            (____, Scope<Void> @:14834 check:40294,op:290,dt:4,nt:8,next:14837,nextCheck:40297,str:28258,h:2,d0:14835,d1:40295;
+                ("ai_place", Expression<MethodOrOperator> @:14835 check:40295,op:290,dt:2,nt:9,next:14836,nextCheck:40296,str:10226,h:0,d0:0,d1:0;
+                    ("island_phantom", Expression<AI> @:14836 check:40296,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25808,h:0,d0:116,d1:0;)))
+            (____, Scope<Void> @:14837 check:40297,op:343,dt:4,nt:8,next:14843,nextCheck:40303,str:28286,h:2,d0:14838,d1:40298;
+                ("ai_vehicle_reserve", Expression<MethodOrOperator> @:14838 check:40298,op:343,dt:2,nt:9,next:14839,nextCheck:40299,str:13668,h:0,d0:0,d1:0;
+                    (____, Scope<Vehicle> @:14839 check:40299,op:341,dt:52,nt:8,next:14842,nextCheck:40302,str:28306,h:2,d0:14840,d1:40300;
+                        ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:14840 check:40300,op:341,dt:2,nt:9,next:14841,nextCheck:40301,str:12983,h:0,d0:0,d1:0;
+                            ("island_phantom/pilot", Expression<AI> @:14841 check:40301,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25437,h:0,d0:0,d1:49268;)))
+                    (True, Expression<Boolean> @:14842 check:40302,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:28367,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:14843 check:40303,op:366,dt:4,nt:8,next:65535,nextCheck:65535,str:28375,h:2,d0:14844,d1:40304;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:14844 check:40304,op:366,dt:2,nt:9,next:14845,nextCheck:40305,str:11430,h:0,d0:0,d1:0;
+                    ("island_phantom/pilot", Expression<AI> @:14845 check:40305,op:19,dt:19,nt:9,next:14846,nextCheck:40306,str:25437,h:0,d0:0,d1:49268;
+                        ("island_phantom_path", Expression<AIScript> @:14846 check:40306,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:25843,h:0,d0:236,d1:0;)))))))

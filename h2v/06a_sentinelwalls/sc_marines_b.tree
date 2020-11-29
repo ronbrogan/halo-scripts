@@ -1,0 +1,49 @@
+
+("sc_marines_b", MethodDecl<Void> @:173 check:0,op:0,dt:0,nt:65535,next:5947,nextCheck:64174,str:23846,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:5947 check:64174,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1322,h:1,d0:5948,d1:64175;
+        ("begin", Expression<MethodOrOperator> @:5948 check:64175,op:0,dt:2,nt:9,next:5902,nextCheck:64129,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:5902 check:64129,op:2,dt:4,nt:8,next:5908,nextCheck:64135,str:1353,h:1,d0:5903,d1:64130;
+                ("if", Expression<MethodOrOperator> @:5903 check:64130,op:2,dt:2,nt:9,next:5904,nextCheck:64131,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:5904 check:64131,op:5,dt:5,nt:13,next:5905,nextCheck:64132,str:12699,h:0,d0:4,d1:0;
+                        (____, Scope<Void> @:5905 check:64132,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:1366,h:1,d0:5906,d1:64133;
+                            ("print", Expression<MethodOrOperator> @:5906 check:64133,op:27,dt:2,nt:9,next:5907,nextCheck:64134,str:86,h:0,d0:0,d1:0;
+                                ("marine: proceed to the objective! we'll hold out as long as we can!", Expression<String> @:5907 check:64134,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:14249,h:0,d0:58961,d1:12464;))))))
+            (____, Scope<Void> @:5908 check:64135,op:19,dt:4,nt:8,next:5914,nextCheck:64141,str:1447,h:1,d0:5909,d1:64136;
+                ("sleep", Expression<MethodOrOperator> @:5909 check:64136,op:19,dt:2,nt:9,next:5910,nextCheck:64137,str:80,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:5910 check:64137,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:1454,h:1,d0:5911,d1:64138;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:5911 check:64138,op:362,dt:2,nt:9,next:5912,nextCheck:64139,str:12979,h:0,d0:0,d1:0;
+                            (4294901836, Expression<Entity> @:5912 check:64139,op:56,dt:50,nt:9,next:5913,nextCheck:64140,str:14317,h:0,d0:76,d1:65535;
+                                ("0110", Expression<StringId> @:5913 check:64140,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:14330,h:0,d0:10509,d1:1024;))))))
+            (____, Scope<Void> @:5914 check:64141,op:19,dt:4,nt:8,next:5917,nextCheck:64144,str:1500,h:1,d0:5915,d1:64142;
+                ("sleep", Expression<MethodOrOperator> @:5915 check:64142,op:19,dt:2,nt:9,next:5916,nextCheck:64143,str:80,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:5916 check:64143,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:12774,h:0,d0:36,d1:0;)))
+            (____, Scope<Void> @:5917 check:64144,op:2,dt:4,nt:8,next:5923,nextCheck:64150,str:1527,h:1,d0:5918,d1:64145;
+                ("if", Expression<MethodOrOperator> @:5918 check:64145,op:2,dt:2,nt:9,next:5919,nextCheck:64146,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:5919 check:64146,op:5,dt:5,nt:13,next:5920,nextCheck:64147,str:12699,h:0,d0:4,d1:0;
+                        (____, Scope<Void> @:5920 check:64147,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:1540,h:1,d0:5921,d1:64148;
+                            ("print", Expression<MethodOrOperator> @:5921 check:64148,op:27,dt:2,nt:9,next:5922,nextCheck:64149,str:86,h:0,d0:0,d1:0;
+                                ("marine: aaa! get it off of me!", Expression<String> @:5922 check:64149,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:14335,h:0,d0:59047,d1:12464;))))))
+            (____, Scope<Void> @:5923 check:64150,op:19,dt:4,nt:8,next:5929,nextCheck:64156,str:1584,h:1,d0:5924,d1:64151;
+                ("sleep", Expression<MethodOrOperator> @:5924 check:64151,op:19,dt:2,nt:9,next:5925,nextCheck:64152,str:80,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:5925 check:64152,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:1591,h:1,d0:5926,d1:64153;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:5926 check:64153,op:362,dt:2,nt:9,next:5927,nextCheck:64154,str:12979,h:0,d0:0,d1:0;
+                            (4294901836, Expression<Entity> @:5927 check:64154,op:56,dt:50,nt:9,next:5928,nextCheck:64155,str:14317,h:0,d0:76,d1:65535;
+                                ("0120", Expression<StringId> @:5928 check:64155,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:14366,h:0,d0:10510,d1:1024;))))))
+            (____, Scope<Void> @:5929 check:64156,op:19,dt:4,nt:8,next:5932,nextCheck:64159,str:1637,h:1,d0:5930,d1:64157;
+                ("sleep", Expression<MethodOrOperator> @:5930 check:64157,op:19,dt:2,nt:9,next:5931,nextCheck:64158,str:80,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:5931 check:64158,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:12774,h:0,d0:36,d1:0;)))
+            (____, Scope<Void> @:5932 check:64159,op:2,dt:4,nt:8,next:5938,nextCheck:64165,str:1664,h:1,d0:5933,d1:64160;
+                ("if", Expression<MethodOrOperator> @:5933 check:64160,op:2,dt:2,nt:9,next:5934,nextCheck:64161,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:5934 check:64161,op:5,dt:5,nt:13,next:5935,nextCheck:64162,str:12699,h:0,d0:4,d1:0;
+                        (____, Scope<Void> @:5935 check:64162,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:1677,h:1,d0:5936,d1:64163;
+                            ("print", Expression<MethodOrOperator> @:5936 check:64163,op:27,dt:2,nt:9,next:5937,nextCheck:64164,str:86,h:0,d0:0,d1:0;
+                                ("sarg: suppressive fire! suppressive fi -", Expression<String> @:5937 check:64164,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:14371,h:0,d0:59083,d1:12464;))))))
+            (____, Scope<Void> @:5938 check:64165,op:19,dt:4,nt:8,next:5944,nextCheck:64171,str:1731,h:1,d0:5939,d1:64166;
+                ("sleep", Expression<MethodOrOperator> @:5939 check:64166,op:19,dt:2,nt:9,next:5940,nextCheck:64167,str:80,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:5940 check:64167,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:1738,h:1,d0:5941,d1:64168;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:5941 check:64168,op:362,dt:2,nt:9,next:5942,nextCheck:64169,str:12979,h:0,d0:0,d1:0;
+                            (4294901836, Expression<Entity> @:5942 check:64169,op:56,dt:50,nt:9,next:5943,nextCheck:64170,str:14317,h:0,d0:76,d1:65535;
+                                ("0130", Expression<StringId> @:5943 check:64170,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:14412,h:0,d0:10511,d1:1024;))))))
+            (____, Scope<Void> @:5944 check:64171,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:1784,h:1,d0:5945,d1:64172;
+                ("sleep", Expression<MethodOrOperator> @:5945 check:64172,op:19,dt:2,nt:9,next:5946,nextCheck:64173,str:80,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:5946 check:64173,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:12774,h:0,d0:36,d1:0;))))))

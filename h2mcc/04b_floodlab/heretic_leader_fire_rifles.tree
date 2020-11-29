@@ -1,0 +1,57 @@
+
+("heretic_leader_fire_rifles", MethodDecl<Void> @:79 op:0,dt:0,nt:65535,next:2488,str:6700,d0:0,d1:0;
+    (____, Scope<Void> @:2488 op:0,dt:4,nt:8,next:65535,str:29026,d0:2489,d1:60716;
+        ("begin", Expression<MethodOrOperator> @:2489 op:0,dt:2,nt:9,next:2435,str:210,d0:0,d1:0;
+            (____, Scope<Void> @:2435 op:48,dt:4,nt:8,next:2438,str:29073,d0:2436,d1:60663;
+                ("object_create_anew", Expression<MethodOrOperator> @:2436 op:48,dt:2,nt:9,next:2437,str:2195,d0:0,d1:0;
+                    ("hl_rifle_01", Expression<EntityIdentifier> @:2437 op:56,dt:56,nt:9,next:65535,str:6540,d0:296,d1:65535;)))
+            (____, Scope<Void> @:2438 op:48,dt:4,nt:8,next:2441,str:29108,d0:2439,d1:60666;
+                ("object_create_anew", Expression<MethodOrOperator> @:2439 op:48,dt:2,nt:9,next:2440,str:2195,d0:0,d1:0;
+                    ("hl_rifle_02", Expression<EntityIdentifier> @:2440 op:56,dt:56,nt:9,next:65535,str:6552,d0:297,d1:65535;)))
+            (____, Scope<Void> @:2441 op:19,dt:4,nt:8,next:2444,str:29145,d0:2442,d1:60669;
+                ("sleep", Expression<MethodOrOperator> @:2442 op:19,dt:2,nt:9,next:2443,str:289,d0:0,d1:0;
+                    (623, Expression<Short> @:2443 op:7,dt:7,nt:9,next:65535,str:29152,d0:623,d1:65535;)))
+            (____, Scope<Void> @:2444 op:74,dt:4,nt:8,next:2450,str:29159,d0:2445,d1:60672;
+                ("objects_attach", Expression<MethodOrOperator> @:2445 op:74,dt:2,nt:9,next:2446,str:2339,d0:0,d1:0;
+                    (4294902031, Expression<Entity> @:2446 op:56,dt:50,nt:9,next:2447,str:3417,d0:271,d1:65535;
+                        ("right_hand_elite", Expression<StringId> @:2447 op:11,dt:11,nt:9,next:2448,str:2322,d0:4349,d1:4096;
+                            (4294902056, Expression<Entity> @:2448 op:56,dt:50,nt:9,next:2449,str:6540,d0:296,d1:65535;
+                                (0, Expression<StringId> @:2449 op:11,dt:11,nt:9,next:65535,str:0,d0:0,d1:0;))))))
+            (____, Scope<Void> @:2450 op:74,dt:4,nt:8,next:2456,str:29227,d0:2451,d1:60678;
+                ("objects_attach", Expression<MethodOrOperator> @:2451 op:74,dt:2,nt:9,next:2452,str:2339,d0:0,d1:0;
+                    (4294902031, Expression<Entity> @:2452 op:56,dt:50,nt:9,next:2453,str:3417,d0:271,d1:65535;
+                        ("left_hand_elite", Expression<StringId> @:2453 op:11,dt:11,nt:9,next:2454,str:2354,d0:3694,d1:3840;
+                            (4294902057, Expression<Entity> @:2454 op:56,dt:50,nt:9,next:2455,str:6552,d0:297,d1:65535;
+                                (0, Expression<StringId> @:2455 op:11,dt:11,nt:9,next:65535,str:0,d0:0,d1:0;))))))
+            (____, Scope<Void> @:2456 op:19,dt:4,nt:8,next:2459,str:29294,d0:2457,d1:60684;
+                ("sleep", Expression<MethodOrOperator> @:2457 op:19,dt:2,nt:9,next:2458,str:289,d0:0,d1:0;
+                    (1, Expression<Short> @:2458 op:7,dt:7,nt:9,next:65535,str:29301,d0:1,d1:65535;)))
+            (____, Scope<Void> @:2459 op:251,dt:4,nt:8,next:2464,str:29306,d0:2460,d1:60687;
+                ("weapon_hold_trigger", Expression<MethodOrOperator> @:2460 op:251,dt:2,nt:9,next:2461,str:6564,d0:0,d1:0;
+                    ("hl_rifle_01", Expression<WeaponReference> @:2461 op:59,dt:53,nt:9,next:2462,str:6540,d0:296,d1:65535;
+                        (0, Expression<Int> @:2462 op:8,dt:8,nt:9,next:2463,str:29339,d0:0,d1:0;
+                            (True, Expression<Boolean> @:2463 op:5,dt:5,nt:9,next:65535,str:29341,d0:65281,d1:65535;)))))
+            (____, Scope<Void> @:2464 op:251,dt:4,nt:8,next:2469,str:29349,d0:2465,d1:60692;
+                ("weapon_hold_trigger", Expression<MethodOrOperator> @:2465 op:251,dt:2,nt:9,next:2466,str:6564,d0:0,d1:0;
+                    ("hl_rifle_02", Expression<WeaponReference> @:2466 op:59,dt:53,nt:9,next:2467,str:6552,d0:297,d1:65535;
+                        (0, Expression<Int> @:2467 op:8,dt:8,nt:9,next:2468,str:29382,d0:0,d1:0;
+                            (True, Expression<Boolean> @:2468 op:5,dt:5,nt:9,next:65535,str:29384,d0:65281,d1:65535;)))))
+            (____, Scope<Void> @:2469 op:27,dt:4,nt:8,next:2472,str:29392,d0:2470,d1:60697;
+                ("print", Expression<MethodOrOperator> @:2470 op:27,dt:2,nt:9,next:2471,str:295,d0:0,d1:0;
+                    ("heretic rifles fire", Expression<String> @:2471 op:9,dt:9,nt:9,next:65535,str:6584,d0:6584,d1:0;)))
+            (____, Scope<Void> @:2472 op:19,dt:4,nt:8,next:2475,str:29426,d0:2473,d1:60700;
+                ("sleep", Expression<MethodOrOperator> @:2473 op:19,dt:2,nt:9,next:2474,str:289,d0:0,d1:0;
+                    (85, Expression<Short> @:2474 op:7,dt:7,nt:9,next:65535,str:29433,d0:85,d1:65535;)))
+            (____, Scope<Void> @:2475 op:251,dt:4,nt:8,next:2480,str:29439,d0:2476,d1:60703;
+                ("weapon_hold_trigger", Expression<MethodOrOperator> @:2476 op:251,dt:2,nt:9,next:2477,str:6564,d0:0,d1:0;
+                    ("hl_rifle_01", Expression<WeaponReference> @:2477 op:59,dt:53,nt:9,next:2478,str:6540,d0:296,d1:65535;
+                        (0, Expression<Int> @:2478 op:8,dt:8,nt:9,next:2479,str:29472,d0:0,d1:0;
+                            (False, Expression<Boolean> @:2479 op:5,dt:5,nt:9,next:65535,str:29474,d0:65280,d1:65535;)))))
+            (____, Scope<Void> @:2480 op:251,dt:4,nt:8,next:2485,str:29483,d0:2481,d1:60708;
+                ("weapon_hold_trigger", Expression<MethodOrOperator> @:2481 op:251,dt:2,nt:9,next:2482,str:6564,d0:0,d1:0;
+                    ("hl_rifle_02", Expression<WeaponReference> @:2482 op:59,dt:53,nt:9,next:2483,str:6552,d0:297,d1:65535;
+                        (0, Expression<Int> @:2483 op:8,dt:8,nt:9,next:2484,str:29516,d0:0,d1:0;
+                            (False, Expression<Boolean> @:2484 op:5,dt:5,nt:9,next:65535,str:29518,d0:65280,d1:65535;)))))
+            (____, Scope<Void> @:2485 op:27,dt:4,nt:8,next:65535,str:29527,d0:2486,d1:60713;
+                ("print", Expression<MethodOrOperator> @:2486 op:27,dt:2,nt:9,next:2487,str:295,d0:0,d1:0;
+                    ("heretic rifles stop", Expression<String> @:2487 op:9,dt:9,nt:9,next:65535,str:6604,d0:6604,d1:0;))))))

@@ -1,0 +1,26 @@
+
+("x03_0120_lhd", MethodDecl<Void> @:132 op:0,dt:0,nt:65535,next:4392,str:10525,d0:0,d1:0;
+    (____, Scope<Void> @:4392 op:0,dt:4,nt:8,next:65535,str:52309,d0:4393,d1:62620;
+        ("begin", Expression<MethodOrOperator> @:4393 op:0,dt:2,nt:9,next:4370,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:4370 op:19,dt:4,nt:8,next:4373,str:52340,d0:4371,d1:62598;
+                ("sleep", Expression<MethodOrOperator> @:4371 op:19,dt:2,nt:9,next:4372,str:85,d0:0,d1:0;
+                    (175, Expression<Short> @:4372 op:7,dt:7,nt:9,next:65535,str:52347,d0:175,d1:65535;)))
+            (____, Scope<Void> @:4373 op:598,dt:4,nt:8,next:4379,str:52354,d0:4374,d1:62601;
+                ("sound_impulse_start_effect", Expression<MethodOrOperator> @:4374 op:598,dt:2,nt:9,next:4375,str:5481,d0:0,d1:0;
+                    ("sound\dialog\levels\03_earthcity\cinematic\x03_0120_lhd", Expression<Sound> @:4375 op:32,dt:32,nt:9,next:4376,str:10469,d0:788,d1:58506;
+                        (4294901846, Expression<Entity> @:4376 op:56,dt:50,nt:9,next:4377,str:8629,d0:86,d1:65535;
+                            (1f, Expression<Float> @:4377 op:6,dt:6,nt:9,next:4378,str:52443,d0:0,d1:16256;
+                                ("radio_default", Expression<StringId> @:4378 op:11,dt:11,nt:9,next:65535,str:6921,d0:13367,d1:3328;))))))
+            (____, Scope<Void> @:4379 op:562,dt:4,nt:8,next:4383,str:52462,d0:4380,d1:62607;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:4380 op:562,dt:2,nt:9,next:4381,str:1634,d0:0,d1:0;
+                    ("x03_0120_lhd", Expression<StringId> @:4381 op:11,dt:11,nt:9,next:4382,str:10525,d0:4947,d1:3072;
+                        (2f, Expression<Float> @:4382 op:6,dt:6,nt:9,next:65535,str:52495,d0:0,d1:16384;))))
+            (____, Scope<Void> @:4383 op:220,dt:4,nt:8,next:4389,str:52502,d0:4384,d1:62611;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:4384 op:220,dt:2,nt:9,next:4385,str:1666,d0:0,d1:0;
+                    ("hood", Expression<Unit> @:4385 op:57,dt:51,nt:9,next:4386,str:8629,d0:86,d1:65535;
+                        ("angry", Expression<StringId> @:4386 op:11,dt:11,nt:9,next:4387,str:1834,d0:430,d1:1280;
+                            (0.5f, Expression<Float> @:4387 op:6,dt:6,nt:9,next:4388,str:52539,d0:0,d1:16128;
+                                (30, Expression<Short> @:4388 op:7,dt:7,nt:9,next:65535,str:52542,d0:30,d1:65535;))))))
+            (____, Scope<Void> @:4389 op:27,dt:4,nt:8,next:65535,str:52548,d0:4390,d1:62617;
+                ("print", Expression<MethodOrOperator> @:4390 op:27,dt:2,nt:9,next:4391,str:91,d0:0,d1:0;
+                    ("hood - angry .5 30", Expression<String> @:4391 op:9,dt:9,nt:9,next:65535,str:10538,d0:10538,d1:0;))))))

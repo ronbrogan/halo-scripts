@@ -1,0 +1,32 @@
+
+("cs_1st_johnson_deploy", MethodDecl<Void> @:334 check:0,op:0,dt:0,nt:65535,next:13930,nextCheck:39390,str:33555,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:13930 check:39390,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:41619,h:2,d0:13931,d1:39391;
+        ("begin", Expression<MethodOrOperator> @:13931 check:39391,op:0,dt:2,nt:9,next:13902,nextCheck:39362,str:11,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:13902 check:39362,op:401,dt:4,nt:8,next:13906,nextCheck:39366,str:41666,h:2,d0:13903,d1:39363;
+                ("cs_face_object", Expression<MethodOrOperator> @:13903 check:39363,op:401,dt:2,nt:9,next:13904,nextCheck:39364,str:31898,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:13904 check:39364,op:5,dt:5,nt:9,next:13905,nextCheck:39365,str:41682,h:2,d0:65281,d1:65535;
+                        (4294902013, Expression<Entity> @:13905 check:39365,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:31883,h:0,d0:253,d1:65535;))))
+            (____, Scope<Void> @:13906 check:39366,op:19,dt:4,nt:8,next:13909,nextCheck:39369,str:41702,h:2,d0:13907,d1:39367;
+                ("sleep", Expression<MethodOrOperator> @:13907 check:39367,op:19,dt:2,nt:9,next:13908,nextCheck:39368,str:90,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:13908 check:39368,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:41709,h:2,d0:60,d1:65535;)))
+            (____, Scope<Void> @:13909 check:39369,op:201,dt:4,nt:8,next:13917,nextCheck:39377,str:41715,h:2,d0:13910,d1:39370;
+                ("custom_animation", Expression<MethodOrOperator> @:13910 check:39370,op:201,dt:2,nt:9,next:13911,nextCheck:39371,str:31913,h:0,d0:0,d1:0;
+                    (____, Scope<Unit> @:13911 check:39371,op:285,dt:51,nt:8,next:13914,nextCheck:39374,str:41733,h:2,d0:13912,d1:39372;
+                        ("ai_get_unit", Expression<MethodOrOperator> @:13912 check:39372,op:285,dt:2,nt:9,next:13913,nextCheck:39373,str:31930,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:13913 check:39373,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:31942,h:0,d0:33564,d1:65535;)))
+                    ("objects\characters\marine\marine", Expression<Animation> @:13914 check:39374,op:36,dt:36,nt:9,next:13915,nextCheck:39375,str:31959,h:0,d0:2316,d1:60204;
+                        ("combat:missile:point", Expression<StringId> @:13915 check:39375,op:11,dt:11,nt:9,next:13916,nextCheck:39376,str:31992,h:0,d0:6787,d1:5120;
+                            (True, Expression<Boolean> @:13916 check:39376,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:41822,h:2,d0:65281,d1:65535;)))))
+            (____, Scope<Void> @:13917 check:39377,op:19,dt:4,nt:8,next:13924,nextCheck:39384,str:41832,h:2,d0:13918,d1:39378;
+                ("sleep", Expression<MethodOrOperator> @:13918 check:39378,op:19,dt:2,nt:9,next:13919,nextCheck:39379,str:90,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:13919 check:39379,op:199,dt:7,nt:8,next:65535,nextCheck:65535,str:41839,h:2,d0:13920,d1:39380;
+                        ("unit_get_custom_animation_time", Expression<MethodOrOperator> @:13920 check:39380,op:199,dt:2,nt:9,next:13921,nextCheck:39381,str:32013,h:0,d0:0,d1:0;
+                            (____, Scope<Unit> @:13921 check:39381,op:285,dt:51,nt:8,next:65535,nextCheck:65535,str:41871,h:2,d0:13922,d1:39382;
+                                ("ai_get_unit", Expression<MethodOrOperator> @:13922 check:39382,op:285,dt:2,nt:9,next:13923,nextCheck:39383,str:31930,h:0,d0:0,d1:0;
+                                    ("ai_current_actor", VariableAccess<AI> @:13923 check:39383,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:31942,h:0,d0:33564,d1:65535;)))))))
+            (____, Scope<Void> @:13924 check:39384,op:19,dt:4,nt:8,next:13927,nextCheck:39387,str:41910,h:2,d0:13925,d1:39385;
+                ("sleep", Expression<MethodOrOperator> @:13925 check:39385,op:19,dt:2,nt:9,next:13926,nextCheck:39386,str:90,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:13926 check:39386,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:41917,h:2,d0:30,d1:65535;)))
+            (____, Scope<Void> @:13927 check:39387,op:429,dt:4,nt:8,next:65535,nextCheck:65535,str:41927,h:2,d0:13928,d1:39388;
+                ("cs_deploy_turret", Expression<MethodOrOperator> @:13928 check:39388,op:429,dt:2,nt:9,next:13929,nextCheck:39389,str:32044,h:0,d0:0,d1:0;
+                    ("1st_turrets/1st_turrets_balcony", Expression<SpatialPoint> @:13929 check:39389,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:32061,h:0,d0:0,d1:6;))))))

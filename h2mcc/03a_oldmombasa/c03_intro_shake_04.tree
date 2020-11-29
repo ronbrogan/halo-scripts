@@ -1,0 +1,22 @@
+
+("c03_intro_shake_04", MethodDecl<Void> @:109 op:0,dt:0,nt:65535,next:3827,str:8603,d0:0,d1:0;
+    (____, Scope<Void> @:3827 op:0,dt:4,nt:8,next:65535,str:42455,d0:3828,d1:62055;
+        ("begin", Expression<MethodOrOperator> @:3828 op:0,dt:2,nt:9,next:3809,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:3809 op:19,dt:4,nt:8,next:3812,str:42492,d0:3810,d1:62037;
+                ("sleep", Expression<MethodOrOperator> @:3810 op:19,dt:2,nt:9,next:3811,str:143,d0:0,d1:0;
+                    (137, Expression<Short> @:3811 op:7,dt:7,nt:9,next:65535,str:42499,d0:137,d1:65535;)))
+            (____, Scope<Void> @:3812 op:27,dt:4,nt:8,next:3815,str:42506,d0:3813,d1:62040;
+                ("print", Expression<MethodOrOperator> @:3813 op:27,dt:2,nt:9,next:3814,str:149,d0:0,d1:0;
+                    ("shake", Expression<String> @:3814 op:9,dt:9,nt:9,next:65535,str:2147,d0:2147,d1:0;)))
+            (____, Scope<Void> @:3815 op:653,dt:4,nt:8,next:3820,str:42524,d0:3816,d1:62043;
+                ("player_effect_set_max_rotation", Expression<MethodOrOperator> @:3816 op:653,dt:2,nt:9,next:3817,str:2153,d0:0,d1:0;
+                    (0f, Expression<Float> @:3817 op:6,dt:6,nt:9,next:3818,str:42556,d0:0,d1:0;
+                        (1f, Expression<Float> @:3818 op:6,dt:6,nt:9,next:3819,str:42558,d0:0,d1:16256;
+                            (1f, Expression<Float> @:3819 op:6,dt:6,nt:9,next:65535,str:42560,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:3820 op:655,dt:4,nt:8,next:3824,str:42565,d0:3821,d1:62048;
+                ("player_effect_start", Expression<MethodOrOperator> @:3821 op:655,dt:2,nt:9,next:3822,str:2184,d0:0,d1:0;
+                    (0.5f, Expression<Float> @:3822 op:6,dt:6,nt:9,next:3823,str:42586,d0:0,d1:16128;
+                        (0f, Expression<Float> @:3823 op:6,dt:6,nt:9,next:65535,str:42589,d0:0,d1:0;))))
+            (____, Scope<Void> @:3824 op:656,dt:4,nt:8,next:65535,str:42594,d0:3825,d1:62052;
+                ("player_effect_stop", Expression<MethodOrOperator> @:3825 op:656,dt:2,nt:9,next:3826,str:2204,d0:0,d1:0;
+                    (1f, Expression<Float> @:3826 op:6,dt:6,nt:9,next:65535,str:42614,d0:0,d1:16256;))))))

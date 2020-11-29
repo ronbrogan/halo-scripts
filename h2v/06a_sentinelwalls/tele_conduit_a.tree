@@ -1,0 +1,30 @@
+
+("tele_conduit_a", MethodDecl<Void> @:386 check:0,op:0,dt:0,nt:65535,next:22708,nextCheck:48168,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:22708 check:48168,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:40862,h:3,d0:22709,d1:48169;
+        ("begin", Expression<MethodOrOperator> @:22709 check:48169,op:0,dt:2,nt:9,next:22682,nextCheck:48142,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:22682 check:48142,op:507,dt:4,nt:8,next:22685,nextCheck:48145,str:40899,h:3,d0:22683,d1:48143;
+                ("switch_bsp", Expression<MethodOrOperator> @:22683 check:48143,op:507,dt:2,nt:9,next:22684,nextCheck:48144,str:31244,h:0,d0:0,d1:0;
+                    (0, Expression<Short> @:22684 check:48144,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:40911,h:3,d0:0,d1:65535;)))
+            (____, Scope<Void> @:22685 check:48145,op:19,dt:4,nt:8,next:22688,nextCheck:48148,str:40916,h:3,d0:22686,d1:48146;
+                ("sleep", Expression<MethodOrOperator> @:22686 check:48146,op:19,dt:2,nt:9,next:22687,nextCheck:48147,str:80,h:0,d0:0,d1:0;
+                    (1, Expression<Short> @:22687 check:48147,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:40923,h:3,d0:1,d1:65535;)))
+            (____, Scope<Void> @:22688 check:48148,op:105,dt:4,nt:8,next:22693,nextCheck:48153,str:40928,h:3,d0:22689,d1:48149;
+                ("object_teleport", Expression<MethodOrOperator> @:22689 check:48149,op:105,dt:2,nt:9,next:22690,nextCheck:48150,str:31375,h:0,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:22690 check:48150,op:0,dt:50,nt:10,next:22692,nextCheck:48152,str:40945,h:3,d0:22691,d1:48151;
+                        ("player0", Expression<MethodOrOperator> @:22691 check:48151,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:602,h:0,d0:0,d1:0;))
+                    ("conduit_a_a", Expression<LocationFlag> @:22692 check:48152,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:34699,h:0,d0:7,d1:0;)))
+            (____, Scope<Void> @:22693 check:48153,op:105,dt:4,nt:8,next:22698,nextCheck:48158,str:40970,h:3,d0:22694,d1:48154;
+                ("object_teleport", Expression<MethodOrOperator> @:22694 check:48154,op:105,dt:2,nt:9,next:22695,nextCheck:48155,str:31375,h:0,d0:0,d1:0;
+                    ("player1", ScriptInvocation<Entity> @:22695 check:48155,op:1,dt:50,nt:10,next:22697,nextCheck:48157,str:40987,h:3,d0:22696,d1:48156;
+                        ("player1", Expression<MethodOrOperator> @:22696 check:48156,op:1,dt:2,nt:9,next:65535,nextCheck:65535,str:610,h:0,d0:0,d1:0;))
+                    ("conduit_a_b", Expression<LocationFlag> @:22697 check:48157,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:34711,h:0,d0:8,d1:0;)))
+            (____, Scope<Void> @:22698 check:48158,op:299,dt:4,nt:8,next:22700,nextCheck:48160,str:41012,h:3,d0:22699,d1:48159;
+                ("ai_erase_all", Expression<MethodOrOperator> @:22699 check:48159,op:299,dt:2,nt:9,next:65535,nextCheck:65535,str:34686,h:0,d0:0,d1:0;))
+            (____, Scope<Void> @:22700 check:48160,op:4,dt:4,nt:8,next:22704,nextCheck:48164,str:41031,h:3,d0:22701,d1:48161;
+                ("set", Expression<MethodOrOperator> @:22701 check:48161,op:4,dt:2,nt:9,next:22702,nextCheck:48162,str:2575,h:0,d0:0,d1:0;
+                    ("g_hall_a", VariableAccess<Boolean> @:22702 check:48162,op:65535,dt:5,nt:13,next:22703,nextCheck:48163,str:27760,h:0,d0:11,d1:0;
+                        (True, Expression<Boolean> @:22703 check:48163,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:41045,h:3,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:22704 check:48164,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:41050,h:3,d0:22705,d1:48165;
+                ("set", Expression<MethodOrOperator> @:22705 check:48165,op:4,dt:2,nt:9,next:22706,nextCheck:48166,str:2575,h:0,d0:0,d1:0;
+                    ("g_conduit_a", VariableAccess<Boolean> @:22706 check:48166,op:65535,dt:5,nt:13,next:22707,nextCheck:48167,str:27898,h:0,d0:12,d1:0;
+                        (True, Expression<Boolean> @:22707 check:48167,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:41067,h:3,d0:65281,d1:65535;)))))))

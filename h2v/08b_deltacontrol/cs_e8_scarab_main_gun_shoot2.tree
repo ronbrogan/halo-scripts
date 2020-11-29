@@ -1,0 +1,29 @@
+
+("cs_e8_scarab_main_gun_shoot2", MethodDecl<Void> @:412 check:0,op:0,dt:0,nt:65535,next:15380,nextCheck:40840,str:33730,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:15380 check:40840,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:61615,h:2,d0:15381,d1:40841;
+        ("begin", Expression<MethodOrOperator> @:15381 check:40841,op:0,dt:2,nt:9,next:15355,nextCheck:40815,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:15355 check:40815,op:406,dt:4,nt:8,next:15359,nextCheck:40819,str:61669,h:2,d0:15356,d1:40816;
+                ("cs_shoot_point", Expression<MethodOrOperator> @:15356 check:40816,op:406,dt:2,nt:9,next:15357,nextCheck:40817,str:27046,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15357 check:40817,op:5,dt:5,nt:9,next:15358,nextCheck:40818,str:61685,h:2,d0:65281,d1:65535;
+                        ("e8_scarab_gunners/p2", Expression<SpatialPoint> @:15358 check:40818,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:33229,h:0,d0:2,d1:19;))))
+            (____, Scope<Void> @:15359 check:40819,op:19,dt:4,nt:8,next:15362,nextCheck:40822,str:61714,h:2,d0:15360,d1:40820;
+                ("sleep", Expression<MethodOrOperator> @:15360 check:40820,op:19,dt:2,nt:9,next:15361,nextCheck:40821,str:85,h:0,d0:0,d1:0;
+                    (75, Expression<Short> @:15361 check:40821,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:61721,h:2,d0:75,d1:65535;)))
+            (____, Scope<Void> @:15362 check:40822,op:2,dt:4,nt:8,next:15377,nextCheck:40837,str:61727,h:2,d0:15363,d1:40823;
+                ("if", Expression<MethodOrOperator> @:15363 check:40823,op:2,dt:2,nt:9,next:15364,nextCheck:40824,str:461,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:15364 check:40824,op:33,dt:5,nt:8,next:15369,nextCheck:40829,str:61731,h:2,d0:15365,d1:40825;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:15365 check:40825,op:33,dt:2,nt:9,next:15366,nextCheck:40826,str:4732,h:0,d0:0,d1:0;
+                            ("tv_e8_scarab_fire_unsafe", Expression<Trigger> @:15366 check:40826,op:13,dt:13,nt:9,next:15367,nextCheck:40827,str:33156,h:0,d0:68,d1:0;
+                                (____, Scope<List> @:15367 check:40827,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:61777,h:2,d0:15368,d1:40828;
+                                    ("players", Expression<MethodOrOperator> @:15368 check:40828,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                    (____, Scope<Void> @:15369 check:40829,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:61791,h:2,d0:15370,d1:40830;
+                        ("begin", Expression<MethodOrOperator> @:15370 check:40830,op:0,dt:2,nt:9,next:15371,nextCheck:40831,str:6,h:0,d0:0,d1:0;
+                            ("scarab_gun_fire_down_abort", ScriptInvocation<Void> @:15371 check:40831,op:337,dt:4,nt:10,next:15373,nextCheck:40833,str:61802,h:2,d0:15372,d1:40832;
+                                ("scarab_gun_fire_down_abort", Expression<MethodOrOperator> @:15372 check:40832,op:337,dt:2,nt:9,next:65535,nextCheck:65535,str:33181,h:0,d0:0,d1:0;))
+                            (____, Scope<Void> @:15373 check:40833,op:406,dt:4,nt:8,next:65535,nextCheck:65535,str:61835,h:2,d0:15374,d1:40834;
+                                ("cs_shoot_point", Expression<MethodOrOperator> @:15374 check:40834,op:406,dt:2,nt:9,next:15375,nextCheck:40835,str:27046,h:0,d0:0,d1:0;
+                                    (False, Expression<Boolean> @:15375 check:40835,op:5,dt:5,nt:9,next:15376,nextCheck:40836,str:61851,h:2,d0:65280,d1:65535;
+                                        ("e8_scarab_gunners/p2", Expression<SpatialPoint> @:15376 check:40836,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:33229,h:0,d0:2,d1:19;))))))))
+            (____, Scope<Void> @:15377 check:40837,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:61890,h:2,d0:15378,d1:40838;
+                ("sleep", Expression<MethodOrOperator> @:15378 check:40838,op:19,dt:2,nt:9,next:15379,nextCheck:40839,str:85,h:0,d0:0,d1:0;
+                    (90, Expression<Short> @:15379 check:40839,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:61897,h:2,d0:90,d1:65535;))))))

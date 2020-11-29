@@ -1,0 +1,10 @@
+
+("sleep_control_return", MethodDecl<Void> @:372 check:0,op:0,dt:0,nt:65535,next:31401,nextCheck:56861,str:39197,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:31401 check:56861,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:38254,h:4,d0:31402,d1:56862;
+        ("begin", Expression<MethodOrOperator> @:31402 check:56862,op:0,dt:2,nt:9,next:31395,nextCheck:56855,str:210,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:31395 check:56855,op:20,dt:4,nt:8,next:31398,nextCheck:56858,str:38297,h:4,d0:31396,d1:56856;
+                ("sleep_forever", Expression<MethodOrOperator> @:31396 check:56856,op:20,dt:2,nt:9,next:31397,nextCheck:56857,str:9653,h:0,d0:0,d1:0;
+                    ("control_room_return", Expression<ScriptReference> @:31397 check:56857,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:38671,h:0,d0:278,d1:65535;)))
+            (____, Scope<Void> @:31398 check:56858,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:38335,h:4,d0:31399,d1:56859;
+                ("sleep_forever", Expression<MethodOrOperator> @:31399 check:56859,op:20,dt:2,nt:9,next:31400,nextCheck:56860,str:9653,h:0,d0:0,d1:0;
+                    ("control_return_flood_spawn", Expression<ScriptReference> @:31400 check:56860,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:28508,h:0,d0:276,d1:65535;))))))

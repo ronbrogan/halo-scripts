@@ -1,0 +1,30 @@
+
+("e10_sanctum_lift_recall", MethodDecl<Void> @:179 check:0,op:0,dt:0,nt:65535,next:6435,nextCheck:64662,str:16807,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:6435 check:64662,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:16933,h:1,d0:6436,d1:64663;
+        ("begin", Expression<MethodOrOperator> @:6436 check:64663,op:0,dt:2,nt:9,next:6409,nextCheck:64636,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:6409 check:64636,op:21,dt:4,nt:8,next:6418,nextCheck:64645,str:16975,h:1,d0:6410,d1:64637;
+                ("sleep_until", Expression<MethodOrOperator> @:6410 check:64637,op:21,dt:2,nt:9,next:6411,nextCheck:64638,str:231,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:6411 check:64638,op:18,dt:5,nt:8,next:6417,nextCheck:64644,str:16988,h:1,d0:6412,d1:64639;
+                        ("<=", Expression<MethodOrOperator> @:6412 check:64639,op:18,dt:2,nt:9,next:6413,nextCheck:64640,str:14330,h:0,d0:0,d1:0;
+                            (-5.362516E+36f, Scope<Float> @:6413 check:64640,op:257,dt:6,nt:8,next:6416,nextCheck:64643,str:16992,h:1,d0:6414,d1:64641;
+                                ("device_get_position", Expression<MethodOrOperator> @:6414 check:64641,op:257,dt:2,nt:9,next:6415,nextCheck:64642,str:16232,h:0,d0:0,d1:0;
+                                    ("sanctum_lift", Expression<Device> @:6415 check:64642,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:9547,h:0,d0:158,d1:65535;)))
+                            (1f, Expression<Float> @:6416 check:64643,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:17027,h:1,d0:0,d1:16256;)))
+                    (10, Expression<Short> @:6417 check:64644,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17030,h:1,d0:10,d1:65535;)))
+            (____, Scope<Void> @:6418 check:64645,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:17036,h:1,d0:6419,d1:64646;
+                ("sleep_until", Expression<MethodOrOperator> @:6419 check:64646,op:21,dt:2,nt:9,next:6420,nextCheck:64647,str:231,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:6420 check:64647,op:0,dt:5,nt:8,next:6434,nextCheck:64661,str:17052,h:1,d0:6421,d1:64648;
+                        ("begin", Expression<MethodOrOperator> @:6421 check:64648,op:0,dt:2,nt:9,next:6422,nextCheck:64649,str:1,h:0,d0:0,d1:0;
+                            (____, Scope<Void> @:6422 check:64649,op:2,dt:4,nt:8,next:6433,nextCheck:64660,str:17127,h:1,d0:6423,d1:64650;
+                                ("if", Expression<MethodOrOperator> @:6423 check:64650,op:2,dt:2,nt:9,next:6424,nextCheck:64651,str:456,h:0,d0:0,d1:0;
+                                    (____, Scope<Boolean> @:6424 check:64651,op:33,dt:5,nt:8,next:6429,nextCheck:64656,str:17131,h:1,d0:6425,d1:64652;
+                                        ("volume_test_objects", Expression<MethodOrOperator> @:6425 check:64652,op:33,dt:2,nt:9,next:6426,nextCheck:64653,str:13534,h:0,d0:0,d1:0;
+                                            ("tv_sanctum_lift", Expression<Trigger> @:6426 check:64653,op:13,dt:13,nt:9,next:6427,nextCheck:64654,str:16252,h:0,d0:71,d1:0;
+                                                (____, Scope<List> @:6427 check:64654,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:17168,h:1,d0:6428,d1:64655;
+                                                    ("players", Expression<MethodOrOperator> @:6428 check:64655,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:21,h:0,d0:0,d1:0;)))))
+                                    (____, Scope<Void> @:6429 check:64656,op:256,dt:4,nt:8,next:65535,nextCheck:65535,str:17184,h:1,d0:6430,d1:64657;
+                                        ("device_set_position", Expression<MethodOrOperator> @:6430 check:64657,op:256,dt:2,nt:9,next:6431,nextCheck:64658,str:15691,h:0,d0:0,d1:0;
+                                            ("sanctum_lift", Expression<Device> @:6431 check:64658,op:60,dt:54,nt:9,next:6432,nextCheck:64659,str:9547,h:0,d0:158,d1:65535;
+                                                (1f, Expression<Float> @:6432 check:64659,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:17218,h:1,d0:0,d1:16256;))))))
+                            (False, Expression<Boolean> @:6433 check:64660,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:17275,h:1,d0:65280,d1:65535;)))
+                    (31, Expression<Short> @:6434 check:64661,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17289,h:1,d0:31,d1:65535;))))))

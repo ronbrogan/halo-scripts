@@ -1,0 +1,40 @@
+
+("key_ride_door0_main", MethodDecl<Void> @:214 op:0,dt:0,nt:65535,next:9505,str:19978,d0:0,d1:0;
+    (____, Scope<Void> @:9505 op:0,dt:4,nt:8,next:65535,str:40539,d0:9506,d1:34966;
+        ("begin", Expression<MethodOrOperator> @:9506 op:0,dt:2,nt:9,next:9469,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:9469 op:27,dt:4,nt:8,next:9472,str:40595,d0:9470,d1:34930;
+                ("print", Expression<MethodOrOperator> @:9470 op:27,dt:2,nt:9,next:9471,str:91,d0:0,d1:0;
+                    ("key_ride_door0 begins to open", Expression<String> @:9471 op:9,dt:9,nt:9,next:65535,str:19855,d0:19855,d1:0;)))
+            (____, Scope<Void> @:9472 op:258,dt:4,nt:8,next:9476,str:40637,d0:9473,d1:34933;
+                ("device_set_position_immediate", Expression<MethodOrOperator> @:9473 op:258,dt:2,nt:9,next:9474,str:19885,d0:0,d1:0;
+                    ("key_ride_door0", Expression<Device> @:9474 op:60,dt:54,nt:9,next:9475,str:5019,d0:52,d1:65535;
+                        (0.32f, Expression<Float> @:9475 op:6,dt:6,nt:9,next:65535,str:40683,d0:55050,d1:16035;))))
+            (____, Scope<Void> @:9476 op:264,dt:4,nt:8,next:9480,str:40691,d0:9477,d1:34937;
+                ("device_closes_automatically_set", Expression<MethodOrOperator> @:9477 op:264,dt:2,nt:9,next:9478,str:19915,d0:0,d1:0;
+                    ("key_ride_door0", Expression<Device> @:9478 op:60,dt:54,nt:9,next:9479,str:5019,d0:52,d1:65535;
+                        (False, Expression<Boolean> @:9479 op:5,dt:5,nt:9,next:65535,str:40739,d0:65280,d1:65535;))))
+            (____, Scope<Void> @:9480 op:256,dt:4,nt:8,next:9484,str:40748,d0:9481,d1:34941;
+                ("device_set_position", Expression<MethodOrOperator> @:9481 op:256,dt:2,nt:9,next:9482,str:4999,d0:0,d1:0;
+                    ("key_ride_door0", Expression<Device> @:9482 op:60,dt:54,nt:9,next:9483,str:5019,d0:52,d1:65535;
+                        (1f, Expression<Float> @:9483 op:6,dt:6,nt:9,next:65535,str:40784,d0:0,d1:16256;))))
+            (____, Scope<Void> @:9484 op:20,dt:4,nt:8,next:9486,str:40826,d0:9485,d1:34945;
+                ("sleep_forever", Expression<MethodOrOperator> @:9485 op:20,dt:2,nt:9,next:65535,str:17435,d0:0,d1:0;))
+            (____, Scope<Void> @:9486 op:21,dt:4,nt:8,next:9495,str:40844,d0:9487,d1:34947;
+                ("sleep_until", Expression<MethodOrOperator> @:9487 op:21,dt:2,nt:9,next:9488,str:236,d0:0,d1:0;
+                    (____, Scope<Boolean> @:9488 op:17,dt:5,nt:8,next:9494,str:40857,d0:9489,d1:34949;
+                        (">=", Expression<MethodOrOperator> @:9489 op:17,dt:2,nt:9,next:9490,str:676,d0:0,d1:0;
+                            (-8.133733E-34f, Scope<Float> @:9490 op:257,dt:6,nt:8,next:9493,str:40861,d0:9491,d1:34951;
+                                ("device_get_position", Expression<MethodOrOperator> @:9491 op:257,dt:2,nt:9,next:9492,str:19573,d0:0,d1:0;
+                                    ("key_ride_door0", Expression<Device> @:9492 op:60,dt:54,nt:9,next:65535,str:5019,d0:52,d1:65535;)))
+                            (0.9f, Expression<Float> @:9493 op:6,dt:6,nt:9,next:65535,str:40898,d0:26214,d1:16230;)))
+                    (10, Expression<Short> @:9494 op:7,dt:7,nt:9,next:65535,str:40903,d0:10,d1:65535;)))
+            (____, Scope<Void> @:9495 op:19,dt:4,nt:8,next:9498,str:40909,d0:9496,d1:34956;
+                ("sleep", Expression<MethodOrOperator> @:9496 op:19,dt:2,nt:9,next:9497,str:85,d0:0,d1:0;
+                    (540, Expression<Short> @:9497 op:7,dt:7,nt:9,next:65535,str:40916,d0:540,d1:65535;)))
+            (____, Scope<Void> @:9498 op:27,dt:4,nt:8,next:9501,str:40944,d0:9499,d1:34959;
+                ("print", Expression<MethodOrOperator> @:9499 op:27,dt:2,nt:9,next:9500,str:91,d0:0,d1:0;
+                    ("key_ride_door0 begins to close", Expression<String> @:9500 op:9,dt:9,nt:9,next:65535,str:19947,d0:19947,d1:0;)))
+            (____, Scope<Void> @:9501 op:256,dt:4,nt:8,next:65535,str:40987,d0:9502,d1:34962;
+                ("device_set_position", Expression<MethodOrOperator> @:9502 op:256,dt:2,nt:9,next:9503,str:4999,d0:0,d1:0;
+                    ("key_ride_door0", Expression<Device> @:9503 op:60,dt:54,nt:9,next:9504,str:5019,d0:52,d1:65535;
+                        (0f, Expression<Float> @:9504 op:6,dt:6,nt:9,next:65535,str:41023,d0:0,d1:0;)))))))

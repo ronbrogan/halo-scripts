@@ -1,0 +1,27 @@
+
+("e23_ultra_dialogue", MethodDecl<Void> @:258 op:0,dt:0,nt:65535,next:8240,str:17378,d0:0,d1:0;
+    (____, Scope<Void> @:8240 op:0,dt:4,nt:8,next:65535,str:38177,d0:8241,d1:33701;
+        ("begin", Expression<MethodOrOperator> @:8241 op:0,dt:2,nt:9,next:8217,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:8217 op:21,dt:4,nt:8,next:8225,str:38258,d0:8218,d1:33678;
+                ("sleep_until", Expression<MethodOrOperator> @:8218 op:21,dt:2,nt:9,next:8219,str:236,d0:0,d1:0;
+                    (____, Scope<Boolean> @:8219 op:17,dt:5,nt:8,next:65535,str:38275,d0:8220,d1:33680;
+                        (">=", Expression<MethodOrOperator> @:8220 op:17,dt:2,nt:9,next:8221,str:676,d0:0,d1:0;
+                            (____, Scope<Short> @:8221 op:353,dt:7,nt:8,next:8224,str:38279,d0:8222,d1:33682;
+                                ("ai_combat_status", Expression<MethodOrOperator> @:8222 op:353,dt:2,nt:9,next:8223,str:17157,d0:0,d1:0;
+                                    ("e23_cov_inf1_0", Expression<AI> @:8223 op:19,dt:19,nt:9,next:65535,str:17174,d0:89,d1:0;)))
+                            ("ai_combat_status_clear_los", VariableAccess<Short> @:8224 op:7,dt:7,nt:13,next:65535,str:17189,d0:33579,d1:65535;)))))
+            (____, Scope<Void> @:8225 op:21,dt:4,nt:8,next:8233,str:38397,d0:8226,d1:33686;
+                ("sleep_until", Expression<MethodOrOperator> @:8226 op:21,dt:2,nt:9,next:8227,str:236,d0:0,d1:0;
+                    (____, Scope<Boolean> @:8227 op:18,dt:5,nt:8,next:65535,str:38414,d0:8228,d1:33688;
+                        ("<=", Expression<MethodOrOperator> @:8228 op:18,dt:2,nt:9,next:8229,str:17216,d0:0,d1:0;
+                            (____, Scope<Short> @:8229 op:353,dt:7,nt:8,next:8232,str:38418,d0:8230,d1:33690;
+                                ("ai_combat_status", Expression<MethodOrOperator> @:8230 op:353,dt:2,nt:9,next:8231,str:17157,d0:0,d1:0;
+                                    ("e23_cov_inf1_0", Expression<AI> @:8231 op:19,dt:19,nt:9,next:65535,str:17174,d0:89,d1:0;)))
+                            ("ai_combat_status_active", VariableAccess<Short> @:8232 op:7,dt:7,nt:13,next:65535,str:17219,d0:33574,d1:65535;)))))
+            (____, Scope<Void> @:8233 op:27,dt:4,nt:8,next:8236,str:38496,d0:8234,d1:33694;
+                ("print", Expression<MethodOrOperator> @:8234 op:27,dt:2,nt:9,next:8235,str:91,d0:0,d1:0;
+                    ("cortana: careful chief, that elite was an ultra! and those pilots are no pushovers either!!", Expression<String> @:8235 op:9,dt:9,nt:9,next:65535,str:17243,d0:17243,d1:0;)))
+            (____, Scope<Void> @:8236 op:362,dt:4,nt:8,next:65535,str:38600,d0:8237,d1:33697;
+                ("ai_play_line_on_object", Expression<MethodOrOperator> @:8237 op:362,dt:2,nt:9,next:8238,str:16995,d0:0,d1:0;
+                    (4294967295, Expression<Entity> @:8238 op:50,dt:50,nt:9,next:8239,str:1,d0:65535,d1:65535;
+                        ("2050", Expression<StringId> @:8239 op:11,dt:11,nt:9,next:65535,str:17335,d0:13468,d1:1024;)))))))

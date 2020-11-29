@@ -1,0 +1,21 @@
+
+("cs_e2_cov_inf0_watch", MethodDecl<Void> @:367 check:0,op:0,dt:0,nt:65535,next:15076,nextCheck:40536,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:15076 check:40536,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:54757,h:2,d0:15077,d1:40537;
+        ("begin", Expression<MethodOrOperator> @:15077 check:40537,op:0,dt:2,nt:9,next:15059,nextCheck:40519,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:15059 check:40519,op:440,dt:4,nt:8,next:15062,nextCheck:40522,str:54803,h:2,d0:15060,d1:40520;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:15060 check:40520,op:440,dt:2,nt:9,next:15061,nextCheck:40521,str:14820,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15061 check:40521,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:54823,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:15062 check:40522,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:54852,h:2,d0:15063,d1:40523;
+                ("sleep_until", Expression<MethodOrOperator> @:15063 check:40523,op:21,dt:2,nt:9,next:15064,nextCheck:40524,str:294,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:15064 check:40524,op:6,dt:5,nt:8,next:15075,nextCheck:40535,str:54868,h:2,d0:15065,d1:40525;
+                        ("or", Expression<MethodOrOperator> @:15065 check:40525,op:6,dt:2,nt:9,next:15066,nextCheck:40526,str:907,h:0,d0:0,d1:0;
+                            (____, Scope<Boolean> @:15066 check:40526,op:33,dt:5,nt:8,next:15071,nextCheck:40531,str:54876,h:2,d0:15067,d1:40527;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:15067 check:40527,op:33,dt:2,nt:9,next:15068,nextCheck:40528,str:10884,h:0,d0:0,d1:0;
+                                    ("tv_e2_hunters_bypassed", Expression<Trigger> @:15068 check:40528,op:13,dt:13,nt:9,next:15069,nextCheck:40529,str:24773,h:0,d0:14,d1:0;
+                                        (____, Scope<List> @:15069 check:40529,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:54920,h:2,d0:15070,d1:40530;
+                                            ("players", Expression<MethodOrOperator> @:15070 check:40530,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:84,h:0,d0:0,d1:0;)))))
+                            (____, Scope<Boolean> @:15071 check:40531,op:337,dt:5,nt:8,next:65535,nextCheck:65535,str:54935,h:2,d0:15072,d1:40532;
+                                ("ai_trigger_test", Expression<MethodOrOperator> @:15072 check:40532,op:337,dt:2,nt:9,next:15073,nextCheck:40533,str:21712,h:0,d0:0,d1:0;
+                                    ("e2_cov_hunters0_active", Expression<String> @:15073 check:40533,op:9,dt:9,nt:9,next:15074,nextCheck:40534,str:24796,h:0,d0:52388,d1:12404;
+                                        ("e2_cov_hunters0", Expression<AI> @:15074 check:40534,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:24079,h:0,d0:31,d1:0;))))))
+                    (15, Expression<Short> @:15075 check:40535,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55000,h:2,d0:15,d1:65535;))))))

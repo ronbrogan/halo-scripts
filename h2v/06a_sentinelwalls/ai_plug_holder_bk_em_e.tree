@@ -1,0 +1,26 @@
+
+("ai_plug_holder_bk_em_e", MethodDecl<Void> @:290 check:0,op:0,dt:0,nt:65535,next:13460,nextCheck:38920,str:23441,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:13460 check:38920,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:4786,h:2,d0:13461,d1:38921;
+        ("begin", Expression<MethodOrOperator> @:13461 check:38921,op:0,dt:2,nt:9,next:13438,nextCheck:38898,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:13438 check:38898,op:2,dt:4,nt:8,next:13444,nextCheck:38904,str:4831,h:2,d0:13439,d1:38899;
+                ("if", Expression<MethodOrOperator> @:13439 check:38899,op:2,dt:2,nt:9,next:13440,nextCheck:38900,str:456,h:0,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:13440 check:38900,op:5,dt:5,nt:13,next:13441,nextCheck:38901,str:11180,h:0,d0:3,d1:0;
+                        (____, Scope<Void> @:13441 check:38901,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:4841,h:2,d0:13442,d1:38902;
+                            ("print", Expression<MethodOrOperator> @:13442 check:38902,op:27,dt:2,nt:9,next:13443,nextCheck:38903,str:86,h:0,d0:0,d1:0;
+                                ("e back", Expression<String> @:13443 check:38903,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:23077,h:0,d0:2253,d1:12465;))))))
+            (____, Scope<Void> @:13444 check:38904,op:290,dt:4,nt:8,next:13447,nextCheck:38907,str:4861,h:2,d0:13445,d1:38905;
+                ("ai_place", Expression<MethodOrOperator> @:13445 check:38905,op:290,dt:2,nt:9,next:13446,nextCheck:38906,str:1415,h:0,d0:0,d1:0;
+                    ("plug_holder_bk_sen/e", Expression<AI> @:13446 check:38906,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:23084,h:0,d0:4,d1:49174;)))
+            (____, Scope<Void> @:13447 check:38907,op:4,dt:4,nt:8,next:13454,nextCheck:38914,str:4895,h:2,d0:13448,d1:38908;
+                ("set", Expression<MethodOrOperator> @:13448 check:38908,op:4,dt:2,nt:9,next:13449,nextCheck:38909,str:2575,h:0,d0:0,d1:0;
+                    ("g_plug_holder_bk_count", VariableAccess<Short> @:13449 check:38909,op:65535,dt:7,nt:13,next:13450,nextCheck:38910,str:22970,h:0,d0:84,d1:0;
+                        (____, Scope<Short> @:13450 check:38910,op:7,dt:7,nt:8,next:65535,nextCheck:65535,str:4923,h:2,d0:13451,d1:38911;
+                            ("+", Expression<MethodOrOperator> @:13451 check:38911,op:7,dt:2,nt:9,next:13452,nextCheck:38912,str:983,h:0,d0:0,d1:0;
+                                ("g_plug_holder_bk_count", VariableAccess<Float> @:13452 check:38912,op:6,dt:6,nt:13,next:13453,nextCheck:38913,str:22970,h:0,d0:84,d1:0;
+                                    (1f, Expression<Float> @:13453 check:38913,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:4949,h:2,d0:0,d1:16256;)))))))
+            (____, Scope<Void> @:13454 check:38914,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:4955,h:2,d0:13455,d1:38915;
+                ("sleep", Expression<MethodOrOperator> @:13455 check:38915,op:19,dt:2,nt:9,next:13456,nextCheck:38916,str:80,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:13456 check:38916,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:4962,h:2,d0:13457,d1:38917;
+                        ("random_range", Expression<MethodOrOperator> @:13457 check:38917,op:124,dt:2,nt:9,next:13458,nextCheck:38918,str:17579,h:0,d0:0,d1:0;
+                            ("g_sleep_lower_bound", VariableAccess<Short> @:13458 check:38918,op:7,dt:7,nt:13,next:13459,nextCheck:38919,str:10859,h:0,d0:6,d1:0;
+                                ("g_sleep_upper_bound", VariableAccess<Short> @:13459 check:38919,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:10879,h:0,d0:7,d1:0;)))))))))

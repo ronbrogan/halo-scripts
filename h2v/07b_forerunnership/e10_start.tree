@@ -1,0 +1,33 @@
+
+("e10_start", MethodDecl<Void> @:183 check:0,op:0,dt:0,nt:65535,next:6624,nextCheck:64851,str:16880,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:6624 check:64851,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:19124,h:1,d0:6625,d1:64852;
+        ("begin", Expression<MethodOrOperator> @:6625 check:64852,op:0,dt:2,nt:9,next:6595,nextCheck:64822,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:6595 check:64822,op:22,dt:4,nt:8,next:6598,nextCheck:64825,str:19152,h:1,d0:6596,d1:64823;
+                ("wake", Expression<MethodOrOperator> @:6596 check:64823,op:22,dt:2,nt:9,next:6597,nextCheck:64824,str:1066,h:0,d0:0,d1:0;
+                    ("e10_battle", Expression<ScriptReference> @:6597 check:64824,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:16715,h:0,d0:181,d1:65535;)))
+            (____, Scope<Void> @:6598 check:64825,op:22,dt:4,nt:8,next:6601,nextCheck:64828,str:19172,h:1,d0:6599,d1:64826;
+                ("wake", Expression<MethodOrOperator> @:6599 check:64826,op:22,dt:2,nt:9,next:6600,nextCheck:64827,str:1066,h:0,d0:0,d1:0;
+                    ("e10_end_open", Expression<ScriptReference> @:6600 check:64827,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:16726,h:0,d0:175,d1:65535;)))
+            (____, Scope<Void> @:6601 check:64828,op:22,dt:4,nt:8,next:6604,nextCheck:64831,str:19194,h:1,d0:6602,d1:64829;
+                ("wake", Expression<MethodOrOperator> @:6602 check:64829,op:22,dt:2,nt:9,next:6603,nextCheck:64830,str:1066,h:0,d0:0,d1:0;
+                    ("e10_talking_points", Expression<ScriptReference> @:6603 check:64830,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:16739,h:0,d0:182,d1:65535;)))
+            (____, Scope<Void> @:6604 check:64831,op:21,dt:4,nt:8,next:6612,nextCheck:64839,str:19222,h:1,d0:6605,d1:64832;
+                ("sleep_until", Expression<MethodOrOperator> @:6605 check:64832,op:21,dt:2,nt:9,next:6606,nextCheck:64833,str:231,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:6606 check:64833,op:34,dt:5,nt:8,next:6611,nextCheck:64838,str:19235,h:1,d0:6607,d1:64834;
+                        ("volume_test_objects_all", Expression<MethodOrOperator> @:6607 check:64834,op:34,dt:2,nt:9,next:6608,nextCheck:64835,str:14770,h:0,d0:0,d1:0;
+                            ("tv_e10_trigger1", Expression<Trigger> @:6608 check:64835,op:13,dt:13,nt:9,next:6609,nextCheck:64836,str:16453,h:0,d0:48,d1:0;
+                                (____, Scope<List> @:6609 check:64836,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:19276,h:1,d0:6610,d1:64837;
+                                    ("players", Expression<MethodOrOperator> @:6610 check:64837,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:21,h:0,d0:0,d1:0;)))))
+                    (15, Expression<Short> @:6611 check:64838,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:19287,h:1,d0:15,d1:65535;)))
+            (____, Scope<Void> @:6612 check:64839,op:19,dt:4,nt:8,next:6618,nextCheck:64845,str:19389,h:1,d0:6613,d1:64840;
+                ("sleep", Expression<MethodOrOperator> @:6613 check:64840,op:19,dt:2,nt:9,next:6614,nextCheck:64841,str:80,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:6614 check:64841,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:19396,h:1,d0:6615,d1:64842;
+                        ("random_range", Expression<MethodOrOperator> @:6615 check:64842,op:124,dt:2,nt:9,next:6616,nextCheck:64843,str:14297,h:0,d0:0,d1:0;
+                            (150, Expression<Short> @:6616 check:64843,op:7,dt:7,nt:9,next:6617,nextCheck:64844,str:19410,h:1,d0:150,d1:65535;
+                                (240, Expression<Short> @:6617 check:64844,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:19414,h:1,d0:240,d1:65535;))))))
+            (____, Scope<Void> @:6618 check:64845,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:19453,h:1,d0:6619,d1:64846;
+                ("sleep", Expression<MethodOrOperator> @:6619 check:64846,op:19,dt:2,nt:9,next:6620,nextCheck:64847,str:80,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:6620 check:64847,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:19460,h:1,d0:6621,d1:64848;
+                        ("random_range", Expression<MethodOrOperator> @:6621 check:64848,op:124,dt:2,nt:9,next:6622,nextCheck:64849,str:14297,h:0,d0:0,d1:0;
+                            (90, Expression<Short> @:6622 check:64849,op:7,dt:7,nt:9,next:6623,nextCheck:64850,str:19474,h:1,d0:90,d1:65535;
+                                (150, Expression<Short> @:6623 check:64850,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:19477,h:1,d0:150,d1:65535;)))))))))

@@ -1,0 +1,34 @@
+
+("e4_music", MethodDecl<Void> @:470 op:0,dt:0,nt:65535,next:18822,str:38152,d0:0,d1:0;
+    (____, Scope<Void> @:18822 op:0,dt:4,nt:8,next:65535,str:50870,d0:18823,d1:44283;
+        ("begin", Expression<MethodOrOperator> @:18823 op:0,dt:2,nt:9,next:18792,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:18792 op:21,dt:4,nt:8,next:18800,str:50897,d0:18793,d1:44253;
+                ("sleep_until", Expression<MethodOrOperator> @:18793 op:21,dt:2,nt:9,next:18794,str:236,d0:0,d1:0;
+                    (____, Scope<Boolean> @:18794 op:33,dt:5,nt:8,next:18799,str:50910,d0:18795,d1:44255;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:18795 op:33,dt:2,nt:9,next:18796,str:4732,d0:0,d1:0;
+                            ("tv_e4_halfway", Expression<Trigger> @:18796 op:13,dt:13,nt:9,next:18797,str:37846,d0:76,d1:0;
+                                (____, Scope<List> @:18797 op:28,dt:31,nt:8,next:65535,str:50945,d0:18798,d1:44258;
+                                    ("players", Expression<MethodOrOperator> @:18798 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))
+                    (15, Expression<Short> @:18799 op:7,dt:7,nt:9,next:65535,str:50956,d0:15,d1:65535;)))
+            (____, Scope<Void> @:18800 op:22,dt:4,nt:8,next:18803,str:50962,d0:18801,d1:44261;
+                ("wake", Expression<MethodOrOperator> @:18801 op:22,dt:2,nt:9,next:18802,str:5851,d0:0,d1:0;
+                    ("music_08b_04_start", Expression<ScriptReference> @:18802 op:10,dt:10,nt:9,next:65535,str:37860,d0:291,d1:65535;)))
+            (____, Scope<Void> @:18803 op:19,dt:4,nt:8,next:18806,str:50990,d0:18804,d1:44264;
+                ("sleep", Expression<MethodOrOperator> @:18804 op:19,dt:2,nt:9,next:18805,str:85,d0:0,d1:0;
+                    (2, Expression<Short> @:18805 op:7,dt:7,nt:9,next:65535,str:50997,d0:2,d1:65535;)))
+            (____, Scope<Void> @:18806 op:587,dt:4,nt:8,next:18808,str:51002,d0:18807,d1:44267;
+                ("game_save", Expression<MethodOrOperator> @:18807 op:587,dt:2,nt:9,next:65535,str:26315,d0:0,d1:0;))
+            (____, Scope<Void> @:18808 op:21,dt:4,nt:8,next:18816,str:51019,d0:18809,d1:44269;
+                ("sleep_until", Expression<MethodOrOperator> @:18809 op:21,dt:2,nt:9,next:18810,str:236,d0:0,d1:0;
+                    (____, Scope<Boolean> @:18810 op:33,dt:5,nt:8,next:18815,str:51032,d0:18811,d1:44271;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:18811 op:33,dt:2,nt:9,next:18812,str:4732,d0:0,d1:0;
+                            ("tv_e4_main_shutdown", Expression<Trigger> @:18812 op:13,dt:13,nt:9,next:18813,str:37879,d0:25,d1:0;
+                                (____, Scope<List> @:18813 op:28,dt:31,nt:8,next:65535,str:51073,d0:18814,d1:44274;
+                                    ("players", Expression<MethodOrOperator> @:18814 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))
+                    (15, Expression<Short> @:18815 op:7,dt:7,nt:9,next:65535,str:51084,d0:15,d1:65535;)))
+            (____, Scope<Void> @:18816 op:22,dt:4,nt:8,next:18819,str:51090,d0:18817,d1:44277;
+                ("wake", Expression<MethodOrOperator> @:18817 op:22,dt:2,nt:9,next:18818,str:5851,d0:0,d1:0;
+                    ("music_08b_03_stop", Expression<ScriptReference> @:18818 op:10,dt:10,nt:9,next:65535,str:37899,d0:288,d1:65535;)))
+            (____, Scope<Void> @:18819 op:22,dt:4,nt:8,next:65535,str:51117,d0:18820,d1:44280;
+                ("wake", Expression<MethodOrOperator> @:18820 op:22,dt:2,nt:9,next:18821,str:5851,d0:0,d1:0;
+                    ("music_08b_04_stop", Expression<ScriptReference> @:18821 op:10,dt:10,nt:9,next:65535,str:37917,d0:290,d1:65535;))))))

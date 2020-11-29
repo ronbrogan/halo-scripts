@@ -1,0 +1,32 @@
+
+("cs_guns_zapper_prompt", MethodDecl<Void> @:40 op:0,dt:0,nt:65535,next:1271,str:3506,d0:0,d1:0;
+    (____, Scope<Void> @:1271 op:0,dt:4,nt:8,next:65535,str:13234,d0:1272,d1:59499;
+        ("begin", Expression<MethodOrOperator> @:1272 op:0,dt:2,nt:9,next:1243,str:11,d0:0,d1:0;
+            (____, Scope<Void> @:1243 op:448,dt:4,nt:8,next:1246,str:13281,d0:1244,d1:59471;
+                ("cs_force_combat_status", Expression<MethodOrOperator> @:1244 op:448,dt:2,nt:9,next:1245,str:1430,d0:0,d1:0;
+                    (2, Expression<Short> @:1245 op:7,dt:7,nt:9,next:65535,str:13305,d0:2,d1:65535;)))
+            (____, Scope<Void> @:1246 op:444,dt:4,nt:8,next:1249,str:13310,d0:1247,d1:59474;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:1247 op:444,dt:2,nt:9,next:1248,str:1453,d0:0,d1:0;
+                    (False, Expression<Boolean> @:1248 op:5,dt:5,nt:9,next:65535,str:13328,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:1249 op:449,dt:4,nt:8,next:1252,str:13333,d0:1250,d1:59477;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:1250 op:449,dt:2,nt:9,next:1251,str:1470,d0:0,d1:0;
+                    (True, Expression<Boolean> @:1251 op:5,dt:5,nt:9,next:65535,str:13365,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:1252 op:400,dt:4,nt:8,next:1255,str:13370,d0:1253,d1:59480;
+                ("cs_face_player", Expression<MethodOrOperator> @:1253 op:400,dt:2,nt:9,next:1254,str:1194,d0:0,d1:0;
+                    (True, Expression<Boolean> @:1254 op:5,dt:5,nt:9,next:65535,str:13386,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:1255 op:19,dt:4,nt:8,next:1258,str:13391,d0:1256,d1:59483;
+                ("sleep", Expression<MethodOrOperator> @:1256 op:19,dt:2,nt:9,next:1257,str:90,d0:0,d1:0;
+                    (90, Expression<Short> @:1257 op:7,dt:7,nt:9,next:65535,str:13398,d0:90,d1:65535;)))
+            (____, Scope<Void> @:1258 op:400,dt:4,nt:8,next:1261,str:13404,d0:1259,d1:59486;
+                ("cs_face_player", Expression<MethodOrOperator> @:1259 op:400,dt:2,nt:9,next:1260,str:1194,d0:0,d1:0;
+                    (False, Expression<Boolean> @:1260 op:5,dt:5,nt:9,next:65535,str:13420,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:1261 op:389,dt:4,nt:8,next:1265,str:13425,d0:1262,d1:59489;
+                ("cs_go_to_and_face", Expression<MethodOrOperator> @:1262 op:389,dt:2,nt:9,next:1263,str:1574,d0:0,d1:0;
+                    ("guns_points/zapper", Expression<SpatialPoint> @:1263 op:28,dt:28,nt:9,next:1264,str:1555,d0:2,d1:0;
+                        ("guns_points/zapper_face", Expression<SpatialPoint> @:1264 op:28,dt:28,nt:9,next:65535,str:1592,d0:5,d1:0;))))
+            (____, Scope<Void> @:1265 op:399,dt:4,nt:8,next:1269,str:13490,d0:1266,d1:59493;
+                ("cs_face", Expression<MethodOrOperator> @:1266 op:399,dt:2,nt:9,next:1267,str:1368,d0:0,d1:0;
+                    (True, Expression<Boolean> @:1267 op:5,dt:5,nt:9,next:1268,str:13499,d0:65281,d1:65535;
+                        ("guns_points/zapper_face", Expression<SpatialPoint> @:1268 op:28,dt:28,nt:9,next:65535,str:1592,d0:5,d1:0;))))
+            (____, Scope<Void> @:1269 op:20,dt:4,nt:8,next:65535,str:13528,d0:1270,d1:59497;
+                ("sleep_forever", Expression<MethodOrOperator> @:1270 op:20,dt:2,nt:9,next:65535,str:1209,d0:0,d1:0;)))))

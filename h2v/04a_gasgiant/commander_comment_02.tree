@@ -1,0 +1,63 @@
+
+("commander_comment_02", MethodDecl<Void> @:256 check:0,op:0,dt:0,nt:65535,next:8877,nextCheck:34337,str:19724,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:8877 check:34337,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:38338,h:1,d0:8878,d1:34338;
+        ("begin", Expression<MethodOrOperator> @:8878 check:34338,op:0,dt:2,nt:9,next:8818,nextCheck:34278,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:8818 check:34278,op:281,dt:4,nt:8,next:8821,nextCheck:34281,str:38377,h:1,d0:8819,d1:34279;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:8819 check:34279,op:281,dt:2,nt:9,next:8820,nextCheck:34280,str:17551,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:8820 check:34280,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:38397,h:1,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:8821 check:34281,op:19,dt:4,nt:8,next:8824,nextCheck:34284,str:38406,h:1,d0:8822,d1:34282;
+                ("sleep", Expression<MethodOrOperator> @:8822 check:34282,op:19,dt:2,nt:9,next:8823,nextCheck:34283,str:85,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:8823 check:34283,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:38413,h:1,d0:60,d1:65535;)))
+            (____, Scope<Void> @:8824 check:34284,op:27,dt:4,nt:8,next:8827,nextCheck:34287,str:38419,h:1,d0:8825,d1:34285;
+                ("print", Expression<MethodOrOperator> @:8825 check:34285,op:27,dt:2,nt:9,next:8826,nextCheck:34286,str:91,h:0,d0:0,d1:0;
+                    ("spec-ops commander: 'the storm has masked our approach.'", Expression<String> @:8826 check:34286,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18814,h:0,d0:34726,d1:10848;)))
+            (____, Scope<Void> @:8827 check:34287,op:19,dt:4,nt:8,next:8833,nextCheck:34293,str:38488,h:1,d0:8828,d1:34288;
+                ("sleep", Expression<MethodOrOperator> @:8828 check:34288,op:19,dt:2,nt:9,next:8829,nextCheck:34289,str:85,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:8829 check:34289,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:38495,h:1,d0:8830,d1:34290;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:8830 check:34290,op:362,dt:2,nt:9,next:8831,nextCheck:34291,str:17662,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:8831 check:34291,op:50,dt:50,nt:9,next:8832,nextCheck:34292,str:1,h:0,d0:65535,d1:65535;
+                                ("0240", Expression<StringId> @:8832 check:34292,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:18871,h:0,d0:8982,d1:1024;))))))
+            (____, Scope<Void> @:8833 check:34293,op:19,dt:4,nt:8,next:8836,nextCheck:34296,str:38627,h:1,d0:8834,d1:34294;
+                ("sleep", Expression<MethodOrOperator> @:8834 check:34294,op:19,dt:2,nt:9,next:8835,nextCheck:34295,str:85,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:8835 check:34295,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:38634,h:1,d0:30,d1:65535;)))
+            (____, Scope<Void> @:8836 check:34296,op:27,dt:4,nt:8,next:8839,nextCheck:34299,str:38640,h:1,d0:8837,d1:34297;
+                ("print", Expression<MethodOrOperator> @:8837 check:34297,op:27,dt:2,nt:9,next:8838,nextCheck:34298,str:91,h:0,d0:0,d1:0;
+                    ("spec-ops commander: 'and it should have their local battle-net in disarray.'", Expression<String> @:8838 check:34298,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18876,h:0,d0:34788,d1:10848;)))
+            (____, Scope<Void> @:8839 check:34299,op:19,dt:4,nt:8,next:8845,nextCheck:34305,str:38729,h:1,d0:8840,d1:34300;
+                ("sleep", Expression<MethodOrOperator> @:8840 check:34300,op:19,dt:2,nt:9,next:8841,nextCheck:34301,str:85,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:8841 check:34301,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:38736,h:1,d0:8842,d1:34302;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:8842 check:34302,op:362,dt:2,nt:9,next:8843,nextCheck:34303,str:17662,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:8843 check:34303,op:50,dt:50,nt:9,next:8844,nextCheck:34304,str:1,h:0,d0:65535,d1:65535;
+                                ("0250", Expression<StringId> @:8844 check:34304,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:18953,h:0,d0:8983,d1:1024;))))))
+            (____, Scope<Void> @:8845 check:34305,op:19,dt:4,nt:8,next:8848,nextCheck:34308,str:38868,h:1,d0:8846,d1:34306;
+                ("sleep", Expression<MethodOrOperator> @:8846 check:34306,op:19,dt:2,nt:9,next:8847,nextCheck:34307,str:85,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:8847 check:34307,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:38875,h:1,d0:30,d1:65535;)))
+            (____, Scope<Void> @:8848 check:34308,op:27,dt:4,nt:8,next:8851,nextCheck:34311,str:38881,h:1,d0:8849,d1:34309;
+                ("print", Expression<MethodOrOperator> @:8849 check:34309,op:27,dt:2,nt:9,next:8850,nextCheck:34310,str:91,h:0,d0:0,d1:0;
+                    ("spec-ops commander: 'we have the element of surprise.  for now.'", Expression<String> @:8850 check:34310,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18958,h:0,d0:34870,d1:10848;)))
+            (____, Scope<Void> @:8851 check:34311,op:19,dt:4,nt:8,next:8857,nextCheck:34317,str:38958,h:1,d0:8852,d1:34312;
+                ("sleep", Expression<MethodOrOperator> @:8852 check:34312,op:19,dt:2,nt:9,next:8853,nextCheck:34313,str:85,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:8853 check:34313,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:38965,h:1,d0:8854,d1:34314;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:8854 check:34314,op:362,dt:2,nt:9,next:8855,nextCheck:34315,str:17662,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:8855 check:34315,op:50,dt:50,nt:9,next:8856,nextCheck:34316,str:1,h:0,d0:65535,d1:65535;
+                                ("0260", Expression<StringId> @:8856 check:34316,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:19023,h:0,d0:8984,d1:1024;))))))
+            (____, Scope<Void> @:8857 check:34317,op:200,dt:4,nt:8,next:8867,nextCheck:34327,str:39097,h:1,d0:8858,d1:34318;
+                ("unit_stop_custom_animation", Expression<MethodOrOperator> @:8858 check:34318,op:200,dt:2,nt:9,next:8859,nextCheck:34319,str:19028,h:0,d0:0,d1:0;
+                    (____, Scope<Unit> @:8859 check:34319,op:24,dt:51,nt:8,next:65535,nextCheck:65535,str:39125,h:1,d0:8860,d1:34320;
+                        ("unit", Expression<MethodOrOperator> @:8860 check:34320,op:24,dt:2,nt:9,next:8861,nextCheck:34321,str:12,h:0,d0:0,d1:0;
+                            (____, Scope<Entity> @:8861 check:34321,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:39131,h:1,d0:8862,d1:34322;
+                                ("list_get", Expression<MethodOrOperator> @:8862 check:34322,op:37,dt:2,nt:9,next:8863,nextCheck:34323,str:17,h:0,d0:0,d1:0;
+                                    (____, Scope<List> @:8863 check:34323,op:332,dt:31,nt:8,next:8866,nextCheck:34326,str:39141,h:1,d0:8864,d1:34324;
+                                        ("ai_actors", Expression<MethodOrOperator> @:8864 check:34324,op:332,dt:2,nt:9,next:8865,nextCheck:34325,str:19055,h:0,d0:0,d1:0;
+                                            ("hacker", Expression<AI> @:8865 check:34325,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:17274,h:0,d0:4,d1:0;)))
+                                    (0, Expression<Short> @:8866 check:34326,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:39160,h:1,d0:0,d1:65535;)))))))
+            (____, Scope<Void> @:8867 check:34327,op:4,dt:4,nt:8,next:8871,nextCheck:34331,str:39167,h:1,d0:8868,d1:34328;
+                ("set", Expression<MethodOrOperator> @:8868 check:34328,op:4,dt:2,nt:9,next:8869,nextCheck:34329,str:2335,h:0,d0:0,d1:0;
+                    ("open_rec_center", VariableAccess<Boolean> @:8869 check:34329,op:65535,dt:5,nt:13,next:8870,nextCheck:34330,str:19065,h:0,d0:6,d1:0;
+                        (True, Expression<Boolean> @:8870 check:34330,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:39188,h:1,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:8871 check:34331,op:19,dt:4,nt:8,next:8874,nextCheck:34334,str:39197,h:1,d0:8872,d1:34332;
+                ("sleep", Expression<MethodOrOperator> @:8872 check:34332,op:19,dt:2,nt:9,next:8873,nextCheck:34333,str:85,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:8873 check:34333,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:39204,h:1,d0:30,d1:65535;)))
+            (____, Scope<Void> @:8874 check:34334,op:281,dt:4,nt:8,next:65535,nextCheck:65535,str:39210,h:1,d0:8875,d1:34335;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:8875 check:34335,op:281,dt:2,nt:9,next:8876,nextCheck:34336,str:17551,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:8876 check:34336,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:39230,h:1,d0:65281,d1:65535;))))))

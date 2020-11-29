@@ -1,0 +1,21 @@
+
+("gondola_01_retreat", MethodDecl<Void> @:172 check:0,op:0,dt:0,nt:65535,next:6979,nextCheck:65206,str:15893,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:6979 check:65206,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:14707,h:1,d0:6980,d1:65207;
+        ("begin", Expression<MethodOrOperator> @:6980 check:65207,op:0,dt:2,nt:9,next:6962,nextCheck:65189,str:142,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:6962 check:65189,op:449,dt:4,nt:8,next:6965,nextCheck:65192,str:14751,h:1,d0:6963,d1:65190;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:6963 check:65190,op:449,dt:2,nt:9,next:6964,nextCheck:65191,str:10931,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:6964 check:65191,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:14783,h:1,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:6965 check:65192,op:407,dt:4,nt:8,next:6968,nextCheck:65195,str:14791,h:1,d0:6966,d1:65193;
+                ("cs_vehicle_speed", Expression<MethodOrOperator> @:6966 check:65193,op:407,dt:2,nt:9,next:6967,nextCheck:65194,str:13226,h:0,d0:0,d1:0;
+                    (1f, Expression<Float> @:6967 check:65194,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:14809,h:1,d0:0,d1:16256;)))
+            (____, Scope<Void> @:6968 check:65195,op:384,dt:4,nt:8,next:6972,nextCheck:65199,str:14814,h:1,d0:6969,d1:65196;
+                ("cs_fly_by", Expression<MethodOrOperator> @:6969 check:65196,op:384,dt:2,nt:9,next:6970,nextCheck:65197,str:13150,h:0,d0:0,d1:0;
+                    ("bsp1_airspace/ph_02_4", Expression<SpatialPoint> @:6970 check:65197,op:28,dt:28,nt:9,next:6971,nextCheck:65198,str:15707,h:0,d0:9,d1:1;
+                        (2f, Expression<Float> @:6971 check:65198,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:14847,h:1,d0:0,d1:16384;))))
+            (____, Scope<Void> @:6972 check:65199,op:380,dt:4,nt:8,next:6976,nextCheck:65203,str:14852,h:1,d0:6973,d1:65200;
+                ("cs_fly_to", Expression<MethodOrOperator> @:6973 check:65200,op:380,dt:2,nt:9,next:6974,nextCheck:65201,str:13255,h:0,d0:0,d1:0;
+                    ("bsp1_airspace/ph_02_x", Expression<SpatialPoint> @:6974 check:65201,op:28,dt:28,nt:9,next:6975,nextCheck:65202,str:15729,h:0,d0:10,d1:1;
+                        (2f, Expression<Float> @:6975 check:65202,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:14885,h:1,d0:0,d1:16384;))))
+            (____, Scope<Void> @:6976 check:65203,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:14890,h:1,d0:6977,d1:65204;
+                ("ai_erase", Expression<MethodOrOperator> @:6977 check:65204,op:298,dt:2,nt:9,next:6978,nextCheck:65205,str:13353,h:0,d0:0,d1:0;
+                    ("gondola_01_phantom", Expression<AI> @:6978 check:65205,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:15751,h:0,d0:36,d1:0;))))))

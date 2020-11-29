@@ -1,0 +1,31 @@
+
+("cs_council_grunt_c", MethodDecl<Void> @:276 op:0,dt:0,nt:65535,next:12355,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:12355 op:0,dt:4,nt:8,next:65535,str:22560,d0:12356,d1:37816;
+        ("begin", Expression<MethodOrOperator> @:12356 op:0,dt:2,nt:9,next:12328,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:12328 op:422,dt:4,nt:8,next:12331,str:22604,d0:12329,d1:37789;
+                ("cs_movement_mode", Expression<MethodOrOperator> @:12329 op:422,dt:2,nt:9,next:12330,str:16676,d0:0,d1:0;
+                    (3, Expression<Short> @:12330 op:7,dt:7,nt:9,next:65535,str:22622,d0:3,d1:65535;)))
+            (____, Scope<Void> @:12331 op:440,dt:4,nt:8,next:12334,str:22627,d0:12332,d1:37792;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:12332 op:440,dt:2,nt:9,next:12333,str:29350,d0:0,d1:0;
+                    (True, Expression<Boolean> @:12333 op:5,dt:5,nt:9,next:65535,str:22647,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:12334 op:449,dt:4,nt:8,next:12337,str:22655,d0:12335,d1:37795;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:12335 op:449,dt:2,nt:9,next:12336,str:1066,d0:0,d1:0;
+                    (True, Expression<Boolean> @:12336 op:5,dt:5,nt:9,next:65535,str:22687,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:12337 op:385,dt:4,nt:8,next:12340,str:22695,d0:12338,d1:37798;
+                ("cs_go_to", Expression<MethodOrOperator> @:12338 op:385,dt:2,nt:9,next:12339,str:23611,d0:0,d1:0;
+                    ("council/p2", Expression<SpatialPoint> @:12339 op:28,dt:28,nt:9,next:65535,str:29439,d0:2,d1:0;)))
+            (____, Scope<Void> @:12340 op:21,dt:4,nt:8,next:65535,str:22719,d0:12341,d1:37801;
+                ("sleep_until", Expression<MethodOrOperator> @:12341 op:21,dt:2,nt:9,next:12342,str:231,d0:0,d1:0;
+                    (____, Scope<Boolean> @:12342 op:6,dt:5,nt:8,next:65535,str:22732,d0:12343,d1:37803;
+                        ("or", Expression<MethodOrOperator> @:12343 op:6,dt:2,nt:9,next:12344,str:844,d0:0,d1:0;
+                            (____, Scope<Boolean> @:12344 op:33,dt:5,nt:8,next:12349,str:22742,d0:12345,d1:37805;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:12345 op:33,dt:2,nt:9,next:12346,str:17358,d0:0,d1:0;
+                                    ("tv_council_door_left_a", Expression<Trigger> @:12346 op:13,dt:13,nt:9,next:12347,str:29450,d0:29,d1:0;
+                                        (____, Scope<List> @:12347 op:28,dt:31,nt:8,next:65535,str:22786,d0:12348,d1:37808;
+                                            ("players", Expression<MethodOrOperator> @:12348 op:28,dt:2,nt:9,next:65535,str:21,d0:0,d1:0;)))))
+                            (____, Scope<Boolean> @:12349 op:18,dt:5,nt:8,next:65535,str:22803,d0:12350,d1:37810;
+                                ("<=", Expression<MethodOrOperator> @:12350 op:18,dt:2,nt:9,next:12351,str:21122,d0:0,d1:0;
+                                    (____, Scope<Short> @:12351 op:327,dt:7,nt:8,next:12354,str:22807,d0:12352,d1:37812;
+                                        ("ai_living_count", Expression<MethodOrOperator> @:12352 op:327,dt:2,nt:9,next:12353,str:19381,d0:0,d1:0;
+                                            ("council_brute_ini", Expression<AI> @:12353 op:19,dt:19,nt:9,next:65535,str:19397,d0:19,d1:0;)))
+                                    (0, Expression<Short> @:12354 op:7,dt:7,nt:9,next:65535,str:22843,d0:0,d1:65535;))))))))))

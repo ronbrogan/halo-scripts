@@ -1,0 +1,21 @@
+
+("test_ramp_room", MethodDecl<Void> @:494 op:0,dt:0,nt:65535,next:19779,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:19779 op:0,dt:4,nt:8,next:65535,str:61654,d0:19780,d1:45240;
+        ("begin", Expression<MethodOrOperator> @:19780 op:0,dt:2,nt:9,next:19762,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:19762 op:105,dt:4,nt:8,next:19767,str:61691,d0:19763,d1:45223;
+                ("object_teleport", Expression<MethodOrOperator> @:19763 op:105,dt:2,nt:9,next:19764,str:5131,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:19764 op:0,dt:50,nt:10,next:19766,str:61708,d0:19765,d1:45225;
+                        ("player0", Expression<MethodOrOperator> @:19765 op:0,dt:2,nt:9,next:65535,str:607,d0:0,d1:0;))
+                    ("e3_test", Expression<LocationFlag> @:19766 op:14,dt:14,nt:9,next:65535,str:39100,d0:1,d1:0;)))
+            (____, Scope<Void> @:19767 op:2,dt:4,nt:8,next:19775,str:61729,d0:19768,d1:45228;
+                ("if", Expression<MethodOrOperator> @:19768 op:2,dt:2,nt:9,next:19769,str:461,d0:0,d1:0;
+                    (____, Scope<Boolean> @:19769 op:25,dt:5,nt:8,next:19772,str:61733,d0:19770,d1:45230;
+                        ("not", Expression<MethodOrOperator> @:19770 op:25,dt:2,nt:9,next:19771,str:402,d0:0,d1:0;
+                            ("g_e3_started", VariableAccess<Boolean> @:19771 op:5,dt:5,nt:13,next:65535,str:38948,d0:61,d1:0;)))
+                    (____, Scope<Void> @:19772 op:22,dt:4,nt:8,next:65535,str:61752,d0:19773,d1:45233;
+                        ("wake", Expression<MethodOrOperator> @:19773 op:22,dt:2,nt:9,next:19774,str:5851,d0:0,d1:0;
+                            ("e3_main", Expression<ScriptReference> @:19774 op:10,dt:10,nt:9,next:65535,str:38961,d0:493,d1:65535;)))))
+            (____, Scope<Void> @:19775 op:263,dt:4,nt:8,next:65535,str:61770,d0:19776,d1:45236;
+                ("device_operates_automatically_set", Expression<MethodOrOperator> @:19776 op:263,dt:2,nt:9,next:19777,str:5254,d0:0,d1:0;
+                    ("e2_exit_door", Expression<Device> @:19777 op:60,dt:54,nt:9,next:19778,str:38504,d0:107,d1:65535;
+                        (True, Expression<Boolean> @:19778 op:5,dt:5,nt:9,next:65535,str:61818,d0:65281,d1:65535;)))))))

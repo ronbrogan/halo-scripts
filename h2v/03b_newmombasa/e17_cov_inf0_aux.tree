@@ -1,0 +1,30 @@
+
+("e17_cov_inf0_aux", MethodDecl<Void> @:370 check:0,op:0,dt:0,nt:65535,next:13286,nextCheck:38746,str:27138,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:13286 check:38746,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:41340,h:2,d0:13287,d1:38747;
+        ("begin", Expression<MethodOrOperator> @:13287 check:38747,op:0,dt:2,nt:9,next:13260,nextCheck:38720,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:13260 check:38720,op:21,dt:4,nt:8,next:13268,nextCheck:38728,str:41375,h:2,d0:13261,d1:38721;
+                ("sleep_until", Expression<MethodOrOperator> @:13261 check:38721,op:21,dt:2,nt:9,next:13262,nextCheck:38722,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:13262 check:38722,op:33,dt:5,nt:8,next:13267,nextCheck:38727,str:41388,h:2,d0:13263,d1:38723;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:13263 check:38723,op:33,dt:2,nt:9,next:13264,nextCheck:38724,str:13177,h:0,d0:0,d1:0;
+                            ("tv_e17_cov_inf0_2_init", Expression<Trigger> @:13264 check:38724,op:13,dt:13,nt:9,next:13265,nextCheck:38725,str:27061,h:0,d0:115,d1:0;
+                                (____, Scope<List> @:13265 check:38725,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:41432,h:2,d0:13266,d1:38726;
+                                    ("players", Expression<MethodOrOperator> @:13266 check:38726,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                    (15, Expression<Short> @:13267 check:38727,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:41443,h:2,d0:15,d1:65535;)))
+            (____, Scope<Void> @:13268 check:38728,op:290,dt:4,nt:8,next:13271,nextCheck:38731,str:41449,h:2,d0:13269,d1:38729;
+                ("ai_place", Expression<MethodOrOperator> @:13269 check:38729,op:290,dt:2,nt:9,next:13270,nextCheck:38730,str:16575,h:0,d0:0,d1:0;
+                    ("e17_cov_inf0_2", Expression<AI> @:13270 check:38730,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:27084,h:0,d0:32,d1:0;)))
+            (____, Scope<Void> @:13271 check:38731,op:21,dt:4,nt:8,next:13279,nextCheck:38739,str:41477,h:2,d0:13272,d1:38732;
+                ("sleep_until", Expression<MethodOrOperator> @:13272 check:38732,op:21,dt:2,nt:9,next:13273,nextCheck:38733,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:13273 check:38733,op:33,dt:5,nt:8,next:13278,nextCheck:38738,str:41490,h:2,d0:13274,d1:38734;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:13274 check:38734,op:33,dt:2,nt:9,next:13275,nextCheck:38735,str:13177,h:0,d0:0,d1:0;
+                            ("tv_e17_near_second_wall", Expression<Trigger> @:13275 check:38735,op:13,dt:13,nt:9,next:13276,nextCheck:38736,str:27099,h:0,d0:72,d1:0;
+                                (____, Scope<List> @:13276 check:38736,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:41535,h:2,d0:13277,d1:38737;
+                                    ("players", Expression<MethodOrOperator> @:13277 check:38737,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                    (15, Expression<Short> @:13278 check:38738,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:41546,h:2,d0:15,d1:65535;)))
+            (____, Scope<Void> @:13279 check:38739,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:41552,h:2,d0:13280,d1:38740;
+                ("if", Expression<MethodOrOperator> @:13280 check:38740,op:2,dt:2,nt:9,next:13281,nextCheck:38741,str:461,h:0,d0:0,d1:0;
+                    ("difficulty_legendary", ScriptInvocation<Boolean> @:13281 check:38741,op:4,dt:5,nt:10,next:13283,nextCheck:38743,str:41556,h:2,d0:13282,d1:38742;
+                        ("difficulty_legendary", Expression<MethodOrOperator> @:13282 check:38742,op:4,dt:2,nt:9,next:65535,nextCheck:65535,str:12932,h:0,d0:0,d1:0;))
+                    (____, Scope<Void> @:13283 check:38743,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:41579,h:2,d0:13284,d1:38744;
+                        ("ai_place", Expression<MethodOrOperator> @:13284 check:38744,op:290,dt:2,nt:9,next:13285,nextCheck:38745,str:16575,h:0,d0:0,d1:0;
+                            ("e17_cov_inf0_3", Expression<AI> @:13285 check:38745,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:27123,h:0,d0:33,d1:0;))))))))

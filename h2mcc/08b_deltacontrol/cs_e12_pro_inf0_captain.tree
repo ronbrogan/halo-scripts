@@ -1,0 +1,54 @@
+
+("cs_e12_pro_inf0_captain", MethodDecl<Void> @:347 op:0,dt:0,nt:65535,next:11828,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:11828 op:0,dt:4,nt:8,next:65535,str:8838,d0:11829,d1:37289;
+        ("begin", Expression<MethodOrOperator> @:11829 op:0,dt:2,nt:9,next:11778,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:11778 op:442,dt:4,nt:8,next:11781,str:8887,d0:11779,d1:37239;
+                ("cs_enable_targeting", Expression<MethodOrOperator> @:11779 op:442,dt:2,nt:9,next:11780,str:1222,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11780 op:5,dt:5,nt:9,next:65535,str:8908,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:11781 op:444,dt:4,nt:8,next:11784,str:8916,d0:11782,d1:37242;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:11782 op:444,dt:2,nt:9,next:11783,str:1094,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11783 op:5,dt:5,nt:9,next:65535,str:8934,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:11784 op:21,dt:4,nt:8,next:11792,str:8942,d0:11785,d1:37245;
+                ("sleep_until", Expression<MethodOrOperator> @:11785 op:21,dt:2,nt:9,next:11786,str:236,d0:0,d1:0;
+                    (____, Scope<Boolean> @:11786 op:15,dt:5,nt:8,next:65535,str:8955,d0:11787,d1:37247;
+                        (">", Expression<MethodOrOperator> @:11787 op:15,dt:2,nt:9,next:11788,str:2516,d0:0,d1:0;
+                            (____, Scope<Short> @:11788 op:353,dt:7,nt:8,next:11791,str:8958,d0:11789,d1:37249;
+                                ("ai_combat_status", Expression<MethodOrOperator> @:11789 op:353,dt:2,nt:9,next:11790,str:27230,d0:0,d1:0;
+                                    ("ai_current_actor", VariableAccess<AI> @:11790 op:19,dt:19,nt:13,next:65535,str:1271,d0:33564,d1:65535;)))
+                            ("ai_combat_status_active", VariableAccess<Short> @:11791 op:7,dt:7,nt:13,next:65535,str:27247,d0:33574,d1:65535;)))))
+            (____, Scope<Void> @:11792 op:444,dt:4,nt:8,next:11795,str:9042,d0:11793,d1:37253;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:11793 op:444,dt:2,nt:9,next:11794,str:1094,d0:0,d1:0;
+                    (False, Expression<Boolean> @:11794 op:5,dt:5,nt:9,next:65535,str:9060,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:11795 op:394,dt:4,nt:8,next:11798,str:9069,d0:11796,d1:37256;
+                ("cs_look_player", Expression<MethodOrOperator> @:11796 op:394,dt:2,nt:9,next:11797,str:27271,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11797 op:5,dt:5,nt:9,next:65535,str:9085,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:11798 op:19,dt:4,nt:8,next:11804,str:9093,d0:11799,d1:37259;
+                ("sleep", Expression<MethodOrOperator> @:11799 op:19,dt:2,nt:9,next:11800,str:85,d0:0,d1:0;
+                    (____, Scope<Short> @:11800 op:124,dt:7,nt:8,next:65535,str:9100,d0:11801,d1:37261;
+                        ("random_range", Expression<MethodOrOperator> @:11801 op:124,dt:2,nt:9,next:11802,str:4910,d0:0,d1:0;
+                            (15, Expression<Short> @:11802 op:7,dt:7,nt:9,next:11803,str:9114,d0:15,d1:65535;
+                                (30, Expression<Short> @:11803 op:7,dt:7,nt:9,next:65535,str:9117,d0:30,d1:65535;))))))
+            (____, Scope<Void> @:11804 op:27,dt:4,nt:8,next:11807,str:9124,d0:11805,d1:37265;
+                ("print", Expression<MethodOrOperator> @:11805 op:27,dt:2,nt:9,next:11806,str:91,d0:0,d1:0;
+                    ("cpn: do not let them enter!", Expression<String> @:11806 op:9,dt:9,nt:9,next:65535,str:27286,d0:27286,d1:0;)))
+            (____, Scope<Void> @:11807 op:19,dt:4,nt:8,next:11813,str:9164,d0:11808,d1:37268;
+                ("sleep", Expression<MethodOrOperator> @:11808 op:19,dt:2,nt:9,next:11809,str:85,d0:0,d1:0;
+                    (____, Scope<Short> @:11809 op:360,dt:7,nt:8,next:65535,str:9171,d0:11810,d1:37270;
+                        ("ai_play_line", Expression<MethodOrOperator> @:11810 op:360,dt:2,nt:9,next:11811,str:27314,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:11811 op:19,dt:19,nt:13,next:11812,str:1271,d0:33564,d1:65535;
+                                ("0940", Expression<StringId> @:11812 op:11,dt:11,nt:9,next:65535,str:27327,d0:13493,d1:1024;))))))
+            (____, Scope<Void> @:11813 op:19,dt:4,nt:8,next:11816,str:9211,d0:11814,d1:37274;
+                ("sleep", Expression<MethodOrOperator> @:11814 op:19,dt:2,nt:9,next:11815,str:85,d0:0,d1:0;
+                    (20, Expression<Short> @:11815 op:7,dt:7,nt:9,next:65535,str:9218,d0:20,d1:65535;)))
+            (____, Scope<Void> @:11816 op:444,dt:4,nt:8,next:11819,str:9224,d0:11817,d1:37277;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:11817 op:444,dt:2,nt:9,next:11818,str:1094,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11818 op:5,dt:5,nt:9,next:65535,str:9242,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:11819 op:27,dt:4,nt:8,next:11822,str:9250,d0:11820,d1:37280;
+                ("print", Expression<MethodOrOperator> @:11820 op:27,dt:2,nt:9,next:11821,str:91,d0:0,d1:0;
+                    ("cpn: tartar sauce must complete his tasty condiments", Expression<String> @:11821 op:9,dt:9,nt:9,next:65535,str:27332,d0:27332,d1:0;)))
+            (____, Scope<Void> @:11822 op:19,dt:4,nt:8,next:65535,str:9315,d0:11823,d1:37283;
+                ("sleep", Expression<MethodOrOperator> @:11823 op:19,dt:2,nt:9,next:11824,str:85,d0:0,d1:0;
+                    (____, Scope<Short> @:11824 op:360,dt:7,nt:8,next:65535,str:9322,d0:11825,d1:37285;
+                        ("ai_play_line", Expression<MethodOrOperator> @:11825 op:360,dt:2,nt:9,next:11826,str:27314,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:11826 op:19,dt:19,nt:13,next:11827,str:1271,d0:33564,d1:65535;
+                                ("0950", Expression<StringId> @:11827 op:11,dt:11,nt:9,next:65535,str:27385,d0:13494,d1:1024;)))))))))

@@ -1,0 +1,13 @@
+
+("cs_e12_cov_inf0_ghost_drop", MethodDecl<Void> @:183 check:0,op:0,dt:0,nt:65535,next:6401,nextCheck:64628,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:6401 check:64628,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:11744,h:1,d0:6402,d1:64629;
+        ("begin", Expression<MethodOrOperator> @:6402 check:64629,op:0,dt:2,nt:9,next:6392,nextCheck:64619,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:6392 check:64619,op:343,dt:4,nt:8,next:6398,nextCheck:64625,str:11796,h:1,d0:6393,d1:64620;
+                ("ai_vehicle_reserve", Expression<MethodOrOperator> @:6393 check:64620,op:343,dt:2,nt:9,next:6394,nextCheck:64621,str:13432,h:0,d0:0,d1:0;
+                    (____, Scope<Vehicle> @:6394 check:64621,op:340,dt:52,nt:8,next:6397,nextCheck:64624,str:11816,h:1,d0:6395,d1:64622;
+                        ("ai_vehicle_get", Expression<MethodOrOperator> @:6395 check:64622,op:340,dt:2,nt:9,next:6396,nextCheck:64623,str:4296,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:6396 check:64623,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4311,h:0,d0:33564,d1:65535;)))
+                    (True, Expression<Boolean> @:6397 check:64624,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:11850,h:1,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:6398 check:64625,op:350,dt:4,nt:8,next:65535,nextCheck:65535,str:11858,h:1,d0:6399,d1:64626;
+                ("ai_vehicle_exit", Expression<MethodOrOperator> @:6399 check:64626,op:350,dt:2,nt:9,next:6400,nextCheck:64627,str:11099,h:0,d0:0,d1:0;
+                    ("ai_current_actor", VariableAccess<AI> @:6400 check:64627,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4311,h:0,d0:33564,d1:65535;))))))

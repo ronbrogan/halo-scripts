@@ -1,0 +1,18 @@
+
+("cs_e8_cov_inf2_patrol0", MethodDecl<Void> @:278 op:0,dt:0,nt:65535,next:10571,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:10571 op:0,dt:4,nt:8,next:65535,str:327,d0:10572,d1:36032;
+        ("begin", Expression<MethodOrOperator> @:10572 op:0,dt:2,nt:9,next:10557,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:10557 op:441,dt:4,nt:8,next:10560,str:375,d0:10558,d1:36018;
+                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:10558 op:441,dt:2,nt:9,next:10559,str:13781,d0:0,d1:0;
+                    ("ai_combat_status_uninspected", VariableAccess<Short> @:10559 op:7,dt:7,nt:13,next:65535,str:19756,d0:33575,d1:65535;)))
+            (____, Scope<Void> @:10560 op:440,dt:4,nt:8,next:10563,str:434,d0:10561,d1:36021;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:10561 op:440,dt:2,nt:9,next:10562,str:15078,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10562 op:5,dt:5,nt:9,next:65535,str:454,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:10563 op:395,dt:4,nt:8,next:10569,str:462,d0:10564,d1:36024;
+                ("cs_look_object", Expression<MethodOrOperator> @:10564 op:395,dt:2,nt:9,next:10565,str:19785,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10565 op:5,dt:5,nt:9,next:10566,str:478,d0:65281,d1:65535;
+                        (____, Scope<Entity> @:10566 op:284,dt:50,nt:8,next:65535,str:483,d0:10567,d1:36027;
+                            ("ai_get_object", Expression<MethodOrOperator> @:10567 op:284,dt:2,nt:9,next:10568,str:4496,d0:0,d1:0;
+                                ("e8_cov_inf2/grunt0", Expression<AI> @:10568 op:19,dt:19,nt:9,next:65535,str:19800,d0:2,d1:49223;))))))
+            (____, Scope<Void> @:10569 op:20,dt:4,nt:8,next:65535,str:521,d0:10570,d1:36030;
+                ("sleep_forever", Expression<MethodOrOperator> @:10570 op:20,dt:2,nt:9,next:65535,str:10303,d0:0,d1:0;)))))

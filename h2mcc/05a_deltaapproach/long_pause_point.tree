@@ -1,0 +1,24 @@
+
+("long_pause_point", MethodDecl<Void> @:340 op:0,dt:0,nt:65535,next:22902,str:35458,d0:0,d1:0;
+    (____, Scope<Void> @:22902 op:0,dt:4,nt:8,next:65535,str:58730,d0:22903,d1:48363;
+        ("begin", Expression<MethodOrOperator> @:22903 op:0,dt:2,nt:9,next:22882,str:54,d0:0,d1:0;
+            (____, Scope<Void> @:22882 op:21,dt:4,nt:8,next:22890,str:58772,d0:22883,d1:48343;
+                ("sleep_until", Expression<MethodOrOperator> @:22883 op:21,dt:2,nt:9,next:22884,str:284,d0:0,d1:0;
+                    (____, Scope<Boolean> @:22884 op:15,dt:5,nt:8,next:65535,str:58785,d0:22885,d1:48345;
+                        (">", Expression<MethodOrOperator> @:22885 op:15,dt:2,nt:9,next:22886,str:14341,d0:0,d1:0;
+                            (____, Scope<Short> @:22886 op:353,dt:7,nt:8,next:22889,str:58788,d0:22887,d1:48347;
+                                ("ai_combat_status", Expression<MethodOrOperator> @:22887 op:353,dt:2,nt:9,next:22888,str:20607,d0:0,d1:0;
+                                    ("ai_current_actor", VariableAccess<AI> @:22888 op:19,dt:19,nt:13,next:65535,str:20624,d0:33564,d1:65535;)))
+                            ("ai_combat_status_idle", VariableAccess<Short> @:22889 op:7,dt:7,nt:13,next:65535,str:20641,d0:33572,d1:65535;)))))
+            (____, Scope<Void> @:22890 op:397,dt:4,nt:8,next:22893,str:58850,d0:22891,d1:48351;
+                ("cs_aim_player", Expression<MethodOrOperator> @:22891 op:397,dt:2,nt:9,next:22892,str:35353,d0:0,d1:0;
+                    (True, Expression<Boolean> @:22892 op:5,dt:5,nt:9,next:65535,str:58865,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:22893 op:416,dt:4,nt:8,next:22899,str:58873,d0:22894,d1:48354;
+                ("cs_custom_animation", Expression<MethodOrOperator> @:22894 op:416,dt:2,nt:9,next:22895,str:35367,d0:0,d1:0;
+                    ("objects\characters\elite\elite", Expression<Animation> @:22895 op:36,dt:36,nt:9,next:22896,str:27997,d0:6980,d1:64891;
+                        ("combat:rifle:warn", Expression<StringId> @:22896 op:11,dt:11,nt:9,next:22897,str:35387,d0:9983,d1:4352;
+                            (1f, Expression<Float> @:22897 op:6,dt:6,nt:9,next:22898,str:58945,d0:0,d1:16256;
+                                (True, Expression<Boolean> @:22898 op:5,dt:5,nt:9,next:65535,str:58947,d0:65281,d1:65535;))))))
+            (____, Scope<Void> @:22899 op:397,dt:4,nt:8,next:65535,str:58955,d0:22900,d1:48360;
+                ("cs_aim_player", Expression<MethodOrOperator> @:22900 op:397,dt:2,nt:9,next:22901,str:35353,d0:0,d1:0;
+                    (False, Expression<Boolean> @:22901 op:5,dt:5,nt:9,next:65535,str:58970,d0:65280,d1:65535;))))))

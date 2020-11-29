@@ -1,0 +1,22 @@
+
+("cs_scarab_load_upper_gun", MethodDecl<Void> @:201 check:0,op:0,dt:0,nt:65535,next:6231,nextCheck:64458,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:6231 check:64458,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:8218,h:1,d0:6232,d1:64459;
+        ("begin", Expression<MethodOrOperator> @:6232 check:64459,op:0,dt:2,nt:9,next:6213,nextCheck:64440,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:6213 check:64440,op:57,dt:4,nt:8,next:6219,nextCheck:64446,str:8268,h:1,d0:6214,d1:64441;
+                ("object_hide", Expression<MethodOrOperator> @:6214 check:64441,op:57,dt:2,nt:9,next:6215,nextCheck:64442,str:595,h:0,d0:0,d1:0;
+                    (____, Scope<Entity> @:6215 check:64442,op:284,dt:50,nt:8,next:6218,nextCheck:64445,str:8281,h:1,d0:6216,d1:64443;
+                        ("ai_get_object", Expression<MethodOrOperator> @:6216 check:64443,op:284,dt:2,nt:9,next:6217,nextCheck:64444,str:13821,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:6217 check:64444,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:13835,h:0,d0:33564,d1:65535;)))
+                    (True, Expression<Boolean> @:6218 check:64445,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:8314,h:1,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:6219 check:64446,op:232,dt:4,nt:8,next:65535,nextCheck:65535,str:8322,h:1,d0:6220,d1:64447;
+                ("vehicle_load_magic", Expression<MethodOrOperator> @:6220 check:64447,op:232,dt:2,nt:9,next:6221,nextCheck:64448,str:13852,h:0,d0:0,d1:0;
+                    (____, Scope<Entity> @:6221 check:64448,op:24,dt:50,nt:8,next:6227,nextCheck:64454,str:8342,h:1,d0:6222,d1:64449;
+                        ("unit", Expression<MethodOrOperator> @:6222 check:64449,op:24,dt:2,nt:9,next:6223,nextCheck:64450,str:12,h:0,d0:0,d1:0;
+                            (____, Scope<Entity> @:6223 check:64450,op:75,dt:50,nt:8,next:65535,nextCheck:65535,str:8348,h:1,d0:6224,d1:64451;
+                                ("object_at_marker", Expression<MethodOrOperator> @:6224 check:64451,op:75,dt:2,nt:9,next:6225,nextCheck:64452,str:13871,h:0,d0:0,d1:0;
+                                    (4294901862, Expression<Entity> @:6225 check:64452,op:56,dt:50,nt:9,next:6226,nextCheck:64453,str:13888,h:0,d0:102,d1:65535;
+                                        ("t_f_turret", Expression<StringId> @:6226 check:64453,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:13925,h:0,d0:4958,d1:2560;))))))
+                    ("scarab_turret_d", Expression<VehicleSeat> @:6227 check:64454,op:12,dt:12,nt:9,next:6228,nextCheck:64455,str:13895,h:0,d0:0,d1:4;
+                        (____, Scope<List> @:6228 check:64455,op:284,dt:31,nt:8,next:65535,nextCheck:65535,str:8406,h:1,d0:6229,d1:64456;
+                            ("ai_get_object", Expression<MethodOrOperator> @:6229 check:64456,op:284,dt:2,nt:9,next:6230,nextCheck:64457,str:13821,h:0,d0:0,d1:0;
+                                ("ai_current_actor", VariableAccess<AI> @:6230 check:64457,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:13835,h:0,d0:33564,d1:65535;)))))))))

@@ -1,0 +1,19 @@
+
+("cs_e16_cov_banshee_boost1", MethodDecl<Void> @:378 op:0,dt:0,nt:65535,next:13638,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:13638 op:0,dt:4,nt:8,next:65535,str:47145,d0:13639,d1:39099;
+        ("begin", Expression<MethodOrOperator> @:13639 op:0,dt:2,nt:9,next:13623,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:13623 op:438,dt:4,nt:8,next:13626,str:47196,d0:13624,d1:39084;
+                ("cs_vehicle_boost", Expression<MethodOrOperator> @:13624 op:438,dt:2,nt:9,next:13625,str:15358,d0:0,d1:0;
+                    (True, Expression<Boolean> @:13625 op:5,dt:5,nt:9,next:65535,str:47214,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:13626 op:383,dt:4,nt:8,next:13629,str:47222,d0:13627,d1:39087;
+                ("cs_fly_by", Expression<MethodOrOperator> @:13627 op:383,dt:2,nt:9,next:13628,str:15426,d0:0,d1:0;
+                    ("e16_cov_banshees0/p2", Expression<SpatialPoint> @:13628 op:28,dt:28,nt:9,next:65535,str:27895,d0:2,d1:8;)))
+            (____, Scope<Void> @:13629 op:383,dt:4,nt:8,next:13632,str:47257,d0:13630,d1:39090;
+                ("cs_fly_by", Expression<MethodOrOperator> @:13630 op:383,dt:2,nt:9,next:13631,str:15426,d0:0,d1:0;
+                    ("e16_cov_banshees0/p3", Expression<SpatialPoint> @:13631 op:28,dt:28,nt:9,next:65535,str:27916,d0:3,d1:8;)))
+            (____, Scope<Void> @:13632 op:19,dt:4,nt:8,next:65535,str:47292,d0:13633,d1:39093;
+                ("sleep", Expression<MethodOrOperator> @:13633 op:19,dt:2,nt:9,next:13634,str:85,d0:0,d1:0;
+                    (____, Scope<Short> @:13634 op:124,dt:7,nt:8,next:65535,str:47299,d0:13635,d1:39095;
+                        ("random_range", Expression<MethodOrOperator> @:13635 op:124,dt:2,nt:9,next:13636,str:16022,d0:0,d1:0;
+                            (30, Expression<Short> @:13636 op:7,dt:7,nt:9,next:13637,str:47313,d0:30,d1:65535;
+                                (60, Expression<Short> @:13637 op:7,dt:7,nt:9,next:65535,str:47316,d0:60,d1:65535;)))))))))

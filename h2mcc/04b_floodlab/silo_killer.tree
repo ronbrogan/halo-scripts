@@ -1,0 +1,23 @@
+
+("silo_killer", MethodDecl<Void> @:175 op:0,dt:0,nt:65535,next:6175,str:17031,d0:0,d1:0;
+    (____, Scope<Void> @:6175 op:0,dt:4,nt:8,next:65535,str:6761,d0:6176,d1:64403;
+        ("begin", Expression<MethodOrOperator> @:6176 op:0,dt:2,nt:9,next:6156,str:210,d0:0,d1:0;
+            (____, Scope<Void> @:6156 op:21,dt:4,nt:8,next:65535,str:6791,d0:6157,d1:64384;
+                ("sleep_until", Expression<MethodOrOperator> @:6157 op:21,dt:2,nt:9,next:6158,str:440,d0:0,d1:0;
+                    (____, Scope<Boolean> @:6158 op:0,dt:5,nt:8,next:65535,str:6807,d0:6159,d1:64386;
+                        ("begin", Expression<MethodOrOperator> @:6159 op:0,dt:2,nt:9,next:6160,str:210,d0:0,d1:0;
+                            (____, Scope<Void> @:6160 op:52,dt:4,nt:8,next:6168,str:6818,d0:6161,d1:64388;
+                                ("object_destroy", Expression<MethodOrOperator> @:6161 op:52,dt:2,nt:9,next:6162,str:4336,d0:0,d1:0;
+                                    (____, Scope<Entity> @:6162 op:37,dt:50,nt:8,next:65535,str:6834,d0:6163,d1:64390;
+                                        ("list_get", Expression<MethodOrOperator> @:6163 op:37,dt:2,nt:9,next:6164,str:221,d0:0,d1:0;
+                                            (____, Scope<List> @:6164 op:35,dt:31,nt:8,next:6167,str:6844,d0:6165,d1:64392;
+                                                ("volume_return_objects", Expression<MethodOrOperator> @:6165 op:35,dt:2,nt:9,next:6166,str:15153,d0:0,d1:0;
+                                                    ("kill_silo_pit", Expression<Trigger> @:6166 op:13,dt:13,nt:9,next:65535,str:11121,d0:103,d1:0;)))
+                                            (0, Expression<Short> @:6167 op:7,dt:7,nt:9,next:65535,str:6882,d0:0,d1:65535;)))))
+                            (____, Scope<Void> @:6168 op:19,dt:4,nt:8,next:6171,str:6890,d0:6169,d1:64396;
+                                ("sleep", Expression<MethodOrOperator> @:6169 op:19,dt:2,nt:9,next:6170,str:289,d0:0,d1:0;
+                                    (15, Expression<Short> @:6170 op:7,dt:7,nt:9,next:65535,str:6897,d0:15,d1:65535;)))
+                            (____, Scope<Boolean> @:6171 op:13,dt:5,nt:8,next:65535,str:6905,d0:6172,d1:64399;
+                                ("=", Expression<MethodOrOperator> @:6172 op:13,dt:2,nt:9,next:6173,str:505,d0:0,d1:0;
+                                    ("silo_killer_power", VariableAccess<Boolean> @:6173 op:0,dt:5,nt:13,next:6174,str:15175,d0:17,d1:0;
+                                        (False, Expression<Boolean> @:6174 op:5,dt:5,nt:9,next:65535,str:6926,d0:65280,d1:65535;)))))))))))

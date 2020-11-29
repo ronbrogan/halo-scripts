@@ -1,0 +1,30 @@
+
+("sc_council_exit_leave", MethodDecl<Void> @:238 op:0,dt:0,nt:65535,next:8665,str:20685,d0:0,d1:0;
+    (____, Scope<Void> @:8665 op:0,dt:4,nt:8,next:65535,str:44905,d0:8666,d1:34126;
+        ("begin", Expression<MethodOrOperator> @:8666 op:0,dt:2,nt:9,next:8639,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:8639 op:19,dt:4,nt:8,next:8642,str:44945,d0:8640,d1:34100;
+                ("sleep", Expression<MethodOrOperator> @:8640 op:19,dt:2,nt:9,next:8641,str:80,d0:0,d1:0;
+                    (150, Expression<Short> @:8641 op:7,dt:7,nt:9,next:65535,str:44952,d0:150,d1:65535;)))
+            (____, Scope<Void> @:8642 op:2,dt:4,nt:8,next:8663,str:44961,d0:8643,d1:34103;
+                ("if", Expression<MethodOrOperator> @:8643 op:2,dt:2,nt:9,next:8644,str:456,d0:0,d1:0;
+                    (____, Scope<Boolean> @:8644 op:33,dt:5,nt:8,next:8649,str:44965,d0:8645,d1:34105;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:8645 op:33,dt:2,nt:9,next:8646,str:17358,d0:0,d1:0;
+                            ("tv_council_ext", Expression<Trigger> @:8646 op:13,dt:13,nt:9,next:8647,str:20100,d0:121,d1:0;
+                                (____, Scope<List> @:8647 op:28,dt:31,nt:8,next:65535,str:45001,d0:8648,d1:34108;
+                                    ("players", Expression<MethodOrOperator> @:8648 op:28,dt:2,nt:9,next:65535,str:21,d0:0,d1:0;)))))
+                    (____, Scope<Void> @:8649 op:0,dt:4,nt:8,next:65535,str:45016,d0:8650,d1:34110;
+                        ("begin", Expression<MethodOrOperator> @:8650 op:0,dt:2,nt:9,next:8651,str:1,d0:0,d1:0;
+                            (____, Scope<Void> @:8651 op:2,dt:4,nt:8,next:8657,str:45028,d0:8652,d1:34112;
+                                ("if", Expression<MethodOrOperator> @:8652 op:2,dt:2,nt:9,next:8653,str:456,d0:0,d1:0;
+                                    ("dialogue", VariableAccess<Boolean> @:8653 op:5,dt:5,nt:13,next:8654,str:19054,d0:4,d1:0;
+                                        (____, Scope<Void> @:8654 op:27,dt:4,nt:8,next:65535,str:45041,d0:8655,d1:34115;
+                                            ("print", Expression<MethodOrOperator> @:8655 op:27,dt:2,nt:9,next:8656,str:86,d0:0,d1:0;
+                                                ("cortana: don't worry. you can pick me up later", Expression<String> @:8656 op:9,dt:9,nt:9,next:65535,str:20115,d0:20115,d1:0;))))))
+                            (____, Scope<Void> @:8657 op:19,dt:4,nt:8,next:65535,str:45104,d0:8658,d1:34118;
+                                ("sleep", Expression<MethodOrOperator> @:8658 op:19,dt:2,nt:9,next:8659,str:80,d0:0,d1:0;
+                                    (____, Scope<Short> @:8659 op:361,dt:7,nt:8,next:65535,str:45111,d0:8660,d1:34120;
+                                        ("ai_play_line_at_player", Expression<MethodOrOperator> @:8660 op:361,dt:2,nt:9,next:8661,str:20162,d0:0,d1:0;
+                                            ("cortana_0", Expression<AI> @:8661 op:19,dt:19,nt:9,next:8662,str:20185,d0:2,d1:0;
+                                                ("2180", Expression<StringId> @:8662 op:11,dt:11,nt:9,next:65535,str:20195,d0:13855,d1:1024;))))))))))
+            ("erase_cortana", ScriptInvocation<Void> @:8663 op:227,dt:4,nt:10,next:65535,str:45164,d0:8664,d1:34124;
+                ("erase_cortana", Expression<MethodOrOperator> @:8664 op:227,dt:2,nt:9,next:65535,str:20200,d0:0,d1:0;)))))

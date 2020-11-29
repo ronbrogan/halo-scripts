@@ -1,0 +1,24 @@
+
+("cs_e2_mars_continue", MethodDecl<Void> @:371 check:0,op:0,dt:0,nt:65535,next:15178,nextCheck:40638,str:25454,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:15178 check:40638,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:56020,h:2,d0:15179,d1:40639;
+        ("begin", Expression<MethodOrOperator> @:15179 check:40639,op:0,dt:2,nt:9,next:15158,nextCheck:40618,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:15158 check:40618,op:391,dt:4,nt:8,next:15161,nextCheck:40621,str:56087,h:2,d0:15159,d1:40619;
+                ("cs_go_to_nearest", Expression<MethodOrOperator> @:15159 check:40619,op:391,dt:2,nt:9,next:15160,nextCheck:40620,str:24922,h:0,d0:0,d1:0;
+                    ("e2_mars_wait", Expression<SpatialPoint> @:15160 check:40620,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:24962,h:0,d0:65535,d1:10;)))
+            (____, Scope<Void> @:15161 check:40621,op:400,dt:4,nt:8,next:15164,nextCheck:40624,str:56147,h:2,d0:15162,d1:40622;
+                ("cs_face_player", Expression<MethodOrOperator> @:15162 check:40622,op:400,dt:2,nt:9,next:15163,nextCheck:40623,str:20668,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15163 check:40623,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:56163,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:15164 check:40624,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:56218,h:2,d0:15165,d1:40625;
+                ("sleep_until", Expression<MethodOrOperator> @:15165 check:40625,op:21,dt:2,nt:9,next:15166,nextCheck:40626,str:294,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:15166 check:40626,op:6,dt:5,nt:8,next:15177,nextCheck:40637,str:56234,h:2,d0:15167,d1:40627;
+                        ("or", Expression<MethodOrOperator> @:15167 check:40627,op:6,dt:2,nt:9,next:15168,nextCheck:40628,str:907,h:0,d0:0,d1:0;
+                            (____, Scope<Boolean> @:15168 check:40628,op:337,dt:5,nt:8,next:15172,nextCheck:40632,str:56242,h:2,d0:15169,d1:40629;
+                                ("ai_trigger_test", Expression<MethodOrOperator> @:15169 check:40629,op:337,dt:2,nt:9,next:15170,nextCheck:40630,str:21712,h:0,d0:0,d1:0;
+                                    ("generic_player_within_4wu", Expression<String> @:15170 check:40630,op:9,dt:9,nt:9,next:15171,nextCheck:40631,str:24975,h:0,d0:52567,d1:12404;
+                                        ("e2_mars", Expression<AI> @:15171 check:40631,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25001,h:0,d0:10,d1:16384;))))
+                            (____, Scope<Boolean> @:15172 check:40632,op:337,dt:5,nt:8,next:15176,nextCheck:40636,str:56298,h:2,d0:15173,d1:40633;
+                                ("ai_trigger_test", Expression<MethodOrOperator> @:15173 check:40633,op:337,dt:2,nt:9,next:15174,nextCheck:40634,str:21712,h:0,d0:0,d1:0;
+                                    ("e2_cov_hunters0_bypassed", Expression<String> @:15174 check:40634,op:9,dt:9,nt:9,next:15175,nextCheck:40635,str:25009,h:0,d0:52601,d1:12404;
+                                        ("e2_mars", Expression<AI> @:15175 check:40635,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25001,h:0,d0:10,d1:16384;))))
+                            ("g_e3_started", VariableAccess<Boolean> @:15176 check:40636,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:24345,h:0,d0:37,d1:0;)))
+                    (15, Expression<Short> @:15177 check:40637,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:56374,h:2,d0:15,d1:65535;))))))

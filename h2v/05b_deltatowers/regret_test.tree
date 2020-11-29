@@ -1,0 +1,57 @@
+
+("regret_test", MethodDecl<Void> @:286 check:0,op:0,dt:0,nt:65535,next:19869,nextCheck:45329,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:19869 check:45329,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:12721,h:3,d0:19870,d1:45330;
+        ("begin", Expression<MethodOrOperator> @:19870 check:45330,op:0,dt:2,nt:9,next:19816,nextCheck:45276,str:142,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:19816 check:45276,op:290,dt:4,nt:8,next:19819,nextCheck:45279,str:12755,h:3,d0:19817,d1:45277;
+                ("ai_place", Expression<MethodOrOperator> @:19817 check:45277,op:290,dt:2,nt:9,next:19818,nextCheck:45278,str:10226,h:0,d0:0,d1:0;
+                    ("regret/1", Expression<AI> @:19818 check:45278,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:31153,h:0,d0:0,d1:49289;)))
+            (____, Scope<Void> @:19819 check:45279,op:19,dt:4,nt:8,next:19822,nextCheck:45282,str:12777,h:3,d0:19820,d1:45280;
+                ("sleep", Expression<MethodOrOperator> @:19820 check:45280,op:19,dt:2,nt:9,next:19821,nextCheck:45281,str:221,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:19821 check:45281,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:12784,h:3,d0:60,d1:65535;)))
+            (____, Scope<Void> @:19822 check:45282,op:4,dt:4,nt:8,next:19831,nextCheck:45291,str:12790,h:3,d0:19823,d1:45283;
+                ("set", Expression<MethodOrOperator> @:19823 check:45283,op:4,dt:2,nt:9,next:19824,nextCheck:45284,str:2930,h:0,d0:0,d1:0;
+                    ("regret_corpse", VariableAccess<Entity> @:19824 check:45284,op:65535,dt:50,nt:13,next:19825,nextCheck:45285,str:30775,h:0,d0:30,d1:0;
+                        (____, Scope<Entity> @:19825 check:45285,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:12809,h:3,d0:19826,d1:45286;
+                            ("list_get", Expression<MethodOrOperator> @:19826 check:45286,op:37,dt:2,nt:9,next:19827,nextCheck:45287,str:153,h:0,d0:0,d1:0;
+                                (____, Scope<List> @:19827 check:45287,op:332,dt:31,nt:8,next:19830,nextCheck:45290,str:12819,h:3,d0:19828,d1:45288;
+                                    ("ai_actors", Expression<MethodOrOperator> @:19828 check:45288,op:332,dt:2,nt:9,next:19829,nextCheck:45289,str:13580,h:0,d0:0,d1:0;
+                                        ("regret", Expression<AI> @:19829 check:45289,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:2055,h:0,d0:137,d1:0;)))
+                                (0, Expression<Short> @:19830 check:45290,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:12838,h:3,d0:0,d1:65535;))))))
+            (____, Scope<Void> @:19831 check:45291,op:4,dt:4,nt:8,next:19842,nextCheck:45302,str:12844,h:3,d0:19832,d1:45292;
+                ("set", Expression<MethodOrOperator> @:19832 check:45292,op:4,dt:2,nt:9,next:19833,nextCheck:45293,str:2930,h:0,d0:0,d1:0;
+                    ("regret_throne", VariableAccess<Entity> @:19833 check:45293,op:65535,dt:50,nt:13,next:19834,nextCheck:45294,str:30812,h:0,d0:31,d1:0;
+                        (____, Scope<Entity> @:19834 check:45294,op:73,dt:50,nt:8,next:65535,nextCheck:65535,str:12863,h:3,d0:19835,d1:45295;
+                            ("object_get_parent", Expression<MethodOrOperator> @:19835 check:45295,op:73,dt:2,nt:9,next:19836,nextCheck:45296,str:30840,h:0,d0:0,d1:0;
+                                (____, Scope<Entity> @:19836 check:45296,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:12882,h:3,d0:19837,d1:45297;
+                                    ("list_get", Expression<MethodOrOperator> @:19837 check:45297,op:37,dt:2,nt:9,next:19838,nextCheck:45298,str:153,h:0,d0:0,d1:0;
+                                        (____, Scope<List> @:19838 check:45298,op:332,dt:31,nt:8,next:19841,nextCheck:45301,str:12892,h:3,d0:19839,d1:45299;
+                                            ("ai_actors", Expression<MethodOrOperator> @:19839 check:45299,op:332,dt:2,nt:9,next:19840,nextCheck:45300,str:13580,h:0,d0:0,d1:0;
+                                                ("regret", Expression<AI> @:19840 check:45300,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:2055,h:0,d0:137,d1:0;)))
+                                        (0, Expression<Short> @:19841 check:45301,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:12911,h:3,d0:0,d1:65535;))))))))
+            (____, Scope<Void> @:19842 check:45302,op:48,dt:4,nt:8,next:19845,nextCheck:45305,str:12918,h:3,d0:19843,d1:45303;
+                ("object_create_anew", Expression<MethodOrOperator> @:19843 check:45303,op:48,dt:2,nt:9,next:19844,nextCheck:45304,str:2641,h:0,d0:0,d1:0;
+                    ("regret03", Expression<EntityIdentifier> @:19844 check:45304,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:23888,h:0,d0:80,d1:65535;)))
+            (____, Scope<Void> @:19845 check:45305,op:27,dt:4,nt:8,next:19848,nextCheck:45308,str:12950,h:3,d0:19846,d1:45306;
+                ("print", Expression<MethodOrOperator> @:19846 check:45306,op:27,dt:2,nt:9,next:19847,nextCheck:45307,str:227,h:0,d0:0,d1:0;
+                    ("destroy him", Expression<String> @:19847 check:45307,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:31162,h:0,d0:46194,d1:11074;)))
+            (____, Scope<Void> @:19848 check:45308,op:52,dt:4,nt:8,next:19851,nextCheck:45311,str:12974,h:3,d0:19849,d1:45309;
+                ("object_destroy", Expression<MethodOrOperator> @:19849 check:45309,op:52,dt:2,nt:9,next:19850,nextCheck:45310,str:4383,h:0,d0:0,d1:0;
+                    ("regret_corpse", VariableAccess<Entity> @:19850 check:45310,op:50,dt:50,nt:13,next:65535,nextCheck:65535,str:30775,h:0,d0:30,d1:0;)))
+            (____, Scope<Void> @:19851 check:45311,op:27,dt:4,nt:8,next:19854,nextCheck:45314,str:13007,h:3,d0:19852,d1:45312;
+                ("print", Expression<MethodOrOperator> @:19852 check:45312,op:27,dt:2,nt:9,next:19853,nextCheck:45313,str:227,h:0,d0:0,d1:0;
+                    ("attach him", Expression<String> @:19853 check:45313,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:31174,h:0,d0:46206,d1:11074;)))
+            (____, Scope<Void> @:19854 check:45314,op:74,dt:4,nt:8,next:19860,nextCheck:45320,str:13030,h:3,d0:19855,d1:45315;
+                ("objects_attach", Expression<MethodOrOperator> @:19855 check:45315,op:74,dt:2,nt:9,next:19856,nextCheck:45316,str:2806,h:0,d0:0,d1:0;
+                    ("regret_throne", VariableAccess<Entity> @:19856 check:45316,op:50,dt:50,nt:13,next:19857,nextCheck:45317,str:30812,h:0,d0:31,d1:0;
+                        ("driver", Expression<StringId> @:19857 check:45317,op:11,dt:11,nt:9,next:19858,nextCheck:45318,str:2821,h:0,d0:4826,d1:1536;
+                            (4294901840, Expression<Entity> @:19858 check:45318,op:56,dt:50,nt:9,next:19859,nextCheck:45319,str:23888,h:0,d0:80,d1:65535;
+                                (0, Expression<StringId> @:19859 check:45319,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:0,h:0,d0:0,d1:0;))))))
+            (____, Scope<Void> @:19860 check:45320,op:27,dt:4,nt:8,next:19863,nextCheck:45323,str:13084,h:3,d0:19861,d1:45321;
+                ("print", Expression<MethodOrOperator> @:19861 check:45321,op:27,dt:2,nt:9,next:19862,nextCheck:45322,str:227,h:0,d0:0,d1:0;
+                    ("animate him", Expression<String> @:19862 check:45322,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:31185,h:0,d0:46217,d1:11074;)))
+            (____, Scope<Void> @:19863 check:45323,op:202,dt:4,nt:8,next:65535,nextCheck:65535,str:13108,h:3,d0:19864,d1:45324;
+                ("custom_animation_loop", Expression<MethodOrOperator> @:19864 check:45324,op:202,dt:2,nt:9,next:19865,nextCheck:45325,str:15026,h:0,d0:0,d1:0;
+                    ("regret03", Expression<Unit> @:19865 check:45325,op:57,dt:51,nt:9,next:19866,nextCheck:45326,str:23888,h:0,d0:80,d1:65535;
+                        ("objects\characters\prophet\prophet", Expression<Animation> @:19866 check:45326,op:36,dt:36,nt:9,next:19867,nextCheck:45327,str:9987,h:0,d0:1574,d1:59292;
+                            ("combat:any:any:cheer", Expression<StringId> @:19867 check:45327,op:11,dt:11,nt:9,next:19868,nextCheck:45328,str:29653,h:0,d0:5195,d1:5120;
+                                (True, Expression<Boolean> @:19868 check:45328,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:13198,h:3,d0:65281,d1:65535;)))))))))

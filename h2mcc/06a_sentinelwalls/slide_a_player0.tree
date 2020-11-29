@@ -1,0 +1,28 @@
+
+("slide_a_player0", MethodDecl<Void> @:330 op:0,dt:0,nt:65535,next:16219,str:30324,d0:0,d1:0;
+    (____, Scope<Void> @:16219 op:0,dt:4,nt:8,next:65535,str:27914,d0:16220,d1:41680;
+        ("begin", Expression<MethodOrOperator> @:16220 op:0,dt:2,nt:9,next:16195,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:16195 op:21,dt:4,nt:8,next:16202,str:27948,d0:16196,d1:41656;
+                ("sleep_until", Expression<MethodOrOperator> @:16196 op:21,dt:2,nt:9,next:16197,str:231,d0:0,d1:0;
+                    (____, Scope<Boolean> @:16197 op:32,dt:5,nt:8,next:65535,str:27961,d0:16198,d1:41658;
+                        ("volume_test_object", Expression<MethodOrOperator> @:16198 op:32,dt:2,nt:9,next:16199,str:25797,d0:0,d1:0;
+                            ("tv_slide_a", Expression<Trigger> @:16199 op:13,dt:13,nt:9,next:16200,str:12427,d0:96,d1:0;
+                                ("player0", ScriptInvocation<Entity> @:16200 op:0,dt:50,nt:10,next:65535,str:27992,d0:16201,d1:41661;
+                                    ("player0", Expression<MethodOrOperator> @:16201 op:0,dt:2,nt:9,next:65535,str:602,d0:0,d1:0;)))))))
+            (____, Scope<Void> @:16202 op:90,dt:4,nt:8,next:16206,str:28032,d0:16203,d1:41663;
+                ("object_cannot_take_damage", Expression<MethodOrOperator> @:16203 op:90,dt:2,nt:9,next:16204,str:618,d0:0,d1:0;
+                    ("player0", ScriptInvocation<List> @:16204 op:0,dt:31,nt:10,next:65535,str:28059,d0:16205,d1:41665;
+                        ("player0", Expression<MethodOrOperator> @:16205 op:0,dt:2,nt:9,next:65535,str:602,d0:0,d1:0;))))
+            (____, Scope<Void> @:16206 op:21,dt:4,nt:8,next:16215,str:28072,d0:16207,d1:41667;
+                ("sleep_until", Expression<MethodOrOperator> @:16207 op:21,dt:2,nt:9,next:16208,str:231,d0:0,d1:0;
+                    (____, Scope<Boolean> @:16208 op:25,dt:5,nt:8,next:65535,str:28085,d0:16209,d1:41669;
+                        ("not", Expression<MethodOrOperator> @:16209 op:25,dt:2,nt:9,next:16210,str:397,d0:0,d1:0;
+                            (____, Scope<Boolean> @:16210 op:33,dt:5,nt:8,next:65535,str:28090,d0:16211,d1:41671;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:16211 op:33,dt:2,nt:9,next:16212,str:11664,d0:0,d1:0;
+                                    ("tv_slide_a", Expression<Trigger> @:16212 op:13,dt:13,nt:9,next:16213,str:12427,d0:96,d1:0;
+                                        ("player0", ScriptInvocation<List> @:16213 op:0,dt:31,nt:10,next:65535,str:28122,d0:16214,d1:41674;
+                                            ("player0", Expression<MethodOrOperator> @:16214 op:0,dt:2,nt:9,next:65535,str:602,d0:0,d1:0;)))))))))
+            (____, Scope<Void> @:16215 op:91,dt:4,nt:8,next:65535,str:28137,d0:16216,d1:41676;
+                ("object_can_take_damage", Expression<MethodOrOperator> @:16216 op:91,dt:2,nt:9,next:16217,str:644,d0:0,d1:0;
+                    ("player0", ScriptInvocation<List> @:16217 op:0,dt:31,nt:10,next:65535,str:28161,d0:16218,d1:41678;
+                        ("player0", Expression<MethodOrOperator> @:16218 op:0,dt:2,nt:9,next:65535,str:602,d0:0,d1:0;)))))))

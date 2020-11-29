@@ -1,0 +1,24 @@
+
+("cs_e16_cov_phantom0_exit", MethodDecl<Void> @:381 check:0,op:0,dt:0,nt:65535,next:13714,nextCheck:39174,str:28023,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:13714 check:39174,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:47840,h:2,d0:13715,d1:39175;
+        ("begin", Expression<MethodOrOperator> @:13715 check:39175,op:0,dt:2,nt:9,next:13694,nextCheck:39154,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:13694 check:39154,op:449,dt:4,nt:8,next:13697,nextCheck:39157,str:47890,h:2,d0:13695,d1:39155;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:13695 check:39155,op:449,dt:2,nt:9,next:13696,nextCheck:39156,str:15342,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:13696 check:39156,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:47922,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:13697 check:39157,op:382,dt:4,nt:8,next:13702,nextCheck:39162,str:47930,h:2,d0:13698,d1:39158;
+                ("cs_fly_to_and_face", Expression<MethodOrOperator> @:13698 check:39158,op:382,dt:2,nt:9,next:13699,nextCheck:39159,str:27884,h:0,d0:0,d1:0;
+                    ("e16_cov_phantom0/p0", Expression<SpatialPoint> @:13699 check:39159,op:28,dt:28,nt:9,next:13700,nextCheck:39160,str:27903,h:0,d0:0,d1:9;
+                        ("e16_cov_phantom0/p1", Expression<SpatialPoint> @:13700 check:39160,op:28,dt:28,nt:9,next:13701,nextCheck:39161,str:27923,h:0,d0:1,d1:9;
+                            (1f, Expression<Float> @:13701 check:39161,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:47990,h:2,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:13702 check:39162,op:383,dt:4,nt:8,next:13705,nextCheck:39165,str:47997,h:2,d0:13703,d1:39163;
+                ("cs_fly_by", Expression<MethodOrOperator> @:13703 check:39163,op:383,dt:2,nt:9,next:13704,nextCheck:39164,str:15373,h:0,d0:0,d1:0;
+                    ("e16_cov_phantom0/p1", Expression<SpatialPoint> @:13704 check:39164,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:27923,h:0,d0:1,d1:9;)))
+            (____, Scope<Void> @:13705 check:39165,op:438,dt:4,nt:8,next:13708,nextCheck:39168,str:48031,h:2,d0:13706,d1:39166;
+                ("cs_vehicle_boost", Expression<MethodOrOperator> @:13706 check:39166,op:438,dt:2,nt:9,next:13707,nextCheck:39167,str:15305,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:13707 check:39167,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:48049,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:13708 check:39168,op:383,dt:4,nt:8,next:13711,nextCheck:39171,str:48057,h:2,d0:13709,d1:39169;
+                ("cs_fly_by", Expression<MethodOrOperator> @:13709 check:39169,op:383,dt:2,nt:9,next:13710,nextCheck:39170,str:15373,h:0,d0:0,d1:0;
+                    ("e16_cov_phantom0/p2", Expression<SpatialPoint> @:13710 check:39170,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:27943,h:0,d0:2,d1:9;)))
+            (____, Scope<Void> @:13711 check:39171,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:48091,h:2,d0:13712,d1:39172;
+                ("ai_erase", Expression<MethodOrOperator> @:13712 check:39172,op:298,dt:2,nt:9,next:13713,nextCheck:39173,str:15452,h:0,d0:0,d1:0;
+                    ("ai_current_squad", VariableAccess<AI> @:13713 check:39173,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:22707,h:0,d0:33563,d1:65535;))))))

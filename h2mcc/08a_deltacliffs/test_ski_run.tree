@@ -1,0 +1,20 @@
+
+("test_ski_run", MethodDecl<Void> @:125 op:0,dt:0,nt:65535,next:4439,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:4439 op:0,dt:4,nt:8,next:65535,str:52185,d0:4440,d1:62667;
+        ("begin", Expression<MethodOrOperator> @:4440 op:0,dt:2,nt:9,next:4423,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:4423 op:105,dt:4,nt:8,next:4428,str:52220,d0:4424,d1:62651;
+                ("object_teleport", Expression<MethodOrOperator> @:4424 op:105,dt:2,nt:9,next:4425,str:8606,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:4425 op:0,dt:50,nt:10,next:4427,str:52237,d0:4426,d1:62653;
+                        ("player0", Expression<MethodOrOperator> @:4426 op:0,dt:2,nt:9,next:65535,str:665,d0:0,d1:0;))
+                    ("e9_test", Expression<LocationFlag> @:4427 op:14,dt:14,nt:9,next:65535,str:9319,d0:6,d1:0;)))
+            (____, Scope<Void> @:4428 op:290,dt:4,nt:8,next:4431,str:52258,d0:4429,d1:62656;
+                ("ai_place", Expression<MethodOrOperator> @:4429 op:290,dt:2,nt:9,next:4430,str:6964,d0:0,d1:0;
+                    ("e9_cov_ghosts0", Expression<AI> @:4430 op:19,dt:19,nt:9,next:65535,str:8121,d0:62,d1:0;)))
+            (____, Scope<Void> @:4431 op:2,dt:4,nt:8,next:65535,str:52286,d0:4432,d1:62659;
+                ("if", Expression<MethodOrOperator> @:4432 op:2,dt:2,nt:9,next:4433,str:519,d0:0,d1:0;
+                    (____, Scope<Boolean> @:4433 op:25,dt:5,nt:8,next:4436,str:52290,d0:4434,d1:62661;
+                        ("not", Expression<MethodOrOperator> @:4434 op:25,dt:2,nt:9,next:4435,str:460,d0:0,d1:0;
+                            ("g_e9_started", VariableAccess<Boolean> @:4435 op:5,dt:5,nt:13,next:65535,str:9134,d0:16,d1:0;)))
+                    (____, Scope<Void> @:4436 op:22,dt:4,nt:8,next:65535,str:52309,d0:4437,d1:62664;
+                        ("wake", Expression<MethodOrOperator> @:4437 op:22,dt:2,nt:9,next:4438,str:1129,d0:0,d1:0;
+                            ("e9_main", Expression<ScriptReference> @:4438 op:10,dt:10,nt:9,next:65535,str:9147,d0:124,d1:65535;))))))))

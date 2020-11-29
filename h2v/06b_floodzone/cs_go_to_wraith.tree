@@ -1,0 +1,12 @@
+
+("cs_go_to_wraith", MethodDecl<Void> @:179 check:0,op:0,dt:0,nt:65535,next:7251,nextCheck:65478,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:7251 check:65478,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:18275,h:1,d0:7252,d1:65479;
+        ("begin", Expression<MethodOrOperator> @:7252 check:65479,op:0,dt:2,nt:9,next:7243,nextCheck:65470,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:7243 check:65470,op:449,dt:4,nt:8,next:7246,nextCheck:65473,str:18316,h:1,d0:7244,d1:65471;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:7244 check:65471,op:449,dt:2,nt:9,next:7245,nextCheck:65472,str:13791,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:7245 check:65472,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:18348,h:1,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:7246 check:65473,op:426,dt:4,nt:8,next:65535,nextCheck:65535,str:18356,h:1,d0:7247,d1:65474;
+                ("cs_go_to_vehicle", Expression<MethodOrOperator> @:7247 check:65474,op:426,dt:2,nt:9,next:7248,nextCheck:65475,str:15920,h:0,d0:0,d1:0;
+                    (____, Scope<Vehicle> @:7248 check:65475,op:341,dt:52,nt:8,next:65535,nextCheck:65535,str:18374,h:1,d0:7249,d1:65476;
+                        ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:7249 check:65476,op:341,dt:2,nt:9,next:7250,nextCheck:65477,str:13120,h:0,d0:0,d1:0;
+                            ("veh_int_wraith/wraith", Expression<AI> @:7250 check:65477,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:15937,h:0,d0:0,d1:49175;))))))))

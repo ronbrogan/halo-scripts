@@ -1,0 +1,33 @@
+
+("plug_rods05", MethodDecl<Void> @:264 check:0,op:0,dt:0,nt:65535,next:11512,nextCheck:36972,str:20747,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:11512 check:36972,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:51455,h:1,d0:11513,d1:36973;
+        ("begin", Expression<MethodOrOperator> @:11513 check:36973,op:0,dt:2,nt:9,next:11483,nextCheck:36943,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:11483 check:36943,op:21,dt:4,nt:8,next:11500,nextCheck:36960,str:51485,h:1,d0:11484,d1:36944;
+                ("sleep_until", Expression<MethodOrOperator> @:11484 check:36944,op:21,dt:2,nt:9,next:11485,nextCheck:36945,str:231,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:11485 check:36945,op:6,dt:5,nt:8,next:11499,nextCheck:36959,str:51498,h:1,d0:11486,d1:36946;
+                        ("or", Expression<MethodOrOperator> @:11486 check:36946,op:6,dt:2,nt:9,next:11487,nextCheck:36947,str:844,h:0,d0:0,d1:0;
+                            (____, Scope<Boolean> @:11487 check:36947,op:15,dt:5,nt:8,next:11493,nextCheck:36953,str:51508,h:1,d0:11488,d1:36948;
+                                (">", Expression<MethodOrOperator> @:11488 check:36948,op:15,dt:2,nt:9,next:11489,nextCheck:36949,str:16135,h:0,d0:0,d1:0;
+                                    (-4.2238635E-29f, Scope<Float> @:11489 check:36949,op:259,dt:6,nt:8,next:11492,nextCheck:36952,str:51511,h:1,d0:11490,d1:36950;
+                                        ("device_group_get", Expression<MethodOrOperator> @:11490 check:36950,op:259,dt:2,nt:9,next:11491,nextCheck:36951,str:16137,h:0,d0:0,d1:0;
+                                            ("group_plug_b", Expression<DeviceGroup> @:11491 check:36951,op:18,dt:18,nt:9,next:65535,nextCheck:65535,str:20524,h:0,d0:18,d1:58742;)))
+                                    (0f, Expression<Float> @:11492 check:36952,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:51543,h:1,d0:0,d1:0;)))
+                            (____, Scope<Boolean> @:11493 check:36953,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:51552,h:1,d0:11494,d1:36954;
+                                ("<=", Expression<MethodOrOperator> @:11494 check:36954,op:18,dt:2,nt:9,next:11495,nextCheck:36955,str:16164,h:0,d0:0,d1:0;
+                                    (-4.3421944E-29f, Scope<Float> @:11495 check:36955,op:70,dt:6,nt:8,next:11498,nextCheck:36958,str:51556,h:1,d0:11496,d1:36956;
+                                        ("object_get_shield", Expression<MethodOrOperator> @:11496 check:36956,op:70,dt:2,nt:9,next:11497,nextCheck:36957,str:16167,h:0,d0:0,d1:0;
+                                            (4294901760, Expression<Entity> @:11497 check:36957,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:20276,h:0,d0:0,d1:65535;)))
+                                    (0f, Expression<Float> @:11498 check:36958,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:51591,h:1,d0:0,d1:0;)))))
+                    (5, Expression<Short> @:11499 check:36959,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:51603,h:1,d0:5,d1:65535;)))
+            (____, Scope<Void> @:11500 check:36960,op:256,dt:4,nt:8,next:11504,nextCheck:36964,str:51608,h:1,d0:11501,d1:36961;
+                ("device_set_position", Expression<MethodOrOperator> @:11501 check:36961,op:256,dt:2,nt:9,next:11502,nextCheck:36962,str:3760,h:0,d0:0,d1:0;
+                    ("plug_thin_fl", Expression<Device> @:11502 check:36962,op:60,dt:54,nt:9,next:11503,nextCheck:36963,str:20537,h:0,d0:401,d1:65535;
+                        (1f, Expression<Float> @:11503 check:36963,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:51642,h:1,d0:0,d1:16256;))))
+            (____, Scope<Void> @:11504 check:36964,op:256,dt:4,nt:8,next:11508,nextCheck:36968,str:51647,h:1,d0:11505,d1:36965;
+                ("device_set_position", Expression<MethodOrOperator> @:11505 check:36965,op:256,dt:2,nt:9,next:11506,nextCheck:36966,str:3760,h:0,d0:0,d1:0;
+                    ("plug_thick_fl", Expression<Device> @:11506 check:36966,op:60,dt:54,nt:9,next:11507,nextCheck:36967,str:20550,h:0,d0:398,d1:65535;
+                        (1f, Expression<Float> @:11507 check:36967,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:51682,h:1,d0:0,d1:16256;))))
+            (____, Scope<Void> @:11508 check:36968,op:43,dt:4,nt:8,next:65535,nextCheck:65535,str:51687,h:1,d0:11509,d1:36969;
+                ("damage_object", Expression<MethodOrOperator> @:11509 check:36969,op:43,dt:2,nt:9,next:11510,nextCheck:36970,str:16185,h:0,d0:0,d1:0;
+                    ("scenarios\objects\solo\sentinelhq\door_piston_absorber\damage_effects\damage_absorber", Expression<DamageEffect> @:11510 check:36970,op:34,dt:34,nt:9,next:11511,nextCheck:36971,str:16199,h:0,d0:7226,d1:65133;
+                        (4294901760, Expression<Entity> @:11511 check:36971,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:20276,h:0,d0:0,d1:65535;)))))))

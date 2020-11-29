@@ -1,0 +1,17 @@
+
+("silo_rot_180_minus", MethodDecl<Void> @:189 op:0,dt:0,nt:65535,next:6587,str:16800,d0:0,d1:0;
+    (____, Scope<Void> @:6587 op:0,dt:4,nt:8,next:65535,str:9967,d0:6588,d1:64815;
+        ("begin", Expression<MethodOrOperator> @:6588 op:0,dt:2,nt:9,next:6574,str:210,d0:0,d1:0;
+            (____, Scope<Void> @:6574 op:266,dt:4,nt:8,next:6579,str:10008,d0:6575,d1:64802;
+                ("device_set_position_track", Expression<MethodOrOperator> @:6575 op:266,dt:2,nt:9,next:6576,str:15363,d0:0,d1:0;
+                    ("elev_silo", Expression<Device> @:6576 op:60,dt:54,nt:9,next:6577,str:15218,d0:385,d1:65535;
+                        ("rot_180_counterclockwise", Expression<StringId> @:6577 op:11,dt:11,nt:9,next:6578,str:15508,d0:11716,d1:6144;
+                            (0f, Expression<Float> @:6578 op:6,dt:6,nt:9,next:65535,str:10070,d0:0,d1:0;)))))
+            (____, Scope<Void> @:6579 op:268,dt:4,nt:8,next:65535,str:10075,d0:6580,d1:64807;
+                ("device_animate_position", Expression<MethodOrOperator> @:6580 op:268,dt:2,nt:9,next:6581,str:15398,d0:0,d1:0;
+                    ("elev_silo", Expression<Device> @:6581 op:60,dt:54,nt:9,next:6582,str:15218,d0:385,d1:65535;
+                        (1f, Expression<Float> @:6582 op:6,dt:6,nt:9,next:6583,str:10110,d0:0,d1:16256;
+                            (10f, Expression<Float> @:6583 op:6,dt:6,nt:9,next:6584,str:10112,d0:0,d1:16672;
+                                (1f, Expression<Float> @:6584 op:6,dt:6,nt:9,next:6585,str:10115,d0:0,d1:16256;
+                                    (1f, Expression<Float> @:6585 op:6,dt:6,nt:9,next:6586,str:10117,d0:0,d1:16256;
+                                        (False, Expression<Boolean> @:6586 op:5,dt:5,nt:9,next:65535,str:10119,d0:65280,d1:65535;)))))))))))

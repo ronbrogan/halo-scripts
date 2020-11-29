@@ -1,0 +1,20 @@
+
+("e17_doors_main", MethodDecl<Void> @:365 check:0,op:0,dt:0,nt:65535,next:13129,nextCheck:38589,str:27450,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:13129 check:38589,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:39907,h:2,d0:13130,d1:38590;
+        ("begin", Expression<MethodOrOperator> @:13130 check:38590,op:0,dt:2,nt:9,next:13113,nextCheck:38573,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:13113 check:38573,op:256,dt:4,nt:8,next:13117,nextCheck:38577,str:39940,h:2,d0:13114,d1:38574;
+                ("device_set_position", Expression<MethodOrOperator> @:13114 check:38574,op:256,dt:2,nt:9,next:13115,nextCheck:38575,str:21814,h:0,d0:0,d1:0;
+                    ("e17_door1", Expression<Device> @:13115 check:38575,op:60,dt:54,nt:9,next:13116,nextCheck:38576,str:26810,h:0,d0:104,d1:65535;
+                        (1f, Expression<Float> @:13116 check:38576,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:39971,h:2,d0:0,d1:16256;))))
+            (____, Scope<Void> @:13117 check:38577,op:21,dt:4,nt:8,next:13125,nextCheck:38585,str:40058,h:2,d0:13118,d1:38578;
+                ("sleep_until", Expression<MethodOrOperator> @:13118 check:38578,op:21,dt:2,nt:9,next:13119,nextCheck:38579,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:13119 check:38579,op:33,dt:5,nt:8,next:13124,nextCheck:38584,str:40071,h:2,d0:13120,d1:38580;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:13120 check:38580,op:33,dt:2,nt:9,next:13121,nextCheck:38581,str:13177,h:0,d0:0,d1:0;
+                            ("tv_e17_section2", Expression<Trigger> @:13121 check:38581,op:13,dt:13,nt:9,next:13122,nextCheck:38582,str:26841,h:0,d0:69,d1:0;
+                                (____, Scope<List> @:13122 check:38582,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:40108,h:2,d0:13123,d1:38583;
+                                    ("players", Expression<MethodOrOperator> @:13123 check:38583,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                    (15, Expression<Short> @:13124 check:38584,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:40119,h:2,d0:15,d1:65535;)))
+            (____, Scope<Void> @:13125 check:38585,op:256,dt:4,nt:8,next:65535,nextCheck:65535,str:40125,h:2,d0:13126,d1:38586;
+                ("device_set_position", Expression<MethodOrOperator> @:13126 check:38586,op:256,dt:2,nt:9,next:13127,nextCheck:38587,str:21814,h:0,d0:0,d1:0;
+                    ("e17_door0", Expression<Device> @:13127 check:38587,op:60,dt:54,nt:9,next:13128,nextCheck:38588,str:26800,h:0,d0:103,d1:65535;
+                        (1f, Expression<Float> @:13128 check:38588,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:40156,h:2,d0:0,d1:16256;)))))))

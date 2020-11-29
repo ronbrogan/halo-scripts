@@ -1,0 +1,35 @@
+
+("cinematic_lighting_intra2", MethodDecl<Void> @:87 check:0,op:0,dt:0,nt:65535,next:4115,nextCheck:62342,str:9943,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:4115 check:62342,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:46102,h:0,d0:4116,d1:62343;
+        ("begin", Expression<MethodOrOperator> @:4116 check:62343,op:0,dt:2,nt:9,next:4084,nextCheck:62311,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:4084 check:62311,op:96,dt:4,nt:8,next:4091,nextCheck:62318,str:46149,h:0,d0:4085,d1:62312;
+                ("cinematic_lighting_set_primary_light", Expression<MethodOrOperator> @:4085 check:62312,op:96,dt:2,nt:9,next:4086,nextCheck:62313,str:5553,h:0,d0:0,d1:0;
+                    (33f, Expression<Float> @:4086 check:62313,op:6,dt:6,nt:9,next:4087,nextCheck:62314,str:46187,h:0,d0:0,d1:16900;
+                        (0f, Expression<Float> @:4087 check:62314,op:6,dt:6,nt:9,next:4088,nextCheck:62315,str:46190,h:0,d0:0,d1:0;
+                            (0.258824f, Expression<Float> @:4088 check:62315,op:6,dt:6,nt:9,next:4089,nextCheck:62316,str:46192,h:0,d0:33940,d1:16004;
+                                (0.278431f, Expression<Float> @:4089 check:62316,op:6,dt:6,nt:9,next:4090,nextCheck:62317,str:46201,h:0,d0:36482,d1:16014;
+                                    (0.34902f, Expression<Float> @:4090 check:62317,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:46210,h:0,d0:45760,d1:16050;)))))))
+            (____, Scope<Void> @:4091 check:62318,op:97,dt:4,nt:8,next:4098,nextCheck:62325,str:46221,h:0,d0:4092,d1:62319;
+                ("cinematic_lighting_set_secondary_light", Expression<MethodOrOperator> @:4092 check:62319,op:97,dt:2,nt:9,next:4093,nextCheck:62320,str:5590,h:0,d0:0,d1:0;
+                    (-37f, Expression<Float> @:4093 check:62320,op:6,dt:6,nt:9,next:4094,nextCheck:62321,str:46261,h:0,d0:0,d1:49684;
+                        (228f, Expression<Float> @:4094 check:62321,op:6,dt:6,nt:9,next:4095,nextCheck:62322,str:46265,h:0,d0:0,d1:17252;
+                            (0.109804f, Expression<Float> @:4095 check:62322,op:6,dt:6,nt:9,next:4096,nextCheck:62323,str:46269,h:0,d0:57579,d1:15840;
+                                (0.419608f, Expression<Float> @:4096 check:62323,op:6,dt:6,nt:9,next:4097,nextCheck:62324,str:46278,h:0,d0:55004,d1:16086;
+                                    (0.611765f, Expression<Float> @:4097 check:62324,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:46287,h:0,d0:40098,d1:16156;)))))))
+            (____, Scope<Void> @:4098 check:62325,op:98,dt:4,nt:8,next:4103,nextCheck:62330,str:46299,h:0,d0:4099,d1:62326;
+                ("cinematic_lighting_set_ambient_light", Expression<MethodOrOperator> @:4099 check:62326,op:98,dt:2,nt:9,next:4100,nextCheck:62327,str:5629,h:0,d0:0,d1:0;
+                    (0.121569f, Expression<Float> @:4100 check:62327,op:6,dt:6,nt:9,next:4101,nextCheck:62328,str:46337,h:0,d0:63787,d1:15864;
+                        (0.121569f, Expression<Float> @:4101 check:62328,op:6,dt:6,nt:9,next:4102,nextCheck:62329,str:46346,h:0,d0:63787,d1:15864;
+                            (0.0705882f, Expression<Float> @:4102 check:62329,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:46355,h:0,d0:37004,d1:15760;)))))
+            (____, Scope<Void> @:4103 check:62330,op:95,dt:4,nt:8,next:4107,nextCheck:62334,str:46371,h:0,d0:4104,d1:62331;
+                ("object_uses_cinematic_lighting", Expression<MethodOrOperator> @:4104 check:62331,op:95,dt:2,nt:9,next:4105,nextCheck:62332,str:5666,h:0,d0:0,d1:0;
+                    (4294901849, Expression<Entity> @:4105 check:62332,op:56,dt:50,nt:9,next:4106,nextCheck:62333,str:7650,h:0,d0:89,d1:65535;
+                        (True, Expression<Boolean> @:4106 check:62333,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:46414,h:0,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:4107 check:62334,op:95,dt:4,nt:8,next:4111,nextCheck:62338,str:46419,h:0,d0:4108,d1:62335;
+                ("object_uses_cinematic_lighting", Expression<MethodOrOperator> @:4108 check:62335,op:95,dt:2,nt:9,next:4109,nextCheck:62336,str:5666,h:0,d0:0,d1:0;
+                    (4294901850, Expression<Entity> @:4109 check:62336,op:56,dt:50,nt:9,next:4110,nextCheck:62337,str:9293,h:0,d0:90,d1:65535;
+                        (True, Expression<Boolean> @:4110 check:62337,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:46462,h:0,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:4111 check:62338,op:95,dt:4,nt:8,next:65535,nextCheck:65535,str:46467,h:0,d0:4112,d1:62339;
+                ("object_uses_cinematic_lighting", Expression<MethodOrOperator> @:4112 check:62339,op:95,dt:2,nt:9,next:4113,nextCheck:62340,str:5666,h:0,d0:0,d1:0;
+                    (4294901772, Expression<Entity> @:4113 check:62340,op:56,dt:50,nt:9,next:4114,nextCheck:62341,str:9718,h:0,d0:12,d1:65535;
+                        (True, Expression<Boolean> @:4114 check:62341,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:46509,h:0,d0:65281,d1:65535;)))))))

@@ -1,0 +1,21 @@
+
+("cs_e13_cov_creep0_end2", MethodDecl<Void> @:163 check:0,op:0,dt:0,nt:65535,next:5381,nextCheck:63608,str:11477,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:5381 check:63608,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:61415,h:0,d0:5382,d1:63609;
+        ("begin", Expression<MethodOrOperator> @:5382 check:63609,op:0,dt:2,nt:9,next:5364,nextCheck:63591,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:5364 check:63591,op:449,dt:4,nt:8,next:5367,nextCheck:63594,str:61463,h:0,d0:5365,d1:63592;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:5365 check:63592,op:449,dt:2,nt:9,next:5366,nextCheck:63593,str:4245,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:5366 check:63593,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:61495,h:0,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:5367 check:63594,op:385,dt:4,nt:8,next:5370,nextCheck:63597,str:61559,h:0,d0:5368,d1:63595;
+                ("cs_go_to", Expression<MethodOrOperator> @:5368 check:63595,op:385,dt:2,nt:9,next:5369,nextCheck:63596,str:4471,h:0,d0:0,d1:0;
+                    ("e13_cov_creep0_chase/third_end", Expression<SpatialPoint> @:5369 check:63596,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:11267,h:0,d0:5,d1:35;)))
+            (____, Scope<Void> @:5370 check:63597,op:399,dt:4,nt:8,next:5374,nextCheck:63601,str:61603,h:0,d0:5371,d1:63598;
+                ("cs_face", Expression<MethodOrOperator> @:5371 check:63598,op:399,dt:2,nt:9,next:5372,nextCheck:63599,str:11146,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:5372 check:63599,op:5,dt:5,nt:9,next:5373,nextCheck:63600,str:61612,h:0,d0:65281,d1:65535;
+                        ("e13_cov_creep0_chase/end_facing", Expression<SpatialPoint> @:5373 check:63600,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:11154,h:0,d0:2,d1:35;))))
+            (____, Scope<Void> @:5374 check:63601,op:19,dt:4,nt:8,next:5377,nextCheck:63604,str:61652,h:0,d0:5375,d1:63602;
+                ("sleep", Expression<MethodOrOperator> @:5375 check:63602,op:19,dt:2,nt:9,next:5376,nextCheck:63603,str:143,h:0,d0:0,d1:0;
+                    (150, Expression<Short> @:5376 check:63603,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:61659,h:0,d0:150,d1:65535;)))
+            (____, Scope<Void> @:5377 check:63604,op:367,dt:4,nt:8,next:65535,nextCheck:65535,str:61666,h:0,d0:5378,d1:63605;
+                ("cs_queue_command_script", Expression<MethodOrOperator> @:5378 check:63605,op:367,dt:2,nt:9,next:5379,nextCheck:63606,str:11186,h:0,d0:0,d1:0;
+                    ("ai_current_actor", VariableAccess<AI> @:5379 check:63606,op:19,dt:19,nt:13,next:5380,nextCheck:63607,str:4311,h:0,d0:33564,d1:65535;
+                        ("cs_e13_cov_creep0_unload", Expression<AIScript> @:5380 check:63607,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:11210,h:0,d0:160,d1:0;)))))))

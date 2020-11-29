@@ -1,0 +1,19 @@
+
+("lz_saddle_up", MethodDecl<Void> @:202 op:0,dt:0,nt:65535,next:6975,str:16697,d0:0,d1:0;
+    (____, Scope<Void> @:6975 op:0,dt:4,nt:8,next:65535,str:19313,d0:6976,d1:65203;
+        ("begin", Expression<MethodOrOperator> @:6976 op:0,dt:2,nt:9,next:6960,str:54,d0:0,d1:0;
+            (____, Scope<Void> @:6960 op:374,dt:4,nt:8,next:6963,str:19351,d0:6961,d1:65188;
+                ("cs_switch", Expression<MethodOrOperator> @:6961 op:374,dt:2,nt:9,next:6962,str:15425,d0:0,d1:0;
+                    ("lz_ally", Expression<StringId> @:6962 op:11,dt:11,nt:9,next:65535,str:15509,d0:12399,d1:1792;)))
+            (____, Scope<Void> @:6963 op:449,dt:4,nt:8,next:6966,str:19373,d0:6964,d1:65191;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:6964 op:449,dt:2,nt:9,next:6965,str:15268,d0:0,d1:0;
+                    (True, Expression<Boolean> @:6965 op:5,dt:5,nt:9,next:65535,str:19405,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:6966 op:440,dt:4,nt:8,next:6969,str:19413,d0:6967,d1:65194;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:6967 op:440,dt:2,nt:9,next:6968,str:15443,d0:0,d1:0;
+                    (True, Expression<Boolean> @:6968 op:5,dt:5,nt:9,next:65535,str:19433,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:6969 op:27,dt:4,nt:8,next:6972,str:19441,d0:6970,d1:65197;
+                ("print", Expression<MethodOrOperator> @:6970 op:27,dt:2,nt:9,next:6971,str:139,d0:0,d1:0;
+                    ("ally: 'saddle-up!  we're moving out!'", Expression<String> @:6971 op:9,dt:9,nt:9,next:65535,str:15517,d0:15517,d1:0;)))
+            (____, Scope<Void> @:6972 op:418,dt:4,nt:8,next:65535,str:19491,d0:6973,d1:65200;
+                ("cs_play_line", Expression<MethodOrOperator> @:6973 op:418,dt:2,nt:9,next:6974,str:15491,d0:0,d1:0;
+                    ("0050", Expression<StringId> @:6974 op:11,dt:11,nt:9,next:65535,str:15555,d0:12018,d1:1024;))))))

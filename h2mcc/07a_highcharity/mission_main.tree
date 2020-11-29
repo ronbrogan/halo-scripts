@@ -1,0 +1,21 @@
+
+("mission_main", MethodDecl<Void> @:429 op:0,dt:0,nt:65535,next:22869,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:22869 op:0,dt:4,nt:8,next:65535,str:49214,d0:22870,d1:48330;
+        ("begin", Expression<MethodOrOperator> @:22870 op:0,dt:2,nt:9,next:22852,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:22852 op:310,dt:4,nt:8,next:22856,str:49293,d0:22853,d1:48313;
+                ("ai_allegiance", Expression<MethodOrOperator> @:22853 op:310,dt:2,nt:9,next:22854,str:44702,d0:0,d1:0;
+                    ("player", Expression<Team> @:22854 op:45,dt:45,nt:9,next:22855,str:44716,d0:1,d1:65535;
+                        ("human", Expression<Team> @:22855 op:45,dt:45,nt:9,next:65535,str:44723,d0:2,d1:65535;))))
+            (____, Scope<Void> @:22856 op:310,dt:4,nt:8,next:22860,str:49324,d0:22857,d1:48317;
+                ("ai_allegiance", Expression<MethodOrOperator> @:22857 op:310,dt:2,nt:9,next:22858,str:44702,d0:0,d1:0;
+                    ("human", Expression<Team> @:22858 op:45,dt:45,nt:9,next:22859,str:44723,d0:2,d1:65535;
+                        ("player", Expression<Team> @:22859 op:45,dt:45,nt:9,next:65535,str:44716,d0:1,d1:65535;))))
+            (____, Scope<Void> @:22860 op:2,dt:4,nt:8,next:65535,str:49443,d0:22861,d1:48321;
+                ("if", Expression<MethodOrOperator> @:22861 op:2,dt:2,nt:9,next:22862,str:456,d0:0,d1:0;
+                    (____, Scope<Boolean> @:22862 op:15,dt:5,nt:8,next:22867,str:49447,d0:22863,d1:48323;
+                        (">", Expression<MethodOrOperator> @:22863 op:15,dt:2,nt:9,next:22864,str:19379,d0:0,d1:0;
+                            ("player_count", ScriptInvocation<Short> @:22864 op:2,dt:7,nt:10,next:22866,str:49450,d0:22865,d1:48325;
+                                ("player_count", Expression<MethodOrOperator> @:22865 op:2,dt:2,nt:9,next:65535,str:44729,d0:0,d1:0;))
+                            (0, Expression<Short> @:22866 op:7,dt:7,nt:9,next:65535,str:49465,d0:0,d1:65535;)))
+                    ("start", ScriptInvocation<Void> @:22867 op:428,dt:4,nt:10,next:65535,str:49469,d0:22868,d1:48328;
+                        ("start", Expression<MethodOrOperator> @:22868 op:428,dt:2,nt:9,next:65535,str:44742,d0:0,d1:0;)))))))

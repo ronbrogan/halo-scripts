@@ -1,0 +1,37 @@
+
+("c08_4320_tar", MethodDecl<Void> @:153 op:0,dt:0,nt:65535,next:6160,str:15366,d0:0,d1:0;
+    (____, Scope<Void> @:6160 op:0,dt:4,nt:8,next:65535,str:5855,d0:6161,d1:64388;
+        ("begin", Expression<MethodOrOperator> @:6161 op:0,dt:2,nt:9,next:6127,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:6127 op:19,dt:4,nt:8,next:6130,str:5886,d0:6128,d1:64355;
+                ("sleep", Expression<MethodOrOperator> @:6128 op:19,dt:2,nt:9,next:6129,str:85,d0:0,d1:0;
+                    (106, Expression<Short> @:6129 op:7,dt:7,nt:9,next:65535,str:5893,d0:106,d1:65535;)))
+            (____, Scope<Void> @:6130 op:596,dt:4,nt:8,next:6135,str:5900,d0:6131,d1:64358;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:6131 op:596,dt:2,nt:9,next:6132,str:1586,d0:0,d1:0;
+                    ("sound\dialog\levels\08_controlroom\cinematic\c08_4320_tar", Expression<Sound> @:6132 op:32,dt:32,nt:9,next:6133,str:15308,d0:801,d1:58519;
+                        (4294901843, Expression<Entity> @:6133 op:56,dt:50,nt:9,next:6134,str:11066,d0:83,d1:65535;
+                            (1f, Expression<Float> @:6134 op:6,dt:6,nt:9,next:65535,str:5988,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:6135 op:562,dt:4,nt:8,next:6139,str:5993,d0:6136,d1:64363;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:6136 op:562,dt:2,nt:9,next:6137,str:7661,d0:0,d1:0;
+                    ("c08_4320_tar", Expression<StringId> @:6137 op:11,dt:11,nt:9,next:6138,str:15366,d0:4683,d1:3072;
+                        (1f, Expression<Float> @:6138 op:6,dt:6,nt:9,next:65535,str:6026,d0:0,d1:16256;))))
+            (____, Scope<Void> @:6139 op:220,dt:4,nt:8,next:6145,str:6034,d0:6140,d1:64367;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:6140 op:220,dt:2,nt:9,next:6141,str:9899,d0:0,d1:0;
+                    ("miranda", Expression<Unit> @:6141 op:57,dt:51,nt:9,next:6142,str:11367,d0:80,d1:65535;
+                        ("pain", Expression<StringId> @:6142 op:11,dt:11,nt:9,next:6143,str:11669,d0:432,d1:1024;
+                            (0.5f, Expression<Float> @:6143 op:6,dt:6,nt:9,next:6144,str:6073,d0:0,d1:16128;
+                                (0, Expression<Short> @:6144 op:7,dt:7,nt:9,next:65535,str:6076,d0:0,d1:65535;))))))
+            (____, Scope<Void> @:6145 op:27,dt:4,nt:8,next:6148,str:6082,d0:6146,d1:64373;
+                ("print", Expression<MethodOrOperator> @:6146 op:27,dt:2,nt:9,next:6147,str:91,d0:0,d1:0;
+                    ("miranda - pain .5 0", Expression<String> @:6147 op:9,dt:9,nt:9,next:65535,str:15379,d0:15379,d1:0;)))
+            (____, Scope<Void> @:6148 op:19,dt:4,nt:8,next:6151,str:6117,d0:6149,d1:64376;
+                ("sleep", Expression<MethodOrOperator> @:6149 op:19,dt:2,nt:9,next:6150,str:85,d0:0,d1:0;
+                    (45, Expression<Short> @:6150 op:7,dt:7,nt:9,next:65535,str:6124,d0:45,d1:65535;)))
+            (____, Scope<Void> @:6151 op:220,dt:4,nt:8,next:6157,str:6133,d0:6152,d1:64379;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:6152 op:220,dt:2,nt:9,next:6153,str:9899,d0:0,d1:0;
+                    ("miranda", Expression<Unit> @:6153 op:57,dt:51,nt:9,next:6154,str:11367,d0:80,d1:65535;
+                        ("scared", Expression<StringId> @:6154 op:11,dt:11,nt:9,next:6155,str:15399,d0:427,d1:1536;
+                            (0.5f, Expression<Float> @:6155 op:6,dt:6,nt:9,next:6156,str:6174,d0:0,d1:16128;
+                                (15, Expression<Short> @:6156 op:7,dt:7,nt:9,next:65535,str:6177,d0:15,d1:65535;))))))
+            (____, Scope<Void> @:6157 op:27,dt:4,nt:8,next:65535,str:6184,d0:6158,d1:64385;
+                ("print", Expression<MethodOrOperator> @:6158 op:27,dt:2,nt:9,next:6159,str:91,d0:0,d1:0;
+                    ("miranda - scared .5 15", Expression<String> @:6159 op:9,dt:9,nt:9,next:65535,str:15406,d0:15406,d1:0;))))))

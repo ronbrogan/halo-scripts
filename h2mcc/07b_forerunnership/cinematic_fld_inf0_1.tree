@@ -1,0 +1,27 @@
+
+("cinematic_fld_inf0_1", MethodDecl<Void> @:247 op:0,dt:0,nt:65535,next:11193,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:11193 op:0,dt:4,nt:8,next:65535,str:13564,d0:11194,d1:36654;
+        ("begin", Expression<MethodOrOperator> @:11194 op:0,dt:2,nt:9,next:11170,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:11170 op:422,dt:4,nt:8,next:11173,str:13610,d0:11171,d1:36631;
+                ("cs_movement_mode", Expression<MethodOrOperator> @:11171 op:422,dt:2,nt:9,next:11172,str:21640,d0:0,d1:0;
+                    ("ai_movement_combat", VariableAccess<Short> @:11172 op:7,dt:7,nt:13,next:65535,str:23867,d0:33583,d1:65535;)))
+            (____, Scope<Void> @:11173 op:449,dt:4,nt:8,next:11176,str:13650,d0:11174,d1:36634;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:11174 op:449,dt:2,nt:9,next:11175,str:19767,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11175 op:5,dt:5,nt:9,next:65535,str:13682,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:11176 op:19,dt:4,nt:8,next:11179,str:13690,d0:11177,d1:36637;
+                ("sleep", Expression<MethodOrOperator> @:11177 op:19,dt:2,nt:9,next:11178,str:80,d0:0,d1:0;
+                    (1, Expression<Short> @:11178 op:7,dt:7,nt:9,next:65535,str:13697,d0:1,d1:65535;)))
+            (____, Scope<Void> @:11179 op:79,dt:4,nt:8,next:11187,str:13702,d0:11180,d1:36640;
+                ("object_set_velocity", Expression<MethodOrOperator> @:11180 op:79,dt:2,nt:9,next:11181,str:21906,d0:0,d1:0;
+                    (____, Scope<Entity> @:11181 op:284,dt:50,nt:8,next:11184,str:13723,d0:11182,d1:36642;
+                        ("ai_get_object", Expression<MethodOrOperator> @:11182 op:284,dt:2,nt:9,next:11183,str:9291,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:11183 op:19,dt:19,nt:13,next:65535,str:9305,d0:33564,d1:65535;)))
+                    (4f, Expression<Float> @:11184 op:6,dt:6,nt:9,next:11185,str:13756,d0:0,d1:16512;
+                        (0f, Expression<Float> @:11185 op:6,dt:6,nt:9,next:11186,str:13758,d0:0,d1:0;
+                            (1f, Expression<Float> @:11186 op:6,dt:6,nt:9,next:65535,str:13760,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:11187 op:385,dt:4,nt:8,next:11190,str:13765,d0:11188,d1:36648;
+                ("cs_go_to", Expression<MethodOrOperator> @:11188 op:385,dt:2,nt:9,next:11189,str:20715,d0:0,d1:0;
+                    ("cinematic_fld_inf0/p1", Expression<SpatialPoint> @:11189 op:28,dt:28,nt:9,next:65535,str:23908,d0:1,d1:12;)))
+            (____, Scope<Void> @:11190 op:298,dt:4,nt:8,next:65535,str:13800,d0:11191,d1:36651;
+                ("ai_erase", Expression<MethodOrOperator> @:11191 op:298,dt:2,nt:9,next:11192,str:13590,d0:0,d1:0;
+                    ("ai_current_actor", VariableAccess<AI> @:11192 op:19,dt:19,nt:13,next:65535,str:9305,d0:33564,d1:65535;))))))

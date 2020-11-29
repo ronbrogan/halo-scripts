@@ -1,0 +1,18 @@
+
+("e7_dia_filtration_systems", MethodDecl<Void> @:146 check:0,op:0,dt:0,nt:65535,next:4175,nextCheck:62402,str:20014,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:4175 check:62402,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:52519,h:0,d0:4176,d1:62403;
+        ("begin", Expression<MethodOrOperator> @:4176 check:62403,op:0,dt:2,nt:9,next:4161,nextCheck:62388,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:4161 check:62388,op:2,dt:4,nt:8,next:4167,nextCheck:62394,str:52563,h:0,d0:4162,d1:62389;
+                ("if", Expression<MethodOrOperator> @:4162 check:62389,op:2,dt:2,nt:9,next:4163,nextCheck:62390,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:4163 check:62390,op:5,dt:5,nt:13,next:4164,nextCheck:62391,str:10397,h:0,d0:3,d1:0;
+                        (____, Scope<Void> @:4164 check:62391,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:52576,h:0,d0:4165,d1:62392;
+                            ("print", Expression<MethodOrOperator> @:4165 check:62392,op:27,dt:2,nt:9,next:4166,nextCheck:62393,str:86,h:0,d0:0,d1:0;
+                                ("cortana: flood spores have contaminated the city's life-support infrastructure - the filtration systems are overloading!", Expression<String> @:4166 check:62393,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:11825,h:0,d0:45649,d1:11039;))))))
+            (____, Scope<Void> @:4167 check:62394,op:19,dt:4,nt:8,next:4172,nextCheck:62399,str:52756,h:0,d0:4168,d1:62395;
+                ("sleep", Expression<MethodOrOperator> @:4168 check:62395,op:19,dt:2,nt:9,next:4169,nextCheck:62396,str:80,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:4169 check:62396,op:601,dt:7,nt:8,next:65535,nextCheck:65535,str:52763,h:0,d0:4170,d1:62397;
+                        ("sound_impulse_language_time", Expression<MethodOrOperator> @:4170 check:62397,op:601,dt:2,nt:9,next:4171,nextCheck:62398,str:11946,h:0,d0:0,d1:0;
+                            ("sound\dialog\levels\07_highcharity\mission\l07_2850_cor", Expression<Sound> @:4171 check:62398,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:11974,h:0,d0:5057,d1:62946;)))))
+            (____, Scope<Void> @:4172 check:62399,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:52854,h:0,d0:4173,d1:62400;
+                ("sleep", Expression<MethodOrOperator> @:4173 check:62400,op:19,dt:2,nt:9,next:4174,nextCheck:62401,str:80,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:4174 check:62401,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:10515,h:0,d0:4,d1:0;))))))

@@ -1,0 +1,20 @@
+
+("cs_e5_pro_phantom0_exit", MethodDecl<Void> @:460 op:0,dt:0,nt:65535,next:18438,str:37479,d0:0,d1:0;
+    (____, Scope<Void> @:18438 op:0,dt:4,nt:8,next:65535,str:45135,d0:18439,d1:43899;
+        ("begin", Expression<MethodOrOperator> @:18439 op:0,dt:2,nt:9,next:18422,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:18422 op:381,dt:4,nt:8,next:18426,str:45184,d0:18423,d1:43883;
+                ("cs_fly_to_and_face", Expression<MethodOrOperator> @:18423 op:381,dt:2,nt:9,next:18424,str:28719,d0:0,d1:0;
+                    ("e5_pro_phantom0/p2", Expression<SpatialPoint> @:18424 op:28,dt:28,nt:9,next:18425,str:37330,d0:2,d1:8;
+                        ("e5_pro_phantom0/p2_facing", Expression<SpatialPoint> @:18425 op:28,dt:28,nt:9,next:65535,str:37349,d0:3,d1:8;))))
+            (____, Scope<Void> @:18426 op:383,dt:4,nt:8,next:18429,str:45252,d0:18427,d1:43887;
+                ("cs_fly_by", Expression<MethodOrOperator> @:18427 op:383,dt:2,nt:9,next:18428,str:26629,d0:0,d1:0;
+                    ("e5_pro_phantom0/p3", Expression<SpatialPoint> @:18428 op:28,dt:28,nt:9,next:65535,str:37375,d0:4,d1:8;)))
+            (____, Scope<Void> @:18429 op:438,dt:4,nt:8,next:18432,str:45285,d0:18430,d1:43890;
+                ("cs_vehicle_boost", Expression<MethodOrOperator> @:18430 op:438,dt:2,nt:9,next:18431,str:26691,d0:0,d1:0;
+                    (True, Expression<Boolean> @:18431 op:5,dt:5,nt:9,next:65535,str:45303,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:18432 op:383,dt:4,nt:8,next:18435,str:45311,d0:18433,d1:43893;
+                ("cs_fly_by", Expression<MethodOrOperator> @:18433 op:383,dt:2,nt:9,next:18434,str:26629,d0:0,d1:0;
+                    ("e5_pro_phantom0/p4", Expression<SpatialPoint> @:18434 op:28,dt:28,nt:9,next:65535,str:37394,d0:5,d1:8;)))
+            (____, Scope<Void> @:18435 op:298,dt:4,nt:8,next:65535,str:45344,d0:18436,d1:43896;
+                ("ai_erase", Expression<MethodOrOperator> @:18436 op:298,dt:2,nt:9,next:18437,str:6111,d0:0,d1:0;
+                    ("ai_current_squad", VariableAccess<AI> @:18437 op:19,dt:19,nt:13,next:65535,str:27085,d0:33563,d1:65535;))))))

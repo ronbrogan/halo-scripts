@@ -1,0 +1,28 @@
+
+("crack_spawn", MethodDecl<Void> @:247 op:0,dt:0,nt:65535,next:11571,str:24503,d0:0,d1:0;
+    (____, Scope<Void> @:11571 op:0,dt:4,nt:8,next:65535,str:5506,d0:11572,d1:37032;
+        ("begin", Expression<MethodOrOperator> @:11572 op:0,dt:2,nt:9,next:11547,str:54,d0:0,d1:0;
+            (____, Scope<Void> @:11547 op:21,dt:4,nt:8,next:11555,str:5536,d0:11548,d1:37008;
+                ("sleep_until", Expression<MethodOrOperator> @:11548 op:21,dt:2,nt:9,next:11549,str:284,d0:0,d1:0;
+                    (____, Scope<Boolean> @:11549 op:15,dt:5,nt:8,next:65535,str:5549,d0:11550,d1:37010;
+                        (">", Expression<MethodOrOperator> @:11550 op:15,dt:2,nt:9,next:11551,str:14341,d0:0,d1:0;
+                            (____, Scope<Short> @:11551 op:353,dt:7,nt:8,next:11554,str:5552,d0:11552,d1:37012;
+                                ("ai_combat_status", Expression<MethodOrOperator> @:11552 op:353,dt:2,nt:9,next:11553,str:20607,d0:0,d1:0;
+                                    ("bridge_enemies_bunker", Expression<AI> @:11553 op:19,dt:19,nt:9,next:65535,str:20806,d0:16,d1:16384;)))
+                            ("ai_combat_status_idle", VariableAccess<Short> @:11554 op:7,dt:7,nt:13,next:65535,str:20641,d0:33572,d1:65535;)))))
+            (____, Scope<Void> @:11555 op:2,dt:4,nt:8,next:11563,str:5692,d0:11556,d1:37016;
+                ("if", Expression<MethodOrOperator> @:11556 op:2,dt:2,nt:9,next:11557,str:509,d0:0,d1:0;
+                    ("difficulty_heroic", ScriptInvocation<Boolean> @:11557 op:5,dt:5,nt:10,next:11559,str:5696,d0:11558,d1:37018;
+                        ("difficulty_heroic", Expression<MethodOrOperator> @:11558 op:5,dt:2,nt:9,next:65535,str:14823,d0:0,d1:0;))
+                    (____, Scope<Void> @:11559 op:291,dt:4,nt:8,next:65535,str:5719,d0:11560,d1:37020;
+                        ("ai_place", Expression<MethodOrOperator> @:11560 op:291,dt:2,nt:9,next:11561,str:14859,d0:0,d1:0;
+                            ("bridge_crack_jackals", Expression<AI> @:11561 op:19,dt:19,nt:9,next:11562,str:22411,d0:48,d1:0;
+                                (1, Expression<Short> @:11562 op:7,dt:7,nt:9,next:65535,str:5750,d0:1,d1:65535;))))))
+            (____, Scope<Void> @:11563 op:2,dt:4,nt:8,next:65535,str:5759,d0:11564,d1:37024;
+                ("if", Expression<MethodOrOperator> @:11564 op:2,dt:2,nt:9,next:11565,str:509,d0:0,d1:0;
+                    ("difficulty_normal", ScriptInvocation<Boolean> @:11565 op:6,dt:5,nt:10,next:11567,str:5763,d0:11566,d1:37026;
+                        ("difficulty_normal", Expression<MethodOrOperator> @:11566 op:6,dt:2,nt:9,next:65535,str:14841,d0:0,d1:0;))
+                    (____, Scope<Void> @:11567 op:291,dt:4,nt:8,next:65535,str:5786,d0:11568,d1:37028;
+                        ("ai_place", Expression<MethodOrOperator> @:11568 op:291,dt:2,nt:9,next:11569,str:14859,d0:0,d1:0;
+                            ("bridge_crack_jackals", Expression<AI> @:11569 op:19,dt:19,nt:9,next:11570,str:22411,d0:48,d1:0;
+                                (2, Expression<Short> @:11570 op:7,dt:7,nt:9,next:65535,str:5817,d0:2,d1:65535;)))))))))

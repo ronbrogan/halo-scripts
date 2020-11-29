@@ -1,0 +1,31 @@
+
+("cs_e1_cov_spectre0_passenger", MethodDecl<Void> @:511 op:0,dt:0,nt:65535,next:20419,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:20419 op:0,dt:4,nt:8,next:65535,str:5936,d0:20420,d1:45880;
+        ("begin", Expression<MethodOrOperator> @:20420 op:0,dt:2,nt:9,next:20392,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:20392 op:394,dt:4,nt:8,next:20395,str:6012,d0:20393,d1:45853;
+                ("cs_look_player", Expression<MethodOrOperator> @:20393 op:394,dt:2,nt:9,next:20394,str:27271,d0:0,d1:0;
+                    (True, Expression<Boolean> @:20394 op:5,dt:5,nt:9,next:65535,str:6028,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:20395 op:400,dt:4,nt:8,next:20398,str:6036,d0:20396,d1:45856;
+                ("cs_face_player", Expression<MethodOrOperator> @:20396 op:400,dt:2,nt:9,next:20397,str:1207,d0:0,d1:0;
+                    (True, Expression<Boolean> @:20397 op:5,dt:5,nt:9,next:65535,str:6052,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:20398 op:21,dt:4,nt:8,next:20408,str:6060,d0:20399,d1:45859;
+                ("sleep_until", Expression<MethodOrOperator> @:20399 op:21,dt:2,nt:9,next:20400,str:236,d0:0,d1:0;
+                    (____, Scope<Boolean> @:20400 op:5,dt:5,nt:8,next:20407,str:6076,d0:20401,d1:45861;
+                        ("and", Expression<MethodOrOperator> @:20401 op:5,dt:2,nt:9,next:20402,str:672,d0:0,d1:0;
+                            ("players_in_vehicle", ScriptInvocation<Boolean> @:20402 op:265,dt:5,nt:10,next:20404,str:6085,d0:20403,d1:45863;
+                                ("players_in_vehicle", Expression<MethodOrOperator> @:20403 op:265,dt:2,nt:9,next:65535,str:30200,d0:0,d1:0;))
+                            (____, Scope<Boolean> @:20404 op:222,dt:5,nt:8,next:65535,str:6110,d0:20405,d1:45865;
+                                ("unit_in_vehicle", Expression<MethodOrOperator> @:20405 op:222,dt:2,nt:9,next:20406,str:23760,d0:0,d1:0;
+                                    ("g_cov_commander", VariableAccess<Unit> @:20406 op:51,dt:51,nt:13,next:65535,str:39108,d0:27,d1:0;)))))
+                    (10, Expression<Short> @:20407 op:7,dt:7,nt:9,next:65535,str:6152,d0:10,d1:65535;)))
+            (____, Scope<Void> @:20408 op:394,dt:4,nt:8,next:20411,str:6161,d0:20409,d1:45869;
+                ("cs_look_player", Expression<MethodOrOperator> @:20409 op:394,dt:2,nt:9,next:20410,str:27271,d0:0,d1:0;
+                    (False, Expression<Boolean> @:20410 op:5,dt:5,nt:9,next:65535,str:6177,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:20411 op:400,dt:4,nt:8,next:20414,str:6186,d0:20412,d1:45872;
+                ("cs_face_player", Expression<MethodOrOperator> @:20412 op:400,dt:2,nt:9,next:20413,str:1207,d0:0,d1:0;
+                    (False, Expression<Boolean> @:20413 op:5,dt:5,nt:9,next:65535,str:6202,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:20414 op:426,dt:4,nt:8,next:65535,str:6211,d0:20415,d1:45875;
+                ("cs_go_to_vehicle", Expression<MethodOrOperator> @:20415 op:426,dt:2,nt:9,next:20416,str:40126,d0:0,d1:0;
+                    (____, Scope<Vehicle> @:20416 op:341,dt:52,nt:8,next:65535,str:6229,d0:20417,d1:45877;
+                        ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:20417 op:341,dt:2,nt:9,next:20418,str:27863,d0:0,d1:0;
+                            ("e1_cov_spectre0/spectre0", Expression<AI> @:20418 op:19,dt:19,nt:9,next:65535,str:40143,d0:0,d1:49154;))))))))

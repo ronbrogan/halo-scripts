@@ -1,0 +1,32 @@
+
+("c08_intro_setup", MethodDecl<Void> @:34 check:0,op:0,dt:0,nt:65535,next:931,nextCheck:59158,str:2130,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:931 check:59158,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:10736,h:0,d0:932,d1:59159;
+        ("begin", Expression<MethodOrOperator> @:932 check:59159,op:0,dt:2,nt:9,next:903,nextCheck:59130,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:903 check:59130,op:48,dt:4,nt:8,next:906,nextCheck:59133,str:10776,h:0,d0:904,d1:59131;
+                ("object_create_anew", Expression<MethodOrOperator> @:904 check:59131,op:48,dt:2,nt:9,next:905,nextCheck:59132,str:1816,h:0,d0:0,d1:0;
+                    ("dervish", Expression<EntityIdentifier> @:905 check:59132,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:1757,h:0,d0:14,d1:65535;)))
+            (____, Scope<Void> @:906 check:59133,op:48,dt:4,nt:8,next:909,nextCheck:59136,str:10807,h:0,d0:907,d1:59134;
+                ("object_create_anew", Expression<MethodOrOperator> @:907 check:59134,op:48,dt:2,nt:9,next:908,nextCheck:59135,str:1816,h:0,d0:0,d1:0;
+                    ("teleport", Expression<EntityIdentifier> @:908 check:59135,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:1597,h:0,d0:7,d1:65535;)))
+            (____, Scope<Void> @:909 check:59136,op:48,dt:4,nt:8,next:912,nextCheck:59139,str:10839,h:0,d0:910,d1:59137;
+                ("object_create_anew", Expression<MethodOrOperator> @:910 check:59137,op:48,dt:2,nt:9,next:911,nextCheck:59138,str:1816,h:0,d0:0,d1:0;
+                    ("intro_plasma_rifle", Expression<EntityIdentifier> @:911 check:59138,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:1765,h:0,d0:34,d1:65535;)))
+            (____, Scope<Void> @:912 check:59139,op:92,dt:4,nt:8,next:916,nextCheck:59143,str:10884,h:0,d0:913,d1:59140;
+                ("object_cinematic_lod", Expression<MethodOrOperator> @:913 check:59140,op:92,dt:2,nt:9,next:914,nextCheck:59141,str:1835,h:0,d0:0,d1:0;
+                    (4294901774, Expression<Entity> @:914 check:59141,op:56,dt:50,nt:9,next:915,nextCheck:59142,str:1757,h:0,d0:14,d1:65535;
+                        (True, Expression<Boolean> @:915 check:59142,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:10914,h:0,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:916 check:59143,op:22,dt:4,nt:8,next:919,nextCheck:59146,str:10924,h:0,d0:917,d1:59144;
+                ("wake", Expression<MethodOrOperator> @:917 check:59144,op:22,dt:2,nt:9,next:918,nextCheck:59145,str:1129,h:0,d0:0,d1:0;
+                    ("c08_intro_foley_01", Expression<ScriptReference> @:918 check:59145,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:1856,h:0,d0:28,d1:65535;)))
+            (____, Scope<Void> @:919 check:59146,op:22,dt:4,nt:8,next:922,nextCheck:59149,str:10954,h:0,d0:920,d1:59147;
+                ("wake", Expression<MethodOrOperator> @:920 check:59147,op:22,dt:2,nt:9,next:921,nextCheck:59148,str:1129,h:0,d0:0,d1:0;
+                    ("effect_teleport", Expression<ScriptReference> @:921 check:59148,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:1875,h:0,d0:31,d1:65535;)))
+            (____, Scope<Void> @:922 check:59149,op:22,dt:4,nt:8,next:925,nextCheck:59152,str:10979,h:0,d0:923,d1:59150;
+                ("wake", Expression<MethodOrOperator> @:923 check:59150,op:22,dt:2,nt:9,next:924,nextCheck:59151,str:1129,h:0,d0:0,d1:0;
+                    ("intro_fov", Expression<ScriptReference> @:924 check:59151,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:1891,h:0,d0:29,d1:65535;)))
+            (____, Scope<Void> @:925 check:59152,op:22,dt:4,nt:8,next:928,nextCheck:59155,str:11021,h:0,d0:926,d1:59153;
+                ("wake", Expression<MethodOrOperator> @:926 check:59153,op:22,dt:2,nt:9,next:927,nextCheck:59154,str:1129,h:0,d0:0,d1:0;
+                    ("plasma_rifle_attach", Expression<ScriptReference> @:927 check:59154,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:1901,h:0,d0:33,d1:65535;)))
+            (____, Scope<Void> @:928 check:59155,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:11053,h:0,d0:929,d1:59156;
+                ("wake", Expression<MethodOrOperator> @:929 check:59156,op:22,dt:2,nt:9,next:930,nextCheck:59157,str:1129,h:0,d0:0,d1:0;
+                    ("cinematic_lighting_intro", Expression<ScriptReference> @:930 check:59157,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:1921,h:0,d0:32,d1:65535;))))))

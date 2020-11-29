@@ -1,0 +1,33 @@
+
+("cs_shrink_cortana", MethodDecl<Void> @:205 check:0,op:0,dt:0,nt:65535,next:7483,nextCheck:32943,str:18963,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:7483 check:32943,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:33042,h:1,d0:7484,d1:32944;
+        ("begin", Expression<MethodOrOperator> @:7484 check:32944,op:0,dt:2,nt:9,next:7454,nextCheck:32914,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:7454 check:32914,op:445,dt:4,nt:8,next:7457,nextCheck:32917,str:33085,h:1,d0:7455,d1:32915;
+                ("cs_enable_dialogue", Expression<MethodOrOperator> @:7455 check:32915,op:445,dt:2,nt:9,next:7456,nextCheck:32916,str:17206,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:7456 check:32916,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:33105,h:1,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:7457 check:32917,op:19,dt:4,nt:8,next:7460,nextCheck:32920,str:33114,h:1,d0:7458,d1:32918;
+                ("sleep", Expression<MethodOrOperator> @:7458 check:32918,op:19,dt:2,nt:9,next:7459,nextCheck:32919,str:80,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:7459 check:32919,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:33121,h:1,d0:60,d1:65535;)))
+            (____, Scope<Void> @:7460 check:32920,op:41,dt:4,nt:8,next:7467,nextCheck:32927,str:33127,h:1,d0:7461,d1:32921;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:7461 check:32921,op:41,dt:2,nt:9,next:7462,nextCheck:32922,str:7796,h:0,d0:0,d1:0;
+                    ("effects\objects\characters\cortana\cortana_on_off_65", Expression<Effect> @:7462 check:32922,op:33,dt:33,nt:9,next:7463,nextCheck:32923,str:17225,h:0,d0:7041,d1:64834;
+                        (____, Scope<Entity> @:7463 check:32923,op:284,dt:50,nt:8,next:7466,nextCheck:32926,str:33209,h:1,d0:7464,d1:32924;
+                            ("ai_get_object", Expression<MethodOrOperator> @:7464 check:32924,op:284,dt:2,nt:9,next:7465,nextCheck:32925,str:17101,h:0,d0:0,d1:0;
+                                ("ai_current_actor", VariableAccess<AI> @:7465 check:32925,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:17115,h:0,d0:33564,d1:65535;)))
+                        ("effect", Expression<StringId> @:7466 check:32926,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:17278,h:0,d0:5322,d1:1536;))))
+            (____, Scope<Void> @:7467 check:32927,op:19,dt:4,nt:8,next:7470,nextCheck:32930,str:33254,h:1,d0:7468,d1:32928;
+                ("sleep", Expression<MethodOrOperator> @:7468 check:32928,op:19,dt:2,nt:9,next:7469,nextCheck:32929,str:80,h:0,d0:0,d1:0;
+                    (3, Expression<Short> @:7469 check:32929,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:33261,h:1,d0:3,d1:65535;)))
+            (____, Scope<Void> @:7470 check:32930,op:77,dt:4,nt:8,next:7477,nextCheck:32937,str:33266,h:1,d0:7471,d1:32931;
+                ("object_set_scale", Expression<MethodOrOperator> @:7471 check:32931,op:77,dt:2,nt:9,next:7472,nextCheck:32932,str:17084,h:0,d0:0,d1:0;
+                    (____, Scope<Entity> @:7472 check:32932,op:284,dt:50,nt:8,next:7475,nextCheck:32935,str:33284,h:1,d0:7473,d1:32933;
+                        ("ai_get_object", Expression<MethodOrOperator> @:7473 check:32933,op:284,dt:2,nt:9,next:7474,nextCheck:32934,str:17101,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:7474 check:32934,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:17115,h:0,d0:33564,d1:65535;)))
+                    (0.01f, Expression<Float> @:7475 check:32935,op:6,dt:6,nt:9,next:7476,nextCheck:32936,str:33317,h:1,d0:55050,d1:15395;
+                        (10, Expression<Short> @:7476 check:32936,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:33322,h:1,d0:10,d1:65535;))))
+            (____, Scope<Void> @:7477 check:32937,op:19,dt:4,nt:8,next:7480,nextCheck:32940,str:33328,h:1,d0:7478,d1:32938;
+                ("sleep", Expression<MethodOrOperator> @:7478 check:32938,op:19,dt:2,nt:9,next:7479,nextCheck:32939,str:80,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:7479 check:32939,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:33335,h:1,d0:30,d1:65535;)))
+            (____, Scope<Void> @:7480 check:32940,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:33341,h:1,d0:7481,d1:32941;
+                ("ai_erase", Expression<MethodOrOperator> @:7481 check:32941,op:298,dt:2,nt:9,next:7482,nextCheck:32942,str:15553,h:0,d0:0,d1:0;
+                    ("ai_current_actor", VariableAccess<AI> @:7482 check:32942,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:17115,h:0,d0:33564,d1:65535;))))))

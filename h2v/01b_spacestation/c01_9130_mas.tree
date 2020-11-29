@@ -1,0 +1,29 @@
+
+("c01_9130_mas", MethodDecl<Void> @:204 check:0,op:0,dt:0,nt:65535,next:8013,nextCheck:33473,str:19599,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:8013 check:33473,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:32074,h:1,d0:8014,d1:33474;
+        ("begin", Expression<MethodOrOperator> @:8014 check:33474,op:0,dt:2,nt:9,next:7988,nextCheck:33448,str:11,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:7988 check:33448,op:19,dt:4,nt:8,next:7991,nextCheck:33451,str:32105,h:1,d0:7989,d1:33449;
+                ("sleep", Expression<MethodOrOperator> @:7989 check:33449,op:19,dt:2,nt:9,next:7990,nextCheck:33450,str:90,h:0,d0:0,d1:0;
+                    (343, Expression<Short> @:7990 check:33450,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:32112,h:1,d0:343,d1:65535;)))
+            (____, Scope<Void> @:7991 check:33451,op:598,dt:4,nt:8,next:7997,nextCheck:33457,str:32119,h:1,d0:7992,d1:33452;
+                ("sound_impulse_start_effect", Expression<MethodOrOperator> @:7992 check:33452,op:598,dt:2,nt:9,next:7993,nextCheck:33453,str:14830,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\01_spacestation\cinematic\c01_9130_mas", Expression<Sound> @:7993 check:33453,op:32,dt:32,nt:9,next:7994,nextCheck:33454,str:19540,h:0,d0:4172,d1:62060;
+                        (4294967295, Expression<Entity> @:7994 check:33454,op:50,dt:50,nt:9,next:7995,nextCheck:33455,str:1520,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:7995 check:33455,op:6,dt:6,nt:9,next:7996,nextCheck:33456,str:32211,h:1,d0:0,d1:16256;
+                                ("radio_default", Expression<StringId> @:7996 check:33456,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:14916,h:0,d0:11471,d1:3328;))))))
+            (____, Scope<Void> @:7997 check:33457,op:562,dt:4,nt:8,next:8001,nextCheck:33461,str:32230,h:1,d0:7998,d1:33458;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:7998 check:33458,op:562,dt:2,nt:9,next:7999,nextCheck:33459,str:1689,h:0,d0:0,d1:0;
+                    ("c01_9130_mas", Expression<StringId> @:7999 check:33459,op:11,dt:11,nt:9,next:8000,nextCheck:33460,str:19599,h:0,d0:8066,d1:3072;
+                        (2f, Expression<Float> @:8000 check:33460,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:32263,h:1,d0:0,d1:16384;))))
+            (____, Scope<Void> @:8001 check:33461,op:19,dt:4,nt:8,next:8004,nextCheck:33464,str:32271,h:1,d0:8002,d1:33462;
+                ("sleep", Expression<MethodOrOperator> @:8002 check:33462,op:19,dt:2,nt:9,next:8003,nextCheck:33463,str:90,h:0,d0:0,d1:0;
+                    (77, Expression<Short> @:8003 check:33463,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:32278,h:1,d0:77,d1:65535;)))
+            (____, Scope<Void> @:8004 check:33464,op:220,dt:4,nt:8,next:8010,nextCheck:33470,str:32287,h:1,d0:8005,d1:33465;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:8005 check:33465,op:220,dt:2,nt:9,next:8006,nextCheck:33466,str:1808,h:0,d0:0,d1:0;
+                    ("hood", Expression<Unit> @:8006 check:33466,op:57,dt:51,nt:9,next:8007,nextCheck:33467,str:19247,h:0,d0:309,d1:65535;
+                        ("happy", Expression<StringId> @:8007 check:33467,op:11,dt:11,nt:9,next:8008,nextCheck:33468,str:2010,h:0,d0:422,d1:1280;
+                            (0.25f, Expression<Float> @:8008 check:33468,op:6,dt:6,nt:9,next:8009,nextCheck:33469,str:32324,h:1,d0:0,d1:16000;
+                                (90, Expression<Short> @:8009 check:33469,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:32328,h:1,d0:90,d1:65535;))))))
+            (____, Scope<Void> @:8010 check:33470,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:32334,h:1,d0:8011,d1:33471;
+                ("print", Expression<MethodOrOperator> @:8011 check:33471,op:27,dt:2,nt:9,next:8012,nextCheck:33472,str:96,h:0,d0:0,d1:0;
+                    ("hood - happy .25 90", Expression<String> @:8012 check:33472,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:19612,h:0,d0:52428,d1:12558;))))))

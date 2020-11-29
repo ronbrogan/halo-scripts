@@ -1,0 +1,31 @@
+
+("cs_council_grunt_b", MethodDecl<Void> @:275 check:0,op:0,dt:0,nt:65535,next:12313,nextCheck:37773,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:12313 check:37773,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:22123,h:2,d0:12314,d1:37774;
+        ("begin", Expression<MethodOrOperator> @:12314 check:37774,op:0,dt:2,nt:9,next:12286,nextCheck:37746,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:12286 check:37746,op:422,dt:4,nt:8,next:12289,nextCheck:37749,str:22167,h:2,d0:12287,d1:37747;
+                ("cs_movement_mode", Expression<MethodOrOperator> @:12287 check:37747,op:422,dt:2,nt:9,next:12288,nextCheck:37748,str:16603,h:0,d0:0,d1:0;
+                    (3, Expression<Short> @:12288 check:37748,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:22185,h:2,d0:3,d1:65535;)))
+            (____, Scope<Void> @:12289 check:37749,op:440,dt:4,nt:8,next:12292,nextCheck:37752,str:22190,h:2,d0:12290,d1:37750;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:12290 check:37750,op:440,dt:2,nt:9,next:12291,nextCheck:37751,str:29277,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:12291 check:37751,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:22210,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:12292 check:37752,op:449,dt:4,nt:8,next:12295,nextCheck:37755,str:22218,h:2,d0:12293,d1:37753;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:12293 check:37753,op:449,dt:2,nt:9,next:12294,nextCheck:37754,str:1066,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:12294 check:37754,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:22250,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:12295 check:37755,op:385,dt:4,nt:8,next:12298,nextCheck:37758,str:22258,h:2,d0:12296,d1:37756;
+                ("cs_go_to", Expression<MethodOrOperator> @:12296 check:37756,op:385,dt:2,nt:9,next:12297,nextCheck:37757,str:23538,h:0,d0:0,d1:0;
+                    ("council/p1", Expression<SpatialPoint> @:12297 check:37757,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:29331,h:0,d0:1,d1:0;)))
+            (____, Scope<Void> @:12298 check:37758,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:22282,h:2,d0:12299,d1:37759;
+                ("sleep_until", Expression<MethodOrOperator> @:12299 check:37759,op:21,dt:2,nt:9,next:12300,nextCheck:37760,str:231,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:12300 check:37760,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:22295,h:2,d0:12301,d1:37761;
+                        ("or", Expression<MethodOrOperator> @:12301 check:37761,op:6,dt:2,nt:9,next:12302,nextCheck:37762,str:844,h:0,d0:0,d1:0;
+                            (____, Scope<Boolean> @:12302 check:37762,op:33,dt:5,nt:8,next:12307,nextCheck:37767,str:22305,h:2,d0:12303,d1:37763;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:12303 check:37763,op:33,dt:2,nt:9,next:12304,nextCheck:37764,str:17285,h:0,d0:0,d1:0;
+                                    ("tv_council_door_right_b", Expression<Trigger> @:12304 check:37764,op:13,dt:13,nt:9,next:12305,nextCheck:37765,str:29342,h:0,d0:33,d1:0;
+                                        (____, Scope<List> @:12305 check:37765,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:22350,h:2,d0:12306,d1:37766;
+                                            ("players", Expression<MethodOrOperator> @:12306 check:37766,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:21,h:0,d0:0,d1:0;)))))
+                            (____, Scope<Boolean> @:12307 check:37767,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:22367,h:2,d0:12308,d1:37768;
+                                ("<=", Expression<MethodOrOperator> @:12308 check:37768,op:18,dt:2,nt:9,next:12309,nextCheck:37769,str:21049,h:0,d0:0,d1:0;
+                                    (____, Scope<Short> @:12309 check:37769,op:327,dt:7,nt:8,next:12312,nextCheck:37772,str:22371,h:2,d0:12310,d1:37770;
+                                        ("ai_living_count", Expression<MethodOrOperator> @:12310 check:37770,op:327,dt:2,nt:9,next:12311,nextCheck:37771,str:19308,h:0,d0:0,d1:0;
+                                            ("council_brute_ini", Expression<AI> @:12311 check:37771,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19324,h:0,d0:19,d1:0;)))
+                                    (0, Expression<Short> @:12312 check:37772,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:22407,h:2,d0:0,d1:65535;))))))))))

@@ -1,0 +1,14 @@
+
+("scarab_upper_gunner_main", MethodDecl<Void> @:256 check:0,op:0,dt:0,nt:65535,next:7930,nextCheck:33390,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:7930 check:33390,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:32867,h:1,d0:7931,d1:33391;
+        ("begin", Expression<MethodOrOperator> @:7931 check:33391,op:0,dt:2,nt:9,next:7920,nextCheck:33380,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:7920 check:33380,op:290,dt:4,nt:8,next:7923,nextCheck:33383,str:32910,h:1,d0:7921,d1:33381;
+                ("ai_place", Expression<MethodOrOperator> @:7921 check:33381,op:290,dt:2,nt:9,next:7922,nextCheck:33382,str:16575,h:0,d0:0,d1:0;
+                    ("scarab_gunners/upper_gunner", Expression<AI> @:7922 check:33382,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:16584,h:0,d0:1,d1:49152;)))
+            (____, Scope<Void> @:7923 check:33383,op:19,dt:4,nt:8,next:7926,nextCheck:33386,str:32951,h:1,d0:7924,d1:33384;
+                ("sleep", Expression<MethodOrOperator> @:7924 check:33384,op:19,dt:2,nt:9,next:7925,nextCheck:33385,str:85,h:0,d0:0,d1:0;
+                    (5, Expression<Short> @:7925 check:33385,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:32958,h:1,d0:5,d1:65535;)))
+            (____, Scope<Void> @:7926 check:33386,op:366,dt:4,nt:8,next:65535,nextCheck:65535,str:32963,h:1,d0:7927,d1:33387;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:7927 check:33387,op:366,dt:2,nt:9,next:7928,nextCheck:33388,str:15699,h:0,d0:0,d1:0;
+                    ("scarab_gunners/upper_gunner", Expression<AI> @:7928 check:33388,op:19,dt:19,nt:9,next:7929,nextCheck:33389,str:16584,h:0,d0:1,d1:49152;
+                        ("cs_e23_scarab_upper_gun", Expression<AIScript> @:7929 check:33389,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:16612,h:0,d0:249,d1:0;)))))))

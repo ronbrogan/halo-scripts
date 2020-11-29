@@ -1,0 +1,28 @@
+
+("c03_2098_jon", MethodDecl<Void> @:69 check:0,op:0,dt:0,nt:65535,next:2110,nextCheck:60337,str:5115,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:2110 check:60337,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:25099,h:0,d0:2111,d1:60338;
+        ("begin", Expression<MethodOrOperator> @:2111 check:60338,op:0,dt:2,nt:9,next:2086,nextCheck:60313,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:2086 check:60313,op:19,dt:4,nt:8,next:2089,nextCheck:60316,str:25130,h:0,d0:2087,d1:60314;
+                ("sleep", Expression<MethodOrOperator> @:2087 check:60314,op:19,dt:2,nt:9,next:2088,nextCheck:60315,str:85,h:0,d0:0,d1:0;
+                    (0, Expression<Short> @:2088 check:60315,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:25137,h:0,d0:0,d1:65535;)))
+            (____, Scope<Void> @:2089 check:60316,op:596,dt:4,nt:8,next:2094,nextCheck:60321,str:25142,h:0,d0:2090,d1:60317;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:2090 check:60317,op:596,dt:2,nt:9,next:2091,nextCheck:60318,str:1368,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\03_earthcity\cinematic\c03_2098_jon", Expression<Sound> @:2091 check:60318,op:32,dt:32,nt:9,next:2092,nextCheck:60319,str:5059,h:0,d0:584,d1:58302;
+                        (4294901841, Expression<Entity> @:2092 check:60319,op:56,dt:50,nt:9,next:2093,nextCheck:60320,str:2319,h:0,d0:81,d1:65535;
+                            (1f, Expression<Float> @:2093 check:60320,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:25227,h:0,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:2094 check:60321,op:562,dt:4,nt:8,next:2098,nextCheck:60325,str:25232,h:0,d0:2095,d1:60322;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:2095 check:60322,op:562,dt:2,nt:9,next:2096,nextCheck:60323,str:1634,h:0,d0:0,d1:0;
+                    ("c03_2098_jon", Expression<StringId> @:2096 check:60323,op:11,dt:11,nt:9,next:2097,nextCheck:60324,str:5115,h:0,d0:3705,d1:3072;
+                        (2f, Expression<Float> @:2097 check:60324,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:25265,h:0,d0:0,d1:16384;))))
+            (____, Scope<Void> @:2098 check:60325,op:19,dt:4,nt:8,next:2101,nextCheck:60328,str:25273,h:0,d0:2099,d1:60326;
+                ("sleep", Expression<MethodOrOperator> @:2099 check:60326,op:19,dt:2,nt:9,next:2100,nextCheck:60327,str:85,h:0,d0:0,d1:0;
+                    (65, Expression<Short> @:2100 check:60327,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:25280,h:0,d0:65,d1:65535;)))
+            (____, Scope<Void> @:2101 check:60328,op:220,dt:4,nt:8,next:2107,nextCheck:60334,str:25286,h:0,d0:2102,d1:60329;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2102 check:60329,op:220,dt:2,nt:9,next:2103,nextCheck:60330,str:1666,h:0,d0:0,d1:0;
+                    ("marine_01", Expression<Unit> @:2103 check:60330,op:57,dt:51,nt:9,next:2104,nextCheck:60331,str:1624,h:0,d0:84,d1:65535;
+                        ("shocked", Expression<StringId> @:2104 check:60331,op:11,dt:11,nt:9,next:2105,nextCheck:60332,str:1731,h:0,d0:426,d1:1792;
+                            (0.5f, Expression<Float> @:2105 check:60332,op:6,dt:6,nt:9,next:2106,nextCheck:60333,str:25330,h:0,d0:0,d1:16128;
+                                (30, Expression<Short> @:2106 check:60333,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:25333,h:0,d0:30,d1:65535;))))))
+            (____, Scope<Void> @:2107 check:60334,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:25339,h:0,d0:2108,d1:60335;
+                ("print", Expression<MethodOrOperator> @:2108 check:60335,op:27,dt:2,nt:9,next:2109,nextCheck:60336,str:91,h:0,d0:0,d1:0;
+                    ("marine_01 - shocked .5 30", Expression<String> @:2109 check:60336,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:4895,h:0,d0:49367,d1:12462;))))))

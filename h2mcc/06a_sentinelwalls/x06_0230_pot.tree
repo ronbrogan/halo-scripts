@@ -1,0 +1,22 @@
+
+("x06_0230_pot", MethodDecl<Void> @:95 op:0,dt:0,nt:65535,next:2928,str:6941,d0:0,d1:0;
+    (____, Scope<Void> @:2928 op:0,dt:4,nt:8,next:65535,str:34390,d0:2929,d1:61156;
+        ("begin", Expression<MethodOrOperator> @:2929 op:0,dt:2,nt:9,next:2910,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:2910 op:19,dt:4,nt:8,next:2913,str:34421,d0:2911,d1:61138;
+                ("sleep", Expression<MethodOrOperator> @:2911 op:19,dt:2,nt:9,next:2912,str:80,d0:0,d1:0;
+                    (956, Expression<Short> @:2912 op:7,dt:7,nt:9,next:65535,str:34428,d0:956,d1:65535;)))
+            (____, Scope<Void> @:2913 op:596,dt:4,nt:8,next:2918,str:34435,d0:2914,d1:61141;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:2914 op:596,dt:2,nt:9,next:2915,str:1619,d0:0,d1:0;
+                    ("sound\dialog\levels\06_sentinelwall\cinematic\x06_0230_pot", Expression<Sound> @:2915 op:32,dt:32,nt:9,next:2916,str:6882,d0:852,d1:58570;
+                        (4294901851, Expression<Entity> @:2916 op:56,dt:50,nt:9,next:2917,str:4533,d0:91,d1:65535;
+                            (1f, Expression<Float> @:2917 op:6,dt:6,nt:9,next:65535,str:34521,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:2918 op:562,dt:4,nt:8,next:2922,str:34526,d0:2919,d1:61146;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:2919 op:562,dt:2,nt:9,next:2920,str:4288,d0:0,d1:0;
+                    ("x06_0230_pot", Expression<StringId> @:2920 op:11,dt:11,nt:9,next:2921,str:6941,d0:3912,d1:3072;
+                        (3f, Expression<Float> @:2921 op:6,dt:6,nt:9,next:65535,str:34559,d0:0,d1:16448;))))
+            (____, Scope<Void> @:2922 op:220,dt:4,nt:8,next:65535,str:34567,d0:2923,d1:61150;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2923 op:220,dt:2,nt:9,next:2924,str:4696,d0:0,d1:0;
+                    ("truth", Expression<Unit> @:2924 op:57,dt:51,nt:9,next:2925,str:4533,d0:91,d1:65535;
+                        ("happy", Expression<StringId> @:2925 op:11,dt:11,nt:9,next:2926,str:6954,d0:422,d1:1280;
+                            (0.5f, Expression<Float> @:2926 op:6,dt:6,nt:9,next:2927,str:34605,d0:0,d1:16128;
+                                (60, Expression<Short> @:2927 op:7,dt:7,nt:9,next:65535,str:34608,d0:60,d1:65535;)))))))))

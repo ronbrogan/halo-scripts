@@ -1,0 +1,37 @@
+
+("e1_carrier_drop", MethodDecl<Void> @:230 check:0,op:0,dt:0,nt:65535,next:10199,nextCheck:35659,str:22001,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:10199 check:35659,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1573,h:2,d0:10200,d1:35660;
+        ("begin", Expression<MethodOrOperator> @:10200 check:35660,op:0,dt:2,nt:9,next:10166,nextCheck:35626,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:10166 check:35626,op:79,dt:4,nt:8,next:10174,nextCheck:35634,str:1607,h:2,d0:10167,d1:35627;
+                ("object_set_velocity", Expression<MethodOrOperator> @:10167 check:35627,op:79,dt:2,nt:9,next:10168,nextCheck:35628,str:21841,h:0,d0:0,d1:0;
+                    (____, Scope<Entity> @:10168 check:35628,op:284,dt:50,nt:8,next:10171,nextCheck:35631,str:1628,h:2,d0:10169,d1:35629;
+                        ("ai_get_object", Expression<MethodOrOperator> @:10169 check:35629,op:284,dt:2,nt:9,next:10170,nextCheck:35630,str:9226,h:0,d0:0,d1:0;
+                            ("e1_fld_inf3/carrier0", Expression<AI> @:10170 check:35630,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:21861,h:0,d0:0,d1:49157;)))
+                    (-5f, Expression<Float> @:10171 check:35631,op:6,dt:6,nt:9,next:10172,nextCheck:35632,str:1665,h:2,d0:0,d1:49312;
+                        (0f, Expression<Float> @:10172 check:35632,op:6,dt:6,nt:9,next:10173,nextCheck:35633,str:1668,h:2,d0:0,d1:0;
+                            (0f, Expression<Float> @:10173 check:35633,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:1670,h:2,d0:0,d1:0;)))))
+            (____, Scope<Void> @:10174 check:35634,op:79,dt:4,nt:8,next:10182,nextCheck:35642,str:1675,h:2,d0:10175,d1:35635;
+                ("object_set_velocity", Expression<MethodOrOperator> @:10175 check:35635,op:79,dt:2,nt:9,next:10176,nextCheck:35636,str:21841,h:0,d0:0,d1:0;
+                    (____, Scope<Entity> @:10176 check:35636,op:284,dt:50,nt:8,next:10179,nextCheck:35639,str:1696,h:2,d0:10177,d1:35637;
+                        ("ai_get_object", Expression<MethodOrOperator> @:10177 check:35637,op:284,dt:2,nt:9,next:10178,nextCheck:35638,str:9226,h:0,d0:0,d1:0;
+                            ("e1_fld_inf3/carrier1", Expression<AI> @:10178 check:35638,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:21882,h:0,d0:1,d1:49157;)))
+                    (-4f, Expression<Float> @:10179 check:35639,op:6,dt:6,nt:9,next:10180,nextCheck:35640,str:1733,h:2,d0:0,d1:49280;
+                        (0f, Expression<Float> @:10180 check:35640,op:6,dt:6,nt:9,next:10181,nextCheck:35641,str:1736,h:2,d0:0,d1:0;
+                            (0f, Expression<Float> @:10181 check:35641,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:1738,h:2,d0:0,d1:0;)))))
+            (____, Scope<Void> @:10182 check:35642,op:19,dt:4,nt:8,next:10185,nextCheck:35645,str:1743,h:2,d0:10183,d1:35643;
+                ("sleep", Expression<MethodOrOperator> @:10183 check:35643,op:19,dt:2,nt:9,next:10184,nextCheck:35644,str:80,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:10184 check:35644,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:1750,h:2,d0:30,d1:65535;)))
+            (____, Scope<Void> @:10185 check:35645,op:230,dt:4,nt:8,next:10192,nextCheck:35652,str:1756,h:2,d0:10186,d1:35646;
+                ("unit_set_current_vitality", Expression<MethodOrOperator> @:10186 check:35646,op:230,dt:2,nt:9,next:10187,nextCheck:35647,str:800,h:0,d0:0,d1:0;
+                    (____, Scope<Unit> @:10187 check:35647,op:285,dt:51,nt:8,next:10190,nextCheck:35650,str:1783,h:2,d0:10188,d1:35648;
+                        ("ai_get_unit", Expression<MethodOrOperator> @:10188 check:35648,op:285,dt:2,nt:9,next:10189,nextCheck:35649,str:9270,h:0,d0:0,d1:0;
+                            ("e1_fld_inf3/carrier0", Expression<AI> @:10189 check:35649,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:21861,h:0,d0:0,d1:49157;)))
+                    (0.1f, Expression<Float> @:10190 check:35650,op:6,dt:6,nt:9,next:10191,nextCheck:35651,str:1818,h:2,d0:52429,d1:15820;
+                        (0f, Expression<Float> @:10191 check:35651,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:1821,h:2,d0:0,d1:0;))))
+            (____, Scope<Void> @:10192 check:35652,op:230,dt:4,nt:8,next:65535,nextCheck:65535,str:1826,h:2,d0:10193,d1:35653;
+                ("unit_set_current_vitality", Expression<MethodOrOperator> @:10193 check:35653,op:230,dt:2,nt:9,next:10194,nextCheck:35654,str:800,h:0,d0:0,d1:0;
+                    (____, Scope<Unit> @:10194 check:35654,op:285,dt:51,nt:8,next:10197,nextCheck:35657,str:1853,h:2,d0:10195,d1:35655;
+                        ("ai_get_unit", Expression<MethodOrOperator> @:10195 check:35655,op:285,dt:2,nt:9,next:10196,nextCheck:35656,str:9270,h:0,d0:0,d1:0;
+                            ("e1_fld_inf3/carrier1", Expression<AI> @:10196 check:35656,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:21882,h:0,d0:1,d1:49157;)))
+                    (0.1f, Expression<Float> @:10197 check:35657,op:6,dt:6,nt:9,next:10198,nextCheck:35658,str:1888,h:2,d0:52429,d1:15820;
+                        (0f, Expression<Float> @:10198 check:35658,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:1891,h:2,d0:0,d1:0;)))))))

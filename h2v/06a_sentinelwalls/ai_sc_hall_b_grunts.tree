@@ -1,0 +1,14 @@
+
+("ai_sc_hall_b_grunts", MethodDecl<Void> @:168 check:0,op:0,dt:0,nt:65535,next:5652,nextCheck:63879,str:28234,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:5652 check:63879,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:64091,h:0,d0:5653,d1:63880;
+        ("begin", Expression<MethodOrOperator> @:5653 check:63880,op:0,dt:2,nt:9,next:5642,nextCheck:63869,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:5642 check:63869,op:21,dt:4,nt:8,next:5648,nextCheck:63875,str:64203,h:0,d0:5643,d1:63870;
+                ("sleep_until", Expression<MethodOrOperator> @:5643 check:63870,op:21,dt:2,nt:9,next:5644,nextCheck:63871,str:231,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:5644 check:63871,op:337,dt:5,nt:8,next:65535,nextCheck:65535,str:64216,h:0,d0:5645,d1:63872;
+                        ("ai_trigger_test", Expression<MethodOrOperator> @:5645 check:63872,op:337,dt:2,nt:9,next:5646,nextCheck:63873,str:13322,h:0,d0:0,d1:0;
+                            ("scene_trigger_4", Expression<String> @:5646 check:63873,op:9,dt:9,nt:9,next:5647,nextCheck:63874,str:13338,h:0,d0:58050,d1:12464;
+                                ("hall_b_cov", Expression<AI> @:5647 check:63874,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13354,h:0,d0:12,d1:0;))))))
+            (____, Scope<Void> @:5648 check:63875,op:366,dt:4,nt:8,next:65535,nextCheck:65535,str:64264,h:0,d0:5649,d1:63876;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:5649 check:63876,op:366,dt:2,nt:9,next:5650,nextCheck:63877,str:1464,h:0,d0:0,d1:0;
+                    ("hall_b_cov/wimp", Expression<AI> @:5650 check:63877,op:19,dt:19,nt:9,next:5651,nextCheck:63878,str:13365,h:0,d0:5,d1:49164;
+                        ("sc_fleeing_grunts", Expression<AIScript> @:5651 check:63878,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:13381,h:0,d0:167,d1:0;)))))))

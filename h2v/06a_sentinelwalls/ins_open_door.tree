@@ -1,0 +1,37 @@
+
+("ins_open_door", MethodDecl<Void> @:213 check:0,op:0,dt:0,nt:65535,next:8170,nextCheck:33630,str:27677,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:8170 check:33630,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:25217,h:1,d0:8171,d1:33631;
+        ("begin", Expression<MethodOrOperator> @:8171 check:33631,op:0,dt:2,nt:9,next:8137,nextCheck:33597,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:8137 check:33597,op:21,dt:4,nt:8,next:8152,nextCheck:33612,str:25249,h:1,d0:8138,d1:33598;
+                ("sleep_until", Expression<MethodOrOperator> @:8138 check:33598,op:21,dt:2,nt:9,next:8139,nextCheck:33599,str:231,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:8139 check:33599,op:5,dt:5,nt:8,next:65535,nextCheck:65535,str:25262,h:1,d0:8140,d1:33600;
+                        ("and", Expression<MethodOrOperator> @:8140 check:33600,op:5,dt:2,nt:9,next:8141,nextCheck:33601,str:667,h:0,d0:0,d1:0;
+                            (____, Scope<Boolean> @:8141 check:33601,op:33,dt:5,nt:8,next:8146,nextCheck:33606,str:25273,h:1,d0:8142,d1:33602;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:8142 check:33602,op:33,dt:2,nt:9,next:8143,nextCheck:33603,str:11606,h:0,d0:0,d1:0;
+                                    ("tv_ins_bk", Expression<Trigger> @:8143 check:33603,op:13,dt:13,nt:9,next:8144,nextCheck:33604,str:17471,h:0,d0:16,d1:0;
+                                        (____, Scope<List> @:8144 check:33604,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:25304,h:1,d0:8145,d1:33605;
+                                            ("players", Expression<MethodOrOperator> @:8145 check:33605,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:21,h:0,d0:0,d1:0;)))))
+                            (____, Scope<Boolean> @:8146 check:33606,op:112,dt:5,nt:8,next:65535,nextCheck:65535,str:25321,h:1,d0:8147,d1:33607;
+                                ("objects_can_see_object", Expression<MethodOrOperator> @:8147 check:33607,op:112,dt:2,nt:9,next:8148,nextCheck:33608,str:17776,h:0,d0:0,d1:0;
+                                    (____, Scope<List> @:8148 check:33608,op:28,dt:31,nt:8,next:8150,nextCheck:33610,str:25345,h:1,d0:8149,d1:33609;
+                                        ("players", Expression<MethodOrOperator> @:8149 check:33609,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:21,h:0,d0:0,d1:0;))
+                                    (4294902174, Expression<Entity> @:8150 check:33610,op:56,dt:50,nt:9,next:8151,nextCheck:33611,str:15110,h:0,d0:414,d1:65535;
+                                        (180f, Expression<Float> @:8151 check:33611,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:25366,h:1,d0:0,d1:17204;))))))))
+            (____, Scope<Void> @:8152 check:33612,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:25384,h:1,d0:8153,d1:33613;
+                ("if", Expression<MethodOrOperator> @:8153 check:33613,op:2,dt:2,nt:9,next:8154,nextCheck:33614,str:456,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:8154 check:33614,op:13,dt:5,nt:8,next:8160,nextCheck:33620,str:25388,h:1,d0:8155,d1:33615;
+                        ("=", Expression<MethodOrOperator> @:8155 check:33615,op:13,dt:2,nt:9,next:8156,nextCheck:33616,str:296,h:0,d0:0,d1:0;
+                            (-6.1456157E-37f, Scope<Float> @:8156 check:33616,op:329,dt:6,nt:8,next:8159,nextCheck:33619,str:25391,h:1,d0:8157,d1:33617;
+                                ("ai_strength", Expression<MethodOrOperator> @:8157 check:33617,op:329,dt:2,nt:9,next:8158,nextCheck:33618,str:17445,h:0,d0:0,d1:0;
+                                    ("ins_cons", Expression<AI> @:8158 check:33618,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:17730,h:0,d0:7,d1:16384;)))
+                            (1f, Expression<Float> @:8159 check:33619,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:25414,h:1,d0:0,d1:16256;)))
+                    (____, Scope<Void> @:8160 check:33620,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:25421,h:1,d0:8161,d1:33621;
+                        ("begin", Expression<MethodOrOperator> @:8161 check:33621,op:0,dt:2,nt:9,next:8162,nextCheck:33622,str:1,h:0,d0:0,d1:0;
+                            (____, Scope<Void> @:8162 check:33622,op:366,dt:4,nt:8,next:8166,nextCheck:33626,str:25433,h:1,d0:8163,d1:33623;
+                                ("cs_run_command_script", Expression<MethodOrOperator> @:8163 check:33623,op:366,dt:2,nt:9,next:8164,nextCheck:33624,str:1464,h:0,d0:0,d1:0;
+                                    ("ins_con_bk/shooter", Expression<AI> @:8164 check:33624,op:19,dt:19,nt:9,next:8165,nextCheck:33625,str:17959,h:0,d0:0,d1:49154;
+                                        ("cs_ins_shoot_absorber", Expression<AIScript> @:8165 check:33625,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:17978,h:0,d0:212,d1:0;))))
+                            (____, Scope<Void> @:8166 check:33626,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:25503,h:1,d0:8167,d1:33627;
+                                ("set", Expression<MethodOrOperator> @:8167 check:33627,op:4,dt:2,nt:9,next:8168,nextCheck:33628,str:2575,h:0,d0:0,d1:0;
+                                    ("g_cons_open_ins", VariableAccess<Boolean> @:8168 check:33628,op:65535,dt:5,nt:13,next:8169,nextCheck:33629,str:18000,h:0,d0:9,d1:0;
+                                        (True, Expression<Boolean> @:8169 check:33629,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:25524,h:1,d0:65281,d1:65535;)))))))))))

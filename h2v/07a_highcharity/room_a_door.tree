@@ -1,0 +1,23 @@
+
+("room_a_door", MethodDecl<Void> @:323 check:0,op:0,dt:0,nt:65535,next:15211,nextCheck:40671,str:32781,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:15211 check:40671,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:47592,h:2,d0:15212,d1:40672;
+        ("begin", Expression<MethodOrOperator> @:15212 check:40672,op:0,dt:2,nt:9,next:15192,nextCheck:40652,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:15192 check:40652,op:21,dt:4,nt:8,next:15201,nextCheck:40661,str:47622,h:2,d0:15193,d1:40653;
+                ("sleep_until", Expression<MethodOrOperator> @:15193 check:40653,op:21,dt:2,nt:9,next:15194,nextCheck:40654,str:231,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:15194 check:40654,op:15,dt:5,nt:8,next:15200,nextCheck:40660,str:47635,h:2,d0:15195,d1:40655;
+                        (">", Expression<MethodOrOperator> @:15195 check:40655,op:15,dt:2,nt:9,next:15196,nextCheck:40656,str:19306,h:0,d0:0,d1:0;
+                            (-2.2153288E-20f, Scope<Float> @:15196 check:40656,op:257,dt:6,nt:8,next:15199,nextCheck:40659,str:47638,h:2,d0:15197,d1:40657;
+                                ("device_get_position", Expression<MethodOrOperator> @:15197 check:40657,op:257,dt:2,nt:9,next:15198,nextCheck:40658,str:16936,h:0,d0:0,d1:0;
+                                    ("room_a_door", Expression<Device> @:15198 check:40658,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:32781,h:0,d0:367,d1:65535;)))
+                            (0f, Expression<Float> @:15199 check:40659,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:47672,h:2,d0:0,d1:0;)))
+                    (5, Expression<Short> @:15200 check:40660,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:47675,h:2,d0:5,d1:65535;)))
+            (____, Scope<Void> @:15201 check:40661,op:4,dt:4,nt:8,next:15205,nextCheck:40665,str:47680,h:2,d0:15202,d1:40662;
+                ("set", Expression<MethodOrOperator> @:15202 check:40662,op:4,dt:2,nt:9,next:15203,nextCheck:40663,str:2141,h:0,d0:0,d1:0;
+                    ("g_room_a_door", VariableAccess<Boolean> @:15203 check:40663,op:65535,dt:5,nt:13,next:15204,nextCheck:40664,str:22152,h:0,d0:10,d1:0;
+                        (True, Expression<Boolean> @:15204 check:40664,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:47699,h:2,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:15205 check:40665,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:47704,h:2,d0:15206,d1:40666;
+                ("if", Expression<MethodOrOperator> @:15206 check:40666,op:2,dt:2,nt:9,next:15207,nextCheck:40667,str:456,h:0,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:15207 check:40667,op:5,dt:5,nt:13,next:15208,nextCheck:40668,str:17466,h:0,d0:3,d1:0;
+                        (____, Scope<Void> @:15208 check:40668,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:47714,h:2,d0:15209,d1:40669;
+                            ("print", Expression<MethodOrOperator> @:15209 check:40669,op:27,dt:2,nt:9,next:15210,nextCheck:40670,str:86,h:0,d0:0,d1:0;
+                                ("room a door opened", Expression<String> @:15210 check:40670,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:32793,h:0,d0:18401,d1:12543;)))))))))

@@ -1,0 +1,29 @@
+
+("banshee_retreat", MethodDecl<Void> @:244 op:0,dt:0,nt:65535,next:15437,str:27217,d0:0,d1:0;
+    (____, Scope<Void> @:15437 op:0,dt:4,nt:8,next:65535,str:34208,d0:15438,d1:40898;
+        ("begin", Expression<MethodOrOperator> @:15438 op:0,dt:2,nt:9,next:15412,str:142,d0:0,d1:0;
+            (____, Scope<Void> @:15412 op:438,dt:4,nt:8,next:15415,str:34249,d0:15413,d1:40873;
+                ("cs_vehicle_boost", Expression<MethodOrOperator> @:15413 op:438,dt:2,nt:9,next:15414,str:13211,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15414 op:5,dt:5,nt:9,next:65535,str:34267,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:15415 op:444,dt:4,nt:8,next:15418,str:34275,d0:15416,d1:40876;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:15416 op:444,dt:2,nt:9,next:15417,str:26762,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15417 op:5,dt:5,nt:9,next:65535,str:34293,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:15418 op:443,dt:4,nt:8,next:15421,str:34301,d0:15419,d1:40879;
+                ("cs_enable_looking", Expression<MethodOrOperator> @:15419 op:443,dt:2,nt:9,next:15420,str:26779,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15420 op:5,dt:5,nt:9,next:65535,str:34320,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:15421 op:21,dt:4,nt:8,next:15434,str:34328,d0:15422,d1:40882;
+                ("sleep_until", Expression<MethodOrOperator> @:15422 op:21,dt:2,nt:9,next:15423,str:372,d0:0,d1:0;
+                    (____, Scope<Boolean> @:15423 op:13,dt:5,nt:8,next:15432,str:34341,d0:15424,d1:40884;
+                        ("=", Expression<MethodOrOperator> @:15424 op:13,dt:2,nt:9,next:15425,str:437,d0:0,d1:0;
+                            (____, Scope<Boolean> @:15425 op:33,dt:5,nt:8,next:15431,str:34344,d0:15426,d1:40886;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:15426 op:33,dt:2,nt:9,next:15427,str:10374,d0:0,d1:0;
+                                    ("vol_banshee_retreat", Expression<Trigger> @:15427 op:13,dt:13,nt:9,next:15428,str:26797,d0:78,d1:0;
+                                        (____, Scope<List> @:15428 op:332,dt:31,nt:8,next:65535,str:34385,d0:15429,d1:40889;
+                                            ("ai_actors", Expression<MethodOrOperator> @:15429 op:332,dt:2,nt:9,next:15430,str:13658,d0:0,d1:0;
+                                                ("gondola_02_banshees", Expression<AI> @:15430 op:19,dt:19,nt:9,next:65535,str:26499,d0:124,d1:0;))))))
+                            (True, Expression<Boolean> @:15431 op:5,dt:5,nt:9,next:65535,str:34418,d0:65281,d1:65535;)))
+                    (30, Expression<Short> @:15432 op:7,dt:7,nt:9,next:15433,str:34424,d0:30,d1:65535;
+                        (4000, Expression<Int> @:15433 op:8,dt:8,nt:9,next:65535,str:34427,d0:4000,d1:0;))))
+            (____, Scope<Void> @:15434 op:298,dt:4,nt:8,next:65535,str:34435,d0:15435,d1:40895;
+                ("ai_erase", Expression<MethodOrOperator> @:15435 op:298,dt:2,nt:9,next:15436,str:13431,d0:0,d1:0;
+                    ("gondola_02_banshees", Expression<AI> @:15436 op:19,dt:19,nt:9,next:65535,str:26499,d0:124,d1:0;))))))

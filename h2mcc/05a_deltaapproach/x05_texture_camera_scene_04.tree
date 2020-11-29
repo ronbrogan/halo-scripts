@@ -1,0 +1,18 @@
+
+("x05_texture_camera_scene_04", MethodDecl<Void> @:81 op:0,dt:0,nt:65535,next:2417,str:6387,d0:0,d1:0;
+    (____, Scope<Void> @:2417 op:0,dt:4,nt:8,next:65535,str:27985,d0:2418,d1:60645;
+        ("begin", Expression<MethodOrOperator> @:2418 op:0,dt:2,nt:9,next:2403,str:54,d0:0,d1:0;
+            (____, Scope<Void> @:2403 op:48,dt:4,nt:8,next:2406,str:28031,d0:2404,d1:60631;
+                ("object_create_anew", Expression<MethodOrOperator> @:2404 op:48,dt:2,nt:9,next:2405,str:1510,d0:0,d1:0;
+                    ("texture_camera", Expression<EntityIdentifier> @:2405 op:56,dt:56,nt:9,next:65535,str:6222,d0:56,d1:65535;)))
+            (____, Scope<Void> @:2406 op:144,dt:4,nt:8,next:2411,str:28069,d0:2407,d1:60634;
+                ("texture_camera_set_object_marker", Expression<MethodOrOperator> @:2407 op:144,dt:2,nt:9,next:2408,str:6237,d0:0,d1:0;
+                    (4294901816, Expression<Entity> @:2408 op:56,dt:50,nt:9,next:2409,str:6222,d0:56,d1:65535;
+                        ("marker", Expression<StringId> @:2409 op:11,dt:11,nt:9,next:2410,str:6270,d0:5226,d1:1536;
+                            (50f, Expression<Float> @:2410 op:6,dt:6,nt:9,next:65535,str:28125,d0:0,d1:16968;)))))
+            (____, Scope<Void> @:2411 op:186,dt:4,nt:8,next:65535,str:28131,d0:2412,d1:60639;
+                ("scenery_animation_start_relative", Expression<MethodOrOperator> @:2412 op:186,dt:2,nt:9,next:2413,str:2120,d0:0,d1:0;
+                    ("texture_camera", Expression<Scenery> @:2413 op:61,dt:55,nt:9,next:2414,str:6222,d0:56,d1:65535;
+                        ("objects\cinematics\texture_camera\x05\x05", Expression<Animation> @:2414 op:36,dt:36,nt:9,next:2415,str:6277,d0:963,d1:58681;
+                            ("texture_camera_04", Expression<StringId> @:2415 op:11,dt:11,nt:9,next:2416,str:6319,d0:5084,d1:4352;
+                                (4294901760, Expression<Entity> @:2416 op:56,dt:50,nt:9,next:65535,str:2205,d0:0,d1:65535;)))))))))

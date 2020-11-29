@@ -1,0 +1,19 @@
+
+("save_lvr_start", MethodDecl<Void> @:319 op:0,dt:0,nt:65535,next:12223,str:41384,d0:0,d1:0;
+    (____, Scope<Void> @:12223 op:0,dt:4,nt:8,next:65535,str:15771,d0:12224,d1:37684;
+        ("begin", Expression<MethodOrOperator> @:12224 op:0,dt:2,nt:9,next:12208,str:11,d0:0,d1:0;
+            (____, Scope<Void> @:12208 op:587,dt:4,nt:8,next:12210,str:15808,d0:12209,d1:37669;
+                ("game_save", Expression<MethodOrOperator> @:12209 op:587,dt:2,nt:9,next:65535,str:27608,d0:0,d1:0;))
+            (____, Scope<Void> @:12210 op:786,dt:4,nt:8,next:12213,str:15822,d0:12211,d1:37671;
+                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:12211 op:786,dt:2,nt:9,next:12212,str:27565,d0:0,d1:0;
+                    ("01b_lvr_start", Expression<String> @:12212 op:9,dt:9,nt:9,next:65535,str:27994,d0:27994,d1:0;)))
+            (____, Scope<Void> @:12213 op:4,dt:4,nt:8,next:65535,str:15872,d0:12214,d1:37674;
+                ("set", Expression<MethodOrOperator> @:12214 op:4,dt:2,nt:9,next:12215,str:3357,d0:0,d1:0;
+                    ("timer_flavor", VariableAccess<Short> @:12215 op:65535,dt:7,nt:13,next:12216,str:27632,d0:22,d1:0;
+                        (____, Scope<Short> @:12216 op:12,dt:7,nt:8,next:65535,str:15890,d0:12217,d1:37677;
+                            ("max", Expression<MethodOrOperator> @:12217 op:12,dt:2,nt:9,next:12218,str:27645,d0:0,d1:0;
+                                ("timer_flavor", VariableAccess<Float> @:12218 op:6,dt:6,nt:13,next:12219,str:27632,d0:22,d1:0;
+                                    (-2.2237858E-27f, Scope<Float> @:12219 op:9,dt:6,nt:8,next:65535,str:15908,d0:12220,d1:37680;
+                                        ("*", Expression<MethodOrOperator> @:12220 op:9,dt:2,nt:9,next:12221,str:1,d0:0,d1:0;
+                                            (10f, Expression<Float> @:12221 op:6,dt:6,nt:9,next:12222,str:15911,d0:0,d1:16672;
+                                                ("seconds", VariableAccess<Float> @:12222 op:6,dt:6,nt:13,next:65535,str:3,d0:18,d1:0;)))))))))))))

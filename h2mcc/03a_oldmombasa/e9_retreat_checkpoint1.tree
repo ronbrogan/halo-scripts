@@ -1,0 +1,17 @@
+
+("e9_retreat_checkpoint1", MethodDecl<Void> @:259 op:0,dt:0,nt:65535,next:9668,str:19054,d0:0,d1:0;
+    (____, Scope<Void> @:9668 op:0,dt:4,nt:8,next:65535,str:52915,d0:9669,d1:35129;
+        ("begin", Expression<MethodOrOperator> @:9669 op:0,dt:2,nt:9,next:9655,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:9655 op:20,dt:4,nt:8,next:9658,str:52956,d0:9656,d1:35116;
+                ("sleep_forever", Expression<MethodOrOperator> @:9656 op:20,dt:2,nt:9,next:9657,str:10303,d0:0,d1:0;
+                    ("e9_retreat_checkpoint0", Expression<ScriptReference> @:9657 op:10,dt:10,nt:9,next:65535,str:18343,d0:258,d1:65535;)))
+            (____, Scope<Void> @:9658 op:21,dt:4,nt:8,next:9666,str:52997,d0:9659,d1:35119;
+                ("sleep_until", Expression<MethodOrOperator> @:9659 op:21,dt:2,nt:9,next:9660,str:294,d0:0,d1:0;
+                    (____, Scope<Boolean> @:9660 op:33,dt:5,nt:8,next:9665,str:53010,d0:9661,d1:35121;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:9661 op:33,dt:2,nt:9,next:9662,str:11142,d0:0,d1:0;
+                            ("tv_e9_retreat_checkpoint", Expression<Trigger> @:9662 op:13,dt:13,nt:9,next:9663,str:18318,d0:106,d1:0;
+                                (____, Scope<List> @:9663 op:28,dt:31,nt:8,next:65535,str:53056,d0:9664,d1:35124;
+                                    ("players", Expression<MethodOrOperator> @:9664 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;)))))
+                    ("30_seconds", VariableAccess<Short> @:9665 op:7,dt:7,nt:13,next:65535,str:15111,d0:5,d1:0;)))
+            (____, Scope<Void> @:9666 op:587,dt:4,nt:8,next:65535,str:53081,d0:9667,d1:35127;
+                ("game_save", Expression<MethodOrOperator> @:9667 op:587,dt:2,nt:9,next:65535,str:13266,d0:0,d1:0;)))))

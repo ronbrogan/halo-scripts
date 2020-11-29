@@ -1,0 +1,25 @@
+
+("e6_cov_hunters0_main", MethodDecl<Void> @:454 op:0,dt:0,nt:65535,next:18228,str:37246,d0:0,d1:0;
+    (____, Scope<Void> @:18228 op:0,dt:4,nt:8,next:65535,str:40732,d0:18229,d1:43689;
+        ("begin", Expression<MethodOrOperator> @:18229 op:0,dt:2,nt:9,next:18207,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:18207 op:309,dt:4,nt:8,next:18211,str:40771,d0:18208,d1:43668;
+                ("ai_migrate", Expression<MethodOrOperator> @:18208 op:309,dt:2,nt:9,next:18209,str:32380,d0:0,d1:0;
+                    ("e5_cov_hunters0", Expression<AI> @:18209 op:19,dt:19,nt:9,next:18210,str:36956,d0:32,d1:0;
+                        ("e6_cov_hunters0", Expression<AI> @:18210 op:19,dt:19,nt:9,next:65535,str:35504,d0:46,d1:0;))))
+            (____, Scope<Void> @:18211 op:2,dt:4,nt:8,next:18221,str:40854,d0:18212,d1:43672;
+                ("if", Expression<MethodOrOperator> @:18212 op:2,dt:2,nt:9,next:18213,str:461,d0:0,d1:0;
+                    (____, Scope<Boolean> @:18213 op:17,dt:5,nt:8,next:18219,str:40858,d0:18214,d1:43674;
+                        (">=", Expression<MethodOrOperator> @:18214 op:17,dt:2,nt:9,next:18215,str:676,d0:0,d1:0;
+                            (____, Scope<Short> @:18215 op:327,dt:7,nt:8,next:18218,str:40862,d0:18216,d1:43676;
+                                ("ai_living_count", Expression<MethodOrOperator> @:18216 op:327,dt:2,nt:9,next:18217,str:5988,d0:0,d1:0;
+                                    ("e6_cov_hunters0", Expression<AI> @:18217 op:19,dt:19,nt:9,next:65535,str:35504,d0:46,d1:0;)))
+                            (2, Expression<Short> @:18218 op:7,dt:7,nt:9,next:65535,str:40896,d0:2,d1:65535;)))
+                    (____, Scope<Void> @:18219 op:20,dt:4,nt:8,next:65535,str:40902,d0:18220,d1:43680;
+                        ("sleep_forever", Expression<MethodOrOperator> @:18220 op:20,dt:2,nt:9,next:65535,str:1139,d0:0,d1:0;))))
+            (____, Scope<Void> @:18221 op:290,dt:4,nt:8,next:18224,str:40986,d0:18222,d1:43682;
+                ("ai_place", Expression<MethodOrOperator> @:18222 op:290,dt:2,nt:9,next:18223,str:5315,d0:0,d1:0;
+                    ("e6_cov_hunters0", Expression<AI> @:18223 op:19,dt:19,nt:9,next:65535,str:35504,d0:46,d1:0;)))
+            (____, Scope<Void> @:18224 op:334,dt:4,nt:8,next:65535,str:41225,d0:18225,d1:43685;
+                ("ai_set_orders", Expression<MethodOrOperator> @:18225 op:334,dt:2,nt:9,next:18226,str:28228,d0:0,d1:0;
+                    ("e6_cov_hunters0", Expression<AI> @:18226 op:19,dt:19,nt:9,next:18227,str:35504,d0:46,d1:0;
+                        ("e6_cov_hunters0_engage1", Expression<AIOrders> @:18227 op:23,dt:23,nt:9,next:65535,str:36972,d0:90,d1:0;)))))))

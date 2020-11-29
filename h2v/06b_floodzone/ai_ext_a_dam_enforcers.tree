@@ -1,0 +1,31 @@
+
+("ai_ext_a_dam_enforcers", MethodDecl<Void> @:188 check:0,op:0,dt:0,nt:65535,next:7822,nextCheck:33282,str:25619,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:7822 check:33282,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:23536,h:1,d0:7823,d1:33283;
+        ("begin", Expression<MethodOrOperator> @:7823 check:33283,op:0,dt:2,nt:9,next:7795,nextCheck:33255,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:7795 check:33255,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:23577,h:1,d0:7796,d1:33256;
+                ("sleep_until", Expression<MethodOrOperator> @:7796 check:33256,op:21,dt:2,nt:9,next:7797,nextCheck:33257,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:7797 check:33257,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:23593,h:1,d0:7798,d1:33258;
+                        ("begin", Expression<MethodOrOperator> @:7798 check:33258,op:0,dt:2,nt:9,next:7799,nextCheck:33259,str:6,h:0,d0:0,d1:0;
+                            (____, Scope<Void> @:7799 check:33259,op:21,dt:4,nt:8,next:7807,nextCheck:33267,str:23604,h:1,d0:7800,d1:33260;
+                                ("sleep_until", Expression<MethodOrOperator> @:7800 check:33260,op:21,dt:2,nt:9,next:7801,nextCheck:33261,str:236,h:0,d0:0,d1:0;
+                                    (____, Scope<Boolean> @:7801 check:33261,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:23617,h:1,d0:7802,d1:33262;
+                                        ("<=", Expression<MethodOrOperator> @:7802 check:33262,op:18,dt:2,nt:9,next:7803,nextCheck:33263,str:11840,h:0,d0:0,d1:0;
+                                            (____, Scope<Short> @:7803 check:33263,op:327,dt:7,nt:8,next:7806,nextCheck:33266,str:23621,h:1,d0:7804,d1:33264;
+                                                ("ai_living_count", Expression<MethodOrOperator> @:7804 check:33264,op:327,dt:2,nt:9,next:7805,nextCheck:33265,str:11843,h:0,d0:0,d1:0;
+                                                    ("ext_a_sen_dam_b", Expression<AI> @:7805 check:33265,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:14652,h:0,d0:30,d1:16384;)))
+                                            (0, Expression<Short> @:7806 check:33266,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23655,h:1,d0:0,d1:65535;)))))
+                            (____, Scope<Void> @:7807 check:33267,op:19,dt:4,nt:8,next:7810,nextCheck:33270,str:23663,h:1,d0:7808,d1:33268;
+                                ("sleep", Expression<MethodOrOperator> @:7808 check:33268,op:19,dt:2,nt:9,next:7809,nextCheck:33269,str:85,h:0,d0:0,d1:0;
+                                    (90, Expression<Short> @:7809 check:33269,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23670,h:1,d0:90,d1:65535;)))
+                            (____, Scope<Void> @:7810 check:33270,op:290,dt:4,nt:8,next:7813,nextCheck:33273,str:23678,h:1,d0:7811,d1:33271;
+                                ("ai_place", Expression<MethodOrOperator> @:7811 check:33271,op:290,dt:2,nt:9,next:7812,nextCheck:33272,str:16163,h:0,d0:0,d1:0;
+                                    ("qz_ext_a_dam_enf_door", Expression<AI> @:7812 check:33272,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:17205,h:0,d0:31,d1:0;)))
+                            (____, Scope<Boolean> @:7813 check:33273,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:23715,h:1,d0:7814,d1:33274;
+                                ("or", Expression<MethodOrOperator> @:7814 check:33274,op:6,dt:2,nt:9,next:7815,nextCheck:33275,str:849,h:0,d0:0,d1:0;
+                                    (____, Scope<Boolean> @:7815 check:33275,op:17,dt:5,nt:8,next:7821,nextCheck:33281,str:23724,h:1,d0:7816,d1:33276;
+                                        (">=", Expression<MethodOrOperator> @:7816 check:33276,op:17,dt:2,nt:9,next:7817,nextCheck:33277,str:676,h:0,d0:0,d1:0;
+                                            (____, Scope<Short> @:7817 check:33277,op:335,dt:7,nt:8,next:7820,nextCheck:33280,str:23728,h:1,d0:7818,d1:33278;
+                                                ("ai_spawn_count", Expression<MethodOrOperator> @:7818 check:33278,op:335,dt:2,nt:9,next:7819,nextCheck:33279,str:16172,h:0,d0:0,d1:0;
+                                                    ("qz_ext_a_dam_enf_door", Expression<AI> @:7819 check:33279,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:17205,h:0,d0:31,d1:0;)))
+                                            (3, Expression<Short> @:7820 check:33280,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23767,h:1,d0:3,d1:65535;)))
+                                    ("g_ext_a_dam_enf", VariableAccess<Boolean> @:7821 check:33281,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:17227,h:0,d0:45,d1:0;))))))))))

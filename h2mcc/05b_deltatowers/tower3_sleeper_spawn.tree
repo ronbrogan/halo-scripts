@@ -1,0 +1,18 @@
+
+("tower3_sleeper_spawn", MethodDecl<Void> @:201 op:0,dt:0,nt:65535,next:9468,str:19362,d0:0,d1:0;
+    (____, Scope<Void> @:9468 op:0,dt:4,nt:8,next:65535,str:39710,d0:9469,d1:34929;
+        ("begin", Expression<MethodOrOperator> @:9469 op:0,dt:2,nt:9,next:9454,str:142,d0:0,d1:0;
+            (____, Scope<Void> @:9454 op:21,dt:4,nt:8,next:9464,str:39749,d0:9455,d1:34915;
+                ("sleep_until", Expression<MethodOrOperator> @:9455 op:21,dt:2,nt:9,next:9456,str:372,d0:0,d1:0;
+                    (____, Scope<Boolean> @:9456 op:13,dt:5,nt:8,next:65535,str:39762,d0:9457,d1:34917;
+                        ("=", Expression<MethodOrOperator> @:9457 op:13,dt:2,nt:9,next:9458,str:437,d0:0,d1:0;
+                            (____, Scope<Boolean> @:9458 op:33,dt:5,nt:8,next:9463,str:39765,d0:9459,d1:34919;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:9459 op:33,dt:2,nt:9,next:9460,str:10374,d0:0,d1:0;
+                                    ("vol_tower3_upstairs", Expression<Trigger> @:9460 op:13,dt:13,nt:9,next:9461,str:19181,d0:33,d1:0;
+                                        (____, Scope<List> @:9461 op:28,dt:31,nt:8,next:65535,str:39806,d0:9462,d1:34922;
+                                            ("players", Expression<MethodOrOperator> @:9462 op:28,dt:2,nt:9,next:65535,str:162,d0:0,d1:0;)))))
+                            (True, Expression<Boolean> @:9463 op:5,dt:5,nt:9,next:65535,str:39817,d0:65281,d1:65535;)))))
+            (____, Scope<Void> @:9464 op:291,dt:4,nt:8,next:65535,str:39826,d0:9465,d1:34925;
+                ("ai_place", Expression<MethodOrOperator> @:9465 op:291,dt:2,nt:9,next:9466,str:10304,d0:0,d1:0;
+                    ("tower3_sleeper", Expression<AI> @:9466 op:19,dt:19,nt:9,next:9467,str:19201,d0:42,d1:0;
+                        (1, Expression<Short> @:9467 op:7,dt:7,nt:9,next:65535,str:39851,d0:1,d1:65535;)))))))

@@ -1,0 +1,28 @@
+
+("slide_a_player1", MethodDecl<Void> @:331 check:0,op:0,dt:0,nt:65535,next:16223,nextCheck:41683,str:30249,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:16223 check:41683,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:27900,h:2,d0:16224,d1:41684;
+        ("begin", Expression<MethodOrOperator> @:16224 check:41684,op:0,dt:2,nt:9,next:16199,nextCheck:41659,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:16199 check:41659,op:21,dt:4,nt:8,next:16206,nextCheck:41666,str:27934,h:2,d0:16200,d1:41660;
+                ("sleep_until", Expression<MethodOrOperator> @:16200 check:41660,op:21,dt:2,nt:9,next:16201,nextCheck:41661,str:231,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:16201 check:41661,op:32,dt:5,nt:8,next:65535,nextCheck:65535,str:27947,h:2,d0:16202,d1:41662;
+                        ("volume_test_object", Expression<MethodOrOperator> @:16202 check:41662,op:32,dt:2,nt:9,next:16203,nextCheck:41663,str:25706,h:0,d0:0,d1:0;
+                            ("tv_slide_a", Expression<Trigger> @:16203 check:41663,op:13,dt:13,nt:9,next:16204,nextCheck:41664,str:12369,h:0,d0:96,d1:0;
+                                ("player1", ScriptInvocation<Entity> @:16204 check:41664,op:1,dt:50,nt:10,next:65535,nextCheck:65535,str:27978,h:2,d0:16205,d1:41665;
+                                    ("player1", Expression<MethodOrOperator> @:16205 check:41665,op:1,dt:2,nt:9,next:65535,nextCheck:65535,str:610,h:0,d0:0,d1:0;)))))))
+            (____, Scope<Void> @:16206 check:41666,op:90,dt:4,nt:8,next:16210,nextCheck:41670,str:28018,h:2,d0:16207,d1:41667;
+                ("object_cannot_take_damage", Expression<MethodOrOperator> @:16207 check:41667,op:90,dt:2,nt:9,next:16208,nextCheck:41668,str:618,h:0,d0:0,d1:0;
+                    ("player1", ScriptInvocation<List> @:16208 check:41668,op:1,dt:31,nt:10,next:65535,nextCheck:65535,str:28045,h:2,d0:16209,d1:41669;
+                        ("player1", Expression<MethodOrOperator> @:16209 check:41669,op:1,dt:2,nt:9,next:65535,nextCheck:65535,str:610,h:0,d0:0,d1:0;))))
+            (____, Scope<Void> @:16210 check:41670,op:21,dt:4,nt:8,next:16219,nextCheck:41679,str:28058,h:2,d0:16211,d1:41671;
+                ("sleep_until", Expression<MethodOrOperator> @:16211 check:41671,op:21,dt:2,nt:9,next:16212,nextCheck:41672,str:231,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:16212 check:41672,op:25,dt:5,nt:8,next:65535,nextCheck:65535,str:28071,h:2,d0:16213,d1:41673;
+                        ("not", Expression<MethodOrOperator> @:16213 check:41673,op:25,dt:2,nt:9,next:16214,nextCheck:41674,str:397,h:0,d0:0,d1:0;
+                            (____, Scope<Boolean> @:16214 check:41674,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:28076,h:2,d0:16215,d1:41675;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:16215 check:41675,op:33,dt:2,nt:9,next:16216,nextCheck:41676,str:11606,h:0,d0:0,d1:0;
+                                    ("tv_slide_a", Expression<Trigger> @:16216 check:41676,op:13,dt:13,nt:9,next:16217,nextCheck:41677,str:12369,h:0,d0:96,d1:0;
+                                        ("player1", ScriptInvocation<List> @:16217 check:41677,op:1,dt:31,nt:10,next:65535,nextCheck:65535,str:28108,h:2,d0:16218,d1:41678;
+                                            ("player1", Expression<MethodOrOperator> @:16218 check:41678,op:1,dt:2,nt:9,next:65535,nextCheck:65535,str:610,h:0,d0:0,d1:0;)))))))))
+            (____, Scope<Void> @:16219 check:41679,op:91,dt:4,nt:8,next:65535,nextCheck:65535,str:28123,h:2,d0:16220,d1:41680;
+                ("object_can_take_damage", Expression<MethodOrOperator> @:16220 check:41680,op:91,dt:2,nt:9,next:16221,nextCheck:41681,str:644,h:0,d0:0,d1:0;
+                    ("player1", ScriptInvocation<List> @:16221 check:41681,op:1,dt:31,nt:10,next:65535,nextCheck:65535,str:28147,h:2,d0:16222,d1:41682;
+                        ("player1", Expression<MethodOrOperator> @:16222 check:41682,op:1,dt:2,nt:9,next:65535,nextCheck:65535,str:610,h:0,d0:0,d1:0;)))))))

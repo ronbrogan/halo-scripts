@@ -1,0 +1,34 @@
+
+("cs_e4_alarm_scene", MethodDecl<Void> @:173 op:0,dt:0,nt:65535,next:6424,str:12312,d0:0,d1:0;
+    (____, Scope<Void> @:6424 op:0,dt:4,nt:8,next:65535,str:15473,d0:6425,d1:64652;
+        ("begin", Expression<MethodOrOperator> @:6425 op:0,dt:2,nt:9,next:6394,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:6394 op:374,dt:4,nt:8,next:6397,str:15516,d0:6395,d1:64622;
+                ("cs_switch", Expression<MethodOrOperator> @:6395 op:374,dt:2,nt:9,next:6396,str:12216,d0:0,d1:0;
+                    ("brute0", Expression<StringId> @:6396 op:11,dt:11,nt:9,next:65535,str:12226,d0:13294,d1:1536;)))
+            (____, Scope<Void> @:6397 op:19,dt:4,nt:8,next:6403,str:15539,d0:6398,d1:64625;
+                ("sleep", Expression<MethodOrOperator> @:6398 op:19,dt:2,nt:9,next:6399,str:143,d0:0,d1:0;
+                    (____, Scope<Short> @:6399 op:360,dt:7,nt:8,next:65535,str:15546,d0:6400,d1:64627;
+                        ("ai_play_line", Expression<MethodOrOperator> @:6400 op:360,dt:2,nt:9,next:6401,str:6561,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:6401 op:19,dt:19,nt:13,next:6402,str:6458,d0:33564,d1:65535;
+                                ("0450", Expression<StringId> @:6402 op:11,dt:11,nt:9,next:65535,str:12233,d0:13036,d1:1024;))))))
+            (____, Scope<Void> @:6403 op:449,dt:4,nt:8,next:6406,str:15610,d0:6404,d1:64631;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:6404 op:449,dt:2,nt:9,next:6405,str:6389,d0:0,d1:0;
+                    (True, Expression<Boolean> @:6405 op:5,dt:5,nt:9,next:65535,str:15642,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:6406 op:385,dt:4,nt:8,next:6409,str:15650,d0:6407,d1:64634;
+                ("cs_go_to", Expression<MethodOrOperator> @:6407 op:385,dt:2,nt:9,next:6408,str:6475,d0:0,d1:0;
+                    ("e4_alarm_scene/p0", Expression<SpatialPoint> @:6408 op:28,dt:28,nt:9,next:65535,str:12238,d0:0,d1:10;)))
+            (____, Scope<Void> @:6409 op:19,dt:4,nt:8,next:6415,str:15681,d0:6410,d1:64637;
+                ("sleep", Expression<MethodOrOperator> @:6410 op:19,dt:2,nt:9,next:6411,str:143,d0:0,d1:0;
+                    (____, Scope<Short> @:6411 op:360,dt:7,nt:8,next:65535,str:15688,d0:6412,d1:64639;
+                        ("ai_play_line", Expression<MethodOrOperator> @:6412 op:360,dt:2,nt:9,next:6413,str:6561,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:6413 op:19,dt:19,nt:13,next:6414,str:6458,d0:33564,d1:65535;
+                                ("0400", Expression<StringId> @:6414 op:11,dt:11,nt:9,next:65535,str:12256,d0:13031,d1:1024;))))))
+            (____, Scope<Void> @:6415 op:19,dt:4,nt:8,next:65535,str:15728,d0:6416,d1:64643;
+                ("sleep", Expression<MethodOrOperator> @:6416 op:19,dt:2,nt:9,next:6417,str:143,d0:0,d1:0;
+                    (____, Scope<Short> @:6417 op:8,dt:7,nt:8,next:65535,str:15735,d0:6418,d1:64645;
+                        ("-", Expression<MethodOrOperator> @:6418 op:8,dt:2,nt:9,next:6419,str:2395,d0:0,d1:0;
+                            (-5.61175E+36f, Scope<Float> @:6419 op:360,dt:6,nt:8,next:6423,str:15738,d0:6420,d1:64647;
+                                ("ai_play_line", Expression<MethodOrOperator> @:6420 op:360,dt:2,nt:9,next:6421,str:6561,d0:0,d1:0;
+                                    ("ai_current_actor", VariableAccess<AI> @:6421 op:19,dt:19,nt:13,next:6422,str:6458,d0:33564,d1:65535;
+                                        ("0440", Expression<StringId> @:6422 op:11,dt:11,nt:9,next:65535,str:12261,d0:13035,d1:1024;))))
+                            (30f, Expression<Float> @:6423 op:6,dt:6,nt:9,next:65535,str:15775,d0:0,d1:16880;))))))))

@@ -1,0 +1,25 @@
+
+("x02_0280_lhd", MethodDecl<Void> @:119 op:0,dt:0,nt:65535,next:4771,str:12177,d0:0,d1:0;
+    (____, Scope<Void> @:4771 op:0,dt:4,nt:8,next:65535,str:58340,d0:4772,d1:62999;
+        ("begin", Expression<MethodOrOperator> @:4772 op:0,dt:2,nt:9,next:4750,str:11,d0:0,d1:0;
+            (____, Scope<Void> @:4750 op:19,dt:4,nt:8,next:4753,str:58371,d0:4751,d1:62978;
+                ("sleep", Expression<MethodOrOperator> @:4751 op:19,dt:2,nt:9,next:4752,str:90,d0:0,d1:0;
+                    (165, Expression<Short> @:4752 op:7,dt:7,nt:9,next:65535,str:58378,d0:165,d1:65535;)))
+            (____, Scope<Void> @:4753 op:596,dt:4,nt:8,next:4758,str:58385,d0:4754,d1:62981;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:4754 op:596,dt:2,nt:9,next:4755,str:1446,d0:0,d1:0;
+                    ("sound\dialog\levels\01_spacestation\cinematic\x02_0280_lhd", Expression<Sound> @:4755 op:32,dt:32,nt:9,next:4756,str:12118,d0:4543,d1:62431;
+                        (4294902070, Expression<Entity> @:4756 op:56,dt:50,nt:9,next:4757,str:7527,d0:310,d1:65535;
+                            (1f, Expression<Float> @:4757 op:6,dt:6,nt:9,next:65535,str:58474,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:4758 op:562,dt:4,nt:8,next:4762,str:58479,d0:4759,d1:62986;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:4759 op:562,dt:2,nt:9,next:4760,str:1689,d0:0,d1:0;
+                    ("x02_0280_lhd", Expression<StringId> @:4760 op:11,dt:11,nt:9,next:4761,str:12177,d0:9630,d1:3072;
+                        (2f, Expression<Float> @:4761 op:6,dt:6,nt:9,next:65535,str:58512,d0:0,d1:16384;))))
+            (____, Scope<Void> @:4762 op:220,dt:4,nt:8,next:4768,str:58520,d0:4763,d1:62990;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:4763 op:220,dt:2,nt:9,next:4764,str:1808,d0:0,d1:0;
+                    ("miranda_x02", Expression<Unit> @:4764 op:57,dt:51,nt:9,next:4765,str:8031,d0:311,d1:65535;
+                        ("pensive", Expression<StringId> @:4765 op:11,dt:11,nt:9,next:4766,str:2111,d0:431,d1:1792;
+                            (0.25f, Expression<Float> @:4766 op:6,dt:6,nt:9,next:4767,str:58566,d0:0,d1:16000;
+                                (0, Expression<Short> @:4767 op:7,dt:7,nt:9,next:65535,str:58570,d0:0,d1:65535;))))))
+            (____, Scope<Void> @:4768 op:27,dt:4,nt:8,next:65535,str:58575,d0:4769,d1:62996;
+                ("print", Expression<MethodOrOperator> @:4769 op:27,dt:2,nt:9,next:4770,str:96,d0:0,d1:0;
+                    ("miranda - pensive .25 0", Expression<String> @:4770 op:9,dt:9,nt:9,next:65535,str:12190,d0:12190,d1:0;))))))

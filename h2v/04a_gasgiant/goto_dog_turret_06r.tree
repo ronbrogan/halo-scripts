@@ -1,0 +1,32 @@
+
+("goto_dog_turret_06r", MethodDecl<Void> @:370 check:0,op:0,dt:0,nt:65535,next:22731,nextCheck:48191,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:22731 check:48191,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:48359,h:3,d0:22732,d1:48192;
+        ("begin", Expression<MethodOrOperator> @:22732 check:48192,op:0,dt:2,nt:9,next:22703,nextCheck:48163,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:22703 check:48163,op:448,dt:4,nt:8,next:22706,nextCheck:48166,str:48404,h:3,d0:22704,d1:48164;
+                ("cs_force_combat_status", Expression<MethodOrOperator> @:22704 check:48164,op:448,dt:2,nt:9,next:22705,nextCheck:48165,str:15141,h:0,d0:0,d1:0;
+                    (4, Expression<Short> @:22705 check:48165,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:48428,h:3,d0:4,d1:65535;)))
+            (____, Scope<Void> @:22706 check:48166,op:449,dt:4,nt:8,next:22709,nextCheck:48169,str:48433,h:3,d0:22707,d1:48167;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:22707 check:48167,op:449,dt:2,nt:9,next:22708,nextCheck:48168,str:17375,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:22708 check:48168,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:48465,h:3,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:22709 check:48169,op:426,dt:4,nt:8,next:22714,nextCheck:48174,str:48473,h:3,d0:22710,d1:48170;
+                ("cs_go_to_vehicle", Expression<MethodOrOperator> @:22710 check:48170,op:426,dt:2,nt:9,next:22711,nextCheck:48171,str:28816,h:0,d0:0,d1:0;
+                    (____, Scope<Vehicle> @:22711 check:48171,op:341,dt:52,nt:8,next:65535,nextCheck:65535,str:48491,h:3,d0:22712,d1:48172;
+                        ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:22712 check:48172,op:341,dt:2,nt:9,next:22713,nextCheck:48173,str:23469,h:0,d0:0,d1:0;
+                            ("dog_turrets_06/right", Expression<AI> @:22713 check:48173,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:33503,h:0,d0:1,d1:49273;)))))
+            (____, Scope<Void> @:22714 check:48174,op:343,dt:4,nt:8,next:22720,nextCheck:48180,str:48555,h:3,d0:22715,d1:48175;
+                ("ai_vehicle_reserve", Expression<MethodOrOperator> @:22715 check:48175,op:343,dt:2,nt:9,next:22716,nextCheck:48176,str:28772,h:0,d0:0,d1:0;
+                    (____, Scope<Vehicle> @:22716 check:48176,op:341,dt:52,nt:8,next:22719,nextCheck:48179,str:48575,h:3,d0:22717,d1:48177;
+                        ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:22717 check:48177,op:341,dt:2,nt:9,next:22718,nextCheck:48178,str:23469,h:0,d0:0,d1:0;
+                            ("dog_turrets_06/right", Expression<AI> @:22718 check:48178,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:33503,h:0,d0:1,d1:49273;)))
+                    (True, Expression<Boolean> @:22719 check:48179,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:48636,h:3,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:22720 check:48180,op:442,dt:4,nt:8,next:22723,nextCheck:48183,str:48644,h:3,d0:22721,d1:48181;
+                ("cs_enable_targeting", Expression<MethodOrOperator> @:22721 check:48181,op:442,dt:2,nt:9,next:22722,nextCheck:48182,str:21020,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:22722 check:48182,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:48665,h:3,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:22723 check:48183,op:404,dt:4,nt:8,next:22726,nextCheck:48186,str:48673,h:3,d0:22724,d1:48184;
+                ("cs_shoot", Expression<MethodOrOperator> @:22724 check:48184,op:404,dt:2,nt:9,next:22725,nextCheck:48185,str:21040,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:22725 check:48185,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:48683,h:3,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:22726 check:48186,op:427,dt:4,nt:8,next:22729,nextCheck:48189,str:48691,h:3,d0:22727,d1:48187;
+                ("cs_set_behavior", Expression<MethodOrOperator> @:22727 check:48187,op:427,dt:2,nt:9,next:22728,nextCheck:48188,str:21049,h:0,d0:0,d1:0;
+                    ("guard", Expression<AIBehavior> @:22728 check:48188,op:22,dt:22,nt:9,next:65535,nextCheck:65535,str:21065,h:0,d0:5,d1:0;)))
+            (____, Scope<Void> @:22729 check:48189,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:48717,h:3,d0:22730,d1:48190;
+                ("sleep_forever", Expression<MethodOrOperator> @:22730 check:48190,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:15127,h:0,d0:0,d1:0;)))))

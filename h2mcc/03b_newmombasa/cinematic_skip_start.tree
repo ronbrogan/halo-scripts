@@ -1,0 +1,19 @@
+
+("cinematic_skip_start", MethodDecl<Boolean> @:7 op:0,dt:0,nt:65535,next:150,str:13128,d0:0,d1:0;
+    (____, Scope<Boolean> @:150 op:0,dt:5,nt:8,next:65535,str:1061,d0:151,d1:58378;
+        ("begin", Expression<MethodOrOperator> @:151 op:0,dt:2,nt:9,next:135,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:135 op:555,dt:4,nt:8,next:137,str:1107,d0:136,d1:58363;
+                ("cinematic_skip_start_internal", Expression<MethodOrOperator> @:136 op:555,dt:2,nt:9,next:65535,str:347,d0:0,d1:0;))
+            (____, Scope<Void> @:137 op:876,dt:4,nt:8,next:139,str:1188,d0:138,d1:58365;
+                ("game_save_cinematic_skip", Expression<MethodOrOperator> @:138 op:876,dt:2,nt:9,next:65535,str:377,d0:0,d1:0;))
+            (____, Scope<Void> @:139 op:21,dt:4,nt:8,next:146,str:1241,d0:140,d1:58367;
+                ("sleep_until", Expression<MethodOrOperator> @:140 op:21,dt:2,nt:9,next:141,str:236,d0:0,d1:0;
+                    (____, Scope<Boolean> @:141 op:25,dt:5,nt:8,next:145,str:1254,d0:142,d1:58369;
+                        ("not", Expression<MethodOrOperator> @:142 op:25,dt:2,nt:9,next:143,str:402,d0:0,d1:0;
+                            (____, Scope<Boolean> @:143 op:591,dt:5,nt:8,next:65535,str:1259,d0:144,d1:58371;
+                                ("game_saving", Expression<MethodOrOperator> @:144 op:591,dt:2,nt:9,next:65535,str:406,d0:0,d1:0;))))
+                    (1, Expression<Short> @:145 op:7,dt:7,nt:9,next:65535,str:1274,d0:1,d1:65535;)))
+            (____, Scope<Boolean> @:146 op:25,dt:5,nt:8,next:65535,str:1317,d0:147,d1:58374;
+                ("not", Expression<MethodOrOperator> @:147 op:25,dt:2,nt:9,next:148,str:402,d0:0,d1:0;
+                    (____, Scope<Boolean> @:148 op:592,dt:5,nt:8,next:65535,str:1322,d0:149,d1:58376;
+                        ("game_reverted", Expression<MethodOrOperator> @:149 op:592,dt:2,nt:9,next:65535,str:418,d0:0,d1:0;)))))))

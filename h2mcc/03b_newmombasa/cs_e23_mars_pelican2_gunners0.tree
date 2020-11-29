@@ -1,0 +1,33 @@
+
+("cs_e23_mars_pelican2_gunners0", MethodDecl<Void> @:241 op:0,dt:0,nt:65535,next:7429,str:15800,d0:0,d1:0;
+    (____, Scope<Void> @:7429 op:0,dt:4,nt:8,next:65535,str:25377,d0:7430,d1:32890;
+        ("begin", Expression<MethodOrOperator> @:7430 op:0,dt:2,nt:9,next:7400,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:7400 op:19,dt:4,nt:8,next:7403,str:25432,d0:7401,d1:32861;
+                ("sleep", Expression<MethodOrOperator> @:7401 op:19,dt:2,nt:9,next:7402,str:85,d0:0,d1:0;
+                    (60, Expression<Short> @:7402 op:7,dt:7,nt:9,next:65535,str:25439,d0:60,d1:65535;)))
+            (____, Scope<Void> @:7403 op:2,dt:4,nt:8,next:7416,str:25445,d0:7404,d1:32864;
+                ("if", Expression<MethodOrOperator> @:7404 op:2,dt:2,nt:9,next:7405,str:461,d0:0,d1:0;
+                    (____, Scope<Boolean> @:7405 op:25,dt:5,nt:8,next:7412,str:25449,d0:7406,d1:32866;
+                        ("not", Expression<MethodOrOperator> @:7406 op:25,dt:2,nt:9,next:7407,str:402,d0:0,d1:0;
+                            (____, Scope<Boolean> @:7407 op:33,dt:5,nt:8,next:65535,str:25454,d0:7408,d1:32868;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:7408 op:33,dt:2,nt:9,next:7409,str:13230,d0:0,d1:0;
+                                    ("tv_scarab", Expression<Trigger> @:7409 op:13,dt:13,nt:9,next:7410,str:13675,d0:84,d1:0;
+                                        (____, Scope<List> @:7410 op:28,dt:31,nt:8,next:65535,str:25485,d0:7411,d1:32871;
+                                            ("players", Expression<MethodOrOperator> @:7411 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))))
+                    (____, Scope<Void> @:7412 op:406,dt:4,nt:8,next:65535,str:25501,d0:7413,d1:32873;
+                        ("cs_shoot_point", Expression<MethodOrOperator> @:7413 op:406,dt:2,nt:9,next:7414,str:15568,d0:0,d1:0;
+                            (True, Expression<Boolean> @:7414 op:5,dt:5,nt:9,next:7415,str:25517,d0:65281,d1:65535;
+                                ("e22_scarab_target/leg1", Expression<SpatialPoint> @:7415 op:28,dt:28,nt:9,next:65535,str:15583,d0:2,d1:27;))))))
+            (____, Scope<Void> @:7416 op:19,dt:4,nt:8,next:7419,str:25552,d0:7417,d1:32877;
+                ("sleep", Expression<MethodOrOperator> @:7417 op:19,dt:2,nt:9,next:7418,str:85,d0:0,d1:0;
+                    (60, Expression<Short> @:7418 op:7,dt:7,nt:9,next:65535,str:25559,d0:60,d1:65535;)))
+            (____, Scope<Void> @:7419 op:406,dt:4,nt:8,next:7423,str:25565,d0:7420,d1:32880;
+                ("cs_shoot_point", Expression<MethodOrOperator> @:7420 op:406,dt:2,nt:9,next:7421,str:15568,d0:0,d1:0;
+                    (False, Expression<Boolean> @:7421 op:5,dt:5,nt:9,next:7422,str:25581,d0:65280,d1:65535;
+                        ("e22_scarab_target/leg1", Expression<SpatialPoint> @:7422 op:28,dt:28,nt:9,next:65535,str:15583,d0:2,d1:27;))))
+            (____, Scope<Void> @:7423 op:19,dt:4,nt:8,next:7426,str:25613,d0:7424,d1:32884;
+                ("sleep", Expression<MethodOrOperator> @:7424 op:19,dt:2,nt:9,next:7425,str:85,d0:0,d1:0;
+                    (1, Expression<Short> @:7425 op:7,dt:7,nt:9,next:65535,str:25620,d0:1,d1:65535;)))
+            (____, Scope<Void> @:7426 op:298,dt:4,nt:8,next:65535,str:25625,d0:7427,d1:32887;
+                ("ai_erase", Expression<MethodOrOperator> @:7427 op:298,dt:2,nt:9,next:7428,str:15505,d0:0,d1:0;
+                    ("ai_current_actor", VariableAccess<AI> @:7428 op:19,dt:19,nt:13,next:65535,str:13888,d0:33564,d1:65535;))))))

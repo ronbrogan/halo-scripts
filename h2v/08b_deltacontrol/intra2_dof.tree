@@ -1,0 +1,30 @@
+
+("intra2_dof", MethodDecl<Void> @:96 check:0,op:0,dt:0,nt:65535,next:4436,nextCheck:62663,str:10678,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:4436 check:62663,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:50174,h:0,d0:4437,d1:62664;
+        ("begin", Expression<MethodOrOperator> @:4437 check:62664,op:0,dt:2,nt:9,next:4410,nextCheck:62637,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:4410 check:62637,op:19,dt:4,nt:8,next:4413,nextCheck:62640,str:50205,h:0,d0:4411,d1:62638;
+                ("sleep", Expression<MethodOrOperator> @:4411 check:62638,op:19,dt:2,nt:9,next:4412,nextCheck:62639,str:85,h:0,d0:0,d1:0;
+                    (68, Expression<Short> @:4412 check:62639,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:50212,h:0,d0:68,d1:65535;)))
+            (____, Scope<Void> @:4413 check:62640,op:708,dt:4,nt:8,next:4416,nextCheck:62643,str:50218,h:0,d0:4414,d1:62641;
+                ("cinematic_screen_effect_start", Expression<MethodOrOperator> @:4414 check:62641,op:708,dt:2,nt:9,next:4415,nextCheck:62642,str:8151,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:4415 check:62642,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:50249,h:0,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:4416 check:62643,op:709,dt:4,nt:8,next:4425,nextCheck:62652,str:50257,h:0,d0:4417,d1:62644;
+                ("cinematic_screen_effect_set_depth_of_field", Expression<MethodOrOperator> @:4417 check:62644,op:709,dt:2,nt:9,next:4418,nextCheck:62645,str:8181,h:0,d0:0,d1:0;
+                    (1f, Expression<Float> @:4418 check:62645,op:6,dt:6,nt:9,next:4419,nextCheck:62646,str:50301,h:0,d0:0,d1:16256;
+                        (0.5f, Expression<Float> @:4419 check:62646,op:6,dt:6,nt:9,next:4420,nextCheck:62647,str:50303,h:0,d0:0,d1:16128;
+                            (0.5f, Expression<Float> @:4420 check:62647,op:6,dt:6,nt:9,next:4421,nextCheck:62648,str:50306,h:0,d0:0,d1:16128;
+                                (0.001f, Expression<Float> @:4421 check:62648,op:6,dt:6,nt:9,next:4422,nextCheck:62649,str:50309,h:0,d0:4719,d1:14979;
+                                    (0f, Expression<Float> @:4422 check:62649,op:6,dt:6,nt:9,next:4423,nextCheck:62650,str:50315,h:0,d0:0,d1:0;
+                                        (0f, Expression<Float> @:4423 check:62650,op:6,dt:6,nt:9,next:4424,nextCheck:62651,str:50317,h:0,d0:0,d1:0;
+                                            (0.001f, Expression<Float> @:4424 check:62651,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:50319,h:0,d0:4719,d1:14979;)))))))))
+            (____, Scope<Void> @:4425 check:62652,op:27,dt:4,nt:8,next:4428,nextCheck:62655,str:50328,h:0,d0:4426,d1:62653;
+                ("print", Expression<MethodOrOperator> @:4426 check:62653,op:27,dt:2,nt:9,next:4427,nextCheck:62654,str:91,h:0,d0:0,d1:0;
+                    ("rack focus", Expression<String> @:4427 check:62654,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8224,h:0,d0:1832,d1:12561;)))
+            (____, Scope<Void> @:4428 check:62655,op:19,dt:4,nt:8,next:4431,nextCheck:62658,str:50353,h:0,d0:4429,d1:62656;
+                ("sleep", Expression<MethodOrOperator> @:4429 check:62656,op:19,dt:2,nt:9,next:4430,nextCheck:62657,str:85,h:0,d0:0,d1:0;
+                    (151, Expression<Short> @:4430 check:62657,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:50360,h:0,d0:151,d1:65535;)))
+            (____, Scope<Void> @:4431 check:62658,op:712,dt:4,nt:8,next:4433,nextCheck:62660,str:50367,h:0,d0:4432,d1:62659;
+                ("cinematic_screen_effect_stop", Expression<MethodOrOperator> @:4432 check:62659,op:712,dt:2,nt:9,next:65535,nextCheck:65535,str:9086,h:0,d0:0,d1:0;))
+            (____, Scope<Void> @:4433 check:62660,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:50400,h:0,d0:4434,d1:62661;
+                ("print", Expression<MethodOrOperator> @:4434 check:62661,op:27,dt:2,nt:9,next:4435,nextCheck:62662,str:91,h:0,d0:0,d1:0;
+                    ("rack focus stop", Expression<String> @:4435 check:62662,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:10642,h:0,d0:4250,d1:12561;))))))

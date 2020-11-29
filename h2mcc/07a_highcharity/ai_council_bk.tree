@@ -1,0 +1,22 @@
+
+("ai_council_bk", MethodDecl<Void> @:290 op:0,dt:0,nt:65535,next:12927,str:30944,d0:0,d1:0;
+    (____, Scope<Void> @:12927 op:0,dt:4,nt:8,next:65535,str:27059,d0:12928,d1:38388;
+        ("begin", Expression<MethodOrOperator> @:12928 op:0,dt:2,nt:9,next:12909,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:12909 op:2,dt:4,nt:8,next:12915,str:27095,d0:12910,d1:38370;
+                ("if", Expression<MethodOrOperator> @:12910 op:2,dt:2,nt:9,next:12911,str:456,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:12911 op:5,dt:5,nt:13,next:12912,str:17539,d0:3,d1:0;
+                        (____, Scope<Void> @:12912 op:27,dt:4,nt:8,next:65535,str:27105,d0:12913,d1:38373;
+                            ("print", Expression<MethodOrOperator> @:12913 op:27,dt:2,nt:9,next:12914,str:86,d0:0,d1:0;
+                                ("back", Expression<String> @:12914 op:9,dt:9,nt:9,next:65535,str:30218,d0:30218,d1:0;))))))
+            (____, Scope<Void> @:12915 op:1,dt:4,nt:8,next:65535,str:27126,d0:12916,d1:38376;
+                ("begin_random", Expression<MethodOrOperator> @:12916 op:1,dt:2,nt:9,next:12917,str:30056,d0:0,d1:0;
+                    (____, Scope<Void> @:12917 op:2,dt:4,nt:8,next:12922,str:27143,d0:12918,d1:38378;
+                        ("if", Expression<MethodOrOperator> @:12918 op:2,dt:2,nt:9,next:12919,str:456,d0:0,d1:0;
+                            ("g_council_wave", VariableAccess<Boolean> @:12919 op:5,dt:5,nt:13,next:12920,str:29651,d0:47,d1:0;
+                                ("ai_council_left_c", ScriptInvocation<Void> @:12920 op:281,dt:4,nt:10,next:65535,str:27162,d0:12921,d1:38381;
+                                    ("ai_council_left_c", Expression<MethodOrOperator> @:12921 op:281,dt:2,nt:9,next:65535,str:30135,d0:0,d1:0;)))))
+                    (____, Scope<Void> @:12922 op:2,dt:4,nt:8,next:65535,str:27186,d0:12923,d1:38383;
+                        ("if", Expression<MethodOrOperator> @:12923 op:2,dt:2,nt:9,next:12924,str:456,d0:0,d1:0;
+                            ("g_council_wave", VariableAccess<Boolean> @:12924 op:5,dt:5,nt:13,next:12925,str:29651,d0:47,d1:0;
+                                ("ai_council_right_c", ScriptInvocation<Void> @:12925 op:284,dt:4,nt:10,next:65535,str:27205,d0:12926,d1:38386;
+                                    ("ai_council_right_c", Expression<MethodOrOperator> @:12926 op:284,dt:2,nt:9,next:65535,str:30105,d0:0,d1:0;))))))))))

@@ -1,0 +1,34 @@
+
+("croom_exit", MethodDecl<Void> @:273 op:0,dt:0,nt:65535,next:15180,str:26815,d0:0,d1:0;
+    (____, Scope<Void> @:15180 op:0,dt:4,nt:8,next:65535,str:29792,d0:15181,d1:40641;
+        ("begin", Expression<MethodOrOperator> @:15181 op:0,dt:2,nt:9,next:15150,str:210,d0:0,d1:0;
+            (____, Scope<Void> @:15150 op:21,dt:4,nt:8,next:15161,str:29821,d0:15151,d1:40611;
+                ("sleep_until", Expression<MethodOrOperator> @:15151 op:21,dt:2,nt:9,next:15152,str:440,d0:0,d1:0;
+                    (____, Scope<Boolean> @:15152 op:13,dt:5,nt:8,next:15160,str:29834,d0:15153,d1:40613;
+                        ("=", Expression<MethodOrOperator> @:15153 op:13,dt:2,nt:9,next:15154,str:505,d0:0,d1:0;
+                            (____, Scope<Boolean> @:15154 op:33,dt:5,nt:8,next:15159,str:29837,d0:15155,d1:40615;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:15155 op:33,dt:2,nt:9,next:15156,str:11916,d0:0,d1:0;
+                                    ("vol_going_down", Expression<Trigger> @:15156 op:13,dt:13,nt:9,next:15157,str:24352,d0:40,d1:0;
+                                        (____, Scope<List> @:15157 op:28,dt:31,nt:8,next:65535,str:29873,d0:15158,d1:40618;
+                                            ("players", Expression<MethodOrOperator> @:15158 op:28,dt:2,nt:9,next:65535,str:230,d0:0,d1:0;)))))
+                            (True, Expression<Boolean> @:15159 op:5,dt:5,nt:9,next:65535,str:29884,d0:65281,d1:65535;)))
+                    (1, Expression<Short> @:15160 op:7,dt:7,nt:9,next:65535,str:29890,d0:1,d1:65535;)))
+            (____, Scope<Void> @:15161 op:20,dt:4,nt:8,next:15164,str:29895,d0:15162,d1:40622;
+                ("sleep_forever", Expression<MethodOrOperator> @:15162 op:20,dt:2,nt:9,next:15163,str:9739,d0:0,d1:0;
+                    ("cableroom_killer", Expression<ScriptReference> @:15163 op:10,dt:10,nt:9,next:65535,str:26431,d0:150,d1:65535;)))
+            (____, Scope<Void> @:15164 op:254,dt:4,nt:8,next:15168,str:29930,d0:15165,d1:40625;
+                ("device_set_power", Expression<MethodOrOperator> @:15165 op:254,dt:2,nt:9,next:15166,str:3154,d0:0,d1:0;
+                    ("control_up_switch_01", Expression<Device> @:15166 op:60,dt:54,nt:9,next:15167,str:23057,d0:360,d1:65535;
+                        (0f, Expression<Float> @:15167 op:6,dt:6,nt:9,next:65535,str:29969,d0:0,d1:0;))))
+            (____, Scope<Void> @:15168 op:254,dt:4,nt:8,next:15172,str:29974,d0:15169,d1:40629;
+                ("device_set_power", Expression<MethodOrOperator> @:15169 op:254,dt:2,nt:9,next:15170,str:3154,d0:0,d1:0;
+                    ("control_up_switch_02", Expression<Device> @:15170 op:60,dt:54,nt:9,next:15171,str:25887,d0:361,d1:65535;
+                        (0f, Expression<Float> @:15171 op:6,dt:6,nt:9,next:65535,str:30013,d0:0,d1:0;))))
+            (____, Scope<Void> @:15172 op:256,dt:4,nt:8,next:15176,str:30018,d0:15173,d1:40633;
+                ("device_set_position", Expression<MethodOrOperator> @:15173 op:256,dt:2,nt:9,next:15174,str:3188,d0:0,d1:0;
+                    ("elev_control_up", Expression<Device> @:15174 op:60,dt:54,nt:9,next:15175,str:21486,d0:372,d1:65535;
+                        (0.04195f, Expression<Float> @:15175 op:6,dt:6,nt:9,next:65535,str:30055,d0:54211,d1:15659;))))
+            (____, Scope<Void> @:15176 op:4,dt:4,nt:8,next:65535,str:30067,d0:15177,d1:40637;
+                ("set", Expression<MethodOrOperator> @:15177 op:4,dt:2,nt:9,next:15178,str:2644,d0:0,d1:0;
+                    ("in_cable_room", VariableAccess<Boolean> @:15178 op:65535,dt:5,nt:13,next:15179,str:24629,d0:31,d1:0;
+                        (False, Expression<Boolean> @:15179 op:5,dt:5,nt:9,next:65535,str:30086,d0:65280,d1:65535;)))))))

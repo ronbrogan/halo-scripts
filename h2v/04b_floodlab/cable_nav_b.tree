@@ -1,0 +1,22 @@
+
+("cable_nav_b", MethodDecl<Void> @:264 check:0,op:0,dt:0,nt:65535,next:13138,nextCheck:38598,str:25000,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:13138 check:38598,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:8091,h:2,d0:13139,d1:38599;
+        ("begin", Expression<MethodOrOperator> @:13139 check:38599,op:0,dt:2,nt:9,next:13120,nextCheck:38580,str:210,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:13120 check:38580,op:640,dt:4,nt:8,next:13126,nextCheck:38586,str:8121,h:2,d0:13121,d1:38581;
+                ("activate_team_nav_point_object", Expression<MethodOrOperator> @:13121 check:38581,op:640,dt:2,nt:9,next:13122,nextCheck:38582,str:24780,h:0,d0:0,d1:0;
+                    ("default", Expression<NavigationPoint> @:13122 check:38582,op:27,dt:27,nt:9,next:13123,nextCheck:38583,str:2172,h:0,d0:0,d1:0;
+                        ("player", Expression<Team> @:13123 check:38583,op:45,dt:45,nt:9,next:13124,nextCheck:38584,str:24811,h:0,d0:1,d1:65535;
+                            (4294901852, Expression<Entity> @:13124 check:38584,op:56,dt:50,nt:9,next:13125,nextCheck:38585,str:24866,h:0,d0:92,d1:65535;
+                                (0f, Expression<Float> @:13125 check:38585,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:8183,h:2,d0:0,d1:0;))))))
+            (____, Scope<Void> @:13126 check:38586,op:21,dt:4,nt:8,next:13134,nextCheck:38594,str:8188,h:2,d0:13127,d1:38587;
+                ("sleep_until", Expression<MethodOrOperator> @:13127 check:38587,op:21,dt:2,nt:9,next:13128,nextCheck:38588,str:440,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:13128 check:38588,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:8201,h:2,d0:13129,d1:38589;
+                        ("<=", Expression<MethodOrOperator> @:13129 check:38589,op:18,dt:2,nt:9,next:13130,nextCheck:38590,str:16294,h:0,d0:0,d1:0;
+                            (-3.0890085E-25f, Scope<Float> @:13130 check:38590,op:69,dt:6,nt:8,next:13133,nextCheck:38593,str:8205,h:2,d0:13131,d1:38591;
+                                ("object_get_health", Expression<MethodOrOperator> @:13131 check:38591,op:69,dt:2,nt:9,next:13132,nextCheck:38592,str:1058,h:0,d0:0,d1:0;
+                                    (4294902139, Expression<Entity> @:13132 check:38592,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:24295,h:0,d0:379,d1:65535;)))
+                            (0f, Expression<Float> @:13133 check:38593,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:8238,h:2,d0:0,d1:0;)))))
+            (____, Scope<Void> @:13134 check:38594,op:644,dt:4,nt:8,next:65535,nextCheck:65535,str:8244,h:2,d0:13135,d1:38595;
+                ("deactivate_team_nav_point_object", Expression<MethodOrOperator> @:13135 check:38595,op:644,dt:2,nt:9,next:13136,nextCheck:38596,str:24833,h:0,d0:0,d1:0;
+                    ("player", Expression<Team> @:13136 check:38596,op:45,dt:45,nt:9,next:13137,nextCheck:38597,str:24811,h:0,d0:1,d1:65535;
+                        (4294901852, Expression<Entity> @:13137 check:38597,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:24866,h:0,d0:92,d1:65535;)))))))

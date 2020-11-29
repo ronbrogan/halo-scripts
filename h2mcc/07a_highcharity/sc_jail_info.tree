@@ -1,0 +1,42 @@
+
+("sc_jail_info", MethodDecl<Void> @:245 op:0,dt:0,nt:65535,next:9440,str:40975,d0:0,d1:0;
+    (____, Scope<Void> @:9440 op:0,dt:4,nt:8,next:65535,str:52581,d0:9441,d1:34901;
+        ("begin", Expression<MethodOrOperator> @:9441 op:0,dt:2,nt:9,next:9402,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:9402 op:2,dt:4,nt:8,next:9408,str:52612,d0:9403,d1:34863;
+                ("if", Expression<MethodOrOperator> @:9403 op:2,dt:2,nt:9,next:9404,str:456,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:9404 op:5,dt:5,nt:13,next:9405,str:19054,d0:4,d1:0;
+                        (____, Scope<Void> @:9405 op:27,dt:4,nt:8,next:65535,str:52625,d0:9406,d1:34866;
+                            ("print", Expression<MethodOrOperator> @:9406 op:27,dt:2,nt:9,next:9407,str:86,d0:0,d1:0;
+                                ("cortana: wait a minute... i'm reading marine iff transponders!", Expression<String> @:9407 op:9,dt:9,nt:9,next:65535,str:21903,d0:21903,d1:0;))))))
+            (____, Scope<Void> @:9408 op:19,dt:4,nt:8,next:9414,str:52701,d0:9409,d1:34869;
+                ("sleep", Expression<MethodOrOperator> @:9409 op:19,dt:2,nt:9,next:9410,str:80,d0:0,d1:0;
+                    (____, Scope<Short> @:9410 op:362,dt:7,nt:8,next:65535,str:52708,d0:9411,d1:34871;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:9411 op:362,dt:2,nt:9,next:9412,str:19089,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:9412 op:50,dt:50,nt:9,next:9413,str:1586,d0:65535,d1:65535;
+                                ("2270", Expression<StringId> @:9413 op:11,dt:11,nt:9,next:65535,str:21966,d0:13865,d1:1024;))))))
+            (____, Scope<Void> @:9414 op:19,dt:4,nt:8,next:9417,str:52746,d0:9415,d1:34875;
+                ("sleep", Expression<MethodOrOperator> @:9415 op:19,dt:2,nt:9,next:9416,str:80,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:9416 op:7,dt:7,nt:13,next:65535,str:19117,d0:38,d1:0;)))
+            (____, Scope<Void> @:9417 op:2,dt:4,nt:8,next:9423,str:52773,d0:9418,d1:34878;
+                ("if", Expression<MethodOrOperator> @:9418 op:2,dt:2,nt:9,next:9419,str:456,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:9419 op:5,dt:5,nt:13,next:9420,str:19054,d0:4,d1:0;
+                        (____, Scope<Void> @:9420 op:27,dt:4,nt:8,next:65535,str:52786,d0:9421,d1:34881;
+                            ("print", Expression<MethodOrOperator> @:9421 op:27,dt:2,nt:9,next:9422,str:86,d0:0,d1:0;
+                                ("cortana: the signals are originating somewhere below your position.", Expression<String> @:9422 op:9,dt:9,nt:9,next:65535,str:21971,d0:21971,d1:0;))))))
+            (____, Scope<Void> @:9423 op:19,dt:4,nt:8,next:9429,str:52867,d0:9424,d1:34884;
+                ("sleep", Expression<MethodOrOperator> @:9424 op:19,dt:2,nt:9,next:9425,str:80,d0:0,d1:0;
+                    (____, Scope<Short> @:9425 op:362,dt:7,nt:8,next:65535,str:52874,d0:9426,d1:34886;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:9426 op:362,dt:2,nt:9,next:9427,str:19089,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:9427 op:50,dt:50,nt:9,next:9428,str:1586,d0:65535,d1:65535;
+                                ("2280", Expression<StringId> @:9428 op:11,dt:11,nt:9,next:65535,str:22039,d0:13866,d1:1024;))))))
+            (____, Scope<Void> @:9429 op:589,dt:4,nt:8,next:9431,str:52914,d0:9430,d1:34890;
+                ("game_save_no_timeout", Expression<MethodOrOperator> @:9430 op:589,dt:2,nt:9,next:65535,str:21869,d0:0,d1:0;))
+            (____, Scope<Void> @:9431 op:290,dt:4,nt:8,next:9434,str:52939,d0:9432,d1:34892;
+                ("ai_place", Expression<MethodOrOperator> @:9432 op:290,dt:2,nt:9,next:9433,str:14833,d0:0,d1:0;
+                    ("hall_b_jackals", Expression<AI> @:9433 op:19,dt:19,nt:9,next:65535,str:22044,d0:65,d1:0;)))
+            (____, Scope<Void> @:9434 op:22,dt:4,nt:8,next:9437,str:52969,d0:9435,d1:34895;
+                ("wake", Expression<MethodOrOperator> @:9435 op:22,dt:2,nt:9,next:9436,str:1146,d0:0,d1:0;
+                    ("objective_locate_clear", Expression<ScriptReference> @:9436 op:10,dt:10,nt:9,next:65535,str:22059,d0:220,d1:65535;)))
+            (____, Scope<Void> @:9437 op:22,dt:4,nt:8,next:65535,str:53001,d0:9438,d1:34898;
+                ("wake", Expression<MethodOrOperator> @:9438 op:22,dt:2,nt:9,next:9439,str:1146,d0:0,d1:0;
+                    ("objective_rescue_set", Expression<ScriptReference> @:9439 op:10,dt:10,nt:9,next:65535,str:22082,d0:221,d1:65535;))))))

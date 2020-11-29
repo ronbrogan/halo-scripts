@@ -1,0 +1,33 @@
+
+("cs_e1_cov_inf0_0_patrol1", MethodDecl<Void> @:388 op:0,dt:0,nt:65535,next:16158,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:16158 op:0,dt:4,nt:8,next:65535,str:6796,d0:16159,d1:41619;
+        ("begin", Expression<MethodOrOperator> @:16159 op:0,dt:2,nt:9,next:16129,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:16129 op:441,dt:4,nt:8,next:16132,str:6846,d0:16130,d1:41590;
+                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:16130 op:441,dt:2,nt:9,next:16131,str:13781,d0:0,d1:0;
+                    ("ai_combat_status_active", VariableAccess<Short> @:16131 op:7,dt:7,nt:13,next:65535,str:13741,d0:33574,d1:65535;)))
+            (____, Scope<Void> @:16132 op:443,dt:4,nt:8,next:16135,str:6900,d0:16133,d1:41593;
+                ("cs_enable_looking", Expression<MethodOrOperator> @:16133 op:443,dt:2,nt:9,next:16134,str:13832,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16134 op:5,dt:5,nt:9,next:65535,str:6919,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:16135 op:21,dt:4,nt:8,next:65535,str:6927,d0:16136,d1:41596;
+                ("sleep_until", Expression<MethodOrOperator> @:16136 op:21,dt:2,nt:9,next:16137,str:294,d0:0,d1:0;
+                    (____, Scope<Boolean> @:16137 op:0,dt:5,nt:8,next:65535,str:6943,d0:16138,d1:41598;
+                        ("begin", Expression<MethodOrOperator> @:16138 op:0,dt:2,nt:9,next:16139,str:64,d0:0,d1:0;
+                            (____, Scope<Void> @:16139 op:385,dt:4,nt:8,next:16142,str:6954,d0:16140,d1:41600;
+                                ("cs_go_to", Expression<MethodOrOperator> @:16140 op:385,dt:2,nt:9,next:16141,str:4510,d0:0,d1:0;
+                                    ("e1_patrol/p3", Expression<SpatialPoint> @:16141 op:28,dt:28,nt:9,next:65535,str:26795,d0:5,d1:1;)))
+                            (____, Scope<Void> @:16142 op:19,dt:4,nt:8,next:16148,str:6978,d0:16143,d1:41603;
+                                ("sleep", Expression<MethodOrOperator> @:16143 op:19,dt:2,nt:9,next:16144,str:143,d0:0,d1:0;
+                                    (____, Scope<Short> @:16144 op:124,dt:7,nt:8,next:65535,str:6985,d0:16145,d1:41605;
+                                        ("random_range", Expression<MethodOrOperator> @:16145 op:124,dt:2,nt:9,next:16146,str:13866,d0:0,d1:0;
+                                            (30, Expression<Short> @:16146 op:7,dt:7,nt:9,next:16147,str:6999,d0:30,d1:65535;
+                                                (60, Expression<Short> @:16147 op:7,dt:7,nt:9,next:65535,str:7002,d0:60,d1:65535;))))))
+                            (____, Scope<Void> @:16148 op:385,dt:4,nt:8,next:16151,str:7011,d0:16149,d1:41609;
+                                ("cs_go_to", Expression<MethodOrOperator> @:16149 op:385,dt:2,nt:9,next:16150,str:4510,d0:0,d1:0;
+                                    ("e1_patrol/p4", Expression<SpatialPoint> @:16150 op:28,dt:28,nt:9,next:65535,str:26808,d0:6,d1:1;)))
+                            (____, Scope<Void> @:16151 op:19,dt:4,nt:8,next:16157,str:7035,d0:16152,d1:41612;
+                                ("sleep", Expression<MethodOrOperator> @:16152 op:19,dt:2,nt:9,next:16153,str:143,d0:0,d1:0;
+                                    (____, Scope<Short> @:16153 op:124,dt:7,nt:8,next:65535,str:7042,d0:16154,d1:41614;
+                                        ("random_range", Expression<MethodOrOperator> @:16154 op:124,dt:2,nt:9,next:16155,str:13866,d0:0,d1:0;
+                                            (30, Expression<Short> @:16155 op:7,dt:7,nt:9,next:16156,str:7056,d0:30,d1:65535;
+                                                (60, Expression<Short> @:16156 op:7,dt:7,nt:9,next:65535,str:7059,d0:60,d1:65535;))))))
+                            (False, Expression<Boolean> @:16157 op:5,dt:5,nt:9,next:65535,str:7092,d0:65280,d1:65535;))))))))

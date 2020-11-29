@@ -1,0 +1,33 @@
+
+("e1_cov_phantom0_main", MethodDecl<Void> @:400 op:0,dt:0,nt:65535,next:16649,str:28335,d0:0,d1:0;
+    (____, Scope<Void> @:16649 op:0,dt:4,nt:8,next:65535,str:15643,d0:16650,d1:42110;
+        ("begin", Expression<MethodOrOperator> @:16650 op:0,dt:2,nt:9,next:16620,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:16620 op:21,dt:4,nt:8,next:16628,str:15682,d0:16621,d1:42081;
+                ("sleep_until", Expression<MethodOrOperator> @:16621 op:21,dt:2,nt:9,next:16622,str:294,d0:0,d1:0;
+                    (____, Scope<Boolean> @:16622 op:33,dt:5,nt:8,next:16627,str:15699,d0:16623,d1:42083;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:16623 op:33,dt:2,nt:9,next:16624,str:11142,d0:0,d1:0;
+                            ("tv_e1_main_area_entrance", Expression<Trigger> @:16624 op:13,dt:13,nt:9,next:16625,str:27578,d0:79,d1:0;
+                                (____, Scope<List> @:16625 op:28,dt:31,nt:8,next:65535,str:15745,d0:16626,d1:42086;
+                                    ("players", Expression<MethodOrOperator> @:16626 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;)))))
+                    (5, Expression<Short> @:16627 op:7,dt:7,nt:9,next:65535,str:15759,d0:5,d1:65535;)))
+            (____, Scope<Void> @:16628 op:21,dt:4,nt:8,next:16634,str:15768,d0:16629,d1:42089;
+                ("sleep_until", Expression<MethodOrOperator> @:16629 op:21,dt:2,nt:9,next:16630,str:294,d0:0,d1:0;
+                    ("e1_cov_inf0_grunts_alerted", ScriptInvocation<Boolean> @:16630 op:391,dt:5,nt:10,next:16632,str:15785,d0:16631,d1:42091;
+                        ("e1_cov_inf0_grunts_alerted", Expression<MethodOrOperator> @:16631 op:391,dt:2,nt:9,next:65535,str:27603,d0:0,d1:0;))
+                    (30, Expression<Short> @:16632 op:7,dt:7,nt:9,next:16633,str:15817,d0:30,d1:65535;
+                        ("30_seconds", VariableAccess<Int> @:16633 op:8,dt:8,nt:13,next:65535,str:15111,d0:5,d1:0;))))
+            (____, Scope<Void> @:16634 op:290,dt:4,nt:8,next:16637,str:15866,d0:16635,d1:42095;
+                ("ai_place", Expression<MethodOrOperator> @:16635 op:290,dt:2,nt:9,next:16636,str:4681,d0:0,d1:0;
+                    ("e1_cov_phantom0_0", Expression<AI> @:16636 op:19,dt:19,nt:9,next:65535,str:27630,d0:26,d1:0;)))
+            (____, Scope<Void> @:16637 op:366,dt:4,nt:8,next:16641,str:15897,d0:16638,d1:42098;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:16638 op:366,dt:2,nt:9,next:16639,str:4742,d0:0,d1:0;
+                    ("e1_cov_phantom0_0/phantom0", Expression<AI> @:16639 op:19,dt:19,nt:9,next:16640,str:27648,d0:0,d1:49178;
+                        ("cs_e1_cov_phantom0_0_entry", Expression<AIScript> @:16640 op:21,dt:21,nt:9,next:65535,str:27675,d0:384,d1:0;))))
+            (____, Scope<Void> @:16641 op:20,dt:4,nt:8,next:16643,str:16048,d0:16642,d1:42102;
+                ("sleep_forever", Expression<MethodOrOperator> @:16642 op:20,dt:2,nt:9,next:65535,str:10303,d0:0,d1:0;))
+            (____, Scope<Void> @:16643 op:290,dt:4,nt:8,next:16646,str:16116,d0:16644,d1:42104;
+                ("ai_place", Expression<MethodOrOperator> @:16644 op:290,dt:2,nt:9,next:16645,str:4681,d0:0,d1:0;
+                    ("e1_cov_phantom0_1", Expression<AI> @:16645 op:19,dt:19,nt:9,next:65535,str:27702,d0:27,d1:0;)))
+            (____, Scope<Void> @:16646 op:22,dt:4,nt:8,next:65535,str:16160,d0:16647,d1:42107;
+                ("wake", Expression<MethodOrOperator> @:16647 op:22,dt:2,nt:9,next:16648,str:1129,d0:0,d1:0;
+                    ("music_03a_01_start", Expression<ScriptReference> @:16648 op:10,dt:10,nt:9,next:65535,str:27720,d0:134,d1:65535;))))))

@@ -1,0 +1,29 @@
+
+("scarab_twist_5_left_to_idle", MethodDecl<Void> @:330 check:0,op:0,dt:0,nt:65535,next:11275,nextCheck:36735,str:25932,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:11275 check:36735,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:63085,h:1,d0:11276,d1:36736;
+        ("begin", Expression<MethodOrOperator> @:11276 check:36736,op:0,dt:2,nt:9,next:11250,nextCheck:36710,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:11250 check:36710,op:27,dt:4,nt:8,next:11253,nextCheck:36713,str:63135,h:1,d0:11251,d1:36711;
+                ("print", Expression<MethodOrOperator> @:11251 check:36711,op:27,dt:2,nt:9,next:11252,nextCheck:36712,str:91,h:0,d0:0,d1:0;
+                    ("scarab_twist_5_left_to_idle", Expression<String> @:11252 check:36712,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:25932,h:0,d0:19540,d1:12561;)))
+            (____, Scope<Void> @:11253 check:36713,op:266,dt:4,nt:8,next:11258,nextCheck:36718,str:63175,h:1,d0:11254,d1:36714;
+                ("device_set_position_track", Expression<MethodOrOperator> @:11254 check:36714,op:266,dt:2,nt:9,next:11255,nextCheck:36715,str:24779,h:0,d0:0,d1:0;
+                    ("scarab", Expression<Device> @:11255 check:36715,op:60,dt:54,nt:9,next:11256,nextCheck:36716,str:9804,h:0,d0:105,d1:65535;
+                        ("combat:twist_5_left_to_idle", Expression<StringId> @:11256 check:36716,op:11,dt:11,nt:9,next:11257,nextCheck:36717,str:25960,h:0,d0:5166,d1:6912;
+                            ("g_scarab_interpolation", VariableAccess<Float> @:11257 check:36717,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:24822,h:0,d0:28,d1:0;)))))
+            (____, Scope<Void> @:11258 check:36718,op:268,dt:4,nt:8,next:11266,nextCheck:36726,str:63263,h:1,d0:11259,d1:36719;
+                ("device_animate_position", Expression<MethodOrOperator> @:11259 check:36719,op:268,dt:2,nt:9,next:11260,nextCheck:36720,str:24845,h:0,d0:0,d1:0;
+                    ("scarab", Expression<Device> @:11260 check:36720,op:60,dt:54,nt:9,next:11261,nextCheck:36721,str:9804,h:0,d0:105,d1:65535;
+                        (1f, Expression<Float> @:11261 check:36721,op:6,dt:6,nt:9,next:11262,nextCheck:36722,str:63295,h:1,d0:0,d1:16256;
+                            (1.5f, Expression<Float> @:11262 check:36722,op:6,dt:6,nt:9,next:11263,nextCheck:36723,str:63299,h:1,d0:0,d1:16320;
+                                (0f, Expression<Float> @:11263 check:36723,op:6,dt:6,nt:9,next:11264,nextCheck:36724,str:63303,h:1,d0:0,d1:0;
+                                    (0f, Expression<Float> @:11264 check:36724,op:6,dt:6,nt:9,next:11265,nextCheck:36725,str:63305,h:1,d0:0,d1:0;
+                                        (True, Expression<Boolean> @:11265 check:36725,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:63307,h:1,d0:65281,d1:65535;))))))))
+            (____, Scope<Void> @:11266 check:36726,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:63315,h:1,d0:11267,d1:36727;
+                ("sleep_until", Expression<MethodOrOperator> @:11267 check:36727,op:21,dt:2,nt:9,next:11268,nextCheck:36728,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:11268 check:36728,op:17,dt:5,nt:8,next:11274,nextCheck:36734,str:63328,h:1,d0:11269,d1:36729;
+                        (">=", Expression<MethodOrOperator> @:11269 check:36729,op:17,dt:2,nt:9,next:11270,nextCheck:36730,str:676,h:0,d0:0,d1:0;
+                            (-1.2383735E-29f, Scope<Float> @:11270 check:36730,op:257,dt:6,nt:8,next:11273,nextCheck:36733,str:63332,h:1,d0:11271,d1:36731;
+                                ("device_get_position", Expression<MethodOrOperator> @:11271 check:36731,op:257,dt:2,nt:9,next:11272,nextCheck:36732,str:5946,h:0,d0:0,d1:0;
+                                    ("scarab", Expression<Device> @:11272 check:36732,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:9804,h:0,d0:105,d1:65535;)))
+                            (1f, Expression<Float> @:11273 check:36733,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:63361,h:1,d0:0,d1:16256;)))
+                    (1, Expression<Short> @:11274 check:36734,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:63366,h:1,d0:1,d1:65535;))))))

@@ -1,0 +1,15 @@
+
+("cortana_appear", MethodDecl<Void> @:43 op:0,dt:0,nt:65535,next:1018,str:2885,d0:0,d1:0;
+    (____, Scope<Void> @:1018 op:0,dt:4,nt:8,next:65535,str:11703,d0:1019,d1:59246;
+        ("begin", Expression<MethodOrOperator> @:1019 op:0,dt:2,nt:9,next:1007,str:142,d0:0,d1:0;
+            (____, Scope<Void> @:1007 op:19,dt:4,nt:8,next:1010,str:11736,d0:1008,d1:59235;
+                ("sleep", Expression<MethodOrOperator> @:1008 op:19,dt:2,nt:9,next:1009,str:221,d0:0,d1:0;
+                    (98, Expression<Short> @:1009 op:7,dt:7,nt:9,next:65535,str:11743,d0:98,d1:65535;)))
+            (____, Scope<Void> @:1010 op:27,dt:4,nt:8,next:1013,str:11749,d0:1011,d1:59238;
+                ("print", Expression<MethodOrOperator> @:1011 op:27,dt:2,nt:9,next:1012,str:227,d0:0,d1:0;
+                    ("cortana appears", Expression<String> @:1012 op:9,dt:9,nt:9,next:65535,str:2368,d0:2368,d1:0;)))
+            (____, Scope<Void> @:1013 op:41,dt:4,nt:8,next:65535,str:11778,d0:1014,d1:59241;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:1014 op:41,dt:2,nt:9,next:1015,str:2384,d0:0,d1:0;
+                    ("effects\objects\characters\cortana\cortana_on_off", Expression<Effect> @:1015 op:33,dt:33,nt:9,next:1016,str:2412,d0:871,d1:58589;
+                        (4294901827, Expression<Entity> @:1016 op:56,dt:50,nt:9,next:1017,str:2462,d0:67,d1:65535;
+                            ("marker", Expression<StringId> @:1017 op:11,dt:11,nt:9,next:65535,str:2475,d0:5248,d1:1536;))))))))

@@ -1,0 +1,36 @@
+
+("e10_key", MethodDecl<Void> @:186 op:0,dt:0,nt:65535,next:6743,str:17084,d0:0,d1:0;
+    (____, Scope<Void> @:6743 op:0,dt:4,nt:8,next:65535,str:20257,d0:6744,d1:64971;
+        ("begin", Expression<MethodOrOperator> @:6744 op:0,dt:2,nt:9,next:6711,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:6711 op:2,dt:4,nt:8,next:6719,str:20283,d0:6712,d1:64939;
+                ("if", Expression<MethodOrOperator> @:6712 op:2,dt:2,nt:9,next:6713,str:456,d0:0,d1:0;
+                    (____, Scope<Boolean> @:6713 op:25,dt:5,nt:8,next:6717,str:20287,d0:6714,d1:64941;
+                        ("not", Expression<MethodOrOperator> @:6714 op:25,dt:2,nt:9,next:6715,str:397,d0:0,d1:0;
+                            ("difficulty_legendary", ScriptInvocation<Boolean> @:6715 op:4,dt:5,nt:10,next:65535,str:20292,d0:6716,d1:64943;
+                                ("difficulty_legendary", Expression<MethodOrOperator> @:6716 op:4,dt:2,nt:9,next:65535,str:15908,d0:0,d1:0;))))
+                    (____, Scope<Void> @:6717 op:20,dt:4,nt:8,next:65535,str:20316,d0:6718,d1:64945;
+                        ("sleep_forever", Expression<MethodOrOperator> @:6718 op:20,dt:2,nt:9,next:65535,str:9456,d0:0,d1:0;))))
+            (____, Scope<Void> @:6719 op:46,dt:4,nt:8,next:6722,str:20335,d0:6720,d1:64947;
+                ("object_create", Expression<MethodOrOperator> @:6720 op:46,dt:2,nt:9,next:6721,str:16955,d0:0,d1:0;
+                    ("key", Expression<EntityIdentifier> @:6721 op:56,dt:56,nt:9,next:65535,str:16969,d0:136,d1:65535;)))
+            (____, Scope<Void> @:6722 op:21,dt:4,nt:8,next:6740,str:20357,d0:6723,d1:64950;
+                ("sleep_until", Expression<MethodOrOperator> @:6723 op:21,dt:2,nt:9,next:6724,str:231,d0:0,d1:0;
+                    (____, Scope<Boolean> @:6724 op:6,dt:5,nt:8,next:65535,str:20374,d0:6725,d1:64952;
+                        ("or", Expression<MethodOrOperator> @:6725 op:6,dt:2,nt:9,next:6726,str:844,d0:0,d1:0;
+                            (____, Scope<Boolean> @:6726 op:242,dt:5,nt:8,next:6733,str:20382,d0:6727,d1:64954;
+                                ("unit_has_weapon", Expression<MethodOrOperator> @:6727 op:242,dt:2,nt:9,next:6728,str:16973,d0:0,d1:0;
+                                    (____, Scope<Unit> @:6728 op:24,dt:51,nt:8,next:6732,str:20399,d0:6729,d1:64956;
+                                        ("unit", Expression<MethodOrOperator> @:6729 op:24,dt:2,nt:9,next:6730,str:7,d0:0,d1:0;
+                                            ("player0", ScriptInvocation<Entity> @:6730 op:0,dt:50,nt:10,next:65535,str:20405,d0:6731,d1:64958;
+                                                ("player0", Expression<MethodOrOperator> @:6731 op:0,dt:2,nt:9,next:65535,str:602,d0:0,d1:0;))))
+                                    ("objects\weapons\multiplayer\ball\head_sp.weapon", Expression<TagReference> @:6732 op:38,dt:38,nt:9,next:65535,str:16989,d0:5514,d1:63403;)))
+                            (____, Scope<Boolean> @:6733 op:242,dt:5,nt:8,next:65535,str:20471,d0:6734,d1:64961;
+                                ("unit_has_weapon", Expression<MethodOrOperator> @:6734 op:242,dt:2,nt:9,next:6735,str:16973,d0:0,d1:0;
+                                    (____, Scope<Unit> @:6735 op:24,dt:51,nt:8,next:6739,str:20488,d0:6736,d1:64963;
+                                        ("unit", Expression<MethodOrOperator> @:6736 op:24,dt:2,nt:9,next:6737,str:7,d0:0,d1:0;
+                                            ("player1", ScriptInvocation<Entity> @:6737 op:1,dt:50,nt:10,next:65535,str:20494,d0:6738,d1:64965;
+                                                ("player1", Expression<MethodOrOperator> @:6738 op:1,dt:2,nt:9,next:65535,str:610,d0:0,d1:0;))))
+                                    ("objects\weapons\multiplayer\ball\head_sp.weapon", Expression<TagReference> @:6739 op:38,dt:38,nt:9,next:65535,str:16989,d0:5514,d1:63403;)))))))
+            (____, Scope<Void> @:6740 op:872,dt:4,nt:8,next:65535,str:20567,d0:6741,d1:64968;
+                ("ice_cream_flavor_stock", Expression<MethodOrOperator> @:6741 op:872,dt:2,nt:9,next:6742,str:17037,d0:0,d1:0;
+                    (11, Expression<Int> @:6742 op:8,dt:8,nt:9,next:65535,str:20591,d0:11,d1:0;))))))

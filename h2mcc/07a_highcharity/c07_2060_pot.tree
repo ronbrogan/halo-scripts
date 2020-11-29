@@ -1,0 +1,37 @@
+
+("c07_2060_pot", MethodDecl<Void> @:189 op:0,dt:0,nt:65535,next:6767,str:16183,d0:0,d1:0;
+    (____, Scope<Void> @:6767 op:0,dt:4,nt:8,next:65535,str:24847,d0:6768,d1:64995;
+        ("begin", Expression<MethodOrOperator> @:6768 op:0,dt:2,nt:9,next:6734,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:6734 op:19,dt:4,nt:8,next:6737,str:24878,d0:6735,d1:64962;
+                ("sleep", Expression<MethodOrOperator> @:6735 op:19,dt:2,nt:9,next:6736,str:80,d0:0,d1:0;
+                    (132, Expression<Short> @:6736 op:7,dt:7,nt:9,next:65535,str:24885,d0:132,d1:65535;)))
+            (____, Scope<Void> @:6737 op:596,dt:4,nt:8,next:6742,str:24892,d0:6738,d1:64965;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:6738 op:596,dt:2,nt:9,next:6739,str:1513,d0:0,d1:0;
+                    ("sound\dialog\levels\07_highcharity\cinematic\c07_2060_pot", Expression<Sound> @:6739 op:32,dt:32,nt:9,next:6740,str:16125,d0:1159,d1:58877;
+                        (4294902017, Expression<Entity> @:6740 op:56,dt:50,nt:9,next:6741,str:12833,d0:257,d1:65535;
+                            (1f, Expression<Float> @:6741 op:6,dt:6,nt:9,next:65535,str:24977,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:6742 op:562,dt:4,nt:8,next:6746,str:24982,d0:6743,d1:64970;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:6743 op:562,dt:2,nt:9,next:6744,str:2897,d0:0,d1:0;
+                    ("c07_2060_pot", Expression<StringId> @:6744 op:11,dt:11,nt:9,next:6745,str:16183,d0:5581,d1:3072;
+                        (3f, Expression<Float> @:6745 op:6,dt:6,nt:9,next:65535,str:25015,d0:0,d1:16448;))))
+            (____, Scope<Void> @:6746 op:19,dt:4,nt:8,next:6749,str:25023,d0:6747,d1:64974;
+                ("sleep", Expression<MethodOrOperator> @:6747 op:19,dt:2,nt:9,next:6748,str:80,d0:0,d1:0;
+                    (45, Expression<Short> @:6748 op:7,dt:7,nt:9,next:65535,str:25030,d0:45,d1:65535;)))
+            (____, Scope<Void> @:6749 op:220,dt:4,nt:8,next:6755,str:25039,d0:6750,d1:64977;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:6750 op:220,dt:2,nt:9,next:6751,str:11070,d0:0,d1:0;
+                    ("tartarus", Expression<Unit> @:6751 op:57,dt:51,nt:9,next:6752,str:13360,d0:259,d1:65535;
+                        ("pensive", Expression<StringId> @:6752 op:11,dt:11,nt:9,next:6753,str:11095,d0:431,d1:1792;
+                            (0.5f, Expression<Float> @:6753 op:6,dt:6,nt:9,next:6754,str:25082,d0:0,d1:16128;
+                                (60, Expression<Short> @:6754 op:7,dt:7,nt:9,next:65535,str:25085,d0:60,d1:65535;))))))
+            (____, Scope<Void> @:6755 op:27,dt:4,nt:8,next:6758,str:25091,d0:6756,d1:64983;
+                ("print", Expression<MethodOrOperator> @:6756 op:27,dt:2,nt:9,next:6757,str:86,d0:0,d1:0;
+                    ("tartarus - shocked .5 60", Expression<String> @:6757 op:9,dt:9,nt:9,next:65535,str:16196,d0:16196,d1:0;)))
+            (____, Scope<Void> @:6758 op:220,dt:4,nt:8,next:6764,str:25131,d0:6759,d1:64986;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:6759 op:220,dt:2,nt:9,next:6760,str:11070,d0:0,d1:0;
+                    ("mercy", Expression<Unit> @:6760 op:57,dt:51,nt:9,next:6761,str:11381,d0:258,d1:65535;
+                        ("shocked", Expression<StringId> @:6761 op:11,dt:11,nt:9,next:6762,str:12441,d0:426,d1:1792;
+                            (1f, Expression<Float> @:6762 op:6,dt:6,nt:9,next:6763,str:25171,d0:0,d1:16256;
+                                (0, Expression<Short> @:6763 op:7,dt:7,nt:9,next:65535,str:25173,d0:0,d1:65535;))))))
+            (____, Scope<Void> @:6764 op:27,dt:4,nt:8,next:65535,str:25178,d0:6765,d1:64992;
+                ("print", Expression<MethodOrOperator> @:6765 op:27,dt:2,nt:9,next:6766,str:86,d0:0,d1:0;
+                    ("mercy - shocked 1 0", Expression<String> @:6766 op:9,dt:9,nt:9,next:65535,str:16221,d0:16221,d1:0;))))))

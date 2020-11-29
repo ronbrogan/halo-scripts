@@ -1,0 +1,44 @@
+
+("c03_intra1_problem_actors", MethodDecl<Void> @:47 op:0,dt:0,nt:65535,next:1160,str:2802,d0:0,d1:0;
+    (____, Scope<Void> @:1160 op:0,dt:4,nt:8,next:65535,str:13390,d0:1161,d1:59388;
+        ("begin", Expression<MethodOrOperator> @:1161 op:0,dt:2,nt:9,next:1120,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:1120 op:27,dt:4,nt:8,next:1123,str:13437,d0:1121,d1:59348;
+                ("print", Expression<MethodOrOperator> @:1121 op:27,dt:2,nt:9,next:1122,str:91,d0:0,d1:0;
+                    ("problem actors", Expression<String> @:1122 op:9,dt:9,nt:9,next:65535,str:2364,d0:2364,d1:0;)))
+            (____, Scope<Void> @:1123 op:48,dt:4,nt:8,next:1126,str:13464,d0:1124,d1:59351;
+                ("object_create_anew", Expression<MethodOrOperator> @:1124 op:48,dt:2,nt:9,next:1125,str:2379,d0:0,d1:0;
+                    ("marine_01", Expression<EntityIdentifier> @:1125 op:56,dt:56,nt:9,next:65535,str:1624,d0:84,d1:65535;)))
+            (____, Scope<Void> @:1126 op:48,dt:4,nt:8,next:1129,str:13497,d0:1127,d1:59354;
+                ("object_create_anew", Expression<MethodOrOperator> @:1127 op:48,dt:2,nt:9,next:1128,str:2379,d0:0,d1:0;
+                    ("marine_02", Expression<EntityIdentifier> @:1128 op:56,dt:56,nt:9,next:65535,str:1721,d0:83,d1:65535;)))
+            (____, Scope<Void> @:1129 op:48,dt:4,nt:8,next:1132,str:13530,d0:1130,d1:59357;
+                ("object_create_anew", Expression<MethodOrOperator> @:1130 op:48,dt:2,nt:9,next:1131,str:2379,d0:0,d1:0;
+                    ("rifle_02", Expression<EntityIdentifier> @:1131 op:56,dt:56,nt:9,next:65535,str:2336,d0:29,d1:65535;)))
+            (____, Scope<Void> @:1132 op:48,dt:4,nt:8,next:1135,str:13562,d0:1133,d1:59360;
+                ("object_create_anew", Expression<MethodOrOperator> @:1133 op:48,dt:2,nt:9,next:1134,str:2379,d0:0,d1:0;
+                    ("rifle_03", Expression<EntityIdentifier> @:1134 op:56,dt:56,nt:9,next:65535,str:2345,d0:28,d1:65535;)))
+            (____, Scope<Void> @:1135 op:92,dt:4,nt:8,next:1139,str:13597,d0:1136,d1:59363;
+                ("object_cinematic_lod", Expression<MethodOrOperator> @:1136 op:92,dt:2,nt:9,next:1137,str:2398,d0:0,d1:0;
+                    (4294901844, Expression<Entity> @:1137 op:56,dt:50,nt:9,next:1138,str:1624,d0:84,d1:65535;
+                        (True, Expression<Boolean> @:1138 op:5,dt:5,nt:9,next:65535,str:13629,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:1139 op:92,dt:4,nt:8,next:1143,str:13637,d0:1140,d1:59367;
+                ("object_cinematic_lod", Expression<MethodOrOperator> @:1140 op:92,dt:2,nt:9,next:1141,str:2398,d0:0,d1:0;
+                    (4294901843, Expression<Entity> @:1141 op:56,dt:50,nt:9,next:1142,str:1721,d0:83,d1:65535;
+                        (True, Expression<Boolean> @:1142 op:5,dt:5,nt:9,next:65535,str:13669,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:1143 op:74,dt:4,nt:8,next:1149,str:13679,d0:1144,d1:59371;
+                ("objects_attach", Expression<MethodOrOperator> @:1144 op:74,dt:2,nt:9,next:1145,str:2419,d0:0,d1:0;
+                    (4294901844, Expression<Entity> @:1145 op:56,dt:50,nt:9,next:1146,str:1624,d0:84,d1:65535;
+                        ("right hand", Expression<StringId> @:1146 op:11,dt:11,nt:9,next:1147,str:2434,d0:1942,d1:2560;
+                            (4294901789, Expression<Entity> @:1147 op:56,dt:50,nt:9,next:1148,str:2336,d0:29,d1:65535;
+                                (0, Expression<StringId> @:1148 op:11,dt:11,nt:9,next:65535,str:0,d0:0,d1:0;))))))
+            (____, Scope<Void> @:1149 op:74,dt:4,nt:8,next:1155,str:13733,d0:1150,d1:59377;
+                ("objects_attach", Expression<MethodOrOperator> @:1150 op:74,dt:2,nt:9,next:1151,str:2419,d0:0,d1:0;
+                    (4294901843, Expression<Entity> @:1151 op:56,dt:50,nt:9,next:1152,str:1721,d0:83,d1:65535;
+                        ("right hand", Expression<StringId> @:1152 op:11,dt:11,nt:9,next:1153,str:2434,d0:1942,d1:2560;
+                            (4294901788, Expression<Entity> @:1153 op:56,dt:50,nt:9,next:1154,str:2345,d0:28,d1:65535;
+                                (0, Expression<StringId> @:1154 op:11,dt:11,nt:9,next:65535,str:0,d0:0,d1:0;))))))
+            (____, Scope<Void> @:1155 op:110,dt:4,nt:8,next:65535,str:13787,d0:1156,d1:59383;
+                ("object_set_permutation", Expression<MethodOrOperator> @:1156 op:110,dt:2,nt:9,next:1157,str:2445,d0:0,d1:0;
+                    (4294901843, Expression<Entity> @:1157 op:56,dt:50,nt:9,next:1158,str:1721,d0:83,d1:65535;
+                        ("head", Expression<StringId> @:1158 op:11,dt:11,nt:9,next:1159,str:2468,d0:149,d1:1024;
+                            ("michelle", Expression<StringId> @:1159 op:11,dt:11,nt:9,next:65535,str:2473,d0:4992,d1:2048;))))))))

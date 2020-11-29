@@ -1,0 +1,33 @@
+
+("cs_e17_cov_inf0_2_ambush", MethodDecl<Void> @:361 op:0,dt:0,nt:65535,next:13072,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:13072 op:0,dt:4,nt:8,next:65535,str:39155,d0:13073,d1:38533;
+        ("begin", Expression<MethodOrOperator> @:13073 op:0,dt:2,nt:9,next:13043,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:13043 op:441,dt:4,nt:8,next:13046,str:39205,d0:13044,d1:38504;
+                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:13044 op:441,dt:2,nt:9,next:13045,str:22358,d0:0,d1:0;
+                    ("ai_combat_status_dangerous", VariableAccess<Short> @:13045 op:7,dt:7,nt:13,next:65535,str:25564,d0:33580,d1:65535;)))
+            (____, Scope<Void> @:13046 op:440,dt:4,nt:8,next:13049,str:39262,d0:13047,d1:38507;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:13047 op:440,dt:2,nt:9,next:13048,str:16394,d0:0,d1:0;
+                    (True, Expression<Boolean> @:13048 op:5,dt:5,nt:9,next:65535,str:39282,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:13049 op:423,dt:4,nt:8,next:13052,str:39290,d0:13050,d1:38510;
+                ("cs_crouch", Expression<MethodOrOperator> @:13050 op:423,dt:2,nt:9,next:13051,str:16563,d0:0,d1:0;
+                    (True, Expression<Boolean> @:13051 op:5,dt:5,nt:9,next:65535,str:39301,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:13052 op:443,dt:4,nt:8,next:13055,str:39309,d0:13053,d1:38513;
+                ("cs_enable_looking", Expression<MethodOrOperator> @:13053 op:443,dt:2,nt:9,next:13054,str:18789,d0:0,d1:0;
+                    (True, Expression<Boolean> @:13054 op:5,dt:5,nt:9,next:65535,str:39328,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:13055 op:21,dt:4,nt:8,next:65535,str:39337,d0:13056,d1:38516;
+                ("sleep_until", Expression<MethodOrOperator> @:13056 op:21,dt:2,nt:9,next:13057,str:236,d0:0,d1:0;
+                    (____, Scope<Boolean> @:13057 op:6,dt:5,nt:8,next:13071,str:39353,d0:13058,d1:38518;
+                        ("or", Expression<MethodOrOperator> @:13058 op:6,dt:2,nt:9,next:13059,str:849,d0:0,d1:0;
+                            (____, Scope<Boolean> @:13059 op:32,dt:5,nt:8,next:13065,str:39361,d0:13060,d1:38520;
+                                ("volume_test_object", Expression<MethodOrOperator> @:13060 op:32,dt:2,nt:9,next:13061,str:26796,d0:0,d1:0;
+                                    ("tv_e17_section3", Expression<Trigger> @:13061 op:13,dt:13,nt:9,next:13062,str:26837,d0:70,d1:0;
+                                        (____, Scope<Entity> @:13062 op:284,dt:50,nt:8,next:65535,str:39397,d0:13063,d1:38523;
+                                            ("ai_get_object", Expression<MethodOrOperator> @:13063 op:284,dt:2,nt:9,next:13064,str:13874,d0:0,d1:0;
+                                                ("ai_current_actor", VariableAccess<AI> @:13064 op:19,dt:19,nt:13,next:65535,str:13888,d0:33564,d1:65535;))))))
+                            (____, Scope<Boolean> @:13065 op:16,dt:5,nt:8,next:65535,str:39435,d0:13066,d1:38526;
+                                ("<", Expression<MethodOrOperator> @:13066 op:16,dt:2,nt:9,next:13067,str:852,d0:0,d1:0;
+                                    (-2.071173E-25f, Scope<Float> @:13067 op:329,dt:6,nt:8,next:13070,str:39438,d0:13068,d1:38528;
+                                        ("ai_strength", Expression<MethodOrOperator> @:13068 op:329,dt:2,nt:9,next:13069,str:26533,d0:0,d1:0;
+                                            ("ai_current_squad", VariableAccess<AI> @:13069 op:19,dt:19,nt:13,next:65535,str:22760,d0:33563,d1:65535;)))
+                                    (1f, Expression<Float> @:13070 op:6,dt:6,nt:9,next:65535,str:39469,d0:0,d1:16256;)))))
+                    (10, Expression<Short> @:13071 op:7,dt:7,nt:9,next:65535,str:39482,d0:10,d1:65535;))))))

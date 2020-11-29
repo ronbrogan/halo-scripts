@@ -1,0 +1,20 @@
+
+("test_tunnel_blockades", MethodDecl<Void> @:202 op:0,dt:0,nt:65535,next:7173,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:7173 op:0,dt:4,nt:8,next:65535,str:20190,d0:7174,d1:65401;
+        ("begin", Expression<MethodOrOperator> @:7174 op:0,dt:2,nt:9,next:7157,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:7157 op:507,dt:4,nt:8,next:7160,str:20234,d0:7158,d1:65385;
+                ("switch_bsp", Expression<MethodOrOperator> @:7158 op:507,dt:2,nt:9,next:7159,str:13654,d0:0,d1:0;
+                    (2, Expression<Short> @:7159 op:7,dt:7,nt:9,next:65535,str:20246,d0:2,d1:65535;)))
+            (____, Scope<Void> @:7160 op:105,dt:4,nt:8,next:7165,str:20251,d0:7161,d1:65388;
+                ("object_teleport", Expression<MethodOrOperator> @:7161 op:105,dt:2,nt:9,next:7162,str:13665,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:7162 op:0,dt:50,nt:10,next:7164,str:20268,d0:7163,d1:65390;
+                        ("player0", Expression<MethodOrOperator> @:7163 op:0,dt:2,nt:9,next:65535,str:665,d0:0,d1:0;))
+                    ("e12_test", Expression<LocationFlag> @:7164 op:14,dt:14,nt:9,next:65535,str:14950,d0:22,d1:0;)))
+            (____, Scope<Void> @:7165 op:2,dt:4,nt:8,next:65535,str:20290,d0:7166,d1:65393;
+                ("if", Expression<MethodOrOperator> @:7166 op:2,dt:2,nt:9,next:7167,str:519,d0:0,d1:0;
+                    (____, Scope<Boolean> @:7167 op:25,dt:5,nt:8,next:7170,str:20294,d0:7168,d1:65395;
+                        ("not", Expression<MethodOrOperator> @:7168 op:25,dt:2,nt:9,next:7169,str:460,d0:0,d1:0;
+                            ("g_e12_started", VariableAccess<Boolean> @:7169 op:5,dt:5,nt:13,next:65535,str:14725,d0:13,d1:0;)))
+                    (____, Scope<Void> @:7170 op:22,dt:4,nt:8,next:65535,str:20314,d0:7171,d1:65398;
+                        ("wake", Expression<MethodOrOperator> @:7171 op:22,dt:2,nt:9,next:7172,str:1129,d0:0,d1:0;
+                            ("e12_main", Expression<ScriptReference> @:7172 op:10,dt:10,nt:9,next:65535,str:14739,d0:201,d1:65535;))))))))

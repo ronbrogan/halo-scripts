@@ -1,0 +1,39 @@
+
+("c07_intra1_dof_04", MethodDecl<Void> @:191 op:0,dt:0,nt:65535,next:6835,str:16350,d0:0,d1:0;
+    (____, Scope<Void> @:6835 op:0,dt:4,nt:8,next:65535,str:25553,d0:6836,d1:65063;
+        ("begin", Expression<MethodOrOperator> @:6836 op:0,dt:2,nt:9,next:6800,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:6800 op:676,dt:4,nt:8,next:6802,str:25589,d0:6801,d1:65028;
+                ("time_code_reset", Expression<MethodOrOperator> @:6801 op:676,dt:2,nt:9,next:65535,str:9689,d0:0,d1:0;))
+            (____, Scope<Void> @:6802 op:19,dt:4,nt:8,next:6805,str:25609,d0:6803,d1:65030;
+                ("sleep", Expression<MethodOrOperator> @:6803 op:19,dt:2,nt:9,next:6804,str:80,d0:0,d1:0;
+                    (384, Expression<Short> @:6804 op:7,dt:7,nt:9,next:65535,str:25616,d0:384,d1:65535;)))
+            (____, Scope<Void> @:6805 op:708,dt:4,nt:8,next:6808,str:25623,d0:6806,d1:65033;
+                ("cinematic_screen_effect_start", Expression<MethodOrOperator> @:6806 op:708,dt:2,nt:9,next:6807,str:9477,d0:0,d1:0;
+                    (True, Expression<Boolean> @:6807 op:5,dt:5,nt:9,next:65535,str:25654,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:6808 op:709,dt:4,nt:8,next:6817,str:25659,d0:6809,d1:65036;
+                ("cinematic_screen_effect_set_depth_of_field", Expression<MethodOrOperator> @:6809 op:709,dt:2,nt:9,next:6810,str:9705,d0:0,d1:0;
+                    (0.5f, Expression<Float> @:6810 op:6,dt:6,nt:9,next:6811,str:25703,d0:0,d1:16128;
+                        (0.75f, Expression<Float> @:6811 op:6,dt:6,nt:9,next:6812,str:25706,d0:0,d1:16192;
+                            (0.75f, Expression<Float> @:6812 op:6,dt:6,nt:9,next:6813,str:25710,d0:0,d1:16192;
+                                (0f, Expression<Float> @:6813 op:6,dt:6,nt:9,next:6814,str:25714,d0:0,d1:0;
+                                    (0f, Expression<Float> @:6814 op:6,dt:6,nt:9,next:6815,str:25716,d0:0,d1:0;
+                                        (0f, Expression<Float> @:6815 op:6,dt:6,nt:9,next:6816,str:25718,d0:0,d1:0;
+                                            (0f, Expression<Float> @:6816 op:6,dt:6,nt:9,next:65535,str:25720,d0:0,d1:0;)))))))))
+            (____, Scope<Void> @:6817 op:27,dt:4,nt:8,next:6820,str:25725,d0:6818,d1:65045;
+                ("print", Expression<MethodOrOperator> @:6818 op:27,dt:2,nt:9,next:6819,str:86,d0:0,d1:0;
+                    ("rack focus", Expression<String> @:6819 op:9,dt:9,nt:9,next:65535,str:9748,d0:9748,d1:0;)))
+            (____, Scope<Void> @:6820 op:19,dt:4,nt:8,next:6823,str:25751,d0:6821,d1:65048;
+                ("sleep", Expression<MethodOrOperator> @:6821 op:19,dt:2,nt:9,next:6822,str:80,d0:0,d1:0;
+                    (106, Expression<Short> @:6822 op:7,dt:7,nt:9,next:65535,str:25758,d0:106,d1:65535;)))
+            (____, Scope<Void> @:6823 op:709,dt:4,nt:8,next:6832,str:25765,d0:6824,d1:65051;
+                ("cinematic_screen_effect_set_depth_of_field", Expression<MethodOrOperator> @:6824 op:709,dt:2,nt:9,next:6825,str:9705,d0:0,d1:0;
+                    (0.5f, Expression<Float> @:6825 op:6,dt:6,nt:9,next:6826,str:25809,d0:0,d1:16128;
+                        (0.75f, Expression<Float> @:6826 op:6,dt:6,nt:9,next:6827,str:25812,d0:0,d1:16192;
+                            (0f, Expression<Float> @:6827 op:6,dt:6,nt:9,next:6828,str:25816,d0:0,d1:0;
+                                (0.5f, Expression<Float> @:6828 op:6,dt:6,nt:9,next:6829,str:25818,d0:0,d1:16128;
+                                    (0f, Expression<Float> @:6829 op:6,dt:6,nt:9,next:6830,str:25821,d0:0,d1:0;
+                                        (0.75f, Expression<Float> @:6830 op:6,dt:6,nt:9,next:6831,str:25823,d0:0,d1:16192;
+                                            (0.5f, Expression<Float> @:6831 op:6,dt:6,nt:9,next:65535,str:25827,d0:0,d1:16128;)))))))))
+            (____, Scope<Void> @:6832 op:27,dt:4,nt:8,next:65535,str:25833,d0:6833,d1:65060;
+                ("print", Expression<MethodOrOperator> @:6833 op:27,dt:2,nt:9,next:6834,str:86,d0:0,d1:0;
+                    ("rack focus", Expression<String> @:6834 op:9,dt:9,nt:9,next:65535,str:9748,d0:9748,d1:0;))))))

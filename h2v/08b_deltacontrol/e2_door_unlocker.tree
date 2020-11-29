@@ -1,0 +1,32 @@
+
+("e2_door_unlocker", MethodDecl<Void> @:496 check:0,op:0,dt:0,nt:65535,next:19920,nextCheck:45380,str:39544,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:19920 check:45380,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:64048,h:3,d0:19921,d1:45381;
+        ("begin", Expression<MethodOrOperator> @:19921 check:45381,op:0,dt:2,nt:9,next:19892,nextCheck:45352,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:19892 check:45352,op:21,dt:4,nt:8,next:19908,nextCheck:45368,str:64145,h:3,d0:19893,d1:45353;
+                ("sleep_until", Expression<MethodOrOperator> @:19893 check:45353,op:21,dt:2,nt:9,next:19894,nextCheck:45354,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:19894 check:45354,op:5,dt:5,nt:8,next:65535,nextCheck:65535,str:64161,h:3,d0:19895,d1:45355;
+                        ("and", Expression<MethodOrOperator> @:19895 check:45355,op:5,dt:2,nt:9,next:19896,nextCheck:45356,str:672,h:0,d0:0,d1:0;
+                            (____, Scope<Boolean> @:19896 check:45356,op:15,dt:5,nt:8,next:19902,nextCheck:45362,str:64170,h:3,d0:19897,d1:45357;
+                                (">", Expression<MethodOrOperator> @:19897 check:45357,op:15,dt:2,nt:9,next:19898,nextCheck:45358,str:2516,h:0,d0:0,d1:0;
+                                    (____, Scope<Short> @:19898 check:45358,op:335,dt:7,nt:8,next:19901,nextCheck:45361,str:64173,h:3,d0:19899,d1:45359;
+                                        ("ai_spawn_count", Expression<MethodOrOperator> @:19899 check:45359,op:335,dt:2,nt:9,next:19900,nextCheck:45360,str:27834,h:0,d0:0,d1:0;
+                                            ("e2_pro_wraith0", Expression<AI> @:19900 check:45360,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:38962,h:0,d0:12,d1:16384;)))
+                                    (0, Expression<Short> @:19901 check:45361,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:64205,h:3,d0:0,d1:65535;)))
+                            (____, Scope<Boolean> @:19902 check:45362,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:64212,h:3,d0:19903,d1:45363;
+                                ("<=", Expression<MethodOrOperator> @:19903 check:45363,op:18,dt:2,nt:9,next:19904,nextCheck:45364,str:6210,h:0,d0:0,d1:0;
+                                    (____, Scope<Short> @:19904 check:45364,op:327,dt:7,nt:8,next:19907,nextCheck:45367,str:64216,h:3,d0:19905,d1:45365;
+                                        ("ai_living_count", Expression<MethodOrOperator> @:19905 check:45365,op:327,dt:2,nt:9,next:19906,nextCheck:45366,str:5988,h:0,d0:0,d1:0;
+                                            ("e2_pro_wraith0", Expression<AI> @:19906 check:45366,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:38962,h:0,d0:12,d1:16384;)))
+                                    (0, Expression<Short> @:19907 check:45367,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:64249,h:3,d0:0,d1:65535;)))))))
+            (____, Scope<Void> @:19908 check:45368,op:21,dt:4,nt:8,next:19916,nextCheck:45376,str:64301,h:3,d0:19909,d1:45369;
+                ("sleep_until", Expression<MethodOrOperator> @:19909 check:45369,op:21,dt:2,nt:9,next:19910,nextCheck:45370,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:19910 check:45370,op:33,dt:5,nt:8,next:19915,nextCheck:45375,str:64314,h:3,d0:19911,d1:45371;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:19911 check:45371,op:33,dt:2,nt:9,next:19912,nextCheck:45372,str:4732,h:0,d0:0,d1:0;
+                            ("tv_e3_main_begin", Expression<Trigger> @:19912 check:45372,op:13,dt:13,nt:9,next:19913,nextCheck:45373,str:38742,h:0,d0:19,d1:0;
+                                (____, Scope<List> @:19913 check:45373,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:64352,h:3,d0:19914,d1:45374;
+                                    ("players", Expression<MethodOrOperator> @:19914 check:45374,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                    (15, Expression<Short> @:19915 check:45375,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:64363,h:3,d0:15,d1:65535;)))
+            (____, Scope<Void> @:19916 check:45376,op:263,dt:4,nt:8,next:65535,nextCheck:65535,str:64393,h:3,d0:19917,d1:45377;
+                ("device_operates_automatically_set", Expression<MethodOrOperator> @:19917 check:45377,op:263,dt:2,nt:9,next:19918,nextCheck:45378,str:5254,h:0,d0:0,d1:0;
+                    ("e2_exit_door", Expression<Device> @:19918 check:45378,op:60,dt:54,nt:9,next:19919,nextCheck:45379,str:38315,h:0,d0:107,d1:65535;
+                        (True, Expression<Boolean> @:19919 check:45379,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:64441,h:3,d0:65281,d1:65535;)))))))

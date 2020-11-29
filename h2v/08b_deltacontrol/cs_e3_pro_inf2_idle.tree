@@ -1,0 +1,22 @@
+
+("cs_e3_pro_inf2_idle", MethodDecl<Void> @:484 check:0,op:0,dt:0,nt:65535,next:19516,nextCheck:44976,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:19516 check:44976,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:58629,h:3,d0:19517,d1:44977;
+        ("begin", Expression<MethodOrOperator> @:19517 check:44977,op:0,dt:2,nt:9,next:19498,nextCheck:44958,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:19498 check:44958,op:423,dt:4,nt:8,next:19501,nextCheck:44961,str:58674,h:3,d0:19499,d1:44959;
+                ("cs_crouch", Expression<MethodOrOperator> @:19499 check:44959,op:423,dt:2,nt:9,next:19500,nextCheck:44960,str:1397,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:19500 check:44960,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:58685,h:3,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:19501 check:44961,op:21,dt:4,nt:8,next:19510,nextCheck:44970,str:58693,h:3,d0:19502,d1:44962;
+                ("sleep_until", Expression<MethodOrOperator> @:19502 check:44962,op:21,dt:2,nt:9,next:19503,nextCheck:44963,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:19503 check:44963,op:17,dt:5,nt:8,next:19509,nextCheck:44969,str:58706,h:3,d0:19504,d1:44964;
+                        (">=", Expression<MethodOrOperator> @:19504 check:44964,op:17,dt:2,nt:9,next:19505,nextCheck:44965,str:676,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:19505 check:44965,op:353,dt:7,nt:8,next:19508,nextCheck:44968,str:58710,h:3,d0:19506,d1:44966;
+                                ("ai_combat_status", Expression<MethodOrOperator> @:19506 check:44966,op:353,dt:2,nt:9,next:19507,nextCheck:44967,str:27103,h:0,d0:0,d1:0;
+                                    ("ai_current_actor", VariableAccess<AI> @:19507 check:44967,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:1271,h:0,d0:33564,d1:65535;)))
+                            ("ai_combat_status_active", VariableAccess<Short> @:19508 check:44968,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:27120,h:0,d0:33574,d1:65535;)))
+                    (3, Expression<Short> @:19509 check:44969,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:58771,h:3,d0:3,d1:65535;)))
+            (____, Scope<Void> @:19510 check:44970,op:423,dt:4,nt:8,next:19513,nextCheck:44973,str:58776,h:3,d0:19511,d1:44971;
+                ("cs_crouch", Expression<MethodOrOperator> @:19511 check:44971,op:423,dt:2,nt:9,next:19512,nextCheck:44972,str:1397,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:19512 check:44972,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:58787,h:3,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:19513 check:44973,op:385,dt:4,nt:8,next:65535,nextCheck:65535,str:58796,h:3,d0:19514,d1:44974;
+                ("cs_go_to", Expression<MethodOrOperator> @:19514 check:44974,op:385,dt:2,nt:9,next:19515,nextCheck:44975,str:1184,h:0,d0:0,d1:0;
+                    ("e3_intro_bsp1/p3", Expression<SpatialPoint> @:19515 check:44975,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:38505,h:0,d0:4,d1:6;))))))

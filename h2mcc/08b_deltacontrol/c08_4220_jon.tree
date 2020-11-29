@@ -1,0 +1,25 @@
+
+("c08_4220_jon", MethodDecl<Void> @:135 op:0,dt:0,nt:65535,next:5602,str:13914,d0:0,d1:0;
+    (____, Scope<Void> @:5602 op:0,dt:4,nt:8,next:65535,str:64305,d0:5603,d1:63830;
+        ("begin", Expression<MethodOrOperator> @:5603 op:0,dt:2,nt:9,next:5581,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:5581 op:19,dt:4,nt:8,next:5584,str:64336,d0:5582,d1:63809;
+                ("sleep", Expression<MethodOrOperator> @:5582 op:19,dt:2,nt:9,next:5583,str:85,d0:0,d1:0;
+                    (308, Expression<Short> @:5583 op:7,dt:7,nt:9,next:65535,str:64343,d0:308,d1:65535;)))
+            (____, Scope<Void> @:5584 op:596,dt:4,nt:8,next:5589,str:64350,d0:5585,d1:63812;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:5585 op:596,dt:2,nt:9,next:5586,str:1586,d0:0,d1:0;
+                    ("sound\dialog\levels\08_controlroom\cinematic\c08_4220_jon", Expression<Sound> @:5586 op:32,dt:32,nt:9,next:5587,str:13856,d0:788,d1:58506;
+                        (4294901841, Expression<Entity> @:5587 op:56,dt:50,nt:9,next:5588,str:13743,d0:81,d1:65535;
+                            (1f, Expression<Float> @:5588 op:6,dt:6,nt:9,next:65535,str:64437,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:5589 op:562,dt:4,nt:8,next:5593,str:64442,d0:5590,d1:63817;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:5590 op:562,dt:2,nt:9,next:5591,str:7661,d0:0,d1:0;
+                    ("c08_4220_jon", Expression<StringId> @:5591 op:11,dt:11,nt:9,next:5592,str:13914,d0:4668,d1:3072;
+                        (3f, Expression<Float> @:5592 op:6,dt:6,nt:9,next:65535,str:64475,d0:0,d1:16448;))))
+            (____, Scope<Void> @:5593 op:220,dt:4,nt:8,next:5599,str:64483,d0:5594,d1:63821;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:5594 op:220,dt:2,nt:9,next:5595,str:9899,d0:0,d1:0;
+                    ("johnson", Expression<Unit> @:5595 op:57,dt:51,nt:9,next:5596,str:13743,d0:81,d1:65535;
+                        ("angry", Expression<StringId> @:5596 op:11,dt:11,nt:9,next:5597,str:9924,d0:430,d1:1280;
+                            (1f, Expression<Float> @:5597 op:6,dt:6,nt:9,next:5598,str:64524,d0:0,d1:16256;
+                                (15, Expression<Short> @:5598 op:7,dt:7,nt:9,next:65535,str:64526,d0:15,d1:65535;))))))
+            (____, Scope<Void> @:5599 op:27,dt:4,nt:8,next:65535,str:64533,d0:5600,d1:63827;
+                ("print", Expression<MethodOrOperator> @:5600 op:27,dt:2,nt:9,next:5601,str:91,d0:0,d1:0;
+                    ("johnson - angry 1 15", Expression<String> @:5601 op:9,dt:9,nt:9,next:65535,str:13927,d0:13927,d1:0;))))))

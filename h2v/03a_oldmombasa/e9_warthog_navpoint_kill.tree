@@ -1,0 +1,20 @@
+
+("e9_warthog_navpoint_kill", MethodDecl<Void> @:257 check:0,op:0,dt:0,nt:65535,next:9558,nextCheck:35018,str:18771,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:9558 check:35018,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:51600,h:1,d0:9559,d1:35019;
+        ("begin", Expression<MethodOrOperator> @:9559 check:35019,op:0,dt:2,nt:9,next:9542,nextCheck:35002,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:9542 check:35002,op:21,dt:4,nt:8,next:9554,nextCheck:35014,str:51709,h:1,d0:9543,d1:35003;
+                ("sleep_until", Expression<MethodOrOperator> @:9543 check:35003,op:21,dt:2,nt:9,next:9544,nextCheck:35004,str:294,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:9544 check:35004,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:51725,h:1,d0:9545,d1:35005;
+                        ("or", Expression<MethodOrOperator> @:9545 check:35005,op:6,dt:2,nt:9,next:9546,nextCheck:35006,str:907,h:0,d0:0,d1:0;
+                            ("player_in_vehicle", ScriptInvocation<Boolean> @:9546 check:35006,op:156,dt:5,nt:10,next:9548,nextCheck:35008,str:51733,h:1,d0:9547,d1:35007;
+                                ("player_in_vehicle", Expression<MethodOrOperator> @:9547 check:35007,op:156,dt:2,nt:9,next:65535,nextCheck:65535,str:15513,h:0,d0:0,d1:0;))
+                            (____, Scope<Boolean> @:9548 check:35008,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:51757,h:1,d0:9549,d1:35009;
+                                ("<=", Expression<MethodOrOperator> @:9549 check:35009,op:18,dt:2,nt:9,next:9550,nextCheck:35010,str:11797,h:0,d0:0,d1:0;
+                                    (-1.1744907E-33f, Scope<Float> @:9550 check:35010,op:239,dt:6,nt:8,next:9553,nextCheck:35013,str:51761,h:1,d0:9551,d1:35011;
+                                        ("unit_get_health", Expression<MethodOrOperator> @:9551 check:35011,op:239,dt:2,nt:9,next:9552,nextCheck:35012,str:12511,h:0,d0:0,d1:0;
+                                            ("g_e8_warthog", VariableAccess<Unit> @:9552 check:35012,op:51,dt:51,nt:13,next:65535,nextCheck:65535,str:16405,h:0,d0:16,d1:0;)))
+                                    (0f, Expression<Float> @:9553 check:35013,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:51792,h:1,d0:0,d1:0;)))))))
+            (____, Scope<Void> @:9554 check:35014,op:644,dt:4,nt:8,next:65535,nextCheck:65535,str:51806,h:1,d0:9555,d1:35015;
+                ("deactivate_team_nav_point_object", Expression<MethodOrOperator> @:9555 check:35015,op:644,dt:2,nt:9,next:9556,nextCheck:35016,str:12566,h:0,d0:0,d1:0;
+                    ("player", Expression<Team> @:9556 check:35016,op:45,dt:45,nt:9,next:9557,nextCheck:35017,str:12504,h:0,d0:1,d1:65535;
+                        ("g_e8_warthog", VariableAccess<Entity> @:9557 check:35017,op:50,dt:50,nt:13,next:65535,nextCheck:65535,str:16405,h:0,d0:16,d1:0;)))))))

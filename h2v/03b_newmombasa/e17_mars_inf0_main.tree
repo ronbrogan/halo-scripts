@@ -1,0 +1,27 @@
+
+("e17_mars_inf0_main", MethodDecl<Void> @:372 check:0,op:0,dt:0,nt:65535,next:13410,nextCheck:38870,str:27377,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:13410 check:38870,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:42668,h:2,d0:13411,d1:38871;
+        ("begin", Expression<MethodOrOperator> @:13411 check:38871,op:0,dt:2,nt:9,next:13387,nextCheck:38847,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:13387 check:38847,op:366,dt:4,nt:8,next:13391,nextCheck:38851,str:42733,h:2,d0:13388,d1:38848;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:13388 check:38848,op:366,dt:2,nt:9,next:13389,nextCheck:38849,str:15699,h:0,d0:0,d1:0;
+                    ("e16_mars_inf0", Expression<AI> @:13389 check:38849,op:19,dt:19,nt:9,next:13390,nextCheck:38850,str:27232,h:0,d0:16,d1:0;
+                        ("cs_e17_mars_selective_migrate", Expression<AIScript> @:13390 check:38850,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:27246,h:0,d0:360,d1:0;))))
+            (____, Scope<Void> @:13391 check:38851,op:19,dt:4,nt:8,next:13394,nextCheck:38854,str:42803,h:2,d0:13392,d1:38852;
+                ("sleep", Expression<MethodOrOperator> @:13392 check:38852,op:19,dt:2,nt:9,next:13393,nextCheck:38853,str:85,h:0,d0:0,d1:0;
+                    (15, Expression<Short> @:13393 check:38853,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:42810,h:2,d0:15,d1:65535;)))
+            (____, Scope<Void> @:13394 check:38854,op:290,dt:4,nt:8,next:13397,nextCheck:38857,str:42856,h:2,d0:13395,d1:38855;
+                ("ai_place", Expression<MethodOrOperator> @:13395 check:38855,op:290,dt:2,nt:9,next:13396,nextCheck:38856,str:16575,h:0,d0:0,d1:0;
+                    ("e17_mars_inf0", Expression<AI> @:13396 check:38856,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25966,h:0,d0:29,d1:0;)))
+            (____, Scope<Void> @:13397 check:38857,op:343,dt:4,nt:8,next:13403,nextCheck:38863,str:42883,h:2,d0:13398,d1:38858;
+                ("ai_vehicle_reserve", Expression<MethodOrOperator> @:13398 check:38858,op:343,dt:2,nt:9,next:13399,nextCheck:38859,str:23671,h:0,d0:0,d1:0;
+                    (____, Scope<Vehicle> @:13399 check:38859,op:340,dt:52,nt:8,next:13402,nextCheck:38862,str:42903,h:2,d0:13400,d1:38860;
+                        ("ai_vehicle_get", Expression<MethodOrOperator> @:13400 check:38860,op:340,dt:2,nt:9,next:13401,nextCheck:38861,str:15437,h:0,d0:0,d1:0;
+                            ("e17_mars_inf0/warthog0", Expression<AI> @:13401 check:38861,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:26337,h:0,d0:0,d1:49181;)))
+                    (True, Expression<Boolean> @:13402 check:38862,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:42943,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:13403 check:38863,op:300,dt:4,nt:8,next:13407,nextCheck:38867,str:42987,h:2,d0:13404,d1:38864;
+                ("ai_disposable", Expression<MethodOrOperator> @:13404 check:38864,op:300,dt:2,nt:9,next:13405,nextCheck:38865,str:24441,h:0,d0:0,d1:0;
+                    ("e16_mars", Expression<AI> @:13405 check:38865,op:19,dt:19,nt:9,next:13406,nextCheck:38866,str:27276,h:0,d0:9,d1:16384;
+                        (True, Expression<Boolean> @:13406 check:38866,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:43011,h:2,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:13407 check:38867,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:43050,h:2,d0:13408,d1:38868;
+                ("wake", Expression<MethodOrOperator> @:13408 check:38868,op:22,dt:2,nt:9,next:13409,nextCheck:38869,str:1071,h:0,d0:0,d1:0;
+                    ("e17_shotgun_scene", Expression<ScriptReference> @:13409 check:38869,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:26866,h:0,d0:366,d1:65535;))))))

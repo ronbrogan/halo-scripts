@@ -1,0 +1,18 @@
+
+("e20_mars_warthog1_main", MethodDecl<Void> @:328 op:0,dt:0,nt:65535,next:11654,str:24616,d0:0,d1:0;
+    (____, Scope<Void> @:11654 op:0,dt:4,nt:8,next:65535,str:18579,d0:11655,d1:37115;
+        ("begin", Expression<MethodOrOperator> @:11655 op:0,dt:2,nt:9,next:11640,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:11640 op:290,dt:4,nt:8,next:11643,str:18620,d0:11641,d1:37101;
+                ("ai_place", Expression<MethodOrOperator> @:11641 op:290,dt:2,nt:9,next:11642,str:16628,d0:0,d1:0;
+                    ("e20_mars_warthog1", Expression<AI> @:11642 op:19,dt:19,nt:9,next:65535,str:24097,d0:54,d1:0;)))
+            (____, Scope<Void> @:11643 op:2,dt:4,nt:8,next:65535,str:18651,d0:11644,d1:37104;
+                ("if", Expression<MethodOrOperator> @:11644 op:2,dt:2,nt:9,next:11645,str:461,d0:0,d1:0;
+                    (____, Scope<Boolean> @:11645 op:15,dt:5,nt:8,next:11651,str:18655,d0:11646,d1:37106;
+                        (">", Expression<MethodOrOperator> @:11646 op:15,dt:2,nt:9,next:11647,str:18883,d0:0,d1:0;
+                            (____, Scope<Short> @:11647 op:327,dt:7,nt:8,next:11650,str:18658,d0:11648,d1:37108;
+                                ("ai_living_count", Expression<MethodOrOperator> @:11648 op:327,dt:2,nt:9,next:11649,str:17340,d0:0,d1:0;
+                                    ("e20_mars_warthog0", Expression<AI> @:11649 op:19,dt:19,nt:9,next:65535,str:24079,d0:55,d1:0;)))
+                            (1, Expression<Short> @:11650 op:7,dt:7,nt:9,next:65535,str:18694,d0:1,d1:65535;)))
+                    (____, Scope<Void> @:11651 op:298,dt:4,nt:8,next:65535,str:18718,d0:11652,d1:37112;
+                        ("ai_erase", Expression<MethodOrOperator> @:11652 op:298,dt:2,nt:9,next:11653,str:15505,d0:0,d1:0;
+                            ("e20_mars_warthog1/spare", Expression<AI> @:11653 op:19,dt:19,nt:9,next:65535,str:24574,d0:2,d1:49206;))))))))

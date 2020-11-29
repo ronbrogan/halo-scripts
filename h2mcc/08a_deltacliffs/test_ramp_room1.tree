@@ -1,0 +1,35 @@
+
+("test_ramp_room1", MethodDecl<Void> @:190 op:0,dt:0,nt:65535,next:7007,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:7007 op:0,dt:4,nt:8,next:65535,str:22705,d0:7008,d1:65235;
+        ("begin", Expression<MethodOrOperator> @:7008 op:0,dt:2,nt:9,next:6976,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:6976 op:507,dt:4,nt:8,next:6979,str:22743,d0:6977,d1:65204;
+                ("switch_bsp", Expression<MethodOrOperator> @:6977 op:507,dt:2,nt:9,next:6978,str:12197,d0:0,d1:0;
+                    (1, Expression<Short> @:6978 op:7,dt:7,nt:9,next:65535,str:22755,d0:1,d1:65535;)))
+            (____, Scope<Void> @:6979 op:19,dt:4,nt:8,next:6982,str:22760,d0:6980,d1:65207;
+                ("sleep", Expression<MethodOrOperator> @:6980 op:19,dt:2,nt:9,next:6981,str:143,d0:0,d1:0;
+                    (1, Expression<Short> @:6981 op:7,dt:7,nt:9,next:65535,str:22767,d0:1,d1:65535;)))
+            (____, Scope<Void> @:6982 op:105,dt:4,nt:8,next:6987,str:22772,d0:6983,d1:65210;
+                ("object_teleport", Expression<MethodOrOperator> @:6983 op:105,dt:2,nt:9,next:6984,str:8606,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:6984 op:0,dt:50,nt:10,next:6986,str:22789,d0:6985,d1:65212;
+                        ("player0", Expression<MethodOrOperator> @:6985 op:0,dt:2,nt:9,next:65535,str:665,d0:0,d1:0;))
+                    ("e3_test", Expression<LocationFlag> @:6986 op:14,dt:14,nt:9,next:65535,str:13254,d0:1,d1:0;)))
+            (____, Scope<Void> @:6987 op:290,dt:4,nt:8,next:6990,str:22810,d0:6988,d1:65215;
+                ("ai_place", Expression<MethodOrOperator> @:6988 op:290,dt:2,nt:9,next:6989,str:6964,d0:0,d1:0;
+                    ("e3_cov_inf0", Expression<AI> @:6989 op:19,dt:19,nt:9,next:65535,str:12404,d0:18,d1:0;)))
+            (____, Scope<Void> @:6990 op:4,dt:4,nt:8,next:6996,str:22835,d0:6991,d1:65218;
+                ("set", Expression<MethodOrOperator> @:6991 op:4,dt:2,nt:9,next:6992,str:2093,d0:0,d1:0;
+                    ("g_cov_stealth_major", VariableAccess<Unit> @:6992 op:65535,dt:51,nt:13,next:6993,str:13050,d0:9,d1:0;
+                        (____, Scope<Unit> @:6993 op:285,dt:51,nt:8,next:65535,str:22860,d0:6994,d1:65221;
+                            ("ai_get_unit", Expression<MethodOrOperator> @:6994 op:285,dt:2,nt:9,next:6995,str:6446,d0:0,d1:0;
+                                ("e3_cov_inf0/stealth_major", Expression<AI> @:6995 op:19,dt:19,nt:9,next:65535,str:13262,d0:0,d1:49170;))))))
+            (____, Scope<Void> @:6996 op:290,dt:4,nt:8,next:6999,str:22903,d0:6997,d1:65224;
+                ("ai_place", Expression<MethodOrOperator> @:6997 op:290,dt:2,nt:9,next:6998,str:6964,d0:0,d1:0;
+                    ("e3_cov_gold_elite", Expression<AI> @:6998 op:19,dt:19,nt:9,next:65535,str:12386,d0:19,d1:0;)))
+            (____, Scope<Void> @:6999 op:2,dt:4,nt:8,next:65535,str:22934,d0:7000,d1:65227;
+                ("if", Expression<MethodOrOperator> @:7000 op:2,dt:2,nt:9,next:7001,str:519,d0:0,d1:0;
+                    (____, Scope<Boolean> @:7001 op:25,dt:5,nt:8,next:7004,str:22938,d0:7002,d1:65229;
+                        ("not", Expression<MethodOrOperator> @:7002 op:25,dt:2,nt:9,next:7003,str:460,d0:0,d1:0;
+                            ("g_e3_started", VariableAccess<Boolean> @:7003 op:5,dt:5,nt:13,next:65535,str:13118,d0:24,d1:0;)))
+                    (____, Scope<Void> @:7004 op:22,dt:4,nt:8,next:65535,str:22957,d0:7005,d1:65232;
+                        ("wake", Expression<MethodOrOperator> @:7005 op:22,dt:2,nt:9,next:7006,str:1129,d0:0,d1:0;
+                            ("e3_main", Expression<ScriptReference> @:7006 op:10,dt:10,nt:9,next:65535,str:13131,d0:189,d1:65535;))))))))

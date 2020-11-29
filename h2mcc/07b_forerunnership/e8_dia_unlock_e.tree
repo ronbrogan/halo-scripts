@@ -1,0 +1,19 @@
+
+("e8_dia_unlock_e", MethodDecl<Void> @:144 op:0,dt:0,nt:65535,next:4140,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:4140 op:0,dt:4,nt:8,next:65535,str:52129,d0:4141,d1:62368;
+        ("begin", Expression<MethodOrOperator> @:4141 op:0,dt:2,nt:9,next:4125,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:4125 op:2,dt:4,nt:8,next:4131,str:52163,d0:4126,d1:62353;
+                ("if", Expression<MethodOrOperator> @:4126 op:2,dt:2,nt:9,next:4127,str:456,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:4127 op:5,dt:5,nt:13,next:4128,str:10462,d0:3,d1:0;
+                        (____, Scope<Void> @:4128 op:27,dt:4,nt:8,next:65535,str:52176,d0:4129,d1:62356;
+                            ("print", Expression<MethodOrOperator> @:4129 op:27,dt:2,nt:9,next:4130,str:86,d0:0,d1:0;
+                                ("cortana: just a little more time...", Expression<String> @:4130 op:9,dt:9,nt:9,next:65535,str:11813,d0:11813,d1:0;))))))
+            (____, Scope<Void> @:4131 op:19,dt:4,nt:8,next:4137,str:52225,d0:4132,d1:62359;
+                ("sleep", Expression<MethodOrOperator> @:4132 op:19,dt:2,nt:9,next:4133,str:80,d0:0,d1:0;
+                    (____, Scope<Short> @:4133 op:362,dt:7,nt:8,next:65535,str:52232,d0:4134,d1:62361;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4134 op:362,dt:2,nt:9,next:4135,str:10552,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:4135 op:50,dt:50,nt:9,next:4136,str:1386,d0:65535,d1:65535;
+                                ("2820", Expression<StringId> @:4136 op:11,dt:11,nt:9,next:65535,str:11849,d0:13567,d1:1024;))))))
+            (____, Scope<Void> @:4137 op:19,dt:4,nt:8,next:65535,str:52270,d0:4138,d1:62365;
+                ("sleep", Expression<MethodOrOperator> @:4138 op:19,dt:2,nt:9,next:4139,str:80,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:4139 op:7,dt:7,nt:13,next:65535,str:10580,d0:4,d1:0;))))))

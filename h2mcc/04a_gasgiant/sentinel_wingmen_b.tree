@@ -1,0 +1,18 @@
+
+("sentinel_wingmen_b", MethodDecl<Void> @:335 op:0,dt:0,nt:65535,next:15936,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:15936 op:0,dt:4,nt:8,next:65535,str:48935,d0:15937,d1:41397;
+        ("begin", Expression<MethodOrOperator> @:15937 op:0,dt:2,nt:9,next:15922,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:15922 op:449,dt:4,nt:8,next:15925,str:48979,d0:15923,d1:41383;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:15923 op:449,dt:2,nt:9,next:15924,str:17423,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15924 op:5,dt:5,nt:9,next:65535,str:49011,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:15925 op:380,dt:4,nt:8,next:15929,str:49035,d0:15926,d1:41386;
+                ("cs_fly_to", Expression<MethodOrOperator> @:15926 op:380,dt:2,nt:9,next:15927,str:17471,d0:0,d1:0;
+                    ("airspace_hl/sen_b_0", Expression<SpatialPoint> @:15927 op:28,dt:28,nt:9,next:15928,str:28693,d0:4,d1:9;
+                        (5f, Expression<Float> @:15928 op:6,dt:6,nt:9,next:65535,str:49066,d0:0,d1:16544;))))
+            (____, Scope<Void> @:15929 op:380,dt:4,nt:8,next:15933,str:49071,d0:15930,d1:41390;
+                ("cs_fly_to", Expression<MethodOrOperator> @:15930 op:380,dt:2,nt:9,next:15931,str:17471,d0:0,d1:0;
+                    ("airspace_hl/sen_b_1", Expression<SpatialPoint> @:15931 op:28,dt:28,nt:9,next:15932,str:28713,d0:5,d1:9;
+                        (20f, Expression<Float> @:15932 op:6,dt:6,nt:9,next:65535,str:49102,d0:0,d1:16800;))))
+            (____, Scope<Void> @:15933 op:298,dt:4,nt:8,next:65535,str:49108,d0:15934,d1:41394;
+                ("ai_erase", Expression<MethodOrOperator> @:15934 op:298,dt:2,nt:9,next:15935,str:17500,d0:0,d1:0;
+                    ("bottling_sentinels_03/b", Expression<AI> @:15935 op:19,dt:19,nt:9,next:65535,str:28733,d0:1,d1:49256;))))))

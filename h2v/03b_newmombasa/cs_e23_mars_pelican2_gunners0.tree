@@ -1,0 +1,33 @@
+
+("cs_e23_mars_pelican2_gunners0", MethodDecl<Void> @:241 check:0,op:0,dt:0,nt:65535,next:7423,nextCheck:32883,str:15747,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:7423 check:32883,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:25290,h:1,d0:7424,d1:32884;
+        ("begin", Expression<MethodOrOperator> @:7424 check:32884,op:0,dt:2,nt:9,next:7394,nextCheck:32854,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:7394 check:32854,op:19,dt:4,nt:8,next:7397,nextCheck:32857,str:25345,h:1,d0:7395,d1:32855;
+                ("sleep", Expression<MethodOrOperator> @:7395 check:32855,op:19,dt:2,nt:9,next:7396,nextCheck:32856,str:85,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:7396 check:32856,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:25352,h:1,d0:60,d1:65535;)))
+            (____, Scope<Void> @:7397 check:32857,op:2,dt:4,nt:8,next:7410,nextCheck:32870,str:25358,h:1,d0:7398,d1:32858;
+                ("if", Expression<MethodOrOperator> @:7398 check:32858,op:2,dt:2,nt:9,next:7399,nextCheck:32859,str:461,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:7399 check:32859,op:25,dt:5,nt:8,next:7406,nextCheck:32866,str:25362,h:1,d0:7400,d1:32860;
+                        ("not", Expression<MethodOrOperator> @:7400 check:32860,op:25,dt:2,nt:9,next:7401,nextCheck:32861,str:402,h:0,d0:0,d1:0;
+                            (____, Scope<Boolean> @:7401 check:32861,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:25367,h:1,d0:7402,d1:32862;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:7402 check:32862,op:33,dt:2,nt:9,next:7403,nextCheck:32863,str:13177,h:0,d0:0,d1:0;
+                                    ("tv_scarab", Expression<Trigger> @:7403 check:32863,op:13,dt:13,nt:9,next:7404,nextCheck:32864,str:13622,h:0,d0:84,d1:0;
+                                        (____, Scope<List> @:7404 check:32864,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:25398,h:1,d0:7405,d1:32865;
+                                            ("players", Expression<MethodOrOperator> @:7405 check:32865,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))))
+                    (____, Scope<Void> @:7406 check:32866,op:406,dt:4,nt:8,next:65535,nextCheck:65535,str:25414,h:1,d0:7407,d1:32867;
+                        ("cs_shoot_point", Expression<MethodOrOperator> @:7407 check:32867,op:406,dt:2,nt:9,next:7408,nextCheck:32868,str:15515,h:0,d0:0,d1:0;
+                            (True, Expression<Boolean> @:7408 check:32868,op:5,dt:5,nt:9,next:7409,nextCheck:32869,str:25430,h:1,d0:65281,d1:65535;
+                                ("e22_scarab_target/leg1", Expression<SpatialPoint> @:7409 check:32869,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:15530,h:0,d0:2,d1:27;))))))
+            (____, Scope<Void> @:7410 check:32870,op:19,dt:4,nt:8,next:7413,nextCheck:32873,str:25465,h:1,d0:7411,d1:32871;
+                ("sleep", Expression<MethodOrOperator> @:7411 check:32871,op:19,dt:2,nt:9,next:7412,nextCheck:32872,str:85,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:7412 check:32872,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:25472,h:1,d0:60,d1:65535;)))
+            (____, Scope<Void> @:7413 check:32873,op:406,dt:4,nt:8,next:7417,nextCheck:32877,str:25478,h:1,d0:7414,d1:32874;
+                ("cs_shoot_point", Expression<MethodOrOperator> @:7414 check:32874,op:406,dt:2,nt:9,next:7415,nextCheck:32875,str:15515,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:7415 check:32875,op:5,dt:5,nt:9,next:7416,nextCheck:32876,str:25494,h:1,d0:65280,d1:65535;
+                        ("e22_scarab_target/leg1", Expression<SpatialPoint> @:7416 check:32876,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:15530,h:0,d0:2,d1:27;))))
+            (____, Scope<Void> @:7417 check:32877,op:19,dt:4,nt:8,next:7420,nextCheck:32880,str:25526,h:1,d0:7418,d1:32878;
+                ("sleep", Expression<MethodOrOperator> @:7418 check:32878,op:19,dt:2,nt:9,next:7419,nextCheck:32879,str:85,h:0,d0:0,d1:0;
+                    (1, Expression<Short> @:7419 check:32879,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:25533,h:1,d0:1,d1:65535;)))
+            (____, Scope<Void> @:7420 check:32880,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:25538,h:1,d0:7421,d1:32881;
+                ("ai_erase", Expression<MethodOrOperator> @:7421 check:32881,op:298,dt:2,nt:9,next:7422,nextCheck:32882,str:15452,h:0,d0:0,d1:0;
+                    ("ai_current_actor", VariableAccess<AI> @:7422 check:32882,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:13835,h:0,d0:33564,d1:65535;))))))

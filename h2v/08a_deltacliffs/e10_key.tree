@@ -1,0 +1,36 @@
+
+("e10_key", MethodDecl<Void> @:111 check:0,op:0,dt:0,nt:65535,next:3851,nextCheck:62078,str:8508,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:3851 check:62078,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:45594,h:0,d0:3852,d1:62079;
+        ("begin", Expression<MethodOrOperator> @:3852 check:62079,op:0,dt:2,nt:9,next:3819,nextCheck:62046,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:3819 check:62046,op:2,dt:4,nt:8,next:3827,nextCheck:62054,str:45620,h:0,d0:3820,d1:62047;
+                ("if", Expression<MethodOrOperator> @:3820 check:62047,op:2,dt:2,nt:9,next:3821,nextCheck:62048,str:519,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:3821 check:62048,op:25,dt:5,nt:8,next:3825,nextCheck:62052,str:45624,h:0,d0:3822,d1:62049;
+                        ("not", Expression<MethodOrOperator> @:3822 check:62049,op:25,dt:2,nt:9,next:3823,nextCheck:62050,str:460,h:0,d0:0,d1:0;
+                            ("difficulty_legendary", ScriptInvocation<Boolean> @:3823 check:62050,op:4,dt:5,nt:10,next:65535,nextCheck:65535,str:45629,h:0,d0:3824,d1:62051;
+                                ("difficulty_legendary", Expression<MethodOrOperator> @:3824 check:62051,op:4,dt:2,nt:9,next:65535,nextCheck:65535,str:8093,h:0,d0:0,d1:0;))))
+                    (____, Scope<Void> @:3825 check:62052,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:45653,h:0,d0:3826,d1:62053;
+                        ("sleep_forever", Expression<MethodOrOperator> @:3826 check:62053,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:8114,h:0,d0:0,d1:0;))))
+            (____, Scope<Void> @:3827 check:62054,op:46,dt:4,nt:8,next:3830,nextCheck:62057,str:45672,h:0,d0:3828,d1:62055;
+                ("object_create", Expression<MethodOrOperator> @:3828 check:62055,op:46,dt:2,nt:9,next:3829,nextCheck:62056,str:6934,h:0,d0:0,d1:0;
+                    ("key", Expression<EntityIdentifier> @:3829 check:62056,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:8128,h:0,d0:35,d1:65535;)))
+            (____, Scope<Void> @:3830 check:62057,op:21,dt:4,nt:8,next:3848,nextCheck:62075,str:45694,h:0,d0:3831,d1:62058;
+                ("sleep_until", Expression<MethodOrOperator> @:3831 check:62058,op:21,dt:2,nt:9,next:3832,nextCheck:62059,str:294,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:3832 check:62059,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:45711,h:0,d0:3833,d1:62060;
+                        ("or", Expression<MethodOrOperator> @:3833 check:62060,op:6,dt:2,nt:9,next:3834,nextCheck:62061,str:907,h:0,d0:0,d1:0;
+                            (____, Scope<Boolean> @:3834 check:62061,op:242,dt:5,nt:8,next:3841,nextCheck:62068,str:45719,h:0,d0:3835,d1:62062;
+                                ("unit_has_weapon", Expression<MethodOrOperator> @:3835 check:62062,op:242,dt:2,nt:9,next:3836,nextCheck:62063,str:5813,h:0,d0:0,d1:0;
+                                    (____, Scope<Unit> @:3836 check:62063,op:24,dt:51,nt:8,next:3840,nextCheck:62067,str:45736,h:0,d0:3837,d1:62064;
+                                        ("unit", Expression<MethodOrOperator> @:3837 check:62064,op:24,dt:2,nt:9,next:3838,nextCheck:62065,str:70,h:0,d0:0,d1:0;
+                                            ("player0", ScriptInvocation<Entity> @:3838 check:62065,op:0,dt:50,nt:10,next:65535,nextCheck:65535,str:45742,h:0,d0:3839,d1:62066;
+                                                ("player0", Expression<MethodOrOperator> @:3839 check:62066,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:665,h:0,d0:0,d1:0;))))
+                                    ("objects\weapons\multiplayer\ball\head_sp.weapon", Expression<TagReference> @:3840 check:62067,op:38,dt:38,nt:9,next:65535,nextCheck:65535,str:8132,h:0,d0:4975,d1:62863;)))
+                            (____, Scope<Boolean> @:3841 check:62068,op:242,dt:5,nt:8,next:65535,nextCheck:65535,str:45808,h:0,d0:3842,d1:62069;
+                                ("unit_has_weapon", Expression<MethodOrOperator> @:3842 check:62069,op:242,dt:2,nt:9,next:3843,nextCheck:62070,str:5813,h:0,d0:0,d1:0;
+                                    (____, Scope<Unit> @:3843 check:62070,op:24,dt:51,nt:8,next:3847,nextCheck:62074,str:45825,h:0,d0:3844,d1:62071;
+                                        ("unit", Expression<MethodOrOperator> @:3844 check:62071,op:24,dt:2,nt:9,next:3845,nextCheck:62072,str:70,h:0,d0:0,d1:0;
+                                            ("player1", ScriptInvocation<Entity> @:3845 check:62072,op:1,dt:50,nt:10,next:65535,nextCheck:65535,str:45831,h:0,d0:3846,d1:62073;
+                                                ("player1", Expression<MethodOrOperator> @:3846 check:62073,op:1,dt:2,nt:9,next:65535,nextCheck:65535,str:673,h:0,d0:0,d1:0;))))
+                                    ("objects\weapons\multiplayer\ball\head_sp.weapon", Expression<TagReference> @:3847 check:62074,op:38,dt:38,nt:9,next:65535,nextCheck:65535,str:8132,h:0,d0:4975,d1:62863;)))))))
+            (____, Scope<Void> @:3848 check:62075,op:872,dt:4,nt:8,next:65535,nextCheck:65535,str:45904,h:0,d0:3849,d1:62076;
+                ("ice_cream_flavor_stock", Expression<MethodOrOperator> @:3849 check:62076,op:872,dt:2,nt:9,next:3850,nextCheck:62077,str:8180,h:0,d0:0,d1:0;
+                    (7, Expression<Int> @:3850 check:62077,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:45928,h:0,d0:7,d1:0;))))))

@@ -1,0 +1,16 @@
+
+("cs_e12_ghosts_entry", MethodDecl<Void> @:188 check:0,op:0,dt:0,nt:65535,next:6507,nextCheck:64734,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:6507 check:64734,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:12737,h:1,d0:6508,d1:64735;
+        ("begin", Expression<MethodOrOperator> @:6508 check:64735,op:0,dt:2,nt:9,next:6495,nextCheck:64722,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:6495 check:64722,op:441,dt:4,nt:8,next:6498,nextCheck:64725,str:12782,h:1,d0:6496,d1:64723;
+                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:6496 check:64723,op:441,dt:2,nt:9,next:6497,nextCheck:64724,str:13523,h:0,d0:0,d1:0;
+                    ("ai_combat_status_clear_los", VariableAccess<Short> @:6497 check:64724,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:13715,h:0,d0:33579,d1:65535;)))
+            (____, Scope<Void> @:6498 check:64725,op:444,dt:4,nt:8,next:6501,nextCheck:64728,str:12839,h:1,d0:6499,d1:64726;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:6499 check:64726,op:444,dt:2,nt:9,next:6500,nextCheck:64727,str:13742,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:6500 check:64727,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:12857,h:1,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:6501 check:64728,op:438,dt:4,nt:8,next:6504,nextCheck:64731,str:12865,h:1,d0:6502,d1:64729;
+                ("cs_vehicle_boost", Expression<MethodOrOperator> @:6502 check:64729,op:438,dt:2,nt:9,next:6503,nextCheck:64730,str:11298,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:6503 check:64730,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:12883,h:1,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:6504 check:64731,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:12891,h:1,d0:6505,d1:64732;
+                ("sleep", Expression<MethodOrOperator> @:6505 check:64732,op:19,dt:2,nt:9,next:6506,nextCheck:64733,str:143,h:0,d0:0,d1:0;
+                    (150, Expression<Short> @:6506 check:64733,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:12898,h:1,d0:150,d1:65535;))))))

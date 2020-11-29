@@ -1,0 +1,40 @@
+
+("power_core_commander", MethodDecl<Void> @:280 op:0,dt:0,nt:65535,next:17018,str:29397,d0:0,d1:0;
+    (____, Scope<Void> @:17018 op:0,dt:4,nt:8,next:65535,str:48718,d0:17019,d1:42479;
+        ("begin", Expression<MethodOrOperator> @:17019 op:0,dt:2,nt:9,next:16982,str:210,d0:0,d1:0;
+            (____, Scope<Void> @:16982 op:281,dt:4,nt:8,next:16985,str:48757,d0:16983,d1:42443;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:16983 op:281,dt:2,nt:9,next:16984,str:17925,d0:0,d1:0;
+                    (False, Expression<Boolean> @:16984 op:5,dt:5,nt:9,next:65535,str:48777,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:16985 op:19,dt:4,nt:8,next:16988,str:48786,d0:16986,d1:42446;
+                ("sleep", Expression<MethodOrOperator> @:16986 op:19,dt:2,nt:9,next:16987,str:289,d0:0,d1:0;
+                    (60, Expression<Short> @:16987 op:7,dt:7,nt:9,next:65535,str:48793,d0:60,d1:65535;)))
+            (____, Scope<Void> @:16988 op:21,dt:4,nt:8,next:16992,str:48799,d0:16989,d1:42449;
+                ("sleep_until", Expression<MethodOrOperator> @:16989 op:21,dt:2,nt:9,next:16990,str:440,d0:0,d1:0;
+                    (____, Scope<Boolean> @:16990 op:584,dt:5,nt:8,next:65535,str:48812,d0:16991,d1:42451;
+                        ("game_safe_to_save", Expression<MethodOrOperator> @:16991 op:584,dt:2,nt:9,next:65535,str:16240,d0:0,d1:0;))))
+            (____, Scope<Void> @:16992 op:27,dt:4,nt:8,next:16995,str:48835,d0:16993,d1:42453;
+                ("print", Expression<MethodOrOperator> @:16993 op:27,dt:2,nt:9,next:16994,str:295,d0:0,d1:0;
+                    ("spec-ops commander: 'are you still alive, arbiter?'", Expression<String> @:16994 op:9,dt:9,nt:9,next:65535,str:29051,d0:29051,d1:0;)))
+            (____, Scope<Void> @:16995 op:19,dt:4,nt:8,next:17001,str:48899,d0:16996,d1:42456;
+                ("sleep", Expression<MethodOrOperator> @:16996 op:19,dt:2,nt:9,next:16997,str:289,d0:0,d1:0;
+                    (____, Scope<Short> @:16997 op:362,dt:7,nt:8,next:65535,str:48906,d0:16998,d1:42458;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:16998 op:362,dt:2,nt:9,next:16999,str:18029,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:16999 op:50,dt:50,nt:9,next:17000,str:137,d0:65535,d1:65535;
+                                ("0770", Expression<StringId> @:17000 op:11,dt:11,nt:9,next:65535,str:29103,d0:12282,d1:1024;))))))
+            (____, Scope<Void> @:17001 op:27,dt:4,nt:8,next:17004,str:49038,d0:17002,d1:42462;
+                ("print", Expression<MethodOrOperator> @:17002 op:27,dt:2,nt:9,next:17003,str:295,d0:0,d1:0;
+                    ("spec-ops commander: 'we're keeping pace as best we can.'", Expression<String> @:17003 op:9,dt:9,nt:9,next:65535,str:29108,d0:29108,d1:0;)))
+            (____, Scope<Void> @:17004 op:19,dt:4,nt:8,next:17010,str:49107,d0:17005,d1:42465;
+                ("sleep", Expression<MethodOrOperator> @:17005 op:19,dt:2,nt:9,next:17006,str:289,d0:0,d1:0;
+                    (____, Scope<Short> @:17006 op:362,dt:7,nt:8,next:65535,str:49114,d0:17007,d1:42467;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:17007 op:362,dt:2,nt:9,next:17008,str:18029,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:17008 op:50,dt:50,nt:9,next:17009,str:137,d0:65535,d1:65535;
+                                ("0780", Expression<StringId> @:17009 op:11,dt:11,nt:9,next:65535,str:29165,d0:12283,d1:1024;))))))
+            (____, Scope<Void> @:17010 op:587,dt:4,nt:8,next:17012,str:49246,d0:17011,d1:42471;
+                ("game_save", Expression<MethodOrOperator> @:17011 op:587,dt:2,nt:9,next:65535,str:9837,d0:0,d1:0;))
+            (____, Scope<Void> @:17012 op:19,dt:4,nt:8,next:17015,str:49260,d0:17013,d1:42473;
+                ("sleep", Expression<MethodOrOperator> @:17013 op:19,dt:2,nt:9,next:17014,str:289,d0:0,d1:0;
+                    (30, Expression<Short> @:17014 op:7,dt:7,nt:9,next:65535,str:49267,d0:30,d1:65535;)))
+            (____, Scope<Void> @:17015 op:281,dt:4,nt:8,next:65535,str:49273,d0:17016,d1:42476;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:17016 op:281,dt:2,nt:9,next:17017,str:17925,d0:0,d1:0;
+                    (True, Expression<Boolean> @:17017 op:5,dt:5,nt:9,next:65535,str:49293,d0:65281,d1:65535;))))))

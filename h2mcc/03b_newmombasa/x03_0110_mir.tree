@@ -1,0 +1,46 @@
+
+("x03_0110_mir", MethodDecl<Void> @:131 op:0,dt:0,nt:65535,next:4364,str:10418,d0:0,d1:0;
+    (____, Scope<Void> @:4364 op:0,dt:4,nt:8,next:65535,str:51875,d0:4365,d1:62592;
+        ("begin", Expression<MethodOrOperator> @:4365 op:0,dt:2,nt:9,next:4322,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:4322 op:19,dt:4,nt:8,next:4325,str:51906,d0:4323,d1:62550;
+                ("sleep", Expression<MethodOrOperator> @:4323 op:19,dt:2,nt:9,next:4324,str:85,d0:0,d1:0;
+                    (121, Expression<Short> @:4324 op:7,dt:7,nt:9,next:65535,str:51913,d0:121,d1:65535;)))
+            (____, Scope<Void> @:4325 op:57,dt:4,nt:8,next:4329,str:51923,d0:4326,d1:62553;
+                ("object_hide", Expression<MethodOrOperator> @:4326 op:57,dt:2,nt:9,next:4327,str:595,d0:0,d1:0;
+                    (4294901761, Expression<Entity> @:4327 op:56,dt:50,nt:9,next:4328,str:8886,d0:1,d1:65535;
+                        (True, Expression<Boolean> @:4328 op:5,dt:5,nt:9,next:65535,str:51940,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:4329 op:57,dt:4,nt:8,next:4333,str:51948,d0:4330,d1:62557;
+                ("object_hide", Expression<MethodOrOperator> @:4330 op:57,dt:2,nt:9,next:4331,str:595,d0:0,d1:0;
+                    (4294901762, Expression<Entity> @:4331 op:56,dt:50,nt:9,next:4332,str:9902,d0:2,d1:65535;
+                        (True, Expression<Boolean> @:4332 op:5,dt:5,nt:9,next:65535,str:51972,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:4333 op:27,dt:4,nt:8,next:4336,str:51980,d0:4334,d1:62561;
+                ("print", Expression<MethodOrOperator> @:4334 op:27,dt:2,nt:9,next:4335,str:91,d0:0,d1:0;
+                    ("hide iac, carrier", Expression<String> @:4335 op:9,dt:9,nt:9,next:65535,str:10344,d0:10344,d1:0;)))
+            (____, Scope<Void> @:4336 op:596,dt:4,nt:8,next:4341,str:52013,d0:4337,d1:62564;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:4337 op:596,dt:2,nt:9,next:4338,str:1368,d0:0,d1:0;
+                    ("sound\dialog\levels\03_earthcity\cinematic\x03_0110_mir", Expression<Sound> @:4338 op:32,dt:32,nt:9,next:4339,str:10362,d0:787,d1:58505;
+                        (4294901847, Expression<Entity> @:4339 op:56,dt:50,nt:9,next:4340,str:8483,d0:87,d1:65535;
+                            (1f, Expression<Float> @:4340 op:6,dt:6,nt:9,next:65535,str:52098,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:4341 op:562,dt:4,nt:8,next:4345,str:52103,d0:4342,d1:62569;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:4342 op:562,dt:2,nt:9,next:4343,str:1634,d0:0,d1:0;
+                    ("x03_0110_mir", Expression<StringId> @:4343 op:11,dt:11,nt:9,next:4344,str:10418,d0:4946,d1:3072;
+                        (1f, Expression<Float> @:4344 op:6,dt:6,nt:9,next:65535,str:52136,d0:0,d1:16256;))))
+            (____, Scope<Void> @:4345 op:220,dt:4,nt:8,next:4351,str:52144,d0:4346,d1:62573;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:4346 op:220,dt:2,nt:9,next:4347,str:1666,d0:0,d1:0;
+                    ("miranda", Expression<Unit> @:4347 op:57,dt:51,nt:9,next:4348,str:8483,d0:87,d1:65535;
+                        ("shocked", Expression<StringId> @:4348 op:11,dt:11,nt:9,next:4349,str:1731,d0:426,d1:1792;
+                            (0.25f, Expression<Float> @:4349 op:6,dt:6,nt:9,next:4350,str:52186,d0:0,d1:16000;
+                                (30, Expression<Short> @:4350 op:7,dt:7,nt:9,next:65535,str:52190,d0:30,d1:65535;))))))
+            (____, Scope<Void> @:4351 op:27,dt:4,nt:8,next:4354,str:52196,d0:4352,d1:62579;
+                ("print", Expression<MethodOrOperator> @:4352 op:27,dt:2,nt:9,next:4353,str:91,d0:0,d1:0;
+                    ("miranda - shocked .25 30", Expression<String> @:4353 op:9,dt:9,nt:9,next:65535,str:10431,d0:10431,d1:0;)))
+            (____, Scope<Void> @:4354 op:19,dt:4,nt:8,next:4357,str:52236,d0:4355,d1:62582;
+                ("sleep", Expression<MethodOrOperator> @:4355 op:19,dt:2,nt:9,next:4356,str:85,d0:0,d1:0;
+                    (30, Expression<Short> @:4356 op:7,dt:7,nt:9,next:65535,str:52243,d0:30,d1:65535;)))
+            (____, Scope<Void> @:4357 op:57,dt:4,nt:8,next:4361,str:52249,d0:4358,d1:62585;
+                ("object_hide", Expression<MethodOrOperator> @:4358 op:57,dt:2,nt:9,next:4359,str:595,d0:0,d1:0;
+                    (4294901846, Expression<Entity> @:4359 op:56,dt:50,nt:9,next:4360,str:8629,d0:86,d1:65535;
+                        (False, Expression<Boolean> @:4360 op:5,dt:5,nt:9,next:65535,str:52267,d0:65280,d1:65535;))))
+            (____, Scope<Void> @:4361 op:27,dt:4,nt:8,next:65535,str:52276,d0:4362,d1:62589;
+                ("print", Expression<MethodOrOperator> @:4362 op:27,dt:2,nt:9,next:4363,str:91,d0:0,d1:0;
+                    ("unhide hoodr", Expression<String> @:4363 op:9,dt:9,nt:9,next:65535,str:10456,d0:10456,d1:0;))))))

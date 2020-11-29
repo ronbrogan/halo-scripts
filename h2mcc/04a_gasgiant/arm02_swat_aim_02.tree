@@ -1,0 +1,19 @@
+
+("arm02_swat_aim_02", MethodDecl<Void> @:353 op:0,dt:0,nt:65535,next:20679,str:31751,d0:0,d1:0;
+    (____, Scope<Void> @:20679 op:0,dt:4,nt:8,next:65535,str:27437,d0:20680,d1:46140;
+        ("begin", Expression<MethodOrOperator> @:20680 op:0,dt:2,nt:9,next:20664,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:20664 op:440,dt:4,nt:8,next:20667,str:27480,d0:20665,d1:46125;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:20665 op:440,dt:2,nt:9,next:20666,str:15227,d0:0,d1:0;
+                    (True, Expression<Boolean> @:20666 op:5,dt:5,nt:9,next:65535,str:27500,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:20667 op:449,dt:4,nt:8,next:20670,str:27508,d0:20668,d1:46128;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:20668 op:449,dt:2,nt:9,next:20669,str:17423,d0:0,d1:0;
+                    (True, Expression<Boolean> @:20669 op:5,dt:5,nt:9,next:65535,str:27540,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:20670 op:385,dt:4,nt:8,next:20673,str:27548,d0:20671,d1:46131;
+                ("cs_go_to", Expression<MethodOrOperator> @:20671 op:385,dt:2,nt:9,next:20672,str:19295,d0:0,d1:0;
+                    ("arm02_lz/p2", Expression<SpatialPoint> @:20672 op:28,dt:28,nt:9,next:65535,str:31616,d0:3,d1:11;)))
+            (____, Scope<Void> @:20673 op:396,dt:4,nt:8,next:20677,str:27573,d0:20674,d1:46134;
+                ("cs_aim", Expression<MethodOrOperator> @:20674 op:396,dt:2,nt:9,next:20675,str:18178,d0:0,d1:0;
+                    (True, Expression<Boolean> @:20675 op:5,dt:5,nt:9,next:20676,str:27581,d0:65281,d1:65535;
+                        ("arm02_lz/door", Expression<SpatialPoint> @:20676 op:28,dt:28,nt:9,next:65535,str:31590,d0:0,d1:11;))))
+            (____, Scope<Void> @:20677 op:20,dt:4,nt:8,next:65535,str:27603,d0:20678,d1:46138;
+                ("sleep_forever", Expression<MethodOrOperator> @:20678 op:20,dt:2,nt:9,next:65535,str:15175,d0:0,d1:0;)))))

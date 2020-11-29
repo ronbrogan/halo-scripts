@@ -1,0 +1,16 @@
+
+("cs_trm1_moveto_alock", MethodDecl<Void> @:357 check:0,op:0,dt:0,nt:65535,next:16577,nextCheck:42037,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:16577 check:42037,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:3722,h:3,d0:16578,d1:42038;
+        ("begin", Expression<MethodOrOperator> @:16578 check:42038,op:0,dt:2,nt:9,next:16565,nextCheck:42025,str:11,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:16565 check:42025,op:448,dt:4,nt:8,next:16568,nextCheck:42028,str:3768,h:3,d0:16566,d1:42026;
+                ("cs_force_combat_status", Expression<MethodOrOperator> @:16566 check:42026,op:448,dt:2,nt:9,next:16567,nextCheck:42027,str:15876,h:0,d0:0,d1:0;
+                    (2, Expression<Short> @:16567 check:42027,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:3792,h:3,d0:2,d1:65535;)))
+            (____, Scope<Void> @:16568 check:42028,op:444,dt:4,nt:8,next:16571,nextCheck:42031,str:3797,h:3,d0:16569,d1:42029;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:16569 check:42029,op:444,dt:2,nt:9,next:16570,nextCheck:42030,str:37519,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:16570 check:42030,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:3815,h:3,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:16571 check:42031,op:449,dt:4,nt:8,next:16574,nextCheck:42034,str:3820,h:3,d0:16572,d1:42032;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:16572 check:42032,op:449,dt:2,nt:9,next:16573,nextCheck:42033,str:15899,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16573 check:42033,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:3852,h:3,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:16574 check:42034,op:385,dt:4,nt:8,next:65535,nextCheck:65535,str:3857,h:3,d0:16575,d1:42035;
+                ("cs_go_to", Expression<MethodOrOperator> @:16575 check:42035,op:385,dt:2,nt:9,next:16576,nextCheck:42036,str:15930,h:0,d0:0,d1:0;
+                    ("trm1/alock", Expression<SpatialPoint> @:16576 check:42036,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:37996,h:0,d0:0,d1:3;))))))

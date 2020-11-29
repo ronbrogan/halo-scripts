@@ -1,0 +1,17 @@
+
+("lz_phantom_01_away", MethodDecl<Void> @:245 check:0,op:0,dt:0,nt:65535,next:8020,nextCheck:33480,str:19606,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:8020 check:33480,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:30090,h:1,d0:8021,d1:33481;
+        ("begin", Expression<MethodOrOperator> @:8021 check:33481,op:0,dt:2,nt:9,next:8007,nextCheck:33467,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:8007 check:33467,op:449,dt:4,nt:8,next:8010,nextCheck:33470,str:30134,h:1,d0:8008,d1:33468;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:8008 check:33468,op:449,dt:2,nt:9,next:8009,nextCheck:33469,str:17375,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:8009 check:33469,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:30166,h:1,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:8010 check:33470,op:438,dt:4,nt:8,next:8013,nextCheck:33473,str:30174,h:1,d0:8011,d1:33471;
+                ("cs_vehicle_boost", Expression<MethodOrOperator> @:8011 check:33471,op:438,dt:2,nt:9,next:8012,nextCheck:33472,str:17406,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:8012 check:33472,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:30192,h:1,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:8013 check:33473,op:380,dt:4,nt:8,next:8017,nextCheck:33477,str:30200,h:1,d0:8014,d1:33474;
+                ("cs_fly_to", Expression<MethodOrOperator> @:8014 check:33474,op:380,dt:2,nt:9,next:8015,nextCheck:33475,str:17423,h:0,d0:0,d1:0;
+                    ("airspace_lz/exit01", Expression<SpatialPoint> @:8015 check:33475,op:28,dt:28,nt:9,next:8016,nextCheck:33476,str:17433,h:0,d0:9,d1:0;
+                        (20f, Expression<Float> @:8016 check:33476,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:30230,h:1,d0:0,d1:16800;))))
+            (____, Scope<Void> @:8017 check:33477,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:30236,h:1,d0:8018,d1:33478;
+                ("ai_erase", Expression<MethodOrOperator> @:8018 check:33478,op:298,dt:2,nt:9,next:8019,nextCheck:33479,str:17452,h:0,d0:0,d1:0;
+                    ("ai_current_actor", VariableAccess<AI> @:8019 check:33479,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:17461,h:0,d0:33564,d1:65535;))))))

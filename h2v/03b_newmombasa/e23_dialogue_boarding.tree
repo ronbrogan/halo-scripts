@@ -1,0 +1,33 @@
+
+("e23_dialogue_boarding", MethodDecl<Void> @:260 check:0,op:0,dt:0,nt:65535,next:8287,nextCheck:33747,str:17533,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:8287 check:33747,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:38740,h:1,d0:8288,d1:33748;
+        ("begin", Expression<MethodOrOperator> @:8288 check:33748,op:0,dt:2,nt:9,next:8258,nextCheck:33718,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:8258 check:33718,op:19,dt:4,nt:8,next:8261,nextCheck:33721,str:38780,h:1,d0:8259,d1:33719;
+                ("sleep", Expression<MethodOrOperator> @:8259 check:33719,op:19,dt:2,nt:9,next:8260,nextCheck:33720,str:85,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:8260 check:33720,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:38787,h:1,d0:30,d1:65535;)))
+            (____, Scope<Void> @:8261 check:33721,op:27,dt:4,nt:8,next:8264,nextCheck:33724,str:38793,h:1,d0:8262,d1:33722;
+                ("print", Expression<MethodOrOperator> @:8262 check:33722,op:27,dt:2,nt:9,next:8263,nextCheck:33723,str:91,h:0,d0:0,d1:0;
+                    ("cortana: chief, you're going to have to board the scarab!", Expression<String> @:8263 check:33723,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:17344,h:0,d0:61816,d1:12462;)))
+            (____, Scope<Void> @:8264 check:33724,op:362,dt:4,nt:8,next:8268,nextCheck:33728,str:38863,h:1,d0:8265,d1:33725;
+                ("ai_play_line_on_object", Expression<MethodOrOperator> @:8265 check:33725,op:362,dt:2,nt:9,next:8266,nextCheck:33726,str:16942,h:0,d0:0,d1:0;
+                    (4294967295, Expression<Entity> @:8266 check:33726,op:50,dt:50,nt:9,next:8267,nextCheck:33727,str:1,h:0,d0:65535,d1:65535;
+                        ("2020", Expression<StringId> @:8267 check:33727,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:17402,h:0,d0:10638,d1:1024;))))
+            (____, Scope<Void> @:8268 check:33728,op:19,dt:4,nt:8,next:8271,nextCheck:33731,str:38919,h:1,d0:8269,d1:33729;
+                ("sleep", Expression<MethodOrOperator> @:8269 check:33729,op:19,dt:2,nt:9,next:8270,nextCheck:33730,str:85,h:0,d0:0,d1:0;
+                    (600, Expression<Short> @:8270 check:33730,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:38926,h:1,d0:600,d1:65535;)))
+            (____, Scope<Void> @:8271 check:33731,op:27,dt:4,nt:8,next:8274,nextCheck:33734,str:38933,h:1,d0:8272,d1:33732;
+                ("print", Expression<MethodOrOperator> @:8272 check:33732,op:27,dt:2,nt:9,next:8273,nextCheck:33733,str:91,h:0,d0:0,d1:0;
+                    ("cortana: we can't do anything more to that scarab from here", Expression<String> @:8273 check:33733,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:17407,h:0,d0:61879,d1:12462;)))
+            (____, Scope<Void> @:8274 check:33734,op:362,dt:4,nt:8,next:8278,nextCheck:33738,str:39005,h:1,d0:8275,d1:33735;
+                ("ai_play_line_on_object", Expression<MethodOrOperator> @:8275 check:33735,op:362,dt:2,nt:9,next:8276,nextCheck:33736,str:16942,h:0,d0:0,d1:0;
+                    (4294967295, Expression<Entity> @:8276 check:33736,op:50,dt:50,nt:9,next:8277,nextCheck:33737,str:1,h:0,d0:65535,d1:65535;
+                        ("2040", Expression<StringId> @:8277 check:33737,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:17467,h:0,d0:10640,d1:1024;))))
+            (____, Scope<Void> @:8278 check:33738,op:19,dt:4,nt:8,next:8281,nextCheck:33741,str:39042,h:1,d0:8279,d1:33739;
+                ("sleep", Expression<MethodOrOperator> @:8279 check:33739,op:19,dt:2,nt:9,next:8280,nextCheck:33740,str:85,h:0,d0:0,d1:0;
+                    (75, Expression<Short> @:8280 check:33740,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:39049,h:1,d0:75,d1:65535;)))
+            (____, Scope<Void> @:8281 check:33741,op:640,dt:4,nt:8,next:65535,nextCheck:65535,str:39055,h:1,d0:8282,d1:33742;
+                ("activate_team_nav_point_object", Expression<MethodOrOperator> @:8282 check:33742,op:640,dt:2,nt:9,next:8283,nextCheck:33743,str:17472,h:0,d0:0,d1:0;
+                    ("default", Expression<NavigationPoint> @:8283 check:33743,op:27,dt:27,nt:9,next:8284,nextCheck:33744,str:17503,h:0,d0:0,d1:0;
+                        ("player", Expression<Team> @:8284 check:33744,op:45,dt:45,nt:9,next:8285,nextCheck:33745,str:17511,h:0,d0:1,d1:65535;
+                            (4294901862, Expression<Entity> @:8285 check:33745,op:56,dt:50,nt:9,next:8286,nextCheck:33746,str:13888,h:0,d0:102,d1:65535;
+                                (8.5f, Expression<Float> @:8286 check:33746,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:39109,h:1,d0:0,d1:16648;)))))))))

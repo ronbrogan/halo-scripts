@@ -1,0 +1,14 @@
+
+("e2_cov_sword_elites_charge0", MethodDecl<Void> @:196 check:0,op:0,dt:0,nt:65535,next:7577,nextCheck:33037,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:7577 check:33037,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:29959,h:1,d0:7578,d1:33038;
+        ("begin", Expression<MethodOrOperator> @:7578 check:33038,op:0,dt:2,nt:9,next:7567,nextCheck:33027,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:7567 check:33027,op:366,dt:4,nt:8,next:7571,nextCheck:33031,str:30009,h:1,d0:7568,d1:33028;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:7568 check:33028,op:366,dt:2,nt:9,next:7569,nextCheck:33029,str:7427,h:0,d0:0,d1:0;
+                    ("e2_cov_gold_elite", Expression<AI> @:7569 check:33029,op:19,dt:19,nt:9,next:7570,nextCheck:33030,str:12933,h:0,d0:12,d1:0;
+                        ("cs_e2_cov_gold_elite_charge0", Expression<AIScript> @:7570 check:33030,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:13607,h:0,d0:194,d1:0;))))
+            (____, Scope<Void> @:7571 check:33031,op:366,dt:4,nt:8,next:65535,nextCheck:65535,str:30082,h:1,d0:7572,d1:33032;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:7572 check:33032,op:366,dt:2,nt:9,next:7573,nextCheck:33033,str:7427,h:0,d0:0,d1:0;
+                    (____, Scope<AI> @:7573 check:33033,op:336,dt:19,nt:8,next:7576,nextCheck:33036,str:30105,h:1,d0:7574,d1:33034;
+                        ("object_get_ai", Expression<MethodOrOperator> @:7574 check:33034,op:336,dt:2,nt:9,next:7575,nextCheck:33035,str:7344,h:0,d0:0,d1:0;
+                            ("g_cov_stealth_major", VariableAccess<Entity> @:7575 check:33035,op:50,dt:50,nt:13,next:65535,nextCheck:65535,str:12991,h:0,d0:9,d1:0;)))
+                    ("cs_e2_cov_stealth_elite_charge0", Expression<AIScript> @:7576 check:33036,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:13636,h:0,d0:195,d1:0;))))))

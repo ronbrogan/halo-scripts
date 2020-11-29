@@ -1,0 +1,13 @@
+
+("cs_garden_a_turret_bk_b", MethodDecl<Void> @:386 op:0,dt:0,nt:65535,next:18934,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:18934 op:0,dt:4,nt:8,next:65535,str:13142,d0:18935,d1:44395;
+        ("begin", Expression<MethodOrOperator> @:18935 op:0,dt:2,nt:9,next:18925,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:18925 op:449,dt:4,nt:8,next:18928,str:13191,d0:18926,d1:44386;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:18926 op:449,dt:2,nt:9,next:18927,str:1066,d0:0,d1:0;
+                    (True, Expression<Boolean> @:18927 op:5,dt:5,nt:9,next:65535,str:13223,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:18928 op:385,dt:4,nt:8,next:18931,str:13231,d0:18929,d1:44389;
+                ("cs_go_to", Expression<MethodOrOperator> @:18929 op:385,dt:2,nt:9,next:18930,str:23611,d0:0,d1:0;
+                    ("garden_a_turrets/p1", Expression<SpatialPoint> @:18930 op:28,dt:28,nt:9,next:65535,str:37487,d0:1,d1:19;)))
+            (____, Scope<Void> @:18931 op:429,dt:4,nt:8,next:65535,str:13264,d0:18932,d1:44392;
+                ("cs_deploy_turret", Expression<MethodOrOperator> @:18932 op:429,dt:2,nt:9,next:18933,str:31995,d0:0,d1:0;
+                    ("garden_a_turrets/p1", Expression<SpatialPoint> @:18933 op:28,dt:28,nt:9,next:65535,str:37487,d0:1,d1:19;))))))

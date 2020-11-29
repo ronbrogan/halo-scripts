@@ -1,0 +1,24 @@
+
+("cs_e2_mars_continue", MethodDecl<Void> @:371 op:0,dt:0,nt:65535,next:15253,str:25712,d0:0,d1:0;
+    (____, Scope<Void> @:15253 op:0,dt:4,nt:8,next:65535,str:56925,d0:15254,d1:40714;
+        ("begin", Expression<MethodOrOperator> @:15254 op:0,dt:2,nt:9,next:15233,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:15233 op:391,dt:4,nt:8,next:15236,str:56992,d0:15234,d1:40694;
+                ("cs_go_to_nearest", Expression<MethodOrOperator> @:15234 op:391,dt:2,nt:9,next:15235,str:25180,d0:0,d1:0;
+                    ("e2_mars_wait", Expression<SpatialPoint> @:15235 op:28,dt:28,nt:9,next:65535,str:25220,d0:65535,d1:10;)))
+            (____, Scope<Void> @:15236 op:400,dt:4,nt:8,next:15239,str:57052,d0:15237,d1:40697;
+                ("cs_face_player", Expression<MethodOrOperator> @:15237 op:400,dt:2,nt:9,next:15238,str:20926,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15238 op:5,dt:5,nt:9,next:65535,str:57068,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:15239 op:21,dt:4,nt:8,next:65535,str:57123,d0:15240,d1:40700;
+                ("sleep_until", Expression<MethodOrOperator> @:15240 op:21,dt:2,nt:9,next:15241,str:294,d0:0,d1:0;
+                    (____, Scope<Boolean> @:15241 op:6,dt:5,nt:8,next:15252,str:57139,d0:15242,d1:40702;
+                        ("or", Expression<MethodOrOperator> @:15242 op:6,dt:2,nt:9,next:15243,str:907,d0:0,d1:0;
+                            (____, Scope<Boolean> @:15243 op:337,dt:5,nt:8,next:15247,str:57147,d0:15244,d1:40704;
+                                ("ai_trigger_test", Expression<MethodOrOperator> @:15244 op:337,dt:2,nt:9,next:15245,str:21970,d0:0,d1:0;
+                                    ("generic_player_within_4wu", Expression<String> @:15245 op:9,dt:9,nt:9,next:15246,str:25233,d0:25233,d1:0;
+                                        ("e2_mars", Expression<AI> @:15246 op:19,dt:19,nt:9,next:65535,str:25259,d0:10,d1:16384;))))
+                            (____, Scope<Boolean> @:15247 op:337,dt:5,nt:8,next:15251,str:57203,d0:15248,d1:40708;
+                                ("ai_trigger_test", Expression<MethodOrOperator> @:15248 op:337,dt:2,nt:9,next:15249,str:21970,d0:0,d1:0;
+                                    ("e2_cov_hunters0_bypassed", Expression<String> @:15249 op:9,dt:9,nt:9,next:15250,str:25267,d0:25267,d1:0;
+                                        ("e2_mars", Expression<AI> @:15250 op:19,dt:19,nt:9,next:65535,str:25259,d0:10,d1:16384;))))
+                            ("g_e3_started", VariableAccess<Boolean> @:15251 op:5,dt:5,nt:13,next:65535,str:24603,d0:37,d1:0;)))
+                    (15, Expression<Short> @:15252 op:7,dt:7,nt:9,next:65535,str:57279,d0:15,d1:65535;))))))

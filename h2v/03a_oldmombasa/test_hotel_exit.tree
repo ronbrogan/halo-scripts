@@ -1,0 +1,31 @@
+
+("test_hotel_exit", MethodDecl<Void> @:288 check:0,op:0,dt:0,nt:65535,next:10921,nextCheck:36381,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:10921 check:36381,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:3951,h:2,d0:10922,d1:36382;
+        ("begin", Expression<MethodOrOperator> @:10922 check:36382,op:0,dt:2,nt:9,next:10894,nextCheck:36354,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:10894 check:36354,op:507,dt:4,nt:8,next:10897,nextCheck:36357,str:3989,h:2,d0:10895,d1:36355;
+                ("switch_bsp", Expression<MethodOrOperator> @:10895 check:36355,op:507,dt:2,nt:9,next:10896,nextCheck:36356,str:13396,h:0,d0:0,d1:0;
+                    (1, Expression<Short> @:10896 check:36356,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:4001,h:2,d0:1,d1:65535;)))
+            (____, Scope<Void> @:10897 check:36357,op:105,dt:4,nt:8,next:10902,nextCheck:36362,str:4006,h:2,d0:10898,d1:36358;
+                ("object_teleport", Expression<MethodOrOperator> @:10898 check:36358,op:105,dt:2,nt:9,next:10899,nextCheck:36359,str:13407,h:0,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:10899 check:36359,op:0,dt:50,nt:10,next:10901,nextCheck:36361,str:4023,h:2,d0:10900,d1:36360;
+                        ("player0", Expression<MethodOrOperator> @:10900 check:36360,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:665,h:0,d0:0,d1:0;))
+                    ("e8_test", Expression<LocationFlag> @:10901 check:36361,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:19989,h:0,d0:11,d1:0;)))
+            (____, Scope<Void> @:10902 check:36362,op:290,dt:4,nt:8,next:10905,nextCheck:36365,str:4044,h:2,d0:10903,d1:36363;
+                ("ai_place", Expression<MethodOrOperator> @:10903 check:36363,op:290,dt:2,nt:9,next:10904,nextCheck:36364,str:4642,h:0,d0:0,d1:0;
+                    ("e8_mars_inf0", Expression<AI> @:10904 check:36364,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19721,h:0,d0:67,d1:0;)))
+            (____, Scope<Void> @:10905 check:36365,op:2,dt:4,nt:8,next:10913,nextCheck:36373,str:4070,h:2,d0:10906,d1:36366;
+                ("if", Expression<MethodOrOperator> @:10906 check:36366,op:2,dt:2,nt:9,next:10907,nextCheck:36367,str:519,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:10907 check:36367,op:25,dt:5,nt:8,next:10910,nextCheck:36370,str:4074,h:2,d0:10908,d1:36368;
+                        ("not", Expression<MethodOrOperator> @:10908 check:36368,op:25,dt:2,nt:9,next:10909,nextCheck:36369,str:460,h:0,d0:0,d1:0;
+                            ("g_e8_started", VariableAccess<Boolean> @:10909 check:36369,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:19779,h:0,d0:24,d1:0;)))
+                    (____, Scope<Void> @:10910 check:36370,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:4093,h:2,d0:10911,d1:36371;
+                        ("wake", Expression<MethodOrOperator> @:10911 check:36371,op:22,dt:2,nt:9,next:10912,nextCheck:36372,str:1129,h:0,d0:0,d1:0;
+                            ("e8_main", Expression<ScriptReference> @:10912 check:36372,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:19792,h:0,d0:287,d1:65535;)))))
+            (____, Scope<Void> @:10913 check:36373,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:4147,h:2,d0:10914,d1:36374;
+                ("if", Expression<MethodOrOperator> @:10914 check:36374,op:2,dt:2,nt:9,next:10915,nextCheck:36375,str:519,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:10915 check:36375,op:25,dt:5,nt:8,next:10918,nextCheck:36378,str:4151,h:2,d0:10916,d1:36376;
+                        ("not", Expression<MethodOrOperator> @:10916 check:36376,op:25,dt:2,nt:9,next:10917,nextCheck:36377,str:460,h:0,d0:0,d1:0;
+                            ("g_e12_started", VariableAccess<Boolean> @:10917 check:36377,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:14467,h:0,d0:13,d1:0;)))
+                    (____, Scope<Void> @:10918 check:36378,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:4171,h:2,d0:10919,d1:36379;
+                        ("wake", Expression<MethodOrOperator> @:10919 check:36379,op:22,dt:2,nt:9,next:10920,nextCheck:36380,str:1129,h:0,d0:0,d1:0;
+                            ("e12_main", Expression<ScriptReference> @:10920 check:36380,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:14481,h:0,d0:201,d1:65535;))))))))

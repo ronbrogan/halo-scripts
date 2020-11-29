@@ -1,0 +1,25 @@
+
+("c04_06b_shake_1", MethodDecl<Void> @:200 op:0,dt:0,nt:65535,next:6383,str:14626,d0:0,d1:0;
+    (____, Scope<Void> @:6383 op:0,dt:4,nt:8,next:65535,str:11247,d0:6384,d1:64611;
+        ("begin", Expression<MethodOrOperator> @:6384 op:0,dt:2,nt:9,next:6362,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:6362 op:656,dt:4,nt:8,next:6365,str:11281,d0:6363,d1:64590;
+                ("player_effect_stop", Expression<MethodOrOperator> @:6363 op:656,dt:2,nt:9,next:6364,str:11717,d0:0,d1:0;
+                    (0f, Expression<Float> @:6364 op:6,dt:6,nt:9,next:65535,str:11301,d0:0,d1:0;)))
+            (____, Scope<Void> @:6365 op:19,dt:4,nt:8,next:6368,str:11306,d0:6366,d1:64593;
+                ("sleep", Expression<MethodOrOperator> @:6366 op:19,dt:2,nt:9,next:6367,str:85,d0:0,d1:0;
+                    (30, Expression<Short> @:6367 op:7,dt:7,nt:9,next:65535,str:11313,d0:30,d1:65535;)))
+            (____, Scope<Void> @:6368 op:653,dt:4,nt:8,next:6373,str:11319,d0:6369,d1:64596;
+                ("player_effect_set_max_rotation", Expression<MethodOrOperator> @:6369 op:653,dt:2,nt:9,next:6370,str:10691,d0:0,d1:0;
+                    (0f, Expression<Float> @:6370 op:6,dt:6,nt:9,next:6371,str:11351,d0:0,d1:0;
+                        (1f, Expression<Float> @:6371 op:6,dt:6,nt:9,next:6372,str:11353,d0:0,d1:16256;
+                            (1f, Expression<Float> @:6372 op:6,dt:6,nt:9,next:65535,str:11355,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:6373 op:655,dt:4,nt:8,next:6377,str:11360,d0:6374,d1:64601;
+                ("player_effect_start", Expression<MethodOrOperator> @:6374 op:655,dt:2,nt:9,next:6375,str:10722,d0:0,d1:0;
+                    (0.25f, Expression<Float> @:6375 op:6,dt:6,nt:9,next:6376,str:11381,d0:0,d1:16000;
+                        (2f, Expression<Float> @:6376 op:6,dt:6,nt:9,next:65535,str:11385,d0:0,d1:16384;))))
+            (____, Scope<Void> @:6377 op:19,dt:4,nt:8,next:6380,str:11390,d0:6378,d1:64605;
+                ("sleep", Expression<MethodOrOperator> @:6378 op:19,dt:2,nt:9,next:6379,str:85,d0:0,d1:0;
+                    (60, Expression<Short> @:6379 op:7,dt:7,nt:9,next:65535,str:11397,d0:60,d1:65535;)))
+            (____, Scope<Void> @:6380 op:656,dt:4,nt:8,next:65535,str:11403,d0:6381,d1:64608;
+                ("player_effect_stop", Expression<MethodOrOperator> @:6381 op:656,dt:2,nt:9,next:6382,str:11717,d0:0,d1:0;
+                    (2f, Expression<Float> @:6382 op:6,dt:6,nt:9,next:65535,str:11423,d0:0,d1:16384;))))))

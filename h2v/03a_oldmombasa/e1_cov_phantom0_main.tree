@@ -1,0 +1,33 @@
+
+("e1_cov_phantom0_main", MethodDecl<Void> @:400 check:0,op:0,dt:0,nt:65535,next:16574,nextCheck:42034,str:28077,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:16574 check:42034,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:14738,h:3,d0:16575,d1:42035;
+        ("begin", Expression<MethodOrOperator> @:16575 check:42035,op:0,dt:2,nt:9,next:16545,nextCheck:42005,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:16545 check:42005,op:21,dt:4,nt:8,next:16553,nextCheck:42013,str:14777,h:3,d0:16546,d1:42006;
+                ("sleep_until", Expression<MethodOrOperator> @:16546 check:42006,op:21,dt:2,nt:9,next:16547,nextCheck:42007,str:294,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:16547 check:42007,op:33,dt:5,nt:8,next:16552,nextCheck:42012,str:14794,h:3,d0:16548,d1:42008;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:16548 check:42008,op:33,dt:2,nt:9,next:16549,nextCheck:42009,str:10884,h:0,d0:0,d1:0;
+                            ("tv_e1_main_area_entrance", Expression<Trigger> @:16549 check:42009,op:13,dt:13,nt:9,next:16550,nextCheck:42010,str:27320,h:0,d0:79,d1:0;
+                                (____, Scope<List> @:16550 check:42010,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:14840,h:3,d0:16551,d1:42011;
+                                    ("players", Expression<MethodOrOperator> @:16551 check:42011,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:84,h:0,d0:0,d1:0;)))))
+                    (5, Expression<Short> @:16552 check:42012,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:14854,h:3,d0:5,d1:65535;)))
+            (____, Scope<Void> @:16553 check:42013,op:21,dt:4,nt:8,next:16559,nextCheck:42019,str:14863,h:3,d0:16554,d1:42014;
+                ("sleep_until", Expression<MethodOrOperator> @:16554 check:42014,op:21,dt:2,nt:9,next:16555,nextCheck:42015,str:294,h:0,d0:0,d1:0;
+                    ("e1_cov_inf0_grunts_alerted", ScriptInvocation<Boolean> @:16555 check:42015,op:391,dt:5,nt:10,next:16557,nextCheck:42017,str:14880,h:3,d0:16556,d1:42016;
+                        ("e1_cov_inf0_grunts_alerted", Expression<MethodOrOperator> @:16556 check:42016,op:391,dt:2,nt:9,next:65535,nextCheck:65535,str:27345,h:0,d0:0,d1:0;))
+                    (30, Expression<Short> @:16557 check:42017,op:7,dt:7,nt:9,next:16558,nextCheck:42018,str:14912,h:3,d0:30,d1:65535;
+                        ("30_seconds", VariableAccess<Int> @:16558 check:42018,op:8,dt:8,nt:13,next:65535,nextCheck:65535,str:14853,h:0,d0:5,d1:0;))))
+            (____, Scope<Void> @:16559 check:42019,op:290,dt:4,nt:8,next:16562,nextCheck:42022,str:14961,h:3,d0:16560,d1:42020;
+                ("ai_place", Expression<MethodOrOperator> @:16560 check:42020,op:290,dt:2,nt:9,next:16561,nextCheck:42021,str:4642,h:0,d0:0,d1:0;
+                    ("e1_cov_phantom0_0", Expression<AI> @:16561 check:42021,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:27372,h:0,d0:26,d1:0;)))
+            (____, Scope<Void> @:16562 check:42022,op:366,dt:4,nt:8,next:16566,nextCheck:42026,str:14992,h:3,d0:16563,d1:42023;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:16563 check:42023,op:366,dt:2,nt:9,next:16564,nextCheck:42024,str:4703,h:0,d0:0,d1:0;
+                    ("e1_cov_phantom0_0/phantom0", Expression<AI> @:16564 check:42024,op:19,dt:19,nt:9,next:16565,nextCheck:42025,str:27390,h:0,d0:0,d1:49178;
+                        ("cs_e1_cov_phantom0_0_entry", Expression<AIScript> @:16565 check:42025,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:27417,h:0,d0:384,d1:0;))))
+            (____, Scope<Void> @:16566 check:42026,op:20,dt:4,nt:8,next:16568,nextCheck:42028,str:15143,h:3,d0:16567,d1:42027;
+                ("sleep_forever", Expression<MethodOrOperator> @:16567 check:42027,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:10045,h:0,d0:0,d1:0;))
+            (____, Scope<Void> @:16568 check:42028,op:290,dt:4,nt:8,next:16571,nextCheck:42031,str:15211,h:3,d0:16569,d1:42029;
+                ("ai_place", Expression<MethodOrOperator> @:16569 check:42029,op:290,dt:2,nt:9,next:16570,nextCheck:42030,str:4642,h:0,d0:0,d1:0;
+                    ("e1_cov_phantom0_1", Expression<AI> @:16570 check:42030,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:27444,h:0,d0:27,d1:0;)))
+            (____, Scope<Void> @:16571 check:42031,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:15255,h:3,d0:16572,d1:42032;
+                ("wake", Expression<MethodOrOperator> @:16572 check:42032,op:22,dt:2,nt:9,next:16573,nextCheck:42033,str:1129,h:0,d0:0,d1:0;
+                    ("music_03a_01_start", Expression<ScriptReference> @:16573 check:42033,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:27462,h:0,d0:134,d1:65535;))))))

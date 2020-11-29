@@ -1,0 +1,24 @@
+
+("temple_deploy_r", MethodDecl<Void> @:258 op:0,dt:0,nt:65535,next:16559,str:28273,d0:0,d1:0;
+    (____, Scope<Void> @:16559 op:0,dt:4,nt:8,next:65535,str:45404,d0:16560,d1:42020;
+        ("begin", Expression<MethodOrOperator> @:16560 op:0,dt:2,nt:9,next:16539,str:142,d0:0,d1:0;
+            (____, Scope<Void> @:16539 op:449,dt:4,nt:8,next:16542,str:45445,d0:16540,d1:42000;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:16540 op:449,dt:2,nt:9,next:16541,str:11009,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16541 op:5,dt:5,nt:9,next:65535,str:45477,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:16542 op:385,dt:4,nt:8,next:16545,str:45485,d0:16543,d1:42003;
+                ("cs_go_to", Expression<MethodOrOperator> @:16543 op:385,dt:2,nt:9,next:16544,str:16223,d0:0,d1:0;
+                    ("temple_turrets/deploy_right", Expression<SpatialPoint> @:16544 op:28,dt:28,nt:9,next:65535,str:27695,d0:2,d1:7;)))
+            (____, Scope<Void> @:16545 op:429,dt:4,nt:8,next:16548,str:45526,d0:16546,d1:42006;
+                ("cs_deploy_turret", Expression<MethodOrOperator> @:16546 op:429,dt:2,nt:9,next:16547,str:27658,d0:0,d1:0;
+                    ("temple_turrets/right", Expression<SpatialPoint> @:16547 op:28,dt:28,nt:9,next:65535,str:27723,d0:1,d1:7;)))
+            (____, Scope<Void> @:16548 op:442,dt:4,nt:8,next:16551,str:45568,d0:16549,d1:42009;
+                ("cs_enable_targeting", Expression<MethodOrOperator> @:16549 op:442,dt:2,nt:9,next:16550,str:16281,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16550 op:5,dt:5,nt:9,next:65535,str:45589,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:16551 op:404,dt:4,nt:8,next:16554,str:45597,d0:16552,d1:42012;
+                ("cs_shoot", Expression<MethodOrOperator> @:16552 op:404,dt:2,nt:9,next:16553,str:16301,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16553 op:5,dt:5,nt:9,next:65535,str:45607,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:16554 op:427,dt:4,nt:8,next:16557,str:45615,d0:16555,d1:42015;
+                ("cs_set_behavior", Expression<MethodOrOperator> @:16555 op:427,dt:2,nt:9,next:16556,str:16373,d0:0,d1:0;
+                    ("guard", Expression<AIBehavior> @:16556 op:22,dt:22,nt:9,next:65535,str:16389,d0:5,d1:0;)))
+            (____, Scope<Void> @:16557 op:20,dt:4,nt:8,next:65535,str:45641,d0:16558,d1:42018;
+                ("sleep_forever", Expression<MethodOrOperator> @:16558 op:20,dt:2,nt:9,next:65535,str:8566,d0:0,d1:0;)))))

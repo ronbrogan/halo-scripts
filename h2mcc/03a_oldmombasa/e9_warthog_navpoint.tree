@@ -1,0 +1,24 @@
+
+("e9_warthog_navpoint", MethodDecl<Void> @:256 op:0,dt:0,nt:65535,next:9611,str:19009,d0:0,d1:0;
+    (____, Scope<Void> @:9611 op:0,dt:4,nt:8,next:65535,str:52226,d0:9612,d1:35072;
+        ("begin", Expression<MethodOrOperator> @:9612 op:0,dt:2,nt:9,next:9591,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:9591 op:21,dt:4,nt:8,next:9599,str:52264,d0:9592,d1:35052;
+                ("sleep_until", Expression<MethodOrOperator> @:9592 op:21,dt:2,nt:9,next:9593,str:294,d0:0,d1:0;
+                    (____, Scope<Boolean> @:9593 op:15,dt:5,nt:8,next:65535,str:52277,d0:9594,d1:35054;
+                        (">", Expression<MethodOrOperator> @:9594 op:15,dt:2,nt:9,next:9595,str:12453,d0:0,d1:0;
+                            (____, Scope<Short> @:9595 op:335,dt:7,nt:8,next:9598,str:52280,d0:9596,d1:35056;
+                                ("ai_spawn_count", Expression<MethodOrOperator> @:9596 op:335,dt:2,nt:9,next:9597,str:16178,d0:0,d1:0;
+                                    ("e8_mars_warthog0", Expression<AI> @:9597 op:19,dt:19,nt:9,next:65535,str:18301,d0:68,d1:0;)))
+                            (0, Expression<Short> @:9598 op:7,dt:7,nt:9,next:65535,str:52314,d0:0,d1:65535;)))))
+            (____, Scope<Void> @:9599 op:2,dt:4,nt:8,next:65535,str:52362,d0:9600,d1:35060;
+                ("if", Expression<MethodOrOperator> @:9600 op:2,dt:2,nt:9,next:9601,str:519,d0:0,d1:0;
+                    (____, Scope<Boolean> @:9601 op:25,dt:5,nt:8,next:9605,str:52366,d0:9602,d1:35062;
+                        ("not", Expression<MethodOrOperator> @:9602 op:25,dt:2,nt:9,next:9603,str:460,d0:0,d1:0;
+                            ("player_in_vehicle", ScriptInvocation<Boolean> @:9603 op:156,dt:5,nt:10,next:65535,str:52371,d0:9604,d1:35064;
+                                ("player_in_vehicle", Expression<MethodOrOperator> @:9604 op:156,dt:2,nt:9,next:65535,str:15771,d0:0,d1:0;))))
+                    (____, Scope<Void> @:9605 op:640,dt:4,nt:8,next:65535,str:52431,d0:9606,d1:35066;
+                        ("activate_team_nav_point_object", Expression<MethodOrOperator> @:9606 op:640,dt:2,nt:9,next:9607,str:12723,d0:0,d1:0;
+                            ("default", Expression<NavigationPoint> @:9607 op:27,dt:27,nt:9,next:9608,str:12754,d0:0,d1:0;
+                                ("player", Expression<Team> @:9608 op:45,dt:45,nt:9,next:9609,str:12762,d0:1,d1:65535;
+                                    ("g_e8_warthog", VariableAccess<Entity> @:9609 op:50,dt:50,nt:13,next:9610,str:16663,d0:16,d1:0;
+                                        (1f, Expression<Float> @:9610 op:6,dt:6,nt:9,next:65535,str:52491,d0:0,d1:16256;)))))))))))

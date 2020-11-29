@@ -1,0 +1,26 @@
+
+("old_temp_reman_fr", MethodDecl<Void> @:306 check:0,op:0,dt:0,nt:65535,next:18406,nextCheck:43866,str:30112,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:18406 check:43866,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:8224,h:3,d0:18407,d1:43867;
+        ("begin", Expression<MethodOrOperator> @:18407 check:43867,op:0,dt:2,nt:9,next:18384,nextCheck:43844,str:54,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:18384 check:43844,op:449,dt:4,nt:8,next:18387,nextCheck:43847,str:8267,h:3,d0:18385,d1:43845;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:18385 check:43845,op:449,dt:2,nt:9,next:18386,nextCheck:43846,str:15210,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:18386 check:43846,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:8299,h:3,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:18387 check:43847,op:448,dt:4,nt:8,next:18390,nextCheck:43850,str:8307,h:3,d0:18388,d1:43848;
+                ("cs_force_combat_status", Expression<MethodOrOperator> @:18388 check:43848,op:448,dt:2,nt:9,next:18389,nextCheck:43849,str:29841,h:0,d0:0,d1:0;
+                    (4, Expression<Short> @:18389 check:43849,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:8331,h:3,d0:4,d1:65535;)))
+            (____, Scope<Void> @:18390 check:43850,op:385,dt:4,nt:8,next:18393,nextCheck:43853,str:8336,h:3,d0:18391,d1:43851;
+                ("cs_go_to", Expression<MethodOrOperator> @:18391 check:43851,op:385,dt:2,nt:9,next:18392,nextCheck:43852,str:15241,h:0,d0:0,d1:0;
+                    ("old_temple/far_r", Expression<SpatialPoint> @:18392 check:43852,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:29864,h:0,d0:3,d1:9;)))
+            (____, Scope<Void> @:18393 check:43853,op:426,dt:4,nt:8,next:18398,nextCheck:43858,str:8366,h:3,d0:18394,d1:43854;
+                ("cs_go_to_vehicle", Expression<MethodOrOperator> @:18394 check:43854,op:426,dt:2,nt:9,next:18395,nextCheck:43855,str:20637,h:0,d0:0,d1:0;
+                    (____, Scope<Vehicle> @:18395 check:43855,op:341,dt:52,nt:8,next:65535,nextCheck:65535,str:8384,h:3,d0:18396,d1:43856;
+                        ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:18396 check:43856,op:341,dt:2,nt:9,next:18397,nextCheck:43857,str:14547,h:0,d0:0,d1:0;
+                            ("old_temple_turrets/far_r", Expression<AI> @:18397 check:43857,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29881,h:0,d0:0,d1:49254;)))))
+            (____, Scope<Void> @:18398 check:43858,op:442,dt:4,nt:8,next:18401,nextCheck:43861,str:8452,h:3,d0:18399,d1:43859;
+                ("cs_enable_targeting", Expression<MethodOrOperator> @:18399 check:43859,op:442,dt:2,nt:9,next:18400,nextCheck:43860,str:14677,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:18400 check:43860,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:8473,h:3,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:18401 check:43861,op:404,dt:4,nt:8,next:18404,nextCheck:43864,str:8481,h:3,d0:18402,d1:43862;
+                ("cs_shoot", Expression<MethodOrOperator> @:18402 check:43862,op:404,dt:2,nt:9,next:18403,nextCheck:43863,str:14697,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:18403 check:43863,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:8491,h:3,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:18404 check:43864,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:8499,h:3,d0:18405,d1:43865;
+                ("sleep_forever", Expression<MethodOrOperator> @:18405 check:43865,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:13165,h:0,d0:0,d1:0;)))))

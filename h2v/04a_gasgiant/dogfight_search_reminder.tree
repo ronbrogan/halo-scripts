@@ -1,0 +1,25 @@
+
+("dogfight_search_reminder", MethodDecl<Void> @:356 check:0,op:0,dt:0,nt:65535,next:20810,nextCheck:46270,str:33107,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:20810 check:46270,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28882,h:3,d0:20811,d1:46271;
+        ("begin", Expression<MethodOrOperator> @:20811 check:46271,op:0,dt:2,nt:9,next:20789,nextCheck:46249,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:20789 check:46249,op:281,dt:4,nt:8,next:20792,nextCheck:46252,str:28925,h:3,d0:20790,d1:46250;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:20790 check:46250,op:281,dt:2,nt:9,next:20791,nextCheck:46251,str:17551,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:20791 check:46251,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:28945,h:3,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:20792 check:46252,op:19,dt:4,nt:8,next:20795,nextCheck:46255,str:28954,h:3,d0:20793,d1:46253;
+                ("sleep", Expression<MethodOrOperator> @:20793 check:46253,op:19,dt:2,nt:9,next:20794,nextCheck:46254,str:85,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:20794 check:46254,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28961,h:3,d0:60,d1:65535;)))
+            (____, Scope<Void> @:20795 check:46255,op:27,dt:4,nt:8,next:20798,nextCheck:46258,str:28967,h:3,d0:20796,d1:46256;
+                ("print", Expression<MethodOrOperator> @:20796 check:46256,op:27,dt:2,nt:9,next:20797,nextCheck:46257,str:91,h:0,d0:0,d1:0;
+                    ("spec-ops commander: 'no sign of the heretic-leader or his banshee. we must keep searching!'", Expression<String> @:20797 check:46257,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:31713,h:0,d0:47625,d1:10848;)))
+            (____, Scope<Void> @:20798 check:46258,op:19,dt:4,nt:8,next:20804,nextCheck:46264,str:29071,h:3,d0:20799,d1:46259;
+                ("sleep", Expression<MethodOrOperator> @:20799 check:46259,op:19,dt:2,nt:9,next:20800,nextCheck:46260,str:85,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:20800 check:46260,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:29078,h:3,d0:20801,d1:46261;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:20801 check:46261,op:362,dt:2,nt:9,next:20802,nextCheck:46262,str:17662,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:20802 check:46262,op:50,dt:50,nt:9,next:20803,nextCheck:46263,str:1,h:0,d0:65535,d1:65535;
+                                ("1210", Expression<StringId> @:20803 check:46263,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:31805,h:0,d0:9080,d1:1024;))))))
+            (____, Scope<Void> @:20804 check:46264,op:19,dt:4,nt:8,next:20807,nextCheck:46267,str:29210,h:3,d0:20805,d1:46265;
+                ("sleep", Expression<MethodOrOperator> @:20805 check:46265,op:19,dt:2,nt:9,next:20806,nextCheck:46266,str:85,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:20806 check:46266,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:29217,h:3,d0:30,d1:65535;)))
+            (____, Scope<Void> @:20807 check:46267,op:281,dt:4,nt:8,next:65535,nextCheck:65535,str:29223,h:3,d0:20808,d1:46268;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:20808 check:46268,op:281,dt:2,nt:9,next:20809,nextCheck:46269,str:17551,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:20809 check:46269,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:29243,h:3,d0:65281,d1:65535;))))))

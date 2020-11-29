@@ -1,0 +1,25 @@
+
+("jackal_shield_activate", MethodDecl<Void> @:148 check:0,op:0,dt:0,nt:65535,next:4991,nextCheck:63218,str:11526,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:4991 check:63218,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:61033,h:0,d0:4992,d1:63219;
+        ("begin", Expression<MethodOrOperator> @:4992 check:63219,op:0,dt:2,nt:9,next:4970,nextCheck:63197,str:54,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:4970 check:63197,op:19,dt:4,nt:8,next:4973,nextCheck:63200,str:61074,h:0,d0:4971,d1:63198;
+                ("sleep", Expression<MethodOrOperator> @:4971 check:63198,op:19,dt:2,nt:9,next:4972,nextCheck:63199,str:133,h:0,d0:0,d1:0;
+                    (278, Expression<Short> @:4972 check:63199,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:61081,h:0,d0:278,d1:65535;)))
+            (____, Scope<Void> @:4973 check:63200,op:27,dt:4,nt:8,next:4976,nextCheck:63203,str:61088,h:0,d0:4974,d1:63201;
+                ("print", Expression<MethodOrOperator> @:4974 check:63201,op:27,dt:2,nt:9,next:4975,nextCheck:63202,str:139,h:0,d0:0,d1:0;
+                    ("jackal shield activate", Expression<String> @:4975 check:63202,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:11328,h:0,d0:22704,d1:12768;)))
+            (____, Scope<Void> @:4976 check:63203,op:48,dt:4,nt:8,next:4979,nextCheck:63206,str:61123,h:0,d0:4977,d1:63204;
+                ("object_create_anew", Expression<MethodOrOperator> @:4977 check:63204,op:48,dt:2,nt:9,next:4978,nextCheck:63205,str:1510,h:0,d0:0,d1:0;
+                    ("jackal_shield", Expression<EntityIdentifier> @:4978 check:63205,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:11351,h:0,d0:102,d1:65535;)))
+            (____, Scope<Void> @:4979 check:63206,op:74,dt:4,nt:8,next:4985,nextCheck:63212,str:61160,h:0,d0:4980,d1:63207;
+                ("objects_attach", Expression<MethodOrOperator> @:4980 check:63207,op:74,dt:2,nt:9,next:4981,nextCheck:63208,str:11047,h:0,d0:0,d1:0;
+                    (4294901835, Expression<Entity> @:4981 check:63208,op:56,dt:50,nt:9,next:4982,nextCheck:63209,str:11305,h:0,d0:75,d1:65535;
+                        ("shield_light", Expression<StringId> @:4982 check:63209,op:11,dt:11,nt:9,next:4983,nextCheck:63210,str:11365,h:0,d0:4974,d1:3072;
+                            (4294901862, Expression<Entity> @:4983 check:63210,op:56,dt:50,nt:9,next:4984,nextCheck:63211,str:11351,h:0,d0:102,d1:65535;
+                                (0, Expression<StringId> @:4984 check:63211,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:0,h:0,d0:0,d1:0;))))))
+            (____, Scope<Void> @:4985 check:63212,op:60,dt:4,nt:8,next:65535,nextCheck:65535,str:61221,h:0,d0:4986,d1:63213;
+                ("object_set_function_variable", Expression<MethodOrOperator> @:4986 check:63213,op:60,dt:2,nt:9,next:4987,nextCheck:63214,str:11378,h:0,d0:0,d1:0;
+                    (4294901835, Expression<Entity> @:4987 check:63214,op:56,dt:50,nt:9,next:4988,nextCheck:63215,str:11305,h:0,d0:75,d1:65535;
+                        ("shield", Expression<StringId> @:4988 check:63215,op:11,dt:11,nt:9,next:4989,nextCheck:63216,str:11407,h:0,d0:4774,d1:1536;
+                            (1f, Expression<Float> @:4989 check:63216,op:6,dt:6,nt:9,next:4990,nextCheck:63217,str:61270,h:0,d0:0,d1:16256;
+                                (1f, Expression<Float> @:4990 check:63217,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:61272,h:0,d0:0,d1:16256;)))))))))

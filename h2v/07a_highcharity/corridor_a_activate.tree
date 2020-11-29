@@ -1,0 +1,22 @@
+
+("corridor_a_activate", MethodDecl<Void> @:324 check:0,op:0,dt:0,nt:65535,next:15235,nextCheck:40695,str:40819,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:15235 check:40695,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:47750,h:2,d0:15236,d1:40696;
+        ("begin", Expression<MethodOrOperator> @:15236 check:40696,op:0,dt:2,nt:9,next:15217,nextCheck:40677,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:15217 check:40677,op:21,dt:4,nt:8,next:15225,nextCheck:40685,str:47788,h:2,d0:15218,d1:40678;
+                ("sleep_until", Expression<MethodOrOperator> @:15218 check:40678,op:21,dt:2,nt:9,next:15219,nextCheck:40679,str:231,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:15219 check:40679,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:47801,h:2,d0:15220,d1:40680;
+                        (">=", Expression<MethodOrOperator> @:15220 check:40680,op:17,dt:2,nt:9,next:15221,nextCheck:40681,str:671,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:15221 check:40681,op:353,dt:7,nt:8,next:15224,nextCheck:40684,str:47805,h:2,d0:15222,d1:40682;
+                                ("ai_combat_status", Expression<MethodOrOperator> @:15222 check:40682,op:353,dt:2,nt:9,next:15223,nextCheck:40683,str:31798,h:0,d0:0,d1:0;
+                                    ("hall_a_prophets", Expression<AI> @:15223 check:40683,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:32812,h:0,d0:13,d1:16384;)))
+                            ("ai_combat_status_active", VariableAccess<Short> @:15224 check:40684,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:31815,h:0,d0:33574,d1:65535;)))))
+            (____, Scope<Void> @:15225 check:40685,op:4,dt:4,nt:8,next:15229,nextCheck:40689,str:47868,h:2,d0:15226,d1:40686;
+                ("set", Expression<MethodOrOperator> @:15226 check:40686,op:4,dt:2,nt:9,next:15227,nextCheck:40687,str:2141,h:0,d0:0,d1:0;
+                    ("g_corridor_a_active", VariableAccess<Boolean> @:15227 check:40687,op:65535,dt:5,nt:13,next:15228,nextCheck:40688,str:32219,h:0,d0:59,d1:0;
+                        (True, Expression<Boolean> @:15228 check:40688,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:47893,h:2,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:15229 check:40689,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:47898,h:2,d0:15230,d1:40690;
+                ("if", Expression<MethodOrOperator> @:15230 check:40690,op:2,dt:2,nt:9,next:15231,nextCheck:40691,str:456,h:0,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:15231 check:40691,op:5,dt:5,nt:13,next:15232,nextCheck:40692,str:17466,h:0,d0:3,d1:0;
+                        (____, Scope<Void> @:15232 check:40692,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:47908,h:2,d0:15233,d1:40693;
+                            ("print", Expression<MethodOrOperator> @:15233 check:40693,op:27,dt:2,nt:9,next:15234,nextCheck:40694,str:86,h:0,d0:0,d1:0;
+                                ("corridor a prophets active", Expression<String> @:15234 check:40694,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:32828,h:0,d0:18436,d1:12543;)))))))))

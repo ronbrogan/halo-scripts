@@ -1,0 +1,34 @@
+
+("ai_hall_a_const", MethodDecl<Void> @:220 op:0,dt:0,nt:65535,next:8801,str:27941,d0:0,d1:0;
+    (____, Scope<Void> @:8801 op:0,dt:4,nt:8,next:65535,str:30292,d0:8802,d1:34262;
+        ("begin", Expression<MethodOrOperator> @:8802 op:0,dt:2,nt:9,next:8771,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:8771 op:290,dt:4,nt:8,next:8774,str:30326,d0:8772,d1:34232;
+                ("ai_place", Expression<MethodOrOperator> @:8772 op:290,dt:2,nt:9,next:8773,str:1415,d0:0,d1:0;
+                    ("hall_a_con_ini", Expression<AI> @:8773 op:19,dt:19,nt:9,next:65535,str:18576,d0:5,d1:0;)))
+            (____, Scope<Void> @:8774 op:290,dt:4,nt:8,next:8777,str:30354,d0:8775,d1:34235;
+                ("ai_place", Expression<MethodOrOperator> @:8775 op:290,dt:2,nt:9,next:8776,str:1415,d0:0,d1:0;
+                    ("hall_a_con_bk", Expression<AI> @:8776 op:19,dt:19,nt:9,next:65535,str:18591,d0:6,d1:0;)))
+            (____, Scope<Void> @:8777 op:19,dt:4,nt:8,next:8780,str:30381,d0:8778,d1:34238;
+                ("sleep", Expression<MethodOrOperator> @:8778 op:19,dt:2,nt:9,next:8779,str:80,d0:0,d1:0;
+                    (30, Expression<Short> @:8779 op:7,dt:7,nt:9,next:65535,str:30388,d0:30,d1:65535;)))
+            (____, Scope<Void> @:8780 op:21,dt:4,nt:8,next:8788,str:30394,d0:8781,d1:34241;
+                ("sleep_until", Expression<MethodOrOperator> @:8781 op:21,dt:2,nt:9,next:8782,str:231,d0:0,d1:0;
+                    (____, Scope<Boolean> @:8782 op:16,dt:5,nt:8,next:65535,str:30407,d0:8783,d1:34243;
+                        ("<", Expression<MethodOrOperator> @:8783 op:16,dt:2,nt:9,next:8784,str:847,d0:0,d1:0;
+                            (-1.8538397E-35f, Scope<Float> @:8784 op:329,dt:6,nt:8,next:8787,str:30410,d0:8785,d1:34245;
+                                ("ai_strength", Expression<MethodOrOperator> @:8785 op:329,dt:2,nt:9,next:8786,str:17536,d0:0,d1:0;
+                                    ("hall_a_cons", Expression<AI> @:8786 op:19,dt:19,nt:9,next:65535,str:18605,d0:9,d1:16384;)))
+                            (0.8f, Expression<Float> @:8787 op:6,dt:6,nt:9,next:65535,str:30436,d0:52429,d1:16204;)))))
+            (____, Scope<Void> @:8788 op:19,dt:4,nt:8,next:8791,str:30444,d0:8789,d1:34249;
+                ("sleep", Expression<MethodOrOperator> @:8789 op:19,dt:2,nt:9,next:8790,str:80,d0:0,d1:0;
+                    (30, Expression<Short> @:8790 op:7,dt:7,nt:9,next:65535,str:30451,d0:30,d1:65535;)))
+            (____, Scope<Void> @:8791 op:2,dt:4,nt:8,next:8797,str:30457,d0:8792,d1:34252;
+                ("if", Expression<MethodOrOperator> @:8792 op:2,dt:2,nt:9,next:8793,str:456,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:8793 op:5,dt:5,nt:13,next:8794,str:11238,d0:3,d1:0;
+                        (____, Scope<Void> @:8794 op:27,dt:4,nt:8,next:65535,str:30467,d0:8795,d1:34255;
+                            ("print", Expression<MethodOrOperator> @:8795 op:27,dt:2,nt:9,next:8796,str:86,d0:0,d1:0;
+                                ("hall a constructors running away", Expression<String> @:8796 op:9,dt:9,nt:9,next:65535,str:18617,d0:18617,d1:0;))))))
+            (____, Scope<Void> @:8797 op:334,dt:4,nt:8,next:65535,str:30513,d0:8798,d1:34258;
+                ("ai_set_orders", Expression<MethodOrOperator> @:8798 op:334,dt:2,nt:9,next:8799,str:17159,d0:0,d1:0;
+                    ("constructors", Expression<AI> @:8799 op:19,dt:19,nt:9,next:8800,str:17508,d0:1,d1:16384;
+                        ("hall_a_runway", Expression<AIOrders> @:8800 op:23,dt:23,nt:9,next:65535,str:18650,d0:9,d1:0;)))))))

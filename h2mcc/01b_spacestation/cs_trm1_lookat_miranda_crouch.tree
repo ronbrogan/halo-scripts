@@ -1,0 +1,18 @@
+
+("cs_trm1_lookat_miranda_crouch", MethodDecl<Void> @:353 op:0,dt:0,nt:65535,next:16463,str:38242,d0:0,d1:0;
+    (____, Scope<Void> @:16463 op:0,dt:4,nt:8,next:65535,str:2691,d0:16464,d1:41924;
+        ("begin", Expression<MethodOrOperator> @:16464 op:0,dt:2,nt:9,next:16449,str:11,d0:0,d1:0;
+            (____, Scope<Void> @:16449 op:444,dt:4,nt:8,next:16452,str:2746,d0:16450,d1:41910;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:16450 op:444,dt:2,nt:9,next:16451,str:37929,d0:0,d1:0;
+                    (False, Expression<Boolean> @:16451 op:5,dt:5,nt:9,next:65535,str:2764,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:16452 op:423,dt:4,nt:8,next:16455,str:2769,d0:16453,d1:41913;
+                ("cs_crouch", Expression<MethodOrOperator> @:16453 op:423,dt:2,nt:9,next:16454,str:37946,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16454 op:5,dt:5,nt:9,next:65535,str:2780,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:16455 op:401,dt:4,nt:8,next:16461,str:2785,d0:16456,d1:41916;
+                ("cs_face_object", Expression<MethodOrOperator> @:16456 op:401,dt:2,nt:9,next:16457,str:31954,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16457 op:5,dt:5,nt:9,next:16458,str:2801,d0:65281,d1:65535;
+                        (____, Scope<Entity> @:16458 op:284,dt:50,nt:8,next:65535,str:2803,d0:16459,d1:41919;
+                            ("ai_get_object", Expression<MethodOrOperator> @:16459 op:284,dt:2,nt:9,next:16460,str:31886,d0:0,d1:0;
+                                ("trm1_hum_miranda", Expression<AI> @:16460 op:19,dt:19,nt:9,next:65535,str:37971,d0:78,d1:0;))))))
+            (____, Scope<Void> @:16461 op:20,dt:4,nt:8,next:65535,str:2839,d0:16462,d1:41922;
+                ("sleep_forever", Expression<MethodOrOperator> @:16462 op:20,dt:2,nt:9,next:65535,str:27349,d0:0,d1:0;)))))

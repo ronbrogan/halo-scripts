@@ -1,0 +1,37 @@
+
+("ai_corridor_b", MethodDecl<Void> @:372 check:0,op:0,dt:0,nt:65535,next:18475,nextCheck:43935,str:41373,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:18475 check:43935,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:8742,h:3,d0:18476,d1:43936;
+        ("begin", Expression<MethodOrOperator> @:18476 check:43936,op:0,dt:2,nt:9,next:18442,nextCheck:43902,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:18442 check:43902,op:2,dt:4,nt:8,next:18458,nextCheck:43918,str:8774,h:3,d0:18443,d1:43903;
+                ("if", Expression<MethodOrOperator> @:18443 check:43903,op:2,dt:2,nt:9,next:18444,nextCheck:43904,str:456,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:18444 check:43904,op:18,dt:5,nt:8,next:18455,nextCheck:43915,str:8778,h:3,d0:18445,d1:43905;
+                        ("<=", Expression<MethodOrOperator> @:18445 check:43905,op:18,dt:2,nt:9,next:18446,nextCheck:43906,str:21049,h:0,d0:0,d1:0;
+                            (-9.32811E-13f, Scope<Float> @:18446 check:43906,op:7,dt:6,nt:8,next:18454,nextCheck:43914,str:8782,h:3,d0:18447,d1:43907;
+                                ("+", Expression<MethodOrOperator> @:18447 check:43907,op:7,dt:2,nt:9,next:18448,nextCheck:43908,str:983,h:0,d0:0,d1:0;
+                                    (-9.470221E-13f, Scope<Float> @:18448 check:43908,op:327,dt:6,nt:8,next:18451,nextCheck:43911,str:8785,h:3,d0:18449,d1:43909;
+                                        ("ai_living_count", Expression<MethodOrOperator> @:18449 check:43909,op:327,dt:2,nt:9,next:18450,nextCheck:43910,str:19308,h:0,d0:0,d1:0;
+                                            ("corridor_b_prophets", Expression<AI> @:18450 check:43910,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36690,h:0,d0:34,d1:16384;)))
+                                    (-9.683387E-13f, Scope<Float> @:18451 check:43911,op:327,dt:6,nt:8,next:65535,nextCheck:65535,str:8823,h:3,d0:18452,d1:43912;
+                                        ("ai_living_count", Expression<MethodOrOperator> @:18452 check:43912,op:327,dt:2,nt:9,next:18453,nextCheck:43913,str:19308,h:0,d0:0,d1:0;
+                                            ("corridor_b_covenant", Expression<AI> @:18453 check:43913,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36710,h:0,d0:35,d1:16384;)))))
+                            (8f, Expression<Float> @:18454 check:43914,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:8862,h:3,d0:0,d1:16640;)))
+                    (____, Scope<Void> @:18455 check:43915,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:8865,h:3,d0:18456,d1:43916;
+                        ("ai_place", Expression<MethodOrOperator> @:18456 check:43916,op:290,dt:2,nt:9,next:18457,nextCheck:43917,str:14760,h:0,d0:0,d1:0;
+                            ("hall_c_elites", Expression<AI> @:18457 check:43917,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36730,h:0,d0:129,d1:0;)))))
+            (____, Scope<Void> @:18458 check:43918,op:290,dt:4,nt:8,next:18461,nextCheck:43921,str:8907,h:3,d0:18459,d1:43919;
+                ("ai_place", Expression<MethodOrOperator> @:18459 check:43919,op:290,dt:2,nt:9,next:18460,nextCheck:43920,str:14760,h:0,d0:0,d1:0;
+                    ("hall_c_buggers", Expression<AI> @:18460 check:43920,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36744,h:0,d0:130,d1:0;)))
+            (____, Scope<Void> @:18461 check:43921,op:19,dt:4,nt:8,next:18464,nextCheck:43924,str:8935,h:3,d0:18462,d1:43922;
+                ("sleep", Expression<MethodOrOperator> @:18462 check:43922,op:19,dt:2,nt:9,next:18463,nextCheck:43923,str:80,h:0,d0:0,d1:0;
+                    (1, Expression<Short> @:18463 check:43923,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:8942,h:3,d0:1,d1:65535;)))
+            (____, Scope<Void> @:18464 check:43924,op:21,dt:4,nt:8,next:18472,nextCheck:43932,str:8950,h:3,d0:18465,d1:43925;
+                ("sleep_until", Expression<MethodOrOperator> @:18465 check:43925,op:21,dt:2,nt:9,next:18466,nextCheck:43926,str:231,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:18466 check:43926,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:8963,h:3,d0:18467,d1:43927;
+                        ("<=", Expression<MethodOrOperator> @:18467 check:43927,op:18,dt:2,nt:9,next:18468,nextCheck:43928,str:21049,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:18468 check:43928,op:327,dt:7,nt:8,next:18471,nextCheck:43931,str:8967,h:3,d0:18469,d1:43929;
+                                ("ai_living_count", Expression<MethodOrOperator> @:18469 check:43929,op:327,dt:2,nt:9,next:18470,nextCheck:43930,str:19308,h:0,d0:0,d1:0;
+                                    ("corridor_b_prophets", Expression<AI> @:18470 check:43930,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36690,h:0,d0:34,d1:16384;)))
+                            (2, Expression<Short> @:18471 check:43931,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:9005,h:3,d0:2,d1:65535;)))))
+            (____, Scope<Void> @:18472 check:43932,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:9011,h:3,d0:18473,d1:43933;
+                ("ai_place", Expression<MethodOrOperator> @:18473 check:43933,op:290,dt:2,nt:9,next:18474,nextCheck:43934,str:14760,h:0,d0:0,d1:0;
+                    ("hall_c_brute_reins", Expression<AI> @:18474 check:43934,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36759,h:0,d0:131,d1:0;))))))

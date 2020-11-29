@@ -1,0 +1,16 @@
+
+("cs_lookat_console_zapper", MethodDecl<Void> @:32 check:0,op:0,dt:0,nt:65535,next:1075,nextCheck:59302,str:11993,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:1075 check:59302,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:11631,h:0,d0:1076,d1:59303;
+        ("begin", Expression<MethodOrOperator> @:1076 check:59303,op:0,dt:2,nt:9,next:1063,nextCheck:59290,str:11,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:1063 check:59290,op:393,dt:4,nt:8,next:1067,nextCheck:59294,str:11681,h:0,d0:1064,d1:59291;
+                ("cs_look", Expression<MethodOrOperator> @:1064 check:59291,op:393,dt:2,nt:9,next:1065,nextCheck:59292,str:1298,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:1065 check:59292,op:5,dt:5,nt:9,next:1066,nextCheck:59293,str:11690,h:0,d0:65281,d1:65535;
+                        ("guns_points/console_zapper", Expression<SpatialPoint> @:1066 check:59293,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:1306,h:0,d0:4,d1:0;))))
+            (____, Scope<Void> @:1067 check:59294,op:19,dt:4,nt:8,next:1070,nextCheck:59297,str:11722,h:0,d0:1068,d1:59295;
+                ("sleep", Expression<MethodOrOperator> @:1068 check:59295,op:19,dt:2,nt:9,next:1069,nextCheck:59296,str:90,h:0,d0:0,d1:0;
+                    (45, Expression<Short> @:1069 check:59296,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:11729,h:0,d0:45,d1:65535;)))
+            (____, Scope<Void> @:1070 check:59297,op:400,dt:4,nt:8,next:1073,nextCheck:59300,str:11735,h:0,d0:1071,d1:59298;
+                ("cs_face_player", Expression<MethodOrOperator> @:1071 check:59298,op:400,dt:2,nt:9,next:1072,nextCheck:59299,str:1194,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:1072 check:59299,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:11751,h:0,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:1073 check:59300,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:11756,h:0,d0:1074,d1:59301;
+                ("sleep_forever", Expression<MethodOrOperator> @:1074 check:59301,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:1209,h:0,d0:0,d1:0;)))))

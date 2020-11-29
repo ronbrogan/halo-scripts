@@ -1,0 +1,19 @@
+
+("e8_dia_unlock_a", MethodDecl<Void> @:140 check:0,op:0,dt:0,nt:65535,next:4050,nextCheck:62277,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:4050 check:62277,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:51329,h:0,d0:4051,d1:62278;
+        ("begin", Expression<MethodOrOperator> @:4051 check:62278,op:0,dt:2,nt:9,next:4035,nextCheck:62262,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:4035 check:62262,op:2,dt:4,nt:8,next:4041,nextCheck:62268,str:51363,h:0,d0:4036,d1:62263;
+                ("if", Expression<MethodOrOperator> @:4036 check:62263,op:2,dt:2,nt:9,next:4037,nextCheck:62264,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:4037 check:62264,op:5,dt:5,nt:13,next:4038,nextCheck:62265,str:10397,h:0,d0:3,d1:0;
+                        (____, Scope<Void> @:4038 check:62265,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:51376,h:0,d0:4039,d1:62266;
+                            ("print", Expression<MethodOrOperator> @:4039 check:62266,op:27,dt:2,nt:9,next:4040,nextCheck:62267,str:86,h:0,d0:0,d1:0;
+                                ("cortana: hang on. this will just take a minute.", Expression<String> @:4040 check:62267,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:11569,h:0,d0:45393,d1:11039;))))))
+            (____, Scope<Void> @:4041 check:62268,op:19,dt:4,nt:8,next:4047,nextCheck:62274,str:51437,h:0,d0:4042,d1:62269;
+                ("sleep", Expression<MethodOrOperator> @:4042 check:62269,op:19,dt:2,nt:9,next:4043,nextCheck:62270,str:80,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:4043 check:62270,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:51444,h:0,d0:4044,d1:62271;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4044 check:62271,op:362,dt:2,nt:9,next:4045,nextCheck:62272,str:10487,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:4045 check:62272,op:50,dt:50,nt:9,next:4046,nextCheck:62273,str:1386,h:0,d0:65535,d1:65535;
+                                ("2780", Expression<StringId> @:4046 check:62273,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:11617,h:0,d0:10347,d1:1024;))))))
+            (____, Scope<Void> @:4047 check:62274,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:51482,h:0,d0:4048,d1:62275;
+                ("sleep", Expression<MethodOrOperator> @:4048 check:62275,op:19,dt:2,nt:9,next:4049,nextCheck:62276,str:80,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:4049 check:62276,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:10515,h:0,d0:4,d1:0;))))))

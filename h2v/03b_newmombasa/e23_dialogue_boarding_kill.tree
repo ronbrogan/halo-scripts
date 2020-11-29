@@ -1,0 +1,22 @@
+
+("e23_dialogue_boarding_kill", MethodDecl<Void> @:261 check:0,op:0,dt:0,nt:65535,next:8311,nextCheck:33771,str:17906,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:8311 check:33771,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:39121,h:1,d0:8312,d1:33772;
+        ("begin", Expression<MethodOrOperator> @:8312 check:33772,op:0,dt:2,nt:9,next:8293,nextCheck:33753,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:8293 check:33753,op:21,dt:4,nt:8,next:8304,nextCheck:33764,str:39166,h:1,d0:8294,d1:33754;
+                ("sleep_until", Expression<MethodOrOperator> @:8294 check:33754,op:21,dt:2,nt:9,next:8295,nextCheck:33755,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:8295 check:33755,op:6,dt:5,nt:8,next:8303,nextCheck:33763,str:39183,h:1,d0:8296,d1:33756;
+                        ("or", Expression<MethodOrOperator> @:8296 check:33756,op:6,dt:2,nt:9,next:8297,nextCheck:33757,str:849,h:0,d0:0,d1:0;
+                            ("g_mission_over", VariableAccess<Boolean> @:8297 check:33757,op:5,dt:5,nt:13,next:8298,nextCheck:33758,str:17518,h:0,d0:3,d1:0;
+                                (____, Scope<Boolean> @:8298 check:33758,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:39210,h:1,d0:8299,d1:33759;
+                                    ("volume_test_objects", Expression<MethodOrOperator> @:8299 check:33759,op:33,dt:2,nt:9,next:8300,nextCheck:33760,str:13177,h:0,d0:0,d1:0;
+                                        ("tv_scarab", Expression<Trigger> @:8300 check:33760,op:13,dt:13,nt:9,next:8301,nextCheck:33761,str:13622,h:0,d0:84,d1:0;
+                                            (____, Scope<List> @:8301 check:33761,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:39241,h:1,d0:8302,d1:33762;
+                                                ("players", Expression<MethodOrOperator> @:8302 check:33762,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;))))))))
+                    (15, Expression<Short> @:8303 check:33763,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:39261,h:1,d0:15,d1:65535;)))
+            (____, Scope<Void> @:8304 check:33764,op:20,dt:4,nt:8,next:8307,nextCheck:33767,str:39307,h:1,d0:8305,d1:33765;
+                ("sleep_forever", Expression<MethodOrOperator> @:8305 check:33765,op:20,dt:2,nt:9,next:8306,nextCheck:33766,str:13911,h:0,d0:0,d1:0;
+                    ("e23_dialogue_boarding", Expression<ScriptReference> @:8306 check:33766,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:17533,h:0,d0:260,d1:65535;)))
+            (____, Scope<Void> @:8307 check:33767,op:644,dt:4,nt:8,next:65535,nextCheck:65535,str:39347,h:1,d0:8308,d1:33768;
+                ("deactivate_team_nav_point_object", Expression<MethodOrOperator> @:8308 check:33768,op:644,dt:2,nt:9,next:8309,nextCheck:33769,str:17555,h:0,d0:0,d1:0;
+                    ("player", Expression<Team> @:8309 check:33769,op:45,dt:45,nt:9,next:8310,nextCheck:33770,str:17511,h:0,d0:1,d1:65535;
+                        (4294901862, Expression<Entity> @:8310 check:33770,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:13888,h:0,d0:102,d1:65535;)))))))

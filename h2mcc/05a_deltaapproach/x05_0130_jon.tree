@@ -1,0 +1,25 @@
+
+("x05_0130_jon", MethodDecl<Void> @:70 op:0,dt:0,nt:65535,next:2175,str:5337,d0:0,d1:0;
+    (____, Scope<Void> @:2175 op:0,dt:4,nt:8,next:65535,str:25314,d0:2176,d1:60403;
+        ("begin", Expression<MethodOrOperator> @:2176 op:0,dt:2,nt:9,next:2154,str:54,d0:0,d1:0;
+            (____, Scope<Void> @:2154 op:19,dt:4,nt:8,next:2157,str:25345,d0:2155,d1:60382;
+                ("sleep", Expression<MethodOrOperator> @:2155 op:19,dt:2,nt:9,next:2156,str:133,d0:0,d1:0;
+                    (12, Expression<Short> @:2156 op:7,dt:7,nt:9,next:65535,str:25352,d0:12,d1:65535;)))
+            (____, Scope<Void> @:2157 op:596,dt:4,nt:8,next:2162,str:25358,d0:2158,d1:60385;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:2158 op:596,dt:2,nt:9,next:2159,str:1321,d0:0,d1:0;
+                    ("sound\dialog\levels\05_deltatemple\cinematics\x05_0130_jon", Expression<Sound> @:2159 op:32,dt:32,nt:9,next:2160,str:5278,d0:952,d1:58670;
+                        (4294901832, Expression<Entity> @:2160 op:56,dt:50,nt:9,next:2161,str:3267,d0:72,d1:65535;
+                            (1f, Expression<Float> @:2161 op:6,dt:6,nt:9,next:65535,str:25446,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:2162 op:562,dt:4,nt:8,next:2166,str:25451,d0:2163,d1:60390;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:2163 op:562,dt:2,nt:9,next:2164,str:2567,d0:0,d1:0;
+                    ("x05_0130_jon", Expression<StringId> @:2164 op:11,dt:11,nt:9,next:2165,str:5337,d0:5072,d1:3072;
+                        (1f, Expression<Float> @:2165 op:6,dt:6,nt:9,next:65535,str:25484,d0:0,d1:16256;))))
+            (____, Scope<Void> @:2166 op:220,dt:4,nt:8,next:2172,str:25492,d0:2167,d1:60394;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2167 op:220,dt:2,nt:9,next:2168,str:2599,d0:0,d1:0;
+                    ("johnson", Expression<Unit> @:2168 op:57,dt:51,nt:9,next:2169,str:3267,d0:72,d1:65535;
+                        ("shocked", Expression<StringId> @:2169 op:11,dt:11,nt:9,next:2170,str:2624,d0:426,d1:1792;
+                            (0.75f, Expression<Float> @:2170 op:6,dt:6,nt:9,next:2171,str:25534,d0:0,d1:16192;
+                                (10, Expression<Short> @:2171 op:7,dt:7,nt:9,next:65535,str:25538,d0:10,d1:65535;))))))
+            (____, Scope<Void> @:2172 op:27,dt:4,nt:8,next:65535,str:25544,d0:2173,d1:60400;
+                ("print", Expression<MethodOrOperator> @:2173 op:27,dt:2,nt:9,next:2174,str:139,d0:0,d1:0;
+                    ("johnson - shocked .75 10", Expression<String> @:2174 op:9,dt:9,nt:9,next:65535,str:5350,d0:5350,d1:0;))))))

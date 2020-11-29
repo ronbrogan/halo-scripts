@@ -1,0 +1,28 @@
+
+("cinematic_fade_to_black", MethodDecl<Void> @:13 op:0,dt:0,nt:65535,next:320,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:320 op:0,dt:4,nt:8,next:65535,str:2885,d0:321,d1:58548;
+        ("begin", Expression<MethodOrOperator> @:321 op:0,dt:2,nt:9,next:296,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:296 op:473,dt:4,nt:8,next:299,str:2955,d0:297,d1:58524;
+                ("player_enable_input", Expression<MethodOrOperator> @:297 op:473,dt:2,nt:9,next:298,str:466,d0:0,d1:0;
+                    (False, Expression<Boolean> @:298 op:5,dt:5,nt:9,next:65535,str:2976,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:299 op:477,dt:4,nt:8,next:302,str:2985,d0:300,d1:58527;
+                ("player_camera_control", Expression<MethodOrOperator> @:300 op:477,dt:2,nt:9,next:301,str:486,d0:0,d1:0;
+                    (False, Expression<Boolean> @:301 op:5,dt:5,nt:9,next:65535,str:3008,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:302 op:552,dt:4,nt:8,next:308,str:3032,d0:303,d1:58530;
+                ("fade_out", Expression<MethodOrOperator> @:303 op:552,dt:2,nt:9,next:304,str:71,d0:0,d1:0;
+                    (0f, Expression<Float> @:304 op:6,dt:6,nt:9,next:305,str:3042,d0:0,d1:0;
+                        (0f, Expression<Float> @:305 op:6,dt:6,nt:9,next:306,str:3044,d0:0,d1:0;
+                            (0f, Expression<Float> @:306 op:6,dt:6,nt:9,next:307,str:3046,d0:0,d1:0;
+                                (15, Expression<Short> @:307 op:7,dt:7,nt:9,next:65535,str:3048,d0:15,d1:65535;))))))
+            (____, Scope<Void> @:308 op:19,dt:4,nt:8,next:311,str:3054,d0:309,d1:58536;
+                ("sleep", Expression<MethodOrOperator> @:309 op:19,dt:2,nt:9,next:310,str:80,d0:0,d1:0;
+                    (15, Expression<Short> @:310 op:7,dt:7,nt:9,next:65535,str:3061,d0:15,d1:65535;)))
+            (____, Scope<Void> @:311 op:625,dt:4,nt:8,next:315,str:3109,d0:312,d1:58539;
+                ("hud_cinematic_fade", Expression<MethodOrOperator> @:312 op:625,dt:2,nt:9,next:313,str:508,d0:0,d1:0;
+                    (0f, Expression<Float> @:313 op:6,dt:6,nt:9,next:314,str:3129,d0:0,d1:0;
+                        (0.5f, Expression<Float> @:314 op:6,dt:6,nt:9,next:65535,str:3131,d0:0,d1:16128;))))
+            (____, Scope<Void> @:315 op:553,dt:4,nt:8,next:317,str:3138,d0:316,d1:58543;
+                ("cinematic_start", Expression<MethodOrOperator> @:316 op:553,dt:2,nt:9,next:65535,str:55,d0:0,d1:0;))
+            (____, Scope<Void> @:317 op:450,dt:4,nt:8,next:65535,str:3158,d0:318,d1:58545;
+                ("camera_control", Expression<MethodOrOperator> @:318 op:450,dt:2,nt:9,next:319,str:40,d0:0,d1:0;
+                    (True, Expression<Boolean> @:319 op:5,dt:5,nt:9,next:65535,str:3174,d0:65281,d1:65535;))))))

@@ -1,0 +1,17 @@
+
+("cs_cond_b_sen_tube_b", MethodDecl<Void> @:328 check:0,op:0,dt:0,nt:65535,next:16108,nextCheck:41568,str:25685,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:16108 check:41568,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:26802,h:2,d0:16109,d1:41569;
+        ("begin", Expression<MethodOrOperator> @:16109 check:41569,op:0,dt:2,nt:9,next:16095,nextCheck:41555,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:16095 check:41555,op:449,dt:4,nt:8,next:16098,nextCheck:41558,str:26848,h:2,d0:16096,d1:41556;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:16096 check:41556,op:449,dt:2,nt:9,next:16097,nextCheck:41557,str:1239,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16097 check:41557,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:26880,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:16098 check:41558,op:381,dt:4,nt:8,next:16102,nextCheck:41562,str:26922,h:2,d0:16099,d1:41559;
+                ("cs_fly_to_and_face", Expression<MethodOrOperator> @:16099 check:41559,op:381,dt:2,nt:9,next:16100,nextCheck:41560,str:17534,h:0,d0:0,d1:0;
+                    ("cond_b/p1", Expression<SpatialPoint> @:16100 check:41560,op:28,dt:28,nt:9,next:16101,nextCheck:41561,str:25554,h:0,d0:1,d1:7;
+                        ("cond_b/p2", Expression<SpatialPoint> @:16101 check:41561,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:25564,h:0,d0:2,d1:7;))))
+            (____, Scope<Void> @:16102 check:41562,op:379,dt:4,nt:8,next:16105,nextCheck:41565,str:26965,h:2,d0:16103,d1:41563;
+                ("cs_fly_to", Expression<MethodOrOperator> @:16103 check:41563,op:379,dt:2,nt:9,next:16104,nextCheck:41564,str:17849,h:0,d0:0,d1:0;
+                    ("cond_b/p2", Expression<SpatialPoint> @:16104 check:41564,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:25564,h:0,d0:2,d1:7;)))
+            (____, Scope<Void> @:16105 check:41565,op:379,dt:4,nt:8,next:65535,nextCheck:65535,str:26989,h:2,d0:16106,d1:41566;
+                ("cs_fly_to", Expression<MethodOrOperator> @:16106 check:41566,op:379,dt:2,nt:9,next:16107,nextCheck:41567,str:17849,h:0,d0:0,d1:0;
+                    ("cond_b/p3", Expression<SpatialPoint> @:16107 check:41567,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:25574,h:0,d0:3,d1:7;))))))

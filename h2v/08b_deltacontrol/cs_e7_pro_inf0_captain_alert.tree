@@ -1,0 +1,29 @@
+
+("cs_e7_pro_inf0_captain_alert", MethodDecl<Void> @:429 check:0,op:0,dt:0,nt:65535,next:16443,nextCheck:41903,str:34864,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:16443 check:41903,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:12002,h:3,d0:16444,d1:41904;
+        ("begin", Expression<MethodOrOperator> @:16444 check:41904,op:0,dt:2,nt:9,next:16418,nextCheck:41878,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:16418 check:41878,op:397,dt:4,nt:8,next:16421,nextCheck:41881,str:12079,h:3,d0:16419,d1:41879;
+                ("cs_aim_player", Expression<MethodOrOperator> @:16419 check:41879,op:397,dt:2,nt:9,next:16420,nextCheck:41880,str:34832,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16420 check:41880,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:12094,h:3,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:16421 check:41881,op:19,dt:4,nt:8,next:16424,nextCheck:41884,str:12102,h:3,d0:16422,d1:41882;
+                ("sleep", Expression<MethodOrOperator> @:16422 check:41882,op:19,dt:2,nt:9,next:16423,nextCheck:41883,str:85,h:0,d0:0,d1:0;
+                    (20, Expression<Short> @:16423 check:41883,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:12109,h:3,d0:20,d1:65535;)))
+            (____, Scope<Void> @:16424 check:41884,op:27,dt:4,nt:8,next:16427,nextCheck:41887,str:12115,h:3,d0:16425,d1:41885;
+                ("print", Expression<MethodOrOperator> @:16425 check:41885,op:27,dt:2,nt:9,next:16426,nextCheck:41886,str:91,h:0,d0:0,d1:0;
+                    ("cpn: elites!", Expression<String> @:16426 check:41886,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:34846,h:0,d0:28454,d1:12561;)))
+            (____, Scope<Void> @:16427 check:41887,op:19,dt:4,nt:8,next:16433,nextCheck:41893,str:12140,h:3,d0:16428,d1:41888;
+                ("sleep", Expression<MethodOrOperator> @:16428 check:41888,op:19,dt:2,nt:9,next:16429,nextCheck:41889,str:85,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:16429 check:41889,op:360,dt:7,nt:8,next:65535,nextCheck:65535,str:12147,h:3,d0:16430,d1:41890;
+                        ("ai_play_line", Expression<MethodOrOperator> @:16430 check:41890,op:360,dt:2,nt:9,next:16431,nextCheck:41891,str:27187,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:16431 check:41891,op:19,dt:19,nt:13,next:16432,nextCheck:41892,str:1271,h:0,d0:33564,d1:65535;
+                                ("0400", Expression<StringId> @:16432 check:41892,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:34859,h:0,d0:10443,d1:1024;))))))
+            (____, Scope<Void> @:16433 check:41893,op:4,dt:4,nt:8,next:16437,nextCheck:41897,str:12187,h:3,d0:16434,d1:41894;
+                ("set", Expression<MethodOrOperator> @:16434 check:41894,op:4,dt:2,nt:9,next:16435,nextCheck:41895,str:1888,h:0,d0:0,d1:0;
+                    ("g_e7_mars_johnson_go", VariableAccess<Boolean> @:16435 check:41895,op:65535,dt:5,nt:13,next:16436,nextCheck:41896,str:34572,h:0,d0:52,d1:0;
+                        (True, Expression<Boolean> @:16436 check:41896,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:12213,h:3,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:16437 check:41897,op:85,dt:4,nt:8,next:65535,nextCheck:65535,str:12221,h:3,d0:16438,d1:41898;
+                ("object_cannot_die", Expression<MethodOrOperator> @:16438 check:41898,op:85,dt:2,nt:9,next:16439,nextCheck:41899,str:5497,h:0,d0:0,d1:0;
+                    (____, Scope<Entity> @:16439 check:41899,op:284,dt:50,nt:8,next:16442,nextCheck:41902,str:12240,h:3,d0:16440,d1:41900;
+                        ("ai_get_object", Expression<MethodOrOperator> @:16440 check:41900,op:284,dt:2,nt:9,next:16441,nextCheck:41901,str:1422,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:16441 check:41901,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:1271,h:0,d0:33564,d1:65535;)))
+                    (False, Expression<Boolean> @:16442 check:41902,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:12273,h:3,d0:65280,d1:65535;))))))

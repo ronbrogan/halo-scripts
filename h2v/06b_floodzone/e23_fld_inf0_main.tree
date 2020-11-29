@@ -1,0 +1,34 @@
+
+("e23_fld_inf0_main", MethodDecl<Void> @:249 check:0,op:0,dt:0,nt:65535,next:11500,nextCheck:36960,str:23332,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:11500 check:36960,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1933,h:2,d0:11501,d1:36961;
+        ("begin", Expression<MethodOrOperator> @:11501 check:36961,op:0,dt:2,nt:9,next:11470,nextCheck:36930,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:11470 check:36930,op:21,dt:4,nt:8,next:11474,nextCheck:36934,str:1969,h:2,d0:11471,d1:36931;
+                ("sleep_until", Expression<MethodOrOperator> @:11471 check:36931,op:21,dt:2,nt:9,next:11472,nextCheck:36932,str:236,h:0,d0:0,d1:0;
+                    ("g_key_cruise_first_loadpoint", VariableAccess<Boolean> @:11472 check:36932,op:5,dt:5,nt:13,next:11473,nextCheck:36933,str:20265,h:0,d0:63,d1:0;
+                        (10, Expression<Short> @:11473 check:36933,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2011,h:2,d0:10,d1:65535;))))
+            (____, Scope<Void> @:11474 check:36934,op:290,dt:4,nt:8,next:11477,nextCheck:36937,str:2040,h:2,d0:11475,d1:36935;
+                ("ai_place", Expression<MethodOrOperator> @:11475 check:36935,op:290,dt:2,nt:9,next:11476,nextCheck:36936,str:16163,h:0,d0:0,d1:0;
+                    ("e23_fld_inf0", Expression<AI> @:11476 check:36936,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:23179,h:0,d0:62,d1:16384;)))
+            (____, Scope<Void> @:11477 check:36937,op:21,dt:4,nt:8,next:11481,nextCheck:36941,str:2108,h:2,d0:11478,d1:36938;
+                ("sleep_until", Expression<MethodOrOperator> @:11478 check:36938,op:21,dt:2,nt:9,next:11479,nextCheck:36939,str:236,h:0,d0:0,d1:0;
+                    ("g_key_cruise_halfway", VariableAccess<Boolean> @:11479 check:36939,op:5,dt:5,nt:13,next:11480,nextCheck:36940,str:20294,h:0,d0:64,d1:0;
+                        (10, Expression<Short> @:11480 check:36940,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2142,h:2,d0:10,d1:65535;))))
+            (____, Scope<Void> @:11481 check:36941,op:19,dt:4,nt:8,next:11484,nextCheck:36944,str:2148,h:2,d0:11482,d1:36942;
+                ("sleep", Expression<MethodOrOperator> @:11482 check:36942,op:19,dt:2,nt:9,next:11483,nextCheck:36943,str:85,h:0,d0:0,d1:0;
+                    (90, Expression<Short> @:11483 check:36943,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2155,h:2,d0:90,d1:65535;)))
+            (____, Scope<Void> @:11484 check:36944,op:334,dt:4,nt:8,next:11488,nextCheck:36948,str:2196,h:2,d0:11485,d1:36945;
+                ("ai_set_orders", Expression<MethodOrOperator> @:11485 check:36945,op:334,dt:2,nt:9,next:11486,nextCheck:36946,str:13885,h:0,d0:0,d1:0;
+                    ("e23_fld_inf0_0", Expression<AI> @:11486 check:36946,op:19,dt:19,nt:9,next:11487,nextCheck:36947,str:23192,h:0,d0:148,d1:0;
+                        ("e23_fld_inf0_engage", Expression<AIOrders> @:11487 check:36947,op:23,dt:23,nt:9,next:65535,nextCheck:65535,str:23207,h:0,d0:81,d1:0;))))
+            (____, Scope<Void> @:11488 check:36948,op:334,dt:4,nt:8,next:11492,nextCheck:36952,str:2249,h:2,d0:11489,d1:36949;
+                ("ai_set_orders", Expression<MethodOrOperator> @:11489 check:36949,op:334,dt:2,nt:9,next:11490,nextCheck:36950,str:13885,h:0,d0:0,d1:0;
+                    ("e23_fld_inf0_1", Expression<AI> @:11490 check:36950,op:19,dt:19,nt:9,next:11491,nextCheck:36951,str:23227,h:0,d0:149,d1:0;
+                        ("e23_fld_inf0_engage", Expression<AIOrders> @:11491 check:36951,op:23,dt:23,nt:9,next:65535,nextCheck:65535,str:23207,h:0,d0:81,d1:0;))))
+            (____, Scope<Void> @:11492 check:36952,op:366,dt:4,nt:8,next:11496,nextCheck:36956,str:2302,h:2,d0:11493,d1:36953;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:11493 check:36953,op:366,dt:2,nt:9,next:11494,nextCheck:36954,str:15285,h:0,d0:0,d1:0;
+                    ("e23_fld_inf0_0", Expression<AI> @:11494 check:36954,op:19,dt:19,nt:9,next:11495,nextCheck:36955,str:23192,h:0,d0:148,d1:0;
+                        ("cs_e23_fld_inf0_0_load", Expression<AIScript> @:11495 check:36955,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:23242,h:0,d0:245,d1:0;))))
+            (____, Scope<Void> @:11496 check:36956,op:366,dt:4,nt:8,next:65535,nextCheck:65535,str:2366,h:2,d0:11497,d1:36957;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:11497 check:36957,op:366,dt:2,nt:9,next:11498,nextCheck:36958,str:15285,h:0,d0:0,d1:0;
+                    ("e23_fld_inf0_1", Expression<AI> @:11498 check:36958,op:19,dt:19,nt:9,next:11499,nextCheck:36959,str:23227,h:0,d0:149,d1:0;
+                        ("cs_e23_fld_inf0_1_load", Expression<AIScript> @:11499 check:36959,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:23265,h:0,d0:246,d1:0;)))))))

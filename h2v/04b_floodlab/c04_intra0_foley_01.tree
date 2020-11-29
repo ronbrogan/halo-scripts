@@ -1,0 +1,15 @@
+
+("c04_intra0_foley_01", MethodDecl<Void> @:33 check:0,op:0,dt:0,nt:65535,next:825,nextCheck:59052,str:2401,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:825 check:59052,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9638,h:0,d0:826,d1:59053;
+        ("begin", Expression<MethodOrOperator> @:826 check:59053,op:0,dt:2,nt:9,next:814,nextCheck:59041,str:210,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:814 check:59041,op:19,dt:4,nt:8,next:817,nextCheck:59044,str:9676,h:0,d0:815,d1:59042;
+                ("sleep", Expression<MethodOrOperator> @:815 check:59042,op:19,dt:2,nt:9,next:816,nextCheck:59043,str:289,h:0,d0:0,d1:0;
+                    (0, Expression<Short> @:816 check:59043,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:9683,h:0,d0:0,d1:65535;)))
+            (____, Scope<Void> @:817 check:59044,op:596,dt:4,nt:8,next:822,nextCheck:59049,str:9688,h:0,d0:818,d1:59045;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:818 check:59045,op:596,dt:2,nt:9,next:819,nextCheck:59046,str:1435,h:0,d0:0,d1:0;
+                    ("sound\cinematics\04_alphagas\c04_intra0\foley\c04_intra0_01_fol", Expression<Sound> @:819 check:59046,op:32,dt:32,nt:9,next:820,nextCheck:59047,str:1545,h:0,d0:1105,d1:58823;
+                        (4294967295, Expression<Entity> @:820 check:59047,op:50,dt:50,nt:9,next:821,nextCheck:59048,str:137,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:821 check:59048,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:9778,h:0,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:822 check:59049,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:9783,h:0,d0:823,d1:59050;
+                ("print", Expression<MethodOrOperator> @:823 check:59050,op:27,dt:2,nt:9,next:824,nextCheck:59051,str:295,h:0,d0:0,d1:0;
+                    ("c04_intra1 foley 01 start", Expression<String> @:824 check:59051,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:1609,h:0,d0:55633,d1:10911;))))))

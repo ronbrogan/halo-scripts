@@ -1,0 +1,17 @@
+
+("e9_retreat_checkpoint1", MethodDecl<Void> @:259 check:0,op:0,dt:0,nt:65535,next:9593,nextCheck:35053,str:18796,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:9593 check:35053,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:52010,h:1,d0:9594,d1:35054;
+        ("begin", Expression<MethodOrOperator> @:9594 check:35054,op:0,dt:2,nt:9,next:9580,nextCheck:35040,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:9580 check:35040,op:20,dt:4,nt:8,next:9583,nextCheck:35043,str:52051,h:1,d0:9581,d1:35041;
+                ("sleep_forever", Expression<MethodOrOperator> @:9581 check:35041,op:20,dt:2,nt:9,next:9582,nextCheck:35042,str:10045,h:0,d0:0,d1:0;
+                    ("e9_retreat_checkpoint0", Expression<ScriptReference> @:9582 check:35042,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:18085,h:0,d0:258,d1:65535;)))
+            (____, Scope<Void> @:9583 check:35043,op:21,dt:4,nt:8,next:9591,nextCheck:35051,str:52092,h:1,d0:9584,d1:35044;
+                ("sleep_until", Expression<MethodOrOperator> @:9584 check:35044,op:21,dt:2,nt:9,next:9585,nextCheck:35045,str:294,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:9585 check:35045,op:33,dt:5,nt:8,next:9590,nextCheck:35050,str:52105,h:1,d0:9586,d1:35046;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:9586 check:35046,op:33,dt:2,nt:9,next:9587,nextCheck:35047,str:10884,h:0,d0:0,d1:0;
+                            ("tv_e9_retreat_checkpoint", Expression<Trigger> @:9587 check:35047,op:13,dt:13,nt:9,next:9588,nextCheck:35048,str:18060,h:0,d0:106,d1:0;
+                                (____, Scope<List> @:9588 check:35048,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:52151,h:1,d0:9589,d1:35049;
+                                    ("players", Expression<MethodOrOperator> @:9589 check:35049,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:84,h:0,d0:0,d1:0;)))))
+                    ("30_seconds", VariableAccess<Short> @:9590 check:35050,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:14853,h:0,d0:5,d1:0;)))
+            (____, Scope<Void> @:9591 check:35051,op:587,dt:4,nt:8,next:65535,nextCheck:65535,str:52176,h:1,d0:9592,d1:35052;
+                ("game_save", Expression<MethodOrOperator> @:9592 check:35052,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:13008,h:0,d0:0,d1:0;)))))

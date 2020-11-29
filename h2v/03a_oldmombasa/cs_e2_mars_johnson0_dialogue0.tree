@@ -1,0 +1,21 @@
+
+("cs_e2_mars_johnson0_dialogue0", MethodDecl<Void> @:368 check:0,op:0,dt:0,nt:65535,next:15099,nextCheck:40559,str:25039,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:15099 check:40559,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:55013,h:2,d0:15100,d1:40560;
+        ("begin", Expression<MethodOrOperator> @:15100 check:40560,op:0,dt:2,nt:9,next:15082,nextCheck:40542,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:15082 check:40542,op:201,dt:4,nt:8,next:15090,nextCheck:40550,str:55068,h:2,d0:15083,d1:40543;
+                ("custom_animation", Expression<MethodOrOperator> @:15083 check:40543,op:201,dt:2,nt:9,next:15084,nextCheck:40544,str:23668,h:0,d0:0,d1:0;
+                    (____, Scope<Unit> @:15084 check:40544,op:285,dt:51,nt:8,next:15087,nextCheck:40547,str:55086,h:2,d0:15085,d1:40545;
+                        ("ai_get_unit", Expression<MethodOrOperator> @:15085 check:40545,op:285,dt:2,nt:9,next:15086,nextCheck:40546,str:12527,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:15086 check:40546,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4311,h:0,d0:33564,d1:65535;)))
+                    ("objects\characters\marine\marine", Expression<Animation> @:15087 check:40547,op:36,dt:36,nt:9,next:15088,nextCheck:40548,str:23685,h:0,d0:799,d1:58517;
+                        ("combat:rifle:hold", Expression<StringId> @:15088 check:40548,op:11,dt:11,nt:9,next:15089,nextCheck:40549,str:24819,h:0,d0:3933,d1:4352;
+                            (True, Expression<Boolean> @:15089 check:40549,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:55172,h:2,d0:65281,d1:65535;)))))
+            (____, Scope<Void> @:15090 check:40550,op:19,dt:4,nt:8,next:15093,nextCheck:40553,str:55180,h:2,d0:15091,d1:40551;
+                ("sleep", Expression<MethodOrOperator> @:15091 check:40551,op:19,dt:2,nt:9,next:15092,nextCheck:40552,str:143,h:0,d0:0,d1:0;
+                    (10, Expression<Short> @:15092 check:40552,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55187,h:2,d0:10,d1:65535;)))
+            (____, Scope<Void> @:15093 check:40553,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:55193,h:2,d0:15094,d1:40554;
+                ("sleep", Expression<MethodOrOperator> @:15094 check:40554,op:19,dt:2,nt:9,next:15095,nextCheck:40555,str:143,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:15095 check:40555,op:360,dt:7,nt:8,next:65535,nextCheck:65535,str:55200,h:2,d0:15096,d1:40556;
+                        ("ai_play_line", Expression<MethodOrOperator> @:15096 check:40556,op:360,dt:2,nt:9,next:15097,nextCheck:40557,str:23201,h:0,d0:0,d1:0;
+                            ("e2_mars_johnson", Expression<AI> @:15097 check:40557,op:19,dt:19,nt:9,next:15098,nextCheck:40558,str:24124,h:0,d0:29,d1:0;
+                                ("0930", Expression<StringId> @:15098 check:40558,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:24837,h:0,d0:10392,d1:1024;)))))))))

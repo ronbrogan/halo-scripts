@@ -1,0 +1,16 @@
+
+("music_03a_02_stop", MethodDecl<Void> @:137 check:0,op:0,dt:0,nt:65535,next:4899,nextCheck:63126,str:24405,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:4899 check:63126,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:53690,h:0,d0:4900,d1:63127;
+        ("begin", Expression<MethodOrOperator> @:4900 check:63127,op:0,dt:2,nt:9,next:4887,nextCheck:63114,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:4887 check:63114,op:19,dt:4,nt:8,next:4890,nextCheck:63117,str:53799,h:0,d0:4888,d1:63115;
+                ("sleep", Expression<MethodOrOperator> @:4888 check:63115,op:19,dt:2,nt:9,next:4889,nextCheck:63116,str:143,h:0,d0:0,d1:0;
+                    ("one_minute", VariableAccess<Short> @:4889 check:63116,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:10016,h:0,d0:7,d1:0;)))
+            (____, Scope<Void> @:4890 check:63117,op:27,dt:4,nt:8,next:4893,nextCheck:63120,str:53857,h:0,d0:4891,d1:63118;
+                ("print", Expression<MethodOrOperator> @:4891 check:63118,op:27,dt:2,nt:9,next:4892,nextCheck:63119,str:149,h:0,d0:0,d1:0;
+                    ("music 03a_02 stop", Expression<String> @:4892 check:63119,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:10027,h:0,d0:37619,d1:12404;)))
+            (____, Scope<Void> @:4893 check:63120,op:606,dt:4,nt:8,next:4896,nextCheck:63123,str:53887,h:0,d0:4894,d1:63121;
+                ("sound_looping_stop", Expression<MethodOrOperator> @:4894 check:63121,op:606,dt:2,nt:9,next:4895,nextCheck:63122,str:9888,h:0,d0:0,d1:0;
+                    ("scenarios\solo\03a_oldmombasa\03a_music\03a_02", Expression<LoopingSound> @:4895 check:63122,op:35,dt:35,nt:9,next:65535,nextCheck:65535,str:9969,h:0,d0:7171,d1:65078;)))
+            (____, Scope<Void> @:4896 check:63123,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:54007,h:0,d0:4897,d1:63124;
+                ("sleep_forever", Expression<MethodOrOperator> @:4897 check:63124,op:20,dt:2,nt:9,next:4898,nextCheck:63125,str:10045,h:0,d0:0,d1:0;
+                    ("music_03a_02_stop_alt", Expression<ScriptReference> @:4898 check:63125,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:10059,h:0,d0:136,d1:65535;))))))

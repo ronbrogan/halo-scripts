@@ -1,0 +1,44 @@
+
+("c03_intra1_problem_actors", MethodDecl<Void> @:47 check:0,op:0,dt:0,nt:65535,next:1160,nextCheck:59387,str:2762,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:1160 check:59387,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:13390,h:0,d0:1161,d1:59388;
+        ("begin", Expression<MethodOrOperator> @:1161 check:59388,op:0,dt:2,nt:9,next:1120,nextCheck:59347,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:1120 check:59347,op:27,dt:4,nt:8,next:1123,nextCheck:59350,str:13437,h:0,d0:1121,d1:59348;
+                ("print", Expression<MethodOrOperator> @:1121 check:59348,op:27,dt:2,nt:9,next:1122,nextCheck:59349,str:91,h:0,d0:0,d1:0;
+                    ("problem actors", Expression<String> @:1122 check:59349,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:2364,h:0,d0:46836,d1:12462;)))
+            (____, Scope<Void> @:1123 check:59350,op:48,dt:4,nt:8,next:1126,nextCheck:59353,str:13464,h:0,d0:1124,d1:59351;
+                ("object_create_anew", Expression<MethodOrOperator> @:1124 check:59351,op:48,dt:2,nt:9,next:1125,nextCheck:59352,str:2379,h:0,d0:0,d1:0;
+                    ("marine_01", Expression<EntityIdentifier> @:1125 check:59352,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:1624,h:0,d0:84,d1:65535;)))
+            (____, Scope<Void> @:1126 check:59353,op:48,dt:4,nt:8,next:1129,nextCheck:59356,str:13497,h:0,d0:1127,d1:59354;
+                ("object_create_anew", Expression<MethodOrOperator> @:1127 check:59354,op:48,dt:2,nt:9,next:1128,nextCheck:59355,str:2379,h:0,d0:0,d1:0;
+                    ("marine_02", Expression<EntityIdentifier> @:1128 check:59355,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:1721,h:0,d0:83,d1:65535;)))
+            (____, Scope<Void> @:1129 check:59356,op:48,dt:4,nt:8,next:1132,nextCheck:59359,str:13530,h:0,d0:1130,d1:59357;
+                ("object_create_anew", Expression<MethodOrOperator> @:1130 check:59357,op:48,dt:2,nt:9,next:1131,nextCheck:59358,str:2379,h:0,d0:0,d1:0;
+                    ("rifle_02", Expression<EntityIdentifier> @:1131 check:59358,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:2336,h:0,d0:29,d1:65535;)))
+            (____, Scope<Void> @:1132 check:59359,op:48,dt:4,nt:8,next:1135,nextCheck:59362,str:13562,h:0,d0:1133,d1:59360;
+                ("object_create_anew", Expression<MethodOrOperator> @:1133 check:59360,op:48,dt:2,nt:9,next:1134,nextCheck:59361,str:2379,h:0,d0:0,d1:0;
+                    ("rifle_03", Expression<EntityIdentifier> @:1134 check:59361,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:2345,h:0,d0:28,d1:65535;)))
+            (____, Scope<Void> @:1135 check:59362,op:92,dt:4,nt:8,next:1139,nextCheck:59366,str:13597,h:0,d0:1136,d1:59363;
+                ("object_cinematic_lod", Expression<MethodOrOperator> @:1136 check:59363,op:92,dt:2,nt:9,next:1137,nextCheck:59364,str:2398,h:0,d0:0,d1:0;
+                    (4294901844, Expression<Entity> @:1137 check:59364,op:56,dt:50,nt:9,next:1138,nextCheck:59365,str:1624,h:0,d0:84,d1:65535;
+                        (True, Expression<Boolean> @:1138 check:59365,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:13629,h:0,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:1139 check:59366,op:92,dt:4,nt:8,next:1143,nextCheck:59370,str:13637,h:0,d0:1140,d1:59367;
+                ("object_cinematic_lod", Expression<MethodOrOperator> @:1140 check:59367,op:92,dt:2,nt:9,next:1141,nextCheck:59368,str:2398,h:0,d0:0,d1:0;
+                    (4294901843, Expression<Entity> @:1141 check:59368,op:56,dt:50,nt:9,next:1142,nextCheck:59369,str:1721,h:0,d0:83,d1:65535;
+                        (True, Expression<Boolean> @:1142 check:59369,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:13669,h:0,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:1143 check:59370,op:74,dt:4,nt:8,next:1149,nextCheck:59376,str:13679,h:0,d0:1144,d1:59371;
+                ("objects_attach", Expression<MethodOrOperator> @:1144 check:59371,op:74,dt:2,nt:9,next:1145,nextCheck:59372,str:2419,h:0,d0:0,d1:0;
+                    (4294901844, Expression<Entity> @:1145 check:59372,op:56,dt:50,nt:9,next:1146,nextCheck:59373,str:1624,h:0,d0:84,d1:65535;
+                        ("right hand", Expression<StringId> @:1146 check:59373,op:11,dt:11,nt:9,next:1147,nextCheck:59374,str:2434,h:0,d0:1942,d1:2560;
+                            (4294901789, Expression<Entity> @:1147 check:59374,op:56,dt:50,nt:9,next:1148,nextCheck:59375,str:2336,h:0,d0:29,d1:65535;
+                                (0, Expression<StringId> @:1148 check:59375,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:0,h:0,d0:0,d1:0;))))))
+            (____, Scope<Void> @:1149 check:59376,op:74,dt:4,nt:8,next:1155,nextCheck:59382,str:13733,h:0,d0:1150,d1:59377;
+                ("objects_attach", Expression<MethodOrOperator> @:1150 check:59377,op:74,dt:2,nt:9,next:1151,nextCheck:59378,str:2419,h:0,d0:0,d1:0;
+                    (4294901843, Expression<Entity> @:1151 check:59378,op:56,dt:50,nt:9,next:1152,nextCheck:59379,str:1721,h:0,d0:83,d1:65535;
+                        ("right hand", Expression<StringId> @:1152 check:59379,op:11,dt:11,nt:9,next:1153,nextCheck:59380,str:2434,h:0,d0:1942,d1:2560;
+                            (4294901788, Expression<Entity> @:1153 check:59380,op:56,dt:50,nt:9,next:1154,nextCheck:59381,str:2345,h:0,d0:28,d1:65535;
+                                (0, Expression<StringId> @:1154 check:59381,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:0,h:0,d0:0,d1:0;))))))
+            (____, Scope<Void> @:1155 check:59382,op:110,dt:4,nt:8,next:65535,nextCheck:65535,str:13787,h:0,d0:1156,d1:59383;
+                ("object_set_permutation", Expression<MethodOrOperator> @:1156 check:59383,op:110,dt:2,nt:9,next:1157,nextCheck:59384,str:2445,h:0,d0:0,d1:0;
+                    (4294901843, Expression<Entity> @:1157 check:59384,op:56,dt:50,nt:9,next:1158,nextCheck:59385,str:1721,h:0,d0:83,d1:65535;
+                        ("head", Expression<StringId> @:1158 check:59385,op:11,dt:11,nt:9,next:1159,nextCheck:59386,str:2468,h:0,d0:149,d1:1024;
+                            ("michelle", Expression<StringId> @:1159 check:59386,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:2473,h:0,d0:4722,d1:2048;))))))))

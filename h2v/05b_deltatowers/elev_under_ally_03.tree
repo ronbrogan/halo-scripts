@@ -1,0 +1,16 @@
+
+("elev_under_ally_03", MethodDecl<Void> @:200 check:0,op:0,dt:0,nt:65535,next:9439,nextCheck:34899,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:9439 check:34899,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:39344,h:1,d0:9440,d1:34900;
+        ("begin", Expression<MethodOrOperator> @:9440 check:34900,op:0,dt:2,nt:9,next:9427,nextCheck:34887,str:142,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:9427 check:34887,op:374,dt:4,nt:8,next:9430,nextCheck:34890,str:39388,h:1,d0:9428,d1:34888;
+                ("cs_switch", Expression<MethodOrOperator> @:9428 check:34888,op:374,dt:2,nt:9,next:9429,nextCheck:34889,str:12783,h:0,d0:0,d1:0;
+                    ("ally", Expression<StringId> @:9429 check:34889,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:15429,h:0,d0:10093,d1:1024;)))
+            (____, Scope<Void> @:9430 check:34890,op:440,dt:4,nt:8,next:9433,nextCheck:34893,str:39407,h:1,d0:9431,d1:34891;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:9431 check:34891,op:440,dt:2,nt:9,next:9432,nextCheck:34892,str:12800,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:9432 check:34892,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:39427,h:1,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:9433 check:34893,op:27,dt:4,nt:8,next:9436,nextCheck:34896,str:39435,h:1,d0:9434,d1:34894;
+                ("print", Expression<MethodOrOperator> @:9434 check:34894,op:27,dt:2,nt:9,next:9435,nextCheck:34895,str:227,h:0,d0:0,d1:0;
+                    ("ally: 'you think that glass is bulletproof?'", Expression<String> @:9435 check:34895,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:19053,h:0,d0:34085,d1:11074;)))
+            (____, Scope<Void> @:9436 check:34896,op:418,dt:4,nt:8,next:65535,nextCheck:65535,str:39492,h:1,d0:9437,d1:34897;
+                ("cs_play_line", Expression<MethodOrOperator> @:9437 check:34897,op:418,dt:2,nt:9,next:9438,nextCheck:34898,str:12842,h:0,d0:0,d1:0;
+                    ("1080", Expression<StringId> @:9438 check:34898,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:19098,h:0,d0:9832,d1:1024;))))))

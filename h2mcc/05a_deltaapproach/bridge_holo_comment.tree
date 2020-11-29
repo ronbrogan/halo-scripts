@@ -1,0 +1,35 @@
+
+("bridge_holo_comment", MethodDecl<Void> @:243 op:0,dt:0,nt:65535,next:11037,str:21705,d0:0,d1:0;
+    (____, Scope<Void> @:11037 op:0,dt:4,nt:8,next:65535,str:65144,d0:11038,d1:36498;
+        ("begin", Expression<MethodOrOperator> @:11038 op:0,dt:2,nt:9,next:11006,str:54,d0:0,d1:0;
+            (____, Scope<Void> @:11006 op:4,dt:4,nt:8,next:11010,str:65189,d0:11007,d1:36467;
+                ("set", Expression<MethodOrOperator> @:11007 op:4,dt:2,nt:9,next:11008,str:1895,d0:0,d1:0;
+                    ("regret_ally_comment_go", VariableAccess<Boolean> @:11008 op:65535,dt:5,nt:13,next:11009,str:21244,d0:16,d1:0;
+                        (True, Expression<Boolean> @:11009 op:5,dt:5,nt:9,next:65535,str:65217,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:11010 op:374,dt:4,nt:8,next:11013,str:65225,d0:11011,d1:36471;
+                ("cs_switch", Expression<MethodOrOperator> @:11011 op:374,dt:2,nt:9,next:11012,str:15425,d0:0,d1:0;
+                    ("bridge_marine", Expression<StringId> @:11012 op:11,dt:11,nt:9,next:65535,str:21267,d0:12406,d1:3328;)))
+            (____, Scope<Void> @:11013 op:449,dt:4,nt:8,next:11016,str:65253,d0:11014,d1:36474;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:11014 op:449,dt:2,nt:9,next:11015,str:15268,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11015 op:5,dt:5,nt:9,next:65535,str:65285,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:11016 op:440,dt:4,nt:8,next:11019,str:65293,d0:11017,d1:36477;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:11017 op:440,dt:2,nt:9,next:11018,str:15443,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11018 op:5,dt:5,nt:9,next:65535,str:65313,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:11019 op:27,dt:4,nt:8,next:11022,str:65321,d0:11020,d1:36480;
+                ("print", Expression<MethodOrOperator> @:11020 op:27,dt:2,nt:9,next:11021,str:139,d0:0,d1:0;
+                    ("marine: 'isn't that our target?'", Expression<String> @:11021 op:9,dt:9,nt:9,next:65535,str:21281,d0:21281,d1:0;)))
+            (____, Scope<Void> @:11022 op:418,dt:4,nt:8,next:11025,str:65366,d0:11023,d1:36483;
+                ("cs_play_line", Expression<MethodOrOperator> @:11023 op:418,dt:2,nt:9,next:11024,str:15491,d0:0,d1:0;
+                    ("0060", Expression<StringId> @:11024 op:11,dt:11,nt:9,next:65535,str:21314,d0:12019,d1:1024;)))
+            (____, Scope<Void> @:11025 op:19,dt:4,nt:8,next:11028,str:65388,d0:11026,d1:36486;
+                ("sleep", Expression<MethodOrOperator> @:11026 op:19,dt:2,nt:9,next:11027,str:133,d0:0,d1:0;
+                    (30, Expression<Short> @:11027 op:7,dt:7,nt:9,next:65535,str:65395,d0:30,d1:65535;)))
+            (____, Scope<Void> @:11028 op:27,dt:4,nt:8,next:11031,str:65401,d0:11029,d1:36489;
+                ("print", Expression<MethodOrOperator> @:11029 op:27,dt:2,nt:9,next:11030,str:139,d0:0,d1:0;
+                    ("marine: 'what's he doing?  giving a speech?'", Expression<String> @:11030 op:9,dt:9,nt:9,next:65535,str:21319,d0:21319,d1:0;)))
+            (____, Scope<Void> @:11031 op:418,dt:4,nt:8,next:11034,str:65458,d0:11032,d1:36492;
+                ("cs_play_line", Expression<MethodOrOperator> @:11032 op:418,dt:2,nt:9,next:11033,str:15491,d0:0,d1:0;
+                    ("0070", Expression<StringId> @:11033 op:11,dt:11,nt:9,next:65535,str:21364,d0:12020,d1:1024;)))
+            (____, Scope<Void> @:11034 op:22,dt:4,nt:8,next:65535,str:65480,d0:11035,d1:36495;
+                ("wake", Expression<MethodOrOperator> @:11035 op:22,dt:2,nt:9,next:11036,str:1119,d0:0,d1:0;
+                    ("bridge_cortana_response", Expression<ScriptReference> @:11036 op:10,dt:10,nt:9,next:65535,str:21369,d0:242,d1:65535;))))))

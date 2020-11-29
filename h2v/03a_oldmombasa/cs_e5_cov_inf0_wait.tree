@@ -1,0 +1,20 @@
+
+("cs_e5_cov_inf0_wait", MethodDecl<Void> @:319 check:0,op:0,dt:0,nt:65535,next:12439,nextCheck:37899,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:12439 check:37899,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:23796,h:2,d0:12440,d1:37900;
+        ("begin", Expression<MethodOrOperator> @:12440 check:37900,op:0,dt:2,nt:9,next:12423,nextCheck:37883,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:12423 check:37883,op:440,dt:4,nt:8,next:12426,nextCheck:37886,str:23841,h:2,d0:12424,d1:37884;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:12424 check:37884,op:440,dt:2,nt:9,next:12425,nextCheck:37885,str:14820,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:12425 check:37885,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:23861,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:12426 check:37886,op:441,dt:4,nt:8,next:12429,nextCheck:37889,str:23869,h:2,d0:12427,d1:37887;
+                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:12427 check:37887,op:441,dt:2,nt:9,next:12428,nextCheck:37888,str:13523,h:0,d0:0,d1:0;
+                    ("ai_combat_status_clear_los", VariableAccess<Short> @:12428 check:37888,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:13715,h:0,d0:33579,d1:65535;)))
+            (____, Scope<Void> @:12429 check:37889,op:423,dt:4,nt:8,next:12432,nextCheck:37892,str:23926,h:2,d0:12430,d1:37890;
+                ("cs_crouch", Expression<MethodOrOperator> @:12430 check:37890,op:423,dt:2,nt:9,next:12431,nextCheck:37891,str:17700,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:12431 check:37891,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:23937,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:12432 check:37892,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:23945,h:2,d0:12433,d1:37893;
+                ("sleep_until", Expression<MethodOrOperator> @:12433 check:37893,op:21,dt:2,nt:9,next:12434,nextCheck:37894,str:294,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:12434 check:37894,op:337,dt:5,nt:8,next:12438,nextCheck:37898,str:23958,h:2,d0:12435,d1:37895;
+                        ("ai_trigger_test", Expression<MethodOrOperator> @:12435 check:37895,op:337,dt:2,nt:9,next:12436,nextCheck:37896,str:21712,h:0,d0:0,d1:0;
+                            ("e5_cov_inf0_ambush_sprung", Expression<String> @:12436 check:37896,op:9,dt:9,nt:9,next:12437,nextCheck:37897,str:21728,h:0,d0:49320,d1:12404;
+                                ("ai_current_squad", VariableAccess<AI> @:12437 check:37897,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:11903,h:0,d0:33563,d1:65535;))))
+                    (5, Expression<Short> @:12438 check:37898,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:24019,h:2,d0:5,d1:65535;))))))

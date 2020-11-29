@@ -1,0 +1,17 @@
+
+("e3_objective_failsafe", MethodDecl<Void> @:487 op:0,dt:0,nt:65535,next:19564,str:39037,d0:0,d1:0;
+    (____, Scope<Void> @:19564 op:0,dt:4,nt:8,next:65535,str:59435,d0:19565,d1:45025;
+        ("begin", Expression<MethodOrOperator> @:19565 op:0,dt:2,nt:9,next:19551,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:19551 op:21,dt:4,nt:8,next:19561,str:59475,d0:19552,d1:45012;
+                ("sleep_until", Expression<MethodOrOperator> @:19552 op:21,dt:2,nt:9,next:19553,str:236,d0:0,d1:0;
+                    (____, Scope<Boolean> @:19553 op:15,dt:5,nt:8,next:19559,str:59491,d0:19554,d1:45014;
+                        (">", Expression<MethodOrOperator> @:19554 op:15,dt:2,nt:9,next:19555,str:2516,d0:0,d1:0;
+                            (-3.934445E-10f, Scope<Float> @:19555 op:257,dt:6,nt:8,next:19558,str:59494,d0:19556,d1:45016;
+                                ("device_get_position", Expression<MethodOrOperator> @:19556 op:257,dt:2,nt:9,next:19557,str:5946,d0:0,d1:0;
+                                    ("e2_exit_door", Expression<Device> @:19557 op:60,dt:54,nt:9,next:65535,str:38504,d0:107,d1:65535;)))
+                            (0f, Expression<Float> @:19558 op:6,dt:6,nt:9,next:65535,str:59529,d0:0,d1:0;)))
+                    (5, Expression<Short> @:19559 op:7,dt:7,nt:9,next:19560,str:59535,d0:5,d1:65535;
+                        (30, Expression<Int> @:19560 op:8,dt:8,nt:9,next:65535,str:59540,d0:30,d1:0;))))
+            (____, Scope<Void> @:19561 op:22,dt:4,nt:8,next:65535,str:59549,d0:19562,d1:45022;
+                ("wake", Expression<MethodOrOperator> @:19562 op:22,dt:2,nt:9,next:19563,str:5851,d0:0,d1:0;
+                    ("objective1_set", Expression<ScriptReference> @:19563 op:10,dt:10,nt:9,next:65535,str:38772,d0:275,d1:65535;))))))

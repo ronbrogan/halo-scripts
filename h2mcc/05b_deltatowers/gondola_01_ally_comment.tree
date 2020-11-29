@@ -1,0 +1,49 @@
+
+("gondola_01_ally_comment", MethodDecl<Void> @:153 op:0,dt:0,nt:65535,next:5201,str:14907,d0:0,d1:0;
+    (____, Scope<Void> @:5201 op:0,dt:4,nt:8,next:65535,str:61695,d0:5202,d1:63429;
+        ("begin", Expression<MethodOrOperator> @:5202 op:0,dt:2,nt:9,next:5156,str:142,d0:0,d1:0;
+            (____, Scope<Void> @:5156 op:374,dt:4,nt:8,next:5159,str:61744,d0:5157,d1:63384;
+                ("cs_switch", Expression<MethodOrOperator> @:5157 op:374,dt:2,nt:9,next:5158,str:12861,d0:0,d1:0;
+                    ("ally01", Expression<StringId> @:5158 op:11,dt:11,nt:9,next:65535,str:12871,d0:12753,d1:1536;)))
+            (____, Scope<Void> @:5159 op:449,dt:4,nt:8,next:5162,str:61765,d0:5160,d1:63387;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:5160 op:449,dt:2,nt:9,next:5161,str:11009,d0:0,d1:0;
+                    (True, Expression<Boolean> @:5161 op:5,dt:5,nt:9,next:65535,str:61797,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:5162 op:440,dt:4,nt:8,next:5165,str:61805,d0:5163,d1:63390;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:5163 op:440,dt:2,nt:9,next:5164,str:12878,d0:0,d1:0;
+                    (True, Expression<Boolean> @:5164 op:5,dt:5,nt:9,next:65535,str:61825,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:5165 op:27,dt:4,nt:8,next:5168,str:61833,d0:5166,d1:63393;
+                ("print", Expression<MethodOrOperator> @:5166 op:27,dt:2,nt:9,next:5167,str:227,d0:0,d1:0;
+                    ("ally_01: 'all aboard!'", Expression<String> @:5167 op:9,dt:9,nt:9,next:65535,str:12897,d0:12897,d1:0;)))
+            (____, Scope<Void> @:5168 op:418,dt:4,nt:8,next:5171,str:61868,d0:5169,d1:63396;
+                ("cs_play_line", Expression<MethodOrOperator> @:5169 op:418,dt:2,nt:9,next:5170,str:12920,d0:0,d1:0;
+                    ("0920", Expression<StringId> @:5170 op:11,dt:11,nt:9,next:65535,str:12933,d0:12479,d1:1024;)))
+            (____, Scope<Void> @:5171 op:374,dt:4,nt:8,next:5174,str:61892,d0:5172,d1:63399;
+                ("cs_switch", Expression<MethodOrOperator> @:5172 op:374,dt:2,nt:9,next:5173,str:12861,d0:0,d1:0;
+                    ("ally02", Expression<StringId> @:5173 op:11,dt:11,nt:9,next:65535,str:12938,d0:12754,d1:1536;)))
+            (____, Scope<Void> @:5174 op:449,dt:4,nt:8,next:5177,str:61913,d0:5175,d1:63402;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:5175 op:449,dt:2,nt:9,next:5176,str:11009,d0:0,d1:0;
+                    (True, Expression<Boolean> @:5176 op:5,dt:5,nt:9,next:65535,str:61945,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:5177 op:440,dt:4,nt:8,next:5180,str:61953,d0:5178,d1:63405;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:5178 op:440,dt:2,nt:9,next:5179,str:12878,d0:0,d1:0;
+                    (True, Expression<Boolean> @:5179 op:5,dt:5,nt:9,next:65535,str:61973,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:5180 op:19,dt:4,nt:8,next:5183,str:61981,d0:5181,d1:63408;
+                ("sleep", Expression<MethodOrOperator> @:5181 op:19,dt:2,nt:9,next:5182,str:221,d0:0,d1:0;
+                    (5, Expression<Short> @:5182 op:7,dt:7,nt:9,next:65535,str:61988,d0:5,d1:65535;)))
+            (____, Scope<Void> @:5183 op:27,dt:4,nt:8,next:5186,str:61993,d0:5184,d1:63411;
+                ("print", Expression<MethodOrOperator> @:5184 op:27,dt:2,nt:9,next:5185,str:227,d0:0,d1:0;
+                    ("ally_02: 'i'll drive!'", Expression<String> @:5185 op:9,dt:9,nt:9,next:65535,str:12945,d0:12945,d1:0;)))
+            (____, Scope<Void> @:5186 op:418,dt:4,nt:8,next:5189,str:62028,d0:5187,d1:63414;
+                ("cs_play_line", Expression<MethodOrOperator> @:5187 op:418,dt:2,nt:9,next:5188,str:12920,d0:0,d1:0;
+                    ("0930", Expression<StringId> @:5188 op:11,dt:11,nt:9,next:65535,str:12968,d0:12480,d1:1024;)))
+            (____, Scope<Void> @:5189 op:374,dt:4,nt:8,next:5192,str:62052,d0:5190,d1:63417;
+                ("cs_switch", Expression<MethodOrOperator> @:5190 op:374,dt:2,nt:9,next:5191,str:12861,d0:0,d1:0;
+                    ("ally01", Expression<StringId> @:5191 op:11,dt:11,nt:9,next:65535,str:12871,d0:12753,d1:1536;)))
+            (____, Scope<Void> @:5192 op:19,dt:4,nt:8,next:5195,str:62073,d0:5193,d1:63420;
+                ("sleep", Expression<MethodOrOperator> @:5193 op:19,dt:2,nt:9,next:5194,str:221,d0:0,d1:0;
+                    (15, Expression<Short> @:5194 op:7,dt:7,nt:9,next:65535,str:62080,d0:15,d1:65535;)))
+            (____, Scope<Void> @:5195 op:27,dt:4,nt:8,next:5198,str:62086,d0:5196,d1:63423;
+                ("print", Expression<MethodOrOperator> @:5196 op:27,dt:2,nt:9,next:5197,str:227,d0:0,d1:0;
+                    ("ally_01: 'what's to drive? it comes here. it goes there.'", Expression<String> @:5197 op:9,dt:9,nt:9,next:65535,str:12973,d0:12973,d1:0;)))
+            (____, Scope<Void> @:5198 op:418,dt:4,nt:8,next:65535,str:62156,d0:5199,d1:63426;
+                ("cs_play_line", Expression<MethodOrOperator> @:5199 op:418,dt:2,nt:9,next:5200,str:12920,d0:0,d1:0;
+                    ("0940", Expression<StringId> @:5200 op:11,dt:11,nt:9,next:65535,str:13031,d0:12481,d1:1024;))))))

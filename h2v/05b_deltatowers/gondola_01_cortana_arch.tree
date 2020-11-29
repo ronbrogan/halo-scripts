@@ -1,0 +1,45 @@
+
+("gondola_01_cortana_arch", MethodDecl<Void> @:171 check:0,op:0,dt:0,nt:65535,next:6956,nextCheck:65183,str:16949,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:6956 check:65183,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:13961,h:1,d0:6957,d1:65184;
+        ("begin", Expression<MethodOrOperator> @:6957 check:65184,op:0,dt:2,nt:9,next:6915,nextCheck:65142,str:142,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:6915 check:65142,op:281,dt:4,nt:8,next:6918,nextCheck:65145,str:14003,h:1,d0:6916,d1:65143;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:6916 check:65143,op:281,dt:2,nt:9,next:6917,nextCheck:65144,str:10370,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:6917 check:65144,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:14023,h:1,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:6918 check:65145,op:19,dt:4,nt:8,next:6921,nextCheck:65148,str:14032,h:1,d0:6919,d1:65146;
+                ("sleep", Expression<MethodOrOperator> @:6919 check:65146,op:19,dt:2,nt:9,next:6920,nextCheck:65147,str:221,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:6920 check:65147,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:14039,h:1,d0:60,d1:65535;)))
+            (____, Scope<Void> @:6921 check:65148,op:27,dt:4,nt:8,next:6924,nextCheck:65151,str:14045,h:1,d0:6922,d1:65149;
+                ("print", Expression<MethodOrOperator> @:6922 check:65149,op:27,dt:2,nt:9,next:6923,nextCheck:65150,str:227,h:0,d0:0,d1:0;
+                    ("cortana: 'this lake couldn't have been formed by volcanic action -'", Expression<String> @:6923 check:65150,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:15471,h:0,d0:30503,d1:11074;)))
+            (____, Scope<Void> @:6924 check:65151,op:27,dt:4,nt:8,next:6927,nextCheck:65154,str:14125,h:1,d0:6925,d1:65152;
+                ("print", Expression<MethodOrOperator> @:6925 check:65152,op:27,dt:2,nt:9,next:6926,nextCheck:65153,str:227,h:0,d0:0,d1:0;
+                    ("'which means it was either built this way on purpose,'", Expression<String> @:6926 check:65153,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:15539,h:0,d0:30571,d1:11074;)))
+            (____, Scope<Void> @:6927 check:65154,op:27,dt:4,nt:8,next:6930,nextCheck:65157,str:14192,h:1,d0:6928,d1:65155;
+                ("print", Expression<MethodOrOperator> @:6928 check:65155,op:27,dt:2,nt:9,next:6929,nextCheck:65156,str:227,h:0,d0:0,d1:0;
+                    ("'or was created by some other cataclysmic event.'", Expression<String> @:6929 check:65156,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:15594,h:0,d0:30626,d1:11074;)))
+            (____, Scope<Void> @:6930 check:65157,op:19,dt:4,nt:8,next:6936,nextCheck:65163,str:14254,h:1,d0:6931,d1:65158;
+                ("sleep", Expression<MethodOrOperator> @:6931 check:65158,op:19,dt:2,nt:9,next:6932,nextCheck:65159,str:221,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:6932 check:65159,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:14261,h:1,d0:6933,d1:65160;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:6933 check:65160,op:362,dt:2,nt:9,next:6934,nextCheck:65161,str:10037,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:6934 check:65161,op:50,dt:50,nt:9,next:6935,nextCheck:65162,str:52,h:0,d0:65535,d1:65535;
+                                ("0980", Expression<StringId> @:6935 check:65162,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:15644,h:0,d0:9822,d1:1024;))))))
+            (____, Scope<Void> @:6936 check:65163,op:19,dt:4,nt:8,next:6939,nextCheck:65166,str:14387,h:1,d0:6937,d1:65164;
+                ("sleep", Expression<MethodOrOperator> @:6937 check:65164,op:19,dt:2,nt:9,next:6938,nextCheck:65165,str:221,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:6938 check:65165,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:14394,h:1,d0:30,d1:65535;)))
+            (____, Scope<Void> @:6939 check:65166,op:27,dt:4,nt:8,next:6942,nextCheck:65169,str:14400,h:1,d0:6940,d1:65167;
+                ("print", Expression<MethodOrOperator> @:6940 check:65167,op:27,dt:2,nt:9,next:6941,nextCheck:65168,str:227,h:0,d0:0,d1:0;
+                    ("cortana: 'sorry. were you trying to kill something?'", Expression<String> @:6941 check:65168,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:15649,h:0,d0:30681,d1:11074;)))
+            (____, Scope<Void> @:6942 check:65169,op:19,dt:4,nt:8,next:6948,nextCheck:65175,str:14465,h:1,d0:6943,d1:65170;
+                ("sleep", Expression<MethodOrOperator> @:6943 check:65170,op:19,dt:2,nt:9,next:6944,nextCheck:65171,str:221,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:6944 check:65171,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:14472,h:1,d0:6945,d1:65172;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:6945 check:65172,op:362,dt:2,nt:9,next:6946,nextCheck:65173,str:10037,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:6946 check:65173,op:50,dt:50,nt:9,next:6947,nextCheck:65174,str:52,h:0,d0:65535,d1:65535;
+                                ("0990", Expression<StringId> @:6947 check:65174,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:15702,h:0,d0:9823,d1:1024;))))))
+            (____, Scope<Void> @:6948 check:65175,op:19,dt:4,nt:8,next:6951,nextCheck:65178,str:14598,h:1,d0:6949,d1:65176;
+                ("sleep", Expression<MethodOrOperator> @:6949 check:65176,op:19,dt:2,nt:9,next:6950,nextCheck:65177,str:221,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:6950 check:65177,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:14605,h:1,d0:30,d1:65535;)))
+            (____, Scope<Void> @:6951 check:65178,op:281,dt:4,nt:8,next:6954,nextCheck:65181,str:14611,h:1,d0:6952,d1:65179;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:6952 check:65179,op:281,dt:2,nt:9,next:6953,nextCheck:65180,str:10370,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:6953 check:65180,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:14631,h:1,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:6954 check:65181,op:587,dt:4,nt:8,next:65535,nextCheck:65535,str:14639,h:1,d0:6955,d1:65182;
+                ("game_save", Expression<MethodOrOperator> @:6955 check:65182,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:10879,h:0,d0:0,d1:0;)))))

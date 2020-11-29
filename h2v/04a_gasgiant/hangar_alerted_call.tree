@@ -1,0 +1,17 @@
+
+("hangar_alerted_call", MethodDecl<Void> @:302 check:0,op:0,dt:0,nt:65535,next:12365,nextCheck:37825,str:26152,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:12365 check:37825,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:11860,h:2,d0:12366,d1:37826;
+        ("begin", Expression<MethodOrOperator> @:12366 check:37826,op:0,dt:2,nt:9,next:12352,nextCheck:37812,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:12352 check:37812,op:21,dt:4,nt:8,next:12360,nextCheck:37820,str:11898,h:2,d0:12353,d1:37813;
+                ("sleep_until", Expression<MethodOrOperator> @:12353 check:37813,op:21,dt:2,nt:9,next:12354,nextCheck:37814,str:236,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:12354 check:37814,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:11911,h:2,d0:12355,d1:37815;
+                        (">", Expression<MethodOrOperator> @:12355 check:37815,op:15,dt:2,nt:9,next:12356,nextCheck:37816,str:14879,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:12356 check:37816,op:353,dt:7,nt:8,next:12359,nextCheck:37819,str:11914,h:2,d0:12357,d1:37817;
+                                ("ai_combat_status", Expression<MethodOrOperator> @:12357 check:37817,op:353,dt:2,nt:9,next:12358,nextCheck:37818,str:14881,h:0,d0:0,d1:0;
+                                    ("hangar_heretics", Expression<AI> @:12358 check:37818,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:14947,h:0,d0:10,d1:16384;)))
+                            ("ai_combat_status_uninspected", VariableAccess<Short> @:12359 check:37819,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:14918,h:0,d0:33575,d1:65535;)))))
+            (____, Scope<Void> @:12360 check:37820,op:363,dt:4,nt:8,next:65535,nextCheck:65535,str:11982,h:2,d0:12361,d1:37821;
+                ("ai_scene", Expression<MethodOrOperator> @:12361 check:37821,op:363,dt:2,nt:9,next:12362,nextCheck:37822,str:15743,h:0,d0:0,d1:0;
+                    ("hangar_s_call_scene", Expression<StringId> @:12362 check:37822,op:11,dt:11,nt:9,next:12363,nextCheck:37823,str:24490,h:0,d0:9400,d1:4864;
+                        ("hangar_sentinel_call", Expression<AIScript> @:12363 check:37823,op:21,dt:21,nt:9,next:12364,nextCheck:37824,str:24510,h:0,d0:301,d1:0;
+                            ("hangar_heretics", Expression<AI> @:12364 check:37824,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:14947,h:0,d0:10,d1:16384;))))))))

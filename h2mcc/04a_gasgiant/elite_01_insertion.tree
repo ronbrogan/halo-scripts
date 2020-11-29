@@ -1,0 +1,34 @@
+
+("elite_01_insertion", MethodDecl<Void> @:206 op:0,dt:0,nt:65535,next:6736,str:14570,d0:0,d1:0;
+    (____, Scope<Void> @:6736 op:0,dt:4,nt:8,next:65535,str:15163,d0:6737,d1:64964;
+        ("begin", Expression<MethodOrOperator> @:6737 op:0,dt:2,nt:9,next:6706,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:6706 op:19,dt:4,nt:8,next:6709,str:15200,d0:6707,d1:64934;
+                ("sleep", Expression<MethodOrOperator> @:6707 op:19,dt:2,nt:9,next:6708,str:85,d0:0,d1:0;
+                    (281, Expression<Short> @:6708 op:7,dt:7,nt:9,next:65535,str:15207,d0:281,d1:65535;)))
+            (____, Scope<Void> @:6709 op:48,dt:4,nt:8,next:6712,str:15217,d0:6710,d1:64937;
+                ("object_create_anew", Expression<MethodOrOperator> @:6710 op:48,dt:2,nt:9,next:6711,str:2237,d0:0,d1:0;
+                    ("elite01", Expression<EntityIdentifier> @:6711 op:56,dt:56,nt:9,next:65535,str:9138,d0:115,d1:65535;)))
+            (____, Scope<Void> @:6712 op:48,dt:4,nt:8,next:6715,str:15248,d0:6713,d1:64940;
+                ("object_create_anew", Expression<MethodOrOperator> @:6713 op:48,dt:2,nt:9,next:6714,str:2237,d0:0,d1:0;
+                    ("plasma_rifle01", Expression<EntityIdentifier> @:6714 op:56,dt:56,nt:9,next:65535,str:10407,d0:50,d1:65535;)))
+            (____, Scope<Void> @:6715 op:92,dt:4,nt:8,next:6719,str:15286,d0:6716,d1:64943;
+                ("object_cinematic_lod", Expression<MethodOrOperator> @:6716 op:92,dt:2,nt:9,next:6717,str:2256,d0:0,d1:0;
+                    (4294901875, Expression<Entity> @:6717 op:56,dt:50,nt:9,next:6718,str:9138,d0:115,d1:65535;
+                        (True, Expression<Boolean> @:6718 op:5,dt:5,nt:9,next:65535,str:15316,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:6719 op:74,dt:4,nt:8,next:6725,str:15324,d0:6720,d1:64947;
+                ("objects_attach", Expression<MethodOrOperator> @:6720 op:74,dt:2,nt:9,next:6721,str:4804,d0:0,d1:0;
+                    (4294901875, Expression<Entity> @:6721 op:56,dt:50,nt:9,next:6722,str:9138,d0:115,d1:65535;
+                        ("right_hand_elite", Expression<StringId> @:6722 op:11,dt:11,nt:9,next:6723,str:10561,d0:3703,d1:4096;
+                            (4294901810, Expression<Entity> @:6723 op:56,dt:50,nt:9,next:6724,str:10407,d0:50,d1:65535;
+                                (0, Expression<StringId> @:6724 op:11,dt:11,nt:9,next:65535,str:0,d0:0,d1:0;))))))
+            (____, Scope<Void> @:6725 op:95,dt:4,nt:8,next:6729,str:15388,d0:6726,d1:64953;
+                ("object_uses_cinematic_lighting", Expression<MethodOrOperator> @:6726 op:95,dt:2,nt:9,next:6727,str:2162,d0:0,d1:0;
+                    (4294901875, Expression<Entity> @:6727 op:56,dt:50,nt:9,next:6728,str:9138,d0:115,d1:65535;
+                        (True, Expression<Boolean> @:6728 op:5,dt:5,nt:9,next:65535,str:15428,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:6729 op:203,dt:4,nt:8,next:65535,str:15435,d0:6730,d1:64957;
+                ("custom_animation_relative", Expression<MethodOrOperator> @:6730 op:203,dt:2,nt:9,next:6731,str:2627,d0:0,d1:0;
+                    ("elite01", Expression<Unit> @:6731 op:57,dt:51,nt:9,next:6732,str:9138,d0:115,d1:65535;
+                        ("objects\characters\elite\04_intro\04_intro", Expression<Animation> @:6732 op:36,dt:36,nt:9,next:6733,str:10853,d0:880,d1:58598;
+                            ("elite01_06b", Expression<StringId> @:6733 op:11,dt:11,nt:9,next:6734,str:14307,d0:4086,d1:2816;
+                                (False, Expression<Boolean> @:6734 op:5,dt:5,nt:9,next:6735,str:15527,d0:65280,d1:65535;
+                                    (4294901800, Expression<Entity> @:6735 op:56,dt:50,nt:9,next:65535,str:13784,d0:40,d1:65535;))))))))))

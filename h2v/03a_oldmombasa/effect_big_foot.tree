@@ -1,0 +1,20 @@
+
+("effect_big_foot", MethodDecl<Void> @:114 check:0,op:0,dt:0,nt:65535,next:3948,nextCheck:62175,str:8654,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:3948 check:62175,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:43525,h:0,d0:3949,d1:62176;
+        ("begin", Expression<MethodOrOperator> @:3949 check:62176,op:0,dt:2,nt:9,next:3932,nextCheck:62159,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:3932 check:62159,op:676,dt:4,nt:8,next:3934,nextCheck:62161,str:43559,h:0,d0:3933,d1:62160;
+                ("time_code_reset", Expression<MethodOrOperator> @:3933 check:62160,op:676,dt:2,nt:9,next:65535,nextCheck:65535,str:5204,h:0,d0:0,d1:0;))
+            (____, Scope<Void> @:3934 check:62161,op:19,dt:4,nt:8,next:3937,nextCheck:62164,str:43579,h:0,d0:3935,d1:62162;
+                ("sleep", Expression<MethodOrOperator> @:3935 check:62162,op:19,dt:2,nt:9,next:3936,nextCheck:62163,str:143,h:0,d0:0,d1:0;
+                    (126, Expression<Short> @:3936 check:62163,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:43586,h:0,d0:126,d1:65535;)))
+            (____, Scope<Void> @:3937 check:62164,op:27,dt:4,nt:8,next:3940,nextCheck:62167,str:43593,h:0,d0:3938,d1:62165;
+                ("print", Expression<MethodOrOperator> @:3938 check:62165,op:27,dt:2,nt:9,next:3939,nextCheck:62166,str:149,h:0,d0:0,d1:0;
+                    ("big foot", Expression<String> @:3939 check:62166,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8423,h:0,d0:36015,d1:12404;)))
+            (____, Scope<Void> @:3940 check:62167,op:42,dt:4,nt:8,next:3944,nextCheck:62171,str:43614,h:0,d0:3941,d1:62168;
+                ("damage_new", Expression<MethodOrOperator> @:3941 check:62168,op:42,dt:2,nt:9,next:3942,nextCheck:62169,str:8045,h:0,d0:0,d1:0;
+                    ("objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion", Expression<DamageEffect> @:3942 check:62169,op:34,dt:34,nt:9,next:3943,nextCheck:62170,str:8056,h:0,d0:878,d1:58596;
+                        ("bus_flag_01", Expression<LocationFlag> @:3943 check:62170,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:8432,h:0,d0:40,d1:0;))))
+            (____, Scope<Void> @:3944 check:62171,op:42,dt:4,nt:8,next:65535,nextCheck:65535,str:43716,h:0,d0:3945,d1:62172;
+                ("damage_new", Expression<MethodOrOperator> @:3945 check:62172,op:42,dt:2,nt:9,next:3946,nextCheck:62173,str:8045,h:0,d0:0,d1:0;
+                    ("objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion", Expression<DamageEffect> @:3946 check:62173,op:34,dt:34,nt:9,next:3947,nextCheck:62174,str:8056,h:0,d0:878,d1:58596;
+                        ("bus_flag_02", Expression<LocationFlag> @:3947 check:62174,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:8444,h:0,d0:41,d1:0;)))))))

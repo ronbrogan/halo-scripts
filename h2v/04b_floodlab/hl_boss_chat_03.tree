@@ -1,0 +1,51 @@
+
+("hl_boss_chat_03", MethodDecl<Void> @:331 check:0,op:0,dt:0,nt:65535,next:29264,nextCheck:54724,str:37918,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:29264 check:54724,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:15455,h:4,d0:29265,d1:54725;
+        ("begin", Expression<MethodOrOperator> @:29265 check:54725,op:0,dt:2,nt:9,next:29217,nextCheck:54677,str:210,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:29217 check:54677,op:4,dt:4,nt:8,next:29221,nextCheck:54681,str:15496,h:4,d0:29218,d1:54678;
+                ("set", Expression<MethodOrOperator> @:29218 check:54678,op:4,dt:2,nt:9,next:29219,nextCheck:54679,str:2606,h:0,d0:0,d1:0;
+                    ("boss_done_talking", VariableAccess<Boolean> @:29219 check:54679,op:65535,dt:5,nt:13,next:29220,nextCheck:54680,str:35242,h:0,d0:45,d1:0;
+                        (False, Expression<Boolean> @:29220 check:54680,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:15519,h:4,d0:65280,d1:65535;))))
+            (____, Scope<Void> @:29221 check:54681,op:21,dt:4,nt:8,next:29227,nextCheck:54687,str:15528,h:4,d0:29222,d1:54682;
+                ("sleep_until", Expression<MethodOrOperator> @:29222 check:54682,op:21,dt:2,nt:9,next:29223,nextCheck:54683,str:440,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:29223 check:54683,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:15541,h:4,d0:29224,d1:54684;
+                        ("=", Expression<MethodOrOperator> @:29224 check:54684,op:13,dt:2,nt:9,next:29225,nextCheck:54685,str:505,h:0,d0:0,d1:0;
+                            ("monitor_done_talking", VariableAccess<Boolean> @:29225 check:54685,op:0,dt:5,nt:13,next:29226,nextCheck:54686,str:35260,h:0,d0:43,d1:0;
+                                (True, Expression<Boolean> @:29226 check:54686,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:15565,h:4,d0:65281,d1:65535;))))))
+            (____, Scope<Void> @:29227 check:54687,op:446,dt:4,nt:8,next:29230,nextCheck:54690,str:15574,h:4,d0:29228,d1:54688;
+                ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:29228 check:54688,op:446,dt:2,nt:9,next:29229,nextCheck:54689,str:35281,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:29229 check:54689,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:15603,h:4,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:29230 check:54690,op:19,dt:4,nt:8,next:29233,nextCheck:54693,str:15611,h:4,d0:29231,d1:54691;
+                ("sleep", Expression<MethodOrOperator> @:29231 check:54691,op:19,dt:2,nt:9,next:29232,nextCheck:54692,str:289,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:29232 check:54692,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:15618,h:4,d0:60,d1:65535;)))
+            (____, Scope<Void> @:29233 check:54693,op:27,dt:4,nt:8,next:29236,nextCheck:54696,str:15624,h:4,d0:29234,d1:54694;
+                ("print", Expression<MethodOrOperator> @:29234 check:54694,op:27,dt:2,nt:9,next:29235,nextCheck:54695,str:295,h:0,d0:0,d1:0;
+                    ("heretic leader: 'and now, where are these gods the prophets would have us worship?'", Expression<String> @:29235 check:54695,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:35853,h:0,d0:24341,d1:10912;)))
+            (____, Scope<Void> @:29236 check:54696,op:418,dt:4,nt:8,next:29239,nextCheck:54699,str:15720,h:4,d0:29237,d1:54697;
+                ("cs_play_line", Expression<MethodOrOperator> @:29237 check:54697,op:418,dt:2,nt:9,next:29238,nextCheck:54698,str:11461,h:0,d0:0,d1:0;
+                    ("0870", Expression<StringId> @:29238 check:54698,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:35937,h:0,d0:9623,d1:1024;)))
+            (____, Scope<Void> @:29239 check:54699,op:19,dt:4,nt:8,next:29242,nextCheck:54702,str:15742,h:4,d0:29240,d1:54700;
+                ("sleep", Expression<MethodOrOperator> @:29240 check:54700,op:19,dt:2,nt:9,next:29241,nextCheck:54701,str:289,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:29241 check:54701,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:15749,h:4,d0:30,d1:65535;)))
+            (____, Scope<Void> @:29242 check:54702,op:27,dt:4,nt:8,next:29245,nextCheck:54705,str:15755,h:4,d0:29243,d1:54703;
+                ("print", Expression<MethodOrOperator> @:29243 check:54703,op:27,dt:2,nt:9,next:29244,nextCheck:54704,str:295,h:0,d0:0,d1:0;
+                    ("heretic leader: 'transcended? (laughs) hardly.'", Expression<String> @:29244 check:54704,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:35942,h:0,d0:24430,d1:10912;)))
+            (____, Scope<Void> @:29245 check:54705,op:418,dt:4,nt:8,next:29248,nextCheck:54708,str:15815,h:4,d0:29246,d1:54706;
+                ("cs_play_line", Expression<MethodOrOperator> @:29246 check:54706,op:418,dt:2,nt:9,next:29247,nextCheck:54707,str:11461,h:0,d0:0,d1:0;
+                    ("0880", Expression<StringId> @:29247 check:54707,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:35990,h:0,d0:9624,d1:1024;)))
+            (____, Scope<Void> @:29248 check:54708,op:19,dt:4,nt:8,next:29251,nextCheck:54711,str:15837,h:4,d0:29249,d1:54709;
+                ("sleep", Expression<MethodOrOperator> @:29249 check:54709,op:19,dt:2,nt:9,next:29250,nextCheck:54710,str:289,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:29250 check:54710,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:15844,h:4,d0:60,d1:65535;)))
+            (____, Scope<Void> @:29251 check:54711,op:27,dt:4,nt:8,next:29254,nextCheck:54714,str:15850,h:4,d0:29252,d1:54712;
+                ("print", Expression<MethodOrOperator> @:29252 check:54712,op:27,dt:2,nt:9,next:29253,nextCheck:54713,str:295,h:0,d0:0,d1:0;
+                    ("heretic leader: 'come, arbiter. let me show you where they went!'", Expression<String> @:29253 check:54713,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:35995,h:0,d0:24483,d1:10912;)))
+            (____, Scope<Void> @:29254 check:54714,op:418,dt:4,nt:8,next:29257,nextCheck:54717,str:15928,h:4,d0:29255,d1:54715;
+                ("cs_play_line", Expression<MethodOrOperator> @:29255 check:54715,op:418,dt:2,nt:9,next:29256,nextCheck:54716,str:11461,h:0,d0:0,d1:0;
+                    ("0890", Expression<StringId> @:29256 check:54716,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:36061,h:0,d0:9625,d1:1024;)))
+            (____, Scope<Void> @:29257 check:54717,op:446,dt:4,nt:8,next:29260,nextCheck:54720,str:15950,h:4,d0:29258,d1:54718;
+                ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:29258 check:54718,op:446,dt:2,nt:9,next:29259,nextCheck:54719,str:35281,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:29259 check:54719,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:15979,h:4,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:29260 check:54720,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:15988,h:4,d0:29261,d1:54721;
+                ("set", Expression<MethodOrOperator> @:29261 check:54721,op:4,dt:2,nt:9,next:29262,nextCheck:54722,str:2606,h:0,d0:0,d1:0;
+                    ("boss_done_talking", VariableAccess<Boolean> @:29262 check:54722,op:65535,dt:5,nt:13,next:29263,nextCheck:54723,str:35242,h:0,d0:45,d1:0;
+                        (True, Expression<Boolean> @:29263 check:54723,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:16011,h:4,d0:65281,d1:65535;)))))))

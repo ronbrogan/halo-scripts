@@ -1,0 +1,35 @@
+
+("cs_cell_a_brute", MethodDecl<Void> @:338 check:0,op:0,dt:0,nt:65535,next:15917,nextCheck:41377,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:15917 check:41377,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:53495,h:2,d0:15918,d1:41378;
+        ("begin", Expression<MethodOrOperator> @:15918 check:41378,op:0,dt:2,nt:9,next:15886,nextCheck:41346,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:15886 check:41346,op:441,dt:4,nt:8,next:15889,nextCheck:41349,str:53536,h:2,d0:15887,d1:41347;
+                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:15887 check:41347,op:441,dt:2,nt:9,next:15888,nextCheck:41348,str:31162,h:0,d0:0,d1:0;
+                    ("ai_combat_status_active", VariableAccess<Short> @:15888 check:41348,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:31815,h:0,d0:33574,d1:65535;)))
+            (____, Scope<Void> @:15889 check:41349,op:449,dt:4,nt:8,next:15892,nextCheck:41352,str:53590,h:2,d0:15890,d1:41350;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:15890 check:41350,op:449,dt:2,nt:9,next:15891,nextCheck:41351,str:1066,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15891 check:41351,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:53622,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:15892 check:41352,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:53630,h:2,d0:15893,d1:41353;
+                ("sleep_until", Expression<MethodOrOperator> @:15893 check:41353,op:21,dt:2,nt:9,next:15894,nextCheck:41354,str:231,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:15894 check:41354,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:53646,h:2,d0:15895,d1:41355;
+                        ("begin", Expression<MethodOrOperator> @:15895 check:41355,op:0,dt:2,nt:9,next:15896,nextCheck:41356,str:1,h:0,d0:0,d1:0;
+                            (____, Scope<Void> @:15896 check:41356,op:386,dt:4,nt:8,next:15900,nextCheck:41360,str:53657,h:2,d0:15897,d1:41357;
+                                ("cs_go_to", Expression<MethodOrOperator> @:15897 check:41357,op:386,dt:2,nt:9,next:15898,nextCheck:41358,str:23538,h:0,d0:0,d1:0;
+                                    ("jails/jail_a_p4", Expression<SpatialPoint> @:15898 check:41358,op:28,dt:28,nt:9,next:15899,nextCheck:41359,str:33823,h:0,d0:15,d1:6;
+                                        (1f, Expression<Float> @:15899 check:41359,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:53683,h:2,d0:0,d1:16256;))))
+                            (____, Scope<Void> @:15900 check:41360,op:19,dt:4,nt:8,next:15906,nextCheck:41366,str:53690,h:2,d0:15901,d1:41361;
+                                ("sleep", Expression<MethodOrOperator> @:15901 check:41361,op:19,dt:2,nt:9,next:15902,nextCheck:41362,str:80,h:0,d0:0,d1:0;
+                                    (____, Scope<Short> @:15902 check:41362,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:53697,h:2,d0:15903,d1:41363;
+                                        ("random_range", Expression<MethodOrOperator> @:15903 check:41363,op:124,dt:2,nt:9,next:15904,nextCheck:41364,str:19652,h:0,d0:0,d1:0;
+                                            (5, Expression<Short> @:15904 check:41364,op:7,dt:7,nt:9,next:15905,nextCheck:41365,str:53711,h:2,d0:5,d1:65535;
+                                                (10, Expression<Short> @:15905 check:41365,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:53713,h:2,d0:10,d1:65535;))))))
+                            (____, Scope<Void> @:15906 check:41366,op:386,dt:4,nt:8,next:15910,nextCheck:41370,str:53722,h:2,d0:15907,d1:41367;
+                                ("cs_go_to", Expression<MethodOrOperator> @:15907 check:41367,op:386,dt:2,nt:9,next:15908,nextCheck:41368,str:23538,h:0,d0:0,d1:0;
+                                    ("jails/jail_a_p5", Expression<SpatialPoint> @:15908 check:41368,op:28,dt:28,nt:9,next:15909,nextCheck:41369,str:33839,h:0,d0:16,d1:6;
+                                        (1f, Expression<Float> @:15909 check:41369,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:53748,h:2,d0:0,d1:16256;))))
+                            (____, Scope<Void> @:15910 check:41370,op:19,dt:4,nt:8,next:15916,nextCheck:41376,str:53755,h:2,d0:15911,d1:41371;
+                                ("sleep", Expression<MethodOrOperator> @:15911 check:41371,op:19,dt:2,nt:9,next:15912,nextCheck:41372,str:80,h:0,d0:0,d1:0;
+                                    (____, Scope<Short> @:15912 check:41372,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:53762,h:2,d0:15913,d1:41373;
+                                        ("random_range", Expression<MethodOrOperator> @:15913 check:41373,op:124,dt:2,nt:9,next:15914,nextCheck:41374,str:19652,h:0,d0:0,d1:0;
+                                            (5, Expression<Short> @:15914 check:41374,op:7,dt:7,nt:9,next:15915,nextCheck:41375,str:53776,h:2,d0:5,d1:65535;
+                                                (10, Expression<Short> @:15915 check:41375,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:53778,h:2,d0:10,d1:65535;))))))
+                            (False, Expression<Boolean> @:15916 check:41376,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:53786,h:2,d0:65280,d1:65535;))))))))

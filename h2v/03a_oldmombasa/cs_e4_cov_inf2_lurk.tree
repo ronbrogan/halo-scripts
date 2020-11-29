@@ -1,0 +1,29 @@
+
+("cs_e4_cov_inf2_lurk", MethodDecl<Void> @:336 check:0,op:0,dt:0,nt:65535,next:13335,nextCheck:38795,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:13335 check:38795,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:33860,h:2,d0:13336,d1:38796;
+        ("begin", Expression<MethodOrOperator> @:13336 check:38796,op:0,dt:2,nt:9,next:13310,nextCheck:38770,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:13310 check:38770,op:423,dt:4,nt:8,next:13313,nextCheck:38773,str:33905,h:2,d0:13311,d1:38771;
+                ("cs_crouch", Expression<MethodOrOperator> @:13311 check:38771,op:423,dt:2,nt:9,next:13312,nextCheck:38772,str:17700,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:13312 check:38772,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:33916,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:13313 check:38773,op:440,dt:4,nt:8,next:13316,nextCheck:38776,str:33924,h:2,d0:13314,d1:38774;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:13314 check:38774,op:440,dt:2,nt:9,next:13315,nextCheck:38775,str:14820,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:13315 check:38775,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:33944,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:13316 check:38776,op:441,dt:4,nt:8,next:13319,nextCheck:38779,str:33952,h:2,d0:13317,d1:38777;
+                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:13317 check:38777,op:441,dt:2,nt:9,next:13318,nextCheck:38778,str:13523,h:0,d0:0,d1:0;
+                    ("ai_combat_status_clear_los", VariableAccess<Short> @:13318 check:38778,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:13715,h:0,d0:33579,d1:65535;)))
+            (____, Scope<Void> @:13319 check:38779,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:34009,h:2,d0:13320,d1:38780;
+                ("sleep_until", Expression<MethodOrOperator> @:13320 check:38780,op:21,dt:2,nt:9,next:13321,nextCheck:38781,str:294,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:13321 check:38781,op:6,dt:5,nt:8,next:13334,nextCheck:38794,str:34025,h:2,d0:13322,d1:38782;
+                        ("or", Expression<MethodOrOperator> @:13322 check:38782,op:6,dt:2,nt:9,next:13323,nextCheck:38783,str:907,h:0,d0:0,d1:0;
+                            (____, Scope<Boolean> @:13323 check:38783,op:17,dt:5,nt:8,next:13329,nextCheck:38789,str:34033,h:2,d0:13324,d1:38784;
+                                (">=", Expression<MethodOrOperator> @:13324 check:38784,op:17,dt:2,nt:9,next:13325,nextCheck:38785,str:734,h:0,d0:0,d1:0;
+                                    (____, Scope<Short> @:13325 check:38785,op:353,dt:7,nt:8,next:13328,nextCheck:38788,str:34037,h:2,d0:13326,d1:38786;
+                                        ("ai_combat_status", Expression<MethodOrOperator> @:13326 check:38786,op:353,dt:2,nt:9,next:13327,nextCheck:38787,str:13451,h:0,d0:0,d1:0;
+                                            ("ai_current_squad", VariableAccess<AI> @:13327 check:38787,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:11903,h:0,d0:33563,d1:65535;)))
+                                    ("ai_combat_status_clear_los", VariableAccess<Short> @:13328 check:38788,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:13715,h:0,d0:33579,d1:65535;)))
+                            (____, Scope<Boolean> @:13329 check:38789,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:34105,h:2,d0:13330,d1:38790;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:13330 check:38790,op:33,dt:2,nt:9,next:13331,nextCheck:38791,str:10884,h:0,d0:0,d1:0;
+                                    ("tv_e4_cov_inf2_begin", Expression<Trigger> @:13331 check:38791,op:13,dt:13,nt:9,next:13332,nextCheck:38792,str:22659,h:0,d0:121,d1:0;
+                                        (____, Scope<List> @:13332 check:38792,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:34147,h:2,d0:13333,d1:38793;
+                                            ("players", Expression<MethodOrOperator> @:13333 check:38793,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:84,h:0,d0:0,d1:0;)))))))
+                    (15, Expression<Short> @:13334 check:38794,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:34166,h:2,d0:15,d1:65535;))))))

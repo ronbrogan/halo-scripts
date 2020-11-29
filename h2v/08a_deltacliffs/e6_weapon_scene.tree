@@ -1,0 +1,30 @@
+
+("e6_weapon_scene", MethodDecl<Void> @:145 check:0,op:0,dt:0,nt:65535,next:5354,nextCheck:63581,str:10519,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:5354 check:63581,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:574,h:1,d0:5355,d1:63582;
+        ("begin", Expression<MethodOrOperator> @:5355 check:63582,op:0,dt:2,nt:9,next:5328,nextCheck:63555,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:5328 check:63555,op:21,dt:4,nt:8,next:5345,nextCheck:63572,str:608,h:1,d0:5329,d1:63556;
+                ("sleep_until", Expression<MethodOrOperator> @:5329 check:63556,op:21,dt:2,nt:9,next:5330,nextCheck:63557,str:294,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:5330 check:63557,op:6,dt:5,nt:8,next:5343,nextCheck:63570,str:624,h:1,d0:5331,d1:63558;
+                        ("or", Expression<MethodOrOperator> @:5331 check:63558,op:6,dt:2,nt:9,next:5332,nextCheck:63559,str:907,h:0,d0:0,d1:0;
+                            (____, Scope<Boolean> @:5332 check:63559,op:363,dt:5,nt:8,next:5337,nextCheck:63564,str:632,h:1,d0:5333,d1:63560;
+                                ("ai_scene", Expression<MethodOrOperator> @:5333 check:63560,op:363,dt:2,nt:9,next:5334,nextCheck:63561,str:7257,h:0,d0:0,d1:0;
+                                    ("e6_weapon_scene", Expression<StringId> @:5334 check:63561,op:11,dt:11,nt:9,next:5335,nextCheck:63562,str:10519,h:0,d0:10282,d1:3840;
+                                        ("cs_e6_weapon_scene", Expression<AIScript> @:5335 check:63562,op:21,dt:21,nt:9,next:5336,nextCheck:63563,str:10535,h:0,d0:144,d1:0;
+                                            ("e6_cov", Expression<AI> @:5336 check:63563,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:10280,h:0,d0:16,d1:16384;)))))
+                            (____, Scope<Boolean> @:5337 check:63564,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:689,h:1,d0:5338,d1:63565;
+                                ("<=", Expression<MethodOrOperator> @:5338 check:63565,op:18,dt:2,nt:9,next:5339,nextCheck:63566,str:5982,h:0,d0:0,d1:0;
+                                    (____, Scope<Short> @:5339 check:63566,op:327,dt:7,nt:8,next:5342,nextCheck:63569,str:693,h:1,d0:5340,d1:63567;
+                                        ("ai_living_count", Expression<MethodOrOperator> @:5340 check:63567,op:327,dt:2,nt:9,next:5341,nextCheck:63568,str:7475,h:0,d0:0,d1:0;
+                                            ("e6_pro_inf1", Expression<AI> @:5341 check:63568,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:10554,h:0,d0:43,d1:0;)))
+                                    (0, Expression<Short> @:5342 check:63569,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:723,h:1,d0:0,d1:65535;)))))
+                    (15, Expression<Short> @:5343 check:63570,op:7,dt:7,nt:9,next:5344,nextCheck:63571,str:734,h:1,d0:15,d1:65535;
+                        ("two_minutes", VariableAccess<Int> @:5344 check:63571,op:8,dt:8,nt:13,next:65535,nextCheck:65535,str:10566,h:0,d0:8,d1:0;))))
+            (____, Scope<Void> @:5345 check:63572,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:791,h:1,d0:5346,d1:63573;
+                ("sleep_until", Expression<MethodOrOperator> @:5346 check:63573,op:21,dt:2,nt:9,next:5347,nextCheck:63574,str:294,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:5347 check:63574,op:363,dt:5,nt:8,next:5352,nextCheck:63579,str:807,h:1,d0:5348,d1:63575;
+                        ("ai_scene", Expression<MethodOrOperator> @:5348 check:63575,op:363,dt:2,nt:9,next:5349,nextCheck:63576,str:7257,h:0,d0:0,d1:0;
+                            ("e6_weapon_scene", Expression<StringId> @:5349 check:63576,op:11,dt:11,nt:9,next:5350,nextCheck:63577,str:10519,h:0,d0:10282,d1:3840;
+                                ("cs_e6_weapon_scene", Expression<AIScript> @:5350 check:63577,op:21,dt:21,nt:9,next:5351,nextCheck:63578,str:10535,h:0,d0:144,d1:0;
+                                    ("e6_cov", Expression<AI> @:5351 check:63578,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:10280,h:0,d0:16,d1:16384;)))))
+                    (15, Expression<Short> @:5352 check:63579,op:7,dt:7,nt:9,next:5353,nextCheck:63580,str:863,h:1,d0:15,d1:65535;
+                        (300, Expression<Int> @:5353 check:63580,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:869,h:1,d0:300,d1:0;)))))))

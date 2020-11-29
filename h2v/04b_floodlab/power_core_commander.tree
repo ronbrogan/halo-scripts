@@ -1,0 +1,40 @@
+
+("power_core_commander", MethodDecl<Void> @:280 check:0,op:0,dt:0,nt:65535,next:16946,nextCheck:42406,str:29068,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:16946 check:42406,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:47408,h:2,d0:16947,d1:42407;
+        ("begin", Expression<MethodOrOperator> @:16947 check:42407,op:0,dt:2,nt:9,next:16910,nextCheck:42370,str:210,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:16910 check:42370,op:281,dt:4,nt:8,next:16913,nextCheck:42373,str:47447,h:2,d0:16911,d1:42371;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:16911 check:42371,op:281,dt:2,nt:9,next:16912,nextCheck:42372,str:17824,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:16912 check:42372,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:47467,h:2,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:16913 check:42373,op:19,dt:4,nt:8,next:16916,nextCheck:42376,str:47476,h:2,d0:16914,d1:42374;
+                ("sleep", Expression<MethodOrOperator> @:16914 check:42374,op:19,dt:2,nt:9,next:16915,nextCheck:42375,str:289,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:16915 check:42375,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:47483,h:2,d0:60,d1:65535;)))
+            (____, Scope<Void> @:16916 check:42376,op:21,dt:4,nt:8,next:16920,nextCheck:42380,str:47489,h:2,d0:16917,d1:42377;
+                ("sleep_until", Expression<MethodOrOperator> @:16917 check:42377,op:21,dt:2,nt:9,next:16918,nextCheck:42378,str:440,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:16918 check:42378,op:584,dt:5,nt:8,next:65535,nextCheck:65535,str:47502,h:2,d0:16919,d1:42379;
+                        ("game_safe_to_save", Expression<MethodOrOperator> @:16919 check:42379,op:584,dt:2,nt:9,next:65535,nextCheck:65535,str:16139,h:0,d0:0,d1:0;))))
+            (____, Scope<Void> @:16920 check:42380,op:27,dt:4,nt:8,next:16923,nextCheck:42383,str:47525,h:2,d0:16921,d1:42381;
+                ("print", Expression<MethodOrOperator> @:16921 check:42381,op:27,dt:2,nt:9,next:16922,nextCheck:42382,str:295,h:0,d0:0,d1:0;
+                    ("spec-ops commander: 'are you still alive, arbiter?'", Expression<String> @:16922 check:42382,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:28722,h:0,d0:17210,d1:10912;)))
+            (____, Scope<Void> @:16923 check:42383,op:19,dt:4,nt:8,next:16929,nextCheck:42389,str:47589,h:2,d0:16924,d1:42384;
+                ("sleep", Expression<MethodOrOperator> @:16924 check:42384,op:19,dt:2,nt:9,next:16925,nextCheck:42385,str:289,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:16925 check:42385,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:47596,h:2,d0:16926,d1:42386;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:16926 check:42386,op:362,dt:2,nt:9,next:16927,nextCheck:42387,str:17928,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:16927 check:42387,op:50,dt:50,nt:9,next:16928,nextCheck:42388,str:137,h:0,d0:65535,d1:65535;
+                                ("0770", Expression<StringId> @:16928 check:42388,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:28774,h:0,d0:9613,d1:1024;))))))
+            (____, Scope<Void> @:16929 check:42389,op:27,dt:4,nt:8,next:16932,nextCheck:42392,str:47728,h:2,d0:16930,d1:42390;
+                ("print", Expression<MethodOrOperator> @:16930 check:42390,op:27,dt:2,nt:9,next:16931,nextCheck:42391,str:295,h:0,d0:0,d1:0;
+                    ("spec-ops commander: 'we're keeping pace as best we can.'", Expression<String> @:16931 check:42391,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:28779,h:0,d0:17267,d1:10912;)))
+            (____, Scope<Void> @:16932 check:42392,op:19,dt:4,nt:8,next:16938,nextCheck:42398,str:47797,h:2,d0:16933,d1:42393;
+                ("sleep", Expression<MethodOrOperator> @:16933 check:42393,op:19,dt:2,nt:9,next:16934,nextCheck:42394,str:289,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:16934 check:42394,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:47804,h:2,d0:16935,d1:42395;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:16935 check:42395,op:362,dt:2,nt:9,next:16936,nextCheck:42396,str:17928,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:16936 check:42396,op:50,dt:50,nt:9,next:16937,nextCheck:42397,str:137,h:0,d0:65535,d1:65535;
+                                ("0780", Expression<StringId> @:16937 check:42397,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:28836,h:0,d0:9614,d1:1024;))))))
+            (____, Scope<Void> @:16938 check:42398,op:587,dt:4,nt:8,next:16940,nextCheck:42400,str:47936,h:2,d0:16939,d1:42399;
+                ("game_save", Expression<MethodOrOperator> @:16939 check:42399,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:9751,h:0,d0:0,d1:0;))
+            (____, Scope<Void> @:16940 check:42400,op:19,dt:4,nt:8,next:16943,nextCheck:42403,str:47950,h:2,d0:16941,d1:42401;
+                ("sleep", Expression<MethodOrOperator> @:16941 check:42401,op:19,dt:2,nt:9,next:16942,nextCheck:42402,str:289,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:16942 check:42402,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:47957,h:2,d0:30,d1:65535;)))
+            (____, Scope<Void> @:16943 check:42403,op:281,dt:4,nt:8,next:65535,nextCheck:65535,str:47963,h:2,d0:16944,d1:42404;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:16944 check:42404,op:281,dt:2,nt:9,next:16945,nextCheck:42405,str:17824,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16945 check:42405,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:47983,h:2,d0:65281,d1:65535;))))))

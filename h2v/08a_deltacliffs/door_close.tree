@@ -1,0 +1,14 @@
+
+("door_close", MethodDecl<Void> @:57 check:0,op:0,dt:0,nt:65535,next:1905,nextCheck:60132,str:4198,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:1905 check:60132,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:22319,h:0,d0:1906,d1:60133;
+        ("begin", Expression<MethodOrOperator> @:1906 check:60133,op:0,dt:2,nt:9,next:1895,nextCheck:60122,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:1895 check:60122,op:19,dt:4,nt:8,next:1898,nextCheck:60125,str:22348,h:0,d0:1896,d1:60123;
+                ("sleep", Expression<MethodOrOperator> @:1896 check:60123,op:19,dt:2,nt:9,next:1897,nextCheck:60124,str:143,h:0,d0:0,d1:0;
+                    (430, Expression<Short> @:1897 check:60124,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:22355,h:0,d0:430,d1:65535;)))
+            (____, Scope<Void> @:1898 check:60125,op:27,dt:4,nt:8,next:1901,nextCheck:60128,str:22362,h:0,d0:1899,d1:60126;
+                ("print", Expression<MethodOrOperator> @:1899 check:60126,op:27,dt:2,nt:9,next:1900,nextCheck:60127,str:149,h:0,d0:0,d1:0;
+                    ("door close", Expression<String> @:1900 check:60127,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:4105,h:0,d0:9593,d1:10757;)))
+            (____, Scope<Void> @:1901 check:60128,op:256,dt:4,nt:8,next:65535,nextCheck:65535,str:22439,h:0,d0:1902,d1:60129;
+                ("device_set_position", Expression<MethodOrOperator> @:1902 check:60129,op:256,dt:2,nt:9,next:1903,nextCheck:60130,str:4116,h:0,d0:0,d1:0;
+                    ("intra1_door", Expression<Device> @:1903 check:60130,op:60,dt:54,nt:9,next:1904,nextCheck:60131,str:4136,h:0,d0:47,d1:65535;
+                        (0f, Expression<Float> @:1904 check:60131,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:22472,h:0,d0:0,d1:0;)))))))

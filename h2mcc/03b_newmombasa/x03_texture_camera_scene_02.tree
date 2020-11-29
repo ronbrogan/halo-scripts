@@ -1,0 +1,21 @@
+
+("x03_texture_camera_scene_02", MethodDecl<Void> @:110 op:0,dt:0,nt:65535,next:3652,str:9039,d0:0,d1:0;
+    (____, Scope<Void> @:3652 op:0,dt:4,nt:8,next:65535,str:43764,d0:3653,d1:61880;
+        ("begin", Expression<MethodOrOperator> @:3653 op:0,dt:2,nt:9,next:3635,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:3635 op:27,dt:4,nt:8,next:3638,str:43810,d0:3636,d1:61863;
+                ("print", Expression<MethodOrOperator> @:3636 op:27,dt:2,nt:9,next:3637,str:91,d0:0,d1:0;
+                    ("texture camera start", Expression<String> @:3637 op:9,dt:9,nt:9,next:65535,str:8716,d0:8716,d1:0;)))
+            (____, Scope<Void> @:3638 op:48,dt:4,nt:8,next:3641,str:43843,d0:3639,d1:61866;
+                ("object_create_anew", Expression<MethodOrOperator> @:3639 op:48,dt:2,nt:9,next:3640,str:2379,d0:0,d1:0;
+                    ("texture_camera", Expression<EntityIdentifier> @:3640 op:56,dt:56,nt:9,next:65535,str:8737,d0:35,d1:65535;)))
+            (____, Scope<Void> @:3641 op:144,dt:4,nt:8,next:3646,str:43881,d0:3642,d1:61869;
+                ("texture_camera_set_object_marker", Expression<MethodOrOperator> @:3642 op:144,dt:2,nt:9,next:3643,str:8752,d0:0,d1:0;
+                    (4294901795, Expression<Entity> @:3643 op:56,dt:50,nt:9,next:3644,str:8737,d0:35,d1:65535;
+                        ("marker", Expression<StringId> @:3644 op:11,dt:11,nt:9,next:3645,str:8785,d0:5259,d1:1536;
+                            (50f, Expression<Float> @:3645 op:6,dt:6,nt:9,next:65535,str:43937,d0:0,d1:16968;)))))
+            (____, Scope<Void> @:3646 op:186,dt:4,nt:8,next:65535,str:43943,d0:3647,d1:61874;
+                ("scenery_animation_start_relative", Expression<MethodOrOperator> @:3647 op:186,dt:2,nt:9,next:3648,str:3221,d0:0,d1:0;
+                    ("texture_camera", Expression<Scenery> @:3648 op:61,dt:55,nt:9,next:3649,str:8737,d0:35,d1:65535;
+                        ("objects\cinematics\texture_camera\x03\x03", Expression<Animation> @:3649 op:36,dt:36,nt:9,next:3650,str:8792,d0:695,d1:58413;
+                            ("texture_camera_02", Expression<StringId> @:3650 op:11,dt:11,nt:9,next:3651,str:8834,d0:4002,d1:4352;
+                                (4294901839, Expression<Entity> @:3651 op:56,dt:50,nt:9,next:65535,str:8852,d0:79,d1:65535;)))))))))

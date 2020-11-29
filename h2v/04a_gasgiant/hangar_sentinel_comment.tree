@@ -1,0 +1,36 @@
+
+("hangar_sentinel_comment", MethodDecl<Void> @:293 check:0,op:0,dt:0,nt:65535,next:11369,nextCheck:36829,str:23249,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:11369 check:36829,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1545,h:2,d0:11370,d1:36830;
+        ("begin", Expression<MethodOrOperator> @:11370 check:36830,op:0,dt:2,nt:9,next:11337,nextCheck:36797,str:6,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:11337 check:36797,op:374,dt:4,nt:8,next:11340,nextCheck:36800,str:1594,h:2,d0:11338,d1:36798;
+                ("cs_switch", Expression<MethodOrOperator> @:11338 check:36798,op:374,dt:2,nt:9,next:11339,nextCheck:36799,str:15164,h:0,d0:0,d1:0;
+                    ("elev_elite", Expression<StringId> @:11339 check:36799,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:22986,h:0,d0:9397,d1:2560;)))
+            (____, Scope<Void> @:11340 check:36800,op:440,dt:4,nt:8,next:11343,nextCheck:36803,str:1619,h:2,d0:11341,d1:36801;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:11341 check:36801,op:440,dt:2,nt:9,next:11342,nextCheck:36802,str:15179,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11342 check:36802,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:1639,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:11343 check:36803,op:446,dt:4,nt:8,next:11346,nextCheck:36806,str:1647,h:2,d0:11344,d1:36804;
+                ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:11344 check:36804,op:446,dt:2,nt:9,next:11345,nextCheck:36805,str:15198,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11345 check:36805,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:1676,h:2,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:11346 check:36806,op:27,dt:4,nt:8,next:11349,nextCheck:36809,str:1684,h:2,d0:11347,d1:36807;
+                ("print", Expression<MethodOrOperator> @:11347 check:36807,op:27,dt:2,nt:9,next:11348,nextCheck:36808,str:91,h:0,d0:0,d1:0;
+                    ("spec-ops elite: 'sentinels! the holy warriors of the sacred rings!'", Expression<String> @:11348 check:36808,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:22997,h:0,d0:38909,d1:10848;)))
+            (____, Scope<Void> @:11349 check:36809,op:396,dt:4,nt:8,next:11353,nextCheck:36813,str:1764,h:2,d0:11350,d1:36810;
+                ("cs_aim", Expression<MethodOrOperator> @:11350 check:36810,op:396,dt:2,nt:9,next:11351,nextCheck:36811,str:18130,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11351 check:36811,op:5,dt:5,nt:9,next:11352,nextCheck:36812,str:1772,h:2,d0:65281,d1:65535;
+                        ("hangar_too/p0", Expression<SpatialPoint> @:11352 check:36812,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:23065,h:0,d0:18,d1:5;))))
+            (____, Scope<Void> @:11353 check:36813,op:418,dt:4,nt:8,next:11356,nextCheck:36816,str:1877,h:2,d0:11354,d1:36814;
+                ("cs_play_line", Expression<MethodOrOperator> @:11354 check:36814,op:418,dt:2,nt:9,next:11355,nextCheck:36815,str:15257,h:0,d0:0,d1:0;
+                    ("0360", Expression<StringId> @:11355 check:36815,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:23079,h:0,d0:8994,d1:1024;)))
+            (____, Scope<Void> @:11356 check:36816,op:19,dt:4,nt:8,next:11359,nextCheck:36819,str:1899,h:2,d0:11357,d1:36817;
+                ("sleep", Expression<MethodOrOperator> @:11357 check:36817,op:19,dt:2,nt:9,next:11358,nextCheck:36818,str:85,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:11358 check:36818,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:1906,h:2,d0:30,d1:65535;)))
+            (____, Scope<Void> @:11359 check:36819,op:27,dt:4,nt:8,next:11362,nextCheck:36822,str:1912,h:2,d0:11360,d1:36820;
+                ("print", Expression<MethodOrOperator> @:11360 check:36820,op:27,dt:2,nt:9,next:11361,nextCheck:36821,str:91,h:0,d0:0,d1:0;
+                    ("'why have they sided with these heretics?'", Expression<String> @:11361 check:36821,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:23084,h:0,d0:38996,d1:10848;)))
+            (____, Scope<Void> @:11362 check:36822,op:418,dt:4,nt:8,next:11365,nextCheck:36825,str:1967,h:2,d0:11363,d1:36823;
+                ("cs_play_line", Expression<MethodOrOperator> @:11363 check:36823,op:418,dt:2,nt:9,next:11364,nextCheck:36824,str:15257,h:0,d0:0,d1:0;
+                    ("0370", Expression<StringId> @:11364 check:36824,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:23127,h:0,d0:8995,d1:1024;)))
+            (____, Scope<Void> @:11365 check:36825,op:396,dt:4,nt:8,next:65535,nextCheck:65535,str:1989,h:2,d0:11366,d1:36826;
+                ("cs_aim", Expression<MethodOrOperator> @:11366 check:36826,op:396,dt:2,nt:9,next:11367,nextCheck:36827,str:18130,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:11367 check:36827,op:5,dt:5,nt:9,next:11368,nextCheck:36828,str:1997,h:2,d0:65280,d1:65535;
+                        ("hangar_too/p0", Expression<SpatialPoint> @:11368 check:36828,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:23065,h:0,d0:18,d1:5;)))))))

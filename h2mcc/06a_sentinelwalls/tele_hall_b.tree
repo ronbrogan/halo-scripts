@@ -1,0 +1,34 @@
+
+("tele_hall_b", MethodDecl<Void> @:387 op:0,dt:0,nt:65535,next:22771,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:22771 op:0,dt:4,nt:8,next:65535,str:41352,d0:22772,d1:48232;
+        ("begin", Expression<MethodOrOperator> @:22772 op:0,dt:2,nt:9,next:22741,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:22741 op:507,dt:4,nt:8,next:22744,str:41386,d0:22742,d1:48202;
+                ("switch_bsp", Expression<MethodOrOperator> @:22742 op:507,dt:2,nt:9,next:22743,str:31335,d0:0,d1:0;
+                    (0, Expression<Short> @:22743 op:7,dt:7,nt:9,next:65535,str:41398,d0:0,d1:65535;)))
+            (____, Scope<Void> @:22744 op:19,dt:4,nt:8,next:22747,str:41403,d0:22745,d1:48205;
+                ("sleep", Expression<MethodOrOperator> @:22745 op:19,dt:2,nt:9,next:22746,str:80,d0:0,d1:0;
+                    (1, Expression<Short> @:22746 op:7,dt:7,nt:9,next:65535,str:41410,d0:1,d1:65535;)))
+            (____, Scope<Void> @:22747 op:105,dt:4,nt:8,next:22752,str:41415,d0:22748,d1:48208;
+                ("object_teleport", Expression<MethodOrOperator> @:22748 op:105,dt:2,nt:9,next:22749,str:31466,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:22749 op:0,dt:50,nt:10,next:22751,str:41432,d0:22750,d1:48210;
+                        ("player0", Expression<MethodOrOperator> @:22750 op:0,dt:2,nt:9,next:65535,str:602,d0:0,d1:0;))
+                    ("hall_b_a", Expression<LocationFlag> @:22751 op:14,dt:14,nt:9,next:65535,str:34814,d0:9,d1:0;)))
+            (____, Scope<Void> @:22752 op:105,dt:4,nt:8,next:22757,str:41454,d0:22753,d1:48213;
+                ("object_teleport", Expression<MethodOrOperator> @:22753 op:105,dt:2,nt:9,next:22754,str:31466,d0:0,d1:0;
+                    ("player1", ScriptInvocation<Entity> @:22754 op:1,dt:50,nt:10,next:22756,str:41471,d0:22755,d1:48215;
+                        ("player1", Expression<MethodOrOperator> @:22755 op:1,dt:2,nt:9,next:65535,str:610,d0:0,d1:0;))
+                    ("hall_b_b", Expression<LocationFlag> @:22756 op:14,dt:14,nt:9,next:65535,str:34823,d0:10,d1:0;)))
+            (____, Scope<Void> @:22757 op:299,dt:4,nt:8,next:22759,str:41493,d0:22758,d1:48218;
+                ("ai_erase_all", Expression<MethodOrOperator> @:22758 op:299,dt:2,nt:9,next:65535,str:34777,d0:0,d1:0;))
+            (____, Scope<Void> @:22759 op:4,dt:4,nt:8,next:22763,str:41512,d0:22760,d1:48220;
+                ("set", Expression<MethodOrOperator> @:22760 op:4,dt:2,nt:9,next:22761,str:2613,d0:0,d1:0;
+                    ("g_hall_a", VariableAccess<Boolean> @:22761 op:65535,dt:5,nt:13,next:22762,str:27851,d0:11,d1:0;
+                        (True, Expression<Boolean> @:22762 op:5,dt:5,nt:9,next:65535,str:41526,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:22763 op:4,dt:4,nt:8,next:22767,str:41531,d0:22764,d1:48224;
+                ("set", Expression<MethodOrOperator> @:22764 op:4,dt:2,nt:9,next:22765,str:2613,d0:0,d1:0;
+                    ("g_conduit_a", VariableAccess<Boolean> @:22765 op:65535,dt:5,nt:13,next:22766,str:27989,d0:12,d1:0;
+                        (True, Expression<Boolean> @:22766 op:5,dt:5,nt:9,next:65535,str:41548,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:22767 op:4,dt:4,nt:8,next:65535,str:41553,d0:22768,d1:48228;
+                ("set", Expression<MethodOrOperator> @:22768 op:4,dt:2,nt:9,next:22769,str:2613,d0:0,d1:0;
+                    ("g_hall_b", VariableAccess<Boolean> @:22769 op:65535,dt:5,nt:13,next:22770,str:28265,d0:13,d1:0;
+                        (True, Expression<Boolean> @:22770 op:5,dt:5,nt:9,next:65535,str:41567,d0:65281,d1:65535;)))))))

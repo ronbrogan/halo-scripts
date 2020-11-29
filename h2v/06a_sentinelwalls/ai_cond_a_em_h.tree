@@ -1,0 +1,26 @@
+
+("ai_cond_a_em_h", MethodDecl<Void> @:226 check:0,op:0,dt:0,nt:65535,next:8989,nextCheck:34449,str:18999,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:8989 check:34449,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:31763,h:1,d0:8990,d1:34450;
+        ("begin", Expression<MethodOrOperator> @:8990 check:34450,op:0,dt:2,nt:9,next:8967,nextCheck:34427,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:8967 check:34427,op:2,dt:4,nt:8,next:8973,nextCheck:34433,str:31800,h:1,d0:8968,d1:34428;
+                ("if", Expression<MethodOrOperator> @:8968 check:34428,op:2,dt:2,nt:9,next:8969,nextCheck:34429,str:456,h:0,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:8969 check:34429,op:5,dt:5,nt:13,next:8970,nextCheck:34430,str:11180,h:0,d0:3,d1:0;
+                        (____, Scope<Void> @:8970 check:34430,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:31810,h:1,d0:8971,d1:34431;
+                            ("print", Expression<MethodOrOperator> @:8971 check:34431,op:27,dt:2,nt:9,next:8972,nextCheck:34432,str:86,h:0,d0:0,d1:0;
+                                ("h", Expression<String> @:8972 check:34432,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18224,h:0,d0:62936,d1:12464;))))))
+            (____, Scope<Void> @:8973 check:34433,op:290,dt:4,nt:8,next:8976,nextCheck:34436,str:31825,h:1,d0:8974,d1:34434;
+                ("ai_place", Expression<MethodOrOperator> @:8974 check:34434,op:290,dt:2,nt:9,next:8975,nextCheck:34435,str:1415,h:0,d0:0,d1:0;
+                    ("cond_a_sen_a/h", Expression<AI> @:8975 check:34435,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:18669,h:0,d0:5,d1:49162;)))
+            (____, Scope<Void> @:8976 check:34436,op:4,dt:4,nt:8,next:8983,nextCheck:34443,str:31853,h:1,d0:8977,d1:34437;
+                ("set", Expression<MethodOrOperator> @:8977 check:34437,op:4,dt:2,nt:9,next:8978,nextCheck:34438,str:2575,h:0,d0:0,d1:0;
+                    ("g_cond_a_count", VariableAccess<Short> @:8978 check:34438,op:65535,dt:7,nt:13,next:8979,nextCheck:34439,str:18590,h:0,d0:55,d1:0;
+                        (____, Scope<Short> @:8979 check:34439,op:7,dt:7,nt:8,next:65535,nextCheck:65535,str:31873,h:1,d0:8980,d1:34440;
+                            ("+", Expression<MethodOrOperator> @:8980 check:34440,op:7,dt:2,nt:9,next:8981,nextCheck:34441,str:983,h:0,d0:0,d1:0;
+                                ("g_cond_a_count", VariableAccess<Float> @:8981 check:34441,op:6,dt:6,nt:13,next:8982,nextCheck:34442,str:18590,h:0,d0:55,d1:0;
+                                    (1f, Expression<Float> @:8982 check:34442,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:31891,h:1,d0:0,d1:16256;)))))))
+            (____, Scope<Void> @:8983 check:34443,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:31898,h:1,d0:8984,d1:34444;
+                ("sleep", Expression<MethodOrOperator> @:8984 check:34444,op:19,dt:2,nt:9,next:8985,nextCheck:34445,str:80,h:0,d0:0,d1:0;
+                    (____, Scope<Short> @:8985 check:34445,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:31905,h:1,d0:8986,d1:34446;
+                        ("random_range", Expression<MethodOrOperator> @:8986 check:34446,op:124,dt:2,nt:9,next:8987,nextCheck:34447,str:17579,h:0,d0:0,d1:0;
+                            ("g_sleep_lower_bound", VariableAccess<Short> @:8987 check:34447,op:7,dt:7,nt:13,next:8988,nextCheck:34448,str:10859,h:0,d0:6,d1:0;
+                                ("g_sleep_upper_bound", VariableAccess<Short> @:8988 check:34448,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:10879,h:0,d0:7,d1:0;)))))))))

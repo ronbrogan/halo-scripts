@@ -1,0 +1,23 @@
+
+("test_room_a_to_jail", MethodDecl<Void> @:327 op:0,dt:0,nt:65535,next:15486,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:15486 op:0,dt:4,nt:8,next:65535,str:49879,d0:15487,d1:40947;
+        ("begin", Expression<MethodOrOperator> @:15487 op:0,dt:2,nt:9,next:15467,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:15467 op:22,dt:4,nt:8,next:15470,str:49921,d0:15468,d1:40928;
+                ("wake", Expression<MethodOrOperator> @:15468 op:22,dt:2,nt:9,next:15469,str:1146,d0:0,d1:0;
+                    ("sc_room_a_down", Expression<ScriptReference> @:15469 op:10,dt:10,nt:9,next:65535,str:33322,d0:247,d1:65535;)))
+            (____, Scope<Void> @:15470 op:290,dt:4,nt:8,next:15473,str:49945,d0:15471,d1:40931;
+                ("ai_place", Expression<MethodOrOperator> @:15471 op:290,dt:2,nt:9,next:15472,str:14833,d0:0,d1:0;
+                    ("room_a_brutes_ini", Expression<AI> @:15472 op:19,dt:19,nt:9,next:65535,str:33129,d0:66,d1:0;)))
+            (____, Scope<Void> @:15473 op:290,dt:4,nt:8,next:15476,str:49976,d0:15474,d1:40934;
+                ("ai_place", Expression<MethodOrOperator> @:15474 op:290,dt:2,nt:9,next:15475,str:14833,d0:0,d1:0;
+                    ("room_a_jackals_ini", Expression<AI> @:15475 op:19,dt:19,nt:9,next:65535,str:33147,d0:67,d1:0;)))
+            (____, Scope<Void> @:15476 op:290,dt:4,nt:8,next:15479,str:50008,d0:15477,d1:40937;
+                ("ai_place", Expression<MethodOrOperator> @:15477 op:290,dt:2,nt:9,next:15478,str:14833,d0:0,d1:0;
+                    ("room_a_brutes_bk", Expression<AI> @:15478 op:19,dt:19,nt:9,next:65535,str:33166,d0:68,d1:0;)))
+            (____, Scope<Void> @:15479 op:19,dt:4,nt:8,next:15482,str:50038,d0:15480,d1:40940;
+                ("sleep", Expression<MethodOrOperator> @:15480 op:19,dt:2,nt:9,next:15481,str:80,d0:0,d1:0;
+                    (150, Expression<Short> @:15481 op:7,dt:7,nt:9,next:65535,str:50045,d0:150,d1:65535;)))
+            (____, Scope<Void> @:15482 op:366,dt:4,nt:8,next:65535,str:50052,d0:15483,d1:40943;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:15483 op:366,dt:2,nt:9,next:15484,str:19006,d0:0,d1:0;
+                    ("room_a_prophets", Expression<AI> @:15484 op:19,dt:19,nt:9,next:15485,str:33197,d0:16,d1:16384;
+                        ("cs_room_a_to_jail", Expression<AIScript> @:15485 op:21,dt:21,nt:9,next:65535,str:33337,d0:322,d1:0;)))))))

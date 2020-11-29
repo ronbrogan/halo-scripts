@@ -1,0 +1,29 @@
+
+("e13_main", MethodDecl<Void> @:339 op:0,dt:0,nt:65535,next:11467,str:26325,d0:0,d1:0;
+    (____, Scope<Void> @:11467 op:0,dt:4,nt:8,next:65535,str:3880,d0:11468,d1:36928;
+        ("begin", Expression<MethodOrOperator> @:11468 op:0,dt:2,nt:9,next:11442,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:11442 op:4,dt:4,nt:8,next:11446,str:3907,d0:11443,d1:36903;
+                ("set", Expression<MethodOrOperator> @:11443 op:4,dt:2,nt:9,next:11444,str:1888,d0:0,d1:0;
+                    ("g_e13_started", VariableAccess<Boolean> @:11444 op:65535,dt:5,nt:13,next:11445,str:26301,d0:29,d1:0;
+                        (True, Expression<Boolean> @:11445 op:5,dt:5,nt:9,next:65535,str:3926,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:11446 op:587,dt:4,nt:8,next:11448,str:3934,d0:11447,d1:36907;
+                ("game_save", Expression<MethodOrOperator> @:11447 op:587,dt:2,nt:9,next:65535,str:26315,d0:0,d1:0;))
+            (____, Scope<Void> @:11448 op:27,dt:4,nt:8,next:11451,str:3948,d0:11449,d1:36909;
+                ("print", Expression<MethodOrOperator> @:11449 op:27,dt:2,nt:9,next:11450,str:91,d0:0,d1:0;
+                    ("e13_main", Expression<String> @:11450 op:9,dt:9,nt:9,next:65535,str:26325,d0:26325,d1:0;)))
+            (____, Scope<Void> @:11451 op:786,dt:4,nt:8,next:11454,str:3969,d0:11452,d1:36912;
+                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:11452 op:786,dt:2,nt:9,next:11453,str:26334,d0:0,d1:0;
+                    ("e13_control_room", Expression<String> @:11453 op:9,dt:9,nt:9,next:65535,str:26364,d0:26364,d1:0;)))
+            (____, Scope<Void> @:11454 op:263,dt:4,nt:8,next:11458,str:4043,d0:11455,d1:36915;
+                ("device_operates_automatically_set", Expression<MethodOrOperator> @:11455 op:263,dt:2,nt:9,next:11456,str:5254,d0:0,d1:0;
+                    ("e12_door0", Expression<Device> @:11456 op:60,dt:54,nt:9,next:11457,str:26381,d0:109,d1:65535;
+                        (False, Expression<Boolean> @:11457 op:5,dt:5,nt:9,next:65535,str:4088,d0:65280,d1:65535;))))
+            ("tartarus_boss_fight", ScriptInvocation<Void> @:11458 op:46,dt:4,nt:10,next:11460,str:4124,d0:11459,d1:36919;
+                ("tartarus_boss_fight", Expression<MethodOrOperator> @:11459 op:46,dt:2,nt:9,next:65535,str:26391,d0:0,d1:0;))
+            (____, Scope<Void> @:11460 op:22,dt:4,nt:8,next:11463,str:4148,d0:11461,d1:36921;
+                ("wake", Expression<MethodOrOperator> @:11461 op:22,dt:2,nt:9,next:11462,str:5851,d0:0,d1:0;
+                    ("objective3_clear", Expression<ScriptReference> @:11462 op:10,dt:10,nt:9,next:65535,str:26411,d0:280,d1:65535;)))
+            (____, Scope<Void> @:11463 op:4,dt:4,nt:8,next:65535,str:4174,d0:11464,d1:36924;
+                ("set", Expression<MethodOrOperator> @:11464 op:4,dt:2,nt:9,next:11465,str:1888,d0:0,d1:0;
+                    ("g_mission_over", VariableAccess<Boolean> @:11465 op:65535,dt:5,nt:13,next:11466,str:26428,d0:21,d1:0;
+                        (True, Expression<Boolean> @:11466 op:5,dt:5,nt:9,next:65535,str:4194,d0:65281,d1:65535;)))))))

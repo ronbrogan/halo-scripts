@@ -1,0 +1,26 @@
+
+("ai_plug_holder_em_i", MethodDecl<Void> @:282 op:0,dt:0,nt:65535,next:12815,str:22785,d0:0,d1:0;
+    (____, Scope<Void> @:12815 op:0,dt:4,nt:8,next:65535,str:64979,d0:12816,d1:38276;
+        ("begin", Expression<MethodOrOperator> @:12816 op:0,dt:2,nt:9,next:12793,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:12793 op:2,dt:4,nt:8,next:12799,str:65021,d0:12794,d1:38254;
+                ("if", Expression<MethodOrOperator> @:12794 op:2,dt:2,nt:9,next:12795,str:456,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:12795 op:5,dt:5,nt:13,next:12796,str:11238,d0:3,d1:0;
+                        (____, Scope<Void> @:12796 op:27,dt:4,nt:8,next:65535,str:65031,d0:12797,d1:38257;
+                            ("print", Expression<MethodOrOperator> @:12797 op:27,dt:2,nt:9,next:12798,str:86,d0:0,d1:0;
+                                ("i", Expression<String> @:12798 op:9,dt:9,nt:9,next:65535,str:18775,d0:18775,d1:0;))))))
+            (____, Scope<Void> @:12799 op:290,dt:4,nt:8,next:12802,str:65046,d0:12800,d1:38260;
+                ("ai_place", Expression<MethodOrOperator> @:12800 op:290,dt:2,nt:9,next:12801,str:1415,d0:0,d1:0;
+                    ("plug_holder_sen/i", Expression<AI> @:12801 op:19,dt:19,nt:9,next:65535,str:22437,d0:8,d1:49172;)))
+            (____, Scope<Void> @:12802 op:4,dt:4,nt:8,next:12809,str:65077,d0:12803,d1:38263;
+                ("set", Expression<MethodOrOperator> @:12803 op:4,dt:2,nt:9,next:12804,str:2613,d0:0,d1:0;
+                    ("g_plug_holder_count", VariableAccess<Short> @:12804 op:65535,dt:7,nt:13,next:12805,str:22345,d0:79,d1:0;
+                        (____, Scope<Short> @:12805 op:7,dt:7,nt:8,next:65535,str:65102,d0:12806,d1:38266;
+                            ("+", Expression<MethodOrOperator> @:12806 op:7,dt:2,nt:9,next:12807,str:983,d0:0,d1:0;
+                                ("g_plug_holder_count", VariableAccess<Float> @:12807 op:6,dt:6,nt:13,next:12808,str:22345,d0:79,d1:0;
+                                    (1f, Expression<Float> @:12808 op:6,dt:6,nt:9,next:65535,str:65125,d0:0,d1:16256;)))))))
+            (____, Scope<Void> @:12809 op:19,dt:4,nt:8,next:65535,str:65131,d0:12810,d1:38270;
+                ("sleep", Expression<MethodOrOperator> @:12810 op:19,dt:2,nt:9,next:12811,str:80,d0:0,d1:0;
+                    (____, Scope<Short> @:12811 op:124,dt:7,nt:8,next:65535,str:65138,d0:12812,d1:38272;
+                        ("random_range", Expression<MethodOrOperator> @:12812 op:124,dt:2,nt:9,next:12813,str:17670,d0:0,d1:0;
+                            ("g_sleep_lower_bound", VariableAccess<Short> @:12813 op:7,dt:7,nt:13,next:12814,str:10917,d0:6,d1:0;
+                                ("g_sleep_upper_bound", VariableAccess<Short> @:12814 op:7,dt:7,nt:13,next:65535,str:10937,d0:7,d1:0;)))))))))

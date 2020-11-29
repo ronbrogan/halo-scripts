@@ -1,0 +1,26 @@
+
+("e14_mars_pelican0_main", MethodDecl<Void> @:425 op:0,dt:0,nt:65535,next:15452,str:31251,d0:0,d1:0;
+    (____, Scope<Void> @:15452 op:0,dt:4,nt:8,next:65535,str:5855,d0:15453,d1:40913;
+        ("begin", Expression<MethodOrOperator> @:15453 op:0,dt:2,nt:9,next:15430,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:15430 op:290,dt:4,nt:8,next:15433,str:5896,d0:15431,d1:40891;
+                ("ai_place", Expression<MethodOrOperator> @:15431 op:290,dt:2,nt:9,next:15432,str:16628,d0:0,d1:0;
+                    ("e14_mars_pelican0", Expression<AI> @:15432 op:19,dt:19,nt:9,next:65535,str:30927,d0:2,d1:0;)))
+            (____, Scope<Void> @:15433 op:90,dt:4,nt:8,next:15438,str:5927,d0:15434,d1:40894;
+                ("object_cannot_take_damage", Expression<MethodOrOperator> @:15434 op:90,dt:2,nt:9,next:15435,str:623,d0:0,d1:0;
+                    (____, Scope<List> @:15435 op:332,dt:31,nt:8,next:65535,str:5954,d0:15436,d1:40896;
+                        ("ai_actors", Expression<MethodOrOperator> @:15436 op:332,dt:2,nt:9,next:15437,str:16061,d0:0,d1:0;
+                            ("e14_mars_pelican0", Expression<AI> @:15437 op:19,dt:19,nt:9,next:65535,str:30927,d0:2,d1:0;)))))
+            (____, Scope<Void> @:15438 op:346,dt:4,nt:8,next:15445,str:6006,d0:15439,d1:40899;
+                ("ai_vehicle_enter_immediate", Expression<MethodOrOperator> @:15439 op:346,dt:2,nt:9,next:15440,str:18211,d0:0,d1:0;
+                    ("e14_mars_pelican0/gunner0", Expression<AI> @:15440 op:19,dt:19,nt:9,next:15441,str:30945,d0:2,d1:49154;
+                        (____, Scope<Unit> @:15441 op:340,dt:51,nt:8,next:15444,str:6060,d0:15442,d1:40902;
+                            ("ai_vehicle_get", Expression<MethodOrOperator> @:15442 op:340,dt:2,nt:9,next:15443,str:15490,d0:0,d1:0;
+                                ("e14_mars_pelican0/pelican0", Expression<AI> @:15443 op:19,dt:19,nt:9,next:65535,str:30971,d0:0,d1:49154;)))
+                        ("pelican_g", Expression<VehicleSeat> @:15444 op:12,dt:12,nt:9,next:65535,str:30998,d0:10,d1:3;))))
+            (____, Scope<Void> @:15445 op:346,dt:4,nt:8,next:65535,str:6119,d0:15446,d1:40906;
+                ("ai_vehicle_enter_immediate", Expression<MethodOrOperator> @:15446 op:346,dt:2,nt:9,next:15447,str:18211,d0:0,d1:0;
+                    ("e14_mars_pelican0/johnson0", Expression<AI> @:15447 op:19,dt:19,nt:9,next:15448,str:31008,d0:1,d1:49154;
+                        (____, Scope<Unit> @:15448 op:340,dt:51,nt:8,next:15451,str:6174,d0:15449,d1:40909;
+                            ("ai_vehicle_get", Expression<MethodOrOperator> @:15449 op:340,dt:2,nt:9,next:15450,str:15490,d0:0,d1:0;
+                                ("e14_mars_pelican0/pelican0", Expression<AI> @:15450 op:19,dt:19,nt:9,next:65535,str:30971,d0:0,d1:49154;)))
+                        ("pelican_g_rear", Expression<VehicleSeat> @:15451 op:12,dt:12,nt:9,next:65535,str:31035,d0:11,d1:1;)))))))

@@ -1,0 +1,15 @@
+
+("effect_hev_door_release", MethodDecl<Void> @:155 op:0,dt:0,nt:65535,next:5335,str:12691,d0:0,d1:0;
+    (____, Scope<Void> @:5335 op:0,dt:4,nt:8,next:65535,str:120,d0:5336,d1:63563;
+        ("begin", Expression<MethodOrOperator> @:5336 op:0,dt:2,nt:9,next:5324,str:54,d0:0,d1:0;
+            (____, Scope<Void> @:5324 op:19,dt:4,nt:8,next:5327,str:162,d0:5325,d1:63552;
+                ("sleep", Expression<MethodOrOperator> @:5325 op:19,dt:2,nt:9,next:5326,str:133,d0:0,d1:0;
+                    (390, Expression<Short> @:5326 op:7,dt:7,nt:9,next:65535,str:169,d0:390,d1:65535;)))
+            (____, Scope<Void> @:5327 op:41,dt:4,nt:8,next:5332,str:176,d0:5328,d1:63555;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:5328 op:41,dt:2,nt:9,next:5329,str:8573,d0:0,d1:0;
+                    ("effects\cinematics\05\hev_door_release", Expression<Effect> @:5329 op:33,dt:33,nt:9,next:5330,str:12298,d0:1008,d1:58726;
+                        (4294901823, Expression<Entity> @:5330 op:56,dt:50,nt:9,next:5331,str:11324,d0:63,d1:65535;
+                            ("door_release", Expression<StringId> @:5331 op:11,dt:11,nt:9,next:65535,str:12337,d0:5167,d1:3072;)))))
+            (____, Scope<Void> @:5332 op:27,dt:4,nt:8,next:65535,str:273,d0:5333,d1:63560;
+                ("print", Expression<MethodOrOperator> @:5333 op:27,dt:2,nt:9,next:5334,str:139,d0:0,d1:0;
+                    ("effect - blow pins", Expression<String> @:5334 op:9,dt:9,nt:9,next:65535,str:12350,d0:12350,d1:0;))))))

@@ -1,0 +1,36 @@
+
+("e2_mars_johnson_main", MethodDecl<Void> @:376 check:0,op:0,dt:0,nt:65535,next:15462,nextCheck:40922,str:25592,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:15462 check:40922,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:60086,h:2,d0:15463,d1:40923;
+        ("begin", Expression<MethodOrOperator> @:15463 check:40923,op:0,dt:2,nt:9,next:15430,nextCheck:40890,str:64,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:15430 check:40890,op:309,dt:4,nt:8,next:15434,nextCheck:40894,str:60125,h:2,d0:15431,d1:40891;
+                ("ai_migrate", Expression<MethodOrOperator> @:15431 check:40891,op:309,dt:2,nt:9,next:15432,nextCheck:40892,str:13128,h:0,d0:0,d1:0;
+                    ("e1_mars_johnson", Expression<AI> @:15432 check:40892,op:19,dt:19,nt:9,next:15433,nextCheck:40893,str:24108,h:0,d0:0,d1:0;
+                        ("e2_mars_johnson", Expression<AI> @:15433 check:40893,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:24124,h:0,d0:29,d1:0;))))
+            (____, Scope<Void> @:15434 check:40894,op:300,dt:4,nt:8,next:15438,nextCheck:40898,str:60172,h:2,d0:15435,d1:40895;
+                ("ai_disposable", Expression<MethodOrOperator> @:15435 check:40895,op:300,dt:2,nt:9,next:15436,nextCheck:40896,str:13193,h:0,d0:0,d1:0;
+                    ("e2_mars_johnson", Expression<AI> @:15436 check:40896,op:19,dt:19,nt:9,next:15437,nextCheck:40897,str:24124,h:0,d0:29,d1:0;
+                        (False, Expression<Boolean> @:15437 check:40897,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:60203,h:2,d0:65280,d1:65535;))))
+            (____, Scope<Void> @:15438 check:40898,op:366,dt:4,nt:8,next:15442,nextCheck:40902,str:60213,h:2,d0:15439,d1:40899;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:15439 check:40899,op:366,dt:2,nt:9,next:15440,nextCheck:40900,str:4703,h:0,d0:0,d1:0;
+                    ("e2_mars_johnson", Expression<AI> @:15440 check:40900,op:19,dt:19,nt:9,next:15441,nextCheck:40901,str:24124,h:0,d0:29,d1:0;
+                        ("cs_e2_mars_johnson0_watch", Expression<AIScript> @:15441 check:40901,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:25428,h:0,d0:369,d1:0;))))
+            (____, Scope<Void> @:15442 check:40902,op:21,dt:4,nt:8,next:15450,nextCheck:40910,str:60323,h:2,d0:15443,d1:40903;
+                ("sleep_until", Expression<MethodOrOperator> @:15443 check:40903,op:21,dt:2,nt:9,next:15444,nextCheck:40904,str:294,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:15444 check:40904,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:60336,h:2,d0:15445,d1:40905;
+                        (">", Expression<MethodOrOperator> @:15445 check:40905,op:15,dt:2,nt:9,next:15446,nextCheck:40906,str:12195,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:15446 check:40906,op:335,dt:7,nt:8,next:15449,nextCheck:40909,str:60339,h:2,d0:15447,d1:40907;
+                                ("ai_spawn_count", Expression<MethodOrOperator> @:15447 check:40907,op:335,dt:2,nt:9,next:15448,nextCheck:40908,str:15920,h:0,d0:0,d1:0;
+                                    ("e2_cov_hunters0", Expression<AI> @:15448 check:40908,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:24079,h:0,d0:31,d1:0;)))
+                            (0, Expression<Short> @:15449 check:40909,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:60372,h:2,d0:0,d1:65535;)))))
+            (____, Scope<Void> @:15450 check:40910,op:21,dt:4,nt:8,next:15458,nextCheck:40918,str:60378,h:2,d0:15451,d1:40911;
+                ("sleep_until", Expression<MethodOrOperator> @:15451 check:40911,op:21,dt:2,nt:9,next:15452,nextCheck:40912,str:294,h:0,d0:0,d1:0;
+                    (____, Scope<Boolean> @:15452 check:40912,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:60391,h:2,d0:15453,d1:40913;
+                        ("<=", Expression<MethodOrOperator> @:15453 check:40913,op:18,dt:2,nt:9,next:15454,nextCheck:40914,str:11797,h:0,d0:0,d1:0;
+                            (____, Scope<Short> @:15454 check:40914,op:327,dt:7,nt:8,next:15457,nextCheck:40917,str:60395,h:2,d0:15455,d1:40915;
+                                ("ai_living_count", Expression<MethodOrOperator> @:15455 check:40915,op:327,dt:2,nt:9,next:15456,nextCheck:40916,str:11800,h:0,d0:0,d1:0;
+                                    ("e2_cov_hunters0", Expression<AI> @:15456 check:40916,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:24079,h:0,d0:31,d1:0;)))
+                            (0, Expression<Short> @:15457 check:40917,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:60429,h:2,d0:0,d1:65535;)))))
+            (____, Scope<Void> @:15458 check:40918,op:366,dt:4,nt:8,next:65535,nextCheck:65535,str:60435,h:2,d0:15459,d1:40919;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:15459 check:40919,op:366,dt:2,nt:9,next:15460,nextCheck:40920,str:4703,h:0,d0:0,d1:0;
+                    ("e2_mars", Expression<AI> @:15460 check:40920,op:19,dt:19,nt:9,next:15461,nextCheck:40921,str:25001,h:0,d0:10,d1:16384;
+                        ("cs_e2_mars_continue", Expression<AIScript> @:15461 check:40921,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:25454,h:0,d0:371,d1:0;)))))))

@@ -1,0 +1,16 @@
+
+("cs_e12_ghosts_entry", MethodDecl<Void> @:188 op:0,dt:0,nt:65535,next:6582,str:65535,d0:0,d1:0;
+    (____, Scope<Void> @:6582 op:0,dt:4,nt:8,next:65535,str:13642,d0:6583,d1:64810;
+        ("begin", Expression<MethodOrOperator> @:6583 op:0,dt:2,nt:9,next:6570,str:64,d0:0,d1:0;
+            (____, Scope<Void> @:6570 op:441,dt:4,nt:8,next:6573,str:13687,d0:6571,d1:64798;
+                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:6571 op:441,dt:2,nt:9,next:6572,str:13781,d0:0,d1:0;
+                    ("ai_combat_status_clear_los", VariableAccess<Short> @:6572 op:7,dt:7,nt:13,next:65535,str:13973,d0:33579,d1:65535;)))
+            (____, Scope<Void> @:6573 op:444,dt:4,nt:8,next:6576,str:13744,d0:6574,d1:64801;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:6574 op:444,dt:2,nt:9,next:6575,str:14000,d0:0,d1:0;
+                    (True, Expression<Boolean> @:6575 op:5,dt:5,nt:9,next:65535,str:13762,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:6576 op:438,dt:4,nt:8,next:6579,str:13770,d0:6577,d1:64804;
+                ("cs_vehicle_boost", Expression<MethodOrOperator> @:6577 op:438,dt:2,nt:9,next:6578,str:11556,d0:0,d1:0;
+                    (True, Expression<Boolean> @:6578 op:5,dt:5,nt:9,next:65535,str:13788,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:6579 op:19,dt:4,nt:8,next:65535,str:13796,d0:6580,d1:64807;
+                ("sleep", Expression<MethodOrOperator> @:6580 op:19,dt:2,nt:9,next:6581,str:143,d0:0,d1:0;
+                    (150, Expression<Short> @:6581 op:7,dt:7,nt:9,next:65535,str:13803,d0:150,d1:65535;))))))

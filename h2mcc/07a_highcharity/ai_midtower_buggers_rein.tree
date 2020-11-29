@@ -1,0 +1,41 @@
+
+("ai_midtower_buggers_rein", MethodDecl<Void> @:389 op:0,dt:0,nt:65535,next:19038,str:42616,d0:0,d1:0;
+    (____, Scope<Void> @:19038 op:0,dt:4,nt:8,next:65535,str:13959,d0:19039,d1:44499;
+        ("begin", Expression<MethodOrOperator> @:19039 op:0,dt:2,nt:9,next:19001,str:1,d0:0,d1:0;
+            (____, Scope<Void> @:19001 op:21,dt:4,nt:8,next:19016,str:14002,d0:19002,d1:44462;
+                ("sleep_until", Expression<MethodOrOperator> @:19002 op:21,dt:2,nt:9,next:19003,str:231,d0:0,d1:0;
+                    (____, Scope<Boolean> @:19003 op:6,dt:5,nt:8,next:65535,str:14015,d0:19004,d1:44464;
+                        ("or", Expression<MethodOrOperator> @:19004 op:6,dt:2,nt:9,next:19005,str:844,d0:0,d1:0;
+                            (____, Scope<Boolean> @:19005 op:33,dt:5,nt:8,next:19010,str:14025,d0:19006,d1:44466;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:19006 op:33,dt:2,nt:9,next:19007,str:17358,d0:0,d1:0;
+                                    ("tv_midtower_mid", Expression<Trigger> @:19007 op:13,dt:13,nt:9,next:19008,str:37651,d0:99,d1:0;
+                                        (____, Scope<List> @:19008 op:28,dt:31,nt:8,next:65535,str:14062,d0:19009,d1:44469;
+                                            ("players", Expression<MethodOrOperator> @:19009 op:28,dt:2,nt:9,next:65535,str:21,d0:0,d1:0;)))))
+                            (____, Scope<Boolean> @:19010 op:18,dt:5,nt:8,next:65535,str:14079,d0:19011,d1:44471;
+                                ("<=", Expression<MethodOrOperator> @:19011 op:18,dt:2,nt:9,next:19012,str:21122,d0:0,d1:0;
+                                    (____, Scope<Short> @:19012 op:327,dt:7,nt:8,next:19015,str:14083,d0:19013,d1:44473;
+                                        ("ai_living_count", Expression<MethodOrOperator> @:19013 op:327,dt:2,nt:9,next:19014,str:19381,d0:0,d1:0;
+                                            ("midtower_prophets", Expression<AI> @:19014 op:19,dt:19,nt:9,next:65535,str:37667,d0:36,d1:16384;)))
+                                    (3, Expression<Short> @:19015 op:7,dt:7,nt:9,next:65535,str:14119,d0:3,d1:65535;)))))))
+            (____, Scope<Void> @:19016 op:2,dt:4,nt:8,next:19032,str:14135,d0:19017,d1:44477;
+                ("if", Expression<MethodOrOperator> @:19017 op:2,dt:2,nt:9,next:19018,str:456,d0:0,d1:0;
+                    (____, Scope<Boolean> @:19018 op:18,dt:5,nt:8,next:19029,str:14139,d0:19019,d1:44479;
+                        ("<=", Expression<MethodOrOperator> @:19019 op:18,dt:2,nt:9,next:19020,str:21122,d0:0,d1:0;
+                            (-2.1974556E-11f, Scope<Float> @:19020 op:7,dt:6,nt:8,next:19028,str:14143,d0:19021,d1:44481;
+                                ("+", Expression<MethodOrOperator> @:19021 op:7,dt:2,nt:9,next:19022,str:983,d0:0,d1:0;
+                                    (-2.2201933E-11f, Scope<Float> @:19022 op:327,dt:6,nt:8,next:19025,str:14146,d0:19023,d1:44483;
+                                        ("ai_living_count", Expression<MethodOrOperator> @:19023 op:327,dt:2,nt:9,next:19024,str:19381,d0:0,d1:0;
+                                            ("midtower_prophets", Expression<AI> @:19024 op:19,dt:19,nt:9,next:65535,str:37667,d0:36,d1:16384;)))
+                                    (-2.2542999E-11f, Scope<Float> @:19025 op:327,dt:6,nt:8,next:65535,str:14182,d0:19026,d1:44486;
+                                        ("ai_living_count", Expression<MethodOrOperator> @:19026 op:327,dt:2,nt:9,next:19027,str:19381,d0:0,d1:0;
+                                            ("midtower_covenant", Expression<AI> @:19027 op:19,dt:19,nt:9,next:65535,str:37685,d0:37,d1:16384;)))))
+                            (4f, Expression<Float> @:19028 op:6,dt:6,nt:9,next:65535,str:14219,d0:0,d1:16512;)))
+                    (____, Scope<Void> @:19029 op:290,dt:4,nt:8,next:65535,str:14222,d0:19030,d1:44490;
+                        ("ai_place", Expression<MethodOrOperator> @:19030 op:290,dt:2,nt:9,next:19031,str:14833,d0:0,d1:0;
+                            ("midtower_bugger_rein", Expression<AI> @:19031 op:19,dt:19,nt:9,next:65535,str:37703,d0:179,d1:0;)))))
+            (____, Scope<Void> @:19032 op:2,dt:4,nt:8,next:65535,str:14257,d0:19033,d1:44493;
+                ("if", Expression<MethodOrOperator> @:19033 op:2,dt:2,nt:9,next:19034,str:456,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:19034 op:5,dt:5,nt:13,next:19035,str:17539,d0:3,d1:0;
+                        (____, Scope<Void> @:19035 op:27,dt:4,nt:8,next:65535,str:14267,d0:19036,d1:44496;
+                            ("print", Expression<MethodOrOperator> @:19036 op:27,dt:2,nt:9,next:19037,str:86,d0:0,d1:0;
+                                ("bugger reinforcements", Expression<String> @:19037 op:9,dt:9,nt:9,next:65535,str:37724,d0:37724,d1:0;)))))))))

@@ -1,0 +1,15 @@
+
+("x08_foley_10", MethodDecl<Void> @:105 check:0,op:0,dt:0,nt:65535,next:2999,nextCheck:61226,str:7322,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:2999 check:61226,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:39463,h:0,d0:3000,d1:61227;
+        ("begin", Expression<MethodOrOperator> @:3000 check:61227,op:0,dt:2,nt:9,next:2988,nextCheck:61215,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:2988 check:61215,op:19,dt:4,nt:8,next:2991,nextCheck:61218,str:39494,h:0,d0:2989,d1:61216;
+                ("sleep", Expression<MethodOrOperator> @:2989 check:61216,op:19,dt:2,nt:9,next:2990,nextCheck:61217,str:80,h:0,d0:0,d1:0;
+                    (0, Expression<Short> @:2990 check:61217,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:39501,h:0,d0:0,d1:65535;)))
+            (____, Scope<Void> @:2991 check:61218,op:596,dt:4,nt:8,next:2996,nextCheck:61223,str:39506,h:0,d0:2992,d1:61219;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:2992 check:61219,op:596,dt:2,nt:9,next:2993,nextCheck:61220,str:1513,h:0,d0:0,d1:0;
+                    ("sound\cinematics\07_highcharity\x08\foley\x08_10_fol", Expression<Sound> @:2993 check:61220,op:32,dt:32,nt:9,next:2994,nextCheck:61221,str:6966,h:0,d0:859,d1:58577;
+                        (4294967295, Expression<Entity> @:2994 check:61221,op:50,dt:50,nt:9,next:2995,nextCheck:61222,str:1586,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:2995 check:61222,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:39585,h:0,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:2996 check:61223,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:39590,h:0,d0:2997,d1:61224;
+                ("print", Expression<MethodOrOperator> @:2997 check:61224,op:27,dt:2,nt:9,next:2998,nextCheck:61225,str:86,h:0,d0:0,d1:0;
+                    ("x08 foley 10 start", Expression<String> @:2998 check:61225,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:7019,h:0,d0:58163,d1:12542;))))))

@@ -1,0 +1,26 @@
+
+("x05_0180_mir", MethodDecl<Void> @:75 op:0,dt:0,nt:65535,next:2295,str:5773,d0:0,d1:0;
+    (____, Scope<Void> @:2295 op:0,dt:4,nt:8,next:65535,str:26545,d0:2296,d1:60523;
+        ("begin", Expression<MethodOrOperator> @:2296 op:0,dt:2,nt:9,next:2273,str:54,d0:0,d1:0;
+            (____, Scope<Void> @:2273 op:19,dt:4,nt:8,next:2276,str:26576,d0:2274,d1:60501;
+                ("sleep", Expression<MethodOrOperator> @:2274 op:19,dt:2,nt:9,next:2275,str:133,d0:0,d1:0;
+                    (418, Expression<Short> @:2275 op:7,dt:7,nt:9,next:65535,str:26583,d0:418,d1:65535;)))
+            (____, Scope<Void> @:2276 op:598,dt:4,nt:8,next:2282,str:26590,d0:2277,d1:60504;
+                ("sound_impulse_start_effect", Expression<MethodOrOperator> @:2277 op:598,dt:2,nt:9,next:2278,str:3061,d0:0,d1:0;
+                    ("sound\dialog\levels\05_deltatemple\cinematics\x05_0180_mir", Expression<Sound> @:2278 op:32,dt:32,nt:9,next:2279,str:5714,d0:957,d1:58675;
+                        (4294967295, Expression<Entity> @:2279 op:50,dt:50,nt:9,next:2280,str:1392,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:2280 op:6,dt:6,nt:9,next:2281,str:26682,d0:0,d1:16256;
+                                ("radio_default_loop", Expression<StringId> @:2281 op:11,dt:11,nt:9,next:65535,str:3446,d0:14220,d1:4608;))))))
+            (____, Scope<Void> @:2282 op:562,dt:4,nt:8,next:2286,str:26706,d0:2283,d1:60510;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:2283 op:562,dt:2,nt:9,next:2284,str:2567,d0:0,d1:0;
+                    ("x05_0180_mir", Expression<StringId> @:2284 op:11,dt:11,nt:9,next:2285,str:5773,d0:5077,d1:3072;
+                        (2f, Expression<Float> @:2285 op:6,dt:6,nt:9,next:65535,str:26739,d0:0,d1:16384;))))
+            (____, Scope<Void> @:2286 op:220,dt:4,nt:8,next:2292,str:26747,d0:2287,d1:60514;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2287 op:220,dt:2,nt:9,next:2288,str:2599,d0:0,d1:0;
+                    ("miranda", Expression<Unit> @:2288 op:57,dt:51,nt:9,next:2289,str:1740,d0:71,d1:65535;
+                        ("angry", Expression<StringId> @:2289 op:11,dt:11,nt:9,next:2290,str:5786,d0:430,d1:1280;
+                            (0.25f, Expression<Float> @:2290 op:6,dt:6,nt:9,next:2291,str:26787,d0:0,d1:16000;
+                                (0, Expression<Short> @:2291 op:7,dt:7,nt:9,next:65535,str:26791,d0:0,d1:65535;))))))
+            (____, Scope<Void> @:2292 op:27,dt:4,nt:8,next:65535,str:26796,d0:2293,d1:60520;
+                ("print", Expression<MethodOrOperator> @:2293 op:27,dt:2,nt:9,next:2294,str:139,d0:0,d1:0;
+                    ("miranda - angry .25 0", Expression<String> @:2294 op:9,dt:9,nt:9,next:65535,str:5792,d0:5792,d1:0;))))))

@@ -1,0 +1,14 @@
+
+("test_phantom", MethodDecl<Void> @:268 check:0,op:0,dt:0,nt:65535,next:11926,nextCheck:37386,str:65535,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:11926 check:37386,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:57258,h:1,d0:11927,d1:37387;
+        ("begin", Expression<MethodOrOperator> @:11927 check:37387,op:0,dt:2,nt:9,next:11916,nextCheck:37376,str:1,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:11916 check:37376,op:290,dt:4,nt:8,next:11919,nextCheck:37379,str:57293,h:1,d0:11917,d1:37377;
+                ("ai_place", Expression<MethodOrOperator> @:11917 check:37377,op:290,dt:2,nt:9,next:11918,nextCheck:37378,str:1415,h:0,d0:0,d1:0;
+                    ("gap_phantom", Expression<AI> @:11918 check:37378,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:21353,h:0,d0:17,d1:0;)))
+            (____, Scope<Void> @:11919 check:37379,op:19,dt:4,nt:8,next:11922,nextCheck:37382,str:57318,h:1,d0:11920,d1:37380;
+                ("sleep", Expression<MethodOrOperator> @:11920 check:37380,op:19,dt:2,nt:9,next:11921,nextCheck:37381,str:80,h:0,d0:0,d1:0;
+                    (1, Expression<Short> @:11921 check:37381,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:57325,h:1,d0:1,d1:65535;)))
+            (____, Scope<Void> @:11922 check:37382,op:366,dt:4,nt:8,next:65535,nextCheck:65535,str:57330,h:1,d0:11923,d1:37383;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:11923 check:37383,op:366,dt:2,nt:9,next:11924,nextCheck:37384,str:1464,h:0,d0:0,d1:0;
+                    ("gap_phantom", Expression<AI> @:11924 check:37384,op:19,dt:19,nt:9,next:11925,nextCheck:37385,str:21353,h:0,d0:17,d1:0;
+                        ("cs_gap_phantom", Expression<AIScript> @:11925 check:37385,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:21365,h:0,d0:267,d1:0;)))))))

@@ -1,0 +1,17 @@
+
+("silo_down_200", MethodDecl<Void> @:182 check:0,op:0,dt:0,nt:65535,next:6420,nextCheck:64647,str:16582,h:0,d0:0,d1:0;
+    (____, Scope<Void> @:6420 check:64647,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:8622,h:1,d0:6421,d1:64648;
+        ("begin", Expression<MethodOrOperator> @:6421 check:64648,op:0,dt:2,nt:9,next:6407,nextCheck:64634,str:210,h:0,d0:0,d1:0;
+            (____, Scope<Void> @:6407 check:64634,op:266,dt:4,nt:8,next:6412,nextCheck:64639,str:8658,h:1,d0:6408,d1:64635;
+                ("device_set_position_track", Expression<MethodOrOperator> @:6408 check:64635,op:266,dt:2,nt:9,next:6409,nextCheck:64636,str:15262,h:0,d0:0,d1:0;
+                    ("elev_silo", Expression<Device> @:6409 check:64636,op:60,dt:54,nt:9,next:6410,nextCheck:64637,str:15117,h:0,d0:385,d1:65535;
+                        ("down_200", Expression<StringId> @:6410 check:64637,op:11,dt:11,nt:9,next:6411,nextCheck:64638,str:15288,h:0,d0:9171,d1:2048;
+                            (0f, Expression<Float> @:6411 check:64638,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:8704,h:1,d0:0,d1:0;)))))
+            (____, Scope<Void> @:6412 check:64639,op:268,dt:4,nt:8,next:65535,nextCheck:65535,str:8709,h:1,d0:6413,d1:64640;
+                ("device_animate_position", Expression<MethodOrOperator> @:6413 check:64640,op:268,dt:2,nt:9,next:6414,nextCheck:64641,str:15297,h:0,d0:0,d1:0;
+                    ("elev_silo", Expression<Device> @:6414 check:64641,op:60,dt:54,nt:9,next:6415,nextCheck:64642,str:15117,h:0,d0:385,d1:65535;
+                        (1f, Expression<Float> @:6415 check:64642,op:6,dt:6,nt:9,next:6416,nextCheck:64643,str:8744,h:1,d0:0,d1:16256;
+                            (5f, Expression<Float> @:6416 check:64643,op:6,dt:6,nt:9,next:6417,nextCheck:64644,str:8746,h:1,d0:0,d1:16544;
+                                (1f, Expression<Float> @:6417 check:64644,op:6,dt:6,nt:9,next:6418,nextCheck:64645,str:8748,h:1,d0:0,d1:16256;
+                                    (1f, Expression<Float> @:6418 check:64645,op:6,dt:6,nt:9,next:6419,nextCheck:64646,str:8750,h:1,d0:0,d1:16256;
+                                        (False, Expression<Boolean> @:6419 check:64646,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:8752,h:1,d0:65280,d1:65535;)))))))))))

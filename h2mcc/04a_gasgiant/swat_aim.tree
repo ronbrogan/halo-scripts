@@ -1,0 +1,33 @@
+
+("swat_aim", MethodDecl<Void> @:261 op:0,dt:0,nt:65535,next:9074,str:19796,d0:0,d1:0;
+    (____, Scope<Void> @:9074 op:0,dt:4,nt:8,next:65535,str:40964,d0:9075,d1:34535;
+        ("begin", Expression<MethodOrOperator> @:9075 op:0,dt:2,nt:9,next:9045,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:9045 op:440,dt:4,nt:8,next:9048,str:40998,d0:9046,d1:34506;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:9046 op:440,dt:2,nt:9,next:9047,str:15227,d0:0,d1:0;
+                    (True, Expression<Boolean> @:9047 op:5,dt:5,nt:9,next:65535,str:41018,d0:65281,d1:65535;)))
+            (____, Scope<Void> @:9048 op:396,dt:4,nt:8,next:9052,str:41026,d0:9049,d1:34509;
+                ("cs_aim", Expression<MethodOrOperator> @:9049 op:396,dt:2,nt:9,next:9050,str:18178,d0:0,d1:0;
+                    (True, Expression<Boolean> @:9050 op:5,dt:5,nt:9,next:9051,str:41034,d0:65281,d1:65535;
+                        ("landing_zone/entry", Expression<SpatialPoint> @:9051 op:28,dt:28,nt:9,next:65535,str:19443,d0:2,d1:1;))))
+            (____, Scope<Void> @:9052 op:21,dt:4,nt:8,next:9070,str:41061,d0:9053,d1:34513;
+                ("sleep_until", Expression<MethodOrOperator> @:9053 op:21,dt:2,nt:9,next:9054,str:236,d0:0,d1:0;
+                    (____, Scope<Boolean> @:9054 op:6,dt:5,nt:8,next:65535,str:41078,d0:9055,d1:34515;
+                        ("or", Expression<MethodOrOperator> @:9055 op:6,dt:2,nt:9,next:9056,str:849,d0:0,d1:0;
+                            (____, Scope<Boolean> @:9056 op:13,dt:5,nt:8,next:9062,str:41086,d0:9057,d1:34517;
+                                ("=", Expression<MethodOrOperator> @:9057 op:13,dt:2,nt:9,next:9058,str:301,d0:0,d1:0;
+                                    (-8.092601E-35f, Scope<Float> @:9058 op:257,dt:6,nt:8,next:9061,str:41089,d0:9059,d1:34519;
+                                        ("device_get_position", Expression<MethodOrOperator> @:9059 op:257,dt:2,nt:9,next:9060,str:18219,d0:0,d1:0;
+                                            ("rec_center_entry_ext", Expression<Device> @:9060 op:60,dt:54,nt:9,next:65535,str:18294,d0:228,d1:65535;)))
+                                    (1f, Expression<Float> @:9061 op:6,dt:6,nt:9,next:65535,str:41132,d0:0,d1:16256;)))
+                            (____, Scope<Boolean> @:9062 op:13,dt:5,nt:8,next:65535,str:41139,d0:9063,d1:34523;
+                                ("=", Expression<MethodOrOperator> @:9063 op:13,dt:2,nt:9,next:9064,str:301,d0:0,d1:0;
+                                    (____, Scope<Boolean> @:9064 op:33,dt:5,nt:8,next:9069,str:41142,d0:9065,d1:34525;
+                                        ("volume_test_objects", Expression<MethodOrOperator> @:9065 op:33,dt:2,nt:9,next:9066,str:16841,d0:0,d1:0;
+                                            ("vol_entering_facility", Expression<Trigger> @:9066 op:13,dt:13,nt:9,next:9067,str:17564,d0:5,d1:0;
+                                                (____, Scope<List> @:9067 op:28,dt:31,nt:8,next:65535,str:41185,d0:9068,d1:34528;
+                                                    ("players", Expression<MethodOrOperator> @:9068 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))
+                                    (True, Expression<Boolean> @:9069 op:5,dt:5,nt:9,next:65535,str:41196,d0:65281,d1:65535;)))))))
+            (____, Scope<Void> @:9070 op:396,dt:4,nt:8,next:65535,str:41213,d0:9071,d1:34531;
+                ("cs_aim", Expression<MethodOrOperator> @:9071 op:396,dt:2,nt:9,next:9072,str:18178,d0:0,d1:0;
+                    (False, Expression<Boolean> @:9072 op:5,dt:5,nt:9,next:9073,str:41221,d0:65280,d1:65535;
+                        ("landing_zone/entry", Expression<SpatialPoint> @:9073 op:28,dt:28,nt:9,next:65535,str:19443,d0:2,d1:1;)))))))
