@@ -5456,7 +5456,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_teleport(Engine.ai_get_object(e17_mars_inf0.warthog0), e17_test);
             await Engine.sleep(1);
             Engine.object_teleport(await this.player0(), e17_test);
-            Engine.object_cannot_die(Engine.start(await this.player0()), Engine.ai_get_object(e17_mars_inf0.warthog0), "warthog_d");
+            Engine.object_cannot_die(Engine.unit(await this.player0()), Engine.ai_get_object(e17_mars_inf0.warthog0), "warthog_d");
             await this.cinematic_fade_from_white_bars();
             Engine.object_can_take_damage(Engine.players());
             Engine.wake(chapter_title0);
