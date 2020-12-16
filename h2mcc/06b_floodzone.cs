@@ -208,7 +208,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("grab jaime or paul to give feedback!");
             Engine.player_action_test_reset();
             await Engine.sleep(15);
-            Engine.print("press the \u0093a\u0094 button to reset!");
+            Engine.print("press the �a� button to reset!");
             await Engine.sleep_until(async () => (bool)Engine.player_action_test_accept());
             Engine.print("reloading map...");
             await Engine.sleep(15);
@@ -4750,9 +4750,32 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_key_ride_cinematic, Engine.players()));
             await this.cinematic_fade_to_white();
             Engine.ai_erase_all();
-            Engine.object_teleport(await this.player0(), player0_end);
-            Engine.object_teleport(await this.player1(), player1_end);
-            Engine.game_won();
+            Engine.object_teleport(await this.player0(), key_ride_a);
+            Engine.object_teleport(await this.player1(), key_ride_b);
+            await Engine.sleep(5);
+            if (this.g_play_cinematics == true)
+            {
+                if (await this.cinematic_skip_start())
+                {
+                    Engine.print("c06_intra2");
+                    await this.c06_intra2();
+                }
+
+                await this.cinematic_skip_stop();
+            }
+
+            Engine.wake(begin_key_ride_main);
+            await Engine.sleep(25);
+            Engine.game_save_immediate();
+            Engine.wake(chapter_gallery);
+            Engine.wake(objective_link_clear);
+            Engine.wake(objective_retrieve_set);
+            Engine.ai_renew(covenant1);
+            Engine.camera_control(false);
+            await Engine.sleep(1);
+            await Engine.cache_block_for_one_frame();
+            await Engine.sleep(1);
+            await this.cinematic_fade_from_white();
         }
 
         [ScriptMethod(Lifecycle.Dormant)]
@@ -4804,11 +4827,21 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.wake(enc_crashed_factory);
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_qz_ext_b, Engine.players()));
             Engine.wake(enc_qz_ext_b);
-            await Engine.sleep_until(async () => Engine.volume_test_objects(tv_key_ride_cinematic, Engine.players()));
+            await Engine.sleep_until(async () => Engine.volume_test_objects(tv_key_ride, Engine.players()));
+            Engine.wake(enc_key_ride);
+            await Engine.sleep_until(async () => Engine.volume_test_objects(tv_x07, Engine.players()));
             await this.cinematic_fade_to_white();
             Engine.ai_erase_all();
             Engine.object_teleport(await this.player0(), player0_end);
             Engine.object_teleport(await this.player1(), player1_end);
+            if (await this.cinematic_skip_start())
+            {
+                Engine.print("x07");
+                await this.x07();
+            }
+
+            await this.cinematic_skip_stop();
+            await this.playtest_mission();
             Engine.game_won();
         }
 

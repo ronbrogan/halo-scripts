@@ -100,7 +100,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("grab jaime or paul to give feedback!");
             Engine.player_action_test_reset();
             await Engine.sleep(15);
-            Engine.print("press the \u0093a\u0094 button to reset!");
+            Engine.print("press the �a� button to reset!");
             await Engine.sleep_until(async () => (bool)Engine.player_action_test_accept());
             Engine.print("reloading map...");
             await Engine.sleep(15);
@@ -2001,6 +2001,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 await Engine.sleep(Engine.ai_play_line_at_player(cortana1.Squad, "2930"));
             }
 
+            await Engine.sleep_until(async () => this.g_e12_started);
             if (this.dialogue)
             {
                 Engine.print("cortana: stopping truth - that's all that matters!");
@@ -2615,7 +2616,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(Lifecycle.Dormant)]
         public async Task e10_battle()
         {
-            await Engine.sleep_until(async () => Engine.volume_test_objects(tv_e10_trigger2, Engine.players()), 3);
+            await Engine.sleep_until(async () => Engine.volume_test_objects(tv_e10_trigger2, Engine.players()), 15);
             Engine.wake(e10_infinite_save);
             Engine.data_mine_set_mission_segment("inner_sanctum");
             Engine.wake(e10_storm);
@@ -4171,7 +4172,6 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(1);
             await this.cinematic_fade_from_white_bars();
             Engine.wake(chapter_purposes);
-            await Engine.sleep_until(async () => this.g_e12_started);
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_e12_end, Engine.players()), 16);
             Engine.object_cannot_take_damage(Engine.players());
             await this.cinematic_fade_to_white();

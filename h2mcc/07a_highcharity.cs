@@ -218,7 +218,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("grab jaime or paul to give feedback!");
             Engine.player_action_test_reset();
             await Engine.sleep(15);
-            Engine.print("press the \u0093a\u0094 button to reset!");
+            Engine.print("press the �a� button to reset!");
             await Engine.sleep_until(async () => (bool)Engine.player_action_test_accept());
             Engine.print("reloading map...");
             await Engine.sleep(15);
@@ -3807,64 +3807,17 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_create(jail_up);
             Engine.object_create(room_b_lift);
             Engine.device_set_position(room_b_lift_effect.Entity, 1F);
-            Engine.ai_erase(room_a_tube_fodder.Squad);
-            Engine.ai_place(jail_brutes_ini.Squad);
-            Engine.ai_place(jail_grunts_ini.Squad);
-            Engine.ai_place(jail_jackals_ini.Squad);
-            Engine.wake(music_07a_03);
-            Engine.wake(ai_prophets_ini_active);
-            Engine.wake(sc_jail_down);
-            await Engine.sleep_until(async () => (short)Engine.ai_living_count(jail_brutes_ini.Squad) <= 0 && (short)Engine.ai_living_count(jail_jackals_ini.Squad) <= 0);
-            Engine.game_save();
-            if (this.g_jail_prophets_ini_active)
+            Engine.pvs_set_object(jail_ped_a.Entity);
+            await Engine.sleep_until(async () => Engine.objects_distance_to_object(Engine.players(), jail_ped_a.Entity) > 0F && Engine.objects_distance_to_object(Engine.players(), jail_ped_a.Entity) < 3F || Engine.objects_distance_to_object(Engine.players(), jail_ped_b.Entity) > 0F && Engine.objects_distance_to_object(Engine.players(), jail_ped_b.Entity) < 3F, 5);
+            if (this.dialogue)
             {
-                await Engine.sleep_until(async () => (short)Engine.ai_living_count(jail_prophets) <= 0);
-            }
-            else
-            {
-                Engine.sleep_forever(ai_prophets_ini_active);
+                Engine.print("cortana: the lift is clear. step on in!");
             }
 
-            if ((short)Engine.random_range(0, 2) == 0)
-            {
-                Engine.wake(ai_jail_a);
-            }
-            else
-            {
-                Engine.wake(ai_jail_b);
-            }
-
-            await Engine.sleep_until(async () => this.g_jail_a_finished || this.g_jail_b_finished);
-            await this.ai_jail_spawner();
-            if ((short)Engine.ai_living_count(marines) <= 3)
-            {
-                Engine.ai_renew(marines);
-            }
-
-            if (this.g_jail_a_finished)
-            {
-                Engine.wake(ai_jail_b);
-            }
-            else
-            {
-                Engine.wake(ai_jail_a);
-            }
-
-            await Engine.sleep_until(async () => this.g_jail_a_finished && this.g_jail_b_finished);
-            if ((short)Engine.ai_living_count(marines) <= 3)
-            {
-                Engine.ai_renew(marines);
-            }
-
-            Engine.wake(sc_jail_exit);
-            await this.ai_jail_spawner();
-            await Engine.sleep(1);
-            Engine.wake(ai_jail_down_lift);
-            await Engine.sleep_until(async () => this.g_jail_round_lift_spawned);
-            await Engine.sleep(30);
-            await Engine.sleep_until(async () => !(Engine.volume_test_objects_all(tv_jail_top, Engine.players())) && !(Engine.volume_test_objects_all(tv_jail_mid, Engine.players())) && !(Engine.volume_test_objects_all(tv_jail_bot, Engine.players())));
-            await this.erase_cortana();
-            this.g_music_07a_03 = false;
+            await Engine.sleep(Engine.ai_play_line_at_player(cortana_jail.Squad, "2440"));
+            await Engine.sleep(this.dialogue_pause);
+            Engine.cs_run_command_script(marines, cs_marines_exit);
+            Engine.wake(sc_jail_clear_reminder);
         }
 
         [ScriptMethod(Lifecycle.Dormant)]
@@ -5111,7 +5064,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 await Engine.sleep_until(async () => (short)Engine.ai_living_count(council_prophets_floor) <= 0);
                 Engine.game_save();
-                await Engine.sleep(this.sleep_lower_bound);
+                await Engine.sleep((short)Engine.random_range(this.sleep_lower_bound, this.sleep_upper_bound));
                 if (this.debug)
                 {
                     Engine.print("begin wave 1");
@@ -5201,7 +5154,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     await Engine.sleep_until(async () => (short)Engine.ai_living_count(council_prophets) <= 0);
                     Engine.game_save();
                     Engine.data_mine_set_mission_segment("enc_council_wave_2");
-                    await Engine.sleep(this.sleep_lower_bound);
+                    await Engine.sleep((short)Engine.random_range(this.sleep_lower_bound, this.sleep_upper_bound));
                     if (this.debug)
                     {
                         Engine.print("begin wave 2");
@@ -7877,12 +7830,6 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.device_set_power(room_a_lift.Entity, 0F);
             Engine.device_set_position(room_a_lift_effect.Entity, 1F);
             Engine.device_set_position(jail_down.Entity, 1F);
-            Engine.object_destroy(jail_down.Entity);
-            Engine.device_set_position(jail_up_effect.Entity, 1F);
-            await Engine.sleep(30);
-            Engine.object_create(jail_up);
-            Engine.object_create(room_b_lift);
-            Engine.device_set_position(room_b_lift_effect.Entity, 1F);
             Engine.ai_erase(room_a_tube_fodder.Squad);
             Engine.ai_place(jail_brutes_ini.Squad);
             Engine.ai_place(jail_grunts_ini.Squad);

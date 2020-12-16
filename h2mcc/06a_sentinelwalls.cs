@@ -286,7 +286,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("grab jaime or paul to give feedback!");
             Engine.player_action_test_reset();
             await Engine.sleep(15);
-            Engine.print("press the \u0093a\u0094 button to reset!");
+            Engine.print("press the �a� button to reset!");
             await Engine.sleep_until(async () => (bool)Engine.player_action_test_accept());
             Engine.print("reloading map...");
             await Engine.sleep(15);
@@ -2275,7 +2275,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.game_save_cancel();
             if (this.dialogue)
             {
-                Engine.print("tartarus: you're getting close to one of the shield-generators\u0085");
+                Engine.print("tartarus: you're getting close to one of the shield-generators�");
             }
 
             await Engine.sleep(Engine.ai_play_line_on_object(default(IGameObject), "0430"));
@@ -2359,7 +2359,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(this.dialogue_pause);
             if (this.dialogue)
             {
-                Engine.print("tartarus: stay in the shadows. wait 'til it loses interest\u0085");
+                Engine.print("tartarus: stay in the shadows. wait 'til it loses interest�");
             }
 
             await Engine.sleep(Engine.ai_play_line_on_object(default(IGameObject), "0510"));
@@ -4277,12 +4277,25 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cs_enable_pathfinding_failsafe(true);
             Engine.cs_vehicle_speed(1F);
             Engine.cs_fly_by(Engine.GetReference<ISpatialPoint>("wall_gap/p1"), 4F);
+            Engine.cs_fly_by(Engine.GetReference<ISpatialPoint>("wall_gap/p2"), 4F);
+            Engine.wake(sc_plug_ride);
+            Engine.cs_fly_by(Engine.GetReference<ISpatialPoint>("wall_gap/p3"), 4F);
+            Engine.cs_fly_by(Engine.GetReference<ISpatialPoint>("wall_gap/p9"), 7F);
             if (this.debug)
             {
                 Engine.print("placing enforcer...");
             }
 
             Engine.ai_place(plug_holder_enforcer.Squad);
+            Engine.cs_fly_to_and_face(Engine.GetReference<ISpatialPoint>("wall_gap/p10"), Engine.GetReference<ISpatialPoint>("wall_gap/p20"), 3F);
+            Engine.device_group_change_only_once_more_set(plug_door_a1, false);
+            await Engine.sleep(1);
+            if (this.debug)
+            {
+                Engine.print("opening door... (closing the one behind you)");
+            }
+
+            Engine.device_set_position(plug_door_a.Entity, 0F);
             Engine.device_set_position(plug_door_b.Entity, 1F);
             await Engine.sleep(1);
             if (this.debug)
@@ -4302,19 +4315,6 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(plug_holder_flood_d.Squad);
             Engine.ai_place(plug_holder_flood_c.Squad);
             Engine.ai_place(plug_holder_flood_d.Squad, 1);
-            Engine.cs_fly_by(Engine.GetReference<ISpatialPoint>("wall_gap/p2"), 4F);
-            Engine.wake(sc_plug_ride);
-            Engine.cs_fly_by(Engine.GetReference<ISpatialPoint>("wall_gap/p3"), 4F);
-            Engine.cs_fly_by(Engine.GetReference<ISpatialPoint>("wall_gap/p9"), 7F);
-            Engine.cs_fly_to_and_face(Engine.GetReference<ISpatialPoint>("wall_gap/p10"), Engine.GetReference<ISpatialPoint>("wall_gap/p20"), 3F);
-            Engine.device_group_change_only_once_more_set(plug_door_a1, false);
-            await Engine.sleep(1);
-            if (this.debug)
-            {
-                Engine.print("opening door... (closing the one behind you)");
-            }
-
-            Engine.device_set_position(plug_door_a.Entity, 0F);
             this.g_plug_ride_enforcer = true;
             Engine.sound_class_set_gain("object_impacts", 1F, 2);
             Engine.sound_class_set_gain("vehicle_collision", 1F, 2);
@@ -4459,7 +4459,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             }
 
             Engine.device_set_position_track(plug.Entity, "plug_across", 0F);
-            Engine.device_animate_position(plug.Entity, 1F, 25F, 5F, 5F, false);
+            Engine.device_animate_position(plug.Entity, 1F, 60F, 5F, 5F, false);
             await Engine.sleep(5);
             await Engine.sleep_until(async () => Engine.device_get_position(plug.Entity) >= 0.035F, 1);
             if (this.debug)
@@ -6132,77 +6132,90 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 this.g_qz_cov_def_limit = 6;
             }
 
-            if (this.g_qz_cov_def_spawn)
+            Engine.begin_random(async () =>
             {
-                this.g_qz_cov_def_count = (short)(this.g_qz_cov_def_count + 1);
-                await this.qz_cov_def_ag();
-                if (this.g_qz_cov_def_count == this.g_qz_cov_def_limit)
+                if (this.g_qz_cov_def_spawn)
                 {
-                    this.g_qz_cov_def_spawn = false;
+                    this.g_qz_cov_def_count = (short)(this.g_qz_cov_def_count + 1);
+                    await this.qz_cov_def_abc();
+                    if (this.g_qz_cov_def_count == this.g_qz_cov_def_limit)
+                    {
+                        this.g_qz_cov_def_spawn = false;
+                    }
+
+                    await Engine.sleep((short)(30 * 10));
                 }
-
-                await Engine.sleep((short)(30 * 10));
-            }
-
-            if (this.g_qz_cov_def_spawn)
+            }, 
+                async () =>
             {
-                this.g_qz_cov_def_count = (short)(this.g_qz_cov_def_count + 1);
-                await this.qz_cov_def_d();
-                if (this.g_qz_cov_def_count == this.g_qz_cov_def_limit)
+                if (this.g_qz_cov_def_spawn)
                 {
-                    this.g_qz_cov_def_spawn = false;
+                    this.g_qz_cov_def_count = (short)(this.g_qz_cov_def_count + 1);
+                    await this.qz_cov_def_bcd();
+                    if (this.g_qz_cov_def_count == this.g_qz_cov_def_limit)
+                    {
+                        this.g_qz_cov_def_spawn = false;
+                    }
+
+                    await Engine.sleep((short)(30 * 10));
                 }
-
-                await Engine.sleep((short)(30 * 10));
-            }
-
-            if (this.g_qz_cov_def_spawn)
+            }, 
+                async () =>
             {
-                this.g_qz_cov_def_count = (short)(this.g_qz_cov_def_count + 1);
-                await this.qz_cov_def_abc();
-                if (this.g_qz_cov_def_count == this.g_qz_cov_def_limit)
+                if (this.g_qz_cov_def_spawn)
                 {
-                    this.g_qz_cov_def_spawn = false;
+                    this.g_qz_cov_def_count = (short)(this.g_qz_cov_def_count + 1);
+                    await this.qz_cov_def_def();
+                    if (this.g_qz_cov_def_count == this.g_qz_cov_def_limit)
+                    {
+                        this.g_qz_cov_def_spawn = false;
+                    }
+
+                    await Engine.sleep((short)(30 * 10));
                 }
-
-                await Engine.sleep((short)(30 * 10));
-            }
-
-            if (this.g_qz_cov_def_spawn)
+            }, 
+                async () =>
             {
-                this.g_qz_cov_def_count = (short)(this.g_qz_cov_def_count + 1);
-                await this.qz_cov_def_bcd();
-                if (this.g_qz_cov_def_count == this.g_qz_cov_def_limit)
+                if (this.g_qz_cov_def_spawn)
                 {
-                    this.g_qz_cov_def_spawn = false;
+                    this.g_qz_cov_def_count = (short)(this.g_qz_cov_def_count + 1);
+                    await this.qz_cov_def_efg();
+                    if (this.g_qz_cov_def_count == this.g_qz_cov_def_limit)
+                    {
+                        this.g_qz_cov_def_spawn = false;
+                    }
+
+                    await Engine.sleep((short)(30 * 10));
                 }
-
-                await Engine.sleep((short)(30 * 10));
-            }
-
-            if (this.g_qz_cov_def_spawn)
+            }, 
+                async () =>
             {
-                this.g_qz_cov_def_count = (short)(this.g_qz_cov_def_count + 1);
-                await this.qz_cov_def_def();
-                if (this.g_qz_cov_def_count == this.g_qz_cov_def_limit)
+                if (this.g_qz_cov_def_spawn)
                 {
-                    this.g_qz_cov_def_spawn = false;
+                    this.g_qz_cov_def_count = (short)(this.g_qz_cov_def_count + 1);
+                    await this.qz_cov_def_ag();
+                    if (this.g_qz_cov_def_count == this.g_qz_cov_def_limit)
+                    {
+                        this.g_qz_cov_def_spawn = false;
+                    }
+
+                    await Engine.sleep((short)(30 * 10));
                 }
-
-                await Engine.sleep((short)(30 * 10));
-            }
-
-            if (this.g_qz_cov_def_spawn)
+            }, 
+                async () =>
             {
-                this.g_qz_cov_def_count = (short)(this.g_qz_cov_def_count + 1);
-                await this.qz_cov_def_efg();
-                if (this.g_qz_cov_def_count == this.g_qz_cov_def_limit)
+                if (this.g_qz_cov_def_spawn)
                 {
-                    this.g_qz_cov_def_spawn = false;
-                }
+                    this.g_qz_cov_def_count = (short)(this.g_qz_cov_def_count + 1);
+                    await this.qz_cov_def_d();
+                    if (this.g_qz_cov_def_count == this.g_qz_cov_def_limit)
+                    {
+                        this.g_qz_cov_def_spawn = false;
+                    }
 
-                await Engine.sleep((short)(30 * 10));
-            }
+                    await Engine.sleep((short)(30 * 10));
+                }
+            });
         }
 
         [ScriptMethod(Lifecycle.Dormant)]

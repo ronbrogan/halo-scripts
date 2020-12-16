@@ -134,7 +134,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("grab jaime or paul to give feedback!");
             Engine.player_action_test_reset();
             await Engine.sleep(15);
-            Engine.print("press the \u0093a\u0094 button to reset!");
+            Engine.print("press the �a� button to reset!");
             await Engine.sleep_until(async () => (bool)Engine.player_action_test_accept());
             Engine.print("reloading map...");
             await Engine.sleep(15);
@@ -2143,7 +2143,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.cinematic_fade_from_white_bars();
             await Engine.sleep(30);
             Engine.cinematic_set_title(title_1);
-            await Engine.sleep(30);
+            await Engine.sleep(150);
             Engine.hud_cinematic_fade(1F, 0.5F);
             Engine.cinematic_show_letterbox(false);
             Engine.game_save();
@@ -3111,13 +3111,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(90);
             Engine.ai_dialogue_enable(false);
             await Engine.sleep(60);
-            Engine.print("cortana: 'artillery disabled, sergeant! landing zone secure\u0085for the moment.'");
+            Engine.print("cortana: 'artillery disabled, sergeant! landing zone secure�for the moment.'");
             await Engine.sleep(Engine.ai_play_line_on_object(default(IGameObject), "0320"));
             await Engine.sleep(30);
             Engine.print("johnson: 'i hear ya. starting our approach. hang tight.'");
             await Engine.sleep(Engine.ai_play_line_on_object(default(IGameObject), "0330"));
             await Engine.sleep(60);
-            Engine.print("cortana: 'easier said than done\u0085inbound phantoms, chief!'");
+            Engine.print("cortana: 'easier said than done�inbound phantoms, chief!'");
             await Engine.sleep(Engine.ai_play_line_on_object(default(IGameObject), "0340"));
             await Engine.sleep(30);
             Engine.ai_dialogue_enable(true);
@@ -3193,7 +3193,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             Engine.cs_switch("overlook_ally");
             Engine.cs_abort_on_damage(true);
-            Engine.print("ally: 'whoa\u0085'");
+            Engine.print("ally: 'whoa�'");
             Engine.cs_play_line("0390");
             await Engine.sleep(30);
             Engine.print("ally: 'it's like a postcard.'");
@@ -3749,7 +3749,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cs_enable_pathfinding_failsafe(true);
             this.bridge_ally_comment_go = true;
             Engine.cs_abort_on_damage(true);
-            Engine.print("ally: 'good. the bridge is down. now about those wraiths\u0085'");
+            Engine.print("ally: 'good. the bridge is down. now about those wraiths�'");
             Engine.cs_play_line("0490");
         }
 
@@ -3902,7 +3902,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 Engine.ai_dialogue_enable(false);
                 await Engine.sleep(60);
-                Engine.print("cortana: 'you don't want the tank?  o-kay\u0085i guess we'll leave it for the others.'");
+                Engine.print("cortana: 'you don't want the tank?  o-kay�i guess we'll leave it for the others.'");
                 await Engine.sleep(Engine.ai_play_line_on_object(default(IGameObject), "0510"));
                 await Engine.sleep(30);
                 Engine.ai_dialogue_enable(true);
@@ -4179,7 +4179,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 Engine.ai_dialogue_enable(false);
                 await Engine.sleep(60);
-                Engine.print("cortana: 'good. the bridge is down. now about those wraiths\u0085'");
+                Engine.print("cortana: 'good. the bridge is down. now about those wraiths�'");
                 await Engine.sleep(Engine.ai_play_line_on_object(default(IGameObject), "2040"));
             }
 
@@ -4520,7 +4520,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cs_switch("ally01");
             Engine.cs_enable_pathfinding_failsafe(true);
             Engine.cs_abort_on_damage(true);
-            Engine.print("ally: 'kinda reminds me of back home\u0085'");
+            Engine.print("ally: 'kinda reminds me of back home�'");
             Engine.cs_play_line("0530");
             Engine.cs_switch("ally02");
             Engine.cs_enable_pathfinding_failsafe(true);
@@ -5658,7 +5658,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 this.old_temple_chatter = true;
                 Engine.ai_dialogue_enable(false);
                 await Engine.sleep(60);
-                Engine.print("cortana: 'there should be a way through this debris\u0085'");
+                Engine.print("cortana: 'there should be a way through this debris�'");
                 await Engine.sleep(Engine.ai_play_line_on_object(default(IGameObject), "0680"));
                 await Engine.sleep(30);
                 Engine.ai_dialogue_enable(true);
@@ -5897,8 +5897,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 Engine.ai_dialogue_enable(false);
                 await Engine.sleep(60);
-                Engine.print("cortana: 'what happened to this place? the stones\u0085'");
-                Engine.print("'this isn't normal wear and tear. it almost looks like battle-scarring\u0085'");
+                Engine.print("cortana: 'what happened to this place? the stones�'");
+                Engine.print("'this isn't normal wear and tear. it almost looks like battle-scarring�'");
                 await Engine.sleep(Engine.ai_play_line_on_object(default(IGameObject), "0590"));
                 await Engine.sleep(30);
                 Engine.ai_dialogue_enable(true);
@@ -5999,7 +5999,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cs_switch("ally01");
             Engine.cs_enable_pathfinding_failsafe(true);
             Engine.cs_abort_on_damage(true);
-            Engine.print("odst: 'my girl would dig this place. so beautiful\u0085'");
+            Engine.print("odst: 'my girl would dig this place. so beautiful�'");
             Engine.cs_play_line("0700");
             await Engine.sleep(30);
             Engine.cs_switch("ally02");
@@ -6030,7 +6030,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.ai_dialogue_enable(false);
                 await Engine.sleep(60);
                 Engine.print("cortana: 'we're approaching another structure. it should be the...'");
-                Engine.print("'...lake access-point we've been looking for\u0085'");
+                Engine.print("'...lake access-point we've been looking for�'");
                 await Engine.sleep(Engine.ai_play_line_on_object(default(IGameObject), "0750"));
                 await Engine.sleep(30);
                 Engine.ai_dialogue_enable(true);

@@ -118,7 +118,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("grab jaime or paul to give feedback!");
             Engine.player_action_test_reset();
             await Engine.sleep(15);
-            Engine.print("press the \u0093a\u0094 button to reset!");
+            Engine.print("press the �a� button to reset!");
             await Engine.sleep_until(async () => (bool)Engine.player_action_test_accept());
             Engine.print("reloading map...");
             await Engine.sleep(15);
@@ -3001,7 +3001,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("spec-ops commander: 'you may wish to do the same, arbiter.'");
             await Engine.sleep(Engine.ai_play_line_on_object(default(IGameObject), "1000"));
             await Engine.sleep(30);
-            Engine.print("'but, take heed. your armor's system is not as\u0085new as ours. your camouflage will not last forever.'");
+            Engine.print("'but, take heed. your armor's system is not as�new as ours. your camouflage will not last forever.'");
             await Engine.sleep(Engine.ai_play_line_on_object(default(IGameObject), "1010"));
             this.stealth_hint_done = true;
             await Engine.sleep(30);
@@ -3085,32 +3085,52 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(30);
             Engine.sound_class_set_gain("ambient_machinery", 0F, 2);
             Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\visual_effects\\ss_airlock\\airlock", 4216658205U), default(IGameObject), 1F);
-            Engine.object_create_anew(gas01);
-            Engine.object_create_anew(gas02);
-            Engine.object_create_anew(gas03);
-            Engine.object_create_anew(gas04);
-            Engine.object_create_anew(gas05);
-            Engine.object_create_anew(gas06);
-            Engine.object_create_anew(gas07);
-            Engine.object_create_anew(gas08);
-            Engine.object_create_anew(gas09);
-            Engine.object_create_anew(gas10);
+            Engine.begin_random(async () => Engine.object_create_anew(gas01), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_create_anew(gas02), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_create_anew(gas03), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_create_anew(gas04), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_create_anew(gas05), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_create_anew(gas06), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_create_anew(gas07), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_create_anew(gas08), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_create_anew(gas09), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_create_anew(gas10), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)));
             Engine.switch_bsp(3);
             await Engine.sleep_until(async () => (short)Engine.structure_bsp_index() == 3);
             Engine.object_destroy(filthy_audio1.Entity);
             Engine.object_destroy(filthy_audio2.Entity);
             Engine.sound_class_set_gain("ambient_machinery", 1F, 2);
             await Engine.sleep_until(async () => Engine.ai_scene("lz_active_camo_scene", lz_active_camo_call, all_allies) || (short)Engine.ai_living_count(hacker.Squad) < 0 && (short)Engine.ai_living_count(allies_elites_01.Squad) < 1, 30, 150);
-            Engine.object_destroy(gas01.Entity);
-            Engine.object_destroy(gas02.Entity);
-            Engine.object_destroy(gas03.Entity);
-            Engine.object_destroy(gas04.Entity);
-            Engine.object_destroy(gas05.Entity);
-            Engine.object_destroy(gas06.Entity);
-            Engine.object_destroy(gas07.Entity);
-            Engine.object_destroy(gas08.Entity);
-            Engine.object_destroy(gas09.Entity);
-            Engine.object_destroy(gas10.Entity);
+            Engine.begin_random(async () => Engine.object_destroy(gas01.Entity), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_destroy(gas02.Entity), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_destroy(gas03.Entity), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_destroy(gas04.Entity), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_destroy(gas05.Entity), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_destroy(gas06.Entity), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_destroy(gas07.Entity), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_destroy(gas08.Entity), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_destroy(gas09.Entity), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_destroy(gas10.Entity), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)));
             Engine.player_training_activate_stealth();
             if (this.first_airlock_go == true)
             {
@@ -5223,18 +5243,30 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => this.hl_done_yapping == true, 30, 450);
             await Engine.sleep_until(async () => Engine.ai_scene("heretic_retreat_02_scene", hl_retreat_react, bottling_heretics_05.Squad), 30, 90);
             Engine.game_save();
-            this.overlook_choose_side = true;
-            Engine.ai_place(bottling_grunts_05.r1);
-            Engine.ai_place(bottling_grunts_05.r2);
-            Engine.ai_place(bottling_grunts_05.r3);
-            Engine.device_operates_automatically_set(viewroom_exit02.Entity, true);
-            Engine.object_create(blocker_l);
-            this.overlook_choose_side = true;
-            Engine.ai_place(bottling_grunts_05.l1);
-            Engine.ai_place(bottling_grunts_05.l2);
-            Engine.ai_place(bottling_grunts_05.l3);
-            Engine.device_operates_automatically_set(viewroom_exit01.Entity, true);
-            Engine.object_create(blocker_r);
+            Engine.begin_random(async () =>
+            {
+                if (this.overlook_choose_side == false)
+                {
+                    this.overlook_choose_side = true;
+                    Engine.ai_place(bottling_grunts_05.r1);
+                    Engine.ai_place(bottling_grunts_05.r2);
+                    Engine.ai_place(bottling_grunts_05.r3);
+                    Engine.device_operates_automatically_set(viewroom_exit02.Entity, true);
+                    Engine.object_create(blocker_l);
+                }
+            }, 
+                async () =>
+            {
+                if (this.overlook_choose_side == false)
+                {
+                    this.overlook_choose_side = true;
+                    Engine.ai_place(bottling_grunts_05.l1);
+                    Engine.ai_place(bottling_grunts_05.l2);
+                    Engine.ai_place(bottling_grunts_05.l3);
+                    Engine.device_operates_automatically_set(viewroom_exit01.Entity, true);
+                    Engine.object_create(blocker_r);
+                }
+            });
             Engine.ai_set_orders(bottling_heretics_05.Squad, bottling_h_wave_05_high);
             Engine.wake(bring_in_da_phantom);
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(bottling_heretics_05.Squad) < 1);

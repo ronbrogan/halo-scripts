@@ -138,7 +138,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("grab jaime or paul to give feedback!");
             Engine.player_action_test_reset();
             await Engine.sleep(15);
-            Engine.print("press the \u0093a\u0094 button to reset!");
+            Engine.print("press the �a� button to reset!");
             await Engine.sleep_until(async () => (bool)Engine.player_action_test_accept());
             Engine.print("reloading map...");
             await Engine.sleep(15);
@@ -945,7 +945,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.cs_run_command_script(guns.Squad, cs_guns_zapper_prompt);
                 Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
                 await Engine.sleep(30);
-                Engine.print("go ahead and stand in the red sqaure.  it'll just take a minute.");
+                Engine.print("go ahead and stand in the red sqaure.� it'll just take a minute.");
                 Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3260_gun", 3862955210U), Engine.ai_get_object(guns.Squad), 1F);
                 this.timer_prompt_zapper = (short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3260_gun", 3862955210U));
                 this.timer_prompt_zapper_getin = (short)(this.timer_prompt_zapper + this.delay_prompt_long);
@@ -967,7 +967,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.cs_run_command_script(guns.Squad, cs_guns_zapper_prompt);
                 Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
                 await Engine.sleep(30);
-                Engine.print("will you stop screwing around?  stand in the red square!");
+                Engine.print("will you stop screwing around?� stand in the red square!");
                 Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3280_gun", 3863086284U), Engine.ai_get_object(guns.Squad), 1F);
                 this.timer_prompt_zapper = (short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3280_gun", 3863086284U));
                 this.timer_prompt_zapper_getin = (short)(this.timer_prompt_zapper + this.delay_prompt_long);
@@ -1036,7 +1036,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             }
             else if (this.counter_prompt_zapper_button == 4)
             {
-                Engine.print("hit the switch, it won't hurt\u0085.much");
+                Engine.print("hit the switch, it won't hurt�.much");
                 Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3340_gun", 3863479506U), Engine.ai_get_object(guns.Squad), 1F);
                 this.timer_prompt_zapper = (short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3340_gun", 3863479506U));
                 this.timer_prompt_zapper_button = (short)(this.timer_prompt_zapper + this.delay_prompt_medium);
@@ -1504,7 +1504,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3020_gun", 3865445616U), Engine.ai_get_object(guns.Squad), 1F);
             await this.test_mindread_up();
             await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3020_gun", 3865445616U)));
-            Engine.print("that's it\u0085");
+            Engine.print("that's it�");
             Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0760_gun", 3865511153U), Engine.ai_get_object(guns.Squad), 1F);
             await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0760_gun", 3865511153U)));
             Engine.print("now the bottom one.");
@@ -1543,7 +1543,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(Lifecycle.Static)]
         public async Task training_move()
         {
-            Engine.print("stand-by. i'm going to offline the inhibitors\u0085");
+            Engine.print("stand-by. i'm going to offline the inhibitors�");
             Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0790_gun", 3865773301U), Engine.ai_get_object(guns.Squad), 1F);
             await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0790_gun", 3865773301U)));
             Engine.device_set_position(inhibitor.Entity, 1F);
@@ -1734,7 +1734,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cs_run_command_script(johnson.Squad, cs_johnson_glanceat_guns);
             await Engine.sleep_until(async () => Engine.objects_can_see_object(await this.player0(), Engine.ai_get_object(johnson.Squad), 40F), 1, 90);
             Engine.unit_set_emotional_state(Engine.ai_get_unit(johnson.Squad), "inquisitive", 0.5F, 1);
-            Engine.print("you done with my boy here? i don't see any training-wheels\u0085");
+            Engine.print("you done with my boy here? i don't see any training-wheels�");
             Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1000_jon", 3866363134U), Engine.ai_get_object(johnson.Squad), 1F);
             await Engine.sleep((short)((float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1000_jon", 3866363134U)) - 90));
             Engine.cs_run_command_script(johnson.Squad, cs_lookat_player);

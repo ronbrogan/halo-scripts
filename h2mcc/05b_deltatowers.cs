@@ -118,7 +118,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("grab jaime or paul to give feedback!");
             Engine.player_action_test_reset();
             await Engine.sleep(15);
-            Engine.print("press the \u0093a\u0094 button to reset!");
+            Engine.print("press the �a� button to reset!");
             await Engine.sleep_until(async () => (bool)Engine.player_action_test_accept());
             Engine.print("reloading map...");
             await Engine.sleep(15);
@@ -2684,7 +2684,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(Lifecycle.Static)]
         public async Task nowcomeup()
         {
-            Engine.device_animate_position(elev_under.Entity, 0F, 5F, 1F, 1F, false);
+            Engine.device_animate_position(elev_under.Entity, 0F, 15F, 1F, 1F, false);
         }
 
         [ScriptMethod(Lifecycle.Static)]
@@ -3011,7 +3011,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.device_set_power(elev_under_switch_01.Entity, 0F);
             await Engine.sleep_until(async () => Engine.volume_test_objects_all(vol_inside_elev_under, Engine.players()) == true && await this.player_count() > 0);
             Engine.device_set_position_track(elev_under.Entity, "transition_1to2", 0F);
-            Engine.device_animate_position(elev_under.Entity, 0.103F, 5F, 1F, 1F, false);
+            Engine.device_animate_position(elev_under.Entity, 0.103F, 10F, 1F, 1F, false);
             await Engine.sleep_until(async () => Engine.device_get_position(elev_under.Entity) == 0.103F);
             if (Engine.volume_test_object(vol_elev_shaft_under, await this.player0()) == false && await this.player_count() > 0)
             {
@@ -3028,7 +3028,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.switch_bsp(3);
             await Engine.sleep_until(async () => (short)Engine.structure_bsp_index() == 3);
             Engine.game_can_use_flashlights(true);
-            Engine.device_animate_position(elev_under.Entity, 1F, 30F, 1F, 1F, false);
+            Engine.device_animate_position(elev_under.Entity, 1F, 60F, 1F, 1F, false);
             await Engine.sleep_until(async () => Engine.device_get_position(elev_under.Entity) > 0.122F, 1);
             Engine.effect_new(this.splashy, splash_01);
             Engine.effect_new(this.splashy, splash_02);
@@ -3776,7 +3776,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => Engine.device_group_get(elev_up_switch) > 0F);
             Engine.device_set_power(elev_up_switch_01.Entity, 0F);
             await Engine.sleep_until(async () => Engine.volume_test_objects_all(vol_inside_elev_up, Engine.players()) == true && await this.player_count() > 0);
-            Engine.device_animate_position(elev_up.Entity, 0.103F, 5F, 1F, 1F, false);
+            Engine.device_animate_position(elev_up.Entity, 0.103F, 10F, 1F, 1F, false);
             await Engine.sleep_until(async () => Engine.device_get_position(elev_up.Entity) == 0.103F);
             if (Engine.volume_test_object(vol_elev_shaft_up, await this.player0()) == false && await this.player_count() > 0)
             {
@@ -3792,7 +3792,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
 
             Engine.switch_bsp(4);
             await Engine.sleep_until(async () => (short)Engine.structure_bsp_index() == 4);
-            Engine.device_animate_position(elev_up.Entity, 1F, 30F, 1F, 1F, false);
+            Engine.device_animate_position(elev_up.Entity, 1F, 60F, 1F, 1F, false);
             await Engine.sleep_until(async () => Engine.device_get_position(elev_up.Entity) > 0.134F, 1);
             Engine.effect_new(this.splashy, splash_17);
             Engine.effect_new(this.splashy, splash_18);
@@ -4477,7 +4477,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cs_switch("ally02");
             Engine.cs_abort_on_damage(true);
             Engine.print("ally: 'if you forget about the covenant and the fact that we're stuck...'");
-            Engine.print("'...on a freaky alien world\u0085it's actually kinda fun.'");
+            Engine.print("'...on a freaky alien world�it's actually kinda fun.'");
             Engine.cs_play_line("1200");
         }
 
@@ -4695,17 +4695,64 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
 
             Engine.data_mine_set_mission_segment("05b_13_gondola_02");
             Engine.ai_renew(all_allies);
+            await Engine.sleep_until(async () => Engine.device_group_get(gondola_02_switch) > 0F);
+            Engine.device_set_power(gondola_02_switch_front.Entity, 0F);
+            Engine.wake(gondola_02_wake);
+            Engine.object_dynamic_simulation_disable(gondola_02_a.Entity, false);
+            Engine.object_dynamic_simulation_disable(gondola_02_b.Entity, false);
+            await Engine.sleep_until(async () => Engine.volume_test_objects_all(vol_gondola_02, Engine.players()) == true && await this.player_count() > 0);
+            Engine.device_set_position(gondola_02_launch_a.Entity, 1F);
+            Engine.device_set_position(gondola_02_launch_b.Entity, 1F);
+            Engine.device_set_position(gondola_02_a.Entity, 0.54F);
+            Engine.device_set_position(gondola_02_b.Entity, 0.54F);
+            Engine.wake(island_miranda_conversation);
+            await Engine.sleep(300);
+            Engine.ai_place(gondola_02_banshees.Squad, 2);
+            Engine.cs_run_command_script(gondola_02_banshees.Squad, boost_test);
+            await Engine.sleep_until(async () => Engine.device_get_position(gondola_02_a.Entity) >= 0.25F);
+            if (await this.difficulty_legendary())
+            {
+                Engine.ai_place(gondola_02_grunts.Squad, 4);
+            }
+
+            Engine.ai_place(gondola_02_jetpacks.Squad, 2);
+            await Engine.sleep_until(async () => Engine.device_get_position(gondola_02_a.Entity) >= 0.43F);
+            Engine.game_save();
+            Engine.wake(gondola_02_nuke);
+            Engine.ai_set_orders(gondola_02_jetpacks.Squad, gondola_02_jets);
+            await Engine.sleep_until(async () => Engine.device_get_position(gondola_02_a.Entity) == 0.54F);
+            Engine.object_dynamic_simulation_disable(gondola_02_a.Entity, true);
+            Engine.object_dynamic_simulation_disable(gondola_02_b.Entity, true);
+            await Engine.sleep_until(async () => (float)Engine.ai_living_count(gondola_02_grunts.Squad) + (float)Engine.ai_living_count(gondola_02_jetpacks.Squad) < 1F, 30, 1800);
+            await Engine.sleep_until(async () => (bool)Engine.ai_trigger_test("done_fighting", gondola_02_enemies) == true, 30, 1800);
+            Engine.game_save();
+            Engine.object_dynamic_simulation_disable(gondola_02_a.Entity, false);
+            Engine.object_dynamic_simulation_disable(gondola_02_b.Entity, false);
+            Engine.wake(music_05b_09_start_alt);
+            Engine.wake(gondola_02_reverser);
+            await Engine.sleep_until(async () => Engine.device_get_position(gondola_02_a.Entity) > 0.75F);
+            Engine.ai_set_orders(gondola_02_banshees.Squad, airspace_island);
+            Engine.cs_run_command_script(gondola_02_banshees.Squad, banshee_retreat);
             Engine.ai_place(temple_ent_grunts.Squad, 4);
             Engine.cs_run_command_script(temple_ent_grunts._1, temple_ent_turret_01);
             Engine.cs_run_command_script(temple_ent_grunts._2, temple_ent_turret_02);
             Engine.ai_place(temple_ent_jackals.Squad, 2);
-            await Engine.sleep_until(async () => Engine.device_group_get(gondola_02_switch) > 0F);
-            Engine.device_set_power(gondola_02_switch_front.Entity, 0F);
-            Engine.wake(temple_entry_start);
-            Engine.wake(temple_foyer_start);
-            Engine.wake(temple_center_start);
-            await this.sleep_island_exterior();
-            await this.sleep_gondola_02();
+            await Engine.sleep_until(async () => Engine.device_get_position(gondola_02_a.Entity) > 0.9F);
+            Engine.ai_set_orders(gondola_02_jetpacks.Squad, jetpacks_temple);
+            Engine.cs_run_command_script(gondola_02_jetpacks._1, boost_to_temple_01);
+            Engine.cs_run_command_script(gondola_02_jetpacks._2, boost_to_temple_01);
+            await Engine.sleep_until(async () => Engine.device_get_position(gondola_02_a.Entity) == 1F);
+            Engine.object_dynamic_simulation_disable(gondola_02_a.Entity, true);
+            Engine.object_dynamic_simulation_disable(gondola_02_b.Entity, true);
+            Engine.game_save();
+            Engine.ai_vehicle_exit(temple_ent_turrets.Squad);
+            Engine.ai_set_orders(temple_ent_grunts.Squad, temple_ent_retreat);
+            Engine.ai_set_orders(temple_ent_jackals.Squad, temple_ent_retreat);
+            Engine.device_set_position(gondola_02_launch_a.Entity, 0F);
+            Engine.device_set_position(gondola_02_launch_b.Entity, 0F);
+            Engine.cs_run_command_script(temple_ent_grunts.Squad, panic);
+            await Engine.sleep(60);
+            Engine.cs_run_command_script(temple_ent_jackals.Squad, panic);
         }
 
         [ScriptMethod(Lifecycle.CommandScript)]
@@ -4770,6 +4817,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(Lifecycle.Dormant)]
         public async Task temple_entry_start()
         {
+            await Engine.sleep_until(async () => (short)Engine.ai_living_count(temple_entry_enemies) < 1 || Engine.volume_test_objects(vol_temple_ent_cutscene, Engine.players()) == true, 5);
             Engine.ai_disposable(gondola_02_enemies, true);
             Engine.wake(music_05b_09_stop);
             await this.cinematic_fade_to_white();
@@ -5024,7 +5072,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_dialogue_enable(false);
             await Engine.sleep(60);
             Engine.print("cortana: 'phased spatial relocation! the same technology the monitor used on the first halo.'");
-            Engine.print("'seems the prophets save the best toys for themselves\u0085'");
+            Engine.print("'seems the prophets save the best toys for themselves�'");
             await Engine.sleep(Engine.ai_play_line_on_object(default(IGameObject), "1260"));
             await Engine.sleep(30);
             Engine.ai_dialogue_enable(true);

@@ -168,7 +168,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("grab jaime or paul to give feedback!");
             Engine.player_action_test_reset();
             await Engine.sleep(15);
-            Engine.print("press the \u0093a\u0094 button to reset!");
+            Engine.print("press the �a� button to reset!");
             await Engine.sleep_until(async () => (bool)Engine.player_action_test_accept());
             Engine.print("reloading map...");
             await Engine.sleep(15);
@@ -2650,7 +2650,6 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(Lifecycle.Dormant)]
         public async Task elev_go()
         {
-            Engine.kill_volume_disable(kill_silo_toggle);
             await this.silo_crane_01();
             await this.silo_tray01();
             await Engine.sleep(30);
@@ -2689,6 +2688,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(30);
             await Engine.sleep_until(async () => Engine.volume_test_objects_all(vol_specimen_storage, Engine.players()) == true && await this.player_count() > 0, 30, 300);
             Engine.print("down 800 - kill disabled");
+            Engine.kill_volume_disable(kill_silo_toggle);
             await this.silo_down_800();
             await Engine.sleep(600);
             await this.silo_rot_180_minus();
@@ -2849,7 +2849,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             Engine.device_one_sided_set(lab_exit_int.Entity, true);
             Engine.device_set_never_appears_locked(lab_exit_int.Entity, true);
-            await Engine.sleep_until(async () => Engine.volume_test_objects_all(vol_research_arm_swap, Engine.ai_actors(allies_elites)) == true && await this.player_count() > 0, 30, 30);
+            await Engine.sleep_until(async () => Engine.volume_test_objects_all(vol_research_arm_swap, Engine.ai_actors(allies_elites)) == true && await this.player_count() > 0, 30, 300);
             await Engine.sleep_until(async () => Engine.volume_test_objects_all(vol_research_arm_swap, Engine.players()) == true && await this.player_count() > 0 && Engine.device_get_position(lab_exit_int.Entity) <= 0F);
             Engine.device_operates_automatically_set(lab_exit_int.Entity, false);
             Engine.device_set_never_appears_locked(lab_exit_int.Entity, false);
@@ -2887,31 +2887,51 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 await Engine.sleep(2);
                 return false;
             }, 30, 60);
-            Engine.object_create(gas01);
-            Engine.object_create(gas02);
-            Engine.object_create(gas03);
-            Engine.object_create(gas04);
-            Engine.object_create(gas05);
-            Engine.object_create(gas06);
-            Engine.object_create(gas07);
-            Engine.object_create(gas08);
-            Engine.object_create(gas09);
-            Engine.object_create(gas10);
+            Engine.begin_random(async () => Engine.object_create(gas01), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_create(gas02), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_create(gas03), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_create(gas04), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_create(gas05), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_create(gas06), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_create(gas07), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_create(gas08), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_create(gas09), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_create(gas10), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)));
             Engine.switch_bsp(0);
             Engine.ai_set_orders(all_allies, allies_wraparound);
             await Engine.sleep_until(async () => (short)Engine.structure_bsp_index() == 0);
             Engine.wake(airlock_commander_talk);
             await Engine.sleep(30);
-            Engine.object_destroy(gas01.Entity);
-            Engine.object_destroy(gas02.Entity);
-            Engine.object_destroy(gas03.Entity);
-            Engine.object_destroy(gas04.Entity);
-            Engine.object_destroy(gas05.Entity);
-            Engine.object_destroy(gas06.Entity);
-            Engine.object_destroy(gas07.Entity);
-            Engine.object_destroy(gas08.Entity);
-            Engine.object_destroy(gas09.Entity);
-            Engine.object_destroy(gas10.Entity);
+            Engine.begin_random(async () => Engine.object_destroy(gas01.Entity), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_destroy(gas02.Entity), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_destroy(gas03.Entity), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_destroy(gas04.Entity), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_destroy(gas05.Entity), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_destroy(gas06.Entity), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_destroy(gas07.Entity), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_destroy(gas08.Entity), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_destroy(gas09.Entity), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
+                async () => Engine.object_destroy(gas10.Entity), 
+                async () => await Engine.sleep((short)Engine.random_range(5, 15)));
             await Engine.sleep(30);
             Engine.device_operates_automatically_set(lab_exit_ext.Entity, true);
         }
@@ -3146,7 +3166,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 }
 
                 return false;
-            }, 30, 30);
+            }, 30, 1800);
         }
 
         [ScriptMethod(Lifecycle.Dormant)]
@@ -3290,9 +3310,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.music_04b_03_start_alt();
             this.lab_flood_count = 0;
             Engine.wake(lab_wave_new_02);
-            await Engine.sleep(1);
-            await Engine.sleep_until(async () => (short)Engine.ai_nonswarm_count(lab_flood) < 1, 30, 60);
-            await Engine.sleep_until(async () => (bool)Engine.ai_trigger_test("done_fighting", lab_flood) == true, 30, 60);
+            await Engine.sleep(1800);
+            await Engine.sleep_until(async () => (short)Engine.ai_nonswarm_count(lab_flood) < 1, 30, 3600);
+            await Engine.sleep_until(async () => (bool)Engine.ai_trigger_test("done_fighting", lab_flood) == true, 30, 1800);
             Engine.data_mine_set_mission_segment("04b_9_flood_lab_mid_02");
             Engine.game_save_no_timeout();
             await this.music_04b_03_stop_alt();
@@ -4043,6 +4063,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task cable_invulnerable()
         {
             await Engine.sleep_until(async () => this.cables_cuttable == false, 1);
+            Engine.object_cannot_take_damage(real_cable_a.Entity);
+            Engine.object_cannot_take_damage(real_cable_b.Entity);
+            Engine.object_cannot_take_damage(real_cable_c.Entity);
             await Engine.sleep_until(async () => Engine.device_get_position(cableroom.Entity) == 1F);
             Engine.ai_dialogue_enable(false);
             await Engine.sleep(60);
@@ -4056,11 +4079,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_can_take_damage(real_cable_c.Entity);
             await Engine.sleep(5);
             await Engine.sleep_until(async () => this.cables_cuttable == false, 1);
+            Engine.object_cannot_take_damage(real_cable_a.Entity);
+            Engine.object_cannot_take_damage(real_cable_b.Entity);
+            Engine.object_cannot_take_damage(real_cable_c.Entity);
             await Engine.sleep_until(async () => Engine.device_get_position(cableroom.Entity) == 1F);
             Engine.ai_dialogue_enable(false);
             await Engine.sleep(60);
-            Engine.print("spec-ops commander: 'one final cable arbiter\u0085'");
-            Engine.ai_play_line_on_object(default(IGameObject), "1400");
+            Engine.print("spec-ops commander: 'one final cable arbiter�'");
+            await Engine.sleep(Engine.ai_play_line_on_object(default(IGameObject), "1400"));
             await Engine.sleep(30);
             Engine.ai_dialogue_enable(true);
             await Engine.sleep(30);
@@ -4192,7 +4218,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\ambience\\alphagasgiant\\cable_snaps\\cable_snap_one", 4221704553U), default(IGameObject), 1F);
                 Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("sound_remastered\\visual_effects\\alphagas_cablelist\\alphacable_swtnr_01_quad", 4221835627U), default(IGameObject), 1F);
                 Engine.device_set_position_track(cableroom.Entity, "cable_room_rot_5_bc", 0F);
-                Engine.device_animate_position(cableroom.Entity, 1F, 2F, 1F, 4F, false);
+                Engine.device_animate_position(cableroom.Entity, 1F, 10F, 1F, 4F, false);
                 this.croom_flood_total = (short)Engine.ai_nonswarm_count(cable_flood);
                 this.croom_sen_total = (short)Engine.ai_living_count(cable_sentinels);
                 Engine.game_save();
@@ -4207,7 +4233,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.object_get_health(real_cable_b.Entity) <= 0F)
                 {
                     Engine.device_set_position_track(cableroom.Entity, "cable_room_rot_ac2c", 0F);
-                    Engine.device_animate_position(cableroom.Entity, 1F, 2F, 1F, 4F, false);
+                    Engine.device_animate_position(cableroom.Entity, 1F, 10F, 1F, 4F, false);
                     this.croom_flood_total = (short)Engine.ai_nonswarm_count(cable_flood);
                     this.croom_sen_total = (short)Engine.ai_living_count(cable_sentinels);
                 }
@@ -4215,7 +4241,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.object_get_health(real_cable_c.Entity) <= 0F)
                 {
                     Engine.device_set_position_track(cableroom.Entity, "cable_room_rot_ab2b", 0F);
-                    Engine.device_animate_position(cableroom.Entity, 1F, 2F, 1F, 4F, false);
+                    Engine.device_animate_position(cableroom.Entity, 1F, 10F, 1F, 4F, false);
                     this.croom_flood_total = (short)Engine.ai_nonswarm_count(cable_flood);
                     this.croom_sen_total = (short)Engine.ai_living_count(cable_sentinels);
                 }
@@ -4293,7 +4319,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\ambience\\alphagasgiant\\cable_snaps\\cable_snap_one", 4221704553U), default(IGameObject), 1F);
                 Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("sound_remastered\\visual_effects\\alphagas_cablelist\\alphacable_swtnr_01_quad", 4221835627U), default(IGameObject), 1F);
                 Engine.device_set_position_track(cableroom.Entity, "cable_room_rot_5_ac", 0F);
-                Engine.device_animate_position(cableroom.Entity, 1F, 2F, 1F, 4F, false);
+                Engine.device_animate_position(cableroom.Entity, 1F, 10F, 1F, 4F, false);
                 this.croom_flood_total = (short)Engine.ai_nonswarm_count(cable_flood);
                 this.croom_sen_total = (short)Engine.ai_living_count(cable_sentinels);
                 Engine.game_save();
@@ -4308,7 +4334,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.object_get_health(real_cable_a.Entity) <= 0F)
                 {
                     Engine.device_set_position_track(cableroom.Entity, "cable_room_rot_bc2c", 0F);
-                    Engine.device_animate_position(cableroom.Entity, 1F, 2F, 1F, 4F, false);
+                    Engine.device_animate_position(cableroom.Entity, 1F, 10F, 1F, 4F, false);
                     this.croom_flood_total = (short)Engine.ai_nonswarm_count(cable_flood);
                     this.croom_sen_total = (short)Engine.ai_living_count(cable_sentinels);
                 }
@@ -4316,7 +4342,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.object_get_health(real_cable_c.Entity) <= 0F)
                 {
                     Engine.device_set_position_track(cableroom.Entity, "cable_room_rot_ab2a", 0F);
-                    Engine.device_animate_position(cableroom.Entity, 1F, 2F, 1F, 4F, false);
+                    Engine.device_animate_position(cableroom.Entity, 1F, 10F, 1F, 4F, false);
                     this.croom_flood_total = (short)Engine.ai_nonswarm_count(cable_flood);
                     this.croom_sen_total = (short)Engine.ai_living_count(cable_sentinels);
                 }
@@ -4395,7 +4421,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\ambience\\alphagasgiant\\cable_snaps\\cable_snap_one", 4221704553U), default(IGameObject), 1F);
                 Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("sound_remastered\\visual_effects\\alphagas_cablelist\\alphacable_swtnr_01_quad", 4221835627U), default(IGameObject), 1F);
                 Engine.device_set_position_track(cableroom.Entity, "cable_room_rot_5_ab", 0F);
-                Engine.device_animate_position(cableroom.Entity, 1F, 2F, 1F, 4F, false);
+                Engine.device_animate_position(cableroom.Entity, 1F, 10F, 1F, 4F, false);
                 this.croom_flood_total = (short)Engine.ai_nonswarm_count(cable_flood);
                 this.croom_sen_total = (short)Engine.ai_living_count(cable_sentinels);
                 Engine.game_save();
@@ -4410,7 +4436,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.object_get_health(real_cable_a.Entity) <= 0F)
                 {
                     Engine.device_set_position_track(cableroom.Entity, "cable_room_rot_bc2b", 0F);
-                    Engine.device_animate_position(cableroom.Entity, 1F, 2F, 1F, 4F, false);
+                    Engine.device_animate_position(cableroom.Entity, 1F, 10F, 1F, 4F, false);
                     this.croom_flood_total = (short)Engine.ai_nonswarm_count(cable_flood);
                     this.croom_sen_total = (short)Engine.ai_living_count(cable_sentinels);
                 }
@@ -4418,7 +4444,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.object_get_health(real_cable_b.Entity) <= 0F)
                 {
                     Engine.device_set_position_track(cableroom.Entity, "cable_room_rot_ac2a", 0F);
-                    Engine.device_animate_position(cableroom.Entity, 1F, 2F, 1F, 4F, false);
+                    Engine.device_animate_position(cableroom.Entity, 1F, 10F, 1F, 4F, false);
                     this.croom_flood_total = (short)Engine.ai_nonswarm_count(cable_flood);
                     this.croom_sen_total = (short)Engine.ai_living_count(cable_sentinels);
                 }
@@ -8141,7 +8167,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => this.monitor_done_talking == true);
             Engine.cs_suppress_dialogue_global(true);
             await Engine.sleep(60);
-            Engine.print("heretic leader: 'look around you, arbiter\u0085'");
+            Engine.print("heretic leader: 'look around you, arbiter�'");
             Engine.cs_play_line("0830");
             await Engine.sleep(15);
             Engine.print("heretic leader: 'this facility, and dozens like it, devoted to the study of the parasite!'");
@@ -9053,8 +9079,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => (short)Engine.structure_bsp_index() == 1);
             Engine.wake(control_room_return);
             Engine.wake(power_core_start);
+            Engine.wake(dogfight_secondtime_start);
             await this.sleep_cableroom();
-            await Engine.sleep_until(async () => Engine.volume_test_objects(vol_power_core_ledge, Engine.players()) == true, 1);
+            await Engine.sleep_until(async () => Engine.volume_test_objects(vol_arm_01_return, Engine.players()) == true, 1);
             Engine.wake(bottling_secondtime_start);
             Engine.wake(to_underhangar_secondtime);
             Engine.wake(underhangar_secondtime_start);

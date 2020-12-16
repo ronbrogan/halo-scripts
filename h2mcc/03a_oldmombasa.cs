@@ -160,7 +160,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("grab jaime or paul to give feedback!");
             Engine.player_action_test_reset();
             await Engine.sleep(15);
-            Engine.print("press the \u0093a\u0094 button to reset!");
+            Engine.print("press the �a� button to reset!");
             await Engine.sleep_until(async () => (bool)Engine.player_action_test_accept());
             Engine.print("reloading map...");
             await Engine.sleep(15);
@@ -1609,19 +1609,125 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.camera_control(false);
             Engine.player_camera_control(true);
             Engine.set_global_sound_environment(1F, 1F, 0F, 0F, 1000, 0F);
-            Engine.print("recovery - easy");
-            Engine.fade_out(0F, 0F, 0F, 0);
-            Engine.cinematic_start_movie("oldmombasa_chief_recovery_easy");
-            Engine.cinematic_start();
-            Engine.cinematic_show_letterbox_immediate(true);
-            await Engine.sleep(30);
-            Engine.fade_in(0F, 0F, 0F, 30);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\03_earthcity\\mission\\l03_9000_cor", 3849323514U), default(IGameObject), 1F);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\visual_effects\\oldmombasa_intro_tinnitus", 2187010083U), default(IGameObject), 1F);
-            Engine.cinematic_stop();
-            Engine.cinematic_show_letterbox_immediate(true);
-            Engine.player_enable_input(true);
-            Engine.set_global_sound_environment(1F, 1F, 1F, 1F, 8000, 0F);
+            if ("easy" == Engine.game_difficulty_get_real() // Couldn't generate cast from 'String' to 'GameDifficulty'
+            )
+            {
+                Engine.print("recovery - easy");
+                Engine.fade_out(0F, 0F, 0F, 0);
+                Engine.cinematic_start_movie("oldmombasa_chief_recovery_easy");
+                Engine.cinematic_start();
+                Engine.cinematic_show_letterbox_immediate(true);
+                Engine.interpolator_start("blurry_vision", 1F, 0.001F);
+                await Engine.sleep(30);
+                Engine.fade_in(0F, 0F, 0F, 30);
+                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\03_earthcity\\mission\\l03_9000_cor", 3849323514U), default(IGameObject), 1F);
+                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\visual_effects\\oldmombasa_intro_tinnitus", 2187010083U), default(IGameObject), 1F);
+                await Engine.sleep(35);
+                Engine.fade_out(0F, 0F, 0F, 30);
+                await Engine.sleep(45);
+                Engine.fade_in(0F, 0F, 0F, 20);
+                await Engine.sleep(25);
+                Engine.fade_out(0F, 0F, 0F, 15);
+                await Engine.sleep(20);
+                Engine.fade_in(0F, 0F, 0F, 15);
+                Engine.player_enable_input(false);
+                Engine.cinematic_stop();
+                Engine.cinematic_show_letterbox_immediate(true);
+                Engine.interpolator_start("blurry_vision", 0F, 3F);
+                await Engine.sleep(30);
+                Engine.player_enable_input(true);
+                Engine.set_global_sound_environment(1F, 1F, 1F, 1F, 8000, 0F);
+            }
+
+            if ("normal" == Engine.game_difficulty_get_real() // Couldn't generate cast from 'String' to 'GameDifficulty'
+            )
+            {
+                Engine.print("recovery - normal");
+                Engine.fade_out(0F, 0F, 0F, 0);
+                Engine.cinematic_start_movie("oldmombasa_chief_recovery_normal");
+                Engine.cinematic_start();
+                Engine.cinematic_show_letterbox_immediate(true);
+                Engine.interpolator_start("blurry_vision", 1F, 0.001F);
+                await Engine.sleep(30);
+                Engine.fade_in(0F, 0F, 0F, 30);
+                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\03_earthcity\\mission\\l03_9030_cor", 3849389051U), default(IGameObject), 1F);
+                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\visual_effects\\oldmombasa_intro_tinnitus", 2187010083U), default(IGameObject), 1F);
+                await Engine.sleep(35);
+                Engine.fade_out(0F, 0F, 0F, 30);
+                await Engine.sleep(45);
+                Engine.fade_in(0F, 0F, 0F, 20);
+                await Engine.sleep(25);
+                Engine.fade_out(0F, 0F, 0F, 15);
+                await Engine.sleep(20);
+                Engine.fade_in(0F, 0F, 0F, 15);
+                Engine.player_enable_input(false);
+                Engine.cinematic_stop();
+                Engine.cinematic_show_letterbox_immediate(true);
+                Engine.interpolator_start("blurry_vision", 0F, 3F);
+                await Engine.sleep(30);
+                Engine.player_enable_input(true);
+                Engine.set_global_sound_environment(1F, 1F, 1F, 1F, 8000, 0F);
+            }
+
+            if ("heroic" == Engine.game_difficulty_get_real() // Couldn't generate cast from 'String' to 'GameDifficulty'
+            )
+            {
+                Engine.print("recovery - heroic");
+                Engine.fade_out(0F, 0F, 0F, 0);
+                Engine.cinematic_start_movie("oldmombasa_chief_recovery_heroic");
+                Engine.cinematic_start();
+                Engine.cinematic_show_letterbox_immediate(true);
+                Engine.interpolator_start("blurry_vision", 1F, 0.001F);
+                await Engine.sleep(30);
+                Engine.fade_in(0F, 0F, 0F, 30);
+                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\03_earthcity\\mission\\l03_9020_cor", 3849454588U), default(IGameObject), 1F);
+                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\visual_effects\\oldmombasa_intro_tinnitus", 2187010083U), default(IGameObject), 1F);
+                await Engine.sleep(35);
+                Engine.fade_out(0F, 0F, 0F, 30);
+                await Engine.sleep(45);
+                Engine.fade_in(0F, 0F, 0F, 20);
+                await Engine.sleep(25);
+                Engine.fade_out(0F, 0F, 0F, 15);
+                await Engine.sleep(20);
+                Engine.fade_in(0F, 0F, 0F, 15);
+                Engine.player_enable_input(false);
+                Engine.cinematic_stop();
+                Engine.cinematic_show_letterbox_immediate(true);
+                Engine.interpolator_start("blurry_vision", 0F, 3F);
+                await Engine.sleep(30);
+                Engine.player_enable_input(true);
+                Engine.set_global_sound_environment(1F, 1F, 1F, 1F, 8000, 0F);
+            }
+
+            if ("legendary" == Engine.game_difficulty_get_real() // Couldn't generate cast from 'String' to 'GameDifficulty'
+            )
+            {
+                Engine.print("recovery - legendary");
+                Engine.fade_out(0F, 0F, 0F, 0);
+                Engine.cinematic_start_movie("oldmombasa_chief_recovery_get_real");
+                Engine.cinematic_start();
+                Engine.cinematic_show_letterbox_immediate(true);
+                Engine.interpolator_start("blurry_vision", 1F, 0.001F);
+                await Engine.sleep(30);
+                Engine.fade_in(0F, 0F, 0F, 30);
+                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\03_earthcity\\mission\\l03_9010_cor", 3849520125U), default(IGameObject), 1F);
+                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\visual_effects\\oldmombasa_intro_tinnitus", 2187010083U), default(IGameObject), 1F);
+                await Engine.sleep(35);
+                Engine.fade_out(0F, 0F, 0F, 30);
+                await Engine.sleep(45);
+                Engine.fade_in(0F, 0F, 0F, 20);
+                await Engine.sleep(25);
+                Engine.fade_out(0F, 0F, 0F, 15);
+                await Engine.sleep(20);
+                Engine.fade_in(0F, 0F, 0F, 15);
+                Engine.player_enable_input(false);
+                Engine.cinematic_stop();
+                Engine.cinematic_show_letterbox_immediate(true);
+                Engine.interpolator_start("blurry_vision", 0F, 3F);
+                await Engine.sleep(30);
+                Engine.player_enable_input(true);
+                Engine.set_global_sound_environment(1F, 1F, 1F, 1F, 8000, 0F);
+            }
         }
 
         [ScriptMethod(Lifecycle.Static)]

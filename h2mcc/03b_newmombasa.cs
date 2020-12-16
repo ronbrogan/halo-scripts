@@ -150,7 +150,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("grab jaime or paul to give feedback!");
             Engine.player_action_test_reset();
             await Engine.sleep(15);
-            Engine.print("press the \u0093a\u0094 button to reset!");
+            Engine.print("press the �a� button to reset!");
             await Engine.sleep_until(async () => (bool)Engine.player_action_test_accept());
             Engine.print("reloading map...");
             await Engine.sleep(15);
@@ -3156,12 +3156,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(Lifecycle.Dormant)]
         public async Task e23_cov_inf1_main()
         {
+            await Engine.sleep_until(async () => this.g_e23_scarab_climbed_down, 5);
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_scarab_stairwell, Engine.players()), 15);
             Engine.ai_place(e23_cov_inf1_1.Squad);
             Engine.ai_place(e23_cov_inf1_0.Squad, (short)Engine.pin(4F - (float)Engine.ai_living_count(e23_cov_inf0), 1F, 3F));
             Engine.wake(e23_ultra_dialogue);
             Engine.wake(e23_ultra_dialogue_kill);
             Engine.wake(e23_best_cs_ever);
+            await Engine.sleep_until(async () => !(Engine.cs_command_script_queued(e23_cov_inf1_1.pilot0, cs_e23_cov_inf1_pilot0)) && !(Engine.cs_command_script_queued(e23_cov_inf1_1.pilot1, cs_e23_cov_inf1_pilot1)));
             this.g_e23_scarab_active = false;
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(e23_cov_inf1) <= 0);
             this.g_mission_over = true;
@@ -3170,6 +3172,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(Lifecycle.Dormant)]
         public async Task e23_cov_inf0_main()
         {
+            await Engine.sleep_until(async () => this.g_e23_scarab_climbed_down, 5);
             Engine.ai_place(e23_cov_inf0_0.Squad);
             await Engine.sleep_until(async () => this.g_e23_scarab_under_bridge1 || (short)Engine.ai_living_count(e23_cov_inf0) <= 2 || Engine.volume_test_objects(tv_scarab_interior, Engine.players()), 15);
             Engine.ai_place(e23_cov_inf0_1.Squad, (short)Engine.pin(6F - (float)Engine.ai_living_count(e23_cov_inf0), 0F, 4F));
@@ -4379,6 +4382,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.scarab_walk_front_var0();
             await this.scarab_walk_front_var0();
             await this.scarab_walk_front_to_idle();
+            Engine.object_destroy(scarab.Entity);
         }
 
         [ScriptMethod(Lifecycle.Dormant)]
@@ -4538,7 +4542,27 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(Lifecycle.CommandScript)]
         public async Task cs_e17_mars_inf0_drive()
         {
+            Engine.cs_enable_pathfinding_failsafe(true);
+            Engine.object_cannot_die(Engine.ai_get_object(e17_mars_inf0.warthog0), true);
+            Engine.object_cannot_die(Engine.ai_get_object(e17_mars_inf0.passenger0), true);
+            Engine.cs_go_to(Engine.GetReference<ISpatialPoint>("e17_mars_inf0_entry/p0"));
+            await Engine.sleep_until(async () => Engine.objects_distance_to_object(Engine.players(), Engine.ai_get_object(this.ai_current_actor)) < 13F || Engine.volume_test_objects(tv_e17_near_first_wall, Engine.players()), 15, this.one_minute);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("sound\\vehicles\\warthog\\warthog_horn\\warthog_horn", 4216134047U), Engine.ai_vehicle_get(this.ai_current_actor), 1.5F);
+            await Engine.sleep(5);
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("sound\\vehicles\\warthog\\warthog_horn\\warthog_horn", 4216134047U));
+            await Engine.sleep(5);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("sound\\vehicles\\warthog\\warthog_horn\\warthog_horn", 4216134047U), Engine.ai_vehicle_get(this.ai_current_actor), 1.5F);
+            await Engine.sleep(15);
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("sound\\vehicles\\warthog\\warthog_horn\\warthog_horn", 4216134047U));
+            await Engine.sleep_until(async () => Engine.objects_distance_to_object(Engine.players(), Engine.ai_get_object(this.ai_current_actor)) < 10F || (float)Engine.ai_strength(this.ai_current_actor) <= 0.5F || (float)Engine.ai_strength(this.ai_current_squad) <= 0.75F || Engine.volume_test_objects(tv_e17_first_wall_approach, Engine.players()), 15, 600);
+            Engine.cs_go_by(Engine.GetReference<ISpatialPoint>("e17_mars_inf0_entry/p0_1"), Engine.GetReference<ISpatialPoint>("e17_mars_inf0_entry/p1"));
+            Engine.cs_go_to(Engine.GetReference<ISpatialPoint>("e17_mars_inf0_entry/p1"));
             this.g_e17_mars_warthog0_arrived = true;
+            await Engine.sleep(20);
+            Engine.object_cannot_die(Engine.ai_get_object(e17_mars_inf0.warthog0), false);
+            Engine.object_cannot_die(Engine.ai_get_object(e17_mars_inf0.passenger0), false);
+            Engine.ai_vehicle_exit(e17_mars_inf0.warthog0);
+            Engine.ai_vehicle_exit(e17_mars_inf0.passenger0);
         }
 
         [ScriptMethod(Lifecycle.CommandScript)]
@@ -4703,6 +4727,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(Lifecycle.Dormant)]
         public async Task e17_mars_inf0_main()
         {
+            Engine.cs_run_command_script(e16_mars_inf0.Squad, cs_e17_mars_selective_migrate);
+            await Engine.sleep(15);
+            Engine.ai_place(e17_mars_inf0.Squad);
+            Engine.ai_vehicle_reserve(Engine.ai_vehicle_get(e17_mars_inf0.warthog0), true);
             Engine.ai_disposable(e16_mars, true);
             Engine.wake(e17_shotgun_scene);
         }
@@ -4735,6 +4763,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(Lifecycle.Static)]
         public async Task test_flooded_tunnel()
         {
+            Engine.object_teleport(await this.player0(), e17_test);
             Engine.object_create(e17_test_tank);
             if (!(this.g_e17_started))
             {
@@ -4745,23 +4774,6 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 Engine.wake(e18_main);
             }
-
-            await Engine.sleep_until(async () => this.g_mission_over, 8);
-            Engine.wake(music_03b_04_stop);
-            await Engine.sleep(60);
-            await this.playtest_mission();
-            await Engine.sleep(15);
-            await this.cinematic_fade_to_white();
-            Engine.object_cannot_take_damage(Engine.players());
-            Engine.object_hide(await this.player0(), true);
-            Engine.object_hide(await this.player1(), true);
-            Engine.object_teleport(await this.player0(), player0_end);
-            Engine.object_teleport(await this.player1(), player1_end);
-            Engine.object_destroy(scarab.Entity);
-            Engine.ai_erase(e23_cov);
-            Engine.ai_erase(e23_mars);
-            await this.cinematic_outro();
-            Engine.game_won();
         }
 
         [ScriptMethod(Lifecycle.CommandScript)]
@@ -5445,20 +5457,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_teleport(await this.player1(), player1_start);
             Engine.object_hide(await this.player0(), false);
             Engine.object_hide(await this.player1(), false);
+            Engine.object_can_take_damage(Engine.players());
             Engine.wake(e14_main);
-            Engine.ai_place(e17_mars_inf0.Squad);
             Engine.camera_control(false);
             await Engine.sleep(1);
-            Engine.ai_vehicle_reserve(Engine.ai_vehicle_get(e17_mars_inf0.warthog0), true);
-            Engine.ai_vehicle_exit(e17_mars_inf0.warthog0);
-            Engine.ai_vehicle_exit(e17_mars_inf0.passenger0);
             await Engine.cache_block_for_one_frame();
-            Engine.object_teleport(Engine.ai_get_object(e17_mars_inf0.warthog0), e17_test);
             await Engine.sleep(1);
-            Engine.object_teleport(await this.player0(), e17_test);
-            Engine.object_cannot_die(Engine.unit(await this.player0()), Engine.ai_get_object(e17_mars_inf0.warthog0), "warthog_d");
             await this.cinematic_fade_from_white_bars();
-            Engine.object_can_take_damage(Engine.players());
             Engine.wake(chapter_title0);
             await Engine.sleep_until(async () => this.g_mission_over, 8);
             Engine.wake(music_03b_04_stop);

@@ -192,7 +192,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("grab jaime or paul to give feedback!");
             Engine.player_action_test_reset();
             await Engine.sleep(15);
-            Engine.print("press the \u0093a\u0094 button to reset!");
+            Engine.print("press the �a� button to reset!");
             await Engine.sleep_until(async () => (bool)Engine.player_action_test_accept());
             Engine.print("reloading map...");
             await Engine.sleep(15);
@@ -652,7 +652,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("then how do i stop it?!");
             Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\08_controlroom\\mission\\l08_1120_mir", 4265352390U), Engine.ai_get_object(boss_miranda.Squad), 1F);
             await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\08_controlroom\\mission\\l08_1120_mir", 4265352390U)));
-            Engine.print("well\u0085it will take some time to go over the proper procedures\u0085");
+            Engine.print("well�it will take some time to go over the proper procedures�");
             Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\08_controlroom\\mission\\l08_1130_gsp", 4265417927U), Engine.ai_get_object(boss_monitor.Squad), 1F);
             await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\08_controlroom\\mission\\l08_1130_gsp", 4265417927U)));
             Engine.print("quit stalling!");
@@ -692,7 +692,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.boss_flavor_done = false;
             Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("sound\\ambience\\deltacontolroom\\boss\\stage3", 2177769535U), default(IGameObject), 1F);
             await Engine.sleep((short)(5 * this.game_seconds));
-            Engine.print("power-generation phase complete! the installation is ready to fire! starting final countdown\u0085");
+            Engine.print("power-generation phase complete! the installation is ready to fire! starting final countdown�");
             Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\08_controlroom\\mission\\l08_1180_gsp", 4265745612U), Engine.ai_get_object(boss_monitor.Squad), 1F);
             await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\08_controlroom\\mission\\l08_1180_gsp", 4265745612U)));
             Engine.print("c'mon, arbiter! kick that guy's ass!");
@@ -4579,47 +4579,47 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(Lifecycle.Static)]
         public async Task<int> e11_pro_wraiths1_living_count()
         {
-            float ifResult_17225051 = default(float);
+            float ifResult_17204176 = default(float);
             if (Engine.unit_get_health(Engine.ai_vehicle_get_from_starting_location(e11_pro_wraith1_0.wraith)) > 0F)
             {
-                ifResult_17225051 = 1F;
+                ifResult_17204176 = 1F;
             }
             else
             {
-                ifResult_17225051 = 0F;
+                ifResult_17204176 = 0F;
             }
 
-            float ifResult_15142795 = default(float);
+            float ifResult_37356566 = default(float);
             if (Engine.unit_get_health(Engine.ai_vehicle_get_from_starting_location(e11_pro_wraith1_1.wraith)) > 0F)
             {
-                ifResult_15142795 = 1F;
+                ifResult_37356566 = 1F;
             }
             else
             {
-                ifResult_15142795 = 0F;
+                ifResult_37356566 = 0F;
             }
 
-            float ifResult_11293202 = default(float);
+            float ifResult_30939615 = default(float);
             if (Engine.unit_get_health(Engine.ai_vehicle_get_from_starting_location(e11_pro_wraith1_2.wraith)) > 0F)
             {
-                ifResult_11293202 = 1F;
+                ifResult_30939615 = 1F;
             }
             else
             {
-                ifResult_11293202 = 0F;
+                ifResult_30939615 = 0F;
             }
 
-            float ifResult_2248649 = default(float);
+            float ifResult_728235 = default(float);
             if (Engine.unit_get_health(Engine.ai_vehicle_get_from_starting_location(e11_pro_wraith1_3.wraith)) > 0F)
             {
-                ifResult_2248649 = 1F;
+                ifResult_728235 = 1F;
             }
             else
             {
-                ifResult_2248649 = 0F;
+                ifResult_728235 = 0F;
             }
 
-            return (short)(ifResult_17225051 + ifResult_15142795 + ifResult_11293202 + ifResult_2248649);
+            return (short)(ifResult_17204176 + ifResult_37356566 + ifResult_30939615 + ifResult_728235);
         }
 
         [ScriptMethod(Lifecycle.Static)]
@@ -5875,7 +5875,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.device_set_position_track(scarab.Entity, "delta_ledge_rear_idle", 0F);
                 Engine.device_animate_position(scarab.Entity, 1F, 120F / 30F, 0F, 0F, true);
                 await Engine.sleep_until(async () => Engine.device_get_position(scarab.Entity) >= 1F, 1);
-                return (short)Engine.structure_bsp_index() == 0 && !(Engine.volume_test_objects(tv_e7_brute_area, Engine.ai_actors(e7_pro_inf0.Squad)));
+                return (short)Engine.structure_bsp_index() == 0 && !(Engine.volume_test_objects(tv_e7_brute_area, Engine.ai_actors(e7_pro_inf0.Squad))) && (bool)Engine.game_safe_to_save();
             }, 5);
             await this.cinematic_fade_to_white();
             Engine.ai_erase(e7_mars);
@@ -5898,7 +5898,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_create(scarab);
             Engine.pvs_set_object(scarab.Entity);
             Engine.device_set_position_track(scarab.Entity, "delta_ledge_idle", 0F);
-            Engine.wake(e13_main);
+            Engine.wake(e8_main);
             Engine.camera_control(false);
             await Engine.sleep(1);
             await Engine.cache_block_for_one_frame();
