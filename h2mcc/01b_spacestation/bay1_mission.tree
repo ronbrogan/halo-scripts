@@ -30,10 +30,12 @@
             (____, Scope<Void> @:14957 op:290,dt:4,nt:8,next:14960,str:53908,d0:14958,d1:40418;
                 ("ai_place", Expression<MethodOrOperator> @:14958 op:290,dt:2,nt:9,next:14959,str:16693,d0:0,d1:0;
                     ("bay1_cov_catwalk", Expression<AI> @:14959 op:19,dt:19,nt:9,next:65535,str:35436,d0:17,d1:16384;)))
-            (____, Scope<Void> @:14960 op:310,dt:4,nt:8,next:14966,str:53938,d0:14961,d1:40421;
-                ("ai_allegiance", Expression<MethodOrOperator> @:14961 op:310,dt:2,nt:9,next:14962,str:43617,d0:0,d1:0;
-                    ("player", Expression<Team> @:14962 op:45,dt:45,nt:9,next:14965,str:43631,d0:1,d1:65535;
-                        ("human", Expression<Team> @:14965 op:45,dt:45,nt:9,next:65535,str:43638,d0:2,d1:65535;))))
+            (____, Scope<Void> @:14960 op:27,dt:4,nt:8,next:14963,str:53938,d0:14961,d1:40421;
+                ("print", Expression<MethodOrOperator> @:14961 op:27,dt:2,nt:9,next:14962,str:96,d0:0,d1:0;
+                    ("hum bunker below", Expression<String> @:14962 op:9,dt:9,nt:9,next:65535,str:35453,d0:35453,d1:0;)))
+            (____, Scope<Void> @:14963 op:27,dt:4,nt:8,next:14966,str:53967,d0:14964,d1:40424;
+                ("print", Expression<MethodOrOperator> @:14964 op:27,dt:2,nt:9,next:14965,str:96,d0:0,d1:0;
+                    ("covenant turrets above", Expression<String> @:14965 op:9,dt:9,nt:9,next:65535,str:35470,d0:35470,d1:0;)))
             (____, Scope<Void> @:14966 op:27,dt:4,nt:8,next:14969,str:54002,d0:14967,d1:40427;
                 ("print", Expression<MethodOrOperator> @:14967 op:27,dt:2,nt:9,next:14968,str:96,d0:0,d1:0;
                     ("covenant infantry below", Expression<String> @:14968 op:9,dt:9,nt:9,next:65535,str:35493,d0:35493,d1:0;)))
@@ -343,8 +345,65 @@
                                     ("bay1_cov", Expression<AI> @:15272 op:19,dt:19,nt:9,next:65535,str:35517,d0:18,d1:16384;)))
                             (0, Expression<Short> @:15273 op:7,dt:7,nt:9,next:65535,str:56377,d0:0,d1:65535;)))
                     (10, Expression<Short> @:15274 op:7,dt:7,nt:9,next:65535,str:56380,d0:10,d1:65535;)))
-            ("bay1_malta", ScriptInvocation<Void> @:15275 op:341,dt:4,nt:10,next:15334,str:56389,d0:15276,d1:40736;
+            ("bay1_malta", ScriptInvocation<Void> @:15275 op:341,dt:4,nt:10,next:15277,str:56389,d0:15276,d1:40736;
                 ("bay1_malta", Expression<MethodOrOperator> @:15276 op:341,dt:2,nt:9,next:65535,str:35681,d0:0,d1:0;))
+            ("save_bay1_mid", ScriptInvocation<Void> @:15277 op:309,dt:4,nt:10,next:15279,str:56404,d0:15278,d1:40738;
+                ("save_bay1_mid", Expression<MethodOrOperator> @:15278 op:309,dt:2,nt:9,next:65535,str:35692,d0:0,d1:0;))
+            (____, Scope<Void> @:15279 op:366,dt:4,nt:8,next:15283,str:56422,d0:15280,d1:40740;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:15280 op:366,dt:2,nt:9,next:15281,str:33397,d0:0,d1:0;
+                    ("bay1_hum", Expression<AI> @:15281 op:19,dt:19,nt:9,next:15282,str:34722,d0:16,d1:16384;
+                        ("cs_clear", Expression<AIScript> @:15282 op:21,dt:21,nt:9,next:65535,str:33427,d0:329,d1:0;))))
+            (____, Scope<Void> @:15283 op:4,dt:4,nt:8,next:15287,str:56466,d0:15284,d1:40744;
+                ("set", Expression<MethodOrOperator> @:15284 op:4,dt:2,nt:9,next:15285,str:3357,d0:0,d1:0;
+                    ("mark_flavor_disable", VariableAccess<Boolean> @:15285 op:65535,dt:5,nt:13,next:15286,str:31059,d0:24,d1:0;
+                        (False, Expression<Boolean> @:15286 op:5,dt:5,nt:9,next:65535,str:56491,d0:65280,d1:65535;))))
+            (____, Scope<Void> @:15287 op:4,dt:4,nt:8,next:15291,str:56517,d0:15288,d1:40748;
+                ("set", Expression<MethodOrOperator> @:15288 op:4,dt:2,nt:9,next:15289,str:3357,d0:0,d1:0;
+                    ("mark_flavor_bay1", VariableAccess<Boolean> @:15289 op:65535,dt:5,nt:13,next:15290,str:31447,d0:32,d1:0;
+                        (False, Expression<Boolean> @:15290 op:5,dt:5,nt:9,next:65535,str:56539,d0:65280,d1:65535;))))
+            (____, Scope<Void> @:15291 op:4,dt:4,nt:8,next:15295,str:56548,d0:15292,d1:40752;
+                ("set", Expression<MethodOrOperator> @:15292 op:4,dt:2,nt:9,next:15293,str:3357,d0:0,d1:0;
+                    ("mark_flavor_bay2", VariableAccess<Boolean> @:15293 op:65535,dt:5,nt:13,next:15294,str:31430,d0:31,d1:0;
+                        (True, Expression<Boolean> @:15294 op:5,dt:5,nt:9,next:65535,str:56570,d0:65281,d1:65535;))))
+            (____, Scope<Void> @:15295 op:290,dt:4,nt:8,next:15298,str:56580,d0:15296,d1:40756;
+                ("ai_place", Expression<MethodOrOperator> @:15296 op:290,dt:2,nt:9,next:15297,str:16693,d0:0,d1:0;
+                    ("bay1_cov_fnl", Expression<AI> @:15297 op:19,dt:19,nt:9,next:65535,str:35706,d0:24,d1:16384;)))
+            (____, Scope<Void> @:15298 op:40,dt:4,nt:8,next:15302,str:56606,d0:15299,d1:40759;
+                ("effect_new", Expression<MethodOrOperator> @:15299 op:40,dt:2,nt:9,next:15300,str:35719,d0:0,d1:0;
+                    ("effects\objects\weapons\grenade\plasma_grenade\detonation.effect", Expression<Effect> @:15300 op:33,dt:33,nt:9,next:15301,str:35730,d0:4805,d1:62693;
+                        ("bay1_blast_flag_1", Expression<LocationFlag> @:15301 op:14,dt:14,nt:9,next:65535,str:35795,d0:30,d1:0;))))
+            (____, Scope<Void> @:15302 op:42,dt:4,nt:8,next:15306,str:56706,d0:15303,d1:40763;
+                ("damage_new", Expression<MethodOrOperator> @:15303 op:42,dt:2,nt:9,next:15304,str:33126,d0:0,d1:0;
+                    ("objects\weapons\grenade\plasma_grenade\damage_effects\plasma_grenade_explosion.damage_effect", Expression<DamageEffect> @:15304 op:34,dt:34,nt:9,next:15305,str:35813,d0:4818,d1:62706;
+                        ("bay1_blast_flag_1", Expression<LocationFlag> @:15305 op:14,dt:14,nt:9,next:65535,str:35795,d0:30,d1:0;))))
+            (____, Scope<Void> @:15306 op:19,dt:4,nt:8,next:15309,str:56834,d0:15307,d1:40767;
+                ("sleep", Expression<MethodOrOperator> @:15307 op:19,dt:2,nt:9,next:15308,str:90,d0:0,d1:0;
+                    (2, Expression<Short> @:15308 op:7,dt:7,nt:9,next:65535,str:56841,d0:2,d1:65535;)))
+            (____, Scope<Void> @:15309 op:40,dt:4,nt:8,next:15313,str:56846,d0:15310,d1:40770;
+                ("effect_new", Expression<MethodOrOperator> @:15310 op:40,dt:2,nt:9,next:15311,str:35719,d0:0,d1:0;
+                    ("effects\objects\weapons\grenade\plasma_grenade\detonation.effect", Expression<Effect> @:15311 op:33,dt:33,nt:9,next:15312,str:35730,d0:4805,d1:62693;
+                        ("bay1_blast_flag_2", Expression<LocationFlag> @:15312 op:14,dt:14,nt:9,next:65535,str:35906,d0:31,d1:0;))))
+            (____, Scope<Void> @:15313 op:42,dt:4,nt:8,next:15317,str:56946,d0:15314,d1:40774;
+                ("damage_new", Expression<MethodOrOperator> @:15314 op:42,dt:2,nt:9,next:15315,str:33126,d0:0,d1:0;
+                    ("objects\weapons\grenade\plasma_grenade\damage_effects\plasma_grenade_explosion.damage_effect", Expression<DamageEffect> @:15315 op:34,dt:34,nt:9,next:15316,str:35813,d0:4818,d1:62706;
+                        ("bay1_blast_flag_2", Expression<LocationFlag> @:15316 op:14,dt:14,nt:9,next:65535,str:35906,d0:31,d1:0;))))
+            (____, Scope<Void> @:15317 op:596,dt:4,nt:8,next:15322,str:57074,d0:15318,d1:40778;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:15318 op:596,dt:2,nt:9,next:15319,str:1446,d0:0,d1:0;
+                    ("sound_remastered\visual_effects\ss_smalldoor_explode", Expression<Sound> @:15319 op:32,dt:32,nt:9,next:15320,str:35924,d0:9374,d1:34518;
+                        (4294902183, Expression<Entity> @:15320 op:56,dt:50,nt:9,next:15321,str:35977,d0:423,d1:65535;
+                            (1f, Expression<Float> @:15321 op:6,dt:6,nt:9,next:65535,str:57163,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:15322 op:596,dt:4,nt:8,next:15327,str:57168,d0:15323,d1:40783;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:15323 op:596,dt:2,nt:9,next:15324,str:1446,d0:0,d1:0;
+                    ("sound_remastered\weapons\plasma_grenade\plasma_expl", Expression<Sound> @:15324 op:32,dt:32,nt:9,next:15325,str:35992,d0:7732,d1:32853;
+                        (4294902183, Expression<Entity> @:15325 op:56,dt:50,nt:9,next:15326,str:35977,d0:423,d1:65535;
+                            (1f, Expression<Float> @:15326 op:6,dt:6,nt:9,next:65535,str:57256,d0:0,d1:16256;)))))
+            (____, Scope<Void> @:15327 op:52,dt:4,nt:8,next:15330,str:57261,d0:15328,d1:40788;
+                ("object_destroy", Expression<MethodOrOperator> @:15328 op:52,dt:2,nt:9,next:15329,str:2937,d0:0,d1:0;
+                    (4294902183, Expression<Entity> @:15329 op:56,dt:50,nt:9,next:65535,str:35977,d0:423,d1:65535;)))
+            (____, Scope<Void> @:15330 op:4,dt:4,nt:8,next:15334,str:57295,d0:15331,d1:40791;
+                ("set", Expression<MethodOrOperator> @:15331 op:4,dt:2,nt:9,next:15332,str:3357,d0:0,d1:0;
+                    ("mark_flavor_brace", VariableAccess<Boolean> @:15332 op:65535,dt:5,nt:13,next:15333,str:31131,d0:26,d1:0;
+                        (True, Expression<Boolean> @:15333 op:5,dt:5,nt:9,next:65535,str:57318,d0:65281,d1:65535;))))
             (____, Scope<Void> @:15334 op:21,dt:4,nt:8,next:15342,str:57328,d0:15335,d1:40795;
                 ("sleep_until", Expression<MethodOrOperator> @:15335 op:21,dt:2,nt:9,next:15336,str:241,d0:0,d1:0;
                     (____, Scope<Boolean> @:15336 op:33,dt:5,nt:8,next:15341,str:57341,d0:15337,d1:40797;

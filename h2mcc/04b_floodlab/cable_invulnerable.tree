@@ -2,13 +2,22 @@
 ("cable_invulnerable", MethodDecl<Void> @:260 op:0,dt:0,nt:65535,next:12869,str:26551,d0:0,d1:0;
     (____, Scope<Void> @:12869 op:0,dt:4,nt:8,next:65535,str:4324,d0:12870,d1:38330;
         ("begin", Expression<MethodOrOperator> @:12870 op:0,dt:2,nt:9,next:12722,str:210,d0:0,d1:0;
-            (____, Scope<Void> @:12722 op:21,dt:4,nt:8,next:12738,str:4361,d0:12723,d1:38183;
+            (____, Scope<Void> @:12722 op:21,dt:4,nt:8,next:12729,str:4361,d0:12723,d1:38183;
                 ("sleep_until", Expression<MethodOrOperator> @:12723 op:21,dt:2,nt:9,next:12724,str:440,d0:0,d1:0;
                     (____, Scope<Boolean> @:12724 op:13,dt:5,nt:8,next:12728,str:4374,d0:12725,d1:38185;
                         ("=", Expression<MethodOrOperator> @:12725 op:13,dt:2,nt:9,next:12726,str:505,d0:0,d1:0;
                             ("cables_cuttable", VariableAccess<Boolean> @:12726 op:0,dt:5,nt:13,next:12727,str:24367,d0:30,d1:0;
                                 (False, Expression<Boolean> @:12727 op:5,dt:5,nt:9,next:65535,str:4393,d0:65280,d1:65535;))))
                     (1, Expression<Short> @:12728 op:7,dt:7,nt:9,next:65535,str:4400,d0:1,d1:65535;)))
+            (____, Scope<Void> @:12729 op:90,dt:4,nt:8,next:12732,str:4405,d0:12730,d1:38190;
+                ("object_cannot_take_damage", Expression<MethodOrOperator> @:12730 op:90,dt:2,nt:9,next:12731,str:827,d0:0,d1:0;
+                    ("real_cable_a", Expression<List> @:12731 op:56,dt:31,nt:9,next:65535,str:24383,d0:380,d1:65535;)))
+            (____, Scope<Void> @:12732 op:90,dt:4,nt:8,next:12735,str:4448,d0:12733,d1:38193;
+                ("object_cannot_take_damage", Expression<MethodOrOperator> @:12733 op:90,dt:2,nt:9,next:12734,str:827,d0:0,d1:0;
+                    ("real_cable_b", Expression<List> @:12734 op:56,dt:31,nt:9,next:65535,str:24396,d0:379,d1:65535;)))
+            (____, Scope<Void> @:12735 op:90,dt:4,nt:8,next:12738,str:4491,d0:12736,d1:38196;
+                ("object_cannot_take_damage", Expression<MethodOrOperator> @:12736 op:90,dt:2,nt:9,next:12737,str:827,d0:0,d1:0;
+                    ("real_cable_c", Expression<List> @:12737 op:56,dt:31,nt:9,next:65535,str:24409,d0:378,d1:65535;)))
             (____, Scope<Void> @:12738 op:21,dt:4,nt:8,next:12746,str:4607,d0:12739,d1:38199;
                 ("sleep_until", Expression<MethodOrOperator> @:12739 op:21,dt:2,nt:9,next:12740,str:440,d0:0,d1:0;
                     (____, Scope<Boolean> @:12740 op:13,dt:5,nt:8,next:65535,str:4620,d0:12741,d1:38201;
@@ -65,13 +74,22 @@
             (____, Scope<Void> @:12791 op:19,dt:4,nt:8,next:12794,str:5203,d0:12792,d1:38252;
                 ("sleep", Expression<MethodOrOperator> @:12792 op:19,dt:2,nt:9,next:12793,str:289,d0:0,d1:0;
                     (5, Expression<Short> @:12793 op:7,dt:7,nt:9,next:65535,str:5210,d0:5,d1:65535;)))
-            (____, Scope<Void> @:12794 op:21,dt:4,nt:8,next:12810,str:5217,d0:12795,d1:38255;
+            (____, Scope<Void> @:12794 op:21,dt:4,nt:8,next:12801,str:5217,d0:12795,d1:38255;
                 ("sleep_until", Expression<MethodOrOperator> @:12795 op:21,dt:2,nt:9,next:12796,str:440,d0:0,d1:0;
                     (____, Scope<Boolean> @:12796 op:13,dt:5,nt:8,next:12800,str:5230,d0:12797,d1:38257;
                         ("=", Expression<MethodOrOperator> @:12797 op:13,dt:2,nt:9,next:12798,str:505,d0:0,d1:0;
                             ("cables_cuttable", VariableAccess<Boolean> @:12798 op:0,dt:5,nt:13,next:12799,str:24367,d0:30,d1:0;
                                 (False, Expression<Boolean> @:12799 op:5,dt:5,nt:9,next:65535,str:5249,d0:65280,d1:65535;))))
                     (1, Expression<Short> @:12800 op:7,dt:7,nt:9,next:65535,str:5256,d0:1,d1:65535;)))
+            (____, Scope<Void> @:12801 op:90,dt:4,nt:8,next:12804,str:5261,d0:12802,d1:38262;
+                ("object_cannot_take_damage", Expression<MethodOrOperator> @:12802 op:90,dt:2,nt:9,next:12803,str:827,d0:0,d1:0;
+                    ("real_cable_a", Expression<List> @:12803 op:56,dt:31,nt:9,next:65535,str:24383,d0:380,d1:65535;)))
+            (____, Scope<Void> @:12804 op:90,dt:4,nt:8,next:12807,str:5304,d0:12805,d1:38265;
+                ("object_cannot_take_damage", Expression<MethodOrOperator> @:12805 op:90,dt:2,nt:9,next:12806,str:827,d0:0,d1:0;
+                    ("real_cable_b", Expression<List> @:12806 op:56,dt:31,nt:9,next:65535,str:24396,d0:379,d1:65535;)))
+            (____, Scope<Void> @:12807 op:90,dt:4,nt:8,next:12810,str:5347,d0:12808,d1:38268;
+                ("object_cannot_take_damage", Expression<MethodOrOperator> @:12808 op:90,dt:2,nt:9,next:12809,str:827,d0:0,d1:0;
+                    ("real_cable_c", Expression<List> @:12809 op:56,dt:31,nt:9,next:65535,str:24409,d0:378,d1:65535;)))
             (____, Scope<Void> @:12810 op:21,dt:4,nt:8,next:12818,str:5392,d0:12811,d1:38271;
                 ("sleep_until", Expression<MethodOrOperator> @:12811 op:21,dt:2,nt:9,next:12812,str:440,d0:0,d1:0;
                     (____, Scope<Boolean> @:12812 op:13,dt:5,nt:8,next:65535,str:5405,d0:12813,d1:38273;
@@ -86,13 +104,15 @@
             (____, Scope<Void> @:12821 op:19,dt:4,nt:8,next:12824,str:5475,d0:12822,d1:38282;
                 ("sleep", Expression<MethodOrOperator> @:12822 op:19,dt:2,nt:9,next:12823,str:289,d0:0,d1:0;
                     (60, Expression<Short> @:12823 op:7,dt:7,nt:9,next:65535,str:5482,d0:60,d1:65535;)))
-            (____, Scope<Void> @:12824 op:27,dt:4,nt:8,next:12829,str:5488,d0:12825,d1:38285;
+            (____, Scope<Void> @:12824 op:27,dt:4,nt:8,next:12827,str:5488,d0:12825,d1:38285;
                 ("print", Expression<MethodOrOperator> @:12825 op:27,dt:2,nt:9,next:12826,str:295,d0:0,d1:0;
-                    ("spec-ops commander: 'one final cable arbiter'", Expression<String> @:12826 op:9,dt:9,nt:9,next:65535,str:24504,d0:24504,d1:0;)))
-            (____, Scope<Short> @:12829 op:362,dt:7,nt:8,next:12833,str:5554,d0:12830,d1:38290;
-                ("ai_play_line_on_object", Expression<MethodOrOperator> @:12830 op:362,dt:2,nt:9,next:12831,str:18029,d0:0,d1:0;
-                    (4294967295, Expression<Entity> @:12831 op:50,dt:50,nt:9,next:12832,str:137,d0:65535,d1:65535;
-                        ("1400", Expression<StringId> @:12832 op:11,dt:11,nt:9,next:65535,str:24551,d0:12344,d1:1024;))))
+                    ("spec-ops commander: 'one final cable arbiter�'", Expression<String> @:12826 op:9,dt:9,nt:9,next:65535,str:24504,d0:24504,d1:0;)))
+            (____, Scope<Void> @:12827 op:19,dt:4,nt:8,next:12833,str:5547,d0:12828,d1:38288;
+                ("sleep", Expression<MethodOrOperator> @:12828 op:19,dt:2,nt:9,next:12829,str:289,d0:0,d1:0;
+                    (____, Scope<Short> @:12829 op:362,dt:7,nt:8,next:65535,str:5554,d0:12830,d1:38290;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:12830 op:362,dt:2,nt:9,next:12831,str:18029,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:12831 op:50,dt:50,nt:9,next:12832,str:137,d0:65535,d1:65535;
+                                ("1400", Expression<StringId> @:12832 op:11,dt:11,nt:9,next:65535,str:24551,d0:12344,d1:1024;))))))
             (____, Scope<Void> @:12833 op:19,dt:4,nt:8,next:12836,str:5686,d0:12834,d1:38294;
                 ("sleep", Expression<MethodOrOperator> @:12834 op:19,dt:2,nt:9,next:12835,str:289,d0:0,d1:0;
                     (30, Expression<Short> @:12835 op:7,dt:7,nt:9,next:65535,str:5693,d0:30,d1:65535;)))

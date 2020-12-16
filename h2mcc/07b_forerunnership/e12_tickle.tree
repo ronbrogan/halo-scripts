@@ -70,7 +70,7 @@
                         (____, Scope<Void> @:4731 op:27,dt:4,nt:8,next:65535,str:59538,d0:4732,d1:62959;
                             ("print", Expression<MethodOrOperator> @:4732 op:27,dt:2,nt:9,next:4733,str:86,d0:0,d1:0;
                                 ("cortana: the ship isn't so much launching as it is disengaging - uncoupling itself from high charity's power grid!", Expression<String> @:4733 op:9,dt:9,nt:9,next:65535,str:13927,d0:13927,d1:0;))))))
-            (____, Scope<Void> @:4734 op:2,dt:4,nt:8,next:4761,str:59824,d0:4735,d1:62962;
+            (____, Scope<Void> @:4734 op:2,dt:4,nt:8,next:4758,str:59824,d0:4735,d1:62962;
                 ("if", Expression<MethodOrOperator> @:4735 op:2,dt:2,nt:9,next:4736,str:456,d0:0,d1:0;
                     (____, Scope<Boolean> @:4736 op:15,dt:5,nt:8,next:4746,str:59828,d0:4737,d1:62964;
                         (">", Expression<MethodOrOperator> @:4737 op:15,dt:2,nt:9,next:4738,str:13870,d0:0,d1:0;
@@ -94,6 +94,9 @@
                                 ("ai_play_line_at_player", Expression<MethodOrOperator> @:4755 op:361,dt:2,nt:9,next:4756,str:13904,d0:0,d1:0;
                                     ("cortana", Expression<AI> @:4756 op:19,dt:19,nt:9,next:4757,str:3310,d0:77,d1:0;
                                         ("2930", Expression<StringId> @:4757 op:11,dt:11,nt:9,next:65535,str:14042,d0:13578,d1:1024;))))))))
+            (____, Scope<Void> @:4758 op:21,dt:4,nt:8,next:4761,str:60080,d0:4759,d1:62986;
+                ("sleep_until", Expression<MethodOrOperator> @:4759 op:21,dt:2,nt:9,next:4760,str:231,d0:0,d1:0;
+                    ("g_e12_started", VariableAccess<Boolean> @:4760 op:5,dt:5,nt:13,next:65535,str:14047,d0:8,d1:0;)))
             (____, Scope<Void> @:4761 op:2,dt:4,nt:8,next:4767,str:60517,d0:4762,d1:62989;
                 ("if", Expression<MethodOrOperator> @:4762 op:2,dt:2,nt:9,next:4763,str:456,d0:0,d1:0;
                     ("dialogue", VariableAccess<Boolean> @:4763 op:5,dt:5,nt:13,next:4764,str:10462,d0:3,d1:0;

@@ -8,19 +8,56 @@
             (____, Scope<Void> @:11789 op:407,dt:4,nt:8,next:11792,str:56124,d0:11790,d1:37250;
                 ("cs_vehicle_speed", Expression<MethodOrOperator> @:11790 op:407,dt:2,nt:9,next:11791,str:21014,d0:0,d1:0;
                     (1f, Expression<Float> @:11791 op:6,dt:6,nt:9,next:65535,str:56142,d0:0,d1:16256;)))
-            (____, Scope<Void> @:11792 op:384,dt:4,nt:8,next:11811,str:56147,d0:11793,d1:37253;
+            (____, Scope<Void> @:11792 op:384,dt:4,nt:8,next:11796,str:56147,d0:11793,d1:37253;
                 ("cs_fly_by", Expression<MethodOrOperator> @:11793 op:384,dt:2,nt:9,next:11794,str:21031,d0:0,d1:0;
                     ("wall_gap/p1", Expression<SpatialPoint> @:11794 op:28,dt:28,nt:9,next:11795,str:21041,d0:1,d1:5;
                         (4f, Expression<Float> @:11795 op:6,dt:6,nt:9,next:65535,str:56170,d0:0,d1:16512;))))
+            (____, Scope<Void> @:11796 op:384,dt:4,nt:8,next:11800,str:56175,d0:11797,d1:37257;
+                ("cs_fly_by", Expression<MethodOrOperator> @:11797 op:384,dt:2,nt:9,next:11798,str:21031,d0:0,d1:0;
+                    ("wall_gap/p2", Expression<SpatialPoint> @:11798 op:28,dt:28,nt:9,next:11799,str:21053,d0:2,d1:5;
+                        (4f, Expression<Float> @:11799 op:6,dt:6,nt:9,next:65535,str:56198,d0:0,d1:16512;))))
+            (____, Scope<Void> @:11800 op:22,dt:4,nt:8,next:11803,str:56206,d0:11801,d1:37261;
+                ("wake", Expression<MethodOrOperator> @:11801 op:22,dt:2,nt:9,next:11802,str:1066,d0:0,d1:0;
+                    ("sc_plug_ride", Expression<ScriptReference> @:11802 op:10,dt:10,nt:9,next:65535,str:21065,d0:171,d1:65535;)))
+            (____, Scope<Void> @:11803 op:384,dt:4,nt:8,next:11807,str:56228,d0:11804,d1:37264;
+                ("cs_fly_by", Expression<MethodOrOperator> @:11804 op:384,dt:2,nt:9,next:11805,str:21031,d0:0,d1:0;
+                    ("wall_gap/p3", Expression<SpatialPoint> @:11805 op:28,dt:28,nt:9,next:11806,str:21078,d0:11,d1:5;
+                        (4f, Expression<Float> @:11806 op:6,dt:6,nt:9,next:65535,str:56251,d0:0,d1:16512;))))
+            (____, Scope<Void> @:11807 op:384,dt:4,nt:8,next:11811,str:56401,d0:11808,d1:37268;
+                ("cs_fly_by", Expression<MethodOrOperator> @:11808 op:384,dt:2,nt:9,next:11809,str:21031,d0:0,d1:0;
+                    ("wall_gap/p9", Expression<SpatialPoint> @:11809 op:28,dt:28,nt:9,next:11810,str:21090,d0:3,d1:5;
+                        (7f, Expression<Float> @:11810 op:6,dt:6,nt:9,next:65535,str:56424,d0:0,d1:16608;))))
             (____, Scope<Void> @:11811 op:2,dt:4,nt:8,next:11817,str:56431,d0:11812,d1:37272;
                 ("if", Expression<MethodOrOperator> @:11812 op:2,dt:2,nt:9,next:11813,str:456,d0:0,d1:0;
                     ("debug", VariableAccess<Boolean> @:11813 op:5,dt:5,nt:13,next:11814,str:11238,d0:3,d1:0;
                         (____, Scope<Void> @:11814 op:27,dt:4,nt:8,next:65535,str:56441,d0:11815,d1:37275;
                             ("print", Expression<MethodOrOperator> @:11815 op:27,dt:2,nt:9,next:11816,str:86,d0:0,d1:0;
                                 ("placing enforcer...", Expression<String> @:11816 op:9,dt:9,nt:9,next:65535,str:21102,d0:21102,d1:0;))))))
-            (____, Scope<Void> @:11817 op:290,dt:4,nt:8,next:11842,str:56474,d0:11818,d1:37278;
+            (____, Scope<Void> @:11817 op:290,dt:4,nt:8,next:11820,str:56474,d0:11818,d1:37278;
                 ("ai_place", Expression<MethodOrOperator> @:11818 op:290,dt:2,nt:9,next:11819,str:1415,d0:0,d1:0;
                     ("plug_holder_enforcer", Expression<AI> @:11819 op:19,dt:19,nt:9,next:65535,str:21122,d0:23,d1:0;)))
+            (____, Scope<Void> @:11820 op:382,dt:4,nt:8,next:11825,str:56510,d0:11821,d1:37281;
+                ("cs_fly_to_and_face", Expression<MethodOrOperator> @:11821 op:382,dt:2,nt:9,next:11822,str:17625,d0:0,d1:0;
+                    ("wall_gap/p10", Expression<SpatialPoint> @:11822 op:28,dt:28,nt:9,next:11823,str:21143,d0:4,d1:5;
+                        ("wall_gap/p20", Expression<SpatialPoint> @:11823 op:28,dt:28,nt:9,next:11824,str:21156,d0:10,d1:5;
+                            (3f, Expression<Float> @:11824 op:6,dt:6,nt:9,next:65535,str:56556,d0:0,d1:16448;)))))
+            (____, Scope<Void> @:11825 op:265,dt:4,nt:8,next:11829,str:56564,d0:11826,d1:37286;
+                ("device_group_change_only_once_more_set", Expression<MethodOrOperator> @:11826 op:265,dt:2,nt:9,next:11827,str:20963,d0:0,d1:0;
+                    ("plug_door_a", Expression<DeviceGroup> @:11827 op:18,dt:18,nt:9,next:11828,str:21169,d0:1,d1:58725;
+                        (False, Expression<Boolean> @:11828 op:5,dt:5,nt:9,next:65535,str:56616,d0:65280,d1:65535;))))
+            (____, Scope<Void> @:11829 op:19,dt:4,nt:8,next:11832,str:56621,d0:11830,d1:37290;
+                ("sleep", Expression<MethodOrOperator> @:11830 op:19,dt:2,nt:9,next:11831,str:80,d0:0,d1:0;
+                    (1, Expression<Short> @:11831 op:7,dt:7,nt:9,next:65535,str:56628,d0:1,d1:65535;)))
+            (____, Scope<Void> @:11832 op:2,dt:4,nt:8,next:11838,str:56636,d0:11833,d1:37293;
+                ("if", Expression<MethodOrOperator> @:11833 op:2,dt:2,nt:9,next:11834,str:456,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:11834 op:5,dt:5,nt:13,next:11835,str:11238,d0:3,d1:0;
+                        (____, Scope<Void> @:11835 op:27,dt:4,nt:8,next:65535,str:56646,d0:11836,d1:37296;
+                            ("print", Expression<MethodOrOperator> @:11836 op:27,dt:2,nt:9,next:11837,str:86,d0:0,d1:0;
+                                ("opening door... (closing the one behind you)", Expression<String> @:11837 op:9,dt:9,nt:9,next:65535,str:21181,d0:21181,d1:0;))))))
+            (____, Scope<Void> @:11838 op:256,dt:4,nt:8,next:11842,str:56704,d0:11839,d1:37299;
+                ("device_set_position", Expression<MethodOrOperator> @:11839 op:256,dt:2,nt:9,next:11840,str:3798,d0:0,d1:0;
+                    ("plug_door_a", Expression<Device> @:11840 op:60,dt:54,nt:9,next:11841,str:21169,d0:439,d1:65535;
+                        (0f, Expression<Float> @:11841 op:6,dt:6,nt:9,next:65535,str:56737,d0:0,d1:0;))))
             (____, Scope<Void> @:11842 op:256,dt:4,nt:8,next:11846,str:56742,d0:11843,d1:37303;
                 ("device_set_position", Expression<MethodOrOperator> @:11843 op:256,dt:2,nt:9,next:11844,str:3798,d0:0,d1:0;
                     ("plug_door_b", Expression<Device> @:11844 op:60,dt:54,nt:9,next:11845,str:11101,d0:440,d1:65535;
@@ -63,47 +100,10 @@
             (____, Scope<Void> @:11881 op:290,dt:4,nt:8,next:11884,str:57023,d0:11882,d1:37342;
                 ("ai_place", Expression<MethodOrOperator> @:11882 op:290,dt:2,nt:9,next:11883,str:1415,d0:0,d1:0;
                     ("plug_holder_flood_c", Expression<AI> @:11883 op:19,dt:19,nt:9,next:65535,str:21335,d0:27,d1:0;)))
-            (____, Scope<Void> @:11884 op:291,dt:4,nt:8,next:11796,str:57056,d0:11885,d1:37345;
+            (____, Scope<Void> @:11884 op:291,dt:4,nt:8,next:11888,str:57056,d0:11885,d1:37345;
                 ("ai_place", Expression<MethodOrOperator> @:11885 op:291,dt:2,nt:9,next:11886,str:1415,d0:0,d1:0;
                     ("plug_holder_flood_d", Expression<AI> @:11886 op:19,dt:19,nt:9,next:11887,str:21315,d0:28,d1:0;
                         (1, Expression<Short> @:11887 op:7,dt:7,nt:9,next:65535,str:57086,d0:1,d1:65535;))))
-            (____, Scope<Void> @:11796 op:384,dt:4,nt:8,next:11800,str:56175,d0:11797,d1:37257;
-                ("cs_fly_by", Expression<MethodOrOperator> @:11797 op:384,dt:2,nt:9,next:11798,str:21031,d0:0,d1:0;
-                    ("wall_gap/p2", Expression<SpatialPoint> @:11798 op:28,dt:28,nt:9,next:11799,str:21053,d0:2,d1:5;
-                        (4f, Expression<Float> @:11799 op:6,dt:6,nt:9,next:65535,str:56198,d0:0,d1:16512;))))
-            (____, Scope<Void> @:11800 op:22,dt:4,nt:8,next:11803,str:56206,d0:11801,d1:37261;
-                ("wake", Expression<MethodOrOperator> @:11801 op:22,dt:2,nt:9,next:11802,str:1066,d0:0,d1:0;
-                    ("sc_plug_ride", Expression<ScriptReference> @:11802 op:10,dt:10,nt:9,next:65535,str:21065,d0:171,d1:65535;)))
-            (____, Scope<Void> @:11803 op:384,dt:4,nt:8,next:11807,str:56228,d0:11804,d1:37264;
-                ("cs_fly_by", Expression<MethodOrOperator> @:11804 op:384,dt:2,nt:9,next:11805,str:21031,d0:0,d1:0;
-                    ("wall_gap/p3", Expression<SpatialPoint> @:11805 op:28,dt:28,nt:9,next:11806,str:21078,d0:11,d1:5;
-                        (4f, Expression<Float> @:11806 op:6,dt:6,nt:9,next:65535,str:56251,d0:0,d1:16512;))))
-            (____, Scope<Void> @:11807 op:384,dt:4,nt:8,next:11820,str:56401,d0:11808,d1:37268;
-                ("cs_fly_by", Expression<MethodOrOperator> @:11808 op:384,dt:2,nt:9,next:11809,str:21031,d0:0,d1:0;
-                    ("wall_gap/p9", Expression<SpatialPoint> @:11809 op:28,dt:28,nt:9,next:11810,str:21090,d0:3,d1:5;
-                        (7f, Expression<Float> @:11810 op:6,dt:6,nt:9,next:65535,str:56424,d0:0,d1:16608;))))
-            (____, Scope<Void> @:11820 op:382,dt:4,nt:8,next:11825,str:56510,d0:11821,d1:37281;
-                ("cs_fly_to_and_face", Expression<MethodOrOperator> @:11821 op:382,dt:2,nt:9,next:11822,str:17625,d0:0,d1:0;
-                    ("wall_gap/p10", Expression<SpatialPoint> @:11822 op:28,dt:28,nt:9,next:11823,str:21143,d0:4,d1:5;
-                        ("wall_gap/p20", Expression<SpatialPoint> @:11823 op:28,dt:28,nt:9,next:11824,str:21156,d0:10,d1:5;
-                            (3f, Expression<Float> @:11824 op:6,dt:6,nt:9,next:65535,str:56556,d0:0,d1:16448;)))))
-            (____, Scope<Void> @:11825 op:265,dt:4,nt:8,next:11829,str:56564,d0:11826,d1:37286;
-                ("device_group_change_only_once_more_set", Expression<MethodOrOperator> @:11826 op:265,dt:2,nt:9,next:11827,str:20963,d0:0,d1:0;
-                    ("plug_door_a", Expression<DeviceGroup> @:11827 op:18,dt:18,nt:9,next:11828,str:21169,d0:1,d1:58725;
-                        (False, Expression<Boolean> @:11828 op:5,dt:5,nt:9,next:65535,str:56616,d0:65280,d1:65535;))))
-            (____, Scope<Void> @:11829 op:19,dt:4,nt:8,next:11832,str:56621,d0:11830,d1:37290;
-                ("sleep", Expression<MethodOrOperator> @:11830 op:19,dt:2,nt:9,next:11831,str:80,d0:0,d1:0;
-                    (1, Expression<Short> @:11831 op:7,dt:7,nt:9,next:65535,str:56628,d0:1,d1:65535;)))
-            (____, Scope<Void> @:11832 op:2,dt:4,nt:8,next:11838,str:56636,d0:11833,d1:37293;
-                ("if", Expression<MethodOrOperator> @:11833 op:2,dt:2,nt:9,next:11834,str:456,d0:0,d1:0;
-                    ("debug", VariableAccess<Boolean> @:11834 op:5,dt:5,nt:13,next:11835,str:11238,d0:3,d1:0;
-                        (____, Scope<Void> @:11835 op:27,dt:4,nt:8,next:65535,str:56646,d0:11836,d1:37296;
-                            ("print", Expression<MethodOrOperator> @:11836 op:27,dt:2,nt:9,next:11837,str:86,d0:0,d1:0;
-                                ("opening door... (closing the one behind you)", Expression<String> @:11837 op:9,dt:9,nt:9,next:65535,str:21181,d0:21181,d1:0;))))))
-            (____, Scope<Void> @:11838 op:256,dt:4,nt:8,next:11888,str:56704,d0:11839,d1:37299;
-                ("device_set_position", Expression<MethodOrOperator> @:11839 op:256,dt:2,nt:9,next:11840,str:3798,d0:0,d1:0;
-                    ("plug_door_a", Expression<Device> @:11840 op:60,dt:54,nt:9,next:11841,str:21169,d0:439,d1:65535;
-                        (0f, Expression<Float> @:11841 op:6,dt:6,nt:9,next:65535,str:56737,d0:0,d1:0;))))
             (____, Scope<Void> @:11888 op:4,dt:4,nt:8,next:11892,str:57093,d0:11889,d1:37349;
                 ("set", Expression<MethodOrOperator> @:11889 op:4,dt:2,nt:9,next:11890,str:2613,d0:0,d1:0;
                     ("g_plug_ride_enforcer", VariableAccess<Boolean> @:11890 op:65535,dt:5,nt:13,next:11891,str:14113,d0:31,d1:0;

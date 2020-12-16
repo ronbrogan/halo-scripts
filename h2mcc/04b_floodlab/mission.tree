@@ -157,9 +157,12 @@
             (____, Scope<Void> @:31704 op:22,dt:4,nt:8,next:31707,str:41903,d0:31705,d1:57165;
                 ("wake", Expression<MethodOrOperator> @:31705 op:22,dt:2,nt:9,next:31706,str:1275,d0:0,d1:0;
                     ("control_room_return", Expression<ScriptReference> @:31706 op:10,dt:10,nt:9,next:65535,str:39038,d0:278,d1:65535;)))
-            (____, Scope<Void> @:31707 op:22,dt:4,nt:8,next:31713,str:41932,d0:31708,d1:57168;
+            (____, Scope<Void> @:31707 op:22,dt:4,nt:8,next:31710,str:41932,d0:31708,d1:57168;
                 ("wake", Expression<MethodOrOperator> @:31708 op:22,dt:2,nt:9,next:31709,str:1275,d0:0,d1:0;
                     ("power_core_start", Expression<ScriptReference> @:31709 op:10,dt:10,nt:9,next:65535,str:39058,d0:282,d1:65535;)))
+            (____, Scope<Void> @:31710 op:22,dt:4,nt:8,next:31713,str:41958,d0:31711,d1:57171;
+                ("wake", Expression<MethodOrOperator> @:31711 op:22,dt:2,nt:9,next:31712,str:1275,d0:0,d1:0;
+                    ("dogfight_secondtime_start", Expression<ScriptReference> @:31712 op:10,dt:10,nt:9,next:65535,str:39075,d0:296,d1:65535;)))
             ("sleep_cableroom", ScriptInvocation<Void> @:31713 op:371,dt:4,nt:10,next:31715,str:41993,d0:31714,d1:57174;
                 ("sleep_cableroom", Expression<MethodOrOperator> @:31714 op:371,dt:2,nt:9,next:65535,str:39524,d0:0,d1:0;))
             (____, Scope<Void> @:31715 op:21,dt:4,nt:8,next:31726,str:42016,d0:31716,d1:57176;
@@ -168,7 +171,7 @@
                         ("=", Expression<MethodOrOperator> @:31718 op:13,dt:2,nt:9,next:31719,str:505,d0:0,d1:0;
                             (____, Scope<Boolean> @:31719 op:33,dt:5,nt:8,next:31724,str:42032,d0:31720,d1:57180;
                                 ("volume_test_objects", Expression<MethodOrOperator> @:31720 op:33,dt:2,nt:9,next:31721,str:11916,d0:0,d1:0;
-                                    ("vol_power_core_ledge", Expression<Trigger> @:31721 op:13,dt:13,nt:9,next:31722,str:31386,d0:53,d1:0;
+                                    ("vol_arm_01_return", Expression<Trigger> @:31721 op:13,dt:13,nt:9,next:31722,str:29778,d0:54,d1:0;
                                         (____, Scope<List> @:31722 op:28,dt:31,nt:8,next:65535,str:42071,d0:31723,d1:57183;
                                             ("players", Expression<MethodOrOperator> @:31723 op:28,dt:2,nt:9,next:65535,str:230,d0:0,d1:0;)))))
                             (True, Expression<Boolean> @:31724 op:5,dt:5,nt:9,next:65535,str:42082,d0:65281,d1:65535;)))

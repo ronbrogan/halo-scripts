@@ -111,8 +111,11 @@
                             (____, Scope<Void> @:13330 op:587,dt:4,nt:8,next:13332,str:30864,d0:13331,d1:38791;
                                 ("game_save", Expression<MethodOrOperator> @:13331 op:587,dt:2,nt:9,next:65535,str:20601,d0:0,d1:0;))
                             (____, Scope<Void> @:13332 op:19,dt:4,nt:8,next:13338,str:30885,d0:13333,d1:38793;
-                                ("sleep", Expression<MethodOrOperator> @:13333 op:19,dt:2,nt:9,next:13336,str:80,d0:0,d1:0;
-                                    ("sleep_lower_bound", VariableAccess<Short> @:13336 op:7,dt:7,nt:13,next:65535,str:30799,d0:6,d1:0;)))
+                                ("sleep", Expression<MethodOrOperator> @:13333 op:19,dt:2,nt:9,next:13334,str:80,d0:0,d1:0;
+                                    (____, Scope<Short> @:13334 op:124,dt:7,nt:8,next:65535,str:30892,d0:13335,d1:38795;
+                                        ("random_range", Expression<MethodOrOperator> @:13335 op:124,dt:2,nt:9,next:13336,str:19725,d0:0,d1:0;
+                                            ("sleep_lower_bound", VariableAccess<Short> @:13336 op:7,dt:7,nt:13,next:13337,str:30799,d0:6,d1:0;
+                                                ("sleep_upper_bound", VariableAccess<Short> @:13337 op:7,dt:7,nt:13,next:65535,str:30817,d0:7,d1:0;))))))
                             (____, Scope<Void> @:13338 op:2,dt:4,nt:8,next:13344,str:30948,d0:13339,d1:38799;
                                 ("if", Expression<MethodOrOperator> @:13339 op:2,dt:2,nt:9,next:13340,str:456,d0:0,d1:0;
                                     ("debug", VariableAccess<Boolean> @:13340 op:5,dt:5,nt:13,next:13341,str:17539,d0:3,d1:0;
@@ -343,8 +346,11 @@
                                         ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:13548 op:786,dt:2,nt:9,next:13549,str:30735,d0:0,d1:0;
                                             ("enc_council_wave_2", Expression<String> @:13549 op:9,dt:9,nt:9,next:65535,str:31176,d0:31176,d1:0;)))
                                     (____, Scope<Void> @:13550 op:19,dt:4,nt:8,next:13556,str:32859,d0:13551,d1:39011;
-                                        ("sleep", Expression<MethodOrOperator> @:13551 op:19,dt:2,nt:9,next:13554,str:80,d0:0,d1:0;
-                                            ("sleep_lower_bound", VariableAccess<Short> @:13554 op:7,dt:7,nt:13,next:65535,str:30799,d0:6,d1:0;)))
+                                        ("sleep", Expression<MethodOrOperator> @:13551 op:19,dt:2,nt:9,next:13552,str:80,d0:0,d1:0;
+                                            (____, Scope<Short> @:13552 op:124,dt:7,nt:8,next:65535,str:32866,d0:13553,d1:39013;
+                                                ("random_range", Expression<MethodOrOperator> @:13553 op:124,dt:2,nt:9,next:13554,str:19725,d0:0,d1:0;
+                                                    ("sleep_lower_bound", VariableAccess<Short> @:13554 op:7,dt:7,nt:13,next:13555,str:30799,d0:6,d1:0;
+                                                        ("sleep_upper_bound", VariableAccess<Short> @:13555 op:7,dt:7,nt:13,next:65535,str:30817,d0:7,d1:0;))))))
                                     (____, Scope<Void> @:13556 op:2,dt:4,nt:8,next:13562,str:32923,d0:13557,d1:39017;
                                         ("if", Expression<MethodOrOperator> @:13557 op:2,dt:2,nt:9,next:13558,str:456,d0:0,d1:0;
                                             ("debug", VariableAccess<Boolean> @:13558 op:5,dt:5,nt:13,next:13559,str:17539,d0:3,d1:0;

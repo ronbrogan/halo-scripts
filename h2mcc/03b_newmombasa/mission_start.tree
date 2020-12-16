@@ -38,67 +38,31 @@
                     ("player0", ScriptInvocation<Entity> @:15611 op:0,dt:50,nt:10,next:15613,str:8395,d0:15612,d1:41072;
                         ("player0", Expression<MethodOrOperator> @:15612 op:0,dt:2,nt:9,next:65535,str:607,d0:0,d1:0;))
                     (False, Expression<Boolean> @:15613 op:5,dt:5,nt:9,next:65535,str:8405,d0:65280,d1:65535;)))
-            (____, Scope<Void> @:15614 op:57,dt:4,nt:8,next:15623,str:8414,d0:15615,d1:41075;
+            (____, Scope<Void> @:15614 op:57,dt:4,nt:8,next:15619,str:8414,d0:15615,d1:41075;
                 ("object_hide", Expression<MethodOrOperator> @:15615 op:57,dt:2,nt:9,next:15616,str:595,d0:0,d1:0;
                     ("player1", ScriptInvocation<Entity> @:15616 op:1,dt:50,nt:10,next:15618,str:8427,d0:15617,d1:41077;
                         ("player1", Expression<MethodOrOperator> @:15617 op:1,dt:2,nt:9,next:65535,str:615,d0:0,d1:0;))
                     (False, Expression<Boolean> @:15618 op:5,dt:5,nt:9,next:65535,str:8437,d0:65280,d1:65535;)))
-            (____, Scope<Void> @:15623 op:22,dt:4,nt:8,next:13400,str:8516,d0:15624,d1:41084;
-                ("wake", Expression<MethodOrOperator> @:15624 op:22,dt:2,nt:9,next:15625,str:1071,d0:0,d1:0;
-                    ("e14_main", Expression<ScriptReference> @:15625 op:10,dt:10,nt:9,next:65535,str:31179,d0:427,d1:65535;)))
-            (____, Scope<Void> @:13400 op:290,dt:4,nt:8,next:15626,str:42943,d0:13401,d1:38861;
-                ("ai_place", Expression<MethodOrOperator> @:13401 op:290,dt:2,nt:9,next:13402,str:16628,d0:0,d1:0;
-                    ("e17_mars_inf0", Expression<AI> @:13402 op:19,dt:19,nt:9,next:65535,str:26019,d0:29,d1:0;)))
-            (____, Scope<Void> @:15626 op:450,dt:4,nt:8,next:15629,str:8549,d0:15627,d1:41087;
-                ("camera_control", Expression<MethodOrOperator> @:15627 op:450,dt:2,nt:9,next:15628,str:45,d0:0,d1:0;
-                    (False, Expression<Boolean> @:15628 op:5,dt:5,nt:9,next:65535,str:8565,d0:65280,d1:65535;)))
-            (____, Scope<Void> @:15629 op:19,dt:4,nt:8,next:13403,str:8572,d0:15630,d1:41090;
-                ("sleep", Expression<MethodOrOperator> @:15630 op:19,dt:2,nt:9,next:15631,str:85,d0:0,d1:0;
-                    (1, Expression<Short> @:15631 op:7,dt:7,nt:9,next:65535,str:8579,d0:1,d1:65535;)))
-            (____, Scope<Void> @:13403 op:343,dt:4,nt:8,next:12893,str:42970,d0:13404,d1:38864;
-                ("ai_vehicle_reserve", Expression<MethodOrOperator> @:13404 op:343,dt:2,nt:9,next:13405,str:23724,d0:0,d1:0;
-                    (____, Scope<Vehicle> @:13405 op:340,dt:52,nt:8,next:13408,str:42990,d0:13406,d1:38866;
-                        ("ai_vehicle_get", Expression<MethodOrOperator> @:13406 op:340,dt:2,nt:9,next:13407,str:15490,d0:0,d1:0;
-                            ("e17_mars_inf0/warthog0", Expression<AI> @:13407 op:19,dt:19,nt:9,next:65535,str:26390,d0:0,d1:49181;)))
-                    (True, Expression<Boolean> @:13408 op:5,dt:5,nt:9,next:65535,str:43030,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:12893 op:298,dt:4,nt:8,next:12896,str:37501,d0:12894,d1:38354;
-                ("ai_vehicle_exit", Expression<MethodOrOperator> @:12894 op:298,dt:2,nt:9,next:12895,str:16112,d0:0,d1:0;
-                    ("e17_mars_inf0/warthog0", Expression<AI> @:12895 op:19,dt:19,nt:9,next:65535,str:26390,d0:0,d1:49181;)))
-            (____, Scope<Void> @:12896 op:350,dt:4,nt:8,next:15632,str:37544,d0:12897,d1:38357;
-                ("ai_vehicle_exit", Expression<MethodOrOperator> @:12897 op:350,dt:2,nt:9,next:12898,str:16112,d0:0,d1:0;
-                    ("e17_mars_inf0/passenger0", Expression<AI> @:12898 op:19,dt:19,nt:9,next:65535,str:26413,d0:1,d1:49181;)))
-            (____, Scope<Void> @:15632 op:897,dt:4,nt:8,next:12821,str:8584,d0:15633,d1:41093;
-                ("cache_block_for_one_frame", Expression<MethodOrOperator> @:15633 op:897,dt:2,nt:9,next:65535,str:31455,d0:0,d1:0;))
-            (____, Scope<Void> @:12821 op:105,dt:4,nt:8,next:15634,str:36685,d0:12822,d1:38282;
-                ("object_teleport", Expression<MethodOrOperator> @:12822 op:105,dt:2,nt:9,next:12824,str:18689,d0:0,d1:0;
-                    (____, Scope<Entity> @:12824 op:341,dt:50,nt:8,next:12827,str:36757,d0:12825,d1:38285;
-                        ("ai_get_object", Expression<MethodOrOperator> @:12825 op:341,dt:2,nt:9,next:12826,str:13874,d0:0,d1:0;
-                            ("e17_mars_inf0/warthog0", Expression<AI> @:12826 op:19,dt:19,nt:9,next:65535,str:26390,d0:0,d1:49181;)))
-                    ("e17_test", Expression<LocationFlag> @:12827 op:14,dt:14,nt:9,next:65535,str:27537,d0:4,d1:0;)))
-            (____, Scope<Void> @:15634 op:19,dt:4,nt:8,next:13495,str:8614,d0:15635,d1:41095;
-                ("sleep", Expression<MethodOrOperator> @:15635 op:19,dt:2,nt:9,next:15636,str:85,d0:0,d1:0;
-                    (1, Expression<Short> @:15636 op:7,dt:7,nt:9,next:65535,str:8621,d0:1,d1:65535;)))
-            (____, Scope<Void> @:13495 op:105,dt:4,nt:8,next:12769,str:44086,d0:13496,d1:38956;
-                ("object_teleport", Expression<MethodOrOperator> @:13496 op:105,dt:2,nt:9,next:13497,str:18689,d0:0,d1:0;
-                    ("player0", ScriptInvocation<Entity> @:13497 op:0,dt:50,nt:10,next:13499,str:44103,d0:13498,d1:38958;
-                        ("player0", Expression<MethodOrOperator> @:13498 op:0,dt:2,nt:9,next:65535,str:607,d0:0,d1:0;))
-                    ("e17_test", Expression<LocationFlag> @:13499 op:14,dt:14,nt:9,next:65535,str:27537,d0:4,d1:0;)))
-            (____, Scope<Void> @:12769 op:216,dt:4,nt:8,next:15637,str:36083,d0:12770,d1:38230;
-                ("object_cannot_die", Expression<MethodOrOperator> @:12770 op:216,dt:2,nt:9,next:12776,str:16325,d0:0,d1:0;
-                    (____, Scope<Unit> @:12776 op:24,dt:51,nt:8,next:12771,str:58342,d0:12777,d1:38237;
-                        ("start", Expression<MethodOrOperator> @:12777 op:24,dt:2,nt:9,next:12778,str:70,d0:0,d1:0;
-                            ("player0", ScriptInvocation<Entity> @:12778 op:0,dt:50,nt:10,next:65535,str:58348,d0:12779,d1:38239;
-                                ("damage", Expression<MethodOrOperator> @:12779 op:0,dt:2,nt:9,next:65535,str:665,d0:0,d1:0;))))
-                    (____, Scope<Vehicle> @:12771 op:341,dt:52,nt:8,next:12774,str:36102,d0:12772,d1:38232;
-                        ("ai_get_object", Expression<MethodOrOperator> @:12772 op:341,dt:2,nt:9,next:12773,str:13874,d0:0,d1:0;
-                            ("e17_mars_inf0/warthog0", Expression<AI> @:12773 op:19,dt:19,nt:9,next:65535,str:26390,d0:0,d1:49181;)))
-                    ("warthog_d", Expression<StringId> @:12774 op:11,dt:11,nt:9,next:65535,str:31132,d0:4724,d1:2304;)))
-            ("cinematic_fade_from_white_bars", ScriptInvocation<Void> @:15637 op:11,dt:4,nt:10,next:15619,str:8626,d0:15638,d1:41098;
-                ("cinematic_fade_from_white_bars", Expression<MethodOrOperator> @:15638 op:11,dt:2,nt:9,next:65535,str:31481,d0:0,d1:0;))
-            (____, Scope<Void> @:15619 op:91,dt:4,nt:8,next:15639,str:8446,d0:15620,d1:41080;
+            (____, Scope<Void> @:15619 op:91,dt:4,nt:8,next:15623,str:8446,d0:15620,d1:41080;
                 ("object_can_take_damage", Expression<MethodOrOperator> @:15620 op:91,dt:2,nt:9,next:15621,str:649,d0:0,d1:0;
                     (____, Scope<List> @:15621 op:28,dt:31,nt:8,next:65535,str:8470,d0:15622,d1:41082;
                         ("players", Expression<MethodOrOperator> @:15622 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;))))
+            (____, Scope<Void> @:15623 op:22,dt:4,nt:8,next:15626,str:8516,d0:15624,d1:41084;
+                ("wake", Expression<MethodOrOperator> @:15624 op:22,dt:2,nt:9,next:15625,str:1071,d0:0,d1:0;
+                    ("e14_main", Expression<ScriptReference> @:15625 op:10,dt:10,nt:9,next:65535,str:31179,d0:427,d1:65535;)))
+            (____, Scope<Void> @:15626 op:450,dt:4,nt:8,next:15629,str:8549,d0:15627,d1:41087;
+                ("camera_control", Expression<MethodOrOperator> @:15627 op:450,dt:2,nt:9,next:15628,str:45,d0:0,d1:0;
+                    (False, Expression<Boolean> @:15628 op:5,dt:5,nt:9,next:65535,str:8565,d0:65280,d1:65535;)))
+            (____, Scope<Void> @:15629 op:19,dt:4,nt:8,next:15632,str:8572,d0:15630,d1:41090;
+                ("sleep", Expression<MethodOrOperator> @:15630 op:19,dt:2,nt:9,next:15631,str:85,d0:0,d1:0;
+                    (1, Expression<Short> @:15631 op:7,dt:7,nt:9,next:65535,str:8579,d0:1,d1:65535;)))
+            (____, Scope<Void> @:15632 op:897,dt:4,nt:8,next:15634,str:8584,d0:15633,d1:41093;
+                ("cache_block_for_one_frame", Expression<MethodOrOperator> @:15633 op:897,dt:2,nt:9,next:65535,str:31455,d0:0,d1:0;))
+            (____, Scope<Void> @:15634 op:19,dt:4,nt:8,next:15637,str:8614,d0:15635,d1:41095;
+                ("sleep", Expression<MethodOrOperator> @:15635 op:19,dt:2,nt:9,next:15636,str:85,d0:0,d1:0;
+                    (1, Expression<Short> @:15636 op:7,dt:7,nt:9,next:65535,str:8621,d0:1,d1:65535;)))
+            ("cinematic_fade_from_white_bars", ScriptInvocation<Void> @:15637 op:11,dt:4,nt:10,next:15639,str:8626,d0:15638,d1:41098;
+                ("cinematic_fade_from_white_bars", Expression<MethodOrOperator> @:15638 op:11,dt:2,nt:9,next:65535,str:31481,d0:0,d1:0;))
             (____, Scope<Void> @:15639 op:22,dt:4,nt:8,next:15642,str:8689,d0:15640,d1:41100;
                 ("wake", Expression<MethodOrOperator> @:15640 op:22,dt:2,nt:9,next:15641,str:1071,d0:0,d1:0;
                     ("chapter_title0", Expression<ScriptReference> @:15641 op:10,dt:10,nt:9,next:65535,str:31512,d0:174,d1:65535;)))

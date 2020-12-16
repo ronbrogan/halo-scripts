@@ -103,44 +103,12 @@
             (____, Scope<Void> @:15481 op:27,dt:4,nt:8,next:15484,str:59001,d0:15482,d1:40942;
                 ("print", Expression<MethodOrOperator> @:15482 op:27,dt:2,nt:9,next:15483,str:96,d0:0,d1:0;
                     ("cortana, assessment!", Expression<String> @:15483 op:9,dt:9,nt:9,next:65535,str:36221,d0:36221,d1:0;)))
-            (____, Scope<Void> @:15484 op:598,dt:4,nt:8,next:15893,str:59034,d0:15485,d1:40945;
+            (____, Scope<Void> @:15484 op:598,dt:4,nt:8,next:15490,str:59034,d0:15485,d1:40945;
                 ("sound_impulse_start_effect", Expression<MethodOrOperator> @:15485 op:598,dt:2,nt:9,next:15486,str:14867,d0:0,d1:0;
                     ("sound\dialog\levels\01_spacestation\mission\l01_0260_lhd", Expression<Sound> @:15486 op:32,dt:32,nt:9,next:15487,str:36242,d0:4824,d1:62712;
                         (4294967295, Expression<Entity> @:15487 op:50,dt:50,nt:9,next:15488,str:1520,d0:65535,d1:65535;
                             (1f, Expression<Float> @:15488 op:6,dt:6,nt:9,next:15489,str:59124,d0:0,d1:16256;
                                 ("radio_default", Expression<StringId> @:15489 op:11,dt:11,nt:9,next:65535,str:14953,d0:14767,d1:3328;))))))
-            ("save_bay2_mid", ScriptInvocation<Void> @:15893 op:312,dt:4,nt:10,next:15895,str:62762,d0:15894,d1:41354;
-                ("save_bay2_mid", Expression<MethodOrOperator> @:15894 op:312,dt:2,nt:9,next:65535,str:36865,d0:0,d1:0;))
-            (____, Scope<Void> @:15895 op:22,dt:4,nt:8,next:15898,str:62780,d0:15896,d1:41356;
-                ("wake", Expression<MethodOrOperator> @:15896 op:22,dt:2,nt:9,next:15897,str:1074,d0:0,d1:0;
-                    ("title_bay2", Expression<ScriptReference> @:15897 op:10,dt:10,nt:9,next:65535,str:28077,d0:322,d1:65535;)))
-            (____, Scope<Void> @:15898 op:4,dt:4,nt:8,next:15902,str:62817,d0:15899,d1:41359;
-                ("set", Expression<MethodOrOperator> @:15899 op:4,dt:2,nt:9,next:15900,str:3357,d0:0,d1:0;
-                    ("mark_flavor_disable", VariableAccess<Boolean> @:15900 op:65535,dt:5,nt:13,next:15901,str:31059,d0:24,d1:0;
-                        (False, Expression<Boolean> @:15901 op:5,dt:5,nt:9,next:65535,str:62842,d0:65280,d1:65535;))))
-            (____, Scope<Void> @:15902 op:4,dt:4,nt:8,next:15906,str:62851,d0:15903,d1:41363;
-                ("set", Expression<MethodOrOperator> @:15903 op:4,dt:2,nt:9,next:15904,str:3357,d0:0,d1:0;
-                    ("mark_flavor_board", VariableAccess<Boolean> @:15904 op:65535,dt:5,nt:13,next:15905,str:31661,d0:35,d1:0;
-                        (False, Expression<Boolean> @:15905 op:5,dt:5,nt:9,next:65535,str:62874,d0:65280,d1:65535;))))
-            (____, Scope<Void> @:15906 op:4,dt:4,nt:8,next:15910,str:62883,d0:15907,d1:41367;
-                ("set", Expression<MethodOrOperator> @:15907 op:4,dt:2,nt:9,next:15908,str:3357,d0:0,d1:0;
-                    ("mark_flavor_bay2", VariableAccess<Boolean> @:15908 op:65535,dt:5,nt:13,next:15909,str:31430,d0:31,d1:0;
-                        (False, Expression<Boolean> @:15909 op:5,dt:5,nt:9,next:65535,str:62905,d0:65280,d1:65535;))))
-            (____, Scope<Void> @:15910 op:4,dt:4,nt:8,next:15914,str:62914,d0:15911,d1:41371;
-                ("set", Expression<MethodOrOperator> @:15911 op:4,dt:2,nt:9,next:15912,str:3357,d0:0,d1:0;
-                    ("mark_flavor_bomb", VariableAccess<Boolean> @:15912 op:65535,dt:5,nt:13,next:15913,str:31536,d0:36,d1:0;
-                        (True, Expression<Boolean> @:15913 op:5,dt:5,nt:9,next:65535,str:62936,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:15914 op:290,dt:4,nt:8,next:15917,str:62946,d0:15915,d1:41375;
-                ("ai_place", Expression<MethodOrOperator> @:15915 op:290,dt:2,nt:9,next:15916,str:16693,d0:0,d1:0;
-                    ("bay2_cov_fnl", Expression<AI> @:15916 op:19,dt:19,nt:9,next:65535,str:27827,d0:33,d1:16384;)))
-            (____, Scope<Void> @:15917 op:263,dt:4,nt:8,next:15921,str:62972,d0:15918,d1:41378;
-                ("device_operates_automatically_set", Expression<MethodOrOperator> @:15918 op:263,dt:2,nt:9,next:15919,str:36879,d0:0,d1:0;
-                    ("bay2_door_exit_1", Expression<Device> @:15919 op:60,dt:54,nt:9,next:15920,str:36913,d0:415,d1:65535;
-                        (True, Expression<Boolean> @:15920 op:5,dt:5,nt:9,next:65535,str:63024,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:15921 op:263,dt:4,nt:8,next:15490,str:63029,d0:15922,d1:41382;
-                ("device_operates_automatically_set", Expression<MethodOrOperator> @:15922 op:263,dt:2,nt:9,next:15923,str:36879,d0:0,d1:0;
-                    ("bay2_door_exit_2", Expression<Device> @:15923 op:60,dt:54,nt:9,next:15924,str:36930,d0:416,d1:65535;
-                        (True, Expression<Boolean> @:15924 op:5,dt:5,nt:9,next:65535,str:63081,d0:65281,d1:65535;))))
             (____, Scope<Void> @:15490 op:19,dt:4,nt:8,next:15495,str:59145,d0:15491,d1:40951;
                 ("sleep", Expression<MethodOrOperator> @:15491 op:19,dt:2,nt:9,next:15492,str:90,d0:0,d1:0;
                     (____, Scope<Short> @:15492 op:601,dt:7,nt:8,next:65535,str:59152,d0:15493,d1:40953;

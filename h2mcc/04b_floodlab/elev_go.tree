@@ -1,10 +1,7 @@
 
 ("elev_go", MethodDecl<Void> @:200 op:0,dt:0,nt:65535,next:7675,str:17062,d0:0,d1:0;
     (____, Scope<Void> @:7675 op:0,dt:4,nt:8,next:65535,str:17672,d0:7676,d1:33136;
-        ("begin", Expression<MethodOrOperator> @:7676 op:0,dt:2,nt:9,next:7582,str:210,d0:0,d1:0;
-            (____, Scope<Void> @:7582 op:30,dt:4,nt:8,next:7418,str:19179,d0:7583,d1:33043;
-                ("kill_volume_disable", Expression<MethodOrOperator> @:7583 op:30,dt:2,nt:9,next:7584,str:10915,d0:0,d1:0;
-                    ("kill_silo_toggle", Expression<Trigger> @:7584 op:13,dt:13,nt:9,next:65535,str:16769,d0:113,d1:0;)))
+        ("begin", Expression<MethodOrOperator> @:7676 op:0,dt:2,nt:9,next:7418,str:210,d0:0,d1:0;
             ("silo_crane_01", ScriptInvocation<Void> @:7418 op:176,dt:4,nt:10,next:7420,str:17700,d0:7419,d1:32879;
                 ("silo_crane_01", Expression<MethodOrOperator> @:7419 op:176,dt:2,nt:9,next:65535,str:16431,d0:0,d1:0;))
             ("silo_tray01", ScriptInvocation<Void> @:7420 op:190,dt:4,nt:10,next:7422,str:17718,d0:7421,d1:32881;
@@ -166,9 +163,12 @@
                                     (0, Expression<Short> @:7576 op:7,dt:7,nt:9,next:65535,str:19122,d0:0,d1:65535;)))))
                     (30, Expression<Short> @:7577 op:7,dt:7,nt:9,next:7578,str:19132,d0:30,d1:65535;
                         (300, Expression<Int> @:7578 op:8,dt:8,nt:9,next:65535,str:19135,d0:300,d1:0;))))
-            (____, Scope<Void> @:7579 op:27,dt:4,nt:8,next:7585,str:19142,d0:7580,d1:33040;
+            (____, Scope<Void> @:7579 op:27,dt:4,nt:8,next:7582,str:19142,d0:7580,d1:33040;
                 ("print", Expression<MethodOrOperator> @:7580 op:27,dt:2,nt:9,next:7581,str:295,d0:0,d1:0;
                     ("down 800 - kill disabled", Expression<String> @:7581 op:9,dt:9,nt:9,next:65535,str:16744,d0:16744,d1:0;)))
+            (____, Scope<Void> @:7582 op:30,dt:4,nt:8,next:7585,str:19179,d0:7583,d1:33043;
+                ("kill_volume_disable", Expression<MethodOrOperator> @:7583 op:30,dt:2,nt:9,next:7584,str:10915,d0:0,d1:0;
+                    ("kill_silo_toggle", Expression<Trigger> @:7584 op:13,dt:13,nt:9,next:65535,str:16769,d0:113,d1:0;)))
             ("silo_down_800", ScriptInvocation<Void> @:7585 op:185,dt:4,nt:10,next:7587,str:19224,d0:7586,d1:33046;
                 ("silo_down_800", Expression<MethodOrOperator> @:7586 op:185,dt:2,nt:9,next:65535,str:16786,d0:0,d1:0;))
             (____, Scope<Void> @:7587 op:19,dt:4,nt:8,next:7590,str:19242,d0:7588,d1:33048;

@@ -1,7 +1,11 @@
 
 ("e23_cov_inf0_main", MethodDecl<Void> @:264 op:0,dt:0,nt:65535,next:8593,str:18653,d0:0,d1:0;
     (____, Scope<Void> @:8593 op:0,dt:4,nt:8,next:65535,str:40877,d0:8594,d1:34054;
-        ("begin", Expression<MethodOrOperator> @:8594 op:0,dt:2,nt:9,next:8447,str:6,d0:0,d1:0;
+        ("begin", Expression<MethodOrOperator> @:8594 op:0,dt:2,nt:9,next:8443,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:8443 op:21,dt:4,nt:8,next:8447,str:40937,d0:8444,d1:33904;
+                ("sleep_until", Expression<MethodOrOperator> @:8444 op:21,dt:2,nt:9,next:8445,str:236,d0:0,d1:0;
+                    ("g_e23_scarab_climbed_down", VariableAccess<Boolean> @:8445 op:5,dt:5,nt:13,next:8446,str:15996,d0:9,d1:0;
+                        (5, Expression<Short> @:8446 op:7,dt:7,nt:9,next:65535,str:40976,d0:5,d1:65535;))))
             (____, Scope<Void> @:8447 op:290,dt:4,nt:8,next:8450,str:40981,d0:8448,d1:33908;
                 ("ai_place", Expression<MethodOrOperator> @:8448 op:290,dt:2,nt:9,next:8449,str:16628,d0:0,d1:0;
                     ("e23_cov_inf0_0", Expression<AI> @:8449 op:19,dt:19,nt:9,next:65535,str:17865,d0:84,d1:0;)))

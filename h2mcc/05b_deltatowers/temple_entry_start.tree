@@ -1,7 +1,26 @@
 
 ("temple_entry_start", MethodDecl<Void> @:259 op:0,dt:0,nt:65535,next:16781,str:32220,d0:0,d1:0;
     (____, Scope<Void> @:16781 op:0,dt:4,nt:8,next:65535,str:45702,d0:16782,d1:42242;
-        ("begin", Expression<MethodOrOperator> @:16782 op:0,dt:2,nt:9,next:16584,str:142,d0:0,d1:0;
+        ("begin", Expression<MethodOrOperator> @:16782 op:0,dt:2,nt:9,next:16565,str:142,d0:0,d1:0;
+            (____, Scope<Void> @:16565 op:21,dt:4,nt:8,next:16584,str:45739,d0:16566,d1:42026;
+                ("sleep_until", Expression<MethodOrOperator> @:16566 op:21,dt:2,nt:9,next:16567,str:372,d0:0,d1:0;
+                    (____, Scope<Boolean> @:16567 op:6,dt:5,nt:8,next:16583,str:45755,d0:16568,d1:42028;
+                        ("or", Expression<MethodOrOperator> @:16568 op:6,dt:2,nt:9,next:16569,str:985,d0:0,d1:0;
+                            (____, Scope<Boolean> @:16569 op:16,dt:5,nt:8,next:16575,str:45763,d0:16570,d1:42030;
+                                ("<", Expression<MethodOrOperator> @:16570 op:16,dt:2,nt:9,next:16571,str:988,d0:0,d1:0;
+                                    (____, Scope<Short> @:16571 op:327,dt:7,nt:8,next:16574,str:45766,d0:16572,d1:42032;
+                                        ("ai_living_count", Expression<MethodOrOperator> @:16572 op:327,dt:2,nt:9,next:16573,str:10835,d0:0,d1:0;
+                                            ("temple_entry_enemies", Expression<AI> @:16573 op:19,dt:19,nt:9,next:65535,str:27744,d0:30,d1:16384;)))
+                                    (1, Expression<Short> @:16574 op:7,dt:7,nt:9,next:65535,str:45805,d0:1,d1:65535;)))
+                            (____, Scope<Boolean> @:16575 op:13,dt:5,nt:8,next:65535,str:45812,d0:16576,d1:42036;
+                                ("=", Expression<MethodOrOperator> @:16576 op:13,dt:2,nt:9,next:16577,str:437,d0:0,d1:0;
+                                    (____, Scope<Boolean> @:16577 op:33,dt:5,nt:8,next:16582,str:45815,d0:16578,d1:42038;
+                                        ("volume_test_objects", Expression<MethodOrOperator> @:16578 op:33,dt:2,nt:9,next:16579,str:10374,d0:0,d1:0;
+                                            ("vol_temple_ent_cutscene", Expression<Trigger> @:16579 op:13,dt:13,nt:9,next:16580,str:27765,d0:80,d1:0;
+                                                (____, Scope<List> @:16580 op:28,dt:31,nt:8,next:65535,str:45860,d0:16581,d1:42041;
+                                                    ("players", Expression<MethodOrOperator> @:16581 op:28,dt:2,nt:9,next:65535,str:162,d0:0,d1:0;)))))
+                                    (True, Expression<Boolean> @:16582 op:5,dt:5,nt:9,next:65535,str:45871,d0:65281,d1:65535;)))))
+                    (5, Expression<Short> @:16583 op:7,dt:7,nt:9,next:65535,str:45884,d0:5,d1:65535;)))
             (____, Scope<Void> @:16584 op:300,dt:4,nt:8,next:16588,str:45889,d0:16585,d1:42045;
                 ("ai_disposable", Expression<MethodOrOperator> @:16585 op:300,dt:2,nt:9,next:16586,str:11230,d0:0,d1:0;
                     ("gondola_02_enemies", Expression<AI> @:16586 op:19,dt:19,nt:9,next:16587,str:27139,d0:29,d1:16384;

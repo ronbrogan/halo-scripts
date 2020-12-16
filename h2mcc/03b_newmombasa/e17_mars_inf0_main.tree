@@ -1,7 +1,23 @@
 
 ("e17_mars_inf0_main", MethodDecl<Void> @:372 op:0,dt:0,nt:65535,next:13416,str:27430,d0:0,d1:0;
     (____, Scope<Void> @:13416 op:0,dt:4,nt:8,next:65535,str:42755,d0:13417,d1:38877;
-        ("begin", Expression<MethodOrOperator> @:13417 op:0,dt:2,nt:9,next:13409,str:6,d0:0,d1:0;
+        ("begin", Expression<MethodOrOperator> @:13417 op:0,dt:2,nt:9,next:13393,str:6,d0:0,d1:0;
+            (____, Scope<Void> @:13393 op:366,dt:4,nt:8,next:13397,str:42820,d0:13394,d1:38854;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:13394 op:366,dt:2,nt:9,next:13395,str:15752,d0:0,d1:0;
+                    ("e16_mars_inf0", Expression<AI> @:13395 op:19,dt:19,nt:9,next:13396,str:27285,d0:16,d1:0;
+                        ("cs_e17_mars_selective_migrate", Expression<AIScript> @:13396 op:21,dt:21,nt:9,next:65535,str:27299,d0:360,d1:0;))))
+            (____, Scope<Void> @:13397 op:19,dt:4,nt:8,next:13400,str:42890,d0:13398,d1:38858;
+                ("sleep", Expression<MethodOrOperator> @:13398 op:19,dt:2,nt:9,next:13399,str:85,d0:0,d1:0;
+                    (15, Expression<Short> @:13399 op:7,dt:7,nt:9,next:65535,str:42897,d0:15,d1:65535;)))
+            (____, Scope<Void> @:13400 op:290,dt:4,nt:8,next:13403,str:42943,d0:13401,d1:38861;
+                ("ai_place", Expression<MethodOrOperator> @:13401 op:290,dt:2,nt:9,next:13402,str:16628,d0:0,d1:0;
+                    ("e17_mars_inf0", Expression<AI> @:13402 op:19,dt:19,nt:9,next:65535,str:26019,d0:29,d1:0;)))
+            (____, Scope<Void> @:13403 op:343,dt:4,nt:8,next:13409,str:42970,d0:13404,d1:38864;
+                ("ai_vehicle_reserve", Expression<MethodOrOperator> @:13404 op:343,dt:2,nt:9,next:13405,str:23724,d0:0,d1:0;
+                    (____, Scope<Vehicle> @:13405 op:340,dt:52,nt:8,next:13408,str:42990,d0:13406,d1:38866;
+                        ("ai_vehicle_get", Expression<MethodOrOperator> @:13406 op:340,dt:2,nt:9,next:13407,str:15490,d0:0,d1:0;
+                            ("e17_mars_inf0/warthog0", Expression<AI> @:13407 op:19,dt:19,nt:9,next:65535,str:26390,d0:0,d1:49181;)))
+                    (True, Expression<Boolean> @:13408 op:5,dt:5,nt:9,next:65535,str:43030,d0:65281,d1:65535;)))
             (____, Scope<Void> @:13409 op:300,dt:4,nt:8,next:13413,str:43074,d0:13410,d1:38870;
                 ("ai_disposable", Expression<MethodOrOperator> @:13410 op:300,dt:2,nt:9,next:13411,str:24494,d0:0,d1:0;
                     ("e16_mars", Expression<AI> @:13411 op:19,dt:19,nt:9,next:13412,str:27329,d0:9,d1:16384;

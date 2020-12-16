@@ -525,7 +525,7 @@
                     ("lab_wave_new_02", Expression<ScriptReference> @:9760 op:10,dt:10,nt:9,next:65535,str:19788,d0:223,d1:65535;)))
             (____, Scope<Void> @:9761 op:19,dt:4,nt:8,next:9764,str:38993,d0:9762,d1:35222;
                 ("sleep", Expression<MethodOrOperator> @:9762 op:19,dt:2,nt:9,next:9763,str:289,d0:0,d1:0;
-                    (1, Expression<Short> @:9763 op:7,dt:7,nt:9,next:65535,str:39000,d0:1,d1:65535;)))
+                    (1800, Expression<Short> @:9763 op:7,dt:7,nt:9,next:65535,str:39000,d0:1800,d1:65535;)))
             (____, Scope<Void> @:9764 op:21,dt:4,nt:8,next:9774,str:39011,d0:9765,d1:35225;
                 ("sleep_until", Expression<MethodOrOperator> @:9765 op:21,dt:2,nt:9,next:9766,str:440,d0:0,d1:0;
                     (____, Scope<Boolean> @:9766 op:16,dt:5,nt:8,next:9772,str:39024,d0:9767,d1:35227;
@@ -535,7 +535,7 @@
                                     ("lab_flood", Expression<AI> @:9770 op:19,dt:19,nt:9,next:65535,str:18280,d0:11,d1:16384;)))
                             (1, Expression<Short> @:9771 op:7,dt:7,nt:9,next:65535,str:39057,d0:1,d1:65535;)))
                     (30, Expression<Short> @:9772 op:7,dt:7,nt:9,next:9773,str:39060,d0:30,d1:65535;
-                        (60, Expression<Int> @:9773 op:8,dt:8,nt:9,next:65535,str:39063,d0:60,d1:0;))))
+                        (3600, Expression<Int> @:9773 op:8,dt:8,nt:9,next:65535,str:39063,d0:3600,d1:0;))))
             (____, Scope<Void> @:9774 op:21,dt:4,nt:8,next:9785,str:39071,d0:9775,d1:35235;
                 ("sleep_until", Expression<MethodOrOperator> @:9775 op:21,dt:2,nt:9,next:9776,str:440,d0:0,d1:0;
                     (____, Scope<Boolean> @:9776 op:13,dt:5,nt:8,next:9783,str:39084,d0:9777,d1:35237;
@@ -546,7 +546,7 @@
                                         ("lab_flood", Expression<AI> @:9781 op:19,dt:19,nt:9,next:65535,str:18280,d0:11,d1:16384;))))
                             (True, Expression<Boolean> @:9782 op:5,dt:5,nt:9,next:65535,str:39131,d0:65281,d1:65535;)))
                     (30, Expression<Short> @:9783 op:7,dt:7,nt:9,next:9784,str:39137,d0:30,d1:65535;
-                        (60, Expression<Int> @:9784 op:8,dt:8,nt:9,next:65535,str:39140,d0:60,d1:0;))))
+                        (1800, Expression<Int> @:9784 op:8,dt:8,nt:9,next:65535,str:39140,d0:1800,d1:0;))))
             (____, Scope<Void> @:9785 op:786,dt:4,nt:8,next:9788,str:39149,d0:9786,d1:35246;
                 ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:9786 op:786,dt:2,nt:9,next:9787,str:11261,d0:0,d1:0;
                     ("04b_9_flood_lab_mid_02", Expression<String> @:9787 op:9,dt:9,nt:9,next:65535,str:19834,d0:19834,d1:0;)))
