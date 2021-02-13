@@ -1,253 +1,253 @@
 
 ("arm_mission", MethodDecl<Void> @:347 check:0,op:0,dt:0,nt:65535,next:16156,nextCheck:41616,str:43665,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:16156 check:41616,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:62756,h:2,d0:16157,d1:41617;
+    (____, BuiltinInvocation<Void> @:16156 check:41616,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:62756,h:2,d0:16157,d1:41617;
         ("begin", Expression<MethodOrOperator> @:16157 check:41617,op:0,dt:2,nt:9,next:15926,nextCheck:41386,str:11,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:15926 check:41386,op:27,dt:4,nt:8,next:15929,nextCheck:41389,str:62786,h:2,d0:15927,d1:41387;
+            (____, BuiltinInvocation<Void> @:15926 check:41386,op:27,dt:4,nt:8,next:15929,nextCheck:41389,str:62786,h:2,d0:15927,d1:41387;
                 ("print", Expression<MethodOrOperator> @:15927 check:41387,op:27,dt:2,nt:9,next:15928,nextCheck:41388,str:96,h:0,d0:0,d1:0;
                     ("arm", Expression<String> @:15928 check:41388,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:36580,h:0,d0:3860,d1:12559;)))
-            (____, Scope<Void> @:15929 check:41389,op:19,dt:4,nt:8,next:15932,nextCheck:41392,str:62802,h:2,d0:15930,d1:41390;
+            (____, BuiltinInvocation<Void> @:15929 check:41389,op:19,dt:4,nt:8,next:15932,nextCheck:41392,str:62802,h:2,d0:15930,d1:41390;
                 ("sleep", Expression<MethodOrOperator> @:15930 check:41390,op:19,dt:2,nt:9,next:15931,nextCheck:41391,str:90,h:0,d0:0,d1:0;
                     (5, Expression<Short> @:15931 check:41391,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:62809,h:2,d0:5,d1:65535;)))
-            (____, Scope<Void> @:15932 check:41392,op:290,dt:4,nt:8,next:15935,nextCheck:41395,str:62814,h:2,d0:15933,d1:41393;
+            (____, BuiltinInvocation<Void> @:15932 check:41392,op:290,dt:4,nt:8,next:15935,nextCheck:41395,str:62814,h:2,d0:15933,d1:41393;
                 ("ai_place", Expression<MethodOrOperator> @:15933 check:41393,op:290,dt:2,nt:9,next:15934,nextCheck:41394,str:16656,h:0,d0:0,d1:0;
                     ("arm_cov_stl", Expression<AI> @:15934 check:41394,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:27784,h:0,d0:60,d1:0;)))
-            (____, Scope<Void> @:15935 check:41395,op:22,dt:4,nt:8,next:15938,nextCheck:41398,str:62839,h:2,d0:15936,d1:41396;
+            (____, BuiltinInvocation<Void> @:15935 check:41395,op:22,dt:4,nt:8,next:15938,nextCheck:41398,str:62839,h:2,d0:15936,d1:41396;
                 ("wake", Expression<MethodOrOperator> @:15936 check:41396,op:22,dt:2,nt:9,next:15937,nextCheck:41397,str:1074,h:0,d0:0,d1:0;
                     ("save_arm_start", Expression<ScriptReference> @:15937 check:41397,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:36584,h:0,d0:314,d1:65535;)))
-            (____, Scope<Void> @:15938 check:41398,op:21,dt:4,nt:8,next:15946,nextCheck:41406,str:62865,h:2,d0:15939,d1:41399;
+            (____, BuiltinInvocation<Void> @:15938 check:41398,op:21,dt:4,nt:8,next:15946,nextCheck:41406,str:62865,h:2,d0:15939,d1:41399;
                 ("sleep_until", Expression<MethodOrOperator> @:15939 check:41399,op:21,dt:2,nt:9,next:15940,nextCheck:41400,str:241,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:15940 check:41400,op:33,dt:5,nt:8,next:15945,nextCheck:41405,str:62878,h:2,d0:15941,d1:41401;
+                    (____, BuiltinInvocation<Boolean> @:15940 check:41400,op:33,dt:5,nt:8,next:15945,nextCheck:41405,str:62878,h:2,d0:15941,d1:41401;
                         ("volume_test_objects", Expression<MethodOrOperator> @:15941 check:41401,op:33,dt:2,nt:9,next:15942,nextCheck:41402,str:27692,h:0,d0:0,d1:0;
                             ("tv_arm_start", Expression<Trigger> @:15942 check:41402,op:13,dt:13,nt:9,next:15943,nextCheck:41403,str:36599,h:0,d0:43,d1:0;
-                                (____, Scope<List> @:15943 check:41403,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:62912,h:2,d0:15944,d1:41404;
+                                (____, BuiltinInvocation<List> @:15943 check:41403,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:62912,h:2,d0:15944,d1:41404;
                                     ("players", Expression<MethodOrOperator> @:15944 check:41404,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:31,h:0,d0:0,d1:0;)))))
                     (1, Expression<Short> @:15945 check:41405,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:62923,h:2,d0:1,d1:65535;)))
-            (____, Scope<Void> @:15946 check:41406,op:19,dt:4,nt:8,next:15949,nextCheck:41409,str:62928,h:2,d0:15947,d1:41407;
+            (____, BuiltinInvocation<Void> @:15946 check:41406,op:19,dt:4,nt:8,next:15949,nextCheck:41409,str:62928,h:2,d0:15947,d1:41407;
                 ("sleep", Expression<MethodOrOperator> @:15947 check:41407,op:19,dt:2,nt:9,next:15948,nextCheck:41408,str:90,h:0,d0:0,d1:0;
                     (3, Expression<Short> @:15948 check:41408,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:62935,h:2,d0:3,d1:65535;)))
-            (____, Scope<Void> @:15949 check:41409,op:290,dt:4,nt:8,next:15952,nextCheck:41412,str:62942,h:2,d0:15950,d1:41410;
+            (____, BuiltinInvocation<Void> @:15949 check:41409,op:290,dt:4,nt:8,next:15952,nextCheck:41412,str:62942,h:2,d0:15950,d1:41410;
                 ("ai_place", Expression<MethodOrOperator> @:15950 check:41410,op:290,dt:2,nt:9,next:15951,nextCheck:41411,str:16656,h:0,d0:0,d1:0;
                     ("arm_hum_guns", Expression<AI> @:15951 check:41411,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36612,h:0,d0:61,d1:0;)))
-            (____, Scope<Void> @:15952 check:41412,op:293,dt:4,nt:8,next:15956,nextCheck:41416,str:62968,h:2,d0:15953,d1:41413;
+            (____, BuiltinInvocation<Void> @:15952 check:41412,op:293,dt:4,nt:8,next:15956,nextCheck:41416,str:62968,h:2,d0:15953,d1:41413;
                 ("ai_cannot_die", Expression<MethodOrOperator> @:15953 check:41413,op:293,dt:2,nt:9,next:15954,nextCheck:41414,str:33381,h:0,d0:0,d1:0;
                     ("arm_hum_guns", Expression<AI> @:15954 check:41414,op:19,dt:19,nt:9,next:15955,nextCheck:41415,str:36612,h:0,d0:61,d1:0;
                         (True, Expression<Boolean> @:15955 check:41415,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:62996,h:2,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:15956 check:41416,op:290,dt:4,nt:8,next:15959,nextCheck:41419,str:63001,h:2,d0:15957,d1:41417;
+            (____, BuiltinInvocation<Void> @:15956 check:41416,op:290,dt:4,nt:8,next:15959,nextCheck:41419,str:63001,h:2,d0:15957,d1:41417;
                 ("ai_place", Expression<MethodOrOperator> @:15957 check:41417,op:290,dt:2,nt:9,next:15958,nextCheck:41418,str:16656,h:0,d0:0,d1:0;
                     ("arm_cov_elt", Expression<AI> @:15958 check:41418,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36625,h:0,d0:62,d1:0;)))
-            (____, Scope<Void> @:15959 check:41419,op:293,dt:4,nt:8,next:15963,nextCheck:41423,str:63026,h:2,d0:15960,d1:41420;
+            (____, BuiltinInvocation<Void> @:15959 check:41419,op:293,dt:4,nt:8,next:15963,nextCheck:41423,str:63026,h:2,d0:15960,d1:41420;
                 ("ai_cannot_die", Expression<MethodOrOperator> @:15960 check:41420,op:293,dt:2,nt:9,next:15961,nextCheck:41421,str:33381,h:0,d0:0,d1:0;
                     ("arm_cov_elt", Expression<AI> @:15961 check:41421,op:19,dt:19,nt:9,next:15962,nextCheck:41422,str:36625,h:0,d0:62,d1:0;
                         (True, Expression<Boolean> @:15962 check:41422,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:63053,h:2,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:15963 check:41423,op:4,dt:4,nt:8,next:15967,nextCheck:41427,str:63060,h:2,d0:15964,d1:41424;
+            (____, BuiltinInvocation<Void> @:15963 check:41423,op:4,dt:4,nt:8,next:15967,nextCheck:41427,str:63060,h:2,d0:15964,d1:41424;
                 ("set", Expression<MethodOrOperator> @:15964 check:41424,op:4,dt:2,nt:9,next:15965,nextCheck:41425,str:3320,h:0,d0:0,d1:0;
                     ("mark_flavor_disable", VariableAccess<Boolean> @:15965 check:41425,op:65535,dt:5,nt:13,next:15966,nextCheck:41426,str:31003,h:0,d0:24,d1:0;
                         (True, Expression<Boolean> @:15966 check:41426,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:63085,h:2,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:15967 check:41427,op:21,dt:4,nt:8,next:15975,nextCheck:41435,str:63095,h:2,d0:15968,d1:41428;
+            (____, BuiltinInvocation<Void> @:15967 check:41427,op:21,dt:4,nt:8,next:15975,nextCheck:41435,str:63095,h:2,d0:15968,d1:41428;
                 ("sleep_until", Expression<MethodOrOperator> @:15968 check:41428,op:21,dt:2,nt:9,next:15969,nextCheck:41429,str:241,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:15969 check:41429,op:33,dt:5,nt:8,next:15974,nextCheck:41434,str:63108,h:2,d0:15970,d1:41430;
+                    (____, BuiltinInvocation<Boolean> @:15969 check:41429,op:33,dt:5,nt:8,next:15974,nextCheck:41434,str:63108,h:2,d0:15970,d1:41430;
                         ("volume_test_objects", Expression<MethodOrOperator> @:15970 check:41430,op:33,dt:2,nt:9,next:15971,nextCheck:41431,str:27692,h:0,d0:0,d1:0;
                             ("tv_arm_stairs", Expression<Trigger> @:15971 check:41431,op:13,dt:13,nt:9,next:15972,nextCheck:41432,str:36637,h:0,d0:42,d1:0;
-                                (____, Scope<List> @:15972 check:41432,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:63143,h:2,d0:15973,d1:41433;
+                                (____, BuiltinInvocation<List> @:15972 check:41432,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:63143,h:2,d0:15973,d1:41433;
                                     ("players", Expression<MethodOrOperator> @:15973 check:41433,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:31,h:0,d0:0,d1:0;)))))
                     (1, Expression<Short> @:15974 check:41434,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:63154,h:2,d0:1,d1:65535;)))
-            (____, Scope<Void> @:15975 check:41435,op:2,dt:4,nt:8,next:16030,nextCheck:41490,str:63159,h:2,d0:15977,d1:41437;
+            (____, BuiltinInvocation<Void> @:15975 check:41435,op:2,dt:4,nt:8,next:16030,nextCheck:41490,str:63159,h:2,d0:15977,d1:41437;
                 ("if", Expression<MethodOrOperator> @:15977 check:41437,op:2,dt:2,nt:9,next:15978,nextCheck:41438,str:466,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:15978 check:41438,op:5,dt:5,nt:8,next:16159,nextCheck:41619,str:63169,h:2,d0:15979,d1:41439;
+                    (____, BuiltinInvocation<Boolean> @:15978 check:41438,op:5,dt:5,nt:8,next:16159,nextCheck:41619,str:63169,h:2,d0:15979,d1:41439;
                         ("and", Expression<MethodOrOperator> @:15979 check:41439,op:5,dt:2,nt:9,next:15980,nextCheck:41440,str:677,h:0,d0:0,d1:0;
                             ("difficulty_legendary", ScriptInvocation<Boolean> @:15980 check:41440,op:4,dt:5,nt:10,next:15982,nextCheck:41442,str:63178,h:2,d0:15981,d1:41441;
                                 ("difficulty_legendary", Expression<MethodOrOperator> @:15981 check:41441,op:4,dt:2,nt:9,next:65535,nextCheck:65535,str:27272,h:0,d0:0,d1:0;))
-                            (____, Scope<Boolean> @:15982 check:41442,op:568,dt:5,nt:8,next:65535,nextCheck:65535,str:63205,h:2,d0:15983,d1:41443;
+                            (____, BuiltinInvocation<Boolean> @:15982 check:41442,op:568,dt:5,nt:8,next:65535,nextCheck:65535,str:63205,h:2,d0:15983,d1:41443;
                                 ("game_is_cooperative", Expression<MethodOrOperator> @:15983 check:41443,op:568,dt:2,nt:9,next:65535,nextCheck:65535,str:27307,h:0,d0:0,d1:0;))))
-                    (____, Scope<Void> @:16159 check:41619,op:0,dt:4,nt:8,next:16161,nextCheck:41621,str:63159,h:2,d0:16160,d1:41620;
+                    (____, BuiltinInvocation<Void> @:16159 check:41619,op:0,dt:4,nt:8,next:16161,nextCheck:41621,str:63159,h:2,d0:16160,d1:41620;
                         ("begin", Expression<MethodOrOperator> @:16160 check:41620,op:0,dt:2,nt:9,next:15984,nextCheck:41444,str:11,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:15984 check:41444,op:596,dt:4,nt:8,next:65535,nextCheck:65535,str:63237,h:2,d0:15985,d1:41445;
+                            (____, BuiltinInvocation<Void> @:15984 check:41444,op:596,dt:4,nt:8,next:65535,nextCheck:65535,str:63237,h:2,d0:15985,d1:41445;
                                 ("sound_impulse_start", Expression<MethodOrOperator> @:15985 check:41445,op:596,dt:2,nt:9,next:15986,nextCheck:41446,str:1446,h:0,d0:0,d1:0;
                                     ("sound\dialog\levels\01_spacestation\mission\l01_3400_gun", Expression<Sound> @:15986 check:41446,op:32,dt:32,nt:9,next:15987,nextCheck:41447,str:36651,h:0,d0:4380,d1:62268;
-                                        (____, Scope<Entity> @:15987 check:41447,op:284,dt:50,nt:8,next:15990,nextCheck:41450,str:63315,h:2,d0:15988,d1:41448;
+                                        (____, BuiltinInvocation<Entity> @:15987 check:41447,op:284,dt:50,nt:8,next:15990,nextCheck:41450,str:63315,h:2,d0:15988,d1:41448;
                                             ("ai_get_object", Expression<MethodOrOperator> @:15988 check:41448,op:284,dt:2,nt:9,next:15989,nextCheck:41449,str:31830,h:0,d0:0,d1:0;
                                                 ("arm_hum_guns", Expression<AI> @:15989 check:41449,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36612,h:0,d0:61,d1:0;)))
                                         (1f, Expression<Float> @:15990 check:41450,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:63344,h:2,d0:0,d1:16256;))))))
-                    (____, Scope<Void> @:16161 check:41621,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:63159,h:2,d0:15991,d1:41451;
+                    (____, BuiltinInvocation<Void> @:16161 check:41621,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:63159,h:2,d0:15991,d1:41451;
                         ("if", Expression<MethodOrOperator> @:15991 check:41451,op:2,dt:2,nt:9,next:15992,nextCheck:41452,str:466,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:15992 check:41452,op:568,dt:5,nt:8,next:16162,nextCheck:41622,str:63352,h:2,d0:15993,d1:41453;
+                            (____, BuiltinInvocation<Boolean> @:15992 check:41452,op:568,dt:5,nt:8,next:16162,nextCheck:41622,str:63352,h:2,d0:15993,d1:41453;
                                 ("game_is_cooperative", Expression<MethodOrOperator> @:15993 check:41453,op:568,dt:2,nt:9,next:65535,nextCheck:65535,str:27307,h:0,d0:0,d1:0;))
-                            (____, Scope<Void> @:16162 check:41622,op:0,dt:4,nt:8,next:16164,nextCheck:41624,str:63159,h:2,d0:16163,d1:41623;
+                            (____, BuiltinInvocation<Void> @:16162 check:41622,op:0,dt:4,nt:8,next:16164,nextCheck:41624,str:63159,h:2,d0:16163,d1:41623;
                                 ("begin", Expression<MethodOrOperator> @:16163 check:41623,op:0,dt:2,nt:9,next:15994,nextCheck:41454,str:11,h:0,d0:0,d1:0;
-                                    (____, Scope<Void> @:15994 check:41454,op:596,dt:4,nt:8,next:65535,nextCheck:65535,str:63376,h:2,d0:15995,d1:41455;
+                                    (____, BuiltinInvocation<Void> @:15994 check:41454,op:596,dt:4,nt:8,next:65535,nextCheck:65535,str:63376,h:2,d0:15995,d1:41455;
                                         ("sound_impulse_start", Expression<MethodOrOperator> @:15995 check:41455,op:596,dt:2,nt:9,next:15996,nextCheck:41456,str:1446,h:0,d0:0,d1:0;
                                             ("sound\dialog\levels\01_spacestation\mission\l01_3390_gun", Expression<Sound> @:15996 check:41456,op:32,dt:32,nt:9,next:15997,nextCheck:41457,str:36708,h:0,d0:4381,d1:62269;
-                                                (____, Scope<Entity> @:15997 check:41457,op:284,dt:50,nt:8,next:16000,nextCheck:41460,str:63454,h:2,d0:15998,d1:41458;
+                                                (____, BuiltinInvocation<Entity> @:15997 check:41457,op:284,dt:50,nt:8,next:16000,nextCheck:41460,str:63454,h:2,d0:15998,d1:41458;
                                                     ("ai_get_object", Expression<MethodOrOperator> @:15998 check:41458,op:284,dt:2,nt:9,next:15999,nextCheck:41459,str:31830,h:0,d0:0,d1:0;
                                                         ("arm_hum_guns", Expression<AI> @:15999 check:41459,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36612,h:0,d0:61,d1:0;)))
                                                 (1f, Expression<Float> @:16000 check:41460,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:63483,h:2,d0:0,d1:16256;))))))
-                            (____, Scope<Void> @:16164 check:41624,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:63159,h:2,d0:16001,d1:41461;
+                            (____, BuiltinInvocation<Void> @:16164 check:41624,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:63159,h:2,d0:16001,d1:41461;
                                 ("if", Expression<MethodOrOperator> @:16001 check:41461,op:2,dt:2,nt:9,next:16002,nextCheck:41462,str:466,h:0,d0:0,d1:0;
                                     ("difficulty_legendary", ScriptInvocation<Boolean> @:16002 check:41462,op:4,dt:5,nt:10,next:16165,nextCheck:41625,str:63491,h:2,d0:16003,d1:41463;
                                         ("difficulty_legendary", Expression<MethodOrOperator> @:16003 check:41463,op:4,dt:2,nt:9,next:65535,nextCheck:65535,str:27272,h:0,d0:0,d1:0;))
-                                    (____, Scope<Void> @:16165 check:41625,op:0,dt:4,nt:8,next:16167,nextCheck:41627,str:63159,h:2,d0:16166,d1:41626;
+                                    (____, BuiltinInvocation<Void> @:16165 check:41625,op:0,dt:4,nt:8,next:16167,nextCheck:41627,str:63159,h:2,d0:16166,d1:41626;
                                         ("begin", Expression<MethodOrOperator> @:16166 check:41626,op:0,dt:2,nt:9,next:16004,nextCheck:41464,str:11,h:0,d0:0,d1:0;
-                                            (____, Scope<Void> @:16004 check:41464,op:596,dt:4,nt:8,next:65535,nextCheck:65535,str:63516,h:2,d0:16005,d1:41465;
+                                            (____, BuiltinInvocation<Void> @:16004 check:41464,op:596,dt:4,nt:8,next:65535,nextCheck:65535,str:63516,h:2,d0:16005,d1:41465;
                                                 ("sound_impulse_start", Expression<MethodOrOperator> @:16005 check:41465,op:596,dt:2,nt:9,next:16006,nextCheck:41466,str:1446,h:0,d0:0,d1:0;
                                                     ("sound\dialog\levels\01_spacestation\mission\l01_3420_gun", Expression<Sound> @:16006 check:41466,op:32,dt:32,nt:9,next:16007,nextCheck:41467,str:36765,h:0,d0:4382,d1:62270;
-                                                        (____, Scope<Entity> @:16007 check:41467,op:284,dt:50,nt:8,next:16010,nextCheck:41470,str:63594,h:2,d0:16008,d1:41468;
+                                                        (____, BuiltinInvocation<Entity> @:16007 check:41467,op:284,dt:50,nt:8,next:16010,nextCheck:41470,str:63594,h:2,d0:16008,d1:41468;
                                                             ("ai_get_object", Expression<MethodOrOperator> @:16008 check:41468,op:284,dt:2,nt:9,next:16009,nextCheck:41469,str:31830,h:0,d0:0,d1:0;
                                                                 ("arm_hum_guns", Expression<AI> @:16009 check:41469,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36612,h:0,d0:61,d1:0;)))
                                                         (1f, Expression<Float> @:16010 check:41470,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:63623,h:2,d0:0,d1:16256;))))))
-                                    (____, Scope<Void> @:16167 check:41627,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:63159,h:2,d0:16011,d1:41471;
+                                    (____, BuiltinInvocation<Void> @:16167 check:41627,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:63159,h:2,d0:16011,d1:41471;
                                         ("if", Expression<MethodOrOperator> @:16011 check:41471,op:2,dt:2,nt:9,next:16012,nextCheck:41472,str:466,h:0,d0:0,d1:0;
                                             ("difficulty_heroic", ScriptInvocation<Boolean> @:16012 check:41472,op:5,dt:5,nt:10,next:16168,nextCheck:41628,str:63631,h:2,d0:16013,d1:41473;
                                                 ("difficulty_heroic", Expression<MethodOrOperator> @:16013 check:41473,op:5,dt:2,nt:9,next:65535,nextCheck:65535,str:36822,h:0,d0:0,d1:0;))
-                                            (____, Scope<Void> @:16168 check:41628,op:0,dt:4,nt:8,next:16170,nextCheck:41630,str:63159,h:2,d0:16169,d1:41629;
+                                            (____, BuiltinInvocation<Void> @:16168 check:41628,op:0,dt:4,nt:8,next:16170,nextCheck:41630,str:63159,h:2,d0:16169,d1:41629;
                                                 ("begin", Expression<MethodOrOperator> @:16169 check:41629,op:0,dt:2,nt:9,next:16014,nextCheck:41474,str:11,h:0,d0:0,d1:0;
-                                                    (____, Scope<Void> @:16014 check:41474,op:596,dt:4,nt:8,next:65535,nextCheck:65535,str:63653,h:2,d0:16015,d1:41475;
+                                                    (____, BuiltinInvocation<Void> @:16014 check:41474,op:596,dt:4,nt:8,next:65535,nextCheck:65535,str:63653,h:2,d0:16015,d1:41475;
                                                         ("sound_impulse_start", Expression<MethodOrOperator> @:16015 check:41475,op:596,dt:2,nt:9,next:16016,nextCheck:41476,str:1446,h:0,d0:0,d1:0;
                                                             ("sound\dialog\levels\01_spacestation\mission\l01_3410_gun", Expression<Sound> @:16016 check:41476,op:32,dt:32,nt:9,next:16017,nextCheck:41477,str:36840,h:0,d0:4383,d1:62271;
-                                                                (____, Scope<Entity> @:16017 check:41477,op:284,dt:50,nt:8,next:16020,nextCheck:41480,str:63731,h:2,d0:16018,d1:41478;
+                                                                (____, BuiltinInvocation<Entity> @:16017 check:41477,op:284,dt:50,nt:8,next:16020,nextCheck:41480,str:63731,h:2,d0:16018,d1:41478;
                                                                     ("ai_get_object", Expression<MethodOrOperator> @:16018 check:41478,op:284,dt:2,nt:9,next:16019,nextCheck:41479,str:31830,h:0,d0:0,d1:0;
                                                                         ("arm_hum_guns", Expression<AI> @:16019 check:41479,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36612,h:0,d0:61,d1:0;)))
                                                                 (1f, Expression<Float> @:16020 check:41480,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:63760,h:2,d0:0,d1:16256;))))))
-                                            (____, Scope<Void> @:16170 check:41630,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:63159,h:2,d0:16021,d1:41481;
+                                            (____, BuiltinInvocation<Void> @:16170 check:41630,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:63159,h:2,d0:16021,d1:41481;
                                                 ("if", Expression<MethodOrOperator> @:16021 check:41481,op:2,dt:2,nt:9,next:16022,nextCheck:41482,str:466,h:0,d0:0,d1:0;
                                                     (True, Expression<Boolean> @:16022 check:41482,op:5,dt:5,nt:9,next:16171,nextCheck:41631,str:63768,h:2,d0:65281,d1:65535;
-                                                        (____, Scope<Void> @:16171 check:41631,op:0,dt:4,nt:8,next:16173,nextCheck:41633,str:63159,h:2,d0:16172,d1:41632;
+                                                        (____, BuiltinInvocation<Void> @:16171 check:41631,op:0,dt:4,nt:8,next:16173,nextCheck:41633,str:63159,h:2,d0:16172,d1:41632;
                                                             ("begin", Expression<MethodOrOperator> @:16172 check:41632,op:0,dt:2,nt:9,next:16023,nextCheck:41483,str:11,h:0,d0:0,d1:0;
-                                                                (____, Scope<Void> @:16023 check:41483,op:596,dt:4,nt:8,next:65535,nextCheck:65535,str:63778,h:2,d0:16024,d1:41484;
+                                                                (____, BuiltinInvocation<Void> @:16023 check:41483,op:596,dt:4,nt:8,next:65535,nextCheck:65535,str:63778,h:2,d0:16024,d1:41484;
                                                                     ("sound_impulse_start", Expression<MethodOrOperator> @:16024 check:41484,op:596,dt:2,nt:9,next:16025,nextCheck:41485,str:1446,h:0,d0:0,d1:0;
                                                                         ("sound\dialog\levels\01_spacestation\mission\l01_3380_gun", Expression<Sound> @:16025 check:41485,op:32,dt:32,nt:9,next:16026,nextCheck:41486,str:36897,h:0,d0:4384,d1:62272;
-                                                                            (____, Scope<Entity> @:16026 check:41486,op:284,dt:50,nt:8,next:16029,nextCheck:41489,str:63856,h:2,d0:16027,d1:41487;
+                                                                            (____, BuiltinInvocation<Entity> @:16026 check:41486,op:284,dt:50,nt:8,next:16029,nextCheck:41489,str:63856,h:2,d0:16027,d1:41487;
                                                                                 ("ai_get_object", Expression<MethodOrOperator> @:16027 check:41487,op:284,dt:2,nt:9,next:16028,nextCheck:41488,str:31830,h:0,d0:0,d1:0;
                                                                                     ("arm_hum_guns", Expression<AI> @:16028 check:41488,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36612,h:0,d0:61,d1:0;)))
                                                                             (1f, Expression<Float> @:16029 check:41489,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:63885,h:2,d0:0,d1:16256;))))))
                                                         (0, Expression<Void> @:16173 check:41633,op:4,dt:4,nt:9,next:65535,nextCheck:65535,str:63159,h:2,d0:0,d1:0;))))))))))))
-            (____, Scope<Void> @:16030 check:41490,op:19,dt:4,nt:8,next:16033,nextCheck:41493,str:63897,h:2,d0:16031,d1:41491;
+            (____, BuiltinInvocation<Void> @:16030 check:41490,op:19,dt:4,nt:8,next:16033,nextCheck:41493,str:63897,h:2,d0:16031,d1:41491;
                 ("sleep", Expression<MethodOrOperator> @:16031 check:41491,op:19,dt:2,nt:9,next:16032,nextCheck:41492,str:90,h:0,d0:0,d1:0;
                     (60, Expression<Short> @:16032 check:41492,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:63904,h:2,d0:60,d1:65535;)))
-            (____, Scope<Void> @:16033 check:41493,op:263,dt:4,nt:8,next:16037,nextCheck:41497,str:63912,h:2,d0:16034,d1:41494;
+            (____, BuiltinInvocation<Void> @:16033 check:41493,op:263,dt:4,nt:8,next:16037,nextCheck:41497,str:63912,h:2,d0:16034,d1:41494;
                 ("device_operates_automatically_set", Expression<MethodOrOperator> @:16034 check:41494,op:263,dt:2,nt:9,next:16035,nextCheck:41495,str:36469,h:0,d0:0,d1:0;
                     ("arm_door_charger_1", Expression<Device> @:16035 check:41495,op:60,dt:54,nt:9,next:16036,nextCheck:41496,str:36954,h:0,d0:445,d1:65535;
                         (True, Expression<Boolean> @:16036 check:41496,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:63966,h:2,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:16037 check:41497,op:263,dt:4,nt:8,next:16041,nextCheck:41501,str:63971,h:2,d0:16038,d1:41498;
+            (____, BuiltinInvocation<Void> @:16037 check:41497,op:263,dt:4,nt:8,next:16041,nextCheck:41501,str:63971,h:2,d0:16038,d1:41498;
                 ("device_operates_automatically_set", Expression<MethodOrOperator> @:16038 check:41498,op:263,dt:2,nt:9,next:16039,nextCheck:41499,str:36469,h:0,d0:0,d1:0;
                     ("arm_door_charger_2", Expression<Device> @:16039 check:41499,op:60,dt:54,nt:9,next:16040,nextCheck:41500,str:36973,h:0,d0:446,d1:65535;
                         (True, Expression<Boolean> @:16040 check:41500,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:64025,h:2,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:16041 check:41501,op:21,dt:4,nt:8,next:16059,nextCheck:41519,str:64030,h:2,d0:16042,d1:41502;
+            (____, BuiltinInvocation<Void> @:16041 check:41501,op:21,dt:4,nt:8,next:16059,nextCheck:41519,str:64030,h:2,d0:16042,d1:41502;
                 ("sleep_until", Expression<MethodOrOperator> @:16042 check:41502,op:21,dt:2,nt:9,next:16043,nextCheck:41503,str:241,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:16043 check:41503,op:6,dt:5,nt:8,next:16057,nextCheck:41517,str:64046,h:2,d0:16044,d1:41504;
+                    (____, BuiltinInvocation<Boolean> @:16043 check:41503,op:6,dt:5,nt:8,next:16057,nextCheck:41517,str:64046,h:2,d0:16044,d1:41504;
                         ("or", Expression<MethodOrOperator> @:16044 check:41504,op:6,dt:2,nt:9,next:16045,nextCheck:41505,str:854,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:16045 check:41505,op:17,dt:5,nt:8,next:16051,nextCheck:41511,str:64054,h:2,d0:16046,d1:41506;
+                            (____, BuiltinInvocation<Boolean> @:16045 check:41505,op:17,dt:5,nt:8,next:16051,nextCheck:41511,str:64054,h:2,d0:16046,d1:41506;
                                 (">=", Expression<MethodOrOperator> @:16046 check:41506,op:17,dt:2,nt:9,next:16047,nextCheck:41507,str:681,h:0,d0:0,d1:0;
-                                    (-2.225933E-18f, Scope<Float> @:16047 check:41507,op:257,dt:6,nt:8,next:16050,nextCheck:41510,str:64058,h:2,d0:16048,d1:41508;
+                                    (-2.225933E-18f, BuiltinInvocation<Float> @:16047 check:41507,op:257,dt:6,nt:8,next:16050,nextCheck:41510,str:64058,h:2,d0:16048,d1:41508;
                                         ("device_get_position", Expression<MethodOrOperator> @:16048 check:41508,op:257,dt:2,nt:9,next:16049,nextCheck:41509,str:32698,h:0,d0:0,d1:0;
                                             ("arm_door_charger_1", Expression<Device> @:16049 check:41509,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:36954,h:0,d0:445,d1:65535;)))
                                     (0.1f, Expression<Float> @:16050 check:41510,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:64099,h:2,d0:52429,d1:15820;)))
-                            (____, Scope<Boolean> @:16051 check:41511,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:64108,h:2,d0:16052,d1:41512;
+                            (____, BuiltinInvocation<Boolean> @:16051 check:41511,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:64108,h:2,d0:16052,d1:41512;
                                 (">=", Expression<MethodOrOperator> @:16052 check:41512,op:17,dt:2,nt:9,next:16053,nextCheck:41513,str:681,h:0,d0:0,d1:0;
-                                    (-2.3072495E-18f, Scope<Float> @:16053 check:41513,op:257,dt:6,nt:8,next:16056,nextCheck:41516,str:64112,h:2,d0:16054,d1:41514;
+                                    (-2.3072495E-18f, BuiltinInvocation<Float> @:16053 check:41513,op:257,dt:6,nt:8,next:16056,nextCheck:41516,str:64112,h:2,d0:16054,d1:41514;
                                         ("device_get_position", Expression<MethodOrOperator> @:16054 check:41514,op:257,dt:2,nt:9,next:16055,nextCheck:41515,str:32698,h:0,d0:0,d1:0;
                                             ("arm_door_charger_2", Expression<Device> @:16055 check:41515,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:36973,h:0,d0:446,d1:65535;)))
                                     (0.1f, Expression<Float> @:16056 check:41516,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:64153,h:2,d0:52429,d1:15820;)))))
                     (1, Expression<Short> @:16057 check:41517,op:7,dt:7,nt:9,next:16058,nextCheck:41518,str:64165,h:2,d0:1,d1:65535;
                         (150, Expression<Int> @:16058 check:41518,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:64167,h:2,d0:150,d1:0;))))
-            (____, Scope<Void> @:16059 check:41519,op:2,dt:4,nt:8,next:16091,nextCheck:41551,str:64174,h:2,d0:16061,d1:41521;
+            (____, BuiltinInvocation<Void> @:16059 check:41519,op:2,dt:4,nt:8,next:16091,nextCheck:41551,str:64174,h:2,d0:16061,d1:41521;
                 ("if", Expression<MethodOrOperator> @:16061 check:41521,op:2,dt:2,nt:9,next:16062,nextCheck:41522,str:466,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:16062 check:41522,op:5,dt:5,nt:8,next:16175,nextCheck:41635,str:64184,h:2,d0:16063,d1:41523;
+                    (____, BuiltinInvocation<Boolean> @:16062 check:41522,op:5,dt:5,nt:8,next:16175,nextCheck:41635,str:64184,h:2,d0:16063,d1:41523;
                         ("and", Expression<MethodOrOperator> @:16063 check:41523,op:5,dt:2,nt:9,next:16064,nextCheck:41524,str:677,h:0,d0:0,d1:0;
                             ("difficulty_legendary", ScriptInvocation<Boolean> @:16064 check:41524,op:4,dt:5,nt:10,next:16066,nextCheck:41526,str:64193,h:2,d0:16065,d1:41525;
                                 ("difficulty_legendary", Expression<MethodOrOperator> @:16065 check:41525,op:4,dt:2,nt:9,next:65535,nextCheck:65535,str:27272,h:0,d0:0,d1:0;))
-                            (____, Scope<Boolean> @:16066 check:41526,op:568,dt:5,nt:8,next:16068,nextCheck:41528,str:64220,h:2,d0:16067,d1:41527;
+                            (____, BuiltinInvocation<Boolean> @:16066 check:41526,op:568,dt:5,nt:8,next:16068,nextCheck:41528,str:64220,h:2,d0:16067,d1:41527;
                                 ("game_is_cooperative", Expression<MethodOrOperator> @:16067 check:41527,op:568,dt:2,nt:9,next:65535,nextCheck:65535,str:27307,h:0,d0:0,d1:0;))
-                            (____, Scope<Boolean> @:16068 check:41528,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:64246,h:2,d0:16069,d1:41529;
+                            (____, BuiltinInvocation<Boolean> @:16068 check:41528,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:64246,h:2,d0:16069,d1:41529;
                                 (">", Expression<MethodOrOperator> @:16069 check:41529,op:15,dt:2,nt:9,next:16070,nextCheck:41530,str:31073,h:0,d0:0,d1:0;
-                                    (-2.537646E-18f, Scope<Float> @:16070 check:41530,op:125,dt:6,nt:8,next:16074,nextCheck:41534,str:64249,h:2,d0:16071,d1:41531;
+                                    (-2.537646E-18f, BuiltinInvocation<Float> @:16070 check:41530,op:125,dt:6,nt:8,next:16074,nextCheck:41534,str:64249,h:2,d0:16071,d1:41531;
                                         ("real_random_range", Expression<MethodOrOperator> @:16071 check:41531,op:125,dt:2,nt:9,next:16072,nextCheck:41532,str:36992,h:0,d0:0,d1:0;
                                             (0f, Expression<Float> @:16072 check:41532,op:6,dt:6,nt:9,next:16073,nextCheck:41533,str:64268,h:2,d0:0,d1:0;
                                                 (1f, Expression<Float> @:16073 check:41533,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:64270,h:2,d0:0,d1:16256;))))
                                     (0.9f, Expression<Float> @:16074 check:41534,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:64273,h:2,d0:26214,d1:16230;)))))
-                    (____, Scope<Void> @:16175 check:41635,op:0,dt:4,nt:8,next:16177,nextCheck:41637,str:64174,h:2,d0:16176,d1:41636;
+                    (____, BuiltinInvocation<Void> @:16175 check:41635,op:0,dt:4,nt:8,next:16177,nextCheck:41637,str:64174,h:2,d0:16176,d1:41636;
                         ("begin", Expression<MethodOrOperator> @:16176 check:41636,op:0,dt:2,nt:9,next:16075,nextCheck:41535,str:11,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:16075 check:41535,op:596,dt:4,nt:8,next:65535,nextCheck:65535,str:64290,h:2,d0:16076,d1:41536;
+                            (____, BuiltinInvocation<Void> @:16075 check:41535,op:596,dt:4,nt:8,next:65535,nextCheck:65535,str:64290,h:2,d0:16076,d1:41536;
                                 ("sound_impulse_start", Expression<MethodOrOperator> @:16076 check:41536,op:596,dt:2,nt:9,next:16077,nextCheck:41537,str:1446,h:0,d0:0,d1:0;
                                     ("sound\dialog\levels\01_spacestation\mission\l01_3450_gun", Expression<Sound> @:16077 check:41537,op:32,dt:32,nt:9,next:16078,nextCheck:41538,str:37010,h:0,d0:4385,d1:62273;
-                                        (____, Scope<Entity> @:16078 check:41538,op:284,dt:50,nt:8,next:16081,nextCheck:41541,str:64368,h:2,d0:16079,d1:41539;
+                                        (____, BuiltinInvocation<Entity> @:16078 check:41538,op:284,dt:50,nt:8,next:16081,nextCheck:41541,str:64368,h:2,d0:16079,d1:41539;
                                             ("ai_get_object", Expression<MethodOrOperator> @:16079 check:41539,op:284,dt:2,nt:9,next:16080,nextCheck:41540,str:31830,h:0,d0:0,d1:0;
                                                 ("arm_hum_guns", Expression<AI> @:16080 check:41540,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36612,h:0,d0:61,d1:0;)))
                                         (1f, Expression<Float> @:16081 check:41541,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:64397,h:2,d0:0,d1:16256;))))))
-                    (____, Scope<Void> @:16177 check:41637,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:64174,h:2,d0:16082,d1:41542;
+                    (____, BuiltinInvocation<Void> @:16177 check:41637,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:64174,h:2,d0:16082,d1:41542;
                         ("if", Expression<MethodOrOperator> @:16082 check:41542,op:2,dt:2,nt:9,next:16083,nextCheck:41543,str:466,h:0,d0:0,d1:0;
                             (True, Expression<Boolean> @:16083 check:41543,op:5,dt:5,nt:9,next:16178,nextCheck:41638,str:64405,h:2,d0:65281,d1:65535;
-                                (____, Scope<Void> @:16178 check:41638,op:0,dt:4,nt:8,next:16180,nextCheck:41640,str:64174,h:2,d0:16179,d1:41639;
+                                (____, BuiltinInvocation<Void> @:16178 check:41638,op:0,dt:4,nt:8,next:16180,nextCheck:41640,str:64174,h:2,d0:16179,d1:41639;
                                     ("begin", Expression<MethodOrOperator> @:16179 check:41639,op:0,dt:2,nt:9,next:16084,nextCheck:41544,str:11,h:0,d0:0,d1:0;
-                                        (____, Scope<Void> @:16084 check:41544,op:596,dt:4,nt:8,next:65535,nextCheck:65535,str:64416,h:2,d0:16085,d1:41545;
+                                        (____, BuiltinInvocation<Void> @:16084 check:41544,op:596,dt:4,nt:8,next:65535,nextCheck:65535,str:64416,h:2,d0:16085,d1:41545;
                                             ("sound_impulse_start", Expression<MethodOrOperator> @:16085 check:41545,op:596,dt:2,nt:9,next:16086,nextCheck:41546,str:1446,h:0,d0:0,d1:0;
                                                 ("sound\dialog\levels\01_spacestation\mission\l01_3430_gun", Expression<Sound> @:16086 check:41546,op:32,dt:32,nt:9,next:16087,nextCheck:41547,str:37067,h:0,d0:4386,d1:62274;
-                                                    (____, Scope<Entity> @:16087 check:41547,op:284,dt:50,nt:8,next:16090,nextCheck:41550,str:64494,h:2,d0:16088,d1:41548;
+                                                    (____, BuiltinInvocation<Entity> @:16087 check:41547,op:284,dt:50,nt:8,next:16090,nextCheck:41550,str:64494,h:2,d0:16088,d1:41548;
                                                         ("ai_get_object", Expression<MethodOrOperator> @:16088 check:41548,op:284,dt:2,nt:9,next:16089,nextCheck:41549,str:31830,h:0,d0:0,d1:0;
                                                             ("arm_hum_guns", Expression<AI> @:16089 check:41549,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36612,h:0,d0:61,d1:0;)))
                                                     (1f, Expression<Float> @:16090 check:41550,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:64523,h:2,d0:0,d1:16256;))))))
                                 (0, Expression<Void> @:16180 check:41640,op:4,dt:4,nt:9,next:65535,nextCheck:65535,str:64174,h:2,d0:0,d1:0;))))))
-            (____, Scope<Void> @:16091 check:41551,op:21,dt:4,nt:8,next:16116,nextCheck:41576,str:64533,h:2,d0:16092,d1:41552;
+            (____, BuiltinInvocation<Void> @:16091 check:41551,op:21,dt:4,nt:8,next:16116,nextCheck:41576,str:64533,h:2,d0:16092,d1:41552;
                 ("sleep_until", Expression<MethodOrOperator> @:16092 check:41552,op:21,dt:2,nt:9,next:16093,nextCheck:41553,str:241,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:16093 check:41553,op:6,dt:5,nt:8,next:16107,nextCheck:41567,str:64549,h:2,d0:16094,d1:41554;
+                    (____, BuiltinInvocation<Boolean> @:16093 check:41553,op:6,dt:5,nt:8,next:16107,nextCheck:41567,str:64549,h:2,d0:16094,d1:41554;
                         ("or", Expression<MethodOrOperator> @:16094 check:41554,op:6,dt:2,nt:9,next:16095,nextCheck:41555,str:854,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:16095 check:41555,op:17,dt:5,nt:8,next:16101,nextCheck:41561,str:64557,h:2,d0:16096,d1:41556;
+                            (____, BuiltinInvocation<Boolean> @:16095 check:41555,op:17,dt:5,nt:8,next:16101,nextCheck:41561,str:64557,h:2,d0:16096,d1:41556;
                                 (">=", Expression<MethodOrOperator> @:16096 check:41556,op:17,dt:2,nt:9,next:16097,nextCheck:41557,str:681,h:0,d0:0,d1:0;
-                                    (-2.9035698E-18f, Scope<Float> @:16097 check:41557,op:257,dt:6,nt:8,next:16100,nextCheck:41560,str:64561,h:2,d0:16098,d1:41558;
+                                    (-2.9035698E-18f, BuiltinInvocation<Float> @:16097 check:41557,op:257,dt:6,nt:8,next:16100,nextCheck:41560,str:64561,h:2,d0:16098,d1:41558;
                                         ("device_get_position", Expression<MethodOrOperator> @:16098 check:41558,op:257,dt:2,nt:9,next:16099,nextCheck:41559,str:32698,h:0,d0:0,d1:0;
                                             ("arm_door_charger_1", Expression<Device> @:16099 check:41559,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:36954,h:0,d0:445,d1:65535;)))
                                     (0.3f, Expression<Float> @:16100 check:41560,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:64602,h:2,d0:39322,d1:16025;)))
-                            (____, Scope<Boolean> @:16101 check:41561,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:64611,h:2,d0:16102,d1:41562;
+                            (____, BuiltinInvocation<Boolean> @:16101 check:41561,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:64611,h:2,d0:16102,d1:41562;
                                 (">=", Expression<MethodOrOperator> @:16102 check:41562,op:17,dt:2,nt:9,next:16103,nextCheck:41563,str:681,h:0,d0:0,d1:0;
-                                    (-2.9848862E-18f, Scope<Float> @:16103 check:41563,op:257,dt:6,nt:8,next:16106,nextCheck:41566,str:64615,h:2,d0:16104,d1:41564;
+                                    (-2.9848862E-18f, BuiltinInvocation<Float> @:16103 check:41563,op:257,dt:6,nt:8,next:16106,nextCheck:41566,str:64615,h:2,d0:16104,d1:41564;
                                         ("device_get_position", Expression<MethodOrOperator> @:16104 check:41564,op:257,dt:2,nt:9,next:16105,nextCheck:41565,str:32698,h:0,d0:0,d1:0;
                                             ("arm_door_charger_2", Expression<Device> @:16105 check:41565,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:36973,h:0,d0:446,d1:65535;)))
                                     (0.3f, Expression<Float> @:16106 check:41566,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:64656,h:2,d0:39322,d1:16025;)))))
                     (1, Expression<Short> @:16107 check:41567,op:7,dt:7,nt:9,next:16108,nextCheck:41568,str:64669,h:2,d0:1,d1:65535;
-                        (____, Scope<Int> @:16108 check:41568,op:7,dt:8,nt:8,next:65535,nextCheck:65535,str:64674,h:2,d0:16109,d1:41569;
+                        (____, BuiltinInvocation<Int> @:16108 check:41568,op:7,dt:8,nt:8,next:65535,nextCheck:65535,str:64674,h:2,d0:16109,d1:41569;
                             ("+", Expression<MethodOrOperator> @:16109 check:41569,op:7,dt:2,nt:9,next:16110,nextCheck:41570,str:991,h:0,d0:0,d1:0;
-                                (-3.0797553E-18f, Scope<Float> @:16110 check:41570,op:601,dt:6,nt:8,next:16113,nextCheck:41573,str:64681,h:2,d0:16111,d1:41571;
+                                (-3.0797553E-18f, BuiltinInvocation<Float> @:16110 check:41570,op:601,dt:6,nt:8,next:16113,nextCheck:41573,str:64681,h:2,d0:16111,d1:41571;
                                     ("sound_impulse_language_time", Expression<MethodOrOperator> @:16111 check:41571,op:601,dt:2,nt:9,next:16112,nextCheck:41572,str:31259,h:0,d0:0,d1:0;
                                         ("sound\dialog\levels\01_spacestation\mission\l01_3450_gun", Expression<Sound> @:16112 check:41572,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:37010,h:0,d0:4385,d1:62273;)))
-                                (-3.1204135E-18f, Scope<Float> @:16113 check:41573,op:601,dt:6,nt:8,next:65535,nextCheck:65535,str:64772,h:2,d0:16114,d1:41574;
+                                (-3.1204135E-18f, BuiltinInvocation<Float> @:16113 check:41573,op:601,dt:6,nt:8,next:65535,nextCheck:65535,str:64772,h:2,d0:16114,d1:41574;
                                     ("sound_impulse_language_time", Expression<MethodOrOperator> @:16114 check:41574,op:601,dt:2,nt:9,next:16115,nextCheck:41575,str:31259,h:0,d0:0,d1:0;
                                         ("sound\dialog\levels\01_spacestation\mission\l01_3430_gun", Expression<Sound> @:16115 check:41575,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:37067,h:0,d0:4386,d1:62274;))))))))
-            (____, Scope<Void> @:16116 check:41576,op:293,dt:4,nt:8,next:16120,nextCheck:41580,str:64870,h:2,d0:16117,d1:41577;
+            (____, BuiltinInvocation<Void> @:16116 check:41576,op:293,dt:4,nt:8,next:16120,nextCheck:41580,str:64870,h:2,d0:16117,d1:41577;
                 ("ai_cannot_die", Expression<MethodOrOperator> @:16117 check:41577,op:293,dt:2,nt:9,next:16118,nextCheck:41578,str:33381,h:0,d0:0,d1:0;
                     ("arm_hum_guns", Expression<AI> @:16118 check:41578,op:19,dt:19,nt:9,next:16119,nextCheck:41579,str:36612,h:0,d0:61,d1:0;
                         (False, Expression<Boolean> @:16119 check:41579,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:64898,h:2,d0:65280,d1:65535;))))
-            (____, Scope<Void> @:16120 check:41580,op:293,dt:4,nt:8,next:16124,nextCheck:41584,str:64903,h:2,d0:16121,d1:41581;
+            (____, BuiltinInvocation<Void> @:16120 check:41580,op:293,dt:4,nt:8,next:16124,nextCheck:41584,str:64903,h:2,d0:16121,d1:41581;
                 ("ai_cannot_die", Expression<MethodOrOperator> @:16121 check:41581,op:293,dt:2,nt:9,next:16122,nextCheck:41582,str:33381,h:0,d0:0,d1:0;
                     ("arm_cov_elt", Expression<AI> @:16122 check:41582,op:19,dt:19,nt:9,next:16123,nextCheck:41583,str:36625,h:0,d0:62,d1:0;
                         (False, Expression<Boolean> @:16123 check:41583,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:64930,h:2,d0:65280,d1:65535;))))
-            (____, Scope<Void> @:16124 check:41584,op:296,dt:4,nt:8,next:16127,nextCheck:41587,str:64935,h:2,d0:16125,d1:41585;
+            (____, BuiltinInvocation<Void> @:16124 check:41584,op:296,dt:4,nt:8,next:16127,nextCheck:41587,str:64935,h:2,d0:16125,d1:41585;
                 ("ai_kill", Expression<MethodOrOperator> @:16125 check:41585,op:296,dt:2,nt:9,next:16126,nextCheck:41586,str:37124,h:0,d0:0,d1:0;
                     ("arm_hum_guns", Expression<AI> @:16126 check:41586,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36612,h:0,d0:61,d1:0;)))
-            (____, Scope<Void> @:16127 check:41587,op:21,dt:4,nt:8,next:16143,nextCheck:41603,str:64962,h:2,d0:16128,d1:41588;
+            (____, BuiltinInvocation<Void> @:16127 check:41587,op:21,dt:4,nt:8,next:16143,nextCheck:41603,str:64962,h:2,d0:16128,d1:41588;
                 ("sleep_until", Expression<MethodOrOperator> @:16128 check:41588,op:21,dt:2,nt:9,next:16129,nextCheck:41589,str:241,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:16129 check:41589,op:6,dt:5,nt:8,next:16142,nextCheck:41602,str:64978,h:2,d0:16130,d1:41590;
+                    (____, BuiltinInvocation<Boolean> @:16129 check:41589,op:6,dt:5,nt:8,next:16142,nextCheck:41602,str:64978,h:2,d0:16130,d1:41590;
                         ("or", Expression<MethodOrOperator> @:16130 check:41590,op:6,dt:2,nt:9,next:16131,nextCheck:41591,str:854,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:16131 check:41591,op:13,dt:5,nt:8,next:16137,nextCheck:41597,str:64986,h:2,d0:16132,d1:41592;
+                            (____, BuiltinInvocation<Boolean> @:16131 check:41591,op:13,dt:5,nt:8,next:16137,nextCheck:41597,str:64986,h:2,d0:16132,d1:41592;
                                 ("=", Expression<MethodOrOperator> @:16132 check:41592,op:13,dt:2,nt:9,next:16133,nextCheck:41593,str:306,h:0,d0:0,d1:0;
-                                    (____, Scope<Short> @:16133 check:41593,op:327,dt:7,nt:8,next:16136,nextCheck:41596,str:64989,h:2,d0:16134,d1:41594;
+                                    (____, BuiltinInvocation<Short> @:16133 check:41593,op:327,dt:7,nt:8,next:16136,nextCheck:41596,str:64989,h:2,d0:16134,d1:41594;
                                         ("ai_living_count", Expression<MethodOrOperator> @:16134 check:41594,op:327,dt:2,nt:9,next:16135,nextCheck:41595,str:27755,h:0,d0:0,d1:0;
                                             ("arm_cov", Expression<AI> @:16135 check:41595,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:37132,h:0,d0:34,d1:16384;)))
                                     (0, Expression<Short> @:16136 check:41596,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:65015,h:2,d0:0,d1:65535;)))
-                            (____, Scope<Boolean> @:16137 check:41597,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:65022,h:2,d0:16138,d1:41598;
+                            (____, BuiltinInvocation<Boolean> @:16137 check:41597,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:65022,h:2,d0:16138,d1:41598;
                                 ("volume_test_objects", Expression<MethodOrOperator> @:16138 check:41598,op:33,dt:2,nt:9,next:16139,nextCheck:41599,str:27692,h:0,d0:0,d1:0;
                                     ("tv_atr1_floor", Expression<Trigger> @:16139 check:41599,op:13,dt:13,nt:9,next:16140,nextCheck:41600,str:37140,h:0,d0:17,d1:0;
-                                        (____, Scope<List> @:16140 check:41600,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:65057,h:2,d0:16141,d1:41601;
+                                        (____, BuiltinInvocation<List> @:16140 check:41600,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:65057,h:2,d0:16141,d1:41601;
                                             ("players", Expression<MethodOrOperator> @:16141 check:41601,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:31,h:0,d0:0,d1:0;)))))))
                     (1, Expression<Short> @:16142 check:41602,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:65075,h:2,d0:1,d1:65535;)))
-            (____, Scope<Void> @:16143 check:41603,op:605,dt:4,nt:8,next:16148,nextCheck:41608,str:65080,h:2,d0:16144,d1:41604;
+            (____, BuiltinInvocation<Void> @:16143 check:41603,op:605,dt:4,nt:8,next:16148,nextCheck:41608,str:65080,h:2,d0:16144,d1:41604;
                 ("sound_looping_start", Expression<MethodOrOperator> @:16144 check:41604,op:605,dt:2,nt:9,next:16145,nextCheck:41605,str:28032,h:0,d0:0,d1:0;
                     ("scenarios\solo\01b_spacestation\01b_music\01b_05", Expression<LoopingSound> @:16145 check:41605,op:35,dt:35,nt:9,next:16146,nextCheck:41606,str:37154,h:0,d0:4387,d1:62275;
                         (4294967295, Expression<Entity> @:16146 check:41606,op:50,dt:50,nt:9,next:16147,nextCheck:41607,str:1520,h:0,d0:65535,d1:65535;
                             (1f, Expression<Float> @:16147 check:41607,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:65155,h:2,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:16148 check:41608,op:4,dt:4,nt:8,next:16152,nextCheck:41612,str:65170,h:2,d0:16149,d1:41609;
+            (____, BuiltinInvocation<Void> @:16148 check:41608,op:4,dt:4,nt:8,next:16152,nextCheck:41612,str:65170,h:2,d0:16149,d1:41609;
                 ("set", Expression<MethodOrOperator> @:16149 check:41609,op:4,dt:2,nt:9,next:16150,nextCheck:41610,str:3320,h:0,d0:0,d1:0;
                     ("mark_flavor_disable", VariableAccess<Boolean> @:16150 check:41610,op:65535,dt:5,nt:13,next:16151,nextCheck:41611,str:31003,h:0,d0:24,d1:0;
                         (False, Expression<Boolean> @:16151 check:41611,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:65195,h:2,d0:65280,d1:65535;))))
-            (____, Scope<Void> @:16152 check:41612,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:65204,h:2,d0:16153,d1:41613;
+            (____, BuiltinInvocation<Void> @:16152 check:41612,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:65204,h:2,d0:16153,d1:41613;
                 ("set", Expression<MethodOrOperator> @:16153 check:41613,op:4,dt:2,nt:9,next:16154,nextCheck:41614,str:3320,h:0,d0:0,d1:0;
                     ("mark_flavor_atr1", VariableAccess<Boolean> @:16154 check:41614,op:65535,dt:5,nt:13,next:16155,nextCheck:41615,str:31337,h:0,d0:30,d1:0;
                         (True, Expression<Boolean> @:16155 check:41615,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:65226,h:2,d0:65281,d1:65535;)))))))

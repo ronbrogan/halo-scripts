@@ -1,20 +1,20 @@
 
 ("e11_warthog_approach_horn", MethodDecl<Void> @:216 check:0,op:0,dt:0,nt:65535,next:7784,nextCheck:33244,str:15487,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:7784 check:33244,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28561,h:1,d0:7785,d1:33245;
+    (____, BuiltinInvocation<Void> @:7784 check:33244,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28561,h:1,d0:7785,d1:33245;
         ("begin", Expression<MethodOrOperator> @:7785 check:33245,op:0,dt:2,nt:9,next:7768,nextCheck:33228,str:64,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:7768 check:33228,op:27,dt:4,nt:8,next:7771,nextCheck:33231,str:28605,h:1,d0:7769,d1:33229;
+            (____, BuiltinInvocation<Void> @:7768 check:33228,op:27,dt:4,nt:8,next:7771,nextCheck:33231,str:28605,h:1,d0:7769,d1:33229;
                 ("print", Expression<MethodOrOperator> @:7769 check:33229,op:27,dt:2,nt:9,next:7770,nextCheck:33230,str:149,h:0,d0:0,d1:0;
                     ("honk", Expression<String> @:7770 check:33230,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:15387,h:0,d0:42979,d1:12404;)))
-            (____, Scope<Void> @:7771 check:33231,op:605,dt:4,nt:8,next:7778,nextCheck:33238,str:28622,h:1,d0:7772,d1:33232;
+            (____, BuiltinInvocation<Void> @:7771 check:33231,op:605,dt:4,nt:8,next:7778,nextCheck:33238,str:28622,h:1,d0:7772,d1:33232;
                 ("sound_looping_start", Expression<MethodOrOperator> @:7772 check:33232,op:605,dt:2,nt:9,next:7773,nextCheck:33233,str:9803,h:0,d0:0,d1:0;
                     ("sound\vehicles\warthog\warthog_horn\warthog_horn", Expression<LoopingSound> @:7773 check:33233,op:35,dt:35,nt:9,next:7774,nextCheck:33234,str:15392,h:0,d0:5246,d1:63134;
-                        (____, Scope<Entity> @:7774 check:33234,op:341,dt:50,nt:8,next:7777,nextCheck:33237,str:28694,h:1,d0:7775,d1:33235;
+                        (____, BuiltinInvocation<Entity> @:7774 check:33234,op:341,dt:50,nt:8,next:7777,nextCheck:33237,str:28694,h:1,d0:7775,d1:33235;
                             ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:7775 check:33235,op:341,dt:2,nt:9,next:7776,nextCheck:33236,str:4392,h:0,d0:0,d1:0;
                                 ("e11_mars_warthog0/warthog0", Expression<AI> @:7776 check:33236,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:15441,h:0,d0:0,d1:49246;)))
                         (1.5f, Expression<Float> @:7777 check:33237,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:28761,h:1,d0:0,d1:16320;))))
-            (____, Scope<Void> @:7778 check:33238,op:19,dt:4,nt:8,next:7781,nextCheck:33241,str:28768,h:1,d0:7779,d1:33239;
+            (____, BuiltinInvocation<Void> @:7778 check:33238,op:19,dt:4,nt:8,next:7781,nextCheck:33241,str:28768,h:1,d0:7779,d1:33239;
                 ("sleep", Expression<MethodOrOperator> @:7779 check:33239,op:19,dt:2,nt:9,next:7780,nextCheck:33240,str:143,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:7780 check:33240,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28775,h:1,d0:30,d1:65535;)))
-            (____, Scope<Void> @:7781 check:33241,op:606,dt:4,nt:8,next:65535,nextCheck:65535,str:28781,h:1,d0:7782,d1:33242;
+            (____, BuiltinInvocation<Void> @:7781 check:33241,op:606,dt:4,nt:8,next:65535,nextCheck:65535,str:28781,h:1,d0:7782,d1:33242;
                 ("sound_looping_stop", Expression<MethodOrOperator> @:7782 check:33242,op:606,dt:2,nt:9,next:7783,nextCheck:33243,str:9888,h:0,d0:0,d1:0;
                     ("sound\vehicles\warthog\warthog_horn\warthog_horn", Expression<LoopingSound> @:7783 check:33243,op:35,dt:35,nt:9,next:65535,nextCheck:65535,str:15392,h:0,d0:5246,d1:63134;))))))

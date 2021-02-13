@@ -1,176 +1,176 @@
 
 ("temple_ent_turret_spawn", MethodDecl<Void> @:272 check:0,op:0,dt:0,nt:65535,next:14621,nextCheck:40081,str:26552,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:14621 check:40081,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:35554,h:2,d0:14622,d1:40082;
+    (____, BuiltinInvocation<Void> @:14621 check:40081,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:35554,h:2,d0:14622,d1:40082;
         ("begin", Expression<MethodOrOperator> @:14622 check:40082,op:0,dt:2,nt:9,next:14449,nextCheck:39909,str:54,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:14449 check:39909,op:2,dt:4,nt:8,next:14461,nextCheck:39921,str:35596,h:2,d0:14450,d1:39910;
+            (____, BuiltinInvocation<Void> @:14449 check:39909,op:2,dt:4,nt:8,next:14461,nextCheck:39921,str:35596,h:2,d0:14450,d1:39910;
                 ("if", Expression<MethodOrOperator> @:14450 check:39910,op:2,dt:2,nt:9,next:14451,nextCheck:39911,str:509,h:0,d0:0,d1:0;
                     ("difficulty_legendary", ScriptInvocation<Boolean> @:14451 check:39911,op:4,dt:5,nt:10,next:14453,nextCheck:39913,str:35600,h:2,d0:14452,d1:39912;
                         ("difficulty_legendary", Expression<MethodOrOperator> @:14452 check:39912,op:4,dt:2,nt:9,next:65535,nextCheck:65535,str:14728,h:0,d0:0,d1:0;))
-                    (____, Scope<Void> @:14453 check:39913,op:4,dt:4,nt:8,next:14457,nextCheck:39917,str:35626,h:2,d0:14454,d1:39914;
+                    (____, BuiltinInvocation<Void> @:14453 check:39913,op:4,dt:4,nt:8,next:14457,nextCheck:39917,str:35626,h:2,d0:14454,d1:39914;
                         ("set", Expression<MethodOrOperator> @:14454 check:39914,op:4,dt:2,nt:9,next:14455,nextCheck:39915,str:1857,h:0,d0:0,d1:0;
                             ("temple_ent_near_turret", VariableAccess<Short> @:14455 check:39915,op:65535,dt:7,nt:13,next:14456,nextCheck:39916,str:25715,h:0,d0:25,d1:0;
                                 (3, Expression<Short> @:14456 check:39916,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:35654,h:2,d0:3,d1:65535;))))
-                    (____, Scope<Void> @:14457 check:39917,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:35660,h:2,d0:14458,d1:39918;
+                    (____, BuiltinInvocation<Void> @:14457 check:39917,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:35660,h:2,d0:14458,d1:39918;
                         ("set", Expression<MethodOrOperator> @:14458 check:39918,op:4,dt:2,nt:9,next:14459,nextCheck:39919,str:1857,h:0,d0:0,d1:0;
                             ("temple_ent_far_turret", VariableAccess<Short> @:14459 check:39919,op:65535,dt:7,nt:13,next:14460,nextCheck:39920,str:25738,h:0,d0:26,d1:0;
                                 (3, Expression<Short> @:14460 check:39920,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:35687,h:2,d0:3,d1:65535;))))))
-            (____, Scope<Void> @:14461 check:39921,op:2,dt:4,nt:8,next:14473,nextCheck:39933,str:35696,h:2,d0:14462,d1:39922;
+            (____, BuiltinInvocation<Void> @:14461 check:39921,op:2,dt:4,nt:8,next:14473,nextCheck:39933,str:35696,h:2,d0:14462,d1:39922;
                 ("if", Expression<MethodOrOperator> @:14462 check:39922,op:2,dt:2,nt:9,next:14463,nextCheck:39923,str:509,h:0,d0:0,d1:0;
                     ("difficulty_heroic", ScriptInvocation<Boolean> @:14463 check:39923,op:5,dt:5,nt:10,next:14465,nextCheck:39925,str:35700,h:2,d0:14464,d1:39924;
                         ("difficulty_heroic", Expression<MethodOrOperator> @:14464 check:39924,op:5,dt:2,nt:9,next:65535,nextCheck:65535,str:14765,h:0,d0:0,d1:0;))
-                    (____, Scope<Void> @:14465 check:39925,op:4,dt:4,nt:8,next:14469,nextCheck:39929,str:35723,h:2,d0:14466,d1:39926;
+                    (____, BuiltinInvocation<Void> @:14465 check:39925,op:4,dt:4,nt:8,next:14469,nextCheck:39929,str:35723,h:2,d0:14466,d1:39926;
                         ("set", Expression<MethodOrOperator> @:14466 check:39926,op:4,dt:2,nt:9,next:14467,nextCheck:39927,str:1857,h:0,d0:0,d1:0;
                             ("temple_ent_near_turret", VariableAccess<Short> @:14467 check:39927,op:65535,dt:7,nt:13,next:14468,nextCheck:39928,str:25715,h:0,d0:25,d1:0;
                                 (2, Expression<Short> @:14468 check:39928,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:35751,h:2,d0:2,d1:65535;))))
-                    (____, Scope<Void> @:14469 check:39929,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:35757,h:2,d0:14470,d1:39930;
+                    (____, BuiltinInvocation<Void> @:14469 check:39929,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:35757,h:2,d0:14470,d1:39930;
                         ("set", Expression<MethodOrOperator> @:14470 check:39930,op:4,dt:2,nt:9,next:14471,nextCheck:39931,str:1857,h:0,d0:0,d1:0;
                             ("temple_ent_far_turret", VariableAccess<Short> @:14471 check:39931,op:65535,dt:7,nt:13,next:14472,nextCheck:39932,str:25738,h:0,d0:26,d1:0;
                                 (2, Expression<Short> @:14472 check:39932,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:35784,h:2,d0:2,d1:65535;))))))
-            (____, Scope<Void> @:14473 check:39933,op:1,dt:4,nt:8,next:14547,nextCheck:40007,str:35793,h:2,d0:14474,d1:39934;
+            (____, BuiltinInvocation<Void> @:14473 check:39933,op:1,dt:4,nt:8,next:14547,nextCheck:40007,str:35793,h:2,d0:14474,d1:39934;
                 ("begin_random", Expression<MethodOrOperator> @:14474 check:39934,op:1,dt:2,nt:9,next:14475,nextCheck:39935,str:14521,h:0,d0:0,d1:0;
-                    (____, Scope<Void> @:14475 check:39935,op:2,dt:4,nt:8,next:14493,nextCheck:39953,str:35810,h:2,d0:14476,d1:39936;
+                    (____, BuiltinInvocation<Void> @:14475 check:39935,op:2,dt:4,nt:8,next:14493,nextCheck:39953,str:35810,h:2,d0:14476,d1:39936;
                         ("if", Expression<MethodOrOperator> @:14476 check:39936,op:2,dt:2,nt:9,next:14477,nextCheck:39937,str:509,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:14477 check:39937,op:15,dt:5,nt:8,next:14481,nextCheck:39941,str:35814,h:2,d0:14478,d1:39938;
+                            (____, BuiltinInvocation<Boolean> @:14477 check:39937,op:15,dt:5,nt:8,next:14481,nextCheck:39941,str:35814,h:2,d0:14478,d1:39938;
                                 (">", Expression<MethodOrOperator> @:14478 check:39938,op:15,dt:2,nt:9,next:14479,nextCheck:39939,str:14283,h:0,d0:0,d1:0;
                                     ("temple_ent_near_turret", VariableAccess<Short> @:14479 check:39939,op:0,dt:7,nt:13,next:14480,nextCheck:39940,str:25715,h:0,d0:25,d1:0;
                                         (0, Expression<Short> @:14480 check:39940,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:35840,h:2,d0:0,d1:65535;))))
-                            (____, Scope<Void> @:14481 check:39941,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:35847,h:2,d0:14482,d1:39942;
+                            (____, BuiltinInvocation<Void> @:14481 check:39941,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:35847,h:2,d0:14482,d1:39942;
                                 ("begin", Expression<MethodOrOperator> @:14482 check:39942,op:0,dt:2,nt:9,next:14483,nextCheck:39943,str:54,h:0,d0:0,d1:0;
-                                    (____, Scope<Void> @:14483 check:39943,op:290,dt:4,nt:8,next:14486,nextCheck:39946,str:35859,h:2,d0:14484,d1:39944;
+                                    (____, BuiltinInvocation<Void> @:14483 check:39943,op:290,dt:4,nt:8,next:14486,nextCheck:39946,str:35859,h:2,d0:14484,d1:39944;
                                         ("ai_place", Expression<MethodOrOperator> @:14484 check:39944,op:290,dt:2,nt:9,next:14485,nextCheck:39945,str:14801,h:0,d0:0,d1:0;
                                             ("temple_ent_turrets_01/1", Expression<AI> @:14485 check:39945,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25760,h:0,d0:0,d1:49226;)))
-                                    (____, Scope<Void> @:14486 check:39946,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:35899,h:2,d0:14487,d1:39947;
+                                    (____, BuiltinInvocation<Void> @:14486 check:39946,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:35899,h:2,d0:14487,d1:39947;
                                         ("set", Expression<MethodOrOperator> @:14487 check:39947,op:4,dt:2,nt:9,next:14488,nextCheck:39948,str:1857,h:0,d0:0,d1:0;
                                             ("temple_ent_near_turret", VariableAccess<Short> @:14488 check:39948,op:65535,dt:7,nt:13,next:14489,nextCheck:39949,str:25715,h:0,d0:25,d1:0;
-                                                (____, Scope<Short> @:14489 check:39949,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:35927,h:2,d0:14490,d1:39950;
+                                                (____, BuiltinInvocation<Short> @:14489 check:39949,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:35927,h:2,d0:14490,d1:39950;
                                                     ("-", Expression<MethodOrOperator> @:14490 check:39950,op:8,dt:2,nt:9,next:14491,nextCheck:39951,str:2316,h:0,d0:0,d1:0;
                                                         ("temple_ent_near_turret", VariableAccess<Float> @:14491 check:39951,op:6,dt:6,nt:13,next:14492,nextCheck:39952,str:25715,h:0,d0:25,d1:0;
                                                             (1f, Expression<Float> @:14492 check:39952,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:35953,h:2,d0:0,d1:16256;)))))))))))
-                    (____, Scope<Void> @:14493 check:39953,op:2,dt:4,nt:8,next:14511,nextCheck:39971,str:35971,h:2,d0:14494,d1:39954;
+                    (____, BuiltinInvocation<Void> @:14493 check:39953,op:2,dt:4,nt:8,next:14511,nextCheck:39971,str:35971,h:2,d0:14494,d1:39954;
                         ("if", Expression<MethodOrOperator> @:14494 check:39954,op:2,dt:2,nt:9,next:14495,nextCheck:39955,str:509,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:14495 check:39955,op:15,dt:5,nt:8,next:14499,nextCheck:39959,str:35975,h:2,d0:14496,d1:39956;
+                            (____, BuiltinInvocation<Boolean> @:14495 check:39955,op:15,dt:5,nt:8,next:14499,nextCheck:39959,str:35975,h:2,d0:14496,d1:39956;
                                 (">", Expression<MethodOrOperator> @:14496 check:39956,op:15,dt:2,nt:9,next:14497,nextCheck:39957,str:14283,h:0,d0:0,d1:0;
                                     ("temple_ent_near_turret", VariableAccess<Short> @:14497 check:39957,op:0,dt:7,nt:13,next:14498,nextCheck:39958,str:25715,h:0,d0:25,d1:0;
                                         (0, Expression<Short> @:14498 check:39958,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:36001,h:2,d0:0,d1:65535;))))
-                            (____, Scope<Void> @:14499 check:39959,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36008,h:2,d0:14500,d1:39960;
+                            (____, BuiltinInvocation<Void> @:14499 check:39959,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36008,h:2,d0:14500,d1:39960;
                                 ("begin", Expression<MethodOrOperator> @:14500 check:39960,op:0,dt:2,nt:9,next:14501,nextCheck:39961,str:54,h:0,d0:0,d1:0;
-                                    (____, Scope<Void> @:14501 check:39961,op:290,dt:4,nt:8,next:14504,nextCheck:39964,str:36020,h:2,d0:14502,d1:39962;
+                                    (____, BuiltinInvocation<Void> @:14501 check:39961,op:290,dt:4,nt:8,next:14504,nextCheck:39964,str:36020,h:2,d0:14502,d1:39962;
                                         ("ai_place", Expression<MethodOrOperator> @:14502 check:39962,op:290,dt:2,nt:9,next:14503,nextCheck:39963,str:14801,h:0,d0:0,d1:0;
                                             ("temple_ent_turrets_01/2", Expression<AI> @:14503 check:39963,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25784,h:0,d0:1,d1:49226;)))
-                                    (____, Scope<Void> @:14504 check:39964,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:36060,h:2,d0:14505,d1:39965;
+                                    (____, BuiltinInvocation<Void> @:14504 check:39964,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:36060,h:2,d0:14505,d1:39965;
                                         ("set", Expression<MethodOrOperator> @:14505 check:39965,op:4,dt:2,nt:9,next:14506,nextCheck:39966,str:1857,h:0,d0:0,d1:0;
                                             ("temple_ent_near_turret", VariableAccess<Short> @:14506 check:39966,op:65535,dt:7,nt:13,next:14507,nextCheck:39967,str:25715,h:0,d0:25,d1:0;
-                                                (____, Scope<Short> @:14507 check:39967,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:36088,h:2,d0:14508,d1:39968;
+                                                (____, BuiltinInvocation<Short> @:14507 check:39967,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:36088,h:2,d0:14508,d1:39968;
                                                     ("-", Expression<MethodOrOperator> @:14508 check:39968,op:8,dt:2,nt:9,next:14509,nextCheck:39969,str:2316,h:0,d0:0,d1:0;
                                                         ("temple_ent_near_turret", VariableAccess<Float> @:14509 check:39969,op:6,dt:6,nt:13,next:14510,nextCheck:39970,str:25715,h:0,d0:25,d1:0;
                                                             (1f, Expression<Float> @:14510 check:39970,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:36114,h:2,d0:0,d1:16256;)))))))))))
-                    (____, Scope<Void> @:14511 check:39971,op:2,dt:4,nt:8,next:14529,nextCheck:39989,str:36132,h:2,d0:14512,d1:39972;
+                    (____, BuiltinInvocation<Void> @:14511 check:39971,op:2,dt:4,nt:8,next:14529,nextCheck:39989,str:36132,h:2,d0:14512,d1:39972;
                         ("if", Expression<MethodOrOperator> @:14512 check:39972,op:2,dt:2,nt:9,next:14513,nextCheck:39973,str:509,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:14513 check:39973,op:15,dt:5,nt:8,next:14517,nextCheck:39977,str:36136,h:2,d0:14514,d1:39974;
+                            (____, BuiltinInvocation<Boolean> @:14513 check:39973,op:15,dt:5,nt:8,next:14517,nextCheck:39977,str:36136,h:2,d0:14514,d1:39974;
                                 (">", Expression<MethodOrOperator> @:14514 check:39974,op:15,dt:2,nt:9,next:14515,nextCheck:39975,str:14283,h:0,d0:0,d1:0;
                                     ("temple_ent_near_turret", VariableAccess<Short> @:14515 check:39975,op:0,dt:7,nt:13,next:14516,nextCheck:39976,str:25715,h:0,d0:25,d1:0;
                                         (0, Expression<Short> @:14516 check:39976,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:36162,h:2,d0:0,d1:65535;))))
-                            (____, Scope<Void> @:14517 check:39977,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36169,h:2,d0:14518,d1:39978;
+                            (____, BuiltinInvocation<Void> @:14517 check:39977,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36169,h:2,d0:14518,d1:39978;
                                 ("begin", Expression<MethodOrOperator> @:14518 check:39978,op:0,dt:2,nt:9,next:14519,nextCheck:39979,str:54,h:0,d0:0,d1:0;
-                                    (____, Scope<Void> @:14519 check:39979,op:290,dt:4,nt:8,next:14522,nextCheck:39982,str:36181,h:2,d0:14520,d1:39980;
+                                    (____, BuiltinInvocation<Void> @:14519 check:39979,op:290,dt:4,nt:8,next:14522,nextCheck:39982,str:36181,h:2,d0:14520,d1:39980;
                                         ("ai_place", Expression<MethodOrOperator> @:14520 check:39980,op:290,dt:2,nt:9,next:14521,nextCheck:39981,str:14801,h:0,d0:0,d1:0;
                                             ("temple_ent_turrets_02/1", Expression<AI> @:14521 check:39981,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25808,h:0,d0:0,d1:49227;)))
-                                    (____, Scope<Void> @:14522 check:39982,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:36221,h:2,d0:14523,d1:39983;
+                                    (____, BuiltinInvocation<Void> @:14522 check:39982,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:36221,h:2,d0:14523,d1:39983;
                                         ("set", Expression<MethodOrOperator> @:14523 check:39983,op:4,dt:2,nt:9,next:14524,nextCheck:39984,str:1857,h:0,d0:0,d1:0;
                                             ("temple_ent_near_turret", VariableAccess<Short> @:14524 check:39984,op:65535,dt:7,nt:13,next:14525,nextCheck:39985,str:25715,h:0,d0:25,d1:0;
-                                                (____, Scope<Short> @:14525 check:39985,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:36249,h:2,d0:14526,d1:39986;
+                                                (____, BuiltinInvocation<Short> @:14525 check:39985,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:36249,h:2,d0:14526,d1:39986;
                                                     ("-", Expression<MethodOrOperator> @:14526 check:39986,op:8,dt:2,nt:9,next:14527,nextCheck:39987,str:2316,h:0,d0:0,d1:0;
                                                         ("temple_ent_near_turret", VariableAccess<Float> @:14527 check:39987,op:6,dt:6,nt:13,next:14528,nextCheck:39988,str:25715,h:0,d0:25,d1:0;
                                                             (1f, Expression<Float> @:14528 check:39988,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:36275,h:2,d0:0,d1:16256;)))))))))))
-                    (____, Scope<Void> @:14529 check:39989,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:36293,h:2,d0:14530,d1:39990;
+                    (____, BuiltinInvocation<Void> @:14529 check:39989,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:36293,h:2,d0:14530,d1:39990;
                         ("if", Expression<MethodOrOperator> @:14530 check:39990,op:2,dt:2,nt:9,next:14531,nextCheck:39991,str:509,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:14531 check:39991,op:15,dt:5,nt:8,next:14535,nextCheck:39995,str:36297,h:2,d0:14532,d1:39992;
+                            (____, BuiltinInvocation<Boolean> @:14531 check:39991,op:15,dt:5,nt:8,next:14535,nextCheck:39995,str:36297,h:2,d0:14532,d1:39992;
                                 (">", Expression<MethodOrOperator> @:14532 check:39992,op:15,dt:2,nt:9,next:14533,nextCheck:39993,str:14283,h:0,d0:0,d1:0;
                                     ("temple_ent_near_turret", VariableAccess<Short> @:14533 check:39993,op:0,dt:7,nt:13,next:14534,nextCheck:39994,str:25715,h:0,d0:25,d1:0;
                                         (0, Expression<Short> @:14534 check:39994,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:36323,h:2,d0:0,d1:65535;))))
-                            (____, Scope<Void> @:14535 check:39995,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36330,h:2,d0:14536,d1:39996;
+                            (____, BuiltinInvocation<Void> @:14535 check:39995,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36330,h:2,d0:14536,d1:39996;
                                 ("begin", Expression<MethodOrOperator> @:14536 check:39996,op:0,dt:2,nt:9,next:14537,nextCheck:39997,str:54,h:0,d0:0,d1:0;
-                                    (____, Scope<Void> @:14537 check:39997,op:290,dt:4,nt:8,next:14540,nextCheck:40000,str:36342,h:2,d0:14538,d1:39998;
+                                    (____, BuiltinInvocation<Void> @:14537 check:39997,op:290,dt:4,nt:8,next:14540,nextCheck:40000,str:36342,h:2,d0:14538,d1:39998;
                                         ("ai_place", Expression<MethodOrOperator> @:14538 check:39998,op:290,dt:2,nt:9,next:14539,nextCheck:39999,str:14801,h:0,d0:0,d1:0;
                                             ("temple_ent_turrets_02/2", Expression<AI> @:14539 check:39999,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25832,h:0,d0:1,d1:49227;)))
-                                    (____, Scope<Void> @:14540 check:40000,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:36382,h:2,d0:14541,d1:40001;
+                                    (____, BuiltinInvocation<Void> @:14540 check:40000,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:36382,h:2,d0:14541,d1:40001;
                                         ("set", Expression<MethodOrOperator> @:14541 check:40001,op:4,dt:2,nt:9,next:14542,nextCheck:40002,str:1857,h:0,d0:0,d1:0;
                                             ("temple_ent_near_turret", VariableAccess<Short> @:14542 check:40002,op:65535,dt:7,nt:13,next:14543,nextCheck:40003,str:25715,h:0,d0:25,d1:0;
-                                                (____, Scope<Short> @:14543 check:40003,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:36410,h:2,d0:14544,d1:40004;
+                                                (____, BuiltinInvocation<Short> @:14543 check:40003,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:36410,h:2,d0:14544,d1:40004;
                                                     ("-", Expression<MethodOrOperator> @:14544 check:40004,op:8,dt:2,nt:9,next:14545,nextCheck:40005,str:2316,h:0,d0:0,d1:0;
                                                         ("temple_ent_near_turret", VariableAccess<Float> @:14545 check:40005,op:6,dt:6,nt:13,next:14546,nextCheck:40006,str:25715,h:0,d0:25,d1:0;
                                                             (1f, Expression<Float> @:14546 check:40006,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:36436,h:2,d0:0,d1:16256;)))))))))))))
-            (____, Scope<Void> @:14547 check:40007,op:1,dt:4,nt:8,next:65535,nextCheck:65535,str:36457,h:2,d0:14548,d1:40008;
+            (____, BuiltinInvocation<Void> @:14547 check:40007,op:1,dt:4,nt:8,next:65535,nextCheck:65535,str:36457,h:2,d0:14548,d1:40008;
                 ("begin_random", Expression<MethodOrOperator> @:14548 check:40008,op:1,dt:2,nt:9,next:14549,nextCheck:40009,str:14521,h:0,d0:0,d1:0;
-                    (____, Scope<Void> @:14549 check:40009,op:2,dt:4,nt:8,next:14567,nextCheck:40027,str:36474,h:2,d0:14550,d1:40010;
+                    (____, BuiltinInvocation<Void> @:14549 check:40009,op:2,dt:4,nt:8,next:14567,nextCheck:40027,str:36474,h:2,d0:14550,d1:40010;
                         ("if", Expression<MethodOrOperator> @:14550 check:40010,op:2,dt:2,nt:9,next:14551,nextCheck:40011,str:509,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:14551 check:40011,op:15,dt:5,nt:8,next:14555,nextCheck:40015,str:36478,h:2,d0:14552,d1:40012;
+                            (____, BuiltinInvocation<Boolean> @:14551 check:40011,op:15,dt:5,nt:8,next:14555,nextCheck:40015,str:36478,h:2,d0:14552,d1:40012;
                                 (">", Expression<MethodOrOperator> @:14552 check:40012,op:15,dt:2,nt:9,next:14553,nextCheck:40013,str:14283,h:0,d0:0,d1:0;
                                     ("temple_ent_far_turret", VariableAccess<Short> @:14553 check:40013,op:0,dt:7,nt:13,next:14554,nextCheck:40014,str:25738,h:0,d0:26,d1:0;
                                         (0, Expression<Short> @:14554 check:40014,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:36503,h:2,d0:0,d1:65535;))))
-                            (____, Scope<Void> @:14555 check:40015,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36510,h:2,d0:14556,d1:40016;
+                            (____, BuiltinInvocation<Void> @:14555 check:40015,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36510,h:2,d0:14556,d1:40016;
                                 ("begin", Expression<MethodOrOperator> @:14556 check:40016,op:0,dt:2,nt:9,next:14557,nextCheck:40017,str:54,h:0,d0:0,d1:0;
-                                    (____, Scope<Void> @:14557 check:40017,op:290,dt:4,nt:8,next:14560,nextCheck:40020,str:36522,h:2,d0:14558,d1:40018;
+                                    (____, BuiltinInvocation<Void> @:14557 check:40017,op:290,dt:4,nt:8,next:14560,nextCheck:40020,str:36522,h:2,d0:14558,d1:40018;
                                         ("ai_place", Expression<MethodOrOperator> @:14558 check:40018,op:290,dt:2,nt:9,next:14559,nextCheck:40019,str:14801,h:0,d0:0,d1:0;
                                             ("temple_ent_turrets_03/1", Expression<AI> @:14559 check:40019,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25856,h:0,d0:0,d1:49228;)))
-                                    (____, Scope<Void> @:14560 check:40020,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:36562,h:2,d0:14561,d1:40021;
+                                    (____, BuiltinInvocation<Void> @:14560 check:40020,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:36562,h:2,d0:14561,d1:40021;
                                         ("set", Expression<MethodOrOperator> @:14561 check:40021,op:4,dt:2,nt:9,next:14562,nextCheck:40022,str:1857,h:0,d0:0,d1:0;
                                             ("temple_ent_far_turret", VariableAccess<Short> @:14562 check:40022,op:65535,dt:7,nt:13,next:14563,nextCheck:40023,str:25738,h:0,d0:26,d1:0;
-                                                (____, Scope<Short> @:14563 check:40023,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:36589,h:2,d0:14564,d1:40024;
+                                                (____, BuiltinInvocation<Short> @:14563 check:40023,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:36589,h:2,d0:14564,d1:40024;
                                                     ("-", Expression<MethodOrOperator> @:14564 check:40024,op:8,dt:2,nt:9,next:14565,nextCheck:40025,str:2316,h:0,d0:0,d1:0;
                                                         ("temple_ent_far_turret", VariableAccess<Float> @:14565 check:40025,op:6,dt:6,nt:13,next:14566,nextCheck:40026,str:25738,h:0,d0:26,d1:0;
                                                             (1f, Expression<Float> @:14566 check:40026,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:36614,h:2,d0:0,d1:16256;)))))))))))
-                    (____, Scope<Void> @:14567 check:40027,op:2,dt:4,nt:8,next:14585,nextCheck:40045,str:36632,h:2,d0:14568,d1:40028;
+                    (____, BuiltinInvocation<Void> @:14567 check:40027,op:2,dt:4,nt:8,next:14585,nextCheck:40045,str:36632,h:2,d0:14568,d1:40028;
                         ("if", Expression<MethodOrOperator> @:14568 check:40028,op:2,dt:2,nt:9,next:14569,nextCheck:40029,str:509,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:14569 check:40029,op:15,dt:5,nt:8,next:14573,nextCheck:40033,str:36636,h:2,d0:14570,d1:40030;
+                            (____, BuiltinInvocation<Boolean> @:14569 check:40029,op:15,dt:5,nt:8,next:14573,nextCheck:40033,str:36636,h:2,d0:14570,d1:40030;
                                 (">", Expression<MethodOrOperator> @:14570 check:40030,op:15,dt:2,nt:9,next:14571,nextCheck:40031,str:14283,h:0,d0:0,d1:0;
                                     ("temple_ent_far_turret", VariableAccess<Short> @:14571 check:40031,op:0,dt:7,nt:13,next:14572,nextCheck:40032,str:25738,h:0,d0:26,d1:0;
                                         (0, Expression<Short> @:14572 check:40032,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:36661,h:2,d0:0,d1:65535;))))
-                            (____, Scope<Void> @:14573 check:40033,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36668,h:2,d0:14574,d1:40034;
+                            (____, BuiltinInvocation<Void> @:14573 check:40033,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36668,h:2,d0:14574,d1:40034;
                                 ("begin", Expression<MethodOrOperator> @:14574 check:40034,op:0,dt:2,nt:9,next:14575,nextCheck:40035,str:54,h:0,d0:0,d1:0;
-                                    (____, Scope<Void> @:14575 check:40035,op:290,dt:4,nt:8,next:14578,nextCheck:40038,str:36680,h:2,d0:14576,d1:40036;
+                                    (____, BuiltinInvocation<Void> @:14575 check:40035,op:290,dt:4,nt:8,next:14578,nextCheck:40038,str:36680,h:2,d0:14576,d1:40036;
                                         ("ai_place", Expression<MethodOrOperator> @:14576 check:40036,op:290,dt:2,nt:9,next:14577,nextCheck:40037,str:14801,h:0,d0:0,d1:0;
                                             ("temple_ent_turrets_03/2", Expression<AI> @:14577 check:40037,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25880,h:0,d0:1,d1:49228;)))
-                                    (____, Scope<Void> @:14578 check:40038,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:36720,h:2,d0:14579,d1:40039;
+                                    (____, BuiltinInvocation<Void> @:14578 check:40038,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:36720,h:2,d0:14579,d1:40039;
                                         ("set", Expression<MethodOrOperator> @:14579 check:40039,op:4,dt:2,nt:9,next:14580,nextCheck:40040,str:1857,h:0,d0:0,d1:0;
                                             ("temple_ent_far_turret", VariableAccess<Short> @:14580 check:40040,op:65535,dt:7,nt:13,next:14581,nextCheck:40041,str:25738,h:0,d0:26,d1:0;
-                                                (____, Scope<Short> @:14581 check:40041,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:36747,h:2,d0:14582,d1:40042;
+                                                (____, BuiltinInvocation<Short> @:14581 check:40041,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:36747,h:2,d0:14582,d1:40042;
                                                     ("-", Expression<MethodOrOperator> @:14582 check:40042,op:8,dt:2,nt:9,next:14583,nextCheck:40043,str:2316,h:0,d0:0,d1:0;
                                                         ("temple_ent_far_turret", VariableAccess<Float> @:14583 check:40043,op:6,dt:6,nt:13,next:14584,nextCheck:40044,str:25738,h:0,d0:26,d1:0;
                                                             (1f, Expression<Float> @:14584 check:40044,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:36772,h:2,d0:0,d1:16256;)))))))))))
-                    (____, Scope<Void> @:14585 check:40045,op:2,dt:4,nt:8,next:14603,nextCheck:40063,str:36790,h:2,d0:14586,d1:40046;
+                    (____, BuiltinInvocation<Void> @:14585 check:40045,op:2,dt:4,nt:8,next:14603,nextCheck:40063,str:36790,h:2,d0:14586,d1:40046;
                         ("if", Expression<MethodOrOperator> @:14586 check:40046,op:2,dt:2,nt:9,next:14587,nextCheck:40047,str:509,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:14587 check:40047,op:15,dt:5,nt:8,next:14591,nextCheck:40051,str:36794,h:2,d0:14588,d1:40048;
+                            (____, BuiltinInvocation<Boolean> @:14587 check:40047,op:15,dt:5,nt:8,next:14591,nextCheck:40051,str:36794,h:2,d0:14588,d1:40048;
                                 (">", Expression<MethodOrOperator> @:14588 check:40048,op:15,dt:2,nt:9,next:14589,nextCheck:40049,str:14283,h:0,d0:0,d1:0;
                                     ("temple_ent_far_turret", VariableAccess<Short> @:14589 check:40049,op:0,dt:7,nt:13,next:14590,nextCheck:40050,str:25738,h:0,d0:26,d1:0;
                                         (0, Expression<Short> @:14590 check:40050,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:36819,h:2,d0:0,d1:65535;))))
-                            (____, Scope<Void> @:14591 check:40051,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36826,h:2,d0:14592,d1:40052;
+                            (____, BuiltinInvocation<Void> @:14591 check:40051,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36826,h:2,d0:14592,d1:40052;
                                 ("begin", Expression<MethodOrOperator> @:14592 check:40052,op:0,dt:2,nt:9,next:14593,nextCheck:40053,str:54,h:0,d0:0,d1:0;
-                                    (____, Scope<Void> @:14593 check:40053,op:290,dt:4,nt:8,next:14596,nextCheck:40056,str:36838,h:2,d0:14594,d1:40054;
+                                    (____, BuiltinInvocation<Void> @:14593 check:40053,op:290,dt:4,nt:8,next:14596,nextCheck:40056,str:36838,h:2,d0:14594,d1:40054;
                                         ("ai_place", Expression<MethodOrOperator> @:14594 check:40054,op:290,dt:2,nt:9,next:14595,nextCheck:40055,str:14801,h:0,d0:0,d1:0;
                                             ("temple_ent_turrets_04/1", Expression<AI> @:14595 check:40055,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25904,h:0,d0:0,d1:49229;)))
-                                    (____, Scope<Void> @:14596 check:40056,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:36878,h:2,d0:14597,d1:40057;
+                                    (____, BuiltinInvocation<Void> @:14596 check:40056,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:36878,h:2,d0:14597,d1:40057;
                                         ("set", Expression<MethodOrOperator> @:14597 check:40057,op:4,dt:2,nt:9,next:14598,nextCheck:40058,str:1857,h:0,d0:0,d1:0;
                                             ("temple_ent_far_turret", VariableAccess<Short> @:14598 check:40058,op:65535,dt:7,nt:13,next:14599,nextCheck:40059,str:25738,h:0,d0:26,d1:0;
-                                                (____, Scope<Short> @:14599 check:40059,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:36905,h:2,d0:14600,d1:40060;
+                                                (____, BuiltinInvocation<Short> @:14599 check:40059,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:36905,h:2,d0:14600,d1:40060;
                                                     ("-", Expression<MethodOrOperator> @:14600 check:40060,op:8,dt:2,nt:9,next:14601,nextCheck:40061,str:2316,h:0,d0:0,d1:0;
                                                         ("temple_ent_far_turret", VariableAccess<Float> @:14601 check:40061,op:6,dt:6,nt:13,next:14602,nextCheck:40062,str:25738,h:0,d0:26,d1:0;
                                                             (1f, Expression<Float> @:14602 check:40062,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:36930,h:2,d0:0,d1:16256;)))))))))))
-                    (____, Scope<Void> @:14603 check:40063,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:36948,h:2,d0:14604,d1:40064;
+                    (____, BuiltinInvocation<Void> @:14603 check:40063,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:36948,h:2,d0:14604,d1:40064;
                         ("if", Expression<MethodOrOperator> @:14604 check:40064,op:2,dt:2,nt:9,next:14605,nextCheck:40065,str:509,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:14605 check:40065,op:15,dt:5,nt:8,next:14609,nextCheck:40069,str:36952,h:2,d0:14606,d1:40066;
+                            (____, BuiltinInvocation<Boolean> @:14605 check:40065,op:15,dt:5,nt:8,next:14609,nextCheck:40069,str:36952,h:2,d0:14606,d1:40066;
                                 (">", Expression<MethodOrOperator> @:14606 check:40066,op:15,dt:2,nt:9,next:14607,nextCheck:40067,str:14283,h:0,d0:0,d1:0;
                                     ("temple_ent_far_turret", VariableAccess<Short> @:14607 check:40067,op:0,dt:7,nt:13,next:14608,nextCheck:40068,str:25738,h:0,d0:26,d1:0;
                                         (0, Expression<Short> @:14608 check:40068,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:36977,h:2,d0:0,d1:65535;))))
-                            (____, Scope<Void> @:14609 check:40069,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36984,h:2,d0:14610,d1:40070;
+                            (____, BuiltinInvocation<Void> @:14609 check:40069,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36984,h:2,d0:14610,d1:40070;
                                 ("begin", Expression<MethodOrOperator> @:14610 check:40070,op:0,dt:2,nt:9,next:14611,nextCheck:40071,str:54,h:0,d0:0,d1:0;
-                                    (____, Scope<Void> @:14611 check:40071,op:290,dt:4,nt:8,next:14614,nextCheck:40074,str:36996,h:2,d0:14612,d1:40072;
+                                    (____, BuiltinInvocation<Void> @:14611 check:40071,op:290,dt:4,nt:8,next:14614,nextCheck:40074,str:36996,h:2,d0:14612,d1:40072;
                                         ("ai_place", Expression<MethodOrOperator> @:14612 check:40072,op:290,dt:2,nt:9,next:14613,nextCheck:40073,str:14801,h:0,d0:0,d1:0;
                                             ("temple_ent_turrets_04/2", Expression<AI> @:14613 check:40073,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25928,h:0,d0:1,d1:49229;)))
-                                    (____, Scope<Void> @:14614 check:40074,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:37036,h:2,d0:14615,d1:40075;
+                                    (____, BuiltinInvocation<Void> @:14614 check:40074,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:37036,h:2,d0:14615,d1:40075;
                                         ("set", Expression<MethodOrOperator> @:14615 check:40075,op:4,dt:2,nt:9,next:14616,nextCheck:40076,str:1857,h:0,d0:0,d1:0;
                                             ("temple_ent_far_turret", VariableAccess<Short> @:14616 check:40076,op:65535,dt:7,nt:13,next:14617,nextCheck:40077,str:25738,h:0,d0:26,d1:0;
-                                                (____, Scope<Short> @:14617 check:40077,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:37063,h:2,d0:14618,d1:40078;
+                                                (____, BuiltinInvocation<Short> @:14617 check:40077,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:37063,h:2,d0:14618,d1:40078;
                                                     ("-", Expression<MethodOrOperator> @:14618 check:40078,op:8,dt:2,nt:9,next:14619,nextCheck:40079,str:2316,h:0,d0:0,d1:0;
                                                         ("temple_ent_far_turret", VariableAccess<Float> @:14619 check:40079,op:6,dt:6,nt:13,next:14620,nextCheck:40080,str:25738,h:0,d0:26,d1:0;
                                                             (1f, Expression<Float> @:14620 check:40080,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:37088,h:2,d0:0,d1:16256;))))))))))))))))

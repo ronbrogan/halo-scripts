@@ -1,22 +1,22 @@
 
 ("e11_pro_phantom0_1_retreat", MethodDecl<Boolean> @:370 check:0,op:0,dt:0,nt:65535,next:12930,nextCheck:38390,str:65535,h:0,d0:0,d1:0;
-    (____, Scope<Boolean> @:12930 check:38390,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:23846,h:2,d0:12931,d1:38391;
+    (____, BuiltinInvocation<Boolean> @:12930 check:38390,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:23846,h:2,d0:12931,d1:38391;
         ("begin", Expression<MethodOrOperator> @:12931 check:38391,op:0,dt:2,nt:9,next:12911,nextCheck:38371,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Boolean> @:12911 check:38371,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:23898,h:2,d0:12912,d1:38372;
+            (____, BuiltinInvocation<Boolean> @:12911 check:38371,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:23898,h:2,d0:12912,d1:38372;
                 ("or", Expression<MethodOrOperator> @:12912 check:38372,op:6,dt:2,nt:9,next:12913,nextCheck:38373,str:849,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:12913 check:38373,op:18,dt:5,nt:8,next:12921,nextCheck:38381,str:23920,h:2,d0:12914,d1:38374;
+                    (____, BuiltinInvocation<Boolean> @:12913 check:38373,op:18,dt:5,nt:8,next:12921,nextCheck:38381,str:23920,h:2,d0:12914,d1:38374;
                         ("<=", Expression<MethodOrOperator> @:12914 check:38374,op:18,dt:2,nt:9,next:12915,nextCheck:38375,str:6210,h:0,d0:0,d1:0;
-                            (-9.3783655E-26f, Scope<Float> @:12915 check:38375,op:69,dt:6,nt:8,next:12920,nextCheck:38380,str:23924,h:2,d0:12916,d1:38376;
+                            (-9.3783655E-26f, BuiltinInvocation<Float> @:12915 check:38375,op:69,dt:6,nt:8,next:12920,nextCheck:38380,str:23924,h:2,d0:12916,d1:38376;
                                 ("object_get_health", Expression<MethodOrOperator> @:12916 check:38376,op:69,dt:2,nt:9,next:12917,nextCheck:38377,str:854,h:0,d0:0,d1:0;
-                                    (____, Scope<Entity> @:12917 check:38377,op:340,dt:50,nt:8,next:65535,nextCheck:65535,str:23943,h:2,d0:12918,d1:38378;
+                                    (____, BuiltinInvocation<Entity> @:12917 check:38377,op:340,dt:50,nt:8,next:65535,nextCheck:65535,str:23943,h:2,d0:12918,d1:38378;
                                         ("ai_vehicle_get", Expression<MethodOrOperator> @:12918 check:38378,op:340,dt:2,nt:9,next:12919,nextCheck:38379,str:26765,h:0,d0:0,d1:0;
                                             ("e11_pro_phantom0_1/phantom0", Expression<AI> @:12919 check:38379,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29444,h:0,d0:0,d1:49232;)))))
                             (0.05f, Expression<Float> @:12920 check:38380,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:23989,h:2,d0:52429,d1:15692;)))
-                    (____, Scope<Boolean> @:12921 check:38381,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:24038,h:2,d0:12922,d1:38382;
+                    (____, BuiltinInvocation<Boolean> @:12921 check:38381,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:24038,h:2,d0:12922,d1:38382;
                         (">=", Expression<MethodOrOperator> @:12922 check:38382,op:17,dt:2,nt:9,next:12923,nextCheck:38383,str:676,h:0,d0:0,d1:0;
-                            (____, Scope<Short> @:12923 check:38383,op:83,dt:7,nt:8,next:12929,nextCheck:38389,str:24042,h:2,d0:12924,d1:38384;
+                            (____, BuiltinInvocation<Short> @:12923 check:38383,op:83,dt:7,nt:8,next:12929,nextCheck:38389,str:24042,h:2,d0:12924,d1:38384;
                                 ("object_model_targets_destroyed", Expression<MethodOrOperator> @:12924 check:38384,op:83,dt:2,nt:9,next:12925,nextCheck:38385,str:29400,h:0,d0:0,d1:0;
-                                    (____, Scope<Entity> @:12925 check:38385,op:340,dt:50,nt:8,next:12928,nextCheck:38388,str:24074,h:2,d0:12926,d1:38386;
+                                    (____, BuiltinInvocation<Entity> @:12925 check:38385,op:340,dt:50,nt:8,next:12928,nextCheck:38388,str:24074,h:2,d0:12926,d1:38386;
                                         ("ai_vehicle_get", Expression<MethodOrOperator> @:12926 check:38386,op:340,dt:2,nt:9,next:12927,nextCheck:38387,str:26765,h:0,d0:0,d1:0;
                                             ("e11_pro_phantom0_1/phantom0", Expression<AI> @:12927 check:38387,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29444,h:0,d0:0,d1:49232;)))
                                     ("target_front", Expression<StringId> @:12928 check:38388,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:29431,h:0,d0:5391,d1:3072;)))

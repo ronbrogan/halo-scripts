@@ -1,16 +1,16 @@
 
 ("x01_0320_pot", MethodDecl<Void> @:136 check:0,op:0,dt:0,nt:65535,next:7250,nextCheck:65477,str:12398,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:7250 check:65477,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:34751,h:1,d0:7251,d1:65478;
+    (____, BuiltinInvocation<Void> @:7250 check:65477,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:34751,h:1,d0:7251,d1:65478;
         ("begin", Expression<MethodOrOperator> @:7251 check:65478,op:0,dt:2,nt:9,next:7238,nextCheck:65465,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:7238 check:65465,op:19,dt:4,nt:8,next:7241,nextCheck:65468,str:34782,h:1,d0:7239,d1:65466;
+            (____, BuiltinInvocation<Void> @:7238 check:65465,op:19,dt:4,nt:8,next:7241,nextCheck:65468,str:34782,h:1,d0:7239,d1:65466;
                 ("sleep", Expression<MethodOrOperator> @:7239 check:65466,op:19,dt:2,nt:9,next:7240,nextCheck:65467,str:80,h:0,d0:0,d1:0;
                     (180, Expression<Short> @:7240 check:65467,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:34789,h:1,d0:180,d1:65535;)))
-            (____, Scope<Void> @:7241 check:65468,op:596,dt:4,nt:8,next:7246,nextCheck:65473,str:34796,h:1,d0:7242,d1:65469;
+            (____, BuiltinInvocation<Void> @:7241 check:65468,op:596,dt:4,nt:8,next:7246,nextCheck:65473,str:34796,h:1,d0:7242,d1:65469;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:7242 check:65469,op:596,dt:2,nt:9,next:7243,nextCheck:65470,str:3766,h:0,d0:0,d1:0;
                     ("sound\dialog\levels\01_spacestation\cinematic\x01_0320_pot", Expression<Sound> @:7243 check:65470,op:32,dt:32,nt:9,next:7244,nextCheck:65471,str:12339,h:0,d0:2233,d1:59951;
                         (4294967295, Expression<Entity> @:7244 check:65471,op:50,dt:50,nt:9,next:7245,nextCheck:65472,str:3840,h:0,d0:65535,d1:65535;
                             (1f, Expression<Float> @:7245 check:65472,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:34881,h:1,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:7246 check:65473,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:34886,h:1,d0:7247,d1:65474;
+            (____, BuiltinInvocation<Void> @:7246 check:65473,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:34886,h:1,d0:7247,d1:65474;
                 ("cinematic_subtitle", Expression<MethodOrOperator> @:7247 check:65474,op:562,dt:2,nt:9,next:7248,nextCheck:65475,str:5870,h:0,d0:0,d1:0;
                     ("x01_0320_pot", Expression<StringId> @:7248 check:65475,op:11,dt:11,nt:9,next:7249,nextCheck:65476,str:12398,h:0,d0:7925,d1:3072;
                         (4f, Expression<Float> @:7249 check:65476,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:34919,h:1,d0:0,d1:16512;)))))))

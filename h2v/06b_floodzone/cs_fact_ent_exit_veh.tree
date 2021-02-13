@@ -1,26 +1,26 @@
 
 ("cs_fact_ent_exit_veh", MethodDecl<Void> @:169 check:0,op:0,dt:0,nt:65535,next:5507,nextCheck:63734,str:15307,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:5507 check:63734,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:168,h:1,d0:5508,d1:63735;
+    (____, BuiltinInvocation<Void> @:5507 check:63734,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:168,h:1,d0:5508,d1:63735;
         ("begin", Expression<MethodOrOperator> @:5508 check:63735,op:0,dt:2,nt:9,next:5485,nextCheck:63712,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:5485 check:63712,op:449,dt:4,nt:8,next:5488,nextCheck:63715,str:214,h:1,d0:5486,d1:63713;
+            (____, BuiltinInvocation<Void> @:5485 check:63712,op:449,dt:4,nt:8,next:5488,nextCheck:63715,str:214,h:1,d0:5486,d1:63713;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:5486 check:63713,op:449,dt:2,nt:9,next:5487,nextCheck:63714,str:13791,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:5487 check:63714,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:246,h:1,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:5488 check:63715,op:391,dt:4,nt:8,next:5491,nextCheck:63718,str:254,h:1,d0:5489,d1:63716;
+            (____, BuiltinInvocation<Void> @:5488 check:63715,op:391,dt:4,nt:8,next:5491,nextCheck:63718,str:254,h:1,d0:5489,d1:63716;
                 ("cs_go_to_nearest", Expression<MethodOrOperator> @:5489 check:63716,op:391,dt:2,nt:9,next:5490,nextCheck:63717,str:13822,h:0,d0:0,d1:0;
                     ("crashed_fact_ent", Expression<SpatialPoint> @:5490 check:63717,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:13839,h:0,d0:65535,d1:28;)))
-            (____, Scope<Void> @:5491 check:63718,op:442,dt:4,nt:8,next:5494,nextCheck:63721,str:292,h:1,d0:5492,d1:63719;
+            (____, BuiltinInvocation<Void> @:5491 check:63718,op:442,dt:4,nt:8,next:5494,nextCheck:63721,str:292,h:1,d0:5492,d1:63719;
                 ("cs_enable_targeting", Expression<MethodOrOperator> @:5492 check:63719,op:442,dt:2,nt:9,next:5493,nextCheck:63720,str:13856,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:5493 check:63720,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:313,h:1,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:5494 check:63721,op:404,dt:4,nt:8,next:5497,nextCheck:63724,str:329,h:1,d0:5495,d1:63722;
+            (____, BuiltinInvocation<Void> @:5494 check:63721,op:404,dt:4,nt:8,next:5497,nextCheck:63724,str:329,h:1,d0:5495,d1:63722;
                 ("cs_shoot", Expression<MethodOrOperator> @:5495 check:63722,op:404,dt:2,nt:9,next:5496,nextCheck:63723,str:13876,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:5496 check:63723,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:339,h:1,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:5497 check:63724,op:334,dt:4,nt:8,next:5501,nextCheck:63728,str:355,h:1,d0:5498,d1:63725;
+            (____, BuiltinInvocation<Void> @:5497 check:63724,op:334,dt:4,nt:8,next:5501,nextCheck:63728,str:355,h:1,d0:5498,d1:63725;
                 ("ai_set_orders", Expression<MethodOrOperator> @:5498 check:63725,op:334,dt:2,nt:9,next:5499,nextCheck:63726,str:13885,h:0,d0:0,d1:0;
                     ("covenant", Expression<AI> @:5499 check:63726,op:19,dt:19,nt:9,next:5500,nextCheck:63727,str:10479,h:0,d0:0,d1:16384;
                         ("cov_follow_factory1", Expression<AIOrders> @:5500 check:63727,op:23,dt:23,nt:9,next:65535,nextCheck:65535,str:13899,h:0,d0:5,d1:0;))))
-            (____, Scope<Void> @:5501 check:63728,op:19,dt:4,nt:8,next:5504,nextCheck:63731,str:405,h:1,d0:5502,d1:63729;
+            (____, BuiltinInvocation<Void> @:5501 check:63728,op:19,dt:4,nt:8,next:5504,nextCheck:63731,str:405,h:1,d0:5502,d1:63729;
                 ("sleep", Expression<MethodOrOperator> @:5502 check:63729,op:19,dt:2,nt:9,next:5503,nextCheck:63730,str:85,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:5503 check:63730,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:412,h:1,d0:30,d1:65535;)))
-            (____, Scope<Void> @:5504 check:63731,op:350,dt:4,nt:8,next:65535,nextCheck:65535,str:418,h:1,d0:5505,d1:63732;
+            (____, BuiltinInvocation<Void> @:5504 check:63731,op:350,dt:4,nt:8,next:65535,nextCheck:65535,str:418,h:1,d0:5505,d1:63732;
                 ("ai_vehicle_exit", Expression<MethodOrOperator> @:5505 check:63732,op:350,dt:2,nt:9,next:5506,nextCheck:63733,str:13919,h:0,d0:0,d1:0;
                     ("covenant", Expression<AI> @:5506 check:63733,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:10479,h:0,d0:0,d1:16384;))))))

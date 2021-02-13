@@ -1,23 +1,23 @@
 
 ("c05_intra1", MethodDecl<Void> @:68 check:0,op:0,dt:0,nt:65535,next:1989,nextCheck:60216,str:32284,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:1989 check:60216,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:23390,h:0,d0:1990,d1:60217;
+    (____, BuiltinInvocation<Void> @:1989 check:60216,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:23390,h:0,d0:1990,d1:60217;
         ("begin", Expression<MethodOrOperator> @:1990 check:60217,op:0,dt:2,nt:9,next:1958,nextCheck:60185,str:142,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:1958 check:60185,op:530,dt:4,nt:8,next:1960,nextCheck:60187,str:23425,h:0,d0:1959,d1:60186;
+            (____, BuiltinInvocation<Void> @:1958 check:60185,op:530,dt:4,nt:8,next:1960,nextCheck:60187,str:23425,h:0,d0:1959,d1:60186;
                 ("texture_cache_flush", Expression<MethodOrOperator> @:1959 check:60186,op:530,dt:2,nt:9,next:65535,nextCheck:65535,str:5450,h:0,d0:0,d1:0;))
-            (____, Scope<Void> @:1960 check:60187,op:531,dt:4,nt:8,next:1962,nextCheck:60189,str:23449,h:0,d0:1961,d1:60188;
+            (____, BuiltinInvocation<Void> @:1960 check:60187,op:531,dt:4,nt:8,next:1962,nextCheck:60189,str:23449,h:0,d0:1961,d1:60188;
                 ("geometry_cache_flush", Expression<MethodOrOperator> @:1961 check:60188,op:531,dt:2,nt:9,next:65535,nextCheck:65535,str:5470,h:0,d0:0,d1:0;))
-            (____, Scope<Void> @:1962 check:60189,op:508,dt:4,nt:8,next:1965,nextCheck:60192,str:23477,h:0,d0:1963,d1:60190;
+            (____, BuiltinInvocation<Void> @:1962 check:60189,op:508,dt:4,nt:8,next:1965,nextCheck:60192,str:23477,h:0,d0:1963,d1:60190;
                 ("switch_bsp_by_name", Expression<MethodOrOperator> @:1963 check:60190,op:508,dt:2,nt:9,next:1964,nextCheck:60191,str:5491,h:0,d0:0,d1:0;
                     ("bsp_01", Expression<Bsp> @:1964 check:60191,op:26,dt:26,nt:9,next:65535,nextCheck:65535,str:5510,h:0,d0:0,d1:0;)))
-            (____, Scope<Void> @:1965 check:60192,op:19,dt:4,nt:8,next:1968,nextCheck:60195,str:23507,h:0,d0:1966,d1:60193;
+            (____, BuiltinInvocation<Void> @:1965 check:60192,op:19,dt:4,nt:8,next:1968,nextCheck:60195,str:23507,h:0,d0:1966,d1:60193;
                 ("sleep", Expression<MethodOrOperator> @:1966 check:60193,op:19,dt:2,nt:9,next:1967,nextCheck:60194,str:221,h:0,d0:0,d1:0;
                     (1, Expression<Short> @:1967 check:60194,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23514,h:0,d0:1,d1:65535;)))
-            (____, Scope<Void> @:1968 check:60195,op:614,dt:4,nt:8,next:1973,nextCheck:60200,str:23522,h:0,d0:1969,d1:60196;
+            (____, BuiltinInvocation<Void> @:1968 check:60195,op:614,dt:4,nt:8,next:1973,nextCheck:60200,str:23522,h:0,d0:1969,d1:60196;
                 ("sound_class_set_gain", Expression<MethodOrOperator> @:1969 check:60196,op:614,dt:2,nt:9,next:1970,nextCheck:60197,str:5517,h:0,d0:0,d1:0;
                     ("amb", Expression<String> @:1970 check:60197,op:9,dt:9,nt:9,next:1971,nextCheck:60198,str:5538,h:0,d0:20570,d1:11074;
                         (0f, Expression<Float> @:1971 check:60198,op:6,dt:6,nt:9,next:1972,nextCheck:60199,str:23548,h:0,d0:0,d1:0;
                             (0, Expression<Short> @:1972 check:60199,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23550,h:0,d0:0,d1:65535;)))))
-            (____, Scope<Void> @:1973 check:60200,op:614,dt:4,nt:8,next:1978,nextCheck:60205,str:23555,h:0,d0:1974,d1:60201;
+            (____, BuiltinInvocation<Void> @:1973 check:60200,op:614,dt:4,nt:8,next:1978,nextCheck:60205,str:23555,h:0,d0:1974,d1:60201;
                 ("sound_class_set_gain", Expression<MethodOrOperator> @:1974 check:60201,op:614,dt:2,nt:9,next:1975,nextCheck:60202,str:5517,h:0,d0:0,d1:0;
                     ("vehicle", Expression<String> @:1975 check:60202,op:9,dt:9,nt:9,next:1976,nextCheck:60203,str:5542,h:0,d0:20574,d1:11074;
                         (0f, Expression<Float> @:1976 check:60203,op:6,dt:6,nt:9,next:1977,nextCheck:60204,str:23585,h:0,d0:0,d1:0;
@@ -28,7 +28,7 @@
                 ("c05_intra1_scene_02", Expression<MethodOrOperator> @:1981 check:60208,op:59,dt:2,nt:9,next:65535,nextCheck:65535,str:5570,h:0,d0:0,d1:0;))
             ("c05_intra1_scene_03", ScriptInvocation<Void> @:1982 check:60209,op:67,dt:4,nt:10,next:1984,nextCheck:60211,str:23643,h:0,d0:1983,d1:60210;
                 ("c05_intra1_scene_03", Expression<MethodOrOperator> @:1983 check:60210,op:67,dt:2,nt:9,next:65535,nextCheck:65535,str:5590,h:0,d0:0,d1:0;))
-            (____, Scope<Void> @:1984 check:60211,op:614,dt:4,nt:8,next:65535,nextCheck:65535,str:23670,h:0,d0:1985,d1:60212;
+            (____, BuiltinInvocation<Void> @:1984 check:60211,op:614,dt:4,nt:8,next:65535,nextCheck:65535,str:23670,h:0,d0:1985,d1:60212;
                 ("sound_class_set_gain", Expression<MethodOrOperator> @:1985 check:60212,op:614,dt:2,nt:9,next:1986,nextCheck:60213,str:5517,h:0,d0:0,d1:0;
                     ("amb", Expression<String> @:1986 check:60213,op:9,dt:9,nt:9,next:1987,nextCheck:60214,str:5538,h:0,d0:20570,d1:11074;
                         (0f, Expression<Float> @:1987 check:60214,op:6,dt:6,nt:9,next:1988,nextCheck:60215,str:23696,h:0,d0:0,d1:0;

@@ -1,14 +1,14 @@
 
 ("c07_intra1_02_fov_01", MethodDecl<Void> @:173 check:0,op:0,dt:0,nt:65535,next:6094,nextCheck:64321,str:14879,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:6094 check:64321,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:15101,h:1,d0:6095,d1:64322;
+    (____, BuiltinInvocation<Void> @:6094 check:64321,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:15101,h:1,d0:6095,d1:64322;
         ("begin", Expression<MethodOrOperator> @:6095 check:64322,op:0,dt:2,nt:9,next:6084,nextCheck:64311,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:6084 check:64311,op:19,dt:4,nt:8,next:6087,nextCheck:64314,str:15140,h:1,d0:6085,d1:64312;
+            (____, BuiltinInvocation<Void> @:6084 check:64311,op:19,dt:4,nt:8,next:6087,nextCheck:64314,str:15140,h:1,d0:6085,d1:64312;
                 ("sleep", Expression<MethodOrOperator> @:6085 check:64312,op:19,dt:2,nt:9,next:6086,nextCheck:64313,str:80,h:0,d0:0,d1:0;
                     (347, Expression<Short> @:6086 check:64313,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:15147,h:1,d0:347,d1:65535;)))
-            (____, Scope<Void> @:6087 check:64314,op:27,dt:4,nt:8,next:6090,nextCheck:64317,str:15154,h:1,d0:6088,d1:64315;
+            (____, BuiltinInvocation<Void> @:6087 check:64314,op:27,dt:4,nt:8,next:6090,nextCheck:64317,str:15154,h:1,d0:6088,d1:64315;
                 ("print", Expression<MethodOrOperator> @:6088 check:64315,op:27,dt:2,nt:9,next:6089,nextCheck:64316,str:86,h:0,d0:0,d1:0;
                     ("fov change: 60 -> 8 over 20 ticks", Expression<String> @:6089 check:64316,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:14783,h:0,d0:391,d1:12543;)))
-            (____, Scope<Void> @:6090 check:64317,op:459,dt:4,nt:8,next:65535,nextCheck:65535,str:15200,h:1,d0:6091,d1:64318;
+            (____, BuiltinInvocation<Void> @:6090 check:64317,op:459,dt:4,nt:8,next:65535,nextCheck:65535,str:15200,h:1,d0:6091,d1:64318;
                 ("camera_set_field_of_view", Expression<MethodOrOperator> @:6091 check:64318,op:459,dt:2,nt:9,next:6092,nextCheck:64319,str:2171,h:0,d0:0,d1:0;
                     (8f, Expression<Float> @:6092 check:64319,op:6,dt:6,nt:9,next:6093,nextCheck:64320,str:15226,h:1,d0:0,d1:16640;
                         (20, Expression<Short> @:6093 check:64320,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:15228,h:1,d0:20,d1:65535;)))))))

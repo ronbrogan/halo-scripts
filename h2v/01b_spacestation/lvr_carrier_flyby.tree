@@ -1,41 +1,41 @@
 
 ("lvr_carrier_flyby", MethodDecl<Void> @:375 check:0,op:0,dt:0,nt:65535,next:17610,nextCheck:43070,str:41219,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:17610 check:43070,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:15244,h:3,d0:17611,d1:43071;
+    (____, BuiltinInvocation<Void> @:17610 check:43070,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:15244,h:3,d0:17611,d1:43071;
         ("begin", Expression<MethodOrOperator> @:17611 check:43071,op:0,dt:2,nt:9,next:17573,nextCheck:43033,str:11,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:17573 check:43033,op:46,dt:4,nt:8,next:17576,nextCheck:43036,str:15280,h:3,d0:17574,d1:43034;
+            (____, BuiltinInvocation<Void> @:17573 check:43033,op:46,dt:4,nt:8,next:17576,nextCheck:43036,str:15280,h:3,d0:17574,d1:43034;
                 ("object_create", Expression<MethodOrOperator> @:17574 check:43034,op:46,dt:2,nt:9,next:17575,nextCheck:43035,str:6847,h:0,d0:0,d1:0;
                     ("carrier_01", Expression<EntityIdentifier> @:17575 check:43035,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:23606,h:0,d0:2,d1:65535;)))
-            (____, Scope<Void> @:17576 check:43036,op:41,dt:4,nt:8,next:17581,nextCheck:43041,str:15309,h:3,d0:17577,d1:43037;
+            (____, BuiltinInvocation<Void> @:17576 check:43036,op:41,dt:4,nt:8,next:17581,nextCheck:43041,str:15309,h:3,d0:17577,d1:43037;
                 ("effect_new_on_object_marker", Expression<MethodOrOperator> @:17577 check:43037,op:41,dt:2,nt:9,next:17578,nextCheck:43038,str:7864,h:0,d0:0,d1:0;
                     ("effects\scenery\solids\human_fleet_ships_attack_carrier", Expression<Effect> @:17578 check:43038,op:33,dt:33,nt:9,next:17579,nextCheck:43039,str:40310,h:0,d0:4406,d1:62294;
                         (4294901762, Expression<Entity> @:17579 check:43039,op:56,dt:50,nt:9,next:17580,nextCheck:43040,str:23606,h:0,d0:2,d1:65535;
                             ("bow", Expression<StringId> @:17580 check:43040,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:40366,h:0,d0:8684,d1:768;)))))
-            (____, Scope<Void> @:17581 check:43041,op:186,dt:4,nt:8,next:17587,nextCheck:43047,str:15412,h:3,d0:17582,d1:43042;
+            (____, BuiltinInvocation<Void> @:17581 check:43041,op:186,dt:4,nt:8,next:17587,nextCheck:43047,str:15412,h:3,d0:17582,d1:43042;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:17582 check:43042,op:186,dt:2,nt:9,next:17583,nextCheck:43043,str:3726,h:0,d0:0,d1:0;
                     ("carrier_01", Expression<Scenery> @:17583 check:43043,op:61,dt:55,nt:9,next:17584,nextCheck:43044,str:23606,h:0,d0:2,d1:65535;
                         ("scenarios\objects\covenant\military\capital_ship\spacestation\spacestation", Expression<Animation> @:17584 check:43044,op:36,dt:36,nt:9,next:17585,nextCheck:43045,str:40370,h:0,d0:4417,d1:62305;
                             ("capital_ship_01", Expression<StringId> @:17585 check:43045,op:11,dt:11,nt:9,next:17586,nextCheck:43046,str:40445,h:0,d0:8292,d1:3840;
                                 (4294902063, Expression<Entity> @:17586 check:43046,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:40461,h:0,d0:303,d1:65535;))))))
-            (____, Scope<Void> @:17587 check:43047,op:596,dt:4,nt:8,next:17592,nextCheck:43052,str:15562,h:3,d0:17588,d1:43048;
+            (____, BuiltinInvocation<Void> @:17587 check:43047,op:596,dt:4,nt:8,next:17592,nextCheck:43052,str:15562,h:3,d0:17588,d1:43048;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:17588 check:43048,op:596,dt:2,nt:9,next:17589,nextCheck:43049,str:1446,h:0,d0:0,d1:0;
                     ("sound\ambience\spacestation\cap_ship_flyover", Expression<Sound> @:17589 check:43049,op:32,dt:32,nt:9,next:17590,nextCheck:43050,str:40467,h:0,d0:4418,d1:62306;
                         (4294902061, Expression<Entity> @:17590 check:43050,op:56,dt:50,nt:9,next:17591,nextCheck:43051,str:40512,h:0,d0:301,d1:65535;
                             (1f, Expression<Float> @:17591 check:43051,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:15643,h:3,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:17592 check:43052,op:19,dt:4,nt:8,next:17595,nextCheck:43055,str:15650,h:3,d0:17593,d1:43053;
+            (____, BuiltinInvocation<Void> @:17592 check:43052,op:19,dt:4,nt:8,next:17595,nextCheck:43055,str:15650,h:3,d0:17593,d1:43053;
                 ("sleep", Expression<MethodOrOperator> @:17593 check:43053,op:19,dt:2,nt:9,next:17594,nextCheck:43054,str:90,h:0,d0:0,d1:0;
                     (330, Expression<Short> @:17594 check:43054,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:15657,h:3,d0:330,d1:65535;)))
-            (____, Scope<Void> @:17595 check:43055,op:45,dt:4,nt:8,next:17598,nextCheck:43058,str:15664,h:3,d0:17596,d1:43056;
+            (____, BuiltinInvocation<Void> @:17595 check:43055,op:45,dt:4,nt:8,next:17598,nextCheck:43058,str:15664,h:3,d0:17596,d1:43056;
                 ("damage_players", Expression<MethodOrOperator> @:17596 check:43056,op:45,dt:2,nt:9,next:17597,nextCheck:43057,str:31114,h:0,d0:0,d1:0;
                     ("effects\damage_effects\carrier_flyby", Expression<DamageEffect> @:17597 check:43057,op:34,dt:34,nt:9,next:65535,nextCheck:65535,str:40527,h:0,d0:4419,d1:62307;)))
-            (____, Scope<Void> @:17598 check:43058,op:21,dt:4,nt:8,next:17607,nextCheck:43067,str:15722,h:3,d0:17599,d1:43059;
+            (____, BuiltinInvocation<Void> @:17598 check:43058,op:21,dt:4,nt:8,next:17607,nextCheck:43067,str:15722,h:3,d0:17599,d1:43059;
                 ("sleep_until", Expression<MethodOrOperator> @:17599 check:43059,op:21,dt:2,nt:9,next:17600,nextCheck:43060,str:241,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:17600 check:43060,op:13,dt:5,nt:8,next:17606,nextCheck:43066,str:15735,h:3,d0:17601,d1:43061;
+                    (____, BuiltinInvocation<Boolean> @:17600 check:43060,op:13,dt:5,nt:8,next:17606,nextCheck:43066,str:15735,h:3,d0:17601,d1:43061;
                         ("=", Expression<MethodOrOperator> @:17601 check:43061,op:13,dt:2,nt:9,next:17602,nextCheck:43062,str:306,h:0,d0:0,d1:0;
-                            (____, Scope<Short> @:17602 check:43062,op:190,dt:7,nt:8,next:17605,nextCheck:43065,str:15738,h:3,d0:17603,d1:43063;
+                            (____, BuiltinInvocation<Short> @:17602 check:43062,op:190,dt:7,nt:8,next:17605,nextCheck:43065,str:15738,h:3,d0:17603,d1:43063;
                                 ("scenery_get_animation_time", Expression<MethodOrOperator> @:17603 check:43063,op:190,dt:2,nt:9,next:17604,nextCheck:43064,str:40564,h:0,d0:0,d1:0;
                                     ("carrier_01", Expression<Scenery> @:17604 check:43064,op:61,dt:55,nt:9,next:65535,nextCheck:65535,str:23606,h:0,d0:2,d1:65535;)))
                             (0, Expression<Short> @:17605 check:43065,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:15778,h:3,d0:0,d1:65535;)))
                     (1, Expression<Short> @:17606 check:43066,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:15781,h:3,d0:1,d1:65535;)))
-            (____, Scope<Void> @:17607 check:43067,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:15786,h:3,d0:17608,d1:43068;
+            (____, BuiltinInvocation<Void> @:17607 check:43067,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:15786,h:3,d0:17608,d1:43068;
                 ("object_destroy", Expression<MethodOrOperator> @:17608 check:43068,op:52,dt:2,nt:9,next:17609,nextCheck:43069,str:2937,h:0,d0:0,d1:0;
                     (4294901762, Expression<Entity> @:17609 check:43069,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:23606,h:0,d0:2,d1:65535;))))))

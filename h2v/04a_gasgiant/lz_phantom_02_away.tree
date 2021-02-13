@@ -1,17 +1,17 @@
 
 ("lz_phantom_02_away", MethodDecl<Void> @:246 check:0,op:0,dt:0,nt:65535,next:8039,nextCheck:33499,str:19642,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:8039 check:33499,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:30268,h:1,d0:8040,d1:33500;
+    (____, BuiltinInvocation<Void> @:8039 check:33499,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:30268,h:1,d0:8040,d1:33500;
         ("begin", Expression<MethodOrOperator> @:8040 check:33500,op:0,dt:2,nt:9,next:8026,nextCheck:33486,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:8026 check:33486,op:449,dt:4,nt:8,next:8029,nextCheck:33489,str:30312,h:1,d0:8027,d1:33487;
+            (____, BuiltinInvocation<Void> @:8026 check:33486,op:449,dt:4,nt:8,next:8029,nextCheck:33489,str:30312,h:1,d0:8027,d1:33487;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:8027 check:33487,op:449,dt:2,nt:9,next:8028,nextCheck:33488,str:17375,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:8028 check:33488,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:30344,h:1,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:8029 check:33489,op:438,dt:4,nt:8,next:8032,nextCheck:33492,str:30352,h:1,d0:8030,d1:33490;
+            (____, BuiltinInvocation<Void> @:8029 check:33489,op:438,dt:4,nt:8,next:8032,nextCheck:33492,str:30352,h:1,d0:8030,d1:33490;
                 ("cs_vehicle_boost", Expression<MethodOrOperator> @:8030 check:33490,op:438,dt:2,nt:9,next:8031,nextCheck:33491,str:17406,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:8031 check:33491,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:30370,h:1,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:8032 check:33492,op:380,dt:4,nt:8,next:8036,nextCheck:33496,str:30378,h:1,d0:8033,d1:33493;
+            (____, BuiltinInvocation<Void> @:8032 check:33492,op:380,dt:4,nt:8,next:8036,nextCheck:33496,str:30378,h:1,d0:8033,d1:33493;
                 ("cs_fly_to", Expression<MethodOrOperator> @:8033 check:33493,op:380,dt:2,nt:9,next:8034,nextCheck:33494,str:17423,h:0,d0:0,d1:0;
                     ("airspace_lz/exit02", Expression<SpatialPoint> @:8034 check:33494,op:28,dt:28,nt:9,next:8035,nextCheck:33495,str:17478,h:0,d0:8,d1:0;
                         (20f, Expression<Float> @:8035 check:33495,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:30408,h:1,d0:0,d1:16800;))))
-            (____, Scope<Void> @:8036 check:33496,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:30414,h:1,d0:8037,d1:33497;
+            (____, BuiltinInvocation<Void> @:8036 check:33496,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:30414,h:1,d0:8037,d1:33497;
                 ("ai_erase", Expression<MethodOrOperator> @:8037 check:33497,op:298,dt:2,nt:9,next:8038,nextCheck:33498,str:17452,h:0,d0:0,d1:0;
                     ("ai_current_actor", VariableAccess<AI> @:8038 check:33498,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:17461,h:0,d0:33564,d1:65535;))))))

@@ -1,27 +1,27 @@
 
 ("cinematic_fld_inf0_1", MethodDecl<Void> @:247 check:0,op:0,dt:0,nt:65535,next:11187,nextCheck:36647,str:65535,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:11187 check:36647,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:13465,h:2,d0:11188,d1:36648;
+    (____, BuiltinInvocation<Void> @:11187 check:36647,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:13465,h:2,d0:11188,d1:36648;
         ("begin", Expression<MethodOrOperator> @:11188 check:36648,op:0,dt:2,nt:9,next:11164,nextCheck:36624,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:11164 check:36624,op:422,dt:4,nt:8,next:11167,nextCheck:36627,str:13511,h:2,d0:11165,d1:36625;
+            (____, BuiltinInvocation<Void> @:11164 check:36624,op:422,dt:4,nt:8,next:11167,nextCheck:36627,str:13511,h:2,d0:11165,d1:36625;
                 ("cs_movement_mode", Expression<MethodOrOperator> @:11165 check:36625,op:422,dt:2,nt:9,next:11166,nextCheck:36626,str:21575,h:0,d0:0,d1:0;
                     ("ai_movement_combat", VariableAccess<Short> @:11166 check:36626,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:23802,h:0,d0:33583,d1:65535;)))
-            (____, Scope<Void> @:11167 check:36627,op:449,dt:4,nt:8,next:11170,nextCheck:36630,str:13551,h:2,d0:11168,d1:36628;
+            (____, BuiltinInvocation<Void> @:11167 check:36627,op:449,dt:4,nt:8,next:11170,nextCheck:36630,str:13551,h:2,d0:11168,d1:36628;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:11168 check:36628,op:449,dt:2,nt:9,next:11169,nextCheck:36629,str:19702,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:11169 check:36629,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:13583,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:11170 check:36630,op:19,dt:4,nt:8,next:11173,nextCheck:36633,str:13591,h:2,d0:11171,d1:36631;
+            (____, BuiltinInvocation<Void> @:11170 check:36630,op:19,dt:4,nt:8,next:11173,nextCheck:36633,str:13591,h:2,d0:11171,d1:36631;
                 ("sleep", Expression<MethodOrOperator> @:11171 check:36631,op:19,dt:2,nt:9,next:11172,nextCheck:36632,str:80,h:0,d0:0,d1:0;
                     (1, Expression<Short> @:11172 check:36632,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:13598,h:2,d0:1,d1:65535;)))
-            (____, Scope<Void> @:11173 check:36633,op:79,dt:4,nt:8,next:11181,nextCheck:36641,str:13603,h:2,d0:11174,d1:36634;
+            (____, BuiltinInvocation<Void> @:11173 check:36633,op:79,dt:4,nt:8,next:11181,nextCheck:36641,str:13603,h:2,d0:11174,d1:36634;
                 ("object_set_velocity", Expression<MethodOrOperator> @:11174 check:36634,op:79,dt:2,nt:9,next:11175,nextCheck:36635,str:21841,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:11175 check:36635,op:284,dt:50,nt:8,next:11178,nextCheck:36638,str:13624,h:2,d0:11176,d1:36636;
+                    (____, BuiltinInvocation<Entity> @:11175 check:36635,op:284,dt:50,nt:8,next:11178,nextCheck:36638,str:13624,h:2,d0:11176,d1:36636;
                         ("ai_get_object", Expression<MethodOrOperator> @:11176 check:36636,op:284,dt:2,nt:9,next:11177,nextCheck:36637,str:9226,h:0,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:11177 check:36637,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:9240,h:0,d0:33564,d1:65535;)))
                     (4f, Expression<Float> @:11178 check:36638,op:6,dt:6,nt:9,next:11179,nextCheck:36639,str:13657,h:2,d0:0,d1:16512;
                         (0f, Expression<Float> @:11179 check:36639,op:6,dt:6,nt:9,next:11180,nextCheck:36640,str:13659,h:2,d0:0,d1:0;
                             (1f, Expression<Float> @:11180 check:36640,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:13661,h:2,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:11181 check:36641,op:385,dt:4,nt:8,next:11184,nextCheck:36644,str:13666,h:2,d0:11182,d1:36642;
+            (____, BuiltinInvocation<Void> @:11181 check:36641,op:385,dt:4,nt:8,next:11184,nextCheck:36644,str:13666,h:2,d0:11182,d1:36642;
                 ("cs_go_to", Expression<MethodOrOperator> @:11182 check:36642,op:385,dt:2,nt:9,next:11183,nextCheck:36643,str:20650,h:0,d0:0,d1:0;
                     ("cinematic_fld_inf0/p1", Expression<SpatialPoint> @:11183 check:36643,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:23843,h:0,d0:1,d1:12;)))
-            (____, Scope<Void> @:11184 check:36644,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:13701,h:2,d0:11185,d1:36645;
+            (____, BuiltinInvocation<Void> @:11184 check:36644,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:13701,h:2,d0:11185,d1:36645;
                 ("ai_erase", Expression<MethodOrOperator> @:11185 check:36645,op:298,dt:2,nt:9,next:11186,nextCheck:36646,str:13525,h:0,d0:0,d1:0;
                     ("ai_current_actor", VariableAccess<AI> @:11186 check:36646,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:9240,h:0,d0:33564,d1:65535;))))))

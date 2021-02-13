@@ -1,14 +1,14 @@
 
 ("ship_take_off_02", MethodDecl<Void> @:102 check:0,op:0,dt:0,nt:65535,next:3145,nextCheck:61372,str:8796,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:3145 check:61372,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:38649,h:0,d0:3146,d1:61373;
+    (____, BuiltinInvocation<Void> @:3145 check:61372,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:38649,h:0,d0:3146,d1:61373;
         ("begin", Expression<MethodOrOperator> @:3146 check:61373,op:0,dt:2,nt:9,next:3134,nextCheck:61361,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:3134 check:61361,op:19,dt:4,nt:8,next:3137,nextCheck:61364,str:38684,h:0,d0:3135,d1:61362;
+            (____, BuiltinInvocation<Void> @:3134 check:61361,op:19,dt:4,nt:8,next:3137,nextCheck:61364,str:38684,h:0,d0:3135,d1:61362;
                 ("sleep", Expression<MethodOrOperator> @:3135 check:61362,op:19,dt:2,nt:9,next:3136,nextCheck:61363,str:80,h:0,d0:0,d1:0;
                     (0, Expression<Short> @:3136 check:61363,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:38691,h:0,d0:0,d1:65535;)))
-            (____, Scope<Void> @:3137 check:61364,op:27,dt:4,nt:8,next:3140,nextCheck:61367,str:38696,h:0,d0:3138,d1:61365;
+            (____, BuiltinInvocation<Void> @:3137 check:61364,op:27,dt:4,nt:8,next:3140,nextCheck:61367,str:38696,h:0,d0:3138,d1:61365;
                 ("print", Expression<MethodOrOperator> @:3138 check:61365,op:27,dt:2,nt:9,next:3139,nextCheck:61366,str:86,h:0,d0:0,d1:0;
                     ("effect - take off 02", Expression<String> @:3139 check:61366,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8591,h:0,d0:42415,d1:11039;)))
-            (____, Scope<Void> @:3140 check:61367,op:41,dt:4,nt:8,next:65535,nextCheck:65535,str:38729,h:0,d0:3141,d1:61368;
+            (____, BuiltinInvocation<Void> @:3140 check:61367,op:41,dt:4,nt:8,next:65535,nextCheck:65535,str:38729,h:0,d0:3141,d1:61368;
                 ("effect_new_on_object_marker", Expression<MethodOrOperator> @:3141 check:61368,op:41,dt:2,nt:9,next:3142,nextCheck:61369,str:3497,h:0,d0:0,d1:0;
                     ("effects\objects\cinematics\forerunner_ship\initial_take_off_scale01", Expression<Effect> @:3142 check:61369,op:33,dt:33,nt:9,next:3143,nextCheck:61370,str:8612,h:0,d0:800,d1:58518;
                         (4294901826, Expression<Entity> @:3143 check:61370,op:56,dt:50,nt:9,next:3144,nextCheck:61371,str:6285,h:0,d0:66,d1:65535;

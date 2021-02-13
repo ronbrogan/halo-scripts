@@ -1,14 +1,14 @@
 
 ("music_03a_02_stop_alt", MethodDecl<Void> @:136 check:0,op:0,dt:0,nt:65535,next:4881,nextCheck:63108,str:10059,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:4881 check:63108,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:53472,h:0,d0:4882,d1:63109;
+    (____, BuiltinInvocation<Void> @:4881 check:63108,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:53472,h:0,d0:4882,d1:63109;
         ("begin", Expression<MethodOrOperator> @:4882 check:63109,op:0,dt:2,nt:9,next:4871,nextCheck:63098,str:64,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:4871 check:63098,op:19,dt:4,nt:8,next:4874,nextCheck:63101,str:53543,h:0,d0:4872,d1:63099;
+            (____, BuiltinInvocation<Void> @:4871 check:63098,op:19,dt:4,nt:8,next:4874,nextCheck:63101,str:53543,h:0,d0:4872,d1:63099;
                 ("sleep", Expression<MethodOrOperator> @:4872 check:63099,op:19,dt:2,nt:9,next:4873,nextCheck:63100,str:143,h:0,d0:0,d1:0;
                     ("two_minutes", VariableAccess<Short> @:4873 check:63100,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:9907,h:0,d0:8,d1:0;)))
-            (____, Scope<Void> @:4874 check:63101,op:27,dt:4,nt:8,next:4877,nextCheck:63104,str:53565,h:0,d0:4875,d1:63102;
+            (____, BuiltinInvocation<Void> @:4874 check:63101,op:27,dt:4,nt:8,next:4877,nextCheck:63104,str:53565,h:0,d0:4875,d1:63102;
                 ("print", Expression<MethodOrOperator> @:4875 check:63102,op:27,dt:2,nt:9,next:4876,nextCheck:63103,str:149,h:0,d0:0,d1:0;
                     ("music 03a_02 stop alt", Expression<String> @:4876 check:63103,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:9919,h:0,d0:37511,d1:12404;)))
-            (____, Scope<Void> @:4877 check:63104,op:609,dt:4,nt:8,next:65535,nextCheck:65535,str:53599,h:0,d0:4878,d1:63105;
+            (____, BuiltinInvocation<Void> @:4877 check:63104,op:609,dt:4,nt:8,next:65535,nextCheck:65535,str:53599,h:0,d0:4878,d1:63105;
                 ("sound_looping_set_alternate", Expression<MethodOrOperator> @:4878 check:63105,op:609,dt:2,nt:9,next:4879,nextCheck:63106,str:9941,h:0,d0:0,d1:0;
                     ("scenarios\solo\03a_oldmombasa\03a_music\03a_02", Expression<LoopingSound> @:4879 check:63106,op:35,dt:35,nt:9,next:4880,nextCheck:63107,str:9969,h:0,d0:7171,d1:65078;
                         (False, Expression<Boolean> @:4880 check:63107,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:53677,h:0,d0:65280,d1:65535;)))))))

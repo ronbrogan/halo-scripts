@@ -1,35 +1,35 @@
 
 ("heretic_uplink_01", MethodDecl<Void> @:266 check:0,op:0,dt:0,nt:65535,next:9621,nextCheck:35081,str:21607,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:9621 check:35081,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:47092,h:1,d0:9622,d1:35082;
+    (____, BuiltinInvocation<Void> @:9621 check:35081,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:47092,h:1,d0:9622,d1:35082;
         ("begin", Expression<MethodOrOperator> @:9622 check:35082,op:0,dt:2,nt:9,next:9590,nextCheck:35050,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:9590 check:35050,op:202,dt:4,nt:8,next:9603,nextCheck:35063,str:47128,h:1,d0:9591,d1:35051;
+            (____, BuiltinInvocation<Void> @:9590 check:35050,op:202,dt:4,nt:8,next:9603,nextCheck:35063,str:47128,h:1,d0:9591,d1:35051;
                 ("custom_animation_loop", Expression<MethodOrOperator> @:9591 check:35051,op:202,dt:2,nt:9,next:9592,nextCheck:35052,str:19511,h:0,d0:0,d1:0;
-                    (____, Scope<Unit> @:9592 check:35052,op:24,dt:51,nt:8,next:9600,nextCheck:35060,str:47151,h:1,d0:9593,d1:35053;
+                    (____, BuiltinInvocation<Unit> @:9592 check:35052,op:24,dt:51,nt:8,next:9600,nextCheck:35060,str:47151,h:1,d0:9593,d1:35053;
                         ("unit", Expression<MethodOrOperator> @:9593 check:35053,op:24,dt:2,nt:9,next:9594,nextCheck:35054,str:12,h:0,d0:0,d1:0;
-                            (____, Scope<Entity> @:9594 check:35054,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:47157,h:1,d0:9595,d1:35055;
+                            (____, BuiltinInvocation<Entity> @:9594 check:35054,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:47157,h:1,d0:9595,d1:35055;
                                 ("list_get", Expression<MethodOrOperator> @:9595 check:35055,op:37,dt:2,nt:9,next:9596,nextCheck:35056,str:17,h:0,d0:0,d1:0;
-                                    (____, Scope<List> @:9596 check:35056,op:332,dt:31,nt:8,next:9599,nextCheck:35059,str:47167,h:1,d0:9597,d1:35057;
+                                    (____, BuiltinInvocation<List> @:9596 check:35056,op:332,dt:31,nt:8,next:9599,nextCheck:35059,str:47167,h:1,d0:9597,d1:35057;
                                         ("ai_actors", Expression<MethodOrOperator> @:9597 check:35057,op:332,dt:2,nt:9,next:9598,nextCheck:35058,str:19055,h:0,d0:0,d1:0;
                                             ("rec_center_heretic_03", Expression<AI> @:9598 check:35058,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:20726,h:0,d0:11,d1:0;)))
                                     (0, Expression<Short> @:9599 check:35059,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:47201,h:1,d0:0,d1:65535;)))))
                     ("objects\characters\elite\elite", Expression<Animation> @:9600 check:35060,op:36,dt:36,nt:9,next:9601,nextCheck:35061,str:19533,h:0,d0:1528,d1:59246;
                         ("uplink_station", Expression<StringId> @:9601 check:35061,op:11,dt:11,nt:9,next:9602,nextCheck:35062,str:19564,h:0,d0:5165,d1:3584;
                             (True, Expression<Boolean> @:9602 check:35062,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:47253,h:1,d0:65281,d1:65535;)))))
-            (____, Scope<Void> @:9603 check:35063,op:21,dt:4,nt:8,next:9611,nextCheck:35071,str:47261,h:1,d0:9604,d1:35064;
+            (____, BuiltinInvocation<Void> @:9603 check:35063,op:21,dt:4,nt:8,next:9611,nextCheck:35071,str:47261,h:1,d0:9604,d1:35064;
                 ("sleep_until", Expression<MethodOrOperator> @:9604 check:35064,op:21,dt:2,nt:9,next:9605,nextCheck:35065,str:236,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:9605 check:35065,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:47274,h:1,d0:9606,d1:35066;
+                    (____, BuiltinInvocation<Boolean> @:9605 check:35065,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:47274,h:1,d0:9606,d1:35066;
                         (">", Expression<MethodOrOperator> @:9606 check:35066,op:15,dt:2,nt:9,next:9607,nextCheck:35067,str:14879,h:0,d0:0,d1:0;
-                            (____, Scope<Short> @:9607 check:35067,op:353,dt:7,nt:8,next:9610,nextCheck:35070,str:47277,h:1,d0:9608,d1:35068;
+                            (____, BuiltinInvocation<Short> @:9607 check:35067,op:353,dt:7,nt:8,next:9610,nextCheck:35070,str:47277,h:1,d0:9608,d1:35068;
                                 ("ai_combat_status", Expression<MethodOrOperator> @:9608 check:35068,op:353,dt:2,nt:9,next:9609,nextCheck:35069,str:14881,h:0,d0:0,d1:0;
                                     ("rec_center_heretic_03", Expression<AI> @:9609 check:35069,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:20726,h:0,d0:11,d1:0;)))
                             ("ai_combat_status_idle", VariableAccess<Short> @:9610 check:35070,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:20748,h:0,d0:33572,d1:65535;)))))
-            (____, Scope<Void> @:9611 check:35071,op:200,dt:4,nt:8,next:65535,nextCheck:65535,str:47344,h:1,d0:9612,d1:35072;
+            (____, BuiltinInvocation<Void> @:9611 check:35071,op:200,dt:4,nt:8,next:65535,nextCheck:65535,str:47344,h:1,d0:9612,d1:35072;
                 ("unit_stop_custom_animation", Expression<MethodOrOperator> @:9612 check:35072,op:200,dt:2,nt:9,next:9613,nextCheck:35073,str:19028,h:0,d0:0,d1:0;
-                    (____, Scope<Unit> @:9613 check:35073,op:24,dt:51,nt:8,next:65535,nextCheck:65535,str:47372,h:1,d0:9614,d1:35074;
+                    (____, BuiltinInvocation<Unit> @:9613 check:35073,op:24,dt:51,nt:8,next:65535,nextCheck:65535,str:47372,h:1,d0:9614,d1:35074;
                         ("unit", Expression<MethodOrOperator> @:9614 check:35074,op:24,dt:2,nt:9,next:9615,nextCheck:35075,str:12,h:0,d0:0,d1:0;
-                            (____, Scope<Entity> @:9615 check:35075,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:47378,h:1,d0:9616,d1:35076;
+                            (____, BuiltinInvocation<Entity> @:9615 check:35075,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:47378,h:1,d0:9616,d1:35076;
                                 ("list_get", Expression<MethodOrOperator> @:9616 check:35076,op:37,dt:2,nt:9,next:9617,nextCheck:35077,str:17,h:0,d0:0,d1:0;
-                                    (____, Scope<List> @:9617 check:35077,op:332,dt:31,nt:8,next:9620,nextCheck:35080,str:47388,h:1,d0:9618,d1:35078;
+                                    (____, BuiltinInvocation<List> @:9617 check:35077,op:332,dt:31,nt:8,next:9620,nextCheck:35080,str:47388,h:1,d0:9618,d1:35078;
                                         ("ai_actors", Expression<MethodOrOperator> @:9618 check:35078,op:332,dt:2,nt:9,next:9619,nextCheck:35079,str:19055,h:0,d0:0,d1:0;
                                             ("rec_center_heretic_03", Expression<AI> @:9619 check:35079,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:20726,h:0,d0:11,d1:0;)))
                                     (0, Expression<Short> @:9620 check:35080,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:47422,h:1,d0:0,d1:65535;))))))))))

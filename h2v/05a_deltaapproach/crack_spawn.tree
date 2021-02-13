@@ -1,28 +1,28 @@
 
 ("crack_spawn", MethodDecl<Void> @:247 check:0,op:0,dt:0,nt:65535,next:11565,nextCheck:37025,str:24330,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:11565 check:37025,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:5414,h:2,d0:11566,d1:37026;
+    (____, BuiltinInvocation<Void> @:11565 check:37025,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:5414,h:2,d0:11566,d1:37026;
         ("begin", Expression<MethodOrOperator> @:11566 check:37026,op:0,dt:2,nt:9,next:11541,nextCheck:37001,str:54,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:11541 check:37001,op:21,dt:4,nt:8,next:11549,nextCheck:37009,str:5444,h:2,d0:11542,d1:37002;
+            (____, BuiltinInvocation<Void> @:11541 check:37001,op:21,dt:4,nt:8,next:11549,nextCheck:37009,str:5444,h:2,d0:11542,d1:37002;
                 ("sleep_until", Expression<MethodOrOperator> @:11542 check:37002,op:21,dt:2,nt:9,next:11543,nextCheck:37003,str:284,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:11543 check:37003,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:5457,h:2,d0:11544,d1:37004;
+                    (____, BuiltinInvocation<Boolean> @:11543 check:37003,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:5457,h:2,d0:11544,d1:37004;
                         (">", Expression<MethodOrOperator> @:11544 check:37004,op:15,dt:2,nt:9,next:11545,nextCheck:37005,str:14283,h:0,d0:0,d1:0;
-                            (____, Scope<Short> @:11545 check:37005,op:353,dt:7,nt:8,next:11548,nextCheck:37008,str:5460,h:2,d0:11546,d1:37006;
+                            (____, BuiltinInvocation<Short> @:11545 check:37005,op:353,dt:7,nt:8,next:11548,nextCheck:37008,str:5460,h:2,d0:11546,d1:37006;
                                 ("ai_combat_status", Expression<MethodOrOperator> @:11546 check:37006,op:353,dt:2,nt:9,next:11547,nextCheck:37007,str:20549,h:0,d0:0,d1:0;
                                     ("bridge_enemies_bunker", Expression<AI> @:11547 check:37007,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:20748,h:0,d0:16,d1:16384;)))
                             ("ai_combat_status_idle", VariableAccess<Short> @:11548 check:37008,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:20583,h:0,d0:33572,d1:65535;)))))
-            (____, Scope<Void> @:11549 check:37009,op:2,dt:4,nt:8,next:11557,nextCheck:37017,str:5600,h:2,d0:11550,d1:37010;
+            (____, BuiltinInvocation<Void> @:11549 check:37009,op:2,dt:4,nt:8,next:11557,nextCheck:37017,str:5600,h:2,d0:11550,d1:37010;
                 ("if", Expression<MethodOrOperator> @:11550 check:37010,op:2,dt:2,nt:9,next:11551,nextCheck:37011,str:509,h:0,d0:0,d1:0;
                     ("difficulty_heroic", ScriptInvocation<Boolean> @:11551 check:37011,op:5,dt:5,nt:10,next:11553,nextCheck:37013,str:5604,h:2,d0:11552,d1:37012;
                         ("difficulty_heroic", Expression<MethodOrOperator> @:11552 check:37012,op:5,dt:2,nt:9,next:65535,nextCheck:65535,str:14765,h:0,d0:0,d1:0;))
-                    (____, Scope<Void> @:11553 check:37013,op:291,dt:4,nt:8,next:65535,nextCheck:65535,str:5627,h:2,d0:11554,d1:37014;
+                    (____, BuiltinInvocation<Void> @:11553 check:37013,op:291,dt:4,nt:8,next:65535,nextCheck:65535,str:5627,h:2,d0:11554,d1:37014;
                         ("ai_place", Expression<MethodOrOperator> @:11554 check:37014,op:291,dt:2,nt:9,next:11555,nextCheck:37015,str:14801,h:0,d0:0,d1:0;
                             ("bridge_crack_jackals", Expression<AI> @:11555 check:37015,op:19,dt:19,nt:9,next:11556,nextCheck:37016,str:22353,h:0,d0:48,d1:0;
                                 (1, Expression<Short> @:11556 check:37016,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:5658,h:2,d0:1,d1:65535;))))))
-            (____, Scope<Void> @:11557 check:37017,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:5667,h:2,d0:11558,d1:37018;
+            (____, BuiltinInvocation<Void> @:11557 check:37017,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:5667,h:2,d0:11558,d1:37018;
                 ("if", Expression<MethodOrOperator> @:11558 check:37018,op:2,dt:2,nt:9,next:11559,nextCheck:37019,str:509,h:0,d0:0,d1:0;
                     ("difficulty_normal", ScriptInvocation<Boolean> @:11559 check:37019,op:6,dt:5,nt:10,next:11561,nextCheck:37021,str:5671,h:2,d0:11560,d1:37020;
                         ("difficulty_normal", Expression<MethodOrOperator> @:11560 check:37020,op:6,dt:2,nt:9,next:65535,nextCheck:65535,str:14783,h:0,d0:0,d1:0;))
-                    (____, Scope<Void> @:11561 check:37021,op:291,dt:4,nt:8,next:65535,nextCheck:65535,str:5694,h:2,d0:11562,d1:37022;
+                    (____, BuiltinInvocation<Void> @:11561 check:37021,op:291,dt:4,nt:8,next:65535,nextCheck:65535,str:5694,h:2,d0:11562,d1:37022;
                         ("ai_place", Expression<MethodOrOperator> @:11562 check:37022,op:291,dt:2,nt:9,next:11563,nextCheck:37023,str:14801,h:0,d0:0,d1:0;
                             ("bridge_crack_jackals", Expression<AI> @:11563 check:37023,op:19,dt:19,nt:9,next:11564,nextCheck:37024,str:22353,h:0,d0:48,d1:0;
                                 (2, Expression<Short> @:11564 check:37024,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:5725,h:2,d0:2,d1:65535;)))))))))

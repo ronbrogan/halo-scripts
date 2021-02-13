@@ -1,39 +1,39 @@
 
 ("holo1_deleteme", MethodDecl<Void> @:358 check:0,op:0,dt:0,nt:65535,next:30413,nextCheck:55873,str:65535,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:30413 check:55873,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28338,h:4,d0:30414,d1:55874;
+    (____, BuiltinInvocation<Void> @:30413 check:55873,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28338,h:4,d0:30414,d1:55874;
         ("begin", Expression<MethodOrOperator> @:30414 check:55874,op:0,dt:2,nt:9,next:30378,nextCheck:55838,str:210,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:30378 check:55838,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:28371,h:4,d0:30379,d1:55839;
+            (____, BuiltinInvocation<Void> @:30378 check:55838,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:28371,h:4,d0:30379,d1:55839;
                 ("sleep_until", Expression<MethodOrOperator> @:30379 check:55839,op:21,dt:2,nt:9,next:30380,nextCheck:55840,str:440,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:30380 check:55840,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:28387,h:4,d0:30381,d1:55841;
+                    (____, BuiltinInvocation<Boolean> @:30380 check:55840,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:28387,h:4,d0:30381,d1:55841;
                         ("begin", Expression<MethodOrOperator> @:30381 check:55841,op:0,dt:2,nt:9,next:30382,nextCheck:55842,str:210,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:30382 check:55842,op:21,dt:4,nt:8,next:30396,nextCheck:55856,str:28398,h:4,d0:30383,d1:55843;
+                            (____, BuiltinInvocation<Void> @:30382 check:55842,op:21,dt:4,nt:8,next:30396,nextCheck:55856,str:28398,h:4,d0:30383,d1:55843;
                                 ("sleep_until", Expression<MethodOrOperator> @:30383 check:55843,op:21,dt:2,nt:9,next:30384,nextCheck:55844,str:440,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:30384 check:55844,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:28417,h:4,d0:30385,d1:55845;
+                                    (____, BuiltinInvocation<Boolean> @:30384 check:55844,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:28417,h:4,d0:30385,d1:55845;
                                         ("or", Expression<MethodOrOperator> @:30385 check:55845,op:6,dt:2,nt:9,next:30386,nextCheck:55846,str:1053,h:0,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:30386 check:55846,op:13,dt:5,nt:8,next:30392,nextCheck:55852,str:28427,h:4,d0:30387,d1:55847;
+                                            (____, BuiltinInvocation<Boolean> @:30386 check:55846,op:13,dt:5,nt:8,next:30392,nextCheck:55852,str:28427,h:4,d0:30387,d1:55847;
                                                 ("=", Expression<MethodOrOperator> @:30387 check:55847,op:13,dt:2,nt:9,next:30388,nextCheck:55848,str:505,h:0,d0:0,d1:0;
-                                                    (____, Scope<Short> @:30388 check:55848,op:327,dt:7,nt:8,next:30391,nextCheck:55851,str:28430,h:4,d0:30389,d1:55849;
+                                                    (____, BuiltinInvocation<Short> @:30388 check:55848,op:327,dt:7,nt:8,next:30391,nextCheck:55851,str:28430,h:4,d0:30389,d1:55849;
                                                         ("ai_living_count", Expression<MethodOrOperator> @:30389 check:55849,op:327,dt:2,nt:9,next:30390,nextCheck:55850,str:11564,h:0,d0:0,d1:0;
                                                             ("hl_boss_holo_random_01", Expression<AI> @:30390 check:55850,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:37680,h:0,d0:136,d1:0;)))
                                                     (0, Expression<Short> @:30391 check:55851,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28471,h:4,d0:0,d1:65535;)))
-                                            (____, Scope<Boolean> @:30392 check:55852,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:28480,h:4,d0:30393,d1:55853;
+                                            (____, BuiltinInvocation<Boolean> @:30392 check:55852,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:28480,h:4,d0:30393,d1:55853;
                                                 ("=", Expression<MethodOrOperator> @:30393 check:55853,op:13,dt:2,nt:9,next:30394,nextCheck:55854,str:505,h:0,d0:0,d1:0;
                                                     ("holo_drones_nuke", VariableAccess<Boolean> @:30394 check:55854,op:0,dt:5,nt:13,next:30395,nextCheck:55855,str:37703,h:0,d0:56,d1:0;
                                                         (True, Expression<Boolean> @:30395 check:55855,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:28500,h:4,d0:65281,d1:65535;))))))))
-                            (____, Scope<Void> @:30396 check:55856,op:77,dt:4,nt:8,next:30401,nextCheck:55861,str:28523,h:4,d0:30397,d1:55857;
+                            (____, BuiltinInvocation<Void> @:30396 check:55856,op:77,dt:4,nt:8,next:30401,nextCheck:55861,str:28523,h:4,d0:30397,d1:55857;
                                 ("object_set_scale", Expression<MethodOrOperator> @:30397 check:55857,op:77,dt:2,nt:9,next:30398,nextCheck:55858,str:3543,h:0,d0:0,d1:0;
                                     ("holo1", VariableAccess<Entity> @:30398 check:55858,op:50,dt:50,nt:13,next:30399,nextCheck:55859,str:37720,h:0,d0:51,d1:0;
                                         (0.1f, Expression<Float> @:30399 check:55859,op:6,dt:6,nt:9,next:30400,nextCheck:55860,str:28547,h:4,d0:52429,d1:15820;
                                             (30, Expression<Short> @:30400 check:55860,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28550,h:4,d0:30,d1:65535;)))))
-                            (____, Scope<Void> @:30401 check:55861,op:41,dt:4,nt:8,next:30406,nextCheck:55866,str:28558,h:4,d0:30402,d1:55862;
+                            (____, BuiltinInvocation<Void> @:30401 check:55861,op:41,dt:4,nt:8,next:30406,nextCheck:55866,str:28558,h:4,d0:30402,d1:55862;
                                 ("effect_new_on_object_marker", Expression<MethodOrOperator> @:30402 check:55862,op:41,dt:2,nt:9,next:30403,nextCheck:55863,str:7000,h:0,d0:0,d1:0;
                                     ("holo_death", VariableAccess<Effect> @:30403 check:55863,op:33,dt:33,nt:13,next:30404,nextCheck:55864,str:37726,h:0,d0:55,d1:0;
                                         ("holo1", VariableAccess<Entity> @:30404 check:55864,op:50,dt:50,nt:13,next:30405,nextCheck:55865,str:37720,h:0,d0:51,d1:0;
                                             ("body", Expression<StringId> @:30405 check:55865,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:8250,h:0,d0:189,d1:1024;)))))
-                            (____, Scope<Void> @:30406 check:55866,op:19,dt:4,nt:8,next:30409,nextCheck:55869,str:28616,h:4,d0:30407,d1:55867;
+                            (____, BuiltinInvocation<Void> @:30406 check:55866,op:19,dt:4,nt:8,next:30409,nextCheck:55869,str:28616,h:4,d0:30407,d1:55867;
                                 ("sleep", Expression<MethodOrOperator> @:30407 check:55867,op:19,dt:2,nt:9,next:30408,nextCheck:55868,str:289,h:0,d0:0,d1:0;
                                     (15, Expression<Short> @:30408 check:55868,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28623,h:4,d0:15,d1:65535;)))
-                            (____, Scope<Void> @:30409 check:55869,op:52,dt:4,nt:8,next:30412,nextCheck:55872,str:28631,h:4,d0:30410,d1:55870;
+                            (____, BuiltinInvocation<Void> @:30409 check:55869,op:52,dt:4,nt:8,next:30412,nextCheck:55872,str:28631,h:4,d0:30410,d1:55870;
                                 ("object_destroy", Expression<MethodOrOperator> @:30410 check:55870,op:52,dt:2,nt:9,next:30411,nextCheck:55871,str:4282,h:0,d0:0,d1:0;
                                     ("holo1", VariableAccess<Entity> @:30411 check:55871,op:50,dt:50,nt:13,next:65535,nextCheck:65535,str:37720,h:0,d0:51,d1:0;)))
                             (False, Expression<Boolean> @:30412 check:55872,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:28658,h:4,d0:65280,d1:65535;))))))))

@@ -1,17 +1,17 @@
 
 ("e3_cov_inf0_main", MethodDecl<Void> @:188 check:0,op:0,dt:0,nt:65535,next:6897,nextCheck:65124,str:13094,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:6897 check:65124,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:21576,h:1,d0:6898,d1:65125;
+    (____, BuiltinInvocation<Void> @:6897 check:65124,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:21576,h:1,d0:6898,d1:65125;
         ("begin", Expression<MethodOrOperator> @:6898 check:65125,op:0,dt:2,nt:9,next:6884,nextCheck:65111,str:64,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:6884 check:65111,op:309,dt:4,nt:8,next:6888,nextCheck:65115,str:21611,h:1,d0:6885,d1:65112;
+            (____, BuiltinInvocation<Void> @:6884 check:65111,op:309,dt:4,nt:8,next:6888,nextCheck:65115,str:21611,h:1,d0:6885,d1:65112;
                 ("ai_migrate", Expression<MethodOrOperator> @:6885 check:65112,op:309,dt:2,nt:9,next:6886,nextCheck:65113,str:8051,h:0,d0:0,d1:0;
                     ("e2_cov_inf0", Expression<AI> @:6886 check:65113,op:19,dt:19,nt:9,next:6887,nextCheck:65114,str:12979,h:0,d0:10,d1:0;
                         ("e3_cov_inf0", Expression<AI> @:6887 check:65114,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:12345,h:0,d0:18,d1:0;))))
-            (____, Scope<Void> @:6888 check:65115,op:317,dt:4,nt:8,next:6891,nextCheck:65118,str:21650,h:1,d0:6889,d1:65116;
+            (____, BuiltinInvocation<Void> @:6888 check:65115,op:317,dt:4,nt:8,next:6891,nextCheck:65118,str:21650,h:1,d0:6889,d1:65116;
                 ("ai_renew", Expression<MethodOrOperator> @:6889 check:65116,op:317,dt:2,nt:9,next:6890,nextCheck:65117,str:11869,h:0,d0:0,d1:0;
                     ("e3_cov_inf0", Expression<AI> @:6890 check:65117,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:12345,h:0,d0:18,d1:0;)))
-            (____, Scope<Void> @:6891 check:65118,op:366,dt:4,nt:8,next:65535,nextCheck:65535,str:21708,h:1,d0:6892,d1:65119;
+            (____, BuiltinInvocation<Void> @:6891 check:65118,op:366,dt:4,nt:8,next:65535,nextCheck:65535,str:21708,h:1,d0:6892,d1:65119;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:6892 check:65119,op:366,dt:2,nt:9,next:6893,nextCheck:65120,str:7427,h:0,d0:0,d1:0;
-                    (____, Scope<AI> @:6893 check:65120,op:336,dt:19,nt:8,next:6896,nextCheck:65123,str:21731,h:1,d0:6894,d1:65121;
+                    (____, BuiltinInvocation<AI> @:6893 check:65120,op:336,dt:19,nt:8,next:6896,nextCheck:65123,str:21731,h:1,d0:6894,d1:65121;
                         ("object_get_ai", Expression<MethodOrOperator> @:6894 check:65121,op:336,dt:2,nt:9,next:6895,nextCheck:65122,str:7344,h:0,d0:0,d1:0;
                             ("g_cov_stealth_major", VariableAccess<Entity> @:6895 check:65122,op:50,dt:50,nt:13,next:65535,nextCheck:65535,str:12991,h:0,d0:9,d1:0;)))
                     ("cs_e3_cov_stealth_major_charge", Expression<AIScript> @:6896 check:65123,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:13011,h:0,d0:183,d1:0;))))))

@@ -1,22 +1,22 @@
 
 ("doors_outro_04", MethodDecl<Void> @:229 check:0,op:0,dt:0,nt:65535,next:8854,nextCheck:34314,str:21791,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:8854 check:34314,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:42179,h:1,d0:8855,d1:34315;
+    (____, BuiltinInvocation<Void> @:8854 check:34314,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:42179,h:1,d0:8855,d1:34315;
         ("begin", Expression<MethodOrOperator> @:8855 check:34315,op:0,dt:2,nt:9,next:8836,nextCheck:34296,str:11,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:8836 check:34296,op:19,dt:4,nt:8,next:8839,nextCheck:34299,str:42214,h:1,d0:8837,d1:34297;
+            (____, BuiltinInvocation<Void> @:8836 check:34296,op:19,dt:4,nt:8,next:8839,nextCheck:34299,str:42214,h:1,d0:8837,d1:34297;
                 ("sleep", Expression<MethodOrOperator> @:8837 check:34297,op:19,dt:2,nt:9,next:8838,nextCheck:34298,str:90,h:0,d0:0,d1:0;
                     (300, Expression<Short> @:8838 check:34298,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:42221,h:1,d0:300,d1:65535;)))
-            (____, Scope<Void> @:8839 check:34299,op:256,dt:4,nt:8,next:8843,nextCheck:34303,str:42228,h:1,d0:8840,d1:34300;
+            (____, BuiltinInvocation<Void> @:8839 check:34299,op:256,dt:4,nt:8,next:8843,nextCheck:34303,str:42228,h:1,d0:8840,d1:34300;
                 ("device_set_position", Expression<MethodOrOperator> @:8840 check:34300,op:256,dt:2,nt:9,next:8841,nextCheck:34301,str:3025,h:0,d0:0,d1:0;
                     ("outro_door_02", Expression<Device> @:8841 check:34301,op:60,dt:54,nt:9,next:8842,nextCheck:34302,str:21541,h:0,d0:429,d1:65535;
                         (1f, Expression<Float> @:8842 check:34302,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:42263,h:1,d0:0,d1:16256;))))
-            (____, Scope<Void> @:8843 check:34303,op:19,dt:4,nt:8,next:8846,nextCheck:34306,str:42268,h:1,d0:8844,d1:34304;
+            (____, BuiltinInvocation<Void> @:8843 check:34303,op:19,dt:4,nt:8,next:8846,nextCheck:34306,str:42268,h:1,d0:8844,d1:34304;
                 ("sleep", Expression<MethodOrOperator> @:8844 check:34304,op:19,dt:2,nt:9,next:8845,nextCheck:34305,str:90,h:0,d0:0,d1:0;
                     (150, Expression<Short> @:8845 check:34305,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:42275,h:1,d0:150,d1:65535;)))
-            (____, Scope<Void> @:8846 check:34306,op:265,dt:4,nt:8,next:8850,nextCheck:34310,str:42282,h:1,d0:8847,d1:34307;
+            (____, BuiltinInvocation<Void> @:8846 check:34306,op:265,dt:4,nt:8,next:8850,nextCheck:34310,str:42282,h:1,d0:8847,d1:34307;
                 ("device_group_change_only_once_more_set", Expression<MethodOrOperator> @:8847 check:34307,op:265,dt:2,nt:9,next:8848,nextCheck:34308,str:20423,h:0,d0:0,d1:0;
                     ("outro_door_02", Expression<DeviceGroup> @:8848 check:34308,op:18,dt:18,nt:9,next:8849,nextCheck:34309,str:21541,h:0,d0:2,d1:58726;
                         (False, Expression<Boolean> @:8849 check:34309,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:42336,h:1,d0:65280,d1:65535;))))
-            (____, Scope<Void> @:8850 check:34310,op:256,dt:4,nt:8,next:65535,nextCheck:65535,str:42345,h:1,d0:8851,d1:34311;
+            (____, BuiltinInvocation<Void> @:8850 check:34310,op:256,dt:4,nt:8,next:65535,nextCheck:65535,str:42345,h:1,d0:8851,d1:34311;
                 ("device_set_position", Expression<MethodOrOperator> @:8851 check:34311,op:256,dt:2,nt:9,next:8852,nextCheck:34312,str:3025,h:0,d0:0,d1:0;
                     ("outro_door_02", Expression<Device> @:8852 check:34312,op:60,dt:54,nt:9,next:8853,nextCheck:34313,str:21541,h:0,d0:429,d1:65535;
                         (0f, Expression<Float> @:8853 check:34313,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:42380,h:1,d0:0,d1:0;)))))))

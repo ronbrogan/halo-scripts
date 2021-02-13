@@ -1,30 +1,30 @@
 
 ("x03_07_setup", MethodDecl<Void> @:163 check:0,op:0,dt:0,nt:65535,next:5272,nextCheck:63499,str:12099,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:5272 check:63499,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:62801,h:0,d0:5273,d1:63500;
+    (____, BuiltinInvocation<Void> @:5272 check:63499,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:62801,h:0,d0:5273,d1:63500;
         ("begin", Expression<MethodOrOperator> @:5273 check:63500,op:0,dt:2,nt:9,next:5246,nextCheck:63473,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:5246 check:63473,op:22,dt:4,nt:8,next:5249,nextCheck:63476,str:62839,h:0,d0:5247,d1:63474;
+            (____, BuiltinInvocation<Void> @:5246 check:63473,op:22,dt:4,nt:8,next:5249,nextCheck:63476,str:62839,h:0,d0:5247,d1:63474;
                 ("wake", Expression<MethodOrOperator> @:5247 check:63474,op:22,dt:2,nt:9,next:5248,nextCheck:63475,str:1071,h:0,d0:0,d1:0;
                     ("delete_iac", Expression<ScriptReference> @:5248 check:63475,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:11966,h:0,d0:161,d1:65535;)))
-            (____, Scope<Void> @:5249 check:63476,op:22,dt:4,nt:8,next:5252,nextCheck:63479,str:62859,h:0,d0:5250,d1:63477;
+            (____, BuiltinInvocation<Void> @:5249 check:63476,op:22,dt:4,nt:8,next:5252,nextCheck:63479,str:62859,h:0,d0:5250,d1:63477;
                 ("wake", Expression<MethodOrOperator> @:5250 check:63477,op:22,dt:2,nt:9,next:5251,nextCheck:63478,str:1071,h:0,d0:0,d1:0;
                     ("delete_carrier", Expression<ScriptReference> @:5251 check:63478,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:11977,h:0,d0:162,d1:65535;)))
-            (____, Scope<Void> @:5252 check:63479,op:22,dt:4,nt:8,next:5255,nextCheck:63482,str:62883,h:0,d0:5253,d1:63480;
+            (____, BuiltinInvocation<Void> @:5252 check:63479,op:22,dt:4,nt:8,next:5255,nextCheck:63482,str:62883,h:0,d0:5253,d1:63480;
                 ("wake", Expression<MethodOrOperator> @:5253 check:63480,op:22,dt:2,nt:9,next:5254,nextCheck:63481,str:1071,h:0,d0:0,d1:0;
                     ("effect_slipspace_collapse", Expression<ScriptReference> @:5254 check:63481,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:11992,h:0,d0:157,d1:65535;)))
-            (____, Scope<Void> @:5255 check:63482,op:22,dt:4,nt:8,next:5258,nextCheck:63485,str:62918,h:0,d0:5256,d1:63483;
+            (____, BuiltinInvocation<Void> @:5255 check:63482,op:22,dt:4,nt:8,next:5258,nextCheck:63485,str:62918,h:0,d0:5256,d1:63483;
                 ("wake", Expression<MethodOrOperator> @:5256 check:63483,op:22,dt:2,nt:9,next:5257,nextCheck:63484,str:1071,h:0,d0:0,d1:0;
                     ("effect_shockwave_start", Expression<ScriptReference> @:5257 check:63484,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:12018,h:0,d0:158,d1:65535;)))
-            (____, Scope<Void> @:5258 check:63485,op:22,dt:4,nt:8,next:5261,nextCheck:63488,str:62950,h:0,d0:5259,d1:63486;
+            (____, BuiltinInvocation<Void> @:5258 check:63485,op:22,dt:4,nt:8,next:5261,nextCheck:63488,str:62950,h:0,d0:5259,d1:63486;
                 ("wake", Expression<MethodOrOperator> @:5259 check:63486,op:22,dt:2,nt:9,next:5260,nextCheck:63487,str:1071,h:0,d0:0,d1:0;
                     ("shockwave_shake_01", Expression<ScriptReference> @:5260 check:63487,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:12041,h:0,d0:159,d1:65535;)))
-            (____, Scope<Void> @:5261 check:63488,op:41,dt:4,nt:8,next:5266,nextCheck:63493,str:62981,h:0,d0:5262,d1:63489;
+            (____, BuiltinInvocation<Void> @:5261 check:63488,op:41,dt:4,nt:8,next:5266,nextCheck:63493,str:62981,h:0,d0:5262,d1:63489;
                 ("effect_new_on_object_marker", Expression<MethodOrOperator> @:5262 check:63489,op:41,dt:2,nt:9,next:5263,nextCheck:63490,str:7254,h:0,d0:0,d1:0;
                     ("effects\cinematics\03\slipspace_widening", Expression<Effect> @:5263 check:63490,op:33,dt:33,nt:9,next:5264,nextCheck:63491,str:11046,h:0,d0:703,d1:58421;
                         (4294901762, Expression<Entity> @:5264 check:63491,op:56,dt:50,nt:9,next:5265,nextCheck:63492,str:9849,h:0,d0:2,d1:65535;
                             ("bow", Expression<StringId> @:5265 check:63492,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:9860,h:0,d0:4668,d1:768;)))))
-            (____, Scope<Void> @:5266 check:63493,op:22,dt:4,nt:8,next:5269,nextCheck:63496,str:63071,h:0,d0:5267,d1:63494;
+            (____, BuiltinInvocation<Void> @:5266 check:63493,op:22,dt:4,nt:8,next:5269,nextCheck:63496,str:63071,h:0,d0:5267,d1:63494;
                 ("wake", Expression<MethodOrOperator> @:5267 check:63494,op:22,dt:2,nt:9,next:5268,nextCheck:63495,str:1071,h:0,d0:0,d1:0;
                     ("x03_cinematic_lighting_07", Expression<ScriptReference> @:5268 check:63495,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:12060,h:0,d0:160,d1:65535;)))
-            (____, Scope<Void> @:5269 check:63496,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:63109,h:0,d0:5270,d1:63497;
+            (____, BuiltinInvocation<Void> @:5269 check:63496,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:63109,h:0,d0:5270,d1:63497;
                 ("wake", Expression<MethodOrOperator> @:5270 check:63497,op:22,dt:2,nt:9,next:5271,nextCheck:63498,str:1071,h:0,d0:0,d1:0;
                     ("x03_foley_07", Expression<ScriptReference> @:5271 check:63498,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:12086,h:0,d0:156,d1:65535;))))))

@@ -1,20 +1,20 @@
 
 ("dam_door_a", MethodDecl<Void> @:181 check:0,op:0,dt:0,nt:65535,next:7405,nextCheck:32865,str:16223,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:7405 check:32865,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:19576,h:1,d0:7406,d1:32866;
+    (____, BuiltinInvocation<Void> @:7405 check:32865,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:19576,h:1,d0:7406,d1:32866;
         ("begin", Expression<MethodOrOperator> @:7406 check:32866,op:0,dt:2,nt:9,next:7388,nextCheck:32848,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:7388 check:32848,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:19605,h:1,d0:7389,d1:32849;
+            (____, BuiltinInvocation<Void> @:7388 check:32848,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:19605,h:1,d0:7389,d1:32849;
                 ("sleep_until", Expression<MethodOrOperator> @:7389 check:32849,op:21,dt:2,nt:9,next:7390,nextCheck:32850,str:236,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:7390 check:32850,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:19621,h:1,d0:7391,d1:32851;
+                    (____, BuiltinInvocation<Boolean> @:7390 check:32850,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:19621,h:1,d0:7391,d1:32851;
                         ("begin", Expression<MethodOrOperator> @:7391 check:32851,op:0,dt:2,nt:9,next:7392,nextCheck:32852,str:6,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:7392 check:32852,op:21,dt:4,nt:8,next:7400,nextCheck:32860,str:19632,h:1,d0:7393,d1:32853;
+                            (____, BuiltinInvocation<Void> @:7392 check:32852,op:21,dt:4,nt:8,next:7400,nextCheck:32860,str:19632,h:1,d0:7393,d1:32853;
                                 ("sleep_until", Expression<MethodOrOperator> @:7393 check:32853,op:21,dt:2,nt:9,next:7394,nextCheck:32854,str:236,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:7394 check:32854,op:33,dt:5,nt:8,next:7399,nextCheck:32859,str:19645,h:1,d0:7395,d1:32855;
+                                    (____, BuiltinInvocation<Boolean> @:7394 check:32854,op:33,dt:5,nt:8,next:7399,nextCheck:32859,str:19645,h:1,d0:7395,d1:32855;
                                         ("volume_test_objects", Expression<MethodOrOperator> @:7395 check:32855,op:33,dt:2,nt:9,next:7396,nextCheck:32856,str:11049,h:0,d0:0,d1:0;
                                             ("tv_dam_door_a", Expression<Trigger> @:7396 check:32856,op:13,dt:13,nt:9,next:7397,nextCheck:32857,str:16209,h:0,d0:62,d1:0;
-                                                (____, Scope<List> @:7397 check:32857,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:19680,h:1,d0:7398,d1:32858;
+                                                (____, BuiltinInvocation<List> @:7397 check:32857,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:19680,h:1,d0:7398,d1:32858;
                                                     ("players", Expression<MethodOrOperator> @:7398 check:32858,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
                                     (5, Expression<Short> @:7399 check:32859,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:19691,h:1,d0:5,d1:65535;)))
-                            (____, Scope<Void> @:7400 check:32860,op:256,dt:4,nt:8,next:7404,nextCheck:32864,str:19698,h:1,d0:7401,d1:32861;
+                            (____, BuiltinInvocation<Void> @:7400 check:32860,op:256,dt:4,nt:8,next:7404,nextCheck:32864,str:19698,h:1,d0:7401,d1:32861;
                                 ("device_set_position", Expression<MethodOrOperator> @:7401 check:32861,op:256,dt:2,nt:9,next:7402,nextCheck:32862,str:4943,h:0,d0:0,d1:0;
                                     ("dam_door_a", Expression<Device> @:7402 check:32862,op:60,dt:54,nt:9,next:7403,nextCheck:32863,str:16223,h:0,d0:70,d1:65535;
                                         (1f, Expression<Float> @:7403 check:32863,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:19730,h:1,d0:0,d1:16256;))))

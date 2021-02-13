@@ -383,19 +383,19 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public ScenarioEntity<IDevice> hall2_spawn_01 { get; set; }
         public ScenarioEntity<IDevice> hangar_exit { get; set; }
         public ScenarioEntity<IDevice> tennis_ball { get; set; }
-        public ICameraPathTarget cam00 => Scenario.CameraPathTargets[0].GameObject;
-        public ICameraPathTarget cam01 => Scenario.CameraPathTargets[1].GameObject;
-        public ICameraPathTarget cam02 => Scenario.CameraPathTargets[2].GameObject;
-        public ICameraPathTarget cam03 => Scenario.CameraPathTargets[3].GameObject;
-        public ICameraPathTarget cam04 => Scenario.CameraPathTargets[4].GameObject;
-        public ICameraPathTarget cam05 => Scenario.CameraPathTargets[5].GameObject;
-        public ICameraPathTarget cam06 => Scenario.CameraPathTargets[6].GameObject;
-        public ICameraPathTarget cam07 => Scenario.CameraPathTargets[7].GameObject;
-        public ICameraPathTarget end00 => Scenario.CameraPathTargets[8].GameObject;
-        public ICameraPathTarget end01 => Scenario.CameraPathTargets[9].GameObject;
-        public ICameraPathTarget end02 => Scenario.CameraPathTargets[10].GameObject;
-        public ICameraPathTarget end03 => Scenario.CameraPathTargets[11].GameObject;
-        public ICameraPathTarget end04 => Scenario.CameraPathTargets[12].GameObject;
+        public ICameraPathTarget cam00 => Scenario.CameraPathTargets[0];
+        public ICameraPathTarget cam01 => Scenario.CameraPathTargets[1];
+        public ICameraPathTarget cam02 => Scenario.CameraPathTargets[2];
+        public ICameraPathTarget cam03 => Scenario.CameraPathTargets[3];
+        public ICameraPathTarget cam04 => Scenario.CameraPathTargets[4];
+        public ICameraPathTarget cam05 => Scenario.CameraPathTargets[5];
+        public ICameraPathTarget cam06 => Scenario.CameraPathTargets[6];
+        public ICameraPathTarget cam07 => Scenario.CameraPathTargets[7];
+        public ICameraPathTarget end00 => Scenario.CameraPathTargets[8];
+        public ICameraPathTarget end01 => Scenario.CameraPathTargets[9];
+        public ICameraPathTarget end02 => Scenario.CameraPathTargets[10];
+        public ICameraPathTarget end03 => Scenario.CameraPathTargets[11];
+        public ICameraPathTarget end04 => Scenario.CameraPathTargets[12];
         public Squad_disposal_commander disposal_commander { get; set; }
         public Squad_allies_elites_03a allies_elites_03a { get; set; }
         public Squad_allies_elites_03b allies_elites_03b { get; set; }
@@ -683,349 +683,349 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public IAiOrders hole_up => Scenario.AiOrderDefinitions[97].GameObject;
         public IAiOrders bait_halls => Scenario.AiOrderDefinitions[98].GameObject;
         public IAiOrders bait_bottling => Scenario.AiOrderDefinitions[99].GameObject;
-        public ILocationFlag cinematic_anchor => Scenario.LocationFlagDefinitions[0].GameObject;
-        public ILocationFlag cinematic_anchor02 => Scenario.LocationFlagDefinitions[1].GameObject;
-        public ILocationFlag cinematic_anchor03 => Scenario.LocationFlagDefinitions[2].GameObject;
-        public ILocationFlag player0_hide => Scenario.LocationFlagDefinitions[3].GameObject;
-        public ILocationFlag player1_hide => Scenario.LocationFlagDefinitions[4].GameObject;
-        public ILocationFlag research_player0 => Scenario.LocationFlagDefinitions[5].GameObject;
-        public ILocationFlag research_player1 => Scenario.LocationFlagDefinitions[6].GameObject;
-        public ILocationFlag silo_player0 => Scenario.LocationFlagDefinitions[7].GameObject;
-        public ILocationFlag silo_player1 => Scenario.LocationFlagDefinitions[8].GameObject;
-        public ILocationFlag silo_ally01 => Scenario.LocationFlagDefinitions[9].GameObject;
-        public ILocationFlag silo_ally02 => Scenario.LocationFlagDefinitions[10].GameObject;
-        public ILocationFlag lab_player0 => Scenario.LocationFlagDefinitions[11].GameObject;
-        public ILocationFlag lab_player1 => Scenario.LocationFlagDefinitions[12].GameObject;
-        public ILocationFlag lab_ally01 => Scenario.LocationFlagDefinitions[13].GameObject;
-        public ILocationFlag wraparound_player0 => Scenario.LocationFlagDefinitions[14].GameObject;
-        public ILocationFlag wraparound_player1 => Scenario.LocationFlagDefinitions[15].GameObject;
-        public ILocationFlag control_entry_player0 => Scenario.LocationFlagDefinitions[16].GameObject;
-        public ILocationFlag control_entry_player1 => Scenario.LocationFlagDefinitions[17].GameObject;
-        public ILocationFlag control_ally01 => Scenario.LocationFlagDefinitions[18].GameObject;
-        public ILocationFlag control_ally02 => Scenario.LocationFlagDefinitions[19].GameObject;
-        public ILocationFlag player0_control => Scenario.LocationFlagDefinitions[20].GameObject;
-        public ILocationFlag player1_control => Scenario.LocationFlagDefinitions[21].GameObject;
-        public ILocationFlag cableroom_player0 => Scenario.LocationFlagDefinitions[22].GameObject;
-        public ILocationFlag cableroom_player1 => Scenario.LocationFlagDefinitions[23].GameObject;
-        public ILocationFlag powercore_player0 => Scenario.LocationFlagDefinitions[24].GameObject;
-        public ILocationFlag powercore_player1 => Scenario.LocationFlagDefinitions[25].GameObject;
-        public ILocationFlag after_plummet_player0 => Scenario.LocationFlagDefinitions[26].GameObject;
-        public ILocationFlag after_plummet_player1 => Scenario.LocationFlagDefinitions[27].GameObject;
-        public ILocationFlag banshee_player0 => Scenario.LocationFlagDefinitions[28].GameObject;
-        public ILocationFlag banshee_player1 => Scenario.LocationFlagDefinitions[29].GameObject;
-        public ILocationFlag bottling_return_player0 => Scenario.LocationFlagDefinitions[30].GameObject;
-        public ILocationFlag bottling_return_player1 => Scenario.LocationFlagDefinitions[31].GameObject;
-        public ILocationFlag underhangar_return_player0 => Scenario.LocationFlagDefinitions[32].GameObject;
-        public ILocationFlag underhangar_return_player1 => Scenario.LocationFlagDefinitions[33].GameObject;
-        public ILocationFlag boss_player0 => Scenario.LocationFlagDefinitions[34].GameObject;
-        public ILocationFlag boss_player1 => Scenario.LocationFlagDefinitions[35].GameObject;
-        public ILocationFlag player0_hangar => Scenario.LocationFlagDefinitions[36].GameObject;
-        public ILocationFlag player1_hangar => Scenario.LocationFlagDefinitions[37].GameObject;
-        public ILocationFlag disposal_break_01 => Scenario.LocationFlagDefinitions[38].GameObject;
-        public ILocationFlag disposal_break_02 => Scenario.LocationFlagDefinitions[39].GameObject;
-        public ILocationFlag disposal_break_03 => Scenario.LocationFlagDefinitions[40].GameObject;
-        public ILocationFlag disposal_break_04 => Scenario.LocationFlagDefinitions[41].GameObject;
-        public ILocationFlag disposal_break_05 => Scenario.LocationFlagDefinitions[42].GameObject;
-        public ILocationFlag disposal_break_06 => Scenario.LocationFlagDefinitions[43].GameObject;
-        public ILocationFlag disposal_break_07 => Scenario.LocationFlagDefinitions[44].GameObject;
-        public ILocationFlag disposal_break_08 => Scenario.LocationFlagDefinitions[45].GameObject;
-        public ILocationFlag silo_boom_01_1 => Scenario.LocationFlagDefinitions[46].GameObject;
-        public ILocationFlag silo_boom_01_2 => Scenario.LocationFlagDefinitions[47].GameObject;
-        public ILocationFlag silo_boom_01_3 => Scenario.LocationFlagDefinitions[48].GameObject;
-        public ILocationFlag silo_boom_01_4 => Scenario.LocationFlagDefinitions[49].GameObject;
-        public ILocationFlag silo_boom_01_5 => Scenario.LocationFlagDefinitions[50].GameObject;
-        public ILocationFlag silo_boom_01_6 => Scenario.LocationFlagDefinitions[51].GameObject;
-        public ILocationFlag silo_boom_01_7 => Scenario.LocationFlagDefinitions[52].GameObject;
-        public ILocationFlag silo_boom_01_8 => Scenario.LocationFlagDefinitions[53].GameObject;
-        public ILocationFlag silo_boom_01_9 => Scenario.LocationFlagDefinitions[54].GameObject;
-        public ILocationFlag silo_boom_01_10 => Scenario.LocationFlagDefinitions[55].GameObject;
-        public ILocationFlag silo_boom_01_11 => Scenario.LocationFlagDefinitions[56].GameObject;
-        public ILocationFlag silo_boom_01_12 => Scenario.LocationFlagDefinitions[57].GameObject;
-        public ILocationFlag silo_boom_02_1 => Scenario.LocationFlagDefinitions[58].GameObject;
-        public ILocationFlag cutscene_flags_59 => Scenario.LocationFlagDefinitions[59].GameObject;
-        public ILocationFlag anchor_flag_intra0 => Scenario.LocationFlagDefinitions[60].GameObject;
-        public ILocationFlag evac_pt => Scenario.LocationFlagDefinitions[61].GameObject;
-        public ILocationFlag dogfight_1 => Scenario.LocationFlagDefinitions[62].GameObject;
-        public ILocationFlag dogfight_2 => Scenario.LocationFlagDefinitions[63].GameObject;
-        public ILocationFlag dogfight_3 => Scenario.LocationFlagDefinitions[64].GameObject;
-        public ILocationFlag dogfight_4 => Scenario.LocationFlagDefinitions[65].GameObject;
-        public ILocationFlag dogfight_5 => Scenario.LocationFlagDefinitions[66].GameObject;
-        public ILocationFlag dogfight_6 => Scenario.LocationFlagDefinitions[67].GameObject;
-        public ILocationFlag dervish_sticks_landing => Scenario.LocationFlagDefinitions[68].GameObject;
-        public ILocationFlag player0_hide2 => Scenario.LocationFlagDefinitions[69].GameObject;
-        public ILocationFlag player1_hide2 => Scenario.LocationFlagDefinitions[70].GameObject;
-        public ILocationFlag he_went_here => Scenario.LocationFlagDefinitions[71].GameObject;
-        public ILocationFlag bsp_0_2_safe => Scenario.LocationFlagDefinitions[72].GameObject;
-        public ILocationFlag soc_reborn => Scenario.LocationFlagDefinitions[73].GameObject;
-        public ILocationFlag _1 => Scenario.LocationFlagDefinitions[74].GameObject;
-        public ILocationFlag _2 => Scenario.LocationFlagDefinitions[75].GameObject;
-        public ILocationFlag _3 => Scenario.LocationFlagDefinitions[76].GameObject;
-        public ILocationFlag _4 => Scenario.LocationFlagDefinitions[77].GameObject;
-        public ILocationFlag _5 => Scenario.LocationFlagDefinitions[78].GameObject;
-        public ILocationFlag _6 => Scenario.LocationFlagDefinitions[79].GameObject;
-        public ILocationFlag _7 => Scenario.LocationFlagDefinitions[80].GameObject;
-        public ILocationFlag _8 => Scenario.LocationFlagDefinitions[81].GameObject;
-        public ILocationFlag _9 => Scenario.LocationFlagDefinitions[82].GameObject;
-        public ILocationFlag _10 => Scenario.LocationFlagDefinitions[83].GameObject;
-        public ILocationFlag _11 => Scenario.LocationFlagDefinitions[84].GameObject;
-        public ILocationFlag _12 => Scenario.LocationFlagDefinitions[85].GameObject;
-        public ILocationFlag _13 => Scenario.LocationFlagDefinitions[86].GameObject;
-        public ILocationFlag _14 => Scenario.LocationFlagDefinitions[87].GameObject;
-        public ILocationFlag _15 => Scenario.LocationFlagDefinitions[88].GameObject;
-        public ILocationFlag _16 => Scenario.LocationFlagDefinitions[89].GameObject;
-        public ILocationFlag _17 => Scenario.LocationFlagDefinitions[90].GameObject;
-        public ILocationFlag _18 => Scenario.LocationFlagDefinitions[91].GameObject;
-        public ILocationFlag _19 => Scenario.LocationFlagDefinitions[92].GameObject;
-        public ILocationFlag _20 => Scenario.LocationFlagDefinitions[93].GameObject;
-        public ILocationFlag _21 => Scenario.LocationFlagDefinitions[94].GameObject;
-        public ILocationFlag _22 => Scenario.LocationFlagDefinitions[95].GameObject;
-        public ILocationFlag _23 => Scenario.LocationFlagDefinitions[96].GameObject;
-        public ILocationFlag _25 => Scenario.LocationFlagDefinitions[97].GameObject;
-        public ILocationFlag _26 => Scenario.LocationFlagDefinitions[98].GameObject;
-        public ILocationFlag _27 => Scenario.LocationFlagDefinitions[99].GameObject;
-        public ILocationFlag _28 => Scenario.LocationFlagDefinitions[100].GameObject;
-        public ILocationFlag _24 => Scenario.LocationFlagDefinitions[101].GameObject;
-        public ILocationFlag _29 => Scenario.LocationFlagDefinitions[102].GameObject;
-        public ILocationFlag _30 => Scenario.LocationFlagDefinitions[103].GameObject;
-        public ILocationFlag _31 => Scenario.LocationFlagDefinitions[104].GameObject;
-        public ILocationFlag _32 => Scenario.LocationFlagDefinitions[105].GameObject;
-        public ILocationFlag _33 => Scenario.LocationFlagDefinitions[106].GameObject;
-        public ILocationFlag _34 => Scenario.LocationFlagDefinitions[107].GameObject;
-        public ILocationFlag _35 => Scenario.LocationFlagDefinitions[108].GameObject;
-        public ILocationFlag _36 => Scenario.LocationFlagDefinitions[109].GameObject;
-        public ILocationFlag _37 => Scenario.LocationFlagDefinitions[110].GameObject;
-        public ILocationFlag _39 => Scenario.LocationFlagDefinitions[111].GameObject;
-        public ILocationFlag _41 => Scenario.LocationFlagDefinitions[112].GameObject;
-        public ILocationFlag _40 => Scenario.LocationFlagDefinitions[113].GameObject;
-        public ILocationFlag _38 => Scenario.LocationFlagDefinitions[114].GameObject;
-        public ILocationFlag _42 => Scenario.LocationFlagDefinitions[115].GameObject;
-        public ILocationFlag _43 => Scenario.LocationFlagDefinitions[116].GameObject;
-        public ILocationFlag _44 => Scenario.LocationFlagDefinitions[117].GameObject;
-        public ILocationFlag _45 => Scenario.LocationFlagDefinitions[118].GameObject;
-        public ILocationFlag _46 => Scenario.LocationFlagDefinitions[119].GameObject;
-        public ILocationFlag _47 => Scenario.LocationFlagDefinitions[120].GameObject;
-        public ILocationFlag _48 => Scenario.LocationFlagDefinitions[121].GameObject;
-        public ILocationFlag _49 => Scenario.LocationFlagDefinitions[122].GameObject;
-        public ILocationFlag _50 => Scenario.LocationFlagDefinitions[123].GameObject;
-        public ILocationFlag _51 => Scenario.LocationFlagDefinitions[124].GameObject;
-        public ILocationFlag _52 => Scenario.LocationFlagDefinitions[125].GameObject;
-        public ILocationFlag _53 => Scenario.LocationFlagDefinitions[126].GameObject;
-        public ILocationFlag _54 => Scenario.LocationFlagDefinitions[127].GameObject;
-        public ILocationFlag _55 => Scenario.LocationFlagDefinitions[128].GameObject;
-        public ILocationFlag _56 => Scenario.LocationFlagDefinitions[129].GameObject;
-        public ILocationFlag _57 => Scenario.LocationFlagDefinitions[130].GameObject;
-        public ILocationFlag _58 => Scenario.LocationFlagDefinitions[131].GameObject;
-        public ILocationFlag _59 => Scenario.LocationFlagDefinitions[132].GameObject;
-        public ILocationFlag _60 => Scenario.LocationFlagDefinitions[133].GameObject;
-        public ILocationFlag _61 => Scenario.LocationFlagDefinitions[134].GameObject;
-        public ILocationFlag _62 => Scenario.LocationFlagDefinitions[135].GameObject;
-        public ILocationFlag _63 => Scenario.LocationFlagDefinitions[136].GameObject;
-        public ILocationFlag _64 => Scenario.LocationFlagDefinitions[137].GameObject;
-        public ILocationFlag _65 => Scenario.LocationFlagDefinitions[138].GameObject;
-        public ILocationFlag _66 => Scenario.LocationFlagDefinitions[139].GameObject;
-        public ILocationFlag _67 => Scenario.LocationFlagDefinitions[140].GameObject;
-        public ILocationFlag _68 => Scenario.LocationFlagDefinitions[141].GameObject;
-        public ILocationFlag _69 => Scenario.LocationFlagDefinitions[142].GameObject;
-        public ILocationFlag _70 => Scenario.LocationFlagDefinitions[143].GameObject;
-        public ILocationFlag _71 => Scenario.LocationFlagDefinitions[144].GameObject;
-        public ILocationFlag _72 => Scenario.LocationFlagDefinitions[145].GameObject;
-        public ILocationFlag _73 => Scenario.LocationFlagDefinitions[146].GameObject;
-        public ILocationFlag _74 => Scenario.LocationFlagDefinitions[147].GameObject;
-        public ILocationFlag _75 => Scenario.LocationFlagDefinitions[148].GameObject;
-        public ILocationFlag _76 => Scenario.LocationFlagDefinitions[149].GameObject;
-        public ILocationFlag _77 => Scenario.LocationFlagDefinitions[150].GameObject;
-        public ILocationFlag _78 => Scenario.LocationFlagDefinitions[151].GameObject;
-        public ILocationFlag _79 => Scenario.LocationFlagDefinitions[152].GameObject;
-        public ILocationFlag _80 => Scenario.LocationFlagDefinitions[153].GameObject;
-        public ILocationFlag _81 => Scenario.LocationFlagDefinitions[154].GameObject;
-        public ILocationFlag _82 => Scenario.LocationFlagDefinitions[155].GameObject;
-        public ILocationFlag _83 => Scenario.LocationFlagDefinitions[156].GameObject;
-        public ILocationFlag _84 => Scenario.LocationFlagDefinitions[157].GameObject;
-        public ILocationFlag _86 => Scenario.LocationFlagDefinitions[158].GameObject;
-        public ILocationFlag _85 => Scenario.LocationFlagDefinitions[159].GameObject;
-        public ILocationFlag _87 => Scenario.LocationFlagDefinitions[160].GameObject;
-        public ILocationFlag _88 => Scenario.LocationFlagDefinitions[161].GameObject;
-        public ILocationFlag _89 => Scenario.LocationFlagDefinitions[162].GameObject;
-        public ILocationFlag _90 => Scenario.LocationFlagDefinitions[163].GameObject;
-        public ILocationFlag _91 => Scenario.LocationFlagDefinitions[164].GameObject;
-        public ILocationFlag _92 => Scenario.LocationFlagDefinitions[165].GameObject;
-        public ILocationFlag _93 => Scenario.LocationFlagDefinitions[166].GameObject;
-        public ILocationFlag _94 => Scenario.LocationFlagDefinitions[167].GameObject;
-        public ILocationFlag _95 => Scenario.LocationFlagDefinitions[168].GameObject;
-        public ILocationFlag _96 => Scenario.LocationFlagDefinitions[169].GameObject;
-        public ILocationFlag _97 => Scenario.LocationFlagDefinitions[170].GameObject;
-        public ILocationFlag _98 => Scenario.LocationFlagDefinitions[171].GameObject;
-        public ILocationFlag _99 => Scenario.LocationFlagDefinitions[172].GameObject;
-        public ILocationFlag _100 => Scenario.LocationFlagDefinitions[173].GameObject;
-        public ILocationFlag _174 => Scenario.LocationFlagDefinitions[174].GameObject;
-        public ILocationFlag _175 => Scenario.LocationFlagDefinitions[175].GameObject;
-        public ILocationFlag _176 => Scenario.LocationFlagDefinitions[176].GameObject;
-        public ILocationFlag _177 => Scenario.LocationFlagDefinitions[177].GameObject;
-        public ILocationFlag _178 => Scenario.LocationFlagDefinitions[178].GameObject;
-        public ILocationFlag _179 => Scenario.LocationFlagDefinitions[179].GameObject;
-        public ILocationFlag _180 => Scenario.LocationFlagDefinitions[180].GameObject;
-        public ILocationFlag _181 => Scenario.LocationFlagDefinitions[181].GameObject;
-        public ILocationFlag _182 => Scenario.LocationFlagDefinitions[182].GameObject;
-        public ILocationFlag _183 => Scenario.LocationFlagDefinitions[183].GameObject;
-        public ILocationFlag _184 => Scenario.LocationFlagDefinitions[184].GameObject;
-        public ILocationFlag _185 => Scenario.LocationFlagDefinitions[185].GameObject;
-        public ILocationFlag _186 => Scenario.LocationFlagDefinitions[186].GameObject;
-        public ILocationFlag _187 => Scenario.LocationFlagDefinitions[187].GameObject;
-        public ILocationFlag _188 => Scenario.LocationFlagDefinitions[188].GameObject;
-        public ILocationFlag _189 => Scenario.LocationFlagDefinitions[189].GameObject;
-        public ILocationFlag _190 => Scenario.LocationFlagDefinitions[190].GameObject;
-        public ILocationFlag _191 => Scenario.LocationFlagDefinitions[191].GameObject;
-        public ILocationFlag _192 => Scenario.LocationFlagDefinitions[192].GameObject;
-        public ILocationFlag _193 => Scenario.LocationFlagDefinitions[193].GameObject;
-        public ILocationFlag _194 => Scenario.LocationFlagDefinitions[194].GameObject;
-        public ILocationFlag _195 => Scenario.LocationFlagDefinitions[195].GameObject;
-        public ILocationFlag _196 => Scenario.LocationFlagDefinitions[196].GameObject;
-        public ILocationFlag _197 => Scenario.LocationFlagDefinitions[197].GameObject;
-        public ILocationFlag _198 => Scenario.LocationFlagDefinitions[198].GameObject;
-        public ILocationFlag _199 => Scenario.LocationFlagDefinitions[199].GameObject;
-        public ILocationFlag _200 => Scenario.LocationFlagDefinitions[200].GameObject;
-        public ILocationFlag _201 => Scenario.LocationFlagDefinitions[201].GameObject;
-        public ILocationFlag _202 => Scenario.LocationFlagDefinitions[202].GameObject;
-        public ILocationFlag _203 => Scenario.LocationFlagDefinitions[203].GameObject;
-        public ILocationFlag _204 => Scenario.LocationFlagDefinitions[204].GameObject;
-        public ILocationFlag _205 => Scenario.LocationFlagDefinitions[205].GameObject;
-        public ILocationFlag _206 => Scenario.LocationFlagDefinitions[206].GameObject;
-        public ILocationFlag _207 => Scenario.LocationFlagDefinitions[207].GameObject;
-        public ILocationFlag _208 => Scenario.LocationFlagDefinitions[208].GameObject;
-        public ILocationFlag _209 => Scenario.LocationFlagDefinitions[209].GameObject;
-        public ILocationFlag _210 => Scenario.LocationFlagDefinitions[210].GameObject;
-        public ILocationFlag _211 => Scenario.LocationFlagDefinitions[211].GameObject;
-        public ILocationFlag _212 => Scenario.LocationFlagDefinitions[212].GameObject;
-        public ILocationFlag _213 => Scenario.LocationFlagDefinitions[213].GameObject;
-        public ILocationFlag _214 => Scenario.LocationFlagDefinitions[214].GameObject;
-        public ILocationFlag _215 => Scenario.LocationFlagDefinitions[215].GameObject;
-        public ILocationFlag _216 => Scenario.LocationFlagDefinitions[216].GameObject;
-        public ILocationFlag _217 => Scenario.LocationFlagDefinitions[217].GameObject;
-        public ILocationFlag _218 => Scenario.LocationFlagDefinitions[218].GameObject;
-        public ILocationFlag _219 => Scenario.LocationFlagDefinitions[219].GameObject;
-        public ILocationFlag _220 => Scenario.LocationFlagDefinitions[220].GameObject;
-        public ILocationFlag _221 => Scenario.LocationFlagDefinitions[221].GameObject;
-        public ILocationFlag _222 => Scenario.LocationFlagDefinitions[222].GameObject;
-        public ILocationFlag _223 => Scenario.LocationFlagDefinitions[223].GameObject;
-        public ILocationFlag _224 => Scenario.LocationFlagDefinitions[224].GameObject;
-        public ILocationFlag _225 => Scenario.LocationFlagDefinitions[225].GameObject;
-        public ILocationFlag _226 => Scenario.LocationFlagDefinitions[226].GameObject;
-        public ILocationFlag _227 => Scenario.LocationFlagDefinitions[227].GameObject;
-        public ILocationFlag _228 => Scenario.LocationFlagDefinitions[228].GameObject;
-        public ILocationFlag _229 => Scenario.LocationFlagDefinitions[229].GameObject;
-        public ILocationFlag _230 => Scenario.LocationFlagDefinitions[230].GameObject;
-        public ILocationFlag _231 => Scenario.LocationFlagDefinitions[231].GameObject;
-        public ILocationFlag _232 => Scenario.LocationFlagDefinitions[232].GameObject;
-        public ILocationFlag _233 => Scenario.LocationFlagDefinitions[233].GameObject;
-        public ILocationFlag _234 => Scenario.LocationFlagDefinitions[234].GameObject;
-        public ILocationFlag _235 => Scenario.LocationFlagDefinitions[235].GameObject;
-        public ILocationFlag _236 => Scenario.LocationFlagDefinitions[236].GameObject;
-        public ILocationFlag _237 => Scenario.LocationFlagDefinitions[237].GameObject;
-        public ILocationFlag _238 => Scenario.LocationFlagDefinitions[238].GameObject;
-        public ILocationFlag _239 => Scenario.LocationFlagDefinitions[239].GameObject;
-        public ILocationFlag _240 => Scenario.LocationFlagDefinitions[240].GameObject;
-        public ILocationFlag _241 => Scenario.LocationFlagDefinitions[241].GameObject;
-        public ILocationFlag _242 => Scenario.LocationFlagDefinitions[242].GameObject;
-        public ILocationFlag _243 => Scenario.LocationFlagDefinitions[243].GameObject;
-        public ILocationFlag _244 => Scenario.LocationFlagDefinitions[244].GameObject;
-        public ILocationFlag _245 => Scenario.LocationFlagDefinitions[245].GameObject;
-        public ILocationFlag _246 => Scenario.LocationFlagDefinitions[246].GameObject;
-        public ILocationFlag _247 => Scenario.LocationFlagDefinitions[247].GameObject;
-        public ILocationFlag _248 => Scenario.LocationFlagDefinitions[248].GameObject;
-        public ILocationFlag _249 => Scenario.LocationFlagDefinitions[249].GameObject;
-        public ILocationFlag _250 => Scenario.LocationFlagDefinitions[250].GameObject;
-        public ILocationFlag _251 => Scenario.LocationFlagDefinitions[251].GameObject;
-        public ILocationFlag _252 => Scenario.LocationFlagDefinitions[252].GameObject;
-        public ILocationFlag _253 => Scenario.LocationFlagDefinitions[253].GameObject;
-        public ILocationFlag _254 => Scenario.LocationFlagDefinitions[254].GameObject;
-        public ILocationFlag _255 => Scenario.LocationFlagDefinitions[255].GameObject;
-        public ILocationFlag _256 => Scenario.LocationFlagDefinitions[256].GameObject;
-        public ILocationFlag _257 => Scenario.LocationFlagDefinitions[257].GameObject;
-        public ILocationFlag _258 => Scenario.LocationFlagDefinitions[258].GameObject;
-        public ILocationFlag _259 => Scenario.LocationFlagDefinitions[259].GameObject;
-        public ILocationFlag _260 => Scenario.LocationFlagDefinitions[260].GameObject;
-        public ILocationFlag _261 => Scenario.LocationFlagDefinitions[261].GameObject;
-        public ILocationFlag _262 => Scenario.LocationFlagDefinitions[262].GameObject;
-        public ILocationFlag _263 => Scenario.LocationFlagDefinitions[263].GameObject;
-        public ILocationFlag _264 => Scenario.LocationFlagDefinitions[264].GameObject;
-        public ILocationFlag _265 => Scenario.LocationFlagDefinitions[265].GameObject;
-        public ILocationFlag _266 => Scenario.LocationFlagDefinitions[266].GameObject;
-        public ILocationFlag _267 => Scenario.LocationFlagDefinitions[267].GameObject;
-        public ILocationFlag _268 => Scenario.LocationFlagDefinitions[268].GameObject;
-        public ILocationFlag _269 => Scenario.LocationFlagDefinitions[269].GameObject;
-        public ILocationFlag _270 => Scenario.LocationFlagDefinitions[270].GameObject;
-        public ILocationFlag _271 => Scenario.LocationFlagDefinitions[271].GameObject;
-        public ILocationFlag _272 => Scenario.LocationFlagDefinitions[272].GameObject;
-        public ILocationFlag _273 => Scenario.LocationFlagDefinitions[273].GameObject;
-        public ILocationFlag _274 => Scenario.LocationFlagDefinitions[274].GameObject;
-        public ILocationFlag _275 => Scenario.LocationFlagDefinitions[275].GameObject;
-        public ILocationFlag _276 => Scenario.LocationFlagDefinitions[276].GameObject;
-        public ILocationFlag _277 => Scenario.LocationFlagDefinitions[277].GameObject;
-        public ILocationFlag _278 => Scenario.LocationFlagDefinitions[278].GameObject;
-        public ILocationFlag _279 => Scenario.LocationFlagDefinitions[279].GameObject;
-        public ILocationFlag _280 => Scenario.LocationFlagDefinitions[280].GameObject;
-        public ILocationFlag _281 => Scenario.LocationFlagDefinitions[281].GameObject;
-        public ILocationFlag _282 => Scenario.LocationFlagDefinitions[282].GameObject;
-        public ILocationFlag _283 => Scenario.LocationFlagDefinitions[283].GameObject;
-        public ILocationFlag _284 => Scenario.LocationFlagDefinitions[284].GameObject;
-        public ILocationFlag _285 => Scenario.LocationFlagDefinitions[285].GameObject;
-        public ILocationFlag _286 => Scenario.LocationFlagDefinitions[286].GameObject;
-        public ILocationFlag _287 => Scenario.LocationFlagDefinitions[287].GameObject;
-        public ILocationFlag _288 => Scenario.LocationFlagDefinitions[288].GameObject;
-        public ILocationFlag _289 => Scenario.LocationFlagDefinitions[289].GameObject;
-        public ILocationFlag _290 => Scenario.LocationFlagDefinitions[290].GameObject;
-        public ILocationFlag _291 => Scenario.LocationFlagDefinitions[291].GameObject;
-        public ILocationFlag _292 => Scenario.LocationFlagDefinitions[292].GameObject;
-        public ILocationFlag _293 => Scenario.LocationFlagDefinitions[293].GameObject;
-        public ILocationFlag _294 => Scenario.LocationFlagDefinitions[294].GameObject;
-        public ILocationFlag _295 => Scenario.LocationFlagDefinitions[295].GameObject;
-        public ILocationFlag _296 => Scenario.LocationFlagDefinitions[296].GameObject;
-        public ILocationFlag _297 => Scenario.LocationFlagDefinitions[297].GameObject;
-        public ILocationFlag _298 => Scenario.LocationFlagDefinitions[298].GameObject;
-        public ILocationFlag _299 => Scenario.LocationFlagDefinitions[299].GameObject;
-        public ILocationFlag _300 => Scenario.LocationFlagDefinitions[300].GameObject;
-        public ILocationFlag _301 => Scenario.LocationFlagDefinitions[301].GameObject;
-        public ILocationFlag _302 => Scenario.LocationFlagDefinitions[302].GameObject;
-        public ILocationFlag _303 => Scenario.LocationFlagDefinitions[303].GameObject;
-        public ILocationFlag _304 => Scenario.LocationFlagDefinitions[304].GameObject;
-        public ILocationFlag _305 => Scenario.LocationFlagDefinitions[305].GameObject;
-        public ILocationFlag _306 => Scenario.LocationFlagDefinitions[306].GameObject;
-        public ILocationFlag _307 => Scenario.LocationFlagDefinitions[307].GameObject;
-        public ILocationFlag _308 => Scenario.LocationFlagDefinitions[308].GameObject;
-        public ILocationFlag anchor_flag_seraph => Scenario.LocationFlagDefinitions[309].GameObject;
-        public ILocationFlag croom01 => Scenario.LocationFlagDefinitions[310].GameObject;
-        public ILocationFlag croom02 => Scenario.LocationFlagDefinitions[311].GameObject;
-        public ILocationFlag croom03 => Scenario.LocationFlagDefinitions[312].GameObject;
-        public ILocationFlag croom04 => Scenario.LocationFlagDefinitions[313].GameObject;
-        public ILocationFlag croom05 => Scenario.LocationFlagDefinitions[314].GameObject;
-        public ILocationFlag croom06 => Scenario.LocationFlagDefinitions[315].GameObject;
-        public ILocationFlag tear01 => Scenario.LocationFlagDefinitions[316].GameObject;
-        public ILocationFlag tear02 => Scenario.LocationFlagDefinitions[317].GameObject;
-        public ILocationFlag tear03 => Scenario.LocationFlagDefinitions[318].GameObject;
-        public ILocationFlag tear04 => Scenario.LocationFlagDefinitions[319].GameObject;
-        public ILocationFlag tear05 => Scenario.LocationFlagDefinitions[320].GameObject;
-        public ILocationFlag tear06 => Scenario.LocationFlagDefinitions[321].GameObject;
-        public ILocationFlag tear07 => Scenario.LocationFlagDefinitions[322].GameObject;
-        public ILocationFlag tear08 => Scenario.LocationFlagDefinitions[323].GameObject;
-        public ILocationFlag tear09 => Scenario.LocationFlagDefinitions[324].GameObject;
-        public ILocationFlag tear10 => Scenario.LocationFlagDefinitions[325].GameObject;
-        public ILocationFlag tear11 => Scenario.LocationFlagDefinitions[326].GameObject;
-        public ILocationFlag tear12 => Scenario.LocationFlagDefinitions[327].GameObject;
-        public ILocationFlag tear13 => Scenario.LocationFlagDefinitions[328].GameObject;
-        public ILocationFlag tear14 => Scenario.LocationFlagDefinitions[329].GameObject;
-        public ILocationFlag tear15 => Scenario.LocationFlagDefinitions[330].GameObject;
-        public ILocationFlag tear16 => Scenario.LocationFlagDefinitions[331].GameObject;
-        public ILocationFlag tear17 => Scenario.LocationFlagDefinitions[332].GameObject;
-        public ILocationFlag tear18 => Scenario.LocationFlagDefinitions[333].GameObject;
-        public ILocationFlag tear19 => Scenario.LocationFlagDefinitions[334].GameObject;
-        public ILocationFlag croom07 => Scenario.LocationFlagDefinitions[335].GameObject;
-        public ILocationFlag croom08 => Scenario.LocationFlagDefinitions[336].GameObject;
-        public ILocationFlag croom09 => Scenario.LocationFlagDefinitions[337].GameObject;
-        public ILocationFlag croom10 => Scenario.LocationFlagDefinitions[338].GameObject;
-        public ILocationFlag croom11 => Scenario.LocationFlagDefinitions[339].GameObject;
-        public ILocationFlag croom12 => Scenario.LocationFlagDefinitions[340].GameObject;
-        public ILocationFlag flag_shield_impact => Scenario.LocationFlagDefinitions[341].GameObject;
-        public ILocationFlag mine_holo => Scenario.LocationFlagDefinitions[342].GameObject;
+        public ILocationFlag cinematic_anchor => Scenario.LocationFlagDefinitions[0];
+        public ILocationFlag cinematic_anchor02 => Scenario.LocationFlagDefinitions[1];
+        public ILocationFlag cinematic_anchor03 => Scenario.LocationFlagDefinitions[2];
+        public ILocationFlag player0_hide => Scenario.LocationFlagDefinitions[3];
+        public ILocationFlag player1_hide => Scenario.LocationFlagDefinitions[4];
+        public ILocationFlag research_player0 => Scenario.LocationFlagDefinitions[5];
+        public ILocationFlag research_player1 => Scenario.LocationFlagDefinitions[6];
+        public ILocationFlag silo_player0 => Scenario.LocationFlagDefinitions[7];
+        public ILocationFlag silo_player1 => Scenario.LocationFlagDefinitions[8];
+        public ILocationFlag silo_ally01 => Scenario.LocationFlagDefinitions[9];
+        public ILocationFlag silo_ally02 => Scenario.LocationFlagDefinitions[10];
+        public ILocationFlag lab_player0 => Scenario.LocationFlagDefinitions[11];
+        public ILocationFlag lab_player1 => Scenario.LocationFlagDefinitions[12];
+        public ILocationFlag lab_ally01 => Scenario.LocationFlagDefinitions[13];
+        public ILocationFlag wraparound_player0 => Scenario.LocationFlagDefinitions[14];
+        public ILocationFlag wraparound_player1 => Scenario.LocationFlagDefinitions[15];
+        public ILocationFlag control_entry_player0 => Scenario.LocationFlagDefinitions[16];
+        public ILocationFlag control_entry_player1 => Scenario.LocationFlagDefinitions[17];
+        public ILocationFlag control_ally01 => Scenario.LocationFlagDefinitions[18];
+        public ILocationFlag control_ally02 => Scenario.LocationFlagDefinitions[19];
+        public ILocationFlag player0_control => Scenario.LocationFlagDefinitions[20];
+        public ILocationFlag player1_control => Scenario.LocationFlagDefinitions[21];
+        public ILocationFlag cableroom_player0 => Scenario.LocationFlagDefinitions[22];
+        public ILocationFlag cableroom_player1 => Scenario.LocationFlagDefinitions[23];
+        public ILocationFlag powercore_player0 => Scenario.LocationFlagDefinitions[24];
+        public ILocationFlag powercore_player1 => Scenario.LocationFlagDefinitions[25];
+        public ILocationFlag after_plummet_player0 => Scenario.LocationFlagDefinitions[26];
+        public ILocationFlag after_plummet_player1 => Scenario.LocationFlagDefinitions[27];
+        public ILocationFlag banshee_player0 => Scenario.LocationFlagDefinitions[28];
+        public ILocationFlag banshee_player1 => Scenario.LocationFlagDefinitions[29];
+        public ILocationFlag bottling_return_player0 => Scenario.LocationFlagDefinitions[30];
+        public ILocationFlag bottling_return_player1 => Scenario.LocationFlagDefinitions[31];
+        public ILocationFlag underhangar_return_player0 => Scenario.LocationFlagDefinitions[32];
+        public ILocationFlag underhangar_return_player1 => Scenario.LocationFlagDefinitions[33];
+        public ILocationFlag boss_player0 => Scenario.LocationFlagDefinitions[34];
+        public ILocationFlag boss_player1 => Scenario.LocationFlagDefinitions[35];
+        public ILocationFlag player0_hangar => Scenario.LocationFlagDefinitions[36];
+        public ILocationFlag player1_hangar => Scenario.LocationFlagDefinitions[37];
+        public ILocationFlag disposal_break_01 => Scenario.LocationFlagDefinitions[38];
+        public ILocationFlag disposal_break_02 => Scenario.LocationFlagDefinitions[39];
+        public ILocationFlag disposal_break_03 => Scenario.LocationFlagDefinitions[40];
+        public ILocationFlag disposal_break_04 => Scenario.LocationFlagDefinitions[41];
+        public ILocationFlag disposal_break_05 => Scenario.LocationFlagDefinitions[42];
+        public ILocationFlag disposal_break_06 => Scenario.LocationFlagDefinitions[43];
+        public ILocationFlag disposal_break_07 => Scenario.LocationFlagDefinitions[44];
+        public ILocationFlag disposal_break_08 => Scenario.LocationFlagDefinitions[45];
+        public ILocationFlag silo_boom_01_1 => Scenario.LocationFlagDefinitions[46];
+        public ILocationFlag silo_boom_01_2 => Scenario.LocationFlagDefinitions[47];
+        public ILocationFlag silo_boom_01_3 => Scenario.LocationFlagDefinitions[48];
+        public ILocationFlag silo_boom_01_4 => Scenario.LocationFlagDefinitions[49];
+        public ILocationFlag silo_boom_01_5 => Scenario.LocationFlagDefinitions[50];
+        public ILocationFlag silo_boom_01_6 => Scenario.LocationFlagDefinitions[51];
+        public ILocationFlag silo_boom_01_7 => Scenario.LocationFlagDefinitions[52];
+        public ILocationFlag silo_boom_01_8 => Scenario.LocationFlagDefinitions[53];
+        public ILocationFlag silo_boom_01_9 => Scenario.LocationFlagDefinitions[54];
+        public ILocationFlag silo_boom_01_10 => Scenario.LocationFlagDefinitions[55];
+        public ILocationFlag silo_boom_01_11 => Scenario.LocationFlagDefinitions[56];
+        public ILocationFlag silo_boom_01_12 => Scenario.LocationFlagDefinitions[57];
+        public ILocationFlag silo_boom_02_1 => Scenario.LocationFlagDefinitions[58];
+        public ILocationFlag cutscene_flags_59 => Scenario.LocationFlagDefinitions[59];
+        public ILocationFlag anchor_flag_intra0 => Scenario.LocationFlagDefinitions[60];
+        public ILocationFlag evac_pt => Scenario.LocationFlagDefinitions[61];
+        public ILocationFlag dogfight_1 => Scenario.LocationFlagDefinitions[62];
+        public ILocationFlag dogfight_2 => Scenario.LocationFlagDefinitions[63];
+        public ILocationFlag dogfight_3 => Scenario.LocationFlagDefinitions[64];
+        public ILocationFlag dogfight_4 => Scenario.LocationFlagDefinitions[65];
+        public ILocationFlag dogfight_5 => Scenario.LocationFlagDefinitions[66];
+        public ILocationFlag dogfight_6 => Scenario.LocationFlagDefinitions[67];
+        public ILocationFlag dervish_sticks_landing => Scenario.LocationFlagDefinitions[68];
+        public ILocationFlag player0_hide2 => Scenario.LocationFlagDefinitions[69];
+        public ILocationFlag player1_hide2 => Scenario.LocationFlagDefinitions[70];
+        public ILocationFlag he_went_here => Scenario.LocationFlagDefinitions[71];
+        public ILocationFlag bsp_0_2_safe => Scenario.LocationFlagDefinitions[72];
+        public ILocationFlag soc_reborn => Scenario.LocationFlagDefinitions[73];
+        public ILocationFlag _1 => Scenario.LocationFlagDefinitions[74];
+        public ILocationFlag _2 => Scenario.LocationFlagDefinitions[75];
+        public ILocationFlag _3 => Scenario.LocationFlagDefinitions[76];
+        public ILocationFlag _4 => Scenario.LocationFlagDefinitions[77];
+        public ILocationFlag _5 => Scenario.LocationFlagDefinitions[78];
+        public ILocationFlag _6 => Scenario.LocationFlagDefinitions[79];
+        public ILocationFlag _7 => Scenario.LocationFlagDefinitions[80];
+        public ILocationFlag _8 => Scenario.LocationFlagDefinitions[81];
+        public ILocationFlag _9 => Scenario.LocationFlagDefinitions[82];
+        public ILocationFlag _10 => Scenario.LocationFlagDefinitions[83];
+        public ILocationFlag _11 => Scenario.LocationFlagDefinitions[84];
+        public ILocationFlag _12 => Scenario.LocationFlagDefinitions[85];
+        public ILocationFlag _13 => Scenario.LocationFlagDefinitions[86];
+        public ILocationFlag _14 => Scenario.LocationFlagDefinitions[87];
+        public ILocationFlag _15 => Scenario.LocationFlagDefinitions[88];
+        public ILocationFlag _16 => Scenario.LocationFlagDefinitions[89];
+        public ILocationFlag _17 => Scenario.LocationFlagDefinitions[90];
+        public ILocationFlag _18 => Scenario.LocationFlagDefinitions[91];
+        public ILocationFlag _19 => Scenario.LocationFlagDefinitions[92];
+        public ILocationFlag _20 => Scenario.LocationFlagDefinitions[93];
+        public ILocationFlag _21 => Scenario.LocationFlagDefinitions[94];
+        public ILocationFlag _22 => Scenario.LocationFlagDefinitions[95];
+        public ILocationFlag _23 => Scenario.LocationFlagDefinitions[96];
+        public ILocationFlag _25 => Scenario.LocationFlagDefinitions[97];
+        public ILocationFlag _26 => Scenario.LocationFlagDefinitions[98];
+        public ILocationFlag _27 => Scenario.LocationFlagDefinitions[99];
+        public ILocationFlag _28 => Scenario.LocationFlagDefinitions[100];
+        public ILocationFlag _24 => Scenario.LocationFlagDefinitions[101];
+        public ILocationFlag _29 => Scenario.LocationFlagDefinitions[102];
+        public ILocationFlag _30 => Scenario.LocationFlagDefinitions[103];
+        public ILocationFlag _31 => Scenario.LocationFlagDefinitions[104];
+        public ILocationFlag _32 => Scenario.LocationFlagDefinitions[105];
+        public ILocationFlag _33 => Scenario.LocationFlagDefinitions[106];
+        public ILocationFlag _34 => Scenario.LocationFlagDefinitions[107];
+        public ILocationFlag _35 => Scenario.LocationFlagDefinitions[108];
+        public ILocationFlag _36 => Scenario.LocationFlagDefinitions[109];
+        public ILocationFlag _37 => Scenario.LocationFlagDefinitions[110];
+        public ILocationFlag _39 => Scenario.LocationFlagDefinitions[111];
+        public ILocationFlag _41 => Scenario.LocationFlagDefinitions[112];
+        public ILocationFlag _40 => Scenario.LocationFlagDefinitions[113];
+        public ILocationFlag _38 => Scenario.LocationFlagDefinitions[114];
+        public ILocationFlag _42 => Scenario.LocationFlagDefinitions[115];
+        public ILocationFlag _43 => Scenario.LocationFlagDefinitions[116];
+        public ILocationFlag _44 => Scenario.LocationFlagDefinitions[117];
+        public ILocationFlag _45 => Scenario.LocationFlagDefinitions[118];
+        public ILocationFlag _46 => Scenario.LocationFlagDefinitions[119];
+        public ILocationFlag _47 => Scenario.LocationFlagDefinitions[120];
+        public ILocationFlag _48 => Scenario.LocationFlagDefinitions[121];
+        public ILocationFlag _49 => Scenario.LocationFlagDefinitions[122];
+        public ILocationFlag _50 => Scenario.LocationFlagDefinitions[123];
+        public ILocationFlag _51 => Scenario.LocationFlagDefinitions[124];
+        public ILocationFlag _52 => Scenario.LocationFlagDefinitions[125];
+        public ILocationFlag _53 => Scenario.LocationFlagDefinitions[126];
+        public ILocationFlag _54 => Scenario.LocationFlagDefinitions[127];
+        public ILocationFlag _55 => Scenario.LocationFlagDefinitions[128];
+        public ILocationFlag _56 => Scenario.LocationFlagDefinitions[129];
+        public ILocationFlag _57 => Scenario.LocationFlagDefinitions[130];
+        public ILocationFlag _58 => Scenario.LocationFlagDefinitions[131];
+        public ILocationFlag _59 => Scenario.LocationFlagDefinitions[132];
+        public ILocationFlag _60 => Scenario.LocationFlagDefinitions[133];
+        public ILocationFlag _61 => Scenario.LocationFlagDefinitions[134];
+        public ILocationFlag _62 => Scenario.LocationFlagDefinitions[135];
+        public ILocationFlag _63 => Scenario.LocationFlagDefinitions[136];
+        public ILocationFlag _64 => Scenario.LocationFlagDefinitions[137];
+        public ILocationFlag _65 => Scenario.LocationFlagDefinitions[138];
+        public ILocationFlag _66 => Scenario.LocationFlagDefinitions[139];
+        public ILocationFlag _67 => Scenario.LocationFlagDefinitions[140];
+        public ILocationFlag _68 => Scenario.LocationFlagDefinitions[141];
+        public ILocationFlag _69 => Scenario.LocationFlagDefinitions[142];
+        public ILocationFlag _70 => Scenario.LocationFlagDefinitions[143];
+        public ILocationFlag _71 => Scenario.LocationFlagDefinitions[144];
+        public ILocationFlag _72 => Scenario.LocationFlagDefinitions[145];
+        public ILocationFlag _73 => Scenario.LocationFlagDefinitions[146];
+        public ILocationFlag _74 => Scenario.LocationFlagDefinitions[147];
+        public ILocationFlag _75 => Scenario.LocationFlagDefinitions[148];
+        public ILocationFlag _76 => Scenario.LocationFlagDefinitions[149];
+        public ILocationFlag _77 => Scenario.LocationFlagDefinitions[150];
+        public ILocationFlag _78 => Scenario.LocationFlagDefinitions[151];
+        public ILocationFlag _79 => Scenario.LocationFlagDefinitions[152];
+        public ILocationFlag _80 => Scenario.LocationFlagDefinitions[153];
+        public ILocationFlag _81 => Scenario.LocationFlagDefinitions[154];
+        public ILocationFlag _82 => Scenario.LocationFlagDefinitions[155];
+        public ILocationFlag _83 => Scenario.LocationFlagDefinitions[156];
+        public ILocationFlag _84 => Scenario.LocationFlagDefinitions[157];
+        public ILocationFlag _86 => Scenario.LocationFlagDefinitions[158];
+        public ILocationFlag _85 => Scenario.LocationFlagDefinitions[159];
+        public ILocationFlag _87 => Scenario.LocationFlagDefinitions[160];
+        public ILocationFlag _88 => Scenario.LocationFlagDefinitions[161];
+        public ILocationFlag _89 => Scenario.LocationFlagDefinitions[162];
+        public ILocationFlag _90 => Scenario.LocationFlagDefinitions[163];
+        public ILocationFlag _91 => Scenario.LocationFlagDefinitions[164];
+        public ILocationFlag _92 => Scenario.LocationFlagDefinitions[165];
+        public ILocationFlag _93 => Scenario.LocationFlagDefinitions[166];
+        public ILocationFlag _94 => Scenario.LocationFlagDefinitions[167];
+        public ILocationFlag _95 => Scenario.LocationFlagDefinitions[168];
+        public ILocationFlag _96 => Scenario.LocationFlagDefinitions[169];
+        public ILocationFlag _97 => Scenario.LocationFlagDefinitions[170];
+        public ILocationFlag _98 => Scenario.LocationFlagDefinitions[171];
+        public ILocationFlag _99 => Scenario.LocationFlagDefinitions[172];
+        public ILocationFlag _100 => Scenario.LocationFlagDefinitions[173];
+        public ILocationFlag _174 => Scenario.LocationFlagDefinitions[174];
+        public ILocationFlag _175 => Scenario.LocationFlagDefinitions[175];
+        public ILocationFlag _176 => Scenario.LocationFlagDefinitions[176];
+        public ILocationFlag _177 => Scenario.LocationFlagDefinitions[177];
+        public ILocationFlag _178 => Scenario.LocationFlagDefinitions[178];
+        public ILocationFlag _179 => Scenario.LocationFlagDefinitions[179];
+        public ILocationFlag _180 => Scenario.LocationFlagDefinitions[180];
+        public ILocationFlag _181 => Scenario.LocationFlagDefinitions[181];
+        public ILocationFlag _182 => Scenario.LocationFlagDefinitions[182];
+        public ILocationFlag _183 => Scenario.LocationFlagDefinitions[183];
+        public ILocationFlag _184 => Scenario.LocationFlagDefinitions[184];
+        public ILocationFlag _185 => Scenario.LocationFlagDefinitions[185];
+        public ILocationFlag _186 => Scenario.LocationFlagDefinitions[186];
+        public ILocationFlag _187 => Scenario.LocationFlagDefinitions[187];
+        public ILocationFlag _188 => Scenario.LocationFlagDefinitions[188];
+        public ILocationFlag _189 => Scenario.LocationFlagDefinitions[189];
+        public ILocationFlag _190 => Scenario.LocationFlagDefinitions[190];
+        public ILocationFlag _191 => Scenario.LocationFlagDefinitions[191];
+        public ILocationFlag _192 => Scenario.LocationFlagDefinitions[192];
+        public ILocationFlag _193 => Scenario.LocationFlagDefinitions[193];
+        public ILocationFlag _194 => Scenario.LocationFlagDefinitions[194];
+        public ILocationFlag _195 => Scenario.LocationFlagDefinitions[195];
+        public ILocationFlag _196 => Scenario.LocationFlagDefinitions[196];
+        public ILocationFlag _197 => Scenario.LocationFlagDefinitions[197];
+        public ILocationFlag _198 => Scenario.LocationFlagDefinitions[198];
+        public ILocationFlag _199 => Scenario.LocationFlagDefinitions[199];
+        public ILocationFlag _200 => Scenario.LocationFlagDefinitions[200];
+        public ILocationFlag _201 => Scenario.LocationFlagDefinitions[201];
+        public ILocationFlag _202 => Scenario.LocationFlagDefinitions[202];
+        public ILocationFlag _203 => Scenario.LocationFlagDefinitions[203];
+        public ILocationFlag _204 => Scenario.LocationFlagDefinitions[204];
+        public ILocationFlag _205 => Scenario.LocationFlagDefinitions[205];
+        public ILocationFlag _206 => Scenario.LocationFlagDefinitions[206];
+        public ILocationFlag _207 => Scenario.LocationFlagDefinitions[207];
+        public ILocationFlag _208 => Scenario.LocationFlagDefinitions[208];
+        public ILocationFlag _209 => Scenario.LocationFlagDefinitions[209];
+        public ILocationFlag _210 => Scenario.LocationFlagDefinitions[210];
+        public ILocationFlag _211 => Scenario.LocationFlagDefinitions[211];
+        public ILocationFlag _212 => Scenario.LocationFlagDefinitions[212];
+        public ILocationFlag _213 => Scenario.LocationFlagDefinitions[213];
+        public ILocationFlag _214 => Scenario.LocationFlagDefinitions[214];
+        public ILocationFlag _215 => Scenario.LocationFlagDefinitions[215];
+        public ILocationFlag _216 => Scenario.LocationFlagDefinitions[216];
+        public ILocationFlag _217 => Scenario.LocationFlagDefinitions[217];
+        public ILocationFlag _218 => Scenario.LocationFlagDefinitions[218];
+        public ILocationFlag _219 => Scenario.LocationFlagDefinitions[219];
+        public ILocationFlag _220 => Scenario.LocationFlagDefinitions[220];
+        public ILocationFlag _221 => Scenario.LocationFlagDefinitions[221];
+        public ILocationFlag _222 => Scenario.LocationFlagDefinitions[222];
+        public ILocationFlag _223 => Scenario.LocationFlagDefinitions[223];
+        public ILocationFlag _224 => Scenario.LocationFlagDefinitions[224];
+        public ILocationFlag _225 => Scenario.LocationFlagDefinitions[225];
+        public ILocationFlag _226 => Scenario.LocationFlagDefinitions[226];
+        public ILocationFlag _227 => Scenario.LocationFlagDefinitions[227];
+        public ILocationFlag _228 => Scenario.LocationFlagDefinitions[228];
+        public ILocationFlag _229 => Scenario.LocationFlagDefinitions[229];
+        public ILocationFlag _230 => Scenario.LocationFlagDefinitions[230];
+        public ILocationFlag _231 => Scenario.LocationFlagDefinitions[231];
+        public ILocationFlag _232 => Scenario.LocationFlagDefinitions[232];
+        public ILocationFlag _233 => Scenario.LocationFlagDefinitions[233];
+        public ILocationFlag _234 => Scenario.LocationFlagDefinitions[234];
+        public ILocationFlag _235 => Scenario.LocationFlagDefinitions[235];
+        public ILocationFlag _236 => Scenario.LocationFlagDefinitions[236];
+        public ILocationFlag _237 => Scenario.LocationFlagDefinitions[237];
+        public ILocationFlag _238 => Scenario.LocationFlagDefinitions[238];
+        public ILocationFlag _239 => Scenario.LocationFlagDefinitions[239];
+        public ILocationFlag _240 => Scenario.LocationFlagDefinitions[240];
+        public ILocationFlag _241 => Scenario.LocationFlagDefinitions[241];
+        public ILocationFlag _242 => Scenario.LocationFlagDefinitions[242];
+        public ILocationFlag _243 => Scenario.LocationFlagDefinitions[243];
+        public ILocationFlag _244 => Scenario.LocationFlagDefinitions[244];
+        public ILocationFlag _245 => Scenario.LocationFlagDefinitions[245];
+        public ILocationFlag _246 => Scenario.LocationFlagDefinitions[246];
+        public ILocationFlag _247 => Scenario.LocationFlagDefinitions[247];
+        public ILocationFlag _248 => Scenario.LocationFlagDefinitions[248];
+        public ILocationFlag _249 => Scenario.LocationFlagDefinitions[249];
+        public ILocationFlag _250 => Scenario.LocationFlagDefinitions[250];
+        public ILocationFlag _251 => Scenario.LocationFlagDefinitions[251];
+        public ILocationFlag _252 => Scenario.LocationFlagDefinitions[252];
+        public ILocationFlag _253 => Scenario.LocationFlagDefinitions[253];
+        public ILocationFlag _254 => Scenario.LocationFlagDefinitions[254];
+        public ILocationFlag _255 => Scenario.LocationFlagDefinitions[255];
+        public ILocationFlag _256 => Scenario.LocationFlagDefinitions[256];
+        public ILocationFlag _257 => Scenario.LocationFlagDefinitions[257];
+        public ILocationFlag _258 => Scenario.LocationFlagDefinitions[258];
+        public ILocationFlag _259 => Scenario.LocationFlagDefinitions[259];
+        public ILocationFlag _260 => Scenario.LocationFlagDefinitions[260];
+        public ILocationFlag _261 => Scenario.LocationFlagDefinitions[261];
+        public ILocationFlag _262 => Scenario.LocationFlagDefinitions[262];
+        public ILocationFlag _263 => Scenario.LocationFlagDefinitions[263];
+        public ILocationFlag _264 => Scenario.LocationFlagDefinitions[264];
+        public ILocationFlag _265 => Scenario.LocationFlagDefinitions[265];
+        public ILocationFlag _266 => Scenario.LocationFlagDefinitions[266];
+        public ILocationFlag _267 => Scenario.LocationFlagDefinitions[267];
+        public ILocationFlag _268 => Scenario.LocationFlagDefinitions[268];
+        public ILocationFlag _269 => Scenario.LocationFlagDefinitions[269];
+        public ILocationFlag _270 => Scenario.LocationFlagDefinitions[270];
+        public ILocationFlag _271 => Scenario.LocationFlagDefinitions[271];
+        public ILocationFlag _272 => Scenario.LocationFlagDefinitions[272];
+        public ILocationFlag _273 => Scenario.LocationFlagDefinitions[273];
+        public ILocationFlag _274 => Scenario.LocationFlagDefinitions[274];
+        public ILocationFlag _275 => Scenario.LocationFlagDefinitions[275];
+        public ILocationFlag _276 => Scenario.LocationFlagDefinitions[276];
+        public ILocationFlag _277 => Scenario.LocationFlagDefinitions[277];
+        public ILocationFlag _278 => Scenario.LocationFlagDefinitions[278];
+        public ILocationFlag _279 => Scenario.LocationFlagDefinitions[279];
+        public ILocationFlag _280 => Scenario.LocationFlagDefinitions[280];
+        public ILocationFlag _281 => Scenario.LocationFlagDefinitions[281];
+        public ILocationFlag _282 => Scenario.LocationFlagDefinitions[282];
+        public ILocationFlag _283 => Scenario.LocationFlagDefinitions[283];
+        public ILocationFlag _284 => Scenario.LocationFlagDefinitions[284];
+        public ILocationFlag _285 => Scenario.LocationFlagDefinitions[285];
+        public ILocationFlag _286 => Scenario.LocationFlagDefinitions[286];
+        public ILocationFlag _287 => Scenario.LocationFlagDefinitions[287];
+        public ILocationFlag _288 => Scenario.LocationFlagDefinitions[288];
+        public ILocationFlag _289 => Scenario.LocationFlagDefinitions[289];
+        public ILocationFlag _290 => Scenario.LocationFlagDefinitions[290];
+        public ILocationFlag _291 => Scenario.LocationFlagDefinitions[291];
+        public ILocationFlag _292 => Scenario.LocationFlagDefinitions[292];
+        public ILocationFlag _293 => Scenario.LocationFlagDefinitions[293];
+        public ILocationFlag _294 => Scenario.LocationFlagDefinitions[294];
+        public ILocationFlag _295 => Scenario.LocationFlagDefinitions[295];
+        public ILocationFlag _296 => Scenario.LocationFlagDefinitions[296];
+        public ILocationFlag _297 => Scenario.LocationFlagDefinitions[297];
+        public ILocationFlag _298 => Scenario.LocationFlagDefinitions[298];
+        public ILocationFlag _299 => Scenario.LocationFlagDefinitions[299];
+        public ILocationFlag _300 => Scenario.LocationFlagDefinitions[300];
+        public ILocationFlag _301 => Scenario.LocationFlagDefinitions[301];
+        public ILocationFlag _302 => Scenario.LocationFlagDefinitions[302];
+        public ILocationFlag _303 => Scenario.LocationFlagDefinitions[303];
+        public ILocationFlag _304 => Scenario.LocationFlagDefinitions[304];
+        public ILocationFlag _305 => Scenario.LocationFlagDefinitions[305];
+        public ILocationFlag _306 => Scenario.LocationFlagDefinitions[306];
+        public ILocationFlag _307 => Scenario.LocationFlagDefinitions[307];
+        public ILocationFlag _308 => Scenario.LocationFlagDefinitions[308];
+        public ILocationFlag anchor_flag_seraph => Scenario.LocationFlagDefinitions[309];
+        public ILocationFlag croom01 => Scenario.LocationFlagDefinitions[310];
+        public ILocationFlag croom02 => Scenario.LocationFlagDefinitions[311];
+        public ILocationFlag croom03 => Scenario.LocationFlagDefinitions[312];
+        public ILocationFlag croom04 => Scenario.LocationFlagDefinitions[313];
+        public ILocationFlag croom05 => Scenario.LocationFlagDefinitions[314];
+        public ILocationFlag croom06 => Scenario.LocationFlagDefinitions[315];
+        public ILocationFlag tear01 => Scenario.LocationFlagDefinitions[316];
+        public ILocationFlag tear02 => Scenario.LocationFlagDefinitions[317];
+        public ILocationFlag tear03 => Scenario.LocationFlagDefinitions[318];
+        public ILocationFlag tear04 => Scenario.LocationFlagDefinitions[319];
+        public ILocationFlag tear05 => Scenario.LocationFlagDefinitions[320];
+        public ILocationFlag tear06 => Scenario.LocationFlagDefinitions[321];
+        public ILocationFlag tear07 => Scenario.LocationFlagDefinitions[322];
+        public ILocationFlag tear08 => Scenario.LocationFlagDefinitions[323];
+        public ILocationFlag tear09 => Scenario.LocationFlagDefinitions[324];
+        public ILocationFlag tear10 => Scenario.LocationFlagDefinitions[325];
+        public ILocationFlag tear11 => Scenario.LocationFlagDefinitions[326];
+        public ILocationFlag tear12 => Scenario.LocationFlagDefinitions[327];
+        public ILocationFlag tear13 => Scenario.LocationFlagDefinitions[328];
+        public ILocationFlag tear14 => Scenario.LocationFlagDefinitions[329];
+        public ILocationFlag tear15 => Scenario.LocationFlagDefinitions[330];
+        public ILocationFlag tear16 => Scenario.LocationFlagDefinitions[331];
+        public ILocationFlag tear17 => Scenario.LocationFlagDefinitions[332];
+        public ILocationFlag tear18 => Scenario.LocationFlagDefinitions[333];
+        public ILocationFlag tear19 => Scenario.LocationFlagDefinitions[334];
+        public ILocationFlag croom07 => Scenario.LocationFlagDefinitions[335];
+        public ILocationFlag croom08 => Scenario.LocationFlagDefinitions[336];
+        public ILocationFlag croom09 => Scenario.LocationFlagDefinitions[337];
+        public ILocationFlag croom10 => Scenario.LocationFlagDefinitions[338];
+        public ILocationFlag croom11 => Scenario.LocationFlagDefinitions[339];
+        public ILocationFlag croom12 => Scenario.LocationFlagDefinitions[340];
+        public ILocationFlag flag_shield_impact => Scenario.LocationFlagDefinitions[341];
+        public ILocationFlag mine_holo => Scenario.LocationFlagDefinitions[342];
         public ICinematicTitle title_1 => Scenario.CinematicTitleDefinitions[0].GameObject;
         public ICinematicTitle title_2 => Scenario.CinematicTitleDefinitions[1].GameObject;
         public ICinematicTitle title_3 => Scenario.CinematicTitleDefinitions[2].GameObject;
@@ -1703,7 +1703,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_disposal_commander
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[0].StartingLocations[1];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[0].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[0];
             public Squad_disposal_commander(ScenarioTag ScenarioTag)
             {
@@ -1714,7 +1714,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_allies_elites_03a
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition elite => ScenarioTag.AiSquadDefinitions[1].StartingLocations[1];
+            public IAiActorDefinition elite => ScenarioTag.AiSquadDefinitions[1].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[1];
             public Squad_allies_elites_03a(ScenarioTag ScenarioTag)
             {
@@ -1725,7 +1725,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_allies_elites_03b
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[2].StartingLocations[1];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[2].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[2];
             public Squad_allies_elites_03b(ScenarioTag ScenarioTag)
             {
@@ -1736,8 +1736,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_allies_grunts_03
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition grunt01 => ScenarioTag.AiSquadDefinitions[3].StartingLocations[1];
-            public IAiActorDefinition grunt02 => ScenarioTag.AiSquadDefinitions[3].StartingLocations[2];
+            public IAiActorDefinition grunt01 => ScenarioTag.AiSquadDefinitions[3].StartingLocations[0];
+            public IAiActorDefinition grunt02 => ScenarioTag.AiSquadDefinitions[3].StartingLocations[1];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[3];
             public Squad_allies_grunts_03(ScenarioTag ScenarioTag)
             {
@@ -1748,10 +1748,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_disposal_entry_flood
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[4].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[4].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[4].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[4].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[4].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[4].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[4].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[4].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[4];
             public Squad_disposal_entry_flood(ScenarioTag ScenarioTag)
             {
@@ -1762,7 +1762,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_disposal_entry_juggernaut
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[5].StartingLocations[1];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[5].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[5];
             public Squad_disposal_entry_juggernaut(ScenarioTag ScenarioTag)
             {
@@ -1773,10 +1773,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_disposal_entry_heretics
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition h4 => ScenarioTag.AiSquadDefinitions[6].StartingLocations[1];
-            public IAiActorDefinition h2 => ScenarioTag.AiSquadDefinitions[6].StartingLocations[2];
-            public IAiActorDefinition h3 => ScenarioTag.AiSquadDefinitions[6].StartingLocations[3];
-            public IAiActorDefinition h1 => ScenarioTag.AiSquadDefinitions[6].StartingLocations[4];
+            public IAiActorDefinition h4 => ScenarioTag.AiSquadDefinitions[6].StartingLocations[0];
+            public IAiActorDefinition h2 => ScenarioTag.AiSquadDefinitions[6].StartingLocations[1];
+            public IAiActorDefinition h3 => ScenarioTag.AiSquadDefinitions[6].StartingLocations[2];
+            public IAiActorDefinition h1 => ScenarioTag.AiSquadDefinitions[6].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[6];
             public Squad_disposal_entry_heretics(ScenarioTag ScenarioTag)
             {
@@ -1787,7 +1787,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_holo_drone
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[7].StartingLocations[1];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[7].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[7];
             public Squad_holo_drone(ScenarioTag ScenarioTag)
             {
@@ -1798,7 +1798,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_hl_hologram
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition hl => ScenarioTag.AiSquadDefinitions[8].StartingLocations[1];
+            public IAiActorDefinition hl => ScenarioTag.AiSquadDefinitions[8].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[8];
             public Squad_hl_hologram(ScenarioTag ScenarioTag)
             {
@@ -1809,14 +1809,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_disposal_infection_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[9].StartingLocations[1];
-            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[9].StartingLocations[2];
-            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[9].StartingLocations[3];
-            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[9].StartingLocations[4];
-            public IAiActorDefinition _5 => ScenarioTag.AiSquadDefinitions[9].StartingLocations[5];
-            public IAiActorDefinition _6 => ScenarioTag.AiSquadDefinitions[9].StartingLocations[6];
-            public IAiActorDefinition _7 => ScenarioTag.AiSquadDefinitions[9].StartingLocations[7];
-            public IAiActorDefinition _8 => ScenarioTag.AiSquadDefinitions[9].StartingLocations[8];
+            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[9].StartingLocations[0];
+            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[9].StartingLocations[1];
+            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[9].StartingLocations[2];
+            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[9].StartingLocations[3];
+            public IAiActorDefinition _5 => ScenarioTag.AiSquadDefinitions[9].StartingLocations[4];
+            public IAiActorDefinition _6 => ScenarioTag.AiSquadDefinitions[9].StartingLocations[5];
+            public IAiActorDefinition _7 => ScenarioTag.AiSquadDefinitions[9].StartingLocations[6];
+            public IAiActorDefinition _8 => ScenarioTag.AiSquadDefinitions[9].StartingLocations[7];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[9];
             public Squad_disposal_infection_01(ScenarioTag ScenarioTag)
             {
@@ -1827,10 +1827,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_disposal_infection_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[10].StartingLocations[1];
-            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[10].StartingLocations[2];
-            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[10].StartingLocations[3];
-            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[10].StartingLocations[4];
+            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[10].StartingLocations[0];
+            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[10].StartingLocations[1];
+            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[10].StartingLocations[2];
+            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[10].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[10];
             public Squad_disposal_infection_02(ScenarioTag ScenarioTag)
             {
@@ -1841,10 +1841,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_silo_sentinels_initial
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[11].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[11].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[11].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[11].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[11].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[11].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[11].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[11].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[11];
             public Squad_silo_sentinels_initial(ScenarioTag ScenarioTag)
             {
@@ -1855,14 +1855,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_silo_sentinels_resupply
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[12].StartingLocations[1];
-            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[12].StartingLocations[2];
-            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[12].StartingLocations[3];
-            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[12].StartingLocations[4];
-            public IAiActorDefinition _5 => ScenarioTag.AiSquadDefinitions[12].StartingLocations[5];
-            public IAiActorDefinition _6 => ScenarioTag.AiSquadDefinitions[12].StartingLocations[6];
-            public IAiActorDefinition _7 => ScenarioTag.AiSquadDefinitions[12].StartingLocations[7];
-            public IAiActorDefinition _8 => ScenarioTag.AiSquadDefinitions[12].StartingLocations[8];
+            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[12].StartingLocations[0];
+            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[12].StartingLocations[1];
+            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[12].StartingLocations[2];
+            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[12].StartingLocations[3];
+            public IAiActorDefinition _5 => ScenarioTag.AiSquadDefinitions[12].StartingLocations[4];
+            public IAiActorDefinition _6 => ScenarioTag.AiSquadDefinitions[12].StartingLocations[5];
+            public IAiActorDefinition _7 => ScenarioTag.AiSquadDefinitions[12].StartingLocations[6];
+            public IAiActorDefinition _8 => ScenarioTag.AiSquadDefinitions[12].StartingLocations[7];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[12];
             public Squad_silo_sentinels_resupply(ScenarioTag ScenarioTag)
             {
@@ -1873,16 +1873,16 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_silo_flood_initial
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[13].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[13].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[13].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[13].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[13].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[13].StartingLocations[6];
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[13].StartingLocations[7];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[13].StartingLocations[8];
-            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[13].StartingLocations[9];
-            public IAiActorDefinition starting_locations_9 => ScenarioTag.AiSquadDefinitions[13].StartingLocations[10];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[13].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[13].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[13].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[13].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[13].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[13].StartingLocations[5];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[13].StartingLocations[6];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[13].StartingLocations[7];
+            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[13].StartingLocations[8];
+            public IAiActorDefinition starting_locations_9 => ScenarioTag.AiSquadDefinitions[13].StartingLocations[9];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[13];
             public Squad_silo_flood_initial(ScenarioTag ScenarioTag)
             {
@@ -1893,12 +1893,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_silo_climbers_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[14].StartingLocations[1];
-            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[14].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[14].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[14].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[14].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[14].StartingLocations[6];
+            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[14].StartingLocations[0];
+            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[14].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[14].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[14].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[14].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[14].StartingLocations[5];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[14];
             public Squad_silo_climbers_01(ScenarioTag ScenarioTag)
             {
@@ -1909,12 +1909,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_silo_climbers_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[15].StartingLocations[1];
-            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[15].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[15].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[15].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[15].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[15].StartingLocations[6];
+            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[15].StartingLocations[0];
+            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[15].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[15].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[15].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[15].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[15].StartingLocations[5];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[15];
             public Squad_silo_climbers_02(ScenarioTag ScenarioTag)
             {
@@ -1925,12 +1925,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_silo_sentinels_below
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[16].StartingLocations[1];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[16].StartingLocations[2];
-            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[16].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[16].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[16].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[16].StartingLocations[6];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[16].StartingLocations[0];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[16].StartingLocations[1];
+            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[16].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[16].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[16].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[16].StartingLocations[5];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[16];
             public Squad_silo_sentinels_below(ScenarioTag ScenarioTag)
             {
@@ -1941,18 +1941,18 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_silo_infection_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[1];
-            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[2];
-            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[3];
-            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[4];
-            public IAiActorDefinition _5 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[5];
-            public IAiActorDefinition _6 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[6];
-            public IAiActorDefinition _7 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[7];
-            public IAiActorDefinition _8 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[8];
-            public IAiActorDefinition _9 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[9];
-            public IAiActorDefinition _10 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[10];
-            public IAiActorDefinition _11 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[11];
-            public IAiActorDefinition _12 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[12];
+            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[0];
+            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[1];
+            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[2];
+            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[3];
+            public IAiActorDefinition _5 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[4];
+            public IAiActorDefinition _6 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[5];
+            public IAiActorDefinition _7 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[6];
+            public IAiActorDefinition _8 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[7];
+            public IAiActorDefinition _9 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[8];
+            public IAiActorDefinition _10 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[9];
+            public IAiActorDefinition _11 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[10];
+            public IAiActorDefinition _12 => ScenarioTag.AiSquadDefinitions[17].StartingLocations[11];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[17];
             public Squad_silo_infection_01(ScenarioTag ScenarioTag)
             {
@@ -1963,17 +1963,17 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_silo_infection_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[1];
-            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[2];
-            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[3];
-            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[4];
-            public IAiActorDefinition _5 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[5];
-            public IAiActorDefinition _6 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[6];
-            public IAiActorDefinition _7 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[7];
-            public IAiActorDefinition _8 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[8];
-            public IAiActorDefinition _9 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[9];
-            public IAiActorDefinition _10 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[10];
-            public IAiActorDefinition _11 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[11];
+            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[0];
+            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[1];
+            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[2];
+            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[3];
+            public IAiActorDefinition _5 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[4];
+            public IAiActorDefinition _6 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[5];
+            public IAiActorDefinition _7 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[6];
+            public IAiActorDefinition _8 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[7];
+            public IAiActorDefinition _9 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[8];
+            public IAiActorDefinition _10 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[9];
+            public IAiActorDefinition _11 => ScenarioTag.AiSquadDefinitions[18].StartingLocations[10];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[18];
             public Squad_silo_infection_02(ScenarioTag ScenarioTag)
             {
@@ -1984,14 +1984,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_silo_infection_03
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[19].StartingLocations[1];
-            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[19].StartingLocations[2];
-            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[19].StartingLocations[3];
-            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[19].StartingLocations[4];
-            public IAiActorDefinition _5 => ScenarioTag.AiSquadDefinitions[19].StartingLocations[5];
-            public IAiActorDefinition _6 => ScenarioTag.AiSquadDefinitions[19].StartingLocations[6];
-            public IAiActorDefinition _7 => ScenarioTag.AiSquadDefinitions[19].StartingLocations[7];
-            public IAiActorDefinition _8 => ScenarioTag.AiSquadDefinitions[19].StartingLocations[8];
+            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[19].StartingLocations[0];
+            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[19].StartingLocations[1];
+            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[19].StartingLocations[2];
+            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[19].StartingLocations[3];
+            public IAiActorDefinition _5 => ScenarioTag.AiSquadDefinitions[19].StartingLocations[4];
+            public IAiActorDefinition _6 => ScenarioTag.AiSquadDefinitions[19].StartingLocations[5];
+            public IAiActorDefinition _7 => ScenarioTag.AiSquadDefinitions[19].StartingLocations[6];
+            public IAiActorDefinition _8 => ScenarioTag.AiSquadDefinitions[19].StartingLocations[7];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[19];
             public Squad_silo_infection_03(ScenarioTag ScenarioTag)
             {
@@ -2002,18 +2002,18 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_silo_infection_04
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[1];
-            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[2];
-            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[3];
-            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[4];
-            public IAiActorDefinition _5 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[5];
-            public IAiActorDefinition _6 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[6];
-            public IAiActorDefinition _7 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[7];
-            public IAiActorDefinition _8 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[8];
-            public IAiActorDefinition _9 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[9];
-            public IAiActorDefinition _10 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[10];
-            public IAiActorDefinition _11 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[11];
-            public IAiActorDefinition _12 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[12];
+            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[0];
+            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[1];
+            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[2];
+            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[3];
+            public IAiActorDefinition _5 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[4];
+            public IAiActorDefinition _6 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[5];
+            public IAiActorDefinition _7 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[6];
+            public IAiActorDefinition _8 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[7];
+            public IAiActorDefinition _9 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[8];
+            public IAiActorDefinition _10 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[9];
+            public IAiActorDefinition _11 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[10];
+            public IAiActorDefinition _12 => ScenarioTag.AiSquadDefinitions[20].StartingLocations[11];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[20];
             public Squad_silo_infection_04(ScenarioTag ScenarioTag)
             {
@@ -2024,8 +2024,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_silo_heretics
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[21].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[21].StartingLocations[2];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[21].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[21].StartingLocations[1];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[21];
             public Squad_silo_heretics(ScenarioTag ScenarioTag)
             {
@@ -2046,12 +2046,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_silo_flood_halls
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[23].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[23].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[23].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[23].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[23].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[23].StartingLocations[6];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[23].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[23].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[23].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[23].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[23].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[23].StartingLocations[5];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[23];
             public Squad_silo_flood_halls(ScenarioTag ScenarioTag)
             {
@@ -2062,10 +2062,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_lab_heretics_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[24].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[24].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[24].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[24].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[24].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[24].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[24].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[24].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[24];
             public Squad_lab_heretics_01(ScenarioTag ScenarioTag)
             {
@@ -2076,11 +2076,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_lab_turret_grunts_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[25].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[25].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[25].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[25].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[25].StartingLocations[5];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[25].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[25].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[25].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[25].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[25].StartingLocations[4];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[25];
             public Squad_lab_turret_grunts_01(ScenarioTag ScenarioTag)
             {
@@ -2091,10 +2091,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_lab_heretics_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[26].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[26].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[26].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[26].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[26].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[26].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[26].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[26].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[26];
             public Squad_lab_heretics_02(ScenarioTag ScenarioTag)
             {
@@ -2105,10 +2105,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_lab_grunts_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[27].StartingLocations[1];
-            public IAiActorDefinition r => ScenarioTag.AiSquadDefinitions[27].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[27].StartingLocations[3];
-            public IAiActorDefinition l => ScenarioTag.AiSquadDefinitions[27].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[27].StartingLocations[0];
+            public IAiActorDefinition r => ScenarioTag.AiSquadDefinitions[27].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[27].StartingLocations[2];
+            public IAiActorDefinition l => ScenarioTag.AiSquadDefinitions[27].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[27];
             public Squad_lab_grunts_02(ScenarioTag ScenarioTag)
             {
@@ -2119,8 +2119,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_lab_exit_turrets
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition l => ScenarioTag.AiSquadDefinitions[28].StartingLocations[1];
-            public IAiActorDefinition r => ScenarioTag.AiSquadDefinitions[28].StartingLocations[2];
+            public IAiActorDefinition l => ScenarioTag.AiSquadDefinitions[28].StartingLocations[0];
+            public IAiActorDefinition r => ScenarioTag.AiSquadDefinitions[28].StartingLocations[1];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[28];
             public Squad_lab_exit_turrets(ScenarioTag ScenarioTag)
             {
@@ -2131,12 +2131,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_lab_combatforms_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[29].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[29].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[29].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[29].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[29].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[29].StartingLocations[6];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[29].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[29].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[29].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[29].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[29].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[29].StartingLocations[5];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[29];
             public Squad_lab_combatforms_01(ScenarioTag ScenarioTag)
             {
@@ -2147,18 +2147,18 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_lab_combatforms_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition r5 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[1];
-            public IAiActorDefinition r4 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[2];
-            public IAiActorDefinition r3 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[3];
-            public IAiActorDefinition r2 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[4];
-            public IAiActorDefinition r1 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[5];
-            public IAiActorDefinition l1 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[6];
-            public IAiActorDefinition l2 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[7];
-            public IAiActorDefinition l3 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[8];
-            public IAiActorDefinition l4 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[9];
-            public IAiActorDefinition l5 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[10];
-            public IAiActorDefinition c1 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[11];
-            public IAiActorDefinition c2 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[12];
+            public IAiActorDefinition r5 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[0];
+            public IAiActorDefinition r4 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[1];
+            public IAiActorDefinition r3 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[2];
+            public IAiActorDefinition r2 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[3];
+            public IAiActorDefinition r1 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[4];
+            public IAiActorDefinition l1 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[5];
+            public IAiActorDefinition l2 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[6];
+            public IAiActorDefinition l3 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[7];
+            public IAiActorDefinition l4 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[8];
+            public IAiActorDefinition l5 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[9];
+            public IAiActorDefinition c1 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[10];
+            public IAiActorDefinition c2 => ScenarioTag.AiSquadDefinitions[30].StartingLocations[11];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[30];
             public Squad_lab_combatforms_02(ScenarioTag ScenarioTag)
             {
@@ -2169,16 +2169,16 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_lab_carriers_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition init1 => ScenarioTag.AiSquadDefinitions[31].StartingLocations[1];
-            public IAiActorDefinition init2 => ScenarioTag.AiSquadDefinitions[31].StartingLocations[2];
-            public IAiActorDefinition init3 => ScenarioTag.AiSquadDefinitions[31].StartingLocations[3];
-            public IAiActorDefinition init4 => ScenarioTag.AiSquadDefinitions[31].StartingLocations[4];
-            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[31].StartingLocations[5];
-            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[31].StartingLocations[6];
-            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[31].StartingLocations[7];
-            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[31].StartingLocations[8];
-            public IAiActorDefinition _5 => ScenarioTag.AiSquadDefinitions[31].StartingLocations[9];
-            public IAiActorDefinition _6 => ScenarioTag.AiSquadDefinitions[31].StartingLocations[10];
+            public IAiActorDefinition init1 => ScenarioTag.AiSquadDefinitions[31].StartingLocations[0];
+            public IAiActorDefinition init2 => ScenarioTag.AiSquadDefinitions[31].StartingLocations[1];
+            public IAiActorDefinition init3 => ScenarioTag.AiSquadDefinitions[31].StartingLocations[2];
+            public IAiActorDefinition init4 => ScenarioTag.AiSquadDefinitions[31].StartingLocations[3];
+            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[31].StartingLocations[4];
+            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[31].StartingLocations[5];
+            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[31].StartingLocations[6];
+            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[31].StartingLocations[7];
+            public IAiActorDefinition _5 => ScenarioTag.AiSquadDefinitions[31].StartingLocations[8];
+            public IAiActorDefinition _6 => ScenarioTag.AiSquadDefinitions[31].StartingLocations[9];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[31];
             public Squad_lab_carriers_01(ScenarioTag ScenarioTag)
             {
@@ -2189,18 +2189,18 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_lab_carriers_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition c1 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[1];
-            public IAiActorDefinition c2 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[2];
-            public IAiActorDefinition l1 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[3];
-            public IAiActorDefinition l2 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[4];
-            public IAiActorDefinition l3 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[5];
-            public IAiActorDefinition l4 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[6];
-            public IAiActorDefinition l5 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[7];
-            public IAiActorDefinition r1 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[8];
-            public IAiActorDefinition r2 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[9];
-            public IAiActorDefinition r3 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[10];
-            public IAiActorDefinition r4 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[11];
-            public IAiActorDefinition r5 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[12];
+            public IAiActorDefinition c1 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[0];
+            public IAiActorDefinition c2 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[1];
+            public IAiActorDefinition l1 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[2];
+            public IAiActorDefinition l2 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[3];
+            public IAiActorDefinition l3 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[4];
+            public IAiActorDefinition l4 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[5];
+            public IAiActorDefinition l5 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[6];
+            public IAiActorDefinition r1 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[7];
+            public IAiActorDefinition r2 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[8];
+            public IAiActorDefinition r3 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[9];
+            public IAiActorDefinition r4 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[10];
+            public IAiActorDefinition r5 => ScenarioTag.AiSquadDefinitions[32].StartingLocations[11];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[32];
             public Squad_lab_carriers_02(ScenarioTag ScenarioTag)
             {
@@ -2211,14 +2211,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_lab_infection_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[33].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[33].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[33].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[33].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[33].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[33].StartingLocations[6];
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[33].StartingLocations[7];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[33].StartingLocations[8];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[33].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[33].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[33].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[33].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[33].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[33].StartingLocations[5];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[33].StartingLocations[6];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[33].StartingLocations[7];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[33];
             public Squad_lab_infection_01(ScenarioTag ScenarioTag)
             {
@@ -2229,10 +2229,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_lab_infection_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[34].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[34].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[34].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[34].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[34].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[34].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[34].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[34].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[34];
             public Squad_lab_infection_02(ScenarioTag ScenarioTag)
             {
@@ -2243,10 +2243,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_lab_heretics_above
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition h1 => ScenarioTag.AiSquadDefinitions[35].StartingLocations[1];
-            public IAiActorDefinition h2 => ScenarioTag.AiSquadDefinitions[35].StartingLocations[2];
-            public IAiActorDefinition h3 => ScenarioTag.AiSquadDefinitions[35].StartingLocations[3];
-            public IAiActorDefinition h4 => ScenarioTag.AiSquadDefinitions[35].StartingLocations[4];
+            public IAiActorDefinition h1 => ScenarioTag.AiSquadDefinitions[35].StartingLocations[0];
+            public IAiActorDefinition h2 => ScenarioTag.AiSquadDefinitions[35].StartingLocations[1];
+            public IAiActorDefinition h3 => ScenarioTag.AiSquadDefinitions[35].StartingLocations[2];
+            public IAiActorDefinition h4 => ScenarioTag.AiSquadDefinitions[35].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[35];
             public Squad_lab_heretics_above(ScenarioTag ScenarioTag)
             {
@@ -2257,7 +2257,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_lab_juggernaut_above
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[36].StartingLocations[1];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[36].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[36];
             public Squad_lab_juggernaut_above(ScenarioTag ScenarioTag)
             {
@@ -2268,7 +2268,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bridge_strafer
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[37].StartingLocations[1];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[37].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[37];
             public Squad_bridge_strafer(ScenarioTag ScenarioTag)
             {
@@ -2279,7 +2279,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_allied_phantom_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition pilot => ScenarioTag.AiSquadDefinitions[38].StartingLocations[1];
+            public IAiActorDefinition pilot => ScenarioTag.AiSquadDefinitions[38].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[38];
             public Squad_allied_phantom_02(ScenarioTag ScenarioTag)
             {
@@ -2290,8 +2290,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_allies_grunts_04
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[39].StartingLocations[1];
-            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[39].StartingLocations[2];
+            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[39].StartingLocations[0];
+            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[39].StartingLocations[1];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[39];
             public Squad_allies_grunts_04(ScenarioTag ScenarioTag)
             {
@@ -2302,8 +2302,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_allies_elites_04
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[40].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[40].StartingLocations[2];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[40].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[40].StartingLocations[1];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[40];
             public Squad_allies_elites_04(ScenarioTag ScenarioTag)
             {
@@ -2314,9 +2314,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bridge_runners
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[41].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[41].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[41].StartingLocations[3];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[41].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[41].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[41].StartingLocations[2];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[41];
             public Squad_bridge_runners(ScenarioTag ScenarioTag)
             {
@@ -2327,10 +2327,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bridge_h_grunts_init
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[42].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[42].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[42].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[42].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[42].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[42].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[42].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[42].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[42];
             public Squad_bridge_h_grunts_init(ScenarioTag ScenarioTag)
             {
@@ -2341,8 +2341,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bridge_heretics_R_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[43].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[43].StartingLocations[2];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[43].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[43].StartingLocations[1];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[43];
             public Squad_bridge_heretics_R_02(ScenarioTag ScenarioTag)
             {
@@ -2353,10 +2353,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bridge_h_grunts_R_03
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[44].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[44].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[44].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[44].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[44].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[44].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[44].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[44].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[44];
             public Squad_bridge_h_grunts_R_03(ScenarioTag ScenarioTag)
             {
@@ -2367,10 +2367,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bridge_heretics_R_04
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[45].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[45].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[45].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[45].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[45].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[45].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[45].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[45].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[45];
             public Squad_bridge_heretics_R_04(ScenarioTag ScenarioTag)
             {
@@ -2381,10 +2381,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bridge_sentinels_R_05
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[46].StartingLocations[1];
-            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[46].StartingLocations[2];
-            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[46].StartingLocations[3];
-            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[46].StartingLocations[4];
+            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[46].StartingLocations[0];
+            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[46].StartingLocations[1];
+            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[46].StartingLocations[2];
+            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[46].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[46];
             public Squad_bridge_sentinels_R_05(ScenarioTag ScenarioTag)
             {
@@ -2395,8 +2395,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bridge_heretics_L_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[47].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[47].StartingLocations[2];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[47].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[47].StartingLocations[1];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[47];
             public Squad_bridge_heretics_L_02(ScenarioTag ScenarioTag)
             {
@@ -2407,10 +2407,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bridge_h_grunts_L_03
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[48].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[48].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[48].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[48].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[48].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[48].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[48].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[48].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[48];
             public Squad_bridge_h_grunts_L_03(ScenarioTag ScenarioTag)
             {
@@ -2421,10 +2421,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bridge_heretics_L_04
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[49].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[49].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[49].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[49].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[49].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[49].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[49].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[49].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[49];
             public Squad_bridge_heretics_L_04(ScenarioTag ScenarioTag)
             {
@@ -2435,10 +2435,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bridge_sentinels_L_05
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[50].StartingLocations[1];
-            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[50].StartingLocations[2];
-            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[50].StartingLocations[3];
-            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[50].StartingLocations[4];
+            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[50].StartingLocations[0];
+            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[50].StartingLocations[1];
+            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[50].StartingLocations[2];
+            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[50].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[50];
             public Squad_bridge_sentinels_L_05(ScenarioTag ScenarioTag)
             {
@@ -2449,12 +2449,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bridge_heretics_final
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[51].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[51].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[51].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[51].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[51].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[51].StartingLocations[6];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[51].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[51].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[51].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[51].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[51].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[51].StartingLocations[5];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[51];
             public Squad_bridge_heretics_final(ScenarioTag ScenarioTag)
             {
@@ -2465,9 +2465,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bridge_h_grunts_final
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[52].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[52].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[52].StartingLocations[3];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[52].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[52].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[52].StartingLocations[2];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[52];
             public Squad_bridge_h_grunts_final(ScenarioTag ScenarioTag)
             {
@@ -2478,7 +2478,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bridge_combatforms
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[53].StartingLocations[1];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[53].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[53];
             public Squad_bridge_combatforms(ScenarioTag ScenarioTag)
             {
@@ -2489,8 +2489,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bridge_carriers
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[54].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[54].StartingLocations[2];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[54].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[54].StartingLocations[1];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[54];
             public Squad_bridge_carriers(ScenarioTag ScenarioTag)
             {
@@ -2501,12 +2501,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bridge_infection
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[55].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[55].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[55].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[55].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[55].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[55].StartingLocations[6];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[55].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[55].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[55].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[55].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[55].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[55].StartingLocations[5];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[55];
             public Squad_bridge_infection(ScenarioTag ScenarioTag)
             {
@@ -2517,7 +2517,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_heretic_leader_control
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[56].StartingLocations[1];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[56].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[56];
             public Squad_heretic_leader_control(ScenarioTag ScenarioTag)
             {
@@ -2528,7 +2528,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_commander_cinematic
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition spec_ops_comm => ScenarioTag.AiSquadDefinitions[57].StartingLocations[1];
+            public IAiActorDefinition spec_ops_comm => ScenarioTag.AiSquadDefinitions[57].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[57];
             public Squad_control_commander_cinematic(ScenarioTag ScenarioTag)
             {
@@ -2539,8 +2539,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_elites_cinematic
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition elite02 => ScenarioTag.AiSquadDefinitions[58].StartingLocations[1];
-            public IAiActorDefinition elite01 => ScenarioTag.AiSquadDefinitions[58].StartingLocations[2];
+            public IAiActorDefinition elite02 => ScenarioTag.AiSquadDefinitions[58].StartingLocations[0];
+            public IAiActorDefinition elite01 => ScenarioTag.AiSquadDefinitions[58].StartingLocations[1];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[58];
             public Squad_control_elites_cinematic(ScenarioTag ScenarioTag)
             {
@@ -2551,12 +2551,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_flood_wave_01_combat
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[59].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[59].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[59].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[59].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[59].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[59].StartingLocations[6];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[59].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[59].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[59].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[59].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[59].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[59].StartingLocations[5];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[59];
             public Squad_control_flood_wave_01_combat(ScenarioTag ScenarioTag)
             {
@@ -2567,16 +2567,16 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_flood_wave_02_combat
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[60].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[60].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[60].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[60].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[60].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[60].StartingLocations[6];
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[60].StartingLocations[7];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[60].StartingLocations[8];
-            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[60].StartingLocations[9];
-            public IAiActorDefinition starting_locations_9 => ScenarioTag.AiSquadDefinitions[60].StartingLocations[10];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[60].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[60].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[60].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[60].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[60].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[60].StartingLocations[5];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[60].StartingLocations[6];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[60].StartingLocations[7];
+            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[60].StartingLocations[8];
+            public IAiActorDefinition starting_locations_9 => ScenarioTag.AiSquadDefinitions[60].StartingLocations[9];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[60];
             public Squad_control_flood_wave_02_combat(ScenarioTag ScenarioTag)
             {
@@ -2587,9 +2587,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_flood_wave_02_carriers
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[61].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[61].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[61].StartingLocations[3];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[61].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[61].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[61].StartingLocations[2];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[61];
             public Squad_control_flood_wave_02_carriers(ScenarioTag ScenarioTag)
             {
@@ -2600,15 +2600,15 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_flood_wave_03_combat
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[62].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[62].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[62].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[62].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[62].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[62].StartingLocations[6];
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[62].StartingLocations[7];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[62].StartingLocations[8];
-            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[62].StartingLocations[9];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[62].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[62].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[62].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[62].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[62].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[62].StartingLocations[5];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[62].StartingLocations[6];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[62].StartingLocations[7];
+            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[62].StartingLocations[8];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[62];
             public Squad_control_flood_wave_03_combat(ScenarioTag ScenarioTag)
             {
@@ -2619,9 +2619,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_flood_wave_03_carriers
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[63].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[63].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[63].StartingLocations[3];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[63].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[63].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[63].StartingLocations[2];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[63];
             public Squad_control_flood_wave_03_carriers(ScenarioTag ScenarioTag)
             {
@@ -2632,13 +2632,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_infection
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[64].StartingLocations[1];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[64].StartingLocations[2];
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[64].StartingLocations[3];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[64].StartingLocations[4];
-            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[64].StartingLocations[5];
-            public IAiActorDefinition starting_locations_9 => ScenarioTag.AiSquadDefinitions[64].StartingLocations[6];
-            public IAiActorDefinition starting_locations_10 => ScenarioTag.AiSquadDefinitions[64].StartingLocations[7];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[64].StartingLocations[0];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[64].StartingLocations[1];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[64].StartingLocations[2];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[64].StartingLocations[3];
+            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[64].StartingLocations[4];
+            public IAiActorDefinition starting_locations_9 => ScenarioTag.AiSquadDefinitions[64].StartingLocations[5];
+            public IAiActorDefinition starting_locations_10 => ScenarioTag.AiSquadDefinitions[64].StartingLocations[6];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[64];
             public Squad_control_infection(ScenarioTag ScenarioTag)
             {
@@ -2649,10 +2649,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_sentinels_wave_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[65].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[65].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[65].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[65].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[65].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[65].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[65].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[65].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[65];
             public Squad_control_sentinels_wave_01(ScenarioTag ScenarioTag)
             {
@@ -2663,11 +2663,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_sentinels_wave_03
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[66].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[66].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[66].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[66].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[66].StartingLocations[5];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[66].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[66].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[66].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[66].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[66].StartingLocations[4];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[66];
             public Squad_control_sentinels_wave_03(ScenarioTag ScenarioTag)
             {
@@ -2678,7 +2678,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_allied_phantom_03
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[67].StartingLocations[1];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[67].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[67];
             public Squad_allied_phantom_03(ScenarioTag ScenarioTag)
             {
@@ -2689,12 +2689,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_cableroom_flood_init
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[68].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[68].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[68].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[68].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[68].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[68].StartingLocations[6];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[68].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[68].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[68].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[68].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[68].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[68].StartingLocations[5];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[68];
             public Squad_cableroom_flood_init(ScenarioTag ScenarioTag)
             {
@@ -2705,9 +2705,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_cableroom_sentinels_init
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[69].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[69].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[69].StartingLocations[3];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[69].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[69].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[69].StartingLocations[2];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[69];
             public Squad_cableroom_sentinels_init(ScenarioTag ScenarioTag)
             {
@@ -2718,24 +2718,24 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_cable_room_combatforms
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[1];
-            public IAiActorDefinition starting_locations_01 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[2];
-            public IAiActorDefinition starting_locations_02 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[3];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[4];
-            public IAiActorDefinition starting_locations_11 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[5];
-            public IAiActorDefinition starting_locations_12 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[6];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[7];
-            public IAiActorDefinition starting_locations_21 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[8];
-            public IAiActorDefinition starting_locations_22 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[9];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[10];
-            public IAiActorDefinition starting_locations_31 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[11];
-            public IAiActorDefinition starting_locations_32 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[12];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[13];
-            public IAiActorDefinition starting_locations_41 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[14];
-            public IAiActorDefinition starting_locations_42 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[15];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[16];
-            public IAiActorDefinition starting_locations_51 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[17];
-            public IAiActorDefinition starting_locations_52 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[18];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[0];
+            public IAiActorDefinition starting_locations_01 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[1];
+            public IAiActorDefinition starting_locations_02 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[2];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[3];
+            public IAiActorDefinition starting_locations_11 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[4];
+            public IAiActorDefinition starting_locations_12 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[5];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[6];
+            public IAiActorDefinition starting_locations_21 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[7];
+            public IAiActorDefinition starting_locations_22 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[8];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[9];
+            public IAiActorDefinition starting_locations_31 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[10];
+            public IAiActorDefinition starting_locations_32 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[11];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[12];
+            public IAiActorDefinition starting_locations_41 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[13];
+            public IAiActorDefinition starting_locations_42 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[14];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[15];
+            public IAiActorDefinition starting_locations_51 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[16];
+            public IAiActorDefinition starting_locations_52 => ScenarioTag.AiSquadDefinitions[70].StartingLocations[17];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[70];
             public Squad_cable_room_combatforms(ScenarioTag ScenarioTag)
             {
@@ -2746,9 +2746,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_cable_room_sentinels
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[71].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[71].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[71].StartingLocations[3];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[71].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[71].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[71].StartingLocations[2];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[71];
             public Squad_cable_room_sentinels(ScenarioTag ScenarioTag)
             {
@@ -2759,8 +2759,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_return_heretics_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[72].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[72].StartingLocations[2];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[72].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[72].StartingLocations[1];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[72];
             public Squad_control_return_heretics_01(ScenarioTag ScenarioTag)
             {
@@ -2771,12 +2771,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_return_heretics_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[73].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[73].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[73].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[73].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[73].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[73].StartingLocations[6];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[73].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[73].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[73].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[73].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[73].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[73].StartingLocations[5];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[73];
             public Squad_control_return_heretics_02(ScenarioTag ScenarioTag)
             {
@@ -2787,10 +2787,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_return_h_grunts_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[74].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[74].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[74].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[74].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[74].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[74].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[74].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[74].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[74];
             public Squad_control_return_h_grunts_02(ScenarioTag ScenarioTag)
             {
@@ -2801,14 +2801,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_return_heretics_03
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[75].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[75].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[75].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[75].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[75].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[75].StartingLocations[6];
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[75].StartingLocations[7];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[75].StartingLocations[8];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[75].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[75].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[75].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[75].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[75].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[75].StartingLocations[5];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[75].StartingLocations[6];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[75].StartingLocations[7];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[75];
             public Squad_control_return_heretics_03(ScenarioTag ScenarioTag)
             {
@@ -2819,10 +2819,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_return_h_grunts_03
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[76].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[76].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[76].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[76].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[76].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[76].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[76].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[76].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[76];
             public Squad_control_return_h_grunts_03(ScenarioTag ScenarioTag)
             {
@@ -2833,12 +2833,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_return_sentinels_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[77].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[77].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[77].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[77].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[77].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[77].StartingLocations[6];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[77].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[77].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[77].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[77].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[77].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[77].StartingLocations[5];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[77];
             public Squad_control_return_sentinels_01(ScenarioTag ScenarioTag)
             {
@@ -2849,14 +2849,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_return_flood_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[78].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[78].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[78].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[78].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[78].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[78].StartingLocations[6];
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[78].StartingLocations[7];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[78].StartingLocations[8];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[78].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[78].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[78].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[78].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[78].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[78].StartingLocations[5];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[78].StartingLocations[6];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[78].StartingLocations[7];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[78];
             public Squad_control_return_flood_01(ScenarioTag ScenarioTag)
             {
@@ -2867,14 +2867,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_return_flood_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition mid01 => ScenarioTag.AiSquadDefinitions[79].StartingLocations[1];
-            public IAiActorDefinition mid02 => ScenarioTag.AiSquadDefinitions[79].StartingLocations[2];
-            public IAiActorDefinition peri01 => ScenarioTag.AiSquadDefinitions[79].StartingLocations[3];
-            public IAiActorDefinition peri02 => ScenarioTag.AiSquadDefinitions[79].StartingLocations[4];
-            public IAiActorDefinition peri03 => ScenarioTag.AiSquadDefinitions[79].StartingLocations[5];
-            public IAiActorDefinition peri04 => ScenarioTag.AiSquadDefinitions[79].StartingLocations[6];
-            public IAiActorDefinition mid03 => ScenarioTag.AiSquadDefinitions[79].StartingLocations[7];
-            public IAiActorDefinition mid04 => ScenarioTag.AiSquadDefinitions[79].StartingLocations[8];
+            public IAiActorDefinition mid01 => ScenarioTag.AiSquadDefinitions[79].StartingLocations[0];
+            public IAiActorDefinition mid02 => ScenarioTag.AiSquadDefinitions[79].StartingLocations[1];
+            public IAiActorDefinition peri01 => ScenarioTag.AiSquadDefinitions[79].StartingLocations[2];
+            public IAiActorDefinition peri02 => ScenarioTag.AiSquadDefinitions[79].StartingLocations[3];
+            public IAiActorDefinition peri03 => ScenarioTag.AiSquadDefinitions[79].StartingLocations[4];
+            public IAiActorDefinition peri04 => ScenarioTag.AiSquadDefinitions[79].StartingLocations[5];
+            public IAiActorDefinition mid03 => ScenarioTag.AiSquadDefinitions[79].StartingLocations[6];
+            public IAiActorDefinition mid04 => ScenarioTag.AiSquadDefinitions[79].StartingLocations[7];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[79];
             public Squad_control_return_flood_02(ScenarioTag ScenarioTag)
             {
@@ -2885,14 +2885,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_return_flood_03
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition peri01 => ScenarioTag.AiSquadDefinitions[80].StartingLocations[1];
-            public IAiActorDefinition peri02 => ScenarioTag.AiSquadDefinitions[80].StartingLocations[2];
-            public IAiActorDefinition peri03 => ScenarioTag.AiSquadDefinitions[80].StartingLocations[3];
-            public IAiActorDefinition peri04 => ScenarioTag.AiSquadDefinitions[80].StartingLocations[4];
-            public IAiActorDefinition bott01 => ScenarioTag.AiSquadDefinitions[80].StartingLocations[5];
-            public IAiActorDefinition bott02 => ScenarioTag.AiSquadDefinitions[80].StartingLocations[6];
-            public IAiActorDefinition bott03 => ScenarioTag.AiSquadDefinitions[80].StartingLocations[7];
-            public IAiActorDefinition bott04 => ScenarioTag.AiSquadDefinitions[80].StartingLocations[8];
+            public IAiActorDefinition peri01 => ScenarioTag.AiSquadDefinitions[80].StartingLocations[0];
+            public IAiActorDefinition peri02 => ScenarioTag.AiSquadDefinitions[80].StartingLocations[1];
+            public IAiActorDefinition peri03 => ScenarioTag.AiSquadDefinitions[80].StartingLocations[2];
+            public IAiActorDefinition peri04 => ScenarioTag.AiSquadDefinitions[80].StartingLocations[3];
+            public IAiActorDefinition bott01 => ScenarioTag.AiSquadDefinitions[80].StartingLocations[4];
+            public IAiActorDefinition bott02 => ScenarioTag.AiSquadDefinitions[80].StartingLocations[5];
+            public IAiActorDefinition bott03 => ScenarioTag.AiSquadDefinitions[80].StartingLocations[6];
+            public IAiActorDefinition bott04 => ScenarioTag.AiSquadDefinitions[80].StartingLocations[7];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[80];
             public Squad_control_return_flood_03(ScenarioTag ScenarioTag)
             {
@@ -2903,14 +2903,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_return_flood_04
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition bott01 => ScenarioTag.AiSquadDefinitions[81].StartingLocations[1];
-            public IAiActorDefinition bott02 => ScenarioTag.AiSquadDefinitions[81].StartingLocations[2];
-            public IAiActorDefinition bott03 => ScenarioTag.AiSquadDefinitions[81].StartingLocations[3];
-            public IAiActorDefinition bott04 => ScenarioTag.AiSquadDefinitions[81].StartingLocations[4];
-            public IAiActorDefinition entry01 => ScenarioTag.AiSquadDefinitions[81].StartingLocations[5];
-            public IAiActorDefinition entry02 => ScenarioTag.AiSquadDefinitions[81].StartingLocations[6];
-            public IAiActorDefinition entry03 => ScenarioTag.AiSquadDefinitions[81].StartingLocations[7];
-            public IAiActorDefinition entry04 => ScenarioTag.AiSquadDefinitions[81].StartingLocations[8];
+            public IAiActorDefinition bott01 => ScenarioTag.AiSquadDefinitions[81].StartingLocations[0];
+            public IAiActorDefinition bott02 => ScenarioTag.AiSquadDefinitions[81].StartingLocations[1];
+            public IAiActorDefinition bott03 => ScenarioTag.AiSquadDefinitions[81].StartingLocations[2];
+            public IAiActorDefinition bott04 => ScenarioTag.AiSquadDefinitions[81].StartingLocations[3];
+            public IAiActorDefinition entry01 => ScenarioTag.AiSquadDefinitions[81].StartingLocations[4];
+            public IAiActorDefinition entry02 => ScenarioTag.AiSquadDefinitions[81].StartingLocations[5];
+            public IAiActorDefinition entry03 => ScenarioTag.AiSquadDefinitions[81].StartingLocations[6];
+            public IAiActorDefinition entry04 => ScenarioTag.AiSquadDefinitions[81].StartingLocations[7];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[81];
             public Squad_control_return_flood_04(ScenarioTag ScenarioTag)
             {
@@ -2921,10 +2921,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_return_carriers_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[82].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[82].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[82].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[82].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[82].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[82].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[82].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[82].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[82];
             public Squad_control_return_carriers_01(ScenarioTag ScenarioTag)
             {
@@ -2935,10 +2935,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_return_carriers_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition peri01 => ScenarioTag.AiSquadDefinitions[83].StartingLocations[1];
-            public IAiActorDefinition peri02 => ScenarioTag.AiSquadDefinitions[83].StartingLocations[2];
-            public IAiActorDefinition mid01 => ScenarioTag.AiSquadDefinitions[83].StartingLocations[3];
-            public IAiActorDefinition mid02 => ScenarioTag.AiSquadDefinitions[83].StartingLocations[4];
+            public IAiActorDefinition peri01 => ScenarioTag.AiSquadDefinitions[83].StartingLocations[0];
+            public IAiActorDefinition peri02 => ScenarioTag.AiSquadDefinitions[83].StartingLocations[1];
+            public IAiActorDefinition mid01 => ScenarioTag.AiSquadDefinitions[83].StartingLocations[2];
+            public IAiActorDefinition mid02 => ScenarioTag.AiSquadDefinitions[83].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[83];
             public Squad_control_return_carriers_02(ScenarioTag ScenarioTag)
             {
@@ -2949,10 +2949,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_return_carriers_03
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition bott01 => ScenarioTag.AiSquadDefinitions[84].StartingLocations[1];
-            public IAiActorDefinition bott02 => ScenarioTag.AiSquadDefinitions[84].StartingLocations[2];
-            public IAiActorDefinition peri01 => ScenarioTag.AiSquadDefinitions[84].StartingLocations[3];
-            public IAiActorDefinition peri02 => ScenarioTag.AiSquadDefinitions[84].StartingLocations[4];
+            public IAiActorDefinition bott01 => ScenarioTag.AiSquadDefinitions[84].StartingLocations[0];
+            public IAiActorDefinition bott02 => ScenarioTag.AiSquadDefinitions[84].StartingLocations[1];
+            public IAiActorDefinition peri01 => ScenarioTag.AiSquadDefinitions[84].StartingLocations[2];
+            public IAiActorDefinition peri02 => ScenarioTag.AiSquadDefinitions[84].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[84];
             public Squad_control_return_carriers_03(ScenarioTag ScenarioTag)
             {
@@ -2963,10 +2963,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_control_return_carriers_04
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition bott01 => ScenarioTag.AiSquadDefinitions[85].StartingLocations[1];
-            public IAiActorDefinition bott02 => ScenarioTag.AiSquadDefinitions[85].StartingLocations[2];
-            public IAiActorDefinition entry01 => ScenarioTag.AiSquadDefinitions[85].StartingLocations[3];
-            public IAiActorDefinition entry02 => ScenarioTag.AiSquadDefinitions[85].StartingLocations[4];
+            public IAiActorDefinition bott01 => ScenarioTag.AiSquadDefinitions[85].StartingLocations[0];
+            public IAiActorDefinition bott02 => ScenarioTag.AiSquadDefinitions[85].StartingLocations[1];
+            public IAiActorDefinition entry01 => ScenarioTag.AiSquadDefinitions[85].StartingLocations[2];
+            public IAiActorDefinition entry02 => ScenarioTag.AiSquadDefinitions[85].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[85];
             public Squad_control_return_carriers_04(ScenarioTag ScenarioTag)
             {
@@ -2977,12 +2977,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_power_core_heretics_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[86].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[86].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[86].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[86].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[86].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[86].StartingLocations[6];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[86].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[86].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[86].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[86].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[86].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[86].StartingLocations[5];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[86];
             public Squad_power_core_heretics_01(ScenarioTag ScenarioTag)
             {
@@ -2993,12 +2993,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_power_core_h_grunts_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[87].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[87].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[87].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[87].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[87].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[87].StartingLocations[6];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[87].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[87].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[87].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[87].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[87].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[87].StartingLocations[5];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[87];
             public Squad_power_core_h_grunts_01(ScenarioTag ScenarioTag)
             {
@@ -3009,11 +3009,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_power_core_sentinels_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[88].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[88].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[88].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[88].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[88].StartingLocations[5];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[88].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[88].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[88].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[88].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[88].StartingLocations[4];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[88];
             public Squad_power_core_sentinels_01(ScenarioTag ScenarioTag)
             {
@@ -3024,14 +3024,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_power_core_combatforms
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[89].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[89].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[89].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[89].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[89].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[89].StartingLocations[6];
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[89].StartingLocations[7];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[89].StartingLocations[8];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[89].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[89].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[89].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[89].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[89].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[89].StartingLocations[5];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[89].StartingLocations[6];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[89].StartingLocations[7];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[89];
             public Squad_power_core_combatforms(ScenarioTag ScenarioTag)
             {
@@ -3042,10 +3042,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_power_core_carriers
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[90].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[90].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[90].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[90].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[90].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[90].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[90].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[90].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[90];
             public Squad_power_core_carriers(ScenarioTag ScenarioTag)
             {
@@ -3056,8 +3056,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_ledge_banshees_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition right => ScenarioTag.AiSquadDefinitions[91].StartingLocations[1];
-            public IAiActorDefinition left => ScenarioTag.AiSquadDefinitions[91].StartingLocations[2];
+            public IAiActorDefinition right => ScenarioTag.AiSquadDefinitions[91].StartingLocations[0];
+            public IAiActorDefinition left => ScenarioTag.AiSquadDefinitions[91].StartingLocations[1];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[91];
             public Squad_ledge_banshees_02(ScenarioTag ScenarioTag)
             {
@@ -3068,7 +3068,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_heretic_leader_04
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[92].StartingLocations[1];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[92].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[92];
             public Squad_heretic_leader_04(ScenarioTag ScenarioTag)
             {
@@ -3079,7 +3079,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_dervish_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[93].StartingLocations[1];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[93].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[93];
             public Squad_dervish_01(ScenarioTag ScenarioTag)
             {
@@ -3090,7 +3090,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_dervish_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[94].StartingLocations[1];
+            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[94].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[94];
             public Squad_dervish_02(ScenarioTag ScenarioTag)
             {
@@ -3101,7 +3101,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_dervish_031
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[95].StartingLocations[1];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[95].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[95];
             public Squad_dervish_031(ScenarioTag ScenarioTag)
             {
@@ -3112,8 +3112,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_dogfighters_init
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[96].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[96].StartingLocations[2];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[96].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[96].StartingLocations[1];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[96];
             public Squad_dogfighters_init(ScenarioTag ScenarioTag)
             {
@@ -3124,12 +3124,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_dogfighters_finale
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition _6 => ScenarioTag.AiSquadDefinitions[97].StartingLocations[1];
-            public IAiActorDefinition _5 => ScenarioTag.AiSquadDefinitions[97].StartingLocations[2];
-            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[97].StartingLocations[3];
-            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[97].StartingLocations[4];
-            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[97].StartingLocations[5];
-            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[97].StartingLocations[6];
+            public IAiActorDefinition _6 => ScenarioTag.AiSquadDefinitions[97].StartingLocations[0];
+            public IAiActorDefinition _5 => ScenarioTag.AiSquadDefinitions[97].StartingLocations[1];
+            public IAiActorDefinition _3 => ScenarioTag.AiSquadDefinitions[97].StartingLocations[2];
+            public IAiActorDefinition _4 => ScenarioTag.AiSquadDefinitions[97].StartingLocations[3];
+            public IAiActorDefinition _1 => ScenarioTag.AiSquadDefinitions[97].StartingLocations[4];
+            public IAiActorDefinition _2 => ScenarioTag.AiSquadDefinitions[97].StartingLocations[5];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[97];
             public Squad_dogfighters_finale(ScenarioTag ScenarioTag)
             {
@@ -3140,8 +3140,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bottling_return_sentinels_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[98].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[98].StartingLocations[2];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[98].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[98].StartingLocations[1];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[98];
             public Squad_bottling_return_sentinels_01(ScenarioTag ScenarioTag)
             {
@@ -3152,10 +3152,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bottling_return_sentinels_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[99].StartingLocations[1];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[99].StartingLocations[2];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[99].StartingLocations[3];
-            public IAiActorDefinition starting_locations_31 => ScenarioTag.AiSquadDefinitions[99].StartingLocations[4];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[99].StartingLocations[0];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[99].StartingLocations[1];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[99].StartingLocations[2];
+            public IAiActorDefinition starting_locations_31 => ScenarioTag.AiSquadDefinitions[99].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[99];
             public Squad_bottling_return_sentinels_02(ScenarioTag ScenarioTag)
             {
@@ -3166,9 +3166,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bottling_return_sentinels_03
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[100].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[100].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[100].StartingLocations[3];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[100].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[100].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[100].StartingLocations[2];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[100];
             public Squad_bottling_return_sentinels_03(ScenarioTag ScenarioTag)
             {
@@ -3179,18 +3179,18 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bottling_return_flood_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[6];
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[7];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[8];
-            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[9];
-            public IAiActorDefinition starting_locations_9 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[10];
-            public IAiActorDefinition starting_locations_10 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[11];
-            public IAiActorDefinition starting_locations_11 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[12];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[5];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[6];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[7];
+            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[8];
+            public IAiActorDefinition starting_locations_9 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[9];
+            public IAiActorDefinition starting_locations_10 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[10];
+            public IAiActorDefinition starting_locations_11 => ScenarioTag.AiSquadDefinitions[101].StartingLocations[11];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[101];
             public Squad_bottling_return_flood_01(ScenarioTag ScenarioTag)
             {
@@ -3201,15 +3201,15 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bottling_return_combatforms_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[102].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[102].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[102].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[102].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[102].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[102].StartingLocations[6];
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[102].StartingLocations[7];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[102].StartingLocations[8];
-            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[102].StartingLocations[9];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[102].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[102].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[102].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[102].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[102].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[102].StartingLocations[5];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[102].StartingLocations[6];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[102].StartingLocations[7];
+            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[102].StartingLocations[8];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[102];
             public Squad_bottling_return_combatforms_02(ScenarioTag ScenarioTag)
             {
@@ -3220,9 +3220,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bottling_return_carriers_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[103].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[103].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[103].StartingLocations[3];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[103].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[103].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[103].StartingLocations[2];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[103];
             public Squad_bottling_return_carriers_02(ScenarioTag ScenarioTag)
             {
@@ -3233,12 +3233,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bottling_return_combatforms_03
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[104].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[104].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[104].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[104].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[104].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[104].StartingLocations[6];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[104].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[104].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[104].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[104].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[104].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[104].StartingLocations[5];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[104];
             public Squad_bottling_return_combatforms_03(ScenarioTag ScenarioTag)
             {
@@ -3249,10 +3249,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bottling_return_carriers_03
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[105].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[105].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[105].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[105].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[105].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[105].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[105].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[105].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[105];
             public Squad_bottling_return_carriers_03(ScenarioTag ScenarioTag)
             {
@@ -3263,15 +3263,15 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bottling_return_combatforms_04
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[106].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[106].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[106].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[106].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[106].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[106].StartingLocations[6];
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[106].StartingLocations[7];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[106].StartingLocations[8];
-            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[106].StartingLocations[9];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[106].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[106].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[106].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[106].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[106].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[106].StartingLocations[5];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[106].StartingLocations[6];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[106].StartingLocations[7];
+            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[106].StartingLocations[8];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[106];
             public Squad_bottling_return_combatforms_04(ScenarioTag ScenarioTag)
             {
@@ -3282,9 +3282,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bottling_return_carriers_04
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[107].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[107].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[107].StartingLocations[3];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[107].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[107].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[107].StartingLocations[2];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[107];
             public Squad_bottling_return_carriers_04(ScenarioTag ScenarioTag)
             {
@@ -3295,11 +3295,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_second_hall_infection_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[108].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[108].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[108].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[108].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[108].StartingLocations[5];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[108].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[108].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[108].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[108].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[108].StartingLocations[4];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[108];
             public Squad_second_hall_infection_01(ScenarioTag ScenarioTag)
             {
@@ -3310,14 +3310,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_second_hall_flood_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[109].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[109].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[109].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[109].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[109].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[109].StartingLocations[6];
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[109].StartingLocations[7];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[109].StartingLocations[8];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[109].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[109].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[109].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[109].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[109].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[109].StartingLocations[5];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[109].StartingLocations[6];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[109].StartingLocations[7];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[109];
             public Squad_second_hall_flood_01(ScenarioTag ScenarioTag)
             {
@@ -3328,9 +3328,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_second_hall_carriers
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[110].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[110].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[110].StartingLocations[3];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[110].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[110].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[110].StartingLocations[2];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[110];
             public Squad_second_hall_carriers(ScenarioTag ScenarioTag)
             {
@@ -3341,14 +3341,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_second_hall_flood_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[111].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[111].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[111].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[111].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[111].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[111].StartingLocations[6];
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[111].StartingLocations[7];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[111].StartingLocations[8];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[111].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[111].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[111].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[111].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[111].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[111].StartingLocations[5];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[111].StartingLocations[6];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[111].StartingLocations[7];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[111];
             public Squad_second_hall_flood_02(ScenarioTag ScenarioTag)
             {
@@ -3359,11 +3359,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_second_hall_infection_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[112].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[112].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[112].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[112].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[112].StartingLocations[5];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[112].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[112].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[112].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[112].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[112].StartingLocations[4];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[112];
             public Squad_second_hall_infection_02(ScenarioTag ScenarioTag)
             {
@@ -3374,14 +3374,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_second_hall_flood_03
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[113].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[113].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[113].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[113].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[113].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[113].StartingLocations[6];
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[113].StartingLocations[7];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[113].StartingLocations[8];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[113].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[113].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[113].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[113].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[113].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[113].StartingLocations[5];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[113].StartingLocations[6];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[113].StartingLocations[7];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[113];
             public Squad_second_hall_flood_03(ScenarioTag ScenarioTag)
             {
@@ -3392,12 +3392,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_underhangar_heretics_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[114].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[114].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[114].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[114].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[114].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[114].StartingLocations[6];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[114].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[114].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[114].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[114].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[114].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[114].StartingLocations[5];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[114];
             public Squad_underhangar_heretics_01(ScenarioTag ScenarioTag)
             {
@@ -3408,10 +3408,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_underhangar_h_grunts_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[115].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[115].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[115].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[115].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[115].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[115].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[115].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[115].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[115];
             public Squad_underhangar_h_grunts_01(ScenarioTag ScenarioTag)
             {
@@ -3422,9 +3422,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_underhangar_heretics_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[116].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[116].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[116].StartingLocations[3];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[116].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[116].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[116].StartingLocations[2];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[116];
             public Squad_underhangar_heretics_02(ScenarioTag ScenarioTag)
             {
@@ -3435,8 +3435,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_underhangar_h_grunts_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[117].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[117].StartingLocations[2];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[117].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[117].StartingLocations[1];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[117];
             public Squad_underhangar_h_grunts_02(ScenarioTag ScenarioTag)
             {
@@ -3447,12 +3447,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_underhangar_heretics_03
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[118].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[118].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[118].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[118].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[118].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[118].StartingLocations[6];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[118].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[118].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[118].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[118].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[118].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[118].StartingLocations[5];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[118];
             public Squad_underhangar_heretics_03(ScenarioTag ScenarioTag)
             {
@@ -3463,9 +3463,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_underhangar_h_grunts_03
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[119].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[119].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[119].StartingLocations[3];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[119].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[119].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[119].StartingLocations[2];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[119];
             public Squad_underhangar_h_grunts_03(ScenarioTag ScenarioTag)
             {
@@ -3476,15 +3476,15 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_underhangar_combatforms_init
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[120].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[120].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[120].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[120].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[120].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[120].StartingLocations[6];
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[120].StartingLocations[7];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[120].StartingLocations[8];
-            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[120].StartingLocations[9];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[120].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[120].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[120].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[120].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[120].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[120].StartingLocations[5];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[120].StartingLocations[6];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[120].StartingLocations[7];
+            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[120].StartingLocations[8];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[120];
             public Squad_underhangar_combatforms_init(ScenarioTag ScenarioTag)
             {
@@ -3495,9 +3495,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_underhangar_carriers_init
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[121].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[121].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[121].StartingLocations[3];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[121].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[121].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[121].StartingLocations[2];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[121];
             public Squad_underhangar_carriers_init(ScenarioTag ScenarioTag)
             {
@@ -3508,9 +3508,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_underhangar_carriers_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[122].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[122].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[122].StartingLocations[3];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[122].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[122].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[122].StartingLocations[2];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[122];
             public Squad_underhangar_carriers_02(ScenarioTag ScenarioTag)
             {
@@ -3521,18 +3521,18 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_underhangar_return_flood_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[6];
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[7];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[8];
-            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[9];
-            public IAiActorDefinition starting_locations_9 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[10];
-            public IAiActorDefinition starting_locations_10 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[11];
-            public IAiActorDefinition starting_locations_11 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[12];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[5];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[6];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[7];
+            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[8];
+            public IAiActorDefinition starting_locations_9 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[9];
+            public IAiActorDefinition starting_locations_10 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[10];
+            public IAiActorDefinition starting_locations_11 => ScenarioTag.AiSquadDefinitions[123].StartingLocations[11];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[123];
             public Squad_underhangar_return_flood_01(ScenarioTag ScenarioTag)
             {
@@ -3543,18 +3543,18 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_underhangar_return_flood_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[6];
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[7];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[8];
-            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[9];
-            public IAiActorDefinition starting_locations_9 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[10];
-            public IAiActorDefinition starting_locations_10 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[11];
-            public IAiActorDefinition starting_locations_11 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[12];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[5];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[6];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[7];
+            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[8];
+            public IAiActorDefinition starting_locations_9 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[9];
+            public IAiActorDefinition starting_locations_10 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[10];
+            public IAiActorDefinition starting_locations_11 => ScenarioTag.AiSquadDefinitions[124].StartingLocations[11];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[124];
             public Squad_underhangar_return_flood_02(ScenarioTag ScenarioTag)
             {
@@ -3565,18 +3565,18 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_underhangar_return_flood_03
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[1];
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[2];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[3];
-            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[4];
-            public IAiActorDefinition starting_locations_9 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[5];
-            public IAiActorDefinition starting_locations_10 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[6];
-            public IAiActorDefinition starting_locations_11 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[7];
-            public IAiActorDefinition starting_locations_12 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[8];
-            public IAiActorDefinition starting_locations_13 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[9];
-            public IAiActorDefinition starting_locations_14 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[10];
-            public IAiActorDefinition starting_locations_15 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[11];
-            public IAiActorDefinition starting_locations_16 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[12];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[0];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[1];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[2];
+            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[3];
+            public IAiActorDefinition starting_locations_9 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[4];
+            public IAiActorDefinition starting_locations_10 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[5];
+            public IAiActorDefinition starting_locations_11 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[6];
+            public IAiActorDefinition starting_locations_12 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[7];
+            public IAiActorDefinition starting_locations_13 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[8];
+            public IAiActorDefinition starting_locations_14 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[9];
+            public IAiActorDefinition starting_locations_15 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[10];
+            public IAiActorDefinition starting_locations_16 => ScenarioTag.AiSquadDefinitions[125].StartingLocations[11];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[125];
             public Squad_underhangar_return_flood_03(ScenarioTag ScenarioTag)
             {
@@ -3587,18 +3587,18 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_underhangar_return_flood_04
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[6];
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[7];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[8];
-            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[9];
-            public IAiActorDefinition starting_locations_9 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[10];
-            public IAiActorDefinition starting_locations_10 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[11];
-            public IAiActorDefinition starting_locations_11 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[12];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[5];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[6];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[7];
+            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[8];
+            public IAiActorDefinition starting_locations_9 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[9];
+            public IAiActorDefinition starting_locations_10 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[10];
+            public IAiActorDefinition starting_locations_11 => ScenarioTag.AiSquadDefinitions[126].StartingLocations[11];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[126];
             public Squad_underhangar_return_flood_04(ScenarioTag ScenarioTag)
             {
@@ -3609,12 +3609,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_first_hall_flood_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[127].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[127].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[127].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[127].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[127].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[127].StartingLocations[6];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[127].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[127].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[127].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[127].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[127].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[127].StartingLocations[5];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[127];
             public Squad_first_hall_flood_01(ScenarioTag ScenarioTag)
             {
@@ -3625,7 +3625,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_heretic_leader_hangar
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[128].StartingLocations[1];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[128].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[128];
             public Squad_heretic_leader_hangar(ScenarioTag ScenarioTag)
             {
@@ -3636,38 +3636,38 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_boss_fight_combatforms
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[1];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[2];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[3];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[4];
-            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[5];
-            public IAiActorDefinition starting_locations_9 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[6];
-            public IAiActorDefinition starting_locations_10 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[7];
-            public IAiActorDefinition starting_locations_11 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[8];
-            public IAiActorDefinition starting_locations_14 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[9];
-            public IAiActorDefinition starting_locations_15 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[10];
-            public IAiActorDefinition starting_locations_17 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[11];
-            public IAiActorDefinition starting_locations_18 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[12];
-            public IAiActorDefinition starting_locations_20 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[13];
-            public IAiActorDefinition starting_locations_21 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[14];
-            public IAiActorDefinition starting_locations_24 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[15];
-            public IAiActorDefinition starting_locations_25 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[16];
-            public IAiActorDefinition starting_locations_28 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[17];
-            public IAiActorDefinition starting_locations_29 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[18];
-            public IAiActorDefinition starting_locations_30 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[19];
-            public IAiActorDefinition starting_locations_31 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[20];
-            public IAiActorDefinition starting_locations_201 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[21];
-            public IAiActorDefinition starting_locations_211 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[22];
-            public IAiActorDefinition starting_locations_22 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[23];
-            public IAiActorDefinition starting_locations_23 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[24];
-            public IAiActorDefinition starting_locations_241 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[25];
-            public IAiActorDefinition starting_locations_251 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[26];
-            public IAiActorDefinition starting_locations_26 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[27];
-            public IAiActorDefinition starting_locations_27 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[28];
-            public IAiActorDefinition starting_locations_281 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[29];
-            public IAiActorDefinition starting_locations_291 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[30];
-            public IAiActorDefinition starting_locations_301 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[31];
-            public IAiActorDefinition starting_locations_311 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[32];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[0];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[1];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[2];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[3];
+            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[4];
+            public IAiActorDefinition starting_locations_9 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[5];
+            public IAiActorDefinition starting_locations_10 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[6];
+            public IAiActorDefinition starting_locations_11 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[7];
+            public IAiActorDefinition starting_locations_14 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[8];
+            public IAiActorDefinition starting_locations_15 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[9];
+            public IAiActorDefinition starting_locations_17 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[10];
+            public IAiActorDefinition starting_locations_18 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[11];
+            public IAiActorDefinition starting_locations_20 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[12];
+            public IAiActorDefinition starting_locations_21 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[13];
+            public IAiActorDefinition starting_locations_24 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[14];
+            public IAiActorDefinition starting_locations_25 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[15];
+            public IAiActorDefinition starting_locations_28 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[16];
+            public IAiActorDefinition starting_locations_29 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[17];
+            public IAiActorDefinition starting_locations_30 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[18];
+            public IAiActorDefinition starting_locations_31 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[19];
+            public IAiActorDefinition starting_locations_201 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[20];
+            public IAiActorDefinition starting_locations_211 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[21];
+            public IAiActorDefinition starting_locations_22 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[22];
+            public IAiActorDefinition starting_locations_23 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[23];
+            public IAiActorDefinition starting_locations_241 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[24];
+            public IAiActorDefinition starting_locations_251 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[25];
+            public IAiActorDefinition starting_locations_26 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[26];
+            public IAiActorDefinition starting_locations_27 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[27];
+            public IAiActorDefinition starting_locations_281 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[28];
+            public IAiActorDefinition starting_locations_291 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[29];
+            public IAiActorDefinition starting_locations_301 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[30];
+            public IAiActorDefinition starting_locations_311 => ScenarioTag.AiSquadDefinitions[129].StartingLocations[31];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[129];
             public Squad_boss_fight_combatforms(ScenarioTag ScenarioTag)
             {
@@ -3678,16 +3678,16 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_boss_fight_carriers
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[130].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[130].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[130].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[130].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[130].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[130].StartingLocations[6];
-            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[130].StartingLocations[7];
-            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[130].StartingLocations[8];
-            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[130].StartingLocations[9];
-            public IAiActorDefinition starting_locations_9 => ScenarioTag.AiSquadDefinitions[130].StartingLocations[10];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[130].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[130].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[130].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[130].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[130].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[130].StartingLocations[5];
+            public IAiActorDefinition starting_locations_6 => ScenarioTag.AiSquadDefinitions[130].StartingLocations[6];
+            public IAiActorDefinition starting_locations_7 => ScenarioTag.AiSquadDefinitions[130].StartingLocations[7];
+            public IAiActorDefinition starting_locations_8 => ScenarioTag.AiSquadDefinitions[130].StartingLocations[8];
+            public IAiActorDefinition starting_locations_9 => ScenarioTag.AiSquadDefinitions[130].StartingLocations[9];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[130];
             public Squad_boss_fight_carriers(ScenarioTag ScenarioTag)
             {
@@ -3698,12 +3698,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_boss_fight_sentinels
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[131].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[131].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[131].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[131].StartingLocations[4];
-            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[131].StartingLocations[5];
-            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[131].StartingLocations[6];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[131].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[131].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[131].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[131].StartingLocations[3];
+            public IAiActorDefinition starting_locations_4 => ScenarioTag.AiSquadDefinitions[131].StartingLocations[4];
+            public IAiActorDefinition starting_locations_5 => ScenarioTag.AiSquadDefinitions[131].StartingLocations[5];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[131];
             public Squad_boss_fight_sentinels(ScenarioTag ScenarioTag)
             {
@@ -3714,7 +3714,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_boss_fight_heretic_leader
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition hl => ScenarioTag.AiSquadDefinitions[132].StartingLocations[1];
+            public IAiActorDefinition hl => ScenarioTag.AiSquadDefinitions[132].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[132];
             public Squad_boss_fight_heretic_leader(ScenarioTag ScenarioTag)
             {
@@ -3725,7 +3725,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_boss_fight_hl_hologram_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[133].StartingLocations[1];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[133].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[133];
             public Squad_boss_fight_hl_hologram_01(ScenarioTag ScenarioTag)
             {
@@ -3736,7 +3736,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_boss_fight_hl_hologram_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[134].StartingLocations[1];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[134].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[134];
             public Squad_boss_fight_hl_hologram_02(ScenarioTag ScenarioTag)
             {
@@ -3747,10 +3747,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_hl_boss_random
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[135].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[135].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[135].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[135].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[135].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[135].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[135].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[135].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[135];
             public Squad_hl_boss_random(ScenarioTag ScenarioTag)
             {
@@ -3761,10 +3761,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_hl_boss_holo_random_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[136].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[136].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[136].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[136].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[136].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[136].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[136].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[136].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[136];
             public Squad_hl_boss_holo_random_01(ScenarioTag ScenarioTag)
             {
@@ -3775,10 +3775,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_hl_boss_holo_random_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[137].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[137].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[137].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[137].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[137].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[137].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[137].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[137].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[137];
             public Squad_hl_boss_holo_random_02(ScenarioTag ScenarioTag)
             {
@@ -3789,10 +3789,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_hl_boss_holo_random_03
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[138].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[138].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[138].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[138].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[138].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[138].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[138].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[138].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[138];
             public Squad_hl_boss_holo_random_03(ScenarioTag ScenarioTag)
             {
@@ -3803,10 +3803,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_hl_boss_last
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[139].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[139].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[139].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[139].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[139].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[139].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[139].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[139].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[139];
             public Squad_hl_boss_last(ScenarioTag ScenarioTag)
             {
@@ -3817,7 +3817,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_monitor1
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[140].StartingLocations[1];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[140].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[140];
             public Squad_monitor1(ScenarioTag ScenarioTag)
             {
@@ -3828,10 +3828,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_hl_boss_holo_random_04
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[141].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[141].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[141].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[141].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[141].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[141].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[141].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[141].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[141];
             public Squad_hl_boss_holo_random_04(ScenarioTag ScenarioTag)
             {
@@ -3842,7 +3842,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bait_hall_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[142].StartingLocations[1];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[142].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[142];
             public Squad_bait_hall_01(ScenarioTag ScenarioTag)
             {
@@ -3853,7 +3853,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bait_hall_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[143].StartingLocations[1];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[143].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[143];
             public Squad_bait_hall_02(ScenarioTag ScenarioTag)
             {
@@ -3864,7 +3864,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bait_hall_03
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[144].StartingLocations[1];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[144].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[144];
             public Squad_bait_hall_03(ScenarioTag ScenarioTag)
             {
@@ -3875,7 +3875,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bait_bottling_02
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[145].StartingLocations[1];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[145].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[145];
             public Squad_bait_bottling_02(ScenarioTag ScenarioTag)
             {
@@ -3886,7 +3886,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_bait_bottling_01
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[146].StartingLocations[1];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[146].StartingLocations[0];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[146];
             public Squad_bait_bottling_01(ScenarioTag ScenarioTag)
             {
@@ -3897,10 +3897,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_famine_cf
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[147].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[147].StartingLocations[2];
-            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[147].StartingLocations[3];
-            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[147].StartingLocations[4];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[147].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[147].StartingLocations[1];
+            public IAiActorDefinition starting_locations_2 => ScenarioTag.AiSquadDefinitions[147].StartingLocations[2];
+            public IAiActorDefinition starting_locations_3 => ScenarioTag.AiSquadDefinitions[147].StartingLocations[3];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[147];
             public Squad_famine_cf(ScenarioTag ScenarioTag)
             {
@@ -3911,8 +3911,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public class Squad_power_core_swords
         {
             public ScenarioTag ScenarioTag { get; set; }
-            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[148].StartingLocations[1];
-            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[148].StartingLocations[2];
+            public IAiActorDefinition starting_locations_0 => ScenarioTag.AiSquadDefinitions[148].StartingLocations[0];
+            public IAiActorDefinition starting_locations_1 => ScenarioTag.AiSquadDefinitions[148].StartingLocations[1];
             public IAiActorDefinition Squad => ScenarioTag.AiSquadDefinitions[148];
             public Squad_power_core_swords(ScenarioTag ScenarioTag)
             {

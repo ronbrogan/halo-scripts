@@ -1,23 +1,23 @@
 
 ("cs_e2_mars_inf0_watch", MethodDecl<Void> @:370 check:0,op:0,dt:0,nt:65535,next:15152,nextCheck:40612,str:25406,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:15152 check:40612,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:55644,h:2,d0:15153,d1:40613;
+    (____, BuiltinInvocation<Void> @:15152 check:40612,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:55644,h:2,d0:15153,d1:40613;
         ("begin", Expression<MethodOrOperator> @:15153 check:40613,op:0,dt:2,nt:9,next:15132,nextCheck:40592,str:64,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:15132 check:40592,op:391,dt:4,nt:8,next:15135,nextCheck:40595,str:55691,h:2,d0:15133,d1:40593;
+            (____, BuiltinInvocation<Void> @:15132 check:40592,op:391,dt:4,nt:8,next:15135,nextCheck:40595,str:55691,h:2,d0:15133,d1:40593;
                 ("cs_go_to_nearest", Expression<MethodOrOperator> @:15133 check:40593,op:391,dt:2,nt:9,next:15134,nextCheck:40594,str:24922,h:0,d0:0,d1:0;
                     ("e2_mars_inf0_positions", Expression<SpatialPoint> @:15134 check:40594,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:24939,h:0,d0:65535,d1:8;)))
-            (____, Scope<Void> @:15135 check:40595,op:423,dt:4,nt:8,next:15138,nextCheck:40598,str:55735,h:2,d0:15136,d1:40596;
+            (____, BuiltinInvocation<Void> @:15135 check:40595,op:423,dt:4,nt:8,next:15138,nextCheck:40598,str:55735,h:2,d0:15136,d1:40596;
                 ("cs_crouch", Expression<MethodOrOperator> @:15136 check:40596,op:423,dt:2,nt:9,next:15137,nextCheck:40597,str:17700,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:15137 check:40597,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:55746,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:15138 check:40598,op:21,dt:4,nt:8,next:15141,nextCheck:40601,str:55801,h:2,d0:15139,d1:40599;
+            (____, BuiltinInvocation<Void> @:15138 check:40598,op:21,dt:4,nt:8,next:15141,nextCheck:40601,str:55801,h:2,d0:15139,d1:40599;
                 ("sleep_until", Expression<MethodOrOperator> @:15139 check:40599,op:21,dt:2,nt:9,next:15140,nextCheck:40600,str:294,h:0,d0:0,d1:0;
                     ("g_e2_door_breached", VariableAccess<Boolean> @:15140 check:40600,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:24879,h:0,d0:44,d1:0;)))
-            (____, Scope<Void> @:15141 check:40601,op:398,dt:4,nt:8,next:15147,nextCheck:40607,str:55864,h:2,d0:15142,d1:40602;
+            (____, BuiltinInvocation<Void> @:15141 check:40601,op:398,dt:4,nt:8,next:15147,nextCheck:40607,str:55864,h:2,d0:15142,d1:40602;
                 ("cs_aim_object", Expression<MethodOrOperator> @:15142 check:40602,op:398,dt:2,nt:9,next:15143,nextCheck:40603,str:19381,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:15143 check:40603,op:5,dt:5,nt:9,next:15144,nextCheck:40604,str:55879,h:2,d0:65281,d1:65535;
-                        (____, Scope<Entity> @:15144 check:40604,op:284,dt:50,nt:8,next:65535,nextCheck:65535,str:55884,h:2,d0:15145,d1:40605;
+                        (____, BuiltinInvocation<Entity> @:15144 check:40604,op:284,dt:50,nt:8,next:65535,nextCheck:65535,str:55884,h:2,d0:15145,d1:40605;
                             ("ai_get_object", Expression<MethodOrOperator> @:15145 check:40605,op:284,dt:2,nt:9,next:15146,nextCheck:40606,str:4457,h:0,d0:0,d1:0;
                                 ("e2_cov_hunters0/hunter0", Expression<AI> @:15146 check:40606,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:24898,h:0,d0:0,d1:49183;))))))
-            (____, Scope<Void> @:15147 check:40607,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:55949,h:2,d0:15148,d1:40608;
+            (____, BuiltinInvocation<Void> @:15147 check:40607,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:55949,h:2,d0:15148,d1:40608;
                 ("sleep_until", Expression<MethodOrOperator> @:15148 check:40608,op:21,dt:2,nt:9,next:15149,nextCheck:40609,str:294,h:0,d0:0,d1:0;
                     ("g_e2_cov_hunters0_active", VariableAccess<Boolean> @:15149 check:40609,op:5,dt:5,nt:13,next:15150,nextCheck:40610,str:24549,h:0,d0:45,d1:0;
                         (10, Expression<Short> @:15150 check:40610,op:7,dt:7,nt:9,next:15151,nextCheck:40611,str:55993,h:2,d0:10,d1:65535;

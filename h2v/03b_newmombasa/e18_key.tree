@@ -1,36 +1,36 @@
 
 ("e18_key", MethodDecl<Void> @:353 check:0,op:0,dt:0,nt:65535,next:12616,nextCheck:38076,str:26312,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:12616 check:38076,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:32604,h:2,d0:12617,d1:38077;
+    (____, BuiltinInvocation<Void> @:12616 check:38076,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:32604,h:2,d0:12617,d1:38077;
         ("begin", Expression<MethodOrOperator> @:12617 check:38077,op:0,dt:2,nt:9,next:12584,nextCheck:38044,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:12584 check:38044,op:2,dt:4,nt:8,next:12592,nextCheck:38052,str:32630,h:2,d0:12585,d1:38045;
+            (____, BuiltinInvocation<Void> @:12584 check:38044,op:2,dt:4,nt:8,next:12592,nextCheck:38052,str:32630,h:2,d0:12585,d1:38045;
                 ("if", Expression<MethodOrOperator> @:12585 check:38045,op:2,dt:2,nt:9,next:12586,nextCheck:38046,str:461,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:12586 check:38046,op:25,dt:5,nt:8,next:12590,nextCheck:38050,str:32634,h:2,d0:12587,d1:38047;
+                    (____, BuiltinInvocation<Boolean> @:12586 check:38046,op:25,dt:5,nt:8,next:12590,nextCheck:38050,str:32634,h:2,d0:12587,d1:38047;
                         ("not", Expression<MethodOrOperator> @:12587 check:38047,op:25,dt:2,nt:9,next:12588,nextCheck:38048,str:402,h:0,d0:0,d1:0;
                             ("difficulty_legendary", ScriptInvocation<Boolean> @:12588 check:38048,op:4,dt:5,nt:10,next:65535,nextCheck:65535,str:32639,h:2,d0:12589,d1:38049;
                                 ("difficulty_legendary", Expression<MethodOrOperator> @:12589 check:38049,op:4,dt:2,nt:9,next:65535,nextCheck:65535,str:12932,h:0,d0:0,d1:0;))))
-                    (____, Scope<Void> @:12590 check:38050,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:32663,h:2,d0:12591,d1:38051;
+                    (____, BuiltinInvocation<Void> @:12590 check:38050,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:32663,h:2,d0:12591,d1:38051;
                         ("sleep_forever", Expression<MethodOrOperator> @:12591 check:38051,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:13911,h:0,d0:0,d1:0;))))
-            (____, Scope<Void> @:12592 check:38052,op:46,dt:4,nt:8,next:12595,nextCheck:38055,str:32682,h:2,d0:12593,d1:38053;
+            (____, BuiltinInvocation<Void> @:12592 check:38052,op:46,dt:4,nt:8,next:12595,nextCheck:38055,str:32682,h:2,d0:12593,d1:38053;
                 ("object_create", Expression<MethodOrOperator> @:12593 check:38053,op:46,dt:2,nt:9,next:12594,nextCheck:38054,str:7608,h:0,d0:0,d1:0;
                     ("key", Expression<EntityIdentifier> @:12594 check:38054,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:25980,h:0,d0:101,d1:65535;)))
-            (____, Scope<Void> @:12595 check:38055,op:21,dt:4,nt:8,next:12613,nextCheck:38073,str:32704,h:2,d0:12596,d1:38056;
+            (____, BuiltinInvocation<Void> @:12595 check:38055,op:21,dt:4,nt:8,next:12613,nextCheck:38073,str:32704,h:2,d0:12596,d1:38056;
                 ("sleep_until", Expression<MethodOrOperator> @:12596 check:38056,op:21,dt:2,nt:9,next:12597,nextCheck:38057,str:236,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:12597 check:38057,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:32721,h:2,d0:12598,d1:38058;
+                    (____, BuiltinInvocation<Boolean> @:12597 check:38057,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:32721,h:2,d0:12598,d1:38058;
                         ("or", Expression<MethodOrOperator> @:12598 check:38058,op:6,dt:2,nt:9,next:12599,nextCheck:38059,str:849,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:12599 check:38059,op:242,dt:5,nt:8,next:12606,nextCheck:38066,str:32729,h:2,d0:12600,d1:38060;
+                            (____, BuiltinInvocation<Boolean> @:12599 check:38059,op:242,dt:5,nt:8,next:12606,nextCheck:38066,str:32729,h:2,d0:12600,d1:38060;
                                 ("unit_has_weapon", Expression<MethodOrOperator> @:12600 check:38060,op:242,dt:2,nt:9,next:12601,nextCheck:38061,str:25984,h:0,d0:0,d1:0;
-                                    (____, Scope<Unit> @:12601 check:38061,op:24,dt:51,nt:8,next:12605,nextCheck:38065,str:32746,h:2,d0:12602,d1:38062;
+                                    (____, BuiltinInvocation<Unit> @:12601 check:38061,op:24,dt:51,nt:8,next:12605,nextCheck:38065,str:32746,h:2,d0:12602,d1:38062;
                                         ("unit", Expression<MethodOrOperator> @:12602 check:38062,op:24,dt:2,nt:9,next:12603,nextCheck:38063,str:12,h:0,d0:0,d1:0;
                                             ("player0", ScriptInvocation<Entity> @:12603 check:38063,op:0,dt:50,nt:10,next:65535,nextCheck:65535,str:32752,h:2,d0:12604,d1:38064;
                                                 ("player0", Expression<MethodOrOperator> @:12604 check:38064,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:607,h:0,d0:0,d1:0;))))
                                     ("objects\weapons\multiplayer\ball\head_sp.weapon", Expression<TagReference> @:12605 check:38065,op:38,dt:38,nt:9,next:65535,nextCheck:65535,str:26000,h:0,d0:6608,d1:64382;)))
-                            (____, Scope<Boolean> @:12606 check:38066,op:242,dt:5,nt:8,next:65535,nextCheck:65535,str:32818,h:2,d0:12607,d1:38067;
+                            (____, BuiltinInvocation<Boolean> @:12606 check:38066,op:242,dt:5,nt:8,next:65535,nextCheck:65535,str:32818,h:2,d0:12607,d1:38067;
                                 ("unit_has_weapon", Expression<MethodOrOperator> @:12607 check:38067,op:242,dt:2,nt:9,next:12608,nextCheck:38068,str:25984,h:0,d0:0,d1:0;
-                                    (____, Scope<Unit> @:12608 check:38068,op:24,dt:51,nt:8,next:12612,nextCheck:38072,str:32835,h:2,d0:12609,d1:38069;
+                                    (____, BuiltinInvocation<Unit> @:12608 check:38068,op:24,dt:51,nt:8,next:12612,nextCheck:38072,str:32835,h:2,d0:12609,d1:38069;
                                         ("unit", Expression<MethodOrOperator> @:12609 check:38069,op:24,dt:2,nt:9,next:12610,nextCheck:38070,str:12,h:0,d0:0,d1:0;
                                             ("player1", ScriptInvocation<Entity> @:12610 check:38070,op:1,dt:50,nt:10,next:65535,nextCheck:65535,str:32841,h:2,d0:12611,d1:38071;
                                                 ("player1", Expression<MethodOrOperator> @:12611 check:38071,op:1,dt:2,nt:9,next:65535,nextCheck:65535,str:615,h:0,d0:0,d1:0;))))
                                     ("objects\weapons\multiplayer\ball\head_sp.weapon", Expression<TagReference> @:12612 check:38072,op:38,dt:38,nt:9,next:65535,nextCheck:65535,str:26000,h:0,d0:6608,d1:64382;)))))))
-            (____, Scope<Void> @:12613 check:38073,op:872,dt:4,nt:8,next:65535,nextCheck:65535,str:32914,h:2,d0:12614,d1:38074;
+            (____, BuiltinInvocation<Void> @:12613 check:38073,op:872,dt:4,nt:8,next:65535,nextCheck:65535,str:32914,h:2,d0:12614,d1:38074;
                 ("ice_cream_flavor_stock", Expression<MethodOrOperator> @:12614 check:38074,op:872,dt:2,nt:9,next:12615,nextCheck:38075,str:26048,h:0,d0:0,d1:0;
                     (9, Expression<Int> @:12615 check:38075,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:32938,h:2,d0:9,d1:0;))))))

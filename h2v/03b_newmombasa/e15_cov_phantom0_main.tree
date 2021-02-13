@@ -1,83 +1,83 @@
 
 ("e15_cov_phantom0_main", MethodDecl<Void> @:410 check:0,op:0,dt:0,nt:65535,next:14810,nextCheck:40270,str:30191,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:14810 check:40270,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:61495,h:2,d0:14811,d1:40271;
+    (____, BuiltinInvocation<Void> @:14810 check:40270,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:61495,h:2,d0:14811,d1:40271;
         ("begin", Expression<MethodOrOperator> @:14811 check:40271,op:0,dt:2,nt:9,next:14731,nextCheck:40191,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:14731 check:40191,op:21,dt:4,nt:8,next:14739,nextCheck:40199,str:61535,h:2,d0:14732,d1:40192;
+            (____, BuiltinInvocation<Void> @:14731 check:40191,op:21,dt:4,nt:8,next:14739,nextCheck:40199,str:61535,h:2,d0:14732,d1:40192;
                 ("sleep_until", Expression<MethodOrOperator> @:14732 check:40192,op:21,dt:2,nt:9,next:14733,nextCheck:40193,str:236,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14733 check:40193,op:33,dt:5,nt:8,next:14738,nextCheck:40198,str:61548,h:2,d0:14734,d1:40194;
+                    (____, BuiltinInvocation<Boolean> @:14733 check:40193,op:33,dt:5,nt:8,next:14738,nextCheck:40198,str:61548,h:2,d0:14734,d1:40194;
                         ("volume_test_objects", Expression<MethodOrOperator> @:14734 check:40194,op:33,dt:2,nt:9,next:14735,nextCheck:40195,str:13177,h:0,d0:0,d1:0;
                             ("tv_e15_cov_phantoms0_begin", Expression<Trigger> @:14735 check:40195,op:13,dt:13,nt:9,next:14736,nextCheck:40196,str:29726,h:0,d0:11,d1:0;
-                                (____, Scope<List> @:14736 check:40196,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:61596,h:2,d0:14737,d1:40197;
+                                (____, BuiltinInvocation<List> @:14736 check:40196,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:61596,h:2,d0:14737,d1:40197;
                                     ("players", Expression<MethodOrOperator> @:14737 check:40197,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
                     (15, Expression<Short> @:14738 check:40198,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:61607,h:2,d0:15,d1:65535;)))
-            (____, Scope<Void> @:14739 check:40199,op:290,dt:4,nt:8,next:14742,nextCheck:40202,str:61613,h:2,d0:14740,d1:40200;
+            (____, BuiltinInvocation<Void> @:14739 check:40199,op:290,dt:4,nt:8,next:14742,nextCheck:40202,str:61613,h:2,d0:14740,d1:40200;
                 ("ai_place", Expression<MethodOrOperator> @:14740 check:40200,op:290,dt:2,nt:9,next:14741,nextCheck:40201,str:16575,h:0,d0:0,d1:0;
                     ("e15_cov_phantom0_0", Expression<AI> @:14741 check:40201,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29753,h:0,d0:12,d1:0;)))
-            (____, Scope<Void> @:14742 check:40202,op:21,dt:4,nt:8,next:14766,nextCheck:40226,str:61764,h:2,d0:14743,d1:40203;
+            (____, BuiltinInvocation<Void> @:14742 check:40202,op:21,dt:4,nt:8,next:14766,nextCheck:40226,str:61764,h:2,d0:14743,d1:40203;
                 ("sleep_until", Expression<MethodOrOperator> @:14743 check:40203,op:21,dt:2,nt:9,next:14744,nextCheck:40204,str:236,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14744 check:40204,op:6,dt:5,nt:8,next:14764,nextCheck:40224,str:61781,h:2,d0:14745,d1:40205;
+                    (____, BuiltinInvocation<Boolean> @:14744 check:40204,op:6,dt:5,nt:8,next:14764,nextCheck:40224,str:61781,h:2,d0:14745,d1:40205;
                         ("or", Expression<MethodOrOperator> @:14745 check:40205,op:6,dt:2,nt:9,next:14746,nextCheck:40206,str:849,h:0,d0:0,d1:0;
                             ("g_e16_started", VariableAccess<Boolean> @:14746 check:40206,op:5,dt:5,nt:13,next:14747,nextCheck:40207,str:28509,h:0,d0:47,d1:0;
-                                (____, Scope<Boolean> @:14747 check:40207,op:18,dt:5,nt:8,next:14755,nextCheck:40215,str:61807,h:2,d0:14748,d1:40208;
+                                (____, BuiltinInvocation<Boolean> @:14747 check:40207,op:18,dt:5,nt:8,next:14755,nextCheck:40215,str:61807,h:2,d0:14748,d1:40208;
                                     ("<=", Expression<MethodOrOperator> @:14748 check:40208,op:18,dt:2,nt:9,next:14749,nextCheck:40209,str:17163,h:0,d0:0,d1:0;
-                                        (-1.9352726E-21f, Scope<Float> @:14749 check:40209,op:69,dt:6,nt:8,next:14754,nextCheck:40214,str:61811,h:2,d0:14750,d1:40210;
+                                        (-1.9352726E-21f, BuiltinInvocation<Float> @:14749 check:40209,op:69,dt:6,nt:8,next:14754,nextCheck:40214,str:61811,h:2,d0:14750,d1:40210;
                                             ("object_get_health", Expression<MethodOrOperator> @:14750 check:40210,op:69,dt:2,nt:9,next:14751,nextCheck:40211,str:854,h:0,d0:0,d1:0;
-                                                (____, Scope<Entity> @:14751 check:40211,op:340,dt:50,nt:8,next:65535,nextCheck:65535,str:61830,h:2,d0:14752,d1:40212;
+                                                (____, BuiltinInvocation<Entity> @:14751 check:40211,op:340,dt:50,nt:8,next:65535,nextCheck:65535,str:61830,h:2,d0:14752,d1:40212;
                                                     ("ai_vehicle_get", Expression<MethodOrOperator> @:14752 check:40212,op:340,dt:2,nt:9,next:14753,nextCheck:40213,str:15437,h:0,d0:0,d1:0;
                                                         ("e15_cov_phantom0_0/phantom0", Expression<AI> @:14753 check:40213,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29615,h:0,d0:0,d1:49164;)))))
                                         (0.05f, Expression<Float> @:14754 check:40214,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:61876,h:2,d0:52429,d1:15692;)))
-                                (____, Scope<Boolean> @:14755 check:40215,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:61887,h:2,d0:14756,d1:40216;
+                                (____, BuiltinInvocation<Boolean> @:14755 check:40215,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:61887,h:2,d0:14756,d1:40216;
                                     (">=", Expression<MethodOrOperator> @:14756 check:40216,op:17,dt:2,nt:9,next:14757,nextCheck:40217,str:676,h:0,d0:0,d1:0;
-                                        (____, Scope<Short> @:14757 check:40217,op:83,dt:7,nt:8,next:14763,nextCheck:40223,str:61891,h:2,d0:14758,d1:40218;
+                                        (____, BuiltinInvocation<Short> @:14757 check:40217,op:83,dt:7,nt:8,next:14763,nextCheck:40223,str:61891,h:2,d0:14758,d1:40218;
                                             ("object_model_targets_destroyed", Expression<MethodOrOperator> @:14758 check:40218,op:83,dt:2,nt:9,next:14759,nextCheck:40219,str:23554,h:0,d0:0,d1:0;
-                                                (____, Scope<Entity> @:14759 check:40219,op:340,dt:50,nt:8,next:14762,nextCheck:40222,str:61923,h:2,d0:14760,d1:40220;
+                                                (____, BuiltinInvocation<Entity> @:14759 check:40219,op:340,dt:50,nt:8,next:14762,nextCheck:40222,str:61923,h:2,d0:14760,d1:40220;
                                                     ("ai_vehicle_get", Expression<MethodOrOperator> @:14760 check:40220,op:340,dt:2,nt:9,next:14761,nextCheck:40221,str:15437,h:0,d0:0,d1:0;
                                                         ("e15_cov_phantom0_0/phantom0", Expression<AI> @:14761 check:40221,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29615,h:0,d0:0,d1:49164;)))
                                                 ("target_front", Expression<StringId> @:14762 check:40222,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:23585,h:0,d0:5365,d1:3072;)))
                                         (2, Expression<Short> @:14763 check:40223,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:61984,h:2,d0:2,d1:65535;))))))
                     (30, Expression<Short> @:14764 check:40224,op:7,dt:7,nt:9,next:14765,nextCheck:40225,str:62056,h:2,d0:30,d1:65535;
                         ("one_minute", VariableAccess<Int> @:14765 check:40225,op:8,dt:8,nt:13,next:65535,nextCheck:65535,str:23598,h:0,d0:6,d1:0;))))
-            (____, Scope<Void> @:14766 check:40226,op:367,dt:4,nt:8,next:14770,nextCheck:40230,str:62118,h:2,d0:14767,d1:40227;
+            (____, BuiltinInvocation<Void> @:14766 check:40226,op:367,dt:4,nt:8,next:14770,nextCheck:40230,str:62118,h:2,d0:14767,d1:40227;
                 ("cs_queue_command_script", Expression<MethodOrOperator> @:14767 check:40227,op:367,dt:2,nt:9,next:14768,nextCheck:40228,str:16290,h:0,d0:0,d1:0;
                     ("e15_cov_phantom0_0/phantom0", Expression<AI> @:14768 check:40228,op:19,dt:19,nt:9,next:14769,nextCheck:40229,str:29615,h:0,d0:0,d1:49164;
                         ("cs_e15_cov_phantom0_0_exit", Expression<AIScript> @:14769 check:40229,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:29772,h:0,d0:397,d1:0;))))
-            (____, Scope<Void> @:14770 check:40230,op:290,dt:4,nt:8,next:14773,nextCheck:40233,str:62233,h:2,d0:14771,d1:40231;
+            (____, BuiltinInvocation<Void> @:14770 check:40230,op:290,dt:4,nt:8,next:14773,nextCheck:40233,str:62233,h:2,d0:14771,d1:40231;
                 ("ai_place", Expression<MethodOrOperator> @:14771 check:40231,op:290,dt:2,nt:9,next:14772,nextCheck:40232,str:16575,h:0,d0:0,d1:0;
                     ("e15_cov_phantom0_1", Expression<AI> @:14772 check:40232,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29799,h:0,d0:13,d1:0;)))
-            (____, Scope<Void> @:14773 check:40233,op:22,dt:4,nt:8,next:14776,nextCheck:40236,str:62274,h:2,d0:14774,d1:40234;
+            (____, BuiltinInvocation<Void> @:14773 check:40233,op:22,dt:4,nt:8,next:14776,nextCheck:40236,str:62274,h:2,d0:14774,d1:40234;
                 ("wake", Expression<MethodOrOperator> @:14774 check:40234,op:22,dt:2,nt:9,next:14775,nextCheck:40235,str:1071,h:0,d0:0,d1:0;
                     ("e15_cov_wraith1_main", Expression<ScriptReference> @:14775 check:40235,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:29818,h:0,d0:407,d1:65535;)))
-            (____, Scope<Void> @:14776 check:40236,op:21,dt:4,nt:8,next:14806,nextCheck:40266,str:62368,h:2,d0:14777,d1:40237;
+            (____, BuiltinInvocation<Void> @:14776 check:40236,op:21,dt:4,nt:8,next:14806,nextCheck:40266,str:62368,h:2,d0:14777,d1:40237;
                 ("sleep_until", Expression<MethodOrOperator> @:14777 check:40237,op:21,dt:2,nt:9,next:14778,nextCheck:40238,str:236,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14778 check:40238,op:6,dt:5,nt:8,next:14804,nextCheck:40264,str:62385,h:2,d0:14779,d1:40239;
+                    (____, BuiltinInvocation<Boolean> @:14778 check:40238,op:6,dt:5,nt:8,next:14804,nextCheck:40264,str:62385,h:2,d0:14779,d1:40239;
                         ("or", Expression<MethodOrOperator> @:14779 check:40239,op:6,dt:2,nt:9,next:14780,nextCheck:40240,str:849,h:0,d0:0,d1:0;
                             ("g_e16_started", VariableAccess<Boolean> @:14780 check:40240,op:5,dt:5,nt:13,next:14781,nextCheck:40241,str:28509,h:0,d0:47,d1:0;
-                                (____, Scope<Boolean> @:14781 check:40241,op:18,dt:5,nt:8,next:14789,nextCheck:40249,str:62411,h:2,d0:14782,d1:40242;
+                                (____, BuiltinInvocation<Boolean> @:14781 check:40241,op:18,dt:5,nt:8,next:14789,nextCheck:40249,str:62411,h:2,d0:14782,d1:40242;
                                     ("<=", Expression<MethodOrOperator> @:14782 check:40242,op:18,dt:2,nt:9,next:14783,nextCheck:40243,str:17163,h:0,d0:0,d1:0;
-                                        (-2.3852658E-21f, Scope<Float> @:14783 check:40243,op:69,dt:6,nt:8,next:14788,nextCheck:40248,str:62415,h:2,d0:14784,d1:40244;
+                                        (-2.3852658E-21f, BuiltinInvocation<Float> @:14783 check:40243,op:69,dt:6,nt:8,next:14788,nextCheck:40248,str:62415,h:2,d0:14784,d1:40244;
                                             ("object_get_health", Expression<MethodOrOperator> @:14784 check:40244,op:69,dt:2,nt:9,next:14785,nextCheck:40245,str:854,h:0,d0:0,d1:0;
-                                                (____, Scope<Entity> @:14785 check:40245,op:340,dt:50,nt:8,next:65535,nextCheck:65535,str:62434,h:2,d0:14786,d1:40246;
+                                                (____, BuiltinInvocation<Entity> @:14785 check:40245,op:340,dt:50,nt:8,next:65535,nextCheck:65535,str:62434,h:2,d0:14786,d1:40246;
                                                     ("ai_vehicle_get", Expression<MethodOrOperator> @:14786 check:40246,op:340,dt:2,nt:9,next:14787,nextCheck:40247,str:15437,h:0,d0:0,d1:0;
                                                         ("e15_cov_phantom0_1/phantom0", Expression<AI> @:14787 check:40247,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29587,h:0,d0:0,d1:49165;)))))
                                         (0.05f, Expression<Float> @:14788 check:40248,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:62480,h:2,d0:52429,d1:15692;)))
-                                (____, Scope<Boolean> @:14789 check:40249,op:17,dt:5,nt:8,next:14798,nextCheck:40258,str:62491,h:2,d0:14790,d1:40250;
+                                (____, BuiltinInvocation<Boolean> @:14789 check:40249,op:17,dt:5,nt:8,next:14798,nextCheck:40258,str:62491,h:2,d0:14790,d1:40250;
                                     (">=", Expression<MethodOrOperator> @:14790 check:40250,op:17,dt:2,nt:9,next:14791,nextCheck:40251,str:676,h:0,d0:0,d1:0;
-                                        (____, Scope<Short> @:14791 check:40251,op:83,dt:7,nt:8,next:14797,nextCheck:40257,str:62495,h:2,d0:14792,d1:40252;
+                                        (____, BuiltinInvocation<Short> @:14791 check:40251,op:83,dt:7,nt:8,next:14797,nextCheck:40257,str:62495,h:2,d0:14792,d1:40252;
                                             ("object_model_targets_destroyed", Expression<MethodOrOperator> @:14792 check:40252,op:83,dt:2,nt:9,next:14793,nextCheck:40253,str:23554,h:0,d0:0,d1:0;
-                                                (____, Scope<Entity> @:14793 check:40253,op:340,dt:50,nt:8,next:14796,nextCheck:40256,str:62527,h:2,d0:14794,d1:40254;
+                                                (____, BuiltinInvocation<Entity> @:14793 check:40253,op:340,dt:50,nt:8,next:14796,nextCheck:40256,str:62527,h:2,d0:14794,d1:40254;
                                                     ("ai_vehicle_get", Expression<MethodOrOperator> @:14794 check:40254,op:340,dt:2,nt:9,next:14795,nextCheck:40255,str:15437,h:0,d0:0,d1:0;
                                                         ("e15_cov_phantom0_1/phantom0", Expression<AI> @:14795 check:40255,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29587,h:0,d0:0,d1:49165;)))
                                                 ("target_front", Expression<StringId> @:14796 check:40256,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:23585,h:0,d0:5365,d1:3072;)))
                                         (2, Expression<Short> @:14797 check:40257,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:62588,h:2,d0:2,d1:65535;)))
-                                (____, Scope<Boolean> @:14798 check:40258,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:62599,h:2,d0:14799,d1:40259;
+                                (____, BuiltinInvocation<Boolean> @:14798 check:40258,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:62599,h:2,d0:14799,d1:40259;
                                     ("<=", Expression<MethodOrOperator> @:14799 check:40259,op:18,dt:2,nt:9,next:14800,nextCheck:40260,str:17163,h:0,d0:0,d1:0;
-                                        (____, Scope<Short> @:14800 check:40260,op:327,dt:7,nt:8,next:14803,nextCheck:40263,str:62603,h:2,d0:14801,d1:40261;
+                                        (____, BuiltinInvocation<Short> @:14800 check:40260,op:327,dt:7,nt:8,next:14803,nextCheck:40263,str:62603,h:2,d0:14801,d1:40261;
                                             ("ai_living_count", Expression<MethodOrOperator> @:14801 check:40261,op:327,dt:2,nt:9,next:14802,nextCheck:40262,str:17287,h:0,d0:0,d1:0;
                                                 ("e16_cov_wraiths0_0/wraith1", Expression<AI> @:14802 check:40262,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:28747,h:0,d0:1,d1:49169;)))
                                         (0, Expression<Short> @:14803 check:40263,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:62648,h:2,d0:0,d1:65535;))))))
                     (30, Expression<Short> @:14804 check:40264,op:7,dt:7,nt:9,next:14805,nextCheck:40265,str:62659,h:2,d0:30,d1:65535;
                         ("one_minute", VariableAccess<Int> @:14805 check:40265,op:8,dt:8,nt:13,next:65535,nextCheck:65535,str:23598,h:0,d0:6,d1:0;))))
-            (____, Scope<Void> @:14806 check:40266,op:367,dt:4,nt:8,next:65535,nextCheck:65535,str:62718,h:2,d0:14807,d1:40267;
+            (____, BuiltinInvocation<Void> @:14806 check:40266,op:367,dt:4,nt:8,next:65535,nextCheck:65535,str:62718,h:2,d0:14807,d1:40267;
                 ("cs_queue_command_script", Expression<MethodOrOperator> @:14807 check:40267,op:367,dt:2,nt:9,next:14808,nextCheck:40268,str:16290,h:0,d0:0,d1:0;
                     ("e15_cov_phantom0_1/phantom0", Expression<AI> @:14808 check:40268,op:19,dt:19,nt:9,next:14809,nextCheck:40269,str:29587,h:0,d0:0,d1:49165;
                         ("cs_e15_cov_phantom0_1_exit", Expression<AIScript> @:14809 check:40269,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:29839,h:0,d0:395,d1:0;)))))))

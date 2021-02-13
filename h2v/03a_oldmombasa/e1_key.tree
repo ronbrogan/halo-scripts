@@ -1,42 +1,42 @@
 
 ("e1_key", MethodDecl<Void> @:410 check:0,op:0,dt:0,nt:65535,next:17516,nextCheck:42976,str:28716,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:17516 check:42976,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:25696,h:3,d0:17517,d1:42977;
+    (____, BuiltinInvocation<Void> @:17516 check:42976,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:25696,h:3,d0:17517,d1:42977;
         ("begin", Expression<MethodOrOperator> @:17517 check:42977,op:0,dt:2,nt:9,next:17478,nextCheck:42938,str:64,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:17478 check:42938,op:46,dt:4,nt:8,next:17481,nextCheck:42941,str:25721,h:3,d0:17479,d1:42939;
+            (____, BuiltinInvocation<Void> @:17478 check:42938,op:46,dt:4,nt:8,next:17481,nextCheck:42941,str:25721,h:3,d0:17479,d1:42939;
                 ("object_create", Expression<MethodOrOperator> @:17479 check:42939,op:46,dt:2,nt:9,next:17480,nextCheck:42940,str:7729,h:0,d0:0,d1:0;
                     ("e1_ghost_key", Expression<EntityIdentifier> @:17480 check:42940,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:28551,h:0,d0:90,d1:65535;)))
-            (____, Scope<Void> @:17481 check:42941,op:21,dt:4,nt:8,next:17513,nextCheck:42973,str:25752,h:3,d0:17482,d1:42942;
+            (____, BuiltinInvocation<Void> @:17481 check:42941,op:21,dt:4,nt:8,next:17513,nextCheck:42973,str:25752,h:3,d0:17482,d1:42942;
                 ("sleep_until", Expression<MethodOrOperator> @:17482 check:42942,op:21,dt:2,nt:9,next:17483,nextCheck:42943,str:294,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:17483 check:42943,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:25769,h:3,d0:17484,d1:42944;
+                    (____, BuiltinInvocation<Boolean> @:17483 check:42943,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:25769,h:3,d0:17484,d1:42944;
                         ("or", Expression<MethodOrOperator> @:17484 check:42944,op:6,dt:2,nt:9,next:17485,nextCheck:42945,str:907,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:17485 check:42945,op:5,dt:5,nt:8,next:17499,nextCheck:42959,str:25777,h:3,d0:17486,d1:42946;
+                            (____, BuiltinInvocation<Boolean> @:17485 check:42945,op:5,dt:5,nt:8,next:17499,nextCheck:42959,str:25777,h:3,d0:17486,d1:42946;
                                 ("and", Expression<MethodOrOperator> @:17486 check:42946,op:5,dt:2,nt:9,next:17487,nextCheck:42947,str:730,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:17487 check:42947,op:242,dt:5,nt:8,next:17494,nextCheck:42954,str:25787,h:3,d0:17488,d1:42948;
+                                    (____, BuiltinInvocation<Boolean> @:17487 check:42947,op:242,dt:5,nt:8,next:17494,nextCheck:42954,str:25787,h:3,d0:17488,d1:42948;
                                         ("unit_has_weapon", Expression<MethodOrOperator> @:17488 check:42948,op:242,dt:2,nt:9,next:17489,nextCheck:42949,str:21561,h:0,d0:0,d1:0;
-                                            (____, Scope<Unit> @:17489 check:42949,op:24,dt:51,nt:8,next:17493,nextCheck:42953,str:25804,h:3,d0:17490,d1:42950;
+                                            (____, BuiltinInvocation<Unit> @:17489 check:42949,op:24,dt:51,nt:8,next:17493,nextCheck:42953,str:25804,h:3,d0:17490,d1:42950;
                                                 ("unit", Expression<MethodOrOperator> @:17490 check:42950,op:24,dt:2,nt:9,next:17491,nextCheck:42951,str:70,h:0,d0:0,d1:0;
                                                     ("player0", ScriptInvocation<Entity> @:17491 check:42951,op:0,dt:50,nt:10,next:65535,nextCheck:65535,str:25810,h:3,d0:17492,d1:42952;
                                                         ("player0", Expression<MethodOrOperator> @:17492 check:42952,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:665,h:0,d0:0,d1:0;))))
                                             ("objects\weapons\multiplayer\ball\head_sp.weapon", Expression<TagReference> @:17493 check:42953,op:38,dt:38,nt:9,next:65535,nextCheck:65535,str:21577,h:0,d0:5950,d1:63838;)))
-                                    (____, Scope<Boolean> @:17494 check:42954,op:32,dt:5,nt:8,next:65535,nextCheck:65535,str:25877,h:3,d0:17495,d1:42955;
+                                    (____, BuiltinInvocation<Boolean> @:17494 check:42954,op:32,dt:5,nt:8,next:65535,nextCheck:65535,str:25877,h:3,d0:17495,d1:42955;
                                         ("volume_test_object", Expression<MethodOrOperator> @:17495 check:42955,op:32,dt:2,nt:9,next:17496,nextCheck:42956,str:13666,h:0,d0:0,d1:0;
                                             ("tv_e1_ghost_key", Expression<Trigger> @:17496 check:42956,op:13,dt:13,nt:9,next:17497,nextCheck:42957,str:28564,h:0,d0:127,d1:0;
                                                 ("player0", ScriptInvocation<Entity> @:17497 check:42957,op:0,dt:50,nt:10,next:65535,nextCheck:65535,str:25913,h:3,d0:17498,d1:42958;
                                                     ("player0", Expression<MethodOrOperator> @:17498 check:42958,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:665,h:0,d0:0,d1:0;)))))))
-                            (____, Scope<Boolean> @:17499 check:42959,op:5,dt:5,nt:8,next:65535,nextCheck:65535,str:25934,h:3,d0:17500,d1:42960;
+                            (____, BuiltinInvocation<Boolean> @:17499 check:42959,op:5,dt:5,nt:8,next:65535,nextCheck:65535,str:25934,h:3,d0:17500,d1:42960;
                                 ("and", Expression<MethodOrOperator> @:17500 check:42960,op:5,dt:2,nt:9,next:17501,nextCheck:42961,str:730,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:17501 check:42961,op:242,dt:5,nt:8,next:17508,nextCheck:42968,str:25944,h:3,d0:17502,d1:42962;
+                                    (____, BuiltinInvocation<Boolean> @:17501 check:42961,op:242,dt:5,nt:8,next:17508,nextCheck:42968,str:25944,h:3,d0:17502,d1:42962;
                                         ("unit_has_weapon", Expression<MethodOrOperator> @:17502 check:42962,op:242,dt:2,nt:9,next:17503,nextCheck:42963,str:21561,h:0,d0:0,d1:0;
-                                            (____, Scope<Unit> @:17503 check:42963,op:24,dt:51,nt:8,next:17507,nextCheck:42967,str:25961,h:3,d0:17504,d1:42964;
+                                            (____, BuiltinInvocation<Unit> @:17503 check:42963,op:24,dt:51,nt:8,next:17507,nextCheck:42967,str:25961,h:3,d0:17504,d1:42964;
                                                 ("unit", Expression<MethodOrOperator> @:17504 check:42964,op:24,dt:2,nt:9,next:17505,nextCheck:42965,str:70,h:0,d0:0,d1:0;
                                                     ("player1", ScriptInvocation<Entity> @:17505 check:42965,op:1,dt:50,nt:10,next:65535,nextCheck:65535,str:25967,h:3,d0:17506,d1:42966;
                                                         ("player1", Expression<MethodOrOperator> @:17506 check:42966,op:1,dt:2,nt:9,next:65535,nextCheck:65535,str:673,h:0,d0:0,d1:0;))))
                                             ("objects\weapons\multiplayer\ball\head_sp.weapon", Expression<TagReference> @:17507 check:42967,op:38,dt:38,nt:9,next:65535,nextCheck:65535,str:21577,h:0,d0:5950,d1:63838;)))
-                                    (____, Scope<Boolean> @:17508 check:42968,op:32,dt:5,nt:8,next:65535,nextCheck:65535,str:26034,h:3,d0:17509,d1:42969;
+                                    (____, BuiltinInvocation<Boolean> @:17508 check:42968,op:32,dt:5,nt:8,next:65535,nextCheck:65535,str:26034,h:3,d0:17509,d1:42969;
                                         ("volume_test_object", Expression<MethodOrOperator> @:17509 check:42969,op:32,dt:2,nt:9,next:17510,nextCheck:42970,str:13666,h:0,d0:0,d1:0;
                                             ("tv_e1_ghost_key", Expression<Trigger> @:17510 check:42970,op:13,dt:13,nt:9,next:17511,nextCheck:42971,str:28564,h:0,d0:127,d1:0;
                                                 ("player1", ScriptInvocation<Entity> @:17511 check:42971,op:1,dt:50,nt:10,next:65535,nextCheck:65535,str:26070,h:3,d0:17512,d1:42972;
                                                     ("player1", Expression<MethodOrOperator> @:17512 check:42972,op:1,dt:2,nt:9,next:65535,nextCheck:65535,str:673,h:0,d0:0,d1:0;)))))))))))
-            (____, Scope<Void> @:17513 check:42973,op:872,dt:4,nt:8,next:65535,nextCheck:65535,str:26098,h:3,d0:17514,d1:42974;
+            (____, BuiltinInvocation<Void> @:17513 check:42973,op:872,dt:4,nt:8,next:65535,nextCheck:65535,str:26098,h:3,d0:17514,d1:42974;
                 ("ice_cream_flavor_stock", Expression<MethodOrOperator> @:17514 check:42974,op:872,dt:2,nt:9,next:17515,nextCheck:42975,str:21470,h:0,d0:0,d1:0;
                     (6, Expression<Int> @:17515 check:42975,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:26122,h:3,d0:6,d1:0;))))))

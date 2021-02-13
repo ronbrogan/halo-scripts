@@ -1,29 +1,29 @@
 
 ("banshee_retreat", MethodDecl<Void> @:244 check:0,op:0,dt:0,nt:65535,next:15428,nextCheck:40888,str:27139,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:15428 check:40888,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:34068,h:2,d0:15429,d1:40889;
+    (____, BuiltinInvocation<Void> @:15428 check:40888,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:34068,h:2,d0:15429,d1:40889;
         ("begin", Expression<MethodOrOperator> @:15429 check:40889,op:0,dt:2,nt:9,next:15403,nextCheck:40863,str:142,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:15403 check:40863,op:438,dt:4,nt:8,next:15406,nextCheck:40866,str:34109,h:2,d0:15404,d1:40864;
+            (____, BuiltinInvocation<Void> @:15403 check:40863,op:438,dt:4,nt:8,next:15406,nextCheck:40866,str:34109,h:2,d0:15404,d1:40864;
                 ("cs_vehicle_boost", Expression<MethodOrOperator> @:15404 check:40864,op:438,dt:2,nt:9,next:15405,nextCheck:40865,str:13133,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:15405 check:40865,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:34127,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:15406 check:40866,op:444,dt:4,nt:8,next:15409,nextCheck:40869,str:34135,h:2,d0:15407,d1:40867;
+            (____, BuiltinInvocation<Void> @:15406 check:40866,op:444,dt:4,nt:8,next:15409,nextCheck:40869,str:34135,h:2,d0:15407,d1:40867;
                 ("cs_enable_moving", Expression<MethodOrOperator> @:15407 check:40867,op:444,dt:2,nt:9,next:15408,nextCheck:40868,str:26684,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:15408 check:40868,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:34153,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:15409 check:40869,op:443,dt:4,nt:8,next:15412,nextCheck:40872,str:34161,h:2,d0:15410,d1:40870;
+            (____, BuiltinInvocation<Void> @:15409 check:40869,op:443,dt:4,nt:8,next:15412,nextCheck:40872,str:34161,h:2,d0:15410,d1:40870;
                 ("cs_enable_looking", Expression<MethodOrOperator> @:15410 check:40870,op:443,dt:2,nt:9,next:15411,nextCheck:40871,str:26701,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:15411 check:40871,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:34180,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:15412 check:40872,op:21,dt:4,nt:8,next:15425,nextCheck:40885,str:34188,h:2,d0:15413,d1:40873;
+            (____, BuiltinInvocation<Void> @:15412 check:40872,op:21,dt:4,nt:8,next:15425,nextCheck:40885,str:34188,h:2,d0:15413,d1:40873;
                 ("sleep_until", Expression<MethodOrOperator> @:15413 check:40873,op:21,dt:2,nt:9,next:15414,nextCheck:40874,str:372,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:15414 check:40874,op:13,dt:5,nt:8,next:15423,nextCheck:40883,str:34201,h:2,d0:15415,d1:40875;
+                    (____, BuiltinInvocation<Boolean> @:15414 check:40874,op:13,dt:5,nt:8,next:15423,nextCheck:40883,str:34201,h:2,d0:15415,d1:40875;
                         ("=", Expression<MethodOrOperator> @:15415 check:40875,op:13,dt:2,nt:9,next:15416,nextCheck:40876,str:437,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:15416 check:40876,op:33,dt:5,nt:8,next:15422,nextCheck:40882,str:34204,h:2,d0:15417,d1:40877;
+                            (____, BuiltinInvocation<Boolean> @:15416 check:40876,op:33,dt:5,nt:8,next:15422,nextCheck:40882,str:34204,h:2,d0:15417,d1:40877;
                                 ("volume_test_objects", Expression<MethodOrOperator> @:15417 check:40877,op:33,dt:2,nt:9,next:15418,nextCheck:40878,str:10296,h:0,d0:0,d1:0;
                                     ("vol_banshee_retreat", Expression<Trigger> @:15418 check:40878,op:13,dt:13,nt:9,next:15419,nextCheck:40879,str:26719,h:0,d0:78,d1:0;
-                                        (____, Scope<List> @:15419 check:40879,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:34245,h:2,d0:15420,d1:40880;
+                                        (____, BuiltinInvocation<List> @:15419 check:40879,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:34245,h:2,d0:15420,d1:40880;
                                             ("ai_actors", Expression<MethodOrOperator> @:15420 check:40880,op:332,dt:2,nt:9,next:15421,nextCheck:40881,str:13580,h:0,d0:0,d1:0;
                                                 ("gondola_02_banshees", Expression<AI> @:15421 check:40881,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:26421,h:0,d0:124,d1:0;))))))
                             (True, Expression<Boolean> @:15422 check:40882,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:34278,h:2,d0:65281,d1:65535;)))
                     (30, Expression<Short> @:15423 check:40883,op:7,dt:7,nt:9,next:15424,nextCheck:40884,str:34284,h:2,d0:30,d1:65535;
                         (4000, Expression<Int> @:15424 check:40884,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:34287,h:2,d0:4000,d1:0;))))
-            (____, Scope<Void> @:15425 check:40885,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:34295,h:2,d0:15426,d1:40886;
+            (____, BuiltinInvocation<Void> @:15425 check:40885,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:34295,h:2,d0:15426,d1:40886;
                 ("ai_erase", Expression<MethodOrOperator> @:15426 check:40886,op:298,dt:2,nt:9,next:15427,nextCheck:40887,str:13353,h:0,d0:0,d1:0;
                     ("gondola_02_banshees", Expression<AI> @:15427 check:40887,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:26421,h:0,d0:124,d1:0;))))))

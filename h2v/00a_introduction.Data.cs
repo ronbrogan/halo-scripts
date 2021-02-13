@@ -194,9 +194,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public ScenarioEntity<IScenery> red_01 { get; set; }
         public ScenarioEntity<IScenery> matte_stardust_01 { get; set; }
         public ScenarioEntity<IScenery> matte_stardust_02 { get; set; }
-        public ILocationFlag anchor_flag_x01 => Scenario.LocationFlagDefinitions[0].GameObject;
-        public ILocationFlag anchor_flag_x01b => Scenario.LocationFlagDefinitions[1].GameObject;
-        public ILocationFlag anchor_flag_x01a => Scenario.LocationFlagDefinitions[2].GameObject;
+        public ILocationFlag anchor_flag_x01 => Scenario.LocationFlagDefinitions[0];
+        public ILocationFlag anchor_flag_x01b => Scenario.LocationFlagDefinitions[1];
+        public ILocationFlag anchor_flag_x01a => Scenario.LocationFlagDefinitions[2];
         public ICinematicTitle cinematic_title0 => Scenario.CinematicTitleDefinitions[0].GameObject;
         public ICinematicTitle cinematic_title1 => Scenario.CinematicTitleDefinitions[1].GameObject;
         public override void InitializeData(ScenarioTag scenarioTag, Scene scene)

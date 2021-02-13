@@ -1,19 +1,19 @@
 
 ("x05_effect_shake_01", MethodDecl<Void> @:122 check:0,op:0,dt:0,nt:65535,next:3698,nextCheck:61925,str:9012,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:3698 check:61925,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:44314,h:0,d0:3699,d1:61926;
+    (____, BuiltinInvocation<Void> @:3698 check:61925,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:44314,h:0,d0:3699,d1:61926;
         ("begin", Expression<MethodOrOperator> @:3699 check:61926,op:0,dt:2,nt:9,next:3683,nextCheck:61910,str:54,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:3683 check:61910,op:19,dt:4,nt:8,next:3686,nextCheck:61913,str:44352,h:0,d0:3684,d1:61911;
+            (____, BuiltinInvocation<Void> @:3683 check:61910,op:19,dt:4,nt:8,next:3686,nextCheck:61913,str:44352,h:0,d0:3684,d1:61911;
                 ("sleep", Expression<MethodOrOperator> @:3684 check:61911,op:19,dt:2,nt:9,next:3685,nextCheck:61912,str:133,h:0,d0:0,d1:0;
                     (300, Expression<Short> @:3685 check:61912,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:44359,h:0,d0:300,d1:65535;)))
-            (____, Scope<Void> @:3686 check:61913,op:27,dt:4,nt:8,next:3689,nextCheck:61916,str:44366,h:0,d0:3687,d1:61914;
+            (____, BuiltinInvocation<Void> @:3686 check:61913,op:27,dt:4,nt:8,next:3689,nextCheck:61916,str:44366,h:0,d0:3687,d1:61914;
                 ("print", Expression<MethodOrOperator> @:3687 check:61914,op:27,dt:2,nt:9,next:3688,nextCheck:61915,str:139,h:0,d0:0,d1:0;
                     ("shake", Expression<String> @:3688 check:61915,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8869,h:0,d0:20245,d1:12768;)))
-            (____, Scope<Void> @:3689 check:61916,op:653,dt:4,nt:8,next:3694,nextCheck:61921,str:44384,h:0,d0:3690,d1:61917;
+            (____, BuiltinInvocation<Void> @:3689 check:61916,op:653,dt:4,nt:8,next:3694,nextCheck:61921,str:44384,h:0,d0:3690,d1:61917;
                 ("player_effect_set_max_rotation", Expression<MethodOrOperator> @:3690 check:61917,op:653,dt:2,nt:9,next:3691,nextCheck:61918,str:8875,h:0,d0:0,d1:0;
                     (0f, Expression<Float> @:3691 check:61918,op:6,dt:6,nt:9,next:3692,nextCheck:61919,str:44416,h:0,d0:0,d1:0;
                         (1f, Expression<Float> @:3692 check:61919,op:6,dt:6,nt:9,next:3693,nextCheck:61920,str:44418,h:0,d0:0,d1:16256;
                             (1f, Expression<Float> @:3693 check:61920,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:44420,h:0,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:3694 check:61921,op:655,dt:4,nt:8,next:65535,nextCheck:65535,str:44425,h:0,d0:3695,d1:61922;
+            (____, BuiltinInvocation<Void> @:3694 check:61921,op:655,dt:4,nt:8,next:65535,nextCheck:65535,str:44425,h:0,d0:3695,d1:61922;
                 ("player_effect_start", Expression<MethodOrOperator> @:3695 check:61922,op:655,dt:2,nt:9,next:3696,nextCheck:61923,str:8906,h:0,d0:0,d1:0;
                     (0.5f, Expression<Float> @:3696 check:61923,op:6,dt:6,nt:9,next:3697,nextCheck:61924,str:44446,h:0,d0:0,d1:16128;
                         (3f, Expression<Float> @:3697 check:61924,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:44449,h:0,d0:0,d1:16448;)))))))

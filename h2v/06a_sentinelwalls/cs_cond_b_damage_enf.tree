@@ -1,93 +1,93 @@
 
 ("cs_cond_b_damage_enf", MethodDecl<Void> @:324 check:0,op:0,dt:0,nt:65535,next:15799,nextCheck:41259,str:65535,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:15799 check:41259,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:23345,h:2,d0:15800,d1:41260;
+    (____, BuiltinInvocation<Void> @:15799 check:41259,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:23345,h:2,d0:15800,d1:41260;
         ("begin", Expression<MethodOrOperator> @:15800 check:41260,op:0,dt:2,nt:9,next:15709,nextCheck:41169,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:15709 check:41169,op:19,dt:4,nt:8,next:15712,nextCheck:41172,str:23391,h:2,d0:15710,d1:41170;
+            (____, BuiltinInvocation<Void> @:15709 check:41169,op:19,dt:4,nt:8,next:15712,nextCheck:41172,str:23391,h:2,d0:15710,d1:41170;
                 ("sleep", Expression<MethodOrOperator> @:15710 check:41170,op:19,dt:2,nt:9,next:15711,nextCheck:41171,str:80,h:0,d0:0,d1:0;
                     (5, Expression<Short> @:15711 check:41171,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23398,h:2,d0:5,d1:65535;)))
-            (____, Scope<Void> @:15712 check:41172,op:84,dt:4,nt:8,next:15719,nextCheck:41179,str:23403,h:2,d0:15713,d1:41173;
+            (____, BuiltinInvocation<Void> @:15712 check:41172,op:84,dt:4,nt:8,next:15719,nextCheck:41179,str:23403,h:2,d0:15713,d1:41173;
                 ("object_damage_damage_section", Expression<MethodOrOperator> @:15713 check:41173,op:84,dt:2,nt:9,next:15714,nextCheck:41174,str:21672,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:15714 check:41174,op:284,dt:50,nt:8,next:15717,nextCheck:41177,str:23433,h:2,d0:15715,d1:41175;
+                    (____, BuiltinInvocation<Entity> @:15714 check:41174,op:284,dt:50,nt:8,next:15717,nextCheck:41177,str:23433,h:2,d0:15715,d1:41175;
                         ("ai_get_object", Expression<MethodOrOperator> @:15715 check:41175,op:284,dt:2,nt:9,next:15716,nextCheck:41176,str:2308,h:0,d0:0,d1:0;
                             ("cond_b_enforcer/a", Expression<AI> @:15716 check:41176,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25178,h:0,d0:0,d1:49222;)))
                     ("l_arm", Expression<StringId> @:15717 check:41177,op:11,dt:11,nt:9,next:15718,nextCheck:41178,str:25196,h:0,d0:150,d1:1280;
                         (1f, Expression<Float> @:15718 check:41178,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:23475,h:2,d0:0,d1:16256;))))
-            (____, Scope<Void> @:15719 check:41179,op:84,dt:4,nt:8,next:15726,nextCheck:41186,str:23480,h:2,d0:15720,d1:41180;
+            (____, BuiltinInvocation<Void> @:15719 check:41179,op:84,dt:4,nt:8,next:15726,nextCheck:41186,str:23480,h:2,d0:15720,d1:41180;
                 ("object_damage_damage_section", Expression<MethodOrOperator> @:15720 check:41180,op:84,dt:2,nt:9,next:15721,nextCheck:41181,str:21672,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:15721 check:41181,op:284,dt:50,nt:8,next:15724,nextCheck:41184,str:23510,h:2,d0:15722,d1:41182;
+                    (____, BuiltinInvocation<Entity> @:15721 check:41181,op:284,dt:50,nt:8,next:15724,nextCheck:41184,str:23510,h:2,d0:15722,d1:41182;
                         ("ai_get_object", Expression<MethodOrOperator> @:15722 check:41182,op:284,dt:2,nt:9,next:15723,nextCheck:41183,str:2308,h:0,d0:0,d1:0;
                             ("cond_b_enforcer/a", Expression<AI> @:15723 check:41183,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25178,h:0,d0:0,d1:49222;)))
                     ("l_rocket", Expression<StringId> @:15724 check:41184,op:11,dt:11,nt:9,next:15725,nextCheck:41185,str:25202,h:0,d0:6344,d1:2048;
                         (1f, Expression<Float> @:15725 check:41185,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:23555,h:2,d0:0,d1:16256;))))
-            (____, Scope<Void> @:15726 check:41186,op:84,dt:4,nt:8,next:15733,nextCheck:41193,str:23560,h:2,d0:15727,d1:41187;
+            (____, BuiltinInvocation<Void> @:15726 check:41186,op:84,dt:4,nt:8,next:15733,nextCheck:41193,str:23560,h:2,d0:15727,d1:41187;
                 ("object_damage_damage_section", Expression<MethodOrOperator> @:15727 check:41187,op:84,dt:2,nt:9,next:15728,nextCheck:41188,str:21672,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:15728 check:41188,op:284,dt:50,nt:8,next:15731,nextCheck:41191,str:23590,h:2,d0:15729,d1:41189;
+                    (____, BuiltinInvocation<Entity> @:15728 check:41188,op:284,dt:50,nt:8,next:15731,nextCheck:41191,str:23590,h:2,d0:15729,d1:41189;
                         ("ai_get_object", Expression<MethodOrOperator> @:15729 check:41189,op:284,dt:2,nt:9,next:15730,nextCheck:41190,str:2308,h:0,d0:0,d1:0;
                             ("cond_b_enforcer/a", Expression<AI> @:15730 check:41190,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25178,h:0,d0:0,d1:49222;)))
                     ("l_thruster", Expression<StringId> @:15731 check:41191,op:11,dt:11,nt:9,next:15732,nextCheck:41192,str:25211,h:0,d0:6347,d1:2560;
                         (1f, Expression<Float> @:15732 check:41192,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:23637,h:2,d0:0,d1:16256;))))
-            (____, Scope<Void> @:15733 check:41193,op:84,dt:4,nt:8,next:15740,nextCheck:41200,str:23642,h:2,d0:15734,d1:41194;
+            (____, BuiltinInvocation<Void> @:15733 check:41193,op:84,dt:4,nt:8,next:15740,nextCheck:41200,str:23642,h:2,d0:15734,d1:41194;
                 ("object_damage_damage_section", Expression<MethodOrOperator> @:15734 check:41194,op:84,dt:2,nt:9,next:15735,nextCheck:41195,str:21672,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:15735 check:41195,op:284,dt:50,nt:8,next:15738,nextCheck:41198,str:23672,h:2,d0:15736,d1:41196;
+                    (____, BuiltinInvocation<Entity> @:15735 check:41195,op:284,dt:50,nt:8,next:15738,nextCheck:41198,str:23672,h:2,d0:15736,d1:41196;
                         ("ai_get_object", Expression<MethodOrOperator> @:15736 check:41196,op:284,dt:2,nt:9,next:15737,nextCheck:41197,str:2308,h:0,d0:0,d1:0;
                             ("cond_b_enforcer/a", Expression<AI> @:15737 check:41197,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25178,h:0,d0:0,d1:49222;)))
                     ("l_shield_gen", Expression<StringId> @:15738 check:41198,op:11,dt:11,nt:9,next:15739,nextCheck:41199,str:25222,h:0,d0:6345,d1:3072;
                         (1f, Expression<Float> @:15739 check:41199,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:23721,h:2,d0:0,d1:16256;))))
-            (____, Scope<Void> @:15740 check:41200,op:84,dt:4,nt:8,next:15747,nextCheck:41207,str:23726,h:2,d0:15741,d1:41201;
+            (____, BuiltinInvocation<Void> @:15740 check:41200,op:84,dt:4,nt:8,next:15747,nextCheck:41207,str:23726,h:2,d0:15741,d1:41201;
                 ("object_damage_damage_section", Expression<MethodOrOperator> @:15741 check:41201,op:84,dt:2,nt:9,next:15742,nextCheck:41202,str:21672,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:15742 check:41202,op:284,dt:50,nt:8,next:15745,nextCheck:41205,str:23756,h:2,d0:15743,d1:41203;
+                    (____, BuiltinInvocation<Entity> @:15742 check:41202,op:284,dt:50,nt:8,next:15745,nextCheck:41205,str:23756,h:2,d0:15743,d1:41203;
                         ("ai_get_object", Expression<MethodOrOperator> @:15743 check:41203,op:284,dt:2,nt:9,next:15744,nextCheck:41204,str:2308,h:0,d0:0,d1:0;
                             ("cond_b_enforcer/a", Expression<AI> @:15744 check:41204,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25178,h:0,d0:0,d1:49222;)))
                     ("r_arm", Expression<StringId> @:15745 check:41205,op:11,dt:11,nt:9,next:15746,nextCheck:41206,str:25235,h:0,d0:154,d1:1280;
                         (1f, Expression<Float> @:15746 check:41206,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:23798,h:2,d0:0,d1:16256;))))
-            (____, Scope<Void> @:15747 check:41207,op:84,dt:4,nt:8,next:15754,nextCheck:41214,str:23803,h:2,d0:15748,d1:41208;
+            (____, BuiltinInvocation<Void> @:15747 check:41207,op:84,dt:4,nt:8,next:15754,nextCheck:41214,str:23803,h:2,d0:15748,d1:41208;
                 ("object_damage_damage_section", Expression<MethodOrOperator> @:15748 check:41208,op:84,dt:2,nt:9,next:15749,nextCheck:41209,str:21672,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:15749 check:41209,op:284,dt:50,nt:8,next:15752,nextCheck:41212,str:23833,h:2,d0:15750,d1:41210;
+                    (____, BuiltinInvocation<Entity> @:15749 check:41209,op:284,dt:50,nt:8,next:15752,nextCheck:41212,str:23833,h:2,d0:15750,d1:41210;
                         ("ai_get_object", Expression<MethodOrOperator> @:15750 check:41210,op:284,dt:2,nt:9,next:15751,nextCheck:41211,str:2308,h:0,d0:0,d1:0;
                             ("cond_b_enforcer/a", Expression<AI> @:15751 check:41211,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25178,h:0,d0:0,d1:49222;)))
                     ("r_rocket", Expression<StringId> @:15752 check:41212,op:11,dt:11,nt:9,next:15753,nextCheck:41213,str:25241,h:0,d0:6351,d1:2048;
                         (1f, Expression<Float> @:15753 check:41213,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:23878,h:2,d0:0,d1:16256;))))
-            (____, Scope<Void> @:15754 check:41214,op:84,dt:4,nt:8,next:15761,nextCheck:41221,str:23883,h:2,d0:15755,d1:41215;
+            (____, BuiltinInvocation<Void> @:15754 check:41214,op:84,dt:4,nt:8,next:15761,nextCheck:41221,str:23883,h:2,d0:15755,d1:41215;
                 ("object_damage_damage_section", Expression<MethodOrOperator> @:15755 check:41215,op:84,dt:2,nt:9,next:15756,nextCheck:41216,str:21672,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:15756 check:41216,op:284,dt:50,nt:8,next:15759,nextCheck:41219,str:23913,h:2,d0:15757,d1:41217;
+                    (____, BuiltinInvocation<Entity> @:15756 check:41216,op:284,dt:50,nt:8,next:15759,nextCheck:41219,str:23913,h:2,d0:15757,d1:41217;
                         ("ai_get_object", Expression<MethodOrOperator> @:15757 check:41217,op:284,dt:2,nt:9,next:15758,nextCheck:41218,str:2308,h:0,d0:0,d1:0;
                             ("cond_b_enforcer/a", Expression<AI> @:15758 check:41218,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25178,h:0,d0:0,d1:49222;)))
                     ("r_thruster", Expression<StringId> @:15759 check:41219,op:11,dt:11,nt:9,next:15760,nextCheck:41220,str:25250,h:0,d0:6354,d1:2560;
                         (1f, Expression<Float> @:15760 check:41220,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:23960,h:2,d0:0,d1:16256;))))
-            (____, Scope<Void> @:15761 check:41221,op:84,dt:4,nt:8,next:15768,nextCheck:41228,str:23965,h:2,d0:15762,d1:41222;
+            (____, BuiltinInvocation<Void> @:15761 check:41221,op:84,dt:4,nt:8,next:15768,nextCheck:41228,str:23965,h:2,d0:15762,d1:41222;
                 ("object_damage_damage_section", Expression<MethodOrOperator> @:15762 check:41222,op:84,dt:2,nt:9,next:15763,nextCheck:41223,str:21672,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:15763 check:41223,op:284,dt:50,nt:8,next:15766,nextCheck:41226,str:23995,h:2,d0:15764,d1:41224;
+                    (____, BuiltinInvocation<Entity> @:15763 check:41223,op:284,dt:50,nt:8,next:15766,nextCheck:41226,str:23995,h:2,d0:15764,d1:41224;
                         ("ai_get_object", Expression<MethodOrOperator> @:15764 check:41224,op:284,dt:2,nt:9,next:15765,nextCheck:41225,str:2308,h:0,d0:0,d1:0;
                             ("cond_b_enforcer/a", Expression<AI> @:15765 check:41225,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25178,h:0,d0:0,d1:49222;)))
                     ("r_shield_gen", Expression<StringId> @:15766 check:41226,op:11,dt:11,nt:9,next:15767,nextCheck:41227,str:25261,h:0,d0:6352,d1:3072;
                         (1f, Expression<Float> @:15767 check:41227,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:24044,h:2,d0:0,d1:16256;))))
-            (____, Scope<Void> @:15768 check:41228,op:19,dt:4,nt:8,next:15771,nextCheck:41231,str:24049,h:2,d0:15769,d1:41229;
+            (____, BuiltinInvocation<Void> @:15768 check:41228,op:19,dt:4,nt:8,next:15771,nextCheck:41231,str:24049,h:2,d0:15769,d1:41229;
                 ("sleep", Expression<MethodOrOperator> @:15769 check:41229,op:19,dt:2,nt:9,next:15770,nextCheck:41230,str:80,h:0,d0:0,d1:0;
                     (1, Expression<Short> @:15770 check:41230,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:24056,h:2,d0:1,d1:65535;)))
-            (____, Scope<Void> @:15771 check:41231,op:84,dt:4,nt:8,next:15778,nextCheck:41238,str:24061,h:2,d0:15772,d1:41232;
+            (____, BuiltinInvocation<Void> @:15771 check:41231,op:84,dt:4,nt:8,next:15778,nextCheck:41238,str:24061,h:2,d0:15772,d1:41232;
                 ("object_damage_damage_section", Expression<MethodOrOperator> @:15772 check:41232,op:84,dt:2,nt:9,next:15773,nextCheck:41233,str:21672,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:15773 check:41233,op:284,dt:50,nt:8,next:15776,nextCheck:41236,str:24091,h:2,d0:15774,d1:41234;
+                    (____, BuiltinInvocation<Entity> @:15773 check:41233,op:284,dt:50,nt:8,next:15776,nextCheck:41236,str:24091,h:2,d0:15774,d1:41234;
                         ("ai_get_object", Expression<MethodOrOperator> @:15774 check:41234,op:284,dt:2,nt:9,next:15775,nextCheck:41235,str:2308,h:0,d0:0,d1:0;
                             ("cond_b_enforcer/a", Expression<AI> @:15775 check:41235,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25178,h:0,d0:0,d1:49222;)))
                     ("r_shield_gen", Expression<StringId> @:15776 check:41236,op:11,dt:11,nt:9,next:15777,nextCheck:41237,str:25261,h:0,d0:6352,d1:3072;
                         (1f, Expression<Float> @:15777 check:41237,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:24140,h:2,d0:0,d1:16256;))))
-            (____, Scope<Void> @:15778 check:41238,op:84,dt:4,nt:8,next:15785,nextCheck:41245,str:24145,h:2,d0:15779,d1:41239;
+            (____, BuiltinInvocation<Void> @:15778 check:41238,op:84,dt:4,nt:8,next:15785,nextCheck:41245,str:24145,h:2,d0:15779,d1:41239;
                 ("object_damage_damage_section", Expression<MethodOrOperator> @:15779 check:41239,op:84,dt:2,nt:9,next:15780,nextCheck:41240,str:21672,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:15780 check:41240,op:284,dt:50,nt:8,next:15783,nextCheck:41243,str:24175,h:2,d0:15781,d1:41241;
+                    (____, BuiltinInvocation<Entity> @:15780 check:41240,op:284,dt:50,nt:8,next:15783,nextCheck:41243,str:24175,h:2,d0:15781,d1:41241;
                         ("ai_get_object", Expression<MethodOrOperator> @:15781 check:41241,op:284,dt:2,nt:9,next:15782,nextCheck:41242,str:2308,h:0,d0:0,d1:0;
                             ("cond_b_enforcer/a", Expression<AI> @:15782 check:41242,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25178,h:0,d0:0,d1:49222;)))
                     ("r_arm", Expression<StringId> @:15783 check:41243,op:11,dt:11,nt:9,next:15784,nextCheck:41244,str:25235,h:0,d0:154,d1:1280;
                         (1f, Expression<Float> @:15784 check:41244,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:24217,h:2,d0:0,d1:16256;))))
-            (____, Scope<Void> @:15785 check:41245,op:84,dt:4,nt:8,next:15792,nextCheck:41252,str:24222,h:2,d0:15786,d1:41246;
+            (____, BuiltinInvocation<Void> @:15785 check:41245,op:84,dt:4,nt:8,next:15792,nextCheck:41252,str:24222,h:2,d0:15786,d1:41246;
                 ("object_damage_damage_section", Expression<MethodOrOperator> @:15786 check:41246,op:84,dt:2,nt:9,next:15787,nextCheck:41247,str:21672,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:15787 check:41247,op:284,dt:50,nt:8,next:15790,nextCheck:41250,str:24252,h:2,d0:15788,d1:41248;
+                    (____, BuiltinInvocation<Entity> @:15787 check:41247,op:284,dt:50,nt:8,next:15790,nextCheck:41250,str:24252,h:2,d0:15788,d1:41248;
                         ("ai_get_object", Expression<MethodOrOperator> @:15788 check:41248,op:284,dt:2,nt:9,next:15789,nextCheck:41249,str:2308,h:0,d0:0,d1:0;
                             ("cond_b_enforcer/a", Expression<AI> @:15789 check:41249,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25178,h:0,d0:0,d1:49222;)))
                     ("r_rocket", Expression<StringId> @:15790 check:41250,op:11,dt:11,nt:9,next:15791,nextCheck:41251,str:25241,h:0,d0:6351,d1:2048;
                         (1f, Expression<Float> @:15791 check:41251,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:24297,h:2,d0:0,d1:16256;))))
-            (____, Scope<Void> @:15792 check:41252,op:84,dt:4,nt:8,next:65535,nextCheck:65535,str:24302,h:2,d0:15793,d1:41253;
+            (____, BuiltinInvocation<Void> @:15792 check:41252,op:84,dt:4,nt:8,next:65535,nextCheck:65535,str:24302,h:2,d0:15793,d1:41253;
                 ("object_damage_damage_section", Expression<MethodOrOperator> @:15793 check:41253,op:84,dt:2,nt:9,next:15794,nextCheck:41254,str:21672,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:15794 check:41254,op:284,dt:50,nt:8,next:15797,nextCheck:41257,str:24332,h:2,d0:15795,d1:41255;
+                    (____, BuiltinInvocation<Entity> @:15794 check:41254,op:284,dt:50,nt:8,next:15797,nextCheck:41257,str:24332,h:2,d0:15795,d1:41255;
                         ("ai_get_object", Expression<MethodOrOperator> @:15795 check:41255,op:284,dt:2,nt:9,next:15796,nextCheck:41256,str:2308,h:0,d0:0,d1:0;
                             ("cond_b_enforcer/a", Expression<AI> @:15796 check:41256,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25178,h:0,d0:0,d1:49222;)))
                     ("l_thruster", Expression<StringId> @:15797 check:41257,op:11,dt:11,nt:9,next:15798,nextCheck:41258,str:25211,h:0,d0:6347,d1:2560;

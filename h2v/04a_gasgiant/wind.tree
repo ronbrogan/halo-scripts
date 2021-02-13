@@ -1,54 +1,54 @@
 
 ("wind", MethodDecl<Void> @:243 check:0,op:0,dt:0,nt:65535,next:7944,nextCheck:33404,str:18412,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:7944 check:33404,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:29161,h:1,d0:7945,d1:33405;
+    (____, BuiltinInvocation<Void> @:7944 check:33404,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:29161,h:1,d0:7945,d1:33405;
         ("begin", Expression<MethodOrOperator> @:7945 check:33405,op:0,dt:2,nt:9,next:7894,nextCheck:33354,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:7894 check:33354,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:29184,h:1,d0:7895,d1:33355;
+            (____, BuiltinInvocation<Void> @:7894 check:33354,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:29184,h:1,d0:7895,d1:33355;
                 ("sleep_until", Expression<MethodOrOperator> @:7895 check:33355,op:21,dt:2,nt:9,next:7896,nextCheck:33356,str:236,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:7896 check:33356,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:29200,h:1,d0:7897,d1:33357;
+                    (____, BuiltinInvocation<Boolean> @:7896 check:33356,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:29200,h:1,d0:7897,d1:33357;
                         ("begin", Expression<MethodOrOperator> @:7897 check:33357,op:0,dt:2,nt:9,next:7898,nextCheck:33358,str:6,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:7898 check:33358,op:596,dt:4,nt:8,next:7903,nextCheck:33363,str:29211,h:1,d0:7899,d1:33359;
+                            (____, BuiltinInvocation<Void> @:7898 check:33358,op:596,dt:4,nt:8,next:7903,nextCheck:33363,str:29211,h:1,d0:7899,d1:33359;
                                 ("sound_impulse_start", Expression<MethodOrOperator> @:7899 check:33359,op:596,dt:2,nt:9,next:7900,nextCheck:33360,str:1409,h:0,d0:0,d1:0;
                                     ("sound\ambience\sound_scenery\gusty_wind\details\gusty_wind", Expression<Sound> @:7900 check:33360,op:32,dt:32,nt:9,next:7901,nextCheck:33361,str:17298,h:0,d0:5496,d1:63403;
                                         (4294967295, Expression<Entity> @:7901 check:33361,op:50,dt:50,nt:9,next:7902,nextCheck:33362,str:1,h:0,d0:65535,d1:65535;
                                             (1f, Expression<Float> @:7902 check:33362,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:29296,h:1,d0:0,d1:16256;)))))
-                            (____, Scope<Void> @:7903 check:33363,op:19,dt:4,nt:8,next:7906,nextCheck:33366,str:29303,h:1,d0:7904,d1:33364;
+                            (____, BuiltinInvocation<Void> @:7903 check:33363,op:19,dt:4,nt:8,next:7906,nextCheck:33366,str:29303,h:1,d0:7904,d1:33364;
                                 ("sleep", Expression<MethodOrOperator> @:7904 check:33364,op:19,dt:2,nt:9,next:7905,nextCheck:33365,str:85,h:0,d0:0,d1:0;
                                     (30, Expression<Short> @:7905 check:33365,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:29310,h:1,d0:30,d1:65535;)))
-                            (____, Scope<Void> @:7906 check:33366,op:653,dt:4,nt:8,next:7917,nextCheck:33377,str:29318,h:1,d0:7907,d1:33367;
+                            (____, BuiltinInvocation<Void> @:7906 check:33366,op:653,dt:4,nt:8,next:7917,nextCheck:33377,str:29318,h:1,d0:7907,d1:33367;
                                 ("player_effect_set_max_rotation", Expression<MethodOrOperator> @:7907 check:33367,op:653,dt:2,nt:9,next:7908,nextCheck:33368,str:10643,h:0,d0:0,d1:0;
-                                    (-1.5951508E-37f, Scope<Float> @:7908 check:33368,op:125,dt:6,nt:8,next:7912,nextCheck:33372,str:29350,h:1,d0:7909,d1:33369;
+                                    (-1.5951508E-37f, BuiltinInvocation<Float> @:7908 check:33368,op:125,dt:6,nt:8,next:7912,nextCheck:33372,str:29350,h:1,d0:7909,d1:33369;
                                         ("real_random_range", Expression<MethodOrOperator> @:7909 check:33369,op:125,dt:2,nt:9,next:7910,nextCheck:33370,str:17357,h:0,d0:0,d1:0;
                                             (0.1f, Expression<Float> @:7910 check:33370,op:6,dt:6,nt:9,next:7911,nextCheck:33371,str:29369,h:1,d0:52429,d1:15820;
                                                 (1f, Expression<Float> @:7911 check:33371,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:29372,h:1,d0:0,d1:16256;))))
-                                    (-1.6245387E-37f, Scope<Float> @:7912 check:33372,op:125,dt:6,nt:8,next:7916,nextCheck:33376,str:29375,h:1,d0:7913,d1:33373;
+                                    (-1.6245387E-37f, BuiltinInvocation<Float> @:7912 check:33372,op:125,dt:6,nt:8,next:7916,nextCheck:33376,str:29375,h:1,d0:7913,d1:33373;
                                         ("real_random_range", Expression<MethodOrOperator> @:7913 check:33373,op:125,dt:2,nt:9,next:7914,nextCheck:33374,str:17357,h:0,d0:0,d1:0;
                                             (0.1f, Expression<Float> @:7914 check:33374,op:6,dt:6,nt:9,next:7915,nextCheck:33375,str:29394,h:1,d0:52429,d1:15820;
                                                 (1f, Expression<Float> @:7915 check:33375,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:29397,h:1,d0:0,d1:16256;))))
                                     (0f, Expression<Float> @:7916 check:33376,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:29400,h:1,d0:0,d1:0;)))
-                            (____, Scope<Void> @:7917 check:33377,op:655,dt:4,nt:8,next:7927,nextCheck:33387,str:29407,h:1,d0:7918,d1:33378;
+                            (____, BuiltinInvocation<Void> @:7917 check:33377,op:655,dt:4,nt:8,next:7927,nextCheck:33387,str:29407,h:1,d0:7918,d1:33378;
                                 ("player_effect_start", Expression<MethodOrOperator> @:7918 check:33378,op:655,dt:2,nt:9,next:7919,nextCheck:33379,str:10674,h:0,d0:0,d1:0;
-                                    (-1.6759673E-37f, Scope<Float> @:7919 check:33379,op:125,dt:6,nt:8,next:7923,nextCheck:33383,str:29428,h:1,d0:7920,d1:33380;
+                                    (-1.6759673E-37f, BuiltinInvocation<Float> @:7919 check:33379,op:125,dt:6,nt:8,next:7923,nextCheck:33383,str:29428,h:1,d0:7920,d1:33380;
                                         ("real_random_range", Expression<MethodOrOperator> @:7920 check:33380,op:125,dt:2,nt:9,next:7921,nextCheck:33381,str:17357,h:0,d0:0,d1:0;
                                             (0.05f, Expression<Float> @:7921 check:33381,op:6,dt:6,nt:9,next:7922,nextCheck:33382,str:29447,h:1,d0:52429,d1:15692;
                                                 (0.2f, Expression<Float> @:7922 check:33382,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:29451,h:1,d0:52429,d1:15948;))))
-                                    (-1.7053551E-37f, Scope<Float> @:7923 check:33383,op:125,dt:6,nt:8,next:65535,nextCheck:65535,str:29455,h:1,d0:7924,d1:33384;
+                                    (-1.7053551E-37f, BuiltinInvocation<Float> @:7923 check:33383,op:125,dt:6,nt:8,next:65535,nextCheck:65535,str:29455,h:1,d0:7924,d1:33384;
                                         ("real_random_range", Expression<MethodOrOperator> @:7924 check:33384,op:125,dt:2,nt:9,next:7925,nextCheck:33385,str:17357,h:0,d0:0,d1:0;
                                             (0.5f, Expression<Float> @:7925 check:33385,op:6,dt:6,nt:9,next:7926,nextCheck:33386,str:29474,h:1,d0:0,d1:16128;
                                                 (2f, Expression<Float> @:7926 check:33386,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:29477,h:1,d0:0,d1:16384;))))))
-                            (____, Scope<Void> @:7927 check:33387,op:656,dt:4,nt:8,next:7933,nextCheck:33393,str:29485,h:1,d0:7928,d1:33388;
+                            (____, BuiltinInvocation<Void> @:7927 check:33387,op:656,dt:4,nt:8,next:7933,nextCheck:33393,str:29485,h:1,d0:7928,d1:33388;
                                 ("player_effect_stop", Expression<MethodOrOperator> @:7928 check:33388,op:656,dt:2,nt:9,next:7929,nextCheck:33389,str:11669,h:0,d0:0,d1:0;
-                                    (-1.7494368E-37f, Scope<Float> @:7929 check:33389,op:125,dt:6,nt:8,next:65535,nextCheck:65535,str:29505,h:1,d0:7930,d1:33390;
+                                    (-1.7494368E-37f, BuiltinInvocation<Float> @:7929 check:33389,op:125,dt:6,nt:8,next:65535,nextCheck:65535,str:29505,h:1,d0:7930,d1:33390;
                                         ("real_random_range", Expression<MethodOrOperator> @:7930 check:33390,op:125,dt:2,nt:9,next:7931,nextCheck:33391,str:17357,h:0,d0:0,d1:0;
                                             (3f, Expression<Float> @:7931 check:33391,op:6,dt:6,nt:9,next:7932,nextCheck:33392,str:29524,h:1,d0:0,d1:16448;
                                                 (5f, Expression<Float> @:7932 check:33392,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:29526,h:1,d0:0,d1:16544;))))))
-                            (____, Scope<Void> @:7933 check:33393,op:19,dt:4,nt:8,next:7939,nextCheck:33399,str:29534,h:1,d0:7934,d1:33394;
+                            (____, BuiltinInvocation<Void> @:7933 check:33393,op:19,dt:4,nt:8,next:7939,nextCheck:33399,str:29534,h:1,d0:7934,d1:33394;
                                 ("sleep", Expression<MethodOrOperator> @:7934 check:33394,op:19,dt:2,nt:9,next:7935,nextCheck:33395,str:85,h:0,d0:0,d1:0;
-                                    (____, Scope<Short> @:7935 check:33395,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:29541,h:1,d0:7936,d1:33396;
+                                    (____, BuiltinInvocation<Short> @:7935 check:33395,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:29541,h:1,d0:7936,d1:33396;
                                         ("random_range", Expression<MethodOrOperator> @:7936 check:33396,op:124,dt:2,nt:9,next:7937,nextCheck:33397,str:15699,h:0,d0:0,d1:0;
                                             (300, Expression<Short> @:7937 check:33397,op:7,dt:7,nt:9,next:7938,nextCheck:33398,str:29555,h:1,d0:300,d1:65535;
                                                 (600, Expression<Short> @:7938 check:33398,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:29559,h:1,d0:600,d1:65535;))))))
-                            (____, Scope<Boolean> @:7939 check:33399,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:29569,h:1,d0:7940,d1:33400;
+                            (____, BuiltinInvocation<Boolean> @:7939 check:33399,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:29569,h:1,d0:7940,d1:33400;
                                 ("=", Expression<MethodOrOperator> @:7940 check:33400,op:13,dt:2,nt:9,next:7941,nextCheck:33401,str:301,h:0,d0:0,d1:0;
-                                    (____, Scope<Short> @:7941 check:33401,op:509,dt:7,nt:8,next:7943,nextCheck:33403,str:29572,h:1,d0:7942,d1:33402;
+                                    (____, BuiltinInvocation<Short> @:7941 check:33401,op:509,dt:7,nt:8,next:7943,nextCheck:33403,str:29572,h:1,d0:7942,d1:33402;
                                         ("structure_bsp_index", Expression<MethodOrOperator> @:7942 check:33402,op:509,dt:2,nt:9,next:65535,nextCheck:65535,str:17126,h:0,d0:0,d1:0;))
                                     (3, Expression<Short> @:7943 check:33403,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:29594,h:1,d0:3,d1:65535;))))))))))

@@ -1,386 +1,386 @@
-[0]: begin
-[1]: begin_random
-[2]: if
-[4]: set
-[5]: and
-[6]: or
-[7]: +
-[8]: -
-[9]: *
-[10]: /
-[11]: min
-[12]: max
-[13]: =
-[15]: >
-[16]: <
-[17]: >=
-[18]: <=
-[19]: sleep
-[20]: sleep_forever
-[21]: sleep_until
-[22]: wake
-[24]: unit
-[25]: not
-[26]: pin
-[27]: print
-[28]: players
-[29]: kill_volume_enable
-[30]: kill_volume_disable
-[31]: volume_teleport_players_not_inside
-[32]: volume_test_object
-[33]: volume_test_objects
-[34]: volume_test_objects_all
-[35]: volume_return_objects
-[36]: volume_return_objects_by_type
-[37]: list_get
-[38]: list_count
-[39]: list_count_not_dead
-[40]: effect_new
-[41]: effect_new_on_object_marker
-[42]: damage_new
-[43]: damage_object
-[45]: damage_players
-[46]: object_create
-[47]: object_create_clone
-[48]: object_create_anew
-[49]: object_create_containing
-[51]: object_create_anew_containing
-[52]: object_destroy
-[53]: object_destroy_containing
-[55]: object_destroy_type_mask
-[57]: object_hide
-[60]: object_set_function_variable
-[61]: object_clear_function_variable
-[62]: object_clear_all_function_variables
-[63]: object_dynamic_simulation_disable
-[64]: object_set_phantom_power
-[69]: object_get_health
-[70]: object_get_shield
-[73]: object_get_parent
-[74]: objects_attach
-[75]: object_at_marker
-[76]: objects_detach
-[77]: object_set_scale
-[78,79]: object_set_velocity
-[80]: object_set_deleted_when_deactivated
-[83]: object_model_targets_destroyed
-[84]: object_damage_damage_section
-[85]: object_cannot_die
-[87]: garbage_collect_now
-[88]: garbage_collect_unsafe
-[90]: object_cannot_take_damage
-[91]: object_can_take_damage
-[92]: object_cinematic_lod
-[94]: object_cinematic_visibility
-[95]: object_uses_cinematic_lighting
-[96]: cinematic_lighting_set_primary_light
-[97]: cinematic_lighting_set_secondary_light
-[98]: cinematic_lighting_set_ambient_light
-[99]: objects_predict
-[100]: objects_predict_high
-[102]: object_type_predict_high
-[104]: object_type_predict
-[105]: object_teleport
-[107]: object_set_shield
-[109]: object_set_shield_stun_infinite
-[110]: object_set_permutation
-[111]: object_set_region_state
-[112]: objects_can_see_object
-[113]: objects_can_see_flag
-[114]: objects_distance_to_object
-[115]: objects_distance_to_flag
-[124]: random_range
-[125]: real_random_range
-[127]: physics_set_gravity
-[128]: physics_set_velocity_frame
-[129]: physics_disable_character_ground_adhesion_forces
-[144]: texture_camera_set_object_marker
-[145]: texture_camera_off
-[146]: render_lights_enable_cinematic_shadow
-[185]: scenery_animation_start_loop
-[186]: scenery_animation_start_relative
-[190]: scenery_get_animation_time
-[193]: unit_set_active_camo
-[196]: unit_kill
-[197]: unit_kill_silent
-[198]: unit_is_emitting
-[199]: unit_get_custom_animation_time
-[200]: unit_stop_custom_animation
-[201]: custom_animation
-[202]: custom_animation_loop
-[203]: custom_animation_relative
-[204]: custom_animation_relative_loop
-[213]: unit_set_enterable_by_player
-[215]: unit_only_takes_damage_from_players_team
-[220]: unit_set_emotional_state
-[222]: unit_in_vehicle
-[223]: vehicle_test_seat_list
-[224]: vehicle_test_seat
-[227]: unit_exit_vehicle
-[228]: unit_set_maximum_vitality
-[229]: units_set_maximum_vitality
-[230]: unit_set_current_vitality
-[231]: units_set_current_vitality
-[232]: vehicle_load_magic
-[233]: vehicle_unload
-[237]: vehicle_driver
-[239]: unit_get_health
-[240]: unit_get_shield
-[242]: unit_has_weapon
-[247]: unit_doesnt_drop_items
-[248]: unit_impervious
-[250]: unit_add_equipment
-[251]: weapon_hold_trigger
-[252]: weapon_enable_warthog_chaingun_light
-[253]: device_set_never_appears_locked
-[254]: device_set_power
-[256]: device_set_position
-[257]: device_get_position
-[258]: device_set_position_immediate
-[259]: device_group_get
-[260]: device_group_set
-[261]: device_group_set_immediate
-[262]: device_one_sided_set
-[263]: device_operates_automatically_set
-[264]: device_closes_automatically_set
-[265]: device_group_change_only_once_more_set
-[266]: device_set_position_track
-[267]: device_set_overlay_track
-[268]: device_animate_position
-[269]: device_animate_overlay
-[275]: cheat_active_camouflage_by_player
-[277]: drop
-[281]: ai_dialogue_enable
-[284]: ai_get_object
-[285]: ai_get_unit
-[287]: ai_attach_units
-[290,291]: ai_place
-[292]: ai_place_in_vehicle
-[293]: ai_cannot_die
-[294]: ai_vitality_pinned
-[295]: ai_overcomes_oversteer
-[296]: ai_kill
-[297]: ai_kill_silent
-[298]: ai_erase
-[299]: ai_erase_all
-[300]: ai_disposable
-[303]: ai_set_deaf
-[304]: ai_set_blind
-[305]: ai_magically_see
-[306]: ai_magically_see_object
-[307]: ai_set_active_camo
-[308]: ai_suppress_combat
-[309]: ai_migrate
-[310]: ai_allegiance
-[312]: ai_braindead
-[314]: ai_disregard
-[315]: ai_prefer_target
-[316]: ai_teleport_to_starting_location_if_outside_bsp
-[317]: ai_renew
-[322]: ai_berserk
-[326]: ai_fighting_count
-[327]: ai_living_count
-[329]: ai_strength
-[330]: ai_swarm_count
-[331]: ai_nonswarm_count
-[332]: ai_actors
-[334]: ai_set_orders
-[335]: ai_spawn_count
-[336]: object_get_ai
-[337]: ai_trigger_test
-[340]: ai_vehicle_get
-[341]: ai_vehicle_get_from_starting_location
-[342]: ai_vehicle_reserve_seat
-[343]: ai_vehicle_reserve
-[345,344]: ai_vehicle_enter
-[346]: ai_vehicle_enter_immediate
-[348]: ai_enter_squad_vehicles
-[350]: ai_vehicle_exit
-[353]: ai_combat_status
-[354]: flock_start
-[355]: flock_stop
-[360]: ai_play_line
-[361]: ai_play_line_at_player
-[362]: ai_play_line_on_object
-[363,364]: ai_scene
-[366]: cs_run_command_script
-[367]: cs_queue_command_script
-[368]: cs_stack_command_script
-[371]: cs_command_script_running
-[372]: cs_command_script_queued
-[374]: cs_switch
-[380,379]: cs_fly_to
-[381,382]: cs_fly_to_and_face
-[383,384]: cs_fly_by
-[385,386]: cs_go_to
-[387]: cs_go_by
-[389]: cs_go_to_and_face
-[390]: cs_start_to
-[391]: cs_go_to_nearest
-[392]: cs_moving
-[393]: cs_look
-[394]: cs_look_player
-[395]: cs_look_object
-[396]: cs_aim
-[397]: cs_aim_player
-[398]: cs_aim_object
-[399]: cs_face
-[400]: cs_face_player
-[401]: cs_face_object
-[402]: cs_move_in_direction
-[403]: cs_pause
-[405,404]: cs_shoot
-[406]: cs_shoot_point
-[407]: cs_vehicle_speed
-[408]: cs_grenade
-[409]: cs_jump
-[410]: cs_jump_to_point
-[416]: cs_custom_animation
-[417]: cs_stop_custom_animation
-[418]: cs_play_line
-[420]: cs_teleport
-[422]: cs_movement_mode
-[423]: cs_crouch
-[426]: cs_go_to_vehicle
-[427]: cs_set_behavior
-[429]: cs_deploy_turret
-[430]: cs_approach
-[431]: cs_start_approach
-[432]: cs_approach_player
-[433]: cs_start_approach_player
-[434]: cs_approach_stop
-[435]: cs_ignore_obstacles
-[436]: cs_turn_sharpness
-[438]: cs_vehicle_boost
-[439]: cs_abort_on_alert
-[440]: cs_abort_on_damage
-[441]: cs_abort_on_combat_status
-[442]: cs_enable_targeting
-[443]: cs_enable_looking
-[444]: cs_enable_moving
-[445]: cs_enable_dialogue
-[446]: cs_suppress_dialogue_global
-[448]: cs_force_combat_status
-[449]: cs_enable_pathfinding_failsafe
-[450]: camera_control
-[451]: camera_set
-[454]: camera_set_animation_relative
-[455]: camera_predict_resources_at_frame
-[456]: camera_predict_resources_at_point
-[458]: camera_time
-[459]: camera_set_field_of_view
-[467]: game_difficulty_get
-[468]: game_difficulty_get_real
-[469]: pvs_set_object
-[471]: pvs_clear
-[473]: player_enable_input
-[474]: player_disable_movement
-[475]: player_flashlight_on
-[477]: player_camera_control
-[478]: player_action_test_reset
-[480]: player_action_test_primary_trigger
-[481]: player_action_test_grenade_trigger
-[482]: player_action_test_vision_trigger
-[486]: player_action_test_melee
-[488]: player_action_test_accept
-[489]: player_action_test_cancel
-[498]: player0_looking_up
-[499]: player0_looking_down
-[500]: player_action_test_look_up_begin
-[501]: player_action_test_look_down_begin
-[502]: player_action_test_look_pitch_end
-[503]: player_action_test_lookstick_forward
-[504]: player_action_test_lookstick_backward
-[506]: map_reset
-[507]: switch_bsp
-[508]: switch_bsp_by_name
-[509]: structure_bsp_index
-[530]: texture_cache_flush
-[531]: geometry_cache_flush
-[551]: fade_in
-[552]: fade_out
-[553]: cinematic_start
-[554]: cinematic_stop
-[555]: cinematic_skip_start_internal
-[556]: cinematic_skip_stop_internal
-[557]: cinematic_show_letterbox
-[558]: cinematic_show_letterbox_immediate
-[559]: cinematic_set_title
-[562]: cinematic_subtitle
-[565]: game_won
-[567]: game_revert
-[568]: game_is_cooperative
-[569]: game_is_playtest
-[570]: game_can_use_flashlights
-[584]: game_safe_to_save
-[587]: game_save
-[588]: game_save_cancel
-[589]: game_save_no_timeout
-[590]: game_save_immediate
-[591]: game_saving
-[592]: game_reverted
-[594]: sound_impulse_predict
-[595]: sound_impulse_trigger
-[596]: sound_impulse_start
-[598]: sound_impulse_start_effect
-[601]: sound_impulse_language_time
-[602]: sound_impulse_stop
-[605]: sound_looping_start
-[606]: sound_looping_stop
-[609]: sound_looping_set_alternate
-[614]: sound_class_set_gain
-[624]: biped_ragdoll
-[625]: hud_cinematic_fade
-[631]: hud_show_training_text
-[632]: hud_set_training_text
-[633]: hud_enable_training
-[634]: player_training_activate_flashlight
-[636]: player_training_activate_stealth
-[639]: activate_team_nav_point_flag
-[640]: activate_team_nav_point_object
-[643]: deactivate_team_nav_point_flag
-[644]: deactivate_team_nav_point_object
-[653]: player_effect_set_max_rotation
-[654]: player_effect_set_max_vibration
-[655]: player_effect_start
-[656]: player_effect_stop
-[674]: time_code_show
-[675]: time_code_start
-[676]: time_code_reset
-[708]: cinematic_screen_effect_start
-[709]: cinematic_screen_effect_set_depth_of_field
-[710]: cinematic_screen_effect_set_crossfade
-[712]: cinematic_screen_effect_stop
-[713]: cinematic_set_near_clip_distance
-[714]: cinematic_set_far_clip_distance
-[729]: controller_set_look_invert
-[730]: controller_get_look_invert
-[752]: objectives_clear
-[753]: objectives_show_up_to
-[754]: objectives_finish_up_to
-[781]: play_credits
-[782]: bink_done
-[786]: data_mine_set_mission_segment
-[844]: interpolator_start
-[865]: weather_start
-[866]: weather_stop
-[867]: weather_change_intensity
-[869]: cinematic_clone_players_weapon
-[872]: ice_cream_flavor_stock
-[873]: ice_cream_flavor_available
-[874]: set_global_sound_environment
-[876]: game_save_cinematic_skip
-[877]: cinematic_outro_start
-[878]: cinematic_enable_ambience_details
-[880]: predict_model_section
-[881]: predict_structure_section
-[885]: rasterizer_bloom_override
-[888]: rasterizer_bloom_override_threshold
-[889]: rasterizer_bloom_override_brightness
-[897]: cache_block_for_one_frame
-[898]: sound_suppress_ambience_update_on_revert
-[902]: cinematic_lightmap_shadow_disable
-[903]: cinematic_lightmap_shadow_enable
-[922]: loading_screen_fade_to_white
-[925]: enable_render_light_suppressor
-[926]: disable_render_light_suppressor
+[0]: begin <Unit,Short,Void,Boolean> #299
+[1]: begin_random <Void> #30
+[2]: if <Boolean,Void,Short,Float> #3
+[4]: set <Int,Short,Boolean,Vehicle,Entity,Float,Unit> #1
+[5]: and <Boolean> #7
+[6]: or <Boolean> #16
+[7]: + <Float> #4
+[8]: - <Float> #2
+[9]: * <Float> #1
+[10]: / <Float> #1
+[11]: min <Float> #1
+[12]: max <Float> #1
+[13]: = <GameDifficulty,Float,Short,Boolean> #2
+[15]: > <Short,Float> #2
+[16]: < <Float,Short> #2
+[17]: >= <Float,Short> #2
+[18]: <= <Short,Float> #2
+[19]: sleep <Short> #1
+[20]: sleep_forever <ScriptReference> #1
+[21]: sleep_until <Boolean,Short> #2
+[22]: wake <ScriptReference> #1
+[24]: unit <Entity> #1
+[25]: not <Boolean> #1
+[26]: pin <Float> #2
+[27]: print <String> #1
+[28]: players <> #0
+[29]: kill_volume_enable <Trigger> #1
+[30]: kill_volume_disable <Trigger> #1
+[31]: volume_teleport_players_not_inside <Trigger> #1
+[32]: volume_test_object <Trigger> #1
+[33]: volume_test_objects <Trigger> #1
+[34]: volume_test_objects_all <Trigger> #1
+[35]: volume_return_objects <Trigger> #1
+[36]: volume_return_objects_by_type <Trigger> #1
+[37]: list_get <List,Short> #2
+[38]: list_count <List> #1
+[39]: list_count_not_dead <List> #1
+[40]: effect_new <Effect> #1
+[41]: effect_new_on_object_marker <Effect> #1
+[42]: damage_new <DamageEffect> #1
+[43]: damage_object <DamageEffect> #1
+[45]: damage_players <DamageEffect> #1
+[46]: object_create <EntityIdentifier> #1
+[47]: object_create_clone <EntityIdentifier> #1
+[48]: object_create_anew <EntityIdentifier> #1
+[49]: object_create_containing <String> #1
+[51]: object_create_anew_containing <String> #1
+[52]: object_destroy <Entity> #1
+[53]: object_destroy_containing <String> #1
+[55]: object_destroy_type_mask <Int> #1
+[57]: object_hide <Entity,Boolean> #2
+[60]: object_set_function_variable <Entity,StringId> #2
+[61]: object_clear_function_variable <Entity> #1
+[62]: object_clear_all_function_variables <Entity> #1
+[63]: object_dynamic_simulation_disable <Entity,Boolean> #2
+[64]: object_set_phantom_power <Entity,Boolean> #2
+[69]: object_get_health <Entity> #1
+[70]: object_get_shield <Entity> #1
+[73]: object_get_parent <Entity> #1
+[74]: objects_attach <Entity,StringId> #2
+[75]: object_at_marker <Entity> #1
+[76]: objects_detach <Entity> #2
+[77]: object_set_scale <Entity,Float> #2
+[78,79]: object_set_velocity <Entity,Float> #2
+[80]: object_set_deleted_when_deactivated <Entity> #1
+[83]: object_model_targets_destroyed <Entity,StringId> #2
+[84]: object_damage_damage_section <Entity,StringId> #2
+[85]: object_cannot_die <Entity,Boolean> #2
+[87]: garbage_collect_now <> #0
+[88]: garbage_collect_unsafe <> #0
+[90]: object_cannot_take_damage <List> #1
+[91]: object_can_take_damage <List> #1
+[92]: object_cinematic_lod <Entity,Boolean> #2
+[94]: object_cinematic_visibility <Entity> #1
+[95]: object_uses_cinematic_lighting <Entity,Boolean> #2
+[96]: cinematic_lighting_set_primary_light <Float> #1
+[97]: cinematic_lighting_set_secondary_light <Float> #1
+[98]: cinematic_lighting_set_ambient_light <Float> #1
+[99]: objects_predict <List> #1
+[100]: objects_predict_high <List> #1
+[102]: object_type_predict_high <TagReference> #1
+[104]: object_type_predict <TagReference> #1
+[105]: object_teleport <Entity,LocationFlag> #2
+[107]: object_set_shield <Entity,Float> #2
+[109]: object_set_shield_stun_infinite <Entity> #1
+[110]: object_set_permutation <Entity,StringId> #2
+[111]: object_set_region_state <Entity> #1
+[112]: objects_can_see_object <List,Entity,Float> #3
+[113]: objects_can_see_flag <List,LocationFlag> #2
+[114]: objects_distance_to_object <List,Entity> #2
+[115]: objects_distance_to_flag <List,LocationFlag> #2
+[124]: random_range <Short> #2
+[125]: real_random_range <Float> #1
+[127]: physics_set_gravity <Float> #1
+[128]: physics_set_velocity_frame <Float> #1
+[129]: physics_disable_character_ground_adhesion_forces <Float> #1
+[144]: texture_camera_set_object_marker <Entity> #1
+[145]: texture_camera_off <> #0
+[146]: render_lights_enable_cinematic_shadow <Boolean> #1
+[185]: scenery_animation_start_loop <Scenery> #1
+[186]: scenery_animation_start_relative <Scenery> #1
+[190]: scenery_get_animation_time <Scenery> #1
+[193]: unit_set_active_camo <Unit> #1
+[196]: unit_kill <Unit> #1
+[197]: unit_kill_silent <Unit> #1
+[198]: unit_is_emitting <Unit> #1
+[199]: unit_get_custom_animation_time <Unit> #1
+[200]: unit_stop_custom_animation <Unit> #1
+[201]: custom_animation <Unit,Animation> #2
+[202]: custom_animation_loop <Unit,Animation> #2
+[203]: custom_animation_relative <Unit,Animation> #2
+[204]: custom_animation_relative_loop <Unit,Animation> #2
+[213]: unit_set_enterable_by_player <Unit,Boolean> #2
+[215]: unit_only_takes_damage_from_players_team <Unit,Boolean> #2
+[220]: unit_set_emotional_state <Unit,StringId> #2
+[222]: unit_in_vehicle <Unit> #1
+[223]: vehicle_test_seat_list <Vehicle,StringId> #2
+[224]: vehicle_test_seat <Vehicle,StringId> #2
+[227]: unit_exit_vehicle <Unit,Short> #2
+[228]: unit_set_maximum_vitality <Unit,Float> #2
+[229]: units_set_maximum_vitality <List,Float> #2
+[230]: unit_set_current_vitality <Unit,Float> #2
+[231]: units_set_current_vitality <List,Float> #2
+[232]: vehicle_load_magic <Entity,VehicleSeat> #2
+[233]: vehicle_unload <Entity,VehicleSeat> #2
+[237]: vehicle_driver <Unit> #1
+[239]: unit_get_health <Unit> #1
+[240]: unit_get_shield <Unit> #1
+[242]: unit_has_weapon <Unit,TagReference> #2
+[247]: unit_doesnt_drop_items <List> #1
+[248]: unit_impervious <List,Boolean> #2
+[250]: unit_add_equipment <Unit,StartingProfile> #2
+[251]: weapon_hold_trigger <WeaponReference> #1
+[252]: weapon_enable_warthog_chaingun_light <Boolean> #1
+[253]: device_set_never_appears_locked <Device> #1
+[254]: device_set_power <Device> #1
+[256]: device_set_position <Device> #1
+[257]: device_get_position <Device> #1
+[258]: device_set_position_immediate <Device> #1
+[259]: device_group_get <DeviceGroup> #1
+[260]: device_group_set <Device> #1
+[261]: device_group_set_immediate <DeviceGroup> #1
+[262]: device_one_sided_set <Device> #1
+[263]: device_operates_automatically_set <Device> #1
+[264]: device_closes_automatically_set <Device> #1
+[265]: device_group_change_only_once_more_set <DeviceGroup> #1
+[266]: device_set_position_track <Device> #1
+[267]: device_set_overlay_track <Device> #1
+[268]: device_animate_position <Device> #1
+[269]: device_animate_overlay <Device> #1
+[275]: cheat_active_camouflage_by_player <Short> #1
+[277]: drop <String> #1
+[281]: ai_dialogue_enable <Boolean> #1
+[284]: ai_get_object <AI> #1
+[285]: ai_get_unit <AI> #1
+[287]: ai_attach_units <List,AI> #2
+[290,291]: ai_place <AI> #1
+[292]: ai_place_in_vehicle <AI> #1
+[293]: ai_cannot_die <AI> #1
+[294]: ai_vitality_pinned <AI> #1
+[295]: ai_overcomes_oversteer <AI> #1
+[296]: ai_kill <AI> #1
+[297]: ai_kill_silent <AI> #1
+[298]: ai_erase <AI> #1
+[299]: ai_erase_all <> #0
+[300]: ai_disposable <AI> #1
+[303]: ai_set_deaf <AI> #1
+[304]: ai_set_blind <AI> #1
+[305]: ai_magically_see <AI> #1
+[306]: ai_magically_see_object <AI> #1
+[307]: ai_set_active_camo <AI> #1
+[308]: ai_suppress_combat <AI> #1
+[309]: ai_migrate <AI> #2
+[310]: ai_allegiance <Team> #1
+[312]: ai_braindead <AI> #1
+[314]: ai_disregard <List,Boolean> #2
+[315]: ai_prefer_target <List,Boolean> #2
+[316]: ai_teleport_to_starting_location_if_outside_bsp <AI> #1
+[317]: ai_renew <AI> #1
+[322]: ai_berserk <AI> #1
+[326]: ai_fighting_count <AI> #1
+[327]: ai_living_count <AI> #1
+[329]: ai_strength <AI> #1
+[330]: ai_swarm_count <AI> #1
+[331]: ai_nonswarm_count <AI> #1
+[332]: ai_actors <AI> #1
+[334]: ai_set_orders <AI> #1
+[335]: ai_spawn_count <AI> #1
+[336]: object_get_ai <Entity> #1
+[337]: ai_trigger_test <String> #1
+[340]: ai_vehicle_get <AI> #1
+[341]: ai_vehicle_get_from_starting_location <AI> #1
+[342]: ai_vehicle_reserve_seat <Vehicle,StringId> #2
+[343]: ai_vehicle_reserve <Vehicle,Boolean> #2
+[345,344]: ai_vehicle_enter <AI> #1
+[346]: ai_vehicle_enter_immediate <AI> #1
+[348]: ai_enter_squad_vehicles <AI> #1
+[350]: ai_vehicle_exit <AI> #1
+[353]: ai_combat_status <AI> #1
+[354]: flock_start <StringId> #1
+[355]: flock_stop <StringId> #1
+[360]: ai_play_line <AI> #1
+[361]: ai_play_line_at_player <AI,StringId> #2
+[362]: ai_play_line_on_object <Entity> #1
+[363,364]: ai_scene <StringId> #1
+[366]: cs_run_command_script <AI,AIScript> #2
+[367]: cs_queue_command_script <AI> #1
+[368]: cs_stack_command_script <AI> #1
+[371]: cs_command_script_running <AI> #1
+[372]: cs_command_script_queued <AI> #1
+[374]: cs_switch <StringId> #1
+[380,379]: cs_fly_to <SpatialPoint> #1
+[381,382]: cs_fly_to_and_face <SpatialPoint> #1
+[383,384]: cs_fly_by <SpatialPoint> #1
+[385,386]: cs_go_to <SpatialPoint> #1
+[387]: cs_go_by <SpatialPoint> #1
+[389]: cs_go_to_and_face <SpatialPoint> #1
+[390]: cs_start_to <SpatialPoint> #1
+[391]: cs_go_to_nearest <SpatialPoint> #1
+[392]: cs_moving <> #0
+[393]: cs_look <Boolean> #1
+[394]: cs_look_player <Boolean> #1
+[395]: cs_look_object <Boolean> #1
+[396]: cs_aim <Boolean> #1
+[397]: cs_aim_player <Boolean> #1
+[398]: cs_aim_object <Boolean> #1
+[399]: cs_face <Boolean> #1
+[400]: cs_face_player <Boolean> #1
+[401]: cs_face_object <Boolean> #1
+[402]: cs_move_in_direction <Float> #1
+[403]: cs_pause <Float> #1
+[405,404]: cs_shoot <Boolean> #1
+[406]: cs_shoot_point <Boolean> #1
+[407]: cs_vehicle_speed <Float> #1
+[408]: cs_grenade <SpatialPoint> #1
+[409]: cs_jump <Float> #1
+[410]: cs_jump_to_point <Float> #1
+[416]: cs_custom_animation <Animation> #1
+[417]: cs_stop_custom_animation <> #0
+[418]: cs_play_line <StringId> #1
+[420]: cs_teleport <SpatialPoint> #1
+[422]: cs_movement_mode <Short> #1
+[423]: cs_crouch <Boolean> #1
+[426]: cs_go_to_vehicle <Vehicle> #1
+[427]: cs_set_behavior <AIBehavior> #1
+[429]: cs_deploy_turret <SpatialPoint> #1
+[430]: cs_approach <Entity,Float> #2
+[431]: cs_start_approach <Entity> #1
+[432]: cs_approach_player <Float> #1
+[433]: cs_start_approach_player <Float> #1
+[434]: cs_approach_stop <> #0
+[435]: cs_ignore_obstacles <Boolean> #1
+[436]: cs_turn_sharpness <Boolean> #1
+[438]: cs_vehicle_boost <Boolean> #1
+[439]: cs_abort_on_alert <Boolean> #1
+[440]: cs_abort_on_damage <Boolean> #1
+[441]: cs_abort_on_combat_status <Short> #1
+[442]: cs_enable_targeting <Boolean> #1
+[443]: cs_enable_looking <Boolean> #1
+[444]: cs_enable_moving <Boolean> #1
+[445]: cs_enable_dialogue <Boolean> #1
+[446]: cs_suppress_dialogue_global <Boolean> #1
+[448]: cs_force_combat_status <Short> #1
+[449]: cs_enable_pathfinding_failsafe <Boolean> #1
+[450]: camera_control <Boolean> #1
+[451]: camera_set <CameraPathTarget> #1
+[454]: camera_set_animation_relative <Animation> #1
+[455]: camera_predict_resources_at_frame <Animation> #1
+[456]: camera_predict_resources_at_point <CameraPathTarget> #1
+[458]: camera_time <> #0
+[459]: camera_set_field_of_view <Float> #1
+[467]: game_difficulty_get <> #0
+[468]: game_difficulty_get_real <> #0
+[469]: pvs_set_object <Entity> #1
+[471]: pvs_clear <> #0
+[473]: player_enable_input <Boolean> #1
+[474]: player_disable_movement <Boolean> #1
+[475]: player_flashlight_on <> #0
+[477]: player_camera_control <Boolean> #1
+[478]: player_action_test_reset <> #0
+[480]: player_action_test_primary_trigger <> #0
+[481]: player_action_test_grenade_trigger <> #0
+[482]: player_action_test_vision_trigger <> #0
+[486]: player_action_test_melee <> #0
+[488]: player_action_test_accept <> #0
+[489]: player_action_test_cancel <> #0
+[498]: player0_looking_up <> #0
+[499]: player0_looking_down <> #0
+[500]: player_action_test_look_up_begin <> #0
+[501]: player_action_test_look_down_begin <> #0
+[502]: player_action_test_look_pitch_end <> #0
+[503]: player_action_test_lookstick_forward <> #0
+[504]: player_action_test_lookstick_backward <> #0
+[506]: map_reset <> #0
+[507]: switch_bsp <Short> #1
+[508]: switch_bsp_by_name <Bsp> #1
+[509]: structure_bsp_index <> #0
+[530]: texture_cache_flush <> #0
+[531]: geometry_cache_flush <> #0
+[551]: fade_in <Float> #1
+[552]: fade_out <Float> #1
+[553]: cinematic_start <> #0
+[554]: cinematic_stop <> #0
+[555]: cinematic_skip_start_internal <> #0
+[556]: cinematic_skip_stop_internal <> #0
+[557]: cinematic_show_letterbox <Boolean> #1
+[558]: cinematic_show_letterbox_immediate <Boolean> #1
+[559]: cinematic_set_title <CinematicTitle> #1
+[562]: cinematic_subtitle <StringId> #1
+[565]: game_won <> #0
+[567]: game_revert <> #0
+[568]: game_is_cooperative <> #0
+[569]: game_is_playtest <> #0
+[570]: game_can_use_flashlights <Boolean> #1
+[584]: game_safe_to_save <> #0
+[587]: game_save <> #0
+[588]: game_save_cancel <> #0
+[589]: game_save_no_timeout <> #0
+[590]: game_save_immediate <> #0
+[591]: game_saving <> #0
+[592]: game_reverted <> #0
+[594]: sound_impulse_predict <Sound> #1
+[595]: sound_impulse_trigger <Sound> #1
+[596]: sound_impulse_start <Sound> #1
+[598]: sound_impulse_start_effect <Sound> #1
+[601]: sound_impulse_language_time <Sound> #1
+[602]: sound_impulse_stop <Sound> #1
+[605]: sound_looping_start <LoopingSound> #1
+[606]: sound_looping_stop <LoopingSound> #1
+[609]: sound_looping_set_alternate <LoopingSound> #1
+[614]: sound_class_set_gain <String> #1
+[624]: biped_ragdoll <Unit> #1
+[625]: hud_cinematic_fade <Float> #1
+[631]: hud_show_training_text <Boolean> #1
+[632]: hud_set_training_text <StringId> #1
+[633]: hud_enable_training <Boolean> #1
+[634]: player_training_activate_flashlight <> #0
+[636]: player_training_activate_stealth <> #0
+[639]: activate_team_nav_point_flag <NavigationPoint> #1
+[640]: activate_team_nav_point_object <NavigationPoint> #1
+[643]: deactivate_team_nav_point_flag <Team> #1
+[644]: deactivate_team_nav_point_object <Team> #1
+[653]: player_effect_set_max_rotation <Float> #3
+[654]: player_effect_set_max_vibration <Float> #1
+[655]: player_effect_start <Float> #2
+[656]: player_effect_stop <Float> #1
+[674]: time_code_show <Boolean> #1
+[675]: time_code_start <Boolean> #1
+[676]: time_code_reset <> #0
+[708]: cinematic_screen_effect_start <Boolean> #1
+[709]: cinematic_screen_effect_set_depth_of_field <Float> #1
+[710]: cinematic_screen_effect_set_crossfade <Float> #1
+[712]: cinematic_screen_effect_stop <> #0
+[713]: cinematic_set_near_clip_distance <Float> #1
+[714]: cinematic_set_far_clip_distance <Float> #1
+[729]: controller_set_look_invert <Boolean> #1
+[730]: controller_get_look_invert <> #0
+[752]: objectives_clear <> #0
+[753]: objectives_show_up_to <Int> #1
+[754]: objectives_finish_up_to <Int> #1
+[781]: play_credits <> #0
+[782]: bink_done <> #0
+[786]: data_mine_set_mission_segment <String> #1
+[844]: interpolator_start <StringId> #1
+[865]: weather_start <Float> #1
+[866]: weather_stop <Float> #1
+[867]: weather_change_intensity <Float> #2
+[869]: cinematic_clone_players_weapon <Entity> #1
+[872]: ice_cream_flavor_stock <Int> #1
+[873]: ice_cream_flavor_available <Int> #1
+[874]: set_global_sound_environment <Float> #1
+[876]: game_save_cinematic_skip <> #0
+[877]: cinematic_outro_start <> #0
+[878]: cinematic_enable_ambience_details <Boolean> #1
+[880]: predict_model_section <Model> #1
+[881]: predict_structure_section <Bsp> #1
+[885]: rasterizer_bloom_override <Boolean> #1
+[888]: rasterizer_bloom_override_threshold <Float> #1
+[889]: rasterizer_bloom_override_brightness <Float> #1
+[897]: cache_block_for_one_frame <> #0
+[898]: sound_suppress_ambience_update_on_revert <> #0
+[902]: cinematic_lightmap_shadow_disable <> #0
+[903]: cinematic_lightmap_shadow_enable <> #0
+[922]: loading_screen_fade_to_white <> #0
+[925]: enable_render_light_suppressor <> #0
+[926]: disable_render_light_suppressor <> #0

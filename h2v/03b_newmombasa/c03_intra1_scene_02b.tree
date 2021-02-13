@@ -1,139 +1,139 @@
 
 ("c03_intra1_scene_02b", MethodDecl<Void> @:64 check:0,op:0,dt:0,nt:65535,next:1973,nextCheck:60200,str:6693,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:1973 check:60200,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:22728,h:0,d0:1974,d1:60201;
+    (____, BuiltinInvocation<Void> @:1973 check:60200,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:22728,h:0,d0:1974,d1:60201;
         ("begin", Expression<MethodOrOperator> @:1974 check:60201,op:0,dt:2,nt:9,next:1838,nextCheck:60065,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:1838 check:60065,op:2,dt:4,nt:8,next:1867,nextCheck:60094,str:22772,h:0,d0:1839,d1:60066;
+            (____, BuiltinInvocation<Void> @:1838 check:60065,op:2,dt:4,nt:8,next:1867,nextCheck:60094,str:22772,h:0,d0:1839,d1:60066;
                 ("if", Expression<MethodOrOperator> @:1839 check:60066,op:2,dt:2,nt:9,next:1840,nextCheck:60067,str:461,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:1840 check:60067,op:13,dt:5,nt:8,next:1845,nextCheck:60072,str:22776,h:0,d0:1841,d1:60068;
+                    (____, BuiltinInvocation<Boolean> @:1840 check:60067,op:13,dt:5,nt:8,next:1845,nextCheck:60072,str:22776,h:0,d0:1841,d1:60068;
                         ("=", Expression<MethodOrOperator> @:1841 check:60068,op:13,dt:2,nt:9,next:1842,nextCheck:60069,str:301,h:0,d0:0,d1:0;
                             ("easy", Expression<GameDifficulty> @:1842 check:60069,op:44,dt:44,nt:9,next:1843,nextCheck:60070,str:4479,h:0,d0:0,d1:65535;
-                                (____, Scope<GameDifficulty> @:1843 check:60070,op:468,dt:44,nt:8,next:65535,nextCheck:65535,str:22786,h:0,d0:1844,d1:60071;
+                                (____, BuiltinInvocation<GameDifficulty> @:1843 check:60070,op:468,dt:44,nt:8,next:65535,nextCheck:65535,str:22786,h:0,d0:1844,d1:60071;
                                     ("game_difficulty_get_real", Expression<MethodOrOperator> @:1844 check:60071,op:468,dt:2,nt:9,next:65535,nextCheck:65535,str:4484,h:0,d0:0,d1:0;)))))
-                    (____, Scope<Void> @:1845 check:60072,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:22816,h:0,d0:1846,d1:60073;
+                    (____, BuiltinInvocation<Void> @:1845 check:60072,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:22816,h:0,d0:1846,d1:60073;
                         ("begin", Expression<MethodOrOperator> @:1846 check:60073,op:0,dt:2,nt:9,next:1847,nextCheck:60074,str:6,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:1847 check:60074,op:27,dt:4,nt:8,next:1850,nextCheck:60077,str:22830,h:0,d0:1848,d1:60075;
+                            (____, BuiltinInvocation<Void> @:1847 check:60074,op:27,dt:4,nt:8,next:1850,nextCheck:60077,str:22830,h:0,d0:1848,d1:60075;
                                 ("print", Expression<MethodOrOperator> @:1848 check:60075,op:27,dt:2,nt:9,next:1849,nextCheck:60076,str:91,h:0,d0:0,d1:0;
                                     ("easy speech", Expression<String> @:1849 check:60076,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:4509,h:0,d0:48981,d1:12462;)))
-                            (____, Scope<Void> @:1850 check:60077,op:22,dt:4,nt:8,next:1853,nextCheck:60080,str:22855,h:0,d0:1851,d1:60078;
+                            (____, BuiltinInvocation<Void> @:1850 check:60077,op:22,dt:4,nt:8,next:1853,nextCheck:60080,str:22855,h:0,d0:1851,d1:60078;
                                 ("wake", Expression<MethodOrOperator> @:1851 check:60078,op:22,dt:2,nt:9,next:1852,nextCheck:60079,str:1071,h:0,d0:0,d1:0;
                                     ("c03_intra1_speech_easy", Expression<ScriptReference> @:1852 check:60079,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:4521,h:0,d0:60,d1:65535;)))
-                            (____, Scope<Void> @:1853 check:60080,op:451,dt:4,nt:8,next:1857,nextCheck:60084,str:22888,h:0,d0:1854,d1:60081;
+                            (____, BuiltinInvocation<Void> @:1853 check:60080,op:451,dt:4,nt:8,next:1857,nextCheck:60084,str:22888,h:0,d0:1854,d1:60081;
                                 ("camera_set", Expression<MethodOrOperator> @:1854 check:60081,op:451,dt:2,nt:9,next:1855,nextCheck:60082,str:4544,h:0,d0:0,d1:0;
                                     ("c03_intra1_01", Expression<CameraPathTarget> @:1855 check:60082,op:15,dt:15,nt:9,next:1856,nextCheck:60083,str:4555,h:0,d0:26,d1:0;
                                         (0, Expression<Short> @:1856 check:60083,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:22914,h:0,d0:0,d1:65535;))))
-                            (____, Scope<Void> @:1857 check:60084,op:451,dt:4,nt:8,next:1861,nextCheck:60088,str:22920,h:0,d0:1858,d1:60085;
+                            (____, BuiltinInvocation<Void> @:1857 check:60084,op:451,dt:4,nt:8,next:1861,nextCheck:60088,str:22920,h:0,d0:1858,d1:60085;
                                 ("camera_set", Expression<MethodOrOperator> @:1858 check:60085,op:451,dt:2,nt:9,next:1859,nextCheck:60086,str:4544,h:0,d0:0,d1:0;
                                     ("c03_intra1_02", Expression<CameraPathTarget> @:1859 check:60086,op:15,dt:15,nt:9,next:1860,nextCheck:60087,str:4569,h:0,d0:27,d1:0;
                                         (261, Expression<Short> @:1860 check:60087,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:22946,h:0,d0:261,d1:65535;))))
-                            (____, Scope<Void> @:1861 check:60088,op:19,dt:4,nt:8,next:1864,nextCheck:60091,str:22954,h:0,d0:1862,d1:60089;
+                            (____, BuiltinInvocation<Void> @:1861 check:60088,op:19,dt:4,nt:8,next:1864,nextCheck:60091,str:22954,h:0,d0:1862,d1:60089;
                                 ("sleep", Expression<MethodOrOperator> @:1862 check:60089,op:19,dt:2,nt:9,next:1863,nextCheck:60090,str:85,h:0,d0:0,d1:0;
                                     (261, Expression<Short> @:1863 check:60090,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:22961,h:0,d0:261,d1:65535;)))
-                            (____, Scope<Void> @:1864 check:60091,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:22969,h:0,d0:1865,d1:60092;
+                            (____, BuiltinInvocation<Void> @:1864 check:60091,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:22969,h:0,d0:1865,d1:60092;
                                 ("sleep", Expression<MethodOrOperator> @:1865 check:60092,op:19,dt:2,nt:9,next:1866,nextCheck:60093,str:85,h:0,d0:0,d1:0;
                                     (15, Expression<Short> @:1866 check:60093,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:22976,h:0,d0:15,d1:65535;)))))))
-            (____, Scope<Void> @:1867 check:60094,op:2,dt:4,nt:8,next:1896,nextCheck:60123,str:22993,h:0,d0:1868,d1:60095;
+            (____, BuiltinInvocation<Void> @:1867 check:60094,op:2,dt:4,nt:8,next:1896,nextCheck:60123,str:22993,h:0,d0:1868,d1:60095;
                 ("if", Expression<MethodOrOperator> @:1868 check:60095,op:2,dt:2,nt:9,next:1869,nextCheck:60096,str:461,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:1869 check:60096,op:13,dt:5,nt:8,next:1874,nextCheck:60101,str:22997,h:0,d0:1870,d1:60097;
+                    (____, BuiltinInvocation<Boolean> @:1869 check:60096,op:13,dt:5,nt:8,next:1874,nextCheck:60101,str:22997,h:0,d0:1870,d1:60097;
                         ("=", Expression<MethodOrOperator> @:1870 check:60097,op:13,dt:2,nt:9,next:1871,nextCheck:60098,str:301,h:0,d0:0,d1:0;
                             ("normal", Expression<GameDifficulty> @:1871 check:60098,op:44,dt:44,nt:9,next:1872,nextCheck:60099,str:340,h:0,d0:1,d1:65535;
-                                (____, Scope<GameDifficulty> @:1872 check:60099,op:468,dt:44,nt:8,next:65535,nextCheck:65535,str:23009,h:0,d0:1873,d1:60100;
+                                (____, BuiltinInvocation<GameDifficulty> @:1872 check:60099,op:468,dt:44,nt:8,next:65535,nextCheck:65535,str:23009,h:0,d0:1873,d1:60100;
                                     ("game_difficulty_get_real", Expression<MethodOrOperator> @:1873 check:60100,op:468,dt:2,nt:9,next:65535,nextCheck:65535,str:4484,h:0,d0:0,d1:0;)))))
-                    (____, Scope<Void> @:1874 check:60101,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:23039,h:0,d0:1875,d1:60102;
+                    (____, BuiltinInvocation<Void> @:1874 check:60101,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:23039,h:0,d0:1875,d1:60102;
                         ("begin", Expression<MethodOrOperator> @:1875 check:60102,op:0,dt:2,nt:9,next:1876,nextCheck:60103,str:6,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:1876 check:60103,op:27,dt:4,nt:8,next:1879,nextCheck:60106,str:23052,h:0,d0:1877,d1:60104;
+                            (____, BuiltinInvocation<Void> @:1876 check:60103,op:27,dt:4,nt:8,next:1879,nextCheck:60106,str:23052,h:0,d0:1877,d1:60104;
                                 ("print", Expression<MethodOrOperator> @:1877 check:60104,op:27,dt:2,nt:9,next:1878,nextCheck:60105,str:91,h:0,d0:0,d1:0;
                                     ("normal speech", Expression<String> @:1878 check:60105,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:4583,h:0,d0:49055,d1:12462;)))
-                            (____, Scope<Void> @:1879 check:60106,op:22,dt:4,nt:8,next:1882,nextCheck:60109,str:23079,h:0,d0:1880,d1:60107;
+                            (____, BuiltinInvocation<Void> @:1879 check:60106,op:22,dt:4,nt:8,next:1882,nextCheck:60109,str:23079,h:0,d0:1880,d1:60107;
                                 ("wake", Expression<MethodOrOperator> @:1880 check:60107,op:22,dt:2,nt:9,next:1881,nextCheck:60108,str:1071,h:0,d0:0,d1:0;
                                     ("c03_intra1_speech_normal", Expression<ScriptReference> @:1881 check:60108,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:4597,h:0,d0:61,d1:65535;)))
-                            (____, Scope<Void> @:1882 check:60109,op:451,dt:4,nt:8,next:1886,nextCheck:60113,str:23114,h:0,d0:1883,d1:60110;
+                            (____, BuiltinInvocation<Void> @:1882 check:60109,op:451,dt:4,nt:8,next:1886,nextCheck:60113,str:23114,h:0,d0:1883,d1:60110;
                                 ("camera_set", Expression<MethodOrOperator> @:1883 check:60110,op:451,dt:2,nt:9,next:1884,nextCheck:60111,str:4544,h:0,d0:0,d1:0;
                                     ("c03_intra1_01", Expression<CameraPathTarget> @:1884 check:60111,op:15,dt:15,nt:9,next:1885,nextCheck:60112,str:4555,h:0,d0:26,d1:0;
                                         (0, Expression<Short> @:1885 check:60112,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23140,h:0,d0:0,d1:65535;))))
-                            (____, Scope<Void> @:1886 check:60113,op:451,dt:4,nt:8,next:1890,nextCheck:60117,str:23146,h:0,d0:1887,d1:60114;
+                            (____, BuiltinInvocation<Void> @:1886 check:60113,op:451,dt:4,nt:8,next:1890,nextCheck:60117,str:23146,h:0,d0:1887,d1:60114;
                                 ("camera_set", Expression<MethodOrOperator> @:1887 check:60114,op:451,dt:2,nt:9,next:1888,nextCheck:60115,str:4544,h:0,d0:0,d1:0;
                                     ("c03_intra1_02", Expression<CameraPathTarget> @:1888 check:60115,op:15,dt:15,nt:9,next:1889,nextCheck:60116,str:4569,h:0,d0:27,d1:0;
                                         (246, Expression<Short> @:1889 check:60116,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23172,h:0,d0:246,d1:65535;))))
-                            (____, Scope<Void> @:1890 check:60117,op:19,dt:4,nt:8,next:1893,nextCheck:60120,str:23180,h:0,d0:1891,d1:60118;
+                            (____, BuiltinInvocation<Void> @:1890 check:60117,op:19,dt:4,nt:8,next:1893,nextCheck:60120,str:23180,h:0,d0:1891,d1:60118;
                                 ("sleep", Expression<MethodOrOperator> @:1891 check:60118,op:19,dt:2,nt:9,next:1892,nextCheck:60119,str:85,h:0,d0:0,d1:0;
                                     (246, Expression<Short> @:1892 check:60119,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23187,h:0,d0:246,d1:65535;)))
-                            (____, Scope<Void> @:1893 check:60120,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:23195,h:0,d0:1894,d1:60121;
+                            (____, BuiltinInvocation<Void> @:1893 check:60120,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:23195,h:0,d0:1894,d1:60121;
                                 ("sleep", Expression<MethodOrOperator> @:1894 check:60121,op:19,dt:2,nt:9,next:1895,nextCheck:60122,str:85,h:0,d0:0,d1:0;
                                     (15, Expression<Short> @:1895 check:60122,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23202,h:0,d0:15,d1:65535;)))))))
-            (____, Scope<Void> @:1896 check:60123,op:2,dt:4,nt:8,next:1925,nextCheck:60152,str:23219,h:0,d0:1897,d1:60124;
+            (____, BuiltinInvocation<Void> @:1896 check:60123,op:2,dt:4,nt:8,next:1925,nextCheck:60152,str:23219,h:0,d0:1897,d1:60124;
                 ("if", Expression<MethodOrOperator> @:1897 check:60124,op:2,dt:2,nt:9,next:1898,nextCheck:60125,str:461,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:1898 check:60125,op:13,dt:5,nt:8,next:1903,nextCheck:60130,str:23223,h:0,d0:1899,d1:60126;
+                    (____, BuiltinInvocation<Boolean> @:1898 check:60125,op:13,dt:5,nt:8,next:1903,nextCheck:60130,str:23223,h:0,d0:1899,d1:60126;
                         ("=", Expression<MethodOrOperator> @:1899 check:60126,op:13,dt:2,nt:9,next:1900,nextCheck:60127,str:301,h:0,d0:0,d1:0;
                             ("heroic", Expression<GameDifficulty> @:1900 check:60127,op:44,dt:44,nt:9,next:1901,nextCheck:60128,str:333,h:0,d0:2,d1:65535;
-                                (____, Scope<GameDifficulty> @:1901 check:60128,op:468,dt:44,nt:8,next:65535,nextCheck:65535,str:23235,h:0,d0:1902,d1:60129;
+                                (____, BuiltinInvocation<GameDifficulty> @:1901 check:60128,op:468,dt:44,nt:8,next:65535,nextCheck:65535,str:23235,h:0,d0:1902,d1:60129;
                                     ("game_difficulty_get_real", Expression<MethodOrOperator> @:1902 check:60129,op:468,dt:2,nt:9,next:65535,nextCheck:65535,str:4484,h:0,d0:0,d1:0;)))))
-                    (____, Scope<Void> @:1903 check:60130,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:23265,h:0,d0:1904,d1:60131;
+                    (____, BuiltinInvocation<Void> @:1903 check:60130,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:23265,h:0,d0:1904,d1:60131;
                         ("begin", Expression<MethodOrOperator> @:1904 check:60131,op:0,dt:2,nt:9,next:1905,nextCheck:60132,str:6,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:1905 check:60132,op:27,dt:4,nt:8,next:1908,nextCheck:60135,str:23279,h:0,d0:1906,d1:60133;
+                            (____, BuiltinInvocation<Void> @:1905 check:60132,op:27,dt:4,nt:8,next:1908,nextCheck:60135,str:23279,h:0,d0:1906,d1:60133;
                                 ("print", Expression<MethodOrOperator> @:1906 check:60133,op:27,dt:2,nt:9,next:1907,nextCheck:60134,str:91,h:0,d0:0,d1:0;
                                     ("heroic speech", Expression<String> @:1907 check:60134,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:4622,h:0,d0:49094,d1:12462;)))
-                            (____, Scope<Void> @:1908 check:60135,op:22,dt:4,nt:8,next:1911,nextCheck:60138,str:23306,h:0,d0:1909,d1:60136;
+                            (____, BuiltinInvocation<Void> @:1908 check:60135,op:22,dt:4,nt:8,next:1911,nextCheck:60138,str:23306,h:0,d0:1909,d1:60136;
                                 ("wake", Expression<MethodOrOperator> @:1909 check:60136,op:22,dt:2,nt:9,next:1910,nextCheck:60137,str:1071,h:0,d0:0,d1:0;
                                     ("c03_intra1_speech_heroic", Expression<ScriptReference> @:1910 check:60137,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:4636,h:0,d0:62,d1:65535;)))
-                            (____, Scope<Void> @:1911 check:60138,op:451,dt:4,nt:8,next:1915,nextCheck:60142,str:23341,h:0,d0:1912,d1:60139;
+                            (____, BuiltinInvocation<Void> @:1911 check:60138,op:451,dt:4,nt:8,next:1915,nextCheck:60142,str:23341,h:0,d0:1912,d1:60139;
                                 ("camera_set", Expression<MethodOrOperator> @:1912 check:60139,op:451,dt:2,nt:9,next:1913,nextCheck:60140,str:4544,h:0,d0:0,d1:0;
                                     ("c03_intra1_01", Expression<CameraPathTarget> @:1913 check:60140,op:15,dt:15,nt:9,next:1914,nextCheck:60141,str:4555,h:0,d0:26,d1:0;
                                         (0, Expression<Short> @:1914 check:60141,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23367,h:0,d0:0,d1:65535;))))
-                            (____, Scope<Void> @:1915 check:60142,op:451,dt:4,nt:8,next:1919,nextCheck:60146,str:23373,h:0,d0:1916,d1:60143;
+                            (____, BuiltinInvocation<Void> @:1915 check:60142,op:451,dt:4,nt:8,next:1919,nextCheck:60146,str:23373,h:0,d0:1916,d1:60143;
                                 ("camera_set", Expression<MethodOrOperator> @:1916 check:60143,op:451,dt:2,nt:9,next:1917,nextCheck:60144,str:4544,h:0,d0:0,d1:0;
                                     ("c03_intra1_02", Expression<CameraPathTarget> @:1917 check:60144,op:15,dt:15,nt:9,next:1918,nextCheck:60145,str:4569,h:0,d0:27,d1:0;
                                         (290, Expression<Short> @:1918 check:60145,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23399,h:0,d0:290,d1:65535;))))
-                            (____, Scope<Void> @:1919 check:60146,op:19,dt:4,nt:8,next:1922,nextCheck:60149,str:23407,h:0,d0:1920,d1:60147;
+                            (____, BuiltinInvocation<Void> @:1919 check:60146,op:19,dt:4,nt:8,next:1922,nextCheck:60149,str:23407,h:0,d0:1920,d1:60147;
                                 ("sleep", Expression<MethodOrOperator> @:1920 check:60147,op:19,dt:2,nt:9,next:1921,nextCheck:60148,str:85,h:0,d0:0,d1:0;
                                     (290, Expression<Short> @:1921 check:60148,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23414,h:0,d0:290,d1:65535;)))
-                            (____, Scope<Void> @:1922 check:60149,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:23422,h:0,d0:1923,d1:60150;
+                            (____, BuiltinInvocation<Void> @:1922 check:60149,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:23422,h:0,d0:1923,d1:60150;
                                 ("sleep", Expression<MethodOrOperator> @:1923 check:60150,op:19,dt:2,nt:9,next:1924,nextCheck:60151,str:85,h:0,d0:0,d1:0;
                                     (15, Expression<Short> @:1924 check:60151,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23429,h:0,d0:15,d1:65535;)))))))
-            (____, Scope<Void> @:1925 check:60152,op:2,dt:4,nt:8,next:1954,nextCheck:60181,str:23446,h:0,d0:1926,d1:60153;
+            (____, BuiltinInvocation<Void> @:1925 check:60152,op:2,dt:4,nt:8,next:1954,nextCheck:60181,str:23446,h:0,d0:1926,d1:60153;
                 ("if", Expression<MethodOrOperator> @:1926 check:60153,op:2,dt:2,nt:9,next:1927,nextCheck:60154,str:461,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:1927 check:60154,op:13,dt:5,nt:8,next:1932,nextCheck:60159,str:23450,h:0,d0:1928,d1:60155;
+                    (____, BuiltinInvocation<Boolean> @:1927 check:60154,op:13,dt:5,nt:8,next:1932,nextCheck:60159,str:23450,h:0,d0:1928,d1:60155;
                         ("=", Expression<MethodOrOperator> @:1928 check:60155,op:13,dt:2,nt:9,next:1929,nextCheck:60156,str:301,h:0,d0:0,d1:0;
                             ("legendary", Expression<GameDifficulty> @:1929 check:60156,op:44,dt:44,nt:9,next:1930,nextCheck:60157,str:323,h:0,d0:3,d1:65535;
-                                (____, Scope<GameDifficulty> @:1930 check:60157,op:468,dt:44,nt:8,next:65535,nextCheck:65535,str:23465,h:0,d0:1931,d1:60158;
+                                (____, BuiltinInvocation<GameDifficulty> @:1930 check:60157,op:468,dt:44,nt:8,next:65535,nextCheck:65535,str:23465,h:0,d0:1931,d1:60158;
                                     ("game_difficulty_get_real", Expression<MethodOrOperator> @:1931 check:60158,op:468,dt:2,nt:9,next:65535,nextCheck:65535,str:4484,h:0,d0:0,d1:0;)))))
-                    (____, Scope<Void> @:1932 check:60159,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:23495,h:0,d0:1933,d1:60160;
+                    (____, BuiltinInvocation<Void> @:1932 check:60159,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:23495,h:0,d0:1933,d1:60160;
                         ("begin", Expression<MethodOrOperator> @:1933 check:60160,op:0,dt:2,nt:9,next:1934,nextCheck:60161,str:6,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:1934 check:60161,op:27,dt:4,nt:8,next:1937,nextCheck:60164,str:23511,h:0,d0:1935,d1:60162;
+                            (____, BuiltinInvocation<Void> @:1934 check:60161,op:27,dt:4,nt:8,next:1937,nextCheck:60164,str:23511,h:0,d0:1935,d1:60162;
                                 ("print", Expression<MethodOrOperator> @:1935 check:60162,op:27,dt:2,nt:9,next:1936,nextCheck:60163,str:91,h:0,d0:0,d1:0;
                                     ("legendary speech", Expression<String> @:1936 check:60163,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:4661,h:0,d0:49133,d1:12462;)))
-                            (____, Scope<Void> @:1937 check:60164,op:22,dt:4,nt:8,next:1940,nextCheck:60167,str:23541,h:0,d0:1938,d1:60165;
+                            (____, BuiltinInvocation<Void> @:1937 check:60164,op:22,dt:4,nt:8,next:1940,nextCheck:60167,str:23541,h:0,d0:1938,d1:60165;
                                 ("wake", Expression<MethodOrOperator> @:1938 check:60165,op:22,dt:2,nt:9,next:1939,nextCheck:60166,str:1071,h:0,d0:0,d1:0;
                                     ("c03_intra1_speech_legendary", Expression<ScriptReference> @:1939 check:60166,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:4678,h:0,d0:63,d1:65535;)))
-                            (____, Scope<Void> @:1940 check:60167,op:451,dt:4,nt:8,next:1944,nextCheck:60171,str:23579,h:0,d0:1941,d1:60168;
+                            (____, BuiltinInvocation<Void> @:1940 check:60167,op:451,dt:4,nt:8,next:1944,nextCheck:60171,str:23579,h:0,d0:1941,d1:60168;
                                 ("camera_set", Expression<MethodOrOperator> @:1941 check:60168,op:451,dt:2,nt:9,next:1942,nextCheck:60169,str:4544,h:0,d0:0,d1:0;
                                     ("c03_intra1_01", Expression<CameraPathTarget> @:1942 check:60169,op:15,dt:15,nt:9,next:1943,nextCheck:60170,str:4555,h:0,d0:26,d1:0;
                                         (0, Expression<Short> @:1943 check:60170,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23605,h:0,d0:0,d1:65535;))))
-                            (____, Scope<Void> @:1944 check:60171,op:451,dt:4,nt:8,next:1948,nextCheck:60175,str:23611,h:0,d0:1945,d1:60172;
+                            (____, BuiltinInvocation<Void> @:1944 check:60171,op:451,dt:4,nt:8,next:1948,nextCheck:60175,str:23611,h:0,d0:1945,d1:60172;
                                 ("camera_set", Expression<MethodOrOperator> @:1945 check:60172,op:451,dt:2,nt:9,next:1946,nextCheck:60173,str:4544,h:0,d0:0,d1:0;
                                     ("c03_intra1_02", Expression<CameraPathTarget> @:1946 check:60173,op:15,dt:15,nt:9,next:1947,nextCheck:60174,str:4569,h:0,d0:27,d1:0;
                                         (320, Expression<Short> @:1947 check:60174,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23637,h:0,d0:320,d1:65535;))))
-                            (____, Scope<Void> @:1948 check:60175,op:19,dt:4,nt:8,next:1951,nextCheck:60178,str:23645,h:0,d0:1949,d1:60176;
+                            (____, BuiltinInvocation<Void> @:1948 check:60175,op:19,dt:4,nt:8,next:1951,nextCheck:60178,str:23645,h:0,d0:1949,d1:60176;
                                 ("sleep", Expression<MethodOrOperator> @:1949 check:60176,op:19,dt:2,nt:9,next:1950,nextCheck:60177,str:85,h:0,d0:0,d1:0;
                                     (320, Expression<Short> @:1950 check:60177,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23652,h:0,d0:320,d1:65535;)))
-                            (____, Scope<Void> @:1951 check:60178,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:23660,h:0,d0:1952,d1:60179;
+                            (____, BuiltinInvocation<Void> @:1951 check:60178,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:23660,h:0,d0:1952,d1:60179;
                                 ("sleep", Expression<MethodOrOperator> @:1952 check:60179,op:19,dt:2,nt:9,next:1953,nextCheck:60180,str:85,h:0,d0:0,d1:0;
                                     (15, Expression<Short> @:1953 check:60180,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23667,h:0,d0:15,d1:65535;)))))))
-            (____, Scope<Void> @:1954 check:60181,op:19,dt:4,nt:8,next:1961,nextCheck:60188,str:23755,h:0,d0:1955,d1:60182;
+            (____, BuiltinInvocation<Void> @:1954 check:60181,op:19,dt:4,nt:8,next:1961,nextCheck:60188,str:23755,h:0,d0:1955,d1:60182;
                 ("sleep", Expression<MethodOrOperator> @:1955 check:60182,op:19,dt:2,nt:9,next:1956,nextCheck:60183,str:85,h:0,d0:0,d1:0;
-                    (____, Scope<Short> @:1956 check:60183,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:23762,h:0,d0:1957,d1:60184;
+                    (____, BuiltinInvocation<Short> @:1956 check:60183,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:23762,h:0,d0:1957,d1:60184;
                         ("-", Expression<MethodOrOperator> @:1957 check:60184,op:8,dt:2,nt:9,next:1958,nextCheck:60185,str:3277,h:0,d0:0,d1:0;
-                            (-1.8621071E+26f, Scope<Float> @:1958 check:60185,op:458,dt:6,nt:8,next:1960,nextCheck:60187,str:23765,h:0,d0:1959,d1:60186;
+                            (-1.8621071E+26f, BuiltinInvocation<Float> @:1958 check:60185,op:458,dt:6,nt:8,next:1960,nextCheck:60187,str:23765,h:0,d0:1959,d1:60186;
                                 ("camera_time", Expression<MethodOrOperator> @:1959 check:60186,op:458,dt:2,nt:9,next:65535,nextCheck:65535,str:3279,h:0,d0:0,d1:0;))
                             ("prediction_offset", VariableAccess<Float> @:1960 check:60187,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:2788,h:0,d0:2,d1:0;)))))
             ("03_intra1_02c_predict_stub", ScriptInvocation<Void> @:1961 check:60188,op:27,dt:4,nt:10,next:1963,nextCheck:60190,str:23801,h:0,d0:1962,d1:60189;
                 ("03_intra1_02c_predict_stub", Expression<MethodOrOperator> @:1962 check:60189,op:27,dt:2,nt:9,next:65535,nextCheck:65535,str:4706,h:0,d0:0,d1:0;))
-            (____, Scope<Void> @:1963 check:60190,op:19,dt:4,nt:8,next:1970,nextCheck:60197,str:23835,h:0,d0:1964,d1:60191;
+            (____, BuiltinInvocation<Void> @:1963 check:60190,op:19,dt:4,nt:8,next:1970,nextCheck:60197,str:23835,h:0,d0:1964,d1:60191;
                 ("sleep", Expression<MethodOrOperator> @:1964 check:60191,op:19,dt:2,nt:9,next:1965,nextCheck:60192,str:85,h:0,d0:0,d1:0;
-                    (____, Scope<Short> @:1965 check:60192,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:23842,h:0,d0:1966,d1:60193;
+                    (____, BuiltinInvocation<Short> @:1965 check:60192,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:23842,h:0,d0:1966,d1:60193;
                         ("-", Expression<MethodOrOperator> @:1966 check:60193,op:8,dt:2,nt:9,next:1967,nextCheck:60194,str:3277,h:0,d0:0,d1:0;
-                            (-1.9709121E+26f, Scope<Float> @:1967 check:60194,op:458,dt:6,nt:8,next:1969,nextCheck:60196,str:23845,h:0,d0:1968,d1:60195;
+                            (-1.9709121E+26f, BuiltinInvocation<Float> @:1967 check:60194,op:458,dt:6,nt:8,next:1969,nextCheck:60196,str:23845,h:0,d0:1968,d1:60195;
                                 ("camera_time", Expression<MethodOrOperator> @:1968 check:60195,op:458,dt:2,nt:9,next:65535,nextCheck:65535,str:3279,h:0,d0:0,d1:0;))
                             ("sound_offset", VariableAccess<Float> @:1969 check:60196,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:3318,h:0,d0:1,d1:0;)))))
-            (____, Scope<Void> @:1970 check:60197,op:594,dt:4,nt:8,next:65535,nextCheck:65535,str:23876,h:0,d0:1971,d1:60198;
+            (____, BuiltinInvocation<Void> @:1970 check:60197,op:594,dt:4,nt:8,next:65535,nextCheck:65535,str:23876,h:0,d0:1971,d1:60198;
                 ("sound_impulse_predict", Expression<MethodOrOperator> @:1971 check:60198,op:594,dt:2,nt:9,next:1972,nextCheck:60199,str:2740,h:0,d0:0,d1:0;
                     ("sound\cinematics\03_earthcity\c03_intra1\foley\c03_intra1_02c_fol", Expression<Sound> @:1972 check:60199,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:4733,h:0,d0:580,d1:58298;))))))

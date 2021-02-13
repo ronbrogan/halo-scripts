@@ -1,44 +1,44 @@
 
 ("cs_ext_b_grunts_low", MethodDecl<Void> @:396 check:0,op:0,dt:0,nt:65535,next:19440,nextCheck:44900,str:65535,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:19440 check:44900,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:17387,h:3,d0:19441,d1:44901;
+    (____, BuiltinInvocation<Void> @:19440 check:44900,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:17387,h:3,d0:19441,d1:44901;
         ("begin", Expression<MethodOrOperator> @:19441 check:44901,op:0,dt:2,nt:9,next:19400,nextCheck:44860,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:19400 check:44860,op:422,dt:4,nt:8,next:19403,nextCheck:44863,str:17432,h:3,d0:19401,d1:44861;
+            (____, BuiltinInvocation<Void> @:19400 check:44860,op:422,dt:4,nt:8,next:19403,nextCheck:44863,str:17432,h:3,d0:19401,d1:44861;
                 ("cs_movement_mode", Expression<MethodOrOperator> @:19401 check:44861,op:422,dt:2,nt:9,next:19402,nextCheck:44862,str:16603,h:0,d0:0,d1:0;
                     (3, Expression<Short> @:19402 check:44862,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17450,h:3,d0:3,d1:65535;)))
-            (____, Scope<Void> @:19403 check:44863,op:440,dt:4,nt:8,next:19406,nextCheck:44866,str:17455,h:3,d0:19404,d1:44864;
+            (____, BuiltinInvocation<Void> @:19403 check:44863,op:440,dt:4,nt:8,next:19406,nextCheck:44866,str:17455,h:3,d0:19404,d1:44864;
                 ("cs_abort_on_damage", Expression<MethodOrOperator> @:19404 check:44864,op:440,dt:2,nt:9,next:19405,nextCheck:44865,str:29277,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:19405 check:44865,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:17475,h:3,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:19406 check:44866,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:17486,h:3,d0:19407,d1:44867;
+            (____, BuiltinInvocation<Void> @:19406 check:44866,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:17486,h:3,d0:19407,d1:44867;
                 ("sleep_until", Expression<MethodOrOperator> @:19407 check:44867,op:21,dt:2,nt:9,next:19408,nextCheck:44868,str:231,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:19408 check:44868,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:17502,h:3,d0:19409,d1:44869;
+                    (____, BuiltinInvocation<Boolean> @:19408 check:44868,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:17502,h:3,d0:19409,d1:44869;
                         ("begin", Expression<MethodOrOperator> @:19409 check:44869,op:0,dt:2,nt:9,next:19410,nextCheck:44870,str:1,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:19410 check:44870,op:1,dt:4,nt:8,next:19439,nextCheck:44899,str:17513,h:3,d0:19411,d1:44871;
+                            (____, BuiltinInvocation<Void> @:19410 check:44870,op:1,dt:4,nt:8,next:19439,nextCheck:44899,str:17513,h:3,d0:19411,d1:44871;
                                 ("begin_random", Expression<MethodOrOperator> @:19411 check:44871,op:1,dt:2,nt:9,next:19412,nextCheck:44872,str:29983,h:0,d0:0,d1:0;
-                                    (____, Scope<Void> @:19412 check:44872,op:385,dt:4,nt:8,next:19415,nextCheck:44875,str:17532,h:3,d0:19413,d1:44873;
+                                    (____, BuiltinInvocation<Void> @:19412 check:44872,op:385,dt:4,nt:8,next:19415,nextCheck:44875,str:17532,h:3,d0:19413,d1:44873;
                                         ("cs_go_to", Expression<MethodOrOperator> @:19413 check:44873,op:385,dt:2,nt:9,next:19414,nextCheck:44874,str:23538,h:0,d0:0,d1:0;
                                             ("ext_b/p0", Expression<SpatialPoint> @:19414 check:44874,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:38323,h:0,d0:0,d1:11;)))
-                                    (____, Scope<Void> @:19415 check:44875,op:385,dt:4,nt:8,next:19418,nextCheck:44878,str:17557,h:3,d0:19416,d1:44876;
+                                    (____, BuiltinInvocation<Void> @:19415 check:44875,op:385,dt:4,nt:8,next:19418,nextCheck:44878,str:17557,h:3,d0:19416,d1:44876;
                                         ("cs_go_to", Expression<MethodOrOperator> @:19416 check:44876,op:385,dt:2,nt:9,next:19417,nextCheck:44877,str:23538,h:0,d0:0,d1:0;
                                             ("ext_b/p1", Expression<SpatialPoint> @:19417 check:44877,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:38332,h:0,d0:1,d1:11;)))
-                                    (____, Scope<Void> @:19418 check:44878,op:385,dt:4,nt:8,next:19421,nextCheck:44881,str:17582,h:3,d0:19419,d1:44879;
+                                    (____, BuiltinInvocation<Void> @:19418 check:44878,op:385,dt:4,nt:8,next:19421,nextCheck:44881,str:17582,h:3,d0:19419,d1:44879;
                                         ("cs_go_to", Expression<MethodOrOperator> @:19419 check:44879,op:385,dt:2,nt:9,next:19420,nextCheck:44880,str:23538,h:0,d0:0,d1:0;
                                             ("ext_b/p2", Expression<SpatialPoint> @:19420 check:44880,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:38341,h:0,d0:2,d1:11;)))
-                                    (____, Scope<Void> @:19421 check:44881,op:385,dt:4,nt:8,next:19424,nextCheck:44884,str:17607,h:3,d0:19422,d1:44882;
+                                    (____, BuiltinInvocation<Void> @:19421 check:44881,op:385,dt:4,nt:8,next:19424,nextCheck:44884,str:17607,h:3,d0:19422,d1:44882;
                                         ("cs_go_to", Expression<MethodOrOperator> @:19422 check:44882,op:385,dt:2,nt:9,next:19423,nextCheck:44883,str:23538,h:0,d0:0,d1:0;
                                             ("ext_b/p3", Expression<SpatialPoint> @:19423 check:44883,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:38350,h:0,d0:3,d1:11;)))
-                                    (____, Scope<Void> @:19424 check:44884,op:385,dt:4,nt:8,next:19427,nextCheck:44887,str:17632,h:3,d0:19425,d1:44885;
+                                    (____, BuiltinInvocation<Void> @:19424 check:44884,op:385,dt:4,nt:8,next:19427,nextCheck:44887,str:17632,h:3,d0:19425,d1:44885;
                                         ("cs_go_to", Expression<MethodOrOperator> @:19425 check:44885,op:385,dt:2,nt:9,next:19426,nextCheck:44886,str:23538,h:0,d0:0,d1:0;
                                             ("ext_b/p4", Expression<SpatialPoint> @:19426 check:44886,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:38359,h:0,d0:4,d1:11;)))
-                                    (____, Scope<Void> @:19427 check:44887,op:385,dt:4,nt:8,next:19430,nextCheck:44890,str:17657,h:3,d0:19428,d1:44888;
+                                    (____, BuiltinInvocation<Void> @:19427 check:44887,op:385,dt:4,nt:8,next:19430,nextCheck:44890,str:17657,h:3,d0:19428,d1:44888;
                                         ("cs_go_to", Expression<MethodOrOperator> @:19428 check:44888,op:385,dt:2,nt:9,next:19429,nextCheck:44889,str:23538,h:0,d0:0,d1:0;
                                             ("ext_b/p5", Expression<SpatialPoint> @:19429 check:44889,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:38368,h:0,d0:5,d1:11;)))
-                                    (____, Scope<Void> @:19430 check:44890,op:385,dt:4,nt:8,next:19433,nextCheck:44893,str:17682,h:3,d0:19431,d1:44891;
+                                    (____, BuiltinInvocation<Void> @:19430 check:44890,op:385,dt:4,nt:8,next:19433,nextCheck:44893,str:17682,h:3,d0:19431,d1:44891;
                                         ("cs_go_to", Expression<MethodOrOperator> @:19431 check:44891,op:385,dt:2,nt:9,next:19432,nextCheck:44892,str:23538,h:0,d0:0,d1:0;
                                             ("ext_b/p6", Expression<SpatialPoint> @:19432 check:44892,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:38377,h:0,d0:6,d1:11;)))
-                                    (____, Scope<Void> @:19433 check:44893,op:385,dt:4,nt:8,next:19436,nextCheck:44896,str:17707,h:3,d0:19434,d1:44894;
+                                    (____, BuiltinInvocation<Void> @:19433 check:44893,op:385,dt:4,nt:8,next:19436,nextCheck:44896,str:17707,h:3,d0:19434,d1:44894;
                                         ("cs_go_to", Expression<MethodOrOperator> @:19434 check:44894,op:385,dt:2,nt:9,next:19435,nextCheck:44895,str:23538,h:0,d0:0,d1:0;
                                             ("ext_b/p7", Expression<SpatialPoint> @:19435 check:44895,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:38386,h:0,d0:7,d1:11;)))
-                                    (____, Scope<Void> @:19436 check:44896,op:385,dt:4,nt:8,next:65535,nextCheck:65535,str:17732,h:3,d0:19437,d1:44897;
+                                    (____, BuiltinInvocation<Void> @:19436 check:44896,op:385,dt:4,nt:8,next:65535,nextCheck:65535,str:17732,h:3,d0:19437,d1:44897;
                                         ("cs_go_to", Expression<MethodOrOperator> @:19437 check:44897,op:385,dt:2,nt:9,next:19438,nextCheck:44898,str:23538,h:0,d0:0,d1:0;
                                             ("ext_b/p8", Expression<SpatialPoint> @:19438 check:44898,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:38395,h:0,d0:8,d1:11;)))))
                             (False, Expression<Boolean> @:19439 check:44899,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:17761,h:3,d0:65280,d1:65535;))))))))

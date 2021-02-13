@@ -1,56 +1,56 @@
 
 ("grotto_buggers_reinforce", MethodDecl<Void> @:331 check:0,op:0,dt:0,nt:65535,next:21840,nextCheck:47300,str:34060,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:21840 check:47300,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:47014,h:3,d0:21841,d1:47301;
+    (____, BuiltinInvocation<Void> @:21840 check:47300,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:47014,h:3,d0:21841,d1:47301;
         ("begin", Expression<MethodOrOperator> @:21841 check:47301,op:0,dt:2,nt:9,next:21788,nextCheck:47248,str:54,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:21788 check:47248,op:2,dt:4,nt:8,next:21809,nextCheck:47269,str:47057,h:3,d0:21789,d1:47249;
+            (____, BuiltinInvocation<Void> @:21788 check:47248,op:2,dt:4,nt:8,next:21809,nextCheck:47269,str:47057,h:3,d0:21789,d1:47249;
                 ("if", Expression<MethodOrOperator> @:21789 check:47249,op:2,dt:2,nt:9,next:21790,nextCheck:47250,str:509,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:21790 check:47250,op:5,dt:5,nt:8,next:21800,nextCheck:47260,str:47065,h:3,d0:21791,d1:47251;
+                    (____, BuiltinInvocation<Boolean> @:21790 check:47250,op:5,dt:5,nt:8,next:21800,nextCheck:47260,str:47065,h:3,d0:21791,d1:47251;
                         ("and", Expression<MethodOrOperator> @:21791 check:47251,op:5,dt:2,nt:9,next:21792,nextCheck:47252,str:720,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:21792 check:47252,op:16,dt:5,nt:8,next:21798,nextCheck:47258,str:47074,h:3,d0:21793,d1:47253;
+                            (____, BuiltinInvocation<Boolean> @:21792 check:47252,op:16,dt:5,nt:8,next:21798,nextCheck:47258,str:47074,h:3,d0:21793,d1:47253;
                                 ("<", Expression<MethodOrOperator> @:21793 check:47253,op:16,dt:2,nt:9,next:21794,nextCheck:47254,str:900,h:0,d0:0,d1:0;
-                                    (____, Scope<Short> @:21794 check:47254,op:327,dt:7,nt:8,next:21797,nextCheck:47257,str:47077,h:3,d0:21795,d1:47255;
+                                    (____, BuiltinInvocation<Short> @:21794 check:47254,op:327,dt:7,nt:8,next:21797,nextCheck:47257,str:47077,h:3,d0:21795,d1:47255;
                                         ("ai_living_count", Expression<MethodOrOperator> @:21795 check:47255,op:327,dt:2,nt:9,next:21796,nextCheck:47256,str:15933,h:0,d0:0,d1:0;
                                             ("grotto_enemies", Expression<AI> @:21796 check:47256,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:33566,h:0,d0:39,d1:16384;)))
                                     (8, Expression<Short> @:21797 check:47257,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:47110,h:3,d0:8,d1:65535;)))
                             ("difficulty_legendary", ScriptInvocation<Boolean> @:21798 check:47258,op:4,dt:5,nt:10,next:65535,nextCheck:65535,str:47117,h:3,d0:21799,d1:47259;
                                 ("difficulty_legendary", Expression<MethodOrOperator> @:21799 check:47259,op:4,dt:2,nt:9,next:65535,nextCheck:65535,str:14728,h:0,d0:0,d1:0;))))
-                    (____, Scope<Void> @:21800 check:47260,op:291,dt:4,nt:8,next:65535,nextCheck:65535,str:47149,h:3,d0:21801,d1:47261;
+                    (____, BuiltinInvocation<Void> @:21800 check:47260,op:291,dt:4,nt:8,next:65535,nextCheck:65535,str:47149,h:3,d0:21801,d1:47261;
                         ("ai_place", Expression<MethodOrOperator> @:21801 check:47261,op:291,dt:2,nt:9,next:21802,nextCheck:47262,str:14801,h:0,d0:0,d1:0;
                             ("grotto_buggers_01", Expression<AI> @:21802 check:47262,op:19,dt:19,nt:9,next:21803,nextCheck:47263,str:33682,h:0,d0:170,d1:0;
-                                (____, Scope<Short> @:21803 check:47263,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:47177,h:3,d0:21804,d1:47264;
+                                (____, BuiltinInvocation<Short> @:21803 check:47263,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:47177,h:3,d0:21804,d1:47264;
                                     ("-", Expression<MethodOrOperator> @:21804 check:47264,op:8,dt:2,nt:9,next:21805,nextCheck:47265,str:2316,h:0,d0:0,d1:0;
                                         (4f, Expression<Float> @:21805 check:47265,op:6,dt:6,nt:9,next:21806,nextCheck:47266,str:47180,h:3,d0:0,d1:16512;
-                                            (-7.788312E-05f, Scope<Float> @:21806 check:47266,op:327,dt:6,nt:8,next:65535,nextCheck:65535,str:47182,h:3,d0:21807,d1:47267;
+                                            (-7.788312E-05f, BuiltinInvocation<Float> @:21806 check:47266,op:327,dt:6,nt:8,next:65535,nextCheck:65535,str:47182,h:3,d0:21807,d1:47267;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:21807 check:47267,op:327,dt:2,nt:9,next:21808,nextCheck:47268,str:15933,h:0,d0:0,d1:0;
                                                     ("grotto_buggers", Expression<AI> @:21808 check:47268,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:33648,h:0,d0:42,d1:16384;)))))))))))
-            (____, Scope<Void> @:21809 check:47269,op:21,dt:4,nt:8,next:21819,nextCheck:47279,str:47225,h:3,d0:21810,d1:47270;
+            (____, BuiltinInvocation<Void> @:21809 check:47269,op:21,dt:4,nt:8,next:21819,nextCheck:47279,str:47225,h:3,d0:21810,d1:47270;
                 ("sleep_until", Expression<MethodOrOperator> @:21810 check:47270,op:21,dt:2,nt:9,next:21811,nextCheck:47271,str:284,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:21811 check:47271,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:47238,h:3,d0:21812,d1:47272;
+                    (____, BuiltinInvocation<Boolean> @:21811 check:47271,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:47238,h:3,d0:21812,d1:47272;
                         ("=", Expression<MethodOrOperator> @:21812 check:47272,op:13,dt:2,nt:9,next:21813,nextCheck:47273,str:349,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:21813 check:47273,op:33,dt:5,nt:8,next:21818,nextCheck:47278,str:47241,h:3,d0:21814,d1:47274;
+                            (____, BuiltinInvocation<Boolean> @:21813 check:47273,op:33,dt:5,nt:8,next:21818,nextCheck:47278,str:47241,h:3,d0:21814,d1:47274;
                                 ("volume_test_objects", Expression<MethodOrOperator> @:21814 check:47274,op:33,dt:2,nt:9,next:21815,nextCheck:47275,str:14312,h:0,d0:0,d1:0;
                                     ("vol_grotto_mid_03", Expression<Trigger> @:21815 check:47275,op:13,dt:13,nt:9,next:21816,nextCheck:47276,str:33548,h:0,d0:94,d1:0;
-                                        (____, Scope<List> @:21816 check:47276,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:47280,h:3,d0:21817,d1:47277;
+                                        (____, BuiltinInvocation<List> @:21816 check:47276,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:47280,h:3,d0:21817,d1:47277;
                                             ("players", Expression<MethodOrOperator> @:21817 check:47277,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:74,h:0,d0:0,d1:0;)))))
                             (True, Expression<Boolean> @:21818 check:47278,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:47291,h:3,d0:65281,d1:65535;)))))
-            (____, Scope<Void> @:21819 check:47279,op:309,dt:4,nt:8,next:21823,nextCheck:47283,str:47300,h:3,d0:21820,d1:47280;
+            (____, BuiltinInvocation<Void> @:21819 check:47279,op:309,dt:4,nt:8,next:21823,nextCheck:47283,str:47300,h:3,d0:21820,d1:47280;
                 ("ai_migrate", Expression<MethodOrOperator> @:21820 check:47280,op:309,dt:2,nt:9,next:21821,nextCheck:47281,str:27573,h:0,d0:0,d1:0;
                     ("grotto_buggers_01", Expression<AI> @:21821 check:47281,op:19,dt:19,nt:9,next:21822,nextCheck:47282,str:33682,h:0,d0:170,d1:0;
                         ("grotto_buggers_02", Expression<AI> @:21822 check:47282,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:33700,h:0,d0:171,d1:0;))))
-            (____, Scope<Void> @:21823 check:47283,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:47353,h:3,d0:21824,d1:47284;
+            (____, BuiltinInvocation<Void> @:21823 check:47283,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:47353,h:3,d0:21824,d1:47284;
                 ("if", Expression<MethodOrOperator> @:21824 check:47284,op:2,dt:2,nt:9,next:21825,nextCheck:47285,str:509,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:21825 check:47285,op:16,dt:5,nt:8,next:21831,nextCheck:47291,str:47357,h:3,d0:21826,d1:47286;
+                    (____, BuiltinInvocation<Boolean> @:21825 check:47285,op:16,dt:5,nt:8,next:21831,nextCheck:47291,str:47357,h:3,d0:21826,d1:47286;
                         ("<", Expression<MethodOrOperator> @:21826 check:47286,op:16,dt:2,nt:9,next:21827,nextCheck:47287,str:900,h:0,d0:0,d1:0;
-                            (____, Scope<Short> @:21827 check:47287,op:327,dt:7,nt:8,next:21830,nextCheck:47290,str:47360,h:3,d0:21828,d1:47288;
+                            (____, BuiltinInvocation<Short> @:21827 check:47287,op:327,dt:7,nt:8,next:21830,nextCheck:47290,str:47360,h:3,d0:21828,d1:47288;
                                 ("ai_living_count", Expression<MethodOrOperator> @:21828 check:47288,op:327,dt:2,nt:9,next:21829,nextCheck:47289,str:15933,h:0,d0:0,d1:0;
                                     ("grotto_enemies", Expression<AI> @:21829 check:47289,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:33566,h:0,d0:39,d1:16384;)))
                             (8, Expression<Short> @:21830 check:47290,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:47393,h:3,d0:8,d1:65535;)))
-                    (____, Scope<Void> @:21831 check:47291,op:291,dt:4,nt:8,next:65535,nextCheck:65535,str:47399,h:3,d0:21832,d1:47292;
+                    (____, BuiltinInvocation<Void> @:21831 check:47291,op:291,dt:4,nt:8,next:65535,nextCheck:65535,str:47399,h:3,d0:21832,d1:47292;
                         ("ai_place", Expression<MethodOrOperator> @:21832 check:47292,op:291,dt:2,nt:9,next:21833,nextCheck:47293,str:14801,h:0,d0:0,d1:0;
                             ("grotto_buggers_02", Expression<AI> @:21833 check:47293,op:19,dt:19,nt:9,next:21834,nextCheck:47294,str:33700,h:0,d0:171,d1:0;
-                                (____, Scope<Short> @:21834 check:47294,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:47427,h:3,d0:21835,d1:47295;
+                                (____, BuiltinInvocation<Short> @:21834 check:47294,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:47427,h:3,d0:21835,d1:47295;
                                     ("-", Expression<MethodOrOperator> @:21835 check:47295,op:8,dt:2,nt:9,next:21836,nextCheck:47296,str:2316,h:0,d0:0,d1:0;
                                         (4f, Expression<Float> @:21836 check:47296,op:6,dt:6,nt:9,next:21837,nextCheck:47297,str:47430,h:3,d0:0,d1:16512;
-                                            (-9.26653E-05f, Scope<Float> @:21837 check:47297,op:327,dt:6,nt:8,next:65535,nextCheck:65535,str:47432,h:3,d0:21838,d1:47298;
+                                            (-9.26653E-05f, BuiltinInvocation<Float> @:21837 check:47297,op:327,dt:6,nt:8,next:65535,nextCheck:65535,str:47432,h:3,d0:21838,d1:47298;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:21838 check:47298,op:327,dt:2,nt:9,next:21839,nextCheck:47299,str:15933,h:0,d0:0,d1:0;
                                                     ("grotto_buggers", Expression<AI> @:21839 check:47299,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:33648,h:0,d0:42,d1:16384;))))))))))))))

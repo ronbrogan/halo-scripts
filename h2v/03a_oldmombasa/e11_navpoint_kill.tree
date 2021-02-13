@@ -1,22 +1,22 @@
 
 ("e11_navpoint_kill", MethodDecl<Void> @:221 check:0,op:0,dt:0,nt:65535,next:7929,nextCheck:33389,str:15978,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:7929 check:33389,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:30216,h:1,d0:7930,d1:33390;
+    (____, BuiltinInvocation<Void> @:7929 check:33389,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:30216,h:1,d0:7930,d1:33390;
         ("begin", Expression<MethodOrOperator> @:7930 check:33390,op:0,dt:2,nt:9,next:7911,nextCheck:33371,str:64,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:7911 check:33371,op:21,dt:4,nt:8,next:7919,nextCheck:33379,str:30252,h:1,d0:7912,d1:33372;
+            (____, BuiltinInvocation<Void> @:7911 check:33371,op:21,dt:4,nt:8,next:7919,nextCheck:33379,str:30252,h:1,d0:7912,d1:33372;
                 ("sleep_until", Expression<MethodOrOperator> @:7912 check:33372,op:21,dt:2,nt:9,next:7913,nextCheck:33373,str:294,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:7913 check:33373,op:33,dt:5,nt:8,next:7918,nextCheck:33378,str:30265,h:1,d0:7914,d1:33374;
+                    (____, BuiltinInvocation<Boolean> @:7913 check:33373,op:33,dt:5,nt:8,next:7918,nextCheck:33378,str:30265,h:1,d0:7914,d1:33374;
                         ("volume_test_objects", Expression<MethodOrOperator> @:7914 check:33374,op:33,dt:2,nt:9,next:7915,nextCheck:33375,str:10884,h:0,d0:0,d1:0;
                             ("tv_e11_tunnel_entrance", Expression<Trigger> @:7915 check:33375,op:13,dt:13,nt:9,next:7916,nextCheck:33376,str:15612,h:0,d0:52,d1:0;
-                                (____, Scope<List> @:7916 check:33376,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:30309,h:1,d0:7917,d1:33377;
+                                (____, BuiltinInvocation<List> @:7916 check:33376,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:30309,h:1,d0:7917,d1:33377;
                                     ("players", Expression<MethodOrOperator> @:7917 check:33377,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:84,h:0,d0:0,d1:0;)))))
                     (15, Expression<Short> @:7918 check:33378,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:30320,h:1,d0:15,d1:65535;)))
-            (____, Scope<Void> @:7919 check:33379,op:20,dt:4,nt:8,next:7922,nextCheck:33382,str:30363,h:1,d0:7920,d1:33380;
+            (____, BuiltinInvocation<Void> @:7919 check:33379,op:20,dt:4,nt:8,next:7922,nextCheck:33382,str:30363,h:1,d0:7920,d1:33380;
                 ("sleep_forever", Expression<MethodOrOperator> @:7920 check:33380,op:20,dt:2,nt:9,next:7921,nextCheck:33381,str:10045,h:0,d0:0,d1:0;
                     ("e11_navpoint", Expression<ScriptReference> @:7921 check:33381,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:15726,h:0,d0:220,d1:65535;)))
-            (____, Scope<Void> @:7922 check:33382,op:27,dt:4,nt:8,next:7925,nextCheck:33385,str:30394,h:1,d0:7923,d1:33383;
+            (____, BuiltinInvocation<Void> @:7922 check:33382,op:27,dt:4,nt:8,next:7925,nextCheck:33385,str:30394,h:1,d0:7923,d1:33383;
                 ("print", Expression<MethodOrOperator> @:7923 check:33383,op:27,dt:2,nt:9,next:7924,nextCheck:33384,str:149,h:0,d0:0,d1:0;
                     ("navpoint down", Expression<String> @:7924 check:33384,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:15739,h:0,d0:43331,d1:12404;)))
-            (____, Scope<Void> @:7925 check:33385,op:643,dt:4,nt:8,next:65535,nextCheck:65535,str:30420,h:1,d0:7926,d1:33386;
+            (____, BuiltinInvocation<Void> @:7925 check:33385,op:643,dt:4,nt:8,next:65535,nextCheck:65535,str:30420,h:1,d0:7926,d1:33386;
                 ("deactivate_team_nav_point_flag", Expression<MethodOrOperator> @:7926 check:33386,op:643,dt:2,nt:9,next:7927,nextCheck:33387,str:15753,h:0,d0:0,d1:0;
                     ("player", Expression<Team> @:7927 check:33387,op:45,dt:45,nt:9,next:7928,nextCheck:33388,str:12504,h:0,d0:1,d1:65535;
                         ("e11_tunnel_entrance", Expression<LocationFlag> @:7928 check:33388,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:15665,h:0,d0:30,d1:0;)))))))

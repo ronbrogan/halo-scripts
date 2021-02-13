@@ -1,24 +1,24 @@
 
 ("c07_intra1_07_fov_01", MethodDecl<Void> @:60 check:0,op:0,dt:0,nt:65535,next:1691,nextCheck:59918,str:4608,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:1691 check:59918,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:20193,h:0,d0:1692,d1:59919;
+    (____, BuiltinInvocation<Void> @:1691 check:59918,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:20193,h:0,d0:1692,d1:59919;
         ("begin", Expression<MethodOrOperator> @:1692 check:59919,op:0,dt:2,nt:9,next:1671,nextCheck:59898,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:1671 check:59898,op:19,dt:4,nt:8,next:1674,nextCheck:59901,str:20232,h:0,d0:1672,d1:59899;
+            (____, BuiltinInvocation<Void> @:1671 check:59898,op:19,dt:4,nt:8,next:1674,nextCheck:59901,str:20232,h:0,d0:1672,d1:59899;
                 ("sleep", Expression<MethodOrOperator> @:1672 check:59899,op:19,dt:2,nt:9,next:1673,nextCheck:59900,str:80,h:0,d0:0,d1:0;
                     (414, Expression<Short> @:1673 check:59900,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:20239,h:0,d0:414,d1:65535;)))
-            (____, Scope<Void> @:1674 check:59901,op:27,dt:4,nt:8,next:1677,nextCheck:59904,str:20246,h:0,d0:1675,d1:59902;
+            (____, BuiltinInvocation<Void> @:1674 check:59901,op:27,dt:4,nt:8,next:1677,nextCheck:59904,str:20246,h:0,d0:1675,d1:59902;
                 ("print", Expression<MethodOrOperator> @:1675 check:59902,op:27,dt:2,nt:9,next:1676,nextCheck:59903,str:86,h:0,d0:0,d1:0;
                     ("fov change: 60 -> 26 over 0 ticks", Expression<String> @:1676 check:59903,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:4540,h:0,d0:38364,d1:11039;)))
-            (____, Scope<Void> @:1677 check:59904,op:459,dt:4,nt:8,next:1681,nextCheck:59908,str:20292,h:0,d0:1678,d1:59905;
+            (____, BuiltinInvocation<Void> @:1677 check:59904,op:459,dt:4,nt:8,next:1681,nextCheck:59908,str:20292,h:0,d0:1678,d1:59905;
                 ("camera_set_field_of_view", Expression<MethodOrOperator> @:1678 check:59905,op:459,dt:2,nt:9,next:1679,nextCheck:59906,str:2124,h:0,d0:0,d1:0;
                     (26f, Expression<Float> @:1679 check:59906,op:6,dt:6,nt:9,next:1680,nextCheck:59907,str:20318,h:0,d0:0,d1:16848;
                         (0, Expression<Short> @:1680 check:59907,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:20321,h:0,d0:0,d1:65535;))))
-            (____, Scope<Void> @:1681 check:59908,op:19,dt:4,nt:8,next:1684,nextCheck:59911,str:20326,h:0,d0:1682,d1:59909;
+            (____, BuiltinInvocation<Void> @:1681 check:59908,op:19,dt:4,nt:8,next:1684,nextCheck:59911,str:20326,h:0,d0:1682,d1:59909;
                 ("sleep", Expression<MethodOrOperator> @:1682 check:59909,op:19,dt:2,nt:9,next:1683,nextCheck:59910,str:80,h:0,d0:0,d1:0;
                     (70, Expression<Short> @:1683 check:59910,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:20333,h:0,d0:70,d1:65535;)))
-            (____, Scope<Void> @:1684 check:59911,op:27,dt:4,nt:8,next:1687,nextCheck:59914,str:20339,h:0,d0:1685,d1:59912;
+            (____, BuiltinInvocation<Void> @:1684 check:59911,op:27,dt:4,nt:8,next:1687,nextCheck:59914,str:20339,h:0,d0:1685,d1:59912;
                 ("print", Expression<MethodOrOperator> @:1685 check:59912,op:27,dt:2,nt:9,next:1686,nextCheck:59913,str:86,h:0,d0:0,d1:0;
                     ("fov change: 26 -> 60 over 0 ticks", Expression<String> @:1686 check:59913,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:4574,h:0,d0:38398,d1:11039;)))
-            (____, Scope<Void> @:1687 check:59914,op:459,dt:4,nt:8,next:65535,nextCheck:65535,str:20385,h:0,d0:1688,d1:59915;
+            (____, BuiltinInvocation<Void> @:1687 check:59914,op:459,dt:4,nt:8,next:65535,nextCheck:65535,str:20385,h:0,d0:1688,d1:59915;
                 ("camera_set_field_of_view", Expression<MethodOrOperator> @:1688 check:59915,op:459,dt:2,nt:9,next:1689,nextCheck:59916,str:2124,h:0,d0:0,d1:0;
                     (60f, Expression<Float> @:1689 check:59916,op:6,dt:6,nt:9,next:1690,nextCheck:59917,str:20411,h:0,d0:0,d1:17008;
                         (0, Expression<Short> @:1690 check:59917,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:20414,h:0,d0:0,d1:65535;)))))))

@@ -1,86 +1,86 @@
 
 ("x08_scene_06a", MethodDecl<Void> @:78 check:0,op:0,dt:0,nt:65535,next:2196,nextCheck:60423,str:8416,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:2196 check:60423,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:26385,h:0,d0:2197,d1:60424;
+    (____, BuiltinInvocation<Void> @:2196 check:60423,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:26385,h:0,d0:2197,d1:60424;
         ("begin", Expression<MethodOrOperator> @:2197 check:60424,op:0,dt:2,nt:9,next:2114,nextCheck:60341,str:1,h:0,d0:0,d1:0;
             ("x08_06a_setup", ScriptInvocation<Void> @:2114 check:60341,op:77,dt:4,nt:10,next:2116,nextCheck:60343,str:26424,h:0,d0:2115,d1:60342;
                 ("x08_06a_setup", Expression<MethodOrOperator> @:2115 check:60342,op:77,dt:2,nt:9,next:65535,nextCheck:65535,str:4943,h:0,d0:0,d1:0;))
-            (____, Scope<Void> @:2116 check:60343,op:454,dt:4,nt:8,next:2122,nextCheck:60349,str:26445,h:0,d0:2117,d1:60344;
+            (____, BuiltinInvocation<Void> @:2116 check:60343,op:454,dt:4,nt:8,next:2122,nextCheck:60349,str:26445,h:0,d0:2117,d1:60344;
                 ("camera_set_animation_relative", Expression<MethodOrOperator> @:2117 check:60344,op:454,dt:2,nt:9,next:2118,nextCheck:60345,str:2269,h:0,d0:0,d1:0;
                     ("objects\characters\cinematic_camera\x08\x08", Expression<Animation> @:2118 check:60345,op:36,dt:36,nt:9,next:2119,nextCheck:60346,str:2299,h:0,d0:813,d1:58531;
                         ("x08_06a", Expression<StringId> @:2119 check:60346,op:11,dt:11,nt:9,next:2120,nextCheck:60347,str:4957,h:0,d0:3686,d1:1792;
                             ("none", Expression<Unit> @:2120 check:60347,op:51,dt:51,nt:9,next:2121,nextCheck:60348,str:1586,h:0,d0:65535,d1:65535;
                                 ("anchor_flag_x08", Expression<LocationFlag> @:2121 check:60348,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:2350,h:0,d0:4,d1:0;))))))
-            (____, Scope<Void> @:2122 check:60349,op:203,dt:4,nt:8,next:2129,nextCheck:60356,str:26559,h:0,d0:2123,d1:60350;
+            (____, BuiltinInvocation<Void> @:2122 check:60349,op:203,dt:4,nt:8,next:2129,nextCheck:60356,str:26559,h:0,d0:2123,d1:60350;
                 ("custom_animation_relative", Expression<MethodOrOperator> @:2123 check:60350,op:203,dt:2,nt:9,next:2124,nextCheck:60351,str:2366,h:0,d0:0,d1:0;
                     ("dervish", Expression<Unit> @:2124 check:60351,op:57,dt:51,nt:9,next:2125,nextCheck:60352,str:3205,h:0,d0:254,d1:65535;
                         ("objects\characters\dervish\x08\x08", Expression<Animation> @:2125 check:60352,op:36,dt:36,nt:9,next:2126,nextCheck:60353,str:3315,h:0,d0:824,d1:58542;
                             ("dervish_06a", Expression<StringId> @:2126 check:60353,op:11,dt:11,nt:9,next:2127,nextCheck:60354,str:4965,h:0,d0:3965,d1:2816;
                                 (False, Expression<Boolean> @:2127 check:60354,op:5,dt:5,nt:9,next:2128,nextCheck:60355,str:26643,h:0,d0:65280,d1:65535;
                                     (4294901860, Expression<Entity> @:2128 check:60355,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:2440,h:0,d0:100,d1:65535;)))))))
-            (____, Scope<Void> @:2129 check:60356,op:203,dt:4,nt:8,next:2136,nextCheck:60363,str:26663,h:0,d0:2130,d1:60357;
+            (____, BuiltinInvocation<Void> @:2129 check:60356,op:203,dt:4,nt:8,next:2136,nextCheck:60363,str:26663,h:0,d0:2130,d1:60357;
                 ("custom_animation_relative", Expression<MethodOrOperator> @:2130 check:60357,op:203,dt:2,nt:9,next:2131,nextCheck:60358,str:2366,h:0,d0:0,d1:0;
                     ("regret", Expression<Unit> @:2131 check:60358,op:57,dt:51,nt:9,next:2132,nextCheck:60359,str:4356,h:0,d0:286,d1:65535;
                         ("objects\characters\gravemind\floodregret\x08\x08", Expression<Animation> @:2132 check:60359,op:36,dt:36,nt:9,next:2133,nextCheck:60360,str:4441,h:0,d0:836,d1:58554;
                             ("regret_06a", Expression<StringId> @:2133 check:60360,op:11,dt:11,nt:9,next:2134,nextCheck:60361,str:4977,h:0,d0:4039,d1:2560;
                                 (False, Expression<Boolean> @:2134 check:60361,op:5,dt:5,nt:9,next:2135,nextCheck:60362,str:26759,h:0,d0:65280,d1:65535;
                                     (4294901860, Expression<Entity> @:2135 check:60362,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:2440,h:0,d0:100,d1:65535;)))))))
-            (____, Scope<Void> @:2136 check:60363,op:203,dt:4,nt:8,next:2143,nextCheck:60370,str:26779,h:0,d0:2137,d1:60364;
+            (____, BuiltinInvocation<Void> @:2136 check:60363,op:203,dt:4,nt:8,next:2143,nextCheck:60370,str:26779,h:0,d0:2137,d1:60364;
                 ("custom_animation_relative", Expression<MethodOrOperator> @:2137 check:60364,op:203,dt:2,nt:9,next:2138,nextCheck:60365,str:2366,h:0,d0:0,d1:0;
                     ("2401", Expression<Unit> @:2138 check:60365,op:57,dt:51,nt:9,next:2139,nextCheck:60366,str:4363,h:0,d0:253,d1:65535;
                         ("objects\characters\gravemind\monitor_flood_infected\x08\x08", Expression<Animation> @:2139 check:60366,op:36,dt:36,nt:9,next:2140,nextCheck:60367,str:4500,h:0,d0:838,d1:58556;
                             ("tangent_06a", Expression<StringId> @:2140 check:60367,op:11,dt:11,nt:9,next:2141,nextCheck:60368,str:4988,h:0,d0:4050,d1:2816;
                                 (False, Expression<Boolean> @:2141 check:60368,op:5,dt:5,nt:9,next:2142,nextCheck:60369,str:26885,h:0,d0:65280,d1:65535;
                                     (4294901860, Expression<Entity> @:2142 check:60369,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:2440,h:0,d0:100,d1:65535;)))))))
-            (____, Scope<Void> @:2143 check:60370,op:186,dt:4,nt:8,next:2149,nextCheck:60376,str:26908,h:0,d0:2144,d1:60371;
+            (____, BuiltinInvocation<Void> @:2143 check:60370,op:186,dt:4,nt:8,next:2149,nextCheck:60376,str:26908,h:0,d0:2144,d1:60371;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:2144 check:60371,op:186,dt:2,nt:9,next:2145,nextCheck:60372,str:2500,h:0,d0:0,d1:0;
                     ("tentacle_arbiter", Expression<Scenery> @:2145 check:60372,op:61,dt:55,nt:9,next:2146,nextCheck:60373,str:3382,h:0,d0:8,d1:65535;
                         ("objects\characters\gravemind\tentacle_capture_arbiter\x08\x08", Expression<Animation> @:2146 check:60373,op:36,dt:36,nt:9,next:2147,nextCheck:60374,str:3399,h:0,d0:826,d1:58544;
                             ("tc_arb_06a", Expression<StringId> @:2147 check:60374,op:11,dt:11,nt:9,next:2148,nextCheck:60375,str:5000,h:0,d0:4004,d1:2560;
                                 (4294901860, Expression<Entity> @:2148 check:60375,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:2440,h:0,d0:100,d1:65535;))))))
-            (____, Scope<Void> @:2149 check:60376,op:186,dt:4,nt:8,next:2155,nextCheck:60382,str:27048,h:0,d0:2150,d1:60377;
+            (____, BuiltinInvocation<Void> @:2149 check:60376,op:186,dt:4,nt:8,next:2155,nextCheck:60382,str:27048,h:0,d0:2150,d1:60377;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:2150 check:60377,op:186,dt:2,nt:9,next:2151,nextCheck:60378,str:2500,h:0,d0:0,d1:0;
                     ("tentacle_capture_02", Expression<Scenery> @:2151 check:60378,op:61,dt:55,nt:9,next:2152,nextCheck:60379,str:3213,h:0,d0:4,d1:65535;
                         ("objects\characters\gravemind\tentacle_capture_driven\x08\x08", Expression<Animation> @:2152 check:60379,op:36,dt:36,nt:9,next:2153,nextCheck:60380,str:2608,h:0,d0:818,d1:58536;
                             ("tc_driven02_06a", Expression<StringId> @:2153 check:60380,op:11,dt:11,nt:9,next:2154,nextCheck:60381,str:5011,h:0,d0:3900,d1:3840;
                                 (4294901860, Expression<Entity> @:2154 check:60381,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:2440,h:0,d0:100,d1:65535;))))))
-            (____, Scope<Void> @:2155 check:60382,op:186,dt:4,nt:8,next:2161,nextCheck:60388,str:27195,h:0,d0:2156,d1:60383;
+            (____, BuiltinInvocation<Void> @:2155 check:60382,op:186,dt:4,nt:8,next:2161,nextCheck:60388,str:27195,h:0,d0:2156,d1:60383;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:2156 check:60383,op:186,dt:2,nt:9,next:2157,nextCheck:60384,str:2500,h:0,d0:0,d1:0;
                     ("tentacle_capture_03", Expression<Scenery> @:2157 check:60384,op:61,dt:55,nt:9,next:2158,nextCheck:60385,str:3233,h:0,d0:5,d1:65535;
                         ("objects\characters\gravemind\tentacle_capture_driven\x08\x08", Expression<Animation> @:2158 check:60385,op:36,dt:36,nt:9,next:2159,nextCheck:60386,str:2608,h:0,d0:818,d1:58536;
                             ("tc_driven03_06a", Expression<StringId> @:2159 check:60386,op:11,dt:11,nt:9,next:2160,nextCheck:60387,str:5027,h:0,d0:3911,d1:3840;
                                 (4294901860, Expression<Entity> @:2160 check:60387,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:2440,h:0,d0:100,d1:65535;))))))
-            (____, Scope<Void> @:2161 check:60388,op:186,dt:4,nt:8,next:2167,nextCheck:60394,str:27342,h:0,d0:2162,d1:60389;
+            (____, BuiltinInvocation<Void> @:2161 check:60388,op:186,dt:4,nt:8,next:2167,nextCheck:60394,str:27342,h:0,d0:2162,d1:60389;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:2162 check:60389,op:186,dt:2,nt:9,next:2163,nextCheck:60390,str:2500,h:0,d0:0,d1:0;
                     ("tentacle_capture_04", Expression<Scenery> @:2163 check:60390,op:61,dt:55,nt:9,next:2164,nextCheck:60391,str:3253,h:0,d0:6,d1:65535;
                         ("objects\characters\gravemind\tentacle_capture_driven\x08\x08", Expression<Animation> @:2164 check:60391,op:36,dt:36,nt:9,next:2165,nextCheck:60392,str:2608,h:0,d0:818,d1:58536;
                             ("tc_driven04_06a", Expression<StringId> @:2165 check:60392,op:11,dt:11,nt:9,next:2166,nextCheck:60393,str:5043,h:0,d0:3922,d1:3840;
                                 (4294901860, Expression<Entity> @:2166 check:60393,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:2440,h:0,d0:100,d1:65535;))))))
-            (____, Scope<Void> @:2167 check:60394,op:186,dt:4,nt:8,next:2173,nextCheck:60400,str:27489,h:0,d0:2168,d1:60395;
+            (____, BuiltinInvocation<Void> @:2167 check:60394,op:186,dt:4,nt:8,next:2173,nextCheck:60400,str:27489,h:0,d0:2168,d1:60395;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:2168 check:60395,op:186,dt:2,nt:9,next:2169,nextCheck:60396,str:2500,h:0,d0:0,d1:0;
                     ("tentacle_capture_05", Expression<Scenery> @:2169 check:60396,op:61,dt:55,nt:9,next:2170,nextCheck:60397,str:4368,h:0,d0:7,d1:65535;
                         ("objects\characters\gravemind\tentacle_capture_driven\x08\x08", Expression<Animation> @:2170 check:60397,op:36,dt:36,nt:9,next:2171,nextCheck:60398,str:2608,h:0,d0:818,d1:58536;
                             ("tc_driven05_06a", Expression<StringId> @:2171 check:60398,op:11,dt:11,nt:9,next:2172,nextCheck:60399,str:5059,h:0,d0:3931,d1:3840;
                                 (4294901860, Expression<Entity> @:2172 check:60399,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:2440,h:0,d0:100,d1:65535;))))))
-            (____, Scope<Void> @:2173 check:60400,op:19,dt:4,nt:8,next:2180,nextCheck:60407,str:27710,h:0,d0:2174,d1:60401;
+            (____, BuiltinInvocation<Void> @:2173 check:60400,op:19,dt:4,nt:8,next:2180,nextCheck:60407,str:27710,h:0,d0:2174,d1:60401;
                 ("sleep", Expression<MethodOrOperator> @:2174 check:60401,op:19,dt:2,nt:9,next:2175,nextCheck:60402,str:80,h:0,d0:0,d1:0;
-                    (____, Scope<Short> @:2175 check:60402,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:27717,h:0,d0:2176,d1:60403;
+                    (____, BuiltinInvocation<Short> @:2175 check:60402,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:27717,h:0,d0:2176,d1:60403;
                         ("-", Expression<MethodOrOperator> @:2176 check:60403,op:8,dt:2,nt:9,next:2177,nextCheck:60404,str:2684,h:0,d0:0,d1:0;
-                            (-5.92454E+26f, Scope<Float> @:2177 check:60404,op:458,dt:6,nt:8,next:2179,nextCheck:60406,str:27720,h:0,d0:2178,d1:60405;
+                            (-5.92454E+26f, BuiltinInvocation<Float> @:2177 check:60404,op:458,dt:6,nt:8,next:2179,nextCheck:60406,str:27720,h:0,d0:2178,d1:60405;
                                 ("camera_time", Expression<MethodOrOperator> @:2178 check:60405,op:458,dt:2,nt:9,next:65535,nextCheck:65535,str:2686,h:0,d0:0,d1:0;))
                             ("prediction_offset", VariableAccess<Float> @:2179 check:60406,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:2238,h:0,d0:2,d1:0;)))))
             ("x08_06b_predict_stub", ScriptInvocation<Void> @:2180 check:60407,op:31,dt:4,nt:10,next:2182,nextCheck:60409,str:27756,h:0,d0:2181,d1:60408;
                 ("x08_06b_predict_stub", Expression<MethodOrOperator> @:2181 check:60408,op:31,dt:2,nt:9,next:65535,nextCheck:65535,str:5075,h:0,d0:0,d1:0;))
-            (____, Scope<Void> @:2182 check:60409,op:19,dt:4,nt:8,next:2189,nextCheck:60416,str:27784,h:0,d0:2183,d1:60410;
+            (____, BuiltinInvocation<Void> @:2182 check:60409,op:19,dt:4,nt:8,next:2189,nextCheck:60416,str:27784,h:0,d0:2183,d1:60410;
                 ("sleep", Expression<MethodOrOperator> @:2183 check:60410,op:19,dt:2,nt:9,next:2184,nextCheck:60411,str:80,h:0,d0:0,d1:0;
-                    (____, Scope<Short> @:2184 check:60411,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:27791,h:0,d0:2185,d1:60412;
+                    (____, BuiltinInvocation<Short> @:2184 check:60411,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:27791,h:0,d0:2185,d1:60412;
                         ("-", Expression<MethodOrOperator> @:2185 check:60412,op:8,dt:2,nt:9,next:2186,nextCheck:60413,str:2684,h:0,d0:0,d1:0;
-                            (-6.14215E+26f, Scope<Float> @:2186 check:60413,op:458,dt:6,nt:8,next:2188,nextCheck:60415,str:27794,h:0,d0:2187,d1:60414;
+                            (-6.14215E+26f, BuiltinInvocation<Float> @:2186 check:60413,op:458,dt:6,nt:8,next:2188,nextCheck:60415,str:27794,h:0,d0:2187,d1:60414;
                                 ("camera_time", Expression<MethodOrOperator> @:2187 check:60414,op:458,dt:2,nt:9,next:65535,nextCheck:65535,str:2686,h:0,d0:0,d1:0;))
                             ("sound_offset", VariableAccess<Float> @:2188 check:60415,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:2718,h:0,d0:1,d1:0;)))))
-            (____, Scope<Void> @:2189 check:60416,op:594,dt:4,nt:8,next:2192,nextCheck:60419,str:27825,h:0,d0:2190,d1:60417;
+            (____, BuiltinInvocation<Void> @:2189 check:60416,op:594,dt:4,nt:8,next:2192,nextCheck:60419,str:27825,h:0,d0:2190,d1:60417;
                 ("sound_impulse_predict", Expression<MethodOrOperator> @:2190 check:60417,op:594,dt:2,nt:9,next:2191,nextCheck:60418,str:2216,h:0,d0:0,d1:0;
                     ("sound\cinematics\07_highcharity\x08\foley\x08_06b_fol", Expression<Sound> @:2191 check:60418,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:5096,h:0,d0:842,d1:58560;)))
-            (____, Scope<Void> @:2192 check:60419,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:27908,h:0,d0:2193,d1:60420;
+            (____, BuiltinInvocation<Void> @:2192 check:60419,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:27908,h:0,d0:2193,d1:60420;
                 ("sleep", Expression<MethodOrOperator> @:2193 check:60420,op:19,dt:2,nt:9,next:2194,nextCheck:60421,str:80,h:0,d0:0,d1:0;
-                    (____, Scope<Short> @:2194 check:60421,op:458,dt:7,nt:8,next:65535,nextCheck:65535,str:27915,h:0,d0:2195,d1:60422;
+                    (____, BuiltinInvocation<Short> @:2194 check:60421,op:458,dt:7,nt:8,next:65535,nextCheck:65535,str:27915,h:0,d0:2195,d1:60422;
                         ("camera_time", Expression<MethodOrOperator> @:2195 check:60422,op:458,dt:2,nt:9,next:65535,nextCheck:65535,str:2686,h:0,d0:0,d1:0;)))))))

@@ -1,12 +1,12 @@
 
 ("bridge_pelican_timer", MethodDecl<Void> @:256 check:0,op:0,dt:0,nt:65535,next:12488,nextCheck:37948,str:23693,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:12488 check:37948,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:14798,h:2,d0:12489,d1:37949;
+    (____, BuiltinInvocation<Void> @:12488 check:37948,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:14798,h:2,d0:12489,d1:37949;
         ("begin", Expression<MethodOrOperator> @:12489 check:37949,op:0,dt:2,nt:9,next:12480,nextCheck:37940,str:54,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:12480 check:37940,op:19,dt:4,nt:8,next:12483,nextCheck:37943,str:14837,h:2,d0:12481,d1:37941;
+            (____, BuiltinInvocation<Void> @:12480 check:37940,op:19,dt:4,nt:8,next:12483,nextCheck:37943,str:14837,h:2,d0:12481,d1:37941;
                 ("sleep", Expression<MethodOrOperator> @:12481 check:37941,op:19,dt:2,nt:9,next:12482,nextCheck:37942,str:133,h:0,d0:0,d1:0;
                     (8000, Expression<Short> @:12482 check:37942,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:14844,h:2,d0:8000,d1:65535;)))
-            (____, Scope<Void> @:12483 check:37943,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:14852,h:2,d0:12484,d1:37944;
+            (____, BuiltinInvocation<Void> @:12483 check:37943,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:14852,h:2,d0:12484,d1:37944;
                 ("object_destroy", Expression<MethodOrOperator> @:12484 check:37944,op:52,dt:2,nt:9,next:12485,nextCheck:37945,str:1543,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:12485 check:37945,op:341,dt:50,nt:8,next:65535,nextCheck:65535,str:14868,h:2,d0:12486,d1:37946;
+                    (____, BuiltinInvocation<Entity> @:12485 check:37945,op:341,dt:50,nt:8,next:65535,nextCheck:65535,str:14868,h:2,d0:12486,d1:37946;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:12486 check:37946,op:341,dt:2,nt:9,next:12487,nextCheck:37947,str:14547,h:0,d0:0,d1:0;
                             ("bridge_pelican/pilot", Expression<AI> @:12487 check:37947,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:23509,h:0,d0:0,d1:49216;))))))))

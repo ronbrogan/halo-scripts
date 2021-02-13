@@ -1,28 +1,28 @@
 
 ("x02_0410_lhd", MethodDecl<Void> @:152 check:0,op:0,dt:0,nt:65535,next:6062,nextCheck:64289,str:15427,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:6062 check:64289,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:8596,h:1,d0:6063,d1:64290;
+    (____, BuiltinInvocation<Void> @:6062 check:64289,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:8596,h:1,d0:6063,d1:64290;
         ("begin", Expression<MethodOrOperator> @:6063 check:64290,op:0,dt:2,nt:9,next:6038,nextCheck:64265,str:11,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:6038 check:64265,op:19,dt:4,nt:8,next:6041,nextCheck:64268,str:8627,h:1,d0:6039,d1:64266;
+            (____, BuiltinInvocation<Void> @:6038 check:64265,op:19,dt:4,nt:8,next:6041,nextCheck:64268,str:8627,h:1,d0:6039,d1:64266;
                 ("sleep", Expression<MethodOrOperator> @:6039 check:64266,op:19,dt:2,nt:9,next:6040,nextCheck:64267,str:90,h:0,d0:0,d1:0;
                     (825, Expression<Short> @:6040 check:64267,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:8634,h:1,d0:825,d1:65535;)))
-            (____, Scope<Void> @:6041 check:64268,op:220,dt:4,nt:8,next:6047,nextCheck:64274,str:8644,h:1,d0:6042,d1:64269;
+            (____, BuiltinInvocation<Void> @:6041 check:64268,op:220,dt:4,nt:8,next:6047,nextCheck:64274,str:8644,h:1,d0:6042,d1:64269;
                 ("unit_set_emotional_state", Expression<MethodOrOperator> @:6042 check:64269,op:220,dt:2,nt:9,next:6043,nextCheck:64270,str:1808,h:0,d0:0,d1:0;
                     ("hood_x02", Expression<Unit> @:6043 check:64270,op:57,dt:51,nt:9,next:6044,nextCheck:64271,str:7490,h:0,d0:310,d1:65535;
                         ("annoyed", Expression<StringId> @:6044 check:64271,op:11,dt:11,nt:9,next:6045,nextCheck:64272,str:1833,h:0,d0:429,d1:1792;
                             (0.75f, Expression<Float> @:6045 check:64272,op:6,dt:6,nt:9,next:6046,nextCheck:64273,str:8687,h:1,d0:0,d1:16192;
                                 (60, Expression<Short> @:6046 check:64273,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:8691,h:1,d0:60,d1:65535;))))))
-            (____, Scope<Void> @:6047 check:64274,op:27,dt:4,nt:8,next:6050,nextCheck:64277,str:8697,h:1,d0:6048,d1:64275;
+            (____, BuiltinInvocation<Void> @:6047 check:64274,op:27,dt:4,nt:8,next:6050,nextCheck:64277,str:8697,h:1,d0:6048,d1:64275;
                 ("print", Expression<MethodOrOperator> @:6048 check:64275,op:27,dt:2,nt:9,next:6049,nextCheck:64276,str:96,h:0,d0:0,d1:0;
                     ("hood - annoyed .75 60", Expression<String> @:6049 check:64276,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:15346,h:0,d0:48162,d1:12558;)))
-            (____, Scope<Void> @:6050 check:64277,op:19,dt:4,nt:8,next:6053,nextCheck:64280,str:8734,h:1,d0:6051,d1:64278;
+            (____, BuiltinInvocation<Void> @:6050 check:64277,op:19,dt:4,nt:8,next:6053,nextCheck:64280,str:8734,h:1,d0:6051,d1:64278;
                 ("sleep", Expression<MethodOrOperator> @:6051 check:64278,op:19,dt:2,nt:9,next:6052,nextCheck:64279,str:90,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:6052 check:64279,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:8741,h:1,d0:30,d1:65535;)))
-            (____, Scope<Void> @:6053 check:64280,op:596,dt:4,nt:8,next:6058,nextCheck:64285,str:8750,h:1,d0:6054,d1:64281;
+            (____, BuiltinInvocation<Void> @:6053 check:64280,op:596,dt:4,nt:8,next:6058,nextCheck:64285,str:8750,h:1,d0:6054,d1:64281;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:6054 check:64281,op:596,dt:2,nt:9,next:6055,nextCheck:64282,str:1446,h:0,d0:0,d1:0;
                     ("sound\dialog\levels\01_spacestation\cinematic\x02_0410_lhd", Expression<Sound> @:6055 check:64282,op:32,dt:32,nt:9,next:6056,nextCheck:64283,str:15368,h:0,d0:4141,d1:62029;
                         (4294902070, Expression<Entity> @:6056 check:64283,op:56,dt:50,nt:9,next:6057,nextCheck:64284,str:7490,h:0,d0:310,d1:65535;
                             (1f, Expression<Float> @:6057 check:64284,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:8839,h:1,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:6058 check:64285,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:8844,h:1,d0:6059,d1:64286;
+            (____, BuiltinInvocation<Void> @:6058 check:64285,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:8844,h:1,d0:6059,d1:64286;
                 ("cinematic_subtitle", Expression<MethodOrOperator> @:6059 check:64286,op:562,dt:2,nt:9,next:6060,nextCheck:64287,str:1689,h:0,d0:0,d1:0;
                     ("x02_0410_lhd", Expression<StringId> @:6060 check:64287,op:11,dt:11,nt:9,next:6061,nextCheck:64288,str:15427,h:0,d0:8000,d1:3072;
                         (5f, Expression<Float> @:6061 check:64288,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:8877,h:1,d0:0,d1:16544;)))))))

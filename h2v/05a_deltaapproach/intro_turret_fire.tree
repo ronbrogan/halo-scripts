@@ -1,35 +1,35 @@
 
 ("intro_turret_fire", MethodDecl<Void> @:156 check:0,op:0,dt:0,nt:65535,next:5367,nextCheck:63594,str:12657,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:5367 check:63594,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:217,h:1,d0:5368,d1:63595;
+    (____, BuiltinInvocation<Void> @:5367 check:63594,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:217,h:1,d0:5368,d1:63595;
         ("begin", Expression<MethodOrOperator> @:5368 check:63595,op:0,dt:2,nt:9,next:5335,nextCheck:63562,str:54,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:5335 check:63562,op:46,dt:4,nt:8,next:5338,nextCheck:63565,str:255,h:1,d0:5336,d1:63563;
+            (____, BuiltinInvocation<Void> @:5335 check:63562,op:46,dt:4,nt:8,next:5338,nextCheck:63565,str:255,h:1,d0:5336,d1:63563;
                 ("object_create", Expression<MethodOrOperator> @:5336 check:63563,op:46,dt:2,nt:9,next:5337,nextCheck:63564,str:12311,h:0,d0:0,d1:0;
                     ("turret_handheld", Expression<EntityIdentifier> @:5337 check:63564,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:12325,h:0,d0:99,d1:65535;)))
-            (____, Scope<Void> @:5338 check:63565,op:74,dt:4,nt:8,next:5344,nextCheck:63571,str:289,h:1,d0:5339,d1:63566;
+            (____, BuiltinInvocation<Void> @:5338 check:63565,op:74,dt:4,nt:8,next:5344,nextCheck:63571,str:289,h:1,d0:5339,d1:63566;
                 ("objects_attach", Expression<MethodOrOperator> @:5339 check:63566,op:74,dt:2,nt:9,next:5340,nextCheck:63567,str:11047,h:0,d0:0,d1:0;
                     (4294901845, Expression<Entity> @:5340 check:63567,op:56,dt:50,nt:9,next:5341,nextCheck:63568,str:11315,h:0,d0:85,d1:65535;
                         ("primary_trigger", Expression<StringId> @:5341 check:63568,op:11,dt:11,nt:9,next:5342,nextCheck:63569,str:12341,h:0,d0:219,d1:3840;
                             (4294901859, Expression<Entity> @:5342 check:63569,op:56,dt:50,nt:9,next:5343,nextCheck:63570,str:12325,h:0,d0:99,d1:65535;
                                 (0, Expression<StringId> @:5343 check:63570,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:0,h:0,d0:0,d1:0;))))))
-            (____, Scope<Void> @:5344 check:63571,op:57,dt:4,nt:8,next:5348,nextCheck:63575,str:358,h:1,d0:5345,d1:63572;
+            (____, BuiltinInvocation<Void> @:5344 check:63571,op:57,dt:4,nt:8,next:5348,nextCheck:63575,str:358,h:1,d0:5345,d1:63572;
                 ("object_hide", Expression<MethodOrOperator> @:5345 check:63572,op:57,dt:2,nt:9,next:5346,nextCheck:63573,str:643,h:0,d0:0,d1:0;
                     (4294901859, Expression<Entity> @:5346 check:63573,op:56,dt:50,nt:9,next:5347,nextCheck:63574,str:12325,h:0,d0:99,d1:65535;
                         (True, Expression<Boolean> @:5347 check:63574,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:387,h:1,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:5348 check:63575,op:19,dt:4,nt:8,next:5351,nextCheck:63578,str:398,h:1,d0:5349,d1:63576;
+            (____, BuiltinInvocation<Void> @:5348 check:63575,op:19,dt:4,nt:8,next:5351,nextCheck:63578,str:398,h:1,d0:5349,d1:63576;
                 ("sleep", Expression<MethodOrOperator> @:5349 check:63576,op:19,dt:2,nt:9,next:5350,nextCheck:63577,str:133,h:0,d0:0,d1:0;
                     (131, Expression<Short> @:5350 check:63577,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:405,h:1,d0:131,d1:65535;)))
-            (____, Scope<Void> @:5351 check:63578,op:27,dt:4,nt:8,next:5354,nextCheck:63581,str:412,h:1,d0:5352,d1:63579;
+            (____, BuiltinInvocation<Void> @:5351 check:63578,op:27,dt:4,nt:8,next:5354,nextCheck:63581,str:412,h:1,d0:5352,d1:63579;
                 ("print", Expression<MethodOrOperator> @:5352 check:63579,op:27,dt:2,nt:9,next:5353,nextCheck:63580,str:139,h:0,d0:0,d1:0;
                     ("turret fire", Expression<String> @:5353 check:63580,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12357,h:0,d0:23733,d1:12768;)))
-            (____, Scope<Void> @:5354 check:63581,op:251,dt:4,nt:8,next:5359,nextCheck:63586,str:436,h:1,d0:5355,d1:63582;
+            (____, BuiltinInvocation<Void> @:5354 check:63581,op:251,dt:4,nt:8,next:5359,nextCheck:63586,str:436,h:1,d0:5355,d1:63582;
                 ("weapon_hold_trigger", Expression<MethodOrOperator> @:5355 check:63582,op:251,dt:2,nt:9,next:5356,nextCheck:63583,str:12369,h:0,d0:0,d1:0;
                     ("turret_handheld", Expression<WeaponReference> @:5356 check:63583,op:59,dt:53,nt:9,next:5357,nextCheck:63584,str:12325,h:0,d0:99,d1:65535;
                         (0, Expression<Int> @:5357 check:63584,op:8,dt:8,nt:9,next:5358,nextCheck:63585,str:473,h:1,d0:0,d1:0;
                             (True, Expression<Boolean> @:5358 check:63585,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:475,h:1,d0:65281,d1:65535;)))))
-            (____, Scope<Void> @:5359 check:63586,op:19,dt:4,nt:8,next:5362,nextCheck:63589,str:486,h:1,d0:5360,d1:63587;
+            (____, BuiltinInvocation<Void> @:5359 check:63586,op:19,dt:4,nt:8,next:5362,nextCheck:63589,str:486,h:1,d0:5360,d1:63587;
                 ("sleep", Expression<MethodOrOperator> @:5360 check:63587,op:19,dt:2,nt:9,next:5361,nextCheck:63588,str:133,h:0,d0:0,d1:0;
                     (150, Expression<Short> @:5361 check:63588,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:493,h:1,d0:150,d1:65535;)))
-            (____, Scope<Void> @:5362 check:63589,op:251,dt:4,nt:8,next:65535,nextCheck:65535,str:500,h:1,d0:5363,d1:63590;
+            (____, BuiltinInvocation<Void> @:5362 check:63589,op:251,dt:4,nt:8,next:65535,nextCheck:65535,str:500,h:1,d0:5363,d1:63590;
                 ("weapon_hold_trigger", Expression<MethodOrOperator> @:5363 check:63590,op:251,dt:2,nt:9,next:5364,nextCheck:63591,str:12369,h:0,d0:0,d1:0;
                     ("turret_handheld", Expression<WeaponReference> @:5364 check:63591,op:59,dt:53,nt:9,next:5365,nextCheck:63592,str:12325,h:0,d0:99,d1:65535;
                         (0, Expression<Int> @:5365 check:63592,op:8,dt:8,nt:9,next:5366,nextCheck:63593,str:537,h:1,d0:0,d1:0;

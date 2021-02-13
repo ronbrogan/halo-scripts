@@ -1,48 +1,48 @@
 
 ("c07_intro_04_setup", MethodDecl<Void> @:155 check:0,op:0,dt:0,nt:65535,next:5219,nextCheck:63446,str:12785,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:5219 check:63446,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:3733,h:1,d0:5220,d1:63447;
+    (____, BuiltinInvocation<Void> @:5219 check:63446,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:3733,h:1,d0:5220,d1:63447;
         ("begin", Expression<MethodOrOperator> @:5220 check:63447,op:0,dt:2,nt:9,next:5175,nextCheck:63402,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:5175 check:63402,op:48,dt:4,nt:8,next:5178,nextCheck:63405,str:3776,h:1,d0:5176,d1:63403;
+            (____, BuiltinInvocation<Void> @:5175 check:63402,op:48,dt:4,nt:8,next:5178,nextCheck:63405,str:3776,h:1,d0:5176,d1:63403;
                 ("object_create_anew", Expression<MethodOrOperator> @:5176 check:63403,op:48,dt:2,nt:9,next:5177,nextCheck:63404,str:2052,h:0,d0:0,d1:0;
                     ("teleport", Expression<EntityIdentifier> @:5177 check:63404,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:12574,h:0,d0:126,d1:65535;)))
-            (____, Scope<Void> @:5178 check:63405,op:48,dt:4,nt:8,next:5181,nextCheck:63408,str:3808,h:1,d0:5179,d1:63406;
+            (____, BuiltinInvocation<Void> @:5178 check:63405,op:48,dt:4,nt:8,next:5181,nextCheck:63408,str:3808,h:1,d0:5179,d1:63406;
                 ("object_create_anew", Expression<MethodOrOperator> @:5179 check:63406,op:48,dt:2,nt:9,next:5180,nextCheck:63407,str:2052,h:0,d0:0,d1:0;
                     ("chief_intro", Expression<EntityIdentifier> @:5180 check:63407,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:12597,h:0,d0:282,d1:65535;)))
-            (____, Scope<Void> @:5181 check:63408,op:92,dt:4,nt:8,next:5185,nextCheck:63412,str:3846,h:1,d0:5182,d1:63409;
+            (____, BuiltinInvocation<Void> @:5181 check:63408,op:92,dt:4,nt:8,next:5185,nextCheck:63412,str:3846,h:1,d0:5182,d1:63409;
                 ("object_cinematic_lod", Expression<MethodOrOperator> @:5182 check:63409,op:92,dt:2,nt:9,next:5183,nextCheck:63410,str:2071,h:0,d0:0,d1:0;
                     (4294902042, Expression<Entity> @:5183 check:63410,op:56,dt:50,nt:9,next:5184,nextCheck:63411,str:12597,h:0,d0:282,d1:65535;
                         (True, Expression<Boolean> @:5184 check:63411,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:3880,h:1,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:5185 check:63412,op:95,dt:4,nt:8,next:5189,nextCheck:63416,str:3891,h:1,d0:5186,d1:63413;
+            (____, BuiltinInvocation<Void> @:5185 check:63412,op:95,dt:4,nt:8,next:5189,nextCheck:63416,str:3891,h:1,d0:5186,d1:63413;
                 ("object_uses_cinematic_lighting", Expression<MethodOrOperator> @:5186 check:63413,op:95,dt:2,nt:9,next:5187,nextCheck:63414,str:1927,h:0,d0:0,d1:0;
                     (4294902042, Expression<Entity> @:5187 check:63414,op:56,dt:50,nt:9,next:5188,nextCheck:63415,str:12597,h:0,d0:282,d1:65535;
                         (True, Expression<Boolean> @:5188 check:63415,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:3935,h:1,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:5189 check:63416,op:146,dt:4,nt:8,next:5195,nextCheck:63422,str:3940,h:1,d0:5190,d1:63417;
+            (____, BuiltinInvocation<Void> @:5189 check:63416,op:146,dt:4,nt:8,next:5195,nextCheck:63422,str:3940,h:1,d0:5190,d1:63417;
                 ("render_lights_enable_cinematic_shadow", Expression<MethodOrOperator> @:5190 check:63417,op:146,dt:2,nt:9,next:5191,nextCheck:63418,str:2009,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:5191 check:63418,op:5,dt:5,nt:9,next:5192,nextCheck:63419,str:3979,h:1,d0:65281,d1:65535;
                         (4294902042, Expression<Entity> @:5192 check:63419,op:56,dt:50,nt:9,next:5193,nextCheck:63420,str:12597,h:0,d0:282,d1:65535;
                             ("head", Expression<StringId> @:5193 check:63420,op:11,dt:11,nt:9,next:5194,nextCheck:63421,str:2047,h:0,d0:149,d1:1024;
                                 (0.4f, Expression<Float> @:5194 check:63421,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:3998,h:1,d0:52429,d1:16076;))))))
-            (____, Scope<Void> @:5195 check:63422,op:22,dt:4,nt:8,next:5198,nextCheck:63425,str:4007,h:1,d0:5196,d1:63423;
+            (____, BuiltinInvocation<Void> @:5195 check:63422,op:22,dt:4,nt:8,next:5198,nextCheck:63425,str:4007,h:1,d0:5196,d1:63423;
                 ("wake", Expression<MethodOrOperator> @:5196 check:63423,op:22,dt:2,nt:9,next:5197,nextCheck:63424,str:1146,h:0,d0:0,d1:0;
                     ("c07_intro_foley_04", Expression<ScriptReference> @:5197 check:63424,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:12703,h:0,d0:147,d1:65535;)))
-            (____, Scope<Void> @:5198 check:63425,op:22,dt:4,nt:8,next:5201,nextCheck:63428,str:4037,h:1,d0:5199,d1:63426;
+            (____, BuiltinInvocation<Void> @:5198 check:63425,op:22,dt:4,nt:8,next:5201,nextCheck:63428,str:4037,h:1,d0:5199,d1:63426;
                 ("wake", Expression<MethodOrOperator> @:5199 check:63426,op:22,dt:2,nt:9,next:5200,nextCheck:63427,str:1146,h:0,d0:0,d1:0;
                     ("c07_1050_pot", Expression<ScriptReference> @:5200 check:63427,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:12212,h:0,d0:148,d1:65535;)))
-            (____, Scope<Void> @:5201 check:63428,op:22,dt:4,nt:8,next:5204,nextCheck:63431,str:4059,h:1,d0:5202,d1:63429;
+            (____, BuiltinInvocation<Void> @:5201 check:63428,op:22,dt:4,nt:8,next:5204,nextCheck:63431,str:4059,h:1,d0:5202,d1:63429;
                 ("wake", Expression<MethodOrOperator> @:5202 check:63429,op:22,dt:2,nt:9,next:5203,nextCheck:63430,str:1146,h:0,d0:0,d1:0;
                     ("c07_1060_mas", Expression<ScriptReference> @:5203 check:63430,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:12303,h:0,d0:149,d1:65535;)))
-            (____, Scope<Void> @:5204 check:63431,op:22,dt:4,nt:8,next:5207,nextCheck:63434,str:4081,h:1,d0:5205,d1:63432;
+            (____, BuiltinInvocation<Void> @:5204 check:63431,op:22,dt:4,nt:8,next:5207,nextCheck:63434,str:4081,h:1,d0:5205,d1:63432;
                 ("wake", Expression<MethodOrOperator> @:5205 check:63432,op:22,dt:2,nt:9,next:5206,nextCheck:63433,str:1146,h:0,d0:0,d1:0;
                     ("c07_1070_crz", Expression<ScriptReference> @:5206 check:63433,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:12374,h:0,d0:150,d1:65535;)))
-            (____, Scope<Void> @:5207 check:63434,op:22,dt:4,nt:8,next:5210,nextCheck:63437,str:4103,h:1,d0:5208,d1:63435;
+            (____, BuiltinInvocation<Void> @:5207 check:63434,op:22,dt:4,nt:8,next:5210,nextCheck:63437,str:4103,h:1,d0:5208,d1:63435;
                 ("wake", Expression<MethodOrOperator> @:5208 check:63435,op:22,dt:2,nt:9,next:5209,nextCheck:63436,str:1146,h:0,d0:0,d1:0;
                     ("c07_1080_pot", Expression<ScriptReference> @:5209 check:63436,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:12475,h:0,d0:151,d1:65535;)))
-            (____, Scope<Void> @:5210 check:63437,op:22,dt:4,nt:8,next:5213,nextCheck:63440,str:4128,h:1,d0:5211,d1:63438;
+            (____, BuiltinInvocation<Void> @:5210 check:63437,op:22,dt:4,nt:8,next:5213,nextCheck:63440,str:4128,h:1,d0:5211,d1:63438;
                 ("wake", Expression<MethodOrOperator> @:5211 check:63438,op:22,dt:2,nt:9,next:5212,nextCheck:63439,str:1146,h:0,d0:0,d1:0;
                     ("intro_chief_arrival", Expression<ScriptReference> @:5212 check:63439,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:12722,h:0,d0:153,d1:65535;)))
-            (____, Scope<Void> @:5213 check:63440,op:22,dt:4,nt:8,next:5216,nextCheck:63443,str:4157,h:1,d0:5214,d1:63441;
+            (____, BuiltinInvocation<Void> @:5213 check:63440,op:22,dt:4,nt:8,next:5216,nextCheck:63443,str:4157,h:1,d0:5214,d1:63441;
                 ("wake", Expression<MethodOrOperator> @:5214 check:63441,op:22,dt:2,nt:9,next:5215,nextCheck:63442,str:1146,h:0,d0:0,d1:0;
                     ("needler_attach", Expression<ScriptReference> @:5215 check:63442,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:12742,h:0,d0:154,d1:65535;)))
-            (____, Scope<Void> @:5216 check:63443,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:4184,h:1,d0:5217,d1:63444;
+            (____, BuiltinInvocation<Void> @:5216 check:63443,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:4184,h:1,d0:5217,d1:63444;
                 ("wake", Expression<MethodOrOperator> @:5217 check:63444,op:22,dt:2,nt:9,next:5218,nextCheck:63445,str:1146,h:0,d0:0,d1:0;
                     ("effect_chief_teleport", Expression<ScriptReference> @:5218 check:63445,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:12757,h:0,d0:152,d1:65535;))))))

@@ -1,25 +1,25 @@
 
 ("save_bay2_fnl", MethodDecl<Void> @:313 check:0,op:0,dt:0,nt:65535,next:12004,nextCheck:37464,str:36537,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:12004 check:37464,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:14131,h:2,d0:12005,d1:37465;
+    (____, BuiltinInvocation<Void> @:12004 check:37464,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:14131,h:2,d0:12005,d1:37465;
         ("begin", Expression<MethodOrOperator> @:12005 check:37465,op:0,dt:2,nt:9,next:11983,nextCheck:37443,str:11,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:11983 check:37443,op:21,dt:4,nt:8,next:11992,nextCheck:37452,str:14163,h:2,d0:11984,d1:37444;
+            (____, BuiltinInvocation<Void> @:11983 check:37443,op:21,dt:4,nt:8,next:11992,nextCheck:37452,str:14163,h:2,d0:11984,d1:37444;
                 ("sleep_until", Expression<MethodOrOperator> @:11984 check:37444,op:21,dt:2,nt:9,next:11985,nextCheck:37445,str:241,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:11985 check:37445,op:13,dt:5,nt:8,next:11991,nextCheck:37451,str:14176,h:2,d0:11986,d1:37446;
+                    (____, BuiltinInvocation<Boolean> @:11985 check:37445,op:13,dt:5,nt:8,next:11991,nextCheck:37451,str:14176,h:2,d0:11986,d1:37446;
                         ("=", Expression<MethodOrOperator> @:11986 check:37446,op:13,dt:2,nt:9,next:11987,nextCheck:37447,str:306,h:0,d0:0,d1:0;
-                            (____, Scope<Short> @:11987 check:37447,op:327,dt:7,nt:8,next:11990,nextCheck:37450,str:14179,h:2,d0:11988,d1:37448;
+                            (____, BuiltinInvocation<Short> @:11987 check:37447,op:327,dt:7,nt:8,next:11990,nextCheck:37450,str:14179,h:2,d0:11988,d1:37448;
                                 ("ai_living_count", Expression<MethodOrOperator> @:11988 check:37448,op:327,dt:2,nt:9,next:11989,nextCheck:37449,str:27755,h:0,d0:0,d1:0;
                                     ("bay2_cov_fnl", Expression<AI> @:11989 check:37449,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:27771,h:0,d0:33,d1:16384;)))
                             (0, Expression<Short> @:11990 check:37450,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:14210,h:2,d0:0,d1:65535;)))
                     (1, Expression<Short> @:11991 check:37451,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:14213,h:2,d0:1,d1:65535;)))
-            (____, Scope<Void> @:11992 check:37452,op:587,dt:4,nt:8,next:11994,nextCheck:37454,str:14218,h:2,d0:11993,d1:37453;
+            (____, BuiltinInvocation<Void> @:11992 check:37452,op:587,dt:4,nt:8,next:11994,nextCheck:37454,str:14218,h:2,d0:11993,d1:37453;
                 ("game_save", Expression<MethodOrOperator> @:11993 check:37453,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:27552,h:0,d0:0,d1:0;))
-            (____, Scope<Void> @:11994 check:37454,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:14232,h:2,d0:11995,d1:37455;
+            (____, BuiltinInvocation<Void> @:11994 check:37454,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:14232,h:2,d0:11995,d1:37455;
                 ("set", Expression<MethodOrOperator> @:11995 check:37455,op:4,dt:2,nt:9,next:11996,nextCheck:37456,str:3320,h:0,d0:0,d1:0;
                     ("timer_flavor", VariableAccess<Short> @:11996 check:37456,op:65535,dt:7,nt:13,next:11997,nextCheck:37457,str:27576,h:0,d0:22,d1:0;
-                        (____, Scope<Short> @:11997 check:37457,op:12,dt:7,nt:8,next:65535,nextCheck:65535,str:14250,h:2,d0:11998,d1:37458;
+                        (____, BuiltinInvocation<Short> @:11997 check:37457,op:12,dt:7,nt:8,next:65535,nextCheck:65535,str:14250,h:2,d0:11998,d1:37458;
                             ("max", Expression<MethodOrOperator> @:11998 check:37458,op:12,dt:2,nt:9,next:11999,nextCheck:37459,str:27589,h:0,d0:0,d1:0;
                                 ("timer_flavor", VariableAccess<Float> @:11999 check:37459,op:6,dt:6,nt:13,next:12000,nextCheck:37460,str:27576,h:0,d0:22,d1:0;
-                                    (-6.726873E-28f, Scope<Float> @:12000 check:37460,op:9,dt:6,nt:8,next:65535,nextCheck:65535,str:14268,h:2,d0:12001,d1:37461;
+                                    (-6.726873E-28f, BuiltinInvocation<Float> @:12000 check:37460,op:9,dt:6,nt:8,next:65535,nextCheck:65535,str:14268,h:2,d0:12001,d1:37461;
                                         ("*", Expression<MethodOrOperator> @:12001 check:37461,op:9,dt:2,nt:9,next:12002,nextCheck:37462,str:1,h:0,d0:0,d1:0;
                                             (10f, Expression<Float> @:12002 check:37462,op:6,dt:6,nt:9,next:12003,nextCheck:37463,str:14271,h:2,d0:0,d1:16672;
                                                 ("seconds", VariableAccess<Float> @:12003 check:37463,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:3,h:0,d0:18,d1:0;)))))))))))))

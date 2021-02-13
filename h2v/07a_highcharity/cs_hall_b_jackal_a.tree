@@ -1,43 +1,43 @@
 
 ("cs_hall_b_jackal_a", MethodDecl<Void> @:315 check:0,op:0,dt:0,nt:65535,next:14836,nextCheck:40296,str:65535,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:14836 check:40296,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:43945,h:2,d0:14837,d1:40297;
+    (____, BuiltinInvocation<Void> @:14836 check:40296,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:43945,h:2,d0:14837,d1:40297;
         ("begin", Expression<MethodOrOperator> @:14837 check:40297,op:0,dt:2,nt:9,next:14797,nextCheck:40257,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:14797 check:40257,op:441,dt:4,nt:8,next:14800,nextCheck:40260,str:43989,h:2,d0:14798,d1:40258;
+            (____, BuiltinInvocation<Void> @:14797 check:40257,op:441,dt:4,nt:8,next:14800,nextCheck:40260,str:43989,h:2,d0:14798,d1:40258;
                 ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:14798 check:40258,op:441,dt:2,nt:9,next:14799,nextCheck:40259,str:31162,h:0,d0:0,d1:0;
                     ("ai_combat_status_clear_los", VariableAccess<Short> @:14799 check:40259,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:31188,h:0,d0:33579,d1:65535;)))
-            (____, Scope<Void> @:14800 check:40260,op:443,dt:4,nt:8,next:14803,nextCheck:40263,str:44046,h:2,d0:14801,d1:40261;
+            (____, BuiltinInvocation<Void> @:14800 check:40260,op:443,dt:4,nt:8,next:14803,nextCheck:40263,str:44046,h:2,d0:14801,d1:40261;
                 ("cs_enable_looking", Expression<MethodOrOperator> @:14801 check:40261,op:443,dt:2,nt:9,next:14802,nextCheck:40262,str:32111,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:14802 check:40262,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:44065,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:14803 check:40263,op:449,dt:4,nt:8,next:14806,nextCheck:40266,str:44073,h:2,d0:14804,d1:40264;
+            (____, BuiltinInvocation<Void> @:14803 check:40263,op:449,dt:4,nt:8,next:14806,nextCheck:40266,str:44073,h:2,d0:14804,d1:40264;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:14804 check:40264,op:449,dt:2,nt:9,next:14805,nextCheck:40265,str:1066,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:14805 check:40265,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:44105,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:14806 check:40266,op:386,dt:4,nt:8,next:14810,nextCheck:40270,str:44113,h:2,d0:14807,d1:40267;
+            (____, BuiltinInvocation<Void> @:14806 check:40266,op:386,dt:4,nt:8,next:14810,nextCheck:40270,str:44113,h:2,d0:14807,d1:40267;
                 ("cs_go_to", Expression<MethodOrOperator> @:14807 check:40267,op:386,dt:2,nt:9,next:14808,nextCheck:40268,str:23538,h:0,d0:0,d1:0;
                     ("hall_b/jackal_p0", Expression<SpatialPoint> @:14808 check:40268,op:28,dt:28,nt:9,next:14809,nextCheck:40269,str:32501,h:0,d0:0,d1:4;
                         (1f, Expression<Float> @:14809 check:40269,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:44140,h:2,d0:0,d1:16256;))))
-            (____, Scope<Void> @:14810 check:40270,op:393,dt:4,nt:8,next:14814,nextCheck:40274,str:44145,h:2,d0:14811,d1:40271;
+            (____, BuiltinInvocation<Void> @:14810 check:40270,op:393,dt:4,nt:8,next:14814,nextCheck:40274,str:44145,h:2,d0:14811,d1:40271;
                 ("cs_look", Expression<MethodOrOperator> @:14811 check:40271,op:393,dt:2,nt:9,next:14812,nextCheck:40272,str:32153,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:14812 check:40272,op:5,dt:5,nt:9,next:14813,nextCheck:40273,str:44154,h:2,d0:65281,d1:65535;
                         ("hall_a/look_p0", Expression<SpatialPoint> @:14813 check:40273,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:32161,h:0,d0:1,d1:3;))))
-            (____, Scope<Void> @:14814 check:40274,op:21,dt:4,nt:8,next:14832,nextCheck:40292,str:44177,h:2,d0:14815,d1:40275;
+            (____, BuiltinInvocation<Void> @:14814 check:40274,op:21,dt:4,nt:8,next:14832,nextCheck:40292,str:44177,h:2,d0:14815,d1:40275;
                 ("sleep_until", Expression<MethodOrOperator> @:14815 check:40275,op:21,dt:2,nt:9,next:14816,nextCheck:40276,str:231,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14816 check:40276,op:5,dt:5,nt:8,next:14831,nextCheck:40291,str:44190,h:2,d0:14817,d1:40277;
+                    (____, BuiltinInvocation<Boolean> @:14816 check:40276,op:5,dt:5,nt:8,next:14831,nextCheck:40291,str:44190,h:2,d0:14817,d1:40277;
                         ("and", Expression<MethodOrOperator> @:14817 check:40277,op:5,dt:2,nt:9,next:14818,nextCheck:40278,str:667,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:14818 check:40278,op:25,dt:5,nt:8,next:14825,nextCheck:40285,str:44195,h:2,d0:14819,d1:40279;
+                            (____, BuiltinInvocation<Boolean> @:14818 check:40278,op:25,dt:5,nt:8,next:14825,nextCheck:40285,str:44195,h:2,d0:14819,d1:40279;
                                 ("not", Expression<MethodOrOperator> @:14819 check:40279,op:25,dt:2,nt:9,next:14820,nextCheck:40280,str:397,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14820 check:40280,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:44200,h:2,d0:14821,d1:40281;
+                                    (____, BuiltinInvocation<Boolean> @:14820 check:40280,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:44200,h:2,d0:14821,d1:40281;
                                         ("volume_test_objects", Expression<MethodOrOperator> @:14821 check:40281,op:33,dt:2,nt:9,next:14822,nextCheck:40282,str:17285,h:0,d0:0,d1:0;
                                             ("tv_hall_b_jackal", Expression<Trigger> @:14822 check:40282,op:13,dt:13,nt:9,next:14823,nextCheck:40283,str:32518,h:0,d0:82,d1:0;
-                                                (____, Scope<List> @:14823 check:40283,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:44238,h:2,d0:14824,d1:40284;
+                                                (____, BuiltinInvocation<List> @:14823 check:40283,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:44238,h:2,d0:14824,d1:40284;
                                                     ("players", Expression<MethodOrOperator> @:14824 check:40284,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:21,h:0,d0:0,d1:0;)))))))
-                            (____, Scope<Boolean> @:14825 check:40285,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:44250,h:2,d0:14826,d1:40286;
+                            (____, BuiltinInvocation<Boolean> @:14825 check:40285,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:44250,h:2,d0:14826,d1:40286;
                                 ("<=", Expression<MethodOrOperator> @:14826 check:40286,op:18,dt:2,nt:9,next:14827,nextCheck:40287,str:21049,h:0,d0:0,d1:0;
-                                    (-2.9676098E-21f, Scope<Float> @:14827 check:40287,op:257,dt:6,nt:8,next:14830,nextCheck:40290,str:44254,h:2,d0:14828,d1:40288;
+                                    (-2.9676098E-21f, BuiltinInvocation<Float> @:14827 check:40287,op:257,dt:6,nt:8,next:14830,nextCheck:40290,str:44254,h:2,d0:14828,d1:40288;
                                         ("device_get_position", Expression<MethodOrOperator> @:14828 check:40288,op:257,dt:2,nt:9,next:14829,nextCheck:40289,str:16936,h:0,d0:0,d1:0;
                                             ("hall_b_jackal_door", Expression<Device> @:14829 check:40289,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:32535,h:0,d0:365,d1:65535;)))
                                     (0f, Expression<Float> @:14830 check:40290,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:44295,h:2,d0:0,d1:0;)))))
                     (5, Expression<Short> @:14831 check:40291,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:44299,h:2,d0:5,d1:65535;)))
-            (____, Scope<Void> @:14832 check:40292,op:262,dt:4,nt:8,next:65535,nextCheck:65535,str:44304,h:2,d0:14833,d1:40293;
+            (____, BuiltinInvocation<Void> @:14832 check:40292,op:262,dt:4,nt:8,next:65535,nextCheck:65535,str:44304,h:2,d0:14833,d1:40293;
                 ("device_one_sided_set", Expression<MethodOrOperator> @:14833 check:40293,op:262,dt:2,nt:9,next:14834,nextCheck:40294,str:20711,h:0,d0:0,d1:0;
                     ("hall_b_jackal_door", Expression<Device> @:14834 check:40294,op:60,dt:54,nt:9,next:14835,nextCheck:40295,str:32535,h:0,d0:365,d1:65535;
                         (True, Expression<Boolean> @:14835 check:40295,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:44345,h:2,d0:65281,d1:65535;)))))))

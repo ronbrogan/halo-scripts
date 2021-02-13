@@ -1,23 +1,23 @@
 
 ("silo_killer", MethodDecl<Void> @:175 check:0,op:0,dt:0,nt:65535,next:6148,nextCheck:64375,str:16930,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:6148 check:64375,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:6450,h:1,d0:6149,d1:64376;
+    (____, BuiltinInvocation<Void> @:6148 check:64375,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:6450,h:1,d0:6149,d1:64376;
         ("begin", Expression<MethodOrOperator> @:6149 check:64376,op:0,dt:2,nt:9,next:6129,nextCheck:64356,str:210,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:6129 check:64356,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:6480,h:1,d0:6130,d1:64357;
+            (____, BuiltinInvocation<Void> @:6129 check:64356,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:6480,h:1,d0:6130,d1:64357;
                 ("sleep_until", Expression<MethodOrOperator> @:6130 check:64357,op:21,dt:2,nt:9,next:6131,nextCheck:64358,str:440,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:6131 check:64358,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:6496,h:1,d0:6132,d1:64359;
+                    (____, BuiltinInvocation<Boolean> @:6131 check:64358,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:6496,h:1,d0:6132,d1:64359;
                         ("begin", Expression<MethodOrOperator> @:6132 check:64359,op:0,dt:2,nt:9,next:6133,nextCheck:64360,str:210,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:6133 check:64360,op:52,dt:4,nt:8,next:6141,nextCheck:64368,str:6507,h:1,d0:6134,d1:64361;
+                            (____, BuiltinInvocation<Void> @:6133 check:64360,op:52,dt:4,nt:8,next:6141,nextCheck:64368,str:6507,h:1,d0:6134,d1:64361;
                                 ("object_destroy", Expression<MethodOrOperator> @:6134 check:64361,op:52,dt:2,nt:9,next:6135,nextCheck:64362,str:4282,h:0,d0:0,d1:0;
-                                    (____, Scope<Entity> @:6135 check:64362,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:6523,h:1,d0:6136,d1:64363;
+                                    (____, BuiltinInvocation<Entity> @:6135 check:64362,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:6523,h:1,d0:6136,d1:64363;
                                         ("list_get", Expression<MethodOrOperator> @:6136 check:64363,op:37,dt:2,nt:9,next:6137,nextCheck:64364,str:221,h:0,d0:0,d1:0;
-                                            (____, Scope<List> @:6137 check:64364,op:35,dt:31,nt:8,next:6140,nextCheck:64367,str:6533,h:1,d0:6138,d1:64365;
+                                            (____, BuiltinInvocation<List> @:6137 check:64364,op:35,dt:31,nt:8,next:6140,nextCheck:64367,str:6533,h:1,d0:6138,d1:64365;
                                                 ("volume_return_objects", Expression<MethodOrOperator> @:6138 check:64365,op:35,dt:2,nt:9,next:6139,nextCheck:64366,str:15052,h:0,d0:0,d1:0;
                                                     ("kill_silo_pit", Expression<Trigger> @:6139 check:64366,op:13,dt:13,nt:9,next:65535,nextCheck:65535,str:11035,h:0,d0:103,d1:0;)))
                                             (0, Expression<Short> @:6140 check:64367,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:6571,h:1,d0:0,d1:65535;)))))
-                            (____, Scope<Void> @:6141 check:64368,op:19,dt:4,nt:8,next:6144,nextCheck:64371,str:6579,h:1,d0:6142,d1:64369;
+                            (____, BuiltinInvocation<Void> @:6141 check:64368,op:19,dt:4,nt:8,next:6144,nextCheck:64371,str:6579,h:1,d0:6142,d1:64369;
                                 ("sleep", Expression<MethodOrOperator> @:6142 check:64369,op:19,dt:2,nt:9,next:6143,nextCheck:64370,str:289,h:0,d0:0,d1:0;
                                     (15, Expression<Short> @:6143 check:64370,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:6586,h:1,d0:15,d1:65535;)))
-                            (____, Scope<Boolean> @:6144 check:64371,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:6594,h:1,d0:6145,d1:64372;
+                            (____, BuiltinInvocation<Boolean> @:6144 check:64371,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:6594,h:1,d0:6145,d1:64372;
                                 ("=", Expression<MethodOrOperator> @:6145 check:64372,op:13,dt:2,nt:9,next:6146,nextCheck:64373,str:505,h:0,d0:0,d1:0;
                                     ("silo_killer_power", VariableAccess<Boolean> @:6146 check:64373,op:0,dt:5,nt:13,next:6147,nextCheck:64374,str:15074,h:0,d0:17,d1:0;
                                         (False, Expression<Boolean> @:6147 check:64374,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:6615,h:1,d0:65280,d1:65535;)))))))))))

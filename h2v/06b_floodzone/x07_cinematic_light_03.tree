@@ -1,39 +1,39 @@
 
 ("x07_cinematic_light_03", MethodDecl<Void> @:93 check:0,op:0,dt:0,nt:65535,next:2834,nextCheck:61061,str:7883,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:2834 check:61061,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:34392,h:0,d0:2835,d1:61062;
+    (____, BuiltinInvocation<Void> @:2834 check:61061,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:34392,h:0,d0:2835,d1:61062;
         ("begin", Expression<MethodOrOperator> @:2835 check:61062,op:0,dt:2,nt:9,next:2799,nextCheck:61026,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:2799 check:61026,op:96,dt:4,nt:8,next:2806,nextCheck:61033,str:34435,h:0,d0:2800,d1:61027;
+            (____, BuiltinInvocation<Void> @:2799 check:61026,op:96,dt:4,nt:8,next:2806,nextCheck:61033,str:34435,h:0,d0:2800,d1:61027;
                 ("cinematic_lighting_set_primary_light", Expression<MethodOrOperator> @:2800 check:61027,op:96,dt:2,nt:9,next:2801,nextCheck:61028,str:2048,h:0,d0:0,d1:0;
                     (16f, Expression<Float> @:2801 check:61028,op:6,dt:6,nt:9,next:2802,nextCheck:61029,str:34473,h:0,d0:0,d1:16768;
                         (82f, Expression<Float> @:2802 check:61029,op:6,dt:6,nt:9,next:2803,nextCheck:61030,str:34476,h:0,d0:0,d1:17060;
                             (0.25f, Expression<Float> @:2803 check:61030,op:6,dt:6,nt:9,next:2804,nextCheck:61031,str:34479,h:0,d0:0,d1:16000;
                                 (0.32f, Expression<Float> @:2804 check:61031,op:6,dt:6,nt:9,next:2805,nextCheck:61032,str:34484,h:0,d0:55050,d1:16035;
                                     (0.32f, Expression<Float> @:2805 check:61032,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:34489,h:0,d0:55050,d1:16035;)))))))
-            (____, Scope<Void> @:2806 check:61033,op:97,dt:4,nt:8,next:2813,nextCheck:61040,str:34497,h:0,d0:2807,d1:61034;
+            (____, BuiltinInvocation<Void> @:2806 check:61033,op:97,dt:4,nt:8,next:2813,nextCheck:61040,str:34497,h:0,d0:2807,d1:61034;
                 ("cinematic_lighting_set_secondary_light", Expression<MethodOrOperator> @:2807 check:61034,op:97,dt:2,nt:9,next:2808,nextCheck:61035,str:2085,h:0,d0:0,d1:0;
                     (24f, Expression<Float> @:2808 check:61035,op:6,dt:6,nt:9,next:2809,nextCheck:61036,str:34537,h:0,d0:0,d1:16832;
                         (272f, Expression<Float> @:2809 check:61036,op:6,dt:6,nt:9,next:2810,nextCheck:61037,str:34540,h:0,d0:0,d1:17288;
                             (0.22f, Expression<Float> @:2810 check:61037,op:6,dt:6,nt:9,next:2811,nextCheck:61038,str:34544,h:0,d0:18350,d1:15969;
                                 (0.26f, Expression<Float> @:2811 check:61038,op:6,dt:6,nt:9,next:2812,nextCheck:61039,str:34549,h:0,d0:7864,d1:16005;
                                     (0.28f, Expression<Float> @:2812 check:61039,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:34554,h:0,d0:23593,d1:16015;)))))))
-            (____, Scope<Void> @:2813 check:61040,op:98,dt:4,nt:8,next:2818,nextCheck:61045,str:34562,h:0,d0:2814,d1:61041;
+            (____, BuiltinInvocation<Void> @:2813 check:61040,op:98,dt:4,nt:8,next:2818,nextCheck:61045,str:34562,h:0,d0:2814,d1:61041;
                 ("cinematic_lighting_set_ambient_light", Expression<MethodOrOperator> @:2814 check:61041,op:98,dt:2,nt:9,next:2815,nextCheck:61042,str:2124,h:0,d0:0,d1:0;
                     (0.02f, Expression<Float> @:2815 check:61042,op:6,dt:6,nt:9,next:2816,nextCheck:61043,str:34600,h:0,d0:55050,d1:15523;
                         (0.02f, Expression<Float> @:2816 check:61043,op:6,dt:6,nt:9,next:2817,nextCheck:61044,str:34605,h:0,d0:55050,d1:15523;
                             (0.02f, Expression<Float> @:2817 check:61044,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:34610,h:0,d0:55050,d1:15523;)))))
-            (____, Scope<Void> @:2818 check:61045,op:95,dt:4,nt:8,next:2822,nextCheck:61049,str:34686,h:0,d0:2819,d1:61046;
+            (____, BuiltinInvocation<Void> @:2818 check:61045,op:95,dt:4,nt:8,next:2822,nextCheck:61049,str:34686,h:0,d0:2819,d1:61046;
                 ("object_uses_cinematic_lighting", Expression<MethodOrOperator> @:2819 check:61046,op:95,dt:2,nt:9,next:2820,nextCheck:61047,str:2161,h:0,d0:0,d1:0;
                     (4294901787, Expression<Entity> @:2820 check:61047,op:56,dt:50,nt:9,next:2821,nextCheck:61048,str:3430,h:0,d0:27,d1:65535;
                         (True, Expression<Boolean> @:2821 check:61048,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:34726,h:0,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:2822 check:61049,op:95,dt:4,nt:8,next:2826,nextCheck:61053,str:34731,h:0,d0:2823,d1:61050;
+            (____, BuiltinInvocation<Void> @:2822 check:61049,op:95,dt:4,nt:8,next:2826,nextCheck:61053,str:34731,h:0,d0:2823,d1:61050;
                 ("object_uses_cinematic_lighting", Expression<MethodOrOperator> @:2823 check:61050,op:95,dt:2,nt:9,next:2824,nextCheck:61051,str:2161,h:0,d0:0,d1:0;
                     (4294901783, Expression<Entity> @:2824 check:61051,op:56,dt:50,nt:9,next:2825,nextCheck:61052,str:7641,h:0,d0:23,d1:65535;
                         (True, Expression<Boolean> @:2825 check:61052,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:34778,h:0,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:2826 check:61053,op:95,dt:4,nt:8,next:2830,nextCheck:61057,str:34783,h:0,d0:2827,d1:61054;
+            (____, BuiltinInvocation<Void> @:2826 check:61053,op:95,dt:4,nt:8,next:2830,nextCheck:61057,str:34783,h:0,d0:2827,d1:61054;
                 ("object_uses_cinematic_lighting", Expression<MethodOrOperator> @:2827 check:61054,op:95,dt:2,nt:9,next:2828,nextCheck:61055,str:2161,h:0,d0:0,d1:0;
                     (4294901784, Expression<Entity> @:2828 check:61055,op:56,dt:50,nt:9,next:2829,nextCheck:61056,str:7656,h:0,d0:24,d1:65535;
                         (True, Expression<Boolean> @:2829 check:61056,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:34830,h:0,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:2830 check:61057,op:95,dt:4,nt:8,next:65535,nextCheck:65535,str:34835,h:0,d0:2831,d1:61058;
+            (____, BuiltinInvocation<Void> @:2830 check:61057,op:95,dt:4,nt:8,next:65535,nextCheck:65535,str:34835,h:0,d0:2831,d1:61058;
                 ("object_uses_cinematic_lighting", Expression<MethodOrOperator> @:2831 check:61058,op:95,dt:2,nt:9,next:2832,nextCheck:61059,str:2161,h:0,d0:0,d1:0;
                     (4294901760, Expression<Entity> @:2832 check:61059,op:56,dt:50,nt:9,next:2833,nextCheck:61060,str:7571,h:0,d0:0,d1:65535;
                         (True, Expression<Boolean> @:2833 check:61060,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:34881,h:0,d0:65281,d1:65535;)))))))

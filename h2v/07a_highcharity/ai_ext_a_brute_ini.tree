@@ -1,19 +1,19 @@
 
 ("ai_ext_a_brute_ini", MethodDecl<Void> @:374 check:0,op:0,dt:0,nt:65535,next:18517,nextCheck:43977,str:41776,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:18517 check:43977,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9436,h:3,d0:18518,d1:43978;
+    (____, BuiltinInvocation<Void> @:18517 check:43977,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9436,h:3,d0:18518,d1:43978;
         ("begin", Expression<MethodOrOperator> @:18518 check:43978,op:0,dt:2,nt:9,next:18502,nextCheck:43962,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:18502 check:43962,op:290,dt:4,nt:8,next:18505,nextCheck:43965,str:9473,h:3,d0:18503,d1:43963;
+            (____, BuiltinInvocation<Void> @:18502 check:43962,op:290,dt:4,nt:8,next:18505,nextCheck:43965,str:9473,h:3,d0:18503,d1:43963;
                 ("ai_place", Expression<MethodOrOperator> @:18503 check:43963,op:290,dt:2,nt:9,next:18504,nextCheck:43964,str:14760,h:0,d0:0,d1:0;
                     ("ext_a_brute_ini", Expression<AI> @:18504 check:43964,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36794,h:0,d0:149,d1:0;)))
-            (____, Scope<Void> @:18505 check:43965,op:21,dt:4,nt:8,next:18513,nextCheck:43973,str:9504,h:3,d0:18506,d1:43966;
+            (____, BuiltinInvocation<Void> @:18505 check:43965,op:21,dt:4,nt:8,next:18513,nextCheck:43973,str:9504,h:3,d0:18506,d1:43966;
                 ("sleep_until", Expression<MethodOrOperator> @:18506 check:43966,op:21,dt:2,nt:9,next:18507,nextCheck:43967,str:231,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:18507 check:43967,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:9517,h:3,d0:18508,d1:43968;
+                    (____, BuiltinInvocation<Boolean> @:18507 check:43967,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:9517,h:3,d0:18508,d1:43968;
                         ("<=", Expression<MethodOrOperator> @:18508 check:43968,op:18,dt:2,nt:9,next:18509,nextCheck:43969,str:21049,h:0,d0:0,d1:0;
-                            (____, Scope<Short> @:18509 check:43969,op:327,dt:7,nt:8,next:18512,nextCheck:43972,str:9521,h:3,d0:18510,d1:43970;
+                            (____, BuiltinInvocation<Short> @:18509 check:43969,op:327,dt:7,nt:8,next:18512,nextCheck:43972,str:9521,h:3,d0:18510,d1:43970;
                                 ("ai_living_count", Expression<MethodOrOperator> @:18510 check:43970,op:327,dt:2,nt:9,next:18511,nextCheck:43971,str:19308,h:0,d0:0,d1:0;
                                     ("ext_a_elite_ini", Expression<AI> @:18511 check:43971,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36778,h:0,d0:148,d1:0;)))
                             (0, Expression<Short> @:18512 check:43972,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:9555,h:3,d0:0,d1:65535;)))))
-            (____, Scope<Void> @:18513 check:43973,op:309,dt:4,nt:8,next:65535,nextCheck:65535,str:9561,h:3,d0:18514,d1:43974;
+            (____, BuiltinInvocation<Void> @:18513 check:43973,op:309,dt:4,nt:8,next:65535,nextCheck:65535,str:9561,h:3,d0:18514,d1:43974;
                 ("ai_migrate", Expression<MethodOrOperator> @:18514 check:43974,op:309,dt:2,nt:9,next:18515,nextCheck:43975,str:30315,h:0,d0:0,d1:0;
                     ("ext_a_brute_ini", Expression<AI> @:18515 check:43975,op:19,dt:19,nt:9,next:18516,nextCheck:43976,str:36794,h:0,d0:149,d1:0;
                         ("ext_a_watch_brutes", Expression<AI> @:18516 check:43976,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36829,h:0,d0:144,d1:0;)))))))

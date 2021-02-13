@@ -1,15 +1,15 @@
 
 ("x05_foley_02", MethodDecl<Void> @:44 check:0,op:0,dt:0,nt:65535,next:1104,nextCheck:59331,str:4103,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:1104 check:59331,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:12968,h:0,d0:1105,d1:59332;
+    (____, BuiltinInvocation<Void> @:1104 check:59331,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:12968,h:0,d0:1105,d1:59332;
         ("begin", Expression<MethodOrOperator> @:1105 check:59332,op:0,dt:2,nt:9,next:1093,nextCheck:59320,str:54,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:1093 check:59320,op:19,dt:4,nt:8,next:1096,nextCheck:59323,str:12999,h:0,d0:1094,d1:59321;
+            (____, BuiltinInvocation<Void> @:1093 check:59320,op:19,dt:4,nt:8,next:1096,nextCheck:59323,str:12999,h:0,d0:1094,d1:59321;
                 ("sleep", Expression<MethodOrOperator> @:1094 check:59321,op:19,dt:2,nt:9,next:1095,nextCheck:59322,str:133,h:0,d0:0,d1:0;
                     (0, Expression<Short> @:1095 check:59322,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:13006,h:0,d0:0,d1:65535;)))
-            (____, Scope<Void> @:1096 check:59323,op:596,dt:4,nt:8,next:1101,nextCheck:59328,str:13011,h:0,d0:1097,d1:59324;
+            (____, BuiltinInvocation<Void> @:1096 check:59323,op:596,dt:4,nt:8,next:1101,nextCheck:59328,str:13011,h:0,d0:1097,d1:59324;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:1097 check:59324,op:596,dt:2,nt:9,next:1098,nextCheck:59325,str:1321,h:0,d0:0,d1:0;
                     ("sound\cinematics\05_deltahalo\x05\foley\x05_02_fol", Expression<Sound> @:1098 check:59325,op:32,dt:32,nt:9,next:1099,nextCheck:59326,str:2385,h:0,d0:742,d1:58460;
                         (4294967295, Expression<Entity> @:1099 check:59326,op:50,dt:50,nt:9,next:1100,nextCheck:59327,str:1392,h:0,d0:65535,d1:65535;
                             (1f, Expression<Float> @:1100 check:59327,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:13088,h:0,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:1101 check:59328,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:13093,h:0,d0:1102,d1:59329;
+            (____, BuiltinInvocation<Void> @:1101 check:59328,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:13093,h:0,d0:1102,d1:59329;
                 ("print", Expression<MethodOrOperator> @:1102 check:59329,op:27,dt:2,nt:9,next:1103,nextCheck:59330,str:139,h:0,d0:0,d1:0;
                     ("x05 foley 02 start", Expression<String> @:1103 check:59330,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:2451,h:0,d0:13827,d1:12768;))))))

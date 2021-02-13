@@ -1,82 +1,82 @@
 
 ("cs_mortar_a", MethodDecl<Void> @:337 check:0,op:0,dt:0,nt:65535,next:16581,nextCheck:42041,str:30555,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:16581 check:42041,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:30977,h:2,d0:16582,d1:42042;
+    (____, BuiltinInvocation<Void> @:16581 check:42041,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:30977,h:2,d0:16582,d1:42042;
         ("begin", Expression<MethodOrOperator> @:16582 check:42042,op:0,dt:2,nt:9,next:16502,nextCheck:41962,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:16502 check:41962,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:31007,h:2,d0:16503,d1:41963;
+            (____, BuiltinInvocation<Void> @:16502 check:41962,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:31007,h:2,d0:16503,d1:41963;
                 ("sleep_until", Expression<MethodOrOperator> @:16503 check:41963,op:21,dt:2,nt:9,next:16504,nextCheck:41964,str:231,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:16504 check:41964,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:31024,h:2,d0:16505,d1:41965;
+                    (____, BuiltinInvocation<Boolean> @:16504 check:41964,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:31024,h:2,d0:16505,d1:41965;
                         ("begin", Expression<MethodOrOperator> @:16505 check:41965,op:0,dt:2,nt:9,next:16506,nextCheck:41966,str:1,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:16506 check:41966,op:1,dt:4,nt:8,next:16580,nextCheck:42040,str:31035,h:2,d0:16507,d1:41967;
+                            (____, BuiltinInvocation<Void> @:16506 check:41966,op:1,dt:4,nt:8,next:16580,nextCheck:42040,str:31035,h:2,d0:16507,d1:41967;
                                 ("begin_random", Expression<MethodOrOperator> @:16507 check:41967,op:1,dt:2,nt:9,next:16508,nextCheck:41968,str:19288,h:0,d0:0,d1:0;
-                                    (____, Scope<Void> @:16508 check:41968,op:0,dt:4,nt:8,next:16520,nextCheck:41980,str:31054,h:2,d0:16509,d1:41969;
+                                    (____, BuiltinInvocation<Void> @:16508 check:41968,op:0,dt:4,nt:8,next:16520,nextCheck:41980,str:31054,h:2,d0:16509,d1:41969;
                                         ("begin", Expression<MethodOrOperator> @:16509 check:41969,op:0,dt:2,nt:9,next:16510,nextCheck:41970,str:1,h:0,d0:0,d1:0;
-                                            (____, Scope<Void> @:16510 check:41970,op:40,dt:4,nt:8,next:16514,nextCheck:41974,str:31067,h:2,d0:16511,d1:41971;
+                                            (____, BuiltinInvocation<Void> @:16510 check:41970,op:40,dt:4,nt:8,next:16514,nextCheck:41974,str:31067,h:2,d0:16511,d1:41971;
                                                 ("effect_new", Expression<MethodOrOperator> @:16511 check:41971,op:40,dt:2,nt:9,next:16512,nextCheck:41972,str:26073,h:0,d0:0,d1:0;
                                                     ("effects\design\mortar_emitter\mortar_emitter", Expression<Effect> @:16512 check:41972,op:33,dt:33,nt:9,next:16513,nextCheck:41973,str:26084,h:0,d0:7228,d1:65135;
                                                         ("mortar_a", Expression<LocationFlag> @:16513 check:41973,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:26129,h:0,d0:29,d1:0;))))
-                                            (____, Scope<Void> @:16514 check:41974,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:31140,h:2,d0:16515,d1:41975;
+                                            (____, BuiltinInvocation<Void> @:16514 check:41974,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:31140,h:2,d0:16515,d1:41975;
                                                 ("sleep", Expression<MethodOrOperator> @:16515 check:41975,op:19,dt:2,nt:9,next:16516,nextCheck:41976,str:80,h:0,d0:0,d1:0;
-                                                    (____, Scope<Short> @:16516 check:41976,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:31147,h:2,d0:16517,d1:41977;
+                                                    (____, BuiltinInvocation<Short> @:16516 check:41976,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:31147,h:2,d0:16517,d1:41977;
                                                         ("random_range", Expression<MethodOrOperator> @:16517 check:41977,op:124,dt:2,nt:9,next:16518,nextCheck:41978,str:17579,h:0,d0:0,d1:0;
                                                             (15, Expression<Short> @:16518 check:41978,op:7,dt:7,nt:9,next:16519,nextCheck:41979,str:31161,h:2,d0:15,d1:65535;
                                                                 (45, Expression<Short> @:16519 check:41979,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:31164,h:2,d0:45,d1:65535;))))))))
-                                    (____, Scope<Void> @:16520 check:41980,op:0,dt:4,nt:8,next:16532,nextCheck:41992,str:31181,h:2,d0:16521,d1:41981;
+                                    (____, BuiltinInvocation<Void> @:16520 check:41980,op:0,dt:4,nt:8,next:16532,nextCheck:41992,str:31181,h:2,d0:16521,d1:41981;
                                         ("begin", Expression<MethodOrOperator> @:16521 check:41981,op:0,dt:2,nt:9,next:16522,nextCheck:41982,str:1,h:0,d0:0,d1:0;
-                                            (____, Scope<Void> @:16522 check:41982,op:40,dt:4,nt:8,next:16526,nextCheck:41986,str:31194,h:2,d0:16523,d1:41983;
+                                            (____, BuiltinInvocation<Void> @:16522 check:41982,op:40,dt:4,nt:8,next:16526,nextCheck:41986,str:31194,h:2,d0:16523,d1:41983;
                                                 ("effect_new", Expression<MethodOrOperator> @:16523 check:41983,op:40,dt:2,nt:9,next:16524,nextCheck:41984,str:26073,h:0,d0:0,d1:0;
                                                     ("effects\design\mortar_emitter\mortar_emitter", Expression<Effect> @:16524 check:41984,op:33,dt:33,nt:9,next:16525,nextCheck:41985,str:26084,h:0,d0:7228,d1:65135;
                                                         ("mortar_b", Expression<LocationFlag> @:16525 check:41985,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:26138,h:0,d0:30,d1:0;))))
-                                            (____, Scope<Void> @:16526 check:41986,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:31267,h:2,d0:16527,d1:41987;
+                                            (____, BuiltinInvocation<Void> @:16526 check:41986,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:31267,h:2,d0:16527,d1:41987;
                                                 ("sleep", Expression<MethodOrOperator> @:16527 check:41987,op:19,dt:2,nt:9,next:16528,nextCheck:41988,str:80,h:0,d0:0,d1:0;
-                                                    (____, Scope<Short> @:16528 check:41988,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:31274,h:2,d0:16529,d1:41989;
+                                                    (____, BuiltinInvocation<Short> @:16528 check:41988,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:31274,h:2,d0:16529,d1:41989;
                                                         ("random_range", Expression<MethodOrOperator> @:16529 check:41989,op:124,dt:2,nt:9,next:16530,nextCheck:41990,str:17579,h:0,d0:0,d1:0;
                                                             (15, Expression<Short> @:16530 check:41990,op:7,dt:7,nt:9,next:16531,nextCheck:41991,str:31288,h:2,d0:15,d1:65535;
                                                                 (45, Expression<Short> @:16531 check:41991,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:31291,h:2,d0:45,d1:65535;))))))))
-                                    (____, Scope<Void> @:16532 check:41992,op:0,dt:4,nt:8,next:16544,nextCheck:42004,str:31308,h:2,d0:16533,d1:41993;
+                                    (____, BuiltinInvocation<Void> @:16532 check:41992,op:0,dt:4,nt:8,next:16544,nextCheck:42004,str:31308,h:2,d0:16533,d1:41993;
                                         ("begin", Expression<MethodOrOperator> @:16533 check:41993,op:0,dt:2,nt:9,next:16534,nextCheck:41994,str:1,h:0,d0:0,d1:0;
-                                            (____, Scope<Void> @:16534 check:41994,op:40,dt:4,nt:8,next:16538,nextCheck:41998,str:31321,h:2,d0:16535,d1:41995;
+                                            (____, BuiltinInvocation<Void> @:16534 check:41994,op:40,dt:4,nt:8,next:16538,nextCheck:41998,str:31321,h:2,d0:16535,d1:41995;
                                                 ("effect_new", Expression<MethodOrOperator> @:16535 check:41995,op:40,dt:2,nt:9,next:16536,nextCheck:41996,str:26073,h:0,d0:0,d1:0;
                                                     ("effects\design\mortar_emitter\mortar_emitter", Expression<Effect> @:16536 check:41996,op:33,dt:33,nt:9,next:16537,nextCheck:41997,str:26084,h:0,d0:7228,d1:65135;
                                                         ("mortar_c", Expression<LocationFlag> @:16537 check:41997,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:26147,h:0,d0:31,d1:0;))))
-                                            (____, Scope<Void> @:16538 check:41998,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:31394,h:2,d0:16539,d1:41999;
+                                            (____, BuiltinInvocation<Void> @:16538 check:41998,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:31394,h:2,d0:16539,d1:41999;
                                                 ("sleep", Expression<MethodOrOperator> @:16539 check:41999,op:19,dt:2,nt:9,next:16540,nextCheck:42000,str:80,h:0,d0:0,d1:0;
-                                                    (____, Scope<Short> @:16540 check:42000,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:31401,h:2,d0:16541,d1:42001;
+                                                    (____, BuiltinInvocation<Short> @:16540 check:42000,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:31401,h:2,d0:16541,d1:42001;
                                                         ("random_range", Expression<MethodOrOperator> @:16541 check:42001,op:124,dt:2,nt:9,next:16542,nextCheck:42002,str:17579,h:0,d0:0,d1:0;
                                                             (15, Expression<Short> @:16542 check:42002,op:7,dt:7,nt:9,next:16543,nextCheck:42003,str:31415,h:2,d0:15,d1:65535;
                                                                 (45, Expression<Short> @:16543 check:42003,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:31418,h:2,d0:45,d1:65535;))))))))
-                                    (____, Scope<Void> @:16544 check:42004,op:0,dt:4,nt:8,next:16556,nextCheck:42016,str:31435,h:2,d0:16545,d1:42005;
+                                    (____, BuiltinInvocation<Void> @:16544 check:42004,op:0,dt:4,nt:8,next:16556,nextCheck:42016,str:31435,h:2,d0:16545,d1:42005;
                                         ("begin", Expression<MethodOrOperator> @:16545 check:42005,op:0,dt:2,nt:9,next:16546,nextCheck:42006,str:1,h:0,d0:0,d1:0;
-                                            (____, Scope<Void> @:16546 check:42006,op:40,dt:4,nt:8,next:16550,nextCheck:42010,str:31448,h:2,d0:16547,d1:42007;
+                                            (____, BuiltinInvocation<Void> @:16546 check:42006,op:40,dt:4,nt:8,next:16550,nextCheck:42010,str:31448,h:2,d0:16547,d1:42007;
                                                 ("effect_new", Expression<MethodOrOperator> @:16547 check:42007,op:40,dt:2,nt:9,next:16548,nextCheck:42008,str:26073,h:0,d0:0,d1:0;
                                                     ("effects\design\mortar_emitter\mortar_emitter", Expression<Effect> @:16548 check:42008,op:33,dt:33,nt:9,next:16549,nextCheck:42009,str:26084,h:0,d0:7228,d1:65135;
                                                         ("mortar_d", Expression<LocationFlag> @:16549 check:42009,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:26156,h:0,d0:32,d1:0;))))
-                                            (____, Scope<Void> @:16550 check:42010,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:31521,h:2,d0:16551,d1:42011;
+                                            (____, BuiltinInvocation<Void> @:16550 check:42010,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:31521,h:2,d0:16551,d1:42011;
                                                 ("sleep", Expression<MethodOrOperator> @:16551 check:42011,op:19,dt:2,nt:9,next:16552,nextCheck:42012,str:80,h:0,d0:0,d1:0;
-                                                    (____, Scope<Short> @:16552 check:42012,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:31528,h:2,d0:16553,d1:42013;
+                                                    (____, BuiltinInvocation<Short> @:16552 check:42012,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:31528,h:2,d0:16553,d1:42013;
                                                         ("random_range", Expression<MethodOrOperator> @:16553 check:42013,op:124,dt:2,nt:9,next:16554,nextCheck:42014,str:17579,h:0,d0:0,d1:0;
                                                             (15, Expression<Short> @:16554 check:42014,op:7,dt:7,nt:9,next:16555,nextCheck:42015,str:31542,h:2,d0:15,d1:65535;
                                                                 (45, Expression<Short> @:16555 check:42015,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:31545,h:2,d0:45,d1:65535;))))))))
-                                    (____, Scope<Void> @:16556 check:42016,op:0,dt:4,nt:8,next:16568,nextCheck:42028,str:31562,h:2,d0:16557,d1:42017;
+                                    (____, BuiltinInvocation<Void> @:16556 check:42016,op:0,dt:4,nt:8,next:16568,nextCheck:42028,str:31562,h:2,d0:16557,d1:42017;
                                         ("begin", Expression<MethodOrOperator> @:16557 check:42017,op:0,dt:2,nt:9,next:16558,nextCheck:42018,str:1,h:0,d0:0,d1:0;
-                                            (____, Scope<Void> @:16558 check:42018,op:40,dt:4,nt:8,next:16562,nextCheck:42022,str:31575,h:2,d0:16559,d1:42019;
+                                            (____, BuiltinInvocation<Void> @:16558 check:42018,op:40,dt:4,nt:8,next:16562,nextCheck:42022,str:31575,h:2,d0:16559,d1:42019;
                                                 ("effect_new", Expression<MethodOrOperator> @:16559 check:42019,op:40,dt:2,nt:9,next:16560,nextCheck:42020,str:26073,h:0,d0:0,d1:0;
                                                     ("effects\design\mortar_emitter\mortar_emitter", Expression<Effect> @:16560 check:42020,op:33,dt:33,nt:9,next:16561,nextCheck:42021,str:26084,h:0,d0:7228,d1:65135;
                                                         ("mortar_e", Expression<LocationFlag> @:16561 check:42021,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:26165,h:0,d0:33,d1:0;))))
-                                            (____, Scope<Void> @:16562 check:42022,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:31648,h:2,d0:16563,d1:42023;
+                                            (____, BuiltinInvocation<Void> @:16562 check:42022,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:31648,h:2,d0:16563,d1:42023;
                                                 ("sleep", Expression<MethodOrOperator> @:16563 check:42023,op:19,dt:2,nt:9,next:16564,nextCheck:42024,str:80,h:0,d0:0,d1:0;
-                                                    (____, Scope<Short> @:16564 check:42024,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:31655,h:2,d0:16565,d1:42025;
+                                                    (____, BuiltinInvocation<Short> @:16564 check:42024,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:31655,h:2,d0:16565,d1:42025;
                                                         ("random_range", Expression<MethodOrOperator> @:16565 check:42025,op:124,dt:2,nt:9,next:16566,nextCheck:42026,str:17579,h:0,d0:0,d1:0;
                                                             (15, Expression<Short> @:16566 check:42026,op:7,dt:7,nt:9,next:16567,nextCheck:42027,str:31669,h:2,d0:15,d1:65535;
                                                                 (45, Expression<Short> @:16567 check:42027,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:31672,h:2,d0:45,d1:65535;))))))))
-                                    (____, Scope<Void> @:16568 check:42028,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:31689,h:2,d0:16569,d1:42029;
+                                    (____, BuiltinInvocation<Void> @:16568 check:42028,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:31689,h:2,d0:16569,d1:42029;
                                         ("begin", Expression<MethodOrOperator> @:16569 check:42029,op:0,dt:2,nt:9,next:16570,nextCheck:42030,str:1,h:0,d0:0,d1:0;
-                                            (____, Scope<Void> @:16570 check:42030,op:40,dt:4,nt:8,next:16574,nextCheck:42034,str:31702,h:2,d0:16571,d1:42031;
+                                            (____, BuiltinInvocation<Void> @:16570 check:42030,op:40,dt:4,nt:8,next:16574,nextCheck:42034,str:31702,h:2,d0:16571,d1:42031;
                                                 ("effect_new", Expression<MethodOrOperator> @:16571 check:42031,op:40,dt:2,nt:9,next:16572,nextCheck:42032,str:26073,h:0,d0:0,d1:0;
                                                     ("effects\design\mortar_emitter\mortar_emitter", Expression<Effect> @:16572 check:42032,op:33,dt:33,nt:9,next:16573,nextCheck:42033,str:26084,h:0,d0:7228,d1:65135;
                                                         ("mortar_f", Expression<LocationFlag> @:16573 check:42033,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:26174,h:0,d0:34,d1:0;))))
-                                            (____, Scope<Void> @:16574 check:42034,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:31775,h:2,d0:16575,d1:42035;
+                                            (____, BuiltinInvocation<Void> @:16574 check:42034,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:31775,h:2,d0:16575,d1:42035;
                                                 ("sleep", Expression<MethodOrOperator> @:16575 check:42035,op:19,dt:2,nt:9,next:16576,nextCheck:42036,str:80,h:0,d0:0,d1:0;
-                                                    (____, Scope<Short> @:16576 check:42036,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:31782,h:2,d0:16577,d1:42037;
+                                                    (____, BuiltinInvocation<Short> @:16576 check:42036,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:31782,h:2,d0:16577,d1:42037;
                                                         ("random_range", Expression<MethodOrOperator> @:16577 check:42037,op:124,dt:2,nt:9,next:16578,nextCheck:42038,str:17579,h:0,d0:0,d1:0;
                                                             (15, Expression<Short> @:16578 check:42038,op:7,dt:7,nt:9,next:16579,nextCheck:42039,str:31796,h:2,d0:15,d1:65535;
                                                                 (45, Expression<Short> @:16579 check:42039,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:31799,h:2,d0:45,d1:65535;))))))))))

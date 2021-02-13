@@ -1,16 +1,16 @@
 
 ("ai_midtower_ini", MethodDecl<Void> @:420 check:0,op:0,dt:0,nt:65535,next:21802,nextCheck:47262,str:42472,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:21802 check:47262,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:39179,h:3,d0:21803,d1:47263;
+    (____, BuiltinInvocation<Void> @:21802 check:47262,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:39179,h:3,d0:21803,d1:47263;
         ("begin", Expression<MethodOrOperator> @:21803 check:47263,op:0,dt:2,nt:9,next:21790,nextCheck:47250,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:21790 check:47250,op:21,dt:4,nt:8,next:21799,nextCheck:47259,str:39213,h:3,d0:21791,d1:47251;
+            (____, BuiltinInvocation<Void> @:21790 check:47250,op:21,dt:4,nt:8,next:21799,nextCheck:47259,str:39213,h:3,d0:21791,d1:47251;
                 ("sleep_until", Expression<MethodOrOperator> @:21791 check:47251,op:21,dt:2,nt:9,next:21792,nextCheck:47252,str:231,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:21792 check:47252,op:15,dt:5,nt:8,next:21798,nextCheck:47258,str:39226,h:3,d0:21793,d1:47253;
+                    (____, BuiltinInvocation<Boolean> @:21792 check:47252,op:15,dt:5,nt:8,next:21798,nextCheck:47258,str:39226,h:3,d0:21793,d1:47253;
                         (">", Expression<MethodOrOperator> @:21793 check:47253,op:15,dt:2,nt:9,next:21794,nextCheck:47254,str:19306,h:0,d0:0,d1:0;
-                            (-7.216099E-05f, Scope<Float> @:21794 check:47254,op:257,dt:6,nt:8,next:21797,nextCheck:47257,str:39229,h:3,d0:21795,d1:47255;
+                            (-7.216099E-05f, BuiltinInvocation<Float> @:21794 check:47254,op:257,dt:6,nt:8,next:21797,nextCheck:47257,str:39229,h:3,d0:21795,d1:47255;
                                 ("device_get_position", Expression<MethodOrOperator> @:21795 check:47255,op:257,dt:2,nt:9,next:21796,nextCheck:47256,str:16936,h:0,d0:0,d1:0;
                                     ("midtower_ent_door", Expression<Device> @:21796 check:47256,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:42366,h:0,d0:386,d1:65535;)))
                             (0f, Expression<Float> @:21797 check:47257,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:39269,h:3,d0:0,d1:0;)))
                     (10, Expression<Short> @:21798 check:47258,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:39272,h:3,d0:10,d1:65535;)))
-            (____, Scope<Void> @:21799 check:47259,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:39279,h:3,d0:21800,d1:47260;
+            (____, BuiltinInvocation<Void> @:21799 check:47259,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:39279,h:3,d0:21800,d1:47260;
                 ("ai_place", Expression<MethodOrOperator> @:21800 check:47260,op:290,dt:2,nt:9,next:21801,nextCheck:47261,str:14760,h:0,d0:0,d1:0;
                     ("midtower_buggers_hall", Expression<AI> @:21801 check:47261,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:42384,h:0,d0:182,d1:0;))))))

@@ -1,28 +1,28 @@
 
 ("gondola_01_flight", MethodDecl<Void> @:174 check:0,op:0,dt:0,nt:65535,next:7103,nextCheck:65330,str:16112,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:7103 check:65330,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:16155,h:1,d0:7104,d1:65331;
+    (____, BuiltinInvocation<Void> @:7103 check:65330,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:16155,h:1,d0:7104,d1:65331;
         ("begin", Expression<MethodOrOperator> @:7104 check:65331,op:0,dt:2,nt:9,next:7079,nextCheck:65306,str:142,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:7079 check:65306,op:449,dt:4,nt:8,next:7082,nextCheck:65309,str:16198,h:1,d0:7080,d1:65307;
+            (____, BuiltinInvocation<Void> @:7079 check:65306,op:449,dt:4,nt:8,next:7082,nextCheck:65309,str:16198,h:1,d0:7080,d1:65307;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:7080 check:65307,op:449,dt:2,nt:9,next:7081,nextCheck:65308,str:10931,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:7081 check:65308,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:16230,h:1,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:7082 check:65309,op:384,dt:4,nt:8,next:7086,nextCheck:65313,str:16238,h:1,d0:7083,d1:65310;
+            (____, BuiltinInvocation<Void> @:7082 check:65309,op:384,dt:4,nt:8,next:7086,nextCheck:65313,str:16238,h:1,d0:7083,d1:65310;
                 ("cs_fly_by", Expression<MethodOrOperator> @:7083 check:65310,op:384,dt:2,nt:9,next:7084,nextCheck:65311,str:13150,h:0,d0:0,d1:0;
                     ("bsp1_airspace/ph_02_0", Expression<SpatialPoint> @:7084 check:65311,op:28,dt:28,nt:9,next:7085,nextCheck:65312,str:15912,h:0,d0:5,d1:1;
                         (2f, Expression<Float> @:7085 check:65312,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:16271,h:1,d0:0,d1:16384;))))
-            (____, Scope<Void> @:7086 check:65313,op:384,dt:4,nt:8,next:7090,nextCheck:65317,str:16276,h:1,d0:7087,d1:65314;
+            (____, BuiltinInvocation<Void> @:7086 check:65313,op:384,dt:4,nt:8,next:7090,nextCheck:65317,str:16276,h:1,d0:7087,d1:65314;
                 ("cs_fly_by", Expression<MethodOrOperator> @:7087 check:65314,op:384,dt:2,nt:9,next:7088,nextCheck:65315,str:13150,h:0,d0:0,d1:0;
                     ("bsp1_airspace/ph_02_1", Expression<SpatialPoint> @:7088 check:65315,op:28,dt:28,nt:9,next:7089,nextCheck:65316,str:15934,h:0,d0:6,d1:1;
                         (2f, Expression<Float> @:7089 check:65316,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:16309,h:1,d0:0,d1:16384;))))
-            (____, Scope<Void> @:7090 check:65317,op:381,dt:4,nt:8,next:7094,nextCheck:65321,str:16314,h:1,d0:7091,d1:65318;
+            (____, BuiltinInvocation<Void> @:7090 check:65317,op:381,dt:4,nt:8,next:7094,nextCheck:65321,str:16314,h:1,d0:7091,d1:65318;
                 ("cs_fly_to_and_face", Expression<MethodOrOperator> @:7091 check:65318,op:381,dt:2,nt:9,next:7092,nextCheck:65319,str:13290,h:0,d0:0,d1:0;
                     ("bsp1_airspace/ph_02_2", Expression<SpatialPoint> @:7092 check:65319,op:28,dt:28,nt:9,next:7093,nextCheck:65320,str:15956,h:0,d0:7,d1:1;
                         ("bsp1_airspace/ph_02_3", Expression<SpatialPoint> @:7093 check:65320,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:15978,h:0,d0:8,d1:1;))))
-            (____, Scope<Void> @:7094 check:65321,op:407,dt:4,nt:8,next:7097,nextCheck:65324,str:16381,h:1,d0:7095,d1:65322;
+            (____, BuiltinInvocation<Void> @:7094 check:65321,op:407,dt:4,nt:8,next:7097,nextCheck:65324,str:16381,h:1,d0:7095,d1:65322;
                 ("cs_vehicle_speed", Expression<MethodOrOperator> @:7095 check:65322,op:407,dt:2,nt:9,next:7096,nextCheck:65323,str:13226,h:0,d0:0,d1:0;
                     (0.3f, Expression<Float> @:7096 check:65323,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:16399,h:1,d0:39322,d1:16025;)))
-            (____, Scope<Void> @:7097 check:65324,op:22,dt:4,nt:8,next:7100,nextCheck:65327,str:16405,h:1,d0:7098,d1:65325;
+            (____, BuiltinInvocation<Void> @:7097 check:65324,op:22,dt:4,nt:8,next:7100,nextCheck:65327,str:16405,h:1,d0:7098,d1:65325;
                 ("wake", Expression<MethodOrOperator> @:7098 check:65325,op:22,dt:2,nt:9,next:7099,nextCheck:65326,str:1207,h:0,d0:0,d1:0;
                     ("gondola_01_unload", Expression<ScriptReference> @:7099 check:65326,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:16000,h:0,d0:173,d1:65535;)))
-            (____, Scope<Void> @:7100 check:65327,op:379,dt:4,nt:8,next:65535,nextCheck:65535,str:16432,h:1,d0:7101,d1:65328;
+            (____, BuiltinInvocation<Void> @:7100 check:65327,op:379,dt:4,nt:8,next:65535,nextCheck:65535,str:16432,h:1,d0:7101,d1:65328;
                 ("cs_fly_to", Expression<MethodOrOperator> @:7101 check:65328,op:379,dt:2,nt:9,next:7102,nextCheck:65329,str:13255,h:0,d0:0,d1:0;
                     ("bsp1_airspace/ph_02_3", Expression<SpatialPoint> @:7102 check:65329,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:15978,h:0,d0:8,d1:1;))))))

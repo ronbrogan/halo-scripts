@@ -1,46 +1,46 @@
 
 ("ai_ext_a_prophet_migrate", MethodDecl<Void> @:376 check:0,op:0,dt:0,nt:65535,next:18610,nextCheck:44070,str:41795,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:18610 check:44070,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9937,h:3,d0:18611,d1:44071;
+    (____, BuiltinInvocation<Void> @:18610 check:44070,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9937,h:3,d0:18611,d1:44071;
         ("begin", Expression<MethodOrOperator> @:18611 check:44071,op:0,dt:2,nt:9,next:18566,nextCheck:44026,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:18566 check:44026,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:9980,h:3,d0:18567,d1:44027;
+            (____, BuiltinInvocation<Void> @:18566 check:44026,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:9980,h:3,d0:18567,d1:44027;
                 ("sleep_until", Expression<MethodOrOperator> @:18567 check:44027,op:21,dt:2,nt:9,next:18568,nextCheck:44028,str:231,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:18568 check:44028,op:0,dt:5,nt:8,next:18609,nextCheck:44069,str:9996,h:3,d0:18569,d1:44029;
+                    (____, BuiltinInvocation<Boolean> @:18568 check:44028,op:0,dt:5,nt:8,next:18609,nextCheck:44069,str:9996,h:3,d0:18569,d1:44029;
                         ("begin", Expression<MethodOrOperator> @:18569 check:44029,op:0,dt:2,nt:9,next:18570,nextCheck:44030,str:1,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:18570 check:44030,op:2,dt:4,nt:8,next:18596,nextCheck:44056,str:10007,h:3,d0:18571,d1:44031;
+                            (____, BuiltinInvocation<Void> @:18570 check:44030,op:2,dt:4,nt:8,next:18596,nextCheck:44056,str:10007,h:3,d0:18571,d1:44031;
                                 ("if", Expression<MethodOrOperator> @:18571 check:44031,op:2,dt:2,nt:9,next:18572,nextCheck:44032,str:456,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:18572 check:44032,op:18,dt:5,nt:8,next:18578,nextCheck:44038,str:10011,h:3,d0:18573,d1:44033;
+                                    (____, BuiltinInvocation<Boolean> @:18572 check:44032,op:18,dt:5,nt:8,next:18578,nextCheck:44038,str:10011,h:3,d0:18573,d1:44033;
                                         ("<=", Expression<MethodOrOperator> @:18573 check:44033,op:18,dt:2,nt:9,next:18574,nextCheck:44034,str:21049,h:0,d0:0,d1:0;
-                                            (____, Scope<Short> @:18574 check:44034,op:327,dt:7,nt:8,next:18577,nextCheck:44037,str:10015,h:3,d0:18575,d1:44035;
+                                            (____, BuiltinInvocation<Short> @:18574 check:44034,op:327,dt:7,nt:8,next:18577,nextCheck:44037,str:10015,h:3,d0:18575,d1:44035;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:18575 check:44035,op:327,dt:2,nt:9,next:18576,nextCheck:44036,str:19308,h:0,d0:0,d1:0;
                                                     ("ext_a_covenant", Expression<AI> @:18576 check:44036,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36890,h:0,d0:39,d1:16384;)))
                                             (0, Expression<Short> @:18577 check:44037,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:10048,h:3,d0:0,d1:65535;)))
-                                    (____, Scope<Void> @:18578 check:44038,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:10056,h:3,d0:18579,d1:44039;
+                                    (____, BuiltinInvocation<Void> @:18578 check:44038,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:10056,h:3,d0:18579,d1:44039;
                                         ("begin", Expression<MethodOrOperator> @:18579 check:44039,op:0,dt:2,nt:9,next:18580,nextCheck:44040,str:1,h:0,d0:0,d1:0;
-                                            (____, Scope<Void> @:18580 check:44040,op:334,dt:4,nt:8,next:18584,nextCheck:44044,str:10069,h:3,d0:18581,d1:44041;
+                                            (____, BuiltinInvocation<Void> @:18580 check:44040,op:334,dt:4,nt:8,next:18584,nextCheck:44044,str:10069,h:3,d0:18581,d1:44041;
                                                 ("ai_set_orders", Expression<MethodOrOperator> @:18581 check:44041,op:334,dt:2,nt:9,next:18582,nextCheck:44042,str:28777,h:0,d0:0,d1:0;
                                                     ("ext_a_watch_brutes", Expression<AI> @:18582 check:44042,op:19,dt:19,nt:9,next:18583,nextCheck:44043,str:36829,h:0,d0:144,d1:0;
                                                         ("ext_a_prophets_follow", Expression<AIOrders> @:18583 check:44043,op:23,dt:23,nt:9,next:65535,nextCheck:65535,str:36922,h:0,d0:193,d1:0;))))
-                                            (____, Scope<Void> @:18584 check:44044,op:334,dt:4,nt:8,next:18588,nextCheck:44048,str:10132,h:3,d0:18585,d1:44045;
+                                            (____, BuiltinInvocation<Void> @:18584 check:44044,op:334,dt:4,nt:8,next:18588,nextCheck:44048,str:10132,h:3,d0:18585,d1:44045;
                                                 ("ai_set_orders", Expression<MethodOrOperator> @:18585 check:44045,op:334,dt:2,nt:9,next:18586,nextCheck:44046,str:28777,h:0,d0:0,d1:0;
                                                     ("ext_a_brute_door", Expression<AI> @:18586 check:44046,op:19,dt:19,nt:9,next:18587,nextCheck:44047,str:36905,h:0,d0:147,d1:0;
                                                         ("ext_a_prophets_follow", Expression<AIOrders> @:18587 check:44047,op:23,dt:23,nt:9,next:65535,nextCheck:65535,str:36922,h:0,d0:193,d1:0;))))
-                                            (____, Scope<Void> @:18588 check:44048,op:334,dt:4,nt:8,next:18592,nextCheck:44052,str:10193,h:3,d0:18589,d1:44049;
+                                            (____, BuiltinInvocation<Void> @:18588 check:44048,op:334,dt:4,nt:8,next:18592,nextCheck:44052,str:10193,h:3,d0:18589,d1:44049;
                                                 ("ai_set_orders", Expression<MethodOrOperator> @:18589 check:44049,op:334,dt:2,nt:9,next:18590,nextCheck:44050,str:28777,h:0,d0:0,d1:0;
                                                     ("ext_a_brute_ini", Expression<AI> @:18590 check:44050,op:19,dt:19,nt:9,next:18591,nextCheck:44051,str:36794,h:0,d0:149,d1:0;
                                                         ("ext_a_prophets_follow", Expression<AIOrders> @:18591 check:44051,op:23,dt:23,nt:9,next:65535,nextCheck:65535,str:36922,h:0,d0:193,d1:0;))))
-                                            (____, Scope<Void> @:18592 check:44052,op:334,dt:4,nt:8,next:65535,nextCheck:65535,str:10253,h:3,d0:18593,d1:44053;
+                                            (____, BuiltinInvocation<Void> @:18592 check:44052,op:334,dt:4,nt:8,next:65535,nextCheck:65535,str:10253,h:3,d0:18593,d1:44053;
                                                 ("ai_set_orders", Expression<MethodOrOperator> @:18593 check:44053,op:334,dt:2,nt:9,next:18594,nextCheck:44054,str:28777,h:0,d0:0,d1:0;
                                                     ("ext_a_buggers", Expression<AI> @:18594 check:44054,op:19,dt:19,nt:9,next:18595,nextCheck:44055,str:36944,h:0,d0:151,d1:0;
                                                         ("ext_a_prophets_follow", Expression<AIOrders> @:18595 check:44055,op:23,dt:23,nt:9,next:65535,nextCheck:65535,str:36922,h:0,d0:193,d1:0;))))))))
-                            (____, Scope<Void> @:18596 check:44056,op:2,dt:4,nt:8,next:18608,nextCheck:44068,str:10322,h:3,d0:18597,d1:44057;
+                            (____, BuiltinInvocation<Void> @:18596 check:44056,op:2,dt:4,nt:8,next:18608,nextCheck:44068,str:10322,h:3,d0:18597,d1:44057;
                                 ("if", Expression<MethodOrOperator> @:18597 check:44057,op:2,dt:2,nt:9,next:18598,nextCheck:44058,str:456,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:18598 check:44058,op:18,dt:5,nt:8,next:18604,nextCheck:44064,str:10326,h:3,d0:18599,d1:44059;
+                                    (____, BuiltinInvocation<Boolean> @:18598 check:44058,op:18,dt:5,nt:8,next:18604,nextCheck:44064,str:10326,h:3,d0:18599,d1:44059;
                                         ("<=", Expression<MethodOrOperator> @:18599 check:44059,op:18,dt:2,nt:9,next:18600,nextCheck:44060,str:21049,h:0,d0:0,d1:0;
-                                            (____, Scope<Short> @:18600 check:44060,op:327,dt:7,nt:8,next:18603,nextCheck:44063,str:10330,h:3,d0:18601,d1:44061;
+                                            (____, BuiltinInvocation<Short> @:18600 check:44060,op:327,dt:7,nt:8,next:18603,nextCheck:44063,str:10330,h:3,d0:18601,d1:44061;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:18601 check:44061,op:327,dt:2,nt:9,next:18602,nextCheck:44062,str:19308,h:0,d0:0,d1:0;
                                                     ("ext_a_prophets", Expression<AI> @:18602 check:44062,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36862,h:0,d0:38,d1:16384;)))
                                             (0, Expression<Short> @:18603 check:44063,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:10363,h:3,d0:0,d1:65535;)))
-                                    (____, Scope<Void> @:18604 check:44064,op:334,dt:4,nt:8,next:65535,nextCheck:65535,str:10366,h:3,d0:18605,d1:44065;
+                                    (____, BuiltinInvocation<Void> @:18604 check:44064,op:334,dt:4,nt:8,next:65535,nextCheck:65535,str:10366,h:3,d0:18605,d1:44065;
                                         ("ai_set_orders", Expression<MethodOrOperator> @:18605 check:44065,op:334,dt:2,nt:9,next:18606,nextCheck:44066,str:28777,h:0,d0:0,d1:0;
                                             ("ext_a_covenant", Expression<AI> @:18606 check:44066,op:19,dt:19,nt:9,next:18607,nextCheck:44067,str:36890,h:0,d0:39,d1:16384;
                                                 ("ext_a_covenant_follow", Expression<AIOrders> @:18607 check:44067,op:23,dt:23,nt:9,next:65535,nextCheck:65535,str:36958,h:0,d0:194,d1:0;))))))

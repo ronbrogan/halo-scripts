@@ -1,14 +1,14 @@
 
 ("key_door_open", MethodDecl<Void> @:63 check:0,op:0,dt:0,nt:65535,next:1843,nextCheck:60070,str:4998,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:1843 check:60070,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:22410,h:0,d0:1844,d1:60071;
+    (____, BuiltinInvocation<Void> @:1843 check:60070,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:22410,h:0,d0:1844,d1:60071;
         ("begin", Expression<MethodOrOperator> @:1844 check:60071,op:0,dt:2,nt:9,next:1833,nextCheck:60060,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:1833 check:60060,op:19,dt:4,nt:8,next:1836,nextCheck:60063,str:22442,h:0,d0:1834,d1:60061;
+            (____, BuiltinInvocation<Void> @:1833 check:60060,op:19,dt:4,nt:8,next:1836,nextCheck:60063,str:22442,h:0,d0:1834,d1:60061;
                 ("sleep", Expression<MethodOrOperator> @:1834 check:60061,op:19,dt:2,nt:9,next:1835,nextCheck:60062,str:85,h:0,d0:0,d1:0;
                     (210, Expression<Short> @:1835 check:60062,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:22449,h:0,d0:210,d1:65535;)))
-            (____, Scope<Void> @:1836 check:60063,op:27,dt:4,nt:8,next:1839,nextCheck:60066,str:22456,h:0,d0:1837,d1:60064;
+            (____, BuiltinInvocation<Void> @:1836 check:60063,op:27,dt:4,nt:8,next:1839,nextCheck:60066,str:22456,h:0,d0:1837,d1:60064;
                 ("print", Expression<MethodOrOperator> @:1837 check:60064,op:27,dt:2,nt:9,next:1838,nextCheck:60065,str:91,h:0,d0:0,d1:0;
                     ("key door open", Expression<String> @:1838 check:60065,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:4929,h:0,d0:56129,d1:12389;)))
-            (____, Scope<Void> @:1839 check:60066,op:256,dt:4,nt:8,next:65535,nextCheck:65535,str:22482,h:0,d0:1840,d1:60067;
+            (____, BuiltinInvocation<Void> @:1839 check:60066,op:256,dt:4,nt:8,next:65535,nextCheck:65535,str:22482,h:0,d0:1840,d1:60067;
                 ("device_set_position", Expression<MethodOrOperator> @:1840 check:60067,op:256,dt:2,nt:9,next:1841,nextCheck:60068,str:4943,h:0,d0:0,d1:0;
                     ("key_ride_door0", Expression<Device> @:1841 check:60068,op:60,dt:54,nt:9,next:1842,nextCheck:60069,str:4963,h:0,d0:52,d1:65535;
                         (1f, Expression<Float> @:1842 check:60069,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:22518,h:0,d0:0,d1:16256;)))))))

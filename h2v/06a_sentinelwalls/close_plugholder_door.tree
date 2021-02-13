@@ -1,29 +1,29 @@
 
 ("close_plugholder_door", MethodDecl<Void> @:276 check:0,op:0,dt:0,nt:65535,next:12575,nextCheck:38035,str:28839,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:12575 check:38035,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:62974,h:1,d0:12576,d1:38036;
+    (____, BuiltinInvocation<Void> @:12575 check:38035,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:62974,h:1,d0:12576,d1:38036;
         ("begin", Expression<MethodOrOperator> @:12576 check:38036,op:0,dt:2,nt:9,next:12550,nextCheck:38010,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:12550 check:38010,op:19,dt:4,nt:8,next:12553,nextCheck:38013,str:63014,h:1,d0:12551,d1:38011;
+            (____, BuiltinInvocation<Void> @:12550 check:38010,op:19,dt:4,nt:8,next:12553,nextCheck:38013,str:63014,h:1,d0:12551,d1:38011;
                 ("sleep", Expression<MethodOrOperator> @:12551 check:38011,op:19,dt:2,nt:9,next:12552,nextCheck:38012,str:80,h:0,d0:0,d1:0;
                     (150, Expression<Short> @:12552 check:38012,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:63021,h:1,d0:150,d1:65535;)))
-            (____, Scope<Void> @:12553 check:38013,op:21,dt:4,nt:8,next:12571,nextCheck:38031,str:63028,h:1,d0:12554,d1:38014;
+            (____, BuiltinInvocation<Void> @:12553 check:38013,op:21,dt:4,nt:8,next:12571,nextCheck:38031,str:63028,h:1,d0:12554,d1:38014;
                 ("sleep_until", Expression<MethodOrOperator> @:12554 check:38014,op:21,dt:2,nt:9,next:12555,nextCheck:38015,str:231,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:12555 check:38015,op:5,dt:5,nt:8,next:65535,nextCheck:65535,str:63041,h:1,d0:12556,d1:38016;
+                    (____, BuiltinInvocation<Boolean> @:12555 check:38015,op:5,dt:5,nt:8,next:65535,nextCheck:65535,str:63041,h:1,d0:12556,d1:38016;
                         ("and", Expression<MethodOrOperator> @:12556 check:38016,op:5,dt:2,nt:9,next:12557,nextCheck:38017,str:667,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:12557 check:38017,op:25,dt:5,nt:8,next:12564,nextCheck:38024,str:63052,h:1,d0:12558,d1:38018;
+                            (____, BuiltinInvocation<Boolean> @:12557 check:38017,op:25,dt:5,nt:8,next:12564,nextCheck:38024,str:63052,h:1,d0:12558,d1:38018;
                                 ("not", Expression<MethodOrOperator> @:12558 check:38018,op:25,dt:2,nt:9,next:12559,nextCheck:38019,str:397,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:12559 check:38019,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:63057,h:1,d0:12560,d1:38020;
+                                    (____, BuiltinInvocation<Boolean> @:12559 check:38019,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:63057,h:1,d0:12560,d1:38020;
                                         ("volume_test_objects", Expression<MethodOrOperator> @:12560 check:38020,op:33,dt:2,nt:9,next:12561,nextCheck:38021,str:11606,h:0,d0:0,d1:0;
                                             ("tv_plugholder_a", Expression<Trigger> @:12561 check:38021,op:13,dt:13,nt:9,next:12562,nextCheck:38022,str:22188,h:0,d0:31,d1:0;
-                                                (____, Scope<List> @:12562 check:38022,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:63094,h:1,d0:12563,d1:38023;
+                                                (____, BuiltinInvocation<List> @:12562 check:38022,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:63094,h:1,d0:12563,d1:38023;
                                                     ("players", Expression<MethodOrOperator> @:12563 check:38023,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:21,h:0,d0:0,d1:0;)))))))
-                            (____, Scope<Boolean> @:12564 check:38024,op:25,dt:5,nt:8,next:65535,nextCheck:65535,str:63112,h:1,d0:12565,d1:38025;
+                            (____, BuiltinInvocation<Boolean> @:12564 check:38024,op:25,dt:5,nt:8,next:65535,nextCheck:65535,str:63112,h:1,d0:12565,d1:38025;
                                 ("not", Expression<MethodOrOperator> @:12565 check:38025,op:25,dt:2,nt:9,next:12566,nextCheck:38026,str:397,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:12566 check:38026,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:63117,h:1,d0:12567,d1:38027;
+                                    (____, BuiltinInvocation<Boolean> @:12566 check:38026,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:63117,h:1,d0:12567,d1:38027;
                                         ("volume_test_objects", Expression<MethodOrOperator> @:12567 check:38027,op:33,dt:2,nt:9,next:12568,nextCheck:38028,str:11606,h:0,d0:0,d1:0;
                                             ("tv_plugholder_b", Expression<Trigger> @:12568 check:38028,op:13,dt:13,nt:9,next:12569,nextCheck:38029,str:22204,h:0,d0:32,d1:0;
-                                                (____, Scope<List> @:12569 check:38029,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:63154,h:1,d0:12570,d1:38030;
+                                                (____, BuiltinInvocation<List> @:12569 check:38029,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:63154,h:1,d0:12570,d1:38030;
                                                     ("players", Expression<MethodOrOperator> @:12570 check:38030,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:21,h:0,d0:0,d1:0;)))))))))))
-            (____, Scope<Void> @:12571 check:38031,op:256,dt:4,nt:8,next:65535,nextCheck:65535,str:63179,h:1,d0:12572,d1:38032;
+            (____, BuiltinInvocation<Void> @:12571 check:38031,op:256,dt:4,nt:8,next:65535,nextCheck:65535,str:63179,h:1,d0:12572,d1:38032;
                 ("device_set_position", Expression<MethodOrOperator> @:12572 check:38032,op:256,dt:2,nt:9,next:12573,nextCheck:38033,str:3760,h:0,d0:0,d1:0;
                     ("plugholder_door", Expression<Device> @:12573 check:38033,op:60,dt:54,nt:9,next:12574,nextCheck:38034,str:22220,h:0,d0:423,d1:65535;
                         (0f, Expression<Float> @:12574 check:38034,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:63216,h:1,d0:0,d1:0;)))))))

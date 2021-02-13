@@ -1,19 +1,19 @@
 
 ("x03_texture_camera_scene_02", MethodDecl<Void> @:110 check:0,op:0,dt:0,nt:65535,next:3646,nextCheck:61873,str:8986,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:3646 check:61873,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:43677,h:0,d0:3647,d1:61874;
+    (____, BuiltinInvocation<Void> @:3646 check:61873,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:43677,h:0,d0:3647,d1:61874;
         ("begin", Expression<MethodOrOperator> @:3647 check:61874,op:0,dt:2,nt:9,next:3629,nextCheck:61856,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:3629 check:61856,op:27,dt:4,nt:8,next:3632,nextCheck:61859,str:43723,h:0,d0:3630,d1:61857;
+            (____, BuiltinInvocation<Void> @:3629 check:61856,op:27,dt:4,nt:8,next:3632,nextCheck:61859,str:43723,h:0,d0:3630,d1:61857;
                 ("print", Expression<MethodOrOperator> @:3630 check:61857,op:27,dt:2,nt:9,next:3631,nextCheck:61858,str:91,h:0,d0:0,d1:0;
                     ("texture camera start", Expression<String> @:3631 check:61858,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8663,h:0,d0:53135,d1:12462;)))
-            (____, Scope<Void> @:3632 check:61859,op:48,dt:4,nt:8,next:3635,nextCheck:61862,str:43756,h:0,d0:3633,d1:61860;
+            (____, BuiltinInvocation<Void> @:3632 check:61859,op:48,dt:4,nt:8,next:3635,nextCheck:61862,str:43756,h:0,d0:3633,d1:61860;
                 ("object_create_anew", Expression<MethodOrOperator> @:3633 check:61860,op:48,dt:2,nt:9,next:3634,nextCheck:61861,str:2379,h:0,d0:0,d1:0;
                     ("texture_camera", Expression<EntityIdentifier> @:3634 check:61861,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:8684,h:0,d0:35,d1:65535;)))
-            (____, Scope<Void> @:3635 check:61862,op:144,dt:4,nt:8,next:3640,nextCheck:61867,str:43794,h:0,d0:3636,d1:61863;
+            (____, BuiltinInvocation<Void> @:3635 check:61862,op:144,dt:4,nt:8,next:3640,nextCheck:61867,str:43794,h:0,d0:3636,d1:61863;
                 ("texture_camera_set_object_marker", Expression<MethodOrOperator> @:3636 check:61863,op:144,dt:2,nt:9,next:3637,nextCheck:61864,str:8699,h:0,d0:0,d1:0;
                     (4294901795, Expression<Entity> @:3637 check:61864,op:56,dt:50,nt:9,next:3638,nextCheck:61865,str:8684,h:0,d0:35,d1:65535;
                         ("marker", Expression<StringId> @:3638 check:61865,op:11,dt:11,nt:9,next:3639,nextCheck:61866,str:8732,h:0,d0:4989,d1:1536;
                             (50f, Expression<Float> @:3639 check:61866,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:43850,h:0,d0:0,d1:16968;)))))
-            (____, Scope<Void> @:3640 check:61867,op:186,dt:4,nt:8,next:65535,nextCheck:65535,str:43856,h:0,d0:3641,d1:61868;
+            (____, BuiltinInvocation<Void> @:3640 check:61867,op:186,dt:4,nt:8,next:65535,nextCheck:65535,str:43856,h:0,d0:3641,d1:61868;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:3641 check:61868,op:186,dt:2,nt:9,next:3642,nextCheck:61869,str:3181,h:0,d0:0,d1:0;
                     ("texture_camera", Expression<Scenery> @:3642 check:61869,op:61,dt:55,nt:9,next:3643,nextCheck:61870,str:8684,h:0,d0:35,d1:65535;
                         ("objects\cinematics\texture_camera\x03\x03", Expression<Animation> @:3643 check:61870,op:36,dt:36,nt:9,next:3644,nextCheck:61871,str:8739,h:0,d0:634,d1:58352;

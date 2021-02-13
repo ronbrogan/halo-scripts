@@ -1,45 +1,45 @@
 
 ("cs_e10_cov_phantom0_entry", MethodDecl<Void> @:233 check:0,op:0,dt:0,nt:65535,next:8612,nextCheck:34072,str:65535,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:8612 check:34072,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:39086,h:1,d0:8613,d1:34073;
+    (____, BuiltinInvocation<Void> @:8612 check:34072,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:39086,h:1,d0:8613,d1:34073;
         ("begin", Expression<MethodOrOperator> @:8613 check:34073,op:0,dt:2,nt:9,next:8571,nextCheck:34031,str:64,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:8571 check:34031,op:449,dt:4,nt:8,next:8574,nextCheck:34034,str:39137,h:1,d0:8572,d1:34032;
+            (____, BuiltinInvocation<Void> @:8571 check:34031,op:449,dt:4,nt:8,next:8574,nextCheck:34034,str:39137,h:1,d0:8572,d1:34032;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:8572 check:34032,op:449,dt:2,nt:9,next:8573,nextCheck:34033,str:4245,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:8573 check:34033,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:39169,h:1,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:8574 check:34034,op:438,dt:4,nt:8,next:8577,nextCheck:34037,str:39177,h:1,d0:8575,d1:34035;
+            (____, BuiltinInvocation<Void> @:8574 check:34034,op:438,dt:4,nt:8,next:8577,nextCheck:34037,str:39177,h:1,d0:8575,d1:34035;
                 ("cs_vehicle_boost", Expression<MethodOrOperator> @:8575 check:34035,op:438,dt:2,nt:9,next:8576,nextCheck:34036,str:11298,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:8576 check:34036,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:39195,h:1,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:8577 check:34037,op:383,dt:4,nt:8,next:8580,nextCheck:34040,str:39203,h:1,d0:8578,d1:34038;
+            (____, BuiltinInvocation<Void> @:8577 check:34037,op:383,dt:4,nt:8,next:8580,nextCheck:34040,str:39203,h:1,d0:8578,d1:34038;
                 ("cs_fly_by", Expression<MethodOrOperator> @:8578 check:34038,op:383,dt:2,nt:9,next:8579,nextCheck:34039,str:14810,h:0,d0:0,d1:0;
                     ("e10_cov_phantom0/p0", Expression<SpatialPoint> @:8579 check:34039,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:16892,h:0,d0:0,d1:29;)))
-            (____, Scope<Void> @:8580 check:34040,op:438,dt:4,nt:8,next:8583,nextCheck:34043,str:39237,h:1,d0:8581,d1:34041;
+            (____, BuiltinInvocation<Void> @:8580 check:34040,op:438,dt:4,nt:8,next:8583,nextCheck:34043,str:39237,h:1,d0:8581,d1:34041;
                 ("cs_vehicle_boost", Expression<MethodOrOperator> @:8581 check:34041,op:438,dt:2,nt:9,next:8582,nextCheck:34042,str:11298,h:0,d0:0,d1:0;
                     (False, Expression<Boolean> @:8582 check:34042,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:39255,h:1,d0:65280,d1:65535;)))
-            (____, Scope<Void> @:8583 check:34043,op:379,dt:4,nt:8,next:8586,nextCheck:34046,str:39264,h:1,d0:8584,d1:34044;
+            (____, BuiltinInvocation<Void> @:8583 check:34043,op:379,dt:4,nt:8,next:8586,nextCheck:34046,str:39264,h:1,d0:8584,d1:34044;
                 ("cs_fly_to", Expression<MethodOrOperator> @:8584 check:34044,op:379,dt:2,nt:9,next:8585,nextCheck:34045,str:14701,h:0,d0:0,d1:0;
                     ("e10_cov_phantom0/p1", Expression<SpatialPoint> @:8585 check:34045,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:16912,h:0,d0:1,d1:29;)))
-            (____, Scope<Void> @:8586 check:34046,op:4,dt:4,nt:8,next:8590,nextCheck:34050,str:39298,h:1,d0:8587,d1:34047;
+            (____, BuiltinInvocation<Void> @:8586 check:34046,op:4,dt:4,nt:8,next:8590,nextCheck:34050,str:39298,h:1,d0:8587,d1:34047;
                 ("set", Expression<MethodOrOperator> @:8587 check:34047,op:4,dt:2,nt:9,next:8588,nextCheck:34048,str:3332,h:0,d0:0,d1:0;
                     ("g_e10_cov_phantom0_arrived", VariableAccess<Boolean> @:8588 check:34048,op:65535,dt:5,nt:13,next:8589,nextCheck:34049,str:16932,h:0,d0:21,d1:0;
                         (True, Expression<Boolean> @:8589 check:34049,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:39330,h:1,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:8590 check:34050,op:382,dt:4,nt:8,next:8595,nextCheck:34055,str:39338,h:1,d0:8591,d1:34051;
+            (____, BuiltinInvocation<Void> @:8590 check:34050,op:382,dt:4,nt:8,next:8595,nextCheck:34055,str:39338,h:1,d0:8591,d1:34051;
                 ("cs_fly_to_and_face", Expression<MethodOrOperator> @:8591 check:34051,op:382,dt:2,nt:9,next:8592,nextCheck:34052,str:14731,h:0,d0:0,d1:0;
                     ("e10_cov_phantom0/p2", Expression<SpatialPoint> @:8592 check:34052,op:28,dt:28,nt:9,next:8593,nextCheck:34053,str:16959,h:0,d0:2,d1:29;
                         ("e10_cov_phantom0/p2_facing", Expression<SpatialPoint> @:8593 check:34053,op:28,dt:28,nt:9,next:8594,nextCheck:34054,str:16979,h:0,d0:3,d1:29;
                             (0.5f, Expression<Float> @:8594 check:34054,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:39405,h:1,d0:0,d1:16128;)))))
-            (____, Scope<Void> @:8595 check:34055,op:399,dt:4,nt:8,next:8599,nextCheck:34059,str:39412,h:1,d0:8596,d1:34056;
+            (____, BuiltinInvocation<Void> @:8595 check:34055,op:399,dt:4,nt:8,next:8599,nextCheck:34059,str:39412,h:1,d0:8596,d1:34056;
                 ("cs_face", Expression<MethodOrOperator> @:8596 check:34056,op:399,dt:2,nt:9,next:8597,nextCheck:34057,str:11146,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:8597 check:34057,op:5,dt:5,nt:9,next:8598,nextCheck:34058,str:39421,h:1,d0:65281,d1:65535;
                         ("e10_cov_phantom0/p2_facing", Expression<SpatialPoint> @:8598 check:34058,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:16979,h:0,d0:3,d1:29;))))
-            (____, Scope<Void> @:8599 check:34059,op:19,dt:4,nt:8,next:8602,nextCheck:34062,str:39456,h:1,d0:8600,d1:34060;
+            (____, BuiltinInvocation<Void> @:8599 check:34059,op:19,dt:4,nt:8,next:8602,nextCheck:34062,str:39456,h:1,d0:8600,d1:34060;
                 ("sleep", Expression<MethodOrOperator> @:8600 check:34060,op:19,dt:2,nt:9,next:8601,nextCheck:34061,str:143,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:8601 check:34061,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:39463,h:1,d0:30,d1:65535;)))
-            (____, Scope<Void> @:8602 check:34062,op:4,dt:4,nt:8,next:8606,nextCheck:34066,str:39483,h:1,d0:8603,d1:34063;
+            (____, BuiltinInvocation<Void> @:8602 check:34062,op:4,dt:4,nt:8,next:8606,nextCheck:34066,str:39483,h:1,d0:8603,d1:34063;
                 ("set", Expression<MethodOrOperator> @:8603 check:34063,op:4,dt:2,nt:9,next:8604,nextCheck:34064,str:3332,h:0,d0:0,d1:0;
                     ("g_e10_cov_ghosts0_unloaded", VariableAccess<Boolean> @:8604 check:34064,op:65535,dt:5,nt:13,next:8605,nextCheck:34065,str:17006,h:0,d0:22,d1:0;
                         (True, Expression<Boolean> @:8605 check:34065,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:39515,h:1,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:8606 check:34066,op:233,dt:4,nt:8,next:65535,nextCheck:65535,str:39523,h:1,d0:8607,d1:34067;
+            (____, BuiltinInvocation<Void> @:8606 check:34066,op:233,dt:4,nt:8,next:65535,nextCheck:65535,str:39523,h:1,d0:8607,d1:34067;
                 ("vehicle_unload", Expression<MethodOrOperator> @:8607 check:34067,op:233,dt:2,nt:9,next:8608,nextCheck:34068,str:11073,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:8608 check:34068,op:340,dt:50,nt:8,next:8611,nextCheck:34071,str:39539,h:1,d0:8609,d1:34069;
+                    (____, BuiltinInvocation<Entity> @:8608 check:34068,op:340,dt:50,nt:8,next:8611,nextCheck:34071,str:39539,h:1,d0:8609,d1:34069;
                         ("ai_vehicle_get", Expression<MethodOrOperator> @:8609 check:34069,op:340,dt:2,nt:9,next:8610,nextCheck:34070,str:4296,h:0,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:8610 check:34070,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4311,h:0,d0:33564,d1:65535;)))
                     ("phantom_sc", Expression<VehicleSeat> @:8611 check:34071,op:12,dt:12,nt:9,next:65535,nextCheck:65535,str:17033,h:0,d0:4,d1:1;))))))

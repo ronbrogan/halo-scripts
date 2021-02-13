@@ -1,28 +1,28 @@
 
 ("x07_emotion_miranda_03", MethodDecl<Void> @:105 check:0,op:0,dt:0,nt:65535,next:3293,nextCheck:61520,str:8777,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:3293 check:61520,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:40108,h:0,d0:3294,d1:61521;
+    (____, BuiltinInvocation<Void> @:3293 check:61520,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:40108,h:0,d0:3294,d1:61521;
         ("begin", Expression<MethodOrOperator> @:3294 check:61521,op:0,dt:2,nt:9,next:3269,nextCheck:61496,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:3269 check:61496,op:19,dt:4,nt:8,next:3272,nextCheck:61499,str:40152,h:0,d0:3270,d1:61497;
+            (____, BuiltinInvocation<Void> @:3269 check:61496,op:19,dt:4,nt:8,next:3272,nextCheck:61499,str:40152,h:0,d0:3270,d1:61497;
                 ("sleep", Expression<MethodOrOperator> @:3270 check:61497,op:19,dt:2,nt:9,next:3271,nextCheck:61498,str:85,h:0,d0:0,d1:0;
                     (300, Expression<Short> @:3271 check:61498,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:40159,h:0,d0:300,d1:65535;)))
-            (____, Scope<Void> @:3272 check:61499,op:220,dt:4,nt:8,next:3278,nextCheck:61505,str:40166,h:0,d0:3273,d1:61500;
+            (____, BuiltinInvocation<Void> @:3272 check:61499,op:220,dt:4,nt:8,next:3278,nextCheck:61505,str:40166,h:0,d0:3273,d1:61500;
                 ("unit_set_emotional_state", Expression<MethodOrOperator> @:3273 check:61500,op:220,dt:2,nt:9,next:3274,nextCheck:61501,str:5478,h:0,d0:0,d1:0;
                     ("miranda", Expression<Unit> @:3274 check:61501,op:57,dt:51,nt:9,next:3275,nextCheck:61502,str:5412,h:0,d0:25,d1:65535;
                         ("shocked", Expression<StringId> @:3275 check:61502,op:11,dt:11,nt:9,next:3276,nextCheck:61503,str:6382,h:0,d0:426,d1:1792;
                             (0.5f, Expression<Float> @:3276 check:61503,op:6,dt:6,nt:9,next:3277,nextCheck:61504,str:40208,h:0,d0:0,d1:16128;
                                 (0, Expression<Short> @:3277 check:61504,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:40211,h:0,d0:0,d1:65535;))))))
-            (____, Scope<Void> @:3278 check:61505,op:27,dt:4,nt:8,next:3281,nextCheck:61508,str:40216,h:0,d0:3279,d1:61506;
+            (____, BuiltinInvocation<Void> @:3278 check:61505,op:27,dt:4,nt:8,next:3281,nextCheck:61508,str:40216,h:0,d0:3279,d1:61506;
                 ("print", Expression<MethodOrOperator> @:3279 check:61506,op:27,dt:2,nt:9,next:3280,nextCheck:61507,str:91,h:0,d0:0,d1:0;
                     ("miranda - shocked .5 0", Expression<String> @:3280 check:61507,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:6390,h:0,d0:57590,d1:12389;)))
-            (____, Scope<Void> @:3281 check:61508,op:19,dt:4,nt:8,next:3284,nextCheck:61511,str:40254,h:0,d0:3282,d1:61509;
+            (____, BuiltinInvocation<Void> @:3281 check:61508,op:19,dt:4,nt:8,next:3284,nextCheck:61511,str:40254,h:0,d0:3282,d1:61509;
                 ("sleep", Expression<MethodOrOperator> @:3282 check:61509,op:19,dt:2,nt:9,next:3283,nextCheck:61510,str:85,h:0,d0:0,d1:0;
                     (38, Expression<Short> @:3283 check:61510,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:40261,h:0,d0:38,d1:65535;)))
-            (____, Scope<Void> @:3284 check:61511,op:220,dt:4,nt:8,next:3290,nextCheck:61517,str:40267,h:0,d0:3285,d1:61512;
+            (____, BuiltinInvocation<Void> @:3284 check:61511,op:220,dt:4,nt:8,next:3290,nextCheck:61517,str:40267,h:0,d0:3285,d1:61512;
                 ("unit_set_emotional_state", Expression<MethodOrOperator> @:3285 check:61512,op:220,dt:2,nt:9,next:3286,nextCheck:61513,str:5478,h:0,d0:0,d1:0;
                     ("miranda", Expression<Unit> @:3286 check:61513,op:57,dt:51,nt:9,next:3287,nextCheck:61514,str:5412,h:0,d0:25,d1:65535;
                         ("pain", Expression<StringId> @:3287 check:61514,op:11,dt:11,nt:9,next:3288,nextCheck:61515,str:5503,h:0,d0:432,d1:1024;
                             (0.8f, Expression<Float> @:3288 check:61515,op:6,dt:6,nt:9,next:3289,nextCheck:61516,str:40306,h:0,d0:52429,d1:16204;
                                 (10, Expression<Short> @:3289 check:61516,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:40309,h:0,d0:10,d1:65535;))))))
-            (____, Scope<Void> @:3290 check:61517,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:40315,h:0,d0:3291,d1:61518;
+            (____, BuiltinInvocation<Void> @:3290 check:61517,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:40315,h:0,d0:3291,d1:61518;
                 ("print", Expression<MethodOrOperator> @:3291 check:61518,op:27,dt:2,nt:9,next:3292,nextCheck:61519,str:91,h:0,d0:0,d1:0;
                     ("miranda - shocked 1 10", Expression<String> @:3292 check:61519,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8678,h:0,d0:59878,d1:12389;))))))

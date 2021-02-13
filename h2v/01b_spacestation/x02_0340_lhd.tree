@@ -1,25 +1,25 @@
 
 ("x02_0340_lhd", MethodDecl<Void> @:144 check:0,op:0,dt:0,nt:65535,next:5878,nextCheck:64105,str:14745,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:5878 check:64105,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:6764,h:1,d0:5879,d1:64106;
+    (____, BuiltinInvocation<Void> @:5878 check:64105,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:6764,h:1,d0:5879,d1:64106;
         ("begin", Expression<MethodOrOperator> @:5879 check:64106,op:0,dt:2,nt:9,next:5857,nextCheck:64084,str:11,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:5857 check:64084,op:220,dt:4,nt:8,next:5863,nextCheck:64090,str:6797,h:1,d0:5858,d1:64085;
+            (____, BuiltinInvocation<Void> @:5857 check:64084,op:220,dt:4,nt:8,next:5863,nextCheck:64090,str:6797,h:1,d0:5858,d1:64085;
                 ("unit_set_emotional_state", Expression<MethodOrOperator> @:5858 check:64085,op:220,dt:2,nt:9,next:5859,nextCheck:64086,str:1808,h:0,d0:0,d1:0;
                     ("hood_x02", Expression<Unit> @:5859 check:64086,op:57,dt:51,nt:9,next:5860,nextCheck:64087,str:7490,h:0,d0:310,d1:65535;
                         ("angry", Expression<StringId> @:5860 check:64087,op:11,dt:11,nt:9,next:5861,nextCheck:64088,str:7649,h:0,d0:430,d1:1280;
                             (0.5f, Expression<Float> @:5861 check:64088,op:6,dt:6,nt:9,next:5862,nextCheck:64089,str:6838,h:1,d0:0,d1:16128;
                                 (15, Expression<Short> @:5862 check:64089,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:6841,h:1,d0:15,d1:65535;))))))
-            (____, Scope<Void> @:5863 check:64090,op:27,dt:4,nt:8,next:5866,nextCheck:64093,str:6847,h:1,d0:5864,d1:64091;
+            (____, BuiltinInvocation<Void> @:5863 check:64090,op:27,dt:4,nt:8,next:5866,nextCheck:64093,str:6847,h:1,d0:5864,d1:64091;
                 ("print", Expression<MethodOrOperator> @:5864 check:64091,op:27,dt:2,nt:9,next:5865,nextCheck:64092,str:96,h:0,d0:0,d1:0;
                     ("hood - angry .5 15", Expression<String> @:5865 check:64092,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:14667,h:0,d0:47483,d1:12558;)))
-            (____, Scope<Void> @:5866 check:64093,op:19,dt:4,nt:8,next:5869,nextCheck:64096,str:6880,h:1,d0:5867,d1:64094;
+            (____, BuiltinInvocation<Void> @:5866 check:64093,op:19,dt:4,nt:8,next:5869,nextCheck:64096,str:6880,h:1,d0:5867,d1:64094;
                 ("sleep", Expression<MethodOrOperator> @:5867 check:64094,op:19,dt:2,nt:9,next:5868,nextCheck:64095,str:90,h:0,d0:0,d1:0;
                     (150, Expression<Short> @:5868 check:64095,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:6887,h:1,d0:150,d1:65535;)))
-            (____, Scope<Void> @:5869 check:64096,op:596,dt:4,nt:8,next:5874,nextCheck:64101,str:6894,h:1,d0:5870,d1:64097;
+            (____, BuiltinInvocation<Void> @:5869 check:64096,op:596,dt:4,nt:8,next:5874,nextCheck:64101,str:6894,h:1,d0:5870,d1:64097;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:5870 check:64097,op:596,dt:2,nt:9,next:5871,nextCheck:64098,str:1446,h:0,d0:0,d1:0;
                     ("sound\dialog\levels\01_spacestation\cinematic\x02_0340_lhd", Expression<Sound> @:5871 check:64098,op:32,dt:32,nt:9,next:5872,nextCheck:64099,str:14686,h:0,d0:4133,d1:62021;
                         (4294902070, Expression<Entity> @:5872 check:64099,op:56,dt:50,nt:9,next:5873,nextCheck:64100,str:7490,h:0,d0:310,d1:65535;
                             (1f, Expression<Float> @:5873 check:64100,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:6983,h:1,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:5874 check:64101,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:6988,h:1,d0:5875,d1:64102;
+            (____, BuiltinInvocation<Void> @:5874 check:64101,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:6988,h:1,d0:5875,d1:64102;
                 ("cinematic_subtitle", Expression<MethodOrOperator> @:5875 check:64102,op:562,dt:2,nt:9,next:5876,nextCheck:64103,str:1689,h:0,d0:0,d1:0;
                     ("x02_0340_lhd", Expression<StringId> @:5876 check:64103,op:11,dt:11,nt:9,next:5877,nextCheck:64104,str:14745,h:0,d0:7992,d1:3072;
                         (1f, Expression<Float> @:5877 check:64104,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:7021,h:1,d0:0,d1:16256;)))))))

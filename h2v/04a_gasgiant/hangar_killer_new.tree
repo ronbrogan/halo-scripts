@@ -1,118 +1,118 @@
 
 ("hangar_killer_new", MethodDecl<Void> @:276 check:0,op:0,dt:0,nt:65535,next:10486,nextCheck:35946,str:25913,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:10486 check:35946,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:55360,h:1,d0:10487,d1:35947;
+    (____, BuiltinInvocation<Void> @:10486 check:35946,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:55360,h:1,d0:10487,d1:35947;
         ("begin", Expression<MethodOrOperator> @:10487 check:35947,op:0,dt:2,nt:9,next:10372,nextCheck:35832,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:10372 check:35832,op:21,dt:4,nt:8,next:10378,nextCheck:35838,str:55396,h:1,d0:10373,d1:35833;
+            (____, BuiltinInvocation<Void> @:10372 check:35832,op:21,dt:4,nt:8,next:10378,nextCheck:35838,str:55396,h:1,d0:10373,d1:35833;
                 ("sleep_until", Expression<MethodOrOperator> @:10373 check:35833,op:21,dt:2,nt:9,next:10374,nextCheck:35834,str:236,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:10374 check:35834,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:55409,h:1,d0:10375,d1:35835;
+                    (____, BuiltinInvocation<Boolean> @:10374 check:35834,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:55409,h:1,d0:10375,d1:35835;
                         ("=", Expression<MethodOrOperator> @:10375 check:35835,op:13,dt:2,nt:9,next:10376,nextCheck:35836,str:301,h:0,d0:0,d1:0;
                             ("hangar_power_on", VariableAccess<Boolean> @:10376 check:35836,op:0,dt:5,nt:13,next:10377,nextCheck:35837,str:21977,h:0,d0:12,d1:0;
                                 (True, Expression<Boolean> @:10377 check:35837,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:55428,h:1,d0:65281,d1:65535;))))))
-            (____, Scope<Void> @:10378 check:35838,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:55437,h:1,d0:10379,d1:35839;
+            (____, BuiltinInvocation<Void> @:10378 check:35838,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:55437,h:1,d0:10379,d1:35839;
                 ("sleep_until", Expression<MethodOrOperator> @:10379 check:35839,op:21,dt:2,nt:9,next:10380,nextCheck:35840,str:236,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:10380 check:35840,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:55453,h:1,d0:10381,d1:35841;
+                    (____, BuiltinInvocation<Boolean> @:10380 check:35840,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:55453,h:1,d0:10381,d1:35841;
                         ("begin", Expression<MethodOrOperator> @:10381 check:35841,op:0,dt:2,nt:9,next:10382,nextCheck:35842,str:6,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:10382 check:35842,op:52,dt:4,nt:8,next:10390,nextCheck:35850,str:55464,h:1,d0:10383,d1:35843;
+                            (____, BuiltinInvocation<Void> @:10382 check:35842,op:52,dt:4,nt:8,next:10390,nextCheck:35850,str:55464,h:1,d0:10383,d1:35843;
                                 ("object_destroy", Expression<MethodOrOperator> @:10383 check:35843,op:52,dt:2,nt:9,next:10384,nextCheck:35844,str:3310,h:0,d0:0,d1:0;
-                                    (____, Scope<Entity> @:10384 check:35844,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:55480,h:1,d0:10385,d1:35845;
+                                    (____, BuiltinInvocation<Entity> @:10384 check:35844,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:55480,h:1,d0:10385,d1:35845;
                                         ("list_get", Expression<MethodOrOperator> @:10385 check:35845,op:37,dt:2,nt:9,next:10386,nextCheck:35846,str:17,h:0,d0:0,d1:0;
-                                            (____, Scope<List> @:10386 check:35846,op:35,dt:31,nt:8,next:10389,nextCheck:35849,str:55490,h:1,d0:10387,d1:35847;
+                                            (____, BuiltinInvocation<List> @:10386 check:35846,op:35,dt:31,nt:8,next:10389,nextCheck:35849,str:55490,h:1,d0:10387,d1:35847;
                                                 ("volume_return_objects", Expression<MethodOrOperator> @:10387 check:35847,op:35,dt:2,nt:9,next:10388,nextCheck:35848,str:20166,h:0,d0:0,d1:0;
                                                     ("kill_hangar_pit_01", Expression<Trigger> @:10388 check:35848,op:13,dt:13,nt:9,next:65535,nextCheck:65535,str:16960,h:0,d0:87,d1:0;)))
                                             (0, Expression<Short> @:10389 check:35849,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55533,h:1,d0:0,d1:65535;)))))
-                            (____, Scope<Void> @:10390 check:35850,op:19,dt:4,nt:8,next:10393,nextCheck:35853,str:55541,h:1,d0:10391,d1:35851;
+                            (____, BuiltinInvocation<Void> @:10390 check:35850,op:19,dt:4,nt:8,next:10393,nextCheck:35853,str:55541,h:1,d0:10391,d1:35851;
                                 ("sleep", Expression<MethodOrOperator> @:10391 check:35851,op:19,dt:2,nt:9,next:10392,nextCheck:35852,str:85,h:0,d0:0,d1:0;
                                     (30, Expression<Short> @:10392 check:35852,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55548,h:1,d0:30,d1:65535;)))
-                            (____, Scope<Void> @:10393 check:35853,op:197,dt:4,nt:8,next:10404,nextCheck:35864,str:55556,h:1,d0:10394,d1:35854;
+                            (____, BuiltinInvocation<Void> @:10393 check:35853,op:197,dt:4,nt:8,next:10404,nextCheck:35864,str:55556,h:1,d0:10394,d1:35854;
                                 ("unit_kill_silent", Expression<MethodOrOperator> @:10394 check:35854,op:197,dt:2,nt:9,next:10395,nextCheck:35855,str:20188,h:0,d0:0,d1:0;
-                                    (____, Scope<Unit> @:10395 check:35855,op:24,dt:51,nt:8,next:65535,nextCheck:65535,str:55574,h:1,d0:10396,d1:35856;
+                                    (____, BuiltinInvocation<Unit> @:10395 check:35855,op:24,dt:51,nt:8,next:65535,nextCheck:65535,str:55574,h:1,d0:10396,d1:35856;
                                         ("unit", Expression<MethodOrOperator> @:10396 check:35856,op:24,dt:2,nt:9,next:10397,nextCheck:35857,str:12,h:0,d0:0,d1:0;
-                                            (____, Scope<Entity> @:10397 check:35857,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:55580,h:1,d0:10398,d1:35858;
+                                            (____, BuiltinInvocation<Entity> @:10397 check:35857,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:55580,h:1,d0:10398,d1:35858;
                                                 ("list_get", Expression<MethodOrOperator> @:10398 check:35858,op:37,dt:2,nt:9,next:10399,nextCheck:35859,str:17,h:0,d0:0,d1:0;
-                                                    (____, Scope<List> @:10399 check:35859,op:36,dt:31,nt:8,next:10403,nextCheck:35863,str:55590,h:1,d0:10400,d1:35860;
+                                                    (____, BuiltinInvocation<List> @:10399 check:35859,op:36,dt:31,nt:8,next:10403,nextCheck:35863,str:55590,h:1,d0:10400,d1:35860;
                                                         ("volume_return_objects_by_type", Expression<MethodOrOperator> @:10400 check:35860,op:36,dt:2,nt:9,next:10401,nextCheck:35861,str:20031,h:0,d0:0,d1:0;
                                                             ("kill_hangar_pit_01", Expression<Trigger> @:10401 check:35861,op:13,dt:13,nt:9,next:10402,nextCheck:35862,str:16960,h:0,d0:87,d1:0;
                                                                 (1, Expression<Int> @:10402 check:35862,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:55640,h:1,d0:1,d1:0;))))
                                                     (0, Expression<Short> @:10403 check:35863,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55643,h:1,d0:0,d1:65535;)))))))
-                            (____, Scope<Void> @:10404 check:35864,op:19,dt:4,nt:8,next:10407,nextCheck:35867,str:55652,h:1,d0:10405,d1:35865;
+                            (____, BuiltinInvocation<Void> @:10404 check:35864,op:19,dt:4,nt:8,next:10407,nextCheck:35867,str:55652,h:1,d0:10405,d1:35865;
                                 ("sleep", Expression<MethodOrOperator> @:10405 check:35865,op:19,dt:2,nt:9,next:10406,nextCheck:35866,str:85,h:0,d0:0,d1:0;
                                     (30, Expression<Short> @:10406 check:35866,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55659,h:1,d0:30,d1:65535;)))
-                            (____, Scope<Void> @:10407 check:35867,op:52,dt:4,nt:8,next:10415,nextCheck:35875,str:55667,h:1,d0:10408,d1:35868;
+                            (____, BuiltinInvocation<Void> @:10407 check:35867,op:52,dt:4,nt:8,next:10415,nextCheck:35875,str:55667,h:1,d0:10408,d1:35868;
                                 ("object_destroy", Expression<MethodOrOperator> @:10408 check:35868,op:52,dt:2,nt:9,next:10409,nextCheck:35869,str:3310,h:0,d0:0,d1:0;
-                                    (____, Scope<Entity> @:10409 check:35869,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:55683,h:1,d0:10410,d1:35870;
+                                    (____, BuiltinInvocation<Entity> @:10409 check:35869,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:55683,h:1,d0:10410,d1:35870;
                                         ("list_get", Expression<MethodOrOperator> @:10410 check:35870,op:37,dt:2,nt:9,next:10411,nextCheck:35871,str:17,h:0,d0:0,d1:0;
-                                            (____, Scope<List> @:10411 check:35871,op:35,dt:31,nt:8,next:10414,nextCheck:35874,str:55693,h:1,d0:10412,d1:35872;
+                                            (____, BuiltinInvocation<List> @:10411 check:35871,op:35,dt:31,nt:8,next:10414,nextCheck:35874,str:55693,h:1,d0:10412,d1:35872;
                                                 ("volume_return_objects", Expression<MethodOrOperator> @:10412 check:35872,op:35,dt:2,nt:9,next:10413,nextCheck:35873,str:20166,h:0,d0:0,d1:0;
                                                     ("kill_hangar_pit_02", Expression<Trigger> @:10413 check:35873,op:13,dt:13,nt:9,next:65535,nextCheck:65535,str:16979,h:0,d0:88,d1:0;)))
                                             (0, Expression<Short> @:10414 check:35874,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55736,h:1,d0:0,d1:65535;)))))
-                            (____, Scope<Void> @:10415 check:35875,op:19,dt:4,nt:8,next:10418,nextCheck:35878,str:55744,h:1,d0:10416,d1:35876;
+                            (____, BuiltinInvocation<Void> @:10415 check:35875,op:19,dt:4,nt:8,next:10418,nextCheck:35878,str:55744,h:1,d0:10416,d1:35876;
                                 ("sleep", Expression<MethodOrOperator> @:10416 check:35876,op:19,dt:2,nt:9,next:10417,nextCheck:35877,str:85,h:0,d0:0,d1:0;
                                     (30, Expression<Short> @:10417 check:35877,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55751,h:1,d0:30,d1:65535;)))
-                            (____, Scope<Void> @:10418 check:35878,op:197,dt:4,nt:8,next:10429,nextCheck:35889,str:55759,h:1,d0:10419,d1:35879;
+                            (____, BuiltinInvocation<Void> @:10418 check:35878,op:197,dt:4,nt:8,next:10429,nextCheck:35889,str:55759,h:1,d0:10419,d1:35879;
                                 ("unit_kill_silent", Expression<MethodOrOperator> @:10419 check:35879,op:197,dt:2,nt:9,next:10420,nextCheck:35880,str:20188,h:0,d0:0,d1:0;
-                                    (____, Scope<Unit> @:10420 check:35880,op:24,dt:51,nt:8,next:65535,nextCheck:65535,str:55777,h:1,d0:10421,d1:35881;
+                                    (____, BuiltinInvocation<Unit> @:10420 check:35880,op:24,dt:51,nt:8,next:65535,nextCheck:65535,str:55777,h:1,d0:10421,d1:35881;
                                         ("unit", Expression<MethodOrOperator> @:10421 check:35881,op:24,dt:2,nt:9,next:10422,nextCheck:35882,str:12,h:0,d0:0,d1:0;
-                                            (____, Scope<Entity> @:10422 check:35882,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:55783,h:1,d0:10423,d1:35883;
+                                            (____, BuiltinInvocation<Entity> @:10422 check:35882,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:55783,h:1,d0:10423,d1:35883;
                                                 ("list_get", Expression<MethodOrOperator> @:10423 check:35883,op:37,dt:2,nt:9,next:10424,nextCheck:35884,str:17,h:0,d0:0,d1:0;
-                                                    (____, Scope<List> @:10424 check:35884,op:36,dt:31,nt:8,next:10428,nextCheck:35888,str:55793,h:1,d0:10425,d1:35885;
+                                                    (____, BuiltinInvocation<List> @:10424 check:35884,op:36,dt:31,nt:8,next:10428,nextCheck:35888,str:55793,h:1,d0:10425,d1:35885;
                                                         ("volume_return_objects_by_type", Expression<MethodOrOperator> @:10425 check:35885,op:36,dt:2,nt:9,next:10426,nextCheck:35886,str:20031,h:0,d0:0,d1:0;
                                                             ("kill_hangar_pit_02", Expression<Trigger> @:10426 check:35886,op:13,dt:13,nt:9,next:10427,nextCheck:35887,str:16979,h:0,d0:88,d1:0;
                                                                 (1, Expression<Int> @:10427 check:35887,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:55843,h:1,d0:1,d1:0;))))
                                                     (0, Expression<Short> @:10428 check:35888,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55846,h:1,d0:0,d1:65535;)))))))
-                            (____, Scope<Void> @:10429 check:35889,op:19,dt:4,nt:8,next:10432,nextCheck:35892,str:55855,h:1,d0:10430,d1:35890;
+                            (____, BuiltinInvocation<Void> @:10429 check:35889,op:19,dt:4,nt:8,next:10432,nextCheck:35892,str:55855,h:1,d0:10430,d1:35890;
                                 ("sleep", Expression<MethodOrOperator> @:10430 check:35890,op:19,dt:2,nt:9,next:10431,nextCheck:35891,str:85,h:0,d0:0,d1:0;
                                     (30, Expression<Short> @:10431 check:35891,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55862,h:1,d0:30,d1:65535;)))
-                            (____, Scope<Void> @:10432 check:35892,op:52,dt:4,nt:8,next:10440,nextCheck:35900,str:55870,h:1,d0:10433,d1:35893;
+                            (____, BuiltinInvocation<Void> @:10432 check:35892,op:52,dt:4,nt:8,next:10440,nextCheck:35900,str:55870,h:1,d0:10433,d1:35893;
                                 ("object_destroy", Expression<MethodOrOperator> @:10433 check:35893,op:52,dt:2,nt:9,next:10434,nextCheck:35894,str:3310,h:0,d0:0,d1:0;
-                                    (____, Scope<Entity> @:10434 check:35894,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:55886,h:1,d0:10435,d1:35895;
+                                    (____, BuiltinInvocation<Entity> @:10434 check:35894,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:55886,h:1,d0:10435,d1:35895;
                                         ("list_get", Expression<MethodOrOperator> @:10435 check:35895,op:37,dt:2,nt:9,next:10436,nextCheck:35896,str:17,h:0,d0:0,d1:0;
-                                            (____, Scope<List> @:10436 check:35896,op:35,dt:31,nt:8,next:10439,nextCheck:35899,str:55896,h:1,d0:10437,d1:35897;
+                                            (____, BuiltinInvocation<List> @:10436 check:35896,op:35,dt:31,nt:8,next:10439,nextCheck:35899,str:55896,h:1,d0:10437,d1:35897;
                                                 ("volume_return_objects", Expression<MethodOrOperator> @:10437 check:35897,op:35,dt:2,nt:9,next:10438,nextCheck:35898,str:20166,h:0,d0:0,d1:0;
                                                     ("kill_hangar_pit_03", Expression<Trigger> @:10438 check:35898,op:13,dt:13,nt:9,next:65535,nextCheck:65535,str:16998,h:0,d0:89,d1:0;)))
                                             (0, Expression<Short> @:10439 check:35899,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55939,h:1,d0:0,d1:65535;)))))
-                            (____, Scope<Void> @:10440 check:35900,op:19,dt:4,nt:8,next:10443,nextCheck:35903,str:55947,h:1,d0:10441,d1:35901;
+                            (____, BuiltinInvocation<Void> @:10440 check:35900,op:19,dt:4,nt:8,next:10443,nextCheck:35903,str:55947,h:1,d0:10441,d1:35901;
                                 ("sleep", Expression<MethodOrOperator> @:10441 check:35901,op:19,dt:2,nt:9,next:10442,nextCheck:35902,str:85,h:0,d0:0,d1:0;
                                     (30, Expression<Short> @:10442 check:35902,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55954,h:1,d0:30,d1:65535;)))
-                            (____, Scope<Void> @:10443 check:35903,op:197,dt:4,nt:8,next:10454,nextCheck:35914,str:55962,h:1,d0:10444,d1:35904;
+                            (____, BuiltinInvocation<Void> @:10443 check:35903,op:197,dt:4,nt:8,next:10454,nextCheck:35914,str:55962,h:1,d0:10444,d1:35904;
                                 ("unit_kill_silent", Expression<MethodOrOperator> @:10444 check:35904,op:197,dt:2,nt:9,next:10445,nextCheck:35905,str:20188,h:0,d0:0,d1:0;
-                                    (____, Scope<Unit> @:10445 check:35905,op:24,dt:51,nt:8,next:65535,nextCheck:65535,str:55980,h:1,d0:10446,d1:35906;
+                                    (____, BuiltinInvocation<Unit> @:10445 check:35905,op:24,dt:51,nt:8,next:65535,nextCheck:65535,str:55980,h:1,d0:10446,d1:35906;
                                         ("unit", Expression<MethodOrOperator> @:10446 check:35906,op:24,dt:2,nt:9,next:10447,nextCheck:35907,str:12,h:0,d0:0,d1:0;
-                                            (____, Scope<Entity> @:10447 check:35907,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:55986,h:1,d0:10448,d1:35908;
+                                            (____, BuiltinInvocation<Entity> @:10447 check:35907,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:55986,h:1,d0:10448,d1:35908;
                                                 ("list_get", Expression<MethodOrOperator> @:10448 check:35908,op:37,dt:2,nt:9,next:10449,nextCheck:35909,str:17,h:0,d0:0,d1:0;
-                                                    (____, Scope<List> @:10449 check:35909,op:36,dt:31,nt:8,next:10453,nextCheck:35913,str:55996,h:1,d0:10450,d1:35910;
+                                                    (____, BuiltinInvocation<List> @:10449 check:35909,op:36,dt:31,nt:8,next:10453,nextCheck:35913,str:55996,h:1,d0:10450,d1:35910;
                                                         ("volume_return_objects_by_type", Expression<MethodOrOperator> @:10450 check:35910,op:36,dt:2,nt:9,next:10451,nextCheck:35911,str:20031,h:0,d0:0,d1:0;
                                                             ("kill_hangar_pit_03", Expression<Trigger> @:10451 check:35911,op:13,dt:13,nt:9,next:10452,nextCheck:35912,str:16998,h:0,d0:89,d1:0;
                                                                 (1, Expression<Int> @:10452 check:35912,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:56046,h:1,d0:1,d1:0;))))
                                                     (0, Expression<Short> @:10453 check:35913,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:56049,h:1,d0:0,d1:65535;)))))))
-                            (____, Scope<Void> @:10454 check:35914,op:19,dt:4,nt:8,next:10457,nextCheck:35917,str:56058,h:1,d0:10455,d1:35915;
+                            (____, BuiltinInvocation<Void> @:10454 check:35914,op:19,dt:4,nt:8,next:10457,nextCheck:35917,str:56058,h:1,d0:10455,d1:35915;
                                 ("sleep", Expression<MethodOrOperator> @:10455 check:35915,op:19,dt:2,nt:9,next:10456,nextCheck:35916,str:85,h:0,d0:0,d1:0;
                                     (30, Expression<Short> @:10456 check:35916,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:56065,h:1,d0:30,d1:65535;)))
-                            (____, Scope<Void> @:10457 check:35917,op:52,dt:4,nt:8,next:10465,nextCheck:35925,str:56073,h:1,d0:10458,d1:35918;
+                            (____, BuiltinInvocation<Void> @:10457 check:35917,op:52,dt:4,nt:8,next:10465,nextCheck:35925,str:56073,h:1,d0:10458,d1:35918;
                                 ("object_destroy", Expression<MethodOrOperator> @:10458 check:35918,op:52,dt:2,nt:9,next:10459,nextCheck:35919,str:3310,h:0,d0:0,d1:0;
-                                    (____, Scope<Entity> @:10459 check:35919,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:56089,h:1,d0:10460,d1:35920;
+                                    (____, BuiltinInvocation<Entity> @:10459 check:35919,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:56089,h:1,d0:10460,d1:35920;
                                         ("list_get", Expression<MethodOrOperator> @:10460 check:35920,op:37,dt:2,nt:9,next:10461,nextCheck:35921,str:17,h:0,d0:0,d1:0;
-                                            (____, Scope<List> @:10461 check:35921,op:35,dt:31,nt:8,next:10464,nextCheck:35924,str:56099,h:1,d0:10462,d1:35922;
+                                            (____, BuiltinInvocation<List> @:10461 check:35921,op:35,dt:31,nt:8,next:10464,nextCheck:35924,str:56099,h:1,d0:10462,d1:35922;
                                                 ("volume_return_objects", Expression<MethodOrOperator> @:10462 check:35922,op:35,dt:2,nt:9,next:10463,nextCheck:35923,str:20166,h:0,d0:0,d1:0;
                                                     ("kill_hangar_pit_04", Expression<Trigger> @:10463 check:35923,op:13,dt:13,nt:9,next:65535,nextCheck:65535,str:17017,h:0,d0:90,d1:0;)))
                                             (0, Expression<Short> @:10464 check:35924,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:56142,h:1,d0:0,d1:65535;)))))
-                            (____, Scope<Void> @:10465 check:35925,op:19,dt:4,nt:8,next:10468,nextCheck:35928,str:56150,h:1,d0:10466,d1:35926;
+                            (____, BuiltinInvocation<Void> @:10465 check:35925,op:19,dt:4,nt:8,next:10468,nextCheck:35928,str:56150,h:1,d0:10466,d1:35926;
                                 ("sleep", Expression<MethodOrOperator> @:10466 check:35926,op:19,dt:2,nt:9,next:10467,nextCheck:35927,str:85,h:0,d0:0,d1:0;
                                     (30, Expression<Short> @:10467 check:35927,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:56157,h:1,d0:30,d1:65535;)))
-                            (____, Scope<Void> @:10468 check:35928,op:197,dt:4,nt:8,next:10479,nextCheck:35939,str:56165,h:1,d0:10469,d1:35929;
+                            (____, BuiltinInvocation<Void> @:10468 check:35928,op:197,dt:4,nt:8,next:10479,nextCheck:35939,str:56165,h:1,d0:10469,d1:35929;
                                 ("unit_kill_silent", Expression<MethodOrOperator> @:10469 check:35929,op:197,dt:2,nt:9,next:10470,nextCheck:35930,str:20188,h:0,d0:0,d1:0;
-                                    (____, Scope<Unit> @:10470 check:35930,op:24,dt:51,nt:8,next:65535,nextCheck:65535,str:56183,h:1,d0:10471,d1:35931;
+                                    (____, BuiltinInvocation<Unit> @:10470 check:35930,op:24,dt:51,nt:8,next:65535,nextCheck:65535,str:56183,h:1,d0:10471,d1:35931;
                                         ("unit", Expression<MethodOrOperator> @:10471 check:35931,op:24,dt:2,nt:9,next:10472,nextCheck:35932,str:12,h:0,d0:0,d1:0;
-                                            (____, Scope<Entity> @:10472 check:35932,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:56189,h:1,d0:10473,d1:35933;
+                                            (____, BuiltinInvocation<Entity> @:10472 check:35932,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:56189,h:1,d0:10473,d1:35933;
                                                 ("list_get", Expression<MethodOrOperator> @:10473 check:35933,op:37,dt:2,nt:9,next:10474,nextCheck:35934,str:17,h:0,d0:0,d1:0;
-                                                    (____, Scope<List> @:10474 check:35934,op:36,dt:31,nt:8,next:10478,nextCheck:35938,str:56199,h:1,d0:10475,d1:35935;
+                                                    (____, BuiltinInvocation<List> @:10474 check:35934,op:36,dt:31,nt:8,next:10478,nextCheck:35938,str:56199,h:1,d0:10475,d1:35935;
                                                         ("volume_return_objects_by_type", Expression<MethodOrOperator> @:10475 check:35935,op:36,dt:2,nt:9,next:10476,nextCheck:35936,str:20031,h:0,d0:0,d1:0;
                                                             ("kill_hangar_pit_04", Expression<Trigger> @:10476 check:35936,op:13,dt:13,nt:9,next:10477,nextCheck:35937,str:17017,h:0,d0:90,d1:0;
                                                                 (1, Expression<Int> @:10477 check:35937,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:56249,h:1,d0:1,d1:0;))))
                                                     (0, Expression<Short> @:10478 check:35938,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:56252,h:1,d0:0,d1:65535;)))))))
-                            (____, Scope<Void> @:10479 check:35939,op:19,dt:4,nt:8,next:10482,nextCheck:35942,str:56261,h:1,d0:10480,d1:35940;
+                            (____, BuiltinInvocation<Void> @:10479 check:35939,op:19,dt:4,nt:8,next:10482,nextCheck:35942,str:56261,h:1,d0:10480,d1:35940;
                                 ("sleep", Expression<MethodOrOperator> @:10480 check:35940,op:19,dt:2,nt:9,next:10481,nextCheck:35941,str:85,h:0,d0:0,d1:0;
                                     (30, Expression<Short> @:10481 check:35941,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:56268,h:1,d0:30,d1:65535;)))
-                            (____, Scope<Boolean> @:10482 check:35942,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:56276,h:1,d0:10483,d1:35943;
+                            (____, BuiltinInvocation<Boolean> @:10482 check:35942,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:56276,h:1,d0:10483,d1:35943;
                                 ("=", Expression<MethodOrOperator> @:10483 check:35943,op:13,dt:2,nt:9,next:10484,nextCheck:35944,str:301,h:0,d0:0,d1:0;
                                     ("hangar_power_on", VariableAccess<Boolean> @:10484 check:35944,op:0,dt:5,nt:13,next:10485,nextCheck:35945,str:21977,h:0,d0:12,d1:0;
                                         (False, Expression<Boolean> @:10485 check:35945,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:56295,h:1,d0:65280,d1:65535;)))))))))))

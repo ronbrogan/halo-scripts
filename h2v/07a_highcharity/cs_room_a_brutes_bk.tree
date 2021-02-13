@@ -1,52 +1,52 @@
 
 ("cs_room_a_brutes_bk", MethodDecl<Void> @:321 check:0,op:0,dt:0,nt:65535,next:15169,nextCheck:40629,str:65535,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:15169 check:40629,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:46877,h:2,d0:15170,d1:40630;
+    (____, BuiltinInvocation<Void> @:15169 check:40629,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:46877,h:2,d0:15170,d1:40630;
         ("begin", Expression<MethodOrOperator> @:15170 check:40630,op:0,dt:2,nt:9,next:15120,nextCheck:40580,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:15120 check:40580,op:439,dt:4,nt:8,next:15123,nextCheck:40583,str:46922,h:2,d0:15121,d1:40581;
+            (____, BuiltinInvocation<Void> @:15120 check:40580,op:439,dt:4,nt:8,next:15123,nextCheck:40583,str:46922,h:2,d0:15121,d1:40581;
                 ("cs_abort_on_alert", Expression<MethodOrOperator> @:15121 check:40581,op:439,dt:2,nt:9,next:15122,nextCheck:40582,str:16571,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:15122 check:40582,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:46941,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:15123 check:40583,op:449,dt:4,nt:8,next:15126,nextCheck:40586,str:46949,h:2,d0:15124,d1:40584;
+            (____, BuiltinInvocation<Void> @:15123 check:40583,op:449,dt:4,nt:8,next:15126,nextCheck:40586,str:46949,h:2,d0:15124,d1:40584;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:15124 check:40584,op:449,dt:2,nt:9,next:15125,nextCheck:40585,str:1066,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:15125 check:40585,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:46981,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:15126 check:40586,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:46989,h:2,d0:15127,d1:40587;
+            (____, BuiltinInvocation<Void> @:15126 check:40586,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:46989,h:2,d0:15127,d1:40587;
                 ("sleep_until", Expression<MethodOrOperator> @:15127 check:40587,op:21,dt:2,nt:9,next:15128,nextCheck:40588,str:231,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:15128 check:40588,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:47005,h:2,d0:15129,d1:40589;
+                    (____, BuiltinInvocation<Boolean> @:15128 check:40588,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:47005,h:2,d0:15129,d1:40589;
                         ("begin", Expression<MethodOrOperator> @:15129 check:40589,op:0,dt:2,nt:9,next:15130,nextCheck:40590,str:1,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:15130 check:40590,op:1,dt:4,nt:8,next:15168,nextCheck:40628,str:47016,h:2,d0:15131,d1:40591;
+                            (____, BuiltinInvocation<Void> @:15130 check:40590,op:1,dt:4,nt:8,next:15168,nextCheck:40628,str:47016,h:2,d0:15131,d1:40591;
                                 ("begin_random", Expression<MethodOrOperator> @:15131 check:40591,op:1,dt:2,nt:9,next:15132,nextCheck:40592,str:29983,h:0,d0:0,d1:0;
-                                    (____, Scope<Void> @:15132 check:40592,op:0,dt:4,nt:8,next:15144,nextCheck:40604,str:47035,h:2,d0:15133,d1:40593;
+                                    (____, BuiltinInvocation<Void> @:15132 check:40592,op:0,dt:4,nt:8,next:15144,nextCheck:40604,str:47035,h:2,d0:15133,d1:40593;
                                         ("begin", Expression<MethodOrOperator> @:15133 check:40593,op:0,dt:2,nt:9,next:15134,nextCheck:40594,str:1,h:0,d0:0,d1:0;
-                                            (____, Scope<Void> @:15134 check:40594,op:393,dt:4,nt:8,next:15138,nextCheck:40598,str:47048,h:2,d0:15135,d1:40595;
+                                            (____, BuiltinInvocation<Void> @:15134 check:40594,op:393,dt:4,nt:8,next:15138,nextCheck:40598,str:47048,h:2,d0:15135,d1:40595;
                                                 ("cs_look", Expression<MethodOrOperator> @:15135 check:40595,op:393,dt:2,nt:9,next:15136,nextCheck:40596,str:32153,h:0,d0:0,d1:0;
                                                     (True, Expression<Boolean> @:15136 check:40596,op:5,dt:5,nt:9,next:15137,nextCheck:40597,str:47057,h:2,d0:65281,d1:65535;
                                                         ("room_a/look_p0", Expression<SpatialPoint> @:15137 check:40597,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:32664,h:0,d0:6,d1:5;))))
-                                            (____, Scope<Void> @:15138 check:40598,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:47084,h:2,d0:15139,d1:40599;
+                                            (____, BuiltinInvocation<Void> @:15138 check:40598,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:47084,h:2,d0:15139,d1:40599;
                                                 ("sleep", Expression<MethodOrOperator> @:15139 check:40599,op:19,dt:2,nt:9,next:15140,nextCheck:40600,str:80,h:0,d0:0,d1:0;
-                                                    (____, Scope<Short> @:15140 check:40600,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:47091,h:2,d0:15141,d1:40601;
+                                                    (____, BuiltinInvocation<Short> @:15140 check:40600,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:47091,h:2,d0:15141,d1:40601;
                                                         ("random_range", Expression<MethodOrOperator> @:15141 check:40601,op:124,dt:2,nt:9,next:15142,nextCheck:40602,str:19652,h:0,d0:0,d1:0;
                                                             (90, Expression<Short> @:15142 check:40602,op:7,dt:7,nt:9,next:15143,nextCheck:40603,str:47105,h:2,d0:90,d1:65535;
                                                                 (150, Expression<Short> @:15143 check:40603,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:47108,h:2,d0:150,d1:65535;))))))))
-                                    (____, Scope<Void> @:15144 check:40604,op:0,dt:4,nt:8,next:15156,nextCheck:40616,str:47164,h:2,d0:15145,d1:40605;
+                                    (____, BuiltinInvocation<Void> @:15144 check:40604,op:0,dt:4,nt:8,next:15156,nextCheck:40616,str:47164,h:2,d0:15145,d1:40605;
                                         ("begin", Expression<MethodOrOperator> @:15145 check:40605,op:0,dt:2,nt:9,next:15146,nextCheck:40606,str:1,h:0,d0:0,d1:0;
-                                            (____, Scope<Void> @:15146 check:40606,op:393,dt:4,nt:8,next:15150,nextCheck:40610,str:47177,h:2,d0:15147,d1:40607;
+                                            (____, BuiltinInvocation<Void> @:15146 check:40606,op:393,dt:4,nt:8,next:15150,nextCheck:40610,str:47177,h:2,d0:15147,d1:40607;
                                                 ("cs_look", Expression<MethodOrOperator> @:15147 check:40607,op:393,dt:2,nt:9,next:15148,nextCheck:40608,str:32153,h:0,d0:0,d1:0;
                                                     (True, Expression<Boolean> @:15148 check:40608,op:5,dt:5,nt:9,next:15149,nextCheck:40609,str:47186,h:2,d0:65281,d1:65535;
                                                         ("room_a/look_p2", Expression<SpatialPoint> @:15149 check:40609,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:32714,h:0,d0:8,d1:5;))))
-                                            (____, Scope<Void> @:15150 check:40610,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:47213,h:2,d0:15151,d1:40611;
+                                            (____, BuiltinInvocation<Void> @:15150 check:40610,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:47213,h:2,d0:15151,d1:40611;
                                                 ("sleep", Expression<MethodOrOperator> @:15151 check:40611,op:19,dt:2,nt:9,next:15152,nextCheck:40612,str:80,h:0,d0:0,d1:0;
-                                                    (____, Scope<Short> @:15152 check:40612,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:47220,h:2,d0:15153,d1:40613;
+                                                    (____, BuiltinInvocation<Short> @:15152 check:40612,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:47220,h:2,d0:15153,d1:40613;
                                                         ("random_range", Expression<MethodOrOperator> @:15153 check:40613,op:124,dt:2,nt:9,next:15154,nextCheck:40614,str:19652,h:0,d0:0,d1:0;
                                                             (90, Expression<Short> @:15154 check:40614,op:7,dt:7,nt:9,next:15155,nextCheck:40615,str:47234,h:2,d0:90,d1:65535;
                                                                 (150, Expression<Short> @:15155 check:40615,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:47237,h:2,d0:150,d1:65535;))))))))
-                                    (____, Scope<Void> @:15156 check:40616,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:47293,h:2,d0:15157,d1:40617;
+                                    (____, BuiltinInvocation<Void> @:15156 check:40616,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:47293,h:2,d0:15157,d1:40617;
                                         ("begin", Expression<MethodOrOperator> @:15157 check:40617,op:0,dt:2,nt:9,next:15158,nextCheck:40618,str:1,h:0,d0:0,d1:0;
-                                            (____, Scope<Void> @:15158 check:40618,op:393,dt:4,nt:8,next:15162,nextCheck:40622,str:47306,h:2,d0:15159,d1:40619;
+                                            (____, BuiltinInvocation<Void> @:15158 check:40618,op:393,dt:4,nt:8,next:15162,nextCheck:40622,str:47306,h:2,d0:15159,d1:40619;
                                                 ("cs_look", Expression<MethodOrOperator> @:15159 check:40619,op:393,dt:2,nt:9,next:15160,nextCheck:40620,str:32153,h:0,d0:0,d1:0;
                                                     (True, Expression<Boolean> @:15160 check:40620,op:5,dt:5,nt:9,next:15161,nextCheck:40621,str:47315,h:2,d0:65281,d1:65535;
                                                         ("room_a/look_p3", Expression<SpatialPoint> @:15161 check:40621,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:32729,h:0,d0:9,d1:5;))))
-                                            (____, Scope<Void> @:15162 check:40622,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:47342,h:2,d0:15163,d1:40623;
+                                            (____, BuiltinInvocation<Void> @:15162 check:40622,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:47342,h:2,d0:15163,d1:40623;
                                                 ("sleep", Expression<MethodOrOperator> @:15163 check:40623,op:19,dt:2,nt:9,next:15164,nextCheck:40624,str:80,h:0,d0:0,d1:0;
-                                                    (____, Scope<Short> @:15164 check:40624,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:47349,h:2,d0:15165,d1:40625;
+                                                    (____, BuiltinInvocation<Short> @:15164 check:40624,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:47349,h:2,d0:15165,d1:40625;
                                                         ("random_range", Expression<MethodOrOperator> @:15165 check:40625,op:124,dt:2,nt:9,next:15166,nextCheck:40626,str:19652,h:0,d0:0,d1:0;
                                                             (90, Expression<Short> @:15166 check:40626,op:7,dt:7,nt:9,next:15167,nextCheck:40627,str:47363,h:2,d0:90,d1:65535;
                                                                 (150, Expression<Short> @:15167 check:40627,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:47366,h:2,d0:150,d1:65535;))))))))))

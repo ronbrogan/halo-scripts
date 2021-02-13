@@ -1,37 +1,37 @@
 
 ("c03_2020_mr4", MethodDecl<Void> @:41 check:0,op:0,dt:0,nt:65535,next:960,nextCheck:59187,str:1821,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:960 check:59187,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:11340,h:0,d0:961,d1:59188;
+    (____, BuiltinInvocation<Void> @:960 check:59187,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:11340,h:0,d0:961,d1:59188;
         ("begin", Expression<MethodOrOperator> @:961 check:59188,op:0,dt:2,nt:9,next:927,nextCheck:59154,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:927 check:59154,op:220,dt:4,nt:8,next:933,nextCheck:59160,str:11373,h:0,d0:928,d1:59155;
+            (____, BuiltinInvocation<Void> @:927 check:59154,op:220,dt:4,nt:8,next:933,nextCheck:59160,str:11373,h:0,d0:928,d1:59155;
                 ("unit_set_emotional_state", Expression<MethodOrOperator> @:928 check:59155,op:220,dt:2,nt:9,next:929,nextCheck:59156,str:1666,h:0,d0:0,d1:0;
                     ("marine_02", Expression<Unit> @:929 check:59156,op:57,dt:51,nt:9,next:930,nextCheck:59157,str:1721,h:0,d0:83,d1:65535;
                         ("shocked", Expression<StringId> @:930 check:59157,op:11,dt:11,nt:9,next:931,nextCheck:59158,str:1731,h:0,d0:426,d1:1792;
                             (0.25f, Expression<Float> @:931 check:59158,op:6,dt:6,nt:9,next:932,nextCheck:59159,str:11417,h:0,d0:0,d1:16000;
                                 (0, Expression<Short> @:932 check:59159,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:11421,h:0,d0:0,d1:65535;))))))
-            (____, Scope<Void> @:933 check:59160,op:27,dt:4,nt:8,next:936,nextCheck:59163,str:11426,h:0,d0:934,d1:59161;
+            (____, BuiltinInvocation<Void> @:933 check:59160,op:27,dt:4,nt:8,next:936,nextCheck:59163,str:11426,h:0,d0:934,d1:59161;
                 ("print", Expression<MethodOrOperator> @:934 check:59161,op:27,dt:2,nt:9,next:935,nextCheck:59162,str:91,h:0,d0:0,d1:0;
                     ("marine_02 - shocked .25 0", Expression<String> @:935 check:59162,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:1739,h:0,d0:46211,d1:12462;)))
-            (____, Scope<Void> @:936 check:59163,op:19,dt:4,nt:8,next:939,nextCheck:59166,str:11466,h:0,d0:937,d1:59164;
+            (____, BuiltinInvocation<Void> @:936 check:59163,op:19,dt:4,nt:8,next:939,nextCheck:59166,str:11466,h:0,d0:937,d1:59164;
                 ("sleep", Expression<MethodOrOperator> @:937 check:59164,op:19,dt:2,nt:9,next:938,nextCheck:59165,str:85,h:0,d0:0,d1:0;
                     (200, Expression<Short> @:938 check:59165,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:11473,h:0,d0:200,d1:65535;)))
-            (____, Scope<Void> @:939 check:59166,op:596,dt:4,nt:8,next:944,nextCheck:59171,str:11480,h:0,d0:940,d1:59167;
+            (____, BuiltinInvocation<Void> @:939 check:59166,op:596,dt:4,nt:8,next:944,nextCheck:59171,str:11480,h:0,d0:940,d1:59167;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:940 check:59167,op:596,dt:2,nt:9,next:941,nextCheck:59168,str:1368,h:0,d0:0,d1:0;
                     ("sound\dialog\levels\03_earthcity\cinematic\c03_2020_mr4", Expression<Sound> @:941 check:59168,op:32,dt:32,nt:9,next:942,nextCheck:59169,str:1765,h:0,d0:560,d1:58278;
                         (4294901843, Expression<Entity> @:942 check:59169,op:56,dt:50,nt:9,next:943,nextCheck:59170,str:1721,h:0,d0:83,d1:65535;
                             (1f, Expression<Float> @:943 check:59170,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:11567,h:0,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:944 check:59171,op:562,dt:4,nt:8,next:948,nextCheck:59175,str:11572,h:0,d0:945,d1:59172;
+            (____, BuiltinInvocation<Void> @:944 check:59171,op:562,dt:4,nt:8,next:948,nextCheck:59175,str:11572,h:0,d0:945,d1:59172;
                 ("cinematic_subtitle", Expression<MethodOrOperator> @:945 check:59172,op:562,dt:2,nt:9,next:946,nextCheck:59173,str:1634,h:0,d0:0,d1:0;
                     ("c03_2020_mr4", Expression<StringId> @:946 check:59173,op:11,dt:11,nt:9,next:947,nextCheck:59174,str:1821,h:0,d0:3543,d1:3072;
                         (2f, Expression<Float> @:947 check:59174,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:11605,h:0,d0:0,d1:16384;))))
-            (____, Scope<Void> @:948 check:59175,op:19,dt:4,nt:8,next:951,nextCheck:59178,str:11613,h:0,d0:949,d1:59176;
+            (____, BuiltinInvocation<Void> @:948 check:59175,op:19,dt:4,nt:8,next:951,nextCheck:59178,str:11613,h:0,d0:949,d1:59176;
                 ("sleep", Expression<MethodOrOperator> @:949 check:59176,op:19,dt:2,nt:9,next:950,nextCheck:59177,str:85,h:0,d0:0,d1:0;
                     (15, Expression<Short> @:950 check:59177,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:11620,h:0,d0:15,d1:65535;)))
-            (____, Scope<Void> @:951 check:59178,op:220,dt:4,nt:8,next:957,nextCheck:59184,str:11629,h:0,d0:952,d1:59179;
+            (____, BuiltinInvocation<Void> @:951 check:59178,op:220,dt:4,nt:8,next:957,nextCheck:59184,str:11629,h:0,d0:952,d1:59179;
                 ("unit_set_emotional_state", Expression<MethodOrOperator> @:952 check:59179,op:220,dt:2,nt:9,next:953,nextCheck:59180,str:1666,h:0,d0:0,d1:0;
                     ("marine_02", Expression<Unit> @:953 check:59180,op:57,dt:51,nt:9,next:954,nextCheck:59181,str:1721,h:0,d0:83,d1:65535;
                         ("angry", Expression<StringId> @:954 check:59181,op:11,dt:11,nt:9,next:955,nextCheck:59182,str:1834,h:0,d0:430,d1:1280;
                             (0.5f, Expression<Float> @:955 check:59182,op:6,dt:6,nt:9,next:956,nextCheck:59183,str:11671,h:0,d0:0,d1:16128;
                                 (30, Expression<Short> @:956 check:59183,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:11674,h:0,d0:30,d1:65535;))))))
-            (____, Scope<Void> @:957 check:59184,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:11680,h:0,d0:958,d1:59185;
+            (____, BuiltinInvocation<Void> @:957 check:59184,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:11680,h:0,d0:958,d1:59185;
                 ("print", Expression<MethodOrOperator> @:958 check:59185,op:27,dt:2,nt:9,next:959,nextCheck:59186,str:91,h:0,d0:0,d1:0;
                     ("marine_02 - angry .5 30", Expression<String> @:959 check:59186,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:1840,h:0,d0:46312,d1:12462;))))))

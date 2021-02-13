@@ -1,69 +1,69 @@
 
 ("ai_cov_ins_pod_c", MethodDecl<Void> @:342 check:0,op:0,dt:0,nt:65535,next:16883,nextCheck:42343,str:26524,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:16883 check:42343,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:34059,h:2,d0:16884,d1:42344;
+    (____, BuiltinInvocation<Void> @:16883 check:42343,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:34059,h:2,d0:16884,d1:42344;
         ("begin", Expression<MethodOrOperator> @:16884 check:42344,op:0,dt:2,nt:9,next:16818,nextCheck:42278,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:16818 check:42278,op:290,dt:4,nt:8,next:16821,nextCheck:42281,str:34114,h:2,d0:16819,d1:42279;
+            (____, BuiltinInvocation<Void> @:16818 check:42278,op:290,dt:4,nt:8,next:16821,nextCheck:42281,str:34114,h:2,d0:16819,d1:42279;
                 ("ai_place", Expression<MethodOrOperator> @:16819 check:42279,op:290,dt:2,nt:9,next:16820,nextCheck:42280,str:1415,h:0,d0:0,d1:0;
                     ("qz_ini_ins_pods/c", Expression<AI> @:16820 check:42280,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:26324,h:0,d0:2,d1:49241;)))
-            (____, Scope<Void> @:16821 check:42281,op:46,dt:4,nt:8,next:16824,nextCheck:42284,str:34145,h:2,d0:16822,d1:42282;
+            (____, BuiltinInvocation<Void> @:16821 check:42281,op:46,dt:4,nt:8,next:16824,nextCheck:42284,str:34145,h:2,d0:16822,d1:42282;
                 ("object_create", Expression<MethodOrOperator> @:16822 check:42282,op:46,dt:2,nt:9,next:16823,nextCheck:42283,str:11087,h:0,d0:0,d1:0;
                     ("qz_ent_pod_c", Expression<EntityIdentifier> @:16823 check:42283,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:26342,h:0,d0:426,d1:65535;)))
-            (____, Scope<Void> @:16824 check:42284,op:74,dt:4,nt:8,next:16832,nextCheck:42292,str:34176,h:2,d0:16825,d1:42285;
+            (____, BuiltinInvocation<Void> @:16824 check:42284,op:74,dt:4,nt:8,next:16832,nextCheck:42292,str:34176,h:2,d0:16825,d1:42285;
                 ("objects_attach", Expression<MethodOrOperator> @:16825 check:42285,op:74,dt:2,nt:9,next:16826,nextCheck:42286,str:4820,h:0,d0:0,d1:0;
                     (4294902186, Expression<Entity> @:16826 check:42286,op:56,dt:50,nt:9,next:16827,nextCheck:42287,str:26342,h:0,d0:426,d1:65535;
                         ("pod_attach", Expression<StringId> @:16827 check:42287,op:11,dt:11,nt:9,next:16828,nextCheck:42288,str:26262,h:0,d0:9610,d1:2560;
-                            (____, Scope<Entity> @:16828 check:42288,op:340,dt:50,nt:8,next:16831,nextCheck:42291,str:34218,h:2,d0:16829,d1:42289;
+                            (____, BuiltinInvocation<Entity> @:16828 check:42288,op:340,dt:50,nt:8,next:16831,nextCheck:42291,str:34218,h:2,d0:16829,d1:42289;
                                 ("ai_vehicle_get", Expression<MethodOrOperator> @:16829 check:42289,op:340,dt:2,nt:9,next:16830,nextCheck:42290,str:26273,h:0,d0:0,d1:0;
                                     ("qz_ini_ins_pods/c", Expression<AI> @:16830 check:42290,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:26324,h:0,d0:2,d1:49241;)))
                             ("pod_attach", Expression<StringId> @:16831 check:42291,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:26262,h:0,d0:9610,d1:2560;)))))
-            (____, Scope<Void> @:16832 check:42292,op:19,dt:4,nt:8,next:16835,nextCheck:42295,str:34269,h:2,d0:16833,d1:42293;
+            (____, BuiltinInvocation<Void> @:16832 check:42292,op:19,dt:4,nt:8,next:16835,nextCheck:42295,str:34269,h:2,d0:16833,d1:42293;
                 ("sleep", Expression<MethodOrOperator> @:16833 check:42293,op:19,dt:2,nt:9,next:16834,nextCheck:42294,str:80,h:0,d0:0,d1:0;
                     (1, Expression<Short> @:16834 check:42294,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:34276,h:2,d0:1,d1:65535;)))
-            (____, Scope<Void> @:16835 check:42295,op:256,dt:4,nt:8,next:16839,nextCheck:42299,str:34284,h:2,d0:16836,d1:42296;
+            (____, BuiltinInvocation<Void> @:16835 check:42295,op:256,dt:4,nt:8,next:16839,nextCheck:42299,str:34284,h:2,d0:16836,d1:42296;
                 ("device_set_position", Expression<MethodOrOperator> @:16836 check:42296,op:256,dt:2,nt:9,next:16837,nextCheck:42297,str:3760,h:0,d0:0,d1:0;
                     ("qz_ent_pod_c", Expression<Device> @:16837 check:42297,op:60,dt:54,nt:9,next:16838,nextCheck:42298,str:26342,h:0,d0:426,d1:65535;
                         (1f, Expression<Float> @:16838 check:42298,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:34318,h:2,d0:0,d1:16256;))))
-            (____, Scope<Void> @:16839 check:42299,op:21,dt:4,nt:8,next:16848,nextCheck:42308,str:34323,h:2,d0:16840,d1:42300;
+            (____, BuiltinInvocation<Void> @:16839 check:42299,op:21,dt:4,nt:8,next:16848,nextCheck:42308,str:34323,h:2,d0:16840,d1:42300;
                 ("sleep_until", Expression<MethodOrOperator> @:16840 check:42300,op:21,dt:2,nt:9,next:16841,nextCheck:42301,str:231,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:16841 check:42301,op:17,dt:5,nt:8,next:16847,nextCheck:42307,str:34336,h:2,d0:16842,d1:42302;
+                    (____, BuiltinInvocation<Boolean> @:16841 check:42301,op:17,dt:5,nt:8,next:16847,nextCheck:42307,str:34336,h:2,d0:16842,d1:42302;
                         (">=", Expression<MethodOrOperator> @:16842 check:42302,op:17,dt:2,nt:9,next:16843,nextCheck:42303,str:671,h:0,d0:0,d1:0;
-                            (-1.6675638E-16f, Scope<Float> @:16843 check:42303,op:257,dt:6,nt:8,next:16846,nextCheck:42306,str:34340,h:2,d0:16844,d1:42304;
+                            (-1.6675638E-16f, BuiltinInvocation<Float> @:16843 check:42303,op:257,dt:6,nt:8,next:16846,nextCheck:42306,str:34340,h:2,d0:16844,d1:42304;
                                 ("device_get_position", Expression<MethodOrOperator> @:16844 check:42304,op:257,dt:2,nt:9,next:16845,nextCheck:42305,str:17161,h:0,d0:0,d1:0;
                                     ("qz_ent_pod_c", Expression<Device> @:16845 check:42305,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:26342,h:0,d0:426,d1:65535;)))
                             (1f, Expression<Float> @:16846 check:42306,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:34375,h:2,d0:0,d1:16256;)))
                     (1, Expression<Short> @:16847 check:42307,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:34378,h:2,d0:1,d1:65535;)))
-            (____, Scope<Void> @:16848 check:42308,op:76,dt:4,nt:8,next:16854,nextCheck:42314,str:34386,h:2,d0:16849,d1:42309;
+            (____, BuiltinInvocation<Void> @:16848 check:42308,op:76,dt:4,nt:8,next:16854,nextCheck:42314,str:34386,h:2,d0:16849,d1:42309;
                 ("objects_detach", Expression<MethodOrOperator> @:16849 check:42309,op:76,dt:2,nt:9,next:16850,nextCheck:42310,str:10062,h:0,d0:0,d1:0;
                     (4294902186, Expression<Entity> @:16850 check:42310,op:56,dt:50,nt:9,next:16851,nextCheck:42311,str:26342,h:0,d0:426,d1:65535;
-                        (____, Scope<Entity> @:16851 check:42311,op:340,dt:50,nt:8,next:65535,nextCheck:65535,str:34415,h:2,d0:16852,d1:42312;
+                        (____, BuiltinInvocation<Entity> @:16851 check:42311,op:340,dt:50,nt:8,next:65535,nextCheck:65535,str:34415,h:2,d0:16852,d1:42312;
                             ("ai_vehicle_get", Expression<MethodOrOperator> @:16852 check:42312,op:340,dt:2,nt:9,next:16853,nextCheck:42313,str:26273,h:0,d0:0,d1:0;
                                 ("qz_ini_ins_pods/c", Expression<AI> @:16853 check:42313,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:26324,h:0,d0:2,d1:49241;))))))
-            (____, Scope<Void> @:16854 check:42314,op:52,dt:4,nt:8,next:16857,nextCheck:42317,str:34453,h:2,d0:16855,d1:42315;
+            (____, BuiltinInvocation<Void> @:16854 check:42314,op:52,dt:4,nt:8,next:16857,nextCheck:42317,str:34453,h:2,d0:16855,d1:42315;
                 ("object_destroy", Expression<MethodOrOperator> @:16855 check:42315,op:52,dt:2,nt:9,next:16856,nextCheck:42316,str:2551,h:0,d0:0,d1:0;
                     (4294902186, Expression<Entity> @:16856 check:42316,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:26342,h:0,d0:426,d1:65535;)))
-            (____, Scope<Void> @:16857 check:42317,op:19,dt:4,nt:8,next:16863,nextCheck:42323,str:34488,h:2,d0:16858,d1:42318;
+            (____, BuiltinInvocation<Void> @:16857 check:42317,op:19,dt:4,nt:8,next:16863,nextCheck:42323,str:34488,h:2,d0:16858,d1:42318;
                 ("sleep", Expression<MethodOrOperator> @:16858 check:42318,op:19,dt:2,nt:9,next:16859,nextCheck:42319,str:80,h:0,d0:0,d1:0;
-                    (____, Scope<Short> @:16859 check:42319,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:34495,h:2,d0:16860,d1:42320;
+                    (____, BuiltinInvocation<Short> @:16859 check:42319,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:34495,h:2,d0:16860,d1:42320;
                         ("random_range", Expression<MethodOrOperator> @:16860 check:42320,op:124,dt:2,nt:9,next:16861,nextCheck:42321,str:17579,h:0,d0:0,d1:0;
                             (20, Expression<Short> @:16861 check:42321,op:7,dt:7,nt:9,next:16862,nextCheck:42322,str:34509,h:2,d0:20,d1:65535;
                                 (45, Expression<Short> @:16862 check:42322,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:34512,h:2,d0:45,d1:65535;))))))
-            (____, Scope<Void> @:16863 check:42323,op:84,dt:4,nt:8,next:16870,nextCheck:42330,str:34519,h:2,d0:16864,d1:42324;
+            (____, BuiltinInvocation<Void> @:16863 check:42323,op:84,dt:4,nt:8,next:16870,nextCheck:42330,str:34519,h:2,d0:16864,d1:42324;
                 ("object_damage_damage_section", Expression<MethodOrOperator> @:16864 check:42324,op:84,dt:2,nt:9,next:16865,nextCheck:42325,str:21672,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:16865 check:42325,op:340,dt:50,nt:8,next:16868,nextCheck:42328,str:34549,h:2,d0:16866,d1:42326;
+                    (____, BuiltinInvocation<Entity> @:16865 check:42325,op:340,dt:50,nt:8,next:16868,nextCheck:42328,str:34549,h:2,d0:16866,d1:42326;
                         ("ai_vehicle_get", Expression<MethodOrOperator> @:16866 check:42326,op:340,dt:2,nt:9,next:16867,nextCheck:42327,str:26273,h:0,d0:0,d1:0;
                             ("qz_ini_ins_pods/c", Expression<AI> @:16867 check:42327,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:26324,h:0,d0:2,d1:49241;)))
                     ("door", Expression<StringId> @:16868 check:42328,op:11,dt:11,nt:9,next:16869,nextCheck:42329,str:26288,h:0,d0:6657,d1:1024;
                         (500f, Expression<Float> @:16869 check:42329,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:34591,h:2,d0:0,d1:17402;))))
-            (____, Scope<Void> @:16870 check:42330,op:19,dt:4,nt:8,next:16873,nextCheck:42333,str:34598,h:2,d0:16871,d1:42331;
+            (____, BuiltinInvocation<Void> @:16870 check:42330,op:19,dt:4,nt:8,next:16873,nextCheck:42333,str:34598,h:2,d0:16871,d1:42331;
                 ("sleep", Expression<MethodOrOperator> @:16871 check:42331,op:19,dt:2,nt:9,next:16872,nextCheck:42332,str:80,h:0,d0:0,d1:0;
                     (15, Expression<Short> @:16872 check:42332,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:34605,h:2,d0:15,d1:65535;)))
-            (____, Scope<Void> @:16873 check:42333,op:350,dt:4,nt:8,next:16876,nextCheck:42336,str:34611,h:2,d0:16874,d1:42334;
+            (____, BuiltinInvocation<Void> @:16873 check:42333,op:350,dt:4,nt:8,next:16876,nextCheck:42336,str:34611,h:2,d0:16874,d1:42334;
                 ("ai_vehicle_exit", Expression<MethodOrOperator> @:16874 check:42334,op:350,dt:2,nt:9,next:16875,nextCheck:42335,str:14774,h:0,d0:0,d1:0;
                     ("qz_ini_ins_pods/c", Expression<AI> @:16875 check:42335,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:26324,h:0,d0:2,d1:49241;)))
-            (____, Scope<Void> @:16876 check:42336,op:19,dt:4,nt:8,next:16879,nextCheck:42339,str:34649,h:2,d0:16877,d1:42337;
+            (____, BuiltinInvocation<Void> @:16876 check:42336,op:19,dt:4,nt:8,next:16879,nextCheck:42339,str:34649,h:2,d0:16877,d1:42337;
                 ("sleep", Expression<MethodOrOperator> @:16877 check:42337,op:19,dt:2,nt:9,next:16878,nextCheck:42338,str:80,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:16878 check:42338,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:34656,h:2,d0:30,d1:65535;)))
-            (____, Scope<Void> @:16879 check:42339,op:366,dt:4,nt:8,next:65535,nextCheck:65535,str:34662,h:2,d0:16880,d1:42340;
+            (____, BuiltinInvocation<Void> @:16879 check:42339,op:366,dt:4,nt:8,next:65535,nextCheck:65535,str:34662,h:2,d0:16880,d1:42340;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:16880 check:42340,op:366,dt:2,nt:9,next:16881,nextCheck:42341,str:1464,h:0,d0:0,d1:0;
                     ("qz_ini_ins_pods/c", Expression<AI> @:16881 check:42341,op:19,dt:19,nt:9,next:16882,nextCheck:42342,str:26324,h:0,d0:2,d1:49241;
                         ("cs_go_to_bridge", Expression<AIScript> @:16882 check:42342,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:26355,h:0,d0:339,d1:0;)))))))

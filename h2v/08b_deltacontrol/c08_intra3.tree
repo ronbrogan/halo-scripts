@@ -1,15 +1,15 @@
 
 ("c08_intra3", MethodDecl<Void> @:163 check:0,op:0,dt:0,nt:65535,next:6603,nextCheck:64830,str:23798,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:6603 check:64830,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:11202,h:1,d0:6604,d1:64831;
+    (____, BuiltinInvocation<Void> @:6603 check:64830,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:11202,h:1,d0:6604,d1:64831;
         ("begin", Expression<MethodOrOperator> @:6604 check:64831,op:0,dt:2,nt:9,next:6578,nextCheck:64805,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:6578 check:64805,op:530,dt:4,nt:8,next:6580,nextCheck:64807,str:11237,h:1,d0:6579,d1:64806;
+            (____, BuiltinInvocation<Void> @:6578 check:64805,op:530,dt:4,nt:8,next:6580,nextCheck:64807,str:11237,h:1,d0:6579,d1:64806;
                 ("texture_cache_flush", Expression<MethodOrOperator> @:6579 check:64806,op:530,dt:2,nt:9,next:65535,nextCheck:65535,str:8468,h:0,d0:0,d1:0;))
-            (____, Scope<Void> @:6580 check:64807,op:531,dt:4,nt:8,next:6582,nextCheck:64809,str:11261,h:1,d0:6581,d1:64808;
+            (____, BuiltinInvocation<Void> @:6580 check:64807,op:531,dt:4,nt:8,next:6582,nextCheck:64809,str:11261,h:1,d0:6581,d1:64808;
                 ("geometry_cache_flush", Expression<MethodOrOperator> @:6581 check:64808,op:531,dt:2,nt:9,next:65535,nextCheck:65535,str:8488,h:0,d0:0,d1:0;))
-            (____, Scope<Void> @:6582 check:64809,op:508,dt:4,nt:8,next:6585,nextCheck:64812,str:11288,h:1,d0:6583,d1:64810;
+            (____, BuiltinInvocation<Void> @:6582 check:64809,op:508,dt:4,nt:8,next:6585,nextCheck:64812,str:11288,h:1,d0:6583,d1:64810;
                 ("switch_bsp_by_name", Expression<MethodOrOperator> @:6583 check:64810,op:508,dt:2,nt:9,next:6584,nextCheck:64811,str:10772,h:0,d0:0,d1:0;
                     ("deltacontrolroom_bsp3", Expression<Bsp> @:6584 check:64811,op:26,dt:26,nt:9,next:65535,nextCheck:65535,str:16217,h:0,d0:2,d1:0;)))
-            (____, Scope<Void> @:6585 check:64812,op:19,dt:4,nt:8,next:6588,nextCheck:64815,str:11333,h:1,d0:6586,d1:64813;
+            (____, BuiltinInvocation<Void> @:6585 check:64812,op:19,dt:4,nt:8,next:6588,nextCheck:64815,str:11333,h:1,d0:6586,d1:64813;
                 ("sleep", Expression<MethodOrOperator> @:6586 check:64813,op:19,dt:2,nt:9,next:6587,nextCheck:64814,str:85,h:0,d0:0,d1:0;
                     (1, Expression<Short> @:6587 check:64814,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:11340,h:1,d0:1,d1:65535;)))
             ("c08_intra3_scene_01", ScriptInvocation<Void> @:6588 check:64815,op:115,dt:4,nt:10,next:6590,nextCheck:64817,str:11348,h:1,d0:6589,d1:64816;
@@ -24,6 +24,6 @@
                 ("c08_intra3_scene_05", Expression<MethodOrOperator> @:6597 check:64824,op:160,dt:2,nt:9,next:65535,nextCheck:65535,str:16319,h:0,d0:0,d1:0;))
             ("c08_intra3_scene_06", ScriptInvocation<Void> @:6598 check:64825,op:162,dt:4,nt:10,next:6600,nextCheck:64827,str:11468,h:1,d0:6599,d1:64826;
                 ("c08_intra3_scene_06", Expression<MethodOrOperator> @:6599 check:64826,op:162,dt:2,nt:9,next:65535,nextCheck:65535,str:16339,h:0,d0:0,d1:0;))
-            (____, Scope<Void> @:6600 check:64827,op:885,dt:4,nt:8,next:65535,nextCheck:65535,str:11495,h:1,d0:6601,d1:64828;
+            (____, BuiltinInvocation<Void> @:6600 check:64827,op:885,dt:4,nt:8,next:65535,nextCheck:65535,str:11495,h:1,d0:6601,d1:64828;
                 ("rasterizer_bloom_override", Expression<MethodOrOperator> @:6601 check:64828,op:885,dt:2,nt:9,next:6602,nextCheck:64829,str:11466,h:0,d0:0,d1:0;
                     (False, Expression<Boolean> @:6602 check:64829,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:11522,h:1,d0:65280,d1:65535;))))))

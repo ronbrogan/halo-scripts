@@ -1,22 +1,22 @@
 
 ("e9_warthog_navpoint", MethodDecl<Void> @:256 check:0,op:0,dt:0,nt:65535,next:9536,nextCheck:34996,str:18751,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:9536 check:34996,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:51321,h:1,d0:9537,d1:34997;
+    (____, BuiltinInvocation<Void> @:9536 check:34996,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:51321,h:1,d0:9537,d1:34997;
         ("begin", Expression<MethodOrOperator> @:9537 check:34997,op:0,dt:2,nt:9,next:9516,nextCheck:34976,str:64,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:9516 check:34976,op:21,dt:4,nt:8,next:9524,nextCheck:34984,str:51359,h:1,d0:9517,d1:34977;
+            (____, BuiltinInvocation<Void> @:9516 check:34976,op:21,dt:4,nt:8,next:9524,nextCheck:34984,str:51359,h:1,d0:9517,d1:34977;
                 ("sleep_until", Expression<MethodOrOperator> @:9517 check:34977,op:21,dt:2,nt:9,next:9518,nextCheck:34978,str:294,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:9518 check:34978,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:51372,h:1,d0:9519,d1:34979;
+                    (____, BuiltinInvocation<Boolean> @:9518 check:34978,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:51372,h:1,d0:9519,d1:34979;
                         (">", Expression<MethodOrOperator> @:9519 check:34979,op:15,dt:2,nt:9,next:9520,nextCheck:34980,str:12195,h:0,d0:0,d1:0;
-                            (____, Scope<Short> @:9520 check:34980,op:335,dt:7,nt:8,next:9523,nextCheck:34983,str:51375,h:1,d0:9521,d1:34981;
+                            (____, BuiltinInvocation<Short> @:9520 check:34980,op:335,dt:7,nt:8,next:9523,nextCheck:34983,str:51375,h:1,d0:9521,d1:34981;
                                 ("ai_spawn_count", Expression<MethodOrOperator> @:9521 check:34981,op:335,dt:2,nt:9,next:9522,nextCheck:34982,str:15920,h:0,d0:0,d1:0;
                                     ("e8_mars_warthog0", Expression<AI> @:9522 check:34982,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:18043,h:0,d0:68,d1:0;)))
                             (0, Expression<Short> @:9523 check:34983,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:51409,h:1,d0:0,d1:65535;)))))
-            (____, Scope<Void> @:9524 check:34984,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:51457,h:1,d0:9525,d1:34985;
+            (____, BuiltinInvocation<Void> @:9524 check:34984,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:51457,h:1,d0:9525,d1:34985;
                 ("if", Expression<MethodOrOperator> @:9525 check:34985,op:2,dt:2,nt:9,next:9526,nextCheck:34986,str:519,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:9526 check:34986,op:25,dt:5,nt:8,next:9530,nextCheck:34990,str:51461,h:1,d0:9527,d1:34987;
+                    (____, BuiltinInvocation<Boolean> @:9526 check:34986,op:25,dt:5,nt:8,next:9530,nextCheck:34990,str:51461,h:1,d0:9527,d1:34987;
                         ("not", Expression<MethodOrOperator> @:9527 check:34987,op:25,dt:2,nt:9,next:9528,nextCheck:34988,str:460,h:0,d0:0,d1:0;
                             ("player_in_vehicle", ScriptInvocation<Boolean> @:9528 check:34988,op:156,dt:5,nt:10,next:65535,nextCheck:65535,str:51466,h:1,d0:9529,d1:34989;
                                 ("player_in_vehicle", Expression<MethodOrOperator> @:9529 check:34989,op:156,dt:2,nt:9,next:65535,nextCheck:65535,str:15513,h:0,d0:0,d1:0;))))
-                    (____, Scope<Void> @:9530 check:34990,op:640,dt:4,nt:8,next:65535,nextCheck:65535,str:51526,h:1,d0:9531,d1:34991;
+                    (____, BuiltinInvocation<Void> @:9530 check:34990,op:640,dt:4,nt:8,next:65535,nextCheck:65535,str:51526,h:1,d0:9531,d1:34991;
                         ("activate_team_nav_point_object", Expression<MethodOrOperator> @:9531 check:34991,op:640,dt:2,nt:9,next:9532,nextCheck:34992,str:12465,h:0,d0:0,d1:0;
                             ("default", Expression<NavigationPoint> @:9532 check:34992,op:27,dt:27,nt:9,next:9533,nextCheck:34993,str:12496,h:0,d0:0,d1:0;
                                 ("player", Expression<Team> @:9533 check:34993,op:45,dt:45,nt:9,next:9534,nextCheck:34994,str:12504,h:0,d0:1,d1:65535;

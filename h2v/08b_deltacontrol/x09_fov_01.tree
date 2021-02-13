@@ -1,16 +1,16 @@
 
 ("x09_fov_01", MethodDecl<Void> @:167 check:0,op:0,dt:0,nt:65535,next:6701,nextCheck:64928,str:16578,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:6701 check:64928,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:12722,h:1,d0:6702,d1:64929;
+    (____, BuiltinInvocation<Void> @:6701 check:64928,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:12722,h:1,d0:6702,d1:64929;
         ("begin", Expression<MethodOrOperator> @:6702 check:64929,op:0,dt:2,nt:9,next:6689,nextCheck:64916,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:6689 check:64916,op:676,dt:4,nt:8,next:6691,nextCheck:64918,str:12753,h:1,d0:6690,d1:64917;
+            (____, BuiltinInvocation<Void> @:6689 check:64916,op:676,dt:4,nt:8,next:6691,nextCheck:64918,str:12753,h:1,d0:6690,d1:64917;
                 ("time_code_reset", Expression<MethodOrOperator> @:6690 check:64917,op:676,dt:2,nt:9,next:65535,nextCheck:65535,str:13018,h:0,d0:0,d1:0;))
-            (____, Scope<Void> @:6691 check:64918,op:19,dt:4,nt:8,next:6694,nextCheck:64921,str:12776,h:1,d0:6692,d1:64919;
+            (____, BuiltinInvocation<Void> @:6691 check:64918,op:19,dt:4,nt:8,next:6694,nextCheck:64921,str:12776,h:1,d0:6692,d1:64919;
                 ("sleep", Expression<MethodOrOperator> @:6692 check:64919,op:19,dt:2,nt:9,next:6693,nextCheck:64920,str:85,h:0,d0:0,d1:0;
                     (289, Expression<Short> @:6693 check:64920,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:12783,h:1,d0:289,d1:65535;)))
-            (____, Scope<Void> @:6694 check:64921,op:459,dt:4,nt:8,next:6698,nextCheck:64925,str:12790,h:1,d0:6695,d1:64922;
+            (____, BuiltinInvocation<Void> @:6694 check:64921,op:459,dt:4,nt:8,next:6698,nextCheck:64925,str:12790,h:1,d0:6695,d1:64922;
                 ("camera_set_field_of_view", Expression<MethodOrOperator> @:6695 check:64922,op:459,dt:2,nt:9,next:6696,nextCheck:64923,str:8126,h:0,d0:0,d1:0;
                     (35f, Expression<Float> @:6696 check:64923,op:6,dt:6,nt:9,next:6697,nextCheck:64924,str:12816,h:1,d0:0,d1:16908;
                         (0, Expression<Short> @:6697 check:64924,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:12819,h:1,d0:0,d1:65535;))))
-            (____, Scope<Void> @:6698 check:64925,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:12824,h:1,d0:6699,d1:64926;
+            (____, BuiltinInvocation<Void> @:6698 check:64925,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:12824,h:1,d0:6699,d1:64926;
                 ("print", Expression<MethodOrOperator> @:6699 check:64926,op:27,dt:2,nt:9,next:6700,nextCheck:64927,str:91,h:0,d0:0,d1:0;
                     ("fov change: 60 -> 35 over 0 ticks", Expression<String> @:6700 check:64927,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:16480,h:0,d0:10088,d1:12561;))))))

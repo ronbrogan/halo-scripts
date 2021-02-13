@@ -1,25 +1,25 @@
 
 ("c03_2070_jon", MethodDecl<Void> @:54 check:0,op:0,dt:0,nt:65535,next:1481,nextCheck:59708,str:3710,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:1481 check:59708,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:17619,h:0,d0:1482,d1:59709;
+    (____, BuiltinInvocation<Void> @:1481 check:59708,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:17619,h:0,d0:1482,d1:59709;
         ("begin", Expression<MethodOrOperator> @:1482 check:59709,op:0,dt:2,nt:9,next:1460,nextCheck:59687,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:1460 check:59687,op:19,dt:4,nt:8,next:1463,nextCheck:59690,str:17650,h:0,d0:1461,d1:59688;
+            (____, BuiltinInvocation<Void> @:1460 check:59687,op:19,dt:4,nt:8,next:1463,nextCheck:59690,str:17650,h:0,d0:1461,d1:59688;
                 ("sleep", Expression<MethodOrOperator> @:1461 check:59688,op:19,dt:2,nt:9,next:1462,nextCheck:59689,str:85,h:0,d0:0,d1:0;
                     (288, Expression<Short> @:1462 check:59689,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17657,h:0,d0:288,d1:65535;)))
-            (____, Scope<Void> @:1463 check:59690,op:596,dt:4,nt:8,next:1468,nextCheck:59695,str:17664,h:0,d0:1464,d1:59691;
+            (____, BuiltinInvocation<Void> @:1463 check:59690,op:596,dt:4,nt:8,next:1468,nextCheck:59695,str:17664,h:0,d0:1464,d1:59691;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:1464 check:59691,op:596,dt:2,nt:9,next:1465,nextCheck:59692,str:1368,h:0,d0:0,d1:0;
                     ("sound\dialog\levels\03_earthcity\cinematic\c03_2070_jon", Expression<Sound> @:1465 check:59692,op:32,dt:32,nt:9,next:1466,nextCheck:59693,str:3654,h:0,d0:572,d1:58290;
                         (4294901841, Expression<Entity> @:1466 check:59693,op:56,dt:50,nt:9,next:1467,nextCheck:59694,str:2319,h:0,d0:81,d1:65535;
                             (1f, Expression<Float> @:1467 check:59694,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:17749,h:0,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:1468 check:59695,op:562,dt:4,nt:8,next:1472,nextCheck:59699,str:17754,h:0,d0:1469,d1:59696;
+            (____, BuiltinInvocation<Void> @:1468 check:59695,op:562,dt:4,nt:8,next:1472,nextCheck:59699,str:17754,h:0,d0:1469,d1:59696;
                 ("cinematic_subtitle", Expression<MethodOrOperator> @:1469 check:59696,op:562,dt:2,nt:9,next:1470,nextCheck:59697,str:1634,h:0,d0:0,d1:0;
                     ("c03_2070_jon", Expression<StringId> @:1470 check:59697,op:11,dt:11,nt:9,next:1471,nextCheck:59698,str:3710,h:0,d0:3686,d1:3072;
                         (1f, Expression<Float> @:1471 check:59698,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:17787,h:0,d0:0,d1:16256;))))
-            (____, Scope<Void> @:1472 check:59699,op:220,dt:4,nt:8,next:1478,nextCheck:59705,str:17792,h:0,d0:1473,d1:59700;
+            (____, BuiltinInvocation<Void> @:1472 check:59699,op:220,dt:4,nt:8,next:1478,nextCheck:59705,str:17792,h:0,d0:1473,d1:59700;
                 ("unit_set_emotional_state", Expression<MethodOrOperator> @:1473 check:59700,op:220,dt:2,nt:9,next:1474,nextCheck:59701,str:1666,h:0,d0:0,d1:0;
                     ("johnson", Expression<Unit> @:1474 check:59701,op:57,dt:51,nt:9,next:1475,nextCheck:59702,str:2319,h:0,d0:81,d1:65535;
                         ("angry", Expression<StringId> @:1475 check:59702,op:11,dt:11,nt:9,next:1476,nextCheck:59703,str:1834,h:0,d0:430,d1:1280;
                             (0.5f, Expression<Float> @:1476 check:59703,op:6,dt:6,nt:9,next:1477,nextCheck:59704,str:17832,h:0,d0:0,d1:16128;
                                 (30, Expression<Short> @:1477 check:59704,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17835,h:0,d0:30,d1:65535;))))))
-            (____, Scope<Void> @:1478 check:59705,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:17841,h:0,d0:1479,d1:59706;
+            (____, BuiltinInvocation<Void> @:1478 check:59705,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:17841,h:0,d0:1479,d1:59706;
                 ("print", Expression<MethodOrOperator> @:1479 check:59706,op:27,dt:2,nt:9,next:1480,nextCheck:59707,str:91,h:0,d0:0,d1:0;
                     ("johnson - angry .5 30", Expression<String> @:1480 check:59707,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:3723,h:0,d0:48195,d1:12462;))))))

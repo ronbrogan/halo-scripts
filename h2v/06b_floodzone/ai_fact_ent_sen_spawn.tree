@@ -1,42 +1,42 @@
 
 ("ai_fact_ent_sen_spawn", MethodDecl<Void> @:191 check:0,op:0,dt:0,nt:65535,next:7920,nextCheck:33380,str:26151,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:7920 check:33380,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:24300,h:1,d0:7921,d1:33381;
+    (____, BuiltinInvocation<Void> @:7920 check:33380,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:24300,h:1,d0:7921,d1:33381;
         ("begin", Expression<MethodOrOperator> @:7921 check:33381,op:0,dt:2,nt:9,next:7881,nextCheck:33341,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:7881 check:33341,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:24340,h:1,d0:7882,d1:33342;
+            (____, BuiltinInvocation<Void> @:7881 check:33341,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:24340,h:1,d0:7882,d1:33342;
                 ("sleep_until", Expression<MethodOrOperator> @:7882 check:33342,op:21,dt:2,nt:9,next:7883,nextCheck:33343,str:236,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:7883 check:33343,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:24356,h:1,d0:7884,d1:33344;
+                    (____, BuiltinInvocation<Boolean> @:7883 check:33343,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:24356,h:1,d0:7884,d1:33344;
                         ("begin", Expression<MethodOrOperator> @:7884 check:33344,op:0,dt:2,nt:9,next:7885,nextCheck:33345,str:6,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:7885 check:33345,op:21,dt:4,nt:8,next:7893,nextCheck:33353,str:24367,h:1,d0:7886,d1:33346;
+                            (____, BuiltinInvocation<Void> @:7885 check:33345,op:21,dt:4,nt:8,next:7893,nextCheck:33353,str:24367,h:1,d0:7886,d1:33346;
                                 ("sleep_until", Expression<MethodOrOperator> @:7886 check:33346,op:21,dt:2,nt:9,next:7887,nextCheck:33347,str:236,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:7887 check:33347,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:24380,h:1,d0:7888,d1:33348;
+                                    (____, BuiltinInvocation<Boolean> @:7887 check:33347,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:24380,h:1,d0:7888,d1:33348;
                                         ("<=", Expression<MethodOrOperator> @:7888 check:33348,op:18,dt:2,nt:9,next:7889,nextCheck:33349,str:11840,h:0,d0:0,d1:0;
-                                            (____, Scope<Short> @:7889 check:33349,op:327,dt:7,nt:8,next:7892,nextCheck:33352,str:24384,h:1,d0:7890,d1:33350;
+                                            (____, BuiltinInvocation<Short> @:7889 check:33349,op:327,dt:7,nt:8,next:7892,nextCheck:33352,str:24384,h:1,d0:7890,d1:33350;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:7890 check:33350,op:327,dt:2,nt:9,next:7891,nextCheck:33351,str:11843,h:0,d0:0,d1:0;
                                                     ("fact_ent_sen", Expression<AI> @:7891 check:33351,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:17381,h:0,d0:57,d1:0;)))
                                             (1, Expression<Short> @:7892 check:33352,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:24415,h:1,d0:1,d1:65535;)))))
-                            (____, Scope<Void> @:7893 check:33353,op:19,dt:4,nt:8,next:7899,nextCheck:33359,str:24423,h:1,d0:7894,d1:33354;
+                            (____, BuiltinInvocation<Void> @:7893 check:33353,op:19,dt:4,nt:8,next:7899,nextCheck:33359,str:24423,h:1,d0:7894,d1:33354;
                                 ("sleep", Expression<MethodOrOperator> @:7894 check:33354,op:19,dt:2,nt:9,next:7895,nextCheck:33355,str:85,h:0,d0:0,d1:0;
-                                    (____, Scope<Short> @:7895 check:33355,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:24430,h:1,d0:7896,d1:33356;
+                                    (____, BuiltinInvocation<Short> @:7895 check:33355,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:24430,h:1,d0:7896,d1:33356;
                                         ("random_range", Expression<MethodOrOperator> @:7896 check:33356,op:124,dt:2,nt:9,next:7897,nextCheck:33357,str:17028,h:0,d0:0,d1:0;
                                             (15, Expression<Short> @:7897 check:33357,op:7,dt:7,nt:9,next:7898,nextCheck:33358,str:24444,h:1,d0:15,d1:65535;
                                                 (30, Expression<Short> @:7898 check:33358,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:24447,h:1,d0:30,d1:65535;))))))
-                            (____, Scope<Void> @:7899 check:33359,op:290,dt:4,nt:8,next:7902,nextCheck:33362,str:24456,h:1,d0:7900,d1:33360;
+                            (____, BuiltinInvocation<Void> @:7899 check:33359,op:290,dt:4,nt:8,next:7902,nextCheck:33362,str:24456,h:1,d0:7900,d1:33360;
                                 ("ai_place", Expression<MethodOrOperator> @:7900 check:33360,op:290,dt:2,nt:9,next:7901,nextCheck:33361,str:16163,h:0,d0:0,d1:0;
                                     ("fact_ent_sen", Expression<AI> @:7901 check:33361,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:17381,h:0,d0:57,d1:0;)))
-                            (____, Scope<Void> @:7902 check:33362,op:4,dt:4,nt:8,next:7909,nextCheck:33369,str:24484,h:1,d0:7903,d1:33363;
+                            (____, BuiltinInvocation<Void> @:7902 check:33362,op:4,dt:4,nt:8,next:7909,nextCheck:33369,str:24484,h:1,d0:7903,d1:33363;
                                 ("set", Expression<MethodOrOperator> @:7903 check:33363,op:4,dt:2,nt:9,next:7904,nextCheck:33364,str:2561,h:0,d0:0,d1:0;
                                     ("g_fact_ent_sen_count", VariableAccess<Short> @:7904 check:33364,op:65535,dt:7,nt:13,next:7905,nextCheck:33365,str:17394,h:0,d0:7,d1:0;
-                                        (____, Scope<Short> @:7905 check:33365,op:7,dt:7,nt:8,next:65535,nextCheck:65535,str:24510,h:1,d0:7906,d1:33366;
+                                        (____, BuiltinInvocation<Short> @:7905 check:33365,op:7,dt:7,nt:8,next:65535,nextCheck:65535,str:24510,h:1,d0:7906,d1:33366;
                                             ("+", Expression<MethodOrOperator> @:7906 check:33366,op:7,dt:2,nt:9,next:7907,nextCheck:33367,str:988,h:0,d0:0,d1:0;
                                                 ("g_fact_ent_sen_count", VariableAccess<Float> @:7907 check:33367,op:6,dt:6,nt:13,next:7908,nextCheck:33368,str:17394,h:0,d0:7,d1:0;
                                                     (1f, Expression<Float> @:7908 check:33368,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:24534,h:1,d0:0,d1:16256;)))))))
-                            (____, Scope<Void> @:7909 check:33369,op:2,dt:4,nt:8,next:7919,nextCheck:33379,str:24542,h:1,d0:7910,d1:33370;
+                            (____, BuiltinInvocation<Void> @:7909 check:33369,op:2,dt:4,nt:8,next:7919,nextCheck:33379,str:24542,h:1,d0:7910,d1:33370;
                                 ("if", Expression<MethodOrOperator> @:7910 check:33370,op:2,dt:2,nt:9,next:7911,nextCheck:33371,str:461,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:7911 check:33371,op:13,dt:5,nt:8,next:7915,nextCheck:33375,str:24546,h:1,d0:7912,d1:33372;
+                                    (____, BuiltinInvocation<Boolean> @:7911 check:33371,op:13,dt:5,nt:8,next:7915,nextCheck:33375,str:24546,h:1,d0:7912,d1:33372;
                                         ("=", Expression<MethodOrOperator> @:7912 check:33372,op:13,dt:2,nt:9,next:7913,nextCheck:33373,str:301,h:0,d0:0,d1:0;
                                             ("g_fact_ent_sen_count", VariableAccess<Short> @:7913 check:33373,op:0,dt:7,nt:13,next:7914,nextCheck:33374,str:17394,h:0,d0:7,d1:0;
                                                 ("g_fact_ent_sen_index", VariableAccess<Short> @:7914 check:33374,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:17415,h:0,d0:8,d1:0;))))
-                                    (____, Scope<Void> @:7915 check:33375,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:24592,h:1,d0:7916,d1:33376;
+                                    (____, BuiltinInvocation<Void> @:7915 check:33375,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:24592,h:1,d0:7916,d1:33376;
                                         ("set", Expression<MethodOrOperator> @:7916 check:33376,op:4,dt:2,nt:9,next:7917,nextCheck:33377,str:2561,h:0,d0:0,d1:0;
                                             ("g_fact_ent_sen_spawn", VariableAccess<Boolean> @:7917 check:33377,op:65535,dt:5,nt:13,next:7918,nextCheck:33378,str:15211,h:0,d0:6,d1:0;
                                                 (True, Expression<Boolean> @:7918 check:33378,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:24618,h:1,d0:65281,d1:65535;))))))

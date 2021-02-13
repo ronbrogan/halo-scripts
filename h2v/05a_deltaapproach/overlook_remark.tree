@@ -1,46 +1,46 @@
 
 ("overlook_remark", MethodDecl<Void> @:223 check:0,op:0,dt:0,nt:65535,next:9543,nextCheck:35003,str:19437,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:9543 check:35003,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:46907,h:1,d0:9544,d1:35004;
+    (____, BuiltinInvocation<Void> @:9543 check:35003,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:46907,h:1,d0:9544,d1:35004;
         ("begin", Expression<MethodOrOperator> @:9544 check:35004,op:0,dt:2,nt:9,next:9501,nextCheck:34961,str:54,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:9501 check:34961,op:374,dt:4,nt:8,next:9504,nextCheck:34964,str:46948,h:1,d0:9502,d1:34962;
+            (____, BuiltinInvocation<Void> @:9501 check:34961,op:374,dt:4,nt:8,next:9504,nextCheck:34964,str:46948,h:1,d0:9502,d1:34962;
                 ("cs_switch", Expression<MethodOrOperator> @:9502 check:34962,op:374,dt:2,nt:9,next:9503,nextCheck:34963,str:15367,h:0,d0:0,d1:0;
                     ("overlook_ally", Expression<StringId> @:9503 check:34963,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:18976,h:0,d0:10072,d1:3328;)))
-            (____, Scope<Void> @:9504 check:34964,op:440,dt:4,nt:8,next:9507,nextCheck:34967,str:46976,h:1,d0:9505,d1:34965;
+            (____, BuiltinInvocation<Void> @:9504 check:34964,op:440,dt:4,nt:8,next:9507,nextCheck:34967,str:46976,h:1,d0:9505,d1:34965;
                 ("cs_abort_on_damage", Expression<MethodOrOperator> @:9505 check:34965,op:440,dt:2,nt:9,next:9506,nextCheck:34966,str:15385,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:9506 check:34966,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:46996,h:1,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:9507 check:34967,op:27,dt:4,nt:8,next:9510,nextCheck:34970,str:47004,h:1,d0:9508,d1:34968;
+            (____, BuiltinInvocation<Void> @:9507 check:34967,op:27,dt:4,nt:8,next:9510,nextCheck:34970,str:47004,h:1,d0:9508,d1:34968;
                 ("print", Expression<MethodOrOperator> @:9508 check:34968,op:27,dt:2,nt:9,next:9509,nextCheck:34969,str:139,h:0,d0:0,d1:0;
-                    ("ally: 'whoa'", Expression<String> @:9509 check:34969,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18990,h:0,d0:30366,d1:12768;)))
-            (____, Scope<Void> @:9510 check:34970,op:418,dt:4,nt:8,next:9513,nextCheck:34973,str:47030,h:1,d0:9511,d1:34971;
+                    ("ally: 'whoa�'", Expression<String> @:9509 check:34969,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18990,h:0,d0:30366,d1:12768;)))
+            (____, BuiltinInvocation<Void> @:9510 check:34970,op:418,dt:4,nt:8,next:9513,nextCheck:34973,str:47030,h:1,d0:9511,d1:34971;
                 ("cs_play_line", Expression<MethodOrOperator> @:9511 check:34971,op:418,dt:2,nt:9,next:9512,nextCheck:34972,str:15433,h:0,d0:0,d1:0;
                     ("0390", Expression<StringId> @:9512 check:34972,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:19004,h:0,d0:9718,d1:1024;)))
-            (____, Scope<Void> @:9513 check:34973,op:19,dt:4,nt:8,next:9516,nextCheck:34976,str:47052,h:1,d0:9514,d1:34974;
+            (____, BuiltinInvocation<Void> @:9513 check:34973,op:19,dt:4,nt:8,next:9516,nextCheck:34976,str:47052,h:1,d0:9514,d1:34974;
                 ("sleep", Expression<MethodOrOperator> @:9514 check:34974,op:19,dt:2,nt:9,next:9515,nextCheck:34975,str:133,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:9515 check:34975,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:47059,h:1,d0:30,d1:65535;)))
-            (____, Scope<Void> @:9516 check:34976,op:27,dt:4,nt:8,next:9519,nextCheck:34979,str:47065,h:1,d0:9517,d1:34977;
+            (____, BuiltinInvocation<Void> @:9516 check:34976,op:27,dt:4,nt:8,next:9519,nextCheck:34979,str:47065,h:1,d0:9517,d1:34977;
                 ("print", Expression<MethodOrOperator> @:9517 check:34977,op:27,dt:2,nt:9,next:9518,nextCheck:34978,str:139,h:0,d0:0,d1:0;
                     ("ally: 'it's like a postcard.'", Expression<String> @:9518 check:34978,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:19009,h:0,d0:30385,d1:12768;)))
-            (____, Scope<Void> @:9519 check:34979,op:418,dt:4,nt:8,next:9522,nextCheck:34982,str:47107,h:1,d0:9520,d1:34980;
+            (____, BuiltinInvocation<Void> @:9519 check:34979,op:418,dt:4,nt:8,next:9522,nextCheck:34982,str:47107,h:1,d0:9520,d1:34980;
                 ("cs_play_line", Expression<MethodOrOperator> @:9520 check:34980,op:418,dt:2,nt:9,next:9521,nextCheck:34981,str:15433,h:0,d0:0,d1:0;
                     ("0400", Expression<StringId> @:9521 check:34981,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:19039,h:0,d0:9719,d1:1024;)))
-            (____, Scope<Void> @:9522 check:34982,op:19,dt:4,nt:8,next:9525,nextCheck:34985,str:47129,h:1,d0:9523,d1:34983;
+            (____, BuiltinInvocation<Void> @:9522 check:34982,op:19,dt:4,nt:8,next:9525,nextCheck:34985,str:47129,h:1,d0:9523,d1:34983;
                 ("sleep", Expression<MethodOrOperator> @:9523 check:34983,op:19,dt:2,nt:9,next:9524,nextCheck:34984,str:133,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:9524 check:34984,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:47136,h:1,d0:30,d1:65535;)))
-            (____, Scope<Void> @:9525 check:34985,op:27,dt:4,nt:8,next:9528,nextCheck:34988,str:47142,h:1,d0:9526,d1:34986;
+            (____, BuiltinInvocation<Void> @:9525 check:34985,op:27,dt:4,nt:8,next:9528,nextCheck:34988,str:47142,h:1,d0:9526,d1:34986;
                 ("print", Expression<MethodOrOperator> @:9526 check:34986,op:27,dt:2,nt:9,next:9527,nextCheck:34987,str:139,h:0,d0:0,d1:0;
                     ("ally: 'dear, sarge: kicking ass in outer space. wish you were here.'", Expression<String> @:9527 check:34987,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:19044,h:0,d0:30420,d1:12768;)))
-            (____, Scope<Void> @:9528 check:34988,op:418,dt:4,nt:8,next:9531,nextCheck:34991,str:47223,h:1,d0:9529,d1:34989;
+            (____, BuiltinInvocation<Void> @:9528 check:34988,op:418,dt:4,nt:8,next:9531,nextCheck:34991,str:47223,h:1,d0:9529,d1:34989;
                 ("cs_play_line", Expression<MethodOrOperator> @:9529 check:34989,op:418,dt:2,nt:9,next:9530,nextCheck:34990,str:15433,h:0,d0:0,d1:0;
                     ("0410", Expression<StringId> @:9530 check:34990,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:19113,h:0,d0:9720,d1:1024;)))
-            (____, Scope<Void> @:9531 check:34991,op:19,dt:4,nt:8,next:9534,nextCheck:34994,str:47245,h:1,d0:9532,d1:34992;
+            (____, BuiltinInvocation<Void> @:9531 check:34991,op:19,dt:4,nt:8,next:9534,nextCheck:34994,str:47245,h:1,d0:9532,d1:34992;
                 ("sleep", Expression<MethodOrOperator> @:9532 check:34992,op:19,dt:2,nt:9,next:9533,nextCheck:34993,str:133,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:9533 check:34993,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:47252,h:1,d0:30,d1:65535;)))
-            (____, Scope<Void> @:9534 check:34994,op:27,dt:4,nt:8,next:9537,nextCheck:34997,str:47258,h:1,d0:9535,d1:34995;
+            (____, BuiltinInvocation<Void> @:9534 check:34994,op:27,dt:4,nt:8,next:9537,nextCheck:34997,str:47258,h:1,d0:9535,d1:34995;
                 ("print", Expression<MethodOrOperator> @:9535 check:34995,op:27,dt:2,nt:9,next:9536,nextCheck:34996,str:139,h:0,d0:0,d1:0;
                     ("johnson: 'i heard that, jackass.'", Expression<String> @:9536 check:34996,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:19118,h:0,d0:30494,d1:12768;)))
-            (____, Scope<Void> @:9537 check:34997,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:47304,h:1,d0:9538,d1:34998;
+            (____, BuiltinInvocation<Void> @:9537 check:34997,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:47304,h:1,d0:9538,d1:34998;
                 ("sleep", Expression<MethodOrOperator> @:9538 check:34998,op:19,dt:2,nt:9,next:9539,nextCheck:34999,str:133,h:0,d0:0,d1:0;
-                    (____, Scope<Short> @:9539 check:34999,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:47311,h:1,d0:9540,d1:35000;
+                    (____, BuiltinInvocation<Short> @:9539 check:34999,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:47311,h:1,d0:9540,d1:35000;
                         ("ai_play_line_on_object", Expression<MethodOrOperator> @:9540 check:35000,op:362,dt:2,nt:9,next:9541,nextCheck:35001,str:15182,h:0,d0:0,d1:0;
                             (4294967295, Expression<Entity> @:9541 check:35001,op:50,dt:50,nt:9,next:9542,nextCheck:35002,str:1392,h:0,d0:65535,d1:65535;
                                 ("0420", Expression<StringId> @:9542 check:35002,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:19152,h:0,d0:9721,d1:1024;)))))))))

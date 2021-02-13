@@ -1,24 +1,24 @@
 
 ("mission_main", MethodDecl<Void> @:230 check:0,op:0,dt:0,nt:65535,next:9921,nextCheck:35381,str:65535,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:9921 check:35381,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:56000,h:1,d0:9922,d1:35382;
+    (____, BuiltinInvocation<Void> @:9921 check:35381,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:56000,h:1,d0:9922,d1:35382;
         ("begin", Expression<MethodOrOperator> @:9922 check:35382,op:0,dt:2,nt:9,next:9898,nextCheck:35358,str:64,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:9898 check:35358,op:614,dt:4,nt:8,next:9903,nextCheck:35363,str:56031,h:1,d0:9899,d1:35359;
+            (____, BuiltinInvocation<Void> @:9898 check:35358,op:614,dt:4,nt:8,next:9903,nextCheck:35363,str:56031,h:1,d0:9899,d1:35359;
                 ("sound_class_set_gain", Expression<MethodOrOperator> @:9899 check:35359,op:614,dt:2,nt:9,next:9900,nextCheck:35360,str:1946,h:0,d0:0,d1:0;
                     ("amb", Expression<String> @:9900 check:35360,op:9,dt:9,nt:9,next:9901,nextCheck:35361,str:1967,h:0,d0:7455,d1:10757;
                         (0f, Expression<Float> @:9901 check:35361,op:6,dt:6,nt:9,next:9902,nextCheck:35362,str:56057,h:1,d0:0,d1:0;
                             (0, Expression<Short> @:9902 check:35362,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:56059,h:1,d0:0,d1:65535;)))))
-            (____, Scope<Void> @:9903 check:35363,op:310,dt:4,nt:8,next:9907,nextCheck:35367,str:56111,h:1,d0:9904,d1:35364;
+            (____, BuiltinInvocation<Void> @:9903 check:35363,op:310,dt:4,nt:8,next:9907,nextCheck:35367,str:56111,h:1,d0:9904,d1:35364;
                 ("ai_allegiance", Expression<MethodOrOperator> @:9904 check:35364,op:310,dt:2,nt:9,next:9905,nextCheck:35365,str:17093,h:0,d0:0,d1:0;
                     ("player", Expression<Team> @:9905 check:35365,op:45,dt:45,nt:9,next:9906,nextCheck:35366,str:17107,h:0,d0:1,d1:65535;
                         ("covenant", Expression<Team> @:9906 check:35366,op:45,dt:45,nt:9,next:65535,nextCheck:65535,str:9644,h:0,d0:3,d1:65535;))))
-            (____, Scope<Void> @:9907 check:35367,op:866,dt:4,nt:8,next:9910,nextCheck:35370,str:56145,h:1,d0:9908,d1:35368;
+            (____, BuiltinInvocation<Void> @:9907 check:35367,op:866,dt:4,nt:8,next:9910,nextCheck:35370,str:56145,h:1,d0:9908,d1:35368;
                 ("weather_stop", Expression<MethodOrOperator> @:9908 check:35368,op:866,dt:2,nt:9,next:9909,nextCheck:35369,str:8794,h:0,d0:0,d1:0;
                     (0f, Expression<Float> @:9909 check:35369,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:56159,h:1,d0:0,d1:0;)))
-            (____, Scope<Void> @:9910 check:35370,op:752,dt:4,nt:8,next:9912,nextCheck:35372,str:56188,h:1,d0:9911,d1:35371;
+            (____, BuiltinInvocation<Void> @:9910 check:35370,op:752,dt:4,nt:8,next:9912,nextCheck:35372,str:56188,h:1,d0:9911,d1:35371;
                 ("objectives_clear", Expression<MethodOrOperator> @:9911 check:35371,op:752,dt:2,nt:9,next:65535,nextCheck:65535,str:17114,h:0,d0:0,d1:0;))
-            (____, Scope<Void> @:9912 check:35372,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:56297,h:1,d0:9913,d1:35373;
+            (____, BuiltinInvocation<Void> @:9912 check:35372,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:56297,h:1,d0:9913,d1:35373;
                 ("if", Expression<MethodOrOperator> @:9913 check:35373,op:2,dt:2,nt:9,next:9914,nextCheck:35374,str:519,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:9914 check:35374,op:15,dt:5,nt:8,next:9919,nextCheck:35379,str:56301,h:1,d0:9915,d1:35375;
+                    (____, BuiltinInvocation<Boolean> @:9914 check:35374,op:15,dt:5,nt:8,next:9919,nextCheck:35379,str:56301,h:1,d0:9915,d1:35375;
                         (">", Expression<MethodOrOperator> @:9915 check:35375,op:15,dt:2,nt:9,next:9916,nextCheck:35376,str:6129,h:0,d0:0,d1:0;
                             ("player_count", ScriptInvocation<Short> @:9916 check:35376,op:2,dt:7,nt:10,next:9918,nextCheck:35378,str:56304,h:1,d0:9917,d1:35377;
                                 ("player_count", Expression<MethodOrOperator> @:9917 check:35377,op:2,dt:2,nt:9,next:65535,nextCheck:65535,str:17131,h:0,d0:0,d1:0;))

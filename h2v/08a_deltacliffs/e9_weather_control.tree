@@ -1,51 +1,51 @@
 
 ("e9_weather_control", MethodDecl<Void> @:117 check:0,op:0,dt:0,nt:65535,next:4129,nextCheck:62356,str:9234,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:4129 check:62356,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:48972,h:0,d0:4130,d1:62357;
+    (____, BuiltinInvocation<Void> @:4129 check:62356,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:48972,h:0,d0:4130,d1:62357;
         ("begin", Expression<MethodOrOperator> @:4130 check:62357,op:0,dt:2,nt:9,next:4082,nextCheck:62309,str:64,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:4082 check:62309,op:866,dt:4,nt:8,next:4085,nextCheck:62312,str:49009,h:0,d0:4083,d1:62310;
+            (____, BuiltinInvocation<Void> @:4082 check:62309,op:866,dt:4,nt:8,next:4085,nextCheck:62312,str:49009,h:0,d0:4083,d1:62310;
                 ("weather_stop", Expression<MethodOrOperator> @:4083 check:62310,op:866,dt:2,nt:9,next:4084,nextCheck:62311,str:8794,h:0,d0:0,d1:0;
                     (120f, Expression<Float> @:4084 check:62311,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:49023,h:0,d0:0,d1:17136;)))
-            (____, Scope<Void> @:4085 check:62312,op:21,dt:4,nt:8,next:4093,nextCheck:62320,str:49031,h:0,d0:4086,d1:62313;
+            (____, BuiltinInvocation<Void> @:4085 check:62312,op:21,dt:4,nt:8,next:4093,nextCheck:62320,str:49031,h:0,d0:4086,d1:62313;
                 ("sleep_until", Expression<MethodOrOperator> @:4086 check:62313,op:21,dt:2,nt:9,next:4087,nextCheck:62314,str:294,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:4087 check:62314,op:33,dt:5,nt:8,next:4092,nextCheck:62319,str:49044,h:0,d0:4088,d1:62315;
+                    (____, BuiltinInvocation<Boolean> @:4087 check:62314,op:33,dt:5,nt:8,next:4092,nextCheck:62319,str:49044,h:0,d0:4088,d1:62315;
                         ("volume_test_objects", Expression<MethodOrOperator> @:4088 check:62315,op:33,dt:2,nt:9,next:4089,nextCheck:62316,str:7200,h:0,d0:0,d1:0;
                             ("tv_e9_first_drop", Expression<Trigger> @:4089 check:62316,op:13,dt:13,nt:9,next:4090,nextCheck:62317,str:8807,h:0,d0:41,d1:0;
-                                (____, Scope<List> @:4090 check:62317,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:49082,h:0,d0:4091,d1:62318;
+                                (____, BuiltinInvocation<List> @:4090 check:62317,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:49082,h:0,d0:4091,d1:62318;
                                     ("players", Expression<MethodOrOperator> @:4091 check:62318,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:84,h:0,d0:0,d1:0;)))))
                     (15, Expression<Short> @:4092 check:62319,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:49093,h:0,d0:15,d1:65535;)))
-            (____, Scope<Void> @:4093 check:62320,op:866,dt:4,nt:8,next:4096,nextCheck:62323,str:49099,h:0,d0:4094,d1:62321;
+            (____, BuiltinInvocation<Void> @:4093 check:62320,op:866,dt:4,nt:8,next:4096,nextCheck:62323,str:49099,h:0,d0:4094,d1:62321;
                 ("weather_stop", Expression<MethodOrOperator> @:4094 check:62321,op:866,dt:2,nt:9,next:4095,nextCheck:62322,str:8794,h:0,d0:0,d1:0;
                     (90f, Expression<Float> @:4095 check:62322,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:49113,h:0,d0:0,d1:17076;)))
-            (____, Scope<Void> @:4096 check:62323,op:21,dt:4,nt:8,next:4104,nextCheck:62331,str:49119,h:0,d0:4097,d1:62324;
+            (____, BuiltinInvocation<Void> @:4096 check:62323,op:21,dt:4,nt:8,next:4104,nextCheck:62331,str:49119,h:0,d0:4097,d1:62324;
                 ("sleep_until", Expression<MethodOrOperator> @:4097 check:62324,op:21,dt:2,nt:9,next:4098,nextCheck:62325,str:294,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:4098 check:62325,op:33,dt:5,nt:8,next:4103,nextCheck:62330,str:49132,h:0,d0:4099,d1:62326;
+                    (____, BuiltinInvocation<Boolean> @:4098 check:62325,op:33,dt:5,nt:8,next:4103,nextCheck:62330,str:49132,h:0,d0:4099,d1:62326;
                         ("volume_test_objects", Expression<MethodOrOperator> @:4099 check:62326,op:33,dt:2,nt:9,next:4100,nextCheck:62327,str:7200,h:0,d0:0,d1:0;
                             ("tv_e9_trap_trigger1", Expression<Trigger> @:4100 check:62327,op:13,dt:13,nt:9,next:4101,nextCheck:62328,str:8682,h:0,d0:43,d1:0;
-                                (____, Scope<List> @:4101 check:62328,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:49173,h:0,d0:4102,d1:62329;
+                                (____, BuiltinInvocation<List> @:4101 check:62328,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:49173,h:0,d0:4102,d1:62329;
                                     ("players", Expression<MethodOrOperator> @:4102 check:62329,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:84,h:0,d0:0,d1:0;)))))
                     (15, Expression<Short> @:4103 check:62330,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:49184,h:0,d0:15,d1:65535;)))
-            (____, Scope<Void> @:4104 check:62331,op:866,dt:4,nt:8,next:4107,nextCheck:62334,str:49190,h:0,d0:4105,d1:62332;
+            (____, BuiltinInvocation<Void> @:4104 check:62331,op:866,dt:4,nt:8,next:4107,nextCheck:62334,str:49190,h:0,d0:4105,d1:62332;
                 ("weather_stop", Expression<MethodOrOperator> @:4105 check:62332,op:866,dt:2,nt:9,next:4106,nextCheck:62333,str:8794,h:0,d0:0,d1:0;
                     (60f, Expression<Float> @:4106 check:62333,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:49204,h:0,d0:0,d1:17008;)))
-            (____, Scope<Void> @:4107 check:62334,op:21,dt:4,nt:8,next:4115,nextCheck:62342,str:49210,h:0,d0:4108,d1:62335;
+            (____, BuiltinInvocation<Void> @:4107 check:62334,op:21,dt:4,nt:8,next:4115,nextCheck:62342,str:49210,h:0,d0:4108,d1:62335;
                 ("sleep_until", Expression<MethodOrOperator> @:4108 check:62335,op:21,dt:2,nt:9,next:4109,nextCheck:62336,str:294,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:4109 check:62336,op:33,dt:5,nt:8,next:4114,nextCheck:62341,str:49223,h:0,d0:4110,d1:62337;
+                    (____, BuiltinInvocation<Boolean> @:4109 check:62336,op:33,dt:5,nt:8,next:4114,nextCheck:62341,str:49223,h:0,d0:4110,d1:62337;
                         ("volume_test_objects", Expression<MethodOrOperator> @:4110 check:62337,op:33,dt:2,nt:9,next:4111,nextCheck:62338,str:7200,h:0,d0:0,d1:0;
                             ("tv_e9_pro_inf3_begin", Expression<Trigger> @:4111 check:62338,op:13,dt:13,nt:9,next:4112,nextCheck:62339,str:8824,h:0,d0:64,d1:0;
-                                (____, Scope<List> @:4112 check:62339,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:49265,h:0,d0:4113,d1:62340;
+                                (____, BuiltinInvocation<List> @:4112 check:62339,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:49265,h:0,d0:4113,d1:62340;
                                     ("players", Expression<MethodOrOperator> @:4113 check:62340,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:84,h:0,d0:0,d1:0;)))))
                     (15, Expression<Short> @:4114 check:62341,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:49276,h:0,d0:15,d1:65535;)))
-            (____, Scope<Void> @:4115 check:62342,op:866,dt:4,nt:8,next:4118,nextCheck:62345,str:49282,h:0,d0:4116,d1:62343;
+            (____, BuiltinInvocation<Void> @:4115 check:62342,op:866,dt:4,nt:8,next:4118,nextCheck:62345,str:49282,h:0,d0:4116,d1:62343;
                 ("weather_stop", Expression<MethodOrOperator> @:4116 check:62343,op:866,dt:2,nt:9,next:4117,nextCheck:62344,str:8794,h:0,d0:0,d1:0;
                     (30f, Expression<Float> @:4117 check:62344,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:49296,h:0,d0:0,d1:16880;)))
-            (____, Scope<Void> @:4118 check:62345,op:21,dt:4,nt:8,next:4126,nextCheck:62353,str:49302,h:0,d0:4119,d1:62346;
+            (____, BuiltinInvocation<Void> @:4118 check:62345,op:21,dt:4,nt:8,next:4126,nextCheck:62353,str:49302,h:0,d0:4119,d1:62346;
                 ("sleep_until", Expression<MethodOrOperator> @:4119 check:62346,op:21,dt:2,nt:9,next:4120,nextCheck:62347,str:294,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:4120 check:62347,op:33,dt:5,nt:8,next:4125,nextCheck:62352,str:49315,h:0,d0:4121,d1:62348;
+                    (____, BuiltinInvocation<Boolean> @:4120 check:62347,op:33,dt:5,nt:8,next:4125,nextCheck:62352,str:49315,h:0,d0:4121,d1:62348;
                         ("volume_test_objects", Expression<MethodOrOperator> @:4121 check:62348,op:33,dt:2,nt:9,next:4122,nextCheck:62349,str:7200,h:0,d0:0,d1:0;
                             ("tv_e10_entrance", Expression<Trigger> @:4122 check:62349,op:13,dt:13,nt:9,next:4123,nextCheck:62350,str:8845,h:0,d0:55,d1:0;
-                                (____, Scope<List> @:4123 check:62350,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:49352,h:0,d0:4124,d1:62351;
+                                (____, BuiltinInvocation<List> @:4123 check:62350,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:49352,h:0,d0:4124,d1:62351;
                                     ("players", Expression<MethodOrOperator> @:4124 check:62351,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:84,h:0,d0:0,d1:0;)))))
                     (15, Expression<Short> @:4125 check:62352,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:49363,h:0,d0:15,d1:65535;)))
-            (____, Scope<Void> @:4126 check:62353,op:866,dt:4,nt:8,next:65535,nextCheck:65535,str:49369,h:0,d0:4127,d1:62354;
+            (____, BuiltinInvocation<Void> @:4126 check:62353,op:866,dt:4,nt:8,next:65535,nextCheck:65535,str:49369,h:0,d0:4127,d1:62354;
                 ("weather_stop", Expression<MethodOrOperator> @:4127 check:62354,op:866,dt:2,nt:9,next:4128,nextCheck:62355,str:8794,h:0,d0:0,d1:0;
                     (15f, Expression<Float> @:4128 check:62355,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:49383,h:0,d0:0,d1:16752;))))))

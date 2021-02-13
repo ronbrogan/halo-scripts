@@ -1,43 +1,43 @@
 
 ("lz_active_camo_call", MethodDecl<Void> @:250 check:0,op:0,dt:0,nt:65535,next:8214,nextCheck:33674,str:18555,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:8214 check:33674,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:32167,h:1,d0:8215,d1:33675;
+    (____, BuiltinInvocation<Void> @:8214 check:33674,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:32167,h:1,d0:8215,d1:33675;
         ("begin", Expression<MethodOrOperator> @:8215 check:33675,op:0,dt:2,nt:9,next:8175,nextCheck:33635,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:8175 check:33635,op:4,dt:4,nt:8,next:8179,nextCheck:33639,str:32212,h:1,d0:8176,d1:33636;
+            (____, BuiltinInvocation<Void> @:8175 check:33635,op:4,dt:4,nt:8,next:8179,nextCheck:33639,str:32212,h:1,d0:8176,d1:33636;
                 ("set", Expression<MethodOrOperator> @:8176 check:33636,op:4,dt:2,nt:9,next:8177,nextCheck:33637,str:2335,h:0,d0:0,d1:0;
                     ("first_airlock_go", VariableAccess<Boolean> @:8177 check:33637,op:65535,dt:5,nt:13,next:8178,nextCheck:33638,str:17878,h:0,d0:5,d1:0;
                         (True, Expression<Boolean> @:8178 check:33638,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:32234,h:1,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:8179 check:33639,op:374,dt:4,nt:8,next:8182,nextCheck:33642,str:32242,h:1,d0:8180,d1:33640;
+            (____, BuiltinInvocation<Void> @:8179 check:33639,op:374,dt:4,nt:8,next:8182,nextCheck:33642,str:32242,h:1,d0:8180,d1:33640;
                 ("cs_switch", Expression<MethodOrOperator> @:8180 check:33640,op:374,dt:2,nt:9,next:8181,nextCheck:33641,str:15164,h:0,d0:0,d1:0;
                     ("ally", Expression<StringId> @:8181 check:33641,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:15174,h:0,d0:9379,d1:1024;)))
-            (____, Scope<Void> @:8182 check:33642,op:90,dt:4,nt:8,next:8187,nextCheck:33647,str:32261,h:1,d0:8183,d1:33643;
+            (____, BuiltinInvocation<Void> @:8182 check:33642,op:90,dt:4,nt:8,next:8187,nextCheck:33647,str:32261,h:1,d0:8183,d1:33643;
                 ("object_cannot_take_damage", Expression<MethodOrOperator> @:8183 check:33643,op:90,dt:2,nt:9,next:8184,nextCheck:33644,str:623,h:0,d0:0,d1:0;
-                    (____, Scope<List> @:8184 check:33644,op:284,dt:31,nt:8,next:65535,nextCheck:65535,str:32288,h:1,d0:8185,d1:33645;
+                    (____, BuiltinInvocation<List> @:8184 check:33644,op:284,dt:31,nt:8,next:65535,nextCheck:65535,str:32288,h:1,d0:8185,d1:33645;
                         ("ai_get_object", Expression<MethodOrOperator> @:8185 check:33645,op:284,dt:2,nt:9,next:8186,nextCheck:33646,str:17895,h:0,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:8186 check:33646,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:17461,h:0,d0:33564,d1:65535;)))))
-            (____, Scope<Void> @:8187 check:33647,op:446,dt:4,nt:8,next:8190,nextCheck:33650,str:32353,h:1,d0:8188,d1:33648;
+            (____, BuiltinInvocation<Void> @:8187 check:33647,op:446,dt:4,nt:8,next:8190,nextCheck:33650,str:32353,h:1,d0:8188,d1:33648;
                 ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:8188 check:33648,op:446,dt:2,nt:9,next:8189,nextCheck:33649,str:15198,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:8189 check:33649,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:32382,h:1,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:8190 check:33650,op:27,dt:4,nt:8,next:8193,nextCheck:33653,str:32390,h:1,d0:8191,d1:33651;
+            (____, BuiltinInvocation<Void> @:8190 check:33650,op:27,dt:4,nt:8,next:8193,nextCheck:33653,str:32390,h:1,d0:8191,d1:33651;
                 ("print", Expression<MethodOrOperator> @:8191 check:33651,op:27,dt:2,nt:9,next:8192,nextCheck:33652,str:91,h:0,d0:0,d1:0;
                     ("spec-ops elite: 'engage active camouflage! reveal yourselves only after the arbiter has joined battle with the enemy!'", Expression<String> @:8192 check:33652,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:17909,h:0,d0:33821,d1:10848;)))
-            (____, Scope<Void> @:8193 check:33653,op:418,dt:4,nt:8,next:8196,nextCheck:33656,str:32521,h:1,d0:8194,d1:33654;
+            (____, BuiltinInvocation<Void> @:8193 check:33653,op:418,dt:4,nt:8,next:8196,nextCheck:33656,str:32521,h:1,d0:8194,d1:33654;
                 ("cs_play_line", Expression<MethodOrOperator> @:8194 check:33654,op:418,dt:2,nt:9,next:8195,nextCheck:33655,str:15257,h:0,d0:0,d1:0;
                     ("0980", Expression<StringId> @:8195 check:33655,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:18028,h:0,d0:9058,d1:1024;)))
-            (____, Scope<Void> @:8196 check:33656,op:19,dt:4,nt:8,next:8199,nextCheck:33659,str:32543,h:1,d0:8197,d1:33657;
+            (____, BuiltinInvocation<Void> @:8196 check:33656,op:19,dt:4,nt:8,next:8199,nextCheck:33659,str:32543,h:1,d0:8197,d1:33657;
                 ("sleep", Expression<MethodOrOperator> @:8197 check:33657,op:19,dt:2,nt:9,next:8198,nextCheck:33658,str:85,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:8198 check:33658,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:32550,h:1,d0:30,d1:65535;)))
-            (____, Scope<Void> @:8199 check:33659,op:334,dt:4,nt:8,next:8203,nextCheck:33663,str:32556,h:1,d0:8200,d1:33660;
+            (____, BuiltinInvocation<Void> @:8199 check:33659,op:334,dt:4,nt:8,next:8203,nextCheck:33663,str:32556,h:1,d0:8200,d1:33660;
                 ("ai_set_orders", Expression<MethodOrOperator> @:8200 check:33660,op:334,dt:2,nt:9,next:8201,nextCheck:33661,str:18033,h:0,d0:0,d1:0;
                     ("all_allies", Expression<AI> @:8201 check:33661,op:19,dt:19,nt:9,next:8202,nextCheck:33662,str:15796,h:0,d0:0,d1:16384;
                         ("allies_rec_hide", Expression<AIOrders> @:8202 check:33662,op:23,dt:23,nt:9,next:65535,nextCheck:65535,str:18047,h:0,d0:5,d1:0;))))
-            (____, Scope<Void> @:8203 check:33663,op:19,dt:4,nt:8,next:8206,nextCheck:33666,str:32601,h:1,d0:8204,d1:33664;
+            (____, BuiltinInvocation<Void> @:8203 check:33663,op:19,dt:4,nt:8,next:8206,nextCheck:33666,str:32601,h:1,d0:8204,d1:33664;
                 ("sleep", Expression<MethodOrOperator> @:8204 check:33664,op:19,dt:2,nt:9,next:8205,nextCheck:33665,str:85,h:0,d0:0,d1:0;
                     (60, Expression<Short> @:8205 check:33665,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:32608,h:1,d0:60,d1:65535;)))
-            (____, Scope<Void> @:8206 check:33666,op:22,dt:4,nt:8,next:8209,nextCheck:33669,str:32614,h:1,d0:8207,d1:33667;
+            (____, BuiltinInvocation<Void> @:8206 check:33666,op:22,dt:4,nt:8,next:8209,nextCheck:33669,str:32614,h:1,d0:8207,d1:33667;
                 ("wake", Expression<MethodOrOperator> @:8207 check:33667,op:22,dt:2,nt:9,next:8208,nextCheck:33668,str:1071,h:0,d0:0,d1:0;
                     ("commander_comment_03", Expression<ScriptReference> @:8208 check:33668,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:18063,h:0,d0:249,d1:65535;)))
-            (____, Scope<Void> @:8209 check:33669,op:91,dt:4,nt:8,next:65535,nextCheck:65535,str:32644,h:1,d0:8210,d1:33670;
+            (____, BuiltinInvocation<Void> @:8209 check:33669,op:91,dt:4,nt:8,next:65535,nextCheck:65535,str:32644,h:1,d0:8210,d1:33670;
                 ("object_can_take_damage", Expression<MethodOrOperator> @:8210 check:33670,op:91,dt:2,nt:9,next:8211,nextCheck:33671,str:649,h:0,d0:0,d1:0;
-                    (____, Scope<List> @:8211 check:33671,op:284,dt:31,nt:8,next:65535,nextCheck:65535,str:32668,h:1,d0:8212,d1:33672;
+                    (____, BuiltinInvocation<List> @:8211 check:33671,op:284,dt:31,nt:8,next:65535,nextCheck:65535,str:32668,h:1,d0:8212,d1:33672;
                         ("ai_get_object", Expression<MethodOrOperator> @:8212 check:33672,op:284,dt:2,nt:9,next:8213,nextCheck:33673,str:17895,h:0,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:8213 check:33673,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:17461,h:0,d0:33564,d1:65535;))))))))

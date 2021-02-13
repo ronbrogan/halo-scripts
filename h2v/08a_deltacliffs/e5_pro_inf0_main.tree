@@ -1,23 +1,23 @@
 
 ("e5_pro_inf0_main", MethodDecl<Void> @:167 check:0,op:0,dt:0,nt:65535,next:6193,nextCheck:64420,str:12104,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:6193 check:64420,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:11707,h:1,d0:6194,d1:64421;
+    (____, BuiltinInvocation<Void> @:6193 check:64420,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:11707,h:1,d0:6194,d1:64421;
         ("begin", Expression<MethodOrOperator> @:6194 check:64421,op:0,dt:2,nt:9,next:6174,nextCheck:64401,str:64,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:6174 check:64401,op:291,dt:4,nt:8,next:6187,nextCheck:64414,str:11742,h:1,d0:6175,d1:64402;
+            (____, BuiltinInvocation<Void> @:6174 check:64401,op:291,dt:4,nt:8,next:6187,nextCheck:64414,str:11742,h:1,d0:6175,d1:64402;
                 ("ai_place", Expression<MethodOrOperator> @:6175 check:64402,op:291,dt:2,nt:9,next:6176,nextCheck:64403,str:6905,h:0,d0:0,d1:0;
                     ("e5_pro_inf0", Expression<AI> @:6176 check:64403,op:19,dt:19,nt:9,next:6177,nextCheck:64404,str:11714,h:0,d0:34,d1:0;
-                        (____, Scope<Short> @:6177 check:64404,op:26,dt:7,nt:8,next:65535,nextCheck:65535,str:11764,h:1,d0:6178,d1:64405;
+                        (____, BuiltinInvocation<Short> @:6177 check:64404,op:26,dt:7,nt:8,next:65535,nextCheck:65535,str:11764,h:1,d0:6178,d1:64405;
                             ("pin", Expression<MethodOrOperator> @:6178 check:64405,op:26,dt:2,nt:9,next:6179,nextCheck:64406,str:7691,h:0,d0:0,d1:0;
-                                (-1.5690529E+36f, Scope<Float> @:6179 check:64406,op:8,dt:6,nt:8,next:6185,nextCheck:64412,str:11769,h:1,d0:6180,d1:64407;
+                                (-1.5690529E+36f, BuiltinInvocation<Float> @:6179 check:64406,op:8,dt:6,nt:8,next:6185,nextCheck:64412,str:11769,h:1,d0:6180,d1:64407;
                                     ("-", Expression<MethodOrOperator> @:6180 check:64407,op:8,dt:2,nt:9,next:6181,nextCheck:64408,str:2355,h:0,d0:0,d1:0;
                                         (10f, Expression<Float> @:6181 check:64408,op:6,dt:6,nt:9,next:6182,nextCheck:64409,str:11772,h:1,d0:0,d1:16672;
-                                            (-1.6002072E+36f, Scope<Float> @:6182 check:64409,op:327,dt:6,nt:8,next:65535,nextCheck:65535,str:11775,h:1,d0:6183,d1:64410;
+                                            (-1.6002072E+36f, BuiltinInvocation<Float> @:6182 check:64409,op:327,dt:6,nt:8,next:65535,nextCheck:65535,str:11775,h:1,d0:6183,d1:64410;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:6183 check:64410,op:327,dt:2,nt:9,next:6184,nextCheck:64411,str:7475,h:0,d0:0,d1:0;
                                                     ("prophets", Expression<AI> @:6184 check:64411,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:7695,h:0,d0:1,d1:16384;))))))
                                 (2f, Expression<Float> @:6185 check:64412,op:6,dt:6,nt:9,next:6186,nextCheck:64413,str:11803,h:1,d0:0,d1:16384;
                                     (6f, Expression<Float> @:6186 check:64413,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:11805,h:1,d0:0,d1:16576;)))))))
-            (____, Scope<Void> @:6187 check:64414,op:343,dt:4,nt:8,next:65535,nextCheck:65535,str:11839,h:1,d0:6188,d1:64415;
+            (____, BuiltinInvocation<Void> @:6187 check:64414,op:343,dt:4,nt:8,next:65535,nextCheck:65535,str:11839,h:1,d0:6188,d1:64415;
                 ("ai_vehicle_reserve", Expression<MethodOrOperator> @:6188 check:64415,op:343,dt:2,nt:9,next:6189,nextCheck:64416,str:9653,h:0,d0:0,d1:0;
-                    (____, Scope<Vehicle> @:6189 check:64416,op:340,dt:52,nt:8,next:6192,nextCheck:64419,str:11859,h:1,d0:6190,d1:64417;
+                    (____, BuiltinInvocation<Vehicle> @:6189 check:64416,op:340,dt:52,nt:8,next:6192,nextCheck:64419,str:11859,h:1,d0:6190,d1:64417;
                         ("ai_vehicle_get", Expression<MethodOrOperator> @:6190 check:64417,op:340,dt:2,nt:9,next:6191,nextCheck:64418,str:5928,h:0,d0:0,d1:0;
                             ("e5_pro_inf0/turret0", Expression<AI> @:6191 check:64418,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:11831,h:0,d0:0,d1:49186;)))
                     (True, Expression<Boolean> @:6192 check:64419,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:11896,h:1,d0:65281,d1:65535;))))))

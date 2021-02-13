@@ -1,16 +1,16 @@
 
 ("effect_grav_lift", MethodDecl<Void> @:99 check:0,op:0,dt:0,nt:65535,next:3227,nextCheck:61454,str:7816,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:3227 check:61454,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:38900,h:0,d0:3228,d1:61455;
+    (____, BuiltinInvocation<Void> @:3227 check:61454,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:38900,h:0,d0:3228,d1:61455;
         ("begin", Expression<MethodOrOperator> @:3228 check:61455,op:0,dt:2,nt:9,next:3215,nextCheck:61442,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:3215 check:61442,op:19,dt:4,nt:8,next:3218,nextCheck:61445,str:38935,h:0,d0:3216,d1:61443;
+            (____, BuiltinInvocation<Void> @:3215 check:61442,op:19,dt:4,nt:8,next:3218,nextCheck:61445,str:38935,h:0,d0:3216,d1:61443;
                 ("sleep", Expression<MethodOrOperator> @:3216 check:61443,op:19,dt:2,nt:9,next:3217,nextCheck:61444,str:85,h:0,d0:0,d1:0;
                     (330, Expression<Short> @:3217 check:61444,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:38942,h:0,d0:330,d1:65535;)))
-            (____, Scope<Void> @:3218 check:61445,op:60,dt:4,nt:8,next:3224,nextCheck:61451,str:38949,h:0,d0:3219,d1:61446;
+            (____, BuiltinInvocation<Void> @:3218 check:61445,op:60,dt:4,nt:8,next:3224,nextCheck:61451,str:38949,h:0,d0:3219,d1:61446;
                 ("object_set_function_variable", Expression<MethodOrOperator> @:3219 check:61446,op:60,dt:2,nt:9,next:3220,nextCheck:61447,str:2509,h:0,d0:0,d1:0;
                     (4294901798, Expression<Entity> @:3220 check:61447,op:56,dt:50,nt:9,next:3221,nextCheck:61448,str:7643,h:0,d0:38,d1:65535;
                         ("grav_lift_control", Expression<StringId> @:3221 check:61448,op:11,dt:11,nt:9,next:3222,nextCheck:61449,str:7651,h:0,d0:5060,d1:4352;
                             (0f, Expression<Float> @:3222 check:61449,op:6,dt:6,nt:9,next:3223,nextCheck:61450,str:39007,h:0,d0:0,d1:0;
                                 (75f, Expression<Float> @:3223 check:61450,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:39009,h:0,d0:0,d1:17046;))))))
-            (____, Scope<Void> @:3224 check:61451,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:39015,h:0,d0:3225,d1:61452;
+            (____, BuiltinInvocation<Void> @:3224 check:61451,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:39015,h:0,d0:3225,d1:61452;
                 ("print", Expression<MethodOrOperator> @:3225 check:61452,op:27,dt:2,nt:9,next:3226,nextCheck:61453,str:91,h:0,d0:0,d1:0;
                     ("grav-lift deactivate", Expression<String> @:3226 check:61453,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:7669,h:0,d0:52141,d1:12462;))))))

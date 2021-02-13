@@ -1,36 +1,36 @@
 
 ("cs_e21_scene1", MethodDecl<Void> @:264 check:0,op:0,dt:0,nt:65535,next:12085,nextCheck:37545,str:24532,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:12085 check:37545,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:10759,h:2,d0:12086,d1:37546;
+    (____, BuiltinInvocation<Void> @:12085 check:37545,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:10759,h:2,d0:12086,d1:37546;
         ("begin", Expression<MethodOrOperator> @:12086 check:37546,op:0,dt:2,nt:9,next:12053,nextCheck:37513,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:12053 check:37513,op:27,dt:4,nt:8,next:12056,nextCheck:37516,str:10798,h:2,d0:12054,d1:37514;
+            (____, BuiltinInvocation<Void> @:12053 check:37513,op:27,dt:4,nt:8,next:12056,nextCheck:37516,str:10798,h:2,d0:12054,d1:37514;
                 ("print", Expression<MethodOrOperator> @:12054 check:37514,op:27,dt:2,nt:9,next:12055,nextCheck:37515,str:91,h:0,d0:0,d1:0;
                     ("elite: look, up ahead! the parasite readies", Expression<String> @:12055 check:37515,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:24046,h:0,d0:9710,d1:12390;)))
-            (____, Scope<Void> @:12056 check:37516,op:361,dt:4,nt:8,next:12060,nextCheck:37520,str:10854,h:2,d0:12057,d1:37517;
+            (____, BuiltinInvocation<Void> @:12056 check:37516,op:361,dt:4,nt:8,next:12060,nextCheck:37520,str:10854,h:2,d0:12057,d1:37517;
                 ("ai_play_line_at_player", Expression<MethodOrOperator> @:12057 check:37517,op:361,dt:2,nt:9,next:12058,nextCheck:37518,str:22277,h:0,d0:0,d1:0;
                     ("ai_current_actor", VariableAccess<AI> @:12058 check:37518,op:19,dt:19,nt:13,next:12059,nextCheck:37519,str:10395,h:0,d0:33564,d1:65535;
                         ("0760", Expression<StringId> @:12059 check:37519,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:24090,h:0,d0:10857,d1:1024;))))
-            (____, Scope<Void> @:12060 check:37520,op:19,dt:4,nt:8,next:12063,nextCheck:37523,str:10903,h:2,d0:12061,d1:37521;
+            (____, BuiltinInvocation<Void> @:12060 check:37520,op:19,dt:4,nt:8,next:12063,nextCheck:37523,str:10903,h:2,d0:12061,d1:37521;
                 ("sleep", Expression<MethodOrOperator> @:12061 check:37521,op:19,dt:2,nt:9,next:12062,nextCheck:37522,str:85,h:0,d0:0,d1:0;
                     (20, Expression<Short> @:12062 check:37522,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:10910,h:2,d0:20,d1:65535;)))
-            (____, Scope<Void> @:12063 check:37523,op:391,dt:4,nt:8,next:12066,nextCheck:37526,str:10939,h:2,d0:12064,d1:37524;
+            (____, BuiltinInvocation<Void> @:12063 check:37523,op:391,dt:4,nt:8,next:12066,nextCheck:37526,str:10939,h:2,d0:12064,d1:37524;
                 ("cs_go_to_nearest", Expression<MethodOrOperator> @:12064 check:37524,op:391,dt:2,nt:9,next:12065,nextCheck:37525,str:13822,h:0,d0:0,d1:0;
                     ("e21_scene1_points", Expression<SpatialPoint> @:12065 check:37525,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:24095,h:0,d0:65535,d1:15;)))
-            (____, Scope<Void> @:12066 check:37526,op:399,dt:4,nt:8,next:12070,nextCheck:37530,str:10978,h:2,d0:12067,d1:37527;
+            (____, BuiltinInvocation<Void> @:12066 check:37526,op:399,dt:4,nt:8,next:12070,nextCheck:37530,str:10978,h:2,d0:12067,d1:37527;
                 ("cs_face", Expression<MethodOrOperator> @:12067 check:37527,op:399,dt:2,nt:9,next:12068,nextCheck:37528,str:18964,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:12068 check:37528,op:5,dt:5,nt:9,next:12069,nextCheck:37529,str:10987,h:2,d0:65281,d1:65535;
                         ("e21_fld_load/p0", Expression<SpatialPoint> @:12069 check:37529,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:24113,h:0,d0:4,d1:14;))))
-            (____, Scope<Void> @:12070 check:37530,op:396,dt:4,nt:8,next:12074,nextCheck:37534,str:11011,h:2,d0:12071,d1:37531;
+            (____, BuiltinInvocation<Void> @:12070 check:37530,op:396,dt:4,nt:8,next:12074,nextCheck:37534,str:11011,h:2,d0:12071,d1:37531;
                 ("cs_aim", Expression<MethodOrOperator> @:12071 check:37531,op:396,dt:2,nt:9,next:12072,nextCheck:37532,str:24129,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:12072 check:37532,op:5,dt:5,nt:9,next:12073,nextCheck:37533,str:11019,h:2,d0:65281,d1:65535;
                         ("e21_fld_load/p0", Expression<SpatialPoint> @:12073 check:37533,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:24113,h:0,d0:4,d1:14;))))
-            (____, Scope<Void> @:12074 check:37534,op:21,dt:4,nt:8,next:12078,nextCheck:37538,str:11077,h:2,d0:12075,d1:37535;
+            (____, BuiltinInvocation<Void> @:12074 check:37534,op:21,dt:4,nt:8,next:12078,nextCheck:37538,str:11077,h:2,d0:12075,d1:37535;
                 ("sleep_until", Expression<MethodOrOperator> @:12075 check:37535,op:21,dt:2,nt:9,next:12076,nextCheck:37536,str:236,h:0,d0:0,d1:0;
                     ("g_key_lock0_first_loadpoint", VariableAccess<Boolean> @:12076 check:37536,op:5,dt:5,nt:13,next:12077,nextCheck:37537,str:20105,h:0,d0:58,d1:0;
                         (5, Expression<Short> @:12077 check:37537,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:11118,h:2,d0:5,d1:65535;))))
-            (____, Scope<Void> @:12078 check:37538,op:406,dt:4,nt:8,next:12082,nextCheck:37542,str:11156,h:2,d0:12079,d1:37539;
+            (____, BuiltinInvocation<Void> @:12078 check:37538,op:406,dt:4,nt:8,next:12082,nextCheck:37542,str:11156,h:2,d0:12079,d1:37539;
                 ("cs_shoot_point", Expression<MethodOrOperator> @:12079 check:37539,op:406,dt:2,nt:9,next:12080,nextCheck:37540,str:16993,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:12080 check:37540,op:5,dt:5,nt:9,next:12081,nextCheck:37541,str:11172,h:2,d0:65281,d1:65535;
                         ("e21_fld_load/p0", Expression<SpatialPoint> @:12081 check:37541,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:24113,h:0,d0:4,d1:14;))))
-            (____, Scope<Void> @:12082 check:37542,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:11196,h:2,d0:12083,d1:37543;
+            (____, BuiltinInvocation<Void> @:12082 check:37542,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:11196,h:2,d0:12083,d1:37543;
                 ("sleep", Expression<MethodOrOperator> @:12083 check:37543,op:19,dt:2,nt:9,next:12084,nextCheck:37544,str:85,h:0,d0:0,d1:0;
                     (90, Expression<Short> @:12084 check:37544,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:11203,h:2,d0:90,d1:65535;))))))

@@ -1,24 +1,24 @@
 
 ("temple_deploy_l", MethodDecl<Void> @:257 check:0,op:0,dt:0,nt:65535,next:16524,nextCheck:41984,str:28158,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:16524 check:41984,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:45009,h:2,d0:16525,d1:41985;
+    (____, BuiltinInvocation<Void> @:16524 check:41984,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:45009,h:2,d0:16525,d1:41985;
         ("begin", Expression<MethodOrOperator> @:16525 check:41985,op:0,dt:2,nt:9,next:16504,nextCheck:41964,str:142,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:16504 check:41964,op:449,dt:4,nt:8,next:16507,nextCheck:41967,str:45050,h:2,d0:16505,d1:41965;
+            (____, BuiltinInvocation<Void> @:16504 check:41964,op:449,dt:4,nt:8,next:16507,nextCheck:41967,str:45050,h:2,d0:16505,d1:41965;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:16505 check:41965,op:449,dt:2,nt:9,next:16506,nextCheck:41966,str:10931,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:16506 check:41966,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:45082,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:16507 check:41967,op:385,dt:4,nt:8,next:16510,nextCheck:41970,str:45090,h:2,d0:16508,d1:41968;
+            (____, BuiltinInvocation<Void> @:16507 check:41967,op:385,dt:4,nt:8,next:16510,nextCheck:41970,str:45090,h:2,d0:16508,d1:41968;
                 ("cs_go_to", Expression<MethodOrOperator> @:16508 check:41968,op:385,dt:2,nt:9,next:16509,nextCheck:41969,str:16145,h:0,d0:0,d1:0;
                     ("temple_turrets/deploy_left", Expression<SpatialPoint> @:16509 check:41969,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:27553,h:0,d0:3,d1:7;)))
-            (____, Scope<Void> @:16510 check:41970,op:429,dt:4,nt:8,next:16513,nextCheck:41973,str:45130,h:2,d0:16511,d1:41971;
+            (____, BuiltinInvocation<Void> @:16510 check:41970,op:429,dt:4,nt:8,next:16513,nextCheck:41973,str:45130,h:2,d0:16511,d1:41971;
                 ("cs_deploy_turret", Expression<MethodOrOperator> @:16511 check:41971,op:429,dt:2,nt:9,next:16512,nextCheck:41972,str:27580,h:0,d0:0,d1:0;
                     ("temple_turrets/left", Expression<SpatialPoint> @:16512 check:41972,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:27597,h:0,d0:0,d1:7;)))
-            (____, Scope<Void> @:16513 check:41973,op:442,dt:4,nt:8,next:16516,nextCheck:41976,str:45171,h:2,d0:16514,d1:41974;
+            (____, BuiltinInvocation<Void> @:16513 check:41973,op:442,dt:4,nt:8,next:16516,nextCheck:41976,str:45171,h:2,d0:16514,d1:41974;
                 ("cs_enable_targeting", Expression<MethodOrOperator> @:16514 check:41974,op:442,dt:2,nt:9,next:16515,nextCheck:41975,str:16203,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:16515 check:41975,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:45192,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:16516 check:41976,op:404,dt:4,nt:8,next:16519,nextCheck:41979,str:45200,h:2,d0:16517,d1:41977;
+            (____, BuiltinInvocation<Void> @:16516 check:41976,op:404,dt:4,nt:8,next:16519,nextCheck:41979,str:45200,h:2,d0:16517,d1:41977;
                 ("cs_shoot", Expression<MethodOrOperator> @:16517 check:41977,op:404,dt:2,nt:9,next:16518,nextCheck:41978,str:16223,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:16518 check:41978,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:45210,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:16519 check:41979,op:427,dt:4,nt:8,next:16522,nextCheck:41982,str:45218,h:2,d0:16520,d1:41980;
+            (____, BuiltinInvocation<Void> @:16519 check:41979,op:427,dt:4,nt:8,next:16522,nextCheck:41982,str:45218,h:2,d0:16520,d1:41980;
                 ("cs_set_behavior", Expression<MethodOrOperator> @:16520 check:41980,op:427,dt:2,nt:9,next:16521,nextCheck:41981,str:16295,h:0,d0:0,d1:0;
                     ("guard", Expression<AIBehavior> @:16521 check:41981,op:22,dt:22,nt:9,next:65535,nextCheck:65535,str:16311,h:0,d0:5,d1:0;)))
-            (____, Scope<Void> @:16522 check:41982,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:45244,h:2,d0:16523,d1:41983;
+            (____, BuiltinInvocation<Void> @:16522 check:41982,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:45244,h:2,d0:16523,d1:41983;
                 ("sleep_forever", Expression<MethodOrOperator> @:16523 check:41983,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:8488,h:0,d0:0,d1:0;)))))

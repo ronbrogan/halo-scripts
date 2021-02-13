@@ -1,59 +1,59 @@
 
 ("bridge_phantom_reinforce_01b", MethodDecl<Void> @:235 check:0,op:0,dt:0,nt:65535,next:10365,nextCheck:35825,str:36328,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:10365 check:35825,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:55628,h:1,d0:10366,d1:35826;
+    (____, BuiltinInvocation<Void> @:10365 check:35825,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:55628,h:1,d0:10366,d1:35826;
         ("begin", Expression<MethodOrOperator> @:10366 check:35826,op:0,dt:2,nt:9,next:10310,nextCheck:35770,str:54,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:10310 check:35770,op:290,dt:4,nt:8,next:10313,nextCheck:35773,str:55679,h:1,d0:10311,d1:35771;
+            (____, BuiltinInvocation<Void> @:10310 check:35770,op:290,dt:4,nt:8,next:10313,nextCheck:35773,str:55679,h:1,d0:10311,d1:35771;
                 ("ai_place", Expression<MethodOrOperator> @:10311 check:35771,op:290,dt:2,nt:9,next:10312,nextCheck:35772,str:14801,h:0,d0:0,d1:0;
                     ("bridge_phantom_01", Expression<AI> @:10312 check:35772,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19996,h:0,d0:57,d1:0;)))
-            (____, Scope<Void> @:10313 check:35773,op:290,dt:4,nt:8,next:10316,nextCheck:35776,str:55710,h:1,d0:10314,d1:35774;
+            (____, BuiltinInvocation<Void> @:10313 check:35773,op:290,dt:4,nt:8,next:10316,nextCheck:35776,str:55710,h:1,d0:10314,d1:35774;
                 ("ai_place", Expression<MethodOrOperator> @:10314 check:35774,op:290,dt:2,nt:9,next:10315,nextCheck:35775,str:14801,h:0,d0:0,d1:0;
                     ("bridge_phantom_ghosts_01", Expression<AI> @:10315 check:35775,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:20363,h:0,d0:58,d1:0;)))
-            (____, Scope<Void> @:10316 check:35776,op:19,dt:4,nt:8,next:10319,nextCheck:35779,str:55751,h:1,d0:10317,d1:35777;
+            (____, BuiltinInvocation<Void> @:10316 check:35776,op:19,dt:4,nt:8,next:10319,nextCheck:35779,str:55751,h:1,d0:10317,d1:35777;
                 ("sleep", Expression<MethodOrOperator> @:10317 check:35777,op:19,dt:2,nt:9,next:10318,nextCheck:35778,str:133,h:0,d0:0,d1:0;
                     (60, Expression<Short> @:10318 check:35778,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55758,h:1,d0:60,d1:65535;)))
-            (____, Scope<Void> @:10319 check:35779,op:232,dt:4,nt:8,next:10328,nextCheck:35788,str:55764,h:1,d0:10320,d1:35780;
+            (____, BuiltinInvocation<Void> @:10319 check:35779,op:232,dt:4,nt:8,next:10328,nextCheck:35788,str:55764,h:1,d0:10320,d1:35780;
                 ("vehicle_load_magic", Expression<MethodOrOperator> @:10320 check:35780,op:232,dt:2,nt:9,next:10321,nextCheck:35781,str:16230,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:10321 check:35781,op:341,dt:50,nt:8,next:10324,nextCheck:35784,str:55784,h:1,d0:10322,d1:35782;
+                    (____, BuiltinInvocation<Entity> @:10321 check:35781,op:341,dt:50,nt:8,next:10324,nextCheck:35784,str:55784,h:1,d0:10322,d1:35782;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:10322 check:35782,op:341,dt:2,nt:9,next:10323,nextCheck:35783,str:14547,h:0,d0:0,d1:0;
                             ("bridge_phantom_01/pilot", Expression<AI> @:10323 check:35783,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19961,h:0,d0:0,d1:49209;)))
                     ("phantom_lc", Expression<VehicleSeat> @:10324 check:35784,op:12,dt:12,nt:9,next:10325,nextCheck:35785,str:19985,h:0,d0:13,d1:1;
-                        (____, Scope<List> @:10325 check:35785,op:341,dt:31,nt:8,next:65535,nextCheck:65535,str:55861,h:1,d0:10326,d1:35786;
+                        (____, BuiltinInvocation<List> @:10325 check:35785,op:341,dt:31,nt:8,next:65535,nextCheck:65535,str:55861,h:1,d0:10326,d1:35786;
                             ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:10326 check:35786,op:341,dt:2,nt:9,next:10327,nextCheck:35787,str:14547,h:0,d0:0,d1:0;
                                 ("bridge_phantom_ghosts_01/1", Expression<AI> @:10327 check:35787,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:20388,h:0,d0:0,d1:49210;))))))
-            (____, Scope<Void> @:10328 check:35788,op:232,dt:4,nt:8,next:10337,nextCheck:35797,str:55931,h:1,d0:10329,d1:35789;
+            (____, BuiltinInvocation<Void> @:10328 check:35788,op:232,dt:4,nt:8,next:10337,nextCheck:35797,str:55931,h:1,d0:10329,d1:35789;
                 ("vehicle_load_magic", Expression<MethodOrOperator> @:10329 check:35789,op:232,dt:2,nt:9,next:10330,nextCheck:35790,str:16230,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:10330 check:35790,op:341,dt:50,nt:8,next:10333,nextCheck:35793,str:55951,h:1,d0:10331,d1:35791;
+                    (____, BuiltinInvocation<Entity> @:10330 check:35790,op:341,dt:50,nt:8,next:10333,nextCheck:35793,str:55951,h:1,d0:10331,d1:35791;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:10331 check:35791,op:341,dt:2,nt:9,next:10332,nextCheck:35792,str:14547,h:0,d0:0,d1:0;
                             ("bridge_phantom_01/pilot", Expression<AI> @:10332 check:35792,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19961,h:0,d0:0,d1:49209;)))
                     ("phantom_lc", Expression<VehicleSeat> @:10333 check:35793,op:12,dt:12,nt:9,next:10334,nextCheck:35794,str:19985,h:0,d0:13,d1:1;
-                        (____, Scope<List> @:10334 check:35794,op:341,dt:31,nt:8,next:65535,nextCheck:65535,str:56028,h:1,d0:10335,d1:35795;
+                        (____, BuiltinInvocation<List> @:10334 check:35794,op:341,dt:31,nt:8,next:65535,nextCheck:65535,str:56028,h:1,d0:10335,d1:35795;
                             ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:10335 check:35795,op:341,dt:2,nt:9,next:10336,nextCheck:35796,str:14547,h:0,d0:0,d1:0;
                                 ("bridge_phantom_ghosts_01/2", Expression<AI> @:10336 check:35796,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:20415,h:0,d0:1,d1:49210;))))))
-            (____, Scope<Void> @:10337 check:35797,op:19,dt:4,nt:8,next:10340,nextCheck:35800,str:56098,h:1,d0:10338,d1:35798;
+            (____, BuiltinInvocation<Void> @:10337 check:35797,op:19,dt:4,nt:8,next:10340,nextCheck:35800,str:56098,h:1,d0:10338,d1:35798;
                 ("sleep", Expression<MethodOrOperator> @:10338 check:35798,op:19,dt:2,nt:9,next:10339,nextCheck:35799,str:133,h:0,d0:0,d1:0;
                     (60, Expression<Short> @:10339 check:35799,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:56105,h:1,d0:60,d1:65535;)))
-            (____, Scope<Void> @:10340 check:35800,op:343,dt:4,nt:8,next:10346,nextCheck:35806,str:56111,h:1,d0:10341,d1:35801;
+            (____, BuiltinInvocation<Void> @:10340 check:35800,op:343,dt:4,nt:8,next:10346,nextCheck:35806,str:56111,h:1,d0:10341,d1:35801;
                 ("ai_vehicle_reserve", Expression<MethodOrOperator> @:10341 check:35801,op:343,dt:2,nt:9,next:10342,nextCheck:35802,str:16249,h:0,d0:0,d1:0;
-                    (____, Scope<Vehicle> @:10342 check:35802,op:341,dt:52,nt:8,next:10345,nextCheck:35805,str:56131,h:1,d0:10343,d1:35803;
+                    (____, BuiltinInvocation<Vehicle> @:10342 check:35802,op:341,dt:52,nt:8,next:10345,nextCheck:35805,str:56131,h:1,d0:10343,d1:35803;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:10343 check:35803,op:341,dt:2,nt:9,next:10344,nextCheck:35804,str:14547,h:0,d0:0,d1:0;
                             ("bridge_phantom_01/pilot", Expression<AI> @:10344 check:35804,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19961,h:0,d0:0,d1:49209;)))
                     (True, Expression<Boolean> @:10345 check:35805,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:56195,h:1,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:10346 check:35806,op:366,dt:4,nt:8,next:10350,nextCheck:35810,str:56205,h:1,d0:10347,d1:35807;
+            (____, BuiltinInvocation<Void> @:10346 check:35806,op:366,dt:4,nt:8,next:10350,nextCheck:35810,str:56205,h:1,d0:10347,d1:35807;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:10347 check:35807,op:366,dt:2,nt:9,next:10348,nextCheck:35808,str:14459,h:0,d0:0,d1:0;
                     ("bridge_phantom_01/pilot", Expression<AI> @:10348 check:35808,op:19,dt:19,nt:9,next:10349,nextCheck:35809,str:19961,h:0,d0:0,d1:49209;
                         ("bridge_phantom_01b", Expression<AIScript> @:10349 check:35809,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:20442,h:0,d0:231,d1:0;))))
-            (____, Scope<Void> @:10350 check:35810,op:21,dt:4,nt:8,next:10360,nextCheck:35820,str:56274,h:1,d0:10351,d1:35811;
+            (____, BuiltinInvocation<Void> @:10350 check:35810,op:21,dt:4,nt:8,next:10360,nextCheck:35820,str:56274,h:1,d0:10351,d1:35811;
                 ("sleep_until", Expression<MethodOrOperator> @:10351 check:35811,op:21,dt:2,nt:9,next:10352,nextCheck:35812,str:284,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:10352 check:35812,op:16,dt:5,nt:8,next:10358,nextCheck:35818,str:56287,h:1,d0:10353,d1:35813;
+                    (____, BuiltinInvocation<Boolean> @:10352 check:35812,op:16,dt:5,nt:8,next:10358,nextCheck:35818,str:56287,h:1,d0:10353,d1:35813;
                         ("<", Expression<MethodOrOperator> @:10353 check:35813,op:16,dt:2,nt:9,next:10354,nextCheck:35814,str:900,h:0,d0:0,d1:0;
-                            (____, Scope<Short> @:10354 check:35814,op:327,dt:7,nt:8,next:10357,nextCheck:35817,str:56290,h:1,d0:10355,d1:35815;
+                            (____, BuiltinInvocation<Short> @:10354 check:35814,op:327,dt:7,nt:8,next:10357,nextCheck:35817,str:56290,h:1,d0:10355,d1:35815;
                                 ("ai_living_count", Expression<MethodOrOperator> @:10355 check:35815,op:327,dt:2,nt:9,next:10356,nextCheck:35816,str:15933,h:0,d0:0,d1:0;
                                     ("bridge_phantom_01", Expression<AI> @:10356 check:35816,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19996,h:0,d0:57,d1:0;)))
                             (1, Expression<Short> @:10357 check:35817,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:56326,h:1,d0:1,d1:65535;)))
                     (30, Expression<Short> @:10358 check:35818,op:7,dt:7,nt:9,next:10359,nextCheck:35819,str:56329,h:1,d0:30,d1:65535;
                         (8000, Expression<Int> @:10359 check:35819,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:56332,h:1,d0:8000,d1:0;))))
-            (____, Scope<Void> @:10360 check:35820,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:56340,h:1,d0:10361,d1:35821;
+            (____, BuiltinInvocation<Void> @:10360 check:35820,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:56340,h:1,d0:10361,d1:35821;
                 ("object_destroy", Expression<MethodOrOperator> @:10361 check:35821,op:52,dt:2,nt:9,next:10362,nextCheck:35822,str:1543,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:10362 check:35822,op:341,dt:50,nt:8,next:65535,nextCheck:65535,str:56356,h:1,d0:10363,d1:35823;
+                    (____, BuiltinInvocation<Entity> @:10362 check:35822,op:341,dt:50,nt:8,next:65535,nextCheck:65535,str:56356,h:1,d0:10363,d1:35823;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:10363 check:35823,op:341,dt:2,nt:9,next:10364,nextCheck:35824,str:14547,h:0,d0:0,d1:0;
                             ("bridge_phantom_01/pilot", Expression<AI> @:10364 check:35824,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19961,h:0,d0:0,d1:49209;))))))))

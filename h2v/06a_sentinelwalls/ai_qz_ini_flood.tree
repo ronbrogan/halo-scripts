@@ -1,41 +1,41 @@
 
 ("ai_qz_ini_flood", MethodDecl<Void> @:349 check:0,op:0,dt:0,nt:65535,next:17246,nextCheck:42706,str:30813,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:17246 check:42706,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:37687,h:2,d0:17247,d1:42707;
+    (____, BuiltinInvocation<Void> @:17246 check:42706,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:37687,h:2,d0:17247,d1:42707;
         ("begin", Expression<MethodOrOperator> @:17247 check:42707,op:0,dt:2,nt:9,next:17209,nextCheck:42669,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:17209 check:42669,op:290,dt:4,nt:8,next:17212,nextCheck:42672,str:37721,h:2,d0:17210,d1:42670;
+            (____, BuiltinInvocation<Void> @:17209 check:42669,op:290,dt:4,nt:8,next:17212,nextCheck:42672,str:37721,h:2,d0:17210,d1:42670;
                 ("ai_place", Expression<MethodOrOperator> @:17210 check:42670,op:290,dt:2,nt:9,next:17211,nextCheck:42671,str:1415,h:0,d0:0,d1:0;
                     ("qz_initial_flood_camp", Expression<AI> @:17211 check:42671,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:26693,h:0,d0:86,d1:0;)))
-            (____, Scope<Void> @:17212 check:42672,op:362,dt:4,nt:8,next:17216,nextCheck:42676,str:37756,h:2,d0:17213,d1:42673;
+            (____, BuiltinInvocation<Void> @:17212 check:42672,op:362,dt:4,nt:8,next:17216,nextCheck:42676,str:37756,h:2,d0:17213,d1:42673;
                 ("ai_play_line_on_object", Expression<MethodOrOperator> @:17213 check:42673,op:362,dt:2,nt:9,next:17214,nextCheck:42674,str:12979,h:0,d0:0,d1:0;
                     (4294901793, Expression<Entity> @:17214 check:42674,op:56,dt:50,nt:9,next:17215,nextCheck:42675,str:26715,h:0,d0:33,d1:65535;
                         ("0180", Expression<StringId> @:17215 check:42675,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:26730,h:0,d0:10516,d1:1024;))))
-            (____, Scope<Void> @:17216 check:42676,op:362,dt:4,nt:8,next:17220,nextCheck:42680,str:37803,h:2,d0:17217,d1:42677;
+            (____, BuiltinInvocation<Void> @:17216 check:42676,op:362,dt:4,nt:8,next:17220,nextCheck:42680,str:37803,h:2,d0:17217,d1:42677;
                 ("ai_play_line_on_object", Expression<MethodOrOperator> @:17217 check:42677,op:362,dt:2,nt:9,next:17218,nextCheck:42678,str:12979,h:0,d0:0,d1:0;
                     (4294901794, Expression<Entity> @:17218 check:42678,op:56,dt:50,nt:9,next:17219,nextCheck:42679,str:26735,h:0,d0:34,d1:65535;
                         ("0180", Expression<StringId> @:17219 check:42679,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:26730,h:0,d0:10516,d1:1024;))))
-            (____, Scope<Void> @:17220 check:42680,op:21,dt:4,nt:8,next:17228,nextCheck:42688,str:37853,h:2,d0:17221,d1:42681;
+            (____, BuiltinInvocation<Void> @:17220 check:42680,op:21,dt:4,nt:8,next:17228,nextCheck:42688,str:37853,h:2,d0:17221,d1:42681;
                 ("sleep_until", Expression<MethodOrOperator> @:17221 check:42681,op:21,dt:2,nt:9,next:17222,nextCheck:42682,str:231,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:17222 check:42682,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:37866,h:2,d0:17223,d1:42683;
+                    (____, BuiltinInvocation<Boolean> @:17222 check:42682,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:37866,h:2,d0:17223,d1:42683;
                         ("<=", Expression<MethodOrOperator> @:17223 check:42683,op:18,dt:2,nt:9,next:17224,nextCheck:42684,str:16164,h:0,d0:0,d1:0;
-                            (____, Scope<Short> @:17224 check:42684,op:327,dt:7,nt:8,next:17227,nextCheck:42687,str:37870,h:2,d0:17225,d1:42685;
+                            (____, BuiltinInvocation<Short> @:17224 check:42684,op:327,dt:7,nt:8,next:17227,nextCheck:42687,str:37870,h:2,d0:17225,d1:42685;
                                 ("ai_living_count", Expression<MethodOrOperator> @:17225 check:42685,op:327,dt:2,nt:9,next:17226,nextCheck:42686,str:18070,h:0,d0:0,d1:0;
                                     ("qz_initial_flood_camp", Expression<AI> @:17226 check:42686,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:26693,h:0,d0:86,d1:0;)))
                             (2, Expression<Short> @:17227 check:42687,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:37910,h:2,d0:2,d1:65535;)))))
-            (____, Scope<Void> @:17228 check:42688,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:37916,h:2,d0:17229,d1:42689;
+            (____, BuiltinInvocation<Void> @:17228 check:42688,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:37916,h:2,d0:17229,d1:42689;
                 ("if", Expression<MethodOrOperator> @:17229 check:42689,op:2,dt:2,nt:9,next:17230,nextCheck:42690,str:456,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:17230 check:42690,op:25,dt:5,nt:8,next:17233,nextCheck:42693,str:37920,h:2,d0:17231,d1:42691;
+                    (____, BuiltinInvocation<Boolean> @:17230 check:42690,op:25,dt:5,nt:8,next:17233,nextCheck:42693,str:37920,h:2,d0:17231,d1:42691;
                         ("not", Expression<MethodOrOperator> @:17231 check:42691,op:25,dt:2,nt:9,next:17232,nextCheck:42692,str:397,h:0,d0:0,d1:0;
                             ("g_qz_ini_cave", VariableAccess<Boolean> @:17232 check:42692,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:26750,h:0,d0:113,d1:0;)))
-                    (____, Scope<Void> @:17233 check:42693,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:37947,h:2,d0:17234,d1:42694;
+                    (____, BuiltinInvocation<Void> @:17233 check:42693,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:37947,h:2,d0:17234,d1:42694;
                         ("begin", Expression<MethodOrOperator> @:17234 check:42694,op:0,dt:2,nt:9,next:17235,nextCheck:42695,str:1,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:17235 check:42695,op:290,dt:4,nt:8,next:17238,nextCheck:42698,str:37962,h:2,d0:17236,d1:42696;
+                            (____, BuiltinInvocation<Void> @:17235 check:42695,op:290,dt:4,nt:8,next:17238,nextCheck:42698,str:37962,h:2,d0:17236,d1:42696;
                                 ("ai_place", Expression<MethodOrOperator> @:17236 check:42696,op:290,dt:2,nt:9,next:17237,nextCheck:42697,str:1415,h:0,d0:0,d1:0;
                                     ("qz_initial_flood_camp", Expression<AI> @:17237 check:42697,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:26693,h:0,d0:86,d1:0;)))
-                            (____, Scope<Void> @:17238 check:42698,op:362,dt:4,nt:8,next:17242,nextCheck:42702,str:38003,h:2,d0:17239,d1:42699;
+                            (____, BuiltinInvocation<Void> @:17238 check:42698,op:362,dt:4,nt:8,next:17242,nextCheck:42702,str:38003,h:2,d0:17239,d1:42699;
                                 ("ai_play_line_on_object", Expression<MethodOrOperator> @:17239 check:42699,op:362,dt:2,nt:9,next:17240,nextCheck:42700,str:12979,h:0,d0:0,d1:0;
                                     (4294901793, Expression<Entity> @:17240 check:42700,op:56,dt:50,nt:9,next:17241,nextCheck:42701,str:26715,h:0,d0:33,d1:65535;
                                         ("0180", Expression<StringId> @:17241 check:42701,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:26730,h:0,d0:10516,d1:1024;))))
-                            (____, Scope<Void> @:17242 check:42702,op:362,dt:4,nt:8,next:65535,nextCheck:65535,str:38056,h:2,d0:17243,d1:42703;
+                            (____, BuiltinInvocation<Void> @:17242 check:42702,op:362,dt:4,nt:8,next:65535,nextCheck:65535,str:38056,h:2,d0:17243,d1:42703;
                                 ("ai_play_line_on_object", Expression<MethodOrOperator> @:17243 check:42703,op:362,dt:2,nt:9,next:17244,nextCheck:42704,str:12979,h:0,d0:0,d1:0;
                                     (4294901794, Expression<Entity> @:17244 check:42704,op:56,dt:50,nt:9,next:17245,nextCheck:42705,str:26735,h:0,d0:34,d1:65535;
                                         ("0180", Expression<StringId> @:17245 check:42705,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:26730,h:0,d0:10516,d1:1024;)))))))))))

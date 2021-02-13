@@ -11,7 +11,7 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
     [OriginScenario("scenarios\\multi\\street_sweeper\\street_sweeper")]
     public partial class scnr_street_sweeper : ScenarioScriptBase
     {
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(0, Lifecycle.Static)]
         public async Task<IUnit> player0()
         {
             return Engine.unit(Engine.list_get(Engine.players(), 0));

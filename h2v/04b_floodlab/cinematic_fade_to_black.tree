@@ -1,28 +1,28 @@
 
 ("cinematic_fade_to_black", MethodDecl<Void> @:13 check:0,op:0,dt:0,nt:65535,next:320,nextCheck:58547,str:65535,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:320 check:58547,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:3030,h:0,d0:321,d1:58548;
+    (____, BuiltinInvocation<Void> @:320 check:58547,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:3030,h:0,d0:321,d1:58548;
         ("begin", Expression<MethodOrOperator> @:321 check:58548,op:0,dt:2,nt:9,next:296,nextCheck:58523,str:210,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:296 check:58523,op:473,dt:4,nt:8,next:299,nextCheck:58526,str:3100,h:0,d0:297,d1:58524;
+            (____, BuiltinInvocation<Void> @:296 check:58523,op:473,dt:4,nt:8,next:299,nextCheck:58526,str:3100,h:0,d0:297,d1:58524;
                 ("player_enable_input", Expression<MethodOrOperator> @:297 check:58524,op:473,dt:2,nt:9,next:298,nextCheck:58525,str:680,h:0,d0:0,d1:0;
                     (False, Expression<Boolean> @:298 check:58525,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:3121,h:0,d0:65280,d1:65535;)))
-            (____, Scope<Void> @:299 check:58526,op:477,dt:4,nt:8,next:302,nextCheck:58529,str:3130,h:0,d0:300,d1:58527;
+            (____, BuiltinInvocation<Void> @:299 check:58526,op:477,dt:4,nt:8,next:302,nextCheck:58529,str:3130,h:0,d0:300,d1:58527;
                 ("player_camera_control", Expression<MethodOrOperator> @:300 check:58527,op:477,dt:2,nt:9,next:301,nextCheck:58528,str:700,h:0,d0:0,d1:0;
                     (False, Expression<Boolean> @:301 check:58528,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:3153,h:0,d0:65280,d1:65535;)))
-            (____, Scope<Void> @:302 check:58529,op:625,dt:4,nt:8,next:306,nextCheck:58533,str:3177,h:0,d0:303,d1:58530;
+            (____, BuiltinInvocation<Void> @:302 check:58529,op:625,dt:4,nt:8,next:306,nextCheck:58533,str:3177,h:0,d0:303,d1:58530;
                 ("hud_cinematic_fade", Expression<MethodOrOperator> @:303 check:58530,op:625,dt:2,nt:9,next:304,nextCheck:58531,str:722,h:0,d0:0,d1:0;
                     (0f, Expression<Float> @:304 check:58531,op:6,dt:6,nt:9,next:305,nextCheck:58532,str:3197,h:0,d0:0,d1:0;
                         (0.5f, Expression<Float> @:305 check:58532,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:3199,h:0,d0:0,d1:16128;))))
-            (____, Scope<Void> @:306 check:58533,op:553,dt:4,nt:8,next:308,nextCheck:58535,str:3223,h:0,d0:307,d1:58534;
+            (____, BuiltinInvocation<Void> @:306 check:58533,op:553,dt:4,nt:8,next:308,nextCheck:58535,str:3223,h:0,d0:307,d1:58534;
                 ("cinematic_start", Expression<MethodOrOperator> @:307 check:58534,op:553,dt:2,nt:9,next:65535,nextCheck:65535,str:264,h:0,d0:0,d1:0;))
-            (____, Scope<Void> @:308 check:58535,op:552,dt:4,nt:8,next:314,nextCheck:58541,str:3260,h:0,d0:309,d1:58536;
+            (____, BuiltinInvocation<Void> @:308 check:58535,op:552,dt:4,nt:8,next:314,nextCheck:58541,str:3260,h:0,d0:309,d1:58536;
                 ("fade_out", Expression<MethodOrOperator> @:309 check:58536,op:552,dt:2,nt:9,next:310,nextCheck:58537,str:280,h:0,d0:0,d1:0;
                     (0f, Expression<Float> @:310 check:58537,op:6,dt:6,nt:9,next:311,nextCheck:58538,str:3270,h:0,d0:0,d1:0;
                         (0f, Expression<Float> @:311 check:58538,op:6,dt:6,nt:9,next:312,nextCheck:58539,str:3272,h:0,d0:0,d1:0;
                             (0f, Expression<Float> @:312 check:58539,op:6,dt:6,nt:9,next:313,nextCheck:58540,str:3274,h:0,d0:0,d1:0;
                                 (30, Expression<Short> @:313 check:58540,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:3276,h:0,d0:30,d1:65535;))))))
-            (____, Scope<Void> @:314 check:58541,op:19,dt:4,nt:8,next:317,nextCheck:58544,str:3325,h:0,d0:315,d1:58542;
+            (____, BuiltinInvocation<Void> @:314 check:58541,op:19,dt:4,nt:8,next:317,nextCheck:58544,str:3325,h:0,d0:315,d1:58542;
                 ("sleep", Expression<MethodOrOperator> @:315 check:58542,op:19,dt:2,nt:9,next:316,nextCheck:58543,str:289,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:316 check:58543,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:3332,h:0,d0:30,d1:65535;)))
-            (____, Scope<Void> @:317 check:58544,op:450,dt:4,nt:8,next:65535,nextCheck:65535,str:3474,h:0,d0:318,d1:58545;
+            (____, BuiltinInvocation<Void> @:317 check:58544,op:450,dt:4,nt:8,next:65535,nextCheck:65535,str:3474,h:0,d0:318,d1:58545;
                 ("camera_control", Expression<MethodOrOperator> @:318 check:58545,op:450,dt:2,nt:9,next:319,nextCheck:58546,str:249,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:319 check:58546,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:3490,h:0,d0:65281,d1:65535;))))))

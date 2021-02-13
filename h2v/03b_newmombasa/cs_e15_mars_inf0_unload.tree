@@ -1,30 +1,30 @@
 
 ("cs_e15_mars_inf0_unload", MethodDecl<Void> @:401 check:0,op:0,dt:0,nt:65535,next:14500,nextCheck:39960,str:65535,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:14500 check:39960,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:58214,h:2,d0:14501,d1:39961;
+    (____, BuiltinInvocation<Void> @:14500 check:39960,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:58214,h:2,d0:14501,d1:39961;
         ("begin", Expression<MethodOrOperator> @:14501 check:39961,op:0,dt:2,nt:9,next:14474,nextCheck:39934,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:14474 check:39934,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:58332,h:2,d0:14475,d1:39935;
+            (____, BuiltinInvocation<Void> @:14474 check:39934,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:58332,h:2,d0:14475,d1:39935;
                 ("if", Expression<MethodOrOperator> @:14475 check:39935,op:2,dt:2,nt:9,next:14476,nextCheck:39936,str:461,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14476 check:39936,op:5,dt:5,nt:8,next:14492,nextCheck:39952,str:58340,h:2,d0:14477,d1:39937;
+                    (____, BuiltinInvocation<Boolean> @:14476 check:39936,op:5,dt:5,nt:8,next:14492,nextCheck:39952,str:58340,h:2,d0:14477,d1:39937;
                         ("and", Expression<MethodOrOperator> @:14477 check:39937,op:5,dt:2,nt:9,next:14478,nextCheck:39938,str:672,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:14478 check:39938,op:15,dt:5,nt:8,next:14484,nextCheck:39944,str:58349,h:2,d0:14479,d1:39939;
+                            (____, BuiltinInvocation<Boolean> @:14478 check:39938,op:15,dt:5,nt:8,next:14484,nextCheck:39944,str:58349,h:2,d0:14479,d1:39939;
                                 (">", Expression<MethodOrOperator> @:14479 check:39939,op:15,dt:2,nt:9,next:14480,nextCheck:39940,str:18830,h:0,d0:0,d1:0;
-                                    (____, Scope<Short> @:14480 check:39940,op:327,dt:7,nt:8,next:14483,nextCheck:39943,str:58352,h:2,d0:14481,d1:39941;
+                                    (____, BuiltinInvocation<Short> @:14480 check:39940,op:327,dt:7,nt:8,next:14483,nextCheck:39943,str:58352,h:2,d0:14481,d1:39941;
                                         ("ai_living_count", Expression<MethodOrOperator> @:14481 check:39941,op:327,dt:2,nt:9,next:14482,nextCheck:39942,str:17287,h:0,d0:0,d1:0;
                                             ("e15_mars_inf0", Expression<AI> @:14482 check:39942,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:28477,h:0,d0:7,d1:0;)))
                                     (1, Expression<Short> @:14483 check:39943,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:58384,h:2,d0:1,d1:65535;)))
-                            (____, Scope<Boolean> @:14484 check:39944,op:25,dt:5,nt:8,next:65535,nextCheck:65535,str:58391,h:2,d0:14485,d1:39945;
+                            (____, BuiltinInvocation<Boolean> @:14484 check:39944,op:25,dt:5,nt:8,next:65535,nextCheck:65535,str:58391,h:2,d0:14485,d1:39945;
                                 ("not", Expression<MethodOrOperator> @:14485 check:39945,op:25,dt:2,nt:9,next:14486,nextCheck:39946,str:402,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14486 check:39946,op:242,dt:5,nt:8,next:65535,nextCheck:65535,str:58396,h:2,d0:14487,d1:39947;
+                                    (____, BuiltinInvocation<Boolean> @:14486 check:39946,op:242,dt:5,nt:8,next:65535,nextCheck:65535,str:58396,h:2,d0:14487,d1:39947;
                                         ("unit_has_weapon", Expression<MethodOrOperator> @:14487 check:39947,op:242,dt:2,nt:9,next:14488,nextCheck:39948,str:25984,h:0,d0:0,d1:0;
-                                            (____, Scope<Unit> @:14488 check:39948,op:285,dt:51,nt:8,next:14491,nextCheck:39951,str:58413,h:2,d0:14489,d1:39949;
+                                            (____, BuiltinInvocation<Unit> @:14488 check:39948,op:285,dt:51,nt:8,next:14491,nextCheck:39951,str:58413,h:2,d0:14489,d1:39949;
                                                 ("ai_get_unit", Expression<MethodOrOperator> @:14489 check:39949,op:285,dt:2,nt:9,next:14490,nextCheck:39950,str:16147,h:0,d0:0,d1:0;
                                                     ("ai_current_actor", VariableAccess<AI> @:14490 check:39950,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:13835,h:0,d0:33564,d1:65535;)))
                                             ("objects\weapons\support_high\rocket_launcher\rocket_launcher.weapon", Expression<TagReference> @:14491 check:39951,op:38,dt:38,nt:9,next:65535,nextCheck:65535,str:29371,h:0,d0:6522,d1:64296;)))))))
-                    (____, Scope<Void> @:14492 check:39952,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:58524,h:2,d0:14493,d1:39953;
+                    (____, BuiltinInvocation<Void> @:14492 check:39952,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:58524,h:2,d0:14493,d1:39953;
                         ("begin", Expression<MethodOrOperator> @:14493 check:39953,op:0,dt:2,nt:9,next:14494,nextCheck:39954,str:6,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:14494 check:39954,op:19,dt:4,nt:8,next:14497,nextCheck:39957,str:58535,h:2,d0:14495,d1:39955;
+                            (____, BuiltinInvocation<Void> @:14494 check:39954,op:19,dt:4,nt:8,next:14497,nextCheck:39957,str:58535,h:2,d0:14495,d1:39955;
                                 ("sleep", Expression<MethodOrOperator> @:14495 check:39955,op:19,dt:2,nt:9,next:14496,nextCheck:39956,str:85,h:0,d0:0,d1:0;
                                     (30, Expression<Short> @:14496 check:39956,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:58542,h:2,d0:30,d1:65535;)))
-                            (____, Scope<Void> @:14497 check:39957,op:350,dt:4,nt:8,next:65535,nextCheck:65535,str:58550,h:2,d0:14498,d1:39958;
+                            (____, BuiltinInvocation<Void> @:14497 check:39957,op:350,dt:4,nt:8,next:65535,nextCheck:65535,str:58550,h:2,d0:14498,d1:39958;
                                 ("ai_vehicle_exit", Expression<MethodOrOperator> @:14498 check:39958,op:350,dt:2,nt:9,next:14499,nextCheck:39959,str:16059,h:0,d0:0,d1:0;
                                     ("ai_current_actor", VariableAccess<AI> @:14499 check:39959,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:13835,h:0,d0:33564,d1:65535;))))))))))

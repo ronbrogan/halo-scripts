@@ -20,7 +20,7 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
         }
 
 #endregion
-        [ScriptMethod(Lifecycle.Continuous)]
+        [ScriptMethod(0, Lifecycle.Continuous)]
         public async Task crate_spawner_right()
         {
             Engine.object_create(crate_right00);
@@ -41,7 +41,7 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
             await Engine.sleep(this.k_crate_spacing);
         }
 
-        [ScriptMethod(Lifecycle.Continuous)]
+        [ScriptMethod(1, Lifecycle.Continuous)]
         public async Task crate_spawner_left()
         {
             Engine.object_create(crate_left00);
@@ -62,7 +62,7 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
             await Engine.sleep(this.k_crate_spacing);
         }
 
-        [ScriptMethod(Lifecycle.Continuous)]
+        [ScriptMethod(2, Lifecycle.Continuous)]
         public async Task crate_eraser()
         {
             Engine.object_destroy(Engine.list_get(Engine.volume_return_objects(tv_crate_eraser_left), 0));

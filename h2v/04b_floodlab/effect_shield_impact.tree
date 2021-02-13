@@ -1,14 +1,14 @@
 
 ("effect_shield_impact", MethodDecl<Void> @:45 check:0,op:0,dt:0,nt:65535,next:1368,nextCheck:59595,str:3820,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:1368 check:59595,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:16259,h:0,d0:1369,d1:59596;
+    (____, BuiltinInvocation<Void> @:1368 check:59595,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:16259,h:0,d0:1369,d1:59596;
         ("begin", Expression<MethodOrOperator> @:1369 check:59596,op:0,dt:2,nt:9,next:1358,nextCheck:59585,str:210,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:1358 check:59585,op:19,dt:4,nt:8,next:1361,nextCheck:59588,str:16298,h:0,d0:1359,d1:59586;
+            (____, BuiltinInvocation<Void> @:1358 check:59585,op:19,dt:4,nt:8,next:1361,nextCheck:59588,str:16298,h:0,d0:1359,d1:59586;
                 ("sleep", Expression<MethodOrOperator> @:1359 check:59586,op:19,dt:2,nt:9,next:1360,nextCheck:59587,str:289,h:0,d0:0,d1:0;
                     (185, Expression<Short> @:1360 check:59587,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:16305,h:0,d0:185,d1:65535;)))
-            (____, Scope<Void> @:1361 check:59588,op:27,dt:4,nt:8,next:1364,nextCheck:59591,str:16312,h:0,d0:1362,d1:59589;
+            (____, BuiltinInvocation<Void> @:1361 check:59588,op:27,dt:4,nt:8,next:1364,nextCheck:59591,str:16312,h:0,d0:1362,d1:59589;
                 ("print", Expression<MethodOrOperator> @:1362 check:59589,op:27,dt:2,nt:9,next:1363,nextCheck:59590,str:295,h:0,d0:0,d1:0;
                     ("effect - shield impact", Expression<String> @:1363 check:59590,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:3592,h:0,d0:57616,d1:10911;)))
-            (____, Scope<Void> @:1364 check:59591,op:40,dt:4,nt:8,next:65535,nextCheck:65535,str:16347,h:0,d0:1365,d1:59592;
+            (____, BuiltinInvocation<Void> @:1364 check:59591,op:40,dt:4,nt:8,next:65535,nextCheck:65535,str:16347,h:0,d0:1365,d1:59592;
                 ("effect_new", Expression<MethodOrOperator> @:1365 check:59592,op:40,dt:2,nt:9,next:1366,nextCheck:59593,str:3615,h:0,d0:0,d1:0;
                     ("effects\impact\impact_bullet_medium\energy_shield_thin_cov", Expression<Effect> @:1366 check:59593,op:33,dt:33,nt:9,next:1367,nextCheck:59594,str:3626,h:0,d0:653,d1:58371;
                         ("flag_shield_impact", Expression<LocationFlag> @:1367 check:59594,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:3685,h:0,d0:341,d1:0;)))))))

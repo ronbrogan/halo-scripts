@@ -1,14 +1,14 @@
 
 ("x01_09_fov", MethodDecl<Void> @:127 check:0,op:0,dt:0,nt:65535,next:6969,nextCheck:65196,str:11887,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:6969 check:65196,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:31326,h:1,d0:6970,d1:65197;
+    (____, BuiltinInvocation<Void> @:6969 check:65196,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:31326,h:1,d0:6970,d1:65197;
         ("begin", Expression<MethodOrOperator> @:6970 check:65197,op:0,dt:2,nt:9,next:6959,nextCheck:65186,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:6959 check:65186,op:19,dt:4,nt:8,next:6962,nextCheck:65189,str:31357,h:1,d0:6960,d1:65187;
+            (____, BuiltinInvocation<Void> @:6959 check:65186,op:19,dt:4,nt:8,next:6962,nextCheck:65189,str:31357,h:1,d0:6960,d1:65187;
                 ("sleep", Expression<MethodOrOperator> @:6960 check:65187,op:19,dt:2,nt:9,next:6961,nextCheck:65188,str:80,h:0,d0:0,d1:0;
                     (441, Expression<Short> @:6961 check:65188,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:31364,h:1,d0:441,d1:65535;)))
-            (____, Scope<Void> @:6962 check:65189,op:459,dt:4,nt:8,next:6966,nextCheck:65193,str:31371,h:1,d0:6963,d1:65190;
+            (____, BuiltinInvocation<Void> @:6962 check:65189,op:459,dt:4,nt:8,next:6966,nextCheck:65193,str:31371,h:1,d0:6963,d1:65190;
                 ("camera_set_field_of_view", Expression<MethodOrOperator> @:6963 check:65190,op:459,dt:2,nt:9,next:6964,nextCheck:65191,str:4756,h:0,d0:0,d1:0;
                     (38f, Expression<Float> @:6964 check:65191,op:6,dt:6,nt:9,next:6965,nextCheck:65192,str:31397,h:1,d0:0,d1:16920;
                         (0, Expression<Short> @:6965 check:65192,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:31400,h:1,d0:0,d1:65535;))))
-            (____, Scope<Void> @:6966 check:65193,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:31405,h:1,d0:6967,d1:65194;
+            (____, BuiltinInvocation<Void> @:6966 check:65193,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:31405,h:1,d0:6967,d1:65194;
                 ("print", Expression<MethodOrOperator> @:6967 check:65194,op:27,dt:2,nt:9,next:6968,nextCheck:65195,str:86,h:0,d0:0,d1:0;
                     ("fov change: 60 -> 38 over 0 ticks", Expression<String> @:6968 check:65195,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:11097,h:0,d0:44113,d1:10406;))))))

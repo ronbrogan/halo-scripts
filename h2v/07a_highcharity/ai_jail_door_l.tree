@@ -1,95 +1,95 @@
 
 ("ai_jail_door_l", MethodDecl<Void> @:363 check:0,op:0,dt:0,nt:65535,next:17554,nextCheck:43014,str:36329,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:17554 check:43014,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1322,h:3,d0:17555,d1:43015;
+    (____, BuiltinInvocation<Void> @:17554 check:43014,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1322,h:3,d0:17555,d1:43015;
         ("begin", Expression<MethodOrOperator> @:17555 check:43015,op:0,dt:2,nt:9,next:17463,nextCheck:42923,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:17463 check:42923,op:2,dt:4,nt:8,next:17469,nextCheck:42929,str:1359,h:3,d0:17464,d1:42924;
+            (____, BuiltinInvocation<Void> @:17463 check:42923,op:2,dt:4,nt:8,next:17469,nextCheck:42929,str:1359,h:3,d0:17464,d1:42924;
                 ("if", Expression<MethodOrOperator> @:17464 check:42924,op:2,dt:2,nt:9,next:17465,nextCheck:42925,str:456,h:0,d0:0,d1:0;
                     ("debug", VariableAccess<Boolean> @:17465 check:42925,op:5,dt:5,nt:13,next:17466,nextCheck:42926,str:17466,h:0,d0:3,d1:0;
-                        (____, Scope<Void> @:17466 check:42926,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:1369,h:3,d0:17467,d1:42927;
+                        (____, BuiltinInvocation<Void> @:17466 check:42926,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:1369,h:3,d0:17467,d1:42927;
                             ("print", Expression<MethodOrOperator> @:17467 check:42927,op:27,dt:2,nt:9,next:17468,nextCheck:42928,str:86,h:0,d0:0,d1:0;
                                 ("door l", Expression<String> @:17468 check:42928,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:35802,h:0,d0:21410,d1:12543;))))))
-            (____, Scope<Void> @:17469 check:42929,op:1,dt:4,nt:8,next:17546,nextCheck:43006,str:1389,h:3,d0:17470,d1:42930;
+            (____, BuiltinInvocation<Void> @:17469 check:42929,op:1,dt:4,nt:8,next:17546,nextCheck:43006,str:1389,h:3,d0:17470,d1:42930;
                 ("begin_random", Expression<MethodOrOperator> @:17470 check:42930,op:1,dt:2,nt:9,next:17471,nextCheck:42931,str:29983,h:0,d0:0,d1:0;
-                    (____, Scope<Void> @:17471 check:42931,op:2,dt:4,nt:8,next:17496,nextCheck:42956,str:1406,h:3,d0:17472,d1:42932;
+                    (____, BuiltinInvocation<Void> @:17471 check:42931,op:2,dt:4,nt:8,next:17496,nextCheck:42956,str:1406,h:3,d0:17472,d1:42932;
                         ("if", Expression<MethodOrOperator> @:17472 check:42932,op:2,dt:2,nt:9,next:17473,nextCheck:42933,str:456,h:0,d0:0,d1:0;
                             ("g_jail_door", VariableAccess<Boolean> @:17473 check:42933,op:5,dt:5,nt:13,next:17474,nextCheck:42934,str:35385,h:0,d0:63,d1:0;
-                                (____, Scope<Void> @:17474 check:42934,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1426,h:3,d0:17475,d1:42935;
+                                (____, BuiltinInvocation<Void> @:17474 check:42934,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1426,h:3,d0:17475,d1:42935;
                                     ("begin", Expression<MethodOrOperator> @:17475 check:42935,op:0,dt:2,nt:9,next:17476,nextCheck:42936,str:1,h:0,d0:0,d1:0;
-                                        (____, Scope<Void> @:17476 check:42936,op:290,dt:4,nt:8,next:17479,nextCheck:42939,str:1438,h:3,d0:17477,d1:42937;
+                                        (____, BuiltinInvocation<Void> @:17476 check:42936,op:290,dt:4,nt:8,next:17479,nextCheck:42939,str:1438,h:3,d0:17477,d1:42937;
                                             ("ai_place", Expression<MethodOrOperator> @:17477 check:42937,op:290,dt:2,nt:9,next:17478,nextCheck:42938,str:14760,h:0,d0:0,d1:0;
                                                 ("jail_brute_l", Expression<AI> @:17478 check:42938,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:35809,h:0,d0:102,d1:0;)))
-                                        (____, Scope<Void> @:17479 check:42939,op:4,dt:4,nt:8,next:17486,nextCheck:42946,str:1467,h:3,d0:17480,d1:42940;
+                                        (____, BuiltinInvocation<Void> @:17479 check:42939,op:4,dt:4,nt:8,next:17486,nextCheck:42946,str:1467,h:3,d0:17480,d1:42940;
                                             ("set", Expression<MethodOrOperator> @:17480 check:42940,op:4,dt:2,nt:9,next:17481,nextCheck:42941,str:2141,h:0,d0:0,d1:0;
                                                 ("g_jail_door_count", VariableAccess<Short> @:17481 check:42941,op:65535,dt:7,nt:13,next:17482,nextCheck:42942,str:35410,h:0,d0:65,d1:0;
-                                                    (____, Scope<Short> @:17482 check:42942,op:7,dt:7,nt:8,next:65535,nextCheck:65535,str:1490,h:3,d0:17483,d1:42943;
+                                                    (____, BuiltinInvocation<Short> @:17482 check:42942,op:7,dt:7,nt:8,next:65535,nextCheck:65535,str:1490,h:3,d0:17483,d1:42943;
                                                         ("+", Expression<MethodOrOperator> @:17483 check:42943,op:7,dt:2,nt:9,next:17484,nextCheck:42944,str:983,h:0,d0:0,d1:0;
                                                             ("g_jail_door_count", VariableAccess<Float> @:17484 check:42944,op:6,dt:6,nt:13,next:17485,nextCheck:42945,str:35410,h:0,d0:65,d1:0;
                                                                 (1f, Expression<Float> @:17485 check:42945,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:1511,h:3,d0:0,d1:16256;)))))))
-                                        (____, Scope<Void> @:17486 check:42946,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:1520,h:3,d0:17487,d1:42947;
+                                        (____, BuiltinInvocation<Void> @:17486 check:42946,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:1520,h:3,d0:17487,d1:42947;
                                             ("if", Expression<MethodOrOperator> @:17487 check:42947,op:2,dt:2,nt:9,next:17488,nextCheck:42948,str:456,h:0,d0:0,d1:0;
-                                                (____, Scope<Boolean> @:17488 check:42948,op:13,dt:5,nt:8,next:17492,nextCheck:42952,str:1524,h:3,d0:17489,d1:42949;
+                                                (____, BuiltinInvocation<Boolean> @:17488 check:42948,op:13,dt:5,nt:8,next:17492,nextCheck:42952,str:1524,h:3,d0:17489,d1:42949;
                                                     ("=", Expression<MethodOrOperator> @:17489 check:42949,op:13,dt:2,nt:9,next:17490,nextCheck:42950,str:296,h:0,d0:0,d1:0;
                                                         ("g_jail_door_count", VariableAccess<Short> @:17490 check:42950,op:0,dt:7,nt:13,next:17491,nextCheck:42951,str:35410,h:0,d0:65,d1:0;
                                                             ("g_jail_door_limit", VariableAccess<Short> @:17491 check:42951,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:35428,h:0,d0:64,d1:0;))))
-                                                (____, Scope<Void> @:17492 check:42952,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:1564,h:3,d0:17493,d1:42953;
+                                                (____, BuiltinInvocation<Void> @:17492 check:42952,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:1564,h:3,d0:17493,d1:42953;
                                                     ("set", Expression<MethodOrOperator> @:17493 check:42953,op:4,dt:2,nt:9,next:17494,nextCheck:42954,str:2141,h:0,d0:0,d1:0;
                                                         ("g_jail_door", VariableAccess<Boolean> @:17494 check:42954,op:65535,dt:5,nt:13,next:17495,nextCheck:42955,str:35385,h:0,d0:63,d1:0;
                                                             (False, Expression<Boolean> @:17495 check:42955,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:1581,h:3,d0:65280,d1:65535;)))))))))))
-                    (____, Scope<Void> @:17496 check:42956,op:2,dt:4,nt:8,next:17521,nextCheck:42981,str:1599,h:3,d0:17497,d1:42957;
+                    (____, BuiltinInvocation<Void> @:17496 check:42956,op:2,dt:4,nt:8,next:17521,nextCheck:42981,str:1599,h:3,d0:17497,d1:42957;
                         ("if", Expression<MethodOrOperator> @:17497 check:42957,op:2,dt:2,nt:9,next:17498,nextCheck:42958,str:456,h:0,d0:0,d1:0;
                             ("g_jail_door", VariableAccess<Boolean> @:17498 check:42958,op:5,dt:5,nt:13,next:17499,nextCheck:42959,str:35385,h:0,d0:63,d1:0;
-                                (____, Scope<Void> @:17499 check:42959,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1619,h:3,d0:17500,d1:42960;
+                                (____, BuiltinInvocation<Void> @:17499 check:42959,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1619,h:3,d0:17500,d1:42960;
                                     ("begin", Expression<MethodOrOperator> @:17500 check:42960,op:0,dt:2,nt:9,next:17501,nextCheck:42961,str:1,h:0,d0:0,d1:0;
-                                        (____, Scope<Void> @:17501 check:42961,op:290,dt:4,nt:8,next:17504,nextCheck:42964,str:1631,h:3,d0:17502,d1:42962;
+                                        (____, BuiltinInvocation<Void> @:17501 check:42961,op:290,dt:4,nt:8,next:17504,nextCheck:42964,str:1631,h:3,d0:17502,d1:42962;
                                             ("ai_place", Expression<MethodOrOperator> @:17502 check:42962,op:290,dt:2,nt:9,next:17503,nextCheck:42963,str:14760,h:0,d0:0,d1:0;
                                                 ("jail_grunt_l", Expression<AI> @:17503 check:42963,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:35822,h:0,d0:112,d1:0;)))
-                                        (____, Scope<Void> @:17504 check:42964,op:4,dt:4,nt:8,next:17511,nextCheck:42971,str:1660,h:3,d0:17505,d1:42965;
+                                        (____, BuiltinInvocation<Void> @:17504 check:42964,op:4,dt:4,nt:8,next:17511,nextCheck:42971,str:1660,h:3,d0:17505,d1:42965;
                                             ("set", Expression<MethodOrOperator> @:17505 check:42965,op:4,dt:2,nt:9,next:17506,nextCheck:42966,str:2141,h:0,d0:0,d1:0;
                                                 ("g_jail_door_count", VariableAccess<Short> @:17506 check:42966,op:65535,dt:7,nt:13,next:17507,nextCheck:42967,str:35410,h:0,d0:65,d1:0;
-                                                    (____, Scope<Short> @:17507 check:42967,op:7,dt:7,nt:8,next:65535,nextCheck:65535,str:1683,h:3,d0:17508,d1:42968;
+                                                    (____, BuiltinInvocation<Short> @:17507 check:42967,op:7,dt:7,nt:8,next:65535,nextCheck:65535,str:1683,h:3,d0:17508,d1:42968;
                                                         ("+", Expression<MethodOrOperator> @:17508 check:42968,op:7,dt:2,nt:9,next:17509,nextCheck:42969,str:983,h:0,d0:0,d1:0;
                                                             ("g_jail_door_count", VariableAccess<Float> @:17509 check:42969,op:6,dt:6,nt:13,next:17510,nextCheck:42970,str:35410,h:0,d0:65,d1:0;
                                                                 (1f, Expression<Float> @:17510 check:42970,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:1704,h:3,d0:0,d1:16256;)))))))
-                                        (____, Scope<Void> @:17511 check:42971,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:1713,h:3,d0:17512,d1:42972;
+                                        (____, BuiltinInvocation<Void> @:17511 check:42971,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:1713,h:3,d0:17512,d1:42972;
                                             ("if", Expression<MethodOrOperator> @:17512 check:42972,op:2,dt:2,nt:9,next:17513,nextCheck:42973,str:456,h:0,d0:0,d1:0;
-                                                (____, Scope<Boolean> @:17513 check:42973,op:13,dt:5,nt:8,next:17517,nextCheck:42977,str:1717,h:3,d0:17514,d1:42974;
+                                                (____, BuiltinInvocation<Boolean> @:17513 check:42973,op:13,dt:5,nt:8,next:17517,nextCheck:42977,str:1717,h:3,d0:17514,d1:42974;
                                                     ("=", Expression<MethodOrOperator> @:17514 check:42974,op:13,dt:2,nt:9,next:17515,nextCheck:42975,str:296,h:0,d0:0,d1:0;
                                                         ("g_jail_door_count", VariableAccess<Short> @:17515 check:42975,op:0,dt:7,nt:13,next:17516,nextCheck:42976,str:35410,h:0,d0:65,d1:0;
                                                             ("g_jail_door_limit", VariableAccess<Short> @:17516 check:42976,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:35428,h:0,d0:64,d1:0;))))
-                                                (____, Scope<Void> @:17517 check:42977,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:1757,h:3,d0:17518,d1:42978;
+                                                (____, BuiltinInvocation<Void> @:17517 check:42977,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:1757,h:3,d0:17518,d1:42978;
                                                     ("set", Expression<MethodOrOperator> @:17518 check:42978,op:4,dt:2,nt:9,next:17519,nextCheck:42979,str:2141,h:0,d0:0,d1:0;
                                                         ("g_jail_door", VariableAccess<Boolean> @:17519 check:42979,op:65535,dt:5,nt:13,next:17520,nextCheck:42980,str:35385,h:0,d0:63,d1:0;
                                                             (False, Expression<Boolean> @:17520 check:42980,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:1774,h:3,d0:65280,d1:65535;)))))))))))
-                    (____, Scope<Void> @:17521 check:42981,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:1792,h:3,d0:17522,d1:42982;
+                    (____, BuiltinInvocation<Void> @:17521 check:42981,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:1792,h:3,d0:17522,d1:42982;
                         ("if", Expression<MethodOrOperator> @:17522 check:42982,op:2,dt:2,nt:9,next:17523,nextCheck:42983,str:456,h:0,d0:0,d1:0;
                             ("g_jail_door", VariableAccess<Boolean> @:17523 check:42983,op:5,dt:5,nt:13,next:17524,nextCheck:42984,str:35385,h:0,d0:63,d1:0;
-                                (____, Scope<Void> @:17524 check:42984,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1812,h:3,d0:17525,d1:42985;
+                                (____, BuiltinInvocation<Void> @:17524 check:42984,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1812,h:3,d0:17525,d1:42985;
                                     ("begin", Expression<MethodOrOperator> @:17525 check:42985,op:0,dt:2,nt:9,next:17526,nextCheck:42986,str:1,h:0,d0:0,d1:0;
-                                        (____, Scope<Void> @:17526 check:42986,op:290,dt:4,nt:8,next:17529,nextCheck:42989,str:1824,h:3,d0:17527,d1:42987;
+                                        (____, BuiltinInvocation<Void> @:17526 check:42986,op:290,dt:4,nt:8,next:17529,nextCheck:42989,str:1824,h:3,d0:17527,d1:42987;
                                             ("ai_place", Expression<MethodOrOperator> @:17527 check:42987,op:290,dt:2,nt:9,next:17528,nextCheck:42988,str:14760,h:0,d0:0,d1:0;
                                                 ("jail_jackal_l", Expression<AI> @:17528 check:42988,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:35835,h:0,d0:122,d1:0;)))
-                                        (____, Scope<Void> @:17529 check:42989,op:4,dt:4,nt:8,next:17536,nextCheck:42996,str:1854,h:3,d0:17530,d1:42990;
+                                        (____, BuiltinInvocation<Void> @:17529 check:42989,op:4,dt:4,nt:8,next:17536,nextCheck:42996,str:1854,h:3,d0:17530,d1:42990;
                                             ("set", Expression<MethodOrOperator> @:17530 check:42990,op:4,dt:2,nt:9,next:17531,nextCheck:42991,str:2141,h:0,d0:0,d1:0;
                                                 ("g_jail_door_count", VariableAccess<Short> @:17531 check:42991,op:65535,dt:7,nt:13,next:17532,nextCheck:42992,str:35410,h:0,d0:65,d1:0;
-                                                    (____, Scope<Short> @:17532 check:42992,op:7,dt:7,nt:8,next:65535,nextCheck:65535,str:1877,h:3,d0:17533,d1:42993;
+                                                    (____, BuiltinInvocation<Short> @:17532 check:42992,op:7,dt:7,nt:8,next:65535,nextCheck:65535,str:1877,h:3,d0:17533,d1:42993;
                                                         ("+", Expression<MethodOrOperator> @:17533 check:42993,op:7,dt:2,nt:9,next:17534,nextCheck:42994,str:983,h:0,d0:0,d1:0;
                                                             ("g_jail_door_count", VariableAccess<Float> @:17534 check:42994,op:6,dt:6,nt:13,next:17535,nextCheck:42995,str:35410,h:0,d0:65,d1:0;
                                                                 (1f, Expression<Float> @:17535 check:42995,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:1898,h:3,d0:0,d1:16256;)))))))
-                                        (____, Scope<Void> @:17536 check:42996,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:1907,h:3,d0:17537,d1:42997;
+                                        (____, BuiltinInvocation<Void> @:17536 check:42996,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:1907,h:3,d0:17537,d1:42997;
                                             ("if", Expression<MethodOrOperator> @:17537 check:42997,op:2,dt:2,nt:9,next:17538,nextCheck:42998,str:456,h:0,d0:0,d1:0;
-                                                (____, Scope<Boolean> @:17538 check:42998,op:13,dt:5,nt:8,next:17542,nextCheck:43002,str:1911,h:3,d0:17539,d1:42999;
+                                                (____, BuiltinInvocation<Boolean> @:17538 check:42998,op:13,dt:5,nt:8,next:17542,nextCheck:43002,str:1911,h:3,d0:17539,d1:42999;
                                                     ("=", Expression<MethodOrOperator> @:17539 check:42999,op:13,dt:2,nt:9,next:17540,nextCheck:43000,str:296,h:0,d0:0,d1:0;
                                                         ("g_jail_door_count", VariableAccess<Short> @:17540 check:43000,op:0,dt:7,nt:13,next:17541,nextCheck:43001,str:35410,h:0,d0:65,d1:0;
                                                             ("g_jail_door_limit", VariableAccess<Short> @:17541 check:43001,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:35428,h:0,d0:64,d1:0;))))
-                                                (____, Scope<Void> @:17542 check:43002,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:1951,h:3,d0:17543,d1:43003;
+                                                (____, BuiltinInvocation<Void> @:17542 check:43002,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:1951,h:3,d0:17543,d1:43003;
                                                     ("set", Expression<MethodOrOperator> @:17543 check:43003,op:4,dt:2,nt:9,next:17544,nextCheck:43004,str:2141,h:0,d0:0,d1:0;
                                                         ("g_jail_door", VariableAccess<Boolean> @:17544 check:43004,op:65535,dt:5,nt:13,next:17545,nextCheck:43005,str:35385,h:0,d0:63,d1:0;
                                                             (False, Expression<Boolean> @:17545 check:43005,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:1968,h:3,d0:65280,d1:65535;)))))))))))))
-            (____, Scope<Void> @:17546 check:43006,op:4,dt:4,nt:8,next:17550,nextCheck:43010,str:1992,h:3,d0:17547,d1:43007;
+            (____, BuiltinInvocation<Void> @:17546 check:43006,op:4,dt:4,nt:8,next:17550,nextCheck:43010,str:1992,h:3,d0:17547,d1:43007;
                 ("set", Expression<MethodOrOperator> @:17547 check:43007,op:4,dt:2,nt:9,next:17548,nextCheck:43008,str:2141,h:0,d0:0,d1:0;
                     ("g_jail_door", VariableAccess<Boolean> @:17548 check:43008,op:65535,dt:5,nt:13,next:17549,nextCheck:43009,str:35385,h:0,d0:63,d1:0;
                         (True, Expression<Boolean> @:17549 check:43009,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:2009,h:3,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:17550 check:43010,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:2014,h:3,d0:17551,d1:43011;
+            (____, BuiltinInvocation<Void> @:17550 check:43010,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:2014,h:3,d0:17551,d1:43011;
                 ("set", Expression<MethodOrOperator> @:17551 check:43011,op:4,dt:2,nt:9,next:17552,nextCheck:43012,str:2141,h:0,d0:0,d1:0;
                     ("g_jail_door_count", VariableAccess<Short> @:17552 check:43012,op:65535,dt:7,nt:13,next:17553,nextCheck:43013,str:35410,h:0,d0:65,d1:0;
                         (0, Expression<Short> @:17553 check:43013,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2037,h:3,d0:0,d1:65535;)))))))

@@ -1,33 +1,33 @@
 
 ("cs_e4_alarm_scene", MethodDecl<Void> @:173 check:0,op:0,dt:0,nt:65535,next:6418,nextCheck:64645,str:12253,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:6418 check:64645,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:15380,h:1,d0:6419,d1:64646;
+    (____, BuiltinInvocation<Void> @:6418 check:64645,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:15380,h:1,d0:6419,d1:64646;
         ("begin", Expression<MethodOrOperator> @:6419 check:64646,op:0,dt:2,nt:9,next:6388,nextCheck:64615,str:64,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:6388 check:64615,op:374,dt:4,nt:8,next:6391,nextCheck:64618,str:15423,h:1,d0:6389,d1:64616;
+            (____, BuiltinInvocation<Void> @:6388 check:64615,op:374,dt:4,nt:8,next:6391,nextCheck:64618,str:15423,h:1,d0:6389,d1:64616;
                 ("cs_switch", Expression<MethodOrOperator> @:6389 check:64616,op:374,dt:2,nt:9,next:6390,nextCheck:64617,str:12157,h:0,d0:0,d1:0;
                     ("brute0", Expression<StringId> @:6390 check:64617,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12167,h:0,d0:10255,d1:1536;)))
-            (____, Scope<Void> @:6391 check:64618,op:19,dt:4,nt:8,next:6397,nextCheck:64624,str:15446,h:1,d0:6392,d1:64619;
+            (____, BuiltinInvocation<Void> @:6391 check:64618,op:19,dt:4,nt:8,next:6397,nextCheck:64624,str:15446,h:1,d0:6392,d1:64619;
                 ("sleep", Expression<MethodOrOperator> @:6392 check:64619,op:19,dt:2,nt:9,next:6393,nextCheck:64620,str:143,h:0,d0:0,d1:0;
-                    (____, Scope<Short> @:6393 check:64620,op:360,dt:7,nt:8,next:65535,nextCheck:65535,str:15453,h:1,d0:6394,d1:64621;
+                    (____, BuiltinInvocation<Short> @:6393 check:64620,op:360,dt:7,nt:8,next:65535,nextCheck:65535,str:15453,h:1,d0:6394,d1:64621;
                         ("ai_play_line", Expression<MethodOrOperator> @:6394 check:64621,op:360,dt:2,nt:9,next:6395,nextCheck:64622,str:6502,h:0,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:6395 check:64622,op:19,dt:19,nt:13,next:6396,nextCheck:64623,str:6399,h:0,d0:33564,d1:65535;
                                 ("0450", Expression<StringId> @:6396 check:64623,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12174,h:0,d0:9997,d1:1024;))))))
-            (____, Scope<Void> @:6397 check:64624,op:449,dt:4,nt:8,next:6400,nextCheck:64627,str:15517,h:1,d0:6398,d1:64625;
+            (____, BuiltinInvocation<Void> @:6397 check:64624,op:449,dt:4,nt:8,next:6400,nextCheck:64627,str:15517,h:1,d0:6398,d1:64625;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:6398 check:64625,op:449,dt:2,nt:9,next:6399,nextCheck:64626,str:6330,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:6399 check:64626,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:15549,h:1,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:6400 check:64627,op:385,dt:4,nt:8,next:6403,nextCheck:64630,str:15557,h:1,d0:6401,d1:64628;
+            (____, BuiltinInvocation<Void> @:6400 check:64627,op:385,dt:4,nt:8,next:6403,nextCheck:64630,str:15557,h:1,d0:6401,d1:64628;
                 ("cs_go_to", Expression<MethodOrOperator> @:6401 check:64628,op:385,dt:2,nt:9,next:6402,nextCheck:64629,str:6416,h:0,d0:0,d1:0;
                     ("e4_alarm_scene/p0", Expression<SpatialPoint> @:6402 check:64629,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:12179,h:0,d0:0,d1:10;)))
-            (____, Scope<Void> @:6403 check:64630,op:19,dt:4,nt:8,next:6409,nextCheck:64636,str:15588,h:1,d0:6404,d1:64631;
+            (____, BuiltinInvocation<Void> @:6403 check:64630,op:19,dt:4,nt:8,next:6409,nextCheck:64636,str:15588,h:1,d0:6404,d1:64631;
                 ("sleep", Expression<MethodOrOperator> @:6404 check:64631,op:19,dt:2,nt:9,next:6405,nextCheck:64632,str:143,h:0,d0:0,d1:0;
-                    (____, Scope<Short> @:6405 check:64632,op:360,dt:7,nt:8,next:65535,nextCheck:65535,str:15595,h:1,d0:6406,d1:64633;
+                    (____, BuiltinInvocation<Short> @:6405 check:64632,op:360,dt:7,nt:8,next:65535,nextCheck:65535,str:15595,h:1,d0:6406,d1:64633;
                         ("ai_play_line", Expression<MethodOrOperator> @:6406 check:64633,op:360,dt:2,nt:9,next:6407,nextCheck:64634,str:6502,h:0,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:6407 check:64634,op:19,dt:19,nt:13,next:6408,nextCheck:64635,str:6399,h:0,d0:33564,d1:65535;
                                 ("0400", Expression<StringId> @:6408 check:64635,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12197,h:0,d0:9992,d1:1024;))))))
-            (____, Scope<Void> @:6409 check:64636,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:15635,h:1,d0:6410,d1:64637;
+            (____, BuiltinInvocation<Void> @:6409 check:64636,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:15635,h:1,d0:6410,d1:64637;
                 ("sleep", Expression<MethodOrOperator> @:6410 check:64637,op:19,dt:2,nt:9,next:6411,nextCheck:64638,str:143,h:0,d0:0,d1:0;
-                    (____, Scope<Short> @:6411 check:64638,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:15642,h:1,d0:6412,d1:64639;
+                    (____, BuiltinInvocation<Short> @:6411 check:64638,op:8,dt:7,nt:8,next:65535,nextCheck:65535,str:15642,h:1,d0:6412,d1:64639;
                         ("-", Expression<MethodOrOperator> @:6412 check:64639,op:8,dt:2,nt:9,next:6413,nextCheck:64640,str:2355,h:0,d0:0,d1:0;
-                            (-5.362516E+36f, Scope<Float> @:6413 check:64640,op:360,dt:6,nt:8,next:6417,nextCheck:64644,str:15645,h:1,d0:6414,d1:64641;
+                            (-5.362516E+36f, BuiltinInvocation<Float> @:6413 check:64640,op:360,dt:6,nt:8,next:6417,nextCheck:64644,str:15645,h:1,d0:6414,d1:64641;
                                 ("ai_play_line", Expression<MethodOrOperator> @:6414 check:64641,op:360,dt:2,nt:9,next:6415,nextCheck:64642,str:6502,h:0,d0:0,d1:0;
                                     ("ai_current_actor", VariableAccess<AI> @:6415 check:64642,op:19,dt:19,nt:13,next:6416,nextCheck:64643,str:6399,h:0,d0:33564,d1:65535;
                                         ("0440", Expression<StringId> @:6416 check:64643,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12202,h:0,d0:9996,d1:1024;))))

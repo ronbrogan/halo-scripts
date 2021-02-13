@@ -1,109 +1,109 @@
 
 ("old_temple_perimeter_nuke", MethodDecl<Void> @:311 check:0,op:0,dt:0,nt:65535,next:18943,nextCheck:44403,str:30720,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:18943 check:44403,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:13217,h:3,d0:18944,d1:44404;
+    (____, BuiltinInvocation<Void> @:18943 check:44403,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:13217,h:3,d0:18944,d1:44404;
         ("begin", Expression<MethodOrOperator> @:18944 check:44404,op:0,dt:2,nt:9,next:18838,nextCheck:44298,str:54,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:18838 check:44298,op:21,dt:4,nt:8,next:18940,nextCheck:44400,str:13261,h:3,d0:18839,d1:44299;
+            (____, BuiltinInvocation<Void> @:18838 check:44298,op:21,dt:4,nt:8,next:18940,nextCheck:44400,str:13261,h:3,d0:18839,d1:44299;
                 ("sleep_until", Expression<MethodOrOperator> @:18839 check:44299,op:21,dt:2,nt:9,next:18840,nextCheck:44300,str:284,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:18840 check:44300,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:13277,h:3,d0:18841,d1:44301;
+                    (____, BuiltinInvocation<Boolean> @:18840 check:44300,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:13277,h:3,d0:18841,d1:44301;
                         ("begin", Expression<MethodOrOperator> @:18841 check:44301,op:0,dt:2,nt:9,next:18842,nextCheck:44302,str:54,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:18842 check:44302,op:2,dt:4,nt:8,next:18881,nextCheck:44341,str:13288,h:3,d0:18843,d1:44303;
+                            (____, BuiltinInvocation<Void> @:18842 check:44302,op:2,dt:4,nt:8,next:18881,nextCheck:44341,str:13288,h:3,d0:18843,d1:44303;
                                 ("if", Expression<MethodOrOperator> @:18843 check:44303,op:2,dt:2,nt:9,next:18844,nextCheck:44304,str:509,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:18844 check:44304,op:5,dt:5,nt:8,next:18873,nextCheck:44333,str:13298,h:3,d0:18845,d1:44305;
+                                    (____, BuiltinInvocation<Boolean> @:18844 check:44304,op:5,dt:5,nt:8,next:18873,nextCheck:44333,str:13298,h:3,d0:18845,d1:44305;
                                         ("and", Expression<MethodOrOperator> @:18845 check:44305,op:5,dt:2,nt:9,next:18846,nextCheck:44306,str:720,h:0,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:18846 check:44306,op:13,dt:5,nt:8,next:18860,nextCheck:44320,str:13309,h:3,d0:18847,d1:44307;
+                                            (____, BuiltinInvocation<Boolean> @:18846 check:44306,op:13,dt:5,nt:8,next:18860,nextCheck:44320,str:13309,h:3,d0:18847,d1:44307;
                                                 ("=", Expression<MethodOrOperator> @:18847 check:44307,op:13,dt:2,nt:9,next:18848,nextCheck:44308,str:349,h:0,d0:0,d1:0;
-                                                    (____, Scope<Boolean> @:18848 check:44308,op:112,dt:5,nt:8,next:18859,nextCheck:44319,str:13312,h:3,d0:18849,d1:44309;
+                                                    (____, BuiltinInvocation<Boolean> @:18848 check:44308,op:112,dt:5,nt:8,next:18859,nextCheck:44319,str:13312,h:3,d0:18849,d1:44309;
                                                         ("objects_can_see_object", Expression<MethodOrOperator> @:18849 check:44309,op:112,dt:2,nt:9,next:18850,nextCheck:44310,str:14230,h:0,d0:0,d1:0;
-                                                            (____, Scope<List> @:18850 check:44310,op:28,dt:31,nt:8,next:18852,nextCheck:44312,str:13336,h:3,d0:18851,d1:44311;
+                                                            (____, BuiltinInvocation<List> @:18850 check:44310,op:28,dt:31,nt:8,next:18852,nextCheck:44312,str:13336,h:3,d0:18851,d1:44311;
                                                                 ("players", Expression<MethodOrOperator> @:18851 check:44311,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:74,h:0,d0:0,d1:0;))
-                                                            (____, Scope<Entity> @:18852 check:44312,op:37,dt:50,nt:8,next:18858,nextCheck:44318,str:13346,h:3,d0:18853,d1:44313;
+                                                            (____, BuiltinInvocation<Entity> @:18852 check:44312,op:37,dt:50,nt:8,next:18858,nextCheck:44318,str:13346,h:3,d0:18853,d1:44313;
                                                                 ("list_get", Expression<MethodOrOperator> @:18853 check:44313,op:37,dt:2,nt:9,next:18854,nextCheck:44314,str:65,h:0,d0:0,d1:0;
-                                                                    (____, Scope<List> @:18854 check:44314,op:332,dt:31,nt:8,next:18857,nextCheck:44317,str:13356,h:3,d0:18855,d1:44315;
+                                                                    (____, BuiltinInvocation<List> @:18854 check:44314,op:332,dt:31,nt:8,next:18857,nextCheck:44317,str:13356,h:3,d0:18855,d1:44315;
                                                                         ("ai_actors", Expression<MethodOrOperator> @:18855 check:44315,op:332,dt:2,nt:9,next:18856,nextCheck:44316,str:14253,h:0,d0:0,d1:0;
                                                                             ("old_temple_peri_grunts", Expression<AI> @:18856 check:44316,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29685,h:0,d0:32,d1:16384;)))
                                                                     (0, Expression<Short> @:18857 check:44317,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:13391,h:3,d0:0,d1:65535;)))
                                                             (45f, Expression<Float> @:18858 check:44318,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:13394,h:3,d0:0,d1:16948;)))
                                                     (False, Expression<Boolean> @:18859 check:44319,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:13398,h:3,d0:65280,d1:65535;)))
-                                            (____, Scope<Boolean> @:18860 check:44320,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:13411,h:3,d0:18861,d1:44321;
+                                            (____, BuiltinInvocation<Boolean> @:18860 check:44320,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:13411,h:3,d0:18861,d1:44321;
                                                 (">", Expression<MethodOrOperator> @:18861 check:44321,op:15,dt:2,nt:9,next:18862,nextCheck:44322,str:14283,h:0,d0:0,d1:0;
-                                                    (-9.281838E-12f, Scope<Float> @:18862 check:44322,op:114,dt:6,nt:8,next:18872,nextCheck:44332,str:13414,h:3,d0:18863,d1:44323;
+                                                    (-9.281838E-12f, BuiltinInvocation<Float> @:18862 check:44322,op:114,dt:6,nt:8,next:18872,nextCheck:44332,str:13414,h:3,d0:18863,d1:44323;
                                                         ("objects_distance_to_object", Expression<MethodOrOperator> @:18863 check:44323,op:114,dt:2,nt:9,next:18864,nextCheck:44324,str:14285,h:0,d0:0,d1:0;
-                                                            (____, Scope<List> @:18864 check:44324,op:28,dt:31,nt:8,next:18866,nextCheck:44326,str:13442,h:3,d0:18865,d1:44325;
+                                                            (____, BuiltinInvocation<List> @:18864 check:44324,op:28,dt:31,nt:8,next:18866,nextCheck:44326,str:13442,h:3,d0:18865,d1:44325;
                                                                 ("players", Expression<MethodOrOperator> @:18865 check:44325,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:74,h:0,d0:0,d1:0;))
-                                                            (____, Scope<Entity> @:18866 check:44326,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:13452,h:3,d0:18867,d1:44327;
+                                                            (____, BuiltinInvocation<Entity> @:18866 check:44326,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:13452,h:3,d0:18867,d1:44327;
                                                                 ("list_get", Expression<MethodOrOperator> @:18867 check:44327,op:37,dt:2,nt:9,next:18868,nextCheck:44328,str:65,h:0,d0:0,d1:0;
-                                                                    (____, Scope<List> @:18868 check:44328,op:332,dt:31,nt:8,next:18871,nextCheck:44331,str:13462,h:3,d0:18869,d1:44329;
+                                                                    (____, BuiltinInvocation<List> @:18868 check:44328,op:332,dt:31,nt:8,next:18871,nextCheck:44331,str:13462,h:3,d0:18869,d1:44329;
                                                                         ("ai_actors", Expression<MethodOrOperator> @:18869 check:44329,op:332,dt:2,nt:9,next:18870,nextCheck:44330,str:14253,h:0,d0:0,d1:0;
                                                                             ("old_temple_peri_grunts", Expression<AI> @:18870 check:44330,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29685,h:0,d0:32,d1:16384;)))
                                                                     (0, Expression<Short> @:18871 check:44331,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:13497,h:3,d0:0,d1:65535;)))))
                                                     (10f, Expression<Float> @:18872 check:44332,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:13501,h:3,d0:0,d1:16672;)))))
-                                    (____, Scope<Void> @:18873 check:44333,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:13518,h:3,d0:18874,d1:44334;
+                                    (____, BuiltinInvocation<Void> @:18873 check:44333,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:13518,h:3,d0:18874,d1:44334;
                                         ("object_destroy", Expression<MethodOrOperator> @:18874 check:44334,op:52,dt:2,nt:9,next:18875,nextCheck:44335,str:1543,h:0,d0:0,d1:0;
-                                            (____, Scope<Entity> @:18875 check:44335,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:13534,h:3,d0:18876,d1:44336;
+                                            (____, BuiltinInvocation<Entity> @:18875 check:44335,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:13534,h:3,d0:18876,d1:44336;
                                                 ("list_get", Expression<MethodOrOperator> @:18876 check:44336,op:37,dt:2,nt:9,next:18877,nextCheck:44337,str:65,h:0,d0:0,d1:0;
-                                                    (____, Scope<List> @:18877 check:44337,op:332,dt:31,nt:8,next:18880,nextCheck:44340,str:13544,h:3,d0:18878,d1:44338;
+                                                    (____, BuiltinInvocation<List> @:18877 check:44337,op:332,dt:31,nt:8,next:18880,nextCheck:44340,str:13544,h:3,d0:18878,d1:44338;
                                                         ("ai_actors", Expression<MethodOrOperator> @:18878 check:44338,op:332,dt:2,nt:9,next:18879,nextCheck:44339,str:14253,h:0,d0:0,d1:0;
                                                             ("old_temple_peri_grunts", Expression<AI> @:18879 check:44339,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29685,h:0,d0:32,d1:16384;)))
                                                     (0, Expression<Short> @:18880 check:44340,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:13579,h:3,d0:0,d1:65535;)))))))
-                            (____, Scope<Void> @:18881 check:44341,op:19,dt:4,nt:8,next:18884,nextCheck:44344,str:13593,h:3,d0:18882,d1:44342;
+                            (____, BuiltinInvocation<Void> @:18881 check:44341,op:19,dt:4,nt:8,next:18884,nextCheck:44344,str:13593,h:3,d0:18882,d1:44342;
                                 ("sleep", Expression<MethodOrOperator> @:18882 check:44342,op:19,dt:2,nt:9,next:18883,nextCheck:44343,str:133,h:0,d0:0,d1:0;
                                     (5, Expression<Short> @:18883 check:44343,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:13600,h:3,d0:5,d1:65535;)))
-                            (____, Scope<Void> @:18884 check:44344,op:2,dt:4,nt:8,next:18923,nextCheck:44383,str:13607,h:3,d0:18885,d1:44345;
+                            (____, BuiltinInvocation<Void> @:18884 check:44344,op:2,dt:4,nt:8,next:18923,nextCheck:44383,str:13607,h:3,d0:18885,d1:44345;
                                 ("if", Expression<MethodOrOperator> @:18885 check:44345,op:2,dt:2,nt:9,next:18886,nextCheck:44346,str:509,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:18886 check:44346,op:5,dt:5,nt:8,next:18915,nextCheck:44375,str:13617,h:3,d0:18887,d1:44347;
+                                    (____, BuiltinInvocation<Boolean> @:18886 check:44346,op:5,dt:5,nt:8,next:18915,nextCheck:44375,str:13617,h:3,d0:18887,d1:44347;
                                         ("and", Expression<MethodOrOperator> @:18887 check:44347,op:5,dt:2,nt:9,next:18888,nextCheck:44348,str:720,h:0,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:18888 check:44348,op:13,dt:5,nt:8,next:18902,nextCheck:44362,str:13628,h:3,d0:18889,d1:44349;
+                                            (____, BuiltinInvocation<Boolean> @:18888 check:44348,op:13,dt:5,nt:8,next:18902,nextCheck:44362,str:13628,h:3,d0:18889,d1:44349;
                                                 ("=", Expression<MethodOrOperator> @:18889 check:44349,op:13,dt:2,nt:9,next:18890,nextCheck:44350,str:349,h:0,d0:0,d1:0;
-                                                    (____, Scope<Boolean> @:18890 check:44350,op:112,dt:5,nt:8,next:18901,nextCheck:44361,str:13631,h:3,d0:18891,d1:44351;
+                                                    (____, BuiltinInvocation<Boolean> @:18890 check:44350,op:112,dt:5,nt:8,next:18901,nextCheck:44361,str:13631,h:3,d0:18891,d1:44351;
                                                         ("objects_can_see_object", Expression<MethodOrOperator> @:18891 check:44351,op:112,dt:2,nt:9,next:18892,nextCheck:44352,str:14230,h:0,d0:0,d1:0;
-                                                            (____, Scope<List> @:18892 check:44352,op:28,dt:31,nt:8,next:18894,nextCheck:44354,str:13655,h:3,d0:18893,d1:44353;
+                                                            (____, BuiltinInvocation<List> @:18892 check:44352,op:28,dt:31,nt:8,next:18894,nextCheck:44354,str:13655,h:3,d0:18893,d1:44353;
                                                                 ("players", Expression<MethodOrOperator> @:18893 check:44353,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:74,h:0,d0:0,d1:0;))
-                                                            (____, Scope<Entity> @:18894 check:44354,op:37,dt:50,nt:8,next:18900,nextCheck:44360,str:13665,h:3,d0:18895,d1:44355;
+                                                            (____, BuiltinInvocation<Entity> @:18894 check:44354,op:37,dt:50,nt:8,next:18900,nextCheck:44360,str:13665,h:3,d0:18895,d1:44355;
                                                                 ("list_get", Expression<MethodOrOperator> @:18895 check:44355,op:37,dt:2,nt:9,next:18896,nextCheck:44356,str:65,h:0,d0:0,d1:0;
-                                                                    (____, Scope<List> @:18896 check:44356,op:332,dt:31,nt:8,next:18899,nextCheck:44359,str:13675,h:3,d0:18897,d1:44357;
+                                                                    (____, BuiltinInvocation<List> @:18896 check:44356,op:332,dt:31,nt:8,next:18899,nextCheck:44359,str:13675,h:3,d0:18897,d1:44357;
                                                                         ("ai_actors", Expression<MethodOrOperator> @:18897 check:44357,op:332,dt:2,nt:9,next:18898,nextCheck:44358,str:14253,h:0,d0:0,d1:0;
                                                                             ("old_temple_peri_jackals", Expression<AI> @:18898 check:44358,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29610,h:0,d0:33,d1:16384;)))
                                                                     (0, Expression<Short> @:18899 check:44359,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:13711,h:3,d0:0,d1:65535;)))
                                                             (45f, Expression<Float> @:18900 check:44360,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:13714,h:3,d0:0,d1:16948;)))
                                                     (False, Expression<Boolean> @:18901 check:44361,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:13718,h:3,d0:65280,d1:65535;)))
-                                            (____, Scope<Boolean> @:18902 check:44362,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:13731,h:3,d0:18903,d1:44363;
+                                            (____, BuiltinInvocation<Boolean> @:18902 check:44362,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:13731,h:3,d0:18903,d1:44363;
                                                 (">", Expression<MethodOrOperator> @:18903 check:44363,op:15,dt:2,nt:9,next:18904,nextCheck:44364,str:14283,h:0,d0:0,d1:0;
-                                                    (-1.1669298E-11f, Scope<Float> @:18904 check:44364,op:114,dt:6,nt:8,next:18914,nextCheck:44374,str:13734,h:3,d0:18905,d1:44365;
+                                                    (-1.1669298E-11f, BuiltinInvocation<Float> @:18904 check:44364,op:114,dt:6,nt:8,next:18914,nextCheck:44374,str:13734,h:3,d0:18905,d1:44365;
                                                         ("objects_distance_to_object", Expression<MethodOrOperator> @:18905 check:44365,op:114,dt:2,nt:9,next:18906,nextCheck:44366,str:14285,h:0,d0:0,d1:0;
-                                                            (____, Scope<List> @:18906 check:44366,op:28,dt:31,nt:8,next:18908,nextCheck:44368,str:13762,h:3,d0:18907,d1:44367;
+                                                            (____, BuiltinInvocation<List> @:18906 check:44366,op:28,dt:31,nt:8,next:18908,nextCheck:44368,str:13762,h:3,d0:18907,d1:44367;
                                                                 ("players", Expression<MethodOrOperator> @:18907 check:44367,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:74,h:0,d0:0,d1:0;))
-                                                            (____, Scope<Entity> @:18908 check:44368,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:13772,h:3,d0:18909,d1:44369;
+                                                            (____, BuiltinInvocation<Entity> @:18908 check:44368,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:13772,h:3,d0:18909,d1:44369;
                                                                 ("list_get", Expression<MethodOrOperator> @:18909 check:44369,op:37,dt:2,nt:9,next:18910,nextCheck:44370,str:65,h:0,d0:0,d1:0;
-                                                                    (____, Scope<List> @:18910 check:44370,op:332,dt:31,nt:8,next:18913,nextCheck:44373,str:13782,h:3,d0:18911,d1:44371;
+                                                                    (____, BuiltinInvocation<List> @:18910 check:44370,op:332,dt:31,nt:8,next:18913,nextCheck:44373,str:13782,h:3,d0:18911,d1:44371;
                                                                         ("ai_actors", Expression<MethodOrOperator> @:18911 check:44371,op:332,dt:2,nt:9,next:18912,nextCheck:44372,str:14253,h:0,d0:0,d1:0;
                                                                             ("old_temple_peri_jackals", Expression<AI> @:18912 check:44372,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29610,h:0,d0:33,d1:16384;)))
                                                                     (0, Expression<Short> @:18913 check:44373,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:13818,h:3,d0:0,d1:65535;)))))
                                                     (10f, Expression<Float> @:18914 check:44374,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:13822,h:3,d0:0,d1:16672;)))))
-                                    (____, Scope<Void> @:18915 check:44375,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:13839,h:3,d0:18916,d1:44376;
+                                    (____, BuiltinInvocation<Void> @:18915 check:44375,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:13839,h:3,d0:18916,d1:44376;
                                         ("object_destroy", Expression<MethodOrOperator> @:18916 check:44376,op:52,dt:2,nt:9,next:18917,nextCheck:44377,str:1543,h:0,d0:0,d1:0;
-                                            (____, Scope<Entity> @:18917 check:44377,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:13855,h:3,d0:18918,d1:44378;
+                                            (____, BuiltinInvocation<Entity> @:18917 check:44377,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:13855,h:3,d0:18918,d1:44378;
                                                 ("list_get", Expression<MethodOrOperator> @:18918 check:44378,op:37,dt:2,nt:9,next:18919,nextCheck:44379,str:65,h:0,d0:0,d1:0;
-                                                    (____, Scope<List> @:18919 check:44379,op:332,dt:31,nt:8,next:18922,nextCheck:44382,str:13865,h:3,d0:18920,d1:44380;
+                                                    (____, BuiltinInvocation<List> @:18919 check:44379,op:332,dt:31,nt:8,next:18922,nextCheck:44382,str:13865,h:3,d0:18920,d1:44380;
                                                         ("ai_actors", Expression<MethodOrOperator> @:18920 check:44380,op:332,dt:2,nt:9,next:18921,nextCheck:44381,str:14253,h:0,d0:0,d1:0;
                                                             ("old_temple_peri_jackals", Expression<AI> @:18921 check:44381,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29610,h:0,d0:33,d1:16384;)))
                                                     (0, Expression<Short> @:18922 check:44382,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:13901,h:3,d0:0,d1:65535;)))))))
-                            (____, Scope<Void> @:18923 check:44383,op:19,dt:4,nt:8,next:18926,nextCheck:44386,str:13915,h:3,d0:18924,d1:44384;
+                            (____, BuiltinInvocation<Void> @:18923 check:44383,op:19,dt:4,nt:8,next:18926,nextCheck:44386,str:13915,h:3,d0:18924,d1:44384;
                                 ("sleep", Expression<MethodOrOperator> @:18924 check:44384,op:19,dt:2,nt:9,next:18925,nextCheck:44385,str:133,h:0,d0:0,d1:0;
                                     (5, Expression<Short> @:18925 check:44385,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:13922,h:3,d0:5,d1:65535;)))
-                            (____, Scope<Boolean> @:18926 check:44386,op:5,dt:5,nt:8,next:65535,nextCheck:65535,str:13929,h:3,d0:18927,d1:44387;
+                            (____, BuiltinInvocation<Boolean> @:18926 check:44386,op:5,dt:5,nt:8,next:65535,nextCheck:65535,str:13929,h:3,d0:18927,d1:44387;
                                 ("and", Expression<MethodOrOperator> @:18927 check:44387,op:5,dt:2,nt:9,next:18928,nextCheck:44388,str:720,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:18928 check:44388,op:16,dt:5,nt:8,next:18934,nextCheck:44394,str:13939,h:3,d0:18929,d1:44389;
+                                    (____, BuiltinInvocation<Boolean> @:18928 check:44388,op:16,dt:5,nt:8,next:18934,nextCheck:44394,str:13939,h:3,d0:18929,d1:44389;
                                         ("<", Expression<MethodOrOperator> @:18929 check:44389,op:16,dt:2,nt:9,next:18930,nextCheck:44390,str:900,h:0,d0:0,d1:0;
-                                            (____, Scope<Short> @:18930 check:44390,op:327,dt:7,nt:8,next:18933,nextCheck:44393,str:13942,h:3,d0:18931,d1:44391;
+                                            (____, BuiltinInvocation<Short> @:18930 check:44390,op:327,dt:7,nt:8,next:18933,nextCheck:44393,str:13942,h:3,d0:18931,d1:44391;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:18931 check:44391,op:327,dt:2,nt:9,next:18932,nextCheck:44392,str:15933,h:0,d0:0,d1:0;
                                                     ("old_temple_peri_grunts", Expression<AI> @:18932 check:44392,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29685,h:0,d0:32,d1:16384;)))
                                             (1, Expression<Short> @:18933 check:44393,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:13983,h:3,d0:1,d1:65535;)))
-                                    (____, Scope<Boolean> @:18934 check:44394,op:16,dt:5,nt:8,next:65535,nextCheck:65535,str:13991,h:3,d0:18935,d1:44395;
+                                    (____, BuiltinInvocation<Boolean> @:18934 check:44394,op:16,dt:5,nt:8,next:65535,nextCheck:65535,str:13991,h:3,d0:18935,d1:44395;
                                         ("<", Expression<MethodOrOperator> @:18935 check:44395,op:16,dt:2,nt:9,next:18936,nextCheck:44396,str:900,h:0,d0:0,d1:0;
-                                            (____, Scope<Short> @:18936 check:44396,op:327,dt:7,nt:8,next:18939,nextCheck:44399,str:13994,h:3,d0:18937,d1:44397;
+                                            (____, BuiltinInvocation<Short> @:18936 check:44396,op:327,dt:7,nt:8,next:18939,nextCheck:44399,str:13994,h:3,d0:18937,d1:44397;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:18937 check:44397,op:327,dt:2,nt:9,next:18938,nextCheck:44398,str:15933,h:0,d0:0,d1:0;
                                                     ("old_temple_peri_jackals", Expression<AI> @:18938 check:44398,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29610,h:0,d0:33,d1:16384;)))
                                             (1, Expression<Short> @:18939 check:44399,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:14036,h:3,d0:1,d1:65535;)))))))))
-            (____, Scope<Void> @:18940 check:44400,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:14056,h:3,d0:18941,d1:44401;
+            (____, BuiltinInvocation<Void> @:18940 check:44400,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:14056,h:3,d0:18941,d1:44401;
                 ("print", Expression<MethodOrOperator> @:18941 check:44401,op:27,dt:2,nt:9,next:18942,nextCheck:44402,str:139,h:0,d0:0,d1:0;
                     ("all gone", Expression<String> @:18942 check:44402,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:30375,h:0,d0:41751,d1:12768;))))))

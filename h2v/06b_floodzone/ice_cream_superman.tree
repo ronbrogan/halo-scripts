@@ -1,41 +1,41 @@
 
 ("ice_cream_superman", MethodDecl<Void> @:134 check:0,op:0,dt:0,nt:65535,next:4255,nextCheck:62482,str:27827,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:4255 check:62482,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:50916,h:0,d0:4256,d1:62483;
+    (____, BuiltinInvocation<Void> @:4255 check:62482,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:50916,h:0,d0:4256,d1:62483;
         ("begin", Expression<MethodOrOperator> @:4256 check:62483,op:0,dt:2,nt:9,next:4218,nextCheck:62445,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:4218 check:62445,op:46,dt:4,nt:8,next:4221,nextCheck:62448,str:50953,h:0,d0:4219,d1:62446;
+            (____, BuiltinInvocation<Void> @:4218 check:62445,op:46,dt:4,nt:8,next:4221,nextCheck:62448,str:50953,h:0,d0:4219,d1:62446;
                 ("object_create", Expression<MethodOrOperator> @:4219 check:62446,op:46,dt:2,nt:9,next:4220,nextCheck:62447,str:8750,h:0,d0:0,d1:0;
                     ("ice_cream_head", Expression<EntityIdentifier> @:4220 check:62447,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:10488,h:0,d0:48,d1:65535;)))
-            (____, Scope<Void> @:4221 check:62448,op:21,dt:4,nt:8,next:4240,nextCheck:62467,str:50989,h:0,d0:4222,d1:62449;
+            (____, BuiltinInvocation<Void> @:4221 check:62448,op:21,dt:4,nt:8,next:4240,nextCheck:62467,str:50989,h:0,d0:4222,d1:62449;
                 ("sleep_until", Expression<MethodOrOperator> @:4222 check:62449,op:21,dt:2,nt:9,next:4223,nextCheck:62450,str:236,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:4223 check:62450,op:6,dt:5,nt:8,next:4239,nextCheck:62466,str:51006,h:0,d0:4224,d1:62451;
+                    (____, BuiltinInvocation<Boolean> @:4223 check:62450,op:6,dt:5,nt:8,next:4239,nextCheck:62466,str:51006,h:0,d0:4224,d1:62451;
                         ("or", Expression<MethodOrOperator> @:4224 check:62451,op:6,dt:2,nt:9,next:4225,nextCheck:62452,str:849,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:4225 check:62452,op:242,dt:5,nt:8,next:4232,nextCheck:62459,str:51027,h:0,d0:4226,d1:62453;
+                            (____, BuiltinInvocation<Boolean> @:4225 check:62452,op:242,dt:5,nt:8,next:4232,nextCheck:62459,str:51027,h:0,d0:4226,d1:62453;
                                 ("unit_has_weapon", Expression<MethodOrOperator> @:4226 check:62453,op:242,dt:2,nt:9,next:4227,nextCheck:62454,str:10503,h:0,d0:0,d1:0;
-                                    (____, Scope<Unit> @:4227 check:62454,op:24,dt:51,nt:8,next:4231,nextCheck:62458,str:51044,h:0,d0:4228,d1:62455;
+                                    (____, BuiltinInvocation<Unit> @:4227 check:62454,op:24,dt:51,nt:8,next:4231,nextCheck:62458,str:51044,h:0,d0:4228,d1:62455;
                                         ("unit", Expression<MethodOrOperator> @:4228 check:62455,op:24,dt:2,nt:9,next:4229,nextCheck:62456,str:12,h:0,d0:0,d1:0;
                                             ("player0", ScriptInvocation<Entity> @:4229 check:62456,op:0,dt:50,nt:10,next:65535,nextCheck:65535,str:51050,h:0,d0:4230,d1:62457;
                                                 ("player0", Expression<MethodOrOperator> @:4230 check:62457,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:607,h:0,d0:0,d1:0;))))
                                     ("objects\weapons\multiplayer\ball\head_sp.weapon", Expression<TagReference> @:4231 check:62458,op:38,dt:38,nt:9,next:65535,nextCheck:65535,str:10519,h:0,d0:5893,d1:63611;)))
-                            (____, Scope<Boolean> @:4232 check:62459,op:242,dt:5,nt:8,next:65535,nextCheck:65535,str:51129,h:0,d0:4233,d1:62460;
+                            (____, BuiltinInvocation<Boolean> @:4232 check:62459,op:242,dt:5,nt:8,next:65535,nextCheck:65535,str:51129,h:0,d0:4233,d1:62460;
                                 ("unit_has_weapon", Expression<MethodOrOperator> @:4233 check:62460,op:242,dt:2,nt:9,next:4234,nextCheck:62461,str:10503,h:0,d0:0,d1:0;
-                                    (____, Scope<Unit> @:4234 check:62461,op:24,dt:51,nt:8,next:4238,nextCheck:62465,str:51146,h:0,d0:4235,d1:62462;
+                                    (____, BuiltinInvocation<Unit> @:4234 check:62461,op:24,dt:51,nt:8,next:4238,nextCheck:62465,str:51146,h:0,d0:4235,d1:62462;
                                         ("unit", Expression<MethodOrOperator> @:4235 check:62462,op:24,dt:2,nt:9,next:4236,nextCheck:62463,str:12,h:0,d0:0,d1:0;
                                             ("player1", ScriptInvocation<Entity> @:4236 check:62463,op:1,dt:50,nt:10,next:65535,nextCheck:65535,str:51152,h:0,d0:4237,d1:62464;
                                                 ("player1", Expression<MethodOrOperator> @:4237 check:62464,op:1,dt:2,nt:9,next:65535,nextCheck:65535,str:615,h:0,d0:0,d1:0;))))
                                     ("objects\weapons\multiplayer\ball\head_sp.weapon", Expression<TagReference> @:4238 check:62465,op:38,dt:38,nt:9,next:65535,nextCheck:65535,str:10519,h:0,d0:5893,d1:63611;)))))
                     (5, Expression<Short> @:4239 check:62466,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:51221,h:0,d0:5,d1:65535;)))
-            (____, Scope<Void> @:4240 check:62467,op:2,dt:4,nt:8,next:4246,nextCheck:62473,str:51229,h:0,d0:4241,d1:62468;
+            (____, BuiltinInvocation<Void> @:4240 check:62467,op:2,dt:4,nt:8,next:4246,nextCheck:62473,str:51229,h:0,d0:4241,d1:62468;
                 ("if", Expression<MethodOrOperator> @:4241 check:62468,op:2,dt:2,nt:9,next:4242,nextCheck:62469,str:461,h:0,d0:0,d1:0;
                     ("debug", VariableAccess<Boolean> @:4242 check:62469,op:5,dt:5,nt:13,next:4243,nextCheck:62470,str:10567,h:0,d0:3,d1:0;
-                        (____, Scope<Void> @:4243 check:62470,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:51239,h:0,d0:4244,d1:62471;
+                        (____, BuiltinInvocation<Void> @:4243 check:62470,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:51239,h:0,d0:4244,d1:62471;
                             ("print", Expression<MethodOrOperator> @:4244 check:62471,op:27,dt:2,nt:9,next:4245,nextCheck:62472,str:91,h:0,d0:0,d1:0;
                                 ("you're going to get fat!!!!! or dead...", Expression<String> @:4245 check:62472,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:10573,h:0,d0:61773,d1:12389;))))))
-            (____, Scope<Void> @:4246 check:62473,op:2,dt:4,nt:8,next:4252,nextCheck:62479,str:51292,h:0,d0:4247,d1:62474;
+            (____, BuiltinInvocation<Void> @:4246 check:62473,op:2,dt:4,nt:8,next:4252,nextCheck:62479,str:51292,h:0,d0:4247,d1:62474;
                 ("if", Expression<MethodOrOperator> @:4247 check:62474,op:2,dt:2,nt:9,next:4248,nextCheck:62475,str:461,h:0,d0:0,d1:0;
                     ("debug", VariableAccess<Boolean> @:4248 check:62475,op:5,dt:5,nt:13,next:4249,nextCheck:62476,str:10567,h:0,d0:3,d1:0;
-                        (____, Scope<Void> @:4249 check:62476,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:51302,h:0,d0:4250,d1:62477;
+                        (____, BuiltinInvocation<Void> @:4249 check:62476,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:51302,h:0,d0:4250,d1:62477;
                             ("print", Expression<MethodOrOperator> @:4250 check:62477,op:27,dt:2,nt:9,next:4251,nextCheck:62478,str:91,h:0,d0:0,d1:0;
                                 ("because now everyone is superman!!!!", Expression<String> @:4251 check:62478,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:10613,h:0,d0:61813,d1:12389;))))))
-            (____, Scope<Void> @:4252 check:62479,op:872,dt:4,nt:8,next:65535,nextCheck:65535,str:51352,h:0,d0:4253,d1:62480;
+            (____, BuiltinInvocation<Void> @:4252 check:62479,op:872,dt:4,nt:8,next:65535,nextCheck:65535,str:51352,h:0,d0:4253,d1:62480;
                 ("ice_cream_flavor_stock", Expression<MethodOrOperator> @:4253 check:62480,op:872,dt:2,nt:9,next:4254,nextCheck:62481,str:10650,h:0,d0:0,d1:0;
                     (10, Expression<Int> @:4254 check:62481,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:51376,h:0,d0:10,d1:0;))))))

@@ -1,34 +1,34 @@
 
 ("cs_e16_cov_ghosts0_advance1", MethodDecl<Void> @:375 check:0,op:0,dt:0,nt:65535,next:13554,nextCheck:39014,str:65535,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:13554 check:39014,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:45995,h:2,d0:13555,d1:39015;
+    (____, BuiltinInvocation<Void> @:13554 check:39014,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:45995,h:2,d0:13555,d1:39015;
         ("begin", Expression<MethodOrOperator> @:13555 check:39015,op:0,dt:2,nt:9,next:13524,nextCheck:38984,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:13524 check:38984,op:440,dt:4,nt:8,next:13527,nextCheck:38987,str:46048,h:2,d0:13525,d1:38985;
+            (____, BuiltinInvocation<Void> @:13524 check:38984,op:440,dt:4,nt:8,next:13527,nextCheck:38987,str:46048,h:2,d0:13525,d1:38985;
                 ("cs_abort_on_damage", Expression<MethodOrOperator> @:13525 check:38985,op:440,dt:2,nt:9,next:13526,nextCheck:38986,str:16341,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:13526 check:38986,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:46068,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:13527 check:38987,op:441,dt:4,nt:8,next:13530,nextCheck:38990,str:46076,h:2,d0:13528,d1:38988;
+            (____, BuiltinInvocation<Void> @:13527 check:38987,op:441,dt:4,nt:8,next:13530,nextCheck:38990,str:46076,h:2,d0:13528,d1:38988;
                 ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:13528 check:38988,op:441,dt:2,nt:9,next:13529,nextCheck:38989,str:22305,h:0,d0:0,d1:0;
                     ("ai_combat_status_clear_los", VariableAccess<Short> @:13529 check:38989,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:17136,h:0,d0:33579,d1:65535;)))
-            (____, Scope<Void> @:13530 check:38990,op:438,dt:4,nt:8,next:13533,nextCheck:38993,str:46133,h:2,d0:13531,d1:38991;
+            (____, BuiltinInvocation<Void> @:13530 check:38990,op:438,dt:4,nt:8,next:13533,nextCheck:38993,str:46133,h:2,d0:13531,d1:38991;
                 ("cs_vehicle_boost", Expression<MethodOrOperator> @:13531 check:38991,op:438,dt:2,nt:9,next:13532,nextCheck:38992,str:15305,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:13532 check:38992,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:46151,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:13533 check:38993,op:442,dt:4,nt:8,next:13536,nextCheck:38996,str:46159,h:2,d0:13534,d1:38994;
+            (____, BuiltinInvocation<Void> @:13533 check:38993,op:442,dt:4,nt:8,next:13536,nextCheck:38996,str:46159,h:2,d0:13534,d1:38994;
                 ("cs_enable_targeting", Expression<MethodOrOperator> @:13534 check:38994,op:442,dt:2,nt:9,next:13535,nextCheck:38995,str:27507,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:13535 check:38995,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:46180,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:13536 check:38996,op:385,dt:4,nt:8,next:13539,nextCheck:38999,str:46188,h:2,d0:13537,d1:38997;
+            (____, BuiltinInvocation<Void> @:13536 check:38996,op:385,dt:4,nt:8,next:13539,nextCheck:38999,str:46188,h:2,d0:13537,d1:38997;
                 ("cs_go_to", Expression<MethodOrOperator> @:13537 check:38997,op:385,dt:2,nt:9,next:13538,nextCheck:38998,str:18710,h:0,d0:0,d1:0;
                     ("e16_cov_ghosts0_advance/start", Expression<SpatialPoint> @:13538 check:38998,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:27527,h:0,d0:10,d1:7;)))
-            (____, Scope<Void> @:13539 check:38999,op:385,dt:4,nt:8,next:13542,nextCheck:39002,str:46231,h:2,d0:13540,d1:39000;
+            (____, BuiltinInvocation<Void> @:13539 check:38999,op:385,dt:4,nt:8,next:13542,nextCheck:39002,str:46231,h:2,d0:13540,d1:39000;
                 ("cs_go_to", Expression<MethodOrOperator> @:13540 check:39000,op:385,dt:2,nt:9,next:13541,nextCheck:39001,str:18710,h:0,d0:0,d1:0;
                     ("e16_cov_ghosts0_advance/p0", Expression<SpatialPoint> @:13541 check:39001,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:27557,h:0,d0:0,d1:7;)))
-            (____, Scope<Void> @:13542 check:39002,op:385,dt:4,nt:8,next:13545,nextCheck:39005,str:46271,h:2,d0:13543,d1:39003;
+            (____, BuiltinInvocation<Void> @:13542 check:39002,op:385,dt:4,nt:8,next:13545,nextCheck:39005,str:46271,h:2,d0:13543,d1:39003;
                 ("cs_go_to", Expression<MethodOrOperator> @:13543 check:39003,op:385,dt:2,nt:9,next:13544,nextCheck:39004,str:18710,h:0,d0:0,d1:0;
                     ("e16_cov_ghosts0_advance/p5", Expression<SpatialPoint> @:13544 check:39004,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:27584,h:0,d0:5,d1:7;)))
-            (____, Scope<Void> @:13545 check:39005,op:385,dt:4,nt:8,next:13548,nextCheck:39008,str:46311,h:2,d0:13546,d1:39006;
+            (____, BuiltinInvocation<Void> @:13545 check:39005,op:385,dt:4,nt:8,next:13548,nextCheck:39008,str:46311,h:2,d0:13546,d1:39006;
                 ("cs_go_to", Expression<MethodOrOperator> @:13546 check:39006,op:385,dt:2,nt:9,next:13547,nextCheck:39007,str:18710,h:0,d0:0,d1:0;
                     ("e16_cov_ghosts0_advance/p6", Expression<SpatialPoint> @:13547 check:39007,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:27611,h:0,d0:6,d1:7;)))
-            (____, Scope<Void> @:13548 check:39008,op:385,dt:4,nt:8,next:13551,nextCheck:39011,str:46351,h:2,d0:13549,d1:39009;
+            (____, BuiltinInvocation<Void> @:13548 check:39008,op:385,dt:4,nt:8,next:13551,nextCheck:39011,str:46351,h:2,d0:13549,d1:39009;
                 ("cs_go_to", Expression<MethodOrOperator> @:13549 check:39009,op:385,dt:2,nt:9,next:13550,nextCheck:39010,str:18710,h:0,d0:0,d1:0;
                     ("e16_cov_ghosts0_advance/p7", Expression<SpatialPoint> @:13550 check:39010,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:27638,h:0,d0:7,d1:7;)))
-            (____, Scope<Void> @:13551 check:39011,op:385,dt:4,nt:8,next:65535,nextCheck:65535,str:46391,h:2,d0:13552,d1:39012;
+            (____, BuiltinInvocation<Void> @:13551 check:39011,op:385,dt:4,nt:8,next:65535,nextCheck:65535,str:46391,h:2,d0:13552,d1:39012;
                 ("cs_go_to", Expression<MethodOrOperator> @:13552 check:39012,op:385,dt:2,nt:9,next:13553,nextCheck:39013,str:18710,h:0,d0:0,d1:0;
                     ("e16_cov_ghosts0_advance/p8", Expression<SpatialPoint> @:13553 check:39013,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:27665,h:0,d0:8,d1:7;))))))

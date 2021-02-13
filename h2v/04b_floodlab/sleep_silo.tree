@@ -1,31 +1,31 @@
 
 ("sleep_silo", MethodDecl<Void> @:367 check:0,op:0,dt:0,nt:65535,next:31252,nextCheck:56712,str:39062,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:31252 check:56712,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36499,h:4,d0:31253,d1:56713;
+    (____, BuiltinInvocation<Void> @:31252 check:56712,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36499,h:4,d0:31253,d1:56713;
         ("begin", Expression<MethodOrOperator> @:31253 check:56713,op:0,dt:2,nt:9,next:31225,nextCheck:56685,str:210,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:31225 check:56685,op:20,dt:4,nt:8,next:31228,nextCheck:56688,str:36532,h:4,d0:31226,d1:56686;
+            (____, BuiltinInvocation<Void> @:31225 check:56685,op:20,dt:4,nt:8,next:31228,nextCheck:56688,str:36532,h:4,d0:31226,d1:56686;
                 ("sleep_forever", Expression<MethodOrOperator> @:31226 check:56686,op:20,dt:2,nt:9,next:31227,nextCheck:56687,str:9653,h:0,d0:0,d1:0;
                     ("silo_start", Expression<ScriptReference> @:31227 check:56687,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:38558,h:0,d0:202,d1:65535;)))
-            (____, Scope<Void> @:31228 check:56688,op:20,dt:4,nt:8,next:31231,nextCheck:56691,str:36561,h:4,d0:31229,d1:56689;
+            (____, BuiltinInvocation<Void> @:31228 check:56688,op:20,dt:4,nt:8,next:31231,nextCheck:56691,str:36561,h:4,d0:31229,d1:56689;
                 ("sleep_forever", Expression<MethodOrOperator> @:31229 check:56689,op:20,dt:2,nt:9,next:31230,nextCheck:56690,str:9653,h:0,d0:0,d1:0;
                     ("silo_hall_flood_spawner", Expression<ScriptReference> @:31230 check:56690,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:17099,h:0,d0:201,d1:65535;)))
-            (____, Scope<Void> @:31231 check:56691,op:20,dt:4,nt:8,next:31234,nextCheck:56694,str:36603,h:4,d0:31232,d1:56692;
+            (____, BuiltinInvocation<Void> @:31231 check:56691,op:20,dt:4,nt:8,next:31234,nextCheck:56694,str:36603,h:4,d0:31232,d1:56692;
                 ("sleep_forever", Expression<MethodOrOperator> @:31232 check:56692,op:20,dt:2,nt:9,next:31233,nextCheck:56693,str:9653,h:0,d0:0,d1:0;
                     ("elev_go", Expression<ScriptReference> @:31233 check:56693,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:16961,h:0,d0:200,d1:65535;)))
-            (____, Scope<Void> @:31234 check:56694,op:20,dt:4,nt:8,next:31237,nextCheck:56697,str:36629,h:4,d0:31235,d1:56695;
+            (____, BuiltinInvocation<Void> @:31234 check:56694,op:20,dt:4,nt:8,next:31237,nextCheck:56697,str:36629,h:4,d0:31235,d1:56695;
                 ("sleep_forever", Expression<MethodOrOperator> @:31235 check:56695,op:20,dt:2,nt:9,next:31236,nextCheck:56696,str:9653,h:0,d0:0,d1:0;
                     ("to_flood_lab", Expression<ScriptReference> @:31236 check:56696,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:38569,h:0,d0:204,d1:65535;)))
-            (____, Scope<Void> @:31237 check:56697,op:20,dt:4,nt:8,next:31240,nextCheck:56700,str:36660,h:4,d0:31238,d1:56698;
+            (____, BuiltinInvocation<Void> @:31237 check:56697,op:20,dt:4,nt:8,next:31240,nextCheck:56700,str:36660,h:4,d0:31238,d1:56698;
                 ("sleep_forever", Expression<MethodOrOperator> @:31238 check:56698,op:20,dt:2,nt:9,next:31239,nextCheck:56699,str:9653,h:0,d0:0,d1:0;
                     ("silo_commander_reminder", Expression<ScriptReference> @:31239 check:56699,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:38582,h:0,d0:174,d1:65535;)))
-            (____, Scope<Void> @:31240 check:56700,op:20,dt:4,nt:8,next:31243,nextCheck:56703,str:36702,h:4,d0:31241,d1:56701;
+            (____, BuiltinInvocation<Void> @:31240 check:56700,op:20,dt:4,nt:8,next:31243,nextCheck:56703,str:36702,h:4,d0:31241,d1:56701;
                 ("sleep_forever", Expression<MethodOrOperator> @:31241 check:56701,op:20,dt:2,nt:9,next:31242,nextCheck:56702,str:9653,h:0,d0:0,d1:0;
                     ("silo_killer", Expression<ScriptReference> @:31242 check:56702,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:16930,h:0,d0:175,d1:65535;)))
-            (____, Scope<Void> @:31243 check:56703,op:20,dt:4,nt:8,next:31246,nextCheck:56706,str:36732,h:4,d0:31244,d1:56704;
+            (____, BuiltinInvocation<Void> @:31243 check:56703,op:20,dt:4,nt:8,next:31246,nextCheck:56706,str:36732,h:4,d0:31244,d1:56704;
                 ("sleep_forever", Expression<MethodOrOperator> @:31244 check:56704,op:20,dt:2,nt:9,next:31245,nextCheck:56705,str:9653,h:0,d0:0,d1:0;
                     ("silo_sentinel_spawner", Expression<ScriptReference> @:31245 check:56705,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:17011,h:0,d0:197,d1:65535;)))
-            (____, Scope<Void> @:31246 check:56706,op:20,dt:4,nt:8,next:31249,nextCheck:56709,str:36772,h:4,d0:31247,d1:56707;
+            (____, BuiltinInvocation<Void> @:31246 check:56706,op:20,dt:4,nt:8,next:31249,nextCheck:56709,str:36772,h:4,d0:31247,d1:56707;
                 ("sleep_forever", Expression<MethodOrOperator> @:31247 check:56707,op:20,dt:2,nt:9,next:31248,nextCheck:56708,str:9653,h:0,d0:0,d1:0;
                     ("silo_flood_spawner", Expression<ScriptReference> @:31248 check:56708,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:16992,h:0,d0:199,d1:65535;)))
-            (____, Scope<Void> @:31249 check:56709,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:36809,h:4,d0:31250,d1:56710;
+            (____, BuiltinInvocation<Void> @:31249 check:56709,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:36809,h:4,d0:31250,d1:56710;
                 ("sleep_forever", Expression<MethodOrOperator> @:31250 check:56710,op:20,dt:2,nt:9,next:31251,nextCheck:56711,str:9653,h:0,d0:0,d1:0;
                     ("silo_saving", Expression<ScriptReference> @:31251 check:56711,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:16386,h:0,d0:198,d1:65535;))))))

@@ -1,26 +1,26 @@
 
 ("cs_e11_attack_scarab_behavior", MethodDecl<Void> @:360 check:0,op:0,dt:0,nt:65535,next:12585,nextCheck:38045,str:29230,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:12585 check:38045,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:19571,h:2,d0:12586,d1:38046;
+    (____, BuiltinInvocation<Void> @:12585 check:38045,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:19571,h:2,d0:12586,d1:38046;
         ("begin", Expression<MethodOrOperator> @:12586 check:38046,op:0,dt:2,nt:9,next:12562,nextCheck:38022,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:12562 check:38022,op:444,dt:4,nt:8,next:12565,nextCheck:38025,str:19654,h:2,d0:12563,d1:38023;
+            (____, BuiltinInvocation<Void> @:12562 check:38022,op:444,dt:4,nt:8,next:12565,nextCheck:38025,str:19654,h:2,d0:12563,d1:38023;
                 ("cs_enable_moving", Expression<MethodOrOperator> @:12563 check:38023,op:444,dt:2,nt:9,next:12564,nextCheck:38024,str:1094,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:12564 check:38024,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:19672,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:12565 check:38025,op:442,dt:4,nt:8,next:12568,nextCheck:38028,str:19680,h:2,d0:12566,d1:38026;
+            (____, BuiltinInvocation<Void> @:12565 check:38025,op:442,dt:4,nt:8,next:12568,nextCheck:38028,str:19680,h:2,d0:12566,d1:38026;
                 ("cs_enable_targeting", Expression<MethodOrOperator> @:12566 check:38026,op:442,dt:2,nt:9,next:12567,nextCheck:38027,str:1222,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:12567 check:38027,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:19701,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:12568 check:38028,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:19728,h:2,d0:12569,d1:38029;
+            (____, BuiltinInvocation<Void> @:12568 check:38028,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:19728,h:2,d0:12569,d1:38029;
                 ("sleep_until", Expression<MethodOrOperator> @:12569 check:38029,op:21,dt:2,nt:9,next:12570,nextCheck:38030,str:236,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:12570 check:38030,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:19744,h:2,d0:12571,d1:38031;
+                    (____, BuiltinInvocation<Boolean> @:12570 check:38030,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:19744,h:2,d0:12571,d1:38031;
                         ("begin", Expression<MethodOrOperator> @:12571 check:38031,op:0,dt:2,nt:9,next:12572,nextCheck:38032,str:6,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:12572 check:38032,op:21,dt:4,nt:8,next:12580,nextCheck:38040,str:19793,h:2,d0:12573,d1:38033;
+                            (____, BuiltinInvocation<Void> @:12572 check:38032,op:21,dt:4,nt:8,next:12580,nextCheck:38040,str:19793,h:2,d0:12573,d1:38033;
                                 ("sleep_until", Expression<MethodOrOperator> @:12573 check:38033,op:21,dt:2,nt:9,next:12574,nextCheck:38034,str:236,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:12574 check:38034,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:19806,h:2,d0:12575,d1:38035;
+                                    (____, BuiltinInvocation<Boolean> @:12574 check:38034,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:19806,h:2,d0:12575,d1:38035;
                                         ("<=", Expression<MethodOrOperator> @:12575 check:38035,op:18,dt:2,nt:9,next:12576,nextCheck:38036,str:6210,h:0,d0:0,d1:0;
-                                            (____, Scope<Short> @:12576 check:38036,op:353,dt:7,nt:8,next:12579,nextCheck:38039,str:19810,h:2,d0:12577,d1:38037;
+                                            (____, BuiltinInvocation<Short> @:12576 check:38036,op:353,dt:7,nt:8,next:12579,nextCheck:38039,str:19810,h:2,d0:12577,d1:38037;
                                                 ("ai_combat_status", Expression<MethodOrOperator> @:12577 check:38037,op:353,dt:2,nt:9,next:12578,nextCheck:38038,str:27103,h:0,d0:0,d1:0;
                                                     ("ai_current_actor", VariableAccess<AI> @:12578 check:38038,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:1271,h:0,d0:33564,d1:65535;)))
                                             ("ai_combat_status_active", VariableAccess<Short> @:12579 check:38039,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:27120,h:0,d0:33574,d1:65535;)))))
-                            (____, Scope<Void> @:12580 check:38040,op:368,dt:4,nt:8,next:12584,nextCheck:38044,str:19918,h:2,d0:12581,d1:38041;
+                            (____, BuiltinInvocation<Void> @:12580 check:38040,op:368,dt:4,nt:8,next:12584,nextCheck:38044,str:19918,h:2,d0:12581,d1:38041;
                                 ("cs_stack_command_script", Expression<MethodOrOperator> @:12581 check:38041,op:368,dt:2,nt:9,next:12582,nextCheck:38042,str:29068,h:0,d0:0,d1:0;
                                     ("ai_current_actor", VariableAccess<AI> @:12582 check:38042,op:19,dt:19,nt:13,next:12583,nextCheck:38043,str:1271,h:0,d0:33564,d1:65535;
                                         ("cs_e11_attack_scarab", Expression<AIScript> @:12583 check:38043,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:29092,h:0,d0:359,d1:0;))))

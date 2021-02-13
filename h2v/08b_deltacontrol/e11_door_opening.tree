@@ -1,31 +1,31 @@
 
 ("e11_door_opening", MethodDecl<Void> @:384 check:0,op:0,dt:0,nt:65535,next:13454,nextCheck:38914,str:30912,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:13454 check:38914,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:35335,h:2,d0:13455,d1:38915;
+    (____, BuiltinInvocation<Void> @:13454 check:38914,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:35335,h:2,d0:13455,d1:38915;
         ("begin", Expression<MethodOrOperator> @:13455 check:38915,op:0,dt:2,nt:9,next:13427,nextCheck:38887,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:13427 check:38887,op:21,dt:4,nt:8,next:13431,nextCheck:38891,str:35370,h:2,d0:13428,d1:38888;
+            (____, BuiltinInvocation<Void> @:13427 check:38887,op:21,dt:4,nt:8,next:13431,nextCheck:38891,str:35370,h:2,d0:13428,d1:38888;
                 ("sleep_until", Expression<MethodOrOperator> @:13428 check:38888,op:21,dt:2,nt:9,next:13429,nextCheck:38889,str:236,h:0,d0:0,d1:0;
                     ("g_e11_door_should_open", VariableAccess<Boolean> @:13429 check:38889,op:5,dt:5,nt:13,next:13430,nextCheck:38890,str:30233,h:0,d0:34,d1:0;
                         (10, Expression<Short> @:13430 check:38890,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:35406,h:2,d0:10,d1:65535;))))
-            (____, Scope<Void> @:13431 check:38891,op:19,dt:4,nt:8,next:13434,nextCheck:38894,str:35412,h:2,d0:13432,d1:38892;
+            (____, BuiltinInvocation<Void> @:13431 check:38891,op:19,dt:4,nt:8,next:13434,nextCheck:38894,str:35412,h:2,d0:13432,d1:38892;
                 ("sleep", Expression<MethodOrOperator> @:13432 check:38892,op:19,dt:2,nt:9,next:13433,nextCheck:38893,str:85,h:0,d0:0,d1:0;
                     (120, Expression<Short> @:13433 check:38893,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:35419,h:2,d0:120,d1:65535;)))
-            (____, Scope<Void> @:13434 check:38894,op:40,dt:4,nt:8,next:13438,nextCheck:38898,str:35447,h:2,d0:13435,d1:38895;
+            (____, BuiltinInvocation<Void> @:13434 check:38894,op:40,dt:4,nt:8,next:13438,nextCheck:38898,str:35447,h:2,d0:13435,d1:38895;
                 ("effect_new", Expression<MethodOrOperator> @:13435 check:38895,op:40,dt:2,nt:9,next:13436,nextCheck:38896,str:30256,h:0,d0:0,d1:0;
                     ("effects\scenarios\solo\deltacontrolroom\scarab_attack_deltacontrol", Expression<Effect> @:13436 check:38896,op:33,dt:33,nt:9,next:13437,nextCheck:38897,str:30267,h:0,d0:7256,d1:64993;
                         ("e11_door_explosion", Expression<LocationFlag> @:13437 check:38897,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:30334,h:0,d0:30,d1:0;))))
-            (____, Scope<Void> @:13438 check:38898,op:52,dt:4,nt:8,next:13441,nextCheck:38901,str:35550,h:2,d0:13439,d1:38899;
+            (____, BuiltinInvocation<Void> @:13438 check:38898,op:52,dt:4,nt:8,next:13441,nextCheck:38901,str:35550,h:2,d0:13439,d1:38899;
                 ("object_destroy", Expression<MethodOrOperator> @:13439 check:38899,op:52,dt:2,nt:9,next:13440,nextCheck:38900,str:8453,h:0,d0:0,d1:0;
                     (4294901872, Expression<Entity> @:13440 check:38900,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:30135,h:0,d0:112,d1:65535;)))
-            (____, Scope<Void> @:13441 check:38901,op:4,dt:4,nt:8,next:13445,nextCheck:38905,str:35612,h:2,d0:13442,d1:38902;
+            (____, BuiltinInvocation<Void> @:13441 check:38901,op:4,dt:4,nt:8,next:13445,nextCheck:38905,str:35612,h:2,d0:13442,d1:38902;
                 ("set", Expression<MethodOrOperator> @:13442 check:38902,op:4,dt:2,nt:9,next:13443,nextCheck:38903,str:1888,h:0,d0:0,d1:0;
                     ("g_e11_door_open", VariableAccess<Boolean> @:13443 check:38903,op:65535,dt:5,nt:13,next:13444,nextCheck:38904,str:29810,h:0,d0:33,d1:0;
                         (True, Expression<Boolean> @:13444 check:38904,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:35633,h:2,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:13445 check:38905,op:19,dt:4,nt:8,next:13448,nextCheck:38908,str:35641,h:2,d0:13446,d1:38906;
+            (____, BuiltinInvocation<Void> @:13445 check:38905,op:19,dt:4,nt:8,next:13448,nextCheck:38908,str:35641,h:2,d0:13446,d1:38906;
                 ("sleep", Expression<MethodOrOperator> @:13446 check:38906,op:19,dt:2,nt:9,next:13447,nextCheck:38907,str:85,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:13447 check:38907,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:35648,h:2,d0:30,d1:65535;)))
-            (____, Scope<Void> @:13448 check:38908,op:22,dt:4,nt:8,next:13451,nextCheck:38911,str:35679,h:2,d0:13449,d1:38909;
+            (____, BuiltinInvocation<Void> @:13448 check:38908,op:22,dt:4,nt:8,next:13451,nextCheck:38911,str:35679,h:2,d0:13449,d1:38909;
                 ("wake", Expression<MethodOrOperator> @:13449 check:38909,op:22,dt:2,nt:9,next:13450,nextCheck:38910,str:5851,h:0,d0:0,d1:0;
                     ("e11_navpoint", Expression<ScriptReference> @:13450 check:38910,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:30189,h:0,d0:382,d1:65535;)))
-            (____, Scope<Void> @:13451 check:38911,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:35701,h:2,d0:13452,d1:38912;
+            (____, BuiltinInvocation<Void> @:13451 check:38911,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:35701,h:2,d0:13452,d1:38912;
                 ("wake", Expression<MethodOrOperator> @:13452 check:38912,op:22,dt:2,nt:9,next:13453,nextCheck:38913,str:5851,h:0,d0:0,d1:0;
                     ("e11_navpoint_kill", Expression<ScriptReference> @:13453 check:38913,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:30353,h:0,d0:383,d1:65535;))))))

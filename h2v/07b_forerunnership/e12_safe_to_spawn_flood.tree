@@ -1,12 +1,12 @@
 
 ("e12_safe_to_spawn_flood", MethodDecl<Void> @:169 check:0,op:0,dt:0,nt:65535,next:5219,nextCheck:63446,str:14417,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:5219 check:63446,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:2148,h:1,d0:5220,d1:63447;
+    (____, BuiltinInvocation<Void> @:5219 check:63446,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:2148,h:1,d0:5220,d1:63447;
         ("begin", Expression<MethodOrOperator> @:5220 check:63447,op:0,dt:2,nt:9,next:5210,nextCheck:63437,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:5210 check:63437,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:2248,h:1,d0:5211,d1:63438;
+            (____, BuiltinInvocation<Void> @:5210 check:63437,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:2248,h:1,d0:5211,d1:63438;
                 ("sleep_until", Expression<MethodOrOperator> @:5211 check:63438,op:21,dt:2,nt:9,next:5212,nextCheck:63439,str:231,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:5212 check:63439,op:18,dt:5,nt:8,next:5218,nextCheck:63445,str:2261,h:1,d0:5213,d1:63440;
+                    (____, BuiltinInvocation<Boolean> @:5212 check:63439,op:18,dt:5,nt:8,next:5218,nextCheck:63445,str:2261,h:1,d0:5213,d1:63440;
                         ("<=", Expression<MethodOrOperator> @:5213 check:63440,op:18,dt:2,nt:9,next:5214,nextCheck:63441,str:14330,h:0,d0:0,d1:0;
-                            (____, Scope<Short> @:5214 check:63441,op:331,dt:7,nt:8,next:5217,nextCheck:63444,str:2265,h:1,d0:5215,d1:63442;
+                            (____, BuiltinInvocation<Short> @:5214 check:63441,op:331,dt:7,nt:8,next:5217,nextCheck:63444,str:2265,h:1,d0:5215,d1:63442;
                                 ("ai_nonswarm_count", Expression<MethodOrOperator> @:5215 check:63442,op:331,dt:2,nt:9,next:5216,nextCheck:63443,str:14333,h:0,d0:0,d1:0;
                                     ("e12_flood_rush", Expression<AI> @:5216 check:63443,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:14351,h:0,d0:26,d1:16384;)))
                             (4, Expression<Short> @:5217 check:63444,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2300,h:1,d0:4,d1:65535;)))

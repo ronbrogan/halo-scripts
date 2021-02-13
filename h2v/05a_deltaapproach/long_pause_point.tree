@@ -1,24 +1,24 @@
 
 ("long_pause_point", MethodDecl<Void> @:340 check:0,op:0,dt:0,nt:65535,next:22886,nextCheck:48346,str:35285,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:22886 check:48346,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:58447,h:3,d0:22887,d1:48347;
+    (____, BuiltinInvocation<Void> @:22886 check:48346,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:58447,h:3,d0:22887,d1:48347;
         ("begin", Expression<MethodOrOperator> @:22887 check:48347,op:0,dt:2,nt:9,next:22866,nextCheck:48326,str:54,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:22866 check:48326,op:21,dt:4,nt:8,next:22874,nextCheck:48334,str:58489,h:3,d0:22867,d1:48327;
+            (____, BuiltinInvocation<Void> @:22866 check:48326,op:21,dt:4,nt:8,next:22874,nextCheck:48334,str:58489,h:3,d0:22867,d1:48327;
                 ("sleep_until", Expression<MethodOrOperator> @:22867 check:48327,op:21,dt:2,nt:9,next:22868,nextCheck:48328,str:284,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:22868 check:48328,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:58502,h:3,d0:22869,d1:48329;
+                    (____, BuiltinInvocation<Boolean> @:22868 check:48328,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:58502,h:3,d0:22869,d1:48329;
                         (">", Expression<MethodOrOperator> @:22869 check:48329,op:15,dt:2,nt:9,next:22870,nextCheck:48330,str:14283,h:0,d0:0,d1:0;
-                            (____, Scope<Short> @:22870 check:48330,op:353,dt:7,nt:8,next:22873,nextCheck:48333,str:58505,h:3,d0:22871,d1:48331;
+                            (____, BuiltinInvocation<Short> @:22870 check:48330,op:353,dt:7,nt:8,next:22873,nextCheck:48333,str:58505,h:3,d0:22871,d1:48331;
                                 ("ai_combat_status", Expression<MethodOrOperator> @:22871 check:48331,op:353,dt:2,nt:9,next:22872,nextCheck:48332,str:20549,h:0,d0:0,d1:0;
                                     ("ai_current_actor", VariableAccess<AI> @:22872 check:48332,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:20566,h:0,d0:33564,d1:65535;)))
                             ("ai_combat_status_idle", VariableAccess<Short> @:22873 check:48333,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:20583,h:0,d0:33572,d1:65535;)))))
-            (____, Scope<Void> @:22874 check:48334,op:397,dt:4,nt:8,next:22877,nextCheck:48337,str:58567,h:3,d0:22875,d1:48335;
+            (____, BuiltinInvocation<Void> @:22874 check:48334,op:397,dt:4,nt:8,next:22877,nextCheck:48337,str:58567,h:3,d0:22875,d1:48335;
                 ("cs_aim_player", Expression<MethodOrOperator> @:22875 check:48335,op:397,dt:2,nt:9,next:22876,nextCheck:48336,str:35180,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:22876 check:48336,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:58582,h:3,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:22877 check:48337,op:416,dt:4,nt:8,next:22883,nextCheck:48343,str:58590,h:3,d0:22878,d1:48338;
+            (____, BuiltinInvocation<Void> @:22877 check:48337,op:416,dt:4,nt:8,next:22883,nextCheck:48343,str:58590,h:3,d0:22878,d1:48338;
                 ("cs_custom_animation", Expression<MethodOrOperator> @:22878 check:48338,op:416,dt:2,nt:9,next:22879,nextCheck:48339,str:35194,h:0,d0:0,d1:0;
                     ("objects\characters\elite\elite", Expression<Animation> @:22879 check:48339,op:36,dt:36,nt:9,next:22880,nextCheck:48340,str:27824,h:0,d0:6096,d1:64002;
                         ("combat:rifle:warn", Expression<StringId> @:22880 check:48340,op:11,dt:11,nt:9,next:22881,nextCheck:48341,str:35214,h:0,d0:8125,d1:4352;
                             (1f, Expression<Float> @:22881 check:48341,op:6,dt:6,nt:9,next:22882,nextCheck:48342,str:58662,h:3,d0:0,d1:16256;
                                 (True, Expression<Boolean> @:22882 check:48342,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:58664,h:3,d0:65281,d1:65535;))))))
-            (____, Scope<Void> @:22883 check:48343,op:397,dt:4,nt:8,next:65535,nextCheck:65535,str:58672,h:3,d0:22884,d1:48344;
+            (____, BuiltinInvocation<Void> @:22883 check:48343,op:397,dt:4,nt:8,next:65535,nextCheck:65535,str:58672,h:3,d0:22884,d1:48344;
                 ("cs_aim_player", Expression<MethodOrOperator> @:22884 check:48344,op:397,dt:2,nt:9,next:22885,nextCheck:48345,str:35180,h:0,d0:0,d1:0;
                     (False, Expression<Boolean> @:22885 check:48345,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:58687,h:3,d0:65280,d1:65535;))))))

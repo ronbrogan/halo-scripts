@@ -1,32 +1,32 @@
 
 ("playtest_mission", MethodDecl<Void> @:23 check:0,op:0,dt:0,nt:65535,next:701,nextCheck:58928,str:35461,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:701 check:58928,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:8218,h:0,d0:702,d1:58929;
+    (____, BuiltinInvocation<Void> @:701 check:58928,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:8218,h:0,d0:702,d1:58929;
         ("begin", Expression<MethodOrOperator> @:702 check:58929,op:0,dt:2,nt:9,next:673,nextCheck:58900,str:54,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:673 check:58900,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:8257,h:0,d0:674,d1:58901;
+            (____, BuiltinInvocation<Void> @:673 check:58900,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:8257,h:0,d0:674,d1:58901;
                 ("if", Expression<MethodOrOperator> @:674 check:58901,op:2,dt:2,nt:9,next:675,nextCheck:58902,str:509,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:675 check:58902,op:569,dt:5,nt:8,next:677,nextCheck:58904,str:8264,h:0,d0:676,d1:58903;
+                    (____, BuiltinInvocation<Boolean> @:675 check:58902,op:569,dt:5,nt:8,next:677,nextCheck:58904,str:8264,h:0,d0:676,d1:58903;
                         ("game_is_playtest", Expression<MethodOrOperator> @:676 check:58903,op:569,dt:2,nt:9,next:65535,nextCheck:65535,str:1038,h:0,d0:0,d1:0;))
-                    (____, Scope<Void> @:677 check:58904,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:8286,h:0,d0:678,d1:58905;
+                    (____, BuiltinInvocation<Void> @:677 check:58904,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:8286,h:0,d0:678,d1:58905;
                         ("begin", Expression<MethodOrOperator> @:678 check:58905,op:0,dt:2,nt:9,next:679,nextCheck:58906,str:54,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:679 check:58906,op:19,dt:4,nt:8,next:682,nextCheck:58909,str:8297,h:0,d0:680,d1:58907;
+                            (____, BuiltinInvocation<Void> @:679 check:58906,op:19,dt:4,nt:8,next:682,nextCheck:58909,str:8297,h:0,d0:680,d1:58907;
                                 ("sleep", Expression<MethodOrOperator> @:680 check:58907,op:19,dt:2,nt:9,next:681,nextCheck:58908,str:133,h:0,d0:0,d1:0;
                                     (30, Expression<Short> @:681 check:58908,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:8304,h:0,d0:30,d1:65535;)))
-                            (____, Scope<Void> @:682 check:58909,op:632,dt:4,nt:8,next:685,nextCheck:58912,str:8312,h:0,d0:683,d1:58910;
+                            (____, BuiltinInvocation<Void> @:682 check:58909,op:632,dt:4,nt:8,next:685,nextCheck:58912,str:8312,h:0,d0:683,d1:58910;
                                 ("hud_set_training_text", Expression<MethodOrOperator> @:683 check:58910,op:632,dt:2,nt:9,next:684,nextCheck:58911,str:1055,h:0,d0:0,d1:0;
                                     ("playtest_raisehand", Expression<StringId> @:684 check:58911,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:1077,h:0,d0:11515,d1:4608;)))
-                            (____, Scope<Void> @:685 check:58912,op:631,dt:4,nt:8,next:688,nextCheck:58915,str:8359,h:0,d0:686,d1:58913;
+                            (____, BuiltinInvocation<Void> @:685 check:58912,op:631,dt:4,nt:8,next:688,nextCheck:58915,str:8359,h:0,d0:686,d1:58913;
                                 ("hud_show_training_text", Expression<MethodOrOperator> @:686 check:58913,op:631,dt:2,nt:9,next:687,nextCheck:58914,str:1096,h:0,d0:0,d1:0;
                                     (True, Expression<Boolean> @:687 check:58914,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:8383,h:0,d0:65281,d1:65535;)))
-                            (____, Scope<Void> @:688 check:58915,op:478,dt:4,nt:8,next:690,nextCheck:58917,str:8390,h:0,d0:689,d1:58916;
+                            (____, BuiltinInvocation<Void> @:688 check:58915,op:478,dt:4,nt:8,next:690,nextCheck:58917,str:8390,h:0,d0:689,d1:58916;
                                 ("player_action_test_reset", Expression<MethodOrOperator> @:689 check:58916,op:478,dt:2,nt:9,next:65535,nextCheck:65535,str:228,h:0,d0:0,d1:0;))
-                            (____, Scope<Void> @:690 check:58917,op:21,dt:4,nt:8,next:695,nextCheck:58922,str:8421,h:0,d0:691,d1:58918;
+                            (____, BuiltinInvocation<Void> @:690 check:58917,op:21,dt:4,nt:8,next:695,nextCheck:58922,str:8421,h:0,d0:691,d1:58918;
                                 ("sleep_until", Expression<MethodOrOperator> @:691 check:58918,op:21,dt:2,nt:9,next:692,nextCheck:58919,str:284,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:692 check:58919,op:488,dt:5,nt:8,next:694,nextCheck:58921,str:8434,h:0,d0:693,d1:58920;
+                                    (____, BuiltinInvocation<Boolean> @:692 check:58919,op:488,dt:5,nt:8,next:694,nextCheck:58921,str:8434,h:0,d0:693,d1:58920;
                                         ("player_action_test_accept", Expression<MethodOrOperator> @:693 check:58920,op:488,dt:2,nt:9,next:65535,nextCheck:65535,str:296,h:0,d0:0,d1:0;))
                                     (1, Expression<Short> @:694 check:58921,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:8462,h:0,d0:1,d1:65535;)))
-                            (____, Scope<Void> @:695 check:58922,op:631,dt:4,nt:8,next:698,nextCheck:58925,str:8469,h:0,d0:696,d1:58923;
+                            (____, BuiltinInvocation<Void> @:695 check:58922,op:631,dt:4,nt:8,next:698,nextCheck:58925,str:8469,h:0,d0:696,d1:58923;
                                 ("hud_show_training_text", Expression<MethodOrOperator> @:696 check:58923,op:631,dt:2,nt:9,next:697,nextCheck:58924,str:1096,h:0,d0:0,d1:0;
                                     (False, Expression<Boolean> @:697 check:58924,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:8493,h:0,d0:65280,d1:65535;)))
-                            (____, Scope<Void> @:698 check:58925,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:8500,h:0,d0:699,d1:58926;
+                            (____, BuiltinInvocation<Void> @:698 check:58925,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:8500,h:0,d0:699,d1:58926;
                                 ("sleep", Expression<MethodOrOperator> @:699 check:58926,op:19,dt:2,nt:9,next:700,nextCheck:58927,str:133,h:0,d0:0,d1:0;
                                     (30, Expression<Short> @:700 check:58927,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:8507,h:0,d0:30,d1:65535;))))))))))

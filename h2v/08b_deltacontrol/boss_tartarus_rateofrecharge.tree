@@ -1,51 +1,51 @@
 
 ("boss_tartarus_rateofrecharge", MethodDecl<Short> @:38 check:0,op:0,dt:0,nt:65535,next:1776,nextCheck:60003,str:6631,h:0,d0:0,d1:0;
-    (____, Scope<Short> @:1776 check:60003,op:0,dt:7,nt:8,next:65535,nextCheck:65535,str:20763,h:0,d0:1777,d1:60004;
+    (____, BuiltinInvocation<Short> @:1776 check:60003,op:0,dt:7,nt:8,next:65535,nextCheck:65535,str:20763,h:0,d0:1777,d1:60004;
         ("begin", Expression<MethodOrOperator> @:1777 check:60004,op:0,dt:2,nt:9,next:1736,nextCheck:59963,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Short> @:1736 check:59963,op:2,dt:7,nt:8,next:65535,nextCheck:65535,str:20815,h:0,d0:1738,d1:59965;
+            (____, BuiltinInvocation<Short> @:1736 check:59963,op:2,dt:7,nt:8,next:65535,nextCheck:65535,str:20815,h:0,d0:1738,d1:59965;
                 ("if", Expression<MethodOrOperator> @:1738 check:59965,op:2,dt:2,nt:9,next:1739,nextCheck:59966,str:461,h:0,d0:0,d1:0;
                     ("difficulty_legendary", ScriptInvocation<Boolean> @:1739 check:59966,op:4,dt:5,nt:10,next:1779,nextCheck:60006,str:20825,h:0,d0:1740,d1:59967;
                         ("difficulty_legendary", Expression<MethodOrOperator> @:1740 check:59967,op:4,dt:2,nt:9,next:65535,nextCheck:65535,str:4889,h:0,d0:0,d1:0;))
-                    (____, Scope<Short> @:1779 check:60006,op:0,dt:7,nt:8,next:1781,nextCheck:60008,str:20815,h:0,d0:1780,d1:60007;
+                    (____, BuiltinInvocation<Short> @:1779 check:60006,op:0,dt:7,nt:8,next:1781,nextCheck:60008,str:20815,h:0,d0:1780,d1:60007;
                         ("begin", Expression<MethodOrOperator> @:1780 check:60007,op:0,dt:2,nt:9,next:1741,nextCheck:59968,str:6,h:0,d0:0,d1:0;
-                            (____, Scope<Short> @:1741 check:59968,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:20848,h:0,d0:1742,d1:59969;
+                            (____, BuiltinInvocation<Short> @:1741 check:59968,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:20848,h:0,d0:1742,d1:59969;
                                 ("random_range", Expression<MethodOrOperator> @:1742 check:59969,op:124,dt:2,nt:9,next:1743,nextCheck:59970,str:4910,h:0,d0:0,d1:0;
-                                    (____, Scope<Short> @:1743 check:59970,op:9,dt:7,nt:8,next:1747,nextCheck:59974,str:20862,h:0,d0:1744,d1:59971;
+                                    (____, BuiltinInvocation<Short> @:1743 check:59970,op:9,dt:7,nt:8,next:1747,nextCheck:59974,str:20862,h:0,d0:1744,d1:59971;
                                         ("*", Expression<MethodOrOperator> @:1744 check:59971,op:9,dt:2,nt:9,next:1745,nextCheck:59972,str:986,h:0,d0:0,d1:0;
                                             (1f, Expression<Float> @:1745 check:59972,op:6,dt:6,nt:9,next:1746,nextCheck:59973,str:20865,h:0,d0:0,d1:16256;
                                                 ("script_seconds", VariableAccess<Float> @:1746 check:59973,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:4923,h:0,d0:3,d1:0;))))
-                                    (____, Scope<Short> @:1747 check:59974,op:9,dt:7,nt:8,next:65535,nextCheck:65535,str:20883,h:0,d0:1748,d1:59975;
+                                    (____, BuiltinInvocation<Short> @:1747 check:59974,op:9,dt:7,nt:8,next:65535,nextCheck:65535,str:20883,h:0,d0:1748,d1:59975;
                                         ("*", Expression<MethodOrOperator> @:1748 check:59975,op:9,dt:2,nt:9,next:1749,nextCheck:59976,str:986,h:0,d0:0,d1:0;
                                             (2f, Expression<Float> @:1749 check:59976,op:6,dt:6,nt:9,next:1750,nextCheck:59977,str:20886,h:0,d0:0,d1:16384;
                                                 ("script_seconds", VariableAccess<Float> @:1750 check:59977,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:4923,h:0,d0:3,d1:0;))))))))
-                    (____, Scope<Short> @:1781 check:60008,op:2,dt:7,nt:8,next:65535,nextCheck:65535,str:20815,h:0,d0:1751,d1:59978;
+                    (____, BuiltinInvocation<Short> @:1781 check:60008,op:2,dt:7,nt:8,next:65535,nextCheck:65535,str:20815,h:0,d0:1751,d1:59978;
                         ("if", Expression<MethodOrOperator> @:1751 check:59978,op:2,dt:2,nt:9,next:1752,nextCheck:59979,str:461,h:0,d0:0,d1:0;
                             ("difficulty_heroic", ScriptInvocation<Boolean> @:1752 check:59979,op:5,dt:5,nt:10,next:1782,nextCheck:60009,str:20910,h:0,d0:1753,d1:59980;
                                 ("difficulty_heroic", Expression<MethodOrOperator> @:1753 check:59980,op:5,dt:2,nt:9,next:65535,nextCheck:65535,str:4938,h:0,d0:0,d1:0;))
-                            (____, Scope<Short> @:1782 check:60009,op:0,dt:7,nt:8,next:1784,nextCheck:60011,str:20815,h:0,d0:1783,d1:60010;
+                            (____, BuiltinInvocation<Short> @:1782 check:60009,op:0,dt:7,nt:8,next:1784,nextCheck:60011,str:20815,h:0,d0:1783,d1:60010;
                                 ("begin", Expression<MethodOrOperator> @:1783 check:60010,op:0,dt:2,nt:9,next:1754,nextCheck:59981,str:6,h:0,d0:0,d1:0;
-                                    (____, Scope<Short> @:1754 check:59981,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:20930,h:0,d0:1755,d1:59982;
+                                    (____, BuiltinInvocation<Short> @:1754 check:59981,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:20930,h:0,d0:1755,d1:59982;
                                         ("random_range", Expression<MethodOrOperator> @:1755 check:59982,op:124,dt:2,nt:9,next:1756,nextCheck:59983,str:4910,h:0,d0:0,d1:0;
-                                            (____, Scope<Short> @:1756 check:59983,op:9,dt:7,nt:8,next:1760,nextCheck:59987,str:20944,h:0,d0:1757,d1:59984;
+                                            (____, BuiltinInvocation<Short> @:1756 check:59983,op:9,dt:7,nt:8,next:1760,nextCheck:59987,str:20944,h:0,d0:1757,d1:59984;
                                                 ("*", Expression<MethodOrOperator> @:1757 check:59984,op:9,dt:2,nt:9,next:1758,nextCheck:59985,str:986,h:0,d0:0,d1:0;
                                                     (1f, Expression<Float> @:1758 check:59985,op:6,dt:6,nt:9,next:1759,nextCheck:59986,str:20947,h:0,d0:0,d1:16256;
                                                         ("script_seconds", VariableAccess<Float> @:1759 check:59986,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:4923,h:0,d0:3,d1:0;))))
-                                            (____, Scope<Short> @:1760 check:59987,op:9,dt:7,nt:8,next:65535,nextCheck:65535,str:20965,h:0,d0:1761,d1:59988;
+                                            (____, BuiltinInvocation<Short> @:1760 check:59987,op:9,dt:7,nt:8,next:65535,nextCheck:65535,str:20965,h:0,d0:1761,d1:59988;
                                                 ("*", Expression<MethodOrOperator> @:1761 check:59988,op:9,dt:2,nt:9,next:1762,nextCheck:59989,str:986,h:0,d0:0,d1:0;
                                                     (3f, Expression<Float> @:1762 check:59989,op:6,dt:6,nt:9,next:1763,nextCheck:59990,str:20968,h:0,d0:0,d1:16448;
                                                         ("script_seconds", VariableAccess<Float> @:1763 check:59990,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:4923,h:0,d0:3,d1:0;))))))))
-                            (____, Scope<Short> @:1784 check:60011,op:2,dt:7,nt:8,next:65535,nextCheck:65535,str:20815,h:0,d0:1764,d1:59991;
+                            (____, BuiltinInvocation<Short> @:1784 check:60011,op:2,dt:7,nt:8,next:65535,nextCheck:65535,str:20815,h:0,d0:1764,d1:59991;
                                 ("if", Expression<MethodOrOperator> @:1764 check:59991,op:2,dt:2,nt:9,next:1765,nextCheck:59992,str:461,h:0,d0:0,d1:0;
                                     (True, Expression<Boolean> @:1765 check:59992,op:5,dt:5,nt:9,next:1785,nextCheck:60012,str:20992,h:0,d0:65281,d1:65535;
-                                        (____, Scope<Short> @:1785 check:60012,op:0,dt:7,nt:8,next:1787,nextCheck:60014,str:20815,h:0,d0:1786,d1:60013;
+                                        (____, BuiltinInvocation<Short> @:1785 check:60012,op:0,dt:7,nt:8,next:1787,nextCheck:60014,str:20815,h:0,d0:1786,d1:60013;
                                             ("begin", Expression<MethodOrOperator> @:1786 check:60013,op:0,dt:2,nt:9,next:1766,nextCheck:59993,str:6,h:0,d0:0,d1:0;
-                                                (____, Scope<Short> @:1766 check:59993,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:21000,h:0,d0:1767,d1:59994;
+                                                (____, BuiltinInvocation<Short> @:1766 check:59993,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:21000,h:0,d0:1767,d1:59994;
                                                     ("random_range", Expression<MethodOrOperator> @:1767 check:59994,op:124,dt:2,nt:9,next:1768,nextCheck:59995,str:4910,h:0,d0:0,d1:0;
-                                                        (____, Scope<Short> @:1768 check:59995,op:9,dt:7,nt:8,next:1772,nextCheck:59999,str:21014,h:0,d0:1769,d1:59996;
+                                                        (____, BuiltinInvocation<Short> @:1768 check:59995,op:9,dt:7,nt:8,next:1772,nextCheck:59999,str:21014,h:0,d0:1769,d1:59996;
                                                             ("*", Expression<MethodOrOperator> @:1769 check:59996,op:9,dt:2,nt:9,next:1770,nextCheck:59997,str:986,h:0,d0:0,d1:0;
                                                                 (2f, Expression<Float> @:1770 check:59997,op:6,dt:6,nt:9,next:1771,nextCheck:59998,str:21017,h:0,d0:0,d1:16384;
                                                                     ("script_seconds", VariableAccess<Float> @:1771 check:59998,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:4923,h:0,d0:3,d1:0;))))
-                                                        (____, Scope<Short> @:1772 check:59999,op:9,dt:7,nt:8,next:65535,nextCheck:65535,str:21035,h:0,d0:1773,d1:60000;
+                                                        (____, BuiltinInvocation<Short> @:1772 check:59999,op:9,dt:7,nt:8,next:65535,nextCheck:65535,str:21035,h:0,d0:1773,d1:60000;
                                                             ("*", Expression<MethodOrOperator> @:1773 check:60000,op:9,dt:2,nt:9,next:1774,nextCheck:60001,str:986,h:0,d0:0,d1:0;
                                                                 (3f, Expression<Float> @:1774 check:60001,op:6,dt:6,nt:9,next:1775,nextCheck:60002,str:21038,h:0,d0:0,d1:16448;
                                                                     ("script_seconds", VariableAccess<Float> @:1775 check:60002,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:4923,h:0,d0:3,d1:0;))))))))

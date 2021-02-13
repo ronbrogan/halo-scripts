@@ -1,19 +1,19 @@
 
 ("cs_ins_runaway", MethodDecl<Void> @:211 check:0,op:0,dt:0,nt:65535,next:8088,nextCheck:33548,str:65535,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:8088 check:33548,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:24628,h:1,d0:8089,d1:33549;
+    (____, BuiltinInvocation<Void> @:8088 check:33548,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:24628,h:1,d0:8089,d1:33549;
         ("begin", Expression<MethodOrOperator> @:8089 check:33549,op:0,dt:2,nt:9,next:8073,nextCheck:33533,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:8073 check:33533,op:449,dt:4,nt:8,next:8076,nextCheck:33536,str:24668,h:1,d0:8074,d1:33534;
+            (____, BuiltinInvocation<Void> @:8073 check:33533,op:449,dt:4,nt:8,next:8076,nextCheck:33536,str:24668,h:1,d0:8074,d1:33534;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:8074 check:33534,op:449,dt:2,nt:9,next:8075,nextCheck:33535,str:1239,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:8075 check:33535,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:24700,h:1,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:8076 check:33536,op:379,dt:4,nt:8,next:8079,nextCheck:33539,str:24708,h:1,d0:8077,d1:33537;
+            (____, BuiltinInvocation<Void> @:8076 check:33536,op:379,dt:4,nt:8,next:8079,nextCheck:33539,str:24708,h:1,d0:8077,d1:33537;
                 ("cs_fly_to", Expression<MethodOrOperator> @:8077 check:33537,op:379,dt:2,nt:9,next:8078,nextCheck:33538,str:17849,h:0,d0:0,d1:0;
                     ("insertion/p0", Expression<SpatialPoint> @:8078 check:33538,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:17859,h:0,d0:4,d1:0;)))
-            (____, Scope<Void> @:8079 check:33539,op:379,dt:4,nt:8,next:8082,nextCheck:33542,str:24735,h:1,d0:8080,d1:33540;
+            (____, BuiltinInvocation<Void> @:8079 check:33539,op:379,dt:4,nt:8,next:8082,nextCheck:33542,str:24735,h:1,d0:8080,d1:33540;
                 ("cs_fly_to", Expression<MethodOrOperator> @:8080 check:33540,op:379,dt:2,nt:9,next:8081,nextCheck:33541,str:17849,h:0,d0:0,d1:0;
                     ("insertion/p1", Expression<SpatialPoint> @:8081 check:33541,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:17872,h:0,d0:5,d1:0;)))
-            (____, Scope<Void> @:8082 check:33542,op:379,dt:4,nt:8,next:8085,nextCheck:33545,str:24762,h:1,d0:8083,d1:33543;
+            (____, BuiltinInvocation<Void> @:8082 check:33542,op:379,dt:4,nt:8,next:8085,nextCheck:33545,str:24762,h:1,d0:8083,d1:33543;
                 ("cs_fly_to", Expression<MethodOrOperator> @:8083 check:33543,op:379,dt:2,nt:9,next:8084,nextCheck:33544,str:17849,h:0,d0:0,d1:0;
                     ("insertion/p2", Expression<SpatialPoint> @:8084 check:33544,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:17885,h:0,d0:6,d1:0;)))
-            (____, Scope<Void> @:8085 check:33545,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:24789,h:1,d0:8086,d1:33546;
+            (____, BuiltinInvocation<Void> @:8085 check:33545,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:24789,h:1,d0:8086,d1:33546;
                 ("ai_erase", Expression<MethodOrOperator> @:8086 check:33546,op:298,dt:2,nt:9,next:8087,nextCheck:33547,str:1570,h:0,d0:0,d1:0;
                     ("ai_current_actor", VariableAccess<AI> @:8087 check:33547,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:3425,h:0,d0:33564,d1:65535;))))))

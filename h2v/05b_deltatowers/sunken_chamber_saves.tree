@@ -1,32 +1,32 @@
 
 ("sunken_chamber_saves", MethodDecl<Void> @:221 check:0,op:0,dt:0,nt:65535,next:11874,nextCheck:37334,str:22111,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:11874 check:37334,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:62384,h:1,d0:11875,d1:37335;
+    (____, BuiltinInvocation<Void> @:11874 check:37334,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:62384,h:1,d0:11875,d1:37335;
         ("begin", Expression<MethodOrOperator> @:11875 check:37335,op:0,dt:2,nt:9,next:11846,nextCheck:37306,str:142,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:11846 check:37306,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:62423,h:1,d0:11847,d1:37307;
+            (____, BuiltinInvocation<Void> @:11846 check:37306,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:62423,h:1,d0:11847,d1:37307;
                 ("sleep_until", Expression<MethodOrOperator> @:11847 check:37307,op:21,dt:2,nt:9,next:11848,nextCheck:37308,str:372,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:11848 check:37308,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:62439,h:1,d0:11849,d1:37309;
+                    (____, BuiltinInvocation<Boolean> @:11848 check:37308,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:62439,h:1,d0:11849,d1:37309;
                         ("begin", Expression<MethodOrOperator> @:11849 check:37309,op:0,dt:2,nt:9,next:11850,nextCheck:37310,str:142,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:11850 check:37310,op:21,dt:4,nt:8,next:11860,nextCheck:37320,str:62450,h:1,d0:11851,d1:37311;
+                            (____, BuiltinInvocation<Void> @:11850 check:37310,op:21,dt:4,nt:8,next:11860,nextCheck:37320,str:62450,h:1,d0:11851,d1:37311;
                                 ("sleep_until", Expression<MethodOrOperator> @:11851 check:37311,op:21,dt:2,nt:9,next:11852,nextCheck:37312,str:372,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:11852 check:37312,op:5,dt:5,nt:8,next:65535,nextCheck:65535,str:62468,h:1,d0:11853,d1:37313;
+                                    (____, BuiltinInvocation<Boolean> @:11852 check:37312,op:5,dt:5,nt:8,next:65535,nextCheck:65535,str:62468,h:1,d0:11853,d1:37313;
                                         ("and", Expression<MethodOrOperator> @:11853 check:37313,op:5,dt:2,nt:9,next:11854,nextCheck:37314,str:808,h:0,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:11854 check:37314,op:584,dt:5,nt:8,next:11856,nextCheck:37316,str:62647,h:1,d0:11855,d1:37315;
+                                            (____, BuiltinInvocation<Boolean> @:11854 check:37314,op:584,dt:5,nt:8,next:11856,nextCheck:37316,str:62647,h:1,d0:11855,d1:37315;
                                                 ("game_safe_to_save", Expression<MethodOrOperator> @:11855 check:37315,op:584,dt:2,nt:9,next:65535,nextCheck:65535,str:21798,h:0,d0:0,d1:0;))
-                                            (____, Scope<Boolean> @:11856 check:37316,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:62673,h:1,d0:11857,d1:37317;
+                                            (____, BuiltinInvocation<Boolean> @:11856 check:37316,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:62673,h:1,d0:11857,d1:37317;
                                                 ("=", Expression<MethodOrOperator> @:11857 check:37317,op:13,dt:2,nt:9,next:11858,nextCheck:37318,str:437,h:0,d0:0,d1:0;
                                                     ("sunken_save_again", VariableAccess<Boolean> @:11858 check:37318,op:0,dt:5,nt:13,next:11859,nextCheck:37319,str:21816,h:0,d0:19,d1:0;
                                                         (True, Expression<Boolean> @:11859 check:37319,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:62694,h:1,d0:65281,d1:65535;))))))))
-                            (____, Scope<Void> @:11860 check:37320,op:590,dt:4,nt:8,next:11862,nextCheck:37322,str:62717,h:1,d0:11861,d1:37321;
+                            (____, BuiltinInvocation<Void> @:11860 check:37320,op:590,dt:4,nt:8,next:11862,nextCheck:37322,str:62717,h:1,d0:11861,d1:37321;
                                 ("game_save_immediate", Expression<MethodOrOperator> @:11861 check:37321,op:590,dt:2,nt:9,next:65535,nextCheck:65535,str:10662,h:0,d0:0,d1:0;))
-                            (____, Scope<Void> @:11862 check:37322,op:4,dt:4,nt:8,next:11866,nextCheck:37326,str:62743,h:1,d0:11863,d1:37323;
+                            (____, BuiltinInvocation<Void> @:11862 check:37322,op:4,dt:4,nt:8,next:11866,nextCheck:37326,str:62743,h:1,d0:11863,d1:37323;
                                 ("set", Expression<MethodOrOperator> @:11863 check:37323,op:4,dt:2,nt:9,next:11864,nextCheck:37324,str:2930,h:0,d0:0,d1:0;
                                     ("sunken_save_again", VariableAccess<Boolean> @:11864 check:37324,op:65535,dt:5,nt:13,next:11865,nextCheck:37325,str:21816,h:0,d0:19,d1:0;
                                         (False, Expression<Boolean> @:11865 check:37325,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:62766,h:1,d0:65280,d1:65535;))))
-                            (____, Scope<Boolean> @:11866 check:37326,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:62777,h:1,d0:11867,d1:37327;
+                            (____, BuiltinInvocation<Boolean> @:11866 check:37326,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:62777,h:1,d0:11867,d1:37327;
                                 ("=", Expression<MethodOrOperator> @:11867 check:37327,op:13,dt:2,nt:9,next:11868,nextCheck:37328,str:437,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:11868 check:37328,op:33,dt:5,nt:8,next:11873,nextCheck:37333,str:62780,h:1,d0:11869,d1:37329;
+                                    (____, BuiltinInvocation<Boolean> @:11868 check:37328,op:33,dt:5,nt:8,next:11873,nextCheck:37333,str:62780,h:1,d0:11869,d1:37329;
                                         ("volume_test_objects", Expression<MethodOrOperator> @:11869 check:37329,op:33,dt:2,nt:9,next:11870,nextCheck:37330,str:10296,h:0,d0:0,d1:0;
                                             ("vol_leaving_sunken_chamber", Expression<Trigger> @:11870 check:37330,op:13,dt:13,nt:9,next:11871,nextCheck:37331,str:20650,h:0,d0:57,d1:0;
-                                                (____, Scope<List> @:11871 check:37331,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:62828,h:1,d0:11872,d1:37332;
+                                                (____, BuiltinInvocation<List> @:11871 check:37331,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:62828,h:1,d0:11872,d1:37332;
                                                     ("players", Expression<MethodOrOperator> @:11872 check:37332,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:162,h:0,d0:0,d1:0;)))))
                                     (True, Expression<Boolean> @:11873 check:37333,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:62839,h:1,d0:65281,d1:65535;))))))))))

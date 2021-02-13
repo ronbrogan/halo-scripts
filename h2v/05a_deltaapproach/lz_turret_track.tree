@@ -1,34 +1,34 @@
 
 ("lz_turret_track", MethodDecl<Void> @:211 check:0,op:0,dt:0,nt:65535,next:7940,nextCheck:33400,str:18072,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:7940 check:33400,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:30409,h:1,d0:7941,d1:33401;
+    (____, BuiltinInvocation<Void> @:7940 check:33400,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:30409,h:1,d0:7941,d1:33401;
         ("begin", Expression<MethodOrOperator> @:7941 check:33401,op:0,dt:2,nt:9,next:7908,nextCheck:33368,str:54,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:7908 check:33368,op:21,dt:4,nt:8,next:7916,nextCheck:33376,str:30443,h:1,d0:7909,d1:33369;
+            (____, BuiltinInvocation<Void> @:7908 check:33368,op:21,dt:4,nt:8,next:7916,nextCheck:33376,str:30443,h:1,d0:7909,d1:33369;
                 ("sleep_until", Expression<MethodOrOperator> @:7909 check:33369,op:21,dt:2,nt:9,next:7910,nextCheck:33370,str:284,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:7910 check:33370,op:16,dt:5,nt:8,next:65535,nextCheck:65535,str:30456,h:1,d0:7911,d1:33371;
+                    (____, BuiltinInvocation<Boolean> @:7910 check:33370,op:16,dt:5,nt:8,next:65535,nextCheck:65535,str:30456,h:1,d0:7911,d1:33371;
                         ("<", Expression<MethodOrOperator> @:7911 check:33371,op:16,dt:2,nt:9,next:7912,nextCheck:33372,str:900,h:0,d0:0,d1:0;
-                            (____, Scope<Short> @:7912 check:33372,op:327,dt:7,nt:8,next:7915,nextCheck:33375,str:30459,h:1,d0:7913,d1:33373;
+                            (____, BuiltinInvocation<Short> @:7912 check:33372,op:327,dt:7,nt:8,next:7915,nextCheck:33375,str:30459,h:1,d0:7913,d1:33373;
                                 ("ai_living_count", Expression<MethodOrOperator> @:7913 check:33373,op:327,dt:2,nt:9,next:7914,nextCheck:33374,str:15933,h:0,d0:0,d1:0;
                                     ("lz_enemies_turrets", Expression<AI> @:7914 check:33374,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:16747,h:0,d0:7,d1:16384;)))
                             (1, Expression<Short> @:7915 check:33375,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:30496,h:1,d0:1,d1:65535;)))))
-            (____, Scope<Void> @:7916 check:33376,op:27,dt:4,nt:8,next:7919,nextCheck:33379,str:30502,h:1,d0:7917,d1:33377;
+            (____, BuiltinInvocation<Void> @:7916 check:33376,op:27,dt:4,nt:8,next:7919,nextCheck:33379,str:30502,h:1,d0:7917,d1:33377;
                 ("print", Expression<MethodOrOperator> @:7917 check:33377,op:27,dt:2,nt:9,next:7918,nextCheck:33378,str:139,h:0,d0:0,d1:0;
                     ("all turrets down", Expression<String> @:7918 check:33378,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:17032,h:0,d0:28408,d1:12768;)))
-            (____, Scope<Void> @:7919 check:33379,op:4,dt:4,nt:8,next:7923,nextCheck:33383,str:30531,h:1,d0:7920,d1:33380;
+            (____, BuiltinInvocation<Void> @:7919 check:33379,op:4,dt:4,nt:8,next:7923,nextCheck:33383,str:30531,h:1,d0:7920,d1:33380;
                 ("set", Expression<MethodOrOperator> @:7920 check:33380,op:4,dt:2,nt:9,next:7921,nextCheck:33381,str:1857,h:0,d0:0,d1:0;
                     ("turrets_down", VariableAccess<Boolean> @:7921 check:33381,op:65535,dt:5,nt:13,next:7922,nextCheck:33382,str:17049,h:0,d0:10,d1:0;
                         (True, Expression<Boolean> @:7922 check:33382,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:30549,h:1,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:7923 check:33383,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:30557,h:1,d0:7924,d1:33384;
+            (____, BuiltinInvocation<Void> @:7923 check:33383,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:30557,h:1,d0:7924,d1:33384;
                 ("sleep_until", Expression<MethodOrOperator> @:7924 check:33384,op:21,dt:2,nt:9,next:7925,nextCheck:33385,str:284,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:7925 check:33385,op:6,dt:5,nt:8,next:7938,nextCheck:33398,str:30573,h:1,d0:7926,d1:33386;
+                    (____, BuiltinInvocation<Boolean> @:7925 check:33385,op:6,dt:5,nt:8,next:7938,nextCheck:33398,str:30573,h:1,d0:7926,d1:33386;
                         ("or", Expression<MethodOrOperator> @:7926 check:33386,op:6,dt:2,nt:9,next:7927,nextCheck:33387,str:897,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:7927 check:33387,op:363,dt:5,nt:8,next:7932,nextCheck:33392,str:30581,h:1,d0:7928,d1:33388;
+                            (____, BuiltinInvocation<Boolean> @:7927 check:33387,op:363,dt:5,nt:8,next:7932,nextCheck:33392,str:30581,h:1,d0:7928,d1:33388;
                                 ("ai_scene", Expression<MethodOrOperator> @:7928 check:33388,op:363,dt:2,nt:9,next:7929,nextCheck:33389,str:16301,h:0,d0:0,d1:0;
                                     ("lz_turrets_down_scene", Expression<StringId> @:7929 check:33389,op:11,dt:11,nt:9,next:7930,nextCheck:33390,str:17062,h:0,d0:10065,d1:5376;
                                         ("odst_turrets_down", Expression<AIScript> @:7930 check:33390,op:21,dt:21,nt:9,next:7931,nextCheck:33391,str:17084,h:0,d0:210,d1:0;
                                             ("all_allies", Expression<AI> @:7931 check:33391,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:15850,h:0,d0:1,d1:16384;)))))
-                            (____, Scope<Boolean> @:7932 check:33392,op:16,dt:5,nt:8,next:65535,nextCheck:65535,str:30647,h:1,d0:7933,d1:33393;
+                            (____, BuiltinInvocation<Boolean> @:7932 check:33392,op:16,dt:5,nt:8,next:65535,nextCheck:65535,str:30647,h:1,d0:7933,d1:33393;
                                 ("<", Expression<MethodOrOperator> @:7933 check:33393,op:16,dt:2,nt:9,next:7934,nextCheck:33394,str:900,h:0,d0:0,d1:0;
-                                    (____, Scope<Short> @:7934 check:33394,op:327,dt:7,nt:8,next:7937,nextCheck:33397,str:30650,h:1,d0:7935,d1:33395;
+                                    (____, BuiltinInvocation<Short> @:7934 check:33394,op:327,dt:7,nt:8,next:7937,nextCheck:33397,str:30650,h:1,d0:7935,d1:33395;
                                         ("ai_living_count", Expression<MethodOrOperator> @:7935 check:33395,op:327,dt:2,nt:9,next:7936,nextCheck:33396,str:15933,h:0,d0:0,d1:0;
                                             ("all_allies", Expression<AI> @:7936 check:33396,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:15850,h:0,d0:1,d1:16384;)))
                                     (1, Expression<Short> @:7937 check:33397,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:30679,h:1,d0:1,d1:65535;)))))

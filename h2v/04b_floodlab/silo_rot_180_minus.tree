@@ -1,13 +1,13 @@
 
 ("silo_rot_180_minus", MethodDecl<Void> @:189 check:0,op:0,dt:0,nt:65535,next:6560,nextCheck:64787,str:16699,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:6560 check:64787,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9656,h:1,d0:6561,d1:64788;
+    (____, BuiltinInvocation<Void> @:6560 check:64787,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9656,h:1,d0:6561,d1:64788;
         ("begin", Expression<MethodOrOperator> @:6561 check:64788,op:0,dt:2,nt:9,next:6547,nextCheck:64774,str:210,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:6547 check:64774,op:266,dt:4,nt:8,next:6552,nextCheck:64779,str:9697,h:1,d0:6548,d1:64775;
+            (____, BuiltinInvocation<Void> @:6547 check:64774,op:266,dt:4,nt:8,next:6552,nextCheck:64779,str:9697,h:1,d0:6548,d1:64775;
                 ("device_set_position_track", Expression<MethodOrOperator> @:6548 check:64775,op:266,dt:2,nt:9,next:6549,nextCheck:64776,str:15262,h:0,d0:0,d1:0;
                     ("elev_silo", Expression<Device> @:6549 check:64776,op:60,dt:54,nt:9,next:6550,nextCheck:64777,str:15117,h:0,d0:385,d1:65535;
                         ("rot_180_counterclockwise", Expression<StringId> @:6550 check:64777,op:11,dt:11,nt:9,next:6551,nextCheck:64778,str:15407,h:0,d0:9176,d1:6144;
                             (0f, Expression<Float> @:6551 check:64778,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:9759,h:1,d0:0,d1:0;)))))
-            (____, Scope<Void> @:6552 check:64779,op:268,dt:4,nt:8,next:65535,nextCheck:65535,str:9764,h:1,d0:6553,d1:64780;
+            (____, BuiltinInvocation<Void> @:6552 check:64779,op:268,dt:4,nt:8,next:65535,nextCheck:65535,str:9764,h:1,d0:6553,d1:64780;
                 ("device_animate_position", Expression<MethodOrOperator> @:6553 check:64780,op:268,dt:2,nt:9,next:6554,nextCheck:64781,str:15297,h:0,d0:0,d1:0;
                     ("elev_silo", Expression<Device> @:6554 check:64781,op:60,dt:54,nt:9,next:6555,nextCheck:64782,str:15117,h:0,d0:385,d1:65535;
                         (1f, Expression<Float> @:6555 check:64782,op:6,dt:6,nt:9,next:6556,nextCheck:64783,str:9799,h:1,d0:0,d1:16256;

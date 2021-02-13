@@ -1,19 +1,19 @@
 
 ("x05_slipspace_open", MethodDecl<Void> @:38 check:0,op:0,dt:0,nt:65535,next:886,nextCheck:59113,str:1806,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:886 check:59113,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:10138,h:0,d0:887,d1:59114;
+    (____, BuiltinInvocation<Void> @:886 check:59113,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:10138,h:0,d0:887,d1:59114;
         ("begin", Expression<MethodOrOperator> @:887 check:59114,op:0,dt:2,nt:9,next:871,nextCheck:59098,str:54,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:871 check:59098,op:19,dt:4,nt:8,next:874,nextCheck:59101,str:10175,h:0,d0:872,d1:59099;
+            (____, BuiltinInvocation<Void> @:871 check:59098,op:19,dt:4,nt:8,next:874,nextCheck:59101,str:10175,h:0,d0:872,d1:59099;
                 ("sleep", Expression<MethodOrOperator> @:872 check:59099,op:19,dt:2,nt:9,next:873,nextCheck:59100,str:133,h:0,d0:0,d1:0;
                     (10, Expression<Short> @:873 check:59100,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:10182,h:0,d0:10,d1:65535;)))
-            (____, Scope<Void> @:874 check:59101,op:27,dt:4,nt:8,next:877,nextCheck:59104,str:10188,h:0,d0:875,d1:59102;
+            (____, BuiltinInvocation<Void> @:874 check:59101,op:27,dt:4,nt:8,next:877,nextCheck:59104,str:10188,h:0,d0:875,d1:59102;
                 ("print", Expression<MethodOrOperator> @:875 check:59102,op:27,dt:2,nt:9,next:876,nextCheck:59103,str:139,h:0,d0:0,d1:0;
                     ("effect - slipspace open", Expression<String> @:876 check:59103,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:1486,h:0,d0:12862,d1:12768;)))
-            (____, Scope<Void> @:877 check:59104,op:48,dt:4,nt:8,next:880,nextCheck:59107,str:10224,h:0,d0:878,d1:59105;
+            (____, BuiltinInvocation<Void> @:877 check:59104,op:48,dt:4,nt:8,next:880,nextCheck:59107,str:10224,h:0,d0:878,d1:59105;
                 ("object_create_anew", Expression<MethodOrOperator> @:878 check:59105,op:48,dt:2,nt:9,next:879,nextCheck:59106,str:1510,h:0,d0:0,d1:0;
                     ("x05_slipspace", Expression<EntityIdentifier> @:879 check:59106,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:1529,h:0,d0:57,d1:65535;)))
-            (____, Scope<Void> @:880 check:59107,op:19,dt:4,nt:8,next:883,nextCheck:59110,str:10261,h:0,d0:881,d1:59108;
+            (____, BuiltinInvocation<Void> @:880 check:59107,op:19,dt:4,nt:8,next:883,nextCheck:59110,str:10261,h:0,d0:881,d1:59108;
                 ("sleep", Expression<MethodOrOperator> @:881 check:59108,op:19,dt:2,nt:9,next:882,nextCheck:59109,str:133,h:0,d0:0,d1:0;
                     (300, Expression<Short> @:882 check:59109,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:10268,h:0,d0:300,d1:65535;)))
-            (____, Scope<Void> @:883 check:59110,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:10275,h:0,d0:884,d1:59111;
+            (____, BuiltinInvocation<Void> @:883 check:59110,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:10275,h:0,d0:884,d1:59111;
                 ("object_destroy", Expression<MethodOrOperator> @:884 check:59111,op:52,dt:2,nt:9,next:885,nextCheck:59112,str:1543,h:0,d0:0,d1:0;
                     (4294901817, Expression<Entity> @:885 check:59112,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:1529,h:0,d0:57,d1:65535;))))))

@@ -1,54 +1,54 @@
 
 ("cs_e1_cov_inf0_scene", MethodDecl<Void> @:211 check:0,op:0,dt:0,nt:65535,next:8512,nextCheck:33972,str:65535,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:8512 check:33972,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:40903,h:1,d0:8513,d1:33973;
+    (____, BuiltinInvocation<Void> @:8512 check:33972,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:40903,h:1,d0:8513,d1:33973;
         ("begin", Expression<MethodOrOperator> @:8513 check:33973,op:0,dt:2,nt:9,next:8462,nextCheck:33922,str:64,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:8462 check:33922,op:202,dt:4,nt:8,next:8470,nextCheck:33930,str:40970,h:1,d0:8463,d1:33923;
+            (____, BuiltinInvocation<Void> @:8462 check:33922,op:202,dt:4,nt:8,next:8470,nextCheck:33930,str:40970,h:1,d0:8463,d1:33923;
                 ("custom_animation_loop", Expression<MethodOrOperator> @:8463 check:33923,op:202,dt:2,nt:9,next:8464,nextCheck:33924,str:14979,h:0,d0:0,d1:0;
-                    (____, Scope<Unit> @:8464 check:33924,op:285,dt:51,nt:8,next:8467,nextCheck:33927,str:40993,h:1,d0:8465,d1:33925;
+                    (____, BuiltinInvocation<Unit> @:8464 check:33924,op:285,dt:51,nt:8,next:8467,nextCheck:33927,str:40993,h:1,d0:8465,d1:33925;
                         ("ai_get_unit", Expression<MethodOrOperator> @:8465 check:33925,op:285,dt:2,nt:9,next:8466,nextCheck:33926,str:6387,h:0,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:8466 check:33926,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:6399,h:0,d0:33564,d1:65535;)))
                     ("objects\characters\elite\elite", Expression<Animation> @:8467 check:33927,op:36,dt:36,nt:9,next:8468,nextCheck:33928,str:15001,h:0,d0:2446,d1:60351;
                         ("combat:unarmed:mortal_wound", Expression<StringId> @:8468 check:33928,op:11,dt:11,nt:9,next:8469,nextCheck:33929,str:15032,h:0,d0:7204,d1:6912;
                             (False, Expression<Boolean> @:8469 check:33929,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:41087,h:1,d0:65280,d1:65535;)))))
-            (____, Scope<Void> @:8470 check:33930,op:228,dt:4,nt:8,next:8477,nextCheck:33937,str:41118,h:1,d0:8471,d1:33931;
+            (____, BuiltinInvocation<Void> @:8470 check:33930,op:228,dt:4,nt:8,next:8477,nextCheck:33937,str:41118,h:1,d0:8471,d1:33931;
                 ("unit_set_maximum_vitality", Expression<MethodOrOperator> @:8471 check:33931,op:228,dt:2,nt:9,next:8472,nextCheck:33932,str:837,h:0,d0:0,d1:0;
-                    (____, Scope<Unit> @:8472 check:33932,op:285,dt:51,nt:8,next:8475,nextCheck:33935,str:41145,h:1,d0:8473,d1:33933;
+                    (____, BuiltinInvocation<Unit> @:8472 check:33932,op:285,dt:51,nt:8,next:8475,nextCheck:33935,str:41145,h:1,d0:8473,d1:33933;
                         ("ai_get_unit", Expression<MethodOrOperator> @:8473 check:33933,op:285,dt:2,nt:9,next:8474,nextCheck:33934,str:6387,h:0,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:8474 check:33934,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:6399,h:0,d0:33564,d1:65535;)))
                     (5f, Expression<Float> @:8475 check:33935,op:6,dt:6,nt:9,next:8476,nextCheck:33936,str:41176,h:1,d0:0,d1:16544;
                         (0f, Expression<Float> @:8476 check:33936,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:41178,h:1,d0:0,d1:0;))))
-            (____, Scope<Void> @:8477 check:33937,op:21,dt:4,nt:8,next:8489,nextCheck:33949,str:41222,h:1,d0:8478,d1:33938;
+            (____, BuiltinInvocation<Void> @:8477 check:33937,op:21,dt:4,nt:8,next:8489,nextCheck:33949,str:41222,h:1,d0:8478,d1:33938;
                 ("sleep_until", Expression<MethodOrOperator> @:8478 check:33938,op:21,dt:2,nt:9,next:8479,nextCheck:33939,str:294,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:8479 check:33939,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:41239,h:1,d0:8480,d1:33940;
+                    (____, BuiltinInvocation<Boolean> @:8479 check:33939,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:41239,h:1,d0:8480,d1:33940;
                         ("<=", Expression<MethodOrOperator> @:8480 check:33940,op:18,dt:2,nt:9,next:8481,nextCheck:33941,str:5982,h:0,d0:0,d1:0;
-                            (-3.529526E-36f, Scope<Float> @:8481 check:33941,op:114,dt:6,nt:8,next:8488,nextCheck:33948,str:41243,h:1,d0:8482,d1:33942;
+                            (-3.529526E-36f, BuiltinInvocation<Float> @:8481 check:33941,op:114,dt:6,nt:8,next:8488,nextCheck:33948,str:41243,h:1,d0:8482,d1:33942;
                                 ("objects_distance_to_object", Expression<MethodOrOperator> @:8482 check:33942,op:114,dt:2,nt:9,next:8483,nextCheck:33943,str:9371,h:0,d0:0,d1:0;
-                                    (____, Scope<List> @:8483 check:33943,op:28,dt:31,nt:8,next:8485,nextCheck:33945,str:41271,h:1,d0:8484,d1:33944;
+                                    (____, BuiltinInvocation<List> @:8483 check:33943,op:28,dt:31,nt:8,next:8485,nextCheck:33945,str:41271,h:1,d0:8484,d1:33944;
                                         ("players", Expression<MethodOrOperator> @:8484 check:33944,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:84,h:0,d0:0,d1:0;))
-                                    (____, Scope<Entity> @:8485 check:33945,op:284,dt:50,nt:8,next:65535,nextCheck:65535,str:41281,h:1,d0:8486,d1:33946;
+                                    (____, BuiltinInvocation<Entity> @:8485 check:33945,op:284,dt:50,nt:8,next:65535,nextCheck:65535,str:41281,h:1,d0:8486,d1:33946;
                                         ("ai_get_object", Expression<MethodOrOperator> @:8486 check:33946,op:284,dt:2,nt:9,next:8487,nextCheck:33947,str:9281,h:0,d0:0,d1:0;
                                             ("ai_current_actor", VariableAccess<AI> @:8487 check:33947,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:6399,h:0,d0:33564,d1:65535;)))))
                             (3f, Expression<Float> @:8488 check:33948,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:41315,h:1,d0:0,d1:16448;)))))
-            (____, Scope<Void> @:8489 check:33949,op:394,dt:4,nt:8,next:8492,nextCheck:33952,str:41349,h:1,d0:8490,d1:33950;
+            (____, BuiltinInvocation<Void> @:8489 check:33949,op:394,dt:4,nt:8,next:8492,nextCheck:33952,str:41349,h:1,d0:8490,d1:33950;
                 ("cs_look_player", Expression<MethodOrOperator> @:8490 check:33950,op:394,dt:2,nt:9,next:8491,nextCheck:33951,str:6520,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:8491 check:33951,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:41365,h:1,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:8492 check:33952,op:19,dt:4,nt:8,next:8498,nextCheck:33958,str:41386,h:1,d0:8493,d1:33953;
+            (____, BuiltinInvocation<Void> @:8492 check:33952,op:19,dt:4,nt:8,next:8498,nextCheck:33958,str:41386,h:1,d0:8493,d1:33953;
                 ("sleep", Expression<MethodOrOperator> @:8493 check:33953,op:19,dt:2,nt:9,next:8494,nextCheck:33954,str:143,h:0,d0:0,d1:0;
-                    (____, Scope<Short> @:8494 check:33954,op:361,dt:7,nt:8,next:65535,nextCheck:65535,str:41393,h:1,d0:8495,d1:33955;
+                    (____, BuiltinInvocation<Short> @:8494 check:33954,op:361,dt:7,nt:8,next:65535,nextCheck:65535,str:41393,h:1,d0:8495,d1:33955;
                         ("ai_play_line_at_player", Expression<MethodOrOperator> @:8495 check:33955,op:361,dt:2,nt:9,next:8496,nextCheck:33956,str:6582,h:0,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:8496 check:33956,op:19,dt:19,nt:13,next:8497,nextCheck:33957,str:6399,h:0,d0:33564,d1:65535;
                                 ("0200", Expression<StringId> @:8497 check:33957,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:15060,h:0,d0:9971,d1:1024;))))))
-            (____, Scope<Void> @:8498 check:33958,op:19,dt:4,nt:8,next:8501,nextCheck:33961,str:41443,h:1,d0:8499,d1:33959;
+            (____, BuiltinInvocation<Void> @:8498 check:33958,op:19,dt:4,nt:8,next:8501,nextCheck:33961,str:41443,h:1,d0:8499,d1:33959;
                 ("sleep", Expression<MethodOrOperator> @:8499 check:33959,op:19,dt:2,nt:9,next:8500,nextCheck:33960,str:143,h:0,d0:0,d1:0;
                     (45, Expression<Short> @:8500 check:33960,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:41450,h:1,d0:45,d1:65535;)))
-            (____, Scope<Void> @:8501 check:33961,op:4,dt:4,nt:8,next:8505,nextCheck:33965,str:41456,h:1,d0:8502,d1:33962;
+            (____, BuiltinInvocation<Void> @:8501 check:33961,op:4,dt:4,nt:8,next:8505,nextCheck:33965,str:41456,h:1,d0:8502,d1:33962;
                 ("set", Expression<MethodOrOperator> @:8502 check:33962,op:4,dt:2,nt:9,next:8503,nextCheck:33963,str:2053,h:0,d0:0,d1:0;
                     ("g_e1_cov_inf0_should_die", VariableAccess<Boolean> @:8503 check:33963,op:65535,dt:5,nt:13,next:8504,nextCheck:33964,str:15065,h:0,d0:29,d1:0;
                         (True, Expression<Boolean> @:8504 check:33964,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:41486,h:1,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:8505 check:33965,op:200,dt:4,nt:8,next:8510,nextCheck:33970,str:41494,h:1,d0:8506,d1:33966;
+            (____, BuiltinInvocation<Void> @:8505 check:33965,op:200,dt:4,nt:8,next:8510,nextCheck:33970,str:41494,h:1,d0:8506,d1:33966;
                 ("unit_stop_custom_animation", Expression<MethodOrOperator> @:8506 check:33966,op:200,dt:2,nt:9,next:8507,nextCheck:33967,str:15090,h:0,d0:0,d1:0;
-                    (____, Scope<Unit> @:8507 check:33967,op:285,dt:51,nt:8,next:65535,nextCheck:65535,str:41522,h:1,d0:8508,d1:33968;
+                    (____, BuiltinInvocation<Unit> @:8507 check:33967,op:285,dt:51,nt:8,next:65535,nextCheck:65535,str:41522,h:1,d0:8508,d1:33968;
                         ("ai_get_unit", Expression<MethodOrOperator> @:8508 check:33968,op:285,dt:2,nt:9,next:8509,nextCheck:33969,str:6387,h:0,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:8509 check:33969,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:6399,h:0,d0:33564,d1:65535;)))))
-            (____, Scope<Void> @:8510 check:33970,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:41556,h:1,d0:8511,d1:33971;
+            (____, BuiltinInvocation<Void> @:8510 check:33970,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:41556,h:1,d0:8511,d1:33971;
                 ("sleep_forever", Expression<MethodOrOperator> @:8511 check:33971,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:8114,h:0,d0:0,d1:0;)))))

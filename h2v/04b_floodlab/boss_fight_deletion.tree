@@ -1,114 +1,114 @@
 
 ("boss_fight_deletion", MethodDecl<Void> @:357 check:0,op:0,dt:0,nt:65535,next:30342,nextCheck:55802,str:37840,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:30342 check:55802,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:27052,h:4,d0:30343,d1:55803;
+    (____, BuiltinInvocation<Void> @:30342 check:55802,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:27052,h:4,d0:30343,d1:55803;
         ("begin", Expression<MethodOrOperator> @:30343 check:55803,op:0,dt:2,nt:9,next:30232,nextCheck:55692,str:210,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:30232 check:55692,op:21,dt:4,nt:8,next:30274,nextCheck:55734,str:27094,h:4,d0:30233,d1:55693;
+            (____, BuiltinInvocation<Void> @:30232 check:55692,op:21,dt:4,nt:8,next:30274,nextCheck:55734,str:27094,h:4,d0:30233,d1:55693;
                 ("sleep_until", Expression<MethodOrOperator> @:30233 check:55693,op:21,dt:2,nt:9,next:30234,nextCheck:55694,str:440,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:30234 check:55694,op:6,dt:5,nt:8,next:30272,nextCheck:55732,str:27110,h:4,d0:30235,d1:55695;
+                    (____, BuiltinInvocation<Boolean> @:30234 check:55694,op:6,dt:5,nt:8,next:30272,nextCheck:55732,str:27110,h:4,d0:30235,d1:55695;
                         ("or", Expression<MethodOrOperator> @:30235 check:55695,op:6,dt:2,nt:9,next:30236,nextCheck:55696,str:1053,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:30236 check:55696,op:13,dt:5,nt:8,next:30245,nextCheck:55705,str:27118,h:4,d0:30237,d1:55697;
+                            (____, BuiltinInvocation<Boolean> @:30236 check:55696,op:13,dt:5,nt:8,next:30245,nextCheck:55705,str:27118,h:4,d0:30237,d1:55697;
                                 ("=", Expression<MethodOrOperator> @:30237 check:55697,op:13,dt:2,nt:9,next:30238,nextCheck:55698,str:505,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:30238 check:55698,op:33,dt:5,nt:8,next:30244,nextCheck:55704,str:27121,h:4,d0:30239,d1:55699;
+                                    (____, BuiltinInvocation<Boolean> @:30238 check:55698,op:33,dt:5,nt:8,next:30244,nextCheck:55704,str:27121,h:4,d0:30239,d1:55699;
                                         ("volume_test_objects", Expression<MethodOrOperator> @:30239 check:55699,op:33,dt:2,nt:9,next:30240,nextCheck:55700,str:11830,h:0,d0:0,d1:0;
                                             ("vol_boss_delete_r", Expression<Trigger> @:30240 check:55700,op:13,dt:13,nt:9,next:30241,nextCheck:55701,str:37591,h:0,d0:106,d1:0;
-                                                (____, Scope<List> @:30241 check:55701,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:27160,h:4,d0:30242,d1:55702;
+                                                (____, BuiltinInvocation<List> @:30241 check:55701,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:27160,h:4,d0:30242,d1:55702;
                                                     ("ai_actors", Expression<MethodOrOperator> @:30242 check:55702,op:332,dt:2,nt:9,next:30243,nextCheck:55703,str:11965,h:0,d0:0,d1:0;
                                                         ("hl_boss_random", Expression<AI> @:30243 check:55703,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:37609,h:0,d0:135,d1:0;))))))
                                     (True, Expression<Boolean> @:30244 check:55704,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:27188,h:4,d0:65281,d1:65535;)))
-                            (____, Scope<Boolean> @:30245 check:55705,op:13,dt:5,nt:8,next:30254,nextCheck:55714,str:27198,h:4,d0:30246,d1:55706;
+                            (____, BuiltinInvocation<Boolean> @:30245 check:55705,op:13,dt:5,nt:8,next:30254,nextCheck:55714,str:27198,h:4,d0:30246,d1:55706;
                                 ("=", Expression<MethodOrOperator> @:30246 check:55706,op:13,dt:2,nt:9,next:30247,nextCheck:55707,str:505,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:30247 check:55707,op:33,dt:5,nt:8,next:30253,nextCheck:55713,str:27201,h:4,d0:30248,d1:55708;
+                                    (____, BuiltinInvocation<Boolean> @:30247 check:55707,op:33,dt:5,nt:8,next:30253,nextCheck:55713,str:27201,h:4,d0:30248,d1:55708;
                                         ("volume_test_objects", Expression<MethodOrOperator> @:30248 check:55708,op:33,dt:2,nt:9,next:30249,nextCheck:55709,str:11830,h:0,d0:0,d1:0;
                                             ("vol_boss_delete_l", Expression<Trigger> @:30249 check:55709,op:13,dt:13,nt:9,next:30250,nextCheck:55710,str:37624,h:0,d0:107,d1:0;
-                                                (____, Scope<List> @:30250 check:55710,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:27240,h:4,d0:30251,d1:55711;
+                                                (____, BuiltinInvocation<List> @:30250 check:55710,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:27240,h:4,d0:30251,d1:55711;
                                                     ("ai_actors", Expression<MethodOrOperator> @:30251 check:55711,op:332,dt:2,nt:9,next:30252,nextCheck:55712,str:11965,h:0,d0:0,d1:0;
                                                         ("hl_boss_random", Expression<AI> @:30252 check:55712,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:37609,h:0,d0:135,d1:0;))))))
                                     (True, Expression<Boolean> @:30253 check:55713,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:27268,h:4,d0:65281,d1:65535;)))
-                            (____, Scope<Boolean> @:30254 check:55714,op:13,dt:5,nt:8,next:30263,nextCheck:55723,str:27278,h:4,d0:30255,d1:55715;
+                            (____, BuiltinInvocation<Boolean> @:30254 check:55714,op:13,dt:5,nt:8,next:30263,nextCheck:55723,str:27278,h:4,d0:30255,d1:55715;
                                 ("=", Expression<MethodOrOperator> @:30255 check:55715,op:13,dt:2,nt:9,next:30256,nextCheck:55716,str:505,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:30256 check:55716,op:33,dt:5,nt:8,next:30262,nextCheck:55722,str:27281,h:4,d0:30257,d1:55717;
+                                    (____, BuiltinInvocation<Boolean> @:30256 check:55716,op:33,dt:5,nt:8,next:30262,nextCheck:55722,str:27281,h:4,d0:30257,d1:55717;
                                         ("volume_test_objects", Expression<MethodOrOperator> @:30257 check:55717,op:33,dt:2,nt:9,next:30258,nextCheck:55718,str:11830,h:0,d0:0,d1:0;
                                             ("vol_boss_delete_c1", Expression<Trigger> @:30258 check:55718,op:13,dt:13,nt:9,next:30259,nextCheck:55719,str:37642,h:0,d0:108,d1:0;
-                                                (____, Scope<List> @:30259 check:55719,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:27321,h:4,d0:30260,d1:55720;
+                                                (____, BuiltinInvocation<List> @:30259 check:55719,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:27321,h:4,d0:30260,d1:55720;
                                                     ("ai_actors", Expression<MethodOrOperator> @:30260 check:55720,op:332,dt:2,nt:9,next:30261,nextCheck:55721,str:11965,h:0,d0:0,d1:0;
                                                         ("hl_boss_random", Expression<AI> @:30261 check:55721,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:37609,h:0,d0:135,d1:0;))))))
                                     (True, Expression<Boolean> @:30262 check:55722,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:27349,h:4,d0:65281,d1:65535;)))
-                            (____, Scope<Boolean> @:30263 check:55723,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:27359,h:4,d0:30264,d1:55724;
+                            (____, BuiltinInvocation<Boolean> @:30263 check:55723,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:27359,h:4,d0:30264,d1:55724;
                                 ("=", Expression<MethodOrOperator> @:30264 check:55724,op:13,dt:2,nt:9,next:30265,nextCheck:55725,str:505,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:30265 check:55725,op:33,dt:5,nt:8,next:30271,nextCheck:55731,str:27362,h:4,d0:30266,d1:55726;
+                                    (____, BuiltinInvocation<Boolean> @:30265 check:55725,op:33,dt:5,nt:8,next:30271,nextCheck:55731,str:27362,h:4,d0:30266,d1:55726;
                                         ("volume_test_objects", Expression<MethodOrOperator> @:30266 check:55726,op:33,dt:2,nt:9,next:30267,nextCheck:55727,str:11830,h:0,d0:0,d1:0;
                                             ("vol_boss_delete_c2", Expression<Trigger> @:30267 check:55727,op:13,dt:13,nt:9,next:30268,nextCheck:55728,str:37661,h:0,d0:109,d1:0;
-                                                (____, Scope<List> @:30268 check:55728,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:27402,h:4,d0:30269,d1:55729;
+                                                (____, BuiltinInvocation<List> @:30268 check:55728,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:27402,h:4,d0:30269,d1:55729;
                                                     ("ai_actors", Expression<MethodOrOperator> @:30269 check:55729,op:332,dt:2,nt:9,next:30270,nextCheck:55730,str:11965,h:0,d0:0,d1:0;
                                                         ("hl_boss_random", Expression<AI> @:30270 check:55730,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:37609,h:0,d0:135,d1:0;))))))
                                     (True, Expression<Boolean> @:30271 check:55731,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:27430,h:4,d0:65281,d1:65535;)))))
                     (30, Expression<Short> @:30272 check:55732,op:7,dt:7,nt:9,next:30273,nextCheck:55733,str:27443,h:4,d0:30,d1:65535;
                         (900, Expression<Int> @:30273 check:55733,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:27446,h:4,d0:900,d1:0;))))
-            (____, Scope<Void> @:30274 check:55734,op:2,dt:4,nt:8,next:30339,nextCheck:55799,str:27453,h:4,d0:30275,d1:55735;
+            (____, BuiltinInvocation<Void> @:30274 check:55734,op:2,dt:4,nt:8,next:30339,nextCheck:55799,str:27453,h:4,d0:30275,d1:55735;
                 ("if", Expression<MethodOrOperator> @:30275 check:55735,op:2,dt:2,nt:9,next:30276,nextCheck:55736,str:665,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:30276 check:55736,op:5,dt:5,nt:8,next:30314,nextCheck:55774,str:27460,h:4,d0:30277,d1:55737;
+                    (____, BuiltinInvocation<Boolean> @:30276 check:55736,op:5,dt:5,nt:8,next:30314,nextCheck:55774,str:27460,h:4,d0:30277,d1:55737;
                         ("and", Expression<MethodOrOperator> @:30277 check:55737,op:5,dt:2,nt:9,next:30278,nextCheck:55738,str:876,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:30278 check:55738,op:13,dt:5,nt:8,next:30287,nextCheck:55747,str:27469,h:4,d0:30279,d1:55739;
+                            (____, BuiltinInvocation<Boolean> @:30278 check:55738,op:13,dt:5,nt:8,next:30287,nextCheck:55747,str:27469,h:4,d0:30279,d1:55739;
                                 ("=", Expression<MethodOrOperator> @:30279 check:55739,op:13,dt:2,nt:9,next:30280,nextCheck:55740,str:505,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:30280 check:55740,op:33,dt:5,nt:8,next:30286,nextCheck:55746,str:27472,h:4,d0:30281,d1:55741;
+                                    (____, BuiltinInvocation<Boolean> @:30280 check:55740,op:33,dt:5,nt:8,next:30286,nextCheck:55746,str:27472,h:4,d0:30281,d1:55741;
                                         ("volume_test_objects", Expression<MethodOrOperator> @:30281 check:55741,op:33,dt:2,nt:9,next:30282,nextCheck:55742,str:11830,h:0,d0:0,d1:0;
                                             ("vol_boss_delete_r", Expression<Trigger> @:30282 check:55742,op:13,dt:13,nt:9,next:30283,nextCheck:55743,str:37591,h:0,d0:106,d1:0;
-                                                (____, Scope<List> @:30283 check:55743,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:27511,h:4,d0:30284,d1:55744;
+                                                (____, BuiltinInvocation<List> @:30283 check:55743,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:27511,h:4,d0:30284,d1:55744;
                                                     ("ai_actors", Expression<MethodOrOperator> @:30284 check:55744,op:332,dt:2,nt:9,next:30285,nextCheck:55745,str:11965,h:0,d0:0,d1:0;
                                                         ("hl_boss_random", Expression<AI> @:30285 check:55745,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:37609,h:0,d0:135,d1:0;))))))
                                     (False, Expression<Boolean> @:30286 check:55746,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:27539,h:4,d0:65280,d1:65535;)))
-                            (____, Scope<Boolean> @:30287 check:55747,op:13,dt:5,nt:8,next:30296,nextCheck:55756,str:27550,h:4,d0:30288,d1:55748;
+                            (____, BuiltinInvocation<Boolean> @:30287 check:55747,op:13,dt:5,nt:8,next:30296,nextCheck:55756,str:27550,h:4,d0:30288,d1:55748;
                                 ("=", Expression<MethodOrOperator> @:30288 check:55748,op:13,dt:2,nt:9,next:30289,nextCheck:55749,str:505,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:30289 check:55749,op:33,dt:5,nt:8,next:30295,nextCheck:55755,str:27553,h:4,d0:30290,d1:55750;
+                                    (____, BuiltinInvocation<Boolean> @:30289 check:55749,op:33,dt:5,nt:8,next:30295,nextCheck:55755,str:27553,h:4,d0:30290,d1:55750;
                                         ("volume_test_objects", Expression<MethodOrOperator> @:30290 check:55750,op:33,dt:2,nt:9,next:30291,nextCheck:55751,str:11830,h:0,d0:0,d1:0;
                                             ("vol_boss_delete_l", Expression<Trigger> @:30291 check:55751,op:13,dt:13,nt:9,next:30292,nextCheck:55752,str:37624,h:0,d0:107,d1:0;
-                                                (____, Scope<List> @:30292 check:55752,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:27592,h:4,d0:30293,d1:55753;
+                                                (____, BuiltinInvocation<List> @:30292 check:55752,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:27592,h:4,d0:30293,d1:55753;
                                                     ("ai_actors", Expression<MethodOrOperator> @:30293 check:55753,op:332,dt:2,nt:9,next:30294,nextCheck:55754,str:11965,h:0,d0:0,d1:0;
                                                         ("hl_boss_random", Expression<AI> @:30294 check:55754,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:37609,h:0,d0:135,d1:0;))))))
                                     (False, Expression<Boolean> @:30295 check:55755,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:27620,h:4,d0:65280,d1:65535;)))
-                            (____, Scope<Boolean> @:30296 check:55756,op:13,dt:5,nt:8,next:30305,nextCheck:55765,str:27631,h:4,d0:30297,d1:55757;
+                            (____, BuiltinInvocation<Boolean> @:30296 check:55756,op:13,dt:5,nt:8,next:30305,nextCheck:55765,str:27631,h:4,d0:30297,d1:55757;
                                 ("=", Expression<MethodOrOperator> @:30297 check:55757,op:13,dt:2,nt:9,next:30298,nextCheck:55758,str:505,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:30298 check:55758,op:33,dt:5,nt:8,next:30304,nextCheck:55764,str:27634,h:4,d0:30299,d1:55759;
+                                    (____, BuiltinInvocation<Boolean> @:30298 check:55758,op:33,dt:5,nt:8,next:30304,nextCheck:55764,str:27634,h:4,d0:30299,d1:55759;
                                         ("volume_test_objects", Expression<MethodOrOperator> @:30299 check:55759,op:33,dt:2,nt:9,next:30300,nextCheck:55760,str:11830,h:0,d0:0,d1:0;
                                             ("vol_boss_delete_c1", Expression<Trigger> @:30300 check:55760,op:13,dt:13,nt:9,next:30301,nextCheck:55761,str:37642,h:0,d0:108,d1:0;
-                                                (____, Scope<List> @:30301 check:55761,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:27674,h:4,d0:30302,d1:55762;
+                                                (____, BuiltinInvocation<List> @:30301 check:55761,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:27674,h:4,d0:30302,d1:55762;
                                                     ("ai_actors", Expression<MethodOrOperator> @:30302 check:55762,op:332,dt:2,nt:9,next:30303,nextCheck:55763,str:11965,h:0,d0:0,d1:0;
                                                         ("hl_boss_random", Expression<AI> @:30303 check:55763,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:37609,h:0,d0:135,d1:0;))))))
                                     (False, Expression<Boolean> @:30304 check:55764,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:27702,h:4,d0:65280,d1:65535;)))
-                            (____, Scope<Boolean> @:30305 check:55765,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:27713,h:4,d0:30306,d1:55766;
+                            (____, BuiltinInvocation<Boolean> @:30305 check:55765,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:27713,h:4,d0:30306,d1:55766;
                                 ("=", Expression<MethodOrOperator> @:30306 check:55766,op:13,dt:2,nt:9,next:30307,nextCheck:55767,str:505,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:30307 check:55767,op:33,dt:5,nt:8,next:30313,nextCheck:55773,str:27716,h:4,d0:30308,d1:55768;
+                                    (____, BuiltinInvocation<Boolean> @:30307 check:55767,op:33,dt:5,nt:8,next:30313,nextCheck:55773,str:27716,h:4,d0:30308,d1:55768;
                                         ("volume_test_objects", Expression<MethodOrOperator> @:30308 check:55768,op:33,dt:2,nt:9,next:30309,nextCheck:55769,str:11830,h:0,d0:0,d1:0;
                                             ("vol_boss_delete_c2", Expression<Trigger> @:30309 check:55769,op:13,dt:13,nt:9,next:30310,nextCheck:55770,str:37661,h:0,d0:109,d1:0;
-                                                (____, Scope<List> @:30310 check:55770,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:27756,h:4,d0:30311,d1:55771;
+                                                (____, BuiltinInvocation<List> @:30310 check:55770,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:27756,h:4,d0:30311,d1:55771;
                                                     ("ai_actors", Expression<MethodOrOperator> @:30311 check:55771,op:332,dt:2,nt:9,next:30312,nextCheck:55772,str:11965,h:0,d0:0,d1:0;
                                                         ("hl_boss_random", Expression<AI> @:30312 check:55772,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:37609,h:0,d0:135,d1:0;))))))
                                     (False, Expression<Boolean> @:30313 check:55773,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:27784,h:4,d0:65280,d1:65535;)))))
-                    (____, Scope<Void> @:30314 check:55774,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:27800,h:4,d0:30315,d1:55775;
+                    (____, BuiltinInvocation<Void> @:30314 check:55774,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:27800,h:4,d0:30315,d1:55775;
                         ("begin", Expression<MethodOrOperator> @:30315 check:55775,op:0,dt:2,nt:9,next:30316,nextCheck:55776,str:210,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:30316 check:55776,op:41,dt:4,nt:8,next:30326,nextCheck:55786,str:27812,h:4,d0:30317,d1:55777;
+                            (____, BuiltinInvocation<Void> @:30316 check:55776,op:41,dt:4,nt:8,next:30326,nextCheck:55786,str:27812,h:4,d0:30317,d1:55777;
                                 ("effect_new_on_object_marker", Expression<MethodOrOperator> @:30317 check:55777,op:41,dt:2,nt:9,next:30318,nextCheck:55778,str:7000,h:0,d0:0,d1:0;
                                     ("effects\scenarios\objects\solo\alphagasgiant\holo_drone\drone_death", Expression<Effect> @:30318 check:55778,op:33,dt:33,nt:9,next:30319,nextCheck:55779,str:142,h:0,d0:1808,d1:59526;
-                                        (____, Scope<Entity> @:30319 check:55779,op:37,dt:50,nt:8,next:30325,nextCheck:55785,str:27911,h:4,d0:30320,d1:55780;
+                                        (____, BuiltinInvocation<Entity> @:30319 check:55779,op:37,dt:50,nt:8,next:30325,nextCheck:55785,str:27911,h:4,d0:30320,d1:55780;
                                             ("list_get", Expression<MethodOrOperator> @:30320 check:55780,op:37,dt:2,nt:9,next:30321,nextCheck:55781,str:221,h:0,d0:0,d1:0;
-                                                (____, Scope<List> @:30321 check:55781,op:332,dt:31,nt:8,next:30324,nextCheck:55784,str:27921,h:4,d0:30322,d1:55782;
+                                                (____, BuiltinInvocation<List> @:30321 check:55781,op:332,dt:31,nt:8,next:30324,nextCheck:55784,str:27921,h:4,d0:30322,d1:55782;
                                                     ("ai_actors", Expression<MethodOrOperator> @:30322 check:55782,op:332,dt:2,nt:9,next:30323,nextCheck:55783,str:11965,h:0,d0:0,d1:0;
                                                         ("hl_boss_random", Expression<AI> @:30323 check:55783,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:37609,h:0,d0:135,d1:0;)))
                                                 (0, Expression<Short> @:30324 check:55784,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:27948,h:4,d0:0,d1:65535;)))
                                         (0, Expression<StringId> @:30325 check:55785,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:0,h:0,d0:0,d1:0;))))
-                            (____, Scope<Void> @:30326 check:55786,op:77,dt:4,nt:8,next:30336,nextCheck:55796,str:27960,h:4,d0:30327,d1:55787;
+                            (____, BuiltinInvocation<Void> @:30326 check:55786,op:77,dt:4,nt:8,next:30336,nextCheck:55796,str:27960,h:4,d0:30327,d1:55787;
                                 ("object_set_scale", Expression<MethodOrOperator> @:30327 check:55787,op:77,dt:2,nt:9,next:30328,nextCheck:55788,str:3543,h:0,d0:0,d1:0;
-                                    (____, Scope<Entity> @:30328 check:55788,op:37,dt:50,nt:8,next:30334,nextCheck:55794,str:27978,h:4,d0:30329,d1:55789;
+                                    (____, BuiltinInvocation<Entity> @:30328 check:55788,op:37,dt:50,nt:8,next:30334,nextCheck:55794,str:27978,h:4,d0:30329,d1:55789;
                                         ("list_get", Expression<MethodOrOperator> @:30329 check:55789,op:37,dt:2,nt:9,next:30330,nextCheck:55790,str:221,h:0,d0:0,d1:0;
-                                            (____, Scope<List> @:30330 check:55790,op:332,dt:31,nt:8,next:30333,nextCheck:55793,str:27988,h:4,d0:30331,d1:55791;
+                                            (____, BuiltinInvocation<List> @:30330 check:55790,op:332,dt:31,nt:8,next:30333,nextCheck:55793,str:27988,h:4,d0:30331,d1:55791;
                                                 ("ai_actors", Expression<MethodOrOperator> @:30331 check:55791,op:332,dt:2,nt:9,next:30332,nextCheck:55792,str:11965,h:0,d0:0,d1:0;
                                                     ("hl_boss_random", Expression<AI> @:30332 check:55792,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:37609,h:0,d0:135,d1:0;)))
                                             (0, Expression<Short> @:30333 check:55793,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28015,h:4,d0:0,d1:65535;)))
                                     (0.1f, Expression<Float> @:30334 check:55794,op:6,dt:6,nt:9,next:30335,nextCheck:55795,str:28018,h:4,d0:52429,d1:15820;
                                         (30, Expression<Short> @:30335 check:55795,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28021,h:4,d0:30,d1:65535;))))
-                            (____, Scope<Void> @:30336 check:55796,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:28030,h:4,d0:30337,d1:55797;
+                            (____, BuiltinInvocation<Void> @:30336 check:55796,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:28030,h:4,d0:30337,d1:55797;
                                 ("sleep", Expression<MethodOrOperator> @:30337 check:55797,op:19,dt:2,nt:9,next:30338,nextCheck:55798,str:289,h:0,d0:0,d1:0;
                                     (30, Expression<Short> @:30338 check:55798,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28037,h:4,d0:30,d1:65535;)))))))
-            (____, Scope<Void> @:30339 check:55799,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:28053,h:4,d0:30340,d1:55800;
+            (____, BuiltinInvocation<Void> @:30339 check:55799,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:28053,h:4,d0:30340,d1:55800;
                 ("ai_erase", Expression<MethodOrOperator> @:30340 check:55800,op:298,dt:2,nt:9,next:30341,nextCheck:55801,str:11804,h:0,d0:0,d1:0;
                     ("hl_boss_random", Expression<AI> @:30341 check:55801,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:37609,h:0,d0:135,d1:0;))))))

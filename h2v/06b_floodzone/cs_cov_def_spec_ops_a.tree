@@ -1,19 +1,19 @@
 
 ("cs_cov_def_spec_ops_a", MethodDecl<Void> @:174 check:0,op:0,dt:0,nt:65535,next:7160,nextCheck:65387,str:65535,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:7160 check:65387,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:17042,h:1,d0:7161,d1:65388;
+    (____, BuiltinInvocation<Void> @:7160 check:65387,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:17042,h:1,d0:7161,d1:65388;
         ("begin", Expression<MethodOrOperator> @:7161 check:65388,op:0,dt:2,nt:9,next:7145,nextCheck:65372,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:7145 check:65372,op:449,dt:4,nt:8,next:7148,nextCheck:65375,str:17089,h:1,d0:7146,d1:65373;
+            (____, BuiltinInvocation<Void> @:7145 check:65372,op:449,dt:4,nt:8,next:7148,nextCheck:65375,str:17089,h:1,d0:7146,d1:65373;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:7146 check:65373,op:449,dt:2,nt:9,next:7147,nextCheck:65374,str:13791,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:7147 check:65374,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:17121,h:1,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:7148 check:65375,op:394,dt:4,nt:8,next:7151,nextCheck:65378,str:17129,h:1,d0:7149,d1:65376;
+            (____, BuiltinInvocation<Void> @:7148 check:65375,op:394,dt:4,nt:8,next:7151,nextCheck:65378,str:17129,h:1,d0:7149,d1:65376;
                 ("cs_look_player", Expression<MethodOrOperator> @:7149 check:65376,op:394,dt:2,nt:9,next:7150,nextCheck:65377,str:15905,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:7150 check:65377,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:17145,h:1,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:7151 check:65378,op:21,dt:4,nt:8,next:7155,nextCheck:65382,str:17156,h:1,d0:7152,d1:65379;
+            (____, BuiltinInvocation<Void> @:7151 check:65378,op:21,dt:4,nt:8,next:7155,nextCheck:65382,str:17156,h:1,d0:7152,d1:65379;
                 ("sleep_until", Expression<MethodOrOperator> @:7152 check:65379,op:21,dt:2,nt:9,next:7153,nextCheck:65380,str:236,h:0,d0:0,d1:0;
                     ("g_qz_cov_def_progress", VariableAccess<Boolean> @:7153 check:65380,op:5,dt:5,nt:13,next:7154,nextCheck:65381,str:11818,h:0,d0:19,d1:0;
                         (5, Expression<Short> @:7154 check:65381,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17191,h:1,d0:5,d1:65535;))))
-            (____, Scope<Void> @:7155 check:65382,op:426,dt:4,nt:8,next:65535,nextCheck:65535,str:17196,h:1,d0:7156,d1:65383;
+            (____, BuiltinInvocation<Void> @:7155 check:65382,op:426,dt:4,nt:8,next:65535,nextCheck:65535,str:17196,h:1,d0:7156,d1:65383;
                 ("cs_go_to_vehicle", Expression<MethodOrOperator> @:7156 check:65383,op:426,dt:2,nt:9,next:7157,nextCheck:65384,str:15920,h:0,d0:0,d1:0;
-                    (____, Scope<Vehicle> @:7157 check:65384,op:341,dt:52,nt:8,next:65535,nextCheck:65535,str:17214,h:1,d0:7158,d1:65385;
+                    (____, BuiltinInvocation<Vehicle> @:7157 check:65384,op:341,dt:52,nt:8,next:65535,nextCheck:65535,str:17214,h:1,d0:7158,d1:65385;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:7158 check:65385,op:341,dt:2,nt:9,next:7159,nextCheck:65386,str:13120,h:0,d0:0,d1:0;
                             ("qz_cov_def_ghosts/a", Expression<AI> @:7159 check:65386,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13195,h:0,d0:0,d1:49154;))))))))

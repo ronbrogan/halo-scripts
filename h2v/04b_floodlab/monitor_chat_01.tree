@@ -1,63 +1,63 @@
 
 ("monitor_chat_01", MethodDecl<Void> @:332 check:0,op:0,dt:0,nt:65535,next:29329,nextCheck:54789,str:36853,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:29329 check:54789,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:16050,h:4,d0:29330,d1:54790;
+    (____, BuiltinInvocation<Void> @:29329 check:54789,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:16050,h:4,d0:29330,d1:54790;
         ("begin", Expression<MethodOrOperator> @:29330 check:54790,op:0,dt:2,nt:9,next:29270,nextCheck:54730,str:210,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:29270 check:54730,op:4,dt:4,nt:8,next:29274,nextCheck:54734,str:16091,h:4,d0:29271,d1:54731;
+            (____, BuiltinInvocation<Void> @:29270 check:54730,op:4,dt:4,nt:8,next:29274,nextCheck:54734,str:16091,h:4,d0:29271,d1:54731;
                 ("set", Expression<MethodOrOperator> @:29271 check:54731,op:4,dt:2,nt:9,next:29272,nextCheck:54732,str:2606,h:0,d0:0,d1:0;
                     ("monitor_available", VariableAccess<Boolean> @:29272 check:54732,op:65535,dt:5,nt:13,next:29273,nextCheck:54733,str:36066,h:0,d0:44,d1:0;
                         (False, Expression<Boolean> @:29273 check:54733,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:16114,h:4,d0:65280,d1:65535;))))
-            (____, Scope<Void> @:29274 check:54734,op:4,dt:4,nt:8,next:29278,nextCheck:54738,str:16123,h:4,d0:29275,d1:54735;
+            (____, BuiltinInvocation<Void> @:29274 check:54734,op:4,dt:4,nt:8,next:29278,nextCheck:54738,str:16123,h:4,d0:29275,d1:54735;
                 ("set", Expression<MethodOrOperator> @:29275 check:54735,op:4,dt:2,nt:9,next:29276,nextCheck:54736,str:2606,h:0,d0:0,d1:0;
                     ("monitor_done_talking", VariableAccess<Boolean> @:29276 check:54736,op:65535,dt:5,nt:13,next:29277,nextCheck:54737,str:35260,h:0,d0:43,d1:0;
                         (False, Expression<Boolean> @:29277 check:54737,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:16149,h:4,d0:65280,d1:65535;))))
-            (____, Scope<Void> @:29278 check:54738,op:446,dt:4,nt:8,next:29281,nextCheck:54741,str:16158,h:4,d0:29279,d1:54739;
+            (____, BuiltinInvocation<Void> @:29278 check:54738,op:446,dt:4,nt:8,next:29281,nextCheck:54741,str:16158,h:4,d0:29279,d1:54739;
                 ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:29279 check:54739,op:446,dt:2,nt:9,next:29280,nextCheck:54740,str:35281,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:29280 check:54740,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:16187,h:4,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:29281 check:54741,op:374,dt:4,nt:8,next:29284,nextCheck:54744,str:16195,h:4,d0:29282,d1:54742;
+            (____, BuiltinInvocation<Void> @:29281 check:54741,op:374,dt:4,nt:8,next:29284,nextCheck:54744,str:16195,h:4,d0:29282,d1:54742;
                 ("cs_switch", Expression<MethodOrOperator> @:29282 check:54742,op:374,dt:2,nt:9,next:29283,nextCheck:54743,str:11362,h:0,d0:0,d1:0;
                     ("monitor", Expression<StringId> @:29283 check:54743,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:6313,h:0,d0:4192,d1:1792;)))
-            (____, Scope<Void> @:29284 check:54744,op:19,dt:4,nt:8,next:29287,nextCheck:54747,str:16217,h:4,d0:29285,d1:54745;
+            (____, BuiltinInvocation<Void> @:29284 check:54744,op:19,dt:4,nt:8,next:29287,nextCheck:54747,str:16217,h:4,d0:29285,d1:54745;
                 ("sleep", Expression<MethodOrOperator> @:29285 check:54745,op:19,dt:2,nt:9,next:29286,nextCheck:54746,str:289,h:0,d0:0,d1:0;
                     (60, Expression<Short> @:29286 check:54746,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:16224,h:4,d0:60,d1:65535;)))
-            (____, Scope<Void> @:29287 check:54747,op:433,dt:4,nt:8,next:29292,nextCheck:54752,str:16230,h:4,d0:29288,d1:54748;
+            (____, BuiltinInvocation<Void> @:29287 check:54747,op:433,dt:4,nt:8,next:29292,nextCheck:54752,str:16230,h:4,d0:29288,d1:54748;
                 ("cs_start_approach_player", Expression<MethodOrOperator> @:29288 check:54748,op:433,dt:2,nt:9,next:29289,nextCheck:54749,str:20408,h:0,d0:0,d1:0;
                     (3f, Expression<Float> @:29289 check:54749,op:6,dt:6,nt:9,next:29290,nextCheck:54750,str:16256,h:4,d0:0,d1:16448;
                         (50f, Expression<Float> @:29290 check:54750,op:6,dt:6,nt:9,next:29291,nextCheck:54751,str:16258,h:4,d0:0,d1:16968;
                             (50f, Expression<Float> @:29291 check:54751,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:16261,h:4,d0:0,d1:16968;)))))
-            (____, Scope<Void> @:29292 check:54752,op:444,dt:4,nt:8,next:29295,nextCheck:54755,str:16267,h:4,d0:29293,d1:54753;
+            (____, BuiltinInvocation<Void> @:29292 check:54752,op:444,dt:4,nt:8,next:29295,nextCheck:54755,str:16267,h:4,d0:29293,d1:54753;
                 ("cs_enable_moving", Expression<MethodOrOperator> @:29293 check:54753,op:444,dt:2,nt:9,next:29294,nextCheck:54754,str:11397,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:29294 check:54754,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:16285,h:4,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:29295 check:54755,op:443,dt:4,nt:8,next:29298,nextCheck:54758,str:16293,h:4,d0:29296,d1:54756;
+            (____, BuiltinInvocation<Void> @:29295 check:54755,op:443,dt:4,nt:8,next:29298,nextCheck:54758,str:16293,h:4,d0:29296,d1:54756;
                 ("cs_enable_looking", Expression<MethodOrOperator> @:29296 check:54756,op:443,dt:2,nt:9,next:29297,nextCheck:54757,str:12814,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:29297 check:54757,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:16312,h:4,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:29298 check:54758,op:27,dt:4,nt:8,next:29301,nextCheck:54761,str:16320,h:4,d0:29299,d1:54759;
+            (____, BuiltinInvocation<Void> @:29298 check:54758,op:27,dt:4,nt:8,next:29301,nextCheck:54761,str:16320,h:4,d0:29299,d1:54759;
                 ("print", Expression<MethodOrOperator> @:29299 check:54759,op:27,dt:2,nt:9,next:29300,nextCheck:54760,str:295,h:0,d0:0,d1:0;
                     ("343 guilty spark: 'this mining-facility predates instalation alpha by several hundred years.'", Expression<String> @:29300 check:54760,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:36084,h:0,d0:24572,d1:10912;)))
-            (____, Scope<Void> @:29301 check:54761,op:418,dt:4,nt:8,next:29304,nextCheck:54764,str:16426,h:4,d0:29302,d1:54762;
+            (____, BuiltinInvocation<Void> @:29301 check:54761,op:418,dt:4,nt:8,next:29304,nextCheck:54764,str:16426,h:4,d0:29302,d1:54762;
                 ("cs_play_line", Expression<MethodOrOperator> @:29302 check:54762,op:418,dt:2,nt:9,next:29303,nextCheck:54763,str:11461,h:0,d0:0,d1:0;
                     ("0900", Expression<StringId> @:29303 check:54763,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:36178,h:0,d0:9626,d1:1024;)))
-            (____, Scope<Void> @:29304 check:54764,op:27,dt:4,nt:8,next:29307,nextCheck:54767,str:16448,h:4,d0:29305,d1:54765;
+            (____, BuiltinInvocation<Void> @:29304 check:54764,op:27,dt:4,nt:8,next:29307,nextCheck:54767,str:16448,h:4,d0:29305,d1:54765;
                 ("print", Expression<MethodOrOperator> @:29305 check:54765,op:27,dt:2,nt:9,next:29306,nextCheck:54766,str:295,h:0,d0:0,d1:0;
                     ("343 guilty spark: 'it was retrofitted to research possible offensive and defensive measures against the flood.'", Expression<String> @:29306 check:54766,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:36183,h:0,d0:24671,d1:10912;)))
-            (____, Scope<Void> @:29307 check:54767,op:418,dt:4,nt:8,next:29310,nextCheck:54770,str:16572,h:4,d0:29308,d1:54768;
+            (____, BuiltinInvocation<Void> @:29307 check:54767,op:418,dt:4,nt:8,next:29310,nextCheck:54770,str:16572,h:4,d0:29308,d1:54768;
                 ("cs_play_line", Expression<MethodOrOperator> @:29308 check:54768,op:418,dt:2,nt:9,next:29309,nextCheck:54769,str:11461,h:0,d0:0,d1:0;
                     ("0910", Expression<StringId> @:29309 check:54769,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:36295,h:0,d0:9627,d1:1024;)))
-            (____, Scope<Void> @:29310 check:54770,op:27,dt:4,nt:8,next:29313,nextCheck:54773,str:16594,h:4,d0:29311,d1:54771;
+            (____, BuiltinInvocation<Void> @:29310 check:54770,op:27,dt:4,nt:8,next:29313,nextCheck:54773,str:16594,h:4,d0:29311,d1:54771;
                 ("print", Expression<MethodOrOperator> @:29311 check:54771,op:27,dt:2,nt:9,next:29312,nextCheck:54772,str:295,h:0,d0:0,d1:0;
                     ("343 guilty spark: 'indeed, i designed and oversaw the construction of this facilitiy's various outbreak management systems.'", Expression<String> @:29312 check:54772,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:36300,h:0,d0:24788,d1:10912;)))
-            (____, Scope<Void> @:29313 check:54773,op:418,dt:4,nt:8,next:29316,nextCheck:54776,str:16731,h:4,d0:29314,d1:54774;
+            (____, BuiltinInvocation<Void> @:29313 check:54773,op:418,dt:4,nt:8,next:29316,nextCheck:54776,str:16731,h:4,d0:29314,d1:54774;
                 ("cs_play_line", Expression<MethodOrOperator> @:29314 check:54774,op:418,dt:2,nt:9,next:29315,nextCheck:54775,str:11461,h:0,d0:0,d1:0;
                     ("0920", Expression<StringId> @:29315 check:54775,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:36425,h:0,d0:9628,d1:1024;)))
-            (____, Scope<Void> @:29316 check:54776,op:434,dt:4,nt:8,next:29318,nextCheck:54778,str:16753,h:4,d0:29317,d1:54777;
+            (____, BuiltinInvocation<Void> @:29316 check:54776,op:434,dt:4,nt:8,next:29318,nextCheck:54778,str:16753,h:4,d0:29317,d1:54777;
                 ("cs_approach_stop", Expression<MethodOrOperator> @:29317 check:54777,op:434,dt:2,nt:9,next:65535,nextCheck:65535,str:13267,h:0,d0:0,d1:0;))
-            (____, Scope<Void> @:29318 check:54778,op:446,dt:4,nt:8,next:29321,nextCheck:54781,str:16774,h:4,d0:29319,d1:54779;
+            (____, BuiltinInvocation<Void> @:29318 check:54778,op:446,dt:4,nt:8,next:29321,nextCheck:54781,str:16774,h:4,d0:29319,d1:54779;
                 ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:29319 check:54779,op:446,dt:2,nt:9,next:29320,nextCheck:54780,str:35281,h:0,d0:0,d1:0;
                     (False, Expression<Boolean> @:29320 check:54780,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:16803,h:4,d0:65280,d1:65535;)))
-            (____, Scope<Void> @:29321 check:54781,op:4,dt:4,nt:8,next:29325,nextCheck:54785,str:16812,h:4,d0:29322,d1:54782;
+            (____, BuiltinInvocation<Void> @:29321 check:54781,op:4,dt:4,nt:8,next:29325,nextCheck:54785,str:16812,h:4,d0:29322,d1:54782;
                 ("set", Expression<MethodOrOperator> @:29322 check:54782,op:4,dt:2,nt:9,next:29323,nextCheck:54783,str:2606,h:0,d0:0,d1:0;
                     ("monitor_done_talking", VariableAccess<Boolean> @:29323 check:54783,op:65535,dt:5,nt:13,next:29324,nextCheck:54784,str:35260,h:0,d0:43,d1:0;
                         (True, Expression<Boolean> @:29324 check:54784,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:16838,h:4,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:29325 check:54785,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:16846,h:4,d0:29326,d1:54786;
+            (____, BuiltinInvocation<Void> @:29325 check:54785,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:16846,h:4,d0:29326,d1:54786;
                 ("set", Expression<MethodOrOperator> @:29326 check:54786,op:4,dt:2,nt:9,next:29327,nextCheck:54787,str:2606,h:0,d0:0,d1:0;
                     ("monitor_available", VariableAccess<Boolean> @:29327 check:54787,op:65535,dt:5,nt:13,next:29328,nextCheck:54788,str:36066,h:0,d0:44,d1:0;
                         (True, Expression<Boolean> @:29328 check:54788,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:16869,h:4,d0:65281,d1:65535;)))))))

@@ -1,48 +1,48 @@
 
 ("cs_e22_mars_inf2_marine4", MethodDecl<Void> @:284 check:0,op:0,dt:0,nt:65535,next:9796,nextCheck:35256,str:21665,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:9796 check:35256,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:56501,h:1,d0:9797,d1:35257;
+    (____, BuiltinInvocation<Void> @:9796 check:35256,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:56501,h:1,d0:9797,d1:35257;
         ("begin", Expression<MethodOrOperator> @:9797 check:35257,op:0,dt:2,nt:9,next:9752,nextCheck:35212,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:9752 check:35212,op:448,dt:4,nt:8,next:9755,nextCheck:35215,str:56551,h:1,d0:9753,d1:35213;
+            (____, BuiltinInvocation<Void> @:9752 check:35212,op:448,dt:4,nt:8,next:9755,nextCheck:35215,str:56551,h:1,d0:9753,d1:35213;
                 ("cs_force_combat_status", Expression<MethodOrOperator> @:9753 check:35213,op:448,dt:2,nt:9,next:9754,nextCheck:35214,str:19735,h:0,d0:0,d1:0;
                     (3, Expression<Short> @:9754 check:35214,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:56575,h:1,d0:3,d1:65535;)))
-            (____, Scope<Void> @:9755 check:35215,op:423,dt:4,nt:8,next:9758,nextCheck:35218,str:56580,h:1,d0:9756,d1:35216;
+            (____, BuiltinInvocation<Void> @:9755 check:35215,op:423,dt:4,nt:8,next:9758,nextCheck:35218,str:56580,h:1,d0:9756,d1:35216;
                 ("cs_crouch", Expression<MethodOrOperator> @:9756 check:35216,op:423,dt:2,nt:9,next:9757,nextCheck:35217,str:16510,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:9757 check:35217,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:56591,h:1,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:9758 check:35218,op:21,dt:4,nt:8,next:9762,nextCheck:35222,str:56599,h:1,d0:9759,d1:35219;
+            (____, BuiltinInvocation<Void> @:9758 check:35218,op:21,dt:4,nt:8,next:9762,nextCheck:35222,str:56599,h:1,d0:9759,d1:35219;
                 ("sleep_until", Expression<MethodOrOperator> @:9759 check:35219,op:21,dt:2,nt:9,next:9760,nextCheck:35220,str:236,h:0,d0:0,d1:0;
                     ("g_e22_scarab_appeared", VariableAccess<Boolean> @:9760 check:35220,op:5,dt:5,nt:13,next:9761,nextCheck:35221,str:19814,h:0,d0:28,d1:0;
                         (5, Expression<Short> @:9761 check:35221,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:56634,h:1,d0:5,d1:65535;))))
-            (____, Scope<Void> @:9762 check:35222,op:19,dt:4,nt:8,next:9768,nextCheck:35228,str:56639,h:1,d0:9763,d1:35223;
+            (____, BuiltinInvocation<Void> @:9762 check:35222,op:19,dt:4,nt:8,next:9768,nextCheck:35228,str:56639,h:1,d0:9763,d1:35223;
                 ("sleep", Expression<MethodOrOperator> @:9763 check:35223,op:19,dt:2,nt:9,next:9764,nextCheck:35224,str:85,h:0,d0:0,d1:0;
-                    (____, Scope<Short> @:9764 check:35224,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:56646,h:1,d0:9765,d1:35225;
+                    (____, BuiltinInvocation<Short> @:9764 check:35224,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:56646,h:1,d0:9765,d1:35225;
                         ("random_range", Expression<MethodOrOperator> @:9765 check:35225,op:124,dt:2,nt:9,next:9766,nextCheck:35226,str:15969,h:0,d0:0,d1:0;
                             (30, Expression<Short> @:9766 check:35226,op:7,dt:7,nt:9,next:9767,nextCheck:35227,str:56660,h:1,d0:30,d1:65535;
                                 (45, Expression<Short> @:9767 check:35227,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:56663,h:1,d0:45,d1:65535;))))))
-            (____, Scope<Void> @:9768 check:35228,op:406,dt:4,nt:8,next:9772,nextCheck:35232,str:56681,h:1,d0:9769,d1:35229;
+            (____, BuiltinInvocation<Void> @:9768 check:35228,op:406,dt:4,nt:8,next:9772,nextCheck:35232,str:56681,h:1,d0:9769,d1:35229;
                 ("cs_shoot_point", Expression<MethodOrOperator> @:9769 check:35229,op:406,dt:2,nt:9,next:9770,nextCheck:35230,str:15515,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:9770 check:35230,op:5,dt:5,nt:9,next:9771,nextCheck:35231,str:56697,h:1,d0:65281,d1:65535;
                         ("e22_scarab_target/target", Expression<SpatialPoint> @:9771 check:35231,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:18899,h:0,d0:0,d1:27;))))
-            (____, Scope<Void> @:9772 check:35232,op:21,dt:4,nt:8,next:9776,nextCheck:35236,str:56730,h:1,d0:9773,d1:35233;
+            (____, BuiltinInvocation<Void> @:9772 check:35232,op:21,dt:4,nt:8,next:9776,nextCheck:35236,str:56730,h:1,d0:9773,d1:35233;
                 ("sleep_until", Expression<MethodOrOperator> @:9773 check:35233,op:21,dt:2,nt:9,next:9774,nextCheck:35234,str:236,h:0,d0:0,d1:0;
                     ("g_e22_scarab_advancing", VariableAccess<Boolean> @:9774 check:35234,op:5,dt:5,nt:13,next:9775,nextCheck:35235,str:19688,h:0,d0:29,d1:0;
                         (5, Expression<Short> @:9775 check:35235,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:56766,h:1,d0:5,d1:65535;))))
-            (____, Scope<Void> @:9776 check:35236,op:19,dt:4,nt:8,next:9782,nextCheck:35242,str:56771,h:1,d0:9777,d1:35237;
+            (____, BuiltinInvocation<Void> @:9776 check:35236,op:19,dt:4,nt:8,next:9782,nextCheck:35242,str:56771,h:1,d0:9777,d1:35237;
                 ("sleep", Expression<MethodOrOperator> @:9777 check:35237,op:19,dt:2,nt:9,next:9778,nextCheck:35238,str:85,h:0,d0:0,d1:0;
-                    (____, Scope<Short> @:9778 check:35238,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:56778,h:1,d0:9779,d1:35239;
+                    (____, BuiltinInvocation<Short> @:9778 check:35238,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:56778,h:1,d0:9779,d1:35239;
                         ("random_range", Expression<MethodOrOperator> @:9779 check:35239,op:124,dt:2,nt:9,next:9780,nextCheck:35240,str:15969,h:0,d0:0,d1:0;
                             (240, Expression<Short> @:9780 check:35240,op:7,dt:7,nt:9,next:9781,nextCheck:35241,str:56792,h:1,d0:240,d1:65535;
                                 (270, Expression<Short> @:9781 check:35241,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:56796,h:1,d0:270,d1:65535;))))))
-            (____, Scope<Void> @:9782 check:35242,op:406,dt:4,nt:8,next:9786,nextCheck:35246,str:56819,h:1,d0:9783,d1:35243;
+            (____, BuiltinInvocation<Void> @:9782 check:35242,op:406,dt:4,nt:8,next:9786,nextCheck:35246,str:56819,h:1,d0:9783,d1:35243;
                 ("cs_shoot_point", Expression<MethodOrOperator> @:9783 check:35243,op:406,dt:2,nt:9,next:9784,nextCheck:35244,str:15515,h:0,d0:0,d1:0;
                     (False, Expression<Boolean> @:9784 check:35244,op:5,dt:5,nt:9,next:9785,nextCheck:35245,str:56835,h:1,d0:65280,d1:65535;
                         ("e22_scarab_target/target", Expression<SpatialPoint> @:9785 check:35245,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:18899,h:0,d0:0,d1:27;))))
-            (____, Scope<Void> @:9786 check:35246,op:423,dt:4,nt:8,next:9789,nextCheck:35249,str:56869,h:1,d0:9787,d1:35247;
+            (____, BuiltinInvocation<Void> @:9786 check:35246,op:423,dt:4,nt:8,next:9789,nextCheck:35249,str:56869,h:1,d0:9787,d1:35247;
                 ("cs_crouch", Expression<MethodOrOperator> @:9787 check:35247,op:423,dt:2,nt:9,next:9788,nextCheck:35248,str:16510,h:0,d0:0,d1:0;
                     (False, Expression<Boolean> @:9788 check:35248,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:56880,h:1,d0:65280,d1:65535;)))
-            (____, Scope<Void> @:9789 check:35249,op:385,dt:4,nt:8,next:9792,nextCheck:35252,str:56889,h:1,d0:9790,d1:35250;
+            (____, BuiltinInvocation<Void> @:9789 check:35249,op:385,dt:4,nt:8,next:9792,nextCheck:35252,str:56889,h:1,d0:9790,d1:35250;
                 ("cs_go_to", Expression<MethodOrOperator> @:9790 check:35250,op:385,dt:2,nt:9,next:9791,nextCheck:35251,str:18710,h:0,d0:0,d1:0;
                     ("e22_mars_inf2/p4", Expression<SpatialPoint> @:9791 check:35251,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:19932,h:0,d0:4,d1:25;)))
-            (____, Scope<Void> @:9792 check:35252,op:366,dt:4,nt:8,next:65535,nextCheck:65535,str:56919,h:1,d0:9793,d1:35253;
+            (____, BuiltinInvocation<Void> @:9792 check:35252,op:366,dt:4,nt:8,next:65535,nextCheck:65535,str:56919,h:1,d0:9793,d1:35253;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:9793 check:35253,op:366,dt:2,nt:9,next:9794,nextCheck:35254,str:15699,h:0,d0:0,d1:0;
                     ("ai_current_actor", VariableAccess<AI> @:9794 check:35254,op:19,dt:19,nt:13,next:9795,nextCheck:35255,str:13835,h:0,d0:33564,d1:65535;
                         ("cs_e22_mars_inf2_marine_end", Expression<AIScript> @:9795 check:35255,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:19853,h:0,d0:279,d1:0;)))))))

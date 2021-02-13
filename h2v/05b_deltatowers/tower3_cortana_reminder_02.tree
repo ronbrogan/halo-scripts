@@ -1,83 +1,83 @@
 
 ("tower3_cortana_reminder_02", MethodDecl<Void> @:196 check:0,op:0,dt:0,nt:65535,next:9317,nextCheck:34777,str:19589,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:9317 check:34777,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36794,h:1,d0:9318,d1:34778;
+    (____, BuiltinInvocation<Void> @:9317 check:34777,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36794,h:1,d0:9318,d1:34778;
         ("begin", Expression<MethodOrOperator> @:9318 check:34778,op:0,dt:2,nt:9,next:9238,nextCheck:34698,str:142,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:9238 check:34698,op:21,dt:4,nt:8,next:9248,nextCheck:34708,str:36839,h:1,d0:9239,d1:34699;
+            (____, BuiltinInvocation<Void> @:9238 check:34698,op:21,dt:4,nt:8,next:9248,nextCheck:34708,str:36839,h:1,d0:9239,d1:34699;
                 ("sleep_until", Expression<MethodOrOperator> @:9239 check:34699,op:21,dt:2,nt:9,next:9240,nextCheck:34700,str:372,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:9240 check:34700,op:15,dt:5,nt:8,next:9246,nextCheck:34706,str:36852,h:1,d0:9241,d1:34701;
+                    (____, BuiltinInvocation<Boolean> @:9240 check:34700,op:15,dt:5,nt:8,next:9246,nextCheck:34706,str:36852,h:1,d0:9241,d1:34701;
                         (">", Expression<MethodOrOperator> @:9241 check:34701,op:15,dt:2,nt:9,next:9242,nextCheck:34702,str:10389,h:0,d0:0,d1:0;
-                            (-2.153747E-34f, Scope<Float> @:9242 check:34702,op:259,dt:6,nt:8,next:9245,nextCheck:34705,str:36855,h:1,d0:9243,d1:34703;
+                            (-2.153747E-34f, BuiltinInvocation<Float> @:9242 check:34702,op:259,dt:6,nt:8,next:9245,nextCheck:34705,str:36855,h:1,d0:9243,d1:34703;
                                 ("device_group_get", Expression<MethodOrOperator> @:9243 check:34703,op:259,dt:2,nt:9,next:9244,nextCheck:34704,str:15259,h:0,d0:0,d1:0;
                                     ("elev_under_switch", Expression<DeviceGroup> @:9244 check:34704,op:18,dt:18,nt:9,next:65535,nextCheck:65535,str:18324,h:0,d0:1,d1:58725;)))
                             (0f, Expression<Float> @:9245 check:34705,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:36892,h:1,d0:0,d1:0;)))
                     (30, Expression<Short> @:9246 check:34706,op:7,dt:7,nt:9,next:9247,nextCheck:34707,str:36895,h:1,d0:30,d1:65535;
                         (3600, Expression<Int> @:9247 check:34707,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:36898,h:1,d0:3600,d1:0;))))
-            (____, Scope<Void> @:9248 check:34708,op:2,dt:4,nt:8,next:9279,nextCheck:34739,str:36906,h:1,d0:9249,d1:34709;
+            (____, BuiltinInvocation<Void> @:9248 check:34708,op:2,dt:4,nt:8,next:9279,nextCheck:34739,str:36906,h:1,d0:9249,d1:34709;
                 ("if", Expression<MethodOrOperator> @:9249 check:34709,op:2,dt:2,nt:9,next:9250,nextCheck:34710,str:597,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:9250 check:34710,op:13,dt:5,nt:8,next:9256,nextCheck:34716,str:36910,h:1,d0:9251,d1:34711;
+                    (____, BuiltinInvocation<Boolean> @:9250 check:34710,op:13,dt:5,nt:8,next:9256,nextCheck:34716,str:36910,h:1,d0:9251,d1:34711;
                         ("=", Expression<MethodOrOperator> @:9251 check:34711,op:13,dt:2,nt:9,next:9252,nextCheck:34712,str:437,h:0,d0:0,d1:0;
-                            (-2.3042125E-34f, Scope<Float> @:9252 check:34712,op:259,dt:6,nt:8,next:9255,nextCheck:34715,str:36913,h:1,d0:9253,d1:34713;
+                            (-2.3042125E-34f, BuiltinInvocation<Float> @:9252 check:34712,op:259,dt:6,nt:8,next:9255,nextCheck:34715,str:36913,h:1,d0:9253,d1:34713;
                                 ("device_group_get", Expression<MethodOrOperator> @:9253 check:34713,op:259,dt:2,nt:9,next:9254,nextCheck:34714,str:15259,h:0,d0:0,d1:0;
                                     ("elev_under_switch", Expression<DeviceGroup> @:9254 check:34714,op:18,dt:18,nt:9,next:65535,nextCheck:65535,str:18324,h:0,d0:1,d1:58725;)))
                             (0f, Expression<Float> @:9255 check:34715,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:36950,h:1,d0:0,d1:0;)))
-                    (____, Scope<Void> @:9256 check:34716,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36956,h:1,d0:9257,d1:34717;
+                    (____, BuiltinInvocation<Void> @:9256 check:34716,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36956,h:1,d0:9257,d1:34717;
                         ("begin", Expression<MethodOrOperator> @:9257 check:34717,op:0,dt:2,nt:9,next:9258,nextCheck:34718,str:142,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:9258 check:34718,op:281,dt:4,nt:8,next:9261,nextCheck:34721,str:36967,h:1,d0:9259,d1:34719;
+                            (____, BuiltinInvocation<Void> @:9258 check:34718,op:281,dt:4,nt:8,next:9261,nextCheck:34721,str:36967,h:1,d0:9259,d1:34719;
                                 ("ai_dialogue_enable", Expression<MethodOrOperator> @:9259 check:34719,op:281,dt:2,nt:9,next:9260,nextCheck:34720,str:10370,h:0,d0:0,d1:0;
                                     (False, Expression<Boolean> @:9260 check:34720,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:36987,h:1,d0:65280,d1:65535;)))
-                            (____, Scope<Void> @:9261 check:34721,op:19,dt:4,nt:8,next:9264,nextCheck:34724,str:36998,h:1,d0:9262,d1:34722;
+                            (____, BuiltinInvocation<Void> @:9261 check:34721,op:19,dt:4,nt:8,next:9264,nextCheck:34724,str:36998,h:1,d0:9262,d1:34722;
                                 ("sleep", Expression<MethodOrOperator> @:9262 check:34722,op:19,dt:2,nt:9,next:9263,nextCheck:34723,str:221,h:0,d0:0,d1:0;
                                     (60, Expression<Short> @:9263 check:34723,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:37005,h:1,d0:60,d1:65535;)))
-                            (____, Scope<Void> @:9264 check:34724,op:27,dt:4,nt:8,next:9267,nextCheck:34727,str:37013,h:1,d0:9265,d1:34725;
+                            (____, BuiltinInvocation<Void> @:9264 check:34724,op:27,dt:4,nt:8,next:9267,nextCheck:34727,str:37013,h:1,d0:9265,d1:34725;
                                 ("print", Expression<MethodOrOperator> @:9265 check:34725,op:27,dt:2,nt:9,next:9266,nextCheck:34726,str:227,h:0,d0:0,d1:0;
                                     ("cortana: 'all right. let's see where this elevator goes...'", Expression<String> @:9266 check:34726,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18342,h:0,d0:33374,d1:11074;)))
-                            (____, Scope<Void> @:9267 check:34727,op:19,dt:4,nt:8,next:9273,nextCheck:34733,str:37087,h:1,d0:9268,d1:34728;
+                            (____, BuiltinInvocation<Void> @:9267 check:34727,op:19,dt:4,nt:8,next:9273,nextCheck:34733,str:37087,h:1,d0:9268,d1:34728;
                                 ("sleep", Expression<MethodOrOperator> @:9268 check:34728,op:19,dt:2,nt:9,next:9269,nextCheck:34729,str:221,h:0,d0:0,d1:0;
-                                    (____, Scope<Short> @:9269 check:34729,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:37094,h:1,d0:9270,d1:34730;
+                                    (____, BuiltinInvocation<Short> @:9269 check:34729,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:37094,h:1,d0:9270,d1:34730;
                                         ("ai_play_line_on_object", Expression<MethodOrOperator> @:9270 check:34730,op:362,dt:2,nt:9,next:9271,nextCheck:34731,str:10037,h:0,d0:0,d1:0;
                                             (4294967295, Expression<Entity> @:9271 check:34731,op:50,dt:50,nt:9,next:9272,nextCheck:34732,str:52,h:0,d0:65535,d1:65535;
                                                 ("1050", Expression<StringId> @:9272 check:34732,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:18402,h:0,d0:9829,d1:1024;))))))
-                            (____, Scope<Void> @:9273 check:34733,op:19,dt:4,nt:8,next:9276,nextCheck:34736,str:37224,h:1,d0:9274,d1:34734;
+                            (____, BuiltinInvocation<Void> @:9273 check:34733,op:19,dt:4,nt:8,next:9276,nextCheck:34736,str:37224,h:1,d0:9274,d1:34734;
                                 ("sleep", Expression<MethodOrOperator> @:9274 check:34734,op:19,dt:2,nt:9,next:9275,nextCheck:34735,str:221,h:0,d0:0,d1:0;
                                     (30, Expression<Short> @:9275 check:34735,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:37231,h:1,d0:30,d1:65535;)))
-                            (____, Scope<Void> @:9276 check:34736,op:281,dt:4,nt:8,next:65535,nextCheck:65535,str:37239,h:1,d0:9277,d1:34737;
+                            (____, BuiltinInvocation<Void> @:9276 check:34736,op:281,dt:4,nt:8,next:65535,nextCheck:65535,str:37239,h:1,d0:9277,d1:34737;
                                 ("ai_dialogue_enable", Expression<MethodOrOperator> @:9277 check:34737,op:281,dt:2,nt:9,next:9278,nextCheck:34738,str:10370,h:0,d0:0,d1:0;
                                     (True, Expression<Boolean> @:9278 check:34738,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:37259,h:1,d0:65281,d1:65535;)))))))
-            (____, Scope<Void> @:9279 check:34739,op:21,dt:4,nt:8,next:9289,nextCheck:34749,str:37279,h:1,d0:9280,d1:34740;
+            (____, BuiltinInvocation<Void> @:9279 check:34739,op:21,dt:4,nt:8,next:9289,nextCheck:34749,str:37279,h:1,d0:9280,d1:34740;
                 ("sleep_until", Expression<MethodOrOperator> @:9280 check:34740,op:21,dt:2,nt:9,next:9281,nextCheck:34741,str:372,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:9281 check:34741,op:15,dt:5,nt:8,next:9287,nextCheck:34747,str:37292,h:1,d0:9282,d1:34742;
+                    (____, BuiltinInvocation<Boolean> @:9281 check:34741,op:15,dt:5,nt:8,next:9287,nextCheck:34747,str:37292,h:1,d0:9282,d1:34742;
                         (">", Expression<MethodOrOperator> @:9282 check:34742,op:15,dt:2,nt:9,next:9283,nextCheck:34743,str:10389,h:0,d0:0,d1:0;
-                            (-2.7706558E-34f, Scope<Float> @:9283 check:34743,op:259,dt:6,nt:8,next:9286,nextCheck:34746,str:37295,h:1,d0:9284,d1:34744;
+                            (-2.7706558E-34f, BuiltinInvocation<Float> @:9283 check:34743,op:259,dt:6,nt:8,next:9286,nextCheck:34746,str:37295,h:1,d0:9284,d1:34744;
                                 ("device_group_get", Expression<MethodOrOperator> @:9284 check:34744,op:259,dt:2,nt:9,next:9285,nextCheck:34745,str:15259,h:0,d0:0,d1:0;
                                     ("elev_under_switch", Expression<DeviceGroup> @:9285 check:34745,op:18,dt:18,nt:9,next:65535,nextCheck:65535,str:18324,h:0,d0:1,d1:58725;)))
                             (0f, Expression<Float> @:9286 check:34746,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:37332,h:1,d0:0,d1:0;)))
                     (30, Expression<Short> @:9287 check:34747,op:7,dt:7,nt:9,next:9288,nextCheck:34748,str:37335,h:1,d0:30,d1:65535;
                         (1800, Expression<Int> @:9288 check:34748,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:37338,h:1,d0:1800,d1:0;))))
-            (____, Scope<Void> @:9289 check:34749,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:37346,h:1,d0:9290,d1:34750;
+            (____, BuiltinInvocation<Void> @:9289 check:34749,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:37346,h:1,d0:9290,d1:34750;
                 ("if", Expression<MethodOrOperator> @:9290 check:34750,op:2,dt:2,nt:9,next:9291,nextCheck:34751,str:597,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:9291 check:34751,op:13,dt:5,nt:8,next:9297,nextCheck:34757,str:37350,h:1,d0:9292,d1:34752;
+                    (____, BuiltinInvocation<Boolean> @:9291 check:34751,op:13,dt:5,nt:8,next:9297,nextCheck:34757,str:37350,h:1,d0:9292,d1:34752;
                         ("=", Expression<MethodOrOperator> @:9292 check:34752,op:13,dt:2,nt:9,next:9293,nextCheck:34753,str:437,h:0,d0:0,d1:0;
-                            (-2.9211214E-34f, Scope<Float> @:9293 check:34753,op:259,dt:6,nt:8,next:9296,nextCheck:34756,str:37353,h:1,d0:9294,d1:34754;
+                            (-2.9211214E-34f, BuiltinInvocation<Float> @:9293 check:34753,op:259,dt:6,nt:8,next:9296,nextCheck:34756,str:37353,h:1,d0:9294,d1:34754;
                                 ("device_group_get", Expression<MethodOrOperator> @:9294 check:34754,op:259,dt:2,nt:9,next:9295,nextCheck:34755,str:15259,h:0,d0:0,d1:0;
                                     ("elev_under_switch", Expression<DeviceGroup> @:9295 check:34755,op:18,dt:18,nt:9,next:65535,nextCheck:65535,str:18324,h:0,d0:1,d1:58725;)))
                             (0f, Expression<Float> @:9296 check:34756,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:37390,h:1,d0:0,d1:0;)))
-                    (____, Scope<Void> @:9297 check:34757,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:37396,h:1,d0:9298,d1:34758;
+                    (____, BuiltinInvocation<Void> @:9297 check:34757,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:37396,h:1,d0:9298,d1:34758;
                         ("begin", Expression<MethodOrOperator> @:9298 check:34758,op:0,dt:2,nt:9,next:9299,nextCheck:34759,str:142,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:9299 check:34759,op:640,dt:4,nt:8,next:9305,nextCheck:34765,str:37407,h:1,d0:9300,d1:34760;
+                            (____, BuiltinInvocation<Void> @:9299 check:34759,op:640,dt:4,nt:8,next:9305,nextCheck:34765,str:37407,h:1,d0:9300,d1:34760;
                                 ("activate_team_nav_point_object", Expression<MethodOrOperator> @:9300 check:34760,op:640,dt:2,nt:9,next:9301,nextCheck:34761,str:15350,h:0,d0:0,d1:0;
                                     ("default", Expression<NavigationPoint> @:9301 check:34761,op:27,dt:27,nt:9,next:9302,nextCheck:34762,str:15381,h:0,d0:0,d1:0;
                                         ("player", Expression<Team> @:9302 check:34762,op:45,dt:45,nt:9,next:9303,nextCheck:34763,str:15389,h:0,d0:1,d1:65535;
                                             (4294901850, Expression<Entity> @:9303 check:34763,op:56,dt:50,nt:9,next:9304,nextCheck:34764,str:18407,h:0,d0:90,d1:65535;
                                                 (0f, Expression<Float> @:9304 check:34764,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:37475,h:1,d0:0,d1:0;))))))
-                            (____, Scope<Void> @:9305 check:34765,op:21,dt:4,nt:8,next:9313,nextCheck:34773,str:37482,h:1,d0:9306,d1:34766;
+                            (____, BuiltinInvocation<Void> @:9305 check:34765,op:21,dt:4,nt:8,next:9313,nextCheck:34773,str:37482,h:1,d0:9306,d1:34766;
                                 ("sleep_until", Expression<MethodOrOperator> @:9306 check:34766,op:21,dt:2,nt:9,next:9307,nextCheck:34767,str:372,h:0,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:9307 check:34767,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:37495,h:1,d0:9308,d1:34768;
+                                    (____, BuiltinInvocation<Boolean> @:9307 check:34767,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:37495,h:1,d0:9308,d1:34768;
                                         (">", Expression<MethodOrOperator> @:9308 check:34768,op:15,dt:2,nt:9,next:9309,nextCheck:34769,str:10389,h:0,d0:0,d1:0;
-                                            (-3.1618663E-34f, Scope<Float> @:9309 check:34769,op:259,dt:6,nt:8,next:9312,nextCheck:34772,str:37498,h:1,d0:9310,d1:34770;
+                                            (-3.1618663E-34f, BuiltinInvocation<Float> @:9309 check:34769,op:259,dt:6,nt:8,next:9312,nextCheck:34772,str:37498,h:1,d0:9310,d1:34770;
                                                 ("device_group_get", Expression<MethodOrOperator> @:9310 check:34770,op:259,dt:2,nt:9,next:9311,nextCheck:34771,str:15259,h:0,d0:0,d1:0;
                                                     ("elev_under_switch", Expression<DeviceGroup> @:9311 check:34771,op:18,dt:18,nt:9,next:65535,nextCheck:65535,str:18324,h:0,d0:1,d1:58725;)))
                                             (0f, Expression<Float> @:9312 check:34772,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:37535,h:1,d0:0,d1:0;)))))
-                            (____, Scope<Void> @:9313 check:34773,op:644,dt:4,nt:8,next:65535,nextCheck:65535,str:37543,h:1,d0:9314,d1:34774;
+                            (____, BuiltinInvocation<Void> @:9313 check:34773,op:644,dt:4,nt:8,next:65535,nextCheck:65535,str:37543,h:1,d0:9314,d1:34774;
                                 ("deactivate_team_nav_point_object", Expression<MethodOrOperator> @:9314 check:34774,op:644,dt:2,nt:9,next:9315,nextCheck:34775,str:15396,h:0,d0:0,d1:0;
                                     ("player", Expression<Team> @:9315 check:34775,op:45,dt:45,nt:9,next:9316,nextCheck:34776,str:15389,h:0,d0:1,d1:65535;
                                         (4294901850, Expression<Entity> @:9316 check:34776,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:18407,h:0,d0:90,d1:65535;)))))))))))

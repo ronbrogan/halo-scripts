@@ -1,25 +1,25 @@
 
 ("c08_4200_jon", MethodDecl<Void> @:133 check:0,op:0,dt:0,nt:65535,next:5548,nextCheck:63775,str:13669,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:5548 check:63775,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:63712,h:0,d0:5549,d1:63776;
+    (____, BuiltinInvocation<Void> @:5548 check:63775,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:63712,h:0,d0:5549,d1:63776;
         ("begin", Expression<MethodOrOperator> @:5549 check:63776,op:0,dt:2,nt:9,next:5527,nextCheck:63754,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:5527 check:63754,op:19,dt:4,nt:8,next:5530,nextCheck:63757,str:63743,h:0,d0:5528,d1:63755;
+            (____, BuiltinInvocation<Void> @:5527 check:63754,op:19,dt:4,nt:8,next:5530,nextCheck:63757,str:63743,h:0,d0:5528,d1:63755;
                 ("sleep", Expression<MethodOrOperator> @:5528 check:63755,op:19,dt:2,nt:9,next:5529,nextCheck:63756,str:85,h:0,d0:0,d1:0;
                     (137, Expression<Short> @:5529 check:63756,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:63750,h:0,d0:137,d1:65535;)))
-            (____, Scope<Void> @:5530 check:63757,op:596,dt:4,nt:8,next:5535,nextCheck:63762,str:63757,h:0,d0:5531,d1:63758;
+            (____, BuiltinInvocation<Void> @:5530 check:63757,op:596,dt:4,nt:8,next:5535,nextCheck:63762,str:63757,h:0,d0:5531,d1:63758;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:5531 check:63758,op:596,dt:2,nt:9,next:5532,nextCheck:63759,str:1586,h:0,d0:0,d1:0;
                     ("sound\dialog\levels\08_controlroom\cinematic\c08_4200_jon", Expression<Sound> @:5532 check:63759,op:32,dt:32,nt:9,next:5533,nextCheck:63760,str:13603,h:0,d0:672,d1:58390;
                         (4294901841, Expression<Entity> @:5533 check:63760,op:56,dt:50,nt:9,next:5534,nextCheck:63761,str:13661,h:0,d0:81,d1:65535;
                             (1f, Expression<Float> @:5534 check:63761,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:63844,h:0,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:5535 check:63762,op:562,dt:4,nt:8,next:5539,nextCheck:63766,str:63849,h:0,d0:5536,d1:63763;
+            (____, BuiltinInvocation<Void> @:5535 check:63762,op:562,dt:4,nt:8,next:5539,nextCheck:63766,str:63849,h:0,d0:5536,d1:63763;
                 ("cinematic_subtitle", Expression<MethodOrOperator> @:5536 check:63763,op:562,dt:2,nt:9,next:5537,nextCheck:63764,str:7661,h:0,d0:0,d1:0;
                     ("c08_4200_jon", Expression<StringId> @:5537 check:63764,op:11,dt:11,nt:9,next:5538,nextCheck:63765,str:13669,h:0,d0:4447,d1:3072;
                         (1f, Expression<Float> @:5538 check:63765,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:63882,h:0,d0:0,d1:16256;))))
-            (____, Scope<Void> @:5539 check:63766,op:220,dt:4,nt:8,next:5545,nextCheck:63772,str:63890,h:0,d0:5540,d1:63767;
+            (____, BuiltinInvocation<Void> @:5539 check:63766,op:220,dt:4,nt:8,next:5545,nextCheck:63772,str:63890,h:0,d0:5540,d1:63767;
                 ("unit_set_emotional_state", Expression<MethodOrOperator> @:5540 check:63767,op:220,dt:2,nt:9,next:5541,nextCheck:63768,str:9857,h:0,d0:0,d1:0;
                     ("johnson", Expression<Unit> @:5541 check:63768,op:57,dt:51,nt:9,next:5542,nextCheck:63769,str:13661,h:0,d0:81,d1:65535;
                         ("angry", Expression<StringId> @:5542 check:63769,op:11,dt:11,nt:9,next:5543,nextCheck:63770,str:9882,h:0,d0:430,d1:1280;
                             (0.5f, Expression<Float> @:5543 check:63770,op:6,dt:6,nt:9,next:5544,nextCheck:63771,str:63930,h:0,d0:0,d1:16128;
                                 (0, Expression<Short> @:5544 check:63771,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:63933,h:0,d0:0,d1:65535;))))))
-            (____, Scope<Void> @:5545 check:63772,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:63939,h:0,d0:5546,d1:63773;
+            (____, BuiltinInvocation<Void> @:5545 check:63772,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:63939,h:0,d0:5546,d1:63773;
                 ("print", Expression<MethodOrOperator> @:5546 check:63773,op:27,dt:2,nt:9,next:5547,nextCheck:63774,str:91,h:0,d0:0,d1:0;
                     ("johnson - angry .5 0", Expression<String> @:5547 check:63774,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13682,h:0,d0:7290,d1:12561;))))))

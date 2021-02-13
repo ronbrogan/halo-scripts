@@ -1,19 +1,19 @@
 
 ("save_elv_start", MethodDecl<Void> @:318 check:0,op:0,dt:0,nt:65535,next:12195,nextCheck:37655,str:39863,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:12195 check:37655,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:15521,h:2,d0:12196,d1:37656;
+    (____, BuiltinInvocation<Void> @:12195 check:37655,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:15521,h:2,d0:12196,d1:37656;
         ("begin", Expression<MethodOrOperator> @:12196 check:37656,op:0,dt:2,nt:9,next:12180,nextCheck:37640,str:11,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:12180 check:37640,op:587,dt:4,nt:8,next:12182,nextCheck:37642,str:15558,h:2,d0:12181,d1:37641;
+            (____, BuiltinInvocation<Void> @:12180 check:37640,op:587,dt:4,nt:8,next:12182,nextCheck:37642,str:15558,h:2,d0:12181,d1:37641;
                 ("game_save", Expression<MethodOrOperator> @:12181 check:37641,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:27552,h:0,d0:0,d1:0;))
-            (____, Scope<Void> @:12182 check:37642,op:786,dt:4,nt:8,next:12185,nextCheck:37645,str:15572,h:2,d0:12183,d1:37643;
+            (____, BuiltinInvocation<Void> @:12182 check:37642,op:786,dt:4,nt:8,next:12185,nextCheck:37645,str:15572,h:2,d0:12183,d1:37643;
                 ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:12183 check:37643,op:786,dt:2,nt:9,next:12184,nextCheck:37644,str:27509,h:0,d0:0,d1:0;
                     ("01b_elv_start", Expression<String> @:12184 check:37644,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:27924,h:0,d0:60740,d1:12558;)))
-            (____, Scope<Void> @:12185 check:37645,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:15622,h:2,d0:12186,d1:37646;
+            (____, BuiltinInvocation<Void> @:12185 check:37645,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:15622,h:2,d0:12186,d1:37646;
                 ("set", Expression<MethodOrOperator> @:12186 check:37646,op:4,dt:2,nt:9,next:12187,nextCheck:37647,str:3320,h:0,d0:0,d1:0;
                     ("timer_flavor", VariableAccess<Short> @:12187 check:37647,op:65535,dt:7,nt:13,next:12188,nextCheck:37648,str:27576,h:0,d0:22,d1:0;
-                        (____, Scope<Short> @:12188 check:37648,op:12,dt:7,nt:8,next:65535,nextCheck:65535,str:15640,h:2,d0:12189,d1:37649;
+                        (____, BuiltinInvocation<Short> @:12188 check:37648,op:12,dt:7,nt:8,next:65535,nextCheck:65535,str:15640,h:2,d0:12189,d1:37649;
                             ("max", Expression<MethodOrOperator> @:12189 check:37649,op:12,dt:2,nt:9,next:12190,nextCheck:37650,str:27589,h:0,d0:0,d1:0;
                                 ("timer_flavor", VariableAccess<Float> @:12190 check:37650,op:6,dt:6,nt:13,next:12191,nextCheck:37651,str:27576,h:0,d0:22,d1:0;
-                                    (-1.8703707E-27f, Scope<Float> @:12191 check:37651,op:9,dt:6,nt:8,next:65535,nextCheck:65535,str:15658,h:2,d0:12192,d1:37652;
+                                    (-1.8703707E-27f, BuiltinInvocation<Float> @:12191 check:37651,op:9,dt:6,nt:8,next:65535,nextCheck:65535,str:15658,h:2,d0:12192,d1:37652;
                                         ("*", Expression<MethodOrOperator> @:12192 check:37652,op:9,dt:2,nt:9,next:12193,nextCheck:37653,str:1,h:0,d0:0,d1:0;
                                             (10f, Expression<Float> @:12193 check:37653,op:6,dt:6,nt:9,next:12194,nextCheck:37654,str:15661,h:2,d0:0,d1:16672;
                                                 ("seconds", VariableAccess<Float> @:12194 check:37654,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:3,h:0,d0:18,d1:0;)))))))))))))

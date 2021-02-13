@@ -1,87 +1,87 @@
 
 ("arm02_final_approach", MethodDecl<Void> @:355 check:0,op:0,dt:0,nt:65535,next:20778,nextCheck:46238,str:34290,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:20778 check:46238,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:27647,h:3,d0:20779,d1:46239;
+    (____, BuiltinInvocation<Void> @:20778 check:46238,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:27647,h:3,d0:20779,d1:46239;
         ("begin", Expression<MethodOrOperator> @:20779 check:46239,op:0,dt:2,nt:9,next:20695,nextCheck:46155,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:20695 check:46155,op:449,dt:4,nt:8,next:20698,nextCheck:46158,str:27693,h:3,d0:20696,d1:46156;
+            (____, BuiltinInvocation<Void> @:20695 check:46155,op:449,dt:4,nt:8,next:20698,nextCheck:46158,str:27693,h:3,d0:20696,d1:46156;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:20696 check:46156,op:449,dt:2,nt:9,next:20697,nextCheck:46157,str:17375,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:20697 check:46157,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:27725,h:3,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:20698 check:46158,op:407,dt:4,nt:8,next:20701,nextCheck:46161,str:27733,h:3,d0:20699,d1:46159;
+            (____, BuiltinInvocation<Void> @:20698 check:46158,op:407,dt:4,nt:8,next:20701,nextCheck:46161,str:27733,h:3,d0:20699,d1:46159;
                 ("cs_vehicle_speed", Expression<MethodOrOperator> @:20699 check:46159,op:407,dt:2,nt:9,next:20700,nextCheck:46160,str:22064,h:0,d0:0,d1:0;
                     (0.5f, Expression<Float> @:20700 check:46160,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:27751,h:3,d0:0,d1:16128;)))
-            (____, Scope<Void> @:20701 check:46161,op:380,dt:4,nt:8,next:20705,nextCheck:46165,str:27757,h:3,d0:20702,d1:46162;
+            (____, BuiltinInvocation<Void> @:20701 check:46161,op:380,dt:4,nt:8,next:20705,nextCheck:46165,str:27757,h:3,d0:20702,d1:46162;
                 ("cs_fly_to", Expression<MethodOrOperator> @:20702 check:46162,op:380,dt:2,nt:9,next:20703,nextCheck:46163,str:17423,h:0,d0:0,d1:0;
                     ("airspace/ph13", Expression<SpatialPoint> @:20703 check:46163,op:28,dt:28,nt:9,next:20704,nextCheck:46164,str:31465,h:0,d0:14,d1:10;
                         (2f, Expression<Float> @:20704 check:46164,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:27782,h:3,d0:0,d1:16384;))))
-            (____, Scope<Void> @:20705 check:46165,op:19,dt:4,nt:8,next:20708,nextCheck:46168,str:27787,h:3,d0:20706,d1:46166;
+            (____, BuiltinInvocation<Void> @:20705 check:46165,op:19,dt:4,nt:8,next:20708,nextCheck:46168,str:27787,h:3,d0:20706,d1:46166;
                 ("sleep", Expression<MethodOrOperator> @:20706 check:46166,op:19,dt:2,nt:9,next:20707,nextCheck:46167,str:85,h:0,d0:0,d1:0;
                     (60, Expression<Short> @:20707 check:46167,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:27794,h:3,d0:60,d1:65535;)))
-            (____, Scope<Void> @:20708 check:46168,op:233,dt:4,nt:8,next:20714,nextCheck:46174,str:27803,h:3,d0:20709,d1:46169;
+            (____, BuiltinInvocation<Void> @:20708 check:46168,op:233,dt:4,nt:8,next:20714,nextCheck:46174,str:27803,h:3,d0:20709,d1:46169;
                 ("vehicle_unload", Expression<MethodOrOperator> @:20709 check:46169,op:233,dt:2,nt:9,next:20710,nextCheck:46170,str:23538,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:20710 check:46170,op:341,dt:50,nt:8,next:20713,nextCheck:46173,str:27819,h:3,d0:20711,d1:46171;
+                    (____, BuiltinInvocation<Entity> @:20710 check:46170,op:341,dt:50,nt:8,next:20713,nextCheck:46173,str:27819,h:3,d0:20711,d1:46171;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:20711 check:46171,op:341,dt:2,nt:9,next:20712,nextCheck:46172,str:23469,h:0,d0:0,d1:0;
                             ("allied_phantom_01/driver", Expression<AI> @:20712 check:46172,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29505,h:0,d0:0,d1:49258;)))
                     ("phantom_p_a01", Expression<VehicleSeat> @:20713 check:46173,op:12,dt:12,nt:9,next:65535,nextCheck:65535,str:23553,h:0,d0:1,d1:1;)))
-            (____, Scope<Void> @:20714 check:46174,op:19,dt:4,nt:8,next:20717,nextCheck:46177,str:27903,h:3,d0:20715,d1:46175;
+            (____, BuiltinInvocation<Void> @:20714 check:46174,op:19,dt:4,nt:8,next:20717,nextCheck:46177,str:27903,h:3,d0:20715,d1:46175;
                 ("sleep", Expression<MethodOrOperator> @:20715 check:46175,op:19,dt:2,nt:9,next:20716,nextCheck:46176,str:85,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:20716 check:46176,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:27910,h:3,d0:30,d1:65535;)))
-            (____, Scope<Void> @:20717 check:46177,op:233,dt:4,nt:8,next:20723,nextCheck:46183,str:27916,h:3,d0:20718,d1:46178;
+            (____, BuiltinInvocation<Void> @:20717 check:46177,op:233,dt:4,nt:8,next:20723,nextCheck:46183,str:27916,h:3,d0:20718,d1:46178;
                 ("vehicle_unload", Expression<MethodOrOperator> @:20718 check:46178,op:233,dt:2,nt:9,next:20719,nextCheck:46179,str:23538,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:20719 check:46179,op:341,dt:50,nt:8,next:20722,nextCheck:46182,str:27932,h:3,d0:20720,d1:46180;
+                    (____, BuiltinInvocation<Entity> @:20719 check:46179,op:341,dt:50,nt:8,next:20722,nextCheck:46182,str:27932,h:3,d0:20720,d1:46180;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:20720 check:46180,op:341,dt:2,nt:9,next:20721,nextCheck:46181,str:23469,h:0,d0:0,d1:0;
                             ("allied_phantom_01/driver", Expression<AI> @:20721 check:46181,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29505,h:0,d0:0,d1:49258;)))
                     ("phantom_p_a02", Expression<VehicleSeat> @:20722 check:46182,op:12,dt:12,nt:9,next:65535,nextCheck:65535,str:23567,h:0,d0:2,d1:1;)))
-            (____, Scope<Void> @:20723 check:46183,op:19,dt:4,nt:8,next:20726,nextCheck:46186,str:28016,h:3,d0:20724,d1:46184;
+            (____, BuiltinInvocation<Void> @:20723 check:46183,op:19,dt:4,nt:8,next:20726,nextCheck:46186,str:28016,h:3,d0:20724,d1:46184;
                 ("sleep", Expression<MethodOrOperator> @:20724 check:46184,op:19,dt:2,nt:9,next:20725,nextCheck:46185,str:85,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:20725 check:46185,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28023,h:3,d0:30,d1:65535;)))
-            (____, Scope<Void> @:20726 check:46186,op:233,dt:4,nt:8,next:20732,nextCheck:46192,str:28029,h:3,d0:20727,d1:46187;
+            (____, BuiltinInvocation<Void> @:20726 check:46186,op:233,dt:4,nt:8,next:20732,nextCheck:46192,str:28029,h:3,d0:20727,d1:46187;
                 ("vehicle_unload", Expression<MethodOrOperator> @:20727 check:46187,op:233,dt:2,nt:9,next:20728,nextCheck:46188,str:23538,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:20728 check:46188,op:341,dt:50,nt:8,next:20731,nextCheck:46191,str:28045,h:3,d0:20729,d1:46189;
+                    (____, BuiltinInvocation<Entity> @:20728 check:46188,op:341,dt:50,nt:8,next:20731,nextCheck:46191,str:28045,h:3,d0:20729,d1:46189;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:20729 check:46189,op:341,dt:2,nt:9,next:20730,nextCheck:46190,str:23469,h:0,d0:0,d1:0;
                             ("allied_phantom_01/driver", Expression<AI> @:20730 check:46190,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29505,h:0,d0:0,d1:49258;)))
                     ("phantom_p_a03", Expression<VehicleSeat> @:20731 check:46191,op:12,dt:12,nt:9,next:65535,nextCheck:65535,str:23581,h:0,d0:3,d1:1;)))
-            (____, Scope<Void> @:20732 check:46192,op:366,dt:4,nt:8,next:20736,nextCheck:46196,str:28129,h:3,d0:20733,d1:46193;
+            (____, BuiltinInvocation<Void> @:20732 check:46192,op:366,dt:4,nt:8,next:20736,nextCheck:46196,str:28129,h:3,d0:20733,d1:46193;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:20733 check:46193,op:366,dt:2,nt:9,next:20734,nextCheck:46194,str:18267,h:0,d0:0,d1:0;
                     ("allies_elites_03/elite01", Expression<AI> @:20734 check:46194,op:19,dt:19,nt:9,next:20735,nextCheck:46195,str:31541,h:0,d0:0,d1:49280;
                         ("arm02_swat_aim_00", Expression<AIScript> @:20735 check:46195,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:31566,h:0,d0:351,d1:0;))))
-            (____, Scope<Void> @:20736 check:46196,op:366,dt:4,nt:8,next:20740,nextCheck:46200,str:28198,h:3,d0:20737,d1:46197;
+            (____, BuiltinInvocation<Void> @:20736 check:46196,op:366,dt:4,nt:8,next:20740,nextCheck:46200,str:28198,h:3,d0:20737,d1:46197;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:20737 check:46197,op:366,dt:2,nt:9,next:20738,nextCheck:46198,str:18267,h:0,d0:0,d1:0;
                     ("allies_elites_03/elite02", Expression<AI> @:20738 check:46198,op:19,dt:19,nt:9,next:20739,nextCheck:46199,str:31584,h:0,d0:1,d1:49280;
                         ("arm02_swat_aim_01", Expression<AIScript> @:20739 check:46199,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:31609,h:0,d0:352,d1:0;))))
-            (____, Scope<Void> @:20740 check:46200,op:19,dt:4,nt:8,next:20743,nextCheck:46203,str:28267,h:3,d0:20741,d1:46201;
+            (____, BuiltinInvocation<Void> @:20740 check:46200,op:19,dt:4,nt:8,next:20743,nextCheck:46203,str:28267,h:3,d0:20741,d1:46201;
                 ("sleep", Expression<MethodOrOperator> @:20741 check:46201,op:19,dt:2,nt:9,next:20742,nextCheck:46202,str:85,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:20742 check:46202,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28274,h:3,d0:30,d1:65535;)))
-            (____, Scope<Void> @:20743 check:46203,op:233,dt:4,nt:8,next:20749,nextCheck:46209,str:28280,h:3,d0:20744,d1:46204;
+            (____, BuiltinInvocation<Void> @:20743 check:46203,op:233,dt:4,nt:8,next:20749,nextCheck:46209,str:28280,h:3,d0:20744,d1:46204;
                 ("vehicle_unload", Expression<MethodOrOperator> @:20744 check:46204,op:233,dt:2,nt:9,next:20745,nextCheck:46205,str:23538,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:20745 check:46205,op:341,dt:50,nt:8,next:20748,nextCheck:46208,str:28296,h:3,d0:20746,d1:46206;
+                    (____, BuiltinInvocation<Entity> @:20745 check:46205,op:341,dt:50,nt:8,next:20748,nextCheck:46208,str:28296,h:3,d0:20746,d1:46206;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:20746 check:46206,op:341,dt:2,nt:9,next:20747,nextCheck:46207,str:23469,h:0,d0:0,d1:0;
                             ("allied_phantom_01/driver", Expression<AI> @:20747 check:46207,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29505,h:0,d0:0,d1:49258;)))
                     ("phantom_p_b01", Expression<VehicleSeat> @:20748 check:46208,op:12,dt:12,nt:9,next:65535,nextCheck:65535,str:23595,h:0,d0:4,d1:1;)))
-            (____, Scope<Void> @:20749 check:46209,op:19,dt:4,nt:8,next:20752,nextCheck:46212,str:28380,h:3,d0:20750,d1:46210;
+            (____, BuiltinInvocation<Void> @:20749 check:46209,op:19,dt:4,nt:8,next:20752,nextCheck:46212,str:28380,h:3,d0:20750,d1:46210;
                 ("sleep", Expression<MethodOrOperator> @:20750 check:46210,op:19,dt:2,nt:9,next:20751,nextCheck:46211,str:85,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:20751 check:46211,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28387,h:3,d0:30,d1:65535;)))
-            (____, Scope<Void> @:20752 check:46212,op:233,dt:4,nt:8,next:20758,nextCheck:46218,str:28393,h:3,d0:20753,d1:46213;
+            (____, BuiltinInvocation<Void> @:20752 check:46212,op:233,dt:4,nt:8,next:20758,nextCheck:46218,str:28393,h:3,d0:20753,d1:46213;
                 ("vehicle_unload", Expression<MethodOrOperator> @:20753 check:46213,op:233,dt:2,nt:9,next:20754,nextCheck:46214,str:23538,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:20754 check:46214,op:341,dt:50,nt:8,next:20757,nextCheck:46217,str:28409,h:3,d0:20755,d1:46215;
+                    (____, BuiltinInvocation<Entity> @:20754 check:46214,op:341,dt:50,nt:8,next:20757,nextCheck:46217,str:28409,h:3,d0:20755,d1:46215;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:20755 check:46215,op:341,dt:2,nt:9,next:20756,nextCheck:46216,str:23469,h:0,d0:0,d1:0;
                             ("allied_phantom_01/driver", Expression<AI> @:20756 check:46216,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29505,h:0,d0:0,d1:49258;)))
                     ("phantom_p_b02", Expression<VehicleSeat> @:20757 check:46217,op:12,dt:12,nt:9,next:65535,nextCheck:65535,str:23609,h:0,d0:5,d1:1;)))
-            (____, Scope<Void> @:20758 check:46218,op:19,dt:4,nt:8,next:20761,nextCheck:46221,str:28493,h:3,d0:20759,d1:46219;
+            (____, BuiltinInvocation<Void> @:20758 check:46218,op:19,dt:4,nt:8,next:20761,nextCheck:46221,str:28493,h:3,d0:20759,d1:46219;
                 ("sleep", Expression<MethodOrOperator> @:20759 check:46219,op:19,dt:2,nt:9,next:20760,nextCheck:46220,str:85,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:20760 check:46220,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28500,h:3,d0:30,d1:65535;)))
-            (____, Scope<Void> @:20761 check:46221,op:233,dt:4,nt:8,next:20767,nextCheck:46227,str:28506,h:3,d0:20762,d1:46222;
+            (____, BuiltinInvocation<Void> @:20761 check:46221,op:233,dt:4,nt:8,next:20767,nextCheck:46227,str:28506,h:3,d0:20762,d1:46222;
                 ("vehicle_unload", Expression<MethodOrOperator> @:20762 check:46222,op:233,dt:2,nt:9,next:20763,nextCheck:46223,str:23538,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:20763 check:46223,op:341,dt:50,nt:8,next:20766,nextCheck:46226,str:28522,h:3,d0:20764,d1:46224;
+                    (____, BuiltinInvocation<Entity> @:20763 check:46223,op:341,dt:50,nt:8,next:20766,nextCheck:46226,str:28522,h:3,d0:20764,d1:46224;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:20764 check:46224,op:341,dt:2,nt:9,next:20765,nextCheck:46225,str:23469,h:0,d0:0,d1:0;
                             ("allied_phantom_01/driver", Expression<AI> @:20765 check:46225,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29505,h:0,d0:0,d1:49258;)))
                     ("phantom_p_b03", Expression<VehicleSeat> @:20766 check:46226,op:12,dt:12,nt:9,next:65535,nextCheck:65535,str:23623,h:0,d0:6,d1:1;)))
-            (____, Scope<Void> @:20767 check:46227,op:366,dt:4,nt:8,next:20771,nextCheck:46231,str:28607,h:3,d0:20768,d1:46228;
+            (____, BuiltinInvocation<Void> @:20767 check:46227,op:366,dt:4,nt:8,next:20771,nextCheck:46231,str:28607,h:3,d0:20768,d1:46228;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:20768 check:46228,op:366,dt:2,nt:9,next:20769,nextCheck:46229,str:18267,h:0,d0:0,d1:0;
                     ("allies_grunts_03/grunt01", Expression<AI> @:20769 check:46229,op:19,dt:19,nt:9,next:20770,nextCheck:46230,str:31627,h:0,d0:0,d1:49281;
                         ("arm02_swat_aim_02", Expression<AIScript> @:20770 check:46230,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:31652,h:0,d0:353,d1:0;))))
-            (____, Scope<Void> @:20771 check:46231,op:366,dt:4,nt:8,next:20775,nextCheck:46235,str:28676,h:3,d0:20772,d1:46232;
+            (____, BuiltinInvocation<Void> @:20771 check:46231,op:366,dt:4,nt:8,next:20775,nextCheck:46235,str:28676,h:3,d0:20772,d1:46232;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:20772 check:46232,op:366,dt:2,nt:9,next:20773,nextCheck:46233,str:18267,h:0,d0:0,d1:0;
                     ("allies_grunts_03/grunt02", Expression<AI> @:20773 check:46233,op:19,dt:19,nt:9,next:20774,nextCheck:46234,str:31670,h:0,d0:1,d1:49281;
                         ("arm02_swat_aim_03", Expression<AIScript> @:20774 check:46234,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:31695,h:0,d0:354,d1:0;))))
-            (____, Scope<Void> @:20775 check:46235,op:403,dt:4,nt:8,next:65535,nextCheck:65535,str:28747,h:3,d0:20776,d1:46236;
+            (____, BuiltinInvocation<Void> @:20775 check:46235,op:403,dt:4,nt:8,next:65535,nextCheck:65535,str:28747,h:3,d0:20776,d1:46236;
                 ("cs_pause", Expression<MethodOrOperator> @:20776 check:46236,op:403,dt:2,nt:9,next:20777,nextCheck:46237,str:15100,h:0,d0:0,d1:0;
                     (-1f, Expression<Float> @:20777 check:46237,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:28757,h:3,d0:0,d1:49024;))))))

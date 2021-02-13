@@ -1,25 +1,25 @@
 
 ("x07_0030_mir", MethodDecl<Void> @:76 check:0,op:0,dt:0,nt:65535,next:2280,nextCheck:60507,str:6347,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:2280 check:60507,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28047,h:0,d0:2281,d1:60508;
+    (____, BuiltinInvocation<Void> @:2280 check:60507,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28047,h:0,d0:2281,d1:60508;
         ("begin", Expression<MethodOrOperator> @:2281 check:60508,op:0,dt:2,nt:9,next:2259,nextCheck:60486,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:2259 check:60486,op:19,dt:4,nt:8,next:2262,nextCheck:60489,str:28078,h:0,d0:2260,d1:60487;
+            (____, BuiltinInvocation<Void> @:2259 check:60486,op:19,dt:4,nt:8,next:2262,nextCheck:60489,str:28078,h:0,d0:2260,d1:60487;
                 ("sleep", Expression<MethodOrOperator> @:2260 check:60487,op:19,dt:2,nt:9,next:2261,nextCheck:60488,str:85,h:0,d0:0,d1:0;
                     (540, Expression<Short> @:2261 check:60488,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28085,h:0,d0:540,d1:65535;)))
-            (____, Scope<Void> @:2262 check:60489,op:596,dt:4,nt:8,next:2267,nextCheck:60494,str:28092,h:0,d0:2263,d1:60490;
+            (____, BuiltinInvocation<Void> @:2262 check:60489,op:596,dt:4,nt:8,next:2267,nextCheck:60494,str:28092,h:0,d0:2263,d1:60490;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:2263 check:60490,op:596,dt:2,nt:9,next:2264,nextCheck:60491,str:1250,h:0,d0:0,d1:0;
                     ("sound\dialog\levels\06_sentinelwall\cinematic\x07_0030_mir", Expression<Sound> @:2264 check:60491,op:32,dt:32,nt:9,next:2265,nextCheck:60492,str:6288,h:0,d0:816,d1:58534;
                         (4294901785, Expression<Entity> @:2265 check:60492,op:56,dt:50,nt:9,next:2266,nextCheck:60493,str:5412,h:0,d0:25,d1:65535;
                             (1f, Expression<Float> @:2266 check:60493,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:28180,h:0,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:2267 check:60494,op:562,dt:4,nt:8,next:2271,nextCheck:60498,str:28185,h:0,d0:2268,d1:60495;
+            (____, BuiltinInvocation<Void> @:2267 check:60494,op:562,dt:4,nt:8,next:2271,nextCheck:60498,str:28185,h:0,d0:2268,d1:60495;
                 ("cinematic_subtitle", Expression<MethodOrOperator> @:2268 check:60495,op:562,dt:2,nt:9,next:2269,nextCheck:60496,str:1534,h:0,d0:0,d1:0;
                     ("x07_0030_mir", Expression<StringId> @:2269 check:60496,op:11,dt:11,nt:9,next:2270,nextCheck:60497,str:6347,h:0,d0:4582,d1:3072;
                         (1.5f, Expression<Float> @:2270 check:60497,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:28218,h:0,d0:0,d1:16320;))))
-            (____, Scope<Void> @:2271 check:60498,op:220,dt:4,nt:8,next:2277,nextCheck:60504,str:28228,h:0,d0:2272,d1:60499;
+            (____, BuiltinInvocation<Void> @:2271 check:60498,op:220,dt:4,nt:8,next:2277,nextCheck:60504,str:28228,h:0,d0:2272,d1:60499;
                 ("unit_set_emotional_state", Expression<MethodOrOperator> @:2272 check:60499,op:220,dt:2,nt:9,next:2273,nextCheck:60500,str:5478,h:0,d0:0,d1:0;
                     ("miranda", Expression<Unit> @:2273 check:60500,op:57,dt:51,nt:9,next:2274,nextCheck:60501,str:5412,h:0,d0:25,d1:65535;
                         ("pain", Expression<StringId> @:2274 check:60501,op:11,dt:11,nt:9,next:2275,nextCheck:60502,str:5503,h:0,d0:432,d1:1024;
                             (0.25f, Expression<Float> @:2275 check:60502,op:6,dt:6,nt:9,next:2276,nextCheck:60503,str:28267,h:0,d0:0,d1:16000;
                                 (15, Expression<Short> @:2276 check:60503,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28271,h:0,d0:15,d1:65535;))))))
-            (____, Scope<Void> @:2277 check:60504,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:28277,h:0,d0:2278,d1:60505;
+            (____, BuiltinInvocation<Void> @:2277 check:60504,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:28277,h:0,d0:2278,d1:60505;
                 ("print", Expression<MethodOrOperator> @:2278 check:60505,op:27,dt:2,nt:9,next:2279,nextCheck:60506,str:91,h:0,d0:0,d1:0;
                     ("miranda - pain .25 15", Expression<String> @:2279 check:60506,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:6360,h:0,d0:57560,d1:12389;))))))

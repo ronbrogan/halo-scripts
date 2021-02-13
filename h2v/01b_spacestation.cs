@@ -120,25 +120,25 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         }
 
 #endregion
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(0, Lifecycle.Static)]
         public async Task<IUnit> player0()
         {
             return Engine.unit(Engine.list_get(Engine.players(), 0));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(1, Lifecycle.Static)]
         public async Task<IUnit> player1()
         {
             return Engine.unit(Engine.list_get(Engine.players(), 1));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(2, Lifecycle.Static)]
         public async Task<int> player_count()
         {
             return Engine.list_count(Engine.players());
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(3, Lifecycle.Static)]
         public async Task end_segment()
         {
             Engine.camera_control(true);
@@ -150,35 +150,32 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("grab jaime or paul to give feedback!");
             Engine.player_action_test_reset();
             await Engine.sleep(15);
-            Engine.print("press the \u0093a\u0094 button to reset!");
+            Engine.print("press the �a� button to reset!");
             await Engine.sleep_until(async () => (bool)Engine.player_action_test_accept());
             Engine.print("reloading map...");
             await Engine.sleep(15);
             Engine.map_reset();
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(4, Lifecycle.Static)]
         public async Task<bool> difficulty_legendary()
         {
-            return Engine.game_difficulty_get() // Couldn't generate cast from 'String' to 'GameDifficulty'
- == "legendary";
+            return Engine.game_difficulty_get() == GameDifficulty.Legendary();
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(5, Lifecycle.Static)]
         public async Task<bool> difficulty_heroic()
         {
-            return Engine.game_difficulty_get() // Couldn't generate cast from 'String' to 'GameDifficulty'
- == "heroic";
+            return Engine.game_difficulty_get() == GameDifficulty.Heroic();
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(6, Lifecycle.Static)]
         public async Task<bool> difficulty_normal()
         {
-            return Engine.game_difficulty_get() // Couldn't generate cast from 'String' to 'GameDifficulty'
- == "normal";
+            return Engine.game_difficulty_get() == GameDifficulty.Normal();
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(7, Lifecycle.Static)]
         public async Task<bool> cinematic_skip_start()
         {
             Engine.cinematic_skip_start_internal();
@@ -187,7 +184,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             return !((bool)Engine.game_reverted());
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(8, Lifecycle.Static)]
         public async Task cinematic_skip_stop()
         {
             Engine.cinematic_skip_stop_internal();
@@ -197,7 +194,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             }
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(9, Lifecycle.Static)]
         public async Task cinematic_fade_to_white()
         {
             Engine.player_enable_input(false);
@@ -209,7 +206,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.camera_control(true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(10, Lifecycle.Static)]
         public async Task cinematic_fade_from_white()
         {
             Engine.hud_cinematic_fade(1F, 0.5F);
@@ -221,7 +218,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.player_camera_control(true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(11, Lifecycle.Static)]
         public async Task cinematic_fade_from_white_bars()
         {
             Engine.cinematic_stop();
@@ -233,7 +230,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.player_camera_control(true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(12, Lifecycle.Static)]
         public async Task cinematic_fade_from_black_bars()
         {
             Engine.cinematic_stop();
@@ -245,7 +242,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.player_camera_control(true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(13, Lifecycle.Static)]
         public async Task cinematic_fade_to_black()
         {
             Engine.player_enable_input(false);
@@ -257,7 +254,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.camera_control(true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(14, Lifecycle.Static)]
         public async Task cinematic_fade_from_black()
         {
             Engine.hud_cinematic_fade(1F, 0.5F);
@@ -269,7 +266,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.player_camera_control(true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(15, Lifecycle.Static)]
         public async Task cinematic_snap_to_black()
         {
             Engine.player_enable_input(false);
@@ -281,7 +278,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.camera_control(true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(16, Lifecycle.Static)]
         public async Task cinematic_snap_to_white()
         {
             Engine.player_enable_input(false);
@@ -293,7 +290,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.camera_control(true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(17, Lifecycle.Static)]
         public async Task cinematic_stash_players()
         {
             Engine.object_hide(await this.player0(), true);
@@ -301,7 +298,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_cannot_take_damage(Engine.players());
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(18, Lifecycle.Static)]
         public async Task cinematic_unstash_players()
         {
             Engine.object_hide(await this.player0(), false);
@@ -309,7 +306,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_can_take_damage(Engine.players());
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(19, Lifecycle.Dormant)]
         public async Task _stealth_toggle_monitor()
         {
             await Engine.sleep_until(async () =>
@@ -344,7 +341,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             }, 1);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(20, Lifecycle.Dormant)]
         public async Task _stealth_timer_monitor()
         {
             await Engine.sleep_until(async () =>
@@ -379,19 +376,19 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             }, 1);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(21, Lifecycle.Static)]
         public async Task activate_stealth_toggle_monitor()
         {
             await Engine.sleep(1);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(22, Lifecycle.Static)]
         public async Task activate_stealth_timer_monitor()
         {
             await Engine.sleep(1);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(23, Lifecycle.Static)]
         public async Task playtest_mission()
         {
             if ((bool)Engine.game_is_playtest())
@@ -406,133 +403,133 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             }
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(24, Lifecycle.Static)]
         public async Task x02_01_predict_stub()
         {
-            Engine.wake(x02_01_predict);
+            Engine.wake(new ScriptMethodReference(x02_01_predict));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(25, Lifecycle.Static)]
         public async Task x02_02_predict_stub()
         {
-            Engine.wake(x02_02_predict);
+            Engine.wake(new ScriptMethodReference(x02_02_predict));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(26, Lifecycle.Static)]
         public async Task x02_03_predict_stub()
         {
-            Engine.wake(x02_03_predict);
+            Engine.wake(new ScriptMethodReference(x02_03_predict));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(27, Lifecycle.Static)]
         public async Task x02_04a_predict_stub()
         {
-            Engine.wake(x02_04a_predict);
+            Engine.wake(new ScriptMethodReference(x02_04a_predict));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(28, Lifecycle.Static)]
         public async Task x02_04b_predict_stub()
         {
-            Engine.wake(x02_04b_predict);
+            Engine.wake(new ScriptMethodReference(x02_04b_predict));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(29, Lifecycle.Static)]
         public async Task x02_05_predict_stub()
         {
-            Engine.wake(x02_05_predict);
+            Engine.wake(new ScriptMethodReference(x02_05_predict));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(30, Lifecycle.Static)]
         public async Task x02_06_predict_stub()
         {
-            Engine.wake(x02_06_predict);
+            Engine.wake(new ScriptMethodReference(x02_06_predict));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(31, Lifecycle.Static)]
         public async Task x02_07_predict_stub()
         {
-            Engine.wake(x02_07_predict);
+            Engine.wake(new ScriptMethodReference(x02_07_predict));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(32, Lifecycle.Static)]
         public async Task x02_08_predict_stub()
         {
-            Engine.wake(x02_08_predict);
+            Engine.wake(new ScriptMethodReference(x02_08_predict));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(33, Lifecycle.Static)]
         public async Task x02_09_predict_stub()
         {
-            Engine.wake(x02_09_predict);
+            Engine.wake(new ScriptMethodReference(x02_09_predict));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(34, Lifecycle.Static)]
         public async Task x02_10_predict_stub()
         {
-            Engine.wake(x02_10_predict);
+            Engine.wake(new ScriptMethodReference(x02_10_predict));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(35, Lifecycle.Static)]
         public async Task _01_outro_01_predict_stub()
         {
-            Engine.wake(_01_outro_01_predict);
+            Engine.wake(new ScriptMethodReference(_01_outro_01_predict));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(36, Lifecycle.Static)]
         public async Task _01_outro_02_predict_stub()
         {
-            Engine.wake(_01_outro_02_predict);
+            Engine.wake(new ScriptMethodReference(_01_outro_02_predict));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(37, Lifecycle.Static)]
         public async Task _01_outro_03_predict_stub()
         {
-            Engine.wake(_01_outro_03_predict);
+            Engine.wake(new ScriptMethodReference(_01_outro_03_predict));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(38, Lifecycle.Static)]
         public async Task _01_outro_04_predict_stub()
         {
-            Engine.wake(_01_outro_04_predict);
+            Engine.wake(new ScriptMethodReference(_01_outro_04_predict));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(39, Lifecycle.Static)]
         public async Task _01_outro_05_predict_stub()
         {
-            Engine.wake(_01_outro_05_predict);
+            Engine.wake(new ScriptMethodReference(_01_outro_05_predict));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(40, Lifecycle.Static)]
         public async Task _01_outro_06_predict_stub()
         {
-            Engine.wake(_01_outro_06_predict);
+            Engine.wake(new ScriptMethodReference(_01_outro_06_predict));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(41, Lifecycle.Static)]
         public async Task _01_outro_07_predict_stub()
         {
-            Engine.wake(_01_outro_07_predict);
+            Engine.wake(new ScriptMethodReference(_01_outro_07_predict));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(42, Lifecycle.Static)]
         public async Task _01_outro_08_predict_stub()
         {
-            Engine.wake(_01_outro_08_predict);
+            Engine.wake(new ScriptMethodReference(_01_outro_08_predict));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(43, Lifecycle.Static)]
         public async Task _01_outro_09_predict_stub()
         {
-            Engine.wake(_01_outro_09_predict);
+            Engine.wake(new ScriptMethodReference(_01_outro_09_predict));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(44, Lifecycle.Static)]
         public async Task _01_outro_10_predict_stub()
         {
-            Engine.wake(_01_outro_10_predict);
+            Engine.wake(new ScriptMethodReference(_01_outro_10_predict));
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(45, Lifecycle.Dormant)]
         public async Task x02_score_01()
         {
             await Engine.sleep(0);
@@ -540,7 +537,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("x02 score 01 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(46, Lifecycle.Dormant)]
         public async Task x02_foley_01()
         {
             await Engine.sleep(0);
@@ -548,7 +545,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("x02 foley 01 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(47, Lifecycle.Dormant)]
         public async Task x02_0010_mas()
         {
             await Engine.sleep(20);
@@ -556,7 +553,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0010_mas", 2F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(48, Lifecycle.Dormant)]
         public async Task x02_0020_jon()
         {
             await Engine.sleep(80);
@@ -566,7 +563,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("johnson - annoyed .75 15");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(49, Lifecycle.Dormant)]
         public async Task x02_0030_jon()
         {
             await Engine.sleep(181);
@@ -574,7 +571,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0030_jon", 2.5F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(50, Lifecycle.Dormant)]
         public async Task x02_0040_jon()
         {
             await Engine.sleep(270);
@@ -584,7 +581,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("johnson - happy .75 30");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(51, Lifecycle.Dormant)]
         public async Task x02_0050_jon()
         {
             await Engine.sleep(333);
@@ -595,7 +592,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("johnson - pensive 1 60");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(52, Lifecycle.Dormant)]
         public async Task x02_01_dof()
         {
             Engine.cinematic_screen_effect_start(true);
@@ -613,7 +610,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("rack focus stop");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(53, Lifecycle.Dormant)]
         public async Task cinematic_lighting_x02_01()
         {
             Engine.cinematic_lighting_set_primary_light(67F, 208F, 0.458824F, 0.407843F, 0.34902F);
@@ -639,7 +636,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.rasterizer_bloom_override_brightness(0.5F);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(54, Lifecycle.Static)]
         public async Task x02_02_problem_actors()
         {
             Engine.print("problem actors");
@@ -653,7 +650,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_cinematic_lod(brute_02.Entity, true);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(55, Lifecycle.Dormant)]
         public async Task x02_hum_crowd_01a()
         {
             Engine.print("first marine crowd");
@@ -672,7 +669,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.custom_animation_loop(marine_x02_08.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x02\\x02", 4059369429U), "marine_clapping_loop", false);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(56, Lifecycle.Dormant)]
         public async Task x02_hum_crowd_01b()
         {
             await Engine.sleep(268);
@@ -697,7 +694,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.custom_animation_loop(marine_x02_12.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x02\\x02", 4059369429U), "marine_clapping_loop", false);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(57, Lifecycle.Dormant)]
         public async Task open_bridge_door()
         {
             await Engine.sleep(417);
@@ -705,7 +702,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.device_set_position(x02_bridge_door.Entity, 1F);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(58, Lifecycle.Static)]
         public async Task x02_01_setup()
         {
             Engine.object_destroy_type_mask(2052);
@@ -738,21 +735,21 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_cinematic_lod(marine_x02_06.Entity, true);
             Engine.object_cinematic_lod(marine_x02_07.Entity, true);
             Engine.object_cinematic_lod(marine_x02_08.Entity, true);
-            Engine.wake(x02_score_01);
-            Engine.wake(x02_foley_01);
-            Engine.wake(x02_0010_mas);
-            Engine.wake(x02_0020_jon);
-            Engine.wake(x02_0030_jon);
-            Engine.wake(x02_0040_jon);
-            Engine.wake(x02_0050_jon);
-            Engine.wake(x02_hum_crowd_01a);
-            Engine.wake(x02_hum_crowd_01b);
-            Engine.wake(x02_01_dof);
-            Engine.wake(cinematic_lighting_x02_01);
-            Engine.wake(open_bridge_door);
+            Engine.wake(new ScriptMethodReference(x02_score_01));
+            Engine.wake(new ScriptMethodReference(x02_foley_01));
+            Engine.wake(new ScriptMethodReference(x02_0010_mas));
+            Engine.wake(new ScriptMethodReference(x02_0020_jon));
+            Engine.wake(new ScriptMethodReference(x02_0030_jon));
+            Engine.wake(new ScriptMethodReference(x02_0040_jon));
+            Engine.wake(new ScriptMethodReference(x02_0050_jon));
+            Engine.wake(new ScriptMethodReference(x02_hum_crowd_01a));
+            Engine.wake(new ScriptMethodReference(x02_hum_crowd_01b));
+            Engine.wake(new ScriptMethodReference(x02_01_dof));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_x02_01));
+            Engine.wake(new ScriptMethodReference(open_bridge_door));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(59, Lifecycle.Static)]
         public async Task x02_01_cleanup()
         {
             Engine.object_destroy(chief_x02_01.Entity);
@@ -763,7 +760,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_screen_effect_stop();
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(60, Lifecycle.Static)]
         public async Task x02_scene_01()
         {
             Engine.fade_out(1F, 1F, 1F, 0);
@@ -795,7 +792,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.x02_01_cleanup();
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(61, Lifecycle.Dormant)]
         public async Task x02_foley_02()
         {
             await Engine.sleep(0);
@@ -803,7 +800,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("x02 foley 02 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(62, Lifecycle.Dormant)]
         public async Task x02_0070_gch()
         {
             await Engine.sleep(386);
@@ -811,7 +808,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0070_gch", 2F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(63, Lifecycle.Dormant)]
         public async Task x02_fov_02()
         {
             await Engine.sleep(384);
@@ -822,7 +819,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("fov change: 30 -> 60 over 0 ticks");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(64, Lifecycle.Dormant)]
         public async Task cinematic_lighting_x02_02()
         {
             Engine.cinematic_lighting_set_primary_light(90F, 248F, 0.345098F, 0.286275F, 0.270588F);
@@ -842,7 +839,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.rasterizer_bloom_override_brightness(0.5F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(65, Lifecycle.Dormant)]
         public async Task place_cov_crowd_01a()
         {
             await Engine.sleep(60);
@@ -885,7 +882,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_uses_cinematic_lighting(problem_guard.Entity, true);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(66, Lifecycle.Dormant)]
         public async Task place_cov_crowd_01b()
         {
             await Engine.sleep(249);
@@ -910,7 +907,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_uses_cinematic_lighting(cov_crowd_01b_16.Entity, true);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(67, Lifecycle.Dormant)]
         public async Task place_cov_crowd_01c()
         {
             await Engine.sleep(384);
@@ -924,7 +921,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_uses_cinematic_lighting(cov_crowd_01c_05.Entity, true);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(68, Lifecycle.Dormant)]
         public async Task place_cov_crowd_01d()
         {
             Engine.time_code_reset();
@@ -955,7 +952,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_uses_cinematic_lighting(cov_crowd_01d_21.Entity, true);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(69, Lifecycle.Dormant)]
         public async Task place_cov_crowd_distant()
         {
             await Engine.sleep(456);
@@ -963,7 +960,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_create_anew_containing("x02_crowd_distant");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(70, Lifecycle.Dormant)]
         public async Task activate_manacles()
         {
             await Engine.sleep(666);
@@ -973,7 +970,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_set_function_variable(x02_manacle_02.Entity, "manacle_on", 0F, 1F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(71, Lifecycle.Dormant)]
         public async Task create_columns()
         {
             Engine.object_create_anew(x02_column_01);
@@ -986,7 +983,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_create_anew(x02_column_04);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(72, Lifecycle.Static)]
         public async Task x02_02_setup()
         {
             Engine.object_create_anew(grunt_01);
@@ -1000,21 +997,21 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_cinematic_lod(grunt_03.Entity, true);
             Engine.object_cinematic_lod(jackal_01.Entity, true);
             Engine.object_cinematic_lod(hammer.Entity, true);
-            Engine.wake(x02_foley_02);
-            Engine.wake(x02_0070_gch);
-            Engine.wake(x02_fov_02);
-            Engine.wake(place_cov_crowd_01a);
-            Engine.wake(place_cov_crowd_01b);
-            Engine.wake(place_cov_crowd_01c);
-            Engine.wake(place_cov_crowd_01d);
-            Engine.wake(place_cov_crowd_distant);
-            Engine.wake(create_columns);
-            Engine.wake(activate_manacles);
-            Engine.wake(cinematic_lighting_x02_02);
+            Engine.wake(new ScriptMethodReference(x02_foley_02));
+            Engine.wake(new ScriptMethodReference(x02_0070_gch));
+            Engine.wake(new ScriptMethodReference(x02_fov_02));
+            Engine.wake(new ScriptMethodReference(place_cov_crowd_01a));
+            Engine.wake(new ScriptMethodReference(place_cov_crowd_01b));
+            Engine.wake(new ScriptMethodReference(place_cov_crowd_01c));
+            Engine.wake(new ScriptMethodReference(place_cov_crowd_01d));
+            Engine.wake(new ScriptMethodReference(place_cov_crowd_distant));
+            Engine.wake(new ScriptMethodReference(create_columns));
+            Engine.wake(new ScriptMethodReference(activate_manacles));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_x02_02));
             Engine.device_set_position(x02_door_02.Entity, 1F);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(73, Lifecycle.Static)]
         public async Task x02_02_cleanup()
         {
             Engine.object_destroy(brute_01.Entity);
@@ -1028,7 +1025,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy_containing("crowd_distant");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(74, Lifecycle.Static)]
         public async Task x02_scene_02()
         {
             await this.x02_02_predict_stub();
@@ -1055,7 +1052,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.x02_02_cleanup();
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(75, Lifecycle.Dormant)]
         public async Task x02_foley_03()
         {
             await Engine.sleep(0);
@@ -1063,7 +1060,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("x02 foley 03 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(76, Lifecycle.Dormant)]
         public async Task x02_0090_tar()
         {
             await Engine.sleep(40);
@@ -1071,7 +1068,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0090_tar", 2F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(77, Lifecycle.Dormant)]
         public async Task x02_0100_der()
         {
             await Engine.sleep(106);
@@ -1079,7 +1076,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0100_der", 3.5F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(78, Lifecycle.Dormant)]
         public async Task x02_0110_tar()
         {
             await Engine.sleep(213);
@@ -1089,7 +1086,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("tartarus - inquisitive 1 60");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(79, Lifecycle.Dormant)]
         public async Task effect_beam_01_start()
         {
             await Engine.sleep(297);
@@ -1097,7 +1094,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_create(beam_start_01);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(80, Lifecycle.Dormant)]
         public async Task effect_beams()
         {
             await Engine.sleep(378);
@@ -1108,7 +1105,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_create(beam_02);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(81, Lifecycle.Dormant)]
         public async Task place_cov_crowd_02()
         {
             await Engine.sleep(480);
@@ -1135,26 +1132,26 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_uses_cinematic_lighting(cov_crowd_02_19.Entity, true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(82, Lifecycle.Static)]
         public async Task x02_03_setup()
         {
-            Engine.wake(x02_foley_03);
-            Engine.wake(x02_0090_tar);
-            Engine.wake(x02_0100_der);
-            Engine.wake(x02_0110_tar);
-            Engine.wake(effect_beam_01_start);
-            Engine.wake(effect_beams);
-            Engine.wake(place_cov_crowd_02);
+            Engine.wake(new ScriptMethodReference(x02_foley_03));
+            Engine.wake(new ScriptMethodReference(x02_0090_tar));
+            Engine.wake(new ScriptMethodReference(x02_0100_der));
+            Engine.wake(new ScriptMethodReference(x02_0110_tar));
+            Engine.wake(new ScriptMethodReference(effect_beam_01_start));
+            Engine.wake(new ScriptMethodReference(effect_beams));
+            Engine.wake(new ScriptMethodReference(place_cov_crowd_02));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(83, Lifecycle.Static)]
         public async Task x02_scene_03_cleanup()
         {
             Engine.object_destroy_containing("beam");
             Engine.object_destroy_containing("cov_crowd_02");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(84, Lifecycle.Static)]
         public async Task x02_scene_03()
         {
             await this.x02_03_setup();
@@ -1171,7 +1168,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.x02_scene_03_cleanup();
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(85, Lifecycle.Dormant)]
         public async Task x02_foley_04a()
         {
             await Engine.sleep(0);
@@ -1179,7 +1176,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("x02 foley 04a start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(86, Lifecycle.Dormant)]
         public async Task x02_0140_lhd()
         {
             await Engine.sleep(300);
@@ -1190,7 +1187,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0140_lhd", 2F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(87, Lifecycle.Dormant)]
         public async Task marine_whisper()
         {
             await Engine.sleep(413);
@@ -1198,7 +1195,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\ambience\\earthcity\\whisper", 4060811243U), marine_01.Entity, 1F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(88, Lifecycle.Dormant)]
         public async Task x02_0150_lhd()
         {
             await Engine.sleep(430);
@@ -1209,7 +1206,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0150_lhd", 1.5F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(89, Lifecycle.Dormant)]
         public async Task x02_0160_cor()
         {
             Engine.unit_set_emotional_state(cortana_x02.Entity, "angry", 0.15F, 0);
@@ -1219,7 +1216,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0160_cor", 3F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(90, Lifecycle.Dormant)]
         public async Task effect_cortana_on()
         {
             await Engine.sleep(521);
@@ -1227,7 +1224,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off", 4061007854U), x02_cortana_stand.Entity, "holo_effect");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(91, Lifecycle.Dormant)]
         public async Task cinematic_lighting_x02_04a()
         {
             Engine.cinematic_lighting_set_primary_light(61F, 116F, 0.356863F, 0.317647F, 0.301961F);
@@ -1256,7 +1253,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.rasterizer_bloom_override_brightness(0.5F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(92, Lifecycle.Dormant)]
         public async Task x02_marine_crowd_01()
         {
             await Engine.sleep(0);
@@ -1282,7 +1279,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_uses_cinematic_lighting(x02_marine_prop_01b_16.Entity, true);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(93, Lifecycle.Dormant)]
         public async Task x02_marine_crowd_02()
         {
             await Engine.sleep(0);
@@ -1324,7 +1321,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_uses_cinematic_lighting(x02_marine_prop_02c_32.Entity, true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(94, Lifecycle.Static)]
         public async Task x02_04a_setup()
         {
             Engine.object_create_anew(chief_x02);
@@ -1366,18 +1363,18 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_cinematic_lod(marine_plant_05.Entity, true);
             Engine.object_cinematic_lod(marine_plant_06.Entity, true);
             Engine.object_cinematic_lod(marine_plant_07.Entity, true);
-            Engine.wake(x02_foley_04a);
-            Engine.wake(x02_0140_lhd);
-            Engine.wake(marine_whisper);
-            Engine.wake(x02_0150_lhd);
-            Engine.wake(x02_0160_cor);
-            Engine.wake(x02_marine_crowd_01);
-            Engine.wake(x02_marine_crowd_02);
-            Engine.wake(effect_cortana_on);
-            Engine.wake(cinematic_lighting_x02_04a);
+            Engine.wake(new ScriptMethodReference(x02_foley_04a));
+            Engine.wake(new ScriptMethodReference(x02_0140_lhd));
+            Engine.wake(new ScriptMethodReference(marine_whisper));
+            Engine.wake(new ScriptMethodReference(x02_0150_lhd));
+            Engine.wake(new ScriptMethodReference(x02_0160_cor));
+            Engine.wake(new ScriptMethodReference(x02_marine_crowd_01));
+            Engine.wake(new ScriptMethodReference(x02_marine_crowd_02));
+            Engine.wake(new ScriptMethodReference(effect_cortana_on));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_x02_04a));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(95, Lifecycle.Static)]
         public async Task x02_scene_04a_cleanup()
         {
             Engine.object_destroy(marine_05.Entity);
@@ -1389,7 +1386,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy_containing("marine_plant");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(96, Lifecycle.Static)]
         public async Task x02_scene_04a()
         {
             Engine.cinematic_lightmap_shadow_enable();
@@ -1425,7 +1422,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.x02_scene_04a_cleanup();
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(97, Lifecycle.Dormant)]
         public async Task x02_foley_04b()
         {
             await Engine.sleep(0);
@@ -1433,7 +1430,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("x02 foley 04b start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(98, Lifecycle.Dormant)]
         public async Task x02_0170_lhd()
         {
             await Engine.sleep(0);
@@ -1441,7 +1438,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0170_lhd", 3F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(99, Lifecycle.Dormant)]
         public async Task x02_0180_cor()
         {
             await Engine.sleep(10);
@@ -1454,7 +1451,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0180_cor", 1F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(100, Lifecycle.Dormant)]
         public async Task x02_0190_mas()
         {
             await Engine.sleep(194);
@@ -1462,7 +1459,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0190_mas", 1F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(101, Lifecycle.Dormant)]
         public async Task x02_0200_jon()
         {
             await Engine.sleep(189);
@@ -1479,7 +1476,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("johnson - pensive 1 5");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(102, Lifecycle.Dormant)]
         public async Task x02_0210_lhd()
         {
             await Engine.sleep(255);
@@ -1487,7 +1484,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0210_lhd", 1F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(103, Lifecycle.Dormant)]
         public async Task x02_0220_lhd()
         {
             await Engine.sleep(293);
@@ -1495,7 +1492,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0220_lhd", 5F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(104, Lifecycle.Dormant)]
         public async Task x02_0230_lhd()
         {
             await Engine.sleep(435);
@@ -1503,7 +1500,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0230_lhd", 3F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(105, Lifecycle.Dormant)]
         public async Task cinematic_lighting_x02_04b()
         {
             Engine.cinematic_lighting_set_primary_light(61F, 116F, 0.356863F, 0.317647F, 0.301961F);
@@ -1514,23 +1511,23 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_uses_cinematic_lighting(medal_03.Entity, true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(106, Lifecycle.Static)]
         public async Task x02_04b_setup()
         {
             Engine.object_create_anew_containing("medal");
             Engine.cinematic_set_near_clip_distance(0.043F);
             Engine.print("setting near clip distance to .043");
-            Engine.wake(x02_foley_04b);
-            Engine.wake(x02_0170_lhd);
-            Engine.wake(x02_0180_cor);
-            Engine.wake(x02_0190_mas);
-            Engine.wake(x02_0200_jon);
-            Engine.wake(x02_0210_lhd);
-            Engine.wake(x02_0220_lhd);
-            Engine.wake(x02_0230_lhd);
+            Engine.wake(new ScriptMethodReference(x02_foley_04b));
+            Engine.wake(new ScriptMethodReference(x02_0170_lhd));
+            Engine.wake(new ScriptMethodReference(x02_0180_cor));
+            Engine.wake(new ScriptMethodReference(x02_0190_mas));
+            Engine.wake(new ScriptMethodReference(x02_0200_jon));
+            Engine.wake(new ScriptMethodReference(x02_0210_lhd));
+            Engine.wake(new ScriptMethodReference(x02_0220_lhd));
+            Engine.wake(new ScriptMethodReference(x02_0230_lhd));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(107, Lifecycle.Static)]
         public async Task x02_scene_04b()
         {
             await this.x02_04b_setup();
@@ -1553,7 +1550,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(15);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(108, Lifecycle.Dormant)]
         public async Task x02_score_05()
         {
             await Engine.sleep(0);
@@ -1561,7 +1558,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("x02 score 05 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(109, Lifecycle.Dormant)]
         public async Task x02_foley_05()
         {
             await Engine.sleep(0);
@@ -1569,7 +1566,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("x02 foley 05 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(110, Lifecycle.Dormant)]
         public async Task x02_0240_tar()
         {
             await Engine.sleep(0);
@@ -1577,7 +1574,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0240_tar", 3F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(111, Lifecycle.Dormant)]
         public async Task x02_0250_tar()
         {
             await Engine.sleep(88);
@@ -1585,7 +1582,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0250_tar", 3F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(112, Lifecycle.Dormant)]
         public async Task x02_0270_tar()
         {
             await Engine.sleep(245);
@@ -1594,7 +1591,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\02\\charred_smoke_medium", 4063170575U), dervish.Entity, "head");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(113, Lifecycle.Dormant)]
         public async Task effect_body_smoke()
         {
             await Engine.sleep(0);
@@ -1602,7 +1599,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\02\\charred_smoke_medium", 4063170575U), dervish.Entity, "head");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(114, Lifecycle.Dormant)]
         public async Task cinematic_lighting_x02_05()
         {
             Engine.cinematic_lighting_set_primary_light(90F, 248F, 0.345098F, 0.286275F, 0.270588F);
@@ -1625,7 +1622,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.rasterizer_bloom_override_brightness(0.5F);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(115, Lifecycle.Static)]
         public async Task x02_05_setup()
         {
             Engine.object_create_anew(dervish);
@@ -1655,16 +1652,16 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_set_function_variable(dervish.Entity, "elite_burnt", 0F, 0F);
             Engine.cinematic_set_near_clip_distance(0.06F);
             Engine.print("resetting near clip distance to .06");
-            Engine.wake(x02_score_05);
-            Engine.wake(x02_foley_05);
-            Engine.wake(x02_0240_tar);
-            Engine.wake(x02_0250_tar);
-            Engine.wake(x02_0270_tar);
-            Engine.wake(effect_body_smoke);
-            Engine.wake(cinematic_lighting_x02_05);
+            Engine.wake(new ScriptMethodReference(x02_score_05));
+            Engine.wake(new ScriptMethodReference(x02_foley_05));
+            Engine.wake(new ScriptMethodReference(x02_0240_tar));
+            Engine.wake(new ScriptMethodReference(x02_0250_tar));
+            Engine.wake(new ScriptMethodReference(x02_0270_tar));
+            Engine.wake(new ScriptMethodReference(effect_body_smoke));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_x02_05));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(116, Lifecycle.Static)]
         public async Task x02_05_cleanup()
         {
             Engine.object_destroy(dervish.Entity);
@@ -1680,7 +1677,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy(hunter_03.Entity);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(117, Lifecycle.Static)]
         public async Task x02_scene_05()
         {
             Engine.cinematic_lightmap_shadow_disable();
@@ -1711,7 +1708,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.x02_05_cleanup();
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(118, Lifecycle.Dormant)]
         public async Task x02_foley_06()
         {
             await Engine.sleep(0);
@@ -1719,7 +1716,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("x02 foley 06 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(119, Lifecycle.Dormant)]
         public async Task x02_0280_lhd()
         {
             await Engine.sleep(165);
@@ -1729,7 +1726,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("miranda - pensive .25 0");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(120, Lifecycle.Dormant)]
         public async Task x02_0290_lhd()
         {
             await Engine.sleep(217);
@@ -1737,7 +1734,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0290_lhd", 4.5F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(121, Lifecycle.Dormant)]
         public async Task x02_0300_lhd()
         {
             await Engine.sleep(356);
@@ -1745,7 +1742,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0300_lhd", 6.5F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(122, Lifecycle.Dormant)]
         public async Task x02_0310_lhd()
         {
             await Engine.sleep(556);
@@ -1755,7 +1752,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("miranda - shocked .25 60");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(123, Lifecycle.Dormant)]
         public async Task cinematic_lighting_x02_06()
         {
             Engine.cinematic_lighting_set_primary_light(61F, 116F, 0.356863F, 0.317647F, 0.301961F);
@@ -1776,7 +1773,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.rasterizer_bloom_override_brightness(0.5F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(124, Lifecycle.Dormant)]
         public async Task x02_marine_crowd_03()
         {
             await Engine.sleep(0);
@@ -1818,7 +1815,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_uses_cinematic_lighting(x02_marine_prop_03_35.Entity, true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(125, Lifecycle.Static)]
         public async Task x02_06_setup()
         {
             Engine.object_create_anew(chief_x02);
@@ -1845,16 +1842,16 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_set_permutation(marine_02.Entity, "head", "smith");
             Engine.object_set_permutation(marine_03.Entity, "head", "walter");
             Engine.object_set_permutation(marine_04.Entity, "head", "dion");
-            Engine.wake(x02_marine_crowd_03);
-            Engine.wake(x02_foley_06);
-            Engine.wake(x02_0280_lhd);
-            Engine.wake(x02_0290_lhd);
-            Engine.wake(x02_0300_lhd);
-            Engine.wake(x02_0310_lhd);
-            Engine.wake(cinematic_lighting_x02_06);
+            Engine.wake(new ScriptMethodReference(x02_marine_crowd_03));
+            Engine.wake(new ScriptMethodReference(x02_foley_06));
+            Engine.wake(new ScriptMethodReference(x02_0280_lhd));
+            Engine.wake(new ScriptMethodReference(x02_0290_lhd));
+            Engine.wake(new ScriptMethodReference(x02_0300_lhd));
+            Engine.wake(new ScriptMethodReference(x02_0310_lhd));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_x02_06));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(126, Lifecycle.Static)]
         public async Task x02_06_cleanup()
         {
             Engine.object_hide(marine_01.Entity, true);
@@ -1862,7 +1859,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy_containing("x02_marine_prop_03");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(127, Lifecycle.Static)]
         public async Task x02_scene_06()
         {
             Engine.cinematic_lightmap_shadow_enable();
@@ -1895,7 +1892,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.x02_06_cleanup();
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(128, Lifecycle.Dormant)]
         public async Task x02_score_08()
         {
             await Engine.sleep(0);
@@ -1903,7 +1900,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("x02 score 08 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(129, Lifecycle.Dormant)]
         public async Task x02_foley_07()
         {
             await Engine.sleep(0);
@@ -1911,7 +1908,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("x02 foley 07 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(130, Lifecycle.Dormant)]
         public async Task x02_0320_der()
         {
             await Engine.sleep(540);
@@ -1919,7 +1916,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0320_der", 4F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(131, Lifecycle.Dormant)]
         public async Task x02_07_dof_01()
         {
             await Engine.sleep(80);
@@ -1934,7 +1931,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("rack focus stop");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(132, Lifecycle.Dormant)]
         public async Task effect_helmet_smoke()
         {
             await Engine.sleep(0);
@@ -1942,7 +1939,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\02\\charred_smoke_small", 4064022556U), x02_elite_helmet.Entity, "head");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(133, Lifecycle.Dormant)]
         public async Task effect_brand()
         {
             await Engine.sleep(425);
@@ -1950,7 +1947,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("ouch");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(134, Lifecycle.Dormant)]
         public async Task cinematic_lighting_x02_07()
         {
             Engine.cinematic_lighting_set_primary_light(90F, 248F, 0.345098F, 0.286275F, 0.270588F);
@@ -1966,21 +1963,21 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.rasterizer_bloom_override_brightness(0.5F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(135, Lifecycle.Dormant)]
         public async Task backup_brand()
         {
             await Engine.sleep(231);
             Engine.scenery_animation_start_relative(branding_iron_02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\covenant\\branding_iron\\x02\\x02", 4064219167U), "branding_iron01_07", anchor_x02_02.Entity);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(136, Lifecycle.Dormant)]
         public async Task bring_back_brand()
         {
             await Engine.sleep(90);
             Engine.object_hide(branding_iron_02.Entity, false);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(137, Lifecycle.Dormant)]
         public async Task delete_brand()
         {
             await Engine.sleep(363);
@@ -1988,7 +1985,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy(branding_iron_01.Entity);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(138, Lifecycle.Dormant)]
         public async Task emotion_tartarus_07()
         {
             await Engine.sleep(180);
@@ -1999,7 +1996,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("tartaurs - amorous 1 30");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(139, Lifecycle.Static)]
         public async Task x02_07_setup()
         {
             Engine.object_create_anew(dervish_nude);
@@ -2008,21 +2005,21 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_create_anew(branding_iron_01);
             Engine.object_create_anew(branding_iron_02);
             Engine.object_create_anew_containing("cov_crowd_02");
-            Engine.wake(delete_brand);
+            Engine.wake(new ScriptMethodReference(delete_brand));
             Engine.object_cinematic_lod(dervish_nude.Entity, true);
             Engine.object_cinematic_lod(tartarus.Entity, true);
             Engine.object_cinematic_lod(branding_iron_01.Entity, true);
             Engine.object_cinematic_lod(branding_iron_02.Entity, true);
-            Engine.wake(x02_foley_07);
-            Engine.wake(x02_0320_der);
-            Engine.wake(effect_helmet_smoke);
-            Engine.wake(backup_brand);
-            Engine.wake(effect_brand);
-            Engine.wake(cinematic_lighting_x02_07);
-            Engine.wake(emotion_tartarus_07);
+            Engine.wake(new ScriptMethodReference(x02_foley_07));
+            Engine.wake(new ScriptMethodReference(x02_0320_der));
+            Engine.wake(new ScriptMethodReference(effect_helmet_smoke));
+            Engine.wake(new ScriptMethodReference(backup_brand));
+            Engine.wake(new ScriptMethodReference(effect_brand));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_x02_07));
+            Engine.wake(new ScriptMethodReference(emotion_tartarus_07));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(140, Lifecycle.Static)]
         public async Task x02_07_cleanup()
         {
             Engine.object_destroy(dervish_nude.Entity);
@@ -2035,7 +2032,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy_containing("x02_dervish_lift");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(141, Lifecycle.Static)]
         public async Task x02_scene_07()
         {
             Engine.cinematic_lightmap_shadow_disable();
@@ -2049,19 +2046,19 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.scenery_animation_start_relative(x02_manacle_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\covenant\\manacles\\x02\\x02", 4060352484U), "manacle1_07", anchor_x02_02.Entity);
             Engine.scenery_animation_start_relative(x02_manacle_02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\covenant\\manacles\\x02\\x02", 4060352484U), "manacle2_07", anchor_x02_02.Entity);
             Engine.object_hide(branding_iron_02.Entity, true);
-            Engine.wake(bring_back_brand);
+            Engine.wake(new ScriptMethodReference(bring_back_brand));
             await Engine.sleep(5);
             Engine.fade_in(1F, 1F, 1F, 15);
             await Engine.sleep((short)((float)Engine.camera_time() - this.sound_offset));
             Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\01_spacestation\\x02\\foley\\x02_08_fol", 4064481315U));
-            Engine.wake(x02_score_08);
+            Engine.wake(new ScriptMethodReference(x02_score_08));
             await Engine.sleep((short)((float)Engine.camera_time() - 15));
             Engine.fade_out(1F, 1F, 1F, 15);
             await Engine.sleep(15);
             await this.x02_07_cleanup();
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(142, Lifecycle.Dormant)]
         public async Task x02_foley_08()
         {
             await Engine.sleep(0);
@@ -2069,7 +2066,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("x02 foley 08 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(143, Lifecycle.Dormant)]
         public async Task x02_0330_cor()
         {
             await Engine.sleep(1);
@@ -2080,7 +2077,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0330_cor", 3F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(144, Lifecycle.Dormant)]
         public async Task x02_0340_lhd()
         {
             Engine.unit_set_emotional_state(hood_x02.Entity, "angry", 0.5F, 15);
@@ -2090,7 +2087,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0340_lhd", 1F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(145, Lifecycle.Dormant)]
         public async Task x02_0350_cor()
         {
             await Engine.sleep(180);
@@ -2098,7 +2095,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0350_cor", 4F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(146, Lifecycle.Dormant)]
         public async Task x02_0360_ahp()
         {
             await Engine.sleep(311);
@@ -2106,7 +2103,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0360_ahp", 3F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(147, Lifecycle.Dormant)]
         public async Task x02_0370_lhd()
         {
             Engine.unit_set_emotional_state(hood_x02.Entity, "pensive", 0.5F, 15);
@@ -2117,7 +2114,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0370_lhd", 4F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(148, Lifecycle.Dormant)]
         public async Task x02_0380_lhd()
         {
             await Engine.sleep(548);
@@ -2128,7 +2125,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("miranda - angry .5 15");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(149, Lifecycle.Dormant)]
         public async Task x02_0390_mir()
         {
             await Engine.sleep(632);
@@ -2136,7 +2133,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0390_mir", 1F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(150, Lifecycle.Dormant)]
         public async Task x02_0400_lhd()
         {
             await Engine.sleep(676);
@@ -2144,7 +2141,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0400_lhd", 4F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(151, Lifecycle.Dormant)]
         public async Task x02_0405_cor()
         {
             await Engine.sleep(793);
@@ -2152,7 +2149,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0405_cor", 1F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(152, Lifecycle.Dormant)]
         public async Task x02_0410_lhd()
         {
             await Engine.sleep(825);
@@ -2163,7 +2160,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0410_lhd", 5F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(153, Lifecycle.Dormant)]
         public async Task effect_cortana_off()
         {
             await Engine.sleep(809);
@@ -2171,7 +2168,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off", 4061007854U), x02_cortana_stand.Entity, "holo_effect");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(154, Lifecycle.Dormant)]
         public async Task cinematic_lighting_x02_08()
         {
             Engine.cinematic_lighting_set_primary_light(61F, 116F, 0.356863F, 0.317647F, 0.301961F);
@@ -2190,7 +2187,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.rasterizer_bloom_override_brightness(0.5F);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(155, Lifecycle.Static)]
         public async Task x02_08_setup()
         {
             Engine.object_create(chief_x02);
@@ -2213,22 +2210,22 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_set_permutation(marine_02.Entity, "head", "smith");
             Engine.object_set_permutation(marine_03.Entity, "head", "walter");
             Engine.object_set_permutation(marine_04.Entity, "head", "dion");
-            Engine.wake(x02_foley_08);
-            Engine.wake(x02_0330_cor);
-            Engine.wake(x02_0340_lhd);
-            Engine.wake(x02_0350_cor);
-            Engine.wake(x02_0360_ahp);
-            Engine.wake(x02_0370_lhd);
-            Engine.wake(x02_0380_lhd);
-            Engine.wake(x02_0390_mir);
-            Engine.wake(x02_0400_lhd);
-            Engine.wake(x02_0405_cor);
-            Engine.wake(x02_0410_lhd);
-            Engine.wake(effect_cortana_off);
-            Engine.wake(cinematic_lighting_x02_08);
+            Engine.wake(new ScriptMethodReference(x02_foley_08));
+            Engine.wake(new ScriptMethodReference(x02_0330_cor));
+            Engine.wake(new ScriptMethodReference(x02_0340_lhd));
+            Engine.wake(new ScriptMethodReference(x02_0350_cor));
+            Engine.wake(new ScriptMethodReference(x02_0360_ahp));
+            Engine.wake(new ScriptMethodReference(x02_0370_lhd));
+            Engine.wake(new ScriptMethodReference(x02_0380_lhd));
+            Engine.wake(new ScriptMethodReference(x02_0390_mir));
+            Engine.wake(new ScriptMethodReference(x02_0400_lhd));
+            Engine.wake(new ScriptMethodReference(x02_0405_cor));
+            Engine.wake(new ScriptMethodReference(x02_0410_lhd));
+            Engine.wake(new ScriptMethodReference(effect_cortana_off));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_x02_08));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(156, Lifecycle.Static)]
         public async Task x02_scene_08_cleanup()
         {
             Engine.object_destroy(miranda_x02.Entity);
@@ -2238,7 +2235,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy(marine_04.Entity);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(157, Lifecycle.Static)]
         public async Task x02_scene_08()
         {
             Engine.cinematic_lightmap_shadow_enable();
@@ -2266,7 +2263,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.x02_scene_08_cleanup();
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(158, Lifecycle.CommandScript)]
         public async Task cs_x02_panic_01()
         {
             Engine.cs_force_combat_status(3);
@@ -2282,7 +2279,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             });
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(159, Lifecycle.CommandScript)]
         public async Task cs_x02_panic_02()
         {
             Engine.cs_force_combat_status(3);
@@ -2298,7 +2295,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             });
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(160, Lifecycle.CommandScript)]
         public async Task cs_x02_panic_03()
         {
             Engine.cs_force_combat_status(3);
@@ -2314,7 +2311,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             });
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(161, Lifecycle.CommandScript)]
         public async Task cs_x02_panic_04()
         {
             Engine.cs_force_combat_status(3);
@@ -2330,7 +2327,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             });
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(162, Lifecycle.Dormant)]
         public async Task x02_foley_09()
         {
             await Engine.sleep(0);
@@ -2338,7 +2335,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("x02 foley 09 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(163, Lifecycle.Dormant)]
         public async Task x02_0420_to1()
         {
             await Engine.sleep(107);
@@ -2350,7 +2347,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.unit_set_emotional_state(marine_01.Entity, "annoyed", 1F, 10);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(164, Lifecycle.Dormant)]
         public async Task x02_0430_to1()
         {
             await Engine.sleep(159);
@@ -2361,7 +2358,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("marine_01 - shocked .5 0");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(165, Lifecycle.Dormant)]
         public async Task x02_0440_lhd()
         {
             await Engine.sleep(208);
@@ -2369,7 +2366,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0440_lhd", 5F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(166, Lifecycle.Dormant)]
         public async Task x02_0450_lhd()
         {
             await Engine.sleep(367);
@@ -2377,7 +2374,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0450_lhd", 3F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(167, Lifecycle.Dormant)]
         public async Task x02_0460_mas()
         {
             await Engine.sleep(462);
@@ -2385,7 +2382,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0460_mas", 1F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(168, Lifecycle.Dormant)]
         public async Task x02_0480_mas()
         {
             await Engine.sleep(497);
@@ -2393,7 +2390,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0480_mas", 1F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(169, Lifecycle.Dormant)]
         public async Task x02_0490_jon()
         {
             await Engine.sleep(529);
@@ -2401,7 +2398,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("x02_0490_jon", 2F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(170, Lifecycle.Dormant)]
         public async Task cinematic_lighting_x02_09()
         {
             Engine.cinematic_lighting_set_primary_light(61F, 116F, 0.356863F, 0.317647F, 0.301961F);
@@ -2412,7 +2409,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.rasterizer_bloom_override_brightness(0.5F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(171, Lifecycle.Dormant)]
         public async Task x02_fov_09_01()
         {
             await Engine.sleep(166);
@@ -2420,7 +2417,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("fov change: 60 -> 23 over 10 ticks");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(172, Lifecycle.Dormant)]
         public async Task x02_fov_09_02()
         {
             await Engine.sleep(206);
@@ -2428,7 +2425,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("fov change: 23 -> 60 over 0 ticks");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(173, Lifecycle.Static)]
         public async Task place_x02_ai()
         {
             Engine.ai_place(x02_panic_01.Squad);
@@ -2437,28 +2434,28 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(x02_panic_04.Squad);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(174, Lifecycle.Dormant)]
         public async Task x02_09_setup()
         {
             Engine.object_hide(marine_01.Entity, false);
-            Engine.wake(x02_foley_09);
-            Engine.wake(x02_0420_to1);
-            Engine.wake(x02_0430_to1);
-            Engine.wake(x02_0440_lhd);
-            Engine.wake(x02_0450_lhd);
-            Engine.wake(x02_0460_mas);
-            Engine.wake(x02_0480_mas);
-            Engine.wake(x02_0490_jon);
+            Engine.wake(new ScriptMethodReference(x02_foley_09));
+            Engine.wake(new ScriptMethodReference(x02_0420_to1));
+            Engine.wake(new ScriptMethodReference(x02_0430_to1));
+            Engine.wake(new ScriptMethodReference(x02_0440_lhd));
+            Engine.wake(new ScriptMethodReference(x02_0450_lhd));
+            Engine.wake(new ScriptMethodReference(x02_0460_mas));
+            Engine.wake(new ScriptMethodReference(x02_0480_mas));
+            Engine.wake(new ScriptMethodReference(x02_0490_jon));
             await this.place_x02_ai();
-            Engine.wake(x02_fov_09_01);
-            Engine.wake(x02_fov_09_02);
-            Engine.wake(cinematic_lighting_x02_09);
+            Engine.wake(new ScriptMethodReference(x02_fov_09_01));
+            Engine.wake(new ScriptMethodReference(x02_fov_09_02));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_x02_09));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(175, Lifecycle.Static)]
         public async Task x02_scene_09()
         {
-            Engine.wake(x02_09_setup);
+            Engine.wake(new ScriptMethodReference(x02_09_setup));
             Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\x02\\x02", 4059566040U), "x02_09", default(IUnit), anchor_flag_x02_01);
             Engine.custom_animation_relative(chief_x02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\masterchief\\x02\\x02", 4059631577U), "chief_09", false, anchor_x02_01.Entity);
             Engine.custom_animation_relative(johnson_x02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x02\\x02", 4059369429U), "johnson_09", false, anchor_x02_01.Entity);
@@ -2473,7 +2470,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy(marine_01.Entity);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(176, Lifecycle.Dormant)]
         public async Task x02_foley_10()
         {
             await Engine.sleep(0);
@@ -2481,7 +2478,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("x02 foley 10 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(177, Lifecycle.Dormant)]
         public async Task cinematic_lighting_x02_10()
         {
             Engine.cinematic_lighting_set_primary_light(61F, 116F, 0.356863F, 0.317647F, 0.301961F);
@@ -2498,7 +2495,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_uses_cinematic_lighting(fighter_x02_08.Entity, true);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(178, Lifecycle.Dormant)]
         public async Task fighters_unhide()
         {
             await Engine.sleep(5);
@@ -2513,7 +2510,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_hide(fighter_x02_08.Entity, false);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(179, Lifecycle.Static)]
         public async Task x02_10_setup()
         {
             Engine.object_create(poa_x02);
@@ -2542,12 +2539,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_hide(fighter_x02_06.Entity, true);
             Engine.object_hide(fighter_x02_07.Entity, true);
             Engine.object_hide(fighter_x02_08.Entity, true);
-            Engine.wake(x02_foley_10);
-            Engine.wake(fighters_unhide);
-            Engine.wake(cinematic_lighting_x02_10);
+            Engine.wake(new ScriptMethodReference(x02_foley_10));
+            Engine.wake(new ScriptMethodReference(fighters_unhide));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_x02_10));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(180, Lifecycle.Static)]
         public async Task x02_scene_10_cleanup()
         {
             Engine.object_destroy(chief_x02.Entity);
@@ -2559,7 +2556,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy_containing("fighter_x02");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(181, Lifecycle.Static)]
         public async Task x02_scene_10()
         {
             await this.x02_10_setup();
@@ -2585,7 +2582,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(30);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(182, Lifecycle.Static)]
         public async Task x02()
         {
             Engine.texture_cache_flush();
@@ -2621,7 +2618,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.rasterizer_bloom_override(false);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(183, Lifecycle.Dormant)]
         public async Task c01_outro_score_01()
         {
             await Engine.sleep(259);
@@ -2629,7 +2626,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("c01_outro score 01 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(184, Lifecycle.Dormant)]
         public async Task c01_outro_foley_01()
         {
             await Engine.sleep(0);
@@ -2637,7 +2634,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("c01_outro foley 01 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(185, Lifecycle.Dormant)]
         public async Task c01_9010_cor()
         {
             await Engine.sleep(0);
@@ -2645,7 +2642,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("c01_9010_cor", 2F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(186, Lifecycle.Dormant)]
         public async Task c01_9050_mas()
         {
             await Engine.sleep(311);
@@ -2653,7 +2650,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("c01_9050_mas", 2F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(187, Lifecycle.Dormant)]
         public async Task c01_9060_cor()
         {
             await Engine.sleep(349);
@@ -2661,7 +2658,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("c01_9060_cor", 2F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(188, Lifecycle.Dormant)]
         public async Task c01_9070_mir()
         {
             await Engine.sleep(393);
@@ -2669,7 +2666,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("c01_9070_mir", 2F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(189, Lifecycle.Dormant)]
         public async Task cinematic_lighting_outro_01()
         {
             Engine.cinematic_lighting_set_primary_light(33F, 188F, 0.388235F, 0.380392F, 0.372549F);
@@ -2684,7 +2681,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.rasterizer_bloom_override_brightness(0.5F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(190, Lifecycle.Dormant)]
         public async Task effects_cortana_transfer()
         {
             await Engine.sleep(125);
@@ -2693,13 +2690,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\masterchief\\data_transfer", 4066381888U), chief.Entity, "right_hand");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(191, Lifecycle.Static)]
         public async Task test()
         {
             Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off", 4061007854U), outro_cortana_base.Entity, "marker");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(192, Lifecycle.Dormant)]
         public async Task bomb_deactivate()
         {
             await Engine.sleep(284);
@@ -2707,7 +2704,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_set_function_variable(pickle.Entity, "flare", 0F, 1F);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(193, Lifecycle.Static)]
         public async Task c01_outro_02_problem_actors()
         {
             Engine.print("problem actors");
@@ -2719,7 +2716,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_cinematic_lod(iac_bridge_outro_01.Entity, true);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(194, Lifecycle.Dormant)]
         public async Task upload_cortana()
         {
             Engine.time_code_reset();
@@ -2728,7 +2725,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy(cortana.Entity);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(195, Lifecycle.Static)]
         public async Task c01_outro_01_setup()
         {
             Engine.object_create_anew(chief);
@@ -2741,26 +2738,26 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_cinematic_lod(cortana.Entity, true);
             Engine.object_cinematic_lod(pickle.Entity, true);
             Engine.object_cinematic_lod(outro_cortana_stand.Entity, true);
-            Engine.wake(c01_outro_score_01);
-            Engine.wake(c01_outro_foley_01);
-            Engine.wake(c01_9010_cor);
-            Engine.wake(c01_9050_mas);
-            Engine.wake(c01_9060_cor);
-            Engine.wake(c01_9070_mir);
-            Engine.wake(effects_cortana_transfer);
-            Engine.wake(upload_cortana);
-            Engine.wake(bomb_deactivate);
-            Engine.wake(cinematic_lighting_outro_01);
+            Engine.wake(new ScriptMethodReference(c01_outro_score_01));
+            Engine.wake(new ScriptMethodReference(c01_outro_foley_01));
+            Engine.wake(new ScriptMethodReference(c01_9010_cor));
+            Engine.wake(new ScriptMethodReference(c01_9050_mas));
+            Engine.wake(new ScriptMethodReference(c01_9060_cor));
+            Engine.wake(new ScriptMethodReference(c01_9070_mir));
+            Engine.wake(new ScriptMethodReference(effects_cortana_transfer));
+            Engine.wake(new ScriptMethodReference(upload_cortana));
+            Engine.wake(new ScriptMethodReference(bomb_deactivate));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_outro_01));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(196, Lifecycle.Static)]
         public async Task c01_outro_01_cleanup()
         {
             Engine.object_destroy(outro_cortana_stand.Entity);
             Engine.object_destroy(outro_cortana_base.Entity);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(197, Lifecycle.Static)]
         public async Task c01_outro_scene_01()
         {
             Engine.fade_out(1F, 1F, 1F, 0);
@@ -2790,7 +2787,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.c01_outro_01_cleanup();
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(198, Lifecycle.Dormant)]
         public async Task c01_outro_foley_02()
         {
             await Engine.sleep(0);
@@ -2798,7 +2795,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("c01_outro foley 02 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(199, Lifecycle.Dormant)]
         public async Task c01_9080_mir()
         {
             await Engine.sleep(0);
@@ -2809,7 +2806,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.unit_set_emotional_state(hood.Entity, "annoyed", 0.5F, 0);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(200, Lifecycle.Dormant)]
         public async Task c01_9090_lhd()
         {
             await Engine.sleep(113);
@@ -2817,7 +2814,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("c01_9090_lhd", 4F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(201, Lifecycle.Dormant)]
         public async Task c01_9100_mas()
         {
             await Engine.sleep(227);
@@ -2825,7 +2822,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("c01_9100_mas", 1F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(202, Lifecycle.Dormant)]
         public async Task c01_9110_mas()
         {
             await Engine.sleep(250);
@@ -2833,7 +2830,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("c01_9110_mas", 1F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(203, Lifecycle.Dormant)]
         public async Task c01_9120_lhd()
         {
             await Engine.sleep(290);
@@ -2841,7 +2838,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("c01_9120_lhd", 2F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(204, Lifecycle.Dormant)]
         public async Task c01_9130_mas()
         {
             await Engine.sleep(343);
@@ -2852,7 +2849,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("hood - happy .25 90");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(205, Lifecycle.Dormant)]
         public async Task c01_9140_lhd()
         {
             await Engine.sleep(436);
@@ -2860,7 +2857,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("c01_9140_lhd", 1F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(206, Lifecycle.Dormant)]
         public async Task cinematic_lighting_bridges_01a()
         {
             Engine.time_code_reset();
@@ -2873,7 +2870,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_uses_cinematic_lighting(iac_bridge_outro_01.Entity, true);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(207, Lifecycle.Dormant)]
         public async Task cinematic_lighting_bridges_01b()
         {
             await Engine.sleep(111);
@@ -2885,7 +2882,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_uses_cinematic_lighting(cairo_bridge.Entity, true);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(208, Lifecycle.Dormant)]
         public async Task cinematic_lighting_chief_01()
         {
             await Engine.sleep(240);
@@ -2896,7 +2893,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_uses_cinematic_lighting(pickle.Entity, true);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(209, Lifecycle.Dormant)]
         public async Task cinematic_lighting_bridges_02()
         {
             await Engine.sleep(288);
@@ -2906,28 +2903,28 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_lighting_set_ambient_light(0.00784314F, 0.00784314F, 0.00784314F);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(210, Lifecycle.Static)]
         public async Task c01_outro_02_setup()
         {
             Engine.object_create_anew(hood);
             Engine.object_create_anew(cairo_bridge);
             Engine.object_cinematic_lod(hood.Entity, true);
             Engine.object_cinematic_lod(cairo_bridge.Entity, true);
-            Engine.wake(c01_outro_foley_02);
-            Engine.wake(c01_9080_mir);
-            Engine.wake(c01_9090_lhd);
-            Engine.wake(c01_9100_mas);
-            Engine.wake(c01_9110_mas);
-            Engine.wake(c01_9120_lhd);
-            Engine.wake(c01_9130_mas);
-            Engine.wake(c01_9140_lhd);
-            Engine.wake(cinematic_lighting_bridges_01a);
-            Engine.wake(cinematic_lighting_bridges_01b);
-            Engine.wake(cinematic_lighting_chief_01);
-            Engine.wake(cinematic_lighting_bridges_02);
+            Engine.wake(new ScriptMethodReference(c01_outro_foley_02));
+            Engine.wake(new ScriptMethodReference(c01_9080_mir));
+            Engine.wake(new ScriptMethodReference(c01_9090_lhd));
+            Engine.wake(new ScriptMethodReference(c01_9100_mas));
+            Engine.wake(new ScriptMethodReference(c01_9110_mas));
+            Engine.wake(new ScriptMethodReference(c01_9120_lhd));
+            Engine.wake(new ScriptMethodReference(c01_9130_mas));
+            Engine.wake(new ScriptMethodReference(c01_9140_lhd));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_bridges_01a));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_bridges_01b));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_chief_01));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_bridges_02));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(211, Lifecycle.Static)]
         public async Task c01_outro_02_cleanup()
         {
             Engine.object_destroy(hood.Entity);
@@ -2937,7 +2934,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy(cairo_bridge.Entity);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(212, Lifecycle.Static)]
         public async Task c01_outro_scene_02()
         {
             Engine.pvs_set_object(anchor_outro1.Entity);
@@ -2958,7 +2955,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.c01_outro_02_cleanup();
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(213, Lifecycle.Dormant)]
         public async Task c01_outro_foley_03()
         {
             await Engine.sleep(0);
@@ -2966,7 +2963,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("c01_outro foley 03 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(214, Lifecycle.Dormant)]
         public async Task doors_outro_03()
         {
             Engine.device_set_position(outro_door_01.Entity, 1F);
@@ -2975,7 +2972,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.device_set_position(outro_door_01.Entity, 0F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(215, Lifecycle.Dormant)]
         public async Task outro_sparks_03()
         {
             await Engine.sleep(101);
@@ -2996,7 +2993,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.objects_attach(pickle.Entity, "sparks08", sparks_backward_05.Entity, "marker");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(216, Lifecycle.Dormant)]
         public async Task cinematic_lighting_chief_02()
         {
             Engine.print("light chief");
@@ -3006,24 +3003,24 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_uses_cinematic_lighting(outro_elevator.Entity, true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(217, Lifecycle.Static)]
         public async Task c01_outro_03_setup()
         {
-            Engine.wake(c01_outro_foley_03);
+            Engine.wake(new ScriptMethodReference(c01_outro_foley_03));
             Engine.object_create_anew(outro_elevator);
             Engine.object_cinematic_lod(outro_elevator.Entity, true);
-            Engine.wake(doors_outro_03);
-            Engine.wake(outro_sparks_03);
-            Engine.wake(cinematic_lighting_chief_02);
+            Engine.wake(new ScriptMethodReference(doors_outro_03));
+            Engine.wake(new ScriptMethodReference(outro_sparks_03));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_chief_02));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(218, Lifecycle.Static)]
         public async Task c01_outro_03_cleanup()
         {
             Engine.object_destroy_containing("sparks_backward");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(219, Lifecycle.Static)]
         public async Task c01_outro_scene_03()
         {
             await this.c01_outro_03_setup();
@@ -3039,7 +3036,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.c01_outro_03_cleanup();
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(220, Lifecycle.Dormant)]
         public async Task c01_outro_foley_04()
         {
             await Engine.sleep(0);
@@ -3047,7 +3044,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("c01_outro foley 04 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(221, Lifecycle.Dormant)]
         public async Task c01_9150_cor()
         {
             await Engine.sleep(30);
@@ -3055,7 +3052,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("c01_9150_cor", 2F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(222, Lifecycle.Dormant)]
         public async Task c01_9160_mas()
         {
             await Engine.sleep(108);
@@ -3063,7 +3060,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("c01_9160_mas", 2F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(223, Lifecycle.Dormant)]
         public async Task c01_9170_cor()
         {
             await Engine.sleep(154);
@@ -3071,7 +3068,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("c01_9170_cor", 2F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(224, Lifecycle.Dormant)]
         public async Task c01_9180_cor()
         {
             await Engine.sleep(217);
@@ -3079,7 +3076,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("c01_9180_cor", 1F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(225, Lifecycle.Dormant)]
         public async Task c01_outro_shake_04_01()
         {
             Engine.time_code_reset();
@@ -3089,7 +3086,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.player_effect_stop(1F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(226, Lifecycle.Dormant)]
         public async Task c01_outro_shake_04_02()
         {
             await Engine.sleep(105);
@@ -3101,7 +3098,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("shake stop");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(227, Lifecycle.Dormant)]
         public async Task c01_outro_shake_04_03()
         {
             await Engine.sleep(227);
@@ -3113,7 +3110,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("shake stop");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(228, Lifecycle.Dormant)]
         public async Task outro_sparks_03_04()
         {
             Engine.object_create_anew_containing("sparks_forward");
@@ -3129,7 +3126,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy_containing("sparks_forward");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(229, Lifecycle.Dormant)]
         public async Task doors_outro_04()
         {
             await Engine.sleep(300);
@@ -3139,7 +3136,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.device_set_position(outro_door_02.Entity, 0F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(230, Lifecycle.Dormant)]
         public async Task create_bloom_quad()
         {
             Engine.time_code_reset();
@@ -3148,7 +3145,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_create_anew(bloom_quad);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(231, Lifecycle.Dormant)]
         public async Task top_light()
         {
             await Engine.sleep(105);
@@ -3157,7 +3154,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy(elevator_light_top.Entity);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(232, Lifecycle.Dormant)]
         public async Task bottom_light()
         {
             await Engine.sleep(198);
@@ -3166,7 +3163,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.objects_attach(outro_elevator.Entity, "light_red02", elevator_light_bottom.Entity, "");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(233, Lifecycle.Static)]
         public async Task c01_outro_04_setup()
         {
             Engine.render_lights_enable_cinematic_shadow(true, chief.Entity, "head", 0.4F);
@@ -3174,22 +3171,22 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_create_anew(elevator_light_top);
             Engine.object_create_anew(elevator_light_flash);
             Engine.objects_attach(outro_elevator.Entity, "light_red01", elevator_light_top.Entity, "");
-            Engine.wake(c01_outro_foley_04);
-            Engine.wake(c01_9150_cor);
-            Engine.wake(c01_9160_mas);
-            Engine.wake(c01_9170_cor);
-            Engine.wake(c01_9180_cor);
-            Engine.wake(doors_outro_04);
-            Engine.wake(outro_sparks_03_04);
-            Engine.wake(create_bloom_quad);
-            Engine.wake(top_light);
-            Engine.wake(bottom_light);
-            Engine.wake(c01_outro_shake_04_01);
-            Engine.wake(c01_outro_shake_04_02);
-            Engine.wake(c01_outro_shake_04_03);
+            Engine.wake(new ScriptMethodReference(c01_outro_foley_04));
+            Engine.wake(new ScriptMethodReference(c01_9150_cor));
+            Engine.wake(new ScriptMethodReference(c01_9160_mas));
+            Engine.wake(new ScriptMethodReference(c01_9170_cor));
+            Engine.wake(new ScriptMethodReference(c01_9180_cor));
+            Engine.wake(new ScriptMethodReference(doors_outro_04));
+            Engine.wake(new ScriptMethodReference(outro_sparks_03_04));
+            Engine.wake(new ScriptMethodReference(create_bloom_quad));
+            Engine.wake(new ScriptMethodReference(top_light));
+            Engine.wake(new ScriptMethodReference(bottom_light));
+            Engine.wake(new ScriptMethodReference(c01_outro_shake_04_01));
+            Engine.wake(new ScriptMethodReference(c01_outro_shake_04_02));
+            Engine.wake(new ScriptMethodReference(c01_outro_shake_04_03));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(234, Lifecycle.Static)]
         public async Task c01_outro_04_cleanup()
         {
             Engine.objects_detach(outro_elevator.Entity, elevator_light_bottom.Entity);
@@ -3197,7 +3194,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy(bloom_quad.Entity);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(235, Lifecycle.Static)]
         public async Task c01_outro_scene_04()
         {
             await this.c01_outro_04_setup();
@@ -3214,7 +3211,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.c01_outro_04_cleanup();
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(236, Lifecycle.Dormant)]
         public async Task c01_outro_foley_05()
         {
             await Engine.sleep(0);
@@ -3222,7 +3219,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("c01_outro foley 05 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(237, Lifecycle.Dormant)]
         public async Task c01_9190_cor()
         {
             await Engine.sleep(293);
@@ -3230,7 +3227,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("c01_9190_cor", 2F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(238, Lifecycle.Dormant)]
         public async Task c01_9200_cor()
         {
             await Engine.sleep(355);
@@ -3238,7 +3235,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("c01_9200_cor", 1F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(239, Lifecycle.Dormant)]
         public async Task c01_9210_mas()
         {
             await Engine.sleep(412);
@@ -3247,7 +3244,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_create_anew(outro_fleet);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(240, Lifecycle.Dormant)]
         public async Task c01_outro_shake_05_01()
         {
             Engine.time_code_reset();
@@ -3257,7 +3254,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.player_effect_start(0.25F, 0F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(241, Lifecycle.Dormant)]
         public async Task cinematic_lighting_bay_01()
         {
             Engine.print("light bay");
@@ -3269,21 +3266,21 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_uses_cinematic_lighting(outro_seraph.Entity, true);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(242, Lifecycle.Dormant)]
         public async Task lever()
         {
             await Engine.sleep(240);
             Engine.device_set_position(outro_lever.Entity, 1F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(243, Lifecycle.Dormant)]
         public async Task airlock()
         {
             await Engine.sleep(470);
             Engine.device_set_position(outro_door_03.Entity, 1F);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(244, Lifecycle.Static)]
         public async Task c01_outro_05_setup()
         {
             Engine.object_create_anew(outro_fighter_01);
@@ -3295,17 +3292,17 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_cinematic_visibility(outro_fighter_01.Entity, true);
             Engine.object_cinematic_visibility(outro_fighter_02.Entity, true);
             Engine.object_cinematic_visibility(outro_seraph.Entity, true);
-            Engine.wake(lever);
-            Engine.wake(airlock);
-            Engine.wake(c01_outro_foley_05);
-            Engine.wake(c01_9190_cor);
-            Engine.wake(c01_9200_cor);
-            Engine.wake(c01_9210_mas);
-            Engine.wake(c01_outro_shake_05_01);
-            Engine.wake(cinematic_lighting_bay_01);
+            Engine.wake(new ScriptMethodReference(lever));
+            Engine.wake(new ScriptMethodReference(airlock));
+            Engine.wake(new ScriptMethodReference(c01_outro_foley_05));
+            Engine.wake(new ScriptMethodReference(c01_9190_cor));
+            Engine.wake(new ScriptMethodReference(c01_9200_cor));
+            Engine.wake(new ScriptMethodReference(c01_9210_mas));
+            Engine.wake(new ScriptMethodReference(c01_outro_shake_05_01));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_bay_01));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(245, Lifecycle.Static)]
         public async Task c01_outro_05_cleanup()
         {
             Engine.object_destroy(outro_fighter_01.Entity);
@@ -3313,7 +3310,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy(outro_seraph.Entity);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(246, Lifecycle.Static)]
         public async Task c01_outro_scene_05()
         {
             await this.c01_outro_05_setup();
@@ -3333,7 +3330,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.c01_outro_05_cleanup();
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(247, Lifecycle.Dormant)]
         public async Task c01_outro_music_06()
         {
             await Engine.sleep(233);
@@ -3341,7 +3338,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("c01_outro music 06 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(248, Lifecycle.Dormant)]
         public async Task c01_outro_foley_06()
         {
             await Engine.sleep(0);
@@ -3349,7 +3346,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("c01_outro foley 06 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(249, Lifecycle.Dormant)]
         public async Task c01_outro_shake_06_01()
         {
             await Engine.sleep(243);
@@ -3357,7 +3354,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("shake stop");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(250, Lifecycle.Dormant)]
         public async Task cinematic_lighting_bay_02()
         {
             Engine.print("light bay 02");
@@ -3366,7 +3363,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_lighting_set_ambient_light(0F, 0F, 0F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(251, Lifecycle.Dormant)]
         public async Task final_sparks()
         {
             Engine.time_code_reset();
@@ -3414,7 +3411,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("sparks stop");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(252, Lifecycle.Dormant)]
         public async Task destroy_fleet()
         {
             await Engine.sleep(150);
@@ -3422,20 +3419,20 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy(outro_fleet.Entity);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(253, Lifecycle.Static)]
         public async Task c01_outro_06_setup()
         {
             Engine.object_create_anew(airlock_debris_01);
             Engine.object_create_anew(airlock_debris_02);
-            Engine.wake(c01_outro_music_06);
-            Engine.wake(c01_outro_foley_06);
-            Engine.wake(c01_outro_shake_06_01);
-            Engine.wake(cinematic_lighting_bay_02);
-            Engine.wake(final_sparks);
-            Engine.wake(destroy_fleet);
+            Engine.wake(new ScriptMethodReference(c01_outro_music_06));
+            Engine.wake(new ScriptMethodReference(c01_outro_foley_06));
+            Engine.wake(new ScriptMethodReference(c01_outro_shake_06_01));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_bay_02));
+            Engine.wake(new ScriptMethodReference(final_sparks));
+            Engine.wake(new ScriptMethodReference(destroy_fleet));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(254, Lifecycle.Static)]
         public async Task c01_outro_06_cleanup()
         {
             Engine.object_destroy(matte_earth.Entity);
@@ -3443,7 +3440,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy_containing("airlock_debris");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(255, Lifecycle.Static)]
         public async Task c01_outro_scene_06()
         {
             await this.c01_outro_06_setup();
@@ -3459,7 +3456,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.c01_outro_06_cleanup();
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(256, Lifecycle.Dormant)]
         public async Task c01_outro_foley_07()
         {
             await Engine.sleep(0);
@@ -3467,7 +3464,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("c01_outro foley 07 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(257, Lifecycle.Dormant)]
         public async Task effect_covenant_beams()
         {
             await Engine.sleep(338);
@@ -3482,7 +3479,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\01_outro\\covenant_beam", 4068741220U), covenant_battery.Entity, "");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(258, Lifecycle.Dormant)]
         public async Task effect_poa_explosions()
         {
             await Engine.sleep(444);
@@ -3490,7 +3487,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\01_outro\\poa_hit_small", 4069003368U), poa.Entity, "explosion02");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(259, Lifecycle.Dormant)]
         public async Task cinematic_lighting_outro_07()
         {
             Engine.cinematic_lighting_set_primary_light(-5F, 314F, 0.32549F, 0.27451F, 0.243137F);
@@ -3508,7 +3505,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.rasterizer_bloom_override_brightness(0.5F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(260, Lifecycle.Dormant)]
         public async Task cinematic_lighting_poa_reverse()
         {
             Engine.time_code_reset();
@@ -3519,7 +3516,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_lighting_set_ambient_light(0F, 0F, 0F);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(261, Lifecycle.Static)]
         public async Task c01_outro_07_setup()
         {
             Engine.render_lights_enable_cinematic_shadow(false, chief.Entity, "head", 0.4F);
@@ -3540,21 +3537,21 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_cinematic_lod(covenant_battery.Entity, true);
             Engine.object_cinematic_lod(matte_africa.Entity, true);
             Engine.object_set_function_variable(pickle2.Entity, "flare", 0F, 1F);
-            Engine.wake(c01_outro_foley_07);
-            Engine.wake(effect_covenant_beams);
-            Engine.wake(effect_poa_explosions);
-            Engine.wake(cinematic_lighting_outro_07);
-            Engine.wake(cinematic_lighting_poa_reverse);
+            Engine.wake(new ScriptMethodReference(c01_outro_foley_07));
+            Engine.wake(new ScriptMethodReference(effect_covenant_beams));
+            Engine.wake(new ScriptMethodReference(effect_poa_explosions));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_outro_07));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_poa_reverse));
             Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\01_outro\\poa_flaming_debris", 4069724275U), poa.Entity, "flaming_debris");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(262, Lifecycle.Static)]
         public async Task c01_outro_07_cleanup()
         {
             Engine.object_destroy(poa.Entity);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(263, Lifecycle.Static)]
         public async Task c01_outro_scene_07()
         {
             await this._01_outro_07_predict_stub();
@@ -3578,7 +3575,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.c01_outro_07_cleanup();
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(264, Lifecycle.Dormant)]
         public async Task c01_outro_foley_08()
         {
             await Engine.sleep(0);
@@ -3586,7 +3583,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("c01_outro foley 08 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(265, Lifecycle.Dormant)]
         public async Task effect_cluster_bombs()
         {
             await Engine.sleep(120);
@@ -3604,7 +3601,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(3);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(266, Lifecycle.Dormant)]
         public async Task effect_interior_blast()
         {
             await Engine.sleep(195);
@@ -3612,7 +3609,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\01_outro\\cluster_bomb", 4070248571U), blast_base.Entity, "marker");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(267, Lifecycle.Dormant)]
         public async Task x02_08_dof()
         {
             Engine.time_code_reset();
@@ -3626,7 +3623,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("rack focus stop");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(268, Lifecycle.Dormant)]
         public async Task bomb_reactivate()
         {
             await Engine.sleep(630);
@@ -3634,7 +3631,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_set_function_variable(pickle2.Entity, "flare", 1F, 0F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(269, Lifecycle.Dormant)]
         public async Task cinematic_lighting_scene_08()
         {
             Engine.print("light scene 08");
@@ -3643,7 +3640,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_lighting_set_ambient_light(0F, 0F, 0F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(270, Lifecycle.Dormant)]
         public async Task cinematic_light_carrier_int()
         {
             Engine.time_code_reset();
@@ -3654,7 +3651,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_lighting_set_ambient_light(0.0235294F, 0.027451F, 0.0588235F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(271, Lifecycle.Dormant)]
         public async Task save_framerate_08()
         {
             await Engine.sleep(199);
@@ -3663,7 +3660,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_hide(matte_africa.Entity, true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(272, Lifecycle.Static)]
         public async Task c01_outro_08_setup()
         {
             Engine.object_create(matte_carrier_core);
@@ -3674,17 +3671,17 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_cinematic_lod(matte_carrier_core.Entity, true);
             Engine.object_cinematic_lod(matte_carrier_side.Entity, true);
             Engine.object_cinematic_lod(matte_carrier_hull.Entity, true);
-            Engine.wake(c01_outro_foley_08);
-            Engine.wake(effect_cluster_bombs);
-            Engine.wake(save_framerate_08);
-            Engine.wake(effect_interior_blast);
-            Engine.wake(bomb_reactivate);
-            Engine.wake(x02_08_dof);
-            Engine.wake(cinematic_lighting_scene_08);
-            Engine.wake(cinematic_light_carrier_int);
+            Engine.wake(new ScriptMethodReference(c01_outro_foley_08));
+            Engine.wake(new ScriptMethodReference(effect_cluster_bombs));
+            Engine.wake(new ScriptMethodReference(save_framerate_08));
+            Engine.wake(new ScriptMethodReference(effect_interior_blast));
+            Engine.wake(new ScriptMethodReference(bomb_reactivate));
+            Engine.wake(new ScriptMethodReference(x02_08_dof));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_scene_08));
+            Engine.wake(new ScriptMethodReference(cinematic_light_carrier_int));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(273, Lifecycle.Static)]
         public async Task c01_outro_08_cleanup()
         {
             Engine.object_destroy(matte_carrier_core.Entity);
@@ -3695,7 +3692,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy(blast_base.Entity);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(274, Lifecycle.Static)]
         public async Task c01_outro_scene_08()
         {
             await this.c01_outro_08_setup();
@@ -3717,7 +3714,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.c01_outro_08_cleanup();
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(275, Lifecycle.Dormant)]
         public async Task c01_outro_foley_09()
         {
             await Engine.sleep(0);
@@ -3725,7 +3722,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("c01_outro foley 09 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(276, Lifecycle.Dormant)]
         public async Task cinematic_lighting_scene_09()
         {
             Engine.print("light scene 09");
@@ -3734,16 +3731,16 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_lighting_set_ambient_light(0F, 0F, 0F);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(277, Lifecycle.Static)]
         public async Task c01_outro_09_setup()
         {
-            Engine.wake(c01_outro_foley_09);
-            Engine.wake(cinematic_lighting_scene_09);
+            Engine.wake(new ScriptMethodReference(c01_outro_foley_09));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_scene_09));
             Engine.object_hide(matte_africa.Entity, false);
             Engine.print("unhide africa matte");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(278, Lifecycle.Static)]
         public async Task c01_outro_09_cleanup()
         {
             Engine.object_destroy(pickle2.Entity);
@@ -3751,7 +3748,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy(matte_africa.Entity);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(279, Lifecycle.Static)]
         public async Task c01_outro_scene_09()
         {
             await this.c01_outro_09_setup();
@@ -3768,7 +3765,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.c01_outro_09_cleanup();
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(280, Lifecycle.Dormant)]
         public async Task c01_outro_foley_10()
         {
             await Engine.sleep(0);
@@ -3776,7 +3773,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("c01_outro foley 10 start");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(281, Lifecycle.Dormant)]
         public async Task c01_9220_jon()
         {
             await Engine.sleep(375);
@@ -3784,7 +3781,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("c01_9220_jon", 1F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(282, Lifecycle.Dormant)]
         public async Task c01_9230_jon()
         {
             await Engine.sleep(415);
@@ -3797,7 +3794,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("miranda - happy .25 60");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(283, Lifecycle.Dormant)]
         public async Task c01_9240_mir()
         {
             await Engine.sleep(461);
@@ -3805,7 +3802,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("c01_9240_mir", 2F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(284, Lifecycle.Dormant)]
         public async Task c01_9250_mir()
         {
             await Engine.sleep(536);
@@ -3813,7 +3810,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_subtitle("c01_9250_mir", 2F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(285, Lifecycle.Dormant)]
         public async Task carrier_explosion_tiny()
         {
             await Engine.sleep(15);
@@ -3832,7 +3829,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\01_outro\\covenant_tiny_explosion", 4070969478U), carrier_01.Entity, "tiny_explosion07");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(286, Lifecycle.Dormant)]
         public async Task carrier_explosion_medium()
         {
             await Engine.sleep(20);
@@ -3843,14 +3840,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\01_outro\\covenant_minor_explosion", 4071297163U), carrier_01.Entity, "tiny_explosion03");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(287, Lifecycle.Dormant)]
         public async Task carrier_explosion_large()
         {
             await Engine.sleep(50);
             Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\01_outro\\covenant_major_explosion", 4071886996U), carrier_01.Entity, "major_explosion");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(288, Lifecycle.Dormant)]
         public async Task white_flash()
         {
             await Engine.sleep(185);
@@ -3866,7 +3863,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.fade_in(1F, 1F, 1F, 15);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(289, Lifecycle.Dormant)]
         public async Task effect_africa_explosions()
         {
             await Engine.sleep(522);
@@ -3879,7 +3876,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\01_outro\\africa_explosion", 4072083607U), matte_africa_coast.Entity, "explosion4");
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(290, Lifecycle.Dormant)]
         public async Task cinematic_lighting_outro_10()
         {
             Engine.cinematic_lighting_set_primary_light(-68F, 122F, 0.47451F, 0.419608F, 0.392157F);
@@ -3887,7 +3884,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_lighting_set_ambient_light(0F, 0F, 0F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(291, Lifecycle.Dormant)]
         public async Task cinematic_lighting_iac_ext_01()
         {
             Engine.time_code_reset();
@@ -3902,7 +3899,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_uses_cinematic_lighting(iac_bridge_outro_02.Entity, true);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(292, Lifecycle.Dormant)]
         public async Task cinematic_lighting_iac_interior()
         {
             await Engine.sleep(338);
@@ -3915,7 +3912,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.rasterizer_bloom_override_brightness(0.5F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(293, Lifecycle.Dormant)]
         public async Task cinematic_lighting_iac_ext_02()
         {
             await Engine.sleep(502);
@@ -3928,7 +3925,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.rasterizer_bloom_override_brightness(0.5F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(294, Lifecycle.Dormant)]
         public async Task emotion_10()
         {
             await Engine.sleep(226);
@@ -3936,7 +3933,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.unit_set_emotional_state(johnson.Entity, "pensive", 0.5F, 0);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(295, Lifecycle.Dormant)]
         public async Task save_framerate_10()
         {
             Engine.object_hide(carrier_01.Entity, false);
@@ -3949,7 +3946,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("hide miranda, johnson, iac");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(296, Lifecycle.Static)]
         public async Task c01_outro_10_setup()
         {
             Engine.object_create_anew(miranda);
@@ -3959,25 +3956,25 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_create_anew(matte_africa_coast);
             Engine.object_cinematic_lod(iac.Entity, true);
             Engine.object_cinematic_lod(iac_bridge_outro_02.Entity, true);
-            Engine.wake(c01_outro_foley_10);
-            Engine.wake(c01_9220_jon);
-            Engine.wake(c01_9230_jon);
-            Engine.wake(c01_9240_mir);
-            Engine.wake(c01_9250_mir);
-            Engine.wake(save_framerate_10);
-            Engine.wake(carrier_explosion_tiny);
-            Engine.wake(carrier_explosion_medium);
-            Engine.wake(carrier_explosion_large);
-            Engine.wake(white_flash);
-            Engine.wake(effect_africa_explosions);
-            Engine.wake(cinematic_lighting_outro_10);
-            Engine.wake(cinematic_lighting_iac_ext_01);
-            Engine.wake(cinematic_lighting_iac_interior);
-            Engine.wake(cinematic_lighting_iac_ext_02);
-            Engine.wake(emotion_10);
+            Engine.wake(new ScriptMethodReference(c01_outro_foley_10));
+            Engine.wake(new ScriptMethodReference(c01_9220_jon));
+            Engine.wake(new ScriptMethodReference(c01_9230_jon));
+            Engine.wake(new ScriptMethodReference(c01_9240_mir));
+            Engine.wake(new ScriptMethodReference(c01_9250_mir));
+            Engine.wake(new ScriptMethodReference(save_framerate_10));
+            Engine.wake(new ScriptMethodReference(carrier_explosion_tiny));
+            Engine.wake(new ScriptMethodReference(carrier_explosion_medium));
+            Engine.wake(new ScriptMethodReference(carrier_explosion_large));
+            Engine.wake(new ScriptMethodReference(white_flash));
+            Engine.wake(new ScriptMethodReference(effect_africa_explosions));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_outro_10));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_iac_ext_01));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_iac_interior));
+            Engine.wake(new ScriptMethodReference(cinematic_lighting_iac_ext_02));
+            Engine.wake(new ScriptMethodReference(emotion_10));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(297, Lifecycle.Static)]
         public async Task c01_outro_10_cleanup()
         {
             Engine.object_destroy(chief.Entity);
@@ -3988,7 +3985,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy_containing("matte");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(298, Lifecycle.Static)]
         public async Task c01_outro_scene_10()
         {
             await this.c01_outro_10_setup();
@@ -4007,7 +4004,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(30);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(299, Lifecycle.Static)]
         public async Task c01_outro()
         {
             Engine.texture_cache_flush();
@@ -4031,7 +4028,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.rasterizer_bloom_override(false);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(300, Lifecycle.Dormant)]
         public async Task megg_check()
         {
             if (!(await this.difficulty_legendary()))
@@ -4069,7 +4066,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             }, 1);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(301, Lifecycle.Dormant)]
         public async Task ice_cream_check()
         {
             if (!(await this.difficulty_legendary()))
@@ -4083,13 +4080,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("blam");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(302, Lifecycle.Static)]
         public async Task save_cutscene()
         {
             Engine.data_mine_set_mission_segment("01b_cutscene");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(303, Lifecycle.Static)]
         public async Task save_1st_start()
         {
             Engine.game_save();
@@ -4097,7 +4094,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.timer_flavor = (short)Engine.max(this.timer_flavor, 10F * this.seconds);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(304, Lifecycle.Static)]
         public async Task save_1st_wv4()
         {
             Engine.game_save();
@@ -4105,7 +4102,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.timer_flavor = (short)Engine.max(this.timer_flavor, 10F * this.seconds);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(305, Lifecycle.Static)]
         public async Task save_1st_wv5_end()
         {
             Engine.game_save();
@@ -4113,7 +4110,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.timer_flavor = (short)Engine.max(this.timer_flavor, 10F * this.seconds);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(306, Lifecycle.Static)]
         public async Task save_atr2_start()
         {
             Engine.game_save();
@@ -4121,7 +4118,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.timer_flavor = (short)Engine.max(this.timer_flavor, 10F * this.seconds);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(307, Lifecycle.Static)]
         public async Task save_atr2_mid()
         {
             Engine.game_save();
@@ -4129,7 +4126,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.timer_flavor = (short)Engine.max(this.timer_flavor, 10F * this.seconds);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(308, Lifecycle.Static)]
         public async Task save_bay1_start()
         {
             Engine.game_save();
@@ -4137,7 +4134,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.timer_flavor = (short)Engine.max(this.timer_flavor, 10F * this.seconds);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(309, Lifecycle.Static)]
         public async Task save_bay1_mid()
         {
             Engine.game_save();
@@ -4145,7 +4142,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.timer_flavor = (short)Engine.max(this.timer_flavor, 10F * this.seconds);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(310, Lifecycle.Static)]
         public async Task save_bay2_start()
         {
             Engine.game_save();
@@ -4153,7 +4150,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.timer_flavor = (short)Engine.max(this.timer_flavor, 10F * this.seconds);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(311, Lifecycle.Dormant)]
         public async Task save_bay2_retreat()
         {
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_bay2_hall, Engine.players()));
@@ -4162,7 +4159,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.timer_flavor = (short)Engine.max(this.timer_flavor, 10F * this.seconds);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(312, Lifecycle.Static)]
         public async Task save_bay2_mid()
         {
             Engine.game_save();
@@ -4170,7 +4167,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.timer_flavor = (short)Engine.max(this.timer_flavor, 10F * this.seconds);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(313, Lifecycle.Dormant)]
         public async Task save_bay2_fnl()
         {
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(bay2_cov_fnl) == 0, 1);
@@ -4178,7 +4175,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.timer_flavor = (short)Engine.max(this.timer_flavor, 10F * this.seconds);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(314, Lifecycle.Dormant)]
         public async Task save_arm_start()
         {
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(arm_cov_stl.Squad) == 0, 1);
@@ -4187,7 +4184,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.timer_flavor = (short)Engine.max(this.timer_flavor, 10F * this.seconds);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(315, Lifecycle.Dormant)]
         public async Task save_atr1_start()
         {
             Engine.game_save();
@@ -4201,7 +4198,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.timer_flavor = (short)Engine.max(this.timer_flavor, 10F * this.seconds);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(316, Lifecycle.Static)]
         public async Task save_trm1_start()
         {
             Engine.game_save();
@@ -4209,7 +4206,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.timer_flavor = (short)Engine.max(this.timer_flavor, 10F * this.seconds);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(317, Lifecycle.Static)]
         public async Task save_dck_start()
         {
             Engine.game_save();
@@ -4217,7 +4214,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.timer_flavor = (short)Engine.max(this.timer_flavor, 10F * this.seconds);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(318, Lifecycle.Static)]
         public async Task save_elv_start()
         {
             Engine.game_save();
@@ -4225,7 +4222,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.timer_flavor = (short)Engine.max(this.timer_flavor, 10F * this.seconds);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(319, Lifecycle.Static)]
         public async Task save_lvr_start()
         {
             Engine.game_save();
@@ -4233,7 +4230,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.timer_flavor = (short)Engine.max(this.timer_flavor, 10F * this.seconds);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(320, Lifecycle.Static)]
         public async Task save_gun_start()
         {
             Engine.game_save();
@@ -4241,7 +4238,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.timer_flavor = (short)Engine.max(this.timer_flavor, 10F * this.seconds);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(321, Lifecycle.Dormant)]
         public async Task title_1st()
         {
             Engine.cinematic_show_letterbox(true);
@@ -4253,7 +4250,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_show_letterbox(false);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(322, Lifecycle.Dormant)]
         public async Task title_bay2()
         {
             Engine.cinematic_show_letterbox(true);
@@ -4265,7 +4262,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_show_letterbox(false);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(323, Lifecycle.Dormant)]
         public async Task title_dck()
         {
             Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\01b_spacestation\\01b_music\\01b_06", 4073459884U), default(IGameObject), 1F);
@@ -4278,7 +4275,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_show_letterbox(false);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(324, Lifecycle.Dormant)]
         public async Task title_gun()
         {
             Engine.cinematic_show_letterbox(true);
@@ -4290,19 +4287,19 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cinematic_show_letterbox(false);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(325, Lifecycle.Static)]
         public async Task<int> timer_flavor_set()
         {
             return (short)Engine.random_range((short)(15 * this.seconds), (short)(30 * this.seconds));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(326, Lifecycle.Static)]
         public async Task<int> timer_flavor_set_long()
         {
             return (short)Engine.random_range((short)(45 * this.seconds), (short)(60 * this.seconds));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(327, Lifecycle.Static)]
         public async Task flavor_stop()
         {
             Engine.sound_impulse_stop(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_2300_lhd", 4073656495U));
@@ -4360,7 +4357,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.sound_impulse_stop(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_2040_lhd", 4076867808U));
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(328, Lifecycle.Dormant)]
         public async Task flavor_mission()
         {
             await Engine.sleep_until(async () =>
@@ -4733,25 +4730,25 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             }, 1);
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(329, Lifecycle.CommandScript)]
         public async Task cs_clear()
         {
             await Engine.sleep(1);
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(330, Lifecycle.CommandScript)]
         public async Task cs_1st_hichief()
         {
             Engine.cs_approach_player(1.5F, 10F, 10F);
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(331, Lifecycle.CommandScript)]
         public async Task cs_weapons()
         {
             await Engine.sleep((short)Engine.random_range(90, 180));
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(332, Lifecycle.Dormant)]
         public async Task _1st_tram()
         {
             Engine.pvs_set_object(tram.Entity);
@@ -4774,14 +4771,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy(tram.Entity);
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(333, Lifecycle.CommandScript)]
         public async Task cs_1st_fieldoffire()
         {
             Engine.cs_aim_object(true, _1st_door_blast.Entity);
             Engine.sleep_forever();
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(334, Lifecycle.CommandScript)]
         public async Task cs_1st_johnson_deploy()
         {
             Engine.cs_face_object(true, _1st_door_blast.Entity);
@@ -4792,7 +4789,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cs_deploy_turret(Engine.GetReference<ISpatialPoint>("1st_turrets/1st_turrets_balcony"));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(335, Lifecycle.Static)]
         public async Task _1st_malta()
         {
             Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\01b_spacestation\\01b_music\\01b_01", 4077064419U), default(IGameObject), 1F);
@@ -4828,7 +4825,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("sound\\ambience\\spacestation\\ss_behind_bulkhead\\ss_behind_bulkhead", 4077654252U), _1st_door_blast.Entity, 1F);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(336, Lifecycle.Dormant)]
         public async Task _1st_waves()
         {
             Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\scenarios\\solo\\spacestation\\door_charging", 4077785326U), _1st_door_blast.Entity, "");
@@ -4869,7 +4866,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.save_1st_wv5_end();
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(337, Lifecycle.Static)]
         public async Task<bool> _1st_waves_end()
         {
             if (this.mark_1st_waves_end)
@@ -4882,7 +4879,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             }
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(338, Lifecycle.Dormant)]
         public async Task _1st_mission()
         {
             Engine.print("1st");
@@ -4908,10 +4905,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0070_jon", 4078768381U)));
             Engine.cs_queue_command_script(_1st_hum, cs_1st_fieldoffire);
             await Engine.sleep(30);
-            Engine.wake(title_1st);
+            Engine.wake(new ScriptMethodReference(title_1st));
             await Engine.sleep(30);
             await this.save_1st_start();
-            Engine.wake(_1st_waves);
+            Engine.wake(new ScriptMethodReference(_1st_waves));
             Engine.print("soon as that door opens...");
             Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0180_jon", 4078833918U), Engine.ai_get_object(_1st_hum_johnson.Squad), 1F);
             await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0180_jon", 4078833918U)));
@@ -4920,9 +4917,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.objectives_show_up_to(0);
             await Engine.sleep(30);
             this.mark_flavor_disable = false;
-            Engine.wake(megg_check);
+            Engine.wake(new ScriptMethodReference(megg_check));
             await Engine.sleep_until(async () => this.mark_1st_blast && Engine.volume_test_objects(tv_1st_exit, Engine.players()), 10);
-            Engine.sleep_forever(_1st_waves);
+            Engine.sleep_forever(new ScriptMethodReference(_1st_waves));
             this.mark_1st_waves_end = true;
             this.mark_flavor_init = false;
             this.mark_flavor_atr2 = true;
@@ -4937,7 +4934,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_erase(_1st_cov);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(339, Lifecycle.Dormant)]
         public async Task atr2_mission()
         {
             Engine.print("atr2");
@@ -4998,7 +4995,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_erase(atr2_cov_floor);
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(340, Lifecycle.CommandScript)]
         public async Task cs_lookat_malta()
         {
             Engine.cs_force_combat_status(2);
@@ -5007,7 +5004,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.sleep_forever();
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(341, Lifecycle.Static)]
         public async Task bay1_malta()
         {
             Engine.print("boarder effect");
@@ -5040,7 +5037,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.damage_players(Engine.GetTag<DamageEffectTag>("effects\\damage_effects\\spacestation_shockwave", 4079423751U));
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(342, Lifecycle.Dormant)]
         public async Task bay1_mission()
         {
             Engine.print("bay1");
@@ -5129,7 +5126,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_erase(bay1_cov);
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(343, Lifecycle.CommandScript)]
         public async Task cs_lookat_athens()
         {
             Engine.cs_force_combat_status(2);
@@ -5138,7 +5135,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.sleep_forever();
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(344, Lifecycle.Static)]
         public async Task bay2_athens()
         {
             Engine.print("boarder effect");
@@ -5172,7 +5169,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.objectives_show_up_to(1);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(345, Lifecycle.Dormant)]
         public async Task bay2_mission()
         {
             Engine.print("bay2");
@@ -5198,7 +5195,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => !(Engine.volume_test_objects(tv_bay2_boarding_tube, Engine.players())) && !(Engine.volume_test_objects(tv_bay2_boarding_tube, Engine.ai_actors(bay2_cov))), 1);
             if (await this.difficulty_normal())
             {
-                Engine.wake(save_bay2_retreat);
+                Engine.wake(new ScriptMethodReference(save_bay2_retreat));
             }
 
             Engine.object_create_anew(bay2_boarding_door);
@@ -5248,7 +5245,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => (short)Engine.ai_fighting_count(bay2_cov) <= 0, 10);
             await this.bay2_athens();
             await this.save_bay2_mid();
-            Engine.wake(title_bay2);
+            Engine.wake(new ScriptMethodReference(title_bay2));
             this.mark_flavor_disable = false;
             this.mark_flavor_board = false;
             this.mark_flavor_bay2 = false;
@@ -5256,7 +5253,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(bay2_cov_fnl);
             Engine.device_operates_automatically_set(bay2_door_exit_1.Entity, true);
             Engine.device_operates_automatically_set(bay2_door_exit_2.Entity, true);
-            Engine.wake(save_bay2_fnl);
+            Engine.wake(new ScriptMethodReference(save_bay2_fnl));
             await Engine.sleep_until(async () => (short)Engine.structure_bsp_index() == 0, 1);
             Engine.device_set_position_immediate(bay2_door_exit_1.Entity, 0F);
             Engine.device_set_position_immediate(bay2_door_exit_2.Entity, 0F);
@@ -5267,7 +5264,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_erase(bay1_hum);
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(346, Lifecycle.CommandScript)]
         public async Task cs_arm_guns_grate()
         {
             Engine.cs_enable_targeting(true);
@@ -5275,13 +5272,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.sleep_forever();
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(347, Lifecycle.Dormant)]
         public async Task arm_mission()
         {
             Engine.print("arm");
             await Engine.sleep(5);
             Engine.ai_place(arm_cov_stl.Squad);
-            Engine.wake(save_arm_start);
+            Engine.wake(new ScriptMethodReference(save_arm_start));
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_arm_start, Engine.players()), 1);
             await Engine.sleep(3);
             Engine.ai_place(arm_hum_guns.Squad);
@@ -5334,26 +5331,26 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.mark_flavor_atr1 = true;
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(348, Lifecycle.CommandScript)]
         public async Task cs_atr1_turret_fbalcony()
         {
             Engine.cs_deploy_turret(Engine.GetReference<ISpatialPoint>("atr1_turrets/fbalcony"));
             Engine.damage_new(Engine.GetTag<DamageEffectTag>("effects\\damage_effects\\glass_breaker", 4081455398U), fbalcony_flag);
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(349, Lifecycle.CommandScript)]
         public async Task cs_atr1_turret_bbalcony()
         {
             Engine.cs_deploy_turret(Engine.GetReference<ISpatialPoint>("atr1_turrets/bbalcony"));
             Engine.damage_new(Engine.GetTag<DamageEffectTag>("effects\\damage_effects\\glass_breaker", 4081455398U), bbalcony_flag);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(350, Lifecycle.Dormant)]
         public async Task atr1_mission()
         {
             Engine.print("atr1");
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_atr1_floor, Engine.players()), 1);
-            Engine.wake(save_atr1_start);
+            Engine.wake(new ScriptMethodReference(save_atr1_start));
             await Engine.sleep(15);
             Engine.ai_place(atr1_cov_fbalcony);
             Engine.ai_place(atr1_cov_bbalcony);
@@ -5386,13 +5383,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.mark_flavor_trm1 = true;
             Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\01b_spacestation\\01b_music\\01b_05", 4081258787U));
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_trm1_floor, Engine.players()), 1);
-            Engine.sleep_forever(save_atr1_start);
+            Engine.sleep_forever(new ScriptMethodReference(save_atr1_start));
             Engine.ai_disposable(atr1_cov, true);
             await Engine.sleep_until(async () => (short)Engine.structure_bsp_index() == 3, 10);
             Engine.ai_erase(atr1_cov);
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(351, Lifecycle.CommandScript)]
         public async Task cs_trm1_bunker()
         {
             Engine.cs_enable_moving(false);
@@ -5400,7 +5397,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.sleep_forever();
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(352, Lifecycle.CommandScript)]
         public async Task cs_trm1_lookat_player_crouch()
         {
             Engine.cs_enable_moving(false);
@@ -5409,7 +5406,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.sleep_forever();
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(353, Lifecycle.CommandScript)]
         public async Task cs_trm1_lookat_miranda_crouch()
         {
             Engine.cs_enable_moving(false);
@@ -5418,7 +5415,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.sleep_forever();
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(354, Lifecycle.CommandScript)]
         public async Task cs_trm1_lookat_johnson_crouch()
         {
             Engine.cs_enable_moving(false);
@@ -5427,7 +5424,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.sleep_forever();
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(355, Lifecycle.Static)]
         public async Task trm1_tomyship()
         {
             Engine.cs_run_command_script(trm1_hum_johnson.Squad, cs_trm1_lookat_player_crouch);
@@ -5451,7 +5448,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cs_run_command_script(trm1_hum_miranda.Squad, cs_clear);
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(356, Lifecycle.CommandScript)]
         public async Task cs_trm1_approach()
         {
             Engine.cs_force_combat_status(2);
@@ -5461,7 +5458,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.sleep_forever();
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(357, Lifecycle.CommandScript)]
         public async Task cs_trm1_moveto_alock()
         {
             Engine.cs_force_combat_status(2);
@@ -5470,7 +5467,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cs_go_to(Engine.GetReference<ISpatialPoint>("trm1/alock"));
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(358, Lifecycle.CommandScript)]
         public async Task cs_trm1_moveto_alock_miranda()
         {
             Engine.cs_force_combat_status(2);
@@ -5479,7 +5476,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cs_go_to(Engine.GetReference<ISpatialPoint>("trm1/alock_miranda"));
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(359, Lifecycle.CommandScript)]
         public async Task cs_trm1_moveto_alock_johnson()
         {
             Engine.cs_force_combat_status(2);
@@ -5488,13 +5485,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cs_go_to(Engine.GetReference<ISpatialPoint>("trm1/alock_johnson"));
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(360, Lifecycle.CommandScript)]
         public async Task cs_trm1_moveto_alock_block()
         {
             Engine.cs_go_to(Engine.GetReference<ISpatialPoint>("trm1/alock_block"));
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(361, Lifecycle.CommandScript)]
         public async Task cs_trm1_lookat_block()
         {
             Engine.cs_enable_moving(false);
@@ -5502,7 +5499,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.sleep_forever();
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(362, Lifecycle.CommandScript)]
         public async Task cs_trm1_lookat_player()
         {
             Engine.cs_enable_moving(false);
@@ -5510,7 +5507,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.sleep_forever();
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(363, Lifecycle.CommandScript)]
         public async Task cs_trm1_lookat_miranda()
         {
             Engine.cs_enable_moving(false);
@@ -5518,7 +5515,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.sleep_forever();
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(364, Lifecycle.CommandScript)]
         public async Task cs_trm1_lookat_johnson()
         {
             Engine.cs_enable_moving(false);
@@ -5526,7 +5523,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.sleep_forever();
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(365, Lifecycle.Dormant)]
         public async Task trm1_bugproblem()
         {
             Engine.cs_run_command_script(trm1_hum_block_mar.Squad, cs_trm1_approach);
@@ -5549,7 +5546,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cs_run_command_script(trm1_hum_johnson.Squad, cs_clear);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(366, Lifecycle.Dormant)]
         public async Task trm1_cleanup()
         {
             await Engine.sleep(90);
@@ -5559,7 +5556,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_erase(atr1_cov_stairs);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(367, Lifecycle.Dormant)]
         public async Task trm1_mission()
         {
             Engine.print("trm1");
@@ -5575,12 +5572,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cs_run_command_script(trm1_hum_miranda.Squad, cs_trm1_bunker);
             Engine.ai_place(trm1_cov_alock);
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_trm1_start, Engine.players()), 1);
-            Engine.wake(trm1_cleanup);
+            Engine.wake(new ScriptMethodReference(trm1_cleanup));
             await this.trm1_tomyship();
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_trm1_alock, Engine.players()) || (short)Engine.ai_living_count(trm1_cov_alock) == 0, 1);
             Engine.ai_set_orders(trm1_hum_block, trm1_hum_block1);
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(trm1_cov_alock) == 0, 1);
-            Engine.wake(trm1_bugproblem);
+            Engine.wake(new ScriptMethodReference(trm1_bugproblem));
             this.mark_flavor_disable = false;
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_trm1_block, Engine.players()), 1);
             Engine.ai_place(trm1_cov_block);
@@ -5599,7 +5596,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_erase(trm1_hum_block);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(368, Lifecycle.Dormant)]
         public async Task dck_hog()
         {
             Engine.object_create_anew(dck_hog1);
@@ -5612,7 +5609,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy(dck_hog_rail.Entity);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(369, Lifecycle.Static)]
         public async Task dck_setusup()
         {
             Engine.print("sir! boarders have breached the fire-control center. they have a bomb!");
@@ -5629,7 +5626,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0450_lhd", 4082045231U)));
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(370, Lifecycle.Dormant)]
         public async Task dck_mission()
         {
             Engine.print("dck");
@@ -5641,7 +5638,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_create(dck_wall_enter);
             Engine.device_set_position(dck_door_arm_1.Entity, 0F);
             await this.save_dck_start();
-            Engine.wake(title_dck);
+            Engine.wake(new ScriptMethodReference(title_dck));
             await Engine.sleep(45);
             Engine.device_set_position(dck_door_arm_2.Entity, 1F);
             Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\visual_effects\\ss_airlock\\airlock", 4082110768U), default(IGameObject), 1F);
@@ -5652,7 +5649,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(dck_cov_enter_elt.Squad);
             Engine.ai_place(dck_cov_arm1_elt.Squad);
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_dck_arm1_back, Engine.players()), 1);
-            Engine.wake(dck_hog);
+            Engine.wake(new ScriptMethodReference(dck_hog));
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_dck_mid, Engine.players()) || (float)Engine.ai_strength(dck_cov) <= 0.3F, 1);
             Engine.ai_place(dck_cov_arm2);
             Engine.ai_magically_see_object(dck_cov_arm2, await this.player0());
@@ -5665,10 +5662,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_erase(dck_cov);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(371, Lifecycle.Dormant)]
         public async Task elv_goinloud()
         {
-            Engine.sleep_forever(dck_setusup);
+            Engine.sleep_forever(new ScriptMethodReference(dck_setusup));
             Engine.sound_impulse_stop(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0390_cor", 4081848620U));
             Engine.sound_impulse_stop(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0400_lhd", 4081914157U));
             Engine.sound_impulse_stop(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0410_cor", 4081979694U));
@@ -5688,19 +5685,19 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.save_elv_start();
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(372, Lifecycle.Static)]
         public async Task<bool> elv_elevator_test()
         {
             return Engine.device_get_position(elv_elevator.Entity) > 0.8F;
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(373, Lifecycle.Static)]
         public async Task<bool> elv_elevator_down()
         {
             return Engine.volume_test_objects_all(tv_elevator, Engine.players());
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(374, Lifecycle.Dormant)]
         public async Task elv_mission()
         {
             Engine.print("elv");
@@ -5717,7 +5714,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.objects_attach(elv_elevator.Entity, "control_1", elv_elevator_control_1.Entity, "");
             Engine.objects_attach(elv_elevator.Entity, "control_2", elv_elevator_control_2.Entity, "");
             await this.save_elv_start();
-            Engine.wake(elv_goinloud);
+            Engine.wake(new ScriptMethodReference(elv_goinloud));
             Engine.ai_place(elv_hum_mar.Squad);
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_elv_start, Engine.players()), 1);
             Engine.ai_place(elv_cov_top);
@@ -5744,7 +5741,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_disposable(elv_hum_mar.Squad, true);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(375, Lifecycle.Dormant)]
         public async Task lvr_carrier_flyby()
         {
             Engine.object_create(carrier_01);
@@ -5757,7 +5754,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy(carrier_01.Entity);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(376, Lifecycle.Dormant)]
         public async Task lvr_carriers()
         {
             this.mark_flavor_disable = true;
@@ -5782,21 +5779,21 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.mark_flavor_disable = false;
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(377, Lifecycle.Dormant)]
         public async Task lvr_mission()
         {
             Engine.print("lvr");
             await Engine.sleep_until(async () => Engine.volume_test_objects_all(tv_lvr_enter, Engine.players()) && await this.player_count() > 0, 1);
             Engine.object_create(lvr_wall_enter);
             Engine.device_set_position(lvr_door_enter_1.Entity, 0F);
-            Engine.wake(lvr_carriers);
+            Engine.wake(new ScriptMethodReference(lvr_carriers));
             await Engine.sleep_until(async () => Engine.device_get_position(lvr_door_enter_1.Entity) == 0F, 1);
             Engine.ai_erase(elv_cov_top);
             await Engine.sleep_until(async () => (bool)Engine.game_safe_to_save(), 1, 150);
             await this.save_lvr_start();
             await Engine.sleep(30);
             Engine.ai_place(lvr_cov_wv1);
-            Engine.wake(lvr_carrier_flyby);
+            Engine.wake(new ScriptMethodReference(lvr_carrier_flyby));
             Engine.device_set_position(lvr_door_enter_2.Entity, 1F);
             Engine.device_set_power(lvr_airlock_blower.Entity, 1F);
             Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\visual_effects\\ss_airlock\\airlock", 4082110768U), default(IGameObject), 1F);
@@ -5820,7 +5817,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.device_set_position(gun_elevator.Entity, 0F);
             await Engine.sleep_until(async () => Engine.volume_test_objects_all(tv_gun_elevator, Engine.players()) && await this.player_count() > 0, 1);
             Engine.object_create(gun_wall_enter);
-            Engine.sleep_forever(lvr_carriers);
+            Engine.sleep_forever(new ScriptMethodReference(lvr_carriers));
             this.mark_flavor_disable = true;
             Engine.device_set_position(gun_elevator.Entity, 1F);
             Engine.ai_disposable(gun_cov, true);
@@ -5833,13 +5830,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("there's quite a lot of elites in here, you may need to get creative.");
             Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_4000_cor", 4083683656U), default(IGameObject), 1F, "radio_default");
             await Engine.sleep((short)((float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_4000_cor", 4083683656U)) - 60));
-            Engine.wake(title_gun);
+            Engine.wake(new ScriptMethodReference(title_gun));
             Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\01b_spacestation\\01b_music\\01b_08", 4083749193U), default(IGameObject), 1F);
             this.mark_flavor_disable = false;
             Engine.ai_erase(lvr_cov);
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(378, Lifecycle.CommandScript)]
         public async Task cs_expand_cortana()
         {
             Engine.object_cannot_take_damage(Engine.ai_get_object(this.ai_current_actor));
@@ -5853,7 +5850,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.sleep_forever();
         }
 
-        [ScriptMethod(Lifecycle.CommandScript)]
+        [ScriptMethod(379, Lifecycle.CommandScript)]
         public async Task cs_shrink_cortana()
         {
             Engine.cs_enable_dialogue(false);
@@ -5865,7 +5862,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_erase(this.ai_current_actor);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(380, Lifecycle.Dormant)]
         public async Task gun_flyby()
         {
             Engine.object_create(carrier_02);
@@ -5877,7 +5874,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy(carrier_02.Entity);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(381, Lifecycle.Static)]
         public async Task gun_mission()
         {
             Engine.print("gun");
@@ -5890,7 +5887,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.save_gun_start();
             Engine.ai_place(gun_cov);
             Engine.ai_place(gun_hum_mar.Squad);
-            Engine.wake(gun_flyby);
+            Engine.wake(new ScriptMethodReference(gun_flyby));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(gun_cov) <= 4, 1);
             Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\01b_spacestation\\01b_music\\01b_08", 4083749193U), true);
             this.mark_flavor_vacuum = true;
@@ -5903,7 +5900,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.mark_bomb2_objective = true;
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(382, Lifecycle.Static)]
         public async Task load_bsp0a()
         {
             Engine.object_create_anew(rack_bsp0a_1_smg_1);
@@ -5946,7 +5943,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.objects_attach(bigrack_bsp0a_6.Entity, "gun_r_03", bigrack_bsp0a_6_smg_2.Entity, "");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(383, Lifecycle.Static)]
         public async Task load_bsp2()
         {
             Engine.object_create_anew(rack_bsp2_1_smg_1);
@@ -5957,7 +5954,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.objects_attach(rack_bsp2_1.Entity, "smg_3", rack_bsp2_1_smg_3.Entity, "");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(384, Lifecycle.Static)]
         public async Task load_bsp0b()
         {
             Engine.object_create_anew(rack_bsp0b_1_br_1);
@@ -5993,7 +5990,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_create_anew(atr1_elevator);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(385, Lifecycle.Static)]
         public async Task load_bsp3()
         {
             Engine.object_create_anew(rack_bsp3_1_br_1);
@@ -6012,7 +6009,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.objects_attach(rack_bsp3_5.Entity, "smg_3", rack_bsp3_5_smg_1.Entity, "");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(386, Lifecycle.Static)]
         public async Task mission_start()
         {
             Engine.print("01b spacestation");
@@ -6020,7 +6017,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("env. artsits - paul, dave");
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(387, Lifecycle.Static)]
         public async Task mission_setup()
         {
             Engine.objectives_clear();
@@ -6036,7 +6033,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_create(athens);
         }
 
-        [ScriptMethod(Lifecycle.Startup)]
+        [ScriptMethod(388, Lifecycle.Startup)]
         public async Task mission_spacestation()
         {
             if (await this.player_count() == 0)
@@ -6062,28 +6059,28 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.mission_start();
             await this.mission_setup();
             await this.load_bsp0a();
-            Engine.wake(flavor_mission);
-            Engine.wake(_1st_mission);
-            Engine.wake(atr2_mission);
-            Engine.wake(_1st_tram);
+            Engine.wake(new ScriptMethodReference(flavor_mission));
+            Engine.wake(new ScriptMethodReference(_1st_mission));
+            Engine.wake(new ScriptMethodReference(atr2_mission));
+            Engine.wake(new ScriptMethodReference(_1st_tram));
             await Engine.sleep(1);
             await this.cinematic_fade_from_white();
             await Engine.sleep_until(async () => (short)Engine.structure_bsp_index() == 2, 1);
             await this.load_bsp2();
             Engine.device_operates_automatically_set(bsp2_door_forward.Entity, true);
-            Engine.wake(bay1_mission);
-            Engine.wake(bay2_mission);
+            Engine.wake(new ScriptMethodReference(bay1_mission));
+            Engine.wake(new ScriptMethodReference(bay2_mission));
             await Engine.sleep_until(async () => (short)Engine.structure_bsp_index() == 0, 1);
             await this.load_bsp0b();
-            Engine.wake(ice_cream_check);
-            Engine.wake(arm_mission);
-            Engine.wake(atr1_mission);
-            Engine.wake(trm1_mission);
-            Engine.wake(dck_mission);
+            Engine.wake(new ScriptMethodReference(ice_cream_check));
+            Engine.wake(new ScriptMethodReference(arm_mission));
+            Engine.wake(new ScriptMethodReference(atr1_mission));
+            Engine.wake(new ScriptMethodReference(trm1_mission));
+            Engine.wake(new ScriptMethodReference(dck_mission));
             await Engine.sleep_until(async () => (short)Engine.structure_bsp_index() == 3, 1);
             await this.load_bsp3();
-            Engine.wake(elv_mission);
-            Engine.wake(lvr_mission);
+            Engine.wake(new ScriptMethodReference(elv_mission));
+            Engine.wake(new ScriptMethodReference(lvr_mission));
             await this.gun_mission();
             await this.playtest_mission();
             await this.save_cutscene();
@@ -6102,78 +6099,78 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.game_won();
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(389, Lifecycle.Static)]
         public async Task cheat_atr2()
         {
             Engine.switch_bsp(0);
             Engine.object_teleport(await this.player0(), atr2_flag);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(390, Lifecycle.Static)]
         public async Task cheat_bay1()
         {
             Engine.switch_bsp(2);
             Engine.object_teleport(await this.player0(), bay1_flag);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(391, Lifecycle.Static)]
         public async Task cheat_bay2()
         {
             Engine.switch_bsp(2);
             Engine.object_teleport(await this.player0(), bay2_flag);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(392, Lifecycle.Static)]
         public async Task cheat_arm()
         {
             Engine.switch_bsp(0);
             Engine.object_teleport(await this.player0(), arm_flag);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(393, Lifecycle.Static)]
         public async Task cheat_atr1()
         {
             Engine.switch_bsp(0);
-            Engine.wake(mission_spacestation);
+            Engine.wake(new ScriptMethodReference(mission_spacestation));
             Engine.object_teleport(await this.player0(), atr1_flag);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(394, Lifecycle.Static)]
         public async Task cheat_trm1()
         {
             Engine.switch_bsp(0);
-            Engine.wake(mission_spacestation);
+            Engine.wake(new ScriptMethodReference(mission_spacestation));
             Engine.object_teleport(await this.player0(), trm1_flag);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(395, Lifecycle.Static)]
         public async Task cheat_elv()
         {
             Engine.switch_bsp(3);
-            Engine.wake(mission_spacestation);
-            Engine.wake(mission_spacestation);
+            Engine.wake(new ScriptMethodReference(mission_spacestation));
+            Engine.wake(new ScriptMethodReference(mission_spacestation));
             Engine.object_teleport(await this.player0(), elv_flag);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(396, Lifecycle.Static)]
         public async Task cheat_lvr()
         {
             Engine.switch_bsp(3);
-            Engine.wake(mission_spacestation);
-            Engine.wake(mission_spacestation);
+            Engine.wake(new ScriptMethodReference(mission_spacestation));
+            Engine.wake(new ScriptMethodReference(mission_spacestation));
             Engine.object_teleport(await this.player0(), lvr_flag);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(397, Lifecycle.Static)]
         public async Task cheat_gun()
         {
             Engine.switch_bsp(3);
-            Engine.wake(mission_spacestation);
-            Engine.wake(mission_spacestation);
+            Engine.wake(new ScriptMethodReference(mission_spacestation));
+            Engine.wake(new ScriptMethodReference(mission_spacestation));
             Engine.object_teleport(await this.player0(), gun_flag);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(398, Lifecycle.Dormant)]
         public async Task x02_01_predict()
         {
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\01a_tutorial\\01_bsp_0"), 0, false);
@@ -6343,7 +6340,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\gravity_hammer\\gravity_hammer", 4099871295U), 0);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(399, Lifecycle.Dormant)]
         public async Task x02_02_predict()
         {
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 1, false);
@@ -6485,7 +6482,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 13, true);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(400, Lifecycle.Dormant)]
         public async Task x02_03_predict()
         {
             await Engine.sleep(4);
@@ -6615,7 +6612,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\spacestation\\doors\\ss_door_int_hab_large\\ss_door_int_hab_large", 4095218168U), 0);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(401, Lifecycle.Dormant)]
         public async Task x02_04a_predict()
         {
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\01a_tutorial\\01_bsp_1"), 3, false);
@@ -6706,7 +6703,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\spacestation\\doors\\ss_door_int_hab_large\\ss_door_int_hab_large", 4095218168U), 0);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(402, Lifecycle.Dormant)]
         public async Task x02_04b_predict()
         {
             await Engine.sleep(4);
@@ -6828,7 +6825,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\elite\\elite", 3817669143U), 32);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(403, Lifecycle.Dormant)]
         public async Task x02_05_predict()
         {
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 6, false);
@@ -6920,7 +6917,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\medals\\colonial_cross\\colonial_cross", 4109701845U), 0);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(404, Lifecycle.Dormant)]
         public async Task x02_06_predict()
         {
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\01a_tutorial\\01_bsp_1"), 3, false);
@@ -7036,7 +7033,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\brute\\brute", 4096201223U), 34);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(405, Lifecycle.Dormant)]
         public async Task x02_07_predict()
         {
             await Engine.sleep(2);
@@ -7180,7 +7177,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\cortana\\cortana", 4057141171U), 8);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(406, Lifecycle.Dormant)]
         public async Task x02_08_predict()
         {
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\01a_tutorial\\01_bsp_1"), 3, false);
@@ -7291,7 +7288,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\cairo_bridge_holoscreens\\holo_display_unsc_logo\\holo_display_unsc_logo", 4109046475U), 0);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(407, Lifecycle.Dormant)]
         public async Task x02_09_predict()
         {
             await Engine.sleep(2);
@@ -7402,7 +7399,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3940616385U), 52);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(408, Lifecycle.Dormant)]
         public async Task x02_10_predict()
         {
             await Engine.sleep(2);
@@ -7435,7 +7432,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\vehicles\\longsword\\longsword", 4115075879U), 1);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(409, Lifecycle.Dormant)]
         public async Task _01_outro_01_predict()
         {
             await Engine.sleep(1);
@@ -7704,7 +7701,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3940616385U), 60);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(410, Lifecycle.Dormant)]
         public async Task _01_outro_02_predict()
         {
             await Engine.sleep(1);
@@ -7745,7 +7742,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\covenant\\military\\cov_boarding_craft\\cov_boarding_craft", 4124251059U), 1);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(411, Lifecycle.Dormant)]
         public async Task _01_outro_03_predict()
         {
             await Engine.sleep(1);
@@ -7793,7 +7790,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\01b_spacestation\\01_bsp_3"), 27, true);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(412, Lifecycle.Dormant)]
         public async Task _01_outro_04_predict()
         {
             await Engine.sleep(1);
@@ -7868,7 +7865,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\01b_spacestation\\01_bsp_3"), 35, false);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(413, Lifecycle.Dormant)]
         public async Task _01_outro_05_predict()
         {
             await Engine.sleep(4);
@@ -7891,7 +7888,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\earth_space\\earth_space", 4124709818U), 0);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(414, Lifecycle.Dormant)]
         public async Task _01_outro_06_predict()
         {
             await Engine.sleep(2);
@@ -7931,7 +7928,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\01b_spacestation\\01_bsp_3"), 10, false);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(415, Lifecycle.Dormant)]
         public async Task _01_outro_07_predict()
         {
             await Engine.sleep(4);
@@ -7953,7 +7950,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\vehicles\\longsword\\longsword", 4115075879U), 1);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(416, Lifecycle.Dormant)]
         public async Task _01_outro_08_predict()
         {
             await Engine.sleep(4);
@@ -7969,14 +7966,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\cruiser_interior_up\\cruiser_interior_up", 4126872539U), 0);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(417, Lifecycle.Dormant)]
         public async Task _01_outro_09_predict()
         {
             await Engine.sleep(2);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\africa_space\\africa_space", 4125692873U), 0);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(418, Lifecycle.Dormant)]
         public async Task _01_outro_10_predict()
         {
             await Engine.sleep(3);

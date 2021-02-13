@@ -1,47 +1,47 @@
 
 ("e26_smg1", MethodDecl<Void> @:229 check:0,op:0,dt:0,nt:65535,next:10614,nextCheck:36074,str:21755,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:10614 check:36074,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:54840,h:1,d0:10615,d1:36075;
+    (____, BuiltinInvocation<Void> @:10614 check:36074,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:54840,h:1,d0:10615,d1:36075;
         ("begin", Expression<MethodOrOperator> @:10615 check:36075,op:0,dt:2,nt:9,next:10571,nextCheck:36031,str:6,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:10571 check:36031,op:46,dt:4,nt:8,next:10574,nextCheck:36034,str:54867,h:1,d0:10572,d1:36032;
+            (____, BuiltinInvocation<Void> @:10571 check:36031,op:46,dt:4,nt:8,next:10574,nextCheck:36034,str:54867,h:1,d0:10572,d1:36032;
                 ("object_create", Expression<MethodOrOperator> @:10572 check:36032,op:46,dt:2,nt:9,next:10573,nextCheck:36033,str:8750,h:0,d0:0,d1:0;
                     ("e26_smg1", Expression<EntityIdentifier> @:10573 check:36033,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:21755,h:0,d0:47,d1:65535;)))
-            (____, Scope<Void> @:10574 check:36034,op:21,dt:4,nt:8,next:10606,nextCheck:36066,str:54895,h:1,d0:10575,d1:36035;
+            (____, BuiltinInvocation<Void> @:10574 check:36034,op:21,dt:4,nt:8,next:10606,nextCheck:36066,str:54895,h:1,d0:10575,d1:36035;
                 ("sleep_until", Expression<MethodOrOperator> @:10575 check:36035,op:21,dt:2,nt:9,next:10576,nextCheck:36036,str:236,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:10576 check:36036,op:0,dt:5,nt:8,next:10605,nextCheck:36065,str:54911,h:1,d0:10577,d1:36037;
+                    (____, BuiltinInvocation<Boolean> @:10576 check:36036,op:0,dt:5,nt:8,next:10605,nextCheck:36065,str:54911,h:1,d0:10577,d1:36037;
                         ("begin", Expression<MethodOrOperator> @:10577 check:36037,op:0,dt:2,nt:9,next:10578,nextCheck:36038,str:6,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:10578 check:36038,op:251,dt:4,nt:8,next:10583,nextCheck:36043,str:54922,h:1,d0:10579,d1:36039;
+                            (____, BuiltinInvocation<Void> @:10578 check:36038,op:251,dt:4,nt:8,next:10583,nextCheck:36043,str:54922,h:1,d0:10579,d1:36039;
                                 ("weapon_hold_trigger", Expression<MethodOrOperator> @:10579 check:36039,op:251,dt:2,nt:9,next:10580,nextCheck:36040,str:7496,h:0,d0:0,d1:0;
                                     ("e26_smg1", Expression<WeaponReference> @:10580 check:36040,op:59,dt:53,nt:9,next:10581,nextCheck:36041,str:21755,h:0,d0:47,d1:65535;
                                         (0, Expression<Int> @:10581 check:36041,op:8,dt:8,nt:9,next:10582,nextCheck:36042,str:54952,h:1,d0:0,d1:0;
                                             (True, Expression<Boolean> @:10582 check:36042,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:54954,h:1,d0:65281,d1:65535;)))))
-                            (____, Scope<Void> @:10583 check:36043,op:21,dt:4,nt:8,next:10591,nextCheck:36051,str:54964,h:1,d0:10584,d1:36044;
+                            (____, BuiltinInvocation<Void> @:10583 check:36043,op:21,dt:4,nt:8,next:10591,nextCheck:36051,str:54964,h:1,d0:10584,d1:36044;
                                 ("sleep_until", Expression<MethodOrOperator> @:10584 check:36044,op:21,dt:2,nt:9,next:10585,nextCheck:36045,str:236,h:0,d0:0,d1:0;
                                     ("g_e26_ended", VariableAccess<Boolean> @:10585 check:36045,op:5,dt:5,nt:13,next:10586,nextCheck:36046,str:21764,h:0,d0:74,d1:0;
                                         (2, Expression<Short> @:10586 check:36046,op:7,dt:7,nt:9,next:10587,nextCheck:36047,str:54989,h:1,d0:2,d1:65535;
-                                            (____, Scope<Int> @:10587 check:36047,op:124,dt:8,nt:8,next:65535,nextCheck:65535,str:54991,h:1,d0:10588,d1:36048;
+                                            (____, BuiltinInvocation<Int> @:10587 check:36047,op:124,dt:8,nt:8,next:65535,nextCheck:65535,str:54991,h:1,d0:10588,d1:36048;
                                                 ("random_range", Expression<MethodOrOperator> @:10588 check:36048,op:124,dt:2,nt:9,next:10589,nextCheck:36049,str:17028,h:0,d0:0,d1:0;
                                                     (15, Expression<Short> @:10589 check:36049,op:7,dt:7,nt:9,next:10590,nextCheck:36050,str:55005,h:1,d0:15,d1:65535;
                                                         (45, Expression<Short> @:10590 check:36050,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55008,h:1,d0:45,d1:65535;))))))))
-                            (____, Scope<Void> @:10591 check:36051,op:251,dt:4,nt:8,next:10596,nextCheck:36056,str:55017,h:1,d0:10592,d1:36052;
+                            (____, BuiltinInvocation<Void> @:10591 check:36051,op:251,dt:4,nt:8,next:10596,nextCheck:36056,str:55017,h:1,d0:10592,d1:36052;
                                 ("weapon_hold_trigger", Expression<MethodOrOperator> @:10592 check:36052,op:251,dt:2,nt:9,next:10593,nextCheck:36053,str:7496,h:0,d0:0,d1:0;
                                     ("e26_smg1", Expression<WeaponReference> @:10593 check:36053,op:59,dt:53,nt:9,next:10594,nextCheck:36054,str:21755,h:0,d0:47,d1:65535;
                                         (0, Expression<Int> @:10594 check:36054,op:8,dt:8,nt:9,next:10595,nextCheck:36055,str:55047,h:1,d0:0,d1:0;
                                             (False, Expression<Boolean> @:10595 check:36055,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:55049,h:1,d0:65280,d1:65535;)))))
-                            (____, Scope<Void> @:10596 check:36056,op:21,dt:4,nt:8,next:10604,nextCheck:36064,str:55060,h:1,d0:10597,d1:36057;
+                            (____, BuiltinInvocation<Void> @:10596 check:36056,op:21,dt:4,nt:8,next:10604,nextCheck:36064,str:55060,h:1,d0:10597,d1:36057;
                                 ("sleep_until", Expression<MethodOrOperator> @:10597 check:36057,op:21,dt:2,nt:9,next:10598,nextCheck:36058,str:236,h:0,d0:0,d1:0;
                                     ("g_e26_ended", VariableAccess<Boolean> @:10598 check:36058,op:5,dt:5,nt:13,next:10599,nextCheck:36059,str:21764,h:0,d0:74,d1:0;
                                         (2, Expression<Short> @:10599 check:36059,op:7,dt:7,nt:9,next:10600,nextCheck:36060,str:55085,h:1,d0:2,d1:65535;
-                                            (____, Scope<Int> @:10600 check:36060,op:124,dt:8,nt:8,next:65535,nextCheck:65535,str:55087,h:1,d0:10601,d1:36061;
+                                            (____, BuiltinInvocation<Int> @:10600 check:36060,op:124,dt:8,nt:8,next:65535,nextCheck:65535,str:55087,h:1,d0:10601,d1:36061;
                                                 ("random_range", Expression<MethodOrOperator> @:10601 check:36061,op:124,dt:2,nt:9,next:10602,nextCheck:36062,str:17028,h:0,d0:0,d1:0;
                                                     (45, Expression<Short> @:10602 check:36062,op:7,dt:7,nt:9,next:10603,nextCheck:36063,str:55101,h:1,d0:45,d1:65535;
                                                         (90, Expression<Short> @:10603 check:36063,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55104,h:1,d0:90,d1:65535;))))))))
                             ("g_e26_ended", VariableAccess<Boolean> @:10604 check:36064,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:21764,h:0,d0:74,d1:0;)))
                     (1, Expression<Short> @:10605 check:36065,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55174,h:1,d0:1,d1:65535;)))
-            (____, Scope<Void> @:10606 check:36066,op:251,dt:4,nt:8,next:10611,nextCheck:36071,str:55182,h:1,d0:10607,d1:36067;
+            (____, BuiltinInvocation<Void> @:10606 check:36066,op:251,dt:4,nt:8,next:10611,nextCheck:36071,str:55182,h:1,d0:10607,d1:36067;
                 ("weapon_hold_trigger", Expression<MethodOrOperator> @:10607 check:36067,op:251,dt:2,nt:9,next:10608,nextCheck:36068,str:7496,h:0,d0:0,d1:0;
                     ("e26_smg1", Expression<WeaponReference> @:10608 check:36068,op:59,dt:53,nt:9,next:10609,nextCheck:36069,str:21755,h:0,d0:47,d1:65535;
                         (0, Expression<Int> @:10609 check:36069,op:8,dt:8,nt:9,next:10610,nextCheck:36070,str:55212,h:1,d0:0,d1:0;
                             (False, Expression<Boolean> @:10610 check:36070,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:55214,h:1,d0:65280,d1:65535;)))))
-            (____, Scope<Void> @:10611 check:36071,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:55223,h:1,d0:10612,d1:36072;
+            (____, BuiltinInvocation<Void> @:10611 check:36071,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:55223,h:1,d0:10612,d1:36072;
                 ("object_destroy", Expression<MethodOrOperator> @:10612 check:36072,op:52,dt:2,nt:9,next:10613,nextCheck:36073,str:3448,h:0,d0:0,d1:0;
                     (4294901807, Expression<Entity> @:10613 check:36073,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:21755,h:0,d0:47,d1:65535;))))))

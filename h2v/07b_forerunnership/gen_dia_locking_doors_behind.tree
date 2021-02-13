@@ -1,19 +1,19 @@
 
 ("gen_dia_locking_doors_behind", MethodDecl<Void> @:136 check:0,op:0,dt:0,nt:65535,next:3890,nextCheck:62117,str:65535,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:3890 check:62117,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:48095,h:0,d0:3891,d1:62118;
+    (____, BuiltinInvocation<Void> @:3890 check:62117,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:48095,h:0,d0:3891,d1:62118;
         ("begin", Expression<MethodOrOperator> @:3891 check:62118,op:0,dt:2,nt:9,next:3875,nextCheck:62102,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:3875 check:62102,op:2,dt:4,nt:8,next:3881,nextCheck:62108,str:48142,h:0,d0:3876,d1:62103;
+            (____, BuiltinInvocation<Void> @:3875 check:62102,op:2,dt:4,nt:8,next:3881,nextCheck:62108,str:48142,h:0,d0:3876,d1:62103;
                 ("if", Expression<MethodOrOperator> @:3876 check:62103,op:2,dt:2,nt:9,next:3877,nextCheck:62104,str:456,h:0,d0:0,d1:0;
                     ("dialogue", VariableAccess<Boolean> @:3877 check:62104,op:5,dt:5,nt:13,next:3878,nextCheck:62105,str:10397,h:0,d0:3,d1:0;
-                        (____, Scope<Void> @:3878 check:62105,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:48155,h:0,d0:3879,d1:62106;
+                        (____, BuiltinInvocation<Void> @:3878 check:62105,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:48155,h:0,d0:3879,d1:62106;
                             ("print", Expression<MethodOrOperator> @:3879 check:62106,op:27,dt:2,nt:9,next:3880,nextCheck:62107,str:86,h:0,d0:0,d1:0;
                                 ("cortana: if it makes you feel any better, i'm locking the doors behind you. should keep some of the flood off your back.", Expression<String> @:3880 check:62107,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:10833,h:0,d0:44657,d1:11039;))))))
-            (____, Scope<Void> @:3881 check:62108,op:19,dt:4,nt:8,next:3887,nextCheck:62114,str:48289,h:0,d0:3882,d1:62109;
+            (____, BuiltinInvocation<Void> @:3881 check:62108,op:19,dt:4,nt:8,next:3887,nextCheck:62114,str:48289,h:0,d0:3882,d1:62109;
                 ("sleep", Expression<MethodOrOperator> @:3882 check:62109,op:19,dt:2,nt:9,next:3883,nextCheck:62110,str:80,h:0,d0:0,d1:0;
-                    (____, Scope<Short> @:3883 check:62110,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:48296,h:0,d0:3884,d1:62111;
+                    (____, BuiltinInvocation<Short> @:3883 check:62110,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:48296,h:0,d0:3884,d1:62111;
                         ("ai_play_line_on_object", Expression<MethodOrOperator> @:3884 check:62111,op:362,dt:2,nt:9,next:3885,nextCheck:62112,str:10487,h:0,d0:0,d1:0;
                             (4294967295, Expression<Entity> @:3885 check:62112,op:50,dt:50,nt:9,next:3886,nextCheck:62113,str:1386,h:0,d0:65535,d1:65535;
                                 ("2840", Expression<StringId> @:3886 check:62113,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:10954,h:0,d0:10353,d1:1024;))))))
-            (____, Scope<Void> @:3887 check:62114,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:48334,h:0,d0:3888,d1:62115;
+            (____, BuiltinInvocation<Void> @:3887 check:62114,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:48334,h:0,d0:3888,d1:62115;
                 ("sleep", Expression<MethodOrOperator> @:3888 check:62115,op:19,dt:2,nt:9,next:3889,nextCheck:62116,str:80,h:0,d0:0,d1:0;
                     ("dialogue_pause", VariableAccess<Short> @:3889 check:62116,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:10515,h:0,d0:4,d1:0;))))))

@@ -29,25 +29,25 @@ namespace OpenH2.Scripts.Generatedscenarios.ui
         public ScenarioEntity<IScenery> ui_flak_03 { get; set; }
         public ScenarioEntity<IScenery> ui_flak_04 { get; set; }
         public ScenarioEntity<IScenery> ui_flak_05 { get; set; }
-        public ICameraPathTarget Unnamed => Scenario.CameraPathTargets[0].GameObject;
-        public ICameraPathTarget scene_01_alphahalo => Scenario.CameraPathTargets[1].GameObject;
-        public ICameraPathTarget scene_02_earth => Scenario.CameraPathTargets[2].GameObject;
-        public ICameraPathTarget scene_04_highcharity => Scenario.CameraPathTargets[3].GameObject;
-        public ICameraPathTarget scene_03_deltahalo => Scenario.CameraPathTargets[4].GameObject;
-        public ICameraPathTarget scene_05_empty => Scenario.CameraPathTargets[5].GameObject;
-        public ICameraPathTarget ui_path_01 => Scenario.CameraPathTargets[6].GameObject;
-        public ICameraPathTarget ui_path_02 => Scenario.CameraPathTargets[7].GameObject;
-        public ICameraPathTarget ui_path_03 => Scenario.CameraPathTargets[8].GameObject;
-        public ICameraPathTarget ui_path_04 => Scenario.CameraPathTargets[9].GameObject;
-        public ICameraPathTarget ui_path_05 => Scenario.CameraPathTargets[10].GameObject;
-        public ICameraPathTarget ui_path_06 => Scenario.CameraPathTargets[11].GameObject;
-        public ICameraPathTarget ui_path_07 => Scenario.CameraPathTargets[12].GameObject;
-        public ICameraPathTarget ui_path_08 => Scenario.CameraPathTargets[13].GameObject;
-        public ICameraPathTarget ui_path_09 => Scenario.CameraPathTargets[14].GameObject;
-        public ICameraPathTarget ui_path_10 => Scenario.CameraPathTargets[15].GameObject;
-        public ICameraPathTarget ui_path_11 => Scenario.CameraPathTargets[16].GameObject;
-        public ICameraPathTarget ui_path_12 => Scenario.CameraPathTargets[17].GameObject;
-        public ILocationFlag anchor_flag_x01 => Scenario.LocationFlagDefinitions[0].GameObject;
+        public ICameraPathTarget Unnamed => Scenario.CameraPathTargets[0];
+        public ICameraPathTarget scene_01_alphahalo => Scenario.CameraPathTargets[1];
+        public ICameraPathTarget scene_02_earth => Scenario.CameraPathTargets[2];
+        public ICameraPathTarget scene_04_highcharity => Scenario.CameraPathTargets[3];
+        public ICameraPathTarget scene_03_deltahalo => Scenario.CameraPathTargets[4];
+        public ICameraPathTarget scene_05_empty => Scenario.CameraPathTargets[5];
+        public ICameraPathTarget ui_path_01 => Scenario.CameraPathTargets[6];
+        public ICameraPathTarget ui_path_02 => Scenario.CameraPathTargets[7];
+        public ICameraPathTarget ui_path_03 => Scenario.CameraPathTargets[8];
+        public ICameraPathTarget ui_path_04 => Scenario.CameraPathTargets[9];
+        public ICameraPathTarget ui_path_05 => Scenario.CameraPathTargets[10];
+        public ICameraPathTarget ui_path_06 => Scenario.CameraPathTargets[11];
+        public ICameraPathTarget ui_path_07 => Scenario.CameraPathTargets[12];
+        public ICameraPathTarget ui_path_08 => Scenario.CameraPathTargets[13];
+        public ICameraPathTarget ui_path_09 => Scenario.CameraPathTargets[14];
+        public ICameraPathTarget ui_path_10 => Scenario.CameraPathTargets[15];
+        public ICameraPathTarget ui_path_11 => Scenario.CameraPathTargets[16];
+        public ICameraPathTarget ui_path_12 => Scenario.CameraPathTargets[17];
+        public ILocationFlag anchor_flag_x01 => Scenario.LocationFlagDefinitions[0];
         public override void InitializeData(ScenarioTag scenarioTag, Scene scene)
         {
             this.Scenario = scenarioTag;

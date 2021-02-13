@@ -1,36 +1,36 @@
 
 ("grav_test", MethodDecl<Void> @:256 check:0,op:0,dt:0,nt:65535,next:12564,nextCheck:38024,str:25815,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:12564 check:38024,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:2747,h:2,d0:12565,d1:38025;
+    (____, BuiltinInvocation<Void> @:12564 check:38024,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:2747,h:2,d0:12565,d1:38025;
         ("begin", Expression<MethodOrOperator> @:12565 check:38025,op:0,dt:2,nt:9,next:12532,nextCheck:37992,str:210,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:12532 check:37992,op:4,dt:4,nt:8,next:12536,nextCheck:37996,str:2775,h:2,d0:12533,d1:37993;
+            (____, BuiltinInvocation<Void> @:12532 check:37992,op:4,dt:4,nt:8,next:12536,nextCheck:37996,str:2775,h:2,d0:12533,d1:37993;
                 ("set", Expression<MethodOrOperator> @:12533 check:37993,op:4,dt:2,nt:9,next:12534,nextCheck:37994,str:2606,h:0,d0:0,d1:0;
                     ("gravity", VariableAccess<Float> @:12534 check:37994,op:65535,dt:6,nt:13,next:12535,nextCheck:37995,str:24223,h:0,d0:29,d1:0;
                         (0f, Expression<Float> @:12535 check:37995,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:2788,h:2,d0:0,d1:0;))))
-            (____, Scope<Void> @:12536 check:37996,op:127,dt:4,nt:8,next:12539,nextCheck:37999,str:2793,h:2,d0:12537,d1:37997;
+            (____, BuiltinInvocation<Void> @:12536 check:37996,op:127,dt:4,nt:8,next:12539,nextCheck:37999,str:2793,h:2,d0:12537,d1:37997;
                 ("physics_set_gravity", Expression<MethodOrOperator> @:12537 check:37997,op:127,dt:2,nt:9,next:12538,nextCheck:37998,str:24231,h:0,d0:0,d1:0;
                     ("gravity", VariableAccess<Float> @:12538 check:37998,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:24223,h:0,d0:29,d1:0;)))
-            (____, Scope<Void> @:12539 check:37999,op:21,dt:4,nt:8,next:12557,nextCheck:38017,str:2825,h:2,d0:12540,d1:38000;
+            (____, BuiltinInvocation<Void> @:12539 check:37999,op:21,dt:4,nt:8,next:12557,nextCheck:38017,str:2825,h:2,d0:12540,d1:38000;
                 ("sleep_until", Expression<MethodOrOperator> @:12540 check:38000,op:21,dt:2,nt:9,next:12541,nextCheck:38001,str:440,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:12541 check:38001,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:2841,h:2,d0:12542,d1:38002;
+                    (____, BuiltinInvocation<Boolean> @:12541 check:38001,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:2841,h:2,d0:12542,d1:38002;
                         ("begin", Expression<MethodOrOperator> @:12542 check:38002,op:0,dt:2,nt:9,next:12543,nextCheck:38003,str:210,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:12543 check:38003,op:127,dt:4,nt:8,next:12546,nextCheck:38006,str:2852,h:2,d0:12544,d1:38004;
+                            (____, BuiltinInvocation<Void> @:12543 check:38003,op:127,dt:4,nt:8,next:12546,nextCheck:38006,str:2852,h:2,d0:12544,d1:38004;
                                 ("physics_set_gravity", Expression<MethodOrOperator> @:12544 check:38004,op:127,dt:2,nt:9,next:12545,nextCheck:38005,str:24231,h:0,d0:0,d1:0;
                                     ("gravity", VariableAccess<Float> @:12545 check:38005,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:24223,h:0,d0:29,d1:0;)))
-                            (____, Scope<Void> @:12546 check:38006,op:4,dt:4,nt:8,next:12553,nextCheck:38013,str:2886,h:2,d0:12547,d1:38007;
+                            (____, BuiltinInvocation<Void> @:12546 check:38006,op:4,dt:4,nt:8,next:12553,nextCheck:38013,str:2886,h:2,d0:12547,d1:38007;
                                 ("set", Expression<MethodOrOperator> @:12547 check:38007,op:4,dt:2,nt:9,next:12548,nextCheck:38008,str:2606,h:0,d0:0,d1:0;
                                     ("gravity", VariableAccess<Float> @:12548 check:38008,op:65535,dt:6,nt:13,next:12549,nextCheck:38009,str:24223,h:0,d0:29,d1:0;
-                                        (-1.2631443E-26f, Scope<Float> @:12549 check:38009,op:7,dt:6,nt:8,next:65535,nextCheck:65535,str:2899,h:2,d0:12550,d1:38010;
+                                        (-1.2631443E-26f, BuiltinInvocation<Float> @:12549 check:38009,op:7,dt:6,nt:8,next:65535,nextCheck:65535,str:2899,h:2,d0:12550,d1:38010;
                                             ("+", Expression<MethodOrOperator> @:12550 check:38010,op:7,dt:2,nt:9,next:12551,nextCheck:38011,str:1192,h:0,d0:0,d1:0;
                                                 ("gravity", VariableAccess<Float> @:12551 check:38011,op:6,dt:6,nt:13,next:12552,nextCheck:38012,str:24223,h:0,d0:29,d1:0;
                                                     (0.1f, Expression<Float> @:12552 check:38012,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:2910,h:2,d0:52429,d1:15820;)))))))
-                            (____, Scope<Boolean> @:12553 check:38013,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:2919,h:2,d0:12554,d1:38014;
+                            (____, BuiltinInvocation<Boolean> @:12553 check:38013,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:2919,h:2,d0:12554,d1:38014;
                                 (">", Expression<MethodOrOperator> @:12554 check:38014,op:15,dt:2,nt:9,next:12555,nextCheck:38015,str:13448,h:0,d0:0,d1:0;
                                     ("gravity", VariableAccess<Float> @:12555 check:38015,op:0,dt:6,nt:13,next:12556,nextCheck:38016,str:24223,h:0,d0:29,d1:0;
                                         (0.9f, Expression<Float> @:12556 check:38016,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:2930,h:2,d0:26214,d1:16230;))))))))
-            (____, Scope<Void> @:12557 check:38017,op:4,dt:4,nt:8,next:12561,nextCheck:38021,str:2945,h:2,d0:12558,d1:38018;
+            (____, BuiltinInvocation<Void> @:12557 check:38017,op:4,dt:4,nt:8,next:12561,nextCheck:38021,str:2945,h:2,d0:12558,d1:38018;
                 ("set", Expression<MethodOrOperator> @:12558 check:38018,op:4,dt:2,nt:9,next:12559,nextCheck:38019,str:2606,h:0,d0:0,d1:0;
                     ("gravity", VariableAccess<Float> @:12559 check:38019,op:65535,dt:6,nt:13,next:12560,nextCheck:38020,str:24223,h:0,d0:29,d1:0;
                         (1f, Expression<Float> @:12560 check:38020,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:2958,h:2,d0:0,d1:16256;))))
-            (____, Scope<Void> @:12561 check:38021,op:127,dt:4,nt:8,next:65535,nextCheck:65535,str:2965,h:2,d0:12562,d1:38022;
+            (____, BuiltinInvocation<Void> @:12561 check:38021,op:127,dt:4,nt:8,next:65535,nextCheck:65535,str:2965,h:2,d0:12562,d1:38022;
                 ("physics_set_gravity", Expression<MethodOrOperator> @:12562 check:38022,op:127,dt:2,nt:9,next:12563,nextCheck:38023,str:24231,h:0,d0:0,d1:0;
                     ("gravity", VariableAccess<Float> @:12563 check:38023,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:24223,h:0,d0:29,d1:0;))))))

@@ -1,13 +1,13 @@
 
 ("w_path_turret_1", MethodDecl<Void> @:267 check:0,op:0,dt:0,nt:65535,next:13982,nextCheck:39442,str:25281,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:13982 check:39442,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:31195,h:2,d0:13983,d1:39443;
+    (____, BuiltinInvocation<Void> @:13982 check:39442,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:31195,h:2,d0:13983,d1:39443;
         ("begin", Expression<MethodOrOperator> @:13983 check:39443,op:0,dt:2,nt:9,next:13973,nextCheck:39433,str:54,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:13973 check:39433,op:449,dt:4,nt:8,next:13976,nextCheck:39436,str:31236,h:2,d0:13974,d1:39434;
+            (____, BuiltinInvocation<Void> @:13973 check:39433,op:449,dt:4,nt:8,next:13976,nextCheck:39436,str:31236,h:2,d0:13974,d1:39434;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:13974 check:39434,op:449,dt:2,nt:9,next:13975,nextCheck:39435,str:15210,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:13975 check:39435,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:31268,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:13976 check:39436,op:385,dt:4,nt:8,next:13979,nextCheck:39439,str:31276,h:2,d0:13977,d1:39437;
+            (____, BuiltinInvocation<Void> @:13976 check:39436,op:385,dt:4,nt:8,next:13979,nextCheck:39439,str:31276,h:2,d0:13977,d1:39437;
                 ("cs_go_to", Expression<MethodOrOperator> @:13977 check:39437,op:385,dt:2,nt:9,next:13978,nextCheck:39438,str:15241,h:0,d0:0,d1:0;
                     ("w_path_turrets/go_p1", Expression<SpatialPoint> @:13978 check:39438,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:25133,h:0,d0:3,d1:5;)))
-            (____, Scope<Void> @:13979 check:39439,op:429,dt:4,nt:8,next:65535,nextCheck:65535,str:31310,h:2,d0:13980,d1:39440;
+            (____, BuiltinInvocation<Void> @:13979 check:39439,op:429,dt:4,nt:8,next:65535,nextCheck:65535,str:31310,h:2,d0:13980,d1:39440;
                 ("cs_deploy_turret", Expression<MethodOrOperator> @:13980 check:39440,op:429,dt:2,nt:9,next:13981,nextCheck:39441,str:25098,h:0,d0:0,d1:0;
                     ("w_path_turrets/p1", Expression<SpatialPoint> @:13981 check:39441,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:25154,h:0,d0:1,d1:5;))))))

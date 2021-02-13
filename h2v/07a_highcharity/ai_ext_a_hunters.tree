@@ -1,41 +1,41 @@
 
 ("ai_ext_a_hunters", MethodDecl<Void> @:375 check:0,op:0,dt:0,nt:65535,next:18560,nextCheck:44020,str:41740,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:18560 check:44020,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9615,h:3,d0:18561,d1:44021;
+    (____, BuiltinInvocation<Void> @:18560 check:44020,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9615,h:3,d0:18561,d1:44021;
         ("begin", Expression<MethodOrOperator> @:18561 check:44021,op:0,dt:2,nt:9,next:18523,nextCheck:43983,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:18523 check:43983,op:290,dt:4,nt:8,next:18526,nextCheck:43986,str:9650,h:3,d0:18524,d1:43984;
+            (____, BuiltinInvocation<Void> @:18523 check:43983,op:290,dt:4,nt:8,next:18526,nextCheck:43986,str:9650,h:3,d0:18524,d1:43984;
                 ("ai_place", Expression<MethodOrOperator> @:18524 check:43984,op:290,dt:2,nt:9,next:18525,nextCheck:43985,str:14760,h:0,d0:0,d1:0;
                     ("ext_a_hunters", Expression<AI> @:18525 check:43985,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36848,h:0,d0:146,d1:0;)))
-            (____, Scope<Void> @:18526 check:43986,op:19,dt:4,nt:8,next:18529,nextCheck:43989,str:9677,h:3,d0:18527,d1:43987;
+            (____, BuiltinInvocation<Void> @:18526 check:43986,op:19,dt:4,nt:8,next:18529,nextCheck:43989,str:9677,h:3,d0:18527,d1:43987;
                 ("sleep", Expression<MethodOrOperator> @:18527 check:43987,op:19,dt:2,nt:9,next:18528,nextCheck:43988,str:80,h:0,d0:0,d1:0;
                     (150, Expression<Short> @:18528 check:43988,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:9684,h:3,d0:150,d1:65535;)))
-            (____, Scope<Void> @:18529 check:43989,op:21,dt:4,nt:8,next:18544,nextCheck:44004,str:9694,h:3,d0:18530,d1:43990;
+            (____, BuiltinInvocation<Void> @:18529 check:43989,op:21,dt:4,nt:8,next:18544,nextCheck:44004,str:9694,h:3,d0:18530,d1:43990;
                 ("sleep_until", Expression<MethodOrOperator> @:18530 check:43990,op:21,dt:2,nt:9,next:18531,nextCheck:43991,str:231,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:18531 check:43991,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:9707,h:3,d0:18532,d1:43992;
+                    (____, BuiltinInvocation<Boolean> @:18531 check:43991,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:9707,h:3,d0:18532,d1:43992;
                         ("or", Expression<MethodOrOperator> @:18532 check:43992,op:6,dt:2,nt:9,next:18533,nextCheck:43993,str:844,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:18533 check:43993,op:18,dt:5,nt:8,next:18539,nextCheck:43999,str:9717,h:3,d0:18534,d1:43994;
+                            (____, BuiltinInvocation<Boolean> @:18533 check:43993,op:18,dt:5,nt:8,next:18539,nextCheck:43999,str:9717,h:3,d0:18534,d1:43994;
                                 ("<=", Expression<MethodOrOperator> @:18534 check:43994,op:18,dt:2,nt:9,next:18535,nextCheck:43995,str:21049,h:0,d0:0,d1:0;
-                                    (____, Scope<Short> @:18535 check:43995,op:327,dt:7,nt:8,next:18538,nextCheck:43998,str:9721,h:3,d0:18536,d1:43996;
+                                    (____, BuiltinInvocation<Short> @:18535 check:43995,op:327,dt:7,nt:8,next:18538,nextCheck:43998,str:9721,h:3,d0:18536,d1:43996;
                                         ("ai_living_count", Expression<MethodOrOperator> @:18536 check:43996,op:327,dt:2,nt:9,next:18537,nextCheck:43997,str:19308,h:0,d0:0,d1:0;
                                             ("ext_a_prophets", Expression<AI> @:18537 check:43997,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36862,h:0,d0:38,d1:16384;)))
                                     (4, Expression<Short> @:18538 check:43998,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:9754,h:3,d0:4,d1:65535;)))
-                            (____, Scope<Boolean> @:18539 check:43999,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:9763,h:3,d0:18540,d1:44000;
+                            (____, BuiltinInvocation<Boolean> @:18539 check:43999,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:9763,h:3,d0:18540,d1:44000;
                                 ("volume_test_objects", Expression<MethodOrOperator> @:18540 check:44000,op:33,dt:2,nt:9,next:18541,nextCheck:44001,str:17285,h:0,d0:0,d1:0;
                                     ("tv_ext_a_mid", Expression<Trigger> @:18541 check:44001,op:13,dt:13,nt:9,next:18542,nextCheck:44002,str:36877,h:0,d0:101,d1:0;
-                                        (____, Scope<List> @:18542 check:44002,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:9797,h:3,d0:18543,d1:44003;
+                                        (____, BuiltinInvocation<List> @:18542 check:44002,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:9797,h:3,d0:18543,d1:44003;
                                             ("players", Expression<MethodOrOperator> @:18543 check:44003,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:21,h:0,d0:0,d1:0;)))))))))
-            (____, Scope<Void> @:18544 check:44004,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:9821,h:3,d0:18545,d1:44005;
+            (____, BuiltinInvocation<Void> @:18544 check:44004,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:9821,h:3,d0:18545,d1:44005;
                 ("if", Expression<MethodOrOperator> @:18545 check:44005,op:2,dt:2,nt:9,next:18546,nextCheck:44006,str:456,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:18546 check:44006,op:18,dt:5,nt:8,next:18557,nextCheck:44017,str:9825,h:3,d0:18547,d1:44007;
+                    (____, BuiltinInvocation<Boolean> @:18546 check:44006,op:18,dt:5,nt:8,next:18557,nextCheck:44017,str:9825,h:3,d0:18547,d1:44007;
                         ("<=", Expression<MethodOrOperator> @:18547 check:44007,op:18,dt:2,nt:9,next:18548,nextCheck:44008,str:21049,h:0,d0:0,d1:0;
-                            (-1.6575757E-12f, Scope<Float> @:18548 check:44008,op:7,dt:6,nt:8,next:18556,nextCheck:44016,str:9829,h:3,d0:18549,d1:44009;
+                            (-1.6575757E-12f, BuiltinInvocation<Float> @:18548 check:44008,op:7,dt:6,nt:8,next:18556,nextCheck:44016,str:9829,h:3,d0:18549,d1:44009;
                                 ("+", Expression<MethodOrOperator> @:18549 check:44009,op:7,dt:2,nt:9,next:18550,nextCheck:44010,str:983,h:0,d0:0,d1:0;
-                                    (-1.6717867E-12f, Scope<Float> @:18550 check:44010,op:327,dt:6,nt:8,next:18553,nextCheck:44013,str:9832,h:3,d0:18551,d1:44011;
+                                    (-1.6717867E-12f, BuiltinInvocation<Float> @:18550 check:44010,op:327,dt:6,nt:8,next:18553,nextCheck:44013,str:9832,h:3,d0:18551,d1:44011;
                                         ("ai_living_count", Expression<MethodOrOperator> @:18551 check:44011,op:327,dt:2,nt:9,next:18552,nextCheck:44012,str:19308,h:0,d0:0,d1:0;
                                             ("ext_a_prophets", Expression<AI> @:18552 check:44012,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36862,h:0,d0:38,d1:16384;)))
-                                    (-1.6931033E-12f, Scope<Float> @:18553 check:44013,op:327,dt:6,nt:8,next:65535,nextCheck:65535,str:9865,h:3,d0:18554,d1:44014;
+                                    (-1.6931033E-12f, BuiltinInvocation<Float> @:18553 check:44013,op:327,dt:6,nt:8,next:65535,nextCheck:65535,str:9865,h:3,d0:18554,d1:44014;
                                         ("ai_living_count", Expression<MethodOrOperator> @:18554 check:44014,op:327,dt:2,nt:9,next:18555,nextCheck:44015,str:19308,h:0,d0:0,d1:0;
                                             ("ext_a_covenant", Expression<AI> @:18555 check:44015,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36890,h:0,d0:39,d1:16384;)))))
                             (6f, Expression<Float> @:18556 check:44016,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:9899,h:3,d0:0,d1:16576;)))
-                    (____, Scope<Void> @:18557 check:44017,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:9902,h:3,d0:18558,d1:44018;
+                    (____, BuiltinInvocation<Void> @:18557 check:44017,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:9902,h:3,d0:18558,d1:44018;
                         ("ai_place", Expression<MethodOrOperator> @:18558 check:44018,op:290,dt:2,nt:9,next:18559,nextCheck:44019,str:14760,h:0,d0:0,d1:0;
                             ("ext_a_brute_door", Expression<AI> @:18559 check:44019,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:36905,h:0,d0:147,d1:0;))))))))

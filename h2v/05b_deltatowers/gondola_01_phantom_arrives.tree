@@ -1,85 +1,85 @@
 
 ("gondola_01_phantom_arrives", MethodDecl<Void> @:175 check:0,op:0,dt:0,nt:65535,next:7190,nextCheck:65417,str:31938,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:7190 check:65417,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:16501,h:1,d0:7191,d1:65418;
+    (____, BuiltinInvocation<Void> @:7190 check:65417,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:16501,h:1,d0:7191,d1:65418;
         ("begin", Expression<MethodOrOperator> @:7191 check:65418,op:0,dt:2,nt:9,next:7109,nextCheck:65336,str:142,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:7109 check:65336,op:291,dt:4,nt:8,next:7113,nextCheck:65340,str:16546,h:1,d0:7110,d1:65337;
+            (____, BuiltinInvocation<Void> @:7109 check:65336,op:291,dt:4,nt:8,next:7113,nextCheck:65340,str:16546,h:1,d0:7110,d1:65337;
                 ("ai_place", Expression<MethodOrOperator> @:7110 check:65337,op:291,dt:2,nt:9,next:7111,nextCheck:65338,str:10226,h:0,d0:0,d1:0;
                     ("gondola_01_elite_boarders", Expression<AI> @:7111 check:65338,op:19,dt:19,nt:9,next:7112,nextCheck:65339,str:16018,h:0,d0:37,d1:0;
                         (2, Expression<Short> @:7112 check:65339,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:16582,h:1,d0:2,d1:65535;))))
-            (____, Scope<Void> @:7113 check:65340,op:291,dt:4,nt:8,next:7117,nextCheck:65344,str:16587,h:1,d0:7114,d1:65341;
+            (____, BuiltinInvocation<Void> @:7113 check:65340,op:291,dt:4,nt:8,next:7117,nextCheck:65344,str:16587,h:1,d0:7114,d1:65341;
                 ("ai_place", Expression<MethodOrOperator> @:7114 check:65341,op:291,dt:2,nt:9,next:7115,nextCheck:65342,str:10226,h:0,d0:0,d1:0;
                     ("gondola_01_grunt_boarders_01", Expression<AI> @:7115 check:65342,op:19,dt:19,nt:9,next:7116,nextCheck:65343,str:16044,h:0,d0:38,d1:0;
                         (2, Expression<Short> @:7116 check:65343,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:16626,h:1,d0:2,d1:65535;))))
-            (____, Scope<Void> @:7117 check:65344,op:291,dt:4,nt:8,next:7121,nextCheck:65348,str:16631,h:1,d0:7118,d1:65345;
+            (____, BuiltinInvocation<Void> @:7117 check:65344,op:291,dt:4,nt:8,next:7121,nextCheck:65348,str:16631,h:1,d0:7118,d1:65345;
                 ("ai_place", Expression<MethodOrOperator> @:7118 check:65345,op:291,dt:2,nt:9,next:7119,nextCheck:65346,str:10226,h:0,d0:0,d1:0;
                     ("gondola_01_grunt_boarders_02", Expression<AI> @:7119 check:65346,op:19,dt:19,nt:9,next:7120,nextCheck:65347,str:16073,h:0,d0:39,d1:0;
                         (2, Expression<Short> @:7120 check:65347,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:16670,h:1,d0:2,d1:65535;))))
-            (____, Scope<Void> @:7121 check:65348,op:291,dt:4,nt:8,next:7125,nextCheck:65352,str:16675,h:1,d0:7122,d1:65349;
+            (____, BuiltinInvocation<Void> @:7121 check:65348,op:291,dt:4,nt:8,next:7125,nextCheck:65352,str:16675,h:1,d0:7122,d1:65349;
                 ("ai_place", Expression<MethodOrOperator> @:7122 check:65349,op:291,dt:2,nt:9,next:7123,nextCheck:65350,str:10226,h:0,d0:0,d1:0;
                     ("gondola_01_phantom", Expression<AI> @:7123 check:65350,op:19,dt:19,nt:9,next:7124,nextCheck:65351,str:15751,h:0,d0:36,d1:0;
                         (1, Expression<Short> @:7124 check:65351,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:16704,h:1,d0:1,d1:65535;))))
-            (____, Scope<Void> @:7125 check:65352,op:232,dt:4,nt:8,next:7134,nextCheck:65361,str:16709,h:1,d0:7126,d1:65353;
+            (____, BuiltinInvocation<Void> @:7125 check:65352,op:232,dt:4,nt:8,next:7134,nextCheck:65361,str:16709,h:1,d0:7126,d1:65353;
                 ("vehicle_load_magic", Expression<MethodOrOperator> @:7126 check:65353,op:232,dt:2,nt:9,next:7127,nextCheck:65354,str:13524,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:7127 check:65354,op:341,dt:50,nt:8,next:7130,nextCheck:65357,str:16729,h:1,d0:7128,d1:65355;
+                    (____, BuiltinInvocation<Entity> @:7127 check:65354,op:341,dt:50,nt:8,next:7130,nextCheck:65357,str:16729,h:1,d0:7128,d1:65355;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:7128 check:65355,op:341,dt:2,nt:9,next:7129,nextCheck:65356,str:12983,h:0,d0:0,d1:0;
                             ("gondola_01_phantom/pilot", Expression<AI> @:7129 check:65356,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:15770,h:0,d0:0,d1:49188;)))
                     ("phantom_p", Expression<VehicleSeat> @:7130 check:65357,op:12,dt:12,nt:9,next:7131,nextCheck:65358,str:16102,h:0,d0:11,d1:1;
-                        (____, Scope<List> @:7131 check:65358,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:16806,h:1,d0:7132,d1:65359;
+                        (____, BuiltinInvocation<List> @:7131 check:65358,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:16806,h:1,d0:7132,d1:65359;
                             ("ai_actors", Expression<MethodOrOperator> @:7132 check:65359,op:332,dt:2,nt:9,next:7133,nextCheck:65360,str:13580,h:0,d0:0,d1:0;
                                 ("gondola_01_grunt_boarders_01", Expression<AI> @:7133 check:65360,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:16044,h:0,d0:38,d1:0;))))))
-            (____, Scope<Void> @:7134 check:65361,op:232,dt:4,nt:8,next:7143,nextCheck:65370,str:16850,h:1,d0:7135,d1:65362;
+            (____, BuiltinInvocation<Void> @:7134 check:65361,op:232,dt:4,nt:8,next:7143,nextCheck:65370,str:16850,h:1,d0:7135,d1:65362;
                 ("vehicle_load_magic", Expression<MethodOrOperator> @:7135 check:65362,op:232,dt:2,nt:9,next:7136,nextCheck:65363,str:13524,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:7136 check:65363,op:341,dt:50,nt:8,next:7139,nextCheck:65366,str:16870,h:1,d0:7137,d1:65364;
+                    (____, BuiltinInvocation<Entity> @:7136 check:65363,op:341,dt:50,nt:8,next:7139,nextCheck:65366,str:16870,h:1,d0:7137,d1:65364;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:7137 check:65364,op:341,dt:2,nt:9,next:7138,nextCheck:65365,str:12983,h:0,d0:0,d1:0;
                             ("gondola_01_phantom/pilot", Expression<AI> @:7138 check:65365,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:15770,h:0,d0:0,d1:49188;)))
                     ("phantom_p", Expression<VehicleSeat> @:7139 check:65366,op:12,dt:12,nt:9,next:7140,nextCheck:65367,str:16102,h:0,d0:11,d1:1;
-                        (____, Scope<List> @:7140 check:65367,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:16947,h:1,d0:7141,d1:65368;
+                        (____, BuiltinInvocation<List> @:7140 check:65367,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:16947,h:1,d0:7141,d1:65368;
                             ("ai_actors", Expression<MethodOrOperator> @:7141 check:65368,op:332,dt:2,nt:9,next:7142,nextCheck:65369,str:13580,h:0,d0:0,d1:0;
                                 ("gondola_01_elite_boarders", Expression<AI> @:7142 check:65369,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:16018,h:0,d0:37,d1:0;))))))
-            (____, Scope<Void> @:7143 check:65370,op:232,dt:4,nt:8,next:7152,nextCheck:65379,str:16988,h:1,d0:7144,d1:65371;
+            (____, BuiltinInvocation<Void> @:7143 check:65370,op:232,dt:4,nt:8,next:7152,nextCheck:65379,str:16988,h:1,d0:7144,d1:65371;
                 ("vehicle_load_magic", Expression<MethodOrOperator> @:7144 check:65371,op:232,dt:2,nt:9,next:7145,nextCheck:65372,str:13524,h:0,d0:0,d1:0;
-                    (____, Scope<Entity> @:7145 check:65372,op:341,dt:50,nt:8,next:7148,nextCheck:65375,str:17008,h:1,d0:7146,d1:65373;
+                    (____, BuiltinInvocation<Entity> @:7145 check:65372,op:341,dt:50,nt:8,next:7148,nextCheck:65375,str:17008,h:1,d0:7146,d1:65373;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:7146 check:65373,op:341,dt:2,nt:9,next:7147,nextCheck:65374,str:12983,h:0,d0:0,d1:0;
                             ("gondola_01_phantom/pilot", Expression<AI> @:7147 check:65374,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:15770,h:0,d0:0,d1:49188;)))
                     ("phantom_p", Expression<VehicleSeat> @:7148 check:65375,op:12,dt:12,nt:9,next:7149,nextCheck:65376,str:16102,h:0,d0:11,d1:1;
-                        (____, Scope<List> @:7149 check:65376,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:17085,h:1,d0:7150,d1:65377;
+                        (____, BuiltinInvocation<List> @:7149 check:65376,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:17085,h:1,d0:7150,d1:65377;
                             ("ai_actors", Expression<MethodOrOperator> @:7150 check:65377,op:332,dt:2,nt:9,next:7151,nextCheck:65378,str:13580,h:0,d0:0,d1:0;
                                 ("gondola_01_grunt_boarders_02", Expression<AI> @:7151 check:65378,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:16073,h:0,d0:39,d1:0;))))))
-            (____, Scope<Void> @:7152 check:65379,op:343,dt:4,nt:8,next:7158,nextCheck:65385,str:17129,h:1,d0:7153,d1:65380;
+            (____, BuiltinInvocation<Void> @:7152 check:65379,op:343,dt:4,nt:8,next:7158,nextCheck:65385,str:17129,h:1,d0:7153,d1:65380;
                 ("ai_vehicle_reserve", Expression<MethodOrOperator> @:7153 check:65380,op:343,dt:2,nt:9,next:7154,nextCheck:65381,str:13668,h:0,d0:0,d1:0;
-                    (____, Scope<Vehicle> @:7154 check:65381,op:341,dt:52,nt:8,next:7157,nextCheck:65384,str:17149,h:1,d0:7155,d1:65382;
+                    (____, BuiltinInvocation<Vehicle> @:7154 check:65381,op:341,dt:52,nt:8,next:7157,nextCheck:65384,str:17149,h:1,d0:7155,d1:65382;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:7155 check:65382,op:341,dt:2,nt:9,next:7156,nextCheck:65383,str:12983,h:0,d0:0,d1:0;
                             ("gondola_01_phantom/pilot", Expression<AI> @:7156 check:65383,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:15770,h:0,d0:0,d1:49188;)))
                     (True, Expression<Boolean> @:7157 check:65384,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:17214,h:1,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:7158 check:65385,op:366,dt:4,nt:8,next:7162,nextCheck:65389,str:17222,h:1,d0:7159,d1:65386;
+            (____, BuiltinInvocation<Void> @:7158 check:65385,op:366,dt:4,nt:8,next:7162,nextCheck:65389,str:17222,h:1,d0:7159,d1:65386;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:7159 check:65386,op:366,dt:2,nt:9,next:7160,nextCheck:65387,str:11430,h:0,d0:0,d1:0;
                     ("gondola_01_phantom/pilot", Expression<AI> @:7160 check:65387,op:19,dt:19,nt:9,next:7161,nextCheck:65388,str:15770,h:0,d0:0,d1:49188;
                         ("gondola_01_flight", Expression<AIScript> @:7161 check:65388,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:16112,h:0,d0:174,d1:0;))))
-            (____, Scope<Void> @:7162 check:65389,op:21,dt:4,nt:8,next:7170,nextCheck:65397,str:17293,h:1,d0:7163,d1:65390;
+            (____, BuiltinInvocation<Void> @:7162 check:65389,op:21,dt:4,nt:8,next:7170,nextCheck:65397,str:17293,h:1,d0:7163,d1:65390;
                 ("sleep_until", Expression<MethodOrOperator> @:7163 check:65390,op:21,dt:2,nt:9,next:7164,nextCheck:65391,str:372,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:7164 check:65391,op:16,dt:5,nt:8,next:65535,nextCheck:65535,str:17306,h:1,d0:7165,d1:65392;
+                    (____, BuiltinInvocation<Boolean> @:7164 check:65391,op:16,dt:5,nt:8,next:65535,nextCheck:65535,str:17306,h:1,d0:7165,d1:65392;
                         ("<", Expression<MethodOrOperator> @:7165 check:65392,op:16,dt:2,nt:9,next:7166,nextCheck:65393,str:988,h:0,d0:0,d1:0;
-                            (____, Scope<Short> @:7166 check:65393,op:327,dt:7,nt:8,next:7169,nextCheck:65396,str:17309,h:1,d0:7167,d1:65394;
+                            (____, BuiltinInvocation<Short> @:7166 check:65393,op:327,dt:7,nt:8,next:7169,nextCheck:65396,str:17309,h:1,d0:7167,d1:65394;
                                 ("ai_living_count", Expression<MethodOrOperator> @:7167 check:65394,op:327,dt:2,nt:9,next:7168,nextCheck:65395,str:10757,h:0,d0:0,d1:0;
                                     ("gondola_01_phantom", Expression<AI> @:7168 check:65395,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:15751,h:0,d0:36,d1:0;)))
                             (2, Expression<Short> @:7169 check:65396,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17346,h:1,d0:2,d1:65535;)))))
-            (____, Scope<Void> @:7170 check:65397,op:21,dt:4,nt:8,next:7186,nextCheck:65413,str:17352,h:1,d0:7171,d1:65398;
+            (____, BuiltinInvocation<Void> @:7170 check:65397,op:21,dt:4,nt:8,next:7186,nextCheck:65413,str:17352,h:1,d0:7171,d1:65398;
                 ("sleep_until", Expression<MethodOrOperator> @:7171 check:65398,op:21,dt:2,nt:9,next:7172,nextCheck:65399,str:372,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:7172 check:65399,op:5,dt:5,nt:8,next:65535,nextCheck:65535,str:17369,h:1,d0:7173,d1:65400;
+                    (____, BuiltinInvocation<Boolean> @:7172 check:65399,op:5,dt:5,nt:8,next:65535,nextCheck:65535,str:17369,h:1,d0:7173,d1:65400;
                         ("and", Expression<MethodOrOperator> @:7173 check:65400,op:5,dt:2,nt:9,next:7174,nextCheck:65401,str:808,h:0,d0:0,d1:0;
-                            (____, Scope<Boolean> @:7174 check:65401,op:18,dt:5,nt:8,next:7180,nextCheck:65407,str:17378,h:1,d0:7175,d1:65402;
+                            (____, BuiltinInvocation<Boolean> @:7174 check:65401,op:18,dt:5,nt:8,next:7180,nextCheck:65407,str:17378,h:1,d0:7175,d1:65402;
                                 ("<=", Expression<MethodOrOperator> @:7175 check:65402,op:18,dt:2,nt:9,next:7176,nextCheck:65403,str:12097,h:0,d0:0,d1:0;
-                                    (____, Scope<Short> @:7176 check:65403,op:327,dt:7,nt:8,next:7179,nextCheck:65406,str:17382,h:1,d0:7177,d1:65404;
+                                    (____, BuiltinInvocation<Short> @:7176 check:65403,op:327,dt:7,nt:8,next:7179,nextCheck:65406,str:17382,h:1,d0:7177,d1:65404;
                                         ("ai_living_count", Expression<MethodOrOperator> @:7177 check:65404,op:327,dt:2,nt:9,next:7178,nextCheck:65405,str:10757,h:0,d0:0,d1:0;
                                             ("gondola_01_grunt_boarders_01", Expression<AI> @:7178 check:65405,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:16044,h:0,d0:38,d1:0;)))
                                     (0, Expression<Short> @:7179 check:65406,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17429,h:1,d0:0,d1:65535;)))
-                            (____, Scope<Boolean> @:7180 check:65407,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:17436,h:1,d0:7181,d1:65408;
+                            (____, BuiltinInvocation<Boolean> @:7180 check:65407,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:17436,h:1,d0:7181,d1:65408;
                                 ("<=", Expression<MethodOrOperator> @:7181 check:65408,op:18,dt:2,nt:9,next:7182,nextCheck:65409,str:12097,h:0,d0:0,d1:0;
-                                    (____, Scope<Short> @:7182 check:65409,op:327,dt:7,nt:8,next:7185,nextCheck:65412,str:17440,h:1,d0:7183,d1:65410;
+                                    (____, BuiltinInvocation<Short> @:7182 check:65409,op:327,dt:7,nt:8,next:7185,nextCheck:65412,str:17440,h:1,d0:7183,d1:65410;
                                         ("ai_living_count", Expression<MethodOrOperator> @:7183 check:65410,op:327,dt:2,nt:9,next:7184,nextCheck:65411,str:10757,h:0,d0:0,d1:0;
                                             ("gondola_01_grunt_boarders_02", Expression<AI> @:7184 check:65411,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:16073,h:0,d0:39,d1:0;)))
                                     (0, Expression<Short> @:7185 check:65412,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17487,h:1,d0:0,d1:65535;)))))))
-            (____, Scope<Void> @:7186 check:65413,op:334,dt:4,nt:8,next:65535,nextCheck:65535,str:17501,h:1,d0:7187,d1:65414;
+            (____, BuiltinInvocation<Void> @:7186 check:65413,op:334,dt:4,nt:8,next:65535,nextCheck:65535,str:17501,h:1,d0:7187,d1:65414;
                 ("ai_set_orders", Expression<MethodOrOperator> @:7187 check:65414,op:334,dt:2,nt:9,next:7188,nextCheck:65415,str:11398,h:0,d0:0,d1:0;
                     ("gondola_01_elite_boarders", Expression<AI> @:7188 check:65415,op:19,dt:19,nt:9,next:7189,nextCheck:65416,str:16018,h:0,d0:37,d1:0;
                         ("gondola_01_all", Expression<AIOrders> @:7189 check:65416,op:23,dt:23,nt:9,next:65535,nextCheck:65535,str:16130,h:0,d0:48,d1:0;)))))))

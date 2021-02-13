@@ -1,17 +1,17 @@
 
 ("music_07a_06", MethodDecl<Void> @:212 check:0,op:0,dt:0,nt:65535,next:7820,nextCheck:33280,str:42610,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:7820 check:33280,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36595,h:1,d0:7821,d1:33281;
+    (____, BuiltinInvocation<Void> @:7820 check:33280,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36595,h:1,d0:7821,d1:33281;
         ("begin", Expression<MethodOrOperator> @:7821 check:33281,op:0,dt:2,nt:9,next:7806,nextCheck:33266,str:1,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:7806 check:33266,op:21,dt:4,nt:8,next:7809,nextCheck:33269,str:36688,h:1,d0:7807,d1:33267;
+            (____, BuiltinInvocation<Void> @:7806 check:33266,op:21,dt:4,nt:8,next:7809,nextCheck:33269,str:36688,h:1,d0:7807,d1:33267;
                 ("sleep_until", Expression<MethodOrOperator> @:7807 check:33267,op:21,dt:2,nt:9,next:7808,nextCheck:33268,str:231,h:0,d0:0,d1:0;
                     ("g_music_07a_06", VariableAccess<Boolean> @:7808 check:33268,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:18228,h:0,d0:30,d1:0;)))
-            (____, Scope<Void> @:7809 check:33269,op:2,dt:4,nt:8,next:7815,nextCheck:33275,str:36719,h:1,d0:7810,d1:33270;
+            (____, BuiltinInvocation<Void> @:7809 check:33269,op:2,dt:4,nt:8,next:7815,nextCheck:33275,str:36719,h:1,d0:7810,d1:33270;
                 ("if", Expression<MethodOrOperator> @:7810 check:33270,op:2,dt:2,nt:9,next:7811,nextCheck:33271,str:456,h:0,d0:0,d1:0;
                     ("debug", VariableAccess<Boolean> @:7811 check:33271,op:5,dt:5,nt:13,next:7812,nextCheck:33272,str:17466,h:0,d0:3,d1:0;
-                        (____, Scope<Void> @:7812 check:33272,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:36729,h:1,d0:7813,d1:33273;
+                        (____, BuiltinInvocation<Void> @:7812 check:33272,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:36729,h:1,d0:7813,d1:33273;
                             ("print", Expression<MethodOrOperator> @:7813 check:33273,op:27,dt:2,nt:9,next:7814,nextCheck:33274,str:86,h:0,d0:0,d1:0;
                                 ("start music 07a_06", Expression<String> @:7814 check:33274,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18243,h:0,d0:3851,d1:12543;))))))
-            (____, Scope<Void> @:7815 check:33275,op:605,dt:4,nt:8,next:65535,nextCheck:65535,str:36761,h:1,d0:7816,d1:33276;
+            (____, BuiltinInvocation<Void> @:7815 check:33275,op:605,dt:4,nt:8,next:65535,nextCheck:65535,str:36761,h:1,d0:7816,d1:33276;
                 ("sound_looping_start", Expression<MethodOrOperator> @:7816 check:33276,op:605,dt:2,nt:9,next:7817,nextCheck:33277,str:17603,h:0,d0:0,d1:0;
                     ("scenarios\solo\07a_highcharity\07a_music\07a_06", Expression<LoopingSound> @:7817 check:33277,op:35,dt:35,nt:9,next:7818,nextCheck:33278,str:18262,h:0,d0:7065,d1:64858;
                         (4294967295, Expression<Entity> @:7818 check:33278,op:50,dt:50,nt:9,next:7819,nextCheck:33279,str:1586,h:0,d0:65535,d1:65535;

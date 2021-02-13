@@ -1,37 +1,37 @@
 
 ("cableroom_suck_killer", MethodDecl<Void> @:261 check:0,op:0,dt:0,nt:65535,next:12887,nextCheck:38347,str:25764,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:12887 check:38347,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:5781,h:2,d0:12888,d1:38348;
+    (____, BuiltinInvocation<Void> @:12887 check:38347,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:5781,h:2,d0:12888,d1:38348;
         ("begin", Expression<MethodOrOperator> @:12888 check:38348,op:0,dt:2,nt:9,next:12853,nextCheck:38313,str:210,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:12853 check:38313,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:5821,h:2,d0:12854,d1:38314;
+            (____, BuiltinInvocation<Void> @:12853 check:38313,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:5821,h:2,d0:12854,d1:38314;
                 ("sleep_until", Expression<MethodOrOperator> @:12854 check:38314,op:21,dt:2,nt:9,next:12855,nextCheck:38315,str:440,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:12855 check:38315,op:0,dt:5,nt:8,next:12886,nextCheck:38346,str:5837,h:2,d0:12856,d1:38316;
+                    (____, BuiltinInvocation<Boolean> @:12855 check:38315,op:0,dt:5,nt:8,next:12886,nextCheck:38346,str:5837,h:2,d0:12856,d1:38316;
                         ("begin", Expression<MethodOrOperator> @:12856 check:38316,op:0,dt:2,nt:9,next:12857,nextCheck:38317,str:210,h:0,d0:0,d1:0;
-                            (____, Scope<Void> @:12857 check:38317,op:52,dt:4,nt:8,next:12865,nextCheck:38325,str:5848,h:2,d0:12858,d1:38318;
+                            (____, BuiltinInvocation<Void> @:12857 check:38317,op:52,dt:4,nt:8,next:12865,nextCheck:38325,str:5848,h:2,d0:12858,d1:38318;
                                 ("object_destroy", Expression<MethodOrOperator> @:12858 check:38318,op:52,dt:2,nt:9,next:12859,nextCheck:38319,str:4282,h:0,d0:0,d1:0;
-                                    (____, Scope<Entity> @:12859 check:38319,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:5864,h:2,d0:12860,d1:38320;
+                                    (____, BuiltinInvocation<Entity> @:12859 check:38319,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:5864,h:2,d0:12860,d1:38320;
                                         ("list_get", Expression<MethodOrOperator> @:12860 check:38320,op:37,dt:2,nt:9,next:12861,nextCheck:38321,str:221,h:0,d0:0,d1:0;
-                                            (____, Scope<List> @:12861 check:38321,op:35,dt:31,nt:8,next:12864,nextCheck:38324,str:5874,h:2,d0:12862,d1:38322;
+                                            (____, BuiltinInvocation<List> @:12861 check:38321,op:35,dt:31,nt:8,next:12864,nextCheck:38324,str:5874,h:2,d0:12862,d1:38322;
                                                 ("volume_return_objects", Expression<MethodOrOperator> @:12862 check:38322,op:35,dt:2,nt:9,next:12863,nextCheck:38323,str:15052,h:0,d0:0,d1:0;
                                                     ("vol_cableroom_suck_kill", Expression<Trigger> @:12863 check:38323,op:13,dt:13,nt:9,next:65535,nextCheck:65535,str:24474,h:0,d0:104,d1:0;)))
                                             (0, Expression<Short> @:12864 check:38324,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:5922,h:2,d0:0,d1:65535;)))))
-                            (____, Scope<Void> @:12865 check:38325,op:19,dt:4,nt:8,next:12868,nextCheck:38328,str:5930,h:2,d0:12866,d1:38326;
+                            (____, BuiltinInvocation<Void> @:12865 check:38325,op:19,dt:4,nt:8,next:12868,nextCheck:38328,str:5930,h:2,d0:12866,d1:38326;
                                 ("sleep", Expression<MethodOrOperator> @:12866 check:38326,op:19,dt:2,nt:9,next:12867,nextCheck:38327,str:289,h:0,d0:0,d1:0;
                                     (5, Expression<Short> @:12867 check:38327,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:5937,h:2,d0:5,d1:65535;)))
-                            (____, Scope<Void> @:12868 check:38328,op:196,dt:4,nt:8,next:12879,nextCheck:38339,str:5944,h:2,d0:12869,d1:38329;
+                            (____, BuiltinInvocation<Void> @:12868 check:38328,op:196,dt:4,nt:8,next:12879,nextCheck:38339,str:5944,h:2,d0:12869,d1:38329;
                                 ("unit_kill", Expression<MethodOrOperator> @:12869 check:38329,op:196,dt:2,nt:9,next:12870,nextCheck:38330,str:11145,h:0,d0:0,d1:0;
-                                    (____, Scope<Unit> @:12870 check:38330,op:24,dt:51,nt:8,next:65535,nextCheck:65535,str:5955,h:2,d0:12871,d1:38331;
+                                    (____, BuiltinInvocation<Unit> @:12870 check:38330,op:24,dt:51,nt:8,next:65535,nextCheck:65535,str:5955,h:2,d0:12871,d1:38331;
                                         ("unit", Expression<MethodOrOperator> @:12871 check:38331,op:24,dt:2,nt:9,next:12872,nextCheck:38332,str:216,h:0,d0:0,d1:0;
-                                            (____, Scope<Entity> @:12872 check:38332,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:5961,h:2,d0:12873,d1:38333;
+                                            (____, BuiltinInvocation<Entity> @:12872 check:38332,op:37,dt:50,nt:8,next:65535,nextCheck:65535,str:5961,h:2,d0:12873,d1:38333;
                                                 ("list_get", Expression<MethodOrOperator> @:12873 check:38333,op:37,dt:2,nt:9,next:12874,nextCheck:38334,str:221,h:0,d0:0,d1:0;
-                                                    (____, Scope<List> @:12874 check:38334,op:36,dt:31,nt:8,next:12878,nextCheck:38338,str:5971,h:2,d0:12875,d1:38335;
+                                                    (____, BuiltinInvocation<List> @:12874 check:38334,op:36,dt:31,nt:8,next:12878,nextCheck:38338,str:5971,h:2,d0:12875,d1:38335;
                                                         ("volume_return_objects_by_type", Expression<MethodOrOperator> @:12875 check:38335,op:36,dt:2,nt:9,next:12876,nextCheck:38336,str:24498,h:0,d0:0,d1:0;
                                                             ("vol_cableroom_suck_kill", Expression<Trigger> @:12876 check:38336,op:13,dt:13,nt:9,next:12877,nextCheck:38337,str:24474,h:0,d0:104,d1:0;
                                                                 (1, Expression<Int> @:12877 check:38337,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:6026,h:2,d0:1,d1:0;))))
                                                     (0, Expression<Short> @:12878 check:38338,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:6029,h:2,d0:0,d1:65535;)))))))
-                            (____, Scope<Void> @:12879 check:38339,op:19,dt:4,nt:8,next:12882,nextCheck:38342,str:6038,h:2,d0:12880,d1:38340;
+                            (____, BuiltinInvocation<Void> @:12879 check:38339,op:19,dt:4,nt:8,next:12882,nextCheck:38342,str:6038,h:2,d0:12880,d1:38340;
                                 ("sleep", Expression<MethodOrOperator> @:12880 check:38340,op:19,dt:2,nt:9,next:12881,nextCheck:38341,str:289,h:0,d0:0,d1:0;
                                     (5, Expression<Short> @:12881 check:38341,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:6045,h:2,d0:5,d1:65535;)))
-                            (____, Scope<Boolean> @:12882 check:38342,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:6052,h:2,d0:12883,d1:38343;
+                            (____, BuiltinInvocation<Boolean> @:12882 check:38342,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:6052,h:2,d0:12883,d1:38343;
                                 ("=", Expression<MethodOrOperator> @:12883 check:38343,op:13,dt:2,nt:9,next:12884,nextCheck:38344,str:505,h:0,d0:0,d1:0;
                                     ("in_cable_room", VariableAccess<Boolean> @:12884 check:38344,op:0,dt:5,nt:13,next:12885,nextCheck:38345,str:24528,h:0,d0:31,d1:0;
                                         (False, Expression<Boolean> @:12885 check:38345,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:6069,h:2,d0:65280,d1:65535;))))))

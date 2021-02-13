@@ -1,25 +1,25 @@
 
 ("throw_grenade", MethodDecl<Void> @:270 check:0,op:0,dt:0,nt:65535,next:14119,nextCheck:39579,str:25701,h:0,d0:0,d1:0;
-    (____, Scope<Void> @:14119 check:39579,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:32355,h:2,d0:14120,d1:39580;
+    (____, BuiltinInvocation<Void> @:14119 check:39579,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:32355,h:2,d0:14120,d1:39580;
         ("begin", Expression<MethodOrOperator> @:14120 check:39580,op:0,dt:2,nt:9,next:14098,nextCheck:39558,str:54,h:0,d0:0,d1:0;
-            (____, Scope<Void> @:14098 check:39558,op:444,dt:4,nt:8,next:14101,nextCheck:39561,str:32394,h:2,d0:14099,d1:39559;
+            (____, BuiltinInvocation<Void> @:14098 check:39558,op:444,dt:4,nt:8,next:14101,nextCheck:39561,str:32394,h:2,d0:14099,d1:39559;
                 ("cs_enable_moving", Expression<MethodOrOperator> @:14099 check:39559,op:444,dt:2,nt:9,next:14100,nextCheck:39560,str:23478,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:14100 check:39560,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:32412,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:14101 check:39561,op:442,dt:4,nt:8,next:14104,nextCheck:39564,str:32420,h:2,d0:14102,d1:39562;
+            (____, BuiltinInvocation<Void> @:14101 check:39561,op:442,dt:4,nt:8,next:14104,nextCheck:39564,str:32420,h:2,d0:14102,d1:39562;
                 ("cs_enable_targeting", Expression<MethodOrOperator> @:14102 check:39562,op:442,dt:2,nt:9,next:14103,nextCheck:39563,str:14677,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:14103 check:39563,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:32441,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:14104 check:39564,op:404,dt:4,nt:8,next:14107,nextCheck:39567,str:32449,h:2,d0:14105,d1:39565;
+            (____, BuiltinInvocation<Void> @:14104 check:39564,op:404,dt:4,nt:8,next:14107,nextCheck:39567,str:32449,h:2,d0:14105,d1:39565;
                 ("cs_shoot", Expression<MethodOrOperator> @:14105 check:39565,op:404,dt:2,nt:9,next:14106,nextCheck:39566,str:14697,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:14106 check:39566,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:32459,h:2,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:14107 check:39567,op:21,dt:4,nt:8,next:14115,nextCheck:39575,str:32467,h:2,d0:14108,d1:39568;
+            (____, BuiltinInvocation<Void> @:14107 check:39567,op:21,dt:4,nt:8,next:14115,nextCheck:39575,str:32467,h:2,d0:14108,d1:39568;
                 ("sleep_until", Expression<MethodOrOperator> @:14108 check:39568,op:21,dt:2,nt:9,next:14109,nextCheck:39569,str:284,h:0,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14109 check:39569,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:32480,h:2,d0:14110,d1:39570;
+                    (____, BuiltinInvocation<Boolean> @:14109 check:39569,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:32480,h:2,d0:14110,d1:39570;
                         (">=", Expression<MethodOrOperator> @:14110 check:39570,op:17,dt:2,nt:9,next:14111,nextCheck:39571,str:724,h:0,d0:0,d1:0;
-                            (____, Scope<Short> @:14111 check:39571,op:353,dt:7,nt:8,next:14114,nextCheck:39574,str:32484,h:2,d0:14112,d1:39572;
+                            (____, BuiltinInvocation<Short> @:14111 check:39571,op:353,dt:7,nt:8,next:14114,nextCheck:39574,str:32484,h:2,d0:14112,d1:39572;
                                 ("ai_combat_status", Expression<MethodOrOperator> @:14112 check:39572,op:353,dt:2,nt:9,next:14113,nextCheck:39573,str:20549,h:0,d0:0,d1:0;
                                     ("ai_current_actor", VariableAccess<AI> @:14113 check:39573,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:20566,h:0,d0:33564,d1:65535;)))
                             ("ai_combat_status_clear_los", VariableAccess<Short> @:14114 check:39574,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:25330,h:0,d0:33579,d1:65535;)))))
-            (____, Scope<Void> @:14115 check:39575,op:408,dt:4,nt:8,next:65535,nextCheck:65535,str:32551,h:2,d0:14116,d1:39576;
+            (____, BuiltinInvocation<Void> @:14115 check:39575,op:408,dt:4,nt:8,next:65535,nextCheck:65535,str:32551,h:2,d0:14116,d1:39576;
                 ("cs_grenade", Expression<MethodOrOperator> @:14116 check:39576,op:408,dt:2,nt:9,next:14117,nextCheck:39577,str:25357,h:0,d0:0,d1:0;
                     ("w_path_turrets/p3", Expression<SpatialPoint> @:14117 check:39577,op:28,dt:28,nt:9,next:14118,nextCheck:39578,str:25368,h:0,d0:6,d1:5;
                         (1, Expression<Short> @:14118 check:39578,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:32581,h:2,d0:1,d1:65535;)))))))
