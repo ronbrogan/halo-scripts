@@ -1,18 +1,18 @@
 
 ("improve_framerate", MethodDecl<Void> @:139 op:0,dt:0,nt:65535,next:7344,str:12565,d0:0,d1:0;
-    (____, Scope<Void> @:7344 op:0,dt:4,nt:8,next:65535,str:35726,d0:7345,d1:32805;
+    (____, BuiltinInvocation<Void> @:7344 op:0,dt:4,nt:8,next:65535,str:35726,d0:7345,d1:32805;
         ("begin", Expression<MethodOrOperator> @:7345 op:0,dt:2,nt:9,next:7330,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:7330 op:676,dt:4,nt:8,next:7332,str:35762,d0:7331,d1:32791;
+            (____, BuiltinInvocation<Void> @:7330 op:676,dt:4,nt:8,next:7332,str:35762,d0:7331,d1:32791;
                 ("time_code_reset", Expression<MethodOrOperator> @:7331 op:676,dt:2,nt:9,next:65535,str:12518,d0:0,d1:0;))
-            (____, Scope<Void> @:7332 op:19,dt:4,nt:8,next:7335,str:35782,d0:7333,d1:32793;
+            (____, BuiltinInvocation<Void> @:7332 op:19,dt:4,nt:8,next:7335,str:35782,d0:7333,d1:32793;
                 ("sleep", Expression<MethodOrOperator> @:7333 op:19,dt:2,nt:9,next:7334,str:80,d0:0,d1:0;
                     (223, Expression<Short> @:7334 op:7,dt:7,nt:9,next:65535,str:35789,d0:223,d1:65535;)))
-            (____, Scope<Void> @:7335 op:27,dt:4,nt:8,next:7338,str:35796,d0:7336,d1:32796;
+            (____, BuiltinInvocation<Void> @:7335 op:27,dt:4,nt:8,next:7338,str:35796,d0:7336,d1:32796;
                 ("print", Expression<MethodOrOperator> @:7336 op:27,dt:2,nt:9,next:7337,str:86,d0:0,d1:0;
                     ("improve framerate", Expression<String> @:7337 op:9,dt:9,nt:9,next:65535,str:12534,d0:12534,d1:0;)))
-            (____, Scope<Void> @:7338 op:53,dt:4,nt:8,next:7341,str:35826,d0:7339,d1:32799;
+            (____, BuiltinInvocation<Void> @:7338 op:53,dt:4,nt:8,next:7341,str:35826,d0:7339,d1:32799;
                 ("object_destroy_containing", Expression<MethodOrOperator> @:7339 op:53,dt:2,nt:9,next:7340,str:6158,d0:0,d1:0;
                     ("pcc", Expression<String> @:7340 op:9,dt:9,nt:9,next:65535,str:7367,d0:7367,d1:0;)))
-            (____, Scope<Void> @:7341 op:53,dt:4,nt:8,next:65535,str:35860,d0:7342,d1:32802;
+            (____, BuiltinInvocation<Void> @:7341 op:53,dt:4,nt:8,next:65535,str:35860,d0:7342,d1:32802;
                 ("object_destroy_containing", Expression<MethodOrOperator> @:7342 op:53,dt:2,nt:9,next:7343,str:6158,d0:0,d1:0;
                     ("elc", Expression<String> @:7343 op:9,dt:9,nt:9,next:65535,str:7363,d0:7363,d1:0;))))))

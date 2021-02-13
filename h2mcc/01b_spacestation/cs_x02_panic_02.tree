@@ -1,31 +1,31 @@
 
 ("cs_x02_panic_02", MethodDecl<Void> @:159 op:0,dt:0,nt:65535,next:6485,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:6485 op:0,dt:4,nt:8,next:65535,str:13949,d0:6486,d1:64713;
+    (____, BuiltinInvocation<Void> @:6485 op:0,dt:4,nt:8,next:65535,str:13949,d0:6486,d1:64713;
         ("begin", Expression<MethodOrOperator> @:6486 op:0,dt:2,nt:9,next:6457,str:11,d0:0,d1:0;
-            (____, Scope<Void> @:6457 op:448,dt:4,nt:8,next:6460,str:13993,d0:6458,d1:64685;
+            (____, BuiltinInvocation<Void> @:6457 op:448,dt:4,nt:8,next:6460,str:13993,d0:6458,d1:64685;
                 ("cs_force_combat_status", Expression<MethodOrOperator> @:6458 op:448,dt:2,nt:9,next:6459,str:15913,d0:0,d1:0;
                     (3, Expression<Short> @:6459 op:7,dt:7,nt:9,next:65535,str:14017,d0:3,d1:65535;)))
-            (____, Scope<Void> @:6460 op:449,dt:4,nt:8,next:6463,str:14022,d0:6461,d1:64688;
+            (____, BuiltinInvocation<Void> @:6460 op:449,dt:4,nt:8,next:6463,str:14022,d0:6461,d1:64688;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:6461 op:449,dt:2,nt:9,next:6462,str:15936,d0:0,d1:0;
                     (True, Expression<Boolean> @:6462 op:5,dt:5,nt:9,next:65535,str:14054,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:6463 op:21,dt:4,nt:8,next:65535,str:14059,d0:6464,d1:64691;
+            (____, BuiltinInvocation<Void> @:6463 op:21,dt:4,nt:8,next:65535,str:14059,d0:6464,d1:64691;
                 ("sleep_until", Expression<MethodOrOperator> @:6464 op:21,dt:2,nt:9,next:6465,str:241,d0:0,d1:0;
-                    (____, Scope<Boolean> @:6465 op:0,dt:5,nt:8,next:65535,str:14075,d0:6466,d1:64693;
+                    (____, BuiltinInvocation<Boolean> @:6465 op:0,dt:5,nt:8,next:65535,str:14075,d0:6466,d1:64693;
                         ("begin", Expression<MethodOrOperator> @:6466 op:0,dt:2,nt:9,next:6467,str:11,d0:0,d1:0;
-                            (____, Scope<Void> @:6467 op:385,dt:4,nt:8,next:6470,str:14086,d0:6468,d1:64695;
+                            (____, BuiltinInvocation<Void> @:6467 op:385,dt:4,nt:8,next:6470,str:14086,d0:6468,d1:64695;
                                 ("cs_go_to", Expression<MethodOrOperator> @:6468 op:385,dt:2,nt:9,next:6469,str:15967,d0:0,d1:0;
                                     ("x02_run/p2", Expression<SpatialPoint> @:6469 op:28,dt:28,nt:9,next:65535,str:16030,d0:2,d1:11;)))
-                            (____, Scope<Void> @:6470 op:393,dt:4,nt:8,next:6474,str:14112,d0:6471,d1:64698;
+                            (____, BuiltinInvocation<Void> @:6470 op:393,dt:4,nt:8,next:6474,str:14112,d0:6471,d1:64698;
                                 ("cs_look", Expression<MethodOrOperator> @:6471 op:393,dt:2,nt:9,next:6472,str:15987,d0:0,d1:0;
                                     (True, Expression<Boolean> @:6472 op:5,dt:5,nt:9,next:6473,str:14121,d0:65281,d1:65535;
                                         ("x02_look/p2", Expression<SpatialPoint> @:6473 op:28,dt:28,nt:9,next:65535,str:16041,d0:2,d1:12;))))
-                            (____, Scope<Void> @:6474 op:19,dt:4,nt:8,next:6477,str:14143,d0:6475,d1:64702;
+                            (____, BuiltinInvocation<Void> @:6474 op:19,dt:4,nt:8,next:6477,str:14143,d0:6475,d1:64702;
                                 ("sleep", Expression<MethodOrOperator> @:6475 op:19,dt:2,nt:9,next:6476,str:90,d0:0,d1:0;
                                     (60, Expression<Short> @:6476 op:7,dt:7,nt:9,next:65535,str:14150,d0:60,d1:65535;)))
-                            (____, Scope<Void> @:6477 op:385,dt:4,nt:8,next:6480,str:14158,d0:6478,d1:64705;
+                            (____, BuiltinInvocation<Void> @:6477 op:385,dt:4,nt:8,next:6480,str:14158,d0:6478,d1:64705;
                                 ("cs_go_to", Expression<MethodOrOperator> @:6478 op:385,dt:2,nt:9,next:6479,str:15967,d0:0,d1:0;
                                     ("x02_run/p3", Expression<SpatialPoint> @:6479 op:28,dt:28,nt:9,next:65535,str:16053,d0:3,d1:11;)))
-                            (____, Scope<Void> @:6480 op:393,dt:4,nt:8,next:6484,str:14184,d0:6481,d1:64708;
+                            (____, BuiltinInvocation<Void> @:6480 op:393,dt:4,nt:8,next:6484,str:14184,d0:6481,d1:64708;
                                 ("cs_look", Expression<MethodOrOperator> @:6481 op:393,dt:2,nt:9,next:6482,str:15987,d0:0,d1:0;
                                     (True, Expression<Boolean> @:6482 op:5,dt:5,nt:9,next:6483,str:14193,d0:65281,d1:65535;
                                         ("x02_look/p3", Expression<SpatialPoint> @:6483 op:28,dt:28,nt:9,next:65535,str:16064,d0:3,d1:12;))))

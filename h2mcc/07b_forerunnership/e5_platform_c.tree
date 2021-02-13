@@ -1,65 +1,65 @@
 
 ("e5_platform_c", MethodDecl<Void> @:209 op:0,dt:0,nt:65535,next:9200,str:20524,d0:0,d1:0;
-    (____, Scope<Void> @:9200 op:0,dt:4,nt:8,next:65535,str:50694,d0:9201,d1:34661;
+    (____, BuiltinInvocation<Void> @:9200 op:0,dt:4,nt:8,next:65535,str:50694,d0:9201,d1:34661;
         ("begin", Expression<MethodOrOperator> @:9201 op:0,dt:2,nt:9,next:9139,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:9139 op:21,dt:4,nt:8,next:9147,str:50799,d0:9140,d1:34600;
+            (____, BuiltinInvocation<Void> @:9139 op:21,dt:4,nt:8,next:9147,str:50799,d0:9140,d1:34600;
                 ("sleep_until", Expression<MethodOrOperator> @:9140 op:21,dt:2,nt:9,next:9141,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:9141 op:33,dt:5,nt:8,next:9146,str:50812,d0:9142,d1:34602;
+                    (____, BuiltinInvocation<Boolean> @:9141 op:33,dt:5,nt:8,next:9146,str:50812,d0:9142,d1:34602;
                         ("volume_test_objects", Expression<MethodOrOperator> @:9142 op:33,dt:2,nt:9,next:9143,str:13599,d0:0,d1:0;
                             ("tv_e5_platform_c1", Expression<Trigger> @:9143 op:13,dt:13,nt:9,next:9144,str:20347,d0:18,d1:0;
-                                (____, Scope<List> @:9144 op:28,dt:31,nt:8,next:65535,str:50851,d0:9145,d1:34605;
+                                (____, BuiltinInvocation<List> @:9144 op:28,dt:31,nt:8,next:65535,str:50851,d0:9145,d1:34605;
                                     ("players", Expression<MethodOrOperator> @:9145 op:28,dt:2,nt:9,next:65535,str:21,d0:0,d1:0;)))))
                     (15, Expression<Short> @:9146 op:7,dt:7,nt:9,next:65535,str:50862,d0:15,d1:65535;)))
-            (____, Scope<Void> @:9147 op:256,dt:4,nt:8,next:9151,str:50868,d0:9148,d1:34608;
+            (____, BuiltinInvocation<Void> @:9147 op:256,dt:4,nt:8,next:9151,str:50868,d0:9148,d1:34608;
                 ("device_set_position", Expression<MethodOrOperator> @:9148 op:256,dt:2,nt:9,next:9149,str:15756,d0:0,d1:0;
                     ("maus_platform_d", Expression<Device> @:9149 op:60,dt:54,nt:9,next:9150,str:20365,d0:144,d1:65535;
                         (0f, Expression<Float> @:9150 op:6,dt:6,nt:9,next:65535,str:50905,d0:0,d1:0;))))
-            (____, Scope<Void> @:9151 op:21,dt:4,nt:8,next:9160,str:50910,d0:9152,d1:34612;
+            (____, BuiltinInvocation<Void> @:9151 op:21,dt:4,nt:8,next:9160,str:50910,d0:9152,d1:34612;
                 ("sleep_until", Expression<MethodOrOperator> @:9152 op:21,dt:2,nt:9,next:9153,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:9153 op:18,dt:5,nt:8,next:9159,str:50923,d0:9154,d1:34614;
+                    (____, BuiltinInvocation<Boolean> @:9153 op:18,dt:5,nt:8,next:9159,str:50923,d0:9154,d1:34614;
                         ("<=", Expression<MethodOrOperator> @:9154 op:18,dt:2,nt:9,next:9155,str:14395,d0:0,d1:0;
-                            (-1.3853132E-34f, Scope<Float> @:9155 op:257,dt:6,nt:8,next:9158,str:50927,d0:9156,d1:34616;
+                            (-1.3853132E-34f, BuiltinInvocation<Float> @:9155 op:257,dt:6,nt:8,next:9158,str:50927,d0:9156,d1:34616;
                                 ("device_get_position", Expression<MethodOrOperator> @:9156 op:257,dt:2,nt:9,next:9157,str:16297,d0:0,d1:0;
                                     ("maus_platform_d", Expression<Device> @:9157 op:60,dt:54,nt:9,next:65535,str:20365,d0:144,d1:65535;)))
                             (0f, Expression<Float> @:9158 op:6,dt:6,nt:9,next:65535,str:50965,d0:0,d1:0;)))
                     (10, Expression<Short> @:9159 op:7,dt:7,nt:9,next:65535,str:50968,d0:10,d1:65535;)))
-            (____, Scope<Void> @:9160 op:258,dt:4,nt:8,next:9164,str:51081,d0:9161,d1:34621;
+            (____, BuiltinInvocation<Void> @:9160 op:258,dt:4,nt:8,next:9164,str:51081,d0:9161,d1:34621;
                 ("device_set_position_immediate", Expression<MethodOrOperator> @:9161 op:258,dt:2,nt:9,next:9162,str:16842,d0:0,d1:0;
                     ("gravity_bridge_c1", Expression<Device> @:9162 op:60,dt:54,nt:9,next:9163,str:20381,d0:152,d1:65535;
                         (1f, Expression<Float> @:9163 op:6,dt:6,nt:9,next:65535,str:51130,d0:0,d1:16256;))))
-            (____, Scope<Void> @:9164 op:254,dt:4,nt:8,next:9168,str:51135,d0:9165,d1:34625;
+            (____, BuiltinInvocation<Void> @:9164 op:254,dt:4,nt:8,next:9168,str:51135,d0:9165,d1:34625;
                 ("device_set_power", Expression<MethodOrOperator> @:9165 op:254,dt:2,nt:9,next:9166,str:20399,d0:0,d1:0;
                     ("gravity_bridge_c1", Expression<Device> @:9166 op:60,dt:54,nt:9,next:9167,str:20381,d0:152,d1:65535;
                         (1f, Expression<Float> @:9167 op:6,dt:6,nt:9,next:65535,str:51171,d0:0,d1:16256;))))
-            (____, Scope<Void> @:9168 op:19,dt:4,nt:8,next:9171,str:51176,d0:9169,d1:34629;
+            (____, BuiltinInvocation<Void> @:9168 op:19,dt:4,nt:8,next:9171,str:51176,d0:9169,d1:34629;
                 ("sleep", Expression<MethodOrOperator> @:9169 op:19,dt:2,nt:9,next:9170,str:80,d0:0,d1:0;
                     (1, Expression<Short> @:9170 op:7,dt:7,nt:9,next:65535,str:51183,d0:1,d1:65535;)))
-            (____, Scope<Void> @:9171 op:21,dt:4,nt:8,next:9179,str:51239,d0:9172,d1:34632;
+            (____, BuiltinInvocation<Void> @:9171 op:21,dt:4,nt:8,next:9179,str:51239,d0:9172,d1:34632;
                 ("sleep_until", Expression<MethodOrOperator> @:9172 op:21,dt:2,nt:9,next:9173,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:9173 op:33,dt:5,nt:8,next:9178,str:51252,d0:9174,d1:34634;
+                    (____, BuiltinInvocation<Boolean> @:9173 op:33,dt:5,nt:8,next:9178,str:51252,d0:9174,d1:34634;
                         ("volume_test_objects", Expression<MethodOrOperator> @:9174 op:33,dt:2,nt:9,next:9175,str:13599,d0:0,d1:0;
                             ("tv_e5_platform_c1", Expression<Trigger> @:9175 op:13,dt:13,nt:9,next:9176,str:20347,d0:18,d1:0;
-                                (____, Scope<List> @:9176 op:28,dt:31,nt:8,next:65535,str:51291,d0:9177,d1:34637;
+                                (____, BuiltinInvocation<List> @:9176 op:28,dt:31,nt:8,next:65535,str:51291,d0:9177,d1:34637;
                                     ("players", Expression<MethodOrOperator> @:9177 op:28,dt:2,nt:9,next:65535,str:21,d0:0,d1:0;)))))
                     (15, Expression<Short> @:9178 op:7,dt:7,nt:9,next:65535,str:51302,d0:15,d1:65535;)))
-            (____, Scope<Void> @:9179 op:256,dt:4,nt:8,next:9183,str:51308,d0:9180,d1:34640;
+            (____, BuiltinInvocation<Void> @:9179 op:256,dt:4,nt:8,next:9183,str:51308,d0:9180,d1:34640;
                 ("device_set_position", Expression<MethodOrOperator> @:9180 op:256,dt:2,nt:9,next:9181,str:15756,d0:0,d1:0;
                     ("gravity_bridge_c1", Expression<Device> @:9181 op:60,dt:54,nt:9,next:9182,str:20381,d0:152,d1:65535;
                         (0f, Expression<Float> @:9182 op:6,dt:6,nt:9,next:65535,str:51347,d0:0,d1:0;))))
-            (____, Scope<Void> @:9183 op:21,dt:4,nt:8,next:9192,str:51352,d0:9184,d1:34644;
+            (____, BuiltinInvocation<Void> @:9183 op:21,dt:4,nt:8,next:9192,str:51352,d0:9184,d1:34644;
                 ("sleep_until", Expression<MethodOrOperator> @:9184 op:21,dt:2,nt:9,next:9185,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:9185 op:18,dt:5,nt:8,next:9191,str:51365,d0:9186,d1:34646;
+                    (____, BuiltinInvocation<Boolean> @:9185 op:18,dt:5,nt:8,next:9191,str:51365,d0:9186,d1:34646;
                         ("<=", Expression<MethodOrOperator> @:9186 op:18,dt:2,nt:9,next:9187,str:14395,d0:0,d1:0;
-                            (-1.6260581E-34f, Scope<Float> @:9187 op:257,dt:6,nt:8,next:9190,str:51369,d0:9188,d1:34648;
+                            (-1.6260581E-34f, BuiltinInvocation<Float> @:9187 op:257,dt:6,nt:8,next:9190,str:51369,d0:9188,d1:34648;
                                 ("device_get_position", Expression<MethodOrOperator> @:9188 op:257,dt:2,nt:9,next:9189,str:16297,d0:0,d1:0;
                                     ("gravity_bridge_c1", Expression<Device> @:9189 op:60,dt:54,nt:9,next:65535,str:20381,d0:152,d1:65535;)))
                             (0f, Expression<Float> @:9190 op:6,dt:6,nt:9,next:65535,str:51409,d0:0,d1:0;)))
                     (10, Expression<Short> @:9191 op:7,dt:7,nt:9,next:65535,str:51412,d0:10,d1:65535;)))
-            (____, Scope<Void> @:9192 op:254,dt:4,nt:8,next:9196,str:51418,d0:9193,d1:34653;
+            (____, BuiltinInvocation<Void> @:9192 op:254,dt:4,nt:8,next:9196,str:51418,d0:9193,d1:34653;
                 ("device_set_power", Expression<MethodOrOperator> @:9193 op:254,dt:2,nt:9,next:9194,str:20399,d0:0,d1:0;
                     ("gravity_bridge_c1", Expression<Device> @:9194 op:60,dt:54,nt:9,next:9195,str:20381,d0:152,d1:65535;
                         (0f, Expression<Float> @:9195 op:6,dt:6,nt:9,next:65535,str:51454,d0:0,d1:0;))))
-            (____, Scope<Void> @:9196 op:258,dt:4,nt:8,next:65535,str:51459,d0:9197,d1:34657;
+            (____, BuiltinInvocation<Void> @:9196 op:258,dt:4,nt:8,next:65535,str:51459,d0:9197,d1:34657;
                 ("device_set_position_immediate", Expression<MethodOrOperator> @:9197 op:258,dt:2,nt:9,next:9198,str:16842,d0:0,d1:0;
                     ("gravity_bridge_c1", Expression<Device> @:9198 op:60,dt:54,nt:9,next:9199,str:20381,d0:152,d1:65535;
                         (1f, Expression<Float> @:9199 op:6,dt:6,nt:9,next:65535,str:51508,d0:0,d1:16256;)))))))

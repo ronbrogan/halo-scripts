@@ -1,36 +1,36 @@
 
 ("sentinel_swarm_spawning", MethodDecl<Void> @:303 op:0,dt:0,nt:65535,next:12415,str:26546,d0:0,d1:0;
-    (____, Scope<Void> @:12415 op:0,dt:4,nt:8,next:65535,str:12262,d0:12416,d1:37876;
+    (____, BuiltinInvocation<Void> @:12415 op:0,dt:4,nt:8,next:65535,str:12262,d0:12416,d1:37876;
         ("begin", Expression<MethodOrOperator> @:12416 op:0,dt:2,nt:9,next:12383,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:12383 op:4,dt:4,nt:8,next:12387,str:12308,d0:12384,d1:37844;
+            (____, BuiltinInvocation<Void> @:12383 op:4,dt:4,nt:8,next:12387,str:12308,d0:12384,d1:37844;
                 ("set", Expression<MethodOrOperator> @:12384 op:4,dt:2,nt:9,next:12385,str:2368,d0:0,d1:0;
                     ("hangar_sentinels_come", VariableAccess<Boolean> @:12385 op:65535,dt:5,nt:13,next:12386,str:24630,d0:15,d1:0;
                         (True, Expression<Boolean> @:12386 op:5,dt:5,nt:9,next:65535,str:12335,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:12387 op:21,dt:4,nt:8,next:65535,str:12343,d0:12388,d1:37848;
+            (____, BuiltinInvocation<Void> @:12387 op:21,dt:4,nt:8,next:65535,str:12343,d0:12388,d1:37848;
                 ("sleep_until", Expression<MethodOrOperator> @:12388 op:21,dt:2,nt:9,next:12389,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:12389 op:0,dt:5,nt:8,next:65535,str:12359,d0:12390,d1:37850;
+                    (____, BuiltinInvocation<Boolean> @:12389 op:0,dt:5,nt:8,next:65535,str:12359,d0:12390,d1:37850;
                         ("begin", Expression<MethodOrOperator> @:12390 op:0,dt:2,nt:9,next:12391,str:6,d0:0,d1:0;
-                            (____, Scope<Void> @:12391 op:2,dt:4,nt:8,next:12403,str:12370,d0:12392,d1:37852;
+                            (____, BuiltinInvocation<Void> @:12391 op:2,dt:4,nt:8,next:12403,str:12370,d0:12392,d1:37852;
                                 ("if", Expression<MethodOrOperator> @:12392 op:2,dt:2,nt:9,next:12393,str:461,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:12393 op:16,dt:5,nt:8,next:12399,str:12374,d0:12394,d1:37854;
+                                    (____, BuiltinInvocation<Boolean> @:12393 op:16,dt:5,nt:8,next:12399,str:12374,d0:12394,d1:37854;
                                         ("<", Expression<MethodOrOperator> @:12394 op:16,dt:2,nt:9,next:12395,str:852,d0:0,d1:0;
-                                            (____, Scope<Short> @:12395 op:327,dt:7,nt:8,next:12398,str:12377,d0:12396,d1:37856;
+                                            (____, BuiltinInvocation<Short> @:12395 op:327,dt:7,nt:8,next:12398,str:12377,d0:12396,d1:37856;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:12396 op:327,dt:2,nt:9,next:12397,str:18674,d0:0,d1:0;
                                                     ("hangar_sentinels", Expression<AI> @:12397 op:19,dt:19,nt:9,next:65535,str:24652,d0:13,d1:16384;)))
                                             (3, Expression<Short> @:12398 op:7,dt:7,nt:9,next:65535,str:12412,d0:3,d1:65535;)))
-                                    (____, Scope<Void> @:12399 op:291,dt:4,nt:8,next:65535,str:12420,d0:12400,d1:37860;
+                                    (____, BuiltinInvocation<Void> @:12399 op:291,dt:4,nt:8,next:65535,str:12420,d0:12400,d1:37860;
                                         ("ai_place", Expression<MethodOrOperator> @:12400 op:291,dt:2,nt:9,next:12401,str:17225,d0:0,d1:0;
                                             ("hangar_sentinel_swarm", Expression<AI> @:12401 op:19,dt:19,nt:9,next:12402,str:24669,d0:44,d1:0;
                                                 (1, Expression<Short> @:12402 op:7,dt:7,nt:9,next:65535,str:12452,d0:1,d1:65535;))))))
-                            (____, Scope<Void> @:12403 op:19,dt:4,nt:8,next:12409,str:12465,d0:12404,d1:37864;
+                            (____, BuiltinInvocation<Void> @:12403 op:19,dt:4,nt:8,next:12409,str:12465,d0:12404,d1:37864;
                                 ("sleep", Expression<MethodOrOperator> @:12404 op:19,dt:2,nt:9,next:12405,str:85,d0:0,d1:0;
-                                    (____, Scope<Short> @:12405 op:124,dt:7,nt:8,next:65535,str:12472,d0:12406,d1:37866;
+                                    (____, BuiltinInvocation<Short> @:12405 op:124,dt:7,nt:8,next:65535,str:12472,d0:12406,d1:37866;
                                         ("random_range", Expression<MethodOrOperator> @:12406 op:124,dt:2,nt:9,next:12407,str:15747,d0:0,d1:0;
                                             (10, Expression<Short> @:12407 op:7,dt:7,nt:9,next:12408,str:12486,d0:10,d1:65535;
                                                 (30, Expression<Short> @:12408 op:7,dt:7,nt:9,next:65535,str:12489,d0:30,d1:65535;))))))
-                            (____, Scope<Boolean> @:12409 op:15,dt:5,nt:8,next:65535,str:12498,d0:12410,d1:37870;
+                            (____, BuiltinInvocation<Boolean> @:12409 op:15,dt:5,nt:8,next:65535,str:12498,d0:12410,d1:37870;
                                 (">", Expression<MethodOrOperator> @:12410 op:15,dt:2,nt:9,next:12411,str:14927,d0:0,d1:0;
-                                    (____, Scope<Short> @:12411 op:335,dt:7,nt:8,next:12414,str:12501,d0:12412,d1:37872;
+                                    (____, BuiltinInvocation<Short> @:12411 op:335,dt:7,nt:8,next:12414,str:12501,d0:12412,d1:37872;
                                         ("ai_spawn_count", Expression<MethodOrOperator> @:12412 op:335,dt:2,nt:9,next:12413,str:24691,d0:0,d1:0;
                                             ("hangar_sentinel_swarm", Expression<AI> @:12413 op:19,dt:19,nt:9,next:65535,str:24669,d0:44,d1:0;)))
                                     (4, Expression<Short> @:12414 op:7,dt:7,nt:9,next:65535,str:12540,d0:4,d1:65535;))))))))))

@@ -11,7 +11,7 @@ namespace OpenH2.Scripts.Generatedscenarios.ui
     [OriginScenario("scenarios\\ui\\mainmenu\\mainmenu")]
     public partial class scnr_mainmenu : ScenarioScriptBase
     {
-        [ScriptMethod(Lifecycle.Startup)]
+        [ScriptMethod(0, Lifecycle.Startup)]
         public async Task mainmenu_initialize()
         {
             Engine.cinematic_start();
@@ -35,7 +35,7 @@ namespace OpenH2.Scripts.Generatedscenarios.ui
             Engine.object_set_function_variable(ui_carrier.Entity, "grav_lift_control", 1F, 0F);
         }
 
-        [ScriptMethod(Lifecycle.Continuous)]
+        [ScriptMethod(1, Lifecycle.Continuous)]
         public async Task mainmenu_flythrough()
         {
             Engine.camera_control(true);

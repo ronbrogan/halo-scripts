@@ -1,28 +1,28 @@
 
 ("x02_0380_lhd", MethodDecl<Void> @:148 op:0,dt:0,nt:65535,next:5981,str:15132,d0:0,d1:0;
-    (____, Scope<Void> @:5981 op:0,dt:4,nt:8,next:65535,str:7792,d0:5982,d1:64209;
+    (____, BuiltinInvocation<Void> @:5981 op:0,dt:4,nt:8,next:65535,str:7792,d0:5982,d1:64209;
         ("begin", Expression<MethodOrOperator> @:5982 op:0,dt:2,nt:9,next:5957,str:11,d0:0,d1:0;
-            (____, Scope<Void> @:5957 op:19,dt:4,nt:8,next:5960,str:7823,d0:5958,d1:64185;
+            (____, BuiltinInvocation<Void> @:5957 op:19,dt:4,nt:8,next:5960,str:7823,d0:5958,d1:64185;
                 ("sleep", Expression<MethodOrOperator> @:5958 op:19,dt:2,nt:9,next:5959,str:90,d0:0,d1:0;
                     (548, Expression<Short> @:5959 op:7,dt:7,nt:9,next:65535,str:7830,d0:548,d1:65535;)))
-            (____, Scope<Void> @:5960 op:596,dt:4,nt:8,next:5965,str:7837,d0:5961,d1:64188;
+            (____, BuiltinInvocation<Void> @:5960 op:596,dt:4,nt:8,next:5965,str:7837,d0:5961,d1:64188;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:5961 op:596,dt:2,nt:9,next:5962,str:1446,d0:0,d1:0;
                     ("sound\dialog\levels\01_spacestation\cinematic\x02_0380_lhd", Expression<Sound> @:5962 op:32,dt:32,nt:9,next:5963,str:15073,d0:4563,d1:62451;
                         (4294902070, Expression<Entity> @:5963 op:56,dt:50,nt:9,next:5964,str:7527,d0:310,d1:65535;
                             (1f, Expression<Float> @:5964 op:6,dt:6,nt:9,next:65535,str:7926,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:5965 op:562,dt:4,nt:8,next:5969,str:7931,d0:5966,d1:64193;
+            (____, BuiltinInvocation<Void> @:5965 op:562,dt:4,nt:8,next:5969,str:7931,d0:5966,d1:64193;
                 ("cinematic_subtitle", Expression<MethodOrOperator> @:5966 op:562,dt:2,nt:9,next:5967,str:1689,d0:0,d1:0;
                     ("x02_0380_lhd", Expression<StringId> @:5967 op:11,dt:11,nt:9,next:5968,str:15132,d0:9750,d1:3072;
                         (2.5f, Expression<Float> @:5968 op:6,dt:6,nt:9,next:65535,str:7964,d0:0,d1:16416;))))
-            (____, Scope<Void> @:5969 op:19,dt:4,nt:8,next:5972,str:7974,d0:5970,d1:64197;
+            (____, BuiltinInvocation<Void> @:5969 op:19,dt:4,nt:8,next:5972,str:7974,d0:5970,d1:64197;
                 ("sleep", Expression<MethodOrOperator> @:5970 op:19,dt:2,nt:9,next:5971,str:90,d0:0,d1:0;
                     (75, Expression<Short> @:5971 op:7,dt:7,nt:9,next:65535,str:7981,d0:75,d1:65535;)))
-            (____, Scope<Void> @:5972 op:220,dt:4,nt:8,next:5978,str:7990,d0:5973,d1:64200;
+            (____, BuiltinInvocation<Void> @:5972 op:220,dt:4,nt:8,next:5978,str:7990,d0:5973,d1:64200;
                 ("unit_set_emotional_state", Expression<MethodOrOperator> @:5973 op:220,dt:2,nt:9,next:5974,str:1808,d0:0,d1:0;
                     ("miranda_x02", Expression<Unit> @:5974 op:57,dt:51,nt:9,next:5975,str:8031,d0:311,d1:65535;
                         ("angry", Expression<StringId> @:5975 op:11,dt:11,nt:9,next:5976,str:7686,d0:430,d1:1280;
                             (0.5f, Expression<Float> @:5976 op:6,dt:6,nt:9,next:5977,str:8034,d0:0,d1:16128;
                                 (15, Expression<Short> @:5977 op:7,dt:7,nt:9,next:65535,str:8037,d0:15,d1:65535;))))))
-            (____, Scope<Void> @:5978 op:27,dt:4,nt:8,next:65535,str:8043,d0:5979,d1:64206;
+            (____, BuiltinInvocation<Void> @:5978 op:27,dt:4,nt:8,next:65535,str:8043,d0:5979,d1:64206;
                 ("print", Expression<MethodOrOperator> @:5979 op:27,dt:2,nt:9,next:5980,str:96,d0:0,d1:0;
                     ("miranda - angry .5 15", Expression<String> @:5980 op:9,dt:9,nt:9,next:65535,str:15145,d0:15145,d1:0;))))))

@@ -1,15 +1,15 @@
 
 ("effect_dust_scrape", MethodDecl<Void> @:80 op:0,dt:0,nt:65535,next:2316,str:6702,d0:0,d1:0;
-    (____, Scope<Void> @:2316 op:0,dt:4,nt:8,next:65535,str:27426,d0:2317,d1:60544;
+    (____, BuiltinInvocation<Void> @:2316 op:0,dt:4,nt:8,next:65535,str:27426,d0:2317,d1:60544;
         ("begin", Expression<MethodOrOperator> @:2317 op:0,dt:2,nt:9,next:2305,str:142,d0:0,d1:0;
-            (____, Scope<Void> @:2305 op:676,dt:4,nt:8,next:2307,str:27463,d0:2306,d1:60533;
+            (____, BuiltinInvocation<Void> @:2305 op:676,dt:4,nt:8,next:2307,str:27463,d0:2306,d1:60533;
                 ("time_code_reset", Expression<MethodOrOperator> @:2306 op:676,dt:2,nt:9,next:65535,str:6601,d0:0,d1:0;))
-            (____, Scope<Void> @:2307 op:19,dt:4,nt:8,next:2310,str:27483,d0:2308,d1:60535;
+            (____, BuiltinInvocation<Void> @:2307 op:19,dt:4,nt:8,next:2310,str:27483,d0:2308,d1:60535;
                 ("sleep", Expression<MethodOrOperator> @:2308 op:19,dt:2,nt:9,next:2309,str:221,d0:0,d1:0;
                     (240, Expression<Short> @:2309 op:7,dt:7,nt:9,next:65535,str:27490,d0:240,d1:65535;)))
-            (____, Scope<Void> @:2310 op:27,dt:4,nt:8,next:2313,str:27497,d0:2311,d1:60538;
+            (____, BuiltinInvocation<Void> @:2310 op:27,dt:4,nt:8,next:2313,str:27497,d0:2311,d1:60538;
                 ("print", Expression<MethodOrOperator> @:2311 op:27,dt:2,nt:9,next:2312,str:227,d0:0,d1:0;
                     ("effect - dust scrape", Expression<String> @:2312 op:9,dt:9,nt:9,next:65535,str:6617,d0:6617,d1:0;)))
-            (____, Scope<Void> @:2313 op:48,dt:4,nt:8,next:65535,str:27530,d0:2314,d1:60541;
+            (____, BuiltinInvocation<Void> @:2313 op:48,dt:4,nt:8,next:65535,str:27530,d0:2314,d1:60541;
                 ("object_create_anew", Expression<MethodOrOperator> @:2314 op:48,dt:2,nt:9,next:2315,str:2641,d0:0,d1:0;
                     ("outro_dust_scrape", Expression<EntityIdentifier> @:2315 op:56,dt:56,nt:9,next:65535,str:6638,d0:70,d1:65535;))))))

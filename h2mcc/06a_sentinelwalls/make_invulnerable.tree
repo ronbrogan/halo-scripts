@@ -1,8 +1,8 @@
 
 ("make_invulnerable", MethodDecl<Void> @:275 op:0,dt:0,nt:65535,next:12570,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:12570 op:0,dt:4,nt:8,next:65535,str:63109,d0:12571,d1:38031;
+    (____, BuiltinInvocation<Void> @:12570 op:0,dt:4,nt:8,next:65535,str:63109,d0:12571,d1:38031;
         ("begin", Expression<MethodOrOperator> @:12571 op:0,dt:2,nt:9,next:12566,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:12566 op:366,dt:4,nt:8,next:65535,str:63149,d0:12567,d1:38027;
+            (____, BuiltinInvocation<Void> @:12566 op:366,dt:4,nt:8,next:65535,str:63149,d0:12567,d1:38027;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:12567 op:366,dt:2,nt:9,next:12568,str:1464,d0:0,d1:0;
                     ("ai_current_squad", VariableAccess<AI> @:12568 op:19,dt:19,nt:13,next:12569,str:11128,d0:33563,d1:65535;
                         ("invulnerable", Expression<AIScript> @:12569 op:21,dt:21,nt:9,next:65535,str:22266,d0:274,d1:0;)))))))

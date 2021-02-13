@@ -1,79 +1,79 @@
 
 ("sc_ledge_down_reminder", MethodDecl<Void> @:242 op:0,dt:0,nt:65535,next:9071,str:21457,d0:0,d1:0;
-    (____, Scope<Void> @:9071 op:0,dt:4,nt:8,next:65535,str:48263,d0:9072,d1:34532;
+    (____, BuiltinInvocation<Void> @:9071 op:0,dt:4,nt:8,next:65535,str:48263,d0:9072,d1:34532;
         ("begin", Expression<MethodOrOperator> @:9072 op:0,dt:2,nt:9,next:8996,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:8996 op:19,dt:4,nt:8,next:8999,str:48304,d0:8997,d1:34457;
+            (____, BuiltinInvocation<Void> @:8996 op:19,dt:4,nt:8,next:8999,str:48304,d0:8997,d1:34457;
                 ("sleep", Expression<MethodOrOperator> @:8997 op:19,dt:2,nt:9,next:8998,str:80,d0:0,d1:0;
                     (300, Expression<Short> @:8998 op:7,dt:7,nt:9,next:65535,str:48311,d0:300,d1:65535;)))
-            (____, Scope<Void> @:8999 op:21,dt:4,nt:8,next:9006,str:48318,d0:9000,d1:34460;
+            (____, BuiltinInvocation<Void> @:8999 op:21,dt:4,nt:8,next:9006,str:48318,d0:9000,d1:34460;
                 ("sleep_until", Expression<MethodOrOperator> @:9000 op:21,dt:2,nt:9,next:9001,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:9001 op:33,dt:5,nt:8,next:65535,str:48331,d0:9002,d1:34462;
+                    (____, BuiltinInvocation<Boolean> @:9001 op:33,dt:5,nt:8,next:65535,str:48331,d0:9002,d1:34462;
                         ("volume_test_objects", Expression<MethodOrOperator> @:9002 op:33,dt:2,nt:9,next:9003,str:17358,d0:0,d1:0;
                             ("tv_dervish_ledge_lift", Expression<Trigger> @:9003 op:13,dt:13,nt:9,next:9004,str:20921,d0:45,d1:0;
-                                (____, Scope<List> @:9004 op:28,dt:31,nt:8,next:65535,str:48374,d0:9005,d1:34465;
+                                (____, BuiltinInvocation<List> @:9004 op:28,dt:31,nt:8,next:65535,str:48374,d0:9005,d1:34465;
                                     ("players", Expression<MethodOrOperator> @:9005 op:28,dt:2,nt:9,next:65535,str:21,d0:0,d1:0;)))))))
-            (____, Scope<Void> @:9006 op:2,dt:4,nt:8,next:9011,str:48388,d0:9007,d1:34467;
+            (____, BuiltinInvocation<Void> @:9006 op:2,dt:4,nt:8,next:9011,str:48388,d0:9007,d1:34467;
                 ("if", Expression<MethodOrOperator> @:9007 op:2,dt:2,nt:9,next:9008,str:456,d0:0,d1:0;
                     ("g_ledge_reminder", VariableAccess<Boolean> @:9008 op:5,dt:5,nt:13,next:9009,str:20943,d0:37,d1:0;
-                        (____, Scope<Void> @:9009 op:20,dt:4,nt:8,next:65535,str:48409,d0:9010,d1:34470;
+                        (____, BuiltinInvocation<Void> @:9009 op:20,dt:4,nt:8,next:65535,str:48409,d0:9010,d1:34470;
                             ("sleep_forever", Expression<MethodOrOperator> @:9010 op:20,dt:2,nt:9,next:65535,str:16662,d0:0,d1:0;)))))
-            (____, Scope<Void> @:9011 op:2,dt:4,nt:8,next:9017,str:48428,d0:9012,d1:34472;
+            (____, BuiltinInvocation<Void> @:9011 op:2,dt:4,nt:8,next:9017,str:48428,d0:9012,d1:34472;
                 ("if", Expression<MethodOrOperator> @:9012 op:2,dt:2,nt:9,next:9013,str:456,d0:0,d1:0;
                     ("dialogue", VariableAccess<Boolean> @:9013 op:5,dt:5,nt:13,next:9014,str:19054,d0:4,d1:0;
-                        (____, Scope<Void> @:9014 op:27,dt:4,nt:8,next:65535,str:48441,d0:9015,d1:34475;
+                        (____, BuiltinInvocation<Void> @:9014 op:27,dt:4,nt:8,next:65535,str:48441,d0:9015,d1:34475;
                             ("print", Expression<MethodOrOperator> @:9015 op:27,dt:2,nt:9,next:9016,str:86,d0:0,d1:0;
                                 ("cortana: after that stunt on the cairo,", Expression<String> @:9016 op:9,dt:9,nt:9,next:65535,str:20960,d0:20960,d1:0;))))))
-            (____, Scope<Void> @:9017 op:2,dt:4,nt:8,next:9023,str:48494,d0:9018,d1:34478;
+            (____, BuiltinInvocation<Void> @:9017 op:2,dt:4,nt:8,next:9023,str:48494,d0:9018,d1:34478;
                 ("if", Expression<MethodOrOperator> @:9018 op:2,dt:2,nt:9,next:9019,str:456,d0:0,d1:0;
                     ("dialogue", VariableAccess<Boolean> @:9019 op:5,dt:5,nt:13,next:9020,str:19054,d0:4,d1:0;
-                        (____, Scope<Void> @:9020 op:27,dt:4,nt:8,next:65535,str:48507,d0:9021,d1:34481;
+                        (____, BuiltinInvocation<Void> @:9020 op:27,dt:4,nt:8,next:65535,str:48507,d0:9021,d1:34481;
                             ("print", Expression<MethodOrOperator> @:9021 op:27,dt:2,nt:9,next:9022,str:86,d0:0,d1:0;
                                 ("cortana: i know you're not afraid of heights.", Expression<String> @:9022 op:9,dt:9,nt:9,next:65535,str:21000,d0:21000,d1:0;))))))
-            (____, Scope<Void> @:9023 op:19,dt:4,nt:8,next:9029,str:48566,d0:9024,d1:34484;
+            (____, BuiltinInvocation<Void> @:9023 op:19,dt:4,nt:8,next:9029,str:48566,d0:9024,d1:34484;
                 ("sleep", Expression<MethodOrOperator> @:9024 op:19,dt:2,nt:9,next:9025,str:80,d0:0,d1:0;
-                    (____, Scope<Short> @:9025 op:361,dt:7,nt:8,next:65535,str:48573,d0:9026,d1:34486;
+                    (____, BuiltinInvocation<Short> @:9025 op:361,dt:7,nt:8,next:65535,str:48573,d0:9026,d1:34486;
                         ("ai_play_line_at_player", Expression<MethodOrOperator> @:9026 op:361,dt:2,nt:9,next:9027,str:20162,d0:0,d1:0;
                             ("cortana_0", Expression<AI> @:9027 op:19,dt:19,nt:9,next:9028,str:20185,d0:2,d1:0;
                                 ("2240", Expression<StringId> @:9028 op:11,dt:11,nt:9,next:65535,str:21046,d0:13862,d1:1024;))))))
-            (____, Scope<Void> @:9029 op:19,dt:4,nt:8,next:9035,str:48616,d0:9030,d1:34490;
+            (____, BuiltinInvocation<Void> @:9029 op:19,dt:4,nt:8,next:9035,str:48616,d0:9030,d1:34490;
                 ("sleep", Expression<MethodOrOperator> @:9030 op:19,dt:2,nt:9,next:9031,str:80,d0:0,d1:0;
-                    (____, Scope<Short> @:9031 op:9,dt:7,nt:8,next:65535,str:48623,d0:9032,d1:34492;
+                    (____, BuiltinInvocation<Short> @:9031 op:9,dt:7,nt:8,next:65535,str:48623,d0:9032,d1:34492;
                         ("*", Expression<MethodOrOperator> @:9032 op:9,dt:2,nt:9,next:9033,str:981,d0:0,d1:0;
                             ("dialogue_pause", VariableAccess<Float> @:9033 op:6,dt:6,nt:13,next:9034,str:19117,d0:38,d1:0;
                                 (3f, Expression<Float> @:9034 op:6,dt:6,nt:9,next:65535,str:48641,d0:0,d1:16448;))))))
-            (____, Scope<Void> @:9035 op:19,dt:4,nt:8,next:9038,str:48650,d0:9036,d1:34496;
+            (____, BuiltinInvocation<Void> @:9035 op:19,dt:4,nt:8,next:9038,str:48650,d0:9036,d1:34496;
                 ("sleep", Expression<MethodOrOperator> @:9036 op:19,dt:2,nt:9,next:9037,str:80,d0:0,d1:0;
                     (300, Expression<Short> @:9037 op:7,dt:7,nt:9,next:65535,str:48657,d0:300,d1:65535;)))
-            (____, Scope<Void> @:9038 op:21,dt:4,nt:8,next:9045,str:48664,d0:9039,d1:34499;
+            (____, BuiltinInvocation<Void> @:9038 op:21,dt:4,nt:8,next:9045,str:48664,d0:9039,d1:34499;
                 ("sleep_until", Expression<MethodOrOperator> @:9039 op:21,dt:2,nt:9,next:9040,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:9040 op:33,dt:5,nt:8,next:65535,str:48677,d0:9041,d1:34501;
+                    (____, BuiltinInvocation<Boolean> @:9040 op:33,dt:5,nt:8,next:65535,str:48677,d0:9041,d1:34501;
                         ("volume_test_objects", Expression<MethodOrOperator> @:9041 op:33,dt:2,nt:9,next:9042,str:17358,d0:0,d1:0;
                             ("tv_dervish_ledge_lift", Expression<Trigger> @:9042 op:13,dt:13,nt:9,next:9043,str:20921,d0:45,d1:0;
-                                (____, Scope<List> @:9043 op:28,dt:31,nt:8,next:65535,str:48720,d0:9044,d1:34504;
+                                (____, BuiltinInvocation<List> @:9043 op:28,dt:31,nt:8,next:65535,str:48720,d0:9044,d1:34504;
                                     ("players", Expression<MethodOrOperator> @:9044 op:28,dt:2,nt:9,next:65535,str:21,d0:0,d1:0;)))))))
-            (____, Scope<Void> @:9045 op:2,dt:4,nt:8,next:9050,str:48734,d0:9046,d1:34506;
+            (____, BuiltinInvocation<Void> @:9045 op:2,dt:4,nt:8,next:9050,str:48734,d0:9046,d1:34506;
                 ("if", Expression<MethodOrOperator> @:9046 op:2,dt:2,nt:9,next:9047,str:456,d0:0,d1:0;
                     ("g_ledge_reminder", VariableAccess<Boolean> @:9047 op:5,dt:5,nt:13,next:9048,str:20943,d0:37,d1:0;
-                        (____, Scope<Void> @:9048 op:20,dt:4,nt:8,next:65535,str:48755,d0:9049,d1:34509;
+                        (____, BuiltinInvocation<Void> @:9048 op:20,dt:4,nt:8,next:65535,str:48755,d0:9049,d1:34509;
                             ("sleep_forever", Expression<MethodOrOperator> @:9049 op:20,dt:2,nt:9,next:65535,str:16662,d0:0,d1:0;)))))
-            (____, Scope<Void> @:9050 op:2,dt:4,nt:8,next:9056,str:48774,d0:9051,d1:34511;
+            (____, BuiltinInvocation<Void> @:9050 op:2,dt:4,nt:8,next:9056,str:48774,d0:9051,d1:34511;
                 ("if", Expression<MethodOrOperator> @:9051 op:2,dt:2,nt:9,next:9052,str:456,d0:0,d1:0;
                     ("dialogue", VariableAccess<Boolean> @:9052 op:5,dt:5,nt:13,next:9053,str:19054,d0:4,d1:0;
-                        (____, Scope<Void> @:9053 op:27,dt:4,nt:8,next:65535,str:48787,d0:9054,d1:34514;
+                        (____, BuiltinInvocation<Void> @:9053 op:27,dt:4,nt:8,next:65535,str:48787,d0:9054,d1:34514;
                             ("print", Expression<MethodOrOperator> @:9054 op:27,dt:2,nt:9,next:9055,str:86,d0:0,d1:0;
                                 ("cortana: fine, i won't watch", Expression<String> @:9055 op:9,dt:9,nt:9,next:65535,str:21051,d0:21051,d1:0;))))))
-            (____, Scope<Void> @:9056 op:2,dt:4,nt:8,next:9062,str:48829,d0:9057,d1:34517;
+            (____, BuiltinInvocation<Void> @:9056 op:2,dt:4,nt:8,next:9062,str:48829,d0:9057,d1:34517;
                 ("if", Expression<MethodOrOperator> @:9057 op:2,dt:2,nt:9,next:9058,str:456,d0:0,d1:0;
                     ("dialogue", VariableAccess<Boolean> @:9058 op:5,dt:5,nt:13,next:9059,str:19054,d0:4,d1:0;
-                        (____, Scope<Void> @:9059 op:27,dt:4,nt:8,next:65535,str:48842,d0:9060,d1:34520;
+                        (____, BuiltinInvocation<Void> @:9059 op:27,dt:4,nt:8,next:65535,str:48842,d0:9060,d1:34520;
                             ("print", Expression<MethodOrOperator> @:9060 op:27,dt:2,nt:9,next:9061,str:86,d0:0,d1:0;
                                 ("cortana: meet you at the bottom, ok?", Expression<String> @:9061 op:9,dt:9,nt:9,next:65535,str:21080,d0:21080,d1:0;))))))
-            (____, Scope<Void> @:9062 op:19,dt:4,nt:8,next:9068,str:48892,d0:9063,d1:34523;
+            (____, BuiltinInvocation<Void> @:9062 op:19,dt:4,nt:8,next:9068,str:48892,d0:9063,d1:34523;
                 ("sleep", Expression<MethodOrOperator> @:9063 op:19,dt:2,nt:9,next:9064,str:80,d0:0,d1:0;
-                    (____, Scope<Short> @:9064 op:361,dt:7,nt:8,next:65535,str:48899,d0:9065,d1:34525;
+                    (____, BuiltinInvocation<Short> @:9064 op:361,dt:7,nt:8,next:65535,str:48899,d0:9065,d1:34525;
                         ("ai_play_line_at_player", Expression<MethodOrOperator> @:9065 op:361,dt:2,nt:9,next:9066,str:20162,d0:0,d1:0;
                             ("cortana_0", Expression<AI> @:9066 op:19,dt:19,nt:9,next:9067,str:20185,d0:2,d1:0;
                                 ("2250", Expression<StringId> @:9067 op:11,dt:11,nt:9,next:65535,str:21117,d0:13863,d1:1024;))))))
-            (____, Scope<Void> @:9068 op:19,dt:4,nt:8,next:65535,str:48942,d0:9069,d1:34529;
+            (____, BuiltinInvocation<Void> @:9068 op:19,dt:4,nt:8,next:65535,str:48942,d0:9069,d1:34529;
                 ("sleep", Expression<MethodOrOperator> @:9069 op:19,dt:2,nt:9,next:9070,str:80,d0:0,d1:0;
                     ("dialogue_pause", VariableAccess<Short> @:9070 op:7,dt:7,nt:13,next:65535,str:19117,d0:38,d1:0;))))))

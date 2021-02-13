@@ -1,75 +1,75 @@
 
 ("arbiter_envy", MethodDecl<Void> @:287 op:0,dt:0,nt:65535,next:15970,str:31851,d0:0,d1:0;
-    (____, Scope<Void> @:15970 op:0,dt:4,nt:8,next:65535,str:50022,d0:15971,d1:41431;
+    (____, BuiltinInvocation<Void> @:15970 op:0,dt:4,nt:8,next:65535,str:50022,d0:15971,d1:41431;
         ("begin", Expression<MethodOrOperator> @:15971 op:0,dt:2,nt:9,next:15899,str:54,d0:0,d1:0;
-            (____, Scope<Void> @:15899 op:21,dt:4,nt:8,next:15909,str:50053,d0:15900,d1:41360;
+            (____, BuiltinInvocation<Void> @:15899 op:21,dt:4,nt:8,next:15909,str:50053,d0:15900,d1:41360;
                 ("sleep_until", Expression<MethodOrOperator> @:15900 op:21,dt:2,nt:9,next:15901,str:284,d0:0,d1:0;
-                    (____, Scope<Boolean> @:15901 op:13,dt:5,nt:8,next:65535,str:50066,d0:15902,d1:41362;
+                    (____, BuiltinInvocation<Boolean> @:15901 op:13,dt:5,nt:8,next:65535,str:50066,d0:15902,d1:41362;
                         ("=", Expression<MethodOrOperator> @:15902 op:13,dt:2,nt:9,next:15903,str:349,d0:0,d1:0;
-                            (____, Scope<Boolean> @:15903 op:33,dt:5,nt:8,next:15908,str:50069,d0:15904,d1:41364;
+                            (____, BuiltinInvocation<Boolean> @:15903 op:33,dt:5,nt:8,next:15908,str:50069,d0:15904,d1:41364;
                                 ("volume_test_objects", Expression<MethodOrOperator> @:15904 op:33,dt:2,nt:9,next:15905,str:14370,d0:0,d1:0;
                                     ("vol_arbiter_envy", Expression<Trigger> @:15905 op:13,dt:13,nt:9,next:15906,str:27927,d0:113,d1:0;
-                                        (____, Scope<List> @:15906 op:28,dt:31,nt:8,next:65535,str:50107,d0:15907,d1:41367;
+                                        (____, BuiltinInvocation<List> @:15906 op:28,dt:31,nt:8,next:65535,str:50107,d0:15907,d1:41367;
                                             ("players", Expression<MethodOrOperator> @:15907 op:28,dt:2,nt:9,next:65535,str:74,d0:0,d1:0;)))))
                             (True, Expression<Boolean> @:15908 op:5,dt:5,nt:9,next:65535,str:50118,d0:65281,d1:65535;)))))
-            (____, Scope<Void> @:15909 op:46,dt:4,nt:8,next:15912,str:50127,d0:15910,d1:41370;
+            (____, BuiltinInvocation<Void> @:15909 op:46,dt:4,nt:8,next:15912,str:50127,d0:15910,d1:41370;
                 ("object_create", Expression<MethodOrOperator> @:15910 op:46,dt:2,nt:9,next:15911,str:12369,d0:0,d1:0;
                     ("envy", Expression<EntityIdentifier> @:15911 op:56,dt:56,nt:9,next:65535,str:27944,d0:101,d1:65535;)))
-            (____, Scope<Void> @:15912 op:290,dt:4,nt:8,next:15915,str:50150,d0:15913,d1:41373;
+            (____, BuiltinInvocation<Void> @:15912 op:290,dt:4,nt:8,next:15915,str:50150,d0:15913,d1:41373;
                 ("ai_place", Expression<MethodOrOperator> @:15913 op:290,dt:2,nt:9,next:15914,str:14859,d0:0,d1:0;
                     ("envy_elites", Expression<AI> @:15914 op:19,dt:19,nt:9,next:65535,str:27949,d0:196,d1:0;)))
-            (____, Scope<Void> @:15915 op:307,dt:4,nt:8,next:15919,str:50175,d0:15916,d1:41376;
+            (____, BuiltinInvocation<Void> @:15915 op:307,dt:4,nt:8,next:15919,str:50175,d0:15916,d1:41376;
                 ("ai_set_active_camo", Expression<MethodOrOperator> @:15916 op:307,dt:2,nt:9,next:15917,str:17744,d0:0,d1:0;
                     ("envy_elites", Expression<AI> @:15917 op:19,dt:19,nt:9,next:15918,str:27949,d0:196,d1:0;
                         (True, Expression<Boolean> @:15918 op:5,dt:5,nt:9,next:65535,str:50207,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:15919 op:366,dt:4,nt:8,next:15923,str:50215,d0:15920,d1:41380;
+            (____, BuiltinInvocation<Void> @:15919 op:366,dt:4,nt:8,next:15923,str:50215,d0:15920,d1:41380;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:15920 op:366,dt:2,nt:9,next:15921,str:14517,d0:0,d1:0;
                     ("envy_elites", Expression<AI> @:15921 op:19,dt:19,nt:9,next:15922,str:27949,d0:196,d1:0;
                         ("forever_pause", Expression<AIScript> @:15922 op:21,dt:21,nt:9,next:65535,str:27961,d0:167,d1:0;))))
-            (____, Scope<Void> @:15923 op:202,dt:4,nt:8,next:15936,str:50267,d0:15924,d1:41384;
+            (____, BuiltinInvocation<Void> @:15923 op:202,dt:4,nt:8,next:15936,str:50267,d0:15924,d1:41384;
                 ("custom_animation_loop", Expression<MethodOrOperator> @:15924 op:202,dt:2,nt:9,next:15925,str:27975,d0:0,d1:0;
-                    (____, Scope<Unit> @:15925 op:24,dt:51,nt:8,next:15933,str:50290,d0:15926,d1:41386;
+                    (____, BuiltinInvocation<Unit> @:15925 op:24,dt:51,nt:8,next:15933,str:50290,d0:15926,d1:41386;
                         ("unit", Expression<MethodOrOperator> @:15926 op:24,dt:2,nt:9,next:15927,str:60,d0:0,d1:0;
-                            (____, Scope<Entity> @:15927 op:37,dt:50,nt:8,next:65535,str:50296,d0:15928,d1:41388;
+                            (____, BuiltinInvocation<Entity> @:15927 op:37,dt:50,nt:8,next:65535,str:50296,d0:15928,d1:41388;
                                 ("list_get", Expression<MethodOrOperator> @:15928 op:37,dt:2,nt:9,next:15929,str:65,d0:0,d1:0;
-                                    (____, Scope<List> @:15929 op:332,dt:31,nt:8,next:15932,str:50306,d0:15930,d1:41390;
+                                    (____, BuiltinInvocation<List> @:15929 op:332,dt:31,nt:8,next:15932,str:50306,d0:15930,d1:41390;
                                         ("ai_actors", Expression<MethodOrOperator> @:15930 op:332,dt:2,nt:9,next:15931,str:14311,d0:0,d1:0;
                                             ("envy_elites", Expression<AI> @:15931 op:19,dt:19,nt:9,next:65535,str:27949,d0:196,d1:0;)))
                                     (0, Expression<Short> @:15932 op:7,dt:7,nt:9,next:65535,str:50330,d0:0,d1:65535;)))))
                     ("objects\characters\elite\elite", Expression<Animation> @:15933 op:36,dt:36,nt:9,next:15934,str:27997,d0:6980,d1:64891;
                         ("combat:rifle:berserk", Expression<StringId> @:15934 op:11,dt:11,nt:9,next:15935,str:28028,d0:12519,d1:5120;
                             (True, Expression<Boolean> @:15935 op:5,dt:5,nt:9,next:65535,str:50388,d0:65281,d1:65535;)))))
-            (____, Scope<Void> @:15936 op:202,dt:4,nt:8,next:15949,str:50396,d0:15937,d1:41397;
+            (____, BuiltinInvocation<Void> @:15936 op:202,dt:4,nt:8,next:15949,str:50396,d0:15937,d1:41397;
                 ("custom_animation_loop", Expression<MethodOrOperator> @:15937 op:202,dt:2,nt:9,next:15938,str:27975,d0:0,d1:0;
-                    (____, Scope<Unit> @:15938 op:24,dt:51,nt:8,next:15946,str:50419,d0:15939,d1:41399;
+                    (____, BuiltinInvocation<Unit> @:15938 op:24,dt:51,nt:8,next:15946,str:50419,d0:15939,d1:41399;
                         ("unit", Expression<MethodOrOperator> @:15939 op:24,dt:2,nt:9,next:15940,str:60,d0:0,d1:0;
-                            (____, Scope<Entity> @:15940 op:37,dt:50,nt:8,next:65535,str:50425,d0:15941,d1:41401;
+                            (____, BuiltinInvocation<Entity> @:15940 op:37,dt:50,nt:8,next:65535,str:50425,d0:15941,d1:41401;
                                 ("list_get", Expression<MethodOrOperator> @:15941 op:37,dt:2,nt:9,next:15942,str:65,d0:0,d1:0;
-                                    (____, Scope<List> @:15942 op:332,dt:31,nt:8,next:15945,str:50435,d0:15943,d1:41403;
+                                    (____, BuiltinInvocation<List> @:15942 op:332,dt:31,nt:8,next:15945,str:50435,d0:15943,d1:41403;
                                         ("ai_actors", Expression<MethodOrOperator> @:15943 op:332,dt:2,nt:9,next:15944,str:14311,d0:0,d1:0;
                                             ("envy_elites", Expression<AI> @:15944 op:19,dt:19,nt:9,next:65535,str:27949,d0:196,d1:0;)))
                                     (1, Expression<Short> @:15945 op:7,dt:7,nt:9,next:65535,str:50459,d0:1,d1:65535;)))))
                     ("objects\characters\elite\elite", Expression<Animation> @:15946 op:36,dt:36,nt:9,next:15947,str:27997,d0:6980,d1:64891;
                         ("combat:rifle:berserk", Expression<StringId> @:15947 op:11,dt:11,nt:9,next:15948,str:28028,d0:12519,d1:5120;
                             (True, Expression<Boolean> @:15948 op:5,dt:5,nt:9,next:65535,str:50517,d0:65281,d1:65535;)))))
-            (____, Scope<Void> @:15949 op:21,dt:4,nt:8,next:15967,str:50527,d0:15950,d1:41410;
+            (____, BuiltinInvocation<Void> @:15949 op:21,dt:4,nt:8,next:15967,str:50527,d0:15950,d1:41410;
                 ("sleep_until", Expression<MethodOrOperator> @:15950 op:21,dt:2,nt:9,next:15951,str:284,d0:0,d1:0;
-                    (____, Scope<Boolean> @:15951 op:6,dt:5,nt:8,next:65535,str:50544,d0:15952,d1:41412;
+                    (____, BuiltinInvocation<Boolean> @:15951 op:6,dt:5,nt:8,next:65535,str:50544,d0:15952,d1:41412;
                         ("or", Expression<MethodOrOperator> @:15952 op:6,dt:2,nt:9,next:15953,str:897,d0:0,d1:0;
-                            (____, Scope<Boolean> @:15953 op:242,dt:5,nt:8,next:15960,str:50552,d0:15954,d1:41414;
+                            (____, BuiltinInvocation<Boolean> @:15953 op:242,dt:5,nt:8,next:15960,str:50552,d0:15954,d1:41414;
                                 ("unit_has_weapon", Expression<MethodOrOperator> @:15954 op:242,dt:2,nt:9,next:15955,str:28049,d0:0,d1:0;
-                                    (____, Scope<Unit> @:15955 op:24,dt:51,nt:8,next:15959,str:50569,d0:15956,d1:41416;
+                                    (____, BuiltinInvocation<Unit> @:15955 op:24,dt:51,nt:8,next:15959,str:50569,d0:15956,d1:41416;
                                         ("unit", Expression<MethodOrOperator> @:15956 op:24,dt:2,nt:9,next:15957,str:60,d0:0,d1:0;
                                             ("player0", ScriptInvocation<Entity> @:15957 op:0,dt:50,nt:10,next:65535,str:50575,d0:15958,d1:41418;
                                                 ("player0", Expression<MethodOrOperator> @:15958 op:0,dt:2,nt:9,next:65535,str:655,d0:0,d1:0;))))
                                     ("objects\weapons\multiplayer\ball\head_sp.weapon", Expression<TagReference> @:15959 op:38,dt:38,nt:9,next:65535,str:28065,d0:6483,d1:64371;)))
-                            (____, Scope<Boolean> @:15960 op:242,dt:5,nt:8,next:65535,str:50641,d0:15961,d1:41421;
+                            (____, BuiltinInvocation<Boolean> @:15960 op:242,dt:5,nt:8,next:65535,str:50641,d0:15961,d1:41421;
                                 ("unit_has_weapon", Expression<MethodOrOperator> @:15961 op:242,dt:2,nt:9,next:15962,str:28049,d0:0,d1:0;
-                                    (____, Scope<Unit> @:15962 op:24,dt:51,nt:8,next:15966,str:50658,d0:15963,d1:41423;
+                                    (____, BuiltinInvocation<Unit> @:15962 op:24,dt:51,nt:8,next:15966,str:50658,d0:15963,d1:41423;
                                         ("unit", Expression<MethodOrOperator> @:15963 op:24,dt:2,nt:9,next:15964,str:60,d0:0,d1:0;
                                             ("player1", ScriptInvocation<Entity> @:15964 op:1,dt:50,nt:10,next:65535,str:50664,d0:15965,d1:41425;
                                                 ("player1", Expression<MethodOrOperator> @:15965 op:1,dt:2,nt:9,next:65535,str:663,d0:0,d1:0;))))
                                     ("objects\weapons\multiplayer\ball\head_sp.weapon", Expression<TagReference> @:15966 op:38,dt:38,nt:9,next:65535,str:28065,d0:6483,d1:64371;)))))))
-            (____, Scope<Void> @:15967 op:872,dt:4,nt:8,next:65535,str:50737,d0:15968,d1:41428;
+            (____, BuiltinInvocation<Void> @:15967 op:872,dt:4,nt:8,next:65535,str:50737,d0:15968,d1:41428;
                 ("ice_cream_flavor_stock", Expression<MethodOrOperator> @:15968 op:872,dt:2,nt:9,next:15969,str:28113,d0:0,d1:0;
                     (0, Expression<Int> @:15969 op:8,dt:8,nt:9,next:65535,str:50761,d0:0,d1:0;))))))

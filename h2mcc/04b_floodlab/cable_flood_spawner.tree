@@ -1,326 +1,326 @@
 
 ("cable_flood_spawner", MethodDecl<Void> @:271 op:0,dt:0,nt:65535,next:14832,str:26570,d0:0,d1:0;
-    (____, Scope<Void> @:14832 op:0,dt:4,nt:8,next:65535,str:24800,d0:14833,d1:40293;
+    (____, BuiltinInvocation<Void> @:14832 op:0,dt:4,nt:8,next:65535,str:24800,d0:14833,d1:40293;
         ("begin", Expression<MethodOrOperator> @:14833 op:0,dt:2,nt:9,next:14510,str:210,d0:0,d1:0;
-            (____, Scope<Void> @:14510 op:2,dt:4,nt:8,next:14518,str:24838,d0:14511,d1:39971;
+            (____, BuiltinInvocation<Void> @:14510 op:2,dt:4,nt:8,next:14518,str:24838,d0:14511,d1:39971;
                 ("if", Expression<MethodOrOperator> @:14511 op:2,dt:2,nt:9,next:14512,str:665,d0:0,d1:0;
                     ("difficulty_legendary", ScriptInvocation<Boolean> @:14512 op:4,dt:5,nt:10,next:14514,str:24842,d0:14513,d1:39973;
                         ("difficulty_legendary", Expression<MethodOrOperator> @:14513 op:4,dt:2,nt:9,next:65535,str:16292,d0:0,d1:0;))
-                    (____, Scope<Void> @:14514 op:4,dt:4,nt:8,next:65535,str:24868,d0:14515,d1:39975;
+                    (____, BuiltinInvocation<Void> @:14514 op:4,dt:4,nt:8,next:65535,str:24868,d0:14515,d1:39975;
                         ("set", Expression<MethodOrOperator> @:14515 op:4,dt:2,nt:9,next:14516,str:2644,d0:0,d1:0;
                             ("croom_flood_desired", VariableAccess<Short> @:14516 op:65535,dt:7,nt:13,next:14517,str:26350,d0:34,d1:0;
                                 (10, Expression<Short> @:14517 op:7,dt:7,nt:9,next:65535,str:24893,d0:10,d1:65535;))))))
-            (____, Scope<Void> @:14518 op:2,dt:4,nt:8,next:14526,str:24903,d0:14519,d1:39979;
+            (____, BuiltinInvocation<Void> @:14518 op:2,dt:4,nt:8,next:14526,str:24903,d0:14519,d1:39979;
                 ("if", Expression<MethodOrOperator> @:14519 op:2,dt:2,nt:9,next:14520,str:665,d0:0,d1:0;
                     ("difficulty_heroic", ScriptInvocation<Boolean> @:14520 op:5,dt:5,nt:10,next:14522,str:24907,d0:14521,d1:39981;
                         ("difficulty_heroic", Expression<MethodOrOperator> @:14521 op:5,dt:2,nt:9,next:65535,str:16330,d0:0,d1:0;))
-                    (____, Scope<Void> @:14522 op:4,dt:4,nt:8,next:65535,str:24930,d0:14523,d1:39983;
+                    (____, BuiltinInvocation<Void> @:14522 op:4,dt:4,nt:8,next:65535,str:24930,d0:14523,d1:39983;
                         ("set", Expression<MethodOrOperator> @:14523 op:4,dt:2,nt:9,next:14524,str:2644,d0:0,d1:0;
                             ("croom_flood_desired", VariableAccess<Short> @:14524 op:65535,dt:7,nt:13,next:14525,str:26350,d0:34,d1:0;
                                 (8, Expression<Short> @:14525 op:7,dt:7,nt:9,next:65535,str:24955,d0:8,d1:65535;))))))
-            (____, Scope<Void> @:14526 op:21,dt:4,nt:8,next:14596,str:24964,d0:14527,d1:39987;
+            (____, BuiltinInvocation<Void> @:14526 op:21,dt:4,nt:8,next:14596,str:24964,d0:14527,d1:39987;
                 ("sleep_until", Expression<MethodOrOperator> @:14527 op:21,dt:2,nt:9,next:14528,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14528 op:0,dt:5,nt:8,next:65535,str:24980,d0:14529,d1:39989;
+                    (____, BuiltinInvocation<Boolean> @:14528 op:0,dt:5,nt:8,next:65535,str:24980,d0:14529,d1:39989;
                         ("begin", Expression<MethodOrOperator> @:14529 op:0,dt:2,nt:9,next:14530,str:210,d0:0,d1:0;
-                            (____, Scope<Void> @:14530 op:21,dt:4,nt:8,next:14557,str:24991,d0:14531,d1:39991;
+                            (____, BuiltinInvocation<Void> @:14530 op:21,dt:4,nt:8,next:14557,str:24991,d0:14531,d1:39991;
                                 ("sleep_until", Expression<MethodOrOperator> @:14531 op:21,dt:2,nt:9,next:14532,str:440,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14532 op:6,dt:5,nt:8,next:65535,str:25010,d0:14533,d1:39993;
+                                    (____, BuiltinInvocation<Boolean> @:14532 op:6,dt:5,nt:8,next:65535,str:25010,d0:14533,d1:39993;
                                         ("or", Expression<MethodOrOperator> @:14533 op:6,dt:2,nt:9,next:14534,str:1053,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:14534 op:5,dt:5,nt:8,next:14549,str:25020,d0:14535,d1:39995;
+                                            (____, BuiltinInvocation<Boolean> @:14534 op:5,dt:5,nt:8,next:14549,str:25020,d0:14535,d1:39995;
                                                 ("and", Expression<MethodOrOperator> @:14535 op:5,dt:2,nt:9,next:14536,str:876,d0:0,d1:0;
-                                                    (____, Scope<Boolean> @:14536 op:16,dt:5,nt:8,next:14540,str:25032,d0:14537,d1:39997;
+                                                    (____, BuiltinInvocation<Boolean> @:14536 op:16,dt:5,nt:8,next:14540,str:25032,d0:14537,d1:39997;
                                                         ("<", Expression<MethodOrOperator> @:14537 op:16,dt:2,nt:9,next:14538,str:1056,d0:0,d1:0;
                                                             ("croom_flood_total", VariableAccess<Short> @:14538 op:0,dt:7,nt:13,next:14539,str:25342,d0:33,d1:0;
                                                                 ("croom_flood_desired", VariableAccess<Short> @:14539 op:7,dt:7,nt:13,next:65535,str:26350,d0:34,d1:0;))))
-                                                    (____, Scope<Boolean> @:14540 op:16,dt:5,nt:8,next:65535,str:25081,d0:14541,d1:40001;
+                                                    (____, BuiltinInvocation<Boolean> @:14540 op:16,dt:5,nt:8,next:65535,str:25081,d0:14541,d1:40001;
                                                         ("<", Expression<MethodOrOperator> @:14541 op:16,dt:2,nt:9,next:14542,str:1056,d0:0,d1:0;
-                                                            (____, Scope<Short> @:14542 op:331,dt:7,nt:8,next:14545,str:25084,d0:14543,d1:40003;
+                                                            (____, BuiltinInvocation<Short> @:14542 op:331,dt:7,nt:8,next:14545,str:25084,d0:14543,d1:40003;
                                                                 ("ai_nonswarm_count", Expression<MethodOrOperator> @:14543 op:331,dt:2,nt:9,next:14544,str:13551,d0:0,d1:0;
                                                                     ("cable_flood", Expression<AI> @:14544 op:19,dt:19,nt:9,next:65535,str:25360,d0:21,d1:16384;)))
-                                                            (____, Scope<Short> @:14545 op:10,dt:7,nt:8,next:65535,str:25116,d0:14546,d1:40006;
+                                                            (____, BuiltinInvocation<Short> @:14545 op:10,dt:7,nt:8,next:65535,str:25116,d0:14546,d1:40006;
                                                                 ("/", Expression<MethodOrOperator> @:14546 op:10,dt:2,nt:9,next:14547,str:26370,d0:0,d1:0;
                                                                     ("croom_flood_desired", VariableAccess<Float> @:14547 op:6,dt:6,nt:13,next:14548,str:26350,d0:34,d1:0;
                                                                         (2f, Expression<Float> @:14548 op:6,dt:6,nt:9,next:65535,str:25139,d0:0,d1:16384;))))))))
-                                            (____, Scope<Boolean> @:14549 op:13,dt:5,nt:8,next:14553,str:25157,d0:14550,d1:40010;
+                                            (____, BuiltinInvocation<Boolean> @:14549 op:13,dt:5,nt:8,next:14553,str:25157,d0:14550,d1:40010;
                                                 ("=", Expression<MethodOrOperator> @:14550 op:13,dt:2,nt:9,next:14551,str:505,d0:0,d1:0;
                                                     ("plummeting", VariableAccess<Boolean> @:14551 op:0,dt:5,nt:13,next:14552,str:25125,d0:3,d1:0;
                                                         (True, Expression<Boolean> @:14552 op:5,dt:5,nt:9,next:65535,str:25171,d0:65281,d1:65535;))))
-                                            (____, Scope<Boolean> @:14553 op:15,dt:5,nt:8,next:65535,str:25183,d0:14554,d1:40014;
+                                            (____, BuiltinInvocation<Boolean> @:14553 op:15,dt:5,nt:8,next:65535,str:25183,d0:14554,d1:40014;
                                                 (">", Expression<MethodOrOperator> @:14554 op:15,dt:2,nt:9,next:14555,str:13549,d0:0,d1:0;
                                                     ("cable_var", VariableAccess<Short> @:14555 op:0,dt:7,nt:13,next:14556,str:25136,d0:36,d1:0;
                                                         (0, Expression<Short> @:14556 op:7,dt:7,nt:9,next:65535,str:25196,d0:0,d1:65535;))))))))
-                            (____, Scope<Void> @:14557 op:2,dt:4,nt:8,next:14582,str:25216,d0:14558,d1:40018;
+                            (____, BuiltinInvocation<Void> @:14557 op:2,dt:4,nt:8,next:14582,str:25216,d0:14558,d1:40018;
                                 ("if", Expression<MethodOrOperator> @:14558 op:2,dt:2,nt:9,next:14559,str:665,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14559 op:5,dt:5,nt:8,next:14569,str:25226,d0:14560,d1:40020;
+                                    (____, BuiltinInvocation<Boolean> @:14559 op:5,dt:5,nt:8,next:14569,str:25226,d0:14560,d1:40020;
                                         ("and", Expression<MethodOrOperator> @:14560 op:5,dt:2,nt:9,next:14561,str:876,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:14561 op:13,dt:5,nt:8,next:14565,str:25237,d0:14562,d1:40022;
+                                            (____, BuiltinInvocation<Boolean> @:14561 op:13,dt:5,nt:8,next:14565,str:25237,d0:14562,d1:40022;
                                                 ("=", Expression<MethodOrOperator> @:14562 op:13,dt:2,nt:9,next:14563,str:505,d0:0,d1:0;
                                                     ("plummeting", VariableAccess<Boolean> @:14563 op:0,dt:5,nt:13,next:14564,str:25125,d0:3,d1:0;
                                                         (False, Expression<Boolean> @:14564 op:5,dt:5,nt:9,next:65535,str:25251,d0:65280,d1:65535;))))
-                                            (____, Scope<Boolean> @:14565 op:16,dt:5,nt:8,next:65535,str:25264,d0:14566,d1:40026;
+                                            (____, BuiltinInvocation<Boolean> @:14565 op:16,dt:5,nt:8,next:65535,str:25264,d0:14566,d1:40026;
                                                 ("<", Expression<MethodOrOperator> @:14566 op:16,dt:2,nt:9,next:14567,str:1056,d0:0,d1:0;
                                                     ("cable_var", VariableAccess<Short> @:14567 op:0,dt:7,nt:13,next:14568,str:25136,d0:36,d1:0;
                                                         (1, Expression<Short> @:14568 op:7,dt:7,nt:9,next:65535,str:25277,d0:1,d1:65535;))))))
-                                    (____, Scope<Void> @:14569 op:0,dt:4,nt:8,next:65535,str:25294,d0:14570,d1:40030;
+                                    (____, BuiltinInvocation<Void> @:14569 op:0,dt:4,nt:8,next:65535,str:25294,d0:14570,d1:40030;
                                         ("begin", Expression<MethodOrOperator> @:14570 op:0,dt:2,nt:9,next:14571,str:210,d0:0,d1:0;
-                                            (____, Scope<Void> @:14571 op:291,dt:4,nt:8,next:14575,str:25308,d0:14572,d1:40032;
+                                            (____, BuiltinInvocation<Void> @:14571 op:291,dt:4,nt:8,next:14575,str:25308,d0:14572,d1:40032;
                                                 ("ai_place", Expression<MethodOrOperator> @:14572 op:291,dt:2,nt:9,next:14573,str:11303,d0:0,d1:0;
                                                     ("cable_room_combatforms", Expression<AI> @:14573 op:19,dt:19,nt:9,next:14574,str:26372,d0:70,d1:0;
                                                         (1, Expression<Short> @:14574 op:7,dt:7,nt:9,next:65535,str:25341,d0:1,d1:65535;))))
-                                            (____, Scope<Void> @:14575 op:4,dt:4,nt:8,next:65535,str:25351,d0:14576,d1:40036;
+                                            (____, BuiltinInvocation<Void> @:14575 op:4,dt:4,nt:8,next:65535,str:25351,d0:14576,d1:40036;
                                                 ("set", Expression<MethodOrOperator> @:14576 op:4,dt:2,nt:9,next:14577,str:2644,d0:0,d1:0;
                                                     ("croom_flood_total", VariableAccess<Short> @:14577 op:65535,dt:7,nt:13,next:14578,str:25342,d0:33,d1:0;
-                                                        (____, Scope<Short> @:14578 op:7,dt:7,nt:8,next:65535,str:25374,d0:14579,d1:40039;
+                                                        (____, BuiltinInvocation<Short> @:14578 op:7,dt:7,nt:8,next:65535,str:25374,d0:14579,d1:40039;
                                                             ("+", Expression<MethodOrOperator> @:14579 op:7,dt:2,nt:9,next:14580,str:1192,d0:0,d1:0;
                                                                 ("croom_flood_total", VariableAccess<Float> @:14580 op:6,dt:6,nt:13,next:14581,str:25342,d0:33,d1:0;
                                                                     (1f, Expression<Float> @:14581 op:6,dt:6,nt:9,next:65535,str:25395,d0:0,d1:16256;)))))))))))
-                            (____, Scope<Boolean> @:14582 op:6,dt:5,nt:8,next:65535,str:25417,d0:14583,d1:40043;
+                            (____, BuiltinInvocation<Boolean> @:14582 op:6,dt:5,nt:8,next:65535,str:25417,d0:14583,d1:40043;
                                 ("or", Expression<MethodOrOperator> @:14583 op:6,dt:2,nt:9,next:14584,str:1053,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14584 op:13,dt:5,nt:8,next:14588,str:25426,d0:14585,d1:40045;
+                                    (____, BuiltinInvocation<Boolean> @:14584 op:13,dt:5,nt:8,next:14588,str:25426,d0:14585,d1:40045;
                                         ("=", Expression<MethodOrOperator> @:14585 op:13,dt:2,nt:9,next:14586,str:505,d0:0,d1:0;
                                             ("plummeting", VariableAccess<Boolean> @:14586 op:0,dt:5,nt:13,next:14587,str:25125,d0:3,d1:0;
                                                 (True, Expression<Boolean> @:14587 op:5,dt:5,nt:9,next:65535,str:25440,d0:65281,d1:65535;))))
-                                    (____, Scope<Boolean> @:14588 op:15,dt:5,nt:8,next:14592,str:25451,d0:14589,d1:40049;
+                                    (____, BuiltinInvocation<Boolean> @:14588 op:15,dt:5,nt:8,next:14592,str:25451,d0:14589,d1:40049;
                                         (">", Expression<MethodOrOperator> @:14589 op:15,dt:2,nt:9,next:14590,str:13549,d0:0,d1:0;
                                             ("cable_var", VariableAccess<Short> @:14590 op:0,dt:7,nt:13,next:14591,str:25136,d0:36,d1:0;
                                                 (0, Expression<Short> @:14591 op:7,dt:7,nt:9,next:65535,str:25464,d0:0,d1:65535;))))
-                                    (____, Scope<Boolean> @:14592 op:17,dt:5,nt:8,next:65535,str:25472,d0:14593,d1:40053;
+                                    (____, BuiltinInvocation<Boolean> @:14592 op:17,dt:5,nt:8,next:65535,str:25472,d0:14593,d1:40053;
                                         (">=", Expression<MethodOrOperator> @:14593 op:17,dt:2,nt:9,next:14594,str:880,d0:0,d1:0;
                                             ("croom_flood_total", VariableAccess<Short> @:14594 op:0,dt:7,nt:13,next:14595,str:25342,d0:33,d1:0;
                                                 ("croom_flood_desired", VariableAccess<Short> @:14595 op:7,dt:7,nt:13,next:65535,str:26350,d0:34,d1:0;))))))))))
-            (____, Scope<Void> @:14596 op:21,dt:4,nt:8,next:14608,str:25534,d0:14597,d1:40057;
+            (____, BuiltinInvocation<Void> @:14596 op:21,dt:4,nt:8,next:14608,str:25534,d0:14597,d1:40057;
                 ("sleep_until", Expression<MethodOrOperator> @:14597 op:21,dt:2,nt:9,next:14598,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14598 op:6,dt:5,nt:8,next:65535,str:25551,d0:14599,d1:40059;
+                    (____, BuiltinInvocation<Boolean> @:14598 op:6,dt:5,nt:8,next:65535,str:25551,d0:14599,d1:40059;
                         ("or", Expression<MethodOrOperator> @:14599 op:6,dt:2,nt:9,next:14600,str:1053,d0:0,d1:0;
-                            (____, Scope<Boolean> @:14600 op:15,dt:5,nt:8,next:14604,str:25559,d0:14601,d1:40061;
+                            (____, BuiltinInvocation<Boolean> @:14600 op:15,dt:5,nt:8,next:14604,str:25559,d0:14601,d1:40061;
                                 (">", Expression<MethodOrOperator> @:14601 op:15,dt:2,nt:9,next:14602,str:13549,d0:0,d1:0;
                                     ("cable_var", VariableAccess<Short> @:14602 op:0,dt:7,nt:13,next:14603,str:25136,d0:36,d1:0;
                                         (0, Expression<Short> @:14603 op:7,dt:7,nt:9,next:65535,str:25572,d0:0,d1:65535;))))
-                            (____, Scope<Boolean> @:14604 op:13,dt:5,nt:8,next:65535,str:25579,d0:14605,d1:40065;
+                            (____, BuiltinInvocation<Boolean> @:14604 op:13,dt:5,nt:8,next:65535,str:25579,d0:14605,d1:40065;
                                 ("=", Expression<MethodOrOperator> @:14605 op:13,dt:2,nt:9,next:14606,str:505,d0:0,d1:0;
                                     ("plummeting", VariableAccess<Boolean> @:14606 op:0,dt:5,nt:13,next:14607,str:25125,d0:3,d1:0;
                                         (True, Expression<Boolean> @:14607 op:5,dt:5,nt:9,next:65535,str:25593,d0:65281,d1:65535;))))))))
-            (____, Scope<Void> @:14608 op:2,dt:4,nt:8,next:14616,str:25610,d0:14609,d1:40069;
+            (____, BuiltinInvocation<Void> @:14608 op:2,dt:4,nt:8,next:14616,str:25610,d0:14609,d1:40069;
                 ("if", Expression<MethodOrOperator> @:14609 op:2,dt:2,nt:9,next:14610,str:665,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14610 op:13,dt:5,nt:8,next:14614,str:25614,d0:14611,d1:40071;
+                    (____, BuiltinInvocation<Boolean> @:14610 op:13,dt:5,nt:8,next:14614,str:25614,d0:14611,d1:40071;
                         ("=", Expression<MethodOrOperator> @:14611 op:13,dt:2,nt:9,next:14612,str:505,d0:0,d1:0;
                             ("plummeting", VariableAccess<Boolean> @:14612 op:0,dt:5,nt:13,next:14613,str:25125,d0:3,d1:0;
                                 (True, Expression<Boolean> @:14613 op:5,dt:5,nt:9,next:65535,str:25628,d0:65281,d1:65535;))))
-                    (____, Scope<Void> @:14614 op:20,dt:4,nt:8,next:65535,str:25637,d0:14615,d1:40075;
+                    (____, BuiltinInvocation<Void> @:14614 op:20,dt:4,nt:8,next:65535,str:25637,d0:14615,d1:40075;
                         ("sleep_forever", Expression<MethodOrOperator> @:14615 op:20,dt:2,nt:9,next:65535,str:9739,d0:0,d1:0;))))
-            (____, Scope<Void> @:14616 op:4,dt:4,nt:8,next:14620,str:25659,d0:14617,d1:40077;
+            (____, BuiltinInvocation<Void> @:14616 op:4,dt:4,nt:8,next:14620,str:25659,d0:14617,d1:40077;
                 ("set", Expression<MethodOrOperator> @:14617 op:4,dt:2,nt:9,next:14618,str:2644,d0:0,d1:0;
                     ("croom_flood_total", VariableAccess<Short> @:14618 op:65535,dt:7,nt:13,next:14619,str:25342,d0:33,d1:0;
                         (0, Expression<Short> @:14619 op:7,dt:7,nt:9,next:65535,str:25682,d0:0,d1:65535;))))
-            (____, Scope<Void> @:14620 op:2,dt:4,nt:8,next:14628,str:25687,d0:14621,d1:40081;
+            (____, BuiltinInvocation<Void> @:14620 op:2,dt:4,nt:8,next:14628,str:25687,d0:14621,d1:40081;
                 ("if", Expression<MethodOrOperator> @:14621 op:2,dt:2,nt:9,next:14622,str:665,d0:0,d1:0;
                     ("difficulty_legendary", ScriptInvocation<Boolean> @:14622 op:4,dt:5,nt:10,next:14624,str:25691,d0:14623,d1:40083;
                         ("difficulty_legendary", Expression<MethodOrOperator> @:14623 op:4,dt:2,nt:9,next:65535,str:16292,d0:0,d1:0;))
-                    (____, Scope<Void> @:14624 op:4,dt:4,nt:8,next:65535,str:25717,d0:14625,d1:40085;
+                    (____, BuiltinInvocation<Void> @:14624 op:4,dt:4,nt:8,next:65535,str:25717,d0:14625,d1:40085;
                         ("set", Expression<MethodOrOperator> @:14625 op:4,dt:2,nt:9,next:14626,str:2644,d0:0,d1:0;
                             ("croom_flood_desired", VariableAccess<Short> @:14626 op:65535,dt:7,nt:13,next:14627,str:26350,d0:34,d1:0;
                                 (12, Expression<Short> @:14627 op:7,dt:7,nt:9,next:65535,str:25742,d0:12,d1:65535;))))))
-            (____, Scope<Void> @:14628 op:2,dt:4,nt:8,next:14636,str:25752,d0:14629,d1:40089;
+            (____, BuiltinInvocation<Void> @:14628 op:2,dt:4,nt:8,next:14636,str:25752,d0:14629,d1:40089;
                 ("if", Expression<MethodOrOperator> @:14629 op:2,dt:2,nt:9,next:14630,str:665,d0:0,d1:0;
                     ("difficulty_heroic", ScriptInvocation<Boolean> @:14630 op:5,dt:5,nt:10,next:14632,str:25756,d0:14631,d1:40091;
                         ("difficulty_heroic", Expression<MethodOrOperator> @:14631 op:5,dt:2,nt:9,next:65535,str:16330,d0:0,d1:0;))
-                    (____, Scope<Void> @:14632 op:4,dt:4,nt:8,next:65535,str:25779,d0:14633,d1:40093;
+                    (____, BuiltinInvocation<Void> @:14632 op:4,dt:4,nt:8,next:65535,str:25779,d0:14633,d1:40093;
                         ("set", Expression<MethodOrOperator> @:14633 op:4,dt:2,nt:9,next:14634,str:2644,d0:0,d1:0;
                             ("croom_flood_desired", VariableAccess<Short> @:14634 op:65535,dt:7,nt:13,next:14635,str:26350,d0:34,d1:0;
                                 (10, Expression<Short> @:14635 op:7,dt:7,nt:9,next:65535,str:25804,d0:10,d1:65535;))))))
-            (____, Scope<Void> @:14636 op:2,dt:4,nt:8,next:14644,str:25814,d0:14637,d1:40097;
+            (____, BuiltinInvocation<Void> @:14636 op:2,dt:4,nt:8,next:14644,str:25814,d0:14637,d1:40097;
                 ("if", Expression<MethodOrOperator> @:14637 op:2,dt:2,nt:9,next:14638,str:665,d0:0,d1:0;
                     ("difficulty_normal", ScriptInvocation<Boolean> @:14638 op:6,dt:5,nt:10,next:14640,str:25818,d0:14639,d1:40099;
                         ("difficulty_normal", Expression<MethodOrOperator> @:14639 op:6,dt:2,nt:9,next:65535,str:26395,d0:0,d1:0;))
-                    (____, Scope<Void> @:14640 op:4,dt:4,nt:8,next:65535,str:25841,d0:14641,d1:40101;
+                    (____, BuiltinInvocation<Void> @:14640 op:4,dt:4,nt:8,next:65535,str:25841,d0:14641,d1:40101;
                         ("set", Expression<MethodOrOperator> @:14641 op:4,dt:2,nt:9,next:14642,str:2644,d0:0,d1:0;
                             ("croom_flood_desired", VariableAccess<Short> @:14642 op:65535,dt:7,nt:13,next:14643,str:26350,d0:34,d1:0;
                                 (8, Expression<Short> @:14643 op:7,dt:7,nt:9,next:65535,str:25866,d0:8,d1:65535;))))))
-            (____, Scope<Void> @:14644 op:21,dt:4,nt:8,next:14714,str:25875,d0:14645,d1:40105;
+            (____, BuiltinInvocation<Void> @:14644 op:21,dt:4,nt:8,next:14714,str:25875,d0:14645,d1:40105;
                 ("sleep_until", Expression<MethodOrOperator> @:14645 op:21,dt:2,nt:9,next:14646,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14646 op:0,dt:5,nt:8,next:65535,str:25891,d0:14647,d1:40107;
+                    (____, BuiltinInvocation<Boolean> @:14646 op:0,dt:5,nt:8,next:65535,str:25891,d0:14647,d1:40107;
                         ("begin", Expression<MethodOrOperator> @:14647 op:0,dt:2,nt:9,next:14648,str:210,d0:0,d1:0;
-                            (____, Scope<Void> @:14648 op:21,dt:4,nt:8,next:14675,str:25902,d0:14649,d1:40109;
+                            (____, BuiltinInvocation<Void> @:14648 op:21,dt:4,nt:8,next:14675,str:25902,d0:14649,d1:40109;
                                 ("sleep_until", Expression<MethodOrOperator> @:14649 op:21,dt:2,nt:9,next:14650,str:440,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14650 op:6,dt:5,nt:8,next:65535,str:25921,d0:14651,d1:40111;
+                                    (____, BuiltinInvocation<Boolean> @:14650 op:6,dt:5,nt:8,next:65535,str:25921,d0:14651,d1:40111;
                                         ("or", Expression<MethodOrOperator> @:14651 op:6,dt:2,nt:9,next:14652,str:1053,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:14652 op:5,dt:5,nt:8,next:14667,str:25931,d0:14653,d1:40113;
+                                            (____, BuiltinInvocation<Boolean> @:14652 op:5,dt:5,nt:8,next:14667,str:25931,d0:14653,d1:40113;
                                                 ("and", Expression<MethodOrOperator> @:14653 op:5,dt:2,nt:9,next:14654,str:876,d0:0,d1:0;
-                                                    (____, Scope<Boolean> @:14654 op:16,dt:5,nt:8,next:14658,str:25943,d0:14655,d1:40115;
+                                                    (____, BuiltinInvocation<Boolean> @:14654 op:16,dt:5,nt:8,next:14658,str:25943,d0:14655,d1:40115;
                                                         ("<", Expression<MethodOrOperator> @:14655 op:16,dt:2,nt:9,next:14656,str:1056,d0:0,d1:0;
                                                             ("croom_flood_total", VariableAccess<Short> @:14656 op:0,dt:7,nt:13,next:14657,str:25342,d0:33,d1:0;
                                                                 ("croom_flood_desired", VariableAccess<Short> @:14657 op:7,dt:7,nt:13,next:65535,str:26350,d0:34,d1:0;))))
-                                                    (____, Scope<Boolean> @:14658 op:16,dt:5,nt:8,next:65535,str:25992,d0:14659,d1:40119;
+                                                    (____, BuiltinInvocation<Boolean> @:14658 op:16,dt:5,nt:8,next:65535,str:25992,d0:14659,d1:40119;
                                                         ("<", Expression<MethodOrOperator> @:14659 op:16,dt:2,nt:9,next:14660,str:1056,d0:0,d1:0;
-                                                            (____, Scope<Short> @:14660 op:331,dt:7,nt:8,next:14663,str:25995,d0:14661,d1:40121;
+                                                            (____, BuiltinInvocation<Short> @:14660 op:331,dt:7,nt:8,next:14663,str:25995,d0:14661,d1:40121;
                                                                 ("ai_nonswarm_count", Expression<MethodOrOperator> @:14661 op:331,dt:2,nt:9,next:14662,str:13551,d0:0,d1:0;
                                                                     ("cable_flood", Expression<AI> @:14662 op:19,dt:19,nt:9,next:65535,str:25360,d0:21,d1:16384;)))
-                                                            (____, Scope<Short> @:14663 op:10,dt:7,nt:8,next:65535,str:26027,d0:14664,d1:40124;
+                                                            (____, BuiltinInvocation<Short> @:14663 op:10,dt:7,nt:8,next:65535,str:26027,d0:14664,d1:40124;
                                                                 ("/", Expression<MethodOrOperator> @:14664 op:10,dt:2,nt:9,next:14665,str:26370,d0:0,d1:0;
                                                                     ("croom_flood_desired", VariableAccess<Float> @:14665 op:6,dt:6,nt:13,next:14666,str:26350,d0:34,d1:0;
                                                                         (2f, Expression<Float> @:14666 op:6,dt:6,nt:9,next:65535,str:26050,d0:0,d1:16384;))))))))
-                                            (____, Scope<Boolean> @:14667 op:13,dt:5,nt:8,next:14671,str:26068,d0:14668,d1:40128;
+                                            (____, BuiltinInvocation<Boolean> @:14667 op:13,dt:5,nt:8,next:14671,str:26068,d0:14668,d1:40128;
                                                 ("=", Expression<MethodOrOperator> @:14668 op:13,dt:2,nt:9,next:14669,str:505,d0:0,d1:0;
                                                     ("plummeting", VariableAccess<Boolean> @:14669 op:0,dt:5,nt:13,next:14670,str:25125,d0:3,d1:0;
                                                         (True, Expression<Boolean> @:14670 op:5,dt:5,nt:9,next:65535,str:26082,d0:65281,d1:65535;))))
-                                            (____, Scope<Boolean> @:14671 op:15,dt:5,nt:8,next:65535,str:26094,d0:14672,d1:40132;
+                                            (____, BuiltinInvocation<Boolean> @:14671 op:15,dt:5,nt:8,next:65535,str:26094,d0:14672,d1:40132;
                                                 (">", Expression<MethodOrOperator> @:14672 op:15,dt:2,nt:9,next:14673,str:13549,d0:0,d1:0;
                                                     ("cable_var", VariableAccess<Short> @:14673 op:0,dt:7,nt:13,next:14674,str:25136,d0:36,d1:0;
                                                         (1, Expression<Short> @:14674 op:7,dt:7,nt:9,next:65535,str:26107,d0:1,d1:65535;))))))))
-                            (____, Scope<Void> @:14675 op:2,dt:4,nt:8,next:14700,str:26127,d0:14676,d1:40136;
+                            (____, BuiltinInvocation<Void> @:14675 op:2,dt:4,nt:8,next:14700,str:26127,d0:14676,d1:40136;
                                 ("if", Expression<MethodOrOperator> @:14676 op:2,dt:2,nt:9,next:14677,str:665,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14677 op:5,dt:5,nt:8,next:14687,str:26137,d0:14678,d1:40138;
+                                    (____, BuiltinInvocation<Boolean> @:14677 op:5,dt:5,nt:8,next:14687,str:26137,d0:14678,d1:40138;
                                         ("and", Expression<MethodOrOperator> @:14678 op:5,dt:2,nt:9,next:14679,str:876,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:14679 op:13,dt:5,nt:8,next:14683,str:26148,d0:14680,d1:40140;
+                                            (____, BuiltinInvocation<Boolean> @:14679 op:13,dt:5,nt:8,next:14683,str:26148,d0:14680,d1:40140;
                                                 ("=", Expression<MethodOrOperator> @:14680 op:13,dt:2,nt:9,next:14681,str:505,d0:0,d1:0;
                                                     ("plummeting", VariableAccess<Boolean> @:14681 op:0,dt:5,nt:13,next:14682,str:25125,d0:3,d1:0;
                                                         (False, Expression<Boolean> @:14682 op:5,dt:5,nt:9,next:65535,str:26162,d0:65280,d1:65535;))))
-                                            (____, Scope<Boolean> @:14683 op:16,dt:5,nt:8,next:65535,str:26175,d0:14684,d1:40144;
+                                            (____, BuiltinInvocation<Boolean> @:14683 op:16,dt:5,nt:8,next:65535,str:26175,d0:14684,d1:40144;
                                                 ("<", Expression<MethodOrOperator> @:14684 op:16,dt:2,nt:9,next:14685,str:1056,d0:0,d1:0;
                                                     ("cable_var", VariableAccess<Short> @:14685 op:0,dt:7,nt:13,next:14686,str:25136,d0:36,d1:0;
                                                         (2, Expression<Short> @:14686 op:7,dt:7,nt:9,next:65535,str:26188,d0:2,d1:65535;))))))
-                                    (____, Scope<Void> @:14687 op:0,dt:4,nt:8,next:65535,str:26205,d0:14688,d1:40148;
+                                    (____, BuiltinInvocation<Void> @:14687 op:0,dt:4,nt:8,next:65535,str:26205,d0:14688,d1:40148;
                                         ("begin", Expression<MethodOrOperator> @:14688 op:0,dt:2,nt:9,next:14689,str:210,d0:0,d1:0;
-                                            (____, Scope<Void> @:14689 op:291,dt:4,nt:8,next:14693,str:26219,d0:14690,d1:40150;
+                                            (____, BuiltinInvocation<Void> @:14689 op:291,dt:4,nt:8,next:14693,str:26219,d0:14690,d1:40150;
                                                 ("ai_place", Expression<MethodOrOperator> @:14690 op:291,dt:2,nt:9,next:14691,str:11303,d0:0,d1:0;
                                                     ("cable_room_combatforms", Expression<AI> @:14691 op:19,dt:19,nt:9,next:14692,str:26372,d0:70,d1:0;
                                                         (1, Expression<Short> @:14692 op:7,dt:7,nt:9,next:65535,str:26252,d0:1,d1:65535;))))
-                                            (____, Scope<Void> @:14693 op:4,dt:4,nt:8,next:65535,str:26262,d0:14694,d1:40154;
+                                            (____, BuiltinInvocation<Void> @:14693 op:4,dt:4,nt:8,next:65535,str:26262,d0:14694,d1:40154;
                                                 ("set", Expression<MethodOrOperator> @:14694 op:4,dt:2,nt:9,next:14695,str:2644,d0:0,d1:0;
                                                     ("croom_flood_total", VariableAccess<Short> @:14695 op:65535,dt:7,nt:13,next:14696,str:25342,d0:33,d1:0;
-                                                        (____, Scope<Short> @:14696 op:7,dt:7,nt:8,next:65535,str:26285,d0:14697,d1:40157;
+                                                        (____, BuiltinInvocation<Short> @:14696 op:7,dt:7,nt:8,next:65535,str:26285,d0:14697,d1:40157;
                                                             ("+", Expression<MethodOrOperator> @:14697 op:7,dt:2,nt:9,next:14698,str:1192,d0:0,d1:0;
                                                                 ("croom_flood_total", VariableAccess<Float> @:14698 op:6,dt:6,nt:13,next:14699,str:25342,d0:33,d1:0;
                                                                     (1f, Expression<Float> @:14699 op:6,dt:6,nt:9,next:65535,str:26306,d0:0,d1:16256;)))))))))))
-                            (____, Scope<Boolean> @:14700 op:6,dt:5,nt:8,next:65535,str:26328,d0:14701,d1:40161;
+                            (____, BuiltinInvocation<Boolean> @:14700 op:6,dt:5,nt:8,next:65535,str:26328,d0:14701,d1:40161;
                                 ("or", Expression<MethodOrOperator> @:14701 op:6,dt:2,nt:9,next:14702,str:1053,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14702 op:13,dt:5,nt:8,next:14706,str:26337,d0:14703,d1:40163;
+                                    (____, BuiltinInvocation<Boolean> @:14702 op:13,dt:5,nt:8,next:14706,str:26337,d0:14703,d1:40163;
                                         ("=", Expression<MethodOrOperator> @:14703 op:13,dt:2,nt:9,next:14704,str:505,d0:0,d1:0;
                                             ("plummeting", VariableAccess<Boolean> @:14704 op:0,dt:5,nt:13,next:14705,str:25125,d0:3,d1:0;
                                                 (True, Expression<Boolean> @:14705 op:5,dt:5,nt:9,next:65535,str:26351,d0:65281,d1:65535;))))
-                                    (____, Scope<Boolean> @:14706 op:15,dt:5,nt:8,next:14710,str:26362,d0:14707,d1:40167;
+                                    (____, BuiltinInvocation<Boolean> @:14706 op:15,dt:5,nt:8,next:14710,str:26362,d0:14707,d1:40167;
                                         (">", Expression<MethodOrOperator> @:14707 op:15,dt:2,nt:9,next:14708,str:13549,d0:0,d1:0;
                                             ("cable_var", VariableAccess<Short> @:14708 op:0,dt:7,nt:13,next:14709,str:25136,d0:36,d1:0;
                                                 (1, Expression<Short> @:14709 op:7,dt:7,nt:9,next:65535,str:26375,d0:1,d1:65535;))))
-                                    (____, Scope<Boolean> @:14710 op:17,dt:5,nt:8,next:65535,str:26383,d0:14711,d1:40171;
+                                    (____, BuiltinInvocation<Boolean> @:14710 op:17,dt:5,nt:8,next:65535,str:26383,d0:14711,d1:40171;
                                         (">=", Expression<MethodOrOperator> @:14711 op:17,dt:2,nt:9,next:14712,str:880,d0:0,d1:0;
                                             ("croom_flood_total", VariableAccess<Short> @:14712 op:0,dt:7,nt:13,next:14713,str:25342,d0:33,d1:0;
                                                 ("croom_flood_desired", VariableAccess<Short> @:14713 op:7,dt:7,nt:13,next:65535,str:26350,d0:34,d1:0;))))))))))
-            (____, Scope<Void> @:14714 op:21,dt:4,nt:8,next:14726,str:26445,d0:14715,d1:40175;
+            (____, BuiltinInvocation<Void> @:14714 op:21,dt:4,nt:8,next:14726,str:26445,d0:14715,d1:40175;
                 ("sleep_until", Expression<MethodOrOperator> @:14715 op:21,dt:2,nt:9,next:14716,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14716 op:6,dt:5,nt:8,next:65535,str:26462,d0:14717,d1:40177;
+                    (____, BuiltinInvocation<Boolean> @:14716 op:6,dt:5,nt:8,next:65535,str:26462,d0:14717,d1:40177;
                         ("or", Expression<MethodOrOperator> @:14717 op:6,dt:2,nt:9,next:14718,str:1053,d0:0,d1:0;
-                            (____, Scope<Boolean> @:14718 op:15,dt:5,nt:8,next:14722,str:26470,d0:14719,d1:40179;
+                            (____, BuiltinInvocation<Boolean> @:14718 op:15,dt:5,nt:8,next:14722,str:26470,d0:14719,d1:40179;
                                 (">", Expression<MethodOrOperator> @:14719 op:15,dt:2,nt:9,next:14720,str:13549,d0:0,d1:0;
                                     ("cable_var", VariableAccess<Short> @:14720 op:0,dt:7,nt:13,next:14721,str:25136,d0:36,d1:0;
                                         (1, Expression<Short> @:14721 op:7,dt:7,nt:9,next:65535,str:26483,d0:1,d1:65535;))))
-                            (____, Scope<Boolean> @:14722 op:13,dt:5,nt:8,next:65535,str:26490,d0:14723,d1:40183;
+                            (____, BuiltinInvocation<Boolean> @:14722 op:13,dt:5,nt:8,next:65535,str:26490,d0:14723,d1:40183;
                                 ("=", Expression<MethodOrOperator> @:14723 op:13,dt:2,nt:9,next:14724,str:505,d0:0,d1:0;
                                     ("plummeting", VariableAccess<Boolean> @:14724 op:0,dt:5,nt:13,next:14725,str:25125,d0:3,d1:0;
                                         (True, Expression<Boolean> @:14725 op:5,dt:5,nt:9,next:65535,str:26504,d0:65281,d1:65535;))))))))
-            (____, Scope<Void> @:14726 op:2,dt:4,nt:8,next:14734,str:26521,d0:14727,d1:40187;
+            (____, BuiltinInvocation<Void> @:14726 op:2,dt:4,nt:8,next:14734,str:26521,d0:14727,d1:40187;
                 ("if", Expression<MethodOrOperator> @:14727 op:2,dt:2,nt:9,next:14728,str:665,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14728 op:13,dt:5,nt:8,next:14732,str:26525,d0:14729,d1:40189;
+                    (____, BuiltinInvocation<Boolean> @:14728 op:13,dt:5,nt:8,next:14732,str:26525,d0:14729,d1:40189;
                         ("=", Expression<MethodOrOperator> @:14729 op:13,dt:2,nt:9,next:14730,str:505,d0:0,d1:0;
                             ("plummeting", VariableAccess<Boolean> @:14730 op:0,dt:5,nt:13,next:14731,str:25125,d0:3,d1:0;
                                 (True, Expression<Boolean> @:14731 op:5,dt:5,nt:9,next:65535,str:26539,d0:65281,d1:65535;))))
-                    (____, Scope<Void> @:14732 op:20,dt:4,nt:8,next:65535,str:26548,d0:14733,d1:40193;
+                    (____, BuiltinInvocation<Void> @:14732 op:20,dt:4,nt:8,next:65535,str:26548,d0:14733,d1:40193;
                         ("sleep_forever", Expression<MethodOrOperator> @:14733 op:20,dt:2,nt:9,next:65535,str:9739,d0:0,d1:0;))))
-            (____, Scope<Void> @:14734 op:4,dt:4,nt:8,next:14738,str:26570,d0:14735,d1:40195;
+            (____, BuiltinInvocation<Void> @:14734 op:4,dt:4,nt:8,next:14738,str:26570,d0:14735,d1:40195;
                 ("set", Expression<MethodOrOperator> @:14735 op:4,dt:2,nt:9,next:14736,str:2644,d0:0,d1:0;
                     ("croom_flood_total", VariableAccess<Short> @:14736 op:65535,dt:7,nt:13,next:14737,str:25342,d0:33,d1:0;
                         (0, Expression<Short> @:14737 op:7,dt:7,nt:9,next:65535,str:26593,d0:0,d1:65535;))))
-            (____, Scope<Void> @:14738 op:2,dt:4,nt:8,next:14746,str:26598,d0:14739,d1:40199;
+            (____, BuiltinInvocation<Void> @:14738 op:2,dt:4,nt:8,next:14746,str:26598,d0:14739,d1:40199;
                 ("if", Expression<MethodOrOperator> @:14739 op:2,dt:2,nt:9,next:14740,str:665,d0:0,d1:0;
                     ("difficulty_legendary", ScriptInvocation<Boolean> @:14740 op:4,dt:5,nt:10,next:14742,str:26602,d0:14741,d1:40201;
                         ("difficulty_legendary", Expression<MethodOrOperator> @:14741 op:4,dt:2,nt:9,next:65535,str:16292,d0:0,d1:0;))
-                    (____, Scope<Void> @:14742 op:4,dt:4,nt:8,next:65535,str:26628,d0:14743,d1:40203;
+                    (____, BuiltinInvocation<Void> @:14742 op:4,dt:4,nt:8,next:65535,str:26628,d0:14743,d1:40203;
                         ("set", Expression<MethodOrOperator> @:14743 op:4,dt:2,nt:9,next:14744,str:2644,d0:0,d1:0;
                             ("croom_flood_desired", VariableAccess<Short> @:14744 op:65535,dt:7,nt:13,next:14745,str:26350,d0:34,d1:0;
                                 (14, Expression<Short> @:14745 op:7,dt:7,nt:9,next:65535,str:26653,d0:14,d1:65535;))))))
-            (____, Scope<Void> @:14746 op:2,dt:4,nt:8,next:14754,str:26663,d0:14747,d1:40207;
+            (____, BuiltinInvocation<Void> @:14746 op:2,dt:4,nt:8,next:14754,str:26663,d0:14747,d1:40207;
                 ("if", Expression<MethodOrOperator> @:14747 op:2,dt:2,nt:9,next:14748,str:665,d0:0,d1:0;
                     ("difficulty_heroic", ScriptInvocation<Boolean> @:14748 op:5,dt:5,nt:10,next:14750,str:26667,d0:14749,d1:40209;
                         ("difficulty_heroic", Expression<MethodOrOperator> @:14749 op:5,dt:2,nt:9,next:65535,str:16330,d0:0,d1:0;))
-                    (____, Scope<Void> @:14750 op:4,dt:4,nt:8,next:65535,str:26690,d0:14751,d1:40211;
+                    (____, BuiltinInvocation<Void> @:14750 op:4,dt:4,nt:8,next:65535,str:26690,d0:14751,d1:40211;
                         ("set", Expression<MethodOrOperator> @:14751 op:4,dt:2,nt:9,next:14752,str:2644,d0:0,d1:0;
                             ("croom_flood_desired", VariableAccess<Short> @:14752 op:65535,dt:7,nt:13,next:14753,str:26350,d0:34,d1:0;
                                 (12, Expression<Short> @:14753 op:7,dt:7,nt:9,next:65535,str:26715,d0:12,d1:65535;))))))
-            (____, Scope<Void> @:14754 op:2,dt:4,nt:8,next:14762,str:26725,d0:14755,d1:40215;
+            (____, BuiltinInvocation<Void> @:14754 op:2,dt:4,nt:8,next:14762,str:26725,d0:14755,d1:40215;
                 ("if", Expression<MethodOrOperator> @:14755 op:2,dt:2,nt:9,next:14756,str:665,d0:0,d1:0;
                     ("difficulty_normal", ScriptInvocation<Boolean> @:14756 op:6,dt:5,nt:10,next:14758,str:26729,d0:14757,d1:40217;
                         ("difficulty_normal", Expression<MethodOrOperator> @:14757 op:6,dt:2,nt:9,next:65535,str:26395,d0:0,d1:0;))
-                    (____, Scope<Void> @:14758 op:4,dt:4,nt:8,next:65535,str:26752,d0:14759,d1:40219;
+                    (____, BuiltinInvocation<Void> @:14758 op:4,dt:4,nt:8,next:65535,str:26752,d0:14759,d1:40219;
                         ("set", Expression<MethodOrOperator> @:14759 op:4,dt:2,nt:9,next:14760,str:2644,d0:0,d1:0;
                             ("croom_flood_desired", VariableAccess<Short> @:14760 op:65535,dt:7,nt:13,next:14761,str:26350,d0:34,d1:0;
                                 (10, Expression<Short> @:14761 op:7,dt:7,nt:9,next:65535,str:26777,d0:10,d1:65535;))))))
-            (____, Scope<Void> @:14762 op:21,dt:4,nt:8,next:65535,str:26787,d0:14763,d1:40223;
+            (____, BuiltinInvocation<Void> @:14762 op:21,dt:4,nt:8,next:65535,str:26787,d0:14763,d1:40223;
                 ("sleep_until", Expression<MethodOrOperator> @:14763 op:21,dt:2,nt:9,next:14764,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14764 op:0,dt:5,nt:8,next:65535,str:26803,d0:14765,d1:40225;
+                    (____, BuiltinInvocation<Boolean> @:14764 op:0,dt:5,nt:8,next:65535,str:26803,d0:14765,d1:40225;
                         ("begin", Expression<MethodOrOperator> @:14765 op:0,dt:2,nt:9,next:14766,str:210,d0:0,d1:0;
-                            (____, Scope<Void> @:14766 op:21,dt:4,nt:8,next:14793,str:26814,d0:14767,d1:40227;
+                            (____, BuiltinInvocation<Void> @:14766 op:21,dt:4,nt:8,next:14793,str:26814,d0:14767,d1:40227;
                                 ("sleep_until", Expression<MethodOrOperator> @:14767 op:21,dt:2,nt:9,next:14768,str:440,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14768 op:6,dt:5,nt:8,next:65535,str:26833,d0:14769,d1:40229;
+                                    (____, BuiltinInvocation<Boolean> @:14768 op:6,dt:5,nt:8,next:65535,str:26833,d0:14769,d1:40229;
                                         ("or", Expression<MethodOrOperator> @:14769 op:6,dt:2,nt:9,next:14770,str:1053,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:14770 op:5,dt:5,nt:8,next:14785,str:26843,d0:14771,d1:40231;
+                                            (____, BuiltinInvocation<Boolean> @:14770 op:5,dt:5,nt:8,next:14785,str:26843,d0:14771,d1:40231;
                                                 ("and", Expression<MethodOrOperator> @:14771 op:5,dt:2,nt:9,next:14772,str:876,d0:0,d1:0;
-                                                    (____, Scope<Boolean> @:14772 op:16,dt:5,nt:8,next:14776,str:26855,d0:14773,d1:40233;
+                                                    (____, BuiltinInvocation<Boolean> @:14772 op:16,dt:5,nt:8,next:14776,str:26855,d0:14773,d1:40233;
                                                         ("<", Expression<MethodOrOperator> @:14773 op:16,dt:2,nt:9,next:14774,str:1056,d0:0,d1:0;
                                                             ("croom_flood_total", VariableAccess<Short> @:14774 op:0,dt:7,nt:13,next:14775,str:25342,d0:33,d1:0;
                                                                 ("croom_flood_desired", VariableAccess<Short> @:14775 op:7,dt:7,nt:13,next:65535,str:26350,d0:34,d1:0;))))
-                                                    (____, Scope<Boolean> @:14776 op:16,dt:5,nt:8,next:65535,str:26904,d0:14777,d1:40237;
+                                                    (____, BuiltinInvocation<Boolean> @:14776 op:16,dt:5,nt:8,next:65535,str:26904,d0:14777,d1:40237;
                                                         ("<", Expression<MethodOrOperator> @:14777 op:16,dt:2,nt:9,next:14778,str:1056,d0:0,d1:0;
-                                                            (____, Scope<Short> @:14778 op:331,dt:7,nt:8,next:14781,str:26907,d0:14779,d1:40239;
+                                                            (____, BuiltinInvocation<Short> @:14778 op:331,dt:7,nt:8,next:14781,str:26907,d0:14779,d1:40239;
                                                                 ("ai_nonswarm_count", Expression<MethodOrOperator> @:14779 op:331,dt:2,nt:9,next:14780,str:13551,d0:0,d1:0;
                                                                     ("cable_flood", Expression<AI> @:14780 op:19,dt:19,nt:9,next:65535,str:25360,d0:21,d1:16384;)))
-                                                            (____, Scope<Short> @:14781 op:10,dt:7,nt:8,next:65535,str:26939,d0:14782,d1:40242;
+                                                            (____, BuiltinInvocation<Short> @:14781 op:10,dt:7,nt:8,next:65535,str:26939,d0:14782,d1:40242;
                                                                 ("/", Expression<MethodOrOperator> @:14782 op:10,dt:2,nt:9,next:14783,str:26370,d0:0,d1:0;
                                                                     ("croom_flood_desired", VariableAccess<Float> @:14783 op:6,dt:6,nt:13,next:14784,str:26350,d0:34,d1:0;
                                                                         (2f, Expression<Float> @:14784 op:6,dt:6,nt:9,next:65535,str:26962,d0:0,d1:16384;))))))))
-                                            (____, Scope<Boolean> @:14785 op:13,dt:5,nt:8,next:14789,str:26980,d0:14786,d1:40246;
+                                            (____, BuiltinInvocation<Boolean> @:14785 op:13,dt:5,nt:8,next:14789,str:26980,d0:14786,d1:40246;
                                                 ("=", Expression<MethodOrOperator> @:14786 op:13,dt:2,nt:9,next:14787,str:505,d0:0,d1:0;
                                                     ("plummeting", VariableAccess<Boolean> @:14787 op:0,dt:5,nt:13,next:14788,str:25125,d0:3,d1:0;
                                                         (True, Expression<Boolean> @:14788 op:5,dt:5,nt:9,next:65535,str:26994,d0:65281,d1:65535;))))
-                                            (____, Scope<Boolean> @:14789 op:15,dt:5,nt:8,next:65535,str:27006,d0:14790,d1:40250;
+                                            (____, BuiltinInvocation<Boolean> @:14789 op:15,dt:5,nt:8,next:65535,str:27006,d0:14790,d1:40250;
                                                 (">", Expression<MethodOrOperator> @:14790 op:15,dt:2,nt:9,next:14791,str:13549,d0:0,d1:0;
                                                     ("cable_var", VariableAccess<Short> @:14791 op:0,dt:7,nt:13,next:14792,str:25136,d0:36,d1:0;
                                                         (2, Expression<Short> @:14792 op:7,dt:7,nt:9,next:65535,str:27019,d0:2,d1:65535;))))))))
-                            (____, Scope<Void> @:14793 op:2,dt:4,nt:8,next:14818,str:27039,d0:14794,d1:40254;
+                            (____, BuiltinInvocation<Void> @:14793 op:2,dt:4,nt:8,next:14818,str:27039,d0:14794,d1:40254;
                                 ("if", Expression<MethodOrOperator> @:14794 op:2,dt:2,nt:9,next:14795,str:665,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14795 op:5,dt:5,nt:8,next:14805,str:27049,d0:14796,d1:40256;
+                                    (____, BuiltinInvocation<Boolean> @:14795 op:5,dt:5,nt:8,next:14805,str:27049,d0:14796,d1:40256;
                                         ("and", Expression<MethodOrOperator> @:14796 op:5,dt:2,nt:9,next:14797,str:876,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:14797 op:13,dt:5,nt:8,next:14801,str:27060,d0:14798,d1:40258;
+                                            (____, BuiltinInvocation<Boolean> @:14797 op:13,dt:5,nt:8,next:14801,str:27060,d0:14798,d1:40258;
                                                 ("=", Expression<MethodOrOperator> @:14798 op:13,dt:2,nt:9,next:14799,str:505,d0:0,d1:0;
                                                     ("plummeting", VariableAccess<Boolean> @:14799 op:0,dt:5,nt:13,next:14800,str:25125,d0:3,d1:0;
                                                         (False, Expression<Boolean> @:14800 op:5,dt:5,nt:9,next:65535,str:27074,d0:65280,d1:65535;))))
-                                            (____, Scope<Boolean> @:14801 op:16,dt:5,nt:8,next:65535,str:27087,d0:14802,d1:40262;
+                                            (____, BuiltinInvocation<Boolean> @:14801 op:16,dt:5,nt:8,next:65535,str:27087,d0:14802,d1:40262;
                                                 ("<", Expression<MethodOrOperator> @:14802 op:16,dt:2,nt:9,next:14803,str:1056,d0:0,d1:0;
                                                     ("cable_var", VariableAccess<Short> @:14803 op:0,dt:7,nt:13,next:14804,str:25136,d0:36,d1:0;
                                                         (3, Expression<Short> @:14804 op:7,dt:7,nt:9,next:65535,str:27100,d0:3,d1:65535;))))))
-                                    (____, Scope<Void> @:14805 op:0,dt:4,nt:8,next:65535,str:27117,d0:14806,d1:40266;
+                                    (____, BuiltinInvocation<Void> @:14805 op:0,dt:4,nt:8,next:65535,str:27117,d0:14806,d1:40266;
                                         ("begin", Expression<MethodOrOperator> @:14806 op:0,dt:2,nt:9,next:14807,str:210,d0:0,d1:0;
-                                            (____, Scope<Void> @:14807 op:291,dt:4,nt:8,next:14811,str:27131,d0:14808,d1:40268;
+                                            (____, BuiltinInvocation<Void> @:14807 op:291,dt:4,nt:8,next:14811,str:27131,d0:14808,d1:40268;
                                                 ("ai_place", Expression<MethodOrOperator> @:14808 op:291,dt:2,nt:9,next:14809,str:11303,d0:0,d1:0;
                                                     ("cable_room_combatforms", Expression<AI> @:14809 op:19,dt:19,nt:9,next:14810,str:26372,d0:70,d1:0;
                                                         (1, Expression<Short> @:14810 op:7,dt:7,nt:9,next:65535,str:27164,d0:1,d1:65535;))))
-                                            (____, Scope<Void> @:14811 op:4,dt:4,nt:8,next:65535,str:27174,d0:14812,d1:40272;
+                                            (____, BuiltinInvocation<Void> @:14811 op:4,dt:4,nt:8,next:65535,str:27174,d0:14812,d1:40272;
                                                 ("set", Expression<MethodOrOperator> @:14812 op:4,dt:2,nt:9,next:14813,str:2644,d0:0,d1:0;
                                                     ("croom_flood_total", VariableAccess<Short> @:14813 op:65535,dt:7,nt:13,next:14814,str:25342,d0:33,d1:0;
-                                                        (____, Scope<Short> @:14814 op:7,dt:7,nt:8,next:65535,str:27197,d0:14815,d1:40275;
+                                                        (____, BuiltinInvocation<Short> @:14814 op:7,dt:7,nt:8,next:65535,str:27197,d0:14815,d1:40275;
                                                             ("+", Expression<MethodOrOperator> @:14815 op:7,dt:2,nt:9,next:14816,str:1192,d0:0,d1:0;
                                                                 ("croom_flood_total", VariableAccess<Float> @:14816 op:6,dt:6,nt:13,next:14817,str:25342,d0:33,d1:0;
                                                                     (1f, Expression<Float> @:14817 op:6,dt:6,nt:9,next:65535,str:27218,d0:0,d1:16256;)))))))))))
-                            (____, Scope<Boolean> @:14818 op:6,dt:5,nt:8,next:65535,str:27240,d0:14819,d1:40279;
+                            (____, BuiltinInvocation<Boolean> @:14818 op:6,dt:5,nt:8,next:65535,str:27240,d0:14819,d1:40279;
                                 ("or", Expression<MethodOrOperator> @:14819 op:6,dt:2,nt:9,next:14820,str:1053,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14820 op:13,dt:5,nt:8,next:14824,str:27249,d0:14821,d1:40281;
+                                    (____, BuiltinInvocation<Boolean> @:14820 op:13,dt:5,nt:8,next:14824,str:27249,d0:14821,d1:40281;
                                         ("=", Expression<MethodOrOperator> @:14821 op:13,dt:2,nt:9,next:14822,str:505,d0:0,d1:0;
                                             ("plummeting", VariableAccess<Boolean> @:14822 op:0,dt:5,nt:13,next:14823,str:25125,d0:3,d1:0;
                                                 (True, Expression<Boolean> @:14823 op:5,dt:5,nt:9,next:65535,str:27263,d0:65281,d1:65535;))))
-                                    (____, Scope<Boolean> @:14824 op:15,dt:5,nt:8,next:14828,str:27274,d0:14825,d1:40285;
+                                    (____, BuiltinInvocation<Boolean> @:14824 op:15,dt:5,nt:8,next:14828,str:27274,d0:14825,d1:40285;
                                         (">", Expression<MethodOrOperator> @:14825 op:15,dt:2,nt:9,next:14826,str:13549,d0:0,d1:0;
                                             ("cable_var", VariableAccess<Short> @:14826 op:0,dt:7,nt:13,next:14827,str:25136,d0:36,d1:0;
                                                 (2, Expression<Short> @:14827 op:7,dt:7,nt:9,next:65535,str:27287,d0:2,d1:65535;))))
-                                    (____, Scope<Boolean> @:14828 op:17,dt:5,nt:8,next:65535,str:27295,d0:14829,d1:40289;
+                                    (____, BuiltinInvocation<Boolean> @:14828 op:17,dt:5,nt:8,next:65535,str:27295,d0:14829,d1:40289;
                                         (">=", Expression<MethodOrOperator> @:14829 op:17,dt:2,nt:9,next:14830,str:880,d0:0,d1:0;
                                             ("croom_flood_total", VariableAccess<Short> @:14830 op:0,dt:7,nt:13,next:14831,str:25342,d0:33,d1:0;
                                                 ("croom_flood_desired", VariableAccess<Short> @:14831 op:7,dt:7,nt:13,next:65535,str:26350,d0:34,d1:0;)))))))))))))

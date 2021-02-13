@@ -1,55 +1,55 @@
 
 ("x05_0010_mir", MethodDecl<Void> @:45 op:0,dt:0,nt:65535,next:1164,str:2586,d0:0,d1:0;
-    (____, Scope<Void> @:1164 op:0,dt:4,nt:8,next:65535,str:13173,d0:1165,d1:59392;
+    (____, BuiltinInvocation<Void> @:1164 op:0,dt:4,nt:8,next:65535,str:13173,d0:1165,d1:59392;
         ("begin", Expression<MethodOrOperator> @:1165 op:0,dt:2,nt:9,next:1113,str:54,d0:0,d1:0;
-            (____, Scope<Void> @:1113 op:19,dt:4,nt:8,next:1116,str:13204,d0:1114,d1:59341;
+            (____, BuiltinInvocation<Void> @:1113 op:19,dt:4,nt:8,next:1116,str:13204,d0:1114,d1:59341;
                 ("sleep", Expression<MethodOrOperator> @:1114 op:19,dt:2,nt:9,next:1115,str:133,d0:0,d1:0;
                     (0, Expression<Short> @:1115 op:7,dt:7,nt:9,next:65535,str:13211,d0:0,d1:65535;)))
-            (____, Scope<Void> @:1116 op:596,dt:4,nt:8,next:1121,str:13216,d0:1117,d1:59344;
+            (____, BuiltinInvocation<Void> @:1116 op:596,dt:4,nt:8,next:1121,str:13216,d0:1117,d1:59344;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:1117 op:596,dt:2,nt:9,next:1118,str:1321,d0:0,d1:0;
                     ("sound\dialog\levels\05_deltatemple\cinematics\x05_0010_mir", Expression<Sound> @:1118 op:32,dt:32,nt:9,next:1119,str:2508,d0:859,d1:58577;
                         (4294901831, Expression<Entity> @:1119 op:56,dt:50,nt:9,next:1120,str:1740,d0:71,d1:65535;
                             (1f, Expression<Float> @:1120 op:6,dt:6,nt:9,next:65535,str:13304,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:1121 op:562,dt:4,nt:8,next:1125,str:13309,d0:1122,d1:59349;
+            (____, BuiltinInvocation<Void> @:1121 op:562,dt:4,nt:8,next:1125,str:13309,d0:1122,d1:59349;
                 ("cinematic_subtitle", Expression<MethodOrOperator> @:1122 op:562,dt:2,nt:9,next:1123,str:2567,d0:0,d1:0;
                     ("x05_0010_mir", Expression<StringId> @:1123 op:11,dt:11,nt:9,next:1124,str:2586,d0:4004,d1:3072;
                         (1f, Expression<Float> @:1124 op:6,dt:6,nt:9,next:65535,str:13342,d0:0,d1:16256;))))
-            (____, Scope<Void> @:1125 op:220,dt:4,nt:8,next:1131,str:13350,d0:1126,d1:59353;
+            (____, BuiltinInvocation<Void> @:1125 op:220,dt:4,nt:8,next:1131,str:13350,d0:1126,d1:59353;
                 ("unit_set_emotional_state", Expression<MethodOrOperator> @:1126 op:220,dt:2,nt:9,next:1127,str:2599,d0:0,d1:0;
                     ("miranda", Expression<Unit> @:1127 op:57,dt:51,nt:9,next:1128,str:1740,d0:71,d1:65535;
                         ("shocked", Expression<StringId> @:1128 op:11,dt:11,nt:9,next:1129,str:2624,d0:426,d1:1792;
                             (0.5f, Expression<Float> @:1129 op:6,dt:6,nt:9,next:1130,str:13392,d0:0,d1:16128;
                                 (15, Expression<Short> @:1130 op:7,dt:7,nt:9,next:65535,str:13395,d0:15,d1:65535;))))))
-            (____, Scope<Void> @:1131 op:27,dt:4,nt:8,next:1134,str:13401,d0:1132,d1:59359;
+            (____, BuiltinInvocation<Void> @:1131 op:27,dt:4,nt:8,next:1134,str:13401,d0:1132,d1:59359;
                 ("print", Expression<MethodOrOperator> @:1132 op:27,dt:2,nt:9,next:1133,str:139,d0:0,d1:0;
                     ("miranda - shocked .5 15", Expression<String> @:1133 op:9,dt:9,nt:9,next:65535,str:2632,d0:2632,d1:0;)))
-            (____, Scope<Void> @:1134 op:220,dt:4,nt:8,next:1140,str:13440,d0:1135,d1:59362;
+            (____, BuiltinInvocation<Void> @:1134 op:220,dt:4,nt:8,next:1140,str:13440,d0:1135,d1:59362;
                 ("unit_set_emotional_state", Expression<MethodOrOperator> @:1135 op:220,dt:2,nt:9,next:1136,str:2599,d0:0,d1:0;
                     ("nav_officer", Expression<Unit> @:1136 op:57,dt:51,nt:9,next:1137,str:2656,d0:73,d1:65535;
                         ("annoyed", Expression<StringId> @:1137 op:11,dt:11,nt:9,next:1138,str:2668,d0:429,d1:1792;
                             (0.25f, Expression<Float> @:1138 op:6,dt:6,nt:9,next:1139,str:13486,d0:0,d1:16000;
                                 (0, Expression<Short> @:1139 op:7,dt:7,nt:9,next:65535,str:13490,d0:0,d1:65535;))))))
-            (____, Scope<Void> @:1140 op:27,dt:4,nt:8,next:1143,str:13495,d0:1141,d1:59368;
+            (____, BuiltinInvocation<Void> @:1140 op:27,dt:4,nt:8,next:1143,str:13495,d0:1141,d1:59368;
                 ("print", Expression<MethodOrOperator> @:1141 op:27,dt:2,nt:9,next:1142,str:139,d0:0,d1:0;
                     ("nav_officer - pain .5 0", Expression<String> @:1142 op:9,dt:9,nt:9,next:65535,str:2676,d0:2676,d1:0;)))
-            (____, Scope<Void> @:1143 op:220,dt:4,nt:8,next:1149,str:13534,d0:1144,d1:59371;
+            (____, BuiltinInvocation<Void> @:1143 op:220,dt:4,nt:8,next:1149,str:13534,d0:1144,d1:59371;
                 ("unit_set_emotional_state", Expression<MethodOrOperator> @:1144 op:220,dt:2,nt:9,next:1145,str:2599,d0:0,d1:0;
                     ("weap_officer", Expression<Unit> @:1145 op:57,dt:51,nt:9,next:1146,str:2700,d0:74,d1:65535;
                         ("annoyed", Expression<StringId> @:1146 op:11,dt:11,nt:9,next:1147,str:2668,d0:429,d1:1792;
                             (0.5f, Expression<Float> @:1147 op:6,dt:6,nt:9,next:1148,str:13581,d0:0,d1:16128;
                                 (0, Expression<Short> @:1148 op:7,dt:7,nt:9,next:65535,str:13584,d0:0,d1:65535;))))))
-            (____, Scope<Void> @:1149 op:27,dt:4,nt:8,next:1152,str:13589,d0:1150,d1:59377;
+            (____, BuiltinInvocation<Void> @:1149 op:27,dt:4,nt:8,next:1152,str:13589,d0:1150,d1:59377;
                 ("print", Expression<MethodOrOperator> @:1150 op:27,dt:2,nt:9,next:1151,str:139,d0:0,d1:0;
                     ("nav_officer - annoyed .5 0", Expression<String> @:1151 op:9,dt:9,nt:9,next:65535,str:2713,d0:2713,d1:0;)))
-            (____, Scope<Void> @:1152 op:19,dt:4,nt:8,next:1155,str:13631,d0:1153,d1:59380;
+            (____, BuiltinInvocation<Void> @:1152 op:19,dt:4,nt:8,next:1155,str:13631,d0:1153,d1:59380;
                 ("sleep", Expression<MethodOrOperator> @:1153 op:19,dt:2,nt:9,next:1154,str:133,d0:0,d1:0;
                     (153, Expression<Short> @:1154 op:7,dt:7,nt:9,next:65535,str:13638,d0:153,d1:65535;)))
-            (____, Scope<Void> @:1155 op:220,dt:4,nt:8,next:1161,str:13648,d0:1156,d1:59383;
+            (____, BuiltinInvocation<Void> @:1155 op:220,dt:4,nt:8,next:1161,str:13648,d0:1156,d1:59383;
                 ("unit_set_emotional_state", Expression<MethodOrOperator> @:1156 op:220,dt:2,nt:9,next:1157,str:2599,d0:0,d1:0;
                     ("miranda", Expression<Unit> @:1157 op:57,dt:51,nt:9,next:1158,str:1740,d0:71,d1:65535;
                         ("pensive", Expression<StringId> @:1158 op:11,dt:11,nt:9,next:1159,str:2740,d0:431,d1:1792;
                             (0.5f, Expression<Float> @:1159 op:6,dt:6,nt:9,next:1160,str:13690,d0:0,d1:16128;
                                 (30, Expression<Short> @:1160 op:7,dt:7,nt:9,next:65535,str:13693,d0:30,d1:65535;))))))
-            (____, Scope<Void> @:1161 op:27,dt:4,nt:8,next:65535,str:13699,d0:1162,d1:59389;
+            (____, BuiltinInvocation<Void> @:1161 op:27,dt:4,nt:8,next:65535,str:13699,d0:1162,d1:59389;
                 ("print", Expression<MethodOrOperator> @:1162 op:27,dt:2,nt:9,next:1163,str:139,d0:0,d1:0;
                     ("miranda - pensive .25 30", Expression<String> @:1163 op:9,dt:9,nt:9,next:65535,str:2748,d0:2748,d1:0;))))))

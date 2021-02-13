@@ -1,22 +1,22 @@
 
 ("ai_qz_ini_exit_turrets", MethodDecl<Void> @:347 op:0,dt:0,nt:65535,next:17159,str:30976,d0:0,d1:0;
-    (____, Scope<Void> @:17159 op:0,dt:4,nt:8,next:65535,str:37212,d0:17160,d1:42620;
+    (____, BuiltinInvocation<Void> @:17159 op:0,dt:4,nt:8,next:65535,str:37212,d0:17160,d1:42620;
         ("begin", Expression<MethodOrOperator> @:17160 op:0,dt:2,nt:9,next:17141,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:17141 op:21,dt:4,nt:8,next:17156,str:37253,d0:17142,d1:42602;
+            (____, BuiltinInvocation<Void> @:17141 op:21,dt:4,nt:8,next:17156,str:37253,d0:17142,d1:42602;
                 ("sleep_until", Expression<MethodOrOperator> @:17142 op:21,dt:2,nt:9,next:17143,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:17143 op:6,dt:5,nt:8,next:65535,str:37266,d0:17144,d1:42604;
+                    (____, BuiltinInvocation<Boolean> @:17143 op:6,dt:5,nt:8,next:65535,str:37266,d0:17144,d1:42604;
                         ("or", Expression<MethodOrOperator> @:17144 op:6,dt:2,nt:9,next:17145,str:844,d0:0,d1:0;
-                            (____, Scope<Boolean> @:17145 op:18,dt:5,nt:8,next:17151,str:37270,d0:17146,d1:42606;
+                            (____, BuiltinInvocation<Boolean> @:17145 op:18,dt:5,nt:8,next:17151,str:37270,d0:17146,d1:42606;
                                 ("<=", Expression<MethodOrOperator> @:17146 op:18,dt:2,nt:9,next:17147,str:16255,d0:0,d1:0;
-                                    (____, Scope<Short> @:17147 op:327,dt:7,nt:8,next:17150,str:37274,d0:17148,d1:42608;
+                                    (____, BuiltinInvocation<Short> @:17147 op:327,dt:7,nt:8,next:17150,str:37274,d0:17148,d1:42608;
                                         ("ai_living_count", Expression<MethodOrOperator> @:17148 op:327,dt:2,nt:9,next:17149,str:18161,d0:0,d1:0;
                                             ("qz_ini_flood", Expression<AI> @:17149 op:19,dt:19,nt:9,next:65535,str:26553,d0:24,d1:16384;)))
                                     (1, Expression<Short> @:17150 op:7,dt:7,nt:9,next:65535,str:37305,d0:1,d1:65535;)))
-                            (____, Scope<Boolean> @:17151 op:33,dt:5,nt:8,next:65535,str:37308,d0:17152,d1:42612;
+                            (____, BuiltinInvocation<Boolean> @:17151 op:33,dt:5,nt:8,next:65535,str:37308,d0:17152,d1:42612;
                                 ("volume_test_objects", Expression<MethodOrOperator> @:17152 op:33,dt:2,nt:9,next:17153,str:11664,d0:0,d1:0;
                                     ("tv_cov_defense", Expression<Trigger> @:17153 op:13,dt:13,nt:9,next:17154,str:26663,d0:13,d1:0;
-                                        (____, Scope<List> @:17154 op:28,dt:31,nt:8,next:65535,str:37344,d0:17155,d1:42615;
+                                        (____, BuiltinInvocation<List> @:17154 op:28,dt:31,nt:8,next:65535,str:37344,d0:17155,d1:42615;
                                             ("players", Expression<MethodOrOperator> @:17155 op:28,dt:2,nt:9,next:65535,str:21,d0:0,d1:0;)))))))))
-            (____, Scope<Void> @:17156 op:350,dt:4,nt:8,next:65535,str:37359,d0:17157,d1:42617;
+            (____, BuiltinInvocation<Void> @:17156 op:350,dt:4,nt:8,next:65535,str:37359,d0:17157,d1:42617;
                 ("ai_vehicle_exit", Expression<MethodOrOperator> @:17157 op:350,dt:2,nt:9,next:17158,str:14865,d0:0,d1:0;
                     ("qz_ini_ins_pods", Expression<AI> @:17158 op:19,dt:19,nt:9,next:65535,str:14555,d0:89,d1:0;))))))

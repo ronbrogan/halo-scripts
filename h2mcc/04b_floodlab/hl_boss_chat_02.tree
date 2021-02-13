@@ -1,60 +1,60 @@
 
 ("hl_boss_chat_02", MethodDecl<Void> @:330 op:0,dt:0,nt:65535,next:29289,str:38269,d0:0,d1:0;
-    (____, Scope<Void> @:29289 op:0,dt:4,nt:8,next:65535,str:16114,d0:29290,d1:54750;
+    (____, BuiltinInvocation<Void> @:29289 op:0,dt:4,nt:8,next:65535,str:16114,d0:29290,d1:54750;
         ("begin", Expression<MethodOrOperator> @:29290 op:0,dt:2,nt:9,next:29233,str:210,d0:0,d1:0;
-            (____, Scope<Void> @:29233 op:4,dt:4,nt:8,next:29237,str:16155,d0:29234,d1:54694;
+            (____, BuiltinInvocation<Void> @:29233 op:4,dt:4,nt:8,next:29237,str:16155,d0:29234,d1:54694;
                 ("set", Expression<MethodOrOperator> @:29234 op:4,dt:2,nt:9,next:29235,str:2644,d0:0,d1:0;
                     ("boss_done_talking", VariableAccess<Boolean> @:29235 op:65535,dt:5,nt:13,next:29236,str:35609,d0:45,d1:0;
                         (False, Expression<Boolean> @:29236 op:5,dt:5,nt:9,next:65535,str:16178,d0:65280,d1:65535;))))
-            (____, Scope<Void> @:29237 op:21,dt:4,nt:8,next:29243,str:16187,d0:29238,d1:54698;
+            (____, BuiltinInvocation<Void> @:29237 op:21,dt:4,nt:8,next:29243,str:16187,d0:29238,d1:54698;
                 ("sleep_until", Expression<MethodOrOperator> @:29238 op:21,dt:2,nt:9,next:29239,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:29239 op:13,dt:5,nt:8,next:65535,str:16200,d0:29240,d1:54700;
+                    (____, BuiltinInvocation<Boolean> @:29239 op:13,dt:5,nt:8,next:65535,str:16200,d0:29240,d1:54700;
                         ("=", Expression<MethodOrOperator> @:29240 op:13,dt:2,nt:9,next:29241,str:505,d0:0,d1:0;
                             ("monitor_done_talking", VariableAccess<Boolean> @:29241 op:0,dt:5,nt:13,next:29242,str:35627,d0:43,d1:0;
                                 (True, Expression<Boolean> @:29242 op:5,dt:5,nt:9,next:65535,str:16224,d0:65281,d1:65535;))))))
-            (____, Scope<Void> @:29243 op:446,dt:4,nt:8,next:29246,str:16233,d0:29244,d1:54704;
+            (____, BuiltinInvocation<Void> @:29243 op:446,dt:4,nt:8,next:29246,str:16233,d0:29244,d1:54704;
                 ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:29244 op:446,dt:2,nt:9,next:29245,str:35648,d0:0,d1:0;
                     (True, Expression<Boolean> @:29245 op:5,dt:5,nt:9,next:65535,str:16262,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:29246 op:19,dt:4,nt:8,next:29249,str:16270,d0:29247,d1:54707;
+            (____, BuiltinInvocation<Void> @:29246 op:19,dt:4,nt:8,next:29249,str:16270,d0:29247,d1:54707;
                 ("sleep", Expression<MethodOrOperator> @:29247 op:19,dt:2,nt:9,next:29248,str:289,d0:0,d1:0;
                     (60, Expression<Short> @:29248 op:7,dt:7,nt:9,next:65535,str:16277,d0:60,d1:65535;)))
-            (____, Scope<Void> @:29249 op:27,dt:4,nt:8,next:29252,str:16283,d0:29250,d1:54710;
+            (____, BuiltinInvocation<Void> @:29249 op:27,dt:4,nt:8,next:29252,str:16283,d0:29250,d1:54710;
                 ("print", Expression<MethodOrOperator> @:29250 op:27,dt:2,nt:9,next:29251,str:295,d0:0,d1:0;
                     ("heretic leader: 'look around you, arbiter�'", Expression<String> @:29251 op:9,dt:9,nt:9,next:65535,str:35870,d0:35870,d1:0;)))
-            (____, Scope<Void> @:29252 op:418,dt:4,nt:8,next:29255,str:16339,d0:29253,d1:54713;
+            (____, BuiltinInvocation<Void> @:29252 op:418,dt:4,nt:8,next:29255,str:16339,d0:29253,d1:54713;
                 ("cs_play_line", Expression<MethodOrOperator> @:29253 op:418,dt:2,nt:9,next:29254,str:11547,d0:0,d1:0;
                     ("0830", Expression<StringId> @:29254 op:11,dt:11,nt:9,next:65535,str:35914,d0:12288,d1:1024;)))
-            (____, Scope<Void> @:29255 op:19,dt:4,nt:8,next:29258,str:16361,d0:29256,d1:54716;
+            (____, BuiltinInvocation<Void> @:29255 op:19,dt:4,nt:8,next:29258,str:16361,d0:29256,d1:54716;
                 ("sleep", Expression<MethodOrOperator> @:29256 op:19,dt:2,nt:9,next:29257,str:289,d0:0,d1:0;
                     (15, Expression<Short> @:29257 op:7,dt:7,nt:9,next:65535,str:16368,d0:15,d1:65535;)))
-            (____, Scope<Void> @:29258 op:27,dt:4,nt:8,next:29261,str:16374,d0:29259,d1:54719;
+            (____, BuiltinInvocation<Void> @:29258 op:27,dt:4,nt:8,next:29261,str:16374,d0:29259,d1:54719;
                 ("print", Expression<MethodOrOperator> @:29259 op:27,dt:2,nt:9,next:29260,str:295,d0:0,d1:0;
                     ("heretic leader: 'this facility, and dozens like it, devoted to the study of the parasite!'", Expression<String> @:29260 op:9,dt:9,nt:9,next:65535,str:35919,d0:35919,d1:0;)))
-            (____, Scope<Void> @:29261 op:418,dt:4,nt:8,next:29264,str:16477,d0:29262,d1:54722;
+            (____, BuiltinInvocation<Void> @:29261 op:418,dt:4,nt:8,next:29264,str:16477,d0:29262,d1:54722;
                 ("cs_play_line", Expression<MethodOrOperator> @:29262 op:418,dt:2,nt:9,next:29263,str:11547,d0:0,d1:0;
                     ("0840", Expression<StringId> @:29263 op:11,dt:11,nt:9,next:65535,str:36010,d0:12289,d1:1024;)))
-            (____, Scope<Void> @:29264 op:19,dt:4,nt:8,next:29267,str:16499,d0:29265,d1:54725;
+            (____, BuiltinInvocation<Void> @:29264 op:19,dt:4,nt:8,next:29267,str:16499,d0:29265,d1:54725;
                 ("sleep", Expression<MethodOrOperator> @:29265 op:19,dt:2,nt:9,next:29266,str:289,d0:0,d1:0;
                     (15, Expression<Short> @:29266 op:7,dt:7,nt:9,next:65535,str:16506,d0:15,d1:65535;)))
-            (____, Scope<Void> @:29267 op:27,dt:4,nt:8,next:29270,str:16512,d0:29268,d1:54728;
+            (____, BuiltinInvocation<Void> @:29267 op:27,dt:4,nt:8,next:29270,str:16512,d0:29268,d1:54728;
                 ("print", Expression<MethodOrOperator> @:29268 op:27,dt:2,nt:9,next:29269,str:295,d0:0,d1:0;
                     ("heretic leader: 'but where are the weapons, arbiter?  what was the result?'", Expression<String> @:29269 op:9,dt:9,nt:9,next:65535,str:36015,d0:36015,d1:0;)))
-            (____, Scope<Void> @:29270 op:418,dt:4,nt:8,next:29273,str:16600,d0:29271,d1:54731;
+            (____, BuiltinInvocation<Void> @:29270 op:418,dt:4,nt:8,next:29273,str:16600,d0:29271,d1:54731;
                 ("cs_play_line", Expression<MethodOrOperator> @:29271 op:418,dt:2,nt:9,next:29272,str:11547,d0:0,d1:0;
                     ("0850", Expression<StringId> @:29272 op:11,dt:11,nt:9,next:65535,str:36091,d0:12290,d1:1024;)))
-            (____, Scope<Void> @:29273 op:19,dt:4,nt:8,next:29276,str:16622,d0:29274,d1:54734;
+            (____, BuiltinInvocation<Void> @:29273 op:19,dt:4,nt:8,next:29276,str:16622,d0:29274,d1:54734;
                 ("sleep", Expression<MethodOrOperator> @:29274 op:19,dt:2,nt:9,next:29275,str:289,d0:0,d1:0;
                     (30, Expression<Short> @:29275 op:7,dt:7,nt:9,next:65535,str:16629,d0:30,d1:65535;)))
-            (____, Scope<Void> @:29276 op:27,dt:4,nt:8,next:29279,str:16635,d0:29277,d1:54737;
+            (____, BuiltinInvocation<Void> @:29276 op:27,dt:4,nt:8,next:29279,str:16635,d0:29277,d1:54737;
                 ("print", Expression<MethodOrOperator> @:29277 op:27,dt:2,nt:9,next:29278,str:295,d0:0,d1:0;
                     ("heretic leader: 'all that time and effort, and the best the forerunners could do was put these foul creatures on ice!'", Expression<String> @:29278 op:9,dt:9,nt:9,next:65535,str:36096,d0:36096,d1:0;)))
-            (____, Scope<Void> @:29279 op:418,dt:4,nt:8,next:29282,str:16766,d0:29280,d1:54740;
+            (____, BuiltinInvocation<Void> @:29279 op:418,dt:4,nt:8,next:29282,str:16766,d0:29280,d1:54740;
                 ("cs_play_line", Expression<MethodOrOperator> @:29280 op:418,dt:2,nt:9,next:29281,str:11547,d0:0,d1:0;
                     ("0860", Expression<StringId> @:29281 op:11,dt:11,nt:9,next:65535,str:36215,d0:12291,d1:1024;)))
-            (____, Scope<Void> @:29282 op:446,dt:4,nt:8,next:29285,str:16788,d0:29283,d1:54743;
+            (____, BuiltinInvocation<Void> @:29282 op:446,dt:4,nt:8,next:29285,str:16788,d0:29283,d1:54743;
                 ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:29283 op:446,dt:2,nt:9,next:29284,str:35648,d0:0,d1:0;
                     (False, Expression<Boolean> @:29284 op:5,dt:5,nt:9,next:65535,str:16817,d0:65280,d1:65535;)))
-            (____, Scope<Void> @:29285 op:4,dt:4,nt:8,next:65535,str:16826,d0:29286,d1:54746;
+            (____, BuiltinInvocation<Void> @:29285 op:4,dt:4,nt:8,next:65535,str:16826,d0:29286,d1:54746;
                 ("set", Expression<MethodOrOperator> @:29286 op:4,dt:2,nt:9,next:29287,str:2644,d0:0,d1:0;
                     ("boss_done_talking", VariableAccess<Boolean> @:29287 op:65535,dt:5,nt:13,next:29288,str:35609,d0:45,d1:0;
                         (True, Expression<Boolean> @:29288 op:5,dt:5,nt:9,next:65535,str:16849,d0:65281,d1:65535;)))))))

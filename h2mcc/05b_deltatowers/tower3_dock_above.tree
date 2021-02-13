@@ -1,32 +1,32 @@
 
 ("tower3_dock_above", MethodDecl<Void> @:179 op:0,dt:0,nt:65535,next:7500,str:17051,d0:0,d1:0;
-    (____, Scope<Void> @:7500 op:0,dt:4,nt:8,next:65535,str:20331,d0:7501,d1:32961;
+    (____, BuiltinInvocation<Void> @:7500 op:0,dt:4,nt:8,next:65535,str:20331,d0:7501,d1:32961;
         ("begin", Expression<MethodOrOperator> @:7501 op:0,dt:2,nt:9,next:7472,str:142,d0:0,d1:0;
-            (____, Scope<Void> @:7472 op:21,dt:4,nt:8,next:7488,str:20367,d0:7473,d1:32933;
+            (____, BuiltinInvocation<Void> @:7472 op:21,dt:4,nt:8,next:7488,str:20367,d0:7473,d1:32933;
                 ("sleep_until", Expression<MethodOrOperator> @:7473 op:21,dt:2,nt:9,next:7474,str:372,d0:0,d1:0;
-                    (____, Scope<Boolean> @:7474 op:6,dt:5,nt:8,next:65535,str:20384,d0:7475,d1:32935;
+                    (____, BuiltinInvocation<Boolean> @:7474 op:6,dt:5,nt:8,next:65535,str:20384,d0:7475,d1:32935;
                         ("or", Expression<MethodOrOperator> @:7475 op:6,dt:2,nt:9,next:7476,str:985,d0:0,d1:0;
-                            (____, Scope<Boolean> @:7476 op:18,dt:5,nt:8,next:7482,str:20392,d0:7477,d1:32937;
+                            (____, BuiltinInvocation<Boolean> @:7476 op:18,dt:5,nt:8,next:7482,str:20392,d0:7477,d1:32937;
                                 ("<=", Expression<MethodOrOperator> @:7477 op:18,dt:2,nt:9,next:7478,str:12175,d0:0,d1:0;
-                                    (____, Scope<Short> @:7478 op:327,dt:7,nt:8,next:7481,str:20396,d0:7479,d1:32939;
+                                    (____, BuiltinInvocation<Short> @:7478 op:327,dt:7,nt:8,next:7481,str:20396,d0:7479,d1:32939;
                                         ("ai_living_count", Expression<MethodOrOperator> @:7479 op:327,dt:2,nt:9,next:7480,str:10835,d0:0,d1:0;
                                             ("tower3_dock_snipers", Expression<AI> @:7480 op:19,dt:19,nt:9,next:65535,str:16561,d0:44,d1:0;)))
                                     (0, Expression<Short> @:7481 op:7,dt:7,nt:9,next:65535,str:20434,d0:0,d1:65535;)))
-                            (____, Scope<Boolean> @:7482 op:13,dt:5,nt:8,next:65535,str:20441,d0:7483,d1:32943;
+                            (____, BuiltinInvocation<Boolean> @:7482 op:13,dt:5,nt:8,next:65535,str:20441,d0:7483,d1:32943;
                                 ("=", Expression<MethodOrOperator> @:7483 op:13,dt:2,nt:9,next:7484,str:437,d0:0,d1:0;
-                                    (-1.6265372E-38f, Scope<Float> @:7484 op:257,dt:6,nt:8,next:7487,str:20444,d0:7485,d1:32945;
+                                    (-1.6265372E-38f, BuiltinInvocation<Float> @:7484 op:257,dt:6,nt:8,next:7487,str:20444,d0:7485,d1:32945;
                                         ("device_get_position", Expression<MethodOrOperator> @:7485 op:257,dt:2,nt:9,next:7486,str:14005,d0:0,d1:0;
                                             ("gondola_01_a", Expression<Device> @:7486 op:60,dt:54,nt:9,next:65535,str:14025,d0:86,d1:65535;)))
                                     (0f, Expression<Float> @:7487 op:6,dt:6,nt:9,next:65535,str:20479,d0:0,d1:0;)))))))
-            (____, Scope<Void> @:7488 op:2,dt:4,nt:8,next:65535,str:20493,d0:7489,d1:32949;
+            (____, BuiltinInvocation<Void> @:7488 op:2,dt:4,nt:8,next:65535,str:20493,d0:7489,d1:32949;
                 ("if", Expression<MethodOrOperator> @:7489 op:2,dt:2,nt:9,next:7490,str:597,d0:0,d1:0;
-                    (____, Scope<Boolean> @:7490 op:15,dt:5,nt:8,next:7496,str:20497,d0:7491,d1:32951;
+                    (____, BuiltinInvocation<Boolean> @:7490 op:15,dt:5,nt:8,next:7496,str:20497,d0:7491,d1:32951;
                         (">", Expression<MethodOrOperator> @:7491 op:15,dt:2,nt:9,next:7492,str:10467,d0:0,d1:0;
-                            (-1.7000067E-38f, Scope<Float> @:7492 op:257,dt:6,nt:8,next:7495,str:20500,d0:7493,d1:32953;
+                            (-1.7000067E-38f, BuiltinInvocation<Float> @:7492 op:257,dt:6,nt:8,next:7495,str:20500,d0:7493,d1:32953;
                                 ("device_get_position", Expression<MethodOrOperator> @:7493 op:257,dt:2,nt:9,next:7494,str:14005,d0:0,d1:0;
                                     ("gondola_01_a", Expression<Device> @:7494 op:60,dt:54,nt:9,next:65535,str:14025,d0:86,d1:65535;)))
                             (0f, Expression<Float> @:7495 op:6,dt:6,nt:9,next:65535,str:20535,d0:0,d1:0;)))
-                    (____, Scope<Void> @:7496 op:291,dt:4,nt:8,next:65535,str:20541,d0:7497,d1:32957;
+                    (____, BuiltinInvocation<Void> @:7496 op:291,dt:4,nt:8,next:65535,str:20541,d0:7497,d1:32957;
                         ("ai_place", Expression<MethodOrOperator> @:7497 op:291,dt:2,nt:9,next:7498,str:10304,d0:0,d1:0;
                             ("tower3_dock_snipers", Expression<AI> @:7498 op:19,dt:19,nt:9,next:7499,str:16561,d0:44,d1:0;
                                 (2, Expression<Short> @:7499 op:7,dt:7,nt:9,next:65535,str:20571,d0:2,d1:65535;)))))))))

@@ -1,21 +1,21 @@
 
 ("mission_main", MethodDecl<Void> @:245 op:0,dt:0,nt:65535,next:11135,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:11135 op:0,dt:4,nt:8,next:65535,str:12947,d0:11136,d1:36596;
+    (____, BuiltinInvocation<Void> @:11135 op:0,dt:4,nt:8,next:65535,str:12947,d0:11136,d1:36596;
         ("begin", Expression<MethodOrOperator> @:11136 op:0,dt:2,nt:9,next:11115,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:11115 op:310,dt:4,nt:8,next:11119,str:13067,d0:11116,d1:36576;
+            (____, BuiltinInvocation<Void> @:11115 op:310,dt:4,nt:8,next:11119,str:13067,d0:11116,d1:36576;
                 ("ai_allegiance", Expression<MethodOrOperator> @:11116 op:310,dt:2,nt:9,next:11117,str:23779,d0:0,d1:0;
                     ("player", Expression<Team> @:11117 op:45,dt:45,nt:9,next:11118,str:23793,d0:1,d1:65535;
                         ("human", Expression<Team> @:11118 op:45,dt:45,nt:9,next:65535,str:23800,d0:2,d1:65535;))))
-            (____, Scope<Void> @:11119 op:310,dt:4,nt:8,next:11123,str:13098,d0:11120,d1:36580;
+            (____, BuiltinInvocation<Void> @:11119 op:310,dt:4,nt:8,next:11123,str:13098,d0:11120,d1:36580;
                 ("ai_allegiance", Expression<MethodOrOperator> @:11120 op:310,dt:2,nt:9,next:11121,str:23779,d0:0,d1:0;
                     ("covenant", Expression<Team> @:11121 op:45,dt:45,nt:9,next:11122,str:23806,d0:3,d1:65535;
                         ("prophet", Expression<Team> @:11122 op:45,dt:45,nt:9,next:65535,str:23815,d0:7,d1:65535;))))
-            (____, Scope<Void> @:11123 op:570,dt:4,nt:8,next:11126,str:13133,d0:11124,d1:36584;
+            (____, BuiltinInvocation<Void> @:11123 op:570,dt:4,nt:8,next:11126,str:13133,d0:11124,d1:36584;
                 ("game_can_use_flashlights", Expression<MethodOrOperator> @:11124 op:570,dt:2,nt:9,next:11125,str:23823,d0:0,d1:0;
                     (True, Expression<Boolean> @:11125 op:5,dt:5,nt:9,next:65535,str:13159,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:11126 op:2,dt:4,nt:8,next:65535,str:13251,d0:11127,d1:36587;
+            (____, BuiltinInvocation<Void> @:11126 op:2,dt:4,nt:8,next:65535,str:13251,d0:11127,d1:36587;
                 ("if", Expression<MethodOrOperator> @:11127 op:2,dt:2,nt:9,next:11128,str:456,d0:0,d1:0;
-                    (____, Scope<Boolean> @:11128 op:15,dt:5,nt:8,next:11133,str:13255,d0:11129,d1:36589;
+                    (____, BuiltinInvocation<Boolean> @:11128 op:15,dt:5,nt:8,next:11133,str:13255,d0:11129,d1:36589;
                         (">", Expression<MethodOrOperator> @:11129 op:15,dt:2,nt:9,next:11130,str:13870,d0:0,d1:0;
                             ("player_count", ScriptInvocation<Short> @:11130 op:2,dt:7,nt:10,next:11132,str:13258,d0:11131,d1:36591;
                                 ("player_count", Expression<MethodOrOperator> @:11131 op:2,dt:2,nt:9,next:65535,str:23848,d0:0,d1:0;))

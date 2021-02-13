@@ -1,36 +1,36 @@
 
 ("hangar_door_monitor", MethodDecl<Void> @:298 op:0,dt:0,nt:65535,next:12174,str:26056,d0:0,d1:0;
-    (____, Scope<Void> @:12174 op:0,dt:4,nt:8,next:65535,str:9411,d0:12175,d1:37635;
+    (____, BuiltinInvocation<Void> @:12174 op:0,dt:4,nt:8,next:65535,str:9411,d0:12175,d1:37635;
         ("begin", Expression<MethodOrOperator> @:12175 op:0,dt:2,nt:9,next:12142,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:12142 op:21,dt:4,nt:8,next:12150,str:9449,d0:12143,d1:37603;
+            (____, BuiltinInvocation<Void> @:12142 op:21,dt:4,nt:8,next:12150,str:9449,d0:12143,d1:37603;
                 ("sleep_until", Expression<MethodOrOperator> @:12143 op:21,dt:2,nt:9,next:12144,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:12144 op:15,dt:5,nt:8,next:65535,str:9462,d0:12145,d1:37605;
+                    (____, BuiltinInvocation<Boolean> @:12144 op:15,dt:5,nt:8,next:65535,str:9462,d0:12145,d1:37605;
                         (">", Expression<MethodOrOperator> @:12145 op:15,dt:2,nt:9,next:12146,str:14927,d0:0,d1:0;
-                            (-1.4589847E-27f, Scope<Float> @:12146 op:257,dt:6,nt:8,next:12149,str:9465,d0:12147,d1:37607;
+                            (-1.4589847E-27f, BuiltinInvocation<Float> @:12146 op:257,dt:6,nt:8,next:12149,str:9465,d0:12147,d1:37607;
                                 ("device_get_position", Expression<MethodOrOperator> @:12147 op:257,dt:2,nt:9,next:12148,str:18219,d0:0,d1:0;
                                     ("hangar_door_cinematic", Expression<Device> @:12148 op:60,dt:54,nt:9,next:65535,str:24040,d0:242,d1:65535;)))
                             (0f, Expression<Float> @:12149 op:6,dt:6,nt:9,next:65535,str:9509,d0:0,d1:0;)))))
-            (____, Scope<Void> @:12150 op:22,dt:4,nt:8,next:12153,str:9515,d0:12151,d1:37611;
+            (____, BuiltinInvocation<Void> @:12150 op:22,dt:4,nt:8,next:12153,str:9515,d0:12151,d1:37611;
                 ("wake", Expression<MethodOrOperator> @:12151 op:22,dt:2,nt:9,next:12152,str:1071,d0:0,d1:0;
                     ("hangar_allies_reinforce", Expression<ScriptReference> @:12152 op:10,dt:10,nt:9,next:65535,str:24062,d0:296,d1:65535;)))
-            (____, Scope<Void> @:12153 op:281,dt:4,nt:8,next:12156,str:9548,d0:12154,d1:37614;
+            (____, BuiltinInvocation<Void> @:12153 op:281,dt:4,nt:8,next:12156,str:9548,d0:12154,d1:37614;
                 ("ai_dialogue_enable", Expression<MethodOrOperator> @:12154 op:281,dt:2,nt:9,next:12155,str:17599,d0:0,d1:0;
                     (False, Expression<Boolean> @:12155 op:5,dt:5,nt:9,next:65535,str:9568,d0:65280,d1:65535;)))
-            (____, Scope<Void> @:12156 op:19,dt:4,nt:8,next:12159,str:9577,d0:12157,d1:37617;
+            (____, BuiltinInvocation<Void> @:12156 op:19,dt:4,nt:8,next:12159,str:9577,d0:12157,d1:37617;
                 ("sleep", Expression<MethodOrOperator> @:12157 op:19,dt:2,nt:9,next:12158,str:85,d0:0,d1:0;
                     (60, Expression<Short> @:12158 op:7,dt:7,nt:9,next:65535,str:9584,d0:60,d1:65535;)))
-            (____, Scope<Void> @:12159 op:27,dt:4,nt:8,next:12162,str:9590,d0:12160,d1:37620;
+            (____, BuiltinInvocation<Void> @:12159 op:27,dt:4,nt:8,next:12162,str:9590,d0:12160,d1:37620;
                 ("print", Expression<MethodOrOperator> @:12160 op:27,dt:2,nt:9,next:12161,str:91,d0:0,d1:0;
                     ("phantom pilot: 'hold position! i am making my approach!'", Expression<String> @:12161 op:9,dt:9,nt:9,next:65535,str:24086,d0:24086,d1:0;)))
-            (____, Scope<Void> @:12162 op:19,dt:4,nt:8,next:12168,str:9659,d0:12163,d1:37623;
+            (____, BuiltinInvocation<Void> @:12162 op:19,dt:4,nt:8,next:12168,str:9659,d0:12163,d1:37623;
                 ("sleep", Expression<MethodOrOperator> @:12163 op:19,dt:2,nt:9,next:12164,str:85,d0:0,d1:0;
-                    (____, Scope<Short> @:12164 op:362,dt:7,nt:8,next:65535,str:9666,d0:12165,d1:37625;
+                    (____, BuiltinInvocation<Short> @:12164 op:362,dt:7,nt:8,next:65535,str:9666,d0:12165,d1:37625;
                         ("ai_play_line_on_object", Expression<MethodOrOperator> @:12165 op:362,dt:2,nt:9,next:12166,str:17710,d0:0,d1:0;
                             (4294967295, Expression<Entity> @:12166 op:50,dt:50,nt:9,next:12167,str:1,d0:65535,d1:65535;
                                 ("2030", Expression<StringId> @:12167 op:11,dt:11,nt:9,next:65535,str:24143,d0:11782,d1:1024;))))))
-            (____, Scope<Void> @:12168 op:19,dt:4,nt:8,next:12171,str:9798,d0:12169,d1:37629;
+            (____, BuiltinInvocation<Void> @:12168 op:19,dt:4,nt:8,next:12171,str:9798,d0:12169,d1:37629;
                 ("sleep", Expression<MethodOrOperator> @:12169 op:19,dt:2,nt:9,next:12170,str:85,d0:0,d1:0;
                     (30, Expression<Short> @:12170 op:7,dt:7,nt:9,next:65535,str:9805,d0:30,d1:65535;)))
-            (____, Scope<Void> @:12171 op:281,dt:4,nt:8,next:65535,str:9811,d0:12172,d1:37632;
+            (____, BuiltinInvocation<Void> @:12171 op:281,dt:4,nt:8,next:65535,str:9811,d0:12172,d1:37632;
                 ("ai_dialogue_enable", Expression<MethodOrOperator> @:12172 op:281,dt:2,nt:9,next:12173,str:17599,d0:0,d1:0;
                     (True, Expression<Boolean> @:12173 op:5,dt:5,nt:9,next:65535,str:9831,d0:65281,d1:65535;))))))

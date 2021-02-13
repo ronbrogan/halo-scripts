@@ -1,26 +1,26 @@
 
 ("cs_e11_pro_wraiths1_bombard", MethodDecl<Void> @:362 op:0,dt:0,nt:65535,next:12699,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:12699 op:0,dt:4,nt:8,next:65535,str:21137,d0:12700,d1:38160;
+    (____, BuiltinInvocation<Void> @:12699 op:0,dt:4,nt:8,next:65535,str:21137,d0:12700,d1:38160;
         ("begin", Expression<MethodOrOperator> @:12700 op:0,dt:2,nt:9,next:12676,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:12676 op:444,dt:4,nt:8,next:12679,str:21218,d0:12677,d1:38137;
+            (____, BuiltinInvocation<Void> @:12676 op:444,dt:4,nt:8,next:12679,str:21218,d0:12677,d1:38137;
                 ("cs_enable_moving", Expression<MethodOrOperator> @:12677 op:444,dt:2,nt:9,next:12678,str:1094,d0:0,d1:0;
                     (True, Expression<Boolean> @:12678 op:5,dt:5,nt:9,next:65535,str:21236,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:12679 op:442,dt:4,nt:8,next:12682,str:21244,d0:12680,d1:38140;
+            (____, BuiltinInvocation<Void> @:12679 op:442,dt:4,nt:8,next:12682,str:21244,d0:12680,d1:38140;
                 ("cs_enable_targeting", Expression<MethodOrOperator> @:12680 op:442,dt:2,nt:9,next:12681,str:1222,d0:0,d1:0;
                     (True, Expression<Boolean> @:12681 op:5,dt:5,nt:9,next:65535,str:21265,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:12682 op:21,dt:4,nt:8,next:65535,str:21292,d0:12683,d1:38143;
+            (____, BuiltinInvocation<Void> @:12682 op:21,dt:4,nt:8,next:65535,str:21292,d0:12683,d1:38143;
                 ("sleep_until", Expression<MethodOrOperator> @:12683 op:21,dt:2,nt:9,next:12684,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:12684 op:0,dt:5,nt:8,next:65535,str:21308,d0:12685,d1:38145;
+                    (____, BuiltinInvocation<Boolean> @:12684 op:0,dt:5,nt:8,next:65535,str:21308,d0:12685,d1:38145;
                         ("begin", Expression<MethodOrOperator> @:12685 op:0,dt:2,nt:9,next:12686,str:6,d0:0,d1:0;
-                            (____, Scope<Void> @:12686 op:21,dt:4,nt:8,next:12694,str:21357,d0:12687,d1:38147;
+                            (____, BuiltinInvocation<Void> @:12686 op:21,dt:4,nt:8,next:12694,str:21357,d0:12687,d1:38147;
                                 ("sleep_until", Expression<MethodOrOperator> @:12687 op:21,dt:2,nt:9,next:12688,str:236,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:12688 op:18,dt:5,nt:8,next:65535,str:21370,d0:12689,d1:38149;
+                                    (____, BuiltinInvocation<Boolean> @:12688 op:18,dt:5,nt:8,next:65535,str:21370,d0:12689,d1:38149;
                                         ("<=", Expression<MethodOrOperator> @:12689 op:18,dt:2,nt:9,next:12690,str:6210,d0:0,d1:0;
-                                            (____, Scope<Short> @:12690 op:353,dt:7,nt:8,next:12693,str:21374,d0:12691,d1:38151;
+                                            (____, BuiltinInvocation<Short> @:12690 op:353,dt:7,nt:8,next:12693,str:21374,d0:12691,d1:38151;
                                                 ("ai_combat_status", Expression<MethodOrOperator> @:12691 op:353,dt:2,nt:9,next:12692,str:27230,d0:0,d1:0;
                                                     ("ai_current_actor", VariableAccess<AI> @:12692 op:19,dt:19,nt:13,next:65535,str:1271,d0:33564,d1:65535;)))
                                             ("ai_combat_status_active", VariableAccess<Short> @:12693 op:7,dt:7,nt:13,next:65535,str:27247,d0:33574,d1:65535;)))))
-                            (____, Scope<Void> @:12694 op:368,dt:4,nt:8,next:12698,str:21482,d0:12695,d1:38155;
+                            (____, BuiltinInvocation<Void> @:12694 op:368,dt:4,nt:8,next:12698,str:21482,d0:12695,d1:38155;
                                 ("cs_stack_command_script", Expression<MethodOrOperator> @:12695 op:368,dt:2,nt:9,next:12696,str:29195,d0:0,d1:0;
                                     ("ai_current_actor", VariableAccess<AI> @:12696 op:19,dt:19,nt:13,next:12697,str:1271,d0:33564,d1:65535;
                                         ("cs_e11_pro_wraiths1_shoot", Expression<AIScript> @:12697 op:21,dt:21,nt:9,next:65535,str:29240,d0:361,d1:0;))))

@@ -1,112 +1,112 @@
 
 ("e6_talking", MethodDecl<Void> @:198 op:0,dt:0,nt:65535,next:8251,str:19440,d0:0,d1:0;
-    (____, Scope<Void> @:8251 op:0,dt:4,nt:8,next:65535,str:38870,d0:8252,d1:33712;
+    (____, BuiltinInvocation<Void> @:8251 op:0,dt:4,nt:8,next:65535,str:38870,d0:8252,d1:33712;
         ("begin", Expression<MethodOrOperator> @:8252 op:0,dt:2,nt:9,next:8143,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:8143 op:21,dt:4,nt:8,next:8151,str:39125,d0:8144,d1:33604;
+            (____, BuiltinInvocation<Void> @:8143 op:21,dt:4,nt:8,next:8151,str:39125,d0:8144,d1:33604;
                 ("sleep_until", Expression<MethodOrOperator> @:8144 op:21,dt:2,nt:9,next:8145,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:8145 op:33,dt:5,nt:8,next:8150,str:39138,d0:8146,d1:33606;
+                    (____, BuiltinInvocation<Boolean> @:8145 op:33,dt:5,nt:8,next:8150,str:39138,d0:8146,d1:33606;
                         ("volume_test_objects", Expression<MethodOrOperator> @:8146 op:33,dt:2,nt:9,next:8147,str:13599,d0:0,d1:0;
                             ("tv_e6_talkbox", Expression<Trigger> @:8147 op:13,dt:13,nt:9,next:8148,str:18915,d0:66,d1:0;
-                                (____, Scope<List> @:8148 op:28,dt:31,nt:8,next:65535,str:39173,d0:8149,d1:33609;
+                                (____, BuiltinInvocation<List> @:8148 op:28,dt:31,nt:8,next:65535,str:39173,d0:8149,d1:33609;
                                     ("players", Expression<MethodOrOperator> @:8149 op:28,dt:2,nt:9,next:65535,str:21,d0:0,d1:0;)))))
                     (15, Expression<Short> @:8150 op:7,dt:7,nt:9,next:65535,str:39184,d0:15,d1:65535;)))
-            (____, Scope<Void> @:8151 op:4,dt:4,nt:8,next:8155,str:39190,d0:8152,d1:33612;
+            (____, BuiltinInvocation<Void> @:8151 op:4,dt:4,nt:8,next:8155,str:39190,d0:8152,d1:33612;
                 ("set", Expression<MethodOrOperator> @:8152 op:4,dt:2,nt:9,next:8153,str:2138,d0:0,d1:0;
                     ("g_dialogue_counter", VariableAccess<Short> @:8153 op:65535,dt:7,nt:13,next:8154,str:13670,d0:5,d1:0;
                         (9, Expression<Short> @:8154 op:7,dt:7,nt:9,next:65535,str:39214,d0:9,d1:65535;))))
-            (____, Scope<Void> @:8155 op:2,dt:4,nt:8,next:8161,str:39219,d0:8156,d1:33616;
+            (____, BuiltinInvocation<Void> @:8155 op:2,dt:4,nt:8,next:8161,str:39219,d0:8156,d1:33616;
                 ("if", Expression<MethodOrOperator> @:8156 op:2,dt:2,nt:9,next:8157,str:456,d0:0,d1:0;
                     ("dialogue", VariableAccess<Boolean> @:8157 op:5,dt:5,nt:13,next:8158,str:10462,d0:3,d1:0;
-                        (____, Scope<Void> @:8158 op:27,dt:4,nt:8,next:65535,str:39238,d0:8159,d1:33619;
+                        (____, BuiltinInvocation<Void> @:8158 op:27,dt:4,nt:8,next:65535,str:39238,d0:8159,d1:33619;
                             ("print", Expression<MethodOrOperator> @:8159 op:27,dt:2,nt:9,next:8160,str:86,d0:0,d1:0;
                                 ("truth: the parasite did not defeat the forerunners, and it shall not defeat us!", Expression<String> @:8160 op:9,dt:9,nt:9,next:65535,str:12095,d0:12095,d1:0;))))))
-            (____, Scope<Void> @:8161 op:595,dt:4,nt:8,next:8167,str:39336,d0:8162,d1:33622;
+            (____, BuiltinInvocation<Void> @:8161 op:595,dt:4,nt:8,next:8167,str:39336,d0:8162,d1:33622;
                 ("sound_impulse_trigger", Expression<MethodOrOperator> @:8162 op:595,dt:2,nt:9,next:8163,str:11133,d0:0,d1:0;
                     ("sound\dialog\levels\07_highcharity\mission\l07_0190_pot", Expression<Sound> @:8163 op:32,dt:32,nt:9,next:8164,str:18929,d0:5924,d1:63813;
                         (4294901863, Expression<Entity> @:8164 op:56,dt:50,nt:9,next:8165,str:18985,d0:103,d1:65535;
                             (1f, Expression<Float> @:8165 op:6,dt:6,nt:9,next:8166,str:39429,d0:0,d1:16256;
                                 (1, Expression<Int> @:8166 op:8,dt:8,nt:9,next:65535,str:39433,d0:1,d1:0;))))))
-            (____, Scope<Void> @:8167 op:595,dt:4,nt:8,next:8173,str:39438,d0:8168,d1:33628;
+            (____, BuiltinInvocation<Void> @:8167 op:595,dt:4,nt:8,next:8173,str:39438,d0:8168,d1:33628;
                 ("sound_impulse_trigger", Expression<MethodOrOperator> @:8168 op:595,dt:2,nt:9,next:8169,str:11133,d0:0,d1:0;
                     ("sound\dialog\levels\07_highcharity\mission\l07_0190_pot", Expression<Sound> @:8169 op:32,dt:32,nt:9,next:8170,str:18929,d0:5924,d1:63813;
                         (4294901864, Expression<Entity> @:8170 op:56,dt:50,nt:9,next:8171,str:18997,d0:104,d1:65535;
                             (1f, Expression<Float> @:8171 op:6,dt:6,nt:9,next:8172,str:39531,d0:0,d1:16256;
                                 (1, Expression<Int> @:8172 op:8,dt:8,nt:9,next:65535,str:39535,d0:1,d1:0;))))))
-            (____, Scope<Void> @:8173 op:595,dt:4,nt:8,next:8179,str:39540,d0:8174,d1:33634;
+            (____, BuiltinInvocation<Void> @:8173 op:595,dt:4,nt:8,next:8179,str:39540,d0:8174,d1:33634;
                 ("sound_impulse_trigger", Expression<MethodOrOperator> @:8174 op:595,dt:2,nt:9,next:8175,str:11133,d0:0,d1:0;
                     ("sound\dialog\levels\07_highcharity\mission\l07_0190_pot", Expression<Sound> @:8175 op:32,dt:32,nt:9,next:8176,str:18929,d0:5924,d1:63813;
                         (4294901865, Expression<Entity> @:8176 op:56,dt:50,nt:9,next:8177,str:19009,d0:105,d1:65535;
                             (1f, Expression<Float> @:8177 op:6,dt:6,nt:9,next:8178,str:39633,d0:0,d1:16256;
                                 (1, Expression<Int> @:8178 op:8,dt:8,nt:9,next:65535,str:39637,d0:1,d1:0;))))))
-            (____, Scope<Void> @:8179 op:595,dt:4,nt:8,next:8185,str:39642,d0:8180,d1:33640;
+            (____, BuiltinInvocation<Void> @:8179 op:595,dt:4,nt:8,next:8185,str:39642,d0:8180,d1:33640;
                 ("sound_impulse_trigger", Expression<MethodOrOperator> @:8180 op:595,dt:2,nt:9,next:8181,str:11133,d0:0,d1:0;
                     ("sound\dialog\levels\07_highcharity\mission\l07_0190_pot", Expression<Sound> @:8181 op:32,dt:32,nt:9,next:8182,str:18929,d0:5924,d1:63813;
                         (4294901866, Expression<Entity> @:8182 op:56,dt:50,nt:9,next:8183,str:19021,d0:106,d1:65535;
                             (1f, Expression<Float> @:8183 op:6,dt:6,nt:9,next:8184,str:39735,d0:0,d1:16256;
                                 (1, Expression<Int> @:8184 op:8,dt:8,nt:9,next:65535,str:39739,d0:1,d1:0;))))))
-            (____, Scope<Void> @:8185 op:595,dt:4,nt:8,next:8191,str:39744,d0:8186,d1:33646;
+            (____, BuiltinInvocation<Void> @:8185 op:595,dt:4,nt:8,next:8191,str:39744,d0:8186,d1:33646;
                 ("sound_impulse_trigger", Expression<MethodOrOperator> @:8186 op:595,dt:2,nt:9,next:8187,str:11133,d0:0,d1:0;
                     ("sound\dialog\levels\07_highcharity\mission\l07_0190_pot", Expression<Sound> @:8187 op:32,dt:32,nt:9,next:8188,str:18929,d0:5924,d1:63813;
                         (4294901867, Expression<Entity> @:8188 op:56,dt:50,nt:9,next:8189,str:19033,d0:107,d1:65535;
                             (1f, Expression<Float> @:8189 op:6,dt:6,nt:9,next:8190,str:39837,d0:0,d1:16256;
                                 (1, Expression<Int> @:8190 op:8,dt:8,nt:9,next:65535,str:39841,d0:1,d1:0;))))))
-            (____, Scope<Void> @:8191 op:19,dt:4,nt:8,next:8197,str:39846,d0:8192,d1:33652;
+            (____, BuiltinInvocation<Void> @:8191 op:19,dt:4,nt:8,next:8197,str:39846,d0:8192,d1:33652;
                 ("sleep", Expression<MethodOrOperator> @:8192 op:19,dt:2,nt:9,next:8193,str:80,d0:0,d1:0;
-                    (____, Scope<Short> @:8193 op:362,dt:7,nt:8,next:65535,str:39853,d0:8194,d1:33654;
+                    (____, BuiltinInvocation<Short> @:8193 op:362,dt:7,nt:8,next:65535,str:39853,d0:8194,d1:33654;
                         ("ai_play_line_on_object", Expression<MethodOrOperator> @:8194 op:362,dt:2,nt:9,next:8195,str:10552,d0:0,d1:0;
                             (4294901862, Expression<Entity> @:8195 op:56,dt:50,nt:9,next:8196,str:19045,d0:102,d1:65535;
                                 ("0190", Expression<StringId> @:8196 op:11,dt:11,nt:9,next:65535,str:19057,d0:13460,d1:1024;))))))
-            (____, Scope<Void> @:8197 op:19,dt:4,nt:8,next:8200,str:39900,d0:8198,d1:33658;
+            (____, BuiltinInvocation<Void> @:8197 op:19,dt:4,nt:8,next:8200,str:39900,d0:8198,d1:33658;
                 ("sleep", Expression<MethodOrOperator> @:8198 op:19,dt:2,nt:9,next:8199,str:80,d0:0,d1:0;
                     (20, Expression<Short> @:8199 op:7,dt:7,nt:9,next:65535,str:39907,d0:20,d1:65535;)))
-            (____, Scope<Void> @:8200 op:2,dt:4,nt:8,next:8206,str:39913,d0:8201,d1:33661;
+            (____, BuiltinInvocation<Void> @:8200 op:2,dt:4,nt:8,next:8206,str:39913,d0:8201,d1:33661;
                 ("if", Expression<MethodOrOperator> @:8201 op:2,dt:2,nt:9,next:8202,str:456,d0:0,d1:0;
                     ("dialogue", VariableAccess<Boolean> @:8202 op:5,dt:5,nt:13,next:8203,str:10462,d0:3,d1:0;
-                        (____, Scope<Void> @:8203 op:27,dt:4,nt:8,next:65535,str:39932,d0:8204,d1:33664;
+                        (____, BuiltinInvocation<Void> @:8203 op:27,dt:4,nt:8,next:65535,str:39932,d0:8204,d1:33664;
                             ("print", Expression<MethodOrOperator> @:8204 op:27,dt:2,nt:9,next:8205,str:86,d0:0,d1:0;
                                 ("gravemind: arrogant creature! your deaths will be instantaneous, while we shall suffer the progress of infinitude!", Expression<String> @:8205 op:9,dt:9,nt:9,next:65535,str:19062,d0:19062,d1:0;))))))
-            (____, Scope<Void> @:8206 op:595,dt:4,nt:8,next:8212,str:40065,d0:8207,d1:33667;
+            (____, BuiltinInvocation<Void> @:8206 op:595,dt:4,nt:8,next:8212,str:40065,d0:8207,d1:33667;
                 ("sound_impulse_trigger", Expression<MethodOrOperator> @:8207 op:595,dt:2,nt:9,next:8208,str:11133,d0:0,d1:0;
                     ("sound\dialog\levels\07_highcharity\mission\l07_5010_grv", Expression<Sound> @:8208 op:32,dt:32,nt:9,next:8209,str:19177,d0:6058,d1:63947;
                         (4294901863, Expression<Entity> @:8209 op:56,dt:50,nt:9,next:8210,str:18985,d0:103,d1:65535;
                             (1f, Expression<Float> @:8210 op:6,dt:6,nt:9,next:8211,str:40158,d0:0,d1:16256;
                                 (1, Expression<Int> @:8211 op:8,dt:8,nt:9,next:65535,str:40162,d0:1,d1:0;))))))
-            (____, Scope<Void> @:8212 op:595,dt:4,nt:8,next:8218,str:40167,d0:8213,d1:33673;
+            (____, BuiltinInvocation<Void> @:8212 op:595,dt:4,nt:8,next:8218,str:40167,d0:8213,d1:33673;
                 ("sound_impulse_trigger", Expression<MethodOrOperator> @:8213 op:595,dt:2,nt:9,next:8214,str:11133,d0:0,d1:0;
                     ("sound\dialog\levels\07_highcharity\mission\l07_5010_grv", Expression<Sound> @:8214 op:32,dt:32,nt:9,next:8215,str:19177,d0:6058,d1:63947;
                         (4294901864, Expression<Entity> @:8215 op:56,dt:50,nt:9,next:8216,str:18997,d0:104,d1:65535;
                             (1f, Expression<Float> @:8216 op:6,dt:6,nt:9,next:8217,str:40260,d0:0,d1:16256;
                                 (1, Expression<Int> @:8217 op:8,dt:8,nt:9,next:65535,str:40264,d0:1,d1:0;))))))
-            (____, Scope<Void> @:8218 op:595,dt:4,nt:8,next:8224,str:40269,d0:8219,d1:33679;
+            (____, BuiltinInvocation<Void> @:8218 op:595,dt:4,nt:8,next:8224,str:40269,d0:8219,d1:33679;
                 ("sound_impulse_trigger", Expression<MethodOrOperator> @:8219 op:595,dt:2,nt:9,next:8220,str:11133,d0:0,d1:0;
                     ("sound\dialog\levels\07_highcharity\mission\l07_5010_grv", Expression<Sound> @:8220 op:32,dt:32,nt:9,next:8221,str:19177,d0:6058,d1:63947;
                         (4294901865, Expression<Entity> @:8221 op:56,dt:50,nt:9,next:8222,str:19009,d0:105,d1:65535;
                             (1f, Expression<Float> @:8222 op:6,dt:6,nt:9,next:8223,str:40362,d0:0,d1:16256;
                                 (1, Expression<Int> @:8223 op:8,dt:8,nt:9,next:65535,str:40366,d0:1,d1:0;))))))
-            (____, Scope<Void> @:8224 op:595,dt:4,nt:8,next:8230,str:40371,d0:8225,d1:33685;
+            (____, BuiltinInvocation<Void> @:8224 op:595,dt:4,nt:8,next:8230,str:40371,d0:8225,d1:33685;
                 ("sound_impulse_trigger", Expression<MethodOrOperator> @:8225 op:595,dt:2,nt:9,next:8226,str:11133,d0:0,d1:0;
                     ("sound\dialog\levels\07_highcharity\mission\l07_5010_grv", Expression<Sound> @:8226 op:32,dt:32,nt:9,next:8227,str:19177,d0:6058,d1:63947;
                         (4294901866, Expression<Entity> @:8227 op:56,dt:50,nt:9,next:8228,str:19021,d0:106,d1:65535;
                             (1f, Expression<Float> @:8228 op:6,dt:6,nt:9,next:8229,str:40464,d0:0,d1:16256;
                                 (1, Expression<Int> @:8229 op:8,dt:8,nt:9,next:65535,str:40468,d0:1,d1:0;))))))
-            (____, Scope<Void> @:8230 op:595,dt:4,nt:8,next:8236,str:40473,d0:8231,d1:33691;
+            (____, BuiltinInvocation<Void> @:8230 op:595,dt:4,nt:8,next:8236,str:40473,d0:8231,d1:33691;
                 ("sound_impulse_trigger", Expression<MethodOrOperator> @:8231 op:595,dt:2,nt:9,next:8232,str:11133,d0:0,d1:0;
                     ("sound\dialog\levels\07_highcharity\mission\l07_5010_grv", Expression<Sound> @:8232 op:32,dt:32,nt:9,next:8233,str:19177,d0:6058,d1:63947;
                         (4294901867, Expression<Entity> @:8233 op:56,dt:50,nt:9,next:8234,str:19033,d0:107,d1:65535;
                             (1f, Expression<Float> @:8234 op:6,dt:6,nt:9,next:8235,str:40566,d0:0,d1:16256;
                                 (1, Expression<Int> @:8235 op:8,dt:8,nt:9,next:65535,str:40570,d0:1,d1:0;))))))
-            (____, Scope<Void> @:8236 op:595,dt:4,nt:8,next:8242,str:40575,d0:8237,d1:33697;
+            (____, BuiltinInvocation<Void> @:8236 op:595,dt:4,nt:8,next:8242,str:40575,d0:8237,d1:33697;
                 ("sound_impulse_trigger", Expression<MethodOrOperator> @:8237 op:595,dt:2,nt:9,next:8238,str:11133,d0:0,d1:0;
                     ("sound\dialog\levels\07_highcharity\mission\l07_5010_grv", Expression<Sound> @:8238 op:32,dt:32,nt:9,next:8239,str:19177,d0:6058,d1:63947;
                         (4294901869, Expression<Entity> @:8239 op:56,dt:50,nt:9,next:8240,str:19233,d0:109,d1:65535;
                             (1f, Expression<Float> @:8240 op:6,dt:6,nt:9,next:8241,str:40671,d0:0,d1:16256;
                                 (1, Expression<Int> @:8241 op:8,dt:8,nt:9,next:65535,str:40675,d0:1,d1:0;))))))
-            (____, Scope<Void> @:8242 op:19,dt:4,nt:8,next:8248,str:40680,d0:8243,d1:33703;
+            (____, BuiltinInvocation<Void> @:8242 op:19,dt:4,nt:8,next:8248,str:40680,d0:8243,d1:33703;
                 ("sleep", Expression<MethodOrOperator> @:8243 op:19,dt:2,nt:9,next:8244,str:80,d0:0,d1:0;
-                    (____, Scope<Short> @:8244 op:362,dt:7,nt:8,next:65535,str:40687,d0:8245,d1:33705;
+                    (____, BuiltinInvocation<Short> @:8244 op:362,dt:7,nt:8,next:65535,str:40687,d0:8245,d1:33705;
                         ("ai_play_line_on_object", Expression<MethodOrOperator> @:8245 op:362,dt:2,nt:9,next:8246,str:10552,d0:0,d1:0;
                             (4294901868, Expression<Entity> @:8246 op:56,dt:50,nt:9,next:8247,str:19248,d0:108,d1:65535;
                                 ("5010", Expression<StringId> @:8247 op:11,dt:11,nt:9,next:65535,str:19263,d0:13598,d1:1024;))))))
-            (____, Scope<Void> @:8248 op:22,dt:4,nt:8,next:65535,str:40737,d0:8249,d1:33709;
+            (____, BuiltinInvocation<Void> @:8248 op:22,dt:4,nt:8,next:65535,str:40737,d0:8249,d1:33709;
                 ("wake", Expression<MethodOrOperator> @:8249 op:22,dt:2,nt:9,next:8250,str:1066,d0:0,d1:0;
                     ("music_07b_04_start", Expression<ScriptReference> @:8250 op:10,dt:10,nt:9,next:65535,str:19268,d0:117,d1:65535;))))))

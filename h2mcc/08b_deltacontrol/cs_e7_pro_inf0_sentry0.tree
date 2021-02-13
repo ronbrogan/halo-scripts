@@ -1,41 +1,41 @@
 
 ("cs_e7_pro_inf0_sentry0", MethodDecl<Void> @:432 op:0,dt:0,nt:65535,next:16633,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:16633 op:0,dt:4,nt:8,next:65535,str:14178,d0:16634,d1:42094;
+    (____, BuiltinInvocation<Void> @:16633 op:0,dt:4,nt:8,next:65535,str:14178,d0:16634,d1:42094;
         ("begin", Expression<MethodOrOperator> @:16634 op:0,dt:2,nt:9,next:16596,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:16596 op:440,dt:4,nt:8,next:16599,str:14226,d0:16597,d1:42057;
+            (____, BuiltinInvocation<Void> @:16596 op:440,dt:4,nt:8,next:16599,str:14226,d0:16597,d1:42057;
                 ("cs_abort_on_damage", Expression<MethodOrOperator> @:16597 op:440,dt:2,nt:9,next:16598,str:1120,d0:0,d1:0;
                     (True, Expression<Boolean> @:16598 op:5,dt:5,nt:9,next:65535,str:14246,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:16599 op:21,dt:4,nt:8,next:16615,str:14276,d0:16600,d1:42060;
+            (____, BuiltinInvocation<Void> @:16599 op:21,dt:4,nt:8,next:16615,str:14276,d0:16600,d1:42060;
                 ("sleep_until", Expression<MethodOrOperator> @:16600 op:21,dt:2,nt:9,next:16601,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:16601 op:6,dt:5,nt:8,next:16614,str:14292,d0:16602,d1:42062;
+                    (____, BuiltinInvocation<Boolean> @:16601 op:6,dt:5,nt:8,next:16614,str:14292,d0:16602,d1:42062;
                         ("or", Expression<MethodOrOperator> @:16602 op:6,dt:2,nt:9,next:16603,str:849,d0:0,d1:0;
                             ("g_e7_pro_captain_done", VariableAccess<Boolean> @:16603 op:5,dt:5,nt:13,next:16604,str:35234,d0:54,d1:0;
-                                (____, Scope<Boolean> @:16604 op:18,dt:5,nt:8,next:65535,str:14326,d0:16605,d1:42065;
+                                (____, BuiltinInvocation<Boolean> @:16604 op:18,dt:5,nt:8,next:65535,str:14326,d0:16605,d1:42065;
                                     ("<=", Expression<MethodOrOperator> @:16605 op:18,dt:2,nt:9,next:16606,str:6210,d0:0,d1:0;
-                                        (-4.580828E-17f, Scope<Float> @:16606 op:114,dt:6,nt:8,next:16613,str:14330,d0:16607,d1:42067;
+                                        (-4.580828E-17f, BuiltinInvocation<Float> @:16606 op:114,dt:6,nt:8,next:16613,str:14330,d0:16607,d1:42067;
                                             ("objects_distance_to_object", Expression<MethodOrOperator> @:16607 op:114,dt:2,nt:9,next:16608,str:30029,d0:0,d1:0;
-                                                (____, Scope<List> @:16608 op:28,dt:31,nt:8,next:16610,str:14358,d0:16609,d1:42069;
+                                                (____, BuiltinInvocation<List> @:16608 op:28,dt:31,nt:8,next:16610,str:14358,d0:16609,d1:42069;
                                                     ("players", Expression<MethodOrOperator> @:16609 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;))
-                                                (____, Scope<Entity> @:16610 op:284,dt:50,nt:8,next:65535,str:14368,d0:16611,d1:42071;
+                                                (____, BuiltinInvocation<Entity> @:16610 op:284,dt:50,nt:8,next:65535,str:14368,d0:16611,d1:42071;
                                                     ("ai_get_object", Expression<MethodOrOperator> @:16611 op:284,dt:2,nt:9,next:16612,str:1422,d0:0,d1:0;
                                                         ("ai_current_actor", VariableAccess<AI> @:16612 op:19,dt:19,nt:13,next:65535,str:1271,d0:33564,d1:65535;)))))
                                         (5f, Expression<Float> @:16613 op:6,dt:6,nt:9,next:65535,str:14402,d0:0,d1:16544;))))))
                     (10, Expression<Short> @:16614 op:7,dt:7,nt:9,next:65535,str:14413,d0:10,d1:65535;)))
-            (____, Scope<Void> @:16615 op:393,dt:4,nt:8,next:16619,str:14437,d0:16616,d1:42076;
+            (____, BuiltinInvocation<Void> @:16615 op:393,dt:4,nt:8,next:16619,str:14437,d0:16616,d1:42076;
                 ("cs_look", Expression<MethodOrOperator> @:16616 op:393,dt:2,nt:9,next:16617,str:35351,d0:0,d1:0;
                     (True, Expression<Boolean> @:16617 op:5,dt:5,nt:9,next:16618,str:14446,d0:65281,d1:65535;
                         ("e7_pro_inf0_sentry/look0", Expression<SpatialPoint> @:16618 op:28,dt:28,nt:9,next:65535,str:35359,d0:0,d1:12;))))
-            (____, Scope<Void> @:16619 op:19,dt:4,nt:8,next:16622,str:14479,d0:16620,d1:42080;
+            (____, BuiltinInvocation<Void> @:16619 op:19,dt:4,nt:8,next:16622,str:14479,d0:16620,d1:42080;
                 ("sleep", Expression<MethodOrOperator> @:16620 op:19,dt:2,nt:9,next:16621,str:85,d0:0,d1:0;
                     (45, Expression<Short> @:16621 op:7,dt:7,nt:9,next:65535,str:14486,d0:45,d1:65535;)))
-            (____, Scope<Void> @:16622 op:399,dt:4,nt:8,next:16626,str:14492,d0:16623,d1:42083;
+            (____, BuiltinInvocation<Void> @:16622 op:399,dt:4,nt:8,next:16626,str:14492,d0:16623,d1:42083;
                 ("cs_face", Expression<MethodOrOperator> @:16623 op:399,dt:2,nt:9,next:16624,str:26800,d0:0,d1:0;
                     (True, Expression<Boolean> @:16624 op:5,dt:5,nt:9,next:16625,str:14501,d0:65281,d1:65535;
                         ("e7_pro_inf0_sentry/look1", Expression<SpatialPoint> @:16625 op:28,dt:28,nt:9,next:65535,str:35384,d0:1,d1:12;))))
-            (____, Scope<Void> @:16626 op:19,dt:4,nt:8,next:16629,str:14534,d0:16627,d1:42087;
+            (____, BuiltinInvocation<Void> @:16626 op:19,dt:4,nt:8,next:16629,str:14534,d0:16627,d1:42087;
                 ("sleep", Expression<MethodOrOperator> @:16627 op:19,dt:2,nt:9,next:16628,str:85,d0:0,d1:0;
                     (60, Expression<Short> @:16628 op:7,dt:7,nt:9,next:65535,str:14541,d0:60,d1:65535;)))
-            (____, Scope<Void> @:16629 op:367,dt:4,nt:8,next:65535,str:14576,d0:16630,d1:42090;
+            (____, BuiltinInvocation<Void> @:16629 op:367,dt:4,nt:8,next:65535,str:14576,d0:16630,d1:42090;
                 ("cs_queue_command_script", Expression<MethodOrOperator> @:16630 op:367,dt:2,nt:9,next:16631,str:6967,d0:0,d1:0;
                     ("ai_current_actor", VariableAccess<AI> @:16631 op:19,dt:19,nt:13,next:16632,str:1271,d0:33564,d1:65535;
                         ("cs_e7_pro_inf0_sentry0_alerted", Expression<AIScript> @:16632 op:21,dt:21,nt:9,next:65535,str:35409,d0:431,d1:0;)))))))

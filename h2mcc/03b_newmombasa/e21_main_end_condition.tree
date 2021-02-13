@@ -1,28 +1,28 @@
 
 ("e21_main_end_condition", MethodDecl<Void> @:324 op:0,dt:0,nt:65535,next:11501,str:24293,d0:0,d1:0;
-    (____, Scope<Void> @:11501 op:0,dt:4,nt:8,next:65535,str:15589,d0:11502,d1:36962;
+    (____, BuiltinInvocation<Void> @:11501 op:0,dt:4,nt:8,next:65535,str:15589,d0:11502,d1:36962;
         ("begin", Expression<MethodOrOperator> @:11502 op:0,dt:2,nt:9,next:11477,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:11477 op:21,dt:4,nt:8,next:11480,str:15630,d0:11478,d1:36938;
+            (____, BuiltinInvocation<Void> @:11477 op:21,dt:4,nt:8,next:11480,str:15630,d0:11478,d1:36938;
                 ("sleep_until", Expression<MethodOrOperator> @:11478 op:21,dt:2,nt:9,next:11479,str:236,d0:0,d1:0;
                     ("g_e21_cov_phantom1_retreating", VariableAccess<Boolean> @:11479 op:5,dt:5,nt:13,next:65535,str:23254,d0:38,d1:0;)))
-            (____, Scope<Void> @:11480 op:21,dt:4,nt:8,next:11498,str:15676,d0:11481,d1:36941;
+            (____, BuiltinInvocation<Void> @:11480 op:21,dt:4,nt:8,next:11498,str:15676,d0:11481,d1:36941;
                 ("sleep_until", Expression<MethodOrOperator> @:11481 op:21,dt:2,nt:9,next:11482,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:11482 op:5,dt:5,nt:8,next:11496,str:15692,d0:11483,d1:36943;
+                    (____, BuiltinInvocation<Boolean> @:11482 op:5,dt:5,nt:8,next:11496,str:15692,d0:11483,d1:36943;
                         ("and", Expression<MethodOrOperator> @:11483 op:5,dt:2,nt:9,next:11484,str:672,d0:0,d1:0;
-                            (____, Scope<Boolean> @:11484 op:18,dt:5,nt:8,next:11490,str:15701,d0:11485,d1:36945;
+                            (____, BuiltinInvocation<Boolean> @:11484 op:18,dt:5,nt:8,next:11490,str:15701,d0:11485,d1:36945;
                                 ("<=", Expression<MethodOrOperator> @:11485 op:18,dt:2,nt:9,next:11486,str:17216,d0:0,d1:0;
-                                    (____, Scope<Short> @:11486 op:327,dt:7,nt:8,next:11489,str:15705,d0:11487,d1:36947;
+                                    (____, BuiltinInvocation<Short> @:11486 op:327,dt:7,nt:8,next:11489,str:15705,d0:11487,d1:36947;
                                         ("ai_living_count", Expression<MethodOrOperator> @:11487 op:327,dt:2,nt:9,next:11488,str:17340,d0:0,d1:0;
                                             ("e21_cov_ghosts0", Expression<AI> @:11488 op:19,dt:19,nt:9,next:65535,str:24217,d0:33,d1:16384;)))
                                     (0, Expression<Short> @:11489 op:7,dt:7,nt:9,next:65535,str:15739,d0:0,d1:65535;)))
-                            (____, Scope<Boolean> @:11490 op:18,dt:5,nt:8,next:65535,str:15746,d0:11491,d1:36951;
+                            (____, BuiltinInvocation<Boolean> @:11490 op:18,dt:5,nt:8,next:65535,str:15746,d0:11491,d1:36951;
                                 ("<=", Expression<MethodOrOperator> @:11491 op:18,dt:2,nt:9,next:11492,str:17216,d0:0,d1:0;
-                                    (____, Scope<Short> @:11492 op:327,dt:7,nt:8,next:11495,str:15750,d0:11493,d1:36953;
+                                    (____, BuiltinInvocation<Short> @:11492 op:327,dt:7,nt:8,next:11495,str:15750,d0:11493,d1:36953;
                                         ("ai_living_count", Expression<MethodOrOperator> @:11493 op:327,dt:2,nt:9,next:11494,str:17340,d0:0,d1:0;
                                             ("e21_cov_wraiths0", Expression<AI> @:11494 op:19,dt:19,nt:9,next:65535,str:23403,d0:32,d1:16384;)))
                                     (0, Expression<Short> @:11495 op:7,dt:7,nt:9,next:65535,str:15785,d0:0,d1:65535;)))))
                     (30, Expression<Short> @:11496 op:7,dt:7,nt:9,next:11497,str:15796,d0:30,d1:65535;
                         ("one_minute", VariableAccess<Int> @:11497 op:8,dt:8,nt:13,next:65535,str:23651,d0:6,d1:0;))))
-            (____, Scope<Void> @:11498 op:22,dt:4,nt:8,next:65535,str:15850,d0:11499,d1:36959;
+            (____, BuiltinInvocation<Void> @:11498 op:22,dt:4,nt:8,next:65535,str:15850,d0:11499,d1:36959;
                 ("wake", Expression<MethodOrOperator> @:11499 op:22,dt:2,nt:9,next:11500,str:1071,d0:0,d1:0;
                     ("e22_main", Expression<ScriptReference> @:11500 op:10,dt:10,nt:9,next:65535,str:22150,d0:301,d1:65535;))))))

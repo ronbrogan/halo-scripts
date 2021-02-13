@@ -20,25 +20,25 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
         }
 
 #endregion
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(0, Lifecycle.Static)]
         public async Task<IUnit> player0()
         {
             return Engine.unit(Engine.list_get(Engine.players(), 0));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(1, Lifecycle.Static)]
         public async Task<IUnit> player1()
         {
             return Engine.unit(Engine.list_get(Engine.players(), 1));
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(2, Lifecycle.Static)]
         public async Task<int> player_count()
         {
             return Engine.list_count(Engine.players());
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(3, Lifecycle.Static)]
         public async Task end_segment()
         {
             Engine.camera_control(true);
@@ -57,28 +57,25 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
             Engine.map_reset();
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(4, Lifecycle.Static)]
         public async Task<bool> difficulty_legendary()
         {
-            return Engine.game_difficulty_get() // Couldn't generate cast from 'String' to 'GameDifficulty'
- == "legendary";
+            return Engine.game_difficulty_get() == GameDifficulty.Legendary();
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(5, Lifecycle.Static)]
         public async Task<bool> difficulty_heroic()
         {
-            return Engine.game_difficulty_get() // Couldn't generate cast from 'String' to 'GameDifficulty'
- == "heroic";
+            return Engine.game_difficulty_get() == GameDifficulty.Heroic();
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(6, Lifecycle.Static)]
         public async Task<bool> difficulty_normal()
         {
-            return Engine.game_difficulty_get() // Couldn't generate cast from 'String' to 'GameDifficulty'
- == "normal";
+            return Engine.game_difficulty_get() == GameDifficulty.Normal();
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(7, Lifecycle.Static)]
         public async Task<bool> cinematic_skip_start()
         {
             Engine.cinematic_skip_start_internal();
@@ -87,7 +84,7 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
             return !((bool)Engine.game_reverted());
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(8, Lifecycle.Static)]
         public async Task cinematic_skip_stop()
         {
             Engine.cinematic_skip_stop_internal();
@@ -97,7 +94,7 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
             }
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(9, Lifecycle.Static)]
         public async Task cinematic_fade_to_white()
         {
             Engine.player_enable_input(false);
@@ -109,7 +106,7 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
             Engine.camera_control(true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(10, Lifecycle.Static)]
         public async Task cinematic_fade_from_white()
         {
             Engine.hud_cinematic_fade(1F, 0.5F);
@@ -121,7 +118,7 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
             Engine.player_camera_control(true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(11, Lifecycle.Static)]
         public async Task cinematic_fade_from_white_bars()
         {
             Engine.cinematic_stop();
@@ -133,7 +130,7 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
             Engine.player_camera_control(true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(12, Lifecycle.Static)]
         public async Task cinematic_fade_from_black_bars()
         {
             Engine.cinematic_stop();
@@ -145,7 +142,7 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
             Engine.player_camera_control(true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(13, Lifecycle.Static)]
         public async Task cinematic_fade_to_black()
         {
             Engine.player_enable_input(false);
@@ -157,7 +154,7 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
             Engine.camera_control(true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(14, Lifecycle.Static)]
         public async Task cinematic_fade_from_black()
         {
             Engine.hud_cinematic_fade(1F, 0.5F);
@@ -169,7 +166,7 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
             Engine.player_camera_control(true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(15, Lifecycle.Static)]
         public async Task cinematic_snap_to_black()
         {
             Engine.player_enable_input(false);
@@ -181,7 +178,7 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
             Engine.camera_control(true);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(16, Lifecycle.Static)]
         public async Task cinematic_stash_players()
         {
             Engine.object_hide(await this.player0(), true);
@@ -189,7 +186,7 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
             Engine.object_cannot_take_damage(Engine.players());
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(17, Lifecycle.Static)]
         public async Task cinematic_unstash_players()
         {
             Engine.object_hide(await this.player0(), false);
@@ -197,7 +194,7 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
             Engine.object_can_take_damage(Engine.players());
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(18, Lifecycle.Dormant)]
         public async Task _stealth_toggle_monitor()
         {
             await Engine.sleep_until(async () =>
@@ -232,7 +229,7 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
             }, 1);
         }
 
-        [ScriptMethod(Lifecycle.Dormant)]
+        [ScriptMethod(19, Lifecycle.Dormant)]
         public async Task _stealth_timer_monitor()
         {
             await Engine.sleep_until(async () =>
@@ -267,19 +264,19 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
             }, 1);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(20, Lifecycle.Static)]
         public async Task activate_stealth_toggle_monitor()
         {
             await Engine.sleep(1);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(21, Lifecycle.Static)]
         public async Task activate_stealth_timer_monitor()
         {
             await Engine.sleep(1);
         }
 
-        [ScriptMethod(Lifecycle.Static)]
+        [ScriptMethod(22, Lifecycle.Static)]
         public async Task playtest_mission()
         {
             if ((bool)Engine.game_is_playtest())
@@ -294,7 +291,7 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
             }
         }
 
-        [ScriptMethod(Lifecycle.Startup)]
+        [ScriptMethod(23, Lifecycle.Startup)]
         public async Task mission_main()
         {
             await this.cinematic_fade_from_black();

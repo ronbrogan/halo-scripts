@@ -1,57 +1,57 @@
 
 ("tele_conduit_b", MethodDecl<Void> @:392 op:0,dt:0,nt:65535,next:23028,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:23028 op:0,dt:4,nt:8,next:65535,str:42803,d0:23029,d1:48489;
+    (____, BuiltinInvocation<Void> @:23028 op:0,dt:4,nt:8,next:65535,str:42803,d0:23029,d1:48489;
         ("begin", Expression<MethodOrOperator> @:23029 op:0,dt:2,nt:9,next:22975,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:22975 op:507,dt:4,nt:8,next:22978,str:42840,d0:22976,d1:48436;
+            (____, BuiltinInvocation<Void> @:22975 op:507,dt:4,nt:8,next:22978,str:42840,d0:22976,d1:48436;
                 ("switch_bsp", Expression<MethodOrOperator> @:22976 op:507,dt:2,nt:9,next:22977,str:31335,d0:0,d1:0;
                     (1, Expression<Short> @:22977 op:7,dt:7,nt:9,next:65535,str:42852,d0:1,d1:65535;)))
-            (____, Scope<Void> @:22978 op:19,dt:4,nt:8,next:22981,str:42857,d0:22979,d1:48439;
+            (____, BuiltinInvocation<Void> @:22978 op:19,dt:4,nt:8,next:22981,str:42857,d0:22979,d1:48439;
                 ("sleep", Expression<MethodOrOperator> @:22979 op:19,dt:2,nt:9,next:22980,str:80,d0:0,d1:0;
                     (1, Expression<Short> @:22980 op:7,dt:7,nt:9,next:65535,str:42864,d0:1,d1:65535;)))
-            (____, Scope<Void> @:22981 op:105,dt:4,nt:8,next:22986,str:42869,d0:22982,d1:48442;
+            (____, BuiltinInvocation<Void> @:22981 op:105,dt:4,nt:8,next:22986,str:42869,d0:22982,d1:48442;
                 ("object_teleport", Expression<MethodOrOperator> @:22982 op:105,dt:2,nt:9,next:22983,str:31466,d0:0,d1:0;
                     ("player0", ScriptInvocation<Entity> @:22983 op:0,dt:50,nt:10,next:22985,str:42886,d0:22984,d1:48444;
                         ("player0", Expression<MethodOrOperator> @:22984 op:0,dt:2,nt:9,next:65535,str:602,d0:0,d1:0;))
                     ("conduit_b_a", Expression<LocationFlag> @:22985 op:14,dt:14,nt:9,next:65535,str:34928,d0:19,d1:0;)))
-            (____, Scope<Void> @:22986 op:105,dt:4,nt:8,next:22991,str:42911,d0:22987,d1:48447;
+            (____, BuiltinInvocation<Void> @:22986 op:105,dt:4,nt:8,next:22991,str:42911,d0:22987,d1:48447;
                 ("object_teleport", Expression<MethodOrOperator> @:22987 op:105,dt:2,nt:9,next:22988,str:31466,d0:0,d1:0;
                     ("player1", ScriptInvocation<Entity> @:22988 op:1,dt:50,nt:10,next:22990,str:42928,d0:22989,d1:48449;
                         ("player1", Expression<MethodOrOperator> @:22989 op:1,dt:2,nt:9,next:65535,str:610,d0:0,d1:0;))
                     ("conduit_b_b", Expression<LocationFlag> @:22990 op:14,dt:14,nt:9,next:65535,str:34940,d0:20,d1:0;)))
-            (____, Scope<Void> @:22991 op:22,dt:4,nt:8,next:22994,str:42953,d0:22992,d1:48452;
+            (____, BuiltinInvocation<Void> @:22991 op:22,dt:4,nt:8,next:22994,str:42953,d0:22992,d1:48452;
                 ("wake", Expression<MethodOrOperator> @:22992 op:22,dt:2,nt:9,next:22993,str:1066,d0:0,d1:0;
                     ("bsp0_cleanup", Expression<ScriptReference> @:22993 op:10,dt:10,nt:9,next:65535,str:22171,d0:270,d1:65535;)))
-            (____, Scope<Void> @:22994 op:299,dt:4,nt:8,next:22996,str:42975,d0:22995,d1:48455;
+            (____, BuiltinInvocation<Void> @:22994 op:299,dt:4,nt:8,next:22996,str:42975,d0:22995,d1:48455;
                 ("ai_erase_all", Expression<MethodOrOperator> @:22995 op:299,dt:2,nt:9,next:65535,str:34777,d0:0,d1:0;))
-            (____, Scope<Void> @:22996 op:4,dt:4,nt:8,next:23000,str:42995,d0:22997,d1:48457;
+            (____, BuiltinInvocation<Void> @:22996 op:4,dt:4,nt:8,next:23000,str:42995,d0:22997,d1:48457;
                 ("set", Expression<MethodOrOperator> @:22997 op:4,dt:2,nt:9,next:22998,str:2613,d0:0,d1:0;
                     ("g_hall_a", VariableAccess<Boolean> @:22998 op:65535,dt:5,nt:13,next:22999,str:27851,d0:11,d1:0;
                         (True, Expression<Boolean> @:22999 op:5,dt:5,nt:9,next:65535,str:43009,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:23000 op:4,dt:4,nt:8,next:23004,str:43014,d0:23001,d1:48461;
+            (____, BuiltinInvocation<Void> @:23000 op:4,dt:4,nt:8,next:23004,str:43014,d0:23001,d1:48461;
                 ("set", Expression<MethodOrOperator> @:23001 op:4,dt:2,nt:9,next:23002,str:2613,d0:0,d1:0;
                     ("g_conduit_a", VariableAccess<Boolean> @:23002 op:65535,dt:5,nt:13,next:23003,str:27989,d0:12,d1:0;
                         (True, Expression<Boolean> @:23003 op:5,dt:5,nt:9,next:65535,str:43031,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:23004 op:4,dt:4,nt:8,next:23008,str:43036,d0:23005,d1:48465;
+            (____, BuiltinInvocation<Void> @:23004 op:4,dt:4,nt:8,next:23008,str:43036,d0:23005,d1:48465;
                 ("set", Expression<MethodOrOperator> @:23005 op:4,dt:2,nt:9,next:23006,str:2613,d0:0,d1:0;
                     ("g_hall_b", VariableAccess<Boolean> @:23006 op:65535,dt:5,nt:13,next:23007,str:28265,d0:13,d1:0;
                         (True, Expression<Boolean> @:23007 op:5,dt:5,nt:9,next:65535,str:43050,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:23008 op:4,dt:4,nt:8,next:23012,str:43055,d0:23009,d1:48469;
+            (____, BuiltinInvocation<Void> @:23008 op:4,dt:4,nt:8,next:23012,str:43055,d0:23009,d1:48469;
                 ("set", Expression<MethodOrOperator> @:23009 op:4,dt:2,nt:9,next:23010,str:2613,d0:0,d1:0;
                     ("g_plug_launch", VariableAccess<Boolean> @:23010 op:65535,dt:5,nt:13,next:23011,str:28410,d0:14,d1:0;
                         (True, Expression<Boolean> @:23011 op:5,dt:5,nt:9,next:65535,str:43074,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:23012 op:4,dt:4,nt:8,next:23016,str:43079,d0:23013,d1:48473;
+            (____, BuiltinInvocation<Void> @:23012 op:4,dt:4,nt:8,next:23016,str:43079,d0:23013,d1:48473;
                 ("set", Expression<MethodOrOperator> @:23013 op:4,dt:2,nt:9,next:23014,str:2613,d0:0,d1:0;
                     ("g_plug_landing", VariableAccess<Boolean> @:23014 op:65535,dt:5,nt:13,next:23015,str:28651,d0:15,d1:0;
                         (True, Expression<Boolean> @:23015 op:5,dt:5,nt:9,next:65535,str:43099,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:23016 op:4,dt:4,nt:8,next:23020,str:43104,d0:23017,d1:48477;
+            (____, BuiltinInvocation<Void> @:23016 op:4,dt:4,nt:8,next:23020,str:43104,d0:23017,d1:48477;
                 ("set", Expression<MethodOrOperator> @:23017 op:4,dt:2,nt:9,next:23018,str:2613,d0:0,d1:0;
                     ("g_hall_c", VariableAccess<Boolean> @:23018 op:65535,dt:5,nt:13,next:23019,str:29107,d0:16,d1:0;
                         (True, Expression<Boolean> @:23019 op:5,dt:5,nt:9,next:65535,str:43118,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:23020 op:4,dt:4,nt:8,next:23024,str:43123,d0:23021,d1:48481;
+            (____, BuiltinInvocation<Void> @:23020 op:4,dt:4,nt:8,next:23024,str:43123,d0:23021,d1:48481;
                 ("set", Expression<MethodOrOperator> @:23021 op:4,dt:2,nt:9,next:23022,str:2613,d0:0,d1:0;
                     ("g_ledge_a", VariableAccess<Boolean> @:23022 op:65535,dt:5,nt:13,next:23023,str:29482,d0:17,d1:0;
                         (True, Expression<Boolean> @:23023 op:5,dt:5,nt:9,next:65535,str:43138,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:23024 op:4,dt:4,nt:8,next:65535,str:43143,d0:23025,d1:48485;
+            (____, BuiltinInvocation<Void> @:23024 op:4,dt:4,nt:8,next:65535,str:43143,d0:23025,d1:48485;
                 ("set", Expression<MethodOrOperator> @:23025 op:4,dt:2,nt:9,next:23026,str:2613,d0:0,d1:0;
                     ("g_conduit_b", VariableAccess<Boolean> @:23026 op:65535,dt:5,nt:13,next:23027,str:29711,d0:18,d1:0;
                         (True, Expression<Boolean> @:23027 op:5,dt:5,nt:9,next:65535,str:43160,d0:65281,d1:65535;)))))))

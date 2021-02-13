@@ -58,8 +58,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public IAiOrders atr2_order => Scenario.AiOrderDefinitions[1].GameObject;
         public IAiOrders mid_order => Scenario.AiOrderDefinitions[2].GameObject;
         public IAiOrders atr2_order1 => Scenario.AiOrderDefinitions[3].GameObject;
-        public ILocationFlag tram_flag => Scenario.LocationFlagDefinitions[0].GameObject;
-        public ILocationFlag zapper_flag => Scenario.LocationFlagDefinitions[1].GameObject;
+        public ILocationFlag tram_flag => Scenario.LocationFlagDefinitions[0];
+        public ILocationFlag zapper_flag => Scenario.LocationFlagDefinitions[1];
         public ICinematicTitle title_1 => Scenario.CinematicTitleDefinitions[0].GameObject;
         public ITriggerVolume tv_elevator_tram_bot => Scenario.TriggerVolumes[0].GameObject;
         public ITriggerVolume tv_start_spot => Scenario.TriggerVolumes[1].GameObject;

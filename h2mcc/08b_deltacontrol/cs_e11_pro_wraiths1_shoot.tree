@@ -1,80 +1,80 @@
 
 ("cs_e11_pro_wraiths1_shoot", MethodDecl<Void> @:361 op:0,dt:0,nt:65535,next:12670,str:29240,d0:0,d1:0;
-    (____, Scope<Void> @:12670 op:0,dt:4,nt:8,next:65535,str:20235,d0:12671,d1:38131;
+    (____, BuiltinInvocation<Void> @:12670 op:0,dt:4,nt:8,next:65535,str:20235,d0:12671,d1:38131;
         ("begin", Expression<MethodOrOperator> @:12671 op:0,dt:2,nt:9,next:12593,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:12593 op:441,dt:4,nt:8,next:12596,str:20286,d0:12594,d1:38054;
+            (____, BuiltinInvocation<Void> @:12593 op:441,dt:4,nt:8,next:12596,str:20286,d0:12594,d1:38054;
                 ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:12594 op:441,dt:2,nt:9,next:12595,str:29070,d0:0,d1:0;
                     ("ai_combat_status_clear_los", VariableAccess<Short> @:12595 op:7,dt:7,nt:13,next:65535,str:29096,d0:33579,d1:65535;)))
-            (____, Scope<Void> @:12596 op:444,dt:4,nt:8,next:12599,str:20373,d0:12597,d1:38057;
+            (____, BuiltinInvocation<Void> @:12596 op:444,dt:4,nt:8,next:12599,str:20373,d0:12597,d1:38057;
                 ("cs_enable_moving", Expression<MethodOrOperator> @:12597 op:444,dt:2,nt:9,next:12598,str:1094,d0:0,d1:0;
                     (True, Expression<Boolean> @:12598 op:5,dt:5,nt:9,next:65535,str:20391,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:12599 op:21,dt:4,nt:8,next:65535,str:20450,d0:12600,d1:38060;
+            (____, BuiltinInvocation<Void> @:12599 op:21,dt:4,nt:8,next:65535,str:20450,d0:12600,d1:38060;
                 ("sleep_until", Expression<MethodOrOperator> @:12600 op:21,dt:2,nt:9,next:12601,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:12601 op:0,dt:5,nt:8,next:65535,str:20466,d0:12602,d1:38062;
+                    (____, BuiltinInvocation<Boolean> @:12601 op:0,dt:5,nt:8,next:65535,str:20466,d0:12602,d1:38062;
                         ("begin", Expression<MethodOrOperator> @:12602 op:0,dt:2,nt:9,next:12603,str:6,d0:0,d1:0;
-                            (____, Scope<Void> @:12603 op:1,dt:4,nt:8,next:12669,str:20477,d0:12604,d1:38064;
+                            (____, BuiltinInvocation<Void> @:12603 op:1,dt:4,nt:8,next:12669,str:20477,d0:12604,d1:38064;
                                 ("begin_random", Expression<MethodOrOperator> @:12604 op:1,dt:2,nt:9,next:12605,str:6354,d0:0,d1:0;
-                                    (____, Scope<Void> @:12605 op:0,dt:4,nt:8,next:12621,str:20496,d0:12606,d1:38066;
+                                    (____, BuiltinInvocation<Void> @:12605 op:0,dt:4,nt:8,next:12621,str:20496,d0:12606,d1:38066;
                                         ("begin", Expression<MethodOrOperator> @:12606 op:0,dt:2,nt:9,next:12607,str:6,d0:0,d1:0;
-                                            (____, Scope<Void> @:12607 op:406,dt:4,nt:8,next:12611,str:20509,d0:12608,d1:38068;
+                                            (____, BuiltinInvocation<Void> @:12607 op:406,dt:4,nt:8,next:12611,str:20509,d0:12608,d1:38068;
                                                 ("cs_shoot_point", Expression<MethodOrOperator> @:12608 op:406,dt:2,nt:9,next:12609,str:27173,d0:0,d1:0;
                                                     (True, Expression<Boolean> @:12609 op:5,dt:5,nt:9,next:12610,str:20525,d0:65281,d1:65535;
                                                         ("scarab_air/joint0", Expression<SpatialPoint> @:12610 op:28,dt:28,nt:9,next:65535,str:29123,d0:7,d1:14;))))
-                                            (____, Scope<Void> @:12611 op:19,dt:4,nt:8,next:12617,str:20555,d0:12612,d1:38072;
+                                            (____, BuiltinInvocation<Void> @:12611 op:19,dt:4,nt:8,next:12617,str:20555,d0:12612,d1:38072;
                                                 ("sleep", Expression<MethodOrOperator> @:12612 op:19,dt:2,nt:9,next:12613,str:85,d0:0,d1:0;
-                                                    (____, Scope<Short> @:12613 op:124,dt:7,nt:8,next:65535,str:20562,d0:12614,d1:38074;
+                                                    (____, BuiltinInvocation<Short> @:12613 op:124,dt:7,nt:8,next:65535,str:20562,d0:12614,d1:38074;
                                                         ("random_range", Expression<MethodOrOperator> @:12614 op:124,dt:2,nt:9,next:12615,str:4910,d0:0,d1:0;
                                                             (90, Expression<Short> @:12615 op:7,dt:7,nt:9,next:12616,str:20576,d0:90,d1:65535;
                                                                 (180, Expression<Short> @:12616 op:7,dt:7,nt:9,next:65535,str:20579,d0:180,d1:65535;))))))
-                                            (____, Scope<Void> @:12617 op:406,dt:4,nt:8,next:65535,str:20591,d0:12618,d1:38078;
+                                            (____, BuiltinInvocation<Void> @:12617 op:406,dt:4,nt:8,next:65535,str:20591,d0:12618,d1:38078;
                                                 ("cs_shoot_point", Expression<MethodOrOperator> @:12618 op:406,dt:2,nt:9,next:12619,str:27173,d0:0,d1:0;
                                                     (False, Expression<Boolean> @:12619 op:5,dt:5,nt:9,next:12620,str:20607,d0:65280,d1:65535;
                                                         ("scarab_air/joint0", Expression<SpatialPoint> @:12620 op:28,dt:28,nt:9,next:65535,str:29123,d0:7,d1:14;))))))
-                                    (____, Scope<Void> @:12621 op:0,dt:4,nt:8,next:12637,str:20644,d0:12622,d1:38082;
+                                    (____, BuiltinInvocation<Void> @:12621 op:0,dt:4,nt:8,next:12637,str:20644,d0:12622,d1:38082;
                                         ("begin", Expression<MethodOrOperator> @:12622 op:0,dt:2,nt:9,next:12623,str:6,d0:0,d1:0;
-                                            (____, Scope<Void> @:12623 op:406,dt:4,nt:8,next:12627,str:20657,d0:12624,d1:38084;
+                                            (____, BuiltinInvocation<Void> @:12623 op:406,dt:4,nt:8,next:12627,str:20657,d0:12624,d1:38084;
                                                 ("cs_shoot_point", Expression<MethodOrOperator> @:12624 op:406,dt:2,nt:9,next:12625,str:27173,d0:0,d1:0;
                                                     (True, Expression<Boolean> @:12625 op:5,dt:5,nt:9,next:12626,str:20673,d0:65281,d1:65535;
                                                         ("scarab_air/joint1", Expression<SpatialPoint> @:12626 op:28,dt:28,nt:9,next:65535,str:29141,d0:6,d1:14;))))
-                                            (____, Scope<Void> @:12627 op:19,dt:4,nt:8,next:12633,str:20703,d0:12628,d1:38088;
+                                            (____, BuiltinInvocation<Void> @:12627 op:19,dt:4,nt:8,next:12633,str:20703,d0:12628,d1:38088;
                                                 ("sleep", Expression<MethodOrOperator> @:12628 op:19,dt:2,nt:9,next:12629,str:85,d0:0,d1:0;
-                                                    (____, Scope<Short> @:12629 op:124,dt:7,nt:8,next:65535,str:20710,d0:12630,d1:38090;
+                                                    (____, BuiltinInvocation<Short> @:12629 op:124,dt:7,nt:8,next:65535,str:20710,d0:12630,d1:38090;
                                                         ("random_range", Expression<MethodOrOperator> @:12630 op:124,dt:2,nt:9,next:12631,str:4910,d0:0,d1:0;
                                                             (90, Expression<Short> @:12631 op:7,dt:7,nt:9,next:12632,str:20724,d0:90,d1:65535;
                                                                 (180, Expression<Short> @:12632 op:7,dt:7,nt:9,next:65535,str:20727,d0:180,d1:65535;))))))
-                                            (____, Scope<Void> @:12633 op:406,dt:4,nt:8,next:65535,str:20739,d0:12634,d1:38094;
+                                            (____, BuiltinInvocation<Void> @:12633 op:406,dt:4,nt:8,next:65535,str:20739,d0:12634,d1:38094;
                                                 ("cs_shoot_point", Expression<MethodOrOperator> @:12634 op:406,dt:2,nt:9,next:12635,str:27173,d0:0,d1:0;
                                                     (False, Expression<Boolean> @:12635 op:5,dt:5,nt:9,next:12636,str:20755,d0:65280,d1:65535;
                                                         ("scarab_air/joint1", Expression<SpatialPoint> @:12636 op:28,dt:28,nt:9,next:65535,str:29141,d0:6,d1:14;))))))
-                                    (____, Scope<Void> @:12637 op:0,dt:4,nt:8,next:12653,str:20792,d0:12638,d1:38098;
+                                    (____, BuiltinInvocation<Void> @:12637 op:0,dt:4,nt:8,next:12653,str:20792,d0:12638,d1:38098;
                                         ("begin", Expression<MethodOrOperator> @:12638 op:0,dt:2,nt:9,next:12639,str:6,d0:0,d1:0;
-                                            (____, Scope<Void> @:12639 op:406,dt:4,nt:8,next:12643,str:20805,d0:12640,d1:38100;
+                                            (____, BuiltinInvocation<Void> @:12639 op:406,dt:4,nt:8,next:12643,str:20805,d0:12640,d1:38100;
                                                 ("cs_shoot_point", Expression<MethodOrOperator> @:12640 op:406,dt:2,nt:9,next:12641,str:27173,d0:0,d1:0;
                                                     (True, Expression<Boolean> @:12641 op:5,dt:5,nt:9,next:12642,str:20821,d0:65281,d1:65535;
                                                         ("scarab_air/joint2", Expression<SpatialPoint> @:12642 op:28,dt:28,nt:9,next:65535,str:29159,d0:8,d1:14;))))
-                                            (____, Scope<Void> @:12643 op:19,dt:4,nt:8,next:12649,str:20851,d0:12644,d1:38104;
+                                            (____, BuiltinInvocation<Void> @:12643 op:19,dt:4,nt:8,next:12649,str:20851,d0:12644,d1:38104;
                                                 ("sleep", Expression<MethodOrOperator> @:12644 op:19,dt:2,nt:9,next:12645,str:85,d0:0,d1:0;
-                                                    (____, Scope<Short> @:12645 op:124,dt:7,nt:8,next:65535,str:20858,d0:12646,d1:38106;
+                                                    (____, BuiltinInvocation<Short> @:12645 op:124,dt:7,nt:8,next:65535,str:20858,d0:12646,d1:38106;
                                                         ("random_range", Expression<MethodOrOperator> @:12646 op:124,dt:2,nt:9,next:12647,str:4910,d0:0,d1:0;
                                                             (90, Expression<Short> @:12647 op:7,dt:7,nt:9,next:12648,str:20872,d0:90,d1:65535;
                                                                 (180, Expression<Short> @:12648 op:7,dt:7,nt:9,next:65535,str:20875,d0:180,d1:65535;))))))
-                                            (____, Scope<Void> @:12649 op:406,dt:4,nt:8,next:65535,str:20887,d0:12650,d1:38110;
+                                            (____, BuiltinInvocation<Void> @:12649 op:406,dt:4,nt:8,next:65535,str:20887,d0:12650,d1:38110;
                                                 ("cs_shoot_point", Expression<MethodOrOperator> @:12650 op:406,dt:2,nt:9,next:12651,str:27173,d0:0,d1:0;
                                                     (False, Expression<Boolean> @:12651 op:5,dt:5,nt:9,next:12652,str:20903,d0:65280,d1:65535;
                                                         ("scarab_air/joint2", Expression<SpatialPoint> @:12652 op:28,dt:28,nt:9,next:65535,str:29159,d0:8,d1:14;))))))
-                                    (____, Scope<Void> @:12653 op:0,dt:4,nt:8,next:65535,str:20940,d0:12654,d1:38114;
+                                    (____, BuiltinInvocation<Void> @:12653 op:0,dt:4,nt:8,next:65535,str:20940,d0:12654,d1:38114;
                                         ("begin", Expression<MethodOrOperator> @:12654 op:0,dt:2,nt:9,next:12655,str:6,d0:0,d1:0;
-                                            (____, Scope<Void> @:12655 op:406,dt:4,nt:8,next:12659,str:20953,d0:12656,d1:38116;
+                                            (____, BuiltinInvocation<Void> @:12655 op:406,dt:4,nt:8,next:12659,str:20953,d0:12656,d1:38116;
                                                 ("cs_shoot_point", Expression<MethodOrOperator> @:12656 op:406,dt:2,nt:9,next:12657,str:27173,d0:0,d1:0;
                                                     (True, Expression<Boolean> @:12657 op:5,dt:5,nt:9,next:12658,str:20969,d0:65281,d1:65535;
                                                         ("scarab_air/joint3", Expression<SpatialPoint> @:12658 op:28,dt:28,nt:9,next:65535,str:29177,d0:9,d1:14;))))
-                                            (____, Scope<Void> @:12659 op:19,dt:4,nt:8,next:12665,str:20999,d0:12660,d1:38120;
+                                            (____, BuiltinInvocation<Void> @:12659 op:19,dt:4,nt:8,next:12665,str:20999,d0:12660,d1:38120;
                                                 ("sleep", Expression<MethodOrOperator> @:12660 op:19,dt:2,nt:9,next:12661,str:85,d0:0,d1:0;
-                                                    (____, Scope<Short> @:12661 op:124,dt:7,nt:8,next:65535,str:21006,d0:12662,d1:38122;
+                                                    (____, BuiltinInvocation<Short> @:12661 op:124,dt:7,nt:8,next:65535,str:21006,d0:12662,d1:38122;
                                                         ("random_range", Expression<MethodOrOperator> @:12662 op:124,dt:2,nt:9,next:12663,str:4910,d0:0,d1:0;
                                                             (90, Expression<Short> @:12663 op:7,dt:7,nt:9,next:12664,str:21020,d0:90,d1:65535;
                                                                 (180, Expression<Short> @:12664 op:7,dt:7,nt:9,next:65535,str:21023,d0:180,d1:65535;))))))
-                                            (____, Scope<Void> @:12665 op:406,dt:4,nt:8,next:65535,str:21035,d0:12666,d1:38126;
+                                            (____, BuiltinInvocation<Void> @:12665 op:406,dt:4,nt:8,next:65535,str:21035,d0:12666,d1:38126;
                                                 ("cs_shoot_point", Expression<MethodOrOperator> @:12666 op:406,dt:2,nt:9,next:12667,str:27173,d0:0,d1:0;
                                                     (False, Expression<Boolean> @:12667 op:5,dt:5,nt:9,next:12668,str:21051,d0:65280,d1:65535;
                                                         ("scarab_air/joint3", Expression<SpatialPoint> @:12668 op:28,dt:28,nt:9,next:65535,str:29177,d0:9,d1:14;))))))))

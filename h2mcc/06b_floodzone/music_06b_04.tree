@@ -1,17 +1,17 @@
 
 ("music_06b_04", MethodDecl<Void> @:138 op:0,dt:0,nt:65535,next:4407,str:26587,d0:0,d1:0;
-    (____, Scope<Void> @:4407 op:0,dt:4,nt:8,next:65535,str:52873,d0:4408,d1:62635;
+    (____, BuiltinInvocation<Void> @:4407 op:0,dt:4,nt:8,next:65535,str:52873,d0:4408,d1:62635;
         ("begin", Expression<MethodOrOperator> @:4408 op:0,dt:2,nt:9,next:4393,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:4393 op:21,dt:4,nt:8,next:4396,str:52904,d0:4394,d1:62621;
+            (____, BuiltinInvocation<Void> @:4393 op:21,dt:4,nt:8,next:4396,str:52904,d0:4394,d1:62621;
                 ("sleep_until", Expression<MethodOrOperator> @:4394 op:21,dt:2,nt:9,next:4395,str:236,d0:0,d1:0;
                     ("g_music_06b_04", VariableAccess<Boolean> @:4395 op:5,dt:5,nt:13,next:65535,str:11037,d0:14,d1:0;)))
-            (____, Scope<Void> @:4396 op:2,dt:4,nt:8,next:4402,str:52935,d0:4397,d1:62624;
+            (____, BuiltinInvocation<Void> @:4396 op:2,dt:4,nt:8,next:4402,str:52935,d0:4397,d1:62624;
                 ("if", Expression<MethodOrOperator> @:4397 op:2,dt:2,nt:9,next:4398,str:461,d0:0,d1:0;
                     ("debug", VariableAccess<Boolean> @:4398 op:5,dt:5,nt:13,next:4399,str:10635,d0:3,d1:0;
-                        (____, Scope<Void> @:4399 op:27,dt:4,nt:8,next:65535,str:52945,d0:4400,d1:62627;
+                        (____, BuiltinInvocation<Void> @:4399 op:27,dt:4,nt:8,next:65535,str:52945,d0:4400,d1:62627;
                             ("print", Expression<MethodOrOperator> @:4400 op:27,dt:2,nt:9,next:4401,str:91,d0:0,d1:0;
                                 ("start music 06b_04", Expression<String> @:4401 op:9,dt:9,nt:9,next:65535,str:11052,d0:11052,d1:0;))))))
-            (____, Scope<Void> @:4402 op:605,dt:4,nt:8,next:65535,str:52977,d0:4403,d1:62630;
+            (____, BuiltinInvocation<Void> @:4402 op:605,dt:4,nt:8,next:65535,str:52977,d0:4403,d1:62630;
                 ("sound_looping_start", Expression<MethodOrOperator> @:4403 op:605,dt:2,nt:9,next:4404,str:10775,d0:0,d1:0;
                     ("scenarios\solo\06b_floodzone\06b_music\06b_04", Expression<LoopingSound> @:4404 op:35,dt:35,nt:9,next:4405,str:11071,d0:8061,d1:33037;
                         (4294967295, Expression<Entity> @:4405 op:50,dt:50,nt:9,next:4406,str:1,d0:65535,d1:65535;

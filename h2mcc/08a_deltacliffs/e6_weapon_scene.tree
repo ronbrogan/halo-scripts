@@ -1,27 +1,27 @@
 
 ("e6_weapon_scene", MethodDecl<Void> @:145 op:0,dt:0,nt:65535,next:5360,str:10578,d0:0,d1:0;
-    (____, Scope<Void> @:5360 op:0,dt:4,nt:8,next:65535,str:667,d0:5361,d1:63588;
+    (____, BuiltinInvocation<Void> @:5360 op:0,dt:4,nt:8,next:65535,str:667,d0:5361,d1:63588;
         ("begin", Expression<MethodOrOperator> @:5361 op:0,dt:2,nt:9,next:5334,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:5334 op:21,dt:4,nt:8,next:5351,str:701,d0:5335,d1:63562;
+            (____, BuiltinInvocation<Void> @:5334 op:21,dt:4,nt:8,next:5351,str:701,d0:5335,d1:63562;
                 ("sleep_until", Expression<MethodOrOperator> @:5335 op:21,dt:2,nt:9,next:5336,str:294,d0:0,d1:0;
-                    (____, Scope<Boolean> @:5336 op:6,dt:5,nt:8,next:5349,str:717,d0:5337,d1:63564;
+                    (____, BuiltinInvocation<Boolean> @:5336 op:6,dt:5,nt:8,next:5349,str:717,d0:5337,d1:63564;
                         ("or", Expression<MethodOrOperator> @:5337 op:6,dt:2,nt:9,next:5338,str:907,d0:0,d1:0;
-                            (____, Scope<Boolean> @:5338 op:363,dt:5,nt:8,next:5343,str:725,d0:5339,d1:63566;
+                            (____, BuiltinInvocation<Boolean> @:5338 op:363,dt:5,nt:8,next:5343,str:725,d0:5339,d1:63566;
                                 ("ai_scene", Expression<MethodOrOperator> @:5339 op:363,dt:2,nt:9,next:5340,str:7316,d0:0,d1:0;
                                     ("e6_weapon_scene", Expression<StringId> @:5340 op:11,dt:11,nt:9,next:5341,str:10578,d0:13321,d1:3840;
                                         ("cs_e6_weapon_scene", Expression<AIScript> @:5341 op:21,dt:21,nt:9,next:5342,str:10594,d0:144,d1:0;
                                             ("e6_cov", Expression<AI> @:5342 op:19,dt:19,nt:9,next:65535,str:10339,d0:16,d1:16384;)))))
-                            (____, Scope<Boolean> @:5343 op:18,dt:5,nt:8,next:65535,str:782,d0:5344,d1:63571;
+                            (____, BuiltinInvocation<Boolean> @:5343 op:18,dt:5,nt:8,next:65535,str:782,d0:5344,d1:63571;
                                 ("<=", Expression<MethodOrOperator> @:5344 op:18,dt:2,nt:9,next:5345,str:6041,d0:0,d1:0;
-                                    (____, Scope<Short> @:5345 op:327,dt:7,nt:8,next:5348,str:786,d0:5346,d1:63573;
+                                    (____, BuiltinInvocation<Short> @:5345 op:327,dt:7,nt:8,next:5348,str:786,d0:5346,d1:63573;
                                         ("ai_living_count", Expression<MethodOrOperator> @:5346 op:327,dt:2,nt:9,next:5347,str:7534,d0:0,d1:0;
                                             ("e6_pro_inf1", Expression<AI> @:5347 op:19,dt:19,nt:9,next:65535,str:10613,d0:43,d1:0;)))
                                     (0, Expression<Short> @:5348 op:7,dt:7,nt:9,next:65535,str:816,d0:0,d1:65535;)))))
                     (15, Expression<Short> @:5349 op:7,dt:7,nt:9,next:5350,str:827,d0:15,d1:65535;
                         ("two_minutes", VariableAccess<Int> @:5350 op:8,dt:8,nt:13,next:65535,str:10625,d0:8,d1:0;))))
-            (____, Scope<Void> @:5351 op:21,dt:4,nt:8,next:65535,str:884,d0:5352,d1:63579;
+            (____, BuiltinInvocation<Void> @:5351 op:21,dt:4,nt:8,next:65535,str:884,d0:5352,d1:63579;
                 ("sleep_until", Expression<MethodOrOperator> @:5352 op:21,dt:2,nt:9,next:5353,str:294,d0:0,d1:0;
-                    (____, Scope<Boolean> @:5353 op:363,dt:5,nt:8,next:5358,str:900,d0:5354,d1:63581;
+                    (____, BuiltinInvocation<Boolean> @:5353 op:363,dt:5,nt:8,next:5358,str:900,d0:5354,d1:63581;
                         ("ai_scene", Expression<MethodOrOperator> @:5354 op:363,dt:2,nt:9,next:5355,str:7316,d0:0,d1:0;
                             ("e6_weapon_scene", Expression<StringId> @:5355 op:11,dt:11,nt:9,next:5356,str:10578,d0:13321,d1:3840;
                                 ("cs_e6_weapon_scene", Expression<AIScript> @:5356 op:21,dt:21,nt:9,next:5357,str:10594,d0:144,d1:0;

@@ -1,390 +1,390 @@
 
 ("island_exterior_start", MethodDecl<Void> @:239 op:0,dt:0,nt:65535,next:15248,str:32160,d0:0,d1:0;
-    (____, Scope<Void> @:15248 op:0,dt:4,nt:8,next:65535,str:28623,d0:15249,d1:40709;
+    (____, BuiltinInvocation<Void> @:15248 op:0,dt:4,nt:8,next:65535,str:28623,d0:15249,d1:40709;
         ("begin", Expression<MethodOrOperator> @:15249 op:0,dt:2,nt:9,next:14862,str:142,d0:0,d1:0;
-            (____, Scope<Void> @:14862 op:21,dt:4,nt:8,next:14872,str:28663,d0:14863,d1:40323;
+            (____, BuiltinInvocation<Void> @:14862 op:21,dt:4,nt:8,next:14872,str:28663,d0:14863,d1:40323;
                 ("sleep_until", Expression<MethodOrOperator> @:14863 op:21,dt:2,nt:9,next:14864,str:372,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14864 op:13,dt:5,nt:8,next:65535,str:28676,d0:14865,d1:40325;
+                    (____, BuiltinInvocation<Boolean> @:14864 op:13,dt:5,nt:8,next:65535,str:28676,d0:14865,d1:40325;
                         ("=", Expression<MethodOrOperator> @:14865 op:13,dt:2,nt:9,next:14866,str:437,d0:0,d1:0;
-                            (____, Scope<Boolean> @:14866 op:33,dt:5,nt:8,next:14871,str:28679,d0:14867,d1:40327;
+                            (____, BuiltinInvocation<Boolean> @:14866 op:33,dt:5,nt:8,next:14871,str:28679,d0:14867,d1:40327;
                                 ("volume_test_objects", Expression<MethodOrOperator> @:14867 op:33,dt:2,nt:9,next:14868,str:10374,d0:0,d1:0;
                                     ("vol_island_ext_start", Expression<Trigger> @:14868 op:13,dt:13,nt:9,next:14869,str:25336,d0:70,d1:0;
-                                        (____, Scope<List> @:14869 op:28,dt:31,nt:8,next:65535,str:28721,d0:14870,d1:40330;
+                                        (____, BuiltinInvocation<List> @:14869 op:28,dt:31,nt:8,next:65535,str:28721,d0:14870,d1:40330;
                                             ("players", Expression<MethodOrOperator> @:14870 op:28,dt:2,nt:9,next:65535,str:162,d0:0,d1:0;)))))
                             (True, Expression<Boolean> @:14871 op:5,dt:5,nt:9,next:65535,str:28732,d0:65281,d1:65535;)))))
-            (____, Scope<Void> @:14872 op:300,dt:4,nt:8,next:14876,str:28741,d0:14873,d1:40333;
+            (____, BuiltinInvocation<Void> @:14872 op:300,dt:4,nt:8,next:14876,str:28741,d0:14873,d1:40333;
                 ("ai_disposable", Expression<MethodOrOperator> @:14873 op:300,dt:2,nt:9,next:14874,str:11230,d0:0,d1:0;
                     ("island_gully_enemies", Expression<AI> @:14874 op:19,dt:19,nt:9,next:14875,str:25268,d0:27,d1:16384;
                         (True, Expression<Boolean> @:14875 op:5,dt:5,nt:9,next:65535,str:28777,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:14876 op:786,dt:4,nt:8,next:14879,str:28785,d0:14877,d1:40337;
+            (____, BuiltinInvocation<Void> @:14876 op:786,dt:4,nt:8,next:14879,str:28785,d0:14877,d1:40337;
                 ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:14877 op:786,dt:2,nt:9,next:14878,str:10697,d0:0,d1:0;
                     ("05b_12_island_exterior", Expression<String> @:14878 op:9,dt:9,nt:9,next:65535,str:25972,d0:25972,d1:0;)))
-            (____, Scope<Void> @:14879 op:317,dt:4,nt:8,next:14882,str:28844,d0:14880,d1:40340;
+            (____, BuiltinInvocation<Void> @:14879 op:317,dt:4,nt:8,next:14882,str:28844,d0:14880,d1:40340;
                 ("ai_renew", Expression<MethodOrOperator> @:14880 op:317,dt:2,nt:9,next:14881,str:11258,d0:0,d1:0;
                     ("all_allies", Expression<AI> @:14881 op:19,dt:19,nt:9,next:65535,str:11267,d0:0,d1:16384;)))
-            (____, Scope<Void> @:14882 op:587,dt:4,nt:8,next:14884,str:28868,d0:14883,d1:40343;
+            (____, BuiltinInvocation<Void> @:14882 op:587,dt:4,nt:8,next:14884,str:28868,d0:14883,d1:40343;
                 ("game_save", Expression<MethodOrOperator> @:14883 op:587,dt:2,nt:9,next:65535,str:10957,d0:0,d1:0;))
-            (____, Scope<Void> @:14884 op:334,dt:4,nt:8,next:14888,str:28884,d0:14885,d1:40345;
+            (____, BuiltinInvocation<Void> @:14884 op:334,dt:4,nt:8,next:14888,str:28884,d0:14885,d1:40345;
                 ("ai_set_orders", Expression<MethodOrOperator> @:14885 op:334,dt:2,nt:9,next:14886,str:11476,d0:0,d1:0;
                     ("all_allies", Expression<AI> @:14886 op:19,dt:19,nt:9,next:14887,str:11267,d0:0,d1:16384;
                         ("island_ext_allies", Expression<AIOrders> @:14887 op:23,dt:23,nt:9,next:65535,str:25995,d0:128,d1:0;))))
-            (____, Scope<Void> @:14888 op:291,dt:4,nt:8,next:14892,str:28931,d0:14889,d1:40349;
+            (____, BuiltinInvocation<Void> @:14888 op:291,dt:4,nt:8,next:14892,str:28931,d0:14889,d1:40349;
                 ("ai_place", Expression<MethodOrOperator> @:14889 op:291,dt:2,nt:9,next:14890,str:10304,d0:0,d1:0;
                     ("temple_ent_turrets", Expression<AI> @:14890 op:19,dt:19,nt:9,next:14891,str:26013,d0:125,d1:0;
                         (2, Expression<Short> @:14891 op:7,dt:7,nt:9,next:65535,str:28960,d0:2,d1:65535;))))
-            (____, Scope<Void> @:14892 op:2,dt:4,nt:8,next:14994,str:28965,d0:14893,d1:40353;
+            (____, BuiltinInvocation<Void> @:14892 op:2,dt:4,nt:8,next:14994,str:28965,d0:14893,d1:40353;
                 ("if", Expression<MethodOrOperator> @:14893 op:2,dt:2,nt:9,next:14894,str:597,d0:0,d1:0;
                     ("difficulty_legendary", ScriptInvocation<Boolean> @:14894 op:4,dt:5,nt:10,next:14896,str:28969,d0:14895,d1:40355;
                         ("difficulty_legendary", Expression<MethodOrOperator> @:14895 op:4,dt:2,nt:9,next:65535,str:10778,d0:0,d1:0;))
-                    (____, Scope<Void> @:14896 op:0,dt:4,nt:8,next:65535,str:28995,d0:14897,d1:40357;
+                    (____, BuiltinInvocation<Void> @:14896 op:0,dt:4,nt:8,next:65535,str:28995,d0:14897,d1:40357;
                         ("begin", Expression<MethodOrOperator> @:14897 op:0,dt:2,nt:9,next:14898,str:142,d0:0,d1:0;
-                            (____, Scope<Void> @:14898 op:2,dt:4,nt:8,next:14910,str:29006,d0:14899,d1:40359;
+                            (____, BuiltinInvocation<Void> @:14898 op:2,dt:4,nt:8,next:14910,str:29006,d0:14899,d1:40359;
                                 ("if", Expression<MethodOrOperator> @:14899 op:2,dt:2,nt:9,next:14900,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14900 op:16,dt:5,nt:8,next:14906,str:29010,d0:14901,d1:40361;
+                                    (____, BuiltinInvocation<Boolean> @:14900 op:16,dt:5,nt:8,next:14906,str:29010,d0:14901,d1:40361;
                                         ("<", Expression<MethodOrOperator> @:14901 op:16,dt:2,nt:9,next:14902,str:988,d0:0,d1:0;
-                                            (____, Scope<Short> @:14902 op:327,dt:7,nt:8,next:14905,str:29013,d0:14903,d1:40363;
+                                            (____, BuiltinInvocation<Short> @:14902 op:327,dt:7,nt:8,next:14905,str:29013,d0:14903,d1:40363;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:14903 op:327,dt:2,nt:9,next:14904,str:10835,d0:0,d1:0;
                                                     ("island_all_enemies", Expression<AI> @:14904 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                                             (8, Expression<Short> @:14905 op:7,dt:7,nt:9,next:65535,str:29050,d0:8,d1:65535;)))
-                                    (____, Scope<Void> @:14906 op:291,dt:4,nt:8,next:65535,str:29058,d0:14907,d1:40367;
+                                    (____, BuiltinInvocation<Void> @:14906 op:291,dt:4,nt:8,next:65535,str:29058,d0:14907,d1:40367;
                                         ("ai_place", Expression<MethodOrOperator> @:14907 op:291,dt:2,nt:9,next:14908,str:10304,d0:0,d1:0;
                                             ("island_ext_elites_01", Expression<AI> @:14908 op:19,dt:19,nt:9,next:14909,str:25690,d0:113,d1:0;
                                                 (1, Expression<Short> @:14909 op:7,dt:7,nt:9,next:65535,str:29089,d0:1,d1:65535;))))))
-                            (____, Scope<Void> @:14910 op:2,dt:4,nt:8,next:14922,str:29102,d0:14911,d1:40371;
+                            (____, BuiltinInvocation<Void> @:14910 op:2,dt:4,nt:8,next:14922,str:29102,d0:14911,d1:40371;
                                 ("if", Expression<MethodOrOperator> @:14911 op:2,dt:2,nt:9,next:14912,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14912 op:16,dt:5,nt:8,next:14918,str:29106,d0:14913,d1:40373;
+                                    (____, BuiltinInvocation<Boolean> @:14912 op:16,dt:5,nt:8,next:14918,str:29106,d0:14913,d1:40373;
                                         ("<", Expression<MethodOrOperator> @:14913 op:16,dt:2,nt:9,next:14914,str:988,d0:0,d1:0;
-                                            (____, Scope<Short> @:14914 op:327,dt:7,nt:8,next:14917,str:29109,d0:14915,d1:40375;
+                                            (____, BuiltinInvocation<Short> @:14914 op:327,dt:7,nt:8,next:14917,str:29109,d0:14915,d1:40375;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:14915 op:327,dt:2,nt:9,next:14916,str:10835,d0:0,d1:0;
                                                     ("island_all_enemies", Expression<AI> @:14916 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                                             (8, Expression<Short> @:14917 op:7,dt:7,nt:9,next:65535,str:29146,d0:8,d1:65535;)))
-                                    (____, Scope<Void> @:14918 op:291,dt:4,nt:8,next:65535,str:29154,d0:14919,d1:40379;
+                                    (____, BuiltinInvocation<Void> @:14918 op:291,dt:4,nt:8,next:65535,str:29154,d0:14919,d1:40379;
                                         ("ai_place", Expression<MethodOrOperator> @:14919 op:291,dt:2,nt:9,next:14920,str:10304,d0:0,d1:0;
                                             ("island_ext_elites_02", Expression<AI> @:14920 op:19,dt:19,nt:9,next:14921,str:25711,d0:115,d1:0;
                                                 (1, Expression<Short> @:14921 op:7,dt:7,nt:9,next:65535,str:29185,d0:1,d1:65535;))))))
-                            (____, Scope<Void> @:14922 op:2,dt:4,nt:8,next:14934,str:29198,d0:14923,d1:40383;
+                            (____, BuiltinInvocation<Void> @:14922 op:2,dt:4,nt:8,next:14934,str:29198,d0:14923,d1:40383;
                                 ("if", Expression<MethodOrOperator> @:14923 op:2,dt:2,nt:9,next:14924,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14924 op:16,dt:5,nt:8,next:14930,str:29202,d0:14925,d1:40385;
+                                    (____, BuiltinInvocation<Boolean> @:14924 op:16,dt:5,nt:8,next:14930,str:29202,d0:14925,d1:40385;
                                         ("<", Expression<MethodOrOperator> @:14925 op:16,dt:2,nt:9,next:14926,str:988,d0:0,d1:0;
-                                            (____, Scope<Short> @:14926 op:327,dt:7,nt:8,next:14929,str:29205,d0:14927,d1:40387;
+                                            (____, BuiltinInvocation<Short> @:14926 op:327,dt:7,nt:8,next:14929,str:29205,d0:14927,d1:40387;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:14927 op:327,dt:2,nt:9,next:14928,str:10835,d0:0,d1:0;
                                                     ("island_all_enemies", Expression<AI> @:14928 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                                             (8, Expression<Short> @:14929 op:7,dt:7,nt:9,next:65535,str:29242,d0:8,d1:65535;)))
-                                    (____, Scope<Void> @:14930 op:291,dt:4,nt:8,next:65535,str:29250,d0:14931,d1:40391;
+                                    (____, BuiltinInvocation<Void> @:14930 op:291,dt:4,nt:8,next:65535,str:29250,d0:14931,d1:40391;
                                         ("ai_place", Expression<MethodOrOperator> @:14931 op:291,dt:2,nt:9,next:14932,str:10304,d0:0,d1:0;
                                             ("island_ext_js_01", Expression<AI> @:14932 op:19,dt:19,nt:9,next:14933,str:25732,d0:108,d1:0;
                                                 (1, Expression<Short> @:14933 op:7,dt:7,nt:9,next:65535,str:29277,d0:1,d1:65535;))))))
-                            (____, Scope<Void> @:14934 op:2,dt:4,nt:8,next:14946,str:29290,d0:14935,d1:40395;
+                            (____, BuiltinInvocation<Void> @:14934 op:2,dt:4,nt:8,next:14946,str:29290,d0:14935,d1:40395;
                                 ("if", Expression<MethodOrOperator> @:14935 op:2,dt:2,nt:9,next:14936,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14936 op:16,dt:5,nt:8,next:14942,str:29294,d0:14937,d1:40397;
+                                    (____, BuiltinInvocation<Boolean> @:14936 op:16,dt:5,nt:8,next:14942,str:29294,d0:14937,d1:40397;
                                         ("<", Expression<MethodOrOperator> @:14937 op:16,dt:2,nt:9,next:14938,str:988,d0:0,d1:0;
-                                            (____, Scope<Short> @:14938 op:327,dt:7,nt:8,next:14941,str:29297,d0:14939,d1:40399;
+                                            (____, BuiltinInvocation<Short> @:14938 op:327,dt:7,nt:8,next:14941,str:29297,d0:14939,d1:40399;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:14939 op:327,dt:2,nt:9,next:14940,str:10835,d0:0,d1:0;
                                                     ("island_all_enemies", Expression<AI> @:14940 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                                             (8, Expression<Short> @:14941 op:7,dt:7,nt:9,next:65535,str:29334,d0:8,d1:65535;)))
-                                    (____, Scope<Void> @:14942 op:291,dt:4,nt:8,next:65535,str:29342,d0:14943,d1:40403;
+                                    (____, BuiltinInvocation<Void> @:14942 op:291,dt:4,nt:8,next:65535,str:29342,d0:14943,d1:40403;
                                         ("ai_place", Expression<MethodOrOperator> @:14943 op:291,dt:2,nt:9,next:14944,str:10304,d0:0,d1:0;
                                             ("island_ext_js_02", Expression<AI> @:14944 op:19,dt:19,nt:9,next:14945,str:25749,d0:109,d1:0;
                                                 (1, Expression<Short> @:14945 op:7,dt:7,nt:9,next:65535,str:29369,d0:1,d1:65535;))))))
-                            (____, Scope<Void> @:14946 op:2,dt:4,nt:8,next:14958,str:29382,d0:14947,d1:40407;
+                            (____, BuiltinInvocation<Void> @:14946 op:2,dt:4,nt:8,next:14958,str:29382,d0:14947,d1:40407;
                                 ("if", Expression<MethodOrOperator> @:14947 op:2,dt:2,nt:9,next:14948,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14948 op:16,dt:5,nt:8,next:14954,str:29386,d0:14949,d1:40409;
+                                    (____, BuiltinInvocation<Boolean> @:14948 op:16,dt:5,nt:8,next:14954,str:29386,d0:14949,d1:40409;
                                         ("<", Expression<MethodOrOperator> @:14949 op:16,dt:2,nt:9,next:14950,str:988,d0:0,d1:0;
-                                            (____, Scope<Short> @:14950 op:327,dt:7,nt:8,next:14953,str:29389,d0:14951,d1:40411;
+                                            (____, BuiltinInvocation<Short> @:14950 op:327,dt:7,nt:8,next:14953,str:29389,d0:14951,d1:40411;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:14951 op:327,dt:2,nt:9,next:14952,str:10835,d0:0,d1:0;
                                                     ("island_all_enemies", Expression<AI> @:14952 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                                             (8, Expression<Short> @:14953 op:7,dt:7,nt:9,next:65535,str:29426,d0:8,d1:65535;)))
-                                    (____, Scope<Void> @:14954 op:291,dt:4,nt:8,next:65535,str:29434,d0:14955,d1:40415;
+                                    (____, BuiltinInvocation<Void> @:14954 op:291,dt:4,nt:8,next:65535,str:29434,d0:14955,d1:40415;
                                         ("ai_place", Expression<MethodOrOperator> @:14955 op:291,dt:2,nt:9,next:14956,str:10304,d0:0,d1:0;
                                             ("island_ext_js_03", Expression<AI> @:14956 op:19,dt:19,nt:9,next:14957,str:25766,d0:110,d1:0;
                                                 (1, Expression<Short> @:14957 op:7,dt:7,nt:9,next:65535,str:29461,d0:1,d1:65535;))))))
-                            (____, Scope<Void> @:14958 op:2,dt:4,nt:8,next:14970,str:29474,d0:14959,d1:40419;
+                            (____, BuiltinInvocation<Void> @:14958 op:2,dt:4,nt:8,next:14970,str:29474,d0:14959,d1:40419;
                                 ("if", Expression<MethodOrOperator> @:14959 op:2,dt:2,nt:9,next:14960,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14960 op:16,dt:5,nt:8,next:14966,str:29478,d0:14961,d1:40421;
+                                    (____, BuiltinInvocation<Boolean> @:14960 op:16,dt:5,nt:8,next:14966,str:29478,d0:14961,d1:40421;
                                         ("<", Expression<MethodOrOperator> @:14961 op:16,dt:2,nt:9,next:14962,str:988,d0:0,d1:0;
-                                            (____, Scope<Short> @:14962 op:327,dt:7,nt:8,next:14965,str:29481,d0:14963,d1:40423;
+                                            (____, BuiltinInvocation<Short> @:14962 op:327,dt:7,nt:8,next:14965,str:29481,d0:14963,d1:40423;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:14963 op:327,dt:2,nt:9,next:14964,str:10835,d0:0,d1:0;
                                                     ("island_all_enemies", Expression<AI> @:14964 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                                             (8, Expression<Short> @:14965 op:7,dt:7,nt:9,next:65535,str:29518,d0:8,d1:65535;)))
-                                    (____, Scope<Void> @:14966 op:291,dt:4,nt:8,next:65535,str:29526,d0:14967,d1:40427;
+                                    (____, BuiltinInvocation<Void> @:14966 op:291,dt:4,nt:8,next:65535,str:29526,d0:14967,d1:40427;
                                         ("ai_place", Expression<MethodOrOperator> @:14967 op:291,dt:2,nt:9,next:14968,str:10304,d0:0,d1:0;
                                             ("island_ext_js_04", Expression<AI> @:14968 op:19,dt:19,nt:9,next:14969,str:25783,d0:111,d1:0;
                                                 (1, Expression<Short> @:14969 op:7,dt:7,nt:9,next:65535,str:29553,d0:1,d1:65535;))))))
-                            (____, Scope<Void> @:14970 op:2,dt:4,nt:8,next:14982,str:29566,d0:14971,d1:40431;
+                            (____, BuiltinInvocation<Void> @:14970 op:2,dt:4,nt:8,next:14982,str:29566,d0:14971,d1:40431;
                                 ("if", Expression<MethodOrOperator> @:14971 op:2,dt:2,nt:9,next:14972,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14972 op:16,dt:5,nt:8,next:14978,str:29570,d0:14973,d1:40433;
+                                    (____, BuiltinInvocation<Boolean> @:14972 op:16,dt:5,nt:8,next:14978,str:29570,d0:14973,d1:40433;
                                         ("<", Expression<MethodOrOperator> @:14973 op:16,dt:2,nt:9,next:14974,str:988,d0:0,d1:0;
-                                            (____, Scope<Short> @:14974 op:327,dt:7,nt:8,next:14977,str:29573,d0:14975,d1:40435;
+                                            (____, BuiltinInvocation<Short> @:14974 op:327,dt:7,nt:8,next:14977,str:29573,d0:14975,d1:40435;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:14975 op:327,dt:2,nt:9,next:14976,str:10835,d0:0,d1:0;
                                                     ("island_all_enemies", Expression<AI> @:14976 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                                             (8, Expression<Short> @:14977 op:7,dt:7,nt:9,next:65535,str:29610,d0:8,d1:65535;)))
-                                    (____, Scope<Void> @:14978 op:291,dt:4,nt:8,next:65535,str:29618,d0:14979,d1:40439;
+                                    (____, BuiltinInvocation<Void> @:14978 op:291,dt:4,nt:8,next:65535,str:29618,d0:14979,d1:40439;
                                         ("ai_place", Expression<MethodOrOperator> @:14979 op:291,dt:2,nt:9,next:14980,str:10304,d0:0,d1:0;
                                             ("island_ext_grunts_01", Expression<AI> @:14980 op:19,dt:19,nt:9,next:14981,str:25800,d0:112,d1:0;
                                                 (1, Expression<Short> @:14981 op:7,dt:7,nt:9,next:65535,str:29649,d0:1,d1:65535;))))))
-                            (____, Scope<Void> @:14982 op:2,dt:4,nt:8,next:65535,str:29662,d0:14983,d1:40443;
+                            (____, BuiltinInvocation<Void> @:14982 op:2,dt:4,nt:8,next:65535,str:29662,d0:14983,d1:40443;
                                 ("if", Expression<MethodOrOperator> @:14983 op:2,dt:2,nt:9,next:14984,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14984 op:16,dt:5,nt:8,next:14990,str:29666,d0:14985,d1:40445;
+                                    (____, BuiltinInvocation<Boolean> @:14984 op:16,dt:5,nt:8,next:14990,str:29666,d0:14985,d1:40445;
                                         ("<", Expression<MethodOrOperator> @:14985 op:16,dt:2,nt:9,next:14986,str:988,d0:0,d1:0;
-                                            (____, Scope<Short> @:14986 op:327,dt:7,nt:8,next:14989,str:29669,d0:14987,d1:40447;
+                                            (____, BuiltinInvocation<Short> @:14986 op:327,dt:7,nt:8,next:14989,str:29669,d0:14987,d1:40447;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:14987 op:327,dt:2,nt:9,next:14988,str:10835,d0:0,d1:0;
                                                     ("island_all_enemies", Expression<AI> @:14988 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                                             (8, Expression<Short> @:14989 op:7,dt:7,nt:9,next:65535,str:29706,d0:8,d1:65535;)))
-                                    (____, Scope<Void> @:14990 op:291,dt:4,nt:8,next:65535,str:29714,d0:14991,d1:40451;
+                                    (____, BuiltinInvocation<Void> @:14990 op:291,dt:4,nt:8,next:65535,str:29714,d0:14991,d1:40451;
                                         ("ai_place", Expression<MethodOrOperator> @:14991 op:291,dt:2,nt:9,next:14992,str:10304,d0:0,d1:0;
                                             ("island_ext_grunts_02", Expression<AI> @:14992 op:19,dt:19,nt:9,next:14993,str:25821,d0:114,d1:0;
                                                 (1, Expression<Short> @:14993 op:7,dt:7,nt:9,next:65535,str:29745,d0:1,d1:65535;))))))))))
-            (____, Scope<Void> @:14994 op:2,dt:4,nt:8,next:15084,str:29765,d0:14995,d1:40455;
+            (____, BuiltinInvocation<Void> @:14994 op:2,dt:4,nt:8,next:15084,str:29765,d0:14995,d1:40455;
                 ("if", Expression<MethodOrOperator> @:14995 op:2,dt:2,nt:9,next:14996,str:597,d0:0,d1:0;
                     ("difficulty_heroic", ScriptInvocation<Boolean> @:14996 op:5,dt:5,nt:10,next:14998,str:29769,d0:14997,d1:40457;
                         ("difficulty_heroic", Expression<MethodOrOperator> @:14997 op:5,dt:2,nt:9,next:65535,str:11278,d0:0,d1:0;))
-                    (____, Scope<Void> @:14998 op:0,dt:4,nt:8,next:65535,str:29792,d0:14999,d1:40459;
+                    (____, BuiltinInvocation<Void> @:14998 op:0,dt:4,nt:8,next:65535,str:29792,d0:14999,d1:40459;
                         ("begin", Expression<MethodOrOperator> @:14999 op:0,dt:2,nt:9,next:15000,str:142,d0:0,d1:0;
-                            (____, Scope<Void> @:15000 op:2,dt:4,nt:8,next:15012,str:29803,d0:15001,d1:40461;
+                            (____, BuiltinInvocation<Void> @:15000 op:2,dt:4,nt:8,next:15012,str:29803,d0:15001,d1:40461;
                                 ("if", Expression<MethodOrOperator> @:15001 op:2,dt:2,nt:9,next:15002,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:15002 op:16,dt:5,nt:8,next:15008,str:29807,d0:15003,d1:40463;
+                                    (____, BuiltinInvocation<Boolean> @:15002 op:16,dt:5,nt:8,next:15008,str:29807,d0:15003,d1:40463;
                                         ("<", Expression<MethodOrOperator> @:15003 op:16,dt:2,nt:9,next:15004,str:988,d0:0,d1:0;
-                                            (____, Scope<Short> @:15004 op:327,dt:7,nt:8,next:15007,str:29810,d0:15005,d1:40465;
+                                            (____, BuiltinInvocation<Short> @:15004 op:327,dt:7,nt:8,next:15007,str:29810,d0:15005,d1:40465;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:15005 op:327,dt:2,nt:9,next:15006,str:10835,d0:0,d1:0;
                                                     ("island_all_enemies", Expression<AI> @:15006 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                                             (8, Expression<Short> @:15007 op:7,dt:7,nt:9,next:65535,str:29847,d0:8,d1:65535;)))
-                                    (____, Scope<Void> @:15008 op:291,dt:4,nt:8,next:65535,str:29855,d0:15009,d1:40469;
+                                    (____, BuiltinInvocation<Void> @:15008 op:291,dt:4,nt:8,next:65535,str:29855,d0:15009,d1:40469;
                                         ("ai_place", Expression<MethodOrOperator> @:15009 op:291,dt:2,nt:9,next:15010,str:10304,d0:0,d1:0;
                                             ("island_ext_elites_01", Expression<AI> @:15010 op:19,dt:19,nt:9,next:15011,str:25690,d0:113,d1:0;
                                                 (1, Expression<Short> @:15011 op:7,dt:7,nt:9,next:65535,str:29886,d0:1,d1:65535;))))))
-                            (____, Scope<Void> @:15012 op:2,dt:4,nt:8,next:15024,str:29899,d0:15013,d1:40473;
+                            (____, BuiltinInvocation<Void> @:15012 op:2,dt:4,nt:8,next:15024,str:29899,d0:15013,d1:40473;
                                 ("if", Expression<MethodOrOperator> @:15013 op:2,dt:2,nt:9,next:15014,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:15014 op:16,dt:5,nt:8,next:15020,str:29903,d0:15015,d1:40475;
+                                    (____, BuiltinInvocation<Boolean> @:15014 op:16,dt:5,nt:8,next:15020,str:29903,d0:15015,d1:40475;
                                         ("<", Expression<MethodOrOperator> @:15015 op:16,dt:2,nt:9,next:15016,str:988,d0:0,d1:0;
-                                            (____, Scope<Short> @:15016 op:327,dt:7,nt:8,next:15019,str:29906,d0:15017,d1:40477;
+                                            (____, BuiltinInvocation<Short> @:15016 op:327,dt:7,nt:8,next:15019,str:29906,d0:15017,d1:40477;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:15017 op:327,dt:2,nt:9,next:15018,str:10835,d0:0,d1:0;
                                                     ("island_all_enemies", Expression<AI> @:15018 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                                             (8, Expression<Short> @:15019 op:7,dt:7,nt:9,next:65535,str:29943,d0:8,d1:65535;)))
-                                    (____, Scope<Void> @:15020 op:291,dt:4,nt:8,next:65535,str:29951,d0:15021,d1:40481;
+                                    (____, BuiltinInvocation<Void> @:15020 op:291,dt:4,nt:8,next:65535,str:29951,d0:15021,d1:40481;
                                         ("ai_place", Expression<MethodOrOperator> @:15021 op:291,dt:2,nt:9,next:15022,str:10304,d0:0,d1:0;
                                             ("island_ext_elites_02", Expression<AI> @:15022 op:19,dt:19,nt:9,next:15023,str:25711,d0:115,d1:0;
                                                 (1, Expression<Short> @:15023 op:7,dt:7,nt:9,next:65535,str:29982,d0:1,d1:65535;))))))
-                            (____, Scope<Void> @:15024 op:2,dt:4,nt:8,next:15036,str:29995,d0:15025,d1:40485;
+                            (____, BuiltinInvocation<Void> @:15024 op:2,dt:4,nt:8,next:15036,str:29995,d0:15025,d1:40485;
                                 ("if", Expression<MethodOrOperator> @:15025 op:2,dt:2,nt:9,next:15026,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:15026 op:16,dt:5,nt:8,next:15032,str:29999,d0:15027,d1:40487;
+                                    (____, BuiltinInvocation<Boolean> @:15026 op:16,dt:5,nt:8,next:15032,str:29999,d0:15027,d1:40487;
                                         ("<", Expression<MethodOrOperator> @:15027 op:16,dt:2,nt:9,next:15028,str:988,d0:0,d1:0;
-                                            (____, Scope<Short> @:15028 op:327,dt:7,nt:8,next:15031,str:30002,d0:15029,d1:40489;
+                                            (____, BuiltinInvocation<Short> @:15028 op:327,dt:7,nt:8,next:15031,str:30002,d0:15029,d1:40489;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:15029 op:327,dt:2,nt:9,next:15030,str:10835,d0:0,d1:0;
                                                     ("island_all_enemies", Expression<AI> @:15030 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                                             (8, Expression<Short> @:15031 op:7,dt:7,nt:9,next:65535,str:30039,d0:8,d1:65535;)))
-                                    (____, Scope<Void> @:15032 op:291,dt:4,nt:8,next:65535,str:30047,d0:15033,d1:40493;
+                                    (____, BuiltinInvocation<Void> @:15032 op:291,dt:4,nt:8,next:65535,str:30047,d0:15033,d1:40493;
                                         ("ai_place", Expression<MethodOrOperator> @:15033 op:291,dt:2,nt:9,next:15034,str:10304,d0:0,d1:0;
                                             ("island_ext_js_01", Expression<AI> @:15034 op:19,dt:19,nt:9,next:15035,str:25732,d0:108,d1:0;
                                                 (1, Expression<Short> @:15035 op:7,dt:7,nt:9,next:65535,str:30074,d0:1,d1:65535;))))))
-                            (____, Scope<Void> @:15036 op:2,dt:4,nt:8,next:15048,str:30087,d0:15037,d1:40497;
+                            (____, BuiltinInvocation<Void> @:15036 op:2,dt:4,nt:8,next:15048,str:30087,d0:15037,d1:40497;
                                 ("if", Expression<MethodOrOperator> @:15037 op:2,dt:2,nt:9,next:15038,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:15038 op:16,dt:5,nt:8,next:15044,str:30091,d0:15039,d1:40499;
+                                    (____, BuiltinInvocation<Boolean> @:15038 op:16,dt:5,nt:8,next:15044,str:30091,d0:15039,d1:40499;
                                         ("<", Expression<MethodOrOperator> @:15039 op:16,dt:2,nt:9,next:15040,str:988,d0:0,d1:0;
-                                            (____, Scope<Short> @:15040 op:327,dt:7,nt:8,next:15043,str:30094,d0:15041,d1:40501;
+                                            (____, BuiltinInvocation<Short> @:15040 op:327,dt:7,nt:8,next:15043,str:30094,d0:15041,d1:40501;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:15041 op:327,dt:2,nt:9,next:15042,str:10835,d0:0,d1:0;
                                                     ("island_all_enemies", Expression<AI> @:15042 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                                             (8, Expression<Short> @:15043 op:7,dt:7,nt:9,next:65535,str:30131,d0:8,d1:65535;)))
-                                    (____, Scope<Void> @:15044 op:291,dt:4,nt:8,next:65535,str:30139,d0:15045,d1:40505;
+                                    (____, BuiltinInvocation<Void> @:15044 op:291,dt:4,nt:8,next:65535,str:30139,d0:15045,d1:40505;
                                         ("ai_place", Expression<MethodOrOperator> @:15045 op:291,dt:2,nt:9,next:15046,str:10304,d0:0,d1:0;
                                             ("island_ext_js_02", Expression<AI> @:15046 op:19,dt:19,nt:9,next:15047,str:25749,d0:109,d1:0;
                                                 (1, Expression<Short> @:15047 op:7,dt:7,nt:9,next:65535,str:30166,d0:1,d1:65535;))))))
-                            (____, Scope<Void> @:15048 op:2,dt:4,nt:8,next:15060,str:30179,d0:15049,d1:40509;
+                            (____, BuiltinInvocation<Void> @:15048 op:2,dt:4,nt:8,next:15060,str:30179,d0:15049,d1:40509;
                                 ("if", Expression<MethodOrOperator> @:15049 op:2,dt:2,nt:9,next:15050,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:15050 op:16,dt:5,nt:8,next:15056,str:30183,d0:15051,d1:40511;
+                                    (____, BuiltinInvocation<Boolean> @:15050 op:16,dt:5,nt:8,next:15056,str:30183,d0:15051,d1:40511;
                                         ("<", Expression<MethodOrOperator> @:15051 op:16,dt:2,nt:9,next:15052,str:988,d0:0,d1:0;
-                                            (____, Scope<Short> @:15052 op:327,dt:7,nt:8,next:15055,str:30186,d0:15053,d1:40513;
+                                            (____, BuiltinInvocation<Short> @:15052 op:327,dt:7,nt:8,next:15055,str:30186,d0:15053,d1:40513;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:15053 op:327,dt:2,nt:9,next:15054,str:10835,d0:0,d1:0;
                                                     ("island_all_enemies", Expression<AI> @:15054 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                                             (8, Expression<Short> @:15055 op:7,dt:7,nt:9,next:65535,str:30223,d0:8,d1:65535;)))
-                                    (____, Scope<Void> @:15056 op:291,dt:4,nt:8,next:65535,str:30231,d0:15057,d1:40517;
+                                    (____, BuiltinInvocation<Void> @:15056 op:291,dt:4,nt:8,next:65535,str:30231,d0:15057,d1:40517;
                                         ("ai_place", Expression<MethodOrOperator> @:15057 op:291,dt:2,nt:9,next:15058,str:10304,d0:0,d1:0;
                                             ("island_ext_js_03", Expression<AI> @:15058 op:19,dt:19,nt:9,next:15059,str:25766,d0:110,d1:0;
                                                 (1, Expression<Short> @:15059 op:7,dt:7,nt:9,next:65535,str:30258,d0:1,d1:65535;))))))
-                            (____, Scope<Void> @:15060 op:2,dt:4,nt:8,next:15072,str:30271,d0:15061,d1:40521;
+                            (____, BuiltinInvocation<Void> @:15060 op:2,dt:4,nt:8,next:15072,str:30271,d0:15061,d1:40521;
                                 ("if", Expression<MethodOrOperator> @:15061 op:2,dt:2,nt:9,next:15062,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:15062 op:16,dt:5,nt:8,next:15068,str:30275,d0:15063,d1:40523;
+                                    (____, BuiltinInvocation<Boolean> @:15062 op:16,dt:5,nt:8,next:15068,str:30275,d0:15063,d1:40523;
                                         ("<", Expression<MethodOrOperator> @:15063 op:16,dt:2,nt:9,next:15064,str:988,d0:0,d1:0;
-                                            (____, Scope<Short> @:15064 op:327,dt:7,nt:8,next:15067,str:30278,d0:15065,d1:40525;
+                                            (____, BuiltinInvocation<Short> @:15064 op:327,dt:7,nt:8,next:15067,str:30278,d0:15065,d1:40525;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:15065 op:327,dt:2,nt:9,next:15066,str:10835,d0:0,d1:0;
                                                     ("island_all_enemies", Expression<AI> @:15066 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                                             (8, Expression<Short> @:15067 op:7,dt:7,nt:9,next:65535,str:30315,d0:8,d1:65535;)))
-                                    (____, Scope<Void> @:15068 op:291,dt:4,nt:8,next:65535,str:30323,d0:15069,d1:40529;
+                                    (____, BuiltinInvocation<Void> @:15068 op:291,dt:4,nt:8,next:65535,str:30323,d0:15069,d1:40529;
                                         ("ai_place", Expression<MethodOrOperator> @:15069 op:291,dt:2,nt:9,next:15070,str:10304,d0:0,d1:0;
                                             ("island_ext_grunts_01", Expression<AI> @:15070 op:19,dt:19,nt:9,next:15071,str:25800,d0:112,d1:0;
                                                 (2, Expression<Short> @:15071 op:7,dt:7,nt:9,next:65535,str:30354,d0:2,d1:65535;))))))
-                            (____, Scope<Void> @:15072 op:2,dt:4,nt:8,next:65535,str:30367,d0:15073,d1:40533;
+                            (____, BuiltinInvocation<Void> @:15072 op:2,dt:4,nt:8,next:65535,str:30367,d0:15073,d1:40533;
                                 ("if", Expression<MethodOrOperator> @:15073 op:2,dt:2,nt:9,next:15074,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:15074 op:16,dt:5,nt:8,next:15080,str:30371,d0:15075,d1:40535;
+                                    (____, BuiltinInvocation<Boolean> @:15074 op:16,dt:5,nt:8,next:15080,str:30371,d0:15075,d1:40535;
                                         ("<", Expression<MethodOrOperator> @:15075 op:16,dt:2,nt:9,next:15076,str:988,d0:0,d1:0;
-                                            (____, Scope<Short> @:15076 op:327,dt:7,nt:8,next:15079,str:30374,d0:15077,d1:40537;
+                                            (____, BuiltinInvocation<Short> @:15076 op:327,dt:7,nt:8,next:15079,str:30374,d0:15077,d1:40537;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:15077 op:327,dt:2,nt:9,next:15078,str:10835,d0:0,d1:0;
                                                     ("island_all_enemies", Expression<AI> @:15078 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                                             (8, Expression<Short> @:15079 op:7,dt:7,nt:9,next:65535,str:30411,d0:8,d1:65535;)))
-                                    (____, Scope<Void> @:15080 op:291,dt:4,nt:8,next:65535,str:30419,d0:15081,d1:40541;
+                                    (____, BuiltinInvocation<Void> @:15080 op:291,dt:4,nt:8,next:65535,str:30419,d0:15081,d1:40541;
                                         ("ai_place", Expression<MethodOrOperator> @:15081 op:291,dt:2,nt:9,next:15082,str:10304,d0:0,d1:0;
                                             ("island_ext_grunts_02", Expression<AI> @:15082 op:19,dt:19,nt:9,next:15083,str:25821,d0:114,d1:0;
                                                 (1, Expression<Short> @:15083 op:7,dt:7,nt:9,next:65535,str:30450,d0:1,d1:65535;))))))))))
-            (____, Scope<Void> @:15084 op:2,dt:4,nt:8,next:15150,str:30470,d0:15085,d1:40545;
+            (____, BuiltinInvocation<Void> @:15084 op:2,dt:4,nt:8,next:15150,str:30470,d0:15085,d1:40545;
                 ("if", Expression<MethodOrOperator> @:15085 op:2,dt:2,nt:9,next:15086,str:597,d0:0,d1:0;
                     ("difficulty_normal", ScriptInvocation<Boolean> @:15086 op:6,dt:5,nt:10,next:15088,str:30474,d0:15087,d1:40547;
                         ("difficulty_normal", Expression<MethodOrOperator> @:15087 op:6,dt:2,nt:9,next:65535,str:26032,d0:0,d1:0;))
-                    (____, Scope<Void> @:15088 op:0,dt:4,nt:8,next:65535,str:30497,d0:15089,d1:40549;
+                    (____, BuiltinInvocation<Void> @:15088 op:0,dt:4,nt:8,next:65535,str:30497,d0:15089,d1:40549;
                         ("begin", Expression<MethodOrOperator> @:15089 op:0,dt:2,nt:9,next:15090,str:142,d0:0,d1:0;
-                            (____, Scope<Void> @:15090 op:2,dt:4,nt:8,next:15102,str:30508,d0:15091,d1:40551;
+                            (____, BuiltinInvocation<Void> @:15090 op:2,dt:4,nt:8,next:15102,str:30508,d0:15091,d1:40551;
                                 ("if", Expression<MethodOrOperator> @:15091 op:2,dt:2,nt:9,next:15092,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:15092 op:16,dt:5,nt:8,next:15098,str:30512,d0:15093,d1:40553;
+                                    (____, BuiltinInvocation<Boolean> @:15092 op:16,dt:5,nt:8,next:15098,str:30512,d0:15093,d1:40553;
                                         ("<", Expression<MethodOrOperator> @:15093 op:16,dt:2,nt:9,next:15094,str:988,d0:0,d1:0;
-                                            (____, Scope<Short> @:15094 op:327,dt:7,nt:8,next:15097,str:30515,d0:15095,d1:40555;
+                                            (____, BuiltinInvocation<Short> @:15094 op:327,dt:7,nt:8,next:15097,str:30515,d0:15095,d1:40555;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:15095 op:327,dt:2,nt:9,next:15096,str:10835,d0:0,d1:0;
                                                     ("island_all_enemies", Expression<AI> @:15096 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                                             (8, Expression<Short> @:15097 op:7,dt:7,nt:9,next:65535,str:30552,d0:8,d1:65535;)))
-                                    (____, Scope<Void> @:15098 op:291,dt:4,nt:8,next:65535,str:30560,d0:15099,d1:40559;
+                                    (____, BuiltinInvocation<Void> @:15098 op:291,dt:4,nt:8,next:65535,str:30560,d0:15099,d1:40559;
                                         ("ai_place", Expression<MethodOrOperator> @:15099 op:291,dt:2,nt:9,next:15100,str:10304,d0:0,d1:0;
                                             ("island_ext_elites_01", Expression<AI> @:15100 op:19,dt:19,nt:9,next:15101,str:25690,d0:113,d1:0;
                                                 (1, Expression<Short> @:15101 op:7,dt:7,nt:9,next:65535,str:30591,d0:1,d1:65535;))))))
-                            (____, Scope<Void> @:15102 op:2,dt:4,nt:8,next:15114,str:30604,d0:15103,d1:40563;
+                            (____, BuiltinInvocation<Void> @:15102 op:2,dt:4,nt:8,next:15114,str:30604,d0:15103,d1:40563;
                                 ("if", Expression<MethodOrOperator> @:15103 op:2,dt:2,nt:9,next:15104,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:15104 op:16,dt:5,nt:8,next:15110,str:30608,d0:15105,d1:40565;
+                                    (____, BuiltinInvocation<Boolean> @:15104 op:16,dt:5,nt:8,next:15110,str:30608,d0:15105,d1:40565;
                                         ("<", Expression<MethodOrOperator> @:15105 op:16,dt:2,nt:9,next:15106,str:988,d0:0,d1:0;
-                                            (____, Scope<Short> @:15106 op:327,dt:7,nt:8,next:15109,str:30611,d0:15107,d1:40567;
+                                            (____, BuiltinInvocation<Short> @:15106 op:327,dt:7,nt:8,next:15109,str:30611,d0:15107,d1:40567;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:15107 op:327,dt:2,nt:9,next:15108,str:10835,d0:0,d1:0;
                                                     ("island_all_enemies", Expression<AI> @:15108 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                                             (8, Expression<Short> @:15109 op:7,dt:7,nt:9,next:65535,str:30648,d0:8,d1:65535;)))
-                                    (____, Scope<Void> @:15110 op:291,dt:4,nt:8,next:65535,str:30656,d0:15111,d1:40571;
+                                    (____, BuiltinInvocation<Void> @:15110 op:291,dt:4,nt:8,next:65535,str:30656,d0:15111,d1:40571;
                                         ("ai_place", Expression<MethodOrOperator> @:15111 op:291,dt:2,nt:9,next:15112,str:10304,d0:0,d1:0;
                                             ("island_ext_js_01", Expression<AI> @:15112 op:19,dt:19,nt:9,next:15113,str:25732,d0:108,d1:0;
                                                 (1, Expression<Short> @:15113 op:7,dt:7,nt:9,next:65535,str:30683,d0:1,d1:65535;))))))
-                            (____, Scope<Void> @:15114 op:2,dt:4,nt:8,next:15126,str:30696,d0:15115,d1:40575;
+                            (____, BuiltinInvocation<Void> @:15114 op:2,dt:4,nt:8,next:15126,str:30696,d0:15115,d1:40575;
                                 ("if", Expression<MethodOrOperator> @:15115 op:2,dt:2,nt:9,next:15116,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:15116 op:16,dt:5,nt:8,next:15122,str:30700,d0:15117,d1:40577;
+                                    (____, BuiltinInvocation<Boolean> @:15116 op:16,dt:5,nt:8,next:15122,str:30700,d0:15117,d1:40577;
                                         ("<", Expression<MethodOrOperator> @:15117 op:16,dt:2,nt:9,next:15118,str:988,d0:0,d1:0;
-                                            (____, Scope<Short> @:15118 op:327,dt:7,nt:8,next:15121,str:30703,d0:15119,d1:40579;
+                                            (____, BuiltinInvocation<Short> @:15118 op:327,dt:7,nt:8,next:15121,str:30703,d0:15119,d1:40579;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:15119 op:327,dt:2,nt:9,next:15120,str:10835,d0:0,d1:0;
                                                     ("island_all_enemies", Expression<AI> @:15120 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                                             (8, Expression<Short> @:15121 op:7,dt:7,nt:9,next:65535,str:30740,d0:8,d1:65535;)))
-                                    (____, Scope<Void> @:15122 op:291,dt:4,nt:8,next:65535,str:30748,d0:15123,d1:40583;
+                                    (____, BuiltinInvocation<Void> @:15122 op:291,dt:4,nt:8,next:65535,str:30748,d0:15123,d1:40583;
                                         ("ai_place", Expression<MethodOrOperator> @:15123 op:291,dt:2,nt:9,next:15124,str:10304,d0:0,d1:0;
                                             ("island_ext_js_03", Expression<AI> @:15124 op:19,dt:19,nt:9,next:15125,str:25766,d0:110,d1:0;
                                                 (1, Expression<Short> @:15125 op:7,dt:7,nt:9,next:65535,str:30775,d0:1,d1:65535;))))))
-                            (____, Scope<Void> @:15126 op:2,dt:4,nt:8,next:15138,str:30788,d0:15127,d1:40587;
+                            (____, BuiltinInvocation<Void> @:15126 op:2,dt:4,nt:8,next:15138,str:30788,d0:15127,d1:40587;
                                 ("if", Expression<MethodOrOperator> @:15127 op:2,dt:2,nt:9,next:15128,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:15128 op:16,dt:5,nt:8,next:15134,str:30792,d0:15129,d1:40589;
+                                    (____, BuiltinInvocation<Boolean> @:15128 op:16,dt:5,nt:8,next:15134,str:30792,d0:15129,d1:40589;
                                         ("<", Expression<MethodOrOperator> @:15129 op:16,dt:2,nt:9,next:15130,str:988,d0:0,d1:0;
-                                            (____, Scope<Short> @:15130 op:327,dt:7,nt:8,next:15133,str:30795,d0:15131,d1:40591;
+                                            (____, BuiltinInvocation<Short> @:15130 op:327,dt:7,nt:8,next:15133,str:30795,d0:15131,d1:40591;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:15131 op:327,dt:2,nt:9,next:15132,str:10835,d0:0,d1:0;
                                                     ("island_all_enemies", Expression<AI> @:15132 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                                             (8, Expression<Short> @:15133 op:7,dt:7,nt:9,next:65535,str:30832,d0:8,d1:65535;)))
-                                    (____, Scope<Void> @:15134 op:291,dt:4,nt:8,next:65535,str:30840,d0:15135,d1:40595;
+                                    (____, BuiltinInvocation<Void> @:15134 op:291,dt:4,nt:8,next:65535,str:30840,d0:15135,d1:40595;
                                         ("ai_place", Expression<MethodOrOperator> @:15135 op:291,dt:2,nt:9,next:15136,str:10304,d0:0,d1:0;
                                             ("island_ext_grunts_01", Expression<AI> @:15136 op:19,dt:19,nt:9,next:15137,str:25800,d0:112,d1:0;
                                                 (2, Expression<Short> @:15137 op:7,dt:7,nt:9,next:65535,str:30871,d0:2,d1:65535;))))))
-                            (____, Scope<Void> @:15138 op:2,dt:4,nt:8,next:65535,str:30884,d0:15139,d1:40599;
+                            (____, BuiltinInvocation<Void> @:15138 op:2,dt:4,nt:8,next:65535,str:30884,d0:15139,d1:40599;
                                 ("if", Expression<MethodOrOperator> @:15139 op:2,dt:2,nt:9,next:15140,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:15140 op:16,dt:5,nt:8,next:15146,str:30888,d0:15141,d1:40601;
+                                    (____, BuiltinInvocation<Boolean> @:15140 op:16,dt:5,nt:8,next:15146,str:30888,d0:15141,d1:40601;
                                         ("<", Expression<MethodOrOperator> @:15141 op:16,dt:2,nt:9,next:15142,str:988,d0:0,d1:0;
-                                            (____, Scope<Short> @:15142 op:327,dt:7,nt:8,next:15145,str:30891,d0:15143,d1:40603;
+                                            (____, BuiltinInvocation<Short> @:15142 op:327,dt:7,nt:8,next:15145,str:30891,d0:15143,d1:40603;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:15143 op:327,dt:2,nt:9,next:15144,str:10835,d0:0,d1:0;
                                                     ("island_all_enemies", Expression<AI> @:15144 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                                             (8, Expression<Short> @:15145 op:7,dt:7,nt:9,next:65535,str:30928,d0:8,d1:65535;)))
-                                    (____, Scope<Void> @:15146 op:291,dt:4,nt:8,next:65535,str:30936,d0:15147,d1:40607;
+                                    (____, BuiltinInvocation<Void> @:15146 op:291,dt:4,nt:8,next:65535,str:30936,d0:15147,d1:40607;
                                         ("ai_place", Expression<MethodOrOperator> @:15147 op:291,dt:2,nt:9,next:15148,str:10304,d0:0,d1:0;
                                             ("island_ext_grunts_02", Expression<AI> @:15148 op:19,dt:19,nt:9,next:15149,str:25821,d0:114,d1:0;
                                                 (2, Expression<Short> @:15149 op:7,dt:7,nt:9,next:65535,str:30967,d0:2,d1:65535;))))))))))
-            (____, Scope<Void> @:15150 op:21,dt:4,nt:8,next:15168,str:30990,d0:15151,d1:40611;
+            (____, BuiltinInvocation<Void> @:15150 op:21,dt:4,nt:8,next:15168,str:30990,d0:15151,d1:40611;
                 ("sleep_until", Expression<MethodOrOperator> @:15151 op:21,dt:2,nt:9,next:15152,str:372,d0:0,d1:0;
-                    (____, Scope<Boolean> @:15152 op:6,dt:5,nt:8,next:65535,str:31007,d0:15153,d1:40613;
+                    (____, BuiltinInvocation<Boolean> @:15152 op:6,dt:5,nt:8,next:65535,str:31007,d0:15153,d1:40613;
                         ("or", Expression<MethodOrOperator> @:15153 op:6,dt:2,nt:9,next:15154,str:985,d0:0,d1:0;
-                            (____, Scope<Boolean> @:15154 op:13,dt:5,nt:8,next:15162,str:31015,d0:15155,d1:40615;
+                            (____, BuiltinInvocation<Boolean> @:15154 op:13,dt:5,nt:8,next:15162,str:31015,d0:15155,d1:40615;
                                 ("=", Expression<MethodOrOperator> @:15155 op:13,dt:2,nt:9,next:15156,str:437,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:15156 op:33,dt:5,nt:8,next:15161,str:31018,d0:15157,d1:40617;
+                                    (____, BuiltinInvocation<Boolean> @:15156 op:33,dt:5,nt:8,next:15161,str:31018,d0:15157,d1:40617;
                                         ("volume_test_objects", Expression<MethodOrOperator> @:15157 op:33,dt:2,nt:9,next:15158,str:10374,d0:0,d1:0;
                                             ("vol_island_ext_01", Expression<Trigger> @:15158 op:13,dt:13,nt:9,next:15159,str:26050,d0:71,d1:0;
-                                                (____, Scope<List> @:15159 op:28,dt:31,nt:8,next:65535,str:31057,d0:15160,d1:40620;
+                                                (____, BuiltinInvocation<List> @:15159 op:28,dt:31,nt:8,next:65535,str:31057,d0:15160,d1:40620;
                                                     ("players", Expression<MethodOrOperator> @:15160 op:28,dt:2,nt:9,next:65535,str:162,d0:0,d1:0;)))))
                                     (True, Expression<Boolean> @:15161 op:5,dt:5,nt:9,next:65535,str:31068,d0:65281,d1:65535;)))
-                            (____, Scope<Boolean> @:15162 op:16,dt:5,nt:8,next:65535,str:31078,d0:15163,d1:40623;
+                            (____, BuiltinInvocation<Boolean> @:15162 op:16,dt:5,nt:8,next:65535,str:31078,d0:15163,d1:40623;
                                 ("<", Expression<MethodOrOperator> @:15163 op:16,dt:2,nt:9,next:15164,str:988,d0:0,d1:0;
-                                    (____, Scope<Short> @:15164 op:327,dt:7,nt:8,next:15167,str:31081,d0:15165,d1:40625;
+                                    (____, BuiltinInvocation<Short> @:15164 op:327,dt:7,nt:8,next:15167,str:31081,d0:15165,d1:40625;
                                         ("ai_living_count", Expression<MethodOrOperator> @:15165 op:327,dt:2,nt:9,next:15166,str:10835,d0:0,d1:0;
                                             ("island_main_enemies", Expression<AI> @:15166 op:19,dt:19,nt:9,next:65535,str:26068,d0:28,d1:16384;)))
                                     (3, Expression<Short> @:15167 op:7,dt:7,nt:9,next:65535,str:31119,d0:3,d1:65535;)))))))
-            (____, Scope<Void> @:15168 op:587,dt:4,nt:8,next:15170,str:31133,d0:15169,d1:40629;
+            (____, BuiltinInvocation<Void> @:15168 op:587,dt:4,nt:8,next:15170,str:31133,d0:15169,d1:40629;
                 ("game_save", Expression<MethodOrOperator> @:15169 op:587,dt:2,nt:9,next:65535,str:10957,d0:0,d1:0;))
-            (____, Scope<Void> @:15170 op:22,dt:4,nt:8,next:15173,str:31147,d0:15171,d1:40631;
+            (____, BuiltinInvocation<Void> @:15170 op:22,dt:4,nt:8,next:15173,str:31147,d0:15171,d1:40631;
                 ("wake", Expression<MethodOrOperator> @:15171 op:22,dt:2,nt:9,next:15172,str:1207,d0:0,d1:0;
                     ("island_phantom_arrives", Expression<ScriptReference> @:15172 op:10,dt:10,nt:9,next:65535,str:26088,d0:237,d1:65535;)))
-            (____, Scope<Void> @:15173 op:22,dt:4,nt:8,next:15176,str:31179,d0:15174,d1:40634;
+            (____, BuiltinInvocation<Void> @:15173 op:22,dt:4,nt:8,next:15176,str:31179,d0:15174,d1:40634;
                 ("wake", Expression<MethodOrOperator> @:15174 op:22,dt:2,nt:9,next:15175,str:1207,d0:0,d1:0;
                     ("gondola_02_cortana_reminder", Expression<ScriptReference> @:15175 op:10,dt:10,nt:9,next:65535,str:26111,d0:234,d1:65535;)))
-            (____, Scope<Void> @:15176 op:21,dt:4,nt:8,next:15186,str:31219,d0:15177,d1:40637;
+            (____, BuiltinInvocation<Void> @:15176 op:21,dt:4,nt:8,next:15186,str:31219,d0:15177,d1:40637;
                 ("sleep_until", Expression<MethodOrOperator> @:15177 op:21,dt:2,nt:9,next:15178,str:372,d0:0,d1:0;
-                    (____, Scope<Boolean> @:15178 op:13,dt:5,nt:8,next:65535,str:31245,d0:15179,d1:40639;
+                    (____, BuiltinInvocation<Boolean> @:15178 op:13,dt:5,nt:8,next:65535,str:31245,d0:15179,d1:40639;
                         ("=", Expression<MethodOrOperator> @:15179 op:13,dt:2,nt:9,next:15180,str:437,d0:0,d1:0;
-                            (____, Scope<Boolean> @:15180 op:33,dt:5,nt:8,next:15185,str:31248,d0:15181,d1:40641;
+                            (____, BuiltinInvocation<Boolean> @:15180 op:33,dt:5,nt:8,next:15185,str:31248,d0:15181,d1:40641;
                                 ("volume_test_objects", Expression<MethodOrOperator> @:15181 op:33,dt:2,nt:9,next:15182,str:10374,d0:0,d1:0;
                                     ("vol_near_gondola_02", Expression<Trigger> @:15182 op:13,dt:13,nt:9,next:15183,str:26139,d0:73,d1:0;
-                                        (____, Scope<List> @:15183 op:28,dt:31,nt:8,next:65535,str:31289,d0:15184,d1:40644;
+                                        (____, BuiltinInvocation<List> @:15183 op:28,dt:31,nt:8,next:65535,str:31289,d0:15184,d1:40644;
                                             ("players", Expression<MethodOrOperator> @:15184 op:28,dt:2,nt:9,next:65535,str:162,d0:0,d1:0;)))))
                             (True, Expression<Boolean> @:15185 op:5,dt:5,nt:9,next:65535,str:31300,d0:65281,d1:65535;)))))
-            (____, Scope<Void> @:15186 op:587,dt:4,nt:8,next:15188,str:31367,d0:15187,d1:40647;
+            (____, BuiltinInvocation<Void> @:15186 op:587,dt:4,nt:8,next:15188,str:31367,d0:15187,d1:40647;
                 ("game_save", Expression<MethodOrOperator> @:15187 op:587,dt:2,nt:9,next:65535,str:10957,d0:0,d1:0;))
-            (____, Scope<Void> @:15188 op:63,dt:4,nt:8,next:15192,str:31390,d0:15189,d1:40649;
+            (____, BuiltinInvocation<Void> @:15188 op:63,dt:4,nt:8,next:15192,str:31390,d0:15189,d1:40649;
                 ("object_dynamic_simulation_disable", Expression<MethodOrOperator> @:15189 op:63,dt:2,nt:9,next:15190,str:14668,d0:0,d1:0;
                     (4294901847, Expression<Entity> @:15190 op:56,dt:50,nt:9,next:15191,str:24371,d0:87,d1:65535;
                         (True, Expression<Boolean> @:15191 op:5,dt:5,nt:9,next:65535,str:31438,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:15192 op:63,dt:4,nt:8,next:15196,str:31446,d0:15193,d1:40653;
+            (____, BuiltinInvocation<Void> @:15192 op:63,dt:4,nt:8,next:15196,str:31446,d0:15193,d1:40653;
                 ("object_dynamic_simulation_disable", Expression<MethodOrOperator> @:15193 op:63,dt:2,nt:9,next:15194,str:14668,d0:0,d1:0;
                     (4294901870, Expression<Entity> @:15194 op:56,dt:50,nt:9,next:15195,str:24422,d0:110,d1:65535;
                         (True, Expression<Boolean> @:15195 op:5,dt:5,nt:9,next:65535,str:31494,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:15196 op:2,dt:4,nt:8,next:15213,str:31505,d0:15197,d1:40657;
+            (____, BuiltinInvocation<Void> @:15196 op:2,dt:4,nt:8,next:15213,str:31505,d0:15197,d1:40657;
                 ("if", Expression<MethodOrOperator> @:15197 op:2,dt:2,nt:9,next:15198,str:597,d0:0,d1:0;
-                    (____, Scope<Boolean> @:15198 op:16,dt:5,nt:8,next:15204,str:31509,d0:15199,d1:40659;
+                    (____, BuiltinInvocation<Boolean> @:15198 op:16,dt:5,nt:8,next:15204,str:31509,d0:15199,d1:40659;
                         ("<", Expression<MethodOrOperator> @:15199 op:16,dt:2,nt:9,next:15200,str:988,d0:0,d1:0;
-                            (____, Scope<Short> @:15200 op:327,dt:7,nt:8,next:15203,str:31512,d0:15201,d1:40661;
+                            (____, BuiltinInvocation<Short> @:15200 op:327,dt:7,nt:8,next:15203,str:31512,d0:15201,d1:40661;
                                 ("ai_living_count", Expression<MethodOrOperator> @:15201 op:327,dt:2,nt:9,next:15202,str:10835,d0:0,d1:0;
                                     ("island_all_enemies", Expression<AI> @:15202 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                             (8, Expression<Short> @:15203 op:7,dt:7,nt:9,next:65535,str:31549,d0:8,d1:65535;)))
-                    (____, Scope<Void> @:15204 op:291,dt:4,nt:8,next:65535,str:31555,d0:15205,d1:40665;
+                    (____, BuiltinInvocation<Void> @:15204 op:291,dt:4,nt:8,next:65535,str:31555,d0:15205,d1:40665;
                         ("ai_place", Expression<MethodOrOperator> @:15205 op:291,dt:2,nt:9,next:15206,str:10304,d0:0,d1:0;
                             ("near_gondola_02_jackals", Expression<AI> @:15206 op:19,dt:19,nt:9,next:15207,str:26159,d0:121,d1:0;
-                                (____, Scope<Short> @:15207 op:8,dt:7,nt:8,next:65535,str:31589,d0:15208,d1:40668;
+                                (____, BuiltinInvocation<Short> @:15207 op:8,dt:7,nt:8,next:65535,str:31589,d0:15208,d1:40668;
                                     ("-", Expression<MethodOrOperator> @:15208 op:8,dt:2,nt:9,next:15209,str:3447,d0:0,d1:0;
                                         (2f, Expression<Float> @:15209 op:6,dt:6,nt:9,next:15210,str:31592,d0:0,d1:16384;
-                                            (-2.3635618E-20f, Scope<Float> @:15210 op:327,dt:6,nt:8,next:65535,str:31594,d0:15211,d1:40671;
+                                            (-2.3635618E-20f, BuiltinInvocation<Float> @:15210 op:327,dt:6,nt:8,next:65535,str:31594,d0:15211,d1:40671;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:15211 op:327,dt:2,nt:9,next:15212,str:10835,d0:0,d1:0;
                                                     ("island_phantom_jackals", Expression<AI> @:15212 op:19,dt:19,nt:9,next:65535,str:25536,d0:118,d1:0;)))))))))))
-            (____, Scope<Void> @:15213 op:2,dt:4,nt:8,next:15230,str:31643,d0:15214,d1:40674;
+            (____, BuiltinInvocation<Void> @:15213 op:2,dt:4,nt:8,next:15230,str:31643,d0:15214,d1:40674;
                 ("if", Expression<MethodOrOperator> @:15214 op:2,dt:2,nt:9,next:15215,str:597,d0:0,d1:0;
-                    (____, Scope<Boolean> @:15215 op:16,dt:5,nt:8,next:15221,str:31647,d0:15216,d1:40676;
+                    (____, BuiltinInvocation<Boolean> @:15215 op:16,dt:5,nt:8,next:15221,str:31647,d0:15216,d1:40676;
                         ("<", Expression<MethodOrOperator> @:15216 op:16,dt:2,nt:9,next:15217,str:988,d0:0,d1:0;
-                            (____, Scope<Short> @:15217 op:327,dt:7,nt:8,next:15220,str:31650,d0:15218,d1:40678;
+                            (____, BuiltinInvocation<Short> @:15217 op:327,dt:7,nt:8,next:15220,str:31650,d0:15218,d1:40678;
                                 ("ai_living_count", Expression<MethodOrOperator> @:15218 op:327,dt:2,nt:9,next:15219,str:10835,d0:0,d1:0;
                                     ("island_all_enemies", Expression<AI> @:15219 op:19,dt:19,nt:9,next:65535,str:25671,d0:25,d1:16384;)))
                             (8, Expression<Short> @:15220 op:7,dt:7,nt:9,next:65535,str:31687,d0:8,d1:65535;)))
-                    (____, Scope<Void> @:15221 op:291,dt:4,nt:8,next:65535,str:31693,d0:15222,d1:40682;
+                    (____, BuiltinInvocation<Void> @:15221 op:291,dt:4,nt:8,next:65535,str:31693,d0:15222,d1:40682;
                         ("ai_place", Expression<MethodOrOperator> @:15222 op:291,dt:2,nt:9,next:15223,str:10304,d0:0,d1:0;
                             ("near_gondola_02_grunts", Expression<AI> @:15223 op:19,dt:19,nt:9,next:15224,str:26183,d0:120,d1:0;
-                                (____, Scope<Short> @:15224 op:8,dt:7,nt:8,next:65535,str:31726,d0:15225,d1:40685;
+                                (____, BuiltinInvocation<Short> @:15224 op:8,dt:7,nt:8,next:65535,str:31726,d0:15225,d1:40685;
                                     ("-", Expression<MethodOrOperator> @:15225 op:8,dt:2,nt:9,next:15226,str:3447,d0:0,d1:0;
                                         (3f, Expression<Float> @:15226 op:6,dt:6,nt:9,next:15227,str:31729,d0:0,d1:16448;
-                                            (-2.543559E-20f, Scope<Float> @:15227 op:327,dt:6,nt:8,next:65535,str:31731,d0:15228,d1:40688;
+                                            (-2.543559E-20f, BuiltinInvocation<Float> @:15227 op:327,dt:6,nt:8,next:65535,str:31731,d0:15228,d1:40688;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:15228 op:327,dt:2,nt:9,next:15229,str:10835,d0:0,d1:0;
                                                     ("island_phantom_grunts", Expression<AI> @:15229 op:19,dt:19,nt:9,next:65535,str:25609,d0:117,d1:0;)))))))))))
-            (____, Scope<Void> @:15230 op:21,dt:4,nt:8,next:15246,str:31781,d0:15231,d1:40691;
+            (____, BuiltinInvocation<Void> @:15230 op:21,dt:4,nt:8,next:15246,str:31781,d0:15231,d1:40691;
                 ("sleep_until", Expression<MethodOrOperator> @:15231 op:21,dt:2,nt:9,next:15232,str:372,d0:0,d1:0;
-                    (____, Scope<Boolean> @:15232 op:6,dt:5,nt:8,next:65535,str:31798,d0:15233,d1:40693;
+                    (____, BuiltinInvocation<Boolean> @:15232 op:6,dt:5,nt:8,next:65535,str:31798,d0:15233,d1:40693;
                         ("or", Expression<MethodOrOperator> @:15233 op:6,dt:2,nt:9,next:15234,str:985,d0:0,d1:0;
-                            (____, Scope<Boolean> @:15234 op:18,dt:5,nt:8,next:15240,str:31806,d0:15235,d1:40695;
+                            (____, BuiltinInvocation<Boolean> @:15234 op:18,dt:5,nt:8,next:15240,str:31806,d0:15235,d1:40695;
                                 ("<=", Expression<MethodOrOperator> @:15235 op:18,dt:2,nt:9,next:15236,str:12175,d0:0,d1:0;
-                                    (____, Scope<Short> @:15236 op:327,dt:7,nt:8,next:15239,str:31810,d0:15237,d1:40697;
+                                    (____, BuiltinInvocation<Short> @:15236 op:327,dt:7,nt:8,next:15239,str:31810,d0:15237,d1:40697;
                                         ("ai_living_count", Expression<MethodOrOperator> @:15237 op:327,dt:2,nt:9,next:15238,str:10835,d0:0,d1:0;
                                             ("island_main_enemies", Expression<AI> @:15238 op:19,dt:19,nt:9,next:65535,str:26068,d0:28,d1:16384;)))
                                     (0, Expression<Short> @:15239 op:7,dt:7,nt:9,next:65535,str:31848,d0:0,d1:65535;)))
-                            (____, Scope<Boolean> @:15240 op:15,dt:5,nt:8,next:65535,str:31855,d0:15241,d1:40701;
+                            (____, BuiltinInvocation<Boolean> @:15240 op:15,dt:5,nt:8,next:65535,str:31855,d0:15241,d1:40701;
                                 (">", Expression<MethodOrOperator> @:15241 op:15,dt:2,nt:9,next:15242,str:10467,d0:0,d1:0;
-                                    (-2.7023802E-20f, Scope<Float> @:15242 op:257,dt:6,nt:8,next:15245,str:31858,d0:15243,d1:40703;
+                                    (-2.7023802E-20f, BuiltinInvocation<Float> @:15242 op:257,dt:6,nt:8,next:15245,str:31858,d0:15243,d1:40703;
                                         ("device_get_position", Expression<MethodOrOperator> @:15243 op:257,dt:2,nt:9,next:15244,str:14005,d0:0,d1:0;
                                             ("gondola_02_a", Expression<Device> @:15244 op:60,dt:54,nt:9,next:65535,str:24371,d0:87,d1:65535;)))
                                     (0f, Expression<Float> @:15245 op:6,dt:6,nt:9,next:65535,str:31893,d0:0,d1:0;)))))))
-            (____, Scope<Void> @:15246 op:587,dt:4,nt:8,next:65535,str:31907,d0:15247,d1:40707;
+            (____, BuiltinInvocation<Void> @:15246 op:587,dt:4,nt:8,next:65535,str:31907,d0:15247,d1:40707;
                 ("game_save", Expression<MethodOrOperator> @:15247 op:587,dt:2,nt:9,next:65535,str:10957,d0:0,d1:0;)))))

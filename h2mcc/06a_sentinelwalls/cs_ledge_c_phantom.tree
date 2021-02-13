@@ -1,64 +1,64 @@
 
 ("cs_ledge_c_phantom", MethodDecl<Void> @:336 op:0,dt:0,nt:65535,next:16517,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:16517 op:0,dt:4,nt:8,next:65535,str:29987,d0:16518,d1:41978;
+    (____, BuiltinInvocation<Void> @:16517 op:0,dt:4,nt:8,next:65535,str:29987,d0:16518,d1:41978;
         ("begin", Expression<MethodOrOperator> @:16518 op:0,dt:2,nt:9,next:16457,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:16457 op:449,dt:4,nt:8,next:16460,str:30031,d0:16458,d1:41918;
+            (____, BuiltinInvocation<Void> @:16457 op:449,dt:4,nt:8,next:16460,str:30031,d0:16458,d1:41918;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:16458 op:449,dt:2,nt:9,next:16459,str:1239,d0:0,d1:0;
                     (True, Expression<Boolean> @:16459 op:5,dt:5,nt:9,next:65535,str:30063,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:16460 op:407,dt:4,nt:8,next:16463,str:30068,d0:16461,d1:41921;
+            (____, BuiltinInvocation<Void> @:16460 op:407,dt:4,nt:8,next:16463,str:30068,d0:16461,d1:41921;
                 ("cs_vehicle_speed", Expression<MethodOrOperator> @:16461 op:407,dt:2,nt:9,next:16462,str:21014,d0:0,d1:0;
                     (1f, Expression<Float> @:16462 op:6,dt:6,nt:9,next:65535,str:30086,d0:0,d1:16256;)))
-            (____, Scope<Void> @:16463 op:393,dt:4,nt:8,next:16467,str:30523,d0:16464,d1:41924;
+            (____, BuiltinInvocation<Void> @:16463 op:393,dt:4,nt:8,next:16467,str:30523,d0:16464,d1:41924;
                 ("cs_look", Expression<MethodOrOperator> @:16464 op:393,dt:2,nt:9,next:16465,str:25980,d0:0,d1:0;
                     (True, Expression<Boolean> @:16465 op:5,dt:5,nt:9,next:16466,str:30532,d0:65281,d1:65535;
                         ("ledge_c_phantom/p1", Expression<SpatialPoint> @:16466 op:28,dt:28,nt:9,next:65535,str:25988,d0:1,d1:10;))))
-            (____, Scope<Void> @:16467 op:21,dt:4,nt:8,next:16470,str:30559,d0:16468,d1:41928;
+            (____, BuiltinInvocation<Void> @:16467 op:21,dt:4,nt:8,next:16470,str:30559,d0:16468,d1:41928;
                 ("sleep_until", Expression<MethodOrOperator> @:16468 op:21,dt:2,nt:9,next:16469,str:231,d0:0,d1:0;
                     ("g_ledge_c_phantom_start", VariableAccess<Boolean> @:16469 op:5,dt:5,nt:13,next:65535,str:26007,d0:110,d1:0;)))
-            (____, Scope<Void> @:16470 op:393,dt:4,nt:8,next:16474,str:30601,d0:16471,d1:41931;
+            (____, BuiltinInvocation<Void> @:16470 op:393,dt:4,nt:8,next:16474,str:30601,d0:16471,d1:41931;
                 ("cs_look", Expression<MethodOrOperator> @:16471 op:393,dt:2,nt:9,next:16472,str:25980,d0:0,d1:0;
                     (False, Expression<Boolean> @:16472 op:5,dt:5,nt:9,next:16473,str:30610,d0:65280,d1:65535;
                         ("ledge_c_phantom/p1", Expression<SpatialPoint> @:16473 op:28,dt:28,nt:9,next:65535,str:25988,d0:1,d1:10;))))
-            (____, Scope<Void> @:16474 op:436,dt:4,nt:8,next:16478,str:30638,d0:16475,d1:41935;
+            (____, BuiltinInvocation<Void> @:16474 op:436,dt:4,nt:8,next:16478,str:30638,d0:16475,d1:41935;
                 ("cs_turn_sharpness", Expression<MethodOrOperator> @:16475 op:436,dt:2,nt:9,next:16476,str:26031,d0:0,d1:0;
                     (True, Expression<Boolean> @:16476 op:5,dt:5,nt:9,next:16477,str:30657,d0:65281,d1:65535;
                         (0.7f, Expression<Float> @:16477 op:6,dt:6,nt:9,next:65535,str:30662,d0:13107,d1:16179;))))
-            (____, Scope<Void> @:16478 op:21,dt:4,nt:8,next:16483,str:30670,d0:16479,d1:41939;
+            (____, BuiltinInvocation<Void> @:16478 op:21,dt:4,nt:8,next:16483,str:30670,d0:16479,d1:41939;
                 ("sleep_until", Expression<MethodOrOperator> @:16479 op:21,dt:2,nt:9,next:16480,str:231,d0:0,d1:0;
                     ("g_ledge_c_phantom_1", VariableAccess<Boolean> @:16480 op:5,dt:5,nt:13,next:16481,str:26049,d0:111,d1:0;
                         (5, Expression<Short> @:16481 op:7,dt:7,nt:9,next:16482,str:30703,d0:5,d1:65535;
                             (150, Expression<Int> @:16482 op:8,dt:8,nt:9,next:65535,str:30705,d0:150,d1:0;)))))
-            (____, Scope<Void> @:16483 op:393,dt:4,nt:8,next:16487,str:30749,d0:16484,d1:41944;
+            (____, BuiltinInvocation<Void> @:16483 op:393,dt:4,nt:8,next:16487,str:30749,d0:16484,d1:41944;
                 ("cs_look", Expression<MethodOrOperator> @:16484 op:393,dt:2,nt:9,next:16485,str:25980,d0:0,d1:0;
                     (True, Expression<Boolean> @:16485 op:5,dt:5,nt:9,next:16486,str:30758,d0:65281,d1:65535;
                         ("ledge_c_phantom/p3", Expression<SpatialPoint> @:16486 op:28,dt:28,nt:9,next:65535,str:26069,d0:3,d1:10;))))
-            (____, Scope<Void> @:16487 op:19,dt:4,nt:8,next:16490,str:30785,d0:16488,d1:41948;
+            (____, BuiltinInvocation<Void> @:16487 op:19,dt:4,nt:8,next:16490,str:30785,d0:16488,d1:41948;
                 ("sleep", Expression<MethodOrOperator> @:16488 op:19,dt:2,nt:9,next:16489,str:80,d0:0,d1:0;
                     (60, Expression<Short> @:16489 op:7,dt:7,nt:9,next:65535,str:30792,d0:60,d1:65535;)))
-            (____, Scope<Void> @:16490 op:393,dt:4,nt:8,next:16494,str:30798,d0:16491,d1:41951;
+            (____, BuiltinInvocation<Void> @:16490 op:393,dt:4,nt:8,next:16494,str:30798,d0:16491,d1:41951;
                 ("cs_look", Expression<MethodOrOperator> @:16491 op:393,dt:2,nt:9,next:16492,str:25980,d0:0,d1:0;
                     (False, Expression<Boolean> @:16492 op:5,dt:5,nt:9,next:16493,str:30807,d0:65280,d1:65535;
                         ("ledge_c_phantom/p3", Expression<SpatialPoint> @:16493 op:28,dt:28,nt:9,next:65535,str:26069,d0:3,d1:10;))))
-            (____, Scope<Void> @:16494 op:384,dt:4,nt:8,next:16498,str:30897,d0:16495,d1:41955;
+            (____, BuiltinInvocation<Void> @:16494 op:384,dt:4,nt:8,next:16498,str:30897,d0:16495,d1:41955;
                 ("cs_fly_by", Expression<MethodOrOperator> @:16495 op:384,dt:2,nt:9,next:16496,str:21031,d0:0,d1:0;
                     ("ledge_c_phantom/p2", Expression<SpatialPoint> @:16496 op:28,dt:28,nt:9,next:16497,str:26088,d0:2,d1:10;
                         (4f, Expression<Float> @:16497 op:6,dt:6,nt:9,next:65535,str:30927,d0:0,d1:16512;))))
-            (____, Scope<Void> @:16498 op:384,dt:4,nt:8,next:16502,str:30932,d0:16499,d1:41959;
+            (____, BuiltinInvocation<Void> @:16498 op:384,dt:4,nt:8,next:16502,str:30932,d0:16499,d1:41959;
                 ("cs_fly_by", Expression<MethodOrOperator> @:16499 op:384,dt:2,nt:9,next:16500,str:21031,d0:0,d1:0;
                     ("ledge_c_phantom/p3", Expression<SpatialPoint> @:16500 op:28,dt:28,nt:9,next:16501,str:26069,d0:3,d1:10;
                         (4f, Expression<Float> @:16501 op:6,dt:6,nt:9,next:65535,str:30962,d0:0,d1:16512;))))
-            (____, Scope<Void> @:16502 op:384,dt:4,nt:8,next:16506,str:30967,d0:16503,d1:41963;
+            (____, BuiltinInvocation<Void> @:16502 op:384,dt:4,nt:8,next:16506,str:30967,d0:16503,d1:41963;
                 ("cs_fly_by", Expression<MethodOrOperator> @:16503 op:384,dt:2,nt:9,next:16504,str:21031,d0:0,d1:0;
                     ("ledge_c_phantom/p4", Expression<SpatialPoint> @:16504 op:28,dt:28,nt:9,next:16505,str:26107,d0:4,d1:10;
                         (6f, Expression<Float> @:16505 op:6,dt:6,nt:9,next:65535,str:30997,d0:0,d1:16576;))))
-            (____, Scope<Void> @:16506 op:384,dt:4,nt:8,next:16510,str:31002,d0:16507,d1:41967;
+            (____, BuiltinInvocation<Void> @:16506 op:384,dt:4,nt:8,next:16510,str:31002,d0:16507,d1:41967;
                 ("cs_fly_by", Expression<MethodOrOperator> @:16507 op:384,dt:2,nt:9,next:16508,str:21031,d0:0,d1:0;
                     ("ledge_c_phantom/p5", Expression<SpatialPoint> @:16508 op:28,dt:28,nt:9,next:16509,str:26126,d0:5,d1:10;
                         (6f, Expression<Float> @:16509 op:6,dt:6,nt:9,next:65535,str:31032,d0:0,d1:16576;))))
-            (____, Scope<Void> @:16510 op:384,dt:4,nt:8,next:16514,str:31037,d0:16511,d1:41971;
+            (____, BuiltinInvocation<Void> @:16510 op:384,dt:4,nt:8,next:16514,str:31037,d0:16511,d1:41971;
                 ("cs_fly_by", Expression<MethodOrOperator> @:16511 op:384,dt:2,nt:9,next:16512,str:21031,d0:0,d1:0;
                     ("ledge_c_phantom/p6", Expression<SpatialPoint> @:16512 op:28,dt:28,nt:9,next:16513,str:26145,d0:6,d1:10;
                         (10f, Expression<Float> @:16513 op:6,dt:6,nt:9,next:65535,str:31067,d0:0,d1:16672;))))
-            (____, Scope<Void> @:16514 op:298,dt:4,nt:8,next:65535,str:31073,d0:16515,d1:41975;
+            (____, BuiltinInvocation<Void> @:16514 op:298,dt:4,nt:8,next:65535,str:31073,d0:16515,d1:41975;
                 ("ai_erase", Expression<MethodOrOperator> @:16515 op:298,dt:2,nt:9,next:16516,str:1570,d0:0,d1:0;
                     ("ai_current_squad", VariableAccess<AI> @:16516 op:19,dt:19,nt:13,next:65535,str:11128,d0:33563,d1:65535;))))))

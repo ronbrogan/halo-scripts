@@ -1,86 +1,86 @@
 
 ("e1_cs_pelican1", MethodDecl<Void> @:231 op:0,dt:0,nt:65535,next:10303,str:22129,d0:0,d1:0;
-    (____, Scope<Void> @:10303 op:0,dt:4,nt:8,next:65535,str:2093,d0:10304,d1:35764;
+    (____, BuiltinInvocation<Void> @:10303 op:0,dt:4,nt:8,next:65535,str:2093,d0:10304,d1:35764;
         ("begin", Expression<MethodOrOperator> @:10304 op:0,dt:2,nt:9,next:10221,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:10221 op:290,dt:4,nt:8,next:10224,str:2175,d0:10222,d1:35682;
+            (____, BuiltinInvocation<Void> @:10221 op:290,dt:4,nt:8,next:10224,str:2175,d0:10222,d1:35682;
                 ("ai_place", Expression<MethodOrOperator> @:10222 op:290,dt:2,nt:9,next:10223,str:1215,d0:0,d1:0;
                     ("e1_fld_inf3/carrier0", Expression<AI> @:10223 op:19,dt:19,nt:9,next:65535,str:21926,d0:0,d1:49157;)))
-            (____, Scope<Void> @:10224 op:290,dt:4,nt:8,next:10227,str:2209,d0:10225,d1:35685;
+            (____, BuiltinInvocation<Void> @:10224 op:290,dt:4,nt:8,next:10227,str:2209,d0:10225,d1:35685;
                 ("ai_place", Expression<MethodOrOperator> @:10225 op:290,dt:2,nt:9,next:10226,str:1215,d0:0,d1:0;
                     ("e1_fld_inf3/carrier1", Expression<AI> @:10226 op:19,dt:19,nt:9,next:65535,str:21947,d0:1,d1:49157;)))
-            (____, Scope<Void> @:10227 op:19,dt:4,nt:8,next:10230,str:2243,d0:10228,d1:35688;
+            (____, BuiltinInvocation<Void> @:10227 op:19,dt:4,nt:8,next:10230,str:2243,d0:10228,d1:35688;
                 ("sleep", Expression<MethodOrOperator> @:10228 op:19,dt:2,nt:9,next:10229,str:80,d0:0,d1:0;
                     (1, Expression<Short> @:10229 op:7,dt:7,nt:9,next:65535,str:2250,d0:1,d1:65535;)))
-            (____, Scope<Void> @:10230 op:74,dt:4,nt:8,next:10240,str:2255,d0:10231,d1:35691;
+            (____, BuiltinInvocation<Void> @:10230 op:74,dt:4,nt:8,next:10240,str:2255,d0:10231,d1:35691;
                 ("objects_attach", Expression<MethodOrOperator> @:10231 op:74,dt:2,nt:9,next:10232,str:9597,d0:0,d1:0;
-                    (____, Scope<Entity> @:10232 op:340,dt:50,nt:8,next:10235,str:2271,d0:10233,d1:35693;
+                    (____, BuiltinInvocation<Entity> @:10232 op:340,dt:50,nt:8,next:10235,str:2271,d0:10233,d1:35693;
                         ("ai_vehicle_get", Expression<MethodOrOperator> @:10233 op:340,dt:2,nt:9,next:10234,str:21968,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:10234 op:19,dt:19,nt:13,next:65535,str:9305,d0:33564,d1:65535;)))
                     ("chief_rear", Expression<StringId> @:10235 op:11,dt:11,nt:9,next:10236,str:21983,d0:4208,d1:2560;
-                        (____, Scope<Entity> @:10236 op:284,dt:50,nt:8,next:10239,str:2318,d0:10237,d1:35697;
+                        (____, BuiltinInvocation<Entity> @:10236 op:284,dt:50,nt:8,next:10239,str:2318,d0:10237,d1:35697;
                             ("ai_get_object", Expression<MethodOrOperator> @:10237 op:284,dt:2,nt:9,next:10238,str:9291,d0:0,d1:0;
                                 ("e1_fld_inf3/carrier0", Expression<AI> @:10238 op:19,dt:19,nt:9,next:65535,str:21926,d0:0,d1:49157;)))
                         (0, Expression<StringId> @:10239 op:11,dt:11,nt:9,next:65535,str:0,d0:0,d1:0;))))
-            (____, Scope<Void> @:10240 op:74,dt:4,nt:8,next:10250,str:2361,d0:10241,d1:35701;
+            (____, BuiltinInvocation<Void> @:10240 op:74,dt:4,nt:8,next:10250,str:2361,d0:10241,d1:35701;
                 ("objects_attach", Expression<MethodOrOperator> @:10241 op:74,dt:2,nt:9,next:10242,str:9597,d0:0,d1:0;
-                    (____, Scope<Entity> @:10242 op:340,dt:50,nt:8,next:10245,str:2377,d0:10243,d1:35703;
+                    (____, BuiltinInvocation<Entity> @:10242 op:340,dt:50,nt:8,next:10245,str:2377,d0:10243,d1:35703;
                         ("ai_vehicle_get", Expression<MethodOrOperator> @:10243 op:340,dt:2,nt:9,next:10244,str:21968,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:10244 op:19,dt:19,nt:13,next:65535,str:9305,d0:33564,d1:65535;)))
                     ("pelican_e", Expression<StringId> @:10245 op:11,dt:11,nt:9,next:10246,str:21994,d0:4224,d1:2304;
-                        (____, Scope<Entity> @:10246 op:284,dt:50,nt:8,next:10249,str:2423,d0:10247,d1:35707;
+                        (____, BuiltinInvocation<Entity> @:10246 op:284,dt:50,nt:8,next:10249,str:2423,d0:10247,d1:35707;
                             ("ai_get_object", Expression<MethodOrOperator> @:10247 op:284,dt:2,nt:9,next:10248,str:9291,d0:0,d1:0;
                                 ("e1_fld_inf3/carrier1", Expression<AI> @:10248 op:19,dt:19,nt:9,next:65535,str:21947,d0:1,d1:49157;)))
                         (0, Expression<StringId> @:10249 op:11,dt:11,nt:9,next:65535,str:0,d0:0,d1:0;))))
-            (____, Scope<Void> @:10250 op:383,dt:4,nt:8,next:10253,str:2490,d0:10251,d1:35711;
+            (____, BuiltinInvocation<Void> @:10250 op:383,dt:4,nt:8,next:10253,str:2490,d0:10251,d1:35711;
                 ("cs_fly_by", Expression<MethodOrOperator> @:10251 op:383,dt:2,nt:9,next:10252,str:13498,d0:0,d1:0;
                     ("pelican1/p0", Expression<SpatialPoint> @:10252 op:28,dt:28,nt:9,next:65535,str:22004,d0:0,d1:1;)))
-            (____, Scope<Void> @:10253 op:4,dt:4,nt:8,next:10257,str:2516,d0:10254,d1:35714;
+            (____, BuiltinInvocation<Void> @:10253 op:4,dt:4,nt:8,next:10257,str:2516,d0:10254,d1:35714;
                 ("set", Expression<MethodOrOperator> @:10254 op:4,dt:2,nt:9,next:10255,str:2138,d0:0,d1:0;
                     ("g_e1_talk", VariableAccess<Short> @:10255 op:65535,dt:7,nt:13,next:10256,str:21822,d0:18,d1:0;
                         (1, Expression<Short> @:10256 op:7,dt:7,nt:9,next:65535,str:2531,d0:1,d1:65535;))))
-            (____, Scope<Void> @:10257 op:4,dt:4,nt:8,next:10261,str:2570,d0:10258,d1:35718;
+            (____, BuiltinInvocation<Void> @:10257 op:4,dt:4,nt:8,next:10261,str:2570,d0:10258,d1:35718;
                 ("set", Expression<MethodOrOperator> @:10258 op:4,dt:2,nt:9,next:10259,str:2138,d0:0,d1:0;
                     ("g_e1_pelican1_entering", VariableAccess<Boolean> @:10259 op:65535,dt:5,nt:13,next:10260,str:22016,d0:21,d1:0;
                         (True, Expression<Boolean> @:10260 op:5,dt:5,nt:9,next:65535,str:2598,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:10261 op:383,dt:4,nt:8,next:10264,str:2636,d0:10262,d1:35722;
+            (____, BuiltinInvocation<Void> @:10261 op:383,dt:4,nt:8,next:10264,str:2636,d0:10262,d1:35722;
                 ("cs_fly_by", Expression<MethodOrOperator> @:10262 op:383,dt:2,nt:9,next:10263,str:13498,d0:0,d1:0;
                     ("pelican1/p3", Expression<SpatialPoint> @:10263 op:28,dt:28,nt:9,next:65535,str:22039,d0:1,d1:1;)))
-            (____, Scope<Void> @:10264 op:76,dt:4,nt:8,next:10272,str:2662,d0:10265,d1:35725;
+            (____, BuiltinInvocation<Void> @:10264 op:76,dt:4,nt:8,next:10272,str:2662,d0:10265,d1:35725;
                 ("objects_detach", Expression<MethodOrOperator> @:10265 op:76,dt:2,nt:9,next:10266,str:22051,d0:0,d1:0;
-                    (____, Scope<Entity> @:10266 op:340,dt:50,nt:8,next:10269,str:2678,d0:10267,d1:35727;
+                    (____, BuiltinInvocation<Entity> @:10266 op:340,dt:50,nt:8,next:10269,str:2678,d0:10267,d1:35727;
                         ("ai_vehicle_get", Expression<MethodOrOperator> @:10267 op:340,dt:2,nt:9,next:10268,str:21968,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:10268 op:19,dt:19,nt:13,next:65535,str:9305,d0:33564,d1:65535;)))
-                    (____, Scope<Entity> @:10269 op:284,dt:50,nt:8,next:65535,str:2712,d0:10270,d1:35730;
+                    (____, BuiltinInvocation<Entity> @:10269 op:284,dt:50,nt:8,next:65535,str:2712,d0:10270,d1:35730;
                         ("ai_get_object", Expression<MethodOrOperator> @:10270 op:284,dt:2,nt:9,next:10271,str:9291,d0:0,d1:0;
                             ("e1_fld_inf3/carrier0", Expression<AI> @:10271 op:19,dt:19,nt:9,next:65535,str:21926,d0:0,d1:49157;)))))
-            (____, Scope<Void> @:10272 op:76,dt:4,nt:8,next:10280,str:2752,d0:10273,d1:35733;
+            (____, BuiltinInvocation<Void> @:10272 op:76,dt:4,nt:8,next:10280,str:2752,d0:10273,d1:35733;
                 ("objects_detach", Expression<MethodOrOperator> @:10273 op:76,dt:2,nt:9,next:10274,str:22051,d0:0,d1:0;
-                    (____, Scope<Entity> @:10274 op:340,dt:50,nt:8,next:10277,str:2768,d0:10275,d1:35735;
+                    (____, BuiltinInvocation<Entity> @:10274 op:340,dt:50,nt:8,next:10277,str:2768,d0:10275,d1:35735;
                         ("ai_vehicle_get", Expression<MethodOrOperator> @:10275 op:340,dt:2,nt:9,next:10276,str:21968,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:10276 op:19,dt:19,nt:13,next:65535,str:9305,d0:33564,d1:65535;)))
-                    (____, Scope<Entity> @:10277 op:284,dt:50,nt:8,next:65535,str:2802,d0:10278,d1:35738;
+                    (____, BuiltinInvocation<Entity> @:10277 op:284,dt:50,nt:8,next:65535,str:2802,d0:10278,d1:35738;
                         ("ai_get_object", Expression<MethodOrOperator> @:10278 op:284,dt:2,nt:9,next:10279,str:9291,d0:0,d1:0;
                             ("e1_fld_inf3/carrier1", Expression<AI> @:10279 op:19,dt:19,nt:9,next:65535,str:21947,d0:1,d1:49157;)))))
-            (____, Scope<Void> @:10280 op:19,dt:4,nt:8,next:10283,str:2842,d0:10281,d1:35741;
+            (____, BuiltinInvocation<Void> @:10280 op:19,dt:4,nt:8,next:10283,str:2842,d0:10281,d1:35741;
                 ("sleep", Expression<MethodOrOperator> @:10281 op:19,dt:2,nt:9,next:10282,str:80,d0:0,d1:0;
                     (1, Expression<Short> @:10282 op:7,dt:7,nt:9,next:65535,str:2849,d0:1,d1:65535;)))
-            (____, Scope<Void> @:10283 op:22,dt:4,nt:8,next:10286,str:2854,d0:10284,d1:35744;
+            (____, BuiltinInvocation<Void> @:10283 op:22,dt:4,nt:8,next:10286,str:2854,d0:10284,d1:35744;
                 ("wake", Expression<MethodOrOperator> @:10284 op:22,dt:2,nt:9,next:10285,str:1066,d0:0,d1:0;
                     ("e1_carrier_drop", Expression<ScriptReference> @:10285 op:10,dt:10,nt:9,next:65535,str:22066,d0:230,d1:65535;)))
-            (____, Scope<Void> @:10286 op:4,dt:4,nt:8,next:10290,str:3241,d0:10287,d1:35747;
+            (____, BuiltinInvocation<Void> @:10286 op:4,dt:4,nt:8,next:10290,str:3241,d0:10287,d1:35747;
                 ("set", Expression<MethodOrOperator> @:10287 op:4,dt:2,nt:9,next:10288,str:2138,d0:0,d1:0;
                     ("g_e1_talk", VariableAccess<Short> @:10288 op:65535,dt:7,nt:13,next:10289,str:21822,d0:18,d1:0;
                         (2, Expression<Short> @:10289 op:7,dt:7,nt:9,next:65535,str:3256,d0:2,d1:65535;))))
-            (____, Scope<Void> @:10290 op:4,dt:4,nt:8,next:10294,str:3295,d0:10291,d1:35751;
+            (____, BuiltinInvocation<Void> @:10290 op:4,dt:4,nt:8,next:10294,str:3295,d0:10291,d1:35751;
                 ("set", Expression<MethodOrOperator> @:10291 op:4,dt:2,nt:9,next:10292,str:2138,d0:0,d1:0;
                     ("g_e1_pelican1_unloaded", VariableAccess<Boolean> @:10292 op:65535,dt:5,nt:13,next:10293,str:22082,d0:22,d1:0;
                         (True, Expression<Boolean> @:10293 op:5,dt:5,nt:9,next:65535,str:3323,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:10294 op:383,dt:4,nt:8,next:10297,str:3360,d0:10295,d1:35755;
+            (____, BuiltinInvocation<Void> @:10294 op:383,dt:4,nt:8,next:10297,str:3360,d0:10295,d1:35755;
                 ("cs_fly_by", Expression<MethodOrOperator> @:10295 op:383,dt:2,nt:9,next:10296,str:13498,d0:0,d1:0;
                     ("pelican1/p4", Expression<SpatialPoint> @:10296 op:28,dt:28,nt:9,next:65535,str:22105,d0:2,d1:1;)))
-            (____, Scope<Void> @:10297 op:383,dt:4,nt:8,next:10300,str:3386,d0:10298,d1:35758;
+            (____, BuiltinInvocation<Void> @:10297 op:383,dt:4,nt:8,next:10300,str:3386,d0:10298,d1:35758;
                 ("cs_fly_by", Expression<MethodOrOperator> @:10298 op:383,dt:2,nt:9,next:10299,str:13498,d0:0,d1:0;
                     ("pelican1/p5", Expression<SpatialPoint> @:10299 op:28,dt:28,nt:9,next:65535,str:22117,d0:3,d1:1;)))
-            (____, Scope<Void> @:10300 op:298,dt:4,nt:8,next:65535,str:3412,d0:10301,d1:35761;
+            (____, BuiltinInvocation<Void> @:10300 op:298,dt:4,nt:8,next:65535,str:3412,d0:10301,d1:35761;
                 ("ai_erase", Expression<MethodOrOperator> @:10301 op:298,dt:2,nt:9,next:10302,str:13590,d0:0,d1:0;
                     ("e1_cs_pelican1", Expression<AI> @:10302 op:19,dt:19,nt:9,next:65535,str:22129,d0:11,d1:0;))))))

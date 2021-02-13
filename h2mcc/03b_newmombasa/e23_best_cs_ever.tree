@@ -1,43 +1,43 @@
 
 ("e23_best_cs_ever", MethodDecl<Void> @:262 op:0,dt:0,nt:65535,next:8362,str:17720,d0:0,d1:0;
-    (____, Scope<Void> @:8362 op:0,dt:4,nt:8,next:65535,str:39489,d0:8363,d1:33823;
+    (____, BuiltinInvocation<Void> @:8362 op:0,dt:4,nt:8,next:65535,str:39489,d0:8363,d1:33823;
         ("begin", Expression<MethodOrOperator> @:8363 op:0,dt:2,nt:9,next:8323,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:8323 op:2,dt:4,nt:8,next:8331,str:39546,d0:8324,d1:33784;
+            (____, BuiltinInvocation<Void> @:8323 op:2,dt:4,nt:8,next:8331,str:39546,d0:8324,d1:33784;
                 ("if", Expression<MethodOrOperator> @:8324 op:2,dt:2,nt:9,next:8325,str:461,d0:0,d1:0;
-                    (____, Scope<Boolean> @:8325 op:25,dt:5,nt:8,next:8329,str:39550,d0:8326,d1:33786;
+                    (____, BuiltinInvocation<Boolean> @:8325 op:25,dt:5,nt:8,next:8329,str:39550,d0:8326,d1:33786;
                         ("not", Expression<MethodOrOperator> @:8326 op:25,dt:2,nt:9,next:8327,str:402,d0:0,d1:0;
                             ("difficulty_legendary", ScriptInvocation<Boolean> @:8327 op:4,dt:5,nt:10,next:65535,str:39555,d0:8328,d1:33788;
                                 ("difficulty_legendary", Expression<MethodOrOperator> @:8328 op:4,dt:2,nt:9,next:65535,str:12985,d0:0,d1:0;))))
-                    (____, Scope<Void> @:8329 op:20,dt:4,nt:8,next:65535,str:39579,d0:8330,d1:33790;
+                    (____, BuiltinInvocation<Void> @:8329 op:20,dt:4,nt:8,next:65535,str:39579,d0:8330,d1:33790;
                         ("sleep_forever", Expression<MethodOrOperator> @:8330 op:20,dt:2,nt:9,next:65535,str:13964,d0:0,d1:0;))))
-            (____, Scope<Void> @:8331 op:2,dt:4,nt:8,next:8344,str:39630,d0:8332,d1:33792;
+            (____, BuiltinInvocation<Void> @:8331 op:2,dt:4,nt:8,next:8344,str:39630,d0:8332,d1:33792;
                 ("if", Expression<MethodOrOperator> @:8332 op:2,dt:2,nt:9,next:8333,str:461,d0:0,d1:0;
-                    (____, Scope<Boolean> @:8333 op:25,dt:5,nt:8,next:8342,str:39634,d0:8334,d1:33794;
+                    (____, BuiltinInvocation<Boolean> @:8333 op:25,dt:5,nt:8,next:8342,str:39634,d0:8334,d1:33794;
                         ("not", Expression<MethodOrOperator> @:8334 op:25,dt:2,nt:9,next:8335,str:402,d0:0,d1:0;
-                            (____, Scope<Boolean> @:8335 op:13,dt:5,nt:8,next:65535,str:39639,d0:8336,d1:33796;
+                            (____, BuiltinInvocation<Boolean> @:8335 op:13,dt:5,nt:8,next:65535,str:39639,d0:8336,d1:33796;
                                 ("=", Expression<MethodOrOperator> @:8336 op:13,dt:2,nt:9,next:8337,str:301,d0:0,d1:0;
-                                    (____, Scope<Short> @:8337 op:124,dt:7,nt:8,next:8341,str:39642,d0:8338,d1:33798;
+                                    (____, BuiltinInvocation<Short> @:8337 op:124,dt:7,nt:8,next:8341,str:39642,d0:8338,d1:33798;
                                         ("random_range", Expression<MethodOrOperator> @:8338 op:124,dt:2,nt:9,next:8339,str:16022,d0:0,d1:0;
                                             (0, Expression<Short> @:8339 op:7,dt:7,nt:9,next:8340,str:39656,d0:0,d1:65535;
                                                 (10, Expression<Short> @:8340 op:7,dt:7,nt:9,next:65535,str:39658,d0:10,d1:65535;))))
                                     (0, Expression<Short> @:8341 op:7,dt:7,nt:9,next:65535,str:39662,d0:0,d1:65535;)))))
-                    (____, Scope<Void> @:8342 op:20,dt:4,nt:8,next:65535,str:39666,d0:8343,d1:33803;
+                    (____, BuiltinInvocation<Void> @:8342 op:20,dt:4,nt:8,next:65535,str:39666,d0:8343,d1:33803;
                         ("sleep_forever", Expression<MethodOrOperator> @:8343 op:20,dt:2,nt:9,next:65535,str:13964,d0:0,d1:0;))))
-            (____, Scope<Void> @:8344 op:4,dt:4,nt:8,next:8349,str:39710,d0:8345,d1:33805;
+            (____, BuiltinInvocation<Void> @:8344 op:4,dt:4,nt:8,next:8349,str:39710,d0:8345,d1:33805;
                 ("set", Expression<MethodOrOperator> @:8345 op:4,dt:2,nt:9,next:8346,str:2724,d0:0,d1:0;
                     ("g_target", VariableAccess<Entity> @:8346 op:65535,dt:50,nt:13,next:8347,str:16554,d0:25,d1:0;
                         ("player0", ScriptInvocation<Entity> @:8347 op:0,dt:50,nt:10,next:65535,str:39724,d0:8348,d1:33808;
                             ("player0", Expression<MethodOrOperator> @:8348 op:0,dt:2,nt:9,next:65535,str:607,d0:0,d1:0;)))))
-            (____, Scope<Void> @:8349 op:21,dt:4,nt:8,next:8358,str:39737,d0:8350,d1:33810;
+            (____, BuiltinInvocation<Void> @:8349 op:21,dt:4,nt:8,next:8358,str:39737,d0:8350,d1:33810;
                 ("sleep_until", Expression<MethodOrOperator> @:8350 op:21,dt:2,nt:9,next:8351,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:8351 op:18,dt:5,nt:8,next:8357,str:39753,d0:8352,d1:33812;
+                    (____, BuiltinInvocation<Boolean> @:8351 op:18,dt:5,nt:8,next:8357,str:39753,d0:8352,d1:33812;
                         ("<=", Expression<MethodOrOperator> @:8352 op:18,dt:2,nt:9,next:8353,str:17216,d0:0,d1:0;
-                            (-1.76474E-36f, Scope<Float> @:8353 op:69,dt:6,nt:8,next:8356,str:39757,d0:8354,d1:33814;
+                            (-1.76474E-36f, BuiltinInvocation<Float> @:8353 op:69,dt:6,nt:8,next:8356,str:39757,d0:8354,d1:33814;
                                 ("object_get_health", Expression<MethodOrOperator> @:8354 op:69,dt:2,nt:9,next:8355,str:854,d0:0,d1:0;
                                     ("g_target", VariableAccess<Entity> @:8355 op:50,dt:50,nt:13,next:65535,str:16554,d0:25,d1:0;)))
                             (0f, Expression<Float> @:8356 op:6,dt:6,nt:9,next:65535,str:39786,d0:0,d1:0;)))
                     (10, Expression<Short> @:8357 op:7,dt:7,nt:9,next:65535,str:39792,d0:10,d1:65535;)))
-            (____, Scope<Void> @:8358 op:366,dt:4,nt:8,next:65535,str:39814,d0:8359,d1:33819;
+            (____, BuiltinInvocation<Void> @:8358 op:366,dt:4,nt:8,next:65535,str:39814,d0:8359,d1:33819;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:8359 op:366,dt:2,nt:9,next:8360,str:15752,d0:0,d1:0;
                     ("e23_cov_inf1_0/ultra0", Expression<AI> @:8360 op:19,dt:19,nt:9,next:8361,str:17356,d0:0,d1:49241;
                         ("cs_best_cs_ever", Expression<AIScript> @:8361 op:21,dt:21,nt:9,next:65535,str:17641,d0:250,d1:0;)))))))

@@ -1,242 +1,242 @@
 
 ("banshee_sin_02_weapon", MethodDecl<Void> @:299 op:0,dt:0,nt:65535,next:21641,str:32373,d0:0,d1:0;
-    (____, Scope<Void> @:21641 op:0,dt:4,nt:8,next:65535,str:22186,d0:21642,d1:47102;
+    (____, BuiltinInvocation<Void> @:21641 op:0,dt:4,nt:8,next:65535,str:22186,d0:21642,d1:47102;
         ("begin", Expression<MethodOrOperator> @:21642 op:0,dt:2,nt:9,next:21403,str:210,d0:0,d1:0;
-            (____, Scope<Void> @:21403 op:2,dt:4,nt:8,next:21437,str:22230,d0:21404,d1:46864;
+            (____, BuiltinInvocation<Void> @:21403 op:2,dt:4,nt:8,next:21437,str:22230,d0:21404,d1:46864;
                 ("if", Expression<MethodOrOperator> @:21404 op:2,dt:2,nt:9,next:21405,str:665,d0:0,d1:0;
-                    (____, Scope<Boolean> @:21405 op:5,dt:5,nt:8,next:21418,str:22238,d0:21406,d1:46866;
+                    (____, BuiltinInvocation<Boolean> @:21405 op:5,dt:5,nt:8,next:21418,str:22238,d0:21406,d1:46866;
                         ("and", Expression<MethodOrOperator> @:21406 op:5,dt:2,nt:9,next:21407,str:876,d0:0,d1:0;
-                            (____, Scope<Boolean> @:21407 op:242,dt:5,nt:8,next:21414,str:22247,d0:21408,d1:46868;
+                            (____, BuiltinInvocation<Boolean> @:21407 op:242,dt:5,nt:8,next:21414,str:22247,d0:21408,d1:46868;
                                 ("unit_has_weapon", Expression<MethodOrOperator> @:21408 op:242,dt:2,nt:9,next:21409,str:17710,d0:0,d1:0;
-                                    (____, Scope<Unit> @:21409 op:24,dt:51,nt:8,next:21413,str:22264,d0:21410,d1:46870;
+                                    (____, BuiltinInvocation<Unit> @:21409 op:24,dt:51,nt:8,next:21413,str:22264,d0:21410,d1:46870;
                                         ("unit", Expression<MethodOrOperator> @:21410 op:24,dt:2,nt:9,next:21411,str:216,d0:0,d1:0;
                                             ("player0", ScriptInvocation<Entity> @:21411 op:0,dt:50,nt:10,next:65535,str:22270,d0:21412,d1:46872;
                                                 ("player0", Expression<MethodOrOperator> @:21412 op:0,dt:2,nt:9,next:65535,str:811,d0:0,d1:0;))))
                                     ("objects\weapons\rifle\plasma_rifle\plasma_rifle.weapon", Expression<TagReference> @:21413 op:38,dt:38,nt:9,next:65535,str:30554,d0:188,d1:57906;)))
-                            (____, Scope<Boolean> @:21414 op:13,dt:5,nt:8,next:65535,str:22343,d0:21415,d1:46875;
+                            (____, BuiltinInvocation<Boolean> @:21414 op:13,dt:5,nt:8,next:65535,str:22343,d0:21415,d1:46875;
                                 ("=", Expression<MethodOrOperator> @:21415 op:13,dt:2,nt:9,next:21416,str:505,d0:0,d1:0;
                                     ("banshee_sin_02_ready", VariableAccess<Boolean> @:21416 op:0,dt:5,nt:13,next:21417,str:32241,d0:42,d1:0;
                                         (False, Expression<Boolean> @:21417 op:5,dt:5,nt:9,next:65535,str:22367,d0:65280,d1:65535;))))))
-                    (____, Scope<Void> @:21418 op:0,dt:4,nt:8,next:65535,str:22383,d0:21419,d1:46879;
+                    (____, BuiltinInvocation<Void> @:21418 op:0,dt:4,nt:8,next:65535,str:22383,d0:21419,d1:46879;
                         ("begin", Expression<MethodOrOperator> @:21419 op:0,dt:2,nt:9,next:21420,str:210,d0:0,d1:0;
-                            (____, Scope<Void> @:21420 op:250,dt:4,nt:8,next:21433,str:22395,d0:21421,d1:46881;
+                            (____, BuiltinInvocation<Void> @:21420 op:250,dt:4,nt:8,next:21433,str:22395,d0:21421,d1:46881;
                                 ("unit_add_equipment", Expression<MethodOrOperator> @:21421 op:250,dt:2,nt:9,next:21422,str:24300,d0:0,d1:0;
-                                    (____, Scope<Unit> @:21422 op:24,dt:51,nt:8,next:21430,str:22415,d0:21423,d1:46883;
+                                    (____, BuiltinInvocation<Unit> @:21422 op:24,dt:51,nt:8,next:21430,str:22415,d0:21423,d1:46883;
                                         ("unit", Expression<MethodOrOperator> @:21423 op:24,dt:2,nt:9,next:21424,str:216,d0:0,d1:0;
-                                            (____, Scope<Entity> @:21424 op:37,dt:50,nt:8,next:65535,str:22421,d0:21425,d1:46885;
+                                            (____, BuiltinInvocation<Entity> @:21424 op:37,dt:50,nt:8,next:65535,str:22421,d0:21425,d1:46885;
                                                 ("list_get", Expression<MethodOrOperator> @:21425 op:37,dt:2,nt:9,next:21426,str:221,d0:0,d1:0;
-                                                    (____, Scope<List> @:21426 op:332,dt:31,nt:8,next:21429,str:22431,d0:21427,d1:46887;
+                                                    (____, BuiltinInvocation<List> @:21426 op:332,dt:31,nt:8,next:21429,str:22431,d0:21427,d1:46887;
                                                         ("ai_actors", Expression<MethodOrOperator> @:21427 op:332,dt:2,nt:9,next:21428,str:12066,d0:0,d1:0;
                                                             ("dervish_03", Expression<AI> @:21428 op:19,dt:19,nt:9,next:65535,str:5313,d0:95,d1:0;)))
                                                     (0, Expression<Short> @:21429 op:7,dt:7,nt:9,next:65535,str:22454,d0:0,d1:65535;)))))
                                     ("rifle", Expression<StartingProfile> @:21430 op:24,dt:24,nt:9,next:21431,str:30630,d0:2,d1:0;
                                         (True, Expression<Boolean> @:21431 op:5,dt:5,nt:9,next:21432,str:22464,d0:65281,d1:65535;
                                             (True, Expression<Boolean> @:21432 op:5,dt:5,nt:9,next:65535,str:22469,d0:65281,d1:65535;)))))
-                            (____, Scope<Void> @:21433 op:4,dt:4,nt:8,next:65535,str:22480,d0:21434,d1:46894;
+                            (____, BuiltinInvocation<Void> @:21433 op:4,dt:4,nt:8,next:65535,str:22480,d0:21434,d1:46894;
                                 ("set", Expression<MethodOrOperator> @:21434 op:4,dt:2,nt:9,next:21435,str:2644,d0:0,d1:0;
                                     ("banshee_sin_02_ready", VariableAccess<Boolean> @:21435 op:65535,dt:5,nt:13,next:21436,str:32241,d0:42,d1:0;
                                         (True, Expression<Boolean> @:21436 op:5,dt:5,nt:9,next:65535,str:22506,d0:65281,d1:65535;))))))))
-            (____, Scope<Void> @:21437 op:2,dt:4,nt:8,next:21471,str:22524,d0:21438,d1:46898;
+            (____, BuiltinInvocation<Void> @:21437 op:2,dt:4,nt:8,next:21471,str:22524,d0:21438,d1:46898;
                 ("if", Expression<MethodOrOperator> @:21438 op:2,dt:2,nt:9,next:21439,str:665,d0:0,d1:0;
-                    (____, Scope<Boolean> @:21439 op:5,dt:5,nt:8,next:21452,str:22532,d0:21440,d1:46900;
+                    (____, BuiltinInvocation<Boolean> @:21439 op:5,dt:5,nt:8,next:21452,str:22532,d0:21440,d1:46900;
                         ("and", Expression<MethodOrOperator> @:21440 op:5,dt:2,nt:9,next:21441,str:876,d0:0,d1:0;
-                            (____, Scope<Boolean> @:21441 op:242,dt:5,nt:8,next:21448,str:22541,d0:21442,d1:46902;
+                            (____, BuiltinInvocation<Boolean> @:21441 op:242,dt:5,nt:8,next:21448,str:22541,d0:21442,d1:46902;
                                 ("unit_has_weapon", Expression<MethodOrOperator> @:21442 op:242,dt:2,nt:9,next:21443,str:17710,d0:0,d1:0;
-                                    (____, Scope<Unit> @:21443 op:24,dt:51,nt:8,next:21447,str:22558,d0:21444,d1:46904;
+                                    (____, BuiltinInvocation<Unit> @:21443 op:24,dt:51,nt:8,next:21447,str:22558,d0:21444,d1:46904;
                                         ("unit", Expression<MethodOrOperator> @:21444 op:24,dt:2,nt:9,next:21445,str:216,d0:0,d1:0;
                                             ("player0", ScriptInvocation<Entity> @:21445 op:0,dt:50,nt:10,next:65535,str:22564,d0:21446,d1:46906;
                                                 ("player0", Expression<MethodOrOperator> @:21446 op:0,dt:2,nt:9,next:65535,str:811,d0:0,d1:0;))))
                                     ("objects\weapons\rifle\covenant_carbine\covenant_carbine.weapon", Expression<TagReference> @:21447 op:38,dt:38,nt:9,next:65535,str:30636,d0:695,d1:58413;)))
-                            (____, Scope<Boolean> @:21448 op:13,dt:5,nt:8,next:65535,str:22645,d0:21449,d1:46909;
+                            (____, BuiltinInvocation<Boolean> @:21448 op:13,dt:5,nt:8,next:65535,str:22645,d0:21449,d1:46909;
                                 ("=", Expression<MethodOrOperator> @:21449 op:13,dt:2,nt:9,next:21450,str:505,d0:0,d1:0;
                                     ("banshee_sin_02_ready", VariableAccess<Boolean> @:21450 op:0,dt:5,nt:13,next:21451,str:32241,d0:42,d1:0;
                                         (False, Expression<Boolean> @:21451 op:5,dt:5,nt:9,next:65535,str:22669,d0:65280,d1:65535;))))))
-                    (____, Scope<Void> @:21452 op:0,dt:4,nt:8,next:65535,str:22685,d0:21453,d1:46913;
+                    (____, BuiltinInvocation<Void> @:21452 op:0,dt:4,nt:8,next:65535,str:22685,d0:21453,d1:46913;
                         ("begin", Expression<MethodOrOperator> @:21453 op:0,dt:2,nt:9,next:21454,str:210,d0:0,d1:0;
-                            (____, Scope<Void> @:21454 op:250,dt:4,nt:8,next:21467,str:22697,d0:21455,d1:46915;
+                            (____, BuiltinInvocation<Void> @:21454 op:250,dt:4,nt:8,next:21467,str:22697,d0:21455,d1:46915;
                                 ("unit_add_equipment", Expression<MethodOrOperator> @:21455 op:250,dt:2,nt:9,next:21456,str:24300,d0:0,d1:0;
-                                    (____, Scope<Unit> @:21456 op:24,dt:51,nt:8,next:21464,str:22717,d0:21457,d1:46917;
+                                    (____, BuiltinInvocation<Unit> @:21456 op:24,dt:51,nt:8,next:21464,str:22717,d0:21457,d1:46917;
                                         ("unit", Expression<MethodOrOperator> @:21457 op:24,dt:2,nt:9,next:21458,str:216,d0:0,d1:0;
-                                            (____, Scope<Entity> @:21458 op:37,dt:50,nt:8,next:65535,str:22723,d0:21459,d1:46919;
+                                            (____, BuiltinInvocation<Entity> @:21458 op:37,dt:50,nt:8,next:65535,str:22723,d0:21459,d1:46919;
                                                 ("list_get", Expression<MethodOrOperator> @:21459 op:37,dt:2,nt:9,next:21460,str:221,d0:0,d1:0;
-                                                    (____, Scope<List> @:21460 op:332,dt:31,nt:8,next:21463,str:22733,d0:21461,d1:46921;
+                                                    (____, BuiltinInvocation<List> @:21460 op:332,dt:31,nt:8,next:21463,str:22733,d0:21461,d1:46921;
                                                         ("ai_actors", Expression<MethodOrOperator> @:21461 op:332,dt:2,nt:9,next:21462,str:12066,d0:0,d1:0;
                                                             ("dervish_03", Expression<AI> @:21462 op:19,dt:19,nt:9,next:65535,str:5313,d0:95,d1:0;)))
                                                     (0, Expression<Short> @:21463 op:7,dt:7,nt:9,next:65535,str:22756,d0:0,d1:65535;)))))
                                     ("carbine", Expression<StartingProfile> @:21464 op:24,dt:24,nt:9,next:21465,str:30699,d0:3,d1:0;
                                         (True, Expression<Boolean> @:21465 op:5,dt:5,nt:9,next:21466,str:22768,d0:65281,d1:65535;
                                             (True, Expression<Boolean> @:21466 op:5,dt:5,nt:9,next:65535,str:22773,d0:65281,d1:65535;)))))
-                            (____, Scope<Void> @:21467 op:4,dt:4,nt:8,next:65535,str:22784,d0:21468,d1:46928;
+                            (____, BuiltinInvocation<Void> @:21467 op:4,dt:4,nt:8,next:65535,str:22784,d0:21468,d1:46928;
                                 ("set", Expression<MethodOrOperator> @:21468 op:4,dt:2,nt:9,next:21469,str:2644,d0:0,d1:0;
                                     ("banshee_sin_02_ready", VariableAccess<Boolean> @:21469 op:65535,dt:5,nt:13,next:21470,str:32241,d0:42,d1:0;
                                         (True, Expression<Boolean> @:21470 op:5,dt:5,nt:9,next:65535,str:22810,d0:65281,d1:65535;))))))))
-            (____, Scope<Void> @:21471 op:2,dt:4,nt:8,next:21505,str:22828,d0:21472,d1:46932;
+            (____, BuiltinInvocation<Void> @:21471 op:2,dt:4,nt:8,next:21505,str:22828,d0:21472,d1:46932;
                 ("if", Expression<MethodOrOperator> @:21472 op:2,dt:2,nt:9,next:21473,str:665,d0:0,d1:0;
-                    (____, Scope<Boolean> @:21473 op:5,dt:5,nt:8,next:21486,str:22836,d0:21474,d1:46934;
+                    (____, BuiltinInvocation<Boolean> @:21473 op:5,dt:5,nt:8,next:21486,str:22836,d0:21474,d1:46934;
                         ("and", Expression<MethodOrOperator> @:21474 op:5,dt:2,nt:9,next:21475,str:876,d0:0,d1:0;
-                            (____, Scope<Boolean> @:21475 op:242,dt:5,nt:8,next:21482,str:22845,d0:21476,d1:46936;
+                            (____, BuiltinInvocation<Boolean> @:21475 op:242,dt:5,nt:8,next:21482,str:22845,d0:21476,d1:46936;
                                 ("unit_has_weapon", Expression<MethodOrOperator> @:21476 op:242,dt:2,nt:9,next:21477,str:17710,d0:0,d1:0;
-                                    (____, Scope<Unit> @:21477 op:24,dt:51,nt:8,next:21481,str:22862,d0:21478,d1:46938;
+                                    (____, BuiltinInvocation<Unit> @:21477 op:24,dt:51,nt:8,next:21481,str:22862,d0:21478,d1:46938;
                                         ("unit", Expression<MethodOrOperator> @:21478 op:24,dt:2,nt:9,next:21479,str:216,d0:0,d1:0;
                                             ("player0", ScriptInvocation<Entity> @:21479 op:0,dt:50,nt:10,next:65535,str:22868,d0:21480,d1:46940;
                                                 ("player0", Expression<MethodOrOperator> @:21480 op:0,dt:2,nt:9,next:65535,str:811,d0:0,d1:0;))))
                                     ("objects\weapons\rifle\beam_rifle\beam_rifle.weapon", Expression<TagReference> @:21481 op:38,dt:38,nt:9,next:65535,str:30707,d0:849,d1:58567;)))
-                            (____, Scope<Boolean> @:21482 op:13,dt:5,nt:8,next:65535,str:22937,d0:21483,d1:46943;
+                            (____, BuiltinInvocation<Boolean> @:21482 op:13,dt:5,nt:8,next:65535,str:22937,d0:21483,d1:46943;
                                 ("=", Expression<MethodOrOperator> @:21483 op:13,dt:2,nt:9,next:21484,str:505,d0:0,d1:0;
                                     ("banshee_sin_02_ready", VariableAccess<Boolean> @:21484 op:0,dt:5,nt:13,next:21485,str:32241,d0:42,d1:0;
                                         (False, Expression<Boolean> @:21485 op:5,dt:5,nt:9,next:65535,str:22961,d0:65280,d1:65535;))))))
-                    (____, Scope<Void> @:21486 op:0,dt:4,nt:8,next:65535,str:22977,d0:21487,d1:46947;
+                    (____, BuiltinInvocation<Void> @:21486 op:0,dt:4,nt:8,next:65535,str:22977,d0:21487,d1:46947;
                         ("begin", Expression<MethodOrOperator> @:21487 op:0,dt:2,nt:9,next:21488,str:210,d0:0,d1:0;
-                            (____, Scope<Void> @:21488 op:250,dt:4,nt:8,next:21501,str:22989,d0:21489,d1:46949;
+                            (____, BuiltinInvocation<Void> @:21488 op:250,dt:4,nt:8,next:21501,str:22989,d0:21489,d1:46949;
                                 ("unit_add_equipment", Expression<MethodOrOperator> @:21489 op:250,dt:2,nt:9,next:21490,str:24300,d0:0,d1:0;
-                                    (____, Scope<Unit> @:21490 op:24,dt:51,nt:8,next:21498,str:23009,d0:21491,d1:46951;
+                                    (____, BuiltinInvocation<Unit> @:21490 op:24,dt:51,nt:8,next:21498,str:23009,d0:21491,d1:46951;
                                         ("unit", Expression<MethodOrOperator> @:21491 op:24,dt:2,nt:9,next:21492,str:216,d0:0,d1:0;
-                                            (____, Scope<Entity> @:21492 op:37,dt:50,nt:8,next:65535,str:23015,d0:21493,d1:46953;
+                                            (____, BuiltinInvocation<Entity> @:21492 op:37,dt:50,nt:8,next:65535,str:23015,d0:21493,d1:46953;
                                                 ("list_get", Expression<MethodOrOperator> @:21493 op:37,dt:2,nt:9,next:21494,str:221,d0:0,d1:0;
-                                                    (____, Scope<List> @:21494 op:332,dt:31,nt:8,next:21497,str:23025,d0:21495,d1:46955;
+                                                    (____, BuiltinInvocation<List> @:21494 op:332,dt:31,nt:8,next:21497,str:23025,d0:21495,d1:46955;
                                                         ("ai_actors", Expression<MethodOrOperator> @:21495 op:332,dt:2,nt:9,next:21496,str:12066,d0:0,d1:0;
                                                             ("dervish_03", Expression<AI> @:21496 op:19,dt:19,nt:9,next:65535,str:5313,d0:95,d1:0;)))
                                                     (0, Expression<Short> @:21497 op:7,dt:7,nt:9,next:65535,str:23048,d0:0,d1:65535;)))))
                                     ("sniper", Expression<StartingProfile> @:21498 op:24,dt:24,nt:9,next:21499,str:30758,d0:4,d1:0;
                                         (True, Expression<Boolean> @:21499 op:5,dt:5,nt:9,next:21500,str:23059,d0:65281,d1:65535;
                                             (True, Expression<Boolean> @:21500 op:5,dt:5,nt:9,next:65535,str:23064,d0:65281,d1:65535;)))))
-                            (____, Scope<Void> @:21501 op:4,dt:4,nt:8,next:65535,str:23075,d0:21502,d1:46962;
+                            (____, BuiltinInvocation<Void> @:21501 op:4,dt:4,nt:8,next:65535,str:23075,d0:21502,d1:46962;
                                 ("set", Expression<MethodOrOperator> @:21502 op:4,dt:2,nt:9,next:21503,str:2644,d0:0,d1:0;
                                     ("banshee_sin_02_ready", VariableAccess<Boolean> @:21503 op:65535,dt:5,nt:13,next:21504,str:32241,d0:42,d1:0;
                                         (True, Expression<Boolean> @:21504 op:5,dt:5,nt:9,next:65535,str:23101,d0:65281,d1:65535;))))))))
-            (____, Scope<Void> @:21505 op:2,dt:4,nt:8,next:21539,str:23119,d0:21506,d1:46966;
+            (____, BuiltinInvocation<Void> @:21505 op:2,dt:4,nt:8,next:21539,str:23119,d0:21506,d1:46966;
                 ("if", Expression<MethodOrOperator> @:21506 op:2,dt:2,nt:9,next:21507,str:665,d0:0,d1:0;
-                    (____, Scope<Boolean> @:21507 op:5,dt:5,nt:8,next:21520,str:23127,d0:21508,d1:46968;
+                    (____, BuiltinInvocation<Boolean> @:21507 op:5,dt:5,nt:8,next:21520,str:23127,d0:21508,d1:46968;
                         ("and", Expression<MethodOrOperator> @:21508 op:5,dt:2,nt:9,next:21509,str:876,d0:0,d1:0;
-                            (____, Scope<Boolean> @:21509 op:242,dt:5,nt:8,next:21516,str:23136,d0:21510,d1:46970;
+                            (____, BuiltinInvocation<Boolean> @:21509 op:242,dt:5,nt:8,next:21516,str:23136,d0:21510,d1:46970;
                                 ("unit_has_weapon", Expression<MethodOrOperator> @:21510 op:242,dt:2,nt:9,next:21511,str:17710,d0:0,d1:0;
-                                    (____, Scope<Unit> @:21511 op:24,dt:51,nt:8,next:21515,str:23153,d0:21512,d1:46972;
+                                    (____, BuiltinInvocation<Unit> @:21511 op:24,dt:51,nt:8,next:21515,str:23153,d0:21512,d1:46972;
                                         ("unit", Expression<MethodOrOperator> @:21512 op:24,dt:2,nt:9,next:21513,str:216,d0:0,d1:0;
                                             ("player0", ScriptInvocation<Entity> @:21513 op:0,dt:50,nt:10,next:65535,str:23159,d0:21514,d1:46974;
                                                 ("player0", Expression<MethodOrOperator> @:21514 op:0,dt:2,nt:9,next:65535,str:811,d0:0,d1:0;))))
                                     ("objects\weapons\pistol\needler\needler.weapon", Expression<TagReference> @:21515 op:38,dt:38,nt:9,next:65535,str:30765,d0:988,d1:58706;)))
-                            (____, Scope<Boolean> @:21516 op:13,dt:5,nt:8,next:65535,str:23223,d0:21517,d1:46977;
+                            (____, BuiltinInvocation<Boolean> @:21516 op:13,dt:5,nt:8,next:65535,str:23223,d0:21517,d1:46977;
                                 ("=", Expression<MethodOrOperator> @:21517 op:13,dt:2,nt:9,next:21518,str:505,d0:0,d1:0;
                                     ("banshee_sin_02_ready", VariableAccess<Boolean> @:21518 op:0,dt:5,nt:13,next:21519,str:32241,d0:42,d1:0;
                                         (False, Expression<Boolean> @:21519 op:5,dt:5,nt:9,next:65535,str:23247,d0:65280,d1:65535;))))))
-                    (____, Scope<Void> @:21520 op:0,dt:4,nt:8,next:65535,str:23263,d0:21521,d1:46981;
+                    (____, BuiltinInvocation<Void> @:21520 op:0,dt:4,nt:8,next:65535,str:23263,d0:21521,d1:46981;
                         ("begin", Expression<MethodOrOperator> @:21521 op:0,dt:2,nt:9,next:21522,str:210,d0:0,d1:0;
-                            (____, Scope<Void> @:21522 op:250,dt:4,nt:8,next:21535,str:23275,d0:21523,d1:46983;
+                            (____, BuiltinInvocation<Void> @:21522 op:250,dt:4,nt:8,next:21535,str:23275,d0:21523,d1:46983;
                                 ("unit_add_equipment", Expression<MethodOrOperator> @:21523 op:250,dt:2,nt:9,next:21524,str:24300,d0:0,d1:0;
-                                    (____, Scope<Unit> @:21524 op:24,dt:51,nt:8,next:21532,str:23295,d0:21525,d1:46985;
+                                    (____, BuiltinInvocation<Unit> @:21524 op:24,dt:51,nt:8,next:21532,str:23295,d0:21525,d1:46985;
                                         ("unit", Expression<MethodOrOperator> @:21525 op:24,dt:2,nt:9,next:21526,str:216,d0:0,d1:0;
-                                            (____, Scope<Entity> @:21526 op:37,dt:50,nt:8,next:65535,str:23301,d0:21527,d1:46987;
+                                            (____, BuiltinInvocation<Entity> @:21526 op:37,dt:50,nt:8,next:65535,str:23301,d0:21527,d1:46987;
                                                 ("list_get", Expression<MethodOrOperator> @:21527 op:37,dt:2,nt:9,next:21528,str:221,d0:0,d1:0;
-                                                    (____, Scope<List> @:21528 op:332,dt:31,nt:8,next:21531,str:23311,d0:21529,d1:46989;
+                                                    (____, BuiltinInvocation<List> @:21528 op:332,dt:31,nt:8,next:21531,str:23311,d0:21529,d1:46989;
                                                         ("ai_actors", Expression<MethodOrOperator> @:21529 op:332,dt:2,nt:9,next:21530,str:12066,d0:0,d1:0;
                                                             ("dervish_03", Expression<AI> @:21530 op:19,dt:19,nt:9,next:65535,str:5313,d0:95,d1:0;)))
                                                     (0, Expression<Short> @:21531 op:7,dt:7,nt:9,next:65535,str:23334,d0:0,d1:65535;)))))
                                     ("needler", Expression<StartingProfile> @:21532 op:24,dt:24,nt:9,next:21533,str:30811,d0:5,d1:0;
                                         (True, Expression<Boolean> @:21533 op:5,dt:5,nt:9,next:21534,str:23346,d0:65281,d1:65535;
                                             (True, Expression<Boolean> @:21534 op:5,dt:5,nt:9,next:65535,str:23351,d0:65281,d1:65535;)))))
-                            (____, Scope<Void> @:21535 op:4,dt:4,nt:8,next:65535,str:23362,d0:21536,d1:46996;
+                            (____, BuiltinInvocation<Void> @:21535 op:4,dt:4,nt:8,next:65535,str:23362,d0:21536,d1:46996;
                                 ("set", Expression<MethodOrOperator> @:21536 op:4,dt:2,nt:9,next:21537,str:2644,d0:0,d1:0;
                                     ("banshee_sin_02_ready", VariableAccess<Boolean> @:21537 op:65535,dt:5,nt:13,next:21538,str:32241,d0:42,d1:0;
                                         (True, Expression<Boolean> @:21538 op:5,dt:5,nt:9,next:65535,str:23388,d0:65281,d1:65535;))))))))
-            (____, Scope<Void> @:21539 op:2,dt:4,nt:8,next:21573,str:23406,d0:21540,d1:47000;
+            (____, BuiltinInvocation<Void> @:21539 op:2,dt:4,nt:8,next:21573,str:23406,d0:21540,d1:47000;
                 ("if", Expression<MethodOrOperator> @:21540 op:2,dt:2,nt:9,next:21541,str:665,d0:0,d1:0;
-                    (____, Scope<Boolean> @:21541 op:5,dt:5,nt:8,next:21554,str:23414,d0:21542,d1:47002;
+                    (____, BuiltinInvocation<Boolean> @:21541 op:5,dt:5,nt:8,next:21554,str:23414,d0:21542,d1:47002;
                         ("and", Expression<MethodOrOperator> @:21542 op:5,dt:2,nt:9,next:21543,str:876,d0:0,d1:0;
-                            (____, Scope<Boolean> @:21543 op:242,dt:5,nt:8,next:21550,str:23423,d0:21544,d1:47004;
+                            (____, BuiltinInvocation<Boolean> @:21543 op:242,dt:5,nt:8,next:21550,str:23423,d0:21544,d1:47004;
                                 ("unit_has_weapon", Expression<MethodOrOperator> @:21544 op:242,dt:2,nt:9,next:21545,str:17710,d0:0,d1:0;
-                                    (____, Scope<Unit> @:21545 op:24,dt:51,nt:8,next:21549,str:23440,d0:21546,d1:47006;
+                                    (____, BuiltinInvocation<Unit> @:21545 op:24,dt:51,nt:8,next:21549,str:23440,d0:21546,d1:47006;
                                         ("unit", Expression<MethodOrOperator> @:21546 op:24,dt:2,nt:9,next:21547,str:216,d0:0,d1:0;
                                             ("player0", ScriptInvocation<Entity> @:21547 op:0,dt:50,nt:10,next:65535,str:23446,d0:21548,d1:47008;
                                                 ("player0", Expression<MethodOrOperator> @:21548 op:0,dt:2,nt:9,next:65535,str:811,d0:0,d1:0;))))
                                     ("objects\weapons\pistol\plasma_pistol\plasma_pistol.weapon", Expression<TagReference> @:21549 op:38,dt:38,nt:9,next:65535,str:30819,d0:501,d1:58219;)))
-                            (____, Scope<Boolean> @:21550 op:13,dt:5,nt:8,next:65535,str:23522,d0:21551,d1:47011;
+                            (____, BuiltinInvocation<Boolean> @:21550 op:13,dt:5,nt:8,next:65535,str:23522,d0:21551,d1:47011;
                                 ("=", Expression<MethodOrOperator> @:21551 op:13,dt:2,nt:9,next:21552,str:505,d0:0,d1:0;
                                     ("banshee_sin_02_ready", VariableAccess<Boolean> @:21552 op:0,dt:5,nt:13,next:21553,str:32241,d0:42,d1:0;
                                         (False, Expression<Boolean> @:21553 op:5,dt:5,nt:9,next:65535,str:23546,d0:65280,d1:65535;))))))
-                    (____, Scope<Void> @:21554 op:0,dt:4,nt:8,next:65535,str:23562,d0:21555,d1:47015;
+                    (____, BuiltinInvocation<Void> @:21554 op:0,dt:4,nt:8,next:65535,str:23562,d0:21555,d1:47015;
                         ("begin", Expression<MethodOrOperator> @:21555 op:0,dt:2,nt:9,next:21556,str:210,d0:0,d1:0;
-                            (____, Scope<Void> @:21556 op:250,dt:4,nt:8,next:21569,str:23574,d0:21557,d1:47017;
+                            (____, BuiltinInvocation<Void> @:21556 op:250,dt:4,nt:8,next:21569,str:23574,d0:21557,d1:47017;
                                 ("unit_add_equipment", Expression<MethodOrOperator> @:21557 op:250,dt:2,nt:9,next:21558,str:24300,d0:0,d1:0;
-                                    (____, Scope<Unit> @:21558 op:24,dt:51,nt:8,next:21566,str:23594,d0:21559,d1:47019;
+                                    (____, BuiltinInvocation<Unit> @:21558 op:24,dt:51,nt:8,next:21566,str:23594,d0:21559,d1:47019;
                                         ("unit", Expression<MethodOrOperator> @:21559 op:24,dt:2,nt:9,next:21560,str:216,d0:0,d1:0;
-                                            (____, Scope<Entity> @:21560 op:37,dt:50,nt:8,next:65535,str:23600,d0:21561,d1:47021;
+                                            (____, BuiltinInvocation<Entity> @:21560 op:37,dt:50,nt:8,next:65535,str:23600,d0:21561,d1:47021;
                                                 ("list_get", Expression<MethodOrOperator> @:21561 op:37,dt:2,nt:9,next:21562,str:221,d0:0,d1:0;
-                                                    (____, Scope<List> @:21562 op:332,dt:31,nt:8,next:21565,str:23610,d0:21563,d1:47023;
+                                                    (____, BuiltinInvocation<List> @:21562 op:332,dt:31,nt:8,next:21565,str:23610,d0:21563,d1:47023;
                                                         ("ai_actors", Expression<MethodOrOperator> @:21563 op:332,dt:2,nt:9,next:21564,str:12066,d0:0,d1:0;
                                                             ("dervish_03", Expression<AI> @:21564 op:19,dt:19,nt:9,next:65535,str:5313,d0:95,d1:0;)))
                                                     (0, Expression<Short> @:21565 op:7,dt:7,nt:9,next:65535,str:23633,d0:0,d1:65535;)))))
                                     ("pistol", Expression<StartingProfile> @:21566 op:24,dt:24,nt:9,next:21567,str:30877,d0:6,d1:0;
                                         (True, Expression<Boolean> @:21567 op:5,dt:5,nt:9,next:21568,str:23644,d0:65281,d1:65535;
                                             (True, Expression<Boolean> @:21568 op:5,dt:5,nt:9,next:65535,str:23649,d0:65281,d1:65535;)))))
-                            (____, Scope<Void> @:21569 op:4,dt:4,nt:8,next:65535,str:23660,d0:21570,d1:47030;
+                            (____, BuiltinInvocation<Void> @:21569 op:4,dt:4,nt:8,next:65535,str:23660,d0:21570,d1:47030;
                                 ("set", Expression<MethodOrOperator> @:21570 op:4,dt:2,nt:9,next:21571,str:2644,d0:0,d1:0;
                                     ("banshee_sin_02_ready", VariableAccess<Boolean> @:21571 op:65535,dt:5,nt:13,next:21572,str:32241,d0:42,d1:0;
                                         (True, Expression<Boolean> @:21572 op:5,dt:5,nt:9,next:65535,str:23686,d0:65281,d1:65535;))))))))
-            (____, Scope<Void> @:21573 op:2,dt:4,nt:8,next:21607,str:23704,d0:21574,d1:47034;
+            (____, BuiltinInvocation<Void> @:21573 op:2,dt:4,nt:8,next:21607,str:23704,d0:21574,d1:47034;
                 ("if", Expression<MethodOrOperator> @:21574 op:2,dt:2,nt:9,next:21575,str:665,d0:0,d1:0;
-                    (____, Scope<Boolean> @:21575 op:5,dt:5,nt:8,next:21588,str:23712,d0:21576,d1:47036;
+                    (____, BuiltinInvocation<Boolean> @:21575 op:5,dt:5,nt:8,next:21588,str:23712,d0:21576,d1:47036;
                         ("and", Expression<MethodOrOperator> @:21576 op:5,dt:2,nt:9,next:21577,str:876,d0:0,d1:0;
-                            (____, Scope<Boolean> @:21577 op:242,dt:5,nt:8,next:21584,str:23721,d0:21578,d1:47038;
+                            (____, BuiltinInvocation<Boolean> @:21577 op:242,dt:5,nt:8,next:21584,str:23721,d0:21578,d1:47038;
                                 ("unit_has_weapon", Expression<MethodOrOperator> @:21578 op:242,dt:2,nt:9,next:21579,str:17710,d0:0,d1:0;
-                                    (____, Scope<Unit> @:21579 op:24,dt:51,nt:8,next:21583,str:23738,d0:21580,d1:47040;
+                                    (____, BuiltinInvocation<Unit> @:21579 op:24,dt:51,nt:8,next:21583,str:23738,d0:21580,d1:47040;
                                         ("unit", Expression<MethodOrOperator> @:21580 op:24,dt:2,nt:9,next:21581,str:216,d0:0,d1:0;
                                             ("player0", ScriptInvocation<Entity> @:21581 op:0,dt:50,nt:10,next:65535,str:23744,d0:21582,d1:47042;
                                                 ("player0", Expression<MethodOrOperator> @:21582 op:0,dt:2,nt:9,next:65535,str:811,d0:0,d1:0;))))
                                     ("objects\weapons\support_high\flak_cannon\flak_cannon.weapon", Expression<TagReference> @:21583 op:38,dt:38,nt:9,next:65535,str:30884,d0:1130,d1:58848;)))
-                            (____, Scope<Boolean> @:21584 op:13,dt:5,nt:8,next:65535,str:23822,d0:21585,d1:47045;
+                            (____, BuiltinInvocation<Boolean> @:21584 op:13,dt:5,nt:8,next:65535,str:23822,d0:21585,d1:47045;
                                 ("=", Expression<MethodOrOperator> @:21585 op:13,dt:2,nt:9,next:21586,str:505,d0:0,d1:0;
                                     ("banshee_sin_02_ready", VariableAccess<Boolean> @:21586 op:0,dt:5,nt:13,next:21587,str:32241,d0:42,d1:0;
                                         (False, Expression<Boolean> @:21587 op:5,dt:5,nt:9,next:65535,str:23846,d0:65280,d1:65535;))))))
-                    (____, Scope<Void> @:21588 op:0,dt:4,nt:8,next:65535,str:23862,d0:21589,d1:47049;
+                    (____, BuiltinInvocation<Void> @:21588 op:0,dt:4,nt:8,next:65535,str:23862,d0:21589,d1:47049;
                         ("begin", Expression<MethodOrOperator> @:21589 op:0,dt:2,nt:9,next:21590,str:210,d0:0,d1:0;
-                            (____, Scope<Void> @:21590 op:250,dt:4,nt:8,next:21603,str:23874,d0:21591,d1:47051;
+                            (____, BuiltinInvocation<Void> @:21590 op:250,dt:4,nt:8,next:21603,str:23874,d0:21591,d1:47051;
                                 ("unit_add_equipment", Expression<MethodOrOperator> @:21591 op:250,dt:2,nt:9,next:21592,str:24300,d0:0,d1:0;
-                                    (____, Scope<Unit> @:21592 op:24,dt:51,nt:8,next:21600,str:23894,d0:21593,d1:47053;
+                                    (____, BuiltinInvocation<Unit> @:21592 op:24,dt:51,nt:8,next:21600,str:23894,d0:21593,d1:47053;
                                         ("unit", Expression<MethodOrOperator> @:21593 op:24,dt:2,nt:9,next:21594,str:216,d0:0,d1:0;
-                                            (____, Scope<Entity> @:21594 op:37,dt:50,nt:8,next:65535,str:23900,d0:21595,d1:47055;
+                                            (____, BuiltinInvocation<Entity> @:21594 op:37,dt:50,nt:8,next:65535,str:23900,d0:21595,d1:47055;
                                                 ("list_get", Expression<MethodOrOperator> @:21595 op:37,dt:2,nt:9,next:21596,str:221,d0:0,d1:0;
-                                                    (____, Scope<List> @:21596 op:332,dt:31,nt:8,next:21599,str:23910,d0:21597,d1:47057;
+                                                    (____, BuiltinInvocation<List> @:21596 op:332,dt:31,nt:8,next:21599,str:23910,d0:21597,d1:47057;
                                                         ("ai_actors", Expression<MethodOrOperator> @:21597 op:332,dt:2,nt:9,next:21598,str:12066,d0:0,d1:0;
                                                             ("dervish_03", Expression<AI> @:21598 op:19,dt:19,nt:9,next:65535,str:5313,d0:95,d1:0;)))
                                                     (0, Expression<Short> @:21599 op:7,dt:7,nt:9,next:65535,str:23933,d0:0,d1:65535;)))))
                                     ("flak", Expression<StartingProfile> @:21600 op:24,dt:24,nt:9,next:21601,str:30944,d0:7,d1:0;
                                         (True, Expression<Boolean> @:21601 op:5,dt:5,nt:9,next:21602,str:23942,d0:65281,d1:65535;
                                             (True, Expression<Boolean> @:21602 op:5,dt:5,nt:9,next:65535,str:23947,d0:65281,d1:65535;)))))
-                            (____, Scope<Void> @:21603 op:4,dt:4,nt:8,next:65535,str:23958,d0:21604,d1:47064;
+                            (____, BuiltinInvocation<Void> @:21603 op:4,dt:4,nt:8,next:65535,str:23958,d0:21604,d1:47064;
                                 ("set", Expression<MethodOrOperator> @:21604 op:4,dt:2,nt:9,next:21605,str:2644,d0:0,d1:0;
                                     ("banshee_sin_02_ready", VariableAccess<Boolean> @:21605 op:65535,dt:5,nt:13,next:21606,str:32241,d0:42,d1:0;
                                         (True, Expression<Boolean> @:21606 op:5,dt:5,nt:9,next:65535,str:23984,d0:65281,d1:65535;))))))))
-            (____, Scope<Void> @:21607 op:2,dt:4,nt:8,next:65535,str:24002,d0:21608,d1:47068;
+            (____, BuiltinInvocation<Void> @:21607 op:2,dt:4,nt:8,next:65535,str:24002,d0:21608,d1:47068;
                 ("if", Expression<MethodOrOperator> @:21608 op:2,dt:2,nt:9,next:21609,str:665,d0:0,d1:0;
-                    (____, Scope<Boolean> @:21609 op:5,dt:5,nt:8,next:21622,str:24010,d0:21610,d1:47070;
+                    (____, BuiltinInvocation<Boolean> @:21609 op:5,dt:5,nt:8,next:21622,str:24010,d0:21610,d1:47070;
                         ("and", Expression<MethodOrOperator> @:21610 op:5,dt:2,nt:9,next:21611,str:876,d0:0,d1:0;
-                            (____, Scope<Boolean> @:21611 op:242,dt:5,nt:8,next:21618,str:24019,d0:21612,d1:47072;
+                            (____, BuiltinInvocation<Boolean> @:21611 op:242,dt:5,nt:8,next:21618,str:24019,d0:21612,d1:47072;
                                 ("unit_has_weapon", Expression<MethodOrOperator> @:21612 op:242,dt:2,nt:9,next:21613,str:17710,d0:0,d1:0;
-                                    (____, Scope<Unit> @:21613 op:24,dt:51,nt:8,next:21617,str:24036,d0:21614,d1:47074;
+                                    (____, BuiltinInvocation<Unit> @:21613 op:24,dt:51,nt:8,next:21617,str:24036,d0:21614,d1:47074;
                                         ("unit", Expression<MethodOrOperator> @:21614 op:24,dt:2,nt:9,next:21615,str:216,d0:0,d1:0;
                                             ("player0", ScriptInvocation<Entity> @:21615 op:0,dt:50,nt:10,next:65535,str:24042,d0:21616,d1:47076;
                                                 ("player0", Expression<MethodOrOperator> @:21616 op:0,dt:2,nt:9,next:65535,str:811,d0:0,d1:0;))))
                                     ("objects\characters\sentinel_aggressor\weapons\beam\sentinel_aggressor_beam.weapon", Expression<TagReference> @:21617 op:38,dt:38,nt:9,next:65535,str:30949,d0:1222,d1:58940;)))
-                            (____, Scope<Boolean> @:21618 op:13,dt:5,nt:8,next:65535,str:24142,d0:21619,d1:47079;
+                            (____, BuiltinInvocation<Boolean> @:21618 op:13,dt:5,nt:8,next:65535,str:24142,d0:21619,d1:47079;
                                 ("=", Expression<MethodOrOperator> @:21619 op:13,dt:2,nt:9,next:21620,str:505,d0:0,d1:0;
                                     ("banshee_sin_02_ready", VariableAccess<Boolean> @:21620 op:0,dt:5,nt:13,next:21621,str:32241,d0:42,d1:0;
                                         (False, Expression<Boolean> @:21621 op:5,dt:5,nt:9,next:65535,str:24166,d0:65280,d1:65535;))))))
-                    (____, Scope<Void> @:21622 op:0,dt:4,nt:8,next:65535,str:24182,d0:21623,d1:47083;
+                    (____, BuiltinInvocation<Void> @:21622 op:0,dt:4,nt:8,next:65535,str:24182,d0:21623,d1:47083;
                         ("begin", Expression<MethodOrOperator> @:21623 op:0,dt:2,nt:9,next:21624,str:210,d0:0,d1:0;
-                            (____, Scope<Void> @:21624 op:250,dt:4,nt:8,next:21637,str:24194,d0:21625,d1:47085;
+                            (____, BuiltinInvocation<Void> @:21624 op:250,dt:4,nt:8,next:21637,str:24194,d0:21625,d1:47085;
                                 ("unit_add_equipment", Expression<MethodOrOperator> @:21625 op:250,dt:2,nt:9,next:21626,str:24300,d0:0,d1:0;
-                                    (____, Scope<Unit> @:21626 op:24,dt:51,nt:8,next:21634,str:24214,d0:21627,d1:47087;
+                                    (____, BuiltinInvocation<Unit> @:21626 op:24,dt:51,nt:8,next:21634,str:24214,d0:21627,d1:47087;
                                         ("unit", Expression<MethodOrOperator> @:21627 op:24,dt:2,nt:9,next:21628,str:216,d0:0,d1:0;
-                                            (____, Scope<Entity> @:21628 op:37,dt:50,nt:8,next:65535,str:24220,d0:21629,d1:47089;
+                                            (____, BuiltinInvocation<Entity> @:21628 op:37,dt:50,nt:8,next:65535,str:24220,d0:21629,d1:47089;
                                                 ("list_get", Expression<MethodOrOperator> @:21629 op:37,dt:2,nt:9,next:21630,str:221,d0:0,d1:0;
-                                                    (____, Scope<List> @:21630 op:332,dt:31,nt:8,next:21633,str:24230,d0:21631,d1:47091;
+                                                    (____, BuiltinInvocation<List> @:21630 op:332,dt:31,nt:8,next:21633,str:24230,d0:21631,d1:47091;
                                                         ("ai_actors", Expression<MethodOrOperator> @:21631 op:332,dt:2,nt:9,next:21632,str:12066,d0:0,d1:0;
                                                             ("dervish_03", Expression<AI> @:21632 op:19,dt:19,nt:9,next:65535,str:5313,d0:95,d1:0;)))
                                                     (0, Expression<Short> @:21633 op:7,dt:7,nt:9,next:65535,str:24253,d0:0,d1:65535;)))))
                                     ("beam", Expression<StartingProfile> @:21634 op:24,dt:24,nt:9,next:21635,str:31031,d0:8,d1:0;
                                         (True, Expression<Boolean> @:21635 op:5,dt:5,nt:9,next:21636,str:24262,d0:65281,d1:65535;
                                             (True, Expression<Boolean> @:21636 op:5,dt:5,nt:9,next:65535,str:24267,d0:65281,d1:65535;)))))
-                            (____, Scope<Void> @:21637 op:4,dt:4,nt:8,next:65535,str:24278,d0:21638,d1:47098;
+                            (____, BuiltinInvocation<Void> @:21637 op:4,dt:4,nt:8,next:65535,str:24278,d0:21638,d1:47098;
                                 ("set", Expression<MethodOrOperator> @:21638 op:4,dt:2,nt:9,next:21639,str:2644,d0:0,d1:0;
                                     ("banshee_sin_02_ready", VariableAccess<Boolean> @:21639 op:65535,dt:5,nt:13,next:21640,str:32241,d0:42,d1:0;
                                         (True, Expression<Boolean> @:21640 op:5,dt:5,nt:9,next:65535,str:24304,d0:65281,d1:65535;)))))))))))

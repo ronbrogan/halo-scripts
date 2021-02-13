@@ -1,16 +1,16 @@
 
 ("reserve_throne", MethodDecl<Void> @:282 op:0,dt:0,nt:65535,next:18767,str:31058,d0:0,d1:0;
-    (____, Scope<Void> @:18767 op:0,dt:4,nt:8,next:65535,str:2593,d0:18768,d1:44228;
+    (____, BuiltinInvocation<Void> @:18767 op:0,dt:4,nt:8,next:65535,str:2593,d0:18768,d1:44228;
         ("begin", Expression<MethodOrOperator> @:18768 op:0,dt:2,nt:9,next:18755,str:142,d0:0,d1:0;
-            (____, Scope<Void> @:18755 op:19,dt:4,nt:8,next:18758,str:2633,d0:18756,d1:44216;
+            (____, BuiltinInvocation<Void> @:18755 op:19,dt:4,nt:8,next:18758,str:2633,d0:18756,d1:44216;
                 ("sleep", Expression<MethodOrOperator> @:18756 op:19,dt:2,nt:9,next:18757,str:221,d0:0,d1:0;
                     (2, Expression<Short> @:18757 op:7,dt:7,nt:9,next:65535,str:2640,d0:2,d1:65535;)))
-            (____, Scope<Void> @:18758 op:343,dt:4,nt:8,next:18764,str:2645,d0:18759,d1:44219;
+            (____, BuiltinInvocation<Void> @:18758 op:343,dt:4,nt:8,next:18764,str:2645,d0:18759,d1:44219;
                 ("ai_vehicle_reserve", Expression<MethodOrOperator> @:18759 op:343,dt:2,nt:9,next:18760,str:13746,d0:0,d1:0;
-                    (____, Scope<Vehicle> @:18760 op:340,dt:52,nt:8,next:18763,str:2665,d0:18761,d1:44221;
+                    (____, BuiltinInvocation<Vehicle> @:18760 op:340,dt:52,nt:8,next:18763,str:2665,d0:18761,d1:44221;
                         ("ai_vehicle_get", Expression<MethodOrOperator> @:18761 op:340,dt:2,nt:9,next:18762,str:30944,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:18762 op:19,dt:19,nt:13,next:65535,str:16356,d0:33564,d1:65535;)))
                     (True, Expression<Boolean> @:18763 op:5,dt:5,nt:9,next:65535,str:2699,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:18764 op:19,dt:4,nt:8,next:65535,str:2707,d0:18765,d1:44225;
+            (____, BuiltinInvocation<Void> @:18764 op:19,dt:4,nt:8,next:65535,str:2707,d0:18765,d1:44225;
                 ("sleep", Expression<MethodOrOperator> @:18765 op:19,dt:2,nt:9,next:18766,str:221,d0:0,d1:0;
                     (2, Expression<Short> @:18766 op:7,dt:7,nt:9,next:65535,str:2714,d0:2,d1:65535;))))))

@@ -1,32 +1,32 @@
 
 ("test_ioc", MethodDecl<Void> @:202 op:0,dt:0,nt:65535,next:7317,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:7317 op:0,dt:4,nt:8,next:65535,str:30577,d0:7318,d1:32778;
+    (____, BuiltinInvocation<Void> @:7317 op:0,dt:4,nt:8,next:65535,str:30577,d0:7318,d1:32778;
         ("begin", Expression<MethodOrOperator> @:7318 op:0,dt:2,nt:9,next:7260,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:7260 op:46,dt:4,nt:8,next:7263,str:30608,d0:7261,d1:65488;
+            (____, BuiltinInvocation<Void> @:7260 op:46,dt:4,nt:8,next:7263,str:30608,d0:7261,d1:65488;
                 ("object_create", Expression<MethodOrOperator> @:7261 op:46,dt:2,nt:9,next:7262,str:16797,d0:0,d1:0;
                     ("ioc_effect", Expression<EntityIdentifier> @:7262 op:56,dt:56,nt:9,next:65535,str:16811,d0:98,d1:65535;)))
-            (____, Scope<Void> @:7263 op:596,dt:4,nt:8,next:7268,str:30637,d0:7264,d1:65491;
+            (____, BuiltinInvocation<Void> @:7263 op:596,dt:4,nt:8,next:7268,str:30637,d0:7264,d1:65491;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:7264 op:596,dt:2,nt:9,next:7265,str:1513,d0:0,d1:0;
                     ("sound\visual_effects\inamberclad_flyby\slipspace", Expression<Sound> @:7265 op:32,dt:32,nt:9,next:7266,str:16822,d0:8052,d1:33084;
                         (4294901925, Expression<Entity> @:7266 op:56,dt:50,nt:9,next:7267,str:16871,d0:165,d1:65535;
                             (1f, Expression<Float> @:7267 op:6,dt:6,nt:9,next:65535,str:30715,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:7268 op:596,dt:4,nt:8,next:7273,str:30720,d0:7269,d1:65496;
+            (____, BuiltinInvocation<Void> @:7268 op:596,dt:4,nt:8,next:7273,str:30720,d0:7269,d1:65496;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:7269 op:596,dt:2,nt:9,next:7270,str:1513,d0:0,d1:0;
                     ("sound\visual_effects\inamberclad_flyby\inamberclad_flyby", Expression<Sound> @:7270 op:32,dt:32,nt:9,next:7271,str:16879,d0:8054,d1:33086;
                         (4294967295, Expression<Entity> @:7271 op:50,dt:50,nt:9,next:7272,str:1586,d0:65535,d1:65535;
                             (1f, Expression<Float> @:7272 op:6,dt:6,nt:9,next:65535,str:30803,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:7273 op:19,dt:4,nt:8,next:7276,str:30808,d0:7274,d1:65501;
+            (____, BuiltinInvocation<Void> @:7273 op:19,dt:4,nt:8,next:7276,str:30808,d0:7274,d1:65501;
                 ("sleep", Expression<MethodOrOperator> @:7274 op:19,dt:2,nt:9,next:7275,str:80,d0:0,d1:0;
                     (3, Expression<Short> @:7275 op:7,dt:7,nt:9,next:65535,str:30815,d0:3,d1:65535;)))
-            (____, Scope<Void> @:7276 op:46,dt:4,nt:8,next:7279,str:30820,d0:7277,d1:65504;
+            (____, BuiltinInvocation<Void> @:7276 op:46,dt:4,nt:8,next:7279,str:30820,d0:7277,d1:65504;
                 ("object_create", Expression<MethodOrOperator> @:7277 op:46,dt:2,nt:9,next:7278,str:16797,d0:0,d1:0;
                     ("ioc", Expression<EntityIdentifier> @:7278 op:56,dt:56,nt:9,next:65535,str:16936,d0:374,d1:65535;)))
-            (____, Scope<Void> @:7279 op:266,dt:4,nt:8,next:7284,str:30842,d0:7280,d1:65507;
+            (____, BuiltinInvocation<Void> @:7279 op:266,dt:4,nt:8,next:7284,str:30842,d0:7280,d1:65507;
                 ("device_set_position_track", Expression<MethodOrOperator> @:7280 op:266,dt:2,nt:9,next:7281,str:16940,d0:0,d1:0;
                     ("ioc", Expression<Device> @:7281 op:60,dt:54,nt:9,next:7282,str:16936,d0:374,d1:65535;
                         ("high_charity_flyby", Expression<StringId> @:7282 op:11,dt:11,nt:9,next:7283,str:16966,d0:13477,d1:4608;
                             (0f, Expression<Float> @:7283 op:6,dt:6,nt:9,next:65535,str:30892,d0:0,d1:0;)))))
-            (____, Scope<Void> @:7284 op:268,dt:4,nt:8,next:7292,str:30897,d0:7285,d1:65512;
+            (____, BuiltinInvocation<Void> @:7284 op:268,dt:4,nt:8,next:7292,str:30897,d0:7285,d1:65512;
                 ("device_animate_position", Expression<MethodOrOperator> @:7285 op:268,dt:2,nt:9,next:7286,str:16985,d0:0,d1:0;
                     ("ioc", Expression<Device> @:7286 op:60,dt:54,nt:9,next:7287,str:16936,d0:374,d1:65535;
                         (1f, Expression<Float> @:7287 op:6,dt:6,nt:9,next:7288,str:30926,d0:0,d1:16256;
@@ -34,28 +34,28 @@
                                 (0f, Expression<Float> @:7289 op:6,dt:6,nt:9,next:7290,str:30931,d0:0,d1:0;
                                     (0f, Expression<Float> @:7290 op:6,dt:6,nt:9,next:7291,str:30933,d0:0,d1:0;
                                         (False, Expression<Boolean> @:7291 op:5,dt:5,nt:9,next:65535,str:30935,d0:65280,d1:65535;))))))))
-            (____, Scope<Void> @:7292 op:19,dt:4,nt:8,next:7295,str:30944,d0:7293,d1:65520;
+            (____, BuiltinInvocation<Void> @:7292 op:19,dt:4,nt:8,next:7295,str:30944,d0:7293,d1:65520;
                 ("sleep", Expression<MethodOrOperator> @:7293 op:19,dt:2,nt:9,next:7294,str:80,d0:0,d1:0;
                     (30, Expression<Short> @:7294 op:7,dt:7,nt:9,next:65535,str:30951,d0:30,d1:65535;)))
-            (____, Scope<Void> @:7295 op:52,dt:4,nt:8,next:7298,str:30957,d0:7296,d1:65523;
+            (____, BuiltinInvocation<Void> @:7295 op:52,dt:4,nt:8,next:7298,str:30957,d0:7296,d1:65523;
                 ("object_destroy", Expression<MethodOrOperator> @:7296 op:52,dt:2,nt:9,next:7297,str:4950,d0:0,d1:0;
                     (4294901858, Expression<Entity> @:7297 op:56,dt:50,nt:9,next:65535,str:16811,d0:98,d1:65535;)))
-            (____, Scope<Void> @:7298 op:19,dt:4,nt:8,next:7301,str:30989,d0:7299,d1:65526;
+            (____, BuiltinInvocation<Void> @:7298 op:19,dt:4,nt:8,next:7301,str:30989,d0:7299,d1:65526;
                 ("sleep", Expression<MethodOrOperator> @:7299 op:19,dt:2,nt:9,next:7300,str:80,d0:0,d1:0;
                     (30, Expression<Short> @:7300 op:7,dt:7,nt:9,next:65535,str:30996,d0:30,d1:65535;)))
-            (____, Scope<Void> @:7301 op:43,dt:4,nt:8,next:7306,str:31002,d0:7302,d1:65529;
+            (____, BuiltinInvocation<Void> @:7301 op:43,dt:4,nt:8,next:7306,str:31002,d0:7302,d1:65529;
                 ("damage_object", Expression<MethodOrOperator> @:7302 op:43,dt:2,nt:9,next:7303,str:16712,d0:0,d1:0;
                     ("objects\cinematics\human\inamberclad_to_scale\damage_effects\ioc_flyby", Expression<DamageEffect> @:7303 op:34,dt:34,nt:9,next:7304,str:16726,d0:8051,d1:33083;
                         ("player0", ScriptInvocation<Entity> @:7304 op:0,dt:50,nt:10,next:65535,str:31088,d0:7305,d1:65532;
                             ("player0", Expression<MethodOrOperator> @:7305 op:0,dt:2,nt:9,next:65535,str:602,d0:0,d1:0;)))))
-            (____, Scope<Void> @:7306 op:21,dt:4,nt:8,next:7314,str:31103,d0:7307,d1:65534;
+            (____, BuiltinInvocation<Void> @:7306 op:21,dt:4,nt:8,next:7314,str:31103,d0:7307,d1:65534;
                 ("sleep_until", Expression<MethodOrOperator> @:7307 op:21,dt:2,nt:9,next:7308,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:7308 op:17,dt:5,nt:8,next:65535,str:31116,d0:7309,d1:32769;
+                    (____, BuiltinInvocation<Boolean> @:7308 op:17,dt:5,nt:8,next:65535,str:31116,d0:7309,d1:32769;
                         (">=", Expression<MethodOrOperator> @:7309 op:17,dt:2,nt:9,next:7310,str:671,d0:0,d1:0;
-                            (-2.85751E-40f, Scope<Float> @:7310 op:257,dt:6,nt:8,next:7313,str:31120,d0:7311,d1:32771;
+                            (-2.85751E-40f, BuiltinInvocation<Float> @:7310 op:257,dt:6,nt:8,next:7313,str:31120,d0:7311,d1:32771;
                                 ("device_get_position", Expression<MethodOrOperator> @:7311 op:257,dt:2,nt:9,next:7312,str:17009,d0:0,d1:0;
                                     ("ioc", Expression<Device> @:7312 op:60,dt:54,nt:9,next:65535,str:16936,d0:374,d1:65535;)))
                             (1f, Expression<Float> @:7313 op:6,dt:6,nt:9,next:65535,str:31146,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:7314 op:52,dt:4,nt:8,next:65535,str:31152,d0:7315,d1:32775;
+            (____, BuiltinInvocation<Void> @:7314 op:52,dt:4,nt:8,next:65535,str:31152,d0:7315,d1:32775;
                 ("object_destroy", Expression<MethodOrOperator> @:7315 op:52,dt:2,nt:9,next:7316,str:4950,d0:0,d1:0;
                     (4294902134, Expression<Entity> @:7316 op:56,dt:50,nt:9,next:65535,str:16936,d0:374,d1:65535;))))))

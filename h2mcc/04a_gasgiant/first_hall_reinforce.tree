@@ -1,36 +1,36 @@
 
 ("first_hall_reinforce", MethodDecl<Void> @:314 op:0,dt:0,nt:65535,next:14473,str:26796,d0:0,d1:0;
-    (____, Scope<Void> @:14473 op:0,dt:4,nt:8,next:65535,str:33543,d0:14474,d1:39934;
+    (____, BuiltinInvocation<Void> @:14473 op:0,dt:4,nt:8,next:65535,str:33543,d0:14474,d1:39934;
         ("begin", Expression<MethodOrOperator> @:14474 op:0,dt:2,nt:9,next:14441,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:14441 op:21,dt:4,nt:8,next:14465,str:33582,d0:14442,d1:39902;
+            (____, BuiltinInvocation<Void> @:14441 op:21,dt:4,nt:8,next:14465,str:33582,d0:14442,d1:39902;
                 ("sleep_until", Expression<MethodOrOperator> @:14442 op:21,dt:2,nt:9,next:14443,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14443 op:5,dt:5,nt:8,next:65535,str:33599,d0:14444,d1:39904;
+                    (____, BuiltinInvocation<Boolean> @:14443 op:5,dt:5,nt:8,next:65535,str:33599,d0:14444,d1:39904;
                         ("and", Expression<MethodOrOperator> @:14444 op:5,dt:2,nt:9,next:14445,str:672,d0:0,d1:0;
-                            (____, Scope<Boolean> @:14445 op:15,dt:5,nt:8,next:14451,str:33608,d0:14446,d1:39906;
+                            (____, BuiltinInvocation<Boolean> @:14445 op:15,dt:5,nt:8,next:14451,str:33608,d0:14446,d1:39906;
                                 (">", Expression<MethodOrOperator> @:14446 op:15,dt:2,nt:9,next:14447,str:14927,d0:0,d1:0;
-                                    (____, Scope<Short> @:14447 op:353,dt:7,nt:8,next:14450,str:33611,d0:14448,d1:39908;
+                                    (____, BuiltinInvocation<Short> @:14447 op:353,dt:7,nt:8,next:14450,str:33611,d0:14448,d1:39908;
                                         ("ai_combat_status", Expression<MethodOrOperator> @:14448 op:353,dt:2,nt:9,next:14449,str:14929,d0:0,d1:0;
                                             ("first_hall_heretics", Expression<AI> @:14449 op:19,dt:19,nt:9,next:65535,str:15011,d0:16,d1:16384;)))
                                     ("ai_combat_status_idle", VariableAccess<Short> @:14450 op:7,dt:7,nt:13,next:65535,str:20847,d0:33572,d1:65535;)))
-                            (____, Scope<Boolean> @:14451 op:6,dt:5,nt:8,next:65535,str:33677,d0:14452,d1:39912;
+                            (____, BuiltinInvocation<Boolean> @:14451 op:6,dt:5,nt:8,next:65535,str:33677,d0:14452,d1:39912;
                                 ("or", Expression<MethodOrOperator> @:14452 op:6,dt:2,nt:9,next:14453,str:849,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14453 op:16,dt:5,nt:8,next:14459,str:33687,d0:14454,d1:39914;
+                                    (____, BuiltinInvocation<Boolean> @:14453 op:16,dt:5,nt:8,next:14459,str:33687,d0:14454,d1:39914;
                                         ("<", Expression<MethodOrOperator> @:14454 op:16,dt:2,nt:9,next:14455,str:852,d0:0,d1:0;
-                                            (____, Scope<Short> @:14455 op:327,dt:7,nt:8,next:14458,str:33690,d0:14456,d1:39916;
+                                            (____, BuiltinInvocation<Short> @:14455 op:327,dt:7,nt:8,next:14458,str:33690,d0:14456,d1:39916;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:14456 op:327,dt:2,nt:9,next:14457,str:18674,d0:0,d1:0;
                                                     ("first_hall_heretic_01", Expression<AI> @:14457 op:19,dt:19,nt:9,next:65535,str:26645,d0:65,d1:0;)))
                                             (1, Expression<Short> @:14458 op:7,dt:7,nt:9,next:65535,str:33730,d0:1,d1:65535;)))
-                                    (____, Scope<Boolean> @:14459 op:16,dt:5,nt:8,next:65535,str:33738,d0:14460,d1:39920;
+                                    (____, BuiltinInvocation<Boolean> @:14459 op:16,dt:5,nt:8,next:65535,str:33738,d0:14460,d1:39920;
                                         ("<", Expression<MethodOrOperator> @:14460 op:16,dt:2,nt:9,next:14461,str:852,d0:0,d1:0;
-                                            (____, Scope<Short> @:14461 op:327,dt:7,nt:8,next:14464,str:33741,d0:14462,d1:39922;
+                                            (____, BuiltinInvocation<Short> @:14461 op:327,dt:7,nt:8,next:14464,str:33741,d0:14462,d1:39922;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:14462 op:327,dt:2,nt:9,next:14463,str:18674,d0:0,d1:0;
                                                     ("first_hall_heretic_02", Expression<AI> @:14463 op:19,dt:19,nt:9,next:65535,str:26667,d0:67,d1:0;)))
                                             (1, Expression<Short> @:14464 op:7,dt:7,nt:9,next:65535,str:33781,d0:1,d1:65535;)))))))))
-            (____, Scope<Void> @:14465 op:291,dt:4,nt:8,next:14469,str:33801,d0:14466,d1:39926;
+            (____, BuiltinInvocation<Void> @:14465 op:291,dt:4,nt:8,next:14469,str:33801,d0:14466,d1:39926;
                 ("ai_place", Expression<MethodOrOperator> @:14466 op:291,dt:2,nt:9,next:14467,str:17225,d0:0,d1:0;
                     ("first_hall_heretic_03", Expression<AI> @:14467 op:19,dt:19,nt:9,next:14468,str:26689,d0:68,d1:0;
                         (2, Expression<Short> @:14468 op:7,dt:7,nt:9,next:65535,str:33833,d0:2,d1:65535;))))
-            (____, Scope<Void> @:14469 op:366,dt:4,nt:8,next:65535,str:33838,d0:14470,d1:39930;
+            (____, BuiltinInvocation<Void> @:14469 op:366,dt:4,nt:8,next:65535,str:33838,d0:14470,d1:39930;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:14470 op:366,dt:2,nt:9,next:14471,str:18315,d0:0,d1:0;
                     ("first_hall_heretic_03", Expression<AI> @:14471 op:19,dt:19,nt:9,next:14472,str:26689,d0:68,d1:0;
                         ("snap_alert", Expression<AIScript> @:14472 op:21,dt:21,nt:9,next:65535,str:21530,d0:216,d1:0;)))))))

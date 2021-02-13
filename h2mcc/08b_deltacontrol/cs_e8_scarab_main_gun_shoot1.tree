@@ -1,29 +1,29 @@
 
 ("cs_e8_scarab_main_gun_shoot1", MethodDecl<Void> @:411 op:0,dt:0,nt:65535,next:15356,str:33723,d0:0,d1:0;
-    (____, Scope<Void> @:15356 op:0,dt:4,nt:8,next:65535,str:61626,d0:15357,d1:40817;
+    (____, BuiltinInvocation<Void> @:15356 op:0,dt:4,nt:8,next:65535,str:61626,d0:15357,d1:40817;
         ("begin", Expression<MethodOrOperator> @:15357 op:0,dt:2,nt:9,next:15331,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:15331 op:406,dt:4,nt:8,next:15335,str:61680,d0:15332,d1:40792;
+            (____, BuiltinInvocation<Void> @:15331 op:406,dt:4,nt:8,next:15335,str:61680,d0:15332,d1:40792;
                 ("cs_shoot_point", Expression<MethodOrOperator> @:15332 op:406,dt:2,nt:9,next:15333,str:27173,d0:0,d1:0;
                     (True, Expression<Boolean> @:15333 op:5,dt:5,nt:9,next:15334,str:61696,d0:65281,d1:65535;
                         ("e8_scarab_gunners/p1", Expression<SpatialPoint> @:15334 op:28,dt:28,nt:9,next:65535,str:33397,d0:1,d1:19;))))
-            (____, Scope<Void> @:15335 op:19,dt:4,nt:8,next:15338,str:61725,d0:15336,d1:40796;
+            (____, BuiltinInvocation<Void> @:15335 op:19,dt:4,nt:8,next:15338,str:61725,d0:15336,d1:40796;
                 ("sleep", Expression<MethodOrOperator> @:15336 op:19,dt:2,nt:9,next:15337,str:85,d0:0,d1:0;
                     (75, Expression<Short> @:15337 op:7,dt:7,nt:9,next:65535,str:61732,d0:75,d1:65535;)))
-            (____, Scope<Void> @:15338 op:2,dt:4,nt:8,next:15353,str:61738,d0:15339,d1:40799;
+            (____, BuiltinInvocation<Void> @:15338 op:2,dt:4,nt:8,next:15353,str:61738,d0:15339,d1:40799;
                 ("if", Expression<MethodOrOperator> @:15339 op:2,dt:2,nt:9,next:15340,str:461,d0:0,d1:0;
-                    (____, Scope<Boolean> @:15340 op:33,dt:5,nt:8,next:15345,str:61742,d0:15341,d1:40801;
+                    (____, BuiltinInvocation<Boolean> @:15340 op:33,dt:5,nt:8,next:15345,str:61742,d0:15341,d1:40801;
                         ("volume_test_objects", Expression<MethodOrOperator> @:15341 op:33,dt:2,nt:9,next:15342,str:4732,d0:0,d1:0;
                             ("tv_e8_scarab_fire_unsafe", Expression<Trigger> @:15342 op:13,dt:13,nt:9,next:15343,str:33345,d0:68,d1:0;
-                                (____, Scope<List> @:15343 op:28,dt:31,nt:8,next:65535,str:61788,d0:15344,d1:40804;
+                                (____, BuiltinInvocation<List> @:15343 op:28,dt:31,nt:8,next:65535,str:61788,d0:15344,d1:40804;
                                     ("players", Expression<MethodOrOperator> @:15344 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))
-                    (____, Scope<Void> @:15345 op:0,dt:4,nt:8,next:65535,str:61802,d0:15346,d1:40806;
+                    (____, BuiltinInvocation<Void> @:15345 op:0,dt:4,nt:8,next:65535,str:61802,d0:15346,d1:40806;
                         ("begin", Expression<MethodOrOperator> @:15346 op:0,dt:2,nt:9,next:15347,str:6,d0:0,d1:0;
                             ("scarab_gun_fire_down_abort", ScriptInvocation<Void> @:15347 op:337,dt:4,nt:10,next:15349,str:61813,d0:15348,d1:40808;
                                 ("scarab_gun_fire_down_abort", Expression<MethodOrOperator> @:15348 op:337,dt:2,nt:9,next:65535,str:33370,d0:0,d1:0;))
-                            (____, Scope<Void> @:15349 op:406,dt:4,nt:8,next:65535,str:61846,d0:15350,d1:40810;
+                            (____, BuiltinInvocation<Void> @:15349 op:406,dt:4,nt:8,next:65535,str:61846,d0:15350,d1:40810;
                                 ("cs_shoot_point", Expression<MethodOrOperator> @:15350 op:406,dt:2,nt:9,next:15351,str:27173,d0:0,d1:0;
                                     (False, Expression<Boolean> @:15351 op:5,dt:5,nt:9,next:15352,str:61862,d0:65280,d1:65535;
                                         ("e8_scarab_gunners/p1", Expression<SpatialPoint> @:15352 op:28,dt:28,nt:9,next:65535,str:33397,d0:1,d1:19;))))))))
-            (____, Scope<Void> @:15353 op:19,dt:4,nt:8,next:65535,str:61901,d0:15354,d1:40814;
+            (____, BuiltinInvocation<Void> @:15353 op:19,dt:4,nt:8,next:65535,str:61901,d0:15354,d1:40814;
                 ("sleep", Expression<MethodOrOperator> @:15354 op:19,dt:2,nt:9,next:15355,str:85,d0:0,d1:0;
                     (90, Expression<Short> @:15355 op:7,dt:7,nt:9,next:65535,str:61908,d0:90,d1:65535;))))))

@@ -1,11 +1,11 @@
 
 ("x09_dof_01", MethodDecl<Void> @:176 op:0,dt:0,nt:65535,next:7009,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:7009 op:0,dt:4,nt:8,next:65535,str:16331,d0:7010,d1:65237;
+    (____, BuiltinInvocation<Void> @:7009 op:0,dt:4,nt:8,next:65535,str:16331,d0:7010,d1:65237;
         ("begin", Expression<MethodOrOperator> @:7010 op:0,dt:2,nt:9,next:6979,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:6979 op:708,dt:4,nt:8,next:6982,str:16360,d0:6980,d1:65207;
+            (____, BuiltinInvocation<Void> @:6979 op:708,dt:4,nt:8,next:6982,str:16360,d0:6980,d1:65207;
                 ("cinematic_screen_effect_start", Expression<MethodOrOperator> @:6980 op:708,dt:2,nt:9,next:6981,str:8151,d0:0,d1:0;
                     (True, Expression<Boolean> @:6981 op:5,dt:5,nt:9,next:65535,str:16391,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:6982 op:709,dt:4,nt:8,next:6991,str:16396,d0:6983,d1:65210;
+            (____, BuiltinInvocation<Void> @:6982 op:709,dt:4,nt:8,next:6991,str:16396,d0:6983,d1:65210;
                 ("cinematic_screen_effect_set_depth_of_field", Expression<MethodOrOperator> @:6983 op:709,dt:2,nt:9,next:6984,str:8181,d0:0,d1:0;
                     (0.5f, Expression<Float> @:6984 op:6,dt:6,nt:9,next:6985,str:16440,d0:0,d1:16128;
                         (1f, Expression<Float> @:6985 op:6,dt:6,nt:9,next:6986,str:16443,d0:0,d1:16256;
@@ -14,13 +14,13 @@
                                     (0f, Expression<Float> @:6988 op:6,dt:6,nt:9,next:6989,str:16449,d0:0,d1:0;
                                         (0f, Expression<Float> @:6989 op:6,dt:6,nt:9,next:6990,str:16451,d0:0,d1:0;
                                             (0f, Expression<Float> @:6990 op:6,dt:6,nt:9,next:65535,str:16453,d0:0,d1:0;)))))))))
-            (____, Scope<Void> @:6991 op:27,dt:4,nt:8,next:6994,str:16458,d0:6992,d1:65219;
+            (____, BuiltinInvocation<Void> @:6991 op:27,dt:4,nt:8,next:6994,str:16458,d0:6992,d1:65219;
                 ("print", Expression<MethodOrOperator> @:6992 op:27,dt:2,nt:9,next:6993,str:91,d0:0,d1:0;
                     ("rack focus", Expression<String> @:6993 op:9,dt:9,nt:9,next:65535,str:8224,d0:8224,d1:0;)))
-            (____, Scope<Void> @:6994 op:19,dt:4,nt:8,next:6997,str:16481,d0:6995,d1:65222;
+            (____, BuiltinInvocation<Void> @:6994 op:19,dt:4,nt:8,next:6997,str:16481,d0:6995,d1:65222;
                 ("sleep", Expression<MethodOrOperator> @:6995 op:19,dt:2,nt:9,next:6996,str:85,d0:0,d1:0;
                     (45, Expression<Short> @:6996 op:7,dt:7,nt:9,next:65535,str:16488,d0:45,d1:65535;)))
-            (____, Scope<Void> @:6997 op:709,dt:4,nt:8,next:7006,str:16494,d0:6998,d1:65225;
+            (____, BuiltinInvocation<Void> @:6997 op:709,dt:4,nt:8,next:7006,str:16494,d0:6998,d1:65225;
                 ("cinematic_screen_effect_set_depth_of_field", Expression<MethodOrOperator> @:6998 op:709,dt:2,nt:9,next:6999,str:8181,d0:0,d1:0;
                     (0.5f, Expression<Float> @:6999 op:6,dt:6,nt:9,next:7000,str:16538,d0:0,d1:16128;
                         (1f, Expression<Float> @:7000 op:6,dt:6,nt:9,next:7001,str:16541,d0:0,d1:16256;
@@ -29,6 +29,6 @@
                                     (0f, Expression<Float> @:7003 op:6,dt:6,nt:9,next:7004,str:16549,d0:0,d1:0;
                                         (1f, Expression<Float> @:7004 op:6,dt:6,nt:9,next:7005,str:16551,d0:0,d1:16256;
                                             (0.25f, Expression<Float> @:7005 op:6,dt:6,nt:9,next:65535,str:16553,d0:0,d1:16000;)))))))))
-            (____, Scope<Void> @:7006 op:27,dt:4,nt:8,next:65535,str:16560,d0:7007,d1:65234;
+            (____, BuiltinInvocation<Void> @:7006 op:27,dt:4,nt:8,next:65535,str:16560,d0:7007,d1:65234;
                 ("print", Expression<MethodOrOperator> @:7007 op:27,dt:2,nt:9,next:7008,str:91,d0:0,d1:0;
                     ("rack focus", Expression<String> @:7008 op:9,dt:9,nt:9,next:65535,str:8224,d0:8224,d1:0;))))))

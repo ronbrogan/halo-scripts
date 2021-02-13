@@ -1,119 +1,119 @@
 
 ("ai_ledge_a_flood_spawn", MethodDecl<Void> @:308 op:0,dt:0,nt:65535,next:14711,str:29615,d0:0,d1:0;
-    (____, Scope<Void> @:14711 op:0,dt:4,nt:8,next:65535,str:15196,d0:14712,d1:40172;
+    (____, BuiltinInvocation<Void> @:14711 op:0,dt:4,nt:8,next:65535,str:15196,d0:14712,d1:40172;
         ("begin", Expression<MethodOrOperator> @:14712 op:0,dt:2,nt:9,next:14611,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:14611 op:21,dt:4,nt:8,next:14668,str:15423,d0:14612,d1:40072;
+            (____, BuiltinInvocation<Void> @:14611 op:21,dt:4,nt:8,next:14668,str:15423,d0:14612,d1:40072;
                 ("sleep_until", Expression<MethodOrOperator> @:14612 op:21,dt:2,nt:9,next:14613,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14613 op:0,dt:5,nt:8,next:65535,str:15439,d0:14614,d1:40074;
+                    (____, BuiltinInvocation<Boolean> @:14613 op:0,dt:5,nt:8,next:65535,str:15439,d0:14614,d1:40074;
                         ("begin", Expression<MethodOrOperator> @:14614 op:0,dt:2,nt:9,next:14615,str:1,d0:0,d1:0;
-                            (____, Scope<Void> @:14615 op:21,dt:4,nt:8,next:14623,str:15450,d0:14616,d1:40076;
+                            (____, BuiltinInvocation<Void> @:14615 op:21,dt:4,nt:8,next:14623,str:15450,d0:14616,d1:40076;
                                 ("sleep_until", Expression<MethodOrOperator> @:14616 op:21,dt:2,nt:9,next:14617,str:231,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14617 op:18,dt:5,nt:8,next:65535,str:15463,d0:14618,d1:40078;
+                                    (____, BuiltinInvocation<Boolean> @:14617 op:18,dt:5,nt:8,next:65535,str:15463,d0:14618,d1:40078;
                                         ("<=", Expression<MethodOrOperator> @:14618 op:18,dt:2,nt:9,next:14619,str:16255,d0:0,d1:0;
-                                            (____, Scope<Short> @:14619 op:327,dt:7,nt:8,next:14622,str:15467,d0:14620,d1:40080;
+                                            (____, BuiltinInvocation<Short> @:14619 op:327,dt:7,nt:8,next:14622,str:15467,d0:14620,d1:40080;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:14620 op:327,dt:2,nt:9,next:14621,str:18161,d0:0,d1:0;
                                                     ("ledge_a_flood", Expression<AI> @:14621 op:19,dt:19,nt:9,next:65535,str:24457,d0:19,d1:16384;)))
                                             (2, Expression<Short> @:14622 op:7,dt:7,nt:9,next:65535,str:15499,d0:2,d1:65535;)))))
-                            (____, Scope<Void> @:14623 op:19,dt:4,nt:8,next:14629,str:15507,d0:14624,d1:40084;
+                            (____, BuiltinInvocation<Void> @:14623 op:19,dt:4,nt:8,next:14629,str:15507,d0:14624,d1:40084;
                                 ("sleep", Expression<MethodOrOperator> @:14624 op:19,dt:2,nt:9,next:14625,str:80,d0:0,d1:0;
-                                    (____, Scope<Short> @:14625 op:124,dt:7,nt:8,next:65535,str:15514,d0:14626,d1:40086;
+                                    (____, BuiltinInvocation<Short> @:14625 op:124,dt:7,nt:8,next:65535,str:15514,d0:14626,d1:40086;
                                         ("random_range", Expression<MethodOrOperator> @:14626 op:124,dt:2,nt:9,next:14627,str:17670,d0:0,d1:0;
                                             ("g_sleep_lower_bound", VariableAccess<Short> @:14627 op:7,dt:7,nt:13,next:14628,str:10917,d0:6,d1:0;
                                                 ("g_sleep_upper_bound", VariableAccess<Short> @:14628 op:7,dt:7,nt:13,next:65535,str:10937,d0:7,d1:0;))))))
-                            (____, Scope<Void> @:14629 op:2,dt:4,nt:8,next:14659,str:15574,d0:14631,d1:40091;
+                            (____, BuiltinInvocation<Void> @:14629 op:2,dt:4,nt:8,next:14659,str:15574,d0:14631,d1:40091;
                                 ("if", Expression<MethodOrOperator> @:14631 op:2,dt:2,nt:9,next:14632,str:456,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14632 op:13,dt:5,nt:8,next:14714,str:15586,d0:14633,d1:40093;
+                                    (____, BuiltinInvocation<Boolean> @:14632 op:13,dt:5,nt:8,next:14714,str:15586,d0:14633,d1:40093;
                                         ("=", Expression<MethodOrOperator> @:14633 op:13,dt:2,nt:9,next:14634,str:296,d0:0,d1:0;
                                             ("g_ledge_a_player_loc", VariableAccess<Short> @:14634 op:0,dt:7,nt:13,next:14635,str:24185,d0:94,d1:0;
                                                 (2, Expression<Short> @:14635 op:7,dt:7,nt:9,next:65535,str:15610,d0:2,d1:65535;))))
-                                    (____, Scope<Void> @:14714 op:0,dt:4,nt:8,next:14716,str:15574,d0:14715,d1:40175;
+                                    (____, BuiltinInvocation<Void> @:14714 op:0,dt:4,nt:8,next:14716,str:15574,d0:14715,d1:40175;
                                         ("begin", Expression<MethodOrOperator> @:14715 op:0,dt:2,nt:9,next:14636,str:1,d0:0,d1:0;
                                             ("ai_ledge_a_flood_b", ScriptInvocation<Void> @:14636 op:304,dt:4,nt:10,next:65535,str:15613,d0:14637,d1:40097;
                                                 ("ai_ledge_a_flood_b", Expression<MethodOrOperator> @:14637 op:304,dt:2,nt:9,next:65535,str:24471,d0:0,d1:0;))))
-                                    (____, Scope<Void> @:14716 op:2,dt:4,nt:8,next:65535,str:15574,d0:14638,d1:40098;
+                                    (____, BuiltinInvocation<Void> @:14716 op:2,dt:4,nt:8,next:65535,str:15574,d0:14638,d1:40098;
                                         ("if", Expression<MethodOrOperator> @:14638 op:2,dt:2,nt:9,next:14639,str:456,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:14639 op:13,dt:5,nt:8,next:14717,str:15641,d0:14640,d1:40100;
+                                            (____, BuiltinInvocation<Boolean> @:14639 op:13,dt:5,nt:8,next:14717,str:15641,d0:14640,d1:40100;
                                                 ("=", Expression<MethodOrOperator> @:14640 op:13,dt:2,nt:9,next:14641,str:296,d0:0,d1:0;
                                                     ("g_ledge_a_player_loc", VariableAccess<Short> @:14641 op:0,dt:7,nt:13,next:14642,str:24185,d0:94,d1:0;
                                                         (3, Expression<Short> @:14642 op:7,dt:7,nt:9,next:65535,str:15665,d0:3,d1:65535;))))
-                                            (____, Scope<Void> @:14717 op:0,dt:4,nt:8,next:14719,str:15574,d0:14718,d1:40178;
+                                            (____, BuiltinInvocation<Void> @:14717 op:0,dt:4,nt:8,next:14719,str:15574,d0:14718,d1:40178;
                                                 ("begin", Expression<MethodOrOperator> @:14718 op:0,dt:2,nt:9,next:14643,str:1,d0:0,d1:0;
                                                     ("ai_ledge_a_flood_c", ScriptInvocation<Void> @:14643 op:305,dt:4,nt:10,next:65535,str:15668,d0:14644,d1:40104;
                                                         ("ai_ledge_a_flood_c", Expression<MethodOrOperator> @:14644 op:305,dt:2,nt:9,next:65535,str:24490,d0:0,d1:0;))))
-                                            (____, Scope<Void> @:14719 op:2,dt:4,nt:8,next:65535,str:15574,d0:14645,d1:40105;
+                                            (____, BuiltinInvocation<Void> @:14719 op:2,dt:4,nt:8,next:65535,str:15574,d0:14645,d1:40105;
                                                 ("if", Expression<MethodOrOperator> @:14645 op:2,dt:2,nt:9,next:14646,str:456,d0:0,d1:0;
-                                                    (____, Scope<Boolean> @:14646 op:13,dt:5,nt:8,next:14720,str:15696,d0:14647,d1:40107;
+                                                    (____, BuiltinInvocation<Boolean> @:14646 op:13,dt:5,nt:8,next:14720,str:15696,d0:14647,d1:40107;
                                                         ("=", Expression<MethodOrOperator> @:14647 op:13,dt:2,nt:9,next:14648,str:296,d0:0,d1:0;
                                                             ("g_ledge_a_player_loc", VariableAccess<Short> @:14648 op:0,dt:7,nt:13,next:14649,str:24185,d0:94,d1:0;
                                                                 (6, Expression<Short> @:14649 op:7,dt:7,nt:9,next:65535,str:15720,d0:6,d1:65535;))))
-                                                    (____, Scope<Void> @:14720 op:0,dt:4,nt:8,next:14722,str:15574,d0:14721,d1:40181;
+                                                    (____, BuiltinInvocation<Void> @:14720 op:0,dt:4,nt:8,next:14722,str:15574,d0:14721,d1:40181;
                                                         ("begin", Expression<MethodOrOperator> @:14721 op:0,dt:2,nt:9,next:14650,str:1,d0:0,d1:0;
                                                             ("ai_ledge_a_flood_e", ScriptInvocation<Void> @:14650 op:306,dt:4,nt:10,next:65535,str:15723,d0:14651,d1:40111;
                                                                 ("ai_ledge_a_flood_e", Expression<MethodOrOperator> @:14651 op:306,dt:2,nt:9,next:65535,str:24509,d0:0,d1:0;))))
-                                                    (____, Scope<Void> @:14722 op:2,dt:4,nt:8,next:65535,str:15574,d0:14652,d1:40112;
+                                                    (____, BuiltinInvocation<Void> @:14722 op:2,dt:4,nt:8,next:65535,str:15574,d0:14652,d1:40112;
                                                         ("if", Expression<MethodOrOperator> @:14652 op:2,dt:2,nt:9,next:14653,str:456,d0:0,d1:0;
-                                                            (____, Scope<Boolean> @:14653 op:13,dt:5,nt:8,next:14723,str:15751,d0:14654,d1:40114;
+                                                            (____, BuiltinInvocation<Boolean> @:14653 op:13,dt:5,nt:8,next:14723,str:15751,d0:14654,d1:40114;
                                                                 ("=", Expression<MethodOrOperator> @:14654 op:13,dt:2,nt:9,next:14655,str:296,d0:0,d1:0;
                                                                     ("g_ledge_a_player_loc", VariableAccess<Short> @:14655 op:0,dt:7,nt:13,next:14656,str:24185,d0:94,d1:0;
                                                                         (7, Expression<Short> @:14656 op:7,dt:7,nt:9,next:65535,str:15775,d0:7,d1:65535;))))
-                                                            (____, Scope<Void> @:14723 op:0,dt:4,nt:8,next:14725,str:15574,d0:14724,d1:40184;
+                                                            (____, BuiltinInvocation<Void> @:14723 op:0,dt:4,nt:8,next:14725,str:15574,d0:14724,d1:40184;
                                                                 ("begin", Expression<MethodOrOperator> @:14724 op:0,dt:2,nt:9,next:14657,str:1,d0:0,d1:0;
                                                                     ("ai_ledge_a_flood_f", ScriptInvocation<Void> @:14657 op:307,dt:4,nt:10,next:65535,str:15778,d0:14658,d1:40118;
                                                                         ("ai_ledge_a_flood_f", Expression<MethodOrOperator> @:14658 op:307,dt:2,nt:9,next:65535,str:24528,d0:0,d1:0;))))
                                                             (0, Expression<Void> @:14725 op:4,dt:4,nt:9,next:65535,str:15574,d0:0,d1:0;)))))))))
-                            (____, Scope<Boolean> @:14659 op:6,dt:5,nt:8,next:65535,str:15810,d0:14660,d1:40120;
+                            (____, BuiltinInvocation<Boolean> @:14659 op:6,dt:5,nt:8,next:65535,str:15810,d0:14660,d1:40120;
                                 ("or", Expression<MethodOrOperator> @:14660 op:6,dt:2,nt:9,next:14661,str:844,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14661 op:17,dt:5,nt:8,next:14667,str:15838,d0:14662,d1:40122;
+                                    (____, BuiltinInvocation<Boolean> @:14661 op:17,dt:5,nt:8,next:14667,str:15838,d0:14662,d1:40122;
                                         (">=", Expression<MethodOrOperator> @:14662 op:17,dt:2,nt:9,next:14663,str:671,d0:0,d1:0;
-                                            (____, Scope<Short> @:14663 op:335,dt:7,nt:8,next:14666,str:15842,d0:14664,d1:40124;
+                                            (____, BuiltinInvocation<Short> @:14663 op:335,dt:7,nt:8,next:14666,str:15842,d0:14664,d1:40124;
                                                 ("ai_spawn_count", Expression<MethodOrOperator> @:14664 op:335,dt:2,nt:9,next:14665,str:24547,d0:0,d1:0;
                                                     ("ledge_a_flood", Expression<AI> @:14665 op:19,dt:19,nt:9,next:65535,str:24457,d0:19,d1:16384;)))
                                             (16, Expression<Short> @:14666 op:7,dt:7,nt:9,next:65535,str:15873,d0:16,d1:65535;)))
                                     ("g_ledge_a_spawn", VariableAccess<Boolean> @:14667 op:5,dt:5,nt:13,next:65535,str:24562,d0:95,d1:0;)))))))
-            (____, Scope<Void> @:14668 op:21,dt:4,nt:8,next:65535,str:15917,d0:14669,d1:40129;
+            (____, BuiltinInvocation<Void> @:14668 op:21,dt:4,nt:8,next:65535,str:15917,d0:14669,d1:40129;
                 ("sleep_until", Expression<MethodOrOperator> @:14669 op:21,dt:2,nt:9,next:14670,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14670 op:0,dt:5,nt:8,next:65535,str:15933,d0:14671,d1:40131;
+                    (____, BuiltinInvocation<Boolean> @:14670 op:0,dt:5,nt:8,next:65535,str:15933,d0:14671,d1:40131;
                         ("begin", Expression<MethodOrOperator> @:14671 op:0,dt:2,nt:9,next:14672,str:1,d0:0,d1:0;
-                            (____, Scope<Void> @:14672 op:21,dt:4,nt:8,next:14680,str:15944,d0:14673,d1:40133;
+                            (____, BuiltinInvocation<Void> @:14672 op:21,dt:4,nt:8,next:14680,str:15944,d0:14673,d1:40133;
                                 ("sleep_until", Expression<MethodOrOperator> @:14673 op:21,dt:2,nt:9,next:14674,str:231,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14674 op:18,dt:5,nt:8,next:65535,str:15957,d0:14675,d1:40135;
+                                    (____, BuiltinInvocation<Boolean> @:14674 op:18,dt:5,nt:8,next:65535,str:15957,d0:14675,d1:40135;
                                         ("<=", Expression<MethodOrOperator> @:14675 op:18,dt:2,nt:9,next:14676,str:16255,d0:0,d1:0;
-                                            (____, Scope<Short> @:14676 op:327,dt:7,nt:8,next:14679,str:15961,d0:14677,d1:40137;
+                                            (____, BuiltinInvocation<Short> @:14676 op:327,dt:7,nt:8,next:14679,str:15961,d0:14677,d1:40137;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:14677 op:327,dt:2,nt:9,next:14678,str:18161,d0:0,d1:0;
                                                     ("ledge_a_flood", Expression<AI> @:14678 op:19,dt:19,nt:9,next:65535,str:24457,d0:19,d1:16384;)))
                                             (2, Expression<Short> @:14679 op:7,dt:7,nt:9,next:65535,str:15993,d0:2,d1:65535;)))))
-                            (____, Scope<Void> @:14680 op:19,dt:4,nt:8,next:14686,str:16001,d0:14681,d1:40141;
+                            (____, BuiltinInvocation<Void> @:14680 op:19,dt:4,nt:8,next:14686,str:16001,d0:14681,d1:40141;
                                 ("sleep", Expression<MethodOrOperator> @:14681 op:19,dt:2,nt:9,next:14682,str:80,d0:0,d1:0;
-                                    (____, Scope<Short> @:14682 op:124,dt:7,nt:8,next:65535,str:16008,d0:14683,d1:40143;
+                                    (____, BuiltinInvocation<Short> @:14682 op:124,dt:7,nt:8,next:65535,str:16008,d0:14683,d1:40143;
                                         ("random_range", Expression<MethodOrOperator> @:14683 op:124,dt:2,nt:9,next:14684,str:17670,d0:0,d1:0;
                                             ("g_sleep_lower_bound", VariableAccess<Short> @:14684 op:7,dt:7,nt:13,next:14685,str:10917,d0:6,d1:0;
                                                 ("g_sleep_upper_bound", VariableAccess<Short> @:14685 op:7,dt:7,nt:13,next:65535,str:10937,d0:7,d1:0;))))))
-                            (____, Scope<Void> @:14686 op:2,dt:4,nt:8,next:14702,str:16068,d0:14688,d1:40148;
+                            (____, BuiltinInvocation<Void> @:14686 op:2,dt:4,nt:8,next:14702,str:16068,d0:14688,d1:40148;
                                 ("if", Expression<MethodOrOperator> @:14688 op:2,dt:2,nt:9,next:14689,str:456,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14689 op:13,dt:5,nt:8,next:14727,str:16080,d0:14690,d1:40150;
+                                    (____, BuiltinInvocation<Boolean> @:14689 op:13,dt:5,nt:8,next:14727,str:16080,d0:14690,d1:40150;
                                         ("=", Expression<MethodOrOperator> @:14690 op:13,dt:2,nt:9,next:14691,str:296,d0:0,d1:0;
                                             ("g_ledge_a_player_loc", VariableAccess<Short> @:14691 op:0,dt:7,nt:13,next:14692,str:24185,d0:94,d1:0;
                                                 (6, Expression<Short> @:14692 op:7,dt:7,nt:9,next:65535,str:16104,d0:6,d1:65535;))))
-                                    (____, Scope<Void> @:14727 op:0,dt:4,nt:8,next:14729,str:16068,d0:14728,d1:40188;
+                                    (____, BuiltinInvocation<Void> @:14727 op:0,dt:4,nt:8,next:14729,str:16068,d0:14728,d1:40188;
                                         ("begin", Expression<MethodOrOperator> @:14728 op:0,dt:2,nt:9,next:14693,str:1,d0:0,d1:0;
                                             ("ai_ledge_a_flood_e", ScriptInvocation<Void> @:14693 op:306,dt:4,nt:10,next:65535,str:16107,d0:14694,d1:40154;
                                                 ("ai_ledge_a_flood_e", Expression<MethodOrOperator> @:14694 op:306,dt:2,nt:9,next:65535,str:24509,d0:0,d1:0;))))
-                                    (____, Scope<Void> @:14729 op:2,dt:4,nt:8,next:65535,str:16068,d0:14695,d1:40155;
+                                    (____, BuiltinInvocation<Void> @:14729 op:2,dt:4,nt:8,next:65535,str:16068,d0:14695,d1:40155;
                                         ("if", Expression<MethodOrOperator> @:14695 op:2,dt:2,nt:9,next:14696,str:456,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:14696 op:13,dt:5,nt:8,next:14730,str:16135,d0:14697,d1:40157;
+                                            (____, BuiltinInvocation<Boolean> @:14696 op:13,dt:5,nt:8,next:14730,str:16135,d0:14697,d1:40157;
                                                 ("=", Expression<MethodOrOperator> @:14697 op:13,dt:2,nt:9,next:14698,str:296,d0:0,d1:0;
                                                     ("g_ledge_a_player_loc", VariableAccess<Short> @:14698 op:0,dt:7,nt:13,next:14699,str:24185,d0:94,d1:0;
                                                         (7, Expression<Short> @:14699 op:7,dt:7,nt:9,next:65535,str:16159,d0:7,d1:65535;))))
-                                            (____, Scope<Void> @:14730 op:0,dt:4,nt:8,next:14732,str:16068,d0:14731,d1:40191;
+                                            (____, BuiltinInvocation<Void> @:14730 op:0,dt:4,nt:8,next:14732,str:16068,d0:14731,d1:40191;
                                                 ("begin", Expression<MethodOrOperator> @:14731 op:0,dt:2,nt:9,next:14700,str:1,d0:0,d1:0;
                                                     ("ai_ledge_a_flood_f", ScriptInvocation<Void> @:14700 op:307,dt:4,nt:10,next:65535,str:16162,d0:14701,d1:40161;
                                                         ("ai_ledge_a_flood_f", Expression<MethodOrOperator> @:14701 op:307,dt:2,nt:9,next:65535,str:24528,d0:0,d1:0;))))
                                             ("i_switch_c", Expression<Void> @:14732 op:4,dt:4,nt:9,next:65535,str:16068,d0:0,d1:0;)))))
-                            (____, Scope<Boolean> @:14702 op:6,dt:5,nt:8,next:65535,str:16194,d0:14703,d1:40163;
+                            (____, BuiltinInvocation<Boolean> @:14702 op:6,dt:5,nt:8,next:65535,str:16194,d0:14703,d1:40163;
                                 ("or", Expression<MethodOrOperator> @:14703 op:6,dt:2,nt:9,next:14704,str:844,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:14704 op:17,dt:5,nt:8,next:14710,str:16222,d0:14705,d1:40165;
+                                    (____, BuiltinInvocation<Boolean> @:14704 op:17,dt:5,nt:8,next:14710,str:16222,d0:14705,d1:40165;
                                         (">=", Expression<MethodOrOperator> @:14705 op:17,dt:2,nt:9,next:14706,str:671,d0:0,d1:0;
-                                            (____, Scope<Short> @:14706 op:335,dt:7,nt:8,next:14709,str:16226,d0:14707,d1:40167;
+                                            (____, BuiltinInvocation<Short> @:14706 op:335,dt:7,nt:8,next:14709,str:16226,d0:14707,d1:40167;
                                                 ("ai_spawn_count", Expression<MethodOrOperator> @:14707 op:335,dt:2,nt:9,next:14708,str:24547,d0:0,d1:0;
                                                     ("ledge_a_flood", Expression<AI> @:14708 op:19,dt:19,nt:9,next:65535,str:24457,d0:19,d1:16384;)))
                                             (32, Expression<Short> @:14709 op:7,dt:7,nt:9,next:65535,str:16257,d0:32,d1:65535;)))

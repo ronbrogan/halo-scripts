@@ -1,40 +1,40 @@
 
 ("test_key_ride2", MethodDecl<Void> @:251 op:0,dt:0,nt:65535,next:11586,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:11586 op:0,dt:4,nt:8,next:65535,str:3034,d0:11587,d1:37047;
+    (____, BuiltinInvocation<Void> @:11586 op:0,dt:4,nt:8,next:65535,str:3034,d0:11587,d1:37047;
         ("begin", Expression<MethodOrOperator> @:11587 op:0,dt:2,nt:9,next:11550,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:11550 op:258,dt:4,nt:8,next:11554,str:3071,d0:11551,d1:37011;
+            (____, BuiltinInvocation<Void> @:11550 op:258,dt:4,nt:8,next:11554,str:3071,d0:11551,d1:37011;
                 ("device_set_position_immediate", Expression<MethodOrOperator> @:11551 op:258,dt:2,nt:9,next:11552,str:19885,d0:0,d1:0;
                     ("key", Expression<Device> @:11552 op:60,dt:54,nt:9,next:11553,str:3502,d0:51,d1:65535;
                         (0.26f, Expression<Float> @:11553 op:6,dt:6,nt:9,next:65535,str:3106,d0:7864,d1:16005;))))
-            (____, Scope<Void> @:11554 op:19,dt:4,nt:8,next:11557,str:3114,d0:11555,d1:37015;
+            (____, BuiltinInvocation<Void> @:11554 op:19,dt:4,nt:8,next:11557,str:3114,d0:11555,d1:37015;
                 ("sleep", Expression<MethodOrOperator> @:11555 op:19,dt:2,nt:9,next:11556,str:85,d0:0,d1:0;
                     (1, Expression<Short> @:11556 op:7,dt:7,nt:9,next:65535,str:3121,d0:1,d1:65535;)))
-            (____, Scope<Void> @:11557 op:105,dt:4,nt:8,next:11562,str:3126,d0:11558,d1:37018;
+            (____, BuiltinInvocation<Void> @:11557 op:105,dt:4,nt:8,next:11562,str:3126,d0:11558,d1:37018;
                 ("object_teleport", Expression<MethodOrOperator> @:11558 op:105,dt:2,nt:9,next:11559,str:20125,d0:0,d1:0;
                     ("player0", ScriptInvocation<Entity> @:11559 op:0,dt:50,nt:10,next:11561,str:3143,d0:11560,d1:37020;
                         ("player0", Expression<MethodOrOperator> @:11560 op:0,dt:2,nt:9,next:65535,str:607,d0:0,d1:0;))
                     ("e23_test", Expression<LocationFlag> @:11561 op:14,dt:14,nt:9,next:65535,str:23418,d0:27,d1:0;)))
-            (____, Scope<Void> @:11562 op:79,dt:4,nt:8,next:11569,str:3165,d0:11563,d1:37023;
+            (____, BuiltinInvocation<Void> @:11562 op:79,dt:4,nt:8,next:11569,str:3165,d0:11563,d1:37023;
                 ("object_set_velocity", Expression<MethodOrOperator> @:11563 op:79,dt:2,nt:9,next:11564,str:23427,d0:0,d1:0;
                     ("player0", ScriptInvocation<Entity> @:11564 op:0,dt:50,nt:10,next:11566,str:3186,d0:11565,d1:37025;
                         ("player0", Expression<MethodOrOperator> @:11565 op:0,dt:2,nt:9,next:65535,str:607,d0:0,d1:0;))
                     (1f, Expression<Float> @:11566 op:6,dt:6,nt:9,next:11567,str:3196,d0:0,d1:16256;
                         (0f, Expression<Float> @:11567 op:6,dt:6,nt:9,next:11568,str:3198,d0:0,d1:0;
                             (0f, Expression<Float> @:11568 op:6,dt:6,nt:9,next:65535,str:3200,d0:0,d1:0;)))))
-            (____, Scope<Void> @:11569 op:22,dt:4,nt:8,next:11572,str:3205,d0:11570,d1:37030;
+            (____, BuiltinInvocation<Void> @:11569 op:22,dt:4,nt:8,next:11572,str:3205,d0:11570,d1:37030;
                 ("wake", Expression<MethodOrOperator> @:11570 op:22,dt:2,nt:9,next:11571,str:1071,d0:0,d1:0;
                     ("key_main", Expression<ScriptReference> @:11571 op:10,dt:10,nt:9,next:65535,str:21506,d0:215,d1:65535;)))
-            (____, Scope<Void> @:11572 op:22,dt:4,nt:8,next:11575,str:3223,d0:11573,d1:37033;
+            (____, BuiltinInvocation<Void> @:11572 op:22,dt:4,nt:8,next:11575,str:3223,d0:11573,d1:37033;
                 ("wake", Expression<MethodOrOperator> @:11573 op:22,dt:2,nt:9,next:11574,str:1071,d0:0,d1:0;
                     ("e23_main", Expression<ScriptReference> @:11574 op:10,dt:10,nt:9,next:65535,str:23378,d0:250,d1:65535;)))
-            (____, Scope<Void> @:11575 op:19,dt:4,nt:8,next:11578,str:3241,d0:11576,d1:37036;
+            (____, BuiltinInvocation<Void> @:11575 op:19,dt:4,nt:8,next:11578,str:3241,d0:11576,d1:37036;
                 ("sleep", Expression<MethodOrOperator> @:11576 op:19,dt:2,nt:9,next:11577,str:85,d0:0,d1:0;
                     (3, Expression<Short> @:11577 op:7,dt:7,nt:9,next:65535,str:3248,d0:3,d1:65535;)))
-            (____, Scope<Void> @:11578 op:258,dt:4,nt:8,next:11582,str:3253,d0:11579,d1:37039;
+            (____, BuiltinInvocation<Void> @:11578 op:258,dt:4,nt:8,next:11582,str:3253,d0:11579,d1:37039;
                 ("device_set_position_immediate", Expression<MethodOrOperator> @:11579 op:258,dt:2,nt:9,next:11580,str:19885,d0:0,d1:0;
                     ("key", Expression<Device> @:11580 op:60,dt:54,nt:9,next:11581,str:3502,d0:51,d1:65535;
                         (0.26f, Expression<Float> @:11581 op:6,dt:6,nt:9,next:65535,str:3288,d0:7864,d1:16005;))))
-            (____, Scope<Void> @:11582 op:256,dt:4,nt:8,next:65535,str:3296,d0:11583,d1:37043;
+            (____, BuiltinInvocation<Void> @:11582 op:256,dt:4,nt:8,next:65535,str:3296,d0:11583,d1:37043;
                 ("device_set_position", Expression<MethodOrOperator> @:11583 op:256,dt:2,nt:9,next:11584,str:4999,d0:0,d1:0;
                     ("key", Expression<Device> @:11584 op:60,dt:54,nt:9,next:11585,str:3502,d0:51,d1:65535;
                         (1f, Expression<Float> @:11585 op:6,dt:6,nt:9,next:65535,str:3321,d0:0,d1:16256;)))))))

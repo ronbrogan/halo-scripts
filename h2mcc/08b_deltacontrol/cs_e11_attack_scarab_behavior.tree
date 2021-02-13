@@ -1,26 +1,26 @@
 
 ("cs_e11_attack_scarab_behavior", MethodDecl<Void> @:360 op:0,dt:0,nt:65535,next:12587,str:29357,d0:0,d1:0;
-    (____, Scope<Void> @:12587 op:0,dt:4,nt:8,next:65535,str:19781,d0:12588,d1:38048;
+    (____, BuiltinInvocation<Void> @:12587 op:0,dt:4,nt:8,next:65535,str:19781,d0:12588,d1:38048;
         ("begin", Expression<MethodOrOperator> @:12588 op:0,dt:2,nt:9,next:12564,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:12564 op:444,dt:4,nt:8,next:12567,str:19864,d0:12565,d1:38025;
+            (____, BuiltinInvocation<Void> @:12564 op:444,dt:4,nt:8,next:12567,str:19864,d0:12565,d1:38025;
                 ("cs_enable_moving", Expression<MethodOrOperator> @:12565 op:444,dt:2,nt:9,next:12566,str:1094,d0:0,d1:0;
                     (True, Expression<Boolean> @:12566 op:5,dt:5,nt:9,next:65535,str:19882,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:12567 op:442,dt:4,nt:8,next:12570,str:19890,d0:12568,d1:38028;
+            (____, BuiltinInvocation<Void> @:12567 op:442,dt:4,nt:8,next:12570,str:19890,d0:12568,d1:38028;
                 ("cs_enable_targeting", Expression<MethodOrOperator> @:12568 op:442,dt:2,nt:9,next:12569,str:1222,d0:0,d1:0;
                     (True, Expression<Boolean> @:12569 op:5,dt:5,nt:9,next:65535,str:19911,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:12570 op:21,dt:4,nt:8,next:65535,str:19938,d0:12571,d1:38031;
+            (____, BuiltinInvocation<Void> @:12570 op:21,dt:4,nt:8,next:65535,str:19938,d0:12571,d1:38031;
                 ("sleep_until", Expression<MethodOrOperator> @:12571 op:21,dt:2,nt:9,next:12572,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:12572 op:0,dt:5,nt:8,next:65535,str:19954,d0:12573,d1:38033;
+                    (____, BuiltinInvocation<Boolean> @:12572 op:0,dt:5,nt:8,next:65535,str:19954,d0:12573,d1:38033;
                         ("begin", Expression<MethodOrOperator> @:12573 op:0,dt:2,nt:9,next:12574,str:6,d0:0,d1:0;
-                            (____, Scope<Void> @:12574 op:21,dt:4,nt:8,next:12582,str:20003,d0:12575,d1:38035;
+                            (____, BuiltinInvocation<Void> @:12574 op:21,dt:4,nt:8,next:12582,str:20003,d0:12575,d1:38035;
                                 ("sleep_until", Expression<MethodOrOperator> @:12575 op:21,dt:2,nt:9,next:12576,str:236,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:12576 op:18,dt:5,nt:8,next:65535,str:20016,d0:12577,d1:38037;
+                                    (____, BuiltinInvocation<Boolean> @:12576 op:18,dt:5,nt:8,next:65535,str:20016,d0:12577,d1:38037;
                                         ("<=", Expression<MethodOrOperator> @:12577 op:18,dt:2,nt:9,next:12578,str:6210,d0:0,d1:0;
-                                            (____, Scope<Short> @:12578 op:353,dt:7,nt:8,next:12581,str:20020,d0:12579,d1:38039;
+                                            (____, BuiltinInvocation<Short> @:12578 op:353,dt:7,nt:8,next:12581,str:20020,d0:12579,d1:38039;
                                                 ("ai_combat_status", Expression<MethodOrOperator> @:12579 op:353,dt:2,nt:9,next:12580,str:27230,d0:0,d1:0;
                                                     ("ai_current_actor", VariableAccess<AI> @:12580 op:19,dt:19,nt:13,next:65535,str:1271,d0:33564,d1:65535;)))
                                             ("ai_combat_status_active", VariableAccess<Short> @:12581 op:7,dt:7,nt:13,next:65535,str:27247,d0:33574,d1:65535;)))))
-                            (____, Scope<Void> @:12582 op:368,dt:4,nt:8,next:12586,str:20128,d0:12583,d1:38043;
+                            (____, BuiltinInvocation<Void> @:12582 op:368,dt:4,nt:8,next:12586,str:20128,d0:12583,d1:38043;
                                 ("cs_stack_command_script", Expression<MethodOrOperator> @:12583 op:368,dt:2,nt:9,next:12584,str:29195,d0:0,d1:0;
                                     ("ai_current_actor", VariableAccess<AI> @:12584 op:19,dt:19,nt:13,next:12585,str:1271,d0:33564,d1:65535;
                                         ("cs_e11_attack_scarab", Expression<AIScript> @:12585 op:21,dt:21,nt:9,next:65535,str:29219,d0:359,d1:0;))))

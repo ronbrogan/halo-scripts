@@ -1,24 +1,24 @@
 
 ("dervish_chase_02", MethodDecl<Void> @:297 op:0,dt:0,nt:65535,next:21340,str:32350,d0:0,d1:0;
-    (____, Scope<Void> @:21340 op:0,dt:4,nt:8,next:65535,str:21322,d0:21341,d1:46801;
+    (____, BuiltinInvocation<Void> @:21340 op:0,dt:4,nt:8,next:65535,str:21322,d0:21341,d1:46801;
         ("begin", Expression<MethodOrOperator> @:21341 op:0,dt:2,nt:9,next:21320,str:210,d0:0,d1:0;
-            (____, Scope<Void> @:21320 op:449,dt:4,nt:8,next:21323,str:21364,d0:21321,d1:46781;
+            (____, BuiltinInvocation<Void> @:21320 op:449,dt:4,nt:8,next:21323,str:21364,d0:21321,d1:46781;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:21321 op:449,dt:2,nt:9,next:21322,str:11827,d0:0,d1:0;
                     (True, Expression<Boolean> @:21322 op:5,dt:5,nt:9,next:65535,str:21396,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:21323 op:379,dt:4,nt:8,next:21326,str:21404,d0:21324,d1:46784;
+            (____, BuiltinInvocation<Void> @:21323 op:379,dt:4,nt:8,next:21326,str:21404,d0:21324,d1:46784;
                 ("cs_fly_to", Expression<MethodOrOperator> @:21324 op:379,dt:2,nt:9,next:21325,str:12396,d0:0,d1:0;
                     ("airspace3/p7", Expression<SpatialPoint> @:21325 op:28,dt:28,nt:9,next:65535,str:31985,d0:7,d1:6;)))
-            (____, Scope<Void> @:21326 op:19,dt:4,nt:8,next:21329,str:21431,d0:21327,d1:46787;
+            (____, BuiltinInvocation<Void> @:21326 op:19,dt:4,nt:8,next:21329,str:21431,d0:21327,d1:46787;
                 ("sleep", Expression<MethodOrOperator> @:21327 op:19,dt:2,nt:9,next:21328,str:289,d0:0,d1:0;
                     (15, Expression<Short> @:21328 op:7,dt:7,nt:9,next:65535,str:21438,d0:15,d1:65535;)))
-            (____, Scope<Void> @:21329 op:48,dt:4,nt:8,next:21332,str:21444,d0:21330,d1:46790;
+            (____, BuiltinInvocation<Void> @:21329 op:48,dt:4,nt:8,next:21332,str:21444,d0:21330,d1:46790;
                 ("object_create_anew", Expression<MethodOrOperator> @:21330 op:48,dt:2,nt:9,next:21331,str:2195,d0:0,d1:0;
                     ("player_fake_banshee", Expression<EntityIdentifier> @:21331 op:56,dt:56,nt:9,next:65535,str:31998,d0:290,d1:65535;)))
-            (____, Scope<Void> @:21332 op:84,dt:4,nt:8,next:21337,str:21487,d0:21333,d1:46793;
+            (____, BuiltinInvocation<Void> @:21332 op:84,dt:4,nt:8,next:21337,str:21487,d0:21333,d1:46793;
                 ("object_damage_damage_section", Expression<MethodOrOperator> @:21333 op:84,dt:2,nt:9,next:21334,str:32018,d0:0,d1:0;
                     (4294902050, Expression<Entity> @:21334 op:56,dt:50,nt:9,next:21335,str:31998,d0:290,d1:65535;
                         ("main", Expression<StringId> @:21335 op:11,dt:11,nt:9,next:21336,str:32047,d0:6996,d1:1024;
                             (2f, Expression<Float> @:21336 op:6,dt:6,nt:9,next:65535,str:21544,d0:0,d1:16384;)))))
-            (____, Scope<Void> @:21337 op:298,dt:4,nt:8,next:65535,str:21549,d0:21338,d1:46798;
+            (____, BuiltinInvocation<Void> @:21337 op:298,dt:4,nt:8,next:65535,str:21549,d0:21338,d1:46798;
                 ("ai_erase", Expression<MethodOrOperator> @:21338 op:298,dt:2,nt:9,next:21339,str:11890,d0:0,d1:0;
                     ("dervish_02", Expression<AI> @:21339 op:19,dt:19,nt:9,next:65535,str:4943,d0:94,d1:0;))))))

@@ -1,60 +1,60 @@
 
 ("cs_e22_mars_inf1_crouch", MethodDecl<Void> @:277 op:0,dt:0,nt:65535,next:9465,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:9465 op:0,dt:4,nt:8,next:65535,str:53072,d0:9466,d1:34926;
+    (____, BuiltinInvocation<Void> @:9465 op:0,dt:4,nt:8,next:65535,str:53072,d0:9466,d1:34926;
         ("begin", Expression<MethodOrOperator> @:9466 op:0,dt:2,nt:9,next:9409,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:9409 op:423,dt:4,nt:8,next:9412,str:53121,d0:9410,d1:34870;
+            (____, BuiltinInvocation<Void> @:9409 op:423,dt:4,nt:8,next:9412,str:53121,d0:9410,d1:34870;
                 ("cs_crouch", Expression<MethodOrOperator> @:9410 op:423,dt:2,nt:9,next:9411,str:16563,d0:0,d1:0;
                     (True, Expression<Boolean> @:9411 op:5,dt:5,nt:9,next:65535,str:53132,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:9412 op:399,dt:4,nt:8,next:9416,str:53140,d0:9413,d1:34873;
+            (____, BuiltinInvocation<Void> @:9412 op:399,dt:4,nt:8,next:9416,str:53140,d0:9413,d1:34873;
                 ("cs_face", Expression<MethodOrOperator> @:9413 op:399,dt:2,nt:9,next:9414,str:15656,d0:0,d1:0;
                     (True, Expression<Boolean> @:9414 op:5,dt:5,nt:9,next:9415,str:53149,d0:65281,d1:65535;
                         ("e22_scarab_target/target", Expression<SpatialPoint> @:9415 op:28,dt:28,nt:9,next:65535,str:18952,d0:0,d1:27;))))
-            (____, Scope<Void> @:9416 op:396,dt:4,nt:8,next:9420,str:53182,d0:9417,d1:34877;
+            (____, BuiltinInvocation<Void> @:9416 op:396,dt:4,nt:8,next:9420,str:53182,d0:9417,d1:34877;
                 ("cs_aim", Expression<MethodOrOperator> @:9417 op:396,dt:2,nt:9,next:9418,str:18977,d0:0,d1:0;
                     (True, Expression<Boolean> @:9418 op:5,dt:5,nt:9,next:9419,str:53190,d0:65281,d1:65535;
                         ("e22_scarab_target/target", Expression<SpatialPoint> @:9419 op:28,dt:28,nt:9,next:65535,str:18952,d0:0,d1:27;))))
-            (____, Scope<Void> @:9420 op:21,dt:4,nt:8,next:9424,str:53223,d0:9421,d1:34881;
+            (____, BuiltinInvocation<Void> @:9420 op:21,dt:4,nt:8,next:9424,str:53223,d0:9421,d1:34881;
                 ("sleep_until", Expression<MethodOrOperator> @:9421 op:21,dt:2,nt:9,next:9422,str:236,d0:0,d1:0;
                     ("g_e22_scarab_advancing", VariableAccess<Boolean> @:9422 op:5,dt:5,nt:13,next:9423,str:19741,d0:29,d1:0;
                         (5, Expression<Short> @:9423 op:7,dt:7,nt:9,next:65535,str:53259,d0:5,d1:65535;))))
-            (____, Scope<Void> @:9424 op:19,dt:4,nt:8,next:9427,str:53264,d0:9425,d1:34885;
+            (____, BuiltinInvocation<Void> @:9424 op:19,dt:4,nt:8,next:9427,str:53264,d0:9425,d1:34885;
                 ("sleep", Expression<MethodOrOperator> @:9425 op:19,dt:2,nt:9,next:9426,str:85,d0:0,d1:0;
                     (150, Expression<Short> @:9426 op:7,dt:7,nt:9,next:65535,str:53271,d0:150,d1:65535;)))
-            (____, Scope<Void> @:9427 op:406,dt:4,nt:8,next:9431,str:53295,d0:9428,d1:34888;
+            (____, BuiltinInvocation<Void> @:9427 op:406,dt:4,nt:8,next:9431,str:53295,d0:9428,d1:34888;
                 ("cs_shoot_point", Expression<MethodOrOperator> @:9428 op:406,dt:2,nt:9,next:9429,str:15568,d0:0,d1:0;
                     (True, Expression<Boolean> @:9429 op:5,dt:5,nt:9,next:9430,str:53311,d0:65281,d1:65535;
                         ("e22_scarab_target/target", Expression<SpatialPoint> @:9430 op:28,dt:28,nt:9,next:65535,str:18952,d0:0,d1:27;))))
-            (____, Scope<Void> @:9431 op:21,dt:4,nt:8,next:9435,str:53365,d0:9432,d1:34892;
+            (____, BuiltinInvocation<Void> @:9431 op:21,dt:4,nt:8,next:9435,str:53365,d0:9432,d1:34892;
                 ("sleep_until", Expression<MethodOrOperator> @:9432 op:21,dt:2,nt:9,next:9433,str:236,d0:0,d1:0;
                     ("g_e22_scarab_before_climb", VariableAccess<Boolean> @:9433 op:5,dt:5,nt:13,next:9434,str:19190,d0:30,d1:0;
                         (5, Expression<Short> @:9434 op:7,dt:7,nt:9,next:65535,str:53404,d0:5,d1:65535;))))
-            (____, Scope<Void> @:9435 op:406,dt:4,nt:8,next:9439,str:53409,d0:9436,d1:34896;
+            (____, BuiltinInvocation<Void> @:9435 op:406,dt:4,nt:8,next:9439,str:53409,d0:9436,d1:34896;
                 ("cs_shoot_point", Expression<MethodOrOperator> @:9436 op:406,dt:2,nt:9,next:9437,str:15568,d0:0,d1:0;
                     (False, Expression<Boolean> @:9437 op:5,dt:5,nt:9,next:9438,str:53425,d0:65280,d1:65535;
                         ("e22_scarab_target/target", Expression<SpatialPoint> @:9438 op:28,dt:28,nt:9,next:65535,str:18952,d0:0,d1:27;))))
-            (____, Scope<Void> @:9439 op:350,dt:4,nt:8,next:9442,str:53459,d0:9440,d1:34900;
+            (____, BuiltinInvocation<Void> @:9439 op:350,dt:4,nt:8,next:9442,str:53459,d0:9440,d1:34900;
                 ("ai_vehicle_exit", Expression<MethodOrOperator> @:9440 op:350,dt:2,nt:9,next:9441,str:16112,d0:0,d1:0;
                     ("ai_current_actor", VariableAccess<AI> @:9441 op:19,dt:19,nt:13,next:65535,str:13888,d0:33564,d1:65535;)))
-            (____, Scope<Void> @:9442 op:21,dt:4,nt:8,next:9446,str:53496,d0:9443,d1:34903;
+            (____, BuiltinInvocation<Void> @:9442 op:21,dt:4,nt:8,next:9446,str:53496,d0:9443,d1:34903;
                 ("sleep_until", Expression<MethodOrOperator> @:9443 op:21,dt:2,nt:9,next:9444,str:236,d0:0,d1:0;
                     ("g_e22_scarab_mid_climb", VariableAccess<Boolean> @:9444 op:5,dt:5,nt:13,next:9445,str:19253,d0:32,d1:0;
                         (5, Expression<Short> @:9445 op:7,dt:7,nt:9,next:65535,str:53532,d0:5,d1:65535;))))
-            (____, Scope<Void> @:9446 op:19,dt:4,nt:8,next:9449,str:53537,d0:9447,d1:34907;
+            (____, BuiltinInvocation<Void> @:9446 op:19,dt:4,nt:8,next:9449,str:53537,d0:9447,d1:34907;
                 ("sleep", Expression<MethodOrOperator> @:9447 op:19,dt:2,nt:9,next:9448,str:85,d0:0,d1:0;
                     (20, Expression<Short> @:9448 op:7,dt:7,nt:9,next:65535,str:53544,d0:20,d1:65535;)))
-            (____, Scope<Void> @:9449 op:423,dt:4,nt:8,next:9452,str:53550,d0:9450,d1:34910;
+            (____, BuiltinInvocation<Void> @:9449 op:423,dt:4,nt:8,next:9452,str:53550,d0:9450,d1:34910;
                 ("cs_crouch", Expression<MethodOrOperator> @:9450 op:423,dt:2,nt:9,next:9451,str:16563,d0:0,d1:0;
                     (False, Expression<Boolean> @:9451 op:5,dt:5,nt:9,next:65535,str:53561,d0:65280,d1:65535;)))
-            (____, Scope<Void> @:9452 op:21,dt:4,nt:8,next:9456,str:53570,d0:9453,d1:34913;
+            (____, BuiltinInvocation<Void> @:9452 op:21,dt:4,nt:8,next:9456,str:53570,d0:9453,d1:34913;
                 ("sleep_until", Expression<MethodOrOperator> @:9453 op:21,dt:2,nt:9,next:9454,str:236,d0:0,d1:0;
                     ("g_e22_scarab_past_climb", VariableAccess<Boolean> @:9454 op:5,dt:5,nt:13,next:9455,str:19764,d0:33,d1:0;
                         (5, Expression<Short> @:9455 op:7,dt:7,nt:9,next:65535,str:53607,d0:5,d1:65535;))))
-            (____, Scope<Void> @:9456 op:19,dt:4,nt:8,next:9462,str:53612,d0:9457,d1:34917;
+            (____, BuiltinInvocation<Void> @:9456 op:19,dt:4,nt:8,next:9462,str:53612,d0:9457,d1:34917;
                 ("sleep", Expression<MethodOrOperator> @:9457 op:19,dt:2,nt:9,next:9458,str:85,d0:0,d1:0;
-                    (____, Scope<Short> @:9458 op:124,dt:7,nt:8,next:65535,str:53619,d0:9459,d1:34919;
+                    (____, BuiltinInvocation<Short> @:9458 op:124,dt:7,nt:8,next:65535,str:53619,d0:9459,d1:34919;
                         ("random_range", Expression<MethodOrOperator> @:9459 op:124,dt:2,nt:9,next:9460,str:16022,d0:0,d1:0;
                             (20, Expression<Short> @:9460 op:7,dt:7,nt:9,next:9461,str:53633,d0:20,d1:65535;
                                 (40, Expression<Short> @:9461 op:7,dt:7,nt:9,next:65535,str:53636,d0:40,d1:65535;))))))
-            (____, Scope<Void> @:9462 op:385,dt:4,nt:8,next:65535,str:53643,d0:9463,d1:34923;
+            (____, BuiltinInvocation<Void> @:9462 op:385,dt:4,nt:8,next:65535,str:53643,d0:9463,d1:34923;
                 ("cs_go_to", Expression<MethodOrOperator> @:9463 op:385,dt:2,nt:9,next:9464,str:18763,d0:0,d1:0;
                     ("e22_mars_inf1/p0", Expression<SpatialPoint> @:9464 op:28,dt:28,nt:9,next:65535,str:18772,d0:1,d1:24;))))))

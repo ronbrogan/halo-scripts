@@ -1,18 +1,18 @@
 
 ("cs_ledge_jackals_rt", MethodDecl<Void> @:299 op:0,dt:0,nt:65535,next:13955,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:13955 op:0,dt:4,nt:8,next:65535,str:35803,d0:13956,d1:39416;
+    (____, BuiltinInvocation<Void> @:13955 op:0,dt:4,nt:8,next:65535,str:35803,d0:13956,d1:39416;
         ("begin", Expression<MethodOrOperator> @:13956 op:0,dt:2,nt:9,next:13941,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:13941 op:439,dt:4,nt:8,next:13944,str:35848,d0:13942,d1:39402;
+            (____, BuiltinInvocation<Void> @:13941 op:439,dt:4,nt:8,next:13944,str:35848,d0:13942,d1:39402;
                 ("cs_abort_on_alert", Expression<MethodOrOperator> @:13942 op:439,dt:2,nt:9,next:13943,str:16644,d0:0,d1:0;
                     (True, Expression<Boolean> @:13943 op:5,dt:5,nt:9,next:65535,str:35867,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:13944 op:21,dt:4,nt:8,next:65535,str:35875,d0:13945,d1:39405;
+            (____, BuiltinInvocation<Void> @:13944 op:21,dt:4,nt:8,next:65535,str:35875,d0:13945,d1:39405;
                 ("sleep_until", Expression<MethodOrOperator> @:13945 op:21,dt:2,nt:9,next:13946,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:13946 op:0,dt:5,nt:8,next:65535,str:35891,d0:13947,d1:39407;
+                    (____, BuiltinInvocation<Boolean> @:13946 op:0,dt:5,nt:8,next:65535,str:35891,d0:13947,d1:39407;
                         ("begin", Expression<MethodOrOperator> @:13947 op:0,dt:2,nt:9,next:13948,str:1,d0:0,d1:0;
-                            (____, Scope<Void> @:13948 op:385,dt:4,nt:8,next:13951,str:35902,d0:13949,d1:39409;
+                            (____, BuiltinInvocation<Void> @:13948 op:385,dt:4,nt:8,next:13951,str:35902,d0:13949,d1:39409;
                                 ("cs_go_to", Expression<MethodOrOperator> @:13949 op:385,dt:2,nt:9,next:13950,str:23611,d0:0,d1:0;
                                     ("dervish_ledge/rt_0", Expression<SpatialPoint> @:13950 op:28,dt:28,nt:9,next:65535,str:31486,d0:1,d1:2;)))
-                            (____, Scope<Void> @:13951 op:385,dt:4,nt:8,next:13954,str:35936,d0:13952,d1:39412;
+                            (____, BuiltinInvocation<Void> @:13951 op:385,dt:4,nt:8,next:13954,str:35936,d0:13952,d1:39412;
                                 ("cs_go_to", Expression<MethodOrOperator> @:13952 op:385,dt:2,nt:9,next:13953,str:23611,d0:0,d1:0;
                                     ("dervish_ledge/rt_1", Expression<SpatialPoint> @:13953 op:28,dt:28,nt:9,next:65535,str:31505,d0:2,d1:2;)))
                             (False, Expression<Boolean> @:13954 op:5,dt:5,nt:9,next:65535,str:35969,d0:65280,d1:65535;))))))))

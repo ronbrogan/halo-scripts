@@ -1,26 +1,26 @@
 
 ("cs_e3_mars_pelican0_exit", MethodDecl<Void> @:349 op:0,dt:0,nt:65535,next:14125,str:24300,d0:0,d1:0;
-    (____, Scope<Void> @:14125 op:0,dt:4,nt:8,next:65535,str:42974,d0:14126,d1:39586;
+    (____, BuiltinInvocation<Void> @:14125 op:0,dt:4,nt:8,next:65535,str:42974,d0:14126,d1:39586;
         ("begin", Expression<MethodOrOperator> @:14126 op:0,dt:2,nt:9,next:14103,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:14103 op:449,dt:4,nt:8,next:14106,str:43024,d0:14104,d1:39564;
+            (____, BuiltinInvocation<Void> @:14103 op:449,dt:4,nt:8,next:14106,str:43024,d0:14104,d1:39564;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:14104 op:449,dt:2,nt:9,next:14105,str:4284,d0:0,d1:0;
                     (True, Expression<Boolean> @:14105 op:5,dt:5,nt:9,next:65535,str:43056,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:14106 op:407,dt:4,nt:8,next:14109,str:43064,d0:14107,d1:39567;
+            (____, BuiltinInvocation<Void> @:14106 op:407,dt:4,nt:8,next:14109,str:43064,d0:14107,d1:39567;
                 ("cs_vehicle_speed", Expression<MethodOrOperator> @:14107 op:407,dt:2,nt:9,next:14108,str:4367,d0:0,d1:0;
                     (0.5f, Expression<Float> @:14108 op:6,dt:6,nt:9,next:65535,str:43082,d0:0,d1:16128;)))
-            (____, Scope<Void> @:14109 op:380,dt:4,nt:8,next:14113,str:43089,d0:14110,d1:39570;
+            (____, BuiltinInvocation<Void> @:14109 op:380,dt:4,nt:8,next:14113,str:43089,d0:14110,d1:39570;
                 ("cs_fly_to", Expression<MethodOrOperator> @:14110 op:380,dt:2,nt:9,next:14111,str:14959,d0:0,d1:0;
                     ("e3_mars_evac/p4", Expression<SpatialPoint> @:14111 op:28,dt:28,nt:9,next:14112,str:23756,d0:6,d1:13;
                         (1f, Expression<Float> @:14112 op:6,dt:6,nt:9,next:65535,str:43116,d0:0,d1:16256;))))
-            (____, Scope<Void> @:14113 op:19,dt:4,nt:8,next:14116,str:43121,d0:14114,d1:39574;
+            (____, BuiltinInvocation<Void> @:14113 op:19,dt:4,nt:8,next:14116,str:43121,d0:14114,d1:39574;
                 ("sleep", Expression<MethodOrOperator> @:14114 op:19,dt:2,nt:9,next:14115,str:143,d0:0,d1:0;
                     (30, Expression<Short> @:14115 op:7,dt:7,nt:9,next:65535,str:43128,d0:30,d1:65535;)))
-            (____, Scope<Void> @:14116 op:407,dt:4,nt:8,next:14119,str:43134,d0:14117,d1:39577;
+            (____, BuiltinInvocation<Void> @:14116 op:407,dt:4,nt:8,next:14119,str:43134,d0:14117,d1:39577;
                 ("cs_vehicle_speed", Expression<MethodOrOperator> @:14117 op:407,dt:2,nt:9,next:14118,str:4367,d0:0,d1:0;
                     (1f, Expression<Float> @:14118 op:6,dt:6,nt:9,next:65535,str:43152,d0:0,d1:16256;)))
-            (____, Scope<Void> @:14119 op:383,dt:4,nt:8,next:14122,str:43157,d0:14120,d1:39580;
+            (____, BuiltinInvocation<Void> @:14119 op:383,dt:4,nt:8,next:14122,str:43157,d0:14120,d1:39580;
                 ("cs_fly_by", Expression<MethodOrOperator> @:14120 op:383,dt:2,nt:9,next:14121,str:15068,d0:0,d1:0;
                     ("e3_mars_evac/p2", Expression<SpatialPoint> @:14121 op:28,dt:28,nt:9,next:65535,str:23639,d0:2,d1:13;)))
-            (____, Scope<Void> @:14122 op:298,dt:4,nt:8,next:65535,str:43187,d0:14123,d1:39583;
+            (____, BuiltinInvocation<Void> @:14122 op:298,dt:4,nt:8,next:65535,str:43187,d0:14123,d1:39583;
                 ("ai_erase", Expression<MethodOrOperator> @:14123 op:298,dt:2,nt:9,next:14124,str:4540,d0:0,d1:0;
                     ("ai_current_squad", VariableAccess<AI> @:14124 op:19,dt:19,nt:13,next:65535,str:12161,d0:33563,d1:65535;))))))

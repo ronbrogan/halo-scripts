@@ -1,40 +1,40 @@
 
 ("cs_e17_shotgun_scene", MethodDecl<Void> @:357 op:0,dt:0,nt:65535,next:12943,str:26937,d0:0,d1:0;
-    (____, Scope<Void> @:12943 op:0,dt:4,nt:8,next:65535,str:37593,d0:12944,d1:38404;
+    (____, BuiltinInvocation<Void> @:12943 op:0,dt:4,nt:8,next:65535,str:37593,d0:12944,d1:38404;
         ("begin", Expression<MethodOrOperator> @:12944 op:0,dt:2,nt:9,next:12905,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:12905 op:27,dt:4,nt:8,next:12908,str:37658,d0:12906,d1:38366;
+            (____, BuiltinInvocation<Void> @:12905 op:27,dt:4,nt:8,next:12908,str:37658,d0:12906,d1:38366;
                 ("print", Expression<MethodOrOperator> @:12906 op:27,dt:2,nt:9,next:12907,str:91,d0:0,d1:0;
                     ("marine: hey, sir!", Expression<String> @:12907 op:9,dt:9,nt:9,next:65535,str:26648,d0:26648,d1:0;)))
-            (____, Scope<Void> @:12908 op:432,dt:4,nt:8,next:12913,str:37704,d0:12909,d1:38369;
+            (____, BuiltinInvocation<Void> @:12908 op:432,dt:4,nt:8,next:12913,str:37704,d0:12909,d1:38369;
                 ("cs_approach_player", Expression<MethodOrOperator> @:12909 op:432,dt:2,nt:9,next:12910,str:19567,d0:0,d1:0;
                     (1f, Expression<Float> @:12910 op:6,dt:6,nt:9,next:12911,str:37724,d0:0,d1:16256;
                         (10f, Expression<Float> @:12911 op:6,dt:6,nt:9,next:12912,str:37728,d0:0,d1:16672;
                             (15f, Expression<Float> @:12912 op:6,dt:6,nt:9,next:65535,str:37733,d0:0,d1:16752;)))))
-            (____, Scope<Void> @:12913 op:19,dt:4,nt:8,next:12919,str:37773,d0:12914,d1:38374;
+            (____, BuiltinInvocation<Void> @:12913 op:19,dt:4,nt:8,next:12919,str:37773,d0:12914,d1:38374;
                 ("sleep", Expression<MethodOrOperator> @:12914 op:19,dt:2,nt:9,next:12915,str:85,d0:0,d1:0;
-                    (____, Scope<Short> @:12915 op:361,dt:7,nt:8,next:65535,str:37780,d0:12916,d1:38376;
+                    (____, BuiltinInvocation<Short> @:12915 op:361,dt:7,nt:8,next:65535,str:37780,d0:12916,d1:38376;
                         ("ai_play_line_at_player", Expression<MethodOrOperator> @:12916 op:361,dt:2,nt:9,next:12917,str:19586,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:12917 op:19,dt:19,nt:13,next:12918,str:13888,d0:33564,d1:65535;
                                 ("0640", Expression<StringId> @:12918 op:11,dt:11,nt:9,next:65535,str:26666,d0:13428,d1:1024;))))))
-            (____, Scope<Void> @:12919 op:21,dt:4,nt:8,next:65535,str:37941,d0:12920,d1:38380;
+            (____, BuiltinInvocation<Void> @:12919 op:21,dt:4,nt:8,next:65535,str:37941,d0:12920,d1:38380;
                 ("sleep_until", Expression<MethodOrOperator> @:12920 op:21,dt:2,nt:9,next:12921,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:12921 op:6,dt:5,nt:8,next:12941,str:37957,d0:12922,d1:38382;
+                    (____, BuiltinInvocation<Boolean> @:12921 op:6,dt:5,nt:8,next:12941,str:37957,d0:12922,d1:38382;
                         ("or", Expression<MethodOrOperator> @:12922 op:6,dt:2,nt:9,next:12923,str:849,d0:0,d1:0;
-                            (____, Scope<Boolean> @:12923 op:25,dt:5,nt:8,next:12931,str:37965,d0:12924,d1:38384;
+                            (____, BuiltinInvocation<Boolean> @:12923 op:25,dt:5,nt:8,next:12931,str:37965,d0:12924,d1:38384;
                                 ("not", Expression<MethodOrOperator> @:12924 op:25,dt:2,nt:9,next:12925,str:402,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:12925 op:242,dt:5,nt:8,next:65535,str:37970,d0:12926,d1:38386;
+                                    (____, BuiltinInvocation<Boolean> @:12925 op:242,dt:5,nt:8,next:65535,str:37970,d0:12926,d1:38386;
                                         ("unit_has_weapon", Expression<MethodOrOperator> @:12926 op:242,dt:2,nt:9,next:12927,str:26037,d0:0,d1:0;
-                                            (____, Scope<Unit> @:12927 op:285,dt:51,nt:8,next:12930,str:37987,d0:12928,d1:38388;
+                                            (____, BuiltinInvocation<Unit> @:12927 op:285,dt:51,nt:8,next:12930,str:37987,d0:12928,d1:38388;
                                                 ("ai_get_unit", Expression<MethodOrOperator> @:12928 op:285,dt:2,nt:9,next:12929,str:16200,d0:0,d1:0;
                                                     ("ai_current_actor", VariableAccess<AI> @:12929 op:19,dt:19,nt:13,next:65535,str:13888,d0:33564,d1:65535;)))
                                             ("objects\weapons\rifle\shotgun\shotgun.weapon", Expression<TagReference> @:12930 op:38,dt:38,nt:9,next:65535,str:26671,d0:7500,d1:65274;)))))
-                            (____, Scope<Boolean> @:12931 op:15,dt:5,nt:8,next:65535,str:38071,d0:12932,d1:38392;
+                            (____, BuiltinInvocation<Boolean> @:12931 op:15,dt:5,nt:8,next:65535,str:38071,d0:12932,d1:38392;
                                 (">", Expression<MethodOrOperator> @:12932 op:15,dt:2,nt:9,next:12933,str:18883,d0:0,d1:0;
-                                    (-1.0105391E-25f, Scope<Float> @:12933 op:114,dt:6,nt:8,next:12940,str:38074,d0:12934,d1:38394;
+                                    (-1.0105391E-25f, BuiltinInvocation<Float> @:12933 op:114,dt:6,nt:8,next:12940,str:38074,d0:12934,d1:38394;
                                         ("objects_distance_to_object", Expression<MethodOrOperator> @:12934 op:114,dt:2,nt:9,next:12935,str:16475,d0:0,d1:0;
-                                            (____, Scope<List> @:12935 op:28,dt:31,nt:8,next:12937,str:38102,d0:12936,d1:38396;
+                                            (____, BuiltinInvocation<List> @:12935 op:28,dt:31,nt:8,next:12937,str:38102,d0:12936,d1:38396;
                                                 ("players", Expression<MethodOrOperator> @:12936 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;))
-                                            (____, Scope<Entity> @:12937 op:284,dt:50,nt:8,next:65535,str:38112,d0:12938,d1:38398;
+                                            (____, BuiltinInvocation<Entity> @:12937 op:284,dt:50,nt:8,next:65535,str:38112,d0:12938,d1:38398;
                                                 ("ai_get_object", Expression<MethodOrOperator> @:12938 op:284,dt:2,nt:9,next:12939,str:13874,d0:0,d1:0;
                                                     ("ai_current_actor", VariableAccess<AI> @:12939 op:19,dt:19,nt:13,next:65535,str:13888,d0:33564,d1:65535;)))))
                                     (5f, Expression<Float> @:12940 op:6,dt:6,nt:9,next:65535,str:38146,d0:0,d1:16544;)))))

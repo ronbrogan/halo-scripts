@@ -1,261 +1,261 @@
 
 ("elev_go", MethodDecl<Void> @:200 op:0,dt:0,nt:65535,next:7675,str:17062,d0:0,d1:0;
-    (____, Scope<Void> @:7675 op:0,dt:4,nt:8,next:65535,str:17672,d0:7676,d1:33136;
+    (____, BuiltinInvocation<Void> @:7675 op:0,dt:4,nt:8,next:65535,str:17672,d0:7676,d1:33136;
         ("begin", Expression<MethodOrOperator> @:7676 op:0,dt:2,nt:9,next:7418,str:210,d0:0,d1:0;
             ("silo_crane_01", ScriptInvocation<Void> @:7418 op:176,dt:4,nt:10,next:7420,str:17700,d0:7419,d1:32879;
                 ("silo_crane_01", Expression<MethodOrOperator> @:7419 op:176,dt:2,nt:9,next:65535,str:16431,d0:0,d1:0;))
             ("silo_tray01", ScriptInvocation<Void> @:7420 op:190,dt:4,nt:10,next:7422,str:17718,d0:7421,d1:32881;
                 ("silo_tray01", Expression<MethodOrOperator> @:7421 op:190,dt:2,nt:9,next:65535,str:16445,d0:0,d1:0;))
-            (____, Scope<Void> @:7422 op:19,dt:4,nt:8,next:7425,str:17734,d0:7423,d1:32883;
+            (____, BuiltinInvocation<Void> @:7422 op:19,dt:4,nt:8,next:7425,str:17734,d0:7423,d1:32883;
                 ("sleep", Expression<MethodOrOperator> @:7423 op:19,dt:2,nt:9,next:7424,str:289,d0:0,d1:0;
                     (30, Expression<Short> @:7424 op:7,dt:7,nt:9,next:65535,str:17741,d0:30,d1:65535;)))
-            (____, Scope<Void> @:7425 op:21,dt:4,nt:8,next:7442,str:17750,d0:7426,d1:32886;
+            (____, BuiltinInvocation<Void> @:7425 op:21,dt:4,nt:8,next:7442,str:17750,d0:7426,d1:32886;
                 ("sleep_until", Expression<MethodOrOperator> @:7426 op:21,dt:2,nt:9,next:7427,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:7427 op:5,dt:5,nt:8,next:65535,str:17767,d0:7428,d1:32888;
+                    (____, BuiltinInvocation<Boolean> @:7427 op:5,dt:5,nt:8,next:65535,str:17767,d0:7428,d1:32888;
                         ("and", Expression<MethodOrOperator> @:7428 op:5,dt:2,nt:9,next:7429,str:876,d0:0,d1:0;
-                            (____, Scope<Boolean> @:7429 op:13,dt:5,nt:8,next:7437,str:17776,d0:7430,d1:32890;
+                            (____, BuiltinInvocation<Boolean> @:7429 op:13,dt:5,nt:8,next:7437,str:17776,d0:7430,d1:32890;
                                 ("=", Expression<MethodOrOperator> @:7430 op:13,dt:2,nt:9,next:7431,str:505,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:7431 op:34,dt:5,nt:8,next:7436,str:17779,d0:7432,d1:32892;
+                                    (____, BuiltinInvocation<Boolean> @:7431 op:34,dt:5,nt:8,next:7436,str:17779,d0:7432,d1:32892;
                                         ("volume_test_objects_all", Expression<MethodOrOperator> @:7432 op:34,dt:2,nt:9,next:7433,str:14133,d0:0,d1:0;
                                             ("vol_specimen_storage", Expression<Trigger> @:7433 op:13,dt:13,nt:9,next:7434,str:16457,d0:17,d1:0;
-                                                (____, Scope<List> @:7434 op:28,dt:31,nt:8,next:65535,str:17825,d0:7435,d1:32895;
+                                                (____, BuiltinInvocation<List> @:7434 op:28,dt:31,nt:8,next:65535,str:17825,d0:7435,d1:32895;
                                                     ("players", Expression<MethodOrOperator> @:7435 op:28,dt:2,nt:9,next:65535,str:230,d0:0,d1:0;)))))
                                     (True, Expression<Boolean> @:7436 op:5,dt:5,nt:9,next:65535,str:17836,d0:65281,d1:65535;)))
-                            (____, Scope<Boolean> @:7437 op:15,dt:5,nt:8,next:65535,str:17846,d0:7438,d1:32898;
+                            (____, BuiltinInvocation<Boolean> @:7437 op:15,dt:5,nt:8,next:65535,str:17846,d0:7438,d1:32898;
                                 (">", Expression<MethodOrOperator> @:7438 op:15,dt:2,nt:9,next:7439,str:13549,d0:0,d1:0;
                                     ("player_count", ScriptInvocation<Short> @:7439 op:2,dt:7,nt:10,next:7441,str:17849,d0:7440,d1:32900;
                                         ("player_count", Expression<MethodOrOperator> @:7440 op:2,dt:2,nt:9,next:65535,str:14177,d0:0,d1:0;))
                                     (0, Expression<Short> @:7441 op:7,dt:7,nt:9,next:65535,str:17864,d0:0,d1:65535;)))))))
-            (____, Scope<Void> @:7442 op:27,dt:4,nt:8,next:7445,str:17878,d0:7443,d1:32903;
+            (____, BuiltinInvocation<Void> @:7442 op:27,dt:4,nt:8,next:7445,str:17878,d0:7443,d1:32903;
                 ("print", Expression<MethodOrOperator> @:7443 op:27,dt:2,nt:9,next:7444,str:295,d0:0,d1:0;
                     ("down 400", Expression<String> @:7444 op:9,dt:9,nt:9,next:65535,str:16478,d0:16478,d1:0;)))
-            (____, Scope<Void> @:7445 op:22,dt:4,nt:8,next:7448,str:17902,d0:7446,d1:32906;
+            (____, BuiltinInvocation<Void> @:7445 op:22,dt:4,nt:8,next:7448,str:17902,d0:7446,d1:32906;
                 ("wake", Expression<MethodOrOperator> @:7446 op:22,dt:2,nt:9,next:7447,str:1275,d0:0,d1:0;
                     ("silo_saving", Expression<ScriptReference> @:7447 op:10,dt:10,nt:9,next:65535,str:16487,d0:198,d1:65535;)))
-            (____, Scope<Void> @:7448 op:22,dt:4,nt:8,next:7451,str:17923,d0:7449,d1:32909;
+            (____, BuiltinInvocation<Void> @:7448 op:22,dt:4,nt:8,next:7451,str:17923,d0:7449,d1:32909;
                 ("wake", Expression<MethodOrOperator> @:7449 op:22,dt:2,nt:9,next:7450,str:1275,d0:0,d1:0;
                     ("music_04b_02_stop", Expression<ScriptReference> @:7450 op:10,dt:10,nt:9,next:65535,str:16499,d0:134,d1:65535;)))
             ("silo_down_400", ScriptInvocation<Void> @:7451 op:183,dt:4,nt:10,next:7453,str:17953,d0:7452,d1:32912;
                 ("silo_down_400", Expression<MethodOrOperator> @:7452 op:183,dt:2,nt:9,next:65535,str:16517,d0:0,d1:0;))
-            (____, Scope<Void> @:7453 op:19,dt:4,nt:8,next:7456,str:17971,d0:7454,d1:32914;
+            (____, BuiltinInvocation<Void> @:7453 op:19,dt:4,nt:8,next:7456,str:17971,d0:7454,d1:32914;
                 ("sleep", Expression<MethodOrOperator> @:7454 op:19,dt:2,nt:9,next:7455,str:289,d0:0,d1:0;
                     (300, Expression<Short> @:7455 op:7,dt:7,nt:9,next:65535,str:17978,d0:300,d1:65535;)))
             ("silo_rot_90_plus", ScriptInvocation<Void> @:7456 op:186,dt:4,nt:10,next:7458,str:18021,d0:7457,d1:32917;
                 ("silo_rot_90_plus", Expression<MethodOrOperator> @:7457 op:186,dt:2,nt:9,next:65535,str:16531,d0:0,d1:0;))
-            (____, Scope<Void> @:7458 op:19,dt:4,nt:8,next:7461,str:18042,d0:7459,d1:32919;
+            (____, BuiltinInvocation<Void> @:7458 op:19,dt:4,nt:8,next:7461,str:18042,d0:7459,d1:32919;
                 ("sleep", Expression<MethodOrOperator> @:7459 op:19,dt:2,nt:9,next:7460,str:289,d0:0,d1:0;
                     (150, Expression<Short> @:7460 op:7,dt:7,nt:9,next:65535,str:18049,d0:150,d1:65535;)))
             ("silo_crane_02", ScriptInvocation<Void> @:7461 op:177,dt:4,nt:10,next:7463,str:18059,d0:7462,d1:32922;
                 ("silo_crane_02", Expression<MethodOrOperator> @:7462 op:177,dt:2,nt:9,next:65535,str:16548,d0:0,d1:0;))
             ("silo_tray02", ScriptInvocation<Void> @:7463 op:191,dt:4,nt:10,next:7465,str:18077,d0:7464,d1:32924;
                 ("silo_tray02", Expression<MethodOrOperator> @:7464 op:191,dt:2,nt:9,next:65535,str:16562,d0:0,d1:0;))
-            (____, Scope<Void> @:7465 op:19,dt:4,nt:8,next:7468,str:18093,d0:7466,d1:32926;
+            (____, BuiltinInvocation<Void> @:7465 op:19,dt:4,nt:8,next:7468,str:18093,d0:7466,d1:32926;
                 ("sleep", Expression<MethodOrOperator> @:7466 op:19,dt:2,nt:9,next:7467,str:289,d0:0,d1:0;
                     (30, Expression<Short> @:7467 op:7,dt:7,nt:9,next:65535,str:18100,d0:30,d1:65535;)))
-            (____, Scope<Void> @:7468 op:21,dt:4,nt:8,next:7487,str:18108,d0:7469,d1:32929;
+            (____, BuiltinInvocation<Void> @:7468 op:21,dt:4,nt:8,next:7487,str:18108,d0:7469,d1:32929;
                 ("sleep_until", Expression<MethodOrOperator> @:7469 op:21,dt:2,nt:9,next:7470,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:7470 op:5,dt:5,nt:8,next:7485,str:18125,d0:7471,d1:32931;
+                    (____, BuiltinInvocation<Boolean> @:7470 op:5,dt:5,nt:8,next:7485,str:18125,d0:7471,d1:32931;
                         ("and", Expression<MethodOrOperator> @:7471 op:5,dt:2,nt:9,next:7472,str:876,d0:0,d1:0;
-                            (____, Scope<Boolean> @:7472 op:13,dt:5,nt:8,next:7480,str:18134,d0:7473,d1:32933;
+                            (____, BuiltinInvocation<Boolean> @:7472 op:13,dt:5,nt:8,next:7480,str:18134,d0:7473,d1:32933;
                                 ("=", Expression<MethodOrOperator> @:7473 op:13,dt:2,nt:9,next:7474,str:505,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:7474 op:34,dt:5,nt:8,next:7479,str:18137,d0:7475,d1:32935;
+                                    (____, BuiltinInvocation<Boolean> @:7474 op:34,dt:5,nt:8,next:7479,str:18137,d0:7475,d1:32935;
                                         ("volume_test_objects_all", Expression<MethodOrOperator> @:7475 op:34,dt:2,nt:9,next:7476,str:14133,d0:0,d1:0;
                                             ("vol_specimen_storage", Expression<Trigger> @:7476 op:13,dt:13,nt:9,next:7477,str:16457,d0:17,d1:0;
-                                                (____, Scope<List> @:7477 op:28,dt:31,nt:8,next:65535,str:18183,d0:7478,d1:32938;
+                                                (____, BuiltinInvocation<List> @:7477 op:28,dt:31,nt:8,next:65535,str:18183,d0:7478,d1:32938;
                                                     ("players", Expression<MethodOrOperator> @:7478 op:28,dt:2,nt:9,next:65535,str:230,d0:0,d1:0;)))))
                                     (True, Expression<Boolean> @:7479 op:5,dt:5,nt:9,next:65535,str:18194,d0:65281,d1:65535;)))
-                            (____, Scope<Boolean> @:7480 op:15,dt:5,nt:8,next:65535,str:18204,d0:7481,d1:32941;
+                            (____, BuiltinInvocation<Boolean> @:7480 op:15,dt:5,nt:8,next:65535,str:18204,d0:7481,d1:32941;
                                 (">", Expression<MethodOrOperator> @:7481 op:15,dt:2,nt:9,next:7482,str:13549,d0:0,d1:0;
                                     ("player_count", ScriptInvocation<Short> @:7482 op:2,dt:7,nt:10,next:7484,str:18207,d0:7483,d1:32943;
                                         ("player_count", Expression<MethodOrOperator> @:7483 op:2,dt:2,nt:9,next:65535,str:14177,d0:0,d1:0;))
                                     (0, Expression<Short> @:7484 op:7,dt:7,nt:9,next:65535,str:18222,d0:0,d1:65535;)))))
                     (30, Expression<Short> @:7485 op:7,dt:7,nt:9,next:7486,str:18232,d0:30,d1:65535;
                         (300, Expression<Int> @:7486 op:8,dt:8,nt:9,next:65535,str:18235,d0:300,d1:0;))))
-            (____, Scope<Void> @:7487 op:27,dt:4,nt:8,next:7490,str:18242,d0:7488,d1:32948;
+            (____, BuiltinInvocation<Void> @:7487 op:27,dt:4,nt:8,next:7490,str:18242,d0:7488,d1:32948;
                 ("print", Expression<MethodOrOperator> @:7488 op:27,dt:2,nt:9,next:7489,str:295,d0:0,d1:0;
                     ("down 600", Expression<String> @:7489 op:9,dt:9,nt:9,next:65535,str:16574,d0:16574,d1:0;)))
             ("silo_down_600", ScriptInvocation<Void> @:7490 op:184,dt:4,nt:10,next:7492,str:18263,d0:7491,d1:32951;
                 ("silo_down_600", Expression<MethodOrOperator> @:7491 op:184,dt:2,nt:9,next:65535,str:16583,d0:0,d1:0;))
-            (____, Scope<Void> @:7492 op:19,dt:4,nt:8,next:7495,str:18281,d0:7493,d1:32953;
+            (____, BuiltinInvocation<Void> @:7492 op:19,dt:4,nt:8,next:7495,str:18281,d0:7493,d1:32953;
                 ("sleep", Expression<MethodOrOperator> @:7493 op:19,dt:2,nt:9,next:7494,str:289,d0:0,d1:0;
                     (450, Expression<Short> @:7494 op:7,dt:7,nt:9,next:65535,str:18288,d0:450,d1:65535;)))
             ("silo_rot_90_minus", ScriptInvocation<Void> @:7495 op:187,dt:4,nt:10,next:7497,str:18435,d0:7496,d1:32956;
                 ("silo_rot_90_minus", Expression<MethodOrOperator> @:7496 op:187,dt:2,nt:9,next:65535,str:16597,d0:0,d1:0;))
-            (____, Scope<Void> @:7497 op:19,dt:4,nt:8,next:7500,str:18457,d0:7498,d1:32958;
+            (____, BuiltinInvocation<Void> @:7497 op:19,dt:4,nt:8,next:7500,str:18457,d0:7498,d1:32958;
                 ("sleep", Expression<MethodOrOperator> @:7498 op:19,dt:2,nt:9,next:7499,str:289,d0:0,d1:0;
                     (150, Expression<Short> @:7499 op:7,dt:7,nt:9,next:65535,str:18464,d0:150,d1:65535;)))
             ("silo_crane_03", ScriptInvocation<Void> @:7500 op:178,dt:4,nt:10,next:7502,str:18473,d0:7501,d1:32961;
                 ("silo_crane_03", Expression<MethodOrOperator> @:7501 op:178,dt:2,nt:9,next:65535,str:16615,d0:0,d1:0;))
             ("silo_tray03", ScriptInvocation<Void> @:7502 op:192,dt:4,nt:10,next:7504,str:18491,d0:7503,d1:32963;
                 ("silo_tray03", Expression<MethodOrOperator> @:7503 op:192,dt:2,nt:9,next:65535,str:16629,d0:0,d1:0;))
-            (____, Scope<Void> @:7504 op:19,dt:4,nt:8,next:7507,str:18507,d0:7505,d1:32965;
+            (____, BuiltinInvocation<Void> @:7504 op:19,dt:4,nt:8,next:7507,str:18507,d0:7505,d1:32965;
                 ("sleep", Expression<MethodOrOperator> @:7505 op:19,dt:2,nt:9,next:7506,str:289,d0:0,d1:0;
                     (30, Expression<Short> @:7506 op:7,dt:7,nt:9,next:65535,str:18514,d0:30,d1:65535;)))
-            (____, Scope<Void> @:7507 op:786,dt:4,nt:8,next:7510,str:18523,d0:7508,d1:32968;
+            (____, BuiltinInvocation<Void> @:7507 op:786,dt:4,nt:8,next:7510,str:18523,d0:7508,d1:32968;
                 ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:7508 op:786,dt:2,nt:9,next:7509,str:11261,d0:0,d1:0;
                     ("04b_4_silo_mid", Expression<String> @:7509 op:9,dt:9,nt:9,next:65535,str:16641,d0:16641,d1:0;)))
-            (____, Scope<Void> @:7510 op:4,dt:4,nt:8,next:7514,str:18574,d0:7511,d1:32971;
+            (____, BuiltinInvocation<Void> @:7510 op:4,dt:4,nt:8,next:7514,str:18574,d0:7511,d1:32971;
                 ("set", Expression<MethodOrOperator> @:7511 op:4,dt:2,nt:9,next:7512,str:2644,d0:0,d1:0;
                     ("silo_try_save", VariableAccess<Boolean> @:7512 op:65535,dt:5,nt:13,next:7513,str:16226,d0:21,d1:0;
                         (True, Expression<Boolean> @:7513 op:5,dt:5,nt:9,next:65535,str:18593,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:7514 op:21,dt:4,nt:8,next:7533,str:18666,d0:7515,d1:32975;
+            (____, BuiltinInvocation<Void> @:7514 op:21,dt:4,nt:8,next:7533,str:18666,d0:7515,d1:32975;
                 ("sleep_until", Expression<MethodOrOperator> @:7515 op:21,dt:2,nt:9,next:7516,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:7516 op:5,dt:5,nt:8,next:7531,str:18683,d0:7517,d1:32977;
+                    (____, BuiltinInvocation<Boolean> @:7516 op:5,dt:5,nt:8,next:7531,str:18683,d0:7517,d1:32977;
                         ("and", Expression<MethodOrOperator> @:7517 op:5,dt:2,nt:9,next:7518,str:876,d0:0,d1:0;
-                            (____, Scope<Boolean> @:7518 op:13,dt:5,nt:8,next:7526,str:18692,d0:7519,d1:32979;
+                            (____, BuiltinInvocation<Boolean> @:7518 op:13,dt:5,nt:8,next:7526,str:18692,d0:7519,d1:32979;
                                 ("=", Expression<MethodOrOperator> @:7519 op:13,dt:2,nt:9,next:7520,str:505,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:7520 op:34,dt:5,nt:8,next:7525,str:18695,d0:7521,d1:32981;
+                                    (____, BuiltinInvocation<Boolean> @:7520 op:34,dt:5,nt:8,next:7525,str:18695,d0:7521,d1:32981;
                                         ("volume_test_objects_all", Expression<MethodOrOperator> @:7521 op:34,dt:2,nt:9,next:7522,str:14133,d0:0,d1:0;
                                             ("vol_specimen_storage", Expression<Trigger> @:7522 op:13,dt:13,nt:9,next:7523,str:16457,d0:17,d1:0;
-                                                (____, Scope<List> @:7523 op:28,dt:31,nt:8,next:65535,str:18741,d0:7524,d1:32984;
+                                                (____, BuiltinInvocation<List> @:7523 op:28,dt:31,nt:8,next:65535,str:18741,d0:7524,d1:32984;
                                                     ("players", Expression<MethodOrOperator> @:7524 op:28,dt:2,nt:9,next:65535,str:230,d0:0,d1:0;)))))
                                     (True, Expression<Boolean> @:7525 op:5,dt:5,nt:9,next:65535,str:18752,d0:65281,d1:65535;)))
-                            (____, Scope<Boolean> @:7526 op:15,dt:5,nt:8,next:65535,str:18762,d0:7527,d1:32987;
+                            (____, BuiltinInvocation<Boolean> @:7526 op:15,dt:5,nt:8,next:65535,str:18762,d0:7527,d1:32987;
                                 (">", Expression<MethodOrOperator> @:7527 op:15,dt:2,nt:9,next:7528,str:13549,d0:0,d1:0;
                                     ("player_count", ScriptInvocation<Short> @:7528 op:2,dt:7,nt:10,next:7530,str:18765,d0:7529,d1:32989;
                                         ("player_count", Expression<MethodOrOperator> @:7529 op:2,dt:2,nt:9,next:65535,str:14177,d0:0,d1:0;))
                                     (0, Expression<Short> @:7530 op:7,dt:7,nt:9,next:65535,str:18780,d0:0,d1:65535;)))))
                     (30, Expression<Short> @:7531 op:7,dt:7,nt:9,next:7532,str:18790,d0:30,d1:65535;
                         (300, Expression<Int> @:7532 op:8,dt:8,nt:9,next:65535,str:18793,d0:300,d1:0;))))
-            (____, Scope<Void> @:7533 op:27,dt:4,nt:8,next:7536,str:18800,d0:7534,d1:32994;
+            (____, BuiltinInvocation<Void> @:7533 op:27,dt:4,nt:8,next:7536,str:18800,d0:7534,d1:32994;
                 ("print", Expression<MethodOrOperator> @:7534 op:27,dt:2,nt:9,next:7535,str:295,d0:0,d1:0;
                     ("down 200", Expression<String> @:7535 op:9,dt:9,nt:9,next:65535,str:16656,d0:16656,d1:0;)))
-            (____, Scope<Void> @:7536 op:22,dt:4,nt:8,next:7539,str:18823,d0:7537,d1:32997;
+            (____, BuiltinInvocation<Void> @:7536 op:22,dt:4,nt:8,next:7539,str:18823,d0:7537,d1:32997;
                 ("wake", Expression<MethodOrOperator> @:7537 op:22,dt:2,nt:9,next:7538,str:1275,d0:0,d1:0;
                     ("music_04b_01_stop", Expression<ScriptReference> @:7538 op:10,dt:10,nt:9,next:65535,str:16665,d0:132,d1:65535;)))
             ("silo_down_200", ScriptInvocation<Void> @:7539 op:182,dt:4,nt:10,next:7541,str:18852,d0:7540,d1:33000;
                 ("silo_down_200", Expression<MethodOrOperator> @:7540 op:182,dt:2,nt:9,next:65535,str:16683,d0:0,d1:0;))
-            (____, Scope<Void> @:7541 op:19,dt:4,nt:8,next:7544,str:18870,d0:7542,d1:33002;
+            (____, BuiltinInvocation<Void> @:7541 op:19,dt:4,nt:8,next:7544,str:18870,d0:7542,d1:33002;
                 ("sleep", Expression<MethodOrOperator> @:7542 op:19,dt:2,nt:9,next:7543,str:289,d0:0,d1:0;
                     (150, Expression<Short> @:7543 op:7,dt:7,nt:9,next:65535,str:18877,d0:150,d1:65535;)))
-            (____, Scope<Void> @:7544 op:291,dt:4,nt:8,next:7548,str:18884,d0:7545,d1:33005;
+            (____, BuiltinInvocation<Void> @:7544 op:291,dt:4,nt:8,next:7548,str:18884,d0:7545,d1:33005;
                 ("ai_place", Expression<MethodOrOperator> @:7545 op:291,dt:2,nt:9,next:7546,str:11303,d0:0,d1:0;
                     ("silo_sentinels_below", Expression<AI> @:7546 op:19,dt:19,nt:9,next:7547,str:16697,d0:16,d1:0;
                         (4, Expression<Short> @:7547 op:7,dt:7,nt:9,next:65535,str:18915,d0:4,d1:65535;))))
             ("silo_rot_90_plus", ScriptInvocation<Void> @:7548 op:186,dt:4,nt:10,next:7550,str:18922,d0:7549,d1:33009;
                 ("silo_rot_90_plus", Expression<MethodOrOperator> @:7549 op:186,dt:2,nt:9,next:65535,str:16531,d0:0,d1:0;))
-            (____, Scope<Void> @:7550 op:19,dt:4,nt:8,next:7553,str:18943,d0:7551,d1:33011;
+            (____, BuiltinInvocation<Void> @:7550 op:19,dt:4,nt:8,next:7553,str:18943,d0:7551,d1:33011;
                 ("sleep", Expression<MethodOrOperator> @:7551 op:19,dt:2,nt:9,next:7552,str:289,d0:0,d1:0;
                     (150, Expression<Short> @:7552 op:7,dt:7,nt:9,next:65535,str:18950,d0:150,d1:65535;)))
             ("silo_crane_04", ScriptInvocation<Void> @:7553 op:179,dt:4,nt:10,next:7555,str:18959,d0:7554,d1:33014;
                 ("silo_crane_04", Expression<MethodOrOperator> @:7554 op:179,dt:2,nt:9,next:65535,str:16718,d0:0,d1:0;))
             ("silo_tray04", ScriptInvocation<Void> @:7555 op:193,dt:4,nt:10,next:7557,str:18977,d0:7556,d1:33016;
                 ("silo_tray04", Expression<MethodOrOperator> @:7556 op:193,dt:2,nt:9,next:65535,str:16732,d0:0,d1:0;))
-            (____, Scope<Void> @:7557 op:19,dt:4,nt:8,next:7560,str:18993,d0:7558,d1:33018;
+            (____, BuiltinInvocation<Void> @:7557 op:19,dt:4,nt:8,next:7560,str:18993,d0:7558,d1:33018;
                 ("sleep", Expression<MethodOrOperator> @:7558 op:19,dt:2,nt:9,next:7559,str:289,d0:0,d1:0;
                     (30, Expression<Short> @:7559 op:7,dt:7,nt:9,next:65535,str:19000,d0:30,d1:65535;)))
-            (____, Scope<Void> @:7560 op:21,dt:4,nt:8,next:7579,str:19008,d0:7561,d1:33021;
+            (____, BuiltinInvocation<Void> @:7560 op:21,dt:4,nt:8,next:7579,str:19008,d0:7561,d1:33021;
                 ("sleep_until", Expression<MethodOrOperator> @:7561 op:21,dt:2,nt:9,next:7562,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:7562 op:5,dt:5,nt:8,next:7577,str:19025,d0:7563,d1:33023;
+                    (____, BuiltinInvocation<Boolean> @:7562 op:5,dt:5,nt:8,next:7577,str:19025,d0:7563,d1:33023;
                         ("and", Expression<MethodOrOperator> @:7563 op:5,dt:2,nt:9,next:7564,str:876,d0:0,d1:0;
-                            (____, Scope<Boolean> @:7564 op:13,dt:5,nt:8,next:7572,str:19034,d0:7565,d1:33025;
+                            (____, BuiltinInvocation<Boolean> @:7564 op:13,dt:5,nt:8,next:7572,str:19034,d0:7565,d1:33025;
                                 ("=", Expression<MethodOrOperator> @:7565 op:13,dt:2,nt:9,next:7566,str:505,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:7566 op:34,dt:5,nt:8,next:7571,str:19037,d0:7567,d1:33027;
+                                    (____, BuiltinInvocation<Boolean> @:7566 op:34,dt:5,nt:8,next:7571,str:19037,d0:7567,d1:33027;
                                         ("volume_test_objects_all", Expression<MethodOrOperator> @:7567 op:34,dt:2,nt:9,next:7568,str:14133,d0:0,d1:0;
                                             ("vol_specimen_storage", Expression<Trigger> @:7568 op:13,dt:13,nt:9,next:7569,str:16457,d0:17,d1:0;
-                                                (____, Scope<List> @:7569 op:28,dt:31,nt:8,next:65535,str:19083,d0:7570,d1:33030;
+                                                (____, BuiltinInvocation<List> @:7569 op:28,dt:31,nt:8,next:65535,str:19083,d0:7570,d1:33030;
                                                     ("players", Expression<MethodOrOperator> @:7570 op:28,dt:2,nt:9,next:65535,str:230,d0:0,d1:0;)))))
                                     (True, Expression<Boolean> @:7571 op:5,dt:5,nt:9,next:65535,str:19094,d0:65281,d1:65535;)))
-                            (____, Scope<Boolean> @:7572 op:15,dt:5,nt:8,next:65535,str:19104,d0:7573,d1:33033;
+                            (____, BuiltinInvocation<Boolean> @:7572 op:15,dt:5,nt:8,next:65535,str:19104,d0:7573,d1:33033;
                                 (">", Expression<MethodOrOperator> @:7573 op:15,dt:2,nt:9,next:7574,str:13549,d0:0,d1:0;
                                     ("player_count", ScriptInvocation<Short> @:7574 op:2,dt:7,nt:10,next:7576,str:19107,d0:7575,d1:33035;
                                         ("player_count", Expression<MethodOrOperator> @:7575 op:2,dt:2,nt:9,next:65535,str:14177,d0:0,d1:0;))
                                     (0, Expression<Short> @:7576 op:7,dt:7,nt:9,next:65535,str:19122,d0:0,d1:65535;)))))
                     (30, Expression<Short> @:7577 op:7,dt:7,nt:9,next:7578,str:19132,d0:30,d1:65535;
                         (300, Expression<Int> @:7578 op:8,dt:8,nt:9,next:65535,str:19135,d0:300,d1:0;))))
-            (____, Scope<Void> @:7579 op:27,dt:4,nt:8,next:7582,str:19142,d0:7580,d1:33040;
+            (____, BuiltinInvocation<Void> @:7579 op:27,dt:4,nt:8,next:7582,str:19142,d0:7580,d1:33040;
                 ("print", Expression<MethodOrOperator> @:7580 op:27,dt:2,nt:9,next:7581,str:295,d0:0,d1:0;
                     ("down 800 - kill disabled", Expression<String> @:7581 op:9,dt:9,nt:9,next:65535,str:16744,d0:16744,d1:0;)))
-            (____, Scope<Void> @:7582 op:30,dt:4,nt:8,next:7585,str:19179,d0:7583,d1:33043;
+            (____, BuiltinInvocation<Void> @:7582 op:30,dt:4,nt:8,next:7585,str:19179,d0:7583,d1:33043;
                 ("kill_volume_disable", Expression<MethodOrOperator> @:7583 op:30,dt:2,nt:9,next:7584,str:10915,d0:0,d1:0;
                     ("kill_silo_toggle", Expression<Trigger> @:7584 op:13,dt:13,nt:9,next:65535,str:16769,d0:113,d1:0;)))
             ("silo_down_800", ScriptInvocation<Void> @:7585 op:185,dt:4,nt:10,next:7587,str:19224,d0:7586,d1:33046;
                 ("silo_down_800", Expression<MethodOrOperator> @:7586 op:185,dt:2,nt:9,next:65535,str:16786,d0:0,d1:0;))
-            (____, Scope<Void> @:7587 op:19,dt:4,nt:8,next:7590,str:19242,d0:7588,d1:33048;
+            (____, BuiltinInvocation<Void> @:7587 op:19,dt:4,nt:8,next:7590,str:19242,d0:7588,d1:33048;
                 ("sleep", Expression<MethodOrOperator> @:7588 op:19,dt:2,nt:9,next:7589,str:289,d0:0,d1:0;
                     (600, Expression<Short> @:7589 op:7,dt:7,nt:9,next:65535,str:19249,d0:600,d1:65535;)))
             ("silo_rot_180_minus", ScriptInvocation<Void> @:7590 op:189,dt:4,nt:10,next:7592,str:19334,d0:7591,d1:33051;
                 ("silo_rot_180_minus", Expression<MethodOrOperator> @:7591 op:189,dt:2,nt:9,next:65535,str:16800,d0:0,d1:0;))
-            (____, Scope<Void> @:7592 op:19,dt:4,nt:8,next:7595,str:19357,d0:7593,d1:33053;
+            (____, BuiltinInvocation<Void> @:7592 op:19,dt:4,nt:8,next:7595,str:19357,d0:7593,d1:33053;
                 ("sleep", Expression<MethodOrOperator> @:7593 op:19,dt:2,nt:9,next:7594,str:289,d0:0,d1:0;
                     (300, Expression<Short> @:7594 op:7,dt:7,nt:9,next:65535,str:19364,d0:300,d1:65535;)))
             ("silo_crane_05", ScriptInvocation<Void> @:7595 op:180,dt:4,nt:10,next:7597,str:19374,d0:7596,d1:33056;
                 ("silo_crane_05", Expression<MethodOrOperator> @:7596 op:180,dt:2,nt:9,next:65535,str:16819,d0:0,d1:0;))
             ("silo_tray05", ScriptInvocation<Void> @:7597 op:194,dt:4,nt:10,next:7599,str:19392,d0:7598,d1:33058;
                 ("silo_tray05", Expression<MethodOrOperator> @:7598 op:194,dt:2,nt:9,next:65535,str:16833,d0:0,d1:0;))
-            (____, Scope<Void> @:7599 op:19,dt:4,nt:8,next:7602,str:19408,d0:7600,d1:33060;
+            (____, BuiltinInvocation<Void> @:7599 op:19,dt:4,nt:8,next:7602,str:19408,d0:7600,d1:33060;
                 ("sleep", Expression<MethodOrOperator> @:7600 op:19,dt:2,nt:9,next:7601,str:289,d0:0,d1:0;
                     (30, Expression<Short> @:7601 op:7,dt:7,nt:9,next:65535,str:19415,d0:30,d1:65535;)))
-            (____, Scope<Void> @:7602 op:21,dt:4,nt:8,next:7621,str:19423,d0:7603,d1:33063;
+            (____, BuiltinInvocation<Void> @:7602 op:21,dt:4,nt:8,next:7621,str:19423,d0:7603,d1:33063;
                 ("sleep_until", Expression<MethodOrOperator> @:7603 op:21,dt:2,nt:9,next:7604,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:7604 op:5,dt:5,nt:8,next:7619,str:19440,d0:7605,d1:33065;
+                    (____, BuiltinInvocation<Boolean> @:7604 op:5,dt:5,nt:8,next:7619,str:19440,d0:7605,d1:33065;
                         ("and", Expression<MethodOrOperator> @:7605 op:5,dt:2,nt:9,next:7606,str:876,d0:0,d1:0;
-                            (____, Scope<Boolean> @:7606 op:13,dt:5,nt:8,next:7614,str:19449,d0:7607,d1:33067;
+                            (____, BuiltinInvocation<Boolean> @:7606 op:13,dt:5,nt:8,next:7614,str:19449,d0:7607,d1:33067;
                                 ("=", Expression<MethodOrOperator> @:7607 op:13,dt:2,nt:9,next:7608,str:505,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:7608 op:34,dt:5,nt:8,next:7613,str:19452,d0:7609,d1:33069;
+                                    (____, BuiltinInvocation<Boolean> @:7608 op:34,dt:5,nt:8,next:7613,str:19452,d0:7609,d1:33069;
                                         ("volume_test_objects_all", Expression<MethodOrOperator> @:7609 op:34,dt:2,nt:9,next:7610,str:14133,d0:0,d1:0;
                                             ("vol_specimen_storage", Expression<Trigger> @:7610 op:13,dt:13,nt:9,next:7611,str:16457,d0:17,d1:0;
-                                                (____, Scope<List> @:7611 op:28,dt:31,nt:8,next:65535,str:19498,d0:7612,d1:33072;
+                                                (____, BuiltinInvocation<List> @:7611 op:28,dt:31,nt:8,next:65535,str:19498,d0:7612,d1:33072;
                                                     ("players", Expression<MethodOrOperator> @:7612 op:28,dt:2,nt:9,next:65535,str:230,d0:0,d1:0;)))))
                                     (True, Expression<Boolean> @:7613 op:5,dt:5,nt:9,next:65535,str:19509,d0:65281,d1:65535;)))
-                            (____, Scope<Boolean> @:7614 op:15,dt:5,nt:8,next:65535,str:19519,d0:7615,d1:33075;
+                            (____, BuiltinInvocation<Boolean> @:7614 op:15,dt:5,nt:8,next:65535,str:19519,d0:7615,d1:33075;
                                 (">", Expression<MethodOrOperator> @:7615 op:15,dt:2,nt:9,next:7616,str:13549,d0:0,d1:0;
                                     ("player_count", ScriptInvocation<Short> @:7616 op:2,dt:7,nt:10,next:7618,str:19522,d0:7617,d1:33077;
                                         ("player_count", Expression<MethodOrOperator> @:7617 op:2,dt:2,nt:9,next:65535,str:14177,d0:0,d1:0;))
                                     (0, Expression<Short> @:7618 op:7,dt:7,nt:9,next:65535,str:19537,d0:0,d1:65535;)))))
                     (30, Expression<Short> @:7619 op:7,dt:7,nt:9,next:7620,str:19547,d0:30,d1:65535;
                         (300, Expression<Int> @:7620 op:8,dt:8,nt:9,next:65535,str:19550,d0:300,d1:0;))))
-            (____, Scope<Void> @:7621 op:27,dt:4,nt:8,next:7624,str:19589,d0:7622,d1:33082;
+            (____, BuiltinInvocation<Void> @:7621 op:27,dt:4,nt:8,next:7624,str:19589,d0:7622,d1:33082;
                 ("print", Expression<MethodOrOperator> @:7622 op:27,dt:2,nt:9,next:7623,str:295,d0:0,d1:0;
                     ("down 400", Expression<String> @:7623 op:9,dt:9,nt:9,next:65535,str:16478,d0:16478,d1:0;)))
             ("silo_down_400", ScriptInvocation<Void> @:7624 op:183,dt:4,nt:10,next:7626,str:19610,d0:7625,d1:33085;
                 ("silo_down_400", Expression<MethodOrOperator> @:7625 op:183,dt:2,nt:9,next:65535,str:16517,d0:0,d1:0;))
-            (____, Scope<Void> @:7626 op:19,dt:4,nt:8,next:7629,str:19628,d0:7627,d1:33087;
+            (____, BuiltinInvocation<Void> @:7626 op:19,dt:4,nt:8,next:7629,str:19628,d0:7627,d1:33087;
                 ("sleep", Expression<MethodOrOperator> @:7627 op:19,dt:2,nt:9,next:7628,str:289,d0:0,d1:0;
                     (300, Expression<Short> @:7628 op:7,dt:7,nt:9,next:65535,str:19635,d0:300,d1:65535;)))
             ("silo_rot_90_plus", ScriptInvocation<Void> @:7629 op:186,dt:4,nt:10,next:7631,str:19644,d0:7630,d1:33090;
                 ("silo_rot_90_plus", Expression<MethodOrOperator> @:7630 op:186,dt:2,nt:9,next:65535,str:16531,d0:0,d1:0;))
-            (____, Scope<Void> @:7631 op:19,dt:4,nt:8,next:7634,str:19665,d0:7632,d1:33092;
+            (____, BuiltinInvocation<Void> @:7631 op:19,dt:4,nt:8,next:7634,str:19665,d0:7632,d1:33092;
                 ("sleep", Expression<MethodOrOperator> @:7632 op:19,dt:2,nt:9,next:7633,str:289,d0:0,d1:0;
                     (150, Expression<Short> @:7633 op:7,dt:7,nt:9,next:65535,str:19672,d0:150,d1:65535;)))
             ("silo_crane_06", ScriptInvocation<Void> @:7634 op:181,dt:4,nt:10,next:7636,str:19681,d0:7635,d1:33095;
                 ("silo_crane_06", Expression<MethodOrOperator> @:7635 op:181,dt:2,nt:9,next:65535,str:16845,d0:0,d1:0;))
             ("silo_tray06", ScriptInvocation<Void> @:7636 op:195,dt:4,nt:10,next:7638,str:19699,d0:7637,d1:33097;
                 ("silo_tray06", Expression<MethodOrOperator> @:7637 op:195,dt:2,nt:9,next:65535,str:16859,d0:0,d1:0;))
-            (____, Scope<Void> @:7638 op:19,dt:4,nt:8,next:7641,str:19715,d0:7639,d1:33099;
+            (____, BuiltinInvocation<Void> @:7638 op:19,dt:4,nt:8,next:7641,str:19715,d0:7639,d1:33099;
                 ("sleep", Expression<MethodOrOperator> @:7639 op:19,dt:2,nt:9,next:7640,str:289,d0:0,d1:0;
                     (30, Expression<Short> @:7640 op:7,dt:7,nt:9,next:65535,str:19722,d0:30,d1:65535;)))
-            (____, Scope<Void> @:7641 op:21,dt:4,nt:8,next:7660,str:19730,d0:7642,d1:33102;
+            (____, BuiltinInvocation<Void> @:7641 op:21,dt:4,nt:8,next:7660,str:19730,d0:7642,d1:33102;
                 ("sleep_until", Expression<MethodOrOperator> @:7642 op:21,dt:2,nt:9,next:7643,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:7643 op:5,dt:5,nt:8,next:7658,str:19747,d0:7644,d1:33104;
+                    (____, BuiltinInvocation<Boolean> @:7643 op:5,dt:5,nt:8,next:7658,str:19747,d0:7644,d1:33104;
                         ("and", Expression<MethodOrOperator> @:7644 op:5,dt:2,nt:9,next:7645,str:876,d0:0,d1:0;
-                            (____, Scope<Boolean> @:7645 op:13,dt:5,nt:8,next:7653,str:19756,d0:7646,d1:33106;
+                            (____, BuiltinInvocation<Boolean> @:7645 op:13,dt:5,nt:8,next:7653,str:19756,d0:7646,d1:33106;
                                 ("=", Expression<MethodOrOperator> @:7646 op:13,dt:2,nt:9,next:7647,str:505,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:7647 op:34,dt:5,nt:8,next:7652,str:19759,d0:7648,d1:33108;
+                                    (____, BuiltinInvocation<Boolean> @:7647 op:34,dt:5,nt:8,next:7652,str:19759,d0:7648,d1:33108;
                                         ("volume_test_objects_all", Expression<MethodOrOperator> @:7648 op:34,dt:2,nt:9,next:7649,str:14133,d0:0,d1:0;
                                             ("vol_specimen_storage", Expression<Trigger> @:7649 op:13,dt:13,nt:9,next:7650,str:16457,d0:17,d1:0;
-                                                (____, Scope<List> @:7650 op:28,dt:31,nt:8,next:65535,str:19805,d0:7651,d1:33111;
+                                                (____, BuiltinInvocation<List> @:7650 op:28,dt:31,nt:8,next:65535,str:19805,d0:7651,d1:33111;
                                                     ("players", Expression<MethodOrOperator> @:7651 op:28,dt:2,nt:9,next:65535,str:230,d0:0,d1:0;)))))
                                     (True, Expression<Boolean> @:7652 op:5,dt:5,nt:9,next:65535,str:19816,d0:65281,d1:65535;)))
-                            (____, Scope<Boolean> @:7653 op:15,dt:5,nt:8,next:65535,str:19826,d0:7654,d1:33114;
+                            (____, BuiltinInvocation<Boolean> @:7653 op:15,dt:5,nt:8,next:65535,str:19826,d0:7654,d1:33114;
                                 (">", Expression<MethodOrOperator> @:7654 op:15,dt:2,nt:9,next:7655,str:13549,d0:0,d1:0;
                                     ("player_count", ScriptInvocation<Short> @:7655 op:2,dt:7,nt:10,next:7657,str:19829,d0:7656,d1:33116;
                                         ("player_count", Expression<MethodOrOperator> @:7656 op:2,dt:2,nt:9,next:65535,str:14177,d0:0,d1:0;))
                                     (0, Expression<Short> @:7657 op:7,dt:7,nt:9,next:65535,str:19844,d0:0,d1:65535;)))))
                     (30, Expression<Short> @:7658 op:7,dt:7,nt:9,next:7659,str:19854,d0:30,d1:65535;
                         ("music_04b_03_stop_alt", Expression<Int> @:7659 op:8,dt:8,nt:9,next:65535,str:19857,d0:300,d1:0;))))
-            (____, Scope<Void> @:7660 op:4,dt:4,nt:8,next:7664,str:19864,d0:7661,d1:33121;
+            (____, BuiltinInvocation<Void> @:7660 op:4,dt:4,nt:8,next:7664,str:19864,d0:7661,d1:33121;
                 ("set", Expression<MethodOrOperator> @:7661 op:4,dt:2,nt:9,next:7662,str:2644,d0:0,d1:0;
                     ("silo_almost_there", VariableAccess<Boolean> @:7662 op:65535,dt:5,nt:13,next:7663,str:16413,d0:18,d1:0;
                         (True, Expression<Boolean> @:7663 op:5,dt:5,nt:9,next:65535,str:19887,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:7664 op:27,dt:4,nt:8,next:7667,str:19895,d0:7665,d1:33125;
+            (____, BuiltinInvocation<Void> @:7664 op:27,dt:4,nt:8,next:7667,str:19895,d0:7665,d1:33125;
                 ("print", Expression<MethodOrOperator> @:7665 op:27,dt:2,nt:9,next:7666,str:295,d0:0,d1:0;
                     ("down 600", Expression<String> @:7666 op:9,dt:9,nt:9,next:65535,str:16574,d0:16574,d1:0;)))
             ("silo_down_600", ScriptInvocation<Void> @:7667 op:184,dt:4,nt:10,next:7669,str:19916,d0:7668,d1:33128;
                 ("silo_down_600", Expression<MethodOrOperator> @:7668 op:184,dt:2,nt:9,next:65535,str:16583,d0:0,d1:0;))
-            (____, Scope<Void> @:7669 op:19,dt:4,nt:8,next:7672,str:19934,d0:7670,d1:33130;
+            (____, BuiltinInvocation<Void> @:7669 op:19,dt:4,nt:8,next:7672,str:19934,d0:7670,d1:33130;
                 ("sleep", Expression<MethodOrOperator> @:7670 op:19,dt:2,nt:9,next:7671,str:289,d0:0,d1:0;
                     (300, Expression<Short> @:7671 op:7,dt:7,nt:9,next:65535,str:19941,d0:300,d1:65535;)))
-            (____, Scope<Void> @:7672 op:19,dt:4,nt:8,next:65535,str:20055,d0:7673,d1:33133;
+            (____, BuiltinInvocation<Void> @:7672 op:19,dt:4,nt:8,next:65535,str:20055,d0:7673,d1:33133;
                 ("sleep", Expression<MethodOrOperator> @:7673 op:19,dt:2,nt:9,next:7674,str:289,d0:0,d1:0;
                     (150, Expression<Short> @:7674 op:7,dt:7,nt:9,next:65535,str:20062,d0:150,d1:65535;))))))

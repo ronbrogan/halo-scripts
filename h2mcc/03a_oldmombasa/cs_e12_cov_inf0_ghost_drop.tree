@@ -1,13 +1,13 @@
 
 ("cs_e12_cov_inf0_ghost_drop", MethodDecl<Void> @:183 op:0,dt:0,nt:65535,next:6476,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:6476 op:0,dt:4,nt:8,next:65535,str:12649,d0:6477,d1:64704;
+    (____, BuiltinInvocation<Void> @:6476 op:0,dt:4,nt:8,next:65535,str:12649,d0:6477,d1:64704;
         ("begin", Expression<MethodOrOperator> @:6477 op:0,dt:2,nt:9,next:6467,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:6467 op:343,dt:4,nt:8,next:6473,str:12701,d0:6468,d1:64695;
+            (____, BuiltinInvocation<Void> @:6467 op:343,dt:4,nt:8,next:6473,str:12701,d0:6468,d1:64695;
                 ("ai_vehicle_reserve", Expression<MethodOrOperator> @:6468 op:343,dt:2,nt:9,next:6469,str:13690,d0:0,d1:0;
-                    (____, Scope<Vehicle> @:6469 op:340,dt:52,nt:8,next:6472,str:12721,d0:6470,d1:64697;
+                    (____, BuiltinInvocation<Vehicle> @:6469 op:340,dt:52,nt:8,next:6472,str:12721,d0:6470,d1:64697;
                         ("ai_vehicle_get", Expression<MethodOrOperator> @:6470 op:340,dt:2,nt:9,next:6471,str:4335,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:6471 op:19,dt:19,nt:13,next:65535,str:4350,d0:33564,d1:65535;)))
                     (True, Expression<Boolean> @:6472 op:5,dt:5,nt:9,next:65535,str:12755,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:6473 op:350,dt:4,nt:8,next:65535,str:12763,d0:6474,d1:64701;
+            (____, BuiltinInvocation<Void> @:6473 op:350,dt:4,nt:8,next:65535,str:12763,d0:6474,d1:64701;
                 ("ai_vehicle_exit", Expression<MethodOrOperator> @:6474 op:350,dt:2,nt:9,next:6475,str:11357,d0:0,d1:0;
                     ("ai_current_actor", VariableAccess<AI> @:6475 op:19,dt:19,nt:13,next:65535,str:4350,d0:33564,d1:65535;))))))

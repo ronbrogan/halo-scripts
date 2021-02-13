@@ -1,34 +1,34 @@
 
 ("cs_e16_cov_ghosts0_advance0", MethodDecl<Void> @:376 op:0,dt:0,nt:65535,next:13596,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:13596 op:0,dt:4,nt:8,next:65535,str:46522,d0:13597,d1:39057;
+    (____, BuiltinInvocation<Void> @:13596 op:0,dt:4,nt:8,next:65535,str:46522,d0:13597,d1:39057;
         ("begin", Expression<MethodOrOperator> @:13597 op:0,dt:2,nt:9,next:13566,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:13566 op:440,dt:4,nt:8,next:13569,str:46575,d0:13567,d1:39027;
+            (____, BuiltinInvocation<Void> @:13566 op:440,dt:4,nt:8,next:13569,str:46575,d0:13567,d1:39027;
                 ("cs_abort_on_damage", Expression<MethodOrOperator> @:13567 op:440,dt:2,nt:9,next:13568,str:16394,d0:0,d1:0;
                     (True, Expression<Boolean> @:13568 op:5,dt:5,nt:9,next:65535,str:46595,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:13569 op:441,dt:4,nt:8,next:13572,str:46603,d0:13570,d1:39030;
+            (____, BuiltinInvocation<Void> @:13569 op:441,dt:4,nt:8,next:13572,str:46603,d0:13570,d1:39030;
                 ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:13570 op:441,dt:2,nt:9,next:13571,str:22358,d0:0,d1:0;
                     ("ai_combat_status_clear_los", VariableAccess<Short> @:13571 op:7,dt:7,nt:13,next:65535,str:17189,d0:33579,d1:65535;)))
-            (____, Scope<Void> @:13572 op:438,dt:4,nt:8,next:13575,str:46660,d0:13573,d1:39033;
+            (____, BuiltinInvocation<Void> @:13572 op:438,dt:4,nt:8,next:13575,str:46660,d0:13573,d1:39033;
                 ("cs_vehicle_boost", Expression<MethodOrOperator> @:13573 op:438,dt:2,nt:9,next:13574,str:15358,d0:0,d1:0;
                     (True, Expression<Boolean> @:13574 op:5,dt:5,nt:9,next:65535,str:46678,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:13575 op:442,dt:4,nt:8,next:13578,str:46686,d0:13576,d1:39036;
+            (____, BuiltinInvocation<Void> @:13575 op:442,dt:4,nt:8,next:13578,str:46686,d0:13576,d1:39036;
                 ("cs_enable_targeting", Expression<MethodOrOperator> @:13576 op:442,dt:2,nt:9,next:13577,str:27560,d0:0,d1:0;
                     (True, Expression<Boolean> @:13577 op:5,dt:5,nt:9,next:65535,str:46707,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:13578 op:385,dt:4,nt:8,next:13581,str:46715,d0:13579,d1:39039;
+            (____, BuiltinInvocation<Void> @:13578 op:385,dt:4,nt:8,next:13581,str:46715,d0:13579,d1:39039;
                 ("cs_go_to", Expression<MethodOrOperator> @:13579 op:385,dt:2,nt:9,next:13580,str:18763,d0:0,d1:0;
                     ("e16_cov_ghosts0_advance/start", Expression<SpatialPoint> @:13580 op:28,dt:28,nt:9,next:65535,str:27580,d0:10,d1:7;)))
-            (____, Scope<Void> @:13581 op:385,dt:4,nt:8,next:13584,str:46758,d0:13582,d1:39042;
+            (____, BuiltinInvocation<Void> @:13581 op:385,dt:4,nt:8,next:13584,str:46758,d0:13582,d1:39042;
                 ("cs_go_to", Expression<MethodOrOperator> @:13582 op:385,dt:2,nt:9,next:13583,str:18763,d0:0,d1:0;
                     ("e16_cov_ghosts0_advance/p0", Expression<SpatialPoint> @:13583 op:28,dt:28,nt:9,next:65535,str:27610,d0:0,d1:7;)))
-            (____, Scope<Void> @:13584 op:385,dt:4,nt:8,next:13587,str:46798,d0:13585,d1:39045;
+            (____, BuiltinInvocation<Void> @:13584 op:385,dt:4,nt:8,next:13587,str:46798,d0:13585,d1:39045;
                 ("cs_go_to", Expression<MethodOrOperator> @:13585 op:385,dt:2,nt:9,next:13586,str:18763,d0:0,d1:0;
                     ("e16_cov_ghosts0_advance/p1", Expression<SpatialPoint> @:13586 op:28,dt:28,nt:9,next:65535,str:27745,d0:1,d1:7;)))
-            (____, Scope<Void> @:13587 op:385,dt:4,nt:8,next:13590,str:46838,d0:13588,d1:39048;
+            (____, BuiltinInvocation<Void> @:13587 op:385,dt:4,nt:8,next:13590,str:46838,d0:13588,d1:39048;
                 ("cs_go_to", Expression<MethodOrOperator> @:13588 op:385,dt:2,nt:9,next:13589,str:18763,d0:0,d1:0;
                     ("e16_cov_ghosts0_advance/p2", Expression<SpatialPoint> @:13589 op:28,dt:28,nt:9,next:65535,str:27772,d0:2,d1:7;)))
-            (____, Scope<Void> @:13590 op:385,dt:4,nt:8,next:13593,str:46878,d0:13591,d1:39051;
+            (____, BuiltinInvocation<Void> @:13590 op:385,dt:4,nt:8,next:13593,str:46878,d0:13591,d1:39051;
                 ("cs_go_to", Expression<MethodOrOperator> @:13591 op:385,dt:2,nt:9,next:13592,str:18763,d0:0,d1:0;
                     ("e16_cov_ghosts0_advance/p3", Expression<SpatialPoint> @:13592 op:28,dt:28,nt:9,next:65535,str:27799,d0:3,d1:7;)))
-            (____, Scope<Void> @:13593 op:385,dt:4,nt:8,next:65535,str:46918,d0:13594,d1:39054;
+            (____, BuiltinInvocation<Void> @:13593 op:385,dt:4,nt:8,next:65535,str:46918,d0:13594,d1:39054;
                 ("cs_go_to", Expression<MethodOrOperator> @:13594 op:385,dt:2,nt:9,next:13595,str:18763,d0:0,d1:0;
                     ("e16_cov_ghosts0_advance/p4", Expression<SpatialPoint> @:13595 op:28,dt:28,nt:9,next:65535,str:27826,d0:4,d1:7;))))))

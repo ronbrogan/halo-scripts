@@ -1,35 +1,35 @@
 
 ("heretic_uplink_01", MethodDecl<Void> @:266 op:0,dt:0,nt:65535,next:9632,str:21706,d0:0,d1:0;
-    (____, Scope<Void> @:9632 op:0,dt:4,nt:8,next:65535,str:47256,d0:9633,d1:35093;
+    (____, BuiltinInvocation<Void> @:9632 op:0,dt:4,nt:8,next:65535,str:47256,d0:9633,d1:35093;
         ("begin", Expression<MethodOrOperator> @:9633 op:0,dt:2,nt:9,next:9601,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:9601 op:202,dt:4,nt:8,next:9614,str:47292,d0:9602,d1:35062;
+            (____, BuiltinInvocation<Void> @:9601 op:202,dt:4,nt:8,next:9614,str:47292,d0:9602,d1:35062;
                 ("custom_animation_loop", Expression<MethodOrOperator> @:9602 op:202,dt:2,nt:9,next:9603,str:19610,d0:0,d1:0;
-                    (____, Scope<Unit> @:9603 op:24,dt:51,nt:8,next:9611,str:47315,d0:9604,d1:35064;
+                    (____, BuiltinInvocation<Unit> @:9603 op:24,dt:51,nt:8,next:9611,str:47315,d0:9604,d1:35064;
                         ("unit", Expression<MethodOrOperator> @:9604 op:24,dt:2,nt:9,next:9605,str:12,d0:0,d1:0;
-                            (____, Scope<Entity> @:9605 op:37,dt:50,nt:8,next:65535,str:47321,d0:9606,d1:35066;
+                            (____, BuiltinInvocation<Entity> @:9605 op:37,dt:50,nt:8,next:65535,str:47321,d0:9606,d1:35066;
                                 ("list_get", Expression<MethodOrOperator> @:9606 op:37,dt:2,nt:9,next:9607,str:17,d0:0,d1:0;
-                                    (____, Scope<List> @:9607 op:332,dt:31,nt:8,next:9610,str:47331,d0:9608,d1:35068;
+                                    (____, BuiltinInvocation<List> @:9607 op:332,dt:31,nt:8,next:9610,str:47331,d0:9608,d1:35068;
                                         ("ai_actors", Expression<MethodOrOperator> @:9608 op:332,dt:2,nt:9,next:9609,str:19154,d0:0,d1:0;
                                             ("rec_center_heretic_03", Expression<AI> @:9609 op:19,dt:19,nt:9,next:65535,str:20825,d0:11,d1:0;)))
                                     (0, Expression<Short> @:9610 op:7,dt:7,nt:9,next:65535,str:47365,d0:0,d1:65535;)))))
                     ("objects\characters\elite\elite", Expression<Animation> @:9611 op:36,dt:36,nt:9,next:9612,str:19632,d0:1647,d1:59365;
                         ("uplink_station", Expression<StringId> @:9612 op:11,dt:11,nt:9,next:9613,str:19663,d0:5457,d1:3584;
                             (True, Expression<Boolean> @:9613 op:5,dt:5,nt:9,next:65535,str:47417,d0:65281,d1:65535;)))))
-            (____, Scope<Void> @:9614 op:21,dt:4,nt:8,next:9622,str:47425,d0:9615,d1:35075;
+            (____, BuiltinInvocation<Void> @:9614 op:21,dt:4,nt:8,next:9622,str:47425,d0:9615,d1:35075;
                 ("sleep_until", Expression<MethodOrOperator> @:9615 op:21,dt:2,nt:9,next:9616,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:9616 op:15,dt:5,nt:8,next:65535,str:47438,d0:9617,d1:35077;
+                    (____, BuiltinInvocation<Boolean> @:9616 op:15,dt:5,nt:8,next:65535,str:47438,d0:9617,d1:35077;
                         (">", Expression<MethodOrOperator> @:9617 op:15,dt:2,nt:9,next:9618,str:14927,d0:0,d1:0;
-                            (____, Scope<Short> @:9618 op:353,dt:7,nt:8,next:9621,str:47441,d0:9619,d1:35079;
+                            (____, BuiltinInvocation<Short> @:9618 op:353,dt:7,nt:8,next:9621,str:47441,d0:9619,d1:35079;
                                 ("ai_combat_status", Expression<MethodOrOperator> @:9619 op:353,dt:2,nt:9,next:9620,str:14929,d0:0,d1:0;
                                     ("rec_center_heretic_03", Expression<AI> @:9620 op:19,dt:19,nt:9,next:65535,str:20825,d0:11,d1:0;)))
                             ("ai_combat_status_idle", VariableAccess<Short> @:9621 op:7,dt:7,nt:13,next:65535,str:20847,d0:33572,d1:65535;)))))
-            (____, Scope<Void> @:9622 op:200,dt:4,nt:8,next:65535,str:47508,d0:9623,d1:35083;
+            (____, BuiltinInvocation<Void> @:9622 op:200,dt:4,nt:8,next:65535,str:47508,d0:9623,d1:35083;
                 ("unit_stop_custom_animation", Expression<MethodOrOperator> @:9623 op:200,dt:2,nt:9,next:9624,str:19127,d0:0,d1:0;
-                    (____, Scope<Unit> @:9624 op:24,dt:51,nt:8,next:65535,str:47536,d0:9625,d1:35085;
+                    (____, BuiltinInvocation<Unit> @:9624 op:24,dt:51,nt:8,next:65535,str:47536,d0:9625,d1:35085;
                         ("unit", Expression<MethodOrOperator> @:9625 op:24,dt:2,nt:9,next:9626,str:12,d0:0,d1:0;
-                            (____, Scope<Entity> @:9626 op:37,dt:50,nt:8,next:65535,str:47542,d0:9627,d1:35087;
+                            (____, BuiltinInvocation<Entity> @:9626 op:37,dt:50,nt:8,next:65535,str:47542,d0:9627,d1:35087;
                                 ("list_get", Expression<MethodOrOperator> @:9627 op:37,dt:2,nt:9,next:9628,str:17,d0:0,d1:0;
-                                    (____, Scope<List> @:9628 op:332,dt:31,nt:8,next:9631,str:47552,d0:9629,d1:35089;
+                                    (____, BuiltinInvocation<List> @:9628 op:332,dt:31,nt:8,next:9631,str:47552,d0:9629,d1:35089;
                                         ("ai_actors", Expression<MethodOrOperator> @:9629 op:332,dt:2,nt:9,next:9630,str:19154,d0:0,d1:0;
                                             ("rec_center_heretic_03", Expression<AI> @:9630 op:19,dt:19,nt:9,next:65535,str:20825,d0:11,d1:0;)))
                                     (0, Expression<Short> @:9631 op:7,dt:7,nt:9,next:65535,str:47586,d0:0,d1:65535;))))))))))

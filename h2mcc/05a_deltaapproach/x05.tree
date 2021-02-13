@@ -1,15 +1,15 @@
 
 ("x05", MethodDecl<Void> @:129 op:0,dt:0,nt:65535,next:4026,str:36960,d0:0,d1:0;
-    (____, Scope<Void> @:4026 op:0,dt:4,nt:8,next:65535,str:48461,d0:4027,d1:62254;
+    (____, BuiltinInvocation<Void> @:4026 op:0,dt:4,nt:8,next:65535,str:48461,d0:4027,d1:62254;
         ("begin", Expression<MethodOrOperator> @:4027 op:0,dt:2,nt:9,next:3998,str:54,d0:0,d1:0;
-            (____, Scope<Void> @:3998 op:530,dt:4,nt:8,next:4000,str:48489,d0:3999,d1:62226;
+            (____, BuiltinInvocation<Void> @:3998 op:530,dt:4,nt:8,next:4000,str:48489,d0:3999,d1:62226;
                 ("texture_cache_flush", Expression<MethodOrOperator> @:3999 op:530,dt:2,nt:9,next:65535,str:9420,d0:0,d1:0;))
-            (____, Scope<Void> @:4000 op:531,dt:4,nt:8,next:4002,str:48513,d0:4001,d1:62228;
+            (____, BuiltinInvocation<Void> @:4000 op:531,dt:4,nt:8,next:4002,str:48513,d0:4001,d1:62228;
                 ("geometry_cache_flush", Expression<MethodOrOperator> @:4001 op:531,dt:2,nt:9,next:65535,str:9440,d0:0,d1:0;))
-            (____, Scope<Void> @:4002 op:508,dt:4,nt:8,next:4005,str:48541,d0:4003,d1:62230;
+            (____, BuiltinInvocation<Void> @:4002 op:508,dt:4,nt:8,next:4005,str:48541,d0:4003,d1:62230;
                 ("switch_bsp_by_name", Expression<MethodOrOperator> @:4003 op:508,dt:2,nt:9,next:4004,str:9461,d0:0,d1:0;
                     ("bsp_x05", Expression<Bsp> @:4004 op:26,dt:26,nt:9,next:65535,str:9480,d0:2,d1:0;)))
-            (____, Scope<Void> @:4005 op:19,dt:4,nt:8,next:4008,str:48572,d0:4006,d1:62233;
+            (____, BuiltinInvocation<Void> @:4005 op:19,dt:4,nt:8,next:4008,str:48572,d0:4006,d1:62233;
                 ("sleep", Expression<MethodOrOperator> @:4006 op:19,dt:2,nt:9,next:4007,str:133,d0:0,d1:0;
                     (1, Expression<Short> @:4007 op:7,dt:7,nt:9,next:65535,str:48579,d0:1,d1:65535;)))
             ("x05_scene_01", ScriptInvocation<Void> @:4008 op:43,dt:4,nt:10,next:4010,str:48587,d0:4009,d1:62236;

@@ -1,61 +1,61 @@
 
 ("tower1_hg_warn", MethodDecl<Void> @:339 op:0,dt:0,nt:65535,next:22871,str:35544,d0:0,d1:0;
-    (____, Scope<Void> @:22871 op:0,dt:4,nt:8,next:65535,str:58105,d0:22872,d1:48332;
+    (____, BuiltinInvocation<Void> @:22871 op:0,dt:4,nt:8,next:65535,str:58105,d0:22872,d1:48332;
         ("begin", Expression<MethodOrOperator> @:22872 op:0,dt:2,nt:9,next:22814,str:54,d0:0,d1:0;
-            (____, Scope<Void> @:22814 op:21,dt:4,nt:8,next:22850,str:58138,d0:22815,d1:48275;
+            (____, BuiltinInvocation<Void> @:22814 op:21,dt:4,nt:8,next:22850,str:58138,d0:22815,d1:48275;
                 ("sleep_until", Expression<MethodOrOperator> @:22815 op:21,dt:2,nt:9,next:22816,str:284,d0:0,d1:0;
-                    (____, Scope<Boolean> @:22816 op:5,dt:5,nt:8,next:65535,str:58155,d0:22817,d1:48277;
+                    (____, BuiltinInvocation<Boolean> @:22816 op:5,dt:5,nt:8,next:65535,str:58155,d0:22817,d1:48277;
                         ("and", Expression<MethodOrOperator> @:22817 op:5,dt:2,nt:9,next:22818,str:720,d0:0,d1:0;
-                            (____, Scope<Boolean> @:22818 op:13,dt:5,nt:8,next:22826,str:58164,d0:22819,d1:48279;
+                            (____, BuiltinInvocation<Boolean> @:22818 op:13,dt:5,nt:8,next:22826,str:58164,d0:22819,d1:48279;
                                 ("=", Expression<MethodOrOperator> @:22819 op:13,dt:2,nt:9,next:22820,str:349,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:22820 op:33,dt:5,nt:8,next:22825,str:58167,d0:22821,d1:48281;
+                                    (____, BuiltinInvocation<Boolean> @:22820 op:33,dt:5,nt:8,next:22825,str:58167,d0:22821,d1:48281;
                                         ("volume_test_objects", Expression<MethodOrOperator> @:22821 op:33,dt:2,nt:9,next:22822,str:14370,d0:0,d1:0;
                                             ("vol_tower1_see_hg", Expression<Trigger> @:22822 op:13,dt:13,nt:9,next:22823,str:35261,d0:107,d1:0;
-                                                (____, Scope<List> @:22823 op:28,dt:31,nt:8,next:65535,str:58206,d0:22824,d1:48284;
+                                                (____, BuiltinInvocation<List> @:22823 op:28,dt:31,nt:8,next:65535,str:58206,d0:22824,d1:48284;
                                                     ("players", Expression<MethodOrOperator> @:22824 op:28,dt:2,nt:9,next:65535,str:74,d0:0,d1:0;)))))
                                     (True, Expression<Boolean> @:22825 op:5,dt:5,nt:9,next:65535,str:58217,d0:65281,d1:65535;)))
-                            (____, Scope<Boolean> @:22826 op:6,dt:5,nt:8,next:65535,str:58227,d0:22827,d1:48287;
+                            (____, BuiltinInvocation<Boolean> @:22826 op:6,dt:5,nt:8,next:65535,str:58227,d0:22827,d1:48287;
                                 ("or", Expression<MethodOrOperator> @:22827 op:6,dt:2,nt:9,next:22828,str:897,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:22828 op:112,dt:5,nt:8,next:22839,str:58236,d0:22829,d1:48289;
+                                    (____, BuiltinInvocation<Boolean> @:22828 op:112,dt:5,nt:8,next:22839,str:58236,d0:22829,d1:48289;
                                         ("objects_can_see_object", Expression<MethodOrOperator> @:22829 op:112,dt:2,nt:9,next:22830,str:14288,d0:0,d1:0;
-                                            (____, Scope<List> @:22830 op:28,dt:31,nt:8,next:22832,str:58260,d0:22831,d1:48291;
+                                            (____, BuiltinInvocation<List> @:22830 op:28,dt:31,nt:8,next:22832,str:58260,d0:22831,d1:48291;
                                                 ("players", Expression<MethodOrOperator> @:22831 op:28,dt:2,nt:9,next:65535,str:74,d0:0,d1:0;))
-                                            (____, Scope<Entity> @:22832 op:37,dt:50,nt:8,next:22838,str:58270,d0:22833,d1:48293;
+                                            (____, BuiltinInvocation<Entity> @:22832 op:37,dt:50,nt:8,next:22838,str:58270,d0:22833,d1:48293;
                                                 ("list_get", Expression<MethodOrOperator> @:22833 op:37,dt:2,nt:9,next:22834,str:65,d0:0,d1:0;
-                                                    (____, Scope<List> @:22834 op:332,dt:31,nt:8,next:22837,str:58280,d0:22835,d1:48295;
+                                                    (____, BuiltinInvocation<List> @:22834 op:332,dt:31,nt:8,next:22837,str:58280,d0:22835,d1:48295;
                                                         ("ai_actors", Expression<MethodOrOperator> @:22835 op:332,dt:2,nt:9,next:22836,str:14311,d0:0,d1:0;
                                                             ("tower1_hg_01a", Expression<AI> @:22836 op:19,dt:19,nt:9,next:65535,str:35279,d0:188,d1:0;)))
                                                     (0, Expression<Short> @:22837 op:7,dt:7,nt:9,next:65535,str:58306,d0:0,d1:65535;)))
                                             (30f, Expression<Float> @:22838 op:6,dt:6,nt:9,next:65535,str:58309,d0:0,d1:16880;)))
-                                    (____, Scope<Boolean> @:22839 op:112,dt:5,nt:8,next:65535,str:58318,d0:22840,d1:48300;
+                                    (____, BuiltinInvocation<Boolean> @:22839 op:112,dt:5,nt:8,next:65535,str:58318,d0:22840,d1:48300;
                                         ("objects_can_see_object", Expression<MethodOrOperator> @:22840 op:112,dt:2,nt:9,next:22841,str:14288,d0:0,d1:0;
-                                            (____, Scope<List> @:22841 op:28,dt:31,nt:8,next:22843,str:58342,d0:22842,d1:48302;
+                                            (____, BuiltinInvocation<List> @:22841 op:28,dt:31,nt:8,next:22843,str:58342,d0:22842,d1:48302;
                                                 ("players", Expression<MethodOrOperator> @:22842 op:28,dt:2,nt:9,next:65535,str:74,d0:0,d1:0;))
-                                            (____, Scope<Entity> @:22843 op:37,dt:50,nt:8,next:22849,str:58352,d0:22844,d1:48304;
+                                            (____, BuiltinInvocation<Entity> @:22843 op:37,dt:50,nt:8,next:22849,str:58352,d0:22844,d1:48304;
                                                 ("list_get", Expression<MethodOrOperator> @:22844 op:37,dt:2,nt:9,next:22845,str:65,d0:0,d1:0;
-                                                    (____, Scope<List> @:22845 op:332,dt:31,nt:8,next:22848,str:58362,d0:22846,d1:48306;
+                                                    (____, BuiltinInvocation<List> @:22845 op:332,dt:31,nt:8,next:22848,str:58362,d0:22846,d1:48306;
                                                         ("ai_actors", Expression<MethodOrOperator> @:22846 op:332,dt:2,nt:9,next:22847,str:14311,d0:0,d1:0;
                                                             ("tower1_hg_01b", Expression<AI> @:22847 op:19,dt:19,nt:9,next:65535,str:35293,d0:189,d1:0;)))
                                                     (0, Expression<Short> @:22848 op:7,dt:7,nt:9,next:65535,str:58388,d0:0,d1:65535;)))
                                             (30f, Expression<Float> @:22849 op:6,dt:6,nt:9,next:65535,str:58391,d0:0,d1:16880;)))))))))
-            (____, Scope<Void> @:22850 op:281,dt:4,nt:8,next:22853,str:58414,d0:22851,d1:48311;
+            (____, BuiltinInvocation<Void> @:22850 op:281,dt:4,nt:8,next:22853,str:58414,d0:22851,d1:48311;
                 ("ai_dialogue_enable", Expression<MethodOrOperator> @:22851 op:281,dt:2,nt:9,next:22852,str:15148,d0:0,d1:0;
                     (False, Expression<Boolean> @:22852 op:5,dt:5,nt:9,next:65535,str:58434,d0:65280,d1:65535;)))
-            (____, Scope<Void> @:22853 op:19,dt:4,nt:8,next:22856,str:58443,d0:22854,d1:48314;
+            (____, BuiltinInvocation<Void> @:22853 op:19,dt:4,nt:8,next:22856,str:58443,d0:22854,d1:48314;
                 ("sleep", Expression<MethodOrOperator> @:22854 op:19,dt:2,nt:9,next:22855,str:133,d0:0,d1:0;
                     (60, Expression<Short> @:22855 op:7,dt:7,nt:9,next:65535,str:58450,d0:60,d1:65535;)))
-            (____, Scope<Void> @:22856 op:27,dt:4,nt:8,next:22859,str:58456,d0:22857,d1:48317;
+            (____, BuiltinInvocation<Void> @:22856 op:27,dt:4,nt:8,next:22859,str:58456,d0:22857,d1:48317;
                 ("print", Expression<MethodOrOperator> @:22857 op:27,dt:2,nt:9,next:22858,str:139,d0:0,d1:0;
                     ("cortana: 'watch yourself! honor-guards!'", Expression<String> @:22858 op:9,dt:9,nt:9,next:65535,str:35307,d0:35307,d1:0;)))
-            (____, Scope<Void> @:22859 op:19,dt:4,nt:8,next:22865,str:58509,d0:22860,d1:48320;
+            (____, BuiltinInvocation<Void> @:22859 op:19,dt:4,nt:8,next:22865,str:58509,d0:22860,d1:48320;
                 ("sleep", Expression<MethodOrOperator> @:22860 op:19,dt:2,nt:9,next:22861,str:133,d0:0,d1:0;
-                    (____, Scope<Short> @:22861 op:362,dt:7,nt:8,next:65535,str:58516,d0:22862,d1:48322;
+                    (____, BuiltinInvocation<Short> @:22861 op:362,dt:7,nt:8,next:65535,str:58516,d0:22862,d1:48322;
                         ("ai_play_line_on_object", Expression<MethodOrOperator> @:22862 op:362,dt:2,nt:9,next:22863,str:15240,d0:0,d1:0;
                             (4294967295, Expression<Entity> @:22863 op:50,dt:50,nt:9,next:22864,str:1392,d0:65535,d1:65535;
                                 ("0800", Expression<StringId> @:22864 op:11,dt:11,nt:9,next:65535,str:35348,d0:12088,d1:1024;))))))
-            (____, Scope<Void> @:22865 op:19,dt:4,nt:8,next:22868,str:58651,d0:22866,d1:48326;
+            (____, BuiltinInvocation<Void> @:22865 op:19,dt:4,nt:8,next:22868,str:58651,d0:22866,d1:48326;
                 ("sleep", Expression<MethodOrOperator> @:22866 op:19,dt:2,nt:9,next:22867,str:133,d0:0,d1:0;
                     (30, Expression<Short> @:22867 op:7,dt:7,nt:9,next:65535,str:58658,d0:30,d1:65535;)))
-            (____, Scope<Void> @:22868 op:281,dt:4,nt:8,next:65535,str:58664,d0:22869,d1:48329;
+            (____, BuiltinInvocation<Void> @:22868 op:281,dt:4,nt:8,next:65535,str:58664,d0:22869,d1:48329;
                 ("ai_dialogue_enable", Expression<MethodOrOperator> @:22869 op:281,dt:2,nt:9,next:22870,str:15148,d0:0,d1:0;
                     (True, Expression<Boolean> @:22870 op:5,dt:5,nt:9,next:65535,str:58684,d0:65281,d1:65535;))))))

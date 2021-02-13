@@ -1,25 +1,25 @@
 
 ("cs_e7_pro_inf0_sentry0_alerted", MethodDecl<Void> @:431 op:0,dt:0,nt:65535,next:16590,str:35409,d0:0,d1:0;
-    (____, Scope<Void> @:16590 op:0,dt:4,nt:8,next:65535,str:13893,d0:16591,d1:42051;
+    (____, BuiltinInvocation<Void> @:16590 op:0,dt:4,nt:8,next:65535,str:13893,d0:16591,d1:42051;
         ("begin", Expression<MethodOrOperator> @:16591 op:0,dt:2,nt:9,next:16569,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:16569 op:27,dt:4,nt:8,next:16572,str:13949,d0:16570,d1:42030;
+            (____, BuiltinInvocation<Void> @:16569 op:27,dt:4,nt:8,next:16572,str:13949,d0:16570,d1:42030;
                 ("print", Expression<MethodOrOperator> @:16570 op:27,dt:2,nt:9,next:16571,str:91,d0:0,d1:0;
                     ("sentry: wait, movement!", Expression<String> @:16571 op:9,dt:9,nt:9,next:65535,str:35322,d0:35322,d1:0;)))
-            (____, Scope<Void> @:16572 op:19,dt:4,nt:8,next:16578,str:13985,d0:16573,d1:42033;
+            (____, BuiltinInvocation<Void> @:16572 op:19,dt:4,nt:8,next:16578,str:13985,d0:16573,d1:42033;
                 ("sleep", Expression<MethodOrOperator> @:16573 op:19,dt:2,nt:9,next:16574,str:85,d0:0,d1:0;
-                    (____, Scope<Short> @:16574 op:360,dt:7,nt:8,next:65535,str:13992,d0:16575,d1:42035;
+                    (____, BuiltinInvocation<Short> @:16574 op:360,dt:7,nt:8,next:65535,str:13992,d0:16575,d1:42035;
                         ("ai_play_line", Expression<MethodOrOperator> @:16575 op:360,dt:2,nt:9,next:16576,str:27314,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:16576 op:19,dt:19,nt:13,next:16577,str:1271,d0:33564,d1:65535;
                                 ("0110", Expression<StringId> @:16577 op:11,dt:11,nt:9,next:65535,str:35346,d0:13416,d1:1024;))))))
-            (____, Scope<Void> @:16578 op:4,dt:4,nt:8,next:16582,str:14032,d0:16579,d1:42039;
+            (____, BuiltinInvocation<Void> @:16578 op:4,dt:4,nt:8,next:16582,str:14032,d0:16579,d1:42039;
                 ("set", Expression<MethodOrOperator> @:16579 op:4,dt:2,nt:9,next:16580,str:1888,d0:0,d1:0;
                     ("g_e7_pro_sentry_alerted", VariableAccess<Boolean> @:16580 op:65535,dt:5,nt:13,next:16581,str:34997,d0:55,d1:0;
                         (True, Expression<Boolean> @:16581 op:5,dt:5,nt:9,next:65535,str:14061,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:16582 op:306,dt:4,nt:8,next:16587,str:14090,d0:16583,d1:42043;
+            (____, BuiltinInvocation<Void> @:16582 op:306,dt:4,nt:8,next:16587,str:14090,d0:16583,d1:42043;
                 ("ai_magically_see_object", Expression<MethodOrOperator> @:16583 op:306,dt:2,nt:9,next:16584,str:6529,d0:0,d1:0;
                     ("ai_current_squad", VariableAccess<AI> @:16584 op:19,dt:19,nt:13,next:16585,str:27085,d0:33563,d1:65535;
                         ("player0", ScriptInvocation<Entity> @:16585 op:0,dt:50,nt:10,next:65535,str:14132,d0:16586,d1:42046;
                             ("player0", Expression<MethodOrOperator> @:16586 op:0,dt:2,nt:9,next:65535,str:607,d0:0,d1:0;)))))
-            (____, Scope<Void> @:16587 op:448,dt:4,nt:8,next:65535,str:14145,d0:16588,d1:42048;
+            (____, BuiltinInvocation<Void> @:16587 op:448,dt:4,nt:8,next:65535,str:14145,d0:16588,d1:42048;
                 ("cs_force_combat_status", Expression<MethodOrOperator> @:16588 op:448,dt:2,nt:9,next:16589,str:1071,d0:0,d1:0;
                     (4, Expression<Short> @:16589 op:7,dt:7,nt:9,next:65535,str:14169,d0:4,d1:65535;))))))

@@ -1,39 +1,39 @@
 
 ("central_plat_ph_go", MethodDecl<Void> @:159 op:0,dt:0,nt:65535,next:5987,str:14509,d0:0,d1:0;
-    (____, Scope<Void> @:5987 op:0,dt:4,nt:8,next:65535,str:3449,d0:5988,d1:64215;
+    (____, BuiltinInvocation<Void> @:5987 op:0,dt:4,nt:8,next:65535,str:3449,d0:5988,d1:64215;
         ("begin", Expression<MethodOrOperator> @:5988 op:0,dt:2,nt:9,next:5952,str:142,d0:0,d1:0;
-            (____, Scope<Void> @:5952 op:291,dt:4,nt:8,next:5956,str:3486,d0:5953,d1:64180;
+            (____, BuiltinInvocation<Void> @:5952 op:291,dt:4,nt:8,next:5956,str:3486,d0:5953,d1:64180;
                 ("ai_place", Expression<MethodOrOperator> @:5953 op:291,dt:2,nt:9,next:5954,str:10304,d0:0,d1:0;
                     ("central_platform_hunters", Expression<AI> @:5954 op:19,dt:19,nt:9,next:5955,str:13186,d0:24,d1:0;
                         (2, Expression<Short> @:5955 op:7,dt:7,nt:9,next:65535,str:3521,d0:2,d1:65535;))))
-            (____, Scope<Void> @:5956 op:291,dt:4,nt:8,next:5960,str:3526,d0:5957,d1:64184;
+            (____, BuiltinInvocation<Void> @:5956 op:291,dt:4,nt:8,next:5960,str:3526,d0:5957,d1:64184;
                 ("ai_place", Expression<MethodOrOperator> @:5957 op:291,dt:2,nt:9,next:5958,str:10304,d0:0,d1:0;
                     ("central_platform_phantom", Expression<AI> @:5958 op:19,dt:19,nt:9,next:5959,str:13343,d0:25,d1:0;
                         (1, Expression<Short> @:5959 op:7,dt:7,nt:9,next:65535,str:3561,d0:1,d1:65535;))))
-            (____, Scope<Void> @:5960 op:232,dt:4,nt:8,next:5969,str:3566,d0:5961,d1:64188;
+            (____, BuiltinInvocation<Void> @:5960 op:232,dt:4,nt:8,next:5969,str:3566,d0:5961,d1:64188;
                 ("vehicle_load_magic", Expression<MethodOrOperator> @:5961 op:232,dt:2,nt:9,next:5962,str:13602,d0:0,d1:0;
-                    (____, Scope<Entity> @:5962 op:341,dt:50,nt:8,next:5965,str:3586,d0:5963,d1:64190;
+                    (____, BuiltinInvocation<Entity> @:5962 op:341,dt:50,nt:8,next:5965,str:3586,d0:5963,d1:64190;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:5963 op:341,dt:2,nt:9,next:5964,str:13061,d0:0,d1:0;
                             ("central_platform_phantom/pilot", Expression<AI> @:5964 op:19,dt:19,nt:9,next:65535,str:13099,d0:0,d1:49177;)))
                     ("phantom_p_a", Expression<VehicleSeat> @:5965 op:12,dt:12,nt:9,next:5966,str:13967,d0:3,d1:1;
-                        (____, Scope<List> @:5966 op:332,dt:31,nt:8,next:65535,str:3671,d0:5967,d1:64194;
+                        (____, BuiltinInvocation<List> @:5966 op:332,dt:31,nt:8,next:65535,str:3671,d0:5967,d1:64194;
                             ("ai_actors", Expression<MethodOrOperator> @:5967 op:332,dt:2,nt:9,next:5968,str:13658,d0:0,d1:0;
                                 ("central_platform_hunters", Expression<AI> @:5968 op:19,dt:19,nt:9,next:65535,str:13186,d0:24,d1:0;))))))
-            (____, Scope<Void> @:5969 op:343,dt:4,nt:8,next:5975,str:3711,d0:5970,d1:64197;
+            (____, BuiltinInvocation<Void> @:5969 op:343,dt:4,nt:8,next:5975,str:3711,d0:5970,d1:64197;
                 ("ai_vehicle_reserve", Expression<MethodOrOperator> @:5970 op:343,dt:2,nt:9,next:5971,str:13746,d0:0,d1:0;
-                    (____, Scope<Vehicle> @:5971 op:341,dt:52,nt:8,next:5974,str:3731,d0:5972,d1:64199;
+                    (____, BuiltinInvocation<Vehicle> @:5971 op:341,dt:52,nt:8,next:5974,str:3731,d0:5972,d1:64199;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:5972 op:341,dt:2,nt:9,next:5973,str:13061,d0:0,d1:0;
                             ("central_platform_phantom/pilot", Expression<AI> @:5973 op:19,dt:19,nt:9,next:65535,str:13099,d0:0,d1:49177;)))
                     (True, Expression<Boolean> @:5974 op:5,dt:5,nt:9,next:65535,str:3802,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:5975 op:366,dt:4,nt:8,next:5979,str:3810,d0:5976,d1:64203;
+            (____, BuiltinInvocation<Void> @:5975 op:366,dt:4,nt:8,next:5979,str:3810,d0:5976,d1:64203;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:5976 op:366,dt:2,nt:9,next:5977,str:11508,d0:0,d1:0;
                     ("central_platform_phantom/pilot", Expression<AI> @:5977 op:19,dt:19,nt:9,next:5978,str:13099,d0:0,d1:49177;
                         ("central_platform_dropship", Expression<AIScript> @:5978 op:21,dt:21,nt:9,next:65535,str:13979,d0:155,d1:0;))))
-            (____, Scope<Void> @:5979 op:19,dt:4,nt:8,next:5982,str:3902,d0:5980,d1:64207;
+            (____, BuiltinInvocation<Void> @:5979 op:19,dt:4,nt:8,next:5982,str:3902,d0:5980,d1:64207;
                 ("sleep", Expression<MethodOrOperator> @:5980 op:19,dt:2,nt:9,next:5981,str:221,d0:0,d1:0;
                     (4000, Expression<Short> @:5981 op:7,dt:7,nt:9,next:65535,str:3909,d0:4000,d1:65535;)))
-            (____, Scope<Void> @:5982 op:52,dt:4,nt:8,next:65535,str:3917,d0:5983,d1:64210;
+            (____, BuiltinInvocation<Void> @:5982 op:52,dt:4,nt:8,next:65535,str:3917,d0:5983,d1:64210;
                 ("object_destroy", Expression<MethodOrOperator> @:5983 op:52,dt:2,nt:9,next:5984,str:4424,d0:0,d1:0;
-                    (____, Scope<Entity> @:5984 op:341,dt:50,nt:8,next:65535,str:3933,d0:5985,d1:64212;
+                    (____, BuiltinInvocation<Entity> @:5984 op:341,dt:50,nt:8,next:65535,str:3933,d0:5985,d1:64212;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:5985 op:341,dt:2,nt:9,next:5986,str:13061,d0:0,d1:0;
                             ("central_platform_phantom/pilot", Expression<AI> @:5986 op:19,dt:19,nt:9,next:65535,str:13099,d0:0,d1:49177;))))))))

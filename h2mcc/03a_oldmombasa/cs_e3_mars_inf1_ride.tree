@@ -1,31 +1,31 @@
 
 ("cs_e3_mars_inf1_ride", MethodDecl<Void> @:352 op:0,dt:0,nt:65535,next:14270,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:14270 op:0,dt:4,nt:8,next:65535,str:44510,d0:14271,d1:39731;
+    (____, BuiltinInvocation<Void> @:14270 op:0,dt:4,nt:8,next:65535,str:44510,d0:14271,d1:39731;
         ("begin", Expression<MethodOrOperator> @:14271 op:0,dt:2,nt:9,next:14243,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:14243 op:21,dt:4,nt:8,next:14247,str:44556,d0:14244,d1:39704;
+            (____, BuiltinInvocation<Void> @:14243 op:21,dt:4,nt:8,next:14247,str:44556,d0:14244,d1:39704;
                 ("sleep_until", Expression<MethodOrOperator> @:14244 op:21,dt:2,nt:9,next:14245,str:294,d0:0,d1:0;
                     ("g_e3_mars_pelican0_landed", VariableAccess<Boolean> @:14245 op:5,dt:5,nt:13,next:14246,str:23730,d0:39,d1:0;
                         (5, Expression<Short> @:14246 op:7,dt:7,nt:9,next:65535,str:44595,d0:5,d1:65535;))))
-            (____, Scope<Void> @:14247 op:350,dt:4,nt:8,next:14250,str:44600,d0:14248,d1:39708;
+            (____, BuiltinInvocation<Void> @:14247 op:350,dt:4,nt:8,next:14250,str:44600,d0:14248,d1:39708;
                 ("ai_vehicle_exit", Expression<MethodOrOperator> @:14248 op:350,dt:2,nt:9,next:14249,str:11357,d0:0,d1:0;
                     ("ai_current_actor", VariableAccess<AI> @:14249 op:19,dt:19,nt:13,next:65535,str:4350,d0:33564,d1:65535;)))
-            (____, Scope<Void> @:14250 op:442,dt:4,nt:8,next:14253,str:44637,d0:14251,d1:39711;
+            (____, BuiltinInvocation<Void> @:14250 op:442,dt:4,nt:8,next:14253,str:44637,d0:14251,d1:39711;
                 ("cs_enable_targeting", Expression<MethodOrOperator> @:14251 op:442,dt:2,nt:9,next:14252,str:19586,d0:0,d1:0;
                     (True, Expression<Boolean> @:14252 op:5,dt:5,nt:9,next:65535,str:44658,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:14253 op:444,dt:4,nt:8,next:14256,str:44666,d0:14254,d1:39714;
+            (____, BuiltinInvocation<Void> @:14253 op:444,dt:4,nt:8,next:14256,str:44666,d0:14254,d1:39714;
                 ("cs_enable_moving", Expression<MethodOrOperator> @:14254 op:444,dt:2,nt:9,next:14255,str:14000,d0:0,d1:0;
                     (True, Expression<Boolean> @:14255 op:5,dt:5,nt:9,next:65535,str:44684,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:14256 op:19,dt:4,nt:8,next:14259,str:44692,d0:14257,d1:39717;
+            (____, BuiltinInvocation<Void> @:14256 op:19,dt:4,nt:8,next:14259,str:44692,d0:14257,d1:39717;
                 ("sleep", Expression<MethodOrOperator> @:14257 op:19,dt:2,nt:9,next:14258,str:143,d0:0,d1:0;
                     (60, Expression<Short> @:14258 op:7,dt:7,nt:9,next:65535,str:44699,d0:60,d1:65535;)))
-            (____, Scope<Void> @:14259 op:2,dt:4,nt:8,next:65535,str:44705,d0:14260,d1:39720;
+            (____, BuiltinInvocation<Void> @:14259 op:2,dt:4,nt:8,next:65535,str:44705,d0:14260,d1:39720;
                 ("if", Expression<MethodOrOperator> @:14260 op:2,dt:2,nt:9,next:14261,str:519,d0:0,d1:0;
                     ("g_e4_started", VariableAccess<Boolean> @:14261 op:5,dt:5,nt:13,next:14262,str:23264,d0:36,d1:0;
-                        (____, Scope<Void> @:14262 op:309,dt:4,nt:8,next:14266,str:44726,d0:14263,d1:39723;
+                        (____, BuiltinInvocation<Void> @:14262 op:309,dt:4,nt:8,next:14266,str:44726,d0:14263,d1:39723;
                             ("ai_migrate", Expression<MethodOrOperator> @:14263 op:309,dt:2,nt:9,next:14264,str:13386,d0:0,d1:0;
                                 ("ai_current_actor", VariableAccess<AI> @:14264 op:19,dt:19,nt:13,next:14265,str:4350,d0:33564,d1:65535;
                                     ("e4_mars_inf0", Expression<AI> @:14265 op:19,dt:19,nt:9,next:65535,str:22582,d0:40,d1:0;))))
-                        (____, Scope<Void> @:14266 op:309,dt:4,nt:8,next:65535,str:44772,d0:14267,d1:39727;
+                        (____, BuiltinInvocation<Void> @:14266 op:309,dt:4,nt:8,next:65535,str:44772,d0:14267,d1:39727;
                             ("ai_migrate", Expression<MethodOrOperator> @:14267 op:309,dt:2,nt:9,next:14268,str:13386,d0:0,d1:0;
                                 ("ai_current_actor", VariableAccess<AI> @:14268 op:19,dt:19,nt:13,next:14269,str:4350,d0:33564,d1:65535;
                                     ("e3_mars_inf0", Expression<AI> @:14269 op:19,dt:19,nt:9,next:65535,str:23221,d0:32,d1:0;))))))))))

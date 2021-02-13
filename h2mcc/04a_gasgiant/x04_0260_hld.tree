@@ -1,16 +1,16 @@
 
 ("x04_0260_hld", MethodDecl<Void> @:105 op:0,dt:0,nt:65535,next:3069,str:7212,d0:0,d1:0;
-    (____, Scope<Void> @:3069 op:0,dt:4,nt:8,next:65535,str:36238,d0:3070,d1:61297;
+    (____, BuiltinInvocation<Void> @:3069 op:0,dt:4,nt:8,next:65535,str:36238,d0:3070,d1:61297;
         ("begin", Expression<MethodOrOperator> @:3070 op:0,dt:2,nt:9,next:3057,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:3057 op:19,dt:4,nt:8,next:3060,str:36269,d0:3058,d1:61285;
+            (____, BuiltinInvocation<Void> @:3057 op:19,dt:4,nt:8,next:3060,str:36269,d0:3058,d1:61285;
                 ("sleep", Expression<MethodOrOperator> @:3058 op:19,dt:2,nt:9,next:3059,str:85,d0:0,d1:0;
                     (400, Expression<Short> @:3059 op:7,dt:7,nt:9,next:65535,str:36276,d0:400,d1:65535;)))
-            (____, Scope<Void> @:3060 op:596,dt:4,nt:8,next:3065,str:36283,d0:3061,d1:61288;
+            (____, BuiltinInvocation<Void> @:3060 op:596,dt:4,nt:8,next:3065,str:36283,d0:3061,d1:61288;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:3061 op:596,dt:2,nt:9,next:3062,str:1409,d0:0,d1:0;
                     ("sound\dialog\levels\04_gasgiant\cinematic\x04_0260_her", Expression<Sound> @:3062 op:32,dt:32,nt:9,next:3063,str:6972,d0:830,d1:58548;
                         (4294901887, Expression<Entity> @:3063 op:56,dt:50,nt:9,next:3064,str:7027,d0:127,d1:65535;
                             (1f, Expression<Float> @:3064 op:6,dt:6,nt:9,next:65535,str:36382,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:3065 op:562,dt:4,nt:8,next:65535,str:36387,d0:3066,d1:61293;
+            (____, BuiltinInvocation<Void> @:3065 op:562,dt:4,nt:8,next:65535,str:36387,d0:3066,d1:61293;
                 ("cinematic_subtitle", Expression<MethodOrOperator> @:3066 op:562,dt:2,nt:9,next:3067,str:1627,d0:0,d1:0;
                     ("x04_0260_her", Expression<StringId> @:3067 op:11,dt:11,nt:9,next:3068,str:7050,d0:4003,d1:3072;
                         (10.5f, Expression<Float> @:3068 op:6,dt:6,nt:9,next:65535,str:36420,d0:0,d1:16680;)))))))

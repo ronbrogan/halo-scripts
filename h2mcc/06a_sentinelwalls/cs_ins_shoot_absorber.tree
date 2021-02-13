@@ -1,41 +1,41 @@
 
 ("cs_ins_shoot_absorber", MethodDecl<Void> @:212 op:0,dt:0,nt:65535,next:8147,str:18069,d0:0,d1:0;
-    (____, Scope<Void> @:8147 op:0,dt:4,nt:8,next:65535,str:25008,d0:8148,d1:33608;
+    (____, BuiltinInvocation<Void> @:8147 op:0,dt:4,nt:8,next:65535,str:25008,d0:8148,d1:33608;
         ("begin", Expression<MethodOrOperator> @:8148 op:0,dt:2,nt:9,next:8110,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:8110 op:440,dt:4,nt:8,next:8113,str:25055,d0:8111,d1:33571;
+            (____, BuiltinInvocation<Void> @:8110 op:440,dt:4,nt:8,next:8113,str:25055,d0:8111,d1:33571;
                 ("cs_abort_on_damage", Expression<MethodOrOperator> @:8111 op:440,dt:2,nt:9,next:8112,str:17606,d0:0,d1:0;
                     (True, Expression<Boolean> @:8112 op:5,dt:5,nt:9,next:65535,str:25075,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:8113 op:449,dt:4,nt:8,next:8116,str:25083,d0:8114,d1:33574;
+            (____, BuiltinInvocation<Void> @:8113 op:449,dt:4,nt:8,next:8116,str:25083,d0:8114,d1:33574;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:8114 op:449,dt:2,nt:9,next:8115,str:1239,d0:0,d1:0;
                     (True, Expression<Boolean> @:8115 op:5,dt:5,nt:9,next:65535,str:25115,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:8116 op:382,dt:4,nt:8,next:8121,str:25123,d0:8117,d1:33577;
+            (____, BuiltinInvocation<Void> @:8116 op:382,dt:4,nt:8,next:8121,str:25123,d0:8117,d1:33577;
                 ("cs_fly_to_and_face", Expression<MethodOrOperator> @:8117 op:382,dt:2,nt:9,next:8118,str:17625,d0:0,d1:0;
                     ("insertion/shoot_ins", Expression<SpatialPoint> @:8118 op:28,dt:28,nt:9,next:8119,str:17989,d0:0,d1:0;
                         ("insertion/target_ins", Expression<SpatialPoint> @:8119 op:28,dt:28,nt:9,next:8120,str:18009,d0:1,d1:0;
                             (0.25f, Expression<Float> @:8120 op:6,dt:6,nt:9,next:65535,str:25184,d0:0,d1:16000;)))))
-            (____, Scope<Void> @:8121 op:19,dt:4,nt:8,next:8124,str:25191,d0:8122,d1:33582;
+            (____, BuiltinInvocation<Void> @:8121 op:19,dt:4,nt:8,next:8124,str:25191,d0:8122,d1:33582;
                 ("sleep", Expression<MethodOrOperator> @:8122 op:19,dt:2,nt:9,next:8123,str:80,d0:0,d1:0;
                     (15, Expression<Short> @:8123 op:7,dt:7,nt:9,next:65535,str:25198,d0:15,d1:65535;)))
-            (____, Scope<Void> @:8124 op:406,dt:4,nt:8,next:8128,str:25204,d0:8125,d1:33585;
+            (____, BuiltinInvocation<Void> @:8124 op:406,dt:4,nt:8,next:8128,str:25204,d0:8125,d1:33585;
                 ("cs_shoot_point", Expression<MethodOrOperator> @:8125 op:406,dt:2,nt:9,next:8126,str:17363,d0:0,d1:0;
                     (True, Expression<Boolean> @:8126 op:5,dt:5,nt:9,next:8127,str:25220,d0:65281,d1:65535;
                         ("insertion/target_ins", Expression<SpatialPoint> @:8127 op:28,dt:28,nt:9,next:65535,str:18009,d0:1,d1:0;))))
-            (____, Scope<Void> @:8128 op:21,dt:4,nt:8,next:8137,str:25252,d0:8129,d1:33589;
+            (____, BuiltinInvocation<Void> @:8128 op:21,dt:4,nt:8,next:8137,str:25252,d0:8129,d1:33589;
                 ("sleep_until", Expression<MethodOrOperator> @:8129 op:21,dt:2,nt:9,next:8130,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:8130 op:18,dt:5,nt:8,next:8136,str:25265,d0:8131,d1:33591;
+                    (____, BuiltinInvocation<Boolean> @:8130 op:18,dt:5,nt:8,next:8136,str:25265,d0:8131,d1:33591;
                         ("<=", Expression<MethodOrOperator> @:8131 op:18,dt:2,nt:9,next:8132,str:16255,d0:0,d1:0;
-                            (-5.4403083E-37f, Scope<Float> @:8132 op:70,dt:6,nt:8,next:8135,str:25269,d0:8133,d1:33593;
+                            (-5.4403083E-37f, BuiltinInvocation<Float> @:8132 op:70,dt:6,nt:8,next:8135,str:25269,d0:8133,d1:33593;
                                 ("object_get_shield", Expression<MethodOrOperator> @:8133 op:70,dt:2,nt:9,next:8134,str:16258,d0:0,d1:0;
                                     (4294901784, Expression<Entity> @:8134 op:56,dt:50,nt:9,next:65535,str:15223,d0:24,d1:65535;)))
                             (0f, Expression<Float> @:8135 op:6,dt:6,nt:9,next:65535,str:25302,d0:0,d1:0;)))
                     (5, Expression<Short> @:8136 op:7,dt:7,nt:9,next:65535,str:25305,d0:5,d1:65535;)))
-            (____, Scope<Void> @:8137 op:22,dt:4,nt:8,next:8140,str:25310,d0:8138,d1:33598;
+            (____, BuiltinInvocation<Void> @:8137 op:22,dt:4,nt:8,next:8140,str:25310,d0:8138,d1:33598;
                 ("wake", Expression<MethodOrOperator> @:8138 op:22,dt:2,nt:9,next:8139,str:1066,d0:0,d1:0;
                     ("ins_open_door_slide", Expression<ScriptReference> @:8139 op:10,dt:10,nt:9,next:65535,str:18030,d0:210,d1:65535;)))
-            (____, Scope<Void> @:8140 op:19,dt:4,nt:8,next:8143,str:25339,d0:8141,d1:33601;
+            (____, BuiltinInvocation<Void> @:8140 op:19,dt:4,nt:8,next:8143,str:25339,d0:8141,d1:33601;
                 ("sleep", Expression<MethodOrOperator> @:8141 op:19,dt:2,nt:9,next:8142,str:80,d0:0,d1:0;
                     (15, Expression<Short> @:8142 op:7,dt:7,nt:9,next:65535,str:25346,d0:15,d1:65535;)))
-            (____, Scope<Void> @:8143 op:406,dt:4,nt:8,next:65535,str:25352,d0:8144,d1:33604;
+            (____, BuiltinInvocation<Void> @:8143 op:406,dt:4,nt:8,next:65535,str:25352,d0:8144,d1:33604;
                 ("cs_shoot_point", Expression<MethodOrOperator> @:8144 op:406,dt:2,nt:9,next:8145,str:17363,d0:0,d1:0;
                     (False, Expression<Boolean> @:8145 op:5,dt:5,nt:9,next:8146,str:25368,d0:65280,d1:65535;
                         ("insertion/target_ins", Expression<SpatialPoint> @:8146 op:28,dt:28,nt:9,next:65535,str:18009,d0:1,d1:0;)))))))

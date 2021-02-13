@@ -1,30 +1,30 @@
 
 ("e2_cov_inf0_main", MethodDecl<Void> @:205 op:0,dt:0,nt:65535,next:7906,str:14166,d0:0,d1:0;
-    (____, Scope<Void> @:7906 op:0,dt:4,nt:8,next:65535,str:33679,d0:7907,d1:33367;
+    (____, BuiltinInvocation<Void> @:7906 op:0,dt:4,nt:8,next:65535,str:33679,d0:7907,d1:33367;
         ("begin", Expression<MethodOrOperator> @:7907 op:0,dt:2,nt:9,next:7880,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:7880 op:21,dt:4,nt:8,next:7888,str:33714,d0:7881,d1:33341;
+            (____, BuiltinInvocation<Void> @:7880 op:21,dt:4,nt:8,next:7888,str:33714,d0:7881,d1:33341;
                 ("sleep_until", Expression<MethodOrOperator> @:7881 op:21,dt:2,nt:9,next:7882,str:294,d0:0,d1:0;
-                    (____, Scope<Boolean> @:7882 op:15,dt:5,nt:8,next:65535,str:33727,d0:7883,d1:33343;
+                    (____, BuiltinInvocation<Boolean> @:7882 op:15,dt:5,nt:8,next:65535,str:33727,d0:7883,d1:33343;
                         (">", Expression<MethodOrOperator> @:7883 op:15,dt:2,nt:9,next:7884,str:6188,d0:0,d1:0;
-                            (____, Scope<Short> @:7884 op:335,dt:7,nt:8,next:7887,str:33730,d0:7885,d1:33345;
+                            (____, BuiltinInvocation<Short> @:7884 op:335,dt:7,nt:8,next:7887,str:33730,d0:7885,d1:33345;
                                 ("ai_spawn_count", Expression<MethodOrOperator> @:7885 op:335,dt:2,nt:9,next:7886,str:6190,d0:0,d1:0;
                                     ("e1_cov_inf1", Expression<AI> @:7886 op:19,dt:19,nt:9,next:65535,str:14079,d0:1,d1:0;)))
                             (0, Expression<Short> @:7887 op:7,dt:7,nt:9,next:65535,str:33759,d0:0,d1:65535;)))))
-            (____, Scope<Void> @:7888 op:309,dt:4,nt:8,next:7892,str:33765,d0:7889,d1:33349;
+            (____, BuiltinInvocation<Void> @:7888 op:309,dt:4,nt:8,next:7892,str:33765,d0:7889,d1:33349;
                 ("ai_migrate", Expression<MethodOrOperator> @:7889 op:309,dt:2,nt:9,next:7890,str:8110,d0:0,d1:0;
                     ("e1_cov_inf1", Expression<AI> @:7890 op:19,dt:19,nt:9,next:7891,str:14079,d0:1,d1:0;
                         ("e2_cov_inf0", Expression<AI> @:7891 op:19,dt:19,nt:9,next:65535,str:13038,d0:10,d1:0;))))
-            (____, Scope<Void> @:7892 op:21,dt:4,nt:8,next:7900,str:33838,d0:7893,d1:33353;
+            (____, BuiltinInvocation<Void> @:7892 op:21,dt:4,nt:8,next:7900,str:33838,d0:7893,d1:33353;
                 ("sleep_until", Expression<MethodOrOperator> @:7893 op:21,dt:2,nt:9,next:7894,str:294,d0:0,d1:0;
-                    (____, Scope<Boolean> @:7894 op:13,dt:5,nt:8,next:7899,str:33851,d0:7895,d1:33355;
+                    (____, BuiltinInvocation<Boolean> @:7894 op:13,dt:5,nt:8,next:7899,str:33851,d0:7895,d1:33355;
                         ("=", Expression<MethodOrOperator> @:7895 op:13,dt:2,nt:9,next:7896,str:359,d0:0,d1:0;
-                            (____, Scope<Short> @:7896 op:509,dt:7,nt:8,next:7898,str:33854,d0:7897,d1:33357;
+                            (____, BuiltinInvocation<Short> @:7896 op:509,dt:7,nt:8,next:7898,str:33854,d0:7897,d1:33357;
                                 ("structure_bsp_index", Expression<MethodOrOperator> @:7897 op:509,dt:2,nt:9,next:65535,str:11512,d0:0,d1:0;))
                             (1, Expression<Short> @:7898 op:7,dt:7,nt:9,next:65535,str:33876,d0:1,d1:65535;)))
                     (15, Expression<Short> @:7899 op:7,dt:7,nt:9,next:65535,str:33879,d0:15,d1:65535;)))
-            (____, Scope<Void> @:7900 op:316,dt:4,nt:8,next:7903,str:33885,d0:7901,d1:33361;
+            (____, BuiltinInvocation<Void> @:7900 op:316,dt:4,nt:8,next:7903,str:33885,d0:7901,d1:33361;
                 ("ai_teleport_to_starting_location_if_outside_bsp", Expression<MethodOrOperator> @:7901 op:316,dt:2,nt:9,next:7902,str:11405,d0:0,d1:0;
                     ("e2_cov_inf0", Expression<AI> @:7902 op:19,dt:19,nt:9,next:65535,str:13038,d0:10,d1:0;)))
-            (____, Scope<Void> @:7903 op:317,dt:4,nt:8,next:65535,str:33949,d0:7904,d1:33364;
+            (____, BuiltinInvocation<Void> @:7903 op:317,dt:4,nt:8,next:65535,str:33949,d0:7904,d1:33364;
                 ("ai_renew", Expression<MethodOrOperator> @:7904 op:317,dt:2,nt:9,next:7905,str:11928,d0:0,d1:0;
                     ("e2_cov_inf0", Expression<AI> @:7905 op:19,dt:19,nt:9,next:65535,str:13038,d0:10,d1:0;))))))

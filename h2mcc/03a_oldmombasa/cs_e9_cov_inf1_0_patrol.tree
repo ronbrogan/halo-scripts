@@ -1,40 +1,40 @@
 
 ("cs_e9_cov_inf1_0_patrol", MethodDecl<Void> @:251 op:0,dt:0,nt:65535,next:9408,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:9408 op:0,dt:4,nt:8,next:65535,str:49784,d0:9409,d1:34869;
+    (____, BuiltinInvocation<Void> @:9408 op:0,dt:4,nt:8,next:65535,str:49784,d0:9409,d1:34869;
         ("begin", Expression<MethodOrOperator> @:9409 op:0,dt:2,nt:9,next:9371,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:9371 op:441,dt:4,nt:8,next:9374,str:49833,d0:9372,d1:34832;
+            (____, BuiltinInvocation<Void> @:9371 op:441,dt:4,nt:8,next:9374,str:49833,d0:9372,d1:34832;
                 ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:9372 op:441,dt:2,nt:9,next:9373,str:13781,d0:0,d1:0;
                     ("ai_combat_status_visible", VariableAccess<Short> @:9373 op:7,dt:7,nt:13,next:65535,str:13807,d0:33578,d1:65535;)))
-            (____, Scope<Void> @:9374 op:443,dt:4,nt:8,next:9377,str:49888,d0:9375,d1:34835;
+            (____, BuiltinInvocation<Void> @:9374 op:443,dt:4,nt:8,next:9377,str:49888,d0:9375,d1:34835;
                 ("cs_enable_looking", Expression<MethodOrOperator> @:9375 op:443,dt:2,nt:9,next:9376,str:13832,d0:0,d1:0;
                     (True, Expression<Boolean> @:9376 op:5,dt:5,nt:9,next:65535,str:49907,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:9377 op:21,dt:4,nt:8,next:65535,str:49915,d0:9378,d1:34838;
+            (____, BuiltinInvocation<Void> @:9377 op:21,dt:4,nt:8,next:65535,str:49915,d0:9378,d1:34838;
                 ("sleep_until", Expression<MethodOrOperator> @:9378 op:21,dt:2,nt:9,next:9379,str:294,d0:0,d1:0;
-                    (____, Scope<Boolean> @:9379 op:0,dt:5,nt:8,next:65535,str:49931,d0:9380,d1:34840;
+                    (____, BuiltinInvocation<Boolean> @:9379 op:0,dt:5,nt:8,next:65535,str:49931,d0:9380,d1:34840;
                         ("begin", Expression<MethodOrOperator> @:9380 op:0,dt:2,nt:9,next:9381,str:64,d0:0,d1:0;
-                            (____, Scope<Void> @:9381 op:385,dt:4,nt:8,next:9384,str:49951,d0:9382,d1:34842;
+                            (____, BuiltinInvocation<Void> @:9381 op:385,dt:4,nt:8,next:9384,str:49951,d0:9382,d1:34842;
                                 ("cs_go_to", Expression<MethodOrOperator> @:9382 op:385,dt:2,nt:9,next:9383,str:4510,d0:0,d1:0;
                                     ("e9_patrol/p0", Expression<SpatialPoint> @:9383 op:28,dt:28,nt:9,next:65535,str:18053,d0:0,d1:25;)))
-                            (____, Scope<Void> @:9384 op:393,dt:4,nt:8,next:9388,str:49979,d0:9385,d1:34845;
+                            (____, BuiltinInvocation<Void> @:9384 op:393,dt:4,nt:8,next:9388,str:49979,d0:9385,d1:34845;
                                 ("cs_look", Expression<MethodOrOperator> @:9385 op:393,dt:2,nt:9,next:9386,str:17356,d0:0,d1:0;
                                     (True, Expression<Boolean> @:9386 op:5,dt:5,nt:9,next:9387,str:49988,d0:65281,d1:65535;
                                         ("e9_patrol/f0", Expression<SpatialPoint> @:9387 op:28,dt:28,nt:9,next:65535,str:18066,d0:2,d1:25;))))
-                            (____, Scope<Void> @:9388 op:19,dt:4,nt:8,next:9394,str:50011,d0:9389,d1:34849;
+                            (____, BuiltinInvocation<Void> @:9388 op:19,dt:4,nt:8,next:9394,str:50011,d0:9389,d1:34849;
                                 ("sleep", Expression<MethodOrOperator> @:9389 op:19,dt:2,nt:9,next:9390,str:143,d0:0,d1:0;
-                                    (____, Scope<Short> @:9390 op:124,dt:7,nt:8,next:65535,str:50018,d0:9391,d1:34851;
+                                    (____, BuiltinInvocation<Short> @:9390 op:124,dt:7,nt:8,next:65535,str:50018,d0:9391,d1:34851;
                                         ("random_range", Expression<MethodOrOperator> @:9391 op:124,dt:2,nt:9,next:9392,str:13866,d0:0,d1:0;
                                             (30, Expression<Short> @:9392 op:7,dt:7,nt:9,next:9393,str:50032,d0:30,d1:65535;
                                                 (60, Expression<Short> @:9393 op:7,dt:7,nt:9,next:65535,str:50035,d0:60,d1:65535;))))))
-                            (____, Scope<Void> @:9394 op:393,dt:4,nt:8,next:9398,str:50044,d0:9395,d1:34855;
+                            (____, BuiltinInvocation<Void> @:9394 op:393,dt:4,nt:8,next:9398,str:50044,d0:9395,d1:34855;
                                 ("cs_look", Expression<MethodOrOperator> @:9395 op:393,dt:2,nt:9,next:9396,str:17356,d0:0,d1:0;
                                     (False, Expression<Boolean> @:9396 op:5,dt:5,nt:9,next:9397,str:50053,d0:65280,d1:65535;
                                         ("e9_patrol/f0", Expression<SpatialPoint> @:9397 op:28,dt:28,nt:9,next:65535,str:18066,d0:2,d1:25;))))
-                            (____, Scope<Void> @:9398 op:385,dt:4,nt:8,next:9401,str:50088,d0:9399,d1:34859;
+                            (____, BuiltinInvocation<Void> @:9398 op:385,dt:4,nt:8,next:9401,str:50088,d0:9399,d1:34859;
                                 ("cs_go_to", Expression<MethodOrOperator> @:9399 op:385,dt:2,nt:9,next:9400,str:4510,d0:0,d1:0;
                                     ("e9_patrol/p1", Expression<SpatialPoint> @:9400 op:28,dt:28,nt:9,next:65535,str:18079,d0:1,d1:25;)))
-                            (____, Scope<Void> @:9401 op:19,dt:4,nt:8,next:9407,str:50116,d0:9402,d1:34862;
+                            (____, BuiltinInvocation<Void> @:9401 op:19,dt:4,nt:8,next:9407,str:50116,d0:9402,d1:34862;
                                 ("sleep", Expression<MethodOrOperator> @:9402 op:19,dt:2,nt:9,next:9403,str:143,d0:0,d1:0;
-                                    (____, Scope<Short> @:9403 op:124,dt:7,nt:8,next:65535,str:50123,d0:9404,d1:34864;
+                                    (____, BuiltinInvocation<Short> @:9403 op:124,dt:7,nt:8,next:65535,str:50123,d0:9404,d1:34864;
                                         ("random_range", Expression<MethodOrOperator> @:9404 op:124,dt:2,nt:9,next:9405,str:13866,d0:0,d1:0;
                                             (30, Expression<Short> @:9405 op:7,dt:7,nt:9,next:9406,str:50137,d0:30,d1:65535;
                                                 (60, Expression<Short> @:9406 op:7,dt:7,nt:9,next:65535,str:50140,d0:60,d1:65535;))))))

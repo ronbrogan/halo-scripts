@@ -1,52 +1,52 @@
 
 ("ai_council_left_c", MethodDecl<Void> @:281 op:0,dt:0,nt:65535,next:12592,str:30135,d0:0,d1:0;
-    (____, Scope<Void> @:12592 op:0,dt:4,nt:8,next:65535,str:24314,d0:12593,d1:38053;
+    (____, BuiltinInvocation<Void> @:12592 op:0,dt:4,nt:8,next:65535,str:24314,d0:12593,d1:38053;
         ("begin", Expression<MethodOrOperator> @:12593 op:0,dt:2,nt:9,next:12544,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:12544 op:2,dt:4,nt:8,next:65535,str:24354,d0:12545,d1:38005;
+            (____, BuiltinInvocation<Void> @:12544 op:2,dt:4,nt:8,next:65535,str:24354,d0:12545,d1:38005;
                 ("if", Expression<MethodOrOperator> @:12545 op:2,dt:2,nt:9,next:12546,str:456,d0:0,d1:0;
-                    (____, Scope<Boolean> @:12546 op:5,dt:5,nt:8,next:12561,str:24358,d0:12547,d1:38007;
+                    (____, BuiltinInvocation<Boolean> @:12546 op:5,dt:5,nt:8,next:12561,str:24358,d0:12547,d1:38007;
                         ("and", Expression<MethodOrOperator> @:12547 op:5,dt:2,nt:9,next:12548,str:667,d0:0,d1:0;
-                            (____, Scope<Boolean> @:12548 op:25,dt:5,nt:8,next:12555,str:24367,d0:12549,d1:38009;
+                            (____, BuiltinInvocation<Boolean> @:12548 op:25,dt:5,nt:8,next:12555,str:24367,d0:12549,d1:38009;
                                 ("not", Expression<MethodOrOperator> @:12549 op:25,dt:2,nt:9,next:12550,str:397,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:12550 op:33,dt:5,nt:8,next:65535,str:24372,d0:12551,d1:38011;
+                                    (____, BuiltinInvocation<Boolean> @:12550 op:33,dt:5,nt:8,next:65535,str:24372,d0:12551,d1:38011;
                                         ("volume_test_objects", Expression<MethodOrOperator> @:12551 op:33,dt:2,nt:9,next:12552,str:17358,d0:0,d1:0;
                                             ("tv_council_door_left_c", Expression<Trigger> @:12552 op:13,dt:13,nt:9,next:12553,str:29731,d0:31,d1:0;
-                                                (____, Scope<List> @:12553 op:28,dt:31,nt:8,next:65535,str:24416,d0:12554,d1:38014;
+                                                (____, BuiltinInvocation<List> @:12553 op:28,dt:31,nt:8,next:65535,str:24416,d0:12554,d1:38014;
                                                     ("players", Expression<MethodOrOperator> @:12554 op:28,dt:2,nt:9,next:65535,str:21,d0:0,d1:0;)))))))
-                            (____, Scope<Boolean> @:12555 op:13,dt:5,nt:8,next:65535,str:24432,d0:12556,d1:38016;
+                            (____, BuiltinInvocation<Boolean> @:12555 op:13,dt:5,nt:8,next:65535,str:24432,d0:12556,d1:38016;
                                 ("=", Expression<MethodOrOperator> @:12556 op:13,dt:2,nt:9,next:12557,str:296,d0:0,d1:0;
-                                    (-1.3145994E-26f, Scope<Float> @:12557 op:257,dt:6,nt:8,next:12560,str:24435,d0:12558,d1:38018;
+                                    (-1.3145994E-26f, BuiltinInvocation<Float> @:12557 op:257,dt:6,nt:8,next:12560,str:24435,d0:12558,d1:38018;
                                         ("device_get_position", Expression<MethodOrOperator> @:12558 op:257,dt:2,nt:9,next:12559,str:17009,d0:0,d1:0;
                                             ("council_door_left_c", Expression<Device> @:12559 op:60,dt:54,nt:9,next:65535,str:29754,d0:314,d1:65535;)))
                                     (0f, Expression<Float> @:12560 op:6,dt:6,nt:9,next:65535,str:24477,d0:0,d1:0;)))))
-                    (____, Scope<Void> @:12561 op:0,dt:4,nt:8,next:65535,str:24484,d0:12562,d1:38022;
+                    (____, BuiltinInvocation<Void> @:12561 op:0,dt:4,nt:8,next:65535,str:24484,d0:12562,d1:38022;
                         ("begin", Expression<MethodOrOperator> @:12562 op:0,dt:2,nt:9,next:12563,str:1,d0:0,d1:0;
-                            (____, Scope<Void> @:12563 op:2,dt:4,nt:8,next:12569,str:24495,d0:12564,d1:38024;
+                            (____, BuiltinInvocation<Void> @:12563 op:2,dt:4,nt:8,next:12569,str:24495,d0:12564,d1:38024;
                                 ("if", Expression<MethodOrOperator> @:12564 op:2,dt:2,nt:9,next:12565,str:456,d0:0,d1:0;
                                     ("debug", VariableAccess<Boolean> @:12565 op:5,dt:5,nt:13,next:12566,str:17539,d0:3,d1:0;
-                                        (____, Scope<Void> @:12566 op:27,dt:4,nt:8,next:65535,str:24505,d0:12567,d1:38027;
+                                        (____, BuiltinInvocation<Void> @:12566 op:27,dt:4,nt:8,next:65535,str:24505,d0:12567,d1:38027;
                                             ("print", Expression<MethodOrOperator> @:12567 op:27,dt:2,nt:9,next:12568,str:86,d0:0,d1:0;
                                                 ("left c", Expression<String> @:12568 op:9,dt:9,nt:9,next:65535,str:29774,d0:29774,d1:0;))))))
-                            (____, Scope<Void> @:12569 op:290,dt:4,nt:8,next:12572,str:24527,d0:12570,d1:38030;
+                            (____, BuiltinInvocation<Void> @:12569 op:290,dt:4,nt:8,next:12572,str:24527,d0:12570,d1:38030;
                                 ("ai_place", Expression<MethodOrOperator> @:12570 op:290,dt:2,nt:9,next:12571,str:14833,d0:0,d1:0;
                                     ("council_lt_brute_c", Expression<AI> @:12571 op:19,dt:19,nt:9,next:65535,str:29781,d0:33,d1:0;)))
-                            (____, Scope<Void> @:12572 op:290,dt:4,nt:8,next:12575,str:24561,d0:12573,d1:38033;
+                            (____, BuiltinInvocation<Void> @:12572 op:290,dt:4,nt:8,next:12575,str:24561,d0:12573,d1:38033;
                                 ("ai_place", Expression<MethodOrOperator> @:12573 op:290,dt:2,nt:9,next:12574,str:14833,d0:0,d1:0;
                                     ("council_lt_grunt_c", Expression<AI> @:12574 op:19,dt:19,nt:9,next:65535,str:29800,d0:27,d1:0;)))
-                            (____, Scope<Void> @:12575 op:4,dt:4,nt:8,next:12582,str:24595,d0:12576,d1:38036;
+                            (____, BuiltinInvocation<Void> @:12575 op:4,dt:4,nt:8,next:12582,str:24595,d0:12576,d1:38036;
                                 ("set", Expression<MethodOrOperator> @:12576 op:4,dt:2,nt:9,next:12577,str:2177,d0:0,d1:0;
                                     ("g_council_count", VariableAccess<Short> @:12577 op:65535,dt:7,nt:13,next:12578,str:29619,d0:48,d1:0;
-                                        (____, Scope<Short> @:12578 op:7,dt:7,nt:8,next:65535,str:24616,d0:12579,d1:38039;
+                                        (____, BuiltinInvocation<Short> @:12578 op:7,dt:7,nt:8,next:65535,str:24616,d0:12579,d1:38039;
                                             ("+", Expression<MethodOrOperator> @:12579 op:7,dt:2,nt:9,next:12580,str:983,d0:0,d1:0;
                                                 ("g_council_count", VariableAccess<Float> @:12580 op:6,dt:6,nt:13,next:12581,str:29619,d0:48,d1:0;
                                                     (1f, Expression<Float> @:12581 op:6,dt:6,nt:9,next:65535,str:24635,d0:0,d1:16256;)))))))
-                            (____, Scope<Void> @:12582 op:2,dt:4,nt:8,next:65535,str:24643,d0:12583,d1:38043;
+                            (____, BuiltinInvocation<Void> @:12582 op:2,dt:4,nt:8,next:65535,str:24643,d0:12583,d1:38043;
                                 ("if", Expression<MethodOrOperator> @:12583 op:2,dt:2,nt:9,next:12584,str:456,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:12584 op:13,dt:5,nt:8,next:12588,str:24647,d0:12585,d1:38045;
+                                    (____, BuiltinInvocation<Boolean> @:12584 op:13,dt:5,nt:8,next:12588,str:24647,d0:12585,d1:38045;
                                         ("=", Expression<MethodOrOperator> @:12585 op:13,dt:2,nt:9,next:12586,str:296,d0:0,d1:0;
                                             ("g_council_count", VariableAccess<Short> @:12586 op:0,dt:7,nt:13,next:12587,str:29619,d0:48,d1:0;
                                                 ("g_council_limit", VariableAccess<Short> @:12587 op:7,dt:7,nt:13,next:65535,str:29635,d0:49,d1:0;))))
-                                    (____, Scope<Void> @:12588 op:4,dt:4,nt:8,next:65535,str:24683,d0:12589,d1:38049;
+                                    (____, BuiltinInvocation<Void> @:12588 op:4,dt:4,nt:8,next:65535,str:24683,d0:12589,d1:38049;
                                         ("set", Expression<MethodOrOperator> @:12589 op:4,dt:2,nt:9,next:12590,str:2177,d0:0,d1:0;
                                             ("g_council_wave", VariableAccess<Boolean> @:12590 op:65535,dt:5,nt:13,next:12591,str:29651,d0:47,d1:0;
                                                 (False, Expression<Boolean> @:12591 op:5,dt:5,nt:9,next:65535,str:24703,d0:65280,d1:65535;)))))))))))))

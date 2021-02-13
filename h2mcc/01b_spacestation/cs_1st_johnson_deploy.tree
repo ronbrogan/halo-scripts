@@ -1,39 +1,39 @@
 
 ("cs_1st_johnson_deploy", MethodDecl<Void> @:334 op:0,dt:0,nt:65535,next:13943,str:33753,d0:0,d1:0;
-    (____, Scope<Void> @:13943 op:0,dt:4,nt:8,next:65535,str:41709,d0:13944,d1:39404;
+    (____, BuiltinInvocation<Void> @:13943 op:0,dt:4,nt:8,next:65535,str:41709,d0:13944,d1:39404;
         ("begin", Expression<MethodOrOperator> @:13944 op:0,dt:2,nt:9,next:13908,str:11,d0:0,d1:0;
-            (____, Scope<Void> @:13908 op:401,dt:4,nt:8,next:13912,str:41756,d0:13909,d1:39369;
+            (____, BuiltinInvocation<Void> @:13908 op:401,dt:4,nt:8,next:13912,str:41756,d0:13909,d1:39369;
                 ("cs_face_object", Expression<MethodOrOperator> @:13909 op:401,dt:2,nt:9,next:13910,str:31954,d0:0,d1:0;
                     (True, Expression<Boolean> @:13910 op:5,dt:5,nt:9,next:13911,str:41772,d0:65281,d1:65535;
                         (4294902013, Expression<Entity> @:13911 op:56,dt:50,nt:9,next:65535,str:31939,d0:253,d1:65535;))))
-            (____, Scope<Void> @:13912 op:19,dt:4,nt:8,next:13915,str:41792,d0:13913,d1:39373;
+            (____, BuiltinInvocation<Void> @:13912 op:19,dt:4,nt:8,next:13915,str:41792,d0:13913,d1:39373;
                 ("sleep", Expression<MethodOrOperator> @:13913 op:19,dt:2,nt:9,next:13914,str:90,d0:0,d1:0;
                     (60, Expression<Short> @:13914 op:7,dt:7,nt:9,next:65535,str:41799,d0:60,d1:65535;)))
-            (____, Scope<Void> @:13915 op:201,dt:4,nt:8,next:13923,str:41805,d0:13916,d1:39376;
+            (____, BuiltinInvocation<Void> @:13915 op:201,dt:4,nt:8,next:13923,str:41805,d0:13916,d1:39376;
                 ("custom_animation", Expression<MethodOrOperator> @:13916 op:201,dt:2,nt:9,next:13917,str:31969,d0:0,d1:0;
-                    (____, Scope<Unit> @:13917 op:285,dt:51,nt:8,next:13920,str:41823,d0:13918,d1:39378;
+                    (____, BuiltinInvocation<Unit> @:13917 op:285,dt:51,nt:8,next:13920,str:41823,d0:13918,d1:39378;
                         ("ai_get_unit", Expression<MethodOrOperator> @:13918 op:285,dt:2,nt:9,next:13919,str:31986,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:13919 op:19,dt:19,nt:13,next:65535,str:31998,d0:33564,d1:65535;)))
                     ("objects\characters\marine\marine", Expression<Animation> @:13920 op:36,dt:36,nt:9,next:13921,str:32015,d0:2685,d1:60573;
                         ("combat:missile:point", Expression<StringId> @:13921 op:11,dt:11,nt:9,next:13922,str:32048,d0:8369,d1:5120;
                             (True, Expression<Boolean> @:13922 op:5,dt:5,nt:9,next:65535,str:41912,d0:65281,d1:65535;)))))
-            (____, Scope<Void> @:13923 op:596,dt:4,nt:8,next:13930,str:41923,d0:13924,d1:39384;
+            (____, BuiltinInvocation<Void> @:13923 op:596,dt:4,nt:8,next:13930,str:41923,d0:13924,d1:39384;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:13924 op:596,dt:2,nt:9,next:13925,str:1446,d0:0,d1:0;
                     ("sound_remastered\weapons\chain_gun\place", Expression<Sound> @:13925 op:32,dt:32,nt:9,next:13926,str:32069,d0:9368,d1:34512;
-                        (____, Scope<Entity> @:13926 op:284,dt:50,nt:8,next:13929,str:41985,d0:13927,d1:39387;
+                        (____, BuiltinInvocation<Entity> @:13926 op:284,dt:50,nt:8,next:13929,str:41985,d0:13927,d1:39387;
                             ("ai_get_object", Expression<MethodOrOperator> @:13927 op:284,dt:2,nt:9,next:13928,str:31886,d0:0,d1:0;
                                 ("1st_hum_johnson", Expression<AI> @:13928 op:19,dt:19,nt:9,next:65535,str:31900,d0:0,d1:0;)))
                         (1f, Expression<Float> @:13929 op:6,dt:6,nt:9,next:65535,str:42017,d0:0,d1:16256;))))
-            (____, Scope<Void> @:13930 op:19,dt:4,nt:8,next:13937,str:42025,d0:13931,d1:39391;
+            (____, BuiltinInvocation<Void> @:13930 op:19,dt:4,nt:8,next:13937,str:42025,d0:13931,d1:39391;
                 ("sleep", Expression<MethodOrOperator> @:13931 op:19,dt:2,nt:9,next:13932,str:90,d0:0,d1:0;
-                    (____, Scope<Short> @:13932 op:199,dt:7,nt:8,next:65535,str:42032,d0:13933,d1:39393;
+                    (____, BuiltinInvocation<Short> @:13932 op:199,dt:7,nt:8,next:65535,str:42032,d0:13933,d1:39393;
                         ("unit_get_custom_animation_time", Expression<MethodOrOperator> @:13933 op:199,dt:2,nt:9,next:13934,str:32110,d0:0,d1:0;
-                            (____, Scope<Unit> @:13934 op:285,dt:51,nt:8,next:65535,str:42064,d0:13935,d1:39395;
+                            (____, BuiltinInvocation<Unit> @:13934 op:285,dt:51,nt:8,next:65535,str:42064,d0:13935,d1:39395;
                                 ("ai_get_unit", Expression<MethodOrOperator> @:13935 op:285,dt:2,nt:9,next:13936,str:31986,d0:0,d1:0;
                                     ("ai_current_actor", VariableAccess<AI> @:13936 op:19,dt:19,nt:13,next:65535,str:31998,d0:33564,d1:65535;)))))))
-            (____, Scope<Void> @:13937 op:19,dt:4,nt:8,next:13940,str:42103,d0:13938,d1:39398;
+            (____, BuiltinInvocation<Void> @:13937 op:19,dt:4,nt:8,next:13940,str:42103,d0:13938,d1:39398;
                 ("sleep", Expression<MethodOrOperator> @:13938 op:19,dt:2,nt:9,next:13939,str:90,d0:0,d1:0;
                     (30, Expression<Short> @:13939 op:7,dt:7,nt:9,next:65535,str:42110,d0:30,d1:65535;)))
-            (____, Scope<Void> @:13940 op:429,dt:4,nt:8,next:65535,str:42120,d0:13941,d1:39401;
+            (____, BuiltinInvocation<Void> @:13940 op:429,dt:4,nt:8,next:65535,str:42120,d0:13941,d1:39401;
                 ("cs_deploy_turret", Expression<MethodOrOperator> @:13941 op:429,dt:2,nt:9,next:13942,str:32141,d0:0,d1:0;
                     ("1st_turrets/1st_turrets_balcony", Expression<SpatialPoint> @:13942 op:28,dt:28,nt:9,next:65535,str:32158,d0:0,d1:6;))))))

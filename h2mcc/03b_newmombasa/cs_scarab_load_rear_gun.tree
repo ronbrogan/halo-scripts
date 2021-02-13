@@ -1,24 +1,24 @@
 
 ("cs_scarab_load_rear_gun", MethodDecl<Void> @:202 op:0,dt:0,nt:65535,next:6263,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:6263 op:0,dt:4,nt:8,next:65535,str:8533,d0:6264,d1:64491;
+    (____, BuiltinInvocation<Void> @:6263 op:0,dt:4,nt:8,next:65535,str:8533,d0:6264,d1:64491;
         ("begin", Expression<MethodOrOperator> @:6264 op:0,dt:2,nt:9,next:6243,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:6243 op:57,dt:4,nt:8,next:6249,str:8582,d0:6244,d1:64471;
+            (____, BuiltinInvocation<Void> @:6243 op:57,dt:4,nt:8,next:6249,str:8582,d0:6244,d1:64471;
                 ("object_hide", Expression<MethodOrOperator> @:6244 op:57,dt:2,nt:9,next:6245,str:595,d0:0,d1:0;
-                    (____, Scope<Entity> @:6245 op:284,dt:50,nt:8,next:6248,str:8595,d0:6246,d1:64473;
+                    (____, BuiltinInvocation<Entity> @:6245 op:284,dt:50,nt:8,next:6248,str:8595,d0:6246,d1:64473;
                         ("ai_get_object", Expression<MethodOrOperator> @:6246 op:284,dt:2,nt:9,next:6247,str:13874,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:6247 op:19,dt:19,nt:13,next:65535,str:13888,d0:33564,d1:65535;)))
                     (True, Expression<Boolean> @:6248 op:5,dt:5,nt:9,next:65535,str:8628,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:6249 op:232,dt:4,nt:8,next:6261,str:8636,d0:6250,d1:64477;
+            (____, BuiltinInvocation<Void> @:6249 op:232,dt:4,nt:8,next:6261,str:8636,d0:6250,d1:64477;
                 ("vehicle_load_magic", Expression<MethodOrOperator> @:6250 op:232,dt:2,nt:9,next:6251,str:13905,d0:0,d1:0;
-                    (____, Scope<Entity> @:6251 op:24,dt:50,nt:8,next:6257,str:8656,d0:6252,d1:64479;
+                    (____, BuiltinInvocation<Entity> @:6251 op:24,dt:50,nt:8,next:6257,str:8656,d0:6252,d1:64479;
                         ("unit", Expression<MethodOrOperator> @:6252 op:24,dt:2,nt:9,next:6253,str:12,d0:0,d1:0;
-                            (____, Scope<Entity> @:6253 op:75,dt:50,nt:8,next:65535,str:8662,d0:6254,d1:64481;
+                            (____, BuiltinInvocation<Entity> @:6253 op:75,dt:50,nt:8,next:65535,str:8662,d0:6254,d1:64481;
                                 ("object_at_marker", Expression<MethodOrOperator> @:6254 op:75,dt:2,nt:9,next:6255,str:13924,d0:0,d1:0;
                                     (4294901862, Expression<Entity> @:6255 op:56,dt:50,nt:9,next:6256,str:13941,d0:102,d1:65535;
                                         ("t_b_turret", Expression<StringId> @:6256 op:11,dt:11,nt:9,next:65535,str:13989,d0:5227,d1:2560;))))))
                     ("scarab_turret_d", Expression<VehicleSeat> @:6257 op:12,dt:12,nt:9,next:6258,str:13948,d0:0,d1:4;
-                        (____, Scope<List> @:6258 op:284,dt:31,nt:8,next:65535,str:8720,d0:6259,d1:64486;
+                        (____, BuiltinInvocation<List> @:6258 op:284,dt:31,nt:8,next:65535,str:8720,d0:6259,d1:64486;
                             ("ai_get_object", Expression<MethodOrOperator> @:6259 op:284,dt:2,nt:9,next:6260,str:13874,d0:0,d1:0;
                                 ("ai_current_actor", VariableAccess<AI> @:6260 op:19,dt:19,nt:13,next:65535,str:13888,d0:33564,d1:65535;))))))
-            (____, Scope<Void> @:6261 op:20,dt:4,nt:8,next:65535,str:8756,d0:6262,d1:64489;
+            (____, BuiltinInvocation<Void> @:6261 op:20,dt:4,nt:8,next:65535,str:8756,d0:6262,d1:64489;
                 ("sleep_forever", Expression<MethodOrOperator> @:6262 op:20,dt:2,nt:9,next:65535,str:13964,d0:0,d1:0;)))))

@@ -1,11 +1,11 @@
 
 ("cond_a_delay", MethodDecl<Void> @:238 op:0,dt:0,nt:65535,next:10058,str:19451,d0:0,d1:0;
-    (____, Scope<Void> @:10058 op:0,dt:4,nt:8,next:65535,str:39645,d0:10059,d1:35519;
+    (____, BuiltinInvocation<Void> @:10058 op:0,dt:4,nt:8,next:65535,str:39645,d0:10059,d1:35519;
         ("begin", Expression<MethodOrOperator> @:10059 op:0,dt:2,nt:9,next:10051,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:10051 op:19,dt:4,nt:8,next:10054,str:39676,d0:10052,d1:35512;
+            (____, BuiltinInvocation<Void> @:10051 op:19,dt:4,nt:8,next:10054,str:39676,d0:10052,d1:35512;
                 ("sleep", Expression<MethodOrOperator> @:10052 op:19,dt:2,nt:9,next:10053,str:80,d0:0,d1:0;
                     (90, Expression<Short> @:10053 op:7,dt:7,nt:9,next:65535,str:39683,d0:90,d1:65535;)))
-            (____, Scope<Void> @:10054 op:4,dt:4,nt:8,next:65535,str:39689,d0:10055,d1:35515;
+            (____, BuiltinInvocation<Void> @:10054 op:4,dt:4,nt:8,next:65535,str:39689,d0:10055,d1:35515;
                 ("set", Expression<MethodOrOperator> @:10055 op:4,dt:2,nt:9,next:10056,str:2613,d0:0,d1:0;
                     ("g_cond_a_continue", VariableAccess<Boolean> @:10056 op:65535,dt:5,nt:13,next:10057,str:19420,d0:60,d1:0;
                         (True, Expression<Boolean> @:10057 op:5,dt:5,nt:9,next:65535,str:39712,d0:65281,d1:65535;)))))))

@@ -1,23 +1,23 @@
 
 ("e11_navpoint", MethodDecl<Void> @:220 op:0,dt:0,nt:65535,next:7980,str:15984,d0:0,d1:0;
-    (____, Scope<Void> @:7980 op:0,dt:4,nt:8,next:65535,str:30897,d0:7981,d1:33441;
+    (____, BuiltinInvocation<Void> @:7980 op:0,dt:4,nt:8,next:65535,str:30897,d0:7981,d1:33441;
         ("begin", Expression<MethodOrOperator> @:7981 op:0,dt:2,nt:9,next:7959,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:7959 op:21,dt:4,nt:8,next:7971,str:30928,d0:7960,d1:33420;
+            (____, BuiltinInvocation<Void> @:7959 op:21,dt:4,nt:8,next:7971,str:30928,d0:7960,d1:33420;
                 ("sleep_until", Expression<MethodOrOperator> @:7960 op:21,dt:2,nt:9,next:7961,str:294,d0:0,d1:0;
-                    (____, Scope<Boolean> @:7961 op:15,dt:5,nt:8,next:7969,str:30941,d0:7962,d1:33422;
+                    (____, BuiltinInvocation<Boolean> @:7961 op:15,dt:5,nt:8,next:7969,str:30941,d0:7962,d1:33422;
                         (">", Expression<MethodOrOperator> @:7962 op:15,dt:2,nt:9,next:7963,str:12453,d0:0,d1:0;
-                            (-2.1176754E-37f, Scope<Float> @:7963 op:115,dt:6,nt:8,next:7968,str:30944,d0:7964,d1:33424;
+                            (-2.1176754E-37f, BuiltinInvocation<Float> @:7963 op:115,dt:6,nt:8,next:7968,str:30944,d0:7964,d1:33424;
                                 ("objects_distance_to_flag", Expression<MethodOrOperator> @:7964 op:115,dt:2,nt:9,next:7965,str:15898,d0:0,d1:0;
-                                    (____, Scope<List> @:7965 op:28,dt:31,nt:8,next:7967,str:30970,d0:7966,d1:33426;
+                                    (____, BuiltinInvocation<List> @:7965 op:28,dt:31,nt:8,next:7967,str:30970,d0:7966,d1:33426;
                                         ("players", Expression<MethodOrOperator> @:7966 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;))
                                     ("e11_tunnel_entrance", Expression<LocationFlag> @:7967 op:14,dt:14,nt:9,next:65535,str:15923,d0:30,d1:0;)))
                             (50f, Expression<Float> @:7968 op:6,dt:6,nt:9,next:65535,str:31001,d0:0,d1:16968;)))
                     (30, Expression<Short> @:7969 op:7,dt:7,nt:9,next:7970,str:31005,d0:30,d1:65535;
                         ("30_seconds", VariableAccess<Int> @:7970 op:8,dt:8,nt:13,next:65535,str:15111,d0:5,d1:0;))))
-            (____, Scope<Void> @:7971 op:27,dt:4,nt:8,next:7974,str:31022,d0:7972,d1:33432;
+            (____, BuiltinInvocation<Void> @:7971 op:27,dt:4,nt:8,next:7974,str:31022,d0:7972,d1:33432;
                 ("print", Expression<MethodOrOperator> @:7972 op:27,dt:2,nt:9,next:7973,str:149,d0:0,d1:0;
                     ("navpoint up", Expression<String> @:7973 op:9,dt:9,nt:9,next:65535,str:15943,d0:15943,d1:0;)))
-            (____, Scope<Void> @:7974 op:639,dt:4,nt:8,next:65535,str:31046,d0:7975,d1:33435;
+            (____, BuiltinInvocation<Void> @:7974 op:639,dt:4,nt:8,next:65535,str:31046,d0:7975,d1:33435;
                 ("activate_team_nav_point_flag", Expression<MethodOrOperator> @:7975 op:639,dt:2,nt:9,next:7976,str:15955,d0:0,d1:0;
                     ("default", Expression<NavigationPoint> @:7976 op:27,dt:27,nt:9,next:7977,str:12754,d0:0,d1:0;
                         ("player", Expression<Team> @:7977 op:45,dt:45,nt:9,next:7978,str:12762,d0:1,d1:65535;

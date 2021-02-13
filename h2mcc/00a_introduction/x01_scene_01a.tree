@@ -1,170 +1,170 @@
 
 ("x01_scene_01a", MethodDecl<Void> @:56 op:0,dt:0,nt:65535,next:4049,str:15153,d0:0,d1:0;
-    (____, Scope<Void> @:4049 op:0,dt:4,nt:8,next:65535,str:58962,d0:4050,d1:62277;
+    (____, BuiltinInvocation<Void> @:4049 op:0,dt:4,nt:8,next:65535,str:58962,d0:4050,d1:62277;
         ("begin", Expression<MethodOrOperator> @:4050 op:0,dt:2,nt:9,next:3883,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:3883 op:614,dt:4,nt:8,next:3888,str:59000,d0:3884,d1:62111;
+            (____, BuiltinInvocation<Void> @:3883 op:614,dt:4,nt:8,next:3888,str:59000,d0:3884,d1:62111;
                 ("sound_class_set_gain", Expression<MethodOrOperator> @:3884 op:614,dt:2,nt:9,next:3885,str:4679,d0:0,d1:0;
                     ("amb", Expression<String> @:3885 op:9,dt:9,nt:9,next:3886,str:4700,d0:4700,d1:0;
                         (0f, Expression<Float> @:3886 op:6,dt:6,nt:9,next:3887,str:59026,d0:0,d1:0;
                             (0, Expression<Short> @:3887 op:7,dt:7,nt:9,next:65535,str:59028,d0:0,d1:65535;)))))
-            (____, Scope<Void> @:3888 op:552,dt:4,nt:8,next:3894,str:59036,d0:3889,d1:62116;
+            (____, BuiltinInvocation<Void> @:3888 op:552,dt:4,nt:8,next:3894,str:59036,d0:3889,d1:62116;
                 ("fade_out", Expression<MethodOrOperator> @:3889 op:552,dt:2,nt:9,next:3890,str:71,d0:0,d1:0;
                     (0f, Expression<Float> @:3890 op:6,dt:6,nt:9,next:3891,str:59046,d0:0,d1:0;
                         (0f, Expression<Float> @:3891 op:6,dt:6,nt:9,next:3892,str:59048,d0:0,d1:0;
                             (0f, Expression<Float> @:3892 op:6,dt:6,nt:9,next:3893,str:59050,d0:0,d1:0;
                                 (0, Expression<Short> @:3893 op:7,dt:7,nt:9,next:65535,str:59052,d0:0,d1:65535;))))))
-            (____, Scope<Void> @:3894 op:450,dt:4,nt:8,next:3897,str:59060,d0:3895,d1:62122;
+            (____, BuiltinInvocation<Void> @:3894 op:450,dt:4,nt:8,next:3897,str:59060,d0:3895,d1:62122;
                 ("camera_control", Expression<MethodOrOperator> @:3895 op:450,dt:2,nt:9,next:3896,str:40,d0:0,d1:0;
                     (True, Expression<Boolean> @:3896 op:5,dt:5,nt:9,next:65535,str:59076,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:3897 op:927,dt:4,nt:8,next:3900,str:59082,d0:3898,d1:62125;
+            (____, BuiltinInvocation<Void> @:3897 op:927,dt:4,nt:8,next:3900,str:59082,d0:3898,d1:62125;
                 ("cinematic_start_movie", Expression<MethodOrOperator> @:3898 op:927,dt:2,nt:9,next:3899,str:4704,d0:0,d1:0;
                     ("introduction", Expression<String> @:3899 op:9,dt:9,nt:9,next:65535,str:4726,d0:4726,d1:0;)))
-            (____, Scope<Void> @:3900 op:553,dt:4,nt:8,next:3902,str:59123,d0:3901,d1:62128;
+            (____, BuiltinInvocation<Void> @:3900 op:553,dt:4,nt:8,next:3902,str:59123,d0:3901,d1:62128;
                 ("cinematic_start", Expression<MethodOrOperator> @:3901 op:553,dt:2,nt:9,next:65535,str:55,d0:0,d1:0;))
-            (____, Scope<Void> @:3902 op:877,dt:4,nt:8,next:3904,str:59143,d0:3903,d1:62130;
+            (____, BuiltinInvocation<Void> @:3902 op:877,dt:4,nt:8,next:3904,str:59143,d0:3903,d1:62130;
                 ("cinematic_outro_start", Expression<MethodOrOperator> @:3903 op:877,dt:2,nt:9,next:65535,str:4739,d0:0,d1:0;))
-            (____, Scope<Void> @:3904 op:4,dt:4,nt:8,next:3908,str:59169,d0:3905,d1:62132;
+            (____, BuiltinInvocation<Void> @:3904 op:4,dt:4,nt:8,next:3908,str:59169,d0:3905,d1:62132;
                 ("set", Expression<MethodOrOperator> @:3905 op:4,dt:2,nt:9,next:3906,str:4761,d0:0,d1:0;
                     ("cinematic_letterbox_style", VariableAccess<Int> @:3906 op:65535,dt:8,nt:13,next:3907,str:4765,d0:33754,d1:65535;
                         (1, Expression<Int> @:3907 op:8,dt:8,nt:9,next:65535,str:59200,d0:1,d1:0;))))
-            (____, Scope<Void> @:3908 op:459,dt:4,nt:8,next:3912,str:59205,d0:3909,d1:62136;
+            (____, BuiltinInvocation<Void> @:3908 op:459,dt:4,nt:8,next:3912,str:59205,d0:3909,d1:62136;
                 ("camera_set_field_of_view", Expression<MethodOrOperator> @:3909 op:459,dt:2,nt:9,next:3910,str:4791,d0:0,d1:0;
                     (60f, Expression<Float> @:3910 op:6,dt:6,nt:9,next:3911,str:59231,d0:0,d1:17008;
                         (0, Expression<Short> @:3911 op:7,dt:7,nt:9,next:65535,str:59234,d0:0,d1:65535;))))
             ("x01_01_predict_stub", ScriptInvocation<Void> @:3912 op:37,dt:4,nt:10,next:3914,str:59312,d0:3913,d1:62140;
                 ("x01_01_predict_stub", Expression<MethodOrOperator> @:3913 op:37,dt:2,nt:9,next:65535,str:4816,d0:0,d1:0;))
-            (____, Scope<Void> @:3914 op:594,dt:4,nt:8,next:3917,str:59336,d0:3915,d1:62142;
+            (____, BuiltinInvocation<Void> @:3914 op:594,dt:4,nt:8,next:3917,str:59336,d0:3915,d1:62142;
                 ("sound_impulse_predict", Expression<MethodOrOperator> @:3915 op:594,dt:2,nt:9,next:3916,str:4836,d0:0,d1:0;
                     ("sound\cinematics\01_spacestation\x01\foley\x01_01a_fol", Expression<Sound> @:3916 op:32,dt:32,nt:9,next:65535,str:3864,d0:2701,d1:60419;)))
-            (____, Scope<Void> @:3917 op:594,dt:4,nt:8,next:3920,str:59417,d0:3918,d1:62145;
+            (____, BuiltinInvocation<Void> @:3917 op:594,dt:4,nt:8,next:3920,str:59417,d0:3918,d1:62145;
                 ("sound_impulse_predict", Expression<MethodOrOperator> @:3918 op:594,dt:2,nt:9,next:3919,str:4836,d0:0,d1:0;
                     ("sound\cinematics\01_spacestation\x01\music\x01_01_mus", Expression<Sound> @:3919 op:32,dt:32,nt:9,next:65535,str:3786,d0:2700,d1:60418;)))
-            (____, Scope<Void> @:3920 op:19,dt:4,nt:8,next:3923,str:59497,d0:3921,d1:62148;
+            (____, BuiltinInvocation<Void> @:3920 op:19,dt:4,nt:8,next:3923,str:59497,d0:3921,d1:62148;
                 ("sleep", Expression<MethodOrOperator> @:3921 op:19,dt:2,nt:9,next:3922,str:80,d0:0,d1:0;
                     ("prediction_offset", VariableAccess<Short> @:3922 op:7,dt:7,nt:13,next:65535,str:4858,d0:2,d1:0;)))
-            (____, Scope<Void> @:3923 op:19,dt:4,nt:8,next:3926,str:59528,d0:3924,d1:62151;
+            (____, BuiltinInvocation<Void> @:3923 op:19,dt:4,nt:8,next:3926,str:59528,d0:3924,d1:62151;
                 ("sleep", Expression<MethodOrOperator> @:3924 op:19,dt:2,nt:9,next:3925,str:80,d0:0,d1:0;
                     (45, Expression<Short> @:3925 op:7,dt:7,nt:9,next:65535,str:59535,d0:45,d1:65535;)))
             ("x01_01a_setup", ScriptInvocation<Void> @:3926 op:55,dt:4,nt:10,next:3928,str:59544,d0:3927,d1:62154;
                 ("x01_01a_setup", Expression<MethodOrOperator> @:3927 op:55,dt:2,nt:9,next:65535,str:4876,d0:0,d1:0;))
-            (____, Scope<Void> @:3928 op:454,dt:4,nt:8,next:3934,str:59565,d0:3929,d1:62156;
+            (____, BuiltinInvocation<Void> @:3928 op:454,dt:4,nt:8,next:3934,str:59565,d0:3929,d1:62156;
                 ("camera_set_animation_relative", Expression<MethodOrOperator> @:3929 op:454,dt:2,nt:9,next:3930,str:4890,d0:0,d1:0;
                     ("objects\characters\cinematic_camera\x01\x01", Expression<Animation> @:3930 op:36,dt:36,nt:9,next:3931,str:4920,d0:2702,d1:60420;
                         ("x01_01", Expression<StringId> @:3931 op:11,dt:11,nt:9,next:3932,str:4964,d0:9538,d1:1536;
                             ("none", Expression<Unit> @:3932 op:51,dt:51,nt:9,next:3933,str:3840,d0:65535,d1:65535;
                                 ("anchor_flag_x01a", Expression<LocationFlag> @:3933 op:14,dt:14,nt:9,next:65535,str:4971,d0:2,d1:0;))))))
-            (____, Scope<Void> @:3934 op:551,dt:4,nt:8,next:3940,str:59679,d0:3935,d1:62162;
+            (____, BuiltinInvocation<Void> @:3934 op:551,dt:4,nt:8,next:3940,str:59679,d0:3935,d1:62162;
                 ("fade_in", Expression<MethodOrOperator> @:3935 op:551,dt:2,nt:9,next:3936,str:547,d0:0,d1:0;
                     (0f, Expression<Float> @:3936 op:6,dt:6,nt:9,next:3937,str:59688,d0:0,d1:0;
                         (0f, Expression<Float> @:3937 op:6,dt:6,nt:9,next:3938,str:59690,d0:0,d1:0;
                             (0f, Expression<Float> @:3938 op:6,dt:6,nt:9,next:3939,str:59692,d0:0,d1:0;
                                 (90, Expression<Short> @:3939 op:7,dt:7,nt:9,next:65535,str:59694,d0:90,d1:65535;))))))
-            (____, Scope<Void> @:3940 op:186,dt:4,nt:8,next:3946,str:59703,d0:3941,d1:62168;
+            (____, BuiltinInvocation<Void> @:3940 op:186,dt:4,nt:8,next:3946,str:59703,d0:3941,d1:62168;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:3941 op:186,dt:2,nt:9,next:3942,str:4988,d0:0,d1:0;
                     ("carrier_01", Expression<Scenery> @:3942 op:61,dt:55,nt:9,next:3943,str:4218,d0:124,d1:65535;
                         ("scenarios\objects\covenant\military\capital_ship\x01\x01", Expression<Animation> @:3943 op:36,dt:36,nt:9,next:3944,str:5021,d0:2703,d1:60421;
                             ("01_capital_ship_01", Expression<StringId> @:3944 op:11,dt:11,nt:9,next:3945,str:5078,d0:9549,d1:4608;
                                 (4294901783, Expression<Entity> @:3945 op:56,dt:50,nt:9,next:65535,str:5097,d0:23,d1:65535;))))))
-            (____, Scope<Void> @:3946 op:186,dt:4,nt:8,next:3952,str:59844,d0:3947,d1:62174;
+            (____, BuiltinInvocation<Void> @:3946 op:186,dt:4,nt:8,next:3952,str:59844,d0:3947,d1:62174;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:3947 op:186,dt:2,nt:9,next:3948,str:4988,d0:0,d1:0;
                     ("cruiser_01", Expression<Scenery> @:3948 op:61,dt:55,nt:9,next:3949,str:4229,d0:10,d1:65535;
                         ("scenarios\objects\covenant\military\battle_cruiser\x01\x01", Expression<Animation> @:3949 op:36,dt:36,nt:9,next:3950,str:5109,d0:2704,d1:60422;
                             ("01_ship01", Expression<StringId> @:3950 op:11,dt:11,nt:9,next:3951,str:5168,d0:9550,d1:2304;
                                 (4294901783, Expression<Entity> @:3951 op:56,dt:50,nt:9,next:65535,str:5097,d0:23,d1:65535;))))))
-            (____, Scope<Void> @:3952 op:186,dt:4,nt:8,next:3958,str:59975,d0:3953,d1:62180;
+            (____, BuiltinInvocation<Void> @:3952 op:186,dt:4,nt:8,next:3958,str:59975,d0:3953,d1:62180;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:3953 op:186,dt:2,nt:9,next:3954,str:4988,d0:0,d1:0;
                     ("cruiser_02", Expression<Scenery> @:3954 op:61,dt:55,nt:9,next:3955,str:4240,d0:11,d1:65535;
                         ("scenarios\objects\covenant\military\battle_cruiser\x01\x01", Expression<Animation> @:3955 op:36,dt:36,nt:9,next:3956,str:5109,d0:2704,d1:60422;
                             ("01_ship02", Expression<StringId> @:3956 op:11,dt:11,nt:9,next:3957,str:5178,d0:9551,d1:2304;
                                 (4294901783, Expression<Entity> @:3957 op:56,dt:50,nt:9,next:65535,str:5097,d0:23,d1:65535;))))))
-            (____, Scope<Void> @:3958 op:186,dt:4,nt:8,next:3964,str:60106,d0:3959,d1:62186;
+            (____, BuiltinInvocation<Void> @:3958 op:186,dt:4,nt:8,next:3964,str:60106,d0:3959,d1:62186;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:3959 op:186,dt:2,nt:9,next:3960,str:4988,d0:0,d1:0;
                     ("cruiser_03", Expression<Scenery> @:3960 op:61,dt:55,nt:9,next:3961,str:4251,d0:12,d1:65535;
                         ("scenarios\objects\covenant\military\battle_cruiser\x01\x01", Expression<Animation> @:3961 op:36,dt:36,nt:9,next:3962,str:5109,d0:2704,d1:60422;
                             ("01_ship03", Expression<StringId> @:3962 op:11,dt:11,nt:9,next:3963,str:5188,d0:9552,d1:2304;
                                 (4294901783, Expression<Entity> @:3963 op:56,dt:50,nt:9,next:65535,str:5097,d0:23,d1:65535;))))))
-            (____, Scope<Void> @:3964 op:186,dt:4,nt:8,next:3970,str:60237,d0:3965,d1:62192;
+            (____, BuiltinInvocation<Void> @:3964 op:186,dt:4,nt:8,next:3970,str:60237,d0:3965,d1:62192;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:3965 op:186,dt:2,nt:9,next:3966,str:4988,d0:0,d1:0;
                     ("cruiser_04", Expression<Scenery> @:3966 op:61,dt:55,nt:9,next:3967,str:4262,d0:13,d1:65535;
                         ("scenarios\objects\covenant\military\battle_cruiser\x01\x01", Expression<Animation> @:3967 op:36,dt:36,nt:9,next:3968,str:5109,d0:2704,d1:60422;
                             ("01_ship04", Expression<StringId> @:3968 op:11,dt:11,nt:9,next:3969,str:5198,d0:9553,d1:2304;
                                 (4294901783, Expression<Entity> @:3969 op:56,dt:50,nt:9,next:65535,str:5097,d0:23,d1:65535;))))))
-            (____, Scope<Void> @:3970 op:186,dt:4,nt:8,next:3976,str:60368,d0:3971,d1:62198;
+            (____, BuiltinInvocation<Void> @:3970 op:186,dt:4,nt:8,next:3976,str:60368,d0:3971,d1:62198;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:3971 op:186,dt:2,nt:9,next:3972,str:4988,d0:0,d1:0;
                     ("cruiser_05", Expression<Scenery> @:3972 op:61,dt:55,nt:9,next:3973,str:4273,d0:14,d1:65535;
                         ("scenarios\objects\covenant\military\battle_cruiser\x01\x01", Expression<Animation> @:3973 op:36,dt:36,nt:9,next:3974,str:5109,d0:2704,d1:60422;
                             ("01_ship05", Expression<StringId> @:3974 op:11,dt:11,nt:9,next:3975,str:5208,d0:9554,d1:2304;
                                 (4294901783, Expression<Entity> @:3975 op:56,dt:50,nt:9,next:65535,str:5097,d0:23,d1:65535;))))))
-            (____, Scope<Void> @:3976 op:186,dt:4,nt:8,next:3982,str:60502,d0:3977,d1:62204;
+            (____, BuiltinInvocation<Void> @:3976 op:186,dt:4,nt:8,next:3982,str:60502,d0:3977,d1:62204;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:3977 op:186,dt:2,nt:9,next:3978,str:4988,d0:0,d1:0;
                     ("matte_high_charity", Expression<Scenery> @:3978 op:61,dt:55,nt:9,next:3979,str:4505,d0:41,d1:65535;
                         ("objects\cinematics\matte_paintings\high_charity_exterior\x01\x01", Expression<Animation> @:3979 op:36,dt:36,nt:9,next:3980,str:5218,d0:2705,d1:60423;
                             ("high_charity_01", Expression<StringId> @:3980 op:11,dt:11,nt:9,next:3981,str:5283,d0:9576,d1:3840;
                                 (4294901783, Expression<Entity> @:3981 op:56,dt:50,nt:9,next:65535,str:5097,d0:23,d1:65535;))))))
-            (____, Scope<Void> @:3982 op:186,dt:4,nt:8,next:3988,str:60653,d0:3983,d1:62210;
+            (____, BuiltinInvocation<Void> @:3982 op:186,dt:4,nt:8,next:3988,str:60653,d0:3983,d1:62210;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:3983 op:186,dt:2,nt:9,next:3984,str:4988,d0:0,d1:0;
                     ("matte_threshold", Expression<Scenery> @:3984 op:61,dt:55,nt:9,next:3985,str:4524,d0:27,d1:65535;
                         ("objects\cinematics\matte_paintings\threshold_space\x01\x01", Expression<Animation> @:3985 op:36,dt:36,nt:9,next:3986,str:5299,d0:2706,d1:60424;
                             ("threshold_space_01", Expression<StringId> @:3986 op:11,dt:11,nt:9,next:3987,str:5358,d0:9577,d1:4608;
                                 (4294901783, Expression<Entity> @:3987 op:56,dt:50,nt:9,next:65535,str:5097,d0:23,d1:65535;))))))
-            (____, Scope<Void> @:3988 op:186,dt:4,nt:8,next:3994,str:60798,d0:3989,d1:62216;
+            (____, BuiltinInvocation<Void> @:3988 op:186,dt:4,nt:8,next:3994,str:60798,d0:3989,d1:62216;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:3989 op:186,dt:2,nt:9,next:3990,str:4988,d0:0,d1:0;
                     ("matte_halo_01", Expression<Scenery> @:3990 op:61,dt:55,nt:9,next:3991,str:4540,d0:28,d1:65535;
                         ("objects\cinematics\matte_paintings\halo_destroyed_01\x01\x01", Expression<Animation> @:3991 op:36,dt:36,nt:9,next:3992,str:5377,d0:2707,d1:60425;
                             ("halo_destroyed01_01", Expression<StringId> @:3992 op:11,dt:11,nt:9,next:3993,str:5438,d0:9579,d1:4864;
                                 (4294901783, Expression<Entity> @:3993 op:56,dt:50,nt:9,next:65535,str:5097,d0:23,d1:65535;))))))
-            (____, Scope<Void> @:3994 op:186,dt:4,nt:8,next:4000,str:60944,d0:3995,d1:62222;
+            (____, BuiltinInvocation<Void> @:3994 op:186,dt:4,nt:8,next:4000,str:60944,d0:3995,d1:62222;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:3995 op:186,dt:2,nt:9,next:3996,str:4988,d0:0,d1:0;
                     ("matte_halo_02", Expression<Scenery> @:3996 op:61,dt:55,nt:9,next:3997,str:4554,d0:29,d1:65535;
                         ("objects\cinematics\matte_paintings\halo_destroyed_02\x01\x01", Expression<Animation> @:3997 op:36,dt:36,nt:9,next:3998,str:5458,d0:2708,d1:60426;
                             ("halo_destroyed02_01", Expression<StringId> @:3998 op:11,dt:11,nt:9,next:3999,str:5519,d0:9580,d1:4864;
                                 (4294901783, Expression<Entity> @:3999 op:56,dt:50,nt:9,next:65535,str:5097,d0:23,d1:65535;))))))
-            (____, Scope<Void> @:4000 op:186,dt:4,nt:8,next:4006,str:61090,d0:4001,d1:62228;
+            (____, BuiltinInvocation<Void> @:4000 op:186,dt:4,nt:8,next:4006,str:61090,d0:4001,d1:62228;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:4001 op:186,dt:2,nt:9,next:4002,str:4988,d0:0,d1:0;
                     ("matte_stardust_01", Expression<Scenery> @:4002 op:61,dt:55,nt:9,next:4003,str:4568,d0:182,d1:65535;
                         ("objects\cinematics\matte_paintings\high_charity_stardust\x01\x01", Expression<Animation> @:4003 op:36,dt:36,nt:9,next:4004,str:5539,d0:2709,d1:60427;
                             ("stardust01_01", Expression<StringId> @:4004 op:11,dt:11,nt:9,next:4005,str:5604,d0:9581,d1:3328;
                                 (4294901783, Expression<Entity> @:4005 op:56,dt:50,nt:9,next:65535,str:5097,d0:23,d1:65535;))))))
-            (____, Scope<Void> @:4006 op:186,dt:4,nt:8,next:4012,str:61238,d0:4007,d1:62234;
+            (____, BuiltinInvocation<Void> @:4006 op:186,dt:4,nt:8,next:4012,str:61238,d0:4007,d1:62234;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:4007 op:186,dt:2,nt:9,next:4008,str:4988,d0:0,d1:0;
                     ("matte_stardust_02", Expression<Scenery> @:4008 op:61,dt:55,nt:9,next:4009,str:4586,d0:183,d1:65535;
                         ("objects\cinematics\matte_paintings\high_charity_stardust\x01\x01", Expression<Animation> @:4009 op:36,dt:36,nt:9,next:4010,str:5539,d0:2709,d1:60427;
                             ("stardust02_01", Expression<StringId> @:4010 op:11,dt:11,nt:9,next:4011,str:5618,d0:9583,d1:3328;
                                 (4294901783, Expression<Entity> @:4011 op:56,dt:50,nt:9,next:65535,str:5097,d0:23,d1:65535;))))))
-            (____, Scope<Void> @:4012 op:708,dt:4,nt:8,next:4015,str:61389,d0:4013,d1:62240;
+            (____, BuiltinInvocation<Void> @:4012 op:708,dt:4,nt:8,next:4015,str:61389,d0:4013,d1:62240;
                 ("cinematic_screen_effect_start", Expression<MethodOrOperator> @:4013 op:708,dt:2,nt:9,next:4014,str:5632,d0:0,d1:0;
                     (True, Expression<Boolean> @:4014 op:5,dt:5,nt:9,next:65535,str:61420,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:4015 op:19,dt:4,nt:8,next:4022,str:61502,d0:4016,d1:62243;
+            (____, BuiltinInvocation<Void> @:4015 op:19,dt:4,nt:8,next:4022,str:61502,d0:4016,d1:62243;
                 ("sleep", Expression<MethodOrOperator> @:4016 op:19,dt:2,nt:9,next:4017,str:80,d0:0,d1:0;
-                    (____, Scope<Short> @:4017 op:8,dt:7,nt:8,next:65535,str:61509,d0:4018,d1:62245;
+                    (____, BuiltinInvocation<Short> @:4017 op:8,dt:7,nt:8,next:65535,str:61509,d0:4018,d1:62245;
                         ("-", Expression<MethodOrOperator> @:4018 op:8,dt:2,nt:9,next:4019,str:5662,d0:0,d1:0;
-                            (-1.3235963E+31f, Scope<Float> @:4019 op:458,dt:6,nt:8,next:4021,str:61512,d0:4020,d1:62247;
+                            (-1.3235963E+31f, BuiltinInvocation<Float> @:4019 op:458,dt:6,nt:8,next:4021,str:61512,d0:4020,d1:62247;
                                 ("camera_time", Expression<MethodOrOperator> @:4020 op:458,dt:2,nt:9,next:65535,str:5664,d0:0,d1:0;))
                             ("prediction_offset", VariableAccess<Float> @:4021 op:6,dt:6,nt:13,next:65535,str:4858,d0:2,d1:0;)))))
             ("x01_01b_predict_stub", ScriptInvocation<Void> @:4022 op:38,dt:4,nt:10,next:4024,str:61548,d0:4023,d1:62250;
                 ("x01_01b_predict_stub", Expression<MethodOrOperator> @:4023 op:38,dt:2,nt:9,next:65535,str:5676,d0:0,d1:0;))
             ("x01_01b_problem_actors", ScriptInvocation<Void> @:4024 op:54,dt:4,nt:10,next:4026,str:61573,d0:4025,d1:62252;
                 ("x01_01b_problem_actors", Expression<MethodOrOperator> @:4025 op:54,dt:2,nt:9,next:65535,str:5697,d0:0,d1:0;))
-            (____, Scope<Void> @:4026 op:19,dt:4,nt:8,next:4033,str:61603,d0:4027,d1:62254;
+            (____, BuiltinInvocation<Void> @:4026 op:19,dt:4,nt:8,next:4033,str:61603,d0:4027,d1:62254;
                 ("sleep", Expression<MethodOrOperator> @:4027 op:19,dt:2,nt:9,next:4028,str:80,d0:0,d1:0;
-                    (____, Scope<Short> @:4028 op:8,dt:7,nt:8,next:65535,str:61610,d0:4029,d1:62256;
+                    (____, BuiltinInvocation<Short> @:4028 op:8,dt:7,nt:8,next:65535,str:61610,d0:4029,d1:62256;
                         ("-", Expression<MethodOrOperator> @:4029 op:8,dt:2,nt:9,next:4030,str:5662,d0:0,d1:0;
-                            (-1.4107486E+31f, Scope<Float> @:4030 op:458,dt:6,nt:8,next:4032,str:61613,d0:4031,d1:62258;
+                            (-1.4107486E+31f, BuiltinInvocation<Float> @:4030 op:458,dt:6,nt:8,next:4032,str:61613,d0:4031,d1:62258;
                                 ("camera_time", Expression<MethodOrOperator> @:4031 op:458,dt:2,nt:9,next:65535,str:5664,d0:0,d1:0;))
                             ("sound_offset", VariableAccess<Float> @:4032 op:6,dt:6,nt:13,next:65535,str:5720,d0:1,d1:0;)))))
-            (____, Scope<Void> @:4033 op:594,dt:4,nt:8,next:4036,str:61644,d0:4034,d1:62261;
+            (____, BuiltinInvocation<Void> @:4033 op:594,dt:4,nt:8,next:4036,str:61644,d0:4034,d1:62261;
                 ("sound_impulse_predict", Expression<MethodOrOperator> @:4034 op:594,dt:2,nt:9,next:4035,str:4836,d0:0,d1:0;
                     ("sound\cinematics\01_spacestation\x01\foley\x01_01b_fol", Expression<Sound> @:4035 op:32,dt:32,nt:9,next:65535,str:5733,d0:2710,d1:60428;)))
-            (____, Scope<Void> @:4036 op:19,dt:4,nt:8,next:4043,str:61728,d0:4037,d1:62264;
+            (____, BuiltinInvocation<Void> @:4036 op:19,dt:4,nt:8,next:4043,str:61728,d0:4037,d1:62264;
                 ("sleep", Expression<MethodOrOperator> @:4037 op:19,dt:2,nt:9,next:4038,str:80,d0:0,d1:0;
-                    (____, Scope<Short> @:4038 op:8,dt:7,nt:8,next:65535,str:61735,d0:4039,d1:62266;
+                    (____, BuiltinInvocation<Short> @:4038 op:8,dt:7,nt:8,next:65535,str:61735,d0:4039,d1:62266;
                         ("-", Expression<MethodOrOperator> @:4039 op:8,dt:2,nt:9,next:4040,str:5662,d0:0,d1:0;
-                            (-1.489978E+31f, Scope<Float> @:4040 op:458,dt:6,nt:8,next:4042,str:61738,d0:4041,d1:62268;
+                            (-1.489978E+31f, BuiltinInvocation<Float> @:4040 op:458,dt:6,nt:8,next:4042,str:61738,d0:4041,d1:62268;
                                 ("camera_time", Expression<MethodOrOperator> @:4041 op:458,dt:2,nt:9,next:65535,str:5664,d0:0,d1:0;))
                             (1f, Expression<Float> @:4042 op:6,dt:6,nt:9,next:65535,str:61752,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:4043 op:710,dt:4,nt:8,next:4046,str:61761,d0:4044,d1:62271;
+            (____, BuiltinInvocation<Void> @:4043 op:710,dt:4,nt:8,next:4046,str:61761,d0:4044,d1:62271;
                 ("cinematic_screen_effect_set_crossfade", Expression<MethodOrOperator> @:4044 op:710,dt:2,nt:9,next:4045,str:5788,d0:0,d1:0;
                     (2f, Expression<Float> @:4045 op:6,dt:6,nt:9,next:65535,str:61800,d0:0,d1:16384;)))
-            (____, Scope<Void> @:4046 op:19,dt:4,nt:8,next:65535,str:61805,d0:4047,d1:62274;
+            (____, BuiltinInvocation<Void> @:4046 op:19,dt:4,nt:8,next:65535,str:61805,d0:4047,d1:62274;
                 ("sleep", Expression<MethodOrOperator> @:4047 op:19,dt:2,nt:9,next:4048,str:80,d0:0,d1:0;
                     (1, Expression<Short> @:4048 op:7,dt:7,nt:9,next:65535,str:61812,d0:1,d1:65535;))))))

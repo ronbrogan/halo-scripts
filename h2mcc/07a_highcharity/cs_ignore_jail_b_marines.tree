@@ -1,19 +1,19 @@
 
 ("cs_ignore_jail_b_marines", MethodDecl<Void> @:329 op:0,dt:0,nt:65535,next:15533,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:15533 op:0,dt:4,nt:8,next:65535,str:50452,d0:15534,d1:40994;
+    (____, BuiltinInvocation<Void> @:15533 op:0,dt:4,nt:8,next:65535,str:50452,d0:15534,d1:40994;
         ("begin", Expression<MethodOrOperator> @:15534 op:0,dt:2,nt:9,next:15518,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:15518 op:440,dt:4,nt:8,next:15521,str:50502,d0:15519,d1:40979;
+            (____, BuiltinInvocation<Void> @:15518 op:440,dt:4,nt:8,next:15521,str:50502,d0:15519,d1:40979;
                 ("cs_abort_on_damage", Expression<MethodOrOperator> @:15519 op:440,dt:2,nt:9,next:15520,str:29350,d0:0,d1:0;
                     (False, Expression<Boolean> @:15520 op:5,dt:5,nt:9,next:65535,str:50522,d0:65280,d1:65535;)))
-            (____, Scope<Void> @:15521 op:314,dt:4,nt:8,next:15527,str:50531,d0:15522,d1:40982;
+            (____, BuiltinInvocation<Void> @:15521 op:314,dt:4,nt:8,next:15527,str:50531,d0:15522,d1:40982;
                 ("ai_disregard", Expression<MethodOrOperator> @:15522 op:314,dt:2,nt:9,next:15523,str:17205,d0:0,d1:0;
-                    (____, Scope<List> @:15523 op:332,dt:31,nt:8,next:15526,str:50545,d0:15524,d1:40984;
+                    (____, BuiltinInvocation<List> @:15523 op:332,dt:31,nt:8,next:15526,str:50545,d0:15524,d1:40984;
                         ("ai_actors", Expression<MethodOrOperator> @:15524 op:332,dt:2,nt:9,next:15525,str:21173,d0:0,d1:0;
                             ("jail_b_marines", Expression<AI> @:15525 op:19,dt:19,nt:9,next:65535,str:33399,d0:87,d1:0;)))
                     (True, Expression<Boolean> @:15526 op:5,dt:5,nt:9,next:65535,str:50572,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:15527 op:394,dt:4,nt:8,next:15530,str:50580,d0:15528,d1:40988;
+            (____, BuiltinInvocation<Void> @:15527 op:394,dt:4,nt:8,next:15530,str:50580,d0:15528,d1:40988;
                 ("cs_look_player", Expression<MethodOrOperator> @:15528 op:394,dt:2,nt:9,next:15529,str:33370,d0:0,d1:0;
                     (True, Expression<Boolean> @:15529 op:5,dt:5,nt:9,next:65535,str:50596,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:15530 op:21,dt:4,nt:8,next:65535,str:50604,d0:15531,d1:40991;
+            (____, BuiltinInvocation<Void> @:15530 op:21,dt:4,nt:8,next:65535,str:50604,d0:15531,d1:40991;
                 ("sleep_until", Expression<MethodOrOperator> @:15531 op:21,dt:2,nt:9,next:15532,str:231,d0:0,d1:0;
                     ("g_jail_b_free", VariableAccess<Boolean> @:15532 op:5,dt:5,nt:13,next:65535,str:33414,d0:13,d1:0;))))))

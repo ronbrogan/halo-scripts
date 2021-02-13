@@ -1,29 +1,29 @@
 
 ("e4_pro_inf1_main", MethodDecl<Void> @:175 op:0,dt:0,nt:65535,next:6502,str:12618,d0:0,d1:0;
-    (____, Scope<Void> @:6502 op:0,dt:4,nt:8,next:65535,str:16308,d0:6503,d1:64730;
+    (____, BuiltinInvocation<Void> @:6502 op:0,dt:4,nt:8,next:65535,str:16308,d0:6503,d1:64730;
         ("begin", Expression<MethodOrOperator> @:6503 op:0,dt:2,nt:9,next:6476,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:6476 op:21,dt:4,nt:8,next:6484,str:16343,d0:6477,d1:64704;
+            (____, BuiltinInvocation<Void> @:6476 op:21,dt:4,nt:8,next:6484,str:16343,d0:6477,d1:64704;
                 ("sleep_until", Expression<MethodOrOperator> @:6477 op:21,dt:2,nt:9,next:6478,str:294,d0:0,d1:0;
-                    (____, Scope<Boolean> @:6478 op:33,dt:5,nt:8,next:6483,str:16356,d0:6479,d1:64706;
+                    (____, BuiltinInvocation<Boolean> @:6478 op:33,dt:5,nt:8,next:6483,str:16356,d0:6479,d1:64706;
                         ("volume_test_objects", Expression<MethodOrOperator> @:6479 op:33,dt:2,nt:9,next:6480,str:7259,d0:0,d1:0;
                             ("tv_e4_second_step", Expression<Trigger> @:6480 op:13,dt:13,nt:9,next:6481,str:12342,d0:17,d1:0;
-                                (____, Scope<List> @:6481 op:28,dt:31,nt:8,next:65535,str:16395,d0:6482,d1:64709;
+                                (____, BuiltinInvocation<List> @:6481 op:28,dt:31,nt:8,next:65535,str:16395,d0:6482,d1:64709;
                                     ("players", Expression<MethodOrOperator> @:6482 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;)))))
                     (15, Expression<Short> @:6483 op:7,dt:7,nt:9,next:65535,str:16406,d0:15,d1:65535;)))
-            (____, Scope<Void> @:6484 op:587,dt:4,nt:8,next:6486,str:16412,d0:6485,d1:64712;
+            (____, BuiltinInvocation<Void> @:6484 op:587,dt:4,nt:8,next:6486,str:16412,d0:6485,d1:64712;
                 ("game_save", Expression<MethodOrOperator> @:6485 op:587,dt:2,nt:9,next:65535,str:7417,d0:0,d1:0;))
-            (____, Scope<Void> @:6486 op:19,dt:4,nt:8,next:6489,str:16426,d0:6487,d1:64714;
+            (____, BuiltinInvocation<Void> @:6486 op:19,dt:4,nt:8,next:6489,str:16426,d0:6487,d1:64714;
                 ("sleep", Expression<MethodOrOperator> @:6487 op:19,dt:2,nt:9,next:6488,str:143,d0:0,d1:0;
                     (15, Expression<Short> @:6488 op:7,dt:7,nt:9,next:65535,str:16433,d0:15,d1:65535;)))
-            (____, Scope<Void> @:6489 op:291,dt:4,nt:8,next:65535,str:16439,d0:6490,d1:64717;
+            (____, BuiltinInvocation<Void> @:6489 op:291,dt:4,nt:8,next:65535,str:16439,d0:6490,d1:64717;
                 ("ai_place", Expression<MethodOrOperator> @:6490 op:291,dt:2,nt:9,next:6491,str:6964,d0:0,d1:0;
                     ("e4_pro_inf1", Expression<AI> @:6491 op:19,dt:19,nt:9,next:6492,str:12360,d0:28,d1:0;
-                        (____, Scope<Short> @:6492 op:26,dt:7,nt:8,next:65535,str:16461,d0:6493,d1:64720;
+                        (____, BuiltinInvocation<Short> @:6492 op:26,dt:7,nt:8,next:65535,str:16461,d0:6493,d1:64720;
                             ("pin", Expression<MethodOrOperator> @:6493 op:26,dt:2,nt:9,next:6494,str:7750,d0:0,d1:0;
-                                (-8.7271754E+36f, Scope<Float> @:6494 op:8,dt:6,nt:8,next:6500,str:16466,d0:6495,d1:64722;
+                                (-8.7271754E+36f, BuiltinInvocation<Float> @:6494 op:8,dt:6,nt:8,next:6500,str:16466,d0:6495,d1:64722;
                                     ("-", Expression<MethodOrOperator> @:6495 op:8,dt:2,nt:9,next:6496,str:2395,d0:0,d1:0;
                                         (10f, Expression<Float> @:6496 op:6,dt:6,nt:9,next:6497,str:16469,d0:0,d1:16672;
-                                            (-8.8517924E+36f, Scope<Float> @:6497 op:327,dt:6,nt:8,next:65535,str:16472,d0:6498,d1:64725;
+                                            (-8.8517924E+36f, BuiltinInvocation<Float> @:6497 op:327,dt:6,nt:8,next:65535,str:16472,d0:6498,d1:64725;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:6498 op:327,dt:2,nt:9,next:6499,str:7534,d0:0,d1:0;
                                                     ("prophets", Expression<AI> @:6499 op:19,dt:19,nt:9,next:65535,str:7754,d0:1,d1:16384;))))))
                                 (1f, Expression<Float> @:6500 op:6,dt:6,nt:9,next:6501,str:16500,d0:0,d1:16256;

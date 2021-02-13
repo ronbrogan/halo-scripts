@@ -1,52 +1,52 @@
 
 ("cs_e1_cov_inf0_grunt0", MethodDecl<Void> @:386 op:0,dt:0,nt:65535,next:16079,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:16079 op:0,dt:4,nt:8,next:65535,str:5677,d0:16080,d1:41540;
+    (____, BuiltinInvocation<Void> @:16079 op:0,dt:4,nt:8,next:65535,str:5677,d0:16080,d1:41540;
         ("begin", Expression<MethodOrOperator> @:16080 op:0,dt:2,nt:9,next:16031,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:16031 op:445,dt:4,nt:8,next:16034,str:5774,d0:16032,d1:41492;
+            (____, BuiltinInvocation<Void> @:16031 op:445,dt:4,nt:8,next:16034,str:5774,d0:16032,d1:41492;
                 ("cs_enable_dialogue", Expression<MethodOrOperator> @:16032 op:445,dt:2,nt:9,next:16033,str:26637,d0:0,d1:0;
                     (True, Expression<Boolean> @:16033 op:5,dt:5,nt:9,next:65535,str:5794,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:16034 op:422,dt:4,nt:8,next:16037,str:5802,d0:16035,d1:41495;
+            (____, BuiltinInvocation<Void> @:16034 op:422,dt:4,nt:8,next:16037,str:5802,d0:16035,d1:41495;
                 ("cs_movement_mode", Expression<MethodOrOperator> @:16035 op:422,dt:2,nt:9,next:16036,str:21000,d0:0,d1:0;
                     ("ai_movement_combat", VariableAccess<Short> @:16036 op:7,dt:7,nt:13,next:65535,str:21060,d0:33583,d1:65535;)))
-            (____, Scope<Void> @:16037 op:390,dt:4,nt:8,next:16040,str:5842,d0:16038,d1:41498;
+            (____, BuiltinInvocation<Void> @:16037 op:390,dt:4,nt:8,next:16040,str:5842,d0:16038,d1:41498;
                 ("cs_start_to", Expression<MethodOrOperator> @:16038 op:390,dt:2,nt:9,next:16039,str:20941,d0:0,d1:0;
                     ("e1_patrol/grunt0", Expression<SpatialPoint> @:16039 op:28,dt:28,nt:9,next:65535,str:26656,d0:0,d1:1;)))
-            (____, Scope<Void> @:16040 op:21,dt:4,nt:8,next:16055,str:5913,d0:16041,d1:41501;
+            (____, BuiltinInvocation<Void> @:16040 op:21,dt:4,nt:8,next:16055,str:5913,d0:16041,d1:41501;
                 ("sleep_until", Expression<MethodOrOperator> @:16041 op:21,dt:2,nt:9,next:16042,str:294,d0:0,d1:0;
-                    (____, Scope<Boolean> @:16042 op:6,dt:5,nt:8,next:16054,str:5930,d0:16043,d1:41503;
+                    (____, BuiltinInvocation<Boolean> @:16042 op:6,dt:5,nt:8,next:16054,str:5930,d0:16043,d1:41503;
                         ("or", Expression<MethodOrOperator> @:16043 op:6,dt:2,nt:9,next:16044,str:907,d0:0,d1:0;
-                            (____, Scope<Boolean> @:16044 op:25,dt:5,nt:8,next:16048,str:5938,d0:16045,d1:41505;
+                            (____, BuiltinInvocation<Boolean> @:16044 op:25,dt:5,nt:8,next:16048,str:5938,d0:16045,d1:41505;
                                 ("not", Expression<MethodOrOperator> @:16045 op:25,dt:2,nt:9,next:16046,str:460,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:16046 op:392,dt:5,nt:8,next:65535,str:5943,d0:16047,d1:41507;
+                                    (____, BuiltinInvocation<Boolean> @:16046 op:392,dt:5,nt:8,next:65535,str:5943,d0:16047,d1:41507;
                                         ("cs_moving", Expression<MethodOrOperator> @:16047 op:392,dt:2,nt:9,next:65535,str:26673,d0:0,d1:0;))))
-                            (____, Scope<Boolean> @:16048 op:17,dt:5,nt:8,next:65535,str:5960,d0:16049,d1:41509;
+                            (____, BuiltinInvocation<Boolean> @:16048 op:17,dt:5,nt:8,next:65535,str:5960,d0:16049,d1:41509;
                                 (">=", Expression<MethodOrOperator> @:16049 op:17,dt:2,nt:9,next:16050,str:734,d0:0,d1:0;
-                                    (____, Scope<Short> @:16050 op:353,dt:7,nt:8,next:16053,str:5964,d0:16051,d1:41511;
+                                    (____, BuiltinInvocation<Short> @:16050 op:353,dt:7,nt:8,next:16053,str:5964,d0:16051,d1:41511;
                                         ("ai_combat_status", Expression<MethodOrOperator> @:16051 op:353,dt:2,nt:9,next:16052,str:13709,d0:0,d1:0;
                                             ("ai_current_actor", VariableAccess<AI> @:16052 op:19,dt:19,nt:13,next:65535,str:4350,d0:33564,d1:65535;)))
                                     ("ai_combat_status_visible", VariableAccess<Short> @:16053 op:7,dt:7,nt:13,next:65535,str:13807,d0:33578,d1:65535;)))))
                     (10, Expression<Short> @:16054 op:7,dt:7,nt:9,next:65535,str:6034,d0:10,d1:65535;)))
-            (____, Scope<Void> @:16055 op:430,dt:4,nt:8,next:16063,str:6089,d0:16056,d1:41516;
+            (____, BuiltinInvocation<Void> @:16055 op:430,dt:4,nt:8,next:16063,str:6089,d0:16056,d1:41516;
                 ("cs_approach", Expression<MethodOrOperator> @:16056 op:430,dt:2,nt:9,next:16057,str:26683,d0:0,d1:0;
-                    (____, Scope<Entity> @:16057 op:284,dt:50,nt:8,next:16060,str:6102,d0:16058,d1:41518;
+                    (____, BuiltinInvocation<Entity> @:16057 op:284,dt:50,nt:8,next:16060,str:6102,d0:16058,d1:41518;
                         ("ai_get_object", Expression<MethodOrOperator> @:16058 op:284,dt:2,nt:9,next:16059,str:4496,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:16059 op:19,dt:19,nt:13,next:65535,str:4350,d0:33564,d1:65535;)))
                     (0.1f, Expression<Float> @:16060 op:6,dt:6,nt:9,next:16061,str:6135,d0:52429,d1:15820;
                         (0.1f, Expression<Float> @:16061 op:6,dt:6,nt:9,next:16062,str:6139,d0:52429,d1:15820;
                             (0.1f, Expression<Float> @:16062 op:6,dt:6,nt:9,next:65535,str:6143,d0:52429,d1:15820;)))))
-            (____, Scope<Void> @:16063 op:21,dt:4,nt:8,next:16073,str:6214,d0:16064,d1:41524;
+            (____, BuiltinInvocation<Void> @:16063 op:21,dt:4,nt:8,next:16073,str:6214,d0:16064,d1:41524;
                 ("sleep_until", Expression<MethodOrOperator> @:16064 op:21,dt:2,nt:9,next:16065,str:294,d0:0,d1:0;
-                    (____, Scope<Boolean> @:16065 op:17,dt:5,nt:8,next:16071,str:6230,d0:16066,d1:41526;
+                    (____, BuiltinInvocation<Boolean> @:16065 op:17,dt:5,nt:8,next:16071,str:6230,d0:16066,d1:41526;
                         (">=", Expression<MethodOrOperator> @:16066 op:17,dt:2,nt:9,next:16067,str:734,d0:0,d1:0;
-                            (____, Scope<Short> @:16067 op:353,dt:7,nt:8,next:16070,str:6234,d0:16068,d1:41528;
+                            (____, BuiltinInvocation<Short> @:16067 op:353,dt:7,nt:8,next:16070,str:6234,d0:16068,d1:41528;
                                 ("ai_combat_status", Expression<MethodOrOperator> @:16068 op:353,dt:2,nt:9,next:16069,str:13709,d0:0,d1:0;
                                     ("ai_current_actor", VariableAccess<AI> @:16069 op:19,dt:19,nt:13,next:65535,str:4350,d0:33564,d1:65535;)))
                             ("ai_combat_status_dangerous", VariableAccess<Short> @:16070 op:7,dt:7,nt:13,next:65535,str:26695,d0:33580,d1:65535;)))
                     (3, Expression<Short> @:16071 op:7,dt:7,nt:9,next:16072,str:6301,d0:3,d1:65535;
                         (25, Expression<Int> @:16072 op:8,dt:8,nt:9,next:65535,str:6306,d0:25,d1:0;))))
-            (____, Scope<Void> @:16073 op:422,dt:4,nt:8,next:16076,str:6333,d0:16074,d1:41534;
+            (____, BuiltinInvocation<Void> @:16073 op:422,dt:4,nt:8,next:16076,str:6333,d0:16074,d1:41534;
                 ("cs_movement_mode", Expression<MethodOrOperator> @:16074 op:422,dt:2,nt:9,next:16075,str:21000,d0:0,d1:0;
                     ("ai_movement_flee", VariableAccess<Short> @:16075 op:7,dt:7,nt:13,next:65535,str:26722,d0:33584,d1:65535;)))
-            (____, Scope<Void> @:16076 op:385,dt:4,nt:8,next:65535,str:6371,d0:16077,d1:41537;
+            (____, BuiltinInvocation<Void> @:16076 op:385,dt:4,nt:8,next:65535,str:6371,d0:16077,d1:41537;
                 ("cs_go_to", Expression<MethodOrOperator> @:16077 op:385,dt:2,nt:9,next:16078,str:4510,d0:0,d1:0;
                     ("e1_patrol/grunt1", Expression<SpatialPoint> @:16078 op:28,dt:28,nt:9,next:65535,str:26739,d0:1,d1:1;))))))

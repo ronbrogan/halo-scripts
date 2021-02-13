@@ -1,26 +1,26 @@
 
 ("ai_cond_a_em_m", MethodDecl<Void> @:231 op:0,dt:0,nt:65535,next:9150,str:19306,d0:0,d1:0;
-    (____, Scope<Void> @:9150 op:0,dt:4,nt:8,next:65535,str:32993,d0:9151,d1:34611;
+    (____, BuiltinInvocation<Void> @:9150 op:0,dt:4,nt:8,next:65535,str:32993,d0:9151,d1:34611;
         ("begin", Expression<MethodOrOperator> @:9151 op:0,dt:2,nt:9,next:9128,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:9128 op:2,dt:4,nt:8,next:9134,str:33030,d0:9129,d1:34589;
+            (____, BuiltinInvocation<Void> @:9128 op:2,dt:4,nt:8,next:9134,str:33030,d0:9129,d1:34589;
                 ("if", Expression<MethodOrOperator> @:9129 op:2,dt:2,nt:9,next:9130,str:456,d0:0,d1:0;
                     ("debug", VariableAccess<Boolean> @:9130 op:5,dt:5,nt:13,next:9131,str:11238,d0:3,d1:0;
-                        (____, Scope<Void> @:9131 op:27,dt:4,nt:8,next:65535,str:33040,d0:9132,d1:34592;
+                        (____, BuiltinInvocation<Void> @:9131 op:27,dt:4,nt:8,next:65535,str:33040,d0:9132,d1:34592;
                             ("print", Expression<MethodOrOperator> @:9132 op:27,dt:2,nt:9,next:9133,str:86,d0:0,d1:0;
                                 ("m", Expression<String> @:9133 op:9,dt:9,nt:9,next:65535,str:18843,d0:18843,d1:0;))))))
-            (____, Scope<Void> @:9134 op:290,dt:4,nt:8,next:9137,str:33055,d0:9135,d1:34595;
+            (____, BuiltinInvocation<Void> @:9134 op:290,dt:4,nt:8,next:9137,str:33055,d0:9135,d1:34595;
                 ("ai_place", Expression<MethodOrOperator> @:9135 op:290,dt:2,nt:9,next:9136,str:1415,d0:0,d1:0;
                     ("cond_a_sen_b/m", Expression<AI> @:9136 op:19,dt:19,nt:9,next:65535,str:18845,d0:4,d1:49163;)))
-            (____, Scope<Void> @:9137 op:4,dt:4,nt:8,next:9144,str:33083,d0:9138,d1:34598;
+            (____, BuiltinInvocation<Void> @:9137 op:4,dt:4,nt:8,next:9144,str:33083,d0:9138,d1:34598;
                 ("set", Expression<MethodOrOperator> @:9138 op:4,dt:2,nt:9,next:9139,str:2613,d0:0,d1:0;
                     ("g_cond_a_count", VariableAccess<Short> @:9139 op:65535,dt:7,nt:13,next:9140,str:18681,d0:55,d1:0;
-                        (____, Scope<Short> @:9140 op:7,dt:7,nt:8,next:65535,str:33103,d0:9141,d1:34601;
+                        (____, BuiltinInvocation<Short> @:9140 op:7,dt:7,nt:8,next:65535,str:33103,d0:9141,d1:34601;
                             ("+", Expression<MethodOrOperator> @:9141 op:7,dt:2,nt:9,next:9142,str:983,d0:0,d1:0;
                                 ("g_cond_a_count", VariableAccess<Float> @:9142 op:6,dt:6,nt:13,next:9143,str:18681,d0:55,d1:0;
                                     (1f, Expression<Float> @:9143 op:6,dt:6,nt:9,next:65535,str:33121,d0:0,d1:16256;)))))))
-            (____, Scope<Void> @:9144 op:19,dt:4,nt:8,next:65535,str:33128,d0:9145,d1:34605;
+            (____, BuiltinInvocation<Void> @:9144 op:19,dt:4,nt:8,next:65535,str:33128,d0:9145,d1:34605;
                 ("sleep", Expression<MethodOrOperator> @:9145 op:19,dt:2,nt:9,next:9146,str:80,d0:0,d1:0;
-                    (____, Scope<Short> @:9146 op:124,dt:7,nt:8,next:65535,str:33135,d0:9147,d1:34607;
+                    (____, BuiltinInvocation<Short> @:9146 op:124,dt:7,nt:8,next:65535,str:33135,d0:9147,d1:34607;
                         ("random_range", Expression<MethodOrOperator> @:9147 op:124,dt:2,nt:9,next:9148,str:17670,d0:0,d1:0;
                             ("g_sleep_lower_bound", VariableAccess<Short> @:9148 op:7,dt:7,nt:13,next:9149,str:10917,d0:6,d1:0;
                                 ("g_sleep_upper_bound", VariableAccess<Short> @:9149 op:7,dt:7,nt:13,next:65535,str:10937,d0:7,d1:0;)))))))))

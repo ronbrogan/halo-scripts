@@ -1,68 +1,68 @@
 
 ("bottling_killer_new", MethodDecl<Void> @:328 op:0,dt:0,nt:65535,next:15555,str:28265,d0:0,d1:0;
-    (____, Scope<Void> @:15555 op:0,dt:4,nt:8,next:65535,str:44638,d0:15556,d1:41016;
+    (____, BuiltinInvocation<Void> @:15555 op:0,dt:4,nt:8,next:65535,str:44638,d0:15556,d1:41016;
         ("begin", Expression<MethodOrOperator> @:15556 op:0,dt:2,nt:9,next:15491,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:15491 op:21,dt:4,nt:8,next:15497,str:44676,d0:15492,d1:40952;
+            (____, BuiltinInvocation<Void> @:15491 op:21,dt:4,nt:8,next:15497,str:44676,d0:15492,d1:40952;
                 ("sleep_until", Expression<MethodOrOperator> @:15492 op:21,dt:2,nt:9,next:15493,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:15493 op:13,dt:5,nt:8,next:65535,str:44689,d0:15494,d1:40954;
+                    (____, BuiltinInvocation<Boolean> @:15493 op:13,dt:5,nt:8,next:65535,str:44689,d0:15494,d1:40954;
                         ("=", Expression<MethodOrOperator> @:15494 op:13,dt:2,nt:9,next:15495,str:301,d0:0,d1:0;
                             ("bottling_power_on", VariableAccess<Boolean> @:15495 op:0,dt:5,nt:13,next:15496,str:28030,d0:19,d1:0;
                                 (True, Expression<Boolean> @:15496 op:5,dt:5,nt:9,next:65535,str:44710,d0:65281,d1:65535;))))))
-            (____, Scope<Void> @:15497 op:21,dt:4,nt:8,next:65535,str:44719,d0:15498,d1:40958;
+            (____, BuiltinInvocation<Void> @:15497 op:21,dt:4,nt:8,next:65535,str:44719,d0:15498,d1:40958;
                 ("sleep_until", Expression<MethodOrOperator> @:15498 op:21,dt:2,nt:9,next:15499,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:15499 op:0,dt:5,nt:8,next:65535,str:44735,d0:15500,d1:40960;
+                    (____, BuiltinInvocation<Boolean> @:15499 op:0,dt:5,nt:8,next:65535,str:44735,d0:15500,d1:40960;
                         ("begin", Expression<MethodOrOperator> @:15500 op:0,dt:2,nt:9,next:15501,str:6,d0:0,d1:0;
-                            (____, Scope<Void> @:15501 op:52,dt:4,nt:8,next:15509,str:44746,d0:15502,d1:40962;
+                            (____, BuiltinInvocation<Void> @:15501 op:52,dt:4,nt:8,next:15509,str:44746,d0:15502,d1:40962;
                                 ("object_destroy", Expression<MethodOrOperator> @:15502 op:52,dt:2,nt:9,next:15503,str:3343,d0:0,d1:0;
-                                    (____, Scope<Entity> @:15503 op:37,dt:50,nt:8,next:65535,str:44762,d0:15504,d1:40964;
+                                    (____, BuiltinInvocation<Entity> @:15503 op:37,dt:50,nt:8,next:65535,str:44762,d0:15504,d1:40964;
                                         ("list_get", Expression<MethodOrOperator> @:15504 op:37,dt:2,nt:9,next:15505,str:17,d0:0,d1:0;
-                                            (____, Scope<List> @:15505 op:35,dt:31,nt:8,next:15508,str:44772,d0:15506,d1:40966;
+                                            (____, BuiltinInvocation<List> @:15505 op:35,dt:31,nt:8,next:15508,str:44772,d0:15506,d1:40966;
                                                 ("volume_return_objects", Expression<MethodOrOperator> @:15506 op:35,dt:2,nt:9,next:15507,str:20265,d0:0,d1:0;
                                                     ("kill_bottling_pit_01", Expression<Trigger> @:15507 op:13,dt:13,nt:9,next:65535,str:17132,d0:93,d1:0;)))
                                             (0, Expression<Short> @:15508 op:7,dt:7,nt:9,next:65535,str:44817,d0:0,d1:65535;)))))
-                            (____, Scope<Void> @:15509 op:19,dt:4,nt:8,next:15512,str:44825,d0:15510,d1:40970;
+                            (____, BuiltinInvocation<Void> @:15509 op:19,dt:4,nt:8,next:15512,str:44825,d0:15510,d1:40970;
                                 ("sleep", Expression<MethodOrOperator> @:15510 op:19,dt:2,nt:9,next:15511,str:85,d0:0,d1:0;
                                     (45, Expression<Short> @:15511 op:7,dt:7,nt:9,next:65535,str:44832,d0:45,d1:65535;)))
-                            (____, Scope<Void> @:15512 op:197,dt:4,nt:8,next:15523,str:44840,d0:15513,d1:40973;
+                            (____, BuiltinInvocation<Void> @:15512 op:197,dt:4,nt:8,next:15523,str:44840,d0:15513,d1:40973;
                                 ("unit_kill_silent", Expression<MethodOrOperator> @:15513 op:197,dt:2,nt:9,next:15514,str:20287,d0:0,d1:0;
-                                    (____, Scope<Unit> @:15514 op:24,dt:51,nt:8,next:65535,str:44858,d0:15515,d1:40975;
+                                    (____, BuiltinInvocation<Unit> @:15514 op:24,dt:51,nt:8,next:65535,str:44858,d0:15515,d1:40975;
                                         ("unit", Expression<MethodOrOperator> @:15515 op:24,dt:2,nt:9,next:15516,str:12,d0:0,d1:0;
-                                            (____, Scope<Entity> @:15516 op:37,dt:50,nt:8,next:65535,str:44864,d0:15517,d1:40977;
+                                            (____, BuiltinInvocation<Entity> @:15516 op:37,dt:50,nt:8,next:65535,str:44864,d0:15517,d1:40977;
                                                 ("list_get", Expression<MethodOrOperator> @:15517 op:37,dt:2,nt:9,next:15518,str:17,d0:0,d1:0;
-                                                    (____, Scope<List> @:15518 op:36,dt:31,nt:8,next:15522,str:44874,d0:15519,d1:40979;
+                                                    (____, BuiltinInvocation<List> @:15518 op:36,dt:31,nt:8,next:15522,str:44874,d0:15519,d1:40979;
                                                         ("volume_return_objects_by_type", Expression<MethodOrOperator> @:15519 op:36,dt:2,nt:9,next:15520,str:20130,d0:0,d1:0;
                                                             ("kill_bottling_pit_01", Expression<Trigger> @:15520 op:13,dt:13,nt:9,next:15521,str:17132,d0:93,d1:0;
                                                                 (1, Expression<Int> @:15521 op:8,dt:8,nt:9,next:65535,str:44926,d0:1,d1:0;))))
                                                     (0, Expression<Short> @:15522 op:7,dt:7,nt:9,next:65535,str:44929,d0:0,d1:65535;)))))))
-                            (____, Scope<Void> @:15523 op:19,dt:4,nt:8,next:15526,str:44938,d0:15524,d1:40984;
+                            (____, BuiltinInvocation<Void> @:15523 op:19,dt:4,nt:8,next:15526,str:44938,d0:15524,d1:40984;
                                 ("sleep", Expression<MethodOrOperator> @:15524 op:19,dt:2,nt:9,next:15525,str:85,d0:0,d1:0;
                                     (45, Expression<Short> @:15525 op:7,dt:7,nt:9,next:65535,str:44945,d0:45,d1:65535;)))
-                            (____, Scope<Void> @:15526 op:52,dt:4,nt:8,next:15534,str:44953,d0:15527,d1:40987;
+                            (____, BuiltinInvocation<Void> @:15526 op:52,dt:4,nt:8,next:15534,str:44953,d0:15527,d1:40987;
                                 ("object_destroy", Expression<MethodOrOperator> @:15527 op:52,dt:2,nt:9,next:15528,str:3343,d0:0,d1:0;
-                                    (____, Scope<Entity> @:15528 op:37,dt:50,nt:8,next:65535,str:44969,d0:15529,d1:40989;
+                                    (____, BuiltinInvocation<Entity> @:15528 op:37,dt:50,nt:8,next:65535,str:44969,d0:15529,d1:40989;
                                         ("list_get", Expression<MethodOrOperator> @:15529 op:37,dt:2,nt:9,next:15530,str:17,d0:0,d1:0;
-                                            (____, Scope<List> @:15530 op:35,dt:31,nt:8,next:15533,str:44979,d0:15531,d1:40991;
+                                            (____, BuiltinInvocation<List> @:15530 op:35,dt:31,nt:8,next:15533,str:44979,d0:15531,d1:40991;
                                                 ("volume_return_objects", Expression<MethodOrOperator> @:15531 op:35,dt:2,nt:9,next:15532,str:20265,d0:0,d1:0;
                                                     ("kill_bottling_pit_02", Expression<Trigger> @:15532 op:13,dt:13,nt:9,next:65535,str:17153,d0:94,d1:0;)))
                                             (0, Expression<Short> @:15533 op:7,dt:7,nt:9,next:65535,str:45024,d0:0,d1:65535;)))))
-                            (____, Scope<Void> @:15534 op:19,dt:4,nt:8,next:15537,str:45032,d0:15535,d1:40995;
+                            (____, BuiltinInvocation<Void> @:15534 op:19,dt:4,nt:8,next:15537,str:45032,d0:15535,d1:40995;
                                 ("sleep", Expression<MethodOrOperator> @:15535 op:19,dt:2,nt:9,next:15536,str:85,d0:0,d1:0;
                                     (45, Expression<Short> @:15536 op:7,dt:7,nt:9,next:65535,str:45039,d0:45,d1:65535;)))
-                            (____, Scope<Void> @:15537 op:197,dt:4,nt:8,next:15548,str:45047,d0:15538,d1:40998;
+                            (____, BuiltinInvocation<Void> @:15537 op:197,dt:4,nt:8,next:15548,str:45047,d0:15538,d1:40998;
                                 ("unit_kill_silent", Expression<MethodOrOperator> @:15538 op:197,dt:2,nt:9,next:15539,str:20287,d0:0,d1:0;
-                                    (____, Scope<Unit> @:15539 op:24,dt:51,nt:8,next:65535,str:45065,d0:15540,d1:41000;
+                                    (____, BuiltinInvocation<Unit> @:15539 op:24,dt:51,nt:8,next:65535,str:45065,d0:15540,d1:41000;
                                         ("unit", Expression<MethodOrOperator> @:15540 op:24,dt:2,nt:9,next:15541,str:12,d0:0,d1:0;
-                                            (____, Scope<Entity> @:15541 op:37,dt:50,nt:8,next:65535,str:45071,d0:15542,d1:41002;
+                                            (____, BuiltinInvocation<Entity> @:15541 op:37,dt:50,nt:8,next:65535,str:45071,d0:15542,d1:41002;
                                                 ("list_get", Expression<MethodOrOperator> @:15542 op:37,dt:2,nt:9,next:15543,str:17,d0:0,d1:0;
-                                                    (____, Scope<List> @:15543 op:36,dt:31,nt:8,next:15547,str:45081,d0:15544,d1:41004;
+                                                    (____, BuiltinInvocation<List> @:15543 op:36,dt:31,nt:8,next:15547,str:45081,d0:15544,d1:41004;
                                                         ("volume_return_objects_by_type", Expression<MethodOrOperator> @:15544 op:36,dt:2,nt:9,next:15545,str:20130,d0:0,d1:0;
                                                             ("kill_bottling_pit_02", Expression<Trigger> @:15545 op:13,dt:13,nt:9,next:15546,str:17153,d0:94,d1:0;
                                                                 (1, Expression<Int> @:15546 op:8,dt:8,nt:9,next:65535,str:45133,d0:1,d1:0;))))
                                                     (0, Expression<Short> @:15547 op:7,dt:7,nt:9,next:65535,str:45136,d0:0,d1:65535;)))))))
-                            (____, Scope<Void> @:15548 op:19,dt:4,nt:8,next:15551,str:45145,d0:15549,d1:41009;
+                            (____, BuiltinInvocation<Void> @:15548 op:19,dt:4,nt:8,next:15551,str:45145,d0:15549,d1:41009;
                                 ("sleep", Expression<MethodOrOperator> @:15549 op:19,dt:2,nt:9,next:15550,str:85,d0:0,d1:0;
                                     (45, Expression<Short> @:15550 op:7,dt:7,nt:9,next:65535,str:45152,d0:45,d1:65535;)))
-                            (____, Scope<Boolean> @:15551 op:13,dt:5,nt:8,next:65535,str:45160,d0:15552,d1:41012;
+                            (____, BuiltinInvocation<Boolean> @:15551 op:13,dt:5,nt:8,next:65535,str:45160,d0:15552,d1:41012;
                                 ("=", Expression<MethodOrOperator> @:15552 op:13,dt:2,nt:9,next:15553,str:301,d0:0,d1:0;
                                     ("bottling_power_on", VariableAccess<Boolean> @:15553 op:0,dt:5,nt:13,next:15554,str:28030,d0:19,d1:0;
                                         (False, Expression<Boolean> @:15554 op:5,dt:5,nt:9,next:65535,str:45181,d0:65280,d1:65535;)))))))))))

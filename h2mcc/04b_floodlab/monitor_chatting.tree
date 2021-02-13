@@ -1,55 +1,55 @@
 
 ("monitor_chatting", MethodDecl<Void> @:335 op:0,dt:0,nt:65535,next:29585,str:38780,d0:0,d1:0;
-    (____, Scope<Void> @:29585 op:0,dt:4,nt:8,next:65535,str:19631,d0:29586,d1:55046;
+    (____, BuiltinInvocation<Void> @:29585 op:0,dt:4,nt:8,next:65535,str:19631,d0:29586,d1:55046;
         ("begin", Expression<MethodOrOperator> @:29586 op:0,dt:2,nt:9,next:29534,str:210,d0:0,d1:0;
-            (____, Scope<Void> @:29534 op:19,dt:4,nt:8,next:29537,str:19666,d0:29535,d1:54995;
+            (____, BuiltinInvocation<Void> @:29534 op:19,dt:4,nt:8,next:29537,str:19666,d0:29535,d1:54995;
                 ("sleep", Expression<MethodOrOperator> @:29535 op:19,dt:2,nt:9,next:29536,str:289,d0:0,d1:0;
                     (1800, Expression<Short> @:29536 op:7,dt:7,nt:9,next:65535,str:19673,d0:1800,d1:65535;)))
-            (____, Scope<Void> @:29537 op:21,dt:4,nt:8,next:29543,str:19681,d0:29538,d1:54998;
+            (____, BuiltinInvocation<Void> @:29537 op:21,dt:4,nt:8,next:29543,str:19681,d0:29538,d1:54998;
                 ("sleep_until", Expression<MethodOrOperator> @:29538 op:21,dt:2,nt:9,next:29539,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:29539 op:13,dt:5,nt:8,next:65535,str:19694,d0:29540,d1:55000;
+                    (____, BuiltinInvocation<Boolean> @:29539 op:13,dt:5,nt:8,next:65535,str:19694,d0:29540,d1:55000;
                         ("=", Expression<MethodOrOperator> @:29540 op:13,dt:2,nt:9,next:29541,str:505,d0:0,d1:0;
                             ("boss_done_talking", VariableAccess<Boolean> @:29541 op:0,dt:5,nt:13,next:29542,str:35609,d0:45,d1:0;
                                 (True, Expression<Boolean> @:29542 op:5,dt:5,nt:9,next:65535,str:19715,d0:65281,d1:65535;))))))
-            (____, Scope<Void> @:29543 op:366,dt:4,nt:8,next:29547,str:19724,d0:29544,d1:55004;
+            (____, BuiltinInvocation<Void> @:29543 op:366,dt:4,nt:8,next:29547,str:19724,d0:29544,d1:55004;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:29544 op:366,dt:2,nt:9,next:29545,str:12198,d0:0,d1:0;
                     ("monitor", Expression<AI> @:29545 op:19,dt:19,nt:9,next:29546,str:6383,d0:140,d1:0;
                         ("monitor_chat_01", Expression<AIScript> @:29546 op:21,dt:21,nt:9,next:65535,str:37220,d0:332,d1:0;))))
-            (____, Scope<Void> @:29547 op:21,dt:4,nt:8,next:29553,str:19777,d0:29548,d1:55008;
+            (____, BuiltinInvocation<Void> @:29547 op:21,dt:4,nt:8,next:29553,str:19777,d0:29548,d1:55008;
                 ("sleep_until", Expression<MethodOrOperator> @:29548 op:21,dt:2,nt:9,next:29549,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:29549 op:13,dt:5,nt:8,next:65535,str:19790,d0:29550,d1:55010;
+                    (____, BuiltinInvocation<Boolean> @:29549 op:13,dt:5,nt:8,next:65535,str:19790,d0:29550,d1:55010;
                         ("=", Expression<MethodOrOperator> @:29550 op:13,dt:2,nt:9,next:29551,str:505,d0:0,d1:0;
                             ("monitor_done_talking", VariableAccess<Boolean> @:29551 op:0,dt:5,nt:13,next:29552,str:35627,d0:43,d1:0;
                                 (True, Expression<Boolean> @:29552 op:5,dt:5,nt:9,next:65535,str:19814,d0:65281,d1:65535;))))))
-            (____, Scope<Void> @:29553 op:19,dt:4,nt:8,next:29556,str:19823,d0:29554,d1:55014;
+            (____, BuiltinInvocation<Void> @:29553 op:19,dt:4,nt:8,next:29556,str:19823,d0:29554,d1:55014;
                 ("sleep", Expression<MethodOrOperator> @:29554 op:19,dt:2,nt:9,next:29555,str:289,d0:0,d1:0;
                     (3600, Expression<Short> @:29555 op:7,dt:7,nt:9,next:65535,str:19830,d0:3600,d1:65535;)))
-            (____, Scope<Void> @:29556 op:21,dt:4,nt:8,next:29562,str:19841,d0:29557,d1:55017;
+            (____, BuiltinInvocation<Void> @:29556 op:21,dt:4,nt:8,next:29562,str:19841,d0:29557,d1:55017;
                 ("sleep_until", Expression<MethodOrOperator> @:29557 op:21,dt:2,nt:9,next:29558,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:29558 op:13,dt:5,nt:8,next:65535,str:19854,d0:29559,d1:55019;
+                    (____, BuiltinInvocation<Boolean> @:29558 op:13,dt:5,nt:8,next:65535,str:19854,d0:29559,d1:55019;
                         ("=", Expression<MethodOrOperator> @:29559 op:13,dt:2,nt:9,next:29560,str:505,d0:0,d1:0;
                             ("boss_done_talking", VariableAccess<Boolean> @:29560 op:0,dt:5,nt:13,next:29561,str:35609,d0:45,d1:0;
                                 (True, Expression<Boolean> @:29561 op:5,dt:5,nt:9,next:65535,str:19875,d0:65281,d1:65535;))))))
-            (____, Scope<Void> @:29562 op:366,dt:4,nt:8,next:29566,str:19884,d0:29563,d1:55023;
+            (____, BuiltinInvocation<Void> @:29562 op:366,dt:4,nt:8,next:29566,str:19884,d0:29563,d1:55023;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:29563 op:366,dt:2,nt:9,next:29564,str:12198,d0:0,d1:0;
                     ("monitor", Expression<AI> @:29564 op:19,dt:19,nt:9,next:29565,str:6383,d0:140,d1:0;
                         ("monitor_chat_02", Expression<AIScript> @:29565 op:21,dt:21,nt:9,next:65535,str:37236,d0:333,d1:0;))))
-            (____, Scope<Void> @:29566 op:21,dt:4,nt:8,next:29572,str:19936,d0:29567,d1:55027;
+            (____, BuiltinInvocation<Void> @:29566 op:21,dt:4,nt:8,next:29572,str:19936,d0:29567,d1:55027;
                 ("sleep_until", Expression<MethodOrOperator> @:29567 op:21,dt:2,nt:9,next:29568,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:29568 op:13,dt:5,nt:8,next:65535,str:19949,d0:29569,d1:55029;
+                    (____, BuiltinInvocation<Boolean> @:29568 op:13,dt:5,nt:8,next:65535,str:19949,d0:29569,d1:55029;
                         ("=", Expression<MethodOrOperator> @:29569 op:13,dt:2,nt:9,next:29570,str:505,d0:0,d1:0;
                             ("monitor_done_talking", VariableAccess<Boolean> @:29570 op:0,dt:5,nt:13,next:29571,str:35627,d0:43,d1:0;
                                 (True, Expression<Boolean> @:29571 op:5,dt:5,nt:9,next:65535,str:19973,d0:65281,d1:65535;))))))
-            (____, Scope<Void> @:29572 op:19,dt:4,nt:8,next:29575,str:19982,d0:29573,d1:55033;
+            (____, BuiltinInvocation<Void> @:29572 op:19,dt:4,nt:8,next:29575,str:19982,d0:29573,d1:55033;
                 ("sleep", Expression<MethodOrOperator> @:29573 op:19,dt:2,nt:9,next:29574,str:289,d0:0,d1:0;
                     (3600, Expression<Short> @:29574 op:7,dt:7,nt:9,next:65535,str:19989,d0:3600,d1:65535;)))
-            (____, Scope<Void> @:29575 op:21,dt:4,nt:8,next:29581,str:20000,d0:29576,d1:55036;
+            (____, BuiltinInvocation<Void> @:29575 op:21,dt:4,nt:8,next:29581,str:20000,d0:29576,d1:55036;
                 ("sleep_until", Expression<MethodOrOperator> @:29576 op:21,dt:2,nt:9,next:29577,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:29577 op:13,dt:5,nt:8,next:65535,str:20013,d0:29578,d1:55038;
+                    (____, BuiltinInvocation<Boolean> @:29577 op:13,dt:5,nt:8,next:65535,str:20013,d0:29578,d1:55038;
                         ("=", Expression<MethodOrOperator> @:29578 op:13,dt:2,nt:9,next:29579,str:505,d0:0,d1:0;
                             ("boss_done_talking", VariableAccess<Boolean> @:29579 op:0,dt:5,nt:13,next:29580,str:35609,d0:45,d1:0;
                                 (True, Expression<Boolean> @:29580 op:5,dt:5,nt:9,next:65535,str:20034,d0:65281,d1:65535;))))))
-            (____, Scope<Void> @:29581 op:366,dt:4,nt:8,next:65535,str:20043,d0:29582,d1:55042;
+            (____, BuiltinInvocation<Void> @:29581 op:366,dt:4,nt:8,next:65535,str:20043,d0:29582,d1:55042;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:29582 op:366,dt:2,nt:9,next:29583,str:12198,d0:0,d1:0;
                     ("monitor", Expression<AI> @:29583 op:19,dt:19,nt:9,next:29584,str:6383,d0:140,d1:0;
                         ("monitor_chat_03", Expression<AIScript> @:29584 op:21,dt:21,nt:9,next:65535,str:37252,d0:334,d1:0;)))))))

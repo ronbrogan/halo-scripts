@@ -1,17 +1,17 @@
 
 ("lz_phantom_03_away", MethodDecl<Void> @:247 op:0,dt:0,nt:65535,next:8064,str:19777,d0:0,d1:0;
-    (____, Scope<Void> @:8064 op:0,dt:4,nt:8,next:65535,str:30528,d0:8065,d1:33525;
+    (____, BuiltinInvocation<Void> @:8064 op:0,dt:4,nt:8,next:65535,str:30528,d0:8065,d1:33525;
         ("begin", Expression<MethodOrOperator> @:8065 op:0,dt:2,nt:9,next:8051,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:8051 op:449,dt:4,nt:8,next:8054,str:30572,d0:8052,d1:33512;
+            (____, BuiltinInvocation<Void> @:8051 op:449,dt:4,nt:8,next:8054,str:30572,d0:8052,d1:33512;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:8052 op:449,dt:2,nt:9,next:8053,str:17423,d0:0,d1:0;
                     (True, Expression<Boolean> @:8053 op:5,dt:5,nt:9,next:65535,str:30604,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:8054 op:438,dt:4,nt:8,next:8057,str:30612,d0:8055,d1:33515;
+            (____, BuiltinInvocation<Void> @:8054 op:438,dt:4,nt:8,next:8057,str:30612,d0:8055,d1:33515;
                 ("cs_vehicle_boost", Expression<MethodOrOperator> @:8055 op:438,dt:2,nt:9,next:8056,str:17454,d0:0,d1:0;
                     (True, Expression<Boolean> @:8056 op:5,dt:5,nt:9,next:65535,str:30630,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:8057 op:380,dt:4,nt:8,next:8061,str:30638,d0:8058,d1:33518;
+            (____, BuiltinInvocation<Void> @:8057 op:380,dt:4,nt:8,next:8061,str:30638,d0:8058,d1:33518;
                 ("cs_fly_to", Expression<MethodOrOperator> @:8058 op:380,dt:2,nt:9,next:8059,str:17471,d0:0,d1:0;
                     ("airspace_lz/exit03", Expression<SpatialPoint> @:8059 op:28,dt:28,nt:9,next:8060,str:17545,d0:7,d1:0;
                         (20f, Expression<Float> @:8060 op:6,dt:6,nt:9,next:65535,str:30668,d0:0,d1:16800;))))
-            (____, Scope<Void> @:8061 op:298,dt:4,nt:8,next:65535,str:30674,d0:8062,d1:33522;
+            (____, BuiltinInvocation<Void> @:8061 op:298,dt:4,nt:8,next:65535,str:30674,d0:8062,d1:33522;
                 ("ai_erase", Expression<MethodOrOperator> @:8062 op:298,dt:2,nt:9,next:8063,str:17500,d0:0,d1:0;
                     ("ai_current_actor", VariableAccess<AI> @:8063 op:19,dt:19,nt:13,next:65535,str:17509,d0:33564,d1:65535;))))))

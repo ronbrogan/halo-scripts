@@ -1,57 +1,57 @@
 
 ("gondola_02_restarter", MethodDecl<Void> @:247 op:0,dt:0,nt:65535,next:15940,str:32199,d0:0,d1:0;
-    (____, Scope<Void> @:15940 op:0,dt:4,nt:8,next:65535,str:38375,d0:15941,d1:41401;
+    (____, BuiltinInvocation<Void> @:15940 op:0,dt:4,nt:8,next:65535,str:38375,d0:15941,d1:41401;
         ("begin", Expression<MethodOrOperator> @:15941 op:0,dt:2,nt:9,next:15887,str:142,d0:0,d1:0;
-            (____, Scope<Void> @:15887 op:21,dt:4,nt:8,next:65535,str:38414,d0:15888,d1:41348;
+            (____, BuiltinInvocation<Void> @:15887 op:21,dt:4,nt:8,next:65535,str:38414,d0:15888,d1:41348;
                 ("sleep_until", Expression<MethodOrOperator> @:15888 op:21,dt:2,nt:9,next:15889,str:372,d0:0,d1:0;
-                    (____, Scope<Boolean> @:15889 op:0,dt:5,nt:8,next:65535,str:38431,d0:15890,d1:41350;
+                    (____, BuiltinInvocation<Boolean> @:15889 op:0,dt:5,nt:8,next:65535,str:38431,d0:15890,d1:41350;
                         ("begin", Expression<MethodOrOperator> @:15890 op:0,dt:2,nt:9,next:15891,str:142,d0:0,d1:0;
-                            (____, Scope<Void> @:15891 op:4,dt:4,nt:8,next:15897,str:38442,d0:15892,d1:41352;
+                            (____, BuiltinInvocation<Void> @:15891 op:4,dt:4,nt:8,next:15897,str:38442,d0:15892,d1:41352;
                                 ("set", Expression<MethodOrOperator> @:15892 op:4,dt:2,nt:9,next:15893,str:2971,d0:0,d1:0;
                                     ("gondola_02_state", VariableAccess<Float> @:15893 op:65535,dt:6,nt:13,next:15894,str:26839,d0:24,d1:0;
-                                        (-9.435441E-19f, Scope<Float> @:15894 op:257,dt:6,nt:8,next:65535,str:38464,d0:15895,d1:41355;
+                                        (-9.435441E-19f, BuiltinInvocation<Float> @:15894 op:257,dt:6,nt:8,next:65535,str:38464,d0:15895,d1:41355;
                                             ("device_get_position", Expression<MethodOrOperator> @:15895 op:257,dt:2,nt:9,next:15896,str:14005,d0:0,d1:0;
                                                 ("gondola_02_a", Expression<Device> @:15896 op:60,dt:54,nt:9,next:65535,str:24371,d0:87,d1:65535;))))))
-                            (____, Scope<Void> @:15897 op:2,dt:4,nt:8,next:15934,str:38504,d0:15898,d1:41358;
+                            (____, BuiltinInvocation<Void> @:15897 op:2,dt:4,nt:8,next:15934,str:38504,d0:15898,d1:41358;
                                 ("if", Expression<MethodOrOperator> @:15898 op:2,dt:2,nt:9,next:15899,str:597,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:15899 op:5,dt:5,nt:8,next:15914,str:38514,d0:15900,d1:41360;
+                                    (____, BuiltinInvocation<Boolean> @:15899 op:5,dt:5,nt:8,next:15914,str:38514,d0:15900,d1:41360;
                                         ("and", Expression<MethodOrOperator> @:15900 op:5,dt:2,nt:9,next:15901,str:808,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:15901 op:13,dt:5,nt:8,next:15909,str:38525,d0:15902,d1:41362;
+                                            (____, BuiltinInvocation<Boolean> @:15901 op:13,dt:5,nt:8,next:15909,str:38525,d0:15902,d1:41362;
                                                 ("=", Expression<MethodOrOperator> @:15902 op:13,dt:2,nt:9,next:15903,str:437,d0:0,d1:0;
-                                                    (____, Scope<Boolean> @:15903 op:34,dt:5,nt:8,next:15908,str:38528,d0:15904,d1:41364;
+                                                    (____, BuiltinInvocation<Boolean> @:15903 op:34,dt:5,nt:8,next:15908,str:38528,d0:15904,d1:41364;
                                                         ("volume_test_objects_all", Expression<MethodOrOperator> @:15904 op:34,dt:2,nt:9,next:15905,str:15007,d0:0,d1:0;
                                                             ("vol_gondola_02_mid", Expression<Trigger> @:15905 op:13,dt:13,nt:9,next:15906,str:26856,d0:77,d1:0;
-                                                                (____, Scope<List> @:15906 op:28,dt:31,nt:8,next:65535,str:38572,d0:15907,d1:41367;
+                                                                (____, BuiltinInvocation<List> @:15906 op:28,dt:31,nt:8,next:65535,str:38572,d0:15907,d1:41367;
                                                                     ("players", Expression<MethodOrOperator> @:15907 op:28,dt:2,nt:9,next:65535,str:162,d0:0,d1:0;)))))
                                                     (True, Expression<Boolean> @:15908 op:5,dt:5,nt:9,next:65535,str:38583,d0:65281,d1:65535;)))
-                                            (____, Scope<Boolean> @:15909 op:15,dt:5,nt:8,next:65535,str:38595,d0:15910,d1:41370;
+                                            (____, BuiltinInvocation<Boolean> @:15909 op:15,dt:5,nt:8,next:65535,str:38595,d0:15910,d1:41370;
                                                 (">", Expression<MethodOrOperator> @:15910 op:15,dt:2,nt:9,next:15911,str:10467,d0:0,d1:0;
                                                     ("player_count", ScriptInvocation<Short> @:15911 op:2,dt:7,nt:10,next:15913,str:38598,d0:15912,d1:41372;
                                                         ("player_count", Expression<MethodOrOperator> @:15912 op:2,dt:2,nt:9,next:65535,str:10469,d0:0,d1:0;))
                                                     (0, Expression<Short> @:15913 op:7,dt:7,nt:9,next:65535,str:38613,d0:0,d1:65535;)))))
-                                    (____, Scope<Void> @:15914 op:0,dt:4,nt:8,next:15924,str:38629,d0:15915,d1:41375;
+                                    (____, BuiltinInvocation<Void> @:15914 op:0,dt:4,nt:8,next:15924,str:38629,d0:15915,d1:41375;
                                         ("begin", Expression<MethodOrOperator> @:15915 op:0,dt:2,nt:9,next:15916,str:142,d0:0,d1:0;
-                                            (____, Scope<Void> @:15916 op:256,dt:4,nt:8,next:15920,str:38643,d0:15917,d1:41377;
+                                            (____, BuiltinInvocation<Void> @:15916 op:256,dt:4,nt:8,next:15920,str:38643,d0:15917,d1:41377;
                                                 ("device_set_position", Expression<MethodOrOperator> @:15917 op:256,dt:2,nt:9,next:15918,str:14258,d0:0,d1:0;
                                                     ("gondola_02_a", Expression<Device> @:15918 op:60,dt:54,nt:9,next:15919,str:24371,d0:87,d1:65535;
                                                         (0f, Expression<Float> @:15919 op:6,dt:6,nt:9,next:65535,str:38677,d0:0,d1:0;))))
-                                            (____, Scope<Void> @:15920 op:256,dt:4,nt:8,next:65535,str:38687,d0:15921,d1:41381;
+                                            (____, BuiltinInvocation<Void> @:15920 op:256,dt:4,nt:8,next:65535,str:38687,d0:15921,d1:41381;
                                                 ("device_set_position", Expression<MethodOrOperator> @:15921 op:256,dt:2,nt:9,next:15922,str:14258,d0:0,d1:0;
                                                     ("gondola_02_b", Expression<Device> @:15922 op:60,dt:54,nt:9,next:15923,str:24422,d0:110,d1:65535;
                                                         (0f, Expression<Float> @:15923 op:6,dt:6,nt:9,next:65535,str:38721,d0:0,d1:0;))))))
-                                    (____, Scope<Void> @:15924 op:0,dt:4,nt:8,next:65535,str:38741,d0:15925,d1:41385;
+                                    (____, BuiltinInvocation<Void> @:15924 op:0,dt:4,nt:8,next:65535,str:38741,d0:15925,d1:41385;
                                         ("begin", Expression<MethodOrOperator> @:15925 op:0,dt:2,nt:9,next:15926,str:142,d0:0,d1:0;
-                                            (____, Scope<Void> @:15926 op:256,dt:4,nt:8,next:15930,str:38755,d0:15927,d1:41387;
+                                            (____, BuiltinInvocation<Void> @:15926 op:256,dt:4,nt:8,next:15930,str:38755,d0:15927,d1:41387;
                                                 ("device_set_position", Expression<MethodOrOperator> @:15927 op:256,dt:2,nt:9,next:15928,str:14258,d0:0,d1:0;
                                                     ("gondola_02_a", Expression<Device> @:15928 op:60,dt:54,nt:9,next:15929,str:24371,d0:87,d1:65535;
                                                         ("gondola_02_state", VariableAccess<Float> @:15929 op:6,dt:6,nt:13,next:65535,str:26839,d0:24,d1:0;))))
-                                            (____, Scope<Void> @:15930 op:256,dt:4,nt:8,next:65535,str:38814,d0:15931,d1:41391;
+                                            (____, BuiltinInvocation<Void> @:15930 op:256,dt:4,nt:8,next:65535,str:38814,d0:15931,d1:41391;
                                                 ("device_set_position", Expression<MethodOrOperator> @:15931 op:256,dt:2,nt:9,next:15932,str:14258,d0:0,d1:0;
                                                     ("gondola_02_b", Expression<Device> @:15932 op:60,dt:54,nt:9,next:15933,str:24422,d0:110,d1:65535;
                                                         ("gondola_02_state", VariableAccess<Float> @:15933 op:6,dt:6,nt:13,next:65535,str:26839,d0:24,d1:0;))))))))
-                            (____, Scope<Boolean> @:15934 op:15,dt:5,nt:8,next:65535,str:38887,d0:15935,d1:41395;
+                            (____, BuiltinInvocation<Boolean> @:15934 op:15,dt:5,nt:8,next:65535,str:38887,d0:15935,d1:41395;
                                 (">", Expression<MethodOrOperator> @:15935 op:15,dt:2,nt:9,next:15936,str:10467,d0:0,d1:0;
-                                    (-1.2281516E-18f, Scope<Float> @:15936 op:257,dt:6,nt:8,next:15939,str:38890,d0:15937,d1:41397;
+                                    (-1.2281516E-18f, BuiltinInvocation<Float> @:15936 op:257,dt:6,nt:8,next:15939,str:38890,d0:15937,d1:41397;
                                         ("device_get_position", Expression<MethodOrOperator> @:15937 op:257,dt:2,nt:9,next:15938,str:14005,d0:0,d1:0;
                                             ("gondola_02_a", Expression<Device> @:15938 op:60,dt:54,nt:9,next:65535,str:24371,d0:87,d1:65535;)))
                                     (0.6f, Expression<Float> @:15939 op:6,dt:6,nt:9,next:65535,str:38925,d0:39322,d1:16153;))))))))))

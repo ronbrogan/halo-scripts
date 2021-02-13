@@ -1,16 +1,16 @@
 
 ("x01_0250_pc1", MethodDecl<Void> @:122 op:0,dt:0,nt:65535,next:6875,str:11603,d0:0,d1:0;
-    (____, Scope<Void> @:6875 op:0,dt:4,nt:8,next:65535,str:30325,d0:6876,d1:65103;
+    (____, BuiltinInvocation<Void> @:6875 op:0,dt:4,nt:8,next:65535,str:30325,d0:6876,d1:65103;
         ("begin", Expression<MethodOrOperator> @:6876 op:0,dt:2,nt:9,next:6863,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:6863 op:19,dt:4,nt:8,next:6866,str:30356,d0:6864,d1:65091;
+            (____, BuiltinInvocation<Void> @:6863 op:19,dt:4,nt:8,next:6866,str:30356,d0:6864,d1:65091;
                 ("sleep", Expression<MethodOrOperator> @:6864 op:19,dt:2,nt:9,next:6865,str:80,d0:0,d1:0;
                     (0, Expression<Short> @:6865 op:7,dt:7,nt:9,next:65535,str:30363,d0:0,d1:65535;)))
-            (____, Scope<Void> @:6866 op:596,dt:4,nt:8,next:6871,str:30368,d0:6867,d1:65094;
+            (____, BuiltinInvocation<Void> @:6866 op:596,dt:4,nt:8,next:6871,str:30368,d0:6867,d1:65094;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:6867 op:596,dt:2,nt:9,next:6868,str:3766,d0:0,d1:0;
                     ("sound\dialog\levels\01_spacestation\cinematic\x01_0250_pc1", Expression<Sound> @:6868 op:32,dt:32,nt:9,next:6869,str:11544,d0:2763,d1:60481;
                         (4294967295, Expression<Entity> @:6869 op:50,dt:50,nt:9,next:6870,str:3840,d0:65535,d1:65535;
                             (1f, Expression<Float> @:6870 op:6,dt:6,nt:9,next:65535,str:30453,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:6871 op:562,dt:4,nt:8,next:65535,str:30458,d0:6872,d1:65099;
+            (____, BuiltinInvocation<Void> @:6871 op:562,dt:4,nt:8,next:65535,str:30458,d0:6872,d1:65099;
                 ("cinematic_subtitle", Expression<MethodOrOperator> @:6872 op:562,dt:2,nt:9,next:6873,str:5905,d0:0,d1:0;
                     ("x01_0250_pc1", Expression<StringId> @:6873 op:11,dt:11,nt:9,next:6874,str:11603,d0:9670,d1:3072;
                         (3f, Expression<Float> @:6874 op:6,dt:6,nt:9,next:65535,str:30491,d0:0,d1:16448;)))))))

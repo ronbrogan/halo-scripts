@@ -1,51 +1,51 @@
 
 ("ai_midtower_cov_rein", MethodDecl<Void> @:390 op:0,dt:0,nt:65535,next:19091,str:42641,d0:0,d1:0;
-    (____, Scope<Void> @:19091 op:0,dt:4,nt:8,next:65535,str:14306,d0:19092,d1:44552;
+    (____, BuiltinInvocation<Void> @:19091 op:0,dt:4,nt:8,next:65535,str:14306,d0:19092,d1:44552;
         ("begin", Expression<MethodOrOperator> @:19092 op:0,dt:2,nt:9,next:19044,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:19044 op:21,dt:4,nt:8,next:19060,str:14345,d0:19045,d1:44505;
+            (____, BuiltinInvocation<Void> @:19044 op:21,dt:4,nt:8,next:19060,str:14345,d0:19045,d1:44505;
                 ("sleep_until", Expression<MethodOrOperator> @:19045 op:21,dt:2,nt:9,next:19046,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:19046 op:6,dt:5,nt:8,next:65535,str:14358,d0:19047,d1:44507;
+                    (____, BuiltinInvocation<Boolean> @:19046 op:6,dt:5,nt:8,next:65535,str:14358,d0:19047,d1:44507;
                         ("or", Expression<MethodOrOperator> @:19047 op:6,dt:2,nt:9,next:19048,str:844,d0:0,d1:0;
-                            (____, Scope<Boolean> @:19048 op:33,dt:5,nt:8,next:19053,str:14368,d0:19049,d1:44509;
+                            (____, BuiltinInvocation<Boolean> @:19048 op:33,dt:5,nt:8,next:19053,str:14368,d0:19049,d1:44509;
                                 ("volume_test_objects", Expression<MethodOrOperator> @:19049 op:33,dt:2,nt:9,next:19050,str:17358,d0:0,d1:0;
                                     ("tv_midtower_mid", Expression<Trigger> @:19050 op:13,dt:13,nt:9,next:19051,str:37651,d0:99,d1:0;
-                                        (____, Scope<List> @:19051 op:28,dt:31,nt:8,next:65535,str:14405,d0:19052,d1:44512;
+                                        (____, BuiltinInvocation<List> @:19051 op:28,dt:31,nt:8,next:65535,str:14405,d0:19052,d1:44512;
                                             ("players", Expression<MethodOrOperator> @:19052 op:28,dt:2,nt:9,next:65535,str:21,d0:0,d1:0;)))))
-                            (____, Scope<Boolean> @:19053 op:18,dt:5,nt:8,next:19059,str:14422,d0:19054,d1:44514;
+                            (____, BuiltinInvocation<Boolean> @:19053 op:18,dt:5,nt:8,next:19059,str:14422,d0:19054,d1:44514;
                                 ("<=", Expression<MethodOrOperator> @:19054 op:18,dt:2,nt:9,next:19055,str:21122,d0:0,d1:0;
-                                    (____, Scope<Short> @:19055 op:327,dt:7,nt:8,next:19058,str:14426,d0:19056,d1:44516;
+                                    (____, BuiltinInvocation<Short> @:19055 op:327,dt:7,nt:8,next:19058,str:14426,d0:19056,d1:44516;
                                         ("ai_living_count", Expression<MethodOrOperator> @:19056 op:327,dt:2,nt:9,next:19057,str:19381,d0:0,d1:0;
                                             ("midtower_covenant", Expression<AI> @:19057 op:19,dt:19,nt:9,next:65535,str:37685,d0:37,d1:16384;)))
                                     (1, Expression<Short> @:19058 op:7,dt:7,nt:9,next:65535,str:14462,d0:1,d1:65535;)))
                             ("g_midtower_prophet_rein", VariableAccess<Boolean> @:19059 op:5,dt:5,nt:13,next:65535,str:37746,d0:74,d1:0;)))))
-            (____, Scope<Void> @:19060 op:2,dt:4,nt:8,next:65535,str:14509,d0:19061,d1:44521;
+            (____, BuiltinInvocation<Void> @:19060 op:2,dt:4,nt:8,next:65535,str:14509,d0:19061,d1:44521;
                 ("if", Expression<MethodOrOperator> @:19061 op:2,dt:2,nt:9,next:19062,str:456,d0:0,d1:0;
-                    (____, Scope<Boolean> @:19062 op:18,dt:5,nt:8,next:19073,str:14513,d0:19063,d1:44523;
+                    (____, BuiltinInvocation<Boolean> @:19062 op:18,dt:5,nt:8,next:19073,str:14513,d0:19063,d1:44523;
                         ("<=", Expression<MethodOrOperator> @:19063 op:18,dt:2,nt:9,next:19064,str:21122,d0:0,d1:0;
-                            (-2.6976853E-11f, Scope<Float> @:19064 op:7,dt:6,nt:8,next:19072,str:14517,d0:19065,d1:44525;
+                            (-2.6976853E-11f, BuiltinInvocation<Float> @:19064 op:7,dt:6,nt:8,next:19072,str:14517,d0:19065,d1:44525;
                                 ("+", Expression<MethodOrOperator> @:19065 op:7,dt:2,nt:9,next:19066,str:983,d0:0,d1:0;
-                                    (-2.720423E-11f, Scope<Float> @:19066 op:327,dt:6,nt:8,next:19069,str:14520,d0:19067,d1:44527;
+                                    (-2.720423E-11f, BuiltinInvocation<Float> @:19066 op:327,dt:6,nt:8,next:19069,str:14520,d0:19067,d1:44527;
                                         ("ai_living_count", Expression<MethodOrOperator> @:19067 op:327,dt:2,nt:9,next:19068,str:19381,d0:0,d1:0;
                                             ("midtower_prophets", Expression<AI> @:19068 op:19,dt:19,nt:9,next:65535,str:37667,d0:36,d1:16384;)))
-                                    (-2.7545296E-11f, Scope<Float> @:19069 op:327,dt:6,nt:8,next:65535,str:14556,d0:19070,d1:44530;
+                                    (-2.7545296E-11f, BuiltinInvocation<Float> @:19069 op:327,dt:6,nt:8,next:65535,str:14556,d0:19070,d1:44530;
                                         ("ai_living_count", Expression<MethodOrOperator> @:19070 op:327,dt:2,nt:9,next:19071,str:19381,d0:0,d1:0;
                                             ("midtower_covenant", Expression<AI> @:19071 op:19,dt:19,nt:9,next:65535,str:37685,d0:37,d1:16384;)))))
                             (4f, Expression<Float> @:19072 op:6,dt:6,nt:9,next:65535,str:14593,d0:0,d1:16512;)))
-                    (____, Scope<Void> @:19073 op:0,dt:4,nt:8,next:65535,str:14600,d0:19074,d1:44534;
+                    (____, BuiltinInvocation<Void> @:19073 op:0,dt:4,nt:8,next:65535,str:14600,d0:19074,d1:44534;
                         ("begin", Expression<MethodOrOperator> @:19074 op:0,dt:2,nt:9,next:19075,str:1,d0:0,d1:0;
-                            (____, Scope<Void> @:19075 op:290,dt:4,nt:8,next:19078,str:14612,d0:19076,d1:44536;
+                            (____, BuiltinInvocation<Void> @:19075 op:290,dt:4,nt:8,next:19078,str:14612,d0:19076,d1:44536;
                                 ("ai_place", Expression<MethodOrOperator> @:19076 op:290,dt:2,nt:9,next:19077,str:14833,d0:0,d1:0;
                                     ("midtower_elite_reins", Expression<AI> @:19077 op:19,dt:19,nt:9,next:65535,str:37770,d0:176,d1:0;)))
-                            (____, Scope<Void> @:19078 op:2,dt:4,nt:8,next:19084,str:14649,d0:19079,d1:44539;
+                            (____, BuiltinInvocation<Void> @:19078 op:2,dt:4,nt:8,next:19084,str:14649,d0:19079,d1:44539;
                                 ("if", Expression<MethodOrOperator> @:19079 op:2,dt:2,nt:9,next:19080,str:456,d0:0,d1:0;
                                     ("debug", VariableAccess<Boolean> @:19080 op:5,dt:5,nt:13,next:19081,str:17539,d0:3,d1:0;
-                                        (____, Scope<Void> @:19081 op:27,dt:4,nt:8,next:65535,str:14659,d0:19082,d1:44542;
+                                        (____, BuiltinInvocation<Void> @:19081 op:27,dt:4,nt:8,next:65535,str:14659,d0:19082,d1:44542;
                                             ("print", Expression<MethodOrOperator> @:19082 op:27,dt:2,nt:9,next:19083,str:86,d0:0,d1:0;
                                                 ("covenant reinforcements", Expression<String> @:19083 op:9,dt:9,nt:9,next:65535,str:37791,d0:37791,d1:0;))))))
-                            (____, Scope<Void> @:19084 op:19,dt:4,nt:8,next:19087,str:14699,d0:19085,d1:44545;
+                            (____, BuiltinInvocation<Void> @:19084 op:19,dt:4,nt:8,next:19087,str:14699,d0:19085,d1:44545;
                                 ("sleep", Expression<MethodOrOperator> @:19085 op:19,dt:2,nt:9,next:19086,str:80,d0:0,d1:0;
                                     (5, Expression<Short> @:19086 op:7,dt:7,nt:9,next:65535,str:14706,d0:5,d1:65535;)))
-                            (____, Scope<Void> @:19087 op:256,dt:4,nt:8,next:65535,str:14714,d0:19088,d1:44548;
+                            (____, BuiltinInvocation<Void> @:19087 op:256,dt:4,nt:8,next:65535,str:14714,d0:19088,d1:44548;
                                 ("device_set_position", Expression<MethodOrOperator> @:19088 op:256,dt:2,nt:9,next:19089,str:17439,d0:0,d1:0;
                                     ("midtower_exit", Expression<Device> @:19089 op:60,dt:54,nt:9,next:19090,str:37815,d0:371,d1:65535;
                                         (1f, Expression<Float> @:19090 op:6,dt:6,nt:9,next:65535,str:14749,d0:0,d1:16256;)))))))))))

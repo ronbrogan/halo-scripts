@@ -1,37 +1,37 @@
 
 ("cs_e1_mars_johnson_entry", MethodDecl<Void> @:381 op:0,dt:0,nt:65535,next:15831,str:28683,d0:0,d1:0;
-    (____, Scope<Void> @:15831 op:0,dt:4,nt:8,next:65535,str:3015,d0:15832,d1:41292;
+    (____, BuiltinInvocation<Void> @:15831 op:0,dt:4,nt:8,next:65535,str:3015,d0:15832,d1:41292;
         ("begin", Expression<MethodOrOperator> @:15832 op:0,dt:2,nt:9,next:15798,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:15798 op:449,dt:4,nt:8,next:15801,str:3065,d0:15799,d1:41259;
+            (____, BuiltinInvocation<Void> @:15798 op:449,dt:4,nt:8,next:15801,str:3065,d0:15799,d1:41259;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:15799 op:449,dt:2,nt:9,next:15800,str:4284,d0:0,d1:0;
                     (True, Expression<Boolean> @:15800 op:5,dt:5,nt:9,next:65535,str:3097,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:15801 op:423,dt:4,nt:8,next:15804,str:3105,d0:15802,d1:41262;
+            (____, BuiltinInvocation<Void> @:15801 op:423,dt:4,nt:8,next:15804,str:3105,d0:15802,d1:41262;
                 ("cs_crouch", Expression<MethodOrOperator> @:15802 op:423,dt:2,nt:9,next:15803,str:17958,d0:0,d1:0;
                     (True, Expression<Boolean> @:15803 op:5,dt:5,nt:9,next:65535,str:3116,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:15804 op:19,dt:4,nt:8,next:15807,str:3124,d0:15805,d1:41265;
+            (____, BuiltinInvocation<Void> @:15804 op:19,dt:4,nt:8,next:15807,str:3124,d0:15805,d1:41265;
                 ("sleep", Expression<MethodOrOperator> @:15805 op:19,dt:2,nt:9,next:15806,str:143,d0:0,d1:0;
                     (105, Expression<Short> @:15806 op:7,dt:7,nt:9,next:65535,str:3131,d0:105,d1:65535;)))
-            (____, Scope<Void> @:15807 op:423,dt:4,nt:8,next:15810,str:3138,d0:15808,d1:41268;
+            (____, BuiltinInvocation<Void> @:15807 op:423,dt:4,nt:8,next:15810,str:3138,d0:15808,d1:41268;
                 ("cs_crouch", Expression<MethodOrOperator> @:15808 op:423,dt:2,nt:9,next:15809,str:17958,d0:0,d1:0;
                     (False, Expression<Boolean> @:15809 op:5,dt:5,nt:9,next:65535,str:3149,d0:65280,d1:65535;)))
-            (____, Scope<Void> @:15810 op:19,dt:4,nt:8,next:15816,str:3158,d0:15811,d1:41271;
+            (____, BuiltinInvocation<Void> @:15810 op:19,dt:4,nt:8,next:15816,str:3158,d0:15811,d1:41271;
                 ("sleep", Expression<MethodOrOperator> @:15811 op:19,dt:2,nt:9,next:15812,str:143,d0:0,d1:0;
-                    (____, Scope<Short> @:15812 op:360,dt:7,nt:8,next:65535,str:3165,d0:15813,d1:41273;
+                    (____, BuiltinInvocation<Short> @:15812 op:360,dt:7,nt:8,next:65535,str:3165,d0:15813,d1:41273;
                         ("ai_play_line", Expression<MethodOrOperator> @:15813 op:360,dt:2,nt:9,next:15814,str:23459,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:15814 op:19,dt:19,nt:13,next:15815,str:4350,d0:33564,d1:65535;
                                 ("0850", Expression<StringId> @:15815 op:11,dt:11,nt:9,next:65535,str:26172,d0:13064,d1:1024;))))))
-            (____, Scope<Void> @:15816 op:19,dt:4,nt:8,next:15819,str:3253,d0:15817,d1:41277;
+            (____, BuiltinInvocation<Void> @:15816 op:19,dt:4,nt:8,next:15819,str:3253,d0:15817,d1:41277;
                 ("sleep", Expression<MethodOrOperator> @:15817 op:19,dt:2,nt:9,next:15818,str:143,d0:0,d1:0;
                     (15, Expression<Short> @:15818 op:7,dt:7,nt:9,next:65535,str:3260,d0:15,d1:65535;)))
-            (____, Scope<Void> @:15819 op:19,dt:4,nt:8,next:15825,str:3282,d0:15820,d1:41280;
+            (____, BuiltinInvocation<Void> @:15819 op:19,dt:4,nt:8,next:15825,str:3282,d0:15820,d1:41280;
                 ("sleep", Expression<MethodOrOperator> @:15820 op:19,dt:2,nt:9,next:15821,str:143,d0:0,d1:0;
-                    (____, Scope<Short> @:15821 op:360,dt:7,nt:8,next:65535,str:3289,d0:15822,d1:41282;
+                    (____, BuiltinInvocation<Short> @:15821 op:360,dt:7,nt:8,next:65535,str:3289,d0:15822,d1:41282;
                         ("ai_play_line", Expression<MethodOrOperator> @:15822 op:360,dt:2,nt:9,next:15823,str:23459,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:15823 op:19,dt:19,nt:13,next:15824,str:4350,d0:33564,d1:65535;
                                 ("0110", Expression<StringId> @:15824 op:11,dt:11,nt:9,next:65535,str:26177,d0:12989,d1:1024;))))))
-            (____, Scope<Void> @:15825 op:19,dt:4,nt:8,next:15828,str:3520,d0:15826,d1:41286;
+            (____, BuiltinInvocation<Void> @:15825 op:19,dt:4,nt:8,next:15828,str:3520,d0:15826,d1:41286;
                 ("sleep", Expression<MethodOrOperator> @:15826 op:19,dt:2,nt:9,next:15827,str:143,d0:0,d1:0;
                     (10, Expression<Short> @:15827 op:7,dt:7,nt:9,next:65535,str:3527,d0:10,d1:65535;)))
-            (____, Scope<Void> @:15828 op:385,dt:4,nt:8,next:65535,str:3533,d0:15829,d1:41289;
+            (____, BuiltinInvocation<Void> @:15828 op:385,dt:4,nt:8,next:65535,str:3533,d0:15829,d1:41289;
                 ("cs_go_to", Expression<MethodOrOperator> @:15829 op:385,dt:2,nt:9,next:15830,str:4510,d0:0,d1:0;
                     ("e1_mars_entry/p2", Expression<SpatialPoint> @:15830 op:28,dt:28,nt:9,next:65535,str:26182,d0:2,d1:0;))))))

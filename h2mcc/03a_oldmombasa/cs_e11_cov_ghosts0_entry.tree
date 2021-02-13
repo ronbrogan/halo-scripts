@@ -1,20 +1,20 @@
 
 ("cs_e11_cov_ghosts0_entry", MethodDecl<Void> @:207 op:0,dt:0,nt:65535,next:7324,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:7324 op:0,dt:4,nt:8,next:65535,str:23650,d0:7325,d1:32785;
+    (____, BuiltinInvocation<Void> @:7324 op:0,dt:4,nt:8,next:65535,str:23650,d0:7325,d1:32785;
         ("begin", Expression<MethodOrOperator> @:7325 op:0,dt:2,nt:9,next:7308,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:7308 op:441,dt:4,nt:8,next:7311,str:23700,d0:7309,d1:32769;
+            (____, BuiltinInvocation<Void> @:7308 op:441,dt:4,nt:8,next:7311,str:23700,d0:7309,d1:32769;
                 ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:7309 op:441,dt:2,nt:9,next:7310,str:13781,d0:0,d1:0;
                     ("ai_combat_status_clear_los", VariableAccess<Short> @:7310 op:7,dt:7,nt:13,next:65535,str:13973,d0:33579,d1:65535;)))
-            (____, Scope<Void> @:7311 op:449,dt:4,nt:8,next:7314,str:23757,d0:7312,d1:32772;
+            (____, BuiltinInvocation<Void> @:7311 op:449,dt:4,nt:8,next:7314,str:23757,d0:7312,d1:32772;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:7312 op:449,dt:2,nt:9,next:7313,str:4284,d0:0,d1:0;
                     (True, Expression<Boolean> @:7313 op:5,dt:5,nt:9,next:65535,str:23789,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:7314 op:389,dt:4,nt:8,next:7318,str:23797,d0:7315,d1:32775;
+            (____, BuiltinInvocation<Void> @:7314 op:389,dt:4,nt:8,next:7318,str:23797,d0:7315,d1:32775;
                 ("cs_go_to_and_face", Expression<MethodOrOperator> @:7315 op:389,dt:2,nt:9,next:7316,str:15178,d0:0,d1:0;
                     ("e11_cov_ghosts0/p0", Expression<SpatialPoint> @:7316 op:28,dt:28,nt:9,next:7317,str:15196,d0:0,d1:32;
                         ("e11_cov_ghosts0/p1", Expression<SpatialPoint> @:7317 op:28,dt:28,nt:9,next:65535,str:15215,d0:1,d1:32;))))
-            (____, Scope<Void> @:7318 op:438,dt:4,nt:8,next:7321,str:23857,d0:7319,d1:32779;
+            (____, BuiltinInvocation<Void> @:7318 op:438,dt:4,nt:8,next:7321,str:23857,d0:7319,d1:32779;
                 ("cs_vehicle_boost", Expression<MethodOrOperator> @:7319 op:438,dt:2,nt:9,next:7320,str:11556,d0:0,d1:0;
                     (True, Expression<Boolean> @:7320 op:5,dt:5,nt:9,next:65535,str:23875,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:7321 op:385,dt:4,nt:8,next:65535,str:23883,d0:7322,d1:32782;
+            (____, BuiltinInvocation<Void> @:7321 op:385,dt:4,nt:8,next:65535,str:23883,d0:7322,d1:32782;
                 ("cs_go_to", Expression<MethodOrOperator> @:7322 op:385,dt:2,nt:9,next:7323,str:4510,d0:0,d1:0;
                     ("e11_cov_ghosts0/p1", Expression<SpatialPoint> @:7323 op:28,dt:28,nt:9,next:65535,str:15215,d0:1,d1:32;))))))

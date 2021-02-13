@@ -1,355 +1,355 @@
 
 ("hangar_sentinels_flitting", MethodDecl<Void> @:292 op:0,dt:0,nt:65535,next:11342,str:26030,d0:0,d1:0;
-    (____, Scope<Void> @:11342 op:0,dt:4,nt:8,next:65535,str:61079,d0:11343,d1:36803;
+    (____, BuiltinInvocation<Void> @:11342 op:0,dt:4,nt:8,next:65535,str:61079,d0:11343,d1:36803;
         ("begin", Expression<MethodOrOperator> @:11343 op:0,dt:2,nt:9,next:10991,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:10991 op:21,dt:4,nt:8,next:65535,str:61123,d0:10992,d1:36452;
+            (____, BuiltinInvocation<Void> @:10991 op:21,dt:4,nt:8,next:65535,str:61123,d0:10992,d1:36452;
                 ("sleep_until", Expression<MethodOrOperator> @:10992 op:21,dt:2,nt:9,next:10993,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:10993 op:0,dt:5,nt:8,next:65535,str:61140,d0:10994,d1:36454;
+                    (____, BuiltinInvocation<Boolean> @:10993 op:0,dt:5,nt:8,next:65535,str:61140,d0:10994,d1:36454;
                         ("begin", Expression<MethodOrOperator> @:10994 op:0,dt:2,nt:9,next:10995,str:6,d0:0,d1:0;
-                            (____, Scope<Void> @:10995 op:1,dt:4,nt:8,next:11336,str:61151,d0:10996,d1:36456;
+                            (____, BuiltinInvocation<Void> @:10995 op:1,dt:4,nt:8,next:11336,str:61151,d0:10996,d1:36456;
                                 ("begin_random", Expression<MethodOrOperator> @:10996 op:1,dt:2,nt:9,next:10997,str:15760,d0:0,d1:0;
-                                    (____, Scope<Void> @:10997 op:2,dt:4,nt:8,next:11068,str:61170,d0:10998,d1:36458;
+                                    (____, BuiltinInvocation<Void> @:10997 op:2,dt:4,nt:8,next:11068,str:61170,d0:10998,d1:36458;
                                         ("if", Expression<MethodOrOperator> @:10998 op:2,dt:2,nt:9,next:10999,str:461,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:10999 op:16,dt:5,nt:8,next:11005,str:61174,d0:11000,d1:36460;
+                                            (____, BuiltinInvocation<Boolean> @:10999 op:16,dt:5,nt:8,next:11005,str:61174,d0:11000,d1:36460;
                                                 ("<", Expression<MethodOrOperator> @:11000 op:16,dt:2,nt:9,next:11001,str:852,d0:0,d1:0;
-                                                    (____, Scope<Short> @:11001 op:327,dt:7,nt:8,next:11004,str:61177,d0:11002,d1:36462;
+                                                    (____, BuiltinInvocation<Short> @:11001 op:327,dt:7,nt:8,next:11004,str:61177,d0:11002,d1:36462;
                                                         ("ai_living_count", Expression<MethodOrOperator> @:11002 op:327,dt:2,nt:9,next:11003,str:18674,d0:0,d1:0;
                                                             ("hangar_sentinels_flit", Expression<AI> @:11003 op:19,dt:19,nt:9,next:65535,str:22748,d0:37,d1:0;)))
                                                     (1, Expression<Short> @:11004 op:7,dt:7,nt:9,next:65535,str:61217,d0:1,d1:65535;)))
-                                            (____, Scope<Void> @:11005 op:0,dt:4,nt:8,next:65535,str:61226,d0:11006,d1:36466;
+                                            (____, BuiltinInvocation<Void> @:11005 op:0,dt:4,nt:8,next:65535,str:61226,d0:11006,d1:36466;
                                                 ("begin", Expression<MethodOrOperator> @:11006 op:0,dt:2,nt:9,next:11007,str:6,d0:0,d1:0;
-                                                    (____, Scope<Void> @:11007 op:290,dt:4,nt:8,next:11010,str:61240,d0:11008,d1:36468;
+                                                    (____, BuiltinInvocation<Void> @:11007 op:290,dt:4,nt:8,next:11010,str:61240,d0:11008,d1:36468;
                                                         ("ai_place", Expression<MethodOrOperator> @:11008 op:290,dt:2,nt:9,next:11009,str:17225,d0:0,d1:0;
                                                             ("hangar_sentinels_flit/l1", Expression<AI> @:11009 op:19,dt:19,nt:9,next:65535,str:22770,d0:0,d1:49189;)))
-                                                    (____, Scope<Void> @:11010 op:366,dt:4,nt:8,next:11014,str:61283,d0:11011,d1:36471;
+                                                    (____, BuiltinInvocation<Void> @:11010 op:366,dt:4,nt:8,next:11014,str:61283,d0:11011,d1:36471;
                                                         ("cs_run_command_script", Expression<MethodOrOperator> @:11011 op:366,dt:2,nt:9,next:11012,str:18315,d0:0,d1:0;
                                                             ("hangar_sentinels_flit/l1", Expression<AI> @:11012 op:19,dt:19,nt:9,next:11013,str:22770,d0:0,d1:49189;
                                                                 ("hangar_fly_out_l1", Expression<AIScript> @:11013 op:21,dt:21,nt:9,next:65535,str:22795,d0:280,d1:0;))))
-                                                    (____, Scope<Void> @:11014 op:4,dt:4,nt:8,next:11018,str:61357,d0:11015,d1:36475;
+                                                    (____, BuiltinInvocation<Void> @:11014 op:4,dt:4,nt:8,next:11018,str:61357,d0:11015,d1:36475;
                                                         ("set", Expression<MethodOrOperator> @:11015 op:4,dt:2,nt:9,next:11016,str:2368,d0:0,d1:0;
                                                             ("hangar_sentinel_var", VariableAccess<Boolean> @:11016 op:65535,dt:5,nt:13,next:11017,str:22813,d0:13,d1:0;
                                                                 (True, Expression<Boolean> @:11017 op:5,dt:5,nt:9,next:65535,str:61382,d0:65281,d1:65535;))))
-                                                    (____, Scope<Void> @:11018 op:1,dt:4,nt:8,next:65535,str:61395,d0:11019,d1:36479;
+                                                    (____, BuiltinInvocation<Void> @:11018 op:1,dt:4,nt:8,next:65535,str:61395,d0:11019,d1:36479;
                                                         ("begin_random", Expression<MethodOrOperator> @:11019 op:1,dt:2,nt:9,next:11020,str:15760,d0:0,d1:0;
-                                                            (____, Scope<Void> @:11020 op:2,dt:4,nt:8,next:11036,str:61417,d0:11021,d1:36481;
+                                                            (____, BuiltinInvocation<Void> @:11020 op:2,dt:4,nt:8,next:11036,str:61417,d0:11021,d1:36481;
                                                                 ("if", Expression<MethodOrOperator> @:11021 op:2,dt:2,nt:9,next:11022,str:461,d0:0,d1:0;
-                                                                    (____, Scope<Boolean> @:11022 op:13,dt:5,nt:8,next:11026,str:61421,d0:11023,d1:36483;
+                                                                    (____, BuiltinInvocation<Boolean> @:11022 op:13,dt:5,nt:8,next:11026,str:61421,d0:11023,d1:36483;
                                                                         ("=", Expression<MethodOrOperator> @:11023 op:13,dt:2,nt:9,next:11024,str:301,d0:0,d1:0;
                                                                             ("hangar_sentinel_var", VariableAccess<Boolean> @:11024 op:0,dt:5,nt:13,next:11025,str:22813,d0:13,d1:0;
                                                                                 (True, Expression<Boolean> @:11025 op:5,dt:5,nt:9,next:65535,str:61444,d0:65281,d1:65535;))))
-                                                                    (____, Scope<Void> @:11026 op:0,dt:4,nt:8,next:65535,str:61459,d0:11027,d1:36487;
+                                                                    (____, BuiltinInvocation<Void> @:11026 op:0,dt:4,nt:8,next:65535,str:61459,d0:11027,d1:36487;
                                                                         ("begin", Expression<MethodOrOperator> @:11027 op:0,dt:2,nt:9,next:11028,str:6,d0:0,d1:0;
-                                                                            (____, Scope<Void> @:11028 op:367,dt:4,nt:8,next:11032,str:61476,d0:11029,d1:36489;
+                                                                            (____, BuiltinInvocation<Void> @:11028 op:367,dt:4,nt:8,next:11032,str:61476,d0:11029,d1:36489;
                                                                                 ("cs_queue_command_script", Expression<MethodOrOperator> @:11029 op:367,dt:2,nt:9,next:11030,str:22833,d0:0,d1:0;
                                                                                     ("hangar_sentinels_flit/l1", Expression<AI> @:11030 op:19,dt:19,nt:9,next:11031,str:22770,d0:0,d1:49189;
                                                                                         ("hangar_fly_l2", Expression<AIScript> @:11031 op:21,dt:21,nt:9,next:65535,str:22857,d0:287,d1:0;))))
-                                                                            (____, Scope<Void> @:11032 op:4,dt:4,nt:8,next:65535,str:61551,d0:11033,d1:36493;
+                                                                            (____, BuiltinInvocation<Void> @:11032 op:4,dt:4,nt:8,next:65535,str:61551,d0:11033,d1:36493;
                                                                                 ("set", Expression<MethodOrOperator> @:11033 op:4,dt:2,nt:9,next:11034,str:2368,d0:0,d1:0;
                                                                                     ("hangar_sentinel_var", VariableAccess<Boolean> @:11034 op:65535,dt:5,nt:13,next:11035,str:22813,d0:13,d1:0;
                                                                                         (False, Expression<Boolean> @:11035 op:5,dt:5,nt:9,next:65535,str:61576,d0:65280,d1:65535;))))))))
-                                                            (____, Scope<Void> @:11036 op:2,dt:4,nt:8,next:11052,str:61612,d0:11037,d1:36497;
+                                                            (____, BuiltinInvocation<Void> @:11036 op:2,dt:4,nt:8,next:11052,str:61612,d0:11037,d1:36497;
                                                                 ("if", Expression<MethodOrOperator> @:11037 op:2,dt:2,nt:9,next:11038,str:461,d0:0,d1:0;
-                                                                    (____, Scope<Boolean> @:11038 op:13,dt:5,nt:8,next:11042,str:61616,d0:11039,d1:36499;
+                                                                    (____, BuiltinInvocation<Boolean> @:11038 op:13,dt:5,nt:8,next:11042,str:61616,d0:11039,d1:36499;
                                                                         ("=", Expression<MethodOrOperator> @:11039 op:13,dt:2,nt:9,next:11040,str:301,d0:0,d1:0;
                                                                             ("hangar_sentinel_var", VariableAccess<Boolean> @:11040 op:0,dt:5,nt:13,next:11041,str:22813,d0:13,d1:0;
                                                                                 (True, Expression<Boolean> @:11041 op:5,dt:5,nt:9,next:65535,str:61639,d0:65281,d1:65535;))))
-                                                                    (____, Scope<Void> @:11042 op:0,dt:4,nt:8,next:65535,str:61654,d0:11043,d1:36503;
+                                                                    (____, BuiltinInvocation<Void> @:11042 op:0,dt:4,nt:8,next:65535,str:61654,d0:11043,d1:36503;
                                                                         ("begin", Expression<MethodOrOperator> @:11043 op:0,dt:2,nt:9,next:11044,str:6,d0:0,d1:0;
-                                                                            (____, Scope<Void> @:11044 op:367,dt:4,nt:8,next:11048,str:61671,d0:11045,d1:36505;
+                                                                            (____, BuiltinInvocation<Void> @:11044 op:367,dt:4,nt:8,next:11048,str:61671,d0:11045,d1:36505;
                                                                                 ("cs_queue_command_script", Expression<MethodOrOperator> @:11045 op:367,dt:2,nt:9,next:11046,str:22833,d0:0,d1:0;
                                                                                     ("hangar_sentinels_flit/l1", Expression<AI> @:11046 op:19,dt:19,nt:9,next:11047,str:22770,d0:0,d1:49189;
                                                                                         ("hangar_fly_r1", Expression<AIScript> @:11047 op:21,dt:21,nt:9,next:65535,str:22871,d0:288,d1:0;))))
-                                                                            (____, Scope<Void> @:11048 op:4,dt:4,nt:8,next:65535,str:61746,d0:11049,d1:36509;
+                                                                            (____, BuiltinInvocation<Void> @:11048 op:4,dt:4,nt:8,next:65535,str:61746,d0:11049,d1:36509;
                                                                                 ("set", Expression<MethodOrOperator> @:11049 op:4,dt:2,nt:9,next:11050,str:2368,d0:0,d1:0;
                                                                                     ("hangar_sentinel_var", VariableAccess<Boolean> @:11050 op:65535,dt:5,nt:13,next:11051,str:22813,d0:13,d1:0;
                                                                                         (False, Expression<Boolean> @:11051 op:5,dt:5,nt:9,next:65535,str:61771,d0:65280,d1:65535;))))))))
-                                                            (____, Scope<Void> @:11052 op:2,dt:4,nt:8,next:65535,str:61807,d0:11053,d1:36513;
+                                                            (____, BuiltinInvocation<Void> @:11052 op:2,dt:4,nt:8,next:65535,str:61807,d0:11053,d1:36513;
                                                                 ("if", Expression<MethodOrOperator> @:11053 op:2,dt:2,nt:9,next:11054,str:461,d0:0,d1:0;
-                                                                    (____, Scope<Boolean> @:11054 op:13,dt:5,nt:8,next:11058,str:61811,d0:11055,d1:36515;
+                                                                    (____, BuiltinInvocation<Boolean> @:11054 op:13,dt:5,nt:8,next:11058,str:61811,d0:11055,d1:36515;
                                                                         ("=", Expression<MethodOrOperator> @:11055 op:13,dt:2,nt:9,next:11056,str:301,d0:0,d1:0;
                                                                             ("hangar_sentinel_var", VariableAccess<Boolean> @:11056 op:0,dt:5,nt:13,next:11057,str:22813,d0:13,d1:0;
                                                                                 (True, Expression<Boolean> @:11057 op:5,dt:5,nt:9,next:65535,str:61834,d0:65281,d1:65535;))))
-                                                                    (____, Scope<Void> @:11058 op:0,dt:4,nt:8,next:65535,str:61849,d0:11059,d1:36519;
+                                                                    (____, BuiltinInvocation<Void> @:11058 op:0,dt:4,nt:8,next:65535,str:61849,d0:11059,d1:36519;
                                                                         ("begin", Expression<MethodOrOperator> @:11059 op:0,dt:2,nt:9,next:11060,str:6,d0:0,d1:0;
-                                                                            (____, Scope<Void> @:11060 op:367,dt:4,nt:8,next:11064,str:61866,d0:11061,d1:36521;
+                                                                            (____, BuiltinInvocation<Void> @:11060 op:367,dt:4,nt:8,next:11064,str:61866,d0:11061,d1:36521;
                                                                                 ("cs_queue_command_script", Expression<MethodOrOperator> @:11061 op:367,dt:2,nt:9,next:11062,str:22833,d0:0,d1:0;
                                                                                     ("hangar_sentinels_flit/l1", Expression<AI> @:11062 op:19,dt:19,nt:9,next:11063,str:22770,d0:0,d1:49189;
                                                                                         ("hangar_fly_r2", Expression<AIScript> @:11063 op:21,dt:21,nt:9,next:65535,str:22885,d0:289,d1:0;))))
-                                                                            (____, Scope<Void> @:11064 op:4,dt:4,nt:8,next:65535,str:61941,d0:11065,d1:36525;
+                                                                            (____, BuiltinInvocation<Void> @:11064 op:4,dt:4,nt:8,next:65535,str:61941,d0:11065,d1:36525;
                                                                                 ("set", Expression<MethodOrOperator> @:11065 op:4,dt:2,nt:9,next:11066,str:2368,d0:0,d1:0;
                                                                                     ("hangar_sentinel_var", VariableAccess<Boolean> @:11066 op:65535,dt:5,nt:13,next:11067,str:22813,d0:13,d1:0;
                                                                                         (False, Expression<Boolean> @:11067 op:5,dt:5,nt:9,next:65535,str:61966,d0:65280,d1:65535;))))))))))))))
-                                    (____, Scope<Void> @:11068 op:2,dt:4,nt:8,next:11139,str:62224,d0:11069,d1:36529;
+                                    (____, BuiltinInvocation<Void> @:11068 op:2,dt:4,nt:8,next:11139,str:62224,d0:11069,d1:36529;
                                         ("if", Expression<MethodOrOperator> @:11069 op:2,dt:2,nt:9,next:11070,str:461,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:11070 op:16,dt:5,nt:8,next:11076,str:62228,d0:11071,d1:36531;
+                                            (____, BuiltinInvocation<Boolean> @:11070 op:16,dt:5,nt:8,next:11076,str:62228,d0:11071,d1:36531;
                                                 ("<", Expression<MethodOrOperator> @:11071 op:16,dt:2,nt:9,next:11072,str:852,d0:0,d1:0;
-                                                    (____, Scope<Short> @:11072 op:327,dt:7,nt:8,next:11075,str:62231,d0:11073,d1:36533;
+                                                    (____, BuiltinInvocation<Short> @:11072 op:327,dt:7,nt:8,next:11075,str:62231,d0:11073,d1:36533;
                                                         ("ai_living_count", Expression<MethodOrOperator> @:11073 op:327,dt:2,nt:9,next:11074,str:18674,d0:0,d1:0;
                                                             ("hangar_sentinels_flit", Expression<AI> @:11074 op:19,dt:19,nt:9,next:65535,str:22748,d0:37,d1:0;)))
                                                     (1, Expression<Short> @:11075 op:7,dt:7,nt:9,next:65535,str:62271,d0:1,d1:65535;)))
-                                            (____, Scope<Void> @:11076 op:0,dt:4,nt:8,next:65535,str:62280,d0:11077,d1:36537;
+                                            (____, BuiltinInvocation<Void> @:11076 op:0,dt:4,nt:8,next:65535,str:62280,d0:11077,d1:36537;
                                                 ("begin", Expression<MethodOrOperator> @:11077 op:0,dt:2,nt:9,next:11078,str:6,d0:0,d1:0;
-                                                    (____, Scope<Void> @:11078 op:290,dt:4,nt:8,next:11081,str:62294,d0:11079,d1:36539;
+                                                    (____, BuiltinInvocation<Void> @:11078 op:290,dt:4,nt:8,next:11081,str:62294,d0:11079,d1:36539;
                                                         ("ai_place", Expression<MethodOrOperator> @:11079 op:290,dt:2,nt:9,next:11080,str:17225,d0:0,d1:0;
                                                             ("hangar_sentinels_flit/l2", Expression<AI> @:11080 op:19,dt:19,nt:9,next:65535,str:22899,d0:1,d1:49189;)))
-                                                    (____, Scope<Void> @:11081 op:366,dt:4,nt:8,next:11085,str:62337,d0:11082,d1:36542;
+                                                    (____, BuiltinInvocation<Void> @:11081 op:366,dt:4,nt:8,next:11085,str:62337,d0:11082,d1:36542;
                                                         ("cs_run_command_script", Expression<MethodOrOperator> @:11082 op:366,dt:2,nt:9,next:11083,str:18315,d0:0,d1:0;
                                                             ("hangar_sentinels_flit/l2", Expression<AI> @:11083 op:19,dt:19,nt:9,next:11084,str:22899,d0:1,d1:49189;
                                                                 ("hangar_fly_out_l2", Expression<AIScript> @:11084 op:21,dt:21,nt:9,next:65535,str:22924,d0:281,d1:0;))))
-                                                    (____, Scope<Void> @:11085 op:4,dt:4,nt:8,next:11089,str:62411,d0:11086,d1:36546;
+                                                    (____, BuiltinInvocation<Void> @:11085 op:4,dt:4,nt:8,next:11089,str:62411,d0:11086,d1:36546;
                                                         ("set", Expression<MethodOrOperator> @:11086 op:4,dt:2,nt:9,next:11087,str:2368,d0:0,d1:0;
                                                             ("hangar_sentinel_var", VariableAccess<Boolean> @:11087 op:65535,dt:5,nt:13,next:11088,str:22813,d0:13,d1:0;
                                                                 (True, Expression<Boolean> @:11088 op:5,dt:5,nt:9,next:65535,str:62436,d0:65281,d1:65535;))))
-                                                    (____, Scope<Void> @:11089 op:1,dt:4,nt:8,next:65535,str:62449,d0:11090,d1:36550;
+                                                    (____, BuiltinInvocation<Void> @:11089 op:1,dt:4,nt:8,next:65535,str:62449,d0:11090,d1:36550;
                                                         ("begin_random", Expression<MethodOrOperator> @:11090 op:1,dt:2,nt:9,next:11091,str:15760,d0:0,d1:0;
-                                                            (____, Scope<Void> @:11091 op:2,dt:4,nt:8,next:11107,str:62471,d0:11092,d1:36552;
+                                                            (____, BuiltinInvocation<Void> @:11091 op:2,dt:4,nt:8,next:11107,str:62471,d0:11092,d1:36552;
                                                                 ("if", Expression<MethodOrOperator> @:11092 op:2,dt:2,nt:9,next:11093,str:461,d0:0,d1:0;
-                                                                    (____, Scope<Boolean> @:11093 op:13,dt:5,nt:8,next:11097,str:62475,d0:11094,d1:36554;
+                                                                    (____, BuiltinInvocation<Boolean> @:11093 op:13,dt:5,nt:8,next:11097,str:62475,d0:11094,d1:36554;
                                                                         ("=", Expression<MethodOrOperator> @:11094 op:13,dt:2,nt:9,next:11095,str:301,d0:0,d1:0;
                                                                             ("hangar_sentinel_var", VariableAccess<Boolean> @:11095 op:0,dt:5,nt:13,next:11096,str:22813,d0:13,d1:0;
                                                                                 (True, Expression<Boolean> @:11096 op:5,dt:5,nt:9,next:65535,str:62498,d0:65281,d1:65535;))))
-                                                                    (____, Scope<Void> @:11097 op:0,dt:4,nt:8,next:65535,str:62513,d0:11098,d1:36558;
+                                                                    (____, BuiltinInvocation<Void> @:11097 op:0,dt:4,nt:8,next:65535,str:62513,d0:11098,d1:36558;
                                                                         ("begin", Expression<MethodOrOperator> @:11098 op:0,dt:2,nt:9,next:11099,str:6,d0:0,d1:0;
-                                                                            (____, Scope<Void> @:11099 op:367,dt:4,nt:8,next:11103,str:62530,d0:11100,d1:36560;
+                                                                            (____, BuiltinInvocation<Void> @:11099 op:367,dt:4,nt:8,next:11103,str:62530,d0:11100,d1:36560;
                                                                                 ("cs_queue_command_script", Expression<MethodOrOperator> @:11100 op:367,dt:2,nt:9,next:11101,str:22833,d0:0,d1:0;
                                                                                     ("hangar_sentinels_flit/l2", Expression<AI> @:11101 op:19,dt:19,nt:9,next:11102,str:22899,d0:1,d1:49189;
                                                                                         ("hangar_fly_l1", Expression<AIScript> @:11102 op:21,dt:21,nt:9,next:65535,str:22942,d0:286,d1:0;))))
-                                                                            (____, Scope<Void> @:11103 op:4,dt:4,nt:8,next:65535,str:62605,d0:11104,d1:36564;
+                                                                            (____, BuiltinInvocation<Void> @:11103 op:4,dt:4,nt:8,next:65535,str:62605,d0:11104,d1:36564;
                                                                                 ("set", Expression<MethodOrOperator> @:11104 op:4,dt:2,nt:9,next:11105,str:2368,d0:0,d1:0;
                                                                                     ("hangar_sentinel_var", VariableAccess<Boolean> @:11105 op:65535,dt:5,nt:13,next:11106,str:22813,d0:13,d1:0;
                                                                                         (False, Expression<Boolean> @:11106 op:5,dt:5,nt:9,next:65535,str:62630,d0:65280,d1:65535;))))))))
-                                                            (____, Scope<Void> @:11107 op:2,dt:4,nt:8,next:11123,str:62666,d0:11108,d1:36568;
+                                                            (____, BuiltinInvocation<Void> @:11107 op:2,dt:4,nt:8,next:11123,str:62666,d0:11108,d1:36568;
                                                                 ("if", Expression<MethodOrOperator> @:11108 op:2,dt:2,nt:9,next:11109,str:461,d0:0,d1:0;
-                                                                    (____, Scope<Boolean> @:11109 op:13,dt:5,nt:8,next:11113,str:62670,d0:11110,d1:36570;
+                                                                    (____, BuiltinInvocation<Boolean> @:11109 op:13,dt:5,nt:8,next:11113,str:62670,d0:11110,d1:36570;
                                                                         ("=", Expression<MethodOrOperator> @:11110 op:13,dt:2,nt:9,next:11111,str:301,d0:0,d1:0;
                                                                             ("hangar_sentinel_var", VariableAccess<Boolean> @:11111 op:0,dt:5,nt:13,next:11112,str:22813,d0:13,d1:0;
                                                                                 (True, Expression<Boolean> @:11112 op:5,dt:5,nt:9,next:65535,str:62693,d0:65281,d1:65535;))))
-                                                                    (____, Scope<Void> @:11113 op:0,dt:4,nt:8,next:65535,str:62708,d0:11114,d1:36574;
+                                                                    (____, BuiltinInvocation<Void> @:11113 op:0,dt:4,nt:8,next:65535,str:62708,d0:11114,d1:36574;
                                                                         ("begin", Expression<MethodOrOperator> @:11114 op:0,dt:2,nt:9,next:11115,str:6,d0:0,d1:0;
-                                                                            (____, Scope<Void> @:11115 op:367,dt:4,nt:8,next:11119,str:62725,d0:11116,d1:36576;
+                                                                            (____, BuiltinInvocation<Void> @:11115 op:367,dt:4,nt:8,next:11119,str:62725,d0:11116,d1:36576;
                                                                                 ("cs_queue_command_script", Expression<MethodOrOperator> @:11116 op:367,dt:2,nt:9,next:11117,str:22833,d0:0,d1:0;
                                                                                     ("hangar_sentinels_flit/l2", Expression<AI> @:11117 op:19,dt:19,nt:9,next:11118,str:22899,d0:1,d1:49189;
                                                                                         ("hangar_fly_r1", Expression<AIScript> @:11118 op:21,dt:21,nt:9,next:65535,str:22871,d0:288,d1:0;))))
-                                                                            (____, Scope<Void> @:11119 op:4,dt:4,nt:8,next:65535,str:62800,d0:11120,d1:36580;
+                                                                            (____, BuiltinInvocation<Void> @:11119 op:4,dt:4,nt:8,next:65535,str:62800,d0:11120,d1:36580;
                                                                                 ("set", Expression<MethodOrOperator> @:11120 op:4,dt:2,nt:9,next:11121,str:2368,d0:0,d1:0;
                                                                                     ("hangar_sentinel_var", VariableAccess<Boolean> @:11121 op:65535,dt:5,nt:13,next:11122,str:22813,d0:13,d1:0;
                                                                                         (False, Expression<Boolean> @:11122 op:5,dt:5,nt:9,next:65535,str:62825,d0:65280,d1:65535;))))))))
-                                                            (____, Scope<Void> @:11123 op:2,dt:4,nt:8,next:65535,str:62861,d0:11124,d1:36584;
+                                                            (____, BuiltinInvocation<Void> @:11123 op:2,dt:4,nt:8,next:65535,str:62861,d0:11124,d1:36584;
                                                                 ("if", Expression<MethodOrOperator> @:11124 op:2,dt:2,nt:9,next:11125,str:461,d0:0,d1:0;
-                                                                    (____, Scope<Boolean> @:11125 op:13,dt:5,nt:8,next:11129,str:62865,d0:11126,d1:36586;
+                                                                    (____, BuiltinInvocation<Boolean> @:11125 op:13,dt:5,nt:8,next:11129,str:62865,d0:11126,d1:36586;
                                                                         ("=", Expression<MethodOrOperator> @:11126 op:13,dt:2,nt:9,next:11127,str:301,d0:0,d1:0;
                                                                             ("hangar_sentinel_var", VariableAccess<Boolean> @:11127 op:0,dt:5,nt:13,next:11128,str:22813,d0:13,d1:0;
                                                                                 (True, Expression<Boolean> @:11128 op:5,dt:5,nt:9,next:65535,str:62888,d0:65281,d1:65535;))))
-                                                                    (____, Scope<Void> @:11129 op:0,dt:4,nt:8,next:65535,str:62903,d0:11130,d1:36590;
+                                                                    (____, BuiltinInvocation<Void> @:11129 op:0,dt:4,nt:8,next:65535,str:62903,d0:11130,d1:36590;
                                                                         ("begin", Expression<MethodOrOperator> @:11130 op:0,dt:2,nt:9,next:11131,str:6,d0:0,d1:0;
-                                                                            (____, Scope<Void> @:11131 op:367,dt:4,nt:8,next:11135,str:62920,d0:11132,d1:36592;
+                                                                            (____, BuiltinInvocation<Void> @:11131 op:367,dt:4,nt:8,next:11135,str:62920,d0:11132,d1:36592;
                                                                                 ("cs_queue_command_script", Expression<MethodOrOperator> @:11132 op:367,dt:2,nt:9,next:11133,str:22833,d0:0,d1:0;
                                                                                     ("hangar_sentinels_flit/l2", Expression<AI> @:11133 op:19,dt:19,nt:9,next:11134,str:22899,d0:1,d1:49189;
                                                                                         ("hangar_fly_r2", Expression<AIScript> @:11134 op:21,dt:21,nt:9,next:65535,str:22885,d0:289,d1:0;))))
-                                                                            (____, Scope<Void> @:11135 op:4,dt:4,nt:8,next:65535,str:62995,d0:11136,d1:36596;
+                                                                            (____, BuiltinInvocation<Void> @:11135 op:4,dt:4,nt:8,next:65535,str:62995,d0:11136,d1:36596;
                                                                                 ("set", Expression<MethodOrOperator> @:11136 op:4,dt:2,nt:9,next:11137,str:2368,d0:0,d1:0;
                                                                                     ("hangar_sentinel_var", VariableAccess<Boolean> @:11137 op:65535,dt:5,nt:13,next:11138,str:22813,d0:13,d1:0;
                                                                                         (False, Expression<Boolean> @:11138 op:5,dt:5,nt:9,next:65535,str:63020,d0:65280,d1:65535;))))))))))))))
-                                    (____, Scope<Void> @:11139 op:2,dt:4,nt:8,next:11210,str:63278,d0:11140,d1:36600;
+                                    (____, BuiltinInvocation<Void> @:11139 op:2,dt:4,nt:8,next:11210,str:63278,d0:11140,d1:36600;
                                         ("if", Expression<MethodOrOperator> @:11140 op:2,dt:2,nt:9,next:11141,str:461,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:11141 op:16,dt:5,nt:8,next:11147,str:63282,d0:11142,d1:36602;
+                                            (____, BuiltinInvocation<Boolean> @:11141 op:16,dt:5,nt:8,next:11147,str:63282,d0:11142,d1:36602;
                                                 ("<", Expression<MethodOrOperator> @:11142 op:16,dt:2,nt:9,next:11143,str:852,d0:0,d1:0;
-                                                    (____, Scope<Short> @:11143 op:327,dt:7,nt:8,next:11146,str:63285,d0:11144,d1:36604;
+                                                    (____, BuiltinInvocation<Short> @:11143 op:327,dt:7,nt:8,next:11146,str:63285,d0:11144,d1:36604;
                                                         ("ai_living_count", Expression<MethodOrOperator> @:11144 op:327,dt:2,nt:9,next:11145,str:18674,d0:0,d1:0;
                                                             ("hangar_sentinels_flit", Expression<AI> @:11145 op:19,dt:19,nt:9,next:65535,str:22748,d0:37,d1:0;)))
                                                     (1, Expression<Short> @:11146 op:7,dt:7,nt:9,next:65535,str:63325,d0:1,d1:65535;)))
-                                            (____, Scope<Void> @:11147 op:0,dt:4,nt:8,next:65535,str:63334,d0:11148,d1:36608;
+                                            (____, BuiltinInvocation<Void> @:11147 op:0,dt:4,nt:8,next:65535,str:63334,d0:11148,d1:36608;
                                                 ("begin", Expression<MethodOrOperator> @:11148 op:0,dt:2,nt:9,next:11149,str:6,d0:0,d1:0;
-                                                    (____, Scope<Void> @:11149 op:290,dt:4,nt:8,next:11152,str:63348,d0:11150,d1:36610;
+                                                    (____, BuiltinInvocation<Void> @:11149 op:290,dt:4,nt:8,next:11152,str:63348,d0:11150,d1:36610;
                                                         ("ai_place", Expression<MethodOrOperator> @:11150 op:290,dt:2,nt:9,next:11151,str:17225,d0:0,d1:0;
                                                             ("hangar_sentinels_flit/r1", Expression<AI> @:11151 op:19,dt:19,nt:9,next:65535,str:22956,d0:2,d1:49189;)))
-                                                    (____, Scope<Void> @:11152 op:366,dt:4,nt:8,next:11156,str:63391,d0:11153,d1:36613;
+                                                    (____, BuiltinInvocation<Void> @:11152 op:366,dt:4,nt:8,next:11156,str:63391,d0:11153,d1:36613;
                                                         ("cs_run_command_script", Expression<MethodOrOperator> @:11153 op:366,dt:2,nt:9,next:11154,str:18315,d0:0,d1:0;
                                                             ("hangar_sentinels_flit/r1", Expression<AI> @:11154 op:19,dt:19,nt:9,next:11155,str:22956,d0:2,d1:49189;
                                                                 ("hangar_fly_out_r1", Expression<AIScript> @:11155 op:21,dt:21,nt:9,next:65535,str:22981,d0:282,d1:0;))))
-                                                    (____, Scope<Void> @:11156 op:4,dt:4,nt:8,next:11160,str:63465,d0:11157,d1:36617;
+                                                    (____, BuiltinInvocation<Void> @:11156 op:4,dt:4,nt:8,next:11160,str:63465,d0:11157,d1:36617;
                                                         ("set", Expression<MethodOrOperator> @:11157 op:4,dt:2,nt:9,next:11158,str:2368,d0:0,d1:0;
                                                             ("hangar_sentinel_var", VariableAccess<Boolean> @:11158 op:65535,dt:5,nt:13,next:11159,str:22813,d0:13,d1:0;
                                                                 (True, Expression<Boolean> @:11159 op:5,dt:5,nt:9,next:65535,str:63490,d0:65281,d1:65535;))))
-                                                    (____, Scope<Void> @:11160 op:1,dt:4,nt:8,next:65535,str:63503,d0:11161,d1:36621;
+                                                    (____, BuiltinInvocation<Void> @:11160 op:1,dt:4,nt:8,next:65535,str:63503,d0:11161,d1:36621;
                                                         ("begin_random", Expression<MethodOrOperator> @:11161 op:1,dt:2,nt:9,next:11162,str:15760,d0:0,d1:0;
-                                                            (____, Scope<Void> @:11162 op:2,dt:4,nt:8,next:11178,str:63525,d0:11163,d1:36623;
+                                                            (____, BuiltinInvocation<Void> @:11162 op:2,dt:4,nt:8,next:11178,str:63525,d0:11163,d1:36623;
                                                                 ("if", Expression<MethodOrOperator> @:11163 op:2,dt:2,nt:9,next:11164,str:461,d0:0,d1:0;
-                                                                    (____, Scope<Boolean> @:11164 op:13,dt:5,nt:8,next:11168,str:63529,d0:11165,d1:36625;
+                                                                    (____, BuiltinInvocation<Boolean> @:11164 op:13,dt:5,nt:8,next:11168,str:63529,d0:11165,d1:36625;
                                                                         ("=", Expression<MethodOrOperator> @:11165 op:13,dt:2,nt:9,next:11166,str:301,d0:0,d1:0;
                                                                             ("hangar_sentinel_var", VariableAccess<Boolean> @:11166 op:0,dt:5,nt:13,next:11167,str:22813,d0:13,d1:0;
                                                                                 (True, Expression<Boolean> @:11167 op:5,dt:5,nt:9,next:65535,str:63552,d0:65281,d1:65535;))))
-                                                                    (____, Scope<Void> @:11168 op:0,dt:4,nt:8,next:65535,str:63567,d0:11169,d1:36629;
+                                                                    (____, BuiltinInvocation<Void> @:11168 op:0,dt:4,nt:8,next:65535,str:63567,d0:11169,d1:36629;
                                                                         ("begin", Expression<MethodOrOperator> @:11169 op:0,dt:2,nt:9,next:11170,str:6,d0:0,d1:0;
-                                                                            (____, Scope<Void> @:11170 op:367,dt:4,nt:8,next:11174,str:63584,d0:11171,d1:36631;
+                                                                            (____, BuiltinInvocation<Void> @:11170 op:367,dt:4,nt:8,next:11174,str:63584,d0:11171,d1:36631;
                                                                                 ("cs_queue_command_script", Expression<MethodOrOperator> @:11171 op:367,dt:2,nt:9,next:11172,str:22833,d0:0,d1:0;
                                                                                     ("hangar_sentinels_flit/r1", Expression<AI> @:11172 op:19,dt:19,nt:9,next:11173,str:22956,d0:2,d1:49189;
                                                                                         ("hangar_fly_l1", Expression<AIScript> @:11173 op:21,dt:21,nt:9,next:65535,str:22942,d0:286,d1:0;))))
-                                                                            (____, Scope<Void> @:11174 op:4,dt:4,nt:8,next:65535,str:63659,d0:11175,d1:36635;
+                                                                            (____, BuiltinInvocation<Void> @:11174 op:4,dt:4,nt:8,next:65535,str:63659,d0:11175,d1:36635;
                                                                                 ("set", Expression<MethodOrOperator> @:11175 op:4,dt:2,nt:9,next:11176,str:2368,d0:0,d1:0;
                                                                                     ("hangar_sentinel_var", VariableAccess<Boolean> @:11176 op:65535,dt:5,nt:13,next:11177,str:22813,d0:13,d1:0;
                                                                                         (False, Expression<Boolean> @:11177 op:5,dt:5,nt:9,next:65535,str:63684,d0:65280,d1:65535;))))))))
-                                                            (____, Scope<Void> @:11178 op:2,dt:4,nt:8,next:11194,str:63720,d0:11179,d1:36639;
+                                                            (____, BuiltinInvocation<Void> @:11178 op:2,dt:4,nt:8,next:11194,str:63720,d0:11179,d1:36639;
                                                                 ("if", Expression<MethodOrOperator> @:11179 op:2,dt:2,nt:9,next:11180,str:461,d0:0,d1:0;
-                                                                    (____, Scope<Boolean> @:11180 op:13,dt:5,nt:8,next:11184,str:63724,d0:11181,d1:36641;
+                                                                    (____, BuiltinInvocation<Boolean> @:11180 op:13,dt:5,nt:8,next:11184,str:63724,d0:11181,d1:36641;
                                                                         ("=", Expression<MethodOrOperator> @:11181 op:13,dt:2,nt:9,next:11182,str:301,d0:0,d1:0;
                                                                             ("hangar_sentinel_var", VariableAccess<Boolean> @:11182 op:0,dt:5,nt:13,next:11183,str:22813,d0:13,d1:0;
                                                                                 (True, Expression<Boolean> @:11183 op:5,dt:5,nt:9,next:65535,str:63747,d0:65281,d1:65535;))))
-                                                                    (____, Scope<Void> @:11184 op:0,dt:4,nt:8,next:65535,str:63762,d0:11185,d1:36645;
+                                                                    (____, BuiltinInvocation<Void> @:11184 op:0,dt:4,nt:8,next:65535,str:63762,d0:11185,d1:36645;
                                                                         ("begin", Expression<MethodOrOperator> @:11185 op:0,dt:2,nt:9,next:11186,str:6,d0:0,d1:0;
-                                                                            (____, Scope<Void> @:11186 op:367,dt:4,nt:8,next:11190,str:63779,d0:11187,d1:36647;
+                                                                            (____, BuiltinInvocation<Void> @:11186 op:367,dt:4,nt:8,next:11190,str:63779,d0:11187,d1:36647;
                                                                                 ("cs_queue_command_script", Expression<MethodOrOperator> @:11187 op:367,dt:2,nt:9,next:11188,str:22833,d0:0,d1:0;
                                                                                     ("hangar_sentinels_flit/r1", Expression<AI> @:11188 op:19,dt:19,nt:9,next:11189,str:22956,d0:2,d1:49189;
                                                                                         ("hangar_fly_l2", Expression<AIScript> @:11189 op:21,dt:21,nt:9,next:65535,str:22857,d0:287,d1:0;))))
-                                                                            (____, Scope<Void> @:11190 op:4,dt:4,nt:8,next:65535,str:63854,d0:11191,d1:36651;
+                                                                            (____, BuiltinInvocation<Void> @:11190 op:4,dt:4,nt:8,next:65535,str:63854,d0:11191,d1:36651;
                                                                                 ("set", Expression<MethodOrOperator> @:11191 op:4,dt:2,nt:9,next:11192,str:2368,d0:0,d1:0;
                                                                                     ("hangar_sentinel_var", VariableAccess<Boolean> @:11192 op:65535,dt:5,nt:13,next:11193,str:22813,d0:13,d1:0;
                                                                                         (False, Expression<Boolean> @:11193 op:5,dt:5,nt:9,next:65535,str:63879,d0:65280,d1:65535;))))))))
-                                                            (____, Scope<Void> @:11194 op:2,dt:4,nt:8,next:65535,str:63915,d0:11195,d1:36655;
+                                                            (____, BuiltinInvocation<Void> @:11194 op:2,dt:4,nt:8,next:65535,str:63915,d0:11195,d1:36655;
                                                                 ("if", Expression<MethodOrOperator> @:11195 op:2,dt:2,nt:9,next:11196,str:461,d0:0,d1:0;
-                                                                    (____, Scope<Boolean> @:11196 op:13,dt:5,nt:8,next:11200,str:63919,d0:11197,d1:36657;
+                                                                    (____, BuiltinInvocation<Boolean> @:11196 op:13,dt:5,nt:8,next:11200,str:63919,d0:11197,d1:36657;
                                                                         ("=", Expression<MethodOrOperator> @:11197 op:13,dt:2,nt:9,next:11198,str:301,d0:0,d1:0;
                                                                             ("hangar_sentinel_var", VariableAccess<Boolean> @:11198 op:0,dt:5,nt:13,next:11199,str:22813,d0:13,d1:0;
                                                                                 (True, Expression<Boolean> @:11199 op:5,dt:5,nt:9,next:65535,str:63942,d0:65281,d1:65535;))))
-                                                                    (____, Scope<Void> @:11200 op:0,dt:4,nt:8,next:65535,str:63957,d0:11201,d1:36661;
+                                                                    (____, BuiltinInvocation<Void> @:11200 op:0,dt:4,nt:8,next:65535,str:63957,d0:11201,d1:36661;
                                                                         ("begin", Expression<MethodOrOperator> @:11201 op:0,dt:2,nt:9,next:11202,str:6,d0:0,d1:0;
-                                                                            (____, Scope<Void> @:11202 op:367,dt:4,nt:8,next:11206,str:63974,d0:11203,d1:36663;
+                                                                            (____, BuiltinInvocation<Void> @:11202 op:367,dt:4,nt:8,next:11206,str:63974,d0:11203,d1:36663;
                                                                                 ("cs_queue_command_script", Expression<MethodOrOperator> @:11203 op:367,dt:2,nt:9,next:11204,str:22833,d0:0,d1:0;
                                                                                     ("hangar_sentinels_flit/r1", Expression<AI> @:11204 op:19,dt:19,nt:9,next:11205,str:22956,d0:2,d1:49189;
                                                                                         ("hangar_fly_r2", Expression<AIScript> @:11205 op:21,dt:21,nt:9,next:65535,str:22885,d0:289,d1:0;))))
-                                                                            (____, Scope<Void> @:11206 op:4,dt:4,nt:8,next:65535,str:64049,d0:11207,d1:36667;
+                                                                            (____, BuiltinInvocation<Void> @:11206 op:4,dt:4,nt:8,next:65535,str:64049,d0:11207,d1:36667;
                                                                                 ("set", Expression<MethodOrOperator> @:11207 op:4,dt:2,nt:9,next:11208,str:2368,d0:0,d1:0;
                                                                                     ("hangar_sentinel_var", VariableAccess<Boolean> @:11208 op:65535,dt:5,nt:13,next:11209,str:22813,d0:13,d1:0;
                                                                                         (False, Expression<Boolean> @:11209 op:5,dt:5,nt:9,next:65535,str:64074,d0:65280,d1:65535;))))))))))))))
-                                    (____, Scope<Void> @:11210 op:2,dt:4,nt:8,next:11281,str:64332,d0:11211,d1:36671;
+                                    (____, BuiltinInvocation<Void> @:11210 op:2,dt:4,nt:8,next:11281,str:64332,d0:11211,d1:36671;
                                         ("if", Expression<MethodOrOperator> @:11211 op:2,dt:2,nt:9,next:11212,str:461,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:11212 op:16,dt:5,nt:8,next:11218,str:64336,d0:11213,d1:36673;
+                                            (____, BuiltinInvocation<Boolean> @:11212 op:16,dt:5,nt:8,next:11218,str:64336,d0:11213,d1:36673;
                                                 ("<", Expression<MethodOrOperator> @:11213 op:16,dt:2,nt:9,next:11214,str:852,d0:0,d1:0;
-                                                    (____, Scope<Short> @:11214 op:327,dt:7,nt:8,next:11217,str:64339,d0:11215,d1:36675;
+                                                    (____, BuiltinInvocation<Short> @:11214 op:327,dt:7,nt:8,next:11217,str:64339,d0:11215,d1:36675;
                                                         ("ai_living_count", Expression<MethodOrOperator> @:11215 op:327,dt:2,nt:9,next:11216,str:18674,d0:0,d1:0;
                                                             ("hangar_sentinels_flit", Expression<AI> @:11216 op:19,dt:19,nt:9,next:65535,str:22748,d0:37,d1:0;)))
                                                     (1, Expression<Short> @:11217 op:7,dt:7,nt:9,next:65535,str:64379,d0:1,d1:65535;)))
-                                            (____, Scope<Void> @:11218 op:0,dt:4,nt:8,next:65535,str:64388,d0:11219,d1:36679;
+                                            (____, BuiltinInvocation<Void> @:11218 op:0,dt:4,nt:8,next:65535,str:64388,d0:11219,d1:36679;
                                                 ("begin", Expression<MethodOrOperator> @:11219 op:0,dt:2,nt:9,next:11220,str:6,d0:0,d1:0;
-                                                    (____, Scope<Void> @:11220 op:290,dt:4,nt:8,next:11223,str:64402,d0:11221,d1:36681;
+                                                    (____, BuiltinInvocation<Void> @:11220 op:290,dt:4,nt:8,next:11223,str:64402,d0:11221,d1:36681;
                                                         ("ai_place", Expression<MethodOrOperator> @:11221 op:290,dt:2,nt:9,next:11222,str:17225,d0:0,d1:0;
                                                             ("hangar_sentinels_flit/r2", Expression<AI> @:11222 op:19,dt:19,nt:9,next:65535,str:22999,d0:3,d1:49189;)))
-                                                    (____, Scope<Void> @:11223 op:366,dt:4,nt:8,next:11227,str:64445,d0:11224,d1:36684;
+                                                    (____, BuiltinInvocation<Void> @:11223 op:366,dt:4,nt:8,next:11227,str:64445,d0:11224,d1:36684;
                                                         ("cs_run_command_script", Expression<MethodOrOperator> @:11224 op:366,dt:2,nt:9,next:11225,str:18315,d0:0,d1:0;
                                                             ("hangar_sentinels_flit/r2", Expression<AI> @:11225 op:19,dt:19,nt:9,next:11226,str:22999,d0:3,d1:49189;
                                                                 ("hangar_fly_out_r2", Expression<AIScript> @:11226 op:21,dt:21,nt:9,next:65535,str:23024,d0:283,d1:0;))))
-                                                    (____, Scope<Void> @:11227 op:4,dt:4,nt:8,next:11231,str:64519,d0:11228,d1:36688;
+                                                    (____, BuiltinInvocation<Void> @:11227 op:4,dt:4,nt:8,next:11231,str:64519,d0:11228,d1:36688;
                                                         ("set", Expression<MethodOrOperator> @:11228 op:4,dt:2,nt:9,next:11229,str:2368,d0:0,d1:0;
                                                             ("hangar_sentinel_var", VariableAccess<Boolean> @:11229 op:65535,dt:5,nt:13,next:11230,str:22813,d0:13,d1:0;
                                                                 (True, Expression<Boolean> @:11230 op:5,dt:5,nt:9,next:65535,str:64544,d0:65281,d1:65535;))))
-                                                    (____, Scope<Void> @:11231 op:1,dt:4,nt:8,next:65535,str:64557,d0:11232,d1:36692;
+                                                    (____, BuiltinInvocation<Void> @:11231 op:1,dt:4,nt:8,next:65535,str:64557,d0:11232,d1:36692;
                                                         ("begin_random", Expression<MethodOrOperator> @:11232 op:1,dt:2,nt:9,next:11233,str:15760,d0:0,d1:0;
-                                                            (____, Scope<Void> @:11233 op:2,dt:4,nt:8,next:11249,str:64579,d0:11234,d1:36694;
+                                                            (____, BuiltinInvocation<Void> @:11233 op:2,dt:4,nt:8,next:11249,str:64579,d0:11234,d1:36694;
                                                                 ("if", Expression<MethodOrOperator> @:11234 op:2,dt:2,nt:9,next:11235,str:461,d0:0,d1:0;
-                                                                    (____, Scope<Boolean> @:11235 op:13,dt:5,nt:8,next:11239,str:64583,d0:11236,d1:36696;
+                                                                    (____, BuiltinInvocation<Boolean> @:11235 op:13,dt:5,nt:8,next:11239,str:64583,d0:11236,d1:36696;
                                                                         ("=", Expression<MethodOrOperator> @:11236 op:13,dt:2,nt:9,next:11237,str:301,d0:0,d1:0;
                                                                             ("hangar_sentinel_var", VariableAccess<Boolean> @:11237 op:0,dt:5,nt:13,next:11238,str:22813,d0:13,d1:0;
                                                                                 (True, Expression<Boolean> @:11238 op:5,dt:5,nt:9,next:65535,str:64606,d0:65281,d1:65535;))))
-                                                                    (____, Scope<Void> @:11239 op:0,dt:4,nt:8,next:65535,str:64621,d0:11240,d1:36700;
+                                                                    (____, BuiltinInvocation<Void> @:11239 op:0,dt:4,nt:8,next:65535,str:64621,d0:11240,d1:36700;
                                                                         ("begin", Expression<MethodOrOperator> @:11240 op:0,dt:2,nt:9,next:11241,str:6,d0:0,d1:0;
-                                                                            (____, Scope<Void> @:11241 op:367,dt:4,nt:8,next:11245,str:64638,d0:11242,d1:36702;
+                                                                            (____, BuiltinInvocation<Void> @:11241 op:367,dt:4,nt:8,next:11245,str:64638,d0:11242,d1:36702;
                                                                                 ("cs_queue_command_script", Expression<MethodOrOperator> @:11242 op:367,dt:2,nt:9,next:11243,str:22833,d0:0,d1:0;
                                                                                     ("hangar_sentinels_flit/r2", Expression<AI> @:11243 op:19,dt:19,nt:9,next:11244,str:22999,d0:3,d1:49189;
                                                                                         ("hangar_fly_l1", Expression<AIScript> @:11244 op:21,dt:21,nt:9,next:65535,str:22942,d0:286,d1:0;))))
-                                                                            (____, Scope<Void> @:11245 op:4,dt:4,nt:8,next:65535,str:64713,d0:11246,d1:36706;
+                                                                            (____, BuiltinInvocation<Void> @:11245 op:4,dt:4,nt:8,next:65535,str:64713,d0:11246,d1:36706;
                                                                                 ("set", Expression<MethodOrOperator> @:11246 op:4,dt:2,nt:9,next:11247,str:2368,d0:0,d1:0;
                                                                                     ("hangar_sentinel_var", VariableAccess<Boolean> @:11247 op:65535,dt:5,nt:13,next:11248,str:22813,d0:13,d1:0;
                                                                                         (False, Expression<Boolean> @:11248 op:5,dt:5,nt:9,next:65535,str:64738,d0:65280,d1:65535;))))))))
-                                                            (____, Scope<Void> @:11249 op:2,dt:4,nt:8,next:11265,str:64774,d0:11250,d1:36710;
+                                                            (____, BuiltinInvocation<Void> @:11249 op:2,dt:4,nt:8,next:11265,str:64774,d0:11250,d1:36710;
                                                                 ("if", Expression<MethodOrOperator> @:11250 op:2,dt:2,nt:9,next:11251,str:461,d0:0,d1:0;
-                                                                    (____, Scope<Boolean> @:11251 op:13,dt:5,nt:8,next:11255,str:64778,d0:11252,d1:36712;
+                                                                    (____, BuiltinInvocation<Boolean> @:11251 op:13,dt:5,nt:8,next:11255,str:64778,d0:11252,d1:36712;
                                                                         ("=", Expression<MethodOrOperator> @:11252 op:13,dt:2,nt:9,next:11253,str:301,d0:0,d1:0;
                                                                             ("hangar_sentinel_var", VariableAccess<Boolean> @:11253 op:0,dt:5,nt:13,next:11254,str:22813,d0:13,d1:0;
                                                                                 (True, Expression<Boolean> @:11254 op:5,dt:5,nt:9,next:65535,str:64801,d0:65281,d1:65535;))))
-                                                                    (____, Scope<Void> @:11255 op:0,dt:4,nt:8,next:65535,str:64816,d0:11256,d1:36716;
+                                                                    (____, BuiltinInvocation<Void> @:11255 op:0,dt:4,nt:8,next:65535,str:64816,d0:11256,d1:36716;
                                                                         ("begin", Expression<MethodOrOperator> @:11256 op:0,dt:2,nt:9,next:11257,str:6,d0:0,d1:0;
-                                                                            (____, Scope<Void> @:11257 op:367,dt:4,nt:8,next:11261,str:64833,d0:11258,d1:36718;
+                                                                            (____, BuiltinInvocation<Void> @:11257 op:367,dt:4,nt:8,next:11261,str:64833,d0:11258,d1:36718;
                                                                                 ("cs_queue_command_script", Expression<MethodOrOperator> @:11258 op:367,dt:2,nt:9,next:11259,str:22833,d0:0,d1:0;
                                                                                     ("hangar_sentinels_flit/r2", Expression<AI> @:11259 op:19,dt:19,nt:9,next:11260,str:22999,d0:3,d1:49189;
                                                                                         ("hangar_fly_l2", Expression<AIScript> @:11260 op:21,dt:21,nt:9,next:65535,str:22857,d0:287,d1:0;))))
-                                                                            (____, Scope<Void> @:11261 op:4,dt:4,nt:8,next:65535,str:64908,d0:11262,d1:36722;
+                                                                            (____, BuiltinInvocation<Void> @:11261 op:4,dt:4,nt:8,next:65535,str:64908,d0:11262,d1:36722;
                                                                                 ("set", Expression<MethodOrOperator> @:11262 op:4,dt:2,nt:9,next:11263,str:2368,d0:0,d1:0;
                                                                                     ("hangar_sentinel_var", VariableAccess<Boolean> @:11263 op:65535,dt:5,nt:13,next:11264,str:22813,d0:13,d1:0;
                                                                                         (False, Expression<Boolean> @:11264 op:5,dt:5,nt:9,next:65535,str:64933,d0:65280,d1:65535;))))))))
-                                                            (____, Scope<Void> @:11265 op:2,dt:4,nt:8,next:65535,str:64969,d0:11266,d1:36726;
+                                                            (____, BuiltinInvocation<Void> @:11265 op:2,dt:4,nt:8,next:65535,str:64969,d0:11266,d1:36726;
                                                                 ("if", Expression<MethodOrOperator> @:11266 op:2,dt:2,nt:9,next:11267,str:461,d0:0,d1:0;
-                                                                    (____, Scope<Boolean> @:11267 op:13,dt:5,nt:8,next:11271,str:64973,d0:11268,d1:36728;
+                                                                    (____, BuiltinInvocation<Boolean> @:11267 op:13,dt:5,nt:8,next:11271,str:64973,d0:11268,d1:36728;
                                                                         ("=", Expression<MethodOrOperator> @:11268 op:13,dt:2,nt:9,next:11269,str:301,d0:0,d1:0;
                                                                             ("hangar_sentinel_var", VariableAccess<Boolean> @:11269 op:0,dt:5,nt:13,next:11270,str:22813,d0:13,d1:0;
                                                                                 (True, Expression<Boolean> @:11270 op:5,dt:5,nt:9,next:65535,str:64996,d0:65281,d1:65535;))))
-                                                                    (____, Scope<Void> @:11271 op:0,dt:4,nt:8,next:65535,str:65011,d0:11272,d1:36732;
+                                                                    (____, BuiltinInvocation<Void> @:11271 op:0,dt:4,nt:8,next:65535,str:65011,d0:11272,d1:36732;
                                                                         ("begin", Expression<MethodOrOperator> @:11272 op:0,dt:2,nt:9,next:11273,str:6,d0:0,d1:0;
-                                                                            (____, Scope<Void> @:11273 op:367,dt:4,nt:8,next:11277,str:65028,d0:11274,d1:36734;
+                                                                            (____, BuiltinInvocation<Void> @:11273 op:367,dt:4,nt:8,next:11277,str:65028,d0:11274,d1:36734;
                                                                                 ("cs_queue_command_script", Expression<MethodOrOperator> @:11274 op:367,dt:2,nt:9,next:11275,str:22833,d0:0,d1:0;
                                                                                     ("hangar_sentinels_flit/r2", Expression<AI> @:11275 op:19,dt:19,nt:9,next:11276,str:22999,d0:3,d1:49189;
                                                                                         ("hangar_fly_r1", Expression<AIScript> @:11276 op:21,dt:21,nt:9,next:65535,str:22871,d0:288,d1:0;))))
-                                                                            (____, Scope<Void> @:11277 op:4,dt:4,nt:8,next:65535,str:65103,d0:11278,d1:36738;
+                                                                            (____, BuiltinInvocation<Void> @:11277 op:4,dt:4,nt:8,next:65535,str:65103,d0:11278,d1:36738;
                                                                                 ("set", Expression<MethodOrOperator> @:11278 op:4,dt:2,nt:9,next:11279,str:2368,d0:0,d1:0;
                                                                                     ("hangar_sentinel_var", VariableAccess<Boolean> @:11279 op:65535,dt:5,nt:13,next:11280,str:22813,d0:13,d1:0;
                                                                                         (False, Expression<Boolean> @:11280 op:5,dt:5,nt:9,next:65535,str:65128,d0:65280,d1:65535;))))))))))))))
-                                    (____, Scope<Void> @:11281 op:2,dt:4,nt:8,next:65535,str:65386,d0:11282,d1:36742;
+                                    (____, BuiltinInvocation<Void> @:11281 op:2,dt:4,nt:8,next:65535,str:65386,d0:11282,d1:36742;
                                         ("if", Expression<MethodOrOperator> @:11282 op:2,dt:2,nt:9,next:11283,str:461,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:11283 op:16,dt:5,nt:8,next:11289,str:65390,d0:11284,d1:36744;
+                                            (____, BuiltinInvocation<Boolean> @:11283 op:16,dt:5,nt:8,next:11289,str:65390,d0:11284,d1:36744;
                                                 ("<", Expression<MethodOrOperator> @:11284 op:16,dt:2,nt:9,next:11285,str:852,d0:0,d1:0;
-                                                    (____, Scope<Short> @:11285 op:327,dt:7,nt:8,next:11288,str:65393,d0:11286,d1:36746;
+                                                    (____, BuiltinInvocation<Short> @:11285 op:327,dt:7,nt:8,next:11288,str:65393,d0:11286,d1:36746;
                                                         ("ai_living_count", Expression<MethodOrOperator> @:11286 op:327,dt:2,nt:9,next:11287,str:18674,d0:0,d1:0;
                                                             ("hangar_sentinels_flit", Expression<AI> @:11287 op:19,dt:19,nt:9,next:65535,str:22748,d0:37,d1:0;)))
                                                     (1, Expression<Short> @:11288 op:7,dt:7,nt:9,next:65535,str:65433,d0:1,d1:65535;)))
-                                            (____, Scope<Void> @:11289 op:0,dt:4,nt:8,next:65535,str:65442,d0:11290,d1:36750;
+                                            (____, BuiltinInvocation<Void> @:11289 op:0,dt:4,nt:8,next:65535,str:65442,d0:11290,d1:36750;
                                                 ("begin", Expression<MethodOrOperator> @:11290 op:0,dt:2,nt:9,next:11291,str:6,d0:0,d1:0;
-                                                    (____, Scope<Void> @:11291 op:290,dt:4,nt:8,next:11294,str:65456,d0:11292,d1:36752;
+                                                    (____, BuiltinInvocation<Void> @:11291 op:290,dt:4,nt:8,next:11294,str:65456,d0:11292,d1:36752;
                                                         ("ai_place", Expression<MethodOrOperator> @:11292 op:290,dt:2,nt:9,next:11293,str:17225,d0:0,d1:0;
                                                             ("hangar_sentinels_flit/c1", Expression<AI> @:11293 op:19,dt:19,nt:9,next:65535,str:23042,d0:4,d1:49189;)))
-                                                    (____, Scope<Void> @:11294 op:366,dt:4,nt:8,next:11298,str:65499,d0:11295,d1:36755;
+                                                    (____, BuiltinInvocation<Void> @:11294 op:366,dt:4,nt:8,next:11298,str:65499,d0:11295,d1:36755;
                                                         ("cs_run_command_script", Expression<MethodOrOperator> @:11295 op:366,dt:2,nt:9,next:11296,str:18315,d0:0,d1:0;
                                                             ("hangar_sentinels_flit/c1", Expression<AI> @:11296 op:19,dt:19,nt:9,next:11297,str:23042,d0:4,d1:49189;
                                                                 ("hangar_fly_out_c1", Expression<AIScript> @:11297 op:21,dt:21,nt:9,next:65535,str:23067,d0:284,d1:0;))))
-                                                    (____, Scope<Void> @:11298 op:4,dt:4,nt:8,next:11302,str:37,d0:11299,d1:36759;
+                                                    (____, BuiltinInvocation<Void> @:11298 op:4,dt:4,nt:8,next:11302,str:37,d0:11299,d1:36759;
                                                         ("set", Expression<MethodOrOperator> @:11299 op:4,dt:2,nt:9,next:11300,str:2368,d0:0,d1:0;
                                                             ("hangar_sentinel_var", VariableAccess<Boolean> @:11300 op:65535,dt:5,nt:13,next:11301,str:22813,d0:13,d1:0;
                                                                 (True, Expression<Boolean> @:11301 op:5,dt:5,nt:9,next:65535,str:62,d0:65281,d1:65535;))))
-                                                    (____, Scope<Void> @:11302 op:1,dt:4,nt:8,next:65535,str:75,d0:11303,d1:36763;
+                                                    (____, BuiltinInvocation<Void> @:11302 op:1,dt:4,nt:8,next:65535,str:75,d0:11303,d1:36763;
                                                         ("begin_random", Expression<MethodOrOperator> @:11303 op:1,dt:2,nt:9,next:11304,str:15760,d0:0,d1:0;
-                                                            (____, Scope<Void> @:11304 op:2,dt:4,nt:8,next:11320,str:97,d0:11305,d1:36765;
+                                                            (____, BuiltinInvocation<Void> @:11304 op:2,dt:4,nt:8,next:11320,str:97,d0:11305,d1:36765;
                                                                 ("if", Expression<MethodOrOperator> @:11305 op:2,dt:2,nt:9,next:11306,str:461,d0:0,d1:0;
-                                                                    (____, Scope<Boolean> @:11306 op:13,dt:5,nt:8,next:11310,str:101,d0:11307,d1:36767;
+                                                                    (____, BuiltinInvocation<Boolean> @:11306 op:13,dt:5,nt:8,next:11310,str:101,d0:11307,d1:36767;
                                                                         ("=", Expression<MethodOrOperator> @:11307 op:13,dt:2,nt:9,next:11308,str:301,d0:0,d1:0;
                                                                             ("hangar_sentinel_var", VariableAccess<Boolean> @:11308 op:0,dt:5,nt:13,next:11309,str:22813,d0:13,d1:0;
                                                                                 (True, Expression<Boolean> @:11309 op:5,dt:5,nt:9,next:65535,str:124,d0:65281,d1:65535;))))
-                                                                    (____, Scope<Void> @:11310 op:0,dt:4,nt:8,next:65535,str:139,d0:11311,d1:36771;
+                                                                    (____, BuiltinInvocation<Void> @:11310 op:0,dt:4,nt:8,next:65535,str:139,d0:11311,d1:36771;
                                                                         ("begin", Expression<MethodOrOperator> @:11311 op:0,dt:2,nt:9,next:11312,str:6,d0:0,d1:0;
-                                                                            (____, Scope<Void> @:11312 op:367,dt:4,nt:8,next:11316,str:156,d0:11313,d1:36773;
+                                                                            (____, BuiltinInvocation<Void> @:11312 op:367,dt:4,nt:8,next:11316,str:156,d0:11313,d1:36773;
                                                                                 ("cs_queue_command_script", Expression<MethodOrOperator> @:11313 op:367,dt:2,nt:9,next:11314,str:22833,d0:0,d1:0;
                                                                                     ("hangar_sentinels_flit/c1", Expression<AI> @:11314 op:19,dt:19,nt:9,next:11315,str:23042,d0:4,d1:49189;
                                                                                         ("hangar_fly_l1", Expression<AIScript> @:11315 op:21,dt:21,nt:9,next:65535,str:22942,d0:286,d1:0;))))
-                                                                            (____, Scope<Void> @:11316 op:4,dt:4,nt:8,next:65535,str:231,d0:11317,d1:36777;
+                                                                            (____, BuiltinInvocation<Void> @:11316 op:4,dt:4,nt:8,next:65535,str:231,d0:11317,d1:36777;
                                                                                 ("set", Expression<MethodOrOperator> @:11317 op:4,dt:2,nt:9,next:11318,str:2368,d0:0,d1:0;
                                                                                     ("hangar_sentinel_var", VariableAccess<Boolean> @:11318 op:65535,dt:5,nt:13,next:11319,str:22813,d0:13,d1:0;
                                                                                         (False, Expression<Boolean> @:11319 op:5,dt:5,nt:9,next:65535,str:256,d0:65280,d1:65535;))))))))
-                                                            (____, Scope<Void> @:11320 op:2,dt:4,nt:8,next:65535,str:292,d0:11321,d1:36781;
+                                                            (____, BuiltinInvocation<Void> @:11320 op:2,dt:4,nt:8,next:65535,str:292,d0:11321,d1:36781;
                                                                 ("if", Expression<MethodOrOperator> @:11321 op:2,dt:2,nt:9,next:11322,str:461,d0:0,d1:0;
-                                                                    (____, Scope<Boolean> @:11322 op:13,dt:5,nt:8,next:11326,str:296,d0:11323,d1:36783;
+                                                                    (____, BuiltinInvocation<Boolean> @:11322 op:13,dt:5,nt:8,next:11326,str:296,d0:11323,d1:36783;
                                                                         ("=", Expression<MethodOrOperator> @:11323 op:13,dt:2,nt:9,next:11324,str:301,d0:0,d1:0;
                                                                             ("hangar_sentinel_var", VariableAccess<Boolean> @:11324 op:0,dt:5,nt:13,next:11325,str:22813,d0:13,d1:0;
                                                                                 (True, Expression<Boolean> @:11325 op:5,dt:5,nt:9,next:65535,str:319,d0:65281,d1:65535;))))
-                                                                    (____, Scope<Void> @:11326 op:0,dt:4,nt:8,next:65535,str:334,d0:11327,d1:36787;
+                                                                    (____, BuiltinInvocation<Void> @:11326 op:0,dt:4,nt:8,next:65535,str:334,d0:11327,d1:36787;
                                                                         ("begin", Expression<MethodOrOperator> @:11327 op:0,dt:2,nt:9,next:11328,str:6,d0:0,d1:0;
-                                                                            (____, Scope<Void> @:11328 op:367,dt:4,nt:8,next:11332,str:351,d0:11329,d1:36789;
+                                                                            (____, BuiltinInvocation<Void> @:11328 op:367,dt:4,nt:8,next:11332,str:351,d0:11329,d1:36789;
                                                                                 ("cs_queue_command_script", Expression<MethodOrOperator> @:11329 op:367,dt:2,nt:9,next:11330,str:22833,d0:0,d1:0;
                                                                                     ("hangar_sentinels_flit/c1", Expression<AI> @:11330 op:19,dt:19,nt:9,next:11331,str:23042,d0:4,d1:49189;
                                                                                         ("hangar_fly_r1", Expression<AIScript> @:11331 op:21,dt:21,nt:9,next:65535,str:22871,d0:288,d1:0;))))
-                                                                            (____, Scope<Void> @:11332 op:4,dt:4,nt:8,next:65535,str:426,d0:11333,d1:36793;
+                                                                            (____, BuiltinInvocation<Void> @:11332 op:4,dt:4,nt:8,next:65535,str:426,d0:11333,d1:36793;
                                                                                 ("set", Expression<MethodOrOperator> @:11333 op:4,dt:2,nt:9,next:11334,str:2368,d0:0,d1:0;
                                                                                     ("hangar_sentinel_var", VariableAccess<Boolean> @:11334 op:65535,dt:5,nt:13,next:11335,str:22813,d0:13,d1:0;
                                                                                         (False, Expression<Boolean> @:11335 op:5,dt:5,nt:9,next:65535,str:451,d0:65280,d1:65535;))))))))))))))))
-                            (____, Scope<Boolean> @:11336 op:17,dt:5,nt:8,next:65535,str:1579,d0:11337,d1:36797;
+                            (____, BuiltinInvocation<Boolean> @:11336 op:17,dt:5,nt:8,next:65535,str:1579,d0:11337,d1:36797;
                                 (">=", Expression<MethodOrOperator> @:11337 op:17,dt:2,nt:9,next:11338,str:676,d0:0,d1:0;
-                                    (____, Scope<Short> @:11338 op:353,dt:7,nt:8,next:11341,str:1583,d0:11339,d1:36799;
+                                    (____, BuiltinInvocation<Short> @:11338 op:353,dt:7,nt:8,next:11341,str:1583,d0:11339,d1:36799;
                                         ("ai_combat_status", Expression<MethodOrOperator> @:11339 op:353,dt:2,nt:9,next:11340,str:14929,d0:0,d1:0;
                                             ("hangar_heretics", Expression<AI> @:11340 op:19,dt:19,nt:9,next:65535,str:14995,d0:10,d1:16384;)))
                                     ("ai_combat_status_uninspected", VariableAccess<Short> @:11341 op:7,dt:7,nt:13,next:65535,str:14966,d0:33575,d1:65535;))))))))))

@@ -1,50 +1,50 @@
 
 ("cs_e21_fld_inf1_low_entry", MethodDecl<Void> @:258 op:0,dt:0,nt:65535,next:11868,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:11868 op:0,dt:4,nt:8,next:65535,str:8191,d0:11869,d1:37329;
+    (____, BuiltinInvocation<Void> @:11868 op:0,dt:4,nt:8,next:65535,str:8191,d0:11869,d1:37329;
         ("begin", Expression<MethodOrOperator> @:11869 op:0,dt:2,nt:9,next:11822,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:11822 op:449,dt:4,nt:8,next:11825,str:8242,d0:11823,d1:37283;
+            (____, BuiltinInvocation<Void> @:11822 op:449,dt:4,nt:8,next:11825,str:8242,d0:11823,d1:37283;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:11823 op:449,dt:2,nt:9,next:11824,str:13859,d0:0,d1:0;
                     (True, Expression<Boolean> @:11824 op:5,dt:5,nt:9,next:65535,str:8274,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:11825 op:435,dt:4,nt:8,next:11828,str:8282,d0:11826,d1:37286;
+            (____, BuiltinInvocation<Void> @:11825 op:435,dt:4,nt:8,next:11828,str:8282,d0:11826,d1:37286;
                 ("cs_ignore_obstacles", Expression<MethodOrOperator> @:11826 op:435,dt:2,nt:9,next:11827,str:22729,d0:0,d1:0;
                     (True, Expression<Boolean> @:11827 op:5,dt:5,nt:9,next:65535,str:8303,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:11828 op:402,dt:4,nt:8,next:11833,str:8311,d0:11829,d1:37289;
+            (____, BuiltinInvocation<Void> @:11828 op:402,dt:4,nt:8,next:11833,str:8311,d0:11829,d1:37289;
                 ("cs_move_in_direction", Expression<MethodOrOperator> @:11829 op:402,dt:2,nt:9,next:11830,str:23585,d0:0,d1:0;
                     (6f, Expression<Float> @:11830 op:6,dt:6,nt:9,next:11831,str:8333,d0:0,d1:16576;
                         (0f, Expression<Float> @:11831 op:6,dt:6,nt:9,next:11832,str:8335,d0:0,d1:0;
                             (0f, Expression<Float> @:11832 op:6,dt:6,nt:9,next:65535,str:8337,d0:0,d1:0;)))))
-            (____, Scope<Void> @:11833 op:2,dt:4,nt:8,next:65535,str:8372,d0:11834,d1:37294;
+            (____, BuiltinInvocation<Void> @:11833 op:2,dt:4,nt:8,next:65535,str:8372,d0:11834,d1:37294;
                 ("if", Expression<MethodOrOperator> @:11834 op:2,dt:2,nt:9,next:11835,str:461,d0:0,d1:0;
-                    (____, Scope<Boolean> @:11835 op:13,dt:5,nt:8,next:11840,str:8376,d0:11836,d1:37296;
+                    (____, BuiltinInvocation<Boolean> @:11835 op:13,dt:5,nt:8,next:11840,str:8376,d0:11836,d1:37296;
                         ("=", Expression<MethodOrOperator> @:11836 op:13,dt:2,nt:9,next:11837,str:301,d0:0,d1:0;
-                            (____, Scope<Short> @:11837 op:509,dt:7,nt:8,next:11839,str:8379,d0:11838,d1:37298;
+                            (____, BuiltinInvocation<Short> @:11837 op:509,dt:7,nt:8,next:11839,str:8379,d0:11838,d1:37298;
                                 ("structure_bsp_index", Expression<MethodOrOperator> @:11838 op:509,dt:2,nt:9,next:65535,str:14094,d0:0,d1:0;))
                             (3, Expression<Short> @:11839 op:7,dt:7,nt:9,next:65535,str:8401,d0:3,d1:65535;)))
-                    (____, Scope<Void> @:11840 op:0,dt:4,nt:8,next:11854,str:8407,d0:11841,d1:37301;
+                    (____, BuiltinInvocation<Void> @:11840 op:0,dt:4,nt:8,next:11854,str:8407,d0:11841,d1:37301;
                         ("begin", Expression<MethodOrOperator> @:11841 op:0,dt:2,nt:9,next:11842,str:6,d0:0,d1:0;
-                            (____, Scope<Void> @:11842 op:385,dt:4,nt:8,next:11845,str:8418,d0:11843,d1:37303;
+                            (____, BuiltinInvocation<Void> @:11842 op:385,dt:4,nt:8,next:11845,str:8418,d0:11843,d1:37303;
                                 ("cs_go_to", Expression<MethodOrOperator> @:11843 op:385,dt:2,nt:9,next:11844,str:21562,d0:0,d1:0;
                                     ("e21_fld_bsp5/p2", Expression<SpatialPoint> @:11844 op:28,dt:28,nt:9,next:65535,str:23795,d0:4,d1:12;)))
-                            (____, Scope<Void> @:11845 op:441,dt:4,nt:8,next:11848,str:8449,d0:11846,d1:37306;
+                            (____, BuiltinInvocation<Void> @:11845 op:441,dt:4,nt:8,next:11848,str:8449,d0:11846,d1:37306;
                                 ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:11846 op:441,dt:2,nt:9,next:11847,str:23073,d0:0,d1:0;
                                     ("ai_combat_status_clear_los", VariableAccess<Short> @:11847 op:7,dt:7,nt:13,next:65535,str:23811,d0:33579,d1:65535;)))
-                            (____, Scope<Void> @:11848 op:385,dt:4,nt:8,next:11851,str:8508,d0:11849,d1:37309;
+                            (____, BuiltinInvocation<Void> @:11848 op:385,dt:4,nt:8,next:11851,str:8508,d0:11849,d1:37309;
                                 ("cs_go_to", Expression<MethodOrOperator> @:11849 op:385,dt:2,nt:9,next:11850,str:21562,d0:0,d1:0;
                                     ("e21_fld_bsp5/p1_0", Expression<SpatialPoint> @:11850 op:28,dt:28,nt:9,next:65535,str:23838,d0:1,d1:12;)))
-                            (____, Scope<Void> @:11851 op:385,dt:4,nt:8,next:65535,str:8541,d0:11852,d1:37312;
+                            (____, BuiltinInvocation<Void> @:11851 op:385,dt:4,nt:8,next:65535,str:8541,d0:11852,d1:37312;
                                 ("cs_go_to", Expression<MethodOrOperator> @:11852 op:385,dt:2,nt:9,next:11853,str:21562,d0:0,d1:0;
                                     ("e21_fld_bsp5/p1_1", Expression<SpatialPoint> @:11853 op:28,dt:28,nt:9,next:65535,str:23856,d0:3,d1:12;)))))
-                    (____, Scope<Void> @:11854 op:0,dt:4,nt:8,next:65535,str:8578,d0:11855,d1:37315;
+                    (____, BuiltinInvocation<Void> @:11854 op:0,dt:4,nt:8,next:65535,str:8578,d0:11855,d1:37315;
                         ("begin", Expression<MethodOrOperator> @:11855 op:0,dt:2,nt:9,next:11856,str:6,d0:0,d1:0;
-                            (____, Scope<Void> @:11856 op:385,dt:4,nt:8,next:11859,str:8589,d0:11857,d1:37317;
+                            (____, BuiltinInvocation<Void> @:11856 op:385,dt:4,nt:8,next:11859,str:8589,d0:11857,d1:37317;
                                 ("cs_go_to", Expression<MethodOrOperator> @:11857 op:385,dt:2,nt:9,next:11858,str:21562,d0:0,d1:0;
                                     ("e21_fld_bsp6/p2", Expression<SpatialPoint> @:11858 op:28,dt:28,nt:9,next:65535,str:23874,d0:4,d1:13;)))
-                            (____, Scope<Void> @:11859 op:441,dt:4,nt:8,next:11862,str:8620,d0:11860,d1:37320;
+                            (____, BuiltinInvocation<Void> @:11859 op:441,dt:4,nt:8,next:11862,str:8620,d0:11860,d1:37320;
                                 ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:11860 op:441,dt:2,nt:9,next:11861,str:23073,d0:0,d1:0;
                                     ("ai_combat_status_clear_los", VariableAccess<Short> @:11861 op:7,dt:7,nt:13,next:65535,str:23811,d0:33579,d1:65535;)))
-                            (____, Scope<Void> @:11862 op:385,dt:4,nt:8,next:11865,str:8679,d0:11863,d1:37323;
+                            (____, BuiltinInvocation<Void> @:11862 op:385,dt:4,nt:8,next:11865,str:8679,d0:11863,d1:37323;
                                 ("cs_go_to", Expression<MethodOrOperator> @:11863 op:385,dt:2,nt:9,next:11864,str:21562,d0:0,d1:0;
                                     ("e21_fld_bsp6/p1_0", Expression<SpatialPoint> @:11864 op:28,dt:28,nt:9,next:65535,str:23890,d0:2,d1:13;)))
-                            (____, Scope<Void> @:11865 op:385,dt:4,nt:8,next:65535,str:8712,d0:11866,d1:37326;
+                            (____, BuiltinInvocation<Void> @:11865 op:385,dt:4,nt:8,next:65535,str:8712,d0:11866,d1:37326;
                                 ("cs_go_to", Expression<MethodOrOperator> @:11866 op:385,dt:2,nt:9,next:11867,str:21562,d0:0,d1:0;
                                     ("e21_fld_bsp6/p1_1", Expression<SpatialPoint> @:11867 op:28,dt:28,nt:9,next:65535,str:23908,d0:3,d1:13;))))))))))

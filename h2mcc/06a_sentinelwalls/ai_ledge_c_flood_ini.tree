@@ -1,37 +1,37 @@
 
 ("ai_ledge_c_flood_ini", MethodDecl<Void> @:334 op:0,dt:0,nt:65535,next:16353,str:30467,d0:0,d1:0;
-    (____, Scope<Void> @:16353 op:0,dt:4,nt:8,next:65535,str:28948,d0:16354,d1:41814;
+    (____, BuiltinInvocation<Void> @:16353 op:0,dt:4,nt:8,next:65535,str:28948,d0:16354,d1:41814;
         ("begin", Expression<MethodOrOperator> @:16354 op:0,dt:2,nt:9,next:16320,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:16320 op:290,dt:4,nt:8,next:16323,str:28987,d0:16321,d1:41781;
+            (____, BuiltinInvocation<Void> @:16320 op:290,dt:4,nt:8,next:16323,str:28987,d0:16321,d1:41781;
                 ("ai_place", Expression<MethodOrOperator> @:16321 op:290,dt:2,nt:9,next:16322,str:1415,d0:0,d1:0;
                     ("ledge_c_flood_fr", Expression<AI> @:16322 op:19,dt:19,nt:9,next:65535,str:25827,d0:79,d1:0;)))
-            (____, Scope<Void> @:16323 op:290,dt:4,nt:8,next:16326,str:29017,d0:16324,d1:41784;
+            (____, BuiltinInvocation<Void> @:16323 op:290,dt:4,nt:8,next:16326,str:29017,d0:16324,d1:41784;
                 ("ai_place", Expression<MethodOrOperator> @:16324 op:290,dt:2,nt:9,next:16325,str:1415,d0:0,d1:0;
                     ("ledge_c_flood_dead", Expression<AI> @:16325 op:19,dt:19,nt:9,next:65535,str:25844,d0:78,d1:0;)))
-            (____, Scope<Void> @:16326 op:297,dt:4,nt:8,next:16329,str:29049,d0:16327,d1:41787;
+            (____, BuiltinInvocation<Void> @:16326 op:297,dt:4,nt:8,next:16329,str:29049,d0:16327,d1:41787;
                 ("ai_kill_silent", Expression<MethodOrOperator> @:16327 op:297,dt:2,nt:9,next:16328,str:11113,d0:0,d1:0;
                     ("ledge_c_flood_dead", Expression<AI> @:16328 op:19,dt:19,nt:9,next:65535,str:25844,d0:78,d1:0;)))
-            (____, Scope<Void> @:16329 op:19,dt:4,nt:8,next:16332,str:29087,d0:16330,d1:41790;
+            (____, BuiltinInvocation<Void> @:16329 op:19,dt:4,nt:8,next:16332,str:29087,d0:16330,d1:41790;
                 ("sleep", Expression<MethodOrOperator> @:16330 op:19,dt:2,nt:9,next:16331,str:80,d0:0,d1:0;
                     (1, Expression<Short> @:16331 op:7,dt:7,nt:9,next:65535,str:29094,d0:1,d1:65535;)))
-            (____, Scope<Void> @:16332 op:21,dt:4,nt:8,next:16340,str:29102,d0:16333,d1:41793;
+            (____, BuiltinInvocation<Void> @:16332 op:21,dt:4,nt:8,next:16340,str:29102,d0:16333,d1:41793;
                 ("sleep_until", Expression<MethodOrOperator> @:16333 op:21,dt:2,nt:9,next:16334,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:16334 op:18,dt:5,nt:8,next:65535,str:29115,d0:16335,d1:41795;
+                    (____, BuiltinInvocation<Boolean> @:16334 op:18,dt:5,nt:8,next:65535,str:29115,d0:16335,d1:41795;
                         ("<=", Expression<MethodOrOperator> @:16335 op:18,dt:2,nt:9,next:16336,str:16255,d0:0,d1:0;
-                            (____, Scope<Short> @:16336 op:327,dt:7,nt:8,next:16339,str:29119,d0:16337,d1:41797;
+                            (____, BuiltinInvocation<Short> @:16336 op:327,dt:7,nt:8,next:16339,str:29119,d0:16337,d1:41797;
                                 ("ai_living_count", Expression<MethodOrOperator> @:16337 op:327,dt:2,nt:9,next:16338,str:18161,d0:0,d1:0;
                                     ("ledge_c_flood", Expression<AI> @:16338 op:19,dt:19,nt:9,next:65535,str:25863,d0:23,d1:16384;)))
                             (0, Expression<Short> @:16339 op:7,dt:7,nt:9,next:65535,str:29151,d0:0,d1:65535;)))))
-            (____, Scope<Void> @:16340 op:2,dt:4,nt:8,next:65535,str:29157,d0:16341,d1:41801;
+            (____, BuiltinInvocation<Void> @:16340 op:2,dt:4,nt:8,next:65535,str:29157,d0:16341,d1:41801;
                 ("if", Expression<MethodOrOperator> @:16341 op:2,dt:2,nt:9,next:16342,str:456,d0:0,d1:0;
-                    (____, Scope<Boolean> @:16342 op:5,dt:5,nt:8,next:16350,str:29161,d0:16343,d1:41803;
+                    (____, BuiltinInvocation<Boolean> @:16342 op:5,dt:5,nt:8,next:16350,str:29161,d0:16343,d1:41803;
                         ("and", Expression<MethodOrOperator> @:16343 op:5,dt:2,nt:9,next:16344,str:667,d0:0,d1:0;
                             ("ledge_c_spawn", VariableAccess<Boolean> @:16344 op:5,dt:5,nt:13,next:16345,str:25877,d0:107,d1:0;
-                                (____, Scope<Boolean> @:16345 op:34,dt:5,nt:8,next:65535,str:29180,d0:16346,d1:41806;
+                                (____, BuiltinInvocation<Boolean> @:16345 op:34,dt:5,nt:8,next:65535,str:29180,d0:16346,d1:41806;
                                     ("volume_test_objects_all", Expression<MethodOrOperator> @:16346 op:34,dt:2,nt:9,next:16347,str:16393,d0:0,d1:0;
                                         ("tv_ledge_c_fr", Expression<Trigger> @:16347 op:13,dt:13,nt:9,next:16348,str:12540,d0:56,d1:0;
-                                            (____, Scope<List> @:16348 op:28,dt:31,nt:8,next:65535,str:29219,d0:16349,d1:41809;
+                                            (____, BuiltinInvocation<List> @:16348 op:28,dt:31,nt:8,next:65535,str:29219,d0:16349,d1:41809;
                                                 ("players", Expression<MethodOrOperator> @:16349 op:28,dt:2,nt:9,next:65535,str:21,d0:0,d1:0;))))))))
-                    (____, Scope<Void> @:16350 op:290,dt:4,nt:8,next:65535,str:29231,d0:16351,d1:41811;
+                    (____, BuiltinInvocation<Void> @:16350 op:290,dt:4,nt:8,next:65535,str:29231,d0:16351,d1:41811;
                         ("ai_place", Expression<MethodOrOperator> @:16351 op:290,dt:2,nt:9,next:16352,str:1415,d0:0,d1:0;
                             ("ledge_c_flood_bk", Expression<AI> @:16352 op:19,dt:19,nt:9,next:65535,str:25891,d0:80,d1:0;))))))))

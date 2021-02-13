@@ -1,64 +1,64 @@
 
 ("cs_grand_a_grunt_a", MethodDecl<Void> @:295 op:0,dt:0,nt:65535,next:13774,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:13774 op:0,dt:4,nt:8,next:65535,str:33881,d0:13775,d1:39235;
+    (____, BuiltinInvocation<Void> @:13774 op:0,dt:4,nt:8,next:65535,str:33881,d0:13775,d1:39235;
         ("begin", Expression<MethodOrOperator> @:13775 op:0,dt:2,nt:9,next:13713,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:13713 op:441,dt:4,nt:8,next:13716,str:33925,d0:13714,d1:39174;
+            (____, BuiltinInvocation<Void> @:13713 op:441,dt:4,nt:8,next:13716,str:33925,d0:13714,d1:39174;
                 ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:13714 op:441,dt:2,nt:9,next:13715,str:31235,d0:0,d1:0;
                     ("ai_combat_status_clear_los", VariableAccess<Short> @:13715 op:7,dt:7,nt:13,next:65535,str:31261,d0:33579,d1:65535;)))
-            (____, Scope<Void> @:13716 op:449,dt:4,nt:8,next:13719,str:33982,d0:13717,d1:39177;
+            (____, BuiltinInvocation<Void> @:13716 op:449,dt:4,nt:8,next:13719,str:33982,d0:13717,d1:39177;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:13717 op:449,dt:2,nt:9,next:13718,str:1066,d0:0,d1:0;
                     (True, Expression<Boolean> @:13718 op:5,dt:5,nt:9,next:65535,str:34014,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:13719 op:21,dt:4,nt:8,next:65535,str:34025,d0:13720,d1:39180;
+            (____, BuiltinInvocation<Void> @:13719 op:21,dt:4,nt:8,next:65535,str:34025,d0:13720,d1:39180;
                 ("sleep_until", Expression<MethodOrOperator> @:13720 op:21,dt:2,nt:9,next:13721,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:13721 op:0,dt:5,nt:8,next:65535,str:34041,d0:13722,d1:39182;
+                    (____, BuiltinInvocation<Boolean> @:13721 op:0,dt:5,nt:8,next:65535,str:34041,d0:13722,d1:39182;
                         ("begin", Expression<MethodOrOperator> @:13722 op:0,dt:2,nt:9,next:13723,str:1,d0:0,d1:0;
-                            (____, Scope<Void> @:13723 op:1,dt:4,nt:8,next:13773,str:34052,d0:13724,d1:39184;
+                            (____, BuiltinInvocation<Void> @:13723 op:1,dt:4,nt:8,next:13773,str:34052,d0:13724,d1:39184;
                                 ("begin_random", Expression<MethodOrOperator> @:13724 op:1,dt:2,nt:9,next:13725,str:30056,d0:0,d1:0;
-                                    (____, Scope<Void> @:13725 op:0,dt:4,nt:8,next:13737,str:34071,d0:13726,d1:39186;
+                                    (____, BuiltinInvocation<Void> @:13725 op:0,dt:4,nt:8,next:13737,str:34071,d0:13726,d1:39186;
                                         ("begin", Expression<MethodOrOperator> @:13726 op:0,dt:2,nt:9,next:13727,str:1,d0:0,d1:0;
-                                            (____, Scope<Void> @:13727 op:386,dt:4,nt:8,next:13731,str:34084,d0:13728,d1:39188;
+                                            (____, BuiltinInvocation<Void> @:13727 op:386,dt:4,nt:8,next:13731,str:34084,d0:13728,d1:39188;
                                                 ("cs_go_to", Expression<MethodOrOperator> @:13728 op:386,dt:2,nt:9,next:13729,str:23611,d0:0,d1:0;
                                                     ("grand_a/p0", Expression<SpatialPoint> @:13729 op:28,dt:28,nt:9,next:13730,str:31288,d0:0,d1:1;
                                                         (2f, Expression<Float> @:13730 op:6,dt:6,nt:9,next:65535,str:34105,d0:0,d1:16384;))))
-                                            (____, Scope<Void> @:13731 op:19,dt:4,nt:8,next:65535,str:34114,d0:13732,d1:39192;
+                                            (____, BuiltinInvocation<Void> @:13731 op:19,dt:4,nt:8,next:65535,str:34114,d0:13732,d1:39192;
                                                 ("sleep", Expression<MethodOrOperator> @:13732 op:19,dt:2,nt:9,next:13733,str:80,d0:0,d1:0;
-                                                    (____, Scope<Short> @:13733 op:124,dt:7,nt:8,next:65535,str:34121,d0:13734,d1:39194;
+                                                    (____, BuiltinInvocation<Short> @:13733 op:124,dt:7,nt:8,next:65535,str:34121,d0:13734,d1:39194;
                                                         ("random_range", Expression<MethodOrOperator> @:13734 op:124,dt:2,nt:9,next:13735,str:19725,d0:0,d1:0;
                                                             (0, Expression<Short> @:13735 op:7,dt:7,nt:9,next:13736,str:34135,d0:0,d1:65535;
                                                                 (15, Expression<Short> @:13736 op:7,dt:7,nt:9,next:65535,str:34137,d0:15,d1:65535;))))))))
-                                    (____, Scope<Void> @:13737 op:0,dt:4,nt:8,next:13749,str:34154,d0:13738,d1:39198;
+                                    (____, BuiltinInvocation<Void> @:13737 op:0,dt:4,nt:8,next:13749,str:34154,d0:13738,d1:39198;
                                         ("begin", Expression<MethodOrOperator> @:13738 op:0,dt:2,nt:9,next:13739,str:1,d0:0,d1:0;
-                                            (____, Scope<Void> @:13739 op:386,dt:4,nt:8,next:13743,str:34167,d0:13740,d1:39200;
+                                            (____, BuiltinInvocation<Void> @:13739 op:386,dt:4,nt:8,next:13743,str:34167,d0:13740,d1:39200;
                                                 ("cs_go_to", Expression<MethodOrOperator> @:13740 op:386,dt:2,nt:9,next:13741,str:23611,d0:0,d1:0;
                                                     ("grand_a/p1", Expression<SpatialPoint> @:13741 op:28,dt:28,nt:9,next:13742,str:31299,d0:1,d1:1;
                                                         (2f, Expression<Float> @:13742 op:6,dt:6,nt:9,next:65535,str:34188,d0:0,d1:16384;))))
-                                            (____, Scope<Void> @:13743 op:19,dt:4,nt:8,next:65535,str:34197,d0:13744,d1:39204;
+                                            (____, BuiltinInvocation<Void> @:13743 op:19,dt:4,nt:8,next:65535,str:34197,d0:13744,d1:39204;
                                                 ("sleep", Expression<MethodOrOperator> @:13744 op:19,dt:2,nt:9,next:13745,str:80,d0:0,d1:0;
-                                                    (____, Scope<Short> @:13745 op:124,dt:7,nt:8,next:65535,str:34204,d0:13746,d1:39206;
+                                                    (____, BuiltinInvocation<Short> @:13745 op:124,dt:7,nt:8,next:65535,str:34204,d0:13746,d1:39206;
                                                         ("random_range", Expression<MethodOrOperator> @:13746 op:124,dt:2,nt:9,next:13747,str:19725,d0:0,d1:0;
                                                             (0, Expression<Short> @:13747 op:7,dt:7,nt:9,next:13748,str:34218,d0:0,d1:65535;
                                                                 (15, Expression<Short> @:13748 op:7,dt:7,nt:9,next:65535,str:34220,d0:15,d1:65535;))))))))
-                                    (____, Scope<Void> @:13749 op:0,dt:4,nt:8,next:13761,str:34237,d0:13750,d1:39210;
+                                    (____, BuiltinInvocation<Void> @:13749 op:0,dt:4,nt:8,next:13761,str:34237,d0:13750,d1:39210;
                                         ("begin", Expression<MethodOrOperator> @:13750 op:0,dt:2,nt:9,next:13751,str:1,d0:0,d1:0;
-                                            (____, Scope<Void> @:13751 op:386,dt:4,nt:8,next:13755,str:34250,d0:13752,d1:39212;
+                                            (____, BuiltinInvocation<Void> @:13751 op:386,dt:4,nt:8,next:13755,str:34250,d0:13752,d1:39212;
                                                 ("cs_go_to", Expression<MethodOrOperator> @:13752 op:386,dt:2,nt:9,next:13753,str:23611,d0:0,d1:0;
                                                     ("grand_a/p2", Expression<SpatialPoint> @:13753 op:28,dt:28,nt:9,next:13754,str:31310,d0:2,d1:1;
                                                         (2f, Expression<Float> @:13754 op:6,dt:6,nt:9,next:65535,str:34271,d0:0,d1:16384;))))
-                                            (____, Scope<Void> @:13755 op:19,dt:4,nt:8,next:65535,str:34280,d0:13756,d1:39216;
+                                            (____, BuiltinInvocation<Void> @:13755 op:19,dt:4,nt:8,next:65535,str:34280,d0:13756,d1:39216;
                                                 ("sleep", Expression<MethodOrOperator> @:13756 op:19,dt:2,nt:9,next:13757,str:80,d0:0,d1:0;
-                                                    (____, Scope<Short> @:13757 op:124,dt:7,nt:8,next:65535,str:34287,d0:13758,d1:39218;
+                                                    (____, BuiltinInvocation<Short> @:13757 op:124,dt:7,nt:8,next:65535,str:34287,d0:13758,d1:39218;
                                                         ("random_range", Expression<MethodOrOperator> @:13758 op:124,dt:2,nt:9,next:13759,str:19725,d0:0,d1:0;
                                                             (0, Expression<Short> @:13759 op:7,dt:7,nt:9,next:13760,str:34301,d0:0,d1:65535;
                                                                 (15, Expression<Short> @:13760 op:7,dt:7,nt:9,next:65535,str:34303,d0:15,d1:65535;))))))))
-                                    (____, Scope<Void> @:13761 op:0,dt:4,nt:8,next:65535,str:34320,d0:13762,d1:39222;
+                                    (____, BuiltinInvocation<Void> @:13761 op:0,dt:4,nt:8,next:65535,str:34320,d0:13762,d1:39222;
                                         ("begin", Expression<MethodOrOperator> @:13762 op:0,dt:2,nt:9,next:13763,str:1,d0:0,d1:0;
-                                            (____, Scope<Void> @:13763 op:386,dt:4,nt:8,next:13767,str:34333,d0:13764,d1:39224;
+                                            (____, BuiltinInvocation<Void> @:13763 op:386,dt:4,nt:8,next:13767,str:34333,d0:13764,d1:39224;
                                                 ("cs_go_to", Expression<MethodOrOperator> @:13764 op:386,dt:2,nt:9,next:13765,str:23611,d0:0,d1:0;
                                                     ("grand_a/p3", Expression<SpatialPoint> @:13765 op:28,dt:28,nt:9,next:13766,str:31321,d0:3,d1:1;
                                                         (2f, Expression<Float> @:13766 op:6,dt:6,nt:9,next:65535,str:34354,d0:0,d1:16384;))))
-                                            (____, Scope<Void> @:13767 op:19,dt:4,nt:8,next:65535,str:34363,d0:13768,d1:39228;
+                                            (____, BuiltinInvocation<Void> @:13767 op:19,dt:4,nt:8,next:65535,str:34363,d0:13768,d1:39228;
                                                 ("sleep", Expression<MethodOrOperator> @:13768 op:19,dt:2,nt:9,next:13769,str:80,d0:0,d1:0;
-                                                    (____, Scope<Short> @:13769 op:124,dt:7,nt:8,next:65535,str:34370,d0:13770,d1:39230;
+                                                    (____, BuiltinInvocation<Short> @:13769 op:124,dt:7,nt:8,next:65535,str:34370,d0:13770,d1:39230;
                                                         ("random_range", Expression<MethodOrOperator> @:13770 op:124,dt:2,nt:9,next:13771,str:19725,d0:0,d1:0;
                                                             (0, Expression<Short> @:13771 op:7,dt:7,nt:9,next:13772,str:34384,d0:0,d1:65535;
                                                                 (15, Expression<Short> @:13772 op:7,dt:7,nt:9,next:65535,str:34386,d0:15,d1:65535;))))))))))

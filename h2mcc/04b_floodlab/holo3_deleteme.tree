@@ -1,28 +1,28 @@
 
 ("holo3_deleteme", MethodDecl<Void> @:360 op:0,dt:0,nt:65535,next:30551,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:30551 op:0,dt:4,nt:8,next:65535,str:30306,d0:30552,d1:56012;
+    (____, BuiltinInvocation<Void> @:30551 op:0,dt:4,nt:8,next:65535,str:30306,d0:30552,d1:56012;
         ("begin", Expression<MethodOrOperator> @:30552 op:0,dt:2,nt:9,next:30527,str:210,d0:0,d1:0;
-            (____, Scope<Void> @:30527 op:21,dt:4,nt:8,next:30535,str:30339,d0:30528,d1:55988;
+            (____, BuiltinInvocation<Void> @:30527 op:21,dt:4,nt:8,next:30535,str:30339,d0:30528,d1:55988;
                 ("sleep_until", Expression<MethodOrOperator> @:30528 op:21,dt:2,nt:9,next:30529,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:30529 op:13,dt:5,nt:8,next:65535,str:30352,d0:30530,d1:55990;
+                    (____, BuiltinInvocation<Boolean> @:30529 op:13,dt:5,nt:8,next:65535,str:30352,d0:30530,d1:55990;
                         ("=", Expression<MethodOrOperator> @:30530 op:13,dt:2,nt:9,next:30531,str:505,d0:0,d1:0;
-                            (____, Scope<Short> @:30531 op:327,dt:7,nt:8,next:30534,str:30355,d0:30532,d1:55992;
+                            (____, BuiltinInvocation<Short> @:30531 op:327,dt:7,nt:8,next:30534,str:30355,d0:30532,d1:55992;
                                 ("ai_living_count", Expression<MethodOrOperator> @:30532 op:327,dt:2,nt:9,next:30533,str:11650,d0:0,d1:0;
                                     ("hl_boss_holo_random_03", Expression<AI> @:30533 op:19,dt:19,nt:9,next:65535,str:38110,d0:138,d1:0;)))
                             (2, Expression<Short> @:30534 op:7,dt:7,nt:9,next:65535,str:30396,d0:2,d1:65535;)))))
-            (____, Scope<Void> @:30535 op:77,dt:4,nt:8,next:30540,str:30402,d0:30536,d1:55996;
+            (____, BuiltinInvocation<Void> @:30535 op:77,dt:4,nt:8,next:30540,str:30402,d0:30536,d1:55996;
                 ("object_set_scale", Expression<MethodOrOperator> @:30536 op:77,dt:2,nt:9,next:30537,str:3581,d0:0,d1:0;
                     ("holo3", VariableAccess<Entity> @:30537 op:50,dt:50,nt:13,next:30538,str:38133,d0:53,d1:0;
                         (0.1f, Expression<Float> @:30538 op:6,dt:6,nt:9,next:30539,str:30426,d0:52429,d1:15820;
                             (30, Expression<Short> @:30539 op:7,dt:7,nt:9,next:65535,str:30429,d0:30,d1:65535;)))))
-            (____, Scope<Void> @:30540 op:41,dt:4,nt:8,next:30545,str:30435,d0:30541,d1:56001;
+            (____, BuiltinInvocation<Void> @:30540 op:41,dt:4,nt:8,next:30545,str:30435,d0:30541,d1:56001;
                 ("effect_new_on_object_marker", Expression<MethodOrOperator> @:30541 op:41,dt:2,nt:9,next:30542,str:7070,d0:0,d1:0;
                     ("holo_death", VariableAccess<Effect> @:30542 op:33,dt:33,nt:13,next:30543,str:38093,d0:55,d1:0;
                         ("holo3", VariableAccess<Entity> @:30543 op:50,dt:50,nt:13,next:30544,str:38133,d0:53,d1:0;
                             ("body", Expression<StringId> @:30544 op:11,dt:11,nt:9,next:65535,str:8320,d0:189,d1:1024;)))))
-            (____, Scope<Void> @:30545 op:19,dt:4,nt:8,next:30548,str:30491,d0:30546,d1:56006;
+            (____, BuiltinInvocation<Void> @:30545 op:19,dt:4,nt:8,next:30548,str:30491,d0:30546,d1:56006;
                 ("sleep", Expression<MethodOrOperator> @:30546 op:19,dt:2,nt:9,next:30547,str:289,d0:0,d1:0;
                     (15, Expression<Short> @:30547 op:7,dt:7,nt:9,next:65535,str:30498,d0:15,d1:65535;)))
-            (____, Scope<Void> @:30548 op:52,dt:4,nt:8,next:65535,str:30504,d0:30549,d1:56009;
+            (____, BuiltinInvocation<Void> @:30548 op:52,dt:4,nt:8,next:65535,str:30504,d0:30549,d1:56009;
                 ("object_destroy", Expression<MethodOrOperator> @:30549 op:52,dt:2,nt:9,next:30550,str:4336,d0:0,d1:0;
                     ("holo3", VariableAccess<Entity> @:30550 op:50,dt:50,nt:13,next:65535,str:38133,d0:53,d1:0;))))))

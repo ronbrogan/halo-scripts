@@ -1,36 +1,36 @@
 
 ("grotto_extra_checkpoint", MethodDecl<Void> @:332 op:0,dt:0,nt:65535,next:21894,str:34100,d0:0,d1:0;
-    (____, Scope<Void> @:21894 op:0,dt:4,nt:8,next:65535,str:47768,d0:21895,d1:47355;
+    (____, BuiltinInvocation<Void> @:21894 op:0,dt:4,nt:8,next:65535,str:47768,d0:21895,d1:47355;
         ("begin", Expression<MethodOrOperator> @:21895 op:0,dt:2,nt:9,next:21862,str:54,d0:0,d1:0;
-            (____, Scope<Void> @:21862 op:19,dt:4,nt:8,next:21865,str:47810,d0:21863,d1:47323;
+            (____, BuiltinInvocation<Void> @:21862 op:19,dt:4,nt:8,next:21865,str:47810,d0:21863,d1:47323;
                 ("sleep", Expression<MethodOrOperator> @:21863 op:19,dt:2,nt:9,next:21864,str:133,d0:0,d1:0;
                     (60, Expression<Short> @:21864 op:7,dt:7,nt:9,next:65535,str:47817,d0:60,d1:65535;)))
-            (____, Scope<Void> @:21865 op:21,dt:4,nt:8,next:21882,str:47823,d0:21866,d1:47326;
+            (____, BuiltinInvocation<Void> @:21865 op:21,dt:4,nt:8,next:21882,str:47823,d0:21866,d1:47326;
                 ("sleep_until", Expression<MethodOrOperator> @:21866 op:21,dt:2,nt:9,next:21867,str:284,d0:0,d1:0;
-                    (____, Scope<Boolean> @:21867 op:5,dt:5,nt:8,next:65535,str:47840,d0:21868,d1:47328;
+                    (____, BuiltinInvocation<Boolean> @:21867 op:5,dt:5,nt:8,next:65535,str:47840,d0:21868,d1:47328;
                         ("and", Expression<MethodOrOperator> @:21868 op:5,dt:2,nt:9,next:21869,str:720,d0:0,d1:0;
-                            (____, Scope<Boolean> @:21869 op:13,dt:5,nt:8,next:21877,str:47849,d0:21870,d1:47330;
+                            (____, BuiltinInvocation<Boolean> @:21869 op:13,dt:5,nt:8,next:21877,str:47849,d0:21870,d1:47330;
                                 ("=", Expression<MethodOrOperator> @:21870 op:13,dt:2,nt:9,next:21871,str:349,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:21871 op:33,dt:5,nt:8,next:21876,str:47852,d0:21872,d1:47332;
+                                    (____, BuiltinInvocation<Boolean> @:21871 op:33,dt:5,nt:8,next:21876,str:47852,d0:21872,d1:47332;
                                         ("volume_test_objects", Expression<MethodOrOperator> @:21872 op:33,dt:2,nt:9,next:21873,str:14370,d0:0,d1:0;
                                             ("vol_grotto", Expression<Trigger> @:21873 op:13,dt:13,nt:9,next:21874,str:32151,d0:89,d1:0;
-                                                (____, Scope<List> @:21874 op:28,dt:31,nt:8,next:65535,str:47884,d0:21875,d1:47335;
+                                                (____, BuiltinInvocation<List> @:21874 op:28,dt:31,nt:8,next:65535,str:47884,d0:21875,d1:47335;
                                                     ("players", Expression<MethodOrOperator> @:21875 op:28,dt:2,nt:9,next:65535,str:74,d0:0,d1:0;)))))
                                     (False, Expression<Boolean> @:21876 op:5,dt:5,nt:9,next:65535,str:47895,d0:65280,d1:65535;)))
-                            (____, Scope<Boolean> @:21877 op:15,dt:5,nt:8,next:65535,str:47906,d0:21878,d1:47338;
+                            (____, BuiltinInvocation<Boolean> @:21877 op:15,dt:5,nt:8,next:65535,str:47906,d0:21878,d1:47338;
                                 (">", Expression<MethodOrOperator> @:21878 op:15,dt:2,nt:9,next:21879,str:14341,d0:0,d1:0;
                                     ("player_count", ScriptInvocation<Short> @:21879 op:2,dt:7,nt:10,next:21881,str:47909,d0:21880,d1:47340;
                                         ("player_count", Expression<MethodOrOperator> @:21880 op:2,dt:2,nt:9,next:65535,str:15061,d0:0,d1:0;))
                                     (0, Expression<Short> @:21881 op:7,dt:7,nt:9,next:65535,str:47924,d0:0,d1:65535;)))))))
-            (____, Scope<Void> @:21882 op:21,dt:4,nt:8,next:21892,str:47938,d0:21883,d1:47343;
+            (____, BuiltinInvocation<Void> @:21882 op:21,dt:4,nt:8,next:21892,str:47938,d0:21883,d1:47343;
                 ("sleep_until", Expression<MethodOrOperator> @:21883 op:21,dt:2,nt:9,next:21884,str:284,d0:0,d1:0;
-                    (____, Scope<Boolean> @:21884 op:13,dt:5,nt:8,next:65535,str:47951,d0:21885,d1:47345;
+                    (____, BuiltinInvocation<Boolean> @:21884 op:13,dt:5,nt:8,next:65535,str:47951,d0:21885,d1:47345;
                         ("=", Expression<MethodOrOperator> @:21885 op:13,dt:2,nt:9,next:21886,str:349,d0:0,d1:0;
-                            (____, Scope<Boolean> @:21886 op:33,dt:5,nt:8,next:21891,str:47954,d0:21887,d1:47347;
+                            (____, BuiltinInvocation<Boolean> @:21886 op:33,dt:5,nt:8,next:21891,str:47954,d0:21887,d1:47347;
                                 ("volume_test_objects", Expression<MethodOrOperator> @:21887 op:33,dt:2,nt:9,next:21888,str:14370,d0:0,d1:0;
                                     ("vol_grotto", Expression<Trigger> @:21888 op:13,dt:13,nt:9,next:21889,str:32151,d0:89,d1:0;
-                                        (____, Scope<List> @:21889 op:28,dt:31,nt:8,next:65535,str:47986,d0:21890,d1:47350;
+                                        (____, BuiltinInvocation<List> @:21889 op:28,dt:31,nt:8,next:65535,str:47986,d0:21890,d1:47350;
                                             ("players", Expression<MethodOrOperator> @:21890 op:28,dt:2,nt:9,next:65535,str:74,d0:0,d1:0;)))))
                             (True, Expression<Boolean> @:21891 op:5,dt:5,nt:9,next:65535,str:47997,d0:65281,d1:65535;)))))
-            (____, Scope<Void> @:21892 op:587,dt:4,nt:8,next:65535,str:48006,d0:21893,d1:47353;
+            (____, BuiltinInvocation<Void> @:21892 op:587,dt:4,nt:8,next:65535,str:48006,d0:21893,d1:47353;
                 ("game_save", Expression<MethodOrOperator> @:21893 op:587,dt:2,nt:9,next:65535,str:13330,d0:0,d1:0;)))))

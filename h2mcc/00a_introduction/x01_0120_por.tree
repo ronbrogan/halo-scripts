@@ -1,20 +1,20 @@
 
 ("x01_0120_por", MethodDecl<Void> @:91 op:0,dt:0,nt:65535,next:5824,str:9428,d0:0,d1:0;
-    (____, Scope<Void> @:5824 op:0,dt:4,nt:8,next:65535,str:18055,d0:5825,d1:64052;
+    (____, BuiltinInvocation<Void> @:5824 op:0,dt:4,nt:8,next:65535,str:18055,d0:5825,d1:64052;
         ("begin", Expression<MethodOrOperator> @:5825 op:0,dt:2,nt:9,next:5806,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:5806 op:19,dt:4,nt:8,next:5809,str:18086,d0:5807,d1:64034;
+            (____, BuiltinInvocation<Void> @:5806 op:19,dt:4,nt:8,next:5809,str:18086,d0:5807,d1:64034;
                 ("sleep", Expression<MethodOrOperator> @:5807 op:19,dt:2,nt:9,next:5808,str:80,d0:0,d1:0;
                     (0, Expression<Short> @:5808 op:7,dt:7,nt:9,next:65535,str:18093,d0:0,d1:65535;)))
-            (____, Scope<Void> @:5809 op:596,dt:4,nt:8,next:5814,str:18098,d0:5810,d1:64037;
+            (____, BuiltinInvocation<Void> @:5809 op:596,dt:4,nt:8,next:5814,str:18098,d0:5810,d1:64037;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:5810 op:596,dt:2,nt:9,next:5811,str:3766,d0:0,d1:0;
                     ("sound\dialog\levels\01_spacestation\cinematic\x01_0120_por", Expression<Sound> @:5811 op:32,dt:32,nt:9,next:5812,str:9369,d0:2734,d1:60452;
                         (4294901816, Expression<Entity> @:5812 op:56,dt:50,nt:9,next:5813,str:6086,d0:56,d1:65535;
                             (1f, Expression<Float> @:5813 op:6,dt:6,nt:9,next:65535,str:18185,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:5814 op:562,dt:4,nt:8,next:5818,str:18190,d0:5815,d1:64042;
+            (____, BuiltinInvocation<Void> @:5814 op:562,dt:4,nt:8,next:5818,str:18190,d0:5815,d1:64042;
                 ("cinematic_subtitle", Expression<MethodOrOperator> @:5815 op:562,dt:2,nt:9,next:5816,str:5905,d0:0,d1:0;
                     ("x01_0120_por", Expression<StringId> @:5816 op:11,dt:11,nt:9,next:5817,str:9428,d0:9652,d1:3072;
                         (4f, Expression<Float> @:5817 op:6,dt:6,nt:9,next:65535,str:18223,d0:0,d1:16512;))))
-            (____, Scope<Void> @:5818 op:220,dt:4,nt:8,next:65535,str:18231,d0:5819,d1:64046;
+            (____, BuiltinInvocation<Void> @:5818 op:220,dt:4,nt:8,next:65535,str:18231,d0:5819,d1:64046;
                 ("unit_set_emotional_state", Expression<MethodOrOperator> @:5819 op:220,dt:2,nt:9,next:5820,str:9441,d0:0,d1:0;
                     ("regret", Expression<Unit> @:5820 op:57,dt:51,nt:9,next:5821,str:6086,d0:56,d1:65535;
                         ("arrogant", Expression<StringId> @:5821 op:11,dt:11,nt:9,next:5822,str:9466,d0:428,d1:2048;

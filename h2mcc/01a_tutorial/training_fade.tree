@@ -1,26 +1,26 @@
 
 ("training_fade", MethodDecl<Void> @:75 op:0,dt:0,nt:65535,next:6466,str:15592,d0:0,d1:0;
-    (____, Scope<Void> @:6466 op:0,dt:4,nt:8,next:65535,str:11164,d0:6467,d1:64694;
+    (____, BuiltinInvocation<Void> @:6466 op:0,dt:4,nt:8,next:65535,str:11164,d0:6467,d1:64694;
         ("begin", Expression<MethodOrOperator> @:6467 op:0,dt:2,nt:9,next:6444,str:11,d0:0,d1:0;
-            (____, Scope<Void> @:6444 op:474,dt:4,nt:8,next:6447,str:11196,d0:6445,d1:64672;
+            (____, BuiltinInvocation<Void> @:6444 op:474,dt:4,nt:8,next:6447,str:11196,d0:6445,d1:64672;
                 ("player_disable_movement", Expression<MethodOrOperator> @:6445 op:474,dt:2,nt:9,next:6446,str:11226,d0:0,d1:0;
                     (True, Expression<Boolean> @:6446 op:5,dt:5,nt:9,next:65535,str:11221,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:6447 op:477,dt:4,nt:8,next:6450,str:11229,d0:6448,d1:64675;
+            (____, BuiltinInvocation<Void> @:6447 op:477,dt:4,nt:8,next:6450,str:11229,d0:6448,d1:64675;
                 ("player_camera_control", Expression<MethodOrOperator> @:6448 op:477,dt:2,nt:9,next:6449,str:501,d0:0,d1:0;
                     (False, Expression<Boolean> @:6449 op:5,dt:5,nt:9,next:65535,str:11252,d0:65280,d1:65535;)))
-            (____, Scope<Void> @:6450 op:19,dt:4,nt:8,next:6453,str:11263,d0:6451,d1:64678;
+            (____, BuiltinInvocation<Void> @:6450 op:19,dt:4,nt:8,next:6453,str:11263,d0:6451,d1:64678;
                 ("sleep", Expression<MethodOrOperator> @:6451 op:19,dt:2,nt:9,next:6452,str:90,d0:0,d1:0;
                     (30, Expression<Short> @:6452 op:7,dt:7,nt:9,next:65535,str:11270,d0:30,d1:65535;)))
-            (____, Scope<Void> @:6453 op:559,dt:4,nt:8,next:6456,str:11276,d0:6454,d1:64681;
+            (____, BuiltinInvocation<Void> @:6453 op:559,dt:4,nt:8,next:6456,str:11276,d0:6454,d1:64681;
                 ("cinematic_set_title", Expression<MethodOrOperator> @:6454 op:559,dt:2,nt:9,next:6455,str:15340,d0:0,d1:0;
                     ("title_1", Expression<CinematicTitle> @:6455 op:16,dt:16,nt:9,next:65535,str:15360,d0:0,d1:0;)))
-            (____, Scope<Void> @:6456 op:19,dt:4,nt:8,next:6459,str:11308,d0:6457,d1:64684;
+            (____, BuiltinInvocation<Void> @:6456 op:19,dt:4,nt:8,next:6459,str:11308,d0:6457,d1:64684;
                 ("sleep", Expression<MethodOrOperator> @:6457 op:19,dt:2,nt:9,next:6458,str:90,d0:0,d1:0;
                     (150, Expression<Short> @:6458 op:7,dt:7,nt:9,next:65535,str:11315,d0:150,d1:65535;)))
-            (____, Scope<Void> @:6459 op:625,dt:4,nt:8,next:6463,str:11322,d0:6460,d1:64687;
+            (____, BuiltinInvocation<Void> @:6459 op:625,dt:4,nt:8,next:6463,str:11322,d0:6460,d1:64687;
                 ("hud_cinematic_fade", Expression<MethodOrOperator> @:6460 op:625,dt:2,nt:9,next:6461,str:523,d0:0,d1:0;
                     (1f, Expression<Float> @:6461 op:6,dt:6,nt:9,next:6462,str:11342,d0:0,d1:16256;
                         (0.5f, Expression<Float> @:6462 op:6,dt:6,nt:9,next:65535,str:11344,d0:0,d1:16128;))))
-            (____, Scope<Void> @:6463 op:557,dt:4,nt:8,next:65535,str:11351,d0:6464,d1:64691;
+            (____, BuiltinInvocation<Void> @:6463 op:557,dt:4,nt:8,next:65535,str:11351,d0:6464,d1:64691;
                 ("cinematic_show_letterbox", Expression<MethodOrOperator> @:6464 op:557,dt:2,nt:9,next:6465,str:15368,d0:0,d1:0;
                     (False, Expression<Boolean> @:6465 op:5,dt:5,nt:9,next:65535,str:11377,d0:65280,d1:65535;))))))

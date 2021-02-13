@@ -1,18 +1,18 @@
 
 ("e9_warthog_approach_horn", MethodDecl<Void> @:253 op:0,dt:0,nt:65535,next:9437,str:18092,d0:0,d1:0;
-    (____, Scope<Void> @:9437 op:0,dt:4,nt:8,next:65535,str:50258,d0:9438,d1:34898;
+    (____, BuiltinInvocation<Void> @:9437 op:0,dt:4,nt:8,next:65535,str:50258,d0:9438,d1:34898;
         ("begin", Expression<MethodOrOperator> @:9438 op:0,dt:2,nt:9,next:9423,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:9423 op:27,dt:4,nt:8,next:9426,str:50301,d0:9424,d1:34884;
+            (____, BuiltinInvocation<Void> @:9423 op:27,dt:4,nt:8,next:9426,str:50301,d0:9424,d1:34884;
                 ("print", Expression<MethodOrOperator> @:9424 op:27,dt:2,nt:9,next:9425,str:149,d0:0,d1:0;
                     ("honk", Expression<String> @:9425 op:9,dt:9,nt:9,next:65535,str:15645,d0:15645,d1:0;)))
-            (____, Scope<Void> @:9426 op:605,dt:4,nt:8,next:9431,str:50318,d0:9427,d1:34887;
+            (____, BuiltinInvocation<Void> @:9426 op:605,dt:4,nt:8,next:9431,str:50318,d0:9427,d1:34887;
                 ("sound_looping_start", Expression<MethodOrOperator> @:9427 op:605,dt:2,nt:9,next:9428,str:10061,d0:0,d1:0;
                     ("sound\vehicles\warthog\warthog_horn\warthog_horn", Expression<LoopingSound> @:9428 op:35,dt:35,nt:9,next:9429,str:15650,d0:5975,d1:63863;
                         ("g_e8_warthog", VariableAccess<Entity> @:9429 op:50,dt:50,nt:13,next:9430,str:16663,d0:16,d1:0;
                             (1.5f, Expression<Float> @:9430 op:6,dt:6,nt:9,next:65535,str:50403,d0:0,d1:16320;)))))
-            (____, Scope<Void> @:9431 op:19,dt:4,nt:8,next:9434,str:50410,d0:9432,d1:34892;
+            (____, BuiltinInvocation<Void> @:9431 op:19,dt:4,nt:8,next:9434,str:50410,d0:9432,d1:34892;
                 ("sleep", Expression<MethodOrOperator> @:9432 op:19,dt:2,nt:9,next:9433,str:143,d0:0,d1:0;
                     (30, Expression<Short> @:9433 op:7,dt:7,nt:9,next:65535,str:50417,d0:30,d1:65535;)))
-            (____, Scope<Void> @:9434 op:606,dt:4,nt:8,next:65535,str:50423,d0:9435,d1:34895;
+            (____, BuiltinInvocation<Void> @:9434 op:606,dt:4,nt:8,next:65535,str:50423,d0:9435,d1:34895;
                 ("sound_looping_stop", Expression<MethodOrOperator> @:9435 op:606,dt:2,nt:9,next:9436,str:10146,d0:0,d1:0;
                     ("sound\vehicles\warthog\warthog_horn\warthog_horn", Expression<LoopingSound> @:9436 op:35,dt:35,nt:9,next:65535,str:15650,d0:5975,d1:63863;))))))

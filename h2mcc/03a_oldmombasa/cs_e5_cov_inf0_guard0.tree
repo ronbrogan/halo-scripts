@@ -1,52 +1,52 @@
 
 ("cs_e5_cov_inf0_guard0", MethodDecl<Void> @:318 op:0,dt:0,nt:65535,next:12492,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:12492 op:0,dt:4,nt:8,next:65535,str:24183,d0:12493,d1:37953;
+    (____, BuiltinInvocation<Void> @:12492 op:0,dt:4,nt:8,next:65535,str:24183,d0:12493,d1:37953;
         ("begin", Expression<MethodOrOperator> @:12493 op:0,dt:2,nt:9,next:12442,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:12442 op:440,dt:4,nt:8,next:12445,str:24230,d0:12443,d1:37903;
+            (____, BuiltinInvocation<Void> @:12442 op:440,dt:4,nt:8,next:12445,str:24230,d0:12443,d1:37903;
                 ("cs_abort_on_damage", Expression<MethodOrOperator> @:12443 op:440,dt:2,nt:9,next:12444,str:15078,d0:0,d1:0;
                     (True, Expression<Boolean> @:12444 op:5,dt:5,nt:9,next:65535,str:24250,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:12445 op:441,dt:4,nt:8,next:12448,str:24258,d0:12446,d1:37906;
+            (____, BuiltinInvocation<Void> @:12445 op:441,dt:4,nt:8,next:12448,str:24258,d0:12446,d1:37906;
                 ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:12446 op:441,dt:2,nt:9,next:12447,str:13781,d0:0,d1:0;
                     ("ai_combat_status_clear_los", VariableAccess<Short> @:12447 op:7,dt:7,nt:13,next:65535,str:13973,d0:33579,d1:65535;)))
-            (____, Scope<Void> @:12448 op:21,dt:4,nt:8,next:65535,str:24315,d0:12449,d1:37909;
+            (____, BuiltinInvocation<Void> @:12448 op:21,dt:4,nt:8,next:65535,str:24315,d0:12449,d1:37909;
                 ("sleep_until", Expression<MethodOrOperator> @:12449 op:21,dt:2,nt:9,next:12450,str:294,d0:0,d1:0;
-                    (____, Scope<Boolean> @:12450 op:0,dt:5,nt:8,next:12491,str:24332,d0:12451,d1:37911;
+                    (____, BuiltinInvocation<Boolean> @:12450 op:0,dt:5,nt:8,next:12491,str:24332,d0:12451,d1:37911;
                         ("begin", Expression<MethodOrOperator> @:12451 op:0,dt:2,nt:9,next:12452,str:64,d0:0,d1:0;
-                            (____, Scope<Void> @:12452 op:1,dt:4,nt:8,next:12490,str:24343,d0:12453,d1:37913;
+                            (____, BuiltinInvocation<Void> @:12452 op:1,dt:4,nt:8,next:12490,str:24343,d0:12453,d1:37913;
                                 ("begin_random", Expression<MethodOrOperator> @:12453 op:1,dt:2,nt:9,next:12454,str:17065,d0:0,d1:0;
-                                    (____, Scope<Void> @:12454 op:0,dt:4,nt:8,next:12466,str:24362,d0:12455,d1:37915;
+                                    (____, BuiltinInvocation<Void> @:12454 op:0,dt:4,nt:8,next:12466,str:24362,d0:12455,d1:37915;
                                         ("begin", Expression<MethodOrOperator> @:12455 op:0,dt:2,nt:9,next:12456,str:64,d0:0,d1:0;
-                                            (____, Scope<Void> @:12456 op:396,dt:4,nt:8,next:12460,str:24375,d0:12457,d1:37917;
+                                            (____, BuiltinInvocation<Void> @:12456 op:396,dt:4,nt:8,next:12460,str:24375,d0:12457,d1:37917;
                                                 ("cs_aim", Expression<MethodOrOperator> @:12457 op:396,dt:2,nt:9,next:12458,str:20342,d0:0,d1:0;
                                                     (True, Expression<Boolean> @:12458 op:5,dt:5,nt:9,next:12459,str:24383,d0:65281,d1:65535;
                                                         ("e5_cov_ambush/look0", Expression<SpatialPoint> @:12459 op:28,dt:28,nt:9,next:65535,str:21910,d0:2,d1:15;))))
-                                            (____, Scope<Void> @:12460 op:19,dt:4,nt:8,next:65535,str:24415,d0:12461,d1:37921;
+                                            (____, BuiltinInvocation<Void> @:12460 op:19,dt:4,nt:8,next:65535,str:24415,d0:12461,d1:37921;
                                                 ("sleep", Expression<MethodOrOperator> @:12461 op:19,dt:2,nt:9,next:12462,str:143,d0:0,d1:0;
-                                                    (____, Scope<Short> @:12462 op:124,dt:7,nt:8,next:65535,str:24422,d0:12463,d1:37923;
+                                                    (____, BuiltinInvocation<Short> @:12462 op:124,dt:7,nt:8,next:65535,str:24422,d0:12463,d1:37923;
                                                         ("random_range", Expression<MethodOrOperator> @:12463 op:124,dt:2,nt:9,next:12464,str:13866,d0:0,d1:0;
                                                             (100, Expression<Short> @:12464 op:7,dt:7,nt:9,next:12465,str:24436,d0:100,d1:65535;
                                                                 (150, Expression<Short> @:12465 op:7,dt:7,nt:9,next:65535,str:24440,d0:150,d1:65535;))))))))
-                                    (____, Scope<Void> @:12466 op:0,dt:4,nt:8,next:12478,str:24458,d0:12467,d1:37927;
+                                    (____, BuiltinInvocation<Void> @:12466 op:0,dt:4,nt:8,next:12478,str:24458,d0:12467,d1:37927;
                                         ("begin", Expression<MethodOrOperator> @:12467 op:0,dt:2,nt:9,next:12468,str:64,d0:0,d1:0;
-                                            (____, Scope<Void> @:12468 op:396,dt:4,nt:8,next:12472,str:24471,d0:12469,d1:37929;
+                                            (____, BuiltinInvocation<Void> @:12468 op:396,dt:4,nt:8,next:12472,str:24471,d0:12469,d1:37929;
                                                 ("cs_aim", Expression<MethodOrOperator> @:12469 op:396,dt:2,nt:9,next:12470,str:20342,d0:0,d1:0;
                                                     (True, Expression<Boolean> @:12470 op:5,dt:5,nt:9,next:12471,str:24479,d0:65281,d1:65535;
                                                         ("e5_cov_ambush/look1", Expression<SpatialPoint> @:12471 op:28,dt:28,nt:9,next:65535,str:21930,d0:3,d1:15;))))
-                                            (____, Scope<Void> @:12472 op:19,dt:4,nt:8,next:65535,str:24511,d0:12473,d1:37933;
+                                            (____, BuiltinInvocation<Void> @:12472 op:19,dt:4,nt:8,next:65535,str:24511,d0:12473,d1:37933;
                                                 ("sleep", Expression<MethodOrOperator> @:12473 op:19,dt:2,nt:9,next:12474,str:143,d0:0,d1:0;
-                                                    (____, Scope<Short> @:12474 op:124,dt:7,nt:8,next:65535,str:24518,d0:12475,d1:37935;
+                                                    (____, BuiltinInvocation<Short> @:12474 op:124,dt:7,nt:8,next:65535,str:24518,d0:12475,d1:37935;
                                                         ("random_range", Expression<MethodOrOperator> @:12475 op:124,dt:2,nt:9,next:12476,str:13866,d0:0,d1:0;
                                                             (45, Expression<Short> @:12476 op:7,dt:7,nt:9,next:12477,str:24532,d0:45,d1:65535;
                                                                 (90, Expression<Short> @:12477 op:7,dt:7,nt:9,next:65535,str:24535,d0:90,d1:65535;))))))))
-                                    (____, Scope<Void> @:12478 op:0,dt:4,nt:8,next:65535,str:24552,d0:12479,d1:37939;
+                                    (____, BuiltinInvocation<Void> @:12478 op:0,dt:4,nt:8,next:65535,str:24552,d0:12479,d1:37939;
                                         ("begin", Expression<MethodOrOperator> @:12479 op:0,dt:2,nt:9,next:12480,str:64,d0:0,d1:0;
-                                            (____, Scope<Void> @:12480 op:396,dt:4,nt:8,next:12484,str:24565,d0:12481,d1:37941;
+                                            (____, BuiltinInvocation<Void> @:12480 op:396,dt:4,nt:8,next:12484,str:24565,d0:12481,d1:37941;
                                                 ("cs_aim", Expression<MethodOrOperator> @:12481 op:396,dt:2,nt:9,next:12482,str:20342,d0:0,d1:0;
                                                     (True, Expression<Boolean> @:12482 op:5,dt:5,nt:9,next:12483,str:24573,d0:65281,d1:65535;
                                                         ("e5_cov_ambush/look2", Expression<SpatialPoint> @:12483 op:28,dt:28,nt:9,next:65535,str:21950,d0:4,d1:15;))))
-                                            (____, Scope<Void> @:12484 op:19,dt:4,nt:8,next:65535,str:24605,d0:12485,d1:37945;
+                                            (____, BuiltinInvocation<Void> @:12484 op:19,dt:4,nt:8,next:65535,str:24605,d0:12485,d1:37945;
                                                 ("sleep", Expression<MethodOrOperator> @:12485 op:19,dt:2,nt:9,next:12486,str:143,d0:0,d1:0;
-                                                    (____, Scope<Short> @:12486 op:124,dt:7,nt:8,next:65535,str:24612,d0:12487,d1:37947;
+                                                    (____, BuiltinInvocation<Short> @:12486 op:124,dt:7,nt:8,next:65535,str:24612,d0:12487,d1:37947;
                                                         ("random_range", Expression<MethodOrOperator> @:12487 op:124,dt:2,nt:9,next:12488,str:13866,d0:0,d1:0;
                                                             (45, Expression<Short> @:12488 op:7,dt:7,nt:9,next:12489,str:24626,d0:45,d1:65535;
                                                                 (90, Expression<Short> @:12489 op:7,dt:7,nt:9,next:65535,str:24629,d0:90,d1:65535;))))))))))

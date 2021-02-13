@@ -1,16 +1,16 @@
 
 ("x01_0080_por", MethodDecl<Void> @:82 op:0,dt:0,nt:65535,next:5502,str:8751,d0:0,d1:0;
-    (____, Scope<Void> @:5502 op:0,dt:4,nt:8,next:65535,str:13733,d0:5503,d1:63730;
+    (____, BuiltinInvocation<Void> @:5502 op:0,dt:4,nt:8,next:65535,str:13733,d0:5503,d1:63730;
         ("begin", Expression<MethodOrOperator> @:5503 op:0,dt:2,nt:9,next:5490,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:5490 op:19,dt:4,nt:8,next:5493,str:13764,d0:5491,d1:63718;
+            (____, BuiltinInvocation<Void> @:5490 op:19,dt:4,nt:8,next:5493,str:13764,d0:5491,d1:63718;
                 ("sleep", Expression<MethodOrOperator> @:5491 op:19,dt:2,nt:9,next:5492,str:80,d0:0,d1:0;
                     (12, Expression<Short> @:5492 op:7,dt:7,nt:9,next:65535,str:13771,d0:12,d1:65535;)))
-            (____, Scope<Void> @:5493 op:596,dt:4,nt:8,next:5498,str:13777,d0:5494,d1:63721;
+            (____, BuiltinInvocation<Void> @:5493 op:596,dt:4,nt:8,next:5498,str:13777,d0:5494,d1:63721;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:5494 op:596,dt:2,nt:9,next:5495,str:3766,d0:0,d1:0;
                     ("sound\dialog\levels\01_spacestation\cinematic\x01_0080_por", Expression<Sound> @:5495 op:32,dt:32,nt:9,next:5496,str:8692,d0:2728,d1:60446;
                         (4294967295, Expression<Entity> @:5496 op:50,dt:50,nt:9,next:5497,str:3840,d0:65535,d1:65535;
                             (1f, Expression<Float> @:5497 op:6,dt:6,nt:9,next:65535,str:13862,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:5498 op:562,dt:4,nt:8,next:65535,str:13867,d0:5499,d1:63726;
+            (____, BuiltinInvocation<Void> @:5498 op:562,dt:4,nt:8,next:65535,str:13867,d0:5499,d1:63726;
                 ("cinematic_subtitle", Expression<MethodOrOperator> @:5499 op:562,dt:2,nt:9,next:5500,str:5905,d0:0,d1:0;
                     ("x01_0080_por", Expression<StringId> @:5500 op:11,dt:11,nt:9,next:5501,str:8751,d0:9646,d1:3072;
                         (5f, Expression<Float> @:5501 op:6,dt:6,nt:9,next:65535,str:13900,d0:0,d1:16544;)))))))

@@ -1,44 +1,44 @@
 
 ("training_looker_lights_on", MethodDecl<Void> @:63 op:0,dt:0,nt:65535,next:4018,str:8405,d0:0,d1:0;
-    (____, Scope<Void> @:4018 op:0,dt:4,nt:8,next:65535,str:46616,d0:4019,d1:62246;
+    (____, BuiltinInvocation<Void> @:4018 op:0,dt:4,nt:8,next:65535,str:46616,d0:4019,d1:62246;
         ("begin", Expression<MethodOrOperator> @:4019 op:0,dt:2,nt:9,next:3978,str:11,d0:0,d1:0;
-            (____, Scope<Void> @:3978 op:52,dt:4,nt:8,next:3981,str:46664,d0:3979,d1:62206;
+            (____, BuiltinInvocation<Void> @:3978 op:52,dt:4,nt:8,next:3981,str:46664,d0:3979,d1:62206;
                 ("object_destroy", Expression<MethodOrOperator> @:3979 op:52,dt:2,nt:9,next:3980,str:7724,d0:0,d1:0;
                     (4294901785, Expression<Entity> @:3980 op:56,dt:50,nt:9,next:65535,str:8135,d0:25,d1:65535;)))
-            (____, Scope<Void> @:3981 op:46,dt:4,nt:8,next:3984,str:46707,d0:3982,d1:62209;
+            (____, BuiltinInvocation<Void> @:3981 op:46,dt:4,nt:8,next:3984,str:46707,d0:3982,d1:62209;
                 ("object_create", Expression<MethodOrOperator> @:3982 op:46,dt:2,nt:9,next:3983,str:7337,d0:0,d1:0;
                     ("looker_light_left_red", Expression<EntityIdentifier> @:3983 op:56,dt:56,nt:9,next:65535,str:8159,d0:9,d1:65535;)))
-            (____, Scope<Void> @:3984 op:4,dt:4,nt:8,next:3988,str:46747,d0:3985,d1:62212;
+            (____, BuiltinInvocation<Void> @:3984 op:4,dt:4,nt:8,next:3988,str:46747,d0:3985,d1:62212;
                 ("set", Expression<MethodOrOperator> @:3985 op:4,dt:2,nt:9,next:3986,str:2001,d0:0,d1:0;
                     ("mark_looker_light_left", VariableAccess<Boolean> @:3986 op:65535,dt:5,nt:13,next:3987,str:8181,d0:28,d1:0;
                         (True, Expression<Boolean> @:3987 op:5,dt:5,nt:9,next:65535,str:46775,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:3988 op:52,dt:4,nt:8,next:3991,str:46783,d0:3989,d1:62216;
+            (____, BuiltinInvocation<Void> @:3988 op:52,dt:4,nt:8,next:3991,str:46783,d0:3989,d1:62216;
                 ("object_destroy", Expression<MethodOrOperator> @:3989 op:52,dt:2,nt:9,next:3990,str:7724,d0:0,d1:0;
                     (4294901784, Expression<Entity> @:3990 op:56,dt:50,nt:9,next:65535,str:8204,d0:24,d1:65535;)))
-            (____, Scope<Void> @:3991 op:46,dt:4,nt:8,next:3994,str:46827,d0:3992,d1:62219;
+            (____, BuiltinInvocation<Void> @:3991 op:46,dt:4,nt:8,next:3994,str:46827,d0:3992,d1:62219;
                 ("object_create", Expression<MethodOrOperator> @:3992 op:46,dt:2,nt:9,next:3993,str:7337,d0:0,d1:0;
                     ("looker_light_right_red", Expression<EntityIdentifier> @:3993 op:56,dt:56,nt:9,next:65535,str:8229,d0:8,d1:65535;)))
-            (____, Scope<Void> @:3994 op:4,dt:4,nt:8,next:3998,str:46868,d0:3995,d1:62222;
+            (____, BuiltinInvocation<Void> @:3994 op:4,dt:4,nt:8,next:3998,str:46868,d0:3995,d1:62222;
                 ("set", Expression<MethodOrOperator> @:3995 op:4,dt:2,nt:9,next:3996,str:2001,d0:0,d1:0;
                     ("mark_looker_light_right", VariableAccess<Boolean> @:3996 op:65535,dt:5,nt:13,next:3997,str:8252,d0:29,d1:0;
                         (True, Expression<Boolean> @:3997 op:5,dt:5,nt:9,next:65535,str:46897,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:3998 op:52,dt:4,nt:8,next:4001,str:46905,d0:3999,d1:62226;
+            (____, BuiltinInvocation<Void> @:3998 op:52,dt:4,nt:8,next:4001,str:46905,d0:3999,d1:62226;
                 ("object_destroy", Expression<MethodOrOperator> @:3999 op:52,dt:2,nt:9,next:4000,str:7724,d0:0,d1:0;
                     (4294901782, Expression<Entity> @:4000 op:56,dt:50,nt:9,next:65535,str:8276,d0:22,d1:65535;)))
-            (____, Scope<Void> @:4001 op:46,dt:4,nt:8,next:4004,str:46947,d0:4002,d1:62229;
+            (____, BuiltinInvocation<Void> @:4001 op:46,dt:4,nt:8,next:4004,str:46947,d0:4002,d1:62229;
                 ("object_create", Expression<MethodOrOperator> @:4002 op:46,dt:2,nt:9,next:4003,str:7337,d0:0,d1:0;
                     ("looker_light_top_red", Expression<EntityIdentifier> @:4003 op:56,dt:56,nt:9,next:65535,str:1347,d0:10,d1:65535;)))
-            (____, Scope<Void> @:4004 op:4,dt:4,nt:8,next:4008,str:46986,d0:4005,d1:62232;
+            (____, BuiltinInvocation<Void> @:4004 op:4,dt:4,nt:8,next:4008,str:46986,d0:4005,d1:62232;
                 ("set", Expression<MethodOrOperator> @:4005 op:4,dt:2,nt:9,next:4006,str:2001,d0:0,d1:0;
                     ("mark_looker_light_top", VariableAccess<Boolean> @:4006 op:65535,dt:5,nt:13,next:4007,str:8299,d0:30,d1:0;
                         (True, Expression<Boolean> @:4007 op:5,dt:5,nt:9,next:65535,str:47013,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:4008 op:52,dt:4,nt:8,next:4011,str:47021,d0:4009,d1:62236;
+            (____, BuiltinInvocation<Void> @:4008 op:52,dt:4,nt:8,next:4011,str:47021,d0:4009,d1:62236;
                 ("object_destroy", Expression<MethodOrOperator> @:4009 op:52,dt:2,nt:9,next:4010,str:7724,d0:0,d1:0;
                     (4294901783, Expression<Entity> @:4010 op:56,dt:50,nt:9,next:65535,str:8321,d0:23,d1:65535;)))
-            (____, Scope<Void> @:4011 op:46,dt:4,nt:8,next:4014,str:47066,d0:4012,d1:62239;
+            (____, BuiltinInvocation<Void> @:4011 op:46,dt:4,nt:8,next:4014,str:47066,d0:4012,d1:62239;
                 ("object_create", Expression<MethodOrOperator> @:4012 op:46,dt:2,nt:9,next:4013,str:7337,d0:0,d1:0;
                     ("looker_light_bottom_red", Expression<EntityIdentifier> @:4013 op:56,dt:56,nt:9,next:65535,str:1406,d0:7,d1:65535;)))
-            (____, Scope<Void> @:4014 op:4,dt:4,nt:8,next:65535,str:47108,d0:4015,d1:62242;
+            (____, BuiltinInvocation<Void> @:4014 op:4,dt:4,nt:8,next:65535,str:47108,d0:4015,d1:62242;
                 ("set", Expression<MethodOrOperator> @:4015 op:4,dt:2,nt:9,next:4016,str:2001,d0:0,d1:0;
                     ("mark_looker_light_bottom", VariableAccess<Boolean> @:4016 op:65535,dt:5,nt:13,next:4017,str:8347,d0:31,d1:0;
                         (True, Expression<Boolean> @:4017 op:5,dt:5,nt:9,next:65535,str:47138,d0:65281,d1:65535;)))))))

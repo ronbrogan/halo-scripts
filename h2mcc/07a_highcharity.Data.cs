@@ -403,7 +403,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public ScenarioEntity<IDevice> maus_ent_door_a { get; set; }
         public ScenarioEntity<IDevice> maus_ent_door_b { get; set; }
         public ScenarioEntity<IDevice> ice_cream_effect { get; set; }
-        public ICameraPathTarget test1 => Scenario.CameraPathTargets[0].GameObject;
+        public ICameraPathTarget test1 => Scenario.CameraPathTargets[0];
         public Squad_c07_infection_old c07_infection_old { get; set; }
         public Squad_empty empty { get; set; }
         public Squad_cortana_0 cortana_0 { get; set; }
@@ -919,34 +919,34 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public IAiOrders maus_inner_bk => Scenario.AiOrderDefinitions[208].GameObject;
         public IAiOrders maus_inner_zealot => Scenario.AiOrderDefinitions[209].GameObject;
         public IAiOrders maus_inner_spec => Scenario.AiOrderDefinitions[210].GameObject;
-        public ILocationFlag council_chamber => Scenario.LocationFlagDefinitions[0].GameObject;
-        public ILocationFlag halls => Scenario.LocationFlagDefinitions[1].GameObject;
-        public ILocationFlag garden => Scenario.LocationFlagDefinitions[2].GameObject;
-        public ILocationFlag mausoleum => Scenario.LocationFlagDefinitions[3].GameObject;
-        public ILocationFlag anchor_flag_x08 => Scenario.LocationFlagDefinitions[4].GameObject;
-        public ILocationFlag anchor_flag_intra1 => Scenario.LocationFlagDefinitions[5].GameObject;
-        public ILocationFlag anchor_flag_intro_a => Scenario.LocationFlagDefinitions[6].GameObject;
-        public ILocationFlag anchor_flag_intro_b => Scenario.LocationFlagDefinitions[7].GameObject;
-        public ILocationFlag anchor_flag_intro_c => Scenario.LocationFlagDefinitions[8].GameObject;
-        public ILocationFlag player0_start => Scenario.LocationFlagDefinitions[9].GameObject;
-        public ILocationFlag player1_start => Scenario.LocationFlagDefinitions[10].GameObject;
-        public ILocationFlag cortana_council => Scenario.LocationFlagDefinitions[11].GameObject;
-        public ILocationFlag cortana_ledge => Scenario.LocationFlagDefinitions[12].GameObject;
-        public ILocationFlag cortana_ledge_fr => Scenario.LocationFlagDefinitions[13].GameObject;
-        public ILocationFlag cor_maus_inner_a => Scenario.LocationFlagDefinitions[14].GameObject;
-        public ILocationFlag cor_maus_inner_b => Scenario.LocationFlagDefinitions[15].GameObject;
-        public ILocationFlag cor_maus_inner_c => Scenario.LocationFlagDefinitions[16].GameObject;
-        public ILocationFlag cor_maus_inner_d => Scenario.LocationFlagDefinitions[17].GameObject;
-        public ILocationFlag cor_maus_inner_e => Scenario.LocationFlagDefinitions[18].GameObject;
-        public ILocationFlag cor_maus_inner_f => Scenario.LocationFlagDefinitions[19].GameObject;
-        public ILocationFlag cor_maus_inner_g => Scenario.LocationFlagDefinitions[20].GameObject;
-        public ILocationFlag cor_maus_inner_h => Scenario.LocationFlagDefinitions[21].GameObject;
-        public ILocationFlag cor_maus_inner_i => Scenario.LocationFlagDefinitions[22].GameObject;
-        public ILocationFlag cor_maus_inner_j => Scenario.LocationFlagDefinitions[23].GameObject;
-        public ILocationFlag jails0_tele => Scenario.LocationFlagDefinitions[24].GameObject;
-        public ILocationFlag jails1_tele => Scenario.LocationFlagDefinitions[25].GameObject;
-        public ILocationFlag corrb0_tele => Scenario.LocationFlagDefinitions[26].GameObject;
-        public ILocationFlag corrb1_tele => Scenario.LocationFlagDefinitions[27].GameObject;
+        public ILocationFlag council_chamber => Scenario.LocationFlagDefinitions[0];
+        public ILocationFlag halls => Scenario.LocationFlagDefinitions[1];
+        public ILocationFlag garden => Scenario.LocationFlagDefinitions[2];
+        public ILocationFlag mausoleum => Scenario.LocationFlagDefinitions[3];
+        public ILocationFlag anchor_flag_x08 => Scenario.LocationFlagDefinitions[4];
+        public ILocationFlag anchor_flag_intra1 => Scenario.LocationFlagDefinitions[5];
+        public ILocationFlag anchor_flag_intro_a => Scenario.LocationFlagDefinitions[6];
+        public ILocationFlag anchor_flag_intro_b => Scenario.LocationFlagDefinitions[7];
+        public ILocationFlag anchor_flag_intro_c => Scenario.LocationFlagDefinitions[8];
+        public ILocationFlag player0_start => Scenario.LocationFlagDefinitions[9];
+        public ILocationFlag player1_start => Scenario.LocationFlagDefinitions[10];
+        public ILocationFlag cortana_council => Scenario.LocationFlagDefinitions[11];
+        public ILocationFlag cortana_ledge => Scenario.LocationFlagDefinitions[12];
+        public ILocationFlag cortana_ledge_fr => Scenario.LocationFlagDefinitions[13];
+        public ILocationFlag cor_maus_inner_a => Scenario.LocationFlagDefinitions[14];
+        public ILocationFlag cor_maus_inner_b => Scenario.LocationFlagDefinitions[15];
+        public ILocationFlag cor_maus_inner_c => Scenario.LocationFlagDefinitions[16];
+        public ILocationFlag cor_maus_inner_d => Scenario.LocationFlagDefinitions[17];
+        public ILocationFlag cor_maus_inner_e => Scenario.LocationFlagDefinitions[18];
+        public ILocationFlag cor_maus_inner_f => Scenario.LocationFlagDefinitions[19];
+        public ILocationFlag cor_maus_inner_g => Scenario.LocationFlagDefinitions[20];
+        public ILocationFlag cor_maus_inner_h => Scenario.LocationFlagDefinitions[21];
+        public ILocationFlag cor_maus_inner_i => Scenario.LocationFlagDefinitions[22];
+        public ILocationFlag cor_maus_inner_j => Scenario.LocationFlagDefinitions[23];
+        public ILocationFlag jails0_tele => Scenario.LocationFlagDefinitions[24];
+        public ILocationFlag jails1_tele => Scenario.LocationFlagDefinitions[25];
+        public ILocationFlag corrb0_tele => Scenario.LocationFlagDefinitions[26];
+        public ILocationFlag corrb1_tele => Scenario.LocationFlagDefinitions[27];
         public ICinematicTitle title_1 => Scenario.CinematicTitleDefinitions[0].GameObject;
         public ICinematicTitle title_2 => Scenario.CinematicTitleDefinitions[1].GameObject;
         public ICinematicTitle title_3 => Scenario.CinematicTitleDefinitions[2].GameObject;

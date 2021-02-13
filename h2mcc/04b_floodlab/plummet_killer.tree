@@ -1,32 +1,32 @@
 
 ("plummet_killer", MethodDecl<Void> @:283 op:0,dt:0,nt:65535,next:17219,str:31460,d0:0,d1:0;
-    (____, Scope<Void> @:17219 op:0,dt:4,nt:8,next:65535,str:51318,d0:17220,d1:42680;
+    (____, BuiltinInvocation<Void> @:17219 op:0,dt:4,nt:8,next:65535,str:51318,d0:17220,d1:42680;
         ("begin", Expression<MethodOrOperator> @:17220 op:0,dt:2,nt:9,next:17191,str:210,d0:0,d1:0;
-            (____, Scope<Void> @:17191 op:21,dt:4,nt:8,next:65535,str:51351,d0:17192,d1:42652;
+            (____, BuiltinInvocation<Void> @:17191 op:21,dt:4,nt:8,next:65535,str:51351,d0:17192,d1:42652;
                 ("sleep_until", Expression<MethodOrOperator> @:17192 op:21,dt:2,nt:9,next:17193,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:17193 op:0,dt:5,nt:8,next:17218,str:51367,d0:17194,d1:42654;
+                    (____, BuiltinInvocation<Boolean> @:17193 op:0,dt:5,nt:8,next:17218,str:51367,d0:17194,d1:42654;
                         ("begin", Expression<MethodOrOperator> @:17194 op:0,dt:2,nt:9,next:17195,str:210,d0:0,d1:0;
-                            (____, Scope<Void> @:17195 op:52,dt:4,nt:8,next:17203,str:51378,d0:17196,d1:42656;
+                            (____, BuiltinInvocation<Void> @:17195 op:52,dt:4,nt:8,next:17203,str:51378,d0:17196,d1:42656;
                                 ("object_destroy", Expression<MethodOrOperator> @:17196 op:52,dt:2,nt:9,next:17197,str:4336,d0:0,d1:0;
-                                    (____, Scope<Entity> @:17197 op:37,dt:50,nt:8,next:65535,str:51394,d0:17198,d1:42658;
+                                    (____, BuiltinInvocation<Entity> @:17197 op:37,dt:50,nt:8,next:65535,str:51394,d0:17198,d1:42658;
                                         ("list_get", Expression<MethodOrOperator> @:17198 op:37,dt:2,nt:9,next:17199,str:221,d0:0,d1:0;
-                                            (____, Scope<List> @:17199 op:35,dt:31,nt:8,next:17202,str:51404,d0:17200,d1:42660;
+                                            (____, BuiltinInvocation<List> @:17199 op:35,dt:31,nt:8,next:17202,str:51404,d0:17200,d1:42660;
                                                 ("volume_return_objects", Expression<MethodOrOperator> @:17200 op:35,dt:2,nt:9,next:17201,str:15153,d0:0,d1:0;
                                                     ("vol_cableroom_suck_kill", Expression<Trigger> @:17201 op:13,dt:13,nt:9,next:65535,str:24575,d0:104,d1:0;)))
                                             (0, Expression<Short> @:17202 op:7,dt:7,nt:9,next:65535,str:51452,d0:0,d1:65535;)))))
-                            (____, Scope<Void> @:17203 op:4,dt:4,nt:8,next:17210,str:51460,d0:17204,d1:42664;
+                            (____, BuiltinInvocation<Void> @:17203 op:4,dt:4,nt:8,next:17210,str:51460,d0:17204,d1:42664;
                                 ("set", Expression<MethodOrOperator> @:17204 op:4,dt:2,nt:9,next:17205,str:2644,d0:0,d1:0;
                                     ("plummet_junk_total", VariableAccess<Short> @:17205 op:65535,dt:7,nt:13,next:17206,str:29594,d0:39,d1:0;
-                                        (____, Scope<Short> @:17206 op:8,dt:7,nt:8,next:65535,str:51484,d0:17207,d1:42667;
+                                        (____, BuiltinInvocation<Short> @:17206 op:8,dt:7,nt:8,next:65535,str:51484,d0:17207,d1:42667;
                                             ("-", Expression<MethodOrOperator> @:17207 op:8,dt:2,nt:9,next:17208,str:3247,d0:0,d1:0;
                                                 ("plummet_junk_total", VariableAccess<Float> @:17208 op:6,dt:6,nt:13,next:17209,str:29594,d0:39,d1:0;
                                                     (1f, Expression<Float> @:17209 op:6,dt:6,nt:9,next:65535,str:51506,d0:0,d1:16256;)))))))
-                            (____, Scope<Void> @:17210 op:19,dt:4,nt:8,next:17213,str:51514,d0:17211,d1:42671;
+                            (____, BuiltinInvocation<Void> @:17210 op:19,dt:4,nt:8,next:17213,str:51514,d0:17211,d1:42671;
                                 ("sleep", Expression<MethodOrOperator> @:17211 op:19,dt:2,nt:9,next:17212,str:289,d0:0,d1:0;
                                     (5, Expression<Short> @:17212 op:7,dt:7,nt:9,next:65535,str:51521,d0:5,d1:65535;)))
-                            (____, Scope<Boolean> @:17213 op:13,dt:5,nt:8,next:65535,str:51528,d0:17214,d1:42674;
+                            (____, BuiltinInvocation<Boolean> @:17213 op:13,dt:5,nt:8,next:65535,str:51528,d0:17214,d1:42674;
                                 ("=", Expression<MethodOrOperator> @:17214 op:13,dt:2,nt:9,next:17215,str:505,d0:0,d1:0;
-                                    (____, Scope<Short> @:17215 op:509,dt:7,nt:8,next:17217,str:51531,d0:17216,d1:42676;
+                                    (____, BuiltinInvocation<Short> @:17215 op:509,dt:7,nt:8,next:17217,str:51531,d0:17216,d1:42676;
                                         ("structure_bsp_index", Expression<MethodOrOperator> @:17216 op:509,dt:2,nt:9,next:65535,str:11101,d0:0,d1:0;))
                                     (5, Expression<Short> @:17217 op:7,dt:7,nt:9,next:65535,str:51553,d0:5,d1:65535;)))))
                     (5, Expression<Short> @:17218 op:7,dt:7,nt:9,next:65535,str:51563,d0:5,d1:65535;))))))

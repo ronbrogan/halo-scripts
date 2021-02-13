@@ -1,16 +1,16 @@
 
 ("x01_0300_pot", MethodDecl<Void> @:134 op:0,dt:0,nt:65535,next:7217,str:12289,d0:0,d1:0;
-    (____, Scope<Void> @:7217 op:0,dt:4,nt:8,next:65535,str:34437,d0:7218,d1:65445;
+    (____, BuiltinInvocation<Void> @:7217 op:0,dt:4,nt:8,next:65535,str:34437,d0:7218,d1:65445;
         ("begin", Expression<MethodOrOperator> @:7218 op:0,dt:2,nt:9,next:7205,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:7205 op:19,dt:4,nt:8,next:7208,str:34468,d0:7206,d1:65433;
+            (____, BuiltinInvocation<Void> @:7205 op:19,dt:4,nt:8,next:7208,str:34468,d0:7206,d1:65433;
                 ("sleep", Expression<MethodOrOperator> @:7206 op:19,dt:2,nt:9,next:7207,str:80,d0:0,d1:0;
                     (20, Expression<Short> @:7207 op:7,dt:7,nt:9,next:65535,str:34475,d0:20,d1:65535;)))
-            (____, Scope<Void> @:7208 op:596,dt:4,nt:8,next:7213,str:34481,d0:7209,d1:65436;
+            (____, BuiltinInvocation<Void> @:7208 op:596,dt:4,nt:8,next:7213,str:34481,d0:7209,d1:65436;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:7209 op:596,dt:2,nt:9,next:7210,str:3766,d0:0,d1:0;
                     ("sound\dialog\levels\01_spacestation\cinematic\x01_0300_pot", Expression<Sound> @:7210 op:32,dt:32,nt:9,next:7211,str:12230,d0:2769,d1:60487;
                         (4294901817, Expression<Entity> @:7211 op:56,dt:50,nt:9,next:7212,str:6687,d0:57,d1:65535;
                             (1f, Expression<Float> @:7212 op:6,dt:6,nt:9,next:65535,str:34567,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:7213 op:562,dt:4,nt:8,next:65535,str:34572,d0:7214,d1:65441;
+            (____, BuiltinInvocation<Void> @:7213 op:562,dt:4,nt:8,next:65535,str:34572,d0:7214,d1:65441;
                 ("cinematic_subtitle", Expression<MethodOrOperator> @:7214 op:562,dt:2,nt:9,next:7215,str:5905,d0:0,d1:0;
                     ("x01_0300_pot", Expression<StringId> @:7215 op:11,dt:11,nt:9,next:7216,str:12289,d0:9676,d1:3072;
                         (2f, Expression<Float> @:7216 op:6,dt:6,nt:9,next:65535,str:34605,d0:0,d1:16384;)))))))

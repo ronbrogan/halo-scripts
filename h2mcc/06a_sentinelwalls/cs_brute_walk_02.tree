@@ -1,16 +1,16 @@
 
 ("cs_brute_walk_02", MethodDecl<Void> @:33 op:0,dt:0,nt:65535,next:827,str:1503,d0:0,d1:0;
-    (____, Scope<Void> @:827 op:0,dt:4,nt:8,next:65535,str:10021,d0:828,d1:59055;
+    (____, BuiltinInvocation<Void> @:827 op:0,dt:4,nt:8,next:65535,str:10021,d0:828,d1:59055;
         ("begin", Expression<MethodOrOperator> @:828 op:0,dt:2,nt:9,next:815,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:815 op:422,dt:4,nt:8,next:818,str:10063,d0:816,d1:59043;
+            (____, BuiltinInvocation<Void> @:815 op:422,dt:4,nt:8,next:818,str:10063,d0:816,d1:59043;
                 ("cs_movement_mode", Expression<MethodOrOperator> @:816 op:422,dt:2,nt:9,next:817,str:1203,d0:0,d1:0;
                     ("ai_movement_patrol", VariableAccess<Short> @:817 op:7,dt:7,nt:13,next:65535,str:1220,d0:33581,d1:65535;)))
-            (____, Scope<Void> @:818 op:449,dt:4,nt:8,next:821,str:10103,d0:819,d1:59046;
+            (____, BuiltinInvocation<Void> @:818 op:449,dt:4,nt:8,next:821,str:10103,d0:819,d1:59046;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:819 op:449,dt:2,nt:9,next:820,str:1239,d0:0,d1:0;
                     (True, Expression<Boolean> @:820 op:5,dt:5,nt:9,next:65535,str:10135,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:821 op:435,dt:4,nt:8,next:824,str:10140,d0:822,d1:59049;
+            (____, BuiltinInvocation<Void> @:821 op:435,dt:4,nt:8,next:824,str:10140,d0:822,d1:59049;
                 ("cs_ignore_obstacles", Expression<MethodOrOperator> @:822 op:435,dt:2,nt:9,next:823,str:1270,d0:0,d1:0;
                     (True, Expression<Boolean> @:823 op:5,dt:5,nt:9,next:65535,str:10161,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:824 op:385,dt:4,nt:8,next:65535,str:10166,d0:825,d1:59052;
+            (____, BuiltinInvocation<Void> @:824 op:385,dt:4,nt:8,next:65535,str:10166,d0:825,d1:59052;
                 ("cs_go_to", Expression<MethodOrOperator> @:825 op:385,dt:2,nt:9,next:826,str:1290,d0:0,d1:0;
                     ("brute_targets/p1", Expression<SpatialPoint> @:826 op:28,dt:28,nt:9,next:65535,str:1316,d0:1,d1:12;))))))

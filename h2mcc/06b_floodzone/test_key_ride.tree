@@ -1,46 +1,46 @@
 
 ("test_key_ride", MethodDecl<Void> @:274 op:0,dt:0,nt:65535,next:12603,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:12603 op:0,dt:4,nt:8,next:65535,str:17638,d0:12604,d1:38064;
+    (____, BuiltinInvocation<Void> @:12603 op:0,dt:4,nt:8,next:65535,str:17638,d0:12604,d1:38064;
         ("begin", Expression<MethodOrOperator> @:12604 op:0,dt:2,nt:9,next:12561,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:12561 op:508,dt:4,nt:8,next:12564,str:17674,d0:12562,d1:38022;
+            (____, BuiltinInvocation<Void> @:12561 op:508,dt:4,nt:8,next:12564,str:17674,d0:12562,d1:38022;
                 ("switch_bsp_by_name", Expression<MethodOrOperator> @:12562 op:508,dt:2,nt:9,next:12563,str:2529,d0:0,d1:0;
                     ("sen_hq_bsp_5", Expression<Bsp> @:12563 op:26,dt:26,nt:9,next:65535,str:5222,d0:3,d1:0;)))
-            (____, Scope<Void> @:12564 op:19,dt:4,nt:8,next:12567,str:17710,d0:12565,d1:38025;
+            (____, BuiltinInvocation<Void> @:12564 op:19,dt:4,nt:8,next:12567,str:17710,d0:12565,d1:38025;
                 ("sleep", Expression<MethodOrOperator> @:12565 op:19,dt:2,nt:9,next:12566,str:85,d0:0,d1:0;
                     (1, Expression<Short> @:12566 op:7,dt:7,nt:9,next:65535,str:17717,d0:1,d1:65535;)))
-            (____, Scope<Void> @:12567 op:105,dt:4,nt:8,next:12572,str:17722,d0:12568,d1:38028;
+            (____, BuiltinInvocation<Void> @:12567 op:105,dt:4,nt:8,next:12572,str:17722,d0:12568,d1:38028;
                 ("object_teleport", Expression<MethodOrOperator> @:12568 op:105,dt:2,nt:9,next:12569,str:20125,d0:0,d1:0;
                     ("player0", ScriptInvocation<Entity> @:12569 op:0,dt:50,nt:10,next:12571,str:17739,d0:12570,d1:38030;
                         ("player0", Expression<MethodOrOperator> @:12570 op:0,dt:2,nt:9,next:65535,str:607,d0:0,d1:0;))
                     ("key_ent0", Expression<LocationFlag> @:12571 op:14,dt:14,nt:9,next:65535,str:20141,d0:23,d1:0;)))
-            (____, Scope<Void> @:12572 op:79,dt:4,nt:8,next:12579,str:17761,d0:12573,d1:38033;
+            (____, BuiltinInvocation<Void> @:12572 op:79,dt:4,nt:8,next:12579,str:17761,d0:12573,d1:38033;
                 ("object_set_velocity", Expression<MethodOrOperator> @:12573 op:79,dt:2,nt:9,next:12574,str:23427,d0:0,d1:0;
                     ("player0", ScriptInvocation<Entity> @:12574 op:0,dt:50,nt:10,next:12576,str:17782,d0:12575,d1:38035;
                         ("player0", Expression<MethodOrOperator> @:12575 op:0,dt:2,nt:9,next:65535,str:607,d0:0,d1:0;))
                     (5f, Expression<Float> @:12576 op:6,dt:6,nt:9,next:12577,str:17792,d0:0,d1:16544;
                         (0f, Expression<Float> @:12577 op:6,dt:6,nt:9,next:12578,str:17794,d0:0,d1:0;
                             (0f, Expression<Float> @:12578 op:6,dt:6,nt:9,next:65535,str:17796,d0:0,d1:0;)))))
-            (____, Scope<Void> @:12579 op:105,dt:4,nt:8,next:12584,str:17801,d0:12580,d1:38040;
+            (____, BuiltinInvocation<Void> @:12579 op:105,dt:4,nt:8,next:12584,str:17801,d0:12580,d1:38040;
                 ("object_teleport", Expression<MethodOrOperator> @:12580 op:105,dt:2,nt:9,next:12581,str:20125,d0:0,d1:0;
                     ("player1", ScriptInvocation<Entity> @:12581 op:1,dt:50,nt:10,next:12583,str:17818,d0:12582,d1:38042;
                         ("player1", Expression<MethodOrOperator> @:12582 op:1,dt:2,nt:9,next:65535,str:615,d0:0,d1:0;))
                     ("key_ent1", Expression<LocationFlag> @:12583 op:14,dt:14,nt:9,next:65535,str:20150,d0:24,d1:0;)))
-            (____, Scope<Void> @:12584 op:79,dt:4,nt:8,next:12591,str:17840,d0:12585,d1:38045;
+            (____, BuiltinInvocation<Void> @:12584 op:79,dt:4,nt:8,next:12591,str:17840,d0:12585,d1:38045;
                 ("object_set_velocity", Expression<MethodOrOperator> @:12585 op:79,dt:2,nt:9,next:12586,str:23427,d0:0,d1:0;
                     ("player1", ScriptInvocation<Entity> @:12586 op:1,dt:50,nt:10,next:12588,str:17861,d0:12587,d1:38047;
                         ("player1", Expression<MethodOrOperator> @:12587 op:1,dt:2,nt:9,next:65535,str:615,d0:0,d1:0;))
                     (5f, Expression<Float> @:12588 op:6,dt:6,nt:9,next:12589,str:17871,d0:0,d1:16544;
                         (0f, Expression<Float> @:12589 op:6,dt:6,nt:9,next:12590,str:17873,d0:0,d1:0;
                             (0f, Expression<Float> @:12590 op:6,dt:6,nt:9,next:65535,str:17875,d0:0,d1:0;)))))
-            (____, Scope<Void> @:12591 op:22,dt:4,nt:8,next:12594,str:17880,d0:12592,d1:38052;
+            (____, BuiltinInvocation<Void> @:12591 op:22,dt:4,nt:8,next:12594,str:17880,d0:12592,d1:38052;
                 ("wake", Expression<MethodOrOperator> @:12592 op:22,dt:2,nt:9,next:12593,str:1071,d0:0,d1:0;
                     ("key_main", Expression<ScriptReference> @:12593 op:10,dt:10,nt:9,next:65535,str:21506,d0:215,d1:65535;)))
-            (____, Scope<Void> @:12594 op:22,dt:4,nt:8,next:12597,str:17898,d0:12595,d1:38055;
+            (____, BuiltinInvocation<Void> @:12594 op:22,dt:4,nt:8,next:12597,str:17898,d0:12595,d1:38055;
                 ("wake", Expression<MethodOrOperator> @:12595 op:22,dt:2,nt:9,next:12596,str:1071,d0:0,d1:0;
                     ("key_ride_human_key_main", Expression<ScriptReference> @:12596 op:10,dt:10,nt:9,next:65535,str:21515,d0:216,d1:65535;)))
-            (____, Scope<Void> @:12597 op:22,dt:4,nt:8,next:12600,str:17931,d0:12598,d1:38058;
+            (____, BuiltinInvocation<Void> @:12597 op:22,dt:4,nt:8,next:12600,str:17931,d0:12598,d1:38058;
                 ("wake", Expression<MethodOrOperator> @:12598 op:22,dt:2,nt:9,next:12599,str:1071,d0:0,d1:0;
                     ("key_ride_tartarus_main", Expression<ScriptReference> @:12599 op:10,dt:10,nt:9,next:65535,str:21539,d0:223,d1:65535;)))
-            (____, Scope<Void> @:12600 op:22,dt:4,nt:8,next:65535,str:17963,d0:12601,d1:38061;
+            (____, BuiltinInvocation<Void> @:12600 op:22,dt:4,nt:8,next:65535,str:17963,d0:12601,d1:38061;
                 ("wake", Expression<MethodOrOperator> @:12601 op:22,dt:2,nt:9,next:12602,str:1071,d0:0,d1:0;
                     ("e21_main", Expression<ScriptReference> @:12602 op:10,dt:10,nt:9,next:65535,str:24761,d0:273,d1:65535;))))))

@@ -1,16 +1,16 @@
 
 ("x02_0300_lhd", MethodDecl<Void> @:121 op:0,dt:0,nt:65535,next:4807,str:12345,d0:0,d1:0;
-    (____, Scope<Void> @:4807 op:0,dt:4,nt:8,next:65535,str:58804,d0:4808,d1:63035;
+    (____, BuiltinInvocation<Void> @:4807 op:0,dt:4,nt:8,next:65535,str:58804,d0:4808,d1:63035;
         ("begin", Expression<MethodOrOperator> @:4808 op:0,dt:2,nt:9,next:4795,str:11,d0:0,d1:0;
-            (____, Scope<Void> @:4795 op:19,dt:4,nt:8,next:4798,str:58835,d0:4796,d1:63023;
+            (____, BuiltinInvocation<Void> @:4795 op:19,dt:4,nt:8,next:4798,str:58835,d0:4796,d1:63023;
                 ("sleep", Expression<MethodOrOperator> @:4796 op:19,dt:2,nt:9,next:4797,str:90,d0:0,d1:0;
                     (356, Expression<Short> @:4797 op:7,dt:7,nt:9,next:65535,str:58842,d0:356,d1:65535;)))
-            (____, Scope<Void> @:4798 op:596,dt:4,nt:8,next:4803,str:58849,d0:4799,d1:63026;
+            (____, BuiltinInvocation<Void> @:4798 op:596,dt:4,nt:8,next:4803,str:58849,d0:4799,d1:63026;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:4799 op:596,dt:2,nt:9,next:4800,str:1446,d0:0,d1:0;
                     ("sound\dialog\levels\01_spacestation\cinematic\x02_0300_lhd", Expression<Sound> @:4800 op:32,dt:32,nt:9,next:4801,str:12286,d0:4545,d1:62433;
                         (4294902070, Expression<Entity> @:4801 op:56,dt:50,nt:9,next:4802,str:7527,d0:310,d1:65535;
                             (1f, Expression<Float> @:4802 op:6,dt:6,nt:9,next:65535,str:58938,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:4803 op:562,dt:4,nt:8,next:65535,str:58943,d0:4804,d1:63031;
+            (____, BuiltinInvocation<Void> @:4803 op:562,dt:4,nt:8,next:65535,str:58943,d0:4804,d1:63031;
                 ("cinematic_subtitle", Expression<MethodOrOperator> @:4804 op:562,dt:2,nt:9,next:4805,str:1689,d0:0,d1:0;
                     ("x02_0300_lhd", Expression<StringId> @:4805 op:11,dt:11,nt:9,next:4806,str:12345,d0:9632,d1:3072;
                         (6.5f, Expression<Float> @:4806 op:6,dt:6,nt:9,next:65535,str:58976,d0:0,d1:16592;)))))))

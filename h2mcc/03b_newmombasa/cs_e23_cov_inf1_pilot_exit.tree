@@ -1,36 +1,36 @@
 
 ("cs_e23_cov_inf1_pilot_exit", MethodDecl<Void> @:246 op:0,dt:0,nt:65535,next:7681,str:16367,d0:0,d1:0;
-    (____, Scope<Void> @:7681 op:0,dt:4,nt:8,next:65535,str:27988,d0:7682,d1:33142;
+    (____, BuiltinInvocation<Void> @:7681 op:0,dt:4,nt:8,next:65535,str:27988,d0:7682,d1:33142;
         ("begin", Expression<MethodOrOperator> @:7682 op:0,dt:2,nt:9,next:7649,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:7649 op:76,dt:4,nt:8,next:7655,str:28040,d0:7650,d1:33110;
+            (____, BuiltinInvocation<Void> @:7649 op:76,dt:4,nt:8,next:7655,str:28040,d0:7650,d1:33110;
                 ("objects_detach", Expression<MethodOrOperator> @:7650 op:76,dt:2,nt:9,next:7651,str:1974,d0:0,d1:0;
                     (4294901862, Expression<Entity> @:7651 op:56,dt:50,nt:9,next:7652,str:13941,d0:102,d1:65535;
-                        (____, Scope<Entity> @:7652 op:284,dt:50,nt:8,next:65535,str:28063,d0:7653,d1:33113;
+                        (____, BuiltinInvocation<Entity> @:7652 op:284,dt:50,nt:8,next:65535,str:28063,d0:7653,d1:33113;
                             ("ai_get_object", Expression<MethodOrOperator> @:7653 op:284,dt:2,nt:9,next:7654,str:13874,d0:0,d1:0;
                                 ("ai_current_actor", VariableAccess<AI> @:7654 op:19,dt:19,nt:13,next:65535,str:13888,d0:33564,d1:65535;))))))
-            (____, Scope<Void> @:7655 op:201,dt:4,nt:8,next:7663,str:28133,d0:7656,d1:33116;
+            (____, BuiltinInvocation<Void> @:7655 op:201,dt:4,nt:8,next:7663,str:28133,d0:7656,d1:33116;
                 ("custom_animation", Expression<MethodOrOperator> @:7656 op:201,dt:2,nt:9,next:7657,str:16183,d0:0,d1:0;
-                    (____, Scope<Unit> @:7657 op:285,dt:51,nt:8,next:7660,str:28151,d0:7658,d1:33118;
+                    (____, BuiltinInvocation<Unit> @:7657 op:285,dt:51,nt:8,next:7660,str:28151,d0:7658,d1:33118;
                         ("ai_get_unit", Expression<MethodOrOperator> @:7658 op:285,dt:2,nt:9,next:7659,str:16200,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:7659 op:19,dt:19,nt:13,next:65535,str:13888,d0:33564,d1:65535;)))
                     ("objects\characters\elite\elite", Expression<Animation> @:7660 op:36,dt:36,nt:9,next:7661,str:16212,d0:4261,d1:61979;
                         ("scarab_d_r:any:any:exit", Expression<StringId> @:7661 op:11,dt:11,nt:9,next:7662,str:16243,d0:4555,d1:5888;
                             (True, Expression<Boolean> @:7662 op:5,dt:5,nt:9,next:65535,str:28241,d0:65281,d1:65535;)))))
-            (____, Scope<Void> @:7663 op:19,dt:4,nt:8,next:7670,str:28249,d0:7664,d1:33124;
+            (____, BuiltinInvocation<Void> @:7663 op:19,dt:4,nt:8,next:7670,str:28249,d0:7664,d1:33124;
                 ("sleep", Expression<MethodOrOperator> @:7664 op:19,dt:2,nt:9,next:7665,str:85,d0:0,d1:0;
-                    (____, Scope<Short> @:7665 op:199,dt:7,nt:8,next:65535,str:28256,d0:7666,d1:33126;
+                    (____, BuiltinInvocation<Short> @:7665 op:199,dt:7,nt:8,next:65535,str:28256,d0:7666,d1:33126;
                         ("unit_get_custom_animation_time", Expression<MethodOrOperator> @:7666 op:199,dt:2,nt:9,next:7667,str:16267,d0:0,d1:0;
-                            (____, Scope<Unit> @:7667 op:285,dt:51,nt:8,next:65535,str:28288,d0:7668,d1:33128;
+                            (____, BuiltinInvocation<Unit> @:7667 op:285,dt:51,nt:8,next:65535,str:28288,d0:7668,d1:33128;
                                 ("ai_get_unit", Expression<MethodOrOperator> @:7668 op:285,dt:2,nt:9,next:7669,str:16200,d0:0,d1:0;
                                     ("ai_current_actor", VariableAccess<AI> @:7669 op:19,dt:19,nt:13,next:65535,str:13888,d0:33564,d1:65535;)))))))
-            (____, Scope<Void> @:7670 op:200,dt:4,nt:8,next:7675,str:28323,d0:7671,d1:33131;
+            (____, BuiltinInvocation<Void> @:7670 op:200,dt:4,nt:8,next:7675,str:28323,d0:7671,d1:33131;
                 ("unit_stop_custom_animation", Expression<MethodOrOperator> @:7671 op:200,dt:2,nt:9,next:7672,str:16298,d0:0,d1:0;
-                    (____, Scope<Unit> @:7672 op:285,dt:51,nt:8,next:65535,str:28351,d0:7673,d1:33133;
+                    (____, BuiltinInvocation<Unit> @:7672 op:285,dt:51,nt:8,next:65535,str:28351,d0:7673,d1:33133;
                         ("ai_get_unit", Expression<MethodOrOperator> @:7673 op:285,dt:2,nt:9,next:7674,str:16200,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:7674 op:19,dt:19,nt:13,next:65535,str:13888,d0:33564,d1:65535;)))))
-            (____, Scope<Void> @:7675 op:85,dt:4,nt:8,next:65535,str:28406,d0:7676,d1:33136;
+            (____, BuiltinInvocation<Void> @:7675 op:85,dt:4,nt:8,next:65535,str:28406,d0:7676,d1:33136;
                 ("object_cannot_die", Expression<MethodOrOperator> @:7676 op:85,dt:2,nt:9,next:7677,str:16325,d0:0,d1:0;
-                    (____, Scope<Entity> @:7677 op:284,dt:50,nt:8,next:7680,str:28425,d0:7678,d1:33138;
+                    (____, BuiltinInvocation<Entity> @:7677 op:284,dt:50,nt:8,next:7680,str:28425,d0:7678,d1:33138;
                         ("ai_get_object", Expression<MethodOrOperator> @:7678 op:284,dt:2,nt:9,next:7679,str:13874,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:7679 op:19,dt:19,nt:13,next:65535,str:13888,d0:33564,d1:65535;)))
                     (False, Expression<Boolean> @:7680 op:5,dt:5,nt:9,next:65535,str:28458,d0:65280,d1:65535;))))))

@@ -1,14 +1,14 @@
 
 ("music_03a_02_stop_alt", MethodDecl<Void> @:136 op:0,dt:0,nt:65535,next:4956,str:10317,d0:0,d1:0;
-    (____, Scope<Void> @:4956 op:0,dt:4,nt:8,next:65535,str:54377,d0:4957,d1:63184;
+    (____, BuiltinInvocation<Void> @:4956 op:0,dt:4,nt:8,next:65535,str:54377,d0:4957,d1:63184;
         ("begin", Expression<MethodOrOperator> @:4957 op:0,dt:2,nt:9,next:4946,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:4946 op:19,dt:4,nt:8,next:4949,str:54448,d0:4947,d1:63174;
+            (____, BuiltinInvocation<Void> @:4946 op:19,dt:4,nt:8,next:4949,str:54448,d0:4947,d1:63174;
                 ("sleep", Expression<MethodOrOperator> @:4947 op:19,dt:2,nt:9,next:4948,str:143,d0:0,d1:0;
                     ("two_minutes", VariableAccess<Short> @:4948 op:7,dt:7,nt:13,next:65535,str:10165,d0:8,d1:0;)))
-            (____, Scope<Void> @:4949 op:27,dt:4,nt:8,next:4952,str:54470,d0:4950,d1:63177;
+            (____, BuiltinInvocation<Void> @:4949 op:27,dt:4,nt:8,next:4952,str:54470,d0:4950,d1:63177;
                 ("print", Expression<MethodOrOperator> @:4950 op:27,dt:2,nt:9,next:4951,str:149,d0:0,d1:0;
                     ("music 03a_02 stop alt", Expression<String> @:4951 op:9,dt:9,nt:9,next:65535,str:10177,d0:10177,d1:0;)))
-            (____, Scope<Void> @:4952 op:609,dt:4,nt:8,next:65535,str:54504,d0:4953,d1:63180;
+            (____, BuiltinInvocation<Void> @:4952 op:609,dt:4,nt:8,next:65535,str:54504,d0:4953,d1:63180;
                 ("sound_looping_set_alternate", Expression<MethodOrOperator> @:4953 op:609,dt:2,nt:9,next:4954,str:10199,d0:0,d1:0;
                     ("scenarios\solo\03a_oldmombasa\03a_music\03a_02", Expression<LoopingSound> @:4954 op:35,dt:35,nt:9,next:4955,str:10227,d0:8234,d1:33378;
                         (False, Expression<Boolean> @:4955 op:5,dt:5,nt:9,next:65535,str:54582,d0:65280,d1:65535;)))))))

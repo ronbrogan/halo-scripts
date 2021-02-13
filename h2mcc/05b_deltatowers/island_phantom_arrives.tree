@@ -1,17 +1,17 @@
 
 ("island_phantom_arrives", MethodDecl<Void> @:237 op:0,dt:0,nt:65535,next:14832,str:26088,d0:0,d1:0;
-    (____, Scope<Void> @:14832 op:0,dt:4,nt:8,next:65535,str:28098,d0:14833,d1:40293;
+    (____, BuiltinInvocation<Void> @:14832 op:0,dt:4,nt:8,next:65535,str:28098,d0:14833,d1:40293;
         ("begin", Expression<MethodOrOperator> @:14833 op:0,dt:2,nt:9,next:14819,str:142,d0:0,d1:0;
-            (____, Scope<Void> @:14819 op:290,dt:4,nt:8,next:14822,str:28139,d0:14820,d1:40280;
+            (____, BuiltinInvocation<Void> @:14819 op:290,dt:4,nt:8,next:14822,str:28139,d0:14820,d1:40280;
                 ("ai_place", Expression<MethodOrOperator> @:14820 op:290,dt:2,nt:9,next:14821,str:10304,d0:0,d1:0;
                     ("island_phantom", Expression<AI> @:14821 op:19,dt:19,nt:9,next:65535,str:25886,d0:116,d1:0;)))
-            (____, Scope<Void> @:14822 op:343,dt:4,nt:8,next:14828,str:28167,d0:14823,d1:40283;
+            (____, BuiltinInvocation<Void> @:14822 op:343,dt:4,nt:8,next:14828,str:28167,d0:14823,d1:40283;
                 ("ai_vehicle_reserve", Expression<MethodOrOperator> @:14823 op:343,dt:2,nt:9,next:14824,str:13746,d0:0,d1:0;
-                    (____, Scope<Vehicle> @:14824 op:341,dt:52,nt:8,next:14827,str:28187,d0:14825,d1:40285;
+                    (____, BuiltinInvocation<Vehicle> @:14824 op:341,dt:52,nt:8,next:14827,str:28187,d0:14825,d1:40285;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:14825 op:341,dt:2,nt:9,next:14826,str:13061,d0:0,d1:0;
                             ("island_phantom/pilot", Expression<AI> @:14826 op:19,dt:19,nt:9,next:65535,str:25515,d0:0,d1:49268;)))
                     (True, Expression<Boolean> @:14827 op:5,dt:5,nt:9,next:65535,str:28248,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:14828 op:366,dt:4,nt:8,next:65535,str:28256,d0:14829,d1:40289;
+            (____, BuiltinInvocation<Void> @:14828 op:366,dt:4,nt:8,next:65535,str:28256,d0:14829,d1:40289;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:14829 op:366,dt:2,nt:9,next:14830,str:11508,d0:0,d1:0;
                     ("island_phantom/pilot", Expression<AI> @:14830 op:19,dt:19,nt:9,next:14831,str:25515,d0:0,d1:49268;
                         ("island_phantom_path", Expression<AIScript> @:14831 op:21,dt:21,nt:9,next:65535,str:25921,d0:236,d1:0;)))))))

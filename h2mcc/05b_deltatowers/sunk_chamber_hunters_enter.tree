@@ -1,49 +1,49 @@
 
 ("sunk_chamber_hunters_enter", MethodDecl<Void> @:220 op:0,dt:0,nt:65535,next:11844,str:22479,d0:0,d1:0;
-    (____, Scope<Void> @:11844 op:0,dt:4,nt:8,next:65535,str:62008,d0:11845,d1:37305;
+    (____, BuiltinInvocation<Void> @:11844 op:0,dt:4,nt:8,next:65535,str:62008,d0:11845,d1:37305;
         ("begin", Expression<MethodOrOperator> @:11845 op:0,dt:2,nt:9,next:11799,str:142,d0:0,d1:0;
-            (____, Scope<Void> @:11799 op:21,dt:4,nt:8,next:11817,str:62053,d0:11800,d1:37260;
+            (____, BuiltinInvocation<Void> @:11799 op:21,dt:4,nt:8,next:11817,str:62053,d0:11800,d1:37260;
                 ("sleep_until", Expression<MethodOrOperator> @:11800 op:21,dt:2,nt:9,next:11801,str:372,d0:0,d1:0;
-                    (____, Scope<Boolean> @:11801 op:6,dt:5,nt:8,next:65535,str:62070,d0:11802,d1:37262;
+                    (____, BuiltinInvocation<Boolean> @:11801 op:6,dt:5,nt:8,next:65535,str:62070,d0:11802,d1:37262;
                         ("or", Expression<MethodOrOperator> @:11802 op:6,dt:2,nt:9,next:11803,str:985,d0:0,d1:0;
-                            (____, Scope<Boolean> @:11803 op:15,dt:5,nt:8,next:11809,str:62078,d0:11804,d1:37264;
+                            (____, BuiltinInvocation<Boolean> @:11803 op:15,dt:5,nt:8,next:11809,str:62078,d0:11804,d1:37264;
                                 (">", Expression<MethodOrOperator> @:11804 op:15,dt:2,nt:9,next:11805,str:10467,d0:0,d1:0;
-                                    (____, Scope<Short> @:11805 op:353,dt:7,nt:8,next:11808,str:62081,d0:11806,d1:37266;
+                                    (____, BuiltinInvocation<Short> @:11805 op:353,dt:7,nt:8,next:11808,str:62081,d0:11806,d1:37266;
                                         ("ai_combat_status", Expression<MethodOrOperator> @:11806 op:353,dt:2,nt:9,next:11807,str:19933,d0:0,d1:0;
                                             ("sunken_chamber_enemies", Expression<AI> @:11807 op:19,dt:19,nt:9,next:65535,str:20200,d0:12,d1:16384;)))
                                     ("ai_combat_status_idle", VariableAccess<Short> @:11808 op:7,dt:7,nt:13,next:65535,str:19950,d0:33572,d1:65535;)))
-                            (____, Scope<Boolean> @:11809 op:13,dt:5,nt:8,next:65535,str:62150,d0:11810,d1:37270;
+                            (____, BuiltinInvocation<Boolean> @:11809 op:13,dt:5,nt:8,next:65535,str:62150,d0:11810,d1:37270;
                                 ("=", Expression<MethodOrOperator> @:11810 op:13,dt:2,nt:9,next:11811,str:437,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:11811 op:33,dt:5,nt:8,next:11816,str:62153,d0:11812,d1:37272;
+                                    (____, BuiltinInvocation<Boolean> @:11811 op:33,dt:5,nt:8,next:11816,str:62153,d0:11812,d1:37272;
                                         ("volume_test_objects", Expression<MethodOrOperator> @:11812 op:33,dt:2,nt:9,next:11813,str:10374,d0:0,d1:0;
                                             ("vol_leaving_sunken_chamber", Expression<Trigger> @:11813 op:13,dt:13,nt:9,next:11814,str:20728,d0:57,d1:0;
-                                                (____, Scope<List> @:11814 op:28,dt:31,nt:8,next:65535,str:62201,d0:11815,d1:37275;
+                                                (____, BuiltinInvocation<List> @:11814 op:28,dt:31,nt:8,next:65535,str:62201,d0:11815,d1:37275;
                                                     ("players", Expression<MethodOrOperator> @:11815 op:28,dt:2,nt:9,next:65535,str:162,d0:0,d1:0;)))))
                                     (True, Expression<Boolean> @:11816 op:5,dt:5,nt:9,next:65535,str:62212,d0:65281,d1:65535;)))))))
-            (____, Scope<Void> @:11817 op:2,dt:4,nt:8,next:65535,str:62229,d0:11818,d1:37278;
+            (____, BuiltinInvocation<Void> @:11817 op:2,dt:4,nt:8,next:65535,str:62229,d0:11818,d1:37278;
                 ("if", Expression<MethodOrOperator> @:11818 op:2,dt:2,nt:9,next:11819,str:597,d0:0,d1:0;
-                    (____, Scope<Boolean> @:11819 op:5,dt:5,nt:8,next:11834,str:62237,d0:11820,d1:37280;
+                    (____, BuiltinInvocation<Boolean> @:11819 op:5,dt:5,nt:8,next:11834,str:62237,d0:11820,d1:37280;
                         ("and", Expression<MethodOrOperator> @:11820 op:5,dt:2,nt:9,next:11821,str:808,d0:0,d1:0;
-                            (____, Scope<Boolean> @:11821 op:13,dt:5,nt:8,next:11829,str:62246,d0:11822,d1:37282;
+                            (____, BuiltinInvocation<Boolean> @:11821 op:13,dt:5,nt:8,next:11829,str:62246,d0:11822,d1:37282;
                                 ("=", Expression<MethodOrOperator> @:11822 op:13,dt:2,nt:9,next:11823,str:437,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:11823 op:33,dt:5,nt:8,next:11828,str:62249,d0:11824,d1:37284;
+                                    (____, BuiltinInvocation<Boolean> @:11823 op:33,dt:5,nt:8,next:11828,str:62249,d0:11824,d1:37284;
                                         ("volume_test_objects", Expression<MethodOrOperator> @:11824 op:33,dt:2,nt:9,next:11825,str:10374,d0:0,d1:0;
                                             ("vol_leaving_sunken_chamber", Expression<Trigger> @:11825 op:13,dt:13,nt:9,next:11826,str:20728,d0:57,d1:0;
-                                                (____, Scope<List> @:11826 op:28,dt:31,nt:8,next:65535,str:62297,d0:11827,d1:37287;
+                                                (____, BuiltinInvocation<List> @:11826 op:28,dt:31,nt:8,next:65535,str:62297,d0:11827,d1:37287;
                                                     ("players", Expression<MethodOrOperator> @:11827 op:28,dt:2,nt:9,next:65535,str:162,d0:0,d1:0;)))))
                                     (False, Expression<Boolean> @:11828 op:5,dt:5,nt:9,next:65535,str:62308,d0:65280,d1:65535;)))
-                            (____, Scope<Boolean> @:11829 op:15,dt:5,nt:8,next:65535,str:62319,d0:11830,d1:37290;
+                            (____, BuiltinInvocation<Boolean> @:11829 op:15,dt:5,nt:8,next:65535,str:62319,d0:11830,d1:37290;
                                 (">", Expression<MethodOrOperator> @:11830 op:15,dt:2,nt:9,next:11831,str:10467,d0:0,d1:0;
                                     ("player_count", ScriptInvocation<Short> @:11831 op:2,dt:7,nt:10,next:11833,str:62322,d0:11832,d1:37292;
                                         ("player_count", Expression<MethodOrOperator> @:11832 op:2,dt:2,nt:9,next:65535,str:10469,d0:0,d1:0;))
                                     (0, Expression<Short> @:11833 op:7,dt:7,nt:9,next:65535,str:62337,d0:0,d1:65535;)))))
-                    (____, Scope<Void> @:11834 op:0,dt:4,nt:8,next:65535,str:62349,d0:11835,d1:37295;
+                    (____, BuiltinInvocation<Void> @:11834 op:0,dt:4,nt:8,next:65535,str:62349,d0:11835,d1:37295;
                         ("begin", Expression<MethodOrOperator> @:11835 op:0,dt:2,nt:9,next:11836,str:142,d0:0,d1:0;
-                            (____, Scope<Void> @:11836 op:263,dt:4,nt:8,next:11840,str:62361,d0:11837,d1:37297;
+                            (____, BuiltinInvocation<Void> @:11836 op:263,dt:4,nt:8,next:11840,str:62361,d0:11837,d1:37297;
                                 ("device_operates_automatically_set", Expression<MethodOrOperator> @:11837 op:263,dt:2,nt:9,next:11838,str:21796,d0:0,d1:0;
                                     ("sunk_chamber_hunter_door", Expression<Device> @:11838 op:60,dt:54,nt:9,next:11839,str:21830,d0:95,d1:65535;
                                         (True, Expression<Boolean> @:11839 op:5,dt:5,nt:9,next:65535,str:62421,d0:65281,d1:65535;))))
-                            (____, Scope<Void> @:11840 op:291,dt:4,nt:8,next:65535,str:62432,d0:11841,d1:37301;
+                            (____, BuiltinInvocation<Void> @:11840 op:291,dt:4,nt:8,next:65535,str:62432,d0:11841,d1:37301;
                                 ("ai_place", Expression<MethodOrOperator> @:11841 op:291,dt:2,nt:9,next:11842,str:10304,d0:0,d1:0;
                                     ("sunk_chamber_hunters", Expression<AI> @:11842 op:19,dt:19,nt:9,next:11843,str:21855,d0:62,d1:0;
                                         (2, Expression<Short> @:11843 op:7,dt:7,nt:9,next:65535,str:62463,d0:2,d1:65535;)))))))))))

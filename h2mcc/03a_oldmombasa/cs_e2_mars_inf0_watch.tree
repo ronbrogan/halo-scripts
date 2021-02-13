@@ -1,23 +1,23 @@
 
 ("cs_e2_mars_inf0_watch", MethodDecl<Void> @:370 op:0,dt:0,nt:65535,next:15227,str:25664,d0:0,d1:0;
-    (____, Scope<Void> @:15227 op:0,dt:4,nt:8,next:65535,str:56549,d0:15228,d1:40688;
+    (____, BuiltinInvocation<Void> @:15227 op:0,dt:4,nt:8,next:65535,str:56549,d0:15228,d1:40688;
         ("begin", Expression<MethodOrOperator> @:15228 op:0,dt:2,nt:9,next:15207,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:15207 op:391,dt:4,nt:8,next:15210,str:56596,d0:15208,d1:40668;
+            (____, BuiltinInvocation<Void> @:15207 op:391,dt:4,nt:8,next:15210,str:56596,d0:15208,d1:40668;
                 ("cs_go_to_nearest", Expression<MethodOrOperator> @:15208 op:391,dt:2,nt:9,next:15209,str:25180,d0:0,d1:0;
                     ("e2_mars_inf0_positions", Expression<SpatialPoint> @:15209 op:28,dt:28,nt:9,next:65535,str:25197,d0:65535,d1:8;)))
-            (____, Scope<Void> @:15210 op:423,dt:4,nt:8,next:15213,str:56640,d0:15211,d1:40671;
+            (____, BuiltinInvocation<Void> @:15210 op:423,dt:4,nt:8,next:15213,str:56640,d0:15211,d1:40671;
                 ("cs_crouch", Expression<MethodOrOperator> @:15211 op:423,dt:2,nt:9,next:15212,str:17958,d0:0,d1:0;
                     (True, Expression<Boolean> @:15212 op:5,dt:5,nt:9,next:65535,str:56651,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:15213 op:21,dt:4,nt:8,next:15216,str:56706,d0:15214,d1:40674;
+            (____, BuiltinInvocation<Void> @:15213 op:21,dt:4,nt:8,next:15216,str:56706,d0:15214,d1:40674;
                 ("sleep_until", Expression<MethodOrOperator> @:15214 op:21,dt:2,nt:9,next:15215,str:294,d0:0,d1:0;
                     ("g_e2_door_breached", VariableAccess<Boolean> @:15215 op:5,dt:5,nt:13,next:65535,str:25137,d0:44,d1:0;)))
-            (____, Scope<Void> @:15216 op:398,dt:4,nt:8,next:15222,str:56769,d0:15217,d1:40677;
+            (____, BuiltinInvocation<Void> @:15216 op:398,dt:4,nt:8,next:15222,str:56769,d0:15217,d1:40677;
                 ("cs_aim_object", Expression<MethodOrOperator> @:15217 op:398,dt:2,nt:9,next:15218,str:19639,d0:0,d1:0;
                     (True, Expression<Boolean> @:15218 op:5,dt:5,nt:9,next:15219,str:56784,d0:65281,d1:65535;
-                        (____, Scope<Entity> @:15219 op:284,dt:50,nt:8,next:65535,str:56789,d0:15220,d1:40680;
+                        (____, BuiltinInvocation<Entity> @:15219 op:284,dt:50,nt:8,next:65535,str:56789,d0:15220,d1:40680;
                             ("ai_get_object", Expression<MethodOrOperator> @:15220 op:284,dt:2,nt:9,next:15221,str:4496,d0:0,d1:0;
                                 ("e2_cov_hunters0/hunter0", Expression<AI> @:15221 op:19,dt:19,nt:9,next:65535,str:25156,d0:0,d1:49183;))))))
-            (____, Scope<Void> @:15222 op:21,dt:4,nt:8,next:65535,str:56854,d0:15223,d1:40683;
+            (____, BuiltinInvocation<Void> @:15222 op:21,dt:4,nt:8,next:65535,str:56854,d0:15223,d1:40683;
                 ("sleep_until", Expression<MethodOrOperator> @:15223 op:21,dt:2,nt:9,next:15224,str:294,d0:0,d1:0;
                     ("g_e2_cov_hunters0_active", VariableAccess<Boolean> @:15224 op:5,dt:5,nt:13,next:15225,str:24807,d0:45,d1:0;
                         (10, Expression<Short> @:15225 op:7,dt:7,nt:9,next:15226,str:56898,d0:10,d1:65535;

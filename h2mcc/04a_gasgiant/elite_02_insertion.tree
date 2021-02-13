@@ -1,31 +1,31 @@
 
 ("elite_02_insertion", MethodDecl<Void> @:207 op:0,dt:0,nt:65535,next:6772,str:14589,d0:0,d1:0;
-    (____, Scope<Void> @:6772 op:0,dt:4,nt:8,next:65535,str:15551,d0:6773,d1:65000;
+    (____, BuiltinInvocation<Void> @:6772 op:0,dt:4,nt:8,next:65535,str:15551,d0:6773,d1:65000;
         ("begin", Expression<MethodOrOperator> @:6773 op:0,dt:2,nt:9,next:6742,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:6742 op:19,dt:4,nt:8,next:6745,str:15588,d0:6743,d1:64970;
+            (____, BuiltinInvocation<Void> @:6742 op:19,dt:4,nt:8,next:6745,str:15588,d0:6743,d1:64970;
                 ("sleep", Expression<MethodOrOperator> @:6743 op:19,dt:2,nt:9,next:6744,str:85,d0:0,d1:0;
                     (272, Expression<Short> @:6744 op:7,dt:7,nt:9,next:65535,str:15595,d0:272,d1:65535;)))
-            (____, Scope<Void> @:6745 op:48,dt:4,nt:8,next:6748,str:15605,d0:6746,d1:64973;
+            (____, BuiltinInvocation<Void> @:6745 op:48,dt:4,nt:8,next:6748,str:15605,d0:6746,d1:64973;
                 ("object_create_anew", Expression<MethodOrOperator> @:6746 op:48,dt:2,nt:9,next:6747,str:2237,d0:0,d1:0;
                     ("elite02", Expression<EntityIdentifier> @:6747 op:56,dt:56,nt:9,next:65535,str:9146,d0:117,d1:65535;)))
-            (____, Scope<Void> @:6748 op:48,dt:4,nt:8,next:6751,str:15636,d0:6749,d1:64976;
+            (____, BuiltinInvocation<Void> @:6748 op:48,dt:4,nt:8,next:6751,str:15636,d0:6749,d1:64976;
                 ("object_create_anew", Expression<MethodOrOperator> @:6749 op:48,dt:2,nt:9,next:6750,str:2237,d0:0,d1:0;
                     ("plasma_rifle02", Expression<EntityIdentifier> @:6750 op:56,dt:56,nt:9,next:65535,str:10422,d0:51,d1:65535;)))
-            (____, Scope<Void> @:6751 op:92,dt:4,nt:8,next:6755,str:15674,d0:6752,d1:64979;
+            (____, BuiltinInvocation<Void> @:6751 op:92,dt:4,nt:8,next:6755,str:15674,d0:6752,d1:64979;
                 ("object_cinematic_lod", Expression<MethodOrOperator> @:6752 op:92,dt:2,nt:9,next:6753,str:2256,d0:0,d1:0;
                     (4294901877, Expression<Entity> @:6753 op:56,dt:50,nt:9,next:6754,str:9146,d0:117,d1:65535;
                         (True, Expression<Boolean> @:6754 op:5,dt:5,nt:9,next:65535,str:15704,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:6755 op:74,dt:4,nt:8,next:6761,str:15712,d0:6756,d1:64983;
+            (____, BuiltinInvocation<Void> @:6755 op:74,dt:4,nt:8,next:6761,str:15712,d0:6756,d1:64983;
                 ("objects_attach", Expression<MethodOrOperator> @:6756 op:74,dt:2,nt:9,next:6757,str:4804,d0:0,d1:0;
                     (4294901877, Expression<Entity> @:6757 op:56,dt:50,nt:9,next:6758,str:9146,d0:117,d1:65535;
                         ("right_hand_elite", Expression<StringId> @:6758 op:11,dt:11,nt:9,next:6759,str:10561,d0:3703,d1:4096;
                             (4294901811, Expression<Entity> @:6759 op:56,dt:50,nt:9,next:6760,str:10422,d0:51,d1:65535;
                                 (0, Expression<StringId> @:6760 op:11,dt:11,nt:9,next:65535,str:0,d0:0,d1:0;))))))
-            (____, Scope<Void> @:6761 op:95,dt:4,nt:8,next:6765,str:15776,d0:6762,d1:64989;
+            (____, BuiltinInvocation<Void> @:6761 op:95,dt:4,nt:8,next:6765,str:15776,d0:6762,d1:64989;
                 ("object_uses_cinematic_lighting", Expression<MethodOrOperator> @:6762 op:95,dt:2,nt:9,next:6763,str:2162,d0:0,d1:0;
                     (4294901877, Expression<Entity> @:6763 op:56,dt:50,nt:9,next:6764,str:9146,d0:117,d1:65535;
                         (True, Expression<Boolean> @:6764 op:5,dt:5,nt:9,next:65535,str:15816,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:6765 op:203,dt:4,nt:8,next:65535,str:15824,d0:6766,d1:64993;
+            (____, BuiltinInvocation<Void> @:6765 op:203,dt:4,nt:8,next:65535,str:15824,d0:6766,d1:64993;
                 ("custom_animation_relative", Expression<MethodOrOperator> @:6766 op:203,dt:2,nt:9,next:6767,str:2627,d0:0,d1:0;
                     ("elite02", Expression<Unit> @:6767 op:57,dt:51,nt:9,next:6768,str:9146,d0:117,d1:65535;
                         ("objects\characters\elite\04_intro\04_intro", Expression<Animation> @:6768 op:36,dt:36,nt:9,next:6769,str:10853,d0:880,d1:58598;

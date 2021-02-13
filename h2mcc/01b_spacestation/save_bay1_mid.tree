@@ -1,19 +1,19 @@
 
 ("save_bay1_mid", MethodDecl<Void> @:309 op:0,dt:0,nt:65535,next:11911,str:35692,d0:0,d1:0;
-    (____, Scope<Void> @:11911 op:0,dt:4,nt:8,next:65535,str:13520,d0:11912,d1:37372;
+    (____, BuiltinInvocation<Void> @:11911 op:0,dt:4,nt:8,next:65535,str:13520,d0:11912,d1:37372;
         ("begin", Expression<MethodOrOperator> @:11912 op:0,dt:2,nt:9,next:11896,str:11,d0:0,d1:0;
-            (____, Scope<Void> @:11896 op:587,dt:4,nt:8,next:11898,str:13556,d0:11897,d1:37357;
+            (____, BuiltinInvocation<Void> @:11896 op:587,dt:4,nt:8,next:11898,str:13556,d0:11897,d1:37357;
                 ("game_save", Expression<MethodOrOperator> @:11897 op:587,dt:2,nt:9,next:65535,str:27608,d0:0,d1:0;))
-            (____, Scope<Void> @:11898 op:786,dt:4,nt:8,next:11901,str:13570,d0:11899,d1:37359;
+            (____, BuiltinInvocation<Void> @:11898 op:786,dt:4,nt:8,next:11901,str:13570,d0:11899,d1:37359;
                 ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:11899 op:786,dt:2,nt:9,next:11900,str:27565,d0:0,d1:0;
                     ("01b_bay1_mid", Expression<String> @:11900 op:9,dt:9,nt:9,next:65535,str:27720,d0:27720,d1:0;)))
-            (____, Scope<Void> @:11901 op:4,dt:4,nt:8,next:65535,str:13619,d0:11902,d1:37362;
+            (____, BuiltinInvocation<Void> @:11901 op:4,dt:4,nt:8,next:65535,str:13619,d0:11902,d1:37362;
                 ("set", Expression<MethodOrOperator> @:11902 op:4,dt:2,nt:9,next:11903,str:3357,d0:0,d1:0;
                     ("timer_flavor", VariableAccess<Short> @:11903 op:65535,dt:7,nt:13,next:11904,str:27632,d0:22,d1:0;
-                        (____, Scope<Short> @:11904 op:12,dt:7,nt:8,next:65535,str:13637,d0:11905,d1:37365;
+                        (____, BuiltinInvocation<Short> @:11904 op:12,dt:7,nt:8,next:65535,str:13637,d0:11905,d1:37365;
                             ("max", Expression<MethodOrOperator> @:11905 op:12,dt:2,nt:9,next:11906,str:27645,d0:0,d1:0;
                                 ("timer_flavor", VariableAccess<Float> @:11906 op:6,dt:6,nt:13,next:11907,str:27632,d0:22,d1:0;
-                                    (-3.9156168E-28f, Scope<Float> @:11907 op:9,dt:6,nt:8,next:65535,str:13655,d0:11908,d1:37368;
+                                    (-3.9156168E-28f, BuiltinInvocation<Float> @:11907 op:9,dt:6,nt:8,next:65535,str:13655,d0:11908,d1:37368;
                                         ("*", Expression<MethodOrOperator> @:11908 op:9,dt:2,nt:9,next:11909,str:1,d0:0,d1:0;
                                             (10f, Expression<Float> @:11909 op:6,dt:6,nt:9,next:11910,str:13658,d0:0,d1:16672;
                                                 ("seconds", VariableAccess<Float> @:11910 op:6,dt:6,nt:13,next:65535,str:3,d0:18,d1:0;)))))))))))))

@@ -1,181 +1,181 @@
 
 ("stealth_comment", MethodDecl<Void> @:227 op:0,dt:0,nt:65535,next:7489,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:7489 op:0,dt:4,nt:8,next:65535,str:21961,d0:7490,d1:32950;
+    (____, BuiltinInvocation<Void> @:7489 op:0,dt:4,nt:8,next:65535,str:21961,d0:7490,d1:32950;
         ("begin", Expression<MethodOrOperator> @:7490 op:0,dt:2,nt:9,next:7311,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:7311 op:19,dt:4,nt:8,next:7317,str:21999,d0:7312,d1:32772;
+            (____, BuiltinInvocation<Void> @:7311 op:19,dt:4,nt:8,next:7317,str:21999,d0:7312,d1:32772;
                 ("sleep", Expression<MethodOrOperator> @:7312 op:19,dt:2,nt:9,next:7313,str:85,d0:0,d1:0;
-                    (____, Scope<Short> @:7313 op:124,dt:7,nt:8,next:65535,str:22006,d0:7314,d1:32774;
+                    (____, BuiltinInvocation<Short> @:7313 op:124,dt:7,nt:8,next:65535,str:22006,d0:7314,d1:32774;
                         ("random_range", Expression<MethodOrOperator> @:7314 op:124,dt:2,nt:9,next:7315,str:15747,d0:0,d1:0;
                             (10, Expression<Short> @:7315 op:7,dt:7,nt:9,next:7316,str:22020,d0:10,d1:65535;
                                 (60, Expression<Short> @:7316 op:7,dt:7,nt:9,next:65535,str:22023,d0:60,d1:65535;))))))
-            (____, Scope<Void> @:7317 op:1,dt:4,nt:8,next:65535,str:22030,d0:7318,d1:32778;
+            (____, BuiltinInvocation<Void> @:7317 op:1,dt:4,nt:8,next:65535,str:22030,d0:7318,d1:32778;
                 ("begin_random", Expression<MethodOrOperator> @:7318 op:1,dt:2,nt:9,next:7319,str:15760,d0:0,d1:0;
-                    (____, Scope<Void> @:7319 op:2,dt:4,nt:8,next:7336,str:22047,d0:7320,d1:32780;
+                    (____, BuiltinInvocation<Void> @:7319 op:2,dt:4,nt:8,next:7336,str:22047,d0:7320,d1:32780;
                         ("if", Expression<MethodOrOperator> @:7320 op:2,dt:2,nt:9,next:7321,str:461,d0:0,d1:0;
-                            (____, Scope<Boolean> @:7321 op:13,dt:5,nt:8,next:7325,str:22051,d0:7322,d1:32782;
+                            (____, BuiltinInvocation<Boolean> @:7321 op:13,dt:5,nt:8,next:7325,str:22051,d0:7322,d1:32782;
                                 ("=", Expression<MethodOrOperator> @:7322 op:13,dt:2,nt:9,next:7323,str:301,d0:0,d1:0;
                                     ("stealth_talk_gone", VariableAccess<Boolean> @:7323 op:0,dt:5,nt:13,next:7324,str:15773,d0:3,d1:0;
                                         (True, Expression<Boolean> @:7324 op:5,dt:5,nt:9,next:65535,str:22072,d0:65281,d1:65535;))))
-                            (____, Scope<Void> @:7325 op:0,dt:4,nt:8,next:65535,str:22082,d0:7326,d1:32786;
+                            (____, BuiltinInvocation<Void> @:7325 op:0,dt:4,nt:8,next:65535,str:22082,d0:7326,d1:32786;
                                 ("begin", Expression<MethodOrOperator> @:7326 op:0,dt:2,nt:9,next:7327,str:6,d0:0,d1:0;
-                                    (____, Scope<Void> @:7327 op:4,dt:4,nt:8,next:7331,str:22094,d0:7328,d1:32788;
+                                    (____, BuiltinInvocation<Void> @:7327 op:4,dt:4,nt:8,next:7331,str:22094,d0:7328,d1:32788;
                                         ("set", Expression<MethodOrOperator> @:7328 op:4,dt:2,nt:9,next:7329,str:2368,d0:0,d1:0;
                                             ("stealth_talk_gone", VariableAccess<Boolean> @:7329 op:65535,dt:5,nt:13,next:7330,str:15773,d0:3,d1:0;
                                                 (False, Expression<Boolean> @:7330 op:5,dt:5,nt:9,next:65535,str:22117,d0:65280,d1:65535;))))
-                                    (____, Scope<Void> @:7331 op:363,dt:4,nt:8,next:65535,str:22129,d0:7332,d1:32792;
+                                    (____, BuiltinInvocation<Void> @:7331 op:363,dt:4,nt:8,next:65535,str:22129,d0:7332,d1:32792;
                                         ("ai_scene", Expression<MethodOrOperator> @:7332 op:363,dt:2,nt:9,next:7333,str:15791,d0:0,d1:0;
                                             ("stealth_comment_01_scene", Expression<StringId> @:7333 op:11,dt:11,nt:9,next:7334,str:15800,d0:12053,d1:6144;
                                                 ("stealth_comment_01", Expression<AIScript> @:7334 op:21,dt:21,nt:9,next:7335,str:15825,d0:217,d1:0;
                                                     ("all_allies", Expression<AI> @:7335 op:19,dt:19,nt:9,next:65535,str:15844,d0:0,d1:16384;)))))))))
-                    (____, Scope<Void> @:7336 op:2,dt:4,nt:8,next:7353,str:22209,d0:7337,d1:32797;
+                    (____, BuiltinInvocation<Void> @:7336 op:2,dt:4,nt:8,next:7353,str:22209,d0:7337,d1:32797;
                         ("if", Expression<MethodOrOperator> @:7337 op:2,dt:2,nt:9,next:7338,str:461,d0:0,d1:0;
-                            (____, Scope<Boolean> @:7338 op:13,dt:5,nt:8,next:7342,str:22213,d0:7339,d1:32799;
+                            (____, BuiltinInvocation<Boolean> @:7338 op:13,dt:5,nt:8,next:7342,str:22213,d0:7339,d1:32799;
                                 ("=", Expression<MethodOrOperator> @:7339 op:13,dt:2,nt:9,next:7340,str:301,d0:0,d1:0;
                                     ("stealth_talk_gone", VariableAccess<Boolean> @:7340 op:0,dt:5,nt:13,next:7341,str:15773,d0:3,d1:0;
                                         (True, Expression<Boolean> @:7341 op:5,dt:5,nt:9,next:65535,str:22234,d0:65281,d1:65535;))))
-                            (____, Scope<Void> @:7342 op:0,dt:4,nt:8,next:65535,str:22244,d0:7343,d1:32803;
+                            (____, BuiltinInvocation<Void> @:7342 op:0,dt:4,nt:8,next:65535,str:22244,d0:7343,d1:32803;
                                 ("begin", Expression<MethodOrOperator> @:7343 op:0,dt:2,nt:9,next:7344,str:6,d0:0,d1:0;
-                                    (____, Scope<Void> @:7344 op:4,dt:4,nt:8,next:7348,str:22256,d0:7345,d1:32805;
+                                    (____, BuiltinInvocation<Void> @:7344 op:4,dt:4,nt:8,next:7348,str:22256,d0:7345,d1:32805;
                                         ("set", Expression<MethodOrOperator> @:7345 op:4,dt:2,nt:9,next:7346,str:2368,d0:0,d1:0;
                                             ("stealth_talk_gone", VariableAccess<Boolean> @:7346 op:65535,dt:5,nt:13,next:7347,str:15773,d0:3,d1:0;
                                                 (False, Expression<Boolean> @:7347 op:5,dt:5,nt:9,next:65535,str:22279,d0:65280,d1:65535;))))
-                                    (____, Scope<Void> @:7348 op:363,dt:4,nt:8,next:65535,str:22291,d0:7349,d1:32809;
+                                    (____, BuiltinInvocation<Void> @:7348 op:363,dt:4,nt:8,next:65535,str:22291,d0:7349,d1:32809;
                                         ("ai_scene", Expression<MethodOrOperator> @:7349 op:363,dt:2,nt:9,next:7350,str:15791,d0:0,d1:0;
                                             ("stealth_comment_02_scene", Expression<StringId> @:7350 op:11,dt:11,nt:9,next:7351,str:15855,d0:12055,d1:6144;
                                                 ("stealth_comment_02", Expression<AIScript> @:7351 op:21,dt:21,nt:9,next:7352,str:15880,d0:218,d1:0;
                                                     ("all_allies", Expression<AI> @:7352 op:19,dt:19,nt:9,next:65535,str:15844,d0:0,d1:16384;)))))))))
-                    (____, Scope<Void> @:7353 op:2,dt:4,nt:8,next:7370,str:22371,d0:7354,d1:32814;
+                    (____, BuiltinInvocation<Void> @:7353 op:2,dt:4,nt:8,next:7370,str:22371,d0:7354,d1:32814;
                         ("if", Expression<MethodOrOperator> @:7354 op:2,dt:2,nt:9,next:7355,str:461,d0:0,d1:0;
-                            (____, Scope<Boolean> @:7355 op:13,dt:5,nt:8,next:7359,str:22375,d0:7356,d1:32816;
+                            (____, BuiltinInvocation<Boolean> @:7355 op:13,dt:5,nt:8,next:7359,str:22375,d0:7356,d1:32816;
                                 ("=", Expression<MethodOrOperator> @:7356 op:13,dt:2,nt:9,next:7357,str:301,d0:0,d1:0;
                                     ("stealth_talk_gone", VariableAccess<Boolean> @:7357 op:0,dt:5,nt:13,next:7358,str:15773,d0:3,d1:0;
                                         (True, Expression<Boolean> @:7358 op:5,dt:5,nt:9,next:65535,str:22396,d0:65281,d1:65535;))))
-                            (____, Scope<Void> @:7359 op:0,dt:4,nt:8,next:65535,str:22406,d0:7360,d1:32820;
+                            (____, BuiltinInvocation<Void> @:7359 op:0,dt:4,nt:8,next:65535,str:22406,d0:7360,d1:32820;
                                 ("begin", Expression<MethodOrOperator> @:7360 op:0,dt:2,nt:9,next:7361,str:6,d0:0,d1:0;
-                                    (____, Scope<Void> @:7361 op:4,dt:4,nt:8,next:7365,str:22418,d0:7362,d1:32822;
+                                    (____, BuiltinInvocation<Void> @:7361 op:4,dt:4,nt:8,next:7365,str:22418,d0:7362,d1:32822;
                                         ("set", Expression<MethodOrOperator> @:7362 op:4,dt:2,nt:9,next:7363,str:2368,d0:0,d1:0;
                                             ("stealth_talk_gone", VariableAccess<Boolean> @:7363 op:65535,dt:5,nt:13,next:7364,str:15773,d0:3,d1:0;
                                                 (False, Expression<Boolean> @:7364 op:5,dt:5,nt:9,next:65535,str:22441,d0:65280,d1:65535;))))
-                                    (____, Scope<Void> @:7365 op:363,dt:4,nt:8,next:65535,str:22453,d0:7366,d1:32826;
+                                    (____, BuiltinInvocation<Void> @:7365 op:363,dt:4,nt:8,next:65535,str:22453,d0:7366,d1:32826;
                                         ("ai_scene", Expression<MethodOrOperator> @:7366 op:363,dt:2,nt:9,next:7367,str:15791,d0:0,d1:0;
                                             ("stealth_comment_03_scene", Expression<StringId> @:7367 op:11,dt:11,nt:9,next:7368,str:15899,d0:12056,d1:6144;
                                                 ("stealth_comment_03", Expression<AIScript> @:7368 op:21,dt:21,nt:9,next:7369,str:15924,d0:219,d1:0;
                                                     ("all_allies", Expression<AI> @:7369 op:19,dt:19,nt:9,next:65535,str:15844,d0:0,d1:16384;)))))))))
-                    (____, Scope<Void> @:7370 op:2,dt:4,nt:8,next:7387,str:22533,d0:7371,d1:32831;
+                    (____, BuiltinInvocation<Void> @:7370 op:2,dt:4,nt:8,next:7387,str:22533,d0:7371,d1:32831;
                         ("if", Expression<MethodOrOperator> @:7371 op:2,dt:2,nt:9,next:7372,str:461,d0:0,d1:0;
-                            (____, Scope<Boolean> @:7372 op:13,dt:5,nt:8,next:7376,str:22537,d0:7373,d1:32833;
+                            (____, BuiltinInvocation<Boolean> @:7372 op:13,dt:5,nt:8,next:7376,str:22537,d0:7373,d1:32833;
                                 ("=", Expression<MethodOrOperator> @:7373 op:13,dt:2,nt:9,next:7374,str:301,d0:0,d1:0;
                                     ("stealth_talk_gone", VariableAccess<Boolean> @:7374 op:0,dt:5,nt:13,next:7375,str:15773,d0:3,d1:0;
                                         (True, Expression<Boolean> @:7375 op:5,dt:5,nt:9,next:65535,str:22558,d0:65281,d1:65535;))))
-                            (____, Scope<Void> @:7376 op:0,dt:4,nt:8,next:65535,str:22568,d0:7377,d1:32837;
+                            (____, BuiltinInvocation<Void> @:7376 op:0,dt:4,nt:8,next:65535,str:22568,d0:7377,d1:32837;
                                 ("begin", Expression<MethodOrOperator> @:7377 op:0,dt:2,nt:9,next:7378,str:6,d0:0,d1:0;
-                                    (____, Scope<Void> @:7378 op:4,dt:4,nt:8,next:7382,str:22580,d0:7379,d1:32839;
+                                    (____, BuiltinInvocation<Void> @:7378 op:4,dt:4,nt:8,next:7382,str:22580,d0:7379,d1:32839;
                                         ("set", Expression<MethodOrOperator> @:7379 op:4,dt:2,nt:9,next:7380,str:2368,d0:0,d1:0;
                                             ("stealth_talk_gone", VariableAccess<Boolean> @:7380 op:65535,dt:5,nt:13,next:7381,str:15773,d0:3,d1:0;
                                                 (False, Expression<Boolean> @:7381 op:5,dt:5,nt:9,next:65535,str:22603,d0:65280,d1:65535;))))
-                                    (____, Scope<Void> @:7382 op:363,dt:4,nt:8,next:65535,str:22615,d0:7383,d1:32843;
+                                    (____, BuiltinInvocation<Void> @:7382 op:363,dt:4,nt:8,next:65535,str:22615,d0:7383,d1:32843;
                                         ("ai_scene", Expression<MethodOrOperator> @:7383 op:363,dt:2,nt:9,next:7384,str:15791,d0:0,d1:0;
                                             ("stealth_comment_04_scene", Expression<StringId> @:7384 op:11,dt:11,nt:9,next:7385,str:15943,d0:12057,d1:6144;
                                                 ("stealth_comment_04", Expression<AIScript> @:7385 op:21,dt:21,nt:9,next:7386,str:15968,d0:220,d1:0;
                                                     ("all_allies", Expression<AI> @:7386 op:19,dt:19,nt:9,next:65535,str:15844,d0:0,d1:16384;)))))))))
-                    (____, Scope<Void> @:7387 op:2,dt:4,nt:8,next:7404,str:22695,d0:7388,d1:32848;
+                    (____, BuiltinInvocation<Void> @:7387 op:2,dt:4,nt:8,next:7404,str:22695,d0:7388,d1:32848;
                         ("if", Expression<MethodOrOperator> @:7388 op:2,dt:2,nt:9,next:7389,str:461,d0:0,d1:0;
-                            (____, Scope<Boolean> @:7389 op:13,dt:5,nt:8,next:7393,str:22699,d0:7390,d1:32850;
+                            (____, BuiltinInvocation<Boolean> @:7389 op:13,dt:5,nt:8,next:7393,str:22699,d0:7390,d1:32850;
                                 ("=", Expression<MethodOrOperator> @:7390 op:13,dt:2,nt:9,next:7391,str:301,d0:0,d1:0;
                                     ("stealth_talk_gone", VariableAccess<Boolean> @:7391 op:0,dt:5,nt:13,next:7392,str:15773,d0:3,d1:0;
                                         (True, Expression<Boolean> @:7392 op:5,dt:5,nt:9,next:65535,str:22720,d0:65281,d1:65535;))))
-                            (____, Scope<Void> @:7393 op:0,dt:4,nt:8,next:65535,str:22730,d0:7394,d1:32854;
+                            (____, BuiltinInvocation<Void> @:7393 op:0,dt:4,nt:8,next:65535,str:22730,d0:7394,d1:32854;
                                 ("begin", Expression<MethodOrOperator> @:7394 op:0,dt:2,nt:9,next:7395,str:6,d0:0,d1:0;
-                                    (____, Scope<Void> @:7395 op:4,dt:4,nt:8,next:7399,str:22742,d0:7396,d1:32856;
+                                    (____, BuiltinInvocation<Void> @:7395 op:4,dt:4,nt:8,next:7399,str:22742,d0:7396,d1:32856;
                                         ("set", Expression<MethodOrOperator> @:7396 op:4,dt:2,nt:9,next:7397,str:2368,d0:0,d1:0;
                                             ("stealth_talk_gone", VariableAccess<Boolean> @:7397 op:65535,dt:5,nt:13,next:7398,str:15773,d0:3,d1:0;
                                                 (False, Expression<Boolean> @:7398 op:5,dt:5,nt:9,next:65535,str:22765,d0:65280,d1:65535;))))
-                                    (____, Scope<Void> @:7399 op:363,dt:4,nt:8,next:65535,str:22777,d0:7400,d1:32860;
+                                    (____, BuiltinInvocation<Void> @:7399 op:363,dt:4,nt:8,next:65535,str:22777,d0:7400,d1:32860;
                                         ("ai_scene", Expression<MethodOrOperator> @:7400 op:363,dt:2,nt:9,next:7401,str:15791,d0:0,d1:0;
                                             ("stealth_comment_05_scene", Expression<StringId> @:7401 op:11,dt:11,nt:9,next:7402,str:15987,d0:12058,d1:6144;
                                                 ("stealth_comment_05", Expression<AIScript> @:7402 op:21,dt:21,nt:9,next:7403,str:16012,d0:221,d1:0;
                                                     ("all_allies", Expression<AI> @:7403 op:19,dt:19,nt:9,next:65535,str:15844,d0:0,d1:16384;)))))))))
-                    (____, Scope<Void> @:7404 op:2,dt:4,nt:8,next:7421,str:22857,d0:7405,d1:32865;
+                    (____, BuiltinInvocation<Void> @:7404 op:2,dt:4,nt:8,next:7421,str:22857,d0:7405,d1:32865;
                         ("if", Expression<MethodOrOperator> @:7405 op:2,dt:2,nt:9,next:7406,str:461,d0:0,d1:0;
-                            (____, Scope<Boolean> @:7406 op:13,dt:5,nt:8,next:7410,str:22861,d0:7407,d1:32867;
+                            (____, BuiltinInvocation<Boolean> @:7406 op:13,dt:5,nt:8,next:7410,str:22861,d0:7407,d1:32867;
                                 ("=", Expression<MethodOrOperator> @:7407 op:13,dt:2,nt:9,next:7408,str:301,d0:0,d1:0;
                                     ("stealth_talk_gone", VariableAccess<Boolean> @:7408 op:0,dt:5,nt:13,next:7409,str:15773,d0:3,d1:0;
                                         (True, Expression<Boolean> @:7409 op:5,dt:5,nt:9,next:65535,str:22882,d0:65281,d1:65535;))))
-                            (____, Scope<Void> @:7410 op:0,dt:4,nt:8,next:65535,str:22892,d0:7411,d1:32871;
+                            (____, BuiltinInvocation<Void> @:7410 op:0,dt:4,nt:8,next:65535,str:22892,d0:7411,d1:32871;
                                 ("begin", Expression<MethodOrOperator> @:7411 op:0,dt:2,nt:9,next:7412,str:6,d0:0,d1:0;
-                                    (____, Scope<Void> @:7412 op:4,dt:4,nt:8,next:7416,str:22904,d0:7413,d1:32873;
+                                    (____, BuiltinInvocation<Void> @:7412 op:4,dt:4,nt:8,next:7416,str:22904,d0:7413,d1:32873;
                                         ("set", Expression<MethodOrOperator> @:7413 op:4,dt:2,nt:9,next:7414,str:2368,d0:0,d1:0;
                                             ("stealth_talk_gone", VariableAccess<Boolean> @:7414 op:65535,dt:5,nt:13,next:7415,str:15773,d0:3,d1:0;
                                                 (False, Expression<Boolean> @:7415 op:5,dt:5,nt:9,next:65535,str:22927,d0:65280,d1:65535;))))
-                                    (____, Scope<Void> @:7416 op:363,dt:4,nt:8,next:65535,str:22939,d0:7417,d1:32877;
+                                    (____, BuiltinInvocation<Void> @:7416 op:363,dt:4,nt:8,next:65535,str:22939,d0:7417,d1:32877;
                                         ("ai_scene", Expression<MethodOrOperator> @:7417 op:363,dt:2,nt:9,next:7418,str:15791,d0:0,d1:0;
                                             ("stealth_comment_06_scene", Expression<StringId> @:7418 op:11,dt:11,nt:9,next:7419,str:16031,d0:12059,d1:6144;
                                                 ("stealth_comment_06", Expression<AIScript> @:7419 op:21,dt:21,nt:9,next:7420,str:16056,d0:222,d1:0;
                                                     ("all_allies", Expression<AI> @:7420 op:19,dt:19,nt:9,next:65535,str:15844,d0:0,d1:16384;)))))))))
-                    (____, Scope<Void> @:7421 op:2,dt:4,nt:8,next:7438,str:23019,d0:7422,d1:32882;
+                    (____, BuiltinInvocation<Void> @:7421 op:2,dt:4,nt:8,next:7438,str:23019,d0:7422,d1:32882;
                         ("if", Expression<MethodOrOperator> @:7422 op:2,dt:2,nt:9,next:7423,str:461,d0:0,d1:0;
-                            (____, Scope<Boolean> @:7423 op:13,dt:5,nt:8,next:7427,str:23023,d0:7424,d1:32884;
+                            (____, BuiltinInvocation<Boolean> @:7423 op:13,dt:5,nt:8,next:7427,str:23023,d0:7424,d1:32884;
                                 ("=", Expression<MethodOrOperator> @:7424 op:13,dt:2,nt:9,next:7425,str:301,d0:0,d1:0;
                                     ("stealth_talk_gone", VariableAccess<Boolean> @:7425 op:0,dt:5,nt:13,next:7426,str:15773,d0:3,d1:0;
                                         (True, Expression<Boolean> @:7426 op:5,dt:5,nt:9,next:65535,str:23044,d0:65281,d1:65535;))))
-                            (____, Scope<Void> @:7427 op:0,dt:4,nt:8,next:65535,str:23054,d0:7428,d1:32888;
+                            (____, BuiltinInvocation<Void> @:7427 op:0,dt:4,nt:8,next:65535,str:23054,d0:7428,d1:32888;
                                 ("begin", Expression<MethodOrOperator> @:7428 op:0,dt:2,nt:9,next:7429,str:6,d0:0,d1:0;
-                                    (____, Scope<Void> @:7429 op:4,dt:4,nt:8,next:7433,str:23066,d0:7430,d1:32890;
+                                    (____, BuiltinInvocation<Void> @:7429 op:4,dt:4,nt:8,next:7433,str:23066,d0:7430,d1:32890;
                                         ("set", Expression<MethodOrOperator> @:7430 op:4,dt:2,nt:9,next:7431,str:2368,d0:0,d1:0;
                                             ("stealth_talk_gone", VariableAccess<Boolean> @:7431 op:65535,dt:5,nt:13,next:7432,str:15773,d0:3,d1:0;
                                                 (False, Expression<Boolean> @:7432 op:5,dt:5,nt:9,next:65535,str:23089,d0:65280,d1:65535;))))
-                                    (____, Scope<Void> @:7433 op:363,dt:4,nt:8,next:65535,str:23101,d0:7434,d1:32894;
+                                    (____, BuiltinInvocation<Void> @:7433 op:363,dt:4,nt:8,next:65535,str:23101,d0:7434,d1:32894;
                                         ("ai_scene", Expression<MethodOrOperator> @:7434 op:363,dt:2,nt:9,next:7435,str:15791,d0:0,d1:0;
                                             ("stealth_comment_07_scene", Expression<StringId> @:7435 op:11,dt:11,nt:9,next:7436,str:16075,d0:12060,d1:6144;
                                                 ("stealth_comment_07", Expression<AIScript> @:7436 op:21,dt:21,nt:9,next:7437,str:16100,d0:223,d1:0;
                                                     ("all_allies", Expression<AI> @:7437 op:19,dt:19,nt:9,next:65535,str:15844,d0:0,d1:16384;)))))))))
-                    (____, Scope<Void> @:7438 op:2,dt:4,nt:8,next:7455,str:23181,d0:7439,d1:32899;
+                    (____, BuiltinInvocation<Void> @:7438 op:2,dt:4,nt:8,next:7455,str:23181,d0:7439,d1:32899;
                         ("if", Expression<MethodOrOperator> @:7439 op:2,dt:2,nt:9,next:7440,str:461,d0:0,d1:0;
-                            (____, Scope<Boolean> @:7440 op:13,dt:5,nt:8,next:7444,str:23185,d0:7441,d1:32901;
+                            (____, BuiltinInvocation<Boolean> @:7440 op:13,dt:5,nt:8,next:7444,str:23185,d0:7441,d1:32901;
                                 ("=", Expression<MethodOrOperator> @:7441 op:13,dt:2,nt:9,next:7442,str:301,d0:0,d1:0;
                                     ("stealth_talk_gone", VariableAccess<Boolean> @:7442 op:0,dt:5,nt:13,next:7443,str:15773,d0:3,d1:0;
                                         (True, Expression<Boolean> @:7443 op:5,dt:5,nt:9,next:65535,str:23206,d0:65281,d1:65535;))))
-                            (____, Scope<Void> @:7444 op:0,dt:4,nt:8,next:65535,str:23216,d0:7445,d1:32905;
+                            (____, BuiltinInvocation<Void> @:7444 op:0,dt:4,nt:8,next:65535,str:23216,d0:7445,d1:32905;
                                 ("begin", Expression<MethodOrOperator> @:7445 op:0,dt:2,nt:9,next:7446,str:6,d0:0,d1:0;
-                                    (____, Scope<Void> @:7446 op:4,dt:4,nt:8,next:7450,str:23228,d0:7447,d1:32907;
+                                    (____, BuiltinInvocation<Void> @:7446 op:4,dt:4,nt:8,next:7450,str:23228,d0:7447,d1:32907;
                                         ("set", Expression<MethodOrOperator> @:7447 op:4,dt:2,nt:9,next:7448,str:2368,d0:0,d1:0;
                                             ("stealth_talk_gone", VariableAccess<Boolean> @:7448 op:65535,dt:5,nt:13,next:7449,str:15773,d0:3,d1:0;
                                                 (False, Expression<Boolean> @:7449 op:5,dt:5,nt:9,next:65535,str:23251,d0:65280,d1:65535;))))
-                                    (____, Scope<Void> @:7450 op:363,dt:4,nt:8,next:65535,str:23263,d0:7451,d1:32911;
+                                    (____, BuiltinInvocation<Void> @:7450 op:363,dt:4,nt:8,next:65535,str:23263,d0:7451,d1:32911;
                                         ("ai_scene", Expression<MethodOrOperator> @:7451 op:363,dt:2,nt:9,next:7452,str:15791,d0:0,d1:0;
                                             ("stealth_comment_08_scene", Expression<StringId> @:7452 op:11,dt:11,nt:9,next:7453,str:16119,d0:12061,d1:6144;
                                                 ("stealth_comment_08", Expression<AIScript> @:7453 op:21,dt:21,nt:9,next:7454,str:16144,d0:224,d1:0;
                                                     ("all_allies", Expression<AI> @:7454 op:19,dt:19,nt:9,next:65535,str:15844,d0:0,d1:16384;)))))))))
-                    (____, Scope<Void> @:7455 op:2,dt:4,nt:8,next:7472,str:23343,d0:7456,d1:32916;
+                    (____, BuiltinInvocation<Void> @:7455 op:2,dt:4,nt:8,next:7472,str:23343,d0:7456,d1:32916;
                         ("if", Expression<MethodOrOperator> @:7456 op:2,dt:2,nt:9,next:7457,str:461,d0:0,d1:0;
-                            (____, Scope<Boolean> @:7457 op:13,dt:5,nt:8,next:7461,str:23347,d0:7458,d1:32918;
+                            (____, BuiltinInvocation<Boolean> @:7457 op:13,dt:5,nt:8,next:7461,str:23347,d0:7458,d1:32918;
                                 ("=", Expression<MethodOrOperator> @:7458 op:13,dt:2,nt:9,next:7459,str:301,d0:0,d1:0;
                                     ("stealth_talk_gone", VariableAccess<Boolean> @:7459 op:0,dt:5,nt:13,next:7460,str:15773,d0:3,d1:0;
                                         (True, Expression<Boolean> @:7460 op:5,dt:5,nt:9,next:65535,str:23368,d0:65281,d1:65535;))))
-                            (____, Scope<Void> @:7461 op:0,dt:4,nt:8,next:65535,str:23378,d0:7462,d1:32922;
+                            (____, BuiltinInvocation<Void> @:7461 op:0,dt:4,nt:8,next:65535,str:23378,d0:7462,d1:32922;
                                 ("begin", Expression<MethodOrOperator> @:7462 op:0,dt:2,nt:9,next:7463,str:6,d0:0,d1:0;
-                                    (____, Scope<Void> @:7463 op:4,dt:4,nt:8,next:7467,str:23390,d0:7464,d1:32924;
+                                    (____, BuiltinInvocation<Void> @:7463 op:4,dt:4,nt:8,next:7467,str:23390,d0:7464,d1:32924;
                                         ("set", Expression<MethodOrOperator> @:7464 op:4,dt:2,nt:9,next:7465,str:2368,d0:0,d1:0;
                                             ("stealth_talk_gone", VariableAccess<Boolean> @:7465 op:65535,dt:5,nt:13,next:7466,str:15773,d0:3,d1:0;
                                                 (False, Expression<Boolean> @:7466 op:5,dt:5,nt:9,next:65535,str:23413,d0:65280,d1:65535;))))
-                                    (____, Scope<Void> @:7467 op:363,dt:4,nt:8,next:65535,str:23425,d0:7468,d1:32928;
+                                    (____, BuiltinInvocation<Void> @:7467 op:363,dt:4,nt:8,next:65535,str:23425,d0:7468,d1:32928;
                                         ("ai_scene", Expression<MethodOrOperator> @:7468 op:363,dt:2,nt:9,next:7469,str:15791,d0:0,d1:0;
                                             ("stealth_comment_09_scene", Expression<StringId> @:7469 op:11,dt:11,nt:9,next:7470,str:16163,d0:12062,d1:6144;
                                                 ("stealth_comment_09", Expression<AIScript> @:7470 op:21,dt:21,nt:9,next:7471,str:16188,d0:225,d1:0;
                                                     ("all_allies", Expression<AI> @:7471 op:19,dt:19,nt:9,next:65535,str:15844,d0:0,d1:16384;)))))))))
-                    (____, Scope<Void> @:7472 op:2,dt:4,nt:8,next:65535,str:23505,d0:7473,d1:32933;
+                    (____, BuiltinInvocation<Void> @:7472 op:2,dt:4,nt:8,next:65535,str:23505,d0:7473,d1:32933;
                         ("if", Expression<MethodOrOperator> @:7473 op:2,dt:2,nt:9,next:7474,str:461,d0:0,d1:0;
-                            (____, Scope<Boolean> @:7474 op:13,dt:5,nt:8,next:7478,str:23509,d0:7475,d1:32935;
+                            (____, BuiltinInvocation<Boolean> @:7474 op:13,dt:5,nt:8,next:7478,str:23509,d0:7475,d1:32935;
                                 ("=", Expression<MethodOrOperator> @:7475 op:13,dt:2,nt:9,next:7476,str:301,d0:0,d1:0;
                                     ("stealth_talk_gone", VariableAccess<Boolean> @:7476 op:0,dt:5,nt:13,next:7477,str:15773,d0:3,d1:0;
                                         (True, Expression<Boolean> @:7477 op:5,dt:5,nt:9,next:65535,str:23530,d0:65281,d1:65535;))))
-                            (____, Scope<Void> @:7478 op:0,dt:4,nt:8,next:65535,str:23540,d0:7479,d1:32939;
+                            (____, BuiltinInvocation<Void> @:7478 op:0,dt:4,nt:8,next:65535,str:23540,d0:7479,d1:32939;
                                 ("begin", Expression<MethodOrOperator> @:7479 op:0,dt:2,nt:9,next:7480,str:6,d0:0,d1:0;
-                                    (____, Scope<Void> @:7480 op:4,dt:4,nt:8,next:7484,str:23552,d0:7481,d1:32941;
+                                    (____, BuiltinInvocation<Void> @:7480 op:4,dt:4,nt:8,next:7484,str:23552,d0:7481,d1:32941;
                                         ("set", Expression<MethodOrOperator> @:7481 op:4,dt:2,nt:9,next:7482,str:2368,d0:0,d1:0;
                                             ("stealth_talk_gone", VariableAccess<Boolean> @:7482 op:65535,dt:5,nt:13,next:7483,str:15773,d0:3,d1:0;
                                                 (False, Expression<Boolean> @:7483 op:5,dt:5,nt:9,next:65535,str:23575,d0:65280,d1:65535;))))
-                                    (____, Scope<Void> @:7484 op:363,dt:4,nt:8,next:65535,str:23587,d0:7485,d1:32945;
+                                    (____, BuiltinInvocation<Void> @:7484 op:363,dt:4,nt:8,next:65535,str:23587,d0:7485,d1:32945;
                                         ("ai_scene", Expression<MethodOrOperator> @:7485 op:363,dt:2,nt:9,next:7486,str:15791,d0:0,d1:0;
                                             ("stealth_comment_10_scene", Expression<StringId> @:7486 op:11,dt:11,nt:9,next:7487,str:16207,d0:12063,d1:6144;
                                                 ("stealth_comment_10", Expression<AIScript> @:7487 op:21,dt:21,nt:9,next:7488,str:16232,d0:226,d1:0;

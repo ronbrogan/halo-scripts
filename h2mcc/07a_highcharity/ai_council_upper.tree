@@ -1,170 +1,170 @@
 
 ("ai_council_upper", MethodDecl<Void> @:293 op:0,dt:0,nt:65535,next:13234,str:31147,d0:0,d1:0;
-    (____, Scope<Void> @:13234 op:0,dt:4,nt:8,next:65535,str:28582,d0:13235,d1:38695;
+    (____, BuiltinInvocation<Void> @:13234 op:0,dt:4,nt:8,next:65535,str:28582,d0:13235,d1:38695;
         ("begin", Expression<MethodOrOperator> @:13235 op:0,dt:2,nt:9,next:13068,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:13068 op:21,dt:4,nt:8,next:13076,str:28617,d0:13069,d1:38529;
+            (____, BuiltinInvocation<Void> @:13068 op:21,dt:4,nt:8,next:13076,str:28617,d0:13069,d1:38529;
                 ("sleep_until", Expression<MethodOrOperator> @:13069 op:21,dt:2,nt:9,next:13070,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:13070 op:18,dt:5,nt:8,next:65535,str:28630,d0:13071,d1:38531;
+                    (____, BuiltinInvocation<Boolean> @:13070 op:18,dt:5,nt:8,next:65535,str:28630,d0:13071,d1:38531;
                         ("<=", Expression<MethodOrOperator> @:13071 op:18,dt:2,nt:9,next:13072,str:21122,d0:0,d1:0;
-                            (____, Scope<Short> @:13072 op:327,dt:7,nt:8,next:13075,str:28634,d0:13073,d1:38533;
+                            (____, BuiltinInvocation<Short> @:13072 op:327,dt:7,nt:8,next:13075,str:28634,d0:13073,d1:38533;
                                 ("ai_living_count", Expression<MethodOrOperator> @:13073 op:327,dt:2,nt:9,next:13074,str:19381,d0:0,d1:0;
                                     ("council_prophets", Expression<AI> @:13074 op:19,dt:19,nt:9,next:65535,str:30399,d0:5,d1:16384;)))
                             (2, Expression<Short> @:13075 op:7,dt:7,nt:9,next:65535,str:28669,d0:2,d1:65535;)))))
-            (____, Scope<Void> @:13076 op:19,dt:4,nt:8,next:13079,str:28675,d0:13077,d1:38537;
+            (____, BuiltinInvocation<Void> @:13076 op:19,dt:4,nt:8,next:13079,str:28675,d0:13077,d1:38537;
                 ("sleep", Expression<MethodOrOperator> @:13077 op:19,dt:2,nt:9,next:13078,str:80,d0:0,d1:0;
                     (120, Expression<Short> @:13078 op:7,dt:7,nt:9,next:65535,str:28682,d0:120,d1:65535;)))
-            (____, Scope<Void> @:13079 op:1,dt:4,nt:8,next:13231,str:28691,d0:13080,d1:38540;
+            (____, BuiltinInvocation<Void> @:13079 op:1,dt:4,nt:8,next:13231,str:28691,d0:13080,d1:38540;
                 ("begin_random", Expression<MethodOrOperator> @:13080 op:1,dt:2,nt:9,next:13081,str:30056,d0:0,d1:0;
-                    (____, Scope<Void> @:13081 op:2,dt:4,nt:8,next:13106,str:28708,d0:13082,d1:38542;
+                    (____, BuiltinInvocation<Void> @:13081 op:2,dt:4,nt:8,next:13106,str:28708,d0:13082,d1:38542;
                         ("if", Expression<MethodOrOperator> @:13082 op:2,dt:2,nt:9,next:13083,str:456,d0:0,d1:0;
                             ("g_council_upper", VariableAccess<Boolean> @:13083 op:5,dt:5,nt:13,next:13084,str:30416,d0:54,d1:0;
-                                (____, Scope<Void> @:13084 op:0,dt:4,nt:8,next:65535,str:28732,d0:13085,d1:38545;
+                                (____, BuiltinInvocation<Void> @:13084 op:0,dt:4,nt:8,next:65535,str:28732,d0:13085,d1:38545;
                                     ("begin", Expression<MethodOrOperator> @:13085 op:0,dt:2,nt:9,next:13086,str:1,d0:0,d1:0;
-                                        (____, Scope<Void> @:13086 op:290,dt:4,nt:8,next:13089,str:28744,d0:13087,d1:38547;
+                                        (____, BuiltinInvocation<Void> @:13086 op:290,dt:4,nt:8,next:13089,str:28744,d0:13087,d1:38547;
                                             ("ai_place", Expression<MethodOrOperator> @:13087 op:290,dt:2,nt:9,next:13088,str:14833,d0:0,d1:0;
                                                 ("council_rt_upper_brute_a", Expression<AI> @:13088 op:19,dt:19,nt:9,next:65535,str:30432,d0:34,d1:0;)))
-                                        (____, Scope<Void> @:13089 op:4,dt:4,nt:8,next:13096,str:28785,d0:13090,d1:38550;
+                                        (____, BuiltinInvocation<Void> @:13089 op:4,dt:4,nt:8,next:13096,str:28785,d0:13090,d1:38550;
                                             ("set", Expression<MethodOrOperator> @:13090 op:4,dt:2,nt:9,next:13091,str:2177,d0:0,d1:0;
                                                 ("g_council_upper_count", VariableAccess<Short> @:13091 op:65535,dt:7,nt:13,next:13092,str:30457,d0:56,d1:0;
-                                                    (____, Scope<Short> @:13092 op:7,dt:7,nt:8,next:65535,str:28812,d0:13093,d1:38553;
+                                                    (____, BuiltinInvocation<Short> @:13092 op:7,dt:7,nt:8,next:65535,str:28812,d0:13093,d1:38553;
                                                         ("+", Expression<MethodOrOperator> @:13093 op:7,dt:2,nt:9,next:13094,str:983,d0:0,d1:0;
                                                             ("g_council_upper_count", VariableAccess<Float> @:13094 op:6,dt:6,nt:13,next:13095,str:30457,d0:56,d1:0;
                                                                 (1f, Expression<Float> @:13095 op:6,dt:6,nt:9,next:65535,str:28837,d0:0,d1:16256;)))))))
-                                        (____, Scope<Void> @:13096 op:2,dt:4,nt:8,next:65535,str:28846,d0:13097,d1:38557;
+                                        (____, BuiltinInvocation<Void> @:13096 op:2,dt:4,nt:8,next:65535,str:28846,d0:13097,d1:38557;
                                             ("if", Expression<MethodOrOperator> @:13097 op:2,dt:2,nt:9,next:13098,str:456,d0:0,d1:0;
-                                                (____, Scope<Boolean> @:13098 op:13,dt:5,nt:8,next:13102,str:28850,d0:13099,d1:38559;
+                                                (____, BuiltinInvocation<Boolean> @:13098 op:13,dt:5,nt:8,next:13102,str:28850,d0:13099,d1:38559;
                                                     ("=", Expression<MethodOrOperator> @:13099 op:13,dt:2,nt:9,next:13100,str:296,d0:0,d1:0;
                                                         ("g_council_upper_count", VariableAccess<Short> @:13100 op:0,dt:7,nt:13,next:13101,str:30457,d0:56,d1:0;
                                                             ("g_council_upper_limit", VariableAccess<Short> @:13101 op:7,dt:7,nt:13,next:65535,str:30479,d0:55,d1:0;))))
-                                                (____, Scope<Void> @:13102 op:4,dt:4,nt:8,next:65535,str:28898,d0:13103,d1:38563;
+                                                (____, BuiltinInvocation<Void> @:13102 op:4,dt:4,nt:8,next:65535,str:28898,d0:13103,d1:38563;
                                                     ("set", Expression<MethodOrOperator> @:13103 op:4,dt:2,nt:9,next:13104,str:2177,d0:0,d1:0;
                                                         ("g_council_upper", VariableAccess<Boolean> @:13104 op:65535,dt:5,nt:13,next:13105,str:30416,d0:54,d1:0;
                                                             (False, Expression<Boolean> @:13105 op:5,dt:5,nt:9,next:65535,str:28919,d0:65280,d1:65535;)))))))))))
-                    (____, Scope<Void> @:13106 op:2,dt:4,nt:8,next:13131,str:28937,d0:13107,d1:38567;
+                    (____, BuiltinInvocation<Void> @:13106 op:2,dt:4,nt:8,next:13131,str:28937,d0:13107,d1:38567;
                         ("if", Expression<MethodOrOperator> @:13107 op:2,dt:2,nt:9,next:13108,str:456,d0:0,d1:0;
                             ("g_council_upper", VariableAccess<Boolean> @:13108 op:5,dt:5,nt:13,next:13109,str:30416,d0:54,d1:0;
-                                (____, Scope<Void> @:13109 op:0,dt:4,nt:8,next:65535,str:28961,d0:13110,d1:38570;
+                                (____, BuiltinInvocation<Void> @:13109 op:0,dt:4,nt:8,next:65535,str:28961,d0:13110,d1:38570;
                                     ("begin", Expression<MethodOrOperator> @:13110 op:0,dt:2,nt:9,next:13111,str:1,d0:0,d1:0;
-                                        (____, Scope<Void> @:13111 op:290,dt:4,nt:8,next:13114,str:28973,d0:13112,d1:38572;
+                                        (____, BuiltinInvocation<Void> @:13111 op:290,dt:4,nt:8,next:13114,str:28973,d0:13112,d1:38572;
                                             ("ai_place", Expression<MethodOrOperator> @:13112 op:290,dt:2,nt:9,next:13113,str:14833,d0:0,d1:0;
                                                 ("council_rt_upper_brute_b", Expression<AI> @:13113 op:19,dt:19,nt:9,next:65535,str:30501,d0:35,d1:0;)))
-                                        (____, Scope<Void> @:13114 op:4,dt:4,nt:8,next:13121,str:29014,d0:13115,d1:38575;
+                                        (____, BuiltinInvocation<Void> @:13114 op:4,dt:4,nt:8,next:13121,str:29014,d0:13115,d1:38575;
                                             ("set", Expression<MethodOrOperator> @:13115 op:4,dt:2,nt:9,next:13116,str:2177,d0:0,d1:0;
                                                 ("g_council_upper_count", VariableAccess<Short> @:13116 op:65535,dt:7,nt:13,next:13117,str:30457,d0:56,d1:0;
-                                                    (____, Scope<Short> @:13117 op:7,dt:7,nt:8,next:65535,str:29041,d0:13118,d1:38578;
+                                                    (____, BuiltinInvocation<Short> @:13117 op:7,dt:7,nt:8,next:65535,str:29041,d0:13118,d1:38578;
                                                         ("+", Expression<MethodOrOperator> @:13118 op:7,dt:2,nt:9,next:13119,str:983,d0:0,d1:0;
                                                             ("g_council_upper_count", VariableAccess<Float> @:13119 op:6,dt:6,nt:13,next:13120,str:30457,d0:56,d1:0;
                                                                 (1f, Expression<Float> @:13120 op:6,dt:6,nt:9,next:65535,str:29066,d0:0,d1:16256;)))))))
-                                        (____, Scope<Void> @:13121 op:2,dt:4,nt:8,next:65535,str:29075,d0:13122,d1:38582;
+                                        (____, BuiltinInvocation<Void> @:13121 op:2,dt:4,nt:8,next:65535,str:29075,d0:13122,d1:38582;
                                             ("if", Expression<MethodOrOperator> @:13122 op:2,dt:2,nt:9,next:13123,str:456,d0:0,d1:0;
-                                                (____, Scope<Boolean> @:13123 op:13,dt:5,nt:8,next:13127,str:29079,d0:13124,d1:38584;
+                                                (____, BuiltinInvocation<Boolean> @:13123 op:13,dt:5,nt:8,next:13127,str:29079,d0:13124,d1:38584;
                                                     ("=", Expression<MethodOrOperator> @:13124 op:13,dt:2,nt:9,next:13125,str:296,d0:0,d1:0;
                                                         ("g_council_upper_count", VariableAccess<Short> @:13125 op:0,dt:7,nt:13,next:13126,str:30457,d0:56,d1:0;
                                                             ("g_council_upper_limit", VariableAccess<Short> @:13126 op:7,dt:7,nt:13,next:65535,str:30479,d0:55,d1:0;))))
-                                                (____, Scope<Void> @:13127 op:4,dt:4,nt:8,next:65535,str:29127,d0:13128,d1:38588;
+                                                (____, BuiltinInvocation<Void> @:13127 op:4,dt:4,nt:8,next:65535,str:29127,d0:13128,d1:38588;
                                                     ("set", Expression<MethodOrOperator> @:13128 op:4,dt:2,nt:9,next:13129,str:2177,d0:0,d1:0;
                                                         ("g_council_upper", VariableAccess<Boolean> @:13129 op:65535,dt:5,nt:13,next:13130,str:30416,d0:54,d1:0;
                                                             (False, Expression<Boolean> @:13130 op:5,dt:5,nt:9,next:65535,str:29148,d0:65280,d1:65535;)))))))))))
-                    (____, Scope<Void> @:13131 op:2,dt:4,nt:8,next:13156,str:29166,d0:13132,d1:38592;
+                    (____, BuiltinInvocation<Void> @:13131 op:2,dt:4,nt:8,next:13156,str:29166,d0:13132,d1:38592;
                         ("if", Expression<MethodOrOperator> @:13132 op:2,dt:2,nt:9,next:13133,str:456,d0:0,d1:0;
                             ("g_council_upper", VariableAccess<Boolean> @:13133 op:5,dt:5,nt:13,next:13134,str:30416,d0:54,d1:0;
-                                (____, Scope<Void> @:13134 op:0,dt:4,nt:8,next:65535,str:29190,d0:13135,d1:38595;
+                                (____, BuiltinInvocation<Void> @:13134 op:0,dt:4,nt:8,next:65535,str:29190,d0:13135,d1:38595;
                                     ("begin", Expression<MethodOrOperator> @:13135 op:0,dt:2,nt:9,next:13136,str:1,d0:0,d1:0;
-                                        (____, Scope<Void> @:13136 op:290,dt:4,nt:8,next:13139,str:29202,d0:13137,d1:38597;
+                                        (____, BuiltinInvocation<Void> @:13136 op:290,dt:4,nt:8,next:13139,str:29202,d0:13137,d1:38597;
                                             ("ai_place", Expression<MethodOrOperator> @:13137 op:290,dt:2,nt:9,next:13138,str:14833,d0:0,d1:0;
                                                 ("council_rt_upper_brute_c", Expression<AI> @:13138 op:19,dt:19,nt:9,next:65535,str:30526,d0:36,d1:0;)))
-                                        (____, Scope<Void> @:13139 op:4,dt:4,nt:8,next:13146,str:29243,d0:13140,d1:38600;
+                                        (____, BuiltinInvocation<Void> @:13139 op:4,dt:4,nt:8,next:13146,str:29243,d0:13140,d1:38600;
                                             ("set", Expression<MethodOrOperator> @:13140 op:4,dt:2,nt:9,next:13141,str:2177,d0:0,d1:0;
                                                 ("g_council_upper_count", VariableAccess<Short> @:13141 op:65535,dt:7,nt:13,next:13142,str:30457,d0:56,d1:0;
-                                                    (____, Scope<Short> @:13142 op:7,dt:7,nt:8,next:65535,str:29270,d0:13143,d1:38603;
+                                                    (____, BuiltinInvocation<Short> @:13142 op:7,dt:7,nt:8,next:65535,str:29270,d0:13143,d1:38603;
                                                         ("+", Expression<MethodOrOperator> @:13143 op:7,dt:2,nt:9,next:13144,str:983,d0:0,d1:0;
                                                             ("g_council_upper_count", VariableAccess<Float> @:13144 op:6,dt:6,nt:13,next:13145,str:30457,d0:56,d1:0;
                                                                 (1f, Expression<Float> @:13145 op:6,dt:6,nt:9,next:65535,str:29295,d0:0,d1:16256;)))))))
-                                        (____, Scope<Void> @:13146 op:2,dt:4,nt:8,next:65535,str:29304,d0:13147,d1:38607;
+                                        (____, BuiltinInvocation<Void> @:13146 op:2,dt:4,nt:8,next:65535,str:29304,d0:13147,d1:38607;
                                             ("if", Expression<MethodOrOperator> @:13147 op:2,dt:2,nt:9,next:13148,str:456,d0:0,d1:0;
-                                                (____, Scope<Boolean> @:13148 op:13,dt:5,nt:8,next:13152,str:29308,d0:13149,d1:38609;
+                                                (____, BuiltinInvocation<Boolean> @:13148 op:13,dt:5,nt:8,next:13152,str:29308,d0:13149,d1:38609;
                                                     ("=", Expression<MethodOrOperator> @:13149 op:13,dt:2,nt:9,next:13150,str:296,d0:0,d1:0;
                                                         ("g_council_upper_count", VariableAccess<Short> @:13150 op:0,dt:7,nt:13,next:13151,str:30457,d0:56,d1:0;
                                                             ("g_council_upper_limit", VariableAccess<Short> @:13151 op:7,dt:7,nt:13,next:65535,str:30479,d0:55,d1:0;))))
-                                                (____, Scope<Void> @:13152 op:4,dt:4,nt:8,next:65535,str:29356,d0:13153,d1:38613;
+                                                (____, BuiltinInvocation<Void> @:13152 op:4,dt:4,nt:8,next:65535,str:29356,d0:13153,d1:38613;
                                                     ("set", Expression<MethodOrOperator> @:13153 op:4,dt:2,nt:9,next:13154,str:2177,d0:0,d1:0;
                                                         ("g_council_upper", VariableAccess<Boolean> @:13154 op:65535,dt:5,nt:13,next:13155,str:30416,d0:54,d1:0;
                                                             (False, Expression<Boolean> @:13155 op:5,dt:5,nt:9,next:65535,str:29377,d0:65280,d1:65535;)))))))))))
-                    (____, Scope<Void> @:13156 op:2,dt:4,nt:8,next:13181,str:29395,d0:13157,d1:38617;
+                    (____, BuiltinInvocation<Void> @:13156 op:2,dt:4,nt:8,next:13181,str:29395,d0:13157,d1:38617;
                         ("if", Expression<MethodOrOperator> @:13157 op:2,dt:2,nt:9,next:13158,str:456,d0:0,d1:0;
                             ("g_council_upper", VariableAccess<Boolean> @:13158 op:5,dt:5,nt:13,next:13159,str:30416,d0:54,d1:0;
-                                (____, Scope<Void> @:13159 op:0,dt:4,nt:8,next:65535,str:29419,d0:13160,d1:38620;
+                                (____, BuiltinInvocation<Void> @:13159 op:0,dt:4,nt:8,next:65535,str:29419,d0:13160,d1:38620;
                                     ("begin", Expression<MethodOrOperator> @:13160 op:0,dt:2,nt:9,next:13161,str:1,d0:0,d1:0;
-                                        (____, Scope<Void> @:13161 op:290,dt:4,nt:8,next:13164,str:29431,d0:13162,d1:38622;
+                                        (____, BuiltinInvocation<Void> @:13161 op:290,dt:4,nt:8,next:13164,str:29431,d0:13162,d1:38622;
                                             ("ai_place", Expression<MethodOrOperator> @:13162 op:290,dt:2,nt:9,next:13163,str:14833,d0:0,d1:0;
                                                 ("council_lt_upper_brute_a", Expression<AI> @:13163 op:19,dt:19,nt:9,next:65535,str:30551,d0:37,d1:0;)))
-                                        (____, Scope<Void> @:13164 op:4,dt:4,nt:8,next:13171,str:29472,d0:13165,d1:38625;
+                                        (____, BuiltinInvocation<Void> @:13164 op:4,dt:4,nt:8,next:13171,str:29472,d0:13165,d1:38625;
                                             ("set", Expression<MethodOrOperator> @:13165 op:4,dt:2,nt:9,next:13166,str:2177,d0:0,d1:0;
                                                 ("g_council_upper_count", VariableAccess<Short> @:13166 op:65535,dt:7,nt:13,next:13167,str:30457,d0:56,d1:0;
-                                                    (____, Scope<Short> @:13167 op:7,dt:7,nt:8,next:65535,str:29499,d0:13168,d1:38628;
+                                                    (____, BuiltinInvocation<Short> @:13167 op:7,dt:7,nt:8,next:65535,str:29499,d0:13168,d1:38628;
                                                         ("+", Expression<MethodOrOperator> @:13168 op:7,dt:2,nt:9,next:13169,str:983,d0:0,d1:0;
                                                             ("g_council_upper_count", VariableAccess<Float> @:13169 op:6,dt:6,nt:13,next:13170,str:30457,d0:56,d1:0;
                                                                 (1f, Expression<Float> @:13170 op:6,dt:6,nt:9,next:65535,str:29524,d0:0,d1:16256;)))))))
-                                        (____, Scope<Void> @:13171 op:2,dt:4,nt:8,next:65535,str:29533,d0:13172,d1:38632;
+                                        (____, BuiltinInvocation<Void> @:13171 op:2,dt:4,nt:8,next:65535,str:29533,d0:13172,d1:38632;
                                             ("if", Expression<MethodOrOperator> @:13172 op:2,dt:2,nt:9,next:13173,str:456,d0:0,d1:0;
-                                                (____, Scope<Boolean> @:13173 op:13,dt:5,nt:8,next:13177,str:29537,d0:13174,d1:38634;
+                                                (____, BuiltinInvocation<Boolean> @:13173 op:13,dt:5,nt:8,next:13177,str:29537,d0:13174,d1:38634;
                                                     ("=", Expression<MethodOrOperator> @:13174 op:13,dt:2,nt:9,next:13175,str:296,d0:0,d1:0;
                                                         ("g_council_upper_count", VariableAccess<Short> @:13175 op:0,dt:7,nt:13,next:13176,str:30457,d0:56,d1:0;
                                                             ("g_council_upper_limit", VariableAccess<Short> @:13176 op:7,dt:7,nt:13,next:65535,str:30479,d0:55,d1:0;))))
-                                                (____, Scope<Void> @:13177 op:4,dt:4,nt:8,next:65535,str:29585,d0:13178,d1:38638;
+                                                (____, BuiltinInvocation<Void> @:13177 op:4,dt:4,nt:8,next:65535,str:29585,d0:13178,d1:38638;
                                                     ("set", Expression<MethodOrOperator> @:13178 op:4,dt:2,nt:9,next:13179,str:2177,d0:0,d1:0;
                                                         ("g_council_upper", VariableAccess<Boolean> @:13179 op:65535,dt:5,nt:13,next:13180,str:30416,d0:54,d1:0;
                                                             (False, Expression<Boolean> @:13180 op:5,dt:5,nt:9,next:65535,str:29606,d0:65280,d1:65535;)))))))))))
-                    (____, Scope<Void> @:13181 op:2,dt:4,nt:8,next:13206,str:29624,d0:13182,d1:38642;
+                    (____, BuiltinInvocation<Void> @:13181 op:2,dt:4,nt:8,next:13206,str:29624,d0:13182,d1:38642;
                         ("if", Expression<MethodOrOperator> @:13182 op:2,dt:2,nt:9,next:13183,str:456,d0:0,d1:0;
                             ("g_council_upper", VariableAccess<Boolean> @:13183 op:5,dt:5,nt:13,next:13184,str:30416,d0:54,d1:0;
-                                (____, Scope<Void> @:13184 op:0,dt:4,nt:8,next:65535,str:29648,d0:13185,d1:38645;
+                                (____, BuiltinInvocation<Void> @:13184 op:0,dt:4,nt:8,next:65535,str:29648,d0:13185,d1:38645;
                                     ("begin", Expression<MethodOrOperator> @:13185 op:0,dt:2,nt:9,next:13186,str:1,d0:0,d1:0;
-                                        (____, Scope<Void> @:13186 op:290,dt:4,nt:8,next:13189,str:29660,d0:13187,d1:38647;
+                                        (____, BuiltinInvocation<Void> @:13186 op:290,dt:4,nt:8,next:13189,str:29660,d0:13187,d1:38647;
                                             ("ai_place", Expression<MethodOrOperator> @:13187 op:290,dt:2,nt:9,next:13188,str:14833,d0:0,d1:0;
                                                 ("council_lt_upper_brute_b", Expression<AI> @:13188 op:19,dt:19,nt:9,next:65535,str:30576,d0:38,d1:0;)))
-                                        (____, Scope<Void> @:13189 op:4,dt:4,nt:8,next:13196,str:29701,d0:13190,d1:38650;
+                                        (____, BuiltinInvocation<Void> @:13189 op:4,dt:4,nt:8,next:13196,str:29701,d0:13190,d1:38650;
                                             ("set", Expression<MethodOrOperator> @:13190 op:4,dt:2,nt:9,next:13191,str:2177,d0:0,d1:0;
                                                 ("g_council_upper_count", VariableAccess<Short> @:13191 op:65535,dt:7,nt:13,next:13192,str:30457,d0:56,d1:0;
-                                                    (____, Scope<Short> @:13192 op:7,dt:7,nt:8,next:65535,str:29728,d0:13193,d1:38653;
+                                                    (____, BuiltinInvocation<Short> @:13192 op:7,dt:7,nt:8,next:65535,str:29728,d0:13193,d1:38653;
                                                         ("+", Expression<MethodOrOperator> @:13193 op:7,dt:2,nt:9,next:13194,str:983,d0:0,d1:0;
                                                             ("g_council_upper_count", VariableAccess<Float> @:13194 op:6,dt:6,nt:13,next:13195,str:30457,d0:56,d1:0;
                                                                 (1f, Expression<Float> @:13195 op:6,dt:6,nt:9,next:65535,str:29753,d0:0,d1:16256;)))))))
-                                        (____, Scope<Void> @:13196 op:2,dt:4,nt:8,next:65535,str:29762,d0:13197,d1:38657;
+                                        (____, BuiltinInvocation<Void> @:13196 op:2,dt:4,nt:8,next:65535,str:29762,d0:13197,d1:38657;
                                             ("if", Expression<MethodOrOperator> @:13197 op:2,dt:2,nt:9,next:13198,str:456,d0:0,d1:0;
-                                                (____, Scope<Boolean> @:13198 op:13,dt:5,nt:8,next:13202,str:29766,d0:13199,d1:38659;
+                                                (____, BuiltinInvocation<Boolean> @:13198 op:13,dt:5,nt:8,next:13202,str:29766,d0:13199,d1:38659;
                                                     ("=", Expression<MethodOrOperator> @:13199 op:13,dt:2,nt:9,next:13200,str:296,d0:0,d1:0;
                                                         ("g_council_upper_count", VariableAccess<Short> @:13200 op:0,dt:7,nt:13,next:13201,str:30457,d0:56,d1:0;
                                                             ("g_council_upper_limit", VariableAccess<Short> @:13201 op:7,dt:7,nt:13,next:65535,str:30479,d0:55,d1:0;))))
-                                                (____, Scope<Void> @:13202 op:4,dt:4,nt:8,next:65535,str:29814,d0:13203,d1:38663;
+                                                (____, BuiltinInvocation<Void> @:13202 op:4,dt:4,nt:8,next:65535,str:29814,d0:13203,d1:38663;
                                                     ("set", Expression<MethodOrOperator> @:13203 op:4,dt:2,nt:9,next:13204,str:2177,d0:0,d1:0;
                                                         ("g_council_upper", VariableAccess<Boolean> @:13204 op:65535,dt:5,nt:13,next:13205,str:30416,d0:54,d1:0;
                                                             (False, Expression<Boolean> @:13205 op:5,dt:5,nt:9,next:65535,str:29835,d0:65280,d1:65535;)))))))))))
-                    (____, Scope<Void> @:13206 op:2,dt:4,nt:8,next:65535,str:29853,d0:13207,d1:38667;
+                    (____, BuiltinInvocation<Void> @:13206 op:2,dt:4,nt:8,next:65535,str:29853,d0:13207,d1:38667;
                         ("if", Expression<MethodOrOperator> @:13207 op:2,dt:2,nt:9,next:13208,str:456,d0:0,d1:0;
                             ("g_council_upper", VariableAccess<Boolean> @:13208 op:5,dt:5,nt:13,next:13209,str:30416,d0:54,d1:0;
-                                (____, Scope<Void> @:13209 op:0,dt:4,nt:8,next:65535,str:29877,d0:13210,d1:38670;
+                                (____, BuiltinInvocation<Void> @:13209 op:0,dt:4,nt:8,next:65535,str:29877,d0:13210,d1:38670;
                                     ("begin", Expression<MethodOrOperator> @:13210 op:0,dt:2,nt:9,next:13211,str:1,d0:0,d1:0;
-                                        (____, Scope<Void> @:13211 op:290,dt:4,nt:8,next:13214,str:29889,d0:13212,d1:38672;
+                                        (____, BuiltinInvocation<Void> @:13211 op:290,dt:4,nt:8,next:13214,str:29889,d0:13212,d1:38672;
                                             ("ai_place", Expression<MethodOrOperator> @:13212 op:290,dt:2,nt:9,next:13213,str:14833,d0:0,d1:0;
                                                 ("council_lt_upper_brute_c", Expression<AI> @:13213 op:19,dt:19,nt:9,next:65535,str:30601,d0:39,d1:0;)))
-                                        (____, Scope<Void> @:13214 op:4,dt:4,nt:8,next:13221,str:29930,d0:13215,d1:38675;
+                                        (____, BuiltinInvocation<Void> @:13214 op:4,dt:4,nt:8,next:13221,str:29930,d0:13215,d1:38675;
                                             ("set", Expression<MethodOrOperator> @:13215 op:4,dt:2,nt:9,next:13216,str:2177,d0:0,d1:0;
                                                 ("g_council_upper_count", VariableAccess<Short> @:13216 op:65535,dt:7,nt:13,next:13217,str:30457,d0:56,d1:0;
-                                                    (____, Scope<Short> @:13217 op:7,dt:7,nt:8,next:65535,str:29957,d0:13218,d1:38678;
+                                                    (____, BuiltinInvocation<Short> @:13217 op:7,dt:7,nt:8,next:65535,str:29957,d0:13218,d1:38678;
                                                         ("+", Expression<MethodOrOperator> @:13218 op:7,dt:2,nt:9,next:13219,str:983,d0:0,d1:0;
                                                             ("g_council_upper_count", VariableAccess<Float> @:13219 op:6,dt:6,nt:13,next:13220,str:30457,d0:56,d1:0;
                                                                 (1f, Expression<Float> @:13220 op:6,dt:6,nt:9,next:65535,str:29982,d0:0,d1:16256;)))))))
-                                        (____, Scope<Void> @:13221 op:2,dt:4,nt:8,next:65535,str:29991,d0:13222,d1:38682;
+                                        (____, BuiltinInvocation<Void> @:13221 op:2,dt:4,nt:8,next:65535,str:29991,d0:13222,d1:38682;
                                             ("if", Expression<MethodOrOperator> @:13222 op:2,dt:2,nt:9,next:13223,str:456,d0:0,d1:0;
-                                                (____, Scope<Boolean> @:13223 op:13,dt:5,nt:8,next:13227,str:29995,d0:13224,d1:38684;
+                                                (____, BuiltinInvocation<Boolean> @:13223 op:13,dt:5,nt:8,next:13227,str:29995,d0:13224,d1:38684;
                                                     ("=", Expression<MethodOrOperator> @:13224 op:13,dt:2,nt:9,next:13225,str:296,d0:0,d1:0;
                                                         ("g_council_upper_count", VariableAccess<Short> @:13225 op:0,dt:7,nt:13,next:13226,str:30457,d0:56,d1:0;
                                                             ("g_council_upper_limit", VariableAccess<Short> @:13226 op:7,dt:7,nt:13,next:65535,str:30479,d0:55,d1:0;))))
-                                                (____, Scope<Void> @:13227 op:4,dt:4,nt:8,next:65535,str:30043,d0:13228,d1:38688;
+                                                (____, BuiltinInvocation<Void> @:13227 op:4,dt:4,nt:8,next:65535,str:30043,d0:13228,d1:38688;
                                                     ("set", Expression<MethodOrOperator> @:13228 op:4,dt:2,nt:9,next:13229,str:2177,d0:0,d1:0;
                                                         ("g_council_upper", VariableAccess<Boolean> @:13229 op:65535,dt:5,nt:13,next:13230,str:30416,d0:54,d1:0;
                                                             (False, Expression<Boolean> @:13230 op:5,dt:5,nt:9,next:65535,str:30064,d0:65280,d1:65535;)))))))))))))
-            (____, Scope<Void> @:13231 op:22,dt:4,nt:8,next:65535,str:30087,d0:13232,d1:38692;
+            (____, BuiltinInvocation<Void> @:13231 op:22,dt:4,nt:8,next:65535,str:30087,d0:13232,d1:38692;
                 ("wake", Expression<MethodOrOperator> @:13232 op:22,dt:2,nt:9,next:13233,str:1146,d0:0,d1:0;
                     ("ai_council_upper_migrate", Expression<ScriptReference> @:13233 op:10,dt:10,nt:9,next:65535,str:30626,d0:292,d1:65535;))))))

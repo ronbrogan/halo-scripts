@@ -1,69 +1,69 @@
 
 ("cs_e1_mars_pelican0_entry", MethodDecl<Void> @:379 op:0,dt:0,nt:65535,next:15769,str:27552,d0:0,d1:0;
-    (____, Scope<Void> @:15769 op:0,dt:4,nt:8,next:65535,str:2048,d0:15770,d1:41230;
+    (____, BuiltinInvocation<Void> @:15769 op:0,dt:4,nt:8,next:65535,str:2048,d0:15770,d1:41230;
         ("begin", Expression<MethodOrOperator> @:15770 op:0,dt:2,nt:9,next:15704,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:15704 op:449,dt:4,nt:8,next:15707,str:2099,d0:15705,d1:41165;
+            (____, BuiltinInvocation<Void> @:15704 op:449,dt:4,nt:8,next:15707,str:2099,d0:15705,d1:41165;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:15705 op:449,dt:2,nt:9,next:15706,str:4284,d0:0,d1:0;
                     (True, Expression<Boolean> @:15706 op:5,dt:5,nt:9,next:65535,str:2131,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:15707 op:399,dt:4,nt:8,next:15711,str:2139,d0:15708,d1:41168;
+            (____, BuiltinInvocation<Void> @:15707 op:399,dt:4,nt:8,next:15711,str:2139,d0:15708,d1:41168;
                 ("cs_face", Expression<MethodOrOperator> @:15708 op:399,dt:2,nt:9,next:15709,str:11404,d0:0,d1:0;
                     (True, Expression<Boolean> @:15709 op:5,dt:5,nt:9,next:15710,str:2148,d0:65281,d1:65535;
                         ("e1_mars_pelican/p0_facing", Expression<SpatialPoint> @:15710 op:28,dt:28,nt:9,next:65535,str:25903,d0:1,d1:2;))))
-            (____, Scope<Void> @:15711 op:379,dt:4,nt:8,next:15714,str:2182,d0:15712,d1:41172;
+            (____, BuiltinInvocation<Void> @:15711 op:379,dt:4,nt:8,next:15714,str:2182,d0:15712,d1:41172;
                 ("cs_fly_to", Expression<MethodOrOperator> @:15712 op:379,dt:2,nt:9,next:15713,str:14959,d0:0,d1:0;
                     ("e1_mars_pelican/p0", Expression<SpatialPoint> @:15713 op:28,dt:28,nt:9,next:65535,str:25929,d0:0,d1:2;)))
-            (____, Scope<Void> @:15714 op:4,dt:4,nt:8,next:15718,str:2237,d0:15715,d1:41175;
+            (____, BuiltinInvocation<Void> @:15714 op:4,dt:4,nt:8,next:15718,str:2237,d0:15715,d1:41175;
                 ("set", Expression<MethodOrOperator> @:15715 op:4,dt:2,nt:9,next:15716,str:3371,d0:0,d1:0;
                     ("g_e1_mars_pelican0_appeared", VariableAccess<Boolean> @:15716 op:65535,dt:5,nt:13,next:15717,str:25948,d0:53,d1:0;
                         (True, Expression<Boolean> @:15717 op:5,dt:5,nt:9,next:65535,str:2270,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:15718 op:399,dt:4,nt:8,next:15722,str:2294,d0:15719,d1:41179;
+            (____, BuiltinInvocation<Void> @:15718 op:399,dt:4,nt:8,next:15722,str:2294,d0:15719,d1:41179;
                 ("cs_face", Expression<MethodOrOperator> @:15719 op:399,dt:2,nt:9,next:15720,str:11404,d0:0,d1:0;
                     (False, Expression<Boolean> @:15720 op:5,dt:5,nt:9,next:15721,str:2303,d0:65280,d1:65535;
                         ("e1_mars_pelican/p1_facing", Expression<SpatialPoint> @:15721 op:28,dt:28,nt:9,next:65535,str:25976,d0:6,d1:2;))))
-            (____, Scope<Void> @:15722 op:379,dt:4,nt:8,next:15725,str:2338,d0:15723,d1:41183;
+            (____, BuiltinInvocation<Void> @:15722 op:379,dt:4,nt:8,next:15725,str:2338,d0:15723,d1:41183;
                 ("cs_fly_to", Expression<MethodOrOperator> @:15723 op:379,dt:2,nt:9,next:15724,str:14959,d0:0,d1:0;
                     ("e1_mars_pelican/p1", Expression<SpatialPoint> @:15724 op:28,dt:28,nt:9,next:65535,str:26002,d0:2,d1:2;)))
-            (____, Scope<Void> @:15725 op:19,dt:4,nt:8,next:15728,str:2371,d0:15726,d1:41186;
+            (____, BuiltinInvocation<Void> @:15725 op:19,dt:4,nt:8,next:15728,str:2371,d0:15726,d1:41186;
                 ("sleep", Expression<MethodOrOperator> @:15726 op:19,dt:2,nt:9,next:15727,str:143,d0:0,d1:0;
                     (75, Expression<Short> @:15727 op:7,dt:7,nt:9,next:65535,str:2378,d0:75,d1:65535;)))
-            (____, Scope<Void> @:15728 op:27,dt:4,nt:8,next:15731,str:2398,d0:15729,d1:41189;
+            (____, BuiltinInvocation<Void> @:15728 op:27,dt:4,nt:8,next:15731,str:2398,d0:15729,d1:41189;
                 ("print", Expression<MethodOrOperator> @:15729 op:27,dt:2,nt:9,next:15730,str:149,d0:0,d1:0;
                     ("pilot: looks too tight down there", Expression<String> @:15730 op:9,dt:9,nt:9,next:65535,str:26021,d0:26021,d1:0;)))
-            (____, Scope<Void> @:15731 op:19,dt:4,nt:8,next:15737,str:2444,d0:15732,d1:41192;
+            (____, BuiltinInvocation<Void> @:15731 op:19,dt:4,nt:8,next:15737,str:2444,d0:15732,d1:41192;
                 ("sleep", Expression<MethodOrOperator> @:15732 op:19,dt:2,nt:9,next:15733,str:143,d0:0,d1:0;
-                    (____, Scope<Short> @:15733 op:362,dt:7,nt:8,next:65535,str:2451,d0:15734,d1:41194;
+                    (____, BuiltinInvocation<Short> @:15733 op:362,dt:7,nt:8,next:65535,str:2451,d0:15734,d1:41194;
                         ("ai_play_line_on_object", Expression<MethodOrOperator> @:15734 op:362,dt:2,nt:9,next:15735,str:13213,d0:0,d1:0;
                             (4294967295, Expression<Entity> @:15735 op:50,dt:50,nt:9,next:15736,str:1,d0:65535,d1:65535;
                                 ("0900", Expression<StringId> @:15736 op:11,dt:11,nt:9,next:65535,str:26055,d0:13069,d1:1024;))))))
-            (____, Scope<Void> @:15737 op:4,dt:4,nt:8,next:15741,str:2489,d0:15738,d1:41198;
+            (____, BuiltinInvocation<Void> @:15737 op:4,dt:4,nt:8,next:15741,str:2489,d0:15738,d1:41198;
                 ("set", Expression<MethodOrOperator> @:15738 op:4,dt:2,nt:9,next:15739,str:3371,d0:0,d1:0;
                     ("g_e1_mars_pelican0_departing", VariableAccess<Boolean> @:15739 op:65535,dt:5,nt:13,next:15740,str:26060,d0:54,d1:0;
                         (True, Expression<Boolean> @:15740 op:5,dt:5,nt:9,next:65535,str:2523,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:15741 op:407,dt:4,nt:8,next:15744,str:2547,d0:15742,d1:41202;
+            (____, BuiltinInvocation<Void> @:15741 op:407,dt:4,nt:8,next:15744,str:2547,d0:15742,d1:41202;
                 ("cs_vehicle_speed", Expression<MethodOrOperator> @:15742 op:407,dt:2,nt:9,next:15743,str:4367,d0:0,d1:0;
                     (0.75f, Expression<Float> @:15743 op:6,dt:6,nt:9,next:65535,str:2565,d0:0,d1:16192;)))
-            (____, Scope<Void> @:15744 op:380,dt:4,nt:8,next:15748,str:2573,d0:15745,d1:41205;
+            (____, BuiltinInvocation<Void> @:15744 op:380,dt:4,nt:8,next:15748,str:2573,d0:15745,d1:41205;
                 ("cs_fly_to", Expression<MethodOrOperator> @:15745 op:380,dt:2,nt:9,next:15746,str:14959,d0:0,d1:0;
                     ("e1_mars_pelican/p2", Expression<SpatialPoint> @:15746 op:28,dt:28,nt:9,next:15747,str:26089,d0:3,d1:2;
                         (0.5f, Expression<Float> @:15747 op:6,dt:6,nt:9,next:65535,str:2603,d0:0,d1:16128;))))
-            (____, Scope<Void> @:15748 op:19,dt:4,nt:8,next:15751,str:2610,d0:15749,d1:41209;
+            (____, BuiltinInvocation<Void> @:15748 op:19,dt:4,nt:8,next:15751,str:2610,d0:15749,d1:41209;
                 ("sleep", Expression<MethodOrOperator> @:15749 op:19,dt:2,nt:9,next:15750,str:143,d0:0,d1:0;
                     (60, Expression<Short> @:15750 op:7,dt:7,nt:9,next:65535,str:2617,d0:60,d1:65535;)))
-            (____, Scope<Void> @:15751 op:399,dt:4,nt:8,next:15755,str:2623,d0:15752,d1:41212;
+            (____, BuiltinInvocation<Void> @:15751 op:399,dt:4,nt:8,next:15755,str:2623,d0:15752,d1:41212;
                 ("cs_face", Expression<MethodOrOperator> @:15752 op:399,dt:2,nt:9,next:15753,str:11404,d0:0,d1:0;
                     (False, Expression<Boolean> @:15753 op:5,dt:5,nt:9,next:15754,str:2632,d0:65280,d1:65535;
                         ("e1_mars_pelican/p1_facing", Expression<SpatialPoint> @:15754 op:28,dt:28,nt:9,next:65535,str:25976,d0:6,d1:2;))))
-            (____, Scope<Void> @:15755 op:383,dt:4,nt:8,next:15758,str:2667,d0:15756,d1:41216;
+            (____, BuiltinInvocation<Void> @:15755 op:383,dt:4,nt:8,next:15758,str:2667,d0:15756,d1:41216;
                 ("cs_fly_by", Expression<MethodOrOperator> @:15756 op:383,dt:2,nt:9,next:15757,str:15068,d0:0,d1:0;
                     ("e1_mars_pelican/p3", Expression<SpatialPoint> @:15757 op:28,dt:28,nt:9,next:65535,str:26108,d0:4,d1:2;)))
-            (____, Scope<Void> @:15758 op:4,dt:4,nt:8,next:15762,str:2700,d0:15759,d1:41219;
+            (____, BuiltinInvocation<Void> @:15758 op:4,dt:4,nt:8,next:15762,str:2700,d0:15759,d1:41219;
                 ("set", Expression<MethodOrOperator> @:15759 op:4,dt:2,nt:9,next:15760,str:3371,d0:0,d1:0;
                     ("g_e1_mars_pelican0_departing", VariableAccess<Boolean> @:15760 op:65535,dt:5,nt:13,next:15761,str:26060,d0:54,d1:0;
                         (True, Expression<Boolean> @:15761 op:5,dt:5,nt:9,next:65535,str:2734,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:15762 op:384,dt:4,nt:8,next:15766,str:2742,d0:15763,d1:41223;
+            (____, BuiltinInvocation<Void> @:15762 op:384,dt:4,nt:8,next:15766,str:2742,d0:15763,d1:41223;
                 ("cs_fly_by", Expression<MethodOrOperator> @:15763 op:384,dt:2,nt:9,next:15764,str:15068,d0:0,d1:0;
                     ("e1_mars_pelican/p4", Expression<SpatialPoint> @:15764 op:28,dt:28,nt:9,next:15765,str:26127,d0:5,d1:2;
                         (1f, Expression<Float> @:15765 op:6,dt:6,nt:9,next:65535,str:2772,d0:0,d1:16256;))))
-            (____, Scope<Void> @:15766 op:298,dt:4,nt:8,next:65535,str:2779,d0:15767,d1:41227;
+            (____, BuiltinInvocation<Void> @:15766 op:298,dt:4,nt:8,next:65535,str:2779,d0:15767,d1:41227;
                 ("ai_erase", Expression<MethodOrOperator> @:15767 op:298,dt:2,nt:9,next:15768,str:4540,d0:0,d1:0;
                     ("ai_current_squad", VariableAccess<AI> @:15768 op:19,dt:19,nt:13,next:65535,str:12161,d0:33563,d1:65535;))))))

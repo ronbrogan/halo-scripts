@@ -1,88 +1,88 @@
 
 ("w_path_turret_deploy", MethodDecl<Void> @:269 op:0,dt:0,nt:65535,next:14103,str:25783,d0:0,d1:0;
-    (____, Scope<Void> @:14103 op:0,dt:4,nt:8,next:65535,str:31790,d0:14104,d1:39564;
+    (____, BuiltinInvocation<Void> @:14103 op:0,dt:4,nt:8,next:65535,str:31790,d0:14104,d1:39564;
         ("begin", Expression<MethodOrOperator> @:14104 op:0,dt:2,nt:9,next:14019,str:54,d0:0,d1:0;
-            (____, Scope<Void> @:14019 op:2,dt:4,nt:8,next:14027,str:31829,d0:14020,d1:39480;
+            (____, BuiltinInvocation<Void> @:14019 op:2,dt:4,nt:8,next:14027,str:31829,d0:14020,d1:39480;
                 ("if", Expression<MethodOrOperator> @:14020 op:2,dt:2,nt:9,next:14021,str:509,d0:0,d1:0;
                     ("difficulty_legendary", ScriptInvocation<Boolean> @:14021 op:4,dt:5,nt:10,next:14023,str:31833,d0:14022,d1:39482;
                         ("difficulty_legendary", Expression<MethodOrOperator> @:14022 op:4,dt:2,nt:9,next:65535,str:14786,d0:0,d1:0;))
-                    (____, Scope<Void> @:14023 op:4,dt:4,nt:8,next:65535,str:31859,d0:14024,d1:39484;
+                    (____, BuiltinInvocation<Void> @:14023 op:4,dt:4,nt:8,next:65535,str:31859,d0:14024,d1:39484;
                         ("set", Expression<MethodOrOperator> @:14024 op:4,dt:2,nt:9,next:14025,str:1895,d0:0,d1:0;
                             ("w_path_turret_count", VariableAccess<Short> @:14025 op:65535,dt:7,nt:13,next:14026,str:25384,d0:23,d1:0;
                                 (3, Expression<Short> @:14026 op:7,dt:7,nt:9,next:65535,str:31884,d0:3,d1:65535;))))))
-            (____, Scope<Void> @:14027 op:2,dt:4,nt:8,next:14035,str:31893,d0:14028,d1:39488;
+            (____, BuiltinInvocation<Void> @:14027 op:2,dt:4,nt:8,next:14035,str:31893,d0:14028,d1:39488;
                 ("if", Expression<MethodOrOperator> @:14028 op:2,dt:2,nt:9,next:14029,str:509,d0:0,d1:0;
                     ("difficulty_heroic", ScriptInvocation<Boolean> @:14029 op:5,dt:5,nt:10,next:14031,str:31897,d0:14030,d1:39490;
                         ("difficulty_heroic", Expression<MethodOrOperator> @:14030 op:5,dt:2,nt:9,next:65535,str:14823,d0:0,d1:0;))
-                    (____, Scope<Void> @:14031 op:4,dt:4,nt:8,next:65535,str:31920,d0:14032,d1:39492;
+                    (____, BuiltinInvocation<Void> @:14031 op:4,dt:4,nt:8,next:65535,str:31920,d0:14032,d1:39492;
                         ("set", Expression<MethodOrOperator> @:14032 op:4,dt:2,nt:9,next:14033,str:1895,d0:0,d1:0;
                             ("w_path_turret_count", VariableAccess<Short> @:14033 op:65535,dt:7,nt:13,next:14034,str:25384,d0:23,d1:0;
                                 (2, Expression<Short> @:14034 op:7,dt:7,nt:9,next:65535,str:31945,d0:2,d1:65535;))))))
-            (____, Scope<Void> @:14035 op:1,dt:4,nt:8,next:65535,str:31954,d0:14036,d1:39496;
+            (____, BuiltinInvocation<Void> @:14035 op:1,dt:4,nt:8,next:65535,str:31954,d0:14036,d1:39496;
                 ("begin_random", Expression<MethodOrOperator> @:14036 op:1,dt:2,nt:9,next:14037,str:14579,d0:0,d1:0;
-                    (____, Scope<Void> @:14037 op:2,dt:4,nt:8,next:14059,str:31971,d0:14038,d1:39498;
+                    (____, BuiltinInvocation<Void> @:14037 op:2,dt:4,nt:8,next:14059,str:31971,d0:14038,d1:39498;
                         ("if", Expression<MethodOrOperator> @:14038 op:2,dt:2,nt:9,next:14039,str:509,d0:0,d1:0;
-                            (____, Scope<Boolean> @:14039 op:15,dt:5,nt:8,next:14043,str:31975,d0:14040,d1:39500;
+                            (____, BuiltinInvocation<Boolean> @:14039 op:15,dt:5,nt:8,next:14043,str:31975,d0:14040,d1:39500;
                                 (">", Expression<MethodOrOperator> @:14040 op:15,dt:2,nt:9,next:14041,str:14341,d0:0,d1:0;
                                     ("w_path_turret_count", VariableAccess<Short> @:14041 op:0,dt:7,nt:13,next:14042,str:25384,d0:23,d1:0;
                                         (0, Expression<Short> @:14042 op:7,dt:7,nt:9,next:65535,str:31998,d0:0,d1:65535;))))
-                            (____, Scope<Void> @:14043 op:0,dt:4,nt:8,next:65535,str:32005,d0:14044,d1:39504;
+                            (____, BuiltinInvocation<Void> @:14043 op:0,dt:4,nt:8,next:65535,str:32005,d0:14044,d1:39504;
                                 ("begin", Expression<MethodOrOperator> @:14044 op:0,dt:2,nt:9,next:14045,str:54,d0:0,d1:0;
-                                    (____, Scope<Void> @:14045 op:290,dt:4,nt:8,next:14048,str:32017,d0:14046,d1:39506;
+                                    (____, BuiltinInvocation<Void> @:14045 op:290,dt:4,nt:8,next:14048,str:32017,d0:14046,d1:39506;
                                         ("ai_place", Expression<MethodOrOperator> @:14046 op:290,dt:2,nt:9,next:14047,str:14859,d0:0,d1:0;
                                             ("w_path_heavies/0", Expression<AI> @:14047 op:19,dt:19,nt:9,next:65535,str:25404,d0:0,d1:49223;)))
-                                    (____, Scope<Void> @:14048 op:366,dt:4,nt:8,next:14052,str:32050,d0:14049,d1:39509;
+                                    (____, BuiltinInvocation<Void> @:14048 op:366,dt:4,nt:8,next:14052,str:32050,d0:14049,d1:39509;
                                         ("cs_run_command_script", Expression<MethodOrOperator> @:14049 op:366,dt:2,nt:9,next:14050,str:14517,d0:0,d1:0;
                                             ("w_path_heavies/0", Expression<AI> @:14050 op:19,dt:19,nt:9,next:14051,str:25404,d0:0,d1:49223;
                                                 ("w_path_turret_0", Expression<AIScript> @:14051 op:21,dt:21,nt:9,next:65535,str:25421,d0:266,d1:0;))))
-                                    (____, Scope<Void> @:14052 op:4,dt:4,nt:8,next:65535,str:32112,d0:14053,d1:39513;
+                                    (____, BuiltinInvocation<Void> @:14052 op:4,dt:4,nt:8,next:65535,str:32112,d0:14053,d1:39513;
                                         ("set", Expression<MethodOrOperator> @:14053 op:4,dt:2,nt:9,next:14054,str:1895,d0:0,d1:0;
                                             ("w_path_turret_count", VariableAccess<Short> @:14054 op:65535,dt:7,nt:13,next:14055,str:25384,d0:23,d1:0;
-                                                (____, Scope<Short> @:14055 op:8,dt:7,nt:8,next:65535,str:32137,d0:14056,d1:39516;
+                                                (____, BuiltinInvocation<Short> @:14055 op:8,dt:7,nt:8,next:65535,str:32137,d0:14056,d1:39516;
                                                     ("-", Expression<MethodOrOperator> @:14056 op:8,dt:2,nt:9,next:14057,str:2354,d0:0,d1:0;
                                                         ("w_path_turret_count", VariableAccess<Float> @:14057 op:6,dt:6,nt:13,next:14058,str:25384,d0:23,d1:0;
                                                             (1f, Expression<Float> @:14058 op:6,dt:6,nt:9,next:65535,str:32160,d0:0,d1:16256;)))))))))))
-                    (____, Scope<Void> @:14059 op:2,dt:4,nt:8,next:14081,str:32178,d0:14060,d1:39520;
+                    (____, BuiltinInvocation<Void> @:14059 op:2,dt:4,nt:8,next:14081,str:32178,d0:14060,d1:39520;
                         ("if", Expression<MethodOrOperator> @:14060 op:2,dt:2,nt:9,next:14061,str:509,d0:0,d1:0;
-                            (____, Scope<Boolean> @:14061 op:15,dt:5,nt:8,next:14065,str:32182,d0:14062,d1:39522;
+                            (____, BuiltinInvocation<Boolean> @:14061 op:15,dt:5,nt:8,next:14065,str:32182,d0:14062,d1:39522;
                                 (">", Expression<MethodOrOperator> @:14062 op:15,dt:2,nt:9,next:14063,str:14341,d0:0,d1:0;
                                     ("w_path_turret_count", VariableAccess<Short> @:14063 op:0,dt:7,nt:13,next:14064,str:25384,d0:23,d1:0;
                                         (0, Expression<Short> @:14064 op:7,dt:7,nt:9,next:65535,str:32205,d0:0,d1:65535;))))
-                            (____, Scope<Void> @:14065 op:0,dt:4,nt:8,next:65535,str:32212,d0:14066,d1:39526;
+                            (____, BuiltinInvocation<Void> @:14065 op:0,dt:4,nt:8,next:65535,str:32212,d0:14066,d1:39526;
                                 ("begin", Expression<MethodOrOperator> @:14066 op:0,dt:2,nt:9,next:14067,str:54,d0:0,d1:0;
-                                    (____, Scope<Void> @:14067 op:290,dt:4,nt:8,next:14070,str:32224,d0:14068,d1:39528;
+                                    (____, BuiltinInvocation<Void> @:14067 op:290,dt:4,nt:8,next:14070,str:32224,d0:14068,d1:39528;
                                         ("ai_place", Expression<MethodOrOperator> @:14068 op:290,dt:2,nt:9,next:14069,str:14859,d0:0,d1:0;
                                             ("w_path_heavies/1", Expression<AI> @:14069 op:19,dt:19,nt:9,next:65535,str:25437,d0:1,d1:49223;)))
-                                    (____, Scope<Void> @:14070 op:366,dt:4,nt:8,next:14074,str:32257,d0:14071,d1:39531;
+                                    (____, BuiltinInvocation<Void> @:14070 op:366,dt:4,nt:8,next:14074,str:32257,d0:14071,d1:39531;
                                         ("cs_run_command_script", Expression<MethodOrOperator> @:14071 op:366,dt:2,nt:9,next:14072,str:14517,d0:0,d1:0;
                                             ("w_path_heavies/1", Expression<AI> @:14072 op:19,dt:19,nt:9,next:14073,str:25437,d0:1,d1:49223;
                                                 ("w_path_turret_1", Expression<AIScript> @:14073 op:21,dt:21,nt:9,next:65535,str:25454,d0:267,d1:0;))))
-                                    (____, Scope<Void> @:14074 op:4,dt:4,nt:8,next:65535,str:32319,d0:14075,d1:39535;
+                                    (____, BuiltinInvocation<Void> @:14074 op:4,dt:4,nt:8,next:65535,str:32319,d0:14075,d1:39535;
                                         ("set", Expression<MethodOrOperator> @:14075 op:4,dt:2,nt:9,next:14076,str:1895,d0:0,d1:0;
                                             ("w_path_turret_count", VariableAccess<Short> @:14076 op:65535,dt:7,nt:13,next:14077,str:25384,d0:23,d1:0;
-                                                (____, Scope<Short> @:14077 op:8,dt:7,nt:8,next:65535,str:32344,d0:14078,d1:39538;
+                                                (____, BuiltinInvocation<Short> @:14077 op:8,dt:7,nt:8,next:65535,str:32344,d0:14078,d1:39538;
                                                     ("-", Expression<MethodOrOperator> @:14078 op:8,dt:2,nt:9,next:14079,str:2354,d0:0,d1:0;
                                                         ("w_path_turret_count", VariableAccess<Float> @:14079 op:6,dt:6,nt:13,next:14080,str:25384,d0:23,d1:0;
                                                             (1f, Expression<Float> @:14080 op:6,dt:6,nt:9,next:65535,str:32367,d0:0,d1:16256;)))))))))))
-                    (____, Scope<Void> @:14081 op:2,dt:4,nt:8,next:65535,str:32385,d0:14082,d1:39542;
+                    (____, BuiltinInvocation<Void> @:14081 op:2,dt:4,nt:8,next:65535,str:32385,d0:14082,d1:39542;
                         ("if", Expression<MethodOrOperator> @:14082 op:2,dt:2,nt:9,next:14083,str:509,d0:0,d1:0;
-                            (____, Scope<Boolean> @:14083 op:15,dt:5,nt:8,next:14087,str:32389,d0:14084,d1:39544;
+                            (____, BuiltinInvocation<Boolean> @:14083 op:15,dt:5,nt:8,next:14087,str:32389,d0:14084,d1:39544;
                                 (">", Expression<MethodOrOperator> @:14084 op:15,dt:2,nt:9,next:14085,str:14341,d0:0,d1:0;
                                     ("w_path_turret_count", VariableAccess<Short> @:14085 op:0,dt:7,nt:13,next:14086,str:25384,d0:23,d1:0;
                                         (2, Expression<Short> @:14086 op:7,dt:7,nt:9,next:65535,str:32412,d0:2,d1:65535;))))
-                            (____, Scope<Void> @:14087 op:0,dt:4,nt:8,next:65535,str:32419,d0:14088,d1:39548;
+                            (____, BuiltinInvocation<Void> @:14087 op:0,dt:4,nt:8,next:65535,str:32419,d0:14088,d1:39548;
                                 ("begin", Expression<MethodOrOperator> @:14088 op:0,dt:2,nt:9,next:14089,str:54,d0:0,d1:0;
-                                    (____, Scope<Void> @:14089 op:290,dt:4,nt:8,next:14092,str:32431,d0:14090,d1:39550;
+                                    (____, BuiltinInvocation<Void> @:14089 op:290,dt:4,nt:8,next:14092,str:32431,d0:14090,d1:39550;
                                         ("ai_place", Expression<MethodOrOperator> @:14090 op:290,dt:2,nt:9,next:14091,str:14859,d0:0,d1:0;
                                             ("w_path_heavies/2", Expression<AI> @:14091 op:19,dt:19,nt:9,next:65535,str:25470,d0:2,d1:49223;)))
-                                    (____, Scope<Void> @:14092 op:366,dt:4,nt:8,next:14096,str:32464,d0:14093,d1:39553;
+                                    (____, BuiltinInvocation<Void> @:14092 op:366,dt:4,nt:8,next:14096,str:32464,d0:14093,d1:39553;
                                         ("cs_run_command_script", Expression<MethodOrOperator> @:14093 op:366,dt:2,nt:9,next:14094,str:14517,d0:0,d1:0;
                                             ("w_path_heavies/0", Expression<AI> @:14094 op:19,dt:19,nt:9,next:14095,str:25404,d0:0,d1:49223;
                                                 ("w_path_turret_2", Expression<AIScript> @:14095 op:21,dt:21,nt:9,next:65535,str:25487,d0:268,d1:0;))))
-                                    (____, Scope<Void> @:14096 op:4,dt:4,nt:8,next:65535,str:32526,d0:14097,d1:39557;
+                                    (____, BuiltinInvocation<Void> @:14096 op:4,dt:4,nt:8,next:65535,str:32526,d0:14097,d1:39557;
                                         ("set", Expression<MethodOrOperator> @:14097 op:4,dt:2,nt:9,next:14098,str:1895,d0:0,d1:0;
                                             ("w_path_turret_count", VariableAccess<Short> @:14098 op:65535,dt:7,nt:13,next:14099,str:25384,d0:23,d1:0;
-                                                (____, Scope<Short> @:14099 op:8,dt:7,nt:8,next:65535,str:32551,d0:14100,d1:39560;
+                                                (____, BuiltinInvocation<Short> @:14099 op:8,dt:7,nt:8,next:65535,str:32551,d0:14100,d1:39560;
                                                     ("-", Expression<MethodOrOperator> @:14100 op:8,dt:2,nt:9,next:14101,str:2354,d0:0,d1:0;
                                                         ("w_path_turret_count", VariableAccess<Float> @:14101 op:6,dt:6,nt:13,next:14102,str:25384,d0:23,d1:0;
                                                             (1f, Expression<Float> @:14102 op:6,dt:6,nt:9,next:65535,str:32574,d0:0,d1:16256;))))))))))))))))

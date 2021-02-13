@@ -1,13 +1,13 @@
 
 ("silo_down_600", MethodDecl<Void> @:184 op:0,dt:0,nt:65535,next:6487,str:16583,d0:0,d1:0;
-    (____, Scope<Void> @:6487 op:0,dt:4,nt:8,next:65535,str:9216,d0:6488,d1:64715;
+    (____, BuiltinInvocation<Void> @:6487 op:0,dt:4,nt:8,next:65535,str:9216,d0:6488,d1:64715;
         ("begin", Expression<MethodOrOperator> @:6488 op:0,dt:2,nt:9,next:6474,str:210,d0:0,d1:0;
-            (____, Scope<Void> @:6474 op:266,dt:4,nt:8,next:6479,str:9252,d0:6475,d1:64702;
+            (____, BuiltinInvocation<Void> @:6474 op:266,dt:4,nt:8,next:6479,str:9252,d0:6475,d1:64702;
                 ("device_set_position_track", Expression<MethodOrOperator> @:6475 op:266,dt:2,nt:9,next:6476,str:15363,d0:0,d1:0;
                     ("elev_silo", Expression<Device> @:6476 op:60,dt:54,nt:9,next:6477,str:15218,d0:385,d1:65535;
                         ("down_600", Expression<StringId> @:6477 op:11,dt:11,nt:9,next:6478,str:15431,d0:11713,d1:2048;
                             (0f, Expression<Float> @:6478 op:6,dt:6,nt:9,next:65535,str:9298,d0:0,d1:0;)))))
-            (____, Scope<Void> @:6479 op:268,dt:4,nt:8,next:65535,str:9303,d0:6480,d1:64707;
+            (____, BuiltinInvocation<Void> @:6479 op:268,dt:4,nt:8,next:65535,str:9303,d0:6480,d1:64707;
                 ("device_animate_position", Expression<MethodOrOperator> @:6480 op:268,dt:2,nt:9,next:6481,str:15398,d0:0,d1:0;
                     ("elev_silo", Expression<Device> @:6481 op:60,dt:54,nt:9,next:6482,str:15218,d0:385,d1:65535;
                         (1f, Expression<Float> @:6482 op:6,dt:6,nt:9,next:6483,str:9338,d0:0,d1:16256;

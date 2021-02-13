@@ -1,47 +1,47 @@
 
 ("phantom_fires", MethodDecl<Void> @:131 op:0,dt:0,nt:65535,next:4280,str:10555,d0:0,d1:0;
-    (____, Scope<Void> @:4280 op:0,dt:4,nt:8,next:65535,str:49383,d0:4281,d1:62508;
+    (____, BuiltinInvocation<Void> @:4280 op:0,dt:4,nt:8,next:65535,str:49383,d0:4281,d1:62508;
         ("begin", Expression<MethodOrOperator> @:4281 op:0,dt:2,nt:9,next:4237,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:4237 op:676,dt:4,nt:8,next:4239,str:49417,d0:4238,d1:62465;
+            (____, BuiltinInvocation<Void> @:4237 op:676,dt:4,nt:8,next:4239,str:49417,d0:4238,d1:62465;
                 ("time_code_reset", Expression<MethodOrOperator> @:4238 op:676,dt:2,nt:9,next:65535,str:1554,d0:0,d1:0;))
-            (____, Scope<Void> @:4239 op:19,dt:4,nt:8,next:4242,str:49440,d0:4240,d1:62467;
+            (____, BuiltinInvocation<Void> @:4239 op:19,dt:4,nt:8,next:4242,str:49440,d0:4240,d1:62467;
                 ("sleep", Expression<MethodOrOperator> @:4240 op:19,dt:2,nt:9,next:4241,str:80,d0:0,d1:0;
                     (690, Expression<Short> @:4241 op:7,dt:7,nt:9,next:65535,str:49447,d0:690,d1:65535;)))
-            (____, Scope<Void> @:4242 op:48,dt:4,nt:8,next:4245,str:49454,d0:4243,d1:62470;
+            (____, BuiltinInvocation<Void> @:4242 op:48,dt:4,nt:8,next:4245,str:49454,d0:4243,d1:62470;
                 ("object_create_anew", Expression<MethodOrOperator> @:4243 op:48,dt:2,nt:9,next:4244,str:2344,d0:0,d1:0;
                     ("intro_turret_base", Expression<EntityIdentifier> @:4244 op:56,dt:56,nt:9,next:65535,str:10056,d0:72,d1:65535;)))
-            (____, Scope<Void> @:4245 op:48,dt:4,nt:8,next:4248,str:49495,d0:4246,d1:62473;
+            (____, BuiltinInvocation<Void> @:4245 op:48,dt:4,nt:8,next:4248,str:49495,d0:4246,d1:62473;
                 ("object_create_anew", Expression<MethodOrOperator> @:4246 op:48,dt:2,nt:9,next:4247,str:2344,d0:0,d1:0;
                     ("intro_turret", Expression<EntityIdentifier> @:4247 op:56,dt:56,nt:9,next:65535,str:10074,d0:332,d1:65535;)))
-            (____, Scope<Void> @:4248 op:74,dt:4,nt:8,next:4254,str:49531,d0:4249,d1:62476;
+            (____, BuiltinInvocation<Void> @:4248 op:74,dt:4,nt:8,next:4254,str:49531,d0:4249,d1:62476;
                 ("objects_attach", Expression<MethodOrOperator> @:4249 op:74,dt:2,nt:9,next:4250,str:4858,d0:0,d1:0;
                     (4294901832, Expression<Entity> @:4250 op:56,dt:50,nt:9,next:4251,str:10056,d0:72,d1:65535;
                         ("primary_trigger", Expression<StringId> @:4251 op:11,dt:11,nt:9,next:4252,str:3725,d0:219,d1:3840;
                             (4294902092, Expression<Entity> @:4252 op:56,dt:50,nt:9,next:4253,str:10074,d0:332,d1:65535;
                                 (0, Expression<StringId> @:4253 op:11,dt:11,nt:9,next:65535,str:0,d0:0,d1:0;))))))
-            (____, Scope<Void> @:4254 op:27,dt:4,nt:8,next:4257,str:49604,d0:4255,d1:62482;
+            (____, BuiltinInvocation<Void> @:4254 op:27,dt:4,nt:8,next:4257,str:49604,d0:4255,d1:62482;
                 ("print", Expression<MethodOrOperator> @:4255 op:27,dt:2,nt:9,next:4256,str:86,d0:0,d1:0;
                     ("turret fires", Expression<String> @:4256 op:9,dt:9,nt:9,next:65535,str:10087,d0:10087,d1:0;)))
-            (____, Scope<Void> @:4257 op:251,dt:4,nt:8,next:4262,str:49629,d0:4258,d1:62485;
+            (____, BuiltinInvocation<Void> @:4257 op:251,dt:4,nt:8,next:4262,str:49629,d0:4258,d1:62485;
                 ("weapon_hold_trigger", Expression<MethodOrOperator> @:4258 op:251,dt:2,nt:9,next:4259,str:10100,d0:0,d1:0;
                     ("intro_turret", Expression<WeaponReference> @:4259 op:59,dt:53,nt:9,next:4260,str:10074,d0:332,d1:65535;
                         (0, Expression<Int> @:4260 op:8,dt:8,nt:9,next:4261,str:49663,d0:0,d1:0;
                             (True, Expression<Boolean> @:4261 op:5,dt:5,nt:9,next:65535,str:49665,d0:65281,d1:65535;)))))
-            (____, Scope<Void> @:4262 op:19,dt:4,nt:8,next:4265,str:49673,d0:4263,d1:62490;
+            (____, BuiltinInvocation<Void> @:4262 op:19,dt:4,nt:8,next:4265,str:49673,d0:4263,d1:62490;
                 ("sleep", Expression<MethodOrOperator> @:4263 op:19,dt:2,nt:9,next:4264,str:80,d0:0,d1:0;
                     (30, Expression<Short> @:4264 op:7,dt:7,nt:9,next:65535,str:49680,d0:30,d1:65535;)))
-            (____, Scope<Void> @:4265 op:251,dt:4,nt:8,next:4270,str:49686,d0:4266,d1:62493;
+            (____, BuiltinInvocation<Void> @:4265 op:251,dt:4,nt:8,next:4270,str:49686,d0:4266,d1:62493;
                 ("weapon_hold_trigger", Expression<MethodOrOperator> @:4266 op:251,dt:2,nt:9,next:4267,str:10100,d0:0,d1:0;
                     ("intro_turret", Expression<WeaponReference> @:4267 op:59,dt:53,nt:9,next:4268,str:10074,d0:332,d1:65535;
                         (0, Expression<Int> @:4268 op:8,dt:8,nt:9,next:4269,str:49720,d0:0,d1:0;
                             (False, Expression<Boolean> @:4269 op:5,dt:5,nt:9,next:65535,str:49722,d0:65280,d1:65535;)))))
-            (____, Scope<Void> @:4270 op:76,dt:4,nt:8,next:4274,str:49734,d0:4271,d1:62498;
+            (____, BuiltinInvocation<Void> @:4270 op:76,dt:4,nt:8,next:4274,str:49734,d0:4271,d1:62498;
                 ("objects_detach", Expression<MethodOrOperator> @:4271 op:76,dt:2,nt:9,next:4272,str:10120,d0:0,d1:0;
                     (4294901832, Expression<Entity> @:4272 op:56,dt:50,nt:9,next:4273,str:10056,d0:72,d1:65535;
                         (4294902092, Expression<Entity> @:4273 op:56,dt:50,nt:9,next:65535,str:10074,d0:332,d1:65535;))))
-            (____, Scope<Void> @:4274 op:52,dt:4,nt:8,next:4277,str:49784,d0:4275,d1:62502;
+            (____, BuiltinInvocation<Void> @:4274 op:52,dt:4,nt:8,next:4277,str:49784,d0:4275,d1:62502;
                 ("object_destroy", Expression<MethodOrOperator> @:4275 op:52,dt:2,nt:9,next:4276,str:2551,d0:0,d1:0;
                     (4294902092, Expression<Entity> @:4276 op:56,dt:50,nt:9,next:65535,str:10074,d0:332,d1:65535;)))
-            (____, Scope<Void> @:4277 op:52,dt:4,nt:8,next:65535,str:49816,d0:4278,d1:62505;
+            (____, BuiltinInvocation<Void> @:4277 op:52,dt:4,nt:8,next:65535,str:49816,d0:4278,d1:62505;
                 ("object_destroy", Expression<MethodOrOperator> @:4278 op:52,dt:2,nt:9,next:4279,str:2551,d0:0,d1:0;
                     (4294901832, Expression<Entity> @:4279 op:56,dt:50,nt:9,next:65535,str:10056,d0:72,d1:65535;))))))

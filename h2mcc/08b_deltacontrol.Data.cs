@@ -132,9 +132,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public ScenarioEntity<IDevice> beacon_02 { get; set; }
         public ScenarioEntity<IDevice> beacon_01 { get; set; }
         public ScenarioEntity<IDevice> boss_object_controlw { get; set; }
-        public ICameraPathTarget platform_01a => Scenario.CameraPathTargets[0].GameObject;
-        public ICameraPathTarget platform_01b => Scenario.CameraPathTargets[1].GameObject;
-        public ICameraPathTarget platform_02 => Scenario.CameraPathTargets[2].GameObject;
+        public ICameraPathTarget platform_01a => Scenario.CameraPathTargets[0];
+        public ICameraPathTarget platform_01b => Scenario.CameraPathTargets[1];
+        public ICameraPathTarget platform_02 => Scenario.CameraPathTargets[2];
         public Squad_e1_cov_wraiths0_0 e1_cov_wraiths0_0 { get; set; }
         public Squad_e1_cov_wraiths0_1 e1_cov_wraiths0_1 { get; set; }
         public Squad_e1_cov_spectre0 e1_cov_spectre0 { get; set; }
@@ -467,40 +467,40 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public IAiOrders boss_elite_mid => Scenario.AiOrderDefinitions[160].GameObject;
         public IAiOrders e9_pro_banshees0_init => Scenario.AiOrderDefinitions[161].GameObject;
         public IAiOrders boss_brute_mid => Scenario.AiOrderDefinitions[162].GameObject;
-        public ILocationFlag e2_test => Scenario.LocationFlagDefinitions[0].GameObject;
-        public ILocationFlag e3_test => Scenario.LocationFlagDefinitions[1].GameObject;
-        public ILocationFlag e4_test => Scenario.LocationFlagDefinitions[2].GameObject;
-        public ILocationFlag e5_test => Scenario.LocationFlagDefinitions[3].GameObject;
-        public ILocationFlag e6_test => Scenario.LocationFlagDefinitions[4].GameObject;
-        public ILocationFlag e7_test => Scenario.LocationFlagDefinitions[5].GameObject;
-        public ILocationFlag e12_test => Scenario.LocationFlagDefinitions[6].GameObject;
-        public ILocationFlag anchor_flag_intra3 => Scenario.LocationFlagDefinitions[7].GameObject;
-        public ILocationFlag e8_scarab => Scenario.LocationFlagDefinitions[8].GameObject;
-        public ILocationFlag e9_scarab => Scenario.LocationFlagDefinitions[9].GameObject;
-        public ILocationFlag e10_scarab => Scenario.LocationFlagDefinitions[10].GameObject;
-        public ILocationFlag anchor_flag_intra2 => Scenario.LocationFlagDefinitions[11].GameObject;
-        public ILocationFlag anchor_flag_intra1 => Scenario.LocationFlagDefinitions[12].GameObject;
-        public ILocationFlag e13_cutscene_trigger => Scenario.LocationFlagDefinitions[13].GameObject;
-        public ILocationFlag anchor_flag_x09_02 => Scenario.LocationFlagDefinitions[14].GameObject;
-        public ILocationFlag anchor_flag_x10 => Scenario.LocationFlagDefinitions[15].GameObject;
-        public ILocationFlag anchor_flag_x09_01 => Scenario.LocationFlagDefinitions[16].GameObject;
-        public ILocationFlag anchor_flag_x09_03 => Scenario.LocationFlagDefinitions[17].GameObject;
-        public ILocationFlag e11_exit_door1 => Scenario.LocationFlagDefinitions[18].GameObject;
-        public ILocationFlag player0_start => Scenario.LocationFlagDefinitions[19].GameObject;
-        public ILocationFlag player1_start => Scenario.LocationFlagDefinitions[20].GameObject;
-        public ILocationFlag e11_pro_phantom0_spawn => Scenario.LocationFlagDefinitions[21].GameObject;
-        public ILocationFlag e11_pro_phantom1_spawn => Scenario.LocationFlagDefinitions[22].GameObject;
-        public ILocationFlag e12_cov_banshees0_spawn => Scenario.LocationFlagDefinitions[23].GameObject;
-        public ILocationFlag boss_player0_flag => Scenario.LocationFlagDefinitions[24].GameObject;
-        public ILocationFlag boss_player1_flag => Scenario.LocationFlagDefinitions[25].GameObject;
-        public ILocationFlag player0_e8_start => Scenario.LocationFlagDefinitions[26].GameObject;
-        public ILocationFlag player1_e8_start => Scenario.LocationFlagDefinitions[27].GameObject;
-        public ILocationFlag player0_e8_stash => Scenario.LocationFlagDefinitions[28].GameObject;
-        public ILocationFlag player1_e8_stash => Scenario.LocationFlagDefinitions[29].GameObject;
-        public ILocationFlag e11_door_explosion => Scenario.LocationFlagDefinitions[30].GameObject;
-        public ILocationFlag boss_tartarus_respawn_flag => Scenario.LocationFlagDefinitions[31].GameObject;
-        public ILocationFlag player0_stash => Scenario.LocationFlagDefinitions[32].GameObject;
-        public ILocationFlag player1_stash => Scenario.LocationFlagDefinitions[33].GameObject;
+        public ILocationFlag e2_test => Scenario.LocationFlagDefinitions[0];
+        public ILocationFlag e3_test => Scenario.LocationFlagDefinitions[1];
+        public ILocationFlag e4_test => Scenario.LocationFlagDefinitions[2];
+        public ILocationFlag e5_test => Scenario.LocationFlagDefinitions[3];
+        public ILocationFlag e6_test => Scenario.LocationFlagDefinitions[4];
+        public ILocationFlag e7_test => Scenario.LocationFlagDefinitions[5];
+        public ILocationFlag e12_test => Scenario.LocationFlagDefinitions[6];
+        public ILocationFlag anchor_flag_intra3 => Scenario.LocationFlagDefinitions[7];
+        public ILocationFlag e8_scarab => Scenario.LocationFlagDefinitions[8];
+        public ILocationFlag e9_scarab => Scenario.LocationFlagDefinitions[9];
+        public ILocationFlag e10_scarab => Scenario.LocationFlagDefinitions[10];
+        public ILocationFlag anchor_flag_intra2 => Scenario.LocationFlagDefinitions[11];
+        public ILocationFlag anchor_flag_intra1 => Scenario.LocationFlagDefinitions[12];
+        public ILocationFlag e13_cutscene_trigger => Scenario.LocationFlagDefinitions[13];
+        public ILocationFlag anchor_flag_x09_02 => Scenario.LocationFlagDefinitions[14];
+        public ILocationFlag anchor_flag_x10 => Scenario.LocationFlagDefinitions[15];
+        public ILocationFlag anchor_flag_x09_01 => Scenario.LocationFlagDefinitions[16];
+        public ILocationFlag anchor_flag_x09_03 => Scenario.LocationFlagDefinitions[17];
+        public ILocationFlag e11_exit_door1 => Scenario.LocationFlagDefinitions[18];
+        public ILocationFlag player0_start => Scenario.LocationFlagDefinitions[19];
+        public ILocationFlag player1_start => Scenario.LocationFlagDefinitions[20];
+        public ILocationFlag e11_pro_phantom0_spawn => Scenario.LocationFlagDefinitions[21];
+        public ILocationFlag e11_pro_phantom1_spawn => Scenario.LocationFlagDefinitions[22];
+        public ILocationFlag e12_cov_banshees0_spawn => Scenario.LocationFlagDefinitions[23];
+        public ILocationFlag boss_player0_flag => Scenario.LocationFlagDefinitions[24];
+        public ILocationFlag boss_player1_flag => Scenario.LocationFlagDefinitions[25];
+        public ILocationFlag player0_e8_start => Scenario.LocationFlagDefinitions[26];
+        public ILocationFlag player1_e8_start => Scenario.LocationFlagDefinitions[27];
+        public ILocationFlag player0_e8_stash => Scenario.LocationFlagDefinitions[28];
+        public ILocationFlag player1_e8_stash => Scenario.LocationFlagDefinitions[29];
+        public ILocationFlag e11_door_explosion => Scenario.LocationFlagDefinitions[30];
+        public ILocationFlag boss_tartarus_respawn_flag => Scenario.LocationFlagDefinitions[31];
+        public ILocationFlag player0_stash => Scenario.LocationFlagDefinitions[32];
+        public ILocationFlag player1_stash => Scenario.LocationFlagDefinitions[33];
         public ICinematicTitle title0 => Scenario.CinematicTitleDefinitions[0].GameObject;
         public ICinematicTitle title1 => Scenario.CinematicTitleDefinitions[1].GameObject;
         public ICinematicTitle title2 => Scenario.CinematicTitleDefinitions[2].GameObject;

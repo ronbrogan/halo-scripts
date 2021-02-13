@@ -1,65 +1,65 @@
 
 ("1st_tram", MethodDecl<Void> @:332 op:0,dt:0,nt:65535,next:13890,str:43959,d0:0,d1:0;
-    (____, Scope<Void> @:13890 op:0,dt:4,nt:8,next:65535,str:41029,d0:13891,d1:39351;
+    (____, BuiltinInvocation<Void> @:13890 op:0,dt:4,nt:8,next:65535,str:41029,d0:13891,d1:39351;
         ("begin", Expression<MethodOrOperator> @:13891 op:0,dt:2,nt:9,next:13829,str:11,d0:0,d1:0;
-            (____, Scope<Void> @:13829 op:469,dt:4,nt:8,next:13832,str:41056,d0:13830,d1:39290;
+            (____, BuiltinInvocation<Void> @:13829 op:469,dt:4,nt:8,next:13832,str:41056,d0:13830,d1:39290;
                 ("pvs_set_object", Expression<MethodOrOperator> @:13830 op:469,dt:2,nt:9,next:13831,str:19949,d0:0,d1:0;
                     (4294902168, Expression<Entity> @:13831 op:56,dt:50,nt:9,next:65535,str:31782,d0:408,d1:65535;)))
-            (____, Scope<Void> @:13832 op:48,dt:4,nt:8,next:13835,str:41080,d0:13833,d1:39293;
+            (____, BuiltinInvocation<Void> @:13832 op:48,dt:4,nt:8,next:13835,str:41080,d0:13833,d1:39293;
                 ("object_create_anew", Expression<MethodOrOperator> @:13833 op:48,dt:2,nt:9,next:13834,str:2709,d0:0,d1:0;
                     ("1st_tram_wall_1", Expression<EntityIdentifier> @:13834 op:56,dt:56,nt:9,next:65535,str:31787,d0:476,d1:65535;)))
-            (____, Scope<Void> @:13835 op:48,dt:4,nt:8,next:13838,str:41119,d0:13836,d1:39296;
+            (____, BuiltinInvocation<Void> @:13835 op:48,dt:4,nt:8,next:13838,str:41119,d0:13836,d1:39296;
                 ("object_create_anew", Expression<MethodOrOperator> @:13836 op:48,dt:2,nt:9,next:13837,str:2709,d0:0,d1:0;
                     ("1st_tram_wall_2", Expression<EntityIdentifier> @:13837 op:56,dt:56,nt:9,next:65535,str:31803,d0:477,d1:65535;)))
-            (____, Scope<Void> @:13838 op:258,dt:4,nt:8,next:13842,str:41158,d0:13839,d1:39299;
+            (____, BuiltinInvocation<Void> @:13838 op:258,dt:4,nt:8,next:13842,str:41158,d0:13839,d1:39299;
                 ("device_set_position_immediate", Expression<MethodOrOperator> @:13839 op:258,dt:2,nt:9,next:13840,str:31819,d0:0,d1:0;
                     ("tram", Expression<Device> @:13840 op:60,dt:54,nt:9,next:13841,str:31782,d0:408,d1:65535;
                         (1f, Expression<Float> @:13841 op:6,dt:6,nt:9,next:65535,str:41194,d0:0,d1:16256;))))
-            (____, Scope<Void> @:13842 op:258,dt:4,nt:8,next:13846,str:41199,d0:13843,d1:39303;
+            (____, BuiltinInvocation<Void> @:13842 op:258,dt:4,nt:8,next:13846,str:41199,d0:13843,d1:39303;
                 ("device_set_position_immediate", Expression<MethodOrOperator> @:13843 op:258,dt:2,nt:9,next:13844,str:31819,d0:0,d1:0;
                     ("1st_door_tram", Expression<Device> @:13844 op:60,dt:54,nt:9,next:13845,str:31849,d0:470,d1:65535;
                         (1f, Expression<Float> @:13845 op:6,dt:6,nt:9,next:65535,str:41244,d0:0,d1:16256;))))
-            (____, Scope<Void> @:13846 op:19,dt:4,nt:8,next:13849,str:41249,d0:13847,d1:39307;
+            (____, BuiltinInvocation<Void> @:13846 op:19,dt:4,nt:8,next:13849,str:41249,d0:13847,d1:39307;
                 ("sleep", Expression<MethodOrOperator> @:13847 op:19,dt:2,nt:9,next:13848,str:90,d0:0,d1:0;
                     (1, Expression<Short> @:13848 op:7,dt:7,nt:9,next:65535,str:41256,d0:1,d1:65535;)))
-            (____, Scope<Void> @:13849 op:471,dt:4,nt:8,next:13851,str:41261,d0:13850,d1:39310;
+            (____, BuiltinInvocation<Void> @:13849 op:471,dt:4,nt:8,next:13851,str:41261,d0:13850,d1:39310;
                 ("pvs_clear", Expression<MethodOrOperator> @:13850 op:471,dt:2,nt:9,next:65535,str:31863,d0:0,d1:0;))
-            (____, Scope<Void> @:13851 op:290,dt:4,nt:8,next:13854,str:41275,d0:13852,d1:39312;
+            (____, BuiltinInvocation<Void> @:13851 op:290,dt:4,nt:8,next:13854,str:41275,d0:13852,d1:39312;
                 ("ai_place", Expression<MethodOrOperator> @:13852 op:290,dt:2,nt:9,next:13853,str:16693,d0:0,d1:0;
                     ("1st_hum_tram", Expression<AI> @:13853 op:19,dt:19,nt:9,next:65535,str:31873,d0:5,d1:0;)))
-            (____, Scope<Void> @:13854 op:110,dt:4,nt:8,next:13861,str:41301,d0:13855,d1:39315;
+            (____, BuiltinInvocation<Void> @:13854 op:110,dt:4,nt:8,next:13861,str:41301,d0:13855,d1:39315;
                 ("object_set_permutation", Expression<MethodOrOperator> @:13855 op:110,dt:2,nt:9,next:13856,str:3102,d0:0,d1:0;
-                    (____, Scope<Entity> @:13856 op:284,dt:50,nt:8,next:13859,str:41325,d0:13857,d1:39317;
+                    (____, BuiltinInvocation<Entity> @:13856 op:284,dt:50,nt:8,next:13859,str:41325,d0:13857,d1:39317;
                         ("ai_get_object", Expression<MethodOrOperator> @:13857 op:284,dt:2,nt:9,next:13858,str:31886,d0:0,d1:0;
                             ("1st_hum_johnson", Expression<AI> @:13858 op:19,dt:19,nt:9,next:65535,str:31900,d0:0,d1:0;)))
                     ("helmet", Expression<StringId> @:13859 op:11,dt:11,nt:9,next:13860,str:3125,d0:3776,d1:1536;
                         (0, Expression<StringId> @:13860 op:11,dt:11,nt:9,next:65535,str:0,d0:0,d1:0;))))
-            (____, Scope<Void> @:13861 op:19,dt:4,nt:8,next:13864,str:41372,d0:13862,d1:39322;
+            (____, BuiltinInvocation<Void> @:13861 op:19,dt:4,nt:8,next:13864,str:41372,d0:13862,d1:39322;
                 ("sleep", Expression<MethodOrOperator> @:13862 op:19,dt:2,nt:9,next:13863,str:90,d0:0,d1:0;
                     (30, Expression<Short> @:13863 op:7,dt:7,nt:9,next:65535,str:41379,d0:30,d1:65535;)))
-            (____, Scope<Void> @:13864 op:256,dt:4,nt:8,next:13868,str:41385,d0:13865,d1:39325;
+            (____, BuiltinInvocation<Void> @:13864 op:256,dt:4,nt:8,next:13868,str:41385,d0:13865,d1:39325;
                 ("device_set_position", Expression<MethodOrOperator> @:13865 op:256,dt:2,nt:9,next:13866,str:3025,d0:0,d1:0;
                     ("tram", Expression<Device> @:13866 op:60,dt:54,nt:9,next:13867,str:31782,d0:408,d1:65535;
                         (0f, Expression<Float> @:13867 op:6,dt:6,nt:9,next:65535,str:41411,d0:0,d1:0;))))
-            (____, Scope<Void> @:13868 op:19,dt:4,nt:8,next:13871,str:41416,d0:13869,d1:39329;
+            (____, BuiltinInvocation<Void> @:13868 op:19,dt:4,nt:8,next:13871,str:41416,d0:13869,d1:39329;
                 ("sleep", Expression<MethodOrOperator> @:13869 op:19,dt:2,nt:9,next:13870,str:90,d0:0,d1:0;
                     (360, Expression<Short> @:13870 op:7,dt:7,nt:9,next:65535,str:41423,d0:360,d1:65535;)))
-            (____, Scope<Void> @:13871 op:256,dt:4,nt:8,next:13875,str:41430,d0:13872,d1:39332;
+            (____, BuiltinInvocation<Void> @:13871 op:256,dt:4,nt:8,next:13875,str:41430,d0:13872,d1:39332;
                 ("device_set_position", Expression<MethodOrOperator> @:13872 op:256,dt:2,nt:9,next:13873,str:3025,d0:0,d1:0;
                     ("1st_door_tram", Expression<Device> @:13873 op:60,dt:54,nt:9,next:13874,str:31849,d0:470,d1:65535;
                         (0f, Expression<Float> @:13874 op:6,dt:6,nt:9,next:65535,str:41465,d0:0,d1:0;))))
-            (____, Scope<Void> @:13875 op:19,dt:4,nt:8,next:13878,str:41470,d0:13876,d1:39336;
+            (____, BuiltinInvocation<Void> @:13875 op:19,dt:4,nt:8,next:13878,str:41470,d0:13876,d1:39336;
                 ("sleep", Expression<MethodOrOperator> @:13876 op:19,dt:2,nt:9,next:13877,str:90,d0:0,d1:0;
                     (90, Expression<Short> @:13877 op:7,dt:7,nt:9,next:65535,str:41477,d0:90,d1:65535;)))
-            (____, Scope<Void> @:13878 op:298,dt:4,nt:8,next:13881,str:41483,d0:13879,d1:39339;
+            (____, BuiltinInvocation<Void> @:13878 op:298,dt:4,nt:8,next:13881,str:41483,d0:13879,d1:39339;
                 ("ai_erase", Expression<MethodOrOperator> @:13879 op:298,dt:2,nt:9,next:13880,str:31916,d0:0,d1:0;
                     ("1st_hum_tram", Expression<AI> @:13880 op:19,dt:19,nt:9,next:65535,str:31873,d0:5,d1:0;)))
-            (____, Scope<Void> @:13881 op:52,dt:4,nt:8,next:13884,str:41509,d0:13882,d1:39342;
+            (____, BuiltinInvocation<Void> @:13881 op:52,dt:4,nt:8,next:13884,str:41509,d0:13882,d1:39342;
                 ("object_destroy", Expression<MethodOrOperator> @:13882 op:52,dt:2,nt:9,next:13883,str:2937,d0:0,d1:0;
                     (4294902236, Expression<Entity> @:13883 op:56,dt:50,nt:9,next:65535,str:31787,d0:476,d1:65535;)))
-            (____, Scope<Void> @:13884 op:52,dt:4,nt:8,next:13887,str:41544,d0:13885,d1:39345;
+            (____, BuiltinInvocation<Void> @:13884 op:52,dt:4,nt:8,next:13887,str:41544,d0:13885,d1:39345;
                 ("object_destroy", Expression<MethodOrOperator> @:13885 op:52,dt:2,nt:9,next:13886,str:2937,d0:0,d1:0;
                     (4294902237, Expression<Entity> @:13886 op:56,dt:50,nt:9,next:65535,str:31803,d0:477,d1:65535;)))
-            (____, Scope<Void> @:13887 op:52,dt:4,nt:8,next:65535,str:41579,d0:13888,d1:39348;
+            (____, BuiltinInvocation<Void> @:13887 op:52,dt:4,nt:8,next:65535,str:41579,d0:13888,d1:39348;
                 ("object_destroy", Expression<MethodOrOperator> @:13888 op:52,dt:2,nt:9,next:13889,str:2937,d0:0,d1:0;
                     (4294902168, Expression<Entity> @:13889 op:56,dt:50,nt:9,next:65535,str:31782,d0:408,d1:65535;))))))

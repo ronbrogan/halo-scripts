@@ -1,172 +1,172 @@
 
 ("e13_navpoints", MethodDecl<Void> @:175 op:0,dt:0,nt:65535,next:6112,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:6112 op:0,dt:4,nt:8,next:65535,str:3754,d0:6113,d1:64340;
+    (____, BuiltinInvocation<Void> @:6112 op:0,dt:4,nt:8,next:65535,str:3754,d0:6113,d1:64340;
         ("begin", Expression<MethodOrOperator> @:6113 op:0,dt:2,nt:9,next:5944,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:5944 op:640,dt:4,nt:8,next:5952,str:3810,d0:5945,d1:64172;
+            (____, BuiltinInvocation<Void> @:5944 op:640,dt:4,nt:8,next:5952,str:3810,d0:5945,d1:64172;
                 ("activate_team_nav_point_object", Expression<MethodOrOperator> @:5945 op:640,dt:2,nt:9,next:5946,str:12723,d0:0,d1:0;
                     ("default", Expression<NavigationPoint> @:5946 op:27,dt:27,nt:9,next:5947,str:12754,d0:0,d1:0;
                         ("player", Expression<Team> @:5947 op:45,dt:45,nt:9,next:5948,str:12762,d0:1,d1:65535;
-                            (____, Scope<Entity> @:5948 op:341,dt:50,nt:8,next:5951,str:3857,d0:5949,d1:64176;
+                            (____, BuiltinInvocation<Entity> @:5948 op:341,dt:50,nt:8,next:5951,str:3857,d0:5949,d1:64176;
                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:5949 op:341,dt:2,nt:9,next:5950,str:4431,d0:0,d1:0;
                                     ("e13_cov_creep0_0/creep0", Expression<AI> @:5950 op:19,dt:19,nt:9,next:65535,str:12335,d0:0,d1:49269;)))
                             (1.5f, Expression<Float> @:5951 op:6,dt:6,nt:9,next:65535,str:3921,d0:0,d1:16320;)))))
-            (____, Scope<Void> @:5952 op:21,dt:4,nt:8,next:5985,str:3980,d0:5953,d1:64180;
+            (____, BuiltinInvocation<Void> @:5952 op:21,dt:4,nt:8,next:5985,str:3980,d0:5953,d1:64180;
                 ("sleep_until", Expression<MethodOrOperator> @:5953 op:21,dt:2,nt:9,next:5954,str:294,d0:0,d1:0;
-                    (____, Scope<Boolean> @:5954 op:6,dt:5,nt:8,next:65535,str:3996,d0:5955,d1:64182;
+                    (____, BuiltinInvocation<Boolean> @:5954 op:6,dt:5,nt:8,next:65535,str:3996,d0:5955,d1:64182;
                         ("or", Expression<MethodOrOperator> @:5955 op:6,dt:2,nt:9,next:5956,str:907,d0:0,d1:0;
-                            (____, Scope<Boolean> @:5956 op:18,dt:5,nt:8,next:5964,str:4004,d0:5957,d1:64184;
+                            (____, BuiltinInvocation<Boolean> @:5956 op:18,dt:5,nt:8,next:5964,str:4004,d0:5957,d1:64184;
                                 ("<=", Expression<MethodOrOperator> @:5957 op:18,dt:2,nt:9,next:5958,str:12055,d0:0,d1:0;
-                                    (-4.8311967E+35f, Scope<Float> @:5958 op:239,dt:6,nt:8,next:5963,str:4008,d0:5959,d1:64186;
+                                    (-4.8311967E+35f, BuiltinInvocation<Float> @:5958 op:239,dt:6,nt:8,next:5963,str:4008,d0:5959,d1:64186;
                                         ("unit_get_health", Expression<MethodOrOperator> @:5959 op:239,dt:2,nt:9,next:5960,str:12769,d0:0,d1:0;
-                                            (____, Scope<Unit> @:5960 op:285,dt:51,nt:8,next:65535,str:4025,d0:5961,d1:64188;
+                                            (____, BuiltinInvocation<Unit> @:5960 op:285,dt:51,nt:8,next:65535,str:4025,d0:5961,d1:64188;
                                                 ("ai_get_unit", Expression<MethodOrOperator> @:5961 op:285,dt:2,nt:9,next:5962,str:12785,d0:0,d1:0;
                                                     ("e13_cov_creep0_0/creep0", Expression<AI> @:5962 op:19,dt:19,nt:9,next:65535,str:12335,d0:0,d1:49269;)))))
                                     (0f, Expression<Float> @:5963 op:6,dt:6,nt:9,next:65535,str:4064,d0:0,d1:0;)))
-                            (____, Scope<Boolean> @:5964 op:16,dt:5,nt:8,next:5980,str:4071,d0:5965,d1:64192;
+                            (____, BuiltinInvocation<Boolean> @:5964 op:16,dt:5,nt:8,next:5980,str:4071,d0:5965,d1:64192;
                                 ("<", Expression<MethodOrOperator> @:5965 op:16,dt:2,nt:9,next:5966,str:910,d0:0,d1:0;
-                                    (-5.0388917E+35f, Scope<Float> @:5966 op:114,dt:6,nt:8,next:5973,str:4074,d0:5967,d1:64194;
+                                    (-5.0388917E+35f, BuiltinInvocation<Float> @:5966 op:114,dt:6,nt:8,next:5973,str:4074,d0:5967,d1:64194;
                                         ("objects_distance_to_object", Expression<MethodOrOperator> @:5967 op:114,dt:2,nt:9,next:5968,str:12797,d0:0,d1:0;
-                                            (____, Scope<List> @:5968 op:28,dt:31,nt:8,next:5970,str:4102,d0:5969,d1:64196;
+                                            (____, BuiltinInvocation<List> @:5968 op:28,dt:31,nt:8,next:5970,str:4102,d0:5969,d1:64196;
                                                 ("players", Expression<MethodOrOperator> @:5969 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;))
-                                            (____, Scope<Entity> @:5970 op:341,dt:50,nt:8,next:65535,str:4112,d0:5971,d1:64198;
+                                            (____, BuiltinInvocation<Entity> @:5970 op:341,dt:50,nt:8,next:65535,str:4112,d0:5971,d1:64198;
                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:5971 op:341,dt:2,nt:9,next:5972,str:4431,d0:0,d1:0;
                                                     ("e13_cov_creep0_1/creep0", Expression<AI> @:5972 op:19,dt:19,nt:9,next:65535,str:12074,d0:0,d1:49270;)))))
-                                    (-5.220625E+35f, Scope<Float> @:5973 op:114,dt:6,nt:8,next:65535,str:4177,d0:5974,d1:64201;
+                                    (-5.220625E+35f, BuiltinInvocation<Float> @:5973 op:114,dt:6,nt:8,next:65535,str:4177,d0:5974,d1:64201;
                                         ("objects_distance_to_object", Expression<MethodOrOperator> @:5974 op:114,dt:2,nt:9,next:5975,str:12797,d0:0,d1:0;
-                                            (____, Scope<List> @:5975 op:28,dt:31,nt:8,next:5977,str:4205,d0:5976,d1:64203;
+                                            (____, BuiltinInvocation<List> @:5975 op:28,dt:31,nt:8,next:5977,str:4205,d0:5976,d1:64203;
                                                 ("players", Expression<MethodOrOperator> @:5976 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;))
-                                            (____, Scope<Entity> @:5977 op:341,dt:50,nt:8,next:65535,str:4215,d0:5978,d1:64205;
+                                            (____, BuiltinInvocation<Entity> @:5977 op:341,dt:50,nt:8,next:65535,str:4215,d0:5978,d1:64205;
                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:5978 op:341,dt:2,nt:9,next:5979,str:4431,d0:0,d1:0;
                                                     ("e13_cov_creep0_0/creep0", Expression<AI> @:5979 op:19,dt:19,nt:9,next:65535,str:12335,d0:0,d1:49269;)))))))
-                            (____, Scope<Boolean> @:5980 op:33,dt:5,nt:8,next:65535,str:4285,d0:5981,d1:64208;
+                            (____, BuiltinInvocation<Boolean> @:5980 op:33,dt:5,nt:8,next:65535,str:4285,d0:5981,d1:64208;
                                 ("volume_test_objects", Expression<MethodOrOperator> @:5981 op:33,dt:2,nt:9,next:5982,str:11142,d0:0,d1:0;
                                     ("tv_e13_waypoint1", Expression<Trigger> @:5982 op:13,dt:13,nt:9,next:5983,str:12668,d0:95,d1:0;
-                                        (____, Scope<List> @:5983 op:28,dt:31,nt:8,next:65535,str:4323,d0:5984,d1:64211;
+                                        (____, BuiltinInvocation<List> @:5983 op:28,dt:31,nt:8,next:65535,str:4323,d0:5984,d1:64211;
                                             ("players", Expression<MethodOrOperator> @:5984 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;)))))))))
-            (____, Scope<Void> @:5985 op:644,dt:4,nt:8,next:5991,str:4359,d0:5986,d1:64213;
+            (____, BuiltinInvocation<Void> @:5985 op:644,dt:4,nt:8,next:5991,str:4359,d0:5986,d1:64213;
                 ("deactivate_team_nav_point_object", Expression<MethodOrOperator> @:5986 op:644,dt:2,nt:9,next:5987,str:12824,d0:0,d1:0;
                     ("player", Expression<Team> @:5987 op:45,dt:45,nt:9,next:5988,str:12762,d0:1,d1:65535;
-                        (____, Scope<Entity> @:5988 op:341,dt:50,nt:8,next:65535,str:4400,d0:5989,d1:64216;
+                        (____, BuiltinInvocation<Entity> @:5988 op:341,dt:50,nt:8,next:65535,str:4400,d0:5989,d1:64216;
                             ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:5989 op:341,dt:2,nt:9,next:5990,str:4431,d0:0,d1:0;
                                 ("e13_cov_creep0_0/creep0", Expression<AI> @:5990 op:19,dt:19,nt:9,next:65535,str:12335,d0:0,d1:49269;))))))
-            (____, Scope<Void> @:5991 op:640,dt:4,nt:8,next:5999,str:4468,d0:5992,d1:64219;
+            (____, BuiltinInvocation<Void> @:5991 op:640,dt:4,nt:8,next:5999,str:4468,d0:5992,d1:64219;
                 ("activate_team_nav_point_object", Expression<MethodOrOperator> @:5992 op:640,dt:2,nt:9,next:5993,str:12723,d0:0,d1:0;
                     ("default", Expression<NavigationPoint> @:5993 op:27,dt:27,nt:9,next:5994,str:12754,d0:0,d1:0;
                         ("player", Expression<Team> @:5994 op:45,dt:45,nt:9,next:5995,str:12762,d0:1,d1:65535;
-                            (____, Scope<Entity> @:5995 op:341,dt:50,nt:8,next:5998,str:4515,d0:5996,d1:64223;
+                            (____, BuiltinInvocation<Entity> @:5995 op:341,dt:50,nt:8,next:5998,str:4515,d0:5996,d1:64223;
                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:5996 op:341,dt:2,nt:9,next:5997,str:4431,d0:0,d1:0;
                                     ("e13_cov_creep0_1/creep0", Expression<AI> @:5997 op:19,dt:19,nt:9,next:65535,str:12074,d0:0,d1:49270;)))
                             (1.5f, Expression<Float> @:5998 op:6,dt:6,nt:9,next:65535,str:4579,d0:0,d1:16320;)))))
-            (____, Scope<Void> @:5999 op:21,dt:4,nt:8,next:6032,str:4638,d0:6000,d1:64227;
+            (____, BuiltinInvocation<Void> @:5999 op:21,dt:4,nt:8,next:6032,str:4638,d0:6000,d1:64227;
                 ("sleep_until", Expression<MethodOrOperator> @:6000 op:21,dt:2,nt:9,next:6001,str:294,d0:0,d1:0;
-                    (____, Scope<Boolean> @:6001 op:6,dt:5,nt:8,next:65535,str:4654,d0:6002,d1:64229;
+                    (____, BuiltinInvocation<Boolean> @:6001 op:6,dt:5,nt:8,next:65535,str:4654,d0:6002,d1:64229;
                         ("or", Expression<MethodOrOperator> @:6002 op:6,dt:2,nt:9,next:6003,str:907,d0:0,d1:0;
-                            (____, Scope<Boolean> @:6003 op:18,dt:5,nt:8,next:6011,str:4662,d0:6004,d1:64231;
+                            (____, BuiltinInvocation<Boolean> @:6003 op:18,dt:5,nt:8,next:6011,str:4662,d0:6004,d1:64231;
                                 ("<=", Expression<MethodOrOperator> @:6004 op:18,dt:2,nt:9,next:6005,str:12055,d0:0,d1:0;
-                                    (-6.051405E+35f, Scope<Float> @:6005 op:239,dt:6,nt:8,next:6010,str:4666,d0:6006,d1:64233;
+                                    (-6.051405E+35f, BuiltinInvocation<Float> @:6005 op:239,dt:6,nt:8,next:6010,str:4666,d0:6006,d1:64233;
                                         ("unit_get_health", Expression<MethodOrOperator> @:6006 op:239,dt:2,nt:9,next:6007,str:12769,d0:0,d1:0;
-                                            (____, Scope<Unit> @:6007 op:285,dt:51,nt:8,next:65535,str:4683,d0:6008,d1:64235;
+                                            (____, BuiltinInvocation<Unit> @:6007 op:285,dt:51,nt:8,next:65535,str:4683,d0:6008,d1:64235;
                                                 ("ai_get_unit", Expression<MethodOrOperator> @:6008 op:285,dt:2,nt:9,next:6009,str:12785,d0:0,d1:0;
                                                     ("e13_cov_creep0_1/creep0", Expression<AI> @:6009 op:19,dt:19,nt:9,next:65535,str:12074,d0:0,d1:49270;)))))
                                     (0f, Expression<Float> @:6010 op:6,dt:6,nt:9,next:65535,str:4722,d0:0,d1:0;)))
-                            (____, Scope<Boolean> @:6011 op:16,dt:5,nt:8,next:6027,str:4729,d0:6012,d1:64239;
+                            (____, BuiltinInvocation<Boolean> @:6011 op:16,dt:5,nt:8,next:6027,str:4729,d0:6012,d1:64239;
                                 ("<", Expression<MethodOrOperator> @:6012 op:16,dt:2,nt:9,next:6013,str:910,d0:0,d1:0;
-                                    (-6.2591E+35f, Scope<Float> @:6013 op:114,dt:6,nt:8,next:6020,str:4732,d0:6014,d1:64241;
+                                    (-6.2591E+35f, BuiltinInvocation<Float> @:6013 op:114,dt:6,nt:8,next:6020,str:4732,d0:6014,d1:64241;
                                         ("objects_distance_to_object", Expression<MethodOrOperator> @:6014 op:114,dt:2,nt:9,next:6015,str:12797,d0:0,d1:0;
-                                            (____, Scope<List> @:6015 op:28,dt:31,nt:8,next:6017,str:4760,d0:6016,d1:64243;
+                                            (____, BuiltinInvocation<List> @:6015 op:28,dt:31,nt:8,next:6017,str:4760,d0:6016,d1:64243;
                                                 ("players", Expression<MethodOrOperator> @:6016 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;))
-                                            (____, Scope<Entity> @:6017 op:341,dt:50,nt:8,next:65535,str:4770,d0:6018,d1:64245;
+                                            (____, BuiltinInvocation<Entity> @:6017 op:341,dt:50,nt:8,next:65535,str:4770,d0:6018,d1:64245;
                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:6018 op:341,dt:2,nt:9,next:6019,str:4431,d0:0,d1:0;
                                                     ("e13_cov_creep0_2/creep0", Expression<AI> @:6019 op:19,dt:19,nt:9,next:65535,str:12098,d0:0,d1:49271;)))))
-                                    (-6.4408333E+35f, Scope<Float> @:6020 op:114,dt:6,nt:8,next:65535,str:4835,d0:6021,d1:64248;
+                                    (-6.4408333E+35f, BuiltinInvocation<Float> @:6020 op:114,dt:6,nt:8,next:65535,str:4835,d0:6021,d1:64248;
                                         ("objects_distance_to_object", Expression<MethodOrOperator> @:6021 op:114,dt:2,nt:9,next:6022,str:12797,d0:0,d1:0;
-                                            (____, Scope<List> @:6022 op:28,dt:31,nt:8,next:6024,str:4863,d0:6023,d1:64250;
+                                            (____, BuiltinInvocation<List> @:6022 op:28,dt:31,nt:8,next:6024,str:4863,d0:6023,d1:64250;
                                                 ("players", Expression<MethodOrOperator> @:6023 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;))
-                                            (____, Scope<Entity> @:6024 op:341,dt:50,nt:8,next:65535,str:4873,d0:6025,d1:64252;
+                                            (____, BuiltinInvocation<Entity> @:6024 op:341,dt:50,nt:8,next:65535,str:4873,d0:6025,d1:64252;
                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:6025 op:341,dt:2,nt:9,next:6026,str:4431,d0:0,d1:0;
                                                     ("e13_cov_creep0_1/creep0", Expression<AI> @:6026 op:19,dt:19,nt:9,next:65535,str:12074,d0:0,d1:49270;)))))))
-                            (____, Scope<Boolean> @:6027 op:33,dt:5,nt:8,next:65535,str:4943,d0:6028,d1:64255;
+                            (____, BuiltinInvocation<Boolean> @:6027 op:33,dt:5,nt:8,next:65535,str:4943,d0:6028,d1:64255;
                                 ("volume_test_objects", Expression<MethodOrOperator> @:6028 op:33,dt:2,nt:9,next:6029,str:11142,d0:0,d1:0;
                                     ("tv_e13_waypoint1", Expression<Trigger> @:6029 op:13,dt:13,nt:9,next:6030,str:12668,d0:95,d1:0;
-                                        (____, Scope<List> @:6030 op:28,dt:31,nt:8,next:65535,str:4981,d0:6031,d1:64258;
+                                        (____, BuiltinInvocation<List> @:6030 op:28,dt:31,nt:8,next:65535,str:4981,d0:6031,d1:64258;
                                             ("players", Expression<MethodOrOperator> @:6031 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;)))))))))
-            (____, Scope<Void> @:6032 op:644,dt:4,nt:8,next:6038,str:5017,d0:6033,d1:64260;
+            (____, BuiltinInvocation<Void> @:6032 op:644,dt:4,nt:8,next:6038,str:5017,d0:6033,d1:64260;
                 ("deactivate_team_nav_point_object", Expression<MethodOrOperator> @:6033 op:644,dt:2,nt:9,next:6034,str:12824,d0:0,d1:0;
                     ("player", Expression<Team> @:6034 op:45,dt:45,nt:9,next:6035,str:12762,d0:1,d1:65535;
-                        (____, Scope<Entity> @:6035 op:341,dt:50,nt:8,next:65535,str:5058,d0:6036,d1:64263;
+                        (____, BuiltinInvocation<Entity> @:6035 op:341,dt:50,nt:8,next:65535,str:5058,d0:6036,d1:64263;
                             ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:6036 op:341,dt:2,nt:9,next:6037,str:4431,d0:0,d1:0;
                                 ("e13_cov_creep0_1/creep0", Expression<AI> @:6037 op:19,dt:19,nt:9,next:65535,str:12074,d0:0,d1:49270;))))))
-            (____, Scope<Void> @:6038 op:640,dt:4,nt:8,next:6046,str:5126,d0:6039,d1:64266;
+            (____, BuiltinInvocation<Void> @:6038 op:640,dt:4,nt:8,next:6046,str:5126,d0:6039,d1:64266;
                 ("activate_team_nav_point_object", Expression<MethodOrOperator> @:6039 op:640,dt:2,nt:9,next:6040,str:12723,d0:0,d1:0;
                     ("default", Expression<NavigationPoint> @:6040 op:27,dt:27,nt:9,next:6041,str:12754,d0:0,d1:0;
                         ("player", Expression<Team> @:6041 op:45,dt:45,nt:9,next:6042,str:12762,d0:1,d1:65535;
-                            (____, Scope<Entity> @:6042 op:341,dt:50,nt:8,next:6045,str:5173,d0:6043,d1:64270;
+                            (____, BuiltinInvocation<Entity> @:6042 op:341,dt:50,nt:8,next:6045,str:5173,d0:6043,d1:64270;
                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:6043 op:341,dt:2,nt:9,next:6044,str:4431,d0:0,d1:0;
                                     ("e13_cov_creep0_2/creep0", Expression<AI> @:6044 op:19,dt:19,nt:9,next:65535,str:12098,d0:0,d1:49271;)))
                             (1.5f, Expression<Float> @:6045 op:6,dt:6,nt:9,next:65535,str:5237,d0:0,d1:16320;)))))
-            (____, Scope<Void> @:6046 op:21,dt:4,nt:8,next:6063,str:5300,d0:6047,d1:64274;
+            (____, BuiltinInvocation<Void> @:6046 op:21,dt:4,nt:8,next:6063,str:5300,d0:6047,d1:64274;
                 ("sleep_until", Expression<MethodOrOperator> @:6047 op:21,dt:2,nt:9,next:6048,str:294,d0:0,d1:0;
-                    (____, Scope<Boolean> @:6048 op:6,dt:5,nt:8,next:65535,str:5316,d0:6049,d1:64276;
+                    (____, BuiltinInvocation<Boolean> @:6048 op:6,dt:5,nt:8,next:65535,str:5316,d0:6049,d1:64276;
                         ("or", Expression<MethodOrOperator> @:6049 op:6,dt:2,nt:9,next:6050,str:907,d0:0,d1:0;
-                            (____, Scope<Boolean> @:6050 op:18,dt:5,nt:8,next:6058,str:5324,d0:6051,d1:64278;
+                            (____, BuiltinInvocation<Boolean> @:6050 op:18,dt:5,nt:8,next:6058,str:5324,d0:6051,d1:64278;
                                 ("<=", Expression<MethodOrOperator> @:6051 op:18,dt:2,nt:9,next:6052,str:12055,d0:0,d1:0;
-                                    (-7.897087E+35f, Scope<Float> @:6052 op:239,dt:6,nt:8,next:6057,str:5328,d0:6053,d1:64280;
+                                    (-7.897087E+35f, BuiltinInvocation<Float> @:6052 op:239,dt:6,nt:8,next:6057,str:5328,d0:6053,d1:64280;
                                         ("unit_get_health", Expression<MethodOrOperator> @:6053 op:239,dt:2,nt:9,next:6054,str:12769,d0:0,d1:0;
-                                            (____, Scope<Unit> @:6054 op:285,dt:51,nt:8,next:65535,str:5345,d0:6055,d1:64282;
+                                            (____, BuiltinInvocation<Unit> @:6054 op:285,dt:51,nt:8,next:65535,str:5345,d0:6055,d1:64282;
                                                 ("ai_get_unit", Expression<MethodOrOperator> @:6055 op:285,dt:2,nt:9,next:6056,str:12785,d0:0,d1:0;
                                                     ("e13_cov_creep0_2/creep0", Expression<AI> @:6056 op:19,dt:19,nt:9,next:65535,str:12098,d0:0,d1:49271;)))))
                                     (0f, Expression<Float> @:6057 op:6,dt:6,nt:9,next:65535,str:5384,d0:0,d1:0;)))
-                            (____, Scope<Boolean> @:6058 op:33,dt:5,nt:8,next:65535,str:5391,d0:6059,d1:64286;
+                            (____, BuiltinInvocation<Boolean> @:6058 op:33,dt:5,nt:8,next:65535,str:5391,d0:6059,d1:64286;
                                 ("volume_test_objects", Expression<MethodOrOperator> @:6059 op:33,dt:2,nt:9,next:6060,str:11142,d0:0,d1:0;
                                     ("tv_e13_waypoint1", Expression<Trigger> @:6060 op:13,dt:13,nt:9,next:6061,str:12668,d0:95,d1:0;
-                                        (____, Scope<List> @:6061 op:28,dt:31,nt:8,next:65535,str:5429,d0:6062,d1:64289;
+                                        (____, BuiltinInvocation<List> @:6061 op:28,dt:31,nt:8,next:65535,str:5429,d0:6062,d1:64289;
                                             ("players", Expression<MethodOrOperator> @:6062 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;)))))))))
-            (____, Scope<Void> @:6063 op:644,dt:4,nt:8,next:6069,str:5468,d0:6064,d1:64291;
+            (____, BuiltinInvocation<Void> @:6063 op:644,dt:4,nt:8,next:6069,str:5468,d0:6064,d1:64291;
                 ("deactivate_team_nav_point_object", Expression<MethodOrOperator> @:6064 op:644,dt:2,nt:9,next:6065,str:12824,d0:0,d1:0;
                     ("player", Expression<Team> @:6065 op:45,dt:45,nt:9,next:6066,str:12762,d0:1,d1:65535;
-                        (____, Scope<Entity> @:6066 op:341,dt:50,nt:8,next:65535,str:5509,d0:6067,d1:64294;
+                        (____, BuiltinInvocation<Entity> @:6066 op:341,dt:50,nt:8,next:65535,str:5509,d0:6067,d1:64294;
                             ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:6067 op:341,dt:2,nt:9,next:6068,str:4431,d0:0,d1:0;
                                 ("e13_cov_creep0_2/creep0", Expression<AI> @:6068 op:19,dt:19,nt:9,next:65535,str:12098,d0:0,d1:49271;))))))
-            (____, Scope<Void> @:6069 op:2,dt:4,nt:8,next:6106,str:5612,d0:6070,d1:64297;
+            (____, BuiltinInvocation<Void> @:6069 op:2,dt:4,nt:8,next:6106,str:5612,d0:6070,d1:64297;
                 ("if", Expression<MethodOrOperator> @:6070 op:2,dt:2,nt:9,next:6071,str:519,d0:0,d1:0;
-                    (____, Scope<Boolean> @:6071 op:15,dt:5,nt:8,next:6079,str:5616,d0:6072,d1:64299;
+                    (____, BuiltinInvocation<Boolean> @:6071 op:15,dt:5,nt:8,next:6079,str:5616,d0:6072,d1:64299;
                         (">", Expression<MethodOrOperator> @:6072 op:15,dt:2,nt:9,next:6073,str:12453,d0:0,d1:0;
-                            (-8.987486E+35f, Scope<Float> @:6073 op:239,dt:6,nt:8,next:6078,str:5619,d0:6074,d1:64301;
+                            (-8.987486E+35f, BuiltinInvocation<Float> @:6073 op:239,dt:6,nt:8,next:6078,str:5619,d0:6074,d1:64301;
                                 ("unit_get_health", Expression<MethodOrOperator> @:6074 op:239,dt:2,nt:9,next:6075,str:12769,d0:0,d1:0;
-                                    (____, Scope<Unit> @:6075 op:285,dt:51,nt:8,next:65535,str:5636,d0:6076,d1:64303;
+                                    (____, BuiltinInvocation<Unit> @:6075 op:285,dt:51,nt:8,next:65535,str:5636,d0:6076,d1:64303;
                                         ("ai_get_unit", Expression<MethodOrOperator> @:6076 op:285,dt:2,nt:9,next:6077,str:12785,d0:0,d1:0;
                                             ("e13_cov_creep0_3/creep0", Expression<AI> @:6077 op:19,dt:19,nt:9,next:65535,str:12857,d0:0,d1:49272;)))))
                             (0f, Expression<Float> @:6078 op:6,dt:6,nt:9,next:65535,str:5675,d0:0,d1:0;)))
-                    (____, Scope<Void> @:6079 op:0,dt:4,nt:8,next:65535,str:5681,d0:6080,d1:64307;
+                    (____, BuiltinInvocation<Void> @:6079 op:0,dt:4,nt:8,next:65535,str:5681,d0:6080,d1:64307;
                         ("begin", Expression<MethodOrOperator> @:6080 op:0,dt:2,nt:9,next:6081,str:64,d0:0,d1:0;
-                            (____, Scope<Void> @:6081 op:640,dt:4,nt:8,next:6089,str:5692,d0:6082,d1:64309;
+                            (____, BuiltinInvocation<Void> @:6081 op:640,dt:4,nt:8,next:6089,str:5692,d0:6082,d1:64309;
                                 ("activate_team_nav_point_object", Expression<MethodOrOperator> @:6082 op:640,dt:2,nt:9,next:6083,str:12723,d0:0,d1:0;
                                     ("default", Expression<NavigationPoint> @:6083 op:27,dt:27,nt:9,next:6084,str:12754,d0:0,d1:0;
                                         ("player", Expression<Team> @:6084 op:45,dt:45,nt:9,next:6085,str:12762,d0:1,d1:65535;
-                                            (____, Scope<Entity> @:6085 op:341,dt:50,nt:8,next:6088,str:5739,d0:6086,d1:64313;
+                                            (____, BuiltinInvocation<Entity> @:6085 op:341,dt:50,nt:8,next:6088,str:5739,d0:6086,d1:64313;
                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:6086 op:341,dt:2,nt:9,next:6087,str:4431,d0:0,d1:0;
                                                     ("e13_cov_creep0_3/creep0", Expression<AI> @:6087 op:19,dt:19,nt:9,next:65535,str:12857,d0:0,d1:49272;)))
                                             (1.5f, Expression<Float> @:6088 op:6,dt:6,nt:9,next:65535,str:5803,d0:0,d1:16320;)))))
-                            (____, Scope<Void> @:6089 op:21,dt:4,nt:8,next:65535,str:5813,d0:6090,d1:64317;
+                            (____, BuiltinInvocation<Void> @:6089 op:21,dt:4,nt:8,next:65535,str:5813,d0:6090,d1:64317;
                                 ("sleep_until", Expression<MethodOrOperator> @:6090 op:21,dt:2,nt:9,next:6091,str:294,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:6091 op:6,dt:5,nt:8,next:65535,str:5831,d0:6092,d1:64319;
+                                    (____, BuiltinInvocation<Boolean> @:6091 op:6,dt:5,nt:8,next:65535,str:5831,d0:6092,d1:64319;
                                         ("or", Expression<MethodOrOperator> @:6092 op:6,dt:2,nt:9,next:6093,str:907,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:6093 op:18,dt:5,nt:8,next:6101,str:5841,d0:6094,d1:64321;
+                                            (____, BuiltinInvocation<Boolean> @:6093 op:18,dt:5,nt:8,next:6101,str:5841,d0:6094,d1:64321;
                                                 ("<=", Expression<MethodOrOperator> @:6094 op:18,dt:2,nt:9,next:6095,str:12055,d0:0,d1:0;
-                                                    (-1.0129809E+36f, Scope<Float> @:6095 op:239,dt:6,nt:8,next:6100,str:5845,d0:6096,d1:64323;
+                                                    (-1.0129809E+36f, BuiltinInvocation<Float> @:6095 op:239,dt:6,nt:8,next:6100,str:5845,d0:6096,d1:64323;
                                                         ("unit_get_health", Expression<MethodOrOperator> @:6096 op:239,dt:2,nt:9,next:6097,str:12769,d0:0,d1:0;
-                                                            (____, Scope<Unit> @:6097 op:285,dt:51,nt:8,next:65535,str:5862,d0:6098,d1:64325;
+                                                            (____, BuiltinInvocation<Unit> @:6097 op:285,dt:51,nt:8,next:65535,str:5862,d0:6098,d1:64325;
                                                                 ("ai_get_unit", Expression<MethodOrOperator> @:6098 op:285,dt:2,nt:9,next:6099,str:12785,d0:0,d1:0;
                                                                     ("e13_cov_creep0_3/creep0", Expression<AI> @:6099 op:19,dt:19,nt:9,next:65535,str:12857,d0:0,d1:49272;)))))
                                                     (0f, Expression<Float> @:6100 op:6,dt:6,nt:9,next:65535,str:5901,d0:0,d1:0;)))
-                                            (____, Scope<Boolean> @:6101 op:33,dt:5,nt:8,next:65535,str:5910,d0:6102,d1:64329;
+                                            (____, BuiltinInvocation<Boolean> @:6101 op:33,dt:5,nt:8,next:65535,str:5910,d0:6102,d1:64329;
                                                 ("volume_test_objects", Expression<MethodOrOperator> @:6102 op:33,dt:2,nt:9,next:6103,str:11142,d0:0,d1:0;
                                                     ("tv_e13_end_entrance", Expression<Trigger> @:6103 op:13,dt:13,nt:9,next:6104,str:12881,d0:111,d1:0;
-                                                        (____, Scope<List> @:6104 op:28,dt:31,nt:8,next:65535,str:5951,d0:6105,d1:64332;
+                                                        (____, BuiltinInvocation<List> @:6104 op:28,dt:31,nt:8,next:65535,str:5951,d0:6105,d1:64332;
                                                             ("players", Expression<MethodOrOperator> @:6105 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;)))))))))))))
-            (____, Scope<Void> @:6106 op:644,dt:4,nt:8,next:65535,str:6003,d0:6107,d1:64334;
+            (____, BuiltinInvocation<Void> @:6106 op:644,dt:4,nt:8,next:65535,str:6003,d0:6107,d1:64334;
                 ("deactivate_team_nav_point_object", Expression<MethodOrOperator> @:6107 op:644,dt:2,nt:9,next:6108,str:12824,d0:0,d1:0;
                     ("player", Expression<Team> @:6108 op:45,dt:45,nt:9,next:6109,str:12762,d0:1,d1:65535;
-                        (____, Scope<Entity> @:6109 op:341,dt:50,nt:8,next:65535,str:6044,d0:6110,d1:64337;
+                        (____, BuiltinInvocation<Entity> @:6109 op:341,dt:50,nt:8,next:65535,str:6044,d0:6110,d1:64337;
                             ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:6110 op:341,dt:2,nt:9,next:6111,str:4431,d0:0,d1:0;
                                 ("e13_cov_creep0_3/creep0", Expression<AI> @:6111 op:19,dt:19,nt:9,next:65535,str:12857,d0:0,d1:49272;)))))))))

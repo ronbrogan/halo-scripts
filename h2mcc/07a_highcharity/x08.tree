@@ -1,15 +1,15 @@
 
 ("x08", MethodDecl<Void> @:121 op:0,dt:0,nt:65535,next:3628,str:44210,d0:0,d1:0;
-    (____, Scope<Void> @:3628 op:0,dt:4,nt:8,next:65535,str:48780,d0:3629,d1:61856;
+    (____, BuiltinInvocation<Void> @:3628 op:0,dt:4,nt:8,next:65535,str:48780,d0:3629,d1:61856;
         ("begin", Expression<MethodOrOperator> @:3629 op:0,dt:2,nt:9,next:3589,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:3589 op:530,dt:4,nt:8,next:3591,str:48808,d0:3590,d1:61817;
+            (____, BuiltinInvocation<Void> @:3589 op:530,dt:4,nt:8,next:3591,str:48808,d0:3590,d1:61817;
                 ("texture_cache_flush", Expression<MethodOrOperator> @:3590 op:530,dt:2,nt:9,next:65535,str:8327,d0:0,d1:0;))
-            (____, Scope<Void> @:3591 op:531,dt:4,nt:8,next:3593,str:48832,d0:3592,d1:61819;
+            (____, BuiltinInvocation<Void> @:3591 op:531,dt:4,nt:8,next:3593,str:48832,d0:3592,d1:61819;
                 ("geometry_cache_flush", Expression<MethodOrOperator> @:3592 op:531,dt:2,nt:9,next:65535,str:8347,d0:0,d1:0;))
-            (____, Scope<Void> @:3593 op:508,dt:4,nt:8,next:3596,str:48859,d0:3594,d1:61821;
+            (____, BuiltinInvocation<Void> @:3593 op:508,dt:4,nt:8,next:3596,str:48859,d0:3594,d1:61821;
                 ("switch_bsp_by_name", Expression<MethodOrOperator> @:3594 op:508,dt:2,nt:9,next:3595,str:8368,d0:0,d1:0;
                     ("gravemind", Expression<Bsp> @:3595 op:26,dt:26,nt:9,next:65535,str:1964,d0:7,d1:0;)))
-            (____, Scope<Void> @:3596 op:19,dt:4,nt:8,next:3599,str:48892,d0:3597,d1:61824;
+            (____, BuiltinInvocation<Void> @:3596 op:19,dt:4,nt:8,next:3599,str:48892,d0:3597,d1:61824;
                 ("sleep", Expression<MethodOrOperator> @:3597 op:19,dt:2,nt:9,next:3598,str:80,d0:0,d1:0;
                     (1, Expression<Short> @:3598 op:7,dt:7,nt:9,next:65535,str:48899,d0:1,d1:65535;)))
             ("x08_scene_01", ScriptInvocation<Void> @:3599 op:51,dt:4,nt:10,next:3601,str:48906,d0:3600,d1:61827;
@@ -38,6 +38,6 @@
                 ("x08_scene_10", Expression<MethodOrOperator> @:3622 op:111,dt:2,nt:9,next:65535,str:8533,d0:0,d1:0;))
             ("x08_scene_11", ScriptInvocation<Void> @:3623 op:120,dt:4,nt:10,next:3625,str:49113,d0:3624,d1:61851;
                 ("x08_scene_11", Expression<MethodOrOperator> @:3624 op:120,dt:2,nt:9,next:65535,str:8546,d0:0,d1:0;))
-            (____, Scope<Void> @:3625 op:885,dt:4,nt:8,next:65535,str:49133,d0:3626,d1:61853;
+            (____, BuiltinInvocation<Void> @:3625 op:885,dt:4,nt:8,next:65535,str:49133,d0:3626,d1:61853;
                 ("rasterizer_bloom_override", Expression<MethodOrOperator> @:3626 op:885,dt:2,nt:9,next:3627,str:1828,d0:0,d1:0;
                     (False, Expression<Boolean> @:3627 op:5,dt:5,nt:9,next:65535,str:49160,d0:65280,d1:65535;))))))

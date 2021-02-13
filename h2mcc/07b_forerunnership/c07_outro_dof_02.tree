@@ -1,19 +1,19 @@
 
 ("c07_outro_dof_02", MethodDecl<Void> @:79 op:0,dt:0,nt:65535,next:2245,str:6487,d0:0,d1:0;
-    (____, Scope<Void> @:2245 op:0,dt:4,nt:8,next:65535,str:26610,d0:2246,d1:60473;
+    (____, BuiltinInvocation<Void> @:2245 op:0,dt:4,nt:8,next:65535,str:26610,d0:2246,d1:60473;
         ("begin", Expression<MethodOrOperator> @:2246 op:0,dt:2,nt:9,next:2217,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:2217 op:676,dt:4,nt:8,next:2219,str:26647,d0:2218,d1:60445;
+            (____, BuiltinInvocation<Void> @:2217 op:676,dt:4,nt:8,next:2219,str:26647,d0:2218,d1:60445;
                 ("time_code_reset", Expression<MethodOrOperator> @:2218 op:676,dt:2,nt:9,next:65535,str:1504,d0:0,d1:0;))
-            (____, Scope<Void> @:2219 op:19,dt:4,nt:8,next:2222,str:26669,d0:2220,d1:60447;
+            (____, BuiltinInvocation<Void> @:2219 op:19,dt:4,nt:8,next:2222,str:26669,d0:2220,d1:60447;
                 ("sleep", Expression<MethodOrOperator> @:2220 op:19,dt:2,nt:9,next:2221,str:80,d0:0,d1:0;
                     (289, Expression<Short> @:2221 op:7,dt:7,nt:9,next:65535,str:26676,d0:289,d1:65535;)))
-            (____, Scope<Void> @:2222 op:27,dt:4,nt:8,next:2225,str:26683,d0:2223,d1:60450;
+            (____, BuiltinInvocation<Void> @:2222 op:27,dt:4,nt:8,next:2225,str:26683,d0:2223,d1:60450;
                 ("print", Expression<MethodOrOperator> @:2223 op:27,dt:2,nt:9,next:2224,str:86,d0:0,d1:0;
                     ("rack focus", Expression<String> @:2224 op:9,dt:9,nt:9,next:65535,str:1593,d0:1593,d1:0;)))
-            (____, Scope<Void> @:2225 op:708,dt:4,nt:8,next:2228,str:26706,d0:2226,d1:60453;
+            (____, BuiltinInvocation<Void> @:2225 op:708,dt:4,nt:8,next:2228,str:26706,d0:2226,d1:60453;
                 ("cinematic_screen_effect_start", Expression<MethodOrOperator> @:2226 op:708,dt:2,nt:9,next:2227,str:1520,d0:0,d1:0;
                     (True, Expression<Boolean> @:2227 op:5,dt:5,nt:9,next:65535,str:26737,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:2228 op:709,dt:4,nt:8,next:2237,str:26742,d0:2229,d1:60456;
+            (____, BuiltinInvocation<Void> @:2228 op:709,dt:4,nt:8,next:2237,str:26742,d0:2229,d1:60456;
                 ("cinematic_screen_effect_set_depth_of_field", Expression<MethodOrOperator> @:2229 op:709,dt:2,nt:9,next:2230,str:1550,d0:0,d1:0;
                     (20f, Expression<Float> @:2230 op:6,dt:6,nt:9,next:2231,str:26786,d0:0,d1:16800;
                         (2f, Expression<Float> @:2231 op:6,dt:6,nt:9,next:2232,str:26789,d0:0,d1:16384;
@@ -22,11 +22,11 @@
                                     (0f, Expression<Float> @:2234 op:6,dt:6,nt:9,next:2235,str:26795,d0:0,d1:0;
                                         (0f, Expression<Float> @:2235 op:6,dt:6,nt:9,next:2236,str:26797,d0:0,d1:0;
                                             (0f, Expression<Float> @:2236 op:6,dt:6,nt:9,next:65535,str:26799,d0:0,d1:0;)))))))))
-            (____, Scope<Void> @:2237 op:19,dt:4,nt:8,next:2240,str:26807,d0:2238,d1:60465;
+            (____, BuiltinInvocation<Void> @:2237 op:19,dt:4,nt:8,next:2240,str:26807,d0:2238,d1:60465;
                 ("sleep", Expression<MethodOrOperator> @:2238 op:19,dt:2,nt:9,next:2239,str:80,d0:0,d1:0;
                     (106, Expression<Short> @:2239 op:7,dt:7,nt:9,next:65535,str:26814,d0:106,d1:65535;)))
-            (____, Scope<Void> @:2240 op:712,dt:4,nt:8,next:2242,str:26821,d0:2241,d1:60468;
+            (____, BuiltinInvocation<Void> @:2240 op:712,dt:4,nt:8,next:2242,str:26821,d0:2241,d1:60468;
                 ("cinematic_screen_effect_stop", Expression<MethodOrOperator> @:2241 op:712,dt:2,nt:9,next:65535,str:1604,d0:0,d1:0;))
-            (____, Scope<Void> @:2242 op:27,dt:4,nt:8,next:65535,str:26854,d0:2243,d1:60470;
+            (____, BuiltinInvocation<Void> @:2242 op:27,dt:4,nt:8,next:65535,str:26854,d0:2243,d1:60470;
                 ("print", Expression<MethodOrOperator> @:2243 op:27,dt:2,nt:9,next:2244,str:86,d0:0,d1:0;
                     ("rack focus stop", Expression<String> @:2244 op:9,dt:9,nt:9,next:65535,str:1633,d0:1633,d1:0;))))))

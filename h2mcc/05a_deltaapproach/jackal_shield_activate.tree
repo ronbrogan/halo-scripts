@@ -1,23 +1,23 @@
 
 ("jackal_shield_activate", MethodDecl<Void> @:148 op:0,dt:0,nt:65535,next:4997,str:11584,d0:0,d1:0;
-    (____, Scope<Void> @:4997 op:0,dt:4,nt:8,next:65535,str:61125,d0:4998,d1:63225;
+    (____, BuiltinInvocation<Void> @:4997 op:0,dt:4,nt:8,next:65535,str:61125,d0:4998,d1:63225;
         ("begin", Expression<MethodOrOperator> @:4998 op:0,dt:2,nt:9,next:4976,str:54,d0:0,d1:0;
-            (____, Scope<Void> @:4976 op:19,dt:4,nt:8,next:4979,str:61166,d0:4977,d1:63204;
+            (____, BuiltinInvocation<Void> @:4976 op:19,dt:4,nt:8,next:4979,str:61166,d0:4977,d1:63204;
                 ("sleep", Expression<MethodOrOperator> @:4977 op:19,dt:2,nt:9,next:4978,str:133,d0:0,d1:0;
                     (278, Expression<Short> @:4978 op:7,dt:7,nt:9,next:65535,str:61173,d0:278,d1:65535;)))
-            (____, Scope<Void> @:4979 op:27,dt:4,nt:8,next:4982,str:61180,d0:4980,d1:63207;
+            (____, BuiltinInvocation<Void> @:4979 op:27,dt:4,nt:8,next:4982,str:61180,d0:4980,d1:63207;
                 ("print", Expression<MethodOrOperator> @:4980 op:27,dt:2,nt:9,next:4981,str:139,d0:0,d1:0;
                     ("jackal shield activate", Expression<String> @:4981 op:9,dt:9,nt:9,next:65535,str:11386,d0:11386,d1:0;)))
-            (____, Scope<Void> @:4982 op:48,dt:4,nt:8,next:4985,str:61215,d0:4983,d1:63210;
+            (____, BuiltinInvocation<Void> @:4982 op:48,dt:4,nt:8,next:4985,str:61215,d0:4983,d1:63210;
                 ("object_create_anew", Expression<MethodOrOperator> @:4983 op:48,dt:2,nt:9,next:4984,str:1510,d0:0,d1:0;
                     ("jackal_shield", Expression<EntityIdentifier> @:4984 op:56,dt:56,nt:9,next:65535,str:11409,d0:102,d1:65535;)))
-            (____, Scope<Void> @:4985 op:74,dt:4,nt:8,next:4991,str:61252,d0:4986,d1:63213;
+            (____, BuiltinInvocation<Void> @:4985 op:74,dt:4,nt:8,next:4991,str:61252,d0:4986,d1:63213;
                 ("objects_attach", Expression<MethodOrOperator> @:4986 op:74,dt:2,nt:9,next:4987,str:11105,d0:0,d1:0;
                     (4294901835, Expression<Entity> @:4987 op:56,dt:50,nt:9,next:4988,str:11363,d0:75,d1:65535;
                         ("shield_light", Expression<StringId> @:4988 op:11,dt:11,nt:9,next:4989,str:11423,d0:5350,d1:3072;
                             (4294901862, Expression<Entity> @:4989 op:56,dt:50,nt:9,next:4990,str:11409,d0:102,d1:65535;
                                 (0, Expression<StringId> @:4990 op:11,dt:11,nt:9,next:65535,str:0,d0:0,d1:0;))))))
-            (____, Scope<Void> @:4991 op:60,dt:4,nt:8,next:65535,str:61313,d0:4992,d1:63219;
+            (____, BuiltinInvocation<Void> @:4991 op:60,dt:4,nt:8,next:65535,str:61313,d0:4992,d1:63219;
                 ("object_set_function_variable", Expression<MethodOrOperator> @:4992 op:60,dt:2,nt:9,next:4993,str:11436,d0:0,d1:0;
                     (4294901835, Expression<Entity> @:4993 op:56,dt:50,nt:9,next:4994,str:11363,d0:75,d1:65535;
                         ("shield", Expression<StringId> @:4994 op:11,dt:11,nt:9,next:4995,str:11465,d0:5150,d1:1536;

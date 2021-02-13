@@ -1,49 +1,49 @@
 
 ("cs_e7_mars_inf0_wait", MethodDecl<Void> @:426 op:0,dt:0,nt:65535,next:16311,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:16311 op:0,dt:4,nt:8,next:65535,str:10307,d0:16312,d1:41772;
+    (____, BuiltinInvocation<Void> @:16311 op:0,dt:4,nt:8,next:65535,str:10307,d0:16312,d1:41772;
         ("begin", Expression<MethodOrOperator> @:16312 op:0,dt:2,nt:9,next:16266,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:16266 op:314,dt:4,nt:8,next:16272,str:10353,d0:16267,d1:41727;
+            (____, BuiltinInvocation<Void> @:16266 op:314,dt:4,nt:8,next:16272,str:10353,d0:16267,d1:41727;
                 ("ai_disregard", Expression<MethodOrOperator> @:16267 op:314,dt:2,nt:9,next:16268,str:5540,d0:0,d1:0;
-                    (____, Scope<List> @:16268 op:284,dt:31,nt:8,next:16271,str:10367,d0:16269,d1:41729;
+                    (____, BuiltinInvocation<List> @:16268 op:284,dt:31,nt:8,next:16271,str:10367,d0:16269,d1:41729;
                         ("ai_get_object", Expression<MethodOrOperator> @:16269 op:284,dt:2,nt:9,next:16270,str:1422,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:16270 op:19,dt:19,nt:13,next:65535,str:1271,d0:33564,d1:65535;)))
                     (True, Expression<Boolean> @:16271 op:5,dt:5,nt:9,next:65535,str:10400,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:16272 op:202,dt:4,nt:8,next:16280,str:10408,d0:16273,d1:41733;
+            (____, BuiltinInvocation<Void> @:16272 op:202,dt:4,nt:8,next:16280,str:10408,d0:16273,d1:41733;
                 ("custom_animation_loop", Expression<MethodOrOperator> @:16273 op:202,dt:2,nt:9,next:16274,str:34673,d0:0,d1:0;
-                    (____, Scope<Unit> @:16274 op:285,dt:51,nt:8,next:16277,str:10431,d0:16275,d1:41735;
+                    (____, BuiltinInvocation<Unit> @:16274 op:285,dt:51,nt:8,next:16277,str:10431,d0:16275,d1:41735;
                         ("ai_get_unit", Expression<MethodOrOperator> @:16275 op:285,dt:2,nt:9,next:16276,str:1259,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:16276 op:19,dt:19,nt:13,next:65535,str:1271,d0:33564,d1:65535;)))
                     ("objects\characters\marine\deltacontrol\deltacontrol", Expression<Animation> @:16277 op:36,dt:36,nt:9,next:16278,str:34695,d0:8333,d1:33308;
                         ("kneel_unarmed", Expression<StringId> @:16278 op:11,dt:11,nt:9,next:16279,str:34747,d0:15760,d1:3328;
                             (False, Expression<Boolean> @:16279 op:5,dt:5,nt:9,next:65535,str:10532,d0:65280,d1:65535;)))))
-            (____, Scope<Void> @:16280 op:21,dt:4,nt:8,next:16284,str:10563,d0:16281,d1:41741;
+            (____, BuiltinInvocation<Void> @:16280 op:21,dt:4,nt:8,next:16284,str:10563,d0:16281,d1:41741;
                 ("sleep_until", Expression<MethodOrOperator> @:16281 op:21,dt:2,nt:9,next:16282,str:236,d0:0,d1:0;
                     ("g_e7_mars_johnson_go", VariableAccess<Boolean> @:16282 op:5,dt:5,nt:13,next:16283,str:34761,d0:52,d1:0;
                         (3, Expression<Short> @:16283 op:7,dt:7,nt:9,next:65535,str:10597,d0:3,d1:65535;))))
-            (____, Scope<Void> @:16284 op:19,dt:4,nt:8,next:16287,str:10602,d0:16285,d1:41745;
+            (____, BuiltinInvocation<Void> @:16284 op:19,dt:4,nt:8,next:16287,str:10602,d0:16285,d1:41745;
                 ("sleep", Expression<MethodOrOperator> @:16285 op:19,dt:2,nt:9,next:16286,str:85,d0:0,d1:0;
                     (15, Expression<Short> @:16286 op:7,dt:7,nt:9,next:65535,str:10609,d0:15,d1:65535;)))
-            (____, Scope<Void> @:16287 op:201,dt:4,nt:8,next:16295,str:10615,d0:16288,d1:41748;
+            (____, BuiltinInvocation<Void> @:16287 op:201,dt:4,nt:8,next:16295,str:10615,d0:16288,d1:41748;
                 ("custom_animation", Expression<MethodOrOperator> @:16288 op:201,dt:2,nt:9,next:16289,str:1242,d0:0,d1:0;
-                    (____, Scope<Unit> @:16289 op:285,dt:51,nt:8,next:16292,str:10633,d0:16290,d1:41750;
+                    (____, BuiltinInvocation<Unit> @:16289 op:285,dt:51,nt:8,next:16292,str:10633,d0:16290,d1:41750;
                         ("ai_get_unit", Expression<MethodOrOperator> @:16290 op:285,dt:2,nt:9,next:16291,str:1259,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:16291 op:19,dt:19,nt:13,next:65535,str:1271,d0:33564,d1:65535;)))
                     ("objects\characters\marine\deltacontrol\deltacontrol", Expression<Animation> @:16292 op:36,dt:36,nt:9,next:16293,str:34695,d0:8333,d1:33308;
                         ("kneel_to_idle_pistol", Expression<StringId> @:16293 op:11,dt:11,nt:9,next:16294,str:34782,d0:15759,d1:5120;
                             (False, Expression<Boolean> @:16294 op:5,dt:5,nt:9,next:65535,str:10741,d0:65280,d1:65535;)))))
-            (____, Scope<Void> @:16295 op:444,dt:4,nt:8,next:16298,str:10751,d0:16296,d1:41756;
+            (____, BuiltinInvocation<Void> @:16295 op:444,dt:4,nt:8,next:16298,str:10751,d0:16296,d1:41756;
                 ("cs_enable_moving", Expression<MethodOrOperator> @:16296 op:444,dt:2,nt:9,next:16297,str:1094,d0:0,d1:0;
                     (True, Expression<Boolean> @:16297 op:5,dt:5,nt:9,next:65535,str:10769,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:16298 op:19,dt:4,nt:8,next:16305,str:10777,d0:16299,d1:41759;
+            (____, BuiltinInvocation<Void> @:16298 op:19,dt:4,nt:8,next:16305,str:10777,d0:16299,d1:41759;
                 ("sleep", Expression<MethodOrOperator> @:16299 op:19,dt:2,nt:9,next:16300,str:85,d0:0,d1:0;
-                    (____, Scope<Short> @:16300 op:199,dt:7,nt:8,next:65535,str:10784,d0:16301,d1:41761;
+                    (____, BuiltinInvocation<Short> @:16300 op:199,dt:7,nt:8,next:65535,str:10784,d0:16301,d1:41761;
                         ("unit_get_custom_animation_time", Expression<MethodOrOperator> @:16301 op:199,dt:2,nt:9,next:16302,str:34803,d0:0,d1:0;
-                            (____, Scope<Unit> @:16302 op:285,dt:51,nt:8,next:65535,str:10816,d0:16303,d1:41763;
+                            (____, BuiltinInvocation<Unit> @:16302 op:285,dt:51,nt:8,next:65535,str:10816,d0:16303,d1:41763;
                                 ("ai_get_unit", Expression<MethodOrOperator> @:16303 op:285,dt:2,nt:9,next:16304,str:1259,d0:0,d1:0;
                                     ("ai_current_actor", VariableAccess<AI> @:16304 op:19,dt:19,nt:13,next:65535,str:1271,d0:33564,d1:65535;)))))))
-            (____, Scope<Void> @:16305 op:314,dt:4,nt:8,next:65535,str:10851,d0:16306,d1:41766;
+            (____, BuiltinInvocation<Void> @:16305 op:314,dt:4,nt:8,next:65535,str:10851,d0:16306,d1:41766;
                 ("ai_disregard", Expression<MethodOrOperator> @:16306 op:314,dt:2,nt:9,next:16307,str:5540,d0:0,d1:0;
-                    (____, Scope<List> @:16307 op:284,dt:31,nt:8,next:16310,str:10865,d0:16308,d1:41768;
+                    (____, BuiltinInvocation<List> @:16307 op:284,dt:31,nt:8,next:16310,str:10865,d0:16308,d1:41768;
                         ("ai_get_object", Expression<MethodOrOperator> @:16308 op:284,dt:2,nt:9,next:16309,str:1422,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:16309 op:19,dt:19,nt:13,next:65535,str:1271,d0:33564,d1:65535;)))
                     (False, Expression<Boolean> @:16310 op:5,dt:5,nt:9,next:65535,str:10898,d0:65280,d1:65535;))))))

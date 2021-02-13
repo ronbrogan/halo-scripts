@@ -1,16 +1,16 @@
 
 ("x08_0180_pnt", MethodDecl<Void> @:80 op:0,dt:0,nt:65535,next:2234,str:5264,d0:0,d1:0;
-    (____, Scope<Void> @:2234 op:0,dt:4,nt:8,next:65535,str:28297,d0:2235,d1:60462;
+    (____, BuiltinInvocation<Void> @:2234 op:0,dt:4,nt:8,next:65535,str:28297,d0:2235,d1:60462;
         ("begin", Expression<MethodOrOperator> @:2235 op:0,dt:2,nt:9,next:2222,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:2222 op:19,dt:4,nt:8,next:2225,str:28328,d0:2223,d1:60450;
+            (____, BuiltinInvocation<Void> @:2222 op:19,dt:4,nt:8,next:2225,str:28328,d0:2223,d1:60450;
                 ("sleep", Expression<MethodOrOperator> @:2223 op:19,dt:2,nt:9,next:2224,str:80,d0:0,d1:0;
                     (0, Expression<Short> @:2224 op:7,dt:7,nt:9,next:65535,str:28335,d0:0,d1:65535;)))
-            (____, Scope<Void> @:2225 op:596,dt:4,nt:8,next:2230,str:28340,d0:2226,d1:60453;
+            (____, BuiltinInvocation<Void> @:2225 op:596,dt:4,nt:8,next:2230,str:28340,d0:2226,d1:60453;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:2226 op:596,dt:2,nt:9,next:2227,str:1513,d0:0,d1:0;
                     ("sound\dialog\levels\07_highcharity\cinematic\x08_0180_pnt", Expression<Sound> @:2227 op:32,dt:32,nt:9,next:2228,str:5206,d0:981,d1:58699;
                         (4294902013, Expression<Entity> @:2228 op:56,dt:50,nt:9,next:2229,str:4399,d0:253,d1:65535;
                             (1f, Expression<Float> @:2229 op:6,dt:6,nt:9,next:65535,str:28424,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:2230 op:562,dt:4,nt:8,next:65535,str:28429,d0:2231,d1:60458;
+            (____, BuiltinInvocation<Void> @:2230 op:562,dt:4,nt:8,next:65535,str:28429,d0:2231,d1:60458;
                 ("cinematic_subtitle", Expression<MethodOrOperator> @:2231 op:562,dt:2,nt:9,next:2232,str:2897,d0:0,d1:0;
                     ("x08_0180_pnt", Expression<StringId> @:2232 op:11,dt:11,nt:9,next:2233,str:5264,d0:4400,d1:3072;
                         (3.5f, Expression<Float> @:2233 op:6,dt:6,nt:9,next:65535,str:28462,d0:0,d1:16480;)))))))

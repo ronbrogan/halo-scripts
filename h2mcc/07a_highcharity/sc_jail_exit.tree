@@ -1,22 +1,22 @@
 
 ("sc_jail_exit", MethodDecl<Void> @:253 op:0,dt:0,nt:65535,next:10013,str:41244,d0:0,d1:0;
-    (____, Scope<Void> @:10013 op:0,dt:4,nt:8,next:65535,str:58299,d0:10014,d1:35474;
+    (____, BuiltinInvocation<Void> @:10013 op:0,dt:4,nt:8,next:65535,str:58299,d0:10014,d1:35474;
         ("begin", Expression<MethodOrOperator> @:10014 op:0,dt:2,nt:9,next:9995,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:9995 op:2,dt:4,nt:8,next:10001,str:58330,d0:9996,d1:35456;
+            (____, BuiltinInvocation<Void> @:9995 op:2,dt:4,nt:8,next:10001,str:58330,d0:9996,d1:35456;
                 ("if", Expression<MethodOrOperator> @:9996 op:2,dt:2,nt:9,next:9997,str:456,d0:0,d1:0;
                     ("dialogue", VariableAccess<Boolean> @:9997 op:5,dt:5,nt:13,next:9998,str:19054,d0:4,d1:0;
-                        (____, Scope<Void> @:9998 op:27,dt:4,nt:8,next:65535,str:58343,d0:9999,d1:35459;
+                        (____, BuiltinInvocation<Void> @:9998 op:27,dt:4,nt:8,next:65535,str:58343,d0:9999,d1:35459;
                             ("print", Expression<MethodOrOperator> @:9999 op:27,dt:2,nt:9,next:10000,str:86,d0:0,d1:0;
                                 ("cortana: we'll get out of here the same way we came in:", Expression<String> @:10000 op:9,dt:9,nt:9,next:65535,str:23251,d0:23251,d1:0;))))))
-            (____, Scope<Void> @:10001 op:2,dt:4,nt:8,next:10007,str:58412,d0:10002,d1:35462;
+            (____, BuiltinInvocation<Void> @:10001 op:2,dt:4,nt:8,next:10007,str:58412,d0:10002,d1:35462;
                 ("if", Expression<MethodOrOperator> @:10002 op:2,dt:2,nt:9,next:10003,str:456,d0:0,d1:0;
                     ("dialogue", VariableAccess<Boolean> @:10003 op:5,dt:5,nt:13,next:10004,str:19054,d0:4,d1:0;
-                        (____, Scope<Void> @:10004 op:27,dt:4,nt:8,next:65535,str:58425,d0:10005,d1:35465;
+                        (____, BuiltinInvocation<Void> @:10004 op:27,dt:4,nt:8,next:65535,str:58425,d0:10005,d1:35465;
                             ("print", Expression<MethodOrOperator> @:10005 op:27,dt:2,nt:9,next:10006,str:86,d0:0,d1:0;
                                 ("cortana: the central grav-lift", Expression<String> @:10006 op:9,dt:9,nt:9,next:65535,str:23307,d0:23307,d1:0;))))))
-            (____, Scope<Void> @:10007 op:19,dt:4,nt:8,next:65535,str:58469,d0:10008,d1:35468;
+            (____, BuiltinInvocation<Void> @:10007 op:19,dt:4,nt:8,next:65535,str:58469,d0:10008,d1:35468;
                 ("sleep", Expression<MethodOrOperator> @:10008 op:19,dt:2,nt:9,next:10009,str:80,d0:0,d1:0;
-                    (____, Scope<Short> @:10009 op:362,dt:7,nt:8,next:65535,str:58476,d0:10010,d1:35470;
+                    (____, BuiltinInvocation<Short> @:10009 op:362,dt:7,nt:8,next:65535,str:58476,d0:10010,d1:35470;
                         ("ai_play_line_on_object", Expression<MethodOrOperator> @:10010 op:362,dt:2,nt:9,next:10011,str:19089,d0:0,d1:0;
                             (4294967295, Expression<Entity> @:10011 op:50,dt:50,nt:9,next:10012,str:1586,d0:65535,d1:65535;
                                 ("2420", Expression<StringId> @:10012 op:11,dt:11,nt:9,next:65535,str:23338,d0:13880,d1:1024;)))))))))

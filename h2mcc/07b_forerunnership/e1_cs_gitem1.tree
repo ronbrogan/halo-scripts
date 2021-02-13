@@ -1,30 +1,30 @@
 
 ("e1_cs_gitem1", MethodDecl<Void> @:224 op:0,dt:0,nt:65535,next:10046,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:10046 op:0,dt:4,nt:8,next:65535,str:62914,d0:10047,d1:35507;
+    (____, BuiltinInvocation<Void> @:10046 op:0,dt:4,nt:8,next:65535,str:62914,d0:10047,d1:35507;
         ("begin", Expression<MethodOrOperator> @:10047 op:0,dt:2,nt:9,next:10020,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:10020 op:304,dt:4,nt:8,next:10024,str:62952,d0:10021,d1:35481;
+            (____, BuiltinInvocation<Void> @:10020 op:304,dt:4,nt:8,next:10024,str:62952,d0:10021,d1:35481;
                 ("ai_set_blind", Expression<MethodOrOperator> @:10021 op:304,dt:2,nt:9,next:10022,str:21575,d0:0,d1:0;
                     ("ai_current_actor", VariableAccess<AI> @:10022 op:19,dt:19,nt:13,next:10023,str:9305,d0:33564,d1:65535;
                         (True, Expression<Boolean> @:10023 op:5,dt:5,nt:9,next:65535,str:62983,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:10024 op:303,dt:4,nt:8,next:10028,str:62991,d0:10025,d1:35485;
+            (____, BuiltinInvocation<Void> @:10024 op:303,dt:4,nt:8,next:10028,str:62991,d0:10025,d1:35485;
                 ("ai_set_deaf", Expression<MethodOrOperator> @:10025 op:303,dt:2,nt:9,next:10026,str:21588,d0:0,d1:0;
                     ("ai_current_actor", VariableAccess<AI> @:10026 op:19,dt:19,nt:13,next:10027,str:9305,d0:33564,d1:65535;
                         (True, Expression<Boolean> @:10027 op:5,dt:5,nt:9,next:65535,str:63021,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:10028 op:449,dt:4,nt:8,next:10031,str:63029,d0:10029,d1:35489;
+            (____, BuiltinInvocation<Void> @:10028 op:449,dt:4,nt:8,next:10031,str:63029,d0:10029,d1:35489;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:10029 op:449,dt:2,nt:9,next:10030,str:19767,d0:0,d1:0;
                     (True, Expression<Boolean> @:10030 op:5,dt:5,nt:9,next:65535,str:63061,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:10031 op:435,dt:4,nt:8,next:10034,str:63066,d0:10032,d1:35492;
+            (____, BuiltinInvocation<Void> @:10031 op:435,dt:4,nt:8,next:10034,str:63066,d0:10032,d1:35492;
                 ("cs_ignore_obstacles", Expression<MethodOrOperator> @:10032 op:435,dt:2,nt:9,next:10033,str:19798,d0:0,d1:0;
                     (True, Expression<Boolean> @:10033 op:5,dt:5,nt:9,next:65535,str:63087,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:10034 op:387,dt:4,nt:8,next:10038,str:63121,d0:10035,d1:35495;
+            (____, BuiltinInvocation<Void> @:10034 op:387,dt:4,nt:8,next:10038,str:63121,d0:10035,d1:35495;
                 ("cs_go_by", Expression<MethodOrOperator> @:10035 op:387,dt:2,nt:9,next:10036,str:19841,d0:0,d1:0;
                     ("gitem1/p1", Expression<SpatialPoint> @:10036 op:28,dt:28,nt:9,next:10037,str:21600,d0:0,d1:4;
                         ("gitem1/p2", Expression<SpatialPoint> @:10037 op:28,dt:28,nt:9,next:65535,str:21610,d0:1,d1:4;))))
-            (____, Scope<Void> @:10038 op:304,dt:4,nt:8,next:10042,str:63154,d0:10039,d1:35499;
+            (____, BuiltinInvocation<Void> @:10038 op:304,dt:4,nt:8,next:10042,str:63154,d0:10039,d1:35499;
                 ("ai_set_blind", Expression<MethodOrOperator> @:10039 op:304,dt:2,nt:9,next:10040,str:21575,d0:0,d1:0;
                     ("ai_current_actor", VariableAccess<AI> @:10040 op:19,dt:19,nt:13,next:10041,str:9305,d0:33564,d1:65535;
                         (False, Expression<Boolean> @:10041 op:5,dt:5,nt:9,next:65535,str:63185,d0:65280,d1:65535;))))
-            (____, Scope<Void> @:10042 op:303,dt:4,nt:8,next:65535,str:63194,d0:10043,d1:35503;
+            (____, BuiltinInvocation<Void> @:10042 op:303,dt:4,nt:8,next:65535,str:63194,d0:10043,d1:35503;
                 ("ai_set_deaf", Expression<MethodOrOperator> @:10043 op:303,dt:2,nt:9,next:10044,str:21588,d0:0,d1:0;
                     ("ai_current_actor", VariableAccess<AI> @:10044 op:19,dt:19,nt:13,next:10045,str:9305,d0:33564,d1:65535;
                         (False, Expression<Boolean> @:10045 op:5,dt:5,nt:9,next:65535,str:63224,d0:65280,d1:65535;)))))))

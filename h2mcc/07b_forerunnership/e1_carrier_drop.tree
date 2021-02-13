@@ -1,36 +1,36 @@
 
 ("e1_carrier_drop", MethodDecl<Void> @:230 op:0,dt:0,nt:65535,next:10205,str:22066,d0:0,d1:0;
-    (____, Scope<Void> @:10205 op:0,dt:4,nt:8,next:65535,str:1672,d0:10206,d1:35666;
+    (____, BuiltinInvocation<Void> @:10205 op:0,dt:4,nt:8,next:65535,str:1672,d0:10206,d1:35666;
         ("begin", Expression<MethodOrOperator> @:10206 op:0,dt:2,nt:9,next:10172,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:10172 op:79,dt:4,nt:8,next:10180,str:1706,d0:10173,d1:35633;
+            (____, BuiltinInvocation<Void> @:10172 op:79,dt:4,nt:8,next:10180,str:1706,d0:10173,d1:35633;
                 ("object_set_velocity", Expression<MethodOrOperator> @:10173 op:79,dt:2,nt:9,next:10174,str:21906,d0:0,d1:0;
-                    (____, Scope<Entity> @:10174 op:284,dt:50,nt:8,next:10177,str:1727,d0:10175,d1:35635;
+                    (____, BuiltinInvocation<Entity> @:10174 op:284,dt:50,nt:8,next:10177,str:1727,d0:10175,d1:35635;
                         ("ai_get_object", Expression<MethodOrOperator> @:10175 op:284,dt:2,nt:9,next:10176,str:9291,d0:0,d1:0;
                             ("e1_fld_inf3/carrier0", Expression<AI> @:10176 op:19,dt:19,nt:9,next:65535,str:21926,d0:0,d1:49157;)))
                     (-5f, Expression<Float> @:10177 op:6,dt:6,nt:9,next:10178,str:1764,d0:0,d1:49312;
                         (0f, Expression<Float> @:10178 op:6,dt:6,nt:9,next:10179,str:1767,d0:0,d1:0;
                             (0f, Expression<Float> @:10179 op:6,dt:6,nt:9,next:65535,str:1769,d0:0,d1:0;)))))
-            (____, Scope<Void> @:10180 op:79,dt:4,nt:8,next:10188,str:1774,d0:10181,d1:35641;
+            (____, BuiltinInvocation<Void> @:10180 op:79,dt:4,nt:8,next:10188,str:1774,d0:10181,d1:35641;
                 ("object_set_velocity", Expression<MethodOrOperator> @:10181 op:79,dt:2,nt:9,next:10182,str:21906,d0:0,d1:0;
-                    (____, Scope<Entity> @:10182 op:284,dt:50,nt:8,next:10185,str:1795,d0:10183,d1:35643;
+                    (____, BuiltinInvocation<Entity> @:10182 op:284,dt:50,nt:8,next:10185,str:1795,d0:10183,d1:35643;
                         ("ai_get_object", Expression<MethodOrOperator> @:10183 op:284,dt:2,nt:9,next:10184,str:9291,d0:0,d1:0;
                             ("e1_fld_inf3/carrier1", Expression<AI> @:10184 op:19,dt:19,nt:9,next:65535,str:21947,d0:1,d1:49157;)))
                     (-4f, Expression<Float> @:10185 op:6,dt:6,nt:9,next:10186,str:1832,d0:0,d1:49280;
                         (0f, Expression<Float> @:10186 op:6,dt:6,nt:9,next:10187,str:1835,d0:0,d1:0;
                             (0f, Expression<Float> @:10187 op:6,dt:6,nt:9,next:65535,str:1837,d0:0,d1:0;)))))
-            (____, Scope<Void> @:10188 op:19,dt:4,nt:8,next:10191,str:1842,d0:10189,d1:35649;
+            (____, BuiltinInvocation<Void> @:10188 op:19,dt:4,nt:8,next:10191,str:1842,d0:10189,d1:35649;
                 ("sleep", Expression<MethodOrOperator> @:10189 op:19,dt:2,nt:9,next:10190,str:80,d0:0,d1:0;
                     (30, Expression<Short> @:10190 op:7,dt:7,nt:9,next:65535,str:1849,d0:30,d1:65535;)))
-            (____, Scope<Void> @:10191 op:230,dt:4,nt:8,next:10198,str:1855,d0:10192,d1:35652;
+            (____, BuiltinInvocation<Void> @:10191 op:230,dt:4,nt:8,next:10198,str:1855,d0:10192,d1:35652;
                 ("unit_set_current_vitality", Expression<MethodOrOperator> @:10192 op:230,dt:2,nt:9,next:10193,str:800,d0:0,d1:0;
-                    (____, Scope<Unit> @:10193 op:285,dt:51,nt:8,next:10196,str:1882,d0:10194,d1:35654;
+                    (____, BuiltinInvocation<Unit> @:10193 op:285,dt:51,nt:8,next:10196,str:1882,d0:10194,d1:35654;
                         ("ai_get_unit", Expression<MethodOrOperator> @:10194 op:285,dt:2,nt:9,next:10195,str:9335,d0:0,d1:0;
                             ("e1_fld_inf3/carrier0", Expression<AI> @:10195 op:19,dt:19,nt:9,next:65535,str:21926,d0:0,d1:49157;)))
                     (0.1f, Expression<Float> @:10196 op:6,dt:6,nt:9,next:10197,str:1917,d0:52429,d1:15820;
                         (0f, Expression<Float> @:10197 op:6,dt:6,nt:9,next:65535,str:1920,d0:0,d1:0;))))
-            (____, Scope<Void> @:10198 op:230,dt:4,nt:8,next:65535,str:1925,d0:10199,d1:35659;
+            (____, BuiltinInvocation<Void> @:10198 op:230,dt:4,nt:8,next:65535,str:1925,d0:10199,d1:35659;
                 ("unit_set_current_vitality", Expression<MethodOrOperator> @:10199 op:230,dt:2,nt:9,next:10200,str:800,d0:0,d1:0;
-                    (____, Scope<Unit> @:10200 op:285,dt:51,nt:8,next:10203,str:1952,d0:10201,d1:35661;
+                    (____, BuiltinInvocation<Unit> @:10200 op:285,dt:51,nt:8,next:10203,str:1952,d0:10201,d1:35661;
                         ("ai_get_unit", Expression<MethodOrOperator> @:10201 op:285,dt:2,nt:9,next:10202,str:9335,d0:0,d1:0;
                             ("e1_fld_inf3/carrier1", Expression<AI> @:10202 op:19,dt:19,nt:9,next:65535,str:21947,d0:1,d1:49157;)))
                     (0.1f, Expression<Float> @:10203 op:6,dt:6,nt:9,next:10204,str:1987,d0:52429,d1:15820;

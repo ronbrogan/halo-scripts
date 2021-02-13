@@ -1,28 +1,28 @@
 
 ("boost_test", MethodDecl<Void> @:249 op:0,dt:0,nt:65535,next:16023,str:27058,d0:0,d1:0;
-    (____, Scope<Void> @:16023 op:0,dt:4,nt:8,next:65535,str:39514,d0:16024,d1:41484;
+    (____, BuiltinInvocation<Void> @:16023 op:0,dt:4,nt:8,next:65535,str:39514,d0:16024,d1:41484;
         ("begin", Expression<MethodOrOperator> @:16024 op:0,dt:2,nt:9,next:15999,str:142,d0:0,d1:0;
-            (____, Scope<Void> @:15999 op:438,dt:4,nt:8,next:16002,str:39550,d0:16000,d1:41460;
+            (____, BuiltinInvocation<Void> @:15999 op:438,dt:4,nt:8,next:16002,str:39550,d0:16000,d1:41460;
                 ("cs_vehicle_boost", Expression<MethodOrOperator> @:16000 op:438,dt:2,nt:9,next:16001,str:13211,d0:0,d1:0;
                     (True, Expression<Boolean> @:16001 op:5,dt:5,nt:9,next:65535,str:39568,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:16002 op:442,dt:4,nt:8,next:16005,str:39576,d0:16003,d1:41463;
+            (____, BuiltinInvocation<Void> @:16002 op:442,dt:4,nt:8,next:16005,str:39576,d0:16003,d1:41463;
                 ("cs_enable_targeting", Expression<MethodOrOperator> @:16003 op:442,dt:2,nt:9,next:16004,str:16281,d0:0,d1:0;
                     (True, Expression<Boolean> @:16004 op:5,dt:5,nt:9,next:65535,str:39597,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:16005 op:404,dt:4,nt:8,next:16008,str:39605,d0:16006,d1:41466;
+            (____, BuiltinInvocation<Void> @:16005 op:404,dt:4,nt:8,next:16008,str:39605,d0:16006,d1:41466;
                 ("cs_shoot", Expression<MethodOrOperator> @:16006 op:404,dt:2,nt:9,next:16007,str:16301,d0:0,d1:0;
                     (True, Expression<Boolean> @:16007 op:5,dt:5,nt:9,next:65535,str:39615,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:16008 op:444,dt:4,nt:8,next:16011,str:39623,d0:16009,d1:41469;
+            (____, BuiltinInvocation<Void> @:16008 op:444,dt:4,nt:8,next:16011,str:39623,d0:16009,d1:41469;
                 ("cs_enable_moving", Expression<MethodOrOperator> @:16009 op:444,dt:2,nt:9,next:16010,str:26762,d0:0,d1:0;
                     (True, Expression<Boolean> @:16010 op:5,dt:5,nt:9,next:65535,str:39641,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:16011 op:21,dt:4,nt:8,next:65535,str:39649,d0:16012,d1:41472;
+            (____, BuiltinInvocation<Void> @:16011 op:21,dt:4,nt:8,next:65535,str:39649,d0:16012,d1:41472;
                 ("sleep_until", Expression<MethodOrOperator> @:16012 op:21,dt:2,nt:9,next:16013,str:372,d0:0,d1:0;
-                    (____, Scope<Boolean> @:16013 op:16,dt:5,nt:8,next:65535,str:39662,d0:16014,d1:41474;
+                    (____, BuiltinInvocation<Boolean> @:16013 op:16,dt:5,nt:8,next:65535,str:39662,d0:16014,d1:41474;
                         ("<", Expression<MethodOrOperator> @:16014 op:16,dt:2,nt:9,next:16015,str:988,d0:0,d1:0;
-                            (-1.7922456E-18f, Scope<Float> @:16015 op:114,dt:6,nt:8,next:16022,str:39665,d0:16016,d1:41476;
+                            (-1.7922456E-18f, BuiltinInvocation<Float> @:16015 op:114,dt:6,nt:8,next:16022,str:39665,d0:16016,d1:41476;
                                 ("objects_distance_to_object", Expression<MethodOrOperator> @:16016 op:114,dt:2,nt:9,next:16017,str:13925,d0:0,d1:0;
-                                    (____, Scope<List> @:16017 op:28,dt:31,nt:8,next:16019,str:39693,d0:16018,d1:41478;
+                                    (____, BuiltinInvocation<List> @:16017 op:28,dt:31,nt:8,next:16019,str:39693,d0:16018,d1:41478;
                                         ("players", Expression<MethodOrOperator> @:16018 op:28,dt:2,nt:9,next:65535,str:162,d0:0,d1:0;))
-                                    (____, Scope<Entity> @:16019 op:284,dt:50,nt:8,next:65535,str:39703,d0:16020,d1:41480;
+                                    (____, BuiltinInvocation<Entity> @:16019 op:284,dt:50,nt:8,next:65535,str:39703,d0:16020,d1:41480;
                                         ("ai_get_object", Expression<MethodOrOperator> @:16020 op:284,dt:2,nt:9,next:16021,str:16342,d0:0,d1:0;
                                             ("ai_current_actor", VariableAccess<AI> @:16021 op:19,dt:19,nt:13,next:65535,str:16356,d0:33564,d1:65535;)))))
                             (30f, Expression<Float> @:16022 op:6,dt:6,nt:9,next:65535,str:39737,d0:0,d1:16880;))))))))

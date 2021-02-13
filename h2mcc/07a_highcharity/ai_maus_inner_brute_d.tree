@@ -1,49 +1,49 @@
 
 ("ai_maus_inner_brute_d", MethodDecl<Void> @:408 op:0,dt:0,nt:65535,next:20219,str:39948,d0:0,d1:0;
-    (____, Scope<Void> @:20219 op:0,dt:4,nt:8,next:65535,str:24260,d0:20220,d1:45680;
+    (____, BuiltinInvocation<Void> @:20219 op:0,dt:4,nt:8,next:65535,str:24260,d0:20220,d1:45680;
         ("begin", Expression<MethodOrOperator> @:20220 op:0,dt:2,nt:9,next:20174,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:20174 op:2,dt:4,nt:8,next:20180,str:24304,d0:20175,d1:45635;
+            (____, BuiltinInvocation<Void> @:20174 op:2,dt:4,nt:8,next:20180,str:24304,d0:20175,d1:45635;
                 ("if", Expression<MethodOrOperator> @:20175 op:2,dt:2,nt:9,next:20176,str:456,d0:0,d1:0;
                     ("debug", VariableAccess<Boolean> @:20176 op:5,dt:5,nt:13,next:20177,str:17539,d0:3,d1:0;
-                        (____, Scope<Void> @:20177 op:27,dt:4,nt:8,next:65535,str:24314,d0:20178,d1:45638;
+                        (____, BuiltinInvocation<Void> @:20177 op:27,dt:4,nt:8,next:65535,str:24314,d0:20178,d1:45638;
                             ("print", Expression<MethodOrOperator> @:20178 op:27,dt:2,nt:9,next:20179,str:86,d0:0,d1:0;
                                 ("door d", Expression<String> @:20179 op:9,dt:9,nt:9,next:65535,str:35546,d0:35546,d1:0;))))))
-            (____, Scope<Void> @:20180 op:2,dt:4,nt:8,next:65535,str:24337,d0:20181,d1:45641;
+            (____, BuiltinInvocation<Void> @:20180 op:2,dt:4,nt:8,next:65535,str:24337,d0:20181,d1:45641;
                 ("if", Expression<MethodOrOperator> @:20181 op:2,dt:2,nt:9,next:20182,str:456,d0:0,d1:0;
-                    (____, Scope<Boolean> @:20182 op:5,dt:5,nt:8,next:20197,str:24341,d0:20183,d1:45643;
+                    (____, BuiltinInvocation<Boolean> @:20182 op:5,dt:5,nt:8,next:20197,str:24341,d0:20183,d1:45643;
                         ("and", Expression<MethodOrOperator> @:20183 op:5,dt:2,nt:9,next:20184,str:667,d0:0,d1:0;
-                            (____, Scope<Boolean> @:20184 op:25,dt:5,nt:8,next:20191,str:24350,d0:20185,d1:45645;
+                            (____, BuiltinInvocation<Boolean> @:20184 op:25,dt:5,nt:8,next:20191,str:24350,d0:20185,d1:45645;
                                 ("not", Expression<MethodOrOperator> @:20185 op:25,dt:2,nt:9,next:20186,str:397,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:20186 op:33,dt:5,nt:8,next:65535,str:24355,d0:20187,d1:45647;
+                                    (____, BuiltinInvocation<Boolean> @:20186 op:33,dt:5,nt:8,next:65535,str:24355,d0:20187,d1:45647;
                                         ("volume_test_objects", Expression<MethodOrOperator> @:20187 op:33,dt:2,nt:9,next:20188,str:17358,d0:0,d1:0;
                                             ("tv_maus_inner_door_d", Expression<Trigger> @:20188 op:13,dt:13,nt:9,next:20189,str:39681,d0:52,d1:0;
-                                                (____, Scope<List> @:20189 op:28,dt:31,nt:8,next:65535,str:24397,d0:20190,d1:45650;
+                                                (____, BuiltinInvocation<List> @:20189 op:28,dt:31,nt:8,next:65535,str:24397,d0:20190,d1:45650;
                                                     ("players", Expression<MethodOrOperator> @:20190 op:28,dt:2,nt:9,next:65535,str:21,d0:0,d1:0;)))))))
-                            (____, Scope<Boolean> @:20191 op:13,dt:5,nt:8,next:65535,str:24413,d0:20192,d1:45652;
+                            (____, BuiltinInvocation<Boolean> @:20191 op:13,dt:5,nt:8,next:65535,str:24413,d0:20192,d1:45652;
                                 ("=", Expression<MethodOrOperator> @:20192 op:13,dt:2,nt:9,next:20193,str:296,d0:0,d1:0;
-                                    (-1.2474375E-08f, Scope<Float> @:20193 op:257,dt:6,nt:8,next:20196,str:24416,d0:20194,d1:45654;
+                                    (-1.2474375E-08f, BuiltinInvocation<Float> @:20193 op:257,dt:6,nt:8,next:20196,str:24416,d0:20194,d1:45654;
                                         ("device_get_position", Expression<MethodOrOperator> @:20194 op:257,dt:2,nt:9,next:20195,str:17009,d0:0,d1:0;
                                             ("maus_inner_door_d", Expression<Device> @:20195 op:60,dt:54,nt:9,next:65535,str:39702,d0:336,d1:65535;)))
                                     (0f, Expression<Float> @:20196 op:6,dt:6,nt:9,next:65535,str:24456,d0:0,d1:0;)))))
-                    (____, Scope<Void> @:20197 op:0,dt:4,nt:8,next:65535,str:24463,d0:20198,d1:45658;
+                    (____, BuiltinInvocation<Void> @:20197 op:0,dt:4,nt:8,next:65535,str:24463,d0:20198,d1:45658;
                         ("begin", Expression<MethodOrOperator> @:20198 op:0,dt:2,nt:9,next:20199,str:1,d0:0,d1:0;
-                            (____, Scope<Void> @:20199 op:290,dt:4,nt:8,next:20202,str:24474,d0:20200,d1:45660;
+                            (____, BuiltinInvocation<Void> @:20199 op:290,dt:4,nt:8,next:20202,str:24474,d0:20200,d1:45660;
                                 ("ai_place", Expression<MethodOrOperator> @:20200 op:290,dt:2,nt:9,next:20201,str:14833,d0:0,d1:0;
                                     ("maus_inner_brutes_d", Expression<AI> @:20201 op:19,dt:19,nt:9,next:65535,str:39720,d0:240,d1:0;)))
-                            (____, Scope<Void> @:20202 op:4,dt:4,nt:8,next:20209,str:24509,d0:20203,d1:45663;
+                            (____, BuiltinInvocation<Void> @:20202 op:4,dt:4,nt:8,next:20209,str:24509,d0:20203,d1:45663;
                                 ("set", Expression<MethodOrOperator> @:20203 op:4,dt:2,nt:9,next:20204,str:2177,d0:0,d1:0;
                                     ("g_maus_inner_count", VariableAccess<Short> @:20204 op:65535,dt:7,nt:13,next:20205,str:39505,d0:81,d1:0;
-                                        (____, Scope<Short> @:20205 op:7,dt:7,nt:8,next:65535,str:24533,d0:20206,d1:45666;
+                                        (____, BuiltinInvocation<Short> @:20205 op:7,dt:7,nt:8,next:65535,str:24533,d0:20206,d1:45666;
                                             ("+", Expression<MethodOrOperator> @:20206 op:7,dt:2,nt:9,next:20207,str:983,d0:0,d1:0;
                                                 ("g_maus_inner_count", VariableAccess<Float> @:20207 op:6,dt:6,nt:13,next:20208,str:39505,d0:81,d1:0;
                                                     (1f, Expression<Float> @:20208 op:6,dt:6,nt:9,next:65535,str:24555,d0:0,d1:16256;)))))))
-                            (____, Scope<Void> @:20209 op:2,dt:4,nt:8,next:65535,str:24563,d0:20210,d1:45670;
+                            (____, BuiltinInvocation<Void> @:20209 op:2,dt:4,nt:8,next:65535,str:24563,d0:20210,d1:45670;
                                 ("if", Expression<MethodOrOperator> @:20210 op:2,dt:2,nt:9,next:20211,str:456,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:20211 op:13,dt:5,nt:8,next:20215,str:24567,d0:20212,d1:45672;
+                                    (____, BuiltinInvocation<Boolean> @:20211 op:13,dt:5,nt:8,next:20215,str:24567,d0:20212,d1:45672;
                                         ("=", Expression<MethodOrOperator> @:20212 op:13,dt:2,nt:9,next:20213,str:296,d0:0,d1:0;
                                             ("g_maus_inner_count", VariableAccess<Short> @:20213 op:0,dt:7,nt:13,next:20214,str:39505,d0:81,d1:0;
                                                 ("g_maus_inner_limit", VariableAccess<Short> @:20214 op:7,dt:7,nt:13,next:65535,str:39524,d0:82,d1:0;))))
-                                    (____, Scope<Void> @:20215 op:4,dt:4,nt:8,next:65535,str:24609,d0:20216,d1:45676;
+                                    (____, BuiltinInvocation<Void> @:20215 op:4,dt:4,nt:8,next:65535,str:24609,d0:20216,d1:45676;
                                         ("set", Expression<MethodOrOperator> @:20216 op:4,dt:2,nt:9,next:20217,str:2177,d0:0,d1:0;
                                             ("g_maus_inner", VariableAccess<Boolean> @:20217 op:65535,dt:5,nt:13,next:20218,str:39543,d0:78,d1:0;
                                                 (False, Expression<Boolean> @:20218 op:5,dt:5,nt:9,next:65535,str:24627,d0:65280,d1:65535;)))))))))))))

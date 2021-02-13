@@ -1,81 +1,81 @@
 
 ("ai_maus_bridge_ini", MethodDecl<Void> @:402 op:0,dt:0,nt:65535,next:19865,str:43651,d0:0,d1:0;
-    (____, Scope<Void> @:19865 op:0,dt:4,nt:8,next:65535,str:20791,d0:19866,d1:45326;
+    (____, BuiltinInvocation<Void> @:19865 op:0,dt:4,nt:8,next:65535,str:20791,d0:19866,d1:45326;
         ("begin", Expression<MethodOrOperator> @:19866 op:0,dt:2,nt:9,next:19787,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:19787 op:2,dt:4,nt:8,next:19793,str:20828,d0:19788,d1:45248;
+            (____, BuiltinInvocation<Void> @:19787 op:2,dt:4,nt:8,next:19793,str:20828,d0:19788,d1:45248;
                 ("if", Expression<MethodOrOperator> @:19788 op:2,dt:2,nt:9,next:19789,str:456,d0:0,d1:0;
                     ("debug", VariableAccess<Boolean> @:19789 op:5,dt:5,nt:13,next:19790,str:17539,d0:3,d1:0;
-                        (____, Scope<Void> @:19790 op:27,dt:4,nt:8,next:65535,str:20838,d0:19791,d1:45251;
+                        (____, BuiltinInvocation<Void> @:19790 op:27,dt:4,nt:8,next:65535,str:20838,d0:19791,d1:45251;
                             ("print", Expression<MethodOrOperator> @:19791 op:27,dt:2,nt:9,next:19792,str:86,d0:0,d1:0;
                                 ("initial bridge", Expression<String> @:19792 op:9,dt:9,nt:9,next:65535,str:38912,d0:38912,d1:0;))))))
-            (____, Scope<Void> @:19793 op:2,dt:4,nt:8,next:19809,str:20866,d0:19794,d1:45254;
+            (____, BuiltinInvocation<Void> @:19793 op:2,dt:4,nt:8,next:19809,str:20866,d0:19794,d1:45254;
                 ("if", Expression<MethodOrOperator> @:19794 op:2,dt:2,nt:9,next:19795,str:456,d0:0,d1:0;
-                    (____, Scope<Boolean> @:19795 op:16,dt:5,nt:8,next:19801,str:20870,d0:19796,d1:45256;
+                    (____, BuiltinInvocation<Boolean> @:19795 op:16,dt:5,nt:8,next:19801,str:20870,d0:19796,d1:45256;
                         ("<", Expression<MethodOrOperator> @:19796 op:16,dt:2,nt:9,next:19797,str:847,d0:0,d1:0;
-                            (____, Scope<Short> @:19797 op:327,dt:7,nt:8,next:19800,str:20873,d0:19798,d1:45258;
+                            (____, BuiltinInvocation<Short> @:19797 op:327,dt:7,nt:8,next:19800,str:20873,d0:19798,d1:45258;
                                 ("ai_living_count", Expression<MethodOrOperator> @:19798 op:327,dt:2,nt:9,next:19799,str:19381,d0:0,d1:0;
                                     ("all_enemies", Expression<AI> @:19799 op:19,dt:19,nt:9,next:65535,str:38285,d0:1,d1:16384;)))
                             (4, Expression<Short> @:19800 op:7,dt:7,nt:9,next:65535,str:20903,d0:4,d1:65535;)))
-                    (____, Scope<Void> @:19801 op:291,dt:4,nt:8,next:19805,str:20906,d0:19802,d1:45262;
+                    (____, BuiltinInvocation<Void> @:19801 op:291,dt:4,nt:8,next:19805,str:20906,d0:19802,d1:45262;
                         ("ai_place", Expression<MethodOrOperator> @:19802 op:291,dt:2,nt:9,next:19803,str:14833,d0:0,d1:0;
                             ("maus_bridge_elite_turret", Expression<AI> @:19803 op:19,dt:19,nt:9,next:19804,str:38927,d0:220,d1:0;
                                 (2, Expression<Short> @:19804 op:7,dt:7,nt:9,next:65535,str:20941,d0:2,d1:65535;))))
-                    (____, Scope<Void> @:19805 op:291,dt:4,nt:8,next:65535,str:20944,d0:19806,d1:45266;
+                    (____, BuiltinInvocation<Void> @:19805 op:291,dt:4,nt:8,next:65535,str:20944,d0:19806,d1:45266;
                         ("ai_place", Expression<MethodOrOperator> @:19806 op:291,dt:2,nt:9,next:19807,str:14833,d0:0,d1:0;
                             ("maus_bridge_elite_turret", Expression<AI> @:19807 op:19,dt:19,nt:9,next:19808,str:38927,d0:220,d1:0;
                                 (1, Expression<Short> @:19808 op:7,dt:7,nt:9,next:65535,str:20979,d0:1,d1:65535;))))))
-            (____, Scope<Void> @:19809 op:290,dt:4,nt:8,next:19812,str:20985,d0:19810,d1:45270;
+            (____, BuiltinInvocation<Void> @:19809 op:290,dt:4,nt:8,next:19812,str:20985,d0:19810,d1:45270;
                 ("ai_place", Expression<MethodOrOperator> @:19810 op:290,dt:2,nt:9,next:19811,str:14833,d0:0,d1:0;
                     ("maus_bridge_elites_ini", Expression<AI> @:19811 op:19,dt:19,nt:9,next:65535,str:38952,d0:221,d1:0;)))
-            (____, Scope<Void> @:19812 op:291,dt:4,nt:8,next:19825,str:21021,d0:19813,d1:45273;
+            (____, BuiltinInvocation<Void> @:19812 op:291,dt:4,nt:8,next:19825,str:21021,d0:19813,d1:45273;
                 ("ai_place", Expression<MethodOrOperator> @:19813 op:291,dt:2,nt:9,next:19814,str:14833,d0:0,d1:0;
                     ("maus_bridge_brutes_ini", Expression<AI> @:19814 op:19,dt:19,nt:9,next:19815,str:38975,d0:227,d1:0;
-                        (____, Scope<Short> @:19815 op:26,dt:7,nt:8,next:65535,str:21054,d0:19816,d1:45276;
+                        (____, BuiltinInvocation<Short> @:19815 op:26,dt:7,nt:8,next:65535,str:21054,d0:19816,d1:45276;
                             ("pin", Expression<MethodOrOperator> @:19816 op:26,dt:2,nt:9,next:19817,str:33083,d0:0,d1:0;
-                                (-1.6174628E-09f, Scope<Float> @:19817 op:8,dt:6,nt:8,next:19823,str:21059,d0:19818,d1:45278;
+                                (-1.6174628E-09f, BuiltinInvocation<Float> @:19817 op:8,dt:6,nt:8,next:19823,str:21059,d0:19818,d1:45278;
                                     ("-", Expression<MethodOrOperator> @:19818 op:8,dt:2,nt:9,next:19819,str:2720,d0:0,d1:0;
                                         (10f, Expression<Float> @:19819 op:6,dt:6,nt:9,next:19820,str:21062,d0:0,d1:16672;
-                                            (-1.639291E-09f, Scope<Float> @:19820 op:327,dt:6,nt:8,next:65535,str:21065,d0:19821,d1:45281;
+                                            (-1.639291E-09f, BuiltinInvocation<Float> @:19820 op:327,dt:6,nt:8,next:65535,str:21065,d0:19821,d1:45281;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:19821 op:327,dt:2,nt:9,next:19822,str:19381,d0:0,d1:0;
                                                     ("all_enemies", Expression<AI> @:19822 op:19,dt:19,nt:9,next:65535,str:38285,d0:1,d1:16384;))))))
                                 (0f, Expression<Float> @:19823 op:6,dt:6,nt:9,next:19824,str:21096,d0:0,d1:0;
                                     (3f, Expression<Float> @:19824 op:6,dt:6,nt:9,next:65535,str:21098,d0:0,d1:16448;)))))))
-            (____, Scope<Void> @:19825 op:290,dt:4,nt:8,next:19828,str:21104,d0:19826,d1:45286;
+            (____, BuiltinInvocation<Void> @:19825 op:290,dt:4,nt:8,next:19828,str:21104,d0:19826,d1:45286;
                 ("ai_place", Expression<MethodOrOperator> @:19826 op:290,dt:2,nt:9,next:19827,str:14833,d0:0,d1:0;
                     ("maus_bridge_jackals_ini", Expression<AI> @:19827 op:19,dt:19,nt:9,next:65535,str:38998,d0:228,d1:0;)))
-            (____, Scope<Void> @:19828 op:21,dt:4,nt:8,next:19843,str:21144,d0:19829,d1:45289;
+            (____, BuiltinInvocation<Void> @:19828 op:21,dt:4,nt:8,next:19843,str:21144,d0:19829,d1:45289;
                 ("sleep_until", Expression<MethodOrOperator> @:19829 op:21,dt:2,nt:9,next:19830,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:19830 op:6,dt:5,nt:8,next:65535,str:21157,d0:19831,d1:45291;
+                    (____, BuiltinInvocation<Boolean> @:19830 op:6,dt:5,nt:8,next:65535,str:21157,d0:19831,d1:45291;
                         ("or", Expression<MethodOrOperator> @:19831 op:6,dt:2,nt:9,next:19832,str:844,d0:0,d1:0;
                             ("g_maus_bridge_fr", VariableAccess<Boolean> @:19832 op:5,dt:5,nt:13,next:19833,str:39022,d0:76,d1:0;
-                                (____, Scope<Boolean> @:19833 op:337,dt:5,nt:8,next:19837,str:21190,d0:19834,d1:45294;
+                                (____, BuiltinInvocation<Boolean> @:19833 op:337,dt:5,nt:8,next:19837,str:21190,d0:19834,d1:45294;
                                     ("ai_trigger_test", Expression<MethodOrOperator> @:19834 op:337,dt:2,nt:9,next:19835,str:39039,d0:0,d1:0;
                                         ("maus_bridge_elites_ini", Expression<String> @:19835 op:9,dt:9,nt:9,next:19836,str:38952,d0:38952,d1:0;
                                             ("maus_bridge_elites_ini", Expression<AI> @:19836 op:19,dt:19,nt:9,next:65535,str:38952,d0:221,d1:0;))))
-                                (____, Scope<Boolean> @:19837 op:18,dt:5,nt:8,next:65535,str:21260,d0:19838,d1:45298;
+                                (____, BuiltinInvocation<Boolean> @:19837 op:18,dt:5,nt:8,next:65535,str:21260,d0:19838,d1:45298;
                                     ("<=", Expression<MethodOrOperator> @:19838 op:18,dt:2,nt:9,next:19839,str:21122,d0:0,d1:0;
-                                        (____, Scope<Short> @:19839 op:327,dt:7,nt:8,next:19842,str:21264,d0:19840,d1:45300;
+                                        (____, BuiltinInvocation<Short> @:19839 op:327,dt:7,nt:8,next:19842,str:21264,d0:19840,d1:45300;
                                             ("ai_living_count", Expression<MethodOrOperator> @:19840 op:327,dt:2,nt:9,next:19841,str:19381,d0:0,d1:0;
                                                 ("maus_bridge_prophets", Expression<AI> @:19841 op:19,dt:19,nt:9,next:65535,str:39055,d0:24,d1:16384;)))
                                         (1, Expression<Short> @:19842 op:7,dt:7,nt:9,next:65535,str:21303,d0:1,d1:65535;))))))))
-            (____, Scope<Void> @:19843 op:19,dt:4,nt:8,next:19846,str:21321,d0:19844,d1:45304;
+            (____, BuiltinInvocation<Void> @:19843 op:19,dt:4,nt:8,next:19846,str:21321,d0:19844,d1:45304;
                 ("sleep", Expression<MethodOrOperator> @:19844 op:19,dt:2,nt:9,next:19845,str:80,d0:0,d1:0;
                     (1, Expression<Short> @:19845 op:7,dt:7,nt:9,next:65535,str:21328,d0:1,d1:65535;)))
-            (____, Scope<Void> @:19846 op:2,dt:4,nt:8,next:19852,str:21333,d0:19847,d1:45307;
+            (____, BuiltinInvocation<Void> @:19846 op:2,dt:4,nt:8,next:19852,str:21333,d0:19847,d1:45307;
                 ("if", Expression<MethodOrOperator> @:19847 op:2,dt:2,nt:9,next:19848,str:456,d0:0,d1:0;
                     ("debug", VariableAccess<Boolean> @:19848 op:5,dt:5,nt:13,next:19849,str:17539,d0:3,d1:0;
-                        (____, Scope<Void> @:19849 op:27,dt:4,nt:8,next:65535,str:21343,d0:19850,d1:45310;
+                        (____, BuiltinInvocation<Void> @:19849 op:27,dt:4,nt:8,next:65535,str:21343,d0:19850,d1:45310;
                             ("print", Expression<MethodOrOperator> @:19850 op:27,dt:2,nt:9,next:19851,str:86,d0:0,d1:0;
                                 ("bugger reinforcements", Expression<String> @:19851 op:9,dt:9,nt:9,next:65535,str:37724,d0:37724,d1:0;))))))
-            (____, Scope<Void> @:19852 op:291,dt:4,nt:8,next:65535,str:21378,d0:19853,d1:45313;
+            (____, BuiltinInvocation<Void> @:19852 op:291,dt:4,nt:8,next:65535,str:21378,d0:19853,d1:45313;
                 ("ai_place", Expression<MethodOrOperator> @:19853 op:291,dt:2,nt:9,next:19854,str:14833,d0:0,d1:0;
                     ("maus_bridge_buggers_ini", Expression<AI> @:19854 op:19,dt:19,nt:9,next:19855,str:39076,d0:226,d1:0;
-                        (____, Scope<Short> @:19855 op:26,dt:7,nt:8,next:65535,str:21412,d0:19856,d1:45316;
+                        (____, BuiltinInvocation<Short> @:19855 op:26,dt:7,nt:8,next:65535,str:21412,d0:19856,d1:45316;
                             ("pin", Expression<MethodOrOperator> @:19856 op:26,dt:2,nt:9,next:19857,str:33083,d0:0,d1:0;
-                                (-1.954366E-09f, Scope<Float> @:19857 op:8,dt:6,nt:8,next:19863,str:21417,d0:19858,d1:45318;
+                                (-1.954366E-09f, BuiltinInvocation<Float> @:19857 op:8,dt:6,nt:8,next:19863,str:21417,d0:19858,d1:45318;
                                     ("-", Expression<MethodOrOperator> @:19858 op:8,dt:2,nt:9,next:19859,str:2720,d0:0,d1:0;
                                         (11f, Expression<Float> @:19859 op:6,dt:6,nt:9,next:19860,str:21420,d0:0,d1:16688;
-                                            (-1.9980224E-09f, Scope<Float> @:19860 op:327,dt:6,nt:8,next:65535,str:21423,d0:19861,d1:45321;
+                                            (-1.9980224E-09f, BuiltinInvocation<Float> @:19860 op:327,dt:6,nt:8,next:65535,str:21423,d0:19861,d1:45321;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:19861 op:327,dt:2,nt:9,next:19862,str:19381,d0:0,d1:0;
                                                     ("all_enemies", Expression<AI> @:19862 op:19,dt:19,nt:9,next:65535,str:38285,d0:1,d1:16384;))))))
                                 (0f, Expression<Float> @:19863 op:6,dt:6,nt:9,next:19864,str:21454,d0:0,d1:0;

@@ -1,39 +1,39 @@
 
 ("x07_01_setup", MethodDecl<Void> @:70 op:0,dt:0,nt:65535,next:2082,str:5730,d0:0,d1:0;
-    (____, Scope<Void> @:2082 op:0,dt:4,nt:8,next:65535,str:25245,d0:2083,d1:60310;
+    (____, BuiltinInvocation<Void> @:2082 op:0,dt:4,nt:8,next:65535,str:25245,d0:2083,d1:60310;
         ("begin", Expression<MethodOrOperator> @:2083 op:0,dt:2,nt:9,next:2047,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:2047 op:48,dt:4,nt:8,next:2050,str:25282,d0:2048,d1:60275;
+            (____, BuiltinInvocation<Void> @:2047 op:48,dt:4,nt:8,next:2050,str:25282,d0:2048,d1:60275;
                 ("object_create_anew", Expression<MethodOrOperator> @:2048 op:48,dt:2,nt:9,next:2049,str:2258,d0:0,d1:0;
                     ("miranda", Expression<EntityIdentifier> @:2049 op:56,dt:56,nt:9,next:65535,str:5468,d0:25,d1:65535;)))
-            (____, Scope<Void> @:2050 op:48,dt:4,nt:8,next:2053,str:25313,d0:2051,d1:60278;
+            (____, BuiltinInvocation<Void> @:2050 op:48,dt:4,nt:8,next:2053,str:25313,d0:2051,d1:60278;
                 ("object_create_anew", Expression<MethodOrOperator> @:2051 op:48,dt:2,nt:9,next:2052,str:2258,d0:0,d1:0;
                     ("x07_tentacle", Expression<EntityIdentifier> @:2052 op:56,dt:56,nt:9,next:65535,str:5476,d0:15,d1:65535;)))
-            (____, Scope<Void> @:2053 op:48,dt:4,nt:8,next:2056,str:25349,d0:2054,d1:60281;
+            (____, BuiltinInvocation<Void> @:2053 op:48,dt:4,nt:8,next:2056,str:25349,d0:2054,d1:60281;
                 ("object_create_anew", Expression<MethodOrOperator> @:2054 op:48,dt:2,nt:9,next:2055,str:2258,d0:0,d1:0;
                     ("index_container", Expression<EntityIdentifier> @:2055 op:56,dt:56,nt:9,next:65535,str:3599,d0:20,d1:65535;)))
-            (____, Scope<Void> @:2056 op:27,dt:4,nt:8,next:2059,str:25388,d0:2057,d1:60284;
+            (____, BuiltinInvocation<Void> @:2056 op:27,dt:4,nt:8,next:2059,str:25388,d0:2057,d1:60284;
                 ("print", Expression<MethodOrOperator> @:2057 op:27,dt:2,nt:9,next:2058,str:91,d0:0,d1:0;
                     ("tentacle created", Expression<String> @:2058 op:9,dt:9,nt:9,next:65535,str:5517,d0:5517,d1:0;)))
-            (____, Scope<Void> @:2059 op:92,dt:4,nt:8,next:2063,str:25420,d0:2060,d1:60287;
+            (____, BuiltinInvocation<Void> @:2059 op:92,dt:4,nt:8,next:2063,str:25420,d0:2060,d1:60287;
                 ("object_cinematic_lod", Expression<MethodOrOperator> @:2060 op:92,dt:2,nt:9,next:2061,str:2324,d0:0,d1:0;
                     (4294901785, Expression<Entity> @:2061 op:56,dt:50,nt:9,next:2062,str:5468,d0:25,d1:65535;
                         (True, Expression<Boolean> @:2062 op:5,dt:5,nt:9,next:65535,str:25450,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:2063 op:92,dt:4,nt:8,next:2067,str:25502,d0:2064,d1:60291;
+            (____, BuiltinInvocation<Void> @:2063 op:92,dt:4,nt:8,next:2067,str:25502,d0:2064,d1:60291;
                 ("object_cinematic_lod", Expression<MethodOrOperator> @:2064 op:92,dt:2,nt:9,next:2065,str:2324,d0:0,d1:0;
                     (4294901780, Expression<Entity> @:2065 op:56,dt:50,nt:9,next:2066,str:3599,d0:20,d1:65535;
                         (True, Expression<Boolean> @:2066 op:5,dt:5,nt:9,next:65535,str:25540,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:2067 op:220,dt:4,nt:8,next:2073,str:25587,d0:2068,d1:60295;
+            (____, BuiltinInvocation<Void> @:2067 op:220,dt:4,nt:8,next:2073,str:25587,d0:2068,d1:60295;
                 ("unit_set_emotional_state", Expression<MethodOrOperator> @:2068 op:220,dt:2,nt:9,next:2069,str:5534,d0:0,d1:0;
                     ("miranda", Expression<Unit> @:2069 op:57,dt:51,nt:9,next:2070,str:5468,d0:25,d1:65535;
                         ("pain", Expression<StringId> @:2070 op:11,dt:11,nt:9,next:2071,str:5559,d0:432,d1:1024;
                             (0.25f, Expression<Float> @:2071 op:6,dt:6,nt:9,next:2072,str:25626,d0:0,d1:16000;
                                 (0, Expression<Short> @:2072 op:7,dt:7,nt:9,next:65535,str:25630,d0:0,d1:65535;))))))
-            (____, Scope<Void> @:2073 op:27,dt:4,nt:8,next:2076,str:25635,d0:2074,d1:60301;
+            (____, BuiltinInvocation<Void> @:2073 op:27,dt:4,nt:8,next:2076,str:25635,d0:2074,d1:60301;
                 ("print", Expression<MethodOrOperator> @:2074 op:27,dt:2,nt:9,next:2075,str:91,d0:0,d1:0;
                     ("miranda - pain .25 0", Expression<String> @:2075 op:9,dt:9,nt:9,next:65535,str:5564,d0:5564,d1:0;)))
-            (____, Scope<Void> @:2076 op:22,dt:4,nt:8,next:2079,str:25671,d0:2077,d1:60304;
+            (____, BuiltinInvocation<Void> @:2076 op:22,dt:4,nt:8,next:2079,str:25671,d0:2077,d1:60304;
                 ("wake", Expression<MethodOrOperator> @:2077 op:22,dt:2,nt:9,next:2078,str:1071,d0:0,d1:0;
                     ("x07_foley_01", Expression<ScriptReference> @:2078 op:10,dt:10,nt:9,next:65535,str:5585,d0:68,d1:65535;)))
-            (____, Scope<Void> @:2079 op:22,dt:4,nt:8,next:65535,str:25696,d0:2080,d1:60307;
+            (____, BuiltinInvocation<Void> @:2079 op:22,dt:4,nt:8,next:65535,str:25696,d0:2080,d1:60307;
                 ("wake", Expression<MethodOrOperator> @:2080 op:22,dt:2,nt:9,next:2081,str:1071,d0:0,d1:0;
                     ("x07_cinematic_light_01", Expression<ScriptReference> @:2081 op:10,dt:10,nt:9,next:65535,str:5598,d0:69,d1:65535;))))))

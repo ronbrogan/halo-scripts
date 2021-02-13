@@ -1,92 +1,92 @@
 
 ("gondola_01_unload", MethodDecl<Void> @:173 op:0,dt:0,nt:65535,next:7082,str:16078,d0:0,d1:0;
-    (____, Scope<Void> @:7082 op:0,dt:4,nt:8,next:65535,str:15105,d0:7083,d1:65310;
+    (____, BuiltinInvocation<Void> @:7082 op:0,dt:4,nt:8,next:65535,str:15105,d0:7083,d1:65310;
         ("begin", Expression<MethodOrOperator> @:7083 op:0,dt:2,nt:9,next:6994,str:142,d0:0,d1:0;
-            (____, Scope<Void> @:6994 op:19,dt:4,nt:8,next:6997,str:15141,d0:6995,d1:65222;
+            (____, BuiltinInvocation<Void> @:6994 op:19,dt:4,nt:8,next:6997,str:15141,d0:6995,d1:65222;
                 ("sleep", Expression<MethodOrOperator> @:6995 op:19,dt:2,nt:9,next:6996,str:221,d0:0,d1:0;
                     (90, Expression<Short> @:6996 op:7,dt:7,nt:9,next:65535,str:15148,d0:90,d1:65535;)))
-            (____, Scope<Void> @:6997 op:233,dt:4,nt:8,next:7003,str:15154,d0:6998,d1:65225;
+            (____, BuiltinInvocation<Void> @:6997 op:233,dt:4,nt:8,next:7003,str:15154,d0:6998,d1:65225;
                 ("vehicle_unload", Expression<MethodOrOperator> @:6998 op:233,dt:2,nt:9,next:6999,str:13130,d0:0,d1:0;
-                    (____, Scope<Entity> @:6999 op:341,dt:50,nt:8,next:7002,str:15170,d0:7000,d1:65227;
+                    (____, BuiltinInvocation<Entity> @:6999 op:341,dt:50,nt:8,next:7002,str:15170,d0:7000,d1:65227;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:7000 op:341,dt:2,nt:9,next:7001,str:13061,d0:0,d1:0;
                             ("gondola_01_phantom/pilot", Expression<AI> @:7001 op:19,dt:19,nt:9,next:65535,str:15848,d0:0,d1:49188;)))
                     ("phantom_p_a01", Expression<VehicleSeat> @:7002 op:12,dt:12,nt:9,next:65535,str:13145,d0:0,d1:1;)))
-            (____, Scope<Void> @:7003 op:19,dt:4,nt:8,next:7006,str:15254,d0:7004,d1:65231;
+            (____, BuiltinInvocation<Void> @:7003 op:19,dt:4,nt:8,next:7006,str:15254,d0:7004,d1:65231;
                 ("sleep", Expression<MethodOrOperator> @:7004 op:19,dt:2,nt:9,next:7005,str:221,d0:0,d1:0;
                     (5, Expression<Short> @:7005 op:7,dt:7,nt:9,next:65535,str:15261,d0:5,d1:65535;)))
-            (____, Scope<Void> @:7006 op:233,dt:4,nt:8,next:7012,str:15266,d0:7007,d1:65234;
+            (____, BuiltinInvocation<Void> @:7006 op:233,dt:4,nt:8,next:7012,str:15266,d0:7007,d1:65234;
                 ("vehicle_unload", Expression<MethodOrOperator> @:7007 op:233,dt:2,nt:9,next:7008,str:13130,d0:0,d1:0;
-                    (____, Scope<Entity> @:7008 op:341,dt:50,nt:8,next:7011,str:15282,d0:7009,d1:65236;
+                    (____, BuiltinInvocation<Entity> @:7008 op:341,dt:50,nt:8,next:7011,str:15282,d0:7009,d1:65236;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:7009 op:341,dt:2,nt:9,next:7010,str:13061,d0:0,d1:0;
                             ("gondola_01_phantom/pilot", Expression<AI> @:7010 op:19,dt:19,nt:9,next:65535,str:15848,d0:0,d1:49188;)))
                     ("phantom_p_a02", Expression<VehicleSeat> @:7011 op:12,dt:12,nt:9,next:65535,str:13159,d0:1,d1:1;)))
-            (____, Scope<Void> @:7012 op:19,dt:4,nt:8,next:7015,str:15366,d0:7013,d1:65240;
+            (____, BuiltinInvocation<Void> @:7012 op:19,dt:4,nt:8,next:7015,str:15366,d0:7013,d1:65240;
                 ("sleep", Expression<MethodOrOperator> @:7013 op:19,dt:2,nt:9,next:7014,str:221,d0:0,d1:0;
                     (5, Expression<Short> @:7014 op:7,dt:7,nt:9,next:65535,str:15373,d0:5,d1:65535;)))
-            (____, Scope<Void> @:7015 op:233,dt:4,nt:8,next:7021,str:15378,d0:7016,d1:65243;
+            (____, BuiltinInvocation<Void> @:7015 op:233,dt:4,nt:8,next:7021,str:15378,d0:7016,d1:65243;
                 ("vehicle_unload", Expression<MethodOrOperator> @:7016 op:233,dt:2,nt:9,next:7017,str:13130,d0:0,d1:0;
-                    (____, Scope<Entity> @:7017 op:341,dt:50,nt:8,next:7020,str:15394,d0:7018,d1:65245;
+                    (____, BuiltinInvocation<Entity> @:7017 op:341,dt:50,nt:8,next:7020,str:15394,d0:7018,d1:65245;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:7018 op:341,dt:2,nt:9,next:7019,str:13061,d0:0,d1:0;
                             ("gondola_01_phantom/pilot", Expression<AI> @:7019 op:19,dt:19,nt:9,next:65535,str:15848,d0:0,d1:49188;)))
                     ("phantom_p_a03", Expression<VehicleSeat> @:7020 op:12,dt:12,nt:9,next:65535,str:15873,d0:4,d1:1;)))
-            (____, Scope<Void> @:7021 op:19,dt:4,nt:8,next:7024,str:15478,d0:7022,d1:65249;
+            (____, BuiltinInvocation<Void> @:7021 op:19,dt:4,nt:8,next:7024,str:15478,d0:7022,d1:65249;
                 ("sleep", Expression<MethodOrOperator> @:7022 op:19,dt:2,nt:9,next:7023,str:221,d0:0,d1:0;
                     (5, Expression<Short> @:7023 op:7,dt:7,nt:9,next:65535,str:15485,d0:5,d1:65535;)))
-            (____, Scope<Void> @:7024 op:233,dt:4,nt:8,next:7030,str:15490,d0:7025,d1:65252;
+            (____, BuiltinInvocation<Void> @:7024 op:233,dt:4,nt:8,next:7030,str:15490,d0:7025,d1:65252;
                 ("vehicle_unload", Expression<MethodOrOperator> @:7025 op:233,dt:2,nt:9,next:7026,str:13130,d0:0,d1:0;
-                    (____, Scope<Entity> @:7026 op:341,dt:50,nt:8,next:7029,str:15506,d0:7027,d1:65254;
+                    (____, BuiltinInvocation<Entity> @:7026 op:341,dt:50,nt:8,next:7029,str:15506,d0:7027,d1:65254;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:7027 op:341,dt:2,nt:9,next:7028,str:13061,d0:0,d1:0;
                             ("gondola_01_phantom/pilot", Expression<AI> @:7028 op:19,dt:19,nt:9,next:65535,str:15848,d0:0,d1:49188;)))
                     ("phantom_p_b01", Expression<VehicleSeat> @:7029 op:12,dt:12,nt:9,next:65535,str:15887,d0:5,d1:1;)))
-            (____, Scope<Void> @:7030 op:19,dt:4,nt:8,next:7033,str:15590,d0:7031,d1:65258;
+            (____, BuiltinInvocation<Void> @:7030 op:19,dt:4,nt:8,next:7033,str:15590,d0:7031,d1:65258;
                 ("sleep", Expression<MethodOrOperator> @:7031 op:19,dt:2,nt:9,next:7032,str:221,d0:0,d1:0;
                     (5, Expression<Short> @:7032 op:7,dt:7,nt:9,next:65535,str:15597,d0:5,d1:65535;)))
-            (____, Scope<Void> @:7033 op:233,dt:4,nt:8,next:7039,str:15602,d0:7034,d1:65261;
+            (____, BuiltinInvocation<Void> @:7033 op:233,dt:4,nt:8,next:7039,str:15602,d0:7034,d1:65261;
                 ("vehicle_unload", Expression<MethodOrOperator> @:7034 op:233,dt:2,nt:9,next:7035,str:13130,d0:0,d1:0;
-                    (____, Scope<Entity> @:7035 op:341,dt:50,nt:8,next:7038,str:15618,d0:7036,d1:65263;
+                    (____, BuiltinInvocation<Entity> @:7035 op:341,dt:50,nt:8,next:7038,str:15618,d0:7036,d1:65263;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:7036 op:341,dt:2,nt:9,next:7037,str:13061,d0:0,d1:0;
                             ("gondola_01_phantom/pilot", Expression<AI> @:7037 op:19,dt:19,nt:9,next:65535,str:15848,d0:0,d1:49188;)))
                     ("phantom_p_b02", Expression<VehicleSeat> @:7038 op:12,dt:12,nt:9,next:65535,str:15901,d0:6,d1:1;)))
-            (____, Scope<Void> @:7039 op:19,dt:4,nt:8,next:7042,str:15702,d0:7040,d1:65267;
+            (____, BuiltinInvocation<Void> @:7039 op:19,dt:4,nt:8,next:7042,str:15702,d0:7040,d1:65267;
                 ("sleep", Expression<MethodOrOperator> @:7040 op:19,dt:2,nt:9,next:7041,str:221,d0:0,d1:0;
                     (5, Expression<Short> @:7041 op:7,dt:7,nt:9,next:65535,str:15709,d0:5,d1:65535;)))
-            (____, Scope<Void> @:7042 op:233,dt:4,nt:8,next:7048,str:15714,d0:7043,d1:65270;
+            (____, BuiltinInvocation<Void> @:7042 op:233,dt:4,nt:8,next:7048,str:15714,d0:7043,d1:65270;
                 ("vehicle_unload", Expression<MethodOrOperator> @:7043 op:233,dt:2,nt:9,next:7044,str:13130,d0:0,d1:0;
-                    (____, Scope<Entity> @:7044 op:341,dt:50,nt:8,next:7047,str:15730,d0:7045,d1:65272;
+                    (____, BuiltinInvocation<Entity> @:7044 op:341,dt:50,nt:8,next:7047,str:15730,d0:7045,d1:65272;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:7045 op:341,dt:2,nt:9,next:7046,str:13061,d0:0,d1:0;
                             ("gondola_01_phantom/pilot", Expression<AI> @:7046 op:19,dt:19,nt:9,next:65535,str:15848,d0:0,d1:49188;)))
                     ("phantom_p_b03", Expression<VehicleSeat> @:7047 op:12,dt:12,nt:9,next:65535,str:15915,d0:7,d1:1;)))
-            (____, Scope<Void> @:7048 op:19,dt:4,nt:8,next:7051,str:15814,d0:7049,d1:65276;
+            (____, BuiltinInvocation<Void> @:7048 op:19,dt:4,nt:8,next:7051,str:15814,d0:7049,d1:65276;
                 ("sleep", Expression<MethodOrOperator> @:7049 op:19,dt:2,nt:9,next:7050,str:221,d0:0,d1:0;
                     (5, Expression<Short> @:7050 op:7,dt:7,nt:9,next:65535,str:15821,d0:5,d1:65535;)))
-            (____, Scope<Void> @:7051 op:233,dt:4,nt:8,next:7057,str:15826,d0:7052,d1:65279;
+            (____, BuiltinInvocation<Void> @:7051 op:233,dt:4,nt:8,next:7057,str:15826,d0:7052,d1:65279;
                 ("vehicle_unload", Expression<MethodOrOperator> @:7052 op:233,dt:2,nt:9,next:7053,str:13130,d0:0,d1:0;
-                    (____, Scope<Entity> @:7053 op:341,dt:50,nt:8,next:7056,str:15842,d0:7054,d1:65281;
+                    (____, BuiltinInvocation<Entity> @:7053 op:341,dt:50,nt:8,next:7056,str:15842,d0:7054,d1:65281;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:7054 op:341,dt:2,nt:9,next:7055,str:13061,d0:0,d1:0;
                             ("gondola_01_phantom/pilot", Expression<AI> @:7055 op:19,dt:19,nt:9,next:65535,str:15848,d0:0,d1:49188;)))
                     ("phantom_p_c01", Expression<VehicleSeat> @:7056 op:12,dt:12,nt:9,next:65535,str:15929,d0:8,d1:1;)))
-            (____, Scope<Void> @:7057 op:19,dt:4,nt:8,next:7060,str:15926,d0:7058,d1:65285;
+            (____, BuiltinInvocation<Void> @:7057 op:19,dt:4,nt:8,next:7060,str:15926,d0:7058,d1:65285;
                 ("sleep", Expression<MethodOrOperator> @:7058 op:19,dt:2,nt:9,next:7059,str:221,d0:0,d1:0;
                     (5, Expression<Short> @:7059 op:7,dt:7,nt:9,next:65535,str:15933,d0:5,d1:65535;)))
-            (____, Scope<Void> @:7060 op:233,dt:4,nt:8,next:7066,str:15938,d0:7061,d1:65288;
+            (____, BuiltinInvocation<Void> @:7060 op:233,dt:4,nt:8,next:7066,str:15938,d0:7061,d1:65288;
                 ("vehicle_unload", Expression<MethodOrOperator> @:7061 op:233,dt:2,nt:9,next:7062,str:13130,d0:0,d1:0;
-                    (____, Scope<Entity> @:7062 op:341,dt:50,nt:8,next:7065,str:15954,d0:7063,d1:65290;
+                    (____, BuiltinInvocation<Entity> @:7062 op:341,dt:50,nt:8,next:7065,str:15954,d0:7063,d1:65290;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:7063 op:341,dt:2,nt:9,next:7064,str:13061,d0:0,d1:0;
                             ("gondola_01_phantom/pilot", Expression<AI> @:7064 op:19,dt:19,nt:9,next:65535,str:15848,d0:0,d1:49188;)))
                     ("phantom_p_c02", Expression<VehicleSeat> @:7065 op:12,dt:12,nt:9,next:65535,str:15943,d0:9,d1:1;)))
-            (____, Scope<Void> @:7066 op:19,dt:4,nt:8,next:7069,str:16038,d0:7067,d1:65294;
+            (____, BuiltinInvocation<Void> @:7066 op:19,dt:4,nt:8,next:7069,str:16038,d0:7067,d1:65294;
                 ("sleep", Expression<MethodOrOperator> @:7067 op:19,dt:2,nt:9,next:7068,str:221,d0:0,d1:0;
                     (5, Expression<Short> @:7068 op:7,dt:7,nt:9,next:65535,str:16045,d0:5,d1:65535;)))
-            (____, Scope<Void> @:7069 op:233,dt:4,nt:8,next:7075,str:16050,d0:7070,d1:65297;
+            (____, BuiltinInvocation<Void> @:7069 op:233,dt:4,nt:8,next:7075,str:16050,d0:7070,d1:65297;
                 ("vehicle_unload", Expression<MethodOrOperator> @:7070 op:233,dt:2,nt:9,next:7071,str:13130,d0:0,d1:0;
-                    (____, Scope<Entity> @:7071 op:341,dt:50,nt:8,next:7074,str:16066,d0:7072,d1:65299;
+                    (____, BuiltinInvocation<Entity> @:7071 op:341,dt:50,nt:8,next:7074,str:16066,d0:7072,d1:65299;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:7072 op:341,dt:2,nt:9,next:7073,str:13061,d0:0,d1:0;
                             ("gondola_01_phantom/pilot", Expression<AI> @:7073 op:19,dt:19,nt:9,next:65535,str:15848,d0:0,d1:49188;)))
                     ("phantom_p_c03", Expression<VehicleSeat> @:7074 op:12,dt:12,nt:9,next:65535,str:15957,d0:10,d1:1;)))
-            (____, Scope<Void> @:7075 op:19,dt:4,nt:8,next:7078,str:16153,d0:7076,d1:65303;
+            (____, BuiltinInvocation<Void> @:7075 op:19,dt:4,nt:8,next:7078,str:16153,d0:7076,d1:65303;
                 ("sleep", Expression<MethodOrOperator> @:7076 op:19,dt:2,nt:9,next:7077,str:221,d0:0,d1:0;
                     (90, Expression<Short> @:7077 op:7,dt:7,nt:9,next:65535,str:16160,d0:90,d1:65535;)))
-            (____, Scope<Void> @:7078 op:366,dt:4,nt:8,next:65535,str:16166,d0:7079,d1:65306;
+            (____, BuiltinInvocation<Void> @:7078 op:366,dt:4,nt:8,next:65535,str:16166,d0:7079,d1:65306;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:7079 op:366,dt:2,nt:9,next:7080,str:11508,d0:0,d1:0;
                     ("gondola_01_phantom/pilot", Expression<AI> @:7080 op:19,dt:19,nt:9,next:7081,str:15848,d0:0,d1:49188;
                         ("gondola_01_retreat", Expression<AIScript> @:7081 op:21,dt:21,nt:9,next:65535,str:15971,d0:172,d1:0;)))))))

@@ -1,63 +1,63 @@
 
 ("monitor_chat_01", MethodDecl<Void> @:332 op:0,dt:0,nt:65535,next:29407,str:37220,d0:0,d1:0;
-    (____, Scope<Void> @:29407 op:0,dt:4,nt:8,next:65535,str:17454,d0:29408,d1:54868;
+    (____, BuiltinInvocation<Void> @:29407 op:0,dt:4,nt:8,next:65535,str:17454,d0:29408,d1:54868;
         ("begin", Expression<MethodOrOperator> @:29408 op:0,dt:2,nt:9,next:29348,str:210,d0:0,d1:0;
-            (____, Scope<Void> @:29348 op:4,dt:4,nt:8,next:29352,str:17495,d0:29349,d1:54809;
+            (____, BuiltinInvocation<Void> @:29348 op:4,dt:4,nt:8,next:29352,str:17495,d0:29349,d1:54809;
                 ("set", Expression<MethodOrOperator> @:29349 op:4,dt:2,nt:9,next:29350,str:2644,d0:0,d1:0;
                     ("monitor_available", VariableAccess<Boolean> @:29350 op:65535,dt:5,nt:13,next:29351,str:36433,d0:44,d1:0;
                         (False, Expression<Boolean> @:29351 op:5,dt:5,nt:9,next:65535,str:17518,d0:65280,d1:65535;))))
-            (____, Scope<Void> @:29352 op:4,dt:4,nt:8,next:29356,str:17527,d0:29353,d1:54813;
+            (____, BuiltinInvocation<Void> @:29352 op:4,dt:4,nt:8,next:29356,str:17527,d0:29353,d1:54813;
                 ("set", Expression<MethodOrOperator> @:29353 op:4,dt:2,nt:9,next:29354,str:2644,d0:0,d1:0;
                     ("monitor_done_talking", VariableAccess<Boolean> @:29354 op:65535,dt:5,nt:13,next:29355,str:35627,d0:43,d1:0;
                         (False, Expression<Boolean> @:29355 op:5,dt:5,nt:9,next:65535,str:17553,d0:65280,d1:65535;))))
-            (____, Scope<Void> @:29356 op:446,dt:4,nt:8,next:29359,str:17562,d0:29357,d1:54817;
+            (____, BuiltinInvocation<Void> @:29356 op:446,dt:4,nt:8,next:29359,str:17562,d0:29357,d1:54817;
                 ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:29357 op:446,dt:2,nt:9,next:29358,str:35648,d0:0,d1:0;
                     (True, Expression<Boolean> @:29358 op:5,dt:5,nt:9,next:65535,str:17591,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:29359 op:374,dt:4,nt:8,next:29362,str:17599,d0:29360,d1:54820;
+            (____, BuiltinInvocation<Void> @:29359 op:374,dt:4,nt:8,next:29362,str:17599,d0:29360,d1:54820;
                 ("cs_switch", Expression<MethodOrOperator> @:29360 op:374,dt:2,nt:9,next:29361,str:11448,d0:0,d1:0;
                     ("monitor", Expression<StringId> @:29361 op:11,dt:11,nt:9,next:65535,str:6383,d0:4715,d1:1792;)))
-            (____, Scope<Void> @:29362 op:19,dt:4,nt:8,next:29365,str:17621,d0:29363,d1:54823;
+            (____, BuiltinInvocation<Void> @:29362 op:19,dt:4,nt:8,next:29365,str:17621,d0:29363,d1:54823;
                 ("sleep", Expression<MethodOrOperator> @:29363 op:19,dt:2,nt:9,next:29364,str:289,d0:0,d1:0;
                     (60, Expression<Short> @:29364 op:7,dt:7,nt:9,next:65535,str:17628,d0:60,d1:65535;)))
-            (____, Scope<Void> @:29365 op:433,dt:4,nt:8,next:29370,str:17634,d0:29366,d1:54826;
+            (____, BuiltinInvocation<Void> @:29365 op:433,dt:4,nt:8,next:29370,str:17634,d0:29366,d1:54826;
                 ("cs_start_approach_player", Expression<MethodOrOperator> @:29366 op:433,dt:2,nt:9,next:29367,str:20509,d0:0,d1:0;
                     (3f, Expression<Float> @:29367 op:6,dt:6,nt:9,next:29368,str:17660,d0:0,d1:16448;
                         (50f, Expression<Float> @:29368 op:6,dt:6,nt:9,next:29369,str:17662,d0:0,d1:16968;
                             (50f, Expression<Float> @:29369 op:6,dt:6,nt:9,next:65535,str:17665,d0:0,d1:16968;)))))
-            (____, Scope<Void> @:29370 op:444,dt:4,nt:8,next:29373,str:17671,d0:29371,d1:54831;
+            (____, BuiltinInvocation<Void> @:29370 op:444,dt:4,nt:8,next:29373,str:17671,d0:29371,d1:54831;
                 ("cs_enable_moving", Expression<MethodOrOperator> @:29371 op:444,dt:2,nt:9,next:29372,str:11483,d0:0,d1:0;
                     (True, Expression<Boolean> @:29372 op:5,dt:5,nt:9,next:65535,str:17689,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:29373 op:443,dt:4,nt:8,next:29376,str:17697,d0:29374,d1:54834;
+            (____, BuiltinInvocation<Void> @:29373 op:443,dt:4,nt:8,next:29376,str:17697,d0:29374,d1:54834;
                 ("cs_enable_looking", Expression<MethodOrOperator> @:29374 op:443,dt:2,nt:9,next:29375,str:12915,d0:0,d1:0;
                     (True, Expression<Boolean> @:29375 op:5,dt:5,nt:9,next:65535,str:17716,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:29376 op:27,dt:4,nt:8,next:29379,str:17724,d0:29377,d1:54837;
+            (____, BuiltinInvocation<Void> @:29376 op:27,dt:4,nt:8,next:29379,str:17724,d0:29377,d1:54837;
                 ("print", Expression<MethodOrOperator> @:29377 op:27,dt:2,nt:9,next:29378,str:295,d0:0,d1:0;
                     ("343 guilty spark: 'this mining-facility predates instalation alpha by several hundred years.'", Expression<String> @:29378 op:9,dt:9,nt:9,next:65535,str:36451,d0:36451,d1:0;)))
-            (____, Scope<Void> @:29379 op:418,dt:4,nt:8,next:29382,str:17830,d0:29380,d1:54840;
+            (____, BuiltinInvocation<Void> @:29379 op:418,dt:4,nt:8,next:29382,str:17830,d0:29380,d1:54840;
                 ("cs_play_line", Expression<MethodOrOperator> @:29380 op:418,dt:2,nt:9,next:29381,str:11547,d0:0,d1:0;
                     ("0900", Expression<StringId> @:29381 op:11,dt:11,nt:9,next:65535,str:36545,d0:12295,d1:1024;)))
-            (____, Scope<Void> @:29382 op:27,dt:4,nt:8,next:29385,str:17852,d0:29383,d1:54843;
+            (____, BuiltinInvocation<Void> @:29382 op:27,dt:4,nt:8,next:29385,str:17852,d0:29383,d1:54843;
                 ("print", Expression<MethodOrOperator> @:29383 op:27,dt:2,nt:9,next:29384,str:295,d0:0,d1:0;
                     ("343 guilty spark: 'it was retrofitted to research possible offensive and defensive measures against the flood.'", Expression<String> @:29384 op:9,dt:9,nt:9,next:65535,str:36550,d0:36550,d1:0;)))
-            (____, Scope<Void> @:29385 op:418,dt:4,nt:8,next:29388,str:17976,d0:29386,d1:54846;
+            (____, BuiltinInvocation<Void> @:29385 op:418,dt:4,nt:8,next:29388,str:17976,d0:29386,d1:54846;
                 ("cs_play_line", Expression<MethodOrOperator> @:29386 op:418,dt:2,nt:9,next:29387,str:11547,d0:0,d1:0;
                     ("0910", Expression<StringId> @:29387 op:11,dt:11,nt:9,next:65535,str:36662,d0:12296,d1:1024;)))
-            (____, Scope<Void> @:29388 op:27,dt:4,nt:8,next:29391,str:17998,d0:29389,d1:54849;
+            (____, BuiltinInvocation<Void> @:29388 op:27,dt:4,nt:8,next:29391,str:17998,d0:29389,d1:54849;
                 ("print", Expression<MethodOrOperator> @:29389 op:27,dt:2,nt:9,next:29390,str:295,d0:0,d1:0;
                     ("343 guilty spark: 'indeed, i designed and oversaw the construction of this facilitiy's various outbreak management systems.'", Expression<String> @:29390 op:9,dt:9,nt:9,next:65535,str:36667,d0:36667,d1:0;)))
-            (____, Scope<Void> @:29391 op:418,dt:4,nt:8,next:29394,str:18135,d0:29392,d1:54852;
+            (____, BuiltinInvocation<Void> @:29391 op:418,dt:4,nt:8,next:29394,str:18135,d0:29392,d1:54852;
                 ("cs_play_line", Expression<MethodOrOperator> @:29392 op:418,dt:2,nt:9,next:29393,str:11547,d0:0,d1:0;
                     ("0920", Expression<StringId> @:29393 op:11,dt:11,nt:9,next:65535,str:36792,d0:12297,d1:1024;)))
-            (____, Scope<Void> @:29394 op:434,dt:4,nt:8,next:29396,str:18157,d0:29395,d1:54855;
+            (____, BuiltinInvocation<Void> @:29394 op:434,dt:4,nt:8,next:29396,str:18157,d0:29395,d1:54855;
                 ("cs_approach_stop", Expression<MethodOrOperator> @:29395 op:434,dt:2,nt:9,next:65535,str:13368,d0:0,d1:0;))
-            (____, Scope<Void> @:29396 op:446,dt:4,nt:8,next:29399,str:18178,d0:29397,d1:54857;
+            (____, BuiltinInvocation<Void> @:29396 op:446,dt:4,nt:8,next:29399,str:18178,d0:29397,d1:54857;
                 ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:29397 op:446,dt:2,nt:9,next:29398,str:35648,d0:0,d1:0;
                     (False, Expression<Boolean> @:29398 op:5,dt:5,nt:9,next:65535,str:18207,d0:65280,d1:65535;)))
-            (____, Scope<Void> @:29399 op:4,dt:4,nt:8,next:29403,str:18216,d0:29400,d1:54860;
+            (____, BuiltinInvocation<Void> @:29399 op:4,dt:4,nt:8,next:29403,str:18216,d0:29400,d1:54860;
                 ("set", Expression<MethodOrOperator> @:29400 op:4,dt:2,nt:9,next:29401,str:2644,d0:0,d1:0;
                     ("monitor_done_talking", VariableAccess<Boolean> @:29401 op:65535,dt:5,nt:13,next:29402,str:35627,d0:43,d1:0;
                         (True, Expression<Boolean> @:29402 op:5,dt:5,nt:9,next:65535,str:18242,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:29403 op:4,dt:4,nt:8,next:65535,str:18250,d0:29404,d1:54864;
+            (____, BuiltinInvocation<Void> @:29403 op:4,dt:4,nt:8,next:65535,str:18250,d0:29404,d1:54864;
                 ("set", Expression<MethodOrOperator> @:29404 op:4,dt:2,nt:9,next:29405,str:2644,d0:0,d1:0;
                     ("monitor_available", VariableAccess<Boolean> @:29405 op:65535,dt:5,nt:13,next:29406,str:36433,d0:44,d1:0;
                         (True, Expression<Boolean> @:29406 op:5,dt:5,nt:9,next:65535,str:18273,d0:65281,d1:65535;)))))))

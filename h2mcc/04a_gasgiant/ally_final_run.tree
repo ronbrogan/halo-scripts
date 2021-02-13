@@ -1,52 +1,52 @@
 
 ("ally_final_run", MethodDecl<Void> @:382 op:0,dt:0,nt:65535,next:23513,str:34691,d0:0,d1:0;
-    (____, Scope<Void> @:23513 op:0,dt:4,nt:8,next:65535,str:57174,d0:23514,d1:48974;
+    (____, BuiltinInvocation<Void> @:23513 op:0,dt:4,nt:8,next:65535,str:57174,d0:23514,d1:48974;
         ("begin", Expression<MethodOrOperator> @:23514 op:0,dt:2,nt:9,next:23465,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:23465 op:334,dt:4,nt:8,next:23469,str:57207,d0:23466,d1:48926;
+            (____, BuiltinInvocation<Void> @:23465 op:334,dt:4,nt:8,next:23469,str:57207,d0:23466,d1:48926;
                 ("ai_set_orders", Expression<MethodOrOperator> @:23466 op:334,dt:2,nt:9,next:23467,str:18081,d0:0,d1:0;
                     ("allied_phantom_01", Expression<AI> @:23467 op:19,dt:19,nt:9,next:23468,str:29586,d0:106,d1:0;
                         ("dog_ph_obj_park", Expression<AIOrders> @:23468 op:23,dt:23,nt:9,next:65535,str:34301,d0:113,d1:0;))))
-            (____, Scope<Void> @:23469 op:291,dt:4,nt:8,next:23473,str:57259,d0:23470,d1:48930;
+            (____, BuiltinInvocation<Void> @:23469 op:291,dt:4,nt:8,next:23473,str:57259,d0:23470,d1:48930;
                 ("ai_place", Expression<MethodOrOperator> @:23470 op:291,dt:2,nt:9,next:23471,str:17225,d0:0,d1:0;
                     ("allies_elites_03", Expression<AI> @:23471 op:19,dt:19,nt:9,next:23472,str:34317,d0:128,d1:0;
                         (2, Expression<Short> @:23472 op:7,dt:7,nt:9,next:65535,str:57286,d0:2,d1:65535;))))
-            (____, Scope<Void> @:23473 op:291,dt:4,nt:8,next:23477,str:57291,d0:23474,d1:48934;
+            (____, BuiltinInvocation<Void> @:23473 op:291,dt:4,nt:8,next:23477,str:57291,d0:23474,d1:48934;
                 ("ai_place", Expression<MethodOrOperator> @:23474 op:291,dt:2,nt:9,next:23475,str:17225,d0:0,d1:0;
                     ("allies_grunts_03", Expression<AI> @:23475 op:19,dt:19,nt:9,next:23476,str:34334,d0:129,d1:0;
                         (2, Expression<Short> @:23476 op:7,dt:7,nt:9,next:65535,str:57318,d0:2,d1:65535;))))
-            (____, Scope<Void> @:23477 op:19,dt:4,nt:8,next:23480,str:57323,d0:23478,d1:48938;
+            (____, BuiltinInvocation<Void> @:23477 op:19,dt:4,nt:8,next:23480,str:57323,d0:23478,d1:48938;
                 ("sleep", Expression<MethodOrOperator> @:23478 op:19,dt:2,nt:9,next:23479,str:85,d0:0,d1:0;
                     (60, Expression<Short> @:23479 op:7,dt:7,nt:9,next:65535,str:57330,d0:60,d1:65535;)))
-            (____, Scope<Void> @:23480 op:232,dt:4,nt:8,next:23489,str:57336,d0:23481,d1:48941;
+            (____, BuiltinInvocation<Void> @:23480 op:232,dt:4,nt:8,next:23489,str:57336,d0:23481,d1:48941;
                 ("vehicle_load_magic", Expression<MethodOrOperator> @:23481 op:232,dt:2,nt:9,next:23482,str:23549,d0:0,d1:0;
-                    (____, Scope<Entity> @:23482 op:341,dt:50,nt:8,next:23485,str:57356,d0:23483,d1:48943;
+                    (____, BuiltinInvocation<Entity> @:23482 op:341,dt:50,nt:8,next:23485,str:57356,d0:23483,d1:48943;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:23483 op:341,dt:2,nt:9,next:23484,str:23568,d0:0,d1:0;
                             ("allied_phantom_01/driver", Expression<AI> @:23484 op:19,dt:19,nt:9,next:65535,str:29604,d0:0,d1:49258;)))
                     ("phantom_p_a", Expression<VehicleSeat> @:23485 op:12,dt:12,nt:9,next:23486,str:34351,d0:10,d1:1;
-                        (____, Scope<List> @:23486 op:332,dt:31,nt:8,next:65535,str:57435,d0:23487,d1:48947;
+                        (____, BuiltinInvocation<List> @:23486 op:332,dt:31,nt:8,next:65535,str:57435,d0:23487,d1:48947;
                             ("ai_actors", Expression<MethodOrOperator> @:23487 op:332,dt:2,nt:9,next:23488,str:19154,d0:0,d1:0;
                                 ("allies_elites_03", Expression<AI> @:23488 op:19,dt:19,nt:9,next:65535,str:34317,d0:128,d1:0;))))))
-            (____, Scope<Void> @:23489 op:232,dt:4,nt:8,next:23498,str:57467,d0:23490,d1:48950;
+            (____, BuiltinInvocation<Void> @:23489 op:232,dt:4,nt:8,next:23498,str:57467,d0:23490,d1:48950;
                 ("vehicle_load_magic", Expression<MethodOrOperator> @:23490 op:232,dt:2,nt:9,next:23491,str:23549,d0:0,d1:0;
-                    (____, Scope<Entity> @:23491 op:341,dt:50,nt:8,next:23494,str:57487,d0:23492,d1:48952;
+                    (____, BuiltinInvocation<Entity> @:23491 op:341,dt:50,nt:8,next:23494,str:57487,d0:23492,d1:48952;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:23492 op:341,dt:2,nt:9,next:23493,str:23568,d0:0,d1:0;
                             ("allied_phantom_01/driver", Expression<AI> @:23493 op:19,dt:19,nt:9,next:65535,str:29604,d0:0,d1:49258;)))
                     ("phantom_p_b", Expression<VehicleSeat> @:23494 op:12,dt:12,nt:9,next:23495,str:34363,d0:11,d1:1;
-                        (____, Scope<List> @:23495 op:332,dt:31,nt:8,next:65535,str:57566,d0:23496,d1:48956;
+                        (____, BuiltinInvocation<List> @:23495 op:332,dt:31,nt:8,next:65535,str:57566,d0:23496,d1:48956;
                             ("ai_actors", Expression<MethodOrOperator> @:23496 op:332,dt:2,nt:9,next:23497,str:19154,d0:0,d1:0;
                                 ("allies_grunts_03", Expression<AI> @:23497 op:19,dt:19,nt:9,next:65535,str:34334,d0:129,d1:0;))))))
-            (____, Scope<Void> @:23498 op:21,dt:4,nt:8,next:23509,str:57601,d0:23499,d1:48959;
+            (____, BuiltinInvocation<Void> @:23498 op:21,dt:4,nt:8,next:23509,str:57601,d0:23499,d1:48959;
                 ("sleep_until", Expression<MethodOrOperator> @:23499 op:21,dt:2,nt:9,next:23500,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:23500 op:13,dt:5,nt:8,next:65535,str:57614,d0:23501,d1:48961;
+                    (____, BuiltinInvocation<Boolean> @:23500 op:13,dt:5,nt:8,next:65535,str:57614,d0:23501,d1:48961;
                         ("=", Expression<MethodOrOperator> @:23501 op:13,dt:2,nt:9,next:23502,str:301,d0:0,d1:0;
-                            (____, Scope<Boolean> @:23502 op:33,dt:5,nt:8,next:23508,str:57617,d0:23503,d1:48963;
+                            (____, BuiltinInvocation<Boolean> @:23502 op:33,dt:5,nt:8,next:23508,str:57617,d0:23503,d1:48963;
                                 ("volume_test_objects", Expression<MethodOrOperator> @:23503 op:33,dt:2,nt:9,next:23504,str:16841,d0:0,d1:0;
                                     ("vol_arm02_air", Expression<Trigger> @:23504 op:13,dt:13,nt:9,next:23505,str:34375,d0:104,d1:0;
-                                        (____, Scope<List> @:23505 op:332,dt:31,nt:8,next:65535,str:57652,d0:23506,d1:48966;
+                                        (____, BuiltinInvocation<List> @:23505 op:332,dt:31,nt:8,next:65535,str:57652,d0:23506,d1:48966;
                                             ("ai_actors", Expression<MethodOrOperator> @:23506 op:332,dt:2,nt:9,next:23507,str:19154,d0:0,d1:0;
                                                 ("allied_phantom_01", Expression<AI> @:23507 op:19,dt:19,nt:9,next:65535,str:29586,d0:106,d1:0;))))))
                             (True, Expression<Boolean> @:23508 op:5,dt:5,nt:9,next:65535,str:57683,d0:65281,d1:65535;)))))
-            (____, Scope<Void> @:23509 op:366,dt:4,nt:8,next:65535,str:57692,d0:23510,d1:48970;
+            (____, BuiltinInvocation<Void> @:23509 op:366,dt:4,nt:8,next:65535,str:57692,d0:23510,d1:48970;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:23510 op:366,dt:2,nt:9,next:23511,str:18315,d0:0,d1:0;
                     ("allied_phantom_01/driver", Expression<AI> @:23511 op:19,dt:19,nt:9,next:23512,str:29604,d0:0,d1:49258;
                         ("arm02_final_approach", Expression<AIScript> @:23512 op:21,dt:21,nt:9,next:65535,str:34389,d0:355,d1:0;)))))))

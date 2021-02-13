@@ -1,157 +1,157 @@
 
 ("1st_malta", MethodDecl<Void> @:335 op:0,dt:0,nt:65535,next:14104,str:33732,d0:0,d1:0;
-    (____, Scope<Void> @:14104 op:0,dt:4,nt:8,next:65535,str:42177,d0:14105,d1:39565;
+    (____, BuiltinInvocation<Void> @:14104 op:0,dt:4,nt:8,next:65535,str:42177,d0:14105,d1:39565;
         ("begin", Expression<MethodOrOperator> @:14105 op:0,dt:2,nt:9,next:13950,str:11,d0:0,d1:0;
-            (____, Scope<Void> @:13950 op:605,dt:4,nt:8,next:13955,str:42209,d0:13951,d1:39411;
+            (____, BuiltinInvocation<Void> @:13950 op:605,dt:4,nt:8,next:13955,str:42209,d0:13951,d1:39411;
                 ("sound_looping_start", Expression<MethodOrOperator> @:13951 op:605,dt:2,nt:9,next:13952,str:28088,d0:0,d1:0;
                     ("scenarios\solo\01b_spacestation\01b_music\01b_01", Expression<LoopingSound> @:13952 op:35,dt:35,nt:9,next:13953,str:32190,d0:4753,d1:62641;
                         (4294967295, Expression<Entity> @:13953 op:50,dt:50,nt:9,next:13954,str:1520,d0:65535,d1:65535;
                             (1f, Expression<Float> @:13954 op:6,dt:6,nt:9,next:65535,str:42284,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:13955 op:19,dt:4,nt:8,next:13958,str:42304,d0:13956,d1:39416;
+            (____, BuiltinInvocation<Void> @:13955 op:19,dt:4,nt:8,next:13958,str:42304,d0:13956,d1:39416;
                 ("sleep", Expression<MethodOrOperator> @:13956 op:19,dt:2,nt:9,next:13957,str:90,d0:0,d1:0;
                     (30, Expression<Short> @:13957 op:7,dt:7,nt:9,next:65535,str:42311,d0:30,d1:65535;)))
-            (____, Scope<Void> @:13958 op:27,dt:4,nt:8,next:13961,str:42317,d0:13959,d1:39419;
+            (____, BuiltinInvocation<Void> @:13958 op:27,dt:4,nt:8,next:13961,str:42317,d0:13959,d1:39419;
                 ("print", Expression<MethodOrOperator> @:13959 op:27,dt:2,nt:9,next:13960,str:96,d0:0,d1:0;
                     ("how's it going, malta?", Expression<String> @:13960 op:9,dt:9,nt:9,next:65535,str:32239,d0:32239,d1:0;)))
-            (____, Scope<Void> @:13961 op:598,dt:4,nt:8,next:13969,str:42352,d0:13962,d1:39422;
+            (____, BuiltinInvocation<Void> @:13961 op:598,dt:4,nt:8,next:13969,str:42352,d0:13962,d1:39422;
                 ("sound_impulse_start_effect", Expression<MethodOrOperator> @:13962 op:598,dt:2,nt:9,next:13963,str:14867,d0:0,d1:0;
                     ("sound\dialog\levels\01_spacestation\mission\l01_0080_jon", Expression<Sound> @:13963 op:32,dt:32,nt:9,next:13964,str:32262,d0:4759,d1:62647;
-                        (____, Scope<Entity> @:13964 op:284,dt:50,nt:8,next:13967,str:42437,d0:13965,d1:39425;
+                        (____, BuiltinInvocation<Entity> @:13964 op:284,dt:50,nt:8,next:13967,str:42437,d0:13965,d1:39425;
                             ("ai_get_object", Expression<MethodOrOperator> @:13965 op:284,dt:2,nt:9,next:13966,str:31886,d0:0,d1:0;
                                 ("1st_hum_johnson", Expression<AI> @:13966 op:19,dt:19,nt:9,next:65535,str:31900,d0:0,d1:0;)))
                         (1f, Expression<Float> @:13967 op:6,dt:6,nt:9,next:13968,str:42469,d0:0,d1:16256;
                             ("radio_default", Expression<StringId> @:13968 op:11,dt:11,nt:9,next:65535,str:14953,d0:14767,d1:3328;)))))
-            (____, Scope<Void> @:13969 op:19,dt:4,nt:8,next:13974,str:42490,d0:13970,d1:39430;
+            (____, BuiltinInvocation<Void> @:13969 op:19,dt:4,nt:8,next:13974,str:42490,d0:13970,d1:39430;
                 ("sleep", Expression<MethodOrOperator> @:13970 op:19,dt:2,nt:9,next:13971,str:90,d0:0,d1:0;
-                    (____, Scope<Short> @:13971 op:601,dt:7,nt:8,next:65535,str:42497,d0:13972,d1:39432;
+                    (____, BuiltinInvocation<Short> @:13971 op:601,dt:7,nt:8,next:65535,str:42497,d0:13972,d1:39432;
                         ("sound_impulse_language_time", Expression<MethodOrOperator> @:13972 op:601,dt:2,nt:9,next:13973,str:31315,d0:0,d1:0;
                             ("sound\dialog\levels\01_spacestation\mission\l01_0080_jon", Expression<Sound> @:13973 op:32,dt:32,nt:9,next:65535,str:32262,d0:4759,d1:62647;)))))
-            (____, Scope<Void> @:13974 op:19,dt:4,nt:8,next:13977,str:42587,d0:13975,d1:39435;
+            (____, BuiltinInvocation<Void> @:13974 op:19,dt:4,nt:8,next:13977,str:42587,d0:13975,d1:39435;
                 ("sleep", Expression<MethodOrOperator> @:13975 op:19,dt:2,nt:9,next:13976,str:90,d0:0,d1:0;
                     (7, Expression<Short> @:13976 op:7,dt:7,nt:9,next:65535,str:42594,d0:7,d1:65535;)))
-            (____, Scope<Void> @:13977 op:27,dt:4,nt:8,next:13980,str:42601,d0:13978,d1:39438;
+            (____, BuiltinInvocation<Void> @:13977 op:27,dt:4,nt:8,next:13980,str:42601,d0:13978,d1:39438;
                 ("print", Expression<MethodOrOperator> @:13978 op:27,dt:2,nt:9,next:13979,str:96,d0:0,d1:0;
                     ("standby...", Expression<String> @:13979 op:9,dt:9,nt:9,next:65535,str:32319,d0:32319,d1:0;)))
-            (____, Scope<Void> @:13980 op:598,dt:4,nt:8,next:13986,str:42624,d0:13981,d1:39441;
+            (____, BuiltinInvocation<Void> @:13980 op:598,dt:4,nt:8,next:13986,str:42624,d0:13981,d1:39441;
                 ("sound_impulse_start_effect", Expression<MethodOrOperator> @:13981 op:598,dt:2,nt:9,next:13982,str:14867,d0:0,d1:0;
                     ("sound\dialog\levels\01_spacestation\mission\l01_0090_mm1", Expression<Sound> @:13982 op:32,dt:32,nt:9,next:13983,str:32330,d0:4760,d1:62648;
                         (4294967295, Expression<Entity> @:13983 op:50,dt:50,nt:9,next:13984,str:1520,d0:65535,d1:65535;
                             (1f, Expression<Float> @:13984 op:6,dt:6,nt:9,next:13985,str:42714,d0:0,d1:16256;
                                 ("radio_default", Expression<StringId> @:13985 op:11,dt:11,nt:9,next:65535,str:14953,d0:14767,d1:3328;))))))
-            (____, Scope<Void> @:13986 op:19,dt:4,nt:8,next:13991,str:42735,d0:13987,d1:39447;
+            (____, BuiltinInvocation<Void> @:13986 op:19,dt:4,nt:8,next:13991,str:42735,d0:13987,d1:39447;
                 ("sleep", Expression<MethodOrOperator> @:13987 op:19,dt:2,nt:9,next:13988,str:90,d0:0,d1:0;
-                    (____, Scope<Short> @:13988 op:601,dt:7,nt:8,next:65535,str:42742,d0:13989,d1:39449;
+                    (____, BuiltinInvocation<Short> @:13988 op:601,dt:7,nt:8,next:65535,str:42742,d0:13989,d1:39449;
                         ("sound_impulse_language_time", Expression<MethodOrOperator> @:13989 op:601,dt:2,nt:9,next:13990,str:31315,d0:0,d1:0;
                             ("sound\dialog\levels\01_spacestation\mission\l01_0090_mm1", Expression<Sound> @:13990 op:32,dt:32,nt:9,next:65535,str:32330,d0:4760,d1:62648;)))))
-            (____, Scope<Void> @:13991 op:598,dt:4,nt:8,next:13997,str:42834,d0:13992,d1:39452;
+            (____, BuiltinInvocation<Void> @:13991 op:598,dt:4,nt:8,next:13997,str:42834,d0:13992,d1:39452;
                 ("sound_impulse_start_effect", Expression<MethodOrOperator> @:13992 op:598,dt:2,nt:9,next:13993,str:14867,d0:0,d1:0;
                     ("sound\ambience\spacestation\docking_clangs\docking_mono", Expression<Sound> @:13993 op:32,dt:32,nt:9,next:13994,str:32387,d0:4761,d1:62649;
                         (4294967295, Expression<Entity> @:13994 op:50,dt:50,nt:9,next:13995,str:1520,d0:65535,d1:65535;
                             (1f, Expression<Float> @:13995 op:6,dt:6,nt:9,next:13996,str:42923,d0:0,d1:16256;
                                 ("radio_default", Expression<StringId> @:13996 op:11,dt:11,nt:9,next:65535,str:14953,d0:14767,d1:3328;))))))
-            (____, Scope<Void> @:13997 op:19,dt:4,nt:8,next:14000,str:42946,d0:13998,d1:39458;
+            (____, BuiltinInvocation<Void> @:13997 op:19,dt:4,nt:8,next:14000,str:42946,d0:13998,d1:39458;
                 ("sleep", Expression<MethodOrOperator> @:13998 op:19,dt:2,nt:9,next:13999,str:90,d0:0,d1:0;
                     (5, Expression<Short> @:13999 op:7,dt:7,nt:9,next:65535,str:42953,d0:5,d1:65535;)))
-            (____, Scope<Void> @:14000 op:27,dt:4,nt:8,next:14003,str:42958,d0:14001,d1:39461;
+            (____, BuiltinInvocation<Void> @:14000 op:27,dt:4,nt:8,next:14003,str:42958,d0:14001,d1:39461;
                 ("print", Expression<MethodOrOperator> @:14001 op:27,dt:2,nt:9,next:14002,str:96,d0:0,d1:0;
                     ("they're latched!", Expression<String> @:14002 op:9,dt:9,nt:9,next:65535,str:32443,d0:32443,d1:0;)))
-            (____, Scope<Void> @:14003 op:598,dt:4,nt:8,next:14009,str:42987,d0:14004,d1:39464;
+            (____, BuiltinInvocation<Void> @:14003 op:598,dt:4,nt:8,next:14009,str:42987,d0:14004,d1:39464;
                 ("sound_impulse_start_effect", Expression<MethodOrOperator> @:14004 op:598,dt:2,nt:9,next:14005,str:14867,d0:0,d1:0;
                     ("sound\dialog\levels\01_spacestation\mission\l01_0100_mm1", Expression<Sound> @:14005 op:32,dt:32,nt:9,next:14006,str:32460,d0:4763,d1:62651;
                         (4294967295, Expression<Entity> @:14006 op:50,dt:50,nt:9,next:14007,str:1520,d0:65535,d1:65535;
                             (1f, Expression<Float> @:14007 op:6,dt:6,nt:9,next:14008,str:43077,d0:0,d1:16256;
                                 ("radio_default", Expression<StringId> @:14008 op:11,dt:11,nt:9,next:65535,str:14953,d0:14767,d1:3328;))))))
-            (____, Scope<Void> @:14009 op:19,dt:4,nt:8,next:14014,str:43098,d0:14010,d1:39470;
+            (____, BuiltinInvocation<Void> @:14009 op:19,dt:4,nt:8,next:14014,str:43098,d0:14010,d1:39470;
                 ("sleep", Expression<MethodOrOperator> @:14010 op:19,dt:2,nt:9,next:14011,str:90,d0:0,d1:0;
-                    (____, Scope<Short> @:14011 op:601,dt:7,nt:8,next:65535,str:43105,d0:14012,d1:39472;
+                    (____, BuiltinInvocation<Short> @:14011 op:601,dt:7,nt:8,next:65535,str:43105,d0:14012,d1:39472;
                         ("sound_impulse_language_time", Expression<MethodOrOperator> @:14012 op:601,dt:2,nt:9,next:14013,str:31315,d0:0,d1:0;
                             ("sound\dialog\levels\01_spacestation\mission\l01_0100_mm1", Expression<Sound> @:14013 op:32,dt:32,nt:9,next:65535,str:32460,d0:4763,d1:62651;)))))
-            (____, Scope<Void> @:14014 op:27,dt:4,nt:8,next:14017,str:43197,d0:14015,d1:39475;
+            (____, BuiltinInvocation<Void> @:14014 op:27,dt:4,nt:8,next:14017,str:43197,d0:14015,d1:39475;
                 ("print", Expression<MethodOrOperator> @:14015 op:27,dt:2,nt:9,next:14016,str:96,d0:0,d1:0;
                     ("(grunts and snarls)", Expression<String> @:14016 op:9,dt:9,nt:9,next:65535,str:32517,d0:32517,d1:0;)))
-            (____, Scope<Void> @:14017 op:27,dt:4,nt:8,next:14020,str:43418,d0:14018,d1:39478;
+            (____, BuiltinInvocation<Void> @:14017 op:27,dt:4,nt:8,next:14020,str:43418,d0:14018,d1:39478;
                 ("print", Expression<MethodOrOperator> @:14018 op:27,dt:2,nt:9,next:14019,str:96,d0:0,d1:0;
                     ("check your targets, watch the crossfire!", Expression<String> @:14019 op:9,dt:9,nt:9,next:65535,str:32537,d0:32537,d1:0;)))
-            (____, Scope<Void> @:14020 op:598,dt:4,nt:8,next:14026,str:43471,d0:14021,d1:39481;
+            (____, BuiltinInvocation<Void> @:14020 op:598,dt:4,nt:8,next:14026,str:43471,d0:14021,d1:39481;
                 ("sound_impulse_start_effect", Expression<MethodOrOperator> @:14021 op:598,dt:2,nt:9,next:14022,str:14867,d0:0,d1:0;
                     ("sound\dialog\levels\01_spacestation\mission\l01_0120_mm1", Expression<Sound> @:14022 op:32,dt:32,nt:9,next:14023,str:32578,d0:4764,d1:62652;
                         (4294967295, Expression<Entity> @:14023 op:50,dt:50,nt:9,next:14024,str:1520,d0:65535,d1:65535;
                             (1f, Expression<Float> @:14024 op:6,dt:6,nt:9,next:14025,str:43561,d0:0,d1:16256;
                                 ("radio_default", Expression<StringId> @:14025 op:11,dt:11,nt:9,next:65535,str:14953,d0:14767,d1:3328;))))))
-            (____, Scope<Void> @:14026 op:19,dt:4,nt:8,next:14034,str:43582,d0:14027,d1:39487;
+            (____, BuiltinInvocation<Void> @:14026 op:19,dt:4,nt:8,next:14034,str:43582,d0:14027,d1:39487;
                 ("sleep", Expression<MethodOrOperator> @:14027 op:19,dt:2,nt:9,next:14028,str:90,d0:0,d1:0;
-                    (____, Scope<Short> @:14028 op:8,dt:7,nt:8,next:65535,str:43589,d0:14029,d1:39489;
+                    (____, BuiltinInvocation<Short> @:14028 op:8,dt:7,nt:8,next:65535,str:43589,d0:14029,d1:39489;
                         ("-", Expression<MethodOrOperator> @:14029 op:8,dt:2,nt:9,next:14030,str:3923,d0:0,d1:0;
-                            (-4.036933E-23f, Scope<Float> @:14030 op:601,dt:6,nt:8,next:14033,str:43592,d0:14031,d1:39491;
+                            (-4.036933E-23f, BuiltinInvocation<Float> @:14030 op:601,dt:6,nt:8,next:14033,str:43592,d0:14031,d1:39491;
                                 ("sound_impulse_language_time", Expression<MethodOrOperator> @:14031 op:601,dt:2,nt:9,next:14032,str:31315,d0:0,d1:0;
                                     ("sound\dialog\levels\01_spacestation\mission\l01_0120_mm1", Expression<Sound> @:14032 op:32,dt:32,nt:9,next:65535,str:32578,d0:4764,d1:62652;)))
                             (60f, Expression<Float> @:14033 op:6,dt:6,nt:9,next:65535,str:43679,d0:0,d1:17008;)))))
-            (____, Scope<Void> @:14034 op:48,dt:4,nt:8,next:14037,str:43688,d0:14035,d1:39495;
+            (____, BuiltinInvocation<Void> @:14034 op:48,dt:4,nt:8,next:14037,str:43688,d0:14035,d1:39495;
                 ("object_create_anew", Expression<MethodOrOperator> @:14035 op:48,dt:2,nt:9,next:14036,str:2709,d0:0,d1:0;
                     ("1st_craft", Expression<EntityIdentifier> @:14036 op:56,dt:56,nt:9,next:65535,str:32635,d0:467,d1:65535;)))
-            (____, Scope<Void> @:14037 op:258,dt:4,nt:8,next:14041,str:43721,d0:14038,d1:39498;
+            (____, BuiltinInvocation<Void> @:14037 op:258,dt:4,nt:8,next:14041,str:43721,d0:14038,d1:39498;
                 ("device_set_position_immediate", Expression<MethodOrOperator> @:14038 op:258,dt:2,nt:9,next:14039,str:31819,d0:0,d1:0;
                     ("1st_craft", Expression<Device> @:14039 op:60,dt:54,nt:9,next:14040,str:32635,d0:467,d1:65535;
                         (1f, Expression<Float> @:14040 op:6,dt:6,nt:9,next:65535,str:43762,d0:0,d1:16256;))))
-            (____, Scope<Void> @:14041 op:256,dt:4,nt:8,next:14045,str:43767,d0:14042,d1:39502;
+            (____, BuiltinInvocation<Void> @:14041 op:256,dt:4,nt:8,next:14045,str:43767,d0:14042,d1:39502;
                 ("device_set_position", Expression<MethodOrOperator> @:14042 op:256,dt:2,nt:9,next:14043,str:3025,d0:0,d1:0;
                     ("1st_craft", Expression<Device> @:14043 op:60,dt:54,nt:9,next:14044,str:32635,d0:467,d1:65535;
                         (0f, Expression<Float> @:14044 op:6,dt:6,nt:9,next:65535,str:43798,d0:0,d1:0;))))
-            (____, Scope<Void> @:14045 op:19,dt:4,nt:8,next:14048,str:43805,d0:14046,d1:39506;
+            (____, BuiltinInvocation<Void> @:14045 op:19,dt:4,nt:8,next:14048,str:43805,d0:14046,d1:39506;
                 ("sleep", Expression<MethodOrOperator> @:14046 op:19,dt:2,nt:9,next:14047,str:90,d0:0,d1:0;
                     (65, Expression<Short> @:14047 op:7,dt:7,nt:9,next:65535,str:43812,d0:65,d1:65535;)))
-            (____, Scope<Void> @:14048 op:27,dt:4,nt:8,next:14051,str:43818,d0:14049,d1:39509;
+            (____, BuiltinInvocation<Void> @:14048 op:27,dt:4,nt:8,next:14051,str:43818,d0:14049,d1:39509;
                 ("print", Expression<MethodOrOperator> @:14049 op:27,dt:2,nt:9,next:14050,str:96,d0:0,d1:0;
                     ("they're in standard formation: little bastards up front, big ones in back. good luck, cairo!", Expression<String> @:14050 op:9,dt:9,nt:9,next:65535,str:32645,d0:32645,d1:0;)))
-            (____, Scope<Void> @:14051 op:598,dt:4,nt:8,next:14057,str:43923,d0:14052,d1:39512;
+            (____, BuiltinInvocation<Void> @:14051 op:598,dt:4,nt:8,next:14057,str:43923,d0:14052,d1:39512;
                 ("sound_impulse_start_effect", Expression<MethodOrOperator> @:14052 op:598,dt:2,nt:9,next:14053,str:14867,d0:0,d1:0;
                     ("sound\dialog\levels\01_spacestation\mission\l01_0130_mm1", Expression<Sound> @:14053 op:32,dt:32,nt:9,next:14054,str:32738,d0:4765,d1:62653;
                         (4294967295, Expression<Entity> @:14054 op:50,dt:50,nt:9,next:14055,str:1520,d0:65535,d1:65535;
                             (1f, Expression<Float> @:14055 op:6,dt:6,nt:9,next:14056,str:44013,d0:0,d1:16256;
                                 ("radio_default", Expression<StringId> @:14056 op:11,dt:11,nt:9,next:65535,str:14953,d0:14767,d1:3328;))))))
-            (____, Scope<Void> @:14057 op:21,dt:4,nt:8,next:14066,str:44132,d0:14058,d1:39518;
+            (____, BuiltinInvocation<Void> @:14057 op:21,dt:4,nt:8,next:14066,str:44132,d0:14058,d1:39518;
                 ("sleep_until", Expression<MethodOrOperator> @:14058 op:21,dt:2,nt:9,next:14059,str:241,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14059 op:16,dt:5,nt:8,next:14065,str:44145,d0:14060,d1:39520;
+                    (____, BuiltinInvocation<Boolean> @:14059 op:16,dt:5,nt:8,next:14065,str:44145,d0:14060,d1:39520;
                         ("<", Expression<MethodOrOperator> @:14060 op:16,dt:2,nt:9,next:14061,str:857,d0:0,d1:0;
-                            (-4.6780076E-23f, Scope<Float> @:14061 op:257,dt:6,nt:8,next:14064,str:44148,d0:14062,d1:39522;
+                            (-4.6780076E-23f, BuiltinInvocation<Float> @:14061 op:257,dt:6,nt:8,next:14064,str:44148,d0:14062,d1:39522;
                                 ("device_get_position", Expression<MethodOrOperator> @:14062 op:257,dt:2,nt:9,next:14063,str:32795,d0:0,d1:0;
                                     ("1st_craft", Expression<Device> @:14063 op:60,dt:54,nt:9,next:65535,str:32635,d0:467,d1:65535;)))
                             (0.75f, Expression<Float> @:14064 op:6,dt:6,nt:9,next:65535,str:44180,d0:0,d1:16192;)))
                     (1, Expression<Short> @:14065 op:7,dt:7,nt:9,next:65535,str:44186,d0:1,d1:65535;)))
-            (____, Scope<Void> @:14066 op:27,dt:4,nt:8,next:14069,str:44191,d0:14067,d1:39527;
+            (____, BuiltinInvocation<Void> @:14066 op:27,dt:4,nt:8,next:14069,str:44191,d0:14067,d1:39527;
                 ("print", Expression<MethodOrOperator> @:14067 op:27,dt:2,nt:9,next:14068,str:96,d0:0,d1:0;
                     ("docking sound", Expression<String> @:14068 op:9,dt:9,nt:9,next:65535,str:32815,d0:32815,d1:0;)))
-            (____, Scope<Void> @:14069 op:596,dt:4,nt:8,next:14074,str:44220,d0:14070,d1:39530;
+            (____, BuiltinInvocation<Void> @:14069 op:596,dt:4,nt:8,next:14074,str:44220,d0:14070,d1:39530;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:14070 op:596,dt:2,nt:9,next:14071,str:1446,d0:0,d1:0;
                     ("sound_remastered\ambience\spacestation\docking_clangs\dockingcov_incoming", Expression<Sound> @:14071 op:32,dt:32,nt:9,next:14072,str:32829,d0:9369,d1:34513;
                         (4294967295, Expression<Entity> @:14072 op:50,dt:50,nt:9,next:14073,str:1520,d0:65535,d1:65535;
                             (1f, Expression<Float> @:14073 op:6,dt:6,nt:9,next:65535,str:44320,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:14074 op:21,dt:4,nt:8,next:14083,str:44329,d0:14075,d1:39535;
+            (____, BuiltinInvocation<Void> @:14074 op:21,dt:4,nt:8,next:14083,str:44329,d0:14075,d1:39535;
                 ("sleep_until", Expression<MethodOrOperator> @:14075 op:21,dt:2,nt:9,next:14076,str:241,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14076 op:18,dt:5,nt:8,next:14082,str:44342,d0:14077,d1:39537;
+                    (____, BuiltinInvocation<Boolean> @:14076 op:18,dt:5,nt:8,next:14082,str:44342,d0:14077,d1:39537;
                         ("<=", Expression<MethodOrOperator> @:14077 op:18,dt:2,nt:9,next:14078,str:27881,d0:0,d1:0;
-                            (-5.0295648E-23f, Scope<Float> @:14078 op:257,dt:6,nt:8,next:14081,str:44346,d0:14079,d1:39539;
+                            (-5.0295648E-23f, BuiltinInvocation<Float> @:14078 op:257,dt:6,nt:8,next:14081,str:44346,d0:14079,d1:39539;
                                 ("device_get_position", Expression<MethodOrOperator> @:14079 op:257,dt:2,nt:9,next:14080,str:32795,d0:0,d1:0;
                                     ("1st_craft", Expression<Device> @:14080 op:60,dt:54,nt:9,next:65535,str:32635,d0:467,d1:65535;)))
                             (0.1f, Expression<Float> @:14081 op:6,dt:6,nt:9,next:65535,str:44378,d0:52429,d1:15820;)))
                     (1, Expression<Short> @:14082 op:7,dt:7,nt:9,next:65535,str:44383,d0:1,d1:65535;)))
-            (____, Scope<Void> @:14083 op:27,dt:4,nt:8,next:14086,str:44388,d0:14084,d1:39544;
+            (____, BuiltinInvocation<Void> @:14083 op:27,dt:4,nt:8,next:14086,str:44388,d0:14084,d1:39544;
                 ("print", Expression<MethodOrOperator> @:14084 op:27,dt:2,nt:9,next:14085,str:96,d0:0,d1:0;
                     ("klang malta!", Expression<String> @:14085 op:9,dt:9,nt:9,next:65535,str:32903,d0:32903,d1:0;)))
-            (____, Scope<Void> @:14086 op:45,dt:4,nt:8,next:14089,str:44413,d0:14087,d1:39547;
+            (____, BuiltinInvocation<Void> @:14086 op:45,dt:4,nt:8,next:14089,str:44413,d0:14087,d1:39547;
                 ("damage_players", Expression<MethodOrOperator> @:14087 op:45,dt:2,nt:9,next:14088,str:31170,d0:0,d1:0;
                     ("effects\scenarios\objects\solo\spacestation\boarding_craft_shake", Expression<DamageEffect> @:14088 op:34,dt:34,nt:9,next:65535,str:31185,d0:4750,d1:62638;)))
-            (____, Scope<Void> @:14089 op:596,dt:4,nt:8,next:14094,str:44497,d0:14090,d1:39550;
+            (____, BuiltinInvocation<Void> @:14089 op:596,dt:4,nt:8,next:14094,str:44497,d0:14090,d1:39550;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:14090 op:596,dt:2,nt:9,next:14091,str:1446,d0:0,d1:0;
                     ("sound\ambience\spacestation\docking_clangs\docking_stereo", Expression<Sound> @:14091 op:32,dt:32,nt:9,next:14092,str:31257,d0:4751,d1:62639;
                         (4294967295, Expression<Entity> @:14092 op:50,dt:50,nt:9,next:14093,str:1520,d0:65535,d1:65535;
                             (1f, Expression<Float> @:14093 op:6,dt:6,nt:9,next:65535,str:44581,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:14094 op:19,dt:4,nt:8,next:14099,str:44586,d0:14095,d1:39555;
+            (____, BuiltinInvocation<Void> @:14094 op:19,dt:4,nt:8,next:14099,str:44586,d0:14095,d1:39555;
                 ("sleep", Expression<MethodOrOperator> @:14095 op:19,dt:2,nt:9,next:14096,str:90,d0:0,d1:0;
-                    (____, Scope<Short> @:14096 op:601,dt:7,nt:8,next:65535,str:44593,d0:14097,d1:39557;
+                    (____, BuiltinInvocation<Short> @:14096 op:601,dt:7,nt:8,next:65535,str:44593,d0:14097,d1:39557;
                         ("sound_impulse_language_time", Expression<MethodOrOperator> @:14097 op:601,dt:2,nt:9,next:14098,str:31315,d0:0,d1:0;
                             ("sound\ambience\spacestation\docking_clangs\docking_stereo", Expression<Sound> @:14098 op:32,dt:32,nt:9,next:65535,str:31257,d0:4751,d1:62639;)))))
-            (____, Scope<Void> @:14099 op:605,dt:4,nt:8,next:65535,str:44684,d0:14100,d1:39560;
+            (____, BuiltinInvocation<Void> @:14099 op:605,dt:4,nt:8,next:65535,str:44684,d0:14100,d1:39560;
                 ("sound_looping_start", Expression<MethodOrOperator> @:14100 op:605,dt:2,nt:9,next:14101,str:28088,d0:0,d1:0;
                     ("sound\ambience\spacestation\ss_behind_bulkhead\ss_behind_bulkhead", Expression<LoopingSound> @:14101 op:35,dt:35,nt:9,next:14102,str:32916,d0:4766,d1:62654;
                         (4294902013, Expression<Entity> @:14102 op:56,dt:50,nt:9,next:14103,str:31939,d0:253,d1:65535;

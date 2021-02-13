@@ -1,45 +1,45 @@
 
 ("bridge_bunker_backup", MethodDecl<Void> @:343 op:0,dt:0,nt:65535,next:23164,str:35927,d0:0,d1:0;
-    (____, Scope<Void> @:23164 op:0,dt:4,nt:8,next:65535,str:61309,d0:23165,d1:48625;
+    (____, BuiltinInvocation<Void> @:23164 op:0,dt:4,nt:8,next:65535,str:61309,d0:23165,d1:48625;
         ("begin", Expression<MethodOrOperator> @:23165 op:0,dt:2,nt:9,next:23123,str:54,d0:0,d1:0;
-            (____, Scope<Void> @:23123 op:2,dt:4,nt:8,next:23157,str:61348,d0:23124,d1:48584;
+            (____, BuiltinInvocation<Void> @:23123 op:2,dt:4,nt:8,next:23157,str:61348,d0:23124,d1:48584;
                 ("if", Expression<MethodOrOperator> @:23124 op:2,dt:2,nt:9,next:23125,str:509,d0:0,d1:0;
-                    (____, Scope<Boolean> @:23125 op:13,dt:5,nt:8,next:23137,str:61352,d0:23126,d1:48586;
+                    (____, BuiltinInvocation<Boolean> @:23125 op:13,dt:5,nt:8,next:23137,str:61352,d0:23126,d1:48586;
                         ("=", Expression<MethodOrOperator> @:23126 op:13,dt:2,nt:9,next:23127,str:349,d0:0,d1:0;
-                            (____, Scope<Boolean> @:23127 op:223,dt:5,nt:8,next:23136,str:61355,d0:23128,d1:48588;
+                            (____, BuiltinInvocation<Boolean> @:23127 op:223,dt:5,nt:8,next:23136,str:61355,d0:23128,d1:48588;
                                 ("vehicle_test_seat_list", Expression<MethodOrOperator> @:23128 op:223,dt:2,nt:9,next:23129,str:15074,d0:0,d1:0;
-                                    (____, Scope<Vehicle> @:23129 op:341,dt:52,nt:8,next:23132,str:61379,d0:23130,d1:48590;
+                                    (____, BuiltinInvocation<Vehicle> @:23129 op:341,dt:52,nt:8,next:23132,str:61379,d0:23130,d1:48590;
                                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:23130 op:341,dt:2,nt:9,next:23131,str:14605,d0:0,d1:0;
                                             ("lz_warthog_01/driver", Expression<AI> @:23131 op:19,dt:19,nt:9,next:65535,str:15097,d0:0,d1:49182;)))
                                     ("warthog_d", Expression<StringId> @:23132 op:11,dt:11,nt:9,next:23133,str:15118,d0:4773,d1:2304;
-                                        (____, Scope<List> @:23133 op:332,dt:31,nt:8,next:65535,str:61452,d0:23134,d1:48594;
+                                        (____, BuiltinInvocation<List> @:23133 op:332,dt:31,nt:8,next:65535,str:61452,d0:23134,d1:48594;
                                             ("ai_actors", Expression<MethodOrOperator> @:23134 op:332,dt:2,nt:9,next:23135,str:14311,d0:0,d1:0;
                                                 ("lz_warthog_01", Expression<AI> @:23135 op:19,dt:19,nt:9,next:65535,str:16274,d0:30,d1:0;))))))
                             (True, Expression<Boolean> @:23136 op:5,dt:5,nt:9,next:65535,str:61479,d0:65281,d1:65535;)))
-                    (____, Scope<Void> @:23137 op:21,dt:4,nt:8,next:65535,str:61488,d0:23138,d1:48598;
+                    (____, BuiltinInvocation<Void> @:23137 op:21,dt:4,nt:8,next:65535,str:61488,d0:23138,d1:48598;
                         ("sleep_until", Expression<MethodOrOperator> @:23138 op:21,dt:2,nt:9,next:23139,str:284,d0:0,d1:0;
-                            (____, Scope<Boolean> @:23139 op:5,dt:5,nt:8,next:65535,str:61506,d0:23140,d1:48600;
+                            (____, BuiltinInvocation<Boolean> @:23139 op:5,dt:5,nt:8,next:65535,str:61506,d0:23140,d1:48600;
                                 ("and", Expression<MethodOrOperator> @:23140 op:5,dt:2,nt:9,next:23141,str:720,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:23141 op:13,dt:5,nt:8,next:23150,str:61516,d0:23142,d1:48602;
+                                    (____, BuiltinInvocation<Boolean> @:23141 op:13,dt:5,nt:8,next:23150,str:61516,d0:23142,d1:48602;
                                         ("=", Expression<MethodOrOperator> @:23142 op:13,dt:2,nt:9,next:23143,str:349,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:23143 op:33,dt:5,nt:8,next:23149,str:61519,d0:23144,d1:48604;
+                                            (____, BuiltinInvocation<Boolean> @:23143 op:33,dt:5,nt:8,next:23149,str:61519,d0:23144,d1:48604;
                                                 ("volume_test_objects", Expression<MethodOrOperator> @:23144 op:33,dt:2,nt:9,next:23145,str:14370,d0:0,d1:0;
                                                     ("vol_bunker_parking", Expression<Trigger> @:23145 op:13,dt:13,nt:9,next:23146,str:35768,d0:112,d1:0;
-                                                        (____, Scope<List> @:23146 op:332,dt:31,nt:8,next:65535,str:61559,d0:23147,d1:48607;
+                                                        (____, BuiltinInvocation<List> @:23146 op:332,dt:31,nt:8,next:65535,str:61559,d0:23147,d1:48607;
                                                             ("ai_actors", Expression<MethodOrOperator> @:23147 op:332,dt:2,nt:9,next:23148,str:14311,d0:0,d1:0;
                                                                 ("lz_warthog_01", Expression<AI> @:23148 op:19,dt:19,nt:9,next:65535,str:16274,d0:30,d1:0;))))))
                                             (True, Expression<Boolean> @:23149 op:5,dt:5,nt:9,next:65535,str:61586,d0:65281,d1:65535;)))
-                                    (____, Scope<Boolean> @:23150 op:13,dt:5,nt:8,next:65535,str:61597,d0:23151,d1:48611;
+                                    (____, BuiltinInvocation<Boolean> @:23150 op:13,dt:5,nt:8,next:65535,str:61597,d0:23151,d1:48611;
                                         ("=", Expression<MethodOrOperator> @:23151 op:13,dt:2,nt:9,next:23152,str:349,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:23152 op:337,dt:5,nt:8,next:23156,str:61600,d0:23153,d1:48613;
+                                            (____, BuiltinInvocation<Boolean> @:23152 op:337,dt:5,nt:8,next:23156,str:61600,d0:23153,d1:48613;
                                                 ("ai_trigger_test", Expression<MethodOrOperator> @:23153 op:337,dt:2,nt:9,next:23154,str:18506,d0:0,d1:0;
                                                     ("done_fighting", Expression<String> @:23154 op:9,dt:9,nt:9,next:23155,str:18522,d0:18522,d1:0;
                                                         ("lz_warthog_01", Expression<AI> @:23155 op:19,dt:19,nt:9,next:65535,str:16274,d0:30,d1:0;))))
                                             (True, Expression<Boolean> @:23156 op:5,dt:5,nt:9,next:65535,str:61648,d0:65281,d1:65535;)))))))))
-            (____, Scope<Void> @:23157 op:350,dt:4,nt:8,next:23160,str:61671,d0:23158,d1:48618;
+            (____, BuiltinInvocation<Void> @:23157 op:350,dt:4,nt:8,next:23160,str:61671,d0:23158,d1:48618;
                 ("ai_vehicle_exit", Expression<MethodOrOperator> @:23158 op:350,dt:2,nt:9,next:23159,str:35787,d0:0,d1:0;
                     ("all_allies", Expression<AI> @:23159 op:19,dt:19,nt:9,next:65535,str:15908,d0:1,d1:16384;)))
-            (____, Scope<Void> @:23160 op:334,dt:4,nt:8,next:65535,str:61702,d0:23161,d1:48621;
+            (____, BuiltinInvocation<Void> @:23160 op:334,dt:4,nt:8,next:65535,str:61702,d0:23161,d1:48621;
                 ("ai_set_orders", Expression<MethodOrOperator> @:23161 op:334,dt:2,nt:9,next:23162,str:15854,d0:0,d1:0;
                     ("all_allies", Expression<AI> @:23162 op:19,dt:19,nt:9,next:23163,str:15908,d0:1,d1:16384;
                         ("allies_bridge_bunker", Expression<AIOrders> @:23163 op:23,dt:23,nt:9,next:65535,str:35803,d0:42,d1:0;)))))))

@@ -1,135 +1,135 @@
 
 ("banshee_sin_02", MethodDecl<Void> @:300 op:0,dt:0,nt:65535,next:21779,str:33049,d0:0,d1:0;
-    (____, Scope<Void> @:21779 op:0,dt:4,nt:8,next:65535,str:24326,d0:21780,d1:47240;
+    (____, BuiltinInvocation<Void> @:21779 op:0,dt:4,nt:8,next:65535,str:24326,d0:21780,d1:47240;
         ("begin", Expression<MethodOrOperator> @:21780 op:0,dt:2,nt:9,next:21648,str:210,d0:0,d1:0;
-            (____, Scope<Void> @:21648 op:450,dt:4,nt:8,next:21651,str:24363,d0:21649,d1:47109;
+            (____, BuiltinInvocation<Void> @:21648 op:450,dt:4,nt:8,next:21651,str:24363,d0:21649,d1:47109;
                 ("camera_control", Expression<MethodOrOperator> @:21649 op:450,dt:2,nt:9,next:21650,str:249,d0:0,d1:0;
                     (True, Expression<Boolean> @:21650 op:5,dt:5,nt:9,next:65535,str:24379,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:21651 op:927,dt:4,nt:8,next:21654,str:24385,d0:21652,d1:47112;
+            (____, BuiltinInvocation<Void> @:21651 op:927,dt:4,nt:8,next:21654,str:24385,d0:21652,d1:47112;
                 ("cinematic_start_movie", Expression<MethodOrOperator> @:21652 op:927,dt:2,nt:9,next:21653,str:2606,d0:0,d1:0;
                     ("floodlab_banshee_2", Expression<String> @:21653 op:9,dt:9,nt:9,next:65535,str:32262,d0:32262,d1:0;)))
-            (____, Scope<Void> @:21654 op:553,dt:4,nt:8,next:21656,str:24432,d0:21655,d1:47115;
+            (____, BuiltinInvocation<Void> @:21654 op:553,dt:4,nt:8,next:21656,str:24432,d0:21655,d1:47115;
                 ("cinematic_start", Expression<MethodOrOperator> @:21655 op:553,dt:2,nt:9,next:65535,str:264,d0:0,d1:0;))
-            (____, Scope<Void> @:21656 op:4,dt:4,nt:8,next:21660,str:24452,d0:21657,d1:47117;
+            (____, BuiltinInvocation<Void> @:21656 op:4,dt:4,nt:8,next:21660,str:24452,d0:21657,d1:47117;
                 ("set", Expression<MethodOrOperator> @:21657 op:4,dt:2,nt:9,next:21658,str:2644,d0:0,d1:0;
                     ("cinematic_letterbox_style", VariableAccess<Int> @:21658 op:65535,dt:8,nt:13,next:21659,str:2648,d0:33754,d1:65535;
                         (1, Expression<Int> @:21659 op:8,dt:8,nt:9,next:65535,str:24483,d0:1,d1:0;))))
-            (____, Scope<Void> @:21660 op:459,dt:4,nt:8,next:21664,str:24488,d0:21661,d1:47121;
+            (____, BuiltinInvocation<Void> @:21660 op:459,dt:4,nt:8,next:21664,str:24488,d0:21661,d1:47121;
                 ("camera_set_field_of_view", Expression<MethodOrOperator> @:21661 op:459,dt:2,nt:9,next:21662,str:2674,d0:0,d1:0;
                     (60f, Expression<Float> @:21662 op:6,dt:6,nt:9,next:21663,str:24514,d0:0,d1:17008;
                         (0, Expression<Short> @:21663 op:7,dt:7,nt:9,next:65535,str:24517,d0:0,d1:65535;))))
-            (____, Scope<Void> @:21664 op:451,dt:4,nt:8,next:21668,str:24522,d0:21665,d1:47125;
+            (____, BuiltinInvocation<Void> @:21664 op:451,dt:4,nt:8,next:21668,str:24522,d0:21665,d1:47125;
                 ("camera_set", Expression<MethodOrOperator> @:21665 op:451,dt:2,nt:9,next:21666,str:31055,d0:0,d1:0;
                     ("end00", Expression<CameraPathTarget> @:21666 op:15,dt:15,nt:9,next:21667,str:32281,d0:8,d1:0;
                         (0, Expression<Short> @:21667 op:7,dt:7,nt:9,next:65535,str:24540,d0:0,d1:65535;))))
-            (____, Scope<Void> @:21668 op:258,dt:4,nt:8,next:21672,str:24545,d0:21669,d1:47129;
+            (____, BuiltinInvocation<Void> @:21668 op:258,dt:4,nt:8,next:21672,str:24545,d0:21669,d1:47129;
                 ("device_set_position_immediate", Expression<MethodOrOperator> @:21669 op:258,dt:2,nt:9,next:21670,str:15579,d0:0,d1:0;
                     ("banshee_ledge_access_01", Expression<Device> @:21670 op:60,dt:54,nt:9,next:21671,str:32287,d0:354,d1:65535;
                         (1f, Expression<Float> @:21671 op:6,dt:6,nt:9,next:65535,str:24600,d0:0,d1:16256;))))
-            (____, Scope<Void> @:21672 op:49,dt:4,nt:8,next:21675,str:24605,d0:21673,d1:47133;
+            (____, BuiltinInvocation<Void> @:21672 op:49,dt:4,nt:8,next:21675,str:24605,d0:21673,d1:47133;
                 ("object_create_containing", Expression<MethodOrOperator> @:21673 op:49,dt:2,nt:9,next:21674,str:32311,d0:0,d1:0;
                     ("banshee_gas_0", Expression<String> @:21674 op:9,dt:9,nt:9,next:65535,str:32336,d0:32336,d1:0;)))
-            (____, Scope<Void> @:21675 op:290,dt:4,nt:8,next:21678,str:24650,d0:21676,d1:47136;
+            (____, BuiltinInvocation<Void> @:21675 op:290,dt:4,nt:8,next:21678,str:24650,d0:21676,d1:47136;
                 ("ai_place", Expression<MethodOrOperator> @:21676 op:290,dt:2,nt:9,next:21677,str:11303,d0:0,d1:0;
                     ("dervish_02", Expression<AI> @:21677 op:19,dt:19,nt:9,next:65535,str:4943,d0:94,d1:0;)))
-            (____, Scope<Void> @:21678 op:366,dt:4,nt:8,next:21682,str:24674,d0:21679,d1:47139;
+            (____, BuiltinInvocation<Void> @:21678 op:366,dt:4,nt:8,next:21682,str:24674,d0:21679,d1:47139;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:21679 op:366,dt:2,nt:9,next:21680,str:12198,d0:0,d1:0;
                     ("dervish_02", Expression<AI> @:21680 op:19,dt:19,nt:9,next:21681,str:4943,d0:94,d1:0;
                         ("dervish_chase_02", Expression<AIScript> @:21681 op:21,dt:21,nt:9,next:65535,str:32350,d0:297,d1:0;))))
-            (____, Scope<Void> @:21682 op:551,dt:4,nt:8,next:21688,str:24730,d0:21683,d1:47143;
+            (____, BuiltinInvocation<Void> @:21682 op:551,dt:4,nt:8,next:21688,str:24730,d0:21683,d1:47143;
                 ("fade_in", Expression<MethodOrOperator> @:21683 op:551,dt:2,nt:9,next:21684,str:756,d0:0,d1:0;
                     (1f, Expression<Float> @:21684 op:6,dt:6,nt:9,next:21685,str:24739,d0:0,d1:16256;
                         (1f, Expression<Float> @:21685 op:6,dt:6,nt:9,next:21686,str:24741,d0:0,d1:16256;
                             (1f, Expression<Float> @:21686 op:6,dt:6,nt:9,next:21687,str:24743,d0:0,d1:16256;
                                 (15, Expression<Short> @:21687 op:7,dt:7,nt:9,next:65535,str:24745,d0:15,d1:65535;))))))
-            (____, Scope<Void> @:21688 op:451,dt:4,nt:8,next:21692,str:24751,d0:21689,d1:47149;
+            (____, BuiltinInvocation<Void> @:21688 op:451,dt:4,nt:8,next:21692,str:24751,d0:21689,d1:47149;
                 ("camera_set", Expression<MethodOrOperator> @:21689 op:451,dt:2,nt:9,next:21690,str:31055,d0:0,d1:0;
                     ("end01", Expression<CameraPathTarget> @:21690 op:15,dt:15,nt:9,next:21691,str:32367,d0:9,d1:0;
                         (120, Expression<Short> @:21691 op:7,dt:7,nt:9,next:65535,str:24769,d0:120,d1:65535;))))
-            (____, Scope<Void> @:21692 op:21,dt:4,nt:8,next:21700,str:24779,d0:21693,d1:47153;
+            (____, BuiltinInvocation<Void> @:21692 op:21,dt:4,nt:8,next:21700,str:24779,d0:21693,d1:47153;
                 ("sleep_until", Expression<MethodOrOperator> @:21693 op:21,dt:2,nt:9,next:21694,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:21694 op:13,dt:5,nt:8,next:65535,str:24792,d0:21695,d1:47155;
+                    (____, BuiltinInvocation<Boolean> @:21694 op:13,dt:5,nt:8,next:65535,str:24792,d0:21695,d1:47155;
                         ("=", Expression<MethodOrOperator> @:21695 op:13,dt:2,nt:9,next:21696,str:505,d0:0,d1:0;
-                            (____, Scope<Short> @:21696 op:327,dt:7,nt:8,next:21699,str:24795,d0:21697,d1:47157;
+                            (____, BuiltinInvocation<Short> @:21696 op:327,dt:7,nt:8,next:21699,str:24795,d0:21697,d1:47157;
                                 ("ai_living_count", Expression<MethodOrOperator> @:21697 op:327,dt:2,nt:9,next:21698,str:11650,d0:0,d1:0;
                                     ("dervish_02", Expression<AI> @:21698 op:19,dt:19,nt:9,next:65535,str:4943,d0:94,d1:0;)))
                             (0, Expression<Short> @:21699 op:7,dt:7,nt:9,next:65535,str:24824,d0:0,d1:65535;)))))
-            (____, Scope<Void> @:21700 op:19,dt:4,nt:8,next:21703,str:24830,d0:21701,d1:47161;
+            (____, BuiltinInvocation<Void> @:21700 op:19,dt:4,nt:8,next:21703,str:24830,d0:21701,d1:47161;
                 ("sleep", Expression<MethodOrOperator> @:21701 op:19,dt:2,nt:9,next:21702,str:289,d0:0,d1:0;
                     (60, Expression<Short> @:21702 op:7,dt:7,nt:9,next:65535,str:24837,d0:60,d1:65535;)))
-            (____, Scope<Void> @:21703 op:290,dt:4,nt:8,next:21706,str:24843,d0:21704,d1:47164;
+            (____, BuiltinInvocation<Void> @:21703 op:290,dt:4,nt:8,next:21706,str:24843,d0:21704,d1:47164;
                 ("ai_place", Expression<MethodOrOperator> @:21704 op:290,dt:2,nt:9,next:21705,str:11303,d0:0,d1:0;
                     ("dervish_03", Expression<AI> @:21705 op:19,dt:19,nt:9,next:65535,str:5313,d0:95,d1:0;)))
             ("banshee_sin_02_weapon", ScriptInvocation<Void> @:21706 op:299,dt:4,nt:10,next:21708,str:24867,d0:21707,d1:47167;
                 ("banshee_sin_02_weapon", Expression<MethodOrOperator> @:21707 op:299,dt:2,nt:9,next:65535,str:32373,d0:0,d1:0;))
-            (____, Scope<Void> @:21708 op:57,dt:4,nt:8,next:21717,str:24893,d0:21709,d1:47169;
+            (____, BuiltinInvocation<Void> @:21708 op:57,dt:4,nt:8,next:21717,str:24893,d0:21709,d1:47169;
                 ("object_hide", Expression<MethodOrOperator> @:21709 op:57,dt:2,nt:9,next:21710,str:799,d0:0,d1:0;
-                    (____, Scope<Entity> @:21710 op:37,dt:50,nt:8,next:21716,str:24906,d0:21711,d1:47171;
+                    (____, BuiltinInvocation<Entity> @:21710 op:37,dt:50,nt:8,next:21716,str:24906,d0:21711,d1:47171;
                         ("list_get", Expression<MethodOrOperator> @:21711 op:37,dt:2,nt:9,next:21712,str:221,d0:0,d1:0;
-                            (____, Scope<List> @:21712 op:332,dt:31,nt:8,next:21715,str:24916,d0:21713,d1:47173;
+                            (____, BuiltinInvocation<List> @:21712 op:332,dt:31,nt:8,next:21715,str:24916,d0:21713,d1:47173;
                                 ("ai_actors", Expression<MethodOrOperator> @:21713 op:332,dt:2,nt:9,next:21714,str:12066,d0:0,d1:0;
                                     ("dervish_03", Expression<AI> @:21714 op:19,dt:19,nt:9,next:65535,str:5313,d0:95,d1:0;)))
                             (0, Expression<Short> @:21715 op:7,dt:7,nt:9,next:65535,str:24939,d0:0,d1:65535;)))
                     (True, Expression<Boolean> @:21716 op:5,dt:5,nt:9,next:65535,str:24942,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:21717 op:105,dt:4,nt:8,next:21726,str:24950,d0:21718,d1:47178;
+            (____, BuiltinInvocation<Void> @:21717 op:105,dt:4,nt:8,next:21726,str:24950,d0:21718,d1:47178;
                 ("object_teleport", Expression<MethodOrOperator> @:21718 op:105,dt:2,nt:9,next:21719,str:11398,d0:0,d1:0;
-                    (____, Scope<Entity> @:21719 op:37,dt:50,nt:8,next:21725,str:24967,d0:21720,d1:47180;
+                    (____, BuiltinInvocation<Entity> @:21719 op:37,dt:50,nt:8,next:21725,str:24967,d0:21720,d1:47180;
                         ("list_get", Expression<MethodOrOperator> @:21720 op:37,dt:2,nt:9,next:21721,str:221,d0:0,d1:0;
-                            (____, Scope<List> @:21721 op:332,dt:31,nt:8,next:21724,str:24977,d0:21722,d1:47182;
+                            (____, BuiltinInvocation<List> @:21721 op:332,dt:31,nt:8,next:21724,str:24977,d0:21722,d1:47182;
                                 ("ai_actors", Expression<MethodOrOperator> @:21722 op:332,dt:2,nt:9,next:21723,str:12066,d0:0,d1:0;
                                     ("dervish_03", Expression<AI> @:21723 op:19,dt:19,nt:9,next:65535,str:5313,d0:95,d1:0;)))
                             (0, Expression<Short> @:21724 op:7,dt:7,nt:9,next:65535,str:25000,d0:0,d1:65535;)))
                     ("dervish_sticks_landing", Expression<LocationFlag> @:21725 op:14,dt:14,nt:9,next:65535,str:32395,d0:68,d1:0;)))
-            (____, Scope<Void> @:21726 op:366,dt:4,nt:8,next:21730,str:25029,d0:21727,d1:47187;
+            (____, BuiltinInvocation<Void> @:21726 op:366,dt:4,nt:8,next:21730,str:25029,d0:21727,d1:47187;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:21727 op:366,dt:2,nt:9,next:21728,str:12198,d0:0,d1:0;
                     ("dervish_03", Expression<AI> @:21728 op:19,dt:19,nt:9,next:21729,str:5313,d0:95,d1:0;
                         ("dervish_recovery", Expression<AIScript> @:21729 op:21,dt:21,nt:9,next:65535,str:32418,d0:298,d1:0;))))
-            (____, Scope<Void> @:21730 op:19,dt:4,nt:8,next:21733,str:25083,d0:21731,d1:47191;
+            (____, BuiltinInvocation<Void> @:21730 op:19,dt:4,nt:8,next:21733,str:25083,d0:21731,d1:47191;
                 ("sleep", Expression<MethodOrOperator> @:21731 op:19,dt:2,nt:9,next:21732,str:289,d0:0,d1:0;
                     (5, Expression<Short> @:21732 op:7,dt:7,nt:9,next:65535,str:25090,d0:5,d1:65535;)))
-            (____, Scope<Void> @:21733 op:57,dt:4,nt:8,next:21742,str:25095,d0:21734,d1:47194;
+            (____, BuiltinInvocation<Void> @:21733 op:57,dt:4,nt:8,next:21742,str:25095,d0:21734,d1:47194;
                 ("object_hide", Expression<MethodOrOperator> @:21734 op:57,dt:2,nt:9,next:21735,str:799,d0:0,d1:0;
-                    (____, Scope<Entity> @:21735 op:37,dt:50,nt:8,next:21741,str:25108,d0:21736,d1:47196;
+                    (____, BuiltinInvocation<Entity> @:21735 op:37,dt:50,nt:8,next:21741,str:25108,d0:21736,d1:47196;
                         ("list_get", Expression<MethodOrOperator> @:21736 op:37,dt:2,nt:9,next:21737,str:221,d0:0,d1:0;
-                            (____, Scope<List> @:21737 op:332,dt:31,nt:8,next:21740,str:25118,d0:21738,d1:47198;
+                            (____, BuiltinInvocation<List> @:21737 op:332,dt:31,nt:8,next:21740,str:25118,d0:21738,d1:47198;
                                 ("ai_actors", Expression<MethodOrOperator> @:21738 op:332,dt:2,nt:9,next:21739,str:12066,d0:0,d1:0;
                                     ("dervish_03", Expression<AI> @:21739 op:19,dt:19,nt:9,next:65535,str:5313,d0:95,d1:0;)))
                             (0, Expression<Short> @:21740 op:7,dt:7,nt:9,next:65535,str:25141,d0:0,d1:65535;)))
                     (False, Expression<Boolean> @:21741 op:5,dt:5,nt:9,next:65535,str:25144,d0:65280,d1:65535;)))
-            (____, Scope<Void> @:21742 op:451,dt:4,nt:8,next:21746,str:25223,d0:21743,d1:47203;
+            (____, BuiltinInvocation<Void> @:21742 op:451,dt:4,nt:8,next:21746,str:25223,d0:21743,d1:47203;
                 ("camera_set", Expression<MethodOrOperator> @:21743 op:451,dt:2,nt:9,next:21744,str:31055,d0:0,d1:0;
                     ("end02", Expression<CameraPathTarget> @:21744 op:15,dt:15,nt:9,next:21745,str:32435,d0:10,d1:0;
                         (60, Expression<Short> @:21745 op:7,dt:7,nt:9,next:65535,str:25241,d0:60,d1:65535;))))
-            (____, Scope<Void> @:21746 op:19,dt:4,nt:8,next:21749,str:25247,d0:21747,d1:47207;
+            (____, BuiltinInvocation<Void> @:21746 op:19,dt:4,nt:8,next:21749,str:25247,d0:21747,d1:47207;
                 ("sleep", Expression<MethodOrOperator> @:21747 op:19,dt:2,nt:9,next:21748,str:289,d0:0,d1:0;
                     (60, Expression<Short> @:21748 op:7,dt:7,nt:9,next:65535,str:25254,d0:60,d1:65535;)))
-            (____, Scope<Void> @:21749 op:451,dt:4,nt:8,next:21753,str:25263,d0:21750,d1:47210;
+            (____, BuiltinInvocation<Void> @:21749 op:451,dt:4,nt:8,next:21753,str:25263,d0:21750,d1:47210;
                 ("camera_set", Expression<MethodOrOperator> @:21750 op:451,dt:2,nt:9,next:21751,str:31055,d0:0,d1:0;
                     ("end03", Expression<CameraPathTarget> @:21751 op:15,dt:15,nt:9,next:21752,str:32441,d0:11,d1:0;
                         (60, Expression<Short> @:21752 op:7,dt:7,nt:9,next:65535,str:25281,d0:60,d1:65535;))))
-            (____, Scope<Void> @:21753 op:19,dt:4,nt:8,next:21756,str:25287,d0:21754,d1:47214;
+            (____, BuiltinInvocation<Void> @:21753 op:19,dt:4,nt:8,next:21756,str:25287,d0:21754,d1:47214;
                 ("sleep", Expression<MethodOrOperator> @:21754 op:19,dt:2,nt:9,next:21755,str:289,d0:0,d1:0;
                     (60, Expression<Short> @:21755 op:7,dt:7,nt:9,next:65535,str:25294,d0:60,d1:65535;)))
-            (____, Scope<Void> @:21756 op:451,dt:4,nt:8,next:21760,str:25303,d0:21757,d1:47217;
+            (____, BuiltinInvocation<Void> @:21756 op:451,dt:4,nt:8,next:21760,str:25303,d0:21757,d1:47217;
                 ("camera_set", Expression<MethodOrOperator> @:21757 op:451,dt:2,nt:9,next:21758,str:31055,d0:0,d1:0;
                     ("end04", Expression<CameraPathTarget> @:21758 op:15,dt:15,nt:9,next:21759,str:32447,d0:12,d1:0;
                         (60, Expression<Short> @:21759 op:7,dt:7,nt:9,next:65535,str:25321,d0:60,d1:65535;))))
-            (____, Scope<Void> @:21760 op:19,dt:4,nt:8,next:21763,str:25327,d0:21761,d1:47221;
+            (____, BuiltinInvocation<Void> @:21760 op:19,dt:4,nt:8,next:21763,str:25327,d0:21761,d1:47221;
                 ("sleep", Expression<MethodOrOperator> @:21761 op:19,dt:2,nt:9,next:21762,str:289,d0:0,d1:0;
                     (60, Expression<Short> @:21762 op:7,dt:7,nt:9,next:65535,str:25334,d0:60,d1:65535;)))
-            (____, Scope<Void> @:21763 op:552,dt:4,nt:8,next:21769,str:25346,d0:21764,d1:47224;
+            (____, BuiltinInvocation<Void> @:21763 op:552,dt:4,nt:8,next:21769,str:25346,d0:21764,d1:47224;
                 ("fade_out", Expression<MethodOrOperator> @:21764 op:552,dt:2,nt:9,next:21765,str:280,d0:0,d1:0;
                     (1f, Expression<Float> @:21765 op:6,dt:6,nt:9,next:21766,str:25356,d0:0,d1:16256;
                         (1f, Expression<Float> @:21766 op:6,dt:6,nt:9,next:21767,str:25358,d0:0,d1:16256;
                             (1f, Expression<Float> @:21767 op:6,dt:6,nt:9,next:21768,str:25360,d0:0,d1:16256;
                                 (15, Expression<Short> @:21768 op:7,dt:7,nt:9,next:65535,str:25362,d0:15,d1:65535;))))))
-            (____, Scope<Void> @:21769 op:19,dt:4,nt:8,next:21772,str:25368,d0:21770,d1:47230;
+            (____, BuiltinInvocation<Void> @:21769 op:19,dt:4,nt:8,next:21772,str:25368,d0:21770,d1:47230;
                 ("sleep", Expression<MethodOrOperator> @:21770 op:19,dt:2,nt:9,next:21771,str:289,d0:0,d1:0;
                     (20, Expression<Short> @:21771 op:7,dt:7,nt:9,next:65535,str:25375,d0:20,d1:65535;)))
-            (____, Scope<Void> @:21772 op:298,dt:4,nt:8,next:21775,str:25384,d0:21773,d1:47233;
+            (____, BuiltinInvocation<Void> @:21772 op:298,dt:4,nt:8,next:21775,str:25384,d0:21773,d1:47233;
                 ("ai_erase", Expression<MethodOrOperator> @:21773 op:298,dt:2,nt:9,next:21774,str:11890,d0:0,d1:0;
                     ("dervish_03", Expression<AI> @:21774 op:19,dt:19,nt:9,next:65535,str:5313,d0:95,d1:0;)))
-            (____, Scope<Void> @:21775 op:258,dt:4,nt:8,next:65535,str:25408,d0:21776,d1:47236;
+            (____, BuiltinInvocation<Void> @:21775 op:258,dt:4,nt:8,next:65535,str:25408,d0:21776,d1:47236;
                 ("device_set_position_immediate", Expression<MethodOrOperator> @:21776 op:258,dt:2,nt:9,next:21777,str:15579,d0:0,d1:0;
                     ("banshee_ledge_access_01", Expression<Device> @:21777 op:60,dt:54,nt:9,next:21778,str:32287,d0:354,d1:65535;
                         (0f, Expression<Float> @:21778 op:6,dt:6,nt:9,next:65535,str:25463,d0:0,d1:0;)))))))

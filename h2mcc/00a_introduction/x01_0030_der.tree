@@ -1,16 +1,16 @@
 
 ("x01_0030_der", MethodDecl<Void> @:66 op:0,dt:0,nt:65535,next:4505,str:6773,d0:0,d1:0;
-    (____, Scope<Void> @:4505 op:0,dt:4,nt:8,next:65535,str:1688,d0:4506,d1:62733;
+    (____, BuiltinInvocation<Void> @:4505 op:0,dt:4,nt:8,next:65535,str:1688,d0:4506,d1:62733;
         ("begin", Expression<MethodOrOperator> @:4506 op:0,dt:2,nt:9,next:4493,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:4493 op:19,dt:4,nt:8,next:4496,str:1719,d0:4494,d1:62721;
+            (____, BuiltinInvocation<Void> @:4493 op:19,dt:4,nt:8,next:4496,str:1719,d0:4494,d1:62721;
                 ("sleep", Expression<MethodOrOperator> @:4494 op:19,dt:2,nt:9,next:4495,str:80,d0:0,d1:0;
                     (100, Expression<Short> @:4495 op:7,dt:7,nt:9,next:65535,str:1726,d0:100,d1:65535;)))
-            (____, Scope<Void> @:4496 op:596,dt:4,nt:8,next:4501,str:1733,d0:4497,d1:62724;
+            (____, BuiltinInvocation<Void> @:4496 op:596,dt:4,nt:8,next:4501,str:1733,d0:4497,d1:62724;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:4497 op:596,dt:2,nt:9,next:4498,str:3766,d0:0,d1:0;
                     ("sound\dialog\levels\01_spacestation\cinematic\x01_0030_der", Expression<Sound> @:4498 op:32,dt:32,nt:9,next:4499,str:6706,d0:2715,d1:60433;
                         (4294901760, Expression<Entity> @:4499 op:56,dt:50,nt:9,next:4500,str:6765,d0:0,d1:65535;
                             (1f, Expression<Float> @:4500 op:6,dt:6,nt:9,next:65535,str:1821,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:4501 op:562,dt:4,nt:8,next:65535,str:1826,d0:4502,d1:62729;
+            (____, BuiltinInvocation<Void> @:4501 op:562,dt:4,nt:8,next:65535,str:1826,d0:4502,d1:62729;
                 ("cinematic_subtitle", Expression<MethodOrOperator> @:4502 op:562,dt:2,nt:9,next:4503,str:5905,d0:0,d1:0;
                     ("x01_0030_der", Expression<StringId> @:4503 op:11,dt:11,nt:9,next:4504,str:6773,d0:9598,d1:3072;
                         (3f, Expression<Float> @:4504 op:6,dt:6,nt:9,next:65535,str:1859,d0:0,d1:16448;)))))))

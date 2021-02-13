@@ -1,14 +1,14 @@
 
 ("door_close", MethodDecl<Void> @:57 op:0,dt:0,nt:65535,next:1911,str:4257,d0:0,d1:0;
-    (____, Scope<Void> @:1911 op:0,dt:4,nt:8,next:65535,str:22412,d0:1912,d1:60139;
+    (____, BuiltinInvocation<Void> @:1911 op:0,dt:4,nt:8,next:65535,str:22412,d0:1912,d1:60139;
         ("begin", Expression<MethodOrOperator> @:1912 op:0,dt:2,nt:9,next:1901,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:1901 op:19,dt:4,nt:8,next:1904,str:22441,d0:1902,d1:60129;
+            (____, BuiltinInvocation<Void> @:1901 op:19,dt:4,nt:8,next:1904,str:22441,d0:1902,d1:60129;
                 ("sleep", Expression<MethodOrOperator> @:1902 op:19,dt:2,nt:9,next:1903,str:143,d0:0,d1:0;
                     (430, Expression<Short> @:1903 op:7,dt:7,nt:9,next:65535,str:22448,d0:430,d1:65535;)))
-            (____, Scope<Void> @:1904 op:27,dt:4,nt:8,next:1907,str:22455,d0:1905,d1:60132;
+            (____, BuiltinInvocation<Void> @:1904 op:27,dt:4,nt:8,next:1907,str:22455,d0:1905,d1:60132;
                 ("print", Expression<MethodOrOperator> @:1905 op:27,dt:2,nt:9,next:1906,str:149,d0:0,d1:0;
                     ("door close", Expression<String> @:1906 op:9,dt:9,nt:9,next:65535,str:4164,d0:4164,d1:0;)))
-            (____, Scope<Void> @:1907 op:256,dt:4,nt:8,next:65535,str:22532,d0:1908,d1:60135;
+            (____, BuiltinInvocation<Void> @:1907 op:256,dt:4,nt:8,next:65535,str:22532,d0:1908,d1:60135;
                 ("device_set_position", Expression<MethodOrOperator> @:1908 op:256,dt:2,nt:9,next:1909,str:4175,d0:0,d1:0;
                     ("intra1_door", Expression<Device> @:1909 op:60,dt:54,nt:9,next:1910,str:4195,d0:47,d1:65535;
                         (0f, Expression<Float> @:1910 op:6,dt:6,nt:9,next:65535,str:22565,d0:0,d1:0;)))))))

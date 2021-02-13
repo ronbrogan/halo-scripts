@@ -1,29 +1,29 @@
 
 ("landing_zone_follow_01", MethodDecl<Void> @:258 op:0,dt:0,nt:65535,next:8956,str:19548,d0:0,d1:0;
-    (____, Scope<Void> @:8956 op:0,dt:4,nt:8,next:65535,str:39853,d0:8957,d1:34417;
+    (____, BuiltinInvocation<Void> @:8956 op:0,dt:4,nt:8,next:65535,str:39853,d0:8957,d1:34417;
         ("begin", Expression<MethodOrOperator> @:8957 op:0,dt:2,nt:9,next:8931,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:8931 op:440,dt:4,nt:8,next:8934,str:39901,d0:8932,d1:34392;
+            (____, BuiltinInvocation<Void> @:8931 op:440,dt:4,nt:8,next:8934,str:39901,d0:8932,d1:34392;
                 ("cs_abort_on_damage", Expression<MethodOrOperator> @:8932 op:440,dt:2,nt:9,next:8933,str:15227,d0:0,d1:0;
                     (True, Expression<Boolean> @:8933 op:5,dt:5,nt:9,next:65535,str:39921,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:8934 op:449,dt:4,nt:8,next:8937,str:39929,d0:8935,d1:34395;
+            (____, BuiltinInvocation<Void> @:8934 op:449,dt:4,nt:8,next:8937,str:39929,d0:8935,d1:34395;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:8935 op:449,dt:2,nt:9,next:8936,str:17423,d0:0,d1:0;
                     (True, Expression<Boolean> @:8936 op:5,dt:5,nt:9,next:65535,str:39961,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:8937 op:385,dt:4,nt:8,next:8940,str:39969,d0:8938,d1:34398;
+            (____, BuiltinInvocation<Void> @:8937 op:385,dt:4,nt:8,next:8940,str:39969,d0:8938,d1:34398;
                 ("cs_go_to", Expression<MethodOrOperator> @:8938 op:385,dt:2,nt:9,next:8939,str:19295,d0:0,d1:0;
                     ("landing_zone/ramp01", Expression<SpatialPoint> @:8939 op:28,dt:28,nt:9,next:65535,str:19304,d0:4,d1:1;)))
-            (____, Scope<Void> @:8940 op:400,dt:4,nt:8,next:8943,str:40002,d0:8941,d1:34401;
+            (____, BuiltinInvocation<Void> @:8940 op:400,dt:4,nt:8,next:8943,str:40002,d0:8941,d1:34401;
                 ("cs_face_player", Expression<MethodOrOperator> @:8941 op:400,dt:2,nt:9,next:8942,str:19324,d0:0,d1:0;
                     (True, Expression<Boolean> @:8942 op:5,dt:5,nt:9,next:65535,str:40018,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:8943 op:21,dt:4,nt:8,next:8953,str:40026,d0:8944,d1:34404;
+            (____, BuiltinInvocation<Void> @:8943 op:21,dt:4,nt:8,next:8953,str:40026,d0:8944,d1:34404;
                 ("sleep_until", Expression<MethodOrOperator> @:8944 op:21,dt:2,nt:9,next:8945,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:8945 op:13,dt:5,nt:8,next:65535,str:40039,d0:8946,d1:34406;
+                    (____, BuiltinInvocation<Boolean> @:8945 op:13,dt:5,nt:8,next:65535,str:40039,d0:8946,d1:34406;
                         ("=", Expression<MethodOrOperator> @:8946 op:13,dt:2,nt:9,next:8947,str:301,d0:0,d1:0;
-                            (____, Scope<Boolean> @:8947 op:33,dt:5,nt:8,next:8952,str:40042,d0:8948,d1:34408;
+                            (____, BuiltinInvocation<Boolean> @:8947 op:33,dt:5,nt:8,next:8952,str:40042,d0:8948,d1:34408;
                                 ("volume_test_objects", Expression<MethodOrOperator> @:8948 op:33,dt:2,nt:9,next:8949,str:16841,d0:0,d1:0;
                                     ("vol_leaving_lz", Expression<Trigger> @:8949 op:13,dt:13,nt:9,next:8950,str:19339,d0:1,d1:0;
-                                        (____, Scope<List> @:8950 op:28,dt:31,nt:8,next:65535,str:40078,d0:8951,d1:34411;
+                                        (____, BuiltinInvocation<List> @:8950 op:28,dt:31,nt:8,next:65535,str:40078,d0:8951,d1:34411;
                                             ("players", Expression<MethodOrOperator> @:8951 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))
                             (True, Expression<Boolean> @:8952 op:5,dt:5,nt:9,next:65535,str:40089,d0:65281,d1:65535;)))))
-            (____, Scope<Void> @:8953 op:400,dt:4,nt:8,next:65535,str:40099,d0:8954,d1:34414;
+            (____, BuiltinInvocation<Void> @:8953 op:400,dt:4,nt:8,next:65535,str:40099,d0:8954,d1:34414;
                 ("cs_face_player", Expression<MethodOrOperator> @:8954 op:400,dt:2,nt:9,next:8955,str:19324,d0:0,d1:0;
                     (False, Expression<Boolean> @:8955 op:5,dt:5,nt:9,next:65535,str:40115,d0:65280,d1:65535;))))))

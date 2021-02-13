@@ -1,53 +1,53 @@
 
 ("cs_e21_cov_phantom0_bombard", MethodDecl<Void> @:303 op:0,dt:0,nt:65535,next:10844,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:10844 op:0,dt:4,nt:8,next:65535,str:6337,d0:10845,d1:36305;
+    (____, BuiltinInvocation<Void> @:10844 op:0,dt:4,nt:8,next:65535,str:6337,d0:10845,d1:36305;
         ("begin", Expression<MethodOrOperator> @:10845 op:0,dt:2,nt:9,next:10795,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:10795 op:440,dt:4,nt:8,next:10798,str:6390,d0:10796,d1:36256;
+            (____, BuiltinInvocation<Void> @:10795 op:440,dt:4,nt:8,next:10798,str:6390,d0:10796,d1:36256;
                 ("cs_abort_on_damage", Expression<MethodOrOperator> @:10796 op:440,dt:2,nt:9,next:10797,str:16394,d0:0,d1:0;
                     (True, Expression<Boolean> @:10797 op:5,dt:5,nt:9,next:65535,str:6410,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:10798 op:441,dt:4,nt:8,next:10801,str:6418,d0:10799,d1:36259;
+            (____, BuiltinInvocation<Void> @:10798 op:441,dt:4,nt:8,next:10801,str:6418,d0:10799,d1:36259;
                 ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:10799 op:441,dt:2,nt:9,next:10800,str:22358,d0:0,d1:0;
                     ("ai_combat_status_definite", VariableAccess<Short> @:10800 op:7,dt:7,nt:13,next:65535,str:22384,d0:33576,d1:65535;)))
-            (____, Scope<Void> @:10801 op:21,dt:4,nt:8,next:65535,str:6502,d0:10802,d1:36262;
+            (____, BuiltinInvocation<Void> @:10801 op:21,dt:4,nt:8,next:65535,str:6502,d0:10802,d1:36262;
                 ("sleep_until", Expression<MethodOrOperator> @:10802 op:21,dt:2,nt:9,next:10803,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:10803 op:0,dt:5,nt:8,next:65535,str:6518,d0:10804,d1:36264;
+                    (____, BuiltinInvocation<Boolean> @:10803 op:0,dt:5,nt:8,next:65535,str:6518,d0:10804,d1:36264;
                         ("begin", Expression<MethodOrOperator> @:10804 op:0,dt:2,nt:9,next:10805,str:6,d0:0,d1:0;
-                            (____, Scope<Void> @:10805 op:1,dt:4,nt:8,next:10843,str:6529,d0:10806,d1:36266;
+                            (____, BuiltinInvocation<Void> @:10805 op:1,dt:4,nt:8,next:10843,str:6529,d0:10806,d1:36266;
                                 ("begin_random", Expression<MethodOrOperator> @:10806 op:1,dt:2,nt:9,next:10807,str:17067,d0:0,d1:0;
-                                    (____, Scope<Void> @:10807 op:0,dt:4,nt:8,next:10816,str:6548,d0:10808,d1:36268;
+                                    (____, BuiltinInvocation<Void> @:10807 op:0,dt:4,nt:8,next:10816,str:6548,d0:10808,d1:36268;
                                         ("begin", Expression<MethodOrOperator> @:10808 op:0,dt:2,nt:9,next:10809,str:6,d0:0,d1:0;
-                                            (____, Scope<Void> @:10809 op:406,dt:4,nt:8,next:10813,str:6555,d0:10810,d1:36270;
+                                            (____, BuiltinInvocation<Void> @:10809 op:406,dt:4,nt:8,next:10813,str:6555,d0:10810,d1:36270;
                                                 ("cs_shoot_point", Expression<MethodOrOperator> @:10810 op:406,dt:2,nt:9,next:10811,str:15568,d0:0,d1:0;
                                                     (True, Expression<Boolean> @:10811 op:5,dt:5,nt:9,next:10812,str:6571,d0:65281,d1:65535;
                                                         ("e21_cov_bombard/p5", Expression<SpatialPoint> @:10812 op:28,dt:28,nt:9,next:65535,str:22410,d0:3,d1:17;))))
-                                            (____, Scope<Void> @:10813 op:19,dt:4,nt:8,next:65535,str:6596,d0:10814,d1:36274;
+                                            (____, BuiltinInvocation<Void> @:10813 op:19,dt:4,nt:8,next:65535,str:6596,d0:10814,d1:36274;
                                                 ("sleep", Expression<MethodOrOperator> @:10814 op:19,dt:2,nt:9,next:10815,str:85,d0:0,d1:0;
                                                     (120, Expression<Short> @:10815 op:7,dt:7,nt:9,next:65535,str:6603,d0:120,d1:65535;)))))
-                                    (____, Scope<Void> @:10816 op:0,dt:4,nt:8,next:10825,str:6614,d0:10817,d1:36277;
+                                    (____, BuiltinInvocation<Void> @:10816 op:0,dt:4,nt:8,next:10825,str:6614,d0:10817,d1:36277;
                                         ("begin", Expression<MethodOrOperator> @:10817 op:0,dt:2,nt:9,next:10818,str:6,d0:0,d1:0;
-                                            (____, Scope<Void> @:10818 op:406,dt:4,nt:8,next:10822,str:6621,d0:10819,d1:36279;
+                                            (____, BuiltinInvocation<Void> @:10818 op:406,dt:4,nt:8,next:10822,str:6621,d0:10819,d1:36279;
                                                 ("cs_shoot_point", Expression<MethodOrOperator> @:10819 op:406,dt:2,nt:9,next:10820,str:15568,d0:0,d1:0;
                                                     (True, Expression<Boolean> @:10820 op:5,dt:5,nt:9,next:10821,str:6637,d0:65281,d1:65535;
                                                         ("e21_cov_bombard/p6", Expression<SpatialPoint> @:10821 op:28,dt:28,nt:9,next:65535,str:22429,d0:4,d1:17;))))
-                                            (____, Scope<Void> @:10822 op:19,dt:4,nt:8,next:65535,str:6662,d0:10823,d1:36283;
+                                            (____, BuiltinInvocation<Void> @:10822 op:19,dt:4,nt:8,next:65535,str:6662,d0:10823,d1:36283;
                                                 ("sleep", Expression<MethodOrOperator> @:10823 op:19,dt:2,nt:9,next:10824,str:85,d0:0,d1:0;
                                                     (120, Expression<Short> @:10824 op:7,dt:7,nt:9,next:65535,str:6669,d0:120,d1:65535;)))))
-                                    (____, Scope<Void> @:10825 op:0,dt:4,nt:8,next:10834,str:6680,d0:10826,d1:36286;
+                                    (____, BuiltinInvocation<Void> @:10825 op:0,dt:4,nt:8,next:10834,str:6680,d0:10826,d1:36286;
                                         ("begin", Expression<MethodOrOperator> @:10826 op:0,dt:2,nt:9,next:10827,str:6,d0:0,d1:0;
-                                            (____, Scope<Void> @:10827 op:406,dt:4,nt:8,next:10831,str:6687,d0:10828,d1:36288;
+                                            (____, BuiltinInvocation<Void> @:10827 op:406,dt:4,nt:8,next:10831,str:6687,d0:10828,d1:36288;
                                                 ("cs_shoot_point", Expression<MethodOrOperator> @:10828 op:406,dt:2,nt:9,next:10829,str:15568,d0:0,d1:0;
                                                     (True, Expression<Boolean> @:10829 op:5,dt:5,nt:9,next:10830,str:6703,d0:65281,d1:65535;
                                                         ("e21_cov_bombard/p7", Expression<SpatialPoint> @:10830 op:28,dt:28,nt:9,next:65535,str:22448,d0:5,d1:17;))))
-                                            (____, Scope<Void> @:10831 op:19,dt:4,nt:8,next:65535,str:6728,d0:10832,d1:36292;
+                                            (____, BuiltinInvocation<Void> @:10831 op:19,dt:4,nt:8,next:65535,str:6728,d0:10832,d1:36292;
                                                 ("sleep", Expression<MethodOrOperator> @:10832 op:19,dt:2,nt:9,next:10833,str:85,d0:0,d1:0;
                                                     (120, Expression<Short> @:10833 op:7,dt:7,nt:9,next:65535,str:6735,d0:120,d1:65535;)))))
-                                    (____, Scope<Void> @:10834 op:0,dt:4,nt:8,next:65535,str:6746,d0:10835,d1:36295;
+                                    (____, BuiltinInvocation<Void> @:10834 op:0,dt:4,nt:8,next:65535,str:6746,d0:10835,d1:36295;
                                         ("begin", Expression<MethodOrOperator> @:10835 op:0,dt:2,nt:9,next:10836,str:6,d0:0,d1:0;
-                                            (____, Scope<Void> @:10836 op:406,dt:4,nt:8,next:10840,str:6753,d0:10837,d1:36297;
+                                            (____, BuiltinInvocation<Void> @:10836 op:406,dt:4,nt:8,next:10840,str:6753,d0:10837,d1:36297;
                                                 ("cs_shoot_point", Expression<MethodOrOperator> @:10837 op:406,dt:2,nt:9,next:10838,str:15568,d0:0,d1:0;
                                                     (True, Expression<Boolean> @:10838 op:5,dt:5,nt:9,next:10839,str:6769,d0:65281,d1:65535;
                                                         ("e21_cov_bombard/p8", Expression<SpatialPoint> @:10839 op:28,dt:28,nt:9,next:65535,str:22467,d0:6,d1:17;))))
-                                            (____, Scope<Void> @:10840 op:19,dt:4,nt:8,next:65535,str:6794,d0:10841,d1:36301;
+                                            (____, BuiltinInvocation<Void> @:10840 op:19,dt:4,nt:8,next:65535,str:6794,d0:10841,d1:36301;
                                                 ("sleep", Expression<MethodOrOperator> @:10841 op:19,dt:2,nt:9,next:10842,str:85,d0:0,d1:0;
                                                     (120, Expression<Short> @:10842 op:7,dt:7,nt:9,next:65535,str:6801,d0:120,d1:65535;)))))))
                             (False, Expression<Boolean> @:10843 op:5,dt:5,nt:9,next:65535,str:6875,d0:65280,d1:65535;))))))))

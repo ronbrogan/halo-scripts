@@ -1,21 +1,21 @@
 
 ("cs_e2_mars_johnson0_dialogue0", MethodDecl<Void> @:368 op:0,dt:0,nt:65535,next:15174,str:25297,d0:0,d1:0;
-    (____, Scope<Void> @:15174 op:0,dt:4,nt:8,next:65535,str:55918,d0:15175,d1:40635;
+    (____, BuiltinInvocation<Void> @:15174 op:0,dt:4,nt:8,next:65535,str:55918,d0:15175,d1:40635;
         ("begin", Expression<MethodOrOperator> @:15175 op:0,dt:2,nt:9,next:15157,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:15157 op:201,dt:4,nt:8,next:15165,str:55973,d0:15158,d1:40618;
+            (____, BuiltinInvocation<Void> @:15157 op:201,dt:4,nt:8,next:15165,str:55973,d0:15158,d1:40618;
                 ("custom_animation", Expression<MethodOrOperator> @:15158 op:201,dt:2,nt:9,next:15159,str:23926,d0:0,d1:0;
-                    (____, Scope<Unit> @:15159 op:285,dt:51,nt:8,next:15162,str:55991,d0:15160,d1:40620;
+                    (____, BuiltinInvocation<Unit> @:15159 op:285,dt:51,nt:8,next:15162,str:55991,d0:15160,d1:40620;
                         ("ai_get_unit", Expression<MethodOrOperator> @:15160 op:285,dt:2,nt:9,next:15161,str:12785,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:15161 op:19,dt:19,nt:13,next:65535,str:4350,d0:33564,d1:65535;)))
                     ("objects\characters\marine\marine", Expression<Animation> @:15162 op:36,dt:36,nt:9,next:15163,str:23943,d0:904,d1:58622;
                         ("combat:rifle:hold", Expression<StringId> @:15163 op:11,dt:11,nt:9,next:15164,str:25077,d0:4276,d1:4352;
                             (True, Expression<Boolean> @:15164 op:5,dt:5,nt:9,next:65535,str:56077,d0:65281,d1:65535;)))))
-            (____, Scope<Void> @:15165 op:19,dt:4,nt:8,next:15168,str:56085,d0:15166,d1:40626;
+            (____, BuiltinInvocation<Void> @:15165 op:19,dt:4,nt:8,next:15168,str:56085,d0:15166,d1:40626;
                 ("sleep", Expression<MethodOrOperator> @:15166 op:19,dt:2,nt:9,next:15167,str:143,d0:0,d1:0;
                     (10, Expression<Short> @:15167 op:7,dt:7,nt:9,next:65535,str:56092,d0:10,d1:65535;)))
-            (____, Scope<Void> @:15168 op:19,dt:4,nt:8,next:65535,str:56098,d0:15169,d1:40629;
+            (____, BuiltinInvocation<Void> @:15168 op:19,dt:4,nt:8,next:65535,str:56098,d0:15169,d1:40629;
                 ("sleep", Expression<MethodOrOperator> @:15169 op:19,dt:2,nt:9,next:15170,str:143,d0:0,d1:0;
-                    (____, Scope<Short> @:15170 op:360,dt:7,nt:8,next:65535,str:56105,d0:15171,d1:40631;
+                    (____, BuiltinInvocation<Short> @:15170 op:360,dt:7,nt:8,next:65535,str:56105,d0:15171,d1:40631;
                         ("ai_play_line", Expression<MethodOrOperator> @:15171 op:360,dt:2,nt:9,next:15172,str:23459,d0:0,d1:0;
                             ("e2_mars_johnson", Expression<AI> @:15172 op:19,dt:19,nt:9,next:15173,str:24382,d0:29,d1:0;
                                 ("0930", Expression<StringId> @:15173 op:11,dt:11,nt:9,next:65535,str:25095,d0:13073,d1:1024;)))))))))

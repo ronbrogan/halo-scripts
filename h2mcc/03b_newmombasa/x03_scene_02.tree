@@ -1,13 +1,13 @@
 
 ("x03_scene_02", MethodDecl<Void> @:116 op:0,dt:0,nt:65535,next:3965,str:12894,d0:0,d1:0;
-    (____, Scope<Void> @:3965 op:0,dt:4,nt:8,next:65535,str:46159,d0:3966,d1:62193;
+    (____, BuiltinInvocation<Void> @:3965 op:0,dt:4,nt:8,next:65535,str:46159,d0:3966,d1:62193;
         ("begin", Expression<MethodOrOperator> @:3966 op:0,dt:2,nt:9,next:3851,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:3851 op:712,dt:4,nt:8,next:3853,str:46197,d0:3852,d1:62079;
+            (____, BuiltinInvocation<Void> @:3851 op:712,dt:4,nt:8,next:3853,str:46197,d0:3852,d1:62079;
                 ("cinematic_screen_effect_stop", Expression<MethodOrOperator> @:3852 op:712,dt:2,nt:9,next:65535,str:9093,d0:0,d1:0;))
-            (____, Scope<Void> @:3853 op:27,dt:4,nt:8,next:3856,str:46230,d0:3854,d1:62081;
+            (____, BuiltinInvocation<Void> @:3853 op:27,dt:4,nt:8,next:3856,str:46230,d0:3854,d1:62081;
                 ("print", Expression<MethodOrOperator> @:3854 op:27,dt:2,nt:9,next:3855,str:91,d0:0,d1:0;
                     ("rack focus stop", Expression<String> @:3855 op:9,dt:9,nt:9,next:65535,str:9122,d0:9122,d1:0;)))
-            (____, Scope<Void> @:3856 op:459,dt:4,nt:8,next:3860,str:46261,d0:3857,d1:62084;
+            (____, BuiltinInvocation<Void> @:3856 op:459,dt:4,nt:8,next:3860,str:46261,d0:3857,d1:62084;
                 ("camera_set_field_of_view", Expression<MethodOrOperator> @:3857 op:459,dt:2,nt:9,next:3858,str:1949,d0:0,d1:0;
                     (60f, Expression<Float> @:3858 op:6,dt:6,nt:9,next:3859,str:46287,d0:0,d1:17008;
                         (0, Expression<Short> @:3859 op:7,dt:7,nt:9,next:65535,str:46290,d0:0,d1:65535;))))
@@ -15,104 +15,104 @@
                 ("x03_02_predict_stub", Expression<MethodOrOperator> @:3861 op:30,dt:2,nt:9,next:65535,str:9138,d0:0,d1:0;))
             ("x03_02_setup", ScriptInvocation<Void> @:3862 op:115,dt:4,nt:10,next:3864,str:46396,d0:3863,d1:62090;
                 ("x03_02_setup", Expression<MethodOrOperator> @:3863 op:115,dt:2,nt:9,next:65535,str:9158,d0:0,d1:0;))
-            (____, Scope<Void> @:3864 op:454,dt:4,nt:8,next:3870,str:46416,d0:3865,d1:62092;
+            (____, BuiltinInvocation<Void> @:3864 op:454,dt:4,nt:8,next:3870,str:46416,d0:3865,d1:62092;
                 ("camera_set_animation_relative", Expression<MethodOrOperator> @:3865 op:454,dt:2,nt:9,next:3866,str:2866,d0:0,d1:0;
                     ("objects\characters\cinematic_camera\x03\x03", Expression<Animation> @:3866 op:36,dt:36,nt:9,next:3867,str:8011,d0:684,d1:58402;
                         ("x03_02", Expression<StringId> @:3867 op:11,dt:11,nt:9,next:3868,str:9171,d0:3975,d1:1536;
                             ("none", Expression<Unit> @:3868 op:51,dt:51,nt:9,next:3869,str:1,d0:65535,d1:65535;
                                 ("anchor_flag_x03_02", Expression<LocationFlag> @:3869 op:14,dt:14,nt:9,next:65535,str:9178,d0:24,d1:0;))))))
-            (____, Scope<Void> @:3870 op:203,dt:4,nt:8,next:3877,str:46532,d0:3871,d1:62098;
+            (____, BuiltinInvocation<Void> @:3870 op:203,dt:4,nt:8,next:3877,str:46532,d0:3871,d1:62098;
                 ("custom_animation_relative", Expression<MethodOrOperator> @:3871 op:203,dt:2,nt:9,next:3872,str:2984,d0:0,d1:0;
                     ("miranda", Expression<Unit> @:3872 op:57,dt:51,nt:9,next:3873,str:8483,d0:87,d1:65535;
                         ("objects\characters\miranda\x03\x03", Expression<Animation> @:3873 op:36,dt:36,nt:9,next:3874,str:9197,d0:696,d1:58414;
                             ("miranda_02", Expression<StringId> @:3874 op:11,dt:11,nt:9,next:3875,str:9232,d0:4013,d1:2560;
                                 (False, Expression<Boolean> @:3875 op:5,dt:5,nt:9,next:3876,str:46615,d0:65280,d1:65535;
                                     (4294901839, Expression<Entity> @:3876 op:56,dt:50,nt:9,next:65535,str:8852,d0:79,d1:65535;)))))))
-            (____, Scope<Void> @:3877 op:203,dt:4,nt:8,next:3884,str:46638,d0:3878,d1:62105;
+            (____, BuiltinInvocation<Void> @:3877 op:203,dt:4,nt:8,next:3884,str:46638,d0:3878,d1:62105;
                 ("custom_animation_relative", Expression<MethodOrOperator> @:3878 op:203,dt:2,nt:9,next:3879,str:2984,d0:0,d1:0;
                     ("johnson_03", Expression<Unit> @:3879 op:57,dt:51,nt:9,next:3880,str:6479,d0:88,d1:65535;
                         ("objects\characters\marine\x03\x03", Expression<Animation> @:3880 op:36,dt:36,nt:9,next:3881,str:8147,d0:686,d1:58404;
                             ("johnson_02", Expression<StringId> @:3881 op:11,dt:11,nt:9,next:3882,str:7730,d0:3982,d1:2560;
                                 (False, Expression<Boolean> @:3882 op:5,dt:5,nt:9,next:3883,str:46723,d0:65280,d1:65535;
                                     (4294901839, Expression<Entity> @:3883 op:56,dt:50,nt:9,next:65535,str:8852,d0:79,d1:65535;)))))))
-            (____, Scope<Void> @:3884 op:203,dt:4,nt:8,next:3891,str:46746,d0:3885,d1:62112;
+            (____, BuiltinInvocation<Void> @:3884 op:203,dt:4,nt:8,next:3891,str:46746,d0:3885,d1:62112;
                 ("custom_animation_relative", Expression<MethodOrOperator> @:3885 op:203,dt:2,nt:9,next:3886,str:2984,d0:0,d1:0;
                     ("pilot_02", Expression<Unit> @:3886 op:57,dt:51,nt:9,next:3887,str:8877,d0:89,d1:65535;
                         ("objects\characters\marine\x03\x03", Expression<Animation> @:3887 op:36,dt:36,nt:9,next:3888,str:8147,d0:686,d1:58404;
                             ("pilot_02", Expression<StringId> @:3888 op:11,dt:11,nt:9,next:3889,str:8877,d0:3986,d1:2048;
                                 (False, Expression<Boolean> @:3889 op:5,dt:5,nt:9,next:3890,str:46827,d0:65280,d1:65535;
                                     (4294901839, Expression<Entity> @:3890 op:56,dt:50,nt:9,next:65535,str:8852,d0:79,d1:65535;)))))))
-            (____, Scope<Void> @:3891 op:203,dt:4,nt:8,next:3898,str:46850,d0:3892,d1:62119;
+            (____, BuiltinInvocation<Void> @:3891 op:203,dt:4,nt:8,next:3898,str:46850,d0:3892,d1:62119;
                 ("custom_animation_relative", Expression<MethodOrOperator> @:3892 op:203,dt:2,nt:9,next:3893,str:2984,d0:0,d1:0;
                     ("hood", Expression<Unit> @:3893 op:57,dt:51,nt:9,next:3894,str:8629,d0:86,d1:65535;
                         ("objects\characters\lord_hood\x03\x03", Expression<Animation> @:3894 op:36,dt:36,nt:9,next:3895,str:9243,d0:765,d1:58483;
                             ("hood_02", Expression<StringId> @:3895 op:11,dt:11,nt:9,next:3896,str:9280,d0:4927,d1:1792;
                                 (False, Expression<Boolean> @:3896 op:5,dt:5,nt:9,next:3897,str:46929,d0:65280,d1:65535;
                                     (4294901839, Expression<Entity> @:3897 op:56,dt:50,nt:9,next:65535,str:8852,d0:79,d1:65535;)))))))
-            (____, Scope<Void> @:3898 op:203,dt:4,nt:8,next:3905,str:46952,d0:3899,d1:62126;
+            (____, BuiltinInvocation<Void> @:3898 op:203,dt:4,nt:8,next:3905,str:46952,d0:3899,d1:62126;
                 ("custom_animation_relative", Expression<MethodOrOperator> @:3899 op:203,dt:2,nt:9,next:3900,str:2984,d0:0,d1:0;
                     ("pelican_02", Expression<Unit> @:3900 op:57,dt:51,nt:9,next:3901,str:8958,d0:96,d1:65535;
                         ("objects\vehicles\pelican\x03\x03", Expression<Animation> @:3901 op:36,dt:36,nt:9,next:3902,str:8190,d0:687,d1:58405;
                             ("pelican_02", Expression<StringId> @:3902 op:11,dt:11,nt:9,next:3903,str:8958,d0:3987,d1:2560;
                                 (False, Expression<Boolean> @:3903 op:5,dt:5,nt:9,next:3904,str:47036,d0:65280,d1:65535;
                                     (4294901839, Expression<Entity> @:3904 op:56,dt:50,nt:9,next:65535,str:8852,d0:79,d1:65535;)))))))
-            (____, Scope<Void> @:3905 op:186,dt:4,nt:8,next:3911,str:47061,d0:3906,d1:62133;
+            (____, BuiltinInvocation<Void> @:3905 op:186,dt:4,nt:8,next:3911,str:47061,d0:3906,d1:62133;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:3906 op:186,dt:2,nt:9,next:3907,str:3221,d0:0,d1:0;
                     ("iac_bridge", Expression<Scenery> @:3907 op:61,dt:55,nt:9,next:3908,str:8866,d0:37,d1:65535;
                         ("objects\cinematics\human\inamberclad_bridge\x03\x03", Expression<Animation> @:3908 op:36,dt:36,nt:9,next:3909,str:9288,d0:767,d1:58485;
                             ("iacbridge_02", Expression<StringId> @:3909 op:11,dt:11,nt:9,next:3910,str:9340,d0:4930,d1:3072;
                                 (4294901839, Expression<Entity> @:3910 op:56,dt:50,nt:9,next:65535,str:8852,d0:79,d1:65535;))))))
-            (____, Scope<Void> @:3911 op:19,dt:4,nt:8,next:3914,str:47211,d0:3912,d1:62139;
+            (____, BuiltinInvocation<Void> @:3911 op:19,dt:4,nt:8,next:3914,str:47211,d0:3912,d1:62139;
                 ("sleep", Expression<MethodOrOperator> @:3912 op:19,dt:2,nt:9,next:3913,str:85,d0:0,d1:0;
                     (20, Expression<Short> @:3913 op:7,dt:7,nt:9,next:65535,str:47218,d0:20,d1:65535;)))
-            (____, Scope<Void> @:3914 op:551,dt:4,nt:8,next:3920,str:47226,d0:3915,d1:62142;
+            (____, BuiltinInvocation<Void> @:3914 op:551,dt:4,nt:8,next:3920,str:47226,d0:3915,d1:62142;
                 ("fade_in", Expression<MethodOrOperator> @:3915 op:551,dt:2,nt:9,next:3916,str:552,d0:0,d1:0;
                     (1f, Expression<Float> @:3916 op:6,dt:6,nt:9,next:3917,str:47235,d0:0,d1:16256;
                         (1f, Expression<Float> @:3917 op:6,dt:6,nt:9,next:3918,str:47237,d0:0,d1:16256;
                             (1f, Expression<Float> @:3918 op:6,dt:6,nt:9,next:3919,str:47239,d0:0,d1:16256;
                                 (15, Expression<Short> @:3919 op:7,dt:7,nt:9,next:65535,str:47241,d0:15,d1:65535;))))))
-            (____, Scope<Void> @:3920 op:19,dt:4,nt:8,next:3927,str:47321,d0:3921,d1:62148;
+            (____, BuiltinInvocation<Void> @:3920 op:19,dt:4,nt:8,next:3927,str:47321,d0:3921,d1:62148;
                 ("sleep", Expression<MethodOrOperator> @:3921 op:19,dt:2,nt:9,next:3922,str:85,d0:0,d1:0;
-                    (____, Scope<Short> @:3922 op:8,dt:7,nt:8,next:65535,str:47328,d0:3923,d1:62150;
+                    (____, BuiltinInvocation<Short> @:3922 op:8,dt:7,nt:8,next:65535,str:47328,d0:3923,d1:62150;
                         ("-", Expression<MethodOrOperator> @:3923 op:8,dt:2,nt:9,next:3924,str:3317,d0:0,d1:0;
-                            (-7.925189E+30f, Scope<Float> @:3924 op:458,dt:6,nt:8,next:3926,str:47331,d0:3925,d1:62152;
+                            (-7.925189E+30f, BuiltinInvocation<Float> @:3924 op:458,dt:6,nt:8,next:3926,str:47331,d0:3925,d1:62152;
                                 ("camera_time", Expression<MethodOrOperator> @:3925 op:458,dt:2,nt:9,next:65535,str:3319,d0:0,d1:0;))
                             ("prediction_offset", VariableAccess<Float> @:3926 op:6,dt:6,nt:13,next:65535,str:2828,d0:2,d1:0;)))))
             ("x03_03_predict_stub", ScriptInvocation<Void> @:3927 op:31,dt:4,nt:10,next:3929,str:47367,d0:3928,d1:62155;
                 ("x03_03_predict_stub", Expression<MethodOrOperator> @:3928 op:31,dt:2,nt:9,next:65535,str:9353,d0:0,d1:0;))
-            (____, Scope<Void> @:3929 op:19,dt:4,nt:8,next:3936,str:47394,d0:3930,d1:62157;
+            (____, BuiltinInvocation<Void> @:3929 op:19,dt:4,nt:8,next:3936,str:47394,d0:3930,d1:62157;
                 ("sleep", Expression<MethodOrOperator> @:3930 op:19,dt:2,nt:9,next:3931,str:85,d0:0,d1:0;
-                    (____, Scope<Short> @:3931 op:8,dt:7,nt:8,next:65535,str:47401,d0:3932,d1:62159;
+                    (____, BuiltinInvocation<Short> @:3931 op:8,dt:7,nt:8,next:65535,str:47401,d0:3932,d1:62159;
                         ("-", Expression<MethodOrOperator> @:3932 op:8,dt:2,nt:9,next:3933,str:3317,d0:0,d1:0;
-                            (-8.281721E+30f, Scope<Float> @:3933 op:458,dt:6,nt:8,next:3935,str:47404,d0:3934,d1:62161;
+                            (-8.281721E+30f, BuiltinInvocation<Float> @:3933 op:458,dt:6,nt:8,next:3935,str:47404,d0:3934,d1:62161;
                                 ("camera_time", Expression<MethodOrOperator> @:3934 op:458,dt:2,nt:9,next:65535,str:3319,d0:0,d1:0;))
                             ("sound_offset", VariableAccess<Float> @:3935 op:6,dt:6,nt:13,next:65535,str:3358,d0:1,d1:0;)))))
-            (____, Scope<Void> @:3936 op:594,dt:4,nt:8,next:3939,str:47435,d0:3937,d1:62164;
+            (____, BuiltinInvocation<Void> @:3936 op:594,dt:4,nt:8,next:3939,str:47435,d0:3937,d1:62164;
                 ("sound_impulse_predict", Expression<MethodOrOperator> @:3937 op:594,dt:2,nt:9,next:3938,str:2780,d0:0,d1:0;
                     ("sound\cinematics\03_earthcity\x03\music\x03_03_mus", Expression<Sound> @:3938 op:32,dt:32,nt:9,next:65535,str:9373,d0:768,d1:58486;)))
-            (____, Scope<Void> @:3939 op:594,dt:4,nt:8,next:3942,str:47512,d0:3940,d1:62167;
+            (____, BuiltinInvocation<Void> @:3939 op:594,dt:4,nt:8,next:3942,str:47512,d0:3940,d1:62167;
                 ("sound_impulse_predict", Expression<MethodOrOperator> @:3940 op:594,dt:2,nt:9,next:3941,str:2780,d0:0,d1:0;
                     ("sound\cinematics\03_earthcity\x03\foley\x03_03_fol", Expression<Sound> @:3941 op:32,dt:32,nt:9,next:65535,str:9424,d0:769,d1:58487;)))
-            (____, Scope<Void> @:3942 op:19,dt:4,nt:8,next:3949,str:47592,d0:3943,d1:62170;
+            (____, BuiltinInvocation<Void> @:3942 op:19,dt:4,nt:8,next:3949,str:47592,d0:3943,d1:62170;
                 ("sleep", Expression<MethodOrOperator> @:3943 op:19,dt:2,nt:9,next:3944,str:85,d0:0,d1:0;
-                    (____, Scope<Short> @:3944 op:8,dt:7,nt:8,next:65535,str:47599,d0:3945,d1:62172;
+                    (____, BuiltinInvocation<Short> @:3944 op:8,dt:7,nt:8,next:65535,str:47599,d0:3945,d1:62172;
                         ("-", Expression<MethodOrOperator> @:3945 op:8,dt:2,nt:9,next:3946,str:3317,d0:0,d1:0;
-                            (-8.796712E+30f, Scope<Float> @:3946 op:458,dt:6,nt:8,next:3948,str:47602,d0:3947,d1:62174;
+                            (-8.796712E+30f, BuiltinInvocation<Float> @:3946 op:458,dt:6,nt:8,next:3948,str:47602,d0:3947,d1:62174;
                                 ("camera_time", Expression<MethodOrOperator> @:3947 op:458,dt:2,nt:9,next:65535,str:3319,d0:0,d1:0;))
                             (15f, Expression<Float> @:3948 op:6,dt:6,nt:9,next:65535,str:47616,d0:0,d1:16752;)))))
             ("x03_03_problem_actors", ScriptInvocation<Void> @:3949 op:112,dt:4,nt:10,next:3951,str:47623,d0:3950,d1:62177;
                 ("x03_03_problem_actors", Expression<MethodOrOperator> @:3950 op:112,dt:2,nt:9,next:65535,str:9475,d0:0,d1:0;))
-            (____, Scope<Void> @:3951 op:19,dt:4,nt:8,next:3955,str:47652,d0:3952,d1:62179;
+            (____, BuiltinInvocation<Void> @:3951 op:19,dt:4,nt:8,next:3955,str:47652,d0:3952,d1:62179;
                 ("sleep", Expression<MethodOrOperator> @:3952 op:19,dt:2,nt:9,next:3953,str:85,d0:0,d1:0;
-                    (____, Scope<Short> @:3953 op:458,dt:7,nt:8,next:65535,str:47659,d0:3954,d1:62181;
+                    (____, BuiltinInvocation<Short> @:3953 op:458,dt:7,nt:8,next:65535,str:47659,d0:3954,d1:62181;
                         ("camera_time", Expression<MethodOrOperator> @:3954 op:458,dt:2,nt:9,next:65535,str:3319,d0:0,d1:0;))))
-            (____, Scope<Void> @:3955 op:27,dt:4,nt:8,next:3958,str:47703,d0:3956,d1:62183;
+            (____, BuiltinInvocation<Void> @:3955 op:27,dt:4,nt:8,next:3958,str:47703,d0:3956,d1:62183;
                 ("print", Expression<MethodOrOperator> @:3956 op:27,dt:2,nt:9,next:3957,str:91,d0:0,d1:0;
                     ("texture camera stop", Expression<String> @:3957 op:9,dt:9,nt:9,next:65535,str:9497,d0:9497,d1:0;)))
-            (____, Scope<Void> @:3958 op:57,dt:4,nt:8,next:3962,str:47738,d0:3959,d1:62186;
+            (____, BuiltinInvocation<Void> @:3958 op:57,dt:4,nt:8,next:3962,str:47738,d0:3959,d1:62186;
                 ("object_hide", Expression<MethodOrOperator> @:3959 op:57,dt:2,nt:9,next:3960,str:595,d0:0,d1:0;
                     (4294901846, Expression<Entity> @:3960 op:56,dt:50,nt:9,next:3961,str:8629,d0:86,d1:65535;
                         (True, Expression<Boolean> @:3961 op:5,dt:5,nt:9,next:65535,str:47756,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:3962 op:27,dt:4,nt:8,next:65535,str:47764,d0:3963,d1:62190;
+            (____, BuiltinInvocation<Void> @:3962 op:27,dt:4,nt:8,next:65535,str:47764,d0:3963,d1:62190;
                 ("print", Expression<MethodOrOperator> @:3963 op:27,dt:2,nt:9,next:3964,str:91,d0:0,d1:0;
                     ("hide hood", Expression<String> @:3964 op:9,dt:9,nt:9,next:65535,str:9517,d0:9517,d1:0;))))))

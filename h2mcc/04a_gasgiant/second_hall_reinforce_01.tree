@@ -1,28 +1,28 @@
 
 ("second_hall_reinforce_01", MethodDecl<Void> @:323 op:0,dt:0,nt:65535,next:15190,str:27869,d0:0,d1:0;
-    (____, Scope<Void> @:15190 op:0,dt:4,nt:8,next:65535,str:40655,d0:15191,d1:40651;
+    (____, BuiltinInvocation<Void> @:15190 op:0,dt:4,nt:8,next:65535,str:40655,d0:15191,d1:40651;
         ("begin", Expression<MethodOrOperator> @:15191 op:0,dt:2,nt:9,next:15166,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:15166 op:21,dt:4,nt:8,next:15182,str:40698,d0:15167,d1:40627;
+            (____, BuiltinInvocation<Void> @:15166 op:21,dt:4,nt:8,next:15182,str:40698,d0:15167,d1:40627;
                 ("sleep_until", Expression<MethodOrOperator> @:15167 op:21,dt:2,nt:9,next:15168,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:15168 op:6,dt:5,nt:8,next:65535,str:40715,d0:15169,d1:40629;
+                    (____, BuiltinInvocation<Boolean> @:15168 op:6,dt:5,nt:8,next:65535,str:40715,d0:15169,d1:40629;
                         ("or", Expression<MethodOrOperator> @:15169 op:6,dt:2,nt:9,next:15170,str:849,d0:0,d1:0;
-                            (____, Scope<Boolean> @:15170 op:15,dt:5,nt:8,next:15176,str:40724,d0:15171,d1:40631;
+                            (____, BuiltinInvocation<Boolean> @:15170 op:15,dt:5,nt:8,next:15176,str:40724,d0:15171,d1:40631;
                                 (">", Expression<MethodOrOperator> @:15171 op:15,dt:2,nt:9,next:15172,str:14927,d0:0,d1:0;
-                                    (____, Scope<Short> @:15172 op:353,dt:7,nt:8,next:15175,str:40727,d0:15173,d1:40633;
+                                    (____, BuiltinInvocation<Short> @:15172 op:353,dt:7,nt:8,next:15175,str:40727,d0:15173,d1:40633;
                                         ("ai_combat_status", Expression<MethodOrOperator> @:15173 op:353,dt:2,nt:9,next:15174,str:14929,d0:0,d1:0;
                                             ("second_hall_grunts_01", Expression<AI> @:15174 op:19,dt:19,nt:9,next:65535,str:27557,d0:79,d1:0;)))
                                     ("ai_combat_status_idle", VariableAccess<Short> @:15175 op:7,dt:7,nt:13,next:65535,str:20847,d0:33572,d1:65535;)))
-                            (____, Scope<Boolean> @:15176 op:15,dt:5,nt:8,next:65535,str:40795,d0:15177,d1:40637;
+                            (____, BuiltinInvocation<Boolean> @:15176 op:15,dt:5,nt:8,next:65535,str:40795,d0:15177,d1:40637;
                                 (">", Expression<MethodOrOperator> @:15177 op:15,dt:2,nt:9,next:15178,str:14927,d0:0,d1:0;
-                                    (____, Scope<Short> @:15178 op:353,dt:7,nt:8,next:15181,str:40798,d0:15179,d1:40639;
+                                    (____, BuiltinInvocation<Short> @:15178 op:353,dt:7,nt:8,next:15181,str:40798,d0:15179,d1:40639;
                                         ("ai_combat_status", Expression<MethodOrOperator> @:15179 op:353,dt:2,nt:9,next:15180,str:14929,d0:0,d1:0;
                                             ("second_hall_heretic_01", Expression<AI> @:15180 op:19,dt:19,nt:9,next:65535,str:27579,d0:78,d1:0;)))
                                     ("ai_combat_status_idle", VariableAccess<Short> @:15181 op:7,dt:7,nt:13,next:65535,str:20847,d0:33572,d1:65535;)))))))
-            (____, Scope<Void> @:15182 op:291,dt:4,nt:8,next:15186,str:40874,d0:15183,d1:40643;
+            (____, BuiltinInvocation<Void> @:15182 op:291,dt:4,nt:8,next:15186,str:40874,d0:15183,d1:40643;
                 ("ai_place", Expression<MethodOrOperator> @:15183 op:291,dt:2,nt:9,next:15184,str:17225,d0:0,d1:0;
                     ("second_hall_heretic_02", Expression<AI> @:15184 op:19,dt:19,nt:9,next:15185,str:27602,d0:80,d1:0;
                         (1, Expression<Short> @:15185 op:7,dt:7,nt:9,next:65535,str:40907,d0:1,d1:65535;))))
-            (____, Scope<Void> @:15186 op:366,dt:4,nt:8,next:65535,str:40912,d0:15187,d1:40647;
+            (____, BuiltinInvocation<Void> @:15186 op:366,dt:4,nt:8,next:65535,str:40912,d0:15187,d1:40647;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:15187 op:366,dt:2,nt:9,next:15188,str:18315,d0:0,d1:0;
                     ("second_hall_heretic_02", Expression<AI> @:15188 op:19,dt:19,nt:9,next:15189,str:27602,d0:80,d1:0;
                         ("snap_alert", Expression<AIScript> @:15189 op:21,dt:21,nt:9,next:65535,str:21530,d0:216,d1:0;)))))))

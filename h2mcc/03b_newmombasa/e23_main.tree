@@ -1,58 +1,58 @@
 
 ("e23_main", MethodDecl<Void> @:270 op:0,dt:0,nt:65535,next:8898,str:18450,d0:0,d1:0;
-    (____, Scope<Void> @:8898 op:0,dt:4,nt:8,next:65535,str:45473,d0:8899,d1:34359;
+    (____, BuiltinInvocation<Void> @:8898 op:0,dt:4,nt:8,next:65535,str:45473,d0:8899,d1:34359;
         ("begin", Expression<MethodOrOperator> @:8899 op:0,dt:2,nt:9,next:8844,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:8844 op:21,dt:4,nt:8,next:8852,str:45500,d0:8845,d1:34305;
+            (____, BuiltinInvocation<Void> @:8844 op:21,dt:4,nt:8,next:8852,str:45500,d0:8845,d1:34305;
                 ("sleep_until", Expression<MethodOrOperator> @:8845 op:21,dt:2,nt:9,next:8846,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:8846 op:33,dt:5,nt:8,next:8851,str:45513,d0:8847,d1:34307;
+                    (____, BuiltinInvocation<Boolean> @:8846 op:33,dt:5,nt:8,next:8851,str:45513,d0:8847,d1:34307;
                         ("volume_test_objects", Expression<MethodOrOperator> @:8847 op:33,dt:2,nt:9,next:8848,str:13230,d0:0,d1:0;
                             ("tv_e23_main_begin", Expression<Trigger> @:8848 op:13,dt:13,nt:9,next:8849,str:18432,d0:61,d1:0;
-                                (____, Scope<List> @:8849 op:28,dt:31,nt:8,next:65535,str:45552,d0:8850,d1:34310;
+                                (____, BuiltinInvocation<List> @:8849 op:28,dt:31,nt:8,next:65535,str:45552,d0:8850,d1:34310;
                                     ("players", Expression<MethodOrOperator> @:8850 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))
                     (15, Expression<Short> @:8851 op:7,dt:7,nt:9,next:65535,str:45563,d0:15,d1:65535;)))
-            (____, Scope<Void> @:8852 op:4,dt:4,nt:8,next:8856,str:45569,d0:8853,d1:34313;
+            (____, BuiltinInvocation<Void> @:8852 op:4,dt:4,nt:8,next:8856,str:45569,d0:8853,d1:34313;
                 ("set", Expression<MethodOrOperator> @:8853 op:4,dt:2,nt:9,next:8854,str:2724,d0:0,d1:0;
                     ("g_e23_started", VariableAccess<Boolean> @:8854 op:65535,dt:5,nt:13,next:8855,str:16773,d0:20,d1:0;
                         (True, Expression<Boolean> @:8855 op:5,dt:5,nt:9,next:65535,str:45588,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:8856 op:27,dt:4,nt:8,next:8859,str:45596,d0:8857,d1:34317;
+            (____, BuiltinInvocation<Void> @:8856 op:27,dt:4,nt:8,next:8859,str:45596,d0:8857,d1:34317;
                 ("print", Expression<MethodOrOperator> @:8857 op:27,dt:2,nt:9,next:8858,str:91,d0:0,d1:0;
                     ("e23_main", Expression<String> @:8858 op:9,dt:9,nt:9,next:65535,str:18450,d0:18450,d1:0;)))
-            (____, Scope<Void> @:8859 op:786,dt:4,nt:8,next:8862,str:45617,d0:8860,d1:34320;
+            (____, BuiltinInvocation<Void> @:8859 op:786,dt:4,nt:8,next:8862,str:45617,d0:8860,d1:34320;
                 ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:8860 op:786,dt:2,nt:9,next:8861,str:18459,d0:0,d1:0;
                     ("e23_scarab_boarding", Expression<String> @:8861 op:9,dt:9,nt:9,next:65535,str:18489,d0:18489,d1:0;)))
-            (____, Scope<Void> @:8862 op:587,dt:4,nt:8,next:8864,str:45673,d0:8863,d1:34323;
+            (____, BuiltinInvocation<Void> @:8862 op:587,dt:4,nt:8,next:8864,str:45673,d0:8863,d1:34323;
                 ("game_save", Expression<MethodOrOperator> @:8863 op:587,dt:2,nt:9,next:65535,str:16922,d0:0,d1:0;))
-            (____, Scope<Void> @:8864 op:2,dt:4,nt:8,next:8871,str:45744,d0:8865,d1:34325;
+            (____, BuiltinInvocation<Void> @:8864 op:2,dt:4,nt:8,next:8871,str:45744,d0:8865,d1:34325;
                 ("if", Expression<MethodOrOperator> @:8865 op:2,dt:2,nt:9,next:8866,str:461,d0:0,d1:0;
                     ("difficulty_legendary", ScriptInvocation<Boolean> @:8866 op:4,dt:5,nt:10,next:8868,str:45748,d0:8867,d1:34327;
                         ("difficulty_legendary", Expression<MethodOrOperator> @:8867 op:4,dt:2,nt:9,next:65535,str:12985,d0:0,d1:0;))
-                    (____, Scope<Void> @:8868 op:52,dt:4,nt:8,next:65535,str:45771,d0:8869,d1:34329;
+                    (____, BuiltinInvocation<Void> @:8868 op:52,dt:4,nt:8,next:65535,str:45771,d0:8869,d1:34329;
                         ("object_destroy", Expression<MethodOrOperator> @:8869 op:52,dt:2,nt:9,next:8870,str:2030,d0:0,d1:0;
                             (4294901857, Expression<Entity> @:8870 op:56,dt:50,nt:9,next:65535,str:18509,d0:97,d1:65535;)))))
-            (____, Scope<Void> @:8871 op:22,dt:4,nt:8,next:8874,str:45812,d0:8872,d1:34332;
+            (____, BuiltinInvocation<Void> @:8871 op:22,dt:4,nt:8,next:8874,str:45812,d0:8872,d1:34332;
                 ("wake", Expression<MethodOrOperator> @:8872 op:22,dt:2,nt:9,next:8873,str:1071,d0:0,d1:0;
                     ("music_03b_04_start", Expression<ScriptReference> @:8873 op:10,dt:10,nt:9,next:65535,str:18517,d0:195,d1:65535;)))
-            (____, Scope<Void> @:8874 op:22,dt:4,nt:8,next:8877,str:45840,d0:8875,d1:34335;
+            (____, BuiltinInvocation<Void> @:8874 op:22,dt:4,nt:8,next:8877,str:45840,d0:8875,d1:34335;
                 ("wake", Expression<MethodOrOperator> @:8875 op:22,dt:2,nt:9,next:8876,str:1071,d0:0,d1:0;
                     ("music_03b_04_start_alt", Expression<ScriptReference> @:8876 op:10,dt:10,nt:9,next:65535,str:18536,d0:194,d1:65535;)))
-            (____, Scope<Void> @:8877 op:29,dt:4,nt:8,next:8880,str:45892,d0:8878,d1:34338;
+            (____, BuiltinInvocation<Void> @:8877 op:29,dt:4,nt:8,next:8880,str:45892,d0:8878,d1:34338;
                 ("kill_volume_enable", Expression<MethodOrOperator> @:8878 op:29,dt:2,nt:9,next:8879,str:18559,d0:0,d1:0;
                     ("kill_e23_0", Expression<Trigger> @:8879 op:13,dt:13,nt:9,next:65535,str:18578,d0:91,d1:0;)))
-            (____, Scope<Void> @:8880 op:29,dt:4,nt:8,next:8883,str:45926,d0:8881,d1:34341;
+            (____, BuiltinInvocation<Void> @:8880 op:29,dt:4,nt:8,next:8883,str:45926,d0:8881,d1:34341;
                 ("kill_volume_enable", Expression<MethodOrOperator> @:8881 op:29,dt:2,nt:9,next:8882,str:18559,d0:0,d1:0;
                     ("kill_e23_1", Expression<Trigger> @:8882 op:13,dt:13,nt:9,next:65535,str:18589,d0:92,d1:0;)))
-            (____, Scope<Void> @:8883 op:29,dt:4,nt:8,next:8886,str:45960,d0:8884,d1:34344;
+            (____, BuiltinInvocation<Void> @:8883 op:29,dt:4,nt:8,next:8886,str:45960,d0:8884,d1:34344;
                 ("kill_volume_enable", Expression<MethodOrOperator> @:8884 op:29,dt:2,nt:9,next:8885,str:18559,d0:0,d1:0;
                     ("kill_e23_2", Expression<Trigger> @:8885 op:13,dt:13,nt:9,next:65535,str:18600,d0:93,d1:0;)))
-            (____, Scope<Void> @:8886 op:22,dt:4,nt:8,next:8889,str:46050,d0:8887,d1:34347;
+            (____, BuiltinInvocation<Void> @:8886 op:22,dt:4,nt:8,next:8889,str:46050,d0:8887,d1:34347;
                 ("wake", Expression<MethodOrOperator> @:8887 op:22,dt:2,nt:9,next:8888,str:1071,d0:0,d1:0;
                     ("e23_mars_inf1_main", Expression<ScriptReference> @:8888 op:10,dt:10,nt:9,next:65535,str:18611,d0:268,d1:65535;)))
-            (____, Scope<Void> @:8889 op:22,dt:4,nt:8,next:8892,str:46144,d0:8890,d1:34350;
+            (____, BuiltinInvocation<Void> @:8889 op:22,dt:4,nt:8,next:8892,str:46144,d0:8890,d1:34350;
                 ("wake", Expression<MethodOrOperator> @:8890 op:22,dt:2,nt:9,next:8891,str:1071,d0:0,d1:0;
                     ("e23_mars_pelican2_main", Expression<ScriptReference> @:8891 op:10,dt:10,nt:9,next:65535,str:18630,d0:265,d1:65535;)))
-            (____, Scope<Void> @:8892 op:22,dt:4,nt:8,next:8895,str:46176,d0:8893,d1:34353;
+            (____, BuiltinInvocation<Void> @:8892 op:22,dt:4,nt:8,next:8895,str:46176,d0:8893,d1:34353;
                 ("wake", Expression<MethodOrOperator> @:8893 op:22,dt:2,nt:9,next:8894,str:1071,d0:0,d1:0;
                     ("e23_cov_inf0_main", Expression<ScriptReference> @:8894 op:10,dt:10,nt:9,next:65535,str:18653,d0:264,d1:65535;)))
-            (____, Scope<Void> @:8895 op:22,dt:4,nt:8,next:65535,str:46203,d0:8896,d1:34356;
+            (____, BuiltinInvocation<Void> @:8895 op:22,dt:4,nt:8,next:65535,str:46203,d0:8896,d1:34356;
                 ("wake", Expression<MethodOrOperator> @:8896 op:22,dt:2,nt:9,next:8897,str:1071,d0:0,d1:0;
                     ("e23_cov_inf1_main", Expression<ScriptReference> @:8897 op:10,dt:10,nt:9,next:65535,str:18671,d0:263,d1:65535;))))))

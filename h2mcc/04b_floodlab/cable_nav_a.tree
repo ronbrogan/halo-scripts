@@ -1,22 +1,22 @@
 
 ("cable_nav_a", MethodDecl<Void> @:263 op:0,dt:0,nt:65535,next:13141,str:25089,d0:0,d1:0;
-    (____, Scope<Void> @:13141 op:0,dt:4,nt:8,next:65535,str:8187,d0:13142,d1:38602;
+    (____, BuiltinInvocation<Void> @:13141 op:0,dt:4,nt:8,next:65535,str:8187,d0:13142,d1:38602;
         ("begin", Expression<MethodOrOperator> @:13142 op:0,dt:2,nt:9,next:13123,str:210,d0:0,d1:0;
-            (____, Scope<Void> @:13123 op:640,dt:4,nt:8,next:13129,str:8217,d0:13124,d1:38584;
+            (____, BuiltinInvocation<Void> @:13123 op:640,dt:4,nt:8,next:13129,str:8217,d0:13124,d1:38584;
                 ("activate_team_nav_point_object", Expression<MethodOrOperator> @:13124 op:640,dt:2,nt:9,next:13125,str:24881,d0:0,d1:0;
                     ("default", Expression<NavigationPoint> @:13125 op:27,dt:27,nt:9,next:13126,str:2172,d0:0,d1:0;
                         ("player", Expression<Team> @:13126 op:45,dt:45,nt:9,next:13127,str:24912,d0:1,d1:65535;
                             (4294901851, Expression<Entity> @:13127 op:56,dt:50,nt:9,next:13128,str:24919,d0:91,d1:65535;
                                 (0f, Expression<Float> @:13128 op:6,dt:6,nt:9,next:65535,str:8279,d0:0,d1:0;))))))
-            (____, Scope<Void> @:13129 op:21,dt:4,nt:8,next:13137,str:8284,d0:13130,d1:38590;
+            (____, BuiltinInvocation<Void> @:13129 op:21,dt:4,nt:8,next:13137,str:8284,d0:13130,d1:38590;
                 ("sleep_until", Expression<MethodOrOperator> @:13130 op:21,dt:2,nt:9,next:13131,str:440,d0:0,d1:0;
-                    (____, Scope<Boolean> @:13131 op:18,dt:5,nt:8,next:65535,str:8297,d0:13132,d1:38592;
+                    (____, BuiltinInvocation<Boolean> @:13131 op:18,dt:5,nt:8,next:65535,str:8297,d0:13132,d1:38592;
                         ("<=", Expression<MethodOrOperator> @:13132 op:18,dt:2,nt:9,next:13133,str:16395,d0:0,d1:0;
-                            (-3.1374768E-25f, Scope<Float> @:13133 op:69,dt:6,nt:8,next:13136,str:8301,d0:13134,d1:38594;
+                            (-3.1374768E-25f, BuiltinInvocation<Float> @:13133 op:69,dt:6,nt:8,next:13136,str:8301,d0:13134,d1:38594;
                                 ("object_get_health", Expression<MethodOrOperator> @:13134 op:69,dt:2,nt:9,next:13135,str:1058,d0:0,d1:0;
                                     (4294902140, Expression<Entity> @:13135 op:56,dt:50,nt:9,next:65535,str:24383,d0:380,d1:65535;)))
                             (0f, Expression<Float> @:13136 op:6,dt:6,nt:9,next:65535,str:8334,d0:0,d1:0;)))))
-            (____, Scope<Void> @:13137 op:644,dt:4,nt:8,next:65535,str:8340,d0:13138,d1:38598;
+            (____, BuiltinInvocation<Void> @:13137 op:644,dt:4,nt:8,next:65535,str:8340,d0:13138,d1:38598;
                 ("deactivate_team_nav_point_object", Expression<MethodOrOperator> @:13138 op:644,dt:2,nt:9,next:13139,str:24934,d0:0,d1:0;
                     ("player", Expression<Team> @:13139 op:45,dt:45,nt:9,next:13140,str:24912,d0:1,d1:65535;
                         (4294901851, Expression<Entity> @:13140 op:56,dt:50,nt:9,next:65535,str:24919,d0:91,d1:65535;)))))))

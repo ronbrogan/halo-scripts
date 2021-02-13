@@ -1,14 +1,14 @@
 
 ("c04_intra1_fov_04", MethodDecl<Void> @:74 op:0,dt:0,nt:65535,next:3664,str:8388,d0:0,d1:0;
-    (____, Scope<Void> @:3664 op:0,dt:4,nt:8,next:65535,str:41207,d0:3665,d1:61892;
+    (____, BuiltinInvocation<Void> @:3664 op:0,dt:4,nt:8,next:65535,str:41207,d0:3665,d1:61892;
         ("begin", Expression<MethodOrOperator> @:3665 op:0,dt:2,nt:9,next:3654,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:3654 op:19,dt:4,nt:8,next:3657,str:41245,d0:3655,d1:61882;
+            (____, BuiltinInvocation<Void> @:3654 op:19,dt:4,nt:8,next:3657,str:41245,d0:3655,d1:61882;
                 ("sleep", Expression<MethodOrOperator> @:3655 op:19,dt:2,nt:9,next:3656,str:85,d0:0,d1:0;
                     (511, Expression<Short> @:3656 op:7,dt:7,nt:9,next:65535,str:41252,d0:511,d1:65535;)))
-            (____, Scope<Void> @:3657 op:27,dt:4,nt:8,next:3660,str:41259,d0:3658,d1:61885;
+            (____, BuiltinInvocation<Void> @:3657 op:27,dt:4,nt:8,next:3660,str:41259,d0:3658,d1:61885;
                 ("print", Expression<MethodOrOperator> @:3658 op:27,dt:2,nt:9,next:3659,str:91,d0:0,d1:0;
                     ("fov change: 80 -> 60 over 0 ticks", Expression<String> @:3659 op:9,dt:9,nt:9,next:65535,str:8092,d0:8092,d1:0;)))
-            (____, Scope<Void> @:3660 op:459,dt:4,nt:8,next:65535,str:41305,d0:3661,d1:61888;
+            (____, BuiltinInvocation<Void> @:3660 op:459,dt:4,nt:8,next:65535,str:41305,d0:3661,d1:61888;
                 ("camera_set_field_of_view", Expression<MethodOrOperator> @:3661 op:459,dt:2,nt:9,next:3662,str:8126,d0:0,d1:0;
                     (60f, Expression<Float> @:3662 op:6,dt:6,nt:9,next:3663,str:41331,d0:0,d1:17008;
                         (0, Expression<Short> @:3663 op:7,dt:7,nt:9,next:65535,str:41334,d0:0,d1:65535;)))))))

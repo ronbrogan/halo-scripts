@@ -1,16 +1,16 @@
 
 ("x01_0330_pot", MethodDecl<Void> @:137 op:0,dt:0,nt:65535,next:7271,str:12505,d0:0,d1:0;
-    (____, Scope<Void> @:7271 op:0,dt:4,nt:8,next:65535,str:34971,d0:7272,d1:65499;
+    (____, BuiltinInvocation<Void> @:7271 op:0,dt:4,nt:8,next:65535,str:34971,d0:7272,d1:65499;
         ("begin", Expression<MethodOrOperator> @:7272 op:0,dt:2,nt:9,next:7259,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:7259 op:19,dt:4,nt:8,next:7262,str:35002,d0:7260,d1:65487;
+            (____, BuiltinInvocation<Void> @:7259 op:19,dt:4,nt:8,next:7262,str:35002,d0:7260,d1:65487;
                 ("sleep", Expression<MethodOrOperator> @:7260 op:19,dt:2,nt:9,next:7261,str:80,d0:0,d1:0;
                     (329, Expression<Short> @:7261 op:7,dt:7,nt:9,next:65535,str:35009,d0:329,d1:65535;)))
-            (____, Scope<Void> @:7262 op:596,dt:4,nt:8,next:7267,str:35016,d0:7263,d1:65490;
+            (____, BuiltinInvocation<Void> @:7262 op:596,dt:4,nt:8,next:7267,str:35016,d0:7263,d1:65490;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:7263 op:596,dt:2,nt:9,next:7264,str:3766,d0:0,d1:0;
                     ("sound\dialog\levels\01_spacestation\cinematic\x01_0330_pot", Expression<Sound> @:7264 op:32,dt:32,nt:9,next:7265,str:12446,d0:2772,d1:60490;
                         (4294901817, Expression<Entity> @:7265 op:56,dt:50,nt:9,next:7266,str:6687,d0:57,d1:65535;
                             (1f, Expression<Float> @:7266 op:6,dt:6,nt:9,next:65535,str:35102,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:7267 op:562,dt:4,nt:8,next:65535,str:35107,d0:7268,d1:65495;
+            (____, BuiltinInvocation<Void> @:7267 op:562,dt:4,nt:8,next:65535,str:35107,d0:7268,d1:65495;
                 ("cinematic_subtitle", Expression<MethodOrOperator> @:7268 op:562,dt:2,nt:9,next:7269,str:5905,d0:0,d1:0;
                     ("x01_0330_pot", Expression<StringId> @:7269 op:11,dt:11,nt:9,next:7270,str:12505,d0:9679,d1:3072;
                         (2f, Expression<Float> @:7270 op:6,dt:6,nt:9,next:65535,str:35140,d0:0,d1:16384;)))))))

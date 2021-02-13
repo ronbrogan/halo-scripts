@@ -1,19 +1,19 @@
 
 ("x05_slipspace_open", MethodDecl<Void> @:38 op:0,dt:0,nt:65535,next:886,str:1806,d0:0,d1:0;
-    (____, Scope<Void> @:886 op:0,dt:4,nt:8,next:65535,str:10138,d0:887,d1:59114;
+    (____, BuiltinInvocation<Void> @:886 op:0,dt:4,nt:8,next:65535,str:10138,d0:887,d1:59114;
         ("begin", Expression<MethodOrOperator> @:887 op:0,dt:2,nt:9,next:871,str:54,d0:0,d1:0;
-            (____, Scope<Void> @:871 op:19,dt:4,nt:8,next:874,str:10175,d0:872,d1:59099;
+            (____, BuiltinInvocation<Void> @:871 op:19,dt:4,nt:8,next:874,str:10175,d0:872,d1:59099;
                 ("sleep", Expression<MethodOrOperator> @:872 op:19,dt:2,nt:9,next:873,str:133,d0:0,d1:0;
                     (10, Expression<Short> @:873 op:7,dt:7,nt:9,next:65535,str:10182,d0:10,d1:65535;)))
-            (____, Scope<Void> @:874 op:27,dt:4,nt:8,next:877,str:10188,d0:875,d1:59102;
+            (____, BuiltinInvocation<Void> @:874 op:27,dt:4,nt:8,next:877,str:10188,d0:875,d1:59102;
                 ("print", Expression<MethodOrOperator> @:875 op:27,dt:2,nt:9,next:876,str:139,d0:0,d1:0;
                     ("effect - slipspace open", Expression<String> @:876 op:9,dt:9,nt:9,next:65535,str:1486,d0:1486,d1:0;)))
-            (____, Scope<Void> @:877 op:48,dt:4,nt:8,next:880,str:10224,d0:878,d1:59105;
+            (____, BuiltinInvocation<Void> @:877 op:48,dt:4,nt:8,next:880,str:10224,d0:878,d1:59105;
                 ("object_create_anew", Expression<MethodOrOperator> @:878 op:48,dt:2,nt:9,next:879,str:1510,d0:0,d1:0;
                     ("x05_slipspace", Expression<EntityIdentifier> @:879 op:56,dt:56,nt:9,next:65535,str:1529,d0:57,d1:65535;)))
-            (____, Scope<Void> @:880 op:19,dt:4,nt:8,next:883,str:10261,d0:881,d1:59108;
+            (____, BuiltinInvocation<Void> @:880 op:19,dt:4,nt:8,next:883,str:10261,d0:881,d1:59108;
                 ("sleep", Expression<MethodOrOperator> @:881 op:19,dt:2,nt:9,next:882,str:133,d0:0,d1:0;
                     (300, Expression<Short> @:882 op:7,dt:7,nt:9,next:65535,str:10268,d0:300,d1:65535;)))
-            (____, Scope<Void> @:883 op:52,dt:4,nt:8,next:65535,str:10275,d0:884,d1:59111;
+            (____, BuiltinInvocation<Void> @:883 op:52,dt:4,nt:8,next:65535,str:10275,d0:884,d1:59111;
                 ("object_destroy", Expression<MethodOrOperator> @:884 op:52,dt:2,nt:9,next:885,str:1543,d0:0,d1:0;
                     (4294901817, Expression<Entity> @:885 op:56,dt:50,nt:9,next:65535,str:1529,d0:57,d1:65535;))))))

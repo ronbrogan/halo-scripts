@@ -1,36 +1,36 @@
 
 ("cs_boss_johnson_idle", MethodDecl<Void> @:30 op:0,dt:0,nt:65535,next:972,str:6078,d0:0,d1:0;
-    (____, Scope<Void> @:972 op:0,dt:4,nt:8,next:65535,str:10539,d0:973,d1:59200;
+    (____, BuiltinInvocation<Void> @:972 op:0,dt:4,nt:8,next:65535,str:10539,d0:973,d1:59200;
         ("begin", Expression<MethodOrOperator> @:973 op:0,dt:2,nt:9,next:940,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:940 op:448,dt:4,nt:8,next:943,str:10585,d0:941,d1:59168;
+            (____, BuiltinInvocation<Void> @:940 op:448,dt:4,nt:8,next:943,str:10585,d0:941,d1:59168;
                 ("cs_force_combat_status", Expression<MethodOrOperator> @:941 op:448,dt:2,nt:9,next:942,str:1071,d0:0,d1:0;
                     (4, Expression<Short> @:942 op:7,dt:7,nt:9,next:65535,str:10609,d0:4,d1:65535;)))
-            (____, Scope<Void> @:943 op:444,dt:4,nt:8,next:946,str:10614,d0:944,d1:59171;
+            (____, BuiltinInvocation<Void> @:943 op:444,dt:4,nt:8,next:946,str:10614,d0:944,d1:59171;
                 ("cs_enable_moving", Expression<MethodOrOperator> @:944 op:444,dt:2,nt:9,next:945,str:1094,d0:0,d1:0;
                     (False, Expression<Boolean> @:945 op:5,dt:5,nt:9,next:65535,str:10632,d0:65280,d1:65535;)))
-            (____, Scope<Void> @:946 op:449,dt:4,nt:8,next:949,str:10637,d0:947,d1:59174;
+            (____, BuiltinInvocation<Void> @:946 op:449,dt:4,nt:8,next:949,str:10637,d0:947,d1:59174;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:947 op:449,dt:2,nt:9,next:948,str:1153,d0:0,d1:0;
                     (True, Expression<Boolean> @:948 op:5,dt:5,nt:9,next:65535,str:10669,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:949 op:385,dt:4,nt:8,next:952,str:10674,d0:950,d1:59177;
+            (____, BuiltinInvocation<Void> @:949 op:385,dt:4,nt:8,next:952,str:10674,d0:950,d1:59177;
                 ("cs_go_to", Expression<MethodOrOperator> @:950 op:385,dt:2,nt:9,next:951,str:1184,d0:0,d1:0;
                     ("boss/ledge_perch", Expression<SpatialPoint> @:951 op:28,dt:28,nt:9,next:65535,str:1380,d0:1,d1:31;)))
-            (____, Scope<Void> @:952 op:423,dt:4,nt:8,next:955,str:10704,d0:953,d1:59180;
+            (____, BuiltinInvocation<Void> @:952 op:423,dt:4,nt:8,next:955,str:10704,d0:953,d1:59180;
                 ("cs_crouch", Expression<MethodOrOperator> @:953 op:423,dt:2,nt:9,next:954,str:1397,d0:0,d1:0;
                     (True, Expression<Boolean> @:954 op:5,dt:5,nt:9,next:65535,str:10715,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:955 op:401,dt:4,nt:8,next:961,str:10720,d0:956,d1:59183;
+            (____, BuiltinInvocation<Void> @:955 op:401,dt:4,nt:8,next:961,str:10720,d0:956,d1:59183;
                 ("cs_face_object", Expression<MethodOrOperator> @:956 op:401,dt:2,nt:9,next:957,str:1407,d0:0,d1:0;
                     (True, Expression<Boolean> @:957 op:5,dt:5,nt:9,next:958,str:10736,d0:65281,d1:65535;
-                        (____, Scope<Entity> @:958 op:284,dt:50,nt:8,next:65535,str:10738,d0:959,d1:59186;
+                        (____, BuiltinInvocation<Entity> @:958 op:284,dt:50,nt:8,next:65535,str:10738,d0:959,d1:59186;
                             ("ai_get_object", Expression<MethodOrOperator> @:959 op:284,dt:2,nt:9,next:960,str:1422,d0:0,d1:0;
                                 ("boss_tartarus", Expression<AI> @:960 op:19,dt:19,nt:9,next:65535,str:1436,d0:102,d1:0;))))))
-            (____, Scope<Void> @:961 op:398,dt:4,nt:8,next:967,str:10771,d0:962,d1:59189;
+            (____, BuiltinInvocation<Void> @:961 op:398,dt:4,nt:8,next:967,str:10771,d0:962,d1:59189;
                 ("cs_aim_object", Expression<MethodOrOperator> @:962 op:398,dt:2,nt:9,next:963,str:1450,d0:0,d1:0;
                     (True, Expression<Boolean> @:963 op:5,dt:5,nt:9,next:964,str:10786,d0:65281,d1:65535;
-                        (____, Scope<Entity> @:964 op:284,dt:50,nt:8,next:65535,str:10788,d0:965,d1:59192;
+                        (____, BuiltinInvocation<Entity> @:964 op:284,dt:50,nt:8,next:65535,str:10788,d0:965,d1:59192;
                             ("ai_get_object", Expression<MethodOrOperator> @:965 op:284,dt:2,nt:9,next:966,str:1422,d0:0,d1:0;
                                 ("boss_tartarus", Expression<AI> @:966 op:19,dt:19,nt:9,next:65535,str:1436,d0:102,d1:0;))))))
-            (____, Scope<Void> @:967 op:27,dt:4,nt:8,next:970,str:10821,d0:968,d1:59195;
+            (____, BuiltinInvocation<Void> @:967 op:27,dt:4,nt:8,next:970,str:10821,d0:968,d1:59195;
                 ("print", Expression<MethodOrOperator> @:968 op:27,dt:2,nt:9,next:969,str:91,d0:0,d1:0;
                     ("johnson idle", Expression<String> @:969 op:9,dt:9,nt:9,next:65535,str:1464,d0:1464,d1:0;)))
-            (____, Scope<Void> @:970 op:20,dt:4,nt:8,next:65535,str:10846,d0:971,d1:59198;
+            (____, BuiltinInvocation<Void> @:970 op:20,dt:4,nt:8,next:65535,str:10846,d0:971,d1:59198;
                 ("sleep_forever", Expression<MethodOrOperator> @:971 op:20,dt:2,nt:9,next:65535,str:1139,d0:0,d1:0;)))))

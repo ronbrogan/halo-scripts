@@ -1,19 +1,19 @@
 
 ("e8_dia_unlock_f", MethodDecl<Void> @:145 op:0,dt:0,nt:65535,next:4161,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:4161 op:0,dt:4,nt:8,next:65535,str:52301,d0:4162,d1:62389;
+    (____, BuiltinInvocation<Void> @:4161 op:0,dt:4,nt:8,next:65535,str:52301,d0:4162,d1:62389;
         ("begin", Expression<MethodOrOperator> @:4162 op:0,dt:2,nt:9,next:4146,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:4146 op:2,dt:4,nt:8,next:4152,str:52335,d0:4147,d1:62374;
+            (____, BuiltinInvocation<Void> @:4146 op:2,dt:4,nt:8,next:4152,str:52335,d0:4147,d1:62374;
                 ("if", Expression<MethodOrOperator> @:4147 op:2,dt:2,nt:9,next:4148,str:456,d0:0,d1:0;
                     ("dialogue", VariableAccess<Boolean> @:4148 op:5,dt:5,nt:13,next:4149,str:10462,d0:3,d1:0;
-                        (____, Scope<Void> @:4149 op:27,dt:4,nt:8,next:65535,str:52348,d0:4150,d1:62377;
+                        (____, BuiltinInvocation<Void> @:4149 op:27,dt:4,nt:8,next:65535,str:52348,d0:4150,d1:62377;
                             ("print", Expression<MethodOrOperator> @:4150 op:27,dt:2,nt:9,next:4151,str:86,d0:0,d1:0;
                                 ("cortana: a few more seconds...", Expression<String> @:4151 op:9,dt:9,nt:9,next:65535,str:11854,d0:11854,d1:0;))))))
-            (____, Scope<Void> @:4152 op:19,dt:4,nt:8,next:4158,str:52392,d0:4153,d1:62380;
+            (____, BuiltinInvocation<Void> @:4152 op:19,dt:4,nt:8,next:4158,str:52392,d0:4153,d1:62380;
                 ("sleep", Expression<MethodOrOperator> @:4153 op:19,dt:2,nt:9,next:4154,str:80,d0:0,d1:0;
-                    (____, Scope<Short> @:4154 op:362,dt:7,nt:8,next:65535,str:52399,d0:4155,d1:62382;
+                    (____, BuiltinInvocation<Short> @:4154 op:362,dt:7,nt:8,next:65535,str:52399,d0:4155,d1:62382;
                         ("ai_play_line_on_object", Expression<MethodOrOperator> @:4155 op:362,dt:2,nt:9,next:4156,str:10552,d0:0,d1:0;
                             (4294967295, Expression<Entity> @:4156 op:50,dt:50,nt:9,next:4157,str:1386,d0:65535,d1:65535;
                                 ("2830", Expression<StringId> @:4157 op:11,dt:11,nt:9,next:65535,str:11885,d0:13568,d1:1024;))))))
-            (____, Scope<Void> @:4158 op:19,dt:4,nt:8,next:65535,str:52437,d0:4159,d1:62386;
+            (____, BuiltinInvocation<Void> @:4158 op:19,dt:4,nt:8,next:65535,str:52437,d0:4159,d1:62386;
                 ("sleep", Expression<MethodOrOperator> @:4159 op:19,dt:2,nt:9,next:4160,str:80,d0:0,d1:0;
                     ("dialogue_pause", VariableAccess<Short> @:4160 op:7,dt:7,nt:13,next:65535,str:10580,d0:4,d1:0;))))))

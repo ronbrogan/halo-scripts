@@ -1,17 +1,17 @@
 
 ("cs_e11_cov_inf0_shoot0", MethodDecl<Void> @:204 op:0,dt:0,nt:65535,next:7245,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:7245 op:0,dt:4,nt:8,next:65535,str:22989,d0:7246,d1:65473;
+    (____, BuiltinInvocation<Void> @:7245 op:0,dt:4,nt:8,next:65535,str:22989,d0:7246,d1:65473;
         ("begin", Expression<MethodOrOperator> @:7246 op:0,dt:2,nt:9,next:7232,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:7232 op:440,dt:4,nt:8,next:7235,str:23037,d0:7233,d1:65460;
+            (____, BuiltinInvocation<Void> @:7232 op:440,dt:4,nt:8,next:7235,str:23037,d0:7233,d1:65460;
                 ("cs_abort_on_damage", Expression<MethodOrOperator> @:7233 op:440,dt:2,nt:9,next:7234,str:15078,d0:0,d1:0;
                     (True, Expression<Boolean> @:7234 op:5,dt:5,nt:9,next:65535,str:23057,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:7235 op:406,dt:4,nt:8,next:7239,str:23065,d0:7236,d1:65463;
+            (____, BuiltinInvocation<Void> @:7235 op:406,dt:4,nt:8,next:7239,str:23065,d0:7236,d1:65463;
                 ("cs_shoot_point", Expression<MethodOrOperator> @:7236 op:406,dt:2,nt:9,next:7237,str:13895,d0:0,d1:0;
                     (True, Expression<Boolean> @:7237 op:5,dt:5,nt:9,next:7238,str:23081,d0:65281,d1:65535;
                         ("e11_patrol/s0", Expression<SpatialPoint> @:7238 op:28,dt:28,nt:9,next:65535,str:15097,d0:0,d1:30;))))
-            (____, Scope<Void> @:7239 op:19,dt:4,nt:8,next:65535,str:23103,d0:7240,d1:65467;
+            (____, BuiltinInvocation<Void> @:7239 op:19,dt:4,nt:8,next:65535,str:23103,d0:7240,d1:65467;
                 ("sleep", Expression<MethodOrOperator> @:7240 op:19,dt:2,nt:9,next:7241,str:143,d0:0,d1:0;
-                    (____, Scope<Short> @:7241 op:124,dt:7,nt:8,next:65535,str:23110,d0:7242,d1:65469;
+                    (____, BuiltinInvocation<Short> @:7241 op:124,dt:7,nt:8,next:65535,str:23110,d0:7242,d1:65469;
                         ("random_range", Expression<MethodOrOperator> @:7242 op:124,dt:2,nt:9,next:7243,str:13866,d0:0,d1:0;
                             ("30_seconds", VariableAccess<Short> @:7243 op:7,dt:7,nt:13,next:7244,str:15111,d0:5,d1:0;
                                 ("one_minute", VariableAccess<Short> @:7244 op:7,dt:7,nt:13,next:65535,str:10274,d0:7,d1:0;)))))))))

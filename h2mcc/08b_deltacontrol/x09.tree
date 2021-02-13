@@ -1,18 +1,18 @@
 
 ("x09", MethodDecl<Void> @:263 op:0,dt:0,nt:65535,next:9750,str:23936,d0:0,d1:0;
-    (____, Scope<Void> @:9750 op:0,dt:4,nt:8,next:65535,str:48001,d0:9751,d1:35211;
+    (____, BuiltinInvocation<Void> @:9750 op:0,dt:4,nt:8,next:65535,str:48001,d0:9751,d1:35211;
         ("begin", Expression<MethodOrOperator> @:9751 op:0,dt:2,nt:9,next:9685,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:9685 op:530,dt:4,nt:8,next:9687,str:48030,d0:9686,d1:35146;
+            (____, BuiltinInvocation<Void> @:9685 op:530,dt:4,nt:8,next:9687,str:48030,d0:9686,d1:35146;
                 ("texture_cache_flush", Expression<MethodOrOperator> @:9686 op:530,dt:2,nt:9,next:65535,str:8468,d0:0,d1:0;))
-            (____, Scope<Void> @:9687 op:531,dt:4,nt:8,next:9689,str:48054,d0:9688,d1:35148;
+            (____, BuiltinInvocation<Void> @:9687 op:531,dt:4,nt:8,next:9689,str:48054,d0:9688,d1:35148;
                 ("geometry_cache_flush", Expression<MethodOrOperator> @:9688 op:531,dt:2,nt:9,next:65535,str:8488,d0:0,d1:0;))
-            (____, Scope<Void> @:9689 op:508,dt:4,nt:8,next:9692,str:48082,d0:9690,d1:35150;
+            (____, BuiltinInvocation<Void> @:9689 op:508,dt:4,nt:8,next:9692,str:48082,d0:9690,d1:35150;
                 ("switch_bsp_by_name", Expression<MethodOrOperator> @:9690 op:508,dt:2,nt:9,next:9691,str:10834,d0:0,d1:0;
                     ("deltacontrolroom_bsp4", Expression<Bsp> @:9691 op:26,dt:26,nt:9,next:65535,str:23555,d0:3,d1:0;)))
-            (____, Scope<Void> @:9692 op:19,dt:4,nt:8,next:9695,str:48127,d0:9693,d1:35153;
+            (____, BuiltinInvocation<Void> @:9692 op:19,dt:4,nt:8,next:9695,str:48127,d0:9693,d1:35153;
                 ("sleep", Expression<MethodOrOperator> @:9693 op:19,dt:2,nt:9,next:9694,str:85,d0:0,d1:0;
                     (1, Expression<Short> @:9694 op:7,dt:7,nt:9,next:65535,str:48134,d0:1,d1:65535;)))
-            (____, Scope<Void> @:9695 op:614,dt:4,nt:8,next:9700,str:48142,d0:9696,d1:35156;
+            (____, BuiltinInvocation<Void> @:9695 op:614,dt:4,nt:8,next:9700,str:48142,d0:9696,d1:35156;
                 ("sound_class_set_gain", Expression<MethodOrOperator> @:9696 op:614,dt:2,nt:9,next:9697,str:8509,d0:0,d1:0;
                     ("amb", Expression<String> @:9697 op:9,dt:9,nt:9,next:9698,str:10830,d0:10830,d1:0;
                         (0f, Expression<Float> @:9698 op:6,dt:6,nt:9,next:9699,str:48168,d0:0,d1:0;
@@ -21,49 +21,49 @@
                 ("x09_scene_01", Expression<MethodOrOperator> @:9701 op:172,dt:2,nt:9,next:65535,str:23577,d0:0,d1:0;))
             ("x09_scene_02", ScriptInvocation<Void> @:9702 op:180,dt:4,nt:10,next:9704,str:48196,d0:9703,d1:35163;
                 ("x09_scene_02", Expression<MethodOrOperator> @:9703 op:180,dt:2,nt:9,next:65535,str:23590,d0:0,d1:0;))
-            (____, Scope<Void> @:9704 op:508,dt:4,nt:8,next:9707,str:48216,d0:9705,d1:35165;
+            (____, BuiltinInvocation<Void> @:9704 op:508,dt:4,nt:8,next:9707,str:48216,d0:9705,d1:35165;
                 ("switch_bsp_by_name", Expression<MethodOrOperator> @:9705 op:508,dt:2,nt:9,next:9706,str:10834,d0:0,d1:0;
                     ("deltacontrolroom_bsp0", Expression<Bsp> @:9706 op:26,dt:26,nt:9,next:65535,str:10853,d0:0,d1:0;)))
-            (____, Scope<Void> @:9707 op:19,dt:4,nt:8,next:9710,str:48261,d0:9708,d1:35168;
+            (____, BuiltinInvocation<Void> @:9707 op:19,dt:4,nt:8,next:9710,str:48261,d0:9708,d1:35168;
                 ("sleep", Expression<MethodOrOperator> @:9708 op:19,dt:2,nt:9,next:9709,str:85,d0:0,d1:0;
                     (1, Expression<Short> @:9709 op:7,dt:7,nt:9,next:65535,str:48268,d0:1,d1:65535;)))
             ("x09_scene_03", ScriptInvocation<Void> @:9710 op:184,dt:4,nt:10,next:9712,str:48276,d0:9711,d1:35171;
                 ("x09_scene_03", Expression<MethodOrOperator> @:9711 op:184,dt:2,nt:9,next:65535,str:23603,d0:0,d1:0;))
             ("x09_scene_04", ScriptInvocation<Void> @:9712 op:189,dt:4,nt:10,next:9714,str:48293,d0:9713,d1:35173;
                 ("x09_scene_04", Expression<MethodOrOperator> @:9713 op:189,dt:2,nt:9,next:65535,str:23616,d0:0,d1:0;))
-            (____, Scope<Void> @:9714 op:508,dt:4,nt:8,next:9717,str:48313,d0:9715,d1:35175;
+            (____, BuiltinInvocation<Void> @:9714 op:508,dt:4,nt:8,next:9717,str:48313,d0:9715,d1:35175;
                 ("switch_bsp_by_name", Expression<MethodOrOperator> @:9715 op:508,dt:2,nt:9,next:9716,str:10834,d0:0,d1:0;
                     ("deltacontrolroom_bsp4", Expression<Bsp> @:9716 op:26,dt:26,nt:9,next:65535,str:23555,d0:3,d1:0;)))
-            (____, Scope<Void> @:9717 op:19,dt:4,nt:8,next:9720,str:48358,d0:9718,d1:35178;
+            (____, BuiltinInvocation<Void> @:9717 op:19,dt:4,nt:8,next:9720,str:48358,d0:9718,d1:35178;
                 ("sleep", Expression<MethodOrOperator> @:9718 op:19,dt:2,nt:9,next:9719,str:85,d0:0,d1:0;
                     (1, Expression<Short> @:9719 op:7,dt:7,nt:9,next:65535,str:48365,d0:1,d1:65535;)))
             ("x09_scene_05", ScriptInvocation<Void> @:9720 op:202,dt:4,nt:10,next:9722,str:48372,d0:9721,d1:35181;
                 ("x09_scene_05", Expression<MethodOrOperator> @:9721 op:202,dt:2,nt:9,next:65535,str:23629,d0:0,d1:0;))
             ("x09_scene_06", ScriptInvocation<Void> @:9722 op:219,dt:4,nt:10,next:9724,str:48389,d0:9723,d1:35183;
                 ("x09_scene_06", Expression<MethodOrOperator> @:9723 op:219,dt:2,nt:9,next:65535,str:23642,d0:0,d1:0;))
-            (____, Scope<Void> @:9724 op:508,dt:4,nt:8,next:9727,str:48409,d0:9725,d1:35185;
+            (____, BuiltinInvocation<Void> @:9724 op:508,dt:4,nt:8,next:9727,str:48409,d0:9725,d1:35185;
                 ("switch_bsp_by_name", Expression<MethodOrOperator> @:9725 op:508,dt:2,nt:9,next:9726,str:10834,d0:0,d1:0;
                     ("deltacontrolroom_bsp0", Expression<Bsp> @:9726 op:26,dt:26,nt:9,next:65535,str:10853,d0:0,d1:0;)))
-            (____, Scope<Void> @:9727 op:19,dt:4,nt:8,next:9730,str:48454,d0:9728,d1:35188;
+            (____, BuiltinInvocation<Void> @:9727 op:19,dt:4,nt:8,next:9730,str:48454,d0:9728,d1:35188;
                 ("sleep", Expression<MethodOrOperator> @:9728 op:19,dt:2,nt:9,next:9729,str:85,d0:0,d1:0;
                     (1, Expression<Short> @:9729 op:7,dt:7,nt:9,next:65535,str:48461,d0:1,d1:65535;)))
             ("x09_scene_07", ScriptInvocation<Void> @:9730 op:226,dt:4,nt:10,next:9732,str:48469,d0:9731,d1:35191;
                 ("x09_scene_07", Expression<MethodOrOperator> @:9731 op:226,dt:2,nt:9,next:65535,str:23655,d0:0,d1:0;))
             ("x09_scene_08", ScriptInvocation<Void> @:9732 op:243,dt:4,nt:10,next:9734,str:48486,d0:9733,d1:35193;
                 ("x09_scene_08", Expression<MethodOrOperator> @:9733 op:243,dt:2,nt:9,next:65535,str:23668,d0:0,d1:0;))
-            (____, Scope<Void> @:9734 op:19,dt:4,nt:8,next:9737,str:48506,d0:9735,d1:35195;
+            (____, BuiltinInvocation<Void> @:9734 op:19,dt:4,nt:8,next:9737,str:48506,d0:9735,d1:35195;
                 ("sleep", Expression<MethodOrOperator> @:9735 op:19,dt:2,nt:9,next:9736,str:85,d0:0,d1:0;
                     (90, Expression<Short> @:9736 op:7,dt:7,nt:9,next:65535,str:48513,d0:90,d1:65535;)))
-            (____, Scope<Void> @:9737 op:27,dt:4,nt:8,next:9740,str:48519,d0:9738,d1:35198;
+            (____, BuiltinInvocation<Void> @:9737 op:27,dt:4,nt:8,next:9740,str:48519,d0:9738,d1:35198;
                 ("print", Expression<MethodOrOperator> @:9738 op:27,dt:2,nt:9,next:9739,str:91,d0:0,d1:0;
                     ("90 ticks of black instead of credits", Expression<String> @:9739 op:9,dt:9,nt:9,next:65535,str:23681,d0:23681,d1:0;)))
             ("x10", ScriptInvocation<Void> @:9740 op:262,dt:4,nt:10,next:9742,str:48681,d0:9741,d1:35201;
                 ("x10", Expression<MethodOrOperator> @:9741 op:262,dt:2,nt:9,next:65535,str:23718,d0:0,d1:0;))
-            (____, Scope<Void> @:9742 op:19,dt:4,nt:8,next:9745,str:48692,d0:9743,d1:35203;
+            (____, BuiltinInvocation<Void> @:9742 op:19,dt:4,nt:8,next:9745,str:48692,d0:9743,d1:35203;
                 ("sleep", Expression<MethodOrOperator> @:9743 op:19,dt:2,nt:9,next:9744,str:85,d0:0,d1:0;
                     (30, Expression<Short> @:9744 op:7,dt:7,nt:9,next:65535,str:48699,d0:30,d1:65535;)))
-            (____, Scope<Void> @:9745 op:27,dt:4,nt:8,next:9748,str:48705,d0:9746,d1:35206;
+            (____, BuiltinInvocation<Void> @:9745 op:27,dt:4,nt:8,next:9748,str:48705,d0:9746,d1:35206;
                 ("print", Expression<MethodOrOperator> @:9746 op:27,dt:2,nt:9,next:9747,str:91,d0:0,d1:0;
                     ("30 ticks of black for marty2", Expression<String> @:9747 op:9,dt:9,nt:9,next:65535,str:23722,d0:23722,d1:0;)))
-            (____, Scope<Void> @:9748 op:565,dt:4,nt:8,next:65535,str:48749,d0:9749,d1:35209;
+            (____, BuiltinInvocation<Void> @:9748 op:565,dt:4,nt:8,next:65535,str:48749,d0:9749,d1:35209;
                 ("game_won", Expression<MethodOrOperator> @:9749 op:565,dt:2,nt:9,next:65535,str:23751,d0:0,d1:0;)))))

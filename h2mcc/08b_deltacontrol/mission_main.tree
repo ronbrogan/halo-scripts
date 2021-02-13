@@ -1,32 +1,32 @@
 
 ("mission_main", MethodDecl<Void> @:531 op:0,dt:0,nt:65535,next:21150,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:21150 op:0,dt:4,nt:8,next:65535,str:16332,d0:21151,d1:46611;
+    (____, BuiltinInvocation<Void> @:21150 op:0,dt:4,nt:8,next:65535,str:16332,d0:21151,d1:46611;
         ("begin", Expression<MethodOrOperator> @:21151 op:0,dt:2,nt:9,next:21119,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:21119 op:310,dt:4,nt:8,next:21123,str:16391,d0:21120,d1:46580;
+            (____, BuiltinInvocation<Void> @:21119 op:310,dt:4,nt:8,next:21123,str:16391,d0:21120,d1:46580;
                 ("ai_allegiance", Expression<MethodOrOperator> @:21120 op:310,dt:2,nt:9,next:21121,str:5078,d0:0,d1:0;
                     ("player", Expression<Team> @:21121 op:45,dt:45,nt:9,next:21122,str:5092,d0:1,d1:65535;
                         ("covenant", Expression<Team> @:21122 op:45,dt:45,nt:9,next:65535,str:5105,d0:3,d1:65535;))))
-            (____, Scope<Void> @:21123 op:310,dt:4,nt:8,next:21127,str:16425,d0:21124,d1:46584;
+            (____, BuiltinInvocation<Void> @:21123 op:310,dt:4,nt:8,next:21127,str:16425,d0:21124,d1:46584;
                 ("ai_allegiance", Expression<MethodOrOperator> @:21124 op:310,dt:2,nt:9,next:21125,str:5078,d0:0,d1:0;
                     ("player", Expression<Team> @:21125 op:45,dt:45,nt:9,next:21126,str:5092,d0:1,d1:65535;
                         ("human", Expression<Team> @:21126 op:45,dt:45,nt:9,next:65535,str:5099,d0:2,d1:65535;))))
-            (____, Scope<Void> @:21127 op:310,dt:4,nt:8,next:21131,str:16456,d0:21128,d1:46588;
+            (____, BuiltinInvocation<Void> @:21127 op:310,dt:4,nt:8,next:21131,str:16456,d0:21128,d1:46588;
                 ("ai_allegiance", Expression<MethodOrOperator> @:21128 op:310,dt:2,nt:9,next:21129,str:5078,d0:0,d1:0;
                     ("covenant", Expression<Team> @:21129 op:45,dt:45,nt:9,next:21130,str:5105,d0:3,d1:65535;
                         ("human", Expression<Team> @:21130 op:45,dt:45,nt:9,next:65535,str:5099,d0:2,d1:65535;))))
-            (____, Scope<Void> @:21131 op:865,dt:4,nt:8,next:21134,str:16504,d0:21132,d1:46592;
+            (____, BuiltinInvocation<Void> @:21131 op:865,dt:4,nt:8,next:21134,str:16504,d0:21132,d1:46592;
                 ("weather_start", Expression<MethodOrOperator> @:21132 op:865,dt:2,nt:9,next:21133,str:22213,d0:0,d1:0;
                     (0f, Expression<Float> @:21133 op:6,dt:6,nt:9,next:65535,str:16519,d0:0,d1:0;)))
-            (____, Scope<Void> @:21134 op:867,dt:4,nt:8,next:21138,str:16524,d0:21135,d1:46595;
+            (____, BuiltinInvocation<Void> @:21134 op:867,dt:4,nt:8,next:21138,str:16524,d0:21135,d1:46595;
                 ("weather_change_intensity", Expression<MethodOrOperator> @:21135 op:867,dt:2,nt:9,next:21136,str:22227,d0:0,d1:0;
                     (0f, Expression<Float> @:21136 op:6,dt:6,nt:9,next:21137,str:16550,d0:0,d1:0;
                         (0.1f, Expression<Float> @:21137 op:6,dt:6,nt:9,next:65535,str:16552,d0:52429,d1:15820;))))
-            (____, Scope<Void> @:21138 op:30,dt:4,nt:8,next:21141,str:16579,d0:21139,d1:46599;
+            (____, BuiltinInvocation<Void> @:21138 op:30,dt:4,nt:8,next:21141,str:16579,d0:21139,d1:46599;
                 ("kill_volume_disable", Expression<MethodOrOperator> @:21139 op:30,dt:2,nt:9,next:21140,str:31450,d0:0,d1:0;
                     ("kill_e13_0", Expression<Trigger> @:21140 op:13,dt:13,nt:9,next:65535,str:5202,d0:56,d1:0;)))
-            (____, Scope<Void> @:21141 op:2,dt:4,nt:8,next:65535,str:16702,d0:21142,d1:46602;
+            (____, BuiltinInvocation<Void> @:21141 op:2,dt:4,nt:8,next:65535,str:16702,d0:21142,d1:46602;
                 ("if", Expression<MethodOrOperator> @:21142 op:2,dt:2,nt:9,next:21143,str:461,d0:0,d1:0;
-                    (____, Scope<Boolean> @:21143 op:15,dt:5,nt:8,next:21148,str:16706,d0:21144,d1:46604;
+                    (____, BuiltinInvocation<Boolean> @:21143 op:15,dt:5,nt:8,next:21148,str:16706,d0:21144,d1:46604;
                         (">", Expression<MethodOrOperator> @:21144 op:15,dt:2,nt:9,next:21145,str:2516,d0:0,d1:0;
                             ("player_count", ScriptInvocation<Short> @:21145 op:2,dt:7,nt:10,next:21147,str:16709,d0:21146,d1:46606;
                                 ("player_count", Expression<MethodOrOperator> @:21146 op:2,dt:2,nt:9,next:65535,str:6134,d0:0,d1:0;))

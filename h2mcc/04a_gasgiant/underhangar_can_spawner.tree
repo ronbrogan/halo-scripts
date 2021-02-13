@@ -1,62 +1,62 @@
 
 ("underhangar_can_spawner", MethodDecl<Void> @:316 op:0,dt:0,nt:65535,next:14617,str:27307,d0:0,d1:0;
-    (____, Scope<Void> @:14617 op:0,dt:4,nt:8,next:65535,str:34858,d0:14618,d1:40078;
+    (____, BuiltinInvocation<Void> @:14617 op:0,dt:4,nt:8,next:65535,str:34858,d0:14618,d1:40078;
         ("begin", Expression<MethodOrOperator> @:14618 op:0,dt:2,nt:9,next:14559,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:14559 op:21,dt:4,nt:8,next:14565,str:34900,d0:14560,d1:40020;
+            (____, BuiltinInvocation<Void> @:14559 op:21,dt:4,nt:8,next:14565,str:34900,d0:14560,d1:40020;
                 ("sleep_until", Expression<MethodOrOperator> @:14560 op:21,dt:2,nt:9,next:14561,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14561 op:13,dt:5,nt:8,next:65535,str:34913,d0:14562,d1:40022;
+                    (____, BuiltinInvocation<Boolean> @:14561 op:13,dt:5,nt:8,next:65535,str:34913,d0:14562,d1:40022;
                         ("=", Expression<MethodOrOperator> @:14562 op:13,dt:2,nt:9,next:14563,str:301,d0:0,d1:0;
                             ("underhangar_power_on", VariableAccess<Boolean> @:14563 op:0,dt:5,nt:13,next:14564,str:26835,d0:18,d1:0;
                                 (True, Expression<Boolean> @:14564 op:5,dt:5,nt:9,next:65535,str:34937,d0:65281,d1:65535;))))))
-            (____, Scope<Void> @:14565 op:21,dt:4,nt:8,next:65535,str:34946,d0:14566,d1:40026;
+            (____, BuiltinInvocation<Void> @:14565 op:21,dt:4,nt:8,next:65535,str:34946,d0:14566,d1:40026;
                 ("sleep_until", Expression<MethodOrOperator> @:14566 op:21,dt:2,nt:9,next:14567,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:14567 op:0,dt:5,nt:8,next:65535,str:34962,d0:14568,d1:40028;
+                    (____, BuiltinInvocation<Boolean> @:14567 op:0,dt:5,nt:8,next:65535,str:34962,d0:14568,d1:40028;
                         ("begin", Expression<MethodOrOperator> @:14568 op:0,dt:2,nt:9,next:14569,str:6,d0:0,d1:0;
-                            (____, Scope<Void> @:14569 op:1,dt:4,nt:8,next:14613,str:34973,d0:14570,d1:40030;
+                            (____, BuiltinInvocation<Void> @:14569 op:1,dt:4,nt:8,next:14613,str:34973,d0:14570,d1:40030;
                                 ("begin_random", Expression<MethodOrOperator> @:14570 op:1,dt:2,nt:9,next:14571,str:15760,d0:0,d1:0;
-                                    (____, Scope<Void> @:14571 op:0,dt:4,nt:8,next:14592,str:34992,d0:14572,d1:40032;
+                                    (____, BuiltinInvocation<Void> @:14571 op:0,dt:4,nt:8,next:14592,str:34992,d0:14572,d1:40032;
                                         ("begin", Expression<MethodOrOperator> @:14572 op:0,dt:2,nt:9,next:14573,str:6,d0:0,d1:0;
-                                            (____, Scope<Void> @:14573 op:2,dt:4,nt:8,next:14589,str:35005,d0:14574,d1:40034;
+                                            (____, BuiltinInvocation<Void> @:14573 op:2,dt:4,nt:8,next:14589,str:35005,d0:14574,d1:40034;
                                                 ("if", Expression<MethodOrOperator> @:14574 op:2,dt:2,nt:9,next:14575,str:461,d0:0,d1:0;
-                                                    (____, Scope<Boolean> @:14575 op:16,dt:5,nt:8,next:14584,str:35009,d0:14576,d1:40036;
+                                                    (____, BuiltinInvocation<Boolean> @:14575 op:16,dt:5,nt:8,next:14584,str:35009,d0:14576,d1:40036;
                                                         ("<", Expression<MethodOrOperator> @:14576 op:16,dt:2,nt:9,next:14577,str:852,d0:0,d1:0;
-                                                            (____, Scope<Short> @:14577 op:38,dt:7,nt:8,next:14583,str:35012,d0:14578,d1:40038;
+                                                            (____, BuiltinInvocation<Short> @:14577 op:38,dt:7,nt:8,next:14583,str:35012,d0:14578,d1:40038;
                                                                 ("list_count", Expression<MethodOrOperator> @:14578 op:38,dt:2,nt:9,next:14579,str:34,d0:0,d1:0;
-                                                                    (____, Scope<List> @:14579 op:36,dt:31,nt:8,next:65535,str:35024,d0:14580,d1:40040;
+                                                                    (____, BuiltinInvocation<List> @:14579 op:36,dt:31,nt:8,next:65535,str:35024,d0:14580,d1:40040;
                                                                         ("volume_return_objects_by_type", Expression<MethodOrOperator> @:14580 op:36,dt:2,nt:9,next:14581,str:20130,d0:0,d1:0;
                                                                             ("vol_underhangar_can_all", Expression<Trigger> @:14581 op:13,dt:13,nt:9,next:14582,str:26856,d0:97,d1:0;
                                                                                 (2048, Expression<Int> @:14582 op:8,dt:8,nt:9,next:65535,str:35079,d0:2048,d1:0;))))))
                                                             (15, Expression<Short> @:14583 op:7,dt:7,nt:9,next:65535,str:35086,d0:15,d1:65535;)))
-                                                    (____, Scope<Void> @:14584 op:0,dt:4,nt:8,next:65535,str:35097,d0:14585,d1:40045;
+                                                    (____, BuiltinInvocation<Void> @:14584 op:0,dt:4,nt:8,next:65535,str:35097,d0:14585,d1:40045;
                                                         ("begin", Expression<MethodOrOperator> @:14585 op:0,dt:2,nt:9,next:14586,str:6,d0:0,d1:0;
-                                                            (____, Scope<Void> @:14586 op:47,dt:4,nt:8,next:65535,str:35112,d0:14587,d1:40047;
+                                                            (____, BuiltinInvocation<Void> @:14586 op:47,dt:4,nt:8,next:65535,str:35112,d0:14587,d1:40047;
                                                                 ("object_create_clone", Expression<MethodOrOperator> @:14587 op:47,dt:2,nt:9,next:14588,str:20182,d0:0,d1:0;
                                                                     ("underhangar_can_a", Expression<EntityIdentifier> @:14588 op:56,dt:56,nt:9,next:65535,str:26880,d0:28,d1:65535;)))))))
-                                            (____, Scope<Void> @:14589 op:19,dt:4,nt:8,next:65535,str:35207,d0:14590,d1:40050;
+                                            (____, BuiltinInvocation<Void> @:14589 op:19,dt:4,nt:8,next:65535,str:35207,d0:14590,d1:40050;
                                                 ("sleep", Expression<MethodOrOperator> @:14590 op:19,dt:2,nt:9,next:14591,str:85,d0:0,d1:0;
                                                     ("recycling_time", VariableAccess<Short> @:14591 op:7,dt:7,nt:13,next:65535,str:20218,d0:8,d1:0;)))))
-                                    (____, Scope<Void> @:14592 op:0,dt:4,nt:8,next:65535,str:35242,d0:14593,d1:40053;
+                                    (____, BuiltinInvocation<Void> @:14592 op:0,dt:4,nt:8,next:65535,str:35242,d0:14593,d1:40053;
                                         ("begin", Expression<MethodOrOperator> @:14593 op:0,dt:2,nt:9,next:14594,str:6,d0:0,d1:0;
-                                            (____, Scope<Void> @:14594 op:2,dt:4,nt:8,next:14610,str:35255,d0:14595,d1:40055;
+                                            (____, BuiltinInvocation<Void> @:14594 op:2,dt:4,nt:8,next:14610,str:35255,d0:14595,d1:40055;
                                                 ("if", Expression<MethodOrOperator> @:14595 op:2,dt:2,nt:9,next:14596,str:461,d0:0,d1:0;
-                                                    (____, Scope<Boolean> @:14596 op:16,dt:5,nt:8,next:14605,str:35259,d0:14597,d1:40057;
+                                                    (____, BuiltinInvocation<Boolean> @:14596 op:16,dt:5,nt:8,next:14605,str:35259,d0:14597,d1:40057;
                                                         ("<", Expression<MethodOrOperator> @:14597 op:16,dt:2,nt:9,next:14598,str:852,d0:0,d1:0;
-                                                            (____, Scope<Short> @:14598 op:38,dt:7,nt:8,next:14604,str:35262,d0:14599,d1:40059;
+                                                            (____, BuiltinInvocation<Short> @:14598 op:38,dt:7,nt:8,next:14604,str:35262,d0:14599,d1:40059;
                                                                 ("list_count", Expression<MethodOrOperator> @:14599 op:38,dt:2,nt:9,next:14600,str:34,d0:0,d1:0;
-                                                                    (____, Scope<List> @:14600 op:36,dt:31,nt:8,next:65535,str:35274,d0:14601,d1:40061;
+                                                                    (____, BuiltinInvocation<List> @:14600 op:36,dt:31,nt:8,next:65535,str:35274,d0:14601,d1:40061;
                                                                         ("volume_return_objects_by_type", Expression<MethodOrOperator> @:14601 op:36,dt:2,nt:9,next:14602,str:20130,d0:0,d1:0;
                                                                             ("vol_underhangar_can_all", Expression<Trigger> @:14602 op:13,dt:13,nt:9,next:14603,str:26856,d0:97,d1:0;
                                                                                 (2048, Expression<Int> @:14603 op:8,dt:8,nt:9,next:65535,str:35329,d0:2048,d1:0;))))))
                                                             (15, Expression<Short> @:14604 op:7,dt:7,nt:9,next:65535,str:35336,d0:15,d1:65535;)))
-                                                    (____, Scope<Void> @:14605 op:0,dt:4,nt:8,next:65535,str:35347,d0:14606,d1:40066;
+                                                    (____, BuiltinInvocation<Void> @:14605 op:0,dt:4,nt:8,next:65535,str:35347,d0:14606,d1:40066;
                                                         ("begin", Expression<MethodOrOperator> @:14606 op:0,dt:2,nt:9,next:14607,str:6,d0:0,d1:0;
-                                                            (____, Scope<Void> @:14607 op:47,dt:4,nt:8,next:65535,str:35362,d0:14608,d1:40068;
+                                                            (____, BuiltinInvocation<Void> @:14607 op:47,dt:4,nt:8,next:65535,str:35362,d0:14608,d1:40068;
                                                                 ("object_create_clone", Expression<MethodOrOperator> @:14608 op:47,dt:2,nt:9,next:14609,str:20182,d0:0,d1:0;
                                                                     ("underhangar_can_b", Expression<EntityIdentifier> @:14609 op:56,dt:56,nt:9,next:65535,str:26898,d0:29,d1:65535;)))))))
-                                            (____, Scope<Void> @:14610 op:19,dt:4,nt:8,next:65535,str:35457,d0:14611,d1:40071;
+                                            (____, BuiltinInvocation<Void> @:14610 op:19,dt:4,nt:8,next:65535,str:35457,d0:14611,d1:40071;
                                                 ("sleep", Expression<MethodOrOperator> @:14611 op:19,dt:2,nt:9,next:14612,str:85,d0:0,d1:0;
                                                     ("recycling_time", VariableAccess<Short> @:14612 op:7,dt:7,nt:13,next:65535,str:20218,d0:8,d1:0;)))))))
-                            (____, Scope<Boolean> @:14613 op:13,dt:5,nt:8,next:65535,str:35497,d0:14614,d1:40074;
+                            (____, BuiltinInvocation<Boolean> @:14613 op:13,dt:5,nt:8,next:65535,str:35497,d0:14614,d1:40074;
                                 ("=", Expression<MethodOrOperator> @:14614 op:13,dt:2,nt:9,next:14615,str:301,d0:0,d1:0;
                                     ("underhangar_power_on", VariableAccess<Boolean> @:14615 op:0,dt:5,nt:13,next:14616,str:26835,d0:18,d1:0;
                                         (False, Expression<Boolean> @:14616 op:5,dt:5,nt:9,next:65535,str:35521,d0:65280,d1:65535;)))))))))))

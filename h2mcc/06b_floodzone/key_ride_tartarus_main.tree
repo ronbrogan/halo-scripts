@@ -1,55 +1,55 @@
 
 ("key_ride_tartarus_main", MethodDecl<Void> @:223 op:0,dt:0,nt:65535,next:10422,str:21539,d0:0,d1:0;
-    (____, Scope<Void> @:10422 op:0,dt:4,nt:8,next:65535,str:51885,d0:10423,d1:35883;
+    (____, BuiltinInvocation<Void> @:10422 op:0,dt:4,nt:8,next:65535,str:51885,d0:10423,d1:35883;
         ("begin", Expression<MethodOrOperator> @:10423 op:0,dt:2,nt:9,next:10371,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:10371 op:290,dt:4,nt:8,next:10374,str:51926,d0:10372,d1:35832;
+            (____, BuiltinInvocation<Void> @:10371 op:290,dt:4,nt:8,next:10374,str:51926,d0:10372,d1:35832;
                 ("ai_place", Expression<MethodOrOperator> @:10372 op:290,dt:2,nt:9,next:10373,str:16231,d0:0,d1:0;
                     ("key_ride_tartarus", Expression<AI> @:10373 op:19,dt:19,nt:9,next:65535,str:21365,d0:163,d1:0;)))
-            (____, Scope<Void> @:10374 op:366,dt:4,nt:8,next:10378,str:51973,d0:10375,d1:35835;
+            (____, BuiltinInvocation<Void> @:10374 op:366,dt:4,nt:8,next:10378,str:51973,d0:10375,d1:35835;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:10375 op:366,dt:2,nt:9,next:10376,str:15353,d0:0,d1:0;
                     ("key_ride_tartarus/tartarus", Expression<AI> @:10376 op:19,dt:19,nt:9,next:10377,str:21383,d0:0,d1:49315;
                         ("cs_e21_tartarus", Expression<AIScript> @:10377 op:21,dt:21,nt:9,next:65535,str:21410,d0:217,d1:0;))))
-            (____, Scope<Void> @:10378 op:21,dt:4,nt:8,next:10386,str:52058,d0:10379,d1:35839;
+            (____, BuiltinInvocation<Void> @:10378 op:21,dt:4,nt:8,next:10386,str:52058,d0:10379,d1:35839;
                 ("sleep_until", Expression<MethodOrOperator> @:10379 op:21,dt:2,nt:9,next:10380,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:10380 op:13,dt:5,nt:8,next:10385,str:52071,d0:10381,d1:35841;
+                    (____, BuiltinInvocation<Boolean> @:10380 op:13,dt:5,nt:8,next:10385,str:52071,d0:10381,d1:35841;
                         ("=", Expression<MethodOrOperator> @:10381 op:13,dt:2,nt:9,next:10382,str:301,d0:0,d1:0;
-                            (____, Scope<Short> @:10382 op:509,dt:7,nt:8,next:10384,str:52074,d0:10383,d1:35843;
+                            (____, BuiltinInvocation<Short> @:10382 op:509,dt:7,nt:8,next:10384,str:52074,d0:10383,d1:35843;
                                 ("structure_bsp_index", Expression<MethodOrOperator> @:10383 op:509,dt:2,nt:9,next:65535,str:14094,d0:0,d1:0;))
                             (4, Expression<Short> @:10384 op:7,dt:7,nt:9,next:65535,str:52096,d0:4,d1:65535;)))
                     (10, Expression<Short> @:10385 op:7,dt:7,nt:9,next:65535,str:52099,d0:10,d1:65535;)))
-            (____, Scope<Void> @:10386 op:366,dt:4,nt:8,next:10390,str:52105,d0:10387,d1:35847;
+            (____, BuiltinInvocation<Void> @:10386 op:366,dt:4,nt:8,next:10390,str:52105,d0:10387,d1:35847;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:10387 op:366,dt:2,nt:9,next:10388,str:15353,d0:0,d1:0;
                     ("key_ride_tartarus/tartarus", Expression<AI> @:10388 op:19,dt:19,nt:9,next:10389,str:21383,d0:0,d1:49315;
                         ("cs_e22_tartarus", Expression<AIScript> @:10389 op:21,dt:21,nt:9,next:65535,str:21426,d0:218,d1:0;))))
-            (____, Scope<Void> @:10390 op:21,dt:4,nt:8,next:10394,str:52190,d0:10391,d1:35851;
+            (____, BuiltinInvocation<Void> @:10390 op:21,dt:4,nt:8,next:10394,str:52190,d0:10391,d1:35851;
                 ("sleep_until", Expression<MethodOrOperator> @:10391 op:21,dt:2,nt:9,next:10392,str:236,d0:0,d1:0;
                     ("g_key_cruise_entered", VariableAccess<Boolean> @:10392 op:5,dt:5,nt:13,next:10393,str:20312,d0:62,d1:0;
                         (10, Expression<Short> @:10393 op:7,dt:7,nt:9,next:65535,str:52224,d0:10,d1:65535;))))
-            (____, Scope<Void> @:10394 op:366,dt:4,nt:8,next:10398,str:52230,d0:10395,d1:35855;
+            (____, BuiltinInvocation<Void> @:10394 op:366,dt:4,nt:8,next:10398,str:52230,d0:10395,d1:35855;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:10395 op:366,dt:2,nt:9,next:10396,str:15353,d0:0,d1:0;
                     ("key_ride_tartarus/tartarus", Expression<AI> @:10396 op:19,dt:19,nt:9,next:10397,str:21383,d0:0,d1:49315;
                         ("cs_e23_tartarus", Expression<AIScript> @:10397 op:21,dt:21,nt:9,next:65535,str:21442,d0:219,d1:0;))))
-            (____, Scope<Void> @:10398 op:21,dt:4,nt:8,next:10402,str:52316,d0:10399,d1:35859;
+            (____, BuiltinInvocation<Void> @:10398 op:21,dt:4,nt:8,next:10402,str:52316,d0:10399,d1:35859;
                 ("sleep_until", Expression<MethodOrOperator> @:10399 op:21,dt:2,nt:9,next:10400,str:236,d0:0,d1:0;
                     ("g_key_shaft_near_exterior", VariableAccess<Boolean> @:10400 op:5,dt:5,nt:13,next:10401,str:20527,d0:67,d1:0;
                         (10, Expression<Short> @:10401 op:7,dt:7,nt:9,next:65535,str:52355,d0:10,d1:65535;))))
-            (____, Scope<Void> @:10402 op:366,dt:4,nt:8,next:10406,str:52361,d0:10403,d1:35863;
+            (____, BuiltinInvocation<Void> @:10402 op:366,dt:4,nt:8,next:10406,str:52361,d0:10403,d1:35863;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:10403 op:366,dt:2,nt:9,next:10404,str:15353,d0:0,d1:0;
                     ("key_ride_tartarus/tartarus", Expression<AI> @:10404 op:19,dt:19,nt:9,next:10405,str:21383,d0:0,d1:49315;
                         ("cs_e24_tartarus", Expression<AIScript> @:10405 op:21,dt:21,nt:9,next:65535,str:21458,d0:220,d1:0;))))
-            (____, Scope<Void> @:10406 op:21,dt:4,nt:8,next:10410,str:52447,d0:10407,d1:35867;
+            (____, BuiltinInvocation<Void> @:10406 op:21,dt:4,nt:8,next:10410,str:52447,d0:10407,d1:35867;
                 ("sleep_until", Expression<MethodOrOperator> @:10407 op:21,dt:2,nt:9,next:10408,str:236,d0:0,d1:0;
                     ("g_key_lock1_entered", VariableAccess<Boolean> @:10408 op:5,dt:5,nt:13,next:10409,str:20573,d0:68,d1:0;
                         (10, Expression<Short> @:10409 op:7,dt:7,nt:9,next:65535,str:52480,d0:10,d1:65535;))))
-            (____, Scope<Void> @:10410 op:366,dt:4,nt:8,next:10414,str:52486,d0:10411,d1:35871;
+            (____, BuiltinInvocation<Void> @:10410 op:366,dt:4,nt:8,next:10414,str:52486,d0:10411,d1:35871;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:10411 op:366,dt:2,nt:9,next:10412,str:15353,d0:0,d1:0;
                     ("key_ride_tartarus/tartarus", Expression<AI> @:10412 op:19,dt:19,nt:9,next:10413,str:21383,d0:0,d1:49315;
                         ("cs_e25_tartarus", Expression<AIScript> @:10413 op:21,dt:21,nt:9,next:65535,str:21474,d0:221,d1:0;))))
-            (____, Scope<Void> @:10414 op:21,dt:4,nt:8,next:10418,str:52571,d0:10415,d1:35875;
+            (____, BuiltinInvocation<Void> @:10414 op:21,dt:4,nt:8,next:10418,str:52571,d0:10415,d1:35875;
                 ("sleep_until", Expression<MethodOrOperator> @:10415 op:21,dt:2,nt:9,next:10416,str:236,d0:0,d1:0;
                     ("g_key_library_entered", VariableAccess<Boolean> @:10416 op:5,dt:5,nt:13,next:10417,str:20673,d0:71,d1:0;
                         (10, Expression<Short> @:10417 op:7,dt:7,nt:9,next:65535,str:52606,d0:10,d1:65535;))))
-            (____, Scope<Void> @:10418 op:366,dt:4,nt:8,next:65535,str:52612,d0:10419,d1:35879;
+            (____, BuiltinInvocation<Void> @:10418 op:366,dt:4,nt:8,next:65535,str:52612,d0:10419,d1:35879;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:10419 op:366,dt:2,nt:9,next:10420,str:15353,d0:0,d1:0;
                     ("key_ride_tartarus/tartarus", Expression<AI> @:10420 op:19,dt:19,nt:9,next:10421,str:21383,d0:0,d1:49315;
                         ("cs_e26_tartarus", Expression<AIScript> @:10421 op:21,dt:21,nt:9,next:65535,str:21490,d0:222,d1:0;)))))))

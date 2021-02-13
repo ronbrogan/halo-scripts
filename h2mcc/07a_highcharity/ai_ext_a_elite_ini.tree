@@ -1,19 +1,19 @@
 
 ("ai_ext_a_elite_ini", MethodDecl<Void> @:373 op:0,dt:0,nt:65535,next:18505,str:41830,d0:0,d1:0;
-    (____, Scope<Void> @:18505 op:0,dt:4,nt:8,next:65535,str:9392,d0:18506,d1:43966;
+    (____, BuiltinInvocation<Void> @:18505 op:0,dt:4,nt:8,next:65535,str:9392,d0:18506,d1:43966;
         ("begin", Expression<MethodOrOperator> @:18506 op:0,dt:2,nt:9,next:18490,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:18490 op:290,dt:4,nt:8,next:18493,str:9429,d0:18491,d1:43951;
+            (____, BuiltinInvocation<Void> @:18490 op:290,dt:4,nt:8,next:18493,str:9429,d0:18491,d1:43951;
                 ("ai_place", Expression<MethodOrOperator> @:18491 op:290,dt:2,nt:9,next:18492,str:14833,d0:0,d1:0;
                     ("ext_a_elite_ini", Expression<AI> @:18492 op:19,dt:19,nt:9,next:65535,str:36851,d0:148,d1:0;)))
-            (____, Scope<Void> @:18493 op:21,dt:4,nt:8,next:18501,str:9460,d0:18494,d1:43954;
+            (____, BuiltinInvocation<Void> @:18493 op:21,dt:4,nt:8,next:18501,str:9460,d0:18494,d1:43954;
                 ("sleep_until", Expression<MethodOrOperator> @:18494 op:21,dt:2,nt:9,next:18495,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:18495 op:18,dt:5,nt:8,next:65535,str:9473,d0:18496,d1:43956;
+                    (____, BuiltinInvocation<Boolean> @:18495 op:18,dt:5,nt:8,next:65535,str:9473,d0:18496,d1:43956;
                         ("<=", Expression<MethodOrOperator> @:18496 op:18,dt:2,nt:9,next:18497,str:21122,d0:0,d1:0;
-                            (____, Scope<Short> @:18497 op:327,dt:7,nt:8,next:18500,str:9477,d0:18498,d1:43958;
+                            (____, BuiltinInvocation<Short> @:18497 op:327,dt:7,nt:8,next:18500,str:9477,d0:18498,d1:43958;
                                 ("ai_living_count", Expression<MethodOrOperator> @:18498 op:327,dt:2,nt:9,next:18499,str:19381,d0:0,d1:0;
                                     ("ext_a_brute_ini", Expression<AI> @:18499 op:19,dt:19,nt:9,next:65535,str:36867,d0:149,d1:0;)))
                             (0, Expression<Short> @:18500 op:7,dt:7,nt:9,next:65535,str:9511,d0:0,d1:65535;)))))
-            (____, Scope<Void> @:18501 op:309,dt:4,nt:8,next:65535,str:9517,d0:18502,d1:43962;
+            (____, BuiltinInvocation<Void> @:18501 op:309,dt:4,nt:8,next:65535,str:9517,d0:18502,d1:43962;
                 ("ai_migrate", Expression<MethodOrOperator> @:18502 op:309,dt:2,nt:9,next:18503,str:30388,d0:0,d1:0;
                     ("ext_a_elite_ini", Expression<AI> @:18503 op:19,dt:19,nt:9,next:18504,str:36851,d0:148,d1:0;
                         ("ext_a_watch_elites", Expression<AI> @:18504 op:19,dt:19,nt:9,next:65535,str:36883,d0:145,d1:0;)))))))

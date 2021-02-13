@@ -1,54 +1,54 @@
 
 ("x04_cinematic_lighting_scene_05", MethodDecl<Void> @:85 op:0,dt:0,nt:65535,next:2469,str:5744,d0:0,d1:0;
-    (____, Scope<Void> @:2469 op:0,dt:4,nt:8,next:65535,str:28949,d0:2470,d1:60697;
+    (____, BuiltinInvocation<Void> @:2469 op:0,dt:4,nt:8,next:65535,str:28949,d0:2470,d1:60697;
         ("begin", Expression<MethodOrOperator> @:2470 op:0,dt:2,nt:9,next:2417,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:2417 op:96,dt:4,nt:8,next:2424,str:29002,d0:2418,d1:60645;
+            (____, BuiltinInvocation<Void> @:2417 op:96,dt:4,nt:8,next:2424,str:29002,d0:2418,d1:60645;
                 ("cinematic_lighting_set_primary_light", Expression<MethodOrOperator> @:2418 op:96,dt:2,nt:9,next:2419,str:1950,d0:0,d1:0;
                     (-41f, Expression<Float> @:2419 op:6,dt:6,nt:9,next:2420,str:29040,d0:0,d1:49700;
                         (270f, Expression<Float> @:2420 op:6,dt:6,nt:9,next:2421,str:29044,d0:0,d1:17287;
                             (0.25f, Expression<Float> @:2421 op:6,dt:6,nt:9,next:2422,str:29048,d0:0,d1:16000;
                                 (0.32f, Expression<Float> @:2422 op:6,dt:6,nt:9,next:2423,str:29053,d0:55050,d1:16035;
                                     (0.52f, Expression<Float> @:2423 op:6,dt:6,nt:9,next:65535,str:29058,d0:7864,d1:16133;)))))))
-            (____, Scope<Void> @:2424 op:97,dt:4,nt:8,next:2431,str:29066,d0:2425,d1:60652;
+            (____, BuiltinInvocation<Void> @:2424 op:97,dt:4,nt:8,next:2431,str:29066,d0:2425,d1:60652;
                 ("cinematic_lighting_set_secondary_light", Expression<MethodOrOperator> @:2425 op:97,dt:2,nt:9,next:2426,str:1987,d0:0,d1:0;
                     (58f, Expression<Float> @:2426 op:6,dt:6,nt:9,next:2427,str:29106,d0:0,d1:17000;
                         (78f, Expression<Float> @:2427 op:6,dt:6,nt:9,next:2428,str:29109,d0:0,d1:17052;
                             (0.21f, Expression<Float> @:2428 op:6,dt:6,nt:9,next:2429,str:29112,d0:2621,d1:15959;
                                 (0.11f, Expression<Float> @:2429 op:6,dt:6,nt:9,next:2430,str:29117,d0:18350,d1:15841;
                                     (0.22f, Expression<Float> @:2430 op:6,dt:6,nt:9,next:65535,str:29122,d0:18350,d1:15969;)))))))
-            (____, Scope<Void> @:2431 op:98,dt:4,nt:8,next:2436,str:29130,d0:2432,d1:60659;
+            (____, BuiltinInvocation<Void> @:2431 op:98,dt:4,nt:8,next:2436,str:29130,d0:2432,d1:60659;
                 ("cinematic_lighting_set_ambient_light", Expression<MethodOrOperator> @:2432 op:98,dt:2,nt:9,next:2433,str:2026,d0:0,d1:0;
                     (0.06f, Expression<Float> @:2433 op:6,dt:6,nt:9,next:2434,str:29168,d0:49807,d1:15733;
                         (0.05f, Expression<Float> @:2434 op:6,dt:6,nt:9,next:2435,str:29173,d0:52429,d1:15692;
                             (0.04f, Expression<Float> @:2435 op:6,dt:6,nt:9,next:65535,str:29178,d0:55050,d1:15651;)))))
-            (____, Scope<Void> @:2436 op:888,dt:4,nt:8,next:2439,str:29189,d0:2437,d1:60664;
+            (____, BuiltinInvocation<Void> @:2436 op:888,dt:4,nt:8,next:2439,str:29189,d0:2437,d1:60664;
                 ("rasterizer_bloom_override_threshold", Expression<MethodOrOperator> @:2437 op:888,dt:2,nt:9,next:2438,str:2089,d0:0,d1:0;
                     (0.25f, Expression<Float> @:2438 op:6,dt:6,nt:9,next:65535,str:29226,d0:0,d1:16000;)))
-            (____, Scope<Void> @:2439 op:889,dt:4,nt:8,next:2442,str:29234,d0:2440,d1:60667;
+            (____, BuiltinInvocation<Void> @:2439 op:889,dt:4,nt:8,next:2442,str:29234,d0:2440,d1:60667;
                 ("rasterizer_bloom_override_brightness", Expression<MethodOrOperator> @:2440 op:889,dt:2,nt:9,next:2441,str:2125,d0:0,d1:0;
                     (0.8f, Expression<Float> @:2441 op:6,dt:6,nt:9,next:65535,str:29272,d0:52429,d1:16204;)))
-            (____, Scope<Void> @:2442 op:27,dt:4,nt:8,next:2445,str:29278,d0:2443,d1:60670;
+            (____, BuiltinInvocation<Void> @:2442 op:27,dt:4,nt:8,next:2445,str:29278,d0:2443,d1:60670;
                 ("print", Expression<MethodOrOperator> @:2443 op:27,dt:2,nt:9,next:2444,str:91,d0:0,d1:0;
                     ("new bloom .25 .8", Expression<String> @:2444 op:9,dt:9,nt:9,next:65535,str:5671,d0:5671,d1:0;)))
-            (____, Scope<Void> @:2445 op:146,dt:4,nt:8,next:2451,str:29310,d0:2446,d1:60673;
+            (____, BuiltinInvocation<Void> @:2445 op:146,dt:4,nt:8,next:2451,str:29310,d0:2446,d1:60673;
                 ("render_lights_enable_cinematic_shadow", Expression<MethodOrOperator> @:2446 op:146,dt:2,nt:9,next:2447,str:5688,d0:0,d1:0;
                     (True, Expression<Boolean> @:2447 op:5,dt:5,nt:9,next:2448,str:29349,d0:65281,d1:65535;
                         (4294901867, Expression<Entity> @:2448 op:56,dt:50,nt:9,next:2449,str:2193,d0:107,d1:65535;
                             ("head", Expression<StringId> @:2449 op:11,dt:11,nt:9,next:2450,str:5726,d0:149,d1:1024;
                                 (0.2f, Expression<Float> @:2450 op:6,dt:6,nt:9,next:65535,str:29364,d0:52429,d1:15948;))))))
-            (____, Scope<Void> @:2451 op:146,dt:4,nt:8,next:2457,str:29370,d0:2452,d1:60679;
+            (____, BuiltinInvocation<Void> @:2451 op:146,dt:4,nt:8,next:2457,str:29370,d0:2452,d1:60679;
                 ("render_lights_enable_cinematic_shadow", Expression<MethodOrOperator> @:2452 op:146,dt:2,nt:9,next:2453,str:5688,d0:0,d1:0;
                     (True, Expression<Boolean> @:2453 op:5,dt:5,nt:9,next:2454,str:29409,d0:65281,d1:65535;
                         (4294901872, Expression<Entity> @:2454 op:56,dt:50,nt:9,next:2455,str:4747,d0:112,d1:65535;
                             ("head", Expression<StringId> @:2455 op:11,dt:11,nt:9,next:2456,str:5726,d0:149,d1:1024;
                                 (0.2f, Expression<Float> @:2456 op:6,dt:6,nt:9,next:65535,str:29422,d0:52429,d1:15948;))))))
-            (____, Scope<Void> @:2457 op:146,dt:4,nt:8,next:2463,str:29428,d0:2458,d1:60685;
+            (____, BuiltinInvocation<Void> @:2457 op:146,dt:4,nt:8,next:2463,str:29428,d0:2458,d1:60685;
                 ("render_lights_enable_cinematic_shadow", Expression<MethodOrOperator> @:2458 op:146,dt:2,nt:9,next:2459,str:5688,d0:0,d1:0;
                     (True, Expression<Boolean> @:2459 op:5,dt:5,nt:9,next:2460,str:29467,d0:65281,d1:65535;
                         (4294901873, Expression<Entity> @:2460 op:56,dt:50,nt:9,next:2461,str:4753,d0:113,d1:65535;
                             ("head", Expression<StringId> @:2461 op:11,dt:11,nt:9,next:2462,str:5726,d0:149,d1:1024;
                                 (0.2f, Expression<Float> @:2462 op:6,dt:6,nt:9,next:65535,str:29480,d0:52429,d1:15948;))))))
-            (____, Scope<Void> @:2463 op:146,dt:4,nt:8,next:65535,str:29486,d0:2464,d1:60691;
+            (____, BuiltinInvocation<Void> @:2463 op:146,dt:4,nt:8,next:65535,str:29486,d0:2464,d1:60691;
                 ("render_lights_enable_cinematic_shadow", Expression<MethodOrOperator> @:2464 op:146,dt:2,nt:9,next:2465,str:5688,d0:0,d1:0;
                     (True, Expression<Boolean> @:2465 op:5,dt:5,nt:9,next:2466,str:29525,d0:65281,d1:65535;
                         (4294901868, Expression<Entity> @:2466 op:56,dt:50,nt:9,next:2467,str:2201,d0:108,d1:65535;

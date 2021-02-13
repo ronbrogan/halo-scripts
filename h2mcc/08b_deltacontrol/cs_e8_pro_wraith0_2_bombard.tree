@@ -1,42 +1,42 @@
 
 ("cs_e8_pro_wraith0_2_bombard", MethodDecl<Void> @:408 op:0,dt:0,nt:65535,next:15286,str:34143,d0:0,d1:0;
-    (____, Scope<Void> @:15286 op:0,dt:4,nt:8,next:65535,str:60603,d0:15287,d1:40747;
+    (____, BuiltinInvocation<Void> @:15286 op:0,dt:4,nt:8,next:65535,str:60603,d0:15287,d1:40747;
         ("begin", Expression<MethodOrOperator> @:15287 op:0,dt:2,nt:9,next:15246,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:15246 op:441,dt:4,nt:8,next:15249,str:60656,d0:15247,d1:40707;
+            (____, BuiltinInvocation<Void> @:15246 op:441,dt:4,nt:8,next:15249,str:60656,d0:15247,d1:40707;
                 ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:15247 op:441,dt:2,nt:9,next:15248,str:29070,d0:0,d1:0;
                     ("ai_combat_status_clear_los", VariableAccess<Short> @:15248 op:7,dt:7,nt:13,next:65535,str:29096,d0:33579,d1:65535;)))
-            (____, Scope<Void> @:15249 op:401,dt:4,nt:8,next:15253,str:60713,d0:15250,d1:40710;
+            (____, BuiltinInvocation<Void> @:15249 op:401,dt:4,nt:8,next:15253,str:60713,d0:15250,d1:40710;
                 ("cs_face_object", Expression<MethodOrOperator> @:15250 op:401,dt:2,nt:9,next:15251,str:1407,d0:0,d1:0;
                     (True, Expression<Boolean> @:15251 op:5,dt:5,nt:9,next:15252,str:60729,d0:65281,d1:65535;
                         (4294901865, Expression<Entity> @:15252 op:56,dt:50,nt:9,next:65535,str:9846,d0:105,d1:65535;))))
-            (____, Scope<Void> @:15253 op:21,dt:4,nt:8,next:65535,str:60803,d0:15254,d1:40714;
+            (____, BuiltinInvocation<Void> @:15253 op:21,dt:4,nt:8,next:65535,str:60803,d0:15254,d1:40714;
                 ("sleep_until", Expression<MethodOrOperator> @:15254 op:21,dt:2,nt:9,next:15255,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:15255 op:0,dt:5,nt:8,next:15285,str:60819,d0:15256,d1:40716;
+                    (____, BuiltinInvocation<Boolean> @:15255 op:0,dt:5,nt:8,next:15285,str:60819,d0:15256,d1:40716;
                         ("begin", Expression<MethodOrOperator> @:15256 op:0,dt:2,nt:9,next:15257,str:6,d0:0,d1:0;
-                            (____, Scope<Void> @:15257 op:385,dt:4,nt:8,next:15260,str:60855,d0:15258,d1:40718;
+                            (____, BuiltinInvocation<Void> @:15257 op:385,dt:4,nt:8,next:15260,str:60855,d0:15258,d1:40718;
                                 ("cs_go_to", Expression<MethodOrOperator> @:15258 op:385,dt:2,nt:9,next:15259,str:1184,d0:0,d1:0;
                                     ("e8_pro_wraiths0_bombard/p2_0", Expression<SpatialPoint> @:15259 op:28,dt:28,nt:9,next:65535,str:33266,d0:2,d1:18;)))
-                            (____, Scope<Void> @:15260 op:406,dt:4,nt:8,next:15264,str:60929,d0:15261,d1:40721;
+                            (____, BuiltinInvocation<Void> @:15260 op:406,dt:4,nt:8,next:15264,str:60929,d0:15261,d1:40721;
                                 ("cs_shoot_point", Expression<MethodOrOperator> @:15261 op:406,dt:2,nt:9,next:15262,str:27173,d0:0,d1:0;
                                     (True, Expression<Boolean> @:15262 op:5,dt:5,nt:9,next:15263,str:60945,d0:65281,d1:65535;
                                         ("scarab/target_left", Expression<SpatialPoint> @:15263 op:28,dt:28,nt:9,next:65535,str:33218,d0:8,d1:13;))))
-                            (____, Scope<Void> @:15264 op:21,dt:4,nt:8,next:15271,str:61005,d0:15265,d1:40725;
+                            (____, BuiltinInvocation<Void> @:15264 op:21,dt:4,nt:8,next:15271,str:61005,d0:15265,d1:40725;
                                 ("sleep_until", Expression<MethodOrOperator> @:15265 op:21,dt:2,nt:9,next:15266,str:236,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:15266 op:13,dt:5,nt:8,next:15270,str:61018,d0:15267,d1:40727;
+                                    (____, BuiltinInvocation<Boolean> @:15266 op:13,dt:5,nt:8,next:15270,str:61018,d0:15267,d1:40727;
                                         ("=", Expression<MethodOrOperator> @:15267 op:13,dt:2,nt:9,next:15268,str:301,d0:0,d1:0;
                                             ("g_e8_target_wraith", VariableAccess<Short> @:15268 op:0,dt:7,nt:13,next:15269,str:33141,d0:50,d1:0;
                                                 (2, Expression<Short> @:15269 op:7,dt:7,nt:9,next:65535,str:61040,d0:2,d1:65535;))))
                                     (10, Expression<Short> @:15270 op:7,dt:7,nt:9,next:65535,str:61043,d0:10,d1:65535;)))
-                            (____, Scope<Void> @:15271 op:406,dt:4,nt:8,next:15275,str:61085,d0:15272,d1:40732;
+                            (____, BuiltinInvocation<Void> @:15271 op:406,dt:4,nt:8,next:15275,str:61085,d0:15272,d1:40732;
                                 ("cs_shoot_point", Expression<MethodOrOperator> @:15272 op:406,dt:2,nt:9,next:15273,str:27173,d0:0,d1:0;
                                     (False, Expression<Boolean> @:15273 op:5,dt:5,nt:9,next:15274,str:61101,d0:65280,d1:65535;
                                         ("scarab/target_left", Expression<SpatialPoint> @:15274 op:28,dt:28,nt:9,next:65535,str:33218,d0:8,d1:13;))))
-                            (____, Scope<Void> @:15275 op:385,dt:4,nt:8,next:15278,str:61131,d0:15276,d1:40736;
+                            (____, BuiltinInvocation<Void> @:15275 op:385,dt:4,nt:8,next:15278,str:61131,d0:15276,d1:40736;
                                 ("cs_go_to", Expression<MethodOrOperator> @:15276 op:385,dt:2,nt:9,next:15277,str:1184,d0:0,d1:0;
                                     ("e8_pro_wraiths0_bombard/p2_1", Expression<SpatialPoint> @:15277 op:28,dt:28,nt:9,next:65535,str:33295,d0:5,d1:18;)))
-                            (____, Scope<Void> @:15278 op:19,dt:4,nt:8,next:15284,str:61175,d0:15279,d1:40739;
+                            (____, BuiltinInvocation<Void> @:15278 op:19,dt:4,nt:8,next:15284,str:61175,d0:15279,d1:40739;
                                 ("sleep", Expression<MethodOrOperator> @:15279 op:19,dt:2,nt:9,next:15280,str:85,d0:0,d1:0;
-                                    (____, Scope<Short> @:15280 op:124,dt:7,nt:8,next:65535,str:61182,d0:15281,d1:40741;
+                                    (____, BuiltinInvocation<Short> @:15280 op:124,dt:7,nt:8,next:65535,str:61182,d0:15281,d1:40741;
                                         ("random_range", Expression<MethodOrOperator> @:15281 op:124,dt:2,nt:9,next:15282,str:4910,d0:0,d1:0;
                                             (180, Expression<Short> @:15282 op:7,dt:7,nt:9,next:15283,str:61196,d0:180,d1:65535;
                                                 (210, Expression<Short> @:15283 op:7,dt:7,nt:9,next:65535,str:61200,d0:210,d1:65535;))))))

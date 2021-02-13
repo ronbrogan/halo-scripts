@@ -1,52 +1,52 @@
 
 ("e26_fld_infections_main", MethodDecl<Void> @:231 op:0,dt:0,nt:65535,next:10726,str:22133,d0:0,d1:0;
-    (____, Scope<Void> @:10726 op:0,dt:4,nt:8,next:65535,str:55886,d0:10727,d1:36187;
+    (____, BuiltinInvocation<Void> @:10726 op:0,dt:4,nt:8,next:65535,str:55886,d0:10727,d1:36187;
         ("begin", Expression<MethodOrOperator> @:10727 op:0,dt:2,nt:9,next:10678,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:10678 op:290,dt:4,nt:8,next:10681,str:55928,d0:10679,d1:36139;
+            (____, BuiltinInvocation<Void> @:10678 op:290,dt:4,nt:8,next:10681,str:55928,d0:10679,d1:36139;
                 ("ai_place", Expression<MethodOrOperator> @:10679 op:290,dt:2,nt:9,next:10680,str:16231,d0:0,d1:0;
                     ("e26_fld_infection_forms0/swarm0", Expression<AI> @:10680 op:19,dt:19,nt:9,next:65535,str:21853,d0:0,d1:49314;)))
-            (____, Scope<Void> @:10681 op:21,dt:4,nt:8,next:10693,str:55973,d0:10682,d1:36142;
+            (____, BuiltinInvocation<Void> @:10681 op:21,dt:4,nt:8,next:10693,str:55973,d0:10682,d1:36142;
                 ("sleep_until", Expression<MethodOrOperator> @:10682 op:21,dt:2,nt:9,next:10683,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:10683 op:16,dt:5,nt:8,next:10691,str:55986,d0:10684,d1:36144;
+                    (____, BuiltinInvocation<Boolean> @:10683 op:16,dt:5,nt:8,next:10691,str:55986,d0:10684,d1:36144;
                         ("<", Expression<MethodOrOperator> @:10684 op:16,dt:2,nt:9,next:10685,str:852,d0:0,d1:0;
-                            (-5.490073E-31f, Scope<Float> @:10685 op:115,dt:6,nt:8,next:10690,str:55989,d0:10686,d1:36146;
+                            (-5.490073E-31f, BuiltinInvocation<Float> @:10685 op:115,dt:6,nt:8,next:10690,str:55989,d0:10686,d1:36146;
                                 ("objects_distance_to_flag", Expression<MethodOrOperator> @:10686 op:115,dt:2,nt:9,next:10687,str:21885,d0:0,d1:0;
-                                    (____, Scope<List> @:10687 op:28,dt:31,nt:8,next:10689,str:56015,d0:10688,d1:36148;
+                                    (____, BuiltinInvocation<List> @:10687 op:28,dt:31,nt:8,next:10689,str:56015,d0:10688,d1:36148;
                                         ("players", Expression<MethodOrOperator> @:10688 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;))
                                     ("e26_fld_infs0_1", Expression<LocationFlag> @:10689 op:14,dt:14,nt:9,next:65535,str:21910,d0:31,d1:0;)))
                             (10f, Expression<Float> @:10690 op:6,dt:6,nt:9,next:65535,str:56042,d0:0,d1:16672;)))
                     (10, Expression<Short> @:10691 op:7,dt:7,nt:9,next:10692,str:56046,d0:10,d1:65535;
                         (300, Expression<Int> @:10692 op:8,dt:8,nt:9,next:65535,str:56049,d0:300,d1:0;))))
-            (____, Scope<Void> @:10693 op:290,dt:4,nt:8,next:10696,str:56056,d0:10694,d1:36154;
+            (____, BuiltinInvocation<Void> @:10693 op:290,dt:4,nt:8,next:10696,str:56056,d0:10694,d1:36154;
                 ("ai_place", Expression<MethodOrOperator> @:10694 op:290,dt:2,nt:9,next:10695,str:16231,d0:0,d1:0;
                     ("e26_fld_infection_forms0/swarm1", Expression<AI> @:10695 op:19,dt:19,nt:9,next:65535,str:21926,d0:1,d1:49314;)))
-            (____, Scope<Void> @:10696 op:21,dt:4,nt:8,next:10708,str:56101,d0:10697,d1:36157;
+            (____, BuiltinInvocation<Void> @:10696 op:21,dt:4,nt:8,next:10708,str:56101,d0:10697,d1:36157;
                 ("sleep_until", Expression<MethodOrOperator> @:10697 op:21,dt:2,nt:9,next:10698,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:10698 op:16,dt:5,nt:8,next:10706,str:56114,d0:10699,d1:36159;
+                    (____, BuiltinInvocation<Boolean> @:10698 op:16,dt:5,nt:8,next:10706,str:56114,d0:10699,d1:36159;
                         ("<", Expression<MethodOrOperator> @:10699 op:16,dt:2,nt:9,next:10700,str:852,d0:0,d1:0;
-                            (-5.9523033E-31f, Scope<Float> @:10700 op:115,dt:6,nt:8,next:10705,str:56117,d0:10701,d1:36161;
+                            (-5.9523033E-31f, BuiltinInvocation<Float> @:10700 op:115,dt:6,nt:8,next:10705,str:56117,d0:10701,d1:36161;
                                 ("objects_distance_to_flag", Expression<MethodOrOperator> @:10701 op:115,dt:2,nt:9,next:10702,str:21885,d0:0,d1:0;
-                                    (____, Scope<List> @:10702 op:28,dt:31,nt:8,next:10704,str:56143,d0:10703,d1:36163;
+                                    (____, BuiltinInvocation<List> @:10702 op:28,dt:31,nt:8,next:10704,str:56143,d0:10703,d1:36163;
                                         ("players", Expression<MethodOrOperator> @:10703 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;))
                                     ("e26_fld_infs0_2", Expression<LocationFlag> @:10704 op:14,dt:14,nt:9,next:65535,str:21958,d0:32,d1:0;)))
                             (10f, Expression<Float> @:10705 op:6,dt:6,nt:9,next:65535,str:56170,d0:0,d1:16672;)))
                     (10, Expression<Short> @:10706 op:7,dt:7,nt:9,next:10707,str:56174,d0:10,d1:65535;
                         (300, Expression<Int> @:10707 op:8,dt:8,nt:9,next:65535,str:56177,d0:300,d1:0;))))
-            (____, Scope<Void> @:10708 op:290,dt:4,nt:8,next:10711,str:56184,d0:10709,d1:36169;
+            (____, BuiltinInvocation<Void> @:10708 op:290,dt:4,nt:8,next:10711,str:56184,d0:10709,d1:36169;
                 ("ai_place", Expression<MethodOrOperator> @:10709 op:290,dt:2,nt:9,next:10710,str:16231,d0:0,d1:0;
                     ("e26_fld_infection_forms0/swarm2", Expression<AI> @:10710 op:19,dt:19,nt:9,next:65535,str:21974,d0:2,d1:49314;)))
-            (____, Scope<Void> @:10711 op:21,dt:4,nt:8,next:10723,str:56229,d0:10712,d1:36172;
+            (____, BuiltinInvocation<Void> @:10711 op:21,dt:4,nt:8,next:10723,str:56229,d0:10712,d1:36172;
                 ("sleep_until", Expression<MethodOrOperator> @:10712 op:21,dt:2,nt:9,next:10713,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:10713 op:16,dt:5,nt:8,next:10721,str:56242,d0:10714,d1:36174;
+                    (____, BuiltinInvocation<Boolean> @:10713 op:16,dt:5,nt:8,next:10721,str:56242,d0:10714,d1:36174;
                         ("<", Expression<MethodOrOperator> @:10714 op:16,dt:2,nt:9,next:10715,str:852,d0:0,d1:0;
-                            (-6.4145335E-31f, Scope<Float> @:10715 op:115,dt:6,nt:8,next:10720,str:56245,d0:10716,d1:36176;
+                            (-6.4145335E-31f, BuiltinInvocation<Float> @:10715 op:115,dt:6,nt:8,next:10720,str:56245,d0:10716,d1:36176;
                                 ("objects_distance_to_flag", Expression<MethodOrOperator> @:10716 op:115,dt:2,nt:9,next:10717,str:21885,d0:0,d1:0;
-                                    (____, Scope<List> @:10717 op:28,dt:31,nt:8,next:10719,str:56271,d0:10718,d1:36178;
+                                    (____, BuiltinInvocation<List> @:10717 op:28,dt:31,nt:8,next:10719,str:56271,d0:10718,d1:36178;
                                         ("players", Expression<MethodOrOperator> @:10718 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;))
                                     ("e26_fld_infs0_3", Expression<LocationFlag> @:10719 op:14,dt:14,nt:9,next:65535,str:22006,d0:33,d1:0;)))
                             (10f, Expression<Float> @:10720 op:6,dt:6,nt:9,next:65535,str:56298,d0:0,d1:16672;)))
                     (10, Expression<Short> @:10721 op:7,dt:7,nt:9,next:10722,str:56302,d0:10,d1:65535;
                         (300, Expression<Int> @:10722 op:8,dt:8,nt:9,next:65535,str:56305,d0:300,d1:0;))))
-            (____, Scope<Void> @:10723 op:290,dt:4,nt:8,next:65535,str:56312,d0:10724,d1:36184;
+            (____, BuiltinInvocation<Void> @:10723 op:290,dt:4,nt:8,next:65535,str:56312,d0:10724,d1:36184;
                 ("ai_place", Expression<MethodOrOperator> @:10724 op:290,dt:2,nt:9,next:10725,str:16231,d0:0,d1:0;
                     ("e26_fld_infection_forms0/swarm3", Expression<AI> @:10725 op:19,dt:19,nt:9,next:65535,str:22022,d0:3,d1:49314;))))))

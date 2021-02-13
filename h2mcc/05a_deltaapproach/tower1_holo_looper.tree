@@ -1,261 +1,261 @@
 
 ("tower1_holo_looper", MethodDecl<Void> @:338 op:0,dt:0,nt:65535,next:22808,str:35428,d0:0,d1:0;
-    (____, Scope<Void> @:22808 op:0,dt:4,nt:8,next:65535,str:55630,d0:22809,d1:48269;
+    (____, BuiltinInvocation<Void> @:22808 op:0,dt:4,nt:8,next:65535,str:55630,d0:22809,d1:48269;
         ("begin", Expression<MethodOrOperator> @:22809 op:0,dt:2,nt:9,next:22550,str:54,d0:0,d1:0;
-            (____, Scope<Void> @:22550 op:46,dt:4,nt:8,next:22553,str:55667,d0:22551,d1:48011;
+            (____, BuiltinInvocation<Void> @:22550 op:46,dt:4,nt:8,next:22553,str:55667,d0:22551,d1:48011;
                 ("object_create", Expression<MethodOrOperator> @:22551 op:46,dt:2,nt:9,next:22552,str:12369,d0:0,d1:0;
                     ("regret03", Expression<EntityIdentifier> @:22552 op:56,dt:56,nt:9,next:65535,str:35202,d0:80,d1:65535;)))
-            (____, Scope<Void> @:22553 op:74,dt:4,nt:8,next:22559,str:55694,d0:22554,d1:48014;
+            (____, BuiltinInvocation<Void> @:22553 op:74,dt:4,nt:8,next:22559,str:55694,d0:22554,d1:48014;
                 ("objects_attach", Expression<MethodOrOperator> @:22554 op:74,dt:2,nt:9,next:22555,str:11105,d0:0,d1:0;
                     (4294901787, Expression<Entity> @:22555 op:56,dt:50,nt:9,next:22556,str:35211,d0:27,d1:65535;
                         ("driver", Expression<StringId> @:22556 op:11,dt:11,nt:9,next:22557,str:21416,d0:5471,d1:1536;
                             (4294901840, Expression<Entity> @:22557 op:56,dt:50,nt:9,next:22558,str:35202,d0:80,d1:65535;
                                 (0, Expression<StringId> @:22558 op:11,dt:11,nt:9,next:65535,str:0,d0:0,d1:0;))))))
-            (____, Scope<Void> @:22559 op:314,dt:4,nt:8,next:22563,str:55748,d0:22560,d1:48020;
+            (____, BuiltinInvocation<Void> @:22559 op:314,dt:4,nt:8,next:22563,str:55748,d0:22560,d1:48020;
                 ("ai_disregard", Expression<MethodOrOperator> @:22560 op:314,dt:2,nt:9,next:22561,str:21423,d0:0,d1:0;
                     ("regret03", Expression<List> @:22561 op:56,dt:31,nt:9,next:22562,str:35202,d0:80,d1:65535;
                         (True, Expression<Boolean> @:22562 op:5,dt:5,nt:9,next:65535,str:55771,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:22563 op:21,dt:4,nt:8,next:65535,str:55779,d0:22564,d1:48024;
+            (____, BuiltinInvocation<Void> @:22563 op:21,dt:4,nt:8,next:65535,str:55779,d0:22564,d1:48024;
                 ("sleep_until", Expression<MethodOrOperator> @:22564 op:21,dt:2,nt:9,next:22565,str:284,d0:0,d1:0;
-                    (____, Scope<Boolean> @:22565 op:0,dt:5,nt:8,next:65535,str:55795,d0:22566,d1:48026;
+                    (____, BuiltinInvocation<Boolean> @:22565 op:0,dt:5,nt:8,next:65535,str:55795,d0:22566,d1:48026;
                         ("begin", Expression<MethodOrOperator> @:22566 op:0,dt:2,nt:9,next:22567,str:54,d0:0,d1:0;
-                            (____, Scope<Void> @:22567 op:1,dt:4,nt:8,next:22807,str:55806,d0:22568,d1:48028;
+                            (____, BuiltinInvocation<Void> @:22567 op:1,dt:4,nt:8,next:22807,str:55806,d0:22568,d1:48028;
                                 ("begin_random", Expression<MethodOrOperator> @:22568 op:1,dt:2,nt:9,next:22569,str:14579,d0:0,d1:0;
-                                    (____, Scope<Void> @:22569 op:2,dt:4,nt:8,next:22603,str:55825,d0:22570,d1:48030;
+                                    (____, BuiltinInvocation<Void> @:22569 op:2,dt:4,nt:8,next:22603,str:55825,d0:22570,d1:48030;
                                         ("if", Expression<MethodOrOperator> @:22570 op:2,dt:2,nt:9,next:22571,str:509,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:22571 op:13,dt:5,nt:8,next:22575,str:55829,d0:22572,d1:48032;
+                                            (____, BuiltinInvocation<Boolean> @:22571 op:13,dt:5,nt:8,next:22575,str:55829,d0:22572,d1:48032;
                                                 ("=", Expression<MethodOrOperator> @:22572 op:13,dt:2,nt:9,next:22573,str:349,d0:0,d1:0;
                                                     ("tower1_holo_trans", VariableAccess<Boolean> @:22573 op:0,dt:5,nt:13,next:22574,str:35225,d0:40,d1:0;
                                                         (False, Expression<Boolean> @:22574 op:5,dt:5,nt:9,next:65535,str:55850,d0:65280,d1:65535;))))
-                                            (____, Scope<Void> @:22575 op:0,dt:4,nt:8,next:65535,str:55863,d0:22576,d1:48036;
+                                            (____, BuiltinInvocation<Void> @:22575 op:0,dt:4,nt:8,next:65535,str:55863,d0:22576,d1:48036;
                                                 ("begin", Expression<MethodOrOperator> @:22576 op:0,dt:2,nt:9,next:22577,str:54,d0:0,d1:0;
-                                                    (____, Scope<Void> @:22577 op:4,dt:4,nt:8,next:22581,str:55877,d0:22578,d1:48038;
+                                                    (____, BuiltinInvocation<Void> @:22577 op:4,dt:4,nt:8,next:22581,str:55877,d0:22578,d1:48038;
                                                         ("set", Expression<MethodOrOperator> @:22578 op:4,dt:2,nt:9,next:22579,str:1895,d0:0,d1:0;
                                                             ("tower1_holo_chant", VariableAccess<Boolean> @:22579 op:65535,dt:5,nt:13,next:22580,str:35243,d0:41,d1:0;
                                                                 (True, Expression<Boolean> @:22580 op:5,dt:5,nt:9,next:65535,str:55900,d0:65281,d1:65535;))))
-                                                    (____, Scope<Void> @:22581 op:201,dt:4,nt:8,next:22587,str:55913,d0:22582,d1:48042;
+                                                    (____, BuiltinInvocation<Void> @:22581 op:201,dt:4,nt:8,next:22587,str:55913,d0:22582,d1:48042;
                                                         ("custom_animation", Expression<MethodOrOperator> @:22582 op:201,dt:2,nt:9,next:22583,str:21472,d0:0,d1:0;
                                                             ("regret03", Expression<Unit> @:22583 op:57,dt:51,nt:9,next:22584,str:35202,d0:80,d1:65535;
                                                                 ("objects\characters\prophet\prophet", Expression<Animation> @:22584 op:36,dt:36,nt:9,next:22585,str:21489,d0:1736,d1:59454;
                                                                     ("regret_chant1a", Expression<StringId> @:22585 op:11,dt:11,nt:9,next:22586,str:21524,d0:5484,d1:3584;
                                                                         (True, Expression<Boolean> @:22586 op:5,dt:5,nt:9,next:65535,str:55992,d0:65281,d1:65535;))))))
-                                                    (____, Scope<Void> @:22587 op:19,dt:4,nt:8,next:22593,str:56005,d0:22588,d1:48048;
+                                                    (____, BuiltinInvocation<Void> @:22587 op:19,dt:4,nt:8,next:22593,str:56005,d0:22588,d1:48048;
                                                         ("sleep", Expression<MethodOrOperator> @:22588 op:19,dt:2,nt:9,next:22589,str:133,d0:0,d1:0;
-                                                            (____, Scope<Short> @:22589 op:362,dt:7,nt:8,next:65535,str:56012,d0:22590,d1:48050;
+                                                            (____, BuiltinInvocation<Short> @:22589 op:362,dt:7,nt:8,next:65535,str:56012,d0:22590,d1:48050;
                                                                 ("ai_play_line_on_object", Expression<MethodOrOperator> @:22590 op:362,dt:2,nt:9,next:22591,str:15240,d0:0,d1:0;
                                                                     (4294901840, Expression<Entity> @:22591 op:56,dt:50,nt:9,next:22592,str:35202,d0:80,d1:65535;
                                                                         ("3000", Expression<StringId> @:22592 op:11,dt:11,nt:9,next:65535,str:21539,d0:12165,d1:1024;))))))
-                                                    (____, Scope<Void> @:22593 op:19,dt:4,nt:8,next:22599,str:56059,d0:22594,d1:48054;
+                                                    (____, BuiltinInvocation<Void> @:22593 op:19,dt:4,nt:8,next:22599,str:56059,d0:22594,d1:48054;
                                                         ("sleep", Expression<MethodOrOperator> @:22594 op:19,dt:2,nt:9,next:22595,str:133,d0:0,d1:0;
-                                                            (____, Scope<Short> @:22595 op:124,dt:7,nt:8,next:65535,str:56066,d0:22596,d1:48056;
+                                                            (____, BuiltinInvocation<Short> @:22595 op:124,dt:7,nt:8,next:65535,str:56066,d0:22596,d1:48056;
                                                                 ("random_range", Expression<MethodOrOperator> @:22596 op:124,dt:2,nt:9,next:22597,str:14653,d0:0,d1:0;
                                                                     (240, Expression<Short> @:22597 op:7,dt:7,nt:9,next:22598,str:56080,d0:240,d1:65535;
                                                                         (480, Expression<Short> @:22598 op:7,dt:7,nt:9,next:65535,str:56084,d0:480,d1:65535;))))))
-                                                    (____, Scope<Void> @:22599 op:4,dt:4,nt:8,next:65535,str:56097,d0:22600,d1:48060;
+                                                    (____, BuiltinInvocation<Void> @:22599 op:4,dt:4,nt:8,next:65535,str:56097,d0:22600,d1:48060;
                                                         ("set", Expression<MethodOrOperator> @:22600 op:4,dt:2,nt:9,next:22601,str:1895,d0:0,d1:0;
                                                             ("tower1_holo_chant", VariableAccess<Boolean> @:22601 op:65535,dt:5,nt:13,next:22602,str:35243,d0:41,d1:0;
                                                                 (False, Expression<Boolean> @:22602 op:5,dt:5,nt:9,next:65535,str:56120,d0:65280,d1:65535;))))))))
-                                    (____, Scope<Void> @:22603 op:2,dt:4,nt:8,next:22637,str:56147,d0:22604,d1:48064;
+                                    (____, BuiltinInvocation<Void> @:22603 op:2,dt:4,nt:8,next:22637,str:56147,d0:22604,d1:48064;
                                         ("if", Expression<MethodOrOperator> @:22604 op:2,dt:2,nt:9,next:22605,str:509,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:22605 op:13,dt:5,nt:8,next:22609,str:56151,d0:22606,d1:48066;
+                                            (____, BuiltinInvocation<Boolean> @:22605 op:13,dt:5,nt:8,next:22609,str:56151,d0:22606,d1:48066;
                                                 ("=", Expression<MethodOrOperator> @:22606 op:13,dt:2,nt:9,next:22607,str:349,d0:0,d1:0;
                                                     ("tower1_holo_trans", VariableAccess<Boolean> @:22607 op:0,dt:5,nt:13,next:22608,str:35225,d0:40,d1:0;
                                                         (False, Expression<Boolean> @:22608 op:5,dt:5,nt:9,next:65535,str:56172,d0:65280,d1:65535;))))
-                                            (____, Scope<Void> @:22609 op:0,dt:4,nt:8,next:65535,str:56185,d0:22610,d1:48070;
+                                            (____, BuiltinInvocation<Void> @:22609 op:0,dt:4,nt:8,next:65535,str:56185,d0:22610,d1:48070;
                                                 ("begin", Expression<MethodOrOperator> @:22610 op:0,dt:2,nt:9,next:22611,str:54,d0:0,d1:0;
-                                                    (____, Scope<Void> @:22611 op:4,dt:4,nt:8,next:22615,str:56199,d0:22612,d1:48072;
+                                                    (____, BuiltinInvocation<Void> @:22611 op:4,dt:4,nt:8,next:22615,str:56199,d0:22612,d1:48072;
                                                         ("set", Expression<MethodOrOperator> @:22612 op:4,dt:2,nt:9,next:22613,str:1895,d0:0,d1:0;
                                                             ("tower1_holo_chant", VariableAccess<Boolean> @:22613 op:65535,dt:5,nt:13,next:22614,str:35243,d0:41,d1:0;
                                                                 (True, Expression<Boolean> @:22614 op:5,dt:5,nt:9,next:65535,str:56222,d0:65281,d1:65535;))))
-                                                    (____, Scope<Void> @:22615 op:201,dt:4,nt:8,next:22621,str:56235,d0:22616,d1:48076;
+                                                    (____, BuiltinInvocation<Void> @:22615 op:201,dt:4,nt:8,next:22621,str:56235,d0:22616,d1:48076;
                                                         ("custom_animation", Expression<MethodOrOperator> @:22616 op:201,dt:2,nt:9,next:22617,str:21472,d0:0,d1:0;
                                                             ("regret03", Expression<Unit> @:22617 op:57,dt:51,nt:9,next:22618,str:35202,d0:80,d1:65535;
                                                                 ("objects\characters\prophet\prophet", Expression<Animation> @:22618 op:36,dt:36,nt:9,next:22619,str:21489,d0:1736,d1:59454;
                                                                     ("regret_chant2b", Expression<StringId> @:22619 op:11,dt:11,nt:9,next:22620,str:21544,d0:5485,d1:3584;
                                                                         (True, Expression<Boolean> @:22620 op:5,dt:5,nt:9,next:65535,str:56314,d0:65281,d1:65535;))))))
-                                                    (____, Scope<Void> @:22621 op:19,dt:4,nt:8,next:22627,str:56327,d0:22622,d1:48082;
+                                                    (____, BuiltinInvocation<Void> @:22621 op:19,dt:4,nt:8,next:22627,str:56327,d0:22622,d1:48082;
                                                         ("sleep", Expression<MethodOrOperator> @:22622 op:19,dt:2,nt:9,next:22623,str:133,d0:0,d1:0;
-                                                            (____, Scope<Short> @:22623 op:362,dt:7,nt:8,next:65535,str:56334,d0:22624,d1:48084;
+                                                            (____, BuiltinInvocation<Short> @:22623 op:362,dt:7,nt:8,next:65535,str:56334,d0:22624,d1:48084;
                                                                 ("ai_play_line_on_object", Expression<MethodOrOperator> @:22624 op:362,dt:2,nt:9,next:22625,str:15240,d0:0,d1:0;
                                                                     (4294901840, Expression<Entity> @:22625 op:56,dt:50,nt:9,next:22626,str:35202,d0:80,d1:65535;
                                                                         ("3001", Expression<StringId> @:22626 op:11,dt:11,nt:9,next:65535,str:21559,d0:12166,d1:1024;))))))
-                                                    (____, Scope<Void> @:22627 op:19,dt:4,nt:8,next:22633,str:56381,d0:22628,d1:48088;
+                                                    (____, BuiltinInvocation<Void> @:22627 op:19,dt:4,nt:8,next:22633,str:56381,d0:22628,d1:48088;
                                                         ("sleep", Expression<MethodOrOperator> @:22628 op:19,dt:2,nt:9,next:22629,str:133,d0:0,d1:0;
-                                                            (____, Scope<Short> @:22629 op:124,dt:7,nt:8,next:65535,str:56388,d0:22630,d1:48090;
+                                                            (____, BuiltinInvocation<Short> @:22629 op:124,dt:7,nt:8,next:65535,str:56388,d0:22630,d1:48090;
                                                                 ("random_range", Expression<MethodOrOperator> @:22630 op:124,dt:2,nt:9,next:22631,str:14653,d0:0,d1:0;
                                                                     (240, Expression<Short> @:22631 op:7,dt:7,nt:9,next:22632,str:56402,d0:240,d1:65535;
                                                                         (480, Expression<Short> @:22632 op:7,dt:7,nt:9,next:65535,str:56406,d0:480,d1:65535;))))))
-                                                    (____, Scope<Void> @:22633 op:4,dt:4,nt:8,next:65535,str:56419,d0:22634,d1:48094;
+                                                    (____, BuiltinInvocation<Void> @:22633 op:4,dt:4,nt:8,next:65535,str:56419,d0:22634,d1:48094;
                                                         ("set", Expression<MethodOrOperator> @:22634 op:4,dt:2,nt:9,next:22635,str:1895,d0:0,d1:0;
                                                             ("tower1_holo_chant", VariableAccess<Boolean> @:22635 op:65535,dt:5,nt:13,next:22636,str:35243,d0:41,d1:0;
                                                                 (False, Expression<Boolean> @:22636 op:5,dt:5,nt:9,next:65535,str:56442,d0:65280,d1:65535;))))))))
-                                    (____, Scope<Void> @:22637 op:2,dt:4,nt:8,next:22671,str:56469,d0:22638,d1:48098;
+                                    (____, BuiltinInvocation<Void> @:22637 op:2,dt:4,nt:8,next:22671,str:56469,d0:22638,d1:48098;
                                         ("if", Expression<MethodOrOperator> @:22638 op:2,dt:2,nt:9,next:22639,str:509,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:22639 op:13,dt:5,nt:8,next:22643,str:56473,d0:22640,d1:48100;
+                                            (____, BuiltinInvocation<Boolean> @:22639 op:13,dt:5,nt:8,next:22643,str:56473,d0:22640,d1:48100;
                                                 ("=", Expression<MethodOrOperator> @:22640 op:13,dt:2,nt:9,next:22641,str:349,d0:0,d1:0;
                                                     ("tower1_holo_trans", VariableAccess<Boolean> @:22641 op:0,dt:5,nt:13,next:22642,str:35225,d0:40,d1:0;
                                                         (False, Expression<Boolean> @:22642 op:5,dt:5,nt:9,next:65535,str:56494,d0:65280,d1:65535;))))
-                                            (____, Scope<Void> @:22643 op:0,dt:4,nt:8,next:65535,str:56507,d0:22644,d1:48104;
+                                            (____, BuiltinInvocation<Void> @:22643 op:0,dt:4,nt:8,next:65535,str:56507,d0:22644,d1:48104;
                                                 ("begin", Expression<MethodOrOperator> @:22644 op:0,dt:2,nt:9,next:22645,str:54,d0:0,d1:0;
-                                                    (____, Scope<Void> @:22645 op:4,dt:4,nt:8,next:22649,str:56521,d0:22646,d1:48106;
+                                                    (____, BuiltinInvocation<Void> @:22645 op:4,dt:4,nt:8,next:22649,str:56521,d0:22646,d1:48106;
                                                         ("set", Expression<MethodOrOperator> @:22646 op:4,dt:2,nt:9,next:22647,str:1895,d0:0,d1:0;
                                                             ("tower1_holo_chant", VariableAccess<Boolean> @:22647 op:65535,dt:5,nt:13,next:22648,str:35243,d0:41,d1:0;
                                                                 (True, Expression<Boolean> @:22648 op:5,dt:5,nt:9,next:65535,str:56544,d0:65281,d1:65535;))))
-                                                    (____, Scope<Void> @:22649 op:201,dt:4,nt:8,next:22655,str:56557,d0:22650,d1:48110;
+                                                    (____, BuiltinInvocation<Void> @:22649 op:201,dt:4,nt:8,next:22655,str:56557,d0:22650,d1:48110;
                                                         ("custom_animation", Expression<MethodOrOperator> @:22650 op:201,dt:2,nt:9,next:22651,str:21472,d0:0,d1:0;
                                                             ("regret03", Expression<Unit> @:22651 op:57,dt:51,nt:9,next:22652,str:35202,d0:80,d1:65535;
                                                                 ("objects\characters\prophet\prophet", Expression<Animation> @:22652 op:36,dt:36,nt:9,next:22653,str:21489,d0:1736,d1:59454;
                                                                     ("regret_chant2c", Expression<StringId> @:22653 op:11,dt:11,nt:9,next:22654,str:21564,d0:5486,d1:3584;
                                                                         (True, Expression<Boolean> @:22654 op:5,dt:5,nt:9,next:65535,str:56636,d0:65281,d1:65535;))))))
-                                                    (____, Scope<Void> @:22655 op:19,dt:4,nt:8,next:22661,str:56649,d0:22656,d1:48116;
+                                                    (____, BuiltinInvocation<Void> @:22655 op:19,dt:4,nt:8,next:22661,str:56649,d0:22656,d1:48116;
                                                         ("sleep", Expression<MethodOrOperator> @:22656 op:19,dt:2,nt:9,next:22657,str:133,d0:0,d1:0;
-                                                            (____, Scope<Short> @:22657 op:362,dt:7,nt:8,next:65535,str:56656,d0:22658,d1:48118;
+                                                            (____, BuiltinInvocation<Short> @:22657 op:362,dt:7,nt:8,next:65535,str:56656,d0:22658,d1:48118;
                                                                 ("ai_play_line_on_object", Expression<MethodOrOperator> @:22658 op:362,dt:2,nt:9,next:22659,str:15240,d0:0,d1:0;
                                                                     (4294901840, Expression<Entity> @:22659 op:56,dt:50,nt:9,next:22660,str:35202,d0:80,d1:65535;
                                                                         ("3002", Expression<StringId> @:22660 op:11,dt:11,nt:9,next:65535,str:21579,d0:12167,d1:1024;))))))
-                                                    (____, Scope<Void> @:22661 op:19,dt:4,nt:8,next:22667,str:56703,d0:22662,d1:48122;
+                                                    (____, BuiltinInvocation<Void> @:22661 op:19,dt:4,nt:8,next:22667,str:56703,d0:22662,d1:48122;
                                                         ("sleep", Expression<MethodOrOperator> @:22662 op:19,dt:2,nt:9,next:22663,str:133,d0:0,d1:0;
-                                                            (____, Scope<Short> @:22663 op:124,dt:7,nt:8,next:65535,str:56710,d0:22664,d1:48124;
+                                                            (____, BuiltinInvocation<Short> @:22663 op:124,dt:7,nt:8,next:65535,str:56710,d0:22664,d1:48124;
                                                                 ("random_range", Expression<MethodOrOperator> @:22664 op:124,dt:2,nt:9,next:22665,str:14653,d0:0,d1:0;
                                                                     (240, Expression<Short> @:22665 op:7,dt:7,nt:9,next:22666,str:56724,d0:240,d1:65535;
                                                                         (480, Expression<Short> @:22666 op:7,dt:7,nt:9,next:65535,str:56728,d0:480,d1:65535;))))))
-                                                    (____, Scope<Void> @:22667 op:4,dt:4,nt:8,next:65535,str:56741,d0:22668,d1:48128;
+                                                    (____, BuiltinInvocation<Void> @:22667 op:4,dt:4,nt:8,next:65535,str:56741,d0:22668,d1:48128;
                                                         ("set", Expression<MethodOrOperator> @:22668 op:4,dt:2,nt:9,next:22669,str:1895,d0:0,d1:0;
                                                             ("tower1_holo_chant", VariableAccess<Boolean> @:22669 op:65535,dt:5,nt:13,next:22670,str:35243,d0:41,d1:0;
                                                                 (False, Expression<Boolean> @:22670 op:5,dt:5,nt:9,next:65535,str:56764,d0:65280,d1:65535;))))))))
-                                    (____, Scope<Void> @:22671 op:2,dt:4,nt:8,next:22705,str:56791,d0:22672,d1:48132;
+                                    (____, BuiltinInvocation<Void> @:22671 op:2,dt:4,nt:8,next:22705,str:56791,d0:22672,d1:48132;
                                         ("if", Expression<MethodOrOperator> @:22672 op:2,dt:2,nt:9,next:22673,str:509,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:22673 op:13,dt:5,nt:8,next:22677,str:56795,d0:22674,d1:48134;
+                                            (____, BuiltinInvocation<Boolean> @:22673 op:13,dt:5,nt:8,next:22677,str:56795,d0:22674,d1:48134;
                                                 ("=", Expression<MethodOrOperator> @:22674 op:13,dt:2,nt:9,next:22675,str:349,d0:0,d1:0;
                                                     ("tower1_holo_trans", VariableAccess<Boolean> @:22675 op:0,dt:5,nt:13,next:22676,str:35225,d0:40,d1:0;
                                                         (False, Expression<Boolean> @:22676 op:5,dt:5,nt:9,next:65535,str:56816,d0:65280,d1:65535;))))
-                                            (____, Scope<Void> @:22677 op:0,dt:4,nt:8,next:65535,str:56829,d0:22678,d1:48138;
+                                            (____, BuiltinInvocation<Void> @:22677 op:0,dt:4,nt:8,next:65535,str:56829,d0:22678,d1:48138;
                                                 ("begin", Expression<MethodOrOperator> @:22678 op:0,dt:2,nt:9,next:22679,str:54,d0:0,d1:0;
-                                                    (____, Scope<Void> @:22679 op:4,dt:4,nt:8,next:22683,str:56843,d0:22680,d1:48140;
+                                                    (____, BuiltinInvocation<Void> @:22679 op:4,dt:4,nt:8,next:22683,str:56843,d0:22680,d1:48140;
                                                         ("set", Expression<MethodOrOperator> @:22680 op:4,dt:2,nt:9,next:22681,str:1895,d0:0,d1:0;
                                                             ("tower1_holo_chant", VariableAccess<Boolean> @:22681 op:65535,dt:5,nt:13,next:22682,str:35243,d0:41,d1:0;
                                                                 (True, Expression<Boolean> @:22682 op:5,dt:5,nt:9,next:65535,str:56866,d0:65281,d1:65535;))))
-                                                    (____, Scope<Void> @:22683 op:201,dt:4,nt:8,next:22689,str:56879,d0:22684,d1:48144;
+                                                    (____, BuiltinInvocation<Void> @:22683 op:201,dt:4,nt:8,next:22689,str:56879,d0:22684,d1:48144;
                                                         ("custom_animation", Expression<MethodOrOperator> @:22684 op:201,dt:2,nt:9,next:22685,str:21472,d0:0,d1:0;
                                                             ("regret03", Expression<Unit> @:22685 op:57,dt:51,nt:9,next:22686,str:35202,d0:80,d1:65535;
                                                                 ("objects\characters\prophet\prophet", Expression<Animation> @:22686 op:36,dt:36,nt:9,next:22687,str:21489,d0:1736,d1:59454;
                                                                     ("regret_chant3a", Expression<StringId> @:22687 op:11,dt:11,nt:9,next:22688,str:21584,d0:5487,d1:3584;
                                                                         (True, Expression<Boolean> @:22688 op:5,dt:5,nt:9,next:65535,str:56958,d0:65281,d1:65535;))))))
-                                                    (____, Scope<Void> @:22689 op:19,dt:4,nt:8,next:22695,str:56971,d0:22690,d1:48150;
+                                                    (____, BuiltinInvocation<Void> @:22689 op:19,dt:4,nt:8,next:22695,str:56971,d0:22690,d1:48150;
                                                         ("sleep", Expression<MethodOrOperator> @:22690 op:19,dt:2,nt:9,next:22691,str:133,d0:0,d1:0;
-                                                            (____, Scope<Short> @:22691 op:362,dt:7,nt:8,next:65535,str:56978,d0:22692,d1:48152;
+                                                            (____, BuiltinInvocation<Short> @:22691 op:362,dt:7,nt:8,next:65535,str:56978,d0:22692,d1:48152;
                                                                 ("ai_play_line_on_object", Expression<MethodOrOperator> @:22692 op:362,dt:2,nt:9,next:22693,str:15240,d0:0,d1:0;
                                                                     (4294901840, Expression<Entity> @:22693 op:56,dt:50,nt:9,next:22694,str:35202,d0:80,d1:65535;
                                                                         ("3003", Expression<StringId> @:22694 op:11,dt:11,nt:9,next:65535,str:21599,d0:12168,d1:1024;))))))
-                                                    (____, Scope<Void> @:22695 op:19,dt:4,nt:8,next:22701,str:57025,d0:22696,d1:48156;
+                                                    (____, BuiltinInvocation<Void> @:22695 op:19,dt:4,nt:8,next:22701,str:57025,d0:22696,d1:48156;
                                                         ("sleep", Expression<MethodOrOperator> @:22696 op:19,dt:2,nt:9,next:22697,str:133,d0:0,d1:0;
-                                                            (____, Scope<Short> @:22697 op:124,dt:7,nt:8,next:65535,str:57032,d0:22698,d1:48158;
+                                                            (____, BuiltinInvocation<Short> @:22697 op:124,dt:7,nt:8,next:65535,str:57032,d0:22698,d1:48158;
                                                                 ("random_range", Expression<MethodOrOperator> @:22698 op:124,dt:2,nt:9,next:22699,str:14653,d0:0,d1:0;
                                                                     (240, Expression<Short> @:22699 op:7,dt:7,nt:9,next:22700,str:57046,d0:240,d1:65535;
                                                                         (480, Expression<Short> @:22700 op:7,dt:7,nt:9,next:65535,str:57050,d0:480,d1:65535;))))))
-                                                    (____, Scope<Void> @:22701 op:4,dt:4,nt:8,next:65535,str:57063,d0:22702,d1:48162;
+                                                    (____, BuiltinInvocation<Void> @:22701 op:4,dt:4,nt:8,next:65535,str:57063,d0:22702,d1:48162;
                                                         ("set", Expression<MethodOrOperator> @:22702 op:4,dt:2,nt:9,next:22703,str:1895,d0:0,d1:0;
                                                             ("tower1_holo_chant", VariableAccess<Boolean> @:22703 op:65535,dt:5,nt:13,next:22704,str:35243,d0:41,d1:0;
                                                                 (False, Expression<Boolean> @:22704 op:5,dt:5,nt:9,next:65535,str:57086,d0:65280,d1:65535;))))))))
-                                    (____, Scope<Void> @:22705 op:2,dt:4,nt:8,next:22739,str:57113,d0:22706,d1:48166;
+                                    (____, BuiltinInvocation<Void> @:22705 op:2,dt:4,nt:8,next:22739,str:57113,d0:22706,d1:48166;
                                         ("if", Expression<MethodOrOperator> @:22706 op:2,dt:2,nt:9,next:22707,str:509,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:22707 op:13,dt:5,nt:8,next:22711,str:57117,d0:22708,d1:48168;
+                                            (____, BuiltinInvocation<Boolean> @:22707 op:13,dt:5,nt:8,next:22711,str:57117,d0:22708,d1:48168;
                                                 ("=", Expression<MethodOrOperator> @:22708 op:13,dt:2,nt:9,next:22709,str:349,d0:0,d1:0;
                                                     ("tower1_holo_trans", VariableAccess<Boolean> @:22709 op:0,dt:5,nt:13,next:22710,str:35225,d0:40,d1:0;
                                                         (False, Expression<Boolean> @:22710 op:5,dt:5,nt:9,next:65535,str:57138,d0:65280,d1:65535;))))
-                                            (____, Scope<Void> @:22711 op:0,dt:4,nt:8,next:65535,str:57151,d0:22712,d1:48172;
+                                            (____, BuiltinInvocation<Void> @:22711 op:0,dt:4,nt:8,next:65535,str:57151,d0:22712,d1:48172;
                                                 ("begin", Expression<MethodOrOperator> @:22712 op:0,dt:2,nt:9,next:22713,str:54,d0:0,d1:0;
-                                                    (____, Scope<Void> @:22713 op:4,dt:4,nt:8,next:22717,str:57165,d0:22714,d1:48174;
+                                                    (____, BuiltinInvocation<Void> @:22713 op:4,dt:4,nt:8,next:22717,str:57165,d0:22714,d1:48174;
                                                         ("set", Expression<MethodOrOperator> @:22714 op:4,dt:2,nt:9,next:22715,str:1895,d0:0,d1:0;
                                                             ("tower1_holo_chant", VariableAccess<Boolean> @:22715 op:65535,dt:5,nt:13,next:22716,str:35243,d0:41,d1:0;
                                                                 (True, Expression<Boolean> @:22716 op:5,dt:5,nt:9,next:65535,str:57188,d0:65281,d1:65535;))))
-                                                    (____, Scope<Void> @:22717 op:201,dt:4,nt:8,next:22723,str:57201,d0:22718,d1:48178;
+                                                    (____, BuiltinInvocation<Void> @:22717 op:201,dt:4,nt:8,next:22723,str:57201,d0:22718,d1:48178;
                                                         ("custom_animation", Expression<MethodOrOperator> @:22718 op:201,dt:2,nt:9,next:22719,str:21472,d0:0,d1:0;
                                                             ("regret03", Expression<Unit> @:22719 op:57,dt:51,nt:9,next:22720,str:35202,d0:80,d1:65535;
                                                                 ("objects\characters\prophet\prophet", Expression<Animation> @:22720 op:36,dt:36,nt:9,next:22721,str:21489,d0:1736,d1:59454;
                                                                     ("regret_chant3c", Expression<StringId> @:22721 op:11,dt:11,nt:9,next:22722,str:21604,d0:5488,d1:3584;
                                                                         (True, Expression<Boolean> @:22722 op:5,dt:5,nt:9,next:65535,str:57280,d0:65281,d1:65535;))))))
-                                                    (____, Scope<Void> @:22723 op:19,dt:4,nt:8,next:22729,str:57293,d0:22724,d1:48184;
+                                                    (____, BuiltinInvocation<Void> @:22723 op:19,dt:4,nt:8,next:22729,str:57293,d0:22724,d1:48184;
                                                         ("sleep", Expression<MethodOrOperator> @:22724 op:19,dt:2,nt:9,next:22725,str:133,d0:0,d1:0;
-                                                            (____, Scope<Short> @:22725 op:362,dt:7,nt:8,next:65535,str:57300,d0:22726,d1:48186;
+                                                            (____, BuiltinInvocation<Short> @:22725 op:362,dt:7,nt:8,next:65535,str:57300,d0:22726,d1:48186;
                                                                 ("ai_play_line_on_object", Expression<MethodOrOperator> @:22726 op:362,dt:2,nt:9,next:22727,str:15240,d0:0,d1:0;
                                                                     (4294901840, Expression<Entity> @:22727 op:56,dt:50,nt:9,next:22728,str:35202,d0:80,d1:65535;
                                                                         ("3004", Expression<StringId> @:22728 op:11,dt:11,nt:9,next:65535,str:21619,d0:12169,d1:1024;))))))
-                                                    (____, Scope<Void> @:22729 op:19,dt:4,nt:8,next:22735,str:57347,d0:22730,d1:48190;
+                                                    (____, BuiltinInvocation<Void> @:22729 op:19,dt:4,nt:8,next:22735,str:57347,d0:22730,d1:48190;
                                                         ("sleep", Expression<MethodOrOperator> @:22730 op:19,dt:2,nt:9,next:22731,str:133,d0:0,d1:0;
-                                                            (____, Scope<Short> @:22731 op:124,dt:7,nt:8,next:65535,str:57354,d0:22732,d1:48192;
+                                                            (____, BuiltinInvocation<Short> @:22731 op:124,dt:7,nt:8,next:65535,str:57354,d0:22732,d1:48192;
                                                                 ("random_range", Expression<MethodOrOperator> @:22732 op:124,dt:2,nt:9,next:22733,str:14653,d0:0,d1:0;
                                                                     (240, Expression<Short> @:22733 op:7,dt:7,nt:9,next:22734,str:57368,d0:240,d1:65535;
                                                                         (480, Expression<Short> @:22734 op:7,dt:7,nt:9,next:65535,str:57372,d0:480,d1:65535;))))))
-                                                    (____, Scope<Void> @:22735 op:4,dt:4,nt:8,next:65535,str:57385,d0:22736,d1:48196;
+                                                    (____, BuiltinInvocation<Void> @:22735 op:4,dt:4,nt:8,next:65535,str:57385,d0:22736,d1:48196;
                                                         ("set", Expression<MethodOrOperator> @:22736 op:4,dt:2,nt:9,next:22737,str:1895,d0:0,d1:0;
                                                             ("tower1_holo_chant", VariableAccess<Boolean> @:22737 op:65535,dt:5,nt:13,next:22738,str:35243,d0:41,d1:0;
                                                                 (False, Expression<Boolean> @:22738 op:5,dt:5,nt:9,next:65535,str:57408,d0:65280,d1:65535;))))))))
-                                    (____, Scope<Void> @:22739 op:2,dt:4,nt:8,next:22773,str:57435,d0:22740,d1:48200;
+                                    (____, BuiltinInvocation<Void> @:22739 op:2,dt:4,nt:8,next:22773,str:57435,d0:22740,d1:48200;
                                         ("if", Expression<MethodOrOperator> @:22740 op:2,dt:2,nt:9,next:22741,str:509,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:22741 op:13,dt:5,nt:8,next:22745,str:57439,d0:22742,d1:48202;
+                                            (____, BuiltinInvocation<Boolean> @:22741 op:13,dt:5,nt:8,next:22745,str:57439,d0:22742,d1:48202;
                                                 ("=", Expression<MethodOrOperator> @:22742 op:13,dt:2,nt:9,next:22743,str:349,d0:0,d1:0;
                                                     ("tower1_holo_trans", VariableAccess<Boolean> @:22743 op:0,dt:5,nt:13,next:22744,str:35225,d0:40,d1:0;
                                                         (False, Expression<Boolean> @:22744 op:5,dt:5,nt:9,next:65535,str:57460,d0:65280,d1:65535;))))
-                                            (____, Scope<Void> @:22745 op:0,dt:4,nt:8,next:65535,str:57473,d0:22746,d1:48206;
+                                            (____, BuiltinInvocation<Void> @:22745 op:0,dt:4,nt:8,next:65535,str:57473,d0:22746,d1:48206;
                                                 ("begin", Expression<MethodOrOperator> @:22746 op:0,dt:2,nt:9,next:22747,str:54,d0:0,d1:0;
-                                                    (____, Scope<Void> @:22747 op:4,dt:4,nt:8,next:22751,str:57487,d0:22748,d1:48208;
+                                                    (____, BuiltinInvocation<Void> @:22747 op:4,dt:4,nt:8,next:22751,str:57487,d0:22748,d1:48208;
                                                         ("set", Expression<MethodOrOperator> @:22748 op:4,dt:2,nt:9,next:22749,str:1895,d0:0,d1:0;
                                                             ("tower1_holo_chant", VariableAccess<Boolean> @:22749 op:65535,dt:5,nt:13,next:22750,str:35243,d0:41,d1:0;
                                                                 (True, Expression<Boolean> @:22750 op:5,dt:5,nt:9,next:65535,str:57510,d0:65281,d1:65535;))))
-                                                    (____, Scope<Void> @:22751 op:201,dt:4,nt:8,next:22757,str:57523,d0:22752,d1:48212;
+                                                    (____, BuiltinInvocation<Void> @:22751 op:201,dt:4,nt:8,next:22757,str:57523,d0:22752,d1:48212;
                                                         ("custom_animation", Expression<MethodOrOperator> @:22752 op:201,dt:2,nt:9,next:22753,str:21472,d0:0,d1:0;
                                                             ("regret03", Expression<Unit> @:22753 op:57,dt:51,nt:9,next:22754,str:35202,d0:80,d1:65535;
                                                                 ("objects\characters\prophet\prophet", Expression<Animation> @:22754 op:36,dt:36,nt:9,next:22755,str:21489,d0:1736,d1:59454;
                                                                     ("regret_chant5a", Expression<StringId> @:22755 op:11,dt:11,nt:9,next:22756,str:21624,d0:5489,d1:3584;
                                                                         (True, Expression<Boolean> @:22756 op:5,dt:5,nt:9,next:65535,str:57602,d0:65281,d1:65535;))))))
-                                                    (____, Scope<Void> @:22757 op:19,dt:4,nt:8,next:22763,str:57615,d0:22758,d1:48218;
+                                                    (____, BuiltinInvocation<Void> @:22757 op:19,dt:4,nt:8,next:22763,str:57615,d0:22758,d1:48218;
                                                         ("sleep", Expression<MethodOrOperator> @:22758 op:19,dt:2,nt:9,next:22759,str:133,d0:0,d1:0;
-                                                            (____, Scope<Short> @:22759 op:362,dt:7,nt:8,next:65535,str:57622,d0:22760,d1:48220;
+                                                            (____, BuiltinInvocation<Short> @:22759 op:362,dt:7,nt:8,next:65535,str:57622,d0:22760,d1:48220;
                                                                 ("ai_play_line_on_object", Expression<MethodOrOperator> @:22760 op:362,dt:2,nt:9,next:22761,str:15240,d0:0,d1:0;
                                                                     (4294901840, Expression<Entity> @:22761 op:56,dt:50,nt:9,next:22762,str:35202,d0:80,d1:65535;
                                                                         ("3005", Expression<StringId> @:22762 op:11,dt:11,nt:9,next:65535,str:21639,d0:12170,d1:1024;))))))
-                                                    (____, Scope<Void> @:22763 op:19,dt:4,nt:8,next:22769,str:57669,d0:22764,d1:48224;
+                                                    (____, BuiltinInvocation<Void> @:22763 op:19,dt:4,nt:8,next:22769,str:57669,d0:22764,d1:48224;
                                                         ("sleep", Expression<MethodOrOperator> @:22764 op:19,dt:2,nt:9,next:22765,str:133,d0:0,d1:0;
-                                                            (____, Scope<Short> @:22765 op:124,dt:7,nt:8,next:65535,str:57676,d0:22766,d1:48226;
+                                                            (____, BuiltinInvocation<Short> @:22765 op:124,dt:7,nt:8,next:65535,str:57676,d0:22766,d1:48226;
                                                                 ("random_range", Expression<MethodOrOperator> @:22766 op:124,dt:2,nt:9,next:22767,str:14653,d0:0,d1:0;
                                                                     (240, Expression<Short> @:22767 op:7,dt:7,nt:9,next:22768,str:57690,d0:240,d1:65535;
                                                                         (480, Expression<Short> @:22768 op:7,dt:7,nt:9,next:65535,str:57694,d0:480,d1:65535;))))))
-                                                    (____, Scope<Void> @:22769 op:4,dt:4,nt:8,next:65535,str:57707,d0:22770,d1:48230;
+                                                    (____, BuiltinInvocation<Void> @:22769 op:4,dt:4,nt:8,next:65535,str:57707,d0:22770,d1:48230;
                                                         ("set", Expression<MethodOrOperator> @:22770 op:4,dt:2,nt:9,next:22771,str:1895,d0:0,d1:0;
                                                             ("tower1_holo_chant", VariableAccess<Boolean> @:22771 op:65535,dt:5,nt:13,next:22772,str:35243,d0:41,d1:0;
                                                                 (False, Expression<Boolean> @:22772 op:5,dt:5,nt:9,next:65535,str:57730,d0:65280,d1:65535;))))))))
-                                    (____, Scope<Void> @:22773 op:2,dt:4,nt:8,next:65535,str:57757,d0:22774,d1:48234;
+                                    (____, BuiltinInvocation<Void> @:22773 op:2,dt:4,nt:8,next:65535,str:57757,d0:22774,d1:48234;
                                         ("if", Expression<MethodOrOperator> @:22774 op:2,dt:2,nt:9,next:22775,str:509,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:22775 op:13,dt:5,nt:8,next:22779,str:57761,d0:22776,d1:48236;
+                                            (____, BuiltinInvocation<Boolean> @:22775 op:13,dt:5,nt:8,next:22779,str:57761,d0:22776,d1:48236;
                                                 ("=", Expression<MethodOrOperator> @:22776 op:13,dt:2,nt:9,next:22777,str:349,d0:0,d1:0;
                                                     ("tower1_holo_trans", VariableAccess<Boolean> @:22777 op:0,dt:5,nt:13,next:22778,str:35225,d0:40,d1:0;
                                                         (False, Expression<Boolean> @:22778 op:5,dt:5,nt:9,next:65535,str:57782,d0:65280,d1:65535;))))
-                                            (____, Scope<Void> @:22779 op:0,dt:4,nt:8,next:65535,str:57795,d0:22780,d1:48240;
+                                            (____, BuiltinInvocation<Void> @:22779 op:0,dt:4,nt:8,next:65535,str:57795,d0:22780,d1:48240;
                                                 ("begin", Expression<MethodOrOperator> @:22780 op:0,dt:2,nt:9,next:22781,str:54,d0:0,d1:0;
-                                                    (____, Scope<Void> @:22781 op:4,dt:4,nt:8,next:22785,str:57809,d0:22782,d1:48242;
+                                                    (____, BuiltinInvocation<Void> @:22781 op:4,dt:4,nt:8,next:22785,str:57809,d0:22782,d1:48242;
                                                         ("set", Expression<MethodOrOperator> @:22782 op:4,dt:2,nt:9,next:22783,str:1895,d0:0,d1:0;
                                                             ("tower1_holo_chant", VariableAccess<Boolean> @:22783 op:65535,dt:5,nt:13,next:22784,str:35243,d0:41,d1:0;
                                                                 (True, Expression<Boolean> @:22784 op:5,dt:5,nt:9,next:65535,str:57832,d0:65281,d1:65535;))))
-                                                    (____, Scope<Void> @:22785 op:201,dt:4,nt:8,next:22791,str:57845,d0:22786,d1:48246;
+                                                    (____, BuiltinInvocation<Void> @:22785 op:201,dt:4,nt:8,next:22791,str:57845,d0:22786,d1:48246;
                                                         ("custom_animation", Expression<MethodOrOperator> @:22786 op:201,dt:2,nt:9,next:22787,str:21472,d0:0,d1:0;
                                                             ("regret03", Expression<Unit> @:22787 op:57,dt:51,nt:9,next:22788,str:35202,d0:80,d1:65535;
                                                                 ("objects\characters\prophet\prophet", Expression<Animation> @:22788 op:36,dt:36,nt:9,next:22789,str:21489,d0:1736,d1:59454;
                                                                     ("regret_chant6a", Expression<StringId> @:22789 op:11,dt:11,nt:9,next:22790,str:21644,d0:5490,d1:3584;
                                                                         (True, Expression<Boolean> @:22790 op:5,dt:5,nt:9,next:65535,str:57924,d0:65281,d1:65535;))))))
-                                                    (____, Scope<Void> @:22791 op:19,dt:4,nt:8,next:22797,str:57937,d0:22792,d1:48252;
+                                                    (____, BuiltinInvocation<Void> @:22791 op:19,dt:4,nt:8,next:22797,str:57937,d0:22792,d1:48252;
                                                         ("sleep", Expression<MethodOrOperator> @:22792 op:19,dt:2,nt:9,next:22793,str:133,d0:0,d1:0;
-                                                            (____, Scope<Short> @:22793 op:362,dt:7,nt:8,next:65535,str:57944,d0:22794,d1:48254;
+                                                            (____, BuiltinInvocation<Short> @:22793 op:362,dt:7,nt:8,next:65535,str:57944,d0:22794,d1:48254;
                                                                 ("ai_play_line_on_object", Expression<MethodOrOperator> @:22794 op:362,dt:2,nt:9,next:22795,str:15240,d0:0,d1:0;
                                                                     (4294901840, Expression<Entity> @:22795 op:56,dt:50,nt:9,next:22796,str:35202,d0:80,d1:65535;
                                                                         ("3006", Expression<StringId> @:22796 op:11,dt:11,nt:9,next:65535,str:21659,d0:12171,d1:1024;))))))
-                                                    (____, Scope<Void> @:22797 op:19,dt:4,nt:8,next:22803,str:57991,d0:22798,d1:48258;
+                                                    (____, BuiltinInvocation<Void> @:22797 op:19,dt:4,nt:8,next:22803,str:57991,d0:22798,d1:48258;
                                                         ("sleep", Expression<MethodOrOperator> @:22798 op:19,dt:2,nt:9,next:22799,str:133,d0:0,d1:0;
-                                                            (____, Scope<Short> @:22799 op:124,dt:7,nt:8,next:65535,str:57998,d0:22800,d1:48260;
+                                                            (____, BuiltinInvocation<Short> @:22799 op:124,dt:7,nt:8,next:65535,str:57998,d0:22800,d1:48260;
                                                                 ("random_range", Expression<MethodOrOperator> @:22800 op:124,dt:2,nt:9,next:22801,str:14653,d0:0,d1:0;
                                                                     (240, Expression<Short> @:22801 op:7,dt:7,nt:9,next:22802,str:58012,d0:240,d1:65535;
                                                                         (480, Expression<Short> @:22802 op:7,dt:7,nt:9,next:65535,str:58016,d0:480,d1:65535;))))))
-                                                    (____, Scope<Void> @:22803 op:4,dt:4,nt:8,next:65535,str:58029,d0:22804,d1:48264;
+                                                    (____, BuiltinInvocation<Void> @:22803 op:4,dt:4,nt:8,next:65535,str:58029,d0:22804,d1:48264;
                                                         ("set", Expression<MethodOrOperator> @:22804 op:4,dt:2,nt:9,next:22805,str:1895,d0:0,d1:0;
                                                             ("tower1_holo_chant", VariableAccess<Boolean> @:22805 op:65535,dt:5,nt:13,next:22806,str:35243,d0:41,d1:0;
                                                                 (False, Expression<Boolean> @:22806 op:5,dt:5,nt:9,next:65535,str:58052,d0:65280,d1:65535;))))))))))

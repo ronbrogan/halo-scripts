@@ -1,12 +1,12 @@
 
 ("cs_alert_combat", MethodDecl<Void> @:200 op:0,dt:0,nt:65535,next:7241,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:7241 op:0,dt:4,nt:8,next:65535,str:30310,d0:7242,d1:65469;
+    (____, BuiltinInvocation<Void> @:7241 op:0,dt:4,nt:8,next:65535,str:30310,d0:7242,d1:65469;
         ("begin", Expression<MethodOrOperator> @:7242 op:0,dt:2,nt:9,next:7233,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:7233 op:439,dt:4,nt:8,next:7236,str:30351,d0:7234,d1:65461;
+            (____, BuiltinInvocation<Void> @:7233 op:439,dt:4,nt:8,next:7236,str:30351,d0:7234,d1:65461;
                 ("cs_abort_on_alert", Expression<MethodOrOperator> @:7234 op:439,dt:2,nt:9,next:7235,str:16644,d0:0,d1:0;
                     (True, Expression<Boolean> @:7235 op:5,dt:5,nt:9,next:65535,str:30370,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:7236 op:422,dt:4,nt:8,next:7239,str:30378,d0:7237,d1:65464;
+            (____, BuiltinInvocation<Void> @:7236 op:422,dt:4,nt:8,next:7239,str:30378,d0:7237,d1:65464;
                 ("cs_movement_mode", Expression<MethodOrOperator> @:7237 op:422,dt:2,nt:9,next:7238,str:16676,d0:0,d1:0;
                     ("ai_movement_combat", VariableAccess<Short> @:7238 op:7,dt:7,nt:13,next:65535,str:16693,d0:33583,d1:65535;)))
-            (____, Scope<Void> @:7239 op:20,dt:4,nt:8,next:65535,str:30418,d0:7240,d1:65467;
+            (____, BuiltinInvocation<Void> @:7239 op:20,dt:4,nt:8,next:65535,str:30418,d0:7240,d1:65467;
                 ("sleep_forever", Expression<MethodOrOperator> @:7240 op:20,dt:2,nt:9,next:65535,str:16662,d0:0,d1:0;)))))

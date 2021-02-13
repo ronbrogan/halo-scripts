@@ -1,64 +1,64 @@
 
 ("cs_e6_destroy_door3", MethodDecl<Void> @:444 op:0,dt:0,nt:65535,next:17358,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:17358 op:0,dt:4,nt:8,next:65535,str:23249,d0:17359,d1:42819;
+    (____, BuiltinInvocation<Void> @:17358 op:0,dt:4,nt:8,next:65535,str:23249,d0:17359,d1:42819;
         ("begin", Expression<MethodOrOperator> @:17359 op:0,dt:2,nt:9,next:17298,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:17298 op:449,dt:4,nt:8,next:17301,str:23294,d0:17299,d1:42759;
+            (____, BuiltinInvocation<Void> @:17298 op:449,dt:4,nt:8,next:17301,str:23294,d0:17299,d1:42759;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:17299 op:449,dt:2,nt:9,next:17300,str:1153,d0:0,d1:0;
                     (True, Expression<Boolean> @:17300 op:5,dt:5,nt:9,next:65535,str:23326,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:17301 op:441,dt:4,nt:8,next:17304,str:23334,d0:17302,d1:42762;
+            (____, BuiltinInvocation<Void> @:17301 op:441,dt:4,nt:8,next:17304,str:23334,d0:17302,d1:42762;
                 ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:17302 op:441,dt:2,nt:9,next:17303,str:29070,d0:0,d1:0;
                     ("ai_combat_status_certain", VariableAccess<Short> @:17303 op:7,dt:7,nt:13,next:65535,str:36057,d0:33577,d1:65535;)))
-            (____, Scope<Void> @:17304 op:2,dt:4,nt:8,next:65535,str:23420,d0:17305,d1:42765;
+            (____, BuiltinInvocation<Void> @:17304 op:2,dt:4,nt:8,next:65535,str:23420,d0:17305,d1:42765;
                 ("if", Expression<MethodOrOperator> @:17305 op:2,dt:2,nt:9,next:17306,str:461,d0:0,d1:0;
-                    (____, Scope<Boolean> @:17306 op:17,dt:5,nt:8,next:17312,str:23424,d0:17307,d1:42767;
+                    (____, BuiltinInvocation<Boolean> @:17306 op:17,dt:5,nt:8,next:17312,str:23424,d0:17307,d1:42767;
                         (">=", Expression<MethodOrOperator> @:17307 op:17,dt:2,nt:9,next:17308,str:676,d0:0,d1:0;
-                            (-2.0159446E-15f, Scope<Float> @:17308 op:69,dt:6,nt:8,next:17311,str:23428,d0:17309,d1:42769;
+                            (-2.0159446E-15f, BuiltinInvocation<Float> @:17308 op:69,dt:6,nt:8,next:17311,str:23428,d0:17309,d1:42769;
                                 ("object_get_health", Expression<MethodOrOperator> @:17309 op:69,dt:2,nt:9,next:17310,str:854,d0:0,d1:0;
                                     (4294901764, Expression<Entity> @:17310 op:56,dt:50,nt:9,next:65535,str:36279,d0:4,d1:65535;)))
                             (0f, Expression<Float> @:17311 op:6,dt:6,nt:9,next:65535,str:23464,d0:0,d1:0;)))
-                    (____, Scope<Void> @:17312 op:0,dt:4,nt:8,next:65535,str:23471,d0:17313,d1:42773;
+                    (____, BuiltinInvocation<Void> @:17312 op:0,dt:4,nt:8,next:65535,str:23471,d0:17313,d1:42773;
                         ("begin", Expression<MethodOrOperator> @:17313 op:0,dt:2,nt:9,next:17314,str:6,d0:0,d1:0;
-                            (____, Scope<Void> @:17314 op:390,dt:4,nt:8,next:17317,str:23483,d0:17315,d1:42775;
+                            (____, BuiltinInvocation<Void> @:17314 op:390,dt:4,nt:8,next:17317,str:23483,d0:17315,d1:42775;
                                 ("cs_start_to", Expression<MethodOrOperator> @:17315 op:390,dt:2,nt:9,next:17316,str:35200,d0:0,d1:0;
                                     ("cs_e6_hunter_room/near_shield3", Expression<SpatialPoint> @:17316 op:28,dt:28,nt:9,next:65535,str:36295,d0:11,d1:9;)))
-                            (____, Scope<Void> @:17317 op:21,dt:4,nt:8,next:17332,str:23532,d0:17318,d1:42778;
+                            (____, BuiltinInvocation<Void> @:17317 op:21,dt:4,nt:8,next:17332,str:23532,d0:17318,d1:42778;
                                 ("sleep_until", Expression<MethodOrOperator> @:17318 op:21,dt:2,nt:9,next:17319,str:236,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:17319 op:6,dt:5,nt:8,next:17331,str:23550,d0:17320,d1:42780;
+                                    (____, BuiltinInvocation<Boolean> @:17319 op:6,dt:5,nt:8,next:17331,str:23550,d0:17320,d1:42780;
                                         ("or", Expression<MethodOrOperator> @:17320 op:6,dt:2,nt:9,next:17321,str:849,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:17321 op:25,dt:5,nt:8,next:17325,str:23560,d0:17322,d1:42782;
+                                            (____, BuiltinInvocation<Boolean> @:17321 op:25,dt:5,nt:8,next:17325,str:23560,d0:17322,d1:42782;
                                                 ("not", Expression<MethodOrOperator> @:17322 op:25,dt:2,nt:9,next:17323,str:402,d0:0,d1:0;
-                                                    (____, Scope<Boolean> @:17323 op:392,dt:5,nt:8,next:65535,str:23565,d0:17324,d1:42784;
+                                                    (____, BuiltinInvocation<Boolean> @:17323 op:392,dt:5,nt:8,next:65535,str:23565,d0:17324,d1:42784;
                                                         ("cs_moving", Expression<MethodOrOperator> @:17324 op:392,dt:2,nt:9,next:65535,str:36129,d0:0,d1:0;))))
-                                            (____, Scope<Boolean> @:17325 op:16,dt:5,nt:8,next:65535,str:23584,d0:17326,d1:42786;
+                                            (____, BuiltinInvocation<Boolean> @:17325 op:16,dt:5,nt:8,next:65535,str:23584,d0:17326,d1:42786;
                                                 ("<", Expression<MethodOrOperator> @:17326 op:16,dt:2,nt:9,next:17327,str:852,d0:0,d1:0;
-                                                    (-2.2796265E-15f, Scope<Float> @:17327 op:69,dt:6,nt:8,next:17330,str:23587,d0:17328,d1:42788;
+                                                    (-2.2796265E-15f, BuiltinInvocation<Float> @:17327 op:69,dt:6,nt:8,next:17330,str:23587,d0:17328,d1:42788;
                                                         ("object_get_health", Expression<MethodOrOperator> @:17328 op:69,dt:2,nt:9,next:17329,str:854,d0:0,d1:0;
                                                             (4294901764, Expression<Entity> @:17329 op:56,dt:50,nt:9,next:65535,str:36279,d0:4,d1:65535;)))
                                                     (0f, Expression<Float> @:17330 op:6,dt:6,nt:9,next:65535,str:23623,d0:0,d1:0;)))))
                                     (15, Expression<Short> @:17331 op:7,dt:7,nt:9,next:65535,str:23638,d0:15,d1:65535;)))
-                            (____, Scope<Void> @:17332 op:2,dt:4,nt:8,next:17344,str:23651,d0:17333,d1:42793;
+                            (____, BuiltinInvocation<Void> @:17332 op:2,dt:4,nt:8,next:17344,str:23651,d0:17333,d1:42793;
                                 ("if", Expression<MethodOrOperator> @:17333 op:2,dt:2,nt:9,next:17334,str:461,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:17334 op:17,dt:5,nt:8,next:17340,str:23655,d0:17335,d1:42795;
+                                    (____, BuiltinInvocation<Boolean> @:17334 op:17,dt:5,nt:8,next:17340,str:23655,d0:17335,d1:42795;
                                         (">=", Expression<MethodOrOperator> @:17335 op:17,dt:2,nt:9,next:17336,str:676,d0:0,d1:0;
-                                            (-2.4045285E-15f, Scope<Float> @:17336 op:69,dt:6,nt:8,next:17339,str:23659,d0:17337,d1:42797;
+                                            (-2.4045285E-15f, BuiltinInvocation<Float> @:17336 op:69,dt:6,nt:8,next:17339,str:23659,d0:17337,d1:42797;
                                                 ("object_get_health", Expression<MethodOrOperator> @:17337 op:69,dt:2,nt:9,next:17338,str:854,d0:0,d1:0;
                                                     (4294901764, Expression<Entity> @:17338 op:56,dt:50,nt:9,next:65535,str:36279,d0:4,d1:65535;)))
                                             (0f, Expression<Float> @:17339 op:6,dt:6,nt:9,next:65535,str:23695,d0:0,d1:0;)))
-                                    (____, Scope<Void> @:17340 op:406,dt:4,nt:8,next:65535,str:23698,d0:17341,d1:42801;
+                                    (____, BuiltinInvocation<Void> @:17340 op:406,dt:4,nt:8,next:65535,str:23698,d0:17341,d1:42801;
                                         ("cs_shoot_point", Expression<MethodOrOperator> @:17341 op:406,dt:2,nt:9,next:17342,str:27173,d0:0,d1:0;
                                             (True, Expression<Boolean> @:17342 op:5,dt:5,nt:9,next:17343,str:23714,d0:65281,d1:65535;
                                                 ("cs_e6_hunter_room/shield3", Expression<SpatialPoint> @:17343 op:28,dt:28,nt:9,next:65535,str:36326,d0:3,d1:9;))))))
-                            (____, Scope<Void> @:17344 op:21,dt:4,nt:8,next:17354,str:23751,d0:17345,d1:42805;
+                            (____, BuiltinInvocation<Void> @:17344 op:21,dt:4,nt:8,next:17354,str:23751,d0:17345,d1:42805;
                                 ("sleep_until", Expression<MethodOrOperator> @:17345 op:21,dt:2,nt:9,next:17346,str:236,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:17346 op:16,dt:5,nt:8,next:17352,str:23764,d0:17347,d1:42807;
+                                    (____, BuiltinInvocation<Boolean> @:17346 op:16,dt:5,nt:8,next:17352,str:23764,d0:17347,d1:42807;
                                         ("<", Expression<MethodOrOperator> @:17347 op:16,dt:2,nt:9,next:17348,str:852,d0:0,d1:0;
-                                            (-2.5710645E-15f, Scope<Float> @:17348 op:69,dt:6,nt:8,next:17351,str:23767,d0:17349,d1:42809;
+                                            (-2.5710645E-15f, BuiltinInvocation<Float> @:17348 op:69,dt:6,nt:8,next:17351,str:23767,d0:17349,d1:42809;
                                                 ("object_get_health", Expression<MethodOrOperator> @:17349 op:69,dt:2,nt:9,next:17350,str:854,d0:0,d1:0;
                                                     (4294901764, Expression<Entity> @:17350 op:56,dt:50,nt:9,next:65535,str:36279,d0:4,d1:65535;)))
                                             (0f, Expression<Float> @:17351 op:6,dt:6,nt:9,next:65535,str:23803,d0:0,d1:0;)))
                                     (15, Expression<Short> @:17352 op:7,dt:7,nt:9,next:17353,str:23806,d0:15,d1:65535;
                                         (150, Expression<Int> @:17353 op:8,dt:8,nt:9,next:65535,str:23809,d0:150,d1:0;))))
-                            (____, Scope<Void> @:17354 op:406,dt:4,nt:8,next:65535,str:23818,d0:17355,d1:42815;
+                            (____, BuiltinInvocation<Void> @:17354 op:406,dt:4,nt:8,next:65535,str:23818,d0:17355,d1:42815;
                                 ("cs_shoot_point", Expression<MethodOrOperator> @:17355 op:406,dt:2,nt:9,next:17356,str:27173,d0:0,d1:0;
                                     (False, Expression<Boolean> @:17356 op:5,dt:5,nt:9,next:17357,str:23834,d0:65280,d1:65535;
                                         ("cs_e6_hunter_room/shield3", Expression<SpatialPoint> @:17357 op:28,dt:28,nt:9,next:65535,str:36326,d0:3,d1:9;)))))))))))

@@ -1,59 +1,59 @@
 
 ("bridge_pelican_run", MethodDecl<Void> @:258 op:0,dt:0,nt:65535,next:12717,str:24810,d0:0,d1:0;
-    (____, Scope<Void> @:12717 op:0,dt:4,nt:8,next:65535,str:16844,d0:12718,d1:38178;
+    (____, BuiltinInvocation<Void> @:12717 op:0,dt:4,nt:8,next:65535,str:16844,d0:12718,d1:38178;
         ("begin", Expression<MethodOrOperator> @:12718 op:0,dt:2,nt:9,next:12662,str:54,d0:0,d1:0;
-            (____, Scope<Void> @:12662 op:291,dt:4,nt:8,next:12671,str:16882,d0:12663,d1:38123;
+            (____, BuiltinInvocation<Void> @:12662 op:291,dt:4,nt:8,next:12671,str:16882,d0:12663,d1:38123;
                 ("ai_place", Expression<MethodOrOperator> @:12663 op:291,dt:2,nt:9,next:12664,str:14859,d0:0,d1:0;
                     ("allies_bridge_pelican", Expression<AI> @:12664 op:19,dt:19,nt:9,next:12665,str:23914,d0:66,d1:0;
-                        (____, Scope<Short> @:12665 op:8,dt:7,nt:8,next:65535,str:16914,d0:12666,d1:38126;
+                        (____, BuiltinInvocation<Short> @:12665 op:8,dt:7,nt:8,next:65535,str:16914,d0:12666,d1:38126;
                             ("-", Expression<MethodOrOperator> @:12666 op:8,dt:2,nt:9,next:12667,str:2354,d0:0,d1:0;
                                 (2f, Expression<Float> @:12667 op:6,dt:6,nt:9,next:12668,str:16917,d0:0,d1:16384;
-                                    (-2.4354301E-26f, Scope<Float> @:12668 op:327,dt:6,nt:8,next:65535,str:16919,d0:12669,d1:38129;
+                                    (-2.4354301E-26f, BuiltinInvocation<Float> @:12668 op:327,dt:6,nt:8,next:65535,str:16919,d0:12669,d1:38129;
                                         ("ai_living_count", Expression<MethodOrOperator> @:12669 op:327,dt:2,nt:9,next:12670,str:15991,d0:0,d1:0;
                                             ("all_allies", Expression<AI> @:12670 op:19,dt:19,nt:9,next:65535,str:15908,d0:1,d1:16384;)))))))))
-            (____, Scope<Void> @:12671 op:290,dt:4,nt:8,next:12674,str:16952,d0:12672,d1:38132;
+            (____, BuiltinInvocation<Void> @:12671 op:290,dt:4,nt:8,next:12674,str:16952,d0:12672,d1:38132;
                 ("ai_place", Expression<MethodOrOperator> @:12672 op:290,dt:2,nt:9,next:12673,str:14859,d0:0,d1:0;
                     ("bridge_pelican", Expression<AI> @:12673 op:19,dt:19,nt:9,next:65535,str:23899,d0:64,d1:0;)))
-            (____, Scope<Void> @:12674 op:290,dt:4,nt:8,next:12677,str:16980,d0:12675,d1:38135;
+            (____, BuiltinInvocation<Void> @:12674 op:290,dt:4,nt:8,next:12677,str:16980,d0:12675,d1:38135;
                 ("ai_place", Expression<MethodOrOperator> @:12675 op:290,dt:2,nt:9,next:12676,str:14859,d0:0,d1:0;
                     ("bridge_tank", Expression<AI> @:12676 op:19,dt:19,nt:9,next:65535,str:23782,d0:65,d1:0;)))
-            (____, Scope<Void> @:12677 op:90,dt:4,nt:8,next:12682,str:17005,d0:12678,d1:38138;
+            (____, BuiltinInvocation<Void> @:12677 op:90,dt:4,nt:8,next:12682,str:17005,d0:12678,d1:38138;
                 ("object_cannot_take_damage", Expression<MethodOrOperator> @:12678 op:90,dt:2,nt:9,next:12679,str:671,d0:0,d1:0;
-                    (____, Scope<List> @:12679 op:341,dt:31,nt:8,next:65535,str:17032,d0:12680,d1:38140;
+                    (____, BuiltinInvocation<List> @:12679 op:341,dt:31,nt:8,next:65535,str:17032,d0:12680,d1:38140;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:12680 op:341,dt:2,nt:9,next:12681,str:14605,d0:0,d1:0;
                             ("bridge_pelican/pilot", Expression<AI> @:12681 op:19,dt:19,nt:9,next:65535,str:23567,d0:0,d1:49216;)))))
-            (____, Scope<Void> @:12682 op:232,dt:4,nt:8,next:12691,str:17096,d0:12683,d1:38143;
+            (____, BuiltinInvocation<Void> @:12682 op:232,dt:4,nt:8,next:12691,str:17096,d0:12683,d1:38143;
                 ("vehicle_load_magic", Expression<MethodOrOperator> @:12683 op:232,dt:2,nt:9,next:12684,str:16288,d0:0,d1:0;
-                    (____, Scope<Entity> @:12684 op:341,dt:50,nt:8,next:12687,str:17116,d0:12685,d1:38145;
+                    (____, BuiltinInvocation<Entity> @:12684 op:341,dt:50,nt:8,next:12687,str:17116,d0:12685,d1:38145;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:12685 op:341,dt:2,nt:9,next:12686,str:14605,d0:0,d1:0;
                             ("bridge_pelican/pilot", Expression<AI> @:12686 op:19,dt:19,nt:9,next:65535,str:23567,d0:0,d1:49216;)))
                     ("pelican_p", Expression<VehicleSeat> @:12687 op:12,dt:12,nt:9,next:12688,str:15981,d0:1,d1:1;
-                        (____, Scope<List> @:12688 op:332,dt:31,nt:8,next:65535,str:17189,d0:12689,d1:38149;
+                        (____, BuiltinInvocation<List> @:12688 op:332,dt:31,nt:8,next:65535,str:17189,d0:12689,d1:38149;
                             ("ai_actors", Expression<MethodOrOperator> @:12689 op:332,dt:2,nt:9,next:12690,str:14311,d0:0,d1:0;
                                 ("allies_bridge_pelican", Expression<AI> @:12690 op:19,dt:19,nt:9,next:65535,str:23914,d0:66,d1:0;))))))
-            (____, Scope<Void> @:12691 op:232,dt:4,nt:8,next:12700,str:17226,d0:12692,d1:38152;
+            (____, BuiltinInvocation<Void> @:12691 op:232,dt:4,nt:8,next:12700,str:17226,d0:12692,d1:38152;
                 ("vehicle_load_magic", Expression<MethodOrOperator> @:12692 op:232,dt:2,nt:9,next:12693,str:16288,d0:0,d1:0;
-                    (____, Scope<Entity> @:12693 op:341,dt:50,nt:8,next:12696,str:17246,d0:12694,d1:38154;
+                    (____, BuiltinInvocation<Entity> @:12693 op:341,dt:50,nt:8,next:12696,str:17246,d0:12694,d1:38154;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:12694 op:341,dt:2,nt:9,next:12695,str:14605,d0:0,d1:0;
                             ("bridge_pelican/pilot", Expression<AI> @:12695 op:19,dt:19,nt:9,next:65535,str:23567,d0:0,d1:49216;)))
                     ("pelican_lc", Expression<VehicleSeat> @:12696 op:12,dt:12,nt:9,next:12697,str:15934,d0:0,d1:1;
-                        (____, Scope<List> @:12697 op:341,dt:31,nt:8,next:65535,str:17320,d0:12698,d1:38158;
+                        (____, BuiltinInvocation<List> @:12697 op:341,dt:31,nt:8,next:65535,str:17320,d0:12698,d1:38158;
                             ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:12698 op:341,dt:2,nt:9,next:12699,str:14605,d0:0,d1:0;
                                 ("bridge_tank/driver", Expression<AI> @:12699 op:19,dt:19,nt:9,next:65535,str:23292,d0:0,d1:49217;))))))
-            (____, Scope<Void> @:12700 op:343,dt:4,nt:8,next:12706,str:17382,d0:12701,d1:38161;
+            (____, BuiltinInvocation<Void> @:12700 op:343,dt:4,nt:8,next:12706,str:17382,d0:12701,d1:38161;
                 ("ai_vehicle_reserve", Expression<MethodOrOperator> @:12701 op:343,dt:2,nt:9,next:12702,str:16307,d0:0,d1:0;
-                    (____, Scope<Vehicle> @:12702 op:341,dt:52,nt:8,next:12705,str:17402,d0:12703,d1:38163;
+                    (____, BuiltinInvocation<Vehicle> @:12702 op:341,dt:52,nt:8,next:12705,str:17402,d0:12703,d1:38163;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:12703 op:341,dt:2,nt:9,next:12704,str:14605,d0:0,d1:0;
                             ("bridge_pelican/pilot", Expression<AI> @:12704 op:19,dt:19,nt:9,next:65535,str:23567,d0:0,d1:49216;)))
                     (True, Expression<Boolean> @:12705 op:5,dt:5,nt:9,next:65535,str:17463,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:12706 op:342,dt:4,nt:8,next:12713,str:17472,d0:12707,d1:38167;
+            (____, BuiltinInvocation<Void> @:12706 op:342,dt:4,nt:8,next:12713,str:17472,d0:12707,d1:38167;
                 ("ai_vehicle_reserve_seat", Expression<MethodOrOperator> @:12707 op:342,dt:2,nt:9,next:12708,str:23936,d0:0,d1:0;
-                    (____, Scope<Vehicle> @:12708 op:341,dt:52,nt:8,next:12711,str:17497,d0:12709,d1:38169;
+                    (____, BuiltinInvocation<Vehicle> @:12708 op:341,dt:52,nt:8,next:12711,str:17497,d0:12709,d1:38169;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:12709 op:341,dt:2,nt:9,next:12710,str:14605,d0:0,d1:0;
                             ("bridge_tank/driver", Expression<AI> @:12710 op:19,dt:19,nt:9,next:65535,str:23292,d0:0,d1:49217;)))
                     ("scorpion_d", Expression<StringId> @:12711 op:11,dt:11,nt:9,next:12712,str:23311,d0:4751,d1:2560;
                         (True, Expression<Boolean> @:12712 op:5,dt:5,nt:9,next:65535,str:17569,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:12713 op:366,dt:4,nt:8,next:65535,str:17577,d0:12714,d1:38174;
+            (____, BuiltinInvocation<Void> @:12713 op:366,dt:4,nt:8,next:65535,str:17577,d0:12714,d1:38174;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:12714 op:366,dt:2,nt:9,next:12715,str:14517,d0:0,d1:0;
                     ("bridge_pelican/pilot", Expression<AI> @:12715 op:19,dt:19,nt:9,next:12716,str:23567,d0:0,d1:49216;
                         ("gimme_tank", Expression<AIScript> @:12716 op:21,dt:21,nt:9,next:65535,str:23960,d0:257,d1:0;)))))))

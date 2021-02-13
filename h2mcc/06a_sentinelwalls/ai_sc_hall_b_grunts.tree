@@ -1,14 +1,14 @@
 
 ("ai_sc_hall_b_grunts", MethodDecl<Void> @:168 op:0,dt:0,nt:65535,next:5658,str:28325,d0:0,d1:0;
-    (____, Scope<Void> @:5658 op:0,dt:4,nt:8,next:65535,str:64183,d0:5659,d1:63886;
+    (____, BuiltinInvocation<Void> @:5658 op:0,dt:4,nt:8,next:65535,str:64183,d0:5659,d1:63886;
         ("begin", Expression<MethodOrOperator> @:5659 op:0,dt:2,nt:9,next:5648,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:5648 op:21,dt:4,nt:8,next:5654,str:64295,d0:5649,d1:63876;
+            (____, BuiltinInvocation<Void> @:5648 op:21,dt:4,nt:8,next:5654,str:64295,d0:5649,d1:63876;
                 ("sleep_until", Expression<MethodOrOperator> @:5649 op:21,dt:2,nt:9,next:5650,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:5650 op:337,dt:5,nt:8,next:65535,str:64308,d0:5651,d1:63878;
+                    (____, BuiltinInvocation<Boolean> @:5650 op:337,dt:5,nt:8,next:65535,str:64308,d0:5651,d1:63878;
                         ("ai_trigger_test", Expression<MethodOrOperator> @:5651 op:337,dt:2,nt:9,next:5652,str:13380,d0:0,d1:0;
                             ("scene_trigger_4", Expression<String> @:5652 op:9,dt:9,nt:9,next:5653,str:13396,d0:13396,d1:0;
                                 ("hall_b_cov", Expression<AI> @:5653 op:19,dt:19,nt:9,next:65535,str:13412,d0:12,d1:0;))))))
-            (____, Scope<Void> @:5654 op:366,dt:4,nt:8,next:65535,str:64356,d0:5655,d1:63882;
+            (____, BuiltinInvocation<Void> @:5654 op:366,dt:4,nt:8,next:65535,str:64356,d0:5655,d1:63882;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:5655 op:366,dt:2,nt:9,next:5656,str:1464,d0:0,d1:0;
                     ("hall_b_cov/wimp", Expression<AI> @:5656 op:19,dt:19,nt:9,next:5657,str:13423,d0:5,d1:49164;
                         ("sc_fleeing_grunts", Expression<AIScript> @:5657 op:21,dt:21,nt:9,next:65535,str:13439,d0:167,d1:0;)))))))

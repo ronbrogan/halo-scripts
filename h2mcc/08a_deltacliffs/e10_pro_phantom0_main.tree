@@ -1,40 +1,40 @@
 
 ("e10_pro_phantom0_main", MethodDecl<Void> @:102 op:0,dt:0,nt:65535,next:3407,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:3407 op:0,dt:4,nt:8,next:65535,str:40654,d0:3408,d1:61635;
+    (____, BuiltinInvocation<Void> @:3407 op:0,dt:4,nt:8,next:65535,str:40654,d0:3408,d1:61635;
         ("begin", Expression<MethodOrOperator> @:3408 op:0,dt:2,nt:9,next:3371,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:3371 op:21,dt:4,nt:8,next:3386,str:40694,d0:3372,d1:61599;
+            (____, BuiltinInvocation<Void> @:3371 op:21,dt:4,nt:8,next:3386,str:40694,d0:3372,d1:61599;
                 ("sleep_until", Expression<MethodOrOperator> @:3372 op:21,dt:2,nt:9,next:3373,str:294,d0:0,d1:0;
-                    (____, Scope<Boolean> @:3373 op:6,dt:5,nt:8,next:3385,str:40711,d0:3374,d1:61601;
+                    (____, BuiltinInvocation<Boolean> @:3373 op:6,dt:5,nt:8,next:3385,str:40711,d0:3374,d1:61601;
                         ("or", Expression<MethodOrOperator> @:3374 op:6,dt:2,nt:9,next:3375,str:907,d0:0,d1:0;
-                            (____, Scope<Boolean> @:3375 op:33,dt:5,nt:8,next:3380,str:40719,d0:3376,d1:61603;
+                            (____, BuiltinInvocation<Boolean> @:3375 op:33,dt:5,nt:8,next:3380,str:40719,d0:3376,d1:61603;
                                 ("volume_test_objects", Expression<MethodOrOperator> @:3376 op:33,dt:2,nt:9,next:3377,str:7259,d0:0,d1:0;
                                     ("tv_e10_armory_entrance", Expression<Trigger> @:3377 op:13,dt:13,nt:9,next:3378,str:7427,d0:34,d1:0;
-                                        (____, Scope<List> @:3378 op:28,dt:31,nt:8,next:65535,str:40763,d0:3379,d1:61606;
+                                        (____, BuiltinInvocation<List> @:3378 op:28,dt:31,nt:8,next:65535,str:40763,d0:3379,d1:61606;
                                             ("players", Expression<MethodOrOperator> @:3379 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;)))))
-                            (____, Scope<Boolean> @:3380 op:33,dt:5,nt:8,next:65535,str:40779,d0:3381,d1:61608;
+                            (____, BuiltinInvocation<Boolean> @:3380 op:33,dt:5,nt:8,next:65535,str:40779,d0:3381,d1:61608;
                                 ("volume_test_objects", Expression<MethodOrOperator> @:3381 op:33,dt:2,nt:9,next:3382,str:7259,d0:0,d1:0;
                                     ("tv_e10_second_half", Expression<Trigger> @:3382 op:13,dt:13,nt:9,next:3383,str:7450,d0:48,d1:0;
-                                        (____, Scope<List> @:3383 op:28,dt:31,nt:8,next:65535,str:40819,d0:3384,d1:61611;
+                                        (____, BuiltinInvocation<List> @:3383 op:28,dt:31,nt:8,next:65535,str:40819,d0:3384,d1:61611;
                                             ("players", Expression<MethodOrOperator> @:3384 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;)))))))
                     (15, Expression<Short> @:3385 op:7,dt:7,nt:9,next:65535,str:40839,d0:15,d1:65535;)))
-            (____, Scope<Void> @:3386 op:587,dt:4,nt:8,next:3388,str:40848,d0:3387,d1:61614;
+            (____, BuiltinInvocation<Void> @:3386 op:587,dt:4,nt:8,next:3388,str:40848,d0:3387,d1:61614;
                 ("game_save", Expression<MethodOrOperator> @:3387 op:587,dt:2,nt:9,next:65535,str:7417,d0:0,d1:0;))
-            (____, Scope<Void> @:3388 op:290,dt:4,nt:8,next:3391,str:40889,d0:3389,d1:61616;
+            (____, BuiltinInvocation<Void> @:3388 op:290,dt:4,nt:8,next:3391,str:40889,d0:3389,d1:61616;
                 ("ai_place", Expression<MethodOrOperator> @:3389 op:290,dt:2,nt:9,next:3390,str:6964,d0:0,d1:0;
                     ("e10_pro_phantom0", Expression<AI> @:3390 op:19,dt:19,nt:9,next:65535,str:7469,d0:82,d1:0;)))
-            (____, Scope<Void> @:3391 op:366,dt:4,nt:8,next:3395,str:40919,d0:3392,d1:61619;
+            (____, BuiltinInvocation<Void> @:3391 op:366,dt:4,nt:8,next:3395,str:40919,d0:3392,d1:61619;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:3392 op:366,dt:2,nt:9,next:3393,str:7486,d0:0,d1:0;
                     ("e10_pro_phantom0/phantom0", Expression<AI> @:3393 op:19,dt:19,nt:9,next:3394,str:6002,d0:0,d1:49234;
                         ("cs_e10_pro_phantom0_entry", Expression<AIScript> @:3394 op:21,dt:21,nt:9,next:65535,str:7508,d0:90,d1:0;))))
-            (____, Scope<Void> @:3395 op:2,dt:4,nt:8,next:65535,str:41051,d0:3396,d1:61623;
+            (____, BuiltinInvocation<Void> @:3395 op:2,dt:4,nt:8,next:65535,str:41051,d0:3396,d1:61623;
                 ("if", Expression<MethodOrOperator> @:3396 op:2,dt:2,nt:9,next:3397,str:519,d0:0,d1:0;
-                    (____, Scope<Boolean> @:3397 op:18,dt:5,nt:8,next:3403,str:41055,d0:3398,d1:61625;
+                    (____, BuiltinInvocation<Boolean> @:3397 op:18,dt:5,nt:8,next:3403,str:41055,d0:3398,d1:61625;
                         ("<=", Expression<MethodOrOperator> @:3398 op:18,dt:2,nt:9,next:3399,str:6041,d0:0,d1:0;
-                            (____, Scope<Short> @:3399 op:327,dt:7,nt:8,next:3402,str:41059,d0:3400,d1:61627;
+                            (____, BuiltinInvocation<Short> @:3399 op:327,dt:7,nt:8,next:3402,str:41059,d0:3400,d1:61627;
                                 ("ai_living_count", Expression<MethodOrOperator> @:3400 op:327,dt:2,nt:9,next:3401,str:7534,d0:0,d1:0;
                                     ("e10_pro_wraith0", Expression<AI> @:3401 op:19,dt:19,nt:9,next:65535,str:7550,d0:37,d1:16384;)))
                             (0, Expression<Short> @:3402 op:7,dt:7,nt:9,next:65535,str:41093,d0:0,d1:65535;)))
-                    (____, Scope<Void> @:3403 op:292,dt:4,nt:8,next:65535,str:41099,d0:3404,d1:61631;
+                    (____, BuiltinInvocation<Void> @:3403 op:292,dt:4,nt:8,next:65535,str:41099,d0:3404,d1:61631;
                         ("ai_place_in_vehicle", Expression<MethodOrOperator> @:3404 op:292,dt:2,nt:9,next:3405,str:7566,d0:0,d1:0;
                             ("e10_pro_ghosts0_1", Expression<AI> @:3405 op:19,dt:19,nt:9,next:3406,str:6205,d0:84,d1:0;
                                 ("e10_pro_phantom0", Expression<AI> @:3406 op:19,dt:19,nt:9,next:65535,str:7469,d0:82,d1:0;)))))))))

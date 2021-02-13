@@ -1,58 +1,58 @@
 
 ("open_piston_c", MethodDecl<Void> @:186 op:0,dt:0,nt:65535,next:6885,str:16862,d0:0,d1:0;
-    (____, Scope<Void> @:6885 op:0,dt:4,nt:8,next:65535,str:11168,d0:6886,d1:65113;
+    (____, BuiltinInvocation<Void> @:6885 op:0,dt:4,nt:8,next:65535,str:11168,d0:6886,d1:65113;
         ("begin", Expression<MethodOrOperator> @:6886 op:0,dt:2,nt:9,next:6831,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:6831 op:21,dt:4,nt:8,next:65535,str:11200,d0:6832,d1:65059;
+            (____, BuiltinInvocation<Void> @:6831 op:21,dt:4,nt:8,next:65535,str:11200,d0:6832,d1:65059;
                 ("sleep_until", Expression<MethodOrOperator> @:6832 op:21,dt:2,nt:9,next:6833,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:6833 op:0,dt:5,nt:8,next:65535,str:11216,d0:6834,d1:65061;
+                    (____, BuiltinInvocation<Boolean> @:6833 op:0,dt:5,nt:8,next:65535,str:11216,d0:6834,d1:65061;
                         ("begin", Expression<MethodOrOperator> @:6834 op:0,dt:2,nt:9,next:6835,str:1,d0:0,d1:0;
-                            (____, Scope<Void> @:6835 op:21,dt:4,nt:8,next:6852,str:11227,d0:6836,d1:65063;
+                            (____, BuiltinInvocation<Void> @:6835 op:21,dt:4,nt:8,next:6852,str:11227,d0:6836,d1:65063;
                                 ("sleep_until", Expression<MethodOrOperator> @:6836 op:21,dt:2,nt:9,next:6837,str:231,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:6837 op:6,dt:5,nt:8,next:6851,str:11240,d0:6838,d1:65065;
+                                    (____, BuiltinInvocation<Boolean> @:6837 op:6,dt:5,nt:8,next:6851,str:11240,d0:6838,d1:65065;
                                         ("or", Expression<MethodOrOperator> @:6838 op:6,dt:2,nt:9,next:6839,str:844,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:6839 op:15,dt:5,nt:8,next:6845,str:11252,d0:6840,d1:65067;
+                                            (____, BuiltinInvocation<Boolean> @:6839 op:15,dt:5,nt:8,next:6845,str:11252,d0:6840,d1:65067;
                                                 (">", Expression<MethodOrOperator> @:6840 op:15,dt:2,nt:9,next:6841,str:16226,d0:0,d1:0;
-                                                    (-5.7523804E+37f, Scope<Float> @:6841 op:259,dt:6,nt:8,next:6844,str:11255,d0:6842,d1:65069;
+                                                    (-5.7523804E+37f, BuiltinInvocation<Float> @:6841 op:259,dt:6,nt:8,next:6844,str:11255,d0:6842,d1:65069;
                                                         ("device_group_get", Expression<MethodOrOperator> @:6842 op:259,dt:2,nt:9,next:6843,str:16228,d0:0,d1:0;
                                                             ("group_c", Expression<DeviceGroup> @:6843 op:18,dt:18,nt:9,next:65535,str:16518,d0:7,d1:58731;)))
                                                     (0f, Expression<Float> @:6844 op:6,dt:6,nt:9,next:65535,str:11282,d0:0,d1:0;)))
-                                            (____, Scope<Boolean> @:6845 op:18,dt:5,nt:8,next:65535,str:11293,d0:6846,d1:65073;
+                                            (____, BuiltinInvocation<Boolean> @:6845 op:18,dt:5,nt:8,next:65535,str:11293,d0:6846,d1:65073;
                                                 ("<=", Expression<MethodOrOperator> @:6846 op:18,dt:2,nt:9,next:6847,str:16255,d0:0,d1:0;
-                                                    (-5.9517676E+37f, Scope<Float> @:6847 op:70,dt:6,nt:8,next:6850,str:11297,d0:6848,d1:65075;
+                                                    (-5.9517676E+37f, BuiltinInvocation<Float> @:6847 op:70,dt:6,nt:8,next:6850,str:11297,d0:6848,d1:65075;
                                                         ("object_get_shield", Expression<MethodOrOperator> @:6848 op:70,dt:2,nt:9,next:6849,str:16258,d0:0,d1:0;
                                                             (4294901787, Expression<Entity> @:6849 op:56,dt:50,nt:9,next:65535,str:15274,d0:27,d1:65535;)))
                                                     (0f, Expression<Float> @:6850 op:6,dt:6,nt:9,next:65535,str:11328,d0:0,d1:0;)))))
                                     (1, Expression<Short> @:6851 op:7,dt:7,nt:9,next:65535,str:11344,d0:1,d1:65535;)))
-                            (____, Scope<Void> @:6852 op:256,dt:4,nt:8,next:6856,str:11351,d0:6853,d1:65080;
+                            (____, BuiltinInvocation<Void> @:6852 op:256,dt:4,nt:8,next:6856,str:11351,d0:6853,d1:65080;
                                 ("device_set_position", Expression<MethodOrOperator> @:6853 op:256,dt:2,nt:9,next:6854,str:3798,d0:0,d1:0;
                                     ("piston_c", Expression<Device> @:6854 op:60,dt:54,nt:9,next:6855,str:15265,d0:405,d1:65535;
                                         (1f, Expression<Float> @:6855 op:6,dt:6,nt:9,next:65535,str:11381,d0:0,d1:16256;))))
-                            (____, Scope<Void> @:6856 op:43,dt:4,nt:8,next:6860,str:11388,d0:6857,d1:65084;
+                            (____, BuiltinInvocation<Void> @:6856 op:43,dt:4,nt:8,next:6860,str:11388,d0:6857,d1:65084;
                                 ("damage_object", Expression<MethodOrOperator> @:6857 op:43,dt:2,nt:9,next:6858,str:16276,d0:0,d1:0;
                                     ("scenarios\objects\solo\sentinelhq\door_piston_absorber\damage_effects\damage_absorber", Expression<DamageEffect> @:6858 op:34,dt:34,nt:9,next:6859,str:16290,d0:8306,d1:33452;
                                         (4294901787, Expression<Entity> @:6859 op:56,dt:50,nt:9,next:65535,str:15274,d0:27,d1:65535;))))
-                            (____, Scope<Void> @:6860 op:19,dt:4,nt:8,next:6863,str:11505,d0:6861,d1:65088;
+                            (____, BuiltinInvocation<Void> @:6860 op:19,dt:4,nt:8,next:6863,str:11505,d0:6861,d1:65088;
                                 ("sleep", Expression<MethodOrOperator> @:6861 op:19,dt:2,nt:9,next:6862,str:80,d0:0,d1:0;
                                     ("piston_open_time", VariableAccess<Short> @:6862 op:7,dt:7,nt:13,next:65535,str:16376,d0:40,d1:0;)))
-                            (____, Scope<Void> @:6863 op:21,dt:4,nt:8,next:6872,str:11534,d0:6864,d1:65091;
+                            (____, BuiltinInvocation<Void> @:6863 op:21,dt:4,nt:8,next:6872,str:11534,d0:6864,d1:65091;
                                 ("sleep_until", Expression<MethodOrOperator> @:6864 op:21,dt:2,nt:9,next:6865,str:231,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:6865 op:25,dt:5,nt:8,next:65535,str:11547,d0:6866,d1:65093;
+                                    (____, BuiltinInvocation<Boolean> @:6865 op:25,dt:5,nt:8,next:65535,str:11547,d0:6866,d1:65093;
                                         ("not", Expression<MethodOrOperator> @:6866 op:25,dt:2,nt:9,next:6867,str:397,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:6867 op:34,dt:5,nt:8,next:65535,str:11552,d0:6868,d1:65095;
+                                            (____, BuiltinInvocation<Boolean> @:6867 op:34,dt:5,nt:8,next:65535,str:11552,d0:6868,d1:65095;
                                                 ("volume_test_objects_all", Expression<MethodOrOperator> @:6868 op:34,dt:2,nt:9,next:6869,str:16393,d0:0,d1:0;
                                                     ("tv_piston_c", Expression<Trigger> @:6869 op:13,dt:13,nt:9,next:6870,str:16526,d0:73,d1:0;
-                                                        (____, Scope<List> @:6870 op:28,dt:31,nt:8,next:65535,str:11589,d0:6871,d1:65098;
+                                                        (____, BuiltinInvocation<List> @:6870 op:28,dt:31,nt:8,next:65535,str:11589,d0:6871,d1:65098;
                                                             ("players", Expression<MethodOrOperator> @:6871 op:28,dt:2,nt:9,next:65535,str:21,d0:0,d1:0;)))))))))
-                            (____, Scope<Void> @:6872 op:256,dt:4,nt:8,next:6876,str:11606,d0:6873,d1:65100;
+                            (____, BuiltinInvocation<Void> @:6872 op:256,dt:4,nt:8,next:6876,str:11606,d0:6873,d1:65100;
                                 ("device_set_position", Expression<MethodOrOperator> @:6873 op:256,dt:2,nt:9,next:6874,str:3798,d0:0,d1:0;
                                     ("piston_c", Expression<Device> @:6874 op:60,dt:54,nt:9,next:6875,str:15265,d0:405,d1:65535;
                                         (0f, Expression<Float> @:6875 op:6,dt:6,nt:9,next:65535,str:11636,d0:0,d1:0;))))
-                            (____, Scope<Void> @:6876 op:261,dt:4,nt:8,next:6880,str:11643,d0:6877,d1:65104;
+                            (____, BuiltinInvocation<Void> @:6876 op:261,dt:4,nt:8,next:6880,str:11643,d0:6877,d1:65104;
                                 ("device_group_set_immediate", Expression<MethodOrOperator> @:6877 op:261,dt:2,nt:9,next:6878,str:16431,d0:0,d1:0;
                                     ("group_c", Expression<DeviceGroup> @:6878 op:18,dt:18,nt:9,next:6879,str:16518,d0:7,d1:58731;
                                         (0f, Expression<Float> @:6879 op:6,dt:6,nt:9,next:65535,str:11679,d0:0,d1:0;))))
-                            (____, Scope<Boolean> @:6880 op:13,dt:5,nt:8,next:65535,str:11685,d0:6881,d1:65108;
+                            (____, BuiltinInvocation<Boolean> @:6880 op:13,dt:5,nt:8,next:65535,str:11685,d0:6881,d1:65108;
                                 ("=", Expression<MethodOrOperator> @:6881 op:13,dt:2,nt:9,next:6882,str:296,d0:0,d1:0;
-                                    (____, Scope<Short> @:6882 op:509,dt:7,nt:8,next:6884,str:11688,d0:6883,d1:65110;
+                                    (____, BuiltinInvocation<Short> @:6882 op:509,dt:7,nt:8,next:6884,str:11688,d0:6883,d1:65110;
                                         ("structure_bsp_index", Expression<MethodOrOperator> @:6883 op:509,dt:2,nt:9,next:65535,str:16458,d0:0,d1:0;))
                                     (1, Expression<Short> @:6884 op:7,dt:7,nt:9,next:65535,str:11710,d0:1,d1:65535;))))))))))

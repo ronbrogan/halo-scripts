@@ -1,67 +1,67 @@
 
 ("x08_scene_02", MethodDecl<Void> @:56 op:0,dt:0,nt:65535,next:1395,str:8400,d0:0,d1:0;
-    (____, Scope<Void> @:1395 op:0,dt:4,nt:8,next:65535,str:15132,d0:1396,d1:59623;
+    (____, BuiltinInvocation<Void> @:1395 op:0,dt:4,nt:8,next:65535,str:15132,d0:1396,d1:59623;
         ("begin", Expression<MethodOrOperator> @:1396 op:0,dt:2,nt:9,next:1332,str:1,d0:0,d1:0;
             ("x08_02_setup", ScriptInvocation<Void> @:1332 op:55,dt:4,nt:10,next:1334,str:15170,d0:1333,d1:59560;
                 ("x08_02_setup", Expression<MethodOrOperator> @:1333 op:55,dt:2,nt:9,next:65535,str:3013,d0:0,d1:0;))
-            (____, Scope<Void> @:1334 op:454,dt:4,nt:8,next:1340,str:15190,d0:1335,d1:59562;
+            (____, BuiltinInvocation<Void> @:1334 op:454,dt:4,nt:8,next:1340,str:15190,d0:1335,d1:59562;
                 ("camera_set_animation_relative", Expression<MethodOrOperator> @:1335 op:454,dt:2,nt:9,next:1336,str:2305,d0:0,d1:0;
                     ("objects\characters\cinematic_camera\x08\x08", Expression<Animation> @:1336 op:36,dt:36,nt:9,next:1337,str:2335,d0:951,d1:58669;
                         ("x08_02", Expression<StringId> @:1337 op:11,dt:11,nt:9,next:1338,str:3026,d0:4023,d1:1536;
                             ("none", Expression<Unit> @:1338 op:51,dt:51,nt:9,next:1339,str:1586,d0:65535,d1:65535;
                                 ("anchor_flag_x08", Expression<LocationFlag> @:1339 op:14,dt:14,nt:9,next:65535,str:2386,d0:4,d1:0;))))))
-            (____, Scope<Void> @:1340 op:203,dt:4,nt:8,next:1347,str:15303,d0:1341,d1:59568;
+            (____, BuiltinInvocation<Void> @:1340 op:203,dt:4,nt:8,next:1347,str:15303,d0:1341,d1:59568;
                 ("custom_animation_relative", Expression<MethodOrOperator> @:1341 op:203,dt:2,nt:9,next:1342,str:2402,d0:0,d1:0;
                     ("chief", Expression<Unit> @:1342 op:57,dt:51,nt:9,next:1343,str:1958,d0:252,d1:65535;
                         ("objects\characters\masterchief\x08\x08", Expression<Animation> @:1343 op:36,dt:36,nt:9,next:1344,str:2428,d0:952,d1:58670;
                             ("chief_02", Expression<StringId> @:1344 op:11,dt:11,nt:9,next:1345,str:3033,d0:4059,d1:2048;
                                 (False, Expression<Boolean> @:1345 op:5,dt:5,nt:9,next:1346,str:15386,d0:65280,d1:65535;
                                     (4294901860, Expression<Entity> @:1346 op:56,dt:50,nt:9,next:65535,str:2476,d0:100,d1:65535;)))))))
-            (____, Scope<Void> @:1347 op:203,dt:4,nt:8,next:1354,str:15406,d0:1348,d1:59575;
+            (____, BuiltinInvocation<Void> @:1347 op:203,dt:4,nt:8,next:1354,str:15406,d0:1348,d1:59575;
                 ("custom_animation_relative", Expression<MethodOrOperator> @:1348 op:203,dt:2,nt:9,next:1349,str:2402,d0:0,d1:0;
                     ("gravemind", Expression<Unit> @:1349 op:57,dt:51,nt:9,next:1350,str:1964,d0:284,d1:65535;
                         ("objects\characters\gravemind\x08\x08", Expression<Animation> @:1350 op:36,dt:36,nt:9,next:1351,str:2487,d0:953,d1:58671;
                             ("gm_mouth_02", Expression<StringId> @:1351 op:11,dt:11,nt:9,next:1352,str:3042,d0:4128,d1:2816;
                                 (False, Expression<Boolean> @:1352 op:5,dt:5,nt:9,next:1353,str:15494,d0:65280,d1:65535;
                                     (4294901860, Expression<Entity> @:1353 op:56,dt:50,nt:9,next:65535,str:2476,d0:100,d1:65535;)))))))
-            (____, Scope<Void> @:1354 op:186,dt:4,nt:8,next:1360,str:15517,d0:1355,d1:59582;
+            (____, BuiltinInvocation<Void> @:1354 op:186,dt:4,nt:8,next:1360,str:15517,d0:1355,d1:59582;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:1355 op:186,dt:2,nt:9,next:1356,str:2536,d0:0,d1:0;
                     ("tentacle_chief", Expression<Scenery> @:1356 op:61,dt:55,nt:9,next:1357,str:1974,d0:3,d1:65535;
                         ("objects\characters\gravemind\tentacle_capture_masterchief\x08\x08", Expression<Animation> @:1357 op:36,dt:36,nt:9,next:1358,str:2569,d0:955,d1:58673;
                             ("tc_mc_02", Expression<StringId> @:1358 op:11,dt:11,nt:9,next:1359,str:3054,d0:4174,d1:2048;
                                 (4294901860, Expression<Entity> @:1359 op:56,dt:50,nt:9,next:65535,str:2476,d0:100,d1:65535;))))))
-            (____, Scope<Void> @:1360 op:186,dt:4,nt:8,next:1366,str:15657,d0:1361,d1:59588;
+            (____, BuiltinInvocation<Void> @:1360 op:186,dt:4,nt:8,next:1366,str:15657,d0:1361,d1:59588;
                 ("scenery_animation_start_relative", Expression<MethodOrOperator> @:1361 op:186,dt:2,nt:9,next:1362,str:2536,d0:0,d1:0;
                     ("tentacle_capture_01", Expression<Scenery> @:1362 op:61,dt:55,nt:9,next:1363,str:1989,d0:2,d1:65535;
                         ("objects\characters\gravemind\tentacle_capture_driven\x08\x08", Expression<Animation> @:1363 op:36,dt:36,nt:9,next:1364,str:2644,d0:956,d1:58674;
                             ("tc_driven01_02", Expression<StringId> @:1364 op:11,dt:11,nt:9,next:1365,str:3063,d0:4229,d1:3584;
                                 (4294901860, Expression<Entity> @:1365 op:56,dt:50,nt:9,next:65535,str:2476,d0:100,d1:65535;))))))
-            (____, Scope<Void> @:1366 op:551,dt:4,nt:8,next:1372,str:15806,d0:1367,d1:59594;
+            (____, BuiltinInvocation<Void> @:1366 op:551,dt:4,nt:8,next:1372,str:15806,d0:1367,d1:59594;
                 ("fade_in", Expression<MethodOrOperator> @:1367 op:551,dt:2,nt:9,next:1368,str:547,d0:0,d1:0;
                     (1f, Expression<Float> @:1368 op:6,dt:6,nt:9,next:1369,str:15815,d0:0,d1:16256;
                         (1f, Expression<Float> @:1369 op:6,dt:6,nt:9,next:1370,str:15817,d0:0,d1:16256;
                             (1f, Expression<Float> @:1370 op:6,dt:6,nt:9,next:1371,str:15819,d0:0,d1:16256;
                                 (15, Expression<Short> @:1371 op:7,dt:7,nt:9,next:65535,str:15821,d0:15,d1:65535;))))))
-            (____, Scope<Void> @:1372 op:19,dt:4,nt:8,next:1379,str:15900,d0:1373,d1:59600;
+            (____, BuiltinInvocation<Void> @:1372 op:19,dt:4,nt:8,next:1379,str:15900,d0:1373,d1:59600;
                 ("sleep", Expression<MethodOrOperator> @:1373 op:19,dt:2,nt:9,next:1374,str:80,d0:0,d1:0;
-                    (____, Scope<Short> @:1374 op:8,dt:7,nt:8,next:65535,str:15907,d0:1375,d1:59602;
+                    (____, BuiltinInvocation<Short> @:1374 op:8,dt:7,nt:8,next:65535,str:15907,d0:1375,d1:59602;
                         ("-", Expression<MethodOrOperator> @:1375 op:8,dt:2,nt:9,next:1376,str:2720,d0:0,d1:0;
-                            (-8.0099273E+24f, Scope<Float> @:1376 op:458,dt:6,nt:8,next:1378,str:15910,d0:1377,d1:59604;
+                            (-8.0099273E+24f, BuiltinInvocation<Float> @:1376 op:458,dt:6,nt:8,next:1378,str:15910,d0:1377,d1:59604;
                                 ("camera_time", Expression<MethodOrOperator> @:1377 op:458,dt:2,nt:9,next:65535,str:2722,d0:0,d1:0;))
                             ("prediction_offset", VariableAccess<Float> @:1378 op:6,dt:6,nt:13,next:65535,str:2274,d0:2,d1:0;)))))
             ("x08_03_predict_stub", ScriptInvocation<Void> @:1379 op:27,dt:4,nt:10,next:1381,str:15946,d0:1380,d1:59607;
                 ("x08_03_predict_stub", Expression<MethodOrOperator> @:1380 op:27,dt:2,nt:9,next:65535,str:3078,d0:0,d1:0;))
-            (____, Scope<Void> @:1381 op:19,dt:4,nt:8,next:1388,str:15973,d0:1382,d1:59609;
+            (____, BuiltinInvocation<Void> @:1381 op:19,dt:4,nt:8,next:1388,str:15973,d0:1382,d1:59609;
                 ("sleep", Expression<MethodOrOperator> @:1382 op:19,dt:2,nt:9,next:1383,str:80,d0:0,d1:0;
-                    (____, Scope<Short> @:1383 op:8,dt:7,nt:8,next:65535,str:15980,d0:1384,d1:59611;
+                    (____, BuiltinInvocation<Short> @:1383 op:8,dt:7,nt:8,next:65535,str:15980,d0:1384,d1:59611;
                         ("-", Expression<MethodOrOperator> @:1384 op:8,dt:2,nt:9,next:1385,str:2720,d0:0,d1:0;
-                            (-8.349943E+24f, Scope<Float> @:1385 op:458,dt:6,nt:8,next:1387,str:15983,d0:1386,d1:59613;
+                            (-8.349943E+24f, BuiltinInvocation<Float> @:1385 op:458,dt:6,nt:8,next:1387,str:15983,d0:1386,d1:59613;
                                 ("camera_time", Expression<MethodOrOperator> @:1386 op:458,dt:2,nt:9,next:65535,str:2722,d0:0,d1:0;))
                             ("sound_offset", VariableAccess<Float> @:1387 op:6,dt:6,nt:13,next:65535,str:2754,d0:1,d1:0;)))))
-            (____, Scope<Void> @:1388 op:594,dt:4,nt:8,next:1391,str:16014,d0:1389,d1:59616;
+            (____, BuiltinInvocation<Void> @:1388 op:594,dt:4,nt:8,next:1391,str:16014,d0:1389,d1:59616;
                 ("sound_impulse_predict", Expression<MethodOrOperator> @:1389 op:594,dt:2,nt:9,next:1390,str:2252,d0:0,d1:0;
                     ("sound\cinematics\07_highcharity\x08\foley\x08_03_fol", Expression<Sound> @:1390 op:32,dt:32,nt:9,next:65535,str:3098,d0:960,d1:58678;)))
-            (____, Scope<Void> @:1391 op:19,dt:4,nt:8,next:65535,str:16096,d0:1392,d1:59619;
+            (____, BuiltinInvocation<Void> @:1391 op:19,dt:4,nt:8,next:65535,str:16096,d0:1392,d1:59619;
                 ("sleep", Expression<MethodOrOperator> @:1392 op:19,dt:2,nt:9,next:1393,str:80,d0:0,d1:0;
-                    (____, Scope<Short> @:1393 op:458,dt:7,nt:8,next:65535,str:16103,d0:1394,d1:59621;
+                    (____, BuiltinInvocation<Short> @:1393 op:458,dt:7,nt:8,next:65535,str:16103,d0:1394,d1:59621;
                         ("camera_time", Expression<MethodOrOperator> @:1394 op:458,dt:2,nt:9,next:65535,str:2722,d0:0,d1:0;)))))))

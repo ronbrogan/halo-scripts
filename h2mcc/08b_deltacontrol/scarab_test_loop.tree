@@ -1,38 +1,38 @@
 
 ("scarab_test_loop", MethodDecl<Void> @:425 op:0,dt:0,nt:65535,next:16235,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:16235 op:0,dt:4,nt:8,next:65535,str:7053,d0:16236,d1:41696;
+    (____, BuiltinInvocation<Void> @:16235 op:0,dt:4,nt:8,next:65535,str:7053,d0:16236,d1:41696;
         ("begin", Expression<MethodOrOperator> @:16236 op:0,dt:2,nt:9,next:16101,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:16101 op:21,dt:4,nt:8,next:65535,str:7088,d0:16102,d1:41562;
+            (____, BuiltinInvocation<Void> @:16101 op:21,dt:4,nt:8,next:65535,str:7088,d0:16102,d1:41562;
                 ("sleep_until", Expression<MethodOrOperator> @:16102 op:21,dt:2,nt:9,next:16103,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:16103 op:0,dt:5,nt:8,next:16234,str:7104,d0:16104,d1:41564;
+                    (____, BuiltinInvocation<Boolean> @:16103 op:0,dt:5,nt:8,next:16234,str:7104,d0:16104,d1:41564;
                         ("begin", Expression<MethodOrOperator> @:16104 op:0,dt:2,nt:9,next:16105,str:6,d0:0,d1:0;
-                            (____, Scope<Void> @:16105 op:48,dt:4,nt:8,next:16108,str:7124,d0:16106,d1:41566;
+                            (____, BuiltinInvocation<Void> @:16105 op:48,dt:4,nt:8,next:16108,str:7124,d0:16106,d1:41566;
                                 ("object_create_anew", Expression<MethodOrOperator> @:16106 op:48,dt:2,nt:9,next:16107,str:8260,d0:0,d1:0;
                                     ("scarab", Expression<EntityIdentifier> @:16107 op:56,dt:56,nt:9,next:65535,str:9846,d0:105,d1:65535;)))
-                            (____, Scope<Void> @:16108 op:469,dt:4,nt:8,next:16111,str:7156,d0:16109,d1:41569;
+                            (____, BuiltinInvocation<Void> @:16108 op:469,dt:4,nt:8,next:16111,str:7156,d0:16109,d1:41569;
                                 ("pvs_set_object", Expression<MethodOrOperator> @:16109 op:469,dt:2,nt:9,next:16110,str:30560,d0:0,d1:0;
                                     (4294901865, Expression<Entity> @:16110 op:56,dt:50,nt:9,next:65535,str:9846,d0:105,d1:65535;)))
-                            (____, Scope<Void> @:16111 op:266,dt:4,nt:8,next:16116,str:7260,d0:16112,d1:41572;
+                            (____, BuiltinInvocation<Void> @:16111 op:266,dt:4,nt:8,next:16116,str:7260,d0:16112,d1:41572;
                                 ("device_set_position_track", Expression<MethodOrOperator> @:16112 op:266,dt:2,nt:9,next:16113,str:24906,d0:0,d1:0;
                                     ("scarab", Expression<Device> @:16113 op:60,dt:54,nt:9,next:16114,str:9846,d0:105,d1:65535;
                                         ("delta_ledge_exit", Expression<StringId> @:16114 op:11,dt:11,nt:9,next:16115,str:33550,d0:5400,d1:4096;
                                             (0f, Expression<Float> @:16115 op:6,dt:6,nt:9,next:65535,str:7311,d0:0,d1:0;)))))
-                            (____, Scope<Void> @:16116 op:268,dt:4,nt:8,next:16127,str:7318,d0:16117,d1:41577;
+                            (____, BuiltinInvocation<Void> @:16116 op:268,dt:4,nt:8,next:16127,str:7318,d0:16117,d1:41577;
                                 ("device_animate_position", Expression<MethodOrOperator> @:16117 op:268,dt:2,nt:9,next:16118,str:24972,d0:0,d1:0;
                                     ("scarab", Expression<Device> @:16118 op:60,dt:54,nt:9,next:16119,str:9846,d0:105,d1:65535;
                                         (1f, Expression<Float> @:16119 op:6,dt:6,nt:9,next:16120,str:7350,d0:0,d1:16256;
-                                            (-3.2152827E-18f, Scope<Float> @:16120 op:10,dt:6,nt:8,next:16124,str:7354,d0:16121,d1:41581;
+                                            (-3.2152827E-18f, BuiltinInvocation<Float> @:16120 op:10,dt:6,nt:8,next:16124,str:7354,d0:16121,d1:41581;
                                                 ("/", Expression<MethodOrOperator> @:16121 op:10,dt:2,nt:9,next:16122,str:4999,d0:0,d1:0;
                                                     (90f, Expression<Float> @:16122 op:6,dt:6,nt:9,next:16123,str:7357,d0:0,d1:17076;
                                                         (30f, Expression<Float> @:16123 op:6,dt:6,nt:9,next:65535,str:7362,d0:0,d1:16880;))))
                                             (0f, Expression<Float> @:16124 op:6,dt:6,nt:9,next:16125,str:7368,d0:0,d1:0;
                                                 (0f, Expression<Float> @:16125 op:6,dt:6,nt:9,next:16126,str:7370,d0:0,d1:0;
                                                     (True, Expression<Boolean> @:16126 op:5,dt:5,nt:9,next:65535,str:7372,d0:65281,d1:65535;)))))))
-                            (____, Scope<Void> @:16127 op:21,dt:4,nt:8,next:16136,str:7382,d0:16128,d1:41588;
+                            (____, BuiltinInvocation<Void> @:16127 op:21,dt:4,nt:8,next:16136,str:7382,d0:16128,d1:41588;
                                 ("sleep_until", Expression<MethodOrOperator> @:16128 op:21,dt:2,nt:9,next:16129,str:236,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:16129 op:17,dt:5,nt:8,next:16135,str:7395,d0:16130,d1:41590;
+                                    (____, BuiltinInvocation<Boolean> @:16129 op:17,dt:5,nt:8,next:16135,str:7395,d0:16130,d1:41590;
                                         (">=", Expression<MethodOrOperator> @:16130 op:17,dt:2,nt:9,next:16131,str:676,d0:0,d1:0;
-                                            (-3.3643628E-18f, Scope<Float> @:16131 op:257,dt:6,nt:8,next:16134,str:7399,d0:16132,d1:41592;
+                                            (-3.3643628E-18f, BuiltinInvocation<Float> @:16131 op:257,dt:6,nt:8,next:16134,str:7399,d0:16132,d1:41592;
                                                 ("device_get_position", Expression<MethodOrOperator> @:16132 op:257,dt:2,nt:9,next:16133,str:5946,d0:0,d1:0;
                                                     ("scarab", Expression<Device> @:16133 op:60,dt:54,nt:9,next:65535,str:9846,d0:105,d1:65535;)))
                                             (1f, Expression<Float> @:16134 op:6,dt:6,nt:9,next:65535,str:7428,d0:0,d1:16256;)))
@@ -107,27 +107,27 @@
                                 ("scarab_walk_front_turn_15_left", Expression<MethodOrOperator> @:16203 op:318,dt:2,nt:9,next:65535,str:25513,d0:0,d1:0;))
                             ("scarab_walk_front_turn_22_right", ScriptInvocation<Void> @:16204 op:321,dt:4,nt:10,next:16206,str:8899,d0:16205,d1:41665;
                                 ("scarab_walk_front_turn_22_right", Expression<MethodOrOperator> @:16205 op:321,dt:2,nt:9,next:65535,str:25701,d0:0,d1:0;))
-                            (____, Scope<Void> @:16206 op:266,dt:4,nt:8,next:16211,str:8974,d0:16207,d1:41667;
+                            (____, BuiltinInvocation<Void> @:16206 op:266,dt:4,nt:8,next:16211,str:8974,d0:16207,d1:41667;
                                 ("device_set_position_track", Expression<MethodOrOperator> @:16207 op:266,dt:2,nt:9,next:16208,str:24906,d0:0,d1:0;
                                     ("scarab", Expression<Device> @:16208 op:60,dt:54,nt:9,next:16209,str:9846,d0:105,d1:65535;
                                         ("delta_canyon_step_down", Expression<StringId> @:16209 op:11,dt:11,nt:9,next:16210,str:32446,d0:5399,d1:5632;
                                             (0f, Expression<Float> @:16210 op:6,dt:6,nt:9,next:65535,str:9031,d0:0,d1:0;)))))
-                            (____, Scope<Void> @:16211 op:268,dt:4,nt:8,next:16222,str:9038,d0:16212,d1:41672;
+                            (____, BuiltinInvocation<Void> @:16211 op:268,dt:4,nt:8,next:16222,str:9038,d0:16212,d1:41672;
                                 ("device_animate_position", Expression<MethodOrOperator> @:16212 op:268,dt:2,nt:9,next:16213,str:24972,d0:0,d1:0;
                                     ("scarab", Expression<Device> @:16213 op:60,dt:54,nt:9,next:16214,str:9846,d0:105,d1:65535;
                                         (1f, Expression<Float> @:16214 op:6,dt:6,nt:9,next:16215,str:9070,d0:0,d1:16256;
-                                            (-5.536138E-18f, Scope<Float> @:16215 op:10,dt:6,nt:8,next:16219,str:9074,d0:16216,d1:41676;
+                                            (-5.536138E-18f, BuiltinInvocation<Float> @:16215 op:10,dt:6,nt:8,next:16219,str:9074,d0:16216,d1:41676;
                                                 ("/", Expression<MethodOrOperator> @:16216 op:10,dt:2,nt:9,next:16217,str:4999,d0:0,d1:0;
                                                     (350f, Expression<Float> @:16217 op:6,dt:6,nt:9,next:16218,str:9077,d0:0,d1:17327;
                                                         (30f, Expression<Float> @:16218 op:6,dt:6,nt:9,next:65535,str:9083,d0:0,d1:16880;))))
                                             (0f, Expression<Float> @:16219 op:6,dt:6,nt:9,next:16220,str:9089,d0:0,d1:0;
                                                 (0f, Expression<Float> @:16220 op:6,dt:6,nt:9,next:16221,str:9091,d0:0,d1:0;
                                                     (True, Expression<Boolean> @:16221 op:5,dt:5,nt:9,next:65535,str:9093,d0:65281,d1:65535;)))))))
-                            (____, Scope<Void> @:16222 op:21,dt:4,nt:8,next:16231,str:9103,d0:16223,d1:41683;
+                            (____, BuiltinInvocation<Void> @:16222 op:21,dt:4,nt:8,next:16231,str:9103,d0:16223,d1:41683;
                                 ("sleep_until", Expression<MethodOrOperator> @:16223 op:21,dt:2,nt:9,next:16224,str:236,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:16224 op:17,dt:5,nt:8,next:16230,str:9116,d0:16225,d1:41685;
+                                    (____, BuiltinInvocation<Boolean> @:16224 op:17,dt:5,nt:8,next:16230,str:9116,d0:16225,d1:41685;
                                         (">=", Expression<MethodOrOperator> @:16225 op:17,dt:2,nt:9,next:16226,str:676,d0:0,d1:0;
-                                            (-5.834298E-18f, Scope<Float> @:16226 op:257,dt:6,nt:8,next:16229,str:9120,d0:16227,d1:41687;
+                                            (-5.834298E-18f, BuiltinInvocation<Float> @:16226 op:257,dt:6,nt:8,next:16229,str:9120,d0:16227,d1:41687;
                                                 ("device_get_position", Expression<MethodOrOperator> @:16227 op:257,dt:2,nt:9,next:16228,str:5946,d0:0,d1:0;
                                                     ("scarab", Expression<Device> @:16228 op:60,dt:54,nt:9,next:65535,str:9846,d0:105,d1:65535;)))
                                             (1f, Expression<Float> @:16229 op:6,dt:6,nt:9,next:65535,str:9149,d0:0,d1:16256;)))

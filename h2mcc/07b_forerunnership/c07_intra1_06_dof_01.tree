@@ -1,19 +1,19 @@
 
 ("c07_intra1_06_dof_01", MethodDecl<Void> @:47 op:0,dt:0,nt:65535,next:1321,str:3699,d0:0,d1:0;
-    (____, Scope<Void> @:1321 op:0,dt:4,nt:8,next:65535,str:15867,d0:1322,d1:59549;
+    (____, BuiltinInvocation<Void> @:1321 op:0,dt:4,nt:8,next:65535,str:15867,d0:1322,d1:59549;
         ("begin", Expression<MethodOrOperator> @:1322 op:0,dt:2,nt:9,next:1291,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:1291 op:676,dt:4,nt:8,next:1293,str:15906,d0:1292,d1:59519;
+            (____, BuiltinInvocation<Void> @:1291 op:676,dt:4,nt:8,next:1293,str:15906,d0:1292,d1:59519;
                 ("time_code_reset", Expression<MethodOrOperator> @:1292 op:676,dt:2,nt:9,next:65535,str:1504,d0:0,d1:0;))
-            (____, Scope<Void> @:1293 op:19,dt:4,nt:8,next:1296,str:15929,d0:1294,d1:59521;
+            (____, BuiltinInvocation<Void> @:1293 op:19,dt:4,nt:8,next:1296,str:15929,d0:1294,d1:59521;
                 ("sleep", Expression<MethodOrOperator> @:1294 op:19,dt:2,nt:9,next:1295,str:80,d0:0,d1:0;
                     (121, Expression<Short> @:1295 op:7,dt:7,nt:9,next:65535,str:15936,d0:121,d1:65535;)))
-            (____, Scope<Void> @:1296 op:27,dt:4,nt:8,next:1299,str:15943,d0:1297,d1:59524;
+            (____, BuiltinInvocation<Void> @:1296 op:27,dt:4,nt:8,next:1299,str:15943,d0:1297,d1:59524;
                 ("print", Expression<MethodOrOperator> @:1297 op:27,dt:2,nt:9,next:1298,str:86,d0:0,d1:0;
                     ("rack focus", Expression<String> @:1298 op:9,dt:9,nt:9,next:65535,str:1593,d0:1593,d1:0;)))
-            (____, Scope<Void> @:1299 op:708,dt:4,nt:8,next:1302,str:15966,d0:1300,d1:59527;
+            (____, BuiltinInvocation<Void> @:1299 op:708,dt:4,nt:8,next:1302,str:15966,d0:1300,d1:59527;
                 ("cinematic_screen_effect_start", Expression<MethodOrOperator> @:1300 op:708,dt:2,nt:9,next:1301,str:1520,d0:0,d1:0;
                     (True, Expression<Boolean> @:1301 op:5,dt:5,nt:9,next:65535,str:15997,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:1302 op:709,dt:4,nt:8,next:1311,str:16002,d0:1303,d1:59530;
+            (____, BuiltinInvocation<Void> @:1302 op:709,dt:4,nt:8,next:1311,str:16002,d0:1303,d1:59530;
                 ("cinematic_screen_effect_set_depth_of_field", Expression<MethodOrOperator> @:1303 op:709,dt:2,nt:9,next:1304,str:1550,d0:0,d1:0;
                     (0.4f, Expression<Float> @:1304 op:6,dt:6,nt:9,next:1305,str:16046,d0:52429,d1:16076;
                         (0.5f, Expression<Float> @:1305 op:6,dt:6,nt:9,next:1306,str:16049,d0:0,d1:16128;
@@ -22,13 +22,13 @@
                                     (0f, Expression<Float> @:1308 op:6,dt:6,nt:9,next:1309,str:16057,d0:0,d1:0;
                                         (0f, Expression<Float> @:1309 op:6,dt:6,nt:9,next:1310,str:16059,d0:0,d1:0;
                                             (0f, Expression<Float> @:1310 op:6,dt:6,nt:9,next:65535,str:16061,d0:0,d1:0;)))))))))
-            (____, Scope<Void> @:1311 op:676,dt:4,nt:8,next:1313,str:16069,d0:1312,d1:59539;
+            (____, BuiltinInvocation<Void> @:1311 op:676,dt:4,nt:8,next:1313,str:16069,d0:1312,d1:59539;
                 ("time_code_reset", Expression<MethodOrOperator> @:1312 op:676,dt:2,nt:9,next:65535,str:1504,d0:0,d1:0;))
-            (____, Scope<Void> @:1313 op:19,dt:4,nt:8,next:1316,str:16092,d0:1314,d1:59541;
+            (____, BuiltinInvocation<Void> @:1313 op:19,dt:4,nt:8,next:1316,str:16092,d0:1314,d1:59541;
                 ("sleep", Expression<MethodOrOperator> @:1314 op:19,dt:2,nt:9,next:1315,str:80,d0:0,d1:0;
                     (153, Expression<Short> @:1315 op:7,dt:7,nt:9,next:65535,str:16099,d0:153,d1:65535;)))
-            (____, Scope<Void> @:1316 op:712,dt:4,nt:8,next:1318,str:16106,d0:1317,d1:59544;
+            (____, BuiltinInvocation<Void> @:1316 op:712,dt:4,nt:8,next:1318,str:16106,d0:1317,d1:59544;
                 ("cinematic_screen_effect_stop", Expression<MethodOrOperator> @:1317 op:712,dt:2,nt:9,next:65535,str:1604,d0:0,d1:0;))
-            (____, Scope<Void> @:1318 op:27,dt:4,nt:8,next:65535,str:16139,d0:1319,d1:59546;
+            (____, BuiltinInvocation<Void> @:1318 op:27,dt:4,nt:8,next:65535,str:16139,d0:1319,d1:59546;
                 ("print", Expression<MethodOrOperator> @:1319 op:27,dt:2,nt:9,next:1320,str:86,d0:0,d1:0;
                     ("rack focus stop", Expression<String> @:1320 op:9,dt:9,nt:9,next:65535,str:1633,d0:1633,d1:0;))))))

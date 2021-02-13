@@ -1,27 +1,27 @@
 
 ("e2_cov_gold_elite_main", MethodDecl<Void> @:203 op:0,dt:0,nt:65535,next:7832,str:14200,d0:0,d1:0;
-    (____, Scope<Void> @:7832 op:0,dt:4,nt:8,next:65535,str:32749,d0:7833,d1:33293;
+    (____, BuiltinInvocation<Void> @:7832 op:0,dt:4,nt:8,next:65535,str:32749,d0:7833,d1:33293;
         ("begin", Expression<MethodOrOperator> @:7833 op:0,dt:2,nt:9,next:7809,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:7809 op:21,dt:4,nt:8,next:7812,str:32790,d0:7810,d1:33270;
+            (____, BuiltinInvocation<Void> @:7809 op:21,dt:4,nt:8,next:7812,str:32790,d0:7810,d1:33270;
                 ("sleep_until", Expression<MethodOrOperator> @:7810 op:21,dt:2,nt:9,next:7811,str:294,d0:0,d1:0;
                     ("g_e2_safe_to_migrate_inf2", VariableAccess<Boolean> @:7811 op:5,dt:5,nt:13,next:65535,str:13959,d0:26,d1:0;)))
-            (____, Scope<Void> @:7812 op:309,dt:4,nt:8,next:7816,str:32869,d0:7813,d1:33273;
+            (____, BuiltinInvocation<Void> @:7812 op:309,dt:4,nt:8,next:7816,str:32869,d0:7813,d1:33273;
                 ("ai_migrate", Expression<MethodOrOperator> @:7813 op:309,dt:2,nt:9,next:7814,str:8110,d0:0,d1:0;
                     ("e1_cov_inf2/gold_elite", Expression<AI> @:7814 op:19,dt:19,nt:9,next:7815,str:13985,d0:0,d1:49154;
                         ("e2_cov_gold_elite", Expression<AI> @:7815 op:19,dt:19,nt:9,next:65535,str:12992,d0:12,d1:0;))))
-            (____, Scope<Void> @:7816 op:309,dt:4,nt:8,next:7820,str:32953,d0:7817,d1:33277;
+            (____, BuiltinInvocation<Void> @:7816 op:309,dt:4,nt:8,next:7820,str:32953,d0:7817,d1:33277;
                 ("ai_migrate", Expression<MethodOrOperator> @:7817 op:309,dt:2,nt:9,next:7818,str:8110,d0:0,d1:0;
                     ("e1_cov_inf2", Expression<AI> @:7818 op:19,dt:19,nt:9,next:7819,str:14008,d0:2,d1:0;
                         ("e2_cov_inf0", Expression<AI> @:7819 op:19,dt:19,nt:9,next:65535,str:13038,d0:10,d1:0;))))
-            (____, Scope<Void> @:7820 op:19,dt:4,nt:8,next:7823,str:33026,d0:7821,d1:33281;
+            (____, BuiltinInvocation<Void> @:7820 op:19,dt:4,nt:8,next:7823,str:33026,d0:7821,d1:33281;
                 ("sleep", Expression<MethodOrOperator> @:7821 op:19,dt:2,nt:9,next:7822,str:143,d0:0,d1:0;
                     (5, Expression<Short> @:7822 op:7,dt:7,nt:9,next:65535,str:33033,d0:5,d1:65535;)))
-            (____, Scope<Void> @:7823 op:316,dt:4,nt:8,next:7826,str:33038,d0:7824,d1:33284;
+            (____, BuiltinInvocation<Void> @:7823 op:316,dt:4,nt:8,next:7826,str:33038,d0:7824,d1:33284;
                 ("ai_teleport_to_starting_location_if_outside_bsp", Expression<MethodOrOperator> @:7824 op:316,dt:2,nt:9,next:7825,str:11405,d0:0,d1:0;
                     ("e2_cov_inf0", Expression<AI> @:7825 op:19,dt:19,nt:9,next:65535,str:13038,d0:10,d1:0;)))
-            (____, Scope<Void> @:7826 op:316,dt:4,nt:8,next:7829,str:33102,d0:7827,d1:33287;
+            (____, BuiltinInvocation<Void> @:7826 op:316,dt:4,nt:8,next:7829,str:33102,d0:7827,d1:33287;
                 ("ai_teleport_to_starting_location_if_outside_bsp", Expression<MethodOrOperator> @:7827 op:316,dt:2,nt:9,next:7828,str:11405,d0:0,d1:0;
                     ("e2_cov_gold_elite", Expression<AI> @:7828 op:19,dt:19,nt:9,next:65535,str:12992,d0:12,d1:0;)))
-            (____, Scope<Void> @:7829 op:317,dt:4,nt:8,next:65535,str:33172,d0:7830,d1:33290;
+            (____, BuiltinInvocation<Void> @:7829 op:317,dt:4,nt:8,next:65535,str:33172,d0:7830,d1:33290;
                 ("ai_renew", Expression<MethodOrOperator> @:7830 op:317,dt:2,nt:9,next:7831,str:11928,d0:0,d1:0;
                     ("e2_cov_gold_elite", Expression<AI> @:7831 op:19,dt:19,nt:9,next:65535,str:12992,d0:12,d1:0;))))))

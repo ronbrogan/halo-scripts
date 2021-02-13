@@ -1,46 +1,46 @@
 
 ("landing_zone_follow_02", MethodDecl<Void> @:259 op:0,dt:0,nt:65535,next:9004,str:19587,d0:0,d1:0;
-    (____, Scope<Void> @:9004 op:0,dt:4,nt:8,next:65535,str:40126,d0:9005,d1:34465;
+    (____, BuiltinInvocation<Void> @:9004 op:0,dt:4,nt:8,next:65535,str:40126,d0:9005,d1:34465;
         ("begin", Expression<MethodOrOperator> @:9005 op:0,dt:2,nt:9,next:8962,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:8962 op:440,dt:4,nt:8,next:8965,str:40174,d0:8963,d1:34423;
+            (____, BuiltinInvocation<Void> @:8962 op:440,dt:4,nt:8,next:8965,str:40174,d0:8963,d1:34423;
                 ("cs_abort_on_damage", Expression<MethodOrOperator> @:8963 op:440,dt:2,nt:9,next:8964,str:15227,d0:0,d1:0;
                     (True, Expression<Boolean> @:8964 op:5,dt:5,nt:9,next:65535,str:40194,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:8965 op:449,dt:4,nt:8,next:8968,str:40202,d0:8966,d1:34426;
+            (____, BuiltinInvocation<Void> @:8965 op:449,dt:4,nt:8,next:8968,str:40202,d0:8966,d1:34426;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:8966 op:449,dt:2,nt:9,next:8967,str:17423,d0:0,d1:0;
                     (True, Expression<Boolean> @:8967 op:5,dt:5,nt:9,next:65535,str:40234,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:8968 op:385,dt:4,nt:8,next:8971,str:40242,d0:8969,d1:34429;
+            (____, BuiltinInvocation<Void> @:8968 op:385,dt:4,nt:8,next:8971,str:40242,d0:8969,d1:34429;
                 ("cs_go_to", Expression<MethodOrOperator> @:8969 op:385,dt:2,nt:9,next:8970,str:19295,d0:0,d1:0;
                     ("landing_zone/ramp02", Expression<SpatialPoint> @:8970 op:28,dt:28,nt:9,next:65535,str:19354,d0:5,d1:1;)))
-            (____, Scope<Void> @:8971 op:400,dt:4,nt:8,next:8974,str:40275,d0:8972,d1:34432;
+            (____, BuiltinInvocation<Void> @:8971 op:400,dt:4,nt:8,next:8974,str:40275,d0:8972,d1:34432;
                 ("cs_face_player", Expression<MethodOrOperator> @:8972 op:400,dt:2,nt:9,next:8973,str:19324,d0:0,d1:0;
                     (True, Expression<Boolean> @:8973 op:5,dt:5,nt:9,next:65535,str:40291,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:8974 op:21,dt:4,nt:8,next:8984,str:40301,d0:8975,d1:34435;
+            (____, BuiltinInvocation<Void> @:8974 op:21,dt:4,nt:8,next:8984,str:40301,d0:8975,d1:34435;
                 ("sleep_until", Expression<MethodOrOperator> @:8975 op:21,dt:2,nt:9,next:8976,str:236,d0:0,d1:0;
-                    (____, Scope<Boolean> @:8976 op:13,dt:5,nt:8,next:65535,str:40314,d0:8977,d1:34437;
+                    (____, BuiltinInvocation<Boolean> @:8976 op:13,dt:5,nt:8,next:65535,str:40314,d0:8977,d1:34437;
                         ("=", Expression<MethodOrOperator> @:8977 op:13,dt:2,nt:9,next:8978,str:301,d0:0,d1:0;
-                            (____, Scope<Boolean> @:8978 op:33,dt:5,nt:8,next:8983,str:40317,d0:8979,d1:34439;
+                            (____, BuiltinInvocation<Boolean> @:8978 op:33,dt:5,nt:8,next:8983,str:40317,d0:8979,d1:34439;
                                 ("volume_test_objects", Expression<MethodOrOperator> @:8979 op:33,dt:2,nt:9,next:8980,str:16841,d0:0,d1:0;
                                     ("vol_leaving_lz", Expression<Trigger> @:8980 op:13,dt:13,nt:9,next:8981,str:19339,d0:1,d1:0;
-                                        (____, Scope<List> @:8981 op:28,dt:31,nt:8,next:65535,str:40353,d0:8982,d1:34442;
+                                        (____, BuiltinInvocation<List> @:8981 op:28,dt:31,nt:8,next:65535,str:40353,d0:8982,d1:34442;
                                             ("players", Expression<MethodOrOperator> @:8982 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))
                             (True, Expression<Boolean> @:8983 op:5,dt:5,nt:9,next:65535,str:40364,d0:65281,d1:65535;)))))
-            (____, Scope<Void> @:8984 op:400,dt:4,nt:8,next:8987,str:40374,d0:8985,d1:34445;
+            (____, BuiltinInvocation<Void> @:8984 op:400,dt:4,nt:8,next:8987,str:40374,d0:8985,d1:34445;
                 ("cs_face_player", Expression<MethodOrOperator> @:8985 op:400,dt:2,nt:9,next:8986,str:19324,d0:0,d1:0;
                     (False, Expression<Boolean> @:8986 op:5,dt:5,nt:9,next:65535,str:40390,d0:65280,d1:65535;)))
-            (____, Scope<Void> @:8987 op:446,dt:4,nt:8,next:8990,str:40399,d0:8988,d1:34448;
+            (____, BuiltinInvocation<Void> @:8987 op:446,dt:4,nt:8,next:8990,str:40399,d0:8988,d1:34448;
                 ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:8988 op:446,dt:2,nt:9,next:8989,str:15246,d0:0,d1:0;
                     (True, Expression<Boolean> @:8989 op:5,dt:5,nt:9,next:65535,str:40428,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:8990 op:2,dt:4,nt:8,next:65535,str:40436,d0:8991,d1:34451;
+            (____, BuiltinInvocation<Void> @:8990 op:2,dt:4,nt:8,next:65535,str:40436,d0:8991,d1:34451;
                 ("if", Expression<MethodOrOperator> @:8991 op:2,dt:2,nt:9,next:8992,str:461,d0:0,d1:0;
-                    (____, Scope<Boolean> @:8992 op:13,dt:5,nt:8,next:8996,str:40440,d0:8993,d1:34453;
+                    (____, BuiltinInvocation<Boolean> @:8992 op:13,dt:5,nt:8,next:8996,str:40440,d0:8993,d1:34453;
                         ("=", Expression<MethodOrOperator> @:8993 op:13,dt:2,nt:9,next:8994,str:301,d0:0,d1:0;
                             ("commander_done_yapping", VariableAccess<Boolean> @:8994 op:0,dt:5,nt:13,next:8995,str:18890,d0:7,d1:0;
                                 (True, Expression<Boolean> @:8995 op:5,dt:5,nt:9,next:65535,str:40466,d0:65281,d1:65535;))))
-                    (____, Scope<Void> @:8996 op:0,dt:4,nt:8,next:65535,str:40475,d0:8997,d1:34457;
+                    (____, BuiltinInvocation<Void> @:8996 op:0,dt:4,nt:8,next:65535,str:40475,d0:8997,d1:34457;
                         ("begin", Expression<MethodOrOperator> @:8997 op:0,dt:2,nt:9,next:8998,str:6,d0:0,d1:0;
-                            (____, Scope<Void> @:8998 op:27,dt:4,nt:8,next:9001,str:40486,d0:8999,d1:34459;
+                            (____, BuiltinInvocation<Void> @:8998 op:27,dt:4,nt:8,next:9001,str:40486,d0:8999,d1:34459;
                                 ("print", Expression<MethodOrOperator> @:8999 op:27,dt:2,nt:9,next:9000,str:91,d0:0,d1:0;
                                     ("spec-ops elite: 'first lance in position!'", Expression<String> @:9000 op:9,dt:9,nt:9,next:65535,str:19374,d0:19374,d1:0;)))
-                            (____, Scope<Void> @:9001 op:418,dt:4,nt:8,next:65535,str:40543,d0:9002,d1:34462;
+                            (____, BuiltinInvocation<Void> @:9001 op:418,dt:4,nt:8,next:65535,str:40543,d0:9002,d1:34462;
                                 ("cs_play_line", Expression<MethodOrOperator> @:9002 op:418,dt:2,nt:9,next:9003,str:15305,d0:0,d1:0;
                                     ("0230", Expression<StringId> @:9003 op:11,dt:11,nt:9,next:65535,str:19417,d0:11656,d1:1024;))))))))))

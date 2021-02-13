@@ -1,41 +1,41 @@
 
 ("e14_mars_inf0_main", MethodDecl<Void> @:426 op:0,dt:0,nt:65535,next:15496,str:31232,d0:0,d1:0;
-    (____, Scope<Void> @:15496 op:0,dt:4,nt:8,next:65535,str:6242,d0:15497,d1:40957;
+    (____, BuiltinInvocation<Void> @:15496 op:0,dt:4,nt:8,next:65535,str:6242,d0:15497,d1:40957;
         ("begin", Expression<MethodOrOperator> @:15497 op:0,dt:2,nt:9,next:15458,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:15458 op:290,dt:4,nt:8,next:15461,str:6279,d0:15459,d1:40919;
+            (____, BuiltinInvocation<Void> @:15458 op:290,dt:4,nt:8,next:15461,str:6279,d0:15459,d1:40919;
                 ("ai_place", Expression<MethodOrOperator> @:15459 op:290,dt:2,nt:9,next:15460,str:16628,d0:0,d1:0;
                     ("e14_mars_inf0", Expression<AI> @:15460 op:19,dt:19,nt:9,next:65535,str:30152,d0:1,d1:0;)))
-            (____, Scope<Void> @:15461 op:342,dt:4,nt:8,next:15468,str:6306,d0:15462,d1:40922;
+            (____, BuiltinInvocation<Void> @:15461 op:342,dt:4,nt:8,next:15468,str:6306,d0:15462,d1:40922;
                 ("ai_vehicle_reserve_seat", Expression<MethodOrOperator> @:15462 op:342,dt:2,nt:9,next:15463,str:31050,d0:0,d1:0;
-                    (____, Scope<Vehicle> @:15463 op:341,dt:52,nt:8,next:15466,str:6331,d0:15464,d1:40924;
+                    (____, BuiltinInvocation<Vehicle> @:15463 op:341,dt:52,nt:8,next:15466,str:6331,d0:15464,d1:40924;
                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:15464 op:341,dt:2,nt:9,next:15465,str:23467,d0:0,d1:0;
                             ("e14_mars_inf0/scorpion0", Expression<AI> @:15465 op:19,dt:19,nt:9,next:65535,str:31074,d0:0,d1:49153;)))
                     ("scorpion_d", Expression<StringId> @:15466 op:11,dt:11,nt:9,next:15467,str:31098,d0:4702,d1:2560;
                         (True, Expression<Boolean> @:15467 op:5,dt:5,nt:9,next:65535,str:6408,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:15468 op:2,dt:4,nt:8,next:65535,str:6454,d0:15469,d1:40929;
+            (____, BuiltinInvocation<Void> @:15468 op:2,dt:4,nt:8,next:65535,str:6454,d0:15469,d1:40929;
                 ("if", Expression<MethodOrOperator> @:15469 op:2,dt:2,nt:9,next:15470,str:461,d0:0,d1:0;
-                    (____, Scope<Boolean> @:15470 op:568,dt:5,nt:8,next:15472,str:6458,d0:15471,d1:40931;
+                    (____, BuiltinInvocation<Boolean> @:15470 op:568,dt:5,nt:8,next:15472,str:6458,d0:15471,d1:40931;
                         ("game_is_cooperative", Expression<MethodOrOperator> @:15471 op:568,dt:2,nt:9,next:65535,str:13761,d0:0,d1:0;))
-                    (____, Scope<Void> @:15472 op:0,dt:4,nt:8,next:15484,str:6484,d0:15473,d1:40933;
+                    (____, BuiltinInvocation<Void> @:15472 op:0,dt:4,nt:8,next:15484,str:6484,d0:15473,d1:40933;
                         ("begin", Expression<MethodOrOperator> @:15473 op:0,dt:2,nt:9,next:15474,str:6,d0:0,d1:0;
-                            (____, Scope<Void> @:15474 op:290,dt:4,nt:8,next:15477,str:6495,d0:15475,d1:40935;
+                            (____, BuiltinInvocation<Void> @:15474 op:290,dt:4,nt:8,next:15477,str:6495,d0:15475,d1:40935;
                                 ("ai_place", Expression<MethodOrOperator> @:15475 op:290,dt:2,nt:9,next:15476,str:16628,d0:0,d1:0;
                                     ("e14_mars_inf0/warthog0", Expression<AI> @:15476 op:19,dt:19,nt:9,next:65535,str:31109,d0:3,d1:49153;)))
-                            (____, Scope<Void> @:15477 op:342,dt:4,nt:8,next:65535,str:6533,d0:15478,d1:40938;
+                            (____, BuiltinInvocation<Void> @:15477 op:342,dt:4,nt:8,next:65535,str:6533,d0:15478,d1:40938;
                                 ("ai_vehicle_reserve_seat", Expression<MethodOrOperator> @:15478 op:342,dt:2,nt:9,next:15479,str:31050,d0:0,d1:0;
-                                    (____, Scope<Vehicle> @:15479 op:341,dt:52,nt:8,next:15482,str:6558,d0:15480,d1:40940;
+                                    (____, BuiltinInvocation<Vehicle> @:15479 op:341,dt:52,nt:8,next:15482,str:6558,d0:15480,d1:40940;
                                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:15480 op:341,dt:2,nt:9,next:15481,str:23467,d0:0,d1:0;
                                             ("e14_mars_inf0/warthog0", Expression<AI> @:15481 op:19,dt:19,nt:9,next:65535,str:31109,d0:3,d1:49153;)))
                                     ("warthog_d", Expression<StringId> @:15482 op:11,dt:11,nt:9,next:15483,str:31132,d0:4724,d1:2304;
                                         (True, Expression<Boolean> @:15483 op:5,dt:5,nt:9,next:65535,str:6633,d0:65281,d1:65535;))))))
-                    (____, Scope<Void> @:15484 op:0,dt:4,nt:8,next:65535,str:6647,d0:15485,d1:40945;
+                    (____, BuiltinInvocation<Void> @:15484 op:0,dt:4,nt:8,next:65535,str:6647,d0:15485,d1:40945;
                         ("begin", Expression<MethodOrOperator> @:15485 op:0,dt:2,nt:9,next:15486,str:6,d0:0,d1:0;
-                            (____, Scope<Void> @:15486 op:290,dt:4,nt:8,next:15489,str:6658,d0:15487,d1:40947;
+                            (____, BuiltinInvocation<Void> @:15486 op:290,dt:4,nt:8,next:15489,str:6658,d0:15487,d1:40947;
                                 ("ai_place", Expression<MethodOrOperator> @:15487 op:290,dt:2,nt:9,next:15488,str:16628,d0:0,d1:0;
                                     ("e14_mars_inf0/warthog1", Expression<AI> @:15488 op:19,dt:19,nt:9,next:65535,str:31142,d0:4,d1:49153;)))
-                            (____, Scope<Void> @:15489 op:342,dt:4,nt:8,next:65535,str:6696,d0:15490,d1:40950;
+                            (____, BuiltinInvocation<Void> @:15489 op:342,dt:4,nt:8,next:65535,str:6696,d0:15490,d1:40950;
                                 ("ai_vehicle_reserve_seat", Expression<MethodOrOperator> @:15490 op:342,dt:2,nt:9,next:15491,str:31050,d0:0,d1:0;
-                                    (____, Scope<Vehicle> @:15491 op:341,dt:52,nt:8,next:15494,str:6721,d0:15492,d1:40952;
+                                    (____, BuiltinInvocation<Vehicle> @:15491 op:341,dt:52,nt:8,next:15494,str:6721,d0:15492,d1:40952;
                                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:15492 op:341,dt:2,nt:9,next:15493,str:23467,d0:0,d1:0;
                                             ("e14_mars_inf0/warthog1", Expression<AI> @:15493 op:19,dt:19,nt:9,next:65535,str:31142,d0:4,d1:49153;)))
                                     ("warthog_d", Expression<StringId> @:15494 op:11,dt:11,nt:9,next:15495,str:31132,d0:4724,d1:2304;

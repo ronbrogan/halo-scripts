@@ -1,19 +1,19 @@
 
 ("cs_ins_runaway", MethodDecl<Void> @:211 op:0,dt:0,nt:65535,next:8104,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:8104 op:0,dt:4,nt:8,next:65535,str:24813,d0:8105,d1:33565;
+    (____, BuiltinInvocation<Void> @:8104 op:0,dt:4,nt:8,next:65535,str:24813,d0:8105,d1:33565;
         ("begin", Expression<MethodOrOperator> @:8105 op:0,dt:2,nt:9,next:8089,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:8089 op:449,dt:4,nt:8,next:8092,str:24853,d0:8090,d1:33550;
+            (____, BuiltinInvocation<Void> @:8089 op:449,dt:4,nt:8,next:8092,str:24853,d0:8090,d1:33550;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:8090 op:449,dt:2,nt:9,next:8091,str:1239,d0:0,d1:0;
                     (True, Expression<Boolean> @:8091 op:5,dt:5,nt:9,next:65535,str:24885,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:8092 op:379,dt:4,nt:8,next:8095,str:24893,d0:8093,d1:33553;
+            (____, BuiltinInvocation<Void> @:8092 op:379,dt:4,nt:8,next:8095,str:24893,d0:8093,d1:33553;
                 ("cs_fly_to", Expression<MethodOrOperator> @:8093 op:379,dt:2,nt:9,next:8094,str:17940,d0:0,d1:0;
                     ("insertion/p0", Expression<SpatialPoint> @:8094 op:28,dt:28,nt:9,next:65535,str:17950,d0:4,d1:0;)))
-            (____, Scope<Void> @:8095 op:379,dt:4,nt:8,next:8098,str:24920,d0:8096,d1:33556;
+            (____, BuiltinInvocation<Void> @:8095 op:379,dt:4,nt:8,next:8098,str:24920,d0:8096,d1:33556;
                 ("cs_fly_to", Expression<MethodOrOperator> @:8096 op:379,dt:2,nt:9,next:8097,str:17940,d0:0,d1:0;
                     ("insertion/p1", Expression<SpatialPoint> @:8097 op:28,dt:28,nt:9,next:65535,str:17963,d0:5,d1:0;)))
-            (____, Scope<Void> @:8098 op:379,dt:4,nt:8,next:8101,str:24947,d0:8099,d1:33559;
+            (____, BuiltinInvocation<Void> @:8098 op:379,dt:4,nt:8,next:8101,str:24947,d0:8099,d1:33559;
                 ("cs_fly_to", Expression<MethodOrOperator> @:8099 op:379,dt:2,nt:9,next:8100,str:17940,d0:0,d1:0;
                     ("insertion/p2", Expression<SpatialPoint> @:8100 op:28,dt:28,nt:9,next:65535,str:17976,d0:6,d1:0;)))
-            (____, Scope<Void> @:8101 op:298,dt:4,nt:8,next:65535,str:24974,d0:8102,d1:33562;
+            (____, BuiltinInvocation<Void> @:8101 op:298,dt:4,nt:8,next:65535,str:24974,d0:8102,d1:33562;
                 ("ai_erase", Expression<MethodOrOperator> @:8102 op:298,dt:2,nt:9,next:8103,str:1570,d0:0,d1:0;
                     ("ai_current_actor", VariableAccess<AI> @:8103 op:19,dt:19,nt:13,next:65535,str:3463,d0:33564,d1:65535;))))))

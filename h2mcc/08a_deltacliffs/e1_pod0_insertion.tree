@@ -1,79 +1,79 @@
 
 ("e1_pod0_insertion", MethodDecl<Void> @:215 op:0,dt:0,nt:65535,next:8793,str:16312,d0:0,d1:0;
-    (____, Scope<Void> @:8793 op:0,dt:4,nt:8,next:65535,str:43855,d0:8794,d1:34254;
+    (____, BuiltinInvocation<Void> @:8793 op:0,dt:4,nt:8,next:65535,str:43855,d0:8794,d1:34254;
         ("begin", Expression<MethodOrOperator> @:8794 op:0,dt:2,nt:9,next:8717,str:64,d0:0,d1:0;
-            (____, Scope<Void> @:8717 op:290,dt:4,nt:8,next:8720,str:43891,d0:8718,d1:34178;
+            (____, BuiltinInvocation<Void> @:8717 op:290,dt:4,nt:8,next:8720,str:43891,d0:8718,d1:34178;
                 ("ai_place", Expression<MethodOrOperator> @:8718 op:290,dt:2,nt:9,next:8719,str:6964,d0:0,d1:0;
                     ("e1_cov_inf2/gold_elite", Expression<AI> @:8719 op:19,dt:19,nt:9,next:65535,str:13985,d0:0,d1:49154;)))
-            (____, Scope<Void> @:8720 op:46,dt:4,nt:8,next:8723,str:43927,d0:8721,d1:34181;
+            (____, BuiltinInvocation<Void> @:8720 op:46,dt:4,nt:8,next:8723,str:43927,d0:8721,d1:34181;
                 ("object_create", Expression<MethodOrOperator> @:8721 op:46,dt:2,nt:9,next:8722,str:6993,d0:0,d1:0;
                     ("e1_pod0_inserter", Expression<EntityIdentifier> @:8722 op:56,dt:56,nt:9,next:65535,str:15529,d0:36,d1:65535;)))
-            (____, Scope<Void> @:8723 op:74,dt:4,nt:8,next:8731,str:43962,d0:8724,d1:34184;
+            (____, BuiltinInvocation<Void> @:8723 op:74,dt:4,nt:8,next:8731,str:43962,d0:8724,d1:34184;
                 ("objects_attach", Expression<MethodOrOperator> @:8724 op:74,dt:2,nt:9,next:8725,str:1784,d0:0,d1:0;
                     (4294901796, Expression<Entity> @:8725 op:56,dt:50,nt:9,next:8726,str:15529,d0:36,d1:65535;
                         ("pod_attach", Expression<StringId> @:8726 op:11,dt:11,nt:9,next:8727,str:7025,d0:12250,d1:2560;
-                            (____, Scope<Entity> @:8727 op:340,dt:50,nt:8,next:8730,str:44008,d0:8728,d1:34188;
+                            (____, BuiltinInvocation<Entity> @:8727 op:340,dt:50,nt:8,next:8730,str:44008,d0:8728,d1:34188;
                                 ("ai_vehicle_get", Expression<MethodOrOperator> @:8728 op:340,dt:2,nt:9,next:8729,str:5987,d0:0,d1:0;
                                     ("e1_cov_inf2/gold_elite", Expression<AI> @:8729 op:19,dt:19,nt:9,next:65535,str:13985,d0:0,d1:49154;)))
                             ("pod_attach", Expression<StringId> @:8730 op:11,dt:11,nt:9,next:65535,str:7025,d0:12250,d1:2560;)))))
-            (____, Scope<Void> @:8731 op:19,dt:4,nt:8,next:8734,str:44064,d0:8732,d1:34192;
+            (____, BuiltinInvocation<Void> @:8731 op:19,dt:4,nt:8,next:8734,str:44064,d0:8732,d1:34192;
                 ("sleep", Expression<MethodOrOperator> @:8732 op:19,dt:2,nt:9,next:8733,str:143,d0:0,d1:0;
                     (1, Expression<Short> @:8733 op:7,dt:7,nt:9,next:65535,str:44071,d0:1,d1:65535;)))
-            (____, Scope<Void> @:8734 op:256,dt:4,nt:8,next:8738,str:44076,d0:8735,d1:34195;
+            (____, BuiltinInvocation<Void> @:8734 op:256,dt:4,nt:8,next:8738,str:44076,d0:8735,d1:34195;
                 ("device_set_position", Expression<MethodOrOperator> @:8735 op:256,dt:2,nt:9,next:8736,str:4175,d0:0,d1:0;
                     ("e1_pod0_inserter", Expression<Device> @:8736 op:60,dt:54,nt:9,next:8737,str:15529,d0:36,d1:65535;
                         (1f, Expression<Float> @:8737 op:6,dt:6,nt:9,next:65535,str:44114,d0:0,d1:16256;))))
-            (____, Scope<Void> @:8738 op:21,dt:4,nt:8,next:8747,str:44121,d0:8739,d1:34199;
+            (____, BuiltinInvocation<Void> @:8738 op:21,dt:4,nt:8,next:8747,str:44121,d0:8739,d1:34199;
                 ("sleep_until", Expression<MethodOrOperator> @:8739 op:21,dt:2,nt:9,next:8740,str:294,d0:0,d1:0;
-                    (____, Scope<Boolean> @:8740 op:17,dt:5,nt:8,next:8746,str:44134,d0:8741,d1:34201;
+                    (____, BuiltinInvocation<Boolean> @:8740 op:17,dt:5,nt:8,next:8746,str:44134,d0:8741,d1:34201;
                         (">=", Expression<MethodOrOperator> @:8741 op:17,dt:2,nt:9,next:8742,str:734,d0:0,d1:0;
-                            (-1.4588676E-35f, Scope<Float> @:8742 op:257,dt:6,nt:8,next:8745,str:44138,d0:8743,d1:34203;
+                            (-1.4588676E-35f, BuiltinInvocation<Float> @:8742 op:257,dt:6,nt:8,next:8745,str:44138,d0:8743,d1:34203;
                                 ("device_get_position", Expression<MethodOrOperator> @:8743 op:257,dt:2,nt:9,next:8744,str:7036,d0:0,d1:0;
                                     ("e1_pod0_inserter", Expression<Device> @:8744 op:60,dt:54,nt:9,next:65535,str:15529,d0:36,d1:65535;)))
                             (1f, Expression<Float> @:8745 op:6,dt:6,nt:9,next:65535,str:44177,d0:0,d1:16256;)))
                     (1, Expression<Short> @:8746 op:7,dt:7,nt:9,next:65535,str:44182,d0:1,d1:65535;)))
-            (____, Scope<Void> @:8747 op:41,dt:4,nt:8,next:8754,str:44187,d0:8748,d1:34208;
+            (____, BuiltinInvocation<Void> @:8747 op:41,dt:4,nt:8,next:8754,str:44187,d0:8748,d1:34208;
                 ("effect_new_on_object_marker", Expression<MethodOrOperator> @:8748 op:41,dt:2,nt:9,next:8749,str:1533,d0:0,d1:0;
                     ("g_e1_pod_impact_effect", VariableAccess<Effect> @:8749 op:33,dt:33,nt:13,next:8750,str:15546,d0:34,d1:0;
-                        (____, Scope<Entity> @:8750 op:340,dt:50,nt:8,next:8753,str:44239,d0:8751,d1:34211;
+                        (____, BuiltinInvocation<Entity> @:8750 op:340,dt:50,nt:8,next:8753,str:44239,d0:8751,d1:34211;
                             ("ai_vehicle_get", Expression<MethodOrOperator> @:8751 op:340,dt:2,nt:9,next:8752,str:5987,d0:0,d1:0;
                                 ("e1_cov_inf2/gold_elite", Expression<AI> @:8752 op:19,dt:19,nt:9,next:65535,str:13985,d0:0,d1:49154;)))
                         ("pod_attach", Expression<StringId> @:8753 op:11,dt:11,nt:9,next:65535,str:7025,d0:12250,d1:2560;))))
-            (____, Scope<Void> @:8754 op:76,dt:4,nt:8,next:8760,str:44296,d0:8755,d1:34215;
+            (____, BuiltinInvocation<Void> @:8754 op:76,dt:4,nt:8,next:8760,str:44296,d0:8755,d1:34215;
                 ("objects_detach", Expression<MethodOrOperator> @:8755 op:76,dt:2,nt:9,next:8756,str:7080,d0:0,d1:0;
                     (4294901796, Expression<Entity> @:8756 op:56,dt:50,nt:9,next:8757,str:15529,d0:36,d1:65535;
-                        (____, Scope<Entity> @:8757 op:340,dt:50,nt:8,next:65535,str:44329,d0:8758,d1:34218;
+                        (____, BuiltinInvocation<Entity> @:8757 op:340,dt:50,nt:8,next:65535,str:44329,d0:8758,d1:34218;
                             ("ai_vehicle_get", Expression<MethodOrOperator> @:8758 op:340,dt:2,nt:9,next:8759,str:5987,d0:0,d1:0;
                                 ("e1_cov_inf2/gold_elite", Expression<AI> @:8759 op:19,dt:19,nt:9,next:65535,str:13985,d0:0,d1:49154;))))))
-            (____, Scope<Void> @:8760 op:52,dt:4,nt:8,next:8763,str:44372,d0:8761,d1:34221;
+            (____, BuiltinInvocation<Void> @:8760 op:52,dt:4,nt:8,next:8763,str:44372,d0:8761,d1:34221;
                 ("object_destroy", Expression<MethodOrOperator> @:8761 op:52,dt:2,nt:9,next:8762,str:2409,d0:0,d1:0;
                     (4294901796, Expression<Entity> @:8762 op:56,dt:50,nt:9,next:65535,str:15529,d0:36,d1:65535;)))
-            (____, Scope<Void> @:8763 op:19,dt:4,nt:8,next:8769,str:44411,d0:8764,d1:34224;
+            (____, BuiltinInvocation<Void> @:8763 op:19,dt:4,nt:8,next:8769,str:44411,d0:8764,d1:34224;
                 ("sleep", Expression<MethodOrOperator> @:8764 op:19,dt:2,nt:9,next:8765,str:143,d0:0,d1:0;
-                    (____, Scope<Short> @:8765 op:124,dt:7,nt:8,next:65535,str:44418,d0:8766,d1:34226;
+                    (____, BuiltinInvocation<Short> @:8765 op:124,dt:7,nt:8,next:65535,str:44418,d0:8766,d1:34226;
                         ("random_range", Expression<MethodOrOperator> @:8766 op:124,dt:2,nt:9,next:8767,str:6765,d0:0,d1:0;
                             (20, Expression<Short> @:8767 op:7,dt:7,nt:9,next:8768,str:44432,d0:20,d1:65535;
                                 (45, Expression<Short> @:8768 op:7,dt:7,nt:9,next:65535,str:44435,d0:45,d1:65535;))))))
-            (____, Scope<Void> @:8769 op:4,dt:4,nt:8,next:8773,str:44442,d0:8770,d1:34230;
+            (____, BuiltinInvocation<Void> @:8769 op:4,dt:4,nt:8,next:8773,str:44442,d0:8770,d1:34230;
                 ("set", Expression<MethodOrOperator> @:8770 op:4,dt:2,nt:9,next:8771,str:2093,d0:0,d1:0;
                     ("g_e1_zealot_revealed", VariableAccess<Boolean> @:8771 op:65535,dt:5,nt:13,next:8772,str:15422,d0:33,d1:0;
                         (True, Expression<Boolean> @:8772 op:5,dt:5,nt:9,next:65535,str:44468,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:8773 op:21,dt:4,nt:8,next:8780,str:44476,d0:8774,d1:34234;
+            (____, BuiltinInvocation<Void> @:8773 op:21,dt:4,nt:8,next:8780,str:44476,d0:8774,d1:34234;
                 ("sleep_until", Expression<MethodOrOperator> @:8774 op:21,dt:2,nt:9,next:8775,str:294,d0:0,d1:0;
-                    (____, Scope<Boolean> @:8775 op:13,dt:5,nt:8,next:65535,str:44489,d0:8776,d1:34236;
+                    (____, BuiltinInvocation<Boolean> @:8775 op:13,dt:5,nt:8,next:65535,str:44489,d0:8776,d1:34236;
                         ("=", Expression<MethodOrOperator> @:8776 op:13,dt:2,nt:9,next:8777,str:359,d0:0,d1:0;
-                            (____, Scope<Short> @:8777 op:509,dt:7,nt:8,next:8779,str:44492,d0:8778,d1:34238;
+                            (____, BuiltinInvocation<Short> @:8777 op:509,dt:7,nt:8,next:8779,str:44492,d0:8778,d1:34238;
                                 ("structure_bsp_index", Expression<MethodOrOperator> @:8778 op:509,dt:2,nt:9,next:65535,str:11512,d0:0,d1:0;))
                             (0, Expression<Short> @:8779 op:7,dt:7,nt:9,next:65535,str:44514,d0:0,d1:65535;)))))
-            (____, Scope<Void> @:8780 op:350,dt:4,nt:8,next:8783,str:44520,d0:8781,d1:34241;
+            (____, BuiltinInvocation<Void> @:8780 op:350,dt:4,nt:8,next:8783,str:44520,d0:8781,d1:34241;
                 ("ai_vehicle_exit", Expression<MethodOrOperator> @:8781 op:350,dt:2,nt:9,next:8782,str:7095,d0:0,d1:0;
                     ("e1_cov_inf2/gold_elite", Expression<AI> @:8782 op:19,dt:19,nt:9,next:65535,str:13985,d0:0,d1:49154;)))
-            (____, Scope<Void> @:8783 op:19,dt:4,nt:8,next:8786,str:44563,d0:8784,d1:34244;
+            (____, BuiltinInvocation<Void> @:8783 op:19,dt:4,nt:8,next:8786,str:44563,d0:8784,d1:34244;
                 ("sleep", Expression<MethodOrOperator> @:8784 op:19,dt:2,nt:9,next:8785,str:143,d0:0,d1:0;
                     (10, Expression<Short> @:8785 op:7,dt:7,nt:9,next:65535,str:44570,d0:10,d1:65535;)))
-            (____, Scope<Void> @:8786 op:84,dt:4,nt:8,next:65535,str:44576,d0:8787,d1:34247;
+            (____, BuiltinInvocation<Void> @:8786 op:84,dt:4,nt:8,next:65535,str:44576,d0:8787,d1:34247;
                 ("object_damage_damage_section", Expression<MethodOrOperator> @:8787 op:84,dt:2,nt:9,next:8788,str:7111,d0:0,d1:0;
-                    (____, Scope<Entity> @:8788 op:340,dt:50,nt:8,next:8791,str:44606,d0:8789,d1:34249;
+                    (____, BuiltinInvocation<Entity> @:8788 op:340,dt:50,nt:8,next:8791,str:44606,d0:8789,d1:34249;
                         ("ai_vehicle_get", Expression<MethodOrOperator> @:8789 op:340,dt:2,nt:9,next:8790,str:5987,d0:0,d1:0;
                             ("e1_cov_inf2/gold_elite", Expression<AI> @:8790 op:19,dt:19,nt:9,next:65535,str:13985,d0:0,d1:49154;)))
                     ("door", Expression<StringId> @:8791 op:11,dt:11,nt:9,next:8792,str:7140,d0:4585,d1:1024;

@@ -1,33 +1,33 @@
 
 ("cs_shrink_cortana", MethodDecl<Void> @:379 op:0,dt:0,nt:65535,next:18085,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:18085 op:0,dt:4,nt:8,next:65535,str:22062,d0:18086,d1:43546;
+    (____, BuiltinInvocation<Void> @:18085 op:0,dt:4,nt:8,next:65535,str:22062,d0:18086,d1:43546;
         ("begin", Expression<MethodOrOperator> @:18086 op:0,dt:2,nt:9,next:18056,str:11,d0:0,d1:0;
-            (____, Scope<Void> @:18056 op:445,dt:4,nt:8,next:18059,str:22105,d0:18057,d1:43517;
+            (____, BuiltinInvocation<Void> @:18056 op:445,dt:4,nt:8,next:18059,str:22105,d0:18057,d1:43517;
                 ("cs_enable_dialogue", Expression<MethodOrOperator> @:18057 op:445,dt:2,nt:9,next:18058,str:42070,d0:0,d1:0;
                     (False, Expression<Boolean> @:18058 op:5,dt:5,nt:9,next:65535,str:22125,d0:65280,d1:65535;)))
-            (____, Scope<Void> @:18059 op:19,dt:4,nt:8,next:18062,str:22134,d0:18060,d1:43520;
+            (____, BuiltinInvocation<Void> @:18059 op:19,dt:4,nt:8,next:18062,str:22134,d0:18060,d1:43520;
                 ("sleep", Expression<MethodOrOperator> @:18060 op:19,dt:2,nt:9,next:18061,str:90,d0:0,d1:0;
                     (60, Expression<Short> @:18061 op:7,dt:7,nt:9,next:65535,str:22141,d0:60,d1:65535;)))
-            (____, Scope<Void> @:18062 op:41,dt:4,nt:8,next:18069,str:22147,d0:18063,d1:43523;
+            (____, BuiltinInvocation<Void> @:18062 op:41,dt:4,nt:8,next:18069,str:22147,d0:18063,d1:43523;
                 ("effect_new_on_object_marker", Expression<MethodOrOperator> @:18063 op:41,dt:2,nt:9,next:18064,str:7901,d0:0,d1:0;
                     ("effects\objects\characters\cortana\teleport_out", Expression<Effect> @:18064 op:33,dt:33,nt:9,next:18065,str:42089,d0:4898,d1:62786;
-                        (____, Scope<Entity> @:18065 op:284,dt:50,nt:8,next:18068,str:22224,d0:18066,d1:43526;
+                        (____, BuiltinInvocation<Entity> @:18065 op:284,dt:50,nt:8,next:18068,str:22224,d0:18066,d1:43526;
                             ("ai_get_object", Expression<MethodOrOperator> @:18066 op:284,dt:2,nt:9,next:18067,str:31886,d0:0,d1:0;
                                 ("ai_current_actor", VariableAccess<AI> @:18067 op:19,dt:19,nt:13,next:65535,str:31998,d0:33564,d1:65535;)))
                         ("body", Expression<StringId> @:18068 op:11,dt:11,nt:9,next:65535,str:42065,d0:189,d1:1024;))))
-            (____, Scope<Void> @:18069 op:19,dt:4,nt:8,next:18072,str:22267,d0:18070,d1:43530;
+            (____, BuiltinInvocation<Void> @:18069 op:19,dt:4,nt:8,next:18072,str:22267,d0:18070,d1:43530;
                 ("sleep", Expression<MethodOrOperator> @:18070 op:19,dt:2,nt:9,next:18071,str:90,d0:0,d1:0;
                     (3, Expression<Short> @:18071 op:7,dt:7,nt:9,next:65535,str:22274,d0:3,d1:65535;)))
-            (____, Scope<Void> @:18072 op:77,dt:4,nt:8,next:18079,str:22279,d0:18073,d1:43533;
+            (____, BuiltinInvocation<Void> @:18072 op:77,dt:4,nt:8,next:18079,str:22279,d0:18073,d1:43533;
                 ("object_set_scale", Expression<MethodOrOperator> @:18073 op:77,dt:2,nt:9,next:18074,str:41988,d0:0,d1:0;
-                    (____, Scope<Entity> @:18074 op:284,dt:50,nt:8,next:18077,str:22297,d0:18075,d1:43535;
+                    (____, BuiltinInvocation<Entity> @:18074 op:284,dt:50,nt:8,next:18077,str:22297,d0:18075,d1:43535;
                         ("ai_get_object", Expression<MethodOrOperator> @:18075 op:284,dt:2,nt:9,next:18076,str:31886,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:18076 op:19,dt:19,nt:13,next:65535,str:31998,d0:33564,d1:65535;)))
                     (0.01f, Expression<Float> @:18077 op:6,dt:6,nt:9,next:18078,str:22330,d0:55050,d1:15395;
                         (20, Expression<Short> @:18078 op:7,dt:7,nt:9,next:65535,str:22335,d0:20,d1:65535;))))
-            (____, Scope<Void> @:18079 op:19,dt:4,nt:8,next:18082,str:22341,d0:18080,d1:43540;
+            (____, BuiltinInvocation<Void> @:18079 op:19,dt:4,nt:8,next:18082,str:22341,d0:18080,d1:43540;
                 ("sleep", Expression<MethodOrOperator> @:18080 op:19,dt:2,nt:9,next:18081,str:90,d0:0,d1:0;
                     (30, Expression<Short> @:18081 op:7,dt:7,nt:9,next:65535,str:22348,d0:30,d1:65535;)))
-            (____, Scope<Void> @:18082 op:298,dt:4,nt:8,next:65535,str:22354,d0:18083,d1:43543;
+            (____, BuiltinInvocation<Void> @:18082 op:298,dt:4,nt:8,next:65535,str:22354,d0:18083,d1:43543;
                 ("ai_erase", Expression<MethodOrOperator> @:18083 op:298,dt:2,nt:9,next:18084,str:31916,d0:0,d1:0;
                     ("ai_current_actor", VariableAccess<AI> @:18084 op:19,dt:19,nt:13,next:65535,str:31998,d0:33564,d1:65535;))))))

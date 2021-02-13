@@ -1,37 +1,37 @@
 
 ("ai_council_brutes_berserk", MethodDecl<Void> @:278 op:0,dt:0,nt:65535,next:12427,str:40405,d0:0,d1:0;
-    (____, Scope<Void> @:12427 op:0,dt:4,nt:8,next:65535,str:23164,d0:12428,d1:37888;
+    (____, BuiltinInvocation<Void> @:12427 op:0,dt:4,nt:8,next:65535,str:23164,d0:12428,d1:37888;
         ("begin", Expression<MethodOrOperator> @:12428 op:0,dt:2,nt:9,next:12394,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:12394 op:21,dt:4,nt:8,next:12403,str:23208,d0:12395,d1:37855;
+            (____, BuiltinInvocation<Void> @:12394 op:21,dt:4,nt:8,next:12403,str:23208,d0:12395,d1:37855;
                 ("sleep_until", Expression<MethodOrOperator> @:12395 op:21,dt:2,nt:9,next:12396,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:12396 op:18,dt:5,nt:8,next:12402,str:23221,d0:12397,d1:37857;
+                    (____, BuiltinInvocation<Boolean> @:12396 op:18,dt:5,nt:8,next:12402,str:23221,d0:12397,d1:37857;
                         ("<=", Expression<MethodOrOperator> @:12397 op:18,dt:2,nt:9,next:12398,str:21122,d0:0,d1:0;
-                            (____, Scope<Short> @:12398 op:327,dt:7,nt:8,next:12401,str:23225,d0:12399,d1:37859;
+                            (____, BuiltinInvocation<Short> @:12398 op:327,dt:7,nt:8,next:12401,str:23225,d0:12399,d1:37859;
                                 ("ai_living_count", Expression<MethodOrOperator> @:12399 op:327,dt:2,nt:9,next:12400,str:19381,d0:0,d1:0;
                                     ("council_brute_ini", Expression<AI> @:12400 op:19,dt:19,nt:9,next:65535,str:19397,d0:19,d1:0;)))
                             (1, Expression<Short> @:12401 op:7,dt:7,nt:9,next:65535,str:23261,d0:1,d1:65535;)))
                     (1, Expression<Short> @:12402 op:7,dt:7,nt:9,next:65535,str:23264,d0:1,d1:65535;)))
-            (____, Scope<Void> @:12403 op:2,dt:4,nt:8,next:65535,str:23269,d0:12404,d1:37864;
+            (____, BuiltinInvocation<Void> @:12403 op:2,dt:4,nt:8,next:65535,str:23269,d0:12404,d1:37864;
                 ("if", Expression<MethodOrOperator> @:12404 op:2,dt:2,nt:9,next:12405,str:456,d0:0,d1:0;
-                    (____, Scope<Boolean> @:12405 op:15,dt:5,nt:8,next:12411,str:23273,d0:12406,d1:37866;
+                    (____, BuiltinInvocation<Boolean> @:12405 op:15,dt:5,nt:8,next:12411,str:23273,d0:12406,d1:37866;
                         (">", Expression<MethodOrOperator> @:12406 op:15,dt:2,nt:9,next:12407,str:19379,d0:0,d1:0;
-                            (____, Scope<Short> @:12407 op:327,dt:7,nt:8,next:12410,str:23276,d0:12408,d1:37868;
+                            (____, BuiltinInvocation<Short> @:12407 op:327,dt:7,nt:8,next:12410,str:23276,d0:12408,d1:37868;
                                 ("ai_living_count", Expression<MethodOrOperator> @:12408 op:327,dt:2,nt:9,next:12409,str:19381,d0:0,d1:0;
                                     ("council_brute_ini", Expression<AI> @:12409 op:19,dt:19,nt:9,next:65535,str:19397,d0:19,d1:0;)))
                             (0, Expression<Short> @:12410 op:7,dt:7,nt:9,next:65535,str:23312,d0:0,d1:65535;)))
-                    (____, Scope<Void> @:12411 op:0,dt:4,nt:8,next:65535,str:23318,d0:12412,d1:37872;
+                    (____, BuiltinInvocation<Void> @:12411 op:0,dt:4,nt:8,next:65535,str:23318,d0:12412,d1:37872;
                         ("begin", Expression<MethodOrOperator> @:12412 op:0,dt:2,nt:9,next:12413,str:1,d0:0,d1:0;
-                            (____, Scope<Void> @:12413 op:334,dt:4,nt:8,next:12417,str:23329,d0:12414,d1:37874;
+                            (____, BuiltinInvocation<Void> @:12413 op:334,dt:4,nt:8,next:12417,str:23329,d0:12414,d1:37874;
                                 ("ai_set_orders", Expression<MethodOrOperator> @:12414 op:334,dt:2,nt:9,next:12415,str:28850,d0:0,d1:0;
                                     ("council_brute_ini", Expression<AI> @:12415 op:19,dt:19,nt:9,next:12416,str:19397,d0:19,d1:0;
                                         ("council_floor_all", Expression<AIOrders> @:12416 op:23,dt:23,nt:9,next:65535,str:29507,d0:28,d1:0;))))
-                            (____, Scope<Void> @:12417 op:322,dt:4,nt:8,next:12421,str:23385,d0:12418,d1:37878;
+                            (____, BuiltinInvocation<Void> @:12417 op:322,dt:4,nt:8,next:12421,str:23385,d0:12418,d1:37878;
                                 ("ai_berserk", Expression<MethodOrOperator> @:12418 op:322,dt:2,nt:9,next:12419,str:29525,d0:0,d1:0;
                                     ("council_brute_ini", Expression<AI> @:12419 op:19,dt:19,nt:9,next:12420,str:19397,d0:19,d1:0;
                                         (True, Expression<Boolean> @:12420 op:5,dt:5,nt:9,next:65535,str:23415,d0:65281,d1:65535;))))
-                            (____, Scope<Void> @:12421 op:21,dt:4,nt:8,next:12424,str:23422,d0:12422,d1:37882;
+                            (____, BuiltinInvocation<Void> @:12421 op:21,dt:4,nt:8,next:12424,str:23422,d0:12422,d1:37882;
                                 ("sleep_until", Expression<MethodOrOperator> @:12422 op:21,dt:2,nt:9,next:12423,str:231,d0:0,d1:0;
                                     ("g_council_initial", VariableAccess<Boolean> @:12423 op:5,dt:5,nt:13,next:65535,str:19361,d0:34,d1:0;)))
-                            (____, Scope<Void> @:12424 op:22,dt:4,nt:8,next:65535,str:23458,d0:12425,d1:37885;
+                            (____, BuiltinInvocation<Void> @:12424 op:22,dt:4,nt:8,next:65535,str:23458,d0:12425,d1:37885;
                                 ("wake", Expression<MethodOrOperator> @:12425 op:22,dt:2,nt:9,next:12426,str:1146,d0:0,d1:0;
                                     ("sc_brutes_berserk", Expression<ScriptReference> @:12426 op:10,dt:10,nt:9,next:65535,str:29536,d0:235,d1:65535;))))))))))

@@ -1,32 +1,32 @@
 
 ("shockwave_shake_02", MethodDecl<Void> @:167 op:0,dt:0,nt:65535,next:5397,str:12442,d0:0,d1:0;
-    (____, Scope<Void> @:5397 op:0,dt:4,nt:8,next:65535,str:64299,d0:5398,d1:63625;
+    (____, BuiltinInvocation<Void> @:5397 op:0,dt:4,nt:8,next:65535,str:64299,d0:5398,d1:63625;
         ("begin", Expression<MethodOrOperator> @:5398 op:0,dt:2,nt:9,next:5369,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:5369 op:676,dt:4,nt:8,next:5371,str:64336,d0:5370,d1:63597;
+            (____, BuiltinInvocation<Void> @:5369 op:676,dt:4,nt:8,next:5371,str:64336,d0:5370,d1:63597;
                 ("time_code_reset", Expression<MethodOrOperator> @:5370 op:676,dt:2,nt:9,next:65535,str:1933,d0:0,d1:0;))
-            (____, Scope<Void> @:5371 op:19,dt:4,nt:8,next:5374,str:64356,d0:5372,d1:63599;
+            (____, BuiltinInvocation<Void> @:5371 op:19,dt:4,nt:8,next:5374,str:64356,d0:5372,d1:63599;
                 ("sleep", Expression<MethodOrOperator> @:5372 op:19,dt:2,nt:9,next:5373,str:85,d0:0,d1:0;
                     (40, Expression<Short> @:5373 op:7,dt:7,nt:9,next:65535,str:64363,d0:40,d1:65535;)))
-            (____, Scope<Void> @:5374 op:27,dt:4,nt:8,next:5377,str:64369,d0:5375,d1:63602;
+            (____, BuiltinInvocation<Void> @:5374 op:27,dt:4,nt:8,next:5377,str:64369,d0:5375,d1:63602;
                 ("print", Expression<MethodOrOperator> @:5375 op:27,dt:2,nt:9,next:5376,str:91,d0:0,d1:0;
                     ("shake start", Expression<String> @:5376 op:9,dt:9,nt:9,next:65535,str:12286,d0:12286,d1:0;)))
-            (____, Scope<Void> @:5377 op:653,dt:4,nt:8,next:5382,str:64393,d0:5378,d1:63605;
+            (____, BuiltinInvocation<Void> @:5377 op:653,dt:4,nt:8,next:5382,str:64393,d0:5378,d1:63605;
                 ("player_effect_set_max_rotation", Expression<MethodOrOperator> @:5378 op:653,dt:2,nt:9,next:5379,str:7210,d0:0,d1:0;
                     (0f, Expression<Float> @:5379 op:6,dt:6,nt:9,next:5380,str:64425,d0:0,d1:0;
                         (1f, Expression<Float> @:5380 op:6,dt:6,nt:9,next:5381,str:64427,d0:0,d1:16256;
                             (1f, Expression<Float> @:5381 op:6,dt:6,nt:9,next:65535,str:64429,d0:0,d1:16256;)))))
-            (____, Scope<Void> @:5382 op:655,dt:4,nt:8,next:5386,str:64434,d0:5383,d1:63610;
+            (____, BuiltinInvocation<Void> @:5382 op:655,dt:4,nt:8,next:5386,str:64434,d0:5383,d1:63610;
                 ("player_effect_start", Expression<MethodOrOperator> @:5383 op:655,dt:2,nt:9,next:5384,str:7241,d0:0,d1:0;
                     (0.5f, Expression<Float> @:5384 op:6,dt:6,nt:9,next:5385,str:64455,d0:0,d1:16128;
                         (2f, Expression<Float> @:5385 op:6,dt:6,nt:9,next:65535,str:64458,d0:0,d1:16384;))))
-            (____, Scope<Void> @:5386 op:676,dt:4,nt:8,next:5388,str:64465,d0:5387,d1:63614;
+            (____, BuiltinInvocation<Void> @:5386 op:676,dt:4,nt:8,next:5388,str:64465,d0:5387,d1:63614;
                 ("time_code_reset", Expression<MethodOrOperator> @:5387 op:676,dt:2,nt:9,next:65535,str:1933,d0:0,d1:0;))
-            (____, Scope<Void> @:5388 op:19,dt:4,nt:8,next:5391,str:64488,d0:5389,d1:63616;
+            (____, BuiltinInvocation<Void> @:5388 op:19,dt:4,nt:8,next:5391,str:64488,d0:5389,d1:63616;
                 ("sleep", Expression<MethodOrOperator> @:5389 op:19,dt:2,nt:9,next:5390,str:85,d0:0,d1:0;
                     (89, Expression<Short> @:5390 op:7,dt:7,nt:9,next:65535,str:64495,d0:89,d1:65535;)))
-            (____, Scope<Void> @:5391 op:27,dt:4,nt:8,next:5394,str:64501,d0:5392,d1:63619;
+            (____, BuiltinInvocation<Void> @:5391 op:27,dt:4,nt:8,next:5394,str:64501,d0:5392,d1:63619;
                 ("print", Expression<MethodOrOperator> @:5392 op:27,dt:2,nt:9,next:5393,str:91,d0:0,d1:0;
                     ("shake stop", Expression<String> @:5393 op:9,dt:9,nt:9,next:65535,str:12298,d0:12298,d1:0;)))
-            (____, Scope<Void> @:5394 op:656,dt:4,nt:8,next:65535,str:64524,d0:5395,d1:63622;
+            (____, BuiltinInvocation<Void> @:5394 op:656,dt:4,nt:8,next:65535,str:64524,d0:5395,d1:63622;
                 ("player_effect_stop", Expression<MethodOrOperator> @:5395 op:656,dt:2,nt:9,next:5396,str:7261,d0:0,d1:0;
                     (0f, Expression<Float> @:5396 op:6,dt:6,nt:9,next:65535,str:64544,d0:0,d1:0;))))))

@@ -1,24 +1,24 @@
 
 ("e21_mars_inf1_main", MethodDecl<Void> @:322 op:0,dt:0,nt:65535,next:11425,str:24455,d0:0,d1:0;
-    (____, Scope<Void> @:11425 op:0,dt:4,nt:8,next:65535,str:14725,d0:11426,d1:36886;
+    (____, BuiltinInvocation<Void> @:11425 op:0,dt:4,nt:8,next:65535,str:14725,d0:11426,d1:36886;
         ("begin", Expression<MethodOrOperator> @:11426 op:0,dt:2,nt:9,next:11405,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:11405 op:21,dt:4,nt:8,next:11409,str:14762,d0:11406,d1:36866;
+            (____, BuiltinInvocation<Void> @:11405 op:21,dt:4,nt:8,next:11409,str:14762,d0:11406,d1:36866;
                 ("sleep_until", Expression<MethodOrOperator> @:11406 op:21,dt:2,nt:9,next:11407,str:236,d0:0,d1:0;
                     ("g_e21_cov_phantom0_retreating", VariableAccess<Boolean> @:11407 op:5,dt:5,nt:13,next:11408,str:23284,d0:37,d1:0;
                         (15, Expression<Short> @:11408 op:7,dt:7,nt:9,next:65535,str:14805,d0:15,d1:65535;))))
-            (____, Scope<Void> @:11409 op:290,dt:4,nt:8,next:11412,str:14811,d0:11410,d1:36870;
+            (____, BuiltinInvocation<Void> @:11409 op:290,dt:4,nt:8,next:11412,str:14811,d0:11410,d1:36870;
                 ("ai_place", Expression<MethodOrOperator> @:11410 op:290,dt:2,nt:9,next:11411,str:16628,d0:0,d1:0;
                     ("e21_mars_inf1", Expression<AI> @:11411 op:19,dt:19,nt:9,next:65535,str:24115,d0:59,d1:0;)))
-            (____, Scope<Void> @:11412 op:314,dt:4,nt:8,next:11418,str:14838,d0:11413,d1:36873;
+            (____, BuiltinInvocation<Void> @:11412 op:314,dt:4,nt:8,next:11418,str:14838,d0:11413,d1:36873;
                 ("ai_disregard", Expression<MethodOrOperator> @:11413 op:314,dt:2,nt:9,next:11414,str:24129,d0:0,d1:0;
-                    (____, Scope<List> @:11414 op:332,dt:31,nt:8,next:11417,str:14852,d0:11415,d1:36875;
+                    (____, BuiltinInvocation<List> @:11414 op:332,dt:31,nt:8,next:11417,str:14852,d0:11415,d1:36875;
                         ("ai_actors", Expression<MethodOrOperator> @:11415 op:332,dt:2,nt:9,next:11416,str:16061,d0:0,d1:0;
                             ("e21_mars_inf1", Expression<AI> @:11416 op:19,dt:19,nt:9,next:65535,str:24115,d0:59,d1:0;)))
                     (True, Expression<Boolean> @:11417 op:5,dt:5,nt:9,next:65535,str:14878,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:11418 op:21,dt:4,nt:8,next:11421,str:14929,d0:11419,d1:36879;
+            (____, BuiltinInvocation<Void> @:11418 op:21,dt:4,nt:8,next:11421,str:14929,d0:11419,d1:36879;
                 ("sleep_until", Expression<MethodOrOperator> @:11419 op:21,dt:2,nt:9,next:11420,str:236,d0:0,d1:0;
                     ("g_e22_started", VariableAccess<Boolean> @:11420 op:5,dt:5,nt:13,next:65535,str:22136,d0:26,d1:0;)))
-            (____, Scope<Void> @:11421 op:366,dt:4,nt:8,next:65535,str:14959,d0:11422,d1:36882;
+            (____, BuiltinInvocation<Void> @:11421 op:366,dt:4,nt:8,next:65535,str:14959,d0:11422,d1:36882;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:11422 op:366,dt:2,nt:9,next:11423,str:15752,d0:0,d1:0;
                     ("e21_mars_inf1", Expression<AI> @:11423 op:19,dt:19,nt:9,next:11424,str:24115,d0:59,d1:0;
                         ("cs_e21_mars_inf1_exit", Expression<AIScript> @:11424 op:21,dt:21,nt:9,next:65535,str:24142,d0:311,d1:0;)))))))

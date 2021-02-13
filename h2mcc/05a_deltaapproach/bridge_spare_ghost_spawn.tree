@@ -1,266 +1,266 @@
 
 ("bridge_spare_ghost_spawn", MethodDecl<Void> @:262 op:0,dt:0,nt:65535,next:13283,str:25134,d0:0,d1:0;
-    (____, Scope<Void> @:13283 op:0,dt:4,nt:8,next:65535,str:20486,d0:13284,d1:38744;
+    (____, BuiltinInvocation<Void> @:13283 op:0,dt:4,nt:8,next:65535,str:20486,d0:13284,d1:38744;
         ("begin", Expression<MethodOrOperator> @:13284 op:0,dt:2,nt:9,next:13021,str:54,d0:0,d1:0;
-            (____, Scope<Void> @:13021 op:21,dt:4,nt:8,next:65535,str:20529,d0:13022,d1:38482;
+            (____, BuiltinInvocation<Void> @:13021 op:21,dt:4,nt:8,next:65535,str:20529,d0:13022,d1:38482;
                 ("sleep_until", Expression<MethodOrOperator> @:13022 op:21,dt:2,nt:9,next:13023,str:284,d0:0,d1:0;
-                    (____, Scope<Boolean> @:13023 op:0,dt:5,nt:8,next:65535,str:20545,d0:13024,d1:38484;
+                    (____, BuiltinInvocation<Boolean> @:13023 op:0,dt:5,nt:8,next:65535,str:20545,d0:13024,d1:38484;
                         ("begin", Expression<MethodOrOperator> @:13024 op:0,dt:2,nt:9,next:13025,str:54,d0:0,d1:0;
-                            (____, Scope<Void> @:13025 op:2,dt:4,nt:8,next:13081,str:20556,d0:13026,d1:38486;
+                            (____, BuiltinInvocation<Void> @:13025 op:2,dt:4,nt:8,next:13081,str:20556,d0:13026,d1:38486;
                                 ("if", Expression<MethodOrOperator> @:13026 op:2,dt:2,nt:9,next:13027,str:509,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:13027 op:5,dt:5,nt:8,next:13078,str:20566,d0:13028,d1:38488;
+                                    (____, BuiltinInvocation<Boolean> @:13027 op:5,dt:5,nt:8,next:13078,str:20566,d0:13028,d1:38488;
                                         ("and", Expression<MethodOrOperator> @:13028 op:5,dt:2,nt:9,next:13029,str:720,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:13029 op:16,dt:5,nt:8,next:13037,str:20577,d0:13030,d1:38490;
+                                            (____, BuiltinInvocation<Boolean> @:13029 op:16,dt:5,nt:8,next:13037,str:20577,d0:13030,d1:38490;
                                                 ("<", Expression<MethodOrOperator> @:13030 op:16,dt:2,nt:9,next:13031,str:900,d0:0,d1:0;
-                                                    (____, Scope<Short> @:13031 op:38,dt:7,nt:8,next:13036,str:20580,d0:13032,d1:38492;
+                                                    (____, BuiltinInvocation<Short> @:13031 op:38,dt:7,nt:8,next:13036,str:20580,d0:13032,d1:38492;
                                                         ("list_count", Expression<MethodOrOperator> @:13032 op:38,dt:2,nt:9,next:13033,str:82,d0:0,d1:0;
-                                                            (____, Scope<List> @:13033 op:341,dt:31,nt:8,next:65535,str:20592,d0:13034,d1:38494;
+                                                            (____, BuiltinInvocation<List> @:13033 op:341,dt:31,nt:8,next:65535,str:20592,d0:13034,d1:38494;
                                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:13034 op:341,dt:2,nt:9,next:13035,str:14605,d0:0,d1:0;
                                                                     ("bridge_free_ghost/1", Expression<AI> @:13035 op:19,dt:19,nt:9,next:65535,str:24070,d0:3,d1:49186;)))))
                                                     (1, Expression<Short> @:13036 op:7,dt:7,nt:9,next:65535,str:20653,d0:1,d1:65535;)))
-                                            (____, Scope<Boolean> @:13037 op:16,dt:5,nt:8,next:13045,str:20662,d0:13038,d1:38498;
+                                            (____, BuiltinInvocation<Boolean> @:13037 op:16,dt:5,nt:8,next:13045,str:20662,d0:13038,d1:38498;
                                                 ("<", Expression<MethodOrOperator> @:13038 op:16,dt:2,nt:9,next:13039,str:900,d0:0,d1:0;
-                                                    (____, Scope<Short> @:13039 op:38,dt:7,nt:8,next:13044,str:20665,d0:13040,d1:38500;
+                                                    (____, BuiltinInvocation<Short> @:13039 op:38,dt:7,nt:8,next:13044,str:20665,d0:13040,d1:38500;
                                                         ("list_count", Expression<MethodOrOperator> @:13040 op:38,dt:2,nt:9,next:13041,str:82,d0:0,d1:0;
-                                                            (____, Scope<List> @:13041 op:341,dt:31,nt:8,next:65535,str:20677,d0:13042,d1:38502;
+                                                            (____, BuiltinInvocation<List> @:13041 op:341,dt:31,nt:8,next:65535,str:20677,d0:13042,d1:38502;
                                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:13042 op:341,dt:2,nt:9,next:13043,str:14605,d0:0,d1:0;
                                                                     ("bridge_free_ghost/2", Expression<AI> @:13043 op:19,dt:19,nt:9,next:65535,str:24090,d0:0,d1:49186;)))))
                                                     (1, Expression<Short> @:13044 op:7,dt:7,nt:9,next:65535,str:20738,d0:1,d1:65535;)))
-                                            (____, Scope<Boolean> @:13045 op:16,dt:5,nt:8,next:13053,str:20747,d0:13046,d1:38506;
+                                            (____, BuiltinInvocation<Boolean> @:13045 op:16,dt:5,nt:8,next:13053,str:20747,d0:13046,d1:38506;
                                                 ("<", Expression<MethodOrOperator> @:13046 op:16,dt:2,nt:9,next:13047,str:900,d0:0,d1:0;
-                                                    (____, Scope<Short> @:13047 op:38,dt:7,nt:8,next:13052,str:20750,d0:13048,d1:38508;
+                                                    (____, BuiltinInvocation<Short> @:13047 op:38,dt:7,nt:8,next:13052,str:20750,d0:13048,d1:38508;
                                                         ("list_count", Expression<MethodOrOperator> @:13048 op:38,dt:2,nt:9,next:13049,str:82,d0:0,d1:0;
-                                                            (____, Scope<List> @:13049 op:341,dt:31,nt:8,next:65535,str:20762,d0:13050,d1:38510;
+                                                            (____, BuiltinInvocation<List> @:13049 op:341,dt:31,nt:8,next:65535,str:20762,d0:13050,d1:38510;
                                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:13050 op:341,dt:2,nt:9,next:13051,str:14605,d0:0,d1:0;
                                                                     ("bridge_free_ghost/3", Expression<AI> @:13051 op:19,dt:19,nt:9,next:65535,str:24110,d0:2,d1:49186;)))))
                                                     (1, Expression<Short> @:13052 op:7,dt:7,nt:9,next:65535,str:20823,d0:1,d1:65535;)))
-                                            (____, Scope<Boolean> @:13053 op:16,dt:5,nt:8,next:13061,str:20832,d0:13054,d1:38514;
+                                            (____, BuiltinInvocation<Boolean> @:13053 op:16,dt:5,nt:8,next:13061,str:20832,d0:13054,d1:38514;
                                                 ("<", Expression<MethodOrOperator> @:13054 op:16,dt:2,nt:9,next:13055,str:900,d0:0,d1:0;
-                                                    (____, Scope<Short> @:13055 op:38,dt:7,nt:8,next:13060,str:20835,d0:13056,d1:38516;
+                                                    (____, BuiltinInvocation<Short> @:13055 op:38,dt:7,nt:8,next:13060,str:20835,d0:13056,d1:38516;
                                                         ("list_count", Expression<MethodOrOperator> @:13056 op:38,dt:2,nt:9,next:13057,str:82,d0:0,d1:0;
-                                                            (____, Scope<List> @:13057 op:341,dt:31,nt:8,next:65535,str:20847,d0:13058,d1:38518;
+                                                            (____, BuiltinInvocation<List> @:13057 op:341,dt:31,nt:8,next:65535,str:20847,d0:13058,d1:38518;
                                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:13058 op:341,dt:2,nt:9,next:13059,str:14605,d0:0,d1:0;
                                                                     ("bridge_free_ghost/4", Expression<AI> @:13059 op:19,dt:19,nt:9,next:65535,str:24130,d0:1,d1:49186;)))))
                                                     (1, Expression<Short> @:13060 op:7,dt:7,nt:9,next:65535,str:20908,d0:1,d1:65535;)))
-                                            (____, Scope<Boolean> @:13061 op:13,dt:5,nt:8,next:13070,str:20917,d0:13062,d1:38522;
+                                            (____, BuiltinInvocation<Boolean> @:13061 op:13,dt:5,nt:8,next:13070,str:20917,d0:13062,d1:38522;
                                                 ("=", Expression<MethodOrOperator> @:13062 op:13,dt:2,nt:9,next:13063,str:349,d0:0,d1:0;
-                                                    (____, Scope<Boolean> @:13063 op:113,dt:5,nt:8,next:13069,str:20920,d0:13064,d1:38524;
+                                                    (____, BuiltinInvocation<Boolean> @:13063 op:113,dt:5,nt:8,next:13069,str:20920,d0:13064,d1:38524;
                                                         ("objects_can_see_flag", Expression<MethodOrOperator> @:13064 op:113,dt:2,nt:9,next:13065,str:24150,d0:0,d1:0;
-                                                            (____, Scope<List> @:13065 op:28,dt:31,nt:8,next:13067,str:20942,d0:13066,d1:38526;
+                                                            (____, BuiltinInvocation<List> @:13065 op:28,dt:31,nt:8,next:13067,str:20942,d0:13066,d1:38526;
                                                                 ("players", Expression<MethodOrOperator> @:13066 op:28,dt:2,nt:9,next:65535,str:74,d0:0,d1:0;))
                                                             ("extra_ghost_01", Expression<LocationFlag> @:13067 op:14,dt:14,nt:9,next:13068,str:24171,d0:47,d1:0;
                                                                 (45f, Expression<Float> @:13068 op:6,dt:6,nt:9,next:65535,str:20967,d0:0,d1:16948;))))
                                                     (False, Expression<Boolean> @:13069 op:5,dt:5,nt:9,next:65535,str:20971,d0:65280,d1:65535;)))
-                                            (____, Scope<Boolean> @:13070 op:15,dt:5,nt:8,next:65535,str:20984,d0:13071,d1:38531;
+                                            (____, BuiltinInvocation<Boolean> @:13070 op:15,dt:5,nt:8,next:65535,str:20984,d0:13071,d1:38531;
                                                 (">", Expression<MethodOrOperator> @:13071 op:15,dt:2,nt:9,next:13072,str:14341,d0:0,d1:0;
-                                                    (-2.1519536E-25f, Scope<Float> @:13072 op:115,dt:6,nt:8,next:13077,str:20987,d0:13073,d1:38533;
+                                                    (-2.1519536E-25f, BuiltinInvocation<Float> @:13072 op:115,dt:6,nt:8,next:13077,str:20987,d0:13073,d1:38533;
                                                         ("objects_distance_to_flag", Expression<MethodOrOperator> @:13073 op:115,dt:2,nt:9,next:13074,str:24186,d0:0,d1:0;
-                                                            (____, Scope<List> @:13074 op:28,dt:31,nt:8,next:13076,str:21013,d0:13075,d1:38535;
+                                                            (____, BuiltinInvocation<List> @:13074 op:28,dt:31,nt:8,next:13076,str:21013,d0:13075,d1:38535;
                                                                 ("players", Expression<MethodOrOperator> @:13075 op:28,dt:2,nt:9,next:65535,str:74,d0:0,d1:0;))
                                                             ("extra_ghost_01", Expression<LocationFlag> @:13076 op:14,dt:14,nt:9,next:65535,str:24171,d0:47,d1:0;)))
                                                     (5f, Expression<Float> @:13077 op:6,dt:6,nt:9,next:65535,str:21039,d0:0,d1:16544;)))))
-                                    (____, Scope<Void> @:13078 op:290,dt:4,nt:8,next:65535,str:21055,d0:13079,d1:38539;
+                                    (____, BuiltinInvocation<Void> @:13078 op:290,dt:4,nt:8,next:65535,str:21055,d0:13079,d1:38539;
                                         ("ai_place", Expression<MethodOrOperator> @:13079 op:290,dt:2,nt:9,next:13080,str:14859,d0:0,d1:0;
                                             ("bridge_free_ghost/1", Expression<AI> @:13080 op:19,dt:19,nt:9,next:65535,str:24070,d0:3,d1:49186;)))))
-                            (____, Scope<Void> @:13081 op:2,dt:4,nt:8,next:13137,str:21096,d0:13082,d1:38542;
+                            (____, BuiltinInvocation<Void> @:13081 op:2,dt:4,nt:8,next:13137,str:21096,d0:13082,d1:38542;
                                 ("if", Expression<MethodOrOperator> @:13082 op:2,dt:2,nt:9,next:13083,str:509,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:13083 op:5,dt:5,nt:8,next:13134,str:21106,d0:13084,d1:38544;
+                                    (____, BuiltinInvocation<Boolean> @:13083 op:5,dt:5,nt:8,next:13134,str:21106,d0:13084,d1:38544;
                                         ("and", Expression<MethodOrOperator> @:13084 op:5,dt:2,nt:9,next:13085,str:720,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:13085 op:16,dt:5,nt:8,next:13093,str:21117,d0:13086,d1:38546;
+                                            (____, BuiltinInvocation<Boolean> @:13085 op:16,dt:5,nt:8,next:13093,str:21117,d0:13086,d1:38546;
                                                 ("<", Expression<MethodOrOperator> @:13086 op:16,dt:2,nt:9,next:13087,str:900,d0:0,d1:0;
-                                                    (____, Scope<Short> @:13087 op:38,dt:7,nt:8,next:13092,str:21120,d0:13088,d1:38548;
+                                                    (____, BuiltinInvocation<Short> @:13087 op:38,dt:7,nt:8,next:13092,str:21120,d0:13088,d1:38548;
                                                         ("list_count", Expression<MethodOrOperator> @:13088 op:38,dt:2,nt:9,next:13089,str:82,d0:0,d1:0;
-                                                            (____, Scope<List> @:13089 op:341,dt:31,nt:8,next:65535,str:21132,d0:13090,d1:38550;
+                                                            (____, BuiltinInvocation<List> @:13089 op:341,dt:31,nt:8,next:65535,str:21132,d0:13090,d1:38550;
                                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:13090 op:341,dt:2,nt:9,next:13091,str:14605,d0:0,d1:0;
                                                                     ("bridge_free_ghost/1", Expression<AI> @:13091 op:19,dt:19,nt:9,next:65535,str:24070,d0:3,d1:49186;)))))
                                                     (1, Expression<Short> @:13092 op:7,dt:7,nt:9,next:65535,str:21193,d0:1,d1:65535;)))
-                                            (____, Scope<Boolean> @:13093 op:16,dt:5,nt:8,next:13101,str:21202,d0:13094,d1:38554;
+                                            (____, BuiltinInvocation<Boolean> @:13093 op:16,dt:5,nt:8,next:13101,str:21202,d0:13094,d1:38554;
                                                 ("<", Expression<MethodOrOperator> @:13094 op:16,dt:2,nt:9,next:13095,str:900,d0:0,d1:0;
-                                                    (____, Scope<Short> @:13095 op:38,dt:7,nt:8,next:13100,str:21205,d0:13096,d1:38556;
+                                                    (____, BuiltinInvocation<Short> @:13095 op:38,dt:7,nt:8,next:13100,str:21205,d0:13096,d1:38556;
                                                         ("list_count", Expression<MethodOrOperator> @:13096 op:38,dt:2,nt:9,next:13097,str:82,d0:0,d1:0;
-                                                            (____, Scope<List> @:13097 op:341,dt:31,nt:8,next:65535,str:21217,d0:13098,d1:38558;
+                                                            (____, BuiltinInvocation<List> @:13097 op:341,dt:31,nt:8,next:65535,str:21217,d0:13098,d1:38558;
                                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:13098 op:341,dt:2,nt:9,next:13099,str:14605,d0:0,d1:0;
                                                                     ("bridge_free_ghost/2", Expression<AI> @:13099 op:19,dt:19,nt:9,next:65535,str:24090,d0:0,d1:49186;)))))
                                                     (1, Expression<Short> @:13100 op:7,dt:7,nt:9,next:65535,str:21278,d0:1,d1:65535;)))
-                                            (____, Scope<Boolean> @:13101 op:16,dt:5,nt:8,next:13109,str:21287,d0:13102,d1:38562;
+                                            (____, BuiltinInvocation<Boolean> @:13101 op:16,dt:5,nt:8,next:13109,str:21287,d0:13102,d1:38562;
                                                 ("<", Expression<MethodOrOperator> @:13102 op:16,dt:2,nt:9,next:13103,str:900,d0:0,d1:0;
-                                                    (____, Scope<Short> @:13103 op:38,dt:7,nt:8,next:13108,str:21290,d0:13104,d1:38564;
+                                                    (____, BuiltinInvocation<Short> @:13103 op:38,dt:7,nt:8,next:13108,str:21290,d0:13104,d1:38564;
                                                         ("list_count", Expression<MethodOrOperator> @:13104 op:38,dt:2,nt:9,next:13105,str:82,d0:0,d1:0;
-                                                            (____, Scope<List> @:13105 op:341,dt:31,nt:8,next:65535,str:21302,d0:13106,d1:38566;
+                                                            (____, BuiltinInvocation<List> @:13105 op:341,dt:31,nt:8,next:65535,str:21302,d0:13106,d1:38566;
                                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:13106 op:341,dt:2,nt:9,next:13107,str:14605,d0:0,d1:0;
                                                                     ("bridge_free_ghost/3", Expression<AI> @:13107 op:19,dt:19,nt:9,next:65535,str:24110,d0:2,d1:49186;)))))
                                                     (1, Expression<Short> @:13108 op:7,dt:7,nt:9,next:65535,str:21363,d0:1,d1:65535;)))
-                                            (____, Scope<Boolean> @:13109 op:16,dt:5,nt:8,next:13117,str:21372,d0:13110,d1:38570;
+                                            (____, BuiltinInvocation<Boolean> @:13109 op:16,dt:5,nt:8,next:13117,str:21372,d0:13110,d1:38570;
                                                 ("<", Expression<MethodOrOperator> @:13110 op:16,dt:2,nt:9,next:13111,str:900,d0:0,d1:0;
-                                                    (____, Scope<Short> @:13111 op:38,dt:7,nt:8,next:13116,str:21375,d0:13112,d1:38572;
+                                                    (____, BuiltinInvocation<Short> @:13111 op:38,dt:7,nt:8,next:13116,str:21375,d0:13112,d1:38572;
                                                         ("list_count", Expression<MethodOrOperator> @:13112 op:38,dt:2,nt:9,next:13113,str:82,d0:0,d1:0;
-                                                            (____, Scope<List> @:13113 op:341,dt:31,nt:8,next:65535,str:21387,d0:13114,d1:38574;
+                                                            (____, BuiltinInvocation<List> @:13113 op:341,dt:31,nt:8,next:65535,str:21387,d0:13114,d1:38574;
                                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:13114 op:341,dt:2,nt:9,next:13115,str:14605,d0:0,d1:0;
                                                                     ("bridge_free_ghost/4", Expression<AI> @:13115 op:19,dt:19,nt:9,next:65535,str:24130,d0:1,d1:49186;)))))
                                                     (1, Expression<Short> @:13116 op:7,dt:7,nt:9,next:65535,str:21448,d0:1,d1:65535;)))
-                                            (____, Scope<Boolean> @:13117 op:13,dt:5,nt:8,next:13126,str:21457,d0:13118,d1:38578;
+                                            (____, BuiltinInvocation<Boolean> @:13117 op:13,dt:5,nt:8,next:13126,str:21457,d0:13118,d1:38578;
                                                 ("=", Expression<MethodOrOperator> @:13118 op:13,dt:2,nt:9,next:13119,str:349,d0:0,d1:0;
-                                                    (____, Scope<Boolean> @:13119 op:113,dt:5,nt:8,next:13125,str:21460,d0:13120,d1:38580;
+                                                    (____, BuiltinInvocation<Boolean> @:13119 op:113,dt:5,nt:8,next:13125,str:21460,d0:13120,d1:38580;
                                                         ("objects_can_see_flag", Expression<MethodOrOperator> @:13120 op:113,dt:2,nt:9,next:13121,str:24150,d0:0,d1:0;
-                                                            (____, Scope<List> @:13121 op:28,dt:31,nt:8,next:13123,str:21482,d0:13122,d1:38582;
+                                                            (____, BuiltinInvocation<List> @:13121 op:28,dt:31,nt:8,next:13123,str:21482,d0:13122,d1:38582;
                                                                 ("players", Expression<MethodOrOperator> @:13122 op:28,dt:2,nt:9,next:65535,str:74,d0:0,d1:0;))
                                                             ("extra_ghost_02", Expression<LocationFlag> @:13123 op:14,dt:14,nt:9,next:13124,str:24211,d0:46,d1:0;
                                                                 (45f, Expression<Float> @:13124 op:6,dt:6,nt:9,next:65535,str:21507,d0:0,d1:16948;))))
                                                     (False, Expression<Boolean> @:13125 op:5,dt:5,nt:9,next:65535,str:21511,d0:65280,d1:65535;)))
-                                            (____, Scope<Boolean> @:13126 op:15,dt:5,nt:8,next:65535,str:21524,d0:13127,d1:38587;
+                                            (____, BuiltinInvocation<Boolean> @:13126 op:15,dt:5,nt:8,next:65535,str:21524,d0:13127,d1:38587;
                                                 (">", Expression<MethodOrOperator> @:13127 op:15,dt:2,nt:9,next:13128,str:14341,d0:0,d1:0;
-                                                    (-3.0566962E-25f, Scope<Float> @:13128 op:115,dt:6,nt:8,next:13133,str:21527,d0:13129,d1:38589;
+                                                    (-3.0566962E-25f, BuiltinInvocation<Float> @:13128 op:115,dt:6,nt:8,next:13133,str:21527,d0:13129,d1:38589;
                                                         ("objects_distance_to_flag", Expression<MethodOrOperator> @:13129 op:115,dt:2,nt:9,next:13130,str:24186,d0:0,d1:0;
-                                                            (____, Scope<List> @:13130 op:28,dt:31,nt:8,next:13132,str:21553,d0:13131,d1:38591;
+                                                            (____, BuiltinInvocation<List> @:13130 op:28,dt:31,nt:8,next:13132,str:21553,d0:13131,d1:38591;
                                                                 ("players", Expression<MethodOrOperator> @:13131 op:28,dt:2,nt:9,next:65535,str:74,d0:0,d1:0;))
                                                             ("extra_ghost_02", Expression<LocationFlag> @:13132 op:14,dt:14,nt:9,next:65535,str:24211,d0:46,d1:0;)))
                                                     (5f, Expression<Float> @:13133 op:6,dt:6,nt:9,next:65535,str:21579,d0:0,d1:16544;)))))
-                                    (____, Scope<Void> @:13134 op:290,dt:4,nt:8,next:65535,str:21595,d0:13135,d1:38595;
+                                    (____, BuiltinInvocation<Void> @:13134 op:290,dt:4,nt:8,next:65535,str:21595,d0:13135,d1:38595;
                                         ("ai_place", Expression<MethodOrOperator> @:13135 op:290,dt:2,nt:9,next:13136,str:14859,d0:0,d1:0;
                                             ("bridge_free_ghost/2", Expression<AI> @:13136 op:19,dt:19,nt:9,next:65535,str:24090,d0:0,d1:49186;)))))
-                            (____, Scope<Void> @:13137 op:2,dt:4,nt:8,next:13193,str:21636,d0:13138,d1:38598;
+                            (____, BuiltinInvocation<Void> @:13137 op:2,dt:4,nt:8,next:13193,str:21636,d0:13138,d1:38598;
                                 ("if", Expression<MethodOrOperator> @:13138 op:2,dt:2,nt:9,next:13139,str:509,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:13139 op:5,dt:5,nt:8,next:13190,str:21646,d0:13140,d1:38600;
+                                    (____, BuiltinInvocation<Boolean> @:13139 op:5,dt:5,nt:8,next:13190,str:21646,d0:13140,d1:38600;
                                         ("and", Expression<MethodOrOperator> @:13140 op:5,dt:2,nt:9,next:13141,str:720,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:13141 op:16,dt:5,nt:8,next:13149,str:21657,d0:13142,d1:38602;
+                                            (____, BuiltinInvocation<Boolean> @:13141 op:16,dt:5,nt:8,next:13149,str:21657,d0:13142,d1:38602;
                                                 ("<", Expression<MethodOrOperator> @:13142 op:16,dt:2,nt:9,next:13143,str:900,d0:0,d1:0;
-                                                    (____, Scope<Short> @:13143 op:38,dt:7,nt:8,next:13148,str:21660,d0:13144,d1:38604;
+                                                    (____, BuiltinInvocation<Short> @:13143 op:38,dt:7,nt:8,next:13148,str:21660,d0:13144,d1:38604;
                                                         ("list_count", Expression<MethodOrOperator> @:13144 op:38,dt:2,nt:9,next:13145,str:82,d0:0,d1:0;
-                                                            (____, Scope<List> @:13145 op:341,dt:31,nt:8,next:65535,str:21672,d0:13146,d1:38606;
+                                                            (____, BuiltinInvocation<List> @:13145 op:341,dt:31,nt:8,next:65535,str:21672,d0:13146,d1:38606;
                                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:13146 op:341,dt:2,nt:9,next:13147,str:14605,d0:0,d1:0;
                                                                     ("bridge_free_ghost/1", Expression<AI> @:13147 op:19,dt:19,nt:9,next:65535,str:24070,d0:3,d1:49186;)))))
                                                     (1, Expression<Short> @:13148 op:7,dt:7,nt:9,next:65535,str:21733,d0:1,d1:65535;)))
-                                            (____, Scope<Boolean> @:13149 op:16,dt:5,nt:8,next:13157,str:21742,d0:13150,d1:38610;
+                                            (____, BuiltinInvocation<Boolean> @:13149 op:16,dt:5,nt:8,next:13157,str:21742,d0:13150,d1:38610;
                                                 ("<", Expression<MethodOrOperator> @:13150 op:16,dt:2,nt:9,next:13151,str:900,d0:0,d1:0;
-                                                    (____, Scope<Short> @:13151 op:38,dt:7,nt:8,next:13156,str:21745,d0:13152,d1:38612;
+                                                    (____, BuiltinInvocation<Short> @:13151 op:38,dt:7,nt:8,next:13156,str:21745,d0:13152,d1:38612;
                                                         ("list_count", Expression<MethodOrOperator> @:13152 op:38,dt:2,nt:9,next:13153,str:82,d0:0,d1:0;
-                                                            (____, Scope<List> @:13153 op:341,dt:31,nt:8,next:65535,str:21757,d0:13154,d1:38614;
+                                                            (____, BuiltinInvocation<List> @:13153 op:341,dt:31,nt:8,next:65535,str:21757,d0:13154,d1:38614;
                                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:13154 op:341,dt:2,nt:9,next:13155,str:14605,d0:0,d1:0;
                                                                     ("bridge_free_ghost/2", Expression<AI> @:13155 op:19,dt:19,nt:9,next:65535,str:24090,d0:0,d1:49186;)))))
                                                     (1, Expression<Short> @:13156 op:7,dt:7,nt:9,next:65535,str:21818,d0:1,d1:65535;)))
-                                            (____, Scope<Boolean> @:13157 op:16,dt:5,nt:8,next:13165,str:21827,d0:13158,d1:38618;
+                                            (____, BuiltinInvocation<Boolean> @:13157 op:16,dt:5,nt:8,next:13165,str:21827,d0:13158,d1:38618;
                                                 ("<", Expression<MethodOrOperator> @:13158 op:16,dt:2,nt:9,next:13159,str:900,d0:0,d1:0;
-                                                    (____, Scope<Short> @:13159 op:38,dt:7,nt:8,next:13164,str:21830,d0:13160,d1:38620;
+                                                    (____, BuiltinInvocation<Short> @:13159 op:38,dt:7,nt:8,next:13164,str:21830,d0:13160,d1:38620;
                                                         ("list_count", Expression<MethodOrOperator> @:13160 op:38,dt:2,nt:9,next:13161,str:82,d0:0,d1:0;
-                                                            (____, Scope<List> @:13161 op:341,dt:31,nt:8,next:65535,str:21842,d0:13162,d1:38622;
+                                                            (____, BuiltinInvocation<List> @:13161 op:341,dt:31,nt:8,next:65535,str:21842,d0:13162,d1:38622;
                                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:13162 op:341,dt:2,nt:9,next:13163,str:14605,d0:0,d1:0;
                                                                     ("bridge_free_ghost/3", Expression<AI> @:13163 op:19,dt:19,nt:9,next:65535,str:24110,d0:2,d1:49186;)))))
                                                     (1, Expression<Short> @:13164 op:7,dt:7,nt:9,next:65535,str:21903,d0:1,d1:65535;)))
-                                            (____, Scope<Boolean> @:13165 op:16,dt:5,nt:8,next:13173,str:21912,d0:13166,d1:38626;
+                                            (____, BuiltinInvocation<Boolean> @:13165 op:16,dt:5,nt:8,next:13173,str:21912,d0:13166,d1:38626;
                                                 ("<", Expression<MethodOrOperator> @:13166 op:16,dt:2,nt:9,next:13167,str:900,d0:0,d1:0;
-                                                    (____, Scope<Short> @:13167 op:38,dt:7,nt:8,next:13172,str:21915,d0:13168,d1:38628;
+                                                    (____, BuiltinInvocation<Short> @:13167 op:38,dt:7,nt:8,next:13172,str:21915,d0:13168,d1:38628;
                                                         ("list_count", Expression<MethodOrOperator> @:13168 op:38,dt:2,nt:9,next:13169,str:82,d0:0,d1:0;
-                                                            (____, Scope<List> @:13169 op:341,dt:31,nt:8,next:65535,str:21927,d0:13170,d1:38630;
+                                                            (____, BuiltinInvocation<List> @:13169 op:341,dt:31,nt:8,next:65535,str:21927,d0:13170,d1:38630;
                                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:13170 op:341,dt:2,nt:9,next:13171,str:14605,d0:0,d1:0;
                                                                     ("bridge_free_ghost/4", Expression<AI> @:13171 op:19,dt:19,nt:9,next:65535,str:24130,d0:1,d1:49186;)))))
                                                     (1, Expression<Short> @:13172 op:7,dt:7,nt:9,next:65535,str:21988,d0:1,d1:65535;)))
-                                            (____, Scope<Boolean> @:13173 op:13,dt:5,nt:8,next:13182,str:21997,d0:13174,d1:38634;
+                                            (____, BuiltinInvocation<Boolean> @:13173 op:13,dt:5,nt:8,next:13182,str:21997,d0:13174,d1:38634;
                                                 ("=", Expression<MethodOrOperator> @:13174 op:13,dt:2,nt:9,next:13175,str:349,d0:0,d1:0;
-                                                    (____, Scope<Boolean> @:13175 op:113,dt:5,nt:8,next:13181,str:22000,d0:13176,d1:38636;
+                                                    (____, BuiltinInvocation<Boolean> @:13175 op:113,dt:5,nt:8,next:13181,str:22000,d0:13176,d1:38636;
                                                         ("objects_can_see_flag", Expression<MethodOrOperator> @:13176 op:113,dt:2,nt:9,next:13177,str:24150,d0:0,d1:0;
-                                                            (____, Scope<List> @:13177 op:28,dt:31,nt:8,next:13179,str:22022,d0:13178,d1:38638;
+                                                            (____, BuiltinInvocation<List> @:13177 op:28,dt:31,nt:8,next:13179,str:22022,d0:13178,d1:38638;
                                                                 ("players", Expression<MethodOrOperator> @:13178 op:28,dt:2,nt:9,next:65535,str:74,d0:0,d1:0;))
                                                             ("extra_ghost_03", Expression<LocationFlag> @:13179 op:14,dt:14,nt:9,next:13180,str:24226,d0:48,d1:0;
                                                                 (45f, Expression<Float> @:13180 op:6,dt:6,nt:9,next:65535,str:22047,d0:0,d1:16948;))))
                                                     (False, Expression<Boolean> @:13181 op:5,dt:5,nt:9,next:65535,str:22051,d0:65280,d1:65535;)))
-                                            (____, Scope<Boolean> @:13182 op:15,dt:5,nt:8,next:65535,str:22064,d0:13183,d1:38643;
+                                            (____, BuiltinInvocation<Boolean> @:13182 op:15,dt:5,nt:8,next:65535,str:22064,d0:13183,d1:38643;
                                                 (">", Expression<MethodOrOperator> @:13183 op:15,dt:2,nt:9,next:13184,str:14341,d0:0,d1:0;
-                                                    (-3.9614388E-25f, Scope<Float> @:13184 op:115,dt:6,nt:8,next:13189,str:22067,d0:13185,d1:38645;
+                                                    (-3.9614388E-25f, BuiltinInvocation<Float> @:13184 op:115,dt:6,nt:8,next:13189,str:22067,d0:13185,d1:38645;
                                                         ("objects_distance_to_flag", Expression<MethodOrOperator> @:13185 op:115,dt:2,nt:9,next:13186,str:24186,d0:0,d1:0;
-                                                            (____, Scope<List> @:13186 op:28,dt:31,nt:8,next:13188,str:22093,d0:13187,d1:38647;
+                                                            (____, BuiltinInvocation<List> @:13186 op:28,dt:31,nt:8,next:13188,str:22093,d0:13187,d1:38647;
                                                                 ("players", Expression<MethodOrOperator> @:13187 op:28,dt:2,nt:9,next:65535,str:74,d0:0,d1:0;))
                                                             ("extra_ghost_03", Expression<LocationFlag> @:13188 op:14,dt:14,nt:9,next:65535,str:24226,d0:48,d1:0;)))
                                                     (5f, Expression<Float> @:13189 op:6,dt:6,nt:9,next:65535,str:22119,d0:0,d1:16544;)))))
-                                    (____, Scope<Void> @:13190 op:290,dt:4,nt:8,next:65535,str:22135,d0:13191,d1:38651;
+                                    (____, BuiltinInvocation<Void> @:13190 op:290,dt:4,nt:8,next:65535,str:22135,d0:13191,d1:38651;
                                         ("ai_place", Expression<MethodOrOperator> @:13191 op:290,dt:2,nt:9,next:13192,str:14859,d0:0,d1:0;
                                             ("bridge_free_ghost/3", Expression<AI> @:13192 op:19,dt:19,nt:9,next:65535,str:24110,d0:2,d1:49186;)))))
-                            (____, Scope<Void> @:13193 op:2,dt:4,nt:8,next:13249,str:22176,d0:13194,d1:38654;
+                            (____, BuiltinInvocation<Void> @:13193 op:2,dt:4,nt:8,next:13249,str:22176,d0:13194,d1:38654;
                                 ("if", Expression<MethodOrOperator> @:13194 op:2,dt:2,nt:9,next:13195,str:509,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:13195 op:5,dt:5,nt:8,next:13246,str:22186,d0:13196,d1:38656;
+                                    (____, BuiltinInvocation<Boolean> @:13195 op:5,dt:5,nt:8,next:13246,str:22186,d0:13196,d1:38656;
                                         ("and", Expression<MethodOrOperator> @:13196 op:5,dt:2,nt:9,next:13197,str:720,d0:0,d1:0;
-                                            (____, Scope<Boolean> @:13197 op:16,dt:5,nt:8,next:13205,str:22197,d0:13198,d1:38658;
+                                            (____, BuiltinInvocation<Boolean> @:13197 op:16,dt:5,nt:8,next:13205,str:22197,d0:13198,d1:38658;
                                                 ("<", Expression<MethodOrOperator> @:13198 op:16,dt:2,nt:9,next:13199,str:900,d0:0,d1:0;
-                                                    (____, Scope<Short> @:13199 op:38,dt:7,nt:8,next:13204,str:22200,d0:13200,d1:38660;
+                                                    (____, BuiltinInvocation<Short> @:13199 op:38,dt:7,nt:8,next:13204,str:22200,d0:13200,d1:38660;
                                                         ("list_count", Expression<MethodOrOperator> @:13200 op:38,dt:2,nt:9,next:13201,str:82,d0:0,d1:0;
-                                                            (____, Scope<List> @:13201 op:341,dt:31,nt:8,next:65535,str:22212,d0:13202,d1:38662;
+                                                            (____, BuiltinInvocation<List> @:13201 op:341,dt:31,nt:8,next:65535,str:22212,d0:13202,d1:38662;
                                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:13202 op:341,dt:2,nt:9,next:13203,str:14605,d0:0,d1:0;
                                                                     ("bridge_free_ghost/1", Expression<AI> @:13203 op:19,dt:19,nt:9,next:65535,str:24070,d0:3,d1:49186;)))))
                                                     (1, Expression<Short> @:13204 op:7,dt:7,nt:9,next:65535,str:22273,d0:1,d1:65535;)))
-                                            (____, Scope<Boolean> @:13205 op:16,dt:5,nt:8,next:13213,str:22282,d0:13206,d1:38666;
+                                            (____, BuiltinInvocation<Boolean> @:13205 op:16,dt:5,nt:8,next:13213,str:22282,d0:13206,d1:38666;
                                                 ("<", Expression<MethodOrOperator> @:13206 op:16,dt:2,nt:9,next:13207,str:900,d0:0,d1:0;
-                                                    (____, Scope<Short> @:13207 op:38,dt:7,nt:8,next:13212,str:22285,d0:13208,d1:38668;
+                                                    (____, BuiltinInvocation<Short> @:13207 op:38,dt:7,nt:8,next:13212,str:22285,d0:13208,d1:38668;
                                                         ("list_count", Expression<MethodOrOperator> @:13208 op:38,dt:2,nt:9,next:13209,str:82,d0:0,d1:0;
-                                                            (____, Scope<List> @:13209 op:341,dt:31,nt:8,next:65535,str:22297,d0:13210,d1:38670;
+                                                            (____, BuiltinInvocation<List> @:13209 op:341,dt:31,nt:8,next:65535,str:22297,d0:13210,d1:38670;
                                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:13210 op:341,dt:2,nt:9,next:13211,str:14605,d0:0,d1:0;
                                                                     ("bridge_free_ghost/2", Expression<AI> @:13211 op:19,dt:19,nt:9,next:65535,str:24090,d0:0,d1:49186;)))))
                                                     (1, Expression<Short> @:13212 op:7,dt:7,nt:9,next:65535,str:22358,d0:1,d1:65535;)))
-                                            (____, Scope<Boolean> @:13213 op:16,dt:5,nt:8,next:13221,str:22367,d0:13214,d1:38674;
+                                            (____, BuiltinInvocation<Boolean> @:13213 op:16,dt:5,nt:8,next:13221,str:22367,d0:13214,d1:38674;
                                                 ("<", Expression<MethodOrOperator> @:13214 op:16,dt:2,nt:9,next:13215,str:900,d0:0,d1:0;
-                                                    (____, Scope<Short> @:13215 op:38,dt:7,nt:8,next:13220,str:22370,d0:13216,d1:38676;
+                                                    (____, BuiltinInvocation<Short> @:13215 op:38,dt:7,nt:8,next:13220,str:22370,d0:13216,d1:38676;
                                                         ("list_count", Expression<MethodOrOperator> @:13216 op:38,dt:2,nt:9,next:13217,str:82,d0:0,d1:0;
-                                                            (____, Scope<List> @:13217 op:341,dt:31,nt:8,next:65535,str:22382,d0:13218,d1:38678;
+                                                            (____, BuiltinInvocation<List> @:13217 op:341,dt:31,nt:8,next:65535,str:22382,d0:13218,d1:38678;
                                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:13218 op:341,dt:2,nt:9,next:13219,str:14605,d0:0,d1:0;
                                                                     ("bridge_free_ghost/3", Expression<AI> @:13219 op:19,dt:19,nt:9,next:65535,str:24110,d0:2,d1:49186;)))))
                                                     (1, Expression<Short> @:13220 op:7,dt:7,nt:9,next:65535,str:22443,d0:1,d1:65535;)))
-                                            (____, Scope<Boolean> @:13221 op:16,dt:5,nt:8,next:13229,str:22452,d0:13222,d1:38682;
+                                            (____, BuiltinInvocation<Boolean> @:13221 op:16,dt:5,nt:8,next:13229,str:22452,d0:13222,d1:38682;
                                                 ("<", Expression<MethodOrOperator> @:13222 op:16,dt:2,nt:9,next:13223,str:900,d0:0,d1:0;
-                                                    (____, Scope<Short> @:13223 op:38,dt:7,nt:8,next:13228,str:22455,d0:13224,d1:38684;
+                                                    (____, BuiltinInvocation<Short> @:13223 op:38,dt:7,nt:8,next:13228,str:22455,d0:13224,d1:38684;
                                                         ("list_count", Expression<MethodOrOperator> @:13224 op:38,dt:2,nt:9,next:13225,str:82,d0:0,d1:0;
-                                                            (____, Scope<List> @:13225 op:341,dt:31,nt:8,next:65535,str:22467,d0:13226,d1:38686;
+                                                            (____, BuiltinInvocation<List> @:13225 op:341,dt:31,nt:8,next:65535,str:22467,d0:13226,d1:38686;
                                                                 ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:13226 op:341,dt:2,nt:9,next:13227,str:14605,d0:0,d1:0;
                                                                     ("bridge_free_ghost/4", Expression<AI> @:13227 op:19,dt:19,nt:9,next:65535,str:24130,d0:1,d1:49186;)))))
                                                     (1, Expression<Short> @:13228 op:7,dt:7,nt:9,next:65535,str:22528,d0:1,d1:65535;)))
-                                            (____, Scope<Boolean> @:13229 op:13,dt:5,nt:8,next:13238,str:22537,d0:13230,d1:38690;
+                                            (____, BuiltinInvocation<Boolean> @:13229 op:13,dt:5,nt:8,next:13238,str:22537,d0:13230,d1:38690;
                                                 ("=", Expression<MethodOrOperator> @:13230 op:13,dt:2,nt:9,next:13231,str:349,d0:0,d1:0;
-                                                    (____, Scope<Boolean> @:13231 op:113,dt:5,nt:8,next:13237,str:22540,d0:13232,d1:38692;
+                                                    (____, BuiltinInvocation<Boolean> @:13231 op:113,dt:5,nt:8,next:13237,str:22540,d0:13232,d1:38692;
                                                         ("objects_can_see_flag", Expression<MethodOrOperator> @:13232 op:113,dt:2,nt:9,next:13233,str:24150,d0:0,d1:0;
-                                                            (____, Scope<List> @:13233 op:28,dt:31,nt:8,next:13235,str:22562,d0:13234,d1:38694;
+                                                            (____, BuiltinInvocation<List> @:13233 op:28,dt:31,nt:8,next:13235,str:22562,d0:13234,d1:38694;
                                                                 ("players", Expression<MethodOrOperator> @:13234 op:28,dt:2,nt:9,next:65535,str:74,d0:0,d1:0;))
                                                             ("extra_ghost_04", Expression<LocationFlag> @:13235 op:14,dt:14,nt:9,next:13236,str:24241,d0:49,d1:0;
                                                                 (45f, Expression<Float> @:13236 op:6,dt:6,nt:9,next:65535,str:22587,d0:0,d1:16948;))))
                                                     (False, Expression<Boolean> @:13237 op:5,dt:5,nt:9,next:65535,str:22591,d0:65280,d1:65535;)))
-                                            (____, Scope<Boolean> @:13238 op:15,dt:5,nt:8,next:65535,str:22604,d0:13239,d1:38699;
+                                            (____, BuiltinInvocation<Boolean> @:13238 op:15,dt:5,nt:8,next:65535,str:22604,d0:13239,d1:38699;
                                                 (">", Expression<MethodOrOperator> @:13239 op:15,dt:2,nt:9,next:13240,str:14341,d0:0,d1:0;
-                                                    (-5.59646E-25f, Scope<Float> @:13240 op:115,dt:6,nt:8,next:13245,str:22607,d0:13241,d1:38701;
+                                                    (-5.59646E-25f, BuiltinInvocation<Float> @:13240 op:115,dt:6,nt:8,next:13245,str:22607,d0:13241,d1:38701;
                                                         ("objects_distance_to_flag", Expression<MethodOrOperator> @:13241 op:115,dt:2,nt:9,next:13242,str:24186,d0:0,d1:0;
-                                                            (____, Scope<List> @:13242 op:28,dt:31,nt:8,next:13244,str:22633,d0:13243,d1:38703;
+                                                            (____, BuiltinInvocation<List> @:13242 op:28,dt:31,nt:8,next:13244,str:22633,d0:13243,d1:38703;
                                                                 ("players", Expression<MethodOrOperator> @:13243 op:28,dt:2,nt:9,next:65535,str:74,d0:0,d1:0;))
                                                             ("extra_ghost_04", Expression<LocationFlag> @:13244 op:14,dt:14,nt:9,next:65535,str:24241,d0:49,d1:0;)))
                                                     (5f, Expression<Float> @:13245 op:6,dt:6,nt:9,next:65535,str:22659,d0:0,d1:16544;)))))
-                                    (____, Scope<Void> @:13246 op:290,dt:4,nt:8,next:65535,str:22675,d0:13247,d1:38707;
+                                    (____, BuiltinInvocation<Void> @:13246 op:290,dt:4,nt:8,next:65535,str:22675,d0:13247,d1:38707;
                                         ("ai_place", Expression<MethodOrOperator> @:13247 op:290,dt:2,nt:9,next:13248,str:14859,d0:0,d1:0;
                                             ("bridge_free_ghost/4", Expression<AI> @:13248 op:19,dt:19,nt:9,next:65535,str:24130,d0:1,d1:49186;)))))
-                            (____, Scope<Boolean> @:13249 op:6,dt:5,nt:8,next:65535,str:22716,d0:13250,d1:38710;
+                            (____, BuiltinInvocation<Boolean> @:13249 op:6,dt:5,nt:8,next:65535,str:22716,d0:13250,d1:38710;
                                 ("or", Expression<MethodOrOperator> @:13250 op:6,dt:2,nt:9,next:13251,str:897,d0:0,d1:0;
-                                    (____, Scope<Boolean> @:13251 op:15,dt:5,nt:8,next:13259,str:22725,d0:13252,d1:38712;
+                                    (____, BuiltinInvocation<Boolean> @:13251 op:15,dt:5,nt:8,next:13259,str:22725,d0:13252,d1:38712;
                                         (">", Expression<MethodOrOperator> @:13252 op:15,dt:2,nt:9,next:13253,str:14341,d0:0,d1:0;
-                                            (____, Scope<Short> @:13253 op:38,dt:7,nt:8,next:13258,str:22728,d0:13254,d1:38714;
+                                            (____, BuiltinInvocation<Short> @:13253 op:38,dt:7,nt:8,next:13258,str:22728,d0:13254,d1:38714;
                                                 ("list_count", Expression<MethodOrOperator> @:13254 op:38,dt:2,nt:9,next:13255,str:82,d0:0,d1:0;
-                                                    (____, Scope<List> @:13255 op:341,dt:31,nt:8,next:65535,str:22740,d0:13256,d1:38716;
+                                                    (____, BuiltinInvocation<List> @:13255 op:341,dt:31,nt:8,next:65535,str:22740,d0:13256,d1:38716;
                                                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:13256 op:341,dt:2,nt:9,next:13257,str:14605,d0:0,d1:0;
                                                             ("bridge_free_ghost/1", Expression<AI> @:13257 op:19,dt:19,nt:9,next:65535,str:24070,d0:3,d1:49186;)))))
                                             (0, Expression<Short> @:13258 op:7,dt:7,nt:9,next:65535,str:22801,d0:0,d1:65535;)))
-                                    (____, Scope<Boolean> @:13259 op:15,dt:5,nt:8,next:13267,str:22809,d0:13260,d1:38720;
+                                    (____, BuiltinInvocation<Boolean> @:13259 op:15,dt:5,nt:8,next:13267,str:22809,d0:13260,d1:38720;
                                         (">", Expression<MethodOrOperator> @:13260 op:15,dt:2,nt:9,next:13261,str:14341,d0:0,d1:0;
-                                            (____, Scope<Short> @:13261 op:38,dt:7,nt:8,next:13266,str:22812,d0:13262,d1:38722;
+                                            (____, BuiltinInvocation<Short> @:13261 op:38,dt:7,nt:8,next:13266,str:22812,d0:13262,d1:38722;
                                                 ("list_count", Expression<MethodOrOperator> @:13262 op:38,dt:2,nt:9,next:13263,str:82,d0:0,d1:0;
-                                                    (____, Scope<List> @:13263 op:341,dt:31,nt:8,next:65535,str:22824,d0:13264,d1:38724;
+                                                    (____, BuiltinInvocation<List> @:13263 op:341,dt:31,nt:8,next:65535,str:22824,d0:13264,d1:38724;
                                                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:13264 op:341,dt:2,nt:9,next:13265,str:14605,d0:0,d1:0;
                                                             ("bridge_free_ghost/2", Expression<AI> @:13265 op:19,dt:19,nt:9,next:65535,str:24090,d0:0,d1:49186;)))))
                                             (0, Expression<Short> @:13266 op:7,dt:7,nt:9,next:65535,str:22885,d0:0,d1:65535;)))
-                                    (____, Scope<Boolean> @:13267 op:15,dt:5,nt:8,next:13275,str:22893,d0:13268,d1:38728;
+                                    (____, BuiltinInvocation<Boolean> @:13267 op:15,dt:5,nt:8,next:13275,str:22893,d0:13268,d1:38728;
                                         (">", Expression<MethodOrOperator> @:13268 op:15,dt:2,nt:9,next:13269,str:14341,d0:0,d1:0;
-                                            (____, Scope<Short> @:13269 op:38,dt:7,nt:8,next:13274,str:22896,d0:13270,d1:38730;
+                                            (____, BuiltinInvocation<Short> @:13269 op:38,dt:7,nt:8,next:13274,str:22896,d0:13270,d1:38730;
                                                 ("list_count", Expression<MethodOrOperator> @:13270 op:38,dt:2,nt:9,next:13271,str:82,d0:0,d1:0;
-                                                    (____, Scope<List> @:13271 op:341,dt:31,nt:8,next:65535,str:22908,d0:13272,d1:38732;
+                                                    (____, BuiltinInvocation<List> @:13271 op:341,dt:31,nt:8,next:65535,str:22908,d0:13272,d1:38732;
                                                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:13272 op:341,dt:2,nt:9,next:13273,str:14605,d0:0,d1:0;
                                                             ("bridge_free_ghost/3", Expression<AI> @:13273 op:19,dt:19,nt:9,next:65535,str:24110,d0:2,d1:49186;)))))
                                             (0, Expression<Short> @:13274 op:7,dt:7,nt:9,next:65535,str:22969,d0:0,d1:65535;)))
-                                    (____, Scope<Boolean> @:13275 op:15,dt:5,nt:8,next:65535,str:22977,d0:13276,d1:38736;
+                                    (____, BuiltinInvocation<Boolean> @:13275 op:15,dt:5,nt:8,next:65535,str:22977,d0:13276,d1:38736;
                                         (">", Expression<MethodOrOperator> @:13276 op:15,dt:2,nt:9,next:13277,str:14341,d0:0,d1:0;
-                                            (____, Scope<Short> @:13277 op:38,dt:7,nt:8,next:13282,str:22980,d0:13278,d1:38738;
+                                            (____, BuiltinInvocation<Short> @:13277 op:38,dt:7,nt:8,next:13282,str:22980,d0:13278,d1:38738;
                                                 ("list_count", Expression<MethodOrOperator> @:13278 op:38,dt:2,nt:9,next:13279,str:82,d0:0,d1:0;
-                                                    (____, Scope<List> @:13279 op:341,dt:31,nt:8,next:65535,str:22992,d0:13280,d1:38740;
+                                                    (____, BuiltinInvocation<List> @:13279 op:341,dt:31,nt:8,next:65535,str:22992,d0:13280,d1:38740;
                                                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:13280 op:341,dt:2,nt:9,next:13281,str:14605,d0:0,d1:0;
                                                             ("bridge_free_ghost/4", Expression<AI> @:13281 op:19,dt:19,nt:9,next:65535,str:24130,d0:1,d1:49186;)))))
                                             (0, Expression<Short> @:13282 op:7,dt:7,nt:9,next:65535,str:23053,d0:0,d1:65535;))))))))))))

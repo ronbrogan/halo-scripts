@@ -1,152 +1,152 @@
 
 ("enc_cov_defense", MethodDecl<Void> @:372 op:0,dt:0,nt:65535,next:19730,str:31696,d0:0,d1:0;
-    (____, Scope<Void> @:19730 op:0,dt:4,nt:8,next:65535,str:61139,d0:19731,d1:45191;
+    (____, BuiltinInvocation<Void> @:19730 op:0,dt:4,nt:8,next:65535,str:61139,d0:19731,d1:45191;
         ("begin", Expression<MethodOrOperator> @:19731 op:0,dt:2,nt:9,next:19582,str:1,d0:0,d1:0;
-            (____, Scope<Void> @:19582 op:2,dt:4,nt:8,next:19593,str:61173,d0:19583,d1:45043;
+            (____, BuiltinInvocation<Void> @:19582 op:2,dt:4,nt:8,next:19593,str:61173,d0:19583,d1:45043;
                 ("if", Expression<MethodOrOperator> @:19583 op:2,dt:2,nt:9,next:19584,str:456,d0:0,d1:0;
                     ("g_cov_defense", VariableAccess<Boolean> @:19584 op:5,dt:5,nt:13,next:19585,str:30999,d0:22,d1:0;
-                        (____, Scope<Void> @:19585 op:21,dt:4,nt:8,next:65535,str:61191,d0:19586,d1:45046;
+                        (____, BuiltinInvocation<Void> @:19585 op:21,dt:4,nt:8,next:65535,str:61191,d0:19586,d1:45046;
                             ("sleep_until", Expression<MethodOrOperator> @:19586 op:21,dt:2,nt:9,next:19587,str:231,d0:0,d1:0;
-                                (____, Scope<Boolean> @:19587 op:33,dt:5,nt:8,next:19592,str:61204,d0:19588,d1:45048;
+                                (____, BuiltinInvocation<Boolean> @:19587 op:33,dt:5,nt:8,next:19592,str:61204,d0:19588,d1:45048;
                                     ("volume_test_objects", Expression<MethodOrOperator> @:19588 op:33,dt:2,nt:9,next:19589,str:11664,d0:0,d1:0;
                                         ("tv_cov_defense", Expression<Trigger> @:19589 op:13,dt:13,nt:9,next:19590,str:26663,d0:13,d1:0;
-                                            (____, Scope<List> @:19590 op:28,dt:31,nt:8,next:65535,str:61240,d0:19591,d1:45051;
+                                            (____, BuiltinInvocation<List> @:19590 op:28,dt:31,nt:8,next:65535,str:61240,d0:19591,d1:45051;
                                                 ("players", Expression<MethodOrOperator> @:19591 op:28,dt:2,nt:9,next:65535,str:21,d0:0,d1:0;)))))
                                 (10, Expression<Short> @:19592 op:7,dt:7,nt:9,next:65535,str:61251,d0:10,d1:65535;))))))
-            (____, Scope<Void> @:19593 op:2,dt:4,nt:8,next:19599,str:61258,d0:19594,d1:45054;
+            (____, BuiltinInvocation<Void> @:19593 op:2,dt:4,nt:8,next:19599,str:61258,d0:19594,d1:45054;
                 ("if", Expression<MethodOrOperator> @:19594 op:2,dt:2,nt:9,next:19595,str:456,d0:0,d1:0;
                     ("debug", VariableAccess<Boolean> @:19595 op:5,dt:5,nt:13,next:19596,str:11238,d0:3,d1:0;
-                        (____, Scope<Void> @:19596 op:27,dt:4,nt:8,next:65535,str:61268,d0:19597,d1:45057;
+                        (____, BuiltinInvocation<Void> @:19596 op:27,dt:4,nt:8,next:65535,str:61268,d0:19597,d1:45057;
                             ("print", Expression<MethodOrOperator> @:19597 op:27,dt:2,nt:9,next:19598,str:86,d0:0,d1:0;
                                 ("initialize covenant defense scripts", Expression<String> @:19598 op:9,dt:9,nt:9,next:65535,str:31013,d0:31013,d1:0;))))))
-            (____, Scope<Void> @:19599 op:587,dt:4,nt:8,next:19601,str:61317,d0:19600,d1:45060;
+            (____, BuiltinInvocation<Void> @:19599 op:587,dt:4,nt:8,next:19601,str:61317,d0:19600,d1:45060;
                 ("game_save", Expression<MethodOrOperator> @:19600 op:587,dt:2,nt:9,next:65535,str:20792,d0:0,d1:0;))
-            (____, Scope<Void> @:19601 op:786,dt:4,nt:8,next:19604,str:61331,d0:19602,d1:45062;
+            (____, BuiltinInvocation<Void> @:19601 op:786,dt:4,nt:8,next:19604,str:61331,d0:19602,d1:45062;
                 ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:19602 op:786,dt:2,nt:9,next:19603,str:21879,d0:0,d1:0;
                     ("enc_covenant_defense", Expression<String> @:19603 op:9,dt:9,nt:9,next:65535,str:31049,d0:31049,d1:0;)))
-            (____, Scope<Void> @:19604 op:300,dt:4,nt:8,next:19608,str:61388,d0:19605,d1:45065;
+            (____, BuiltinInvocation<Void> @:19604 op:300,dt:4,nt:8,next:19608,str:61388,d0:19605,d1:45065;
                 ("ai_disposable", Expression<MethodOrOperator> @:19605 op:300,dt:2,nt:9,next:19606,str:27907,d0:0,d1:0;
                     ("qz_ini_flood", Expression<AI> @:19606 op:19,dt:19,nt:9,next:19607,str:26553,d0:24,d1:16384;
                         (True, Expression<Boolean> @:19607 op:5,dt:5,nt:9,next:65535,str:61416,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:19608 op:300,dt:4,nt:8,next:19612,str:61424,d0:19609,d1:45069;
+            (____, BuiltinInvocation<Void> @:19608 op:300,dt:4,nt:8,next:19612,str:61424,d0:19609,d1:45069;
                 ("ai_disposable", Expression<MethodOrOperator> @:19609 op:300,dt:2,nt:9,next:19610,str:27907,d0:0,d1:0;
                     ("qz_cov_def_flood", Expression<AI> @:19610 op:19,dt:19,nt:9,next:19611,str:27013,d0:25,d1:16384;
                         (True, Expression<Boolean> @:19611 op:5,dt:5,nt:9,next:65535,str:61456,d0:65281,d1:65535;))))
-            (____, Scope<Void> @:19612 op:343,dt:4,nt:8,next:19618,str:61466,d0:19613,d1:45073;
+            (____, BuiltinInvocation<Void> @:19612 op:343,dt:4,nt:8,next:19618,str:61466,d0:19613,d1:45073;
                 ("ai_vehicle_reserve", Expression<MethodOrOperator> @:19613 op:343,dt:2,nt:9,next:19614,str:31070,d0:0,d1:0;
-                    (____, Scope<Vehicle> @:19614 op:340,dt:52,nt:8,next:19617,str:61486,d0:19615,d1:45075;
+                    (____, BuiltinInvocation<Vehicle> @:19614 op:340,dt:52,nt:8,next:19617,str:61486,d0:19615,d1:45075;
                         ("ai_vehicle_get", Expression<MethodOrOperator> @:19615 op:340,dt:2,nt:9,next:19616,str:26364,d0:0,d1:0;
                             ("qz_ini_turrets", Expression<AI> @:19616 op:19,dt:19,nt:9,next:65535,str:26566,d0:101,d1:0;)))
                     (True, Expression<Boolean> @:19617 op:5,dt:5,nt:9,next:65535,str:61518,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:19618 op:350,dt:4,nt:8,next:19621,str:61526,d0:19619,d1:45079;
+            (____, BuiltinInvocation<Void> @:19618 op:350,dt:4,nt:8,next:19621,str:61526,d0:19619,d1:45079;
                 ("ai_vehicle_exit", Expression<MethodOrOperator> @:19619 op:350,dt:2,nt:9,next:19620,str:14865,d0:0,d1:0;
                     ("qz_ini_ins_pods", Expression<AI> @:19620 op:19,dt:19,nt:9,next:65535,str:14555,d0:89,d1:0;)))
-            (____, Scope<Void> @:19621 op:309,dt:4,nt:8,next:19625,str:61565,d0:19622,d1:45082;
+            (____, BuiltinInvocation<Void> @:19621 op:309,dt:4,nt:8,next:19625,str:61565,d0:19622,d1:45082;
                 ("ai_migrate", Expression<MethodOrOperator> @:19622 op:309,dt:2,nt:9,next:19623,str:31089,d0:0,d1:0;
                     ("qz_ini_ins_pods", Expression<AI> @:19623 op:19,dt:19,nt:9,next:19624,str:14555,d0:89,d1:0;
                         ("qz_cov_def_cov", Expression<AI> @:19624 op:19,dt:19,nt:9,next:65535,str:14881,d0:100,d1:0;))))
-            (____, Scope<Void> @:19625 op:334,dt:4,nt:8,next:19629,str:61611,d0:19626,d1:45086;
+            (____, BuiltinInvocation<Void> @:19625 op:334,dt:4,nt:8,next:19629,str:61611,d0:19626,d1:45086;
                 ("ai_set_orders", Expression<MethodOrOperator> @:19626 op:334,dt:2,nt:9,next:19627,str:17159,d0:0,d1:0;
                     ("qz_ini_flood", Expression<AI> @:19627 op:19,dt:19,nt:9,next:19628,str:26553,d0:24,d1:16384;
                         ("qz_cov_def_hill", Expression<AIOrders> @:19628 op:23,dt:23,nt:9,next:65535,str:27054,d0:87,d1:0;))))
-            (____, Scope<Void> @:19629 op:290,dt:4,nt:8,next:19632,str:61661,d0:19630,d1:45090;
+            (____, BuiltinInvocation<Void> @:19629 op:290,dt:4,nt:8,next:19632,str:61661,d0:19630,d1:45090;
                 ("ai_place", Expression<MethodOrOperator> @:19630 op:290,dt:2,nt:9,next:19631,str:1415,d0:0,d1:0;
                     ("qz_cov_def_flood_ini", Expression<AI> @:19631 op:19,dt:19,nt:9,next:65535,str:31100,d0:90,d1:0;)))
-            (____, Scope<Void> @:19632 op:290,dt:4,nt:8,next:19635,str:61695,d0:19633,d1:45093;
+            (____, BuiltinInvocation<Void> @:19632 op:290,dt:4,nt:8,next:19635,str:61695,d0:19633,d1:45093;
                 ("ai_place", Expression<MethodOrOperator> @:19633 op:290,dt:2,nt:9,next:19634,str:1415,d0:0,d1:0;
                     ("qz_cov_def_flood_g", Expression<AI> @:19634 op:19,dt:19,nt:9,next:65535,str:27247,d0:97,d1:0;)))
-            (____, Scope<Void> @:19635 op:291,dt:4,nt:8,next:19648,str:61727,d0:19636,d1:45096;
+            (____, BuiltinInvocation<Void> @:19635 op:291,dt:4,nt:8,next:19648,str:61727,d0:19636,d1:45096;
                 ("ai_place", Expression<MethodOrOperator> @:19636 op:291,dt:2,nt:9,next:19637,str:1415,d0:0,d1:0;
                     ("qz_cov_def_cov", Expression<AI> @:19637 op:19,dt:19,nt:9,next:19638,str:14881,d0:100,d1:0;
-                        (____, Scope<Short> @:19638 op:26,dt:7,nt:8,next:65535,str:61752,d0:19639,d1:45099;
+                        (____, BuiltinInvocation<Short> @:19638 op:26,dt:7,nt:8,next:65535,str:61752,d0:19639,d1:45099;
                             ("pin", Expression<MethodOrOperator> @:19639 op:26,dt:2,nt:9,next:19640,str:28321,d0:0,d1:0;
-                                (-6.3046063E-10f, Scope<Float> @:19640 op:8,dt:6,nt:8,next:19646,str:61757,d0:19641,d1:45101;
+                                (-6.3046063E-10f, BuiltinInvocation<Float> @:19640 op:8,dt:6,nt:8,next:19646,str:61757,d0:19641,d1:45101;
                                     ("-", Expression<MethodOrOperator> @:19641 op:8,dt:2,nt:9,next:19642,str:3257,d0:0,d1:0;
                                         (3f, Expression<Float> @:19642 op:6,dt:6,nt:9,next:19643,str:61760,d0:0,d1:16448;
-                                            (-6.4137473E-10f, Scope<Float> @:19643 op:327,dt:6,nt:8,next:65535,str:61762,d0:19644,d1:45104;
+                                            (-6.4137473E-10f, BuiltinInvocation<Float> @:19643 op:327,dt:6,nt:8,next:65535,str:61762,d0:19644,d1:45104;
                                                 ("ai_living_count", Expression<MethodOrOperator> @:19644 op:327,dt:2,nt:9,next:19645,str:18161,d0:0,d1:0;
                                                     ("qz_cov_def_cov", Expression<AI> @:19645 op:19,dt:19,nt:9,next:65535,str:14881,d0:100,d1:0;))))))
                                 (0f, Expression<Float> @:19646 op:6,dt:6,nt:9,next:19647,str:61796,d0:0,d1:0;
                                     (2f, Expression<Float> @:19647 op:6,dt:6,nt:9,next:65535,str:61798,d0:0,d1:16384;)))))))
-            (____, Scope<Void> @:19648 op:290,dt:4,nt:8,next:19651,str:61804,d0:19649,d1:45109;
+            (____, BuiltinInvocation<Void> @:19648 op:290,dt:4,nt:8,next:19651,str:61804,d0:19649,d1:45109;
                 ("ai_place", Expression<MethodOrOperator> @:19649 op:290,dt:2,nt:9,next:19650,str:1415,d0:0,d1:0;
                     ("qz_cov_def_soc", Expression<AI> @:19650 op:19,dt:19,nt:9,next:65535,str:14896,d0:99,d1:0;)))
-            (____, Scope<Void> @:19651 op:290,dt:4,nt:8,next:19654,str:61832,d0:19652,d1:45112;
+            (____, BuiltinInvocation<Void> @:19651 op:290,dt:4,nt:8,next:19654,str:61832,d0:19652,d1:45112;
                 ("ai_place", Expression<MethodOrOperator> @:19652 op:290,dt:2,nt:9,next:19653,str:1415,d0:0,d1:0;
                     ("qz_camp_turrets", Expression<AI> @:19653 op:19,dt:19,nt:9,next:65535,str:31121,d0:102,d1:0;)))
-            (____, Scope<Void> @:19654 op:85,dt:4,nt:8,next:19660,str:61863,d0:19655,d1:45115;
+            (____, BuiltinInvocation<Void> @:19654 op:85,dt:4,nt:8,next:19660,str:61863,d0:19655,d1:45115;
                 ("object_cannot_die", Expression<MethodOrOperator> @:19655 op:85,dt:2,nt:9,next:19656,str:31137,d0:0,d1:0;
-                    (____, Scope<Entity> @:19656 op:284,dt:50,nt:8,next:19659,str:61882,d0:19657,d1:45117;
+                    (____, BuiltinInvocation<Entity> @:19656 op:284,dt:50,nt:8,next:19659,str:61882,d0:19657,d1:45117;
                         ("ai_get_object", Expression<MethodOrOperator> @:19657 op:284,dt:2,nt:9,next:19658,str:2308,d0:0,d1:0;
                             ("qz_cov_def_soc/soc", Expression<AI> @:19658 op:19,dt:19,nt:9,next:65535,str:31155,d0:0,d1:49251;)))
                     (True, Expression<Boolean> @:19659 op:5,dt:5,nt:9,next:65535,str:61917,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:19660 op:334,dt:4,nt:8,next:19664,str:61925,d0:19661,d1:45121;
+            (____, BuiltinInvocation<Void> @:19660 op:334,dt:4,nt:8,next:19664,str:61925,d0:19661,d1:45121;
                 ("ai_set_orders", Expression<MethodOrOperator> @:19661 op:334,dt:2,nt:9,next:19662,str:17159,d0:0,d1:0;
                     ("covenant", Expression<AI> @:19662 op:19,dt:19,nt:9,next:19663,str:1381,d0:4,d1:16384;
                         ("qz_cov_def_cov_ac", Expression<AIOrders> @:19663 op:23,dt:23,nt:9,next:65535,str:27310,d0:93,d1:0;))))
-            (____, Scope<Void> @:19664 op:21,dt:4,nt:8,next:19672,str:61972,d0:19665,d1:45125;
+            (____, BuiltinInvocation<Void> @:19664 op:21,dt:4,nt:8,next:19672,str:61972,d0:19665,d1:45125;
                 ("sleep_until", Expression<MethodOrOperator> @:19665 op:21,dt:2,nt:9,next:19666,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:19666 op:18,dt:5,nt:8,next:65535,str:61985,d0:19667,d1:45127;
+                    (____, BuiltinInvocation<Boolean> @:19666 op:18,dt:5,nt:8,next:65535,str:61985,d0:19667,d1:45127;
                         ("<=", Expression<MethodOrOperator> @:19667 op:18,dt:2,nt:9,next:19668,str:16255,d0:0,d1:0;
-                            (____, Scope<Short> @:19668 op:327,dt:7,nt:8,next:19671,str:61989,d0:19669,d1:45129;
+                            (____, BuiltinInvocation<Short> @:19668 op:327,dt:7,nt:8,next:19671,str:61989,d0:19669,d1:45129;
                                 ("ai_living_count", Expression<MethodOrOperator> @:19669 op:327,dt:2,nt:9,next:19670,str:18161,d0:0,d1:0;
                                     ("qz_cov_def_flood", Expression<AI> @:19670 op:19,dt:19,nt:9,next:65535,str:27013,d0:25,d1:16384;)))
                             (0, Expression<Short> @:19671 op:7,dt:7,nt:9,next:65535,str:62024,d0:0,d1:65535;)))))
-            (____, Scope<Void> @:19672 op:334,dt:4,nt:8,next:19676,str:62030,d0:19673,d1:45133;
+            (____, BuiltinInvocation<Void> @:19672 op:334,dt:4,nt:8,next:19676,str:62030,d0:19673,d1:45133;
                 ("ai_set_orders", Expression<MethodOrOperator> @:19673 op:334,dt:2,nt:9,next:19674,str:17159,d0:0,d1:0;
                     ("covenant", Expression<AI> @:19674 op:19,dt:19,nt:9,next:19675,str:1381,d0:4,d1:16384;
                         ("qz_cov_def_hill", Expression<AIOrders> @:19675 op:23,dt:23,nt:9,next:65535,str:27054,d0:87,d1:0;))))
-            (____, Scope<Void> @:19676 op:19,dt:4,nt:8,next:19679,str:62073,d0:19677,d1:45137;
+            (____, BuiltinInvocation<Void> @:19676 op:19,dt:4,nt:8,next:19679,str:62073,d0:19677,d1:45137;
                 ("sleep", Expression<MethodOrOperator> @:19677 op:19,dt:2,nt:9,next:19678,str:80,d0:0,d1:0;
                     (1, Expression<Short> @:19678 op:7,dt:7,nt:9,next:65535,str:62080,d0:1,d1:65535;)))
-            (____, Scope<Void> @:19679 op:22,dt:4,nt:8,next:19682,str:62085,d0:19680,d1:45140;
+            (____, BuiltinInvocation<Void> @:19679 op:22,dt:4,nt:8,next:19682,str:62085,d0:19680,d1:45140;
                 ("wake", Expression<MethodOrOperator> @:19680 op:22,dt:2,nt:9,next:19681,str:1066,d0:0,d1:0;
                     ("sc_qz_cov_camp", Expression<ScriptReference> @:19681 op:10,dt:10,nt:9,next:65535,str:31174,d0:178,d1:65535;)))
-            (____, Scope<Void> @:19682 op:21,dt:4,nt:8,next:19685,str:62111,d0:19683,d1:45143;
+            (____, BuiltinInvocation<Void> @:19682 op:21,dt:4,nt:8,next:19685,str:62111,d0:19683,d1:45143;
                 ("sleep_until", Expression<MethodOrOperator> @:19683 op:21,dt:2,nt:9,next:19684,str:231,d0:0,d1:0;
                     ("g_qz_cov_camp_progress", VariableAccess<Boolean> @:19684 op:5,dt:5,nt:13,next:65535,str:15028,d0:37,d1:0;)))
-            (____, Scope<Void> @:19685 op:22,dt:4,nt:8,next:19688,str:62150,d0:19686,d1:45146;
+            (____, BuiltinInvocation<Void> @:19685 op:22,dt:4,nt:8,next:19688,str:62150,d0:19686,d1:45146;
                 ("wake", Expression<MethodOrOperator> @:19686 op:22,dt:2,nt:9,next:19687,str:1066,d0:0,d1:0;
                     ("ai_qz_cov_def_flood_spawn", Expression<ScriptReference> @:19687 op:10,dt:10,nt:9,next:65535,str:31189,d0:356,d1:65535;)))
-            (____, Scope<Void> @:19688 op:22,dt:4,nt:8,next:19691,str:62185,d0:19689,d1:45149;
+            (____, BuiltinInvocation<Void> @:19688 op:22,dt:4,nt:8,next:19691,str:62185,d0:19689,d1:45149;
                 ("wake", Expression<MethodOrOperator> @:19689 op:22,dt:2,nt:9,next:19690,str:1066,d0:0,d1:0;
                     ("ai_qz_cov_def_carrier", Expression<ScriptReference> @:19690 op:10,dt:10,nt:9,next:65535,str:31215,d0:357,d1:65535;)))
-            (____, Scope<Void> @:19691 op:19,dt:4,nt:8,next:19694,str:62216,d0:19692,d1:45152;
+            (____, BuiltinInvocation<Void> @:19691 op:19,dt:4,nt:8,next:19694,str:62216,d0:19692,d1:45152;
                 ("sleep", Expression<MethodOrOperator> @:19692 op:19,dt:2,nt:9,next:19693,str:80,d0:0,d1:0;
                     (1, Expression<Short> @:19693 op:7,dt:7,nt:9,next:65535,str:62223,d0:1,d1:65535;)))
-            (____, Scope<Void> @:19694 op:21,dt:4,nt:8,next:19700,str:62231,d0:19695,d1:45155;
+            (____, BuiltinInvocation<Void> @:19694 op:21,dt:4,nt:8,next:19700,str:62231,d0:19695,d1:45155;
                 ("sleep_until", Expression<MethodOrOperator> @:19695 op:21,dt:2,nt:9,next:19696,str:231,d0:0,d1:0;
-                    (____, Scope<Boolean> @:19696 op:13,dt:5,nt:8,next:65535,str:62244,d0:19697,d1:45157;
+                    (____, BuiltinInvocation<Boolean> @:19696 op:13,dt:5,nt:8,next:65535,str:62244,d0:19697,d1:45157;
                         ("=", Expression<MethodOrOperator> @:19697 op:13,dt:2,nt:9,next:19698,str:296,d0:0,d1:0;
                             ("g_qz_cov_def_spawn", VariableAccess<Boolean> @:19698 op:0,dt:5,nt:13,next:19699,str:27371,d0:114,d1:0;
                                 (False, Expression<Boolean> @:19699 op:5,dt:5,nt:9,next:65535,str:62266,d0:65280,d1:65535;))))))
-            (____, Scope<Void> @:19700 op:2,dt:4,nt:8,next:19706,str:62272,d0:19701,d1:45161;
+            (____, BuiltinInvocation<Void> @:19700 op:2,dt:4,nt:8,next:19706,str:62272,d0:19701,d1:45161;
                 ("if", Expression<MethodOrOperator> @:19701 op:2,dt:2,nt:9,next:19702,str:456,d0:0,d1:0;
                     ("debug", VariableAccess<Boolean> @:19702 op:5,dt:5,nt:13,next:19703,str:11238,d0:3,d1:0;
-                        (____, Scope<Void> @:19703 op:27,dt:4,nt:8,next:65535,str:62282,d0:19704,d1:45164;
+                        (____, BuiltinInvocation<Void> @:19703 op:27,dt:4,nt:8,next:65535,str:62282,d0:19704,d1:45164;
                             ("print", Expression<MethodOrOperator> @:19704 op:27,dt:2,nt:9,next:19705,str:86,d0:0,d1:0;
                                 ("last of the flood waves have spawned", Expression<String> @:19705 op:9,dt:9,nt:9,next:65535,str:31237,d0:31237,d1:0;))))))
-            (____, Scope<Void> @:19706 op:19,dt:4,nt:8,next:19712,str:62332,d0:19707,d1:45167;
+            (____, BuiltinInvocation<Void> @:19706 op:19,dt:4,nt:8,next:19712,str:62332,d0:19707,d1:45167;
                 ("sleep", Expression<MethodOrOperator> @:19707 op:19,dt:2,nt:9,next:19708,str:80,d0:0,d1:0;
-                    (____, Scope<Short> @:19708 op:9,dt:7,nt:8,next:65535,str:62339,d0:19709,d1:45169;
+                    (____, BuiltinInvocation<Short> @:19708 op:9,dt:7,nt:8,next:65535,str:62339,d0:19709,d1:45169;
                         ("*", Expression<MethodOrOperator> @:19709 op:9,dt:2,nt:9,next:19710,str:981,d0:0,d1:0;
                             (30f, Expression<Float> @:19710 op:6,dt:6,nt:9,next:19711,str:62342,d0:0,d1:16880;
                                 (5f, Expression<Float> @:19711 op:6,dt:6,nt:9,next:65535,str:62345,d0:0,d1:16544;))))))
-            (____, Scope<Void> @:19712 op:589,dt:4,nt:8,next:19714,str:62351,d0:19713,d1:45173;
+            (____, BuiltinInvocation<Void> @:19712 op:589,dt:4,nt:8,next:19714,str:62351,d0:19713,d1:45173;
                 ("game_save_no_timeout", Expression<MethodOrOperator> @:19713 op:589,dt:2,nt:9,next:65535,str:13183,d0:0,d1:0;))
-            (____, Scope<Void> @:19714 op:305,dt:4,nt:8,next:19718,str:62376,d0:19715,d1:45175;
+            (____, BuiltinInvocation<Void> @:19714 op:305,dt:4,nt:8,next:19718,str:62376,d0:19715,d1:45175;
                 ("ai_magically_see", Expression<MethodOrOperator> @:19715 op:305,dt:2,nt:9,next:19716,str:27662,d0:0,d1:0;
                     ("covenant", Expression<AI> @:19716 op:19,dt:19,nt:9,next:19717,str:1381,d0:4,d1:16384;
                         ("flood", Expression<AI> @:19717 op:19,dt:19,nt:9,next:65535,str:27679,d0:3,d1:16384;))))
-            (____, Scope<Void> @:19718 op:2,dt:4,nt:8,next:19724,str:62414,d0:19719,d1:45179;
+            (____, BuiltinInvocation<Void> @:19718 op:2,dt:4,nt:8,next:19724,str:62414,d0:19719,d1:45179;
                 ("if", Expression<MethodOrOperator> @:19719 op:2,dt:2,nt:9,next:19720,str:456,d0:0,d1:0;
                     ("debug", VariableAccess<Boolean> @:19720 op:5,dt:5,nt:13,next:19721,str:11238,d0:3,d1:0;
-                        (____, Scope<Void> @:19721 op:27,dt:4,nt:8,next:65535,str:62424,d0:19722,d1:45182;
+                        (____, BuiltinInvocation<Void> @:19721 op:27,dt:4,nt:8,next:65535,str:62424,d0:19722,d1:45182;
                             ("print", Expression<MethodOrOperator> @:19722 op:27,dt:2,nt:9,next:19723,str:86,d0:0,d1:0;
                                 ("phantom placed...", Expression<String> @:19723 op:9,dt:9,nt:9,next:65535,str:31274,d0:31274,d1:0;))))))
-            (____, Scope<Void> @:19724 op:290,dt:4,nt:8,next:19727,str:62455,d0:19725,d1:45185;
+            (____, BuiltinInvocation<Void> @:19724 op:290,dt:4,nt:8,next:19727,str:62455,d0:19725,d1:45185;
                 ("ai_place", Expression<MethodOrOperator> @:19725 op:290,dt:2,nt:9,next:19726,str:1415,d0:0,d1:0;
                     ("qz_phantom", Expression<AI> @:19726 op:19,dt:19,nt:9,next:65535,str:31292,d0:107,d1:0;)))
-            (____, Scope<Void> @:19727 op:22,dt:4,nt:8,next:65535,str:62670,d0:19728,d1:45188;
+            (____, BuiltinInvocation<Void> @:19727 op:22,dt:4,nt:8,next:65535,str:62670,d0:19728,d1:45188;
                 ("wake", Expression<MethodOrOperator> @:19728 op:22,dt:2,nt:9,next:19729,str:1066,d0:0,d1:0;
                     ("you_win", Expression<ScriptReference> @:19729 op:10,dt:10,nt:9,next:65535,str:31303,d0:358,d1:65535;))))))

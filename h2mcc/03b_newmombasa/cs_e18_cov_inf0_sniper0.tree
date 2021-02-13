@@ -1,18 +1,18 @@
 
 ("cs_e18_cov_inf0_sniper0", MethodDecl<Void> @:343 op:0,dt:0,nt:65535,next:12168,str:65535,d0:0,d1:0;
-    (____, Scope<Void> @:12168 op:0,dt:4,nt:8,next:65535,str:27040,d0:12169,d1:37629;
+    (____, BuiltinInvocation<Void> @:12168 op:0,dt:4,nt:8,next:65535,str:27040,d0:12169,d1:37629;
         ("begin", Expression<MethodOrOperator> @:12169 op:0,dt:2,nt:9,next:12154,str:6,d0:0,d1:0;
-            (____, Scope<Void> @:12154 op:440,dt:4,nt:8,next:12157,str:27089,d0:12155,d1:37615;
+            (____, BuiltinInvocation<Void> @:12154 op:440,dt:4,nt:8,next:12157,str:27089,d0:12155,d1:37615;
                 ("cs_abort_on_damage", Expression<MethodOrOperator> @:12155 op:440,dt:2,nt:9,next:12156,str:16394,d0:0,d1:0;
                     (True, Expression<Boolean> @:12156 op:5,dt:5,nt:9,next:65535,str:27109,d0:65281,d1:65535;)))
-            (____, Scope<Void> @:12157 op:441,dt:4,nt:8,next:12160,str:27117,d0:12158,d1:37618;
+            (____, BuiltinInvocation<Void> @:12157 op:441,dt:4,nt:8,next:12160,str:27117,d0:12158,d1:37618;
                 ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:12158 op:441,dt:2,nt:9,next:12159,str:22358,d0:0,d1:0;
                     ("ai_combat_status_dangerous", VariableAccess<Short> @:12159 op:7,dt:7,nt:13,next:65535,str:25564,d0:33580,d1:65535;)))
-            (____, Scope<Void> @:12160 op:398,dt:4,nt:8,next:12166,str:27174,d0:12161,d1:37621;
+            (____, BuiltinInvocation<Void> @:12160 op:398,dt:4,nt:8,next:12166,str:27174,d0:12161,d1:37621;
                 ("cs_aim_object", Expression<MethodOrOperator> @:12161 op:398,dt:2,nt:9,next:12162,str:25591,d0:0,d1:0;
                     (True, Expression<Boolean> @:12162 op:5,dt:5,nt:9,next:12163,str:27189,d0:65281,d1:65535;
-                        (____, Scope<Entity> @:12163 op:340,dt:50,nt:8,next:65535,str:27194,d0:12164,d1:37624;
+                        (____, BuiltinInvocation<Entity> @:12163 op:340,dt:50,nt:8,next:65535,str:27194,d0:12164,d1:37624;
                             ("ai_vehicle_get", Expression<MethodOrOperator> @:12164 op:340,dt:2,nt:9,next:12165,str:15490,d0:0,d1:0;
                                 ("e18_mars_warthog0/warthog0", Expression<AI> @:12165 op:19,dt:19,nt:9,next:65535,str:25537,d0:0,d1:49195;))))))
-            (____, Scope<Void> @:12166 op:20,dt:4,nt:8,next:65535,str:27241,d0:12167,d1:37627;
+            (____, BuiltinInvocation<Void> @:12166 op:20,dt:4,nt:8,next:65535,str:27241,d0:12167,d1:37627;
                 ("sleep_forever", Expression<MethodOrOperator> @:12167 op:20,dt:2,nt:9,next:65535,str:13964,d0:0,d1:0;)))))
