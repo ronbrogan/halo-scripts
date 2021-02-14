@@ -2370,7 +2370,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(195, Lifecycle.Static)]
         public async Task lz_phantom_01_blows()
         {
-            Engine.cs_run_command_script(LZ_phantom_01.pilot, lz_phantom_01_crash);
+            Engine.cs_run_command_script(LZ_phantom_01.pilot, new ScriptMethodReference(lz_phantom_01_crash));
             Engine.begin_random(async () => Engine.effect_new_on_object_marker(this.phantom_boom, Engine.ai_vehicle_get_from_starting_location(LZ_phantom_01.pilot), "phantom_p"), 
                 async () => await Engine.sleep((short)Engine.random_range(10, 60)), 
                 async () => Engine.print("."), 
@@ -2420,7 +2420,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
 
             Engine.ai_place(LZ_turrets_01.Squad);
             Engine.ai_set_blind(LZ_turrets_01.Squad, true);
-            Engine.cs_run_command_script(LZ_turrets_01.Squad, stay_shooting);
+            Engine.cs_run_command_script(LZ_turrets_01.Squad, new ScriptMethodReference(stay_shooting));
             this.lz_turret_count = (short)(this.lz_turret_count - 1);
             Engine.begin_random(async () =>
             {
@@ -2428,7 +2428,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     Engine.ai_place(LZ_turrets_02.Squad);
                     Engine.ai_set_blind(LZ_turrets_02.Squad, true);
-                    Engine.cs_run_command_script(LZ_turrets_02.Squad, stay_shooting);
+                    Engine.cs_run_command_script(LZ_turrets_02.Squad, new ScriptMethodReference(stay_shooting));
                     this.lz_turret_count = (short)(this.lz_turret_count - 1);
                 }
             }, 
@@ -2438,7 +2438,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     Engine.ai_place(LZ_turrets_03.Squad);
                     Engine.ai_set_blind(LZ_turrets_03.Squad, true);
-                    Engine.cs_run_command_script(LZ_turrets_03.Squad, stay_shooting);
+                    Engine.cs_run_command_script(LZ_turrets_03.Squad, new ScriptMethodReference(stay_shooting));
                     this.lz_turret_count = (short)(this.lz_turret_count - 1);
                 }
             }, 
@@ -2448,7 +2448,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     Engine.ai_place(LZ_turrets_04.Squad);
                     Engine.ai_set_blind(LZ_turrets_04.Squad, true);
-                    Engine.cs_run_command_script(LZ_turrets_04.Squad, stay_shooting);
+                    Engine.cs_run_command_script(LZ_turrets_04.Squad, new ScriptMethodReference(stay_shooting));
                     this.lz_turret_count = (short)(this.lz_turret_count - 1);
                 }
             });
@@ -2621,7 +2621,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task lz_pelican()
         {
             Engine.ai_place(LZ_pelican_02.Squad);
-            Engine.cs_run_command_script(LZ_pelican_02.pilot, other_lz_pelican);
+            Engine.cs_run_command_script(LZ_pelican_02.pilot, new ScriptMethodReference(other_lz_pelican));
             await Engine.sleep(120);
             Engine.ai_place(allies_lz_pelican.Squad, (short)(2 - (float)Engine.ai_living_count(all_allies)));
             Engine.ai_place(LZ_pelican_01.Squad);
@@ -2630,12 +2630,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(LZ_pelican_01.pilot), "pelican_p", Engine.ai_actors(allies_lz_pelican.Squad));
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(LZ_pelican_01.pilot), "pelican_lc", Engine.ai_vehicle_get_from_starting_location(LZ_warthog_01.driver));
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(LZ_pelican_01.pilot), true);
-            Engine.cs_run_command_script(LZ_pelican_01.pilot, lz_pelican_arrives);
+            Engine.cs_run_command_script(LZ_pelican_01.pilot, new ScriptMethodReference(lz_pelican_arrives));
             Engine.ai_set_orders(LZ_allies, allies_lz_all);
             await Engine.sleep_until(async () => this.lz_pelican_in_sight == true);
             if (this.lz_pelican_arrived == false)
             {
-                await Engine.sleep_until(async () => Engine.ai_scene("lz_pelican_sighted_scene", lz_pelican_sighted, LZ_allies) || (short)Engine.ai_living_count(allies_lz_ledge.Squad) < 1 && (short)Engine.ai_living_count(allies_lz_ridge.Squad) < 1, 30, 150);
+                await Engine.sleep_until(async () => Engine.ai_scene("lz_pelican_sighted_scene", new ScriptMethodReference(lz_pelican_sighted), LZ_allies) || (short)Engine.ai_living_count(allies_lz_ledge.Squad) < 1 && (short)Engine.ai_living_count(allies_lz_ridge.Squad) < 1, 30, 150);
                 await Engine.sleep(150);
                 if (this.ride_ally_comment_go == false)
                 {
@@ -2665,7 +2665,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => this.lz_pelican_arrived == true);
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(LZ_warthog_01.driver), true);
             Engine.ai_set_orders(LZ_allies, allies_lz_hogs);
-            Engine.ai_scene("lz_saddle_up_scene", lz_saddle_up, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+            Engine.ai_scene("lz_saddle_up_scene", new ScriptMethodReference(lz_saddle_up), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
             ;
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_lz_all, Engine.players()) == false && await this.player_count() > 0 || Engine.vehicle_test_seat_list(Engine.ai_vehicle_get_from_starting_location(LZ_warthog_01.driver), "warthog_d", await this.player0()) || Engine.vehicle_test_seat_list(Engine.ai_vehicle_get_from_starting_location(LZ_warthog_01.driver), "warthog_p", await this.player0()) || Engine.vehicle_test_seat_list(Engine.ai_vehicle_get_from_starting_location(LZ_warthog_01.driver), "warthog_g", await this.player0()) && Engine.vehicle_test_seat_list(Engine.ai_vehicle_get_from_starting_location(LZ_warthog_01.driver), "warthog_d", await this.player1()) || Engine.vehicle_test_seat_list(Engine.ai_vehicle_get_from_starting_location(LZ_warthog_01.driver), "warthog_p", await this.player1()) || Engine.vehicle_test_seat_list(Engine.ai_vehicle_get_from_starting_location(LZ_warthog_01.driver), "warthog_g", await this.player1()) || (bool)Engine.game_is_cooperative() == false);
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(LZ_warthog_01.driver), false);
@@ -2678,7 +2678,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task short_lz_pel()
         {
             Engine.ai_place(LZ_pelican_02.Squad);
-            Engine.cs_run_command_script(LZ_pelican_02.pilot, other_lz_pelican);
+            Engine.cs_run_command_script(LZ_pelican_02.pilot, new ScriptMethodReference(other_lz_pelican));
             await Engine.sleep(120);
             Engine.ai_place(allies_lz_pelican.Squad, (short)(4 - (float)Engine.ai_living_count(all_allies)));
             Engine.ai_place(LZ_pelican_01.Squad);
@@ -2686,13 +2686,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_cannot_take_damage(Engine.ai_vehicle_get_from_starting_location(LZ_pelican_01.pilot));
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(LZ_pelican_01.pilot), "pelican_p", Engine.ai_actors(allies_lz_pelican.Squad));
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(LZ_pelican_01.pilot), "pelican_lc", Engine.ai_vehicle_get_from_starting_location(LZ_warthog_01.driver));
-            Engine.cs_run_command_script(LZ_pelican_01.pilot, lz_pelican_arrives);
+            Engine.cs_run_command_script(LZ_pelican_01.pilot, new ScriptMethodReference(lz_pelican_arrives));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(LZ_enemies_all) > 1);
             Engine.ai_set_orders(LZ_allies, allies_lz_all);
             await Engine.sleep_until(async () => this.lz_pelican_in_sight == true);
             if (this.lz_pelican_arrived == false)
             {
-                await Engine.sleep_until(async () => Engine.ai_scene("lz_pelican_sighted_scene", lz_pelican_sighted, LZ_allies) || (short)Engine.ai_living_count(allies_lz_ledge.Squad) < 1 && (short)Engine.ai_living_count(allies_lz_ridge.Squad) < 1, 30, 150);
+                await Engine.sleep_until(async () => Engine.ai_scene("lz_pelican_sighted_scene", new ScriptMethodReference(lz_pelican_sighted), LZ_allies) || (short)Engine.ai_living_count(allies_lz_ledge.Squad) < 1 && (short)Engine.ai_living_count(allies_lz_ridge.Squad) < 1, 30, 150);
                 await Engine.sleep(150);
                 if (this.ride_ally_comment_go == false)
                 {
@@ -2721,7 +2721,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_dialogue_enable(true);
             await Engine.sleep_until(async () => this.lz_pelican_arrived == true);
             Engine.ai_set_orders(LZ_allies, allies_lz_hogs);
-            Engine.ai_scene("lz_saddle_up_scene", lz_saddle_up, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+            Engine.ai_scene("lz_saddle_up_scene", new ScriptMethodReference(lz_saddle_up), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
             ;
             Engine.ai_enter_squad_vehicles(all_allies);
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(LZ_warthog_01.Squad) > 1);
@@ -2780,7 +2780,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(LZ_enemies_turrets) < 1);
             Engine.print("all turrets down");
             this.turrets_down = true;
-            await Engine.sleep_until(async () => Engine.ai_scene("lz_turrets_down_scene", odst_turrets_down, all_allies) || (short)Engine.ai_living_count(all_allies) < 1, 30, 600);
+            await Engine.sleep_until(async () => Engine.ai_scene("lz_turrets_down_scene", new ScriptMethodReference(odst_turrets_down), all_allies) || (short)Engine.ai_living_count(all_allies) < 1, 30, 600);
         }
 
         [ScriptMethod(212, Lifecycle.Dormant)]
@@ -2936,7 +2936,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(LZ_phantom_01.pilot), "phantom_p", Engine.ai_actors(LZ_jackals_phantom_01.Squad));
             await Engine.sleep(15);
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(LZ_phantom_01.pilot), true);
-            Engine.cs_run_command_script(LZ_phantom_01.pilot, lz_phantom_arrives_01);
+            Engine.cs_run_command_script(LZ_phantom_01.pilot, new ScriptMethodReference(lz_phantom_arrives_01));
             await Engine.sleep(210);
             Engine.print("saving");
             Engine.game_save();
@@ -2969,7 +2969,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(LZ_phantom_02.pilot), "phantom_p", Engine.ai_actors(LZ_grunts_phantom_02.Squad));
             await Engine.sleep(15);
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(LZ_phantom_02.pilot), true);
-            Engine.cs_run_command_script(LZ_phantom_02.pilot, lz_phantom_arrives_02);
+            Engine.cs_run_command_script(LZ_phantom_02.pilot, new ScriptMethodReference(lz_phantom_arrives_02));
             await Engine.sleep(150);
             Engine.print("saving");
             Engine.game_save();
@@ -2988,7 +2988,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(LZ_phantom_01.pilot), "phantom_p_a03", Engine.ai_actors(LZ_stealth_phantom_03._3));
             await Engine.sleep(15);
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(LZ_phantom_01.pilot), true);
-            Engine.cs_run_command_script(LZ_phantom_01.pilot, lz_phantom_arrives_03);
+            Engine.cs_run_command_script(LZ_phantom_01.pilot, new ScriptMethodReference(lz_phantom_arrives_03));
             await Engine.sleep(210);
             Engine.print("saving");
             Engine.game_save();
@@ -3022,7 +3022,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(LZ_phantom_02.pilot), "phantom_p", Engine.ai_actors(LZ_grunts_phantom_02.Squad));
             await Engine.sleep(15);
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(LZ_phantom_02.pilot), true);
-            Engine.cs_run_command_script(LZ_phantom_02.pilot, lz_phantom_arrives_02);
+            Engine.cs_run_command_script(LZ_phantom_02.pilot, new ScriptMethodReference(lz_phantom_arrives_02));
         }
 
         [ScriptMethod(221, Lifecycle.Dormant)]
@@ -3033,7 +3033,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.wake(new ScriptMethodReference(lz_turret_track));
             Engine.wake(new ScriptMethodReference(lz_turret_reminder));
             await Engine.sleep(5);
-            Engine.ai_scene("lz_intro_inform_scene", odst_warning, allies_lz_ledge.Squad) // Couldn't generate cast from 'Boolean' to 'Void'
+            Engine.ai_scene("lz_intro_inform_scene", new ScriptMethodReference(odst_warning), allies_lz_ledge.Squad) // Couldn't generate cast from 'Boolean' to 'Void'
             ;
             await Engine.sleep(120);
             Engine.ai_place(LZ_grunts_ledge.Squad, 3);
@@ -3261,7 +3261,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
 
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_overlook_pause, Engine.players()) == true);
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(overlook_jackals) < 1 || Engine.volume_test_objects(vol_bridge_all, Engine.players()) == true);
-            await Engine.sleep_until(async () => Engine.volume_test_objects(vol_bridge_all, Engine.players()) == true || Engine.ai_scene("overlook_remark_scene", overlook_remark, all_allies) || (short)Engine.ai_living_count(all_allies) < 1, 30, 300);
+            await Engine.sleep_until(async () => Engine.volume_test_objects(vol_bridge_all, Engine.players()) == true || Engine.ai_scene("overlook_remark_scene", new ScriptMethodReference(overlook_remark), all_allies) || (short)Engine.ai_living_count(all_allies) < 1, 30, 300);
         }
 
         [ScriptMethod(227, Lifecycle.Dormant)]
@@ -3298,7 +3298,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task bridge_wraith_warning()
         {
             await Engine.sleep(300);
-            await Engine.sleep_until(async () => Engine.ai_scene("bridge_wraith_warn_scene", bridge_wraith_warn, all_allies) || (short)Engine.ai_living_count(all_allies) < 1, 30, 150);
+            await Engine.sleep_until(async () => Engine.ai_scene("bridge_wraith_warn_scene", new ScriptMethodReference(bridge_wraith_warn), all_allies) || (short)Engine.ai_living_count(all_allies) < 1, 30, 150);
             await Engine.sleep(30);
             if (this.wraith_warning_go == false)
             {
@@ -3411,7 +3411,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(bridge_phantom_01.pilot), "phantom_lc", Engine.ai_vehicle_get_from_starting_location(bridge_phantom_ghosts_02._2));
             await Engine.sleep(60);
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(bridge_phantom_01.pilot), true);
-            Engine.cs_run_command_script(bridge_phantom_01.pilot, bridge_phantom_01a);
+            Engine.cs_run_command_script(bridge_phantom_01.pilot, new ScriptMethodReference(bridge_phantom_01a));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(bridge_phantom_01.Squad) < 1, 30, 8000);
             Engine.object_destroy(Engine.ai_vehicle_get_from_starting_location(bridge_phantom_01.pilot));
         }
@@ -3426,7 +3426,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(bridge_phantom_01.pilot), "phantom_lc", Engine.ai_vehicle_get_from_starting_location(bridge_phantom_ghosts_01._2));
             await Engine.sleep(60);
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(bridge_phantom_01.pilot), true);
-            Engine.cs_run_command_script(bridge_phantom_01.pilot, bridge_phantom_01b);
+            Engine.cs_run_command_script(bridge_phantom_01.pilot, new ScriptMethodReference(bridge_phantom_01b));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(bridge_phantom_01.Squad) < 1, 30, 8000);
             Engine.object_destroy(Engine.ai_vehicle_get_from_starting_location(bridge_phantom_01.pilot));
         }
@@ -3441,7 +3441,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(bridge_phantom_02.pilot), "phantom_lc", Engine.ai_vehicle_get_from_starting_location(bridge_phantom_ghosts_02._2));
             await Engine.sleep(60);
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(bridge_phantom_02.pilot), true);
-            Engine.cs_run_command_script(bridge_phantom_02.pilot, bridge_phantom_02a);
+            Engine.cs_run_command_script(bridge_phantom_02.pilot, new ScriptMethodReference(bridge_phantom_02a));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(bridge_phantom_01.Squad) < 1, 30, 8000);
             Engine.object_destroy(Engine.ai_vehicle_get_from_starting_location(bridge_phantom_01.pilot));
         }
@@ -3456,7 +3456,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(bridge_phantom_02.pilot), "phantom_lc", Engine.ai_vehicle_get_from_starting_location(bridge_phantom_ghosts_02._2));
             await Engine.sleep(60);
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(bridge_phantom_02.pilot), true);
-            Engine.cs_run_command_script(bridge_phantom_02.pilot, bridge_phantom_02b);
+            Engine.cs_run_command_script(bridge_phantom_02.pilot, new ScriptMethodReference(bridge_phantom_02b));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(bridge_phantom_01.Squad) < 1, 30, 8000);
             Engine.object_destroy(Engine.ai_vehicle_get_from_starting_location(bridge_phantom_01.pilot));
         }
@@ -3698,7 +3698,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task bridge_holo_translate()
         {
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(bridge_enemies_bunker) < 1 && Engine.volume_test_objects(vol_bunker_upper_level, Engine.players()) == true);
-            await Engine.sleep_until(async () => (short)Engine.ai_living_count(all_allies) < 1 || Engine.ai_scene("bridge_holo_scene", bridge_holo_comment, all_allies), 30, 300);
+            await Engine.sleep_until(async () => (short)Engine.ai_living_count(all_allies) < 1 || Engine.ai_scene("bridge_holo_scene", new ScriptMethodReference(bridge_holo_comment), all_allies), 30, 300);
             await Engine.sleep(30);
             if (this.regret_ally_comment_go == false && Engine.volume_test_objects(vol_bunker_upper_level, Engine.players()) == true)
             {
@@ -3981,7 +3981,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(bridge_pelican.pilot), "pelican_lc", Engine.ai_vehicle_get_from_starting_location(bridge_tank1.driver));
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(bridge_pelican.pilot), true);
             Engine.ai_vehicle_reserve_seat(Engine.ai_vehicle_get_from_starting_location(bridge_tank1.driver), "scorpion_d", true);
-            Engine.cs_run_command_script(bridge_pelican.pilot, gimme_tank);
+            Engine.cs_run_command_script(bridge_pelican.pilot, new ScriptMethodReference(gimme_tank));
         }
 
         [ScriptMethod(259, Lifecycle.Static)]
@@ -3994,7 +3994,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(bridge_pelican.pilot), "pelican_p", Engine.ai_actors(allies_bridge_pelican.Squad));
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(bridge_pelican.pilot), "pelican_lc", Engine.ai_vehicle_get_from_starting_location(bridge_tank1.driver));
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(bridge_pelican.pilot), true);
-            Engine.cs_run_command_script(bridge_pelican.pilot, gimme_tank);
+            Engine.cs_run_command_script(bridge_pelican.pilot, new ScriptMethodReference(gimme_tank));
         }
 
         [ScriptMethod(260, Lifecycle.Dormant)]
@@ -4009,13 +4009,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             if (Engine.volume_test_objects(vol_winding_path, Engine.players()) == false && await this.difficulty_normal() || await this.difficulty_heroic())
             {
                 Engine.ai_place(bridge_banshees.Squad, 1);
-                Engine.cs_run_command_script(bridge_banshees.Squad, banshee_boost);
+                Engine.cs_run_command_script(bridge_banshees.Squad, new ScriptMethodReference(banshee_boost));
             }
 
             if (await this.difficulty_legendary() && Engine.volume_test_objects(vol_winding_path, Engine.players()) == false)
             {
                 Engine.ai_place(bridge_banshees.Squad, 2);
-                Engine.cs_run_command_script(bridge_banshees.Squad, banshee_boost);
+                Engine.cs_run_command_script(bridge_banshees.Squad, new ScriptMethodReference(banshee_boost));
             }
 
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(bridge_banshees.Squad) < 1 || Engine.volume_test_objects(vol_winding_path, Engine.players()) == true);
@@ -4027,13 +4027,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             if (Engine.volume_test_objects(vol_winding_path, Engine.players()) == false && await this.difficulty_normal() || await this.difficulty_heroic())
             {
                 Engine.ai_place(bridge_banshees.Squad, 1);
-                Engine.cs_run_command_script(bridge_banshees.Squad, banshee_boost);
+                Engine.cs_run_command_script(bridge_banshees.Squad, new ScriptMethodReference(banshee_boost));
             }
 
             if (await this.difficulty_legendary() && Engine.volume_test_objects(vol_winding_path, Engine.players()) == false)
             {
                 Engine.ai_place(bridge_banshees.Squad, 2);
-                Engine.cs_run_command_script(bridge_banshees.Squad, banshee_boost);
+                Engine.cs_run_command_script(bridge_banshees.Squad, new ScriptMethodReference(banshee_boost));
             }
         }
 
@@ -4099,8 +4099,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.wake(new ScriptMethodReference(bunker_holo_looper));
             Engine.ai_place(bridge_bunker_ghosts.Squad);
             Engine.ai_place(bridge_ghost_elites.Squad, 2);
-            Engine.cs_run_command_script(bridge_ghost_elites.r, bridge_ghostman_r);
-            Engine.cs_run_command_script(bridge_ghost_elites.l, bridge_ghostman_l);
+            Engine.cs_run_command_script(bridge_ghost_elites.r, new ScriptMethodReference(bridge_ghostman_r));
+            Engine.cs_run_command_script(bridge_ghost_elites.l, new ScriptMethodReference(bridge_ghostman_l));
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(bridge_bunker_ghosts.l), true);
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(bridge_bunker_ghosts.r), true);
             await Engine.sleep(15);
@@ -4119,7 +4119,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.ai_place(bridge_bunker_turrets.Squad, 2);
             }
 
-            Engine.cs_run_command_script(bridge_bunker_turrets.Squad, stay_shooting);
+            Engine.cs_run_command_script(bridge_bunker_turrets.Squad, new ScriptMethodReference(stay_shooting));
             await Engine.sleep(15);
             Engine.wake(new ScriptMethodReference(crack_spawn));
             Engine.wake(new ScriptMethodReference(bunker_upper_spawn_03));
@@ -4136,7 +4136,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.device_group_change_only_once_more_set(da_bridge1, true);
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_bridge_engage, Engine.players()) == true);
             Engine.ai_place(bridge_farside_wraiths.Squad, 1);
-            Engine.cs_run_command_script(bridge_farside_wraiths.Squad, bridge_wraith_engage);
+            Engine.cs_run_command_script(bridge_farside_wraiths.Squad, new ScriptMethodReference(bridge_wraith_engage));
             Engine.wake(new ScriptMethodReference(bridge_wraith_warning));
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_bridge_inside_bunker, Engine.players()) == true);
             Engine.sleep_forever(new ScriptMethodReference(bridge_ghosts_by_phantom));
@@ -4162,7 +4162,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             }
 
             Engine.wake(new ScriptMethodReference(bridge_cross_reminder));
-            await Engine.sleep_until(async () => Engine.ai_scene("bridge_ally_scene", bridge_ally_comment, all_allies) || (short)Engine.ai_living_count(bridge_allies) < 1, 30, 150);
+            await Engine.sleep_until(async () => Engine.ai_scene("bridge_ally_scene", new ScriptMethodReference(bridge_ally_comment), all_allies) || (short)Engine.ai_living_count(bridge_allies) < 1, 30, 150);
             await Engine.sleep(150);
             if (this.bridge_ally_comment_go == false)
             {
@@ -4253,7 +4253,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (this.w_path_turret_count > 0)
                 {
                     Engine.ai_place(w_path_heavies._0);
-                    Engine.cs_run_command_script(w_path_heavies._0, w_path_turret_0);
+                    Engine.cs_run_command_script(w_path_heavies._0, new ScriptMethodReference(w_path_turret_0));
                     this.w_path_turret_count = (short)(this.w_path_turret_count - 1);
                 }
             }, 
@@ -4262,7 +4262,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (this.w_path_turret_count > 0)
                 {
                     Engine.ai_place(w_path_heavies._1);
-                    Engine.cs_run_command_script(w_path_heavies._1, w_path_turret_1);
+                    Engine.cs_run_command_script(w_path_heavies._1, new ScriptMethodReference(w_path_turret_1));
                     this.w_path_turret_count = (short)(this.w_path_turret_count - 1);
                 }
             }, 
@@ -4271,7 +4271,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (this.w_path_turret_count > 2)
                 {
                     Engine.ai_place(w_path_heavies._2);
-                    Engine.cs_run_command_script(w_path_heavies._0, w_path_turret_2);
+                    Engine.cs_run_command_script(w_path_heavies._0, new ScriptMethodReference(w_path_turret_2));
                     this.w_path_turret_count = (short)(this.w_path_turret_count - 1);
                 }
             });
@@ -4352,7 +4352,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.ai_place(winding_path_ledge_grunts.Squad, 3);
             }
 
-            Engine.cs_run_command_script(winding_path_ledge_grunts.Squad, throw_grenade);
+            Engine.cs_run_command_script(winding_path_ledge_grunts.Squad, new ScriptMethodReference(throw_grenade));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(winding_path_ghosts) < 1 && (short)Engine.ai_living_count(winding_path_grunts.Squad) < 1 && (short)Engine.ai_living_count(winding_path_jackals.Squad) < 1);
             Engine.game_save();
         }
@@ -4454,8 +4454,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task temple_ent_ghost_alert()
         {
             await Engine.sleep_until(async () => (short)Engine.ai_combat_status(temple_ent_elites_01r.Squad) > this.ai_combat_status_idle || (short)Engine.ai_combat_status(temple_ent_elites_01l.Squad) > this.ai_combat_status_idle);
-            Engine.cs_run_command_script(temple_ent_elites_01r.Squad, temple_ent_ghostman_r);
-            Engine.cs_run_command_script(temple_ent_elites_01l.Squad, temple_ent_ghostman_l);
+            Engine.cs_run_command_script(temple_ent_elites_01r.Squad, new ScriptMethodReference(temple_ent_ghostman_r));
+            Engine.cs_run_command_script(temple_ent_elites_01l.Squad, new ScriptMethodReference(temple_ent_ghostman_l));
         }
 
         [ScriptMethod(276, Lifecycle.Dormant)]
@@ -4607,7 +4607,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.wake(new ScriptMethodReference(temple_ent_reminder));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(temple_ent_enemies_all) < 1 || Engine.volume_test_objects(vol_tunnel_01, Engine.players()) == true);
             Engine.game_save();
-            await Engine.sleep_until(async () => (short)Engine.ai_living_count(all_allies) < 1 || Engine.ai_scene("temple_ent_scene", back_home_comment, all_allies), 30, 300);
+            await Engine.sleep_until(async () => (short)Engine.ai_living_count(all_allies) < 1 || Engine.ai_scene("temple_ent_scene", new ScriptMethodReference(back_home_comment), all_allies), 30, 300);
         }
 
         [ScriptMethod(280, Lifecycle.Dormant)]
@@ -4686,8 +4686,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.ai_place(tunnel_heavies_01.Squad, 2);
             }
 
-            Engine.cs_run_command_script(tunnel_heavies_01._0, tunnel_turret_0);
-            Engine.cs_run_command_script(tunnel_heavies_01._1, tunnel_turret_1);
+            Engine.cs_run_command_script(tunnel_heavies_01._0, new ScriptMethodReference(tunnel_turret_0));
+            Engine.cs_run_command_script(tunnel_heavies_01._1, new ScriptMethodReference(tunnel_turret_1));
             Engine.ai_place(tunnel_ghosts_01.Squad, (short)(2 - (float)Engine.ai_living_count(temple_ent_ghosts)));
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_tunnel_02, Engine.players()) == true, 30, (int)Engine.random_range(30, 90));
             if (Engine.volume_test_objects(vol_tunnel_02, Engine.players()) == false)
@@ -4707,8 +4707,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.ai_place(tunnel_heavies_02.Squad, 2);
             }
 
-            Engine.cs_run_command_script(tunnel_heavies_02._2, tunnel_turret_2);
-            Engine.cs_run_command_script(tunnel_heavies_02._3, tunnel_turret_3);
+            Engine.cs_run_command_script(tunnel_heavies_02._2, new ScriptMethodReference(tunnel_turret_2));
+            Engine.cs_run_command_script(tunnel_heavies_02._3, new ScriptMethodReference(tunnel_turret_3));
             Engine.ai_migrate(temple_ent_ghosts, tunnel_ghosts_02.Squad);
             Engine.ai_migrate(tunnel_ghosts_01.Squad, tunnel_ghosts_02.Squad);
             Engine.ai_place(tunnel_ghosts_02.Squad, (short)(2 - (float)Engine.ai_living_count(tunnel_ghosts)));
@@ -4720,7 +4720,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
 
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_tunnel_03, Engine.players()) == true || (short)Engine.ai_living_count(tunnel_ghosts) < 1 && (short)Engine.ai_living_count(tunnel_infantry) < 1);
             Engine.game_save();
-            await Engine.sleep_until(async () => Engine.ai_scene("old_temple_scene", old_temple_structure_comment, all_allies) || (short)Engine.ai_living_count(all_allies) < 1, 30, 150);
+            await Engine.sleep_until(async () => Engine.ai_scene("old_temple_scene", new ScriptMethodReference(old_temple_structure_comment), all_allies) || (short)Engine.ai_living_count(all_allies) < 1, 30, 150);
             await Engine.sleep(30);
             if (this.structure_comment_go == false)
             {
@@ -4740,7 +4740,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_create(envy);
             Engine.ai_place(envy_elites.Squad);
             Engine.ai_set_active_camo(envy_elites.Squad, true);
-            Engine.cs_run_command_script(envy_elites.Squad, forever_pause);
+            Engine.cs_run_command_script(envy_elites.Squad, new ScriptMethodReference(forever_pause));
             Engine.custom_animation_loop(Engine.unit(Engine.list_get(Engine.ai_actors(envy_elites.Squad), 0)), Engine.GetTag<AnimationGraphTag>("objects\\characters\\elite\\elite", 4194441168U), "combat:rifle:berserk", true);
             Engine.custom_animation_loop(Engine.unit(Engine.list_get(Engine.ai_actors(envy_elites.Squad), 1)), Engine.GetTag<AnimationGraphTag>("objects\\characters\\elite\\elite", 4194441168U), "combat:rifle:berserk", true);
             await Engine.sleep_until(async () => Engine.unit_has_weapon(Engine.unit(await this.player0()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head_sp.weapon", 4162655741U)) || Engine.unit_has_weapon(Engine.unit(await this.player1()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head_sp.weapon", 4162655741U)));
@@ -4855,7 +4855,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.objects_attach(rack.Entity, "rack05", bomb05.Entity, "pin");
             Engine.object_create_anew(bomb06);
             Engine.objects_attach(rack.Entity, "rack06", bomb06.Entity, "pin");
-            Engine.cs_run_command_script(old_temple_pelican1.pilot, old_temple_pelican_arrives);
+            Engine.cs_run_command_script(old_temple_pelican1.pilot, new ScriptMethodReference(old_temple_pelican_arrives));
             await Engine.sleep_until(async () => this.old_temple_bombs_away == true);
             Engine.begin_random(async () => Engine.objects_detach(rack.Entity, bomb01.Entity), 
                 async () => await Engine.sleep((short)Engine.random_range(10, 30)), 
@@ -4929,7 +4929,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.objects_attach(rack.Entity, "rack05", bomb05.Entity, "pin");
             Engine.object_create_anew(bomb06);
             Engine.objects_attach(rack.Entity, "rack06", bomb06.Entity, "pin");
-            Engine.cs_run_command_script(old_temple_pelican1.pilot, old_temple_pelican_arrives);
+            Engine.cs_run_command_script(old_temple_pelican1.pilot, new ScriptMethodReference(old_temple_pelican_arrives));
             await Engine.sleep_until(async () => this.old_temple_bombs_away == true);
             Engine.begin_random(async () => Engine.objects_detach(rack.Entity, bomb01.Entity), 
                 async () => await Engine.sleep((short)Engine.random_range(10, 30)), 
@@ -5075,11 +5075,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(old_temple_phantom.pilot), "phantom_lc", Engine.ai_vehicle_get_from_starting_location(old_temple_ghosts_air._2));
             await Engine.sleep(60);
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(old_temple_phantom.pilot), true);
-            Engine.cs_run_command_script(old_temple_phantom.pilot, old_temple_ph_01_arrives);
+            Engine.cs_run_command_script(old_temple_phantom.pilot, new ScriptMethodReference(old_temple_ph_01_arrives));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(old_temple_phantom.Squad) < 1 || (short)Engine.ai_living_count(old_temple_ghosts_air.Squad) < 1);
             if ((short)Engine.ai_living_count(old_temple_ghosts_air.Squad) < 1)
             {
-                Engine.cs_run_command_script(old_temple_phantom.Squad, old_temple_abort);
+                Engine.cs_run_command_script(old_temple_phantom.Squad, new ScriptMethodReference(old_temple_abort));
             }
 
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(old_temple_phantom.Squad) < 1, 30, 8000);
@@ -5097,11 +5097,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(old_temple_phantom.pilot), "phantom_lc", Engine.ai_vehicle_get_from_starting_location(old_temple_ghosts_air._2));
             await Engine.sleep(60);
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(old_temple_phantom.pilot), true);
-            Engine.cs_run_command_script(old_temple_phantom.pilot, old_temple_ph_02_arrives);
+            Engine.cs_run_command_script(old_temple_phantom.pilot, new ScriptMethodReference(old_temple_ph_02_arrives));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(old_temple_phantom.Squad) < 1 || (short)Engine.ai_living_count(old_temple_ghosts_air.Squad) < 1);
             if ((short)Engine.ai_living_count(old_temple_ghosts_air.Squad) < 1)
             {
-                Engine.cs_run_command_script(old_temple_phantom.Squad, old_temple_abort);
+                Engine.cs_run_command_script(old_temple_phantom.Squad, new ScriptMethodReference(old_temple_abort));
             }
 
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(old_temple_phantom.Squad) < 1, 30, 8000);
@@ -5121,7 +5121,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(old_temp_court_phantom.pilot), "phantom_p_a", Engine.ai_actors(old_temple_court_grunts_03.Squad));
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(old_temp_court_phantom.pilot), "phantom_p_b", Engine.ai_actors(old_temple_court_jackals_03.Squad));
             await Engine.sleep(60);
-            Engine.cs_run_command_script(old_temp_court_phantom.pilot, old_temple_ph_04_arrives);
+            Engine.cs_run_command_script(old_temp_court_phantom.pilot, new ScriptMethodReference(old_temple_ph_04_arrives));
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(old_temp_court_phantom.pilot), true);
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(old_temp_court_phantom.Squad) < 1, 30, 8000);
             Engine.object_destroy(Engine.ai_vehicle_get_from_starting_location(old_temp_court_phantom.pilot));
@@ -5140,7 +5140,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(old_temp_court_phantom.pilot), "phantom_p_a", Engine.ai_actors(old_temple_court_grunts_03.Squad));
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(old_temp_court_phantom.pilot), "phantom_p_b", Engine.ai_actors(old_temple_court_jackals_03.Squad));
             await Engine.sleep(60);
-            Engine.cs_run_command_script(old_temp_court_phantom.pilot, old_temple_ph_04_arrives);
+            Engine.cs_run_command_script(old_temp_court_phantom.pilot, new ScriptMethodReference(old_temple_ph_04_arrives));
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(old_temp_court_phantom.pilot), true);
         }
 
@@ -5331,25 +5331,25 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.object_get_health(Engine.ai_vehicle_get_from_starting_location(old_temple_turrets.far_r)) > 0F && Engine.volume_test_objects(vol_old_temple_farwall_all, Engine.players()) == false && await this.player_count() > 0 && (short)Engine.ai_spawn_count(old_temple_grunts_far_right.Squad) < 5 && (short)Engine.ai_living_count(old_temple_grunts_far_right.Squad) < 1 && Engine.vehicle_test_seat_list(Engine.ai_vehicle_get_from_starting_location(old_temple_turrets.far_r), "", Engine.ai_actors(old_temple_turrets.Squad)) == false && Engine.objects_distance_to_object(Engine.players(), Engine.ai_vehicle_get_from_starting_location(old_temple_turrets.far_r)) < 20F)
                 {
                     Engine.ai_place(old_temple_grunts_far_right._1);
-                    Engine.cs_run_command_script(old_temple_grunts_far_right._1, old_temp_reman_fr);
+                    Engine.cs_run_command_script(old_temple_grunts_far_right._1, new ScriptMethodReference(old_temp_reman_fr));
                 }
 
                 if (Engine.object_get_health(Engine.ai_vehicle_get_from_starting_location(old_temple_turrets.far_l)) > 0F && Engine.volume_test_objects(vol_old_temple_seawall_all, Engine.players()) == false && await this.player_count() > 0 && (short)Engine.ai_spawn_count(old_temple_grunts_far_left.Squad) < 5 && (short)Engine.ai_living_count(old_temple_grunts_far_left.Squad) < 1 && Engine.vehicle_test_seat_list(Engine.ai_vehicle_get_from_starting_location(old_temple_turrets.far_l), "", Engine.ai_actors(old_temple_turrets.Squad)) == false && Engine.objects_distance_to_object(Engine.players(), Engine.ai_vehicle_get_from_starting_location(old_temple_turrets.far_l)) < 20F)
                 {
                     Engine.ai_place(old_temple_grunts_far_left._1);
-                    Engine.cs_run_command_script(old_temple_grunts_far_left._1, old_temp_reman_fl);
+                    Engine.cs_run_command_script(old_temple_grunts_far_left._1, new ScriptMethodReference(old_temp_reman_fl));
                 }
 
                 if (Engine.object_get_health(Engine.ai_vehicle_get_from_starting_location(old_temple_turrets.near_l)) > 0F && Engine.volume_test_objects(vol_old_temple_seawall_all, Engine.players()) == false && await this.player_count() > 0 && (short)Engine.ai_spawn_count(old_temple_grunts_near_left.Squad) < 5 && (short)Engine.ai_living_count(old_temple_grunts_near_left.Squad) < 1 && Engine.vehicle_test_seat_list(Engine.ai_vehicle_get_from_starting_location(old_temple_turrets.near_l), "", Engine.ai_actors(old_temple_turrets.Squad)) == false && Engine.objects_distance_to_object(Engine.players(), Engine.ai_vehicle_get_from_starting_location(old_temple_turrets.near_l)) < 20F)
                 {
                     Engine.ai_place(old_temple_grunts_near_left._1);
-                    Engine.cs_run_command_script(old_temple_grunts_near_left._1, old_temp_reman_nl);
+                    Engine.cs_run_command_script(old_temple_grunts_near_left._1, new ScriptMethodReference(old_temp_reman_nl));
                 }
 
                 if (Engine.object_get_health(Engine.ai_vehicle_get_from_starting_location(old_temple_turrets.center)) > 0F && Engine.volume_test_objects(vol_old_temple_see_nook, Engine.players()) == false && await this.player_count() > 0 && (short)Engine.ai_spawn_count(old_temple_grunts_center.Squad) < 5 && (short)Engine.ai_living_count(old_temple_grunts_center.Squad) < 1 && Engine.vehicle_test_seat_list(Engine.ai_vehicle_get_from_starting_location(old_temple_turrets.center), "", Engine.ai_actors(old_temple_turrets.Squad)) == false && Engine.objects_distance_to_object(Engine.players(), Engine.ai_vehicle_get_from_starting_location(old_temple_turrets.center)) < 20F)
                 {
                     Engine.ai_place(old_temple_grunts_center._1);
-                    Engine.cs_run_command_script(old_temple_grunts_center._1, old_temp_reman_cen);
+                    Engine.cs_run_command_script(old_temple_grunts_center._1, new ScriptMethodReference(old_temp_reman_cen));
                 }
 
                 return Engine.volume_test_objects(vol_old_temple_center_01, await this.player0()) == true || Engine.volume_test_objects(vol_old_temple_center_03, await this.player0()) == true || Engine.volume_test_objects(vol_old_temple_center_05, await this.player0()) == true || Engine.object_get_health(Engine.ai_vehicle_get_from_starting_location(old_temple_turrets.far_r)) <= 0F && Engine.object_get_health(Engine.ai_vehicle_get_from_starting_location(old_temple_turrets.far_l)) <= 0F && Engine.object_get_health(Engine.ai_vehicle_get_from_starting_location(old_temple_turrets.near_l)) <= 0F && Engine.object_get_health(Engine.ai_vehicle_get_from_starting_location(old_temple_turrets.center)) <= 0F;
@@ -5414,7 +5414,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(314, Lifecycle.Dormant)]
         public async Task old_temple_middle_ally()
         {
-            await Engine.sleep_until(async () => (short)Engine.ai_living_count(all_allies) < 1 || Engine.ai_scene("old_temple_mid_scene", old_temple_middle_comment, all_allies), 30, 300);
+            await Engine.sleep_until(async () => (short)Engine.ai_living_count(all_allies) < 1 || Engine.ai_scene("old_temple_mid_scene", new ScriptMethodReference(old_temple_middle_comment), all_allies), 30, 300);
             await Engine.sleep(30);
             if (this.old_temp_middle_go == false && this.old_temple_chatter == false)
             {
@@ -5442,7 +5442,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.sleep_forever(new ScriptMethodReference(old_temple_vehicle_spawn));
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(bridge_tank1.driver), true);
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(LZ_warthog_01.driver), true);
-            Engine.cs_run_command_script(old_temple_phantom.Squad, old_temple_abort);
+            Engine.cs_run_command_script(old_temple_phantom.Squad, new ScriptMethodReference(old_temple_abort));
             Engine.wake(new ScriptMethodReference(old_temple_perimeter_nuke));
             if ((short)Engine.ai_living_count(old_temple_enemies) < 8)
             {
@@ -5577,16 +5577,16 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(old_temple_init_jackals_nl.Squad, 2);
             await Engine.sleep(2);
             Engine.ai_place(old_temple_turrets.center);
-            Engine.cs_run_command_script(old_temple_turrets.Squad, stay_shooting);
+            Engine.cs_run_command_script(old_temple_turrets.Squad, new ScriptMethodReference(stay_shooting));
             await Engine.sleep(2);
             Engine.ai_place(old_temple_turrets.near_l);
-            Engine.cs_run_command_script(old_temple_turrets.Squad, stay_shooting);
+            Engine.cs_run_command_script(old_temple_turrets.Squad, new ScriptMethodReference(stay_shooting));
             await Engine.sleep(2);
             Engine.ai_place(old_temple_turrets.far_l);
-            Engine.cs_run_command_script(old_temple_turrets.Squad, stay_shooting);
+            Engine.cs_run_command_script(old_temple_turrets.Squad, new ScriptMethodReference(stay_shooting));
             await Engine.sleep(2);
             Engine.ai_place(old_temple_turrets.far_r);
-            Engine.cs_run_command_script(old_temple_turrets.Squad, stay_shooting);
+            Engine.cs_run_command_script(old_temple_turrets.Squad, new ScriptMethodReference(stay_shooting));
             Engine.wake(new ScriptMethodReference(old_temple_near_right));
             Engine.wake(new ScriptMethodReference(old_temple_far_left));
             Engine.wake(new ScriptMethodReference(old_temple_far_right));
@@ -5604,7 +5604,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.game_save();
             Engine.wake(new ScriptMethodReference(old_temple_pelican));
             Engine.wake(new ScriptMethodReference(old_temple_playfight));
-            await Engine.sleep_until(async () => Engine.ai_scene("old_temple_pel_scene", old_temple_pelican_comment, all_allies) || (short)Engine.ai_living_count(all_allies) < 1, 30, 60);
+            await Engine.sleep_until(async () => Engine.ai_scene("old_temple_pel_scene", new ScriptMethodReference(old_temple_pelican_comment), all_allies) || (short)Engine.ai_living_count(all_allies) < 1, 30, 60);
             await Engine.sleep(300);
             if (this.old_temple_pel_comment_go == false && this.old_temple_chatter == false)
             {
@@ -6007,7 +6007,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(328, Lifecycle.Dormant)]
         public async Task grotto_ally_comments()
         {
-            await Engine.sleep_until(async () => Engine.ai_scene("grotto_ally_cheese_scene", grotto_ally_cheese, all_allies), 30, 450);
+            await Engine.sleep_until(async () => Engine.ai_scene("grotto_ally_cheese_scene", new ScriptMethodReference(grotto_ally_cheese), all_allies), 30, 450);
         }
 
         [ScriptMethod(329, Lifecycle.Dormant)]
@@ -6126,7 +6126,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(grotto_init_05.Squad, 1);
             Engine.ai_place(grotto_init_07.Squad, 1);
             Engine.ai_place(grotto_init_09.Squad, 1);
-            Engine.cs_run_command_script(grotto_init_09.Squad, grotto_entry_patrol);
+            Engine.cs_run_command_script(grotto_init_09.Squad, new ScriptMethodReference(grotto_entry_patrol));
             Engine.ai_place(grotto_init_11.Squad, 2);
             Engine.wake(new ScriptMethodReference(grotto_cortana_comment));
             Engine.wake(new ScriptMethodReference(grotto_pool));
@@ -6390,9 +6390,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 if (this.who_points == true)
                 {
-                    Engine.cs_run_command_script(tower1_hg_01a.Squad, long_pause_point);
+                    Engine.cs_run_command_script(tower1_hg_01a.Squad, new ScriptMethodReference(long_pause_point));
                     Engine.ai_set_orders(tower1_hg_01a.Squad, tower1_hg1a);
-                    Engine.cs_run_command_script(tower1_hg_01b.Squad, long_pause);
+                    Engine.cs_run_command_script(tower1_hg_01b.Squad, new ScriptMethodReference(long_pause));
                     Engine.ai_set_orders(tower1_hg_01b.Squad, tower1_hg1b_back);
                     this.who_points = false;
                 }
@@ -6401,9 +6401,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 if (this.who_points == true)
                 {
-                    Engine.cs_run_command_script(tower1_hg_01a.Squad, long_pause);
+                    Engine.cs_run_command_script(tower1_hg_01a.Squad, new ScriptMethodReference(long_pause));
                     Engine.ai_set_orders(tower1_hg_01a.Squad, tower1_hg1a_back);
-                    Engine.cs_run_command_script(tower1_hg_01b.Squad, long_pause_point);
+                    Engine.cs_run_command_script(tower1_hg_01b.Squad, new ScriptMethodReference(long_pause_point));
                     Engine.ai_set_orders(tower1_hg_01b.Squad, tower1_hg1b);
                     this.who_points = false;
                 }
@@ -6576,7 +6576,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
 
                 return Engine.volume_test_objects(vol_tunnel_01, Engine.players()) == true || Engine.volume_test_objects(vol_temple_ent_03, Engine.ai_actors(LZ_warthog_01.Squad)) == true && (bool)Engine.ai_trigger_test("done_fighting", temple_ent_enemies_all) == true;
             });
-            Engine.cs_run_command_script(bridge_tank1.driver, temple_ent_go);
+            Engine.cs_run_command_script(bridge_tank1.driver, new ScriptMethodReference(temple_ent_go));
             await Engine.sleep_until(async () =>
             {
                 Engine.ai_set_orders(ally_infantry, allies_tunnel_follow);
@@ -6890,7 +6890,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
 
                 return Engine.volume_test_objects(vol_tunnel_01, Engine.players()) == true || Engine.volume_test_objects(vol_temple_ent_03, Engine.ai_actors(LZ_warthog_01.Squad)) == true;
             });
-            Engine.cs_run_command_script(bridge_tank1.driver, temple_ent_go);
+            Engine.cs_run_command_script(bridge_tank1.driver, new ScriptMethodReference(temple_ent_go));
             await Engine.sleep(30);
             Engine.print("arrived");
             await Engine.sleep(30);

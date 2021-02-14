@@ -4845,7 +4845,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.damage_new(Engine.GetTag<DamageEffectTag>("objects\\weapons\\grenade\\frag_grenade\\damage_effects\\frag_grenade_explosion", 4078440696U), _1st_blast_flag_1);
             Engine.damage_new(Engine.GetTag<DamageEffectTag>("objects\\weapons\\grenade\\frag_grenade\\damage_effects\\frag_grenade_explosion", 4078440696U), _1st_blast_flag_2);
             Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\01b_spacestation\\01b_music\\01b_02", 4078571770U), default(IGameObject), 1F);
-            Engine.cs_run_command_script(_1st_hum, cs_clear);
+            Engine.cs_run_command_script(_1st_hum, new ScriptMethodReference(cs_clear));
             await Engine.sleep(2);
             this.mark_1st_blast = true;
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(_1st_cov) < 2, 10, 300);
@@ -4898,12 +4898,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.mark_flavor_disable = true;
             await this._1st_malta();
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_1st_all, Engine.players()), 10);
-            Engine.cs_run_command_script(_1st_hum_johnson.Squad, cs_1st_johnson_deploy);
+            Engine.cs_run_command_script(_1st_hum_johnson.Squad, new ScriptMethodReference(cs_1st_johnson_deploy));
             await Engine.sleep(45);
             Engine.print("field of fire on that bulkhead!");
             Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0070_jon", 4078768381U), Engine.ai_get_object(_1st_hum_johnson.Squad), 1F);
             await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0070_jon", 4078768381U)));
-            Engine.cs_queue_command_script(_1st_hum, cs_1st_fieldoffire);
+            Engine.cs_queue_command_script(_1st_hum, new ScriptMethodReference(cs_1st_fieldoffire));
             await Engine.sleep(30);
             Engine.wake(new ScriptMethodReference(title_1st));
             await Engine.sleep(30);
@@ -5009,7 +5009,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             Engine.print("boarder effect");
             Engine.object_damage_damage_section(malta.Entity, "default", 0.4F);
-            Engine.cs_run_command_script(bay1_hum, cs_lookat_malta);
+            Engine.cs_run_command_script(bay1_hum, new ScriptMethodReference(cs_lookat_malta));
             await Engine.sleep(120);
             await Engine.sleep_until(async () => Engine.objects_can_see_object(Engine.players(), malta.Entity, 35F), 1, 120);
             Engine.print("hey...check it out! the malta's already driven off its boarders?!");
@@ -5108,7 +5108,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => (short)Engine.ai_fighting_count(bay1_cov) <= 0, 10);
             await this.bay1_malta();
             await this.save_bay1_mid();
-            Engine.cs_run_command_script(bay1_hum, cs_clear);
+            Engine.cs_run_command_script(bay1_hum, new ScriptMethodReference(cs_clear));
             this.mark_flavor_disable = false;
             this.mark_flavor_bay1 = false;
             this.mark_flavor_bay2 = true;
@@ -5140,7 +5140,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             Engine.print("boarder effect");
             Engine.object_damage_damage_section(athens.Entity, "default", 0.4F);
-            Engine.cs_run_command_script(bay1_hum, cs_lookat_athens);
+            Engine.cs_run_command_script(bay1_hum, new ScriptMethodReference(cs_lookat_athens));
             await Engine.sleep(120);
             await Engine.sleep_until(async () => Engine.objects_can_see_object(Engine.players(), athens.Entity, 25F), 1, 120);
             Engine.print("uh-oh. they're leaving the athens!");
@@ -5427,25 +5427,25 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(355, Lifecycle.Static)]
         public async Task trm1_tomyship()
         {
-            Engine.cs_run_command_script(trm1_hum_johnson.Squad, cs_trm1_lookat_player_crouch);
+            Engine.cs_run_command_script(trm1_hum_johnson.Squad, new ScriptMethodReference(cs_trm1_lookat_player_crouch));
             Engine.print("c'mon, chief! this way!");
             Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0290_jon", 4081520935U), default(IGameObject), 1F);
             await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0290_jon", 4081520935U)));
             await Engine.sleep_until(async () => Engine.objects_distance_to_object(Engine.players(), Engine.ai_get_object(trm1_hum_miranda.Squad)) < 3F && Engine.objects_can_see_object(Engine.players(), Engine.ai_get_object(trm1_hum_miranda.Squad), 25F), 1, 120);
-            Engine.cs_run_command_script(trm1_hum_miranda.Squad, cs_trm1_lookat_player_crouch);
+            Engine.cs_run_command_script(trm1_hum_miranda.Squad, new ScriptMethodReference(cs_trm1_lookat_player_crouch));
             Engine.print("i was almost on-board when they showed up.");
             Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0300_mir", 4081586472U), Engine.ai_get_object(trm1_hum_miranda.Squad), 1F);
             await Engine.sleep(30);
-            Engine.cs_run_command_script(trm1_hum_johnson.Squad, cs_trm1_lookat_miranda_crouch);
+            Engine.cs_run_command_script(trm1_hum_johnson.Squad, new ScriptMethodReference(cs_trm1_lookat_miranda_crouch));
             await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0300_mir", 4081586472U)));
             Engine.print("don't worry, ma'am. we'll get 'em!");
             Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0310_jon", 4081652009U), Engine.ai_get_object(trm1_hum_johnson.Squad), 1F);
             await Engine.sleep(30);
-            Engine.cs_run_command_script(trm1_hum_miranda.Squad, cs_trm1_lookat_johnson_crouch);
+            Engine.cs_run_command_script(trm1_hum_miranda.Squad, new ScriptMethodReference(cs_trm1_lookat_johnson_crouch));
             await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0310_jon", 4081652009U)));
-            Engine.cs_run_command_script(trm1_hum_johnson.Squad, cs_clear);
+            Engine.cs_run_command_script(trm1_hum_johnson.Squad, new ScriptMethodReference(cs_clear));
             await Engine.sleep(30);
-            Engine.cs_run_command_script(trm1_hum_miranda.Squad, cs_clear);
+            Engine.cs_run_command_script(trm1_hum_miranda.Squad, new ScriptMethodReference(cs_clear));
         }
 
         [ScriptMethod(356, Lifecycle.CommandScript)]
@@ -5526,9 +5526,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(365, Lifecycle.Dormant)]
         public async Task trm1_bugproblem()
         {
-            Engine.cs_run_command_script(trm1_hum_block_mar.Squad, cs_trm1_approach);
-            Engine.cs_run_command_script(trm1_hum_miranda.Squad, cs_trm1_approach);
-            Engine.cs_run_command_script(trm1_hum_johnson.Squad, cs_trm1_approach);
+            Engine.cs_run_command_script(trm1_hum_block_mar.Squad, new ScriptMethodReference(cs_trm1_approach));
+            Engine.cs_run_command_script(trm1_hum_miranda.Squad, new ScriptMethodReference(cs_trm1_approach));
+            Engine.cs_run_command_script(trm1_hum_johnson.Squad, new ScriptMethodReference(cs_trm1_approach));
             await Engine.sleep(30);
             await Engine.sleep_until(async () => Engine.objects_distance_to_object(Engine.players(), Engine.ai_get_object(trm1_hum_miranda.Squad)) < 2F, 1, 120);
             Engine.print("thanks, chief. i owe you one.  take me now!");
@@ -5542,8 +5542,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0370_jon", 4081783083U), Engine.ai_get_object(trm1_hum_johnson.Squad), 1F);
             }
 
-            Engine.cs_run_command_script(trm1_hum_miranda.Squad, cs_clear);
-            Engine.cs_run_command_script(trm1_hum_johnson.Squad, cs_clear);
+            Engine.cs_run_command_script(trm1_hum_miranda.Squad, new ScriptMethodReference(cs_clear));
+            Engine.cs_run_command_script(trm1_hum_johnson.Squad, new ScriptMethodReference(cs_clear));
         }
 
         [ScriptMethod(366, Lifecycle.Dormant)]
@@ -5568,8 +5568,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_set_permutation(Engine.ai_get_object(trm1_hum_johnson.Squad), "helmet", "");
             Engine.ai_cannot_die(trm1_hum_johnson.Squad, true);
             Engine.ai_cannot_die(trm1_hum_miranda.Squad, true);
-            Engine.cs_run_command_script(trm1_hum_johnson.Squad, cs_trm1_bunker);
-            Engine.cs_run_command_script(trm1_hum_miranda.Squad, cs_trm1_bunker);
+            Engine.cs_run_command_script(trm1_hum_johnson.Squad, new ScriptMethodReference(cs_trm1_bunker));
+            Engine.cs_run_command_script(trm1_hum_miranda.Squad, new ScriptMethodReference(cs_trm1_bunker));
             Engine.ai_place(trm1_cov_alock);
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_trm1_start, Engine.players()), 1);
             Engine.wake(new ScriptMethodReference(trm1_cleanup));

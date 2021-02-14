@@ -633,10 +633,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(brutes_02.Squad);
             Engine.ai_place(elites_01.Squad);
             Engine.ai_place(elites_02.Squad);
-            Engine.cs_run_command_script(brutes_01.Squad, cs_brute_walk_01);
-            Engine.cs_run_command_script(brutes_02.Squad, cs_brute_walk_02);
-            Engine.cs_run_command_script(elites_01.Squad, cs_elite_walk_01);
-            Engine.cs_run_command_script(elites_02.Squad, cs_elite_walk_02);
+            Engine.cs_run_command_script(brutes_01.Squad, new ScriptMethodReference(cs_brute_walk_01));
+            Engine.cs_run_command_script(brutes_02.Squad, new ScriptMethodReference(cs_brute_walk_02));
+            Engine.cs_run_command_script(elites_01.Squad, new ScriptMethodReference(cs_elite_walk_01));
+            Engine.cs_run_command_script(elites_02.Squad, new ScriptMethodReference(cs_elite_walk_02));
             Engine.time_code_reset();
             await Engine.sleep(188);
             Engine.ai_erase(brutes_01.Squad);
@@ -803,7 +803,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(120);
             Engine.print("final honor-guards");
             Engine.ai_place(elites_03.Squad);
-            Engine.cs_run_command_script(elites_03.Squad, cs_elite_walk_03);
+            Engine.cs_run_command_script(elites_03.Squad, new ScriptMethodReference(cs_elite_walk_03));
             Engine.object_uses_cinematic_lighting(Engine.ai_get_object(this.ai_current_actor), true);
         }
 
@@ -2261,7 +2261,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(165, Lifecycle.Dormant)]
         public async Task ai_sc_cond_a_cov()
         {
-            await Engine.sleep_until(async () => Engine.ai_scene("sc_cond_a_cov", sc_cond_cov, cond_a_cov.Squad));
+            await Engine.sleep_until(async () => Engine.ai_scene("sc_cond_a_cov", new ScriptMethodReference(sc_cond_cov), cond_a_cov.Squad));
         }
 
         [ScriptMethod(166, Lifecycle.Dormant)]
@@ -2331,7 +2331,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task ai_sc_hall_b_grunts()
         {
             await Engine.sleep_until(async () => (bool)Engine.ai_trigger_test("scene_trigger_4", hall_b_cov.Squad));
-            Engine.cs_run_command_script(hall_b_cov.wimp, sc_fleeing_grunts);
+            Engine.cs_run_command_script(hall_b_cov.wimp, new ScriptMethodReference(sc_fleeing_grunts));
         }
 
         [ScriptMethod(169, Lifecycle.Dormant)]
@@ -2527,7 +2527,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(175, Lifecycle.Dormant)]
         public async Task sc_qz_initial()
         {
-            await Engine.sleep_until(async () => Engine.ai_scene("sc_qz_ini", cs_sc_qz_ini, qz_ini_ins_pods.Squad));
+            await Engine.sleep_until(async () => Engine.ai_scene("sc_qz_ini", new ScriptMethodReference(cs_sc_qz_ini), qz_ini_ins_pods.Squad));
         }
 
         [ScriptMethod(176, Lifecycle.CommandScript)]
@@ -2554,8 +2554,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_vehicle_exit(qz_cov_def_cov.Squad);
             Engine.ai_vehicle_exit(qz_cov_def_soc.Squad);
             await Engine.sleep(30);
-            Engine.cs_run_command_script(qz_cov_def_cov.Squad, cs_cov_camp_elites);
-            Engine.cs_run_command_script(qz_cov_def_soc.Squad, cs_cov_camp_soc);
+            Engine.cs_run_command_script(qz_cov_def_cov.Squad, new ScriptMethodReference(cs_cov_camp_elites));
+            Engine.cs_run_command_script(qz_cov_def_soc.Squad, new ScriptMethodReference(cs_cov_camp_soc));
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_qz_cov_def_hill, Engine.players()), 30, 450);
             await Engine.sleep(15);
             if (this.dialogue)
@@ -2963,7 +2963,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task pussy_grunt_abort()
         {
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_ins_slide_bottom, Engine.ai_actors(pussy_grunt1.Squad)));
-            Engine.cs_run_command_script(pussy_grunt1.Squad, cs_pussy_grunt_abort);
+            Engine.cs_run_command_script(pussy_grunt1.Squad, new ScriptMethodReference(cs_pussy_grunt_abort));
         }
 
         [ScriptMethod(199, Lifecycle.CommandScript)]
@@ -2993,7 +2993,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => Engine.object_get_shield(absorber_ins.Entity) <= 0F, 5);
             await Engine.sleep(15);
             Engine.cs_shoot_point(false, Engine.GetReference<ISpatialPoint>("insertion/grunt_shoot"));
-            Engine.cs_run_command_script(pussy_grunt1.Squad, pussy_grunt_down);
+            Engine.cs_run_command_script(pussy_grunt1.Squad, new ScriptMethodReference(pussy_grunt_down));
         }
 
         [ScriptMethod(201, Lifecycle.Dormant)]
@@ -3007,11 +3007,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(45);
             if (Engine.device_get_position(piston_ins.Entity) == 0F)
             {
-                Engine.cs_run_command_script(pussy_grunt1.Squad, pussy_grunt_shoot);
+                Engine.cs_run_command_script(pussy_grunt1.Squad, new ScriptMethodReference(pussy_grunt_shoot));
             }
 
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_insertion_tube, Engine.players()), 5);
-            Engine.cs_run_command_script(pussy_grunt1.Squad, pussy_grunt_down);
+            Engine.cs_run_command_script(pussy_grunt1.Squad, new ScriptMethodReference(pussy_grunt_down));
         }
 
         [ScriptMethod(202, Lifecycle.CommandScript)]
@@ -3041,7 +3041,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 await Engine.sleep(45);
                 if (Engine.device_get_position(piston_ins.Entity) == 1F)
                 {
-                    Engine.cs_run_command_script(pussy_grunt1.Squad, pussy_grunt_shoot);
+                    Engine.cs_run_command_script(pussy_grunt1.Squad, new ScriptMethodReference(pussy_grunt_shoot));
                 }
             }
         }
@@ -3121,7 +3121,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             }
 
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_ins_slide_bottom, Engine.players()) && Engine.objects_can_see_object(Engine.players(), piston_a.Entity, 180F));
-            Engine.cs_run_command_script(ins_con_slide.shooter, cs_ins_shoot_absorber_slide);
+            Engine.cs_run_command_script(ins_con_slide.shooter, new ScriptMethodReference(cs_ins_shoot_absorber_slide));
         }
 
         [ScriptMethod(211, Lifecycle.CommandScript)]
@@ -3154,7 +3154,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_ins_bk, Engine.players()) && Engine.objects_can_see_object(Engine.players(), piston_ins.Entity, 180F));
             if ((float)Engine.ai_strength(ins_cons) == 1F)
             {
-                Engine.cs_run_command_script(ins_con_bk.shooter, cs_ins_shoot_absorber);
+                Engine.cs_run_command_script(ins_con_bk.shooter, new ScriptMethodReference(cs_ins_shoot_absorber));
                 this.g_cons_open_ins = true;
             }
         }
@@ -4325,7 +4325,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             Engine.ai_place(gap_phantom.Squad);
             await Engine.sleep(1);
-            Engine.cs_run_command_script(gap_phantom.Squad, cs_gap_phantom);
+            Engine.cs_run_command_script(gap_phantom.Squad, new ScriptMethodReference(cs_gap_phantom));
         }
 
         [ScriptMethod(269, Lifecycle.Dormant)]
@@ -4499,7 +4499,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(273, Lifecycle.Static)]
         public async Task gap_flood_jump()
         {
-            Engine.cs_run_command_script(this.ai_current_squad, cs_gap_flood_jump);
+            Engine.cs_run_command_script(this.ai_current_squad, new ScriptMethodReference(cs_gap_flood_jump));
         }
 
         [ScriptMethod(274, Lifecycle.CommandScript)]
@@ -4515,7 +4515,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(275, Lifecycle.Static)]
         public async Task make_invulnerable()
         {
-            Engine.cs_run_command_script(this.ai_current_squad, invulnerable);
+            Engine.cs_run_command_script(this.ai_current_squad, new ScriptMethodReference(invulnerable));
         }
 
         [ScriptMethod(276, Lifecycle.Dormant)]
@@ -5662,10 +5662,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             }
 
             await Engine.sleep(5);
-            Engine.cs_run_command_script(cond_b_sen_tube_b.a, cs_cond_b_sen_tube_a);
-            Engine.cs_run_command_script(cond_b_sen_tube_b.b, cs_cond_b_sen_tube_a);
-            Engine.cs_run_command_script(cond_b_sen_tube_b.c, cs_cond_b_sen_tube_b);
-            Engine.cs_run_command_script(cond_b_sen_tube_b.d, cs_cond_b_sen_tube_b);
+            Engine.cs_run_command_script(cond_b_sen_tube_b.a, new ScriptMethodReference(cs_cond_b_sen_tube_a));
+            Engine.cs_run_command_script(cond_b_sen_tube_b.b, new ScriptMethodReference(cs_cond_b_sen_tube_a));
+            Engine.cs_run_command_script(cond_b_sen_tube_b.c, new ScriptMethodReference(cs_cond_b_sen_tube_b));
+            Engine.cs_run_command_script(cond_b_sen_tube_b.d, new ScriptMethodReference(cs_cond_b_sen_tube_b));
         }
 
         [ScriptMethod(330, Lifecycle.Dormant)]
@@ -5867,7 +5867,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(15);
             Engine.ai_vehicle_exit(qz_ini_ins_pods.c);
             await Engine.sleep(30);
-            Engine.cs_run_command_script(qz_ini_ins_pods.c, cs_go_to_bridge);
+            Engine.cs_run_command_script(qz_ini_ins_pods.c, new ScriptMethodReference(cs_go_to_bridge));
         }
 
         [ScriptMethod(343, Lifecycle.Dormant)]
@@ -5886,7 +5886,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(15);
             Engine.ai_vehicle_exit(qz_ini_ins_pods.d);
             await Engine.sleep(30);
-            Engine.cs_run_command_script(qz_ini_ins_pods.d, cs_go_to_bridge);
+            Engine.cs_run_command_script(qz_ini_ins_pods.d, new ScriptMethodReference(cs_go_to_bridge));
             Engine.unit_set_maximum_vitality(Engine.ai_get_unit(qz_ini_ins_pods.d), 1F, 0F);
         }
 
@@ -5906,7 +5906,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(15);
             Engine.ai_vehicle_exit(qz_ini_ins_pods.e);
             await Engine.sleep(30);
-            Engine.cs_run_command_script(qz_ini_ins_pods.e, cs_go_to_bridge);
+            Engine.cs_run_command_script(qz_ini_ins_pods.e, new ScriptMethodReference(cs_go_to_bridge));
             Engine.unit_set_maximum_vitality(Engine.ai_get_unit(qz_ini_ins_pods.e), 1F, 0F);
         }
 

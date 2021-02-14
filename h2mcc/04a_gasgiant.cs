@@ -2664,7 +2664,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (this.stealth_talk_gone == true)
                 {
                     this.stealth_talk_gone = false;
-                    Engine.ai_scene("stealth_comment_01_scene", stealth_comment_01, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+                    Engine.ai_scene("stealth_comment_01_scene", new ScriptMethodReference(stealth_comment_01), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
                     ;
                 }
             }, 
@@ -2673,7 +2673,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (this.stealth_talk_gone == true)
                 {
                     this.stealth_talk_gone = false;
-                    Engine.ai_scene("stealth_comment_02_scene", stealth_comment_02, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+                    Engine.ai_scene("stealth_comment_02_scene", new ScriptMethodReference(stealth_comment_02), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
                     ;
                 }
             }, 
@@ -2682,7 +2682,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (this.stealth_talk_gone == true)
                 {
                     this.stealth_talk_gone = false;
-                    Engine.ai_scene("stealth_comment_03_scene", stealth_comment_03, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+                    Engine.ai_scene("stealth_comment_03_scene", new ScriptMethodReference(stealth_comment_03), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
                     ;
                 }
             }, 
@@ -2691,7 +2691,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (this.stealth_talk_gone == true)
                 {
                     this.stealth_talk_gone = false;
-                    Engine.ai_scene("stealth_comment_04_scene", stealth_comment_04, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+                    Engine.ai_scene("stealth_comment_04_scene", new ScriptMethodReference(stealth_comment_04), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
                     ;
                 }
             }, 
@@ -2700,7 +2700,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (this.stealth_talk_gone == true)
                 {
                     this.stealth_talk_gone = false;
-                    Engine.ai_scene("stealth_comment_05_scene", stealth_comment_05, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+                    Engine.ai_scene("stealth_comment_05_scene", new ScriptMethodReference(stealth_comment_05), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
                     ;
                 }
             }, 
@@ -2709,7 +2709,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (this.stealth_talk_gone == true)
                 {
                     this.stealth_talk_gone = false;
-                    Engine.ai_scene("stealth_comment_06_scene", stealth_comment_06, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+                    Engine.ai_scene("stealth_comment_06_scene", new ScriptMethodReference(stealth_comment_06), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
                     ;
                 }
             }, 
@@ -2718,7 +2718,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (this.stealth_talk_gone == true)
                 {
                     this.stealth_talk_gone = false;
-                    Engine.ai_scene("stealth_comment_07_scene", stealth_comment_07, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+                    Engine.ai_scene("stealth_comment_07_scene", new ScriptMethodReference(stealth_comment_07), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
                     ;
                 }
             }, 
@@ -2727,7 +2727,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (this.stealth_talk_gone == true)
                 {
                     this.stealth_talk_gone = false;
-                    Engine.ai_scene("stealth_comment_08_scene", stealth_comment_08, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+                    Engine.ai_scene("stealth_comment_08_scene", new ScriptMethodReference(stealth_comment_08), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
                     ;
                 }
             }, 
@@ -2736,7 +2736,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (this.stealth_talk_gone == true)
                 {
                     this.stealth_talk_gone = false;
-                    Engine.ai_scene("stealth_comment_09_scene", stealth_comment_09, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+                    Engine.ai_scene("stealth_comment_09_scene", new ScriptMethodReference(stealth_comment_09), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
                     ;
                 }
             }, 
@@ -2745,7 +2745,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (this.stealth_talk_gone == true)
                 {
                     this.stealth_talk_gone = false;
-                    Engine.ai_scene("stealth_comment_10_scene", stealth_comment_10, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+                    Engine.ai_scene("stealth_comment_10_scene", new ScriptMethodReference(stealth_comment_10), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
                     ;
                 }
             });
@@ -3067,14 +3067,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task production_arm_bsp_swap()
         {
             Engine.device_operates_automatically_set(rec_center_entry_ext.Entity, true);
-            Engine.cs_run_command_script(allies_elites_01.Squad, inner_aim_elites);
-            Engine.cs_run_command_script(allies_grunts_01.Squad, inner_aim_grunts);
+            Engine.cs_run_command_script(allies_elites_01.Squad, new ScriptMethodReference(inner_aim_elites));
+            Engine.cs_run_command_script(allies_grunts_01.Squad, new ScriptMethodReference(inner_aim_grunts));
             Engine.ai_set_orders(allies_elites_01.Squad, allies_enter);
             Engine.ai_set_orders(allies_grunts_01.Squad, allies_enter);
             Engine.ai_set_orders(intro_elites.Squad, lz_linger);
             Engine.wake(new ScriptMethodReference(commander_entry_reminder));
             await Engine.sleep_until(async () => Engine.volume_test_objects_all(vol_entering_facility, Engine.players()) == true && await this.player_count() > 0);
-            Engine.cs_run_command_script(hacker.Squad, inner_aim_hacker);
+            Engine.cs_run_command_script(hacker.Squad, new ScriptMethodReference(inner_aim_hacker));
             Engine.ai_set_orders(hacker.Squad, allies_enter);
             Engine.sleep_forever(new ScriptMethodReference(wind));
             await Engine.sleep_until(async () => Engine.volume_test_objects_all(vol_entering_facility, Engine.players()) == true && await this.player_count() > 0 && Engine.device_get_position(rec_center_entry_ext.Entity) == 0F);
@@ -3107,7 +3107,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_destroy(filthy_audio1.Entity);
             Engine.object_destroy(filthy_audio2.Entity);
             Engine.sound_class_set_gain("ambient_machinery", 1F, 2);
-            await Engine.sleep_until(async () => Engine.ai_scene("lz_active_camo_scene", lz_active_camo_call, all_allies) || (short)Engine.ai_living_count(hacker.Squad) < 0 && (short)Engine.ai_living_count(allies_elites_01.Squad) < 1, 30, 150);
+            await Engine.sleep_until(async () => Engine.ai_scene("lz_active_camo_scene", new ScriptMethodReference(lz_active_camo_call), all_allies) || (short)Engine.ai_living_count(hacker.Squad) < 0 && (short)Engine.ai_living_count(allies_elites_01.Squad) < 1, 30, 150);
             Engine.begin_random(async () => Engine.object_destroy(gas01.Entity), 
                 async () => await Engine.sleep((short)Engine.random_range(5, 15)), 
                 async () => Engine.object_destroy(gas02.Entity), 
@@ -3237,15 +3237,15 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.data_mine_set_mission_segment("04a_1_landing_zone");
             Engine.wake(new ScriptMethodReference(wind));
             Engine.wake(new ScriptMethodReference(commander_comment_01));
-            Engine.cs_run_command_script(intro_elites._01, landing_zone_follow_01);
-            Engine.cs_run_command_script(intro_elites._02, landing_zone_follow_02);
+            Engine.cs_run_command_script(intro_elites._01, new ScriptMethodReference(landing_zone_follow_01));
+            Engine.cs_run_command_script(intro_elites._02, new ScriptMethodReference(landing_zone_follow_02));
             Engine.custom_animation_loop(Engine.unit(Engine.list_get(Engine.ai_actors(hacker.Squad), 0)), Engine.GetTag<AnimationGraphTag>("objects\\characters\\elite\\elite", 3890546287U), "uplink_station", true);
-            Engine.cs_run_command_script(hacker.Squad, swat_hack);
-            Engine.cs_run_command_script(intro_phantom._01, lz_phantom_01_away);
-            Engine.cs_run_command_script(intro_phantom._02, lz_phantom_02_away);
-            Engine.cs_run_command_script(intro_phantom._03, lz_phantom_03_away);
-            Engine.cs_run_command_script(allies_grunts_01.Squad, swat_aim);
-            Engine.cs_run_command_script(allies_elites_01.Squad, swat_aim);
+            Engine.cs_run_command_script(hacker.Squad, new ScriptMethodReference(swat_hack));
+            Engine.cs_run_command_script(intro_phantom._01, new ScriptMethodReference(lz_phantom_01_away));
+            Engine.cs_run_command_script(intro_phantom._02, new ScriptMethodReference(lz_phantom_02_away));
+            Engine.cs_run_command_script(intro_phantom._03, new ScriptMethodReference(lz_phantom_03_away));
+            Engine.cs_run_command_script(allies_grunts_01.Squad, new ScriptMethodReference(swat_aim));
+            Engine.cs_run_command_script(allies_elites_01.Squad, new ScriptMethodReference(swat_aim));
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_entry_landing, Engine.players()) == true);
             await Engine.sleep_until(async () => this.commander_done_yapping == true);
             Engine.wake(new ScriptMethodReference(commander_comment_02));
@@ -3365,7 +3365,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("heretic_02: 'better we protect ourselves.'");
             Engine.cs_play_line("0320");
             await Engine.sleep(30);
-            Engine.cs_run_command_script(rec_center_heretic_02.Squad, abort);
+            Engine.cs_run_command_script(rec_center_heretic_02.Squad, new ScriptMethodReference(abort));
             Engine.cs_approach_stop();
             await Engine.sleep(60);
             Engine.cs_enable_moving(true);
@@ -3445,13 +3445,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.recycling_power_on = true;
             Engine.ai_place(rec_center_heretic_01.Squad, 1);
             Engine.ai_place(rec_center_heretic_02.Squad, 1);
-            Engine.cs_run_command_script(rec_center_heretic_02.Squad, long_pause);
+            Engine.cs_run_command_script(rec_center_heretic_02.Squad, new ScriptMethodReference(long_pause));
             Engine.ai_place(rec_center_grunts_01.Squad, 2);
             await Engine.sleep_until(async () => this.stealth_hint_done == true);
             Engine.game_save();
             await Engine.sleep_until(async () => Engine.device_get_position(rec_center_entry_int.Entity) > 0F);
             await Engine.sleep_until(async () => Engine.device_get_position(rec_center_entry_int.Entity) == 1F);
-            Engine.ai_scene("heretic_chat_scene", heretic_chat, rec_center_h_entry) // Couldn't generate cast from 'Boolean' to 'Void'
+            Engine.ai_scene("heretic_chat_scene", new ScriptMethodReference(heretic_chat), rec_center_h_entry) // Couldn't generate cast from 'Boolean' to 'Void'
             ;
             Engine.ai_set_orders(arm01_allies, allies_rec_center_all);
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_rec_slope_top, Engine.players()) == true || (short)Engine.ai_living_count(rec_center_heretics) < 2);
@@ -3467,13 +3467,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                         Engine.ai_place(rec_cen_rein_her_01R.Squad, 1);
                     }
 
-                    Engine.cs_run_command_script(rec_cen_rein_her_01R.Squad, snap_alert);
+                    Engine.cs_run_command_script(rec_cen_rein_her_01R.Squad, new ScriptMethodReference(snap_alert));
                     if ((short)Engine.ai_living_count(rec_center_heretics) < 8)
                     {
                         Engine.ai_place(rec_cen_rein_grt_01R.Squad, (short)Engine.random_range(1, 3));
                     }
 
-                    Engine.cs_run_command_script(rec_cen_rein_grt_01R.Squad, snap_alert);
+                    Engine.cs_run_command_script(rec_cen_rein_grt_01R.Squad, new ScriptMethodReference(snap_alert));
                 }
 
                 if (Engine.objects_can_see_object(Engine.players(), rec_cen_rein_01l.Entity, 45F))
@@ -3483,19 +3483,19 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                         Engine.ai_place(rec_cen_rein_her_01L.Squad, (short)(1 - (float)Engine.ai_living_count(rec_cen_rein_her_01R.Squad)));
                     }
 
-                    Engine.cs_run_command_script(rec_cen_rein_her_01L.Squad, snap_alert);
+                    Engine.cs_run_command_script(rec_cen_rein_her_01L.Squad, new ScriptMethodReference(snap_alert));
                     if ((short)Engine.ai_living_count(rec_center_heretics) < 8)
                     {
                         Engine.ai_place(rec_cen_rein_grt_01L.Squad, (short)((float)Engine.random_range(1, 3) - (float)Engine.ai_living_count(rec_cen_rein_grt_01R.Squad)));
                     }
 
-                    Engine.cs_run_command_script(rec_cen_rein_grt_01L.Squad, snap_alert);
+                    Engine.cs_run_command_script(rec_cen_rein_grt_01L.Squad, new ScriptMethodReference(snap_alert));
                 }
             }
 
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_recycling_mid_01, Engine.players()) == true || (short)Engine.ai_living_count(rec_center_heretics) < 3);
             Engine.game_save();
-            Engine.cs_run_command_script(allies_grunts_01.grunt02, rec_center_turret);
+            Engine.cs_run_command_script(allies_grunts_01.grunt02, new ScriptMethodReference(rec_center_turret));
             if ((short)Engine.ai_living_count(rec_center_heretics) < 8)
             {
                 Engine.ai_place(rec_center_grunts_03.Squad, 3);
@@ -3522,7 +3522,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.wake(new ScriptMethodReference(rec_center_reminder));
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_leaving_rec_center, Engine.players()) == true || (short)Engine.ai_living_count(rec_center_heretics) == 0);
             Engine.device_set_position_immediate(elev_hangar.Entity, 0.25F);
-            Engine.cs_run_command_script(allies_grunts_01.grunt02, abort);
+            Engine.cs_run_command_script(allies_grunts_01.grunt02, new ScriptMethodReference(abort));
             Engine.ai_vehicle_exit(allies_grunts_01.Squad);
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_leaving_rec_center, Engine.players()) == true);
             await Engine.sleep_until(async () => (short)Engine.ai_combat_status(all_enemies) < this.ai_combat_status_uninspected, 30, 150);
@@ -3551,10 +3551,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => (bool)Engine.game_safe_to_save() == true);
             Engine.game_save();
             Engine.ai_set_orders(arm01_allies, get_on_hangar_elev);
-            Engine.cs_run_command_script(hacker.Squad, get_on_e1);
-            Engine.cs_run_command_script(allies_elites_01.Squad, get_on_e2);
-            Engine.cs_run_command_script(allies_grunts_01.grunt01, get_on_g1);
-            Engine.cs_run_command_script(allies_grunts_01.grunt02, get_on_g2);
+            Engine.cs_run_command_script(hacker.Squad, new ScriptMethodReference(get_on_e1));
+            Engine.cs_run_command_script(allies_elites_01.Squad, new ScriptMethodReference(get_on_e2));
+            Engine.cs_run_command_script(allies_grunts_01.grunt01, new ScriptMethodReference(get_on_g1));
+            Engine.cs_run_command_script(allies_grunts_01.grunt02, new ScriptMethodReference(get_on_g2));
         }
 
         [ScriptMethod(274, Lifecycle.Dormant)]
@@ -3824,13 +3824,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if ((short)Engine.ai_living_count(hangar_sentinels_flit.Squad) < 1)
                     {
                         Engine.ai_place(hangar_sentinels_flit.l1);
-                        Engine.cs_run_command_script(hangar_sentinels_flit.l1, hangar_fly_out_l1);
+                        Engine.cs_run_command_script(hangar_sentinels_flit.l1, new ScriptMethodReference(hangar_fly_out_l1));
                         this.hangar_sentinel_var = true;
                         Engine.begin_random(async () =>
                         {
                             if (this.hangar_sentinel_var == true)
                             {
-                                Engine.cs_queue_command_script(hangar_sentinels_flit.l1, hangar_fly_l2);
+                                Engine.cs_queue_command_script(hangar_sentinels_flit.l1, new ScriptMethodReference(hangar_fly_l2));
                                 this.hangar_sentinel_var = false;
                             }
                         }, 
@@ -3838,7 +3838,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                         {
                             if (this.hangar_sentinel_var == true)
                             {
-                                Engine.cs_queue_command_script(hangar_sentinels_flit.l1, hangar_fly_r1);
+                                Engine.cs_queue_command_script(hangar_sentinels_flit.l1, new ScriptMethodReference(hangar_fly_r1));
                                 this.hangar_sentinel_var = false;
                             }
                         }, 
@@ -3846,7 +3846,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                         {
                             if (this.hangar_sentinel_var == true)
                             {
-                                Engine.cs_queue_command_script(hangar_sentinels_flit.l1, hangar_fly_r2);
+                                Engine.cs_queue_command_script(hangar_sentinels_flit.l1, new ScriptMethodReference(hangar_fly_r2));
                                 this.hangar_sentinel_var = false;
                             }
                         });
@@ -3857,13 +3857,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if ((short)Engine.ai_living_count(hangar_sentinels_flit.Squad) < 1)
                     {
                         Engine.ai_place(hangar_sentinels_flit.l2);
-                        Engine.cs_run_command_script(hangar_sentinels_flit.l2, hangar_fly_out_l2);
+                        Engine.cs_run_command_script(hangar_sentinels_flit.l2, new ScriptMethodReference(hangar_fly_out_l2));
                         this.hangar_sentinel_var = true;
                         Engine.begin_random(async () =>
                         {
                             if (this.hangar_sentinel_var == true)
                             {
-                                Engine.cs_queue_command_script(hangar_sentinels_flit.l2, hangar_fly_l1);
+                                Engine.cs_queue_command_script(hangar_sentinels_flit.l2, new ScriptMethodReference(hangar_fly_l1));
                                 this.hangar_sentinel_var = false;
                             }
                         }, 
@@ -3871,7 +3871,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                         {
                             if (this.hangar_sentinel_var == true)
                             {
-                                Engine.cs_queue_command_script(hangar_sentinels_flit.l2, hangar_fly_r1);
+                                Engine.cs_queue_command_script(hangar_sentinels_flit.l2, new ScriptMethodReference(hangar_fly_r1));
                                 this.hangar_sentinel_var = false;
                             }
                         }, 
@@ -3879,7 +3879,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                         {
                             if (this.hangar_sentinel_var == true)
                             {
-                                Engine.cs_queue_command_script(hangar_sentinels_flit.l2, hangar_fly_r2);
+                                Engine.cs_queue_command_script(hangar_sentinels_flit.l2, new ScriptMethodReference(hangar_fly_r2));
                                 this.hangar_sentinel_var = false;
                             }
                         });
@@ -3890,13 +3890,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if ((short)Engine.ai_living_count(hangar_sentinels_flit.Squad) < 1)
                     {
                         Engine.ai_place(hangar_sentinels_flit.r1);
-                        Engine.cs_run_command_script(hangar_sentinels_flit.r1, hangar_fly_out_r1);
+                        Engine.cs_run_command_script(hangar_sentinels_flit.r1, new ScriptMethodReference(hangar_fly_out_r1));
                         this.hangar_sentinel_var = true;
                         Engine.begin_random(async () =>
                         {
                             if (this.hangar_sentinel_var == true)
                             {
-                                Engine.cs_queue_command_script(hangar_sentinels_flit.r1, hangar_fly_l1);
+                                Engine.cs_queue_command_script(hangar_sentinels_flit.r1, new ScriptMethodReference(hangar_fly_l1));
                                 this.hangar_sentinel_var = false;
                             }
                         }, 
@@ -3904,7 +3904,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                         {
                             if (this.hangar_sentinel_var == true)
                             {
-                                Engine.cs_queue_command_script(hangar_sentinels_flit.r1, hangar_fly_l2);
+                                Engine.cs_queue_command_script(hangar_sentinels_flit.r1, new ScriptMethodReference(hangar_fly_l2));
                                 this.hangar_sentinel_var = false;
                             }
                         }, 
@@ -3912,7 +3912,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                         {
                             if (this.hangar_sentinel_var == true)
                             {
-                                Engine.cs_queue_command_script(hangar_sentinels_flit.r1, hangar_fly_r2);
+                                Engine.cs_queue_command_script(hangar_sentinels_flit.r1, new ScriptMethodReference(hangar_fly_r2));
                                 this.hangar_sentinel_var = false;
                             }
                         });
@@ -3923,13 +3923,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if ((short)Engine.ai_living_count(hangar_sentinels_flit.Squad) < 1)
                     {
                         Engine.ai_place(hangar_sentinels_flit.r2);
-                        Engine.cs_run_command_script(hangar_sentinels_flit.r2, hangar_fly_out_r2);
+                        Engine.cs_run_command_script(hangar_sentinels_flit.r2, new ScriptMethodReference(hangar_fly_out_r2));
                         this.hangar_sentinel_var = true;
                         Engine.begin_random(async () =>
                         {
                             if (this.hangar_sentinel_var == true)
                             {
-                                Engine.cs_queue_command_script(hangar_sentinels_flit.r2, hangar_fly_l1);
+                                Engine.cs_queue_command_script(hangar_sentinels_flit.r2, new ScriptMethodReference(hangar_fly_l1));
                                 this.hangar_sentinel_var = false;
                             }
                         }, 
@@ -3937,7 +3937,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                         {
                             if (this.hangar_sentinel_var == true)
                             {
-                                Engine.cs_queue_command_script(hangar_sentinels_flit.r2, hangar_fly_l2);
+                                Engine.cs_queue_command_script(hangar_sentinels_flit.r2, new ScriptMethodReference(hangar_fly_l2));
                                 this.hangar_sentinel_var = false;
                             }
                         }, 
@@ -3945,7 +3945,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                         {
                             if (this.hangar_sentinel_var == true)
                             {
-                                Engine.cs_queue_command_script(hangar_sentinels_flit.r2, hangar_fly_r1);
+                                Engine.cs_queue_command_script(hangar_sentinels_flit.r2, new ScriptMethodReference(hangar_fly_r1));
                                 this.hangar_sentinel_var = false;
                             }
                         });
@@ -3956,13 +3956,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if ((short)Engine.ai_living_count(hangar_sentinels_flit.Squad) < 1)
                     {
                         Engine.ai_place(hangar_sentinels_flit.c1);
-                        Engine.cs_run_command_script(hangar_sentinels_flit.c1, hangar_fly_out_c1);
+                        Engine.cs_run_command_script(hangar_sentinels_flit.c1, new ScriptMethodReference(hangar_fly_out_c1));
                         this.hangar_sentinel_var = true;
                         Engine.begin_random(async () =>
                         {
                             if (this.hangar_sentinel_var == true)
                             {
-                                Engine.cs_queue_command_script(hangar_sentinels_flit.c1, hangar_fly_l1);
+                                Engine.cs_queue_command_script(hangar_sentinels_flit.c1, new ScriptMethodReference(hangar_fly_l1));
                                 this.hangar_sentinel_var = false;
                             }
                         }, 
@@ -3970,7 +3970,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                         {
                             if (this.hangar_sentinel_var == true)
                             {
-                                Engine.cs_queue_command_script(hangar_sentinels_flit.c1, hangar_fly_r1);
+                                Engine.cs_queue_command_script(hangar_sentinels_flit.c1, new ScriptMethodReference(hangar_fly_r1));
                                 this.hangar_sentinel_var = false;
                             }
                         });
@@ -3999,17 +3999,17 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task hangar_helpers()
         {
             Engine.ai_place(hangar_helper_01.Squad);
-            Engine.cs_run_command_script(hangar_helper_01.Squad, forever_pause);
+            Engine.cs_run_command_script(hangar_helper_01.Squad, new ScriptMethodReference(forever_pause));
             Engine.ai_place(hangar_helper_03.Squad);
-            Engine.cs_run_command_script(hangar_helper_03.Squad, forever_pause);
+            Engine.cs_run_command_script(hangar_helper_03.Squad, new ScriptMethodReference(forever_pause));
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_trigger_helpers, Engine.players()) == true);
-            Engine.cs_run_command_script(hangar_helper_03.Squad, hangar_help_03);
-            Engine.cs_run_command_script(hangar_helper_01.Squad, hangar_help_01);
+            Engine.cs_run_command_script(hangar_helper_03.Squad, new ScriptMethodReference(hangar_help_03));
+            Engine.cs_run_command_script(hangar_helper_01.Squad, new ScriptMethodReference(hangar_help_01));
             Engine.ai_place(hangar_helper_02.Squad);
-            Engine.cs_run_command_script(hangar_helper_02.Squad, hangar_help_02);
-            Engine.cs_queue_command_script(hangar_helper_02.Squad, hangar_help_03);
+            Engine.cs_run_command_script(hangar_helper_02.Squad, new ScriptMethodReference(hangar_help_02));
+            Engine.cs_queue_command_script(hangar_helper_02.Squad, new ScriptMethodReference(hangar_help_03));
             await Engine.sleep(90);
-            Engine.ai_scene("sentinel_react_scene", hangar_sentinel_comment, arm01_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+            Engine.ai_scene("sentinel_react_scene", new ScriptMethodReference(hangar_sentinel_comment), arm01_allies) // Couldn't generate cast from 'Boolean' to 'Void'
             ;
             await Engine.sleep_until(async () => (short)Engine.ai_combat_status(hangar_heretics) > this.ai_combat_status_uninspected);
             Engine.unit_add_equipment(Engine.unit(Engine.list_get(Engine.ai_actors(hangar_helper_01.Squad), 0)), swap, true, true);
@@ -4017,10 +4017,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.unit_add_equipment(Engine.unit(Engine.list_get(Engine.ai_actors(hangar_helper_03.Squad), 0)), swap, true, true);
             Engine.objects_detach(Engine.list_get(Engine.ai_actors(hangar_helper_01.Squad), 0), help_can_01.Entity);
             Engine.objects_detach(Engine.list_get(Engine.ai_actors(hangar_helper_02.Squad), 0), help_can_02.Entity);
-            Engine.cs_run_command_script(hangar_helper_01.Squad, abort);
-            Engine.cs_run_command_script(hangar_helper_02.Squad, abort);
-            Engine.cs_run_command_script(hangar_helper_03.Squad, abort);
-            Engine.cs_queue_command_script(hangar_sentinels_flit.Squad, abort);
+            Engine.cs_run_command_script(hangar_helper_01.Squad, new ScriptMethodReference(abort));
+            Engine.cs_run_command_script(hangar_helper_02.Squad, new ScriptMethodReference(abort));
+            Engine.cs_run_command_script(hangar_helper_03.Squad, new ScriptMethodReference(abort));
+            Engine.cs_queue_command_script(hangar_sentinels_flit.Squad, new ScriptMethodReference(abort));
         }
 
         [ScriptMethod(295, Lifecycle.CommandScript)]
@@ -4094,7 +4094,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 return false;
             }, 30, 150);
             Engine.ai_place(hangar_phantom.Squad);
-            Engine.cs_run_command_script(hangar_phantom.Squad, hangar_phantom_arrives);
+            Engine.cs_run_command_script(hangar_phantom.Squad, new ScriptMethodReference(hangar_phantom_arrives));
             await Engine.sleep(60);
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(hangar_phantom.Squad) > 1);
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(hangar_phantom.Squad) < 2);
@@ -4125,7 +4125,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 return false;
             }, 30, 150);
             Engine.ai_place(hangar_phantom.Squad);
-            Engine.cs_run_command_script(hangar_phantom.Squad, hangar_phantom_arrives);
+            Engine.cs_run_command_script(hangar_phantom.Squad, new ScriptMethodReference(hangar_phantom_arrives));
             await Engine.sleep(60);
             Engine.ai_place(reinforce_elites_01.Squad, (short)(2 - (float)Engine.ai_living_count(allies_elites)));
             Engine.ai_place(reinforce_grunts_01.Squad, (short)(2 - (float)Engine.ai_living_count(allies_grunts)));
@@ -4211,7 +4211,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task hangar_alerted_call()
         {
             await Engine.sleep_until(async () => (short)Engine.ai_combat_status(hangar_heretics) > this.ai_combat_status_uninspected);
-            Engine.ai_scene("hangar_s_call_scene", hangar_sentinel_call, hangar_heretics) // Couldn't generate cast from 'Boolean' to 'Void'
+            Engine.ai_scene("hangar_s_call_scene", new ScriptMethodReference(hangar_sentinel_call), hangar_heretics) // Couldn't generate cast from 'Boolean' to 'Void'
             ;
         }
 
@@ -4240,7 +4240,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     Engine.print("heavy_02r_a");
                     Engine.ai_place(hangar_heretic_heavies_R._02a);
-                    Engine.cs_run_command_script(hangar_heretic_heavies_R.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_heretic_heavies_R.Squad, new ScriptMethodReference(snap_alert));
                     this.heavies_spawned = (short)(this.heavies_spawned + 1);
                 }
             }, 
@@ -4250,7 +4250,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     Engine.print("heavy_02r_b");
                     Engine.ai_place(hangar_heretic_heavies_R._02b);
-                    Engine.cs_run_command_script(hangar_heretic_heavies_R.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_heretic_heavies_R.Squad, new ScriptMethodReference(snap_alert));
                     this.heavies_spawned = (short)(this.heavies_spawned + 1);
                 }
             }, 
@@ -4260,7 +4260,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     Engine.print("heavy_03r_a");
                     Engine.ai_place(hangar_heretic_heavies_R._03a);
-                    Engine.cs_run_command_script(hangar_heretic_heavies_R.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_heretic_heavies_R.Squad, new ScriptMethodReference(snap_alert));
                     this.heavies_spawned = (short)(this.heavies_spawned + 1);
                 }
             }, 
@@ -4270,7 +4270,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     Engine.print("heavy_03r_b");
                     Engine.ai_place(hangar_heretic_heavies_R._03b);
-                    Engine.cs_run_command_script(hangar_heretic_heavies_R.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_heretic_heavies_R.Squad, new ScriptMethodReference(snap_alert));
                     this.heavies_spawned = (short)(this.heavies_spawned + 1);
                 }
             }, 
@@ -4280,7 +4280,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     Engine.print("heavy_02l_a");
                     Engine.ai_place(hangar_heretic_heavies_L._02a);
-                    Engine.cs_run_command_script(hangar_heretic_heavies_L.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_heretic_heavies_L.Squad, new ScriptMethodReference(snap_alert));
                     this.heavies_spawned = (short)(this.heavies_spawned + 1);
                 }
             }, 
@@ -4290,7 +4290,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     Engine.print("heavy_02l_b");
                     Engine.ai_place(hangar_heretic_heavies_L._02b);
-                    Engine.cs_run_command_script(hangar_heretic_heavies_L.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_heretic_heavies_L.Squad, new ScriptMethodReference(snap_alert));
                     this.heavies_spawned = (short)(this.heavies_spawned + 1);
                 }
             }, 
@@ -4300,7 +4300,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     Engine.print("heavy_03l_a");
                     Engine.ai_place(hangar_heretic_heavies_L._03a);
-                    Engine.cs_run_command_script(hangar_heretic_heavies_L.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_heretic_heavies_L.Squad, new ScriptMethodReference(snap_alert));
                     this.heavies_spawned = (short)(this.heavies_spawned + 1);
                 }
             }, 
@@ -4310,7 +4310,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     Engine.print("heavy_03l_b");
                     Engine.ai_place(hangar_heretic_heavies_L._03b);
-                    Engine.cs_run_command_script(hangar_heretic_heavies_L.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_heretic_heavies_L.Squad, new ScriptMethodReference(snap_alert));
                     this.heavies_spawned = (short)(this.heavies_spawned + 1);
                 }
             });
@@ -4324,7 +4324,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.volume_test_objects(vol_hangar_spawn_02r, Engine.players()) == false && await this.player_count() > 0 && Engine.device_get_position(hang_02r.Entity) == 0F)
                 {
                     Engine.ai_place(hangar_a50_02r_high.Squad, (short)((float)Engine.random_range(0, 3) - (float)Engine.ai_living_count(a50_high)));
-                    Engine.cs_run_command_script(hangar_a50_02r_high.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_a50_02r_high.Squad, new ScriptMethodReference(snap_alert));
                 }
             }, 
                 async () =>
@@ -4332,7 +4332,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.volume_test_objects(vol_hangar_spawn_02r, Engine.players()) == false && await this.player_count() > 0 && Engine.device_get_position(hang_02r.Entity) == 0F)
                 {
                     Engine.ai_place(hangar_a50_02r_low.Squad, (short)((float)Engine.random_range(0, 3) - (float)Engine.ai_living_count(a50_low)));
-                    Engine.cs_run_command_script(hangar_a50_02r_low.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_a50_02r_low.Squad, new ScriptMethodReference(snap_alert));
                 }
             }, 
                 async () =>
@@ -4340,7 +4340,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.volume_test_objects(vol_hangar_spawn_03r, Engine.players()) == false && await this.player_count() > 0 && Engine.device_get_position(hang_03r.Entity) == 0F)
                 {
                     Engine.ai_place(hangar_a50_03r_high.Squad, (short)((float)Engine.random_range(0, 3) - (float)Engine.ai_living_count(a50_high)));
-                    Engine.cs_run_command_script(hangar_a50_03r_high.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_a50_03r_high.Squad, new ScriptMethodReference(snap_alert));
                 }
             }, 
                 async () =>
@@ -4348,7 +4348,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.volume_test_objects(vol_hangar_spawn_03r, Engine.players()) == false && await this.player_count() > 0 && Engine.device_get_position(hang_03r.Entity) == 0F)
                 {
                     Engine.ai_place(hangar_a50_03r_low.Squad, (short)((float)Engine.random_range(0, 3) - (float)Engine.ai_living_count(a50_low)));
-                    Engine.cs_run_command_script(hangar_a50_03r_low.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_a50_03r_low.Squad, new ScriptMethodReference(snap_alert));
                 }
             }, 
                 async () =>
@@ -4356,7 +4356,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.volume_test_objects(vol_hangar_spawn_02l, Engine.players()) == false && await this.player_count() > 0 && Engine.device_get_position(hang_02l.Entity) == 0F)
                 {
                     Engine.ai_place(hangar_a50_02l_high.Squad, (short)((float)Engine.random_range(0, 3) - (float)Engine.ai_living_count(a50_high)));
-                    Engine.cs_run_command_script(hangar_a50_02l_high.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_a50_02l_high.Squad, new ScriptMethodReference(snap_alert));
                 }
             }, 
                 async () =>
@@ -4364,7 +4364,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.volume_test_objects(vol_hangar_spawn_02l, Engine.players()) == false && await this.player_count() > 0 && Engine.device_get_position(hang_02l.Entity) == 0F)
                 {
                     Engine.ai_place(hangar_a50_02l_low.Squad, (short)((float)Engine.random_range(0, 3) - (float)Engine.ai_living_count(a50_low)));
-                    Engine.cs_run_command_script(hangar_a50_02l_low.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_a50_02l_low.Squad, new ScriptMethodReference(snap_alert));
                 }
             }, 
                 async () =>
@@ -4372,7 +4372,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.volume_test_objects(vol_hangar_spawn_03l, Engine.players()) == false && await this.player_count() > 0 && Engine.device_get_position(hang_03l.Entity) == 0F)
                 {
                     Engine.ai_place(hangar_a50_03l_high.Squad, (short)((float)Engine.random_range(0, 3) - (float)Engine.ai_living_count(a50_high)));
-                    Engine.cs_run_command_script(hangar_a50_03l_high.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_a50_03l_high.Squad, new ScriptMethodReference(snap_alert));
                 }
             }, 
                 async () =>
@@ -4380,7 +4380,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.volume_test_objects(vol_hangar_spawn_03l, Engine.players()) == false && await this.player_count() > 0 && Engine.device_get_position(hang_03l.Entity) == 0F)
                 {
                     Engine.ai_place(hangar_a50_03l_low.Squad, (short)((float)Engine.random_range(0, 3) - (float)Engine.ai_living_count(a50_low)));
-                    Engine.cs_run_command_script(hangar_a50_03l_low.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_a50_03l_low.Squad, new ScriptMethodReference(snap_alert));
                 }
             });
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(hangar_heretics) < 3, 30, 8000);
@@ -4392,7 +4392,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.volume_test_objects(vol_hangar_spawn_02r, Engine.players()) == false && await this.player_count() > 0 && Engine.device_get_position(hang_02r.Entity) == 0F)
                 {
                     Engine.ai_place(hangar_a50_02r_high.Squad, (short)((float)Engine.random_range(0, 2) - (float)Engine.ai_living_count(a50_high)));
-                    Engine.cs_run_command_script(hangar_a50_02r_high.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_a50_02r_high.Squad, new ScriptMethodReference(snap_alert));
                 }
             }, 
                 async () =>
@@ -4400,7 +4400,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.volume_test_objects(vol_hangar_spawn_02r, Engine.players()) == false && await this.player_count() > 0 && Engine.device_get_position(hang_02r.Entity) == 0F)
                 {
                     Engine.ai_place(hangar_a50_02r_low.Squad, (short)((float)Engine.random_range(0, 4) - (float)Engine.ai_living_count(a50_low)));
-                    Engine.cs_run_command_script(hangar_a50_02r_low.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_a50_02r_low.Squad, new ScriptMethodReference(snap_alert));
                 }
             }, 
                 async () =>
@@ -4408,7 +4408,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.volume_test_objects(vol_hangar_spawn_01r, Engine.players()) == false && await this.player_count() > 0 && Engine.device_get_position(hang_01r.Entity) == 0F)
                 {
                     Engine.ai_place(hangar_a50_01r_high.Squad, (short)((float)Engine.random_range(0, 2) - (float)Engine.ai_living_count(a50_high)));
-                    Engine.cs_run_command_script(hangar_a50_01r_high.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_a50_01r_high.Squad, new ScriptMethodReference(snap_alert));
                 }
             }, 
                 async () =>
@@ -4416,7 +4416,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.volume_test_objects(vol_hangar_spawn_01r, Engine.players()) == false && await this.player_count() > 0 && Engine.device_get_position(hang_01r.Entity) == 0F)
                 {
                     Engine.ai_place(hangar_a50_01r_low.Squad, (short)((float)Engine.random_range(0, 4) - (float)Engine.ai_living_count(a50_low)));
-                    Engine.cs_run_command_script(hangar_a50_01r_low.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_a50_01r_low.Squad, new ScriptMethodReference(snap_alert));
                 }
             }, 
                 async () =>
@@ -4424,7 +4424,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.volume_test_objects(vol_hangar_spawn_02l, Engine.players()) == false && await this.player_count() > 0 && Engine.device_get_position(hang_02l.Entity) == 0F)
                 {
                     Engine.ai_place(hangar_a50_02l_high.Squad, (short)((float)Engine.random_range(0, 2) - (float)Engine.ai_living_count(a50_high)));
-                    Engine.cs_run_command_script(hangar_a50_02l_high.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_a50_02l_high.Squad, new ScriptMethodReference(snap_alert));
                 }
             }, 
                 async () =>
@@ -4432,7 +4432,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.volume_test_objects(vol_hangar_spawn_02l, Engine.players()) == false && await this.player_count() > 0 && Engine.device_get_position(hang_02l.Entity) == 0F)
                 {
                     Engine.ai_place(hangar_a50_02l_low.Squad, (short)((float)Engine.random_range(0, 4) - (float)Engine.ai_living_count(a50_low)));
-                    Engine.cs_run_command_script(hangar_a50_02l_low.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_a50_02l_low.Squad, new ScriptMethodReference(snap_alert));
                 }
             }, 
                 async () =>
@@ -4440,7 +4440,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.volume_test_objects(vol_hangar_spawn_01l, Engine.players()) == false && await this.player_count() > 0 && Engine.device_get_position(hang_01l.Entity) == 0F)
                 {
                     Engine.ai_place(hangar_a50_01l_high.Squad, (short)((float)Engine.random_range(0, 2) - (float)Engine.ai_living_count(a50_high)));
-                    Engine.cs_run_command_script(hangar_a50_01l_high.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_a50_01l_high.Squad, new ScriptMethodReference(snap_alert));
                 }
             }, 
                 async () =>
@@ -4448,7 +4448,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.volume_test_objects(vol_hangar_spawn_01l, Engine.players()) == false && await this.player_count() > 0 && Engine.device_get_position(hang_01l.Entity) == 0F)
                 {
                     Engine.ai_place(hangar_a50_01l_low.Squad, (short)((float)Engine.random_range(0, 4) - (float)Engine.ai_living_count(a50_low)));
-                    Engine.cs_run_command_script(hangar_a50_01l_low.Squad, snap_alert);
+                    Engine.cs_run_command_script(hangar_a50_01l_low.Squad, new ScriptMethodReference(snap_alert));
                 }
             });
         }
@@ -4469,7 +4469,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_hangar_center_exit, Engine.players()) == true, 30, 300);
             if (Engine.volume_test_objects(vol_hangar_center_exit, Engine.players()) == false && await this.player_count() > 0)
             {
-                Engine.ai_scene("hangar_exit_scene", hangar_exit_comment, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+                Engine.ai_scene("hangar_exit_scene", new ScriptMethodReference(hangar_exit_comment), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
                 ;
             }
         }
@@ -4545,9 +4545,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(hangar_heretic_06L.Squad, (short)(1 - (float)Engine.ai_living_count(hangar_heretic_06R.Squad)));
             Engine.ai_place(hangar_grunts_04R.Squad, 1);
             Engine.ai_place(hangar_grunts_04L.Squad, 1);
-            Engine.cs_run_command_script(hangar_heretics, snap_alert);
-            Engine.cs_queue_command_script(hangar_grunts_04R.Squad, deploy_hangar_right);
-            Engine.cs_queue_command_script(hangar_grunts_04L.Squad, deploy_hangar_left);
+            Engine.cs_run_command_script(hangar_heretics, new ScriptMethodReference(snap_alert));
+            Engine.cs_queue_command_script(hangar_grunts_04R.Squad, new ScriptMethodReference(deploy_hangar_right));
+            Engine.cs_queue_command_script(hangar_grunts_04L.Squad, new ScriptMethodReference(deploy_hangar_left));
         }
 
         [ScriptMethod(313, Lifecycle.Dormant)]
@@ -4570,7 +4570,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(hangar_grunts_01L.Squad, (short)(2 - (float)Engine.ai_living_count(hangar_grunts_01R.Squad)));
             await Engine.sleep_until(async () => Engine.device_get_position(elev_hangar.Entity) > 0.1F);
             Engine.wake(new ScriptMethodReference(music_04a_01_start));
-            Engine.cs_run_command_script(all_allies, abort);
+            Engine.cs_run_command_script(all_allies, new ScriptMethodReference(abort));
             Engine.wake(new ScriptMethodReference(hangar_extra_save));
             await Engine.sleep_until(async () => Engine.device_get_position(elev_hangar.Entity) > 0.6F);
             this.stealth_talk_gone = true;
@@ -4617,25 +4617,25 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(150);
             Engine.game_save();
             Engine.ai_place(hangar_a50_02r_high.Squad, (short)((float)Engine.random_range(0, 3) - (float)Engine.ai_living_count(a50_high)));
-            Engine.cs_run_command_script(hangar_a50_02r_high.Squad, snap_alert);
+            Engine.cs_run_command_script(hangar_a50_02r_high.Squad, new ScriptMethodReference(snap_alert));
             Engine.ai_place(hangar_a50_02l_high.Squad, (short)(2 - (float)Engine.ai_living_count(a50_high)));
-            Engine.cs_run_command_script(hangar_a50_02l_high.Squad, snap_alert);
+            Engine.cs_run_command_script(hangar_a50_02l_high.Squad, new ScriptMethodReference(snap_alert));
             Engine.ai_place(hangar_a50_02r_low.Squad, (short)((float)Engine.random_range(0, 3) - (float)Engine.ai_living_count(a50_low)));
-            Engine.cs_run_command_script(hangar_a50_02r_low.Squad, snap_alert);
+            Engine.cs_run_command_script(hangar_a50_02r_low.Squad, new ScriptMethodReference(snap_alert));
             Engine.ai_place(hangar_a50_02l_low.Squad, (short)(2 - (float)Engine.ai_living_count(a50_low)));
-            Engine.cs_run_command_script(hangar_a50_02l_low.Squad, snap_alert);
+            Engine.cs_run_command_script(hangar_a50_02l_low.Squad, new ScriptMethodReference(snap_alert));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(hangar_heretics) < 3 || Engine.volume_test_objects(vol_hangar_center_exit, Engine.players()) == true, 30, 3600);
             Engine.game_save();
             if (Engine.volume_test_objects(vol_hangar_center_exit, Engine.players()) == false && await this.player_count() > 0)
             {
                 Engine.ai_place(hangar_a50_01r_high.Squad, (short)((float)Engine.random_range(0, 3) - (float)Engine.ai_living_count(a50_high)));
-                Engine.cs_run_command_script(hangar_a50_01r_high.Squad, snap_alert);
+                Engine.cs_run_command_script(hangar_a50_01r_high.Squad, new ScriptMethodReference(snap_alert));
                 Engine.ai_place(hangar_a50_01l_high.Squad, (short)(2 - (float)Engine.ai_living_count(a50_high)));
-                Engine.cs_run_command_script(hangar_a50_01l_high.Squad, snap_alert);
+                Engine.cs_run_command_script(hangar_a50_01l_high.Squad, new ScriptMethodReference(snap_alert));
                 Engine.ai_place(hangar_a50_01r_low.Squad, (short)((float)Engine.random_range(0, 3) - (float)Engine.ai_living_count(a50_low)));
-                Engine.cs_run_command_script(hangar_a50_01r_low.Squad, snap_alert);
+                Engine.cs_run_command_script(hangar_a50_01r_low.Squad, new ScriptMethodReference(snap_alert));
                 Engine.ai_place(hangar_a50_01l_low.Squad, (short)(2 - (float)Engine.ai_living_count(a50_low)));
-                Engine.cs_run_command_script(hangar_a50_01l_low.Squad, snap_alert);
+                Engine.cs_run_command_script(hangar_a50_01l_low.Squad, new ScriptMethodReference(snap_alert));
             }
 
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(hangar_heretics) < 3 || Engine.volume_test_objects(vol_hangar_center_exit, Engine.players()) == true, 30, 3600);
@@ -4645,14 +4645,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(hangar_heretic_06L.Squad, (short)(1 - (float)Engine.ai_living_count(hangar_heretic_06R.Squad)));
             Engine.ai_place(hangar_grunts_04R.Squad, 1);
             Engine.ai_place(hangar_grunts_04L.Squad, 1);
-            Engine.cs_run_command_script(hangar_heretics, snap_alert);
-            Engine.cs_queue_command_script(hangar_grunts_04R.Squad, deploy_hangar_right);
-            Engine.cs_queue_command_script(hangar_grunts_04L.Squad, deploy_hangar_left);
+            Engine.cs_run_command_script(hangar_heretics, new ScriptMethodReference(snap_alert));
+            Engine.cs_queue_command_script(hangar_grunts_04R.Squad, new ScriptMethodReference(deploy_hangar_right));
+            Engine.cs_queue_command_script(hangar_grunts_04L.Squad, new ScriptMethodReference(deploy_hangar_left));
             Engine.wake(new ScriptMethodReference(hangar_exit_warn));
             Engine.wake(new ScriptMethodReference(hangar_reminder));
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_leaving_hangar, Engine.players()) == true, 30, 300);
             Engine.ai_place(hangar_heretic_06C.Squad, 1);
-            Engine.cs_run_command_script(hangar_heretic_06C.Squad, snap_alert);
+            Engine.cs_run_command_script(hangar_heretic_06C.Squad, new ScriptMethodReference(snap_alert));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(hangar_heretics) < 1);
             Engine.game_save();
         }
@@ -4662,7 +4662,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep_until(async () => (short)Engine.ai_combat_status(first_hall_heretics) > this.ai_combat_status_idle && (short)Engine.ai_living_count(first_hall_heretic_01.Squad) < 1 || (short)Engine.ai_living_count(first_hall_heretic_02.Squad) < 1);
             Engine.ai_place(first_hall_heretic_03.Squad, 2);
-            Engine.cs_run_command_script(first_hall_heretic_03.Squad, snap_alert);
+            Engine.cs_run_command_script(first_hall_heretic_03.Squad, new ScriptMethodReference(snap_alert));
         }
 
         [ScriptMethod(315, Lifecycle.Dormant)]
@@ -4759,7 +4759,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_place(underhangar_rein_her_01.Squad, 2);
                 }
 
-                Engine.cs_run_command_script(underhangar_rein_her_01.Squad, snap_alert);
+                Engine.cs_run_command_script(underhangar_rein_her_01.Squad, new ScriptMethodReference(snap_alert));
             }
 
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_underhangar_halfway, Engine.players()) == true || Engine.volume_test_objects(vol_underhangar_end, Engine.players()) == true);
@@ -4770,7 +4770,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_place(underhangar_rein_her_02.Squad, 2);
                 }
 
-                Engine.cs_run_command_script(underhangar_rein_her_02.Squad, snap_alert);
+                Engine.cs_run_command_script(underhangar_rein_her_02.Squad, new ScriptMethodReference(snap_alert));
             }
 
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_underhangar_end, Engine.players()) == true);
@@ -4779,7 +4779,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.ai_place(underhangar_grunts_03.Squad, 4);
             }
 
-            Engine.cs_run_command_script(underhangar_grunts_03.Squad, snap_alert);
+            Engine.cs_run_command_script(underhangar_grunts_03.Squad, new ScriptMethodReference(snap_alert));
         }
 
         [ScriptMethod(320, Lifecycle.CommandScript)]
@@ -4798,7 +4798,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_underhangar_from_bottom, Engine.players()) == true, 30, 900);
             if (Engine.volume_test_objects(vol_underhangar_from_bottom, Engine.players()) == false && await this.player_count() > 0)
             {
-                Engine.ai_scene("underhangar_scene", underhangar_comment, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+                Engine.ai_scene("underhangar_scene", new ScriptMethodReference(underhangar_comment), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
                 ;
             }
         }
@@ -4855,7 +4855,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep_until(async () => (short)Engine.ai_combat_status(second_hall_grunts_01.Squad) > this.ai_combat_status_idle || (short)Engine.ai_combat_status(second_hall_heretic_01.Squad) > this.ai_combat_status_idle);
             Engine.ai_place(second_hall_heretic_02.Squad, 1);
-            Engine.cs_run_command_script(second_hall_heretic_02.Squad, snap_alert);
+            Engine.cs_run_command_script(second_hall_heretic_02.Squad, new ScriptMethodReference(snap_alert));
         }
 
         [ScriptMethod(324, Lifecycle.Dormant)]
@@ -4870,7 +4870,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.ai_place(second_hall_grunts_02._4);
             }
 
-            Engine.cs_run_command_script(second_hall_grunts_02.Squad, snap_alert);
+            Engine.cs_run_command_script(second_hall_grunts_02.Squad, new ScriptMethodReference(snap_alert));
         }
 
         [ScriptMethod(325, Lifecycle.Dormant)]
@@ -4883,8 +4883,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.ai_place(second_hall_heretic_05.Squad, 1);
             }
 
-            Engine.cs_run_command_script(second_hall_heretic_04.Squad, snap_alert);
-            Engine.cs_run_command_script(second_hall_heretic_05.Squad, snap_alert);
+            Engine.cs_run_command_script(second_hall_heretic_04.Squad, new ScriptMethodReference(snap_alert));
+            Engine.cs_run_command_script(second_hall_heretic_05.Squad, new ScriptMethodReference(snap_alert));
         }
 
         [ScriptMethod(326, Lifecycle.Dormant)]
@@ -5150,12 +5150,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 if ((short)Engine.ai_living_count(allies_elites) > 0)
                 {
-                    Engine.ai_scene("bottling_elite_scene", bottling_elites_secure, allies_elites) // Couldn't generate cast from 'Boolean' to 'Void'
+                    Engine.ai_scene("bottling_elite_scene", new ScriptMethodReference(bottling_elites_secure), allies_elites) // Couldn't generate cast from 'Boolean' to 'Void'
                     ;
                 }
                 else
                 {
-                    Engine.ai_scene("bottling_grunt_scene", bottling_grunts_secure, allies_grunts) // Couldn't generate cast from 'Boolean' to 'Void'
+                    Engine.ai_scene("bottling_grunt_scene", new ScriptMethodReference(bottling_grunts_secure), allies_grunts) // Couldn't generate cast from 'Boolean' to 'Void'
                     ;
                 }
             }
@@ -5191,7 +5191,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.wake(new ScriptMethodReference(big_filth_toggle));
             Engine.ai_place(allied_phantom_01.Squad);
             Engine.object_cannot_take_damage(Engine.ai_vehicle_get_from_starting_location(allied_phantom_01.driver));
-            Engine.cs_run_command_script(allied_phantom_01.driver, phantom_to_ledge);
+            Engine.cs_run_command_script(allied_phantom_01.driver, new ScriptMethodReference(phantom_to_ledge));
             Engine.ai_dialogue_enable(false);
             await Engine.sleep(60);
             Engine.print("spec-ops commander: 'the heretics are mobilizing their air-forces, dervish!'");
@@ -5226,7 +5226,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(ledge_banshees_01.right), true);
             Engine.ai_place(bottling_heretics_05.Squad, 2);
             Engine.ai_place(heretic_leader_03.Squad);
-            Engine.cs_run_command_script(heretic_leader_03.Squad, long_pause);
+            Engine.cs_run_command_script(heretic_leader_03.Squad, new ScriptMethodReference(long_pause));
             Engine.object_cannot_take_damage(Engine.ai_actors(heretic_leader_03.Squad));
             this.left_bottling_firsthalf = true;
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_hl_delete_02, Engine.players()) == true, 30, 90);
@@ -5236,9 +5236,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             }
 
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_hl_delete_02, Engine.players()) == true);
-            Engine.cs_run_command_script(heretic_leader_03.Squad, hl_retreat_02);
+            Engine.cs_run_command_script(heretic_leader_03.Squad, new ScriptMethodReference(hl_retreat_02));
             await Engine.sleep_until(async () => this.hl_done_yapping == true, 30, 450);
-            await Engine.sleep_until(async () => Engine.ai_scene("heretic_retreat_02_scene", hl_retreat_react, bottling_heretics_05.Squad), 30, 90);
+            await Engine.sleep_until(async () => Engine.ai_scene("heretic_retreat_02_scene", new ScriptMethodReference(hl_retreat_react), bottling_heretics_05.Squad), 30, 90);
             Engine.game_save();
             Engine.begin_random(async () =>
             {
@@ -5287,7 +5287,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_grunt_bday, Engine.players()) == true);
             Engine.object_create(bday_cake);
             Engine.ai_place(bday_party.Squad);
-            Engine.cs_run_command_script(bday_party.Squad, partytime);
+            Engine.cs_run_command_script(bday_party.Squad, new ScriptMethodReference(partytime));
             Engine.custom_animation_loop(Engine.unit(Engine.list_get(Engine.ai_actors(bday_party.Squad), 0)), Engine.GetTag<AnimationGraphTag>("objects\\characters\\grunt\\grunt", 3959622285U), "combat:pistol:cheer", true);
             Engine.custom_animation_loop(Engine.unit(Engine.list_get(Engine.ai_actors(bday_party.Squad), 1)), Engine.GetTag<AnimationGraphTag>("objects\\characters\\grunt\\grunt", 3959622285U), "combat:pistol:cheer", true);
             Engine.custom_animation_loop(Engine.unit(Engine.list_get(Engine.ai_actors(bday_party.Squad), 2)), Engine.GetTag<AnimationGraphTag>("objects\\characters\\grunt\\grunt", 3959622285U), "combat:pistol:cheer", true);
@@ -6037,16 +6037,16 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.vehicle_unload(Engine.ai_vehicle_get_from_starting_location(allied_phantom_01.driver), "phantom_p_a02");
             await Engine.sleep(30);
             Engine.vehicle_unload(Engine.ai_vehicle_get_from_starting_location(allied_phantom_01.driver), "phantom_p_a03");
-            Engine.cs_run_command_script(allies_elites_03.elite01, arm02_swat_aim_00);
-            Engine.cs_run_command_script(allies_elites_03.elite02, arm02_swat_aim_01);
+            Engine.cs_run_command_script(allies_elites_03.elite01, new ScriptMethodReference(arm02_swat_aim_00));
+            Engine.cs_run_command_script(allies_elites_03.elite02, new ScriptMethodReference(arm02_swat_aim_01));
             await Engine.sleep(30);
             Engine.vehicle_unload(Engine.ai_vehicle_get_from_starting_location(allied_phantom_01.driver), "phantom_p_b01");
             await Engine.sleep(30);
             Engine.vehicle_unload(Engine.ai_vehicle_get_from_starting_location(allied_phantom_01.driver), "phantom_p_b02");
             await Engine.sleep(30);
             Engine.vehicle_unload(Engine.ai_vehicle_get_from_starting_location(allied_phantom_01.driver), "phantom_p_b03");
-            Engine.cs_run_command_script(allies_grunts_03.grunt01, arm02_swat_aim_02);
-            Engine.cs_run_command_script(allies_grunts_03.grunt02, arm02_swat_aim_03);
+            Engine.cs_run_command_script(allies_grunts_03.grunt01, new ScriptMethodReference(arm02_swat_aim_02));
+            Engine.cs_run_command_script(allies_grunts_03.grunt02, new ScriptMethodReference(arm02_swat_aim_03));
             Engine.cs_pause(-1F);
         }
 
@@ -6157,7 +6157,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task phantom_path_w_orders()
         {
             Engine.wake(new ScriptMethodReference(banshee_fight_saving));
-            Engine.cs_run_command_script(allied_phantom_01.driver, abort);
+            Engine.cs_run_command_script(allied_phantom_01.driver, new ScriptMethodReference(abort));
             Engine.ai_set_orders(allied_phantom_01.Squad, dog_ph_obj_01);
             Engine.wake(new ScriptMethodReference(dogfight_ph_pilot_talk));
             await Engine.sleep(30);
@@ -6177,7 +6177,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_set_orders(dogfight_enemies.Squad, dogfight01_cell_02);
                     await Engine.sleep(60);
                     Engine.ai_magically_see(dogfight_enemies.Squad, allied_phantom_01.Squad);
-                    Engine.cs_run_command_script(dogfight_enemies.pt_03, boost_test);
+                    Engine.cs_run_command_script(dogfight_enemies.pt_03, new ScriptMethodReference(boost_test));
                 }
 
                 if (Engine.objects_can_see_flag(Engine.players(), spawn_pt_01, 90F) == false && (short)Engine.ai_living_count(dogfighters_01) < 2)
@@ -6187,7 +6187,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_set_orders(dogfight_enemies.Squad, dogfight01_cell_02);
                     await Engine.sleep(60);
                     Engine.ai_magically_see(dogfight_enemies.Squad, allied_phantom_01.Squad);
-                    Engine.cs_run_command_script(dogfight_enemies.pt_01, boost_test);
+                    Engine.cs_run_command_script(dogfight_enemies.pt_01, new ScriptMethodReference(boost_test));
                 }
 
                 if (Engine.objects_can_see_flag(Engine.players(), spawn_pt_02, 90F) == false && (short)Engine.ai_living_count(dogfighters_01) < 2)
@@ -6197,7 +6197,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_set_orders(dogfight_enemies.Squad, dogfight01_cell_02);
                     await Engine.sleep(60);
                     Engine.ai_magically_see(dogfight_enemies.Squad, allied_phantom_01.Squad);
-                    Engine.cs_run_command_script(dogfight_enemies.pt_02, boost_test);
+                    Engine.cs_run_command_script(dogfight_enemies.pt_02, new ScriptMethodReference(boost_test));
                 }
 
                 await Engine.sleep_until(async () => Engine.volume_test_objects(vol_dog_obj_02, Engine.ai_actors(allied_phantom_01.Squad)) == true || (short)Engine.ai_living_count(dogfighters_01) < 2);
@@ -6215,7 +6215,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_set_orders(dogfight_enemies.Squad, dogfight01_cell_03);
                     await Engine.sleep(60);
                     Engine.ai_magically_see(dogfight_enemies.Squad, allied_phantom_01.Squad);
-                    Engine.cs_run_command_script(dogfight_enemies.pt_05, boost_test);
+                    Engine.cs_run_command_script(dogfight_enemies.pt_05, new ScriptMethodReference(boost_test));
                 }
 
                 if (Engine.objects_can_see_flag(Engine.players(), spawn_pt_03, 90F) == false && (short)Engine.ai_living_count(dogfighters_01) < 2)
@@ -6225,7 +6225,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_set_orders(dogfight_enemies.Squad, dogfight01_cell_03);
                     await Engine.sleep(60);
                     Engine.ai_magically_see(dogfight_enemies.Squad, allied_phantom_01.Squad);
-                    Engine.cs_run_command_script(dogfight_enemies.pt_03, boost_test);
+                    Engine.cs_run_command_script(dogfight_enemies.pt_03, new ScriptMethodReference(boost_test));
                 }
 
                 if (Engine.objects_can_see_flag(Engine.players(), spawn_pt_04, 90F) == false && (short)Engine.ai_living_count(dogfighters_01) < 2)
@@ -6235,7 +6235,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_set_orders(dogfight_enemies.Squad, dogfight01_cell_03);
                     await Engine.sleep(60);
                     Engine.ai_magically_see(dogfight_enemies.Squad, allied_phantom_01.Squad);
-                    Engine.cs_run_command_script(dogfight_enemies.pt_04, boost_test);
+                    Engine.cs_run_command_script(dogfight_enemies.pt_04, new ScriptMethodReference(boost_test));
                 }
 
                 await Engine.sleep_until(async () => Engine.volume_test_objects(vol_dog_obj_03, Engine.players()) == true || Engine.volume_test_objects(vol_dog_obj_03, Engine.ai_actors(allied_phantom_01.Squad)) == true || (short)Engine.ai_living_count(dogfighters_01) < 2);
@@ -6263,7 +6263,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_set_orders(dogfight_enemies.Squad, dogfight01_cell_04);
                     await Engine.sleep(60);
                     Engine.ai_magically_see(dogfight_enemies.Squad, allied_phantom_01.Squad);
-                    Engine.cs_run_command_script(dogfight_enemies.pt_05, boost_test);
+                    Engine.cs_run_command_script(dogfight_enemies.pt_05, new ScriptMethodReference(boost_test));
                 }
 
                 if (Engine.objects_can_see_flag(Engine.players(), spawn_pt_06, 90F) == false && (short)Engine.ai_living_count(dogfighters_01) < 2)
@@ -6273,7 +6273,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_set_orders(dogfight_enemies.Squad, dogfight01_cell_04);
                     await Engine.sleep(60);
                     Engine.ai_magically_see(dogfight_enemies.Squad, allied_phantom_01.Squad);
-                    Engine.cs_run_command_script(dogfight_enemies.pt_06, boost_test);
+                    Engine.cs_run_command_script(dogfight_enemies.pt_06, new ScriptMethodReference(boost_test));
                 }
 
                 if (Engine.objects_can_see_flag(Engine.players(), spawn_pt_04, 90F) == false && (short)Engine.ai_living_count(dogfighters_01) < 2)
@@ -6283,7 +6283,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_set_orders(dogfight_enemies.Squad, dogfight01_cell_04);
                     await Engine.sleep(60);
                     Engine.ai_magically_see(dogfight_enemies.Squad, allied_phantom_01.Squad);
-                    Engine.cs_run_command_script(dogfight_enemies.pt_04, boost_test);
+                    Engine.cs_run_command_script(dogfight_enemies.pt_04, new ScriptMethodReference(boost_test));
                 }
 
                 await Engine.sleep_until(async () => Engine.volume_test_objects(vol_dog_obj_04, Engine.players()) == true || Engine.volume_test_objects(vol_dog_obj_04, Engine.ai_actors(allied_phantom_01.Squad)) == true || (short)Engine.ai_living_count(dogfighters_01) < 2);
@@ -6308,7 +6308,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_set_orders(dogfight_enemies.Squad, dogfight01_cell_06);
                     await Engine.sleep(60);
                     Engine.ai_magically_see(dogfight_enemies.Squad, allied_phantom_01.Squad);
-                    Engine.cs_run_command_script(dogfight_enemies.pt_01, boost_test);
+                    Engine.cs_run_command_script(dogfight_enemies.pt_01, new ScriptMethodReference(boost_test));
                 }
 
                 if (Engine.objects_can_see_flag(Engine.players(), spawn_pt_06, 90F) == false && (short)Engine.ai_living_count(dogfighters_01) < 2)
@@ -6318,7 +6318,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_set_orders(dogfight_enemies.Squad, dogfight01_cell_06);
                     await Engine.sleep(60);
                     Engine.ai_magically_see(dogfight_enemies.Squad, allied_phantom_01.Squad);
-                    Engine.cs_run_command_script(dogfight_enemies.pt_06, boost_test);
+                    Engine.cs_run_command_script(dogfight_enemies.pt_06, new ScriptMethodReference(boost_test));
                 }
 
                 if (Engine.objects_can_see_flag(Engine.players(), spawn_pt_07, 90F) == false && (short)Engine.ai_living_count(dogfighters_01) < 2)
@@ -6328,7 +6328,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_set_orders(dogfight_enemies.Squad, dogfight01_cell_06);
                     await Engine.sleep(60);
                     Engine.ai_magically_see(dogfight_enemies.Squad, allied_phantom_01.Squad);
-                    Engine.cs_run_command_script(dogfight_enemies.pt_07, boost_test);
+                    Engine.cs_run_command_script(dogfight_enemies.pt_07, new ScriptMethodReference(boost_test));
                 }
 
                 await Engine.sleep_until(async () => Engine.volume_test_objects(vol_dog_obj_06, Engine.players()) == true || Engine.volume_test_objects(vol_dog_obj_06, Engine.ai_actors(allied_phantom_01.Squad)) == true || (short)Engine.ai_living_count(dogfighters_01) < 2);
@@ -6356,7 +6356,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_set_orders(dogfight_enemies.Squad, dogfight01_cell_07);
                     await Engine.sleep(60);
                     Engine.ai_magically_see(dogfight_enemies.Squad, allied_phantom_01.Squad);
-                    Engine.cs_run_command_script(dogfight_enemies.pt_08, boost_test);
+                    Engine.cs_run_command_script(dogfight_enemies.pt_08, new ScriptMethodReference(boost_test));
                 }
 
                 if (Engine.objects_can_see_flag(Engine.players(), spawn_pt_06, 90F) == false && (short)Engine.ai_living_count(dogfighters_01) < 2)
@@ -6366,7 +6366,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_set_orders(dogfight_enemies.Squad, dogfight01_cell_07);
                     await Engine.sleep(60);
                     Engine.ai_magically_see(dogfight_enemies.Squad, allied_phantom_01.Squad);
-                    Engine.cs_run_command_script(dogfight_enemies.pt_06, boost_test);
+                    Engine.cs_run_command_script(dogfight_enemies.pt_06, new ScriptMethodReference(boost_test));
                 }
 
                 if (Engine.objects_can_see_flag(Engine.players(), spawn_pt_01, 90F) == false && (short)Engine.ai_living_count(dogfighters_01) < 2)
@@ -6376,7 +6376,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_set_orders(dogfight_enemies.Squad, dogfight01_cell_07);
                     await Engine.sleep(60);
                     Engine.ai_magically_see(dogfight_enemies.Squad, allied_phantom_01.Squad);
-                    Engine.cs_run_command_script(dogfight_enemies.pt_01, boost_test);
+                    Engine.cs_run_command_script(dogfight_enemies.pt_01, new ScriptMethodReference(boost_test));
                 }
 
                 await Engine.sleep_until(async () => Engine.volume_test_objects(vol_dog_obj_07, Engine.players()) == true || Engine.volume_test_objects(vol_dog_obj_07, Engine.ai_actors(allied_phantom_01.Squad)) == true || (short)Engine.ai_living_count(dogfighters_01) < 2);
@@ -6570,8 +6570,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task near_dog_obj_01()
         {
             Engine.ai_place(dog_turret_men_01.Squad);
-            Engine.cs_run_command_script(dog_turret_men_01.left, goto_dog_turret_01l);
-            Engine.cs_run_command_script(dog_turret_men_01.right, goto_dog_turret_01r);
+            Engine.cs_run_command_script(dog_turret_men_01.left, new ScriptMethodReference(goto_dog_turret_01l));
+            Engine.cs_run_command_script(dog_turret_men_01.right, new ScriptMethodReference(goto_dog_turret_01r));
             await Engine.sleep_until(async () =>
             {
                 if (Engine.objects_can_see_flag(Engine.players(), spawn_pt_08, 60F) == false && (short)Engine.ai_living_count(dogfighters_01) < 2)
@@ -6579,7 +6579,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_place(dogfight_enemies.pt_08);
                     Engine.ai_set_orders(dogfight_enemies.Squad, dogfight01_cell_01);
                     Engine.ai_magically_see(dogfight_enemies.Squad, allied_phantom_01.Squad);
-                    Engine.cs_run_command_script(dogfight_enemies.pt_08, boost_test);
+                    Engine.cs_run_command_script(dogfight_enemies.pt_08, new ScriptMethodReference(boost_test));
                 }
 
                 if (Engine.objects_can_see_flag(Engine.players(), spawn_pt_02, 60F) == false && (short)Engine.ai_living_count(dogfighters_01) < 2)
@@ -6587,7 +6587,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_place(dogfight_enemies.pt_02);
                     Engine.ai_set_orders(dogfight_enemies.Squad, dogfight01_cell_01);
                     Engine.ai_magically_see(dogfight_enemies.Squad, allied_phantom_01.Squad);
-                    Engine.cs_run_command_script(dogfight_enemies.pt_02, boost_test);
+                    Engine.cs_run_command_script(dogfight_enemies.pt_02, new ScriptMethodReference(boost_test));
                 }
 
                 if (Engine.objects_can_see_flag(Engine.players(), spawn_pt_01, 60F) == false && (short)Engine.ai_living_count(dogfighters_01) < 2)
@@ -6595,7 +6595,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_place(dogfight_enemies.pt_01);
                     Engine.ai_set_orders(dogfight_enemies.Squad, dogfight01_cell_01);
                     Engine.ai_magically_see(dogfight_enemies.Squad, allied_phantom_01.Squad);
-                    Engine.cs_run_command_script(dogfight_enemies.pt_01, boost_test);
+                    Engine.cs_run_command_script(dogfight_enemies.pt_01, new ScriptMethodReference(boost_test));
                 }
 
                 await Engine.sleep_until(async () => Engine.objects_distance_to_flag(Engine.players(), banshee_intro) > 75F || (short)Engine.ai_living_count(dogfighters_01) < 2 || (short)Engine.ai_spawn_count(dogfighters_01) > 2);
@@ -6611,8 +6611,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_dog_obj_02, Engine.players()) == true || Engine.volume_test_objects(vol_dog_obj_02, Engine.ai_actors(allied_phantom_01.Squad)) == true);
             Engine.ai_place(dog_turret_men_02.Squad);
-            Engine.cs_run_command_script(dog_turret_men_02.left, goto_dog_turret_02l);
-            Engine.cs_run_command_script(dog_turret_men_02.right, goto_dog_turret_02r);
+            Engine.cs_run_command_script(dog_turret_men_02.left, new ScriptMethodReference(goto_dog_turret_02l));
+            Engine.cs_run_command_script(dog_turret_men_02.right, new ScriptMethodReference(goto_dog_turret_02r));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(dog_turret_men_02.Squad) < 2);
             Engine.ai_place(dog_flak_02.Squad, 2);
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(dog_flak_02.Squad) < 2);
@@ -6645,8 +6645,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_dog_obj_04, Engine.players()) == true || Engine.volume_test_objects(vol_dog_obj_04, Engine.ai_actors(allied_phantom_01.Squad)) == true);
             Engine.ai_place(dog_flak_04.Squad);
             Engine.ai_place(dog_turret_men_04.Squad);
-            Engine.cs_run_command_script(dog_turret_men_04.left, goto_dog_turret_04l);
-            Engine.cs_run_command_script(dog_turret_men_04.right, goto_dog_turret_04r);
+            Engine.cs_run_command_script(dog_turret_men_04.left, new ScriptMethodReference(goto_dog_turret_04l));
+            Engine.cs_run_command_script(dog_turret_men_04.right, new ScriptMethodReference(goto_dog_turret_04r));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(dog_obj_emplaced_04) < 1);
             this.emplace_04_done = true;
             Engine.game_save_no_timeout();
@@ -6711,7 +6711,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(allied_phantom_01.driver), "phantom_p_a", Engine.ai_actors(allies_elites_03.Squad));
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(allied_phantom_01.driver), "phantom_p_b", Engine.ai_actors(allies_grunts_03.Squad));
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_arm02_air, Engine.ai_actors(allied_phantom_01.Squad)) == true);
-            Engine.cs_run_command_script(allied_phantom_01.driver, arm02_final_approach);
+            Engine.cs_run_command_script(allied_phantom_01.driver, new ScriptMethodReference(arm02_final_approach));
         }
 
         [ScriptMethod(383, Lifecycle.Dormant)]

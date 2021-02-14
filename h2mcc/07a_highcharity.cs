@@ -3000,7 +3000,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("erasing cortana...");
             }
 
-            Engine.cs_run_command_script(cortana1, cs_shrink_cortana);
+            Engine.cs_run_command_script(cortana1, new ScriptMethodReference(cs_shrink_cortana));
             await Engine.sleep(1);
         }
 
@@ -3812,7 +3812,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
 
             await Engine.sleep(Engine.ai_play_line_at_player(cortana_jail.Squad, "2440"));
             await Engine.sleep(this.dialogue_pause);
-            Engine.cs_run_command_script(marines, cs_marines_exit);
+            Engine.cs_run_command_script(marines, new ScriptMethodReference(cs_marines_exit));
             Engine.wake(new ScriptMethodReference(sc_jail_clear_reminder));
         }
 
@@ -5729,7 +5729,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(room_a_jackals_ini.Squad);
             Engine.ai_place(room_a_brutes_bk.Squad);
             await Engine.sleep(150);
-            Engine.cs_run_command_script(room_a_prophets, cs_room_a_to_jail);
+            Engine.cs_run_command_script(room_a_prophets, new ScriptMethodReference(cs_room_a_to_jail));
         }
 
         [ScriptMethod(328, Lifecycle.CommandScript)]
@@ -6050,8 +6050,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_set_orders(jail_a_marines.Squad, jail_marines_mid);
             this.g_jail_a_free = true;
             await Engine.sleep(15);
-            Engine.cs_run_command_script(jail_a_marines.a, cs_jail_a_marine_a);
-            Engine.cs_run_command_script(jail_a_marines.b, cs_jail_a_marine_b);
+            Engine.cs_run_command_script(jail_a_marines.a, new ScriptMethodReference(cs_jail_a_marine_a));
+            Engine.cs_run_command_script(jail_a_marines.b, new ScriptMethodReference(cs_jail_a_marine_b));
             if (this.g_jail_a_finished || this.g_jail_b_finished)
             {
                 Engine.wake(new ScriptMethodReference(sc_second_cell));
@@ -6079,9 +6079,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_set_orders(jail_b_marines.Squad, jail_marines_bot);
             this.g_jail_b_free = true;
             await Engine.sleep(15);
-            Engine.cs_run_command_script(jail_b_marines.a, cs_jail_b_marine_a);
-            Engine.cs_run_command_script(jail_b_marines.b, cs_jail_b_marine_b);
-            Engine.cs_run_command_script(jail_b_marines.c, cs_jail_b_marine_c);
+            Engine.cs_run_command_script(jail_b_marines.a, new ScriptMethodReference(cs_jail_b_marine_a));
+            Engine.cs_run_command_script(jail_b_marines.b, new ScriptMethodReference(cs_jail_b_marine_b));
+            Engine.cs_run_command_script(jail_b_marines.c, new ScriptMethodReference(cs_jail_b_marine_c));
             if (this.g_jail_a_finished || this.g_jail_b_finished)
             {
                 Engine.wake(new ScriptMethodReference(sc_second_cell));
@@ -7807,7 +7807,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_room_a_bot, Engine.players()), 10);
             Engine.wake(new ScriptMethodReference(sc_room_a_down));
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_room_a_tube, Engine.players()));
-            Engine.cs_run_command_script(room_a_prophets, cs_room_a_to_jail);
+            Engine.cs_run_command_script(room_a_prophets, new ScriptMethodReference(cs_room_a_to_jail));
             Engine.ai_migrate(room_a_prophets, jail_trash.Squad);
             await this.erase_cortana();
         }
@@ -7923,7 +7923,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.wake(new ScriptMethodReference(ai_room_b_buggers));
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_hall_c, Engine.players()));
             Engine.game_save();
-            Engine.cs_run_command_script(marines, cs_abort);
+            Engine.cs_run_command_script(marines, new ScriptMethodReference(cs_abort));
             Engine.wake(new ScriptMethodReference(ai_corridor_b));
             Engine.wake(new ScriptMethodReference(marine_migration));
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_hall_c_bk, Engine.players()), 1);
@@ -8267,7 +8267,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_maus_room, Engine.players()), 5);
             Engine.data_mine_set_mission_segment("enc_maus_room");
             Engine.game_save();
-            Engine.cs_run_command_script(covenant1, cs_abort);
+            Engine.cs_run_command_script(covenant1, new ScriptMethodReference(cs_abort));
             Engine.ai_set_orders(maus_hall_covenant, maus_room_cov_follow);
             this.g_marine_mig_maus_room = true;
             Engine.wake(new ScriptMethodReference(ai_maus_room_ini));

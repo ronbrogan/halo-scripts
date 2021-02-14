@@ -1878,20 +1878,20 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.units_set_maximum_vitality(Engine.ai_actors(disposal_entry_heretics.Squad), 20F, 20F);
             Engine.units_set_current_vitality(Engine.ai_actors(disposal_entry_heretics.Squad), 20F, 20F);
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_juggernaut_preview, Engine.ai_actors(allies_elites)) == true && Engine.volume_test_objects(vol_juggernaut_preview, Engine.ai_actors(allies_grunts_03.Squad)) == true, 30, 450);
-            await Engine.sleep_until(async () => Engine.ai_scene("juggernaut_gosh_scene", juggernaut_gosh, all_allies), 30, 450);
+            await Engine.sleep_until(async () => Engine.ai_scene("juggernaut_gosh_scene", new ScriptMethodReference(juggernaut_gosh), all_allies), 30, 450);
             await Engine.sleep(90);
             Engine.wake(new ScriptMethodReference(music_04b_01_start));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(disposal_entry_heretics.Squad) == 0, 30, 300);
             Engine.ai_kill_silent(disposal_entry_heretics.Squad);
-            Engine.cs_run_command_script(disposal_entry_flood.Squad, disposal_juggernaut_exit);
+            Engine.cs_run_command_script(disposal_entry_flood.Squad, new ScriptMethodReference(disposal_juggernaut_exit));
         }
 
         [ScriptMethod(156, Lifecycle.Dormant)]
         public async Task juggernaut_abort()
         {
-            if (Engine.cs_command_script_running(all_allies, juggernaut_gosh))
+            if (Engine.cs_command_script_running(all_allies, new ScriptMethodReference(juggernaut_gosh)))
             {
-                Engine.cs_run_command_script(all_allies, abort);
+                Engine.cs_run_command_script(all_allies, new ScriptMethodReference(abort));
             }
         }
 
@@ -2149,7 +2149,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.device_set_position(disposal_entry_int.Entity, 0F);
             Engine.ai_set_active_camo(all_allies, false);
             await Engine.sleep(30);
-            await Engine.sleep_until(async () => Engine.ai_scene("mess_react_01_scene", disposal_ally_comment_01, allies_elites) || (short)Engine.ai_living_count(allies_elites) == 0, 30, 150);
+            await Engine.sleep_until(async () => Engine.ai_scene("mess_react_01_scene", new ScriptMethodReference(disposal_ally_comment_01), allies_elites) || (short)Engine.ai_living_count(allies_elites) == 0, 30, 150);
             await Engine.sleep(5);
             if (this.mess_react_01_go == true)
             {
@@ -2157,7 +2157,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             }
 
             await Engine.sleep(30);
-            await Engine.sleep_until(async () => Engine.ai_scene("mess_react_02_scene", disposal_ally_comment_02, all_allies) || (short)Engine.ai_living_count(allies_grunts_03.Squad) < 2, 30, 150);
+            await Engine.sleep_until(async () => Engine.ai_scene("mess_react_02_scene", new ScriptMethodReference(disposal_ally_comment_02), all_allies) || (short)Engine.ai_living_count(allies_grunts_03.Squad) < 2, 30, 150);
             await Engine.sleep(90);
             Engine.ai_disregard(Engine.ai_actors(all_allies), true);
             Engine.device_set_position(tennis_ball.Entity, 1F);
@@ -2168,27 +2168,27 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(hl_hologram.Squad);
             Engine.unit_impervious(Engine.ai_actors(hl_hologram.Squad), true);
             Engine.ai_cannot_die(hl_hologram.Squad, true);
-            Engine.cs_run_command_script(hl_hologram.Squad, forever_pause);
+            Engine.cs_run_command_script(hl_hologram.Squad, new ScriptMethodReference(forever_pause));
             Engine.ai_disregard(Engine.ai_actors(all_allies), true);
             Engine.ai_disregard(Engine.ai_actors(hl_hologram.Squad), true);
             Engine.object_destroy(tennis_ball.Entity);
             Engine.object_dynamic_simulation_disable(Engine.list_get(Engine.ai_actors(hl_hologram.Squad), 0), true);
-            Engine.cs_run_command_script(all_allies, hologram_face);
-            await Engine.sleep_until(async () => Engine.ai_scene("holo_grunt_react_scene", hologram_ally_01, all_allies) || (short)Engine.ai_living_count(allies_grunts_03.Squad) == 0 || (short)Engine.ai_living_count(disposal_commander.Squad) == 0, 30, 150);
+            Engine.cs_run_command_script(all_allies, new ScriptMethodReference(hologram_face));
+            await Engine.sleep_until(async () => Engine.ai_scene("holo_grunt_react_scene", new ScriptMethodReference(hologram_ally_01), all_allies) || (short)Engine.ai_living_count(allies_grunts_03.Squad) == 0 || (short)Engine.ai_living_count(disposal_commander.Squad) == 0, 30, 150);
             await Engine.sleep(5);
             if (this.holo_ally_01_go == true)
             {
                 await Engine.sleep_until(async () => this.holo_ally_01_done == true || (short)Engine.ai_living_count(allies_grunts_03.Squad) == 0 || (short)Engine.ai_living_count(disposal_commander.Squad) == 0, 30, 300);
             }
 
-            await Engine.sleep_until(async () => Engine.ai_scene("holo_main_hl_scene", hologram_ally_02, hl_hologram.Squad) || (short)Engine.ai_living_count(hl_hologram.Squad) == 0, 30, 150);
+            await Engine.sleep_until(async () => Engine.ai_scene("holo_main_hl_scene", new ScriptMethodReference(hologram_ally_02), hl_hologram.Squad) || (short)Engine.ai_living_count(hl_hologram.Squad) == 0, 30, 150);
             await Engine.sleep(5);
             if (this.holo_ally_02_go == true)
             {
                 await Engine.sleep_until(async () => this.holo_ally_02_done == true || (short)Engine.ai_living_count(hl_hologram.Squad) == 0, 30, 300);
             }
 
-            await Engine.sleep_until(async () => Engine.ai_scene("holo_main_react_scene", hologram_ally_03, disposal_commander.Squad, hl_hologram.Squad) || (short)Engine.ai_living_count(disposal_commander.Squad) == 0 || (short)Engine.ai_living_count(hl_hologram.Squad) == 0, 30, 150);
+            await Engine.sleep_until(async () => Engine.ai_scene("holo_main_react_scene", new ScriptMethodReference(hologram_ally_03), disposal_commander.Squad, hl_hologram.Squad) || (short)Engine.ai_living_count(disposal_commander.Squad) == 0 || (short)Engine.ai_living_count(hl_hologram.Squad) == 0, 30, 150);
             await Engine.sleep(5);
             if (this.holo_ally_03_go == true)
             {
@@ -2208,14 +2208,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(disposal_infection_01.Squad, 1);
             await Engine.sleep(30);
             Engine.ai_place(disposal_infection_01.Squad, 1);
-            await Engine.sleep_until(async () => Engine.ai_scene("holo_after_scene", hologram_ally_04, all_allies) || (short)Engine.ai_living_count(disposal_commander.Squad) == 0 || (short)Engine.ai_living_count(allies_elites) == 0, 30, 150);
+            await Engine.sleep_until(async () => Engine.ai_scene("holo_after_scene", new ScriptMethodReference(hologram_ally_04), all_allies) || (short)Engine.ai_living_count(disposal_commander.Squad) == 0 || (short)Engine.ai_living_count(allies_elites) == 0, 30, 150);
             Engine.wake(new ScriptMethodReference(revive_aware));
             await this.disposal_infection_spawn();
             await Engine.sleep_until(async () => (short)Engine.ai_swarm_count(disposal_infection) < 30 && (short)Engine.ai_nonswarm_count(disposal_infection) == 0, 30, 8000);
             Engine.device_operates_automatically_set(disposal_exit.Entity, true);
-            await Engine.sleep_until(async () => Engine.ai_scene("disposal_post_scene", disposal_after_react, all_allies) || (short)Engine.ai_living_count(allies_elites) == 0, 30, 150);
+            await Engine.sleep_until(async () => Engine.ai_scene("disposal_post_scene", new ScriptMethodReference(disposal_after_react), all_allies) || (short)Engine.ai_living_count(allies_elites) == 0, 30, 150);
             await Engine.sleep(150);
-            await Engine.sleep_until(async () => Engine.ai_scene("disposal_comm_pussy_scene", disposal_after_commander, disposal_commander.Squad), 30, 300);
+            await Engine.sleep_until(async () => Engine.ai_scene("disposal_comm_pussy_scene", new ScriptMethodReference(disposal_after_commander), disposal_commander.Squad), 30, 300);
             Engine.wake(new ScriptMethodReference(spec_ops_reborn));
             await Engine.sleep(30);
             Engine.game_save();
@@ -2249,7 +2249,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 await Engine.sleep_until(async () => Engine.volume_test_objects(vol_leaving_silo, Engine.players()) == true, 30, 100);
                 if (Engine.volume_test_objects(vol_leaving_silo, Engine.players()) == false && await this.player_count() > 0)
                 {
-                    Engine.ai_scene("silo_commander_scene", silo_commander_whine, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+                    Engine.ai_scene("silo_commander_scene", new ScriptMethodReference(silo_commander_whine), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
                     ;
                 }
             }
@@ -2758,7 +2758,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.wake(new ScriptMethodReference(silo_sentinel_spawner));
             Engine.ai_set_orders(arm02_allies, allies_silo_lift);
             await Engine.sleep_until(async () => (short)Engine.ai_nonswarm_count(silo_flood_initial.Squad) == 0 && (short)Engine.ai_nonswarm_count(silo_sentinels_initial.Squad) == 0, 30, 4000);
-            Engine.ai_scene("silo_ally_scene", silo_ally_comment, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+            Engine.ai_scene("silo_ally_scene", new ScriptMethodReference(silo_ally_comment), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
             ;
             await Engine.sleep_until(async () => this.silo_almost_there == true || Engine.volume_test_objects(vol_leaving_silo, Engine.players()) == true);
             Engine.data_mine_set_mission_segment("04b_5_silo_end");
@@ -2791,7 +2791,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_renew(all_allies);
             Engine.ai_set_orders(arm02_allies, allies_lab_upper);
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_hall_to_lab, Engine.ai_actors(allies_elites)) == true || (short)Engine.ai_living_count(allies_elites) == 0);
-            Engine.ai_scene("halls2lab_scene", halls2lab_ally_comment, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+            Engine.ai_scene("halls2lab_scene", new ScriptMethodReference(halls2lab_ally_comment), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
             ;
         }
 
@@ -2801,7 +2801,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_famine_01, Engine.players()) == true || Engine.volume_test_objects(vol_famine_02, Engine.players()) == true);
             Engine.object_create(famine);
             Engine.ai_place(famine_cf.Squad);
-            Engine.cs_run_command_script(famine_cf.Squad, forever_pause);
+            Engine.cs_run_command_script(famine_cf.Squad, new ScriptMethodReference(forever_pause));
             Engine.custom_animation_loop(Engine.unit(Engine.list_get(Engine.ai_actors(famine_cf.Squad), 0)), Engine.GetTag<AnimationGraphTag>("objects\\characters\\floodcombat_elite\\floodcombat_elite", 3978234792U), "combat:thrash_back:var0", true);
             Engine.custom_animation_loop(Engine.unit(Engine.list_get(Engine.ai_actors(famine_cf.Squad), 1)), Engine.GetTag<AnimationGraphTag>("objects\\characters\\floodcombat_elite\\floodcombat_elite", 3978234792U), "combat:thrash_back:var1", true);
             Engine.custom_animation_loop(Engine.unit(Engine.list_get(Engine.ai_actors(famine_cf.Squad), 2)), Engine.GetTag<AnimationGraphTag>("objects\\characters\\floodcombat_elite\\floodcombat_elite", 3978234792U), "combat:thrash_front:var0", true);
@@ -3200,7 +3200,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_magically_see_object(lab_heretics_above.Squad, await this.player0());
             Engine.ai_magically_see_object(lab_heretics_above.Squad, await this.player1());
             await Engine.sleep_until(async () => Engine.objects_can_see_object(Engine.players(), Engine.list_get(Engine.ai_actors(lab_heretics_above.Squad), 0), 60F) == true, 30, 450);
-            await Engine.sleep_until(async () => (short)Engine.ai_living_count(allies_elites) == 0 || Engine.ai_scene("lab_heretic_ally_scene", lab_heretics_ally, all_allies), 30, 300);
+            await Engine.sleep_until(async () => (short)Engine.ai_living_count(allies_elites) == 0 || Engine.ai_scene("lab_heretic_ally_scene", new ScriptMethodReference(lab_heretics_ally), all_allies), 30, 300);
             Engine.ai_place(lab_combatforms_02.r2);
             Engine.ai_place(lab_carriers_02.r4);
             Engine.ai_set_orders(lab_flood, lab_above);
@@ -3375,7 +3375,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(allied_phantom_02.pilot), "phantom_p", Engine.ai_actors(allies_grunts_04.Squad));
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(allied_phantom_02.pilot), "phantom_p", Engine.ai_actors(allies_elites_04.Squad));
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(allied_phantom_02.pilot), true);
-            Engine.cs_run_command_script(allied_phantom_02.pilot, bridge_phantom_arrives);
+            Engine.cs_run_command_script(allied_phantom_02.pilot, new ScriptMethodReference(bridge_phantom_arrives));
         }
 
         [ScriptMethod(228, Lifecycle.CommandScript)]
@@ -3748,17 +3748,17 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task control_bug_out()
         {
             Engine.ai_place(allied_phantom_03.Squad);
-            Engine.cs_run_command_script(allied_phantom_03.Squad, control_bug_out_flight);
+            Engine.cs_run_command_script(allied_phantom_03.Squad, new ScriptMethodReference(control_bug_out_flight));
             await Engine.sleep_until(async () => this.bug_out_phantom_here == true);
-            Engine.cs_queue_command_script(control_commander_cinematic.Squad, bug_out_pussy);
+            Engine.cs_queue_command_script(control_commander_cinematic.Squad, new ScriptMethodReference(bug_out_pussy));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(control_commander_cinematic.Squad) < 1);
-            Engine.cs_run_command_script(control_elites_cinematic.elite01, bug_out_pussy);
+            Engine.cs_run_command_script(control_elites_cinematic.elite01, new ScriptMethodReference(bug_out_pussy));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(control_elites_cinematic.Squad) < 2);
-            Engine.cs_run_command_script(control_elites_cinematic.elite02, bug_out_pussy);
+            Engine.cs_run_command_script(control_elites_cinematic.elite02, new ScriptMethodReference(bug_out_pussy));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(control_elites_cinematic.Squad) < 1);
-            Engine.cs_run_command_script(allies_grunts_03.Squad, bug_out_pussy);
+            Engine.cs_run_command_script(allies_grunts_03.Squad, new ScriptMethodReference(bug_out_pussy));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(allies_grunts_03.Squad) < 1);
-            Engine.cs_run_command_script(allies_grunts_04.Squad, bug_out_pussy);
+            Engine.cs_run_command_script(allies_grunts_04.Squad, new ScriptMethodReference(bug_out_pussy));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(allies_grunts_04.Squad) < 1);
         }
 
@@ -3835,14 +3835,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.unit_impervious(Engine.ai_actors(heretic_leader_control.Squad), true);
             Engine.ai_set_blind(heretic_leader_control.Squad, true);
             Engine.ai_set_deaf(heretic_leader_control.Squad, true);
-            Engine.cs_run_command_script(heretic_leader_control.Squad, heretic_leader_holes_up);
+            Engine.cs_run_command_script(heretic_leader_control.Squad, new ScriptMethodReference(heretic_leader_holes_up));
             Engine.ai_disregard(Engine.ai_actors(heretic_leader_control.Squad), true);
             Engine.ai_place(control_flood_wave_01_combat.Squad, 4);
             Engine.ai_place(control_sentinels_wave_01.Squad, 3);
             Engine.wake(new ScriptMethodReference(music_04b_04_start));
             Engine.wake(new ScriptMethodReference(hologram_toggle));
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_control_enter, Engine.ai_actors(allies_grunts_03.Squad)) == true || Engine.volume_test_objects(vol_control_enter, Engine.ai_actors(allies_grunts_04.Squad)) == true || Engine.volume_test_objects(vol_control_enter, Engine.ai_actors(allies_elites_04.Squad)) == true, 30, 300);
-            await Engine.sleep_until(async () => Engine.ai_scene("control_grunt_scene", control_grunt_comment, all_allies) || Engine.ai_scene("control_elite_scene", control_elite_comment, all_allies), 30, 300);
+            await Engine.sleep_until(async () => Engine.ai_scene("control_grunt_scene", new ScriptMethodReference(control_grunt_comment), all_allies) || Engine.ai_scene("control_elite_scene", new ScriptMethodReference(control_elite_comment), all_allies), 30, 300);
             await Engine.sleep_until(async () => (short)Engine.ai_nonswarm_count(control_flood_wave_01_combat.Squad) == 0 && (short)Engine.ai_living_count(control_sentinels_wave_01.Squad) == 0);
             await Engine.sleep(60);
             Engine.wake(new ScriptMethodReference(music_04b_04_start_alt));
@@ -3886,10 +3886,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.wake(new ScriptMethodReference(music_04b_04_stop_alt));
             Engine.wake(new ScriptMethodReference(objective_control_clear));
             Engine.wake(new ScriptMethodReference(objective_cables_set));
-            Engine.ai_scene("control_comm_scene", commander_farewell, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+            Engine.ai_scene("control_comm_scene", new ScriptMethodReference(commander_farewell), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
             ;
-            Engine.cs_run_command_script(control_elites_cinematic.elite01, soe_bug_out_01);
-            Engine.cs_run_command_script(control_elites_cinematic.elite02, soe_bug_out_02);
+            Engine.cs_run_command_script(control_elites_cinematic.elite01, new ScriptMethodReference(soe_bug_out_01));
+            Engine.cs_run_command_script(control_elites_cinematic.elite02, new ScriptMethodReference(soe_bug_out_02));
             Engine.data_mine_set_mission_segment("04b_13_control_room_02");
             Engine.game_save();
             Engine.wake(new ScriptMethodReference(control_commander_reminder));
@@ -4244,7 +4244,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.ai_set_orders(cable_sentinels, cable_room_sentinels_end);
                 Engine.ai_set_blind(cable_sentinels, true);
                 Engine.ai_set_blind(cable_flood, true);
-                Engine.cs_run_command_script(cable_flood, cable_look);
+                Engine.cs_run_command_script(cable_flood, new ScriptMethodReference(cable_look));
                 Engine.wake(new ScriptMethodReference(music_04b_07_start));
                 Engine.wake(new ScriptMethodReference(strain));
                 await Engine.sleep(400);
@@ -4339,11 +4339,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\ambience\\alphagasgiant\\cable_snaps\\cable_snap_two", 4159772093U), default(IGameObject), 1F);
                 Engine.device_set_position_track(cableroom.Entity, "cable_room_rot_b_back", 0F);
                 Engine.device_animate_position(cableroom.Entity, 1F, 2F, 0F, 0.5F, false);
-                Engine.cs_run_command_script(cable_room_sentinels.Squad, try_to_fix);
+                Engine.cs_run_command_script(cable_room_sentinels.Squad, new ScriptMethodReference(try_to_fix));
                 Engine.ai_set_orders(cable_sentinels, cable_room_sentinels_end);
                 Engine.ai_set_blind(cable_sentinels, true);
                 Engine.ai_set_blind(cable_flood, true);
-                Engine.cs_run_command_script(cable_flood, cable_look);
+                Engine.cs_run_command_script(cable_flood, new ScriptMethodReference(cable_look));
                 Engine.wake(new ScriptMethodReference(music_04b_07_start));
                 Engine.wake(new ScriptMethodReference(strain));
                 await Engine.sleep(400);
@@ -4438,11 +4438,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\ambience\\alphagasgiant\\cable_snaps\\cable_snap_two", 4159772093U), default(IGameObject), 1F);
                 Engine.device_set_position_track(cableroom.Entity, "cable_room_rot_c_back", 0F);
                 Engine.device_animate_position(cableroom.Entity, 1F, 2F, 0F, 0.5F, false);
-                Engine.cs_run_command_script(cable_room_sentinels.Squad, try_to_fix);
+                Engine.cs_run_command_script(cable_room_sentinels.Squad, new ScriptMethodReference(try_to_fix));
                 Engine.ai_set_orders(cable_sentinels, cable_room_sentinels_end);
                 Engine.ai_set_blind(cable_sentinels, true);
                 Engine.ai_set_blind(cable_flood, true);
-                Engine.cs_run_command_script(cable_flood, cable_look);
+                Engine.cs_run_command_script(cable_flood, new ScriptMethodReference(cable_look));
                 Engine.wake(new ScriptMethodReference(music_04b_07_start));
                 Engine.wake(new ScriptMethodReference(strain));
                 await Engine.sleep(400);
@@ -5068,7 +5068,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(control_return_heretics_03.Squad, (short)(2 - (float)Engine.ai_living_count(control_return_heretics_02.Squad)));
             Engine.ai_place(control_return_h_grunts_03.Squad, (short)(2 - (float)Engine.ai_living_count(control_return_h_grunts_02.Squad)));
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_near_shield, Engine.players()) == true);
-            await Engine.sleep_until(async () => Engine.ai_scene("control_return_scene", control_return_heretic, control_return_heretics) || (short)Engine.ai_living_count(control_return_heretics) == 0, 30, 150);
+            await Engine.sleep_until(async () => Engine.ai_scene("control_return_scene", new ScriptMethodReference(control_return_heretic), control_return_heretics) || (short)Engine.ai_living_count(control_return_heretics) == 0, 30, 150);
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(control_return_heretics) == 0);
             Engine.game_save();
             Engine.ai_set_orders(control_return_flood, control_return_flood_win);
@@ -5132,7 +5132,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_cannot_take_damage(player1_fake_banshee.Entity);
             Engine.object_cannot_take_damage(hl_fake_banshee.Entity);
             Engine.game_save();
-            await Engine.sleep_until(async () => Engine.ai_scene("power_core_scene", power_core_heretic, power_core_heretics) || Engine.volume_test_objects(vol_power_core_bottom, Engine.players()) == true);
+            await Engine.sleep_until(async () => Engine.ai_scene("power_core_scene", new ScriptMethodReference(power_core_heretic), power_core_heretics) || Engine.volume_test_objects(vol_power_core_bottom, Engine.players()) == true);
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_power_core_bottom, Engine.players()) == true);
             if (await this.difficulty_normal() || await this.difficulty_heroic())
             {
@@ -6390,12 +6390,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_create_anew(hl_fake_banshee);
             Engine.fade_in(1F, 1F, 1F, 15);
             Engine.ai_place(heretic_leader_04.Squad);
-            Engine.cs_run_command_script(heretic_leader_04.Squad, hl_retreat_04);
+            Engine.cs_run_command_script(heretic_leader_04.Squad, new ScriptMethodReference(hl_retreat_04));
             Engine.camera_set(cam01, 150);
             await Engine.sleep(150);
             Engine.ai_place(dervish_01.Squad);
             await this.banshee_sin_01_weapon();
-            Engine.cs_run_command_script(dervish_01.Squad, dervish_chase_01);
+            Engine.cs_run_command_script(dervish_01.Squad, new ScriptMethodReference(dervish_chase_01));
             Engine.camera_set(cam05, 120);
             await Engine.sleep(120);
             Engine.camera_set(cam06, 60);
@@ -6640,7 +6640,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.device_set_position_immediate(banshee_ledge_access_01.Entity, 1F);
             Engine.object_create_containing("banshee_gas_0");
             Engine.ai_place(dervish_02.Squad);
-            Engine.cs_run_command_script(dervish_02.Squad, dervish_chase_02);
+            Engine.cs_run_command_script(dervish_02.Squad, new ScriptMethodReference(dervish_chase_02));
             Engine.fade_in(1F, 1F, 1F, 15);
             Engine.camera_set(end01, 120);
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(dervish_02.Squad) == 0);
@@ -6649,7 +6649,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.banshee_sin_02_weapon();
             Engine.object_hide(Engine.list_get(Engine.ai_actors(dervish_031.Squad), 0), true);
             Engine.object_teleport(Engine.list_get(Engine.ai_actors(dervish_031.Squad), 0), dervish_sticks_landing);
-            Engine.cs_run_command_script(dervish_031.Squad, dervish_recovery);
+            Engine.cs_run_command_script(dervish_031.Squad, new ScriptMethodReference(dervish_recovery));
             await Engine.sleep(5);
             Engine.object_hide(Engine.list_get(Engine.ai_actors(dervish_031.Squad), 0), false);
             Engine.camera_set(end02, 60);
@@ -8248,15 +8248,15 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep(1800);
             await Engine.sleep_until(async () => this.boss_done_talking == true);
-            Engine.cs_run_command_script(monitor1.Squad, monitor_chat_01);
+            Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_chat_01));
             await Engine.sleep_until(async () => this.monitor_done_talking == true);
             await Engine.sleep(3600);
             await Engine.sleep_until(async () => this.boss_done_talking == true);
-            Engine.cs_run_command_script(monitor1.Squad, monitor_chat_02);
+            Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_chat_02));
             await Engine.sleep_until(async () => this.monitor_done_talking == true);
             await Engine.sleep(3600);
             await Engine.sleep_until(async () => this.boss_done_talking == true);
-            Engine.cs_run_command_script(monitor1.Squad, monitor_chat_03);
+            Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_chat_03));
         }
 
         [ScriptMethod(336, Lifecycle.CommandScript)]
@@ -8408,7 +8408,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     if (this.monitor_available == true)
                     {
-                        Engine.cs_run_command_script(monitor1.Squad, monitor_flit_01);
+                        Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_flit_01));
                         await Engine.sleep(5);
                         await Engine.sleep_until(async () => this.monitor_available == true);
                     }
@@ -8417,7 +8417,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     if (this.monitor_available == true)
                     {
-                        Engine.cs_run_command_script(monitor1.Squad, monitor_flit_02);
+                        Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_flit_02));
                         await Engine.sleep(5);
                         await Engine.sleep_until(async () => this.monitor_available == true);
                     }
@@ -8426,7 +8426,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     if (this.monitor_available == true)
                     {
-                        Engine.cs_run_command_script(monitor1.Squad, monitor_flit_03);
+                        Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_flit_03));
                         await Engine.sleep(5);
                         await Engine.sleep_until(async () => this.monitor_available == true);
                     }
@@ -8435,7 +8435,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     if (this.monitor_available == true)
                     {
-                        Engine.cs_run_command_script(monitor1.Squad, monitor_flit_04);
+                        Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_flit_04));
                         await Engine.sleep(5);
                         await Engine.sleep_until(async () => this.monitor_available == true);
                     }
@@ -8444,7 +8444,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     if (this.monitor_available == true)
                     {
-                        Engine.cs_run_command_script(monitor1.Squad, monitor_flit_05);
+                        Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_flit_05));
                         await Engine.sleep(5);
                         await Engine.sleep_until(async () => this.monitor_available == true);
                     }
@@ -8453,7 +8453,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     if (this.monitor_available == true)
                     {
-                        Engine.cs_run_command_script(monitor1.Squad, monitor_flit_06);
+                        Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_flit_06));
                         await Engine.sleep(5);
                         await Engine.sleep_until(async () => this.monitor_available == true);
                     }
@@ -8462,7 +8462,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     if (this.monitor_available == true)
                     {
-                        Engine.cs_run_command_script(monitor1.Squad, monitor_flit_07);
+                        Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_flit_07));
                         await Engine.sleep(5);
                         await Engine.sleep_until(async () => this.monitor_available == true);
                     }
@@ -8471,7 +8471,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     if (this.monitor_available == true)
                     {
-                        Engine.cs_run_command_script(monitor1.Squad, monitor_flit_08);
+                        Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_flit_08));
                         await Engine.sleep(5);
                         await Engine.sleep_until(async () => this.monitor_available == true);
                     }
@@ -8480,7 +8480,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     if (this.monitor_available == true)
                     {
-                        Engine.cs_run_command_script(monitor1.Squad, monitor_flit_09);
+                        Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_flit_09));
                         await Engine.sleep(5);
                         await Engine.sleep_until(async () => this.monitor_available == true);
                     }
@@ -8489,7 +8489,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     if (this.monitor_available == true)
                     {
-                        Engine.cs_run_command_script(monitor1.Squad, monitor_flit_10);
+                        Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_flit_10));
                         await Engine.sleep(5);
                         await Engine.sleep_until(async () => this.monitor_available == true);
                     }
@@ -8498,7 +8498,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     if (this.monitor_available == true)
                     {
-                        Engine.cs_run_command_script(monitor1.Squad, monitor_flit_11);
+                        Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_flit_11));
                         await Engine.sleep(5);
                         await Engine.sleep_until(async () => this.monitor_available == true);
                     }
@@ -8507,7 +8507,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     if (this.monitor_available == true)
                     {
-                        Engine.cs_run_command_script(monitor1.Squad, monitor_flit_12);
+                        Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_flit_12));
                         await Engine.sleep(5);
                         await Engine.sleep_until(async () => this.monitor_available == true);
                     }
@@ -8516,7 +8516,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     if (this.monitor_available == true)
                     {
-                        Engine.cs_run_command_script(monitor1.Squad, monitor_flit_13);
+                        Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_flit_13));
                         await Engine.sleep(5);
                         await Engine.sleep_until(async () => this.monitor_available == true);
                     }
@@ -8525,7 +8525,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     if (this.monitor_available == true)
                     {
-                        Engine.cs_run_command_script(monitor1.Squad, monitor_flit_14);
+                        Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_flit_14));
                         await Engine.sleep(5);
                         await Engine.sleep_until(async () => this.monitor_available == true);
                     }
@@ -8534,7 +8534,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     if (this.monitor_available == true)
                     {
-                        Engine.cs_run_command_script(monitor1.Squad, monitor_flit_15);
+                        Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_flit_15));
                         await Engine.sleep(5);
                         await Engine.sleep_until(async () => this.monitor_available == true);
                     }
@@ -8543,7 +8543,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     if (this.monitor_available == true)
                     {
-                        Engine.cs_run_command_script(monitor1.Squad, monitor_flit_16);
+                        Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_flit_16));
                         await Engine.sleep(5);
                         await Engine.sleep_until(async () => this.monitor_available == true);
                     }
@@ -8552,7 +8552,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     if (this.monitor_available == true)
                     {
-                        Engine.cs_run_command_script(monitor1.Squad, monitor_flit_17);
+                        Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_flit_17));
                         await Engine.sleep(5);
                         await Engine.sleep_until(async () => this.monitor_available == true);
                     }
@@ -8561,7 +8561,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     if (this.monitor_available == true)
                     {
-                        Engine.cs_run_command_script(monitor1.Squad, monitor_flit_18);
+                        Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_flit_18));
                         await Engine.sleep(5);
                         await Engine.sleep_until(async () => this.monitor_available == true);
                     }
@@ -8570,7 +8570,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     if (this.monitor_available == true)
                     {
-                        Engine.cs_run_command_script(monitor1.Squad, monitor_flit_19);
+                        Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_flit_19));
                         await Engine.sleep(5);
                         await Engine.sleep_until(async () => this.monitor_available == true);
                     }
@@ -8579,7 +8579,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 {
                     if (this.monitor_available == true)
                     {
-                        Engine.cs_run_command_script(monitor1.Squad, monitor_flit_20);
+                        Engine.cs_run_command_script(monitor1.Squad, new ScriptMethodReference(monitor_flit_20));
                         await Engine.sleep(5);
                         await Engine.sleep_until(async () => this.monitor_available == true);
                     }
@@ -8665,7 +8665,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (this.hl_times_dead < this.hl_lives_total)
                 {
                     Engine.ai_set_orders(hl_boss_random.Squad, hole_up);
-                    Engine.cs_run_command_script(hl_boss_random.Squad, hack);
+                    Engine.cs_run_command_script(hl_boss_random.Squad, new ScriptMethodReference(hack));
                     Engine.ai_kill(holo_drones);
                     await this.boss_fight_deletion();
                     this.hl_times_dead = (short)(this.hl_times_dead + 1);
@@ -8683,17 +8683,17 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
 
                     if (this.hl_times_dead == 1)
                     {
-                        Engine.cs_run_command_script(hl_boss_random.Squad, hl_boss_chat_01);
+                        Engine.cs_run_command_script(hl_boss_random.Squad, new ScriptMethodReference(hl_boss_chat_01));
                     }
 
                     if (this.hl_times_dead == 2)
                     {
-                        Engine.cs_run_command_script(hl_boss_random.Squad, hl_boss_chat_02);
+                        Engine.cs_run_command_script(hl_boss_random.Squad, new ScriptMethodReference(hl_boss_chat_02));
                     }
 
                     if (this.hl_times_dead == 3)
                     {
-                        Engine.cs_run_command_script(hl_boss_random.Squad, hl_boss_chat_03);
+                        Engine.cs_run_command_script(hl_boss_random.Squad, new ScriptMethodReference(hl_boss_chat_03));
                     }
 
                     await Engine.sleep(60);
@@ -8790,7 +8790,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => this.plummeting == true && Engine.volume_test_objects(vol_hangar_reenter, Engine.players()) == true);
             Engine.device_operates_automatically_set(hangar_exit.Entity, true);
             Engine.ai_place(heretic_leader_hangar.Squad);
-            Engine.cs_run_command_script(heretic_leader_hangar.Squad, long_pause);
+            Engine.cs_run_command_script(heretic_leader_hangar.Squad, new ScriptMethodReference(long_pause));
             Engine.ai_cannot_die(heretic_leader_hangar.Squad, true);
             await Engine.sleep_until(async () => this.plummeting == true && Engine.volume_test_objects(vol_hangar_cutscene_start, Engine.players()) == true);
             await this.cinematic_fade_to_white();

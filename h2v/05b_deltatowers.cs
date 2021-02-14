@@ -1779,7 +1779,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(bridge_elites_02.Squad, 1);
             Engine.ai_place(bridge_grunts_01.Squad, 2);
             Engine.ai_set_orders(all_allies, tower1_ext_allies);
-            Engine.cs_run_command_script(all_allies, tower1_escape);
+            Engine.cs_run_command_script(all_allies, new ScriptMethodReference(tower1_escape));
             Engine.wake(new ScriptMethodReference(cortana_bridge_reminder));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(bridge_enemies) < 5 || Engine.volume_test_objects(vol_bridge, Engine.players()) == true || Engine.volume_test_objects(vol_tower2_ext_entry, Engine.players()) == true);
             Engine.game_save();
@@ -2022,7 +2022,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             Engine.ai_place(central_plat_pelican.Squad, 1);
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(central_plat_pelican.pilot), true);
-            Engine.cs_run_command_script(central_plat_pelican.pilot, central_platform_pelican_path);
+            Engine.cs_run_command_script(central_plat_pelican.pilot, new ScriptMethodReference(central_platform_pelican_path));
             Engine.object_create_anew(rack);
             Engine.objects_attach(Engine.ai_vehicle_get_from_starting_location(central_plat_pelican.pilot), "pelican_sc_01", rack.Entity, "pin");
             Engine.object_create_anew(bomb01);
@@ -2070,7 +2070,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             Engine.ai_place(central_plat_pelican.Squad, 1);
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(central_plat_pelican.pilot), true);
-            Engine.cs_run_command_script(central_plat_pelican.pilot, central_platform_pelican_path);
+            Engine.cs_run_command_script(central_plat_pelican.pilot, new ScriptMethodReference(central_platform_pelican_path));
             Engine.object_create_anew(rack);
             Engine.objects_attach(Engine.ai_vehicle_get_from_starting_location(central_plat_pelican.pilot), "pelican_sc_01", rack.Entity, "pin");
             Engine.object_create_anew(bomb01);
@@ -2120,7 +2120,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(central_platform_phantom.Squad, 1);
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(central_platform_phantom.pilot), "phantom_p_a", Engine.ai_actors(central_platform_hunters.Squad));
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(central_platform_phantom.pilot), true);
-            Engine.cs_run_command_script(central_platform_phantom.pilot, central_platform_dropship);
+            Engine.cs_run_command_script(central_platform_phantom.pilot, new ScriptMethodReference(central_platform_dropship));
             await Engine.sleep(4000);
             Engine.object_destroy(Engine.ai_vehicle_get_from_starting_location(central_platform_phantom.pilot));
         }
@@ -2224,7 +2224,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(30);
             Engine.wake(new ScriptMethodReference(gondola_01_cortana_comment));
             await Engine.sleep(150);
-            Engine.ai_scene("gondola_01_allies_scene", gondola_01_ally_comment, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+            Engine.ai_scene("gondola_01_allies_scene", new ScriptMethodReference(gondola_01_ally_comment), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
             ;
             Engine.ai_set_orders(all_allies, gondola_01_allies);
             Engine.game_save();
@@ -2244,7 +2244,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(central_platform_phantom.Squad, 1);
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(central_platform_phantom.pilot), "phantom_p_a", Engine.ai_actors(central_platform_hunters.Squad));
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(central_platform_phantom.pilot), true);
-            Engine.cs_run_command_script(central_platform_phantom.pilot, central_platform_dropship);
+            Engine.cs_run_command_script(central_platform_phantom.pilot, new ScriptMethodReference(central_platform_dropship));
             await Engine.sleep(4000);
             Engine.object_destroy(Engine.ai_vehicle_get_from_starting_location(central_platform_phantom.pilot));
         }
@@ -2256,7 +2256,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_create(assassins);
             Engine.ai_place(assassin_elites.Squad);
             Engine.ai_set_active_camo(assassin_elites.Squad, true);
-            Engine.cs_run_command_script(assassin_elites.Squad, forever_pause);
+            Engine.cs_run_command_script(assassin_elites.Squad, new ScriptMethodReference(forever_pause));
             Engine.custom_animation_loop(Engine.unit(Engine.list_get(Engine.ai_actors(assassin_elites.Squad), 0)), Engine.GetTag<AnimationGraphTag>("objects\\characters\\elite\\elite", 3949726198U), "combat:sword:berserk", true);
             Engine.custom_animation_loop(Engine.unit(Engine.list_get(Engine.ai_actors(assassin_elites.Squad), 1)), Engine.GetTag<AnimationGraphTag>("objects\\characters\\elite\\elite", 3949726198U), "combat:sword:berserk", true);
             await Engine.sleep_until(async () => Engine.unit_has_weapon(Engine.unit(await this.player0()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head_sp.weapon", 4125365358U)) || Engine.unit_has_weapon(Engine.unit(await this.player1()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head_sp.weapon", 4125365358U)));
@@ -2395,7 +2395,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(5);
             Engine.vehicle_unload(Engine.ai_vehicle_get_from_starting_location(gondola_01_phantom.pilot), "phantom_p_c03");
             await Engine.sleep(90);
-            Engine.cs_run_command_script(gondola_01_phantom.pilot, gondola_01_retreat);
+            Engine.cs_run_command_script(gondola_01_phantom.pilot, new ScriptMethodReference(gondola_01_retreat));
         }
 
         [ScriptMethod(174, Lifecycle.CommandScript)]
@@ -2421,7 +2421,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(gondola_01_phantom.pilot), "phantom_p", Engine.ai_actors(gondola_01_elite_boarders.Squad));
             Engine.vehicle_load_magic(Engine.ai_vehicle_get_from_starting_location(gondola_01_phantom.pilot), "phantom_p", Engine.ai_actors(gondola_01_grunt_boarders_02.Squad));
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(gondola_01_phantom.pilot), true);
-            Engine.cs_run_command_script(gondola_01_phantom.pilot, gondola_01_flight);
+            Engine.cs_run_command_script(gondola_01_phantom.pilot, new ScriptMethodReference(gondola_01_flight));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(gondola_01_phantom.Squad) < 2);
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(gondola_01_grunt_boarders_01.Squad) <= 0 && (short)Engine.ai_living_count(gondola_01_grunt_boarders_02.Squad) <= 0);
             Engine.ai_set_orders(gondola_01_elite_boarders.Squad, gondola_01_all);
@@ -2469,14 +2469,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.object_get_health(Engine.ai_vehicle_get_from_starting_location(tower3_turrets.right)) > 0F && Engine.volume_test_objects(vol_tower3_entry, Engine.players()) == false && await this.player_count() > 0 && (short)Engine.ai_spawn_count(tower3_dock_grunts.Squad) < 5 && (short)Engine.ai_living_count(tower3_dock_grunts.Squad) < 1 && Engine.vehicle_test_seat_list(Engine.ai_vehicle_get_from_starting_location(tower3_turrets.right), "c_turret_ap_d", Engine.ai_actors(all_enemies)) == false)
                 {
                     Engine.ai_place(tower3_dock_grunts.Squad, 1);
-                    Engine.cs_run_command_script(tower3_dock_grunts.Squad, tower3_turret_mount_02);
+                    Engine.cs_run_command_script(tower3_dock_grunts.Squad, new ScriptMethodReference(tower3_turret_mount_02));
                 }
 
                 await Engine.sleep((short)Engine.random_range(30, 90));
                 if (Engine.object_get_health(Engine.ai_vehicle_get_from_starting_location(tower3_turrets.left)) > 0F && Engine.volume_test_objects(vol_tower3_entry, Engine.players()) == false && await this.player_count() > 0 && (short)Engine.ai_spawn_count(tower3_dock_grunts.Squad) < 5 && (short)Engine.ai_living_count(tower3_dock_grunts.Squad) < 1 && Engine.vehicle_test_seat_list(Engine.ai_vehicle_get_from_starting_location(tower3_turrets.left), "c_turret_ap_d", Engine.ai_actors(all_enemies)) == false)
                 {
                     Engine.ai_place(tower3_dock_grunts.Squad, 1);
-                    Engine.cs_run_command_script(tower3_dock_grunts.Squad, tower3_turret_mount_01);
+                    Engine.cs_run_command_script(tower3_dock_grunts.Squad, new ScriptMethodReference(tower3_turret_mount_01));
                 }
 
                 return Engine.volume_test_objects(vol_tower3_entry, await this.player0()) == true || Engine.object_get_health(Engine.ai_vehicle_get_from_starting_location(tower3_turrets.right)) <= 0F && Engine.object_get_health(Engine.ai_vehicle_get_from_starting_location(tower3_turrets.left)) <= 0F;
@@ -2618,8 +2618,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(gondola_01_b_elites.Squad, 2);
             Engine.ai_place(gondola_01_b_buggers.Squad, (short)(4 - (float)Engine.ai_living_count(gondola_01_bugs_new.Squad)));
             Engine.ai_place(tower3_dock_grunts.Squad, 2);
-            Engine.cs_run_command_script(tower3_dock_grunts._1, tower3_turret_mount_01);
-            Engine.cs_run_command_script(tower3_dock_grunts._2, tower3_turret_mount_02);
+            Engine.cs_run_command_script(tower3_dock_grunts._1, new ScriptMethodReference(tower3_turret_mount_01));
+            Engine.cs_run_command_script(tower3_dock_grunts._2, new ScriptMethodReference(tower3_turret_mount_02));
             Engine.wake(new ScriptMethodReference(gondola_01_nuke));
             Engine.wake(new ScriptMethodReference(tower3_turret_reman));
             await Engine.sleep_until(async () => Engine.device_get_position(gondola_01_a.Entity) < 0.7F);
@@ -2883,14 +2883,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task tower3_pelican_arrives()
         {
             Engine.ai_place(tower3_pelican.Squad);
-            Engine.cs_run_command_script(tower3_pelican.pilot, tower3_pelican_path);
+            Engine.cs_run_command_script(tower3_pelican.pilot, new ScriptMethodReference(tower3_pelican_path));
         }
 
         [ScriptMethod(193, Lifecycle.Static)]
         public async Task short_tower3_pel()
         {
             Engine.ai_place(tower3_pelican.Squad);
-            Engine.cs_run_command_script(tower3_pelican.pilot, tower3_pelican_path);
+            Engine.cs_run_command_script(tower3_pelican.pilot, new ScriptMethodReference(tower3_pelican_path));
         }
 
         [ScriptMethod(194, Lifecycle.Dormant)]
@@ -3108,7 +3108,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.wake(new ScriptMethodReference(objective_sunken_set));
             Engine.ai_place(tower3_jackals_01.Squad, 4);
             Engine.sleep_forever(new ScriptMethodReference(tower3_turret_reman));
-            Engine.cs_run_command_script(tower3_turrets.Squad, abort);
+            Engine.cs_run_command_script(tower3_turrets.Squad, new ScriptMethodReference(abort));
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_tower3_mid, Engine.players()) == true || (short)Engine.ai_living_count(tower3_main) < 2);
             Engine.game_save();
             Engine.ai_place(tower3_jackals_02.Squad, (short)(4 - (float)Engine.ai_living_count(tower3_jackals_01.Squad)));
@@ -3140,7 +3140,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.nowcomeup();
             Engine.kill_volume_disable(kill_no_riders_under);
             await Engine.sleep(150);
-            Engine.ai_scene("tower3_ally_scene", tower3_ally_warn, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+            Engine.ai_scene("tower3_ally_scene", new ScriptMethodReference(tower3_ally_warn), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
             ;
             await Engine.sleep_until(async () => Engine.device_get_position(elev_under.Entity) == 0F);
             Engine.ai_set_orders(tower3_jackals_elev.Squad, tower3_int_elev_ridge);
@@ -3321,7 +3321,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3885762086U), "regret_l05_0150_por", true);
             await Engine.sleep(Engine.ai_play_line_on_object(regret02.Entity, "0150"));
             await Engine.sleep(60);
-            Engine.ai_scene("sunken_holo_ally_scene", sunken_holo_ally_react, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+            Engine.ai_scene("sunken_holo_ally_scene", new ScriptMethodReference(sunken_holo_ally_react), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
             ;
             await Engine.sleep(30);
             Engine.ai_dialogue_enable(true);
@@ -3562,9 +3562,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(sunk_chamber_init_js_L01.Squad, 1);
             Engine.ai_place(sunk_chamber_init_js_L02.Squad, 1);
             Engine.ai_place(sunk_chamber_init_js_R01.Squad, 1);
-            Engine.cs_run_command_script(sunk_chamber_init_js_R01.Squad, sunken_hologram_focus);
+            Engine.cs_run_command_script(sunk_chamber_init_js_R01.Squad, new ScriptMethodReference(sunken_hologram_focus));
             Engine.ai_place(sunk_chamber_init_js_R02.Squad, 1);
-            Engine.cs_run_command_script(sunk_chamber_init_js_R02.Squad, sunken_hologram_focus);
+            Engine.cs_run_command_script(sunk_chamber_init_js_R02.Squad, new ScriptMethodReference(sunken_hologram_focus));
             Engine.ai_place(sunk_chamber_init_hg_Ra.Squad, 1);
             Engine.ai_place(sunk_chamber_init_hg_La.Squad, 1);
             Engine.wake(new ScriptMethodReference(sunken_holo_looper));
@@ -4091,7 +4091,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.objects_attach(rack2.Entity, "rack05", bomb11.Entity, "pin");
             Engine.object_create_anew(bomb12);
             Engine.objects_attach(rack2.Entity, "rack06", bomb12.Entity, "pin");
-            Engine.cs_run_command_script(island_pelican.pilot, island_pelican_path);
+            Engine.cs_run_command_script(island_pelican.pilot, new ScriptMethodReference(island_pelican_path));
             await Engine.sleep(150);
             Engine.wake(new ScriptMethodReference(island_pelican_comment));
             await Engine.sleep_until(async () => this.island_pelican_arrived == true);
@@ -4131,7 +4131,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.objects_attach(rack2.Entity, "rack05", bomb11.Entity, "pin");
             Engine.object_create_anew(bomb12);
             Engine.objects_attach(rack2.Entity, "rack06", bomb12.Entity, "pin");
-            Engine.cs_run_command_script(island_pelican.pilot, island_pelican_path);
+            Engine.cs_run_command_script(island_pelican.pilot, new ScriptMethodReference(island_pelican_path));
             await Engine.sleep(150);
             Engine.wake(new ScriptMethodReference(island_pelican_comment));
             await Engine.sleep_until(async () => this.island_pelican_arrived == true);
@@ -4285,7 +4285,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             Engine.ai_place(island_phantom.Squad);
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(island_phantom.pilot), true);
-            Engine.cs_run_command_script(island_phantom.pilot, island_phantom_path);
+            Engine.cs_run_command_script(island_phantom.pilot, new ScriptMethodReference(island_phantom_path));
         }
 
         [ScriptMethod(238, Lifecycle.Static)]
@@ -4294,7 +4294,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_allegiance(covenant, prophet);
             Engine.ai_place(island_phantom.Squad);
             Engine.ai_vehicle_reserve(Engine.ai_vehicle_get_from_starting_location(island_phantom.pilot), true);
-            Engine.cs_run_command_script(island_phantom.pilot, island_phantom_path);
+            Engine.cs_run_command_script(island_phantom.pilot, new ScriptMethodReference(island_phantom_path));
         }
 
         [ScriptMethod(239, Lifecycle.Dormant)]
@@ -4683,7 +4683,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 await Engine.sleep(60);
                 Engine.ai_set_orders(all_allies, gondola_02_allies);
-                Engine.ai_scene("gondola_02_ally_scene", gondola_02_ally_comment, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+                Engine.ai_scene("gondola_02_ally_scene", new ScriptMethodReference(gondola_02_ally_comment), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
                 ;
             }
 
@@ -4702,7 +4702,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.wake(new ScriptMethodReference(island_miranda_conversation));
             await Engine.sleep(300);
             Engine.ai_place(gondola_02_banshees.Squad, 2);
-            Engine.cs_run_command_script(gondola_02_banshees.Squad, boost_test);
+            Engine.cs_run_command_script(gondola_02_banshees.Squad, new ScriptMethodReference(boost_test));
             await Engine.sleep_until(async () => Engine.device_get_position(gondola_02_a.Entity) >= 0.25F);
             if (await this.difficulty_legendary())
             {
@@ -4726,15 +4726,15 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.wake(new ScriptMethodReference(gondola_02_reverser));
             await Engine.sleep_until(async () => Engine.device_get_position(gondola_02_a.Entity) > 0.75F);
             Engine.ai_set_orders(gondola_02_banshees.Squad, airspace_island);
-            Engine.cs_run_command_script(gondola_02_banshees.Squad, banshee_retreat);
+            Engine.cs_run_command_script(gondola_02_banshees.Squad, new ScriptMethodReference(banshee_retreat));
             Engine.ai_place(temple_ent_grunts.Squad, 4);
-            Engine.cs_run_command_script(temple_ent_grunts._1, temple_ent_turret_01);
-            Engine.cs_run_command_script(temple_ent_grunts._2, temple_ent_turret_02);
+            Engine.cs_run_command_script(temple_ent_grunts._1, new ScriptMethodReference(temple_ent_turret_01));
+            Engine.cs_run_command_script(temple_ent_grunts._2, new ScriptMethodReference(temple_ent_turret_02));
             Engine.ai_place(temple_ent_jackals.Squad, 2);
             await Engine.sleep_until(async () => Engine.device_get_position(gondola_02_a.Entity) > 0.9F);
             Engine.ai_set_orders(gondola_02_jetpacks.Squad, jetpacks_temple);
-            Engine.cs_run_command_script(gondola_02_jetpacks._1, boost_to_temple_01);
-            Engine.cs_run_command_script(gondola_02_jetpacks._2, boost_to_temple_01);
+            Engine.cs_run_command_script(gondola_02_jetpacks._1, new ScriptMethodReference(boost_to_temple_01));
+            Engine.cs_run_command_script(gondola_02_jetpacks._2, new ScriptMethodReference(boost_to_temple_01));
             await Engine.sleep_until(async () => Engine.device_get_position(gondola_02_a.Entity) == 1F);
             Engine.object_dynamic_simulation_disable(gondola_02_a.Entity, true);
             Engine.object_dynamic_simulation_disable(gondola_02_b.Entity, true);
@@ -4744,9 +4744,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_set_orders(temple_ent_jackals.Squad, temple_ent_retreat);
             Engine.device_set_position(gondola_02_launch_a.Entity, 0F);
             Engine.device_set_position(gondola_02_launch_b.Entity, 0F);
-            Engine.cs_run_command_script(temple_ent_grunts.Squad, panic);
+            Engine.cs_run_command_script(temple_ent_grunts.Squad, new ScriptMethodReference(panic));
             await Engine.sleep(60);
-            Engine.cs_run_command_script(temple_ent_jackals.Squad, panic);
+            Engine.cs_run_command_script(temple_ent_jackals.Squad, new ScriptMethodReference(panic));
         }
 
         [ScriptMethod(254, Lifecycle.CommandScript)]
@@ -4817,7 +4817,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.cinematic_fade_to_white();
             Engine.object_teleport(await this.player0(), player0_hide_bsp3);
             Engine.object_teleport(await this.player1(), player1_hide_bsp3);
-            Engine.cs_run_command_script(all_allies, temple_hunker);
+            Engine.cs_run_command_script(all_allies, new ScriptMethodReference(temple_hunker));
             if (await this.cinematic_skip_start())
             {
                 await this.c05_intra2();
@@ -4830,10 +4830,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_create_anew(fleet01);
             Engine.object_create_anew(fleet02);
             Engine.object_create_anew(fleet_high_char);
-            Engine.cs_run_command_script(temple_ent_grunts.Squad, abort);
-            Engine.cs_run_command_script(temple_ent_jackals.Squad, abort);
-            Engine.cs_run_command_script(gondola_02_jetpacks.Squad, abort);
-            Engine.cs_run_command_script(all_allies, abort);
+            Engine.cs_run_command_script(temple_ent_grunts.Squad, new ScriptMethodReference(abort));
+            Engine.cs_run_command_script(temple_ent_jackals.Squad, new ScriptMethodReference(abort));
+            Engine.cs_run_command_script(gondola_02_jetpacks.Squad, new ScriptMethodReference(abort));
+            Engine.cs_run_command_script(all_allies, new ScriptMethodReference(abort));
             Engine.camera_control(false);
             await Engine.sleep(1);
             await Engine.cache_block_for_one_frame();
@@ -4846,20 +4846,20 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.game_save_immediate();
             await Engine.sleep(30);
             Engine.ai_set_orders(all_allies, temple_ent_allies);
-            Engine.ai_scene("temple_ent_ally_scene", high_charity_ally_comment, all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
+            Engine.ai_scene("temple_ent_ally_scene", new ScriptMethodReference(high_charity_ally_comment), all_allies) // Couldn't generate cast from 'Boolean' to 'Void'
             ;
             Engine.wake(new ScriptMethodReference(temple_ent_cortana_reminder));
             if (await this.difficulty_legendary())
             {
                 Engine.ai_place(temple_heavies.Squad, 2);
-                Engine.begin_random(async () => Engine.cs_run_command_script(temple_heavies.left, temple_deploy_l), 
-                    async () => Engine.cs_run_command_script(temple_heavies.right, temple_deploy_r));
+                Engine.begin_random(async () => Engine.cs_run_command_script(temple_heavies.left, new ScriptMethodReference(temple_deploy_l)), 
+                    async () => Engine.cs_run_command_script(temple_heavies.right, new ScriptMethodReference(temple_deploy_r)));
             }
             else
             {
                 Engine.ai_place(temple_heavies.Squad, 1);
-                Engine.begin_random(async () => Engine.cs_run_command_script(temple_heavies.Squad, temple_deploy_l), 
-                    async () => Engine.cs_run_command_script(temple_heavies.Squad, temple_deploy_r));
+                Engine.begin_random(async () => Engine.cs_run_command_script(temple_heavies.Squad, new ScriptMethodReference(temple_deploy_l)), 
+                    async () => Engine.cs_run_command_script(temple_heavies.Squad, new ScriptMethodReference(temple_deploy_r)));
             }
 
             await Engine.sleep(90);
@@ -5523,7 +5523,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                         await Engine.sleep(60);
                         Engine.ai_place(regret1.Squad, 1);
                         Engine.ai_cannot_die(regret1.Squad, true);
-                        Engine.cs_run_command_script(regret1.Squad, reserve_throne);
+                        Engine.cs_run_command_script(regret1.Squad, new ScriptMethodReference(reserve_throne));
                         if (this.regret_times_dead == 1 || this.regret_times_dead == 2)
                         {
                             Engine.ai_set_orders(regret1.Squad, regret_02);
@@ -5579,7 +5579,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     await Engine.sleep(60);
                     Engine.ai_place(regret1.Squad, 1);
                     Engine.ai_cannot_die(regret1.Squad, true);
-                    Engine.cs_run_command_script(regret1.Squad, reserve_throne);
+                    Engine.cs_run_command_script(regret1.Squad, new ScriptMethodReference(reserve_throne));
                     if (this.regret_times_dead == 1 || this.regret_times_dead == 2)
                     {
                         Engine.ai_set_orders(regret1.Squad, regret_02);
@@ -5639,7 +5639,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.game_save_no_timeout();
             Engine.ai_place(regret1._1);
             Engine.ai_cannot_die(regret1.Squad, true);
-            Engine.cs_run_command_script(regret1.Squad, regret_pause);
+            Engine.cs_run_command_script(regret1.Squad, new ScriptMethodReference(regret_pause));
             this.regret_corpse = this.regret_corpse = Engine.list_get(Engine.ai_actors(regret1.Squad), 0);
             this.regret_throne = Engine.object_get_parent(Engine.list_get(Engine.ai_actors(regret1.Squad), 0));
             Engine.object_set_function_variable(this.regret_throne, "effects", 1F, 1F);
@@ -5702,7 +5702,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_set_orders(all_enemies, everyone_retreat);
             Engine.ai_set_blind(all_enemies, true);
             Engine.ai_set_deaf(all_enemies, true);
-            Engine.cs_run_command_script(all_enemies, regret_dead_retreat);
+            Engine.cs_run_command_script(all_enemies, new ScriptMethodReference(regret_dead_retreat));
             await Engine.sleep(60);
             this.bossfight_chatter = false;
             Engine.ai_dialogue_enable(false);

@@ -1998,7 +1998,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task sc_qz_veh_int()
         {
             await Engine.sleep(180);
-            await Engine.sleep_until(async () => Engine.ai_scene("sc_qz_veh_int", cs_sc_qz_veh_int, covenant1));
+            await Engine.sleep_until(async () => Engine.ai_scene("sc_qz_veh_int", new ScriptMethodReference(cs_sc_qz_veh_int), covenant1));
         }
 
         [ScriptMethod(155, Lifecycle.Dormant)]
@@ -2546,7 +2546,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 return (bool)Engine.ai_trigger_test("done_fighting", covenant1) && this.g_fact_ent_sen_spawn || (short)Engine.ai_living_count(fact_ent_sentinels) <= 0 && (short)Engine.ai_living_count(fact_ent_flood) <= 0 && this.g_fact_ent_sen_spawn || Engine.volume_test_objects(tv_fact_ent_follow, Engine.players());
             });
             await Engine.sleep(this.g_order_delay);
-            Engine.cs_run_command_script(covenant1, cs_fact_ent_exit_veh);
+            Engine.cs_run_command_script(covenant1, new ScriptMethodReference(cs_fact_ent_exit_veh));
         }
 
         [ScriptMethod(171, Lifecycle.CommandScript)]
@@ -2669,7 +2669,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 return this.g_ext_b_migrate_5;
             });
             await Engine.sleep((short)(this.g_order_delay * 3));
-            Engine.cs_run_command_script(covenant1, cs_ext_b_exit);
+            Engine.cs_run_command_script(covenant1, new ScriptMethodReference(cs_ext_b_exit));
             await Engine.sleep_until(async () => (short)Engine.structure_bsp_index() == 3);
             Engine.ai_migrate(covenant1, key_cov_dump.Squad);
             await Engine.sleep(5);
@@ -3674,17 +3674,17 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task key_ride_tartarus_main()
         {
             Engine.ai_place(key_ride_tartarus.Squad);
-            Engine.cs_run_command_script(key_ride_tartarus.tartarus, cs_e21_tartarus);
+            Engine.cs_run_command_script(key_ride_tartarus.tartarus, new ScriptMethodReference(cs_e21_tartarus));
             await Engine.sleep_until(async () => (short)Engine.structure_bsp_index() == 4, 10);
-            Engine.cs_run_command_script(key_ride_tartarus.tartarus, cs_e22_tartarus);
+            Engine.cs_run_command_script(key_ride_tartarus.tartarus, new ScriptMethodReference(cs_e22_tartarus));
             await Engine.sleep_until(async () => this.g_key_cruise_entered, 10);
-            Engine.cs_run_command_script(key_ride_tartarus.tartarus, cs_e23_tartarus);
+            Engine.cs_run_command_script(key_ride_tartarus.tartarus, new ScriptMethodReference(cs_e23_tartarus));
             await Engine.sleep_until(async () => this.g_key_shaft_near_exterior, 10);
-            Engine.cs_run_command_script(key_ride_tartarus.tartarus, cs_e24_tartarus);
+            Engine.cs_run_command_script(key_ride_tartarus.tartarus, new ScriptMethodReference(cs_e24_tartarus));
             await Engine.sleep_until(async () => this.g_key_lock1_entered, 10);
-            Engine.cs_run_command_script(key_ride_tartarus.tartarus, cs_e25_tartarus);
+            Engine.cs_run_command_script(key_ride_tartarus.tartarus, new ScriptMethodReference(cs_e25_tartarus));
             await Engine.sleep_until(async () => this.g_key_library_entered, 10);
-            Engine.cs_run_command_script(key_ride_tartarus.tartarus, cs_e26_tartarus);
+            Engine.cs_run_command_script(key_ride_tartarus.tartarus, new ScriptMethodReference(cs_e26_tartarus));
         }
 
         [ScriptMethod(224, Lifecycle.Static)]
@@ -3856,18 +3856,18 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(236, Lifecycle.Dormant)]
         public async Task e25_dialogue()
         {
-            await Engine.sleep_until(async () => Engine.ai_scene("e25_scene0", cs_e25_scene0, e21_cov_inf0), 5, 300);
+            await Engine.sleep_until(async () => Engine.ai_scene("e25_scene0", new ScriptMethodReference(cs_e25_scene0), e21_cov_inf0), 5, 300);
             await Engine.sleep(120);
             Engine.ai_play_line_on_object(default(IGameObject), "0900") // Couldn't generate cast from 'Short' to 'Void'
             ;
             await Engine.sleep_until(async () => this.g_key_library_arrival, 10);
             if ((short)Engine.ai_living_count(e21_cov_inf0) >= 2)
             {
-                await Engine.sleep_until(async () => Engine.ai_scene("e25_scene3", cs_e25_scene3, e21_cov_inf0), 5);
+                await Engine.sleep_until(async () => Engine.ai_scene("e25_scene3", new ScriptMethodReference(cs_e25_scene3), e21_cov_inf0), 5);
             }
             else
             {
-                await Engine.sleep_until(async () => Engine.ai_scene("e25_scene1", cs_e25_scene1, e21_cov_inf0), 5);
+                await Engine.sleep_until(async () => Engine.ai_scene("e25_scene1", new ScriptMethodReference(cs_e25_scene1), e21_cov_inf0), 5);
             }
         }
 
@@ -4010,7 +4010,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("tartarus: humans! i'll deal with them!");
             await Engine.sleep(Engine.ai_play_line_on_object(default(IGameObject), "0800"));
             await Engine.sleep(30);
-            await Engine.sleep_until(async () => Engine.ai_scene("e23_scene0", cs_e23_scene0, e21_cov_inf0), 10, 90);
+            await Engine.sleep_until(async () => Engine.ai_scene("e23_scene0", new ScriptMethodReference(cs_e23_scene0), e21_cov_inf0), 10, 90);
         }
 
         [ScriptMethod(249, Lifecycle.Dormant)]
@@ -4022,8 +4022,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(90);
             Engine.ai_set_orders(e23_fld_inf0_0.Squad, e23_fld_inf0_engage);
             Engine.ai_set_orders(e23_fld_inf0_1.Squad, e23_fld_inf0_engage);
-            Engine.cs_run_command_script(e23_fld_inf0_0.Squad, cs_e23_fld_inf0_0_load);
-            Engine.cs_run_command_script(e23_fld_inf0_1.Squad, cs_e23_fld_inf0_1_load);
+            Engine.cs_run_command_script(e23_fld_inf0_0.Squad, new ScriptMethodReference(cs_e23_fld_inf0_0_load));
+            Engine.cs_run_command_script(e23_fld_inf0_1.Squad, new ScriptMethodReference(cs_e23_fld_inf0_1_load));
         }
 
         [ScriptMethod(250, Lifecycle.Dormant)]
@@ -4116,7 +4116,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("tartarus: i will thin their ranks");
             await Engine.sleep(Engine.ai_play_line_on_object(default(IGameObject), "0770"));
             await Engine.sleep(30);
-            await Engine.sleep_until(async () => Engine.ai_scene("e22_scene0", cs_e22_scene0, e21_cov_inf0), 10, 90);
+            await Engine.sleep_until(async () => Engine.ai_scene("e22_scene0", new ScriptMethodReference(cs_e22_scene0), e21_cov_inf0), 10, 90);
         }
 
         [ScriptMethod(256, Lifecycle.Dormant)]
@@ -4296,7 +4296,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 else
                 {
                     Engine.ai_place(e21_fld_inf0_2.Squad, 1);
-                    Engine.cs_run_command_script(e21_fld_inf0_2.Squad, cs_e21_fld_inf1_high_entry);
+                    Engine.cs_run_command_script(e21_fld_inf0_2.Squad, new ScriptMethodReference(cs_e21_fld_inf1_high_entry));
                     Engine.ai_migrate(e21_fld_inf0_2.Squad, e21_fld_inf1_0.Squad);
                     await Engine.sleep(5);
                     Engine.ai_magically_see_object(e21_fld_inf1_0.Squad, await this.player0());
@@ -4356,7 +4356,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 if (Engine.volume_test_objects(tv_key_upper_left_side, Engine.players()))
                 {
                     Engine.ai_place(e21_fld_inf1_2.Squad, 1);
-                    Engine.cs_run_command_script(e21_fld_inf1_2.Squad, cs_e21_fld_inf0_high_entry);
+                    Engine.cs_run_command_script(e21_fld_inf1_2.Squad, new ScriptMethodReference(cs_e21_fld_inf0_high_entry));
                     Engine.ai_migrate(e21_fld_inf1_2.Squad, e21_fld_inf0_0.Squad);
                     await Engine.sleep(5);
                     Engine.ai_magically_see_object(e21_fld_inf0_0.Squad, await this.player0());
@@ -4412,9 +4412,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             Engine.ai_place(e21_cov_inf0);
             await Engine.sleep(150);
-            await Engine.sleep_until(async () => Engine.ai_scene("e21_scene0", cs_e21_scene0, e21_cov_inf0_1.Squad), 5, 60);
+            await Engine.sleep_until(async () => Engine.ai_scene("e21_scene0", new ScriptMethodReference(cs_e21_scene0), e21_cov_inf0_1.Squad), 5, 60);
             await Engine.sleep(300);
-            await Engine.sleep_until(async () => Engine.ai_scene("e21_scene1", cs_e21_scene1, e21_cov_inf0_0.Squad), 5, 60);
+            await Engine.sleep_until(async () => Engine.ai_scene("e21_scene1", new ScriptMethodReference(cs_e21_scene1), e21_cov_inf0_0.Squad), 5, 60);
             await Engine.sleep_until(async () => this.g_key_lock0_first_loadpoint, 5);
             Engine.game_save();
             Engine.ai_set_orders(e21_cov_inf0_0.Squad, e21_cov_inf0_0_guard_left);

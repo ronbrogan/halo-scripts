@@ -1253,9 +1253,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task e10_weapon_scene()
         {
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_e10_armory, Engine.players()) && Engine.volume_test_objects(tv_e10_armory, Engine.ai_actors(e10_cov_inf0.Squad)));
-            await Engine.sleep_until(async () => Engine.ai_scene("e10_weapon_scene0", cs_e10_weapon_scene0, e10_cov_inf0.Squad), 15);
+            await Engine.sleep_until(async () => Engine.ai_scene("e10_weapon_scene0", new ScriptMethodReference(cs_e10_weapon_scene0), e10_cov_inf0.Squad), 15);
             await Engine.sleep_until(async () => !(Engine.volume_test_objects(tv_e10_armory, Engine.players())), 15);
-            await Engine.sleep_until(async () => Engine.ai_scene("e10_weapon_scene1", cs_e10_weapon_scene1, Engine.object_get_ai(this.g_e10_weapon_scene0_actor)), 15);
+            await Engine.sleep_until(async () => Engine.ai_scene("e10_weapon_scene1", new ScriptMethodReference(cs_e10_weapon_scene1), Engine.object_get_ai(this.g_e10_weapon_scene0_actor)), 15);
         }
 
         [ScriptMethod(101, Lifecycle.Dormant)]
@@ -1271,7 +1271,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_e10_armory_entrance, Engine.players()) || Engine.volume_test_objects(tv_e10_second_half, Engine.players()), 15);
             Engine.game_save();
             Engine.ai_place(e10_pro_phantom0.Squad);
-            Engine.cs_run_command_script(e10_pro_phantom0.phantom0, cs_e10_pro_phantom0_entry);
+            Engine.cs_run_command_script(e10_pro_phantom0.phantom0, new ScriptMethodReference(cs_e10_pro_phantom0_entry));
             if ((short)Engine.ai_living_count(e10_pro_wraith0) <= 0)
             {
                 Engine.ai_place_in_vehicle(e10_pro_ghosts0_1.Squad, e10_pro_phantom0.Squad);
@@ -1507,10 +1507,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_e9_first_drop, Engine.players()), 15);
             Engine.ai_place(e9_pro_inf1.Squad);
-            Engine.cs_run_command_script(e9_pro_inf1.Squad, cs_e9_pro_inf1_trap);
+            Engine.cs_run_command_script(e9_pro_inf1.Squad, new ScriptMethodReference(cs_e9_pro_inf1_trap));
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_e9_trap_trigger0, Engine.players()), 5);
             await Engine.sleep_until(async () => (float)Engine.ai_strength(e9_pro_inf1.Squad) < 0.9F, 15, 300);
-            Engine.cs_run_command_script(e9_pro_inf1.Squad, cs_e9_pro_inf1_abort);
+            Engine.cs_run_command_script(e9_pro_inf1.Squad, new ScriptMethodReference(cs_e9_pro_inf1_abort));
         }
 
         [ScriptMethod(122, Lifecycle.Dormant)]
@@ -1820,8 +1820,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(145, Lifecycle.Dormant)]
         public async Task e6_weapon_scene()
         {
-            await Engine.sleep_until(async () => Engine.ai_scene("e6_weapon_scene", cs_e6_weapon_scene, e6_cov) || (short)Engine.ai_living_count(e6_pro_inf1.Squad) <= 0, 15, this.two_minutes);
-            await Engine.sleep_until(async () => Engine.ai_scene("e6_weapon_scene", cs_e6_weapon_scene, e6_cov), 15, 300);
+            await Engine.sleep_until(async () => Engine.ai_scene("e6_weapon_scene", new ScriptMethodReference(cs_e6_weapon_scene), e6_cov) || (short)Engine.ai_living_count(e6_pro_inf1.Squad) <= 0, 15, this.two_minutes);
+            await Engine.sleep_until(async () => Engine.ai_scene("e6_weapon_scene", new ScriptMethodReference(cs_e6_weapon_scene), e6_cov), 15, 300);
         }
 
         [ScriptMethod(146, Lifecycle.CommandScript)]
@@ -1916,7 +1916,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(e6_pro_phantom0.Squad);
             await Engine.sleep_until(async () => this.g_e6_pro_inf1_arrived);
             await Engine.sleep_until(async () => this.g_e7_started || Engine.object_model_targets_destroyed(Engine.ai_vehicle_get(e6_pro_phantom0.phantom0), "target_front") >= 3 || Engine.object_get_health(Engine.ai_vehicle_get(e6_pro_phantom0.phantom0)) <= 0.05F || this.g_e6_pro_inf1_arrived && (short)Engine.ai_living_count(e6_pro_inf1.Squad) <= 0);
-            Engine.cs_run_command_script(e6_pro_phantom0.phantom0, cs_e6_pro_phantom0_exit);
+            Engine.cs_run_command_script(e6_pro_phantom0.phantom0, new ScriptMethodReference(cs_e6_pro_phantom0_exit));
         }
 
         [ScriptMethod(154, Lifecycle.Dormant)]
@@ -2070,9 +2070,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             Engine.ai_migrate(e4_cov_gold_elite.Squad, e5_cov_gold_elite.Squad);
             Engine.ai_renew(e5_cov_gold_elite.Squad);
-            Engine.cs_run_command_script(e5_cov_gold_elite.Squad, cs_e5_cov_gold_elite_creep);
+            Engine.cs_run_command_script(e5_cov_gold_elite.Squad, new ScriptMethodReference(cs_e5_cov_gold_elite_creep));
             await Engine.sleep_until(async () => (float)Engine.ai_strength(e5_cov_gold_elite.Squad) < 1F || (float)Engine.ai_strength(e5_pro_inf0.Squad) < 0.5F || Engine.volume_test_objects(tv_e5_lower_level, Engine.players()), 5);
-            Engine.cs_run_command_script(e5_cov_gold_elite.Squad, cs_e5_cov_gold_elite_attack);
+            Engine.cs_run_command_script(e5_cov_gold_elite.Squad, new ScriptMethodReference(cs_e5_cov_gold_elite_attack));
             Engine.ai_set_orders(e5_cov_gold_elite.Squad, e5_cov_gold_elite_killomatic);
         }
 
@@ -2140,7 +2140,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_e4_first_step, Engine.players()), 15);
             Engine.ai_place(e4_pro_inf2_0.Squad, (short)Engine.pin(10F - (float)Engine.ai_living_count(prophets), 1F, 4F));
             await Engine.sleep(150);
-            await Engine.sleep_until(async () => Engine.ai_scene("e4_alarm_scene", cs_e4_alarm_scene, e4_pro_inf0) || (short)Engine.ai_living_count(e4_pro_inf2_0.Squad) <= 0, 15);
+            await Engine.sleep_until(async () => Engine.ai_scene("e4_alarm_scene", new ScriptMethodReference(cs_e4_alarm_scene), e4_pro_inf0) || (short)Engine.ai_living_count(e4_pro_inf2_0.Squad) <= 0, 15);
         }
 
         [ScriptMethod(175, Lifecycle.Dormant)]
@@ -2254,7 +2254,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(5);
             Engine.ai_place(e3_pro_inf0_0.Squad);
             Engine.ai_place(e3_pro_inf0_1.Squad, (short)Engine.pin(8F - (float)Engine.ai_living_count(prophets), 1F, 4F));
-            await Engine.sleep_until(async () => Engine.ai_scene("e3_alarm_scene", cs_e3_alarm_scene, e3_pro_inf0) || (short)Engine.ai_living_count(e3_pro_inf0) <= 0, 15);
+            await Engine.sleep_until(async () => Engine.ai_scene("e3_alarm_scene", new ScriptMethodReference(cs_e3_alarm_scene), e3_pro_inf0) || (short)Engine.ai_living_count(e3_pro_inf0) <= 0, 15);
         }
 
         [ScriptMethod(186, Lifecycle.Dormant)]
@@ -2262,7 +2262,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             Engine.ai_place(e3_cov_grunts0.Squad);
             Engine.ai_disregard(Engine.ai_actors(e3_cov_grunts0.Squad), true);
-            Engine.cs_run_command_script(e3_cov_grunts0.Squad, cs_e3_cov_grunts0_cower);
+            Engine.cs_run_command_script(e3_cov_grunts0.Squad, new ScriptMethodReference(cs_e3_cov_grunts0_cower));
         }
 
         [ScriptMethod(187, Lifecycle.Dormant)]
@@ -2270,7 +2270,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             Engine.ai_migrate(e2_cov_gold_elite.Squad, e3_cov_gold_elite.Squad);
             Engine.ai_renew(e3_cov_gold_elite.Squad);
-            Engine.cs_run_command_script(e3_cov_gold_elite.Squad, cs_e3_cov_gold_elite_charge);
+            Engine.cs_run_command_script(e3_cov_gold_elite.Squad, new ScriptMethodReference(cs_e3_cov_gold_elite_charge));
         }
 
         [ScriptMethod(188, Lifecycle.Dormant)]
@@ -2278,7 +2278,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             Engine.ai_migrate(e2_cov_inf0.Squad, e3_cov_inf0.Squad);
             Engine.ai_renew(e3_cov_inf0.Squad);
-            Engine.cs_run_command_script(Engine.object_get_ai(this.g_cov_stealth_major), cs_e3_cov_stealth_major_charge);
+            Engine.cs_run_command_script(Engine.object_get_ai(this.g_cov_stealth_major), new ScriptMethodReference(cs_e3_cov_stealth_major_charge));
         }
 
         [ScriptMethod(189, Lifecycle.Dormant)]
@@ -2441,15 +2441,15 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(196, Lifecycle.Static)]
         public async Task e2_cov_sword_elites_charge0()
         {
-            Engine.cs_run_command_script(e2_cov_gold_elite.Squad, cs_e2_cov_gold_elite_charge0);
-            Engine.cs_run_command_script(Engine.object_get_ai(this.g_cov_stealth_major), cs_e2_cov_stealth_elite_charge0);
+            Engine.cs_run_command_script(e2_cov_gold_elite.Squad, new ScriptMethodReference(cs_e2_cov_gold_elite_charge0));
+            Engine.cs_run_command_script(Engine.object_get_ai(this.g_cov_stealth_major), new ScriptMethodReference(cs_e2_cov_stealth_elite_charge0));
         }
 
         [ScriptMethod(197, Lifecycle.Dormant)]
         public async Task e2_alarm_scene()
         {
             await Engine.sleep_until(async () => (short)Engine.ai_combat_status(e2_pro_inf0.Squad) >= this.ai_combat_status_visible, 15);
-            await Engine.sleep_until(async () => Engine.ai_scene("e2_alarm_scene", cs_e2_alarm_scene, e2_pro_inf0.Squad), 15, 300);
+            await Engine.sleep_until(async () => Engine.ai_scene("e2_alarm_scene", new ScriptMethodReference(cs_e2_alarm_scene), e2_pro_inf0.Squad), 15, 300);
         }
 
         [ScriptMethod(198, Lifecycle.Dormant)]
@@ -2491,10 +2491,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_disregard(Engine.ai_actors(e2_cov_grunts0.Squad), true);
             await Engine.sleep_until(async () => (bool)Engine.ai_trigger_test("generic_player_sighted", e2_cov_grunts0.Squad), 5);
             await Engine.sleep(Engine.ai_play_line_at_player(e2_cov_grunts0.grunt0, "0330"));
-            Engine.cs_run_command_script(e2_cov_grunts0.Squad, cs_e2_cov_grunts0_flee);
+            Engine.cs_run_command_script(e2_cov_grunts0.Squad, new ScriptMethodReference(cs_e2_cov_grunts0_flee));
             await Engine.sleep(300);
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(e2_pro) <= 4 && (short)Engine.ai_fighting_count(e2_pro) <= 0);
-            Engine.cs_run_command_script(e2_cov_grunts0.Squad, cs_e2_cov_grunts0_abort);
+            Engine.cs_run_command_script(e2_cov_grunts0.Squad, new ScriptMethodReference(cs_e2_cov_grunts0_abort));
             Engine.ai_disregard(Engine.ai_actors(e2_cov_grunts0.Squad), false);
             Engine.ai_migrate(e2_cov_grunts0.Squad, e2_cov_inf0.Squad);
         }
@@ -2933,9 +2933,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(e1_pro_inf0_0.Squad);
             Engine.ai_place(e1_pro_inf0_1.Squad);
             Engine.ai_place(e1_pro_inf0_1_1.Squad);
-            Engine.cs_run_command_script(e1_pro_inf0_0.Squad, cs_e1_pro_inf0_0_patrol0);
-            Engine.cs_run_command_script(e1_pro_inf0_1.brute0, cs_e1_pro_inf0_1_patrol0);
-            Engine.cs_run_command_script(e1_pro_inf0_1_1.brute0, cs_e1_pro_inf0_1_patrol1);
+            Engine.cs_run_command_script(e1_pro_inf0_0.Squad, new ScriptMethodReference(cs_e1_pro_inf0_0_patrol0));
+            Engine.cs_run_command_script(e1_pro_inf0_1.brute0, new ScriptMethodReference(cs_e1_pro_inf0_1_patrol0));
+            Engine.cs_run_command_script(e1_pro_inf0_1_1.brute0, new ScriptMethodReference(cs_e1_pro_inf0_1_patrol1));
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(e1_pro_inf0) <= 0 || Engine.volume_test_objects(tv_e1_second_wall, Engine.players()), 15);
             await Engine.sleep(15);
             Engine.ai_place(e1_pro_inf0_2.Squad);
@@ -2959,7 +2959,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(15);
             if ((short)Engine.ai_living_count(e1_pro) <= 0)
             {
-                Engine.cs_run_command_script(e1_cov_inf2.gold_elite, cs_e1_zealot_intro);
+                Engine.cs_run_command_script(e1_cov_inf2.gold_elite, new ScriptMethodReference(cs_e1_zealot_intro));
             }
 
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_e1_exit, Engine.ai_get_object(e1_cov_inf2.gold_elite)), 15);
@@ -2983,9 +2983,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => (short)Engine.ai_spawn_count(e1_pro_inf1.Squad) > 0 && (short)Engine.ai_living_count(e1_pro_inf0) <= 0 || Engine.volume_test_objects(tv_e1_exit, Engine.players()), 15);
             Engine.ai_place(e1_cov_inf1.Squad);
             this.g_cov_stealth_major = Engine.ai_get_unit(e1_cov_inf1.stealth_major);
-            await Engine.sleep_until(async () => Engine.ai_scene("e1_stealth_major_scene", cs_e1_stealth_major_scene, e1_cov_inf1.Squad) || (short)Engine.ai_spawn_count(e1_cov_inf2.Squad) > 0, 10);
+            await Engine.sleep_until(async () => Engine.ai_scene("e1_stealth_major_scene", new ScriptMethodReference(cs_e1_stealth_major_scene), e1_cov_inf1.Squad) || (short)Engine.ai_spawn_count(e1_cov_inf2.Squad) > 0, 10);
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(e1_pro) <= 0 && (short)Engine.ai_spawn_count(e1_cov_inf2.Squad) > 0, 5);
-            Engine.cs_run_command_script(e1_cov_inf1.Squad, cs_e1_watch_pods);
+            Engine.cs_run_command_script(e1_cov_inf1.Squad, new ScriptMethodReference(cs_e1_watch_pods));
         }
 
         [ScriptMethod(226, Lifecycle.Dormant)]

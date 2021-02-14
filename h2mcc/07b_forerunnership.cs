@@ -4127,11 +4127,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(e1_fld_inf1.Squad, 4);
             Engine.ai_place(e1_CS_pelican1.pilot);
             await Engine.sleep(6);
-            Engine.cs_run_command_script(e1_CS_pelican1.pilot, e1_cs_pelican1);
+            Engine.cs_run_command_script(e1_CS_pelican1.pilot, new ScriptMethodReference(e1_cs_pelican1));
             await Engine.sleep(180);
             Engine.ai_place(e1_CS_pelican2.pilot);
             await Engine.sleep(6);
-            Engine.cs_run_command_script(e1_CS_pelican2.pilot, e1_cs_pelican2);
+            Engine.cs_run_command_script(e1_CS_pelican2.pilot, new ScriptMethodReference(e1_cs_pelican2));
         }
 
         [ScriptMethod(243, Lifecycle.Dormant)]
