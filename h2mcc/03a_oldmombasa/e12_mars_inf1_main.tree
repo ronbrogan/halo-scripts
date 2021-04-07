@@ -1,15 +1,15 @@
 
-("e12_mars_inf1_main", MethodDecl<Void> @:197 op:0,dt:0,nt:65535,next:6972,str:14887,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6972 op:0,dt:4,nt:8,next:65535,str:18000,d0:6973,d1:65200;
-        ("begin", Expression<MethodOrOperator> @:6973 op:0,dt:2,nt:9,next:6961,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6961 op:21,dt:4,nt:8,next:6969,str:18037,d0:6962,d1:65189;
-                ("sleep_until", Expression<MethodOrOperator> @:6962 op:21,dt:2,nt:9,next:6963,str:294,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:6963 op:33,dt:5,nt:8,next:6968,str:18050,d0:6964,d1:65191;
-                        ("volume_test_objects", Expression<MethodOrOperator> @:6964 op:33,dt:2,nt:9,next:6965,str:11142,d0:0,d1:0;
-                            ("tv_e12_mars_inf1_begin", Expression<Trigger> @:6965 op:13,dt:13,nt:9,next:6966,str:14567,d0:54,d1:0;
-                                (____, BuiltinInvocation<List> @:6966 op:28,dt:31,nt:8,next:65535,str:18094,d0:6967,d1:65194;
-                                    ("players", Expression<MethodOrOperator> @:6967 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;)))))
-                    (15, Expression<Short> @:6968 op:7,dt:7,nt:9,next:65535,str:18105,d0:15,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6969 op:290,dt:4,nt:8,next:65535,str:18111,d0:6970,d1:65197;
-                ("ai_place", Expression<MethodOrOperator> @:6970 op:290,dt:2,nt:9,next:6971,str:4681,d0:0,d1:0;
-                    ("e12_mars_inf1", Expression<AI> @:6971 op:19,dt:19,nt:9,next:65535,str:14590,d0:105,d1:0;))))))
+("e12_mars_inf1_main", MethodDecl<Void> @:197 check:0,op:0,dt:0,nt:65535,next:6972,nextCheck:65199,str:14887,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6972 check:65199,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:18000,h:1,d0:6973,d1:65200;
+        ("begin", Expression<MethodOrOperator> @:6973 check:65200,op:0,dt:2,nt:9,next:6961,nextCheck:65188,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6961 check:65188,op:21,dt:4,nt:8,next:6969,nextCheck:65196,str:18037,h:1,d0:6962,d1:65189;
+                ("sleep_until", Expression<MethodOrOperator> @:6962 check:65189,op:21,dt:2,nt:9,next:6963,nextCheck:65190,str:294,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:6963 check:65190,op:33,dt:5,nt:8,next:6968,nextCheck:65195,str:18050,h:1,d0:6964,d1:65191;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:6964 check:65191,op:33,dt:2,nt:9,next:6965,nextCheck:65192,str:11142,h:0,d0:0,d1:0;
+                            ("tv_e12_mars_inf1_begin", Expression<Trigger> @:6965 check:65192,op:13,dt:13,nt:9,next:6966,nextCheck:65193,str:14567,h:0,d0:54,d1:0;
+                                (____, BuiltinInvocation<List> @:6966 check:65193,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:18094,h:1,d0:6967,d1:65194;
+                                    ("players", Expression<MethodOrOperator> @:6967 check:65194,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:84,h:0,d0:0,d1:0;)))))
+                    (15, Expression<Short> @:6968 check:65195,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:18105,h:1,d0:15,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6969 check:65196,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:18111,h:1,d0:6970,d1:65197;
+                ("ai_place", Expression<MethodOrOperator> @:6970 check:65197,op:290,dt:2,nt:9,next:6971,nextCheck:65198,str:4681,h:0,d0:0,d1:0;
+                    ("e12_mars_inf1", Expression<AI> @:6971 check:65198,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:14590,h:0,d0:105,d1:0;))))))

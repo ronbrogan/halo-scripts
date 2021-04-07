@@ -1,21 +1,21 @@
 
-("e8_warthog_scene", MethodDecl<Void> @:279 op:0,dt:0,nt:65535,next:10594,str:19949,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:10594 op:0,dt:4,nt:8,next:65535,str:629,d0:10595,d1:36055;
-        ("begin", Expression<MethodOrOperator> @:10595 op:0,dt:2,nt:9,next:10577,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:10577 op:21,dt:4,nt:8,next:65535,str:682,d0:10578,d1:36038;
-                ("sleep_until", Expression<MethodOrOperator> @:10578 op:21,dt:2,nt:9,next:10579,str:294,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:10579 op:6,dt:5,nt:8,next:10592,str:699,d0:10580,d1:36040;
-                        ("or", Expression<MethodOrOperator> @:10580 op:6,dt:2,nt:9,next:10581,str:907,d0:0,d1:0;
-                            (____, BuiltinInvocation<Boolean> @:10581 op:363,dt:5,nt:8,next:10586,str:707,d0:10582,d1:36042;
-                                ("ai_scene", Expression<MethodOrOperator> @:10582 op:363,dt:2,nt:9,next:10583,str:18243,d0:0,d1:0;
-                                    ("e8_warthog_intro_scene", Expression<StringId> @:10583 op:11,dt:11,nt:9,next:10584,str:19819,d0:13280,d1:5632;
-                                        ("cs_e8_warthog_intro_scene", Expression<AIScript> @:10584 op:21,dt:21,nt:9,next:10585,str:19842,d0:271,d1:0;
-                                            ("e8_mars_warthog0/warthog0", Expression<AI> @:10585 op:19,dt:19,nt:9,next:65535,str:19268,d0:0,d1:49220;)))))
-                            (____, BuiltinInvocation<Boolean> @:10586 op:18,dt:5,nt:8,next:65535,str:797,d0:10587,d1:36047;
-                                ("<=", Expression<MethodOrOperator> @:10587 op:18,dt:2,nt:9,next:10588,str:12055,d0:0,d1:0;
-                                    (____, BuiltinInvocation<Short> @:10588 op:327,dt:7,nt:8,next:10591,str:801,d0:10589,d1:36049;
-                                        ("ai_living_count", Expression<MethodOrOperator> @:10589 op:327,dt:2,nt:9,next:10590,str:12058,d0:0,d1:0;
-                                            ("e8_mars_warthog0/warthog0", Expression<AI> @:10590 op:19,dt:19,nt:9,next:65535,str:19268,d0:0,d1:49220;)))
-                                    (0, Expression<Short> @:10591 op:7,dt:7,nt:9,next:65535,str:845,d0:0,d1:65535;)))))
-                    (5, Expression<Short> @:10592 op:7,dt:7,nt:9,next:10593,str:856,d0:5,d1:65535;
-                        ("two_minutes", VariableAccess<Int> @:10593 op:8,dt:8,nt:13,next:65535,str:10165,d0:8,d1:0;)))))))
+("e8_warthog_scene", MethodDecl<Void> @:279 check:0,op:0,dt:0,nt:65535,next:10594,nextCheck:36054,str:19949,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:10594 check:36054,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:629,h:2,d0:10595,d1:36055;
+        ("begin", Expression<MethodOrOperator> @:10595 check:36055,op:0,dt:2,nt:9,next:10577,nextCheck:36037,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:10577 check:36037,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:682,h:2,d0:10578,d1:36038;
+                ("sleep_until", Expression<MethodOrOperator> @:10578 check:36038,op:21,dt:2,nt:9,next:10579,nextCheck:36039,str:294,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:10579 check:36039,op:6,dt:5,nt:8,next:10592,nextCheck:36052,str:699,h:2,d0:10580,d1:36040;
+                        ("or", Expression<MethodOrOperator> @:10580 check:36040,op:6,dt:2,nt:9,next:10581,nextCheck:36041,str:907,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Boolean> @:10581 check:36041,op:363,dt:5,nt:8,next:10586,nextCheck:36046,str:707,h:2,d0:10582,d1:36042;
+                                ("ai_scene", Expression<MethodOrOperator> @:10582 check:36042,op:363,dt:2,nt:9,next:10583,nextCheck:36043,str:18243,h:0,d0:0,d1:0;
+                                    ("e8_warthog_intro_scene", Expression<StringId> @:10583 check:36043,op:11,dt:11,nt:9,next:10584,nextCheck:36044,str:19819,h:0,d0:13280,d1:5632;
+                                        ("cs_e8_warthog_intro_scene", Expression<AIScript> @:10584 check:36044,op:21,dt:21,nt:9,next:10585,nextCheck:36045,str:19842,h:0,d0:271,d1:0;
+                                            ("e8_mars_warthog0/warthog0", Expression<AI> @:10585 check:36045,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19268,h:0,d0:0,d1:49220;)))))
+                            (____, BuiltinInvocation<Boolean> @:10586 check:36046,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:797,h:2,d0:10587,d1:36047;
+                                ("<=", Expression<MethodOrOperator> @:10587 check:36047,op:18,dt:2,nt:9,next:10588,nextCheck:36048,str:12055,h:0,d0:0,d1:0;
+                                    (____, BuiltinInvocation<Short> @:10588 check:36048,op:327,dt:7,nt:8,next:10591,nextCheck:36051,str:801,h:2,d0:10589,d1:36049;
+                                        ("ai_living_count", Expression<MethodOrOperator> @:10589 check:36049,op:327,dt:2,nt:9,next:10590,nextCheck:36050,str:12058,h:0,d0:0,d1:0;
+                                            ("e8_mars_warthog0/warthog0", Expression<AI> @:10590 check:36050,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19268,h:0,d0:0,d1:49220;)))
+                                    (0, Expression<Short> @:10591 check:36051,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:845,h:2,d0:0,d1:65535;)))))
+                    (5, Expression<Short> @:10592 check:36052,op:7,dt:7,nt:9,next:10593,nextCheck:36053,str:856,h:2,d0:5,d1:65535;
+                        ("two_minutes", VariableAccess<Int> @:10593 check:36053,op:8,dt:8,nt:13,next:65535,nextCheck:65535,str:10165,h:0,d0:8,d1:0;)))))))

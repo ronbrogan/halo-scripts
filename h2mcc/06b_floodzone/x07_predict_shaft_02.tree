@@ -1,17 +1,17 @@
 
-("x07_predict_shaft_02", MethodDecl<Void> @:125 op:0,dt:0,nt:65535,next:3935,str:10259,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3935 op:0,dt:4,nt:8,next:65535,str:47979,d0:3936,d1:62163;
-        ("begin", Expression<MethodOrOperator> @:3936 op:0,dt:2,nt:9,next:3922,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3922 op:19,dt:4,nt:8,next:3925,str:48018,d0:3923,d1:62150;
-                ("sleep", Expression<MethodOrOperator> @:3923 op:19,dt:2,nt:9,next:3924,str:85,d0:0,d1:0;
-                    (532, Expression<Short> @:3924 op:7,dt:7,nt:9,next:65535,str:48025,d0:532,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3925 op:27,dt:4,nt:8,next:3928,str:48032,d0:3926,d1:62153;
-                ("print", Expression<MethodOrOperator> @:3926 op:27,dt:2,nt:9,next:3927,str:91,d0:0,d1:0;
-                    ("predict: camera", Expression<String> @:3927 op:9,dt:9,nt:9,next:65535,str:10121,d0:10121,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3928 op:455,dt:4,nt:8,next:65535,str:48060,d0:3929,d1:62156;
-                ("camera_predict_resources_at_frame", Expression<MethodOrOperator> @:3929 op:455,dt:2,nt:9,next:3930,str:10137,d0:0,d1:0;
-                    ("objects\characters\cinematic_camera\x07\x07", Expression<Animation> @:3930 op:36,dt:36,nt:9,next:3931,str:5743,d0:891,d1:58609;
-                        ("x07_06", Expression<StringId> @:3931 op:11,dt:11,nt:9,next:3932,str:10171,d0:3911,d1:1536;
-                            ("none", Expression<Unit> @:3932 op:51,dt:51,nt:9,next:3933,str:1,d0:65535,d1:65535;
-                                ("anchor_flag_x07", Expression<LocationFlag> @:3933 op:14,dt:14,nt:9,next:3934,str:5794,d0:2,d1:0;
-                                    (552, Expression<Int> @:3934 op:8,dt:8,nt:9,next:65535,str:48171,d0:552,d1:0;))))))))))
+("x07_predict_shaft_02", MethodDecl<Void> @:125 check:0,op:0,dt:0,nt:65535,next:3935,nextCheck:62162,str:10259,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3935 check:62162,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:47979,h:0,d0:3936,d1:62163;
+        ("begin", Expression<MethodOrOperator> @:3936 check:62163,op:0,dt:2,nt:9,next:3922,nextCheck:62149,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3922 check:62149,op:19,dt:4,nt:8,next:3925,nextCheck:62152,str:48018,h:0,d0:3923,d1:62150;
+                ("sleep", Expression<MethodOrOperator> @:3923 check:62150,op:19,dt:2,nt:9,next:3924,nextCheck:62151,str:85,h:0,d0:0,d1:0;
+                    (532, Expression<Short> @:3924 check:62151,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:48025,h:0,d0:532,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3925 check:62152,op:27,dt:4,nt:8,next:3928,nextCheck:62155,str:48032,h:0,d0:3926,d1:62153;
+                ("print", Expression<MethodOrOperator> @:3926 check:62153,op:27,dt:2,nt:9,next:3927,nextCheck:62154,str:91,h:0,d0:0,d1:0;
+                    ("predict: camera", Expression<String> @:3927 check:62154,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:10121,h:0,d0:10121,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3928 check:62155,op:455,dt:4,nt:8,next:65535,nextCheck:65535,str:48060,h:0,d0:3929,d1:62156;
+                ("camera_predict_resources_at_frame", Expression<MethodOrOperator> @:3929 check:62156,op:455,dt:2,nt:9,next:3930,nextCheck:62157,str:10137,h:0,d0:0,d1:0;
+                    ("objects\characters\cinematic_camera\x07\x07", Expression<Animation> @:3930 check:62157,op:36,dt:36,nt:9,next:3931,nextCheck:62158,str:5743,h:0,d0:891,d1:58609;
+                        ("x07_06", Expression<StringId> @:3931 check:62158,op:11,dt:11,nt:9,next:3932,nextCheck:62159,str:10171,h:0,d0:3911,d1:1536;
+                            ("none", Expression<Unit> @:3932 check:62159,op:51,dt:51,nt:9,next:3933,nextCheck:62160,str:1,h:0,d0:65535,d1:65535;
+                                ("anchor_flag_x07", Expression<LocationFlag> @:3933 check:62160,op:14,dt:14,nt:9,next:3934,nextCheck:62161,str:5794,h:0,d0:2,d1:0;
+                                    (552, Expression<Int> @:3934 check:62161,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:48171,h:0,d0:552,d1:0;))))))))))

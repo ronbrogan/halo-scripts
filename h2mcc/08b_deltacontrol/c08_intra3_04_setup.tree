@@ -1,22 +1,22 @@
 
-("c08_intra3_04_setup", MethodDecl<Void> @:149 op:0,dt:0,nt:65535,next:6007,str:15031,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6007 op:0,dt:4,nt:8,next:65535,str:3847,d0:6008,d1:64235;
-        ("begin", Expression<MethodOrOperator> @:6008 op:0,dt:2,nt:9,next:5989,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5989 op:22,dt:4,nt:8,next:5992,str:3892,d0:5990,d1:64217;
-                ("wake", Expression<MethodOrOperator> @:5990 op:22,dt:2,nt:9,next:5991,str:5851,d0:0,d1:0;
-                    ("c08_intra3_foley_04", Expression<ScriptReference> @:5991 op:10,dt:10,nt:9,next:65535,str:15011,d0:143,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5992 op:22,dt:4,nt:8,next:5995,str:3923,d0:5993,d1:64220;
-                ("wake", Expression<MethodOrOperator> @:5993 op:22,dt:2,nt:9,next:5994,str:5851,d0:0,d1:0;
-                    ("c08_4260_gsp", Expression<ScriptReference> @:5994 op:10,dt:10,nt:9,next:65535,str:14682,d0:144,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5995 op:22,dt:4,nt:8,next:5998,str:3945,d0:5996,d1:64223;
-                ("wake", Expression<MethodOrOperator> @:5996 op:22,dt:2,nt:9,next:5997,str:5851,d0:0,d1:0;
-                    ("c08_4270_der", Expression<ScriptReference> @:5997 op:10,dt:10,nt:9,next:65535,str:14785,d0:145,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5998 op:22,dt:4,nt:8,next:6001,str:3967,d0:5999,d1:64226;
-                ("wake", Expression<MethodOrOperator> @:5999 op:22,dt:2,nt:9,next:6000,str:5851,d0:0,d1:0;
-                    ("c08_4280_gsp", Expression<ScriptReference> @:6000 op:10,dt:10,nt:9,next:65535,str:14856,d0:146,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6001 op:22,dt:4,nt:8,next:6004,str:3989,d0:6002,d1:64229;
-                ("wake", Expression<MethodOrOperator> @:6002 op:22,dt:2,nt:9,next:6003,str:5851,d0:0,d1:0;
-                    ("c08_4290_gsp", Expression<ScriptReference> @:6003 op:10,dt:10,nt:9,next:65535,str:14927,d0:147,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6004 op:22,dt:4,nt:8,next:65535,str:4011,d0:6005,d1:64232;
-                ("wake", Expression<MethodOrOperator> @:6005 op:22,dt:2,nt:9,next:6006,str:5851,d0:0,d1:0;
-                    ("c08_4300_der", Expression<ScriptReference> @:6006 op:10,dt:10,nt:9,next:65535,str:14998,d0:148,d1:65535;))))))
+("c08_intra3_04_setup", MethodDecl<Void> @:149 check:0,op:0,dt:0,nt:65535,next:6007,nextCheck:64234,str:15031,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6007 check:64234,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:3847,h:1,d0:6008,d1:64235;
+        ("begin", Expression<MethodOrOperator> @:6008 check:64235,op:0,dt:2,nt:9,next:5989,nextCheck:64216,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5989 check:64216,op:22,dt:4,nt:8,next:5992,nextCheck:64219,str:3892,h:1,d0:5990,d1:64217;
+                ("wake", Expression<MethodOrOperator> @:5990 check:64217,op:22,dt:2,nt:9,next:5991,nextCheck:64218,str:5851,h:0,d0:0,d1:0;
+                    ("c08_intra3_foley_04", Expression<ScriptReference> @:5991 check:64218,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:15011,h:0,d0:143,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5992 check:64219,op:22,dt:4,nt:8,next:5995,nextCheck:64222,str:3923,h:1,d0:5993,d1:64220;
+                ("wake", Expression<MethodOrOperator> @:5993 check:64220,op:22,dt:2,nt:9,next:5994,nextCheck:64221,str:5851,h:0,d0:0,d1:0;
+                    ("c08_4260_gsp", Expression<ScriptReference> @:5994 check:64221,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:14682,h:0,d0:144,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5995 check:64222,op:22,dt:4,nt:8,next:5998,nextCheck:64225,str:3945,h:1,d0:5996,d1:64223;
+                ("wake", Expression<MethodOrOperator> @:5996 check:64223,op:22,dt:2,nt:9,next:5997,nextCheck:64224,str:5851,h:0,d0:0,d1:0;
+                    ("c08_4270_der", Expression<ScriptReference> @:5997 check:64224,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:14785,h:0,d0:145,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5998 check:64225,op:22,dt:4,nt:8,next:6001,nextCheck:64228,str:3967,h:1,d0:5999,d1:64226;
+                ("wake", Expression<MethodOrOperator> @:5999 check:64226,op:22,dt:2,nt:9,next:6000,nextCheck:64227,str:5851,h:0,d0:0,d1:0;
+                    ("c08_4280_gsp", Expression<ScriptReference> @:6000 check:64227,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:14856,h:0,d0:146,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6001 check:64228,op:22,dt:4,nt:8,next:6004,nextCheck:64231,str:3989,h:1,d0:6002,d1:64229;
+                ("wake", Expression<MethodOrOperator> @:6002 check:64229,op:22,dt:2,nt:9,next:6003,nextCheck:64230,str:5851,h:0,d0:0,d1:0;
+                    ("c08_4290_gsp", Expression<ScriptReference> @:6003 check:64230,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:14927,h:0,d0:147,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6004 check:64231,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:4011,h:1,d0:6005,d1:64232;
+                ("wake", Expression<MethodOrOperator> @:6005 check:64232,op:22,dt:2,nt:9,next:6006,nextCheck:64233,str:5851,h:0,d0:0,d1:0;
+                    ("c08_4300_der", Expression<ScriptReference> @:6006 check:64233,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:14998,h:0,d0:148,d1:65535;))))))

@@ -1,13 +1,13 @@
 
-("effect_dust_land", MethodDecl<Void> @:87 op:0,dt:0,nt:65535,next:2560,str:7277,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2560 op:0,dt:4,nt:8,next:65535,str:30584,d0:2561,d1:60788;
-        ("begin", Expression<MethodOrOperator> @:2561 op:0,dt:2,nt:9,next:2551,str:142,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2551 op:19,dt:4,nt:8,next:2554,str:30619,d0:2552,d1:60779;
-                ("sleep", Expression<MethodOrOperator> @:2552 op:19,dt:2,nt:9,next:2553,str:221,d0:0,d1:0;
-                    (59, Expression<Short> @:2553 op:7,dt:7,nt:9,next:65535,str:30626,d0:59,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2554 op:27,dt:4,nt:8,next:2557,str:30632,d0:2555,d1:60782;
-                ("print", Expression<MethodOrOperator> @:2555 op:27,dt:2,nt:9,next:2556,str:227,d0:0,d1:0;
-                    ("effect - dust land", Expression<String> @:2556 op:9,dt:9,nt:9,next:65535,str:7223,d0:7223,d1:0;)))
-            (____, BuiltinInvocation<Void> @:2557 op:48,dt:4,nt:8,next:65535,str:30663,d0:2558,d1:60785;
-                ("object_create_anew", Expression<MethodOrOperator> @:2558 op:48,dt:2,nt:9,next:2559,str:2641,d0:0,d1:0;
-                    ("outro_dust_land", Expression<EntityIdentifier> @:2559 op:56,dt:56,nt:9,next:65535,str:7242,d0:71,d1:65535;))))))
+("effect_dust_land", MethodDecl<Void> @:87 check:0,op:0,dt:0,nt:65535,next:2560,nextCheck:60787,str:7277,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2560 check:60787,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:30584,h:0,d0:2561,d1:60788;
+        ("begin", Expression<MethodOrOperator> @:2561 check:60788,op:0,dt:2,nt:9,next:2551,nextCheck:60778,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2551 check:60778,op:19,dt:4,nt:8,next:2554,nextCheck:60781,str:30619,h:0,d0:2552,d1:60779;
+                ("sleep", Expression<MethodOrOperator> @:2552 check:60779,op:19,dt:2,nt:9,next:2553,nextCheck:60780,str:221,h:0,d0:0,d1:0;
+                    (59, Expression<Short> @:2553 check:60780,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:30626,h:0,d0:59,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2554 check:60781,op:27,dt:4,nt:8,next:2557,nextCheck:60784,str:30632,h:0,d0:2555,d1:60782;
+                ("print", Expression<MethodOrOperator> @:2555 check:60782,op:27,dt:2,nt:9,next:2556,nextCheck:60783,str:227,h:0,d0:0,d1:0;
+                    ("effect - dust land", Expression<String> @:2556 check:60783,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:7223,h:0,d0:7223,d1:0;)))
+            (____, BuiltinInvocation<Void> @:2557 check:60784,op:48,dt:4,nt:8,next:65535,nextCheck:65535,str:30663,h:0,d0:2558,d1:60785;
+                ("object_create_anew", Expression<MethodOrOperator> @:2558 check:60785,op:48,dt:2,nt:9,next:2559,nextCheck:60786,str:2641,h:0,d0:0,d1:0;
+                    ("outro_dust_land", Expression<EntityIdentifier> @:2559 check:60786,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:7242,h:0,d0:71,d1:65535;))))))

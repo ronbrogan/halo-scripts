@@ -1,15 +1,15 @@
 
-("e5_mars_inf0_main", MethodDecl<Void> @:329 op:0,dt:0,nt:65535,next:12976,str:22668,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:12976 op:0,dt:4,nt:8,next:65535,str:29152,d0:12977,d1:38437;
-        ("begin", Expression<MethodOrOperator> @:12977 op:0,dt:2,nt:9,next:12965,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:12965 op:309,dt:4,nt:8,next:12969,str:29210,d0:12966,d1:38426;
-                ("ai_migrate", Expression<MethodOrOperator> @:12966 op:309,dt:2,nt:9,next:12967,str:13386,d0:0,d1:0;
-                    ("e4_mars_inf0", Expression<AI> @:12967 op:19,dt:19,nt:9,next:12968,str:22582,d0:40,d1:0;
-                        ("e5_mars_inf0", Expression<AI> @:12968 op:19,dt:19,nt:9,next:65535,str:21363,d0:49,d1:0;))))
-            (____, BuiltinInvocation<Void> @:12969 op:317,dt:4,nt:8,next:12972,str:29251,d0:12970,d1:38430;
-                ("ai_renew", Expression<MethodOrOperator> @:12970 op:317,dt:2,nt:9,next:12971,str:13465,d0:0,d1:0;
-                    ("e5_mars_inf0", Expression<AI> @:12971 op:19,dt:19,nt:9,next:65535,str:21363,d0:49,d1:0;)))
-            (____, BuiltinInvocation<Void> @:12972 op:300,dt:4,nt:8,next:65535,str:29277,d0:12973,d1:38433;
-                ("ai_disposable", Expression<MethodOrOperator> @:12973 op:300,dt:2,nt:9,next:12974,str:13451,d0:0,d1:0;
-                    ("e5_mars_inf0", Expression<AI> @:12974 op:19,dt:19,nt:9,next:12975,str:21363,d0:49,d1:0;
-                        (False, Expression<Boolean> @:12975 op:5,dt:5,nt:9,next:65535,str:29305,d0:65280,d1:65535;)))))))
+("e5_mars_inf0_main", MethodDecl<Void> @:329 check:0,op:0,dt:0,nt:65535,next:12976,nextCheck:38436,str:22668,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:12976 check:38436,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:29152,h:2,d0:12977,d1:38437;
+        ("begin", Expression<MethodOrOperator> @:12977 check:38437,op:0,dt:2,nt:9,next:12965,nextCheck:38425,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:12965 check:38425,op:309,dt:4,nt:8,next:12969,nextCheck:38429,str:29210,h:2,d0:12966,d1:38426;
+                ("ai_migrate", Expression<MethodOrOperator> @:12966 check:38426,op:309,dt:2,nt:9,next:12967,nextCheck:38427,str:13386,h:0,d0:0,d1:0;
+                    ("e4_mars_inf0", Expression<AI> @:12967 check:38427,op:19,dt:19,nt:9,next:12968,nextCheck:38428,str:22582,h:0,d0:40,d1:0;
+                        ("e5_mars_inf0", Expression<AI> @:12968 check:38428,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:21363,h:0,d0:49,d1:0;))))
+            (____, BuiltinInvocation<Void> @:12969 check:38429,op:317,dt:4,nt:8,next:12972,nextCheck:38432,str:29251,h:2,d0:12970,d1:38430;
+                ("ai_renew", Expression<MethodOrOperator> @:12970 check:38430,op:317,dt:2,nt:9,next:12971,nextCheck:38431,str:13465,h:0,d0:0,d1:0;
+                    ("e5_mars_inf0", Expression<AI> @:12971 check:38431,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:21363,h:0,d0:49,d1:0;)))
+            (____, BuiltinInvocation<Void> @:12972 check:38432,op:300,dt:4,nt:8,next:65535,nextCheck:65535,str:29277,h:2,d0:12973,d1:38433;
+                ("ai_disposable", Expression<MethodOrOperator> @:12973 check:38433,op:300,dt:2,nt:9,next:12974,nextCheck:38434,str:13451,h:0,d0:0,d1:0;
+                    ("e5_mars_inf0", Expression<AI> @:12974 check:38434,op:19,dt:19,nt:9,next:12975,nextCheck:38435,str:21363,h:0,d0:49,d1:0;
+                        (False, Expression<Boolean> @:12975 check:38435,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:29305,h:2,d0:65280,d1:65535;)))))))

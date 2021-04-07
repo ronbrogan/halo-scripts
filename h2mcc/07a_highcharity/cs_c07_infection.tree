@@ -1,13 +1,13 @@
 
-("cs_c07_infection", MethodDecl<Void> @:24 op:0,dt:0,nt:65535,next:716,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:716 op:0,dt:4,nt:8,next:65535,str:8921,d0:717,d1:58944;
-        ("begin", Expression<MethodOrOperator> @:717 op:0,dt:2,nt:9,next:707,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:707 op:449,dt:4,nt:8,next:710,str:8963,d0:708,d1:58935;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:708 op:449,dt:2,nt:9,next:709,str:1066,d0:0,d1:0;
-                    (True, Expression<Boolean> @:709 op:5,dt:5,nt:9,next:65535,str:8995,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:710 op:391,dt:4,nt:8,next:713,str:9003,d0:711,d1:58938;
-                ("cs_go_to_nearest", Expression<MethodOrOperator> @:711 op:391,dt:2,nt:9,next:712,str:1097,d0:0,d1:0;
-                    ("c07_infection_a", Expression<SpatialPoint> @:712 op:28,dt:28,nt:9,next:65535,str:1114,d0:65535,d1:20;)))
-            (____, BuiltinInvocation<Void> @:713 op:391,dt:4,nt:8,next:65535,str:9040,d0:714,d1:58941;
-                ("cs_go_to_nearest", Expression<MethodOrOperator> @:714 op:391,dt:2,nt:9,next:715,str:1097,d0:0,d1:0;
-                    ("c07_infection_b", Expression<SpatialPoint> @:715 op:28,dt:28,nt:9,next:65535,str:1130,d0:65535,d1:21;))))))
+("cs_c07_infection", MethodDecl<Void> @:24 check:0,op:0,dt:0,nt:65535,next:716,nextCheck:58943,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:716 check:58943,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:8921,h:0,d0:717,d1:58944;
+        ("begin", Expression<MethodOrOperator> @:717 check:58944,op:0,dt:2,nt:9,next:707,nextCheck:58934,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:707 check:58934,op:449,dt:4,nt:8,next:710,nextCheck:58937,str:8963,h:0,d0:708,d1:58935;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:708 check:58935,op:449,dt:2,nt:9,next:709,nextCheck:58936,str:1066,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:709 check:58936,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:8995,h:0,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:710 check:58937,op:391,dt:4,nt:8,next:713,nextCheck:58940,str:9003,h:0,d0:711,d1:58938;
+                ("cs_go_to_nearest", Expression<MethodOrOperator> @:711 check:58938,op:391,dt:2,nt:9,next:712,nextCheck:58939,str:1097,h:0,d0:0,d1:0;
+                    ("c07_infection_a", Expression<SpatialPoint> @:712 check:58939,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:1114,h:0,d0:65535,d1:20;)))
+            (____, BuiltinInvocation<Void> @:713 check:58940,op:391,dt:4,nt:8,next:65535,nextCheck:65535,str:9040,h:0,d0:714,d1:58941;
+                ("cs_go_to_nearest", Expression<MethodOrOperator> @:714 check:58941,op:391,dt:2,nt:9,next:715,nextCheck:58942,str:1097,h:0,d0:0,d1:0;
+                    ("c07_infection_b", Expression<SpatialPoint> @:715 check:58942,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:1130,h:0,d0:65535,d1:21;))))))

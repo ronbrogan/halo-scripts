@@ -1,13 +1,13 @@
 
-("objective_tower1_clear", MethodDecl<Void> @:179 op:0,dt:0,nt:65535,next:6010,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6010 op:0,dt:4,nt:8,next:65535,str:8310,d0:6011,d1:64238;
-        ("begin", Expression<MethodOrOperator> @:6011 op:0,dt:2,nt:9,next:6001,str:54,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6001 op:27,dt:4,nt:8,next:6004,str:8362,d0:6002,d1:64229;
-                ("print", Expression<MethodOrOperator> @:6002 op:27,dt:2,nt:9,next:6003,str:139,d0:0,d1:0;
-                    ("objective complete:", Expression<String> @:6003 op:9,dt:9,nt:9,next:65535,str:13438,d0:13438,d1:0;)))
-            (____, BuiltinInvocation<Void> @:6004 op:27,dt:4,nt:8,next:6007,str:8405,d0:6005,d1:64232;
-                ("print", Expression<MethodOrOperator> @:6005 op:27,dt:2,nt:9,next:6006,str:139,d0:0,d1:0;
-                    ("reach the towers in the lake.", Expression<String> @:6006 op:9,dt:9,nt:9,next:65535,str:13560,d0:13560,d1:0;)))
-            (____, BuiltinInvocation<Void> @:6007 op:754,dt:4,nt:8,next:65535,str:8458,d0:6008,d1:64235;
-                ("objectives_finish_up_to", Expression<MethodOrOperator> @:6008 op:754,dt:2,nt:9,next:6009,str:13458,d0:0,d1:0;
-                    (3, Expression<Int> @:6009 op:8,dt:8,nt:9,next:65535,str:8483,d0:3,d1:0;))))))
+("objective_tower1_clear", MethodDecl<Void> @:179 check:0,op:0,dt:0,nt:65535,next:6010,nextCheck:64237,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6010 check:64237,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:8310,h:1,d0:6011,d1:64238;
+        ("begin", Expression<MethodOrOperator> @:6011 check:64238,op:0,dt:2,nt:9,next:6001,nextCheck:64228,str:54,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6001 check:64228,op:27,dt:4,nt:8,next:6004,nextCheck:64231,str:8362,h:1,d0:6002,d1:64229;
+                ("print", Expression<MethodOrOperator> @:6002 check:64229,op:27,dt:2,nt:9,next:6003,nextCheck:64230,str:139,h:0,d0:0,d1:0;
+                    ("objective complete:", Expression<String> @:6003 check:64230,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13438,h:0,d0:13438,d1:0;)))
+            (____, BuiltinInvocation<Void> @:6004 check:64231,op:27,dt:4,nt:8,next:6007,nextCheck:64234,str:8405,h:1,d0:6005,d1:64232;
+                ("print", Expression<MethodOrOperator> @:6005 check:64232,op:27,dt:2,nt:9,next:6006,nextCheck:64233,str:139,h:0,d0:0,d1:0;
+                    ("reach the towers in the lake.", Expression<String> @:6006 check:64233,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13560,h:0,d0:13560,d1:0;)))
+            (____, BuiltinInvocation<Void> @:6007 check:64234,op:754,dt:4,nt:8,next:65535,nextCheck:65535,str:8458,h:1,d0:6008,d1:64235;
+                ("objectives_finish_up_to", Expression<MethodOrOperator> @:6008 check:64235,op:754,dt:2,nt:9,next:6009,nextCheck:64236,str:13458,h:0,d0:0,d1:0;
+                    (3, Expression<Int> @:6009 check:64236,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:8483,h:1,d0:3,d1:0;))))))

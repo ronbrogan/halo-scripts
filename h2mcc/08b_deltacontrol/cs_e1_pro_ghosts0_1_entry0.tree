@@ -1,13 +1,13 @@
 
-("cs_e1_pro_ghosts0_1_entry0", MethodDecl<Void> @:516 op:0,dt:0,nt:65535,next:20568,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:20568 op:0,dt:4,nt:8,next:65535,str:8334,d0:20569,d1:46029;
-        ("begin", Expression<MethodOrOperator> @:20569 op:0,dt:2,nt:9,next:20559,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:20559 op:441,dt:4,nt:8,next:20562,str:8386,d0:20560,d1:46020;
-                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:20560 op:441,dt:2,nt:9,next:20561,str:29070,d0:0,d1:0;
-                    ("ai_combat_status_clear_los", VariableAccess<Short> @:20561 op:7,dt:7,nt:13,next:65535,str:29096,d0:33579,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:20562 op:438,dt:4,nt:8,next:20565,str:8443,d0:20563,d1:46023;
-                ("cs_vehicle_boost", Expression<MethodOrOperator> @:20563 op:438,dt:2,nt:9,next:20564,str:26691,d0:0,d1:0;
-                    (True, Expression<Boolean> @:20564 op:5,dt:5,nt:9,next:65535,str:8461,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:20565 op:385,dt:4,nt:8,next:65535,str:8469,d0:20566,d1:46026;
-                ("cs_go_to", Expression<MethodOrOperator> @:20566 op:385,dt:2,nt:9,next:20567,str:1184,d0:0,d1:0;
-                    ("e1_pro_ghosts0_entry/p5", Expression<SpatialPoint> @:20567 op:28,dt:28,nt:9,next:65535,str:40328,d0:5,d1:3;))))))
+("cs_e1_pro_ghosts0_1_entry0", MethodDecl<Void> @:516 check:0,op:0,dt:0,nt:65535,next:20568,nextCheck:46028,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:20568 check:46028,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:8334,h:4,d0:20569,d1:46029;
+        ("begin", Expression<MethodOrOperator> @:20569 check:46029,op:0,dt:2,nt:9,next:20559,nextCheck:46019,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:20559 check:46019,op:441,dt:4,nt:8,next:20562,nextCheck:46022,str:8386,h:4,d0:20560,d1:46020;
+                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:20560 check:46020,op:441,dt:2,nt:9,next:20561,nextCheck:46021,str:29070,h:0,d0:0,d1:0;
+                    ("ai_combat_status_clear_los", VariableAccess<Short> @:20561 check:46021,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:29096,h:0,d0:33579,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:20562 check:46022,op:438,dt:4,nt:8,next:20565,nextCheck:46025,str:8443,h:4,d0:20563,d1:46023;
+                ("cs_vehicle_boost", Expression<MethodOrOperator> @:20563 check:46023,op:438,dt:2,nt:9,next:20564,nextCheck:46024,str:26691,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:20564 check:46024,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:8461,h:4,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:20565 check:46025,op:385,dt:4,nt:8,next:65535,nextCheck:65535,str:8469,h:4,d0:20566,d1:46026;
+                ("cs_go_to", Expression<MethodOrOperator> @:20566 check:46026,op:385,dt:2,nt:9,next:20567,nextCheck:46027,str:1184,h:0,d0:0,d1:0;
+                    ("e1_pro_ghosts0_entry/p5", Expression<SpatialPoint> @:20567 check:46027,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:40328,h:0,d0:5,d1:3;))))))

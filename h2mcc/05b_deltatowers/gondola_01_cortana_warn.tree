@@ -1,28 +1,28 @@
 
-("gondola_01_cortana_warn", MethodDecl<Void> @:150 op:0,dt:0,nt:65535,next:5060,str:14644,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5060 op:0,dt:4,nt:8,next:65535,str:60147,d0:5061,d1:63288;
-        ("begin", Expression<MethodOrOperator> @:5061 op:0,dt:2,nt:9,next:5036,str:142,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5036 op:281,dt:4,nt:8,next:5039,str:60189,d0:5037,d1:63264;
-                ("ai_dialogue_enable", Expression<MethodOrOperator> @:5037 op:281,dt:2,nt:9,next:5038,str:10448,d0:0,d1:0;
-                    (False, Expression<Boolean> @:5038 op:5,dt:5,nt:9,next:65535,str:60209,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5039 op:19,dt:4,nt:8,next:5042,str:60218,d0:5040,d1:63267;
-                ("sleep", Expression<MethodOrOperator> @:5040 op:19,dt:2,nt:9,next:5041,str:221,d0:0,d1:0;
-                    (60, Expression<Short> @:5041 op:7,dt:7,nt:9,next:65535,str:60225,d0:60,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5042 op:27,dt:4,nt:8,next:5045,str:60231,d0:5043,d1:63270;
-                ("print", Expression<MethodOrOperator> @:5043 op:27,dt:2,nt:9,next:5044,str:227,d0:0,d1:0;
-                    ("cortana: 'a gondola's launching from the far towers!'", Expression<String> @:5044 op:9,dt:9,nt:9,next:65535,str:12473,d0:12473,d1:0;)))
-            (____, BuiltinInvocation<Void> @:5045 op:27,dt:4,nt:8,next:5048,str:60297,d0:5046,d1:63273;
-                ("print", Expression<MethodOrOperator> @:5046 op:27,dt:2,nt:9,next:5047,str:227,d0:0,d1:0;
-                    ("'big surprise: it's full of covenant reinforcements!'", Expression<String> @:5047 op:9,dt:9,nt:9,next:65535,str:12527,d0:12527,d1:0;)))
-            (____, BuiltinInvocation<Void> @:5048 op:19,dt:4,nt:8,next:5054,str:60363,d0:5049,d1:63276;
-                ("sleep", Expression<MethodOrOperator> @:5049 op:19,dt:2,nt:9,next:5050,str:221,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:5050 op:362,dt:7,nt:8,next:65535,str:60370,d0:5051,d1:63278;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:5051 op:362,dt:2,nt:9,next:5052,str:10115,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:5052 op:50,dt:50,nt:9,next:5053,str:52,d0:65535,d1:65535;
-                                ("0900", Expression<StringId> @:5053 op:11,dt:11,nt:9,next:65535,str:12581,d0:12477,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:5054 op:19,dt:4,nt:8,next:5057,str:60496,d0:5055,d1:63282;
-                ("sleep", Expression<MethodOrOperator> @:5055 op:19,dt:2,nt:9,next:5056,str:221,d0:0,d1:0;
-                    (30, Expression<Short> @:5056 op:7,dt:7,nt:9,next:65535,str:60503,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5057 op:281,dt:4,nt:8,next:65535,str:60509,d0:5058,d1:63285;
-                ("ai_dialogue_enable", Expression<MethodOrOperator> @:5058 op:281,dt:2,nt:9,next:5059,str:10448,d0:0,d1:0;
-                    (True, Expression<Boolean> @:5059 op:5,dt:5,nt:9,next:65535,str:60529,d0:65281,d1:65535;))))))
+("gondola_01_cortana_warn", MethodDecl<Void> @:150 check:0,op:0,dt:0,nt:65535,next:5060,nextCheck:63287,str:14644,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5060 check:63287,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:60147,h:0,d0:5061,d1:63288;
+        ("begin", Expression<MethodOrOperator> @:5061 check:63288,op:0,dt:2,nt:9,next:5036,nextCheck:63263,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5036 check:63263,op:281,dt:4,nt:8,next:5039,nextCheck:63266,str:60189,h:0,d0:5037,d1:63264;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:5037 check:63264,op:281,dt:2,nt:9,next:5038,nextCheck:63265,str:10448,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:5038 check:63265,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:60209,h:0,d0:65280,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5039 check:63266,op:19,dt:4,nt:8,next:5042,nextCheck:63269,str:60218,h:0,d0:5040,d1:63267;
+                ("sleep", Expression<MethodOrOperator> @:5040 check:63267,op:19,dt:2,nt:9,next:5041,nextCheck:63268,str:221,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:5041 check:63268,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:60225,h:0,d0:60,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5042 check:63269,op:27,dt:4,nt:8,next:5045,nextCheck:63272,str:60231,h:0,d0:5043,d1:63270;
+                ("print", Expression<MethodOrOperator> @:5043 check:63270,op:27,dt:2,nt:9,next:5044,nextCheck:63271,str:227,h:0,d0:0,d1:0;
+                    ("cortana: 'a gondola's launching from the far towers!'", Expression<String> @:5044 check:63271,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12473,h:0,d0:12473,d1:0;)))
+            (____, BuiltinInvocation<Void> @:5045 check:63272,op:27,dt:4,nt:8,next:5048,nextCheck:63275,str:60297,h:0,d0:5046,d1:63273;
+                ("print", Expression<MethodOrOperator> @:5046 check:63273,op:27,dt:2,nt:9,next:5047,nextCheck:63274,str:227,h:0,d0:0,d1:0;
+                    ("'big surprise: it's full of covenant reinforcements!'", Expression<String> @:5047 check:63274,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12527,h:0,d0:12527,d1:0;)))
+            (____, BuiltinInvocation<Void> @:5048 check:63275,op:19,dt:4,nt:8,next:5054,nextCheck:63281,str:60363,h:0,d0:5049,d1:63276;
+                ("sleep", Expression<MethodOrOperator> @:5049 check:63276,op:19,dt:2,nt:9,next:5050,nextCheck:63277,str:221,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:5050 check:63277,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:60370,h:0,d0:5051,d1:63278;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:5051 check:63278,op:362,dt:2,nt:9,next:5052,nextCheck:63279,str:10115,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:5052 check:63279,op:50,dt:50,nt:9,next:5053,nextCheck:63280,str:52,h:0,d0:65535,d1:65535;
+                                ("0900", Expression<StringId> @:5053 check:63280,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12581,h:0,d0:12477,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:5054 check:63281,op:19,dt:4,nt:8,next:5057,nextCheck:63284,str:60496,h:0,d0:5055,d1:63282;
+                ("sleep", Expression<MethodOrOperator> @:5055 check:63282,op:19,dt:2,nt:9,next:5056,nextCheck:63283,str:221,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:5056 check:63283,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:60503,h:0,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5057 check:63284,op:281,dt:4,nt:8,next:65535,nextCheck:65535,str:60509,h:0,d0:5058,d1:63285;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:5058 check:63285,op:281,dt:2,nt:9,next:5059,nextCheck:63286,str:10448,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:5059 check:63286,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:60529,h:0,d0:65281,d1:65535;))))))

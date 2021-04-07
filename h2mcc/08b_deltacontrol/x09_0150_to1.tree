@@ -1,17 +1,17 @@
 
-("x09_0150_to1", MethodDecl<Void> @:221 op:0,dt:0,nt:65535,next:8297,str:20038,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:8297 op:0,dt:4,nt:8,next:65535,str:31159,d0:8298,d1:33758;
-        ("begin", Expression<MethodOrOperator> @:8298 op:0,dt:2,nt:9,next:8284,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:8284 op:19,dt:4,nt:8,next:8287,str:31190,d0:8285,d1:33745;
-                ("sleep", Expression<MethodOrOperator> @:8285 op:19,dt:2,nt:9,next:8286,str:85,d0:0,d1:0;
-                    (100, Expression<Short> @:8286 op:7,dt:7,nt:9,next:65535,str:31197,d0:100,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8287 op:598,dt:4,nt:8,next:8293,str:31204,d0:8288,d1:33748;
-                ("sound_impulse_start_effect", Expression<MethodOrOperator> @:8288 op:598,dt:2,nt:9,next:8289,str:9250,d0:0,d1:0;
-                    ("sound\dialog\levels\08_controlroom\cinematic\x09_0150_to1", Expression<Sound> @:8289 op:32,dt:32,nt:9,next:8290,str:19963,d0:867,d1:58585;
-                        (4294967295, Expression<Entity> @:8290 op:50,dt:50,nt:9,next:8291,str:1,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:8291 op:6,dt:6,nt:9,next:8292,str:31295,d0:0,d1:16256;
-                                ("radio_default_in", Expression<StringId> @:8292 op:11,dt:11,nt:9,next:65535,str:20021,d0:14303,d1:4096;))))))
-            (____, BuiltinInvocation<Void> @:8293 op:562,dt:4,nt:8,next:65535,str:31317,d0:8294,d1:33754;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:8294 op:562,dt:2,nt:9,next:8295,str:7661,d0:0,d1:0;
-                    ("x09_0150_to1", Expression<StringId> @:8295 op:11,dt:11,nt:9,next:8296,str:20038,d0:4756,d1:3072;
-                        (3f, Expression<Float> @:8296 op:6,dt:6,nt:9,next:65535,str:31350,d0:0,d1:16448;)))))))
+("x09_0150_to1", MethodDecl<Void> @:221 check:0,op:0,dt:0,nt:65535,next:8297,nextCheck:33757,str:20038,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:8297 check:33757,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:31159,h:1,d0:8298,d1:33758;
+        ("begin", Expression<MethodOrOperator> @:8298 check:33758,op:0,dt:2,nt:9,next:8284,nextCheck:33744,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:8284 check:33744,op:19,dt:4,nt:8,next:8287,nextCheck:33747,str:31190,h:1,d0:8285,d1:33745;
+                ("sleep", Expression<MethodOrOperator> @:8285 check:33745,op:19,dt:2,nt:9,next:8286,nextCheck:33746,str:85,h:0,d0:0,d1:0;
+                    (100, Expression<Short> @:8286 check:33746,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:31197,h:1,d0:100,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8287 check:33747,op:598,dt:4,nt:8,next:8293,nextCheck:33753,str:31204,h:1,d0:8288,d1:33748;
+                ("sound_impulse_start_effect", Expression<MethodOrOperator> @:8288 check:33748,op:598,dt:2,nt:9,next:8289,nextCheck:33749,str:9250,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\08_controlroom\cinematic\x09_0150_to1", Expression<Sound> @:8289 check:33749,op:32,dt:32,nt:9,next:8290,nextCheck:33750,str:19963,h:0,d0:867,d1:58585;
+                        (4294967295, Expression<Entity> @:8290 check:33750,op:50,dt:50,nt:9,next:8291,nextCheck:33751,str:1,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:8291 check:33751,op:6,dt:6,nt:9,next:8292,nextCheck:33752,str:31295,h:1,d0:0,d1:16256;
+                                ("radio_default_in", Expression<StringId> @:8292 check:33752,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20021,h:0,d0:14303,d1:4096;))))))
+            (____, BuiltinInvocation<Void> @:8293 check:33753,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:31317,h:1,d0:8294,d1:33754;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:8294 check:33754,op:562,dt:2,nt:9,next:8295,nextCheck:33755,str:7661,h:0,d0:0,d1:0;
+                    ("x09_0150_to1", Expression<StringId> @:8295 check:33755,op:11,dt:11,nt:9,next:8296,nextCheck:33756,str:20038,h:0,d0:4756,d1:3072;
+                        (3f, Expression<Float> @:8296 check:33756,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:31350,h:1,d0:0,d1:16448;)))))))

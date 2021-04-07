@@ -1,15 +1,15 @@
 
-("c07_intra1_02_cleanup", MethodDecl<Void> @:175 op:0,dt:0,nt:65535,next:6175,str:15331,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6175 op:0,dt:4,nt:8,next:65535,str:16008,d0:6176,d1:64403;
-        ("begin", Expression<MethodOrOperator> @:6176 op:0,dt:2,nt:9,next:6164,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6164 op:76,dt:4,nt:8,next:6168,str:16055,d0:6165,d1:64392;
-                ("objects_detach", Expression<MethodOrOperator> @:6165 op:76,dt:2,nt:9,next:6166,str:12712,d0:0,d1:0;
-                    (4294902018, Expression<Entity> @:6166 op:56,dt:50,nt:9,next:6167,str:11381,d0:258,d1:65535;
-                        (4294902055, Expression<Entity> @:6167 op:56,dt:50,nt:9,next:65535,str:11387,d0:295,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:6168 op:52,dt:4,nt:8,next:6171,str:16093,d0:6169,d1:64396;
-                ("object_destroy", Expression<MethodOrOperator> @:6169 op:52,dt:2,nt:9,next:6170,str:4950,d0:0,d1:0;
-                    (4294902018, Expression<Entity> @:6170 op:56,dt:50,nt:9,next:65535,str:11381,d0:258,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6171 op:57,dt:4,nt:8,next:65535,str:16118,d0:6172,d1:64399;
-                ("object_hide", Expression<MethodOrOperator> @:6172 op:57,dt:2,nt:9,next:6173,str:590,d0:0,d1:0;
-                    (4294901761, Expression<Entity> @:6173 op:56,dt:50,nt:9,next:6174,str:14926,d0:1,d1:65535;
-                        (True, Expression<Boolean> @:6174 op:5,dt:5,nt:9,next:65535,str:16137,d0:65281,d1:65535;)))))))
+("c07_intra1_02_cleanup", MethodDecl<Void> @:175 check:0,op:0,dt:0,nt:65535,next:6175,nextCheck:64402,str:15331,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6175 check:64402,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:16008,h:1,d0:6176,d1:64403;
+        ("begin", Expression<MethodOrOperator> @:6176 check:64403,op:0,dt:2,nt:9,next:6164,nextCheck:64391,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6164 check:64391,op:76,dt:4,nt:8,next:6168,nextCheck:64395,str:16055,h:1,d0:6165,d1:64392;
+                ("objects_detach", Expression<MethodOrOperator> @:6165 check:64392,op:76,dt:2,nt:9,next:6166,nextCheck:64393,str:12712,h:0,d0:0,d1:0;
+                    (4294902018, Expression<Entity> @:6166 check:64393,op:56,dt:50,nt:9,next:6167,nextCheck:64394,str:11381,h:0,d0:258,d1:65535;
+                        (4294902055, Expression<Entity> @:6167 check:64394,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:11387,h:0,d0:295,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:6168 check:64395,op:52,dt:4,nt:8,next:6171,nextCheck:64398,str:16093,h:1,d0:6169,d1:64396;
+                ("object_destroy", Expression<MethodOrOperator> @:6169 check:64396,op:52,dt:2,nt:9,next:6170,nextCheck:64397,str:4950,h:0,d0:0,d1:0;
+                    (4294902018, Expression<Entity> @:6170 check:64397,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:11381,h:0,d0:258,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6171 check:64398,op:57,dt:4,nt:8,next:65535,nextCheck:65535,str:16118,h:1,d0:6172,d1:64399;
+                ("object_hide", Expression<MethodOrOperator> @:6172 check:64399,op:57,dt:2,nt:9,next:6173,nextCheck:64400,str:590,h:0,d0:0,d1:0;
+                    (4294901761, Expression<Entity> @:6173 check:64400,op:56,dt:50,nt:9,next:6174,nextCheck:64401,str:14926,h:0,d0:1,d1:65535;
+                        (True, Expression<Boolean> @:6174 check:64401,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:16137,h:1,d0:65281,d1:65535;)))))))

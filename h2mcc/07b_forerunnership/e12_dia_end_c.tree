@@ -1,19 +1,19 @@
 
-("e12_dia_end_c", MethodDecl<Void> @:163 op:0,dt:0,nt:65535,next:4538,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4538 op:0,dt:4,nt:8,next:65535,str:57045,d0:4539,d1:62766;
-        ("begin", Expression<MethodOrOperator> @:4539 op:0,dt:2,nt:9,next:4523,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4523 op:2,dt:4,nt:8,next:4529,str:57077,d0:4524,d1:62751;
-                ("if", Expression<MethodOrOperator> @:4524 op:2,dt:2,nt:9,next:4525,str:456,d0:0,d1:0;
-                    ("dialogue", VariableAccess<Boolean> @:4525 op:5,dt:5,nt:13,next:4526,str:10462,d0:3,d1:0;
-                        (____, BuiltinInvocation<Void> @:4526 op:27,dt:4,nt:8,next:65535,str:57090,d0:4527,d1:62754;
-                            ("print", Expression<MethodOrOperator> @:4527 op:27,dt:2,nt:9,next:4528,str:86,d0:0,d1:0;
-                                ("cortana: we're out of time, chief! into the conduit!", Expression<String> @:4528 op:9,dt:9,nt:9,next:65535,str:13326,d0:13326,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:4529 op:19,dt:4,nt:8,next:4535,str:57156,d0:4530,d1:62757;
-                ("sleep", Expression<MethodOrOperator> @:4530 op:19,dt:2,nt:9,next:4531,str:80,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:4531 op:362,dt:7,nt:8,next:65535,str:57163,d0:4532,d1:62759;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4532 op:362,dt:2,nt:9,next:4533,str:10552,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:4533 op:50,dt:50,nt:9,next:4534,str:1386,d0:65535,d1:65535;
-                                ("3040", Expression<StringId> @:4534 op:11,dt:11,nt:9,next:65535,str:13379,d0:13589,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:4535 op:19,dt:4,nt:8,next:65535,str:57201,d0:4536,d1:62763;
-                ("sleep", Expression<MethodOrOperator> @:4536 op:19,dt:2,nt:9,next:4537,str:80,d0:0,d1:0;
-                    ("dialogue_pause", VariableAccess<Short> @:4537 op:7,dt:7,nt:13,next:65535,str:10580,d0:4,d1:0;))))))
+("e12_dia_end_c", MethodDecl<Void> @:163 check:0,op:0,dt:0,nt:65535,next:4538,nextCheck:62765,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4538 check:62765,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:57045,h:0,d0:4539,d1:62766;
+        ("begin", Expression<MethodOrOperator> @:4539 check:62766,op:0,dt:2,nt:9,next:4523,nextCheck:62750,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4523 check:62750,op:2,dt:4,nt:8,next:4529,nextCheck:62756,str:57077,h:0,d0:4524,d1:62751;
+                ("if", Expression<MethodOrOperator> @:4524 check:62751,op:2,dt:2,nt:9,next:4525,nextCheck:62752,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:4525 check:62752,op:5,dt:5,nt:13,next:4526,nextCheck:62753,str:10462,h:0,d0:3,d1:0;
+                        (____, BuiltinInvocation<Void> @:4526 check:62753,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:57090,h:0,d0:4527,d1:62754;
+                            ("print", Expression<MethodOrOperator> @:4527 check:62754,op:27,dt:2,nt:9,next:4528,nextCheck:62755,str:86,h:0,d0:0,d1:0;
+                                ("cortana: we're out of time, chief! into the conduit!", Expression<String> @:4528 check:62755,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13326,h:0,d0:13326,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:4529 check:62756,op:19,dt:4,nt:8,next:4535,nextCheck:62762,str:57156,h:0,d0:4530,d1:62757;
+                ("sleep", Expression<MethodOrOperator> @:4530 check:62757,op:19,dt:2,nt:9,next:4531,nextCheck:62758,str:80,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:4531 check:62758,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:57163,h:0,d0:4532,d1:62759;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4532 check:62759,op:362,dt:2,nt:9,next:4533,nextCheck:62760,str:10552,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:4533 check:62760,op:50,dt:50,nt:9,next:4534,nextCheck:62761,str:1386,h:0,d0:65535,d1:65535;
+                                ("3040", Expression<StringId> @:4534 check:62761,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:13379,h:0,d0:13589,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:4535 check:62762,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:57201,h:0,d0:4536,d1:62763;
+                ("sleep", Expression<MethodOrOperator> @:4536 check:62763,op:19,dt:2,nt:9,next:4537,nextCheck:62764,str:80,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:4537 check:62764,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:10580,h:0,d0:4,d1:0;))))))

@@ -1,28 +1,28 @@
 
-("dogfight_objectives", MethodDecl<Void> @:385 op:0,dt:0,nt:65535,next:23723,str:35475,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:23723 op:0,dt:4,nt:8,next:65535,str:60171,d0:23724,d1:49184;
-        ("begin", Expression<MethodOrOperator> @:23724 op:0,dt:2,nt:9,next:23699,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:23699 op:281,dt:4,nt:8,next:23702,str:60209,d0:23700,d1:49160;
-                ("ai_dialogue_enable", Expression<MethodOrOperator> @:23700 op:281,dt:2,nt:9,next:23701,str:17599,d0:0,d1:0;
-                    (False, Expression<Boolean> @:23701 op:5,dt:5,nt:9,next:65535,str:60229,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:23702 op:19,dt:4,nt:8,next:23705,str:60238,d0:23703,d1:49163;
-                ("sleep", Expression<MethodOrOperator> @:23703 op:19,dt:2,nt:9,next:23704,str:85,d0:0,d1:0;
-                    (60, Expression<Short> @:23704 op:7,dt:7,nt:9,next:65535,str:60245,d0:60,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:23705 op:27,dt:4,nt:8,next:23708,str:60251,d0:23706,d1:49166;
-                ("print", Expression<MethodOrOperator> @:23706 op:27,dt:2,nt:9,next:23707,str:91,d0:0,d1:0;
-                    ("phantom pilot: 'the heretics have weapon-emplacements all over the facility, arbiter.'", Expression<String> @:23707 op:9,dt:9,nt:9,next:65535,str:34825,d0:34825,d1:0;)))
-            (____, BuiltinInvocation<Void> @:23708 op:27,dt:4,nt:8,next:23711,str:60350,d0:23709,d1:49169;
-                ("print", Expression<MethodOrOperator> @:23709 op:27,dt:2,nt:9,next:23710,str:91,d0:0,d1:0;
-                    ("'we'll take them out, one-by-one, until we find the heretic-leader!'", Expression<String> @:23710 op:9,dt:9,nt:9,next:65535,str:34912,d0:34912,d1:0;)))
-            (____, BuiltinInvocation<Void> @:23711 op:19,dt:4,nt:8,next:23717,str:60431,d0:23712,d1:49172;
-                ("sleep", Expression<MethodOrOperator> @:23712 op:19,dt:2,nt:9,next:23713,str:85,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:23713 op:362,dt:7,nt:8,next:65535,str:60438,d0:23714,d1:49174;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:23714 op:362,dt:2,nt:9,next:23715,str:17710,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:23715 op:50,dt:50,nt:9,next:23716,str:1,d0:65535,d1:65535;
-                                ("2040", Expression<StringId> @:23716 op:11,dt:11,nt:9,next:65535,str:34981,d0:11783,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:23717 op:19,dt:4,nt:8,next:23720,str:60570,d0:23718,d1:49178;
-                ("sleep", Expression<MethodOrOperator> @:23718 op:19,dt:2,nt:9,next:23719,str:85,d0:0,d1:0;
-                    (30, Expression<Short> @:23719 op:7,dt:7,nt:9,next:65535,str:60577,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:23720 op:281,dt:4,nt:8,next:65535,str:60583,d0:23721,d1:49181;
-                ("ai_dialogue_enable", Expression<MethodOrOperator> @:23721 op:281,dt:2,nt:9,next:23722,str:17599,d0:0,d1:0;
-                    (True, Expression<Boolean> @:23722 op:5,dt:5,nt:9,next:65535,str:60603,d0:65281,d1:65535;))))))
+("dogfight_objectives", MethodDecl<Void> @:385 check:0,op:0,dt:0,nt:65535,next:23723,nextCheck:49183,str:35475,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:23723 check:49183,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:60171,h:3,d0:23724,d1:49184;
+        ("begin", Expression<MethodOrOperator> @:23724 check:49184,op:0,dt:2,nt:9,next:23699,nextCheck:49159,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:23699 check:49159,op:281,dt:4,nt:8,next:23702,nextCheck:49162,str:60209,h:3,d0:23700,d1:49160;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:23700 check:49160,op:281,dt:2,nt:9,next:23701,nextCheck:49161,str:17599,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:23701 check:49161,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:60229,h:3,d0:65280,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:23702 check:49162,op:19,dt:4,nt:8,next:23705,nextCheck:49165,str:60238,h:3,d0:23703,d1:49163;
+                ("sleep", Expression<MethodOrOperator> @:23703 check:49163,op:19,dt:2,nt:9,next:23704,nextCheck:49164,str:85,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:23704 check:49164,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:60245,h:3,d0:60,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:23705 check:49165,op:27,dt:4,nt:8,next:23708,nextCheck:49168,str:60251,h:3,d0:23706,d1:49166;
+                ("print", Expression<MethodOrOperator> @:23706 check:49166,op:27,dt:2,nt:9,next:23707,nextCheck:49167,str:91,h:0,d0:0,d1:0;
+                    ("phantom pilot: 'the heretics have weapon-emplacements all over the facility, arbiter.'", Expression<String> @:23707 check:49167,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:34825,h:0,d0:34825,d1:0;)))
+            (____, BuiltinInvocation<Void> @:23708 check:49168,op:27,dt:4,nt:8,next:23711,nextCheck:49171,str:60350,h:3,d0:23709,d1:49169;
+                ("print", Expression<MethodOrOperator> @:23709 check:49169,op:27,dt:2,nt:9,next:23710,nextCheck:49170,str:91,h:0,d0:0,d1:0;
+                    ("'we'll take them out, one-by-one, until we find the heretic-leader!'", Expression<String> @:23710 check:49170,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:34912,h:0,d0:34912,d1:0;)))
+            (____, BuiltinInvocation<Void> @:23711 check:49171,op:19,dt:4,nt:8,next:23717,nextCheck:49177,str:60431,h:3,d0:23712,d1:49172;
+                ("sleep", Expression<MethodOrOperator> @:23712 check:49172,op:19,dt:2,nt:9,next:23713,nextCheck:49173,str:85,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:23713 check:49173,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:60438,h:3,d0:23714,d1:49174;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:23714 check:49174,op:362,dt:2,nt:9,next:23715,nextCheck:49175,str:17710,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:23715 check:49175,op:50,dt:50,nt:9,next:23716,nextCheck:49176,str:1,h:0,d0:65535,d1:65535;
+                                ("2040", Expression<StringId> @:23716 check:49176,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:34981,h:0,d0:11783,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:23717 check:49177,op:19,dt:4,nt:8,next:23720,nextCheck:49180,str:60570,h:3,d0:23718,d1:49178;
+                ("sleep", Expression<MethodOrOperator> @:23718 check:49178,op:19,dt:2,nt:9,next:23719,nextCheck:49179,str:85,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:23719 check:49179,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:60577,h:3,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:23720 check:49180,op:281,dt:4,nt:8,next:65535,nextCheck:65535,str:60583,h:3,d0:23721,d1:49181;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:23721 check:49181,op:281,dt:2,nt:9,next:23722,nextCheck:49182,str:17599,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:23722 check:49182,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:60603,h:3,d0:65281,d1:65535;))))))

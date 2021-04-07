@@ -1,21 +1,21 @@
 
-("e23_mars_pelican1_main", MethodDecl<Void> @:266 op:0,dt:0,nt:65535,next:8762,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:8762 op:0,dt:4,nt:8,next:65535,str:43954,d0:8763,d1:34223;
-        ("begin", Expression<MethodOrOperator> @:8763 op:0,dt:2,nt:9,next:8745,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:8745 op:21,dt:4,nt:8,next:8753,str:43995,d0:8746,d1:34206;
-                ("sleep_until", Expression<MethodOrOperator> @:8746 op:21,dt:2,nt:9,next:8747,str:236,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:8747 op:33,dt:5,nt:8,next:8752,str:44012,d0:8748,d1:34208;
-                        ("volume_test_objects", Expression<MethodOrOperator> @:8748 op:33,dt:2,nt:9,next:8749,str:13230,d0:0,d1:0;
-                            ("tv_e23_mars_pelican1_begin", Expression<Trigger> @:8749 op:13,dt:13,nt:9,next:8750,str:18126,d0:76,d1:0;
-                                (____, BuiltinInvocation<List> @:8750 op:28,dt:31,nt:8,next:65535,str:44060,d0:8751,d1:34211;
-                                    ("players", Expression<MethodOrOperator> @:8751 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))
-                    (15, Expression<Short> @:8752 op:7,dt:7,nt:9,next:65535,str:44074,d0:15,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8753 op:290,dt:4,nt:8,next:8756,str:44104,d0:8754,d1:34214;
-                ("ai_place", Expression<MethodOrOperator> @:8754 op:290,dt:2,nt:9,next:8755,str:16628,d0:0,d1:0;
-                    ("e23_mars_pelican1_0", Expression<AI> @:8755 op:19,dt:19,nt:9,next:65535,str:18153,d0:81,d1:0;)))
-            (____, BuiltinInvocation<Void> @:8756 op:19,dt:4,nt:8,next:8759,str:44222,d0:8757,d1:34217;
-                ("sleep", Expression<MethodOrOperator> @:8757 op:19,dt:2,nt:9,next:8758,str:85,d0:0,d1:0;
-                    (60, Expression<Short> @:8758 op:7,dt:7,nt:9,next:65535,str:44229,d0:60,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8759 op:290,dt:4,nt:8,next:65535,str:44235,d0:8760,d1:34220;
-                ("ai_place", Expression<MethodOrOperator> @:8760 op:290,dt:2,nt:9,next:8761,str:16628,d0:0,d1:0;
-                    ("e23_mars_pelican1_1", Expression<AI> @:8761 op:19,dt:19,nt:9,next:65535,str:18173,d0:82,d1:0;))))))
+("e23_mars_pelican1_main", MethodDecl<Void> @:266 check:0,op:0,dt:0,nt:65535,next:8762,nextCheck:34222,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:8762 check:34222,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:43954,h:1,d0:8763,d1:34223;
+        ("begin", Expression<MethodOrOperator> @:8763 check:34223,op:0,dt:2,nt:9,next:8745,nextCheck:34205,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:8745 check:34205,op:21,dt:4,nt:8,next:8753,nextCheck:34213,str:43995,h:1,d0:8746,d1:34206;
+                ("sleep_until", Expression<MethodOrOperator> @:8746 check:34206,op:21,dt:2,nt:9,next:8747,nextCheck:34207,str:236,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:8747 check:34207,op:33,dt:5,nt:8,next:8752,nextCheck:34212,str:44012,h:1,d0:8748,d1:34208;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:8748 check:34208,op:33,dt:2,nt:9,next:8749,nextCheck:34209,str:13230,h:0,d0:0,d1:0;
+                            ("tv_e23_mars_pelican1_begin", Expression<Trigger> @:8749 check:34209,op:13,dt:13,nt:9,next:8750,nextCheck:34210,str:18126,h:0,d0:76,d1:0;
+                                (____, BuiltinInvocation<List> @:8750 check:34210,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:44060,h:1,d0:8751,d1:34211;
+                                    ("players", Expression<MethodOrOperator> @:8751 check:34211,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                    (15, Expression<Short> @:8752 check:34212,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:44074,h:1,d0:15,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8753 check:34213,op:290,dt:4,nt:8,next:8756,nextCheck:34216,str:44104,h:1,d0:8754,d1:34214;
+                ("ai_place", Expression<MethodOrOperator> @:8754 check:34214,op:290,dt:2,nt:9,next:8755,nextCheck:34215,str:16628,h:0,d0:0,d1:0;
+                    ("e23_mars_pelican1_0", Expression<AI> @:8755 check:34215,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:18153,h:0,d0:81,d1:0;)))
+            (____, BuiltinInvocation<Void> @:8756 check:34216,op:19,dt:4,nt:8,next:8759,nextCheck:34219,str:44222,h:1,d0:8757,d1:34217;
+                ("sleep", Expression<MethodOrOperator> @:8757 check:34217,op:19,dt:2,nt:9,next:8758,nextCheck:34218,str:85,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:8758 check:34218,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:44229,h:1,d0:60,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8759 check:34219,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:44235,h:1,d0:8760,d1:34220;
+                ("ai_place", Expression<MethodOrOperator> @:8760 check:34220,op:290,dt:2,nt:9,next:8761,nextCheck:34221,str:16628,h:0,d0:0,d1:0;
+                    ("e23_mars_pelican1_1", Expression<AI> @:8761 check:34221,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:18173,h:0,d0:82,d1:0;))))))

@@ -1,17 +1,17 @@
 
-("cs_e21_mars_pelican0_entry", MethodDecl<Void> @:308 op:0,dt:0,nt:65535,next:10989,str:23987,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:10989 op:0,dt:4,nt:8,next:65535,str:8115,d0:10990,d1:36450;
-        ("begin", Expression<MethodOrOperator> @:10990 op:0,dt:2,nt:9,next:10976,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:10976 op:383,dt:4,nt:8,next:10979,str:8167,d0:10977,d1:36437;
-                ("cs_fly_by", Expression<MethodOrOperator> @:10977 op:383,dt:2,nt:9,next:10978,str:15426,d0:0,d1:0;
-                    ("e21_mars_pelican0_entry/p0", Expression<SpatialPoint> @:10978 op:28,dt:28,nt:9,next:65535,str:22777,d0:0,d1:20;)))
-            (____, BuiltinInvocation<Void> @:10979 op:380,dt:4,nt:8,next:10983,str:8208,d0:10980,d1:36440;
-                ("cs_fly_to", Expression<MethodOrOperator> @:10980 op:380,dt:2,nt:9,next:10981,str:15691,d0:0,d1:0;
-                    ("e21_mars_pelican0_entry/p1", Expression<SpatialPoint> @:10981 op:28,dt:28,nt:9,next:10982,str:22804,d0:1,d1:20;
-                        (0.5f, Expression<Float> @:10982 op:6,dt:6,nt:9,next:65535,str:8246,d0:0,d1:16128;))))
-            (____, BuiltinInvocation<Void> @:10983 op:399,dt:4,nt:8,next:10987,str:8253,d0:10984,d1:36444;
-                ("cs_face", Expression<MethodOrOperator> @:10984 op:399,dt:2,nt:9,next:10985,str:15656,d0:0,d1:0;
-                    (True, Expression<Boolean> @:10985 op:5,dt:5,nt:9,next:10986,str:8262,d0:65281,d1:65535;
-                        ("e21_mars_pelican0_entry/p1_facing", Expression<SpatialPoint> @:10986 op:28,dt:28,nt:9,next:65535,str:22831,d0:2,d1:20;))))
-            (____, BuiltinInvocation<Void> @:10987 op:20,dt:4,nt:8,next:65535,str:8304,d0:10988,d1:36448;
-                ("sleep_forever", Expression<MethodOrOperator> @:10988 op:20,dt:2,nt:9,next:65535,str:13964,d0:0,d1:0;)))))
+("cs_e21_mars_pelican0_entry", MethodDecl<Void> @:308 check:0,op:0,dt:0,nt:65535,next:10989,nextCheck:36449,str:23987,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:10989 check:36449,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:8115,h:2,d0:10990,d1:36450;
+        ("begin", Expression<MethodOrOperator> @:10990 check:36450,op:0,dt:2,nt:9,next:10976,nextCheck:36436,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:10976 check:36436,op:383,dt:4,nt:8,next:10979,nextCheck:36439,str:8167,h:2,d0:10977,d1:36437;
+                ("cs_fly_by", Expression<MethodOrOperator> @:10977 check:36437,op:383,dt:2,nt:9,next:10978,nextCheck:36438,str:15426,h:0,d0:0,d1:0;
+                    ("e21_mars_pelican0_entry/p0", Expression<SpatialPoint> @:10978 check:36438,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:22777,h:0,d0:0,d1:20;)))
+            (____, BuiltinInvocation<Void> @:10979 check:36439,op:380,dt:4,nt:8,next:10983,nextCheck:36443,str:8208,h:2,d0:10980,d1:36440;
+                ("cs_fly_to", Expression<MethodOrOperator> @:10980 check:36440,op:380,dt:2,nt:9,next:10981,nextCheck:36441,str:15691,h:0,d0:0,d1:0;
+                    ("e21_mars_pelican0_entry/p1", Expression<SpatialPoint> @:10981 check:36441,op:28,dt:28,nt:9,next:10982,nextCheck:36442,str:22804,h:0,d0:1,d1:20;
+                        (0.5f, Expression<Float> @:10982 check:36442,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:8246,h:2,d0:0,d1:16128;))))
+            (____, BuiltinInvocation<Void> @:10983 check:36443,op:399,dt:4,nt:8,next:10987,nextCheck:36447,str:8253,h:2,d0:10984,d1:36444;
+                ("cs_face", Expression<MethodOrOperator> @:10984 check:36444,op:399,dt:2,nt:9,next:10985,nextCheck:36445,str:15656,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10985 check:36445,op:5,dt:5,nt:9,next:10986,nextCheck:36446,str:8262,h:2,d0:65281,d1:65535;
+                        ("e21_mars_pelican0_entry/p1_facing", Expression<SpatialPoint> @:10986 check:36446,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:22831,h:0,d0:2,d1:20;))))
+            (____, BuiltinInvocation<Void> @:10987 check:36447,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:8304,h:2,d0:10988,d1:36448;
+                ("sleep_forever", Expression<MethodOrOperator> @:10988 check:36448,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:13964,h:0,d0:0,d1:0;)))))

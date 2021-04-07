@@ -1,12 +1,12 @@
 
-("c04_intro_sound_scene2a_02", MethodDecl<Void> @:141 op:0,dt:0,nt:65535,next:4300,str:10616,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4300 op:0,dt:4,nt:8,next:65535,str:51564,d0:4301,d1:62528;
-        ("begin", Expression<MethodOrOperator> @:4301 op:0,dt:2,nt:9,next:4292,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4292 op:19,dt:4,nt:8,next:4295,str:51609,d0:4293,d1:62520;
-                ("sleep", Expression<MethodOrOperator> @:4293 op:19,dt:2,nt:9,next:4294,str:85,d0:0,d1:0;
-                    (720, Expression<Short> @:4294 op:7,dt:7,nt:9,next:65535,str:51616,d0:720,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:4295 op:614,dt:4,nt:8,next:65535,str:51623,d0:4296,d1:62523;
-                ("sound_class_set_gain", Expression<MethodOrOperator> @:4296 op:614,dt:2,nt:9,next:4297,str:8690,d0:0,d1:0;
-                    ("vehicle", Expression<String> @:4297 op:9,dt:9,nt:9,next:4298,str:8711,d0:8711,d1:0;
-                        (0f, Expression<Float> @:4298 op:6,dt:6,nt:9,next:4299,str:51653,d0:0,d1:0;
-                            (15, Expression<Short> @:4299 op:7,dt:7,nt:9,next:65535,str:51655,d0:15,d1:65535;))))))))
+("c04_intro_sound_scene2a_02", MethodDecl<Void> @:141 check:0,op:0,dt:0,nt:65535,next:4300,nextCheck:62527,str:10616,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4300 check:62527,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:51564,h:0,d0:4301,d1:62528;
+        ("begin", Expression<MethodOrOperator> @:4301 check:62528,op:0,dt:2,nt:9,next:4292,nextCheck:62519,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4292 check:62519,op:19,dt:4,nt:8,next:4295,nextCheck:62522,str:51609,h:0,d0:4293,d1:62520;
+                ("sleep", Expression<MethodOrOperator> @:4293 check:62520,op:19,dt:2,nt:9,next:4294,nextCheck:62521,str:85,h:0,d0:0,d1:0;
+                    (720, Expression<Short> @:4294 check:62521,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:51616,h:0,d0:720,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:4295 check:62522,op:614,dt:4,nt:8,next:65535,nextCheck:65535,str:51623,h:0,d0:4296,d1:62523;
+                ("sound_class_set_gain", Expression<MethodOrOperator> @:4296 check:62523,op:614,dt:2,nt:9,next:4297,nextCheck:62524,str:8690,h:0,d0:0,d1:0;
+                    ("vehicle", Expression<String> @:4297 check:62524,op:9,dt:9,nt:9,next:4298,nextCheck:62525,str:8711,h:0,d0:8711,d1:0;
+                        (0f, Expression<Float> @:4298 check:62525,op:6,dt:6,nt:9,next:4299,nextCheck:62526,str:51653,h:0,d0:0,d1:0;
+                            (15, Expression<Short> @:4299 check:62526,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:51655,h:0,d0:15,d1:65535;))))))))

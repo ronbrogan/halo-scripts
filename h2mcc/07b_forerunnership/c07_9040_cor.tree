@@ -1,25 +1,25 @@
 
-("c07_9040_cor", MethodDecl<Void> @:91 op:0,dt:0,nt:65535,next:2806,str:7828,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2806 op:0,dt:4,nt:8,next:65535,str:33862,d0:2807,d1:61034;
-        ("begin", Expression<MethodOrOperator> @:2807 op:0,dt:2,nt:9,next:2785,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2785 op:19,dt:4,nt:8,next:2788,str:33893,d0:2786,d1:61013;
-                ("sleep", Expression<MethodOrOperator> @:2786 op:19,dt:2,nt:9,next:2787,str:80,d0:0,d1:0;
-                    (211, Expression<Short> @:2787 op:7,dt:7,nt:9,next:65535,str:33900,d0:211,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2788 op:596,dt:4,nt:8,next:2793,str:33907,d0:2789,d1:61016;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:2789 op:596,dt:2,nt:9,next:2790,str:1299,d0:0,d1:0;
-                    ("sound\dialog\levels\07_highcharity\cinematic\c07_9040_cor", Expression<Sound> @:2790 op:32,dt:32,nt:9,next:2791,str:7770,d0:902,d1:58620;
-                        (4294901888, Expression<Entity> @:2791 op:56,dt:50,nt:9,next:2792,str:7724,d0:128,d1:65535;
-                            (1f, Expression<Float> @:2792 op:6,dt:6,nt:9,next:65535,str:34000,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:2793 op:562,dt:4,nt:8,next:2797,str:34005,d0:2794,d1:61021;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:2794 op:562,dt:2,nt:9,next:2795,str:3020,d0:0,d1:0;
-                    ("c07_9040_cor", Expression<StringId> @:2795 op:11,dt:11,nt:9,next:2796,str:7828,d0:4047,d1:3072;
-                        (2f, Expression<Float> @:2796 op:6,dt:6,nt:9,next:65535,str:34038,d0:0,d1:16384;))))
-            (____, BuiltinInvocation<Void> @:2797 op:220,dt:4,nt:8,next:2803,str:34047,d0:2798,d1:61025;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2798 op:220,dt:2,nt:9,next:2799,str:3331,d0:0,d1:0;
-                    ("cortana_outro", Expression<Unit> @:2799 op:57,dt:51,nt:9,next:2800,str:7724,d0:128,d1:65535;
-                        ("disappointed", Expression<StringId> @:2800 op:11,dt:11,nt:9,next:2801,str:4471,d0:425,d1:3072;
-                            (0.75f, Expression<Float> @:2801 op:6,dt:6,nt:9,next:2802,str:34100,d0:0,d1:16192;
-                                (60, Expression<Short> @:2802 op:7,dt:7,nt:9,next:65535,str:34104,d0:60,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:2803 op:27,dt:4,nt:8,next:65535,str:34110,d0:2804,d1:61031;
-                ("print", Expression<MethodOrOperator> @:2804 op:27,dt:2,nt:9,next:2805,str:86,d0:0,d1:0;
-                    ("cortana - disappointed .75 60", Expression<String> @:2805 op:9,dt:9,nt:9,next:65535,str:7841,d0:7841,d1:0;))))))
+("c07_9040_cor", MethodDecl<Void> @:91 check:0,op:0,dt:0,nt:65535,next:2806,nextCheck:61033,str:7828,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2806 check:61033,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:33862,h:0,d0:2807,d1:61034;
+        ("begin", Expression<MethodOrOperator> @:2807 check:61034,op:0,dt:2,nt:9,next:2785,nextCheck:61012,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2785 check:61012,op:19,dt:4,nt:8,next:2788,nextCheck:61015,str:33893,h:0,d0:2786,d1:61013;
+                ("sleep", Expression<MethodOrOperator> @:2786 check:61013,op:19,dt:2,nt:9,next:2787,nextCheck:61014,str:80,h:0,d0:0,d1:0;
+                    (211, Expression<Short> @:2787 check:61014,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:33900,h:0,d0:211,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2788 check:61015,op:596,dt:4,nt:8,next:2793,nextCheck:61020,str:33907,h:0,d0:2789,d1:61016;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:2789 check:61016,op:596,dt:2,nt:9,next:2790,nextCheck:61017,str:1299,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\07_highcharity\cinematic\c07_9040_cor", Expression<Sound> @:2790 check:61017,op:32,dt:32,nt:9,next:2791,nextCheck:61018,str:7770,h:0,d0:902,d1:58620;
+                        (4294901888, Expression<Entity> @:2791 check:61018,op:56,dt:50,nt:9,next:2792,nextCheck:61019,str:7724,h:0,d0:128,d1:65535;
+                            (1f, Expression<Float> @:2792 check:61019,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:34000,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:2793 check:61020,op:562,dt:4,nt:8,next:2797,nextCheck:61024,str:34005,h:0,d0:2794,d1:61021;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:2794 check:61021,op:562,dt:2,nt:9,next:2795,nextCheck:61022,str:3020,h:0,d0:0,d1:0;
+                    ("c07_9040_cor", Expression<StringId> @:2795 check:61022,op:11,dt:11,nt:9,next:2796,nextCheck:61023,str:7828,h:0,d0:4047,d1:3072;
+                        (2f, Expression<Float> @:2796 check:61023,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:34038,h:0,d0:0,d1:16384;))))
+            (____, BuiltinInvocation<Void> @:2797 check:61024,op:220,dt:4,nt:8,next:2803,nextCheck:61030,str:34047,h:0,d0:2798,d1:61025;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2798 check:61025,op:220,dt:2,nt:9,next:2799,nextCheck:61026,str:3331,h:0,d0:0,d1:0;
+                    ("cortana_outro", Expression<Unit> @:2799 check:61026,op:57,dt:51,nt:9,next:2800,nextCheck:61027,str:7724,h:0,d0:128,d1:65535;
+                        ("disappointed", Expression<StringId> @:2800 check:61027,op:11,dt:11,nt:9,next:2801,nextCheck:61028,str:4471,h:0,d0:425,d1:3072;
+                            (0.75f, Expression<Float> @:2801 check:61028,op:6,dt:6,nt:9,next:2802,nextCheck:61029,str:34100,h:0,d0:0,d1:16192;
+                                (60, Expression<Short> @:2802 check:61029,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:34104,h:0,d0:60,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:2803 check:61030,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:34110,h:0,d0:2804,d1:61031;
+                ("print", Expression<MethodOrOperator> @:2804 check:61031,op:27,dt:2,nt:9,next:2805,nextCheck:61032,str:86,h:0,d0:0,d1:0;
+                    ("cortana - disappointed .75 60", Expression<String> @:2805 check:61032,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:7841,h:0,d0:7841,d1:0;))))))

@@ -1,24 +1,24 @@
 
-("ai_maus_inner_brute_reins", MethodDecl<Void> @:404 op:0,dt:0,nt:65535,next:19976,str:44096,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:19976 op:0,dt:4,nt:8,next:65535,str:22612,d0:19977,d1:45437;
-        ("begin", Expression<MethodOrOperator> @:19977 op:0,dt:2,nt:9,next:19956,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:19956 op:21,dt:4,nt:8,next:19964,str:22656,d0:19957,d1:45417;
-                ("sleep_until", Expression<MethodOrOperator> @:19957 op:21,dt:2,nt:9,next:19958,str:231,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:19958 op:18,dt:5,nt:8,next:65535,str:22669,d0:19959,d1:45419;
-                        ("<=", Expression<MethodOrOperator> @:19959 op:18,dt:2,nt:9,next:19960,str:21122,d0:0,d1:0;
-                            (____, BuiltinInvocation<Short> @:19960 op:327,dt:7,nt:8,next:19963,str:22673,d0:19961,d1:45421;
-                                ("ai_living_count", Expression<MethodOrOperator> @:19961 op:327,dt:2,nt:9,next:19962,str:19381,d0:0,d1:0;
-                                    ("maus_inner_brutes_ini", Expression<AI> @:19962 op:19,dt:19,nt:9,next:65535,str:39362,d0:233,d1:0;)))
-                            (0, Expression<Short> @:19963 op:7,dt:7,nt:9,next:65535,str:22713,d0:0,d1:65535;)))))
-            (____, BuiltinInvocation<Void> @:19964 op:19,dt:4,nt:8,next:19967,str:22719,d0:19965,d1:45425;
-                ("sleep", Expression<MethodOrOperator> @:19965 op:19,dt:2,nt:9,next:19966,str:80,d0:0,d1:0;
-                    (90, Expression<Short> @:19966 op:7,dt:7,nt:9,next:65535,str:22726,d0:90,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:19967 op:290,dt:4,nt:8,next:19970,str:22732,d0:19968,d1:45428;
-                ("ai_place", Expression<MethodOrOperator> @:19968 op:290,dt:2,nt:9,next:19969,str:14833,d0:0,d1:0;
-                    ("maus_inner_brutes_rein", Expression<AI> @:19969 op:19,dt:19,nt:9,next:65535,str:39384,d0:234,d1:0;)))
-            (____, BuiltinInvocation<Void> @:19970 op:19,dt:4,nt:8,next:19973,str:22768,d0:19971,d1:45431;
-                ("sleep", Expression<MethodOrOperator> @:19971 op:19,dt:2,nt:9,next:19972,str:80,d0:0,d1:0;
-                    (1, Expression<Short> @:19972 op:7,dt:7,nt:9,next:65535,str:22775,d0:1,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:19973 op:22,dt:4,nt:8,next:65535,str:22780,d0:19974,d1:45434;
-                ("wake", Expression<MethodOrOperator> @:19974 op:22,dt:2,nt:9,next:19975,str:1146,d0:0,d1:0;
-                    ("ai_maus_inner_order_transitions", Expression<ScriptReference> @:19975 op:10,dt:10,nt:9,next:65535,str:39407,d0:403,d1:65535;))))))
+("ai_maus_inner_brute_reins", MethodDecl<Void> @:404 check:0,op:0,dt:0,nt:65535,next:19976,nextCheck:45436,str:44096,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:19976 check:45436,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:22612,h:3,d0:19977,d1:45437;
+        ("begin", Expression<MethodOrOperator> @:19977 check:45437,op:0,dt:2,nt:9,next:19956,nextCheck:45416,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:19956 check:45416,op:21,dt:4,nt:8,next:19964,nextCheck:45424,str:22656,h:3,d0:19957,d1:45417;
+                ("sleep_until", Expression<MethodOrOperator> @:19957 check:45417,op:21,dt:2,nt:9,next:19958,nextCheck:45418,str:231,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:19958 check:45418,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:22669,h:3,d0:19959,d1:45419;
+                        ("<=", Expression<MethodOrOperator> @:19959 check:45419,op:18,dt:2,nt:9,next:19960,nextCheck:45420,str:21122,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Short> @:19960 check:45420,op:327,dt:7,nt:8,next:19963,nextCheck:45423,str:22673,h:3,d0:19961,d1:45421;
+                                ("ai_living_count", Expression<MethodOrOperator> @:19961 check:45421,op:327,dt:2,nt:9,next:19962,nextCheck:45422,str:19381,h:0,d0:0,d1:0;
+                                    ("maus_inner_brutes_ini", Expression<AI> @:19962 check:45422,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:39362,h:0,d0:233,d1:0;)))
+                            (0, Expression<Short> @:19963 check:45423,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:22713,h:3,d0:0,d1:65535;)))))
+            (____, BuiltinInvocation<Void> @:19964 check:45424,op:19,dt:4,nt:8,next:19967,nextCheck:45427,str:22719,h:3,d0:19965,d1:45425;
+                ("sleep", Expression<MethodOrOperator> @:19965 check:45425,op:19,dt:2,nt:9,next:19966,nextCheck:45426,str:80,h:0,d0:0,d1:0;
+                    (90, Expression<Short> @:19966 check:45426,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:22726,h:3,d0:90,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:19967 check:45427,op:290,dt:4,nt:8,next:19970,nextCheck:45430,str:22732,h:3,d0:19968,d1:45428;
+                ("ai_place", Expression<MethodOrOperator> @:19968 check:45428,op:290,dt:2,nt:9,next:19969,nextCheck:45429,str:14833,h:0,d0:0,d1:0;
+                    ("maus_inner_brutes_rein", Expression<AI> @:19969 check:45429,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:39384,h:0,d0:234,d1:0;)))
+            (____, BuiltinInvocation<Void> @:19970 check:45430,op:19,dt:4,nt:8,next:19973,nextCheck:45433,str:22768,h:3,d0:19971,d1:45431;
+                ("sleep", Expression<MethodOrOperator> @:19971 check:45431,op:19,dt:2,nt:9,next:19972,nextCheck:45432,str:80,h:0,d0:0,d1:0;
+                    (1, Expression<Short> @:19972 check:45432,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:22775,h:3,d0:1,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:19973 check:45433,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:22780,h:3,d0:19974,d1:45434;
+                ("wake", Expression<MethodOrOperator> @:19974 check:45434,op:22,dt:2,nt:9,next:19975,nextCheck:45435,str:1146,h:0,d0:0,d1:0;
+                    ("ai_maus_inner_order_transitions", Expression<ScriptReference> @:19975 check:45435,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:39407,h:0,d0:403,d1:65535;))))))

@@ -1,15 +1,15 @@
 
-("c03_intro_score_01", MethodDecl<Void> @:28 op:0,dt:0,nt:65535,next:768,str:2957,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:768 op:0,dt:4,nt:8,next:65535,str:9237,d0:769,d1:58996;
-        ("begin", Expression<MethodOrOperator> @:769 op:0,dt:2,nt:9,next:757,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:757 op:19,dt:4,nt:8,next:760,str:9274,d0:758,d1:58985;
-                ("sleep", Expression<MethodOrOperator> @:758 op:19,dt:2,nt:9,next:759,str:143,d0:0,d1:0;
-                    (0, Expression<Short> @:759 op:7,dt:7,nt:9,next:65535,str:9281,d0:0,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:760 op:596,dt:4,nt:8,next:765,str:9286,d0:761,d1:58988;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:761 op:596,dt:2,nt:9,next:762,str:1214,d0:0,d1:0;
-                    ("sound\cinematics\03_earthcity\c03_intro\music\c03_intro_01_mus", Expression<Sound> @:762 op:32,dt:32,nt:9,next:763,str:1234,d0:889,d1:58607;
-                        (4294967295, Expression<Entity> @:763 op:50,dt:50,nt:9,next:764,str:1,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:764 op:6,dt:6,nt:9,next:65535,str:9375,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:765 op:27,dt:4,nt:8,next:65535,str:9380,d0:766,d1:58993;
-                ("print", Expression<MethodOrOperator> @:766 op:27,dt:2,nt:9,next:767,str:149,d0:0,d1:0;
-                    ("c03_intro score 01 start", Expression<String> @:767 op:9,dt:9,nt:9,next:65535,str:1297,d0:1297,d1:0;))))))
+("c03_intro_score_01", MethodDecl<Void> @:28 check:0,op:0,dt:0,nt:65535,next:768,nextCheck:58995,str:2957,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:768 check:58995,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9237,h:0,d0:769,d1:58996;
+        ("begin", Expression<MethodOrOperator> @:769 check:58996,op:0,dt:2,nt:9,next:757,nextCheck:58984,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:757 check:58984,op:19,dt:4,nt:8,next:760,nextCheck:58987,str:9274,h:0,d0:758,d1:58985;
+                ("sleep", Expression<MethodOrOperator> @:758 check:58985,op:19,dt:2,nt:9,next:759,nextCheck:58986,str:143,h:0,d0:0,d1:0;
+                    (0, Expression<Short> @:759 check:58986,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:9281,h:0,d0:0,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:760 check:58987,op:596,dt:4,nt:8,next:765,nextCheck:58992,str:9286,h:0,d0:761,d1:58988;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:761 check:58988,op:596,dt:2,nt:9,next:762,nextCheck:58989,str:1214,h:0,d0:0,d1:0;
+                    ("sound\cinematics\03_earthcity\c03_intro\music\c03_intro_01_mus", Expression<Sound> @:762 check:58989,op:32,dt:32,nt:9,next:763,nextCheck:58990,str:1234,h:0,d0:889,d1:58607;
+                        (4294967295, Expression<Entity> @:763 check:58990,op:50,dt:50,nt:9,next:764,nextCheck:58991,str:1,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:764 check:58991,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:9375,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:765 check:58992,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:9380,h:0,d0:766,d1:58993;
+                ("print", Expression<MethodOrOperator> @:766 check:58993,op:27,dt:2,nt:9,next:767,nextCheck:58994,str:149,h:0,d0:0,d1:0;
+                    ("c03_intro score 01 start", Expression<String> @:767 check:58994,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:1297,h:0,d0:1297,d1:0;))))))

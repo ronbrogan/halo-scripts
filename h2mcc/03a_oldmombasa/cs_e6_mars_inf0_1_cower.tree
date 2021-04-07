@@ -1,14 +1,14 @@
 
-("cs_e6_mars_inf0_1_cower", MethodDecl<Void> @:301 op:0,dt:0,nt:65535,next:11549,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:11549 op:0,dt:4,nt:8,next:65535,str:13708,d0:11550,d1:37010;
-        ("begin", Expression<MethodOrOperator> @:11550 op:0,dt:2,nt:9,next:11539,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:11539 op:423,dt:4,nt:8,next:11542,str:13757,d0:11540,d1:37000;
-                ("cs_crouch", Expression<MethodOrOperator> @:11540 op:423,dt:2,nt:9,next:11541,str:17958,d0:0,d1:0;
-                    (True, Expression<Boolean> @:11541 op:5,dt:5,nt:9,next:65535,str:13768,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:11542 op:21,dt:4,nt:8,next:65535,str:13776,d0:11543,d1:37003;
-                ("sleep_until", Expression<MethodOrOperator> @:11543 op:21,dt:2,nt:9,next:11544,str:294,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:11544 op:33,dt:5,nt:8,next:65535,str:13789,d0:11545,d1:37005;
-                        ("volume_test_objects", Expression<MethodOrOperator> @:11545 op:33,dt:2,nt:9,next:11546,str:11142,d0:0,d1:0;
-                            ("tv_e6_hotel_entrance", Expression<Trigger> @:11546 op:13,dt:13,nt:9,next:11547,str:20884,d0:31,d1:0;
-                                (____, BuiltinInvocation<List> @:11547 op:28,dt:31,nt:8,next:65535,str:13831,d0:11548,d1:37008;
-                                    ("players", Expression<MethodOrOperator> @:11548 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;))))))))))
+("cs_e6_mars_inf0_1_cower", MethodDecl<Void> @:301 check:0,op:0,dt:0,nt:65535,next:11549,nextCheck:37009,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:11549 check:37009,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:13708,h:2,d0:11550,d1:37010;
+        ("begin", Expression<MethodOrOperator> @:11550 check:37010,op:0,dt:2,nt:9,next:11539,nextCheck:36999,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:11539 check:36999,op:423,dt:4,nt:8,next:11542,nextCheck:37002,str:13757,h:2,d0:11540,d1:37000;
+                ("cs_crouch", Expression<MethodOrOperator> @:11540 check:37000,op:423,dt:2,nt:9,next:11541,nextCheck:37001,str:17958,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11541 check:37001,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:13768,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:11542 check:37002,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:13776,h:2,d0:11543,d1:37003;
+                ("sleep_until", Expression<MethodOrOperator> @:11543 check:37003,op:21,dt:2,nt:9,next:11544,nextCheck:37004,str:294,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:11544 check:37004,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:13789,h:2,d0:11545,d1:37005;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:11545 check:37005,op:33,dt:2,nt:9,next:11546,nextCheck:37006,str:11142,h:0,d0:0,d1:0;
+                            ("tv_e6_hotel_entrance", Expression<Trigger> @:11546 check:37006,op:13,dt:13,nt:9,next:11547,nextCheck:37007,str:20884,h:0,d0:31,d1:0;
+                                (____, BuiltinInvocation<List> @:11547 check:37007,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:13831,h:2,d0:11548,d1:37008;
+                                    ("players", Expression<MethodOrOperator> @:11548 check:37008,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:84,h:0,d0:0,d1:0;))))))))))

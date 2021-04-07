@@ -1,15 +1,15 @@
 
-("cs_trm1_lookat_player_crouch", MethodDecl<Void> @:352 op:0,dt:0,nt:65535,next:16443,str:38005,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:16443 op:0,dt:4,nt:8,next:65535,str:2554,d0:16444,d1:41904;
-        ("begin", Expression<MethodOrOperator> @:16444 op:0,dt:2,nt:9,next:16432,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:16432 op:444,dt:4,nt:8,next:16435,str:2608,d0:16433,d1:41893;
-                ("cs_enable_moving", Expression<MethodOrOperator> @:16433 op:444,dt:2,nt:9,next:16434,str:37929,d0:0,d1:0;
-                    (False, Expression<Boolean> @:16434 op:5,dt:5,nt:9,next:65535,str:2626,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16435 op:423,dt:4,nt:8,next:16438,str:2631,d0:16436,d1:41896;
-                ("cs_crouch", Expression<MethodOrOperator> @:16436 op:423,dt:2,nt:9,next:16437,str:37946,d0:0,d1:0;
-                    (True, Expression<Boolean> @:16437 op:5,dt:5,nt:9,next:65535,str:2642,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16438 op:400,dt:4,nt:8,next:16441,str:2647,d0:16439,d1:41899;
-                ("cs_face_player", Expression<MethodOrOperator> @:16439 op:400,dt:2,nt:9,next:16440,str:37956,d0:0,d1:0;
-                    (True, Expression<Boolean> @:16440 op:5,dt:5,nt:9,next:65535,str:2663,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16441 op:20,dt:4,nt:8,next:65535,str:2668,d0:16442,d1:41902;
-                ("sleep_forever", Expression<MethodOrOperator> @:16442 op:20,dt:2,nt:9,next:65535,str:27349,d0:0,d1:0;)))))
+("cs_trm1_lookat_player_crouch", MethodDecl<Void> @:352 check:0,op:0,dt:0,nt:65535,next:16443,nextCheck:41903,str:38005,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:16443 check:41903,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:2554,h:3,d0:16444,d1:41904;
+        ("begin", Expression<MethodOrOperator> @:16444 check:41904,op:0,dt:2,nt:9,next:16432,nextCheck:41892,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:16432 check:41892,op:444,dt:4,nt:8,next:16435,nextCheck:41895,str:2608,h:3,d0:16433,d1:41893;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:16433 check:41893,op:444,dt:2,nt:9,next:16434,nextCheck:41894,str:37929,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:16434 check:41894,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:2626,h:3,d0:65280,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16435 check:41895,op:423,dt:4,nt:8,next:16438,nextCheck:41898,str:2631,h:3,d0:16436,d1:41896;
+                ("cs_crouch", Expression<MethodOrOperator> @:16436 check:41896,op:423,dt:2,nt:9,next:16437,nextCheck:41897,str:37946,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16437 check:41897,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:2642,h:3,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16438 check:41898,op:400,dt:4,nt:8,next:16441,nextCheck:41901,str:2647,h:3,d0:16439,d1:41899;
+                ("cs_face_player", Expression<MethodOrOperator> @:16439 check:41899,op:400,dt:2,nt:9,next:16440,nextCheck:41900,str:37956,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16440 check:41900,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:2663,h:3,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16441 check:41901,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:2668,h:3,d0:16442,d1:41902;
+                ("sleep_forever", Expression<MethodOrOperator> @:16442 check:41902,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:27349,h:0,d0:0,d1:0;)))))

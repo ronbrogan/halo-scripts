@@ -1,10 +1,10 @@
 
-("music_07b_01_stop", MethodDecl<Void> @:112 op:0,dt:0,nt:65535,next:3455,str:22860,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3455 op:0,dt:4,nt:8,next:65535,str:42368,d0:3456,d1:61683;
-        ("begin", Expression<MethodOrOperator> @:3456 op:0,dt:2,nt:9,next:3449,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3449 op:27,dt:4,nt:8,next:3452,str:42439,d0:3450,d1:61677;
-                ("print", Expression<MethodOrOperator> @:3450 op:27,dt:2,nt:9,next:3451,str:86,d0:0,d1:0;
-                    ("music 07b_01 stop", Expression<String> @:3451 op:9,dt:9,nt:9,next:65535,str:9560,d0:9560,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3452 op:606,dt:4,nt:8,next:65535,str:42469,d0:3453,d1:61680;
-                ("sound_looping_stop", Expression<MethodOrOperator> @:3453 op:606,dt:2,nt:9,next:3454,str:9578,d0:0,d1:0;
-                    ("scenarios\solo\07b_forerunnership\07b_music\07b_01", Expression<LoopingSound> @:3454 op:35,dt:35,nt:9,next:65535,str:9509,d0:6884,d1:64797;))))))
+("music_07b_01_stop", MethodDecl<Void> @:112 check:0,op:0,dt:0,nt:65535,next:3455,nextCheck:61682,str:22860,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3455 check:61682,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:42368,h:0,d0:3456,d1:61683;
+        ("begin", Expression<MethodOrOperator> @:3456 check:61683,op:0,dt:2,nt:9,next:3449,nextCheck:61676,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3449 check:61676,op:27,dt:4,nt:8,next:3452,nextCheck:61679,str:42439,h:0,d0:3450,d1:61677;
+                ("print", Expression<MethodOrOperator> @:3450 check:61677,op:27,dt:2,nt:9,next:3451,nextCheck:61678,str:86,h:0,d0:0,d1:0;
+                    ("music 07b_01 stop", Expression<String> @:3451 check:61678,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:9560,h:0,d0:9560,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3452 check:61679,op:606,dt:4,nt:8,next:65535,nextCheck:65535,str:42469,h:0,d0:3453,d1:61680;
+                ("sound_looping_stop", Expression<MethodOrOperator> @:3453 check:61680,op:606,dt:2,nt:9,next:3454,nextCheck:61681,str:9578,h:0,d0:0,d1:0;
+                    ("scenarios\solo\07b_forerunnership\07b_music\07b_01", Expression<LoopingSound> @:3454 check:61681,op:35,dt:35,nt:9,next:65535,nextCheck:65535,str:9509,h:0,d0:6884,d1:64797;))))))

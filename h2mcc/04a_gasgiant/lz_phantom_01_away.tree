@@ -1,17 +1,17 @@
 
-("lz_phantom_01_away", MethodDecl<Void> @:245 op:0,dt:0,nt:65535,next:8026,str:19705,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:8026 op:0,dt:4,nt:8,next:65535,str:30172,d0:8027,d1:33487;
-        ("begin", Expression<MethodOrOperator> @:8027 op:0,dt:2,nt:9,next:8013,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:8013 op:449,dt:4,nt:8,next:8016,str:30216,d0:8014,d1:33474;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:8014 op:449,dt:2,nt:9,next:8015,str:17423,d0:0,d1:0;
-                    (True, Expression<Boolean> @:8015 op:5,dt:5,nt:9,next:65535,str:30248,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8016 op:438,dt:4,nt:8,next:8019,str:30256,d0:8017,d1:33477;
-                ("cs_vehicle_boost", Expression<MethodOrOperator> @:8017 op:438,dt:2,nt:9,next:8018,str:17454,d0:0,d1:0;
-                    (True, Expression<Boolean> @:8018 op:5,dt:5,nt:9,next:65535,str:30274,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8019 op:380,dt:4,nt:8,next:8023,str:30282,d0:8020,d1:33480;
-                ("cs_fly_to", Expression<MethodOrOperator> @:8020 op:380,dt:2,nt:9,next:8021,str:17471,d0:0,d1:0;
-                    ("airspace_lz/exit01", Expression<SpatialPoint> @:8021 op:28,dt:28,nt:9,next:8022,str:17481,d0:9,d1:0;
-                        (20f, Expression<Float> @:8022 op:6,dt:6,nt:9,next:65535,str:30312,d0:0,d1:16800;))))
-            (____, BuiltinInvocation<Void> @:8023 op:298,dt:4,nt:8,next:65535,str:30318,d0:8024,d1:33484;
-                ("ai_erase", Expression<MethodOrOperator> @:8024 op:298,dt:2,nt:9,next:8025,str:17500,d0:0,d1:0;
-                    ("ai_current_actor", VariableAccess<AI> @:8025 op:19,dt:19,nt:13,next:65535,str:17509,d0:33564,d1:65535;))))))
+("lz_phantom_01_away", MethodDecl<Void> @:245 check:0,op:0,dt:0,nt:65535,next:8026,nextCheck:33486,str:19705,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:8026 check:33486,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:30172,h:1,d0:8027,d1:33487;
+        ("begin", Expression<MethodOrOperator> @:8027 check:33487,op:0,dt:2,nt:9,next:8013,nextCheck:33473,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:8013 check:33473,op:449,dt:4,nt:8,next:8016,nextCheck:33476,str:30216,h:1,d0:8014,d1:33474;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:8014 check:33474,op:449,dt:2,nt:9,next:8015,nextCheck:33475,str:17423,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:8015 check:33475,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:30248,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8016 check:33476,op:438,dt:4,nt:8,next:8019,nextCheck:33479,str:30256,h:1,d0:8017,d1:33477;
+                ("cs_vehicle_boost", Expression<MethodOrOperator> @:8017 check:33477,op:438,dt:2,nt:9,next:8018,nextCheck:33478,str:17454,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:8018 check:33478,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:30274,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8019 check:33479,op:380,dt:4,nt:8,next:8023,nextCheck:33483,str:30282,h:1,d0:8020,d1:33480;
+                ("cs_fly_to", Expression<MethodOrOperator> @:8020 check:33480,op:380,dt:2,nt:9,next:8021,nextCheck:33481,str:17471,h:0,d0:0,d1:0;
+                    ("airspace_lz/exit01", Expression<SpatialPoint> @:8021 check:33481,op:28,dt:28,nt:9,next:8022,nextCheck:33482,str:17481,h:0,d0:9,d1:0;
+                        (20f, Expression<Float> @:8022 check:33482,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:30312,h:1,d0:0,d1:16800;))))
+            (____, BuiltinInvocation<Void> @:8023 check:33483,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:30318,h:1,d0:8024,d1:33484;
+                ("ai_erase", Expression<MethodOrOperator> @:8024 check:33484,op:298,dt:2,nt:9,next:8025,nextCheck:33485,str:17500,h:0,d0:0,d1:0;
+                    ("ai_current_actor", VariableAccess<AI> @:8025 check:33485,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:17509,h:0,d0:33564,d1:65535;))))))

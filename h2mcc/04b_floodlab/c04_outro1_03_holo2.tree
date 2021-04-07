@@ -1,21 +1,21 @@
 
-("c04_outro1_03_holo2", MethodDecl<Void> @:92 op:0,dt:0,nt:65535,next:2890,str:7727,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2890 op:0,dt:4,nt:8,next:65535,str:34122,d0:2891,d1:61118;
-        ("begin", Expression<MethodOrOperator> @:2891 op:0,dt:2,nt:9,next:2873,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2873 op:19,dt:4,nt:8,next:2876,str:34160,d0:2874,d1:61101;
-                ("sleep", Expression<MethodOrOperator> @:2874 op:19,dt:2,nt:9,next:2875,str:289,d0:0,d1:0;
-                    (490, Expression<Short> @:2875 op:7,dt:7,nt:9,next:65535,str:34167,d0:490,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2876 op:48,dt:4,nt:8,next:2879,str:34174,d0:2877,d1:61104;
-                ("object_create_anew", Expression<MethodOrOperator> @:2877 op:48,dt:2,nt:9,next:2878,str:2195,d0:0,d1:0;
-                    ("hologram02", Expression<EntityIdentifier> @:2878 op:56,dt:56,nt:9,next:65535,str:7436,d0:274,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2879 op:92,dt:4,nt:8,next:2883,str:34208,d0:2880,d1:61107;
-                ("object_cinematic_lod", Expression<MethodOrOperator> @:2880 op:92,dt:2,nt:9,next:2881,str:2270,d0:0,d1:0;
-                    (4294902034, Expression<Entity> @:2881 op:56,dt:50,nt:9,next:2882,str:7436,d0:274,d1:65535;
-                        (True, Expression<Boolean> @:2882 op:5,dt:5,nt:9,next:65535,str:34241,d0:65281,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:2883 op:203,dt:4,nt:8,next:65535,str:34249,d0:2884,d1:61111;
-                ("custom_animation_relative", Expression<MethodOrOperator> @:2884 op:203,dt:2,nt:9,next:2885,str:2927,d0:0,d1:0;
-                    ("hologram02", Expression<Unit> @:2885 op:57,dt:51,nt:9,next:2886,str:7436,d0:274,d1:65535;
-                        ("objects\characters\heretic\04_outro1\04_outro1", Expression<Animation> @:2886 op:36,dt:36,nt:9,next:2887,str:5960,d0:1342,d1:59060;
-                            ("holo2_03", Expression<StringId> @:2887 op:11,dt:11,nt:9,next:2888,str:7564,d0:4553,d1:2048;
-                                (False, Expression<Boolean> @:2888 op:5,dt:5,nt:9,next:2889,str:34345,d0:65280,d1:65535;
-                                    (4294901785, Expression<Entity> @:2889 op:56,dt:50,nt:9,next:65535,str:4117,d0:25,d1:65535;))))))))))
+("c04_outro1_03_holo2", MethodDecl<Void> @:92 check:0,op:0,dt:0,nt:65535,next:2890,nextCheck:61117,str:7727,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2890 check:61117,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:34122,h:0,d0:2891,d1:61118;
+        ("begin", Expression<MethodOrOperator> @:2891 check:61118,op:0,dt:2,nt:9,next:2873,nextCheck:61100,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2873 check:61100,op:19,dt:4,nt:8,next:2876,nextCheck:61103,str:34160,h:0,d0:2874,d1:61101;
+                ("sleep", Expression<MethodOrOperator> @:2874 check:61101,op:19,dt:2,nt:9,next:2875,nextCheck:61102,str:289,h:0,d0:0,d1:0;
+                    (490, Expression<Short> @:2875 check:61102,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:34167,h:0,d0:490,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2876 check:61103,op:48,dt:4,nt:8,next:2879,nextCheck:61106,str:34174,h:0,d0:2877,d1:61104;
+                ("object_create_anew", Expression<MethodOrOperator> @:2877 check:61104,op:48,dt:2,nt:9,next:2878,nextCheck:61105,str:2195,h:0,d0:0,d1:0;
+                    ("hologram02", Expression<EntityIdentifier> @:2878 check:61105,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:7436,h:0,d0:274,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2879 check:61106,op:92,dt:4,nt:8,next:2883,nextCheck:61110,str:34208,h:0,d0:2880,d1:61107;
+                ("object_cinematic_lod", Expression<MethodOrOperator> @:2880 check:61107,op:92,dt:2,nt:9,next:2881,nextCheck:61108,str:2270,h:0,d0:0,d1:0;
+                    (4294902034, Expression<Entity> @:2881 check:61108,op:56,dt:50,nt:9,next:2882,nextCheck:61109,str:7436,h:0,d0:274,d1:65535;
+                        (True, Expression<Boolean> @:2882 check:61109,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:34241,h:0,d0:65281,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:2883 check:61110,op:203,dt:4,nt:8,next:65535,nextCheck:65535,str:34249,h:0,d0:2884,d1:61111;
+                ("custom_animation_relative", Expression<MethodOrOperator> @:2884 check:61111,op:203,dt:2,nt:9,next:2885,nextCheck:61112,str:2927,h:0,d0:0,d1:0;
+                    ("hologram02", Expression<Unit> @:2885 check:61112,op:57,dt:51,nt:9,next:2886,nextCheck:61113,str:7436,h:0,d0:274,d1:65535;
+                        ("objects\characters\heretic\04_outro1\04_outro1", Expression<Animation> @:2886 check:61113,op:36,dt:36,nt:9,next:2887,nextCheck:61114,str:5960,h:0,d0:1342,d1:59060;
+                            ("holo2_03", Expression<StringId> @:2887 check:61114,op:11,dt:11,nt:9,next:2888,nextCheck:61115,str:7564,h:0,d0:4553,d1:2048;
+                                (False, Expression<Boolean> @:2888 check:61115,op:5,dt:5,nt:9,next:2889,nextCheck:61116,str:34345,h:0,d0:65280,d1:65535;
+                                    (4294901785, Expression<Entity> @:2889 check:61116,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:4117,h:0,d0:25,d1:65535;))))))))))

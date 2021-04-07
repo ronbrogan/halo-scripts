@@ -1,34 +1,34 @@
 
-("sc_factory_approach", MethodDecl<Void> @:156 op:0,dt:0,nt:65535,next:4967,str:25534,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4967 op:0,dt:4,nt:8,next:65535,str:59099,d0:4968,d1:63195;
-        ("begin", Expression<MethodOrOperator> @:4968 op:0,dt:2,nt:9,next:4937,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4937 op:2,dt:4,nt:8,next:4943,str:59137,d0:4938,d1:63165;
-                ("if", Expression<MethodOrOperator> @:4938 op:2,dt:2,nt:9,next:4939,str:461,d0:0,d1:0;
-                    ("dialogue", VariableAccess<Boolean> @:4939 op:5,dt:5,nt:13,next:4940,str:11703,d0:4,d1:0;
-                        (____, BuiltinInvocation<Void> @:4940 op:27,dt:4,nt:8,next:65535,str:59150,d0:4941,d1:63168;
-                            ("print", Expression<MethodOrOperator> @:4941 op:27,dt:2,nt:9,next:4942,str:91,d0:0,d1:0;
-                                ("commander: commander! we've found a human vehicle!", Expression<String> @:4942 op:9,dt:9,nt:9,next:65535,str:12419,d0:12419,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:4943 op:19,dt:4,nt:8,next:4949,str:59214,d0:4944,d1:63171;
-                ("sleep", Expression<MethodOrOperator> @:4944 op:19,dt:2,nt:9,next:4945,str:85,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:4945 op:360,dt:7,nt:8,next:65535,str:59221,d0:4946,d1:63173;
-                        ("ai_play_line", Expression<MethodOrOperator> @:4946 op:360,dt:2,nt:9,next:4947,str:11966,d0:0,d1:0;
-                            ("covenant", Expression<AI> @:4947 op:19,dt:19,nt:9,next:4948,str:10547,d0:0,d1:16384;
-                                ("0250", Expression<StringId> @:4948 op:11,dt:11,nt:9,next:65535,str:12470,d0:13530,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:4949 op:19,dt:4,nt:8,next:4952,str:59253,d0:4950,d1:63177;
-                ("sleep", Expression<MethodOrOperator> @:4950 op:19,dt:2,nt:9,next:4951,str:85,d0:0,d1:0;
-                    ("dialogue_pause", VariableAccess<Short> @:4951 op:7,dt:7,nt:13,next:65535,str:11798,d0:18,d1:0;)))
-            (____, BuiltinInvocation<Void> @:4952 op:2,dt:4,nt:8,next:4958,str:59280,d0:4953,d1:63180;
-                ("if", Expression<MethodOrOperator> @:4953 op:2,dt:2,nt:9,next:4954,str:461,d0:0,d1:0;
-                    ("dialogue", VariableAccess<Boolean> @:4954 op:5,dt:5,nt:13,next:4955,str:11703,d0:4,d1:0;
-                        (____, BuiltinInvocation<Void> @:4955 op:27,dt:4,nt:8,next:65535,str:59293,d0:4956,d1:63183;
-                            ("print", Expression<MethodOrOperator> @:4956 op:27,dt:2,nt:9,next:4957,str:91,d0:0,d1:0;
-                                ("spec-ops: keep moving. i'm on my way.", Expression<String> @:4957 op:9,dt:9,nt:9,next:65535,str:12475,d0:12475,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:4958 op:19,dt:4,nt:8,next:4964,str:59344,d0:4959,d1:63186;
-                ("sleep", Expression<MethodOrOperator> @:4959 op:19,dt:2,nt:9,next:4960,str:85,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:4960 op:362,dt:7,nt:8,next:65535,str:59351,d0:4961,d1:63188;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4961 op:362,dt:2,nt:9,next:4962,str:11770,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:4962 op:50,dt:50,nt:9,next:4963,str:1,d0:65535,d1:65535;
-                                ("0260", Expression<StringId> @:4963 op:11,dt:11,nt:9,next:65535,str:12513,d0:13531,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:4964 op:19,dt:4,nt:8,next:65535,str:59389,d0:4965,d1:63192;
-                ("sleep", Expression<MethodOrOperator> @:4965 op:19,dt:2,nt:9,next:4966,str:85,d0:0,d1:0;
-                    ("dialogue_pause", VariableAccess<Short> @:4966 op:7,dt:7,nt:13,next:65535,str:11798,d0:18,d1:0;))))))
+("sc_factory_approach", MethodDecl<Void> @:156 check:0,op:0,dt:0,nt:65535,next:4967,nextCheck:63194,str:25534,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4967 check:63194,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:59099,h:0,d0:4968,d1:63195;
+        ("begin", Expression<MethodOrOperator> @:4968 check:63195,op:0,dt:2,nt:9,next:4937,nextCheck:63164,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4937 check:63164,op:2,dt:4,nt:8,next:4943,nextCheck:63170,str:59137,h:0,d0:4938,d1:63165;
+                ("if", Expression<MethodOrOperator> @:4938 check:63165,op:2,dt:2,nt:9,next:4939,nextCheck:63166,str:461,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:4939 check:63166,op:5,dt:5,nt:13,next:4940,nextCheck:63167,str:11703,h:0,d0:4,d1:0;
+                        (____, BuiltinInvocation<Void> @:4940 check:63167,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:59150,h:0,d0:4941,d1:63168;
+                            ("print", Expression<MethodOrOperator> @:4941 check:63168,op:27,dt:2,nt:9,next:4942,nextCheck:63169,str:91,h:0,d0:0,d1:0;
+                                ("commander: commander! we've found a human vehicle!", Expression<String> @:4942 check:63169,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12419,h:0,d0:12419,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:4943 check:63170,op:19,dt:4,nt:8,next:4949,nextCheck:63176,str:59214,h:0,d0:4944,d1:63171;
+                ("sleep", Expression<MethodOrOperator> @:4944 check:63171,op:19,dt:2,nt:9,next:4945,nextCheck:63172,str:85,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:4945 check:63172,op:360,dt:7,nt:8,next:65535,nextCheck:65535,str:59221,h:0,d0:4946,d1:63173;
+                        ("ai_play_line", Expression<MethodOrOperator> @:4946 check:63173,op:360,dt:2,nt:9,next:4947,nextCheck:63174,str:11966,h:0,d0:0,d1:0;
+                            ("covenant", Expression<AI> @:4947 check:63174,op:19,dt:19,nt:9,next:4948,nextCheck:63175,str:10547,h:0,d0:0,d1:16384;
+                                ("0250", Expression<StringId> @:4948 check:63175,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12470,h:0,d0:13530,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:4949 check:63176,op:19,dt:4,nt:8,next:4952,nextCheck:63179,str:59253,h:0,d0:4950,d1:63177;
+                ("sleep", Expression<MethodOrOperator> @:4950 check:63177,op:19,dt:2,nt:9,next:4951,nextCheck:63178,str:85,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:4951 check:63178,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:11798,h:0,d0:18,d1:0;)))
+            (____, BuiltinInvocation<Void> @:4952 check:63179,op:2,dt:4,nt:8,next:4958,nextCheck:63185,str:59280,h:0,d0:4953,d1:63180;
+                ("if", Expression<MethodOrOperator> @:4953 check:63180,op:2,dt:2,nt:9,next:4954,nextCheck:63181,str:461,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:4954 check:63181,op:5,dt:5,nt:13,next:4955,nextCheck:63182,str:11703,h:0,d0:4,d1:0;
+                        (____, BuiltinInvocation<Void> @:4955 check:63182,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:59293,h:0,d0:4956,d1:63183;
+                            ("print", Expression<MethodOrOperator> @:4956 check:63183,op:27,dt:2,nt:9,next:4957,nextCheck:63184,str:91,h:0,d0:0,d1:0;
+                                ("spec-ops: keep moving. i'm on my way.", Expression<String> @:4957 check:63184,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12475,h:0,d0:12475,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:4958 check:63185,op:19,dt:4,nt:8,next:4964,nextCheck:63191,str:59344,h:0,d0:4959,d1:63186;
+                ("sleep", Expression<MethodOrOperator> @:4959 check:63186,op:19,dt:2,nt:9,next:4960,nextCheck:63187,str:85,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:4960 check:63187,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:59351,h:0,d0:4961,d1:63188;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4961 check:63188,op:362,dt:2,nt:9,next:4962,nextCheck:63189,str:11770,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:4962 check:63189,op:50,dt:50,nt:9,next:4963,nextCheck:63190,str:1,h:0,d0:65535,d1:65535;
+                                ("0260", Expression<StringId> @:4963 check:63190,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12513,h:0,d0:13531,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:4964 check:63191,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:59389,h:0,d0:4965,d1:63192;
+                ("sleep", Expression<MethodOrOperator> @:4965 check:63192,op:19,dt:2,nt:9,next:4966,nextCheck:63193,str:85,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:4966 check:63193,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:11798,h:0,d0:18,d1:0;))))))

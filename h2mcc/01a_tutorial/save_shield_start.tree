@@ -1,13 +1,13 @@
 
-("save_shield_start", MethodDecl<Void> @:26 op:0,dt:0,nt:65535,next:985,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:985 op:0,dt:4,nt:8,next:65535,str:10806,d0:986,d1:59213;
-        ("begin", Expression<MethodOrOperator> @:986 op:0,dt:2,nt:9,next:976,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:976 op:587,dt:4,nt:8,next:978,str:10846,d0:977,d1:59204;
-                ("game_save", Expression<MethodOrOperator> @:977 op:587,dt:2,nt:9,next:65535,str:1137,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:978 op:2,dt:4,nt:8,next:65535,str:10860,d0:979,d1:59206;
-                ("if", Expression<MethodOrOperator> @:979 op:2,dt:2,nt:9,next:980,str:466,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:980 op:584,dt:5,nt:8,next:982,str:10864,d0:981,d1:59208;
-                        ("game_safe_to_save", Expression<MethodOrOperator> @:981 op:584,dt:2,nt:9,next:65535,str:1074,d0:0,d1:0;))
-                    (____, BuiltinInvocation<Void> @:982 op:786,dt:4,nt:8,next:65535,str:10884,d0:983,d1:59210;
-                        ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:983 op:786,dt:2,nt:9,next:984,str:1092,d0:0,d1:0;
-                            ("01a_shield_start", Expression<String> @:984 op:9,dt:9,nt:9,next:65535,str:1162,d0:1162,d1:0;))))))))
+("save_shield_start", MethodDecl<Void> @:26 check:0,op:0,dt:0,nt:65535,next:985,nextCheck:59212,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:985 check:59212,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:10806,h:0,d0:986,d1:59213;
+        ("begin", Expression<MethodOrOperator> @:986 check:59213,op:0,dt:2,nt:9,next:976,nextCheck:59203,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:976 check:59203,op:587,dt:4,nt:8,next:978,nextCheck:59205,str:10846,h:0,d0:977,d1:59204;
+                ("game_save", Expression<MethodOrOperator> @:977 check:59204,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:1137,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:978 check:59205,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:10860,h:0,d0:979,d1:59206;
+                ("if", Expression<MethodOrOperator> @:979 check:59206,op:2,dt:2,nt:9,next:980,nextCheck:59207,str:466,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:980 check:59207,op:584,dt:5,nt:8,next:982,nextCheck:59209,str:10864,h:0,d0:981,d1:59208;
+                        ("game_safe_to_save", Expression<MethodOrOperator> @:981 check:59208,op:584,dt:2,nt:9,next:65535,nextCheck:65535,str:1074,h:0,d0:0,d1:0;))
+                    (____, BuiltinInvocation<Void> @:982 check:59209,op:786,dt:4,nt:8,next:65535,nextCheck:65535,str:10884,h:0,d0:983,d1:59210;
+                        ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:983 check:59210,op:786,dt:2,nt:9,next:984,nextCheck:59211,str:1092,h:0,d0:0,d1:0;
+                            ("01a_shield_start", Expression<String> @:984 check:59211,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:1162,h:0,d0:1162,d1:0;))))))))

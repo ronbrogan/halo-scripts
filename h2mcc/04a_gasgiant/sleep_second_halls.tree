@@ -1,16 +1,16 @@
 
-("sleep_second_halls", MethodDecl<Void> @:396 op:0,dt:0,nt:65535,next:24327,str:36279,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:24327 op:0,dt:4,nt:8,next:65535,str:1232,d0:24328,d1:49788;
-        ("begin", Expression<MethodOrOperator> @:24328 op:0,dt:2,nt:9,next:24315,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:24315 op:20,dt:4,nt:8,next:24318,str:1273,d0:24316,d1:49776;
-                ("sleep_forever", Expression<MethodOrOperator> @:24316 op:20,dt:2,nt:9,next:24317,str:15175,d0:0,d1:0;
-                    ("to_bottling", Expression<ScriptReference> @:24317 op:10,dt:10,nt:9,next:65535,str:35700,d0:326,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:24318 op:20,dt:4,nt:8,next:24321,str:1303,d0:24319,d1:49779;
-                ("sleep_forever", Expression<MethodOrOperator> @:24319 op:20,dt:2,nt:9,next:24320,str:15175,d0:0,d1:0;
-                    ("second_hall_reinforce_01", Expression<ScriptReference> @:24320 op:10,dt:10,nt:9,next:65535,str:27869,d0:323,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:24321 op:20,dt:4,nt:8,next:24324,str:1346,d0:24322,d1:49782;
-                ("sleep_forever", Expression<MethodOrOperator> @:24322 op:20,dt:2,nt:9,next:24323,str:15175,d0:0,d1:0;
-                    ("second_hall_reinforce_02", Expression<ScriptReference> @:24323 op:10,dt:10,nt:9,next:65535,str:27894,d0:324,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:24324 op:20,dt:4,nt:8,next:65535,str:1389,d0:24325,d1:49785;
-                ("sleep_forever", Expression<MethodOrOperator> @:24325 op:20,dt:2,nt:9,next:24326,str:15175,d0:0,d1:0;
-                    ("second_hall_reinforce_03", Expression<ScriptReference> @:24326 op:10,dt:10,nt:9,next:65535,str:27919,d0:325,d1:65535;))))))
+("sleep_second_halls", MethodDecl<Void> @:396 check:0,op:0,dt:0,nt:65535,next:24327,nextCheck:49787,str:36279,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:24327 check:49787,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1232,h:4,d0:24328,d1:49788;
+        ("begin", Expression<MethodOrOperator> @:24328 check:49788,op:0,dt:2,nt:9,next:24315,nextCheck:49775,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:24315 check:49775,op:20,dt:4,nt:8,next:24318,nextCheck:49778,str:1273,h:4,d0:24316,d1:49776;
+                ("sleep_forever", Expression<MethodOrOperator> @:24316 check:49776,op:20,dt:2,nt:9,next:24317,nextCheck:49777,str:15175,h:0,d0:0,d1:0;
+                    ("to_bottling", Expression<ScriptReference> @:24317 check:49777,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:35700,h:0,d0:326,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:24318 check:49778,op:20,dt:4,nt:8,next:24321,nextCheck:49781,str:1303,h:4,d0:24319,d1:49779;
+                ("sleep_forever", Expression<MethodOrOperator> @:24319 check:49779,op:20,dt:2,nt:9,next:24320,nextCheck:49780,str:15175,h:0,d0:0,d1:0;
+                    ("second_hall_reinforce_01", Expression<ScriptReference> @:24320 check:49780,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:27869,h:0,d0:323,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:24321 check:49781,op:20,dt:4,nt:8,next:24324,nextCheck:49784,str:1346,h:4,d0:24322,d1:49782;
+                ("sleep_forever", Expression<MethodOrOperator> @:24322 check:49782,op:20,dt:2,nt:9,next:24323,nextCheck:49783,str:15175,h:0,d0:0,d1:0;
+                    ("second_hall_reinforce_02", Expression<ScriptReference> @:24323 check:49783,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:27894,h:0,d0:324,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:24324 check:49784,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:1389,h:4,d0:24325,d1:49785;
+                ("sleep_forever", Expression<MethodOrOperator> @:24325 check:49785,op:20,dt:2,nt:9,next:24326,nextCheck:49786,str:15175,h:0,d0:0,d1:0;
+                    ("second_hall_reinforce_03", Expression<ScriptReference> @:24326 check:49786,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:27919,h:0,d0:325,d1:65535;))))))

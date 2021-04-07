@@ -1,15 +1,15 @@
 
-("effect_infection_burrow", MethodDecl<Void> @:179 op:0,dt:0,nt:65535,next:6357,str:15768,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6357 op:0,dt:4,nt:8,next:65535,str:18832,d0:6358,d1:64585;
-        ("begin", Expression<MethodOrOperator> @:6358 op:0,dt:2,nt:9,next:6346,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6346 op:19,dt:4,nt:8,next:6349,str:18874,d0:6347,d1:64574;
-                ("sleep", Expression<MethodOrOperator> @:6347 op:19,dt:2,nt:9,next:6348,str:80,d0:0,d1:0;
-                    (302, Expression<Short> @:6348 op:7,dt:7,nt:9,next:65535,str:18881,d0:302,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6349 op:27,dt:4,nt:8,next:6352,str:18888,d0:6350,d1:64577;
-                ("print", Expression<MethodOrOperator> @:6350 op:27,dt:2,nt:9,next:6351,str:86,d0:0,d1:0;
-                    ("effect - infection burrow", Expression<String> @:6351 op:9,dt:9,nt:9,next:65535,str:15477,d0:15477,d1:0;)))
-            (____, BuiltinInvocation<Void> @:6352 op:41,dt:4,nt:8,next:65535,str:18926,d0:6353,d1:64580;
-                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:6353 op:41,dt:2,nt:9,next:6354,str:7832,d0:0,d1:0;
-                    ("effects\cinematics\07\flood_burrowing", Expression<Effect> @:6354 op:33,dt:33,nt:9,next:6355,str:15503,d0:1145,d1:58863;
-                        (4294902026, Expression<Entity> @:6355 op:56,dt:50,nt:9,next:6356,str:14908,d0:266,d1:65535;
-                            ("mouth", Expression<StringId> @:6356 op:11,dt:11,nt:9,next:65535,str:15541,d0:4387,d1:1280;))))))))
+("effect_infection_burrow", MethodDecl<Void> @:179 check:0,op:0,dt:0,nt:65535,next:6357,nextCheck:64584,str:15768,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6357 check:64584,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:18832,h:1,d0:6358,d1:64585;
+        ("begin", Expression<MethodOrOperator> @:6358 check:64585,op:0,dt:2,nt:9,next:6346,nextCheck:64573,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6346 check:64573,op:19,dt:4,nt:8,next:6349,nextCheck:64576,str:18874,h:1,d0:6347,d1:64574;
+                ("sleep", Expression<MethodOrOperator> @:6347 check:64574,op:19,dt:2,nt:9,next:6348,nextCheck:64575,str:80,h:0,d0:0,d1:0;
+                    (302, Expression<Short> @:6348 check:64575,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:18881,h:1,d0:302,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6349 check:64576,op:27,dt:4,nt:8,next:6352,nextCheck:64579,str:18888,h:1,d0:6350,d1:64577;
+                ("print", Expression<MethodOrOperator> @:6350 check:64577,op:27,dt:2,nt:9,next:6351,nextCheck:64578,str:86,h:0,d0:0,d1:0;
+                    ("effect - infection burrow", Expression<String> @:6351 check:64578,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:15477,h:0,d0:15477,d1:0;)))
+            (____, BuiltinInvocation<Void> @:6352 check:64579,op:41,dt:4,nt:8,next:65535,nextCheck:65535,str:18926,h:1,d0:6353,d1:64580;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:6353 check:64580,op:41,dt:2,nt:9,next:6354,nextCheck:64581,str:7832,h:0,d0:0,d1:0;
+                    ("effects\cinematics\07\flood_burrowing", Expression<Effect> @:6354 check:64581,op:33,dt:33,nt:9,next:6355,nextCheck:64582,str:15503,h:0,d0:1145,d1:58863;
+                        (4294902026, Expression<Entity> @:6355 check:64582,op:56,dt:50,nt:9,next:6356,nextCheck:64583,str:14908,h:0,d0:266,d1:65535;
+                            ("mouth", Expression<StringId> @:6356 check:64583,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:15541,h:0,d0:4387,d1:1280;))))))))

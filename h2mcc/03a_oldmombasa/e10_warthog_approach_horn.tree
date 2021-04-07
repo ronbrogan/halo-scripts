@@ -1,18 +1,18 @@
 
-("e10_warthog_approach_horn", MethodDecl<Void> @:237 op:0,dt:0,nt:65535,next:8814,str:17420,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:8814 op:0,dt:4,nt:8,next:65535,str:41549,d0:8815,d1:34275;
-        ("begin", Expression<MethodOrOperator> @:8815 op:0,dt:2,nt:9,next:8800,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:8800 op:27,dt:4,nt:8,next:8803,str:41593,d0:8801,d1:34261;
-                ("print", Expression<MethodOrOperator> @:8801 op:27,dt:2,nt:9,next:8802,str:149,d0:0,d1:0;
-                    ("honk", Expression<String> @:8802 op:9,dt:9,nt:9,next:65535,str:15645,d0:15645,d1:0;)))
-            (____, BuiltinInvocation<Void> @:8803 op:605,dt:4,nt:8,next:8808,str:41610,d0:8804,d1:34264;
-                ("sound_looping_start", Expression<MethodOrOperator> @:8804 op:605,dt:2,nt:9,next:8805,str:10061,d0:0,d1:0;
-                    ("sound\vehicles\warthog\warthog_horn\warthog_horn", Expression<LoopingSound> @:8805 op:35,dt:35,nt:9,next:8806,str:15650,d0:5975,d1:63863;
-                        ("g_e10_warthog", VariableAccess<Entity> @:8806 op:50,dt:50,nt:13,next:8807,str:16676,d0:17,d1:0;
-                            (1.5f, Expression<Float> @:8807 op:6,dt:6,nt:9,next:65535,str:41696,d0:0,d1:16320;)))))
-            (____, BuiltinInvocation<Void> @:8808 op:19,dt:4,nt:8,next:8811,str:41703,d0:8809,d1:34269;
-                ("sleep", Expression<MethodOrOperator> @:8809 op:19,dt:2,nt:9,next:8810,str:143,d0:0,d1:0;
-                    (30, Expression<Short> @:8810 op:7,dt:7,nt:9,next:65535,str:41710,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8811 op:606,dt:4,nt:8,next:65535,str:41716,d0:8812,d1:34272;
-                ("sound_looping_stop", Expression<MethodOrOperator> @:8812 op:606,dt:2,nt:9,next:8813,str:10146,d0:0,d1:0;
-                    ("sound\vehicles\warthog\warthog_horn\warthog_horn", Expression<LoopingSound> @:8813 op:35,dt:35,nt:9,next:65535,str:15650,d0:5975,d1:63863;))))))
+("e10_warthog_approach_horn", MethodDecl<Void> @:237 check:0,op:0,dt:0,nt:65535,next:8814,nextCheck:34274,str:17420,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:8814 check:34274,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:41549,h:1,d0:8815,d1:34275;
+        ("begin", Expression<MethodOrOperator> @:8815 check:34275,op:0,dt:2,nt:9,next:8800,nextCheck:34260,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:8800 check:34260,op:27,dt:4,nt:8,next:8803,nextCheck:34263,str:41593,h:1,d0:8801,d1:34261;
+                ("print", Expression<MethodOrOperator> @:8801 check:34261,op:27,dt:2,nt:9,next:8802,nextCheck:34262,str:149,h:0,d0:0,d1:0;
+                    ("honk", Expression<String> @:8802 check:34262,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:15645,h:0,d0:15645,d1:0;)))
+            (____, BuiltinInvocation<Void> @:8803 check:34263,op:605,dt:4,nt:8,next:8808,nextCheck:34268,str:41610,h:1,d0:8804,d1:34264;
+                ("sound_looping_start", Expression<MethodOrOperator> @:8804 check:34264,op:605,dt:2,nt:9,next:8805,nextCheck:34265,str:10061,h:0,d0:0,d1:0;
+                    ("sound\vehicles\warthog\warthog_horn\warthog_horn", Expression<LoopingSound> @:8805 check:34265,op:35,dt:35,nt:9,next:8806,nextCheck:34266,str:15650,h:0,d0:5975,d1:63863;
+                        ("g_e10_warthog", VariableAccess<Entity> @:8806 check:34266,op:50,dt:50,nt:13,next:8807,nextCheck:34267,str:16676,h:0,d0:17,d1:0;
+                            (1.5f, Expression<Float> @:8807 check:34267,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:41696,h:1,d0:0,d1:16320;)))))
+            (____, BuiltinInvocation<Void> @:8808 check:34268,op:19,dt:4,nt:8,next:8811,nextCheck:34271,str:41703,h:1,d0:8809,d1:34269;
+                ("sleep", Expression<MethodOrOperator> @:8809 check:34269,op:19,dt:2,nt:9,next:8810,nextCheck:34270,str:143,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:8810 check:34270,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:41710,h:1,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8811 check:34271,op:606,dt:4,nt:8,next:65535,nextCheck:65535,str:41716,h:1,d0:8812,d1:34272;
+                ("sound_looping_stop", Expression<MethodOrOperator> @:8812 check:34272,op:606,dt:2,nt:9,next:8813,nextCheck:34273,str:10146,h:0,d0:0,d1:0;
+                    ("sound\vehicles\warthog\warthog_horn\warthog_horn", Expression<LoopingSound> @:8813 check:34273,op:35,dt:35,nt:9,next:65535,nextCheck:65535,str:15650,h:0,d0:5975,d1:63863;))))))

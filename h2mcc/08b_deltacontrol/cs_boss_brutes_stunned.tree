@@ -1,19 +1,19 @@
 
-("cs_boss_brutes_stunned", MethodDecl<Void> @:24 op:0,dt:0,nt:65535,next:812,str:5714,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:812 op:0,dt:4,nt:8,next:65535,str:9283,d0:813,d1:59040;
-        ("begin", Expression<MethodOrOperator> @:813 op:0,dt:2,nt:9,next:797,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:797 op:448,dt:4,nt:8,next:800,str:9331,d0:798,d1:59025;
-                ("cs_force_combat_status", Expression<MethodOrOperator> @:798 op:448,dt:2,nt:9,next:799,str:1071,d0:0,d1:0;
-                    (4, Expression<Short> @:799 op:7,dt:7,nt:9,next:65535,str:9355,d0:4,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:800 op:444,dt:4,nt:8,next:803,str:9360,d0:801,d1:59028;
-                ("cs_enable_moving", Expression<MethodOrOperator> @:801 op:444,dt:2,nt:9,next:802,str:1094,d0:0,d1:0;
-                    (False, Expression<Boolean> @:802 op:5,dt:5,nt:9,next:65535,str:9378,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:803 op:403,dt:4,nt:8,next:806,str:9383,d0:804,d1:59031;
-                ("cs_pause", Expression<MethodOrOperator> @:804 op:403,dt:2,nt:9,next:805,str:1111,d0:0,d1:0;
-                    (1f, Expression<Float> @:805 op:6,dt:6,nt:9,next:65535,str:9393,d0:0,d1:16256;)))
-            (____, BuiltinInvocation<Void> @:806 op:440,dt:4,nt:8,next:809,str:9398,d0:807,d1:59034;
-                ("cs_abort_on_damage", Expression<MethodOrOperator> @:807 op:440,dt:2,nt:9,next:808,str:1120,d0:0,d1:0;
-                    (True, Expression<Boolean> @:808 op:5,dt:5,nt:9,next:65535,str:9418,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:809 op:403,dt:4,nt:8,next:65535,str:9423,d0:810,d1:59037;
-                ("cs_pause", Expression<MethodOrOperator> @:810 op:403,dt:2,nt:9,next:811,str:1111,d0:0,d1:0;
-                    (1f, Expression<Float> @:811 op:6,dt:6,nt:9,next:65535,str:9433,d0:0,d1:16256;))))))
+("cs_boss_brutes_stunned", MethodDecl<Void> @:24 check:0,op:0,dt:0,nt:65535,next:812,nextCheck:59039,str:5714,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:812 check:59039,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9283,h:0,d0:813,d1:59040;
+        ("begin", Expression<MethodOrOperator> @:813 check:59040,op:0,dt:2,nt:9,next:797,nextCheck:59024,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:797 check:59024,op:448,dt:4,nt:8,next:800,nextCheck:59027,str:9331,h:0,d0:798,d1:59025;
+                ("cs_force_combat_status", Expression<MethodOrOperator> @:798 check:59025,op:448,dt:2,nt:9,next:799,nextCheck:59026,str:1071,h:0,d0:0,d1:0;
+                    (4, Expression<Short> @:799 check:59026,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:9355,h:0,d0:4,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:800 check:59027,op:444,dt:4,nt:8,next:803,nextCheck:59030,str:9360,h:0,d0:801,d1:59028;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:801 check:59028,op:444,dt:2,nt:9,next:802,nextCheck:59029,str:1094,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:802 check:59029,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9378,h:0,d0:65280,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:803 check:59030,op:403,dt:4,nt:8,next:806,nextCheck:59033,str:9383,h:0,d0:804,d1:59031;
+                ("cs_pause", Expression<MethodOrOperator> @:804 check:59031,op:403,dt:2,nt:9,next:805,nextCheck:59032,str:1111,h:0,d0:0,d1:0;
+                    (1f, Expression<Float> @:805 check:59032,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:9393,h:0,d0:0,d1:16256;)))
+            (____, BuiltinInvocation<Void> @:806 check:59033,op:440,dt:4,nt:8,next:809,nextCheck:59036,str:9398,h:0,d0:807,d1:59034;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:807 check:59034,op:440,dt:2,nt:9,next:808,nextCheck:59035,str:1120,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:808 check:59035,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9418,h:0,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:809 check:59036,op:403,dt:4,nt:8,next:65535,nextCheck:65535,str:9423,h:0,d0:810,d1:59037;
+                ("cs_pause", Expression<MethodOrOperator> @:810 check:59037,op:403,dt:2,nt:9,next:811,nextCheck:59038,str:1111,h:0,d0:0,d1:0;
+                    (1f, Expression<Float> @:811 check:59038,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:9433,h:0,d0:0,d1:16256;))))))

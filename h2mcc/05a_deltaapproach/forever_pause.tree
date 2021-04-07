@@ -1,7 +1,7 @@
 
-("forever_pause", MethodDecl<Void> @:167 op:0,dt:0,nt:65535,next:5785,str:27961,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5785 op:0,dt:4,nt:8,next:65535,str:5812,d0:5786,d1:64013;
-        ("begin", Expression<MethodOrOperator> @:5786 op:0,dt:2,nt:9,next:5782,str:54,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5782 op:403,dt:4,nt:8,next:65535,str:5851,d0:5783,d1:64010;
-                ("cs_pause", Expression<MethodOrOperator> @:5783 op:403,dt:2,nt:9,next:5784,str:13237,d0:0,d1:0;
-                    (-1f, Expression<Float> @:5784 op:6,dt:6,nt:9,next:65535,str:5861,d0:0,d1:49024;))))))
+("forever_pause", MethodDecl<Void> @:167 check:0,op:0,dt:0,nt:65535,next:5785,nextCheck:64012,str:27961,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5785 check:64012,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:5812,h:1,d0:5786,d1:64013;
+        ("begin", Expression<MethodOrOperator> @:5786 check:64013,op:0,dt:2,nt:9,next:5782,nextCheck:64009,str:54,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5782 check:64009,op:403,dt:4,nt:8,next:65535,nextCheck:65535,str:5851,h:1,d0:5783,d1:64010;
+                ("cs_pause", Expression<MethodOrOperator> @:5783 check:64010,op:403,dt:2,nt:9,next:5784,nextCheck:64011,str:13237,h:0,d0:0,d1:0;
+                    (-1f, Expression<Float> @:5784 check:64011,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:5861,h:1,d0:0,d1:49024;))))))

@@ -1,17 +1,17 @@
 
-("erase_cortana", MethodDecl<Void> @:227 op:0,dt:0,nt:65535,next:8196,str:20200,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:8196 op:0,dt:4,nt:8,next:65535,str:40505,d0:8197,d1:33657;
-        ("begin", Expression<MethodOrOperator> @:8197 op:0,dt:2,nt:9,next:8183,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:8183 op:2,dt:4,nt:8,next:8189,str:40541,d0:8184,d1:33644;
-                ("if", Expression<MethodOrOperator> @:8184 op:2,dt:2,nt:9,next:8185,str:456,d0:0,d1:0;
-                    ("debug", VariableAccess<Boolean> @:8185 op:5,dt:5,nt:13,next:8186,str:17539,d0:3,d1:0;
-                        (____, BuiltinInvocation<Void> @:8186 op:27,dt:4,nt:8,next:65535,str:40551,d0:8187,d1:33647;
-                            ("print", Expression<MethodOrOperator> @:8187 op:27,dt:2,nt:9,next:8188,str:86,d0:0,d1:0;
-                                ("erasing cortana...", Expression<String> @:8188 op:9,dt:9,nt:9,next:65535,str:18987,d0:18987,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:8189 op:366,dt:4,nt:8,next:8193,str:40583,d0:8190,d1:33650;
-                ("cs_run_command_script", Expression<MethodOrOperator> @:8190 op:366,dt:2,nt:9,next:8191,str:19006,d0:0,d1:0;
-                    ("cortana", Expression<AI> @:8191 op:19,dt:19,nt:9,next:8192,str:19028,d0:0,d1:16384;
-                        ("cs_shrink_cortana", Expression<AIScript> @:8192 op:21,dt:21,nt:9,next:65535,str:19036,d0:205,d1:0;))))
-            (____, BuiltinInvocation<Void> @:8193 op:19,dt:4,nt:8,next:65535,str:40635,d0:8194,d1:33654;
-                ("sleep", Expression<MethodOrOperator> @:8194 op:19,dt:2,nt:9,next:8195,str:80,d0:0,d1:0;
-                    (1, Expression<Short> @:8195 op:7,dt:7,nt:9,next:65535,str:40642,d0:1,d1:65535;))))))
+("erase_cortana", MethodDecl<Void> @:227 check:0,op:0,dt:0,nt:65535,next:8196,nextCheck:33656,str:20200,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:8196 check:33656,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:40505,h:1,d0:8197,d1:33657;
+        ("begin", Expression<MethodOrOperator> @:8197 check:33657,op:0,dt:2,nt:9,next:8183,nextCheck:33643,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:8183 check:33643,op:2,dt:4,nt:8,next:8189,nextCheck:33649,str:40541,h:1,d0:8184,d1:33644;
+                ("if", Expression<MethodOrOperator> @:8184 check:33644,op:2,dt:2,nt:9,next:8185,nextCheck:33645,str:456,h:0,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:8185 check:33645,op:5,dt:5,nt:13,next:8186,nextCheck:33646,str:17539,h:0,d0:3,d1:0;
+                        (____, BuiltinInvocation<Void> @:8186 check:33646,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:40551,h:1,d0:8187,d1:33647;
+                            ("print", Expression<MethodOrOperator> @:8187 check:33647,op:27,dt:2,nt:9,next:8188,nextCheck:33648,str:86,h:0,d0:0,d1:0;
+                                ("erasing cortana...", Expression<String> @:8188 check:33648,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18987,h:0,d0:18987,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:8189 check:33649,op:366,dt:4,nt:8,next:8193,nextCheck:33653,str:40583,h:1,d0:8190,d1:33650;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:8190 check:33650,op:366,dt:2,nt:9,next:8191,nextCheck:33651,str:19006,h:0,d0:0,d1:0;
+                    ("cortana", Expression<AI> @:8191 check:33651,op:19,dt:19,nt:9,next:8192,nextCheck:33652,str:19028,h:0,d0:0,d1:16384;
+                        ("cs_shrink_cortana", Expression<AIScript> @:8192 check:33652,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:19036,h:0,d0:205,d1:0;))))
+            (____, BuiltinInvocation<Void> @:8193 check:33653,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:40635,h:1,d0:8194,d1:33654;
+                ("sleep", Expression<MethodOrOperator> @:8194 check:33654,op:19,dt:2,nt:9,next:8195,nextCheck:33655,str:80,h:0,d0:0,d1:0;
+                    (1, Expression<Short> @:8195 check:33655,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:40642,h:1,d0:1,d1:65535;))))))

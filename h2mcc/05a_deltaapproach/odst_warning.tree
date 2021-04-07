@@ -1,21 +1,21 @@
 
-("odst_warning", MethodDecl<Void> @:209 op:0,dt:0,nt:65535,next:7882,str:18187,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:7882 op:0,dt:4,nt:8,next:65535,str:29824,d0:7883,d1:33343;
-        ("begin", Expression<MethodOrOperator> @:7883 op:0,dt:2,nt:9,next:7865,str:54,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:7865 op:374,dt:4,nt:8,next:7868,str:29862,d0:7866,d1:33326;
-                ("cs_switch", Expression<MethodOrOperator> @:7866 op:374,dt:2,nt:9,next:7867,str:15425,d0:0,d1:0;
-                    ("lz_odst", Expression<StringId> @:7867 op:11,dt:11,nt:9,next:65535,str:15435,d0:12393,d1:1792;)))
-            (____, BuiltinInvocation<Void> @:7868 op:433,dt:4,nt:8,next:7873,str:29884,d0:7869,d1:33329;
-                ("cs_start_approach_player", Expression<MethodOrOperator> @:7869 op:433,dt:2,nt:9,next:7870,str:16950,d0:0,d1:0;
-                    (2f, Expression<Float> @:7870 op:6,dt:6,nt:9,next:7871,str:29910,d0:0,d1:16384;
-                        (10f, Expression<Float> @:7871 op:6,dt:6,nt:9,next:7872,str:29912,d0:0,d1:16672;
-                            (10f, Expression<Float> @:7872 op:6,dt:6,nt:9,next:65535,str:29915,d0:0,d1:16672;)))))
-            (____, BuiltinInvocation<Void> @:7873 op:440,dt:4,nt:8,next:7876,str:29921,d0:7874,d1:33334;
-                ("cs_abort_on_damage", Expression<MethodOrOperator> @:7874 op:440,dt:2,nt:9,next:7875,str:15443,d0:0,d1:0;
-                    (True, Expression<Boolean> @:7875 op:5,dt:5,nt:9,next:65535,str:29941,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:7876 op:27,dt:4,nt:8,next:7879,str:29974,d0:7877,d1:33337;
-                ("print", Expression<MethodOrOperator> @:7877 op:27,dt:2,nt:9,next:7878,str:139,d0:0,d1:0;
-                    ("odst: 'sir! we gotta neutralize those turrets!'", Expression<String> @:7878 op:9,dt:9,nt:9,next:65535,str:16975,d0:16975,d1:0;)))
-            (____, BuiltinInvocation<Void> @:7879 op:418,dt:4,nt:8,next:65535,str:30034,d0:7880,d1:33340;
-                ("cs_play_line", Expression<MethodOrOperator> @:7880 op:418,dt:2,nt:9,next:7881,str:15491,d0:0,d1:0;
-                    ("0300", Expression<StringId> @:7881 op:11,dt:11,nt:9,next:65535,str:17023,d0:12038,d1:1024;))))))
+("odst_warning", MethodDecl<Void> @:209 check:0,op:0,dt:0,nt:65535,next:7882,nextCheck:33342,str:18187,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:7882 check:33342,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:29824,h:1,d0:7883,d1:33343;
+        ("begin", Expression<MethodOrOperator> @:7883 check:33343,op:0,dt:2,nt:9,next:7865,nextCheck:33325,str:54,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:7865 check:33325,op:374,dt:4,nt:8,next:7868,nextCheck:33328,str:29862,h:1,d0:7866,d1:33326;
+                ("cs_switch", Expression<MethodOrOperator> @:7866 check:33326,op:374,dt:2,nt:9,next:7867,nextCheck:33327,str:15425,h:0,d0:0,d1:0;
+                    ("lz_odst", Expression<StringId> @:7867 check:33327,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:15435,h:0,d0:12393,d1:1792;)))
+            (____, BuiltinInvocation<Void> @:7868 check:33328,op:433,dt:4,nt:8,next:7873,nextCheck:33333,str:29884,h:1,d0:7869,d1:33329;
+                ("cs_start_approach_player", Expression<MethodOrOperator> @:7869 check:33329,op:433,dt:2,nt:9,next:7870,nextCheck:33330,str:16950,h:0,d0:0,d1:0;
+                    (2f, Expression<Float> @:7870 check:33330,op:6,dt:6,nt:9,next:7871,nextCheck:33331,str:29910,h:1,d0:0,d1:16384;
+                        (10f, Expression<Float> @:7871 check:33331,op:6,dt:6,nt:9,next:7872,nextCheck:33332,str:29912,h:1,d0:0,d1:16672;
+                            (10f, Expression<Float> @:7872 check:33332,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:29915,h:1,d0:0,d1:16672;)))))
+            (____, BuiltinInvocation<Void> @:7873 check:33333,op:440,dt:4,nt:8,next:7876,nextCheck:33336,str:29921,h:1,d0:7874,d1:33334;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:7874 check:33334,op:440,dt:2,nt:9,next:7875,nextCheck:33335,str:15443,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:7875 check:33335,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:29941,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:7876 check:33336,op:27,dt:4,nt:8,next:7879,nextCheck:33339,str:29974,h:1,d0:7877,d1:33337;
+                ("print", Expression<MethodOrOperator> @:7877 check:33337,op:27,dt:2,nt:9,next:7878,nextCheck:33338,str:139,h:0,d0:0,d1:0;
+                    ("odst: 'sir! we gotta neutralize those turrets!'", Expression<String> @:7878 check:33338,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:16975,h:0,d0:16975,d1:0;)))
+            (____, BuiltinInvocation<Void> @:7879 check:33339,op:418,dt:4,nt:8,next:65535,nextCheck:65535,str:30034,h:1,d0:7880,d1:33340;
+                ("cs_play_line", Expression<MethodOrOperator> @:7880 check:33340,op:418,dt:2,nt:9,next:7881,nextCheck:33341,str:15491,h:0,d0:0,d1:0;
+                    ("0300", Expression<StringId> @:7881 check:33341,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:17023,h:0,d0:12038,d1:1024;))))))

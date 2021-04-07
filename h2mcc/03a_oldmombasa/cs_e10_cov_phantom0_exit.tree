@@ -1,22 +1,22 @@
 
-("cs_e10_cov_phantom0_exit", MethodDecl<Void> @:234 op:0,dt:0,nt:65535,next:8711,str:17524,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:8711 op:0,dt:4,nt:8,next:65535,str:40498,d0:8712,d1:34172;
-        ("begin", Expression<MethodOrOperator> @:8712 op:0,dt:2,nt:9,next:8693,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:8693 op:449,dt:4,nt:8,next:8696,str:40548,d0:8694,d1:34154;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:8694 op:449,dt:2,nt:9,next:8695,str:4284,d0:0,d1:0;
-                    (True, Expression<Boolean> @:8695 op:5,dt:5,nt:9,next:65535,str:40580,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8696 op:399,dt:4,nt:8,next:8700,str:40588,d0:8697,d1:34157;
-                ("cs_face", Expression<MethodOrOperator> @:8697 op:399,dt:2,nt:9,next:8698,str:11404,d0:0,d1:0;
-                    (True, Expression<Boolean> @:8698 op:5,dt:5,nt:9,next:8699,str:40597,d0:65281,d1:65535;
-                        ("e10_cov_phantom0/p2_facing", Expression<SpatialPoint> @:8699 op:28,dt:28,nt:9,next:65535,str:17237,d0:3,d1:29;))))
-            (____, BuiltinInvocation<Void> @:8700 op:380,dt:4,nt:8,next:8704,str:40632,d0:8701,d1:34161;
-                ("cs_fly_to", Expression<MethodOrOperator> @:8701 op:380,dt:2,nt:9,next:8702,str:14959,d0:0,d1:0;
-                    ("e10_cov_phantom0/p3", Expression<SpatialPoint> @:8702 op:28,dt:28,nt:9,next:8703,str:17302,d0:4,d1:29;
-                        (1f, Expression<Float> @:8703 op:6,dt:6,nt:9,next:65535,str:40663,d0:0,d1:16256;))))
-            (____, BuiltinInvocation<Void> @:8704 op:380,dt:4,nt:8,next:8708,str:40670,d0:8705,d1:34165;
-                ("cs_fly_to", Expression<MethodOrOperator> @:8705 op:380,dt:2,nt:9,next:8706,str:14959,d0:0,d1:0;
-                    ("e10_cov_phantom0/p4", Expression<SpatialPoint> @:8706 op:28,dt:28,nt:9,next:8707,str:17322,d0:5,d1:29;
-                        (1f, Expression<Float> @:8707 op:6,dt:6,nt:9,next:65535,str:40701,d0:0,d1:16256;))))
-            (____, BuiltinInvocation<Void> @:8708 op:21,dt:4,nt:8,next:65535,str:40708,d0:8709,d1:34169;
-                ("sleep_until", Expression<MethodOrOperator> @:8709 op:21,dt:2,nt:9,next:8710,str:294,d0:0,d1:0;
-                    ("g_e11_started", VariableAccess<Boolean> @:8710 op:5,dt:5,nt:13,next:65535,str:16788,d0:14,d1:0;))))))
+("cs_e10_cov_phantom0_exit", MethodDecl<Void> @:234 check:0,op:0,dt:0,nt:65535,next:8711,nextCheck:34171,str:17524,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:8711 check:34171,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:40498,h:1,d0:8712,d1:34172;
+        ("begin", Expression<MethodOrOperator> @:8712 check:34172,op:0,dt:2,nt:9,next:8693,nextCheck:34153,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:8693 check:34153,op:449,dt:4,nt:8,next:8696,nextCheck:34156,str:40548,h:1,d0:8694,d1:34154;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:8694 check:34154,op:449,dt:2,nt:9,next:8695,nextCheck:34155,str:4284,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:8695 check:34155,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:40580,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8696 check:34156,op:399,dt:4,nt:8,next:8700,nextCheck:34160,str:40588,h:1,d0:8697,d1:34157;
+                ("cs_face", Expression<MethodOrOperator> @:8697 check:34157,op:399,dt:2,nt:9,next:8698,nextCheck:34158,str:11404,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:8698 check:34158,op:5,dt:5,nt:9,next:8699,nextCheck:34159,str:40597,h:1,d0:65281,d1:65535;
+                        ("e10_cov_phantom0/p2_facing", Expression<SpatialPoint> @:8699 check:34159,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:17237,h:0,d0:3,d1:29;))))
+            (____, BuiltinInvocation<Void> @:8700 check:34160,op:380,dt:4,nt:8,next:8704,nextCheck:34164,str:40632,h:1,d0:8701,d1:34161;
+                ("cs_fly_to", Expression<MethodOrOperator> @:8701 check:34161,op:380,dt:2,nt:9,next:8702,nextCheck:34162,str:14959,h:0,d0:0,d1:0;
+                    ("e10_cov_phantom0/p3", Expression<SpatialPoint> @:8702 check:34162,op:28,dt:28,nt:9,next:8703,nextCheck:34163,str:17302,h:0,d0:4,d1:29;
+                        (1f, Expression<Float> @:8703 check:34163,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:40663,h:1,d0:0,d1:16256;))))
+            (____, BuiltinInvocation<Void> @:8704 check:34164,op:380,dt:4,nt:8,next:8708,nextCheck:34168,str:40670,h:1,d0:8705,d1:34165;
+                ("cs_fly_to", Expression<MethodOrOperator> @:8705 check:34165,op:380,dt:2,nt:9,next:8706,nextCheck:34166,str:14959,h:0,d0:0,d1:0;
+                    ("e10_cov_phantom0/p4", Expression<SpatialPoint> @:8706 check:34166,op:28,dt:28,nt:9,next:8707,nextCheck:34167,str:17322,h:0,d0:5,d1:29;
+                        (1f, Expression<Float> @:8707 check:34167,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:40701,h:1,d0:0,d1:16256;))))
+            (____, BuiltinInvocation<Void> @:8708 check:34168,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:40708,h:1,d0:8709,d1:34169;
+                ("sleep_until", Expression<MethodOrOperator> @:8709 check:34169,op:21,dt:2,nt:9,next:8710,nextCheck:34170,str:294,h:0,d0:0,d1:0;
+                    ("g_e11_started", VariableAccess<Boolean> @:8710 check:34170,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:16788,h:0,d0:14,d1:0;))))))

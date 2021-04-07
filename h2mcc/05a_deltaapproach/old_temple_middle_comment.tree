@@ -1,23 +1,23 @@
 
-("old_temple_middle_comment", MethodDecl<Void> @:313 op:0,dt:0,nt:65535,next:19106,str:30669,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:19106 op:0,dt:4,nt:8,next:65535,str:15350,d0:19107,d1:44567;
-        ("begin", Expression<MethodOrOperator> @:19107 op:0,dt:2,nt:9,next:19087,str:54,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:19087 op:4,dt:4,nt:8,next:19091,str:15401,d0:19088,d1:44548;
-                ("set", Expression<MethodOrOperator> @:19088 op:4,dt:2,nt:9,next:19089,str:1895,d0:0,d1:0;
-                    ("old_temp_middle_go", VariableAccess<Boolean> @:19089 op:65535,dt:5,nt:13,next:19090,str:30557,d0:36,d1:0;
-                        (True, Expression<Boolean> @:19090 op:5,dt:5,nt:9,next:65535,str:15425,d0:65281,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:19091 op:374,dt:4,nt:8,next:19094,str:15433,d0:19092,d1:44552;
-                ("cs_switch", Expression<MethodOrOperator> @:19092 op:374,dt:2,nt:9,next:19093,str:15425,d0:0,d1:0;
-                    ("ally", Expression<StringId> @:19093 op:11,dt:11,nt:9,next:65535,str:27272,d0:12396,d1:1024;)))
-            (____, BuiltinInvocation<Void> @:19094 op:449,dt:4,nt:8,next:19097,str:15452,d0:19095,d1:44555;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:19095 op:449,dt:2,nt:9,next:19096,str:15268,d0:0,d1:0;
-                    (True, Expression<Boolean> @:19096 op:5,dt:5,nt:9,next:65535,str:15484,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:19097 op:440,dt:4,nt:8,next:19100,str:15492,d0:19098,d1:44558;
-                ("cs_abort_on_damage", Expression<MethodOrOperator> @:19098 op:440,dt:2,nt:9,next:19099,str:15443,d0:0,d1:0;
-                    (True, Expression<Boolean> @:19099 op:5,dt:5,nt:9,next:65535,str:15512,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:19100 op:27,dt:4,nt:8,next:19103,str:15520,d0:19101,d1:44561;
-                ("print", Expression<MethodOrOperator> @:19101 op:27,dt:2,nt:9,next:19102,str:139,d0:0,d1:0;
-                    ("ally: 'they're all pouring-out of the middle! let's get in there!'", Expression<String> @:19102 op:9,dt:9,nt:9,next:65535,str:30576,d0:30576,d1:0;)))
-            (____, BuiltinInvocation<Void> @:19103 op:418,dt:4,nt:8,next:65535,str:15599,d0:19104,d1:44564;
-                ("cs_play_line", Expression<MethodOrOperator> @:19104 op:418,dt:2,nt:9,next:19105,str:15491,d0:0,d1:0;
-                    ("0610", Expression<StringId> @:19105 op:11,dt:11,nt:9,next:65535,str:30643,d0:12069,d1:1024;))))))
+("old_temple_middle_comment", MethodDecl<Void> @:313 check:0,op:0,dt:0,nt:65535,next:19106,nextCheck:44566,str:30669,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:19106 check:44566,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:15350,h:3,d0:19107,d1:44567;
+        ("begin", Expression<MethodOrOperator> @:19107 check:44567,op:0,dt:2,nt:9,next:19087,nextCheck:44547,str:54,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:19087 check:44547,op:4,dt:4,nt:8,next:19091,nextCheck:44551,str:15401,h:3,d0:19088,d1:44548;
+                ("set", Expression<MethodOrOperator> @:19088 check:44548,op:4,dt:2,nt:9,next:19089,nextCheck:44549,str:1895,h:0,d0:0,d1:0;
+                    ("old_temp_middle_go", VariableAccess<Boolean> @:19089 check:44549,op:65535,dt:5,nt:13,next:19090,nextCheck:44550,str:30557,h:0,d0:36,d1:0;
+                        (True, Expression<Boolean> @:19090 check:44550,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:15425,h:3,d0:65281,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:19091 check:44551,op:374,dt:4,nt:8,next:19094,nextCheck:44554,str:15433,h:3,d0:19092,d1:44552;
+                ("cs_switch", Expression<MethodOrOperator> @:19092 check:44552,op:374,dt:2,nt:9,next:19093,nextCheck:44553,str:15425,h:0,d0:0,d1:0;
+                    ("ally", Expression<StringId> @:19093 check:44553,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:27272,h:0,d0:12396,d1:1024;)))
+            (____, BuiltinInvocation<Void> @:19094 check:44554,op:449,dt:4,nt:8,next:19097,nextCheck:44557,str:15452,h:3,d0:19095,d1:44555;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:19095 check:44555,op:449,dt:2,nt:9,next:19096,nextCheck:44556,str:15268,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:19096 check:44556,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:15484,h:3,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:19097 check:44557,op:440,dt:4,nt:8,next:19100,nextCheck:44560,str:15492,h:3,d0:19098,d1:44558;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:19098 check:44558,op:440,dt:2,nt:9,next:19099,nextCheck:44559,str:15443,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:19099 check:44559,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:15512,h:3,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:19100 check:44560,op:27,dt:4,nt:8,next:19103,nextCheck:44563,str:15520,h:3,d0:19101,d1:44561;
+                ("print", Expression<MethodOrOperator> @:19101 check:44561,op:27,dt:2,nt:9,next:19102,nextCheck:44562,str:139,h:0,d0:0,d1:0;
+                    ("ally: 'they're all pouring-out of the middle! let's get in there!'", Expression<String> @:19102 check:44562,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:30576,h:0,d0:30576,d1:0;)))
+            (____, BuiltinInvocation<Void> @:19103 check:44563,op:418,dt:4,nt:8,next:65535,nextCheck:65535,str:15599,h:3,d0:19104,d1:44564;
+                ("cs_play_line", Expression<MethodOrOperator> @:19104 check:44564,op:418,dt:2,nt:9,next:19105,nextCheck:44565,str:15491,h:0,d0:0,d1:0;
+                    ("0610", Expression<StringId> @:19105 check:44565,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:30643,h:0,d0:12069,d1:1024;))))))

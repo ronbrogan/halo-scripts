@@ -1,12 +1,12 @@
 
-("music_04a_03_start", MethodDecl<Void> @:238 op:0,dt:0,nt:65535,next:7674,str:28932,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:7674 op:0,dt:4,nt:8,next:65535,str:25982,d0:7675,d1:33135;
-        ("begin", Expression<MethodOrOperator> @:7675 op:0,dt:2,nt:9,next:7666,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:7666 op:27,dt:4,nt:8,next:7669,str:26053,d0:7667,d1:33127;
-                ("print", Expression<MethodOrOperator> @:7667 op:27,dt:2,nt:9,next:7668,str:91,d0:0,d1:0;
-                    ("music 04a_03 start", Expression<String> @:7668 op:9,dt:9,nt:9,next:65535,str:16713,d0:16713,d1:0;)))
-            (____, BuiltinInvocation<Void> @:7669 op:605,dt:4,nt:8,next:65535,str:26084,d0:7670,d1:33130;
-                ("sound_looping_start", Expression<MethodOrOperator> @:7670 op:605,dt:2,nt:9,next:7671,str:16529,d0:0,d1:0;
-                    ("scenarios\solo\04a_gasgiant\04a_music\04a_03", Expression<LoopingSound> @:7671 op:35,dt:35,nt:9,next:7672,str:16732,d0:6414,d1:64326;
-                        (4294967295, Expression<Entity> @:7672 op:50,dt:50,nt:9,next:7673,str:1,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:7673 op:6,dt:6,nt:9,next:65535,str:26157,d0:0,d1:16256;))))))))
+("music_04a_03_start", MethodDecl<Void> @:238 check:0,op:0,dt:0,nt:65535,next:7674,nextCheck:33134,str:28932,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:7674 check:33134,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:25982,h:1,d0:7675,d1:33135;
+        ("begin", Expression<MethodOrOperator> @:7675 check:33135,op:0,dt:2,nt:9,next:7666,nextCheck:33126,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:7666 check:33126,op:27,dt:4,nt:8,next:7669,nextCheck:33129,str:26053,h:1,d0:7667,d1:33127;
+                ("print", Expression<MethodOrOperator> @:7667 check:33127,op:27,dt:2,nt:9,next:7668,nextCheck:33128,str:91,h:0,d0:0,d1:0;
+                    ("music 04a_03 start", Expression<String> @:7668 check:33128,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:16713,h:0,d0:16713,d1:0;)))
+            (____, BuiltinInvocation<Void> @:7669 check:33129,op:605,dt:4,nt:8,next:65535,nextCheck:65535,str:26084,h:1,d0:7670,d1:33130;
+                ("sound_looping_start", Expression<MethodOrOperator> @:7670 check:33130,op:605,dt:2,nt:9,next:7671,nextCheck:33131,str:16529,h:0,d0:0,d1:0;
+                    ("scenarios\solo\04a_gasgiant\04a_music\04a_03", Expression<LoopingSound> @:7671 check:33131,op:35,dt:35,nt:9,next:7672,nextCheck:33132,str:16732,h:0,d0:6414,d1:64326;
+                        (4294967295, Expression<Entity> @:7672 check:33132,op:50,dt:50,nt:9,next:7673,nextCheck:33133,str:1,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:7673 check:33133,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:26157,h:1,d0:0,d1:16256;))))))))

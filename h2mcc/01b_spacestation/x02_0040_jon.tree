@@ -1,25 +1,25 @@
 
-("x02_0040_jon", MethodDecl<Void> @:50 op:0,dt:0,nt:65535,next:1144,str:1997,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:1144 op:0,dt:4,nt:8,next:65535,str:12670,d0:1145,d1:59372;
-        ("begin", Expression<MethodOrOperator> @:1145 op:0,dt:2,nt:9,next:1123,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:1123 op:19,dt:4,nt:8,next:1126,str:12701,d0:1124,d1:59351;
-                ("sleep", Expression<MethodOrOperator> @:1124 op:19,dt:2,nt:9,next:1125,str:90,d0:0,d1:0;
-                    (270, Expression<Short> @:1125 op:7,dt:7,nt:9,next:65535,str:12708,d0:270,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1126 op:596,dt:4,nt:8,next:1131,str:12715,d0:1127,d1:59354;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:1127 op:596,dt:2,nt:9,next:1128,str:1446,d0:0,d1:0;
-                    ("sound\dialog\levels\01_spacestation\cinematic\x02_0040_jon", Expression<Sound> @:1128 op:32,dt:32,nt:9,next:1129,str:1938,d0:4476,d1:62364;
-                        (4294902096, Expression<Entity> @:1129 op:56,dt:50,nt:9,next:1130,str:1780,d0:336,d1:65535;
-                            (1f, Expression<Float> @:1130 op:6,dt:6,nt:9,next:65535,str:12810,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:1131 op:562,dt:4,nt:8,next:1135,str:12815,d0:1132,d1:59359;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:1132 op:562,dt:2,nt:9,next:1133,str:1689,d0:0,d1:0;
-                    ("x02_0040_jon", Expression<StringId> @:1133 op:11,dt:11,nt:9,next:1134,str:1997,d0:9456,d1:3072;
-                        (2f, Expression<Float> @:1134 op:6,dt:6,nt:9,next:65535,str:12848,d0:0,d1:16384;))))
-            (____, BuiltinInvocation<Void> @:1135 op:220,dt:4,nt:8,next:1141,str:12856,d0:1136,d1:59363;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:1136 op:220,dt:2,nt:9,next:1137,str:1808,d0:0,d1:0;
-                    ("johnson_x02_01", Expression<Unit> @:1137 op:57,dt:51,nt:9,next:1138,str:1780,d0:336,d1:65535;
-                        ("happy", Expression<StringId> @:1138 op:11,dt:11,nt:9,next:1139,str:2010,d0:422,d1:1280;
-                            (0.75f, Expression<Float> @:1139 op:6,dt:6,nt:9,next:1140,str:12903,d0:0,d1:16192;
-                                (30, Expression<Short> @:1140 op:7,dt:7,nt:9,next:65535,str:12907,d0:30,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:1141 op:27,dt:4,nt:8,next:65535,str:12913,d0:1142,d1:59369;
-                ("print", Expression<MethodOrOperator> @:1142 op:27,dt:2,nt:9,next:1143,str:96,d0:0,d1:0;
-                    ("johnson - happy .75 30", Expression<String> @:1143 op:9,dt:9,nt:9,next:65535,str:2016,d0:2016,d1:0;))))))
+("x02_0040_jon", MethodDecl<Void> @:50 check:0,op:0,dt:0,nt:65535,next:1144,nextCheck:59371,str:1997,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:1144 check:59371,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:12670,h:0,d0:1145,d1:59372;
+        ("begin", Expression<MethodOrOperator> @:1145 check:59372,op:0,dt:2,nt:9,next:1123,nextCheck:59350,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1123 check:59350,op:19,dt:4,nt:8,next:1126,nextCheck:59353,str:12701,h:0,d0:1124,d1:59351;
+                ("sleep", Expression<MethodOrOperator> @:1124 check:59351,op:19,dt:2,nt:9,next:1125,nextCheck:59352,str:90,h:0,d0:0,d1:0;
+                    (270, Expression<Short> @:1125 check:59352,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:12708,h:0,d0:270,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1126 check:59353,op:596,dt:4,nt:8,next:1131,nextCheck:59358,str:12715,h:0,d0:1127,d1:59354;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:1127 check:59354,op:596,dt:2,nt:9,next:1128,nextCheck:59355,str:1446,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\01_spacestation\cinematic\x02_0040_jon", Expression<Sound> @:1128 check:59355,op:32,dt:32,nt:9,next:1129,nextCheck:59356,str:1938,h:0,d0:4476,d1:62364;
+                        (4294902096, Expression<Entity> @:1129 check:59356,op:56,dt:50,nt:9,next:1130,nextCheck:59357,str:1780,h:0,d0:336,d1:65535;
+                            (1f, Expression<Float> @:1130 check:59357,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:12810,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:1131 check:59358,op:562,dt:4,nt:8,next:1135,nextCheck:59362,str:12815,h:0,d0:1132,d1:59359;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:1132 check:59359,op:562,dt:2,nt:9,next:1133,nextCheck:59360,str:1689,h:0,d0:0,d1:0;
+                    ("x02_0040_jon", Expression<StringId> @:1133 check:59360,op:11,dt:11,nt:9,next:1134,nextCheck:59361,str:1997,h:0,d0:9456,d1:3072;
+                        (2f, Expression<Float> @:1134 check:59361,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:12848,h:0,d0:0,d1:16384;))))
+            (____, BuiltinInvocation<Void> @:1135 check:59362,op:220,dt:4,nt:8,next:1141,nextCheck:59368,str:12856,h:0,d0:1136,d1:59363;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:1136 check:59363,op:220,dt:2,nt:9,next:1137,nextCheck:59364,str:1808,h:0,d0:0,d1:0;
+                    ("johnson_x02_01", Expression<Unit> @:1137 check:59364,op:57,dt:51,nt:9,next:1138,nextCheck:59365,str:1780,h:0,d0:336,d1:65535;
+                        ("happy", Expression<StringId> @:1138 check:59365,op:11,dt:11,nt:9,next:1139,nextCheck:59366,str:2010,h:0,d0:422,d1:1280;
+                            (0.75f, Expression<Float> @:1139 check:59366,op:6,dt:6,nt:9,next:1140,nextCheck:59367,str:12903,h:0,d0:0,d1:16192;
+                                (30, Expression<Short> @:1140 check:59367,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:12907,h:0,d0:30,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:1141 check:59368,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:12913,h:0,d0:1142,d1:59369;
+                ("print", Expression<MethodOrOperator> @:1142 check:59369,op:27,dt:2,nt:9,next:1143,nextCheck:59370,str:96,h:0,d0:0,d1:0;
+                    ("johnson - happy .75 30", Expression<String> @:1143 check:59370,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:2016,h:0,d0:2016,d1:0;))))))

@@ -1,7 +1,7 @@
 
-("cs_e5_cov_gold_elite_attack", MethodDecl<Void> @:164 op:0,dt:0,nt:65535,next:6064,str:11982,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6064 op:0,dt:4,nt:8,next:65535,str:10547,d0:6065,d1:64292;
-        ("begin", Expression<MethodOrOperator> @:6065 op:0,dt:2,nt:9,next:6061,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6061 op:423,dt:4,nt:8,next:65535,str:10600,d0:6062,d1:64289;
-                ("cs_crouch", Expression<MethodOrOperator> @:6062 op:423,dt:2,nt:9,next:6063,str:11012,d0:0,d1:0;
-                    (False, Expression<Boolean> @:6063 op:5,dt:5,nt:9,next:65535,str:10611,d0:65280,d1:65535;))))))
+("cs_e5_cov_gold_elite_attack", MethodDecl<Void> @:164 check:0,op:0,dt:0,nt:65535,next:6064,nextCheck:64291,str:11982,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6064 check:64291,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:10547,h:1,d0:6065,d1:64292;
+        ("begin", Expression<MethodOrOperator> @:6065 check:64292,op:0,dt:2,nt:9,next:6061,nextCheck:64288,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6061 check:64288,op:423,dt:4,nt:8,next:65535,nextCheck:65535,str:10600,h:1,d0:6062,d1:64289;
+                ("cs_crouch", Expression<MethodOrOperator> @:6062 check:64289,op:423,dt:2,nt:9,next:6063,nextCheck:64290,str:11012,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:6063 check:64290,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:10611,h:1,d0:65280,d1:65535;))))))

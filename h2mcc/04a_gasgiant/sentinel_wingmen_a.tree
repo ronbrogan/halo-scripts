@@ -1,18 +1,18 @@
 
-("sentinel_wingmen_a", MethodDecl<Void> @:334 op:0,dt:0,nt:65535,next:15916,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:15916 op:0,dt:4,nt:8,next:65535,str:48723,d0:15917,d1:41377;
-        ("begin", Expression<MethodOrOperator> @:15917 op:0,dt:2,nt:9,next:15902,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:15902 op:449,dt:4,nt:8,next:15905,str:48767,d0:15903,d1:41363;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:15903 op:449,dt:2,nt:9,next:15904,str:17423,d0:0,d1:0;
-                    (True, Expression<Boolean> @:15904 op:5,dt:5,nt:9,next:65535,str:48799,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:15905 op:380,dt:4,nt:8,next:15909,str:48823,d0:15906,d1:41366;
-                ("cs_fly_to", Expression<MethodOrOperator> @:15906 op:380,dt:2,nt:9,next:15907,str:17471,d0:0,d1:0;
-                    ("airspace_hl/sen_a_0", Expression<SpatialPoint> @:15907 op:28,dt:28,nt:9,next:15908,str:28629,d0:2,d1:9;
-                        (5f, Expression<Float> @:15908 op:6,dt:6,nt:9,next:65535,str:48854,d0:0,d1:16544;))))
-            (____, BuiltinInvocation<Void> @:15909 op:380,dt:4,nt:8,next:15913,str:48859,d0:15910,d1:41370;
-                ("cs_fly_to", Expression<MethodOrOperator> @:15910 op:380,dt:2,nt:9,next:15911,str:17471,d0:0,d1:0;
-                    ("airspace_hl/sen_a_1", Expression<SpatialPoint> @:15911 op:28,dt:28,nt:9,next:15912,str:28649,d0:3,d1:9;
-                        (20f, Expression<Float> @:15912 op:6,dt:6,nt:9,next:65535,str:48890,d0:0,d1:16800;))))
-            (____, BuiltinInvocation<Void> @:15913 op:298,dt:4,nt:8,next:65535,str:48896,d0:15914,d1:41374;
-                ("ai_erase", Expression<MethodOrOperator> @:15914 op:298,dt:2,nt:9,next:15915,str:17500,d0:0,d1:0;
-                    ("bottling_sentinels_03/a", Expression<AI> @:15915 op:19,dt:19,nt:9,next:65535,str:28669,d0:0,d1:49256;))))))
+("sentinel_wingmen_a", MethodDecl<Void> @:334 check:0,op:0,dt:0,nt:65535,next:15916,nextCheck:41376,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:15916 check:41376,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:48723,h:2,d0:15917,d1:41377;
+        ("begin", Expression<MethodOrOperator> @:15917 check:41377,op:0,dt:2,nt:9,next:15902,nextCheck:41362,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:15902 check:41362,op:449,dt:4,nt:8,next:15905,nextCheck:41365,str:48767,h:2,d0:15903,d1:41363;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:15903 check:41363,op:449,dt:2,nt:9,next:15904,nextCheck:41364,str:17423,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15904 check:41364,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:48799,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:15905 check:41365,op:380,dt:4,nt:8,next:15909,nextCheck:41369,str:48823,h:2,d0:15906,d1:41366;
+                ("cs_fly_to", Expression<MethodOrOperator> @:15906 check:41366,op:380,dt:2,nt:9,next:15907,nextCheck:41367,str:17471,h:0,d0:0,d1:0;
+                    ("airspace_hl/sen_a_0", Expression<SpatialPoint> @:15907 check:41367,op:28,dt:28,nt:9,next:15908,nextCheck:41368,str:28629,h:0,d0:2,d1:9;
+                        (5f, Expression<Float> @:15908 check:41368,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:48854,h:2,d0:0,d1:16544;))))
+            (____, BuiltinInvocation<Void> @:15909 check:41369,op:380,dt:4,nt:8,next:15913,nextCheck:41373,str:48859,h:2,d0:15910,d1:41370;
+                ("cs_fly_to", Expression<MethodOrOperator> @:15910 check:41370,op:380,dt:2,nt:9,next:15911,nextCheck:41371,str:17471,h:0,d0:0,d1:0;
+                    ("airspace_hl/sen_a_1", Expression<SpatialPoint> @:15911 check:41371,op:28,dt:28,nt:9,next:15912,nextCheck:41372,str:28649,h:0,d0:3,d1:9;
+                        (20f, Expression<Float> @:15912 check:41372,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:48890,h:2,d0:0,d1:16800;))))
+            (____, BuiltinInvocation<Void> @:15913 check:41373,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:48896,h:2,d0:15914,d1:41374;
+                ("ai_erase", Expression<MethodOrOperator> @:15914 check:41374,op:298,dt:2,nt:9,next:15915,nextCheck:41375,str:17500,h:0,d0:0,d1:0;
+                    ("bottling_sentinels_03/a", Expression<AI> @:15915 check:41375,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:28669,h:0,d0:0,d1:49256;))))))

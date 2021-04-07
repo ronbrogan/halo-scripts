@@ -1,16 +1,16 @@
 
-("x08_08_setup", MethodDecl<Void> @:101 op:0,dt:0,nt:65535,next:2803,str:6688,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2803 op:0,dt:4,nt:8,next:65535,str:35949,d0:2804,d1:61031;
-        ("begin", Expression<MethodOrOperator> @:2804 op:0,dt:2,nt:9,next:2791,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2791 op:52,dt:4,nt:8,next:2794,str:35986,d0:2792,d1:61019;
-                ("object_destroy", Expression<MethodOrOperator> @:2792 op:52,dt:2,nt:9,next:2793,str:4950,d0:0,d1:0;
-                    (4294901767, Expression<Entity> @:2793 op:56,dt:50,nt:9,next:65535,str:4404,d0:7,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2794 op:22,dt:4,nt:8,next:2797,str:36027,d0:2795,d1:61022;
-                ("wake", Expression<MethodOrOperator> @:2795 op:22,dt:2,nt:9,next:2796,str:1146,d0:0,d1:0;
-                    ("x08_foley_08", Expression<ScriptReference> @:2796 op:10,dt:10,nt:9,next:65535,str:6675,d0:98,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2797 op:22,dt:4,nt:8,next:2800,str:36049,d0:2798,d1:61025;
-                ("wake", Expression<MethodOrOperator> @:2798 op:22,dt:2,nt:9,next:2799,str:1146,d0:0,d1:0;
-                    ("x08_0270_grv", Expression<ScriptReference> @:2799 op:10,dt:10,nt:9,next:65535,str:6591,d0:99,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2800 op:22,dt:4,nt:8,next:65535,str:36071,d0:2801,d1:61028;
-                ("wake", Expression<MethodOrOperator> @:2801 op:22,dt:2,nt:9,next:2802,str:1146,d0:0,d1:0;
-                    ("x08_0280_grv", Expression<ScriptReference> @:2802 op:10,dt:10,nt:9,next:65535,str:6662,d0:100,d1:65535;))))))
+("x08_08_setup", MethodDecl<Void> @:101 check:0,op:0,dt:0,nt:65535,next:2803,nextCheck:61030,str:6688,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2803 check:61030,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:35949,h:0,d0:2804,d1:61031;
+        ("begin", Expression<MethodOrOperator> @:2804 check:61031,op:0,dt:2,nt:9,next:2791,nextCheck:61018,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2791 check:61018,op:52,dt:4,nt:8,next:2794,nextCheck:61021,str:35986,h:0,d0:2792,d1:61019;
+                ("object_destroy", Expression<MethodOrOperator> @:2792 check:61019,op:52,dt:2,nt:9,next:2793,nextCheck:61020,str:4950,h:0,d0:0,d1:0;
+                    (4294901767, Expression<Entity> @:2793 check:61020,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:4404,h:0,d0:7,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2794 check:61021,op:22,dt:4,nt:8,next:2797,nextCheck:61024,str:36027,h:0,d0:2795,d1:61022;
+                ("wake", Expression<MethodOrOperator> @:2795 check:61022,op:22,dt:2,nt:9,next:2796,nextCheck:61023,str:1146,h:0,d0:0,d1:0;
+                    ("x08_foley_08", Expression<ScriptReference> @:2796 check:61023,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:6675,h:0,d0:98,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2797 check:61024,op:22,dt:4,nt:8,next:2800,nextCheck:61027,str:36049,h:0,d0:2798,d1:61025;
+                ("wake", Expression<MethodOrOperator> @:2798 check:61025,op:22,dt:2,nt:9,next:2799,nextCheck:61026,str:1146,h:0,d0:0,d1:0;
+                    ("x08_0270_grv", Expression<ScriptReference> @:2799 check:61026,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:6591,h:0,d0:99,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2800 check:61027,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:36071,h:0,d0:2801,d1:61028;
+                ("wake", Expression<MethodOrOperator> @:2801 check:61028,op:22,dt:2,nt:9,next:2802,nextCheck:61029,str:1146,h:0,d0:0,d1:0;
+                    ("x08_0280_grv", Expression<ScriptReference> @:2802 check:61029,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:6662,h:0,d0:100,d1:65535;))))))

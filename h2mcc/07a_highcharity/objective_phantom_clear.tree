@@ -1,13 +1,13 @@
 
-("objective_phantom_clear", MethodDecl<Void> @:226 op:0,dt:0,nt:65535,next:8151,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:8151 op:0,dt:4,nt:8,next:65535,str:40030,d0:8152,d1:33612;
-        ("begin", Expression<MethodOrOperator> @:8152 op:0,dt:2,nt:9,next:8142,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:8142 op:27,dt:4,nt:8,next:8145,str:40072,d0:8143,d1:33603;
-                ("print", Expression<MethodOrOperator> @:8143 op:27,dt:2,nt:9,next:8144,str:86,d0:0,d1:0;
-                    ("objective complete:", Expression<String> @:8144 op:9,dt:9,nt:9,next:65535,str:18790,d0:18790,d1:0;)))
-            (____, BuiltinInvocation<Void> @:8145 op:27,dt:4,nt:8,next:8148,str:40104,d0:8146,d1:33606;
-                ("print", Expression<MethodOrOperator> @:8146 op:27,dt:2,nt:9,next:8147,str:86,d0:0,d1:0;
-                    ("stop the prophet of truth from boarding his phantom.", Expression<String> @:8147 op:9,dt:9,nt:9,next:65535,str:18934,d0:18934,d1:0;)))
-            (____, BuiltinInvocation<Void> @:8148 op:754,dt:4,nt:8,next:65535,str:40169,d0:8149,d1:33609;
-                ("objectives_finish_up_to", Expression<MethodOrOperator> @:8149 op:754,dt:2,nt:9,next:8150,str:18810,d0:0,d1:0;
-                    (3, Expression<Int> @:8150 op:8,dt:8,nt:9,next:65535,str:40194,d0:3,d1:0;))))))
+("objective_phantom_clear", MethodDecl<Void> @:226 check:0,op:0,dt:0,nt:65535,next:8151,nextCheck:33611,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:8151 check:33611,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:40030,h:1,d0:8152,d1:33612;
+        ("begin", Expression<MethodOrOperator> @:8152 check:33612,op:0,dt:2,nt:9,next:8142,nextCheck:33602,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:8142 check:33602,op:27,dt:4,nt:8,next:8145,nextCheck:33605,str:40072,h:1,d0:8143,d1:33603;
+                ("print", Expression<MethodOrOperator> @:8143 check:33603,op:27,dt:2,nt:9,next:8144,nextCheck:33604,str:86,h:0,d0:0,d1:0;
+                    ("objective complete:", Expression<String> @:8144 check:33604,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18790,h:0,d0:18790,d1:0;)))
+            (____, BuiltinInvocation<Void> @:8145 check:33605,op:27,dt:4,nt:8,next:8148,nextCheck:33608,str:40104,h:1,d0:8146,d1:33606;
+                ("print", Expression<MethodOrOperator> @:8146 check:33606,op:27,dt:2,nt:9,next:8147,nextCheck:33607,str:86,h:0,d0:0,d1:0;
+                    ("stop the prophet of truth from boarding his phantom.", Expression<String> @:8147 check:33607,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18934,h:0,d0:18934,d1:0;)))
+            (____, BuiltinInvocation<Void> @:8148 check:33608,op:754,dt:4,nt:8,next:65535,nextCheck:65535,str:40169,h:1,d0:8149,d1:33609;
+                ("objectives_finish_up_to", Expression<MethodOrOperator> @:8149 check:33609,op:754,dt:2,nt:9,next:8150,nextCheck:33610,str:18810,h:0,d0:0,d1:0;
+                    (3, Expression<Int> @:8150 check:33610,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:40194,h:1,d0:3,d1:0;))))))

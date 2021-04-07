@@ -1,10 +1,10 @@
 
-("objective0_set", MethodDecl<Void> @:124 op:0,dt:0,nt:65535,next:4821,str:28734,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4821 op:0,dt:4,nt:8,next:65535,str:53189,d0:4822,d1:63049;
-        ("begin", Expression<MethodOrOperator> @:4822 op:0,dt:2,nt:9,next:4815,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4815 op:19,dt:4,nt:8,next:4818,str:53222,d0:4816,d1:63043;
-                ("sleep", Expression<MethodOrOperator> @:4816 op:19,dt:2,nt:9,next:4817,str:143,d0:0,d1:0;
-                    (30, Expression<Short> @:4817 op:7,dt:7,nt:9,next:65535,str:53229,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:4818 op:753,dt:4,nt:8,next:65535,str:53235,d0:4819,d1:63046;
-                ("objectives_show_up_to", Expression<MethodOrOperator> @:4819 op:753,dt:2,nt:9,next:4820,str:9996,d0:0,d1:0;
-                    (0, Expression<Int> @:4820 op:8,dt:8,nt:9,next:65535,str:53258,d0:0,d1:0;))))))
+("objective0_set", MethodDecl<Void> @:124 check:0,op:0,dt:0,nt:65535,next:4821,nextCheck:63048,str:28734,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4821 check:63048,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:53189,h:0,d0:4822,d1:63049;
+        ("begin", Expression<MethodOrOperator> @:4822 check:63049,op:0,dt:2,nt:9,next:4815,nextCheck:63042,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4815 check:63042,op:19,dt:4,nt:8,next:4818,nextCheck:63045,str:53222,h:0,d0:4816,d1:63043;
+                ("sleep", Expression<MethodOrOperator> @:4816 check:63043,op:19,dt:2,nt:9,next:4817,nextCheck:63044,str:143,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:4817 check:63044,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:53229,h:0,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:4818 check:63045,op:753,dt:4,nt:8,next:65535,nextCheck:65535,str:53235,h:0,d0:4819,d1:63046;
+                ("objectives_show_up_to", Expression<MethodOrOperator> @:4819 check:63046,op:753,dt:2,nt:9,next:4820,nextCheck:63047,str:9996,h:0,d0:0,d1:0;
+                    (0, Expression<Int> @:4820 check:63047,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:53258,h:0,d0:0,d1:0;))))))

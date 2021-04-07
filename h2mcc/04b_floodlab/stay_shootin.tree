@@ -1,15 +1,15 @@
 
-("stay_shootin", MethodDecl<Void> @:218 op:0,dt:0,nt:65535,next:9025,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:9025 op:0,dt:4,nt:8,next:65535,str:32506,d0:9026,d1:34486;
-        ("begin", Expression<MethodOrOperator> @:9026 op:0,dt:2,nt:9,next:9014,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:9014 op:442,dt:4,nt:8,next:9017,str:32544,d0:9015,d1:34475;
-                ("cs_enable_targeting", Expression<MethodOrOperator> @:9015 op:442,dt:2,nt:9,next:9016,str:12454,d0:0,d1:0;
-                    (True, Expression<Boolean> @:9016 op:5,dt:5,nt:9,next:65535,str:32565,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:9017 op:404,dt:4,nt:8,next:9020,str:32573,d0:9018,d1:34478;
-                ("cs_shoot", Expression<MethodOrOperator> @:9018 op:404,dt:2,nt:9,next:9019,str:12277,d0:0,d1:0;
-                    (True, Expression<Boolean> @:9019 op:5,dt:5,nt:9,next:65535,str:32583,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:9020 op:427,dt:4,nt:8,next:9023,str:32591,d0:9021,d1:34481;
-                ("cs_set_behavior", Expression<MethodOrOperator> @:9021 op:427,dt:2,nt:9,next:9022,str:18978,d0:0,d1:0;
-                    ("guard", Expression<AIBehavior> @:9022 op:22,dt:22,nt:9,next:65535,str:18994,d0:5,d1:0;)))
-            (____, BuiltinInvocation<Void> @:9023 op:20,dt:4,nt:8,next:65535,str:32617,d0:9024,d1:34484;
-                ("sleep_forever", Expression<MethodOrOperator> @:9024 op:20,dt:2,nt:9,next:65535,str:9739,d0:0,d1:0;)))))
+("stay_shootin", MethodDecl<Void> @:218 check:0,op:0,dt:0,nt:65535,next:9025,nextCheck:34485,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:9025 check:34485,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:32506,h:1,d0:9026,d1:34486;
+        ("begin", Expression<MethodOrOperator> @:9026 check:34486,op:0,dt:2,nt:9,next:9014,nextCheck:34474,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:9014 check:34474,op:442,dt:4,nt:8,next:9017,nextCheck:34477,str:32544,h:1,d0:9015,d1:34475;
+                ("cs_enable_targeting", Expression<MethodOrOperator> @:9015 check:34475,op:442,dt:2,nt:9,next:9016,nextCheck:34476,str:12454,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:9016 check:34476,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:32565,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:9017 check:34477,op:404,dt:4,nt:8,next:9020,nextCheck:34480,str:32573,h:1,d0:9018,d1:34478;
+                ("cs_shoot", Expression<MethodOrOperator> @:9018 check:34478,op:404,dt:2,nt:9,next:9019,nextCheck:34479,str:12277,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:9019 check:34479,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:32583,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:9020 check:34480,op:427,dt:4,nt:8,next:9023,nextCheck:34483,str:32591,h:1,d0:9021,d1:34481;
+                ("cs_set_behavior", Expression<MethodOrOperator> @:9021 check:34481,op:427,dt:2,nt:9,next:9022,nextCheck:34482,str:18978,h:0,d0:0,d1:0;
+                    ("guard", Expression<AIBehavior> @:9022 check:34482,op:22,dt:22,nt:9,next:65535,nextCheck:65535,str:18994,h:0,d0:5,d1:0;)))
+            (____, BuiltinInvocation<Void> @:9023 check:34483,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:32617,h:1,d0:9024,d1:34484;
+                ("sleep_forever", Expression<MethodOrOperator> @:9024 check:34484,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:9739,h:0,d0:0,d1:0;)))))

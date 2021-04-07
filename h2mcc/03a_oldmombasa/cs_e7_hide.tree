@@ -1,22 +1,22 @@
 
-("cs_e7_hide", MethodDecl<Void> @:290 op:0,dt:0,nt:65535,next:11054,str:20608,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:11054 op:0,dt:4,nt:8,next:65535,str:6480,d0:11055,d1:36515;
-        ("begin", Expression<MethodOrOperator> @:11055 op:0,dt:2,nt:9,next:11036,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:11036 op:441,dt:4,nt:8,next:11039,str:6516,d0:11037,d1:36497;
-                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:11037 op:441,dt:2,nt:9,next:11038,str:13781,d0:0,d1:0;
-                    ("ai_combat_status_visible", VariableAccess<Short> @:11038 op:7,dt:7,nt:13,next:65535,str:13807,d0:33578,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:11039 op:444,dt:4,nt:8,next:11042,str:6571,d0:11040,d1:36500;
-                ("cs_enable_moving", Expression<MethodOrOperator> @:11040 op:444,dt:2,nt:9,next:11041,str:14000,d0:0,d1:0;
-                    (True, Expression<Boolean> @:11041 op:5,dt:5,nt:9,next:65535,str:6589,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:11042 op:393,dt:4,nt:8,next:11046,str:6597,d0:11043,d1:36503;
-                ("cs_look", Expression<MethodOrOperator> @:11043 op:393,dt:2,nt:9,next:11044,str:17356,d0:0,d1:0;
-                    (True, Expression<Boolean> @:11044 op:5,dt:5,nt:9,next:11045,str:6606,d0:65281,d1:65535;
-                        ("e7_hallway_ambush/f0", Expression<SpatialPoint> @:11045 op:28,dt:28,nt:9,next:65535,str:20321,d0:9,d1:18;))))
-            (____, BuiltinInvocation<Void> @:11046 op:396,dt:4,nt:8,next:11050,str:6635,d0:11047,d1:36507;
-                ("cs_aim", Expression<MethodOrOperator> @:11047 op:396,dt:2,nt:9,next:11048,str:20342,d0:0,d1:0;
-                    (True, Expression<Boolean> @:11048 op:5,dt:5,nt:9,next:11049,str:6643,d0:65281,d1:65535;
-                        ("e7_hallway_ambush/f0", Expression<SpatialPoint> @:11049 op:28,dt:28,nt:9,next:65535,str:20321,d0:9,d1:18;))))
-            (____, BuiltinInvocation<Void> @:11050 op:21,dt:4,nt:8,next:65535,str:6672,d0:11051,d1:36511;
-                ("sleep_until", Expression<MethodOrOperator> @:11051 op:21,dt:2,nt:9,next:11052,str:294,d0:0,d1:0;
-                    ("oes_e7_spring_ambush", ScriptInvocation<Boolean> @:11052 op:289,dt:5,nt:10,next:65535,str:6685,d0:11053,d1:36513;
-                        ("oes_e7_spring_ambush", Expression<MethodOrOperator> @:11053 op:289,dt:2,nt:9,next:65535,str:20349,d0:0,d1:0;)))))))
+("cs_e7_hide", MethodDecl<Void> @:290 check:0,op:0,dt:0,nt:65535,next:11054,nextCheck:36514,str:20608,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:11054 check:36514,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:6480,h:2,d0:11055,d1:36515;
+        ("begin", Expression<MethodOrOperator> @:11055 check:36515,op:0,dt:2,nt:9,next:11036,nextCheck:36496,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:11036 check:36496,op:441,dt:4,nt:8,next:11039,nextCheck:36499,str:6516,h:2,d0:11037,d1:36497;
+                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:11037 check:36497,op:441,dt:2,nt:9,next:11038,nextCheck:36498,str:13781,h:0,d0:0,d1:0;
+                    ("ai_combat_status_visible", VariableAccess<Short> @:11038 check:36498,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:13807,h:0,d0:33578,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:11039 check:36499,op:444,dt:4,nt:8,next:11042,nextCheck:36502,str:6571,h:2,d0:11040,d1:36500;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:11040 check:36500,op:444,dt:2,nt:9,next:11041,nextCheck:36501,str:14000,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11041 check:36501,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:6589,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:11042 check:36502,op:393,dt:4,nt:8,next:11046,nextCheck:36506,str:6597,h:2,d0:11043,d1:36503;
+                ("cs_look", Expression<MethodOrOperator> @:11043 check:36503,op:393,dt:2,nt:9,next:11044,nextCheck:36504,str:17356,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11044 check:36504,op:5,dt:5,nt:9,next:11045,nextCheck:36505,str:6606,h:2,d0:65281,d1:65535;
+                        ("e7_hallway_ambush/f0", Expression<SpatialPoint> @:11045 check:36505,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:20321,h:0,d0:9,d1:18;))))
+            (____, BuiltinInvocation<Void> @:11046 check:36506,op:396,dt:4,nt:8,next:11050,nextCheck:36510,str:6635,h:2,d0:11047,d1:36507;
+                ("cs_aim", Expression<MethodOrOperator> @:11047 check:36507,op:396,dt:2,nt:9,next:11048,nextCheck:36508,str:20342,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11048 check:36508,op:5,dt:5,nt:9,next:11049,nextCheck:36509,str:6643,h:2,d0:65281,d1:65535;
+                        ("e7_hallway_ambush/f0", Expression<SpatialPoint> @:11049 check:36509,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:20321,h:0,d0:9,d1:18;))))
+            (____, BuiltinInvocation<Void> @:11050 check:36510,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:6672,h:2,d0:11051,d1:36511;
+                ("sleep_until", Expression<MethodOrOperator> @:11051 check:36511,op:21,dt:2,nt:9,next:11052,nextCheck:36512,str:294,h:0,d0:0,d1:0;
+                    ("oes_e7_spring_ambush", ScriptInvocation<Boolean> @:11052 check:36512,op:289,dt:5,nt:10,next:65535,nextCheck:65535,str:6685,h:2,d0:11053,d1:36513;
+                        ("oes_e7_spring_ambush", Expression<MethodOrOperator> @:11053 check:36513,op:289,dt:2,nt:9,next:65535,nextCheck:65535,str:20349,h:0,d0:0,d1:0;)))))))

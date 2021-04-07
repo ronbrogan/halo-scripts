@@ -1,10 +1,10 @@
 
-("e17_door0_open", MethodDecl<Boolean> @:362 op:0,dt:0,nt:65535,next:13085,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Boolean> @:13085 op:0,dt:5,nt:8,next:65535,str:39581,d0:13086,d1:38546;
-        ("begin", Expression<MethodOrOperator> @:13086 op:0,dt:2,nt:9,next:13079,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Boolean> @:13079 op:17,dt:5,nt:8,next:65535,str:39621,d0:13080,d1:38540;
-                (">=", Expression<MethodOrOperator> @:13080 op:17,dt:2,nt:9,next:13081,str:676,d0:0,d1:0;
-                    (-2.2973587E-25f, BuiltinInvocation<Float> @:13081 op:257,dt:6,nt:8,next:13084,str:39625,d0:13082,d1:38542;
-                        ("device_get_position", Expression<MethodOrOperator> @:13082 op:257,dt:2,nt:9,next:13083,str:14107,d0:0,d1:0;
-                            ("e17_door0", Expression<Device> @:13083 op:60,dt:54,nt:9,next:65535,str:26853,d0:103,d1:65535;)))
-                    (0.5f, Expression<Float> @:13084 op:6,dt:6,nt:9,next:65535,str:39657,d0:0,d1:16128;))))))
+("e17_door0_open", MethodDecl<Boolean> @:362 check:0,op:0,dt:0,nt:65535,next:13085,nextCheck:38545,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Boolean> @:13085 check:38545,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:39581,h:2,d0:13086,d1:38546;
+        ("begin", Expression<MethodOrOperator> @:13086 check:38546,op:0,dt:2,nt:9,next:13079,nextCheck:38539,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Boolean> @:13079 check:38539,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:39621,h:2,d0:13080,d1:38540;
+                (">=", Expression<MethodOrOperator> @:13080 check:38540,op:17,dt:2,nt:9,next:13081,nextCheck:38541,str:676,h:0,d0:0,d1:0;
+                    (-2.2973587E-25f, BuiltinInvocation<Float> @:13081 check:38541,op:257,dt:6,nt:8,next:13084,nextCheck:38544,str:39625,h:2,d0:13082,d1:38542;
+                        ("device_get_position", Expression<MethodOrOperator> @:13082 check:38542,op:257,dt:2,nt:9,next:13083,nextCheck:38543,str:14107,h:0,d0:0,d1:0;
+                            ("e17_door0", Expression<Device> @:13083 check:38543,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:26853,h:0,d0:103,d1:65535;)))
+                    (0.5f, Expression<Float> @:13084 check:38544,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:39657,h:2,d0:0,d1:16128;))))))

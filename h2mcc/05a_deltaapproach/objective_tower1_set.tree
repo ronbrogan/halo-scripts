@@ -1,16 +1,16 @@
 
-("objective_tower1_set", MethodDecl<Void> @:178 op:0,dt:0,nt:65535,next:5995,str:37360,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5995 op:0,dt:4,nt:8,next:65535,str:8111,d0:5996,d1:64223;
-        ("begin", Expression<MethodOrOperator> @:5996 op:0,dt:2,nt:9,next:5983,str:54,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5983 op:19,dt:4,nt:8,next:5986,str:8161,d0:5984,d1:64211;
-                ("sleep", Expression<MethodOrOperator> @:5984 op:19,dt:2,nt:9,next:5985,str:133,d0:0,d1:0;
-                    (30, Expression<Short> @:5985 op:7,dt:7,nt:9,next:65535,str:8168,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5986 op:27,dt:4,nt:8,next:5989,str:8185,d0:5987,d1:64214;
-                ("print", Expression<MethodOrOperator> @:5987 op:27,dt:2,nt:9,next:5988,str:139,d0:0,d1:0;
-                    ("new objective set:", Expression<String> @:5988 op:9,dt:9,nt:9,next:65535,str:13356,d0:13356,d1:0;)))
-            (____, BuiltinInvocation<Void> @:5989 op:27,dt:4,nt:8,next:5992,str:8227,d0:5990,d1:64217;
-                ("print", Expression<MethodOrOperator> @:5990 op:27,dt:2,nt:9,next:5991,str:139,d0:0,d1:0;
-                    ("reach the towers in the lake.", Expression<String> @:5991 op:9,dt:9,nt:9,next:65535,str:13560,d0:13560,d1:0;)))
-            (____, BuiltinInvocation<Void> @:5992 op:753,dt:4,nt:8,next:65535,str:8280,d0:5993,d1:64220;
-                ("objectives_show_up_to", Expression<MethodOrOperator> @:5993 op:753,dt:2,nt:9,next:5994,str:13416,d0:0,d1:0;
-                    (3, Expression<Int> @:5994 op:8,dt:8,nt:9,next:65535,str:8303,d0:3,d1:0;))))))
+("objective_tower1_set", MethodDecl<Void> @:178 check:0,op:0,dt:0,nt:65535,next:5995,nextCheck:64222,str:37360,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5995 check:64222,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:8111,h:1,d0:5996,d1:64223;
+        ("begin", Expression<MethodOrOperator> @:5996 check:64223,op:0,dt:2,nt:9,next:5983,nextCheck:64210,str:54,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5983 check:64210,op:19,dt:4,nt:8,next:5986,nextCheck:64213,str:8161,h:1,d0:5984,d1:64211;
+                ("sleep", Expression<MethodOrOperator> @:5984 check:64211,op:19,dt:2,nt:9,next:5985,nextCheck:64212,str:133,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:5985 check:64212,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:8168,h:1,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5986 check:64213,op:27,dt:4,nt:8,next:5989,nextCheck:64216,str:8185,h:1,d0:5987,d1:64214;
+                ("print", Expression<MethodOrOperator> @:5987 check:64214,op:27,dt:2,nt:9,next:5988,nextCheck:64215,str:139,h:0,d0:0,d1:0;
+                    ("new objective set:", Expression<String> @:5988 check:64215,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13356,h:0,d0:13356,d1:0;)))
+            (____, BuiltinInvocation<Void> @:5989 check:64216,op:27,dt:4,nt:8,next:5992,nextCheck:64219,str:8227,h:1,d0:5990,d1:64217;
+                ("print", Expression<MethodOrOperator> @:5990 check:64217,op:27,dt:2,nt:9,next:5991,nextCheck:64218,str:139,h:0,d0:0,d1:0;
+                    ("reach the towers in the lake.", Expression<String> @:5991 check:64218,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13560,h:0,d0:13560,d1:0;)))
+            (____, BuiltinInvocation<Void> @:5992 check:64219,op:753,dt:4,nt:8,next:65535,nextCheck:65535,str:8280,h:1,d0:5993,d1:64220;
+                ("objectives_show_up_to", Expression<MethodOrOperator> @:5993 check:64220,op:753,dt:2,nt:9,next:5994,nextCheck:64221,str:13416,h:0,d0:0,d1:0;
+                    (3, Expression<Int> @:5994 check:64221,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:8303,h:1,d0:3,d1:0;))))))

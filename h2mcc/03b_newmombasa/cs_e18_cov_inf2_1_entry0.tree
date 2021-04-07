@@ -1,16 +1,16 @@
 
-("cs_e18_cov_inf2_1_entry0", MethodDecl<Void> @:344 op:0,dt:0,nt:65535,next:12186,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:12186 op:0,dt:4,nt:8,next:65535,str:27263,d0:12187,d1:37647;
-        ("begin", Expression<MethodOrOperator> @:12187 op:0,dt:2,nt:9,next:12174,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:12174 op:440,dt:4,nt:8,next:12177,str:27313,d0:12175,d1:37635;
-                ("cs_abort_on_damage", Expression<MethodOrOperator> @:12175 op:440,dt:2,nt:9,next:12176,str:16394,d0:0,d1:0;
-                    (True, Expression<Boolean> @:12176 op:5,dt:5,nt:9,next:65535,str:27333,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:12177 op:441,dt:4,nt:8,next:12180,str:27341,d0:12178,d1:37638;
-                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:12178 op:441,dt:2,nt:9,next:12179,str:22358,d0:0,d1:0;
-                    ("ai_combat_status_clear_los", VariableAccess<Short> @:12179 op:7,dt:7,nt:13,next:65535,str:17189,d0:33579,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:12180 op:385,dt:4,nt:8,next:12183,str:27398,d0:12181,d1:37641;
-                ("cs_go_to", Expression<MethodOrOperator> @:12181 op:385,dt:2,nt:9,next:12182,str:18763,d0:0,d1:0;
-                    ("e18_cov_inf2_entry/p0", Expression<SpatialPoint> @:12182 op:28,dt:28,nt:9,next:65535,str:25605,d0:0,d1:15;)))
-            (____, BuiltinInvocation<Void> @:12183 op:385,dt:4,nt:8,next:65535,str:27433,d0:12184,d1:37644;
-                ("cs_go_to", Expression<MethodOrOperator> @:12184 op:385,dt:2,nt:9,next:12185,str:18763,d0:0,d1:0;
-                    ("e18_cov_inf2_entry/p1", Expression<SpatialPoint> @:12185 op:28,dt:28,nt:9,next:65535,str:25627,d0:1,d1:15;))))))
+("cs_e18_cov_inf2_1_entry0", MethodDecl<Void> @:344 check:0,op:0,dt:0,nt:65535,next:12186,nextCheck:37646,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:12186 check:37646,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:27263,h:2,d0:12187,d1:37647;
+        ("begin", Expression<MethodOrOperator> @:12187 check:37647,op:0,dt:2,nt:9,next:12174,nextCheck:37634,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:12174 check:37634,op:440,dt:4,nt:8,next:12177,nextCheck:37637,str:27313,h:2,d0:12175,d1:37635;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:12175 check:37635,op:440,dt:2,nt:9,next:12176,nextCheck:37636,str:16394,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:12176 check:37636,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:27333,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:12177 check:37637,op:441,dt:4,nt:8,next:12180,nextCheck:37640,str:27341,h:2,d0:12178,d1:37638;
+                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:12178 check:37638,op:441,dt:2,nt:9,next:12179,nextCheck:37639,str:22358,h:0,d0:0,d1:0;
+                    ("ai_combat_status_clear_los", VariableAccess<Short> @:12179 check:37639,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:17189,h:0,d0:33579,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:12180 check:37640,op:385,dt:4,nt:8,next:12183,nextCheck:37643,str:27398,h:2,d0:12181,d1:37641;
+                ("cs_go_to", Expression<MethodOrOperator> @:12181 check:37641,op:385,dt:2,nt:9,next:12182,nextCheck:37642,str:18763,h:0,d0:0,d1:0;
+                    ("e18_cov_inf2_entry/p0", Expression<SpatialPoint> @:12182 check:37642,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:25605,h:0,d0:0,d1:15;)))
+            (____, BuiltinInvocation<Void> @:12183 check:37643,op:385,dt:4,nt:8,next:65535,nextCheck:65535,str:27433,h:2,d0:12184,d1:37644;
+                ("cs_go_to", Expression<MethodOrOperator> @:12184 check:37644,op:385,dt:2,nt:9,next:12185,nextCheck:37645,str:18763,h:0,d0:0,d1:0;
+                    ("e18_cov_inf2_entry/p1", Expression<SpatialPoint> @:12185 check:37645,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:25627,h:0,d0:1,d1:15;))))))

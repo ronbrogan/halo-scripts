@@ -1,31 +1,31 @@
 
-("bridge_cortana_response", MethodDecl<Void> @:242 op:0,dt:0,nt:65535,next:10995,str:21369,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:10995 op:0,dt:4,nt:8,next:65535,str:64553,d0:10996,d1:36456;
-        ("begin", Expression<MethodOrOperator> @:10996 op:0,dt:2,nt:9,next:10968,str:54,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:10968 op:281,dt:4,nt:8,next:10971,str:64595,d0:10969,d1:36429;
-                ("ai_dialogue_enable", Expression<MethodOrOperator> @:10969 op:281,dt:2,nt:9,next:10970,str:15148,d0:0,d1:0;
-                    (False, Expression<Boolean> @:10970 op:5,dt:5,nt:9,next:65535,str:64615,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10971 op:19,dt:4,nt:8,next:10974,str:64624,d0:10972,d1:36432;
-                ("sleep", Expression<MethodOrOperator> @:10972 op:19,dt:2,nt:9,next:10973,str:133,d0:0,d1:0;
-                    (60, Expression<Short> @:10973 op:7,dt:7,nt:9,next:65535,str:64631,d0:60,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10974 op:27,dt:4,nt:8,next:10977,str:64637,d0:10975,d1:36435;
-                ("print", Expression<MethodOrOperator> @:10975 op:27,dt:2,nt:9,next:10976,str:139,d0:0,d1:0;
-                    ("cortana: 'a sermon, actually.  i've been listening to him since we landed.'", Expression<String> @:10976 op:9,dt:9,nt:9,next:65535,str:21046,d0:21046,d1:0;)))
-            (____, BuiltinInvocation<Void> @:10977 op:27,dt:4,nt:8,next:10980,str:64725,d0:10978,d1:36438;
-                ("print", Expression<MethodOrOperator> @:10978 op:27,dt:2,nt:9,next:10979,str:139,d0:0,d1:0;
-                    ("cortana: 'so far it's the standard covenant liturgy,'", Expression<String> @:10979 op:9,dt:9,nt:9,next:65535,str:21122,d0:21122,d1:0;)))
-            (____, BuiltinInvocation<Void> @:10980 op:27,dt:4,nt:8,next:10983,str:64791,d0:10981,d1:36441;
-                ("print", Expression<MethodOrOperator> @:10981 op:27,dt:2,nt:9,next:10982,str:139,d0:0,d1:0;
-                    ("cortana: 'but i'll translate if he says anything interesting.'", Expression<String> @:10982 op:9,dt:9,nt:9,next:65535,str:21176,d0:21176,d1:0;)))
-            (____, BuiltinInvocation<Void> @:10983 op:19,dt:4,nt:8,next:10989,str:64866,d0:10984,d1:36444;
-                ("sleep", Expression<MethodOrOperator> @:10984 op:19,dt:2,nt:9,next:10985,str:133,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:10985 op:362,dt:7,nt:8,next:65535,str:64873,d0:10986,d1:36446;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:10986 op:362,dt:2,nt:9,next:10987,str:15240,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:10987 op:50,dt:50,nt:9,next:10988,str:1392,d0:65535,d1:65535;
-                                ("0080", Expression<StringId> @:10988 op:11,dt:11,nt:9,next:65535,str:21239,d0:12021,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:10989 op:19,dt:4,nt:8,next:10992,str:65008,d0:10990,d1:36450;
-                ("sleep", Expression<MethodOrOperator> @:10990 op:19,dt:2,nt:9,next:10991,str:133,d0:0,d1:0;
-                    (30, Expression<Short> @:10991 op:7,dt:7,nt:9,next:65535,str:65015,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10992 op:281,dt:4,nt:8,next:65535,str:65021,d0:10993,d1:36453;
-                ("ai_dialogue_enable", Expression<MethodOrOperator> @:10993 op:281,dt:2,nt:9,next:10994,str:15148,d0:0,d1:0;
-                    (True, Expression<Boolean> @:10994 op:5,dt:5,nt:9,next:65535,str:65041,d0:65281,d1:65535;))))))
+("bridge_cortana_response", MethodDecl<Void> @:242 check:0,op:0,dt:0,nt:65535,next:10995,nextCheck:36455,str:21369,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:10995 check:36455,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:64553,h:1,d0:10996,d1:36456;
+        ("begin", Expression<MethodOrOperator> @:10996 check:36456,op:0,dt:2,nt:9,next:10968,nextCheck:36428,str:54,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:10968 check:36428,op:281,dt:4,nt:8,next:10971,nextCheck:36431,str:64595,h:1,d0:10969,d1:36429;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:10969 check:36429,op:281,dt:2,nt:9,next:10970,nextCheck:36430,str:15148,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:10970 check:36430,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:64615,h:1,d0:65280,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10971 check:36431,op:19,dt:4,nt:8,next:10974,nextCheck:36434,str:64624,h:1,d0:10972,d1:36432;
+                ("sleep", Expression<MethodOrOperator> @:10972 check:36432,op:19,dt:2,nt:9,next:10973,nextCheck:36433,str:133,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:10973 check:36433,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:64631,h:1,d0:60,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10974 check:36434,op:27,dt:4,nt:8,next:10977,nextCheck:36437,str:64637,h:1,d0:10975,d1:36435;
+                ("print", Expression<MethodOrOperator> @:10975 check:36435,op:27,dt:2,nt:9,next:10976,nextCheck:36436,str:139,h:0,d0:0,d1:0;
+                    ("cortana: 'a sermon, actually.  i've been listening to him since we landed.'", Expression<String> @:10976 check:36436,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:21046,h:0,d0:21046,d1:0;)))
+            (____, BuiltinInvocation<Void> @:10977 check:36437,op:27,dt:4,nt:8,next:10980,nextCheck:36440,str:64725,h:1,d0:10978,d1:36438;
+                ("print", Expression<MethodOrOperator> @:10978 check:36438,op:27,dt:2,nt:9,next:10979,nextCheck:36439,str:139,h:0,d0:0,d1:0;
+                    ("cortana: 'so far it's the standard covenant liturgy,'", Expression<String> @:10979 check:36439,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:21122,h:0,d0:21122,d1:0;)))
+            (____, BuiltinInvocation<Void> @:10980 check:36440,op:27,dt:4,nt:8,next:10983,nextCheck:36443,str:64791,h:1,d0:10981,d1:36441;
+                ("print", Expression<MethodOrOperator> @:10981 check:36441,op:27,dt:2,nt:9,next:10982,nextCheck:36442,str:139,h:0,d0:0,d1:0;
+                    ("cortana: 'but i'll translate if he says anything interesting.'", Expression<String> @:10982 check:36442,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:21176,h:0,d0:21176,d1:0;)))
+            (____, BuiltinInvocation<Void> @:10983 check:36443,op:19,dt:4,nt:8,next:10989,nextCheck:36449,str:64866,h:1,d0:10984,d1:36444;
+                ("sleep", Expression<MethodOrOperator> @:10984 check:36444,op:19,dt:2,nt:9,next:10985,nextCheck:36445,str:133,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:10985 check:36445,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:64873,h:1,d0:10986,d1:36446;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:10986 check:36446,op:362,dt:2,nt:9,next:10987,nextCheck:36447,str:15240,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:10987 check:36447,op:50,dt:50,nt:9,next:10988,nextCheck:36448,str:1392,h:0,d0:65535,d1:65535;
+                                ("0080", Expression<StringId> @:10988 check:36448,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:21239,h:0,d0:12021,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:10989 check:36449,op:19,dt:4,nt:8,next:10992,nextCheck:36452,str:65008,h:1,d0:10990,d1:36450;
+                ("sleep", Expression<MethodOrOperator> @:10990 check:36450,op:19,dt:2,nt:9,next:10991,nextCheck:36451,str:133,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:10991 check:36451,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:65015,h:1,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10992 check:36452,op:281,dt:4,nt:8,next:65535,nextCheck:65535,str:65021,h:1,d0:10993,d1:36453;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:10993 check:36453,op:281,dt:2,nt:9,next:10994,nextCheck:36454,str:15148,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10994 check:36454,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:65041,h:1,d0:65281,d1:65535;))))))

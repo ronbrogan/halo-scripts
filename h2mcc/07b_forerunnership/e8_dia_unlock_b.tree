@@ -1,19 +1,19 @@
 
-("e8_dia_unlock_b", MethodDecl<Void> @:141 op:0,dt:0,nt:65535,next:4077,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4077 op:0,dt:4,nt:8,next:65535,str:51612,d0:4078,d1:62305;
-        ("begin", Expression<MethodOrOperator> @:4078 op:0,dt:2,nt:9,next:4062,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4062 op:2,dt:4,nt:8,next:4068,str:51646,d0:4063,d1:62290;
-                ("if", Expression<MethodOrOperator> @:4063 op:2,dt:2,nt:9,next:4064,str:456,d0:0,d1:0;
-                    ("dialogue", VariableAccess<Boolean> @:4064 op:5,dt:5,nt:13,next:4065,str:10462,d0:3,d1:0;
-                        (____, BuiltinInvocation<Void> @:4065 op:27,dt:4,nt:8,next:65535,str:51659,d0:4066,d1:62293;
-                            ("print", Expression<MethodOrOperator> @:4066 op:27,dt:2,nt:9,next:4067,str:86,d0:0,d1:0;
-                                ("cortana: standby while i break the lock.", Expression<String> @:4067 op:9,dt:9,nt:9,next:65535,str:11687,d0:11687,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:4068 op:19,dt:4,nt:8,next:4074,str:51713,d0:4069,d1:62296;
-                ("sleep", Expression<MethodOrOperator> @:4069 op:19,dt:2,nt:9,next:4070,str:80,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:4070 op:362,dt:7,nt:8,next:65535,str:51720,d0:4071,d1:62298;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4071 op:362,dt:2,nt:9,next:4072,str:10552,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:4072 op:50,dt:50,nt:9,next:4073,str:1386,d0:65535,d1:65535;
-                                ("2790", Expression<StringId> @:4073 op:11,dt:11,nt:9,next:65535,str:11728,d0:13564,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:4074 op:19,dt:4,nt:8,next:65535,str:51758,d0:4075,d1:62302;
-                ("sleep", Expression<MethodOrOperator> @:4075 op:19,dt:2,nt:9,next:4076,str:80,d0:0,d1:0;
-                    ("dialogue_pause", VariableAccess<Short> @:4076 op:7,dt:7,nt:13,next:65535,str:10580,d0:4,d1:0;))))))
+("e8_dia_unlock_b", MethodDecl<Void> @:141 check:0,op:0,dt:0,nt:65535,next:4077,nextCheck:62304,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4077 check:62304,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:51612,h:0,d0:4078,d1:62305;
+        ("begin", Expression<MethodOrOperator> @:4078 check:62305,op:0,dt:2,nt:9,next:4062,nextCheck:62289,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4062 check:62289,op:2,dt:4,nt:8,next:4068,nextCheck:62295,str:51646,h:0,d0:4063,d1:62290;
+                ("if", Expression<MethodOrOperator> @:4063 check:62290,op:2,dt:2,nt:9,next:4064,nextCheck:62291,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:4064 check:62291,op:5,dt:5,nt:13,next:4065,nextCheck:62292,str:10462,h:0,d0:3,d1:0;
+                        (____, BuiltinInvocation<Void> @:4065 check:62292,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:51659,h:0,d0:4066,d1:62293;
+                            ("print", Expression<MethodOrOperator> @:4066 check:62293,op:27,dt:2,nt:9,next:4067,nextCheck:62294,str:86,h:0,d0:0,d1:0;
+                                ("cortana: standby while i break the lock.", Expression<String> @:4067 check:62294,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:11687,h:0,d0:11687,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:4068 check:62295,op:19,dt:4,nt:8,next:4074,nextCheck:62301,str:51713,h:0,d0:4069,d1:62296;
+                ("sleep", Expression<MethodOrOperator> @:4069 check:62296,op:19,dt:2,nt:9,next:4070,nextCheck:62297,str:80,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:4070 check:62297,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:51720,h:0,d0:4071,d1:62298;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4071 check:62298,op:362,dt:2,nt:9,next:4072,nextCheck:62299,str:10552,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:4072 check:62299,op:50,dt:50,nt:9,next:4073,nextCheck:62300,str:1386,h:0,d0:65535,d1:65535;
+                                ("2790", Expression<StringId> @:4073 check:62300,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:11728,h:0,d0:13564,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:4074 check:62301,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:51758,h:0,d0:4075,d1:62302;
+                ("sleep", Expression<MethodOrOperator> @:4075 check:62302,op:19,dt:2,nt:9,next:4076,nextCheck:62303,str:80,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:4076 check:62303,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:10580,h:0,d0:4,d1:0;))))))

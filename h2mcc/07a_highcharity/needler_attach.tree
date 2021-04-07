@@ -1,28 +1,28 @@
 
-("needler_attach", MethodDecl<Void> @:154 op:0,dt:0,nt:65535,next:5174,str:12796,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5174 op:0,dt:4,nt:8,next:65535,str:3579,d0:5175,d1:63402;
-        ("begin", Expression<MethodOrOperator> @:5175 op:0,dt:2,nt:9,next:5150,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5150 op:676,dt:4,nt:8,next:5152,str:3612,d0:5151,d1:63378;
-                ("time_code_reset", Expression<MethodOrOperator> @:5151 op:676,dt:2,nt:9,next:65535,str:9689,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:5152 op:19,dt:4,nt:8,next:5155,str:3632,d0:5153,d1:63380;
-                ("sleep", Expression<MethodOrOperator> @:5153 op:19,dt:2,nt:9,next:5154,str:80,d0:0,d1:0;
-                    (230, Expression<Short> @:5154 op:7,dt:7,nt:9,next:65535,str:3639,d0:230,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5155 op:76,dt:4,nt:8,next:5159,str:3646,d0:5156,d1:63383;
-                ("objects_detach", Expression<MethodOrOperator> @:5156 op:76,dt:2,nt:9,next:5157,str:12712,d0:0,d1:0;
-                    (4294902030, Expression<Entity> @:5157 op:56,dt:50,nt:9,next:5158,str:8758,d0:270,d1:65535;
-                        (4294902060, Expression<Entity> @:5158 op:56,dt:50,nt:9,next:65535,str:11473,d0:300,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:5159 op:27,dt:4,nt:8,next:5162,str:3688,d0:5160,d1:63387;
-                ("print", Expression<MethodOrOperator> @:5160 op:27,dt:2,nt:9,next:5161,str:86,d0:0,d1:0;
-                    ("needler detach", Expression<String> @:5161 op:9,dt:9,nt:9,next:65535,str:12727,d0:12727,d1:0;)))
-            (____, BuiltinInvocation<Void> @:5162 op:19,dt:4,nt:8,next:5165,str:3715,d0:5163,d1:63390;
-                ("sleep", Expression<MethodOrOperator> @:5163 op:19,dt:2,nt:9,next:5164,str:80,d0:0,d1:0;
-                    (80, Expression<Short> @:5164 op:7,dt:7,nt:9,next:65535,str:3722,d0:80,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5165 op:74,dt:4,nt:8,next:5171,str:3728,d0:5166,d1:63393;
-                ("objects_attach", Expression<MethodOrOperator> @:5166 op:74,dt:2,nt:9,next:5167,str:10229,d0:0,d1:0;
-                    (4294902042, Expression<Entity> @:5167 op:56,dt:50,nt:9,next:5168,str:12651,d0:282,d1:65535;
-                        ("right_hand", Expression<StringId> @:5168 op:11,dt:11,nt:9,next:5169,str:11496,d0:1942,d1:2560;
-                            (4294902060, Expression<Entity> @:5169 op:56,dt:50,nt:9,next:5170,str:11473,d0:300,d1:65535;
-                                (0, Expression<StringId> @:5170 op:11,dt:11,nt:9,next:65535,str:0,d0:0,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:5171 op:27,dt:4,nt:8,next:65535,str:3789,d0:5172,d1:63399;
-                ("print", Expression<MethodOrOperator> @:5172 op:27,dt:2,nt:9,next:5173,str:86,d0:0,d1:0;
-                    ("needler attach", Expression<String> @:5173 op:9,dt:9,nt:9,next:65535,str:12742,d0:12742,d1:0;))))))
+("needler_attach", MethodDecl<Void> @:154 check:0,op:0,dt:0,nt:65535,next:5174,nextCheck:63401,str:12796,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5174 check:63401,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:3579,h:1,d0:5175,d1:63402;
+        ("begin", Expression<MethodOrOperator> @:5175 check:63402,op:0,dt:2,nt:9,next:5150,nextCheck:63377,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5150 check:63377,op:676,dt:4,nt:8,next:5152,nextCheck:63379,str:3612,h:1,d0:5151,d1:63378;
+                ("time_code_reset", Expression<MethodOrOperator> @:5151 check:63378,op:676,dt:2,nt:9,next:65535,nextCheck:65535,str:9689,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:5152 check:63379,op:19,dt:4,nt:8,next:5155,nextCheck:63382,str:3632,h:1,d0:5153,d1:63380;
+                ("sleep", Expression<MethodOrOperator> @:5153 check:63380,op:19,dt:2,nt:9,next:5154,nextCheck:63381,str:80,h:0,d0:0,d1:0;
+                    (230, Expression<Short> @:5154 check:63381,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:3639,h:1,d0:230,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5155 check:63382,op:76,dt:4,nt:8,next:5159,nextCheck:63386,str:3646,h:1,d0:5156,d1:63383;
+                ("objects_detach", Expression<MethodOrOperator> @:5156 check:63383,op:76,dt:2,nt:9,next:5157,nextCheck:63384,str:12712,h:0,d0:0,d1:0;
+                    (4294902030, Expression<Entity> @:5157 check:63384,op:56,dt:50,nt:9,next:5158,nextCheck:63385,str:8758,h:0,d0:270,d1:65535;
+                        (4294902060, Expression<Entity> @:5158 check:63385,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:11473,h:0,d0:300,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:5159 check:63386,op:27,dt:4,nt:8,next:5162,nextCheck:63389,str:3688,h:1,d0:5160,d1:63387;
+                ("print", Expression<MethodOrOperator> @:5160 check:63387,op:27,dt:2,nt:9,next:5161,nextCheck:63388,str:86,h:0,d0:0,d1:0;
+                    ("needler detach", Expression<String> @:5161 check:63388,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12727,h:0,d0:12727,d1:0;)))
+            (____, BuiltinInvocation<Void> @:5162 check:63389,op:19,dt:4,nt:8,next:5165,nextCheck:63392,str:3715,h:1,d0:5163,d1:63390;
+                ("sleep", Expression<MethodOrOperator> @:5163 check:63390,op:19,dt:2,nt:9,next:5164,nextCheck:63391,str:80,h:0,d0:0,d1:0;
+                    (80, Expression<Short> @:5164 check:63391,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:3722,h:1,d0:80,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5165 check:63392,op:74,dt:4,nt:8,next:5171,nextCheck:63398,str:3728,h:1,d0:5166,d1:63393;
+                ("objects_attach", Expression<MethodOrOperator> @:5166 check:63393,op:74,dt:2,nt:9,next:5167,nextCheck:63394,str:10229,h:0,d0:0,d1:0;
+                    (4294902042, Expression<Entity> @:5167 check:63394,op:56,dt:50,nt:9,next:5168,nextCheck:63395,str:12651,h:0,d0:282,d1:65535;
+                        ("right_hand", Expression<StringId> @:5168 check:63395,op:11,dt:11,nt:9,next:5169,nextCheck:63396,str:11496,h:0,d0:1942,d1:2560;
+                            (4294902060, Expression<Entity> @:5169 check:63396,op:56,dt:50,nt:9,next:5170,nextCheck:63397,str:11473,h:0,d0:300,d1:65535;
+                                (0, Expression<StringId> @:5170 check:63397,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:0,h:0,d0:0,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:5171 check:63398,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:3789,h:1,d0:5172,d1:63399;
+                ("print", Expression<MethodOrOperator> @:5172 check:63399,op:27,dt:2,nt:9,next:5173,nextCheck:63400,str:86,h:0,d0:0,d1:0;
+                    ("needler attach", Expression<String> @:5173 check:63400,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12742,h:0,d0:12742,d1:0;))))))

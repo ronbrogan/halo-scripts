@@ -1,7 +1,7 @@
 
-("x08_11_predict", MethodDecl<Void> @:442 op:0,dt:0,nt:65535,next:23234,str:1334,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:23234 op:0,dt:4,nt:8,next:65535,str:55638,d0:23235,d1:48695;
-        ("begin", Expression<MethodOrOperator> @:23235 op:0,dt:2,nt:9,next:23231,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:23231 op:27,dt:4,nt:8,next:65535,str:55714,d0:23232,d1:48692;
-                ("print", Expression<MethodOrOperator> @:23232 op:27,dt:2,nt:9,next:23233,str:86,d0:0,d1:0;
-                    ("next scene has no prediction...yet", Expression<String> @:23233 op:9,dt:9,nt:9,next:65535,str:45737,d0:45737,d1:0;))))))
+("x08_11_predict", MethodDecl<Void> @:442 check:0,op:0,dt:0,nt:65535,next:23234,nextCheck:48694,str:1334,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:23234 check:48694,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:55638,h:3,d0:23235,d1:48695;
+        ("begin", Expression<MethodOrOperator> @:23235 check:48695,op:0,dt:2,nt:9,next:23231,nextCheck:48691,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:23231 check:48691,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:55714,h:3,d0:23232,d1:48692;
+                ("print", Expression<MethodOrOperator> @:23232 check:48692,op:27,dt:2,nt:9,next:23233,nextCheck:48693,str:86,h:0,d0:0,d1:0;
+                    ("next scene has no prediction...yet", Expression<String> @:23233 check:48693,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:45737,h:0,d0:45737,d1:0;))))))

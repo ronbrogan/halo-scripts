@@ -1,49 +1,49 @@
 
-("ai_plugholder_infec_bk_b", MethodDecl<Void> @:295 op:0,dt:0,nt:65535,next:14156,str:29194,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:14156 op:0,dt:4,nt:8,next:65535,str:10661,d0:14157,d1:39617;
-        ("begin", Expression<MethodOrOperator> @:14157 op:0,dt:2,nt:9,next:14111,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:14111 op:21,dt:4,nt:8,next:14117,str:10704,d0:14112,d1:39572;
-                ("sleep_until", Expression<MethodOrOperator> @:14112 op:21,dt:2,nt:9,next:14113,str:231,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:14113 op:17,dt:5,nt:8,next:65535,str:10717,d0:14114,d1:39574;
-                        (">=", Expression<MethodOrOperator> @:14114 op:17,dt:2,nt:9,next:14115,str:671,d0:0,d1:0;
-                            ("g_plugholder_bk_flood_count", VariableAccess<Short> @:14115 op:0,dt:7,nt:13,next:14116,str:23710,d0:88,d1:0;
-                                (2, Expression<Short> @:14116 op:7,dt:7,nt:9,next:65535,str:10749,d0:2,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:14117 op:2,dt:4,nt:8,next:14123,str:10755,d0:14118,d1:39578;
-                ("if", Expression<MethodOrOperator> @:14118 op:2,dt:2,nt:9,next:14119,str:456,d0:0,d1:0;
-                    ("debug", VariableAccess<Boolean> @:14119 op:5,dt:5,nt:13,next:14120,str:11238,d0:3,d1:0;
-                        (____, BuiltinInvocation<Void> @:14120 op:27,dt:4,nt:8,next:65535,str:10765,d0:14121,d1:39581;
-                            ("print", Expression<MethodOrOperator> @:14121 op:27,dt:2,nt:9,next:14122,str:86,d0:0,d1:0;
-                                ("infection forms...", Expression<String> @:14122 op:9,dt:9,nt:9,next:65535,str:23818,d0:23818,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:14123 op:290,dt:4,nt:8,next:14126,str:10797,d0:14124,d1:39584;
-                ("ai_place", Expression<MethodOrOperator> @:14124 op:290,dt:2,nt:9,next:14125,str:1415,d0:0,d1:0;
-                    ("plugholder_bk_infec_b", Expression<AI> @:14125 op:19,dt:19,nt:9,next:65535,str:23778,d0:33,d1:0;)))
-            (____, BuiltinInvocation<Void> @:14126 op:21,dt:4,nt:8,next:14132,str:10834,d0:14127,d1:39587;
-                ("sleep_until", Expression<MethodOrOperator> @:14127 op:21,dt:2,nt:9,next:14128,str:231,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:14128 op:17,dt:5,nt:8,next:65535,str:10847,d0:14129,d1:39589;
-                        (">=", Expression<MethodOrOperator> @:14129 op:17,dt:2,nt:9,next:14130,str:671,d0:0,d1:0;
-                            ("g_plugholder_bk_flood_count", VariableAccess<Short> @:14130 op:0,dt:7,nt:13,next:14131,str:23710,d0:88,d1:0;
-                                (4, Expression<Short> @:14131 op:7,dt:7,nt:9,next:65535,str:10879,d0:4,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:14132 op:2,dt:4,nt:8,next:14138,str:10885,d0:14133,d1:39593;
-                ("if", Expression<MethodOrOperator> @:14133 op:2,dt:2,nt:9,next:14134,str:456,d0:0,d1:0;
-                    ("debug", VariableAccess<Boolean> @:14134 op:5,dt:5,nt:13,next:14135,str:11238,d0:3,d1:0;
-                        (____, BuiltinInvocation<Void> @:14135 op:27,dt:4,nt:8,next:65535,str:10895,d0:14136,d1:39596;
-                            ("print", Expression<MethodOrOperator> @:14136 op:27,dt:2,nt:9,next:14137,str:86,d0:0,d1:0;
-                                ("infection forms...", Expression<String> @:14137 op:9,dt:9,nt:9,next:65535,str:23818,d0:23818,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:14138 op:290,dt:4,nt:8,next:14141,str:10927,d0:14139,d1:39599;
-                ("ai_place", Expression<MethodOrOperator> @:14139 op:290,dt:2,nt:9,next:14140,str:1415,d0:0,d1:0;
-                    ("plugholder_bk_infec_b", Expression<AI> @:14140 op:19,dt:19,nt:9,next:65535,str:23778,d0:33,d1:0;)))
-            (____, BuiltinInvocation<Void> @:14141 op:21,dt:4,nt:8,next:14147,str:10964,d0:14142,d1:39602;
-                ("sleep_until", Expression<MethodOrOperator> @:14142 op:21,dt:2,nt:9,next:14143,str:231,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:14143 op:17,dt:5,nt:8,next:65535,str:10977,d0:14144,d1:39604;
-                        (">=", Expression<MethodOrOperator> @:14144 op:17,dt:2,nt:9,next:14145,str:671,d0:0,d1:0;
-                            ("g_plugholder_bk_flood_count", VariableAccess<Short> @:14145 op:0,dt:7,nt:13,next:14146,str:23710,d0:88,d1:0;
-                                (6, Expression<Short> @:14146 op:7,dt:7,nt:9,next:65535,str:11009,d0:6,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:14147 op:2,dt:4,nt:8,next:14153,str:11015,d0:14148,d1:39608;
-                ("if", Expression<MethodOrOperator> @:14148 op:2,dt:2,nt:9,next:14149,str:456,d0:0,d1:0;
-                    ("debug", VariableAccess<Boolean> @:14149 op:5,dt:5,nt:13,next:14150,str:11238,d0:3,d1:0;
-                        (____, BuiltinInvocation<Void> @:14150 op:27,dt:4,nt:8,next:65535,str:11025,d0:14151,d1:39611;
-                            ("print", Expression<MethodOrOperator> @:14151 op:27,dt:2,nt:9,next:14152,str:86,d0:0,d1:0;
-                                ("infection forms...", Expression<String> @:14152 op:9,dt:9,nt:9,next:65535,str:23818,d0:23818,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:14153 op:290,dt:4,nt:8,next:65535,str:11057,d0:14154,d1:39614;
-                ("ai_place", Expression<MethodOrOperator> @:14154 op:290,dt:2,nt:9,next:14155,str:1415,d0:0,d1:0;
-                    ("plugholder_bk_infec_b", Expression<AI> @:14155 op:19,dt:19,nt:9,next:65535,str:23778,d0:33,d1:0;))))))
+("ai_plugholder_infec_bk_b", MethodDecl<Void> @:295 check:0,op:0,dt:0,nt:65535,next:14156,nextCheck:39616,str:29194,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:14156 check:39616,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:10661,h:2,d0:14157,d1:39617;
+        ("begin", Expression<MethodOrOperator> @:14157 check:39617,op:0,dt:2,nt:9,next:14111,nextCheck:39571,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:14111 check:39571,op:21,dt:4,nt:8,next:14117,nextCheck:39577,str:10704,h:2,d0:14112,d1:39572;
+                ("sleep_until", Expression<MethodOrOperator> @:14112 check:39572,op:21,dt:2,nt:9,next:14113,nextCheck:39573,str:231,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:14113 check:39573,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:10717,h:2,d0:14114,d1:39574;
+                        (">=", Expression<MethodOrOperator> @:14114 check:39574,op:17,dt:2,nt:9,next:14115,nextCheck:39575,str:671,h:0,d0:0,d1:0;
+                            ("g_plugholder_bk_flood_count", VariableAccess<Short> @:14115 check:39575,op:0,dt:7,nt:13,next:14116,nextCheck:39576,str:23710,h:0,d0:88,d1:0;
+                                (2, Expression<Short> @:14116 check:39576,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:10749,h:2,d0:2,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:14117 check:39577,op:2,dt:4,nt:8,next:14123,nextCheck:39583,str:10755,h:2,d0:14118,d1:39578;
+                ("if", Expression<MethodOrOperator> @:14118 check:39578,op:2,dt:2,nt:9,next:14119,nextCheck:39579,str:456,h:0,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:14119 check:39579,op:5,dt:5,nt:13,next:14120,nextCheck:39580,str:11238,h:0,d0:3,d1:0;
+                        (____, BuiltinInvocation<Void> @:14120 check:39580,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:10765,h:2,d0:14121,d1:39581;
+                            ("print", Expression<MethodOrOperator> @:14121 check:39581,op:27,dt:2,nt:9,next:14122,nextCheck:39582,str:86,h:0,d0:0,d1:0;
+                                ("infection forms...", Expression<String> @:14122 check:39582,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:23818,h:0,d0:23818,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:14123 check:39583,op:290,dt:4,nt:8,next:14126,nextCheck:39586,str:10797,h:2,d0:14124,d1:39584;
+                ("ai_place", Expression<MethodOrOperator> @:14124 check:39584,op:290,dt:2,nt:9,next:14125,nextCheck:39585,str:1415,h:0,d0:0,d1:0;
+                    ("plugholder_bk_infec_b", Expression<AI> @:14125 check:39585,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:23778,h:0,d0:33,d1:0;)))
+            (____, BuiltinInvocation<Void> @:14126 check:39586,op:21,dt:4,nt:8,next:14132,nextCheck:39592,str:10834,h:2,d0:14127,d1:39587;
+                ("sleep_until", Expression<MethodOrOperator> @:14127 check:39587,op:21,dt:2,nt:9,next:14128,nextCheck:39588,str:231,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:14128 check:39588,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:10847,h:2,d0:14129,d1:39589;
+                        (">=", Expression<MethodOrOperator> @:14129 check:39589,op:17,dt:2,nt:9,next:14130,nextCheck:39590,str:671,h:0,d0:0,d1:0;
+                            ("g_plugholder_bk_flood_count", VariableAccess<Short> @:14130 check:39590,op:0,dt:7,nt:13,next:14131,nextCheck:39591,str:23710,h:0,d0:88,d1:0;
+                                (4, Expression<Short> @:14131 check:39591,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:10879,h:2,d0:4,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:14132 check:39592,op:2,dt:4,nt:8,next:14138,nextCheck:39598,str:10885,h:2,d0:14133,d1:39593;
+                ("if", Expression<MethodOrOperator> @:14133 check:39593,op:2,dt:2,nt:9,next:14134,nextCheck:39594,str:456,h:0,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:14134 check:39594,op:5,dt:5,nt:13,next:14135,nextCheck:39595,str:11238,h:0,d0:3,d1:0;
+                        (____, BuiltinInvocation<Void> @:14135 check:39595,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:10895,h:2,d0:14136,d1:39596;
+                            ("print", Expression<MethodOrOperator> @:14136 check:39596,op:27,dt:2,nt:9,next:14137,nextCheck:39597,str:86,h:0,d0:0,d1:0;
+                                ("infection forms...", Expression<String> @:14137 check:39597,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:23818,h:0,d0:23818,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:14138 check:39598,op:290,dt:4,nt:8,next:14141,nextCheck:39601,str:10927,h:2,d0:14139,d1:39599;
+                ("ai_place", Expression<MethodOrOperator> @:14139 check:39599,op:290,dt:2,nt:9,next:14140,nextCheck:39600,str:1415,h:0,d0:0,d1:0;
+                    ("plugholder_bk_infec_b", Expression<AI> @:14140 check:39600,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:23778,h:0,d0:33,d1:0;)))
+            (____, BuiltinInvocation<Void> @:14141 check:39601,op:21,dt:4,nt:8,next:14147,nextCheck:39607,str:10964,h:2,d0:14142,d1:39602;
+                ("sleep_until", Expression<MethodOrOperator> @:14142 check:39602,op:21,dt:2,nt:9,next:14143,nextCheck:39603,str:231,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:14143 check:39603,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:10977,h:2,d0:14144,d1:39604;
+                        (">=", Expression<MethodOrOperator> @:14144 check:39604,op:17,dt:2,nt:9,next:14145,nextCheck:39605,str:671,h:0,d0:0,d1:0;
+                            ("g_plugholder_bk_flood_count", VariableAccess<Short> @:14145 check:39605,op:0,dt:7,nt:13,next:14146,nextCheck:39606,str:23710,h:0,d0:88,d1:0;
+                                (6, Expression<Short> @:14146 check:39606,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:11009,h:2,d0:6,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:14147 check:39607,op:2,dt:4,nt:8,next:14153,nextCheck:39613,str:11015,h:2,d0:14148,d1:39608;
+                ("if", Expression<MethodOrOperator> @:14148 check:39608,op:2,dt:2,nt:9,next:14149,nextCheck:39609,str:456,h:0,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:14149 check:39609,op:5,dt:5,nt:13,next:14150,nextCheck:39610,str:11238,h:0,d0:3,d1:0;
+                        (____, BuiltinInvocation<Void> @:14150 check:39610,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:11025,h:2,d0:14151,d1:39611;
+                            ("print", Expression<MethodOrOperator> @:14151 check:39611,op:27,dt:2,nt:9,next:14152,nextCheck:39612,str:86,h:0,d0:0,d1:0;
+                                ("infection forms...", Expression<String> @:14152 check:39612,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:23818,h:0,d0:23818,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:14153 check:39613,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:11057,h:2,d0:14154,d1:39614;
+                ("ai_place", Expression<MethodOrOperator> @:14154 check:39614,op:290,dt:2,nt:9,next:14155,nextCheck:39615,str:1415,h:0,d0:0,d1:0;
+                    ("plugholder_bk_infec_b", Expression<AI> @:14155 check:39615,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:23778,h:0,d0:33,d1:0;))))))

@@ -1,10 +1,10 @@
 
-("music_03b_03_stop", MethodDecl<Void> @:191 op:0,dt:0,nt:65535,next:5961,str:22176,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5961 op:0,dt:4,nt:8,next:65535,str:5001,d0:5962,d1:64189;
-        ("begin", Expression<MethodOrOperator> @:5962 op:0,dt:2,nt:9,next:5955,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5955 op:27,dt:4,nt:8,next:5958,str:5037,d0:5956,d1:64183;
-                ("print", Expression<MethodOrOperator> @:5956 op:27,dt:2,nt:9,next:5957,str:91,d0:0,d1:0;
-                    ("music 03b_03 stop", Expression<String> @:5957 op:9,dt:9,nt:9,next:65535,str:13526,d0:13526,d1:0;)))
-            (____, BuiltinInvocation<Void> @:5958 op:606,dt:4,nt:8,next:65535,str:5067,d0:5959,d1:64186;
-                ("sound_looping_stop", Expression<MethodOrOperator> @:5959 op:606,dt:2,nt:9,next:5960,str:13286,d0:0,d1:0;
-                    ("scenarios\solo\03b_newmombasa\03b_music\03b_03", Expression<LoopingSound> @:5960 op:35,dt:35,nt:9,next:65535,str:13544,d0:8741,d1:33771;))))))
+("music_03b_03_stop", MethodDecl<Void> @:191 check:0,op:0,dt:0,nt:65535,next:5961,nextCheck:64188,str:22176,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5961 check:64188,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:5001,h:1,d0:5962,d1:64189;
+        ("begin", Expression<MethodOrOperator> @:5962 check:64189,op:0,dt:2,nt:9,next:5955,nextCheck:64182,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5955 check:64182,op:27,dt:4,nt:8,next:5958,nextCheck:64185,str:5037,h:1,d0:5956,d1:64183;
+                ("print", Expression<MethodOrOperator> @:5956 check:64183,op:27,dt:2,nt:9,next:5957,nextCheck:64184,str:91,h:0,d0:0,d1:0;
+                    ("music 03b_03 stop", Expression<String> @:5957 check:64184,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13526,h:0,d0:13526,d1:0;)))
+            (____, BuiltinInvocation<Void> @:5958 check:64185,op:606,dt:4,nt:8,next:65535,nextCheck:65535,str:5067,h:1,d0:5959,d1:64186;
+                ("sound_looping_stop", Expression<MethodOrOperator> @:5959 check:64186,op:606,dt:2,nt:9,next:5960,nextCheck:64187,str:13286,h:0,d0:0,d1:0;
+                    ("scenarios\solo\03b_newmombasa\03b_music\03b_03", Expression<LoopingSound> @:5960 check:64187,op:35,dt:35,nt:9,next:65535,nextCheck:65535,str:13544,h:0,d0:8741,d1:33771;))))))

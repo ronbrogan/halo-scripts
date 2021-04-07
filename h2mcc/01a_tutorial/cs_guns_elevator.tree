@@ -1,21 +1,21 @@
 
-("cs_guns_elevator", MethodDecl<Void> @:44 op:0,dt:0,nt:65535,next:1366,str:13263,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:1366 op:0,dt:4,nt:8,next:65535,str:14217,d0:1367,d1:59594;
-        ("begin", Expression<MethodOrOperator> @:1367 op:0,dt:2,nt:9,next:1349,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:1349 op:448,dt:4,nt:8,next:1352,str:14259,d0:1350,d1:59577;
-                ("cs_force_combat_status", Expression<MethodOrOperator> @:1350 op:448,dt:2,nt:9,next:1351,str:1430,d0:0,d1:0;
-                    (2, Expression<Short> @:1351 op:7,dt:7,nt:9,next:65535,str:14283,d0:2,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1352 op:444,dt:4,nt:8,next:1355,str:14288,d0:1353,d1:59580;
-                ("cs_enable_moving", Expression<MethodOrOperator> @:1353 op:444,dt:2,nt:9,next:1354,str:1453,d0:0,d1:0;
-                    (False, Expression<Boolean> @:1354 op:5,dt:5,nt:9,next:65535,str:14306,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1355 op:449,dt:4,nt:8,next:1358,str:14311,d0:1356,d1:59583;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:1356 op:449,dt:2,nt:9,next:1357,str:1470,d0:0,d1:0;
-                    (True, Expression<Boolean> @:1357 op:5,dt:5,nt:9,next:65535,str:14343,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1358 op:385,dt:4,nt:8,next:1361,str:14348,d0:1359,d1:59586;
-                ("cs_go_to", Expression<MethodOrOperator> @:1359 op:385,dt:2,nt:9,next:1360,str:1501,d0:0,d1:0;
-                    ("guns_points/elevator", Expression<SpatialPoint> @:1360 op:28,dt:28,nt:9,next:65535,str:1661,d0:0,d1:0;)))
-            (____, BuiltinInvocation<Void> @:1361 op:400,dt:4,nt:8,next:1364,str:14382,d0:1362,d1:59589;
-                ("cs_face_player", Expression<MethodOrOperator> @:1362 op:400,dt:2,nt:9,next:1363,str:1194,d0:0,d1:0;
-                    (True, Expression<Boolean> @:1363 op:5,dt:5,nt:9,next:65535,str:14398,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1364 op:20,dt:4,nt:8,next:65535,str:14403,d0:1365,d1:59592;
-                ("sleep_forever", Expression<MethodOrOperator> @:1365 op:20,dt:2,nt:9,next:65535,str:1209,d0:0,d1:0;)))))
+("cs_guns_elevator", MethodDecl<Void> @:44 check:0,op:0,dt:0,nt:65535,next:1366,nextCheck:59593,str:13263,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:1366 check:59593,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:14217,h:0,d0:1367,d1:59594;
+        ("begin", Expression<MethodOrOperator> @:1367 check:59594,op:0,dt:2,nt:9,next:1349,nextCheck:59576,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1349 check:59576,op:448,dt:4,nt:8,next:1352,nextCheck:59579,str:14259,h:0,d0:1350,d1:59577;
+                ("cs_force_combat_status", Expression<MethodOrOperator> @:1350 check:59577,op:448,dt:2,nt:9,next:1351,nextCheck:59578,str:1430,h:0,d0:0,d1:0;
+                    (2, Expression<Short> @:1351 check:59578,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:14283,h:0,d0:2,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1352 check:59579,op:444,dt:4,nt:8,next:1355,nextCheck:59582,str:14288,h:0,d0:1353,d1:59580;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:1353 check:59580,op:444,dt:2,nt:9,next:1354,nextCheck:59581,str:1453,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:1354 check:59581,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:14306,h:0,d0:65280,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1355 check:59582,op:449,dt:4,nt:8,next:1358,nextCheck:59585,str:14311,h:0,d0:1356,d1:59583;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:1356 check:59583,op:449,dt:2,nt:9,next:1357,nextCheck:59584,str:1470,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:1357 check:59584,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:14343,h:0,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1358 check:59585,op:385,dt:4,nt:8,next:1361,nextCheck:59588,str:14348,h:0,d0:1359,d1:59586;
+                ("cs_go_to", Expression<MethodOrOperator> @:1359 check:59586,op:385,dt:2,nt:9,next:1360,nextCheck:59587,str:1501,h:0,d0:0,d1:0;
+                    ("guns_points/elevator", Expression<SpatialPoint> @:1360 check:59587,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:1661,h:0,d0:0,d1:0;)))
+            (____, BuiltinInvocation<Void> @:1361 check:59588,op:400,dt:4,nt:8,next:1364,nextCheck:59591,str:14382,h:0,d0:1362,d1:59589;
+                ("cs_face_player", Expression<MethodOrOperator> @:1362 check:59589,op:400,dt:2,nt:9,next:1363,nextCheck:59590,str:1194,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:1363 check:59590,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:14398,h:0,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1364 check:59591,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:14403,h:0,d0:1365,d1:59592;
+                ("sleep_forever", Expression<MethodOrOperator> @:1365 check:59592,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:1209,h:0,d0:0,d1:0;)))))

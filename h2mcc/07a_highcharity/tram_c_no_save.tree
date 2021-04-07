@@ -1,19 +1,19 @@
 
-("tram_c_no_save", MethodDecl<Void> @:381 op:0,dt:0,nt:65535,next:18840,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:18840 op:0,dt:4,nt:8,next:65535,str:12195,d0:18841,d1:44301;
-        ("begin", Expression<MethodOrOperator> @:18841 op:0,dt:2,nt:9,next:18825,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:18825 op:21,dt:4,nt:8,next:65535,str:12228,d0:18826,d1:44286;
-                ("sleep_until", Expression<MethodOrOperator> @:18826 op:21,dt:2,nt:9,next:18827,str:231,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:18827 op:0,dt:5,nt:8,next:18839,str:12244,d0:18828,d1:44288;
-                        ("begin", Expression<MethodOrOperator> @:18828 op:0,dt:2,nt:9,next:18829,str:1,d0:0,d1:0;
-                            (____, BuiltinInvocation<Void> @:18829 op:2,dt:4,nt:8,next:18838,str:12255,d0:18830,d1:44290;
-                                ("if", Expression<MethodOrOperator> @:18830 op:2,dt:2,nt:9,next:18831,str:456,d0:0,d1:0;
-                                    (____, BuiltinInvocation<Boolean> @:18831 op:33,dt:5,nt:8,next:18836,str:12259,d0:18832,d1:44292;
-                                        ("volume_test_objects", Expression<MethodOrOperator> @:18832 op:33,dt:2,nt:9,next:18833,str:17358,d0:0,d1:0;
-                                            ("tv_tram_c_no_save", Expression<Trigger> @:18833 op:13,dt:13,nt:9,next:18834,str:37287,d0:137,d1:0;
-                                                (____, BuiltinInvocation<List> @:18834 op:28,dt:31,nt:8,next:65535,str:12298,d0:18835,d1:44295;
-                                                    ("players", Expression<MethodOrOperator> @:18835 op:28,dt:2,nt:9,next:65535,str:21,d0:0,d1:0;)))))
-                                    (____, BuiltinInvocation<Void> @:18836 op:588,dt:4,nt:8,next:65535,str:12309,d0:18837,d1:44297;
-                                        ("game_save_cancel", Expression<MethodOrOperator> @:18837 op:588,dt:2,nt:9,next:65535,str:37252,d0:0,d1:0;))))
-                            (False, Expression<Boolean> @:18838 op:5,dt:5,nt:9,next:65535,str:12332,d0:65280,d1:65535;)))
-                    (1, Expression<Short> @:18839 op:7,dt:7,nt:9,next:65535,str:12341,d0:1,d1:65535;))))))
+("tram_c_no_save", MethodDecl<Void> @:381 check:0,op:0,dt:0,nt:65535,next:18840,nextCheck:44300,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:18840 check:44300,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:12195,h:3,d0:18841,d1:44301;
+        ("begin", Expression<MethodOrOperator> @:18841 check:44301,op:0,dt:2,nt:9,next:18825,nextCheck:44285,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:18825 check:44285,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:12228,h:3,d0:18826,d1:44286;
+                ("sleep_until", Expression<MethodOrOperator> @:18826 check:44286,op:21,dt:2,nt:9,next:18827,nextCheck:44287,str:231,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:18827 check:44287,op:0,dt:5,nt:8,next:18839,nextCheck:44299,str:12244,h:3,d0:18828,d1:44288;
+                        ("begin", Expression<MethodOrOperator> @:18828 check:44288,op:0,dt:2,nt:9,next:18829,nextCheck:44289,str:1,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Void> @:18829 check:44289,op:2,dt:4,nt:8,next:18838,nextCheck:44298,str:12255,h:3,d0:18830,d1:44290;
+                                ("if", Expression<MethodOrOperator> @:18830 check:44290,op:2,dt:2,nt:9,next:18831,nextCheck:44291,str:456,h:0,d0:0,d1:0;
+                                    (____, BuiltinInvocation<Boolean> @:18831 check:44291,op:33,dt:5,nt:8,next:18836,nextCheck:44296,str:12259,h:3,d0:18832,d1:44292;
+                                        ("volume_test_objects", Expression<MethodOrOperator> @:18832 check:44292,op:33,dt:2,nt:9,next:18833,nextCheck:44293,str:17358,h:0,d0:0,d1:0;
+                                            ("tv_tram_c_no_save", Expression<Trigger> @:18833 check:44293,op:13,dt:13,nt:9,next:18834,nextCheck:44294,str:37287,h:0,d0:137,d1:0;
+                                                (____, BuiltinInvocation<List> @:18834 check:44294,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:12298,h:3,d0:18835,d1:44295;
+                                                    ("players", Expression<MethodOrOperator> @:18835 check:44295,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:21,h:0,d0:0,d1:0;)))))
+                                    (____, BuiltinInvocation<Void> @:18836 check:44296,op:588,dt:4,nt:8,next:65535,nextCheck:65535,str:12309,h:3,d0:18837,d1:44297;
+                                        ("game_save_cancel", Expression<MethodOrOperator> @:18837 check:44297,op:588,dt:2,nt:9,next:65535,nextCheck:65535,str:37252,h:0,d0:0,d1:0;))))
+                            (False, Expression<Boolean> @:18838 check:44298,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:12332,h:3,d0:65280,d1:65535;)))
+                    (1, Expression<Short> @:18839 check:44299,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:12341,h:3,d0:1,d1:65535;))))))

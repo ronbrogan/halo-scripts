@@ -1,15 +1,15 @@
 
-("x01_foley_03", MethodDecl<Void> @:77 op:0,dt:0,nt:65535,next:5240,str:8396,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5240 op:0,dt:4,nt:8,next:65535,str:10012,d0:5241,d1:63468;
-        ("begin", Expression<MethodOrOperator> @:5241 op:0,dt:2,nt:9,next:5229,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5229 op:19,dt:4,nt:8,next:5232,str:10043,d0:5230,d1:63457;
-                ("sleep", Expression<MethodOrOperator> @:5230 op:19,dt:2,nt:9,next:5231,str:80,d0:0,d1:0;
-                    (0, Expression<Short> @:5231 op:7,dt:7,nt:9,next:65535,str:10050,d0:0,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5232 op:596,dt:4,nt:8,next:5237,str:10055,d0:5233,d1:63460;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:5233 op:596,dt:2,nt:9,next:5234,str:3766,d0:0,d1:0;
-                    ("sound\cinematics\01_spacestation\x01\foley\x01_03_fol", Expression<Sound> @:5234 op:32,dt:32,nt:9,next:5235,str:8178,d0:2724,d1:60442;
-                        (4294967295, Expression<Entity> @:5235 op:50,dt:50,nt:9,next:5236,str:3840,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:5236 op:6,dt:6,nt:9,next:65535,str:10135,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:5237 op:27,dt:4,nt:8,next:65535,str:10140,d0:5238,d1:63465;
-                ("print", Expression<MethodOrOperator> @:5238 op:27,dt:2,nt:9,next:5239,str:86,d0:0,d1:0;
-                    ("x01 foley 03 start", Expression<String> @:5239 op:9,dt:9,nt:9,next:65535,str:8247,d0:8247,d1:0;))))))
+("x01_foley_03", MethodDecl<Void> @:77 check:0,op:0,dt:0,nt:65535,next:5240,nextCheck:63467,str:8396,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5240 check:63467,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:10012,h:1,d0:5241,d1:63468;
+        ("begin", Expression<MethodOrOperator> @:5241 check:63468,op:0,dt:2,nt:9,next:5229,nextCheck:63456,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5229 check:63456,op:19,dt:4,nt:8,next:5232,nextCheck:63459,str:10043,h:1,d0:5230,d1:63457;
+                ("sleep", Expression<MethodOrOperator> @:5230 check:63457,op:19,dt:2,nt:9,next:5231,nextCheck:63458,str:80,h:0,d0:0,d1:0;
+                    (0, Expression<Short> @:5231 check:63458,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:10050,h:1,d0:0,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5232 check:63459,op:596,dt:4,nt:8,next:5237,nextCheck:63464,str:10055,h:1,d0:5233,d1:63460;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:5233 check:63460,op:596,dt:2,nt:9,next:5234,nextCheck:63461,str:3766,h:0,d0:0,d1:0;
+                    ("sound\cinematics\01_spacestation\x01\foley\x01_03_fol", Expression<Sound> @:5234 check:63461,op:32,dt:32,nt:9,next:5235,nextCheck:63462,str:8178,h:0,d0:2724,d1:60442;
+                        (4294967295, Expression<Entity> @:5235 check:63462,op:50,dt:50,nt:9,next:5236,nextCheck:63463,str:3840,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:5236 check:63463,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:10135,h:1,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:5237 check:63464,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:10140,h:1,d0:5238,d1:63465;
+                ("print", Expression<MethodOrOperator> @:5238 check:63465,op:27,dt:2,nt:9,next:5239,nextCheck:63466,str:86,h:0,d0:0,d1:0;
+                    ("x01 foley 03 start", Expression<String> @:5239 check:63466,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8247,h:0,d0:8247,d1:0;))))))

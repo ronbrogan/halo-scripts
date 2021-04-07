@@ -1,24 +1,24 @@
 
-("players_in_vehicle", MethodDecl<Boolean> @:197 op:0,dt:0,nt:65535,next:6082,str:19548,d0:0,d1:0;
-    (____, BuiltinInvocation<Boolean> @:6082 op:0,dt:5,nt:8,next:65535,str:6159,d0:6083,d1:64310;
-        ("begin", Expression<MethodOrOperator> @:6083 op:0,dt:2,nt:9,next:6062,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Boolean> @:6062 op:5,dt:5,nt:8,next:65535,str:6203,d0:6063,d1:64290;
-                ("and", Expression<MethodOrOperator> @:6063 op:5,dt:2,nt:9,next:6064,str:672,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:6064 op:222,dt:5,nt:8,next:6070,str:6211,d0:6065,d1:64292;
-                        ("unit_in_vehicle", Expression<MethodOrOperator> @:6065 op:222,dt:2,nt:9,next:6066,str:13745,d0:0,d1:0;
-                            (____, BuiltinInvocation<Unit> @:6066 op:24,dt:51,nt:8,next:65535,str:6228,d0:6067,d1:64294;
-                                ("unit", Expression<MethodOrOperator> @:6067 op:24,dt:2,nt:9,next:6068,str:12,d0:0,d1:0;
-                                    ("player0", ScriptInvocation<Entity> @:6068 op:0,dt:50,nt:10,next:65535,str:6234,d0:6069,d1:64296;
-                                        ("player0", Expression<MethodOrOperator> @:6069 op:0,dt:2,nt:9,next:65535,str:607,d0:0,d1:0;))))))
-                    (____, BuiltinInvocation<Boolean> @:6070 op:6,dt:5,nt:8,next:65535,str:6249,d0:6071,d1:64298;
-                        ("or", Expression<MethodOrOperator> @:6071 op:6,dt:2,nt:9,next:6072,str:849,d0:0,d1:0;
-                            (____, BuiltinInvocation<Boolean> @:6072 op:25,dt:5,nt:8,next:6076,str:6258,d0:6073,d1:64300;
-                                ("not", Expression<MethodOrOperator> @:6073 op:25,dt:2,nt:9,next:6074,str:402,d0:0,d1:0;
-                                    (____, BuiltinInvocation<Boolean> @:6074 op:568,dt:5,nt:8,next:65535,str:6263,d0:6075,d1:64302;
-                                        ("game_is_cooperative", Expression<MethodOrOperator> @:6075 op:568,dt:2,nt:9,next:65535,str:13761,d0:0,d1:0;))))
-                            (____, BuiltinInvocation<Boolean> @:6076 op:222,dt:5,nt:8,next:65535,str:6290,d0:6077,d1:64304;
-                                ("unit_in_vehicle", Expression<MethodOrOperator> @:6077 op:222,dt:2,nt:9,next:6078,str:13745,d0:0,d1:0;
-                                    (____, BuiltinInvocation<Unit> @:6078 op:24,dt:51,nt:8,next:65535,str:6307,d0:6079,d1:64306;
-                                        ("unit", Expression<MethodOrOperator> @:6079 op:24,dt:2,nt:9,next:6080,str:12,d0:0,d1:0;
-                                            ("player1", ScriptInvocation<Entity> @:6080 op:1,dt:50,nt:10,next:65535,str:6313,d0:6081,d1:64308;
-                                                ("player1", Expression<MethodOrOperator> @:6081 op:1,dt:2,nt:9,next:65535,str:615,d0:0,d1:0;)))))))))))))
+("players_in_vehicle", MethodDecl<Boolean> @:197 check:0,op:0,dt:0,nt:65535,next:6082,nextCheck:64309,str:19548,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Boolean> @:6082 check:64309,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:6159,h:1,d0:6083,d1:64310;
+        ("begin", Expression<MethodOrOperator> @:6083 check:64310,op:0,dt:2,nt:9,next:6062,nextCheck:64289,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Boolean> @:6062 check:64289,op:5,dt:5,nt:8,next:65535,nextCheck:65535,str:6203,h:1,d0:6063,d1:64290;
+                ("and", Expression<MethodOrOperator> @:6063 check:64290,op:5,dt:2,nt:9,next:6064,nextCheck:64291,str:672,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:6064 check:64291,op:222,dt:5,nt:8,next:6070,nextCheck:64297,str:6211,h:1,d0:6065,d1:64292;
+                        ("unit_in_vehicle", Expression<MethodOrOperator> @:6065 check:64292,op:222,dt:2,nt:9,next:6066,nextCheck:64293,str:13745,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Unit> @:6066 check:64293,op:24,dt:51,nt:8,next:65535,nextCheck:65535,str:6228,h:1,d0:6067,d1:64294;
+                                ("unit", Expression<MethodOrOperator> @:6067 check:64294,op:24,dt:2,nt:9,next:6068,nextCheck:64295,str:12,h:0,d0:0,d1:0;
+                                    ("player0", ScriptInvocation<Entity> @:6068 check:64295,op:0,dt:50,nt:10,next:65535,nextCheck:65535,str:6234,h:1,d0:6069,d1:64296;
+                                        ("player0", Expression<MethodOrOperator> @:6069 check:64296,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:607,h:0,d0:0,d1:0;))))))
+                    (____, BuiltinInvocation<Boolean> @:6070 check:64297,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:6249,h:1,d0:6071,d1:64298;
+                        ("or", Expression<MethodOrOperator> @:6071 check:64298,op:6,dt:2,nt:9,next:6072,nextCheck:64299,str:849,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Boolean> @:6072 check:64299,op:25,dt:5,nt:8,next:6076,nextCheck:64303,str:6258,h:1,d0:6073,d1:64300;
+                                ("not", Expression<MethodOrOperator> @:6073 check:64300,op:25,dt:2,nt:9,next:6074,nextCheck:64301,str:402,h:0,d0:0,d1:0;
+                                    (____, BuiltinInvocation<Boolean> @:6074 check:64301,op:568,dt:5,nt:8,next:65535,nextCheck:65535,str:6263,h:1,d0:6075,d1:64302;
+                                        ("game_is_cooperative", Expression<MethodOrOperator> @:6075 check:64302,op:568,dt:2,nt:9,next:65535,nextCheck:65535,str:13761,h:0,d0:0,d1:0;))))
+                            (____, BuiltinInvocation<Boolean> @:6076 check:64303,op:222,dt:5,nt:8,next:65535,nextCheck:65535,str:6290,h:1,d0:6077,d1:64304;
+                                ("unit_in_vehicle", Expression<MethodOrOperator> @:6077 check:64304,op:222,dt:2,nt:9,next:6078,nextCheck:64305,str:13745,h:0,d0:0,d1:0;
+                                    (____, BuiltinInvocation<Unit> @:6078 check:64305,op:24,dt:51,nt:8,next:65535,nextCheck:65535,str:6307,h:1,d0:6079,d1:64306;
+                                        ("unit", Expression<MethodOrOperator> @:6079 check:64306,op:24,dt:2,nt:9,next:6080,nextCheck:64307,str:12,h:0,d0:0,d1:0;
+                                            ("player1", ScriptInvocation<Entity> @:6080 check:64307,op:1,dt:50,nt:10,next:65535,nextCheck:65535,str:6313,h:1,d0:6081,d1:64308;
+                                                ("player1", Expression<MethodOrOperator> @:6081 check:64308,op:1,dt:2,nt:9,next:65535,nextCheck:65535,str:615,h:0,d0:0,d1:0;)))))))))))))

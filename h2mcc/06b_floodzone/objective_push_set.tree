@@ -1,16 +1,16 @@
 
-("objective_push_set", MethodDecl<Void> @:146 op:0,dt:0,nt:65535,next:4623,str:27960,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4623 op:0,dt:4,nt:8,next:65535,str:55196,d0:4624,d1:62851;
-        ("begin", Expression<MethodOrOperator> @:4624 op:0,dt:2,nt:9,next:4611,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4611 op:19,dt:4,nt:8,next:4614,str:55233,d0:4612,d1:62839;
-                ("sleep", Expression<MethodOrOperator> @:4612 op:19,dt:2,nt:9,next:4613,str:85,d0:0,d1:0;
-                    (30, Expression<Short> @:4613 op:7,dt:7,nt:9,next:65535,str:55240,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:4614 op:27,dt:4,nt:8,next:4617,str:55246,d0:4615,d1:62842;
-                ("print", Expression<MethodOrOperator> @:4615 op:27,dt:2,nt:9,next:4616,str:91,d0:0,d1:0;
-                    ("new objective set:", Expression<String> @:4616 op:9,dt:9,nt:9,next:65535,str:11448,d0:11448,d1:0;)))
-            (____, BuiltinInvocation<Void> @:4617 op:27,dt:4,nt:8,next:4620,str:55277,d0:4618,d1:62845;
-                ("print", Expression<MethodOrOperator> @:4618 op:27,dt:2,nt:9,next:4619,str:91,d0:0,d1:0;
-                    ("push through the quarantine-zone toward the library.", Expression<String> @:4619 op:9,dt:9,nt:9,next:65535,str:11467,d0:11467,d1:0;)))
-            (____, BuiltinInvocation<Void> @:4620 op:753,dt:4,nt:8,next:65535,str:55342,d0:4621,d1:62848;
-                ("objectives_show_up_to", Expression<MethodOrOperator> @:4621 op:753,dt:2,nt:9,next:4622,str:11520,d0:0,d1:0;
-                    (0, Expression<Int> @:4622 op:8,dt:8,nt:9,next:65535,str:55365,d0:0,d1:0;))))))
+("objective_push_set", MethodDecl<Void> @:146 check:0,op:0,dt:0,nt:65535,next:4623,nextCheck:62850,str:27960,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4623 check:62850,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:55196,h:0,d0:4624,d1:62851;
+        ("begin", Expression<MethodOrOperator> @:4624 check:62851,op:0,dt:2,nt:9,next:4611,nextCheck:62838,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4611 check:62838,op:19,dt:4,nt:8,next:4614,nextCheck:62841,str:55233,h:0,d0:4612,d1:62839;
+                ("sleep", Expression<MethodOrOperator> @:4612 check:62839,op:19,dt:2,nt:9,next:4613,nextCheck:62840,str:85,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:4613 check:62840,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55240,h:0,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:4614 check:62841,op:27,dt:4,nt:8,next:4617,nextCheck:62844,str:55246,h:0,d0:4615,d1:62842;
+                ("print", Expression<MethodOrOperator> @:4615 check:62842,op:27,dt:2,nt:9,next:4616,nextCheck:62843,str:91,h:0,d0:0,d1:0;
+                    ("new objective set:", Expression<String> @:4616 check:62843,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:11448,h:0,d0:11448,d1:0;)))
+            (____, BuiltinInvocation<Void> @:4617 check:62844,op:27,dt:4,nt:8,next:4620,nextCheck:62847,str:55277,h:0,d0:4618,d1:62845;
+                ("print", Expression<MethodOrOperator> @:4618 check:62845,op:27,dt:2,nt:9,next:4619,nextCheck:62846,str:91,h:0,d0:0,d1:0;
+                    ("push through the quarantine-zone toward the library.", Expression<String> @:4619 check:62846,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:11467,h:0,d0:11467,d1:0;)))
+            (____, BuiltinInvocation<Void> @:4620 check:62847,op:753,dt:4,nt:8,next:65535,nextCheck:65535,str:55342,h:0,d0:4621,d1:62848;
+                ("objectives_show_up_to", Expression<MethodOrOperator> @:4621 check:62848,op:753,dt:2,nt:9,next:4622,nextCheck:62849,str:11520,h:0,d0:0,d1:0;
+                    (0, Expression<Int> @:4622 check:62849,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:55365,h:0,d0:0,d1:0;))))))

@@ -1,17 +1,17 @@
 
-("x05_0190_cor", MethodDecl<Void> @:77 op:0,dt:0,nt:65535,next:2334,str:5964,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2334 op:0,dt:4,nt:8,next:65535,str:27050,d0:2335,d1:60562;
-        ("begin", Expression<MethodOrOperator> @:2335 op:0,dt:2,nt:9,next:2321,str:54,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2321 op:19,dt:4,nt:8,next:2324,str:27081,d0:2322,d1:60549;
-                ("sleep", Expression<MethodOrOperator> @:2322 op:19,dt:2,nt:9,next:2323,str:133,d0:0,d1:0;
-                    (550, Expression<Short> @:2323 op:7,dt:7,nt:9,next:65535,str:27088,d0:550,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2324 op:598,dt:4,nt:8,next:2330,str:27095,d0:2325,d1:60552;
-                ("sound_impulse_start_effect", Expression<MethodOrOperator> @:2325 op:598,dt:2,nt:9,next:2326,str:3061,d0:0,d1:0;
-                    ("sound\dialog\levels\05_deltatemple\cinematics\x05_0190_cor", Expression<Sound> @:2326 op:32,dt:32,nt:9,next:2327,str:5905,d0:959,d1:58677;
-                        (4294967295, Expression<Entity> @:2327 op:50,dt:50,nt:9,next:2328,str:1392,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:2328 op:6,dt:6,nt:9,next:2329,str:27187,d0:0,d1:16256;
-                                ("radio_default_loop", Expression<StringId> @:2329 op:11,dt:11,nt:9,next:65535,str:3446,d0:14220,d1:4608;))))))
-            (____, BuiltinInvocation<Void> @:2330 op:562,dt:4,nt:8,next:65535,str:27211,d0:2331,d1:60558;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:2331 op:562,dt:2,nt:9,next:2332,str:2567,d0:0,d1:0;
-                    ("x05_0190_cor", Expression<StringId> @:2332 op:11,dt:11,nt:9,next:2333,str:5964,d0:5079,d1:3072;
-                        (1f, Expression<Float> @:2333 op:6,dt:6,nt:9,next:65535,str:27244,d0:0,d1:16256;)))))))
+("x05_0190_cor", MethodDecl<Void> @:77 check:0,op:0,dt:0,nt:65535,next:2334,nextCheck:60561,str:5964,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2334 check:60561,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:27050,h:0,d0:2335,d1:60562;
+        ("begin", Expression<MethodOrOperator> @:2335 check:60562,op:0,dt:2,nt:9,next:2321,nextCheck:60548,str:54,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2321 check:60548,op:19,dt:4,nt:8,next:2324,nextCheck:60551,str:27081,h:0,d0:2322,d1:60549;
+                ("sleep", Expression<MethodOrOperator> @:2322 check:60549,op:19,dt:2,nt:9,next:2323,nextCheck:60550,str:133,h:0,d0:0,d1:0;
+                    (550, Expression<Short> @:2323 check:60550,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:27088,h:0,d0:550,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2324 check:60551,op:598,dt:4,nt:8,next:2330,nextCheck:60557,str:27095,h:0,d0:2325,d1:60552;
+                ("sound_impulse_start_effect", Expression<MethodOrOperator> @:2325 check:60552,op:598,dt:2,nt:9,next:2326,nextCheck:60553,str:3061,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\05_deltatemple\cinematics\x05_0190_cor", Expression<Sound> @:2326 check:60553,op:32,dt:32,nt:9,next:2327,nextCheck:60554,str:5905,h:0,d0:959,d1:58677;
+                        (4294967295, Expression<Entity> @:2327 check:60554,op:50,dt:50,nt:9,next:2328,nextCheck:60555,str:1392,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:2328 check:60555,op:6,dt:6,nt:9,next:2329,nextCheck:60556,str:27187,h:0,d0:0,d1:16256;
+                                ("radio_default_loop", Expression<StringId> @:2329 check:60556,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:3446,h:0,d0:14220,d1:4608;))))))
+            (____, BuiltinInvocation<Void> @:2330 check:60557,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:27211,h:0,d0:2331,d1:60558;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:2331 check:60558,op:562,dt:2,nt:9,next:2332,nextCheck:60559,str:2567,h:0,d0:0,d1:0;
+                    ("x05_0190_cor", Expression<StringId> @:2332 check:60559,op:11,dt:11,nt:9,next:2333,nextCheck:60560,str:5964,h:0,d0:5079,d1:3072;
+                        (1f, Expression<Float> @:2333 check:60560,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:27244,h:0,d0:0,d1:16256;)))))))

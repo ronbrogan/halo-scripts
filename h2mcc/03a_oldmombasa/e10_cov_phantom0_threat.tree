@@ -1,10 +1,10 @@
 
-("e10_cov_phantom0_threat", MethodDecl<Boolean> @:239 op:0,dt:0,nt:65535,next:8872,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Boolean> @:8872 op:0,dt:5,nt:8,next:65535,str:42340,d0:8873,d1:34333;
-        ("begin", Expression<MethodOrOperator> @:8873 op:0,dt:2,nt:9,next:8866,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Boolean> @:8866 op:5,dt:5,nt:8,next:65535,str:42389,d0:8867,d1:34327;
-                ("and", Expression<MethodOrOperator> @:8867 op:5,dt:2,nt:9,next:8868,str:730,d0:0,d1:0;
-                    ("g_e10_cov_phantom0_arrived", VariableAccess<Boolean> @:8868 op:5,dt:5,nt:13,next:8869,str:17190,d0:21,d1:0;
-                        (____, BuiltinInvocation<Boolean> @:8869 op:25,dt:5,nt:8,next:65535,str:42427,d0:8870,d1:34330;
-                            ("not", Expression<MethodOrOperator> @:8870 op:25,dt:2,nt:9,next:8871,str:460,d0:0,d1:0;
-                                ("g_e10_cov_phantom0_leaving", VariableAccess<Boolean> @:8871 op:5,dt:5,nt:13,next:65535,str:16042,d0:18,d1:0;)))))))))
+("e10_cov_phantom0_threat", MethodDecl<Boolean> @:239 check:0,op:0,dt:0,nt:65535,next:8872,nextCheck:34332,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Boolean> @:8872 check:34332,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:42340,h:1,d0:8873,d1:34333;
+        ("begin", Expression<MethodOrOperator> @:8873 check:34333,op:0,dt:2,nt:9,next:8866,nextCheck:34326,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Boolean> @:8866 check:34326,op:5,dt:5,nt:8,next:65535,nextCheck:65535,str:42389,h:1,d0:8867,d1:34327;
+                ("and", Expression<MethodOrOperator> @:8867 check:34327,op:5,dt:2,nt:9,next:8868,nextCheck:34328,str:730,h:0,d0:0,d1:0;
+                    ("g_e10_cov_phantom0_arrived", VariableAccess<Boolean> @:8868 check:34328,op:5,dt:5,nt:13,next:8869,nextCheck:34329,str:17190,h:0,d0:21,d1:0;
+                        (____, BuiltinInvocation<Boolean> @:8869 check:34329,op:25,dt:5,nt:8,next:65535,nextCheck:65535,str:42427,h:1,d0:8870,d1:34330;
+                            ("not", Expression<MethodOrOperator> @:8870 check:34330,op:25,dt:2,nt:9,next:8871,nextCheck:34331,str:460,h:0,d0:0,d1:0;
+                                ("g_e10_cov_phantom0_leaving", VariableAccess<Boolean> @:8871 check:34331,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:16042,h:0,d0:18,d1:0;)))))))))

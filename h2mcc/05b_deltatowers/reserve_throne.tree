@@ -1,16 +1,16 @@
 
-("reserve_throne", MethodDecl<Void> @:282 op:0,dt:0,nt:65535,next:18767,str:31058,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:18767 op:0,dt:4,nt:8,next:65535,str:2593,d0:18768,d1:44228;
-        ("begin", Expression<MethodOrOperator> @:18768 op:0,dt:2,nt:9,next:18755,str:142,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:18755 op:19,dt:4,nt:8,next:18758,str:2633,d0:18756,d1:44216;
-                ("sleep", Expression<MethodOrOperator> @:18756 op:19,dt:2,nt:9,next:18757,str:221,d0:0,d1:0;
-                    (2, Expression<Short> @:18757 op:7,dt:7,nt:9,next:65535,str:2640,d0:2,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:18758 op:343,dt:4,nt:8,next:18764,str:2645,d0:18759,d1:44219;
-                ("ai_vehicle_reserve", Expression<MethodOrOperator> @:18759 op:343,dt:2,nt:9,next:18760,str:13746,d0:0,d1:0;
-                    (____, BuiltinInvocation<Vehicle> @:18760 op:340,dt:52,nt:8,next:18763,str:2665,d0:18761,d1:44221;
-                        ("ai_vehicle_get", Expression<MethodOrOperator> @:18761 op:340,dt:2,nt:9,next:18762,str:30944,d0:0,d1:0;
-                            ("ai_current_actor", VariableAccess<AI> @:18762 op:19,dt:19,nt:13,next:65535,str:16356,d0:33564,d1:65535;)))
-                    (True, Expression<Boolean> @:18763 op:5,dt:5,nt:9,next:65535,str:2699,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:18764 op:19,dt:4,nt:8,next:65535,str:2707,d0:18765,d1:44225;
-                ("sleep", Expression<MethodOrOperator> @:18765 op:19,dt:2,nt:9,next:18766,str:221,d0:0,d1:0;
-                    (2, Expression<Short> @:18766 op:7,dt:7,nt:9,next:65535,str:2714,d0:2,d1:65535;))))))
+("reserve_throne", MethodDecl<Void> @:282 check:0,op:0,dt:0,nt:65535,next:18767,nextCheck:44227,str:31058,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:18767 check:44227,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:2593,h:3,d0:18768,d1:44228;
+        ("begin", Expression<MethodOrOperator> @:18768 check:44228,op:0,dt:2,nt:9,next:18755,nextCheck:44215,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:18755 check:44215,op:19,dt:4,nt:8,next:18758,nextCheck:44218,str:2633,h:3,d0:18756,d1:44216;
+                ("sleep", Expression<MethodOrOperator> @:18756 check:44216,op:19,dt:2,nt:9,next:18757,nextCheck:44217,str:221,h:0,d0:0,d1:0;
+                    (2, Expression<Short> @:18757 check:44217,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2640,h:3,d0:2,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:18758 check:44218,op:343,dt:4,nt:8,next:18764,nextCheck:44224,str:2645,h:3,d0:18759,d1:44219;
+                ("ai_vehicle_reserve", Expression<MethodOrOperator> @:18759 check:44219,op:343,dt:2,nt:9,next:18760,nextCheck:44220,str:13746,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Vehicle> @:18760 check:44220,op:340,dt:52,nt:8,next:18763,nextCheck:44223,str:2665,h:3,d0:18761,d1:44221;
+                        ("ai_vehicle_get", Expression<MethodOrOperator> @:18761 check:44221,op:340,dt:2,nt:9,next:18762,nextCheck:44222,str:30944,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:18762 check:44222,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:16356,h:0,d0:33564,d1:65535;)))
+                    (True, Expression<Boolean> @:18763 check:44223,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:2699,h:3,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:18764 check:44224,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:2707,h:3,d0:18765,d1:44225;
+                ("sleep", Expression<MethodOrOperator> @:18765 check:44225,op:19,dt:2,nt:9,next:18766,nextCheck:44226,str:221,h:0,d0:0,d1:0;
+                    (2, Expression<Short> @:18766 check:44226,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2714,h:3,d0:2,d1:65535;))))))

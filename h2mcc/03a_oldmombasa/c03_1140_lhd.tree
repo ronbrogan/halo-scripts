@@ -1,17 +1,17 @@
 
-("c03_1140_lhd", MethodDecl<Void> @:85 op:0,dt:0,nt:65535,next:2707,str:6233,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2707 op:0,dt:4,nt:8,next:65535,str:30040,d0:2708,d1:60935;
-        ("begin", Expression<MethodOrOperator> @:2708 op:0,dt:2,nt:9,next:2694,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2694 op:19,dt:4,nt:8,next:2697,str:30071,d0:2695,d1:60922;
-                ("sleep", Expression<MethodOrOperator> @:2695 op:19,dt:2,nt:9,next:2696,str:143,d0:0,d1:0;
-                    (314, Expression<Short> @:2696 op:7,dt:7,nt:9,next:65535,str:30078,d0:314,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2697 op:598,dt:4,nt:8,next:2703,str:30085,d0:2698,d1:60925;
-                ("sound_impulse_start_effect", Expression<MethodOrOperator> @:2698 op:598,dt:2,nt:9,next:2699,str:1726,d0:0,d1:0;
-                    ("sound\dialog\levels\03_earthcity\cinematic\c03_1140_lhd", Expression<Sound> @:2699 op:32,dt:32,nt:9,next:2700,str:6177,d0:986,d1:58704;
-                        (4294967295, Expression<Entity> @:2700 op:50,dt:50,nt:9,next:2701,str:1,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:2701 op:6,dt:6,nt:9,next:2702,str:30174,d0:0,d1:16256;
-                                ("radio_default_out", Expression<StringId> @:2702 op:11,dt:11,nt:9,next:65535,str:5117,d0:14743,d1:4352;))))))
-            (____, BuiltinInvocation<Void> @:2703 op:562,dt:4,nt:8,next:65535,str:30197,d0:2704,d1:60931;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:2704 op:562,dt:2,nt:9,next:2705,str:1625,d0:0,d1:0;
-                    ("c03_1140_lhd", Expression<StringId> @:2705 op:11,dt:11,nt:9,next:2706,str:6233,d0:5083,d1:3072;
-                        (5f, Expression<Float> @:2706 op:6,dt:6,nt:9,next:65535,str:30230,d0:0,d1:16544;)))))))
+("c03_1140_lhd", MethodDecl<Void> @:85 check:0,op:0,dt:0,nt:65535,next:2707,nextCheck:60934,str:6233,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2707 check:60934,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:30040,h:0,d0:2708,d1:60935;
+        ("begin", Expression<MethodOrOperator> @:2708 check:60935,op:0,dt:2,nt:9,next:2694,nextCheck:60921,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2694 check:60921,op:19,dt:4,nt:8,next:2697,nextCheck:60924,str:30071,h:0,d0:2695,d1:60922;
+                ("sleep", Expression<MethodOrOperator> @:2695 check:60922,op:19,dt:2,nt:9,next:2696,nextCheck:60923,str:143,h:0,d0:0,d1:0;
+                    (314, Expression<Short> @:2696 check:60923,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:30078,h:0,d0:314,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2697 check:60924,op:598,dt:4,nt:8,next:2703,nextCheck:60930,str:30085,h:0,d0:2698,d1:60925;
+                ("sound_impulse_start_effect", Expression<MethodOrOperator> @:2698 check:60925,op:598,dt:2,nt:9,next:2699,nextCheck:60926,str:1726,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\03_earthcity\cinematic\c03_1140_lhd", Expression<Sound> @:2699 check:60926,op:32,dt:32,nt:9,next:2700,nextCheck:60927,str:6177,h:0,d0:986,d1:58704;
+                        (4294967295, Expression<Entity> @:2700 check:60927,op:50,dt:50,nt:9,next:2701,nextCheck:60928,str:1,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:2701 check:60928,op:6,dt:6,nt:9,next:2702,nextCheck:60929,str:30174,h:0,d0:0,d1:16256;
+                                ("radio_default_out", Expression<StringId> @:2702 check:60929,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:5117,h:0,d0:14743,d1:4352;))))))
+            (____, BuiltinInvocation<Void> @:2703 check:60930,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:30197,h:0,d0:2704,d1:60931;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:2704 check:60931,op:562,dt:2,nt:9,next:2705,nextCheck:60932,str:1625,h:0,d0:0,d1:0;
+                    ("c03_1140_lhd", Expression<StringId> @:2705 check:60932,op:11,dt:11,nt:9,next:2706,nextCheck:60933,str:6233,h:0,d0:5083,d1:3072;
+                        (5f, Expression<Float> @:2706 check:60933,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:30230,h:0,d0:0,d1:16544;)))))))

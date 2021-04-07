@@ -1,34 +1,34 @@
 
-("cs_e22_scene0", MethodDecl<Void> @:254 op:0,dt:0,nt:65535,next:11724,str:23706,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:11724 op:0,dt:4,nt:8,next:65535,str:5229,d0:11725,d1:37185;
-        ("begin", Expression<MethodOrOperator> @:11725 op:0,dt:2,nt:9,next:11694,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:11694 op:441,dt:4,nt:8,next:11697,str:5268,d0:11695,d1:37155;
-                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:11695 op:441,dt:2,nt:9,next:11696,str:23073,d0:0,d1:0;
-                    ("ai_combat_status_visible", VariableAccess<Short> @:11696 op:7,dt:7,nt:13,next:65535,str:23099,d0:33578,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:11697 op:374,dt:4,nt:8,next:11700,str:5338,d0:11698,d1:37158;
-                ("cs_switch", Expression<MethodOrOperator> @:11698 op:374,dt:2,nt:9,next:11699,str:22189,d0:0,d1:0;
-                    ("elite0", Expression<StringId> @:11699 op:11,dt:11,nt:9,next:65535,str:22232,d0:13752,d1:1536;)))
-            (____, BuiltinInvocation<Void> @:11700 op:27,dt:4,nt:8,next:11703,str:5361,d0:11701,d1:37161;
-                ("print", Expression<MethodOrOperator> @:11701 op:27,dt:2,nt:9,next:11702,str:91,d0:0,d1:0;
-                    ("scl: what courage...", Expression<String> @:11702 op:9,dt:9,nt:9,next:65535,str:23606,d0:23606,d1:0;)))
-            (____, BuiltinInvocation<Void> @:11703 op:19,dt:4,nt:8,next:11709,str:5394,d0:11704,d1:37164;
-                ("sleep", Expression<MethodOrOperator> @:11704 op:19,dt:2,nt:9,next:11705,str:85,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:11705 op:360,dt:7,nt:8,next:65535,str:5401,d0:11706,d1:37166;
-                        ("ai_play_line", Expression<MethodOrOperator> @:11706 op:360,dt:2,nt:9,next:11707,str:11966,d0:0,d1:0;
-                            ("ai_current_actor", VariableAccess<AI> @:11707 op:19,dt:19,nt:13,next:11708,str:10463,d0:33564,d1:65535;
-                                ("0780", Expression<StringId> @:11708 op:11,dt:11,nt:9,next:65535,str:23627,d0:13580,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:11709 op:19,dt:4,nt:8,next:11712,str:5441,d0:11710,d1:37170;
-                ("sleep", Expression<MethodOrOperator> @:11710 op:19,dt:2,nt:9,next:11711,str:85,d0:0,d1:0;
-                    (15, Expression<Short> @:11711 op:7,dt:7,nt:9,next:65535,str:5448,d0:15,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:11712 op:374,dt:4,nt:8,next:11715,str:5469,d0:11713,d1:37173;
-                ("cs_switch", Expression<MethodOrOperator> @:11713 op:374,dt:2,nt:9,next:11714,str:22189,d0:0,d1:0;
-                    ("elite1", Expression<StringId> @:11714 op:11,dt:11,nt:9,next:65535,str:22199,d0:13755,d1:1536;)))
-            (____, BuiltinInvocation<Void> @:11715 op:27,dt:4,nt:8,next:11718,str:5492,d0:11716,d1:37176;
-                ("print", Expression<MethodOrOperator> @:11716 op:27,dt:2,nt:9,next:11717,str:91,d0:0,d1:0;
-                    ("dog: ignore him...", Expression<String> @:11717 op:9,dt:9,nt:9,next:65535,str:23632,d0:23632,d1:0;)))
-            (____, BuiltinInvocation<Void> @:11718 op:19,dt:4,nt:8,next:65535,str:5523,d0:11719,d1:37179;
-                ("sleep", Expression<MethodOrOperator> @:11719 op:19,dt:2,nt:9,next:11720,str:85,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:11720 op:360,dt:7,nt:8,next:65535,str:5530,d0:11721,d1:37181;
-                        ("ai_play_line", Expression<MethodOrOperator> @:11721 op:360,dt:2,nt:9,next:11722,str:11966,d0:0,d1:0;
-                            ("ai_current_actor", VariableAccess<AI> @:11722 op:19,dt:19,nt:13,next:11723,str:10463,d0:33564,d1:65535;
-                                ("0790", Expression<StringId> @:11723 op:11,dt:11,nt:9,next:65535,str:23651,d0:13581,d1:1024;)))))))))
+("cs_e22_scene0", MethodDecl<Void> @:254 check:0,op:0,dt:0,nt:65535,next:11724,nextCheck:37184,str:23706,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:11724 check:37184,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:5229,h:2,d0:11725,d1:37185;
+        ("begin", Expression<MethodOrOperator> @:11725 check:37185,op:0,dt:2,nt:9,next:11694,nextCheck:37154,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:11694 check:37154,op:441,dt:4,nt:8,next:11697,nextCheck:37157,str:5268,h:2,d0:11695,d1:37155;
+                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:11695 check:37155,op:441,dt:2,nt:9,next:11696,nextCheck:37156,str:23073,h:0,d0:0,d1:0;
+                    ("ai_combat_status_visible", VariableAccess<Short> @:11696 check:37156,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:23099,h:0,d0:33578,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:11697 check:37157,op:374,dt:4,nt:8,next:11700,nextCheck:37160,str:5338,h:2,d0:11698,d1:37158;
+                ("cs_switch", Expression<MethodOrOperator> @:11698 check:37158,op:374,dt:2,nt:9,next:11699,nextCheck:37159,str:22189,h:0,d0:0,d1:0;
+                    ("elite0", Expression<StringId> @:11699 check:37159,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:22232,h:0,d0:13752,d1:1536;)))
+            (____, BuiltinInvocation<Void> @:11700 check:37160,op:27,dt:4,nt:8,next:11703,nextCheck:37163,str:5361,h:2,d0:11701,d1:37161;
+                ("print", Expression<MethodOrOperator> @:11701 check:37161,op:27,dt:2,nt:9,next:11702,nextCheck:37162,str:91,h:0,d0:0,d1:0;
+                    ("scl: what courage...", Expression<String> @:11702 check:37162,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:23606,h:0,d0:23606,d1:0;)))
+            (____, BuiltinInvocation<Void> @:11703 check:37163,op:19,dt:4,nt:8,next:11709,nextCheck:37169,str:5394,h:2,d0:11704,d1:37164;
+                ("sleep", Expression<MethodOrOperator> @:11704 check:37164,op:19,dt:2,nt:9,next:11705,nextCheck:37165,str:85,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:11705 check:37165,op:360,dt:7,nt:8,next:65535,nextCheck:65535,str:5401,h:2,d0:11706,d1:37166;
+                        ("ai_play_line", Expression<MethodOrOperator> @:11706 check:37166,op:360,dt:2,nt:9,next:11707,nextCheck:37167,str:11966,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:11707 check:37167,op:19,dt:19,nt:13,next:11708,nextCheck:37168,str:10463,h:0,d0:33564,d1:65535;
+                                ("0780", Expression<StringId> @:11708 check:37168,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:23627,h:0,d0:13580,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:11709 check:37169,op:19,dt:4,nt:8,next:11712,nextCheck:37172,str:5441,h:2,d0:11710,d1:37170;
+                ("sleep", Expression<MethodOrOperator> @:11710 check:37170,op:19,dt:2,nt:9,next:11711,nextCheck:37171,str:85,h:0,d0:0,d1:0;
+                    (15, Expression<Short> @:11711 check:37171,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:5448,h:2,d0:15,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:11712 check:37172,op:374,dt:4,nt:8,next:11715,nextCheck:37175,str:5469,h:2,d0:11713,d1:37173;
+                ("cs_switch", Expression<MethodOrOperator> @:11713 check:37173,op:374,dt:2,nt:9,next:11714,nextCheck:37174,str:22189,h:0,d0:0,d1:0;
+                    ("elite1", Expression<StringId> @:11714 check:37174,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:22199,h:0,d0:13755,d1:1536;)))
+            (____, BuiltinInvocation<Void> @:11715 check:37175,op:27,dt:4,nt:8,next:11718,nextCheck:37178,str:5492,h:2,d0:11716,d1:37176;
+                ("print", Expression<MethodOrOperator> @:11716 check:37176,op:27,dt:2,nt:9,next:11717,nextCheck:37177,str:91,h:0,d0:0,d1:0;
+                    ("dog: ignore him...", Expression<String> @:11717 check:37177,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:23632,h:0,d0:23632,d1:0;)))
+            (____, BuiltinInvocation<Void> @:11718 check:37178,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:5523,h:2,d0:11719,d1:37179;
+                ("sleep", Expression<MethodOrOperator> @:11719 check:37179,op:19,dt:2,nt:9,next:11720,nextCheck:37180,str:85,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:11720 check:37180,op:360,dt:7,nt:8,next:65535,nextCheck:65535,str:5530,h:2,d0:11721,d1:37181;
+                        ("ai_play_line", Expression<MethodOrOperator> @:11721 check:37181,op:360,dt:2,nt:9,next:11722,nextCheck:37182,str:11966,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:11722 check:37182,op:19,dt:19,nt:13,next:11723,nextCheck:37183,str:10463,h:0,d0:33564,d1:65535;
+                                ("0790", Expression<StringId> @:11723 check:37183,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:23651,h:0,d0:13581,d1:1024;)))))))))

@@ -1,12 +1,12 @@
 
-("lightmap_shadows_on", MethodDecl<Void> @:130 op:0,dt:0,nt:65535,next:4029,str:10287,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4029 op:0,dt:4,nt:8,next:65535,str:54239,d0:4030,d1:62257;
-        ("begin", Expression<MethodOrOperator> @:4030 op:0,dt:2,nt:9,next:4021,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4021 op:19,dt:4,nt:8,next:4024,str:54277,d0:4022,d1:62249;
-                ("sleep", Expression<MethodOrOperator> @:4022 op:19,dt:2,nt:9,next:4023,str:80,d0:0,d1:0;
-                    (141, Expression<Short> @:4023 op:7,dt:7,nt:9,next:65535,str:54284,d0:141,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:4024 op:27,dt:4,nt:8,next:4027,str:54291,d0:4025,d1:62252;
-                ("print", Expression<MethodOrOperator> @:4025 op:27,dt:2,nt:9,next:4026,str:86,d0:0,d1:0;
-                    ("enable lightmap shadows", Expression<String> @:4026 op:9,dt:9,nt:9,next:65535,str:9804,d0:9804,d1:0;)))
-            (____, BuiltinInvocation<Void> @:4027 op:903,dt:4,nt:8,next:65535,str:54327,d0:4028,d1:62255;
-                ("cinematic_lightmap_shadow_enable", Expression<MethodOrOperator> @:4028 op:903,dt:2,nt:9,next:65535,str:9828,d0:0,d1:0;)))))
+("lightmap_shadows_on", MethodDecl<Void> @:130 check:0,op:0,dt:0,nt:65535,next:4029,nextCheck:62256,str:10287,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4029 check:62256,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:54239,h:0,d0:4030,d1:62257;
+        ("begin", Expression<MethodOrOperator> @:4030 check:62257,op:0,dt:2,nt:9,next:4021,nextCheck:62248,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4021 check:62248,op:19,dt:4,nt:8,next:4024,nextCheck:62251,str:54277,h:0,d0:4022,d1:62249;
+                ("sleep", Expression<MethodOrOperator> @:4022 check:62249,op:19,dt:2,nt:9,next:4023,nextCheck:62250,str:80,h:0,d0:0,d1:0;
+                    (141, Expression<Short> @:4023 check:62250,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:54284,h:0,d0:141,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:4024 check:62251,op:27,dt:4,nt:8,next:4027,nextCheck:62254,str:54291,h:0,d0:4025,d1:62252;
+                ("print", Expression<MethodOrOperator> @:4025 check:62252,op:27,dt:2,nt:9,next:4026,nextCheck:62253,str:86,h:0,d0:0,d1:0;
+                    ("enable lightmap shadows", Expression<String> @:4026 check:62253,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:9804,h:0,d0:9804,d1:0;)))
+            (____, BuiltinInvocation<Void> @:4027 check:62254,op:903,dt:4,nt:8,next:65535,nextCheck:65535,str:54327,h:0,d0:4028,d1:62255;
+                ("cinematic_lightmap_shadow_enable", Expression<MethodOrOperator> @:4028 check:62255,op:903,dt:2,nt:9,next:65535,nextCheck:65535,str:9828,h:0,d0:0,d1:0;)))))

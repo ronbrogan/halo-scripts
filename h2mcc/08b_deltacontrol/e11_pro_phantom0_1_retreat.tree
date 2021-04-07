@@ -1,23 +1,23 @@
 
-("e11_pro_phantom0_1_retreat", MethodDecl<Boolean> @:370 op:0,dt:0,nt:65535,next:12932,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Boolean> @:12932 op:0,dt:5,nt:8,next:65535,str:24056,d0:12933,d1:38393;
-        ("begin", Expression<MethodOrOperator> @:12933 op:0,dt:2,nt:9,next:12913,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Boolean> @:12913 op:6,dt:5,nt:8,next:65535,str:24108,d0:12914,d1:38374;
-                ("or", Expression<MethodOrOperator> @:12914 op:6,dt:2,nt:9,next:12915,str:849,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:12915 op:18,dt:5,nt:8,next:12923,str:24130,d0:12916,d1:38376;
-                        ("<=", Expression<MethodOrOperator> @:12916 op:18,dt:2,nt:9,next:12917,str:6210,d0:0,d1:0;
-                            (-9.459146E-26f, BuiltinInvocation<Float> @:12917 op:69,dt:6,nt:8,next:12922,str:24134,d0:12918,d1:38378;
-                                ("object_get_health", Expression<MethodOrOperator> @:12918 op:69,dt:2,nt:9,next:12919,str:854,d0:0,d1:0;
-                                    (____, BuiltinInvocation<Entity> @:12919 op:340,dt:50,nt:8,next:65535,str:24153,d0:12920,d1:38380;
-                                        ("ai_vehicle_get", Expression<MethodOrOperator> @:12920 op:340,dt:2,nt:9,next:12921,str:26892,d0:0,d1:0;
-                                            ("e11_pro_phantom0_1/phantom0", Expression<AI> @:12921 op:19,dt:19,nt:9,next:65535,str:29571,d0:0,d1:49232;)))))
-                            (0.05f, Expression<Float> @:12922 op:6,dt:6,nt:9,next:65535,str:24199,d0:52429,d1:15692;)))
-                    (____, BuiltinInvocation<Boolean> @:12923 op:17,dt:5,nt:8,next:65535,str:24248,d0:12924,d1:38384;
-                        (">=", Expression<MethodOrOperator> @:12924 op:17,dt:2,nt:9,next:12925,str:676,d0:0,d1:0;
-                            (____, BuiltinInvocation<Short> @:12925 op:83,dt:7,nt:8,next:12931,str:24252,d0:12926,d1:38386;
-                                ("object_model_targets_destroyed", Expression<MethodOrOperator> @:12926 op:83,dt:2,nt:9,next:12927,str:29527,d0:0,d1:0;
-                                    (____, BuiltinInvocation<Entity> @:12927 op:340,dt:50,nt:8,next:12930,str:24284,d0:12928,d1:38388;
-                                        ("ai_vehicle_get", Expression<MethodOrOperator> @:12928 op:340,dt:2,nt:9,next:12929,str:26892,d0:0,d1:0;
-                                            ("e11_pro_phantom0_1/phantom0", Expression<AI> @:12929 op:19,dt:19,nt:9,next:65535,str:29571,d0:0,d1:49232;)))
-                                    ("target_front", Expression<StringId> @:12930 op:11,dt:11,nt:9,next:65535,str:29558,d0:5657,d1:3072;)))
-                            (3, Expression<Short> @:12931 op:7,dt:7,nt:9,next:65535,str:24345,d0:3,d1:65535;))))))))
+("e11_pro_phantom0_1_retreat", MethodDecl<Boolean> @:370 check:0,op:0,dt:0,nt:65535,next:12932,nextCheck:38392,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Boolean> @:12932 check:38392,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:24056,h:2,d0:12933,d1:38393;
+        ("begin", Expression<MethodOrOperator> @:12933 check:38393,op:0,dt:2,nt:9,next:12913,nextCheck:38373,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Boolean> @:12913 check:38373,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:24108,h:2,d0:12914,d1:38374;
+                ("or", Expression<MethodOrOperator> @:12914 check:38374,op:6,dt:2,nt:9,next:12915,nextCheck:38375,str:849,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:12915 check:38375,op:18,dt:5,nt:8,next:12923,nextCheck:38383,str:24130,h:2,d0:12916,d1:38376;
+                        ("<=", Expression<MethodOrOperator> @:12916 check:38376,op:18,dt:2,nt:9,next:12917,nextCheck:38377,str:6210,h:0,d0:0,d1:0;
+                            (-9.459146E-26f, BuiltinInvocation<Float> @:12917 check:38377,op:69,dt:6,nt:8,next:12922,nextCheck:38382,str:24134,h:2,d0:12918,d1:38378;
+                                ("object_get_health", Expression<MethodOrOperator> @:12918 check:38378,op:69,dt:2,nt:9,next:12919,nextCheck:38379,str:854,h:0,d0:0,d1:0;
+                                    (____, BuiltinInvocation<Entity> @:12919 check:38379,op:340,dt:50,nt:8,next:65535,nextCheck:65535,str:24153,h:2,d0:12920,d1:38380;
+                                        ("ai_vehicle_get", Expression<MethodOrOperator> @:12920 check:38380,op:340,dt:2,nt:9,next:12921,nextCheck:38381,str:26892,h:0,d0:0,d1:0;
+                                            ("e11_pro_phantom0_1/phantom0", Expression<AI> @:12921 check:38381,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29571,h:0,d0:0,d1:49232;)))))
+                            (0.05f, Expression<Float> @:12922 check:38382,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:24199,h:2,d0:52429,d1:15692;)))
+                    (____, BuiltinInvocation<Boolean> @:12923 check:38383,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:24248,h:2,d0:12924,d1:38384;
+                        (">=", Expression<MethodOrOperator> @:12924 check:38384,op:17,dt:2,nt:9,next:12925,nextCheck:38385,str:676,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Short> @:12925 check:38385,op:83,dt:7,nt:8,next:12931,nextCheck:38391,str:24252,h:2,d0:12926,d1:38386;
+                                ("object_model_targets_destroyed", Expression<MethodOrOperator> @:12926 check:38386,op:83,dt:2,nt:9,next:12927,nextCheck:38387,str:29527,h:0,d0:0,d1:0;
+                                    (____, BuiltinInvocation<Entity> @:12927 check:38387,op:340,dt:50,nt:8,next:12930,nextCheck:38390,str:24284,h:2,d0:12928,d1:38388;
+                                        ("ai_vehicle_get", Expression<MethodOrOperator> @:12928 check:38388,op:340,dt:2,nt:9,next:12929,nextCheck:38389,str:26892,h:0,d0:0,d1:0;
+                                            ("e11_pro_phantom0_1/phantom0", Expression<AI> @:12929 check:38389,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29571,h:0,d0:0,d1:49232;)))
+                                    ("target_front", Expression<StringId> @:12930 check:38390,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:29558,h:0,d0:5657,d1:3072;)))
+                            (3, Expression<Short> @:12931 check:38391,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:24345,h:2,d0:3,d1:65535;))))))))

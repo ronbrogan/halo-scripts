@@ -1,13 +1,13 @@
 
-("destroy_fleet", MethodDecl<Void> @:252 op:0,dt:0,nt:65535,next:9684,str:23281,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:9684 op:0,dt:4,nt:8,next:65535,str:52025,d0:9685,d1:35145;
-        ("begin", Expression<MethodOrOperator> @:9685 op:0,dt:2,nt:9,next:9675,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:9675 op:19,dt:4,nt:8,next:9678,str:52057,d0:9676,d1:35136;
-                ("sleep", Expression<MethodOrOperator> @:9676 op:19,dt:2,nt:9,next:9677,str:90,d0:0,d1:0;
-                    (150, Expression<Short> @:9677 op:7,dt:7,nt:9,next:65535,str:52064,d0:150,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:9678 op:27,dt:4,nt:8,next:9681,str:52071,d0:9679,d1:35139;
-                ("print", Expression<MethodOrOperator> @:9679 op:27,dt:2,nt:9,next:9680,str:96,d0:0,d1:0;
-                    ("destroy fleet", Expression<String> @:9680 op:9,dt:9,nt:9,next:65535,str:23132,d0:23132,d1:0;)))
-            (____, BuiltinInvocation<Void> @:9681 op:52,dt:4,nt:8,next:65535,str:52097,d0:9682,d1:35142;
-                ("object_destroy", Expression<MethodOrOperator> @:9682 op:52,dt:2,nt:9,next:9683,str:2937,d0:0,d1:0;
-                    (4294902059, Expression<Entity> @:9683 op:56,dt:50,nt:9,next:65535,str:22084,d0:299,d1:65535;))))))
+("destroy_fleet", MethodDecl<Void> @:252 check:0,op:0,dt:0,nt:65535,next:9684,nextCheck:35144,str:23281,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:9684 check:35144,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:52025,h:1,d0:9685,d1:35145;
+        ("begin", Expression<MethodOrOperator> @:9685 check:35145,op:0,dt:2,nt:9,next:9675,nextCheck:35135,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:9675 check:35135,op:19,dt:4,nt:8,next:9678,nextCheck:35138,str:52057,h:1,d0:9676,d1:35136;
+                ("sleep", Expression<MethodOrOperator> @:9676 check:35136,op:19,dt:2,nt:9,next:9677,nextCheck:35137,str:90,h:0,d0:0,d1:0;
+                    (150, Expression<Short> @:9677 check:35137,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:52064,h:1,d0:150,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:9678 check:35138,op:27,dt:4,nt:8,next:9681,nextCheck:35141,str:52071,h:1,d0:9679,d1:35139;
+                ("print", Expression<MethodOrOperator> @:9679 check:35139,op:27,dt:2,nt:9,next:9680,nextCheck:35140,str:96,h:0,d0:0,d1:0;
+                    ("destroy fleet", Expression<String> @:9680 check:35140,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:23132,h:0,d0:23132,d1:0;)))
+            (____, BuiltinInvocation<Void> @:9681 check:35141,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:52097,h:1,d0:9682,d1:35142;
+                ("object_destroy", Expression<MethodOrOperator> @:9682 check:35142,op:52,dt:2,nt:9,next:9683,nextCheck:35143,str:2937,h:0,d0:0,d1:0;
+                    (4294902059, Expression<Entity> @:9683 check:35143,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:22084,h:0,d0:299,d1:65535;))))))

@@ -1,21 +1,21 @@
 
-("cs_e1_mars_johnson_finale", MethodDecl<Void> @:380 op:0,dt:0,nt:65535,next:15792,str:28759,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:15792 op:0,dt:4,nt:8,next:65535,str:2813,d0:15793,d1:41253;
-        ("begin", Expression<MethodOrOperator> @:15793 op:0,dt:2,nt:9,next:15775,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:15775 op:449,dt:4,nt:8,next:15778,str:2864,d0:15776,d1:41236;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:15776 op:449,dt:2,nt:9,next:15777,str:4284,d0:0,d1:0;
-                    (True, Expression<Boolean> @:15777 op:5,dt:5,nt:9,next:65535,str:2896,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:15778 op:385,dt:4,nt:8,next:15781,str:2904,d0:15779,d1:41239;
-                ("cs_go_to", Expression<MethodOrOperator> @:15779 op:385,dt:2,nt:9,next:15780,str:4510,d0:0,d1:0;
-                    ("e1_mars_johnson_finale/p0", Expression<SpatialPoint> @:15780 op:28,dt:28,nt:9,next:65535,str:26146,d0:0,d1:6;)))
-            (____, BuiltinInvocation<Void> @:15781 op:21,dt:4,nt:8,next:15789,str:2943,d0:15782,d1:41242;
-                ("sleep_until", Expression<MethodOrOperator> @:15782 op:21,dt:2,nt:9,next:15783,str:294,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:15783 op:15,dt:5,nt:8,next:65535,str:2956,d0:15784,d1:41244;
-                        (">", Expression<MethodOrOperator> @:15784 op:15,dt:2,nt:9,next:15785,str:12453,d0:0,d1:0;
-                            (____, BuiltinInvocation<Short> @:15785 op:335,dt:7,nt:8,next:15788,str:2959,d0:15786,d1:41246;
-                                ("ai_spawn_count", Expression<MethodOrOperator> @:15786 op:335,dt:2,nt:9,next:15787,str:16178,d0:0,d1:0;
-                                    ("e2_cov_hunters0", Expression<AI> @:15787 op:19,dt:19,nt:9,next:65535,str:24337,d0:31,d1:0;)))
-                            (0, Expression<Short> @:15788 op:7,dt:7,nt:9,next:65535,str:2992,d0:0,d1:65535;)))))
-            (____, BuiltinInvocation<Void> @:15789 op:19,dt:4,nt:8,next:65535,str:2998,d0:15790,d1:41250;
-                ("sleep", Expression<MethodOrOperator> @:15790 op:19,dt:2,nt:9,next:15791,str:143,d0:0,d1:0;
-                    (90, Expression<Short> @:15791 op:7,dt:7,nt:9,next:65535,str:3005,d0:90,d1:65535;))))))
+("cs_e1_mars_johnson_finale", MethodDecl<Void> @:380 check:0,op:0,dt:0,nt:65535,next:15792,nextCheck:41252,str:28759,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:15792 check:41252,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:2813,h:3,d0:15793,d1:41253;
+        ("begin", Expression<MethodOrOperator> @:15793 check:41253,op:0,dt:2,nt:9,next:15775,nextCheck:41235,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:15775 check:41235,op:449,dt:4,nt:8,next:15778,nextCheck:41238,str:2864,h:3,d0:15776,d1:41236;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:15776 check:41236,op:449,dt:2,nt:9,next:15777,nextCheck:41237,str:4284,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15777 check:41237,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:2896,h:3,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:15778 check:41238,op:385,dt:4,nt:8,next:15781,nextCheck:41241,str:2904,h:3,d0:15779,d1:41239;
+                ("cs_go_to", Expression<MethodOrOperator> @:15779 check:41239,op:385,dt:2,nt:9,next:15780,nextCheck:41240,str:4510,h:0,d0:0,d1:0;
+                    ("e1_mars_johnson_finale/p0", Expression<SpatialPoint> @:15780 check:41240,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:26146,h:0,d0:0,d1:6;)))
+            (____, BuiltinInvocation<Void> @:15781 check:41241,op:21,dt:4,nt:8,next:15789,nextCheck:41249,str:2943,h:3,d0:15782,d1:41242;
+                ("sleep_until", Expression<MethodOrOperator> @:15782 check:41242,op:21,dt:2,nt:9,next:15783,nextCheck:41243,str:294,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:15783 check:41243,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:2956,h:3,d0:15784,d1:41244;
+                        (">", Expression<MethodOrOperator> @:15784 check:41244,op:15,dt:2,nt:9,next:15785,nextCheck:41245,str:12453,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Short> @:15785 check:41245,op:335,dt:7,nt:8,next:15788,nextCheck:41248,str:2959,h:3,d0:15786,d1:41246;
+                                ("ai_spawn_count", Expression<MethodOrOperator> @:15786 check:41246,op:335,dt:2,nt:9,next:15787,nextCheck:41247,str:16178,h:0,d0:0,d1:0;
+                                    ("e2_cov_hunters0", Expression<AI> @:15787 check:41247,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:24337,h:0,d0:31,d1:0;)))
+                            (0, Expression<Short> @:15788 check:41248,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2992,h:3,d0:0,d1:65535;)))))
+            (____, BuiltinInvocation<Void> @:15789 check:41249,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:2998,h:3,d0:15790,d1:41250;
+                ("sleep", Expression<MethodOrOperator> @:15790 check:41250,op:19,dt:2,nt:9,next:15791,nextCheck:41251,str:143,h:0,d0:0,d1:0;
+                    (90, Expression<Short> @:15791 check:41251,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:3005,h:3,d0:90,d1:65535;))))))

@@ -1,14 +1,14 @@
 
-("ai_sc_hall_b_grunts", MethodDecl<Void> @:168 op:0,dt:0,nt:65535,next:5658,str:28325,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5658 op:0,dt:4,nt:8,next:65535,str:64183,d0:5659,d1:63886;
-        ("begin", Expression<MethodOrOperator> @:5659 op:0,dt:2,nt:9,next:5648,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5648 op:21,dt:4,nt:8,next:5654,str:64295,d0:5649,d1:63876;
-                ("sleep_until", Expression<MethodOrOperator> @:5649 op:21,dt:2,nt:9,next:5650,str:231,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:5650 op:337,dt:5,nt:8,next:65535,str:64308,d0:5651,d1:63878;
-                        ("ai_trigger_test", Expression<MethodOrOperator> @:5651 op:337,dt:2,nt:9,next:5652,str:13380,d0:0,d1:0;
-                            ("scene_trigger_4", Expression<String> @:5652 op:9,dt:9,nt:9,next:5653,str:13396,d0:13396,d1:0;
-                                ("hall_b_cov", Expression<AI> @:5653 op:19,dt:19,nt:9,next:65535,str:13412,d0:12,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:5654 op:366,dt:4,nt:8,next:65535,str:64356,d0:5655,d1:63882;
-                ("cs_run_command_script", Expression<MethodOrOperator> @:5655 op:366,dt:2,nt:9,next:5656,str:1464,d0:0,d1:0;
-                    ("hall_b_cov/wimp", Expression<AI> @:5656 op:19,dt:19,nt:9,next:5657,str:13423,d0:5,d1:49164;
-                        ("sc_fleeing_grunts", Expression<AIScript> @:5657 op:21,dt:21,nt:9,next:65535,str:13439,d0:167,d1:0;)))))))
+("ai_sc_hall_b_grunts", MethodDecl<Void> @:168 check:0,op:0,dt:0,nt:65535,next:5658,nextCheck:63885,str:28325,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5658 check:63885,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:64183,h:0,d0:5659,d1:63886;
+        ("begin", Expression<MethodOrOperator> @:5659 check:63886,op:0,dt:2,nt:9,next:5648,nextCheck:63875,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5648 check:63875,op:21,dt:4,nt:8,next:5654,nextCheck:63881,str:64295,h:0,d0:5649,d1:63876;
+                ("sleep_until", Expression<MethodOrOperator> @:5649 check:63876,op:21,dt:2,nt:9,next:5650,nextCheck:63877,str:231,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:5650 check:63877,op:337,dt:5,nt:8,next:65535,nextCheck:65535,str:64308,h:0,d0:5651,d1:63878;
+                        ("ai_trigger_test", Expression<MethodOrOperator> @:5651 check:63878,op:337,dt:2,nt:9,next:5652,nextCheck:63879,str:13380,h:0,d0:0,d1:0;
+                            ("scene_trigger_4", Expression<String> @:5652 check:63879,op:9,dt:9,nt:9,next:5653,nextCheck:63880,str:13396,h:0,d0:13396,d1:0;
+                                ("hall_b_cov", Expression<AI> @:5653 check:63880,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13412,h:0,d0:12,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:5654 check:63881,op:366,dt:4,nt:8,next:65535,nextCheck:65535,str:64356,h:0,d0:5655,d1:63882;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:5655 check:63882,op:366,dt:2,nt:9,next:5656,nextCheck:63883,str:1464,h:0,d0:0,d1:0;
+                    ("hall_b_cov/wimp", Expression<AI> @:5656 check:63883,op:19,dt:19,nt:9,next:5657,nextCheck:63884,str:13423,h:0,d0:5,d1:49164;
+                        ("sc_fleeing_grunts", Expression<AIScript> @:5657 check:63884,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:13439,h:0,d0:167,d1:0;)))))))

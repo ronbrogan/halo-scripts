@@ -1,13 +1,13 @@
 
-("x09_miranda_emotion_06b", MethodDecl<Void> @:213 op:0,dt:0,nt:65535,next:8024,str:19634,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:8024 op:0,dt:4,nt:8,next:65535,str:28376,d0:8025,d1:33485;
-        ("begin", Expression<MethodOrOperator> @:8025 op:0,dt:2,nt:9,next:8015,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:8015 op:19,dt:4,nt:8,next:8018,str:28418,d0:8016,d1:33476;
-                ("sleep", Expression<MethodOrOperator> @:8016 op:19,dt:2,nt:9,next:8017,str:85,d0:0,d1:0;
-                    (525, Expression<Short> @:8017 op:7,dt:7,nt:9,next:65535,str:28425,d0:525,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8018 op:220,dt:4,nt:8,next:65535,str:28432,d0:8019,d1:33479;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:8019 op:220,dt:2,nt:9,next:8020,str:9899,d0:0,d1:0;
-                    ("miranda", Expression<Unit> @:8020 op:57,dt:51,nt:9,next:8021,str:11367,d0:80,d1:65535;
-                        ("pain", Expression<StringId> @:8021 op:11,dt:11,nt:9,next:8022,str:11669,d0:432,d1:1024;
-                            (0.25f, Expression<Float> @:8022 op:6,dt:6,nt:9,next:8023,str:28471,d0:0,d1:16000;
-                                (90, Expression<Short> @:8023 op:7,dt:7,nt:9,next:65535,str:28475,d0:90,d1:65535;)))))))))
+("x09_miranda_emotion_06b", MethodDecl<Void> @:213 check:0,op:0,dt:0,nt:65535,next:8024,nextCheck:33484,str:19634,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:8024 check:33484,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28376,h:1,d0:8025,d1:33485;
+        ("begin", Expression<MethodOrOperator> @:8025 check:33485,op:0,dt:2,nt:9,next:8015,nextCheck:33475,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:8015 check:33475,op:19,dt:4,nt:8,next:8018,nextCheck:33478,str:28418,h:1,d0:8016,d1:33476;
+                ("sleep", Expression<MethodOrOperator> @:8016 check:33476,op:19,dt:2,nt:9,next:8017,nextCheck:33477,str:85,h:0,d0:0,d1:0;
+                    (525, Expression<Short> @:8017 check:33477,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28425,h:1,d0:525,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8018 check:33478,op:220,dt:4,nt:8,next:65535,nextCheck:65535,str:28432,h:1,d0:8019,d1:33479;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:8019 check:33479,op:220,dt:2,nt:9,next:8020,nextCheck:33480,str:9899,h:0,d0:0,d1:0;
+                    ("miranda", Expression<Unit> @:8020 check:33480,op:57,dt:51,nt:9,next:8021,nextCheck:33481,str:11367,h:0,d0:80,d1:65535;
+                        ("pain", Expression<StringId> @:8021 check:33481,op:11,dt:11,nt:9,next:8022,nextCheck:33482,str:11669,h:0,d0:432,d1:1024;
+                            (0.25f, Expression<Float> @:8022 check:33482,op:6,dt:6,nt:9,next:8023,nextCheck:33483,str:28471,h:1,d0:0,d1:16000;
+                                (90, Expression<Short> @:8023 check:33483,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28475,h:1,d0:90,d1:65535;)))))))))

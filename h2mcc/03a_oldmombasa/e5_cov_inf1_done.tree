@@ -1,8 +1,8 @@
 
-("e5_cov_inf1_done", MethodDecl<Boolean> @:321 op:0,dt:0,nt:65535,next:12549,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Boolean> @:12549 op:0,dt:5,nt:8,next:65535,str:25299,d0:12550,d1:38010;
-        ("begin", Expression<MethodOrOperator> @:12550 op:0,dt:2,nt:9,next:12545,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Boolean> @:12545 op:13,dt:5,nt:8,next:65535,str:25341,d0:12546,d1:38006;
-                ("=", Expression<MethodOrOperator> @:12546 op:13,dt:2,nt:9,next:12547,str:359,d0:0,d1:0;
-                    ("g_e5_cov_inf1_done", VariableAccess<Boolean> @:12547 op:0,dt:5,nt:13,next:12548,str:22078,d0:33,d1:0;
-                        (True, Expression<Boolean> @:12548 op:5,dt:5,nt:9,next:65535,str:25363,d0:65281,d1:65535;)))))))
+("e5_cov_inf1_done", MethodDecl<Boolean> @:321 check:0,op:0,dt:0,nt:65535,next:12549,nextCheck:38009,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Boolean> @:12549 check:38009,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:25299,h:2,d0:12550,d1:38010;
+        ("begin", Expression<MethodOrOperator> @:12550 check:38010,op:0,dt:2,nt:9,next:12545,nextCheck:38005,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Boolean> @:12545 check:38005,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:25341,h:2,d0:12546,d1:38006;
+                ("=", Expression<MethodOrOperator> @:12546 check:38006,op:13,dt:2,nt:9,next:12547,nextCheck:38007,str:359,h:0,d0:0,d1:0;
+                    ("g_e5_cov_inf1_done", VariableAccess<Boolean> @:12547 check:38007,op:0,dt:5,nt:13,next:12548,nextCheck:38008,str:22078,h:0,d0:33,d1:0;
+                        (True, Expression<Boolean> @:12548 check:38008,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:25363,h:2,d0:65281,d1:65535;)))))))

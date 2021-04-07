@@ -1,16 +1,16 @@
 
-("hangar_fly_out_r1", MethodDecl<Void> @:282 op:0,dt:0,nt:65535,next:10728,str:22981,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:10728 op:0,dt:4,nt:8,next:65535,str:58518,d0:10729,d1:36189;
-        ("begin", Expression<MethodOrOperator> @:10729 op:0,dt:2,nt:9,next:10716,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:10716 op:449,dt:4,nt:8,next:10719,str:58561,d0:10717,d1:36177;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:10717 op:449,dt:2,nt:9,next:10718,str:17423,d0:0,d1:0;
-                    (True, Expression<Boolean> @:10718 op:5,dt:5,nt:9,next:65535,str:58593,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10719 op:407,dt:4,nt:8,next:10722,str:58601,d0:10720,d1:36180;
-                ("cs_vehicle_speed", Expression<MethodOrOperator> @:10720 op:407,dt:2,nt:9,next:10721,str:22163,d0:0,d1:0;
-                    (0.5f, Expression<Float> @:10721 op:6,dt:6,nt:9,next:65535,str:58619,d0:0,d1:16128;)))
-            (____, BuiltinInvocation<Void> @:10722 op:383,dt:4,nt:8,next:10725,str:58625,d0:10723,d1:36183;
-                ("cs_fly_by", Expression<MethodOrOperator> @:10723 op:383,dt:2,nt:9,next:10724,str:19180,d0:0,d1:0;
-                    ("hangar_too/r1_1", Expression<SpatialPoint> @:10724 op:28,dt:28,nt:9,next:65535,str:22506,d0:7,d1:5;)))
-            (____, BuiltinInvocation<Void> @:10725 op:379,dt:4,nt:8,next:65535,str:58655,d0:10726,d1:36186;
-                ("cs_fly_to", Expression<MethodOrOperator> @:10726 op:379,dt:2,nt:9,next:10727,str:17471,d0:0,d1:0;
-                    ("hangar_too/r1_0", Expression<SpatialPoint> @:10727 op:28,dt:28,nt:9,next:65535,str:22522,d0:6,d1:5;))))))
+("hangar_fly_out_r1", MethodDecl<Void> @:282 check:0,op:0,dt:0,nt:65535,next:10728,nextCheck:36188,str:22981,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:10728 check:36188,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:58518,h:1,d0:10729,d1:36189;
+        ("begin", Expression<MethodOrOperator> @:10729 check:36189,op:0,dt:2,nt:9,next:10716,nextCheck:36176,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:10716 check:36176,op:449,dt:4,nt:8,next:10719,nextCheck:36179,str:58561,h:1,d0:10717,d1:36177;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:10717 check:36177,op:449,dt:2,nt:9,next:10718,nextCheck:36178,str:17423,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10718 check:36178,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:58593,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10719 check:36179,op:407,dt:4,nt:8,next:10722,nextCheck:36182,str:58601,h:1,d0:10720,d1:36180;
+                ("cs_vehicle_speed", Expression<MethodOrOperator> @:10720 check:36180,op:407,dt:2,nt:9,next:10721,nextCheck:36181,str:22163,h:0,d0:0,d1:0;
+                    (0.5f, Expression<Float> @:10721 check:36181,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:58619,h:1,d0:0,d1:16128;)))
+            (____, BuiltinInvocation<Void> @:10722 check:36182,op:383,dt:4,nt:8,next:10725,nextCheck:36185,str:58625,h:1,d0:10723,d1:36183;
+                ("cs_fly_by", Expression<MethodOrOperator> @:10723 check:36183,op:383,dt:2,nt:9,next:10724,nextCheck:36184,str:19180,h:0,d0:0,d1:0;
+                    ("hangar_too/r1_1", Expression<SpatialPoint> @:10724 check:36184,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:22506,h:0,d0:7,d1:5;)))
+            (____, BuiltinInvocation<Void> @:10725 check:36185,op:379,dt:4,nt:8,next:65535,nextCheck:65535,str:58655,h:1,d0:10726,d1:36186;
+                ("cs_fly_to", Expression<MethodOrOperator> @:10726 check:36186,op:379,dt:2,nt:9,next:10727,nextCheck:36187,str:17471,h:0,d0:0,d1:0;
+                    ("hangar_too/r1_0", Expression<SpatialPoint> @:10727 check:36187,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:22522,h:0,d0:6,d1:5;))))))

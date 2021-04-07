@@ -1,17 +1,17 @@
 
-("e11_warthog_for_the_masses", MethodDecl<Void> @:229 op:0,dt:0,nt:65535,next:8427,str:16994,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:8427 op:0,dt:4,nt:8,next:65535,str:36283,d0:8428,d1:33888;
-        ("begin", Expression<MethodOrOperator> @:8428 op:0,dt:2,nt:9,next:8414,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:8414 op:19,dt:4,nt:8,next:8417,str:36328,d0:8415,d1:33875;
-                ("sleep", Expression<MethodOrOperator> @:8415 op:19,dt:2,nt:9,next:8416,str:143,d0:0,d1:0;
-                    (300, Expression<Short> @:8416 op:7,dt:7,nt:9,next:65535,str:36335,d0:300,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8417 op:46,dt:4,nt:8,next:8420,str:36342,d0:8418,d1:33878;
-                ("object_create", Expression<MethodOrOperator> @:8418 op:46,dt:2,nt:9,next:8419,str:7768,d0:0,d1:0;
-                    ("warthog_for_the_masses", Expression<EntityIdentifier> @:8419 op:56,dt:56,nt:9,next:65535,str:16729,d0:82,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8420 op:19,dt:4,nt:8,next:8423,str:36383,d0:8421,d1:33881;
-                ("sleep", Expression<MethodOrOperator> @:8421 op:19,dt:2,nt:9,next:8422,str:143,d0:0,d1:0;
-                    (2, Expression<Short> @:8422 op:7,dt:7,nt:9,next:65535,str:36390,d0:2,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8423 op:85,dt:4,nt:8,next:65535,str:36395,d0:8424,d1:33884;
-                ("object_cannot_die", Expression<MethodOrOperator> @:8424 op:85,dt:2,nt:9,next:8425,str:16752,d0:0,d1:0;
-                    (4294901842, Expression<Entity> @:8425 op:56,dt:50,nt:9,next:8426,str:16729,d0:82,d1:65535;
-                        (True, Expression<Boolean> @:8426 op:5,dt:5,nt:9,next:65535,str:36437,d0:65281,d1:65535;)))))))
+("e11_warthog_for_the_masses", MethodDecl<Void> @:229 check:0,op:0,dt:0,nt:65535,next:8427,nextCheck:33887,str:16994,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:8427 check:33887,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36283,h:1,d0:8428,d1:33888;
+        ("begin", Expression<MethodOrOperator> @:8428 check:33888,op:0,dt:2,nt:9,next:8414,nextCheck:33874,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:8414 check:33874,op:19,dt:4,nt:8,next:8417,nextCheck:33877,str:36328,h:1,d0:8415,d1:33875;
+                ("sleep", Expression<MethodOrOperator> @:8415 check:33875,op:19,dt:2,nt:9,next:8416,nextCheck:33876,str:143,h:0,d0:0,d1:0;
+                    (300, Expression<Short> @:8416 check:33876,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:36335,h:1,d0:300,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8417 check:33877,op:46,dt:4,nt:8,next:8420,nextCheck:33880,str:36342,h:1,d0:8418,d1:33878;
+                ("object_create", Expression<MethodOrOperator> @:8418 check:33878,op:46,dt:2,nt:9,next:8419,nextCheck:33879,str:7768,h:0,d0:0,d1:0;
+                    ("warthog_for_the_masses", Expression<EntityIdentifier> @:8419 check:33879,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:16729,h:0,d0:82,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8420 check:33880,op:19,dt:4,nt:8,next:8423,nextCheck:33883,str:36383,h:1,d0:8421,d1:33881;
+                ("sleep", Expression<MethodOrOperator> @:8421 check:33881,op:19,dt:2,nt:9,next:8422,nextCheck:33882,str:143,h:0,d0:0,d1:0;
+                    (2, Expression<Short> @:8422 check:33882,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:36390,h:1,d0:2,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8423 check:33883,op:85,dt:4,nt:8,next:65535,nextCheck:65535,str:36395,h:1,d0:8424,d1:33884;
+                ("object_cannot_die", Expression<MethodOrOperator> @:8424 check:33884,op:85,dt:2,nt:9,next:8425,nextCheck:33885,str:16752,h:0,d0:0,d1:0;
+                    (4294901842, Expression<Entity> @:8425 check:33885,op:56,dt:50,nt:9,next:8426,nextCheck:33886,str:16729,h:0,d0:82,d1:65535;
+                        (True, Expression<Boolean> @:8426 check:33886,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:36437,h:1,d0:65281,d1:65535;)))))))

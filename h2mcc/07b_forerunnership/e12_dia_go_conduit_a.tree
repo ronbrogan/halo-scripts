@@ -1,19 +1,19 @@
 
-("e12_dia_go_conduit_a", MethodDecl<Void> @:156 op:0,dt:0,nt:65535,next:4391,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4391 op:0,dt:4,nt:8,next:65535,str:55653,d0:4392,d1:62619;
-        ("begin", Expression<MethodOrOperator> @:4392 op:0,dt:2,nt:9,next:4376,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4376 op:2,dt:4,nt:8,next:4382,str:55692,d0:4377,d1:62604;
-                ("if", Expression<MethodOrOperator> @:4377 op:2,dt:2,nt:9,next:4378,str:456,d0:0,d1:0;
-                    ("dialogue", VariableAccess<Boolean> @:4378 op:5,dt:5,nt:13,next:4379,str:10462,d0:3,d1:0;
-                        (____, BuiltinInvocation<Void> @:4379 op:27,dt:4,nt:8,next:65535,str:55705,d0:4380,d1:62607;
-                            ("print", Expression<MethodOrOperator> @:4380 op:27,dt:2,nt:9,next:4381,str:86,d0:0,d1:0;
-                                ("cortana: get to the conduit. i'll keep it attached to the ship as long as i can.", Expression<String> @:4381 op:9,dt:9,nt:9,next:65535,str:12869,d0:12869,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:4382 op:19,dt:4,nt:8,next:4388,str:55799,d0:4383,d1:62610;
-                ("sleep", Expression<MethodOrOperator> @:4383 op:19,dt:2,nt:9,next:4384,str:80,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:4384 op:362,dt:7,nt:8,next:65535,str:55806,d0:4385,d1:62612;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4385 op:362,dt:2,nt:9,next:4386,str:10552,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:4386 op:50,dt:50,nt:9,next:4387,str:1386,d0:65535,d1:65535;
-                                ("2940", Expression<StringId> @:4387 op:11,dt:11,nt:9,next:65535,str:12950,d0:13579,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:4388 op:19,dt:4,nt:8,next:65535,str:55844,d0:4389,d1:62616;
-                ("sleep", Expression<MethodOrOperator> @:4389 op:19,dt:2,nt:9,next:4390,str:80,d0:0,d1:0;
-                    ("dialogue_pause", VariableAccess<Short> @:4390 op:7,dt:7,nt:13,next:65535,str:10580,d0:4,d1:0;))))))
+("e12_dia_go_conduit_a", MethodDecl<Void> @:156 check:0,op:0,dt:0,nt:65535,next:4391,nextCheck:62618,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4391 check:62618,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:55653,h:0,d0:4392,d1:62619;
+        ("begin", Expression<MethodOrOperator> @:4392 check:62619,op:0,dt:2,nt:9,next:4376,nextCheck:62603,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4376 check:62603,op:2,dt:4,nt:8,next:4382,nextCheck:62609,str:55692,h:0,d0:4377,d1:62604;
+                ("if", Expression<MethodOrOperator> @:4377 check:62604,op:2,dt:2,nt:9,next:4378,nextCheck:62605,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:4378 check:62605,op:5,dt:5,nt:13,next:4379,nextCheck:62606,str:10462,h:0,d0:3,d1:0;
+                        (____, BuiltinInvocation<Void> @:4379 check:62606,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:55705,h:0,d0:4380,d1:62607;
+                            ("print", Expression<MethodOrOperator> @:4380 check:62607,op:27,dt:2,nt:9,next:4381,nextCheck:62608,str:86,h:0,d0:0,d1:0;
+                                ("cortana: get to the conduit. i'll keep it attached to the ship as long as i can.", Expression<String> @:4381 check:62608,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12869,h:0,d0:12869,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:4382 check:62609,op:19,dt:4,nt:8,next:4388,nextCheck:62615,str:55799,h:0,d0:4383,d1:62610;
+                ("sleep", Expression<MethodOrOperator> @:4383 check:62610,op:19,dt:2,nt:9,next:4384,nextCheck:62611,str:80,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:4384 check:62611,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:55806,h:0,d0:4385,d1:62612;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4385 check:62612,op:362,dt:2,nt:9,next:4386,nextCheck:62613,str:10552,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:4386 check:62613,op:50,dt:50,nt:9,next:4387,nextCheck:62614,str:1386,h:0,d0:65535,d1:65535;
+                                ("2940", Expression<StringId> @:4387 check:62614,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12950,h:0,d0:13579,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:4388 check:62615,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:55844,h:0,d0:4389,d1:62616;
+                ("sleep", Expression<MethodOrOperator> @:4389 check:62616,op:19,dt:2,nt:9,next:4390,nextCheck:62617,str:80,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:4390 check:62617,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:10580,h:0,d0:4,d1:0;))))))

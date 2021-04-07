@@ -1,15 +1,15 @@
 
-("effect_teleport", MethodDecl<Void> @:31 op:0,dt:0,nt:65535,next:848,str:1875,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:848 op:0,dt:4,nt:8,next:65535,str:9994,d0:849,d1:59076;
-        ("begin", Expression<MethodOrOperator> @:849 op:0,dt:2,nt:9,next:837,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:837 op:19,dt:4,nt:8,next:840,str:10028,d0:838,d1:59065;
-                ("sleep", Expression<MethodOrOperator> @:838 op:19,dt:2,nt:9,next:839,str:143,d0:0,d1:0;
-                    (240, Expression<Short> @:839 op:7,dt:7,nt:9,next:65535,str:10035,d0:240,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:840 op:27,dt:4,nt:8,next:843,str:10042,d0:841,d1:59068;
-                ("print", Expression<MethodOrOperator> @:841 op:27,dt:2,nt:9,next:842,str:149,d0:0,d1:0;
-                    ("effect - teleport", Expression<String> @:842 op:9,dt:9,nt:9,next:65535,str:1515,d0:1515,d1:0;)))
-            (____, BuiltinInvocation<Void> @:843 op:41,dt:4,nt:8,next:65535,str:10072,d0:844,d1:59071;
-                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:844 op:41,dt:2,nt:9,next:845,str:1533,d0:0,d1:0;
-                    ("effects\gameplay\cinematic_teleport", Expression<Effect> @:845 op:33,dt:33,nt:9,next:846,str:1561,d0:606,d1:58324;
-                        (4294901767, Expression<Entity> @:846 op:56,dt:50,nt:9,next:847,str:1597,d0:7,d1:65535;
-                            ("marker", Expression<StringId> @:847 op:11,dt:11,nt:9,next:65535,str:1606,d0:4582,d1:1536;))))))))
+("effect_teleport", MethodDecl<Void> @:31 check:0,op:0,dt:0,nt:65535,next:848,nextCheck:59075,str:1875,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:848 check:59075,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9994,h:0,d0:849,d1:59076;
+        ("begin", Expression<MethodOrOperator> @:849 check:59076,op:0,dt:2,nt:9,next:837,nextCheck:59064,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:837 check:59064,op:19,dt:4,nt:8,next:840,nextCheck:59067,str:10028,h:0,d0:838,d1:59065;
+                ("sleep", Expression<MethodOrOperator> @:838 check:59065,op:19,dt:2,nt:9,next:839,nextCheck:59066,str:143,h:0,d0:0,d1:0;
+                    (240, Expression<Short> @:839 check:59066,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:10035,h:0,d0:240,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:840 check:59067,op:27,dt:4,nt:8,next:843,nextCheck:59070,str:10042,h:0,d0:841,d1:59068;
+                ("print", Expression<MethodOrOperator> @:841 check:59068,op:27,dt:2,nt:9,next:842,nextCheck:59069,str:149,h:0,d0:0,d1:0;
+                    ("effect - teleport", Expression<String> @:842 check:59069,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:1515,h:0,d0:1515,d1:0;)))
+            (____, BuiltinInvocation<Void> @:843 check:59070,op:41,dt:4,nt:8,next:65535,nextCheck:65535,str:10072,h:0,d0:844,d1:59071;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:844 check:59071,op:41,dt:2,nt:9,next:845,nextCheck:59072,str:1533,h:0,d0:0,d1:0;
+                    ("effects\gameplay\cinematic_teleport", Expression<Effect> @:845 check:59072,op:33,dt:33,nt:9,next:846,nextCheck:59073,str:1561,h:0,d0:606,d1:58324;
+                        (4294901767, Expression<Entity> @:846 check:59073,op:56,dt:50,nt:9,next:847,nextCheck:59074,str:1597,h:0,d0:7,d1:65535;
+                            ("marker", Expression<StringId> @:847 check:59074,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:1606,h:0,d0:4582,d1:1536;))))))))

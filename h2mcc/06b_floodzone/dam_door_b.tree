@@ -1,21 +1,21 @@
 
-("dam_door_b", MethodDecl<Void> @:182 op:0,dt:0,nt:65535,next:7437,str:16316,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:7437 op:0,dt:4,nt:8,next:65535,str:19881,d0:7438,d1:32898;
-        ("begin", Expression<MethodOrOperator> @:7438 op:0,dt:2,nt:9,next:7420,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:7420 op:21,dt:4,nt:8,next:65535,str:19910,d0:7421,d1:32881;
-                ("sleep_until", Expression<MethodOrOperator> @:7421 op:21,dt:2,nt:9,next:7422,str:236,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:7422 op:0,dt:5,nt:8,next:65535,str:19926,d0:7423,d1:32883;
-                        ("begin", Expression<MethodOrOperator> @:7423 op:0,dt:2,nt:9,next:7424,str:6,d0:0,d1:0;
-                            (____, BuiltinInvocation<Void> @:7424 op:21,dt:4,nt:8,next:7432,str:19937,d0:7425,d1:32885;
-                                ("sleep_until", Expression<MethodOrOperator> @:7425 op:21,dt:2,nt:9,next:7426,str:236,d0:0,d1:0;
-                                    (____, BuiltinInvocation<Boolean> @:7426 op:33,dt:5,nt:8,next:7431,str:19950,d0:7427,d1:32887;
-                                        ("volume_test_objects", Expression<MethodOrOperator> @:7427 op:33,dt:2,nt:9,next:7428,str:11117,d0:0,d1:0;
-                                            ("tv_dam_door_b", Expression<Trigger> @:7428 op:13,dt:13,nt:9,next:7429,str:16302,d0:63,d1:0;
-                                                (____, BuiltinInvocation<List> @:7429 op:28,dt:31,nt:8,next:65535,str:19985,d0:7430,d1:32890;
-                                                    ("players", Expression<MethodOrOperator> @:7430 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))
-                                    (5, Expression<Short> @:7431 op:7,dt:7,nt:9,next:65535,str:19996,d0:5,d1:65535;)))
-                            (____, BuiltinInvocation<Void> @:7432 op:256,dt:4,nt:8,next:7436,str:20003,d0:7433,d1:32893;
-                                ("device_set_position", Expression<MethodOrOperator> @:7433 op:256,dt:2,nt:9,next:7434,str:4999,d0:0,d1:0;
-                                    ("dam_door_b", Expression<Device> @:7434 op:60,dt:54,nt:9,next:7435,str:16316,d0:71,d1:65535;
-                                        (1f, Expression<Float> @:7435 op:6,dt:6,nt:9,next:65535,str:20035,d0:0,d1:16256;))))
-                            (False, Expression<Boolean> @:7436 op:5,dt:5,nt:9,next:65535,str:20041,d0:65280,d1:65535;))))))))
+("dam_door_b", MethodDecl<Void> @:182 check:0,op:0,dt:0,nt:65535,next:7437,nextCheck:32897,str:16316,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:7437 check:32897,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:19881,h:1,d0:7438,d1:32898;
+        ("begin", Expression<MethodOrOperator> @:7438 check:32898,op:0,dt:2,nt:9,next:7420,nextCheck:32880,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:7420 check:32880,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:19910,h:1,d0:7421,d1:32881;
+                ("sleep_until", Expression<MethodOrOperator> @:7421 check:32881,op:21,dt:2,nt:9,next:7422,nextCheck:32882,str:236,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:7422 check:32882,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:19926,h:1,d0:7423,d1:32883;
+                        ("begin", Expression<MethodOrOperator> @:7423 check:32883,op:0,dt:2,nt:9,next:7424,nextCheck:32884,str:6,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Void> @:7424 check:32884,op:21,dt:4,nt:8,next:7432,nextCheck:32892,str:19937,h:1,d0:7425,d1:32885;
+                                ("sleep_until", Expression<MethodOrOperator> @:7425 check:32885,op:21,dt:2,nt:9,next:7426,nextCheck:32886,str:236,h:0,d0:0,d1:0;
+                                    (____, BuiltinInvocation<Boolean> @:7426 check:32886,op:33,dt:5,nt:8,next:7431,nextCheck:32891,str:19950,h:1,d0:7427,d1:32887;
+                                        ("volume_test_objects", Expression<MethodOrOperator> @:7427 check:32887,op:33,dt:2,nt:9,next:7428,nextCheck:32888,str:11117,h:0,d0:0,d1:0;
+                                            ("tv_dam_door_b", Expression<Trigger> @:7428 check:32888,op:13,dt:13,nt:9,next:7429,nextCheck:32889,str:16302,h:0,d0:63,d1:0;
+                                                (____, BuiltinInvocation<List> @:7429 check:32889,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:19985,h:1,d0:7430,d1:32890;
+                                                    ("players", Expression<MethodOrOperator> @:7430 check:32890,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                                    (5, Expression<Short> @:7431 check:32891,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:19996,h:1,d0:5,d1:65535;)))
+                            (____, BuiltinInvocation<Void> @:7432 check:32892,op:256,dt:4,nt:8,next:7436,nextCheck:32896,str:20003,h:1,d0:7433,d1:32893;
+                                ("device_set_position", Expression<MethodOrOperator> @:7433 check:32893,op:256,dt:2,nt:9,next:7434,nextCheck:32894,str:4999,h:0,d0:0,d1:0;
+                                    ("dam_door_b", Expression<Device> @:7434 check:32894,op:60,dt:54,nt:9,next:7435,nextCheck:32895,str:16316,h:0,d0:71,d1:65535;
+                                        (1f, Expression<Float> @:7435 check:32895,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:20035,h:1,d0:0,d1:16256;))))
+                            (False, Expression<Boolean> @:7436 check:32896,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:20041,h:1,d0:65280,d1:65535;))))))))

@@ -1,16 +1,16 @@
 
-("hangar_sentinel_call", MethodDecl<Void> @:301 op:0,dt:0,nt:65535,next:12357,str:24609,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:12357 op:0,dt:4,nt:8,next:65535,str:11850,d0:12358,d1:37818;
-        ("begin", Expression<MethodOrOperator> @:12358 op:0,dt:2,nt:9,next:12345,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:12345 op:374,dt:4,nt:8,next:12348,str:11896,d0:12346,d1:37806;
-                ("cs_switch", Expression<MethodOrOperator> @:12346 op:374,dt:2,nt:9,next:12347,str:15212,d0:0,d1:0;
-                    ("heretic", Expression<StringId> @:12347 op:11,dt:11,nt:9,next:65535,str:24543,d0:2449,d1:1792;)))
-            (____, BuiltinInvocation<Void> @:12348 op:446,dt:4,nt:8,next:12351,str:11918,d0:12349,d1:37809;
-                ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:12349 op:446,dt:2,nt:9,next:12350,str:15246,d0:0,d1:0;
-                    (True, Expression<Boolean> @:12350 op:5,dt:5,nt:9,next:65535,str:11947,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:12351 op:27,dt:4,nt:8,next:12354,str:11955,d0:12352,d1:37812;
-                ("print", Expression<MethodOrOperator> @:12352 op:27,dt:2,nt:9,next:12353,str:91,d0:0,d1:0;
-                    ("heretic: 'sentinels! defend us!'", Expression<String> @:12353 op:9,dt:9,nt:9,next:65535,str:24551,d0:24551,d1:0;)))
-            (____, BuiltinInvocation<Void> @:12354 op:418,dt:4,nt:8,next:65535,str:12000,d0:12355,d1:37815;
-                ("cs_play_line", Expression<MethodOrOperator> @:12355 op:418,dt:2,nt:9,next:12356,str:15305,d0:0,d1:0;
-                    ("0380", Expression<StringId> @:12356 op:11,dt:11,nt:9,next:65535,str:24584,d0:11671,d1:1024;))))))
+("hangar_sentinel_call", MethodDecl<Void> @:301 check:0,op:0,dt:0,nt:65535,next:12357,nextCheck:37817,str:24609,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:12357 check:37817,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:11850,h:2,d0:12358,d1:37818;
+        ("begin", Expression<MethodOrOperator> @:12358 check:37818,op:0,dt:2,nt:9,next:12345,nextCheck:37805,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:12345 check:37805,op:374,dt:4,nt:8,next:12348,nextCheck:37808,str:11896,h:2,d0:12346,d1:37806;
+                ("cs_switch", Expression<MethodOrOperator> @:12346 check:37806,op:374,dt:2,nt:9,next:12347,nextCheck:37807,str:15212,h:0,d0:0,d1:0;
+                    ("heretic", Expression<StringId> @:12347 check:37807,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:24543,h:0,d0:2449,d1:1792;)))
+            (____, BuiltinInvocation<Void> @:12348 check:37808,op:446,dt:4,nt:8,next:12351,nextCheck:37811,str:11918,h:2,d0:12349,d1:37809;
+                ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:12349 check:37809,op:446,dt:2,nt:9,next:12350,nextCheck:37810,str:15246,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:12350 check:37810,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:11947,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:12351 check:37811,op:27,dt:4,nt:8,next:12354,nextCheck:37814,str:11955,h:2,d0:12352,d1:37812;
+                ("print", Expression<MethodOrOperator> @:12352 check:37812,op:27,dt:2,nt:9,next:12353,nextCheck:37813,str:91,h:0,d0:0,d1:0;
+                    ("heretic: 'sentinels! defend us!'", Expression<String> @:12353 check:37813,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:24551,h:0,d0:24551,d1:0;)))
+            (____, BuiltinInvocation<Void> @:12354 check:37814,op:418,dt:4,nt:8,next:65535,nextCheck:65535,str:12000,h:2,d0:12355,d1:37815;
+                ("cs_play_line", Expression<MethodOrOperator> @:12355 check:37815,op:418,dt:2,nt:9,next:12356,nextCheck:37816,str:15305,h:0,d0:0,d1:0;
+                    ("0380", Expression<StringId> @:12356 check:37816,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:24584,h:0,d0:11671,d1:1024;))))))

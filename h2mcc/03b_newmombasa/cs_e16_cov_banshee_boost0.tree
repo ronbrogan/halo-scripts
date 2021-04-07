@@ -1,19 +1,19 @@
 
-("cs_e16_cov_banshee_boost0", MethodDecl<Void> @:377 op:0,dt:0,nt:65535,next:13617,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:13617 op:0,dt:4,nt:8,next:65535,str:46962,d0:13618,d1:39078;
-        ("begin", Expression<MethodOrOperator> @:13618 op:0,dt:2,nt:9,next:13602,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:13602 op:438,dt:4,nt:8,next:13605,str:47013,d0:13603,d1:39063;
-                ("cs_vehicle_boost", Expression<MethodOrOperator> @:13603 op:438,dt:2,nt:9,next:13604,str:15358,d0:0,d1:0;
-                    (True, Expression<Boolean> @:13604 op:5,dt:5,nt:9,next:65535,str:47031,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:13605 op:383,dt:4,nt:8,next:13608,str:47039,d0:13606,d1:39066;
-                ("cs_fly_by", Expression<MethodOrOperator> @:13606 op:383,dt:2,nt:9,next:13607,str:15426,d0:0,d1:0;
-                    ("e16_cov_banshees0/p0", Expression<SpatialPoint> @:13607 op:28,dt:28,nt:9,next:65535,str:27853,d0:0,d1:8;)))
-            (____, BuiltinInvocation<Void> @:13608 op:383,dt:4,nt:8,next:13611,str:47074,d0:13609,d1:39069;
-                ("cs_fly_by", Expression<MethodOrOperator> @:13609 op:383,dt:2,nt:9,next:13610,str:15426,d0:0,d1:0;
-                    ("e16_cov_banshees0/p1", Expression<SpatialPoint> @:13610 op:28,dt:28,nt:9,next:65535,str:27874,d0:1,d1:8;)))
-            (____, BuiltinInvocation<Void> @:13611 op:19,dt:4,nt:8,next:65535,str:47109,d0:13612,d1:39072;
-                ("sleep", Expression<MethodOrOperator> @:13612 op:19,dt:2,nt:9,next:13613,str:85,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:13613 op:124,dt:7,nt:8,next:65535,str:47116,d0:13614,d1:39074;
-                        ("random_range", Expression<MethodOrOperator> @:13614 op:124,dt:2,nt:9,next:13615,str:16022,d0:0,d1:0;
-                            (30, Expression<Short> @:13615 op:7,dt:7,nt:9,next:13616,str:47130,d0:30,d1:65535;
-                                (60, Expression<Short> @:13616 op:7,dt:7,nt:9,next:65535,str:47133,d0:60,d1:65535;)))))))))
+("cs_e16_cov_banshee_boost0", MethodDecl<Void> @:377 check:0,op:0,dt:0,nt:65535,next:13617,nextCheck:39077,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:13617 check:39077,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:46962,h:2,d0:13618,d1:39078;
+        ("begin", Expression<MethodOrOperator> @:13618 check:39078,op:0,dt:2,nt:9,next:13602,nextCheck:39062,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:13602 check:39062,op:438,dt:4,nt:8,next:13605,nextCheck:39065,str:47013,h:2,d0:13603,d1:39063;
+                ("cs_vehicle_boost", Expression<MethodOrOperator> @:13603 check:39063,op:438,dt:2,nt:9,next:13604,nextCheck:39064,str:15358,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:13604 check:39064,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:47031,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:13605 check:39065,op:383,dt:4,nt:8,next:13608,nextCheck:39068,str:47039,h:2,d0:13606,d1:39066;
+                ("cs_fly_by", Expression<MethodOrOperator> @:13606 check:39066,op:383,dt:2,nt:9,next:13607,nextCheck:39067,str:15426,h:0,d0:0,d1:0;
+                    ("e16_cov_banshees0/p0", Expression<SpatialPoint> @:13607 check:39067,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:27853,h:0,d0:0,d1:8;)))
+            (____, BuiltinInvocation<Void> @:13608 check:39068,op:383,dt:4,nt:8,next:13611,nextCheck:39071,str:47074,h:2,d0:13609,d1:39069;
+                ("cs_fly_by", Expression<MethodOrOperator> @:13609 check:39069,op:383,dt:2,nt:9,next:13610,nextCheck:39070,str:15426,h:0,d0:0,d1:0;
+                    ("e16_cov_banshees0/p1", Expression<SpatialPoint> @:13610 check:39070,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:27874,h:0,d0:1,d1:8;)))
+            (____, BuiltinInvocation<Void> @:13611 check:39071,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:47109,h:2,d0:13612,d1:39072;
+                ("sleep", Expression<MethodOrOperator> @:13612 check:39072,op:19,dt:2,nt:9,next:13613,nextCheck:39073,str:85,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:13613 check:39073,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:47116,h:2,d0:13614,d1:39074;
+                        ("random_range", Expression<MethodOrOperator> @:13614 check:39074,op:124,dt:2,nt:9,next:13615,nextCheck:39075,str:16022,h:0,d0:0,d1:0;
+                            (30, Expression<Short> @:13615 check:39075,op:7,dt:7,nt:9,next:13616,nextCheck:39076,str:47130,h:2,d0:30,d1:65535;
+                                (60, Expression<Short> @:13616 check:39076,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:47133,h:2,d0:60,d1:65535;)))))))))

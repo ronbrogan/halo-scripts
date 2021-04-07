@@ -1,25 +1,25 @@
 
-("revive_aware", MethodDecl<Void> @:165 op:0,dt:0,nt:65535,next:5209,str:14647,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5209 op:0,dt:4,nt:8,next:65535,str:62975,d0:5210,d1:63437;
-        ("begin", Expression<MethodOrOperator> @:5210 op:0,dt:2,nt:9,next:5188,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5188 op:21,dt:4,nt:8,next:5196,str:63006,d0:5189,d1:63416;
-                ("sleep_until", Expression<MethodOrOperator> @:5189 op:21,dt:2,nt:9,next:5190,str:440,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:5190 op:15,dt:5,nt:8,next:65535,str:63019,d0:5191,d1:63418;
-                        (">", Expression<MethodOrOperator> @:5191 op:15,dt:2,nt:9,next:5192,str:13549,d0:0,d1:0;
-                            (____, BuiltinInvocation<Short> @:5192 op:331,dt:7,nt:8,next:5195,str:63022,d0:5193,d1:63420;
-                                ("ai_nonswarm_count", Expression<MethodOrOperator> @:5193 op:331,dt:2,nt:9,next:5194,str:13551,d0:0,d1:0;
-                                    ("disposal_infection", Expression<AI> @:5194 op:19,dt:19,nt:9,next:65535,str:13569,d0:4,d1:16384;)))
-                            (0, Expression<Short> @:5195 op:7,dt:7,nt:9,next:65535,str:63061,d0:0,d1:65535;)))))
-            (____, BuiltinInvocation<Void> @:5196 op:596,dt:4,nt:8,next:5206,str:63067,d0:5197,d1:63424;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:5197 op:596,dt:2,nt:9,next:5198,str:1435,d0:0,d1:0;
-                    ("sound\dialog\combat\elite_loose\02_danger\warn_fldreanimate", Expression<Sound> @:5198 op:32,dt:32,nt:9,next:5199,str:13588,d0:6496,d1:64409;
-                        (____, BuiltinInvocation<Entity> @:5199 op:37,dt:50,nt:8,next:5205,str:63148,d0:5200,d1:63427;
-                            ("list_get", Expression<MethodOrOperator> @:5200 op:37,dt:2,nt:9,next:5201,str:221,d0:0,d1:0;
-                                (____, BuiltinInvocation<List> @:5201 op:332,dt:31,nt:8,next:5204,str:63158,d0:5202,d1:63429;
-                                    ("ai_actors", Expression<MethodOrOperator> @:5202 op:332,dt:2,nt:9,next:5203,str:12066,d0:0,d1:0;
-                                        ("allies_elites_03a", Expression<AI> @:5203 op:19,dt:19,nt:9,next:65535,str:11345,d0:1,d1:0;)))
-                                (0, Expression<Short> @:5204 op:7,dt:7,nt:9,next:65535,str:63188,d0:0,d1:65535;)))
-                        (1f, Expression<Float> @:5205 op:6,dt:6,nt:9,next:65535,str:63191,d0:0,d1:16256;))))
-            (____, BuiltinInvocation<Void> @:5206 op:27,dt:4,nt:8,next:65535,str:63196,d0:5207,d1:63434;
-                ("print", Expression<MethodOrOperator> @:5207 op:27,dt:2,nt:9,next:5208,str:295,d0:0,d1:0;
-                    ("ally warns about reanimation", Expression<String> @:5208 op:9,dt:9,nt:9,next:65535,str:13648,d0:13648,d1:0;))))))
+("revive_aware", MethodDecl<Void> @:165 check:0,op:0,dt:0,nt:65535,next:5209,nextCheck:63436,str:14647,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5209 check:63436,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:62975,h:0,d0:5210,d1:63437;
+        ("begin", Expression<MethodOrOperator> @:5210 check:63437,op:0,dt:2,nt:9,next:5188,nextCheck:63415,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5188 check:63415,op:21,dt:4,nt:8,next:5196,nextCheck:63423,str:63006,h:0,d0:5189,d1:63416;
+                ("sleep_until", Expression<MethodOrOperator> @:5189 check:63416,op:21,dt:2,nt:9,next:5190,nextCheck:63417,str:440,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:5190 check:63417,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:63019,h:0,d0:5191,d1:63418;
+                        (">", Expression<MethodOrOperator> @:5191 check:63418,op:15,dt:2,nt:9,next:5192,nextCheck:63419,str:13549,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Short> @:5192 check:63419,op:331,dt:7,nt:8,next:5195,nextCheck:63422,str:63022,h:0,d0:5193,d1:63420;
+                                ("ai_nonswarm_count", Expression<MethodOrOperator> @:5193 check:63420,op:331,dt:2,nt:9,next:5194,nextCheck:63421,str:13551,h:0,d0:0,d1:0;
+                                    ("disposal_infection", Expression<AI> @:5194 check:63421,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13569,h:0,d0:4,d1:16384;)))
+                            (0, Expression<Short> @:5195 check:63422,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:63061,h:0,d0:0,d1:65535;)))))
+            (____, BuiltinInvocation<Void> @:5196 check:63423,op:596,dt:4,nt:8,next:5206,nextCheck:63433,str:63067,h:0,d0:5197,d1:63424;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:5197 check:63424,op:596,dt:2,nt:9,next:5198,nextCheck:63425,str:1435,h:0,d0:0,d1:0;
+                    ("sound\dialog\combat\elite_loose\02_danger\warn_fldreanimate", Expression<Sound> @:5198 check:63425,op:32,dt:32,nt:9,next:5199,nextCheck:63426,str:13588,h:0,d0:6496,d1:64409;
+                        (____, BuiltinInvocation<Entity> @:5199 check:63426,op:37,dt:50,nt:8,next:5205,nextCheck:63432,str:63148,h:0,d0:5200,d1:63427;
+                            ("list_get", Expression<MethodOrOperator> @:5200 check:63427,op:37,dt:2,nt:9,next:5201,nextCheck:63428,str:221,h:0,d0:0,d1:0;
+                                (____, BuiltinInvocation<List> @:5201 check:63428,op:332,dt:31,nt:8,next:5204,nextCheck:63431,str:63158,h:0,d0:5202,d1:63429;
+                                    ("ai_actors", Expression<MethodOrOperator> @:5202 check:63429,op:332,dt:2,nt:9,next:5203,nextCheck:63430,str:12066,h:0,d0:0,d1:0;
+                                        ("allies_elites_03a", Expression<AI> @:5203 check:63430,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:11345,h:0,d0:1,d1:0;)))
+                                (0, Expression<Short> @:5204 check:63431,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:63188,h:0,d0:0,d1:65535;)))
+                        (1f, Expression<Float> @:5205 check:63432,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:63191,h:0,d0:0,d1:16256;))))
+            (____, BuiltinInvocation<Void> @:5206 check:63433,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:63196,h:0,d0:5207,d1:63434;
+                ("print", Expression<MethodOrOperator> @:5207 check:63434,op:27,dt:2,nt:9,next:5208,nextCheck:63435,str:295,h:0,d0:0,d1:0;
+                    ("ally warns about reanimation", Expression<String> @:5208 check:63435,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13648,h:0,d0:13648,d1:0;))))))

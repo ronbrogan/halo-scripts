@@ -1,10 +1,10 @@
 
-("x04_02b_cleanup", MethodDecl<Void> @:65 op:0,dt:0,nt:65535,next:1701,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:1701 op:0,dt:4,nt:8,next:65535,str:18986,d0:1702,d1:59929;
-        ("begin", Expression<MethodOrOperator> @:1702 op:0,dt:2,nt:9,next:1695,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:1695 op:52,dt:4,nt:8,next:1698,str:19026,d0:1696,d1:59923;
-                ("object_destroy", Expression<MethodOrOperator> @:1696 op:52,dt:2,nt:9,next:1697,str:3343,d0:0,d1:0;
-                    (4294901850, Expression<Entity> @:1697 op:56,dt:50,nt:9,next:65535,str:3699,d0:90,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1698 op:53,dt:4,nt:8,next:65535,str:19056,d0:1699,d1:59926;
-                ("object_destroy_containing", Expression<MethodOrOperator> @:1699 op:53,dt:2,nt:9,next:1700,str:3762,d0:0,d1:0;
-                    ("jackal", Expression<String> @:1700 op:9,dt:9,nt:9,next:65535,str:3788,d0:3788,d1:0;))))))
+("x04_02b_cleanup", MethodDecl<Void> @:65 check:0,op:0,dt:0,nt:65535,next:1701,nextCheck:59928,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:1701 check:59928,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:18986,h:0,d0:1702,d1:59929;
+        ("begin", Expression<MethodOrOperator> @:1702 check:59929,op:0,dt:2,nt:9,next:1695,nextCheck:59922,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1695 check:59922,op:52,dt:4,nt:8,next:1698,nextCheck:59925,str:19026,h:0,d0:1696,d1:59923;
+                ("object_destroy", Expression<MethodOrOperator> @:1696 check:59923,op:52,dt:2,nt:9,next:1697,nextCheck:59924,str:3343,h:0,d0:0,d1:0;
+                    (4294901850, Expression<Entity> @:1697 check:59924,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:3699,h:0,d0:90,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1698 check:59925,op:53,dt:4,nt:8,next:65535,nextCheck:65535,str:19056,h:0,d0:1699,d1:59926;
+                ("object_destroy_containing", Expression<MethodOrOperator> @:1699 check:59926,op:53,dt:2,nt:9,next:1700,nextCheck:59927,str:3762,h:0,d0:0,d1:0;
+                    ("jackal", Expression<String> @:1700 check:59927,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:3788,h:0,d0:3788,d1:0;))))))

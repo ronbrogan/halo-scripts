@@ -1,22 +1,22 @@
 
-("e23_dialogue_boarding_kill", MethodDecl<Void> @:261 op:0,dt:0,nt:65535,next:8317,str:17959,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:8317 op:0,dt:4,nt:8,next:65535,str:39208,d0:8318,d1:33778;
-        ("begin", Expression<MethodOrOperator> @:8318 op:0,dt:2,nt:9,next:8299,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:8299 op:21,dt:4,nt:8,next:8310,str:39253,d0:8300,d1:33760;
-                ("sleep_until", Expression<MethodOrOperator> @:8300 op:21,dt:2,nt:9,next:8301,str:236,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:8301 op:6,dt:5,nt:8,next:8309,str:39270,d0:8302,d1:33762;
-                        ("or", Expression<MethodOrOperator> @:8302 op:6,dt:2,nt:9,next:8303,str:849,d0:0,d1:0;
-                            ("g_mission_over", VariableAccess<Boolean> @:8303 op:5,dt:5,nt:13,next:8304,str:17571,d0:3,d1:0;
-                                (____, BuiltinInvocation<Boolean> @:8304 op:33,dt:5,nt:8,next:65535,str:39297,d0:8305,d1:33765;
-                                    ("volume_test_objects", Expression<MethodOrOperator> @:8305 op:33,dt:2,nt:9,next:8306,str:13230,d0:0,d1:0;
-                                        ("tv_scarab", Expression<Trigger> @:8306 op:13,dt:13,nt:9,next:8307,str:13675,d0:84,d1:0;
-                                            (____, BuiltinInvocation<List> @:8307 op:28,dt:31,nt:8,next:65535,str:39328,d0:8308,d1:33768;
-                                                ("players", Expression<MethodOrOperator> @:8308 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;))))))))
-                    (15, Expression<Short> @:8309 op:7,dt:7,nt:9,next:65535,str:39348,d0:15,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8310 op:20,dt:4,nt:8,next:8313,str:39394,d0:8311,d1:33771;
-                ("sleep_forever", Expression<MethodOrOperator> @:8311 op:20,dt:2,nt:9,next:8312,str:13964,d0:0,d1:0;
-                    ("e23_dialogue_boarding", Expression<ScriptReference> @:8312 op:10,dt:10,nt:9,next:65535,str:17586,d0:260,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8313 op:644,dt:4,nt:8,next:65535,str:39434,d0:8314,d1:33774;
-                ("deactivate_team_nav_point_object", Expression<MethodOrOperator> @:8314 op:644,dt:2,nt:9,next:8315,str:17608,d0:0,d1:0;
-                    ("player", Expression<Team> @:8315 op:45,dt:45,nt:9,next:8316,str:17564,d0:1,d1:65535;
-                        (4294901862, Expression<Entity> @:8316 op:56,dt:50,nt:9,next:65535,str:13941,d0:102,d1:65535;)))))))
+("e23_dialogue_boarding_kill", MethodDecl<Void> @:261 check:0,op:0,dt:0,nt:65535,next:8317,nextCheck:33777,str:17959,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:8317 check:33777,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:39208,h:1,d0:8318,d1:33778;
+        ("begin", Expression<MethodOrOperator> @:8318 check:33778,op:0,dt:2,nt:9,next:8299,nextCheck:33759,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:8299 check:33759,op:21,dt:4,nt:8,next:8310,nextCheck:33770,str:39253,h:1,d0:8300,d1:33760;
+                ("sleep_until", Expression<MethodOrOperator> @:8300 check:33760,op:21,dt:2,nt:9,next:8301,nextCheck:33761,str:236,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:8301 check:33761,op:6,dt:5,nt:8,next:8309,nextCheck:33769,str:39270,h:1,d0:8302,d1:33762;
+                        ("or", Expression<MethodOrOperator> @:8302 check:33762,op:6,dt:2,nt:9,next:8303,nextCheck:33763,str:849,h:0,d0:0,d1:0;
+                            ("g_mission_over", VariableAccess<Boolean> @:8303 check:33763,op:5,dt:5,nt:13,next:8304,nextCheck:33764,str:17571,h:0,d0:3,d1:0;
+                                (____, BuiltinInvocation<Boolean> @:8304 check:33764,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:39297,h:1,d0:8305,d1:33765;
+                                    ("volume_test_objects", Expression<MethodOrOperator> @:8305 check:33765,op:33,dt:2,nt:9,next:8306,nextCheck:33766,str:13230,h:0,d0:0,d1:0;
+                                        ("tv_scarab", Expression<Trigger> @:8306 check:33766,op:13,dt:13,nt:9,next:8307,nextCheck:33767,str:13675,h:0,d0:84,d1:0;
+                                            (____, BuiltinInvocation<List> @:8307 check:33767,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:39328,h:1,d0:8308,d1:33768;
+                                                ("players", Expression<MethodOrOperator> @:8308 check:33768,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;))))))))
+                    (15, Expression<Short> @:8309 check:33769,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:39348,h:1,d0:15,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8310 check:33770,op:20,dt:4,nt:8,next:8313,nextCheck:33773,str:39394,h:1,d0:8311,d1:33771;
+                ("sleep_forever", Expression<MethodOrOperator> @:8311 check:33771,op:20,dt:2,nt:9,next:8312,nextCheck:33772,str:13964,h:0,d0:0,d1:0;
+                    ("e23_dialogue_boarding", Expression<ScriptReference> @:8312 check:33772,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:17586,h:0,d0:260,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8313 check:33773,op:644,dt:4,nt:8,next:65535,nextCheck:65535,str:39434,h:1,d0:8314,d1:33774;
+                ("deactivate_team_nav_point_object", Expression<MethodOrOperator> @:8314 check:33774,op:644,dt:2,nt:9,next:8315,nextCheck:33775,str:17608,h:0,d0:0,d1:0;
+                    ("player", Expression<Team> @:8315 check:33775,op:45,dt:45,nt:9,next:8316,nextCheck:33776,str:17564,h:0,d0:1,d1:65535;
+                        (4294901862, Expression<Entity> @:8316 check:33776,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:13941,h:0,d0:102,d1:65535;)))))))

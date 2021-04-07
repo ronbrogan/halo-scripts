@@ -1,24 +1,24 @@
 
-("ai_ext_b_exit_tube_b", MethodDecl<Void> @:207 op:0,dt:0,nt:65535,next:9095,str:27309,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:9095 op:0,dt:4,nt:8,next:65535,str:36424,d0:9096,d1:34556;
-        ("begin", Expression<MethodOrOperator> @:9096 op:0,dt:2,nt:9,next:9075,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:9075 op:21,dt:4,nt:8,next:9082,str:36463,d0:9076,d1:34536;
-                ("sleep_until", Expression<MethodOrOperator> @:9076 op:21,dt:2,nt:9,next:9077,str:236,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:9077 op:33,dt:5,nt:8,next:65535,str:36476,d0:9078,d1:34538;
-                        ("volume_test_objects", Expression<MethodOrOperator> @:9078 op:33,dt:2,nt:9,next:9079,str:11117,d0:0,d1:0;
-                            ("tv_ext_b_exit_tube_b", Expression<Trigger> @:9079 op:13,dt:13,nt:9,next:9080,str:19329,d0:77,d1:0;
-                                (____, BuiltinInvocation<List> @:9080 op:28,dt:31,nt:8,next:65535,str:36518,d0:9081,d1:34541;
-                                    ("players", Expression<MethodOrOperator> @:9081 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))))
-            (____, BuiltinInvocation<Void> @:9082 op:291,dt:4,nt:8,next:65535,str:36532,d0:9083,d1:34543;
-                ("ai_place", Expression<MethodOrOperator> @:9083 op:291,dt:2,nt:9,next:9084,str:16231,d0:0,d1:0;
-                    ("qz_ext_b_ent_flood_tube_b", Expression<AI> @:9084 op:19,dt:19,nt:9,next:9085,str:19350,d0:123,d1:0;
-                        (____, BuiltinInvocation<Short> @:9085 op:26,dt:7,nt:8,next:65535,str:36568,d0:9086,d1:34546;
-                            ("pin", Expression<MethodOrOperator> @:9086 op:26,dt:2,nt:9,next:9087,str:19325,d0:0,d1:0;
-                                (-9.183476E-35f, BuiltinInvocation<Float> @:9087 op:8,dt:6,nt:8,next:9093,str:36573,d0:9088,d1:34548;
-                                    ("-", Expression<MethodOrOperator> @:9088 op:8,dt:2,nt:9,next:9089,str:3173,d0:0,d1:0;
-                                        (8f, Expression<Float> @:9089 op:6,dt:6,nt:9,next:9090,str:36576,d0:0,d1:16640;
-                                            (-9.2963253E-35f, BuiltinInvocation<Float> @:9090 op:331,dt:6,nt:8,next:65535,str:36578,d0:9091,d1:34551;
-                                                ("ai_nonswarm_count", Expression<MethodOrOperator> @:9091 op:331,dt:2,nt:9,next:9092,str:17632,d0:0,d1:0;
-                                                    ("ext_b_flood", Expression<AI> @:9092 op:19,dt:19,nt:9,next:65535,str:15474,d0:71,d1:16384;))))))
-                                (0f, Expression<Float> @:9093 op:6,dt:6,nt:9,next:9094,str:36611,d0:0,d1:0;
-                                    (6f, Expression<Float> @:9094 op:6,dt:6,nt:9,next:65535,str:36613,d0:0,d1:16576;))))))))))
+("ai_ext_b_exit_tube_b", MethodDecl<Void> @:207 check:0,op:0,dt:0,nt:65535,next:9095,nextCheck:34555,str:27309,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:9095 check:34555,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36424,h:1,d0:9096,d1:34556;
+        ("begin", Expression<MethodOrOperator> @:9096 check:34556,op:0,dt:2,nt:9,next:9075,nextCheck:34535,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:9075 check:34535,op:21,dt:4,nt:8,next:9082,nextCheck:34542,str:36463,h:1,d0:9076,d1:34536;
+                ("sleep_until", Expression<MethodOrOperator> @:9076 check:34536,op:21,dt:2,nt:9,next:9077,nextCheck:34537,str:236,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:9077 check:34537,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:36476,h:1,d0:9078,d1:34538;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:9078 check:34538,op:33,dt:2,nt:9,next:9079,nextCheck:34539,str:11117,h:0,d0:0,d1:0;
+                            ("tv_ext_b_exit_tube_b", Expression<Trigger> @:9079 check:34539,op:13,dt:13,nt:9,next:9080,nextCheck:34540,str:19329,h:0,d0:77,d1:0;
+                                (____, BuiltinInvocation<List> @:9080 check:34540,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:36518,h:1,d0:9081,d1:34541;
+                                    ("players", Expression<MethodOrOperator> @:9081 check:34541,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))))
+            (____, BuiltinInvocation<Void> @:9082 check:34542,op:291,dt:4,nt:8,next:65535,nextCheck:65535,str:36532,h:1,d0:9083,d1:34543;
+                ("ai_place", Expression<MethodOrOperator> @:9083 check:34543,op:291,dt:2,nt:9,next:9084,nextCheck:34544,str:16231,h:0,d0:0,d1:0;
+                    ("qz_ext_b_ent_flood_tube_b", Expression<AI> @:9084 check:34544,op:19,dt:19,nt:9,next:9085,nextCheck:34545,str:19350,h:0,d0:123,d1:0;
+                        (____, BuiltinInvocation<Short> @:9085 check:34545,op:26,dt:7,nt:8,next:65535,nextCheck:65535,str:36568,h:1,d0:9086,d1:34546;
+                            ("pin", Expression<MethodOrOperator> @:9086 check:34546,op:26,dt:2,nt:9,next:9087,nextCheck:34547,str:19325,h:0,d0:0,d1:0;
+                                (-9.183476E-35f, BuiltinInvocation<Float> @:9087 check:34547,op:8,dt:6,nt:8,next:9093,nextCheck:34553,str:36573,h:1,d0:9088,d1:34548;
+                                    ("-", Expression<MethodOrOperator> @:9088 check:34548,op:8,dt:2,nt:9,next:9089,nextCheck:34549,str:3173,h:0,d0:0,d1:0;
+                                        (8f, Expression<Float> @:9089 check:34549,op:6,dt:6,nt:9,next:9090,nextCheck:34550,str:36576,h:1,d0:0,d1:16640;
+                                            (-9.2963253E-35f, BuiltinInvocation<Float> @:9090 check:34550,op:331,dt:6,nt:8,next:65535,nextCheck:65535,str:36578,h:1,d0:9091,d1:34551;
+                                                ("ai_nonswarm_count", Expression<MethodOrOperator> @:9091 check:34551,op:331,dt:2,nt:9,next:9092,nextCheck:34552,str:17632,h:0,d0:0,d1:0;
+                                                    ("ext_b_flood", Expression<AI> @:9092 check:34552,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:15474,h:0,d0:71,d1:16384;))))))
+                                (0f, Expression<Float> @:9093 check:34553,op:6,dt:6,nt:9,next:9094,nextCheck:34554,str:36611,h:1,d0:0,d1:0;
+                                    (6f, Expression<Float> @:9094 check:34554,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:36613,h:1,d0:0,d1:16576;))))))))))

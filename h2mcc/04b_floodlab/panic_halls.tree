@@ -1,21 +1,21 @@
 
-("panic_halls", MethodDecl<Void> @:319 op:0,dt:0,nt:65535,next:26777,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:26777 op:0,dt:4,nt:8,next:65535,str:61900,d0:26778,d1:52238;
-        ("begin", Expression<MethodOrOperator> @:26778 op:0,dt:2,nt:9,next:26760,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:26760 op:444,dt:4,nt:8,next:26763,str:61937,d0:26761,d1:52221;
-                ("cs_enable_moving", Expression<MethodOrOperator> @:26761 op:444,dt:2,nt:9,next:26762,str:11483,d0:0,d1:0;
-                    (True, Expression<Boolean> @:26762 op:5,dt:5,nt:9,next:65535,str:61955,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:26763 op:422,dt:4,nt:8,next:26766,str:61963,d0:26764,d1:52224;
-                ("cs_movement_mode", Expression<MethodOrOperator> @:26764 op:422,dt:2,nt:9,next:26765,str:33032,d0:0,d1:0;
-                    (3, Expression<Short> @:26765 op:7,dt:7,nt:9,next:65535,str:61981,d0:3,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:26766 op:21,dt:4,nt:8,next:65535,str:61986,d0:26767,d1:52227;
-                ("sleep_until", Expression<MethodOrOperator> @:26767 op:21,dt:2,nt:9,next:26768,str:440,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:26768 op:13,dt:5,nt:8,next:65535,str:61999,d0:26769,d1:52229;
-                        ("=", Expression<MethodOrOperator> @:26769 op:13,dt:2,nt:9,next:26770,str:505,d0:0,d1:0;
-                            (____, BuiltinInvocation<Boolean> @:26770 op:32,dt:5,nt:8,next:26776,str:62002,d0:26771,d1:52231;
-                                ("volume_test_object", Expression<MethodOrOperator> @:26771 op:32,dt:2,nt:9,next:26772,str:11170,d0:0,d1:0;
-                                    ("vol_bottling_enter", Expression<Trigger> @:26772 op:13,dt:13,nt:9,next:26773,str:32623,d0:63,d1:0;
-                                        (____, BuiltinInvocation<Entity> @:26773 op:284,dt:50,nt:8,next:65535,str:62041,d0:26774,d1:52234;
-                                            ("ai_get_object", Expression<MethodOrOperator> @:26774 op:284,dt:2,nt:9,next:26775,str:19090,d0:0,d1:0;
-                                                ("ai_current_actor", VariableAccess<AI> @:26775 op:19,dt:19,nt:13,next:65535,str:11899,d0:33564,d1:65535;))))))
-                            (True, Expression<Boolean> @:26776 op:5,dt:5,nt:9,next:65535,str:62075,d0:65281,d1:65535;))))))))
+("panic_halls", MethodDecl<Void> @:319 check:0,op:0,dt:0,nt:65535,next:26777,nextCheck:52237,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:26777 check:52237,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:61900,h:3,d0:26778,d1:52238;
+        ("begin", Expression<MethodOrOperator> @:26778 check:52238,op:0,dt:2,nt:9,next:26760,nextCheck:52220,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:26760 check:52220,op:444,dt:4,nt:8,next:26763,nextCheck:52223,str:61937,h:3,d0:26761,d1:52221;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:26761 check:52221,op:444,dt:2,nt:9,next:26762,nextCheck:52222,str:11483,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:26762 check:52222,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:61955,h:3,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:26763 check:52223,op:422,dt:4,nt:8,next:26766,nextCheck:52226,str:61963,h:3,d0:26764,d1:52224;
+                ("cs_movement_mode", Expression<MethodOrOperator> @:26764 check:52224,op:422,dt:2,nt:9,next:26765,nextCheck:52225,str:33032,h:0,d0:0,d1:0;
+                    (3, Expression<Short> @:26765 check:52225,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:61981,h:3,d0:3,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:26766 check:52226,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:61986,h:3,d0:26767,d1:52227;
+                ("sleep_until", Expression<MethodOrOperator> @:26767 check:52227,op:21,dt:2,nt:9,next:26768,nextCheck:52228,str:440,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:26768 check:52228,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:61999,h:3,d0:26769,d1:52229;
+                        ("=", Expression<MethodOrOperator> @:26769 check:52229,op:13,dt:2,nt:9,next:26770,nextCheck:52230,str:505,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Boolean> @:26770 check:52230,op:32,dt:5,nt:8,next:26776,nextCheck:52236,str:62002,h:3,d0:26771,d1:52231;
+                                ("volume_test_object", Expression<MethodOrOperator> @:26771 check:52231,op:32,dt:2,nt:9,next:26772,nextCheck:52232,str:11170,h:0,d0:0,d1:0;
+                                    ("vol_bottling_enter", Expression<Trigger> @:26772 check:52232,op:13,dt:13,nt:9,next:26773,nextCheck:52233,str:32623,h:0,d0:63,d1:0;
+                                        (____, BuiltinInvocation<Entity> @:26773 check:52233,op:284,dt:50,nt:8,next:65535,nextCheck:65535,str:62041,h:3,d0:26774,d1:52234;
+                                            ("ai_get_object", Expression<MethodOrOperator> @:26774 check:52234,op:284,dt:2,nt:9,next:26775,nextCheck:52235,str:19090,h:0,d0:0,d1:0;
+                                                ("ai_current_actor", VariableAccess<AI> @:26775 check:52235,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:11899,h:0,d0:33564,d1:65535;))))))
+                            (True, Expression<Boolean> @:26776 check:52236,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:62075,h:3,d0:65281,d1:65535;))))))))

@@ -1,13 +1,13 @@
 
-("key_ride_test", MethodDecl<Void> @:224 op:0,dt:0,nt:65535,next:10438,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:10438 op:0,dt:4,nt:8,next:65535,str:52685,d0:10439,d1:35899;
-        ("begin", Expression<MethodOrOperator> @:10439 op:0,dt:2,nt:9,next:10429,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:10429 op:22,dt:4,nt:8,next:10432,str:52721,d0:10430,d1:35890;
-                ("wake", Expression<MethodOrOperator> @:10430 op:22,dt:2,nt:9,next:10431,str:1071,d0:0,d1:0;
-                    ("key_main", Expression<ScriptReference> @:10431 op:10,dt:10,nt:9,next:65535,str:21506,d0:215,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10432 op:22,dt:4,nt:8,next:10435,str:52739,d0:10433,d1:35893;
-                ("wake", Expression<MethodOrOperator> @:10433 op:22,dt:2,nt:9,next:10434,str:1071,d0:0,d1:0;
-                    ("key_ride_human_key_main", Expression<ScriptReference> @:10434 op:10,dt:10,nt:9,next:65535,str:21515,d0:216,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10435 op:22,dt:4,nt:8,next:65535,str:52772,d0:10436,d1:35896;
-                ("wake", Expression<MethodOrOperator> @:10436 op:22,dt:2,nt:9,next:10437,str:1071,d0:0,d1:0;
-                    ("key_ride_tartarus_main", Expression<ScriptReference> @:10437 op:10,dt:10,nt:9,next:65535,str:21539,d0:223,d1:65535;))))))
+("key_ride_test", MethodDecl<Void> @:224 check:0,op:0,dt:0,nt:65535,next:10438,nextCheck:35898,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:10438 check:35898,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:52685,h:1,d0:10439,d1:35899;
+        ("begin", Expression<MethodOrOperator> @:10439 check:35899,op:0,dt:2,nt:9,next:10429,nextCheck:35889,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:10429 check:35889,op:22,dt:4,nt:8,next:10432,nextCheck:35892,str:52721,h:1,d0:10430,d1:35890;
+                ("wake", Expression<MethodOrOperator> @:10430 check:35890,op:22,dt:2,nt:9,next:10431,nextCheck:35891,str:1071,h:0,d0:0,d1:0;
+                    ("key_main", Expression<ScriptReference> @:10431 check:35891,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:21506,h:0,d0:215,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10432 check:35892,op:22,dt:4,nt:8,next:10435,nextCheck:35895,str:52739,h:1,d0:10433,d1:35893;
+                ("wake", Expression<MethodOrOperator> @:10433 check:35893,op:22,dt:2,nt:9,next:10434,nextCheck:35894,str:1071,h:0,d0:0,d1:0;
+                    ("key_ride_human_key_main", Expression<ScriptReference> @:10434 check:35894,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:21515,h:0,d0:216,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10435 check:35895,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:52772,h:1,d0:10436,d1:35896;
+                ("wake", Expression<MethodOrOperator> @:10436 check:35896,op:22,dt:2,nt:9,next:10437,nextCheck:35897,str:1071,h:0,d0:0,d1:0;
+                    ("key_ride_tartarus_main", Expression<ScriptReference> @:10437 check:35897,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:21539,h:0,d0:223,d1:65535;))))))

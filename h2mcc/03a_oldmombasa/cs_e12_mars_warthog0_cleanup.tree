@@ -1,17 +1,17 @@
 
-("cs_e12_mars_warthog0_cleanup", MethodDecl<Void> @:187 op:0,dt:0,nt:65535,next:6564,str:14678,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6564 op:0,dt:4,nt:8,next:65535,str:13453,d0:6565,d1:64792;
-        ("begin", Expression<MethodOrOperator> @:6565 op:0,dt:2,nt:9,next:6551,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6551 op:2,dt:4,nt:8,next:65535,str:13507,d0:6552,d1:64779;
-                ("if", Expression<MethodOrOperator> @:6552 op:2,dt:2,nt:9,next:6553,str:519,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:6553 op:25,dt:5,nt:8,next:6561,str:13511,d0:6554,d1:64781;
-                        ("not", Expression<MethodOrOperator> @:6554 op:25,dt:2,nt:9,next:6555,str:460,d0:0,d1:0;
-                            (____, BuiltinInvocation<Boolean> @:6555 op:32,dt:5,nt:8,next:65535,str:13516,d0:6556,d1:64783;
-                                ("volume_test_object", Expression<MethodOrOperator> @:6556 op:32,dt:2,nt:9,next:6557,str:13924,d0:0,d1:0;
-                                    ("tv_e12_mars_warthog0_preserve", Expression<Trigger> @:6557 op:13,dt:13,nt:9,next:6558,str:13943,d0:109,d1:0;
-                                        (____, BuiltinInvocation<Entity> @:6558 op:284,dt:50,nt:8,next:65535,str:13566,d0:6559,d1:64786;
-                                            ("ai_get_object", Expression<MethodOrOperator> @:6559 op:284,dt:2,nt:9,next:6560,str:4496,d0:0,d1:0;
-                                                ("ai_current_actor", VariableAccess<AI> @:6560 op:19,dt:19,nt:13,next:65535,str:4350,d0:33564,d1:65535;))))))))
-                    (____, BuiltinInvocation<Void> @:6561 op:298,dt:4,nt:8,next:65535,str:13604,d0:6562,d1:64789;
-                        ("ai_erase", Expression<MethodOrOperator> @:6562 op:298,dt:2,nt:9,next:6563,str:4540,d0:0,d1:0;
-                            ("ai_current_actor", VariableAccess<AI> @:6563 op:19,dt:19,nt:13,next:65535,str:4350,d0:33564,d1:65535;))))))))
+("cs_e12_mars_warthog0_cleanup", MethodDecl<Void> @:187 check:0,op:0,dt:0,nt:65535,next:6564,nextCheck:64791,str:14678,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6564 check:64791,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:13453,h:1,d0:6565,d1:64792;
+        ("begin", Expression<MethodOrOperator> @:6565 check:64792,op:0,dt:2,nt:9,next:6551,nextCheck:64778,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6551 check:64778,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:13507,h:1,d0:6552,d1:64779;
+                ("if", Expression<MethodOrOperator> @:6552 check:64779,op:2,dt:2,nt:9,next:6553,nextCheck:64780,str:519,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:6553 check:64780,op:25,dt:5,nt:8,next:6561,nextCheck:64788,str:13511,h:1,d0:6554,d1:64781;
+                        ("not", Expression<MethodOrOperator> @:6554 check:64781,op:25,dt:2,nt:9,next:6555,nextCheck:64782,str:460,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Boolean> @:6555 check:64782,op:32,dt:5,nt:8,next:65535,nextCheck:65535,str:13516,h:1,d0:6556,d1:64783;
+                                ("volume_test_object", Expression<MethodOrOperator> @:6556 check:64783,op:32,dt:2,nt:9,next:6557,nextCheck:64784,str:13924,h:0,d0:0,d1:0;
+                                    ("tv_e12_mars_warthog0_preserve", Expression<Trigger> @:6557 check:64784,op:13,dt:13,nt:9,next:6558,nextCheck:64785,str:13943,h:0,d0:109,d1:0;
+                                        (____, BuiltinInvocation<Entity> @:6558 check:64785,op:284,dt:50,nt:8,next:65535,nextCheck:65535,str:13566,h:1,d0:6559,d1:64786;
+                                            ("ai_get_object", Expression<MethodOrOperator> @:6559 check:64786,op:284,dt:2,nt:9,next:6560,nextCheck:64787,str:4496,h:0,d0:0,d1:0;
+                                                ("ai_current_actor", VariableAccess<AI> @:6560 check:64787,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4350,h:0,d0:33564,d1:65535;))))))))
+                    (____, BuiltinInvocation<Void> @:6561 check:64788,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:13604,h:1,d0:6562,d1:64789;
+                        ("ai_erase", Expression<MethodOrOperator> @:6562 check:64789,op:298,dt:2,nt:9,next:6563,nextCheck:64790,str:4540,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:6563 check:64790,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4350,h:0,d0:33564,d1:65535;))))))))

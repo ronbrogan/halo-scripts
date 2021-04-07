@@ -1,13 +1,13 @@
 
-("c07_intra1_03_cleanup", MethodDecl<Void> @:185 op:0,dt:0,nt:65535,next:6561,str:16006,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6561 op:0,dt:4,nt:8,next:65535,str:22002,d0:6562,d1:64789;
-        ("begin", Expression<MethodOrOperator> @:6562 op:0,dt:2,nt:9,next:6552,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6552 op:52,dt:4,nt:8,next:6555,str:22049,d0:6553,d1:64780;
-                ("object_destroy", Expression<MethodOrOperator> @:6553 op:52,dt:2,nt:9,next:6554,str:4950,d0:0,d1:0;
-                    (4294902026, Expression<Entity> @:6554 op:56,dt:50,nt:9,next:65535,str:14908,d0:266,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6555 op:52,dt:4,nt:8,next:6558,str:22086,d0:6556,d1:64783;
-                ("object_destroy", Expression<MethodOrOperator> @:6556 op:52,dt:2,nt:9,next:6557,str:4950,d0:0,d1:0;
-                    (4294901760, Expression<Entity> @:6557 op:56,dt:50,nt:9,next:65535,str:13488,d0:0,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6558 op:53,dt:4,nt:8,next:65535,str:22112,d0:6559,d1:64786;
-                ("object_destroy_containing", Expression<MethodOrOperator> @:6559 op:53,dt:2,nt:9,next:6560,str:8138,d0:0,d1:0;
-                    ("intra_pike", Expression<String> @:6560 op:9,dt:9,nt:9,next:65535,str:13602,d0:13602,d1:0;))))))
+("c07_intra1_03_cleanup", MethodDecl<Void> @:185 check:0,op:0,dt:0,nt:65535,next:6561,nextCheck:64788,str:16006,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6561 check:64788,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:22002,h:1,d0:6562,d1:64789;
+        ("begin", Expression<MethodOrOperator> @:6562 check:64789,op:0,dt:2,nt:9,next:6552,nextCheck:64779,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6552 check:64779,op:52,dt:4,nt:8,next:6555,nextCheck:64782,str:22049,h:1,d0:6553,d1:64780;
+                ("object_destroy", Expression<MethodOrOperator> @:6553 check:64780,op:52,dt:2,nt:9,next:6554,nextCheck:64781,str:4950,h:0,d0:0,d1:0;
+                    (4294902026, Expression<Entity> @:6554 check:64781,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:14908,h:0,d0:266,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6555 check:64782,op:52,dt:4,nt:8,next:6558,nextCheck:64785,str:22086,h:1,d0:6556,d1:64783;
+                ("object_destroy", Expression<MethodOrOperator> @:6556 check:64783,op:52,dt:2,nt:9,next:6557,nextCheck:64784,str:4950,h:0,d0:0,d1:0;
+                    (4294901760, Expression<Entity> @:6557 check:64784,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:13488,h:0,d0:0,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6558 check:64785,op:53,dt:4,nt:8,next:65535,nextCheck:65535,str:22112,h:1,d0:6559,d1:64786;
+                ("object_destroy_containing", Expression<MethodOrOperator> @:6559 check:64786,op:53,dt:2,nt:9,next:6560,nextCheck:64787,str:8138,h:0,d0:0,d1:0;
+                    ("intra_pike", Expression<String> @:6560 check:64787,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13602,h:0,d0:13602,d1:0;))))))

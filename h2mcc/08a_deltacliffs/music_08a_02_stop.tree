@@ -1,10 +1,10 @@
 
-("music_08a_02_stop", MethodDecl<Void> @:76 op:0,dt:0,nt:65535,next:2448,str:14020,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2448 op:0,dt:4,nt:8,next:65535,str:28940,d0:2449,d1:60676;
-        ("begin", Expression<MethodOrOperator> @:2449 op:0,dt:2,nt:9,next:2442,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2442 op:27,dt:4,nt:8,next:2445,str:28976,d0:2443,d1:60670;
-                ("print", Expression<MethodOrOperator> @:2443 op:27,dt:2,nt:9,next:2444,str:149,d0:0,d1:0;
-                    ("music 08a_02 stop", Expression<String> @:2444 op:9,dt:9,nt:9,next:65535,str:5434,d0:5434,d1:0;)))
-            (____, BuiltinInvocation<Void> @:2445 op:606,dt:4,nt:8,next:65535,str:29006,d0:2446,d1:60673;
-                ("sound_looping_stop", Expression<MethodOrOperator> @:2446 op:606,dt:2,nt:9,next:2447,str:5277,d0:0,d1:0;
-                    ("scenarios\solo\08a_deltacliffs\08a_music\08a_02", Expression<LoopingSound> @:2447 op:35,dt:35,nt:9,next:65535,str:5452,d0:7107,d1:65018;))))))
+("music_08a_02_stop", MethodDecl<Void> @:76 check:0,op:0,dt:0,nt:65535,next:2448,nextCheck:60675,str:14020,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2448 check:60675,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28940,h:0,d0:2449,d1:60676;
+        ("begin", Expression<MethodOrOperator> @:2449 check:60676,op:0,dt:2,nt:9,next:2442,nextCheck:60669,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2442 check:60669,op:27,dt:4,nt:8,next:2445,nextCheck:60672,str:28976,h:0,d0:2443,d1:60670;
+                ("print", Expression<MethodOrOperator> @:2443 check:60670,op:27,dt:2,nt:9,next:2444,nextCheck:60671,str:149,h:0,d0:0,d1:0;
+                    ("music 08a_02 stop", Expression<String> @:2444 check:60671,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:5434,h:0,d0:5434,d1:0;)))
+            (____, BuiltinInvocation<Void> @:2445 check:60672,op:606,dt:4,nt:8,next:65535,nextCheck:65535,str:29006,h:0,d0:2446,d1:60673;
+                ("sound_looping_stop", Expression<MethodOrOperator> @:2446 check:60673,op:606,dt:2,nt:9,next:2447,nextCheck:60674,str:5277,h:0,d0:0,d1:0;
+                    ("scenarios\solo\08a_deltacliffs\08a_music\08a_02", Expression<LoopingSound> @:2447 check:60674,op:35,dt:35,nt:9,next:65535,nextCheck:65535,str:5452,h:0,d0:7107,d1:65018;))))))

@@ -1,64 +1,64 @@
 
-("cs_sc_qz_ini", MethodDecl<Void> @:174 op:0,dt:0,nt:65535,next:6029,str:14775,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6029 op:0,dt:4,nt:8,next:65535,str:1998,d0:6030,d1:64257;
-        ("begin", Expression<MethodOrOperator> @:6030 op:0,dt:2,nt:9,next:5969,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5969 op:2,dt:4,nt:8,next:5975,str:2036,d0:5970,d1:64197;
-                ("if", Expression<MethodOrOperator> @:5970 op:2,dt:2,nt:9,next:5971,str:456,d0:0,d1:0;
-                    ("dialogue", VariableAccess<Boolean> @:5971 op:5,dt:5,nt:13,next:5972,str:12757,d0:4,d1:0;
-                        (____, BuiltinInvocation<Void> @:5972 op:27,dt:4,nt:8,next:65535,str:2049,d0:5973,d1:64200;
-                            ("print", Expression<MethodOrOperator> @:5973 op:27,dt:2,nt:9,next:5974,str:86,d0:0,d1:0;
-                                ("spec-ops: forerunners be praised! the arbiter!", Expression<String> @:5974 op:9,dt:9,nt:9,next:65535,str:14508,d0:14508,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:5975 op:19,dt:4,nt:8,next:5981,str:2109,d0:5976,d1:64203;
-                ("sleep", Expression<MethodOrOperator> @:5976 op:19,dt:2,nt:9,next:5977,str:80,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:5977 op:361,dt:7,nt:8,next:65535,str:2116,d0:5978,d1:64205;
-                        ("ai_play_line_at_player", Expression<MethodOrOperator> @:5978 op:361,dt:2,nt:9,next:5979,str:12793,d0:0,d1:0;
-                            ("qz_ini_ins_pods", Expression<AI> @:5979 op:19,dt:19,nt:9,next:5980,str:14555,d0:89,d1:0;
-                                ("0530", Expression<StringId> @:5980 op:11,dt:11,nt:9,next:65535,str:14571,d0:13706,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:5981 op:19,dt:4,nt:8,next:5984,str:2165,d0:5982,d1:64209;
-                ("sleep", Expression<MethodOrOperator> @:5982 op:19,dt:2,nt:9,next:5983,str:80,d0:0,d1:0;
-                    ("dialogue_pause", VariableAccess<Short> @:5983 op:7,dt:7,nt:13,next:65535,str:12832,d0:36,d1:0;)))
-            (____, BuiltinInvocation<Void> @:5984 op:2,dt:4,nt:8,next:5990,str:2192,d0:5985,d1:64212;
-                ("if", Expression<MethodOrOperator> @:5985 op:2,dt:2,nt:9,next:5986,str:456,d0:0,d1:0;
-                    ("dialogue", VariableAccess<Boolean> @:5986 op:5,dt:5,nt:13,next:5987,str:12757,d0:4,d1:0;
-                        (____, BuiltinInvocation<Void> @:5987 op:27,dt:4,nt:8,next:65535,str:2205,d0:5988,d1:64215;
-                            ("print", Expression<MethodOrOperator> @:5988 op:27,dt:2,nt:9,next:5989,str:86,d0:0,d1:0;
-                                ("spec-ops: this quarantine-zone has been compromised!", Expression<String> @:5989 op:9,dt:9,nt:9,next:65535,str:14576,d0:14576,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:5990 op:2,dt:4,nt:8,next:5996,str:2271,d0:5991,d1:64218;
-                ("if", Expression<MethodOrOperator> @:5991 op:2,dt:2,nt:9,next:5992,str:456,d0:0,d1:0;
-                    ("dialogue", VariableAccess<Boolean> @:5992 op:5,dt:5,nt:13,next:5993,str:12757,d0:4,d1:0;
-                        (____, BuiltinInvocation<Void> @:5993 op:27,dt:4,nt:8,next:65535,str:2284,d0:5994,d1:64221;
-                            ("print", Expression<MethodOrOperator> @:5994 op:27,dt:2,nt:9,next:5995,str:86,d0:0,d1:0;
-                                ("spec-ops: we must do what we can against the flood!", Expression<String> @:5995 op:9,dt:9,nt:9,next:65535,str:14629,d0:14629,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:5996 op:19,dt:4,nt:8,next:6002,str:2349,d0:5997,d1:64224;
-                ("sleep", Expression<MethodOrOperator> @:5997 op:19,dt:2,nt:9,next:5998,str:80,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:5998 op:361,dt:7,nt:8,next:65535,str:2356,d0:5999,d1:64226;
-                        ("ai_play_line_at_player", Expression<MethodOrOperator> @:5999 op:361,dt:2,nt:9,next:6000,str:12793,d0:0,d1:0;
-                            ("qz_ini_ins_pods", Expression<AI> @:6000 op:19,dt:19,nt:9,next:6001,str:14555,d0:89,d1:0;
-                                ("0540", Expression<StringId> @:6001 op:11,dt:11,nt:9,next:65535,str:14681,d0:13707,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:6002 op:19,dt:4,nt:8,next:6008,str:2405,d0:6003,d1:64230;
-                ("sleep", Expression<MethodOrOperator> @:6003 op:19,dt:2,nt:9,next:6004,str:80,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:6004 op:9,dt:7,nt:8,next:65535,str:2412,d0:6005,d1:64232;
-                        ("*", Expression<MethodOrOperator> @:6005 op:9,dt:2,nt:9,next:6006,str:981,d0:0,d1:0;
-                            ("dialogue_pause", VariableAccess<Float> @:6006 op:6,dt:6,nt:13,next:6007,str:12832,d0:36,d1:0;
-                                (4f, Expression<Float> @:6007 op:6,dt:6,nt:9,next:65535,str:2430,d0:0,d1:16512;))))))
-            (____, BuiltinInvocation<Void> @:6008 op:2,dt:4,nt:8,next:6014,str:2438,d0:6009,d1:64236;
-                ("if", Expression<MethodOrOperator> @:6009 op:2,dt:2,nt:9,next:6010,str:456,d0:0,d1:0;
-                    ("dialogue", VariableAccess<Boolean> @:6010 op:5,dt:5,nt:13,next:6011,str:12757,d0:4,d1:0;
-                        (____, BuiltinInvocation<Void> @:6011 op:27,dt:4,nt:8,next:65535,str:2451,d0:6012,d1:64239;
-                            ("print", Expression<MethodOrOperator> @:6012 op:27,dt:2,nt:9,next:6013,str:86,d0:0,d1:0;
-                                ("spec-ops: our commander has landed further in.", Expression<String> @:6013 op:9,dt:9,nt:9,next:65535,str:14686,d0:14686,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:6014 op:2,dt:4,nt:8,next:6020,str:2511,d0:6015,d1:64242;
-                ("if", Expression<MethodOrOperator> @:6015 op:2,dt:2,nt:9,next:6016,str:456,d0:0,d1:0;
-                    ("dialogue", VariableAccess<Boolean> @:6016 op:5,dt:5,nt:13,next:6017,str:12757,d0:4,d1:0;
-                        (____, BuiltinInvocation<Void> @:6017 op:27,dt:4,nt:8,next:65535,str:2524,d0:6018,d1:64245;
-                            ("print", Expression<MethodOrOperator> @:6018 op:27,dt:2,nt:9,next:6019,str:86,d0:0,d1:0;
-                                ("spec-ops: let us join him!", Expression<String> @:6019 op:9,dt:9,nt:9,next:65535,str:14733,d0:14733,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:6020 op:19,dt:4,nt:8,next:6026,str:2564,d0:6021,d1:64248;
-                ("sleep", Expression<MethodOrOperator> @:6021 op:19,dt:2,nt:9,next:6022,str:80,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:6022 op:361,dt:7,nt:8,next:65535,str:2571,d0:6023,d1:64250;
-                        ("ai_play_line_at_player", Expression<MethodOrOperator> @:6023 op:361,dt:2,nt:9,next:6024,str:12793,d0:0,d1:0;
-                            ("qz_ini_ins_pods", Expression<AI> @:6024 op:19,dt:19,nt:9,next:6025,str:14555,d0:89,d1:0;
-                                ("0550", Expression<StringId> @:6025 op:11,dt:11,nt:9,next:65535,str:14760,d0:13708,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:6026 op:19,dt:4,nt:8,next:65535,str:2620,d0:6027,d1:64254;
-                ("sleep", Expression<MethodOrOperator> @:6027 op:19,dt:2,nt:9,next:6028,str:80,d0:0,d1:0;
-                    ("dialogue_pause", VariableAccess<Short> @:6028 op:7,dt:7,nt:13,next:65535,str:12832,d0:36,d1:0;))))))
+("cs_sc_qz_ini", MethodDecl<Void> @:174 check:0,op:0,dt:0,nt:65535,next:6029,nextCheck:64256,str:14775,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6029 check:64256,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1998,h:1,d0:6030,d1:64257;
+        ("begin", Expression<MethodOrOperator> @:6030 check:64257,op:0,dt:2,nt:9,next:5969,nextCheck:64196,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5969 check:64196,op:2,dt:4,nt:8,next:5975,nextCheck:64202,str:2036,h:1,d0:5970,d1:64197;
+                ("if", Expression<MethodOrOperator> @:5970 check:64197,op:2,dt:2,nt:9,next:5971,nextCheck:64198,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:5971 check:64198,op:5,dt:5,nt:13,next:5972,nextCheck:64199,str:12757,h:0,d0:4,d1:0;
+                        (____, BuiltinInvocation<Void> @:5972 check:64199,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:2049,h:1,d0:5973,d1:64200;
+                            ("print", Expression<MethodOrOperator> @:5973 check:64200,op:27,dt:2,nt:9,next:5974,nextCheck:64201,str:86,h:0,d0:0,d1:0;
+                                ("spec-ops: forerunners be praised! the arbiter!", Expression<String> @:5974 check:64201,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:14508,h:0,d0:14508,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:5975 check:64202,op:19,dt:4,nt:8,next:5981,nextCheck:64208,str:2109,h:1,d0:5976,d1:64203;
+                ("sleep", Expression<MethodOrOperator> @:5976 check:64203,op:19,dt:2,nt:9,next:5977,nextCheck:64204,str:80,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:5977 check:64204,op:361,dt:7,nt:8,next:65535,nextCheck:65535,str:2116,h:1,d0:5978,d1:64205;
+                        ("ai_play_line_at_player", Expression<MethodOrOperator> @:5978 check:64205,op:361,dt:2,nt:9,next:5979,nextCheck:64206,str:12793,h:0,d0:0,d1:0;
+                            ("qz_ini_ins_pods", Expression<AI> @:5979 check:64206,op:19,dt:19,nt:9,next:5980,nextCheck:64207,str:14555,h:0,d0:89,d1:0;
+                                ("0530", Expression<StringId> @:5980 check:64207,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:14571,h:0,d0:13706,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:5981 check:64208,op:19,dt:4,nt:8,next:5984,nextCheck:64211,str:2165,h:1,d0:5982,d1:64209;
+                ("sleep", Expression<MethodOrOperator> @:5982 check:64209,op:19,dt:2,nt:9,next:5983,nextCheck:64210,str:80,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:5983 check:64210,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:12832,h:0,d0:36,d1:0;)))
+            (____, BuiltinInvocation<Void> @:5984 check:64211,op:2,dt:4,nt:8,next:5990,nextCheck:64217,str:2192,h:1,d0:5985,d1:64212;
+                ("if", Expression<MethodOrOperator> @:5985 check:64212,op:2,dt:2,nt:9,next:5986,nextCheck:64213,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:5986 check:64213,op:5,dt:5,nt:13,next:5987,nextCheck:64214,str:12757,h:0,d0:4,d1:0;
+                        (____, BuiltinInvocation<Void> @:5987 check:64214,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:2205,h:1,d0:5988,d1:64215;
+                            ("print", Expression<MethodOrOperator> @:5988 check:64215,op:27,dt:2,nt:9,next:5989,nextCheck:64216,str:86,h:0,d0:0,d1:0;
+                                ("spec-ops: this quarantine-zone has been compromised!", Expression<String> @:5989 check:64216,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:14576,h:0,d0:14576,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:5990 check:64217,op:2,dt:4,nt:8,next:5996,nextCheck:64223,str:2271,h:1,d0:5991,d1:64218;
+                ("if", Expression<MethodOrOperator> @:5991 check:64218,op:2,dt:2,nt:9,next:5992,nextCheck:64219,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:5992 check:64219,op:5,dt:5,nt:13,next:5993,nextCheck:64220,str:12757,h:0,d0:4,d1:0;
+                        (____, BuiltinInvocation<Void> @:5993 check:64220,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:2284,h:1,d0:5994,d1:64221;
+                            ("print", Expression<MethodOrOperator> @:5994 check:64221,op:27,dt:2,nt:9,next:5995,nextCheck:64222,str:86,h:0,d0:0,d1:0;
+                                ("spec-ops: we must do what we can against the flood!", Expression<String> @:5995 check:64222,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:14629,h:0,d0:14629,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:5996 check:64223,op:19,dt:4,nt:8,next:6002,nextCheck:64229,str:2349,h:1,d0:5997,d1:64224;
+                ("sleep", Expression<MethodOrOperator> @:5997 check:64224,op:19,dt:2,nt:9,next:5998,nextCheck:64225,str:80,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:5998 check:64225,op:361,dt:7,nt:8,next:65535,nextCheck:65535,str:2356,h:1,d0:5999,d1:64226;
+                        ("ai_play_line_at_player", Expression<MethodOrOperator> @:5999 check:64226,op:361,dt:2,nt:9,next:6000,nextCheck:64227,str:12793,h:0,d0:0,d1:0;
+                            ("qz_ini_ins_pods", Expression<AI> @:6000 check:64227,op:19,dt:19,nt:9,next:6001,nextCheck:64228,str:14555,h:0,d0:89,d1:0;
+                                ("0540", Expression<StringId> @:6001 check:64228,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:14681,h:0,d0:13707,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:6002 check:64229,op:19,dt:4,nt:8,next:6008,nextCheck:64235,str:2405,h:1,d0:6003,d1:64230;
+                ("sleep", Expression<MethodOrOperator> @:6003 check:64230,op:19,dt:2,nt:9,next:6004,nextCheck:64231,str:80,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:6004 check:64231,op:9,dt:7,nt:8,next:65535,nextCheck:65535,str:2412,h:1,d0:6005,d1:64232;
+                        ("*", Expression<MethodOrOperator> @:6005 check:64232,op:9,dt:2,nt:9,next:6006,nextCheck:64233,str:981,h:0,d0:0,d1:0;
+                            ("dialogue_pause", VariableAccess<Float> @:6006 check:64233,op:6,dt:6,nt:13,next:6007,nextCheck:64234,str:12832,h:0,d0:36,d1:0;
+                                (4f, Expression<Float> @:6007 check:64234,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:2430,h:1,d0:0,d1:16512;))))))
+            (____, BuiltinInvocation<Void> @:6008 check:64235,op:2,dt:4,nt:8,next:6014,nextCheck:64241,str:2438,h:1,d0:6009,d1:64236;
+                ("if", Expression<MethodOrOperator> @:6009 check:64236,op:2,dt:2,nt:9,next:6010,nextCheck:64237,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:6010 check:64237,op:5,dt:5,nt:13,next:6011,nextCheck:64238,str:12757,h:0,d0:4,d1:0;
+                        (____, BuiltinInvocation<Void> @:6011 check:64238,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:2451,h:1,d0:6012,d1:64239;
+                            ("print", Expression<MethodOrOperator> @:6012 check:64239,op:27,dt:2,nt:9,next:6013,nextCheck:64240,str:86,h:0,d0:0,d1:0;
+                                ("spec-ops: our commander has landed further in.", Expression<String> @:6013 check:64240,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:14686,h:0,d0:14686,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:6014 check:64241,op:2,dt:4,nt:8,next:6020,nextCheck:64247,str:2511,h:1,d0:6015,d1:64242;
+                ("if", Expression<MethodOrOperator> @:6015 check:64242,op:2,dt:2,nt:9,next:6016,nextCheck:64243,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:6016 check:64243,op:5,dt:5,nt:13,next:6017,nextCheck:64244,str:12757,h:0,d0:4,d1:0;
+                        (____, BuiltinInvocation<Void> @:6017 check:64244,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:2524,h:1,d0:6018,d1:64245;
+                            ("print", Expression<MethodOrOperator> @:6018 check:64245,op:27,dt:2,nt:9,next:6019,nextCheck:64246,str:86,h:0,d0:0,d1:0;
+                                ("spec-ops: let us join him!", Expression<String> @:6019 check:64246,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:14733,h:0,d0:14733,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:6020 check:64247,op:19,dt:4,nt:8,next:6026,nextCheck:64253,str:2564,h:1,d0:6021,d1:64248;
+                ("sleep", Expression<MethodOrOperator> @:6021 check:64248,op:19,dt:2,nt:9,next:6022,nextCheck:64249,str:80,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:6022 check:64249,op:361,dt:7,nt:8,next:65535,nextCheck:65535,str:2571,h:1,d0:6023,d1:64250;
+                        ("ai_play_line_at_player", Expression<MethodOrOperator> @:6023 check:64250,op:361,dt:2,nt:9,next:6024,nextCheck:64251,str:12793,h:0,d0:0,d1:0;
+                            ("qz_ini_ins_pods", Expression<AI> @:6024 check:64251,op:19,dt:19,nt:9,next:6025,nextCheck:64252,str:14555,h:0,d0:89,d1:0;
+                                ("0550", Expression<StringId> @:6025 check:64252,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:14760,h:0,d0:13708,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:6026 check:64253,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:2620,h:1,d0:6027,d1:64254;
+                ("sleep", Expression<MethodOrOperator> @:6027 check:64254,op:19,dt:2,nt:9,next:6028,nextCheck:64255,str:80,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:6028 check:64255,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:12832,h:0,d0:36,d1:0;))))))

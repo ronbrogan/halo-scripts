@@ -1,13 +1,13 @@
 
-("sleep_intro", MethodDecl<Void> @:391 op:0,dt:0,nt:65535,next:24198,str:36059,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:24198 op:0,dt:4,nt:8,next:65535,str:65405,d0:24199,d1:49659;
-        ("begin", Expression<MethodOrOperator> @:24199 op:0,dt:2,nt:9,next:24189,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:24189 op:20,dt:4,nt:8,next:24192,str:65439,d0:24190,d1:49650;
-                ("sleep_forever", Expression<MethodOrOperator> @:24190 op:20,dt:2,nt:9,next:24191,str:15175,d0:0,d1:0;
-                    ("swat_deploy", Expression<ScriptReference> @:24191 op:10,dt:10,nt:9,next:65535,str:35575,d0:262,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:24192 op:20,dt:4,nt:8,next:24195,str:65469,d0:24193,d1:49653;
-                ("sleep_forever", Expression<MethodOrOperator> @:24193 op:20,dt:2,nt:9,next:24194,str:15175,d0:0,d1:0;
-                    ("commander_entry_reminder", Expression<ScriptReference> @:24194 op:10,dt:10,nt:9,next:65535,str:18394,d0:248,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:24195 op:20,dt:4,nt:8,next:65535,str:65512,d0:24196,d1:49656;
-                ("sleep_forever", Expression<MethodOrOperator> @:24196 op:20,dt:2,nt:9,next:24197,str:15175,d0:0,d1:0;
-                    ("wind", Expression<ScriptReference> @:24197 op:10,dt:10,nt:9,next:65535,str:18460,d0:243,d1:65535;))))))
+("sleep_intro", MethodDecl<Void> @:391 check:0,op:0,dt:0,nt:65535,next:24198,nextCheck:49658,str:36059,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:24198 check:49658,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:65405,h:3,d0:24199,d1:49659;
+        ("begin", Expression<MethodOrOperator> @:24199 check:49659,op:0,dt:2,nt:9,next:24189,nextCheck:49649,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:24189 check:49649,op:20,dt:4,nt:8,next:24192,nextCheck:49652,str:65439,h:3,d0:24190,d1:49650;
+                ("sleep_forever", Expression<MethodOrOperator> @:24190 check:49650,op:20,dt:2,nt:9,next:24191,nextCheck:49651,str:15175,h:0,d0:0,d1:0;
+                    ("swat_deploy", Expression<ScriptReference> @:24191 check:49651,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:35575,h:0,d0:262,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:24192 check:49652,op:20,dt:4,nt:8,next:24195,nextCheck:49655,str:65469,h:3,d0:24193,d1:49653;
+                ("sleep_forever", Expression<MethodOrOperator> @:24193 check:49653,op:20,dt:2,nt:9,next:24194,nextCheck:49654,str:15175,h:0,d0:0,d1:0;
+                    ("commander_entry_reminder", Expression<ScriptReference> @:24194 check:49654,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:18394,h:0,d0:248,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:24195 check:49655,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:65512,h:3,d0:24196,d1:49656;
+                ("sleep_forever", Expression<MethodOrOperator> @:24196 check:49656,op:20,dt:2,nt:9,next:24197,nextCheck:49657,str:15175,h:0,d0:0,d1:0;
+                    ("wind", Expression<ScriptReference> @:24197 check:49657,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:18460,h:0,d0:243,d1:65535;))))))

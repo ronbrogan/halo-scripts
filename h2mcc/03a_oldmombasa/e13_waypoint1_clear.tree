@@ -1,12 +1,12 @@
 
-("e13_waypoint1_clear", MethodDecl<Boolean> @:171 op:0,dt:0,nt:65535,next:5901,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Boolean> @:5901 op:0,dt:5,nt:8,next:65535,str:3222,d0:5902,d1:64129;
-        ("begin", Expression<MethodOrOperator> @:5902 op:0,dt:2,nt:9,next:5893,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Boolean> @:5893 op:25,dt:5,nt:8,next:65535,str:3267,d0:5894,d1:64121;
-                ("not", Expression<MethodOrOperator> @:5894 op:25,dt:2,nt:9,next:5895,str:460,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:5895 op:33,dt:5,nt:8,next:65535,str:3272,d0:5896,d1:64123;
-                        ("volume_test_objects", Expression<MethodOrOperator> @:5896 op:33,dt:2,nt:9,next:5897,str:11142,d0:0,d1:0;
-                            ("tv_e13_waypoint1", Expression<Trigger> @:5897 op:13,dt:13,nt:9,next:5898,str:12668,d0:95,d1:0;
-                                (____, BuiltinInvocation<List> @:5898 op:332,dt:31,nt:8,next:65535,str:3310,d0:5899,d1:64126;
-                                    ("ai_actors", Expression<MethodOrOperator> @:5899 op:332,dt:2,nt:9,next:5900,str:12650,d0:0,d1:0;
-                                        ("e13_cov", Expression<AI> @:5900 op:19,dt:19,nt:9,next:65535,str:12660,d0:44,d1:16384;)))))))))))
+("e13_waypoint1_clear", MethodDecl<Boolean> @:171 check:0,op:0,dt:0,nt:65535,next:5901,nextCheck:64128,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Boolean> @:5901 check:64128,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:3222,h:1,d0:5902,d1:64129;
+        ("begin", Expression<MethodOrOperator> @:5902 check:64129,op:0,dt:2,nt:9,next:5893,nextCheck:64120,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Boolean> @:5893 check:64120,op:25,dt:5,nt:8,next:65535,nextCheck:65535,str:3267,h:1,d0:5894,d1:64121;
+                ("not", Expression<MethodOrOperator> @:5894 check:64121,op:25,dt:2,nt:9,next:5895,nextCheck:64122,str:460,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:5895 check:64122,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:3272,h:1,d0:5896,d1:64123;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:5896 check:64123,op:33,dt:2,nt:9,next:5897,nextCheck:64124,str:11142,h:0,d0:0,d1:0;
+                            ("tv_e13_waypoint1", Expression<Trigger> @:5897 check:64124,op:13,dt:13,nt:9,next:5898,nextCheck:64125,str:12668,h:0,d0:95,d1:0;
+                                (____, BuiltinInvocation<List> @:5898 check:64125,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:3310,h:1,d0:5899,d1:64126;
+                                    ("ai_actors", Expression<MethodOrOperator> @:5899 check:64126,op:332,dt:2,nt:9,next:5900,nextCheck:64127,str:12650,h:0,d0:0,d1:0;
+                                        ("e13_cov", Expression<AI> @:5900 check:64127,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:12660,h:0,d0:44,d1:16384;)))))))))))

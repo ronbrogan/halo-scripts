@@ -1,16 +1,16 @@
 
-("x05_0260_jon", MethodDecl<Void> @:105 op:0,dt:0,nt:65535,next:3173,str:7660,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3173 op:0,dt:4,nt:8,next:65535,str:37412,d0:3174,d1:61401;
-        ("begin", Expression<MethodOrOperator> @:3174 op:0,dt:2,nt:9,next:3161,str:54,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3161 op:19,dt:4,nt:8,next:3164,str:37443,d0:3162,d1:61389;
-                ("sleep", Expression<MethodOrOperator> @:3162 op:19,dt:2,nt:9,next:3163,str:133,d0:0,d1:0;
-                    (89, Expression<Short> @:3163 op:7,dt:7,nt:9,next:65535,str:37450,d0:89,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3164 op:596,dt:4,nt:8,next:3169,str:37456,d0:3165,d1:61392;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:3165 op:596,dt:2,nt:9,next:3166,str:1321,d0:0,d1:0;
-                    ("sound\dialog\levels\05_deltatemple\cinematics\x05_0260_jon", Expression<Sound> @:3166 op:32,dt:32,nt:9,next:3167,str:7601,d0:971,d1:58689;
-                        (4294901832, Expression<Entity> @:3167 op:56,dt:50,nt:9,next:3168,str:3267,d0:72,d1:65535;
-                            (1f, Expression<Float> @:3168 op:6,dt:6,nt:9,next:65535,str:37544,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:3169 op:562,dt:4,nt:8,next:65535,str:37549,d0:3170,d1:61397;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:3170 op:562,dt:2,nt:9,next:3171,str:2567,d0:0,d1:0;
-                    ("x05_0260_jon", Expression<StringId> @:3171 op:11,dt:11,nt:9,next:3172,str:7660,d0:5092,d1:3072;
-                        (1f, Expression<Float> @:3172 op:6,dt:6,nt:9,next:65535,str:37582,d0:0,d1:16256;)))))))
+("x05_0260_jon", MethodDecl<Void> @:105 check:0,op:0,dt:0,nt:65535,next:3173,nextCheck:61400,str:7660,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3173 check:61400,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:37412,h:0,d0:3174,d1:61401;
+        ("begin", Expression<MethodOrOperator> @:3174 check:61401,op:0,dt:2,nt:9,next:3161,nextCheck:61388,str:54,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3161 check:61388,op:19,dt:4,nt:8,next:3164,nextCheck:61391,str:37443,h:0,d0:3162,d1:61389;
+                ("sleep", Expression<MethodOrOperator> @:3162 check:61389,op:19,dt:2,nt:9,next:3163,nextCheck:61390,str:133,h:0,d0:0,d1:0;
+                    (89, Expression<Short> @:3163 check:61390,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:37450,h:0,d0:89,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3164 check:61391,op:596,dt:4,nt:8,next:3169,nextCheck:61396,str:37456,h:0,d0:3165,d1:61392;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:3165 check:61392,op:596,dt:2,nt:9,next:3166,nextCheck:61393,str:1321,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\05_deltatemple\cinematics\x05_0260_jon", Expression<Sound> @:3166 check:61393,op:32,dt:32,nt:9,next:3167,nextCheck:61394,str:7601,h:0,d0:971,d1:58689;
+                        (4294901832, Expression<Entity> @:3167 check:61394,op:56,dt:50,nt:9,next:3168,nextCheck:61395,str:3267,h:0,d0:72,d1:65535;
+                            (1f, Expression<Float> @:3168 check:61395,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:37544,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:3169 check:61396,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:37549,h:0,d0:3170,d1:61397;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:3170 check:61397,op:562,dt:2,nt:9,next:3171,nextCheck:61398,str:2567,h:0,d0:0,d1:0;
+                    ("x05_0260_jon", Expression<StringId> @:3171 check:61398,op:11,dt:11,nt:9,next:3172,nextCheck:61399,str:7660,h:0,d0:5092,d1:3072;
+                        (1f, Expression<Float> @:3172 check:61399,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:37582,h:0,d0:0,d1:16256;)))))))

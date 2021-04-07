@@ -1,27 +1,27 @@
 
-("ai_council_lt_bk", MethodDecl<Void> @:288 op:0,dt:0,nt:65535,next:12877,str:30927,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:12877 op:0,dt:4,nt:8,next:65535,str:26650,d0:12878,d1:38338;
-        ("begin", Expression<MethodOrOperator> @:12878 op:0,dt:2,nt:9,next:12854,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:12854 op:2,dt:4,nt:8,next:12860,str:26689,d0:12855,d1:38315;
-                ("if", Expression<MethodOrOperator> @:12855 op:2,dt:2,nt:9,next:12856,str:456,d0:0,d1:0;
-                    ("debug", VariableAccess<Boolean> @:12856 op:5,dt:5,nt:13,next:12857,str:17539,d0:3,d1:0;
-                        (____, BuiltinInvocation<Void> @:12857 op:27,dt:4,nt:8,next:65535,str:26699,d0:12858,d1:38318;
-                            ("print", Expression<MethodOrOperator> @:12858 op:27,dt:2,nt:9,next:12859,str:86,d0:0,d1:0;
-                                ("left back", Expression<String> @:12859 op:9,dt:9,nt:9,next:65535,str:30202,d0:30202,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:12860 op:1,dt:4,nt:8,next:65535,str:26725,d0:12861,d1:38321;
-                ("begin_random", Expression<MethodOrOperator> @:12861 op:1,dt:2,nt:9,next:12862,str:30056,d0:0,d1:0;
-                    (____, BuiltinInvocation<Void> @:12862 op:2,dt:4,nt:8,next:12867,str:26742,d0:12863,d1:38323;
-                        ("if", Expression<MethodOrOperator> @:12863 op:2,dt:2,nt:9,next:12864,str:456,d0:0,d1:0;
-                            ("g_council_wave", VariableAccess<Boolean> @:12864 op:5,dt:5,nt:13,next:12865,str:29651,d0:47,d1:0;
-                                ("ai_council_left_a", ScriptInvocation<Void> @:12865 op:279,dt:4,nt:10,next:65535,str:26761,d0:12866,d1:38326;
-                                    ("ai_council_left_a", Expression<MethodOrOperator> @:12866 op:279,dt:2,nt:9,next:65535,str:30069,d0:0,d1:0;)))))
-                    (____, BuiltinInvocation<Void> @:12867 op:2,dt:4,nt:8,next:12872,str:26785,d0:12868,d1:38328;
-                        ("if", Expression<MethodOrOperator> @:12868 op:2,dt:2,nt:9,next:12869,str:456,d0:0,d1:0;
-                            ("g_council_wave", VariableAccess<Boolean> @:12869 op:5,dt:5,nt:13,next:12870,str:29651,d0:47,d1:0;
-                                ("ai_council_right_b", ScriptInvocation<Void> @:12870 op:283,dt:4,nt:10,next:65535,str:26804,d0:12871,d1:38331;
-                                    ("ai_council_right_b", Expression<MethodOrOperator> @:12871 op:283,dt:2,nt:9,next:65535,str:30183,d0:0,d1:0;)))))
-                    (____, BuiltinInvocation<Void> @:12872 op:2,dt:4,nt:8,next:65535,str:26829,d0:12873,d1:38333;
-                        ("if", Expression<MethodOrOperator> @:12873 op:2,dt:2,nt:9,next:12874,str:456,d0:0,d1:0;
-                            ("g_council_wave", VariableAccess<Boolean> @:12874 op:5,dt:5,nt:13,next:12875,str:29651,d0:47,d1:0;
-                                ("ai_council_right_c", ScriptInvocation<Void> @:12875 op:284,dt:4,nt:10,next:65535,str:26848,d0:12876,d1:38336;
-                                    ("ai_council_right_c", Expression<MethodOrOperator> @:12876 op:284,dt:2,nt:9,next:65535,str:30105,d0:0,d1:0;))))))))))
+("ai_council_lt_bk", MethodDecl<Void> @:288 check:0,op:0,dt:0,nt:65535,next:12877,nextCheck:38337,str:30927,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:12877 check:38337,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:26650,h:2,d0:12878,d1:38338;
+        ("begin", Expression<MethodOrOperator> @:12878 check:38338,op:0,dt:2,nt:9,next:12854,nextCheck:38314,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:12854 check:38314,op:2,dt:4,nt:8,next:12860,nextCheck:38320,str:26689,h:2,d0:12855,d1:38315;
+                ("if", Expression<MethodOrOperator> @:12855 check:38315,op:2,dt:2,nt:9,next:12856,nextCheck:38316,str:456,h:0,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:12856 check:38316,op:5,dt:5,nt:13,next:12857,nextCheck:38317,str:17539,h:0,d0:3,d1:0;
+                        (____, BuiltinInvocation<Void> @:12857 check:38317,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:26699,h:2,d0:12858,d1:38318;
+                            ("print", Expression<MethodOrOperator> @:12858 check:38318,op:27,dt:2,nt:9,next:12859,nextCheck:38319,str:86,h:0,d0:0,d1:0;
+                                ("left back", Expression<String> @:12859 check:38319,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:30202,h:0,d0:30202,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:12860 check:38320,op:1,dt:4,nt:8,next:65535,nextCheck:65535,str:26725,h:2,d0:12861,d1:38321;
+                ("begin_random", Expression<MethodOrOperator> @:12861 check:38321,op:1,dt:2,nt:9,next:12862,nextCheck:38322,str:30056,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Void> @:12862 check:38322,op:2,dt:4,nt:8,next:12867,nextCheck:38327,str:26742,h:2,d0:12863,d1:38323;
+                        ("if", Expression<MethodOrOperator> @:12863 check:38323,op:2,dt:2,nt:9,next:12864,nextCheck:38324,str:456,h:0,d0:0,d1:0;
+                            ("g_council_wave", VariableAccess<Boolean> @:12864 check:38324,op:5,dt:5,nt:13,next:12865,nextCheck:38325,str:29651,h:0,d0:47,d1:0;
+                                ("ai_council_left_a", ScriptInvocation<Void> @:12865 check:38325,op:279,dt:4,nt:10,next:65535,nextCheck:65535,str:26761,h:2,d0:12866,d1:38326;
+                                    ("ai_council_left_a", Expression<MethodOrOperator> @:12866 check:38326,op:279,dt:2,nt:9,next:65535,nextCheck:65535,str:30069,h:0,d0:0,d1:0;)))))
+                    (____, BuiltinInvocation<Void> @:12867 check:38327,op:2,dt:4,nt:8,next:12872,nextCheck:38332,str:26785,h:2,d0:12868,d1:38328;
+                        ("if", Expression<MethodOrOperator> @:12868 check:38328,op:2,dt:2,nt:9,next:12869,nextCheck:38329,str:456,h:0,d0:0,d1:0;
+                            ("g_council_wave", VariableAccess<Boolean> @:12869 check:38329,op:5,dt:5,nt:13,next:12870,nextCheck:38330,str:29651,h:0,d0:47,d1:0;
+                                ("ai_council_right_b", ScriptInvocation<Void> @:12870 check:38330,op:283,dt:4,nt:10,next:65535,nextCheck:65535,str:26804,h:2,d0:12871,d1:38331;
+                                    ("ai_council_right_b", Expression<MethodOrOperator> @:12871 check:38331,op:283,dt:2,nt:9,next:65535,nextCheck:65535,str:30183,h:0,d0:0,d1:0;)))))
+                    (____, BuiltinInvocation<Void> @:12872 check:38332,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:26829,h:2,d0:12873,d1:38333;
+                        ("if", Expression<MethodOrOperator> @:12873 check:38333,op:2,dt:2,nt:9,next:12874,nextCheck:38334,str:456,h:0,d0:0,d1:0;
+                            ("g_council_wave", VariableAccess<Boolean> @:12874 check:38334,op:5,dt:5,nt:13,next:12875,nextCheck:38335,str:29651,h:0,d0:47,d1:0;
+                                ("ai_council_right_c", ScriptInvocation<Void> @:12875 check:38335,op:284,dt:4,nt:10,next:65535,nextCheck:65535,str:26848,h:2,d0:12876,d1:38336;
+                                    ("ai_council_right_c", Expression<MethodOrOperator> @:12876 check:38336,op:284,dt:2,nt:9,next:65535,nextCheck:65535,str:30105,h:0,d0:0,d1:0;))))))))))

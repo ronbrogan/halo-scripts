@@ -1,11 +1,11 @@
 
-("lever", MethodDecl<Void> @:242 op:0,dt:0,nt:65535,next:9213,str:22535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:9213 op:0,dt:4,nt:8,next:65535,str:46461,d0:9214,d1:34674;
-        ("begin", Expression<MethodOrOperator> @:9214 op:0,dt:2,nt:9,next:9206,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:9206 op:19,dt:4,nt:8,next:9209,str:46485,d0:9207,d1:34667;
-                ("sleep", Expression<MethodOrOperator> @:9207 op:19,dt:2,nt:9,next:9208,str:90,d0:0,d1:0;
-                    (240, Expression<Short> @:9208 op:7,dt:7,nt:9,next:65535,str:46492,d0:240,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:9209 op:256,dt:4,nt:8,next:65535,str:46499,d0:9210,d1:34670;
-                ("device_set_position", Expression<MethodOrOperator> @:9210 op:256,dt:2,nt:9,next:9211,str:3025,d0:0,d1:0;
-                    ("outro_lever", Expression<Device> @:9211 op:60,dt:54,nt:9,next:9212,str:22481,d0:431,d1:65535;
-                        (1f, Expression<Float> @:9212 op:6,dt:6,nt:9,next:65535,str:46532,d0:0,d1:16256;)))))))
+("lever", MethodDecl<Void> @:242 check:0,op:0,dt:0,nt:65535,next:9213,nextCheck:34673,str:22535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:9213 check:34673,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:46461,h:1,d0:9214,d1:34674;
+        ("begin", Expression<MethodOrOperator> @:9214 check:34674,op:0,dt:2,nt:9,next:9206,nextCheck:34666,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:9206 check:34666,op:19,dt:4,nt:8,next:9209,nextCheck:34669,str:46485,h:1,d0:9207,d1:34667;
+                ("sleep", Expression<MethodOrOperator> @:9207 check:34667,op:19,dt:2,nt:9,next:9208,nextCheck:34668,str:90,h:0,d0:0,d1:0;
+                    (240, Expression<Short> @:9208 check:34668,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:46492,h:1,d0:240,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:9209 check:34669,op:256,dt:4,nt:8,next:65535,nextCheck:65535,str:46499,h:1,d0:9210,d1:34670;
+                ("device_set_position", Expression<MethodOrOperator> @:9210 check:34670,op:256,dt:2,nt:9,next:9211,nextCheck:34671,str:3025,h:0,d0:0,d1:0;
+                    ("outro_lever", Expression<Device> @:9211 check:34671,op:60,dt:54,nt:9,next:9212,nextCheck:34672,str:22481,h:0,d0:431,d1:65535;
+                        (1f, Expression<Float> @:9212 check:34672,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:46532,h:1,d0:0,d1:16256;)))))))

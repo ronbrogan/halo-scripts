@@ -1,25 +1,25 @@
 
-("c03_2010_mr3", MethodDecl<Void> @:40 op:0,dt:0,nt:65535,next:921,str:1653,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:921 op:0,dt:4,nt:8,next:65535,str:11071,d0:922,d1:59149;
-        ("begin", Expression<MethodOrOperator> @:922 op:0,dt:2,nt:9,next:900,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:900 op:19,dt:4,nt:8,next:903,str:11102,d0:901,d1:59128;
-                ("sleep", Expression<MethodOrOperator> @:901 op:19,dt:2,nt:9,next:902,str:85,d0:0,d1:0;
-                    (0, Expression<Short> @:902 op:7,dt:7,nt:9,next:65535,str:11109,d0:0,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:903 op:596,dt:4,nt:8,next:908,str:11114,d0:904,d1:59131;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:904 op:596,dt:2,nt:9,next:905,str:1368,d0:0,d1:0;
-                    ("sound\dialog\levels\03_earthcity\cinematic\c03_2010_mr3", Expression<Sound> @:905 op:32,dt:32,nt:9,next:906,str:1568,d0:620,d1:58338;
-                        (4294901844, Expression<Entity> @:906 op:56,dt:50,nt:9,next:907,str:1624,d0:84,d1:65535;
-                            (1f, Expression<Float> @:907 op:6,dt:6,nt:9,next:65535,str:11201,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:908 op:562,dt:4,nt:8,next:912,str:11206,d0:909,d1:59136;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:909 op:562,dt:2,nt:9,next:910,str:1634,d0:0,d1:0;
-                    ("c03_2010_mr3", Expression<StringId> @:910 op:11,dt:11,nt:9,next:911,str:1653,d0:3783,d1:3072;
-                        (4f, Expression<Float> @:911 op:6,dt:6,nt:9,next:65535,str:11239,d0:0,d1:16512;))))
-            (____, BuiltinInvocation<Void> @:912 op:220,dt:4,nt:8,next:918,str:11247,d0:913,d1:59140;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:913 op:220,dt:2,nt:9,next:914,str:1666,d0:0,d1:0;
-                    ("marine_01", Expression<Unit> @:914 op:57,dt:51,nt:9,next:915,str:1624,d0:84,d1:65535;
-                        ("scared", Expression<StringId> @:915 op:11,dt:11,nt:9,next:916,str:1691,d0:427,d1:1536;
-                            (1f, Expression<Float> @:916 op:6,dt:6,nt:9,next:917,str:11290,d0:0,d1:16256;
-                                (0, Expression<Short> @:917 op:7,dt:7,nt:9,next:65535,str:11292,d0:0,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:918 op:27,dt:4,nt:8,next:65535,str:11297,d0:919,d1:59146;
-                ("print", Expression<MethodOrOperator> @:919 op:27,dt:2,nt:9,next:920,str:91,d0:0,d1:0;
-                    ("marine_01 - scared 1 0", Expression<String> @:920 op:9,dt:9,nt:9,next:65535,str:1698,d0:1698,d1:0;))))))
+("c03_2010_mr3", MethodDecl<Void> @:40 check:0,op:0,dt:0,nt:65535,next:921,nextCheck:59148,str:1653,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:921 check:59148,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:11071,h:0,d0:922,d1:59149;
+        ("begin", Expression<MethodOrOperator> @:922 check:59149,op:0,dt:2,nt:9,next:900,nextCheck:59127,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:900 check:59127,op:19,dt:4,nt:8,next:903,nextCheck:59130,str:11102,h:0,d0:901,d1:59128;
+                ("sleep", Expression<MethodOrOperator> @:901 check:59128,op:19,dt:2,nt:9,next:902,nextCheck:59129,str:85,h:0,d0:0,d1:0;
+                    (0, Expression<Short> @:902 check:59129,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:11109,h:0,d0:0,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:903 check:59130,op:596,dt:4,nt:8,next:908,nextCheck:59135,str:11114,h:0,d0:904,d1:59131;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:904 check:59131,op:596,dt:2,nt:9,next:905,nextCheck:59132,str:1368,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\03_earthcity\cinematic\c03_2010_mr3", Expression<Sound> @:905 check:59132,op:32,dt:32,nt:9,next:906,nextCheck:59133,str:1568,h:0,d0:620,d1:58338;
+                        (4294901844, Expression<Entity> @:906 check:59133,op:56,dt:50,nt:9,next:907,nextCheck:59134,str:1624,h:0,d0:84,d1:65535;
+                            (1f, Expression<Float> @:907 check:59134,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:11201,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:908 check:59135,op:562,dt:4,nt:8,next:912,nextCheck:59139,str:11206,h:0,d0:909,d1:59136;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:909 check:59136,op:562,dt:2,nt:9,next:910,nextCheck:59137,str:1634,h:0,d0:0,d1:0;
+                    ("c03_2010_mr3", Expression<StringId> @:910 check:59137,op:11,dt:11,nt:9,next:911,nextCheck:59138,str:1653,h:0,d0:3783,d1:3072;
+                        (4f, Expression<Float> @:911 check:59138,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:11239,h:0,d0:0,d1:16512;))))
+            (____, BuiltinInvocation<Void> @:912 check:59139,op:220,dt:4,nt:8,next:918,nextCheck:59145,str:11247,h:0,d0:913,d1:59140;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:913 check:59140,op:220,dt:2,nt:9,next:914,nextCheck:59141,str:1666,h:0,d0:0,d1:0;
+                    ("marine_01", Expression<Unit> @:914 check:59141,op:57,dt:51,nt:9,next:915,nextCheck:59142,str:1624,h:0,d0:84,d1:65535;
+                        ("scared", Expression<StringId> @:915 check:59142,op:11,dt:11,nt:9,next:916,nextCheck:59143,str:1691,h:0,d0:427,d1:1536;
+                            (1f, Expression<Float> @:916 check:59143,op:6,dt:6,nt:9,next:917,nextCheck:59144,str:11290,h:0,d0:0,d1:16256;
+                                (0, Expression<Short> @:917 check:59144,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:11292,h:0,d0:0,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:918 check:59145,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:11297,h:0,d0:919,d1:59146;
+                ("print", Expression<MethodOrOperator> @:919 check:59146,op:27,dt:2,nt:9,next:920,nextCheck:59147,str:91,h:0,d0:0,d1:0;
+                    ("marine_01 - scared 1 0", Expression<String> @:920 check:59147,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:1698,h:0,d0:1698,d1:0;))))))

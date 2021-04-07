@@ -1,14 +1,14 @@
 
-("cs_lookat_fleet", MethodDecl<Void> @:48 op:0,dt:0,nt:65535,next:1447,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:1447 op:0,dt:4,nt:8,next:65535,str:15055,d0:1448,d1:59675;
-        ("begin", Expression<MethodOrOperator> @:1448 op:0,dt:2,nt:9,next:1437,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:1437 op:401,dt:4,nt:8,next:1441,str:15096,d0:1438,d1:59665;
-                ("cs_face_object", Expression<MethodOrOperator> @:1438 op:401,dt:2,nt:9,next:1439,str:1223,d0:0,d1:0;
-                    (True, Expression<Boolean> @:1439 op:5,dt:5,nt:9,next:1440,str:15112,d0:65281,d1:65535;
-                        (4294901774, Expression<Entity> @:1440 op:56,dt:50,nt:9,next:65535,str:1808,d0:14,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:1441 op:395,dt:4,nt:8,next:1445,str:15129,d0:1442,d1:59669;
-                ("cs_look_object", Expression<MethodOrOperator> @:1442 op:395,dt:2,nt:9,next:1443,str:1275,d0:0,d1:0;
-                    (True, Expression<Boolean> @:1443 op:5,dt:5,nt:9,next:1444,str:15145,d0:65281,d1:65535;
-                        (4294901774, Expression<Entity> @:1444 op:56,dt:50,nt:9,next:65535,str:1808,d0:14,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:1445 op:20,dt:4,nt:8,next:65535,str:15162,d0:1446,d1:59673;
-                ("sleep_forever", Expression<MethodOrOperator> @:1446 op:20,dt:2,nt:9,next:65535,str:1209,d0:0,d1:0;)))))
+("cs_lookat_fleet", MethodDecl<Void> @:48 check:0,op:0,dt:0,nt:65535,next:1447,nextCheck:59674,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:1447 check:59674,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:15055,h:0,d0:1448,d1:59675;
+        ("begin", Expression<MethodOrOperator> @:1448 check:59675,op:0,dt:2,nt:9,next:1437,nextCheck:59664,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1437 check:59664,op:401,dt:4,nt:8,next:1441,nextCheck:59668,str:15096,h:0,d0:1438,d1:59665;
+                ("cs_face_object", Expression<MethodOrOperator> @:1438 check:59665,op:401,dt:2,nt:9,next:1439,nextCheck:59666,str:1223,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:1439 check:59666,op:5,dt:5,nt:9,next:1440,nextCheck:59667,str:15112,h:0,d0:65281,d1:65535;
+                        (4294901774, Expression<Entity> @:1440 check:59667,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:1808,h:0,d0:14,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:1441 check:59668,op:395,dt:4,nt:8,next:1445,nextCheck:59672,str:15129,h:0,d0:1442,d1:59669;
+                ("cs_look_object", Expression<MethodOrOperator> @:1442 check:59669,op:395,dt:2,nt:9,next:1443,nextCheck:59670,str:1275,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:1443 check:59670,op:5,dt:5,nt:9,next:1444,nextCheck:59671,str:15145,h:0,d0:65281,d1:65535;
+                        (4294901774, Expression<Entity> @:1444 check:59671,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:1808,h:0,d0:14,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:1445 check:59672,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:15162,h:0,d0:1446,d1:59673;
+                ("sleep_forever", Expression<MethodOrOperator> @:1446 check:59673,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:1209,h:0,d0:0,d1:0;)))))

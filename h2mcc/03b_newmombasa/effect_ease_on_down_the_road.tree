@@ -1,13 +1,13 @@
 
-("effect_ease_on_down_the_road", MethodDecl<Void> @:165 op:0,dt:0,nt:65535,next:5348,str:12389,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5348 op:0,dt:4,nt:8,next:65535,str:64038,d0:5349,d1:63576;
-        ("begin", Expression<MethodOrOperator> @:5349 op:0,dt:2,nt:9,next:5339,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5339 op:19,dt:4,nt:8,next:5342,str:64085,d0:5340,d1:63567;
-                ("sleep", Expression<MethodOrOperator> @:5340 op:19,dt:2,nt:9,next:5341,str:85,d0:0,d1:0;
-                    (0, Expression<Short> @:5341 op:7,dt:7,nt:9,next:65535,str:64092,d0:0,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5342 op:48,dt:4,nt:8,next:5345,str:64097,d0:5343,d1:63570;
-                ("object_create_anew", Expression<MethodOrOperator> @:5343 op:48,dt:2,nt:9,next:5344,str:2379,d0:0,d1:0;
-                    ("x03_shockwave_close", Expression<EntityIdentifier> @:5344 op:56,dt:56,nt:9,next:65535,str:12210,d0:40,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5345 op:27,dt:4,nt:8,next:65535,str:64140,d0:5346,d1:63573;
-                ("print", Expression<MethodOrOperator> @:5346 op:27,dt:2,nt:9,next:5347,str:91,d0:0,d1:0;
-                    ("effetc - tetsuo!!!", Expression<String> @:5347 op:9,dt:9,nt:9,next:65535,str:12230,d0:12230,d1:0;))))))
+("effect_ease_on_down_the_road", MethodDecl<Void> @:165 check:0,op:0,dt:0,nt:65535,next:5348,nextCheck:63575,str:12389,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5348 check:63575,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:64038,h:0,d0:5349,d1:63576;
+        ("begin", Expression<MethodOrOperator> @:5349 check:63576,op:0,dt:2,nt:9,next:5339,nextCheck:63566,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5339 check:63566,op:19,dt:4,nt:8,next:5342,nextCheck:63569,str:64085,h:0,d0:5340,d1:63567;
+                ("sleep", Expression<MethodOrOperator> @:5340 check:63567,op:19,dt:2,nt:9,next:5341,nextCheck:63568,str:85,h:0,d0:0,d1:0;
+                    (0, Expression<Short> @:5341 check:63568,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:64092,h:0,d0:0,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5342 check:63569,op:48,dt:4,nt:8,next:5345,nextCheck:63572,str:64097,h:0,d0:5343,d1:63570;
+                ("object_create_anew", Expression<MethodOrOperator> @:5343 check:63570,op:48,dt:2,nt:9,next:5344,nextCheck:63571,str:2379,h:0,d0:0,d1:0;
+                    ("x03_shockwave_close", Expression<EntityIdentifier> @:5344 check:63571,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:12210,h:0,d0:40,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5345 check:63572,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:64140,h:0,d0:5346,d1:63573;
+                ("print", Expression<MethodOrOperator> @:5346 check:63573,op:27,dt:2,nt:9,next:5347,nextCheck:63574,str:91,h:0,d0:0,d1:0;
+                    ("effetc - tetsuo!!!", Expression<String> @:5347 check:63574,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12230,h:0,d0:12230,d1:0;))))))

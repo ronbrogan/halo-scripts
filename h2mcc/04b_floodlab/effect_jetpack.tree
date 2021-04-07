@@ -1,25 +1,25 @@
 
-("effect_jetpack", MethodDecl<Void> @:80 op:0,dt:0,nt:65535,next:2515,str:6727,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2515 op:0,dt:4,nt:8,next:65535,str:29568,d0:2516,d1:60743;
-        ("begin", Expression<MethodOrOperator> @:2516 op:0,dt:2,nt:9,next:2494,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2494 op:19,dt:4,nt:8,next:2497,str:29601,d0:2495,d1:60722;
-                ("sleep", Expression<MethodOrOperator> @:2495 op:19,dt:2,nt:9,next:2496,str:289,d0:0,d1:0;
-                    (735, Expression<Short> @:2496 op:7,dt:7,nt:9,next:65535,str:29608,d0:735,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2497 op:27,dt:4,nt:8,next:2500,str:29615,d0:2498,d1:60725;
-                ("print", Expression<MethodOrOperator> @:2498 op:27,dt:2,nt:9,next:2499,str:295,d0:0,d1:0;
-                    ("jetpack on", Expression<String> @:2499 op:9,dt:9,nt:9,next:65535,str:6624,d0:6624,d1:0;)))
-            (____, BuiltinInvocation<Void> @:2500 op:60,dt:4,nt:8,next:2506,str:29638,d0:2501,d1:60728;
-                ("object_set_function_variable", Expression<MethodOrOperator> @:2501 op:60,dt:2,nt:9,next:2502,str:6635,d0:0,d1:0;
-                    (4294902031, Expression<Entity> @:2502 op:56,dt:50,nt:9,next:2503,str:3417,d0:271,d1:65535;
-                        ("vertical_thrust", Expression<StringId> @:2503 op:11,dt:11,nt:9,next:2504,str:6664,d0:1725,d1:3840;
-                            (1f, Expression<Float> @:2504 op:6,dt:6,nt:9,next:2505,str:29701,d0:0,d1:16256;
-                                (0f, Expression<Float> @:2505 op:6,dt:6,nt:9,next:65535,str:29703,d0:0,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:2506 op:19,dt:4,nt:8,next:2509,str:29708,d0:2507,d1:60734;
-                ("sleep", Expression<MethodOrOperator> @:2507 op:19,dt:2,nt:9,next:2508,str:289,d0:0,d1:0;
-                    (154, Expression<Short> @:2508 op:7,dt:7,nt:9,next:65535,str:29715,d0:154,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2509 op:60,dt:4,nt:8,next:65535,str:29722,d0:2510,d1:60737;
-                ("object_set_function_variable", Expression<MethodOrOperator> @:2510 op:60,dt:2,nt:9,next:2511,str:6635,d0:0,d1:0;
-                    (4294902031, Expression<Entity> @:2511 op:56,dt:50,nt:9,next:2512,str:3417,d0:271,d1:65535;
-                        ("vertical_thrust", Expression<StringId> @:2512 op:11,dt:11,nt:9,next:2513,str:6664,d0:1725,d1:3840;
-                            (0f, Expression<Float> @:2513 op:6,dt:6,nt:9,next:2514,str:29785,d0:0,d1:0;
-                                (0f, Expression<Float> @:2514 op:6,dt:6,nt:9,next:65535,str:29787,d0:0,d1:0;)))))))))
+("effect_jetpack", MethodDecl<Void> @:80 check:0,op:0,dt:0,nt:65535,next:2515,nextCheck:60742,str:6727,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2515 check:60742,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:29568,h:0,d0:2516,d1:60743;
+        ("begin", Expression<MethodOrOperator> @:2516 check:60743,op:0,dt:2,nt:9,next:2494,nextCheck:60721,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2494 check:60721,op:19,dt:4,nt:8,next:2497,nextCheck:60724,str:29601,h:0,d0:2495,d1:60722;
+                ("sleep", Expression<MethodOrOperator> @:2495 check:60722,op:19,dt:2,nt:9,next:2496,nextCheck:60723,str:289,h:0,d0:0,d1:0;
+                    (735, Expression<Short> @:2496 check:60723,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:29608,h:0,d0:735,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2497 check:60724,op:27,dt:4,nt:8,next:2500,nextCheck:60727,str:29615,h:0,d0:2498,d1:60725;
+                ("print", Expression<MethodOrOperator> @:2498 check:60725,op:27,dt:2,nt:9,next:2499,nextCheck:60726,str:295,h:0,d0:0,d1:0;
+                    ("jetpack on", Expression<String> @:2499 check:60726,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:6624,h:0,d0:6624,d1:0;)))
+            (____, BuiltinInvocation<Void> @:2500 check:60727,op:60,dt:4,nt:8,next:2506,nextCheck:60733,str:29638,h:0,d0:2501,d1:60728;
+                ("object_set_function_variable", Expression<MethodOrOperator> @:2501 check:60728,op:60,dt:2,nt:9,next:2502,nextCheck:60729,str:6635,h:0,d0:0,d1:0;
+                    (4294902031, Expression<Entity> @:2502 check:60729,op:56,dt:50,nt:9,next:2503,nextCheck:60730,str:3417,h:0,d0:271,d1:65535;
+                        ("vertical_thrust", Expression<StringId> @:2503 check:60730,op:11,dt:11,nt:9,next:2504,nextCheck:60731,str:6664,h:0,d0:1725,d1:3840;
+                            (1f, Expression<Float> @:2504 check:60731,op:6,dt:6,nt:9,next:2505,nextCheck:60732,str:29701,h:0,d0:0,d1:16256;
+                                (0f, Expression<Float> @:2505 check:60732,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:29703,h:0,d0:0,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:2506 check:60733,op:19,dt:4,nt:8,next:2509,nextCheck:60736,str:29708,h:0,d0:2507,d1:60734;
+                ("sleep", Expression<MethodOrOperator> @:2507 check:60734,op:19,dt:2,nt:9,next:2508,nextCheck:60735,str:289,h:0,d0:0,d1:0;
+                    (154, Expression<Short> @:2508 check:60735,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:29715,h:0,d0:154,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2509 check:60736,op:60,dt:4,nt:8,next:65535,nextCheck:65535,str:29722,h:0,d0:2510,d1:60737;
+                ("object_set_function_variable", Expression<MethodOrOperator> @:2510 check:60737,op:60,dt:2,nt:9,next:2511,nextCheck:60738,str:6635,h:0,d0:0,d1:0;
+                    (4294902031, Expression<Entity> @:2511 check:60738,op:56,dt:50,nt:9,next:2512,nextCheck:60739,str:3417,h:0,d0:271,d1:65535;
+                        ("vertical_thrust", Expression<StringId> @:2512 check:60739,op:11,dt:11,nt:9,next:2513,nextCheck:60740,str:6664,h:0,d0:1725,d1:3840;
+                            (0f, Expression<Float> @:2513 check:60740,op:6,dt:6,nt:9,next:2514,nextCheck:60741,str:29785,h:0,d0:0,d1:0;
+                                (0f, Expression<Float> @:2514 check:60741,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:29787,h:0,d0:0,d1:0;)))))))))

@@ -1,26 +1,26 @@
 
-("ai_cell_a_guards", MethodDecl<Void> @:345 op:0,dt:0,nt:65535,next:16206,str:35255,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:16206 op:0,dt:4,nt:8,next:65535,str:56344,d0:16207,d1:41667;
-        ("begin", Expression<MethodOrOperator> @:16207 op:0,dt:2,nt:9,next:16184,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:16184 op:2,dt:4,nt:8,next:16190,str:56379,d0:16185,d1:41645;
-                ("if", Expression<MethodOrOperator> @:16185 op:2,dt:2,nt:9,next:16186,str:456,d0:0,d1:0;
-                    ("debug", VariableAccess<Boolean> @:16186 op:5,dt:5,nt:13,next:16187,str:17539,d0:3,d1:0;
-                        (____, BuiltinInvocation<Void> @:16187 op:27,dt:4,nt:8,next:65535,str:56389,d0:16188,d1:41648;
-                            ("print", Expression<MethodOrOperator> @:16188 op:27,dt:2,nt:9,next:16189,str:86,d0:0,d1:0;
-                                ("cell a guards", Expression<String> @:16189 op:9,dt:9,nt:9,next:65535,str:34346,d0:34346,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:16190 op:290,dt:4,nt:8,next:16193,str:56419,d0:16191,d1:41651;
-                ("ai_place", Expression<MethodOrOperator> @:16191 op:290,dt:2,nt:9,next:16192,str:14833,d0:0,d1:0;
-                    ("jail_guard_brute_cell_a", Expression<AI> @:16192 op:19,dt:19,nt:9,next:65535,str:34360,d0:90,d1:0;)))
-            (____, BuiltinInvocation<Void> @:16193 op:290,dt:4,nt:8,next:16196,str:56456,d0:16194,d1:41654;
-                ("ai_place", Expression<MethodOrOperator> @:16194 op:290,dt:2,nt:9,next:16195,str:14833,d0:0,d1:0;
-                    ("jail_guard_jackal_cell_a", Expression<AI> @:16195 op:19,dt:19,nt:9,next:65535,str:34384,d0:91,d1:0;)))
-            (____, BuiltinInvocation<Void> @:16196 op:19,dt:4,nt:8,next:16199,str:56494,d0:16197,d1:41657;
-                ("sleep", Expression<MethodOrOperator> @:16197 op:19,dt:2,nt:9,next:16198,str:80,d0:0,d1:0;
-                    (1, Expression<Short> @:16198 op:7,dt:7,nt:9,next:65535,str:56501,d0:1,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16199 op:2,dt:4,nt:8,next:65535,str:56506,d0:16200,d1:41660;
-                ("if", Expression<MethodOrOperator> @:16200 op:2,dt:2,nt:9,next:16201,str:456,d0:0,d1:0;
-                    ("g_jail_prophets_ini_active", VariableAccess<Boolean> @:16201 op:5,dt:5,nt:13,next:16202,str:34409,d0:60,d1:0;
-                        (____, BuiltinInvocation<Void> @:16202 op:334,dt:4,nt:8,next:65535,str:56537,d0:16203,d1:41663;
-                            ("ai_set_orders", Expression<MethodOrOperator> @:16203 op:334,dt:2,nt:9,next:16204,str:28850,d0:0,d1:0;
-                                ("jail_cell_outer_guards_a", Expression<AI> @:16204 op:19,dt:19,nt:9,next:16205,str:34436,d0:22,d1:16384;
-                                    ("jail_guard_alert_cell_a", Expression<AIOrders> @:16205 op:23,dt:23,nt:9,next:65535,str:34461,d0:78,d1:0;))))))))))
+("ai_cell_a_guards", MethodDecl<Void> @:345 check:0,op:0,dt:0,nt:65535,next:16206,nextCheck:41666,str:35255,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:16206 check:41666,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:56344,h:2,d0:16207,d1:41667;
+        ("begin", Expression<MethodOrOperator> @:16207 check:41667,op:0,dt:2,nt:9,next:16184,nextCheck:41644,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:16184 check:41644,op:2,dt:4,nt:8,next:16190,nextCheck:41650,str:56379,h:2,d0:16185,d1:41645;
+                ("if", Expression<MethodOrOperator> @:16185 check:41645,op:2,dt:2,nt:9,next:16186,nextCheck:41646,str:456,h:0,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:16186 check:41646,op:5,dt:5,nt:13,next:16187,nextCheck:41647,str:17539,h:0,d0:3,d1:0;
+                        (____, BuiltinInvocation<Void> @:16187 check:41647,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:56389,h:2,d0:16188,d1:41648;
+                            ("print", Expression<MethodOrOperator> @:16188 check:41648,op:27,dt:2,nt:9,next:16189,nextCheck:41649,str:86,h:0,d0:0,d1:0;
+                                ("cell a guards", Expression<String> @:16189 check:41649,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:34346,h:0,d0:34346,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:16190 check:41650,op:290,dt:4,nt:8,next:16193,nextCheck:41653,str:56419,h:2,d0:16191,d1:41651;
+                ("ai_place", Expression<MethodOrOperator> @:16191 check:41651,op:290,dt:2,nt:9,next:16192,nextCheck:41652,str:14833,h:0,d0:0,d1:0;
+                    ("jail_guard_brute_cell_a", Expression<AI> @:16192 check:41652,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:34360,h:0,d0:90,d1:0;)))
+            (____, BuiltinInvocation<Void> @:16193 check:41653,op:290,dt:4,nt:8,next:16196,nextCheck:41656,str:56456,h:2,d0:16194,d1:41654;
+                ("ai_place", Expression<MethodOrOperator> @:16194 check:41654,op:290,dt:2,nt:9,next:16195,nextCheck:41655,str:14833,h:0,d0:0,d1:0;
+                    ("jail_guard_jackal_cell_a", Expression<AI> @:16195 check:41655,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:34384,h:0,d0:91,d1:0;)))
+            (____, BuiltinInvocation<Void> @:16196 check:41656,op:19,dt:4,nt:8,next:16199,nextCheck:41659,str:56494,h:2,d0:16197,d1:41657;
+                ("sleep", Expression<MethodOrOperator> @:16197 check:41657,op:19,dt:2,nt:9,next:16198,nextCheck:41658,str:80,h:0,d0:0,d1:0;
+                    (1, Expression<Short> @:16198 check:41658,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:56501,h:2,d0:1,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16199 check:41659,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:56506,h:2,d0:16200,d1:41660;
+                ("if", Expression<MethodOrOperator> @:16200 check:41660,op:2,dt:2,nt:9,next:16201,nextCheck:41661,str:456,h:0,d0:0,d1:0;
+                    ("g_jail_prophets_ini_active", VariableAccess<Boolean> @:16201 check:41661,op:5,dt:5,nt:13,next:16202,nextCheck:41662,str:34409,h:0,d0:60,d1:0;
+                        (____, BuiltinInvocation<Void> @:16202 check:41662,op:334,dt:4,nt:8,next:65535,nextCheck:65535,str:56537,h:2,d0:16203,d1:41663;
+                            ("ai_set_orders", Expression<MethodOrOperator> @:16203 check:41663,op:334,dt:2,nt:9,next:16204,nextCheck:41664,str:28850,h:0,d0:0,d1:0;
+                                ("jail_cell_outer_guards_a", Expression<AI> @:16204 check:41664,op:19,dt:19,nt:9,next:16205,nextCheck:41665,str:34436,h:0,d0:22,d1:16384;
+                                    ("jail_guard_alert_cell_a", Expression<AIOrders> @:16205 check:41665,op:23,dt:23,nt:9,next:65535,nextCheck:65535,str:34461,h:0,d0:78,d1:0;))))))))))

@@ -1,14 +1,14 @@
 
-("c05_outro_problem_actors", MethodDecl<Void> @:83 op:0,dt:0,nt:65535,next:2397,str:6873,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2397 op:0,dt:4,nt:8,next:65535,str:28285,d0:2398,d1:60625;
-        ("begin", Expression<MethodOrOperator> @:2398 op:0,dt:2,nt:9,next:2387,str:142,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2387 op:27,dt:4,nt:8,next:2390,str:28330,d0:2388,d1:60615;
-                ("print", Expression<MethodOrOperator> @:2388 op:27,dt:2,nt:9,next:2389,str:227,d0:0,d1:0;
-                    ("problem actors", Expression<String> @:2389 op:9,dt:9,nt:9,next:65535,str:2626,d0:2626,d1:0;)))
-            (____, BuiltinInvocation<Void> @:2390 op:48,dt:4,nt:8,next:2393,str:28358,d0:2391,d1:60618;
-                ("object_create_anew", Expression<MethodOrOperator> @:2391 op:48,dt:2,nt:9,next:2392,str:2641,d0:0,d1:0;
-                    ("chief", Expression<EntityIdentifier> @:2392 op:56,dt:56,nt:9,next:65535,str:1977,d0:73,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2393 op:92,dt:4,nt:8,next:65535,str:28387,d0:2394,d1:60621;
-                ("object_cinematic_lod", Expression<MethodOrOperator> @:2394 op:92,dt:2,nt:9,next:2395,str:2729,d0:0,d1:0;
-                    (4294901833, Expression<Entity> @:2395 op:56,dt:50,nt:9,next:2396,str:1977,d0:73,d1:65535;
-                        (True, Expression<Boolean> @:2396 op:5,dt:5,nt:9,next:65535,str:28415,d0:65281,d1:65535;)))))))
+("c05_outro_problem_actors", MethodDecl<Void> @:83 check:0,op:0,dt:0,nt:65535,next:2397,nextCheck:60624,str:6873,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2397 check:60624,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28285,h:0,d0:2398,d1:60625;
+        ("begin", Expression<MethodOrOperator> @:2398 check:60625,op:0,dt:2,nt:9,next:2387,nextCheck:60614,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2387 check:60614,op:27,dt:4,nt:8,next:2390,nextCheck:60617,str:28330,h:0,d0:2388,d1:60615;
+                ("print", Expression<MethodOrOperator> @:2388 check:60615,op:27,dt:2,nt:9,next:2389,nextCheck:60616,str:227,h:0,d0:0,d1:0;
+                    ("problem actors", Expression<String> @:2389 check:60616,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:2626,h:0,d0:2626,d1:0;)))
+            (____, BuiltinInvocation<Void> @:2390 check:60617,op:48,dt:4,nt:8,next:2393,nextCheck:60620,str:28358,h:0,d0:2391,d1:60618;
+                ("object_create_anew", Expression<MethodOrOperator> @:2391 check:60618,op:48,dt:2,nt:9,next:2392,nextCheck:60619,str:2641,h:0,d0:0,d1:0;
+                    ("chief", Expression<EntityIdentifier> @:2392 check:60619,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:1977,h:0,d0:73,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2393 check:60620,op:92,dt:4,nt:8,next:65535,nextCheck:65535,str:28387,h:0,d0:2394,d1:60621;
+                ("object_cinematic_lod", Expression<MethodOrOperator> @:2394 check:60621,op:92,dt:2,nt:9,next:2395,nextCheck:60622,str:2729,h:0,d0:0,d1:0;
+                    (4294901833, Expression<Entity> @:2395 check:60622,op:56,dt:50,nt:9,next:2396,nextCheck:60623,str:1977,h:0,d0:73,d1:65535;
+                        (True, Expression<Boolean> @:2396 check:60623,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:28415,h:0,d0:65281,d1:65535;)))))))

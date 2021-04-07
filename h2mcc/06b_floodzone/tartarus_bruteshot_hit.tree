@@ -1,15 +1,15 @@
 
-("tartarus_bruteshot_hit", MethodDecl<Void> @:123 op:0,dt:0,nt:65535,next:3897,str:10215,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3897 op:0,dt:4,nt:8,next:65535,str:47510,d0:3898,d1:62125;
-        ("begin", Expression<MethodOrOperator> @:3898 op:0,dt:2,nt:9,next:3886,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3886 op:19,dt:4,nt:8,next:3889,str:47551,d0:3887,d1:62114;
-                ("sleep", Expression<MethodOrOperator> @:3887 op:19,dt:2,nt:9,next:3888,str:85,d0:0,d1:0;
-                    (380, Expression<Short> @:3888 op:7,dt:7,nt:9,next:65535,str:47558,d0:380,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3889 op:27,dt:4,nt:8,next:3892,str:47565,d0:3890,d1:62117;
-                ("print", Expression<MethodOrOperator> @:3890 op:27,dt:2,nt:9,next:3891,str:91,d0:0,d1:0;
-                    ("effect - hammer hit", Expression<String> @:3891 op:9,dt:9,nt:9,next:65535,str:10101,d0:10101,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3892 op:41,dt:4,nt:8,next:65535,str:47597,d0:3893,d1:62120;
-                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:3893 op:41,dt:2,nt:9,next:3894,str:4341,d0:0,d1:0;
-                    ("effects\objects\characters\brute\hammer_grappling", Expression<Effect> @:3894 op:33,dt:33,nt:9,next:3895,str:8515,d0:1020,d1:58738;
-                        (4294901787, Expression<Entity> @:3895 op:56,dt:50,nt:9,next:3896,str:3469,d0:27,d1:65535;
-                            ("body", Expression<StringId> @:3896 op:11,dt:11,nt:9,next:65535,str:8565,d0:189,d1:1024;))))))))
+("tartarus_bruteshot_hit", MethodDecl<Void> @:123 check:0,op:0,dt:0,nt:65535,next:3897,nextCheck:62124,str:10215,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3897 check:62124,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:47510,h:0,d0:3898,d1:62125;
+        ("begin", Expression<MethodOrOperator> @:3898 check:62125,op:0,dt:2,nt:9,next:3886,nextCheck:62113,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3886 check:62113,op:19,dt:4,nt:8,next:3889,nextCheck:62116,str:47551,h:0,d0:3887,d1:62114;
+                ("sleep", Expression<MethodOrOperator> @:3887 check:62114,op:19,dt:2,nt:9,next:3888,nextCheck:62115,str:85,h:0,d0:0,d1:0;
+                    (380, Expression<Short> @:3888 check:62115,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:47558,h:0,d0:380,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3889 check:62116,op:27,dt:4,nt:8,next:3892,nextCheck:62119,str:47565,h:0,d0:3890,d1:62117;
+                ("print", Expression<MethodOrOperator> @:3890 check:62117,op:27,dt:2,nt:9,next:3891,nextCheck:62118,str:91,h:0,d0:0,d1:0;
+                    ("effect - hammer hit", Expression<String> @:3891 check:62118,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:10101,h:0,d0:10101,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3892 check:62119,op:41,dt:4,nt:8,next:65535,nextCheck:65535,str:47597,h:0,d0:3893,d1:62120;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:3893 check:62120,op:41,dt:2,nt:9,next:3894,nextCheck:62121,str:4341,h:0,d0:0,d1:0;
+                    ("effects\objects\characters\brute\hammer_grappling", Expression<Effect> @:3894 check:62121,op:33,dt:33,nt:9,next:3895,nextCheck:62122,str:8515,h:0,d0:1020,d1:58738;
+                        (4294901787, Expression<Entity> @:3895 check:62122,op:56,dt:50,nt:9,next:3896,nextCheck:62123,str:3469,h:0,d0:27,d1:65535;
+                            ("body", Expression<StringId> @:3896 check:62123,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:8565,h:0,d0:189,d1:1024;))))))))

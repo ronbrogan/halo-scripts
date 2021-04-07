@@ -1,13 +1,13 @@
 
-("x04_button_delete", MethodDecl<Void> @:57 op:0,dt:0,nt:65535,next:1469,str:3439,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:1469 op:0,dt:4,nt:8,next:65535,str:16326,d0:1470,d1:59697;
-        ("begin", Expression<MethodOrOperator> @:1470 op:0,dt:2,nt:9,next:1460,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:1460 op:19,dt:4,nt:8,next:1463,str:16362,d0:1461,d1:59688;
-                ("sleep", Expression<MethodOrOperator> @:1461 op:19,dt:2,nt:9,next:1462,str:85,d0:0,d1:0;
-                    (361, Expression<Short> @:1462 op:7,dt:7,nt:9,next:65535,str:16369,d0:361,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1463 op:27,dt:4,nt:8,next:1466,str:16376,d0:1464,d1:59691;
-                ("print", Expression<MethodOrOperator> @:1464 op:27,dt:2,nt:9,next:1465,str:91,d0:0,d1:0;
-                    ("button_delete", Expression<String> @:1465 op:9,dt:9,nt:9,next:65535,str:3329,d0:3329,d1:0;)))
-            (____, BuiltinInvocation<Void> @:1466 op:52,dt:4,nt:8,next:65535,str:16402,d0:1467,d1:59694;
-                ("object_destroy", Expression<MethodOrOperator> @:1467 op:52,dt:2,nt:9,next:1468,str:3343,d0:0,d1:0;
-                    (4294902006, Expression<Entity> @:1468 op:56,dt:50,nt:9,next:65535,str:3358,d0:246,d1:65535;))))))
+("x04_button_delete", MethodDecl<Void> @:57 check:0,op:0,dt:0,nt:65535,next:1469,nextCheck:59696,str:3439,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:1469 check:59696,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:16326,h:0,d0:1470,d1:59697;
+        ("begin", Expression<MethodOrOperator> @:1470 check:59697,op:0,dt:2,nt:9,next:1460,nextCheck:59687,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1460 check:59687,op:19,dt:4,nt:8,next:1463,nextCheck:59690,str:16362,h:0,d0:1461,d1:59688;
+                ("sleep", Expression<MethodOrOperator> @:1461 check:59688,op:19,dt:2,nt:9,next:1462,nextCheck:59689,str:85,h:0,d0:0,d1:0;
+                    (361, Expression<Short> @:1462 check:59689,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:16369,h:0,d0:361,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1463 check:59690,op:27,dt:4,nt:8,next:1466,nextCheck:59693,str:16376,h:0,d0:1464,d1:59691;
+                ("print", Expression<MethodOrOperator> @:1464 check:59691,op:27,dt:2,nt:9,next:1465,nextCheck:59692,str:91,h:0,d0:0,d1:0;
+                    ("button_delete", Expression<String> @:1465 check:59692,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:3329,h:0,d0:3329,d1:0;)))
+            (____, BuiltinInvocation<Void> @:1466 check:59693,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:16402,h:0,d0:1467,d1:59694;
+                ("object_destroy", Expression<MethodOrOperator> @:1467 check:59694,op:52,dt:2,nt:9,next:1468,nextCheck:59695,str:3343,h:0,d0:0,d1:0;
+                    (4294902006, Expression<Entity> @:1468 check:59695,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:3358,h:0,d0:246,d1:65535;))))))

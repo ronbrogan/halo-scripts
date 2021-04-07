@@ -1,18 +1,18 @@
 
-("show_pikes", MethodDecl<Void> @:164 op:0,dt:0,nt:65535,next:5599,str:13733,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5599 op:0,dt:4,nt:8,next:65535,str:9068,d0:5600,d1:63827;
-        ("begin", Expression<MethodOrOperator> @:5600 op:0,dt:2,nt:9,next:5585,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5585 op:19,dt:4,nt:8,next:5588,str:9098,d0:5586,d1:63813;
-                ("sleep", Expression<MethodOrOperator> @:5586 op:19,dt:2,nt:9,next:5587,str:80,d0:0,d1:0;
-                    (400, Expression<Short> @:5587 op:7,dt:7,nt:9,next:65535,str:9105,d0:400,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5588 op:27,dt:4,nt:8,next:5591,str:9112,d0:5589,d1:63816;
-                ("print", Expression<MethodOrOperator> @:5589 op:27,dt:2,nt:9,next:5590,str:86,d0:0,d1:0;
-                    ("show pikes", Expression<String> @:5590 op:9,dt:9,nt:9,next:65535,str:13534,d0:13534,d1:0;)))
-            (____, BuiltinInvocation<Void> @:5591 op:57,dt:4,nt:8,next:5595,str:9135,d0:5592,d1:63819;
-                ("object_hide", Expression<MethodOrOperator> @:5592 op:57,dt:2,nt:9,next:5593,str:590,d0:0,d1:0;
-                    (4294901887, Expression<Entity> @:5593 op:56,dt:50,nt:9,next:5594,str:13495,d0:127,d1:65535;
-                        (False, Expression<Boolean> @:5594 op:5,dt:5,nt:9,next:65535,str:9162,d0:65280,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:5595 op:57,dt:4,nt:8,next:65535,str:9171,d0:5596,d1:63823;
-                ("object_hide", Expression<MethodOrOperator> @:5596 op:57,dt:2,nt:9,next:5597,str:590,d0:0,d1:0;
-                    (4294901888, Expression<Entity> @:5597 op:56,dt:50,nt:9,next:5598,str:13509,d0:128,d1:65535;
-                        (False, Expression<Boolean> @:5598 op:5,dt:5,nt:9,next:65535,str:9198,d0:65280,d1:65535;)))))))
+("show_pikes", MethodDecl<Void> @:164 check:0,op:0,dt:0,nt:65535,next:5599,nextCheck:63826,str:13733,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5599 check:63826,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9068,h:1,d0:5600,d1:63827;
+        ("begin", Expression<MethodOrOperator> @:5600 check:63827,op:0,dt:2,nt:9,next:5585,nextCheck:63812,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5585 check:63812,op:19,dt:4,nt:8,next:5588,nextCheck:63815,str:9098,h:1,d0:5586,d1:63813;
+                ("sleep", Expression<MethodOrOperator> @:5586 check:63813,op:19,dt:2,nt:9,next:5587,nextCheck:63814,str:80,h:0,d0:0,d1:0;
+                    (400, Expression<Short> @:5587 check:63814,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:9105,h:1,d0:400,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5588 check:63815,op:27,dt:4,nt:8,next:5591,nextCheck:63818,str:9112,h:1,d0:5589,d1:63816;
+                ("print", Expression<MethodOrOperator> @:5589 check:63816,op:27,dt:2,nt:9,next:5590,nextCheck:63817,str:86,h:0,d0:0,d1:0;
+                    ("show pikes", Expression<String> @:5590 check:63817,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13534,h:0,d0:13534,d1:0;)))
+            (____, BuiltinInvocation<Void> @:5591 check:63818,op:57,dt:4,nt:8,next:5595,nextCheck:63822,str:9135,h:1,d0:5592,d1:63819;
+                ("object_hide", Expression<MethodOrOperator> @:5592 check:63819,op:57,dt:2,nt:9,next:5593,nextCheck:63820,str:590,h:0,d0:0,d1:0;
+                    (4294901887, Expression<Entity> @:5593 check:63820,op:56,dt:50,nt:9,next:5594,nextCheck:63821,str:13495,h:0,d0:127,d1:65535;
+                        (False, Expression<Boolean> @:5594 check:63821,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9162,h:1,d0:65280,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:5595 check:63822,op:57,dt:4,nt:8,next:65535,nextCheck:65535,str:9171,h:1,d0:5596,d1:63823;
+                ("object_hide", Expression<MethodOrOperator> @:5596 check:63823,op:57,dt:2,nt:9,next:5597,nextCheck:63824,str:590,h:0,d0:0,d1:0;
+                    (4294901888, Expression<Entity> @:5597 check:63824,op:56,dt:50,nt:9,next:5598,nextCheck:63825,str:13509,h:0,d0:128,d1:65535;
+                        (False, Expression<Boolean> @:5598 check:63825,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9198,h:1,d0:65280,d1:65535;)))))))

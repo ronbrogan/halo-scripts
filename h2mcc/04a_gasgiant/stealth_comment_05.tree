@@ -1,19 +1,19 @@
 
-("stealth_comment_05", MethodDecl<Void> @:221 op:0,dt:0,nt:65535,next:7199,str:16012,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:7199 op:0,dt:4,nt:8,next:65535,str:20705,d0:7200,d1:65427;
-        ("begin", Expression<MethodOrOperator> @:7200 op:0,dt:2,nt:9,next:7184,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:7184 op:374,dt:4,nt:8,next:7187,str:20749,d0:7185,d1:65412;
-                ("cs_switch", Expression<MethodOrOperator> @:7185 op:374,dt:2,nt:9,next:7186,str:15212,d0:0,d1:0;
-                    ("ally", Expression<StringId> @:7186 op:11,dt:11,nt:9,next:65535,str:15222,d0:12054,d1:1024;)))
-            (____, BuiltinInvocation<Void> @:7187 op:440,dt:4,nt:8,next:7190,str:20768,d0:7188,d1:65415;
-                ("cs_abort_on_damage", Expression<MethodOrOperator> @:7188 op:440,dt:2,nt:9,next:7189,str:15227,d0:0,d1:0;
-                    (True, Expression<Boolean> @:7189 op:5,dt:5,nt:9,next:65535,str:20788,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:7190 op:446,dt:4,nt:8,next:7193,str:20796,d0:7191,d1:65418;
-                ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:7191 op:446,dt:2,nt:9,next:7192,str:15246,d0:0,d1:0;
-                    (True, Expression<Boolean> @:7192 op:5,dt:5,nt:9,next:65535,str:20825,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:7193 op:27,dt:4,nt:8,next:7196,str:20833,d0:7194,d1:65421;
-                ("print", Expression<MethodOrOperator> @:7194 op:27,dt:2,nt:9,next:7195,str:91,d0:0,d1:0;
-                    ("spec-ops elite: 'they shall not see me coming!'", Expression<String> @:7195 op:9,dt:9,nt:9,next:65535,str:15445,d0:15445,d1:0;)))
-            (____, BuiltinInvocation<Void> @:7196 op:418,dt:4,nt:8,next:65535,str:20893,d0:7197,d1:65424;
-                ("cs_play_line", Expression<MethodOrOperator> @:7197 op:418,dt:2,nt:9,next:7198,str:15305,d0:0,d1:0;
-                    ("1060", Expression<StringId> @:7198 op:11,dt:11,nt:9,next:65535,str:15493,d0:11740,d1:1024;))))))
+("stealth_comment_05", MethodDecl<Void> @:221 check:0,op:0,dt:0,nt:65535,next:7199,nextCheck:65426,str:16012,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:7199 check:65426,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:20705,h:1,d0:7200,d1:65427;
+        ("begin", Expression<MethodOrOperator> @:7200 check:65427,op:0,dt:2,nt:9,next:7184,nextCheck:65411,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:7184 check:65411,op:374,dt:4,nt:8,next:7187,nextCheck:65414,str:20749,h:1,d0:7185,d1:65412;
+                ("cs_switch", Expression<MethodOrOperator> @:7185 check:65412,op:374,dt:2,nt:9,next:7186,nextCheck:65413,str:15212,h:0,d0:0,d1:0;
+                    ("ally", Expression<StringId> @:7186 check:65413,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:15222,h:0,d0:12054,d1:1024;)))
+            (____, BuiltinInvocation<Void> @:7187 check:65414,op:440,dt:4,nt:8,next:7190,nextCheck:65417,str:20768,h:1,d0:7188,d1:65415;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:7188 check:65415,op:440,dt:2,nt:9,next:7189,nextCheck:65416,str:15227,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:7189 check:65416,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:20788,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:7190 check:65417,op:446,dt:4,nt:8,next:7193,nextCheck:65420,str:20796,h:1,d0:7191,d1:65418;
+                ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:7191 check:65418,op:446,dt:2,nt:9,next:7192,nextCheck:65419,str:15246,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:7192 check:65419,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:20825,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:7193 check:65420,op:27,dt:4,nt:8,next:7196,nextCheck:65423,str:20833,h:1,d0:7194,d1:65421;
+                ("print", Expression<MethodOrOperator> @:7194 check:65421,op:27,dt:2,nt:9,next:7195,nextCheck:65422,str:91,h:0,d0:0,d1:0;
+                    ("spec-ops elite: 'they shall not see me coming!'", Expression<String> @:7195 check:65422,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:15445,h:0,d0:15445,d1:0;)))
+            (____, BuiltinInvocation<Void> @:7196 check:65423,op:418,dt:4,nt:8,next:65535,nextCheck:65535,str:20893,h:1,d0:7197,d1:65424;
+                ("cs_play_line", Expression<MethodOrOperator> @:7197 check:65424,op:418,dt:2,nt:9,next:7198,nextCheck:65425,str:15305,h:0,d0:0,d1:0;
+                    ("1060", Expression<StringId> @:7198 check:65425,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:15493,h:0,d0:11740,d1:1024;))))))

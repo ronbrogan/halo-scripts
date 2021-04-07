@@ -1,22 +1,22 @@
 
-("c08_3070_jon", MethodDecl<Void> @:95 op:0,dt:0,nt:65535,next:4410,str:10691,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4410 op:0,dt:4,nt:8,next:65535,str:49951,d0:4411,d1:62638;
-        ("begin", Expression<MethodOrOperator> @:4411 op:0,dt:2,nt:9,next:4392,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4392 op:19,dt:4,nt:8,next:4395,str:49982,d0:4393,d1:62620;
-                ("sleep", Expression<MethodOrOperator> @:4393 op:19,dt:2,nt:9,next:4394,str:85,d0:0,d1:0;
-                    (231, Expression<Short> @:4394 op:7,dt:7,nt:9,next:65535,str:49989,d0:231,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:4395 op:596,dt:4,nt:8,next:4400,str:49996,d0:4396,d1:62623;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:4396 op:596,dt:2,nt:9,next:4397,str:1586,d0:0,d1:0;
-                    ("sound\dialog\levels\08_controlroom\cinematic\c08_3070_jon", Expression<Sound> @:4397 op:32,dt:32,nt:9,next:4398,str:10633,d0:685,d1:58403;
-                        (4294901850, Expression<Entity> @:4398 op:56,dt:50,nt:9,next:4399,str:9335,d0:90,d1:65535;
-                            (1f, Expression<Float> @:4399 op:6,dt:6,nt:9,next:65535,str:50086,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:4400 op:562,dt:4,nt:8,next:4404,str:50091,d0:4401,d1:62628;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:4401 op:562,dt:2,nt:9,next:4402,str:7661,d0:0,d1:0;
-                    ("c08_3070_jon", Expression<StringId> @:4402 op:11,dt:11,nt:9,next:4403,str:10691,d0:3658,d1:3072;
-                        (1f, Expression<Float> @:4403 op:6,dt:6,nt:9,next:65535,str:50124,d0:0,d1:16256;))))
-            (____, BuiltinInvocation<Void> @:4404 op:220,dt:4,nt:8,next:65535,str:50132,d0:4405,d1:62632;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:4405 op:220,dt:2,nt:9,next:4406,str:9899,d0:0,d1:0;
-                    ("johnson_02", Expression<Unit> @:4406 op:57,dt:51,nt:9,next:4407,str:9335,d0:90,d1:65535;
-                        ("angry", Expression<StringId> @:4407 op:11,dt:11,nt:9,next:4408,str:9924,d0:430,d1:1280;
-                            (0.75f, Expression<Float> @:4408 op:6,dt:6,nt:9,next:4409,str:50175,d0:0,d1:16192;
-                                (45, Expression<Short> @:4409 op:7,dt:7,nt:9,next:65535,str:50179,d0:45,d1:65535;)))))))))
+("c08_3070_jon", MethodDecl<Void> @:95 check:0,op:0,dt:0,nt:65535,next:4410,nextCheck:62637,str:10691,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4410 check:62637,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:49951,h:0,d0:4411,d1:62638;
+        ("begin", Expression<MethodOrOperator> @:4411 check:62638,op:0,dt:2,nt:9,next:4392,nextCheck:62619,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4392 check:62619,op:19,dt:4,nt:8,next:4395,nextCheck:62622,str:49982,h:0,d0:4393,d1:62620;
+                ("sleep", Expression<MethodOrOperator> @:4393 check:62620,op:19,dt:2,nt:9,next:4394,nextCheck:62621,str:85,h:0,d0:0,d1:0;
+                    (231, Expression<Short> @:4394 check:62621,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:49989,h:0,d0:231,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:4395 check:62622,op:596,dt:4,nt:8,next:4400,nextCheck:62627,str:49996,h:0,d0:4396,d1:62623;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:4396 check:62623,op:596,dt:2,nt:9,next:4397,nextCheck:62624,str:1586,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\08_controlroom\cinematic\c08_3070_jon", Expression<Sound> @:4397 check:62624,op:32,dt:32,nt:9,next:4398,nextCheck:62625,str:10633,h:0,d0:685,d1:58403;
+                        (4294901850, Expression<Entity> @:4398 check:62625,op:56,dt:50,nt:9,next:4399,nextCheck:62626,str:9335,h:0,d0:90,d1:65535;
+                            (1f, Expression<Float> @:4399 check:62626,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:50086,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:4400 check:62627,op:562,dt:4,nt:8,next:4404,nextCheck:62631,str:50091,h:0,d0:4401,d1:62628;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:4401 check:62628,op:562,dt:2,nt:9,next:4402,nextCheck:62629,str:7661,h:0,d0:0,d1:0;
+                    ("c08_3070_jon", Expression<StringId> @:4402 check:62629,op:11,dt:11,nt:9,next:4403,nextCheck:62630,str:10691,h:0,d0:3658,d1:3072;
+                        (1f, Expression<Float> @:4403 check:62630,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:50124,h:0,d0:0,d1:16256;))))
+            (____, BuiltinInvocation<Void> @:4404 check:62631,op:220,dt:4,nt:8,next:65535,nextCheck:65535,str:50132,h:0,d0:4405,d1:62632;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:4405 check:62632,op:220,dt:2,nt:9,next:4406,nextCheck:62633,str:9899,h:0,d0:0,d1:0;
+                    ("johnson_02", Expression<Unit> @:4406 check:62633,op:57,dt:51,nt:9,next:4407,nextCheck:62634,str:9335,h:0,d0:90,d1:65535;
+                        ("angry", Expression<StringId> @:4407 check:62634,op:11,dt:11,nt:9,next:4408,nextCheck:62635,str:9924,h:0,d0:430,d1:1280;
+                            (0.75f, Expression<Float> @:4408 check:62635,op:6,dt:6,nt:9,next:4409,nextCheck:62636,str:50175,h:0,d0:0,d1:16192;
+                                (45, Expression<Short> @:4409 check:62636,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:50179,h:0,d0:45,d1:65535;)))))))))

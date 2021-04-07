@@ -1,36 +1,36 @@
 
-("effect_dust", MethodDecl<Void> @:154 op:0,dt:0,nt:65535,next:5318,str:12679,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5318 op:0,dt:4,nt:8,next:65535,str:65299,d0:5319,d1:63546;
-        ("begin", Expression<MethodOrOperator> @:5319 op:0,dt:2,nt:9,next:5286,str:54,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5286 op:676,dt:4,nt:8,next:5288,str:65329,d0:5287,d1:63514;
-                ("time_code_reset", Expression<MethodOrOperator> @:5287 op:676,dt:2,nt:9,next:65535,str:6337,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:5288 op:19,dt:4,nt:8,next:5291,str:65349,d0:5289,d1:63516;
-                ("sleep", Expression<MethodOrOperator> @:5289 op:19,dt:2,nt:9,next:5290,str:133,d0:0,d1:0;
-                    (286, Expression<Short> @:5290 op:7,dt:7,nt:9,next:65535,str:65356,d0:286,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5291 op:40,dt:4,nt:8,next:5295,str:65363,d0:5292,d1:63519;
-                ("effect_new", Expression<MethodOrOperator> @:5292 op:40,dt:2,nt:9,next:5293,str:12174,d0:0,d1:0;
-                    ("effects\cinematics\05\hev_land", Expression<Effect> @:5293 op:33,dt:33,nt:9,next:5294,str:12185,d0:1006,d1:58724;
-                        ("c05_intro_pod_01", Expression<LocationFlag> @:5294 op:14,dt:14,nt:9,next:65535,str:12216,d0:52,d1:0;))))
-            (____, BuiltinInvocation<Void> @:5295 op:27,dt:4,nt:8,next:5298,str:65426,d0:5296,d1:63523;
-                ("print", Expression<MethodOrOperator> @:5296 op:27,dt:2,nt:9,next:5297,str:139,d0:0,d1:0;
-                    ("first pod", Expression<String> @:5297 op:9,dt:9,nt:9,next:65535,str:12233,d0:12233,d1:0;)))
-            (____, BuiltinInvocation<Void> @:5298 op:19,dt:4,nt:8,next:5301,str:65451,d0:5299,d1:63526;
-                ("sleep", Expression<MethodOrOperator> @:5299 op:19,dt:2,nt:9,next:5300,str:133,d0:0,d1:0;
-                    (42, Expression<Short> @:5300 op:7,dt:7,nt:9,next:65535,str:65458,d0:42,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5301 op:40,dt:4,nt:8,next:5305,str:65464,d0:5302,d1:63529;
-                ("effect_new", Expression<MethodOrOperator> @:5302 op:40,dt:2,nt:9,next:5303,str:12174,d0:0,d1:0;
-                    ("effects\cinematics\05\hev_land", Expression<Effect> @:5303 op:33,dt:33,nt:9,next:5304,str:12185,d0:1006,d1:58724;
-                        ("c05_intro_pod_03", Expression<LocationFlag> @:5304 op:14,dt:14,nt:9,next:65535,str:12243,d0:50,d1:0;))))
-            (____, BuiltinInvocation<Void> @:5305 op:27,dt:4,nt:8,next:5308,str:65527,d0:5306,d1:63533;
-                ("print", Expression<MethodOrOperator> @:5306 op:27,dt:2,nt:9,next:5307,str:139,d0:0,d1:0;
-                    ("second pod", Expression<String> @:5307 op:9,dt:9,nt:9,next:65535,str:12260,d0:12260,d1:0;)))
-            (____, BuiltinInvocation<Void> @:5308 op:19,dt:4,nt:8,next:5311,str:17,d0:5309,d1:63536;
-                ("sleep", Expression<MethodOrOperator> @:5309 op:19,dt:2,nt:9,next:5310,str:133,d0:0,d1:0;
-                    (29, Expression<Short> @:5310 op:7,dt:7,nt:9,next:65535,str:24,d0:29,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5311 op:40,dt:4,nt:8,next:5315,str:30,d0:5312,d1:63539;
-                ("effect_new", Expression<MethodOrOperator> @:5312 op:40,dt:2,nt:9,next:5313,str:12174,d0:0,d1:0;
-                    ("effects\cinematics\05\hev_land", Expression<Effect> @:5313 op:33,dt:33,nt:9,next:5314,str:12185,d0:1006,d1:58724;
-                        ("c05_intro_pod_02", Expression<LocationFlag> @:5314 op:14,dt:14,nt:9,next:65535,str:12271,d0:51,d1:0;))))
-            (____, BuiltinInvocation<Void> @:5315 op:27,dt:4,nt:8,next:65535,str:93,d0:5316,d1:63543;
-                ("print", Expression<MethodOrOperator> @:5316 op:27,dt:2,nt:9,next:5317,str:139,d0:0,d1:0;
-                    ("third pod", Expression<String> @:5317 op:9,dt:9,nt:9,next:65535,str:12288,d0:12288,d1:0;))))))
+("effect_dust", MethodDecl<Void> @:154 check:0,op:0,dt:0,nt:65535,next:5318,nextCheck:63545,str:12679,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5318 check:63545,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:65299,h:0,d0:5319,d1:63546;
+        ("begin", Expression<MethodOrOperator> @:5319 check:63546,op:0,dt:2,nt:9,next:5286,nextCheck:63513,str:54,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5286 check:63513,op:676,dt:4,nt:8,next:5288,nextCheck:63515,str:65329,h:0,d0:5287,d1:63514;
+                ("time_code_reset", Expression<MethodOrOperator> @:5287 check:63514,op:676,dt:2,nt:9,next:65535,nextCheck:65535,str:6337,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:5288 check:63515,op:19,dt:4,nt:8,next:5291,nextCheck:63518,str:65349,h:0,d0:5289,d1:63516;
+                ("sleep", Expression<MethodOrOperator> @:5289 check:63516,op:19,dt:2,nt:9,next:5290,nextCheck:63517,str:133,h:0,d0:0,d1:0;
+                    (286, Expression<Short> @:5290 check:63517,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:65356,h:0,d0:286,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5291 check:63518,op:40,dt:4,nt:8,next:5295,nextCheck:63522,str:65363,h:0,d0:5292,d1:63519;
+                ("effect_new", Expression<MethodOrOperator> @:5292 check:63519,op:40,dt:2,nt:9,next:5293,nextCheck:63520,str:12174,h:0,d0:0,d1:0;
+                    ("effects\cinematics\05\hev_land", Expression<Effect> @:5293 check:63520,op:33,dt:33,nt:9,next:5294,nextCheck:63521,str:12185,h:0,d0:1006,d1:58724;
+                        ("c05_intro_pod_01", Expression<LocationFlag> @:5294 check:63521,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:12216,h:0,d0:52,d1:0;))))
+            (____, BuiltinInvocation<Void> @:5295 check:63522,op:27,dt:4,nt:8,next:5298,nextCheck:63525,str:65426,h:0,d0:5296,d1:63523;
+                ("print", Expression<MethodOrOperator> @:5296 check:63523,op:27,dt:2,nt:9,next:5297,nextCheck:63524,str:139,h:0,d0:0,d1:0;
+                    ("first pod", Expression<String> @:5297 check:63524,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12233,h:0,d0:12233,d1:0;)))
+            (____, BuiltinInvocation<Void> @:5298 check:63525,op:19,dt:4,nt:8,next:5301,nextCheck:63528,str:65451,h:0,d0:5299,d1:63526;
+                ("sleep", Expression<MethodOrOperator> @:5299 check:63526,op:19,dt:2,nt:9,next:5300,nextCheck:63527,str:133,h:0,d0:0,d1:0;
+                    (42, Expression<Short> @:5300 check:63527,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:65458,h:0,d0:42,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5301 check:63528,op:40,dt:4,nt:8,next:5305,nextCheck:63532,str:65464,h:0,d0:5302,d1:63529;
+                ("effect_new", Expression<MethodOrOperator> @:5302 check:63529,op:40,dt:2,nt:9,next:5303,nextCheck:63530,str:12174,h:0,d0:0,d1:0;
+                    ("effects\cinematics\05\hev_land", Expression<Effect> @:5303 check:63530,op:33,dt:33,nt:9,next:5304,nextCheck:63531,str:12185,h:0,d0:1006,d1:58724;
+                        ("c05_intro_pod_03", Expression<LocationFlag> @:5304 check:63531,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:12243,h:0,d0:50,d1:0;))))
+            (____, BuiltinInvocation<Void> @:5305 check:63532,op:27,dt:4,nt:8,next:5308,nextCheck:63535,str:65527,h:0,d0:5306,d1:63533;
+                ("print", Expression<MethodOrOperator> @:5306 check:63533,op:27,dt:2,nt:9,next:5307,nextCheck:63534,str:139,h:0,d0:0,d1:0;
+                    ("second pod", Expression<String> @:5307 check:63534,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12260,h:0,d0:12260,d1:0;)))
+            (____, BuiltinInvocation<Void> @:5308 check:63535,op:19,dt:4,nt:8,next:5311,nextCheck:63538,str:17,h:1,d0:5309,d1:63536;
+                ("sleep", Expression<MethodOrOperator> @:5309 check:63536,op:19,dt:2,nt:9,next:5310,nextCheck:63537,str:133,h:0,d0:0,d1:0;
+                    (29, Expression<Short> @:5310 check:63537,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:24,h:1,d0:29,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5311 check:63538,op:40,dt:4,nt:8,next:5315,nextCheck:63542,str:30,h:1,d0:5312,d1:63539;
+                ("effect_new", Expression<MethodOrOperator> @:5312 check:63539,op:40,dt:2,nt:9,next:5313,nextCheck:63540,str:12174,h:0,d0:0,d1:0;
+                    ("effects\cinematics\05\hev_land", Expression<Effect> @:5313 check:63540,op:33,dt:33,nt:9,next:5314,nextCheck:63541,str:12185,h:0,d0:1006,d1:58724;
+                        ("c05_intro_pod_02", Expression<LocationFlag> @:5314 check:63541,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:12271,h:0,d0:51,d1:0;))))
+            (____, BuiltinInvocation<Void> @:5315 check:63542,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:93,h:1,d0:5316,d1:63543;
+                ("print", Expression<MethodOrOperator> @:5316 check:63543,op:27,dt:2,nt:9,next:5317,nextCheck:63544,str:139,h:0,d0:0,d1:0;
+                    ("third pod", Expression<String> @:5317 check:63544,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12288,h:0,d0:12288,d1:0;))))))

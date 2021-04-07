@@ -1,21 +1,21 @@
 
-("mission_main", MethodDecl<Void> @:429 op:0,dt:0,nt:65535,next:22869,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:22869 op:0,dt:4,nt:8,next:65535,str:49214,d0:22870,d1:48330;
-        ("begin", Expression<MethodOrOperator> @:22870 op:0,dt:2,nt:9,next:22852,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:22852 op:310,dt:4,nt:8,next:22856,str:49293,d0:22853,d1:48313;
-                ("ai_allegiance", Expression<MethodOrOperator> @:22853 op:310,dt:2,nt:9,next:22854,str:44702,d0:0,d1:0;
-                    ("player", Expression<Team> @:22854 op:45,dt:45,nt:9,next:22855,str:44716,d0:1,d1:65535;
-                        ("human", Expression<Team> @:22855 op:45,dt:45,nt:9,next:65535,str:44723,d0:2,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:22856 op:310,dt:4,nt:8,next:22860,str:49324,d0:22857,d1:48317;
-                ("ai_allegiance", Expression<MethodOrOperator> @:22857 op:310,dt:2,nt:9,next:22858,str:44702,d0:0,d1:0;
-                    ("human", Expression<Team> @:22858 op:45,dt:45,nt:9,next:22859,str:44723,d0:2,d1:65535;
-                        ("player", Expression<Team> @:22859 op:45,dt:45,nt:9,next:65535,str:44716,d0:1,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:22860 op:2,dt:4,nt:8,next:65535,str:49443,d0:22861,d1:48321;
-                ("if", Expression<MethodOrOperator> @:22861 op:2,dt:2,nt:9,next:22862,str:456,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:22862 op:15,dt:5,nt:8,next:22867,str:49447,d0:22863,d1:48323;
-                        (">", Expression<MethodOrOperator> @:22863 op:15,dt:2,nt:9,next:22864,str:19379,d0:0,d1:0;
-                            ("player_count", ScriptInvocation<Short> @:22864 op:2,dt:7,nt:10,next:22866,str:49450,d0:22865,d1:48325;
-                                ("player_count", Expression<MethodOrOperator> @:22865 op:2,dt:2,nt:9,next:65535,str:44729,d0:0,d1:0;))
-                            (0, Expression<Short> @:22866 op:7,dt:7,nt:9,next:65535,str:49465,d0:0,d1:65535;)))
-                    ("start", ScriptInvocation<Void> @:22867 op:428,dt:4,nt:10,next:65535,str:49469,d0:22868,d1:48328;
-                        ("start", Expression<MethodOrOperator> @:22868 op:428,dt:2,nt:9,next:65535,str:44742,d0:0,d1:0;)))))))
+("mission_main", MethodDecl<Void> @:429 check:0,op:0,dt:0,nt:65535,next:22869,nextCheck:48329,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:22869 check:48329,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:49214,h:3,d0:22870,d1:48330;
+        ("begin", Expression<MethodOrOperator> @:22870 check:48330,op:0,dt:2,nt:9,next:22852,nextCheck:48312,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:22852 check:48312,op:310,dt:4,nt:8,next:22856,nextCheck:48316,str:49293,h:3,d0:22853,d1:48313;
+                ("ai_allegiance", Expression<MethodOrOperator> @:22853 check:48313,op:310,dt:2,nt:9,next:22854,nextCheck:48314,str:44702,h:0,d0:0,d1:0;
+                    ("player", Expression<Team> @:22854 check:48314,op:45,dt:45,nt:9,next:22855,nextCheck:48315,str:44716,h:0,d0:1,d1:65535;
+                        ("human", Expression<Team> @:22855 check:48315,op:45,dt:45,nt:9,next:65535,nextCheck:65535,str:44723,h:0,d0:2,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:22856 check:48316,op:310,dt:4,nt:8,next:22860,nextCheck:48320,str:49324,h:3,d0:22857,d1:48317;
+                ("ai_allegiance", Expression<MethodOrOperator> @:22857 check:48317,op:310,dt:2,nt:9,next:22858,nextCheck:48318,str:44702,h:0,d0:0,d1:0;
+                    ("human", Expression<Team> @:22858 check:48318,op:45,dt:45,nt:9,next:22859,nextCheck:48319,str:44723,h:0,d0:2,d1:65535;
+                        ("player", Expression<Team> @:22859 check:48319,op:45,dt:45,nt:9,next:65535,nextCheck:65535,str:44716,h:0,d0:1,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:22860 check:48320,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:49443,h:3,d0:22861,d1:48321;
+                ("if", Expression<MethodOrOperator> @:22861 check:48321,op:2,dt:2,nt:9,next:22862,nextCheck:48322,str:456,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:22862 check:48322,op:15,dt:5,nt:8,next:22867,nextCheck:48327,str:49447,h:3,d0:22863,d1:48323;
+                        (">", Expression<MethodOrOperator> @:22863 check:48323,op:15,dt:2,nt:9,next:22864,nextCheck:48324,str:19379,h:0,d0:0,d1:0;
+                            ("player_count", ScriptInvocation<Short> @:22864 check:48324,op:2,dt:7,nt:10,next:22866,nextCheck:48326,str:49450,h:3,d0:22865,d1:48325;
+                                ("player_count", Expression<MethodOrOperator> @:22865 check:48325,op:2,dt:2,nt:9,next:65535,nextCheck:65535,str:44729,h:0,d0:0,d1:0;))
+                            (0, Expression<Short> @:22866 check:48326,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:49465,h:3,d0:0,d1:65535;)))
+                    ("start", ScriptInvocation<Void> @:22867 check:48327,op:428,dt:4,nt:10,next:65535,nextCheck:65535,str:49469,h:3,d0:22868,d1:48328;
+                        ("start", Expression<MethodOrOperator> @:22868 check:48328,op:428,dt:2,nt:9,next:65535,nextCheck:65535,str:44742,h:0,d0:0,d1:0;)))))))

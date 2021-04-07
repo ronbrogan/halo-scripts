@@ -1,23 +1,23 @@
 
-("disposal_ally_comment_01", MethodDecl<Void> @:158 op:0,dt:0,nt:65535,next:4848,str:14265,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4848 op:0,dt:4,nt:8,next:65535,str:59226,d0:4849,d1:63076;
-        ("begin", Expression<MethodOrOperator> @:4849 op:0,dt:2,nt:9,next:4829,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4829 op:374,dt:4,nt:8,next:4832,str:59276,d0:4830,d1:63057;
-                ("cs_switch", Expression<MethodOrOperator> @:4830 op:374,dt:2,nt:9,next:4831,str:11448,d0:0,d1:0;
-                    ("so_elite", Expression<StringId> @:4831 op:11,dt:11,nt:9,next:65535,str:12445,d0:12642,d1:2048;)))
-            (____, BuiltinInvocation<Void> @:4832 op:444,dt:4,nt:8,next:4835,str:59299,d0:4833,d1:63060;
-                ("cs_enable_moving", Expression<MethodOrOperator> @:4833 op:444,dt:2,nt:9,next:4834,str:11483,d0:0,d1:0;
-                    (True, Expression<Boolean> @:4834 op:5,dt:5,nt:9,next:65535,str:59317,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:4835 op:442,dt:4,nt:8,next:4838,str:59325,d0:4836,d1:63063;
-                ("cs_enable_targeting", Expression<MethodOrOperator> @:4836 op:442,dt:2,nt:9,next:4837,str:12454,d0:0,d1:0;
-                    (True, Expression<Boolean> @:4837 op:5,dt:5,nt:9,next:65535,str:59346,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:4838 op:27,dt:4,nt:8,next:4841,str:59354,d0:4839,d1:63066;
-                ("print", Expression<MethodOrOperator> @:4839 op:27,dt:2,nt:9,next:4840,str:295,d0:0,d1:0;
-                    ("spec-ops elite: 'what happened here?'", Expression<String> @:4840 op:9,dt:9,nt:9,next:65535,str:12474,d0:12474,d1:0;)))
-            (____, BuiltinInvocation<Void> @:4841 op:418,dt:4,nt:8,next:4844,str:59404,d0:4842,d1:63069;
-                ("cs_play_line", Expression<MethodOrOperator> @:4842 op:418,dt:2,nt:9,next:4843,str:11547,d0:0,d1:0;
-                    ("0010", Expression<StringId> @:4843 op:11,dt:11,nt:9,next:65535,str:12512,d0:12204,d1:1024;)))
-            (____, BuiltinInvocation<Void> @:4844 op:4,dt:4,nt:8,next:65535,str:59426,d0:4845,d1:63072;
-                ("set", Expression<MethodOrOperator> @:4845 op:4,dt:2,nt:9,next:4846,str:2644,d0:0,d1:0;
-                    ("mess_react_01_done", VariableAccess<Boolean> @:4846 op:65535,dt:5,nt:13,next:4847,str:12517,d0:9,d1:0;
-                        (True, Expression<Boolean> @:4847 op:5,dt:5,nt:9,next:65535,str:59450,d0:65281,d1:65535;)))))))
+("disposal_ally_comment_01", MethodDecl<Void> @:158 check:0,op:0,dt:0,nt:65535,next:4848,nextCheck:63075,str:14265,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4848 check:63075,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:59226,h:0,d0:4849,d1:63076;
+        ("begin", Expression<MethodOrOperator> @:4849 check:63076,op:0,dt:2,nt:9,next:4829,nextCheck:63056,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4829 check:63056,op:374,dt:4,nt:8,next:4832,nextCheck:63059,str:59276,h:0,d0:4830,d1:63057;
+                ("cs_switch", Expression<MethodOrOperator> @:4830 check:63057,op:374,dt:2,nt:9,next:4831,nextCheck:63058,str:11448,h:0,d0:0,d1:0;
+                    ("so_elite", Expression<StringId> @:4831 check:63058,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12445,h:0,d0:12642,d1:2048;)))
+            (____, BuiltinInvocation<Void> @:4832 check:63059,op:444,dt:4,nt:8,next:4835,nextCheck:63062,str:59299,h:0,d0:4833,d1:63060;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:4833 check:63060,op:444,dt:2,nt:9,next:4834,nextCheck:63061,str:11483,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:4834 check:63061,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:59317,h:0,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:4835 check:63062,op:442,dt:4,nt:8,next:4838,nextCheck:63065,str:59325,h:0,d0:4836,d1:63063;
+                ("cs_enable_targeting", Expression<MethodOrOperator> @:4836 check:63063,op:442,dt:2,nt:9,next:4837,nextCheck:63064,str:12454,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:4837 check:63064,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:59346,h:0,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:4838 check:63065,op:27,dt:4,nt:8,next:4841,nextCheck:63068,str:59354,h:0,d0:4839,d1:63066;
+                ("print", Expression<MethodOrOperator> @:4839 check:63066,op:27,dt:2,nt:9,next:4840,nextCheck:63067,str:295,h:0,d0:0,d1:0;
+                    ("spec-ops elite: 'what happened here?'", Expression<String> @:4840 check:63067,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12474,h:0,d0:12474,d1:0;)))
+            (____, BuiltinInvocation<Void> @:4841 check:63068,op:418,dt:4,nt:8,next:4844,nextCheck:63071,str:59404,h:0,d0:4842,d1:63069;
+                ("cs_play_line", Expression<MethodOrOperator> @:4842 check:63069,op:418,dt:2,nt:9,next:4843,nextCheck:63070,str:11547,h:0,d0:0,d1:0;
+                    ("0010", Expression<StringId> @:4843 check:63070,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12512,h:0,d0:12204,d1:1024;)))
+            (____, BuiltinInvocation<Void> @:4844 check:63071,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:59426,h:0,d0:4845,d1:63072;
+                ("set", Expression<MethodOrOperator> @:4845 check:63072,op:4,dt:2,nt:9,next:4846,nextCheck:63073,str:2644,h:0,d0:0,d1:0;
+                    ("mess_react_01_done", VariableAccess<Boolean> @:4846 check:63073,op:65535,dt:5,nt:13,next:4847,nextCheck:63074,str:12517,h:0,d0:9,d1:0;
+                        (True, Expression<Boolean> @:4847 check:63074,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:59450,h:0,d0:65281,d1:65535;)))))))

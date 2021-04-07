@@ -1,16 +1,16 @@
 
-("sunken_holo_ally_react", MethodDecl<Void> @:207 op:0,dt:0,nt:65535,next:10417,str:20705,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:10417 op:0,dt:4,nt:8,next:65535,str:49045,d0:10418,d1:35878;
-        ("begin", Expression<MethodOrOperator> @:10418 op:0,dt:2,nt:9,next:10405,str:142,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:10405 op:374,dt:4,nt:8,next:10408,str:49093,d0:10406,d1:35866;
-                ("cs_switch", Expression<MethodOrOperator> @:10406 op:374,dt:2,nt:9,next:10407,str:12861,d0:0,d1:0;
-                    ("ally", Expression<StringId> @:10407 op:11,dt:11,nt:9,next:65535,str:15507,d0:12756,d1:1024;)))
-            (____, BuiltinInvocation<Void> @:10408 op:440,dt:4,nt:8,next:10411,str:49112,d0:10409,d1:35869;
-                ("cs_abort_on_damage", Expression<MethodOrOperator> @:10409 op:440,dt:2,nt:9,next:10410,str:12878,d0:0,d1:0;
-                    (True, Expression<Boolean> @:10410 op:5,dt:5,nt:9,next:65535,str:49132,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10411 op:27,dt:4,nt:8,next:10414,str:49140,d0:10412,d1:35872;
-                ("print", Expression<MethodOrOperator> @:10412 op:27,dt:2,nt:9,next:10413,str:227,d0:0,d1:0;
-                    ("ally: 'oh, man. he is so dead!'", Expression<String> @:10413 op:9,dt:9,nt:9,next:65535,str:20113,d0:20113,d1:0;)))
-            (____, BuiltinInvocation<Void> @:10414 op:418,dt:4,nt:8,next:65535,str:49184,d0:10415,d1:35875;
-                ("cs_play_line", Expression<MethodOrOperator> @:10415 op:418,dt:2,nt:9,next:10416,str:12920,d0:0,d1:0;
-                    ("1110", Expression<StringId> @:10416 op:11,dt:11,nt:9,next:65535,str:20145,d0:12498,d1:1024;))))))
+("sunken_holo_ally_react", MethodDecl<Void> @:207 check:0,op:0,dt:0,nt:65535,next:10417,nextCheck:35877,str:20705,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:10417 check:35877,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:49045,h:1,d0:10418,d1:35878;
+        ("begin", Expression<MethodOrOperator> @:10418 check:35878,op:0,dt:2,nt:9,next:10405,nextCheck:35865,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:10405 check:35865,op:374,dt:4,nt:8,next:10408,nextCheck:35868,str:49093,h:1,d0:10406,d1:35866;
+                ("cs_switch", Expression<MethodOrOperator> @:10406 check:35866,op:374,dt:2,nt:9,next:10407,nextCheck:35867,str:12861,h:0,d0:0,d1:0;
+                    ("ally", Expression<StringId> @:10407 check:35867,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:15507,h:0,d0:12756,d1:1024;)))
+            (____, BuiltinInvocation<Void> @:10408 check:35868,op:440,dt:4,nt:8,next:10411,nextCheck:35871,str:49112,h:1,d0:10409,d1:35869;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:10409 check:35869,op:440,dt:2,nt:9,next:10410,nextCheck:35870,str:12878,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10410 check:35870,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:49132,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10411 check:35871,op:27,dt:4,nt:8,next:10414,nextCheck:35874,str:49140,h:1,d0:10412,d1:35872;
+                ("print", Expression<MethodOrOperator> @:10412 check:35872,op:27,dt:2,nt:9,next:10413,nextCheck:35873,str:227,h:0,d0:0,d1:0;
+                    ("ally: 'oh, man. he is so dead!'", Expression<String> @:10413 check:35873,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:20113,h:0,d0:20113,d1:0;)))
+            (____, BuiltinInvocation<Void> @:10414 check:35874,op:418,dt:4,nt:8,next:65535,nextCheck:65535,str:49184,h:1,d0:10415,d1:35875;
+                ("cs_play_line", Expression<MethodOrOperator> @:10415 check:35875,op:418,dt:2,nt:9,next:10416,nextCheck:35876,str:12920,h:0,d0:0,d1:0;
+                    ("1110", Expression<StringId> @:10416 check:35876,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20145,h:0,d0:12498,d1:1024;))))))

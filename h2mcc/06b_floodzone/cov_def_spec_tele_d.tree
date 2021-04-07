@@ -1,8 +1,8 @@
 
-("cov_def_spec_tele_d", MethodDecl<Void> @:168 op:0,dt:0,nt:65535,next:5488,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5488 op:0,dt:4,nt:8,next:65535,str:190,d0:5489,d1:63716;
-        ("begin", Expression<MethodOrOperator> @:5489 op:0,dt:2,nt:9,next:5484,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5484 op:420,dt:4,nt:8,next:65535,str:235,d0:5485,d1:63712;
-                ("cs_teleport", Expression<MethodOrOperator> @:5485 op:420,dt:2,nt:9,next:5486,str:13744,d0:0,d1:0;
-                    ("bsp_swap_teleport/d", Expression<SpatialPoint> @:5486 op:28,dt:28,nt:9,next:5487,str:13839,d0:3,d1:1;
-                        ("bsp_swap_teleport/face", Expression<SpatialPoint> @:5487 op:28,dt:28,nt:9,next:65535,str:13776,d0:4,d1:1;)))))))
+("cov_def_spec_tele_d", MethodDecl<Void> @:168 check:0,op:0,dt:0,nt:65535,next:5488,nextCheck:63715,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5488 check:63715,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:190,h:1,d0:5489,d1:63716;
+        ("begin", Expression<MethodOrOperator> @:5489 check:63716,op:0,dt:2,nt:9,next:5484,nextCheck:63711,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5484 check:63711,op:420,dt:4,nt:8,next:65535,nextCheck:65535,str:235,h:1,d0:5485,d1:63712;
+                ("cs_teleport", Expression<MethodOrOperator> @:5485 check:63712,op:420,dt:2,nt:9,next:5486,nextCheck:63713,str:13744,h:0,d0:0,d1:0;
+                    ("bsp_swap_teleport/d", Expression<SpatialPoint> @:5486 check:63713,op:28,dt:28,nt:9,next:5487,nextCheck:63714,str:13839,h:0,d0:3,d1:1;
+                        ("bsp_swap_teleport/face", Expression<SpatialPoint> @:5487 check:63714,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:13776,h:0,d0:4,d1:1;)))))))

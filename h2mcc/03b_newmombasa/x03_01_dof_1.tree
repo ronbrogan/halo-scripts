@@ -1,22 +1,22 @@
 
-("x03_01_dof_1", MethodDecl<Void> @:93 op:0,dt:0,nt:65535,next:3064,str:7813,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3064 op:0,dt:4,nt:8,next:65535,str:36946,d0:3065,d1:61292;
-        ("begin", Expression<MethodOrOperator> @:3065 op:0,dt:2,nt:9,next:3046,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3046 op:19,dt:4,nt:8,next:3049,str:36979,d0:3047,d1:61274;
-                ("sleep", Expression<MethodOrOperator> @:3047 op:19,dt:2,nt:9,next:3048,str:85,d0:0,d1:0;
-                    (479, Expression<Short> @:3048 op:7,dt:7,nt:9,next:65535,str:36986,d0:479,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3049 op:708,dt:4,nt:8,next:3052,str:36993,d0:3050,d1:61277;
-                ("cinematic_screen_effect_start", Expression<MethodOrOperator> @:3050 op:708,dt:2,nt:9,next:3051,str:7120,d0:0,d1:0;
-                    (True, Expression<Boolean> @:3051 op:5,dt:5,nt:9,next:65535,str:37024,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3052 op:709,dt:4,nt:8,next:3061,str:37032,d0:3053,d1:61280;
-                ("cinematic_screen_effect_set_depth_of_field", Expression<MethodOrOperator> @:3053 op:709,dt:2,nt:9,next:3054,str:7150,d0:0,d1:0;
-                    (1f, Expression<Float> @:3054 op:6,dt:6,nt:9,next:3055,str:37076,d0:0,d1:16256;
-                        (1f, Expression<Float> @:3055 op:6,dt:6,nt:9,next:3056,str:37078,d0:0,d1:16256;
-                            (1f, Expression<Float> @:3056 op:6,dt:6,nt:9,next:3057,str:37080,d0:0,d1:16256;
-                                (0f, Expression<Float> @:3057 op:6,dt:6,nt:9,next:3058,str:37082,d0:0,d1:0;
-                                    (0f, Expression<Float> @:3058 op:6,dt:6,nt:9,next:3059,str:37084,d0:0,d1:0;
-                                        (0f, Expression<Float> @:3059 op:6,dt:6,nt:9,next:3060,str:37086,d0:0,d1:0;
-                                            (0f, Expression<Float> @:3060 op:6,dt:6,nt:9,next:65535,str:37088,d0:0,d1:0;)))))))))
-            (____, BuiltinInvocation<Void> @:3061 op:27,dt:4,nt:8,next:65535,str:37093,d0:3062,d1:61289;
-                ("print", Expression<MethodOrOperator> @:3062 op:27,dt:2,nt:9,next:3063,str:91,d0:0,d1:0;
-                    ("rack focus", Expression<String> @:3063 op:9,dt:9,nt:9,next:65535,str:7193,d0:7193,d1:0;))))))
+("x03_01_dof_1", MethodDecl<Void> @:93 check:0,op:0,dt:0,nt:65535,next:3064,nextCheck:61291,str:7813,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3064 check:61291,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36946,h:0,d0:3065,d1:61292;
+        ("begin", Expression<MethodOrOperator> @:3065 check:61292,op:0,dt:2,nt:9,next:3046,nextCheck:61273,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3046 check:61273,op:19,dt:4,nt:8,next:3049,nextCheck:61276,str:36979,h:0,d0:3047,d1:61274;
+                ("sleep", Expression<MethodOrOperator> @:3047 check:61274,op:19,dt:2,nt:9,next:3048,nextCheck:61275,str:85,h:0,d0:0,d1:0;
+                    (479, Expression<Short> @:3048 check:61275,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:36986,h:0,d0:479,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3049 check:61276,op:708,dt:4,nt:8,next:3052,nextCheck:61279,str:36993,h:0,d0:3050,d1:61277;
+                ("cinematic_screen_effect_start", Expression<MethodOrOperator> @:3050 check:61277,op:708,dt:2,nt:9,next:3051,nextCheck:61278,str:7120,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:3051 check:61278,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:37024,h:0,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3052 check:61279,op:709,dt:4,nt:8,next:3061,nextCheck:61288,str:37032,h:0,d0:3053,d1:61280;
+                ("cinematic_screen_effect_set_depth_of_field", Expression<MethodOrOperator> @:3053 check:61280,op:709,dt:2,nt:9,next:3054,nextCheck:61281,str:7150,h:0,d0:0,d1:0;
+                    (1f, Expression<Float> @:3054 check:61281,op:6,dt:6,nt:9,next:3055,nextCheck:61282,str:37076,h:0,d0:0,d1:16256;
+                        (1f, Expression<Float> @:3055 check:61282,op:6,dt:6,nt:9,next:3056,nextCheck:61283,str:37078,h:0,d0:0,d1:16256;
+                            (1f, Expression<Float> @:3056 check:61283,op:6,dt:6,nt:9,next:3057,nextCheck:61284,str:37080,h:0,d0:0,d1:16256;
+                                (0f, Expression<Float> @:3057 check:61284,op:6,dt:6,nt:9,next:3058,nextCheck:61285,str:37082,h:0,d0:0,d1:0;
+                                    (0f, Expression<Float> @:3058 check:61285,op:6,dt:6,nt:9,next:3059,nextCheck:61286,str:37084,h:0,d0:0,d1:0;
+                                        (0f, Expression<Float> @:3059 check:61286,op:6,dt:6,nt:9,next:3060,nextCheck:61287,str:37086,h:0,d0:0,d1:0;
+                                            (0f, Expression<Float> @:3060 check:61287,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:37088,h:0,d0:0,d1:0;)))))))))
+            (____, BuiltinInvocation<Void> @:3061 check:61288,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:37093,h:0,d0:3062,d1:61289;
+                ("print", Expression<MethodOrOperator> @:3062 check:61289,op:27,dt:2,nt:9,next:3063,nextCheck:61290,str:91,h:0,d0:0,d1:0;
+                    ("rack focus", Expression<String> @:3063 check:61290,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:7193,h:0,d0:7193,d1:0;))))))

@@ -1,20 +1,20 @@
 
-("music_03b_04_start", MethodDecl<Void> @:195 op:0,dt:0,nt:65535,next:6030,str:18517,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6030 op:0,dt:4,nt:8,next:65535,str:5666,d0:6031,d1:64258;
-        ("begin", Expression<MethodOrOperator> @:6031 op:0,dt:2,nt:9,next:6014,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6014 op:21,dt:4,nt:8,next:6022,str:5703,d0:6015,d1:64242;
-                ("sleep_until", Expression<MethodOrOperator> @:6015 op:21,dt:2,nt:9,next:6016,str:236,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:6016 op:33,dt:5,nt:8,next:6021,str:5716,d0:6017,d1:64244;
-                        ("volume_test_objects", Expression<MethodOrOperator> @:6017 op:33,dt:2,nt:9,next:6018,str:13230,d0:0,d1:0;
-                            ("tv_e23_entry_door", Expression<Trigger> @:6018 op:13,dt:13,nt:9,next:6019,str:13708,d0:105,d1:0;
-                                (____, BuiltinInvocation<List> @:6019 op:28,dt:31,nt:8,next:65535,str:5755,d0:6020,d1:64247;
-                                    ("players", Expression<MethodOrOperator> @:6020 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))
-                    (15, Expression<Short> @:6021 op:7,dt:7,nt:9,next:65535,str:5766,d0:15,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6022 op:27,dt:4,nt:8,next:6025,str:5772,d0:6023,d1:64250;
-                ("print", Expression<MethodOrOperator> @:6023 op:27,dt:2,nt:9,next:6024,str:91,d0:0,d1:0;
-                    ("music 03b_04 start", Expression<String> @:6024 op:9,dt:9,nt:9,next:65535,str:13726,d0:13726,d1:0;)))
-            (____, BuiltinInvocation<Void> @:6025 op:605,dt:4,nt:8,next:65535,str:5803,d0:6026,d1:64253;
-                ("sound_looping_start", Expression<MethodOrOperator> @:6026 op:605,dt:2,nt:9,next:6027,str:13422,d0:0,d1:0;
-                    ("scenarios\solo\03b_newmombasa\03b_music\03b_04", Expression<LoopingSound> @:6027 op:35,dt:35,nt:9,next:6028,str:13628,d0:8749,d1:33779;
-                        (4294967295, Expression<Entity> @:6028 op:50,dt:50,nt:9,next:6029,str:1,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:6029 op:6,dt:6,nt:9,next:65535,str:5878,d0:0,d1:16256;))))))))
+("music_03b_04_start", MethodDecl<Void> @:195 check:0,op:0,dt:0,nt:65535,next:6030,nextCheck:64257,str:18517,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6030 check:64257,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:5666,h:1,d0:6031,d1:64258;
+        ("begin", Expression<MethodOrOperator> @:6031 check:64258,op:0,dt:2,nt:9,next:6014,nextCheck:64241,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6014 check:64241,op:21,dt:4,nt:8,next:6022,nextCheck:64249,str:5703,h:1,d0:6015,d1:64242;
+                ("sleep_until", Expression<MethodOrOperator> @:6015 check:64242,op:21,dt:2,nt:9,next:6016,nextCheck:64243,str:236,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:6016 check:64243,op:33,dt:5,nt:8,next:6021,nextCheck:64248,str:5716,h:1,d0:6017,d1:64244;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:6017 check:64244,op:33,dt:2,nt:9,next:6018,nextCheck:64245,str:13230,h:0,d0:0,d1:0;
+                            ("tv_e23_entry_door", Expression<Trigger> @:6018 check:64245,op:13,dt:13,nt:9,next:6019,nextCheck:64246,str:13708,h:0,d0:105,d1:0;
+                                (____, BuiltinInvocation<List> @:6019 check:64246,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:5755,h:1,d0:6020,d1:64247;
+                                    ("players", Expression<MethodOrOperator> @:6020 check:64247,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                    (15, Expression<Short> @:6021 check:64248,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:5766,h:1,d0:15,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6022 check:64249,op:27,dt:4,nt:8,next:6025,nextCheck:64252,str:5772,h:1,d0:6023,d1:64250;
+                ("print", Expression<MethodOrOperator> @:6023 check:64250,op:27,dt:2,nt:9,next:6024,nextCheck:64251,str:91,h:0,d0:0,d1:0;
+                    ("music 03b_04 start", Expression<String> @:6024 check:64251,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13726,h:0,d0:13726,d1:0;)))
+            (____, BuiltinInvocation<Void> @:6025 check:64252,op:605,dt:4,nt:8,next:65535,nextCheck:65535,str:5803,h:1,d0:6026,d1:64253;
+                ("sound_looping_start", Expression<MethodOrOperator> @:6026 check:64253,op:605,dt:2,nt:9,next:6027,nextCheck:64254,str:13422,h:0,d0:0,d1:0;
+                    ("scenarios\solo\03b_newmombasa\03b_music\03b_04", Expression<LoopingSound> @:6027 check:64254,op:35,dt:35,nt:9,next:6028,nextCheck:64255,str:13628,h:0,d0:8749,d1:33779;
+                        (4294967295, Expression<Entity> @:6028 check:64255,op:50,dt:50,nt:9,next:6029,nextCheck:64256,str:1,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:6029 check:64256,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:5878,h:1,d0:0,d1:16256;))))))))

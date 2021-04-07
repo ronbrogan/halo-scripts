@@ -1,19 +1,19 @@
 
-("arm02_swat_aim_01", MethodDecl<Void> @:352 op:0,dt:0,nt:65535,next:20658,str:31708,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:20658 op:0,dt:4,nt:8,next:65535,str:27251,d0:20659,d1:46119;
-        ("begin", Expression<MethodOrOperator> @:20659 op:0,dt:2,nt:9,next:20643,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:20643 op:440,dt:4,nt:8,next:20646,str:27294,d0:20644,d1:46104;
-                ("cs_abort_on_damage", Expression<MethodOrOperator> @:20644 op:440,dt:2,nt:9,next:20645,str:15227,d0:0,d1:0;
-                    (True, Expression<Boolean> @:20645 op:5,dt:5,nt:9,next:65535,str:27314,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:20646 op:449,dt:4,nt:8,next:20649,str:27322,d0:20647,d1:46107;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:20647 op:449,dt:2,nt:9,next:20648,str:17423,d0:0,d1:0;
-                    (True, Expression<Boolean> @:20648 op:5,dt:5,nt:9,next:65535,str:27354,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:20649 op:385,dt:4,nt:8,next:20652,str:27362,d0:20650,d1:46110;
-                ("cs_go_to", Expression<MethodOrOperator> @:20650 op:385,dt:2,nt:9,next:20651,str:19295,d0:0,d1:0;
-                    ("arm02_lz/p1", Expression<SpatialPoint> @:20651 op:28,dt:28,nt:9,next:65535,str:31604,d0:2,d1:11;)))
-            (____, BuiltinInvocation<Void> @:20652 op:396,dt:4,nt:8,next:20656,str:27387,d0:20653,d1:46113;
-                ("cs_aim", Expression<MethodOrOperator> @:20653 op:396,dt:2,nt:9,next:20654,str:18178,d0:0,d1:0;
-                    (True, Expression<Boolean> @:20654 op:5,dt:5,nt:9,next:20655,str:27395,d0:65281,d1:65535;
-                        ("arm02_lz/door", Expression<SpatialPoint> @:20655 op:28,dt:28,nt:9,next:65535,str:31590,d0:0,d1:11;))))
-            (____, BuiltinInvocation<Void> @:20656 op:20,dt:4,nt:8,next:65535,str:27417,d0:20657,d1:46117;
-                ("sleep_forever", Expression<MethodOrOperator> @:20657 op:20,dt:2,nt:9,next:65535,str:15175,d0:0,d1:0;)))))
+("arm02_swat_aim_01", MethodDecl<Void> @:352 check:0,op:0,dt:0,nt:65535,next:20658,nextCheck:46118,str:31708,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:20658 check:46118,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:27251,h:3,d0:20659,d1:46119;
+        ("begin", Expression<MethodOrOperator> @:20659 check:46119,op:0,dt:2,nt:9,next:20643,nextCheck:46103,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:20643 check:46103,op:440,dt:4,nt:8,next:20646,nextCheck:46106,str:27294,h:3,d0:20644,d1:46104;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:20644 check:46104,op:440,dt:2,nt:9,next:20645,nextCheck:46105,str:15227,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:20645 check:46105,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:27314,h:3,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:20646 check:46106,op:449,dt:4,nt:8,next:20649,nextCheck:46109,str:27322,h:3,d0:20647,d1:46107;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:20647 check:46107,op:449,dt:2,nt:9,next:20648,nextCheck:46108,str:17423,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:20648 check:46108,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:27354,h:3,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:20649 check:46109,op:385,dt:4,nt:8,next:20652,nextCheck:46112,str:27362,h:3,d0:20650,d1:46110;
+                ("cs_go_to", Expression<MethodOrOperator> @:20650 check:46110,op:385,dt:2,nt:9,next:20651,nextCheck:46111,str:19295,h:0,d0:0,d1:0;
+                    ("arm02_lz/p1", Expression<SpatialPoint> @:20651 check:46111,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:31604,h:0,d0:2,d1:11;)))
+            (____, BuiltinInvocation<Void> @:20652 check:46112,op:396,dt:4,nt:8,next:20656,nextCheck:46116,str:27387,h:3,d0:20653,d1:46113;
+                ("cs_aim", Expression<MethodOrOperator> @:20653 check:46113,op:396,dt:2,nt:9,next:20654,nextCheck:46114,str:18178,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:20654 check:46114,op:5,dt:5,nt:9,next:20655,nextCheck:46115,str:27395,h:3,d0:65281,d1:65535;
+                        ("arm02_lz/door", Expression<SpatialPoint> @:20655 check:46115,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:31590,h:0,d0:0,d1:11;))))
+            (____, BuiltinInvocation<Void> @:20656 check:46116,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:27417,h:3,d0:20657,d1:46117;
+                ("sleep_forever", Expression<MethodOrOperator> @:20657 check:46117,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:15175,h:0,d0:0,d1:0;)))))

@@ -1,20 +1,20 @@
 
-("x04_02b_setup", MethodDecl<Void> @:64 op:0,dt:0,nt:65535,next:1688,str:3829,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:1688 op:0,dt:4,nt:8,next:65535,str:18776,d0:1689,d1:59916;
-        ("begin", Expression<MethodOrOperator> @:1689 op:0,dt:2,nt:9,next:1672,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:1672 op:48,dt:4,nt:8,next:1675,str:18814,d0:1673,d1:59900;
-                ("object_create_anew", Expression<MethodOrOperator> @:1673 op:48,dt:2,nt:9,next:1674,str:2237,d0:0,d1:0;
-                    ("jail_ledge", Expression<EntityIdentifier> @:1674 op:56,dt:56,nt:9,next:65535,str:3699,d0:90,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1675 op:95,dt:4,nt:8,next:1679,str:18848,d0:1676,d1:59903;
-                ("object_uses_cinematic_lighting", Expression<MethodOrOperator> @:1676 op:95,dt:2,nt:9,next:1677,str:2162,d0:0,d1:0;
-                    (4294901850, Expression<Entity> @:1677 op:56,dt:50,nt:9,next:1678,str:3699,d0:90,d1:65535;
-                        (True, Expression<Boolean> @:1678 op:5,dt:5,nt:9,next:65535,str:18891,d0:65281,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:1679 op:22,dt:4,nt:8,next:1682,str:18898,d0:1680,d1:59907;
-                ("wake", Expression<MethodOrOperator> @:1680 op:22,dt:2,nt:9,next:1681,str:1071,d0:0,d1:0;
-                    ("x04_foley_2b", Expression<ScriptReference> @:1681 op:10,dt:10,nt:9,next:65535,str:3710,d0:61,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1682 op:22,dt:4,nt:8,next:1685,str:18920,d0:1683,d1:59910;
-                ("wake", Expression<MethodOrOperator> @:1683 op:22,dt:2,nt:9,next:1684,str:1071,d0:0,d1:0;
-                    ("x04_02b_fov", Expression<ScriptReference> @:1684 op:10,dt:10,nt:9,next:65535,str:3723,d0:62,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1685 op:22,dt:4,nt:8,next:65535,str:18943,d0:1686,d1:59913;
-                ("wake", Expression<MethodOrOperator> @:1686 op:22,dt:2,nt:9,next:1687,str:1071,d0:0,d1:0;
-                    ("x04_cinematic_lighting_02b", Expression<ScriptReference> @:1687 op:10,dt:10,nt:9,next:65535,str:3735,d0:63,d1:65535;))))))
+("x04_02b_setup", MethodDecl<Void> @:64 check:0,op:0,dt:0,nt:65535,next:1688,nextCheck:59915,str:3829,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:1688 check:59915,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:18776,h:0,d0:1689,d1:59916;
+        ("begin", Expression<MethodOrOperator> @:1689 check:59916,op:0,dt:2,nt:9,next:1672,nextCheck:59899,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1672 check:59899,op:48,dt:4,nt:8,next:1675,nextCheck:59902,str:18814,h:0,d0:1673,d1:59900;
+                ("object_create_anew", Expression<MethodOrOperator> @:1673 check:59900,op:48,dt:2,nt:9,next:1674,nextCheck:59901,str:2237,h:0,d0:0,d1:0;
+                    ("jail_ledge", Expression<EntityIdentifier> @:1674 check:59901,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:3699,h:0,d0:90,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1675 check:59902,op:95,dt:4,nt:8,next:1679,nextCheck:59906,str:18848,h:0,d0:1676,d1:59903;
+                ("object_uses_cinematic_lighting", Expression<MethodOrOperator> @:1676 check:59903,op:95,dt:2,nt:9,next:1677,nextCheck:59904,str:2162,h:0,d0:0,d1:0;
+                    (4294901850, Expression<Entity> @:1677 check:59904,op:56,dt:50,nt:9,next:1678,nextCheck:59905,str:3699,h:0,d0:90,d1:65535;
+                        (True, Expression<Boolean> @:1678 check:59905,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:18891,h:0,d0:65281,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:1679 check:59906,op:22,dt:4,nt:8,next:1682,nextCheck:59909,str:18898,h:0,d0:1680,d1:59907;
+                ("wake", Expression<MethodOrOperator> @:1680 check:59907,op:22,dt:2,nt:9,next:1681,nextCheck:59908,str:1071,h:0,d0:0,d1:0;
+                    ("x04_foley_2b", Expression<ScriptReference> @:1681 check:59908,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:3710,h:0,d0:61,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1682 check:59909,op:22,dt:4,nt:8,next:1685,nextCheck:59912,str:18920,h:0,d0:1683,d1:59910;
+                ("wake", Expression<MethodOrOperator> @:1683 check:59910,op:22,dt:2,nt:9,next:1684,nextCheck:59911,str:1071,h:0,d0:0,d1:0;
+                    ("x04_02b_fov", Expression<ScriptReference> @:1684 check:59911,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:3723,h:0,d0:62,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1685 check:59912,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:18943,h:0,d0:1686,d1:59913;
+                ("wake", Expression<MethodOrOperator> @:1686 check:59913,op:22,dt:2,nt:9,next:1687,nextCheck:59914,str:1071,h:0,d0:0,d1:0;
+                    ("x04_cinematic_lighting_02b", Expression<ScriptReference> @:1687 check:59914,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:3735,h:0,d0:63,d1:65535;))))))

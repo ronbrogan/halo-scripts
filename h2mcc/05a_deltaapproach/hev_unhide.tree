@@ -1,14 +1,14 @@
 
-("hev_unhide", MethodDecl<Void> @:137 op:0,dt:0,nt:65535,next:4267,str:10178,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4267 op:0,dt:4,nt:8,next:65535,str:51755,d0:4268,d1:62495;
-        ("begin", Expression<MethodOrOperator> @:4268 op:0,dt:2,nt:9,next:4257,str:54,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4257 op:19,dt:4,nt:8,next:4260,str:51784,d0:4258,d1:62485;
-                ("sleep", Expression<MethodOrOperator> @:4258 op:19,dt:2,nt:9,next:4259,str:133,d0:0,d1:0;
-                    (126, Expression<Short> @:4259 op:7,dt:7,nt:9,next:65535,str:51791,d0:126,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:4260 op:27,dt:4,nt:8,next:4263,str:51798,d0:4261,d1:62488;
-                ("print", Expression<MethodOrOperator> @:4261 op:27,dt:2,nt:9,next:4262,str:139,d0:0,d1:0;
-                    ("hev unhide", Expression<String> @:4262 op:9,dt:9,nt:9,next:65535,str:10052,d0:10052,d1:0;)))
-            (____, BuiltinInvocation<Void> @:4263 op:57,dt:4,nt:8,next:65535,str:51821,d0:4264,d1:62491;
-                ("object_hide", Expression<MethodOrOperator> @:4264 op:57,dt:2,nt:9,next:4265,str:643,d0:0,d1:0;
-                    (4294901769, Expression<Entity> @:4265 op:56,dt:50,nt:9,next:4266,str:4013,d0:9,d1:65535;
-                        (False, Expression<Boolean> @:4266 op:5,dt:5,nt:9,next:65535,str:51841,d0:65280,d1:65535;)))))))
+("hev_unhide", MethodDecl<Void> @:137 check:0,op:0,dt:0,nt:65535,next:4267,nextCheck:62494,str:10178,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4267 check:62494,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:51755,h:0,d0:4268,d1:62495;
+        ("begin", Expression<MethodOrOperator> @:4268 check:62495,op:0,dt:2,nt:9,next:4257,nextCheck:62484,str:54,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4257 check:62484,op:19,dt:4,nt:8,next:4260,nextCheck:62487,str:51784,h:0,d0:4258,d1:62485;
+                ("sleep", Expression<MethodOrOperator> @:4258 check:62485,op:19,dt:2,nt:9,next:4259,nextCheck:62486,str:133,h:0,d0:0,d1:0;
+                    (126, Expression<Short> @:4259 check:62486,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:51791,h:0,d0:126,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:4260 check:62487,op:27,dt:4,nt:8,next:4263,nextCheck:62490,str:51798,h:0,d0:4261,d1:62488;
+                ("print", Expression<MethodOrOperator> @:4261 check:62488,op:27,dt:2,nt:9,next:4262,nextCheck:62489,str:139,h:0,d0:0,d1:0;
+                    ("hev unhide", Expression<String> @:4262 check:62489,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:10052,h:0,d0:10052,d1:0;)))
+            (____, BuiltinInvocation<Void> @:4263 check:62490,op:57,dt:4,nt:8,next:65535,nextCheck:65535,str:51821,h:0,d0:4264,d1:62491;
+                ("object_hide", Expression<MethodOrOperator> @:4264 check:62491,op:57,dt:2,nt:9,next:4265,nextCheck:62492,str:643,h:0,d0:0,d1:0;
+                    (4294901769, Expression<Entity> @:4265 check:62492,op:56,dt:50,nt:9,next:4266,nextCheck:62493,str:4013,h:0,d0:9,d1:65535;
+                        (False, Expression<Boolean> @:4266 check:62493,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:51841,h:0,d0:65280,d1:65535;)))))))

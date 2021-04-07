@@ -1,51 +1,51 @@
 
-("hl_boss_chat_01", MethodDecl<Void> @:329 op:0,dt:0,nt:65535,next:29227,str:38253,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:29227 op:0,dt:4,nt:8,next:65535,str:15567,d0:29228,d1:54688;
-        ("begin", Expression<MethodOrOperator> @:29228 op:0,dt:2,nt:9,next:29180,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:29180 op:4,dt:4,nt:8,next:29184,str:15608,d0:29181,d1:54641;
-                ("set", Expression<MethodOrOperator> @:29181 op:4,dt:2,nt:9,next:29182,str:2644,d0:0,d1:0;
-                    ("boss_done_talking", VariableAccess<Boolean> @:29182 op:65535,dt:5,nt:13,next:29183,str:35609,d0:45,d1:0;
-                        (False, Expression<Boolean> @:29183 op:5,dt:5,nt:9,next:65535,str:15631,d0:65280,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:29184 op:21,dt:4,nt:8,next:29190,str:15640,d0:29185,d1:54645;
-                ("sleep_until", Expression<MethodOrOperator> @:29185 op:21,dt:2,nt:9,next:29186,str:440,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:29186 op:13,dt:5,nt:8,next:65535,str:15653,d0:29187,d1:54647;
-                        ("=", Expression<MethodOrOperator> @:29187 op:13,dt:2,nt:9,next:29188,str:505,d0:0,d1:0;
-                            ("monitor_done_talking", VariableAccess<Boolean> @:29188 op:0,dt:5,nt:13,next:29189,str:35627,d0:43,d1:0;
-                                (True, Expression<Boolean> @:29189 op:5,dt:5,nt:9,next:65535,str:15677,d0:65281,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:29190 op:446,dt:4,nt:8,next:29193,str:15686,d0:29191,d1:54651;
-                ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:29191 op:446,dt:2,nt:9,next:29192,str:35648,d0:0,d1:0;
-                    (True, Expression<Boolean> @:29192 op:5,dt:5,nt:9,next:65535,str:15715,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:29193 op:19,dt:4,nt:8,next:29196,str:15723,d0:29194,d1:54654;
-                ("sleep", Expression<MethodOrOperator> @:29194 op:19,dt:2,nt:9,next:29195,str:289,d0:0,d1:0;
-                    (60, Expression<Short> @:29195 op:7,dt:7,nt:9,next:65535,str:15730,d0:60,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:29196 op:27,dt:4,nt:8,next:29199,str:15736,d0:29197,d1:54657;
-                ("print", Expression<MethodOrOperator> @:29197 op:27,dt:2,nt:9,next:29198,str:295,d0:0,d1:0;
-                    ("heretic leader: 'how did the prophets buy your loyalty, arbiter?'", Expression<String> @:29198 op:9,dt:9,nt:9,next:65535,str:35676,d0:35676,d1:0;)))
-            (____, BuiltinInvocation<Void> @:29199 op:418,dt:4,nt:8,next:29202,str:15814,d0:29200,d1:54660;
-                ("cs_play_line", Expression<MethodOrOperator> @:29200 op:418,dt:2,nt:9,next:29201,str:11547,d0:0,d1:0;
-                    ("0800", Expression<StringId> @:29201 op:11,dt:11,nt:9,next:65535,str:35742,d0:12285,d1:1024;)))
-            (____, BuiltinInvocation<Void> @:29202 op:19,dt:4,nt:8,next:29205,str:15836,d0:29203,d1:54663;
-                ("sleep", Expression<MethodOrOperator> @:29203 op:19,dt:2,nt:9,next:29204,str:289,d0:0,d1:0;
-                    (15, Expression<Short> @:29204 op:7,dt:7,nt:9,next:65535,str:15843,d0:15,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:29205 op:27,dt:4,nt:8,next:29208,str:15849,d0:29206,d1:54666;
-                ("print", Expression<MethodOrOperator> @:29206 op:27,dt:2,nt:9,next:29207,str:295,d0:0,d1:0;
-                    ("heretic leader: 'with a new command? a new fleet?'", Expression<String> @:29207 op:9,dt:9,nt:9,next:65535,str:35747,d0:35747,d1:0;)))
-            (____, BuiltinInvocation<Void> @:29208 op:418,dt:4,nt:8,next:29211,str:15912,d0:29209,d1:54669;
-                ("cs_play_line", Expression<MethodOrOperator> @:29209 op:418,dt:2,nt:9,next:29210,str:11547,d0:0,d1:0;
-                    ("0810", Expression<StringId> @:29210 op:11,dt:11,nt:9,next:65535,str:35798,d0:12286,d1:1024;)))
-            (____, BuiltinInvocation<Void> @:29211 op:19,dt:4,nt:8,next:29214,str:15934,d0:29212,d1:54672;
-                ("sleep", Expression<MethodOrOperator> @:29212 op:19,dt:2,nt:9,next:29213,str:289,d0:0,d1:0;
-                    (30, Expression<Short> @:29213 op:7,dt:7,nt:9,next:65535,str:15941,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:29214 op:27,dt:4,nt:8,next:29217,str:15947,d0:29215,d1:54675;
-                ("print", Expression<MethodOrOperator> @:29215 op:27,dt:2,nt:9,next:29216,str:295,d0:0,d1:0;
-                    ("heretic leader: 'or was it the promise? their great journey!'", Expression<String> @:29216 op:9,dt:9,nt:9,next:65535,str:35803,d0:35803,d1:0;)))
-            (____, BuiltinInvocation<Void> @:29217 op:418,dt:4,nt:8,next:29220,str:16021,d0:29218,d1:54678;
-                ("cs_play_line", Expression<MethodOrOperator> @:29218 op:418,dt:2,nt:9,next:29219,str:11547,d0:0,d1:0;
-                    ("0820", Expression<StringId> @:29219 op:11,dt:11,nt:9,next:65535,str:35865,d0:12287,d1:1024;)))
-            (____, BuiltinInvocation<Void> @:29220 op:446,dt:4,nt:8,next:29223,str:16043,d0:29221,d1:54681;
-                ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:29221 op:446,dt:2,nt:9,next:29222,str:35648,d0:0,d1:0;
-                    (False, Expression<Boolean> @:29222 op:5,dt:5,nt:9,next:65535,str:16072,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:29223 op:4,dt:4,nt:8,next:65535,str:16081,d0:29224,d1:54684;
-                ("set", Expression<MethodOrOperator> @:29224 op:4,dt:2,nt:9,next:29225,str:2644,d0:0,d1:0;
-                    ("boss_done_talking", VariableAccess<Boolean> @:29225 op:65535,dt:5,nt:13,next:29226,str:35609,d0:45,d1:0;
-                        (True, Expression<Boolean> @:29226 op:5,dt:5,nt:9,next:65535,str:16104,d0:65281,d1:65535;)))))))
+("hl_boss_chat_01", MethodDecl<Void> @:329 check:0,op:0,dt:0,nt:65535,next:29227,nextCheck:54687,str:38253,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:29227 check:54687,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:15567,h:4,d0:29228,d1:54688;
+        ("begin", Expression<MethodOrOperator> @:29228 check:54688,op:0,dt:2,nt:9,next:29180,nextCheck:54640,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:29180 check:54640,op:4,dt:4,nt:8,next:29184,nextCheck:54644,str:15608,h:4,d0:29181,d1:54641;
+                ("set", Expression<MethodOrOperator> @:29181 check:54641,op:4,dt:2,nt:9,next:29182,nextCheck:54642,str:2644,h:0,d0:0,d1:0;
+                    ("boss_done_talking", VariableAccess<Boolean> @:29182 check:54642,op:65535,dt:5,nt:13,next:29183,nextCheck:54643,str:35609,h:0,d0:45,d1:0;
+                        (False, Expression<Boolean> @:29183 check:54643,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:15631,h:4,d0:65280,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:29184 check:54644,op:21,dt:4,nt:8,next:29190,nextCheck:54650,str:15640,h:4,d0:29185,d1:54645;
+                ("sleep_until", Expression<MethodOrOperator> @:29185 check:54645,op:21,dt:2,nt:9,next:29186,nextCheck:54646,str:440,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:29186 check:54646,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:15653,h:4,d0:29187,d1:54647;
+                        ("=", Expression<MethodOrOperator> @:29187 check:54647,op:13,dt:2,nt:9,next:29188,nextCheck:54648,str:505,h:0,d0:0,d1:0;
+                            ("monitor_done_talking", VariableAccess<Boolean> @:29188 check:54648,op:0,dt:5,nt:13,next:29189,nextCheck:54649,str:35627,h:0,d0:43,d1:0;
+                                (True, Expression<Boolean> @:29189 check:54649,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:15677,h:4,d0:65281,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:29190 check:54650,op:446,dt:4,nt:8,next:29193,nextCheck:54653,str:15686,h:4,d0:29191,d1:54651;
+                ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:29191 check:54651,op:446,dt:2,nt:9,next:29192,nextCheck:54652,str:35648,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:29192 check:54652,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:15715,h:4,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:29193 check:54653,op:19,dt:4,nt:8,next:29196,nextCheck:54656,str:15723,h:4,d0:29194,d1:54654;
+                ("sleep", Expression<MethodOrOperator> @:29194 check:54654,op:19,dt:2,nt:9,next:29195,nextCheck:54655,str:289,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:29195 check:54655,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:15730,h:4,d0:60,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:29196 check:54656,op:27,dt:4,nt:8,next:29199,nextCheck:54659,str:15736,h:4,d0:29197,d1:54657;
+                ("print", Expression<MethodOrOperator> @:29197 check:54657,op:27,dt:2,nt:9,next:29198,nextCheck:54658,str:295,h:0,d0:0,d1:0;
+                    ("heretic leader: 'how did the prophets buy your loyalty, arbiter?'", Expression<String> @:29198 check:54658,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:35676,h:0,d0:35676,d1:0;)))
+            (____, BuiltinInvocation<Void> @:29199 check:54659,op:418,dt:4,nt:8,next:29202,nextCheck:54662,str:15814,h:4,d0:29200,d1:54660;
+                ("cs_play_line", Expression<MethodOrOperator> @:29200 check:54660,op:418,dt:2,nt:9,next:29201,nextCheck:54661,str:11547,h:0,d0:0,d1:0;
+                    ("0800", Expression<StringId> @:29201 check:54661,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:35742,h:0,d0:12285,d1:1024;)))
+            (____, BuiltinInvocation<Void> @:29202 check:54662,op:19,dt:4,nt:8,next:29205,nextCheck:54665,str:15836,h:4,d0:29203,d1:54663;
+                ("sleep", Expression<MethodOrOperator> @:29203 check:54663,op:19,dt:2,nt:9,next:29204,nextCheck:54664,str:289,h:0,d0:0,d1:0;
+                    (15, Expression<Short> @:29204 check:54664,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:15843,h:4,d0:15,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:29205 check:54665,op:27,dt:4,nt:8,next:29208,nextCheck:54668,str:15849,h:4,d0:29206,d1:54666;
+                ("print", Expression<MethodOrOperator> @:29206 check:54666,op:27,dt:2,nt:9,next:29207,nextCheck:54667,str:295,h:0,d0:0,d1:0;
+                    ("heretic leader: 'with a new command? a new fleet?'", Expression<String> @:29207 check:54667,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:35747,h:0,d0:35747,d1:0;)))
+            (____, BuiltinInvocation<Void> @:29208 check:54668,op:418,dt:4,nt:8,next:29211,nextCheck:54671,str:15912,h:4,d0:29209,d1:54669;
+                ("cs_play_line", Expression<MethodOrOperator> @:29209 check:54669,op:418,dt:2,nt:9,next:29210,nextCheck:54670,str:11547,h:0,d0:0,d1:0;
+                    ("0810", Expression<StringId> @:29210 check:54670,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:35798,h:0,d0:12286,d1:1024;)))
+            (____, BuiltinInvocation<Void> @:29211 check:54671,op:19,dt:4,nt:8,next:29214,nextCheck:54674,str:15934,h:4,d0:29212,d1:54672;
+                ("sleep", Expression<MethodOrOperator> @:29212 check:54672,op:19,dt:2,nt:9,next:29213,nextCheck:54673,str:289,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:29213 check:54673,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:15941,h:4,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:29214 check:54674,op:27,dt:4,nt:8,next:29217,nextCheck:54677,str:15947,h:4,d0:29215,d1:54675;
+                ("print", Expression<MethodOrOperator> @:29215 check:54675,op:27,dt:2,nt:9,next:29216,nextCheck:54676,str:295,h:0,d0:0,d1:0;
+                    ("heretic leader: 'or was it the promise? their great journey!'", Expression<String> @:29216 check:54676,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:35803,h:0,d0:35803,d1:0;)))
+            (____, BuiltinInvocation<Void> @:29217 check:54677,op:418,dt:4,nt:8,next:29220,nextCheck:54680,str:16021,h:4,d0:29218,d1:54678;
+                ("cs_play_line", Expression<MethodOrOperator> @:29218 check:54678,op:418,dt:2,nt:9,next:29219,nextCheck:54679,str:11547,h:0,d0:0,d1:0;
+                    ("0820", Expression<StringId> @:29219 check:54679,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:35865,h:0,d0:12287,d1:1024;)))
+            (____, BuiltinInvocation<Void> @:29220 check:54680,op:446,dt:4,nt:8,next:29223,nextCheck:54683,str:16043,h:4,d0:29221,d1:54681;
+                ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:29221 check:54681,op:446,dt:2,nt:9,next:29222,nextCheck:54682,str:35648,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:29222 check:54682,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:16072,h:4,d0:65280,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:29223 check:54683,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:16081,h:4,d0:29224,d1:54684;
+                ("set", Expression<MethodOrOperator> @:29224 check:54684,op:4,dt:2,nt:9,next:29225,nextCheck:54685,str:2644,h:0,d0:0,d1:0;
+                    ("boss_done_talking", VariableAccess<Boolean> @:29225 check:54685,op:65535,dt:5,nt:13,next:29226,nextCheck:54686,str:35609,h:0,d0:45,d1:0;
+                        (True, Expression<Boolean> @:29226 check:54686,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:16104,h:4,d0:65281,d1:65535;)))))))

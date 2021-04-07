@@ -1,14 +1,14 @@
 
-("x01_07_problem_actors", MethodDecl<Void> @:104 op:0,dt:0,nt:65535,next:6191,str:10270,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6191 op:0,dt:4,nt:8,next:65535,str:22093,d0:6192,d1:64419;
-        ("begin", Expression<MethodOrOperator> @:6192 op:0,dt:2,nt:9,next:6181,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6181 op:27,dt:4,nt:8,next:6184,str:22139,d0:6182,d1:64409;
-                ("print", Expression<MethodOrOperator> @:6182 op:27,dt:2,nt:9,next:6183,str:86,d0:0,d1:0;
-                    ("problem actors", Expression<String> @:6183 op:9,dt:9,nt:9,next:65535,str:4284,d0:4284,d1:0;)))
-            (____, BuiltinInvocation<Void> @:6184 op:48,dt:4,nt:8,next:6187,str:22168,d0:6185,d1:64412;
-                ("object_create_anew", Expression<MethodOrOperator> @:6185 op:48,dt:2,nt:9,next:6186,str:4468,d0:0,d1:0;
-                    ("halo_exploding", Expression<EntityIdentifier> @:6186 op:56,dt:56,nt:9,next:65535,str:10157,d0:26,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6187 op:92,dt:4,nt:8,next:65535,str:22206,d0:6188,d1:64415;
-                ("object_cinematic_lod", Expression<MethodOrOperator> @:6188 op:92,dt:2,nt:9,next:6189,str:4337,d0:0,d1:0;
-                    (4294901786, Expression<Entity> @:6189 op:56,dt:50,nt:9,next:6190,str:10157,d0:26,d1:65535;
-                        (True, Expression<Boolean> @:6190 op:5,dt:5,nt:9,next:65535,str:22243,d0:65281,d1:65535;)))))))
+("x01_07_problem_actors", MethodDecl<Void> @:104 check:0,op:0,dt:0,nt:65535,next:6191,nextCheck:64418,str:10270,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6191 check:64418,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:22093,h:1,d0:6192,d1:64419;
+        ("begin", Expression<MethodOrOperator> @:6192 check:64419,op:0,dt:2,nt:9,next:6181,nextCheck:64408,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6181 check:64408,op:27,dt:4,nt:8,next:6184,nextCheck:64411,str:22139,h:1,d0:6182,d1:64409;
+                ("print", Expression<MethodOrOperator> @:6182 check:64409,op:27,dt:2,nt:9,next:6183,nextCheck:64410,str:86,h:0,d0:0,d1:0;
+                    ("problem actors", Expression<String> @:6183 check:64410,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:4284,h:0,d0:4284,d1:0;)))
+            (____, BuiltinInvocation<Void> @:6184 check:64411,op:48,dt:4,nt:8,next:6187,nextCheck:64414,str:22168,h:1,d0:6185,d1:64412;
+                ("object_create_anew", Expression<MethodOrOperator> @:6185 check:64412,op:48,dt:2,nt:9,next:6186,nextCheck:64413,str:4468,h:0,d0:0,d1:0;
+                    ("halo_exploding", Expression<EntityIdentifier> @:6186 check:64413,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:10157,h:0,d0:26,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6187 check:64414,op:92,dt:4,nt:8,next:65535,nextCheck:65535,str:22206,h:1,d0:6188,d1:64415;
+                ("object_cinematic_lod", Expression<MethodOrOperator> @:6188 check:64415,op:92,dt:2,nt:9,next:6189,nextCheck:64416,str:4337,h:0,d0:0,d1:0;
+                    (4294901786, Expression<Entity> @:6189 check:64416,op:56,dt:50,nt:9,next:6190,nextCheck:64417,str:10157,h:0,d0:26,d1:65535;
+                        (True, Expression<Boolean> @:6190 check:64417,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:22243,h:1,d0:65281,d1:65535;)))))))

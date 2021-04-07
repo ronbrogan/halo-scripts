@@ -1,15 +1,15 @@
 
-("cs_trm1_lookat_block", MethodDecl<Void> @:361 op:0,dt:0,nt:65535,next:16694,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:16694 op:0,dt:4,nt:8,next:65535,str:5247,d0:16695,d1:42155;
-        ("begin", Expression<MethodOrOperator> @:16695 op:0,dt:2,nt:9,next:16683,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:16683 op:444,dt:4,nt:8,next:16686,str:5293,d0:16684,d1:42144;
-                ("cs_enable_moving", Expression<MethodOrOperator> @:16684 op:444,dt:2,nt:9,next:16685,str:37929,d0:0,d1:0;
-                    (False, Expression<Boolean> @:16685 op:5,dt:5,nt:9,next:65535,str:5311,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16686 op:401,dt:4,nt:8,next:16692,str:5316,d0:16687,d1:42147;
-                ("cs_face_object", Expression<MethodOrOperator> @:16687 op:401,dt:2,nt:9,next:16688,str:31954,d0:0,d1:0;
-                    (True, Expression<Boolean> @:16688 op:5,dt:5,nt:9,next:16689,str:5332,d0:65281,d1:65535;
-                        (____, BuiltinInvocation<Entity> @:16689 op:284,dt:50,nt:8,next:65535,str:5334,d0:16690,d1:42150;
-                            ("ai_get_object", Expression<MethodOrOperator> @:16690 op:284,dt:2,nt:9,next:16691,str:31886,d0:0,d1:0;
-                                ("trm1_hum_block_mar", Expression<AI> @:16691 op:19,dt:19,nt:9,next:65535,str:38472,d0:80,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:16692 op:20,dt:4,nt:8,next:65535,str:5372,d0:16693,d1:42153;
-                ("sleep_forever", Expression<MethodOrOperator> @:16693 op:20,dt:2,nt:9,next:65535,str:27349,d0:0,d1:0;)))))
+("cs_trm1_lookat_block", MethodDecl<Void> @:361 check:0,op:0,dt:0,nt:65535,next:16694,nextCheck:42154,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:16694 check:42154,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:5247,h:3,d0:16695,d1:42155;
+        ("begin", Expression<MethodOrOperator> @:16695 check:42155,op:0,dt:2,nt:9,next:16683,nextCheck:42143,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:16683 check:42143,op:444,dt:4,nt:8,next:16686,nextCheck:42146,str:5293,h:3,d0:16684,d1:42144;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:16684 check:42144,op:444,dt:2,nt:9,next:16685,nextCheck:42145,str:37929,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:16685 check:42145,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:5311,h:3,d0:65280,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16686 check:42146,op:401,dt:4,nt:8,next:16692,nextCheck:42152,str:5316,h:3,d0:16687,d1:42147;
+                ("cs_face_object", Expression<MethodOrOperator> @:16687 check:42147,op:401,dt:2,nt:9,next:16688,nextCheck:42148,str:31954,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16688 check:42148,op:5,dt:5,nt:9,next:16689,nextCheck:42149,str:5332,h:3,d0:65281,d1:65535;
+                        (____, BuiltinInvocation<Entity> @:16689 check:42149,op:284,dt:50,nt:8,next:65535,nextCheck:65535,str:5334,h:3,d0:16690,d1:42150;
+                            ("ai_get_object", Expression<MethodOrOperator> @:16690 check:42150,op:284,dt:2,nt:9,next:16691,nextCheck:42151,str:31886,h:0,d0:0,d1:0;
+                                ("trm1_hum_block_mar", Expression<AI> @:16691 check:42151,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:38472,h:0,d0:80,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:16692 check:42152,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:5372,h:3,d0:16693,d1:42153;
+                ("sleep_forever", Expression<MethodOrOperator> @:16693 check:42153,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:27349,h:0,d0:0,d1:0;)))))

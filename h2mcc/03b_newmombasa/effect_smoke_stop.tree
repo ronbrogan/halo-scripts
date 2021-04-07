@@ -1,13 +1,13 @@
 
-("effect_smoke_stop", MethodDecl<Void> @:98 op:0,dt:0,nt:65535,next:3212,str:7912,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3212 op:0,dt:4,nt:8,next:65535,str:38838,d0:3213,d1:61440;
-        ("begin", Expression<MethodOrOperator> @:3213 op:0,dt:2,nt:9,next:3203,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3203 op:19,dt:4,nt:8,next:3206,str:38874,d0:3204,d1:61431;
-                ("sleep", Expression<MethodOrOperator> @:3204 op:19,dt:2,nt:9,next:3205,str:85,d0:0,d1:0;
-                    (475, Expression<Short> @:3205 op:7,dt:7,nt:9,next:65535,str:38881,d0:475,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3206 op:27,dt:4,nt:8,next:3209,str:38888,d0:3207,d1:61434;
-                ("print", Expression<MethodOrOperator> @:3207 op:27,dt:2,nt:9,next:3208,str:91,d0:0,d1:0;
-                    ("smoke stop", Expression<String> @:3208 op:9,dt:9,nt:9,next:65535,str:7672,d0:7672,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3209 op:52,dt:4,nt:8,next:65535,str:38911,d0:3210,d1:61437;
-                ("object_destroy", Expression<MethodOrOperator> @:3210 op:52,dt:2,nt:9,next:3211,str:2030,d0:0,d1:0;
-                    (4294901799, Expression<Entity> @:3211 op:56,dt:50,nt:9,next:65535,str:7662,d0:39,d1:65535;))))))
+("effect_smoke_stop", MethodDecl<Void> @:98 check:0,op:0,dt:0,nt:65535,next:3212,nextCheck:61439,str:7912,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3212 check:61439,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:38838,h:0,d0:3213,d1:61440;
+        ("begin", Expression<MethodOrOperator> @:3213 check:61440,op:0,dt:2,nt:9,next:3203,nextCheck:61430,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3203 check:61430,op:19,dt:4,nt:8,next:3206,nextCheck:61433,str:38874,h:0,d0:3204,d1:61431;
+                ("sleep", Expression<MethodOrOperator> @:3204 check:61431,op:19,dt:2,nt:9,next:3205,nextCheck:61432,str:85,h:0,d0:0,d1:0;
+                    (475, Expression<Short> @:3205 check:61432,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:38881,h:0,d0:475,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3206 check:61433,op:27,dt:4,nt:8,next:3209,nextCheck:61436,str:38888,h:0,d0:3207,d1:61434;
+                ("print", Expression<MethodOrOperator> @:3207 check:61434,op:27,dt:2,nt:9,next:3208,nextCheck:61435,str:91,h:0,d0:0,d1:0;
+                    ("smoke stop", Expression<String> @:3208 check:61435,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:7672,h:0,d0:7672,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3209 check:61436,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:38911,h:0,d0:3210,d1:61437;
+                ("object_destroy", Expression<MethodOrOperator> @:3210 check:61437,op:52,dt:2,nt:9,next:3211,nextCheck:61438,str:2030,h:0,d0:0,d1:0;
+                    (4294901799, Expression<Entity> @:3211 check:61438,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:7662,h:0,d0:39,d1:65535;))))))

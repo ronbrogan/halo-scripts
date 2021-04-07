@@ -1,14 +1,14 @@
 
-("timer_flavor_set", MethodDecl<Short> @:325 op:0,dt:0,nt:65535,next:12383,str:31343,d0:0,d1:0;
-    (____, BuiltinInvocation<Short> @:12383 op:0,dt:7,nt:8,next:65535,str:17177,d0:12384,d1:37844;
-        ("begin", Expression<MethodOrOperator> @:12384 op:0,dt:2,nt:9,next:12373,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Short> @:12373 op:124,dt:7,nt:8,next:65535,str:17217,d0:12374,d1:37834;
-                ("random_range", Expression<MethodOrOperator> @:12374 op:124,dt:2,nt:9,next:12375,str:28177,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:12375 op:9,dt:7,nt:8,next:12379,str:17231,d0:12376,d1:37836;
-                        ("*", Expression<MethodOrOperator> @:12376 op:9,dt:2,nt:9,next:12377,str:1,d0:0,d1:0;
-                            (15f, Expression<Float> @:12377 op:6,dt:6,nt:9,next:12378,str:17234,d0:0,d1:16752;
-                                ("seconds", VariableAccess<Float> @:12378 op:6,dt:6,nt:13,next:65535,str:3,d0:18,d1:0;))))
-                    (____, BuiltinInvocation<Short> @:12379 op:9,dt:7,nt:8,next:65535,str:17246,d0:12380,d1:37840;
-                        ("*", Expression<MethodOrOperator> @:12380 op:9,dt:2,nt:9,next:12381,str:1,d0:0,d1:0;
-                            (30f, Expression<Float> @:12381 op:6,dt:6,nt:9,next:12382,str:17249,d0:0,d1:16880;
-                                ("seconds", VariableAccess<Float> @:12382 op:6,dt:6,nt:13,next:65535,str:3,d0:18,d1:0;)))))))))
+("timer_flavor_set", MethodDecl<Short> @:325 check:0,op:0,dt:0,nt:65535,next:12383,nextCheck:37843,str:31343,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Short> @:12383 check:37843,op:0,dt:7,nt:8,next:65535,nextCheck:65535,str:17177,h:2,d0:12384,d1:37844;
+        ("begin", Expression<MethodOrOperator> @:12384 check:37844,op:0,dt:2,nt:9,next:12373,nextCheck:37833,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Short> @:12373 check:37833,op:124,dt:7,nt:8,next:65535,nextCheck:65535,str:17217,h:2,d0:12374,d1:37834;
+                ("random_range", Expression<MethodOrOperator> @:12374 check:37834,op:124,dt:2,nt:9,next:12375,nextCheck:37835,str:28177,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:12375 check:37835,op:9,dt:7,nt:8,next:12379,nextCheck:37839,str:17231,h:2,d0:12376,d1:37836;
+                        ("*", Expression<MethodOrOperator> @:12376 check:37836,op:9,dt:2,nt:9,next:12377,nextCheck:37837,str:1,h:0,d0:0,d1:0;
+                            (15f, Expression<Float> @:12377 check:37837,op:6,dt:6,nt:9,next:12378,nextCheck:37838,str:17234,h:2,d0:0,d1:16752;
+                                ("seconds", VariableAccess<Float> @:12378 check:37838,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:3,h:0,d0:18,d1:0;))))
+                    (____, BuiltinInvocation<Short> @:12379 check:37839,op:9,dt:7,nt:8,next:65535,nextCheck:65535,str:17246,h:2,d0:12380,d1:37840;
+                        ("*", Expression<MethodOrOperator> @:12380 check:37840,op:9,dt:2,nt:9,next:12381,nextCheck:37841,str:1,h:0,d0:0,d1:0;
+                            (30f, Expression<Float> @:12381 check:37841,op:6,dt:6,nt:9,next:12382,nextCheck:37842,str:17249,h:2,d0:0,d1:16880;
+                                ("seconds", VariableAccess<Float> @:12382 check:37842,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:3,h:0,d0:18,d1:0;)))))))))

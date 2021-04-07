@@ -1,20 +1,20 @@
 
-("cs_e21_cov_phantom_exit", MethodDecl<Void> @:307 op:0,dt:0,nt:65535,next:10970,str:23662,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:10970 op:0,dt:4,nt:8,next:65535,str:7874,d0:10971,d1:36431;
-        ("begin", Expression<MethodOrOperator> @:10971 op:0,dt:2,nt:9,next:10954,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:10954 op:449,dt:4,nt:8,next:10957,str:7923,d0:10955,d1:36415;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:10955 op:449,dt:2,nt:9,next:10956,str:15395,d0:0,d1:0;
-                    (True, Expression<Boolean> @:10956 op:5,dt:5,nt:9,next:65535,str:7955,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10957 op:383,dt:4,nt:8,next:10960,str:7963,d0:10958,d1:36418;
-                ("cs_fly_by", Expression<MethodOrOperator> @:10958 op:383,dt:2,nt:9,next:10959,str:15426,d0:0,d1:0;
-                    ("e21_cov_phantom_exit/p0", Expression<SpatialPoint> @:10959 op:28,dt:28,nt:9,next:65535,str:22688,d0:0,d1:19;)))
-            (____, BuiltinInvocation<Void> @:10960 op:379,dt:4,nt:8,next:10963,str:8001,d0:10961,d1:36421;
-                ("cs_fly_to", Expression<MethodOrOperator> @:10961 op:379,dt:2,nt:9,next:10962,str:15691,d0:0,d1:0;
-                    ("e21_cov_phantom_exit/p1", Expression<SpatialPoint> @:10962 op:28,dt:28,nt:9,next:65535,str:22712,d0:1,d1:19;)))
-            (____, BuiltinInvocation<Void> @:10963 op:380,dt:4,nt:8,next:10967,str:8039,d0:10964,d1:36424;
-                ("cs_fly_to", Expression<MethodOrOperator> @:10964 op:380,dt:2,nt:9,next:10965,str:15691,d0:0,d1:0;
-                    ("e21_cov_phantom_exit/p2", Expression<SpatialPoint> @:10965 op:28,dt:28,nt:9,next:10966,str:22736,d0:2,d1:19;
-                        (0.5f, Expression<Float> @:10966 op:6,dt:6,nt:9,next:65535,str:8074,d0:0,d1:16128;))))
-            (____, BuiltinInvocation<Void> @:10967 op:298,dt:4,nt:8,next:65535,str:8081,d0:10968,d1:36428;
-                ("ai_erase", Expression<MethodOrOperator> @:10968 op:298,dt:2,nt:9,next:10969,str:15505,d0:0,d1:0;
-                    ("ai_current_squad", VariableAccess<AI> @:10969 op:19,dt:19,nt:13,next:65535,str:22760,d0:33563,d1:65535;))))))
+("cs_e21_cov_phantom_exit", MethodDecl<Void> @:307 check:0,op:0,dt:0,nt:65535,next:10970,nextCheck:36430,str:23662,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:10970 check:36430,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:7874,h:2,d0:10971,d1:36431;
+        ("begin", Expression<MethodOrOperator> @:10971 check:36431,op:0,dt:2,nt:9,next:10954,nextCheck:36414,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:10954 check:36414,op:449,dt:4,nt:8,next:10957,nextCheck:36417,str:7923,h:2,d0:10955,d1:36415;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:10955 check:36415,op:449,dt:2,nt:9,next:10956,nextCheck:36416,str:15395,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10956 check:36416,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:7955,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10957 check:36417,op:383,dt:4,nt:8,next:10960,nextCheck:36420,str:7963,h:2,d0:10958,d1:36418;
+                ("cs_fly_by", Expression<MethodOrOperator> @:10958 check:36418,op:383,dt:2,nt:9,next:10959,nextCheck:36419,str:15426,h:0,d0:0,d1:0;
+                    ("e21_cov_phantom_exit/p0", Expression<SpatialPoint> @:10959 check:36419,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:22688,h:0,d0:0,d1:19;)))
+            (____, BuiltinInvocation<Void> @:10960 check:36420,op:379,dt:4,nt:8,next:10963,nextCheck:36423,str:8001,h:2,d0:10961,d1:36421;
+                ("cs_fly_to", Expression<MethodOrOperator> @:10961 check:36421,op:379,dt:2,nt:9,next:10962,nextCheck:36422,str:15691,h:0,d0:0,d1:0;
+                    ("e21_cov_phantom_exit/p1", Expression<SpatialPoint> @:10962 check:36422,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:22712,h:0,d0:1,d1:19;)))
+            (____, BuiltinInvocation<Void> @:10963 check:36423,op:380,dt:4,nt:8,next:10967,nextCheck:36427,str:8039,h:2,d0:10964,d1:36424;
+                ("cs_fly_to", Expression<MethodOrOperator> @:10964 check:36424,op:380,dt:2,nt:9,next:10965,nextCheck:36425,str:15691,h:0,d0:0,d1:0;
+                    ("e21_cov_phantom_exit/p2", Expression<SpatialPoint> @:10965 check:36425,op:28,dt:28,nt:9,next:10966,nextCheck:36426,str:22736,h:0,d0:2,d1:19;
+                        (0.5f, Expression<Float> @:10966 check:36426,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:8074,h:2,d0:0,d1:16128;))))
+            (____, BuiltinInvocation<Void> @:10967 check:36427,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:8081,h:2,d0:10968,d1:36428;
+                ("ai_erase", Expression<MethodOrOperator> @:10968 check:36428,op:298,dt:2,nt:9,next:10969,nextCheck:36429,str:15505,h:0,d0:0,d1:0;
+                    ("ai_current_squad", VariableAccess<AI> @:10969 check:36429,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:22760,h:0,d0:33563,d1:65535;))))))

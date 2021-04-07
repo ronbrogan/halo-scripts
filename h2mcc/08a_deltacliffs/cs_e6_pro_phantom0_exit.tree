@@ -1,17 +1,17 @@
 
-("cs_e6_pro_phantom0_exit", MethodDecl<Void> @:147 op:0,dt:0,nt:65535,next:5476,str:11183,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5476 op:0,dt:4,nt:8,next:65535,str:2095,d0:5477,d1:63704;
-        ("begin", Expression<MethodOrOperator> @:5477 op:0,dt:2,nt:9,next:5463,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5463 op:381,dt:4,nt:8,next:5467,str:2144,d0:5464,d1:63691;
-                ("cs_fly_to_and_face", Expression<MethodOrOperator> @:5464 op:381,dt:2,nt:9,next:5465,str:10706,d0:0,d1:0;
-                    ("e6_pro_phantom0_exit/p0", Expression<SpatialPoint> @:5465 op:28,dt:28,nt:9,next:5466,str:10942,d0:0,d1:14;
-                        ("e6_pro_phantom0_exit/p1", Expression<SpatialPoint> @:5466 op:28,dt:28,nt:9,next:65535,str:10966,d0:1,d1:14;))))
-            (____, BuiltinInvocation<Void> @:5467 op:438,dt:4,nt:8,next:5470,str:2215,d0:5468,d1:63695;
-                ("cs_vehicle_boost", Expression<MethodOrOperator> @:5468 op:438,dt:2,nt:9,next:5469,str:10637,d0:0,d1:0;
-                    (True, Expression<Boolean> @:5469 op:5,dt:5,nt:9,next:65535,str:2233,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5470 op:379,dt:4,nt:8,next:5473,str:2241,d0:5471,d1:63698;
-                ("cs_fly_to", Expression<MethodOrOperator> @:5471 op:379,dt:2,nt:9,next:5472,str:6106,d0:0,d1:0;
-                    ("e6_pro_phantom0_exit/p1", Expression<SpatialPoint> @:5472 op:28,dt:28,nt:9,next:65535,str:10966,d0:1,d1:14;)))
-            (____, BuiltinInvocation<Void> @:5473 op:298,dt:4,nt:8,next:65535,str:2279,d0:5474,d1:63701;
-                ("ai_erase", Expression<MethodOrOperator> @:5474 op:298,dt:2,nt:9,next:5475,str:6363,d0:0,d1:0;
-                    ("ai_current_squad", VariableAccess<AI> @:5475 op:19,dt:19,nt:13,next:65535,str:6372,d0:33563,d1:65535;))))))
+("cs_e6_pro_phantom0_exit", MethodDecl<Void> @:147 check:0,op:0,dt:0,nt:65535,next:5476,nextCheck:63703,str:11183,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5476 check:63703,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:2095,h:1,d0:5477,d1:63704;
+        ("begin", Expression<MethodOrOperator> @:5477 check:63704,op:0,dt:2,nt:9,next:5463,nextCheck:63690,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5463 check:63690,op:381,dt:4,nt:8,next:5467,nextCheck:63694,str:2144,h:1,d0:5464,d1:63691;
+                ("cs_fly_to_and_face", Expression<MethodOrOperator> @:5464 check:63691,op:381,dt:2,nt:9,next:5465,nextCheck:63692,str:10706,h:0,d0:0,d1:0;
+                    ("e6_pro_phantom0_exit/p0", Expression<SpatialPoint> @:5465 check:63692,op:28,dt:28,nt:9,next:5466,nextCheck:63693,str:10942,h:0,d0:0,d1:14;
+                        ("e6_pro_phantom0_exit/p1", Expression<SpatialPoint> @:5466 check:63693,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:10966,h:0,d0:1,d1:14;))))
+            (____, BuiltinInvocation<Void> @:5467 check:63694,op:438,dt:4,nt:8,next:5470,nextCheck:63697,str:2215,h:1,d0:5468,d1:63695;
+                ("cs_vehicle_boost", Expression<MethodOrOperator> @:5468 check:63695,op:438,dt:2,nt:9,next:5469,nextCheck:63696,str:10637,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:5469 check:63696,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:2233,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5470 check:63697,op:379,dt:4,nt:8,next:5473,nextCheck:63700,str:2241,h:1,d0:5471,d1:63698;
+                ("cs_fly_to", Expression<MethodOrOperator> @:5471 check:63698,op:379,dt:2,nt:9,next:5472,nextCheck:63699,str:6106,h:0,d0:0,d1:0;
+                    ("e6_pro_phantom0_exit/p1", Expression<SpatialPoint> @:5472 check:63699,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:10966,h:0,d0:1,d1:14;)))
+            (____, BuiltinInvocation<Void> @:5473 check:63700,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:2279,h:1,d0:5474,d1:63701;
+                ("ai_erase", Expression<MethodOrOperator> @:5474 check:63701,op:298,dt:2,nt:9,next:5475,nextCheck:63702,str:6363,h:0,d0:0,d1:0;
+                    ("ai_current_squad", VariableAccess<AI> @:5475 check:63702,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:6372,h:0,d0:33563,d1:65535;))))))

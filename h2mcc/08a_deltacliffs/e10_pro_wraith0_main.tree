@@ -1,18 +1,18 @@
 
-("e10_pro_wraith0_main", MethodDecl<Void> @:104 op:0,dt:0,nt:65535,next:3455,str:8546,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3455 op:0,dt:4,nt:8,next:65535,str:41510,d0:3456,d1:61683;
-        ("begin", Expression<MethodOrOperator> @:3456 op:0,dt:2,nt:9,next:3441,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3441 op:290,dt:4,nt:8,next:3444,str:41549,d0:3442,d1:61669;
-                ("ai_place", Expression<MethodOrOperator> @:3442 op:290,dt:2,nt:9,next:3443,str:6964,d0:0,d1:0;
-                    ("e10_pro_wraith0", Expression<AI> @:3443 op:19,dt:19,nt:9,next:65535,str:7550,d0:37,d1:16384;)))
-            (____, BuiltinInvocation<Void> @:3444 op:21,dt:4,nt:8,next:3453,str:41624,d0:3445,d1:61672;
-                ("sleep_until", Expression<MethodOrOperator> @:3445 op:21,dt:2,nt:9,next:3446,str:294,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:3446 op:18,dt:5,nt:8,next:3452,str:41641,d0:3447,d1:61674;
-                        ("<=", Expression<MethodOrOperator> @:3447 op:18,dt:2,nt:9,next:3448,str:6041,d0:0,d1:0;
-                            (____, BuiltinInvocation<Short> @:3448 op:327,dt:7,nt:8,next:3451,str:41645,d0:3449,d1:61676;
-                                ("ai_living_count", Expression<MethodOrOperator> @:3449 op:327,dt:2,nt:9,next:3450,str:7534,d0:0,d1:0;
-                                    ("e10_pro_wraith0", Expression<AI> @:3450 op:19,dt:19,nt:9,next:65535,str:7550,d0:37,d1:16384;)))
-                            (0, Expression<Short> @:3451 op:7,dt:7,nt:9,next:65535,str:41679,d0:0,d1:65535;)))
-                    (15, Expression<Short> @:3452 op:7,dt:7,nt:9,next:65535,str:41686,d0:15,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3453 op:587,dt:4,nt:8,next:65535,str:41695,d0:3454,d1:61681;
-                ("game_save", Expression<MethodOrOperator> @:3454 op:587,dt:2,nt:9,next:65535,str:7417,d0:0,d1:0;)))))
+("e10_pro_wraith0_main", MethodDecl<Void> @:104 check:0,op:0,dt:0,nt:65535,next:3455,nextCheck:61682,str:8546,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3455 check:61682,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:41510,h:0,d0:3456,d1:61683;
+        ("begin", Expression<MethodOrOperator> @:3456 check:61683,op:0,dt:2,nt:9,next:3441,nextCheck:61668,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3441 check:61668,op:290,dt:4,nt:8,next:3444,nextCheck:61671,str:41549,h:0,d0:3442,d1:61669;
+                ("ai_place", Expression<MethodOrOperator> @:3442 check:61669,op:290,dt:2,nt:9,next:3443,nextCheck:61670,str:6964,h:0,d0:0,d1:0;
+                    ("e10_pro_wraith0", Expression<AI> @:3443 check:61670,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:7550,h:0,d0:37,d1:16384;)))
+            (____, BuiltinInvocation<Void> @:3444 check:61671,op:21,dt:4,nt:8,next:3453,nextCheck:61680,str:41624,h:0,d0:3445,d1:61672;
+                ("sleep_until", Expression<MethodOrOperator> @:3445 check:61672,op:21,dt:2,nt:9,next:3446,nextCheck:61673,str:294,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:3446 check:61673,op:18,dt:5,nt:8,next:3452,nextCheck:61679,str:41641,h:0,d0:3447,d1:61674;
+                        ("<=", Expression<MethodOrOperator> @:3447 check:61674,op:18,dt:2,nt:9,next:3448,nextCheck:61675,str:6041,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Short> @:3448 check:61675,op:327,dt:7,nt:8,next:3451,nextCheck:61678,str:41645,h:0,d0:3449,d1:61676;
+                                ("ai_living_count", Expression<MethodOrOperator> @:3449 check:61676,op:327,dt:2,nt:9,next:3450,nextCheck:61677,str:7534,h:0,d0:0,d1:0;
+                                    ("e10_pro_wraith0", Expression<AI> @:3450 check:61677,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:7550,h:0,d0:37,d1:16384;)))
+                            (0, Expression<Short> @:3451 check:61678,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:41679,h:0,d0:0,d1:65535;)))
+                    (15, Expression<Short> @:3452 check:61679,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:41686,h:0,d0:15,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3453 check:61680,op:587,dt:4,nt:8,next:65535,nextCheck:65535,str:41695,h:0,d0:3454,d1:61681;
+                ("game_save", Expression<MethodOrOperator> @:3454 check:61681,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:7417,h:0,d0:0,d1:0;)))))

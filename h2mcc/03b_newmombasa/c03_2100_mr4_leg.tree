@@ -1,16 +1,16 @@
 
-("c03_2100_mr4_leg", MethodDecl<Void> @:72 op:0,dt:0,nt:65535,next:2167,str:5996,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2167 op:0,dt:4,nt:8,next:65535,str:25792,d0:2168,d1:60395;
-        ("begin", Expression<MethodOrOperator> @:2168 op:0,dt:2,nt:9,next:2155,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2155 op:19,dt:4,nt:8,next:2158,str:25827,d0:2156,d1:60383;
-                ("sleep", Expression<MethodOrOperator> @:2156 op:19,dt:2,nt:9,next:2157,str:85,d0:0,d1:0;
-                    (102, Expression<Short> @:2157 op:7,dt:7,nt:9,next:65535,str:25834,d0:102,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2158 op:596,dt:4,nt:8,next:2163,str:25841,d0:2159,d1:60386;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:2159 op:596,dt:2,nt:9,next:2160,str:1368,d0:0,d1:0;
-                    ("sound\dialog\levels\03_earthcity\cinematic\c03_2100_mr4", Expression<Sound> @:2160 op:32,dt:32,nt:9,next:2161,str:5168,d0:646,d1:58364;
-                        (4294901843, Expression<Entity> @:2161 op:56,dt:50,nt:9,next:2162,str:1721,d0:83,d1:65535;
-                            (1f, Expression<Float> @:2162 op:6,dt:6,nt:9,next:65535,str:25928,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:2163 op:562,dt:4,nt:8,next:65535,str:25933,d0:2164,d1:60391;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:2164 op:562,dt:2,nt:9,next:2165,str:1634,d0:0,d1:0;
-                    ("c03_2100_mr4", Expression<StringId> @:2165 op:11,dt:11,nt:9,next:2166,str:5224,d0:3947,d1:3072;
-                        (1f, Expression<Float> @:2166 op:6,dt:6,nt:9,next:65535,str:25966,d0:0,d1:16256;)))))))
+("c03_2100_mr4_leg", MethodDecl<Void> @:72 check:0,op:0,dt:0,nt:65535,next:2167,nextCheck:60394,str:5996,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2167 check:60394,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:25792,h:0,d0:2168,d1:60395;
+        ("begin", Expression<MethodOrOperator> @:2168 check:60395,op:0,dt:2,nt:9,next:2155,nextCheck:60382,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2155 check:60382,op:19,dt:4,nt:8,next:2158,nextCheck:60385,str:25827,h:0,d0:2156,d1:60383;
+                ("sleep", Expression<MethodOrOperator> @:2156 check:60383,op:19,dt:2,nt:9,next:2157,nextCheck:60384,str:85,h:0,d0:0,d1:0;
+                    (102, Expression<Short> @:2157 check:60384,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:25834,h:0,d0:102,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2158 check:60385,op:596,dt:4,nt:8,next:2163,nextCheck:60390,str:25841,h:0,d0:2159,d1:60386;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:2159 check:60386,op:596,dt:2,nt:9,next:2160,nextCheck:60387,str:1368,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\03_earthcity\cinematic\c03_2100_mr4", Expression<Sound> @:2160 check:60387,op:32,dt:32,nt:9,next:2161,nextCheck:60388,str:5168,h:0,d0:646,d1:58364;
+                        (4294901843, Expression<Entity> @:2161 check:60388,op:56,dt:50,nt:9,next:2162,nextCheck:60389,str:1721,h:0,d0:83,d1:65535;
+                            (1f, Expression<Float> @:2162 check:60389,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:25928,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:2163 check:60390,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:25933,h:0,d0:2164,d1:60391;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:2164 check:60391,op:562,dt:2,nt:9,next:2165,nextCheck:60392,str:1634,h:0,d0:0,d1:0;
+                    ("c03_2100_mr4", Expression<StringId> @:2165 check:60392,op:11,dt:11,nt:9,next:2166,nextCheck:60393,str:5224,h:0,d0:3947,d1:3072;
+                        (1f, Expression<Float> @:2166 check:60393,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:25966,h:0,d0:0,d1:16256;)))))))

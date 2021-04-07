@@ -1,31 +1,31 @@
 
-("x03_emotion_02", MethodDecl<Void> @:114 op:0,dt:0,nt:65535,next:3765,str:9024,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3765 op:0,dt:4,nt:8,next:65535,str:45129,d0:3766,d1:61993;
-        ("begin", Expression<MethodOrOperator> @:3766 op:0,dt:2,nt:9,next:3738,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3738 op:220,dt:4,nt:8,next:3744,str:45164,d0:3739,d1:61966;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:3739 op:220,dt:2,nt:9,next:3740,str:1666,d0:0,d1:0;
-                    ("miranda", Expression<Unit> @:3740 op:57,dt:51,nt:9,next:3741,str:8483,d0:87,d1:65535;
-                        ("angry", Expression<StringId> @:3741 op:11,dt:11,nt:9,next:3742,str:1834,d0:430,d1:1280;
-                            (0.25f, Expression<Float> @:3742 op:6,dt:6,nt:9,next:3743,str:45204,d0:0,d1:16000;
-                                (0, Expression<Short> @:3743 op:7,dt:7,nt:9,next:65535,str:45208,d0:0,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:3744 op:27,dt:4,nt:8,next:3747,str:45213,d0:3745,d1:61972;
-                ("print", Expression<MethodOrOperator> @:3745 op:27,dt:2,nt:9,next:3746,str:91,d0:0,d1:0;
-                    ("miranda - angry .25 0", Expression<String> @:3746 op:9,dt:9,nt:9,next:65535,str:8917,d0:8917,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3747 op:220,dt:4,nt:8,next:3753,str:45250,d0:3748,d1:61975;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:3748 op:220,dt:2,nt:9,next:3749,str:1666,d0:0,d1:0;
-                    ("johnson", Expression<Unit> @:3749 op:57,dt:51,nt:9,next:3750,str:2319,d0:81,d1:65535;
-                        ("angry", Expression<StringId> @:3750 op:11,dt:11,nt:9,next:3751,str:1834,d0:430,d1:1280;
-                            (0.5f, Expression<Float> @:3751 op:6,dt:6,nt:9,next:3752,str:45290,d0:0,d1:16128;
-                                (0, Expression<Short> @:3752 op:7,dt:7,nt:9,next:65535,str:45293,d0:0,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:3753 op:27,dt:4,nt:8,next:3756,str:45298,d0:3754,d1:61981;
-                ("print", Expression<MethodOrOperator> @:3754 op:27,dt:2,nt:9,next:3755,str:91,d0:0,d1:0;
-                    ("johnson - angry .5 0", Expression<String> @:3755 op:9,dt:9,nt:9,next:65535,str:5613,d0:5613,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3756 op:220,dt:4,nt:8,next:3762,str:45334,d0:3757,d1:61984;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:3757 op:220,dt:2,nt:9,next:3758,str:1666,d0:0,d1:0;
-                    ("hood", Expression<Unit> @:3758 op:57,dt:51,nt:9,next:3759,str:8629,d0:86,d1:65535;
-                        ("angry", Expression<StringId> @:3759 op:11,dt:11,nt:9,next:3760,str:1834,d0:430,d1:1280;
-                            (0.25f, Expression<Float> @:3760 op:6,dt:6,nt:9,next:3761,str:45371,d0:0,d1:16000;
-                                (0, Expression<Short> @:3761 op:7,dt:7,nt:9,next:65535,str:45375,d0:0,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:3762 op:27,dt:4,nt:8,next:65535,str:45380,d0:3763,d1:61990;
-                ("print", Expression<MethodOrOperator> @:3763 op:27,dt:2,nt:9,next:3764,str:91,d0:0,d1:0;
-                    ("hood - angry .25 0", Expression<String> @:3764 op:9,dt:9,nt:9,next:65535,str:8939,d0:8939,d1:0;))))))
+("x03_emotion_02", MethodDecl<Void> @:114 check:0,op:0,dt:0,nt:65535,next:3765,nextCheck:61992,str:9024,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3765 check:61992,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:45129,h:0,d0:3766,d1:61993;
+        ("begin", Expression<MethodOrOperator> @:3766 check:61993,op:0,dt:2,nt:9,next:3738,nextCheck:61965,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3738 check:61965,op:220,dt:4,nt:8,next:3744,nextCheck:61971,str:45164,h:0,d0:3739,d1:61966;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:3739 check:61966,op:220,dt:2,nt:9,next:3740,nextCheck:61967,str:1666,h:0,d0:0,d1:0;
+                    ("miranda", Expression<Unit> @:3740 check:61967,op:57,dt:51,nt:9,next:3741,nextCheck:61968,str:8483,h:0,d0:87,d1:65535;
+                        ("angry", Expression<StringId> @:3741 check:61968,op:11,dt:11,nt:9,next:3742,nextCheck:61969,str:1834,h:0,d0:430,d1:1280;
+                            (0.25f, Expression<Float> @:3742 check:61969,op:6,dt:6,nt:9,next:3743,nextCheck:61970,str:45204,h:0,d0:0,d1:16000;
+                                (0, Expression<Short> @:3743 check:61970,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:45208,h:0,d0:0,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:3744 check:61971,op:27,dt:4,nt:8,next:3747,nextCheck:61974,str:45213,h:0,d0:3745,d1:61972;
+                ("print", Expression<MethodOrOperator> @:3745 check:61972,op:27,dt:2,nt:9,next:3746,nextCheck:61973,str:91,h:0,d0:0,d1:0;
+                    ("miranda - angry .25 0", Expression<String> @:3746 check:61973,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8917,h:0,d0:8917,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3747 check:61974,op:220,dt:4,nt:8,next:3753,nextCheck:61980,str:45250,h:0,d0:3748,d1:61975;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:3748 check:61975,op:220,dt:2,nt:9,next:3749,nextCheck:61976,str:1666,h:0,d0:0,d1:0;
+                    ("johnson", Expression<Unit> @:3749 check:61976,op:57,dt:51,nt:9,next:3750,nextCheck:61977,str:2319,h:0,d0:81,d1:65535;
+                        ("angry", Expression<StringId> @:3750 check:61977,op:11,dt:11,nt:9,next:3751,nextCheck:61978,str:1834,h:0,d0:430,d1:1280;
+                            (0.5f, Expression<Float> @:3751 check:61978,op:6,dt:6,nt:9,next:3752,nextCheck:61979,str:45290,h:0,d0:0,d1:16128;
+                                (0, Expression<Short> @:3752 check:61979,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:45293,h:0,d0:0,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:3753 check:61980,op:27,dt:4,nt:8,next:3756,nextCheck:61983,str:45298,h:0,d0:3754,d1:61981;
+                ("print", Expression<MethodOrOperator> @:3754 check:61981,op:27,dt:2,nt:9,next:3755,nextCheck:61982,str:91,h:0,d0:0,d1:0;
+                    ("johnson - angry .5 0", Expression<String> @:3755 check:61982,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:5613,h:0,d0:5613,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3756 check:61983,op:220,dt:4,nt:8,next:3762,nextCheck:61989,str:45334,h:0,d0:3757,d1:61984;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:3757 check:61984,op:220,dt:2,nt:9,next:3758,nextCheck:61985,str:1666,h:0,d0:0,d1:0;
+                    ("hood", Expression<Unit> @:3758 check:61985,op:57,dt:51,nt:9,next:3759,nextCheck:61986,str:8629,h:0,d0:86,d1:65535;
+                        ("angry", Expression<StringId> @:3759 check:61986,op:11,dt:11,nt:9,next:3760,nextCheck:61987,str:1834,h:0,d0:430,d1:1280;
+                            (0.25f, Expression<Float> @:3760 check:61987,op:6,dt:6,nt:9,next:3761,nextCheck:61988,str:45371,h:0,d0:0,d1:16000;
+                                (0, Expression<Short> @:3761 check:61988,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:45375,h:0,d0:0,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:3762 check:61989,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:45380,h:0,d0:3763,d1:61990;
+                ("print", Expression<MethodOrOperator> @:3763 check:61990,op:27,dt:2,nt:9,next:3764,nextCheck:61991,str:91,h:0,d0:0,d1:0;
+                    ("hood - angry .25 0", Expression<String> @:3764 check:61991,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8939,h:0,d0:8939,d1:0;))))))

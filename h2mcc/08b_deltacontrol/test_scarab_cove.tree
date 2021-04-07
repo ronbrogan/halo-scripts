@@ -1,23 +1,23 @@
 
-("test_scarab_cove", MethodDecl<Void> @:507 op:0,dt:0,nt:65535,next:20227,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:20227 op:0,dt:4,nt:8,next:65535,str:2388,d0:20228,d1:45688;
-        ("begin", Expression<MethodOrOperator> @:20228 op:0,dt:2,nt:9,next:20208,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:20208 op:105,dt:4,nt:8,next:20213,str:2427,d0:20209,d1:45669;
-                ("object_teleport", Expression<MethodOrOperator> @:20209 op:105,dt:2,nt:9,next:20210,str:5131,d0:0,d1:0;
-                    ("player0", ScriptInvocation<Entity> @:20210 op:0,dt:50,nt:10,next:20212,str:2444,d0:20211,d1:45671;
-                        ("player0", Expression<MethodOrOperator> @:20211 op:0,dt:2,nt:9,next:65535,str:607,d0:0,d1:0;))
-                    ("e2_test", Expression<LocationFlag> @:20212 op:14,dt:14,nt:9,next:65535,str:39784,d0:0,d1:0;)))
-            (____, BuiltinInvocation<Void> @:20213 op:2,dt:4,nt:8,next:20221,str:2465,d0:20214,d1:45674;
-                ("if", Expression<MethodOrOperator> @:20214 op:2,dt:2,nt:9,next:20215,str:461,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:20215 op:25,dt:5,nt:8,next:20218,str:2469,d0:20216,d1:45676;
-                        ("not", Expression<MethodOrOperator> @:20216 op:25,dt:2,nt:9,next:20217,str:402,d0:0,d1:0;
-                            ("g_e2_started", VariableAccess<Boolean> @:20217 op:5,dt:5,nt:13,next:65535,str:39584,d0:67,d1:0;)))
-                    (____, BuiltinInvocation<Void> @:20218 op:22,dt:4,nt:8,next:65535,str:2488,d0:20219,d1:45679;
-                        ("wake", Expression<MethodOrOperator> @:20219 op:22,dt:2,nt:9,next:20220,str:5851,d0:0,d1:0;
-                            ("e2_main", Expression<ScriptReference> @:20220 op:10,dt:10,nt:9,next:65535,str:39597,d0:506,d1:65535;)))))
-            (____, BuiltinInvocation<Void> @:20221 op:290,dt:4,nt:8,next:20224,str:2506,d0:20222,d1:45682;
-                ("ai_place", Expression<MethodOrOperator> @:20222 op:290,dt:2,nt:9,next:20223,str:5315,d0:0,d1:0;
-                    ("e2_cov_wraith0", Expression<AI> @:20223 op:19,dt:19,nt:9,next:65535,str:39520,d0:10,d1:0;)))
-            (____, BuiltinInvocation<Void> @:20224 op:290,dt:4,nt:8,next:65535,str:2534,d0:20225,d1:45685;
-                ("ai_place", Expression<MethodOrOperator> @:20225 op:290,dt:2,nt:9,next:20226,str:5315,d0:0,d1:0;
-                    ("e2_cov_spectre0", Expression<AI> @:20226 op:19,dt:19,nt:9,next:65535,str:39551,d0:11,d1:0;))))))
+("test_scarab_cove", MethodDecl<Void> @:507 check:0,op:0,dt:0,nt:65535,next:20227,nextCheck:45687,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:20227 check:45687,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:2388,h:4,d0:20228,d1:45688;
+        ("begin", Expression<MethodOrOperator> @:20228 check:45688,op:0,dt:2,nt:9,next:20208,nextCheck:45668,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:20208 check:45668,op:105,dt:4,nt:8,next:20213,nextCheck:45673,str:2427,h:4,d0:20209,d1:45669;
+                ("object_teleport", Expression<MethodOrOperator> @:20209 check:45669,op:105,dt:2,nt:9,next:20210,nextCheck:45670,str:5131,h:0,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:20210 check:45670,op:0,dt:50,nt:10,next:20212,nextCheck:45672,str:2444,h:4,d0:20211,d1:45671;
+                        ("player0", Expression<MethodOrOperator> @:20211 check:45671,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:607,h:0,d0:0,d1:0;))
+                    ("e2_test", Expression<LocationFlag> @:20212 check:45672,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:39784,h:0,d0:0,d1:0;)))
+            (____, BuiltinInvocation<Void> @:20213 check:45673,op:2,dt:4,nt:8,next:20221,nextCheck:45681,str:2465,h:4,d0:20214,d1:45674;
+                ("if", Expression<MethodOrOperator> @:20214 check:45674,op:2,dt:2,nt:9,next:20215,nextCheck:45675,str:461,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:20215 check:45675,op:25,dt:5,nt:8,next:20218,nextCheck:45678,str:2469,h:4,d0:20216,d1:45676;
+                        ("not", Expression<MethodOrOperator> @:20216 check:45676,op:25,dt:2,nt:9,next:20217,nextCheck:45677,str:402,h:0,d0:0,d1:0;
+                            ("g_e2_started", VariableAccess<Boolean> @:20217 check:45677,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:39584,h:0,d0:67,d1:0;)))
+                    (____, BuiltinInvocation<Void> @:20218 check:45678,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:2488,h:4,d0:20219,d1:45679;
+                        ("wake", Expression<MethodOrOperator> @:20219 check:45679,op:22,dt:2,nt:9,next:20220,nextCheck:45680,str:5851,h:0,d0:0,d1:0;
+                            ("e2_main", Expression<ScriptReference> @:20220 check:45680,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:39597,h:0,d0:506,d1:65535;)))))
+            (____, BuiltinInvocation<Void> @:20221 check:45681,op:290,dt:4,nt:8,next:20224,nextCheck:45684,str:2506,h:4,d0:20222,d1:45682;
+                ("ai_place", Expression<MethodOrOperator> @:20222 check:45682,op:290,dt:2,nt:9,next:20223,nextCheck:45683,str:5315,h:0,d0:0,d1:0;
+                    ("e2_cov_wraith0", Expression<AI> @:20223 check:45683,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:39520,h:0,d0:10,d1:0;)))
+            (____, BuiltinInvocation<Void> @:20224 check:45684,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:2534,h:4,d0:20225,d1:45685;
+                ("ai_place", Expression<MethodOrOperator> @:20225 check:45685,op:290,dt:2,nt:9,next:20226,nextCheck:45686,str:5315,h:0,d0:0,d1:0;
+                    ("e2_cov_spectre0", Expression<AI> @:20226 check:45686,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:39551,h:0,d0:11,d1:0;))))))

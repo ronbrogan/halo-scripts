@@ -1,12 +1,12 @@
 
-("music_04b_05_start", MethodDecl<Void> @:143 op:0,dt:0,nt:65535,next:4194,str:23906,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4194 op:0,dt:4,nt:8,next:65535,str:50304,d0:4195,d1:62422;
-        ("begin", Expression<MethodOrOperator> @:4195 op:0,dt:2,nt:9,next:4186,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4186 op:27,dt:4,nt:8,next:4189,str:50389,d0:4187,d1:62414;
-                ("print", Expression<MethodOrOperator> @:4187 op:27,dt:2,nt:9,next:4188,str:295,d0:0,d1:0;
-                    ("music 04b_05 start", Expression<String> @:4188 op:9,dt:9,nt:9,next:65535,str:10618,d0:10618,d1:0;)))
-            (____, BuiltinInvocation<Void> @:4189 op:605,dt:4,nt:8,next:65535,str:50420,d0:4190,d1:62417;
-                ("sound_looping_start", Expression<MethodOrOperator> @:4190 op:605,dt:2,nt:9,next:4191,str:10152,d0:0,d1:0;
-                    ("scenarios\solo\04b_floodlab\04b_music\04b_05", Expression<LoopingSound> @:4191 op:35,dt:35,nt:9,next:4192,str:10637,d0:6468,d1:64381;
-                        (4294967295, Expression<Entity> @:4192 op:50,dt:50,nt:9,next:4193,str:137,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:4193 op:6,dt:6,nt:9,next:65535,str:50493,d0:0,d1:16256;))))))))
+("music_04b_05_start", MethodDecl<Void> @:143 check:0,op:0,dt:0,nt:65535,next:4194,nextCheck:62421,str:23906,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4194 check:62421,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:50304,h:0,d0:4195,d1:62422;
+        ("begin", Expression<MethodOrOperator> @:4195 check:62422,op:0,dt:2,nt:9,next:4186,nextCheck:62413,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4186 check:62413,op:27,dt:4,nt:8,next:4189,nextCheck:62416,str:50389,h:0,d0:4187,d1:62414;
+                ("print", Expression<MethodOrOperator> @:4187 check:62414,op:27,dt:2,nt:9,next:4188,nextCheck:62415,str:295,h:0,d0:0,d1:0;
+                    ("music 04b_05 start", Expression<String> @:4188 check:62415,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:10618,h:0,d0:10618,d1:0;)))
+            (____, BuiltinInvocation<Void> @:4189 check:62416,op:605,dt:4,nt:8,next:65535,nextCheck:65535,str:50420,h:0,d0:4190,d1:62417;
+                ("sound_looping_start", Expression<MethodOrOperator> @:4190 check:62417,op:605,dt:2,nt:9,next:4191,nextCheck:62418,str:10152,h:0,d0:0,d1:0;
+                    ("scenarios\solo\04b_floodlab\04b_music\04b_05", Expression<LoopingSound> @:4191 check:62418,op:35,dt:35,nt:9,next:4192,nextCheck:62419,str:10637,h:0,d0:6468,d1:64381;
+                        (4294967295, Expression<Entity> @:4192 check:62419,op:50,dt:50,nt:9,next:4193,nextCheck:62420,str:137,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:4193 check:62420,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:50493,h:0,d0:0,d1:16256;))))))))

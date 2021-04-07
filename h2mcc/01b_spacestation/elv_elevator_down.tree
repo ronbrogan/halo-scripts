@@ -1,9 +1,9 @@
 
-("elv_elevator_down", MethodDecl<Boolean> @:373 op:0,dt:0,nt:65535,next:17425,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Boolean> @:17425 op:0,dt:5,nt:8,next:65535,str:14039,d0:17426,d1:42886;
-        ("begin", Expression<MethodOrOperator> @:17426 op:0,dt:2,nt:9,next:17420,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Boolean> @:17420 op:34,dt:5,nt:8,next:65535,str:14082,d0:17421,d1:42881;
-                ("volume_test_objects_all", Expression<MethodOrOperator> @:17421 op:34,dt:2,nt:9,next:17422,str:38717,d0:0,d1:0;
-                    ("tv_elevator", Expression<Trigger> @:17422 op:13,dt:13,nt:9,next:17423,str:40301,d0:23,d1:0;
-                        (____, BuiltinInvocation<List> @:17423 op:28,dt:31,nt:8,next:65535,str:14119,d0:17424,d1:42884;
-                            ("players", Expression<MethodOrOperator> @:17424 op:28,dt:2,nt:9,next:65535,str:31,d0:0,d1:0;))))))))
+("elv_elevator_down", MethodDecl<Boolean> @:373 check:0,op:0,dt:0,nt:65535,next:17425,nextCheck:42885,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Boolean> @:17425 check:42885,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:14039,h:3,d0:17426,d1:42886;
+        ("begin", Expression<MethodOrOperator> @:17426 check:42886,op:0,dt:2,nt:9,next:17420,nextCheck:42880,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Boolean> @:17420 check:42880,op:34,dt:5,nt:8,next:65535,nextCheck:65535,str:14082,h:3,d0:17421,d1:42881;
+                ("volume_test_objects_all", Expression<MethodOrOperator> @:17421 check:42881,op:34,dt:2,nt:9,next:17422,nextCheck:42882,str:38717,h:0,d0:0,d1:0;
+                    ("tv_elevator", Expression<Trigger> @:17422 check:42882,op:13,dt:13,nt:9,next:17423,nextCheck:42883,str:40301,h:0,d0:23,d1:0;
+                        (____, BuiltinInvocation<List> @:17423 check:42883,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:14119,h:3,d0:17424,d1:42884;
+                            ("players", Expression<MethodOrOperator> @:17424 check:42884,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:31,h:0,d0:0,d1:0;))))))))

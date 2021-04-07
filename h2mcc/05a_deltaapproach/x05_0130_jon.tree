@@ -1,25 +1,25 @@
 
-("x05_0130_jon", MethodDecl<Void> @:70 op:0,dt:0,nt:65535,next:2175,str:5337,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2175 op:0,dt:4,nt:8,next:65535,str:25314,d0:2176,d1:60403;
-        ("begin", Expression<MethodOrOperator> @:2176 op:0,dt:2,nt:9,next:2154,str:54,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2154 op:19,dt:4,nt:8,next:2157,str:25345,d0:2155,d1:60382;
-                ("sleep", Expression<MethodOrOperator> @:2155 op:19,dt:2,nt:9,next:2156,str:133,d0:0,d1:0;
-                    (12, Expression<Short> @:2156 op:7,dt:7,nt:9,next:65535,str:25352,d0:12,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2157 op:596,dt:4,nt:8,next:2162,str:25358,d0:2158,d1:60385;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:2158 op:596,dt:2,nt:9,next:2159,str:1321,d0:0,d1:0;
-                    ("sound\dialog\levels\05_deltatemple\cinematics\x05_0130_jon", Expression<Sound> @:2159 op:32,dt:32,nt:9,next:2160,str:5278,d0:952,d1:58670;
-                        (4294901832, Expression<Entity> @:2160 op:56,dt:50,nt:9,next:2161,str:3267,d0:72,d1:65535;
-                            (1f, Expression<Float> @:2161 op:6,dt:6,nt:9,next:65535,str:25446,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:2162 op:562,dt:4,nt:8,next:2166,str:25451,d0:2163,d1:60390;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:2163 op:562,dt:2,nt:9,next:2164,str:2567,d0:0,d1:0;
-                    ("x05_0130_jon", Expression<StringId> @:2164 op:11,dt:11,nt:9,next:2165,str:5337,d0:5072,d1:3072;
-                        (1f, Expression<Float> @:2165 op:6,dt:6,nt:9,next:65535,str:25484,d0:0,d1:16256;))))
-            (____, BuiltinInvocation<Void> @:2166 op:220,dt:4,nt:8,next:2172,str:25492,d0:2167,d1:60394;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2167 op:220,dt:2,nt:9,next:2168,str:2599,d0:0,d1:0;
-                    ("johnson", Expression<Unit> @:2168 op:57,dt:51,nt:9,next:2169,str:3267,d0:72,d1:65535;
-                        ("shocked", Expression<StringId> @:2169 op:11,dt:11,nt:9,next:2170,str:2624,d0:426,d1:1792;
-                            (0.75f, Expression<Float> @:2170 op:6,dt:6,nt:9,next:2171,str:25534,d0:0,d1:16192;
-                                (10, Expression<Short> @:2171 op:7,dt:7,nt:9,next:65535,str:25538,d0:10,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:2172 op:27,dt:4,nt:8,next:65535,str:25544,d0:2173,d1:60400;
-                ("print", Expression<MethodOrOperator> @:2173 op:27,dt:2,nt:9,next:2174,str:139,d0:0,d1:0;
-                    ("johnson - shocked .75 10", Expression<String> @:2174 op:9,dt:9,nt:9,next:65535,str:5350,d0:5350,d1:0;))))))
+("x05_0130_jon", MethodDecl<Void> @:70 check:0,op:0,dt:0,nt:65535,next:2175,nextCheck:60402,str:5337,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2175 check:60402,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:25314,h:0,d0:2176,d1:60403;
+        ("begin", Expression<MethodOrOperator> @:2176 check:60403,op:0,dt:2,nt:9,next:2154,nextCheck:60381,str:54,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2154 check:60381,op:19,dt:4,nt:8,next:2157,nextCheck:60384,str:25345,h:0,d0:2155,d1:60382;
+                ("sleep", Expression<MethodOrOperator> @:2155 check:60382,op:19,dt:2,nt:9,next:2156,nextCheck:60383,str:133,h:0,d0:0,d1:0;
+                    (12, Expression<Short> @:2156 check:60383,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:25352,h:0,d0:12,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2157 check:60384,op:596,dt:4,nt:8,next:2162,nextCheck:60389,str:25358,h:0,d0:2158,d1:60385;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:2158 check:60385,op:596,dt:2,nt:9,next:2159,nextCheck:60386,str:1321,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\05_deltatemple\cinematics\x05_0130_jon", Expression<Sound> @:2159 check:60386,op:32,dt:32,nt:9,next:2160,nextCheck:60387,str:5278,h:0,d0:952,d1:58670;
+                        (4294901832, Expression<Entity> @:2160 check:60387,op:56,dt:50,nt:9,next:2161,nextCheck:60388,str:3267,h:0,d0:72,d1:65535;
+                            (1f, Expression<Float> @:2161 check:60388,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:25446,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:2162 check:60389,op:562,dt:4,nt:8,next:2166,nextCheck:60393,str:25451,h:0,d0:2163,d1:60390;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:2163 check:60390,op:562,dt:2,nt:9,next:2164,nextCheck:60391,str:2567,h:0,d0:0,d1:0;
+                    ("x05_0130_jon", Expression<StringId> @:2164 check:60391,op:11,dt:11,nt:9,next:2165,nextCheck:60392,str:5337,h:0,d0:5072,d1:3072;
+                        (1f, Expression<Float> @:2165 check:60392,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:25484,h:0,d0:0,d1:16256;))))
+            (____, BuiltinInvocation<Void> @:2166 check:60393,op:220,dt:4,nt:8,next:2172,nextCheck:60399,str:25492,h:0,d0:2167,d1:60394;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2167 check:60394,op:220,dt:2,nt:9,next:2168,nextCheck:60395,str:2599,h:0,d0:0,d1:0;
+                    ("johnson", Expression<Unit> @:2168 check:60395,op:57,dt:51,nt:9,next:2169,nextCheck:60396,str:3267,h:0,d0:72,d1:65535;
+                        ("shocked", Expression<StringId> @:2169 check:60396,op:11,dt:11,nt:9,next:2170,nextCheck:60397,str:2624,h:0,d0:426,d1:1792;
+                            (0.75f, Expression<Float> @:2170 check:60397,op:6,dt:6,nt:9,next:2171,nextCheck:60398,str:25534,h:0,d0:0,d1:16192;
+                                (10, Expression<Short> @:2171 check:60398,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:25538,h:0,d0:10,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:2172 check:60399,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:25544,h:0,d0:2173,d1:60400;
+                ("print", Expression<MethodOrOperator> @:2173 check:60400,op:27,dt:2,nt:9,next:2174,nextCheck:60401,str:139,h:0,d0:0,d1:0;
+                    ("johnson - shocked .75 10", Expression<String> @:2174 check:60401,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:5350,h:0,d0:5350,d1:0;))))))

@@ -1,15 +1,15 @@
 
-("cortana_disappear", MethodDecl<Void> @:63 op:0,dt:0,nt:65535,next:1835,str:5398,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:1835 op:0,dt:4,nt:8,next:65535,str:21693,d0:1836,d1:60063;
-        ("begin", Expression<MethodOrOperator> @:1836 op:0,dt:2,nt:9,next:1824,str:142,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:1824 op:19,dt:4,nt:8,next:1827,str:21729,d0:1825,d1:60052;
-                ("sleep", Expression<MethodOrOperator> @:1825 op:19,dt:2,nt:9,next:1826,str:221,d0:0,d1:0;
-                    (35, Expression<Short> @:1826 op:7,dt:7,nt:9,next:65535,str:21736,d0:35,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1827 op:27,dt:4,nt:8,next:1830,str:21742,d0:1828,d1:60055;
-                ("print", Expression<MethodOrOperator> @:1828 op:27,dt:2,nt:9,next:1829,str:227,d0:0,d1:0;
-                    ("cortana disappears", Expression<String> @:1829 op:9,dt:9,nt:9,next:65535,str:5329,d0:5329,d1:0;)))
-            (____, BuiltinInvocation<Void> @:1830 op:41,dt:4,nt:8,next:65535,str:21774,d0:1831,d1:60058;
-                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:1831 op:41,dt:2,nt:9,next:1832,str:2384,d0:0,d1:0;
-                    ("effects\objects\characters\cortana\cortana_on_off", Expression<Effect> @:1832 op:33,dt:33,nt:9,next:1833,str:2412,d0:871,d1:58589;
-                        (4294901827, Expression<Entity> @:1833 op:56,dt:50,nt:9,next:1834,str:2462,d0:67,d1:65535;
-                            ("marker", Expression<StringId> @:1834 op:11,dt:11,nt:9,next:65535,str:2475,d0:5248,d1:1536;))))))))
+("cortana_disappear", MethodDecl<Void> @:63 check:0,op:0,dt:0,nt:65535,next:1835,nextCheck:60062,str:5398,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:1835 check:60062,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:21693,h:0,d0:1836,d1:60063;
+        ("begin", Expression<MethodOrOperator> @:1836 check:60063,op:0,dt:2,nt:9,next:1824,nextCheck:60051,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1824 check:60051,op:19,dt:4,nt:8,next:1827,nextCheck:60054,str:21729,h:0,d0:1825,d1:60052;
+                ("sleep", Expression<MethodOrOperator> @:1825 check:60052,op:19,dt:2,nt:9,next:1826,nextCheck:60053,str:221,h:0,d0:0,d1:0;
+                    (35, Expression<Short> @:1826 check:60053,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:21736,h:0,d0:35,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1827 check:60054,op:27,dt:4,nt:8,next:1830,nextCheck:60057,str:21742,h:0,d0:1828,d1:60055;
+                ("print", Expression<MethodOrOperator> @:1828 check:60055,op:27,dt:2,nt:9,next:1829,nextCheck:60056,str:227,h:0,d0:0,d1:0;
+                    ("cortana disappears", Expression<String> @:1829 check:60056,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:5329,h:0,d0:5329,d1:0;)))
+            (____, BuiltinInvocation<Void> @:1830 check:60057,op:41,dt:4,nt:8,next:65535,nextCheck:65535,str:21774,h:0,d0:1831,d1:60058;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:1831 check:60058,op:41,dt:2,nt:9,next:1832,nextCheck:60059,str:2384,h:0,d0:0,d1:0;
+                    ("effects\objects\characters\cortana\cortana_on_off", Expression<Effect> @:1832 check:60059,op:33,dt:33,nt:9,next:1833,nextCheck:60060,str:2412,h:0,d0:871,d1:58589;
+                        (4294901827, Expression<Entity> @:1833 check:60060,op:56,dt:50,nt:9,next:1834,nextCheck:60061,str:2462,h:0,d0:67,d1:65535;
+                            ("marker", Expression<StringId> @:1834 check:60061,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:2475,h:0,d0:5248,d1:1536;))))))))

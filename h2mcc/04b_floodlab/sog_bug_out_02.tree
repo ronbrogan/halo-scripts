@@ -1,16 +1,16 @@
 
-("sog_bug_out_02", MethodDecl<Void> @:241 op:0,dt:0,nt:65535,next:11006,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:11006 op:0,dt:4,nt:8,next:65535,str:52524,d0:11007,d1:36467;
-        ("begin", Expression<MethodOrOperator> @:11007 op:0,dt:2,nt:9,next:10994,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:10994 op:449,dt:4,nt:8,next:10997,str:52564,d0:10995,d1:36455;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:10995 op:449,dt:2,nt:9,next:10996,str:11827,d0:0,d1:0;
-                    (True, Expression<Boolean> @:10996 op:5,dt:5,nt:9,next:65535,str:52596,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10997 op:442,dt:4,nt:8,next:11000,str:52604,d0:10998,d1:36458;
-                ("cs_enable_targeting", Expression<MethodOrOperator> @:10998 op:442,dt:2,nt:9,next:10999,str:12454,d0:0,d1:0;
-                    (True, Expression<Boolean> @:10999 op:5,dt:5,nt:9,next:65535,str:52625,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:11000 op:404,dt:4,nt:8,next:11003,str:52633,d0:11001,d1:36461;
-                ("cs_shoot", Expression<MethodOrOperator> @:11001 op:404,dt:2,nt:9,next:11002,str:12277,d0:0,d1:0;
-                    (True, Expression<Boolean> @:11002 op:5,dt:5,nt:9,next:65535,str:52643,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:11003 op:385,dt:4,nt:8,next:65535,str:52651,d0:11004,d1:36464;
-                ("cs_go_to", Expression<MethodOrOperator> @:11004 op:385,dt:2,nt:9,next:11005,str:11858,d0:0,d1:0;
-                    ("bridge/p4", Expression<SpatialPoint> @:11005 op:28,dt:28,nt:9,next:65535,str:21791,d0:5,d1:3;))))))
+("sog_bug_out_02", MethodDecl<Void> @:241 check:0,op:0,dt:0,nt:65535,next:11006,nextCheck:36466,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:11006 check:36466,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:52524,h:1,d0:11007,d1:36467;
+        ("begin", Expression<MethodOrOperator> @:11007 check:36467,op:0,dt:2,nt:9,next:10994,nextCheck:36454,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:10994 check:36454,op:449,dt:4,nt:8,next:10997,nextCheck:36457,str:52564,h:1,d0:10995,d1:36455;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:10995 check:36455,op:449,dt:2,nt:9,next:10996,nextCheck:36456,str:11827,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10996 check:36456,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:52596,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10997 check:36457,op:442,dt:4,nt:8,next:11000,nextCheck:36460,str:52604,h:1,d0:10998,d1:36458;
+                ("cs_enable_targeting", Expression<MethodOrOperator> @:10998 check:36458,op:442,dt:2,nt:9,next:10999,nextCheck:36459,str:12454,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10999 check:36459,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:52625,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:11000 check:36460,op:404,dt:4,nt:8,next:11003,nextCheck:36463,str:52633,h:1,d0:11001,d1:36461;
+                ("cs_shoot", Expression<MethodOrOperator> @:11001 check:36461,op:404,dt:2,nt:9,next:11002,nextCheck:36462,str:12277,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11002 check:36462,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:52643,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:11003 check:36463,op:385,dt:4,nt:8,next:65535,nextCheck:65535,str:52651,h:1,d0:11004,d1:36464;
+                ("cs_go_to", Expression<MethodOrOperator> @:11004 check:36464,op:385,dt:2,nt:9,next:11005,nextCheck:36465,str:11858,h:0,d0:0,d1:0;
+                    ("bridge/p4", Expression<SpatialPoint> @:11005 check:36465,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:21791,h:0,d0:5,d1:3;))))))

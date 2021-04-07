@@ -1,26 +1,26 @@
 
-("effect_drone_activate", MethodDecl<Void> @:86 op:0,dt:0,nt:65535,next:2696,str:7509,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2696 op:0,dt:4,nt:8,next:65535,str:31882,d0:2697,d1:60924;
-        ("begin", Expression<MethodOrOperator> @:2697 op:0,dt:2,nt:9,next:2674,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2674 op:19,dt:4,nt:8,next:2677,str:31922,d0:2675,d1:60902;
-                ("sleep", Expression<MethodOrOperator> @:2675 op:19,dt:2,nt:9,next:2676,str:289,d0:0,d1:0;
-                    (162, Expression<Short> @:2676 op:7,dt:7,nt:9,next:65535,str:31929,d0:162,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2677 op:41,dt:4,nt:8,next:2682,str:31936,d0:2678,d1:60905;
-                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:2678 op:41,dt:2,nt:9,next:2679,str:7070,d0:0,d1:0;
-                    ("effects\scenarios\objects\solo\alphagasgiant\holo_drone\drone_activate", Expression<Effect> @:2679 op:33,dt:33,nt:9,next:2680,str:7098,d0:1353,d1:59071;
-                        (4294901762, Expression<Entity> @:2680 op:56,dt:50,nt:9,next:2681,str:7169,d0:2,d1:65535;
-                            ("light", Expression<StringId> @:2681 op:11,dt:11,nt:9,next:65535,str:7182,d0:4569,d1:1280;)))))
-            (____, BuiltinInvocation<Void> @:2682 op:27,dt:4,nt:8,next:2685,str:32060,d0:2683,d1:60910;
-                ("print", Expression<MethodOrOperator> @:2683 op:27,dt:2,nt:9,next:2684,str:295,d0:0,d1:0;
-                    ("effect - drone 1", Expression<String> @:2684 op:9,dt:9,nt:9,next:65535,str:7188,d0:7188,d1:0;)))
-            (____, BuiltinInvocation<Void> @:2685 op:19,dt:4,nt:8,next:2688,str:32089,d0:2686,d1:60913;
-                ("sleep", Expression<MethodOrOperator> @:2686 op:19,dt:2,nt:9,next:2687,str:289,d0:0,d1:0;
-                    (13, Expression<Short> @:2687 op:7,dt:7,nt:9,next:65535,str:32096,d0:13,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2688 op:41,dt:4,nt:8,next:2693,str:32102,d0:2689,d1:60916;
-                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:2689 op:41,dt:2,nt:9,next:2690,str:7070,d0:0,d1:0;
-                    ("effects\scenarios\objects\solo\alphagasgiant\holo_drone\drone_activate", Expression<Effect> @:2690 op:33,dt:33,nt:9,next:2691,str:7098,d0:1353,d1:59071;
-                        (4294901761, Expression<Entity> @:2691 op:56,dt:50,nt:9,next:2692,str:7205,d0:1,d1:65535;
-                            ("light", Expression<StringId> @:2692 op:11,dt:11,nt:9,next:65535,str:7182,d0:4569,d1:1280;)))))
-            (____, BuiltinInvocation<Void> @:2693 op:27,dt:4,nt:8,next:65535,str:32226,d0:2694,d1:60921;
-                ("print", Expression<MethodOrOperator> @:2694 op:27,dt:2,nt:9,next:2695,str:295,d0:0,d1:0;
-                    ("effect - drone 2", Expression<String> @:2695 op:9,dt:9,nt:9,next:65535,str:7218,d0:7218,d1:0;))))))
+("effect_drone_activate", MethodDecl<Void> @:86 check:0,op:0,dt:0,nt:65535,next:2696,nextCheck:60923,str:7509,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2696 check:60923,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:31882,h:0,d0:2697,d1:60924;
+        ("begin", Expression<MethodOrOperator> @:2697 check:60924,op:0,dt:2,nt:9,next:2674,nextCheck:60901,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2674 check:60901,op:19,dt:4,nt:8,next:2677,nextCheck:60904,str:31922,h:0,d0:2675,d1:60902;
+                ("sleep", Expression<MethodOrOperator> @:2675 check:60902,op:19,dt:2,nt:9,next:2676,nextCheck:60903,str:289,h:0,d0:0,d1:0;
+                    (162, Expression<Short> @:2676 check:60903,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:31929,h:0,d0:162,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2677 check:60904,op:41,dt:4,nt:8,next:2682,nextCheck:60909,str:31936,h:0,d0:2678,d1:60905;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:2678 check:60905,op:41,dt:2,nt:9,next:2679,nextCheck:60906,str:7070,h:0,d0:0,d1:0;
+                    ("effects\scenarios\objects\solo\alphagasgiant\holo_drone\drone_activate", Expression<Effect> @:2679 check:60906,op:33,dt:33,nt:9,next:2680,nextCheck:60907,str:7098,h:0,d0:1353,d1:59071;
+                        (4294901762, Expression<Entity> @:2680 check:60907,op:56,dt:50,nt:9,next:2681,nextCheck:60908,str:7169,h:0,d0:2,d1:65535;
+                            ("light", Expression<StringId> @:2681 check:60908,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:7182,h:0,d0:4569,d1:1280;)))))
+            (____, BuiltinInvocation<Void> @:2682 check:60909,op:27,dt:4,nt:8,next:2685,nextCheck:60912,str:32060,h:0,d0:2683,d1:60910;
+                ("print", Expression<MethodOrOperator> @:2683 check:60910,op:27,dt:2,nt:9,next:2684,nextCheck:60911,str:295,h:0,d0:0,d1:0;
+                    ("effect - drone 1", Expression<String> @:2684 check:60911,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:7188,h:0,d0:7188,d1:0;)))
+            (____, BuiltinInvocation<Void> @:2685 check:60912,op:19,dt:4,nt:8,next:2688,nextCheck:60915,str:32089,h:0,d0:2686,d1:60913;
+                ("sleep", Expression<MethodOrOperator> @:2686 check:60913,op:19,dt:2,nt:9,next:2687,nextCheck:60914,str:289,h:0,d0:0,d1:0;
+                    (13, Expression<Short> @:2687 check:60914,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:32096,h:0,d0:13,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2688 check:60915,op:41,dt:4,nt:8,next:2693,nextCheck:60920,str:32102,h:0,d0:2689,d1:60916;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:2689 check:60916,op:41,dt:2,nt:9,next:2690,nextCheck:60917,str:7070,h:0,d0:0,d1:0;
+                    ("effects\scenarios\objects\solo\alphagasgiant\holo_drone\drone_activate", Expression<Effect> @:2690 check:60917,op:33,dt:33,nt:9,next:2691,nextCheck:60918,str:7098,h:0,d0:1353,d1:59071;
+                        (4294901761, Expression<Entity> @:2691 check:60918,op:56,dt:50,nt:9,next:2692,nextCheck:60919,str:7205,h:0,d0:1,d1:65535;
+                            ("light", Expression<StringId> @:2692 check:60919,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:7182,h:0,d0:4569,d1:1280;)))))
+            (____, BuiltinInvocation<Void> @:2693 check:60920,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:32226,h:0,d0:2694,d1:60921;
+                ("print", Expression<MethodOrOperator> @:2694 check:60921,op:27,dt:2,nt:9,next:2695,nextCheck:60922,str:295,h:0,d0:0,d1:0;
+                    ("effect - drone 2", Expression<String> @:2695 check:60922,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:7218,h:0,d0:7218,d1:0;))))))

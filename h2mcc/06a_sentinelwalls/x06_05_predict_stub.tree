@@ -1,7 +1,7 @@
 
-("x06_05_predict_stub", MethodDecl<Void> @:29 op:0,dt:0,nt:65535,next:22643,str:6356,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:22643 op:0,dt:4,nt:8,next:65535,str:40559,d0:22644,d1:48104;
-        ("begin", Expression<MethodOrOperator> @:22644 op:0,dt:2,nt:9,next:22640,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:22640 op:22,dt:4,nt:8,next:65535,str:40601,d0:22641,d1:48101;
-                ("wake", Expression<MethodOrOperator> @:22641 op:22,dt:2,nt:9,next:22642,str:1066,d0:0,d1:0;
-                    ("x06_05_predict", Expression<ScriptReference> @:22642 op:10,dt:10,nt:9,next:65535,str:1148,d0:381,d1:65535;))))))
+("x06_05_predict_stub", MethodDecl<Void> @:29 check:0,op:0,dt:0,nt:65535,next:22643,nextCheck:48103,str:6356,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:22643 check:48103,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:40559,h:3,d0:22644,d1:48104;
+        ("begin", Expression<MethodOrOperator> @:22644 check:48104,op:0,dt:2,nt:9,next:22640,nextCheck:48100,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:22640 check:48100,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:40601,h:3,d0:22641,d1:48101;
+                ("wake", Expression<MethodOrOperator> @:22641 check:48101,op:22,dt:2,nt:9,next:22642,nextCheck:48102,str:1066,h:0,d0:0,d1:0;
+                    ("x06_05_predict", Expression<ScriptReference> @:22642 check:48102,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:1148,h:0,d0:381,d1:65535;))))))

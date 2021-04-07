@@ -1,17 +1,17 @@
 
-("silo_rot_90_plus", MethodDecl<Void> @:186 op:0,dt:0,nt:65535,next:6527,str:16531,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6527 op:0,dt:4,nt:8,next:65535,str:9500,d0:6528,d1:64755;
-        ("begin", Expression<MethodOrOperator> @:6528 op:0,dt:2,nt:9,next:6514,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6514 op:266,dt:4,nt:8,next:6519,str:9539,d0:6515,d1:64742;
-                ("device_set_position_track", Expression<MethodOrOperator> @:6515 op:266,dt:2,nt:9,next:6516,str:15363,d0:0,d1:0;
-                    ("elev_silo", Expression<Device> @:6516 op:60,dt:54,nt:9,next:6517,str:15218,d0:385,d1:65535;
-                        ("rot_90_clockwise", Expression<StringId> @:6517 op:11,dt:11,nt:9,next:6518,str:15449,d0:11717,d1:4096;
-                            (0f, Expression<Float> @:6518 op:6,dt:6,nt:9,next:65535,str:9593,d0:0,d1:0;)))))
-            (____, BuiltinInvocation<Void> @:6519 op:268,dt:4,nt:8,next:65535,str:9598,d0:6520,d1:64747;
-                ("device_animate_position", Expression<MethodOrOperator> @:6520 op:268,dt:2,nt:9,next:6521,str:15398,d0:0,d1:0;
-                    ("elev_silo", Expression<Device> @:6521 op:60,dt:54,nt:9,next:6522,str:15218,d0:385,d1:65535;
-                        (1f, Expression<Float> @:6522 op:6,dt:6,nt:9,next:6523,str:9633,d0:0,d1:16256;
-                            (5f, Expression<Float> @:6523 op:6,dt:6,nt:9,next:6524,str:9635,d0:0,d1:16544;
-                                (1f, Expression<Float> @:6524 op:6,dt:6,nt:9,next:6525,str:9637,d0:0,d1:16256;
-                                    (1f, Expression<Float> @:6525 op:6,dt:6,nt:9,next:6526,str:9639,d0:0,d1:16256;
-                                        (False, Expression<Boolean> @:6526 op:5,dt:5,nt:9,next:65535,str:9641,d0:65280,d1:65535;)))))))))))
+("silo_rot_90_plus", MethodDecl<Void> @:186 check:0,op:0,dt:0,nt:65535,next:6527,nextCheck:64754,str:16531,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6527 check:64754,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9500,h:1,d0:6528,d1:64755;
+        ("begin", Expression<MethodOrOperator> @:6528 check:64755,op:0,dt:2,nt:9,next:6514,nextCheck:64741,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6514 check:64741,op:266,dt:4,nt:8,next:6519,nextCheck:64746,str:9539,h:1,d0:6515,d1:64742;
+                ("device_set_position_track", Expression<MethodOrOperator> @:6515 check:64742,op:266,dt:2,nt:9,next:6516,nextCheck:64743,str:15363,h:0,d0:0,d1:0;
+                    ("elev_silo", Expression<Device> @:6516 check:64743,op:60,dt:54,nt:9,next:6517,nextCheck:64744,str:15218,h:0,d0:385,d1:65535;
+                        ("rot_90_clockwise", Expression<StringId> @:6517 check:64744,op:11,dt:11,nt:9,next:6518,nextCheck:64745,str:15449,h:0,d0:11717,d1:4096;
+                            (0f, Expression<Float> @:6518 check:64745,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:9593,h:1,d0:0,d1:0;)))))
+            (____, BuiltinInvocation<Void> @:6519 check:64746,op:268,dt:4,nt:8,next:65535,nextCheck:65535,str:9598,h:1,d0:6520,d1:64747;
+                ("device_animate_position", Expression<MethodOrOperator> @:6520 check:64747,op:268,dt:2,nt:9,next:6521,nextCheck:64748,str:15398,h:0,d0:0,d1:0;
+                    ("elev_silo", Expression<Device> @:6521 check:64748,op:60,dt:54,nt:9,next:6522,nextCheck:64749,str:15218,h:0,d0:385,d1:65535;
+                        (1f, Expression<Float> @:6522 check:64749,op:6,dt:6,nt:9,next:6523,nextCheck:64750,str:9633,h:1,d0:0,d1:16256;
+                            (5f, Expression<Float> @:6523 check:64750,op:6,dt:6,nt:9,next:6524,nextCheck:64751,str:9635,h:1,d0:0,d1:16544;
+                                (1f, Expression<Float> @:6524 check:64751,op:6,dt:6,nt:9,next:6525,nextCheck:64752,str:9637,h:1,d0:0,d1:16256;
+                                    (1f, Expression<Float> @:6525 check:64752,op:6,dt:6,nt:9,next:6526,nextCheck:64753,str:9639,h:1,d0:0,d1:16256;
+                                        (False, Expression<Boolean> @:6526 check:64753,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9641,h:1,d0:65280,d1:65535;)))))))))))

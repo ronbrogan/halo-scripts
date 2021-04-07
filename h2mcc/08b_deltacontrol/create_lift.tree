@@ -1,25 +1,25 @@
 
-("create_lift", MethodDecl<Void> @:161 op:0,dt:0,nt:65535,next:6468,str:16261,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6468 op:0,dt:4,nt:8,next:65535,str:10006,d0:6469,d1:64696;
-        ("begin", Expression<MethodOrOperator> @:6469 op:0,dt:2,nt:9,next:6447,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6447 op:27,dt:4,nt:8,next:6450,str:10038,d0:6448,d1:64675;
-                ("print", Expression<MethodOrOperator> @:6448 op:27,dt:2,nt:9,next:6449,str:91,d0:0,d1:0;
-                    ("create lift", Expression<String> @:6449 op:9,dt:9,nt:9,next:65535,str:16171,d0:16171,d1:0;)))
-            (____, BuiltinInvocation<Void> @:6450 op:48,dt:4,nt:8,next:6453,str:10062,d0:6451,d1:64678;
-                ("object_create_anew", Expression<MethodOrOperator> @:6451 op:48,dt:2,nt:9,next:6452,str:8260,d0:0,d1:0;
-                    ("c08_intra3_lift", Expression<EntityIdentifier> @:6452 op:56,dt:56,nt:9,next:65535,str:16183,d0:68,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6453 op:60,dt:4,nt:8,next:6459,str:10101,d0:6454,d1:64681;
-                ("object_set_function_variable", Expression<MethodOrOperator> @:6454 op:60,dt:2,nt:9,next:6455,str:4956,d0:0,d1:0;
-                    (4294901828, Expression<Entity> @:6455 op:56,dt:50,nt:9,next:6456,str:16183,d0:68,d1:65535;
-                        ("effect", Expression<StringId> @:6456 op:11,dt:11,nt:9,next:6457,str:16199,d0:5263,d1:1536;
-                            (0f, Expression<Float> @:6457 op:6,dt:6,nt:9,next:6458,str:10156,d0:0,d1:0;
-                                (0f, Expression<Float> @:6458 op:6,dt:6,nt:9,next:65535,str:10158,d0:0,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:6459 op:19,dt:4,nt:8,next:6462,str:10163,d0:6460,d1:64687;
-                ("sleep", Expression<MethodOrOperator> @:6460 op:19,dt:2,nt:9,next:6461,str:85,d0:0,d1:0;
-                    (10, Expression<Short> @:6461 op:7,dt:7,nt:9,next:65535,str:10170,d0:10,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6462 op:60,dt:4,nt:8,next:65535,str:10176,d0:6463,d1:64690;
-                ("object_set_function_variable", Expression<MethodOrOperator> @:6463 op:60,dt:2,nt:9,next:6464,str:4956,d0:0,d1:0;
-                    (4294901828, Expression<Entity> @:6464 op:56,dt:50,nt:9,next:6465,str:16183,d0:68,d1:65535;
-                        ("effect", Expression<StringId> @:6465 op:11,dt:11,nt:9,next:6466,str:16199,d0:5263,d1:1536;
-                            (1f, Expression<Float> @:6466 op:6,dt:6,nt:9,next:6467,str:10231,d0:0,d1:16256;
-                                (60f, Expression<Float> @:6467 op:6,dt:6,nt:9,next:65535,str:10233,d0:0,d1:17008;)))))))))
+("create_lift", MethodDecl<Void> @:161 check:0,op:0,dt:0,nt:65535,next:6468,nextCheck:64695,str:16261,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6468 check:64695,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:10006,h:1,d0:6469,d1:64696;
+        ("begin", Expression<MethodOrOperator> @:6469 check:64696,op:0,dt:2,nt:9,next:6447,nextCheck:64674,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6447 check:64674,op:27,dt:4,nt:8,next:6450,nextCheck:64677,str:10038,h:1,d0:6448,d1:64675;
+                ("print", Expression<MethodOrOperator> @:6448 check:64675,op:27,dt:2,nt:9,next:6449,nextCheck:64676,str:91,h:0,d0:0,d1:0;
+                    ("create lift", Expression<String> @:6449 check:64676,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:16171,h:0,d0:16171,d1:0;)))
+            (____, BuiltinInvocation<Void> @:6450 check:64677,op:48,dt:4,nt:8,next:6453,nextCheck:64680,str:10062,h:1,d0:6451,d1:64678;
+                ("object_create_anew", Expression<MethodOrOperator> @:6451 check:64678,op:48,dt:2,nt:9,next:6452,nextCheck:64679,str:8260,h:0,d0:0,d1:0;
+                    ("c08_intra3_lift", Expression<EntityIdentifier> @:6452 check:64679,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:16183,h:0,d0:68,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6453 check:64680,op:60,dt:4,nt:8,next:6459,nextCheck:64686,str:10101,h:1,d0:6454,d1:64681;
+                ("object_set_function_variable", Expression<MethodOrOperator> @:6454 check:64681,op:60,dt:2,nt:9,next:6455,nextCheck:64682,str:4956,h:0,d0:0,d1:0;
+                    (4294901828, Expression<Entity> @:6455 check:64682,op:56,dt:50,nt:9,next:6456,nextCheck:64683,str:16183,h:0,d0:68,d1:65535;
+                        ("effect", Expression<StringId> @:6456 check:64683,op:11,dt:11,nt:9,next:6457,nextCheck:64684,str:16199,h:0,d0:5263,d1:1536;
+                            (0f, Expression<Float> @:6457 check:64684,op:6,dt:6,nt:9,next:6458,nextCheck:64685,str:10156,h:1,d0:0,d1:0;
+                                (0f, Expression<Float> @:6458 check:64685,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:10158,h:1,d0:0,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:6459 check:64686,op:19,dt:4,nt:8,next:6462,nextCheck:64689,str:10163,h:1,d0:6460,d1:64687;
+                ("sleep", Expression<MethodOrOperator> @:6460 check:64687,op:19,dt:2,nt:9,next:6461,nextCheck:64688,str:85,h:0,d0:0,d1:0;
+                    (10, Expression<Short> @:6461 check:64688,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:10170,h:1,d0:10,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6462 check:64689,op:60,dt:4,nt:8,next:65535,nextCheck:65535,str:10176,h:1,d0:6463,d1:64690;
+                ("object_set_function_variable", Expression<MethodOrOperator> @:6463 check:64690,op:60,dt:2,nt:9,next:6464,nextCheck:64691,str:4956,h:0,d0:0,d1:0;
+                    (4294901828, Expression<Entity> @:6464 check:64691,op:56,dt:50,nt:9,next:6465,nextCheck:64692,str:16183,h:0,d0:68,d1:65535;
+                        ("effect", Expression<StringId> @:6465 check:64692,op:11,dt:11,nt:9,next:6466,nextCheck:64693,str:16199,h:0,d0:5263,d1:1536;
+                            (1f, Expression<Float> @:6466 check:64693,op:6,dt:6,nt:9,next:6467,nextCheck:64694,str:10231,h:1,d0:0,d1:16256;
+                                (60f, Expression<Float> @:6467 check:64694,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:10233,h:1,d0:0,d1:17008;)))))))))

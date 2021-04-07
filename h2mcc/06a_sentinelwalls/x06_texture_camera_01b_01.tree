@@ -1,42 +1,42 @@
 
-("x06_texture_camera_01b_01", MethodDecl<Void> @:50 op:0,dt:0,nt:65535,next:1577,str:3892,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:1577 op:0,dt:4,nt:8,next:65535,str:18603,d0:1578,d1:59805;
-        ("begin", Expression<MethodOrOperator> @:1578 op:0,dt:2,nt:9,next:1539,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:1539 op:676,dt:4,nt:8,next:1541,str:18649,d0:1540,d1:59767;
-                ("time_code_reset", Expression<MethodOrOperator> @:1540 op:676,dt:2,nt:9,next:65535,str:1554,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:1541 op:19,dt:4,nt:8,next:1544,str:18671,d0:1542,d1:59769;
-                ("sleep", Expression<MethodOrOperator> @:1542 op:19,dt:2,nt:9,next:1543,str:80,d0:0,d1:0;
-                    (143, Expression<Short> @:1543 op:7,dt:7,nt:9,next:65535,str:18678,d0:143,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1544 op:27,dt:4,nt:8,next:1547,str:18685,d0:1545,d1:59772;
-                ("print", Expression<MethodOrOperator> @:1545 op:27,dt:2,nt:9,next:1546,str:86,d0:0,d1:0;
-                    ("start texture camera", Expression<String> @:1546 op:9,dt:9,nt:9,next:65535,str:3629,d0:3629,d1:0;)))
-            (____, BuiltinInvocation<Void> @:1547 op:48,dt:4,nt:8,next:1550,str:18720,d0:1548,d1:59775;
-                ("object_create_anew", Expression<MethodOrOperator> @:1548 op:48,dt:2,nt:9,next:1549,str:2344,d0:0,d1:0;
-                    ("texture_camera", Expression<EntityIdentifier> @:1549 op:56,dt:56,nt:9,next:65535,str:3650,d0:36,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1550 op:48,dt:4,nt:8,next:1553,str:18758,d0:1551,d1:59778;
-                ("object_create_anew", Expression<MethodOrOperator> @:1551 op:48,dt:2,nt:9,next:1552,str:2344,d0:0,d1:0;
-                    ("texture_space", Expression<EntityIdentifier> @:1552 op:56,dt:56,nt:9,next:65535,str:3665,d0:70,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1553 op:48,dt:4,nt:8,next:1556,str:18795,d0:1554,d1:59781;
-                ("object_create_anew", Expression<MethodOrOperator> @:1554 op:48,dt:2,nt:9,next:1555,str:2344,d0:0,d1:0;
-                    ("texture_halo", Expression<EntityIdentifier> @:1555 op:56,dt:56,nt:9,next:65535,str:3679,d0:71,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1556 op:92,dt:4,nt:8,next:1560,str:18834,d0:1557,d1:59784;
-                ("object_cinematic_lod", Expression<MethodOrOperator> @:1557 op:92,dt:2,nt:9,next:1558,str:2408,d0:0,d1:0;
-                    (4294901831, Expression<Entity> @:1558 op:56,dt:50,nt:9,next:1559,str:3679,d0:71,d1:65535;
-                        (True, Expression<Boolean> @:1559 op:5,dt:5,nt:9,next:65535,str:18869,d0:65281,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:1560 op:95,dt:4,nt:8,next:1564,str:18877,d0:1561,d1:59788;
-                ("object_uses_cinematic_lighting", Expression<MethodOrOperator> @:1561 op:95,dt:2,nt:9,next:1562,str:2044,d0:0,d1:0;
-                    (4294901831, Expression<Entity> @:1562 op:56,dt:50,nt:9,next:1563,str:3679,d0:71,d1:65535;
-                        (True, Expression<Boolean> @:1563 op:5,dt:5,nt:9,next:65535,str:18922,d0:65281,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:1564 op:144,dt:4,nt:8,next:1569,str:18930,d0:1565,d1:59792;
-                ("texture_camera_set_object_marker", Expression<MethodOrOperator> @:1565 op:144,dt:2,nt:9,next:1566,str:3692,d0:0,d1:0;
-                    (4294901796, Expression<Entity> @:1566 op:56,dt:50,nt:9,next:1567,str:3650,d0:36,d1:65535;
-                        ("primary_trigger", Expression<StringId> @:1567 op:11,dt:11,nt:9,next:1568,str:3725,d0:219,d1:3840;
-                            (40f, Expression<Float> @:1568 op:6,dt:6,nt:9,next:65535,str:18995,d0:0,d1:16928;)))))
-            (____, BuiltinInvocation<Void> @:1569 op:19,dt:4,nt:8,next:1572,str:19004,d0:1570,d1:59797;
-                ("sleep", Expression<MethodOrOperator> @:1570 op:19,dt:2,nt:9,next:1571,str:80,d0:0,d1:0;
-                    (156, Expression<Short> @:1571 op:7,dt:7,nt:9,next:65535,str:19011,d0:156,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1572 op:145,dt:4,nt:8,next:1574,str:19021,d0:1573,d1:59800;
-                ("texture_camera_off", Expression<MethodOrOperator> @:1573 op:145,dt:2,nt:9,next:65535,str:3741,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:1574 op:27,dt:4,nt:8,next:65535,str:19044,d0:1575,d1:59802;
-                ("print", Expression<MethodOrOperator> @:1575 op:27,dt:2,nt:9,next:1576,str:86,d0:0,d1:0;
-                    ("stop texture camera", Expression<String> @:1576 op:9,dt:9,nt:9,next:65535,str:3760,d0:3760,d1:0;))))))
+("x06_texture_camera_01b_01", MethodDecl<Void> @:50 check:0,op:0,dt:0,nt:65535,next:1577,nextCheck:59804,str:3892,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:1577 check:59804,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:18603,h:0,d0:1578,d1:59805;
+        ("begin", Expression<MethodOrOperator> @:1578 check:59805,op:0,dt:2,nt:9,next:1539,nextCheck:59766,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1539 check:59766,op:676,dt:4,nt:8,next:1541,nextCheck:59768,str:18649,h:0,d0:1540,d1:59767;
+                ("time_code_reset", Expression<MethodOrOperator> @:1540 check:59767,op:676,dt:2,nt:9,next:65535,nextCheck:65535,str:1554,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:1541 check:59768,op:19,dt:4,nt:8,next:1544,nextCheck:59771,str:18671,h:0,d0:1542,d1:59769;
+                ("sleep", Expression<MethodOrOperator> @:1542 check:59769,op:19,dt:2,nt:9,next:1543,nextCheck:59770,str:80,h:0,d0:0,d1:0;
+                    (143, Expression<Short> @:1543 check:59770,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:18678,h:0,d0:143,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1544 check:59771,op:27,dt:4,nt:8,next:1547,nextCheck:59774,str:18685,h:0,d0:1545,d1:59772;
+                ("print", Expression<MethodOrOperator> @:1545 check:59772,op:27,dt:2,nt:9,next:1546,nextCheck:59773,str:86,h:0,d0:0,d1:0;
+                    ("start texture camera", Expression<String> @:1546 check:59773,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:3629,h:0,d0:3629,d1:0;)))
+            (____, BuiltinInvocation<Void> @:1547 check:59774,op:48,dt:4,nt:8,next:1550,nextCheck:59777,str:18720,h:0,d0:1548,d1:59775;
+                ("object_create_anew", Expression<MethodOrOperator> @:1548 check:59775,op:48,dt:2,nt:9,next:1549,nextCheck:59776,str:2344,h:0,d0:0,d1:0;
+                    ("texture_camera", Expression<EntityIdentifier> @:1549 check:59776,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:3650,h:0,d0:36,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1550 check:59777,op:48,dt:4,nt:8,next:1553,nextCheck:59780,str:18758,h:0,d0:1551,d1:59778;
+                ("object_create_anew", Expression<MethodOrOperator> @:1551 check:59778,op:48,dt:2,nt:9,next:1552,nextCheck:59779,str:2344,h:0,d0:0,d1:0;
+                    ("texture_space", Expression<EntityIdentifier> @:1552 check:59779,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:3665,h:0,d0:70,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1553 check:59780,op:48,dt:4,nt:8,next:1556,nextCheck:59783,str:18795,h:0,d0:1554,d1:59781;
+                ("object_create_anew", Expression<MethodOrOperator> @:1554 check:59781,op:48,dt:2,nt:9,next:1555,nextCheck:59782,str:2344,h:0,d0:0,d1:0;
+                    ("texture_halo", Expression<EntityIdentifier> @:1555 check:59782,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:3679,h:0,d0:71,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1556 check:59783,op:92,dt:4,nt:8,next:1560,nextCheck:59787,str:18834,h:0,d0:1557,d1:59784;
+                ("object_cinematic_lod", Expression<MethodOrOperator> @:1557 check:59784,op:92,dt:2,nt:9,next:1558,nextCheck:59785,str:2408,h:0,d0:0,d1:0;
+                    (4294901831, Expression<Entity> @:1558 check:59785,op:56,dt:50,nt:9,next:1559,nextCheck:59786,str:3679,h:0,d0:71,d1:65535;
+                        (True, Expression<Boolean> @:1559 check:59786,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:18869,h:0,d0:65281,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:1560 check:59787,op:95,dt:4,nt:8,next:1564,nextCheck:59791,str:18877,h:0,d0:1561,d1:59788;
+                ("object_uses_cinematic_lighting", Expression<MethodOrOperator> @:1561 check:59788,op:95,dt:2,nt:9,next:1562,nextCheck:59789,str:2044,h:0,d0:0,d1:0;
+                    (4294901831, Expression<Entity> @:1562 check:59789,op:56,dt:50,nt:9,next:1563,nextCheck:59790,str:3679,h:0,d0:71,d1:65535;
+                        (True, Expression<Boolean> @:1563 check:59790,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:18922,h:0,d0:65281,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:1564 check:59791,op:144,dt:4,nt:8,next:1569,nextCheck:59796,str:18930,h:0,d0:1565,d1:59792;
+                ("texture_camera_set_object_marker", Expression<MethodOrOperator> @:1565 check:59792,op:144,dt:2,nt:9,next:1566,nextCheck:59793,str:3692,h:0,d0:0,d1:0;
+                    (4294901796, Expression<Entity> @:1566 check:59793,op:56,dt:50,nt:9,next:1567,nextCheck:59794,str:3650,h:0,d0:36,d1:65535;
+                        ("primary_trigger", Expression<StringId> @:1567 check:59794,op:11,dt:11,nt:9,next:1568,nextCheck:59795,str:3725,h:0,d0:219,d1:3840;
+                            (40f, Expression<Float> @:1568 check:59795,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:18995,h:0,d0:0,d1:16928;)))))
+            (____, BuiltinInvocation<Void> @:1569 check:59796,op:19,dt:4,nt:8,next:1572,nextCheck:59799,str:19004,h:0,d0:1570,d1:59797;
+                ("sleep", Expression<MethodOrOperator> @:1570 check:59797,op:19,dt:2,nt:9,next:1571,nextCheck:59798,str:80,h:0,d0:0,d1:0;
+                    (156, Expression<Short> @:1571 check:59798,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:19011,h:0,d0:156,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1572 check:59799,op:145,dt:4,nt:8,next:1574,nextCheck:59801,str:19021,h:0,d0:1573,d1:59800;
+                ("texture_camera_off", Expression<MethodOrOperator> @:1573 check:59800,op:145,dt:2,nt:9,next:65535,nextCheck:65535,str:3741,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:1574 check:59801,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:19044,h:0,d0:1575,d1:59802;
+                ("print", Expression<MethodOrOperator> @:1575 check:59802,op:27,dt:2,nt:9,next:1576,nextCheck:59803,str:86,h:0,d0:0,d1:0;
+                    ("stop texture camera", Expression<String> @:1576 check:59803,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:3760,h:0,d0:3760,d1:0;))))))

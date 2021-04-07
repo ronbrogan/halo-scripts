@@ -1,23 +1,23 @@
 
-("test_tunnel_convoy", MethodDecl<Void> @:181 op:0,dt:0,nt:65535,next:6426,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6426 op:0,dt:4,nt:8,next:65535,str:10126,d0:6427,d1:64654;
-        ("begin", Expression<MethodOrOperator> @:6427 op:0,dt:2,nt:9,next:6407,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6407 op:507,dt:4,nt:8,next:6410,str:10167,d0:6408,d1:64635;
-                ("switch_bsp", Expression<MethodOrOperator> @:6408 op:507,dt:2,nt:9,next:6409,str:13654,d0:0,d1:0;
-                    (2, Expression<Short> @:6409 op:7,dt:7,nt:9,next:65535,str:10179,d0:2,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6410 op:105,dt:4,nt:8,next:6415,str:10184,d0:6411,d1:64638;
-                ("object_teleport", Expression<MethodOrOperator> @:6411 op:105,dt:2,nt:9,next:6412,str:13665,d0:0,d1:0;
-                    ("player0", ScriptInvocation<Entity> @:6412 op:0,dt:50,nt:10,next:6414,str:10201,d0:6413,d1:64640;
-                        ("player0", Expression<MethodOrOperator> @:6413 op:0,dt:2,nt:9,next:65535,str:665,d0:0,d1:0;))
-                    ("e13_test", Expression<LocationFlag> @:6414 op:14,dt:14,nt:9,next:65535,str:13681,d0:23,d1:0;)))
-            (____, BuiltinInvocation<Void> @:6415 op:290,dt:4,nt:8,next:6418,str:10223,d0:6416,d1:64643;
-                ("ai_place", Expression<MethodOrOperator> @:6416 op:290,dt:2,nt:9,next:6417,str:4681,d0:0,d1:0;
-                    ("e13_mars_warthog0", Expression<AI> @:6417 op:19,dt:19,nt:9,next:65535,str:13415,d0:116,d1:0;)))
-            (____, BuiltinInvocation<Void> @:6418 op:2,dt:4,nt:8,next:65535,str:10254,d0:6419,d1:64646;
-                ("if", Expression<MethodOrOperator> @:6419 op:2,dt:2,nt:9,next:6420,str:519,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:6420 op:25,dt:5,nt:8,next:6423,str:10258,d0:6421,d1:64648;
-                        ("not", Expression<MethodOrOperator> @:6421 op:25,dt:2,nt:9,next:6422,str:460,d0:0,d1:0;
-                            ("g_e13_started", VariableAccess<Boolean> @:6422 op:5,dt:5,nt:13,next:65535,str:13519,d0:9,d1:0;)))
-                    (____, BuiltinInvocation<Void> @:6423 op:22,dt:4,nt:8,next:65535,str:10278,d0:6424,d1:64651;
-                        ("wake", Expression<MethodOrOperator> @:6424 op:22,dt:2,nt:9,next:6425,str:1129,d0:0,d1:0;
-                            ("e13_main", Expression<ScriptReference> @:6425 op:10,dt:10,nt:9,next:65535,str:13533,d0:180,d1:65535;))))))))
+("test_tunnel_convoy", MethodDecl<Void> @:181 check:0,op:0,dt:0,nt:65535,next:6426,nextCheck:64653,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6426 check:64653,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:10126,h:1,d0:6427,d1:64654;
+        ("begin", Expression<MethodOrOperator> @:6427 check:64654,op:0,dt:2,nt:9,next:6407,nextCheck:64634,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6407 check:64634,op:507,dt:4,nt:8,next:6410,nextCheck:64637,str:10167,h:1,d0:6408,d1:64635;
+                ("switch_bsp", Expression<MethodOrOperator> @:6408 check:64635,op:507,dt:2,nt:9,next:6409,nextCheck:64636,str:13654,h:0,d0:0,d1:0;
+                    (2, Expression<Short> @:6409 check:64636,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:10179,h:1,d0:2,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6410 check:64637,op:105,dt:4,nt:8,next:6415,nextCheck:64642,str:10184,h:1,d0:6411,d1:64638;
+                ("object_teleport", Expression<MethodOrOperator> @:6411 check:64638,op:105,dt:2,nt:9,next:6412,nextCheck:64639,str:13665,h:0,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:6412 check:64639,op:0,dt:50,nt:10,next:6414,nextCheck:64641,str:10201,h:1,d0:6413,d1:64640;
+                        ("player0", Expression<MethodOrOperator> @:6413 check:64640,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:665,h:0,d0:0,d1:0;))
+                    ("e13_test", Expression<LocationFlag> @:6414 check:64641,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:13681,h:0,d0:23,d1:0;)))
+            (____, BuiltinInvocation<Void> @:6415 check:64642,op:290,dt:4,nt:8,next:6418,nextCheck:64645,str:10223,h:1,d0:6416,d1:64643;
+                ("ai_place", Expression<MethodOrOperator> @:6416 check:64643,op:290,dt:2,nt:9,next:6417,nextCheck:64644,str:4681,h:0,d0:0,d1:0;
+                    ("e13_mars_warthog0", Expression<AI> @:6417 check:64644,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13415,h:0,d0:116,d1:0;)))
+            (____, BuiltinInvocation<Void> @:6418 check:64645,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:10254,h:1,d0:6419,d1:64646;
+                ("if", Expression<MethodOrOperator> @:6419 check:64646,op:2,dt:2,nt:9,next:6420,nextCheck:64647,str:519,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:6420 check:64647,op:25,dt:5,nt:8,next:6423,nextCheck:64650,str:10258,h:1,d0:6421,d1:64648;
+                        ("not", Expression<MethodOrOperator> @:6421 check:64648,op:25,dt:2,nt:9,next:6422,nextCheck:64649,str:460,h:0,d0:0,d1:0;
+                            ("g_e13_started", VariableAccess<Boolean> @:6422 check:64649,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:13519,h:0,d0:9,d1:0;)))
+                    (____, BuiltinInvocation<Void> @:6423 check:64650,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:10278,h:1,d0:6424,d1:64651;
+                        ("wake", Expression<MethodOrOperator> @:6424 check:64651,op:22,dt:2,nt:9,next:6425,nextCheck:64652,str:1129,h:0,d0:0,d1:0;
+                            ("e13_main", Expression<ScriptReference> @:6425 check:64652,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:13533,h:0,d0:180,d1:65535;))))))))

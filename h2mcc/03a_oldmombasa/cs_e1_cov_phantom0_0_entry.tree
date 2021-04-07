@@ -1,16 +1,16 @@
 
-("cs_e1_cov_phantom0_0_entry", MethodDecl<Void> @:384 op:0,dt:0,nt:65535,next:15906,str:27675,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:15906 op:0,dt:4,nt:8,next:65535,str:4106,d0:15907,d1:41367;
-        ("begin", Expression<MethodOrOperator> @:15907 op:0,dt:2,nt:9,next:15894,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:15894 op:449,dt:4,nt:8,next:15897,str:4158,d0:15895,d1:41355;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:15895 op:449,dt:2,nt:9,next:15896,str:4284,d0:0,d1:0;
-                    (True, Expression<Boolean> @:15896 op:5,dt:5,nt:9,next:65535,str:4190,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:15897 op:383,dt:4,nt:8,next:15900,str:4198,d0:15898,d1:41358;
-                ("cs_fly_by", Expression<MethodOrOperator> @:15898 op:383,dt:2,nt:9,next:15899,str:15068,d0:0,d1:0;
-                    ("e1_cov_phantom0_0_entry/p0", Expression<SpatialPoint> @:15899 op:28,dt:28,nt:9,next:65535,str:26216,d0:0,d1:3;)))
-            (____, BuiltinInvocation<Void> @:15900 op:379,dt:4,nt:8,next:15903,str:4239,d0:15901,d1:41361;
-                ("cs_fly_to", Expression<MethodOrOperator> @:15901 op:379,dt:2,nt:9,next:15902,str:14959,d0:0,d1:0;
-                    ("e1_cov_phantom0_0_entry/p1", Expression<SpatialPoint> @:15902 op:28,dt:28,nt:9,next:65535,str:26243,d0:1,d1:3;)))
-            (____, BuiltinInvocation<Void> @:15903 op:298,dt:4,nt:8,next:65535,str:4280,d0:15904,d1:41364;
-                ("ai_erase", Expression<MethodOrOperator> @:15904 op:298,dt:2,nt:9,next:15905,str:4540,d0:0,d1:0;
-                    ("ai_current_squad", VariableAccess<AI> @:15905 op:19,dt:19,nt:13,next:65535,str:12161,d0:33563,d1:65535;))))))
+("cs_e1_cov_phantom0_0_entry", MethodDecl<Void> @:384 check:0,op:0,dt:0,nt:65535,next:15906,nextCheck:41366,str:27675,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:15906 check:41366,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:4106,h:3,d0:15907,d1:41367;
+        ("begin", Expression<MethodOrOperator> @:15907 check:41367,op:0,dt:2,nt:9,next:15894,nextCheck:41354,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:15894 check:41354,op:449,dt:4,nt:8,next:15897,nextCheck:41357,str:4158,h:3,d0:15895,d1:41355;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:15895 check:41355,op:449,dt:2,nt:9,next:15896,nextCheck:41356,str:4284,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15896 check:41356,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:4190,h:3,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:15897 check:41357,op:383,dt:4,nt:8,next:15900,nextCheck:41360,str:4198,h:3,d0:15898,d1:41358;
+                ("cs_fly_by", Expression<MethodOrOperator> @:15898 check:41358,op:383,dt:2,nt:9,next:15899,nextCheck:41359,str:15068,h:0,d0:0,d1:0;
+                    ("e1_cov_phantom0_0_entry/p0", Expression<SpatialPoint> @:15899 check:41359,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:26216,h:0,d0:0,d1:3;)))
+            (____, BuiltinInvocation<Void> @:15900 check:41360,op:379,dt:4,nt:8,next:15903,nextCheck:41363,str:4239,h:3,d0:15901,d1:41361;
+                ("cs_fly_to", Expression<MethodOrOperator> @:15901 check:41361,op:379,dt:2,nt:9,next:15902,nextCheck:41362,str:14959,h:0,d0:0,d1:0;
+                    ("e1_cov_phantom0_0_entry/p1", Expression<SpatialPoint> @:15902 check:41362,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:26243,h:0,d0:1,d1:3;)))
+            (____, BuiltinInvocation<Void> @:15903 check:41363,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:4280,h:3,d0:15904,d1:41364;
+                ("ai_erase", Expression<MethodOrOperator> @:15904 check:41364,op:298,dt:2,nt:9,next:15905,nextCheck:41365,str:4540,h:0,d0:0,d1:0;
+                    ("ai_current_squad", VariableAccess<AI> @:15905 check:41365,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33563,d1:65535;))))))

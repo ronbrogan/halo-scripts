@@ -1,22 +1,22 @@
 
-("cs_trm1_approach", MethodDecl<Void> @:356 op:0,dt:0,nt:65535,next:16614,str:38491,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:16614 op:0,dt:4,nt:8,next:65535,str:4455,d0:16615,d1:42075;
-        ("begin", Expression<MethodOrOperator> @:16615 op:0,dt:2,nt:9,next:16596,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:16596 op:448,dt:4,nt:8,next:16599,str:4497,d0:16597,d1:42057;
-                ("cs_force_combat_status", Expression<MethodOrOperator> @:16597 op:448,dt:2,nt:9,next:16598,str:15913,d0:0,d1:0;
-                    (2, Expression<Short> @:16598 op:7,dt:7,nt:9,next:65535,str:4521,d0:2,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16599 op:444,dt:4,nt:8,next:16602,str:4526,d0:16600,d1:42060;
-                ("cs_enable_moving", Expression<MethodOrOperator> @:16600 op:444,dt:2,nt:9,next:16601,str:37929,d0:0,d1:0;
-                    (False, Expression<Boolean> @:16601 op:5,dt:5,nt:9,next:65535,str:4544,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16602 op:449,dt:4,nt:8,next:16605,str:4549,d0:16603,d1:42063;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:16603 op:449,dt:2,nt:9,next:16604,str:15936,d0:0,d1:0;
-                    (True, Expression<Boolean> @:16604 op:5,dt:5,nt:9,next:65535,str:4581,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16605 op:430,dt:4,nt:8,next:16612,str:4586,d0:16606,d1:42066;
-                ("cs_approach", Expression<MethodOrOperator> @:16606 op:430,dt:2,nt:9,next:16607,str:38394,d0:0,d1:0;
-                    ("player0", ScriptInvocation<Entity> @:16607 op:0,dt:50,nt:10,next:16609,str:4599,d0:16608,d1:42068;
-                        ("player0", Expression<MethodOrOperator> @:16608 op:0,dt:2,nt:9,next:65535,str:612,d0:0,d1:0;))
-                    (2f, Expression<Float> @:16609 op:6,dt:6,nt:9,next:16610,str:4609,d0:0,d1:16384;
-                        (6f, Expression<Float> @:16610 op:6,dt:6,nt:9,next:16611,str:4611,d0:0,d1:16576;
-                            (3f, Expression<Float> @:16611 op:6,dt:6,nt:9,next:65535,str:4613,d0:0,d1:16448;)))))
-            (____, BuiltinInvocation<Void> @:16612 op:20,dt:4,nt:8,next:65535,str:4618,d0:16613,d1:42073;
-                ("sleep_forever", Expression<MethodOrOperator> @:16613 op:20,dt:2,nt:9,next:65535,str:27349,d0:0,d1:0;)))))
+("cs_trm1_approach", MethodDecl<Void> @:356 check:0,op:0,dt:0,nt:65535,next:16614,nextCheck:42074,str:38491,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:16614 check:42074,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:4455,h:3,d0:16615,d1:42075;
+        ("begin", Expression<MethodOrOperator> @:16615 check:42075,op:0,dt:2,nt:9,next:16596,nextCheck:42056,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:16596 check:42056,op:448,dt:4,nt:8,next:16599,nextCheck:42059,str:4497,h:3,d0:16597,d1:42057;
+                ("cs_force_combat_status", Expression<MethodOrOperator> @:16597 check:42057,op:448,dt:2,nt:9,next:16598,nextCheck:42058,str:15913,h:0,d0:0,d1:0;
+                    (2, Expression<Short> @:16598 check:42058,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:4521,h:3,d0:2,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16599 check:42059,op:444,dt:4,nt:8,next:16602,nextCheck:42062,str:4526,h:3,d0:16600,d1:42060;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:16600 check:42060,op:444,dt:2,nt:9,next:16601,nextCheck:42061,str:37929,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:16601 check:42061,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:4544,h:3,d0:65280,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16602 check:42062,op:449,dt:4,nt:8,next:16605,nextCheck:42065,str:4549,h:3,d0:16603,d1:42063;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:16603 check:42063,op:449,dt:2,nt:9,next:16604,nextCheck:42064,str:15936,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16604 check:42064,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:4581,h:3,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16605 check:42065,op:430,dt:4,nt:8,next:16612,nextCheck:42072,str:4586,h:3,d0:16606,d1:42066;
+                ("cs_approach", Expression<MethodOrOperator> @:16606 check:42066,op:430,dt:2,nt:9,next:16607,nextCheck:42067,str:38394,h:0,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:16607 check:42067,op:0,dt:50,nt:10,next:16609,nextCheck:42069,str:4599,h:3,d0:16608,d1:42068;
+                        ("player0", Expression<MethodOrOperator> @:16608 check:42068,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:612,h:0,d0:0,d1:0;))
+                    (2f, Expression<Float> @:16609 check:42069,op:6,dt:6,nt:9,next:16610,nextCheck:42070,str:4609,h:3,d0:0,d1:16384;
+                        (6f, Expression<Float> @:16610 check:42070,op:6,dt:6,nt:9,next:16611,nextCheck:42071,str:4611,h:3,d0:0,d1:16576;
+                            (3f, Expression<Float> @:16611 check:42071,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:4613,h:3,d0:0,d1:16448;)))))
+            (____, BuiltinInvocation<Void> @:16612 check:42072,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:4618,h:3,d0:16613,d1:42073;
+                ("sleep_forever", Expression<MethodOrOperator> @:16613 check:42073,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:27349,h:0,d0:0,d1:0;)))))

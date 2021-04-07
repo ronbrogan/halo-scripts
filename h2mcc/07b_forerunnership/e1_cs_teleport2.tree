@@ -1,8 +1,8 @@
 
-("e1_cs_teleport2", MethodDecl<Void> @:228 op:0,dt:0,nt:65535,next:10132,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:10132 op:0,dt:4,nt:8,next:65535,str:63943,d0:10133,d1:35593;
-        ("begin", Expression<MethodOrOperator> @:10133 op:0,dt:2,nt:9,next:10128,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:10128 op:420,dt:4,nt:8,next:65535,str:63984,d0:10129,d1:35589;
-                ("cs_teleport", Expression<MethodOrOperator> @:10129 op:420,dt:2,nt:9,next:10130,str:21746,d0:0,d1:0;
-                    ("e1_drops/p2a", Expression<SpatialPoint> @:10130 op:28,dt:28,nt:9,next:10131,str:21784,d0:2,d1:9;
-                        ("e1_drops/p2b", Expression<SpatialPoint> @:10131 op:28,dt:28,nt:9,next:65535,str:21797,d0:3,d1:9;)))))))
+("e1_cs_teleport2", MethodDecl<Void> @:228 check:0,op:0,dt:0,nt:65535,next:10132,nextCheck:35592,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:10132 check:35592,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:63943,h:1,d0:10133,d1:35593;
+        ("begin", Expression<MethodOrOperator> @:10133 check:35593,op:0,dt:2,nt:9,next:10128,nextCheck:35588,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:10128 check:35588,op:420,dt:4,nt:8,next:65535,nextCheck:65535,str:63984,h:1,d0:10129,d1:35589;
+                ("cs_teleport", Expression<MethodOrOperator> @:10129 check:35589,op:420,dt:2,nt:9,next:10130,nextCheck:35590,str:21746,h:0,d0:0,d1:0;
+                    ("e1_drops/p2a", Expression<SpatialPoint> @:10130 check:35590,op:28,dt:28,nt:9,next:10131,nextCheck:35591,str:21784,h:0,d0:2,d1:9;
+                        ("e1_drops/p2b", Expression<SpatialPoint> @:10131 check:35591,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:21797,h:0,d0:3,d1:9;)))))))

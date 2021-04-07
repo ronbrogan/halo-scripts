@@ -1,10 +1,10 @@
 
-("cs_e8_mars_inf0_retreat", MethodDecl<Void> @:415 op:0,dt:0,nt:65535,next:15450,str:34422,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:15450 op:0,dt:4,nt:8,next:65535,str:62795,d0:15451,d1:40911;
-        ("begin", Expression<MethodOrOperator> @:15451 op:0,dt:2,nt:9,next:15444,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:15444 op:449,dt:4,nt:8,next:15447,str:62844,d0:15445,d1:40905;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:15445 op:449,dt:2,nt:9,next:15446,str:1153,d0:0,d1:0;
-                    (True, Expression<Boolean> @:15446 op:5,dt:5,nt:9,next:65535,str:62876,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:15447 op:385,dt:4,nt:8,next:65535,str:62884,d0:15448,d1:40908;
-                ("cs_go_to", Expression<MethodOrOperator> @:15448 op:385,dt:2,nt:9,next:15449,str:1184,d0:0,d1:0;
-                    ("scarab/p0", Expression<SpatialPoint> @:15449 op:28,dt:28,nt:9,next:65535,str:33507,d0:5,d1:13;))))))
+("cs_e8_mars_inf0_retreat", MethodDecl<Void> @:415 check:0,op:0,dt:0,nt:65535,next:15450,nextCheck:40910,str:34422,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:15450 check:40910,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:62795,h:2,d0:15451,d1:40911;
+        ("begin", Expression<MethodOrOperator> @:15451 check:40911,op:0,dt:2,nt:9,next:15444,nextCheck:40904,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:15444 check:40904,op:449,dt:4,nt:8,next:15447,nextCheck:40907,str:62844,h:2,d0:15445,d1:40905;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:15445 check:40905,op:449,dt:2,nt:9,next:15446,nextCheck:40906,str:1153,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15446 check:40906,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:62876,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:15447 check:40907,op:385,dt:4,nt:8,next:65535,nextCheck:65535,str:62884,h:2,d0:15448,d1:40908;
+                ("cs_go_to", Expression<MethodOrOperator> @:15448 check:40908,op:385,dt:2,nt:9,next:15449,nextCheck:40909,str:1184,h:0,d0:0,d1:0;
+                    ("scarab/p0", Expression<SpatialPoint> @:15449 check:40909,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:33507,h:0,d0:5,d1:13;))))))

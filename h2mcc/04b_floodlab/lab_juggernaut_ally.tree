@@ -1,13 +1,13 @@
 
-("lab_juggernaut_ally", MethodDecl<Void> @:212 op:0,dt:0,nt:65535,next:8933,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:8933 op:0,dt:4,nt:8,next:65535,str:31440,d0:8934,d1:34394;
-        ("begin", Expression<MethodOrOperator> @:8934 op:0,dt:2,nt:9,next:8924,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:8924 op:374,dt:4,nt:8,next:8927,str:31485,d0:8925,d1:34385;
-                ("cs_switch", Expression<MethodOrOperator> @:8925 op:374,dt:2,nt:9,next:8926,str:11448,d0:0,d1:0;
-                    ("ally", Expression<StringId> @:8926 op:11,dt:11,nt:9,next:65535,str:13677,d0:12640,d1:1024;)))
-            (____, BuiltinInvocation<Void> @:8927 op:27,dt:4,nt:8,next:8930,str:31504,d0:8928,d1:34388;
-                ("print", Expression<MethodOrOperator> @:8928 op:27,dt:2,nt:9,next:8929,str:295,d0:0,d1:0;
-                    ("spec-ops elite: 'it comes!  prepare yourself, arbiter!'", Expression<String> @:8929 op:9,dt:9,nt:9,next:65535,str:18580,d0:18580,d1:0;)))
-            (____, BuiltinInvocation<Void> @:8930 op:418,dt:4,nt:8,next:65535,str:31572,d0:8931,d1:34391;
-                ("cs_play_line", Expression<MethodOrOperator> @:8931 op:418,dt:2,nt:9,next:8932,str:11547,d0:0,d1:0;
-                    ("1290", Expression<StringId> @:8932 op:11,dt:11,nt:9,next:65535,str:18636,d0:12333,d1:1024;))))))
+("lab_juggernaut_ally", MethodDecl<Void> @:212 check:0,op:0,dt:0,nt:65535,next:8933,nextCheck:34393,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:8933 check:34393,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:31440,h:1,d0:8934,d1:34394;
+        ("begin", Expression<MethodOrOperator> @:8934 check:34394,op:0,dt:2,nt:9,next:8924,nextCheck:34384,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:8924 check:34384,op:374,dt:4,nt:8,next:8927,nextCheck:34387,str:31485,h:1,d0:8925,d1:34385;
+                ("cs_switch", Expression<MethodOrOperator> @:8925 check:34385,op:374,dt:2,nt:9,next:8926,nextCheck:34386,str:11448,h:0,d0:0,d1:0;
+                    ("ally", Expression<StringId> @:8926 check:34386,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:13677,h:0,d0:12640,d1:1024;)))
+            (____, BuiltinInvocation<Void> @:8927 check:34387,op:27,dt:4,nt:8,next:8930,nextCheck:34390,str:31504,h:1,d0:8928,d1:34388;
+                ("print", Expression<MethodOrOperator> @:8928 check:34388,op:27,dt:2,nt:9,next:8929,nextCheck:34389,str:295,h:0,d0:0,d1:0;
+                    ("spec-ops elite: 'it comes!  prepare yourself, arbiter!'", Expression<String> @:8929 check:34389,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18580,h:0,d0:18580,d1:0;)))
+            (____, BuiltinInvocation<Void> @:8930 check:34390,op:418,dt:4,nt:8,next:65535,nextCheck:65535,str:31572,h:1,d0:8931,d1:34391;
+                ("cs_play_line", Expression<MethodOrOperator> @:8931 check:34391,op:418,dt:2,nt:9,next:8932,nextCheck:34392,str:11547,h:0,d0:0,d1:0;
+                    ("1290", Expression<StringId> @:8932 check:34392,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:18636,h:0,d0:12333,d1:1024;))))))

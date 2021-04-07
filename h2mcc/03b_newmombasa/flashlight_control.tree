@@ -1,23 +1,23 @@
 
-("flashlight_control", MethodDecl<Void> @:198 op:0,dt:0,nt:65535,next:6107,str:31368,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6107 op:0,dt:4,nt:8,next:65535,str:6340,d0:6108,d1:64335;
-        ("begin", Expression<MethodOrOperator> @:6108 op:0,dt:2,nt:9,next:6088,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6088 op:21,dt:4,nt:8,next:65535,str:6377,d0:6089,d1:64316;
-                ("sleep_until", Expression<MethodOrOperator> @:6089 op:21,dt:2,nt:9,next:6090,str:236,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:6090 op:0,dt:5,nt:8,next:6106,str:6393,d0:6091,d1:64318;
-                        ("begin", Expression<MethodOrOperator> @:6091 op:0,dt:2,nt:9,next:6092,str:6,d0:0,d1:0;
-                            (____, BuiltinInvocation<Void> @:6092 op:2,dt:4,nt:8,next:6105,str:6443,d0:6093,d1:64320;
-                                ("if", Expression<MethodOrOperator> @:6093 op:2,dt:2,nt:9,next:6094,str:461,d0:0,d1:0;
-                                    (____, BuiltinInvocation<Boolean> @:6094 op:33,dt:5,nt:8,next:6099,str:6453,d0:6095,d1:64322;
-                                        ("volume_test_objects", Expression<MethodOrOperator> @:6095 op:33,dt:2,nt:9,next:6096,str:13230,d0:0,d1:0;
-                                            ("tv_dark_area0", Expression<Trigger> @:6096 op:13,dt:13,nt:9,next:6097,str:13781,d0:100,d1:0;
-                                                (____, BuiltinInvocation<List> @:6097 op:28,dt:31,nt:8,next:65535,str:6488,d0:6098,d1:64325;
-                                                    ("players", Expression<MethodOrOperator> @:6098 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))
-                                    (____, BuiltinInvocation<Void> @:6099 op:570,dt:4,nt:8,next:6102,str:6504,d0:6100,d1:64327;
-                                        ("game_can_use_flashlights", Expression<MethodOrOperator> @:6100 op:570,dt:2,nt:9,next:6101,str:13795,d0:0,d1:0;
-                                            (True, Expression<Boolean> @:6101 op:5,dt:5,nt:9,next:65535,str:6530,d0:65281,d1:65535;)))
-                                    (____, BuiltinInvocation<Void> @:6102 op:570,dt:4,nt:8,next:65535,str:6541,d0:6103,d1:64330;
-                                        ("game_can_use_flashlights", Expression<MethodOrOperator> @:6103 op:570,dt:2,nt:9,next:6104,str:13795,d0:0,d1:0;
-                                            (False, Expression<Boolean> @:6104 op:5,dt:5,nt:9,next:65535,str:6567,d0:65280,d1:65535;)))))
-                            (False, Expression<Boolean> @:6105 op:5,dt:5,nt:9,next:65535,str:6588,d0:65280,d1:65535;)))
-                    (60, Expression<Short> @:6106 op:7,dt:7,nt:9,next:65535,str:6602,d0:60,d1:65535;))))))
+("flashlight_control", MethodDecl<Void> @:198 check:0,op:0,dt:0,nt:65535,next:6107,nextCheck:64334,str:31368,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6107 check:64334,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:6340,h:1,d0:6108,d1:64335;
+        ("begin", Expression<MethodOrOperator> @:6108 check:64335,op:0,dt:2,nt:9,next:6088,nextCheck:64315,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6088 check:64315,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:6377,h:1,d0:6089,d1:64316;
+                ("sleep_until", Expression<MethodOrOperator> @:6089 check:64316,op:21,dt:2,nt:9,next:6090,nextCheck:64317,str:236,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:6090 check:64317,op:0,dt:5,nt:8,next:6106,nextCheck:64333,str:6393,h:1,d0:6091,d1:64318;
+                        ("begin", Expression<MethodOrOperator> @:6091 check:64318,op:0,dt:2,nt:9,next:6092,nextCheck:64319,str:6,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Void> @:6092 check:64319,op:2,dt:4,nt:8,next:6105,nextCheck:64332,str:6443,h:1,d0:6093,d1:64320;
+                                ("if", Expression<MethodOrOperator> @:6093 check:64320,op:2,dt:2,nt:9,next:6094,nextCheck:64321,str:461,h:0,d0:0,d1:0;
+                                    (____, BuiltinInvocation<Boolean> @:6094 check:64321,op:33,dt:5,nt:8,next:6099,nextCheck:64326,str:6453,h:1,d0:6095,d1:64322;
+                                        ("volume_test_objects", Expression<MethodOrOperator> @:6095 check:64322,op:33,dt:2,nt:9,next:6096,nextCheck:64323,str:13230,h:0,d0:0,d1:0;
+                                            ("tv_dark_area0", Expression<Trigger> @:6096 check:64323,op:13,dt:13,nt:9,next:6097,nextCheck:64324,str:13781,h:0,d0:100,d1:0;
+                                                (____, BuiltinInvocation<List> @:6097 check:64324,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:6488,h:1,d0:6098,d1:64325;
+                                                    ("players", Expression<MethodOrOperator> @:6098 check:64325,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                                    (____, BuiltinInvocation<Void> @:6099 check:64326,op:570,dt:4,nt:8,next:6102,nextCheck:64329,str:6504,h:1,d0:6100,d1:64327;
+                                        ("game_can_use_flashlights", Expression<MethodOrOperator> @:6100 check:64327,op:570,dt:2,nt:9,next:6101,nextCheck:64328,str:13795,h:0,d0:0,d1:0;
+                                            (True, Expression<Boolean> @:6101 check:64328,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:6530,h:1,d0:65281,d1:65535;)))
+                                    (____, BuiltinInvocation<Void> @:6102 check:64329,op:570,dt:4,nt:8,next:65535,nextCheck:65535,str:6541,h:1,d0:6103,d1:64330;
+                                        ("game_can_use_flashlights", Expression<MethodOrOperator> @:6103 check:64330,op:570,dt:2,nt:9,next:6104,nextCheck:64331,str:13795,h:0,d0:0,d1:0;
+                                            (False, Expression<Boolean> @:6104 check:64331,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:6567,h:1,d0:65280,d1:65535;)))))
+                            (False, Expression<Boolean> @:6105 check:64332,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:6588,h:1,d0:65280,d1:65535;)))
+                    (60, Expression<Short> @:6106 check:64333,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:6602,h:1,d0:60,d1:65535;))))))

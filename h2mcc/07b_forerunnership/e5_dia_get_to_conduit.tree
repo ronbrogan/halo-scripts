@@ -1,19 +1,19 @@
 
-("e5_dia_get_to_conduit", MethodDecl<Void> @:138 op:0,dt:0,nt:65535,next:4014,str:21167,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4014 op:0,dt:4,nt:8,next:65535,str:50801,d0:4015,d1:62242;
-        ("begin", Expression<MethodOrOperator> @:4015 op:0,dt:2,nt:9,next:3999,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3999 op:2,dt:4,nt:8,next:4005,str:50841,d0:4000,d1:62227;
-                ("if", Expression<MethodOrOperator> @:4000 op:2,dt:2,nt:9,next:4001,str:456,d0:0,d1:0;
-                    ("dialogue", VariableAccess<Boolean> @:4001 op:5,dt:5,nt:13,next:4002,str:10462,d0:3,d1:0;
-                        (____, BuiltinInvocation<Void> @:4002 op:27,dt:4,nt:8,next:65535,str:50854,d0:4003,d1:62230;
-                            ("print", Expression<MethodOrOperator> @:4003 op:27,dt:2,nt:9,next:4004,str:86,d0:0,d1:0;
-                                ("cortana: no time to admire the view. truth's phantom has reached the forerunner ship!", Expression<String> @:4004 op:9,dt:9,nt:9,next:65535,str:11422,d0:11422,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:4005 op:19,dt:4,nt:8,next:4011,str:50953,d0:4006,d1:62233;
-                ("sleep", Expression<MethodOrOperator> @:4006 op:19,dt:2,nt:9,next:4007,str:80,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:4007 op:362,dt:7,nt:8,next:65535,str:50960,d0:4008,d1:62235;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4008 op:362,dt:2,nt:9,next:4009,str:10552,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:4009 op:50,dt:50,nt:9,next:4010,str:1386,d0:65535,d1:65535;
-                                ("2730", Expression<StringId> @:4010 op:11,dt:11,nt:9,next:65535,str:11508,d0:13558,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:4011 op:19,dt:4,nt:8,next:65535,str:50998,d0:4012,d1:62239;
-                ("sleep", Expression<MethodOrOperator> @:4012 op:19,dt:2,nt:9,next:4013,str:80,d0:0,d1:0;
-                    ("dialogue_pause", VariableAccess<Short> @:4013 op:7,dt:7,nt:13,next:65535,str:10580,d0:4,d1:0;))))))
+("e5_dia_get_to_conduit", MethodDecl<Void> @:138 check:0,op:0,dt:0,nt:65535,next:4014,nextCheck:62241,str:21167,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4014 check:62241,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:50801,h:0,d0:4015,d1:62242;
+        ("begin", Expression<MethodOrOperator> @:4015 check:62242,op:0,dt:2,nt:9,next:3999,nextCheck:62226,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3999 check:62226,op:2,dt:4,nt:8,next:4005,nextCheck:62232,str:50841,h:0,d0:4000,d1:62227;
+                ("if", Expression<MethodOrOperator> @:4000 check:62227,op:2,dt:2,nt:9,next:4001,nextCheck:62228,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:4001 check:62228,op:5,dt:5,nt:13,next:4002,nextCheck:62229,str:10462,h:0,d0:3,d1:0;
+                        (____, BuiltinInvocation<Void> @:4002 check:62229,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:50854,h:0,d0:4003,d1:62230;
+                            ("print", Expression<MethodOrOperator> @:4003 check:62230,op:27,dt:2,nt:9,next:4004,nextCheck:62231,str:86,h:0,d0:0,d1:0;
+                                ("cortana: no time to admire the view. truth's phantom has reached the forerunner ship!", Expression<String> @:4004 check:62231,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:11422,h:0,d0:11422,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:4005 check:62232,op:19,dt:4,nt:8,next:4011,nextCheck:62238,str:50953,h:0,d0:4006,d1:62233;
+                ("sleep", Expression<MethodOrOperator> @:4006 check:62233,op:19,dt:2,nt:9,next:4007,nextCheck:62234,str:80,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:4007 check:62234,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:50960,h:0,d0:4008,d1:62235;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4008 check:62235,op:362,dt:2,nt:9,next:4009,nextCheck:62236,str:10552,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:4009 check:62236,op:50,dt:50,nt:9,next:4010,nextCheck:62237,str:1386,h:0,d0:65535,d1:65535;
+                                ("2730", Expression<StringId> @:4010 check:62237,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:11508,h:0,d0:13558,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:4011 check:62238,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:50998,h:0,d0:4012,d1:62239;
+                ("sleep", Expression<MethodOrOperator> @:4012 check:62239,op:19,dt:2,nt:9,next:4013,nextCheck:62240,str:80,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:4013 check:62240,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:10580,h:0,d0:4,d1:0;))))))

@@ -1,12 +1,12 @@
 
-("hack", MethodDecl<Void> @:328 op:0,dt:0,nt:65535,next:29159,str:38182,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:29159 op:0,dt:4,nt:8,next:65535,str:15296,d0:29160,d1:54620;
-        ("begin", Expression<MethodOrOperator> @:29160 op:0,dt:2,nt:9,next:29151,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:29151 op:444,dt:4,nt:8,next:29154,str:15326,d0:29152,d1:54612;
-                ("cs_enable_moving", Expression<MethodOrOperator> @:29152 op:444,dt:2,nt:9,next:29153,str:11483,d0:0,d1:0;
-                    (True, Expression<Boolean> @:29153 op:5,dt:5,nt:9,next:65535,str:15344,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:29154 op:427,dt:4,nt:8,next:29157,str:15352,d0:29155,d1:54615;
-                ("cs_set_behavior", Expression<MethodOrOperator> @:29155 op:427,dt:2,nt:9,next:29156,str:18978,d0:0,d1:0;
-                    ("guard", Expression<AIBehavior> @:29156 op:22,dt:22,nt:9,next:65535,str:18994,d0:5,d1:0;)))
-            (____, BuiltinInvocation<Void> @:29157 op:20,dt:4,nt:8,next:65535,str:15378,d0:29158,d1:54618;
-                ("sleep_forever", Expression<MethodOrOperator> @:29158 op:20,dt:2,nt:9,next:65535,str:9739,d0:0,d1:0;)))))
+("hack", MethodDecl<Void> @:328 check:0,op:0,dt:0,nt:65535,next:29159,nextCheck:54619,str:38182,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:29159 check:54619,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:15296,h:4,d0:29160,d1:54620;
+        ("begin", Expression<MethodOrOperator> @:29160 check:54620,op:0,dt:2,nt:9,next:29151,nextCheck:54611,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:29151 check:54611,op:444,dt:4,nt:8,next:29154,nextCheck:54614,str:15326,h:4,d0:29152,d1:54612;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:29152 check:54612,op:444,dt:2,nt:9,next:29153,nextCheck:54613,str:11483,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:29153 check:54613,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:15344,h:4,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:29154 check:54614,op:427,dt:4,nt:8,next:29157,nextCheck:54617,str:15352,h:4,d0:29155,d1:54615;
+                ("cs_set_behavior", Expression<MethodOrOperator> @:29155 check:54615,op:427,dt:2,nt:9,next:29156,nextCheck:54616,str:18978,h:0,d0:0,d1:0;
+                    ("guard", Expression<AIBehavior> @:29156 check:54616,op:22,dt:22,nt:9,next:65535,nextCheck:65535,str:18994,h:0,d0:5,d1:0;)))
+            (____, BuiltinInvocation<Void> @:29157 check:54617,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:15378,h:4,d0:29158,d1:54618;
+                ("sleep_forever", Expression<MethodOrOperator> @:29158 check:54618,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:9739,h:0,d0:0,d1:0;)))))

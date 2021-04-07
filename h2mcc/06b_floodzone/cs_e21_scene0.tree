@@ -1,13 +1,13 @@
 
-("cs_e21_scene0", MethodDecl<Void> @:263 op:0,dt:0,nt:65535,next:12056,str:24560,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:12056 op:0,dt:4,nt:8,next:65535,str:10737,d0:12057,d1:37517;
-        ("begin", Expression<MethodOrOperator> @:12057 op:0,dt:2,nt:9,next:12047,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:12047 op:27,dt:4,nt:8,next:12050,str:10776,d0:12048,d1:37508;
-                ("print", Expression<MethodOrOperator> @:12048 op:27,dt:2,nt:9,next:12049,str:91,d0:0,d1:0;
-                    ("elite: i grow restless without a target", Expression<String> @:12049 op:9,dt:9,nt:9,next:65535,str:24069,d0:24069,d1:0;)))
-            (____, BuiltinInvocation<Void> @:12050 op:19,dt:4,nt:8,next:65535,str:10828,d0:12051,d1:37511;
-                ("sleep", Expression<MethodOrOperator> @:12051 op:19,dt:2,nt:9,next:12052,str:85,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:12052 op:361,dt:7,nt:8,next:65535,str:10835,d0:12053,d1:37513;
-                        ("ai_play_line_at_player", Expression<MethodOrOperator> @:12053 op:361,dt:2,nt:9,next:12054,str:22345,d0:0,d1:0;
-                            ("ai_current_actor", VariableAccess<AI> @:12054 op:19,dt:19,nt:13,next:12055,str:10463,d0:33564,d1:65535;
-                                ("0730", Expression<StringId> @:12055 op:11,dt:11,nt:9,next:65535,str:24109,d0:13575,d1:1024;)))))))))
+("cs_e21_scene0", MethodDecl<Void> @:263 check:0,op:0,dt:0,nt:65535,next:12056,nextCheck:37516,str:24560,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:12056 check:37516,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:10737,h:2,d0:12057,d1:37517;
+        ("begin", Expression<MethodOrOperator> @:12057 check:37517,op:0,dt:2,nt:9,next:12047,nextCheck:37507,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:12047 check:37507,op:27,dt:4,nt:8,next:12050,nextCheck:37510,str:10776,h:2,d0:12048,d1:37508;
+                ("print", Expression<MethodOrOperator> @:12048 check:37508,op:27,dt:2,nt:9,next:12049,nextCheck:37509,str:91,h:0,d0:0,d1:0;
+                    ("elite: i grow restless without a target", Expression<String> @:12049 check:37509,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:24069,h:0,d0:24069,d1:0;)))
+            (____, BuiltinInvocation<Void> @:12050 check:37510,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:10828,h:2,d0:12051,d1:37511;
+                ("sleep", Expression<MethodOrOperator> @:12051 check:37511,op:19,dt:2,nt:9,next:12052,nextCheck:37512,str:85,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:12052 check:37512,op:361,dt:7,nt:8,next:65535,nextCheck:65535,str:10835,h:2,d0:12053,d1:37513;
+                        ("ai_play_line_at_player", Expression<MethodOrOperator> @:12053 check:37513,op:361,dt:2,nt:9,next:12054,nextCheck:37514,str:22345,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:12054 check:37514,op:19,dt:19,nt:13,next:12055,nextCheck:37515,str:10463,h:0,d0:33564,d1:65535;
+                                ("0730", Expression<StringId> @:12055 check:37515,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:24109,h:0,d0:13575,d1:1024;)))))))))

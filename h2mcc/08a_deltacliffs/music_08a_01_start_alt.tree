@@ -1,11 +1,11 @@
 
-("music_08a_01_start_alt", MethodDecl<Void> @:74 op:0,dt:0,nt:65535,next:2422,str:15816,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2422 op:0,dt:4,nt:8,next:65535,str:28618,d0:2423,d1:60650;
-        ("begin", Expression<MethodOrOperator> @:2423 op:0,dt:2,nt:9,next:2415,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2415 op:27,dt:4,nt:8,next:2418,str:28659,d0:2416,d1:60643;
-                ("print", Expression<MethodOrOperator> @:2416 op:27,dt:2,nt:9,next:2417,str:149,d0:0,d1:0;
-                    ("music 08a_01 start alt", Expression<String> @:2417 op:9,dt:9,nt:9,next:65535,str:5344,d0:5344,d1:0;)))
-            (____, BuiltinInvocation<Void> @:2418 op:609,dt:4,nt:8,next:65535,str:28694,d0:2419,d1:60646;
-                ("sound_looping_set_alternate", Expression<MethodOrOperator> @:2419 op:609,dt:2,nt:9,next:2420,str:5367,d0:0,d1:0;
-                    ("scenarios\solo\08a_deltacliffs\08a_music\08a_01", Expression<LoopingSound> @:2420 op:35,dt:35,nt:9,next:2421,str:5296,d0:7095,d1:65006;
-                        (True, Expression<Boolean> @:2421 op:5,dt:5,nt:9,next:65535,str:28773,d0:65281,d1:65535;)))))))
+("music_08a_01_start_alt", MethodDecl<Void> @:74 check:0,op:0,dt:0,nt:65535,next:2422,nextCheck:60649,str:15816,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2422 check:60649,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28618,h:0,d0:2423,d1:60650;
+        ("begin", Expression<MethodOrOperator> @:2423 check:60650,op:0,dt:2,nt:9,next:2415,nextCheck:60642,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2415 check:60642,op:27,dt:4,nt:8,next:2418,nextCheck:60645,str:28659,h:0,d0:2416,d1:60643;
+                ("print", Expression<MethodOrOperator> @:2416 check:60643,op:27,dt:2,nt:9,next:2417,nextCheck:60644,str:149,h:0,d0:0,d1:0;
+                    ("music 08a_01 start alt", Expression<String> @:2417 check:60644,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:5344,h:0,d0:5344,d1:0;)))
+            (____, BuiltinInvocation<Void> @:2418 check:60645,op:609,dt:4,nt:8,next:65535,nextCheck:65535,str:28694,h:0,d0:2419,d1:60646;
+                ("sound_looping_set_alternate", Expression<MethodOrOperator> @:2419 check:60646,op:609,dt:2,nt:9,next:2420,nextCheck:60647,str:5367,h:0,d0:0,d1:0;
+                    ("scenarios\solo\08a_deltacliffs\08a_music\08a_01", Expression<LoopingSound> @:2420 check:60647,op:35,dt:35,nt:9,next:2421,nextCheck:60648,str:5296,h:0,d0:7095,d1:65006;
+                        (True, Expression<Boolean> @:2421 check:60648,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:28773,h:0,d0:65281,d1:65535;)))))))

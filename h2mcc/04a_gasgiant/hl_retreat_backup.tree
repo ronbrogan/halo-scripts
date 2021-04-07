@@ -1,13 +1,13 @@
 
-("hl_retreat_backup", MethodDecl<Void> @:333 op:0,dt:0,nt:65535,next:15896,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:15896 op:0,dt:4,nt:8,next:65535,str:48515,d0:15897,d1:41357;
-        ("begin", Expression<MethodOrOperator> @:15897 op:0,dt:2,nt:9,next:15887,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:15887 op:449,dt:4,nt:8,next:15890,str:48558,d0:15888,d1:41348;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:15888 op:449,dt:2,nt:9,next:15889,str:17423,d0:0,d1:0;
-                    (True, Expression<Boolean> @:15889 op:5,dt:5,nt:9,next:65535,str:48590,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:15890 op:385,dt:4,nt:8,next:15893,str:48598,d0:15891,d1:41351;
-                ("cs_go_to", Expression<MethodOrOperator> @:15891 op:385,dt:2,nt:9,next:15892,str:19295,d0:0,d1:0;
-                    ("bottling_plant/p1", Expression<SpatialPoint> @:15892 op:28,dt:28,nt:9,next:65535,str:28593,d0:1,d1:8;)))
-            (____, BuiltinInvocation<Void> @:15893 op:298,dt:4,nt:8,next:65535,str:48629,d0:15894,d1:41354;
-                ("ai_erase", Expression<MethodOrOperator> @:15894 op:298,dt:2,nt:9,next:15895,str:17500,d0:0,d1:0;
-                    ("heretic_leader_02", Expression<AI> @:15895 op:19,dt:19,nt:9,next:65535,str:28611,d0:88,d1:0;))))))
+("hl_retreat_backup", MethodDecl<Void> @:333 check:0,op:0,dt:0,nt:65535,next:15896,nextCheck:41356,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:15896 check:41356,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:48515,h:2,d0:15897,d1:41357;
+        ("begin", Expression<MethodOrOperator> @:15897 check:41357,op:0,dt:2,nt:9,next:15887,nextCheck:41347,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:15887 check:41347,op:449,dt:4,nt:8,next:15890,nextCheck:41350,str:48558,h:2,d0:15888,d1:41348;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:15888 check:41348,op:449,dt:2,nt:9,next:15889,nextCheck:41349,str:17423,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15889 check:41349,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:48590,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:15890 check:41350,op:385,dt:4,nt:8,next:15893,nextCheck:41353,str:48598,h:2,d0:15891,d1:41351;
+                ("cs_go_to", Expression<MethodOrOperator> @:15891 check:41351,op:385,dt:2,nt:9,next:15892,nextCheck:41352,str:19295,h:0,d0:0,d1:0;
+                    ("bottling_plant/p1", Expression<SpatialPoint> @:15892 check:41352,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:28593,h:0,d0:1,d1:8;)))
+            (____, BuiltinInvocation<Void> @:15893 check:41353,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:48629,h:2,d0:15894,d1:41354;
+                ("ai_erase", Expression<MethodOrOperator> @:15894 check:41354,op:298,dt:2,nt:9,next:15895,nextCheck:41355,str:17500,h:0,d0:0,d1:0;
+                    ("heretic_leader_02", Expression<AI> @:15895 check:41355,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:28611,h:0,d0:88,d1:0;))))))

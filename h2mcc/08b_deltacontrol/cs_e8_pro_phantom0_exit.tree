@@ -1,16 +1,16 @@
 
-("cs_e8_pro_phantom0_exit", MethodDecl<Void> @:401 op:0,dt:0,nt:65535,next:14708,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:14708 op:0,dt:4,nt:8,next:65535,str:54024,d0:14709,d1:40169;
-        ("begin", Expression<MethodOrOperator> @:14709 op:0,dt:2,nt:9,next:14696,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:14696 op:383,dt:4,nt:8,next:14699,str:54104,d0:14697,d1:40157;
-                ("cs_fly_by", Expression<MethodOrOperator> @:14697 op:383,dt:2,nt:9,next:14698,str:26629,d0:0,d1:0;
-                    ("e8_pro_phantom0_exit/p0", Expression<SpatialPoint> @:14698 op:28,dt:28,nt:9,next:65535,str:32664,d0:0,d1:16;)))
-            (____, BuiltinInvocation<Void> @:14699 op:383,dt:4,nt:8,next:14702,str:54142,d0:14700,d1:40160;
-                ("cs_fly_by", Expression<MethodOrOperator> @:14700 op:383,dt:2,nt:9,next:14701,str:26629,d0:0,d1:0;
-                    ("e8_pro_phantom0_exit/p1", Expression<SpatialPoint> @:14701 op:28,dt:28,nt:9,next:65535,str:32688,d0:1,d1:16;)))
-            (____, BuiltinInvocation<Void> @:14702 op:383,dt:4,nt:8,next:14705,str:54180,d0:14703,d1:40163;
-                ("cs_fly_by", Expression<MethodOrOperator> @:14703 op:383,dt:2,nt:9,next:14704,str:26629,d0:0,d1:0;
-                    ("e8_pro_phantom0_exit/p2", Expression<SpatialPoint> @:14704 op:28,dt:28,nt:9,next:65535,str:32712,d0:2,d1:16;)))
-            (____, BuiltinInvocation<Void> @:14705 op:298,dt:4,nt:8,next:65535,str:54218,d0:14706,d1:40166;
-                ("ai_erase", Expression<MethodOrOperator> @:14706 op:298,dt:2,nt:9,next:14707,str:6111,d0:0,d1:0;
-                    ("ai_current_squad", VariableAccess<AI> @:14707 op:19,dt:19,nt:13,next:65535,str:27085,d0:33563,d1:65535;))))))
+("cs_e8_pro_phantom0_exit", MethodDecl<Void> @:401 check:0,op:0,dt:0,nt:65535,next:14708,nextCheck:40168,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:14708 check:40168,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:54024,h:2,d0:14709,d1:40169;
+        ("begin", Expression<MethodOrOperator> @:14709 check:40169,op:0,dt:2,nt:9,next:14696,nextCheck:40156,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:14696 check:40156,op:383,dt:4,nt:8,next:14699,nextCheck:40159,str:54104,h:2,d0:14697,d1:40157;
+                ("cs_fly_by", Expression<MethodOrOperator> @:14697 check:40157,op:383,dt:2,nt:9,next:14698,nextCheck:40158,str:26629,h:0,d0:0,d1:0;
+                    ("e8_pro_phantom0_exit/p0", Expression<SpatialPoint> @:14698 check:40158,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:32664,h:0,d0:0,d1:16;)))
+            (____, BuiltinInvocation<Void> @:14699 check:40159,op:383,dt:4,nt:8,next:14702,nextCheck:40162,str:54142,h:2,d0:14700,d1:40160;
+                ("cs_fly_by", Expression<MethodOrOperator> @:14700 check:40160,op:383,dt:2,nt:9,next:14701,nextCheck:40161,str:26629,h:0,d0:0,d1:0;
+                    ("e8_pro_phantom0_exit/p1", Expression<SpatialPoint> @:14701 check:40161,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:32688,h:0,d0:1,d1:16;)))
+            (____, BuiltinInvocation<Void> @:14702 check:40162,op:383,dt:4,nt:8,next:14705,nextCheck:40165,str:54180,h:2,d0:14703,d1:40163;
+                ("cs_fly_by", Expression<MethodOrOperator> @:14703 check:40163,op:383,dt:2,nt:9,next:14704,nextCheck:40164,str:26629,h:0,d0:0,d1:0;
+                    ("e8_pro_phantom0_exit/p2", Expression<SpatialPoint> @:14704 check:40164,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:32712,h:0,d0:2,d1:16;)))
+            (____, BuiltinInvocation<Void> @:14705 check:40165,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:54218,h:2,d0:14706,d1:40166;
+                ("ai_erase", Expression<MethodOrOperator> @:14706 check:40166,op:298,dt:2,nt:9,next:14707,nextCheck:40167,str:6111,h:0,d0:0,d1:0;
+                    ("ai_current_squad", VariableAccess<AI> @:14707 check:40167,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:27085,h:0,d0:33563,d1:65535;))))))

@@ -1,23 +1,23 @@
 
-("room_a_door", MethodDecl<Void> @:323 op:0,dt:0,nt:65535,next:15220,str:32854,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:15220 op:0,dt:4,nt:8,next:65535,str:47727,d0:15221,d1:40681;
-        ("begin", Expression<MethodOrOperator> @:15221 op:0,dt:2,nt:9,next:15201,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:15201 op:21,dt:4,nt:8,next:15210,str:47757,d0:15202,d1:40662;
-                ("sleep_until", Expression<MethodOrOperator> @:15202 op:21,dt:2,nt:9,next:15203,str:231,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:15203 op:15,dt:5,nt:8,next:15209,str:47770,d0:15204,d1:40664;
-                        (">", Expression<MethodOrOperator> @:15204 op:15,dt:2,nt:9,next:15205,str:19379,d0:0,d1:0;
-                            (-2.3106214E-20f, BuiltinInvocation<Float> @:15205 op:257,dt:6,nt:8,next:15208,str:47773,d0:15206,d1:40666;
-                                ("device_get_position", Expression<MethodOrOperator> @:15206 op:257,dt:2,nt:9,next:15207,str:17009,d0:0,d1:0;
-                                    ("room_a_door", Expression<Device> @:15207 op:60,dt:54,nt:9,next:65535,str:32854,d0:367,d1:65535;)))
-                            (0f, Expression<Float> @:15208 op:6,dt:6,nt:9,next:65535,str:47807,d0:0,d1:0;)))
-                    (5, Expression<Short> @:15209 op:7,dt:7,nt:9,next:65535,str:47810,d0:5,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:15210 op:4,dt:4,nt:8,next:15214,str:47815,d0:15211,d1:40671;
-                ("set", Expression<MethodOrOperator> @:15211 op:4,dt:2,nt:9,next:15212,str:2177,d0:0,d1:0;
-                    ("g_room_a_door", VariableAccess<Boolean> @:15212 op:65535,dt:5,nt:13,next:15213,str:22225,d0:10,d1:0;
-                        (True, Expression<Boolean> @:15213 op:5,dt:5,nt:9,next:65535,str:47834,d0:65281,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:15214 op:2,dt:4,nt:8,next:65535,str:47839,d0:15215,d1:40675;
-                ("if", Expression<MethodOrOperator> @:15215 op:2,dt:2,nt:9,next:15216,str:456,d0:0,d1:0;
-                    ("debug", VariableAccess<Boolean> @:15216 op:5,dt:5,nt:13,next:15217,str:17539,d0:3,d1:0;
-                        (____, BuiltinInvocation<Void> @:15217 op:27,dt:4,nt:8,next:65535,str:47849,d0:15218,d1:40678;
-                            ("print", Expression<MethodOrOperator> @:15218 op:27,dt:2,nt:9,next:15219,str:86,d0:0,d1:0;
-                                ("room a door opened", Expression<String> @:15219 op:9,dt:9,nt:9,next:65535,str:32866,d0:32866,d1:0;)))))))))
+("room_a_door", MethodDecl<Void> @:323 check:0,op:0,dt:0,nt:65535,next:15220,nextCheck:40680,str:32854,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:15220 check:40680,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:47727,h:2,d0:15221,d1:40681;
+        ("begin", Expression<MethodOrOperator> @:15221 check:40681,op:0,dt:2,nt:9,next:15201,nextCheck:40661,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:15201 check:40661,op:21,dt:4,nt:8,next:15210,nextCheck:40670,str:47757,h:2,d0:15202,d1:40662;
+                ("sleep_until", Expression<MethodOrOperator> @:15202 check:40662,op:21,dt:2,nt:9,next:15203,nextCheck:40663,str:231,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:15203 check:40663,op:15,dt:5,nt:8,next:15209,nextCheck:40669,str:47770,h:2,d0:15204,d1:40664;
+                        (">", Expression<MethodOrOperator> @:15204 check:40664,op:15,dt:2,nt:9,next:15205,nextCheck:40665,str:19379,h:0,d0:0,d1:0;
+                            (-2.3106214E-20f, BuiltinInvocation<Float> @:15205 check:40665,op:257,dt:6,nt:8,next:15208,nextCheck:40668,str:47773,h:2,d0:15206,d1:40666;
+                                ("device_get_position", Expression<MethodOrOperator> @:15206 check:40666,op:257,dt:2,nt:9,next:15207,nextCheck:40667,str:17009,h:0,d0:0,d1:0;
+                                    ("room_a_door", Expression<Device> @:15207 check:40667,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:32854,h:0,d0:367,d1:65535;)))
+                            (0f, Expression<Float> @:15208 check:40668,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:47807,h:2,d0:0,d1:0;)))
+                    (5, Expression<Short> @:15209 check:40669,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:47810,h:2,d0:5,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:15210 check:40670,op:4,dt:4,nt:8,next:15214,nextCheck:40674,str:47815,h:2,d0:15211,d1:40671;
+                ("set", Expression<MethodOrOperator> @:15211 check:40671,op:4,dt:2,nt:9,next:15212,nextCheck:40672,str:2177,h:0,d0:0,d1:0;
+                    ("g_room_a_door", VariableAccess<Boolean> @:15212 check:40672,op:65535,dt:5,nt:13,next:15213,nextCheck:40673,str:22225,h:0,d0:10,d1:0;
+                        (True, Expression<Boolean> @:15213 check:40673,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:47834,h:2,d0:65281,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:15214 check:40674,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:47839,h:2,d0:15215,d1:40675;
+                ("if", Expression<MethodOrOperator> @:15215 check:40675,op:2,dt:2,nt:9,next:15216,nextCheck:40676,str:456,h:0,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:15216 check:40676,op:5,dt:5,nt:13,next:15217,nextCheck:40677,str:17539,h:0,d0:3,d1:0;
+                        (____, BuiltinInvocation<Void> @:15217 check:40677,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:47849,h:2,d0:15218,d1:40678;
+                            ("print", Expression<MethodOrOperator> @:15218 check:40678,op:27,dt:2,nt:9,next:15219,nextCheck:40679,str:86,h:0,d0:0,d1:0;
+                                ("room a door opened", Expression<String> @:15219 check:40679,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:32866,h:0,d0:32866,d1:0;)))))))))

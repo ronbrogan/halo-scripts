@@ -1,43 +1,43 @@
 
-("sc_catch_truth", MethodDecl<Void> @:268 op:0,dt:0,nt:65535,next:11665,str:43670,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:11665 op:0,dt:4,nt:8,next:65535,str:15321,d0:11666,d1:37126;
-        ("begin", Expression<MethodOrOperator> @:11666 op:0,dt:2,nt:9,next:11626,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:11626 op:2,dt:4,nt:8,next:11632,str:15354,d0:11627,d1:37087;
-                ("if", Expression<MethodOrOperator> @:11627 op:2,dt:2,nt:9,next:11628,str:456,d0:0,d1:0;
-                    ("dialogue", VariableAccess<Boolean> @:11628 op:5,dt:5,nt:13,next:11629,str:19054,d0:4,d1:0;
-                        (____, BuiltinInvocation<Void> @:11629 op:27,dt:4,nt:8,next:65535,str:15367,d0:11630,d1:37090;
-                            ("print", Expression<MethodOrOperator> @:11630 op:27,dt:2,nt:9,next:11631,str:86,d0:0,d1:0;
-                                ("cortana: if we're going to catch truth, we'll need to take a short-cut -", Expression<String> @:11631 op:9,dt:9,nt:9,next:65535,str:27800,d0:27800,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:11632 op:2,dt:4,nt:8,next:11638,str:15453,d0:11633,d1:37093;
-                ("if", Expression<MethodOrOperator> @:11633 op:2,dt:2,nt:9,next:11634,str:456,d0:0,d1:0;
-                    ("dialogue", VariableAccess<Boolean> @:11634 op:5,dt:5,nt:13,next:11635,str:19054,d0:4,d1:0;
-                        (____, BuiltinInvocation<Void> @:11635 op:27,dt:4,nt:8,next:65535,str:15466,d0:11636,d1:37096;
-                            ("print", Expression<MethodOrOperator> @:11636 op:27,dt:2,nt:9,next:11637,str:86,d0:0,d1:0;
-                                ("cortana: straight through this mausoleum", Expression<String> @:11637 op:9,dt:9,nt:9,next:65535,str:27873,d0:27873,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:11638 op:19,dt:4,nt:8,next:11644,str:15520,d0:11639,d1:37099;
-                ("sleep", Expression<MethodOrOperator> @:11639 op:19,dt:2,nt:9,next:11640,str:80,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:11640 op:362,dt:7,nt:8,next:65535,str:15527,d0:11641,d1:37101;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:11641 op:362,dt:2,nt:9,next:11642,str:19089,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:11642 op:50,dt:50,nt:9,next:11643,str:1586,d0:65535,d1:65535;
-                                ("2610", Expression<StringId> @:11643 op:11,dt:11,nt:9,next:65535,str:27914,d0:13900,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:11644 op:19,dt:4,nt:8,next:11647,str:15565,d0:11645,d1:37105;
-                ("sleep", Expression<MethodOrOperator> @:11645 op:19,dt:2,nt:9,next:11646,str:80,d0:0,d1:0;
-                    ("dialogue_pause", VariableAccess<Short> @:11646 op:7,dt:7,nt:13,next:65535,str:19117,d0:38,d1:0;)))
-            (____, BuiltinInvocation<Void> @:11647 op:2,dt:4,nt:8,next:11653,str:15592,d0:11648,d1:37108;
-                ("if", Expression<MethodOrOperator> @:11648 op:2,dt:2,nt:9,next:11649,str:456,d0:0,d1:0;
-                    ("dialogue", VariableAccess<Boolean> @:11649 op:5,dt:5,nt:13,next:11650,str:19054,d0:4,d1:0;
-                        (____, BuiltinInvocation<Void> @:11650 op:27,dt:4,nt:8,next:65535,str:15605,d0:11651,d1:37111;
-                            ("print", Expression<MethodOrOperator> @:11651 op:27,dt:2,nt:9,next:11652,str:86,d0:0,d1:0;
-                                ("cortana: look on the bright side. for now,", Expression<String> @:11652 op:9,dt:9,nt:9,next:65535,str:27919,d0:27919,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:11653 op:2,dt:4,nt:8,next:11659,str:15661,d0:11654,d1:37114;
-                ("if", Expression<MethodOrOperator> @:11654 op:2,dt:2,nt:9,next:11655,str:456,d0:0,d1:0;
-                    ("dialogue", VariableAccess<Boolean> @:11655 op:5,dt:5,nt:13,next:11656,str:19054,d0:4,d1:0;
-                        (____, BuiltinInvocation<Void> @:11656 op:27,dt:4,nt:8,next:65535,str:15674,d0:11657,d1:37117;
-                            ("print", Expression<MethodOrOperator> @:11657 op:27,dt:2,nt:9,next:11658,str:86,d0:0,d1:0;
-                                ("cortana: they seem much more interested in killing each other", Expression<String> @:11658 op:9,dt:9,nt:9,next:65535,str:27962,d0:27962,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:11659 op:19,dt:4,nt:8,next:65535,str:15749,d0:11660,d1:37120;
-                ("sleep", Expression<MethodOrOperator> @:11660 op:19,dt:2,nt:9,next:11661,str:80,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:11661 op:362,dt:7,nt:8,next:65535,str:15756,d0:11662,d1:37122;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:11662 op:362,dt:2,nt:9,next:11663,str:19089,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:11663 op:50,dt:50,nt:9,next:11664,str:1586,d0:65535,d1:65535;
-                                ("2620", Expression<StringId> @:11664 op:11,dt:11,nt:9,next:65535,str:28024,d0:13901,d1:1024;)))))))))
+("sc_catch_truth", MethodDecl<Void> @:268 check:0,op:0,dt:0,nt:65535,next:11665,nextCheck:37125,str:43670,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:11665 check:37125,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:15321,h:2,d0:11666,d1:37126;
+        ("begin", Expression<MethodOrOperator> @:11666 check:37126,op:0,dt:2,nt:9,next:11626,nextCheck:37086,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:11626 check:37086,op:2,dt:4,nt:8,next:11632,nextCheck:37092,str:15354,h:2,d0:11627,d1:37087;
+                ("if", Expression<MethodOrOperator> @:11627 check:37087,op:2,dt:2,nt:9,next:11628,nextCheck:37088,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:11628 check:37088,op:5,dt:5,nt:13,next:11629,nextCheck:37089,str:19054,h:0,d0:4,d1:0;
+                        (____, BuiltinInvocation<Void> @:11629 check:37089,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:15367,h:2,d0:11630,d1:37090;
+                            ("print", Expression<MethodOrOperator> @:11630 check:37090,op:27,dt:2,nt:9,next:11631,nextCheck:37091,str:86,h:0,d0:0,d1:0;
+                                ("cortana: if we're going to catch truth, we'll need to take a short-cut -", Expression<String> @:11631 check:37091,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:27800,h:0,d0:27800,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:11632 check:37092,op:2,dt:4,nt:8,next:11638,nextCheck:37098,str:15453,h:2,d0:11633,d1:37093;
+                ("if", Expression<MethodOrOperator> @:11633 check:37093,op:2,dt:2,nt:9,next:11634,nextCheck:37094,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:11634 check:37094,op:5,dt:5,nt:13,next:11635,nextCheck:37095,str:19054,h:0,d0:4,d1:0;
+                        (____, BuiltinInvocation<Void> @:11635 check:37095,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:15466,h:2,d0:11636,d1:37096;
+                            ("print", Expression<MethodOrOperator> @:11636 check:37096,op:27,dt:2,nt:9,next:11637,nextCheck:37097,str:86,h:0,d0:0,d1:0;
+                                ("cortana: straight through this mausoleum", Expression<String> @:11637 check:37097,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:27873,h:0,d0:27873,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:11638 check:37098,op:19,dt:4,nt:8,next:11644,nextCheck:37104,str:15520,h:2,d0:11639,d1:37099;
+                ("sleep", Expression<MethodOrOperator> @:11639 check:37099,op:19,dt:2,nt:9,next:11640,nextCheck:37100,str:80,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:11640 check:37100,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:15527,h:2,d0:11641,d1:37101;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:11641 check:37101,op:362,dt:2,nt:9,next:11642,nextCheck:37102,str:19089,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:11642 check:37102,op:50,dt:50,nt:9,next:11643,nextCheck:37103,str:1586,h:0,d0:65535,d1:65535;
+                                ("2610", Expression<StringId> @:11643 check:37103,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:27914,h:0,d0:13900,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:11644 check:37104,op:19,dt:4,nt:8,next:11647,nextCheck:37107,str:15565,h:2,d0:11645,d1:37105;
+                ("sleep", Expression<MethodOrOperator> @:11645 check:37105,op:19,dt:2,nt:9,next:11646,nextCheck:37106,str:80,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:11646 check:37106,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:19117,h:0,d0:38,d1:0;)))
+            (____, BuiltinInvocation<Void> @:11647 check:37107,op:2,dt:4,nt:8,next:11653,nextCheck:37113,str:15592,h:2,d0:11648,d1:37108;
+                ("if", Expression<MethodOrOperator> @:11648 check:37108,op:2,dt:2,nt:9,next:11649,nextCheck:37109,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:11649 check:37109,op:5,dt:5,nt:13,next:11650,nextCheck:37110,str:19054,h:0,d0:4,d1:0;
+                        (____, BuiltinInvocation<Void> @:11650 check:37110,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:15605,h:2,d0:11651,d1:37111;
+                            ("print", Expression<MethodOrOperator> @:11651 check:37111,op:27,dt:2,nt:9,next:11652,nextCheck:37112,str:86,h:0,d0:0,d1:0;
+                                ("cortana: look on the bright side. for now,", Expression<String> @:11652 check:37112,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:27919,h:0,d0:27919,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:11653 check:37113,op:2,dt:4,nt:8,next:11659,nextCheck:37119,str:15661,h:2,d0:11654,d1:37114;
+                ("if", Expression<MethodOrOperator> @:11654 check:37114,op:2,dt:2,nt:9,next:11655,nextCheck:37115,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:11655 check:37115,op:5,dt:5,nt:13,next:11656,nextCheck:37116,str:19054,h:0,d0:4,d1:0;
+                        (____, BuiltinInvocation<Void> @:11656 check:37116,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:15674,h:2,d0:11657,d1:37117;
+                            ("print", Expression<MethodOrOperator> @:11657 check:37117,op:27,dt:2,nt:9,next:11658,nextCheck:37118,str:86,h:0,d0:0,d1:0;
+                                ("cortana: they seem much more interested in killing each other", Expression<String> @:11658 check:37118,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:27962,h:0,d0:27962,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:11659 check:37119,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:15749,h:2,d0:11660,d1:37120;
+                ("sleep", Expression<MethodOrOperator> @:11660 check:37120,op:19,dt:2,nt:9,next:11661,nextCheck:37121,str:80,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:11661 check:37121,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:15756,h:2,d0:11662,d1:37122;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:11662 check:37122,op:362,dt:2,nt:9,next:11663,nextCheck:37123,str:19089,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:11663 check:37123,op:50,dt:50,nt:9,next:11664,nextCheck:37124,str:1586,h:0,d0:65535,d1:65535;
+                                ("2620", Expression<StringId> @:11664 check:37124,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:28024,h:0,d0:13901,d1:1024;)))))))))

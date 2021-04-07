@@ -1,15 +1,15 @@
 
-("effect_helmet_smoke", MethodDecl<Void> @:132 op:0,dt:0,nt:65535,next:5460,str:14148,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5460 op:0,dt:4,nt:8,next:65535,str:1840,d0:5461,d1:63688;
-        ("begin", Expression<MethodOrOperator> @:5461 op:0,dt:2,nt:9,next:5449,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5449 op:19,dt:4,nt:8,next:5452,str:1878,d0:5450,d1:63677;
-                ("sleep", Expression<MethodOrOperator> @:5450 op:19,dt:2,nt:9,next:5451,str:90,d0:0,d1:0;
-                    (0, Expression<Short> @:5451 op:7,dt:7,nt:9,next:65535,str:1885,d0:0,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5452 op:27,dt:4,nt:8,next:5455,str:1890,d0:5453,d1:63680;
-                ("print", Expression<MethodOrOperator> @:5453 op:27,dt:2,nt:9,next:5454,str:96,d0:0,d1:0;
-                    ("effect - helmet smoke", Expression<String> @:5454 op:9,dt:9,nt:9,next:65535,str:13777,d0:13777,d1:0;)))
-            (____, BuiltinInvocation<Void> @:5455 op:41,dt:4,nt:8,next:65535,str:1924,d0:5456,d1:63683;
-                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:5456 op:41,dt:2,nt:9,next:5457,str:7901,d0:0,d1:0;
-                    ("effects\cinematics\02\charred_smoke_small", Expression<Effect> @:5457 op:33,dt:33,nt:9,next:5458,str:13799,d0:4550,d1:62438;
-                        (4294901905, Expression<Entity> @:5458 op:56,dt:50,nt:9,next:5459,str:13841,d0:145,d1:65535;
-                            ("head", Expression<StringId> @:5459 op:11,dt:11,nt:9,next:65535,str:3132,d0:149,d1:1024;))))))))
+("effect_helmet_smoke", MethodDecl<Void> @:132 check:0,op:0,dt:0,nt:65535,next:5460,nextCheck:63687,str:14148,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5460 check:63687,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1840,h:1,d0:5461,d1:63688;
+        ("begin", Expression<MethodOrOperator> @:5461 check:63688,op:0,dt:2,nt:9,next:5449,nextCheck:63676,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5449 check:63676,op:19,dt:4,nt:8,next:5452,nextCheck:63679,str:1878,h:1,d0:5450,d1:63677;
+                ("sleep", Expression<MethodOrOperator> @:5450 check:63677,op:19,dt:2,nt:9,next:5451,nextCheck:63678,str:90,h:0,d0:0,d1:0;
+                    (0, Expression<Short> @:5451 check:63678,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:1885,h:1,d0:0,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5452 check:63679,op:27,dt:4,nt:8,next:5455,nextCheck:63682,str:1890,h:1,d0:5453,d1:63680;
+                ("print", Expression<MethodOrOperator> @:5453 check:63680,op:27,dt:2,nt:9,next:5454,nextCheck:63681,str:96,h:0,d0:0,d1:0;
+                    ("effect - helmet smoke", Expression<String> @:5454 check:63681,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13777,h:0,d0:13777,d1:0;)))
+            (____, BuiltinInvocation<Void> @:5455 check:63682,op:41,dt:4,nt:8,next:65535,nextCheck:65535,str:1924,h:1,d0:5456,d1:63683;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:5456 check:63683,op:41,dt:2,nt:9,next:5457,nextCheck:63684,str:7901,h:0,d0:0,d1:0;
+                    ("effects\cinematics\02\charred_smoke_small", Expression<Effect> @:5457 check:63684,op:33,dt:33,nt:9,next:5458,nextCheck:63685,str:13799,h:0,d0:4550,d1:62438;
+                        (4294901905, Expression<Entity> @:5458 check:63685,op:56,dt:50,nt:9,next:5459,nextCheck:63686,str:13841,h:0,d0:145,d1:65535;
+                            ("head", Expression<StringId> @:5459 check:63686,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:3132,h:0,d0:149,d1:1024;))))))))

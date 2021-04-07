@@ -1,14 +1,14 @@
 
-("key_door_open", MethodDecl<Void> @:63 op:0,dt:0,nt:65535,next:1849,str:5054,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:1849 op:0,dt:4,nt:8,next:65535,str:22500,d0:1850,d1:60077;
-        ("begin", Expression<MethodOrOperator> @:1850 op:0,dt:2,nt:9,next:1839,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:1839 op:19,dt:4,nt:8,next:1842,str:22532,d0:1840,d1:60067;
-                ("sleep", Expression<MethodOrOperator> @:1840 op:19,dt:2,nt:9,next:1841,str:85,d0:0,d1:0;
-                    (210, Expression<Short> @:1841 op:7,dt:7,nt:9,next:65535,str:22539,d0:210,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1842 op:27,dt:4,nt:8,next:1845,str:22546,d0:1843,d1:60070;
-                ("print", Expression<MethodOrOperator> @:1843 op:27,dt:2,nt:9,next:1844,str:91,d0:0,d1:0;
-                    ("key door open", Expression<String> @:1844 op:9,dt:9,nt:9,next:65535,str:4985,d0:4985,d1:0;)))
-            (____, BuiltinInvocation<Void> @:1845 op:256,dt:4,nt:8,next:65535,str:22572,d0:1846,d1:60073;
-                ("device_set_position", Expression<MethodOrOperator> @:1846 op:256,dt:2,nt:9,next:1847,str:4999,d0:0,d1:0;
-                    ("key_ride_door0", Expression<Device> @:1847 op:60,dt:54,nt:9,next:1848,str:5019,d0:52,d1:65535;
-                        (1f, Expression<Float> @:1848 op:6,dt:6,nt:9,next:65535,str:22608,d0:0,d1:16256;)))))))
+("key_door_open", MethodDecl<Void> @:63 check:0,op:0,dt:0,nt:65535,next:1849,nextCheck:60076,str:5054,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:1849 check:60076,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:22500,h:0,d0:1850,d1:60077;
+        ("begin", Expression<MethodOrOperator> @:1850 check:60077,op:0,dt:2,nt:9,next:1839,nextCheck:60066,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1839 check:60066,op:19,dt:4,nt:8,next:1842,nextCheck:60069,str:22532,h:0,d0:1840,d1:60067;
+                ("sleep", Expression<MethodOrOperator> @:1840 check:60067,op:19,dt:2,nt:9,next:1841,nextCheck:60068,str:85,h:0,d0:0,d1:0;
+                    (210, Expression<Short> @:1841 check:60068,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:22539,h:0,d0:210,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1842 check:60069,op:27,dt:4,nt:8,next:1845,nextCheck:60072,str:22546,h:0,d0:1843,d1:60070;
+                ("print", Expression<MethodOrOperator> @:1843 check:60070,op:27,dt:2,nt:9,next:1844,nextCheck:60071,str:91,h:0,d0:0,d1:0;
+                    ("key door open", Expression<String> @:1844 check:60071,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:4985,h:0,d0:4985,d1:0;)))
+            (____, BuiltinInvocation<Void> @:1845 check:60072,op:256,dt:4,nt:8,next:65535,nextCheck:65535,str:22572,h:0,d0:1846,d1:60073;
+                ("device_set_position", Expression<MethodOrOperator> @:1846 check:60073,op:256,dt:2,nt:9,next:1847,nextCheck:60074,str:4999,h:0,d0:0,d1:0;
+                    ("key_ride_door0", Expression<Device> @:1847 check:60074,op:60,dt:54,nt:9,next:1848,nextCheck:60075,str:5019,h:0,d0:52,d1:65535;
+                        (1f, Expression<Float> @:1848 check:60075,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:22608,h:0,d0:0,d1:16256;)))))))

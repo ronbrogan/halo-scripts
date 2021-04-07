@@ -1,23 +1,23 @@
 
-("c07_outro_cinematic_lighting_02", MethodDecl<Void> @:94 op:0,dt:0,nt:65535,next:2864,str:8163,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2864 op:0,dt:4,nt:8,next:65535,str:34529,d0:2865,d1:61092;
-        ("begin", Expression<MethodOrOperator> @:2865 op:0,dt:2,nt:9,next:2845,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2845 op:96,dt:4,nt:8,next:2852,str:34582,d0:2846,d1:61073;
-                ("cinematic_lighting_set_primary_light", Expression<MethodOrOperator> @:2846 op:96,dt:2,nt:9,next:2847,str:1649,d0:0,d1:0;
-                    (-41f, Expression<Float> @:2847 op:6,dt:6,nt:9,next:2848,str:34620,d0:0,d1:49700;
-                        (270f, Expression<Float> @:2848 op:6,dt:6,nt:9,next:2849,str:34624,d0:0,d1:17287;
-                            (0.25f, Expression<Float> @:2849 op:6,dt:6,nt:9,next:2850,str:34628,d0:0,d1:16000;
-                                (0.32f, Expression<Float> @:2850 op:6,dt:6,nt:9,next:2851,str:34633,d0:55050,d1:16035;
-                                    (0.52f, Expression<Float> @:2851 op:6,dt:6,nt:9,next:65535,str:34638,d0:7864,d1:16133;)))))))
-            (____, BuiltinInvocation<Void> @:2852 op:97,dt:4,nt:8,next:2859,str:34646,d0:2853,d1:61080;
-                ("cinematic_lighting_set_secondary_light", Expression<MethodOrOperator> @:2853 op:97,dt:2,nt:9,next:2854,str:1686,d0:0,d1:0;
-                    (58f, Expression<Float> @:2854 op:6,dt:6,nt:9,next:2855,str:34686,d0:0,d1:17000;
-                        (78f, Expression<Float> @:2855 op:6,dt:6,nt:9,next:2856,str:34689,d0:0,d1:17052;
-                            (0.21f, Expression<Float> @:2856 op:6,dt:6,nt:9,next:2857,str:34692,d0:2621,d1:15959;
-                                (0.11f, Expression<Float> @:2857 op:6,dt:6,nt:9,next:2858,str:34697,d0:18350,d1:15841;
-                                    (0.22f, Expression<Float> @:2858 op:6,dt:6,nt:9,next:65535,str:34702,d0:18350,d1:15969;)))))))
-            (____, BuiltinInvocation<Void> @:2859 op:98,dt:4,nt:8,next:65535,str:34710,d0:2860,d1:61087;
-                ("cinematic_lighting_set_ambient_light", Expression<MethodOrOperator> @:2860 op:98,dt:2,nt:9,next:2861,str:1725,d0:0,d1:0;
-                    (0.06f, Expression<Float> @:2861 op:6,dt:6,nt:9,next:2862,str:34748,d0:49807,d1:15733;
-                        (0.05f, Expression<Float> @:2862 op:6,dt:6,nt:9,next:2863,str:34753,d0:52429,d1:15692;
-                            (0.04f, Expression<Float> @:2863 op:6,dt:6,nt:9,next:65535,str:34758,d0:55050,d1:15651;))))))))
+("c07_outro_cinematic_lighting_02", MethodDecl<Void> @:94 check:0,op:0,dt:0,nt:65535,next:2864,nextCheck:61091,str:8163,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2864 check:61091,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:34529,h:0,d0:2865,d1:61092;
+        ("begin", Expression<MethodOrOperator> @:2865 check:61092,op:0,dt:2,nt:9,next:2845,nextCheck:61072,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2845 check:61072,op:96,dt:4,nt:8,next:2852,nextCheck:61079,str:34582,h:0,d0:2846,d1:61073;
+                ("cinematic_lighting_set_primary_light", Expression<MethodOrOperator> @:2846 check:61073,op:96,dt:2,nt:9,next:2847,nextCheck:61074,str:1649,h:0,d0:0,d1:0;
+                    (-41f, Expression<Float> @:2847 check:61074,op:6,dt:6,nt:9,next:2848,nextCheck:61075,str:34620,h:0,d0:0,d1:49700;
+                        (270f, Expression<Float> @:2848 check:61075,op:6,dt:6,nt:9,next:2849,nextCheck:61076,str:34624,h:0,d0:0,d1:17287;
+                            (0.25f, Expression<Float> @:2849 check:61076,op:6,dt:6,nt:9,next:2850,nextCheck:61077,str:34628,h:0,d0:0,d1:16000;
+                                (0.32f, Expression<Float> @:2850 check:61077,op:6,dt:6,nt:9,next:2851,nextCheck:61078,str:34633,h:0,d0:55050,d1:16035;
+                                    (0.52f, Expression<Float> @:2851 check:61078,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:34638,h:0,d0:7864,d1:16133;)))))))
+            (____, BuiltinInvocation<Void> @:2852 check:61079,op:97,dt:4,nt:8,next:2859,nextCheck:61086,str:34646,h:0,d0:2853,d1:61080;
+                ("cinematic_lighting_set_secondary_light", Expression<MethodOrOperator> @:2853 check:61080,op:97,dt:2,nt:9,next:2854,nextCheck:61081,str:1686,h:0,d0:0,d1:0;
+                    (58f, Expression<Float> @:2854 check:61081,op:6,dt:6,nt:9,next:2855,nextCheck:61082,str:34686,h:0,d0:0,d1:17000;
+                        (78f, Expression<Float> @:2855 check:61082,op:6,dt:6,nt:9,next:2856,nextCheck:61083,str:34689,h:0,d0:0,d1:17052;
+                            (0.21f, Expression<Float> @:2856 check:61083,op:6,dt:6,nt:9,next:2857,nextCheck:61084,str:34692,h:0,d0:2621,d1:15959;
+                                (0.11f, Expression<Float> @:2857 check:61084,op:6,dt:6,nt:9,next:2858,nextCheck:61085,str:34697,h:0,d0:18350,d1:15841;
+                                    (0.22f, Expression<Float> @:2858 check:61085,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:34702,h:0,d0:18350,d1:15969;)))))))
+            (____, BuiltinInvocation<Void> @:2859 check:61086,op:98,dt:4,nt:8,next:65535,nextCheck:65535,str:34710,h:0,d0:2860,d1:61087;
+                ("cinematic_lighting_set_ambient_light", Expression<MethodOrOperator> @:2860 check:61087,op:98,dt:2,nt:9,next:2861,nextCheck:61088,str:1725,h:0,d0:0,d1:0;
+                    (0.06f, Expression<Float> @:2861 check:61088,op:6,dt:6,nt:9,next:2862,nextCheck:61089,str:34748,h:0,d0:49807,d1:15733;
+                        (0.05f, Expression<Float> @:2862 check:61089,op:6,dt:6,nt:9,next:2863,nextCheck:61090,str:34753,h:0,d0:52429,d1:15692;
+                            (0.04f, Expression<Float> @:2863 check:61090,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:34758,h:0,d0:55050,d1:15651;))))))))

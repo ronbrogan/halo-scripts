@@ -1,17 +1,17 @@
 
-("cs_cond_b_sen_tube_b", MethodDecl<Void> @:328 op:0,dt:0,nt:65535,next:16134,str:25776,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:16134 op:0,dt:4,nt:8,next:65535,str:27078,d0:16135,d1:41595;
-        ("begin", Expression<MethodOrOperator> @:16135 op:0,dt:2,nt:9,next:16121,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:16121 op:449,dt:4,nt:8,next:16124,str:27124,d0:16122,d1:41582;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:16122 op:449,dt:2,nt:9,next:16123,str:1239,d0:0,d1:0;
-                    (True, Expression<Boolean> @:16123 op:5,dt:5,nt:9,next:65535,str:27156,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16124 op:381,dt:4,nt:8,next:16128,str:27198,d0:16125,d1:41585;
-                ("cs_fly_to_and_face", Expression<MethodOrOperator> @:16125 op:381,dt:2,nt:9,next:16126,str:17625,d0:0,d1:0;
-                    ("cond_b/p1", Expression<SpatialPoint> @:16126 op:28,dt:28,nt:9,next:16127,str:25645,d0:1,d1:7;
-                        ("cond_b/p2", Expression<SpatialPoint> @:16127 op:28,dt:28,nt:9,next:65535,str:25655,d0:2,d1:7;))))
-            (____, BuiltinInvocation<Void> @:16128 op:379,dt:4,nt:8,next:16131,str:27241,d0:16129,d1:41589;
-                ("cs_fly_to", Expression<MethodOrOperator> @:16129 op:379,dt:2,nt:9,next:16130,str:17940,d0:0,d1:0;
-                    ("cond_b/p2", Expression<SpatialPoint> @:16130 op:28,dt:28,nt:9,next:65535,str:25655,d0:2,d1:7;)))
-            (____, BuiltinInvocation<Void> @:16131 op:379,dt:4,nt:8,next:65535,str:27265,d0:16132,d1:41592;
-                ("cs_fly_to", Expression<MethodOrOperator> @:16132 op:379,dt:2,nt:9,next:16133,str:17940,d0:0,d1:0;
-                    ("cond_b/p3", Expression<SpatialPoint> @:16133 op:28,dt:28,nt:9,next:65535,str:25665,d0:3,d1:7;))))))
+("cs_cond_b_sen_tube_b", MethodDecl<Void> @:328 check:0,op:0,dt:0,nt:65535,next:16134,nextCheck:41594,str:25776,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:16134 check:41594,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:27078,h:2,d0:16135,d1:41595;
+        ("begin", Expression<MethodOrOperator> @:16135 check:41595,op:0,dt:2,nt:9,next:16121,nextCheck:41581,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:16121 check:41581,op:449,dt:4,nt:8,next:16124,nextCheck:41584,str:27124,h:2,d0:16122,d1:41582;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:16122 check:41582,op:449,dt:2,nt:9,next:16123,nextCheck:41583,str:1239,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16123 check:41583,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:27156,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16124 check:41584,op:381,dt:4,nt:8,next:16128,nextCheck:41588,str:27198,h:2,d0:16125,d1:41585;
+                ("cs_fly_to_and_face", Expression<MethodOrOperator> @:16125 check:41585,op:381,dt:2,nt:9,next:16126,nextCheck:41586,str:17625,h:0,d0:0,d1:0;
+                    ("cond_b/p1", Expression<SpatialPoint> @:16126 check:41586,op:28,dt:28,nt:9,next:16127,nextCheck:41587,str:25645,h:0,d0:1,d1:7;
+                        ("cond_b/p2", Expression<SpatialPoint> @:16127 check:41587,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:25655,h:0,d0:2,d1:7;))))
+            (____, BuiltinInvocation<Void> @:16128 check:41588,op:379,dt:4,nt:8,next:16131,nextCheck:41591,str:27241,h:2,d0:16129,d1:41589;
+                ("cs_fly_to", Expression<MethodOrOperator> @:16129 check:41589,op:379,dt:2,nt:9,next:16130,nextCheck:41590,str:17940,h:0,d0:0,d1:0;
+                    ("cond_b/p2", Expression<SpatialPoint> @:16130 check:41590,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:25655,h:0,d0:2,d1:7;)))
+            (____, BuiltinInvocation<Void> @:16131 check:41591,op:379,dt:4,nt:8,next:65535,nextCheck:65535,str:27265,h:2,d0:16132,d1:41592;
+                ("cs_fly_to", Expression<MethodOrOperator> @:16132 check:41592,op:379,dt:2,nt:9,next:16133,nextCheck:41593,str:17940,h:0,d0:0,d1:0;
+                    ("cond_b/p3", Expression<SpatialPoint> @:16133 check:41593,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:25665,h:0,d0:3,d1:7;))))))

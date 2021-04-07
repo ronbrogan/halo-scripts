@@ -1,19 +1,19 @@
 
-("e1_cov_inf2_sleep_until_respawn", MethodDecl<Void> @:394 op:0,dt:0,nt:65535,next:16312,str:27246,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:16312 op:0,dt:4,nt:8,next:65535,str:8882,d0:16313,d1:41773;
-        ("begin", Expression<MethodOrOperator> @:16313 op:0,dt:2,nt:9,next:16297,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:16297 op:21,dt:4,nt:8,next:16303,str:9002,d0:16298,d1:41758;
-                ("sleep_until", Expression<MethodOrOperator> @:16298 op:21,dt:2,nt:9,next:16299,str:294,d0:0,d1:0;
-                    ("e1_cov_inf2_spawn_ready", ScriptInvocation<Boolean> @:16299 op:393,dt:5,nt:10,next:16301,str:9015,d0:16300,d1:41760;
-                        ("e1_cov_inf2_spawn_ready", Expression<MethodOrOperator> @:16300 op:393,dt:2,nt:9,next:65535,str:27128,d0:0,d1:0;))
-                    (31, Expression<Short> @:16301 op:7,dt:7,nt:9,next:16302,str:9041,d0:31,d1:65535;
-                        ("two_minutes", VariableAccess<Int> @:16302 op:8,dt:8,nt:13,next:65535,str:10165,d0:8,d1:0;))))
-            (____, BuiltinInvocation<Void> @:16303 op:21,dt:4,nt:8,next:65535,str:9109,d0:16304,d1:41764;
-                ("sleep_until", Expression<MethodOrOperator> @:16304 op:21,dt:2,nt:9,next:16305,str:294,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:16305 op:33,dt:5,nt:8,next:16310,str:9122,d0:16306,d1:41766;
-                        ("volume_test_objects", Expression<MethodOrOperator> @:16306 op:33,dt:2,nt:9,next:16307,str:11142,d0:0,d1:0;
-                            ("tv_e1_on_building", Expression<Trigger> @:16307 op:13,dt:13,nt:9,next:16308,str:27152,d0:91,d1:0;
-                                (____, BuiltinInvocation<List> @:16308 op:28,dt:31,nt:8,next:65535,str:9161,d0:16309,d1:41769;
-                                    ("players", Expression<MethodOrOperator> @:16309 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;)))))
-                    (30, Expression<Short> @:16310 op:7,dt:7,nt:9,next:16311,str:9172,d0:30,d1:65535;
-                        (150, Expression<Int> @:16311 op:8,dt:8,nt:9,next:65535,str:9175,d0:150,d1:0;)))))))
+("e1_cov_inf2_sleep_until_respawn", MethodDecl<Void> @:394 check:0,op:0,dt:0,nt:65535,next:16312,nextCheck:41772,str:27246,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:16312 check:41772,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:8882,h:3,d0:16313,d1:41773;
+        ("begin", Expression<MethodOrOperator> @:16313 check:41773,op:0,dt:2,nt:9,next:16297,nextCheck:41757,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:16297 check:41757,op:21,dt:4,nt:8,next:16303,nextCheck:41763,str:9002,h:3,d0:16298,d1:41758;
+                ("sleep_until", Expression<MethodOrOperator> @:16298 check:41758,op:21,dt:2,nt:9,next:16299,nextCheck:41759,str:294,h:0,d0:0,d1:0;
+                    ("e1_cov_inf2_spawn_ready", ScriptInvocation<Boolean> @:16299 check:41759,op:393,dt:5,nt:10,next:16301,nextCheck:41761,str:9015,h:3,d0:16300,d1:41760;
+                        ("e1_cov_inf2_spawn_ready", Expression<MethodOrOperator> @:16300 check:41760,op:393,dt:2,nt:9,next:65535,nextCheck:65535,str:27128,h:0,d0:0,d1:0;))
+                    (31, Expression<Short> @:16301 check:41761,op:7,dt:7,nt:9,next:16302,nextCheck:41762,str:9041,h:3,d0:31,d1:65535;
+                        ("two_minutes", VariableAccess<Int> @:16302 check:41762,op:8,dt:8,nt:13,next:65535,nextCheck:65535,str:10165,h:0,d0:8,d1:0;))))
+            (____, BuiltinInvocation<Void> @:16303 check:41763,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:9109,h:3,d0:16304,d1:41764;
+                ("sleep_until", Expression<MethodOrOperator> @:16304 check:41764,op:21,dt:2,nt:9,next:16305,nextCheck:41765,str:294,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:16305 check:41765,op:33,dt:5,nt:8,next:16310,nextCheck:41770,str:9122,h:3,d0:16306,d1:41766;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:16306 check:41766,op:33,dt:2,nt:9,next:16307,nextCheck:41767,str:11142,h:0,d0:0,d1:0;
+                            ("tv_e1_on_building", Expression<Trigger> @:16307 check:41767,op:13,dt:13,nt:9,next:16308,nextCheck:41768,str:27152,h:0,d0:91,d1:0;
+                                (____, BuiltinInvocation<List> @:16308 check:41768,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:9161,h:3,d0:16309,d1:41769;
+                                    ("players", Expression<MethodOrOperator> @:16309 check:41769,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:84,h:0,d0:0,d1:0;)))))
+                    (30, Expression<Short> @:16310 check:41770,op:7,dt:7,nt:9,next:16311,nextCheck:41771,str:9172,h:3,d0:30,d1:65535;
+                        (150, Expression<Int> @:16311 check:41771,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:9175,h:3,d0:150,d1:0;)))))))

@@ -1,19 +1,19 @@
 
-("e10_dia_truth_theparasite", MethodDecl<Void> @:147 op:0,dt:0,nt:65535,next:4202,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4202 op:0,dt:4,nt:8,next:65535,str:53132,d0:4203,d1:62430;
-        ("begin", Expression<MethodOrOperator> @:4203 op:0,dt:2,nt:9,next:4187,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4187 op:2,dt:4,nt:8,next:4193,str:53212,d0:4188,d1:62415;
-                ("if", Expression<MethodOrOperator> @:4188 op:2,dt:2,nt:9,next:4189,str:456,d0:0,d1:0;
-                    ("dialogue", VariableAccess<Boolean> @:4189 op:5,dt:5,nt:13,next:4190,str:10462,d0:3,d1:0;
-                        (____, BuiltinInvocation<Void> @:4190 op:27,dt:4,nt:8,next:65535,str:53225,d0:4191,d1:62418;
-                            ("print", Expression<MethodOrOperator> @:4191 op:27,dt:2,nt:9,next:4192,str:86,d0:0,d1:0;
-                                ("truth: the parasite did not defeat the forerunners, and it shall not defeat us!", Expression<String> @:4192 op:9,dt:9,nt:9,next:65535,str:12095,d0:12095,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:4193 op:19,dt:4,nt:8,next:4199,str:53318,d0:4194,d1:62421;
-                ("sleep", Expression<MethodOrOperator> @:4194 op:19,dt:2,nt:9,next:4195,str:80,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:4195 op:362,dt:7,nt:8,next:65535,str:53325,d0:4196,d1:62423;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4196 op:362,dt:2,nt:9,next:4197,str:10552,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:4197 op:50,dt:50,nt:9,next:4198,str:1386,d0:65535,d1:65535;
-                                ("2910", Expression<StringId> @:4198 op:11,dt:11,nt:9,next:65535,str:12175,d0:13576,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:4199 op:19,dt:4,nt:8,next:65535,str:53363,d0:4200,d1:62427;
-                ("sleep", Expression<MethodOrOperator> @:4200 op:19,dt:2,nt:9,next:4201,str:80,d0:0,d1:0;
-                    ("dialogue_pause", VariableAccess<Short> @:4201 op:7,dt:7,nt:13,next:65535,str:10580,d0:4,d1:0;))))))
+("e10_dia_truth_theparasite", MethodDecl<Void> @:147 check:0,op:0,dt:0,nt:65535,next:4202,nextCheck:62429,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4202 check:62429,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:53132,h:0,d0:4203,d1:62430;
+        ("begin", Expression<MethodOrOperator> @:4203 check:62430,op:0,dt:2,nt:9,next:4187,nextCheck:62414,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4187 check:62414,op:2,dt:4,nt:8,next:4193,nextCheck:62420,str:53212,h:0,d0:4188,d1:62415;
+                ("if", Expression<MethodOrOperator> @:4188 check:62415,op:2,dt:2,nt:9,next:4189,nextCheck:62416,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:4189 check:62416,op:5,dt:5,nt:13,next:4190,nextCheck:62417,str:10462,h:0,d0:3,d1:0;
+                        (____, BuiltinInvocation<Void> @:4190 check:62417,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:53225,h:0,d0:4191,d1:62418;
+                            ("print", Expression<MethodOrOperator> @:4191 check:62418,op:27,dt:2,nt:9,next:4192,nextCheck:62419,str:86,h:0,d0:0,d1:0;
+                                ("truth: the parasite did not defeat the forerunners, and it shall not defeat us!", Expression<String> @:4192 check:62419,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12095,h:0,d0:12095,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:4193 check:62420,op:19,dt:4,nt:8,next:4199,nextCheck:62426,str:53318,h:0,d0:4194,d1:62421;
+                ("sleep", Expression<MethodOrOperator> @:4194 check:62421,op:19,dt:2,nt:9,next:4195,nextCheck:62422,str:80,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:4195 check:62422,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:53325,h:0,d0:4196,d1:62423;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4196 check:62423,op:362,dt:2,nt:9,next:4197,nextCheck:62424,str:10552,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:4197 check:62424,op:50,dt:50,nt:9,next:4198,nextCheck:62425,str:1386,h:0,d0:65535,d1:65535;
+                                ("2910", Expression<StringId> @:4198 check:62425,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12175,h:0,d0:13576,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:4199 check:62426,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:53363,h:0,d0:4200,d1:62427;
+                ("sleep", Expression<MethodOrOperator> @:4200 check:62427,op:19,dt:2,nt:9,next:4201,nextCheck:62428,str:80,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:4201 check:62428,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:10580,h:0,d0:4,d1:0;))))))

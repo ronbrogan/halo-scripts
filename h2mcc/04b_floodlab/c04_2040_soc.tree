@@ -1,16 +1,16 @@
 
-("c04_2040_soc", MethodDecl<Void> @:52 op:0,dt:0,nt:65535,next:1696,str:4500,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:1696 op:0,dt:4,nt:8,next:65535,str:20196,d0:1697,d1:59924;
-        ("begin", Expression<MethodOrOperator> @:1697 op:0,dt:2,nt:9,next:1684,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:1684 op:19,dt:4,nt:8,next:1687,str:20227,d0:1685,d1:59912;
-                ("sleep", Expression<MethodOrOperator> @:1685 op:19,dt:2,nt:9,next:1686,str:289,d0:0,d1:0;
-                    (96, Expression<Short> @:1686 op:7,dt:7,nt:9,next:65535,str:20234,d0:96,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1687 op:596,dt:4,nt:8,next:1692,str:20240,d0:1688,d1:59915;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:1688 op:596,dt:2,nt:9,next:1689,str:1435,d0:0,d1:0;
-                    ("sound\dialog\levels\04_gasgiant\cinematic\c04_2040_soc", Expression<Sound> @:1689 op:32,dt:32,nt:9,next:1690,str:4445,d0:1327,d1:59045;
-                        (4294902043, Expression<Entity> @:1690 op:56,dt:50,nt:9,next:1691,str:3067,d0:283,d1:65535;
-                            (1f, Expression<Float> @:1691 op:6,dt:6,nt:9,next:65535,str:20326,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:1692 op:562,dt:4,nt:8,next:65535,str:20331,d0:1693,d1:59920;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:1693 op:562,dt:2,nt:9,next:1694,str:1705,d0:0,d1:0;
-                    ("c04_2040_soc", Expression<StringId> @:1694 op:11,dt:11,nt:9,next:1695,str:4500,d0:4531,d1:3072;
-                        (3f, Expression<Float> @:1695 op:6,dt:6,nt:9,next:65535,str:20364,d0:0,d1:16448;)))))))
+("c04_2040_soc", MethodDecl<Void> @:52 check:0,op:0,dt:0,nt:65535,next:1696,nextCheck:59923,str:4500,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:1696 check:59923,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:20196,h:0,d0:1697,d1:59924;
+        ("begin", Expression<MethodOrOperator> @:1697 check:59924,op:0,dt:2,nt:9,next:1684,nextCheck:59911,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1684 check:59911,op:19,dt:4,nt:8,next:1687,nextCheck:59914,str:20227,h:0,d0:1685,d1:59912;
+                ("sleep", Expression<MethodOrOperator> @:1685 check:59912,op:19,dt:2,nt:9,next:1686,nextCheck:59913,str:289,h:0,d0:0,d1:0;
+                    (96, Expression<Short> @:1686 check:59913,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:20234,h:0,d0:96,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1687 check:59914,op:596,dt:4,nt:8,next:1692,nextCheck:59919,str:20240,h:0,d0:1688,d1:59915;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:1688 check:59915,op:596,dt:2,nt:9,next:1689,nextCheck:59916,str:1435,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\04_gasgiant\cinematic\c04_2040_soc", Expression<Sound> @:1689 check:59916,op:32,dt:32,nt:9,next:1690,nextCheck:59917,str:4445,h:0,d0:1327,d1:59045;
+                        (4294902043, Expression<Entity> @:1690 check:59917,op:56,dt:50,nt:9,next:1691,nextCheck:59918,str:3067,h:0,d0:283,d1:65535;
+                            (1f, Expression<Float> @:1691 check:59918,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:20326,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:1692 check:59919,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:20331,h:0,d0:1693,d1:59920;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:1693 check:59920,op:562,dt:2,nt:9,next:1694,nextCheck:59921,str:1705,h:0,d0:0,d1:0;
+                    ("c04_2040_soc", Expression<StringId> @:1694 check:59921,op:11,dt:11,nt:9,next:1695,nextCheck:59922,str:4500,h:0,d0:4531,d1:3072;
+                        (3f, Expression<Float> @:1695 check:59922,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:20364,h:0,d0:0,d1:16448;)))))))

@@ -1,15 +1,15 @@
 
-("marine_whisper", MethodDecl<Void> @:87 op:0,dt:0,nt:65535,next:3042,str:9421,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3042 op:0,dt:4,nt:8,next:65535,str:36102,d0:3043,d1:61270;
-        ("begin", Expression<MethodOrOperator> @:3043 op:0,dt:2,nt:9,next:3031,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3031 op:19,dt:4,nt:8,next:3034,str:36135,d0:3032,d1:61259;
-                ("sleep", Expression<MethodOrOperator> @:3032 op:19,dt:2,nt:9,next:3033,str:90,d0:0,d1:0;
-                    (413, Expression<Short> @:3033 op:7,dt:7,nt:9,next:65535,str:36142,d0:413,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3034 op:27,dt:4,nt:8,next:3037,str:36149,d0:3035,d1:61262;
-                ("print", Expression<MethodOrOperator> @:3035 op:27,dt:2,nt:9,next:3036,str:96,d0:0,d1:0;
-                    ("marine whisper", Expression<String> @:3036 op:9,dt:9,nt:9,next:65535,str:7628,d0:7628,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3037 op:596,dt:4,nt:8,next:65535,str:36176,d0:3038,d1:61265;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:3038 op:596,dt:2,nt:9,next:3039,str:1446,d0:0,d1:0;
-                    ("sound\ambience\earthcity\whisper", Expression<Sound> @:3039 op:32,dt:32,nt:9,next:3040,str:7643,d0:4500,d1:62388;
-                        (4294902088, Expression<Entity> @:3040 op:56,dt:50,nt:9,next:3041,str:7676,d0:328,d1:65535;
-                            (1f, Expression<Float> @:3041 op:6,dt:6,nt:9,next:65535,str:36240,d0:0,d1:16256;))))))))
+("marine_whisper", MethodDecl<Void> @:87 check:0,op:0,dt:0,nt:65535,next:3042,nextCheck:61269,str:9421,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3042 check:61269,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36102,h:0,d0:3043,d1:61270;
+        ("begin", Expression<MethodOrOperator> @:3043 check:61270,op:0,dt:2,nt:9,next:3031,nextCheck:61258,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3031 check:61258,op:19,dt:4,nt:8,next:3034,nextCheck:61261,str:36135,h:0,d0:3032,d1:61259;
+                ("sleep", Expression<MethodOrOperator> @:3032 check:61259,op:19,dt:2,nt:9,next:3033,nextCheck:61260,str:90,h:0,d0:0,d1:0;
+                    (413, Expression<Short> @:3033 check:61260,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:36142,h:0,d0:413,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3034 check:61261,op:27,dt:4,nt:8,next:3037,nextCheck:61264,str:36149,h:0,d0:3035,d1:61262;
+                ("print", Expression<MethodOrOperator> @:3035 check:61262,op:27,dt:2,nt:9,next:3036,nextCheck:61263,str:96,h:0,d0:0,d1:0;
+                    ("marine whisper", Expression<String> @:3036 check:61263,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:7628,h:0,d0:7628,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3037 check:61264,op:596,dt:4,nt:8,next:65535,nextCheck:65535,str:36176,h:0,d0:3038,d1:61265;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:3038 check:61265,op:596,dt:2,nt:9,next:3039,nextCheck:61266,str:1446,h:0,d0:0,d1:0;
+                    ("sound\ambience\earthcity\whisper", Expression<Sound> @:3039 check:61266,op:32,dt:32,nt:9,next:3040,nextCheck:61267,str:7643,h:0,d0:4500,d1:62388;
+                        (4294902088, Expression<Entity> @:3040 check:61267,op:56,dt:50,nt:9,next:3041,nextCheck:61268,str:7676,h:0,d0:328,d1:65535;
+                            (1f, Expression<Float> @:3041 check:61268,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:36240,h:0,d0:0,d1:16256;))))))))

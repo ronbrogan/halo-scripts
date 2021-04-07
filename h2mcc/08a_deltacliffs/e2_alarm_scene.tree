@@ -1,22 +1,22 @@
 
-("e2_alarm_scene", MethodDecl<Void> @:197 op:0,dt:0,nt:65535,next:7607,str:13752,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:7607 op:0,dt:4,nt:8,next:65535,str:30359,d0:7608,d1:33068;
-        ("begin", Expression<MethodOrOperator> @:7608 op:0,dt:2,nt:9,next:7589,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:7589 op:21,dt:4,nt:8,next:7598,str:30435,d0:7590,d1:33050;
-                ("sleep_until", Expression<MethodOrOperator> @:7590 op:21,dt:2,nt:9,next:7591,str:294,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:7591 op:17,dt:5,nt:8,next:7597,str:30448,d0:7592,d1:33052;
-                        (">=", Expression<MethodOrOperator> @:7592 op:17,dt:2,nt:9,next:7593,str:734,d0:0,d1:0;
-                            (____, BuiltinInvocation<Short> @:7593 op:353,dt:7,nt:8,next:7596,str:30452,d0:7594,d1:33054;
-                                ("ai_combat_status", Expression<MethodOrOperator> @:7594 op:353,dt:2,nt:9,next:7595,str:5804,d0:0,d1:0;
-                                    ("e2_pro_inf0", Expression<AI> @:7595 op:19,dt:19,nt:9,next:65535,str:13608,d0:14,d1:0;)))
-                            ("ai_combat_status_visible", VariableAccess<Short> @:7596 op:7,dt:7,nt:13,next:65535,str:13727,d0:33578,d1:65535;)))
-                    (15, Expression<Short> @:7597 op:7,dt:7,nt:9,next:65535,str:30509,d0:15,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:7598 op:21,dt:4,nt:8,next:65535,str:30567,d0:7599,d1:33059;
-                ("sleep_until", Expression<MethodOrOperator> @:7599 op:21,dt:2,nt:9,next:7600,str:294,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:7600 op:363,dt:5,nt:8,next:7605,str:30583,d0:7601,d1:33061;
-                        ("ai_scene", Expression<MethodOrOperator> @:7601 op:363,dt:2,nt:9,next:7602,str:7316,d0:0,d1:0;
-                            ("e2_alarm_scene", Expression<StringId> @:7602 op:11,dt:11,nt:9,next:7603,str:13752,d0:13316,d1:3584;
-                                ("cs_e2_alarm_scene", Expression<AIScript> @:7603 op:21,dt:21,nt:9,next:7604,str:13767,d0:191,d1:0;
-                                    ("e2_pro_inf0", Expression<AI> @:7604 op:19,dt:19,nt:9,next:65535,str:13608,d0:14,d1:0;)))))
-                    (15, Expression<Short> @:7605 op:7,dt:7,nt:9,next:7606,str:30642,d0:15,d1:65535;
-                        (300, Expression<Int> @:7606 op:8,dt:8,nt:9,next:65535,str:30648,d0:300,d1:0;)))))))
+("e2_alarm_scene", MethodDecl<Void> @:197 check:0,op:0,dt:0,nt:65535,next:7607,nextCheck:33067,str:13752,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:7607 check:33067,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:30359,h:1,d0:7608,d1:33068;
+        ("begin", Expression<MethodOrOperator> @:7608 check:33068,op:0,dt:2,nt:9,next:7589,nextCheck:33049,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:7589 check:33049,op:21,dt:4,nt:8,next:7598,nextCheck:33058,str:30435,h:1,d0:7590,d1:33050;
+                ("sleep_until", Expression<MethodOrOperator> @:7590 check:33050,op:21,dt:2,nt:9,next:7591,nextCheck:33051,str:294,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:7591 check:33051,op:17,dt:5,nt:8,next:7597,nextCheck:33057,str:30448,h:1,d0:7592,d1:33052;
+                        (">=", Expression<MethodOrOperator> @:7592 check:33052,op:17,dt:2,nt:9,next:7593,nextCheck:33053,str:734,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Short> @:7593 check:33053,op:353,dt:7,nt:8,next:7596,nextCheck:33056,str:30452,h:1,d0:7594,d1:33054;
+                                ("ai_combat_status", Expression<MethodOrOperator> @:7594 check:33054,op:353,dt:2,nt:9,next:7595,nextCheck:33055,str:5804,h:0,d0:0,d1:0;
+                                    ("e2_pro_inf0", Expression<AI> @:7595 check:33055,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13608,h:0,d0:14,d1:0;)))
+                            ("ai_combat_status_visible", VariableAccess<Short> @:7596 check:33056,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:13727,h:0,d0:33578,d1:65535;)))
+                    (15, Expression<Short> @:7597 check:33057,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:30509,h:1,d0:15,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:7598 check:33058,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:30567,h:1,d0:7599,d1:33059;
+                ("sleep_until", Expression<MethodOrOperator> @:7599 check:33059,op:21,dt:2,nt:9,next:7600,nextCheck:33060,str:294,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:7600 check:33060,op:363,dt:5,nt:8,next:7605,nextCheck:33065,str:30583,h:1,d0:7601,d1:33061;
+                        ("ai_scene", Expression<MethodOrOperator> @:7601 check:33061,op:363,dt:2,nt:9,next:7602,nextCheck:33062,str:7316,h:0,d0:0,d1:0;
+                            ("e2_alarm_scene", Expression<StringId> @:7602 check:33062,op:11,dt:11,nt:9,next:7603,nextCheck:33063,str:13752,h:0,d0:13316,d1:3584;
+                                ("cs_e2_alarm_scene", Expression<AIScript> @:7603 check:33063,op:21,dt:21,nt:9,next:7604,nextCheck:33064,str:13767,h:0,d0:191,d1:0;
+                                    ("e2_pro_inf0", Expression<AI> @:7604 check:33064,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13608,h:0,d0:14,d1:0;)))))
+                    (15, Expression<Short> @:7605 check:33065,op:7,dt:7,nt:9,next:7606,nextCheck:33066,str:30642,h:1,d0:15,d1:65535;
+                        (300, Expression<Int> @:7606 check:33066,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:30648,h:1,d0:300,d1:0;)))))))

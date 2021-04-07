@@ -1,23 +1,23 @@
 
-("e7_mars_inf0_main", MethodDecl<Void> @:433 op:0,dt:0,nt:65535,next:16658,str:35969,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:16658 op:0,dt:4,nt:8,next:65535,str:14824,d0:16659,d1:42119;
-        ("begin", Expression<MethodOrOperator> @:16659 op:0,dt:2,nt:9,next:16639,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:16639 op:290,dt:4,nt:8,next:16642,str:14860,d0:16640,d1:42100;
-                ("ai_place", Expression<MethodOrOperator> @:16640 op:290,dt:2,nt:9,next:16641,str:5315,d0:0,d1:0;
-                    ("e7_mars_inf0", Expression<AI> @:16641 op:19,dt:19,nt:9,next:65535,str:35440,d0:55,d1:0;)))
-            (____, BuiltinInvocation<Void> @:16642 op:21,dt:4,nt:8,next:16650,str:14925,d0:16643,d1:42103;
-                ("sleep_until", Expression<MethodOrOperator> @:16643 op:21,dt:2,nt:9,next:16644,str:236,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:16644 op:33,dt:5,nt:8,next:16649,str:14942,d0:16645,d1:42105;
-                        ("volume_test_objects", Expression<MethodOrOperator> @:16645 op:33,dt:2,nt:9,next:16646,str:4732,d0:0,d1:0;
-                            ("tv_e7_on_ledge", Expression<Trigger> @:16646 op:13,dt:13,nt:9,next:16647,str:35453,d0:38,d1:0;
-                                (____, BuiltinInvocation<List> @:16647 op:28,dt:31,nt:8,next:65535,str:14978,d0:16648,d1:42108;
-                                    ("players", Expression<MethodOrOperator> @:16648 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))
-                    (3, Expression<Short> @:16649 op:7,dt:7,nt:9,next:65535,str:14992,d0:3,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16650 op:4,dt:4,nt:8,next:16654,str:15019,d0:16651,d1:42111;
-                ("set", Expression<MethodOrOperator> @:16651 op:4,dt:2,nt:9,next:16652,str:1888,d0:0,d1:0;
-                    ("g_e7_pro_sentry_alerted", VariableAccess<Boolean> @:16652 op:65535,dt:5,nt:13,next:16653,str:34997,d0:55,d1:0;
-                        (True, Expression<Boolean> @:16653 op:5,dt:5,nt:9,next:65535,str:15048,d0:65281,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:16654 op:4,dt:4,nt:8,next:65535,str:15056,d0:16655,d1:42115;
-                ("set", Expression<MethodOrOperator> @:16655 op:4,dt:2,nt:9,next:16656,str:1888,d0:0,d1:0;
-                    ("g_e7_mars_johnson_go", VariableAccess<Boolean> @:16656 op:65535,dt:5,nt:13,next:16657,str:34761,d0:52,d1:0;
-                        (True, Expression<Boolean> @:16657 op:5,dt:5,nt:9,next:65535,str:15082,d0:65281,d1:65535;)))))))
+("e7_mars_inf0_main", MethodDecl<Void> @:433 check:0,op:0,dt:0,nt:65535,next:16658,nextCheck:42118,str:35969,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:16658 check:42118,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:14824,h:3,d0:16659,d1:42119;
+        ("begin", Expression<MethodOrOperator> @:16659 check:42119,op:0,dt:2,nt:9,next:16639,nextCheck:42099,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:16639 check:42099,op:290,dt:4,nt:8,next:16642,nextCheck:42102,str:14860,h:3,d0:16640,d1:42100;
+                ("ai_place", Expression<MethodOrOperator> @:16640 check:42100,op:290,dt:2,nt:9,next:16641,nextCheck:42101,str:5315,h:0,d0:0,d1:0;
+                    ("e7_mars_inf0", Expression<AI> @:16641 check:42101,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:35440,h:0,d0:55,d1:0;)))
+            (____, BuiltinInvocation<Void> @:16642 check:42102,op:21,dt:4,nt:8,next:16650,nextCheck:42110,str:14925,h:3,d0:16643,d1:42103;
+                ("sleep_until", Expression<MethodOrOperator> @:16643 check:42103,op:21,dt:2,nt:9,next:16644,nextCheck:42104,str:236,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:16644 check:42104,op:33,dt:5,nt:8,next:16649,nextCheck:42109,str:14942,h:3,d0:16645,d1:42105;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:16645 check:42105,op:33,dt:2,nt:9,next:16646,nextCheck:42106,str:4732,h:0,d0:0,d1:0;
+                            ("tv_e7_on_ledge", Expression<Trigger> @:16646 check:42106,op:13,dt:13,nt:9,next:16647,nextCheck:42107,str:35453,h:0,d0:38,d1:0;
+                                (____, BuiltinInvocation<List> @:16647 check:42107,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:14978,h:3,d0:16648,d1:42108;
+                                    ("players", Expression<MethodOrOperator> @:16648 check:42108,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                    (3, Expression<Short> @:16649 check:42109,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:14992,h:3,d0:3,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16650 check:42110,op:4,dt:4,nt:8,next:16654,nextCheck:42114,str:15019,h:3,d0:16651,d1:42111;
+                ("set", Expression<MethodOrOperator> @:16651 check:42111,op:4,dt:2,nt:9,next:16652,nextCheck:42112,str:1888,h:0,d0:0,d1:0;
+                    ("g_e7_pro_sentry_alerted", VariableAccess<Boolean> @:16652 check:42112,op:65535,dt:5,nt:13,next:16653,nextCheck:42113,str:34997,h:0,d0:55,d1:0;
+                        (True, Expression<Boolean> @:16653 check:42113,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:15048,h:3,d0:65281,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:16654 check:42114,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:15056,h:3,d0:16655,d1:42115;
+                ("set", Expression<MethodOrOperator> @:16655 check:42115,op:4,dt:2,nt:9,next:16656,nextCheck:42116,str:1888,h:0,d0:0,d1:0;
+                    ("g_e7_mars_johnson_go", VariableAccess<Boolean> @:16656 check:42116,op:65535,dt:5,nt:13,next:16657,nextCheck:42117,str:34761,h:0,d0:52,d1:0;
+                        (True, Expression<Boolean> @:16657 check:42117,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:15082,h:3,d0:65281,d1:65535;)))))))

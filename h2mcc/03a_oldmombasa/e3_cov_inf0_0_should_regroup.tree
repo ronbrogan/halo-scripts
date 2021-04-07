@@ -1,21 +1,21 @@
 
-("e3_cov_inf0_0_should_regroup", MethodDecl<Boolean> @:356 op:0,dt:0,nt:65535,next:14326,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Boolean> @:14326 op:0,dt:5,nt:8,next:65535,str:45225,d0:14327,d1:39787;
-        ("begin", Expression<MethodOrOperator> @:14327 op:0,dt:2,nt:9,next:14309,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Boolean> @:14309 op:6,dt:5,nt:8,next:65535,str:45279,d0:14310,d1:39770;
-                ("or", Expression<MethodOrOperator> @:14310 op:6,dt:2,nt:9,next:14311,str:907,d0:0,d1:0;
-                    ("g_e4_started", VariableAccess<Boolean> @:14311 op:5,dt:5,nt:13,next:14312,str:23264,d0:36,d1:0;
-                        (____, BuiltinInvocation<Boolean> @:14312 op:5,dt:5,nt:8,next:65535,str:45302,d0:14313,d1:39773;
-                            ("and", Expression<MethodOrOperator> @:14313 op:5,dt:2,nt:9,next:14314,str:730,d0:0,d1:0;
-                                (____, BuiltinInvocation<Boolean> @:14314 op:17,dt:5,nt:8,next:14320,str:45311,d0:14315,d1:39775;
-                                    (">=", Expression<MethodOrOperator> @:14315 op:17,dt:2,nt:9,next:14316,str:734,d0:0,d1:0;
-                                        (____, BuiltinInvocation<Short> @:14316 op:335,dt:7,nt:8,next:14319,str:45315,d0:14317,d1:39777;
-                                            ("ai_spawn_count", Expression<MethodOrOperator> @:14317 op:335,dt:2,nt:9,next:14318,str:16178,d0:0,d1:0;
-                                                ("e3_cov_inf0_0", Expression<AI> @:14318 op:19,dt:19,nt:9,next:65535,str:24133,d0:36,d1:0;)))
-                                        ("g_e3_cov_inf0_0_limit", VariableAccess<Short> @:14319 op:7,dt:7,nt:13,next:65535,str:24147,d0:42,d1:0;)))
-                                (____, BuiltinInvocation<Boolean> @:14320 op:18,dt:5,nt:8,next:65535,str:45373,d0:14321,d1:39781;
-                                    ("<=", Expression<MethodOrOperator> @:14321 op:18,dt:2,nt:9,next:14322,str:12055,d0:0,d1:0;
-                                        (____, BuiltinInvocation<Short> @:14322 op:327,dt:7,nt:8,next:14325,str:45377,d0:14323,d1:39783;
-                                            ("ai_living_count", Expression<MethodOrOperator> @:14323 op:327,dt:2,nt:9,next:14324,str:12058,d0:0,d1:0;
-                                                ("e3_cov_inf0_0", Expression<AI> @:14324 op:19,dt:19,nt:9,next:65535,str:24133,d0:36,d1:0;)))
-                                        (4, Expression<Short> @:14325 op:7,dt:7,nt:9,next:65535,str:45409,d0:4,d1:65535;)))))))))))
+("e3_cov_inf0_0_should_regroup", MethodDecl<Boolean> @:356 check:0,op:0,dt:0,nt:65535,next:14326,nextCheck:39786,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Boolean> @:14326 check:39786,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:45225,h:2,d0:14327,d1:39787;
+        ("begin", Expression<MethodOrOperator> @:14327 check:39787,op:0,dt:2,nt:9,next:14309,nextCheck:39769,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Boolean> @:14309 check:39769,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:45279,h:2,d0:14310,d1:39770;
+                ("or", Expression<MethodOrOperator> @:14310 check:39770,op:6,dt:2,nt:9,next:14311,nextCheck:39771,str:907,h:0,d0:0,d1:0;
+                    ("g_e4_started", VariableAccess<Boolean> @:14311 check:39771,op:5,dt:5,nt:13,next:14312,nextCheck:39772,str:23264,h:0,d0:36,d1:0;
+                        (____, BuiltinInvocation<Boolean> @:14312 check:39772,op:5,dt:5,nt:8,next:65535,nextCheck:65535,str:45302,h:2,d0:14313,d1:39773;
+                            ("and", Expression<MethodOrOperator> @:14313 check:39773,op:5,dt:2,nt:9,next:14314,nextCheck:39774,str:730,h:0,d0:0,d1:0;
+                                (____, BuiltinInvocation<Boolean> @:14314 check:39774,op:17,dt:5,nt:8,next:14320,nextCheck:39780,str:45311,h:2,d0:14315,d1:39775;
+                                    (">=", Expression<MethodOrOperator> @:14315 check:39775,op:17,dt:2,nt:9,next:14316,nextCheck:39776,str:734,h:0,d0:0,d1:0;
+                                        (____, BuiltinInvocation<Short> @:14316 check:39776,op:335,dt:7,nt:8,next:14319,nextCheck:39779,str:45315,h:2,d0:14317,d1:39777;
+                                            ("ai_spawn_count", Expression<MethodOrOperator> @:14317 check:39777,op:335,dt:2,nt:9,next:14318,nextCheck:39778,str:16178,h:0,d0:0,d1:0;
+                                                ("e3_cov_inf0_0", Expression<AI> @:14318 check:39778,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:24133,h:0,d0:36,d1:0;)))
+                                        ("g_e3_cov_inf0_0_limit", VariableAccess<Short> @:14319 check:39779,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:24147,h:0,d0:42,d1:0;)))
+                                (____, BuiltinInvocation<Boolean> @:14320 check:39780,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:45373,h:2,d0:14321,d1:39781;
+                                    ("<=", Expression<MethodOrOperator> @:14321 check:39781,op:18,dt:2,nt:9,next:14322,nextCheck:39782,str:12055,h:0,d0:0,d1:0;
+                                        (____, BuiltinInvocation<Short> @:14322 check:39782,op:327,dt:7,nt:8,next:14325,nextCheck:39785,str:45377,h:2,d0:14323,d1:39783;
+                                            ("ai_living_count", Expression<MethodOrOperator> @:14323 check:39783,op:327,dt:2,nt:9,next:14324,nextCheck:39784,str:12058,h:0,d0:0,d1:0;
+                                                ("e3_cov_inf0_0", Expression<AI> @:14324 check:39784,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:24133,h:0,d0:36,d1:0;)))
+                                        (4, Expression<Short> @:14325 check:39785,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:45409,h:2,d0:4,d1:65535;)))))))))))

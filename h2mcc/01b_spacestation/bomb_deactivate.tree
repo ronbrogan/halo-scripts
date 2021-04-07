@@ -1,16 +1,16 @@
 
-("bomb_deactivate", MethodDecl<Void> @:192 op:0,dt:0,nt:65535,next:7619,str:18594,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:7619 op:0,dt:4,nt:8,next:65535,str:27415,d0:7620,d1:33080;
-        ("begin", Expression<MethodOrOperator> @:7620 op:0,dt:2,nt:9,next:7607,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:7607 op:19,dt:4,nt:8,next:7610,str:27449,d0:7608,d1:33068;
-                ("sleep", Expression<MethodOrOperator> @:7608 op:19,dt:2,nt:9,next:7609,str:90,d0:0,d1:0;
-                    (284, Expression<Short> @:7609 op:7,dt:7,nt:9,next:65535,str:27456,d0:284,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:7610 op:27,dt:4,nt:8,next:7613,str:27463,d0:7611,d1:33071;
-                ("print", Expression<MethodOrOperator> @:7611 op:27,dt:2,nt:9,next:7612,str:96,d0:0,d1:0;
-                    ("bomb deactivate", Expression<String> @:7612 op:9,dt:9,nt:9,next:65535,str:18431,d0:18431,d1:0;)))
-            (____, BuiltinInvocation<Void> @:7613 op:60,dt:4,nt:8,next:65535,str:27491,d0:7614,d1:33074;
-                ("object_set_function_variable", Expression<MethodOrOperator> @:7614 op:60,dt:2,nt:9,next:7615,str:5683,d0:0,d1:0;
-                    (4294901760, Expression<Entity> @:7615 op:56,dt:50,nt:9,next:7616,str:18314,d0:0,d1:65535;
-                        ("flare", Expression<StringId> @:7616 op:11,dt:11,nt:9,next:7617,str:18447,d0:6987,d1:1280;
-                            (0f, Expression<Float> @:7617 op:6,dt:6,nt:9,next:7618,str:27536,d0:0,d1:0;
-                                (1f, Expression<Float> @:7618 op:6,dt:6,nt:9,next:65535,str:27538,d0:0,d1:16256;)))))))))
+("bomb_deactivate", MethodDecl<Void> @:192 check:0,op:0,dt:0,nt:65535,next:7619,nextCheck:33079,str:18594,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:7619 check:33079,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:27415,h:1,d0:7620,d1:33080;
+        ("begin", Expression<MethodOrOperator> @:7620 check:33080,op:0,dt:2,nt:9,next:7607,nextCheck:33067,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:7607 check:33067,op:19,dt:4,nt:8,next:7610,nextCheck:33070,str:27449,h:1,d0:7608,d1:33068;
+                ("sleep", Expression<MethodOrOperator> @:7608 check:33068,op:19,dt:2,nt:9,next:7609,nextCheck:33069,str:90,h:0,d0:0,d1:0;
+                    (284, Expression<Short> @:7609 check:33069,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:27456,h:1,d0:284,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:7610 check:33070,op:27,dt:4,nt:8,next:7613,nextCheck:33073,str:27463,h:1,d0:7611,d1:33071;
+                ("print", Expression<MethodOrOperator> @:7611 check:33071,op:27,dt:2,nt:9,next:7612,nextCheck:33072,str:96,h:0,d0:0,d1:0;
+                    ("bomb deactivate", Expression<String> @:7612 check:33072,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18431,h:0,d0:18431,d1:0;)))
+            (____, BuiltinInvocation<Void> @:7613 check:33073,op:60,dt:4,nt:8,next:65535,nextCheck:65535,str:27491,h:1,d0:7614,d1:33074;
+                ("object_set_function_variable", Expression<MethodOrOperator> @:7614 check:33074,op:60,dt:2,nt:9,next:7615,nextCheck:33075,str:5683,h:0,d0:0,d1:0;
+                    (4294901760, Expression<Entity> @:7615 check:33075,op:56,dt:50,nt:9,next:7616,nextCheck:33076,str:18314,h:0,d0:0,d1:65535;
+                        ("flare", Expression<StringId> @:7616 check:33076,op:11,dt:11,nt:9,next:7617,nextCheck:33077,str:18447,h:0,d0:6987,d1:1280;
+                            (0f, Expression<Float> @:7617 check:33077,op:6,dt:6,nt:9,next:7618,nextCheck:33078,str:27536,h:1,d0:0,d1:0;
+                                (1f, Expression<Float> @:7618 check:33078,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:27538,h:1,d0:0,d1:16256;)))))))))

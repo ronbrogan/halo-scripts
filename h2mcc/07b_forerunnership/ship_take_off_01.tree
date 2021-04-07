@@ -1,18 +1,18 @@
 
-("ship_take_off_01", MethodDecl<Void> @:95 op:0,dt:0,nt:65535,next:2884,str:8146,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2884 op:0,dt:4,nt:8,next:65535,str:34775,d0:2885,d1:61112;
-        ("begin", Expression<MethodOrOperator> @:2885 op:0,dt:2,nt:9,next:2870,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2870 op:19,dt:4,nt:8,next:2873,str:34810,d0:2871,d1:61098;
-                ("sleep", Expression<MethodOrOperator> @:2871 op:19,dt:2,nt:9,next:2872,str:80,d0:0,d1:0;
-                    (271, Expression<Short> @:2872 op:7,dt:7,nt:9,next:65535,str:34817,d0:271,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2873 op:27,dt:4,nt:8,next:2876,str:34824,d0:2874,d1:61101;
-                ("print", Expression<MethodOrOperator> @:2874 op:27,dt:2,nt:9,next:2875,str:86,d0:0,d1:0;
-                    ("effect - take off 01", Expression<String> @:2875 op:9,dt:9,nt:9,next:65535,str:7924,d0:7924,d1:0;)))
-            (____, BuiltinInvocation<Void> @:2876 op:41,dt:4,nt:8,next:2881,str:34857,d0:2877,d1:61104;
-                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:2877 op:41,dt:2,nt:9,next:2878,str:3541,d0:0,d1:0;
-                    ("effects\objects\cinematics\forerunner_ship\initial_take_off_scale12", Expression<Effect> @:2878 op:33,dt:33,nt:9,next:2879,str:7945,d0:904,d1:58622;
-                        (4294901826, Expression<Entity> @:2879 op:56,dt:50,nt:9,next:2880,str:6329,d0:66,d1:65535;
-                            ("thruster", Expression<StringId> @:2880 op:11,dt:11,nt:9,next:65535,str:6345,d0:3996,d1:2048;)))))
-            (____, BuiltinInvocation<Void> @:2881 op:48,dt:4,nt:8,next:65535,str:34984,d0:2882,d1:61109;
-                ("object_create_anew", Expression<MethodOrOperator> @:2882 op:48,dt:2,nt:9,next:2883,str:1904,d0:0,d1:0;
-                    ("takeoff_dust", Expression<EntityIdentifier> @:2883 op:56,dt:56,nt:9,next:65535,str:8013,d0:71,d1:65535;))))))
+("ship_take_off_01", MethodDecl<Void> @:95 check:0,op:0,dt:0,nt:65535,next:2884,nextCheck:61111,str:8146,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2884 check:61111,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:34775,h:0,d0:2885,d1:61112;
+        ("begin", Expression<MethodOrOperator> @:2885 check:61112,op:0,dt:2,nt:9,next:2870,nextCheck:61097,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2870 check:61097,op:19,dt:4,nt:8,next:2873,nextCheck:61100,str:34810,h:0,d0:2871,d1:61098;
+                ("sleep", Expression<MethodOrOperator> @:2871 check:61098,op:19,dt:2,nt:9,next:2872,nextCheck:61099,str:80,h:0,d0:0,d1:0;
+                    (271, Expression<Short> @:2872 check:61099,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:34817,h:0,d0:271,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2873 check:61100,op:27,dt:4,nt:8,next:2876,nextCheck:61103,str:34824,h:0,d0:2874,d1:61101;
+                ("print", Expression<MethodOrOperator> @:2874 check:61101,op:27,dt:2,nt:9,next:2875,nextCheck:61102,str:86,h:0,d0:0,d1:0;
+                    ("effect - take off 01", Expression<String> @:2875 check:61102,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:7924,h:0,d0:7924,d1:0;)))
+            (____, BuiltinInvocation<Void> @:2876 check:61103,op:41,dt:4,nt:8,next:2881,nextCheck:61108,str:34857,h:0,d0:2877,d1:61104;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:2877 check:61104,op:41,dt:2,nt:9,next:2878,nextCheck:61105,str:3541,h:0,d0:0,d1:0;
+                    ("effects\objects\cinematics\forerunner_ship\initial_take_off_scale12", Expression<Effect> @:2878 check:61105,op:33,dt:33,nt:9,next:2879,nextCheck:61106,str:7945,h:0,d0:904,d1:58622;
+                        (4294901826, Expression<Entity> @:2879 check:61106,op:56,dt:50,nt:9,next:2880,nextCheck:61107,str:6329,h:0,d0:66,d1:65535;
+                            ("thruster", Expression<StringId> @:2880 check:61107,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:6345,h:0,d0:3996,d1:2048;)))))
+            (____, BuiltinInvocation<Void> @:2881 check:61108,op:48,dt:4,nt:8,next:65535,nextCheck:65535,str:34984,h:0,d0:2882,d1:61109;
+                ("object_create_anew", Expression<MethodOrOperator> @:2882 check:61109,op:48,dt:2,nt:9,next:2883,nextCheck:61110,str:1904,h:0,d0:0,d1:0;
+                    ("takeoff_dust", Expression<EntityIdentifier> @:2883 check:61110,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:8013,h:0,d0:71,d1:65535;))))))

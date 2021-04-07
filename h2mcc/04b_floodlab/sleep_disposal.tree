@@ -1,13 +1,13 @@
 
-("sleep_disposal", MethodDecl<Void> @:366 op:0,dt:0,nt:65535,next:31296,str:39414,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:31296 op:0,dt:4,nt:8,next:65535,str:37744,d0:31297,d1:56757;
-        ("begin", Expression<MethodOrOperator> @:31297 op:0,dt:2,nt:9,next:31287,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:31287 op:20,dt:4,nt:8,next:31290,str:37781,d0:31288,d1:56748;
-                ("sleep_forever", Expression<MethodOrOperator> @:31288 op:20,dt:2,nt:9,next:31289,str:9739,d0:0,d1:0;
-                    ("disposal_chamber_start", Expression<ScriptReference> @:31289 op:10,dt:10,nt:9,next:65535,str:38902,d0:171,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:31290 op:20,dt:4,nt:8,next:31293,str:37822,d0:31291,d1:56751;
-                ("sleep_forever", Expression<MethodOrOperator> @:31291 op:20,dt:2,nt:9,next:31292,str:9739,d0:0,d1:0;
-                    ("disposal_infection_spawn", Expression<ScriptReference> @:31292 op:10,dt:10,nt:9,next:65535,str:14660,d0:169,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:31293 op:20,dt:4,nt:8,next:65535,str:37865,d0:31294,d1:56754;
-                ("sleep_forever", Expression<MethodOrOperator> @:31294 op:20,dt:2,nt:9,next:31295,str:9739,d0:0,d1:0;
-                    ("spec_ops_reborn", Expression<ScriptReference> @:31295 op:10,dt:10,nt:9,next:65535,str:14825,d0:168,d1:65535;))))))
+("sleep_disposal", MethodDecl<Void> @:366 check:0,op:0,dt:0,nt:65535,next:31296,nextCheck:56756,str:39414,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:31296 check:56756,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:37744,h:4,d0:31297,d1:56757;
+        ("begin", Expression<MethodOrOperator> @:31297 check:56757,op:0,dt:2,nt:9,next:31287,nextCheck:56747,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:31287 check:56747,op:20,dt:4,nt:8,next:31290,nextCheck:56750,str:37781,h:4,d0:31288,d1:56748;
+                ("sleep_forever", Expression<MethodOrOperator> @:31288 check:56748,op:20,dt:2,nt:9,next:31289,nextCheck:56749,str:9739,h:0,d0:0,d1:0;
+                    ("disposal_chamber_start", Expression<ScriptReference> @:31289 check:56749,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:38902,h:0,d0:171,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:31290 check:56750,op:20,dt:4,nt:8,next:31293,nextCheck:56753,str:37822,h:4,d0:31291,d1:56751;
+                ("sleep_forever", Expression<MethodOrOperator> @:31291 check:56751,op:20,dt:2,nt:9,next:31292,nextCheck:56752,str:9739,h:0,d0:0,d1:0;
+                    ("disposal_infection_spawn", Expression<ScriptReference> @:31292 check:56752,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:14660,h:0,d0:169,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:31293 check:56753,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:37865,h:4,d0:31294,d1:56754;
+                ("sleep_forever", Expression<MethodOrOperator> @:31294 check:56754,op:20,dt:2,nt:9,next:31295,nextCheck:56755,str:9739,h:0,d0:0,d1:0;
+                    ("spec_ops_reborn", Expression<ScriptReference> @:31295 check:56755,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:14825,h:0,d0:168,d1:65535;))))))

@@ -1,15 +1,15 @@
 
-("e9_cov_shadow0_main", MethodDecl<Void> @:263 op:0,dt:0,nt:65535,next:9860,str:18949,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:9860 op:0,dt:4,nt:8,next:65535,str:54906,d0:9861,d1:35321;
-        ("begin", Expression<MethodOrOperator> @:9861 op:0,dt:2,nt:9,next:9849,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:9849 op:21,dt:4,nt:8,next:9857,str:54944,d0:9850,d1:35310;
-                ("sleep_until", Expression<MethodOrOperator> @:9850 op:21,dt:2,nt:9,next:9851,str:294,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:9851 op:33,dt:5,nt:8,next:9856,str:54960,d0:9852,d1:35312;
-                        ("volume_test_objects", Expression<MethodOrOperator> @:9852 op:33,dt:2,nt:9,next:9853,str:11142,d0:0,d1:0;
-                            ("tv_e9_retreat_checkpoint", Expression<Trigger> @:9853 op:13,dt:13,nt:9,next:9854,str:18318,d0:106,d1:0;
-                                (____, BuiltinInvocation<List> @:9854 op:28,dt:31,nt:8,next:65535,str:55006,d0:9855,d1:35315;
-                                    ("players", Expression<MethodOrOperator> @:9855 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;)))))
-                    (15, Expression<Short> @:9856 op:7,dt:7,nt:9,next:65535,str:55020,d0:15,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:9857 op:290,dt:4,nt:8,next:65535,str:55029,d0:9858,d1:35318;
-                ("ai_place", Expression<MethodOrOperator> @:9858 op:290,dt:2,nt:9,next:9859,str:4681,d0:0,d1:0;
-                    ("e9_cov_shadow0", Expression<AI> @:9859 op:19,dt:19,nt:9,next:65535,str:18618,d0:79,d1:0;))))))
+("e9_cov_shadow0_main", MethodDecl<Void> @:263 check:0,op:0,dt:0,nt:65535,next:9860,nextCheck:35320,str:18949,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:9860 check:35320,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:54906,h:1,d0:9861,d1:35321;
+        ("begin", Expression<MethodOrOperator> @:9861 check:35321,op:0,dt:2,nt:9,next:9849,nextCheck:35309,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:9849 check:35309,op:21,dt:4,nt:8,next:9857,nextCheck:35317,str:54944,h:1,d0:9850,d1:35310;
+                ("sleep_until", Expression<MethodOrOperator> @:9850 check:35310,op:21,dt:2,nt:9,next:9851,nextCheck:35311,str:294,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:9851 check:35311,op:33,dt:5,nt:8,next:9856,nextCheck:35316,str:54960,h:1,d0:9852,d1:35312;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:9852 check:35312,op:33,dt:2,nt:9,next:9853,nextCheck:35313,str:11142,h:0,d0:0,d1:0;
+                            ("tv_e9_retreat_checkpoint", Expression<Trigger> @:9853 check:35313,op:13,dt:13,nt:9,next:9854,nextCheck:35314,str:18318,h:0,d0:106,d1:0;
+                                (____, BuiltinInvocation<List> @:9854 check:35314,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:55006,h:1,d0:9855,d1:35315;
+                                    ("players", Expression<MethodOrOperator> @:9855 check:35315,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:84,h:0,d0:0,d1:0;)))))
+                    (15, Expression<Short> @:9856 check:35316,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55020,h:1,d0:15,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:9857 check:35317,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:55029,h:1,d0:9858,d1:35318;
+                ("ai_place", Expression<MethodOrOperator> @:9858 check:35318,op:290,dt:2,nt:9,next:9859,nextCheck:35319,str:4681,h:0,d0:0,d1:0;
+                    ("e9_cov_shadow0", Expression<AI> @:9859 check:35319,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:18618,h:0,d0:79,d1:0;))))))

@@ -1,22 +1,22 @@
 
-("ai_qz_ext_a_d_spawn", MethodDecl<Void> @:193 op:0,dt:0,nt:65535,next:8003,str:26094,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:8003 op:0,dt:4,nt:8,next:65535,str:25185,d0:8004,d1:33464;
-        ("begin", Expression<MethodOrOperator> @:8004 op:0,dt:2,nt:9,next:7985,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:7985 op:21,dt:4,nt:8,next:7992,str:25223,d0:7986,d1:33446;
-                ("sleep_until", Expression<MethodOrOperator> @:7986 op:21,dt:2,nt:9,next:7987,str:236,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:7987 op:33,dt:5,nt:8,next:65535,str:25236,d0:7988,d1:33448;
-                        ("volume_test_objects", Expression<MethodOrOperator> @:7988 op:33,dt:2,nt:9,next:7989,str:11117,d0:0,d1:0;
-                            ("tv_ext_a_d", Expression<Trigger> @:7989 op:13,dt:13,nt:9,next:7990,str:15026,d0:35,d1:0;
-                                (____, BuiltinInvocation<List> @:7990 op:28,dt:31,nt:8,next:65535,str:25268,d0:7991,d1:33451;
-                                    ("players", Expression<MethodOrOperator> @:7991 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))))
-            (____, BuiltinInvocation<Void> @:7992 op:2,dt:4,nt:8,next:65535,str:25282,d0:7993,d1:33453;
-                ("if", Expression<MethodOrOperator> @:7993 op:2,dt:2,nt:9,next:7994,str:461,d0:0,d1:0;
-                    ("g_qz_ext_a_d_spawn", VariableAccess<Boolean> @:7994 op:5,dt:5,nt:13,next:7995,str:17559,d0:47,d1:0;
-                        (____, BuiltinInvocation<Void> @:7995 op:0,dt:4,nt:8,next:65535,str:25308,d0:7996,d1:33456;
-                            ("begin", Expression<MethodOrOperator> @:7996 op:0,dt:2,nt:9,next:7997,str:6,d0:0,d1:0;
-                                (____, BuiltinInvocation<Void> @:7997 op:290,dt:4,nt:8,next:8000,str:25319,d0:7998,d1:33458;
-                                    ("ai_place", Expression<MethodOrOperator> @:7998 op:290,dt:2,nt:9,next:7999,str:16231,d0:0,d1:0;
-                                        ("qz_ext_a_flood_d", Expression<AI> @:7999 op:19,dt:19,nt:9,next:65535,str:17578,d0:43,d1:0;)))
-                                (____, BuiltinInvocation<Void> @:8000 op:290,dt:4,nt:8,next:65535,str:25351,d0:8001,d1:33461;
-                                    ("ai_place", Expression<MethodOrOperator> @:8001 op:290,dt:2,nt:9,next:8002,str:16231,d0:0,d1:0;
-                                        ("qz_ext_a_enf_bk", Expression<AI> @:8002 op:19,dt:19,nt:9,next:65535,str:17595,d0:47,d1:0;)))))))))))
+("ai_qz_ext_a_d_spawn", MethodDecl<Void> @:193 check:0,op:0,dt:0,nt:65535,next:8003,nextCheck:33463,str:26094,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:8003 check:33463,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:25185,h:1,d0:8004,d1:33464;
+        ("begin", Expression<MethodOrOperator> @:8004 check:33464,op:0,dt:2,nt:9,next:7985,nextCheck:33445,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:7985 check:33445,op:21,dt:4,nt:8,next:7992,nextCheck:33452,str:25223,h:1,d0:7986,d1:33446;
+                ("sleep_until", Expression<MethodOrOperator> @:7986 check:33446,op:21,dt:2,nt:9,next:7987,nextCheck:33447,str:236,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:7987 check:33447,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:25236,h:1,d0:7988,d1:33448;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:7988 check:33448,op:33,dt:2,nt:9,next:7989,nextCheck:33449,str:11117,h:0,d0:0,d1:0;
+                            ("tv_ext_a_d", Expression<Trigger> @:7989 check:33449,op:13,dt:13,nt:9,next:7990,nextCheck:33450,str:15026,h:0,d0:35,d1:0;
+                                (____, BuiltinInvocation<List> @:7990 check:33450,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:25268,h:1,d0:7991,d1:33451;
+                                    ("players", Expression<MethodOrOperator> @:7991 check:33451,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))))
+            (____, BuiltinInvocation<Void> @:7992 check:33452,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:25282,h:1,d0:7993,d1:33453;
+                ("if", Expression<MethodOrOperator> @:7993 check:33453,op:2,dt:2,nt:9,next:7994,nextCheck:33454,str:461,h:0,d0:0,d1:0;
+                    ("g_qz_ext_a_d_spawn", VariableAccess<Boolean> @:7994 check:33454,op:5,dt:5,nt:13,next:7995,nextCheck:33455,str:17559,h:0,d0:47,d1:0;
+                        (____, BuiltinInvocation<Void> @:7995 check:33455,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:25308,h:1,d0:7996,d1:33456;
+                            ("begin", Expression<MethodOrOperator> @:7996 check:33456,op:0,dt:2,nt:9,next:7997,nextCheck:33457,str:6,h:0,d0:0,d1:0;
+                                (____, BuiltinInvocation<Void> @:7997 check:33457,op:290,dt:4,nt:8,next:8000,nextCheck:33460,str:25319,h:1,d0:7998,d1:33458;
+                                    ("ai_place", Expression<MethodOrOperator> @:7998 check:33458,op:290,dt:2,nt:9,next:7999,nextCheck:33459,str:16231,h:0,d0:0,d1:0;
+                                        ("qz_ext_a_flood_d", Expression<AI> @:7999 check:33459,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:17578,h:0,d0:43,d1:0;)))
+                                (____, BuiltinInvocation<Void> @:8000 check:33460,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:25351,h:1,d0:8001,d1:33461;
+                                    ("ai_place", Expression<MethodOrOperator> @:8001 check:33461,op:290,dt:2,nt:9,next:8002,nextCheck:33462,str:16231,h:0,d0:0,d1:0;
+                                        ("qz_ext_a_enf_bk", Expression<AI> @:8002 check:33462,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:17595,h:0,d0:47,d1:0;)))))))))))

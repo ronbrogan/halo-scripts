@@ -1,24 +1,24 @@
 
-("cs_e24_tartarus", MethodDecl<Void> @:220 op:0,dt:0,nt:65535,next:10266,str:21458,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:10266 op:0,dt:4,nt:8,next:65535,str:50695,d0:10267,d1:35727;
-        ("begin", Expression<MethodOrOperator> @:10267 op:0,dt:2,nt:9,next:10246,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:10246 op:19,dt:4,nt:8,next:10249,str:50736,d0:10247,d1:35707;
-                ("sleep", Expression<MethodOrOperator> @:10247 op:19,dt:2,nt:9,next:10248,str:85,d0:0,d1:0;
-                    (200, Expression<Short> @:10248 op:7,dt:7,nt:9,next:65535,str:50743,d0:200,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10249 op:407,dt:4,nt:8,next:10252,str:50750,d0:10250,d1:35710;
-                ("cs_vehicle_speed", Expression<MethodOrOperator> @:10250 op:407,dt:2,nt:9,next:10251,str:15845,d0:0,d1:0;
-                    (0.6f, Expression<Float> @:10251 op:6,dt:6,nt:9,next:65535,str:50768,d0:39322,d1:16153;)))
-            (____, BuiltinInvocation<Void> @:10252 op:383,dt:4,nt:8,next:10255,str:50775,d0:10253,d1:35713;
-                ("cs_fly_by", Expression<MethodOrOperator> @:10253 op:383,dt:2,nt:9,next:10254,str:15909,d0:0,d1:0;
-                    ("e24_tartarus/p0", Expression<SpatialPoint> @:10254 op:28,dt:28,nt:9,next:65535,str:21198,d0:0,d1:21;)))
-            (____, BuiltinInvocation<Void> @:10255 op:407,dt:4,nt:8,next:10258,str:50805,d0:10256,d1:35716;
-                ("cs_vehicle_speed", Expression<MethodOrOperator> @:10256 op:407,dt:2,nt:9,next:10257,str:15845,d0:0,d1:0;
-                    (1f, Expression<Float> @:10257 op:6,dt:6,nt:9,next:65535,str:50823,d0:0,d1:16256;)))
-            (____, BuiltinInvocation<Void> @:10258 op:383,dt:4,nt:8,next:10261,str:50830,d0:10259,d1:35719;
-                ("cs_fly_by", Expression<MethodOrOperator> @:10259 op:383,dt:2,nt:9,next:10260,str:15909,d0:0,d1:0;
-                    ("e24_tartarus/p1", Expression<SpatialPoint> @:10260 op:28,dt:28,nt:9,next:65535,str:21214,d0:1,d1:21;)))
-            (____, BuiltinInvocation<Void> @:10261 op:383,dt:4,nt:8,next:10264,str:50860,d0:10262,d1:35722;
-                ("cs_fly_by", Expression<MethodOrOperator> @:10262 op:383,dt:2,nt:9,next:10263,str:15909,d0:0,d1:0;
-                    ("e24_tartarus/p2", Expression<SpatialPoint> @:10263 op:28,dt:28,nt:9,next:65535,str:21230,d0:2,d1:21;)))
-            (____, BuiltinInvocation<Void> @:10264 op:20,dt:4,nt:8,next:65535,str:50890,d0:10265,d1:35725;
-                ("sleep_forever", Expression<MethodOrOperator> @:10265 op:20,dt:2,nt:9,next:65535,str:17435,d0:0,d1:0;)))))
+("cs_e24_tartarus", MethodDecl<Void> @:220 check:0,op:0,dt:0,nt:65535,next:10266,nextCheck:35726,str:21458,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:10266 check:35726,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:50695,h:1,d0:10267,d1:35727;
+        ("begin", Expression<MethodOrOperator> @:10267 check:35727,op:0,dt:2,nt:9,next:10246,nextCheck:35706,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:10246 check:35706,op:19,dt:4,nt:8,next:10249,nextCheck:35709,str:50736,h:1,d0:10247,d1:35707;
+                ("sleep", Expression<MethodOrOperator> @:10247 check:35707,op:19,dt:2,nt:9,next:10248,nextCheck:35708,str:85,h:0,d0:0,d1:0;
+                    (200, Expression<Short> @:10248 check:35708,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:50743,h:1,d0:200,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10249 check:35709,op:407,dt:4,nt:8,next:10252,nextCheck:35712,str:50750,h:1,d0:10250,d1:35710;
+                ("cs_vehicle_speed", Expression<MethodOrOperator> @:10250 check:35710,op:407,dt:2,nt:9,next:10251,nextCheck:35711,str:15845,h:0,d0:0,d1:0;
+                    (0.6f, Expression<Float> @:10251 check:35711,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:50768,h:1,d0:39322,d1:16153;)))
+            (____, BuiltinInvocation<Void> @:10252 check:35712,op:383,dt:4,nt:8,next:10255,nextCheck:35715,str:50775,h:1,d0:10253,d1:35713;
+                ("cs_fly_by", Expression<MethodOrOperator> @:10253 check:35713,op:383,dt:2,nt:9,next:10254,nextCheck:35714,str:15909,h:0,d0:0,d1:0;
+                    ("e24_tartarus/p0", Expression<SpatialPoint> @:10254 check:35714,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:21198,h:0,d0:0,d1:21;)))
+            (____, BuiltinInvocation<Void> @:10255 check:35715,op:407,dt:4,nt:8,next:10258,nextCheck:35718,str:50805,h:1,d0:10256,d1:35716;
+                ("cs_vehicle_speed", Expression<MethodOrOperator> @:10256 check:35716,op:407,dt:2,nt:9,next:10257,nextCheck:35717,str:15845,h:0,d0:0,d1:0;
+                    (1f, Expression<Float> @:10257 check:35717,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:50823,h:1,d0:0,d1:16256;)))
+            (____, BuiltinInvocation<Void> @:10258 check:35718,op:383,dt:4,nt:8,next:10261,nextCheck:35721,str:50830,h:1,d0:10259,d1:35719;
+                ("cs_fly_by", Expression<MethodOrOperator> @:10259 check:35719,op:383,dt:2,nt:9,next:10260,nextCheck:35720,str:15909,h:0,d0:0,d1:0;
+                    ("e24_tartarus/p1", Expression<SpatialPoint> @:10260 check:35720,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:21214,h:0,d0:1,d1:21;)))
+            (____, BuiltinInvocation<Void> @:10261 check:35721,op:383,dt:4,nt:8,next:10264,nextCheck:35724,str:50860,h:1,d0:10262,d1:35722;
+                ("cs_fly_by", Expression<MethodOrOperator> @:10262 check:35722,op:383,dt:2,nt:9,next:10263,nextCheck:35723,str:15909,h:0,d0:0,d1:0;
+                    ("e24_tartarus/p2", Expression<SpatialPoint> @:10263 check:35723,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:21230,h:0,d0:2,d1:21;)))
+            (____, BuiltinInvocation<Void> @:10264 check:35724,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:50890,h:1,d0:10265,d1:35725;
+                ("sleep_forever", Expression<MethodOrOperator> @:10265 check:35725,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:17435,h:0,d0:0,d1:0;)))))

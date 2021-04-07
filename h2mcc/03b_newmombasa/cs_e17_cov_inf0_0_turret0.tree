@@ -1,10 +1,10 @@
 
-("cs_e17_cov_inf0_0_turret0", MethodDecl<Void> @:358 op:0,dt:0,nt:65535,next:12955,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:12955 op:0,dt:4,nt:8,next:65535,str:38184,d0:12956,d1:38416;
-        ("begin", Expression<MethodOrOperator> @:12956 op:0,dt:2,nt:9,next:12949,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:12949 op:449,dt:4,nt:8,next:12952,str:38235,d0:12950,d1:38410;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:12950 op:449,dt:2,nt:9,next:12951,str:15395,d0:0,d1:0;
-                    (True, Expression<Boolean> @:12951 op:5,dt:5,nt:9,next:65535,str:38267,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:12952 op:429,dt:4,nt:8,next:65535,str:38275,d0:12953,d1:38413;
-                ("cs_deploy_turret", Expression<MethodOrOperator> @:12953 op:429,dt:2,nt:9,next:12954,str:26716,d0:0,d1:0;
-                    ("e17_turrets/p0", Expression<SpatialPoint> @:12954 op:28,dt:28,nt:9,next:65535,str:26733,d0:0,d1:12;))))))
+("cs_e17_cov_inf0_0_turret0", MethodDecl<Void> @:358 check:0,op:0,dt:0,nt:65535,next:12955,nextCheck:38415,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:12955 check:38415,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:38184,h:2,d0:12956,d1:38416;
+        ("begin", Expression<MethodOrOperator> @:12956 check:38416,op:0,dt:2,nt:9,next:12949,nextCheck:38409,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:12949 check:38409,op:449,dt:4,nt:8,next:12952,nextCheck:38412,str:38235,h:2,d0:12950,d1:38410;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:12950 check:38410,op:449,dt:2,nt:9,next:12951,nextCheck:38411,str:15395,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:12951 check:38411,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:38267,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:12952 check:38412,op:429,dt:4,nt:8,next:65535,nextCheck:65535,str:38275,h:2,d0:12953,d1:38413;
+                ("cs_deploy_turret", Expression<MethodOrOperator> @:12953 check:38413,op:429,dt:2,nt:9,next:12954,nextCheck:38414,str:26716,h:0,d0:0,d1:0;
+                    ("e17_turrets/p0", Expression<SpatialPoint> @:12954 check:38414,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:26733,h:0,d0:0,d1:12;))))))

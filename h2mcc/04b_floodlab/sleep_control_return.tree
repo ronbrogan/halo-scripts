@@ -1,10 +1,10 @@
 
-("sleep_control_return", MethodDecl<Void> @:372 op:0,dt:0,nt:65535,next:31479,str:39564,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:31479 op:0,dt:4,nt:8,next:65535,str:39658,d0:31480,d1:56940;
-        ("begin", Expression<MethodOrOperator> @:31480 op:0,dt:2,nt:9,next:31473,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:31473 op:20,dt:4,nt:8,next:31476,str:39701,d0:31474,d1:56934;
-                ("sleep_forever", Expression<MethodOrOperator> @:31474 op:20,dt:2,nt:9,next:31475,str:9739,d0:0,d1:0;
-                    ("control_room_return", Expression<ScriptReference> @:31475 op:10,dt:10,nt:9,next:65535,str:39038,d0:278,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:31476 op:20,dt:4,nt:8,next:65535,str:39739,d0:31477,d1:56937;
-                ("sleep_forever", Expression<MethodOrOperator> @:31477 op:20,dt:2,nt:9,next:31478,str:9739,d0:0,d1:0;
-                    ("control_return_flood_spawn", Expression<ScriptReference> @:31478 op:10,dt:10,nt:9,next:65535,str:28837,d0:276,d1:65535;))))))
+("sleep_control_return", MethodDecl<Void> @:372 check:0,op:0,dt:0,nt:65535,next:31479,nextCheck:56939,str:39564,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:31479 check:56939,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:39658,h:4,d0:31480,d1:56940;
+        ("begin", Expression<MethodOrOperator> @:31480 check:56940,op:0,dt:2,nt:9,next:31473,nextCheck:56933,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:31473 check:56933,op:20,dt:4,nt:8,next:31476,nextCheck:56936,str:39701,h:4,d0:31474,d1:56934;
+                ("sleep_forever", Expression<MethodOrOperator> @:31474 check:56934,op:20,dt:2,nt:9,next:31475,nextCheck:56935,str:9739,h:0,d0:0,d1:0;
+                    ("control_room_return", Expression<ScriptReference> @:31475 check:56935,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:39038,h:0,d0:278,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:31476 check:56936,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:39739,h:4,d0:31477,d1:56937;
+                ("sleep_forever", Expression<MethodOrOperator> @:31477 check:56937,op:20,dt:2,nt:9,next:31478,nextCheck:56938,str:9739,h:0,d0:0,d1:0;
+                    ("control_return_flood_spawn", Expression<ScriptReference> @:31478 check:56938,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:28837,h:0,d0:276,d1:65535;))))))

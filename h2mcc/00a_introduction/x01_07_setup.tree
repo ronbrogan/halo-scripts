@@ -1,21 +1,21 @@
 
-("x01_07_setup", MethodDecl<Void> @:110 op:0,dt:0,nt:65535,next:6385,str:10653,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6385 op:0,dt:4,nt:8,next:65535,str:24482,d0:6386,d1:64613;
-        ("begin", Expression<MethodOrOperator> @:6386 op:0,dt:2,nt:9,next:6368,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6368 op:22,dt:4,nt:8,next:6371,str:24519,d0:6369,d1:64596;
-                ("wake", Expression<MethodOrOperator> @:6369 op:22,dt:2,nt:9,next:6370,str:3555,d0:0,d1:0;
-                    ("x01_foley_07", Expression<ScriptReference> @:6370 op:10,dt:10,nt:9,next:65535,str:10548,d0:106,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6371 op:22,dt:4,nt:8,next:6374,str:24541,d0:6372,d1:64599;
-                ("wake", Expression<MethodOrOperator> @:6372 op:22,dt:2,nt:9,next:6373,str:3555,d0:0,d1:0;
-                    ("x01_0190_der", Expression<ScriptReference> @:6373 op:10,dt:10,nt:9,next:65535,str:10424,d0:107,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6374 op:22,dt:4,nt:8,next:6377,str:24566,d0:6375,d1:64602;
-                ("wake", Expression<MethodOrOperator> @:6375 op:22,dt:2,nt:9,next:6376,str:3555,d0:0,d1:0;
-                    ("halo_explosion", Expression<ScriptReference> @:6376 op:10,dt:10,nt:9,next:65535,str:10561,d0:109,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6377 op:22,dt:4,nt:8,next:6380,str:24590,d0:6378,d1:64605;
-                ("wake", Expression<MethodOrOperator> @:6378 op:22,dt:2,nt:9,next:6379,str:3555,d0:0,d1:0;
-                    ("cinematic_lighting_scene_07", Expression<ScriptReference> @:6379 op:10,dt:10,nt:9,next:65535,str:10576,d0:108,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6380 op:41,dt:4,nt:8,next:65535,str:24630,d0:6381,d1:64608;
-                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:6381 op:41,dt:2,nt:9,next:6382,str:10461,d0:0,d1:0;
-                    ("effects\cinematics\01_outro\alpha_halo_explosion", Expression<Effect> @:6382 op:33,dt:33,nt:9,next:6383,str:10604,d0:2748,d1:60466;
-                        (4294901786, Expression<Entity> @:6383 op:56,dt:50,nt:9,next:6384,str:10157,d0:26,d1:65535;
-                            ("explosion_poa_front", Expression<StringId> @:6384 op:11,dt:11,nt:9,next:65535,str:10528,d0:2761,d1:4864;))))))))
+("x01_07_setup", MethodDecl<Void> @:110 check:0,op:0,dt:0,nt:65535,next:6385,nextCheck:64612,str:10653,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6385 check:64612,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:24482,h:1,d0:6386,d1:64613;
+        ("begin", Expression<MethodOrOperator> @:6386 check:64613,op:0,dt:2,nt:9,next:6368,nextCheck:64595,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6368 check:64595,op:22,dt:4,nt:8,next:6371,nextCheck:64598,str:24519,h:1,d0:6369,d1:64596;
+                ("wake", Expression<MethodOrOperator> @:6369 check:64596,op:22,dt:2,nt:9,next:6370,nextCheck:64597,str:3555,h:0,d0:0,d1:0;
+                    ("x01_foley_07", Expression<ScriptReference> @:6370 check:64597,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:10548,h:0,d0:106,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6371 check:64598,op:22,dt:4,nt:8,next:6374,nextCheck:64601,str:24541,h:1,d0:6372,d1:64599;
+                ("wake", Expression<MethodOrOperator> @:6372 check:64599,op:22,dt:2,nt:9,next:6373,nextCheck:64600,str:3555,h:0,d0:0,d1:0;
+                    ("x01_0190_der", Expression<ScriptReference> @:6373 check:64600,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:10424,h:0,d0:107,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6374 check:64601,op:22,dt:4,nt:8,next:6377,nextCheck:64604,str:24566,h:1,d0:6375,d1:64602;
+                ("wake", Expression<MethodOrOperator> @:6375 check:64602,op:22,dt:2,nt:9,next:6376,nextCheck:64603,str:3555,h:0,d0:0,d1:0;
+                    ("halo_explosion", Expression<ScriptReference> @:6376 check:64603,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:10561,h:0,d0:109,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6377 check:64604,op:22,dt:4,nt:8,next:6380,nextCheck:64607,str:24590,h:1,d0:6378,d1:64605;
+                ("wake", Expression<MethodOrOperator> @:6378 check:64605,op:22,dt:2,nt:9,next:6379,nextCheck:64606,str:3555,h:0,d0:0,d1:0;
+                    ("cinematic_lighting_scene_07", Expression<ScriptReference> @:6379 check:64606,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:10576,h:0,d0:108,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6380 check:64607,op:41,dt:4,nt:8,next:65535,nextCheck:65535,str:24630,h:1,d0:6381,d1:64608;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:6381 check:64608,op:41,dt:2,nt:9,next:6382,nextCheck:64609,str:10461,h:0,d0:0,d1:0;
+                    ("effects\cinematics\01_outro\alpha_halo_explosion", Expression<Effect> @:6382 check:64609,op:33,dt:33,nt:9,next:6383,nextCheck:64610,str:10604,h:0,d0:2748,d1:60466;
+                        (4294901786, Expression<Entity> @:6383 check:64610,op:56,dt:50,nt:9,next:6384,nextCheck:64611,str:10157,h:0,d0:26,d1:65535;
+                            ("explosion_poa_front", Expression<StringId> @:6384 check:64611,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:10528,h:0,d0:2761,d1:4864;))))))))

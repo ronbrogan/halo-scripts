@@ -1,27 +1,27 @@
 
-("final_hg_walk", MethodDecl<Void> @:46 op:0,dt:0,nt:65535,next:1427,str:3878,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:1427 op:0,dt:4,nt:8,next:65535,str:17108,d0:1428,d1:59655;
-        ("begin", Expression<MethodOrOperator> @:1428 op:0,dt:2,nt:9,next:1404,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:1404 op:310,dt:4,nt:8,next:1408,str:17142,d0:1405,d1:59632;
-                ("ai_allegiance", Expression<MethodOrOperator> @:1405 op:310,dt:2,nt:9,next:1406,str:1367,d0:0,d1:0;
-                    ("covenant", Expression<Team> @:1406 op:45,dt:45,nt:9,next:1407,str:1381,d0:3,d1:65535;
-                        ("prophet", Expression<Team> @:1407 op:45,dt:45,nt:9,next:65535,str:1390,d0:7,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:1408 op:19,dt:4,nt:8,next:1411,str:17179,d0:1409,d1:59636;
-                ("sleep", Expression<MethodOrOperator> @:1409 op:19,dt:2,nt:9,next:1410,str:80,d0:0,d1:0;
-                    (120, Expression<Short> @:1410 op:7,dt:7,nt:9,next:65535,str:17186,d0:120,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1411 op:27,dt:4,nt:8,next:1414,str:17193,d0:1412,d1:59639;
-                ("print", Expression<MethodOrOperator> @:1412 op:27,dt:2,nt:9,next:1413,str:86,d0:0,d1:0;
-                    ("final honor-guards", Expression<String> @:1413 op:9,dt:9,nt:9,next:65535,str:3417,d0:3417,d1:0;)))
-            (____, BuiltinInvocation<Void> @:1414 op:290,dt:4,nt:8,next:1417,str:17227,d0:1415,d1:59642;
-                ("ai_place", Expression<MethodOrOperator> @:1415 op:290,dt:2,nt:9,next:1416,str:1415,d0:0,d1:0;
-                    ("elites_03", Expression<AI> @:1416 op:19,dt:19,nt:9,next:65535,str:3436,d0:112,d1:0;)))
-            (____, BuiltinInvocation<Void> @:1417 op:366,dt:4,nt:8,next:1421,str:17250,d0:1418,d1:59645;
-                ("cs_run_command_script", Expression<MethodOrOperator> @:1418 op:366,dt:2,nt:9,next:1419,str:1464,d0:0,d1:0;
-                    ("elites_03", Expression<AI> @:1419 op:19,dt:19,nt:9,next:1420,str:3436,d0:112,d1:0;
-                        ("cs_elite_walk_03", Expression<AIScript> @:1420 op:21,dt:21,nt:9,next:65535,str:3446,d0:45,d1:0;))))
-            (____, BuiltinInvocation<Void> @:1421 op:95,dt:4,nt:8,next:65535,str:17303,d0:1422,d1:59649;
-                ("object_uses_cinematic_lighting", Expression<MethodOrOperator> @:1422 op:95,dt:2,nt:9,next:1423,str:2044,d0:0,d1:0;
-                    (____, BuiltinInvocation<Entity> @:1423 op:284,dt:50,nt:8,next:1426,str:17335,d0:1424,d1:59651;
-                        ("ai_get_object", Expression<MethodOrOperator> @:1424 op:284,dt:2,nt:9,next:1425,str:2308,d0:0,d1:0;
-                            ("ai_current_actor", VariableAccess<AI> @:1425 op:19,dt:19,nt:13,next:65535,str:3463,d0:33564,d1:65535;)))
-                    (True, Expression<Boolean> @:1426 op:5,dt:5,nt:9,next:65535,str:17368,d0:65281,d1:65535;))))))
+("final_hg_walk", MethodDecl<Void> @:46 check:0,op:0,dt:0,nt:65535,next:1427,nextCheck:59654,str:3878,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:1427 check:59654,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:17108,h:0,d0:1428,d1:59655;
+        ("begin", Expression<MethodOrOperator> @:1428 check:59655,op:0,dt:2,nt:9,next:1404,nextCheck:59631,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1404 check:59631,op:310,dt:4,nt:8,next:1408,nextCheck:59635,str:17142,h:0,d0:1405,d1:59632;
+                ("ai_allegiance", Expression<MethodOrOperator> @:1405 check:59632,op:310,dt:2,nt:9,next:1406,nextCheck:59633,str:1367,h:0,d0:0,d1:0;
+                    ("covenant", Expression<Team> @:1406 check:59633,op:45,dt:45,nt:9,next:1407,nextCheck:59634,str:1381,h:0,d0:3,d1:65535;
+                        ("prophet", Expression<Team> @:1407 check:59634,op:45,dt:45,nt:9,next:65535,nextCheck:65535,str:1390,h:0,d0:7,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:1408 check:59635,op:19,dt:4,nt:8,next:1411,nextCheck:59638,str:17179,h:0,d0:1409,d1:59636;
+                ("sleep", Expression<MethodOrOperator> @:1409 check:59636,op:19,dt:2,nt:9,next:1410,nextCheck:59637,str:80,h:0,d0:0,d1:0;
+                    (120, Expression<Short> @:1410 check:59637,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17186,h:0,d0:120,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1411 check:59638,op:27,dt:4,nt:8,next:1414,nextCheck:59641,str:17193,h:0,d0:1412,d1:59639;
+                ("print", Expression<MethodOrOperator> @:1412 check:59639,op:27,dt:2,nt:9,next:1413,nextCheck:59640,str:86,h:0,d0:0,d1:0;
+                    ("final honor-guards", Expression<String> @:1413 check:59640,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:3417,h:0,d0:3417,d1:0;)))
+            (____, BuiltinInvocation<Void> @:1414 check:59641,op:290,dt:4,nt:8,next:1417,nextCheck:59644,str:17227,h:0,d0:1415,d1:59642;
+                ("ai_place", Expression<MethodOrOperator> @:1415 check:59642,op:290,dt:2,nt:9,next:1416,nextCheck:59643,str:1415,h:0,d0:0,d1:0;
+                    ("elites_03", Expression<AI> @:1416 check:59643,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:3436,h:0,d0:112,d1:0;)))
+            (____, BuiltinInvocation<Void> @:1417 check:59644,op:366,dt:4,nt:8,next:1421,nextCheck:59648,str:17250,h:0,d0:1418,d1:59645;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:1418 check:59645,op:366,dt:2,nt:9,next:1419,nextCheck:59646,str:1464,h:0,d0:0,d1:0;
+                    ("elites_03", Expression<AI> @:1419 check:59646,op:19,dt:19,nt:9,next:1420,nextCheck:59647,str:3436,h:0,d0:112,d1:0;
+                        ("cs_elite_walk_03", Expression<AIScript> @:1420 check:59647,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:3446,h:0,d0:45,d1:0;))))
+            (____, BuiltinInvocation<Void> @:1421 check:59648,op:95,dt:4,nt:8,next:65535,nextCheck:65535,str:17303,h:0,d0:1422,d1:59649;
+                ("object_uses_cinematic_lighting", Expression<MethodOrOperator> @:1422 check:59649,op:95,dt:2,nt:9,next:1423,nextCheck:59650,str:2044,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Entity> @:1423 check:59650,op:284,dt:50,nt:8,next:1426,nextCheck:59653,str:17335,h:0,d0:1424,d1:59651;
+                        ("ai_get_object", Expression<MethodOrOperator> @:1424 check:59651,op:284,dt:2,nt:9,next:1425,nextCheck:59652,str:2308,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:1425 check:59652,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:3463,h:0,d0:33564,d1:65535;)))
+                    (True, Expression<Boolean> @:1426 check:59653,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:17368,h:0,d0:65281,d1:65535;))))))

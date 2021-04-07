@@ -1,59 +1,59 @@
 
-("tower3_cortana_comment", MethodDecl<Void> @:194 op:0,dt:0,nt:65535,next:9223,str:19534,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:9223 op:0,dt:4,nt:8,next:65535,str:35538,d0:9224,d1:34684;
-        ("begin", Expression<MethodOrOperator> @:9224 op:0,dt:2,nt:9,next:9168,str:142,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:9168 op:21,dt:4,nt:8,next:9177,str:35579,d0:9169,d1:34629;
-                ("sleep_until", Expression<MethodOrOperator> @:9169 op:21,dt:2,nt:9,next:9170,str:372,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:9170 op:13,dt:5,nt:8,next:65535,str:35592,d0:9171,d1:34631;
-                        ("=", Expression<MethodOrOperator> @:9171 op:13,dt:2,nt:9,next:9172,str:437,d0:0,d1:0;
-                            (____, BuiltinInvocation<Boolean> @:9172 op:337,dt:5,nt:8,next:9176,str:35595,d0:9173,d1:34633;
-                                ("ai_trigger_test", Expression<MethodOrOperator> @:9173 op:337,dt:2,nt:9,next:9174,str:12601,d0:0,d1:0;
-                                    ("done_fighting", Expression<String> @:9174 op:9,dt:9,nt:9,next:9175,str:12617,d0:12617,d1:0;
-                                        ("tower3_enemies", Expression<AI> @:9175 op:19,dt:19,nt:9,next:65535,str:18137,d0:9,d1:16384;))))
-                            (True, Expression<Boolean> @:9176 op:5,dt:5,nt:9,next:65535,str:35644,d0:65281,d1:65535;)))))
-            (____, BuiltinInvocation<Void> @:9177 op:281,dt:4,nt:8,next:9180,str:35667,d0:9178,d1:34638;
-                ("ai_dialogue_enable", Expression<MethodOrOperator> @:9178 op:281,dt:2,nt:9,next:9179,str:10448,d0:0,d1:0;
-                    (False, Expression<Boolean> @:9179 op:5,dt:5,nt:9,next:65535,str:35687,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:9180 op:19,dt:4,nt:8,next:9183,str:35696,d0:9181,d1:34641;
-                ("sleep", Expression<MethodOrOperator> @:9181 op:19,dt:2,nt:9,next:9182,str:221,d0:0,d1:0;
-                    (60, Expression<Short> @:9182 op:7,dt:7,nt:9,next:65535,str:35703,d0:60,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:9183 op:27,dt:4,nt:8,next:9186,str:35709,d0:9184,d1:34644;
-                ("print", Expression<MethodOrOperator> @:9184 op:27,dt:2,nt:9,next:9185,str:227,d0:0,d1:0;
-                    ("cortana: 'ah, now i see. there's a submerged section that...'", Expression<String> @:9185 op:9,dt:9,nt:9,next:65535,str:18152,d0:18152,d1:0;)))
-            (____, BuiltinInvocation<Void> @:9186 op:27,dt:4,nt:8,next:9189,str:35783,d0:9187,d1:34647;
-                ("print", Expression<MethodOrOperator> @:9187 op:27,dt:2,nt:9,next:9188,str:227,d0:0,d1:0;
-                    ("'...connects these towers to the outlying structures.'", Expression<String> @:9188 op:9,dt:9,nt:9,next:65535,str:18214,d0:18214,d1:0;)))
-            (____, BuiltinInvocation<Void> @:9189 op:19,dt:4,nt:8,next:9195,str:35850,d0:9190,d1:34650;
-                ("sleep", Expression<MethodOrOperator> @:9190 op:19,dt:2,nt:9,next:9191,str:221,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:9191 op:362,dt:7,nt:8,next:65535,str:35857,d0:9192,d1:34652;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:9192 op:362,dt:2,nt:9,next:9193,str:10115,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:9193 op:50,dt:50,nt:9,next:9194,str:52,d0:65535,d1:65535;
-                                ("1000", Expression<StringId> @:9194 op:11,dt:11,nt:9,next:65535,str:18269,d0:12487,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:9195 op:19,dt:4,nt:8,next:9198,str:35983,d0:9196,d1:34656;
-                ("sleep", Expression<MethodOrOperator> @:9196 op:19,dt:2,nt:9,next:9197,str:221,d0:0,d1:0;
-                    (60, Expression<Short> @:9197 op:7,dt:7,nt:9,next:65535,str:35990,d0:60,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:9198 op:27,dt:4,nt:8,next:9201,str:35996,d0:9199,d1:34659;
-                ("print", Expression<MethodOrOperator> @:9199 op:27,dt:2,nt:9,next:9200,str:227,d0:0,d1:0;
-                    ("'looks like we're going down.'", Expression<String> @:9200 op:9,dt:9,nt:9,next:65535,str:18274,d0:18274,d1:0;)))
-            (____, BuiltinInvocation<Void> @:9201 op:19,dt:4,nt:8,next:9207,str:36039,d0:9202,d1:34662;
-                ("sleep", Expression<MethodOrOperator> @:9202 op:19,dt:2,nt:9,next:9203,str:221,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:9203 op:362,dt:7,nt:8,next:65535,str:36046,d0:9204,d1:34664;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:9204 op:362,dt:2,nt:9,next:9205,str:10115,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:9205 op:50,dt:50,nt:9,next:9206,str:52,d0:65535,d1:65535;
-                                ("1010", Expression<StringId> @:9206 op:11,dt:11,nt:9,next:65535,str:18305,d0:12488,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:9207 op:19,dt:4,nt:8,next:9210,str:36172,d0:9208,d1:34668;
-                ("sleep", Expression<MethodOrOperator> @:9208 op:19,dt:2,nt:9,next:9209,str:221,d0:0,d1:0;
-                    (30, Expression<Short> @:9209 op:7,dt:7,nt:9,next:65535,str:36179,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:9210 op:27,dt:4,nt:8,next:9213,str:36185,d0:9211,d1:34671;
-                ("print", Expression<MethodOrOperator> @:9211 op:27,dt:2,nt:9,next:9212,str:227,d0:0,d1:0;
-                    ("'unless you'd prefer to swim...'", Expression<String> @:9212 op:9,dt:9,nt:9,next:65535,str:18310,d0:18310,d1:0;)))
-            (____, BuiltinInvocation<Void> @:9213 op:19,dt:4,nt:8,next:9219,str:36230,d0:9214,d1:34674;
-                ("sleep", Expression<MethodOrOperator> @:9214 op:19,dt:2,nt:9,next:9215,str:221,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:9215 op:362,dt:7,nt:8,next:65535,str:36237,d0:9216,d1:34676;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:9216 op:362,dt:2,nt:9,next:9217,str:10115,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:9217 op:50,dt:50,nt:9,next:9218,str:52,d0:65535,d1:65535;
-                                ("1020", Expression<StringId> @:9218 op:11,dt:11,nt:9,next:65535,str:18343,d0:12489,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:9219 op:4,dt:4,nt:8,next:65535,str:36648,d0:9220,d1:34680;
-                ("set", Expression<MethodOrOperator> @:9220 op:4,dt:2,nt:9,next:9221,str:2971,d0:0,d1:0;
-                    ("tower3_done_blabbing", VariableAccess<Boolean> @:9221 op:65535,dt:5,nt:13,next:9222,str:18348,d0:12,d1:0;
-                        (True, Expression<Boolean> @:9222 op:5,dt:5,nt:9,next:65535,str:36674,d0:65281,d1:65535;)))))))
+("tower3_cortana_comment", MethodDecl<Void> @:194 check:0,op:0,dt:0,nt:65535,next:9223,nextCheck:34683,str:19534,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:9223 check:34683,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:35538,h:1,d0:9224,d1:34684;
+        ("begin", Expression<MethodOrOperator> @:9224 check:34684,op:0,dt:2,nt:9,next:9168,nextCheck:34628,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:9168 check:34628,op:21,dt:4,nt:8,next:9177,nextCheck:34637,str:35579,h:1,d0:9169,d1:34629;
+                ("sleep_until", Expression<MethodOrOperator> @:9169 check:34629,op:21,dt:2,nt:9,next:9170,nextCheck:34630,str:372,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:9170 check:34630,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:35592,h:1,d0:9171,d1:34631;
+                        ("=", Expression<MethodOrOperator> @:9171 check:34631,op:13,dt:2,nt:9,next:9172,nextCheck:34632,str:437,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Boolean> @:9172 check:34632,op:337,dt:5,nt:8,next:9176,nextCheck:34636,str:35595,h:1,d0:9173,d1:34633;
+                                ("ai_trigger_test", Expression<MethodOrOperator> @:9173 check:34633,op:337,dt:2,nt:9,next:9174,nextCheck:34634,str:12601,h:0,d0:0,d1:0;
+                                    ("done_fighting", Expression<String> @:9174 check:34634,op:9,dt:9,nt:9,next:9175,nextCheck:34635,str:12617,h:0,d0:12617,d1:0;
+                                        ("tower3_enemies", Expression<AI> @:9175 check:34635,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:18137,h:0,d0:9,d1:16384;))))
+                            (True, Expression<Boolean> @:9176 check:34636,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:35644,h:1,d0:65281,d1:65535;)))))
+            (____, BuiltinInvocation<Void> @:9177 check:34637,op:281,dt:4,nt:8,next:9180,nextCheck:34640,str:35667,h:1,d0:9178,d1:34638;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:9178 check:34638,op:281,dt:2,nt:9,next:9179,nextCheck:34639,str:10448,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:9179 check:34639,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:35687,h:1,d0:65280,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:9180 check:34640,op:19,dt:4,nt:8,next:9183,nextCheck:34643,str:35696,h:1,d0:9181,d1:34641;
+                ("sleep", Expression<MethodOrOperator> @:9181 check:34641,op:19,dt:2,nt:9,next:9182,nextCheck:34642,str:221,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:9182 check:34642,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:35703,h:1,d0:60,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:9183 check:34643,op:27,dt:4,nt:8,next:9186,nextCheck:34646,str:35709,h:1,d0:9184,d1:34644;
+                ("print", Expression<MethodOrOperator> @:9184 check:34644,op:27,dt:2,nt:9,next:9185,nextCheck:34645,str:227,h:0,d0:0,d1:0;
+                    ("cortana: 'ah, now i see. there's a submerged section that...'", Expression<String> @:9185 check:34645,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18152,h:0,d0:18152,d1:0;)))
+            (____, BuiltinInvocation<Void> @:9186 check:34646,op:27,dt:4,nt:8,next:9189,nextCheck:34649,str:35783,h:1,d0:9187,d1:34647;
+                ("print", Expression<MethodOrOperator> @:9187 check:34647,op:27,dt:2,nt:9,next:9188,nextCheck:34648,str:227,h:0,d0:0,d1:0;
+                    ("'...connects these towers to the outlying structures.'", Expression<String> @:9188 check:34648,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18214,h:0,d0:18214,d1:0;)))
+            (____, BuiltinInvocation<Void> @:9189 check:34649,op:19,dt:4,nt:8,next:9195,nextCheck:34655,str:35850,h:1,d0:9190,d1:34650;
+                ("sleep", Expression<MethodOrOperator> @:9190 check:34650,op:19,dt:2,nt:9,next:9191,nextCheck:34651,str:221,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:9191 check:34651,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:35857,h:1,d0:9192,d1:34652;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:9192 check:34652,op:362,dt:2,nt:9,next:9193,nextCheck:34653,str:10115,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:9193 check:34653,op:50,dt:50,nt:9,next:9194,nextCheck:34654,str:52,h:0,d0:65535,d1:65535;
+                                ("1000", Expression<StringId> @:9194 check:34654,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:18269,h:0,d0:12487,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:9195 check:34655,op:19,dt:4,nt:8,next:9198,nextCheck:34658,str:35983,h:1,d0:9196,d1:34656;
+                ("sleep", Expression<MethodOrOperator> @:9196 check:34656,op:19,dt:2,nt:9,next:9197,nextCheck:34657,str:221,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:9197 check:34657,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:35990,h:1,d0:60,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:9198 check:34658,op:27,dt:4,nt:8,next:9201,nextCheck:34661,str:35996,h:1,d0:9199,d1:34659;
+                ("print", Expression<MethodOrOperator> @:9199 check:34659,op:27,dt:2,nt:9,next:9200,nextCheck:34660,str:227,h:0,d0:0,d1:0;
+                    ("'looks like we're going down.'", Expression<String> @:9200 check:34660,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18274,h:0,d0:18274,d1:0;)))
+            (____, BuiltinInvocation<Void> @:9201 check:34661,op:19,dt:4,nt:8,next:9207,nextCheck:34667,str:36039,h:1,d0:9202,d1:34662;
+                ("sleep", Expression<MethodOrOperator> @:9202 check:34662,op:19,dt:2,nt:9,next:9203,nextCheck:34663,str:221,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:9203 check:34663,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:36046,h:1,d0:9204,d1:34664;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:9204 check:34664,op:362,dt:2,nt:9,next:9205,nextCheck:34665,str:10115,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:9205 check:34665,op:50,dt:50,nt:9,next:9206,nextCheck:34666,str:52,h:0,d0:65535,d1:65535;
+                                ("1010", Expression<StringId> @:9206 check:34666,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:18305,h:0,d0:12488,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:9207 check:34667,op:19,dt:4,nt:8,next:9210,nextCheck:34670,str:36172,h:1,d0:9208,d1:34668;
+                ("sleep", Expression<MethodOrOperator> @:9208 check:34668,op:19,dt:2,nt:9,next:9209,nextCheck:34669,str:221,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:9209 check:34669,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:36179,h:1,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:9210 check:34670,op:27,dt:4,nt:8,next:9213,nextCheck:34673,str:36185,h:1,d0:9211,d1:34671;
+                ("print", Expression<MethodOrOperator> @:9211 check:34671,op:27,dt:2,nt:9,next:9212,nextCheck:34672,str:227,h:0,d0:0,d1:0;
+                    ("'unless you'd prefer to swim...'", Expression<String> @:9212 check:34672,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18310,h:0,d0:18310,d1:0;)))
+            (____, BuiltinInvocation<Void> @:9213 check:34673,op:19,dt:4,nt:8,next:9219,nextCheck:34679,str:36230,h:1,d0:9214,d1:34674;
+                ("sleep", Expression<MethodOrOperator> @:9214 check:34674,op:19,dt:2,nt:9,next:9215,nextCheck:34675,str:221,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:9215 check:34675,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:36237,h:1,d0:9216,d1:34676;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:9216 check:34676,op:362,dt:2,nt:9,next:9217,nextCheck:34677,str:10115,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:9217 check:34677,op:50,dt:50,nt:9,next:9218,nextCheck:34678,str:52,h:0,d0:65535,d1:65535;
+                                ("1020", Expression<StringId> @:9218 check:34678,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:18343,h:0,d0:12489,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:9219 check:34679,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:36648,h:1,d0:9220,d1:34680;
+                ("set", Expression<MethodOrOperator> @:9220 check:34680,op:4,dt:2,nt:9,next:9221,nextCheck:34681,str:2971,h:0,d0:0,d1:0;
+                    ("tower3_done_blabbing", VariableAccess<Boolean> @:9221 check:34681,op:65535,dt:5,nt:13,next:9222,nextCheck:34682,str:18348,h:0,d0:12,d1:0;
+                        (True, Expression<Boolean> @:9222 check:34682,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:36674,h:1,d0:65281,d1:65535;)))))))

@@ -1,15 +1,15 @@
 
-("cs_trm1_lookat_miranda", MethodDecl<Void> @:363 op:0,dt:0,nt:65535,next:16725,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:16725 op:0,dt:4,nt:8,next:65535,str:5508,d0:16726,d1:42186;
-        ("begin", Expression<MethodOrOperator> @:16726 op:0,dt:2,nt:9,next:16714,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:16714 op:444,dt:4,nt:8,next:16717,str:5556,d0:16715,d1:42175;
-                ("cs_enable_moving", Expression<MethodOrOperator> @:16715 op:444,dt:2,nt:9,next:16716,str:37929,d0:0,d1:0;
-                    (False, Expression<Boolean> @:16716 op:5,dt:5,nt:9,next:65535,str:5574,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16717 op:401,dt:4,nt:8,next:16723,str:5579,d0:16718,d1:42178;
-                ("cs_face_object", Expression<MethodOrOperator> @:16718 op:401,dt:2,nt:9,next:16719,str:31954,d0:0,d1:0;
-                    (True, Expression<Boolean> @:16719 op:5,dt:5,nt:9,next:16720,str:5595,d0:65281,d1:65535;
-                        (____, BuiltinInvocation<Entity> @:16720 op:284,dt:50,nt:8,next:65535,str:5597,d0:16721,d1:42181;
-                            ("ai_get_object", Expression<MethodOrOperator> @:16721 op:284,dt:2,nt:9,next:16722,str:31886,d0:0,d1:0;
-                                ("trm1_hum_miranda", Expression<AI> @:16722 op:19,dt:19,nt:9,next:65535,str:37971,d0:78,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:16723 op:20,dt:4,nt:8,next:65535,str:5633,d0:16724,d1:42184;
-                ("sleep_forever", Expression<MethodOrOperator> @:16724 op:20,dt:2,nt:9,next:65535,str:27349,d0:0,d1:0;)))))
+("cs_trm1_lookat_miranda", MethodDecl<Void> @:363 check:0,op:0,dt:0,nt:65535,next:16725,nextCheck:42185,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:16725 check:42185,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:5508,h:3,d0:16726,d1:42186;
+        ("begin", Expression<MethodOrOperator> @:16726 check:42186,op:0,dt:2,nt:9,next:16714,nextCheck:42174,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:16714 check:42174,op:444,dt:4,nt:8,next:16717,nextCheck:42177,str:5556,h:3,d0:16715,d1:42175;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:16715 check:42175,op:444,dt:2,nt:9,next:16716,nextCheck:42176,str:37929,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:16716 check:42176,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:5574,h:3,d0:65280,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16717 check:42177,op:401,dt:4,nt:8,next:16723,nextCheck:42183,str:5579,h:3,d0:16718,d1:42178;
+                ("cs_face_object", Expression<MethodOrOperator> @:16718 check:42178,op:401,dt:2,nt:9,next:16719,nextCheck:42179,str:31954,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16719 check:42179,op:5,dt:5,nt:9,next:16720,nextCheck:42180,str:5595,h:3,d0:65281,d1:65535;
+                        (____, BuiltinInvocation<Entity> @:16720 check:42180,op:284,dt:50,nt:8,next:65535,nextCheck:65535,str:5597,h:3,d0:16721,d1:42181;
+                            ("ai_get_object", Expression<MethodOrOperator> @:16721 check:42181,op:284,dt:2,nt:9,next:16722,nextCheck:42182,str:31886,h:0,d0:0,d1:0;
+                                ("trm1_hum_miranda", Expression<AI> @:16722 check:42182,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:37971,h:0,d0:78,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:16723 check:42183,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:5633,h:3,d0:16724,d1:42184;
+                ("sleep_forever", Expression<MethodOrOperator> @:16724 check:42184,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:27349,h:0,d0:0,d1:0;)))))

@@ -1,19 +1,19 @@
 
-("c04_intro_05_setup", MethodDecl<Void> @:189 op:0,dt:0,nt:65535,next:5981,str:13722,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5981 op:0,dt:4,nt:8,next:65535,str:6764,d0:5982,d1:64209;
-        ("begin", Expression<MethodOrOperator> @:5982 op:0,dt:2,nt:9,next:5966,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5966 op:48,dt:4,nt:8,next:5969,str:6808,d0:5967,d1:64194;
-                ("object_create_anew", Expression<MethodOrOperator> @:5967 op:48,dt:2,nt:9,next:5968,str:2237,d0:0,d1:0;
-                    ("phantom_01", Expression<EntityIdentifier> @:5968 op:56,dt:56,nt:9,next:65535,str:13617,d0:133,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5969 op:48,dt:4,nt:8,next:5972,str:6842,d0:5970,d1:64197;
-                ("object_create_anew", Expression<MethodOrOperator> @:5970 op:48,dt:2,nt:9,next:5971,str:2237,d0:0,d1:0;
-                    ("phantom_02", Expression<EntityIdentifier> @:5971 op:56,dt:56,nt:9,next:65535,str:13628,d0:134,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5972 op:48,dt:4,nt:8,next:5975,str:6876,d0:5973,d1:64200;
-                ("object_create_anew", Expression<MethodOrOperator> @:5973 op:48,dt:2,nt:9,next:5974,str:2237,d0:0,d1:0;
-                    ("phantom_03", Expression<EntityIdentifier> @:5974 op:56,dt:56,nt:9,next:65535,str:13639,d0:135,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5975 op:22,dt:4,nt:8,next:5978,str:6913,d0:5976,d1:64203;
-                ("wake", Expression<MethodOrOperator> @:5976 op:22,dt:2,nt:9,next:5977,str:1071,d0:0,d1:0;
-                    ("c04_intro_sound_scene5_01", Expression<ScriptReference> @:5977 op:10,dt:10,nt:9,next:65535,str:13650,d0:187,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5978 op:22,dt:4,nt:8,next:65535,str:6950,d0:5979,d1:64206;
-                ("wake", Expression<MethodOrOperator> @:5979 op:22,dt:2,nt:9,next:5980,str:1071,d0:0,d1:0;
-                    ("c04_intro_05_shake_1", Expression<ScriptReference> @:5980 op:10,dt:10,nt:9,next:65535,str:13676,d0:188,d1:65535;))))))
+("c04_intro_05_setup", MethodDecl<Void> @:189 check:0,op:0,dt:0,nt:65535,next:5981,nextCheck:64208,str:13722,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5981 check:64208,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:6764,h:1,d0:5982,d1:64209;
+        ("begin", Expression<MethodOrOperator> @:5982 check:64209,op:0,dt:2,nt:9,next:5966,nextCheck:64193,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5966 check:64193,op:48,dt:4,nt:8,next:5969,nextCheck:64196,str:6808,h:1,d0:5967,d1:64194;
+                ("object_create_anew", Expression<MethodOrOperator> @:5967 check:64194,op:48,dt:2,nt:9,next:5968,nextCheck:64195,str:2237,h:0,d0:0,d1:0;
+                    ("phantom_01", Expression<EntityIdentifier> @:5968 check:64195,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:13617,h:0,d0:133,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5969 check:64196,op:48,dt:4,nt:8,next:5972,nextCheck:64199,str:6842,h:1,d0:5970,d1:64197;
+                ("object_create_anew", Expression<MethodOrOperator> @:5970 check:64197,op:48,dt:2,nt:9,next:5971,nextCheck:64198,str:2237,h:0,d0:0,d1:0;
+                    ("phantom_02", Expression<EntityIdentifier> @:5971 check:64198,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:13628,h:0,d0:134,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5972 check:64199,op:48,dt:4,nt:8,next:5975,nextCheck:64202,str:6876,h:1,d0:5973,d1:64200;
+                ("object_create_anew", Expression<MethodOrOperator> @:5973 check:64200,op:48,dt:2,nt:9,next:5974,nextCheck:64201,str:2237,h:0,d0:0,d1:0;
+                    ("phantom_03", Expression<EntityIdentifier> @:5974 check:64201,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:13639,h:0,d0:135,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5975 check:64202,op:22,dt:4,nt:8,next:5978,nextCheck:64205,str:6913,h:1,d0:5976,d1:64203;
+                ("wake", Expression<MethodOrOperator> @:5976 check:64203,op:22,dt:2,nt:9,next:5977,nextCheck:64204,str:1071,h:0,d0:0,d1:0;
+                    ("c04_intro_sound_scene5_01", Expression<ScriptReference> @:5977 check:64204,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:13650,h:0,d0:187,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5978 check:64205,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:6950,h:1,d0:5979,d1:64206;
+                ("wake", Expression<MethodOrOperator> @:5979 check:64206,op:22,dt:2,nt:9,next:5980,nextCheck:64207,str:1071,h:0,d0:0,d1:0;
+                    ("c04_intro_05_shake_1", Expression<ScriptReference> @:5980 check:64207,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:13676,h:0,d0:188,d1:65535;))))))

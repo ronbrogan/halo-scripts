@@ -1,19 +1,19 @@
 
-("save_bay2_mid", MethodDecl<Void> @:312 op:0,dt:0,nt:65535,next:11983,str:36865,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:11983 op:0,dt:4,nt:8,next:65535,str:14063,d0:11984,d1:37444;
-        ("begin", Expression<MethodOrOperator> @:11984 op:0,dt:2,nt:9,next:11968,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:11968 op:587,dt:4,nt:8,next:11970,str:14099,d0:11969,d1:37429;
-                ("game_save", Expression<MethodOrOperator> @:11969 op:587,dt:2,nt:9,next:65535,str:27608,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:11970 op:786,dt:4,nt:8,next:11973,str:14113,d0:11971,d1:37431;
-                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:11971 op:786,dt:2,nt:9,next:11972,str:27565,d0:0,d1:0;
-                    ("01b_bay2_mid", Expression<String> @:11972 op:9,dt:9,nt:9,next:65535,str:27798,d0:27798,d1:0;)))
-            (____, BuiltinInvocation<Void> @:11973 op:4,dt:4,nt:8,next:65535,str:14162,d0:11974,d1:37434;
-                ("set", Expression<MethodOrOperator> @:11974 op:4,dt:2,nt:9,next:11975,str:3357,d0:0,d1:0;
-                    ("timer_flavor", VariableAccess<Short> @:11975 op:65535,dt:7,nt:13,next:11976,str:27632,d0:22,d1:0;
-                        (____, BuiltinInvocation<Short> @:11976 op:12,dt:7,nt:8,next:65535,str:14180,d0:11977,d1:37437;
-                            ("max", Expression<MethodOrOperator> @:11977 op:12,dt:2,nt:9,next:11978,str:27645,d0:0,d1:0;
-                                ("timer_flavor", VariableAccess<Float> @:11978 op:6,dt:6,nt:13,next:11979,str:27632,d0:22,d1:0;
-                                    (-6.06422E-28f, BuiltinInvocation<Float> @:11979 op:9,dt:6,nt:8,next:65535,str:14198,d0:11980,d1:37440;
-                                        ("*", Expression<MethodOrOperator> @:11980 op:9,dt:2,nt:9,next:11981,str:1,d0:0,d1:0;
-                                            (10f, Expression<Float> @:11981 op:6,dt:6,nt:9,next:11982,str:14201,d0:0,d1:16672;
-                                                ("seconds", VariableAccess<Float> @:11982 op:6,dt:6,nt:13,next:65535,str:3,d0:18,d1:0;)))))))))))))
+("save_bay2_mid", MethodDecl<Void> @:312 check:0,op:0,dt:0,nt:65535,next:11983,nextCheck:37443,str:36865,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:11983 check:37443,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:14063,h:2,d0:11984,d1:37444;
+        ("begin", Expression<MethodOrOperator> @:11984 check:37444,op:0,dt:2,nt:9,next:11968,nextCheck:37428,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:11968 check:37428,op:587,dt:4,nt:8,next:11970,nextCheck:37430,str:14099,h:2,d0:11969,d1:37429;
+                ("game_save", Expression<MethodOrOperator> @:11969 check:37429,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:27608,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:11970 check:37430,op:786,dt:4,nt:8,next:11973,nextCheck:37433,str:14113,h:2,d0:11971,d1:37431;
+                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:11971 check:37431,op:786,dt:2,nt:9,next:11972,nextCheck:37432,str:27565,h:0,d0:0,d1:0;
+                    ("01b_bay2_mid", Expression<String> @:11972 check:37432,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:27798,h:0,d0:27798,d1:0;)))
+            (____, BuiltinInvocation<Void> @:11973 check:37433,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:14162,h:2,d0:11974,d1:37434;
+                ("set", Expression<MethodOrOperator> @:11974 check:37434,op:4,dt:2,nt:9,next:11975,nextCheck:37435,str:3357,h:0,d0:0,d1:0;
+                    ("timer_flavor", VariableAccess<Short> @:11975 check:37435,op:65535,dt:7,nt:13,next:11976,nextCheck:37436,str:27632,h:0,d0:22,d1:0;
+                        (____, BuiltinInvocation<Short> @:11976 check:37436,op:12,dt:7,nt:8,next:65535,nextCheck:65535,str:14180,h:2,d0:11977,d1:37437;
+                            ("max", Expression<MethodOrOperator> @:11977 check:37437,op:12,dt:2,nt:9,next:11978,nextCheck:37438,str:27645,h:0,d0:0,d1:0;
+                                ("timer_flavor", VariableAccess<Float> @:11978 check:37438,op:6,dt:6,nt:13,next:11979,nextCheck:37439,str:27632,h:0,d0:22,d1:0;
+                                    (-6.06422E-28f, BuiltinInvocation<Float> @:11979 check:37439,op:9,dt:6,nt:8,next:65535,nextCheck:65535,str:14198,h:2,d0:11980,d1:37440;
+                                        ("*", Expression<MethodOrOperator> @:11980 check:37440,op:9,dt:2,nt:9,next:11981,nextCheck:37441,str:1,h:0,d0:0,d1:0;
+                                            (10f, Expression<Float> @:11981 check:37441,op:6,dt:6,nt:9,next:11982,nextCheck:37442,str:14201,h:2,d0:0,d1:16672;
+                                                ("seconds", VariableAccess<Float> @:11982 check:37442,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:3,h:0,d0:18,d1:0;)))))))))))))

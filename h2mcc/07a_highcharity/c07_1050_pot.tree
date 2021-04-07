@@ -1,31 +1,31 @@
 
-("c07_1050_pot", MethodDecl<Void> @:148 op:0,dt:0,nt:65535,next:5036,str:12266,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5036 op:0,dt:4,nt:8,next:65535,str:1981,d0:5037,d1:63264;
-        ("begin", Expression<MethodOrOperator> @:5037 op:0,dt:2,nt:9,next:5009,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5009 op:19,dt:4,nt:8,next:5012,str:2012,d0:5010,d1:63237;
-                ("sleep", Expression<MethodOrOperator> @:5010 op:19,dt:2,nt:9,next:5011,str:80,d0:0,d1:0;
-                    (0, Expression<Short> @:5011 op:7,dt:7,nt:9,next:65535,str:2019,d0:0,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5012 op:596,dt:4,nt:8,next:5017,str:2024,d0:5013,d1:63240;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:5013 op:596,dt:2,nt:9,next:5014,str:1513,d0:0,d1:0;
-                    ("sound\dialog\levels\07_highcharity\cinematic\c07_1050_pot", Expression<Sound> @:5014 op:32,dt:32,nt:9,next:5015,str:12208,d0:1046,d1:58764;
-                        (4294902041, Expression<Entity> @:5015 op:56,dt:50,nt:9,next:5016,str:10155,d0:281,d1:65535;
-                            (1f, Expression<Float> @:5016 op:6,dt:6,nt:9,next:65535,str:2115,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:5017 op:562,dt:4,nt:8,next:5021,str:2120,d0:5018,d1:63245;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:5018 op:562,dt:2,nt:9,next:5019,str:2897,d0:0,d1:0;
-                    ("c07_1050_pot", Expression<StringId> @:5019 op:11,dt:11,nt:9,next:5020,str:12266,d0:4530,d1:3072;
-                        (5f, Expression<Float> @:5020 op:6,dt:6,nt:9,next:65535,str:2153,d0:0,d1:16544;))))
-            (____, BuiltinInvocation<Void> @:5021 op:220,dt:4,nt:8,next:5027,str:2161,d0:5022,d1:63249;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:5022 op:220,dt:2,nt:9,next:5023,str:11070,d0:0,d1:0;
-                    ("truth_intro", Expression<Unit> @:5023 op:57,dt:51,nt:9,next:5024,str:10155,d0:281,d1:65535;
-                        ("happy", Expression<StringId> @:5024 op:11,dt:11,nt:9,next:5025,str:11196,d0:422,d1:1280;
-                            (0.25f, Expression<Float> @:5025 op:6,dt:6,nt:9,next:5026,str:2205,d0:0,d1:16000;
-                                (0, Expression<Short> @:5026 op:7,dt:7,nt:9,next:65535,str:2209,d0:0,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:5027 op:220,dt:4,nt:8,next:5033,str:2214,d0:5028,d1:63255;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:5028 op:220,dt:2,nt:9,next:5029,str:11070,d0:0,d1:0;
-                    ("truth_intro", Expression<Unit> @:5029 op:57,dt:51,nt:9,next:5030,str:10155,d0:281,d1:65535;
-                        ("happy", Expression<StringId> @:5030 op:11,dt:11,nt:9,next:5031,str:11196,d0:422,d1:1280;
-                            (0.5f, Expression<Float> @:5031 op:6,dt:6,nt:9,next:5032,str:2258,d0:0,d1:16128;
-                                (60, Expression<Short> @:5032 op:7,dt:7,nt:9,next:65535,str:2261,d0:60,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:5033 op:27,dt:4,nt:8,next:65535,str:2267,d0:5034,d1:63261;
-                ("print", Expression<MethodOrOperator> @:5034 op:27,dt:2,nt:9,next:5035,str:86,d0:0,d1:0;
-                    ("truth - happy .5 60", Expression<String> @:5035 op:9,dt:9,nt:9,next:65535,str:12279,d0:12279,d1:0;))))))
+("c07_1050_pot", MethodDecl<Void> @:148 check:0,op:0,dt:0,nt:65535,next:5036,nextCheck:63263,str:12266,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5036 check:63263,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1981,h:1,d0:5037,d1:63264;
+        ("begin", Expression<MethodOrOperator> @:5037 check:63264,op:0,dt:2,nt:9,next:5009,nextCheck:63236,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5009 check:63236,op:19,dt:4,nt:8,next:5012,nextCheck:63239,str:2012,h:1,d0:5010,d1:63237;
+                ("sleep", Expression<MethodOrOperator> @:5010 check:63237,op:19,dt:2,nt:9,next:5011,nextCheck:63238,str:80,h:0,d0:0,d1:0;
+                    (0, Expression<Short> @:5011 check:63238,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2019,h:1,d0:0,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5012 check:63239,op:596,dt:4,nt:8,next:5017,nextCheck:63244,str:2024,h:1,d0:5013,d1:63240;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:5013 check:63240,op:596,dt:2,nt:9,next:5014,nextCheck:63241,str:1513,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\07_highcharity\cinematic\c07_1050_pot", Expression<Sound> @:5014 check:63241,op:32,dt:32,nt:9,next:5015,nextCheck:63242,str:12208,h:0,d0:1046,d1:58764;
+                        (4294902041, Expression<Entity> @:5015 check:63242,op:56,dt:50,nt:9,next:5016,nextCheck:63243,str:10155,h:0,d0:281,d1:65535;
+                            (1f, Expression<Float> @:5016 check:63243,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:2115,h:1,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:5017 check:63244,op:562,dt:4,nt:8,next:5021,nextCheck:63248,str:2120,h:1,d0:5018,d1:63245;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:5018 check:63245,op:562,dt:2,nt:9,next:5019,nextCheck:63246,str:2897,h:0,d0:0,d1:0;
+                    ("c07_1050_pot", Expression<StringId> @:5019 check:63246,op:11,dt:11,nt:9,next:5020,nextCheck:63247,str:12266,h:0,d0:4530,d1:3072;
+                        (5f, Expression<Float> @:5020 check:63247,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:2153,h:1,d0:0,d1:16544;))))
+            (____, BuiltinInvocation<Void> @:5021 check:63248,op:220,dt:4,nt:8,next:5027,nextCheck:63254,str:2161,h:1,d0:5022,d1:63249;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:5022 check:63249,op:220,dt:2,nt:9,next:5023,nextCheck:63250,str:11070,h:0,d0:0,d1:0;
+                    ("truth_intro", Expression<Unit> @:5023 check:63250,op:57,dt:51,nt:9,next:5024,nextCheck:63251,str:10155,h:0,d0:281,d1:65535;
+                        ("happy", Expression<StringId> @:5024 check:63251,op:11,dt:11,nt:9,next:5025,nextCheck:63252,str:11196,h:0,d0:422,d1:1280;
+                            (0.25f, Expression<Float> @:5025 check:63252,op:6,dt:6,nt:9,next:5026,nextCheck:63253,str:2205,h:1,d0:0,d1:16000;
+                                (0, Expression<Short> @:5026 check:63253,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2209,h:1,d0:0,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:5027 check:63254,op:220,dt:4,nt:8,next:5033,nextCheck:63260,str:2214,h:1,d0:5028,d1:63255;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:5028 check:63255,op:220,dt:2,nt:9,next:5029,nextCheck:63256,str:11070,h:0,d0:0,d1:0;
+                    ("truth_intro", Expression<Unit> @:5029 check:63256,op:57,dt:51,nt:9,next:5030,nextCheck:63257,str:10155,h:0,d0:281,d1:65535;
+                        ("happy", Expression<StringId> @:5030 check:63257,op:11,dt:11,nt:9,next:5031,nextCheck:63258,str:11196,h:0,d0:422,d1:1280;
+                            (0.5f, Expression<Float> @:5031 check:63258,op:6,dt:6,nt:9,next:5032,nextCheck:63259,str:2258,h:1,d0:0,d1:16128;
+                                (60, Expression<Short> @:5032 check:63259,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2261,h:1,d0:60,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:5033 check:63260,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:2267,h:1,d0:5034,d1:63261;
+                ("print", Expression<MethodOrOperator> @:5034 check:63261,op:27,dt:2,nt:9,next:5035,nextCheck:63262,str:86,h:0,d0:0,d1:0;
+                    ("truth - happy .5 60", Expression<String> @:5035 check:63262,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12279,h:0,d0:12279,d1:0;))))))

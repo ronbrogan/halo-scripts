@@ -1,16 +1,16 @@
 
-("x07_0220_grv", MethodDecl<Void> @:95 op:0,dt:0,nt:65535,next:2805,str:7776,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2805 op:0,dt:4,nt:8,next:65535,str:34272,d0:2806,d1:61033;
-        ("begin", Expression<MethodOrOperator> @:2806 op:0,dt:2,nt:9,next:2793,str:142,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2793 op:19,dt:4,nt:8,next:2796,str:34303,d0:2794,d1:61021;
-                ("sleep", Expression<MethodOrOperator> @:2794 op:19,dt:2,nt:9,next:2795,str:221,d0:0,d1:0;
-                    (207, Expression<Short> @:2795 op:7,dt:7,nt:9,next:65535,str:34310,d0:207,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2796 op:596,dt:4,nt:8,next:2801,str:34317,d0:2797,d1:61024;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:2797 op:596,dt:2,nt:9,next:2798,str:1420,d0:0,d1:0;
-                    ("sound\dialog\levels\06_sentinelwall\cinematic\x07_0220_grv", Expression<Sound> @:2798 op:32,dt:32,nt:9,next:2799,str:7717,d0:1014,d1:58732;
-                        (4294967295, Expression<Entity> @:2799 op:50,dt:50,nt:9,next:2800,str:52,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:2800 op:6,dt:6,nt:9,next:65535,str:34402,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:2801 op:562,dt:4,nt:8,next:65535,str:34407,d0:2802,d1:61029;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:2802 op:562,dt:2,nt:9,next:2803,str:1681,d0:0,d1:0;
-                    ("x07_0220_grv", Expression<StringId> @:2803 op:11,dt:11,nt:9,next:2804,str:7776,d0:5083,d1:3072;
-                        (7f, Expression<Float> @:2804 op:6,dt:6,nt:9,next:65535,str:34440,d0:0,d1:16608;)))))))
+("x07_0220_grv", MethodDecl<Void> @:95 check:0,op:0,dt:0,nt:65535,next:2805,nextCheck:61032,str:7776,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2805 check:61032,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:34272,h:0,d0:2806,d1:61033;
+        ("begin", Expression<MethodOrOperator> @:2806 check:61033,op:0,dt:2,nt:9,next:2793,nextCheck:61020,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2793 check:61020,op:19,dt:4,nt:8,next:2796,nextCheck:61023,str:34303,h:0,d0:2794,d1:61021;
+                ("sleep", Expression<MethodOrOperator> @:2794 check:61021,op:19,dt:2,nt:9,next:2795,nextCheck:61022,str:221,h:0,d0:0,d1:0;
+                    (207, Expression<Short> @:2795 check:61022,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:34310,h:0,d0:207,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2796 check:61023,op:596,dt:4,nt:8,next:2801,nextCheck:61028,str:34317,h:0,d0:2797,d1:61024;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:2797 check:61024,op:596,dt:2,nt:9,next:2798,nextCheck:61025,str:1420,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\06_sentinelwall\cinematic\x07_0220_grv", Expression<Sound> @:2798 check:61025,op:32,dt:32,nt:9,next:2799,nextCheck:61026,str:7717,h:0,d0:1014,d1:58732;
+                        (4294967295, Expression<Entity> @:2799 check:61026,op:50,dt:50,nt:9,next:2800,nextCheck:61027,str:52,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:2800 check:61027,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:34402,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:2801 check:61028,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:34407,h:0,d0:2802,d1:61029;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:2802 check:61029,op:562,dt:2,nt:9,next:2803,nextCheck:61030,str:1681,h:0,d0:0,d1:0;
+                    ("x07_0220_grv", Expression<StringId> @:2803 check:61030,op:11,dt:11,nt:9,next:2804,nextCheck:61031,str:7776,h:0,d0:5083,d1:3072;
+                        (7f, Expression<Float> @:2804 check:61031,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:34440,h:0,d0:0,d1:16608;)))))))

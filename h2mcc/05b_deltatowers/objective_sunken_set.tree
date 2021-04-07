@@ -1,16 +1,16 @@
 
-("objective_sunken_set", MethodDecl<Void> @:115 op:0,dt:0,nt:65535,next:3328,str:19408,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3328 op:0,dt:4,nt:8,next:65535,str:40756,d0:3329,d1:61556;
-        ("begin", Expression<MethodOrOperator> @:3329 op:0,dt:2,nt:9,next:3316,str:142,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3316 op:19,dt:4,nt:8,next:3319,str:40806,d0:3317,d1:61544;
-                ("sleep", Expression<MethodOrOperator> @:3317 op:19,dt:2,nt:9,next:3318,str:221,d0:0,d1:0;
-                    (30, Expression<Short> @:3318 op:7,dt:7,nt:9,next:65535,str:40813,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3319 op:27,dt:4,nt:8,next:3322,str:40830,d0:3320,d1:61547;
-                ("print", Expression<MethodOrOperator> @:3320 op:27,dt:2,nt:9,next:3321,str:227,d0:0,d1:0;
-                    ("new objective set:", Expression<String> @:3321 op:9,dt:9,nt:9,next:65535,str:8700,d0:8700,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3322 op:27,dt:4,nt:8,next:3325,str:40872,d0:3323,d1:61550;
-                ("print", Expression<MethodOrOperator> @:3323 op:27,dt:2,nt:9,next:3324,str:227,d0:0,d1:0;
-                    ("pass through the submerged structures.", Expression<String> @:3324 op:9,dt:9,nt:9,next:65535,str:8868,d0:8868,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3325 op:753,dt:4,nt:8,next:65535,str:40934,d0:3326,d1:61553;
-                ("objectives_show_up_to", Expression<MethodOrOperator> @:3326 op:753,dt:2,nt:9,next:3327,str:8766,d0:0,d1:0;
-                    (2, Expression<Int> @:3327 op:8,dt:8,nt:9,next:65535,str:40957,d0:2,d1:0;))))))
+("objective_sunken_set", MethodDecl<Void> @:115 check:0,op:0,dt:0,nt:65535,next:3328,nextCheck:61555,str:19408,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3328 check:61555,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:40756,h:0,d0:3329,d1:61556;
+        ("begin", Expression<MethodOrOperator> @:3329 check:61556,op:0,dt:2,nt:9,next:3316,nextCheck:61543,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3316 check:61543,op:19,dt:4,nt:8,next:3319,nextCheck:61546,str:40806,h:0,d0:3317,d1:61544;
+                ("sleep", Expression<MethodOrOperator> @:3317 check:61544,op:19,dt:2,nt:9,next:3318,nextCheck:61545,str:221,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:3318 check:61545,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:40813,h:0,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3319 check:61546,op:27,dt:4,nt:8,next:3322,nextCheck:61549,str:40830,h:0,d0:3320,d1:61547;
+                ("print", Expression<MethodOrOperator> @:3320 check:61547,op:27,dt:2,nt:9,next:3321,nextCheck:61548,str:227,h:0,d0:0,d1:0;
+                    ("new objective set:", Expression<String> @:3321 check:61548,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8700,h:0,d0:8700,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3322 check:61549,op:27,dt:4,nt:8,next:3325,nextCheck:61552,str:40872,h:0,d0:3323,d1:61550;
+                ("print", Expression<MethodOrOperator> @:3323 check:61550,op:27,dt:2,nt:9,next:3324,nextCheck:61551,str:227,h:0,d0:0,d1:0;
+                    ("pass through the submerged structures.", Expression<String> @:3324 check:61551,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8868,h:0,d0:8868,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3325 check:61552,op:753,dt:4,nt:8,next:65535,nextCheck:65535,str:40934,h:0,d0:3326,d1:61553;
+                ("objectives_show_up_to", Expression<MethodOrOperator> @:3326 check:61553,op:753,dt:2,nt:9,next:3327,nextCheck:61554,str:8766,h:0,d0:0,d1:0;
+                    (2, Expression<Int> @:3327 check:61554,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:40957,h:0,d0:2,d1:0;))))))

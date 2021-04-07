@@ -1,10 +1,10 @@
 
-("x09_03_setup", MethodDecl<Void> @:183 op:0,dt:0,nt:65535,next:7198,str:17539,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:7198 op:0,dt:4,nt:8,next:65535,str:18724,d0:7199,d1:65426;
-        ("begin", Expression<MethodOrOperator> @:7199 op:0,dt:2,nt:9,next:7192,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:7192 op:48,dt:4,nt:8,next:7195,str:18761,d0:7193,d1:65420;
-                ("object_create_anew", Expression<MethodOrOperator> @:7193 op:48,dt:2,nt:9,next:7194,str:8260,d0:0,d1:0;
-                    ("x09_halo_bang", Expression<EntityIdentifier> @:7194 op:56,dt:56,nt:9,next:65535,str:17513,d0:40,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:7195 op:22,dt:4,nt:8,next:65535,str:18800,d0:7196,d1:65423;
-                ("wake", Expression<MethodOrOperator> @:7196 op:22,dt:2,nt:9,next:7197,str:5851,d0:0,d1:0;
-                    ("x09_foley_3", Expression<ScriptReference> @:7197 op:10,dt:10,nt:9,next:65535,str:17527,d0:181,d1:65535;))))))
+("x09_03_setup", MethodDecl<Void> @:183 check:0,op:0,dt:0,nt:65535,next:7198,nextCheck:65425,str:17539,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:7198 check:65425,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:18724,h:1,d0:7199,d1:65426;
+        ("begin", Expression<MethodOrOperator> @:7199 check:65426,op:0,dt:2,nt:9,next:7192,nextCheck:65419,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:7192 check:65419,op:48,dt:4,nt:8,next:7195,nextCheck:65422,str:18761,h:1,d0:7193,d1:65420;
+                ("object_create_anew", Expression<MethodOrOperator> @:7193 check:65420,op:48,dt:2,nt:9,next:7194,nextCheck:65421,str:8260,h:0,d0:0,d1:0;
+                    ("x09_halo_bang", Expression<EntityIdentifier> @:7194 check:65421,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:17513,h:0,d0:40,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:7195 check:65422,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:18800,h:1,d0:7196,d1:65423;
+                ("wake", Expression<MethodOrOperator> @:7196 check:65423,op:22,dt:2,nt:9,next:7197,nextCheck:65424,str:5851,h:0,d0:0,d1:0;
+                    ("x09_foley_3", Expression<ScriptReference> @:7197 check:65424,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:17527,h:0,d0:181,d1:65535;))))))

@@ -1,20 +1,20 @@
 
-("e5b_resetter", MethodDecl<Void> @:315 op:0,dt:0,nt:65535,next:12104,str:21897,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:12104 op:0,dt:4,nt:8,next:65535,str:19862,d0:12105,d1:37565;
-        ("begin", Expression<MethodOrOperator> @:12105 op:0,dt:2,nt:9,next:12088,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:12088 op:21,dt:4,nt:8,next:65535,str:19893,d0:12089,d1:37549;
-                ("sleep_until", Expression<MethodOrOperator> @:12089 op:21,dt:2,nt:9,next:12090,str:294,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:12090 op:0,dt:5,nt:8,next:65535,str:19909,d0:12091,d1:37551;
-                        ("begin", Expression<MethodOrOperator> @:12091 op:0,dt:2,nt:9,next:12092,str:64,d0:0,d1:0;
-                            (____, BuiltinInvocation<Void> @:12092 op:2,dt:4,nt:8,next:12103,str:19948,d0:12093,d1:37553;
-                                ("if", Expression<MethodOrOperator> @:12093 op:2,dt:2,nt:9,next:12094,str:519,d0:0,d1:0;
-                                    (____, BuiltinInvocation<Boolean> @:12094 op:25,dt:5,nt:8,next:12101,str:19952,d0:12095,d1:37555;
-                                        ("not", Expression<MethodOrOperator> @:12095 op:25,dt:2,nt:9,next:12096,str:460,d0:0,d1:0;
-                                            (____, BuiltinInvocation<Boolean> @:12096 op:32,dt:5,nt:8,next:65535,str:19957,d0:12097,d1:37557;
-                                                ("volume_test_object", Expression<MethodOrOperator> @:12097 op:32,dt:2,nt:9,next:12098,str:13924,d0:0,d1:0;
-                                                    ("tv_e5b_bounds", Expression<Trigger> @:12098 op:13,dt:13,nt:9,next:12099,str:21606,d0:120,d1:0;
-                                                        ("player0", ScriptInvocation<Entity> @:12099 op:0,dt:50,nt:10,next:65535,str:19991,d0:12100,d1:37560;
-                                                            ("player0", Expression<MethodOrOperator> @:12100 op:0,dt:2,nt:9,next:65535,str:665,d0:0,d1:0;)))))))
-                                    ("e5b_reset_player", ScriptInvocation<Void> @:12101 op:314,dt:4,nt:10,next:65535,str:20008,d0:12102,d1:37562;
-                                        ("e5b_reset_player", Expression<MethodOrOperator> @:12102 op:314,dt:2,nt:9,next:65535,str:21620,d0:0,d1:0;))))
-                            ("g_e5b_finished", VariableAccess<Boolean> @:12103 op:5,dt:5,nt:13,next:65535,str:21637,d0:31,d1:0;))))))))
+("e5b_resetter", MethodDecl<Void> @:315 check:0,op:0,dt:0,nt:65535,next:12104,nextCheck:37564,str:21897,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:12104 check:37564,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:19862,h:2,d0:12105,d1:37565;
+        ("begin", Expression<MethodOrOperator> @:12105 check:37565,op:0,dt:2,nt:9,next:12088,nextCheck:37548,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:12088 check:37548,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:19893,h:2,d0:12089,d1:37549;
+                ("sleep_until", Expression<MethodOrOperator> @:12089 check:37549,op:21,dt:2,nt:9,next:12090,nextCheck:37550,str:294,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:12090 check:37550,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:19909,h:2,d0:12091,d1:37551;
+                        ("begin", Expression<MethodOrOperator> @:12091 check:37551,op:0,dt:2,nt:9,next:12092,nextCheck:37552,str:64,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Void> @:12092 check:37552,op:2,dt:4,nt:8,next:12103,nextCheck:37563,str:19948,h:2,d0:12093,d1:37553;
+                                ("if", Expression<MethodOrOperator> @:12093 check:37553,op:2,dt:2,nt:9,next:12094,nextCheck:37554,str:519,h:0,d0:0,d1:0;
+                                    (____, BuiltinInvocation<Boolean> @:12094 check:37554,op:25,dt:5,nt:8,next:12101,nextCheck:37561,str:19952,h:2,d0:12095,d1:37555;
+                                        ("not", Expression<MethodOrOperator> @:12095 check:37555,op:25,dt:2,nt:9,next:12096,nextCheck:37556,str:460,h:0,d0:0,d1:0;
+                                            (____, BuiltinInvocation<Boolean> @:12096 check:37556,op:32,dt:5,nt:8,next:65535,nextCheck:65535,str:19957,h:2,d0:12097,d1:37557;
+                                                ("volume_test_object", Expression<MethodOrOperator> @:12097 check:37557,op:32,dt:2,nt:9,next:12098,nextCheck:37558,str:13924,h:0,d0:0,d1:0;
+                                                    ("tv_e5b_bounds", Expression<Trigger> @:12098 check:37558,op:13,dt:13,nt:9,next:12099,nextCheck:37559,str:21606,h:0,d0:120,d1:0;
+                                                        ("player0", ScriptInvocation<Entity> @:12099 check:37559,op:0,dt:50,nt:10,next:65535,nextCheck:65535,str:19991,h:2,d0:12100,d1:37560;
+                                                            ("player0", Expression<MethodOrOperator> @:12100 check:37560,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:665,h:0,d0:0,d1:0;)))))))
+                                    ("e5b_reset_player", ScriptInvocation<Void> @:12101 check:37561,op:314,dt:4,nt:10,next:65535,nextCheck:65535,str:20008,h:2,d0:12102,d1:37562;
+                                        ("e5b_reset_player", Expression<MethodOrOperator> @:12102 check:37562,op:314,dt:2,nt:9,next:65535,nextCheck:65535,str:21620,h:0,d0:0,d1:0;))))
+                            ("g_e5b_finished", VariableAccess<Boolean> @:12103 check:37563,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:21637,h:0,d0:31,d1:0;))))))))

@@ -1,19 +1,19 @@
 
-("cinematic_skip_start", MethodDecl<Boolean> @:7 op:0,dt:0,nt:65535,next:150,str:27590,d0:0,d1:0;
-    (____, BuiltinInvocation<Boolean> @:150 op:0,dt:5,nt:8,next:65535,str:1061,d0:151,d1:58378;
-        ("begin", Expression<MethodOrOperator> @:151 op:0,dt:2,nt:9,next:135,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:135 op:555,dt:4,nt:8,next:137,str:1107,d0:136,d1:58363;
-                ("cinematic_skip_start_internal", Expression<MethodOrOperator> @:136 op:555,dt:2,nt:9,next:65535,str:347,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:137 op:876,dt:4,nt:8,next:139,str:1188,d0:138,d1:58365;
-                ("game_save_cinematic_skip", Expression<MethodOrOperator> @:138 op:876,dt:2,nt:9,next:65535,str:377,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:139 op:21,dt:4,nt:8,next:146,str:1241,d0:140,d1:58367;
-                ("sleep_until", Expression<MethodOrOperator> @:140 op:21,dt:2,nt:9,next:141,str:236,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:141 op:25,dt:5,nt:8,next:145,str:1254,d0:142,d1:58369;
-                        ("not", Expression<MethodOrOperator> @:142 op:25,dt:2,nt:9,next:143,str:402,d0:0,d1:0;
-                            (____, BuiltinInvocation<Boolean> @:143 op:591,dt:5,nt:8,next:65535,str:1259,d0:144,d1:58371;
-                                ("game_saving", Expression<MethodOrOperator> @:144 op:591,dt:2,nt:9,next:65535,str:406,d0:0,d1:0;))))
-                    (1, Expression<Short> @:145 op:7,dt:7,nt:9,next:65535,str:1274,d0:1,d1:65535;)))
-            (____, BuiltinInvocation<Boolean> @:146 op:25,dt:5,nt:8,next:65535,str:1317,d0:147,d1:58374;
-                ("not", Expression<MethodOrOperator> @:147 op:25,dt:2,nt:9,next:148,str:402,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:148 op:592,dt:5,nt:8,next:65535,str:1322,d0:149,d1:58376;
-                        ("game_reverted", Expression<MethodOrOperator> @:149 op:592,dt:2,nt:9,next:65535,str:418,d0:0,d1:0;)))))))
+("cinematic_skip_start", MethodDecl<Boolean> @:7 check:0,op:0,dt:0,nt:65535,next:150,nextCheck:58377,str:27590,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Boolean> @:150 check:58377,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:1061,h:0,d0:151,d1:58378;
+        ("begin", Expression<MethodOrOperator> @:151 check:58378,op:0,dt:2,nt:9,next:135,nextCheck:58362,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:135 check:58362,op:555,dt:4,nt:8,next:137,nextCheck:58364,str:1107,h:0,d0:136,d1:58363;
+                ("cinematic_skip_start_internal", Expression<MethodOrOperator> @:136 check:58363,op:555,dt:2,nt:9,next:65535,nextCheck:65535,str:347,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:137 check:58364,op:876,dt:4,nt:8,next:139,nextCheck:58366,str:1188,h:0,d0:138,d1:58365;
+                ("game_save_cinematic_skip", Expression<MethodOrOperator> @:138 check:58365,op:876,dt:2,nt:9,next:65535,nextCheck:65535,str:377,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:139 check:58366,op:21,dt:4,nt:8,next:146,nextCheck:58373,str:1241,h:0,d0:140,d1:58367;
+                ("sleep_until", Expression<MethodOrOperator> @:140 check:58367,op:21,dt:2,nt:9,next:141,nextCheck:58368,str:236,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:141 check:58368,op:25,dt:5,nt:8,next:145,nextCheck:58372,str:1254,h:0,d0:142,d1:58369;
+                        ("not", Expression<MethodOrOperator> @:142 check:58369,op:25,dt:2,nt:9,next:143,nextCheck:58370,str:402,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Boolean> @:143 check:58370,op:591,dt:5,nt:8,next:65535,nextCheck:65535,str:1259,h:0,d0:144,d1:58371;
+                                ("game_saving", Expression<MethodOrOperator> @:144 check:58371,op:591,dt:2,nt:9,next:65535,nextCheck:65535,str:406,h:0,d0:0,d1:0;))))
+                    (1, Expression<Short> @:145 check:58372,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:1274,h:0,d0:1,d1:65535;)))
+            (____, BuiltinInvocation<Boolean> @:146 check:58373,op:25,dt:5,nt:8,next:65535,nextCheck:65535,str:1317,h:0,d0:147,d1:58374;
+                ("not", Expression<MethodOrOperator> @:147 check:58374,op:25,dt:2,nt:9,next:148,nextCheck:58375,str:402,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:148 check:58375,op:592,dt:5,nt:8,next:65535,nextCheck:65535,str:1322,h:0,d0:149,d1:58376;
+                        ("game_reverted", Expression<MethodOrOperator> @:149 check:58376,op:592,dt:2,nt:9,next:65535,nextCheck:65535,str:418,h:0,d0:0,d1:0;)))))))

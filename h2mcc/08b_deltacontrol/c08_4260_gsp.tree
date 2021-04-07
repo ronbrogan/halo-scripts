@@ -1,25 +1,25 @@
 
-("c08_4260_gsp", MethodDecl<Void> @:144 op:0,dt:0,nt:65535,next:5910,str:14682,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5910 op:0,dt:4,nt:8,next:65535,str:2778,d0:5911,d1:64138;
-        ("begin", Expression<MethodOrOperator> @:5911 op:0,dt:2,nt:9,next:5889,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5889 op:19,dt:4,nt:8,next:5892,str:2809,d0:5890,d1:64117;
-                ("sleep", Expression<MethodOrOperator> @:5890 op:19,dt:2,nt:9,next:5891,str:85,d0:0,d1:0;
-                    (0, Expression<Short> @:5891 op:7,dt:7,nt:9,next:65535,str:2816,d0:0,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5892 op:596,dt:4,nt:8,next:5897,str:2821,d0:5893,d1:64120;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:5893 op:596,dt:2,nt:9,next:5894,str:1586,d0:0,d1:0;
-                    ("sound\dialog\levels\08_controlroom\cinematic\c08_4260_gsp", Expression<Sound> @:5894 op:32,dt:32,nt:9,next:5895,str:14624,d0:794,d1:58512;
-                        (4294901844, Expression<Entity> @:5895 op:56,dt:50,nt:9,next:5896,str:11217,d0:84,d1:65535;
-                            (1f, Expression<Float> @:5896 op:6,dt:6,nt:9,next:65535,str:2908,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:5897 op:562,dt:4,nt:8,next:5901,str:2913,d0:5898,d1:64125;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:5898 op:562,dt:2,nt:9,next:5899,str:7661,d0:0,d1:0;
-                    ("c08_4260_gsp", Expression<StringId> @:5899 op:11,dt:11,nt:9,next:5900,str:14682,d0:4676,d1:3072;
-                        (6f, Expression<Float> @:5900 op:6,dt:6,nt:9,next:65535,str:2946,d0:0,d1:16576;))))
-            (____, BuiltinInvocation<Void> @:5901 op:220,dt:4,nt:8,next:5907,str:2954,d0:5902,d1:64129;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:5902 op:220,dt:2,nt:9,next:5903,str:9899,d0:0,d1:0;
-                    ("miranda", Expression<Unit> @:5903 op:57,dt:51,nt:9,next:5904,str:11367,d0:80,d1:65535;
-                        ("shocked", Expression<StringId> @:5904 op:11,dt:11,nt:9,next:5905,str:14695,d0:426,d1:1792;
-                            (0.25f, Expression<Float> @:5905 op:6,dt:6,nt:9,next:5906,str:2996,d0:0,d1:16000;
-                                (0, Expression<Short> @:5906 op:7,dt:7,nt:9,next:65535,str:3000,d0:0,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:5907 op:27,dt:4,nt:8,next:65535,str:3005,d0:5908,d1:64135;
-                ("print", Expression<MethodOrOperator> @:5908 op:27,dt:2,nt:9,next:5909,str:91,d0:0,d1:0;
-                    ("miranda - shocked .25 0", Expression<String> @:5909 op:9,dt:9,nt:9,next:65535,str:14703,d0:14703,d1:0;))))))
+("c08_4260_gsp", MethodDecl<Void> @:144 check:0,op:0,dt:0,nt:65535,next:5910,nextCheck:64137,str:14682,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5910 check:64137,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:2778,h:1,d0:5911,d1:64138;
+        ("begin", Expression<MethodOrOperator> @:5911 check:64138,op:0,dt:2,nt:9,next:5889,nextCheck:64116,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5889 check:64116,op:19,dt:4,nt:8,next:5892,nextCheck:64119,str:2809,h:1,d0:5890,d1:64117;
+                ("sleep", Expression<MethodOrOperator> @:5890 check:64117,op:19,dt:2,nt:9,next:5891,nextCheck:64118,str:85,h:0,d0:0,d1:0;
+                    (0, Expression<Short> @:5891 check:64118,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2816,h:1,d0:0,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5892 check:64119,op:596,dt:4,nt:8,next:5897,nextCheck:64124,str:2821,h:1,d0:5893,d1:64120;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:5893 check:64120,op:596,dt:2,nt:9,next:5894,nextCheck:64121,str:1586,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\08_controlroom\cinematic\c08_4260_gsp", Expression<Sound> @:5894 check:64121,op:32,dt:32,nt:9,next:5895,nextCheck:64122,str:14624,h:0,d0:794,d1:58512;
+                        (4294901844, Expression<Entity> @:5895 check:64122,op:56,dt:50,nt:9,next:5896,nextCheck:64123,str:11217,h:0,d0:84,d1:65535;
+                            (1f, Expression<Float> @:5896 check:64123,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:2908,h:1,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:5897 check:64124,op:562,dt:4,nt:8,next:5901,nextCheck:64128,str:2913,h:1,d0:5898,d1:64125;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:5898 check:64125,op:562,dt:2,nt:9,next:5899,nextCheck:64126,str:7661,h:0,d0:0,d1:0;
+                    ("c08_4260_gsp", Expression<StringId> @:5899 check:64126,op:11,dt:11,nt:9,next:5900,nextCheck:64127,str:14682,h:0,d0:4676,d1:3072;
+                        (6f, Expression<Float> @:5900 check:64127,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:2946,h:1,d0:0,d1:16576;))))
+            (____, BuiltinInvocation<Void> @:5901 check:64128,op:220,dt:4,nt:8,next:5907,nextCheck:64134,str:2954,h:1,d0:5902,d1:64129;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:5902 check:64129,op:220,dt:2,nt:9,next:5903,nextCheck:64130,str:9899,h:0,d0:0,d1:0;
+                    ("miranda", Expression<Unit> @:5903 check:64130,op:57,dt:51,nt:9,next:5904,nextCheck:64131,str:11367,h:0,d0:80,d1:65535;
+                        ("shocked", Expression<StringId> @:5904 check:64131,op:11,dt:11,nt:9,next:5905,nextCheck:64132,str:14695,h:0,d0:426,d1:1792;
+                            (0.25f, Expression<Float> @:5905 check:64132,op:6,dt:6,nt:9,next:5906,nextCheck:64133,str:2996,h:1,d0:0,d1:16000;
+                                (0, Expression<Short> @:5906 check:64133,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:3000,h:1,d0:0,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:5907 check:64134,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:3005,h:1,d0:5908,d1:64135;
+                ("print", Expression<MethodOrOperator> @:5908 check:64135,op:27,dt:2,nt:9,next:5909,nextCheck:64136,str:91,h:0,d0:0,d1:0;
+                    ("miranda - shocked .25 0", Expression<String> @:5909 check:64136,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:14703,h:0,d0:14703,d1:0;))))))

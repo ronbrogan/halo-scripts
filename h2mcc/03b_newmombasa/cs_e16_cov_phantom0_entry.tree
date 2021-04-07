@@ -1,10 +1,10 @@
 
-("cs_e16_cov_phantom0_entry", MethodDecl<Void> @:380 op:0,dt:0,nt:65535,next:13694,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:13694 op:0,dt:4,nt:8,next:65535,str:47832,d0:13695,d1:39155;
-        ("begin", Expression<MethodOrOperator> @:13695 op:0,dt:2,nt:9,next:13688,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:13688 op:438,dt:4,nt:8,next:13691,str:47883,d0:13689,d1:39149;
-                ("cs_vehicle_boost", Expression<MethodOrOperator> @:13689 op:438,dt:2,nt:9,next:13690,str:15358,d0:0,d1:0;
-                    (True, Expression<Boolean> @:13690 op:5,dt:5,nt:9,next:65535,str:47901,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:13691 op:19,dt:4,nt:8,next:65535,str:47909,d0:13692,d1:39152;
-                ("sleep", Expression<MethodOrOperator> @:13692 op:19,dt:2,nt:9,next:13693,str:85,d0:0,d1:0;
-                    (135, Expression<Short> @:13693 op:7,dt:7,nt:9,next:65535,str:47916,d0:135,d1:65535;))))))
+("cs_e16_cov_phantom0_entry", MethodDecl<Void> @:380 check:0,op:0,dt:0,nt:65535,next:13694,nextCheck:39154,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:13694 check:39154,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:47832,h:2,d0:13695,d1:39155;
+        ("begin", Expression<MethodOrOperator> @:13695 check:39155,op:0,dt:2,nt:9,next:13688,nextCheck:39148,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:13688 check:39148,op:438,dt:4,nt:8,next:13691,nextCheck:39151,str:47883,h:2,d0:13689,d1:39149;
+                ("cs_vehicle_boost", Expression<MethodOrOperator> @:13689 check:39149,op:438,dt:2,nt:9,next:13690,nextCheck:39150,str:15358,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:13690 check:39150,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:47901,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:13691 check:39151,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:47909,h:2,d0:13692,d1:39152;
+                ("sleep", Expression<MethodOrOperator> @:13692 check:39152,op:19,dt:2,nt:9,next:13693,nextCheck:39153,str:85,h:0,d0:0,d1:0;
+                    (135, Expression<Short> @:13693 check:39153,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:47916,h:2,d0:135,d1:65535;))))))

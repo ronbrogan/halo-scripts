@@ -1,10 +1,10 @@
 
-("delete_carrier", MethodDecl<Void> @:162 op:0,dt:0,nt:65535,next:5245,str:12030,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5245 op:0,dt:4,nt:8,next:65535,str:62806,d0:5246,d1:63473;
-        ("begin", Expression<MethodOrOperator> @:5246 op:0,dt:2,nt:9,next:5239,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5239 op:19,dt:4,nt:8,next:5242,str:62839,d0:5240,d1:63467;
-                ("sleep", Expression<MethodOrOperator> @:5240 op:19,dt:2,nt:9,next:5241,str:85,d0:0,d1:0;
-                    (172, Expression<Short> @:5241 op:7,dt:7,nt:9,next:65535,str:62846,d0:172,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5242 op:52,dt:4,nt:8,next:65535,str:62853,d0:5243,d1:63470;
-                ("object_destroy", Expression<MethodOrOperator> @:5243 op:52,dt:2,nt:9,next:5244,str:2030,d0:0,d1:0;
-                    (4294901762, Expression<Entity> @:5244 op:56,dt:50,nt:9,next:65535,str:9902,d0:2,d1:65535;))))))
+("delete_carrier", MethodDecl<Void> @:162 check:0,op:0,dt:0,nt:65535,next:5245,nextCheck:63472,str:12030,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5245 check:63472,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:62806,h:0,d0:5246,d1:63473;
+        ("begin", Expression<MethodOrOperator> @:5246 check:63473,op:0,dt:2,nt:9,next:5239,nextCheck:63466,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5239 check:63466,op:19,dt:4,nt:8,next:5242,nextCheck:63469,str:62839,h:0,d0:5240,d1:63467;
+                ("sleep", Expression<MethodOrOperator> @:5240 check:63467,op:19,dt:2,nt:9,next:5241,nextCheck:63468,str:85,h:0,d0:0,d1:0;
+                    (172, Expression<Short> @:5241 check:63468,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:62846,h:0,d0:172,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5242 check:63469,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:62853,h:0,d0:5243,d1:63470;
+                ("object_destroy", Expression<MethodOrOperator> @:5243 check:63470,op:52,dt:2,nt:9,next:5244,nextCheck:63471,str:2030,h:0,d0:0,d1:0;
+                    (4294901762, Expression<Entity> @:5244 check:63471,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:9902,h:0,d0:2,d1:65535;))))))

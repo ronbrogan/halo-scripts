@@ -1,10 +1,10 @@
 
-("music_04a_02_stop", MethodDecl<Void> @:237 op:0,dt:0,nt:65535,next:7660,str:27539,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:7660 op:0,dt:4,nt:8,next:65535,str:25777,d0:7661,d1:33121;
-        ("begin", Expression<MethodOrOperator> @:7661 op:0,dt:2,nt:9,next:7654,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:7654 op:27,dt:4,nt:8,next:7657,str:25878,d0:7655,d1:33115;
-                ("print", Expression<MethodOrOperator> @:7655 op:27,dt:2,nt:9,next:7656,str:91,d0:0,d1:0;
-                    ("music 04a_02 stop", Expression<String> @:7656 op:9,dt:9,nt:9,next:65535,str:16695,d0:16695,d1:0;)))
-            (____, BuiltinInvocation<Void> @:7657 op:606,dt:4,nt:8,next:65535,str:25908,d0:7658,d1:33118;
-                ("sound_looping_stop", Expression<MethodOrOperator> @:7658 op:606,dt:2,nt:9,next:7659,str:16612,d0:0,d1:0;
-                    ("scenarios\solo\04a_gasgiant\04a_music\04a_02", Expression<LoopingSound> @:7659 op:35,dt:35,nt:9,next:65535,str:16650,d0:6406,d1:64318;))))))
+("music_04a_02_stop", MethodDecl<Void> @:237 check:0,op:0,dt:0,nt:65535,next:7660,nextCheck:33120,str:27539,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:7660 check:33120,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:25777,h:1,d0:7661,d1:33121;
+        ("begin", Expression<MethodOrOperator> @:7661 check:33121,op:0,dt:2,nt:9,next:7654,nextCheck:33114,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:7654 check:33114,op:27,dt:4,nt:8,next:7657,nextCheck:33117,str:25878,h:1,d0:7655,d1:33115;
+                ("print", Expression<MethodOrOperator> @:7655 check:33115,op:27,dt:2,nt:9,next:7656,nextCheck:33116,str:91,h:0,d0:0,d1:0;
+                    ("music 04a_02 stop", Expression<String> @:7656 check:33116,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:16695,h:0,d0:16695,d1:0;)))
+            (____, BuiltinInvocation<Void> @:7657 check:33117,op:606,dt:4,nt:8,next:65535,nextCheck:65535,str:25908,h:1,d0:7658,d1:33118;
+                ("sound_looping_stop", Expression<MethodOrOperator> @:7658 check:33118,op:606,dt:2,nt:9,next:7659,nextCheck:33119,str:16612,h:0,d0:0,d1:0;
+                    ("scenarios\solo\04a_gasgiant\04a_music\04a_02", Expression<LoopingSound> @:7659 check:33119,op:35,dt:35,nt:9,next:65535,nextCheck:65535,str:16650,h:0,d0:6406,d1:64318;))))))

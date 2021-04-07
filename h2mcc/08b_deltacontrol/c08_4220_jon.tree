@@ -1,25 +1,25 @@
 
-("c08_4220_jon", MethodDecl<Void> @:135 op:0,dt:0,nt:65535,next:5602,str:13914,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5602 op:0,dt:4,nt:8,next:65535,str:64305,d0:5603,d1:63830;
-        ("begin", Expression<MethodOrOperator> @:5603 op:0,dt:2,nt:9,next:5581,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5581 op:19,dt:4,nt:8,next:5584,str:64336,d0:5582,d1:63809;
-                ("sleep", Expression<MethodOrOperator> @:5582 op:19,dt:2,nt:9,next:5583,str:85,d0:0,d1:0;
-                    (308, Expression<Short> @:5583 op:7,dt:7,nt:9,next:65535,str:64343,d0:308,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5584 op:596,dt:4,nt:8,next:5589,str:64350,d0:5585,d1:63812;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:5585 op:596,dt:2,nt:9,next:5586,str:1586,d0:0,d1:0;
-                    ("sound\dialog\levels\08_controlroom\cinematic\c08_4220_jon", Expression<Sound> @:5586 op:32,dt:32,nt:9,next:5587,str:13856,d0:788,d1:58506;
-                        (4294901841, Expression<Entity> @:5587 op:56,dt:50,nt:9,next:5588,str:13743,d0:81,d1:65535;
-                            (1f, Expression<Float> @:5588 op:6,dt:6,nt:9,next:65535,str:64437,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:5589 op:562,dt:4,nt:8,next:5593,str:64442,d0:5590,d1:63817;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:5590 op:562,dt:2,nt:9,next:5591,str:7661,d0:0,d1:0;
-                    ("c08_4220_jon", Expression<StringId> @:5591 op:11,dt:11,nt:9,next:5592,str:13914,d0:4668,d1:3072;
-                        (3f, Expression<Float> @:5592 op:6,dt:6,nt:9,next:65535,str:64475,d0:0,d1:16448;))))
-            (____, BuiltinInvocation<Void> @:5593 op:220,dt:4,nt:8,next:5599,str:64483,d0:5594,d1:63821;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:5594 op:220,dt:2,nt:9,next:5595,str:9899,d0:0,d1:0;
-                    ("johnson", Expression<Unit> @:5595 op:57,dt:51,nt:9,next:5596,str:13743,d0:81,d1:65535;
-                        ("angry", Expression<StringId> @:5596 op:11,dt:11,nt:9,next:5597,str:9924,d0:430,d1:1280;
-                            (1f, Expression<Float> @:5597 op:6,dt:6,nt:9,next:5598,str:64524,d0:0,d1:16256;
-                                (15, Expression<Short> @:5598 op:7,dt:7,nt:9,next:65535,str:64526,d0:15,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:5599 op:27,dt:4,nt:8,next:65535,str:64533,d0:5600,d1:63827;
-                ("print", Expression<MethodOrOperator> @:5600 op:27,dt:2,nt:9,next:5601,str:91,d0:0,d1:0;
-                    ("johnson - angry 1 15", Expression<String> @:5601 op:9,dt:9,nt:9,next:65535,str:13927,d0:13927,d1:0;))))))
+("c08_4220_jon", MethodDecl<Void> @:135 check:0,op:0,dt:0,nt:65535,next:5602,nextCheck:63829,str:13914,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5602 check:63829,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:64305,h:0,d0:5603,d1:63830;
+        ("begin", Expression<MethodOrOperator> @:5603 check:63830,op:0,dt:2,nt:9,next:5581,nextCheck:63808,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5581 check:63808,op:19,dt:4,nt:8,next:5584,nextCheck:63811,str:64336,h:0,d0:5582,d1:63809;
+                ("sleep", Expression<MethodOrOperator> @:5582 check:63809,op:19,dt:2,nt:9,next:5583,nextCheck:63810,str:85,h:0,d0:0,d1:0;
+                    (308, Expression<Short> @:5583 check:63810,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:64343,h:0,d0:308,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5584 check:63811,op:596,dt:4,nt:8,next:5589,nextCheck:63816,str:64350,h:0,d0:5585,d1:63812;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:5585 check:63812,op:596,dt:2,nt:9,next:5586,nextCheck:63813,str:1586,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\08_controlroom\cinematic\c08_4220_jon", Expression<Sound> @:5586 check:63813,op:32,dt:32,nt:9,next:5587,nextCheck:63814,str:13856,h:0,d0:788,d1:58506;
+                        (4294901841, Expression<Entity> @:5587 check:63814,op:56,dt:50,nt:9,next:5588,nextCheck:63815,str:13743,h:0,d0:81,d1:65535;
+                            (1f, Expression<Float> @:5588 check:63815,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:64437,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:5589 check:63816,op:562,dt:4,nt:8,next:5593,nextCheck:63820,str:64442,h:0,d0:5590,d1:63817;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:5590 check:63817,op:562,dt:2,nt:9,next:5591,nextCheck:63818,str:7661,h:0,d0:0,d1:0;
+                    ("c08_4220_jon", Expression<StringId> @:5591 check:63818,op:11,dt:11,nt:9,next:5592,nextCheck:63819,str:13914,h:0,d0:4668,d1:3072;
+                        (3f, Expression<Float> @:5592 check:63819,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:64475,h:0,d0:0,d1:16448;))))
+            (____, BuiltinInvocation<Void> @:5593 check:63820,op:220,dt:4,nt:8,next:5599,nextCheck:63826,str:64483,h:0,d0:5594,d1:63821;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:5594 check:63821,op:220,dt:2,nt:9,next:5595,nextCheck:63822,str:9899,h:0,d0:0,d1:0;
+                    ("johnson", Expression<Unit> @:5595 check:63822,op:57,dt:51,nt:9,next:5596,nextCheck:63823,str:13743,h:0,d0:81,d1:65535;
+                        ("angry", Expression<StringId> @:5596 check:63823,op:11,dt:11,nt:9,next:5597,nextCheck:63824,str:9924,h:0,d0:430,d1:1280;
+                            (1f, Expression<Float> @:5597 check:63824,op:6,dt:6,nt:9,next:5598,nextCheck:63825,str:64524,h:0,d0:0,d1:16256;
+                                (15, Expression<Short> @:5598 check:63825,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:64526,h:0,d0:15,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:5599 check:63826,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:64533,h:0,d0:5600,d1:63827;
+                ("print", Expression<MethodOrOperator> @:5600 check:63827,op:27,dt:2,nt:9,next:5601,nextCheck:63828,str:91,h:0,d0:0,d1:0;
+                    ("johnson - angry 1 15", Expression<String> @:5601 check:63828,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13927,h:0,d0:13927,d1:0;))))))

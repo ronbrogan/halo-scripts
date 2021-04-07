@@ -1,16 +1,16 @@
 
-("bomb_reactivate", MethodDecl<Void> @:268 op:0,dt:0,nt:65535,next:10312,str:24830,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:10312 op:0,dt:4,nt:8,next:65535,str:60597,d0:10313,d1:35773;
-        ("begin", Expression<MethodOrOperator> @:10313 op:0,dt:2,nt:9,next:10300,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:10300 op:19,dt:4,nt:8,next:10303,str:60631,d0:10301,d1:35761;
-                ("sleep", Expression<MethodOrOperator> @:10301 op:19,dt:2,nt:9,next:10302,str:90,d0:0,d1:0;
-                    (630, Expression<Short> @:10302 op:7,dt:7,nt:9,next:65535,str:60638,d0:630,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10303 op:27,dt:4,nt:8,next:10306,str:60645,d0:10304,d1:35764;
-                ("print", Expression<MethodOrOperator> @:10304 op:27,dt:2,nt:9,next:10305,str:96,d0:0,d1:0;
-                    ("bomb reactivate", Expression<String> @:10305 op:9,dt:9,nt:9,next:65535,str:24612,d0:24612,d1:0;)))
-            (____, BuiltinInvocation<Void> @:10306 op:60,dt:4,nt:8,next:65535,str:60673,d0:10307,d1:35767;
-                ("object_set_function_variable", Expression<MethodOrOperator> @:10307 op:60,dt:2,nt:9,next:10308,str:5683,d0:0,d1:0;
-                    (4294901767, Expression<Entity> @:10308 op:56,dt:50,nt:9,next:10309,str:23654,d0:7,d1:65535;
-                        ("flare", Expression<StringId> @:10309 op:11,dt:11,nt:9,next:10310,str:18447,d0:6987,d1:1280;
-                            (1f, Expression<Float> @:10310 op:6,dt:6,nt:9,next:10311,str:60719,d0:0,d1:16256;
-                                (0f, Expression<Float> @:10311 op:6,dt:6,nt:9,next:65535,str:60721,d0:0,d1:0;)))))))))
+("bomb_reactivate", MethodDecl<Void> @:268 check:0,op:0,dt:0,nt:65535,next:10312,nextCheck:35772,str:24830,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:10312 check:35772,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:60597,h:1,d0:10313,d1:35773;
+        ("begin", Expression<MethodOrOperator> @:10313 check:35773,op:0,dt:2,nt:9,next:10300,nextCheck:35760,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:10300 check:35760,op:19,dt:4,nt:8,next:10303,nextCheck:35763,str:60631,h:1,d0:10301,d1:35761;
+                ("sleep", Expression<MethodOrOperator> @:10301 check:35761,op:19,dt:2,nt:9,next:10302,nextCheck:35762,str:90,h:0,d0:0,d1:0;
+                    (630, Expression<Short> @:10302 check:35762,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:60638,h:1,d0:630,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10303 check:35763,op:27,dt:4,nt:8,next:10306,nextCheck:35766,str:60645,h:1,d0:10304,d1:35764;
+                ("print", Expression<MethodOrOperator> @:10304 check:35764,op:27,dt:2,nt:9,next:10305,nextCheck:35765,str:96,h:0,d0:0,d1:0;
+                    ("bomb reactivate", Expression<String> @:10305 check:35765,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:24612,h:0,d0:24612,d1:0;)))
+            (____, BuiltinInvocation<Void> @:10306 check:35766,op:60,dt:4,nt:8,next:65535,nextCheck:65535,str:60673,h:1,d0:10307,d1:35767;
+                ("object_set_function_variable", Expression<MethodOrOperator> @:10307 check:35767,op:60,dt:2,nt:9,next:10308,nextCheck:35768,str:5683,h:0,d0:0,d1:0;
+                    (4294901767, Expression<Entity> @:10308 check:35768,op:56,dt:50,nt:9,next:10309,nextCheck:35769,str:23654,h:0,d0:7,d1:65535;
+                        ("flare", Expression<StringId> @:10309 check:35769,op:11,dt:11,nt:9,next:10310,nextCheck:35770,str:18447,h:0,d0:6987,d1:1280;
+                            (1f, Expression<Float> @:10310 check:35770,op:6,dt:6,nt:9,next:10311,nextCheck:35771,str:60719,h:1,d0:0,d1:16256;
+                                (0f, Expression<Float> @:10311 check:35771,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:60721,h:1,d0:0,d1:0;)))))))))

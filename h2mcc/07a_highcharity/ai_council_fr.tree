@@ -1,22 +1,22 @@
 
-("ai_council_fr", MethodDecl<Void> @:289 op:0,dt:0,nt:65535,next:12902,str:30862,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:12902 op:0,dt:4,nt:8,next:65535,str:26880,d0:12903,d1:38363;
-        ("begin", Expression<MethodOrOperator> @:12903 op:0,dt:2,nt:9,next:12884,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:12884 op:2,dt:4,nt:8,next:12890,str:26916,d0:12885,d1:38345;
-                ("if", Expression<MethodOrOperator> @:12885 op:2,dt:2,nt:9,next:12886,str:456,d0:0,d1:0;
-                    ("debug", VariableAccess<Boolean> @:12886 op:5,dt:5,nt:13,next:12887,str:17539,d0:3,d1:0;
-                        (____, BuiltinInvocation<Void> @:12887 op:27,dt:4,nt:8,next:65535,str:26926,d0:12888,d1:38348;
-                            ("print", Expression<MethodOrOperator> @:12888 op:27,dt:2,nt:9,next:12889,str:86,d0:0,d1:0;
-                                ("front", Expression<String> @:12889 op:9,dt:9,nt:9,next:65535,str:30212,d0:30212,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:12890 op:1,dt:4,nt:8,next:65535,str:26948,d0:12891,d1:38351;
-                ("begin_random", Expression<MethodOrOperator> @:12891 op:1,dt:2,nt:9,next:12892,str:30056,d0:0,d1:0;
-                    (____, BuiltinInvocation<Void> @:12892 op:2,dt:4,nt:8,next:12897,str:26965,d0:12893,d1:38353;
-                        ("if", Expression<MethodOrOperator> @:12893 op:2,dt:2,nt:9,next:12894,str:456,d0:0,d1:0;
-                            ("g_council_wave", VariableAccess<Boolean> @:12894 op:5,dt:5,nt:13,next:12895,str:29651,d0:47,d1:0;
-                                ("ai_council_left_a", ScriptInvocation<Void> @:12895 op:279,dt:4,nt:10,next:65535,str:26984,d0:12896,d1:38356;
-                                    ("ai_council_left_a", Expression<MethodOrOperator> @:12896 op:279,dt:2,nt:9,next:65535,str:30069,d0:0,d1:0;)))))
-                    (____, BuiltinInvocation<Void> @:12897 op:2,dt:4,nt:8,next:65535,str:27008,d0:12898,d1:38358;
-                        ("if", Expression<MethodOrOperator> @:12898 op:2,dt:2,nt:9,next:12899,str:456,d0:0,d1:0;
-                            ("g_council_wave", VariableAccess<Boolean> @:12899 op:5,dt:5,nt:13,next:12900,str:29651,d0:47,d1:0;
-                                ("ai_council_right_a", ScriptInvocation<Void> @:12900 op:282,dt:4,nt:10,next:65535,str:27027,d0:12901,d1:38361;
-                                    ("ai_council_right_a", Expression<MethodOrOperator> @:12901 op:282,dt:2,nt:9,next:65535,str:30153,d0:0,d1:0;))))))))))
+("ai_council_fr", MethodDecl<Void> @:289 check:0,op:0,dt:0,nt:65535,next:12902,nextCheck:38362,str:30862,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:12902 check:38362,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:26880,h:2,d0:12903,d1:38363;
+        ("begin", Expression<MethodOrOperator> @:12903 check:38363,op:0,dt:2,nt:9,next:12884,nextCheck:38344,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:12884 check:38344,op:2,dt:4,nt:8,next:12890,nextCheck:38350,str:26916,h:2,d0:12885,d1:38345;
+                ("if", Expression<MethodOrOperator> @:12885 check:38345,op:2,dt:2,nt:9,next:12886,nextCheck:38346,str:456,h:0,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:12886 check:38346,op:5,dt:5,nt:13,next:12887,nextCheck:38347,str:17539,h:0,d0:3,d1:0;
+                        (____, BuiltinInvocation<Void> @:12887 check:38347,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:26926,h:2,d0:12888,d1:38348;
+                            ("print", Expression<MethodOrOperator> @:12888 check:38348,op:27,dt:2,nt:9,next:12889,nextCheck:38349,str:86,h:0,d0:0,d1:0;
+                                ("front", Expression<String> @:12889 check:38349,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:30212,h:0,d0:30212,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:12890 check:38350,op:1,dt:4,nt:8,next:65535,nextCheck:65535,str:26948,h:2,d0:12891,d1:38351;
+                ("begin_random", Expression<MethodOrOperator> @:12891 check:38351,op:1,dt:2,nt:9,next:12892,nextCheck:38352,str:30056,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Void> @:12892 check:38352,op:2,dt:4,nt:8,next:12897,nextCheck:38357,str:26965,h:2,d0:12893,d1:38353;
+                        ("if", Expression<MethodOrOperator> @:12893 check:38353,op:2,dt:2,nt:9,next:12894,nextCheck:38354,str:456,h:0,d0:0,d1:0;
+                            ("g_council_wave", VariableAccess<Boolean> @:12894 check:38354,op:5,dt:5,nt:13,next:12895,nextCheck:38355,str:29651,h:0,d0:47,d1:0;
+                                ("ai_council_left_a", ScriptInvocation<Void> @:12895 check:38355,op:279,dt:4,nt:10,next:65535,nextCheck:65535,str:26984,h:2,d0:12896,d1:38356;
+                                    ("ai_council_left_a", Expression<MethodOrOperator> @:12896 check:38356,op:279,dt:2,nt:9,next:65535,nextCheck:65535,str:30069,h:0,d0:0,d1:0;)))))
+                    (____, BuiltinInvocation<Void> @:12897 check:38357,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:27008,h:2,d0:12898,d1:38358;
+                        ("if", Expression<MethodOrOperator> @:12898 check:38358,op:2,dt:2,nt:9,next:12899,nextCheck:38359,str:456,h:0,d0:0,d1:0;
+                            ("g_council_wave", VariableAccess<Boolean> @:12899 check:38359,op:5,dt:5,nt:13,next:12900,nextCheck:38360,str:29651,h:0,d0:47,d1:0;
+                                ("ai_council_right_a", ScriptInvocation<Void> @:12900 check:38360,op:282,dt:4,nt:10,next:65535,nextCheck:65535,str:27027,h:2,d0:12901,d1:38361;
+                                    ("ai_council_right_a", Expression<MethodOrOperator> @:12901 check:38361,op:282,dt:2,nt:9,next:65535,nextCheck:65535,str:30153,h:0,d0:0,d1:0;))))))))))

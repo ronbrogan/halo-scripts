@@ -1,26 +1,26 @@
 
-("c07_9030_cor", MethodDecl<Void> @:90 op:0,dt:0,nt:65535,next:2779,str:7711,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2779 op:0,dt:4,nt:8,next:65535,str:33559,d0:2780,d1:61007;
-        ("begin", Expression<MethodOrOperator> @:2780 op:0,dt:2,nt:9,next:2757,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2757 op:19,dt:4,nt:8,next:2760,str:33590,d0:2758,d1:60985;
-                ("sleep", Expression<MethodOrOperator> @:2758 op:19,dt:2,nt:9,next:2759,str:80,d0:0,d1:0;
-                    (147, Expression<Short> @:2759 op:7,dt:7,nt:9,next:65535,str:33597,d0:147,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2760 op:598,dt:4,nt:8,next:2766,str:33604,d0:2761,d1:60988;
-                ("sound_impulse_start_effect", Expression<MethodOrOperator> @:2761 op:598,dt:2,nt:9,next:2762,str:7465,d0:0,d1:0;
-                    ("sound\dialog\levels\07_highcharity\cinematic\c07_9030_cor", Expression<Sound> @:2762 op:32,dt:32,nt:9,next:2763,str:7653,d0:901,d1:58619;
-                        (4294967295, Expression<Entity> @:2763 op:50,dt:50,nt:9,next:2764,str:1386,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:2764 op:6,dt:6,nt:9,next:2765,str:33695,d0:0,d1:16256;
-                                ("radio_default_loop", Expression<StringId> @:2765 op:11,dt:11,nt:9,next:65535,str:7550,d0:14476,d1:4608;))))))
-            (____, BuiltinInvocation<Void> @:2766 op:562,dt:4,nt:8,next:2770,str:33719,d0:2767,d1:60994;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:2767 op:562,dt:2,nt:9,next:2768,str:3020,d0:0,d1:0;
-                    ("c07_9030_cor", Expression<StringId> @:2768 op:11,dt:11,nt:9,next:2769,str:7711,d0:4046,d1:3072;
-                        (2f, Expression<Float> @:2769 op:6,dt:6,nt:9,next:65535,str:33752,d0:0,d1:16384;))))
-            (____, BuiltinInvocation<Void> @:2770 op:220,dt:4,nt:8,next:2776,str:33761,d0:2771,d1:60998;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2771 op:220,dt:2,nt:9,next:2772,str:3331,d0:0,d1:0;
-                    ("cortana_outro", Expression<Unit> @:2772 op:57,dt:51,nt:9,next:2773,str:7724,d0:128,d1:65535;
-                        ("pensive", Expression<StringId> @:2773 op:11,dt:11,nt:9,next:2774,str:7738,d0:431,d1:1792;
-                            (0.25f, Expression<Float> @:2774 op:6,dt:6,nt:9,next:2775,str:33809,d0:0,d1:16000;
-                                (0, Expression<Short> @:2775 op:7,dt:7,nt:9,next:65535,str:33813,d0:0,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:2776 op:27,dt:4,nt:8,next:65535,str:33818,d0:2777,d1:61004;
-                ("print", Expression<MethodOrOperator> @:2777 op:27,dt:2,nt:9,next:2778,str:86,d0:0,d1:0;
-                    ("cortana - pensive .25 0", Expression<String> @:2778 op:9,dt:9,nt:9,next:65535,str:7746,d0:7746,d1:0;))))))
+("c07_9030_cor", MethodDecl<Void> @:90 check:0,op:0,dt:0,nt:65535,next:2779,nextCheck:61006,str:7711,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2779 check:61006,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:33559,h:0,d0:2780,d1:61007;
+        ("begin", Expression<MethodOrOperator> @:2780 check:61007,op:0,dt:2,nt:9,next:2757,nextCheck:60984,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2757 check:60984,op:19,dt:4,nt:8,next:2760,nextCheck:60987,str:33590,h:0,d0:2758,d1:60985;
+                ("sleep", Expression<MethodOrOperator> @:2758 check:60985,op:19,dt:2,nt:9,next:2759,nextCheck:60986,str:80,h:0,d0:0,d1:0;
+                    (147, Expression<Short> @:2759 check:60986,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:33597,h:0,d0:147,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2760 check:60987,op:598,dt:4,nt:8,next:2766,nextCheck:60993,str:33604,h:0,d0:2761,d1:60988;
+                ("sound_impulse_start_effect", Expression<MethodOrOperator> @:2761 check:60988,op:598,dt:2,nt:9,next:2762,nextCheck:60989,str:7465,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\07_highcharity\cinematic\c07_9030_cor", Expression<Sound> @:2762 check:60989,op:32,dt:32,nt:9,next:2763,nextCheck:60990,str:7653,h:0,d0:901,d1:58619;
+                        (4294967295, Expression<Entity> @:2763 check:60990,op:50,dt:50,nt:9,next:2764,nextCheck:60991,str:1386,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:2764 check:60991,op:6,dt:6,nt:9,next:2765,nextCheck:60992,str:33695,h:0,d0:0,d1:16256;
+                                ("radio_default_loop", Expression<StringId> @:2765 check:60992,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:7550,h:0,d0:14476,d1:4608;))))))
+            (____, BuiltinInvocation<Void> @:2766 check:60993,op:562,dt:4,nt:8,next:2770,nextCheck:60997,str:33719,h:0,d0:2767,d1:60994;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:2767 check:60994,op:562,dt:2,nt:9,next:2768,nextCheck:60995,str:3020,h:0,d0:0,d1:0;
+                    ("c07_9030_cor", Expression<StringId> @:2768 check:60995,op:11,dt:11,nt:9,next:2769,nextCheck:60996,str:7711,h:0,d0:4046,d1:3072;
+                        (2f, Expression<Float> @:2769 check:60996,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:33752,h:0,d0:0,d1:16384;))))
+            (____, BuiltinInvocation<Void> @:2770 check:60997,op:220,dt:4,nt:8,next:2776,nextCheck:61003,str:33761,h:0,d0:2771,d1:60998;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2771 check:60998,op:220,dt:2,nt:9,next:2772,nextCheck:60999,str:3331,h:0,d0:0,d1:0;
+                    ("cortana_outro", Expression<Unit> @:2772 check:60999,op:57,dt:51,nt:9,next:2773,nextCheck:61000,str:7724,h:0,d0:128,d1:65535;
+                        ("pensive", Expression<StringId> @:2773 check:61000,op:11,dt:11,nt:9,next:2774,nextCheck:61001,str:7738,h:0,d0:431,d1:1792;
+                            (0.25f, Expression<Float> @:2774 check:61001,op:6,dt:6,nt:9,next:2775,nextCheck:61002,str:33809,h:0,d0:0,d1:16000;
+                                (0, Expression<Short> @:2775 check:61002,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:33813,h:0,d0:0,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:2776 check:61003,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:33818,h:0,d0:2777,d1:61004;
+                ("print", Expression<MethodOrOperator> @:2777 check:61004,op:27,dt:2,nt:9,next:2778,nextCheck:61005,str:86,h:0,d0:0,d1:0;
+                    ("cortana - pensive .25 0", Expression<String> @:2778 check:61005,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:7746,h:0,d0:7746,d1:0;))))))

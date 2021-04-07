@@ -1,16 +1,16 @@
 
-("objective_control_set", MethodDecl<Void> @:123 op:0,dt:0,nt:65535,next:3908,str:39471,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3908 op:0,dt:4,nt:8,next:65535,str:46371,d0:3909,d1:62136;
-        ("begin", Expression<MethodOrOperator> @:3909 op:0,dt:2,nt:9,next:3896,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3896 op:19,dt:4,nt:8,next:3899,str:46422,d0:3897,d1:62124;
-                ("sleep", Expression<MethodOrOperator> @:3897 op:19,dt:2,nt:9,next:3898,str:289,d0:0,d1:0;
-                    (30, Expression<Short> @:3898 op:7,dt:7,nt:9,next:65535,str:46429,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3899 op:27,dt:4,nt:8,next:3902,str:46446,d0:3900,d1:62127;
-                ("print", Expression<MethodOrOperator> @:3900 op:27,dt:2,nt:9,next:3901,str:295,d0:0,d1:0;
-                    ("new objective set:", Expression<String> @:3901 op:9,dt:9,nt:9,next:65535,str:9863,d0:9863,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3902 op:27,dt:4,nt:8,next:3905,str:46488,d0:3903,d1:62130;
-                ("print", Expression<MethodOrOperator> @:3903 op:27,dt:2,nt:9,next:3904,str:295,d0:0,d1:0;
-                    ("ascertain the heretic leader's whereabouts.", Expression<String> @:3904 op:9,dt:9,nt:9,next:65535,str:9974,d0:9974,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3905 op:753,dt:4,nt:8,next:65535,str:46555,d0:3906,d1:62133;
-                ("objectives_show_up_to", Expression<MethodOrOperator> @:3906 op:753,dt:2,nt:9,next:3907,str:9908,d0:0,d1:0;
-                    (1, Expression<Int> @:3907 op:8,dt:8,nt:9,next:65535,str:46578,d0:1,d1:0;))))))
+("objective_control_set", MethodDecl<Void> @:123 check:0,op:0,dt:0,nt:65535,next:3908,nextCheck:62135,str:39471,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3908 check:62135,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:46371,h:0,d0:3909,d1:62136;
+        ("begin", Expression<MethodOrOperator> @:3909 check:62136,op:0,dt:2,nt:9,next:3896,nextCheck:62123,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3896 check:62123,op:19,dt:4,nt:8,next:3899,nextCheck:62126,str:46422,h:0,d0:3897,d1:62124;
+                ("sleep", Expression<MethodOrOperator> @:3897 check:62124,op:19,dt:2,nt:9,next:3898,nextCheck:62125,str:289,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:3898 check:62125,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:46429,h:0,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3899 check:62126,op:27,dt:4,nt:8,next:3902,nextCheck:62129,str:46446,h:0,d0:3900,d1:62127;
+                ("print", Expression<MethodOrOperator> @:3900 check:62127,op:27,dt:2,nt:9,next:3901,nextCheck:62128,str:295,h:0,d0:0,d1:0;
+                    ("new objective set:", Expression<String> @:3901 check:62128,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:9863,h:0,d0:9863,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3902 check:62129,op:27,dt:4,nt:8,next:3905,nextCheck:62132,str:46488,h:0,d0:3903,d1:62130;
+                ("print", Expression<MethodOrOperator> @:3903 check:62130,op:27,dt:2,nt:9,next:3904,nextCheck:62131,str:295,h:0,d0:0,d1:0;
+                    ("ascertain the heretic leader's whereabouts.", Expression<String> @:3904 check:62131,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:9974,h:0,d0:9974,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3905 check:62132,op:753,dt:4,nt:8,next:65535,nextCheck:65535,str:46555,h:0,d0:3906,d1:62133;
+                ("objectives_show_up_to", Expression<MethodOrOperator> @:3906 check:62133,op:753,dt:2,nt:9,next:3907,nextCheck:62134,str:9908,h:0,d0:0,d1:0;
+                    (1, Expression<Int> @:3907 check:62134,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:46578,h:0,d0:1,d1:0;))))))

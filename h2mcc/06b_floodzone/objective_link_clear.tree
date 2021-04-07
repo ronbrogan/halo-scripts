@@ -1,13 +1,13 @@
 
-("objective_link_clear", MethodDecl<Void> @:149 op:0,dt:0,nt:65535,next:4671,str:27698,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4671 op:0,dt:4,nt:8,next:65535,str:55742,d0:4672,d1:62899;
-        ("begin", Expression<MethodOrOperator> @:4672 op:0,dt:2,nt:9,next:4662,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4662 op:27,dt:4,nt:8,next:4665,str:55781,d0:4663,d1:62890;
-                ("print", Expression<MethodOrOperator> @:4663 op:27,dt:2,nt:9,next:4664,str:91,d0:0,d1:0;
-                    ("objective complete:", Expression<String> @:4664 op:9,dt:9,nt:9,next:65535,str:11542,d0:11542,d1:0;)))
-            (____, BuiltinInvocation<Void> @:4665 op:27,dt:4,nt:8,next:4668,str:55813,d0:4666,d1:62893;
-                ("print", Expression<MethodOrOperator> @:4666 op:27,dt:2,nt:9,next:4667,str:91,d0:0,d1:0;
-                    ("link-up with the spec-ops leader, and break through the flood barricade.", Expression<String> @:4667 op:9,dt:9,nt:9,next:65535,str:11586,d0:11586,d1:0;)))
-            (____, BuiltinInvocation<Void> @:4668 op:754,dt:4,nt:8,next:65535,str:55898,d0:4669,d1:62896;
-                ("objectives_finish_up_to", Expression<MethodOrOperator> @:4669 op:754,dt:2,nt:9,next:4670,str:11562,d0:0,d1:0;
-                    (1, Expression<Int> @:4670 op:8,dt:8,nt:9,next:65535,str:55923,d0:1,d1:0;))))))
+("objective_link_clear", MethodDecl<Void> @:149 check:0,op:0,dt:0,nt:65535,next:4671,nextCheck:62898,str:27698,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4671 check:62898,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:55742,h:0,d0:4672,d1:62899;
+        ("begin", Expression<MethodOrOperator> @:4672 check:62899,op:0,dt:2,nt:9,next:4662,nextCheck:62889,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4662 check:62889,op:27,dt:4,nt:8,next:4665,nextCheck:62892,str:55781,h:0,d0:4663,d1:62890;
+                ("print", Expression<MethodOrOperator> @:4663 check:62890,op:27,dt:2,nt:9,next:4664,nextCheck:62891,str:91,h:0,d0:0,d1:0;
+                    ("objective complete:", Expression<String> @:4664 check:62891,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:11542,h:0,d0:11542,d1:0;)))
+            (____, BuiltinInvocation<Void> @:4665 check:62892,op:27,dt:4,nt:8,next:4668,nextCheck:62895,str:55813,h:0,d0:4666,d1:62893;
+                ("print", Expression<MethodOrOperator> @:4666 check:62893,op:27,dt:2,nt:9,next:4667,nextCheck:62894,str:91,h:0,d0:0,d1:0;
+                    ("link-up with the spec-ops leader, and break through the flood barricade.", Expression<String> @:4667 check:62894,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:11586,h:0,d0:11586,d1:0;)))
+            (____, BuiltinInvocation<Void> @:4668 check:62895,op:754,dt:4,nt:8,next:65535,nextCheck:65535,str:55898,h:0,d0:4669,d1:62896;
+                ("objectives_finish_up_to", Expression<MethodOrOperator> @:4669 check:62896,op:754,dt:2,nt:9,next:4670,nextCheck:62897,str:11562,h:0,d0:0,d1:0;
+                    (1, Expression<Int> @:4670 check:62897,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:55923,h:0,d0:1,d1:0;))))))

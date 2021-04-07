@@ -1,14 +1,14 @@
 
-("absorber07_count", MethodDecl<Short> @:258 op:0,dt:0,nt:65535,next:11354,str:20461,d0:0,d1:0;
-    (____, BuiltinInvocation<Short> @:11354 op:0,dt:7,nt:8,next:65535,str:50145,d0:11355,d1:36815;
-        ("begin", Expression<MethodOrOperator> @:11355 op:0,dt:2,nt:9,next:11344,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Short> @:11344 op:2,dt:7,nt:8,next:65535,str:50185,d0:11345,d1:36805;
-                ("if", Expression<MethodOrOperator> @:11345 op:2,dt:2,nt:9,next:11346,str:456,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:11346 op:18,dt:5,nt:8,next:11352,str:50189,d0:11347,d1:36807;
-                        ("<=", Expression<MethodOrOperator> @:11347 op:18,dt:2,nt:9,next:11348,str:16255,d0:0,d1:0;
-                            (-1.9837206E-29f, BuiltinInvocation<Float> @:11348 op:70,dt:6,nt:8,next:11351,str:50193,d0:11349,d1:36809;
-                                ("object_get_shield", Expression<MethodOrOperator> @:11349 op:70,dt:2,nt:9,next:11350,str:16258,d0:0,d1:0;
-                                    (4294901762, Expression<Entity> @:11350 op:56,dt:50,nt:9,next:65535,str:20397,d0:2,d1:65535;)))
-                            (0f, Expression<Float> @:11351 op:6,dt:6,nt:9,next:65535,str:50228,d0:0,d1:0;)))
-                    (0, Expression<Short> @:11352 op:7,dt:7,nt:9,next:11353,str:50231,d0:0,d1:65535;
-                        (1, Expression<Short> @:11353 op:7,dt:7,nt:9,next:65535,str:50233,d0:1,d1:65535;)))))))
+("absorber07_count", MethodDecl<Short> @:258 check:0,op:0,dt:0,nt:65535,next:11354,nextCheck:36814,str:20461,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Short> @:11354 check:36814,op:0,dt:7,nt:8,next:65535,nextCheck:65535,str:50145,h:1,d0:11355,d1:36815;
+        ("begin", Expression<MethodOrOperator> @:11355 check:36815,op:0,dt:2,nt:9,next:11344,nextCheck:36804,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Short> @:11344 check:36804,op:2,dt:7,nt:8,next:65535,nextCheck:65535,str:50185,h:1,d0:11345,d1:36805;
+                ("if", Expression<MethodOrOperator> @:11345 check:36805,op:2,dt:2,nt:9,next:11346,nextCheck:36806,str:456,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:11346 check:36806,op:18,dt:5,nt:8,next:11352,nextCheck:36812,str:50189,h:1,d0:11347,d1:36807;
+                        ("<=", Expression<MethodOrOperator> @:11347 check:36807,op:18,dt:2,nt:9,next:11348,nextCheck:36808,str:16255,h:0,d0:0,d1:0;
+                            (-1.9837206E-29f, BuiltinInvocation<Float> @:11348 check:36808,op:70,dt:6,nt:8,next:11351,nextCheck:36811,str:50193,h:1,d0:11349,d1:36809;
+                                ("object_get_shield", Expression<MethodOrOperator> @:11349 check:36809,op:70,dt:2,nt:9,next:11350,nextCheck:36810,str:16258,h:0,d0:0,d1:0;
+                                    (4294901762, Expression<Entity> @:11350 check:36810,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:20397,h:0,d0:2,d1:65535;)))
+                            (0f, Expression<Float> @:11351 check:36811,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:50228,h:1,d0:0,d1:0;)))
+                    (0, Expression<Short> @:11352 check:36812,op:7,dt:7,nt:9,next:11353,nextCheck:36813,str:50231,h:1,d0:0,d1:65535;
+                        (1, Expression<Short> @:11353 check:36813,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:50233,h:1,d0:1,d1:65535;)))))))

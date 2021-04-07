@@ -1,22 +1,22 @@
 
-("power_core_heretic", MethodDecl<Void> @:279 op:0,dt:0,nt:65535,next:16976,str:29535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:16976 op:0,dt:4,nt:8,next:65535,str:48442,d0:16977,d1:42437;
-        ("begin", Expression<MethodOrOperator> @:16977 op:0,dt:2,nt:9,next:16958,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:16958 op:374,dt:4,nt:8,next:16961,str:48486,d0:16959,d1:42419;
-                ("cs_switch", Expression<MethodOrOperator> @:16959 op:374,dt:2,nt:9,next:16960,str:11448,d0:0,d1:0;
-                    ("heretic_01", Expression<StringId> @:16960 op:11,dt:11,nt:9,next:65535,str:4173,d0:4528,d1:2560;)))
-            (____, BuiltinInvocation<Void> @:16961 op:444,dt:4,nt:8,next:16964,str:48511,d0:16962,d1:42422;
-                ("cs_enable_moving", Expression<MethodOrOperator> @:16962 op:444,dt:2,nt:9,next:16963,str:11483,d0:0,d1:0;
-                    (True, Expression<Boolean> @:16963 op:5,dt:5,nt:9,next:65535,str:48529,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16964 op:442,dt:4,nt:8,next:16967,str:48537,d0:16965,d1:42425;
-                ("cs_enable_targeting", Expression<MethodOrOperator> @:16965 op:442,dt:2,nt:9,next:16966,str:12454,d0:0,d1:0;
-                    (True, Expression<Boolean> @:16966 op:5,dt:5,nt:9,next:65535,str:48558,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16967 op:404,dt:4,nt:8,next:16970,str:48566,d0:16968,d1:42428;
-                ("cs_shoot", Expression<MethodOrOperator> @:16968 op:404,dt:2,nt:9,next:16969,str:12277,d0:0,d1:0;
-                    (True, Expression<Boolean> @:16969 op:5,dt:5,nt:9,next:65535,str:48576,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16970 op:27,dt:4,nt:8,next:16973,str:48613,d0:16971,d1:42431;
-                ("print", Expression<MethodOrOperator> @:16971 op:27,dt:2,nt:9,next:16972,str:295,d0:0,d1:0;
-                    ("heretic elite: 'the oracle must be saved!'", Expression<String> @:16972 op:9,dt:9,nt:9,next:65535,str:29003,d0:29003,d1:0;)))
-            (____, BuiltinInvocation<Void> @:16973 op:418,dt:4,nt:8,next:65535,str:48668,d0:16974,d1:42434;
-                ("cs_play_line", Expression<MethodOrOperator> @:16974 op:418,dt:2,nt:9,next:16975,str:11547,d0:0,d1:0;
-                    ("0740", Expression<StringId> @:16975 op:11,dt:11,nt:9,next:65535,str:29046,d0:12279,d1:1024;))))))
+("power_core_heretic", MethodDecl<Void> @:279 check:0,op:0,dt:0,nt:65535,next:16976,nextCheck:42436,str:29535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:16976 check:42436,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:48442,h:2,d0:16977,d1:42437;
+        ("begin", Expression<MethodOrOperator> @:16977 check:42437,op:0,dt:2,nt:9,next:16958,nextCheck:42418,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:16958 check:42418,op:374,dt:4,nt:8,next:16961,nextCheck:42421,str:48486,h:2,d0:16959,d1:42419;
+                ("cs_switch", Expression<MethodOrOperator> @:16959 check:42419,op:374,dt:2,nt:9,next:16960,nextCheck:42420,str:11448,h:0,d0:0,d1:0;
+                    ("heretic_01", Expression<StringId> @:16960 check:42420,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:4173,h:0,d0:4528,d1:2560;)))
+            (____, BuiltinInvocation<Void> @:16961 check:42421,op:444,dt:4,nt:8,next:16964,nextCheck:42424,str:48511,h:2,d0:16962,d1:42422;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:16962 check:42422,op:444,dt:2,nt:9,next:16963,nextCheck:42423,str:11483,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16963 check:42423,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:48529,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16964 check:42424,op:442,dt:4,nt:8,next:16967,nextCheck:42427,str:48537,h:2,d0:16965,d1:42425;
+                ("cs_enable_targeting", Expression<MethodOrOperator> @:16965 check:42425,op:442,dt:2,nt:9,next:16966,nextCheck:42426,str:12454,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16966 check:42426,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:48558,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16967 check:42427,op:404,dt:4,nt:8,next:16970,nextCheck:42430,str:48566,h:2,d0:16968,d1:42428;
+                ("cs_shoot", Expression<MethodOrOperator> @:16968 check:42428,op:404,dt:2,nt:9,next:16969,nextCheck:42429,str:12277,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16969 check:42429,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:48576,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16970 check:42430,op:27,dt:4,nt:8,next:16973,nextCheck:42433,str:48613,h:2,d0:16971,d1:42431;
+                ("print", Expression<MethodOrOperator> @:16971 check:42431,op:27,dt:2,nt:9,next:16972,nextCheck:42432,str:295,h:0,d0:0,d1:0;
+                    ("heretic elite: 'the oracle must be saved!'", Expression<String> @:16972 check:42432,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:29003,h:0,d0:29003,d1:0;)))
+            (____, BuiltinInvocation<Void> @:16973 check:42433,op:418,dt:4,nt:8,next:65535,nextCheck:65535,str:48668,h:2,d0:16974,d1:42434;
+                ("cs_play_line", Expression<MethodOrOperator> @:16974 check:42434,op:418,dt:2,nt:9,next:16975,nextCheck:42435,str:11547,h:0,d0:0,d1:0;
+                    ("0740", Expression<StringId> @:16975 check:42435,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:29046,h:0,d0:12279,d1:1024;))))))

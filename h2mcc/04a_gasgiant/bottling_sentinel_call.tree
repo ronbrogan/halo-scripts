@@ -1,19 +1,19 @@
 
-("bottling_sentinel_call", MethodDecl<Void> @:329 op:0,dt:0,nt:65535,next:15576,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:15576 op:0,dt:4,nt:8,next:65535,str:45255,d0:15577,d1:41037;
-        ("begin", Expression<MethodOrOperator> @:15577 op:0,dt:2,nt:9,next:15561,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:15561 op:374,dt:4,nt:8,next:15564,str:45303,d0:15562,d1:41022;
-                ("cs_switch", Expression<MethodOrOperator> @:15562 op:374,dt:2,nt:9,next:15563,str:15212,d0:0,d1:0;
-                    ("heretic", Expression<StringId> @:15563 op:11,dt:11,nt:9,next:65535,str:24543,d0:2449,d1:1792;)))
-            (____, BuiltinInvocation<Void> @:15564 op:440,dt:4,nt:8,next:15567,str:45325,d0:15565,d1:41025;
-                ("cs_abort_on_damage", Expression<MethodOrOperator> @:15565 op:440,dt:2,nt:9,next:15566,str:15227,d0:0,d1:0;
-                    (True, Expression<Boolean> @:15566 op:5,dt:5,nt:9,next:65535,str:45345,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:15567 op:446,dt:4,nt:8,next:15570,str:45353,d0:15568,d1:41028;
-                ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:15568 op:446,dt:2,nt:9,next:15569,str:15246,d0:0,d1:0;
-                    (True, Expression<Boolean> @:15569 op:5,dt:5,nt:9,next:65535,str:45382,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:15570 op:27,dt:4,nt:8,next:15573,str:45390,d0:15571,d1:41031;
-                ("print", Expression<MethodOrOperator> @:15571 op:27,dt:2,nt:9,next:15572,str:91,d0:0,d1:0;
-                    ("heretic: 'we need sentinels!'", Expression<String> @:15572 op:9,dt:9,nt:9,next:65535,str:28099,d0:28099,d1:0;)))
-            (____, BuiltinInvocation<Void> @:15573 op:418,dt:4,nt:8,next:65535,str:45432,d0:15574,d1:41034;
-                ("cs_play_line", Expression<MethodOrOperator> @:15574 op:418,dt:2,nt:9,next:15575,str:15305,d0:0,d1:0;
-                    ("0450", Expression<StringId> @:15575 op:11,dt:11,nt:9,next:65535,str:28129,d0:11678,d1:1024;))))))
+("bottling_sentinel_call", MethodDecl<Void> @:329 check:0,op:0,dt:0,nt:65535,next:15576,nextCheck:41036,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:15576 check:41036,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:45255,h:2,d0:15577,d1:41037;
+        ("begin", Expression<MethodOrOperator> @:15577 check:41037,op:0,dt:2,nt:9,next:15561,nextCheck:41021,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:15561 check:41021,op:374,dt:4,nt:8,next:15564,nextCheck:41024,str:45303,h:2,d0:15562,d1:41022;
+                ("cs_switch", Expression<MethodOrOperator> @:15562 check:41022,op:374,dt:2,nt:9,next:15563,nextCheck:41023,str:15212,h:0,d0:0,d1:0;
+                    ("heretic", Expression<StringId> @:15563 check:41023,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:24543,h:0,d0:2449,d1:1792;)))
+            (____, BuiltinInvocation<Void> @:15564 check:41024,op:440,dt:4,nt:8,next:15567,nextCheck:41027,str:45325,h:2,d0:15565,d1:41025;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:15565 check:41025,op:440,dt:2,nt:9,next:15566,nextCheck:41026,str:15227,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15566 check:41026,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:45345,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:15567 check:41027,op:446,dt:4,nt:8,next:15570,nextCheck:41030,str:45353,h:2,d0:15568,d1:41028;
+                ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:15568 check:41028,op:446,dt:2,nt:9,next:15569,nextCheck:41029,str:15246,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15569 check:41029,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:45382,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:15570 check:41030,op:27,dt:4,nt:8,next:15573,nextCheck:41033,str:45390,h:2,d0:15571,d1:41031;
+                ("print", Expression<MethodOrOperator> @:15571 check:41031,op:27,dt:2,nt:9,next:15572,nextCheck:41032,str:91,h:0,d0:0,d1:0;
+                    ("heretic: 'we need sentinels!'", Expression<String> @:15572 check:41032,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:28099,h:0,d0:28099,d1:0;)))
+            (____, BuiltinInvocation<Void> @:15573 check:41033,op:418,dt:4,nt:8,next:65535,nextCheck:65535,str:45432,h:2,d0:15574,d1:41034;
+                ("cs_play_line", Expression<MethodOrOperator> @:15574 check:41034,op:418,dt:2,nt:9,next:15575,nextCheck:41035,str:15305,h:0,d0:0,d1:0;
+                    ("0450", Expression<StringId> @:15575 check:41035,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:28129,h:0,d0:11678,d1:1024;))))))

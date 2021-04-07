@@ -1,23 +1,23 @@
 
-("cs_johnson_tram", MethodDecl<Void> @:45 op:0,dt:0,nt:65535,next:1391,str:14059,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:1391 op:0,dt:4,nt:8,next:65535,str:14425,d0:1392,d1:59619;
-        ("begin", Expression<MethodOrOperator> @:1392 op:0,dt:2,nt:9,next:1372,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:1372 op:448,dt:4,nt:8,next:1375,str:14466,d0:1373,d1:59600;
-                ("cs_force_combat_status", Expression<MethodOrOperator> @:1373 op:448,dt:2,nt:9,next:1374,str:1430,d0:0,d1:0;
-                    (2, Expression<Short> @:1374 op:7,dt:7,nt:9,next:65535,str:14490,d0:2,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1375 op:444,dt:4,nt:8,next:1378,str:14495,d0:1376,d1:59603;
-                ("cs_enable_moving", Expression<MethodOrOperator> @:1376 op:444,dt:2,nt:9,next:1377,str:1453,d0:0,d1:0;
-                    (False, Expression<Boolean> @:1377 op:5,dt:5,nt:9,next:65535,str:14513,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1378 op:449,dt:4,nt:8,next:1381,str:14518,d0:1379,d1:59606;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:1379 op:449,dt:2,nt:9,next:1380,str:1470,d0:0,d1:0;
-                    (True, Expression<Boolean> @:1380 op:5,dt:5,nt:9,next:65535,str:14550,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1381 op:389,dt:4,nt:8,next:1385,str:14555,d0:1382,d1:59609;
-                ("cs_go_to_and_face", Expression<MethodOrOperator> @:1382 op:389,dt:2,nt:9,next:1383,str:1574,d0:0,d1:0;
-                    ("johnson_points/tram", Expression<SpatialPoint> @:1383 op:28,dt:28,nt:9,next:1384,str:1682,d0:5,d1:1;
-                        ("johnson_points/earth", Expression<SpatialPoint> @:1384 op:28,dt:28,nt:9,next:65535,str:1702,d0:1,d1:1;))))
-            (____, BuiltinInvocation<Void> @:1385 op:399,dt:4,nt:8,next:1389,str:14618,d0:1386,d1:59613;
-                ("cs_face", Expression<MethodOrOperator> @:1386 op:399,dt:2,nt:9,next:1387,str:1368,d0:0,d1:0;
-                    (True, Expression<Boolean> @:1387 op:5,dt:5,nt:9,next:1388,str:14627,d0:65281,d1:65535;
-                        ("johnson_points/earth", Expression<SpatialPoint> @:1388 op:28,dt:28,nt:9,next:65535,str:1702,d0:1,d1:1;))))
-            (____, BuiltinInvocation<Void> @:1389 op:20,dt:4,nt:8,next:65535,str:14653,d0:1390,d1:59617;
-                ("sleep_forever", Expression<MethodOrOperator> @:1390 op:20,dt:2,nt:9,next:65535,str:1209,d0:0,d1:0;)))))
+("cs_johnson_tram", MethodDecl<Void> @:45 check:0,op:0,dt:0,nt:65535,next:1391,nextCheck:59618,str:14059,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:1391 check:59618,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:14425,h:0,d0:1392,d1:59619;
+        ("begin", Expression<MethodOrOperator> @:1392 check:59619,op:0,dt:2,nt:9,next:1372,nextCheck:59599,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1372 check:59599,op:448,dt:4,nt:8,next:1375,nextCheck:59602,str:14466,h:0,d0:1373,d1:59600;
+                ("cs_force_combat_status", Expression<MethodOrOperator> @:1373 check:59600,op:448,dt:2,nt:9,next:1374,nextCheck:59601,str:1430,h:0,d0:0,d1:0;
+                    (2, Expression<Short> @:1374 check:59601,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:14490,h:0,d0:2,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1375 check:59602,op:444,dt:4,nt:8,next:1378,nextCheck:59605,str:14495,h:0,d0:1376,d1:59603;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:1376 check:59603,op:444,dt:2,nt:9,next:1377,nextCheck:59604,str:1453,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:1377 check:59604,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:14513,h:0,d0:65280,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1378 check:59605,op:449,dt:4,nt:8,next:1381,nextCheck:59608,str:14518,h:0,d0:1379,d1:59606;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:1379 check:59606,op:449,dt:2,nt:9,next:1380,nextCheck:59607,str:1470,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:1380 check:59607,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:14550,h:0,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1381 check:59608,op:389,dt:4,nt:8,next:1385,nextCheck:59612,str:14555,h:0,d0:1382,d1:59609;
+                ("cs_go_to_and_face", Expression<MethodOrOperator> @:1382 check:59609,op:389,dt:2,nt:9,next:1383,nextCheck:59610,str:1574,h:0,d0:0,d1:0;
+                    ("johnson_points/tram", Expression<SpatialPoint> @:1383 check:59610,op:28,dt:28,nt:9,next:1384,nextCheck:59611,str:1682,h:0,d0:5,d1:1;
+                        ("johnson_points/earth", Expression<SpatialPoint> @:1384 check:59611,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:1702,h:0,d0:1,d1:1;))))
+            (____, BuiltinInvocation<Void> @:1385 check:59612,op:399,dt:4,nt:8,next:1389,nextCheck:59616,str:14618,h:0,d0:1386,d1:59613;
+                ("cs_face", Expression<MethodOrOperator> @:1386 check:59613,op:399,dt:2,nt:9,next:1387,nextCheck:59614,str:1368,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:1387 check:59614,op:5,dt:5,nt:9,next:1388,nextCheck:59615,str:14627,h:0,d0:65281,d1:65535;
+                        ("johnson_points/earth", Expression<SpatialPoint> @:1388 check:59615,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:1702,h:0,d0:1,d1:1;))))
+            (____, BuiltinInvocation<Void> @:1389 check:59616,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:14653,h:0,d0:1390,d1:59617;
+                ("sleep_forever", Expression<MethodOrOperator> @:1390 check:59617,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:1209,h:0,d0:0,d1:0;)))))

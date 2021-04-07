@@ -1,12 +1,12 @@
 
-("old_temple_pelican_timer", MethodDecl<Void> @:289 op:0,dt:0,nt:65535,next:16020,str:28553,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:16020 op:0,dt:4,nt:8,next:65535,str:51210,d0:16021,d1:41481;
-        ("begin", Expression<MethodOrOperator> @:16021 op:0,dt:2,nt:9,next:16012,str:54,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:16012 op:19,dt:4,nt:8,next:16015,str:51253,d0:16013,d1:41473;
-                ("sleep", Expression<MethodOrOperator> @:16013 op:19,dt:2,nt:9,next:16014,str:133,d0:0,d1:0;
-                    (8000, Expression<Short> @:16014 op:7,dt:7,nt:9,next:65535,str:51260,d0:8000,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16015 op:52,dt:4,nt:8,next:65535,str:51268,d0:16016,d1:41476;
-                ("object_destroy", Expression<MethodOrOperator> @:16016 op:52,dt:2,nt:9,next:16017,str:1543,d0:0,d1:0;
-                    (____, BuiltinInvocation<Entity> @:16017 op:341,dt:50,nt:8,next:65535,str:51284,d0:16018,d1:41478;
-                        ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:16018 op:341,dt:2,nt:9,next:16019,str:14605,d0:0,d1:0;
-                            ("old_temple_pelican/pilot", Expression<AI> @:16019 op:19,dt:19,nt:9,next:65535,str:28232,d0:0,d1:49278;))))))))
+("old_temple_pelican_timer", MethodDecl<Void> @:289 check:0,op:0,dt:0,nt:65535,next:16020,nextCheck:41480,str:28553,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:16020 check:41480,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:51210,h:2,d0:16021,d1:41481;
+        ("begin", Expression<MethodOrOperator> @:16021 check:41481,op:0,dt:2,nt:9,next:16012,nextCheck:41472,str:54,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:16012 check:41472,op:19,dt:4,nt:8,next:16015,nextCheck:41475,str:51253,h:2,d0:16013,d1:41473;
+                ("sleep", Expression<MethodOrOperator> @:16013 check:41473,op:19,dt:2,nt:9,next:16014,nextCheck:41474,str:133,h:0,d0:0,d1:0;
+                    (8000, Expression<Short> @:16014 check:41474,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:51260,h:2,d0:8000,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16015 check:41475,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:51268,h:2,d0:16016,d1:41476;
+                ("object_destroy", Expression<MethodOrOperator> @:16016 check:41476,op:52,dt:2,nt:9,next:16017,nextCheck:41477,str:1543,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Entity> @:16017 check:41477,op:341,dt:50,nt:8,next:65535,nextCheck:65535,str:51284,h:2,d0:16018,d1:41478;
+                        ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:16018 check:41478,op:341,dt:2,nt:9,next:16019,nextCheck:41479,str:14605,h:0,d0:0,d1:0;
+                            ("old_temple_pelican/pilot", Expression<AI> @:16019 check:41479,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:28232,h:0,d0:0,d1:49278;))))))))

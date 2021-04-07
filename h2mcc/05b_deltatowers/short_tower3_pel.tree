@@ -1,11 +1,11 @@
 
-("short_tower3_pel", MethodDecl<Void> @:193 op:0,dt:0,nt:65535,next:9152,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:9152 op:0,dt:4,nt:8,next:65535,str:35251,d0:9153,d1:34613;
-        ("begin", Expression<MethodOrOperator> @:9153 op:0,dt:2,nt:9,next:9145,str:142,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:9145 op:290,dt:4,nt:8,next:9148,str:35290,d0:9146,d1:34606;
-                ("ai_place", Expression<MethodOrOperator> @:9146 op:290,dt:2,nt:9,next:9147,str:10304,d0:0,d1:0;
-                    ("tower3_pelican", Expression<AI> @:9147 op:19,dt:19,nt:9,next:65535,str:18081,d0:52,d1:0;)))
-            (____, BuiltinInvocation<Void> @:9148 op:366,dt:4,nt:8,next:65535,str:35318,d0:9149,d1:34609;
-                ("cs_run_command_script", Expression<MethodOrOperator> @:9149 op:366,dt:2,nt:9,next:9150,str:11508,d0:0,d1:0;
-                    ("tower3_pelican/pilot", Expression<AI> @:9150 op:19,dt:19,nt:9,next:9151,str:18060,d0:0,d1:49204;
-                        ("tower3_pelican_path", Expression<AIScript> @:9151 op:21,dt:21,nt:9,next:65535,str:18117,d0:191,d1:0;)))))))
+("short_tower3_pel", MethodDecl<Void> @:193 check:0,op:0,dt:0,nt:65535,next:9152,nextCheck:34612,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:9152 check:34612,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:35251,h:1,d0:9153,d1:34613;
+        ("begin", Expression<MethodOrOperator> @:9153 check:34613,op:0,dt:2,nt:9,next:9145,nextCheck:34605,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:9145 check:34605,op:290,dt:4,nt:8,next:9148,nextCheck:34608,str:35290,h:1,d0:9146,d1:34606;
+                ("ai_place", Expression<MethodOrOperator> @:9146 check:34606,op:290,dt:2,nt:9,next:9147,nextCheck:34607,str:10304,h:0,d0:0,d1:0;
+                    ("tower3_pelican", Expression<AI> @:9147 check:34607,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:18081,h:0,d0:52,d1:0;)))
+            (____, BuiltinInvocation<Void> @:9148 check:34608,op:366,dt:4,nt:8,next:65535,nextCheck:65535,str:35318,h:1,d0:9149,d1:34609;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:9149 check:34609,op:366,dt:2,nt:9,next:9150,nextCheck:34610,str:11508,h:0,d0:0,d1:0;
+                    ("tower3_pelican/pilot", Expression<AI> @:9150 check:34610,op:19,dt:19,nt:9,next:9151,nextCheck:34611,str:18060,h:0,d0:0,d1:49204;
+                        ("tower3_pelican_path", Expression<AIScript> @:9151 check:34611,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:18117,h:0,d0:191,d1:0;)))))))

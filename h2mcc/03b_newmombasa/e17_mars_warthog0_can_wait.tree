@@ -1,12 +1,12 @@
 
-("e17_mars_warthog0_can_wait", MethodDecl<Boolean> @:364 op:0,dt:0,nt:65535,next:13113,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Boolean> @:13113 op:0,dt:5,nt:8,next:65535,str:39755,d0:13114,d1:38574;
-        ("begin", Expression<MethodOrOperator> @:13114 op:0,dt:2,nt:9,next:13105,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Boolean> @:13105 op:6,dt:5,nt:8,next:65535,str:39807,d0:13106,d1:38566;
-                ("or", Expression<MethodOrOperator> @:13106 op:6,dt:2,nt:9,next:13107,str:849,d0:0,d1:0;
-                    ("g_e17_mars_warthog0_arrived", VariableAccess<Boolean> @:13107 op:5,dt:5,nt:13,next:13108,str:26620,d0:46,d1:0;
-                        (____, BuiltinInvocation<Boolean> @:13108 op:33,dt:5,nt:8,next:65535,str:39845,d0:13109,d1:38569;
-                            ("volume_test_objects", Expression<MethodOrOperator> @:13109 op:33,dt:2,nt:9,next:13110,str:13230,d0:0,d1:0;
-                                ("tv_e17_on_first_wall", Expression<Trigger> @:13110 op:13,dt:13,nt:9,next:13111,str:26873,d0:82,d1:0;
-                                    (____, BuiltinInvocation<List> @:13111 op:28,dt:31,nt:8,next:65535,str:39887,d0:13112,d1:38572;
-                                        ("players", Expression<MethodOrOperator> @:13112 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))))))))
+("e17_mars_warthog0_can_wait", MethodDecl<Boolean> @:364 check:0,op:0,dt:0,nt:65535,next:13113,nextCheck:38573,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Boolean> @:13113 check:38573,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:39755,h:2,d0:13114,d1:38574;
+        ("begin", Expression<MethodOrOperator> @:13114 check:38574,op:0,dt:2,nt:9,next:13105,nextCheck:38565,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Boolean> @:13105 check:38565,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:39807,h:2,d0:13106,d1:38566;
+                ("or", Expression<MethodOrOperator> @:13106 check:38566,op:6,dt:2,nt:9,next:13107,nextCheck:38567,str:849,h:0,d0:0,d1:0;
+                    ("g_e17_mars_warthog0_arrived", VariableAccess<Boolean> @:13107 check:38567,op:5,dt:5,nt:13,next:13108,nextCheck:38568,str:26620,h:0,d0:46,d1:0;
+                        (____, BuiltinInvocation<Boolean> @:13108 check:38568,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:39845,h:2,d0:13109,d1:38569;
+                            ("volume_test_objects", Expression<MethodOrOperator> @:13109 check:38569,op:33,dt:2,nt:9,next:13110,nextCheck:38570,str:13230,h:0,d0:0,d1:0;
+                                ("tv_e17_on_first_wall", Expression<Trigger> @:13110 check:38570,op:13,dt:13,nt:9,next:13111,nextCheck:38571,str:26873,h:0,d0:82,d1:0;
+                                    (____, BuiltinInvocation<List> @:13111 check:38571,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:39887,h:2,d0:13112,d1:38572;
+                                        ("players", Expression<MethodOrOperator> @:13112 check:38572,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))))))))

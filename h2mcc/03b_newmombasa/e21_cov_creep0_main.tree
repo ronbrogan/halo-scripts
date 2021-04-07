@@ -1,22 +1,22 @@
 
-("e21_cov_creep0_main", MethodDecl<Void> @:315 op:0,dt:0,nt:65535,next:11162,str:24474,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:11162 op:0,dt:4,nt:8,next:65535,str:10173,d0:11163,d1:36623;
-        ("begin", Expression<MethodOrOperator> @:11163 op:0,dt:2,nt:9,next:11144,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:11144 op:21,dt:4,nt:8,next:11159,str:10248,d0:11145,d1:36605;
-                ("sleep_until", Expression<MethodOrOperator> @:11145 op:21,dt:2,nt:9,next:11146,str:236,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:11146 op:6,dt:5,nt:8,next:11158,str:10265,d0:11147,d1:36607;
-                        ("or", Expression<MethodOrOperator> @:11147 op:6,dt:2,nt:9,next:11148,str:849,d0:0,d1:0;
-                            (____, BuiltinInvocation<Boolean> @:11148 op:33,dt:5,nt:8,next:11153,str:10273,d0:11149,d1:36609;
-                                ("volume_test_objects", Expression<MethodOrOperator> @:11149 op:33,dt:2,nt:9,next:11150,str:13230,d0:0,d1:0;
-                                    ("tv_e21_cov_creep0_main", Expression<Trigger> @:11150 op:13,dt:13,nt:9,next:11151,str:23342,d0:62,d1:0;
-                                        (____, BuiltinInvocation<List> @:11151 op:28,dt:31,nt:8,next:65535,str:10317,d0:11152,d1:36612;
-                                            ("players", Expression<MethodOrOperator> @:11152 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))
-                            (____, BuiltinInvocation<Boolean> @:11153 op:33,dt:5,nt:8,next:65535,str:10333,d0:11154,d1:36614;
-                                ("volume_test_objects", Expression<MethodOrOperator> @:11154 op:33,dt:2,nt:9,next:11155,str:13230,d0:0,d1:0;
-                                    ("tv_e21_cov_inf0_unsafe", Expression<Trigger> @:11155 op:13,dt:13,nt:9,next:11156,str:23365,d0:28,d1:0;
-                                        (____, BuiltinInvocation<List> @:11156 op:28,dt:31,nt:8,next:65535,str:10377,d0:11157,d1:36617;
-                                            ("players", Expression<MethodOrOperator> @:11157 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))))
-                    (15, Expression<Short> @:11158 op:7,dt:7,nt:9,next:65535,str:10400,d0:15,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:11159 op:290,dt:4,nt:8,next:65535,str:10409,d0:11160,d1:36620;
-                ("ai_place", Expression<MethodOrOperator> @:11160 op:290,dt:2,nt:9,next:11161,str:16628,d0:0,d1:0;
-                    ("e21_cov_creep0", Expression<AI> @:11161 op:19,dt:19,nt:9,next:65535,str:23388,d0:70,d1:0;))))))
+("e21_cov_creep0_main", MethodDecl<Void> @:315 check:0,op:0,dt:0,nt:65535,next:11162,nextCheck:36622,str:24474,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:11162 check:36622,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:10173,h:2,d0:11163,d1:36623;
+        ("begin", Expression<MethodOrOperator> @:11163 check:36623,op:0,dt:2,nt:9,next:11144,nextCheck:36604,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:11144 check:36604,op:21,dt:4,nt:8,next:11159,nextCheck:36619,str:10248,h:2,d0:11145,d1:36605;
+                ("sleep_until", Expression<MethodOrOperator> @:11145 check:36605,op:21,dt:2,nt:9,next:11146,nextCheck:36606,str:236,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:11146 check:36606,op:6,dt:5,nt:8,next:11158,nextCheck:36618,str:10265,h:2,d0:11147,d1:36607;
+                        ("or", Expression<MethodOrOperator> @:11147 check:36607,op:6,dt:2,nt:9,next:11148,nextCheck:36608,str:849,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Boolean> @:11148 check:36608,op:33,dt:5,nt:8,next:11153,nextCheck:36613,str:10273,h:2,d0:11149,d1:36609;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:11149 check:36609,op:33,dt:2,nt:9,next:11150,nextCheck:36610,str:13230,h:0,d0:0,d1:0;
+                                    ("tv_e21_cov_creep0_main", Expression<Trigger> @:11150 check:36610,op:13,dt:13,nt:9,next:11151,nextCheck:36611,str:23342,h:0,d0:62,d1:0;
+                                        (____, BuiltinInvocation<List> @:11151 check:36611,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:10317,h:2,d0:11152,d1:36612;
+                                            ("players", Expression<MethodOrOperator> @:11152 check:36612,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                            (____, BuiltinInvocation<Boolean> @:11153 check:36613,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:10333,h:2,d0:11154,d1:36614;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:11154 check:36614,op:33,dt:2,nt:9,next:11155,nextCheck:36615,str:13230,h:0,d0:0,d1:0;
+                                    ("tv_e21_cov_inf0_unsafe", Expression<Trigger> @:11155 check:36615,op:13,dt:13,nt:9,next:11156,nextCheck:36616,str:23365,h:0,d0:28,d1:0;
+                                        (____, BuiltinInvocation<List> @:11156 check:36616,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:10377,h:2,d0:11157,d1:36617;
+                                            ("players", Expression<MethodOrOperator> @:11157 check:36617,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))))
+                    (15, Expression<Short> @:11158 check:36618,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:10400,h:2,d0:15,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:11159 check:36619,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:10409,h:2,d0:11160,d1:36620;
+                ("ai_place", Expression<MethodOrOperator> @:11160 check:36620,op:290,dt:2,nt:9,next:11161,nextCheck:36621,str:16628,h:0,d0:0,d1:0;
+                    ("e21_cov_creep0", Expression<AI> @:11161 check:36621,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:23388,h:0,d0:70,d1:0;))))))

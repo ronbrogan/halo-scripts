@@ -1,15 +1,15 @@
 
-("c05_outro_caustic", MethodDecl<Void> @:98 op:0,dt:0,nt:65535,next:2895,str:8148,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2895 op:0,dt:4,nt:8,next:65535,str:35532,d0:2896,d1:61123;
-        ("begin", Expression<MethodOrOperator> @:2896 op:0,dt:2,nt:9,next:2884,str:142,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2884 op:676,dt:4,nt:8,next:2886,str:35568,d0:2885,d1:61112;
-                ("time_code_reset", Expression<MethodOrOperator> @:2885 op:676,dt:2,nt:9,next:65535,str:6601,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:2886 op:19,dt:4,nt:8,next:2889,str:35588,d0:2887,d1:61114;
-                ("sleep", Expression<MethodOrOperator> @:2887 op:19,dt:2,nt:9,next:2888,str:221,d0:0,d1:0;
-                    (127, Expression<Short> @:2888 op:7,dt:7,nt:9,next:65535,str:35595,d0:127,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2889 op:27,dt:4,nt:8,next:2892,str:35602,d0:2890,d1:61117;
-                ("print", Expression<MethodOrOperator> @:2890 op:27,dt:2,nt:9,next:2891,str:227,d0:0,d1:0;
-                    ("create caustic light", Expression<String> @:2891 op:9,dt:9,nt:9,next:65535,str:7996,d0:7996,d1:0;)))
-            (____, BuiltinInvocation<Void> @:2892 op:51,dt:4,nt:8,next:65535,str:35635,d0:2893,d1:61120;
-                ("object_create_anew_containing", Expression<MethodOrOperator> @:2893 op:51,dt:2,nt:9,next:2894,str:8017,d0:0,d1:0;
-                    ("caustic_light", Expression<String> @:2894 op:9,dt:9,nt:9,next:65535,str:8047,d0:8047,d1:0;))))))
+("c05_outro_caustic", MethodDecl<Void> @:98 check:0,op:0,dt:0,nt:65535,next:2895,nextCheck:61122,str:8148,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2895 check:61122,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:35532,h:0,d0:2896,d1:61123;
+        ("begin", Expression<MethodOrOperator> @:2896 check:61123,op:0,dt:2,nt:9,next:2884,nextCheck:61111,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2884 check:61111,op:676,dt:4,nt:8,next:2886,nextCheck:61113,str:35568,h:0,d0:2885,d1:61112;
+                ("time_code_reset", Expression<MethodOrOperator> @:2885 check:61112,op:676,dt:2,nt:9,next:65535,nextCheck:65535,str:6601,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:2886 check:61113,op:19,dt:4,nt:8,next:2889,nextCheck:61116,str:35588,h:0,d0:2887,d1:61114;
+                ("sleep", Expression<MethodOrOperator> @:2887 check:61114,op:19,dt:2,nt:9,next:2888,nextCheck:61115,str:221,h:0,d0:0,d1:0;
+                    (127, Expression<Short> @:2888 check:61115,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:35595,h:0,d0:127,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2889 check:61116,op:27,dt:4,nt:8,next:2892,nextCheck:61119,str:35602,h:0,d0:2890,d1:61117;
+                ("print", Expression<MethodOrOperator> @:2890 check:61117,op:27,dt:2,nt:9,next:2891,nextCheck:61118,str:227,h:0,d0:0,d1:0;
+                    ("create caustic light", Expression<String> @:2891 check:61118,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:7996,h:0,d0:7996,d1:0;)))
+            (____, BuiltinInvocation<Void> @:2892 check:61119,op:51,dt:4,nt:8,next:65535,nextCheck:65535,str:35635,h:0,d0:2893,d1:61120;
+                ("object_create_anew_containing", Expression<MethodOrOperator> @:2893 check:61120,op:51,dt:2,nt:9,next:2894,nextCheck:61121,str:8017,h:0,d0:0,d1:0;
+                    ("caustic_light", Expression<String> @:2894 check:61121,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8047,h:0,d0:8047,d1:0;))))))

@@ -1,11 +1,11 @@
 
-("e6_cov_inf0_main", MethodDecl<Void> @:160 op:0,dt:0,nt:65535,next:5910,str:11617,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5910 op:0,dt:4,nt:8,next:65535,str:7766,d0:5911,d1:64138;
-        ("begin", Expression<MethodOrOperator> @:5911 op:0,dt:2,nt:9,next:5903,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5903 op:309,dt:4,nt:8,next:5907,str:7801,d0:5904,d1:64131;
-                ("ai_migrate", Expression<MethodOrOperator> @:5904 op:309,dt:2,nt:9,next:5905,str:8110,d0:0,d1:0;
-                    ("e5_cov_inf0", Expression<AI> @:5905 op:19,dt:19,nt:9,next:5906,str:11483,d0:31,d1:0;
-                        ("e6_cov_inf0", Expression<AI> @:5906 op:19,dt:19,nt:9,next:65535,str:11333,d0:36,d1:0;))))
-            (____, BuiltinInvocation<Void> @:5907 op:316,dt:4,nt:8,next:65535,str:7840,d0:5908,d1:64135;
-                ("ai_teleport_to_starting_location_if_outside_bsp", Expression<MethodOrOperator> @:5908 op:316,dt:2,nt:9,next:5909,str:11405,d0:0,d1:0;
-                    ("e6_cov_inf0", Expression<AI> @:5909 op:19,dt:19,nt:9,next:65535,str:11333,d0:36,d1:0;))))))
+("e6_cov_inf0_main", MethodDecl<Void> @:160 check:0,op:0,dt:0,nt:65535,next:5910,nextCheck:64137,str:11617,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5910 check:64137,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:7766,h:1,d0:5911,d1:64138;
+        ("begin", Expression<MethodOrOperator> @:5911 check:64138,op:0,dt:2,nt:9,next:5903,nextCheck:64130,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5903 check:64130,op:309,dt:4,nt:8,next:5907,nextCheck:64134,str:7801,h:1,d0:5904,d1:64131;
+                ("ai_migrate", Expression<MethodOrOperator> @:5904 check:64131,op:309,dt:2,nt:9,next:5905,nextCheck:64132,str:8110,h:0,d0:0,d1:0;
+                    ("e5_cov_inf0", Expression<AI> @:5905 check:64132,op:19,dt:19,nt:9,next:5906,nextCheck:64133,str:11483,h:0,d0:31,d1:0;
+                        ("e6_cov_inf0", Expression<AI> @:5906 check:64133,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:11333,h:0,d0:36,d1:0;))))
+            (____, BuiltinInvocation<Void> @:5907 check:64134,op:316,dt:4,nt:8,next:65535,nextCheck:65535,str:7840,h:1,d0:5908,d1:64135;
+                ("ai_teleport_to_starting_location_if_outside_bsp", Expression<MethodOrOperator> @:5908 check:64135,op:316,dt:2,nt:9,next:5909,nextCheck:64136,str:11405,h:0,d0:0,d1:0;
+                    ("e6_cov_inf0", Expression<AI> @:5909 check:64136,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:11333,h:0,d0:36,d1:0;))))))

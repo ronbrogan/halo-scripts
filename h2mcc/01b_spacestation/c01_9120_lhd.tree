@@ -1,16 +1,16 @@
 
-("c01_9120_lhd", MethodDecl<Void> @:203 op:0,dt:0,nt:65535,next:7988,str:19583,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:7988 op:0,dt:4,nt:8,next:65535,str:31985,d0:7989,d1:33449;
-        ("begin", Expression<MethodOrOperator> @:7989 op:0,dt:2,nt:9,next:7976,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:7976 op:19,dt:4,nt:8,next:7979,str:32016,d0:7977,d1:33437;
-                ("sleep", Expression<MethodOrOperator> @:7977 op:19,dt:2,nt:9,next:7978,str:90,d0:0,d1:0;
-                    (290, Expression<Short> @:7978 op:7,dt:7,nt:9,next:65535,str:32023,d0:290,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:7979 op:596,dt:4,nt:8,next:7984,str:32030,d0:7980,d1:33440;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:7980 op:596,dt:2,nt:9,next:7981,str:1446,d0:0,d1:0;
-                    ("sound\dialog\levels\01_spacestation\cinematic\c01_9120_lhd", Expression<Sound> @:7981 op:32,dt:32,nt:9,next:7982,str:19524,d0:4597,d1:62485;
-                        (4294902069, Expression<Entity> @:7982 op:56,dt:50,nt:9,next:7983,str:19303,d0:309,d1:65535;
-                            (1f, Expression<Float> @:7983 op:6,dt:6,nt:9,next:65535,str:32115,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:7984 op:562,dt:4,nt:8,next:65535,str:32120,d0:7985,d1:33445;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:7985 op:562,dt:2,nt:9,next:7986,str:1689,d0:0,d1:0;
-                    ("c01_9120_lhd", Expression<StringId> @:7986 op:11,dt:11,nt:9,next:7987,str:19583,d0:9819,d1:3072;
-                        (2f, Expression<Float> @:7987 op:6,dt:6,nt:9,next:65535,str:32153,d0:0,d1:16384;)))))))
+("c01_9120_lhd", MethodDecl<Void> @:203 check:0,op:0,dt:0,nt:65535,next:7988,nextCheck:33448,str:19583,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:7988 check:33448,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:31985,h:1,d0:7989,d1:33449;
+        ("begin", Expression<MethodOrOperator> @:7989 check:33449,op:0,dt:2,nt:9,next:7976,nextCheck:33436,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:7976 check:33436,op:19,dt:4,nt:8,next:7979,nextCheck:33439,str:32016,h:1,d0:7977,d1:33437;
+                ("sleep", Expression<MethodOrOperator> @:7977 check:33437,op:19,dt:2,nt:9,next:7978,nextCheck:33438,str:90,h:0,d0:0,d1:0;
+                    (290, Expression<Short> @:7978 check:33438,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:32023,h:1,d0:290,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:7979 check:33439,op:596,dt:4,nt:8,next:7984,nextCheck:33444,str:32030,h:1,d0:7980,d1:33440;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:7980 check:33440,op:596,dt:2,nt:9,next:7981,nextCheck:33441,str:1446,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\01_spacestation\cinematic\c01_9120_lhd", Expression<Sound> @:7981 check:33441,op:32,dt:32,nt:9,next:7982,nextCheck:33442,str:19524,h:0,d0:4597,d1:62485;
+                        (4294902069, Expression<Entity> @:7982 check:33442,op:56,dt:50,nt:9,next:7983,nextCheck:33443,str:19303,h:0,d0:309,d1:65535;
+                            (1f, Expression<Float> @:7983 check:33443,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:32115,h:1,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:7984 check:33444,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:32120,h:1,d0:7985,d1:33445;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:7985 check:33445,op:562,dt:2,nt:9,next:7986,nextCheck:33446,str:1689,h:0,d0:0,d1:0;
+                    ("c01_9120_lhd", Expression<StringId> @:7986 check:33446,op:11,dt:11,nt:9,next:7987,nextCheck:33447,str:19583,h:0,d0:9819,d1:3072;
+                        (2f, Expression<Float> @:7987 check:33447,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:32153,h:1,d0:0,d1:16384;)))))))

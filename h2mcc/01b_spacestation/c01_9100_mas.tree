@@ -1,17 +1,17 @@
 
-("c01_9100_mas", MethodDecl<Void> @:201 op:0,dt:0,nt:65535,next:7952,str:19439,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:7952 op:0,dt:4,nt:8,next:65535,str:31605,d0:7953,d1:33413;
-        ("begin", Expression<MethodOrOperator> @:7953 op:0,dt:2,nt:9,next:7939,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:7939 op:19,dt:4,nt:8,next:7942,str:31636,d0:7940,d1:33400;
-                ("sleep", Expression<MethodOrOperator> @:7940 op:19,dt:2,nt:9,next:7941,str:90,d0:0,d1:0;
-                    (227, Expression<Short> @:7941 op:7,dt:7,nt:9,next:65535,str:31643,d0:227,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:7942 op:598,dt:4,nt:8,next:7948,str:31650,d0:7943,d1:33403;
-                ("sound_impulse_start_effect", Expression<MethodOrOperator> @:7943 op:598,dt:2,nt:9,next:7944,str:14867,d0:0,d1:0;
-                    ("sound\dialog\levels\01_spacestation\cinematic\c01_9100_mas", Expression<Sound> @:7944 op:32,dt:32,nt:9,next:7945,str:19380,d0:4595,d1:62483;
-                        (4294967295, Expression<Entity> @:7945 op:50,dt:50,nt:9,next:7946,str:1520,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:7946 op:6,dt:6,nt:9,next:7947,str:31742,d0:0,d1:16256;
-                                ("radio_default", Expression<StringId> @:7947 op:11,dt:11,nt:9,next:65535,str:14953,d0:14767,d1:3328;))))))
-            (____, BuiltinInvocation<Void> @:7948 op:562,dt:4,nt:8,next:65535,str:31761,d0:7949,d1:33409;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:7949 op:562,dt:2,nt:9,next:7950,str:1689,d0:0,d1:0;
-                    ("c01_9100_mas", Expression<StringId> @:7950 op:11,dt:11,nt:9,next:7951,str:19439,d0:9817,d1:3072;
-                        (1f, Expression<Float> @:7951 op:6,dt:6,nt:9,next:65535,str:31794,d0:0,d1:16256;)))))))
+("c01_9100_mas", MethodDecl<Void> @:201 check:0,op:0,dt:0,nt:65535,next:7952,nextCheck:33412,str:19439,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:7952 check:33412,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:31605,h:1,d0:7953,d1:33413;
+        ("begin", Expression<MethodOrOperator> @:7953 check:33413,op:0,dt:2,nt:9,next:7939,nextCheck:33399,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:7939 check:33399,op:19,dt:4,nt:8,next:7942,nextCheck:33402,str:31636,h:1,d0:7940,d1:33400;
+                ("sleep", Expression<MethodOrOperator> @:7940 check:33400,op:19,dt:2,nt:9,next:7941,nextCheck:33401,str:90,h:0,d0:0,d1:0;
+                    (227, Expression<Short> @:7941 check:33401,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:31643,h:1,d0:227,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:7942 check:33402,op:598,dt:4,nt:8,next:7948,nextCheck:33408,str:31650,h:1,d0:7943,d1:33403;
+                ("sound_impulse_start_effect", Expression<MethodOrOperator> @:7943 check:33403,op:598,dt:2,nt:9,next:7944,nextCheck:33404,str:14867,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\01_spacestation\cinematic\c01_9100_mas", Expression<Sound> @:7944 check:33404,op:32,dt:32,nt:9,next:7945,nextCheck:33405,str:19380,h:0,d0:4595,d1:62483;
+                        (4294967295, Expression<Entity> @:7945 check:33405,op:50,dt:50,nt:9,next:7946,nextCheck:33406,str:1520,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:7946 check:33406,op:6,dt:6,nt:9,next:7947,nextCheck:33407,str:31742,h:1,d0:0,d1:16256;
+                                ("radio_default", Expression<StringId> @:7947 check:33407,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:14953,h:0,d0:14767,d1:3328;))))))
+            (____, BuiltinInvocation<Void> @:7948 check:33408,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:31761,h:1,d0:7949,d1:33409;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:7949 check:33409,op:562,dt:2,nt:9,next:7950,nextCheck:33410,str:1689,h:0,d0:0,d1:0;
+                    ("c01_9100_mas", Expression<StringId> @:7950 check:33410,op:11,dt:11,nt:9,next:7951,nextCheck:33411,str:19439,h:0,d0:9817,d1:3072;
+                        (1f, Expression<Float> @:7951 check:33411,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:31794,h:1,d0:0,d1:16256;)))))))

@@ -1,10 +1,10 @@
 
-("cs_hall_b_wake_grunts", MethodDecl<Void> @:318 op:0,dt:0,nt:65535,next:14981,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:14981 op:0,dt:4,nt:8,next:65535,str:45578,d0:14982,d1:40442;
-        ("begin", Expression<MethodOrOperator> @:14982 op:0,dt:2,nt:9,next:14975,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:14975 op:2,dt:4,nt:8,next:65535,str:45625,d0:14976,d1:40436;
-                ("if", Expression<MethodOrOperator> @:14976 op:2,dt:2,nt:9,next:14977,str:456,d0:0,d1:0;
-                    ("g_corridor_a_active", VariableAccess<Boolean> @:14977 op:5,dt:5,nt:13,next:14978,str:32292,d0:59,d1:0;
-                        (____, BuiltinInvocation<Void> @:14978 op:448,dt:4,nt:8,next:65535,str:45649,d0:14979,d1:40439;
-                            ("cs_force_combat_status", Expression<MethodOrOperator> @:14979 op:448,dt:2,nt:9,next:14980,str:23559,d0:0,d1:0;
-                                ("ai_combat_status_alert", VariableAccess<Short> @:14980 op:7,dt:7,nt:13,next:65535,str:32694,d0:33573,d1:65535;)))))))))
+("cs_hall_b_wake_grunts", MethodDecl<Void> @:318 check:0,op:0,dt:0,nt:65535,next:14981,nextCheck:40441,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:14981 check:40441,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:45578,h:2,d0:14982,d1:40442;
+        ("begin", Expression<MethodOrOperator> @:14982 check:40442,op:0,dt:2,nt:9,next:14975,nextCheck:40435,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:14975 check:40435,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:45625,h:2,d0:14976,d1:40436;
+                ("if", Expression<MethodOrOperator> @:14976 check:40436,op:2,dt:2,nt:9,next:14977,nextCheck:40437,str:456,h:0,d0:0,d1:0;
+                    ("g_corridor_a_active", VariableAccess<Boolean> @:14977 check:40437,op:5,dt:5,nt:13,next:14978,nextCheck:40438,str:32292,h:0,d0:59,d1:0;
+                        (____, BuiltinInvocation<Void> @:14978 check:40438,op:448,dt:4,nt:8,next:65535,nextCheck:65535,str:45649,h:2,d0:14979,d1:40439;
+                            ("cs_force_combat_status", Expression<MethodOrOperator> @:14979 check:40439,op:448,dt:2,nt:9,next:14980,nextCheck:40440,str:23559,h:0,d0:0,d1:0;
+                                ("ai_combat_status_alert", VariableAccess<Short> @:14980 check:40440,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:32694,h:0,d0:33573,d1:65535;)))))))))

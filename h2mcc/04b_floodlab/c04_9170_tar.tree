@@ -1,22 +1,22 @@
 
-("c04_9170_tar", MethodDecl<Void> @:108 op:0,dt:0,nt:65535,next:3447,str:9234,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3447 op:0,dt:4,nt:8,next:65535,str:41011,d0:3448,d1:61675;
-        ("begin", Expression<MethodOrOperator> @:3448 op:0,dt:2,nt:9,next:3429,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3429 op:19,dt:4,nt:8,next:3432,str:41042,d0:3430,d1:61657;
-                ("sleep", Expression<MethodOrOperator> @:3430 op:19,dt:2,nt:9,next:3431,str:289,d0:0,d1:0;
-                    (300, Expression<Short> @:3431 op:7,dt:7,nt:9,next:65535,str:41049,d0:300,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3432 op:596,dt:4,nt:8,next:3437,str:41056,d0:3433,d1:61660;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:3433 op:596,dt:2,nt:9,next:3434,str:1435,d0:0,d1:0;
-                    ("sound\dialog\levels\04_gasgiant\cinematic\c04_9170_tar", Expression<Sound> @:3434 op:32,dt:32,nt:9,next:3435,str:9179,d0:1383,d1:59101;
-                        (4294902035, Expression<Entity> @:3435 op:56,dt:50,nt:9,next:3436,str:9093,d0:275,d1:65535;
-                            (1f, Expression<Float> @:3436 op:6,dt:6,nt:9,next:65535,str:41141,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:3437 op:562,dt:4,nt:8,next:3441,str:41146,d0:3438,d1:61665;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:3438 op:562,dt:2,nt:9,next:3439,str:1705,d0:0,d1:0;
-                    ("c04_9170_tar", Expression<StringId> @:3439 op:11,dt:11,nt:9,next:3440,str:9234,d0:4587,d1:3072;
-                        (2f, Expression<Float> @:3440 op:6,dt:6,nt:9,next:65535,str:41179,d0:0,d1:16384;))))
-            (____, BuiltinInvocation<Void> @:3441 op:220,dt:4,nt:8,next:65535,str:41187,d0:3442,d1:61669;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:3442 op:220,dt:2,nt:9,next:3443,str:8211,d0:0,d1:0;
-                    ("tartarus", Expression<Unit> @:3443 op:57,dt:51,nt:9,next:3444,str:9093,d0:275,d1:65535;
-                        ("annoyed", Expression<StringId> @:3444 op:11,dt:11,nt:9,next:3445,str:9247,d0:429,d1:1792;
-                            (1f, Expression<Float> @:3445 op:6,dt:6,nt:9,next:3446,str:41230,d0:0,d1:16256;
-                                (60, Expression<Short> @:3446 op:7,dt:7,nt:9,next:65535,str:41232,d0:60,d1:65535;)))))))))
+("c04_9170_tar", MethodDecl<Void> @:108 check:0,op:0,dt:0,nt:65535,next:3447,nextCheck:61674,str:9234,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3447 check:61674,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:41011,h:0,d0:3448,d1:61675;
+        ("begin", Expression<MethodOrOperator> @:3448 check:61675,op:0,dt:2,nt:9,next:3429,nextCheck:61656,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3429 check:61656,op:19,dt:4,nt:8,next:3432,nextCheck:61659,str:41042,h:0,d0:3430,d1:61657;
+                ("sleep", Expression<MethodOrOperator> @:3430 check:61657,op:19,dt:2,nt:9,next:3431,nextCheck:61658,str:289,h:0,d0:0,d1:0;
+                    (300, Expression<Short> @:3431 check:61658,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:41049,h:0,d0:300,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3432 check:61659,op:596,dt:4,nt:8,next:3437,nextCheck:61664,str:41056,h:0,d0:3433,d1:61660;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:3433 check:61660,op:596,dt:2,nt:9,next:3434,nextCheck:61661,str:1435,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\04_gasgiant\cinematic\c04_9170_tar", Expression<Sound> @:3434 check:61661,op:32,dt:32,nt:9,next:3435,nextCheck:61662,str:9179,h:0,d0:1383,d1:59101;
+                        (4294902035, Expression<Entity> @:3435 check:61662,op:56,dt:50,nt:9,next:3436,nextCheck:61663,str:9093,h:0,d0:275,d1:65535;
+                            (1f, Expression<Float> @:3436 check:61663,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:41141,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:3437 check:61664,op:562,dt:4,nt:8,next:3441,nextCheck:61668,str:41146,h:0,d0:3438,d1:61665;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:3438 check:61665,op:562,dt:2,nt:9,next:3439,nextCheck:61666,str:1705,h:0,d0:0,d1:0;
+                    ("c04_9170_tar", Expression<StringId> @:3439 check:61666,op:11,dt:11,nt:9,next:3440,nextCheck:61667,str:9234,h:0,d0:4587,d1:3072;
+                        (2f, Expression<Float> @:3440 check:61667,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:41179,h:0,d0:0,d1:16384;))))
+            (____, BuiltinInvocation<Void> @:3441 check:61668,op:220,dt:4,nt:8,next:65535,nextCheck:65535,str:41187,h:0,d0:3442,d1:61669;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:3442 check:61669,op:220,dt:2,nt:9,next:3443,nextCheck:61670,str:8211,h:0,d0:0,d1:0;
+                    ("tartarus", Expression<Unit> @:3443 check:61670,op:57,dt:51,nt:9,next:3444,nextCheck:61671,str:9093,h:0,d0:275,d1:65535;
+                        ("annoyed", Expression<StringId> @:3444 check:61671,op:11,dt:11,nt:9,next:3445,nextCheck:61672,str:9247,h:0,d0:429,d1:1792;
+                            (1f, Expression<Float> @:3445 check:61672,op:6,dt:6,nt:9,next:3446,nextCheck:61673,str:41230,h:0,d0:0,d1:16256;
+                                (60, Expression<Short> @:3446 check:61673,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:41232,h:0,d0:60,d1:65535;)))))))))

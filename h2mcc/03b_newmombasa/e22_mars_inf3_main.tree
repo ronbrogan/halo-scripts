@@ -1,12 +1,12 @@
 
-("e22_mars_inf3_main", MethodDecl<Void> @:296 op:0,dt:0,nt:65535,next:10441,str:22251,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:10441 op:0,dt:4,nt:8,next:65535,str:64908,d0:10442,d1:35902;
-        ("begin", Expression<MethodOrOperator> @:10442 op:0,dt:2,nt:9,next:10433,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:10433 op:21,dt:4,nt:8,next:65535,str:64945,d0:10434,d1:35894;
-                ("sleep_until", Expression<MethodOrOperator> @:10434 op:21,dt:2,nt:9,next:10435,str:236,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:10435 op:33,dt:5,nt:8,next:10440,str:64958,d0:10436,d1:35896;
-                        ("volume_test_objects", Expression<MethodOrOperator> @:10436 op:33,dt:2,nt:9,next:10437,str:13230,d0:0,d1:0;
-                            ("tv_e22_mars_inf3_begin", Expression<Trigger> @:10437 op:13,dt:13,nt:9,next:10438,str:21453,d0:36,d1:0;
-                                (____, BuiltinInvocation<List> @:10438 op:28,dt:31,nt:8,next:65535,str:65002,d0:10439,d1:35899;
-                                    ("players", Expression<MethodOrOperator> @:10439 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))
-                    (10, Expression<Short> @:10440 op:7,dt:7,nt:9,next:65535,str:65013,d0:10,d1:65535;))))))
+("e22_mars_inf3_main", MethodDecl<Void> @:296 check:0,op:0,dt:0,nt:65535,next:10441,nextCheck:35901,str:22251,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:10441 check:35901,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:64908,h:1,d0:10442,d1:35902;
+        ("begin", Expression<MethodOrOperator> @:10442 check:35902,op:0,dt:2,nt:9,next:10433,nextCheck:35893,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:10433 check:35893,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:64945,h:1,d0:10434,d1:35894;
+                ("sleep_until", Expression<MethodOrOperator> @:10434 check:35894,op:21,dt:2,nt:9,next:10435,nextCheck:35895,str:236,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:10435 check:35895,op:33,dt:5,nt:8,next:10440,nextCheck:35900,str:64958,h:1,d0:10436,d1:35896;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:10436 check:35896,op:33,dt:2,nt:9,next:10437,nextCheck:35897,str:13230,h:0,d0:0,d1:0;
+                            ("tv_e22_mars_inf3_begin", Expression<Trigger> @:10437 check:35897,op:13,dt:13,nt:9,next:10438,nextCheck:35898,str:21453,h:0,d0:36,d1:0;
+                                (____, BuiltinInvocation<List> @:10438 check:35898,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:65002,h:1,d0:10439,d1:35899;
+                                    ("players", Expression<MethodOrOperator> @:10439 check:35899,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                    (10, Expression<Short> @:10440 check:35900,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:65013,h:1,d0:10,d1:65535;))))))

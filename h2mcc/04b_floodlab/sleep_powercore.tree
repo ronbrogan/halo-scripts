@@ -1,7 +1,7 @@
 
-("sleep_powercore", MethodDecl<Void> @:373 op:0,dt:0,nt:65535,next:31489,str:39585,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:31489 op:0,dt:4,nt:8,next:65535,str:39788,d0:31490,d1:56950;
-        ("begin", Expression<MethodOrOperator> @:31490 op:0,dt:2,nt:9,next:31486,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:31486 op:20,dt:4,nt:8,next:65535,str:39826,d0:31487,d1:56947;
-                ("sleep_forever", Expression<MethodOrOperator> @:31487 op:20,dt:2,nt:9,next:31488,str:9739,d0:0,d1:0;
-                    ("power_core_start", Expression<ScriptReference> @:31488 op:10,dt:10,nt:9,next:65535,str:39058,d0:282,d1:65535;))))))
+("sleep_powercore", MethodDecl<Void> @:373 check:0,op:0,dt:0,nt:65535,next:31489,nextCheck:56949,str:39585,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:31489 check:56949,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:39788,h:4,d0:31490,d1:56950;
+        ("begin", Expression<MethodOrOperator> @:31490 check:56950,op:0,dt:2,nt:9,next:31486,nextCheck:56946,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:31486 check:56946,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:39826,h:4,d0:31487,d1:56947;
+                ("sleep_forever", Expression<MethodOrOperator> @:31487 check:56947,op:20,dt:2,nt:9,next:31488,nextCheck:56948,str:9739,h:0,d0:0,d1:0;
+                    ("power_core_start", Expression<ScriptReference> @:31488 check:56948,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:39058,h:0,d0:282,d1:65535;))))))

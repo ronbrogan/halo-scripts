@@ -1,11 +1,11 @@
 
-("cs_atr1_turret_fbalcony", MethodDecl<Void> @:348 op:0,dt:0,nt:65535,next:16247,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:16247 op:0,dt:4,nt:8,next:65535,str:731,d0:16248,d1:41708;
-        ("begin", Expression<MethodOrOperator> @:16248 op:0,dt:2,nt:9,next:16240,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:16240 op:429,dt:4,nt:8,next:16243,str:780,d0:16241,d1:41701;
-                ("cs_deploy_turret", Expression<MethodOrOperator> @:16241 op:429,dt:2,nt:9,next:16242,str:32141,d0:0,d1:0;
-                    ("atr1_turrets/fbalcony", Expression<SpatialPoint> @:16242 op:28,dt:28,nt:9,next:65535,str:37613,d0:1,d1:7;)))
-            (____, BuiltinInvocation<Void> @:16243 op:42,dt:4,nt:8,next:65535,str:823,d0:16244,d1:41704;
-                ("damage_new", Expression<MethodOrOperator> @:16244 op:42,dt:2,nt:9,next:16245,str:33126,d0:0,d1:0;
-                    ("effects\damage_effects\glass_breaker", Expression<DamageEffect> @:16245 op:34,dt:34,nt:9,next:16246,str:37635,d0:4840,d1:62728;
-                        ("fbalcony_flag", Expression<LocationFlag> @:16246 op:14,dt:14,nt:9,next:65535,str:37672,d0:24,d1:0;)))))))
+("cs_atr1_turret_fbalcony", MethodDecl<Void> @:348 check:0,op:0,dt:0,nt:65535,next:16247,nextCheck:41707,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:16247 check:41707,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:731,h:3,d0:16248,d1:41708;
+        ("begin", Expression<MethodOrOperator> @:16248 check:41708,op:0,dt:2,nt:9,next:16240,nextCheck:41700,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:16240 check:41700,op:429,dt:4,nt:8,next:16243,nextCheck:41703,str:780,h:3,d0:16241,d1:41701;
+                ("cs_deploy_turret", Expression<MethodOrOperator> @:16241 check:41701,op:429,dt:2,nt:9,next:16242,nextCheck:41702,str:32141,h:0,d0:0,d1:0;
+                    ("atr1_turrets/fbalcony", Expression<SpatialPoint> @:16242 check:41702,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:37613,h:0,d0:1,d1:7;)))
+            (____, BuiltinInvocation<Void> @:16243 check:41703,op:42,dt:4,nt:8,next:65535,nextCheck:65535,str:823,h:3,d0:16244,d1:41704;
+                ("damage_new", Expression<MethodOrOperator> @:16244 check:41704,op:42,dt:2,nt:9,next:16245,nextCheck:41705,str:33126,h:0,d0:0,d1:0;
+                    ("effects\damage_effects\glass_breaker", Expression<DamageEffect> @:16245 check:41705,op:34,dt:34,nt:9,next:16246,nextCheck:41706,str:37635,h:0,d0:4840,d1:62728;
+                        ("fbalcony_flag", Expression<LocationFlag> @:16246 check:41706,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:37672,h:0,d0:24,d1:0;)))))))

@@ -1,24 +1,24 @@
 
-("x01_08_fov", MethodDecl<Void> @:117 op:0,dt:0,nt:65535,next:6591,str:11244,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6591 op:0,dt:4,nt:8,next:65535,str:26677,d0:6592,d1:64819;
-        ("begin", Expression<MethodOrOperator> @:6592 op:0,dt:2,nt:9,next:6571,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6571 op:19,dt:4,nt:8,next:6574,str:26708,d0:6572,d1:64799;
-                ("sleep", Expression<MethodOrOperator> @:6572 op:19,dt:2,nt:9,next:6573,str:80,d0:0,d1:0;
-                    (689, Expression<Short> @:6573 op:7,dt:7,nt:9,next:65535,str:26715,d0:689,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6574 op:459,dt:4,nt:8,next:6578,str:26722,d0:6575,d1:64802;
-                ("camera_set_field_of_view", Expression<MethodOrOperator> @:6575 op:459,dt:2,nt:9,next:6576,str:4791,d0:0,d1:0;
-                    (38f, Expression<Float> @:6576 op:6,dt:6,nt:9,next:6577,str:26748,d0:0,d1:16920;
-                        (0, Expression<Short> @:6577 op:7,dt:7,nt:9,next:65535,str:26751,d0:0,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:6578 op:27,dt:4,nt:8,next:6581,str:26756,d0:6579,d1:64806;
-                ("print", Expression<MethodOrOperator> @:6579 op:27,dt:2,nt:9,next:6580,str:86,d0:0,d1:0;
-                    ("fov change: 60 -> 38 over 0 ticks", Expression<String> @:6580 op:9,dt:9,nt:9,next:65535,str:11132,d0:11132,d1:0;)))
-            (____, BuiltinInvocation<Void> @:6581 op:19,dt:4,nt:8,next:6584,str:26805,d0:6582,d1:64809;
-                ("sleep", Expression<MethodOrOperator> @:6582 op:19,dt:2,nt:9,next:6583,str:80,d0:0,d1:0;
-                    (111, Expression<Short> @:6583 op:7,dt:7,nt:9,next:65535,str:26812,d0:111,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6584 op:459,dt:4,nt:8,next:6588,str:26819,d0:6585,d1:64812;
-                ("camera_set_field_of_view", Expression<MethodOrOperator> @:6585 op:459,dt:2,nt:9,next:6586,str:4791,d0:0,d1:0;
-                    (60f, Expression<Float> @:6586 op:6,dt:6,nt:9,next:6587,str:26845,d0:0,d1:17008;
-                        (0, Expression<Short> @:6587 op:7,dt:7,nt:9,next:65535,str:26848,d0:0,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:6588 op:27,dt:4,nt:8,next:65535,str:26853,d0:6589,d1:64816;
-                ("print", Expression<MethodOrOperator> @:6589 op:27,dt:2,nt:9,next:6590,str:86,d0:0,d1:0;
-                    ("fov change: 38 -> 60 over 0 ticks", Expression<String> @:6590 op:9,dt:9,nt:9,next:65535,str:11166,d0:11166,d1:0;))))))
+("x01_08_fov", MethodDecl<Void> @:117 check:0,op:0,dt:0,nt:65535,next:6591,nextCheck:64818,str:11244,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6591 check:64818,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:26677,h:1,d0:6592,d1:64819;
+        ("begin", Expression<MethodOrOperator> @:6592 check:64819,op:0,dt:2,nt:9,next:6571,nextCheck:64798,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6571 check:64798,op:19,dt:4,nt:8,next:6574,nextCheck:64801,str:26708,h:1,d0:6572,d1:64799;
+                ("sleep", Expression<MethodOrOperator> @:6572 check:64799,op:19,dt:2,nt:9,next:6573,nextCheck:64800,str:80,h:0,d0:0,d1:0;
+                    (689, Expression<Short> @:6573 check:64800,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:26715,h:1,d0:689,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6574 check:64801,op:459,dt:4,nt:8,next:6578,nextCheck:64805,str:26722,h:1,d0:6575,d1:64802;
+                ("camera_set_field_of_view", Expression<MethodOrOperator> @:6575 check:64802,op:459,dt:2,nt:9,next:6576,nextCheck:64803,str:4791,h:0,d0:0,d1:0;
+                    (38f, Expression<Float> @:6576 check:64803,op:6,dt:6,nt:9,next:6577,nextCheck:64804,str:26748,h:1,d0:0,d1:16920;
+                        (0, Expression<Short> @:6577 check:64804,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:26751,h:1,d0:0,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:6578 check:64805,op:27,dt:4,nt:8,next:6581,nextCheck:64808,str:26756,h:1,d0:6579,d1:64806;
+                ("print", Expression<MethodOrOperator> @:6579 check:64806,op:27,dt:2,nt:9,next:6580,nextCheck:64807,str:86,h:0,d0:0,d1:0;
+                    ("fov change: 60 -> 38 over 0 ticks", Expression<String> @:6580 check:64807,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:11132,h:0,d0:11132,d1:0;)))
+            (____, BuiltinInvocation<Void> @:6581 check:64808,op:19,dt:4,nt:8,next:6584,nextCheck:64811,str:26805,h:1,d0:6582,d1:64809;
+                ("sleep", Expression<MethodOrOperator> @:6582 check:64809,op:19,dt:2,nt:9,next:6583,nextCheck:64810,str:80,h:0,d0:0,d1:0;
+                    (111, Expression<Short> @:6583 check:64810,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:26812,h:1,d0:111,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6584 check:64811,op:459,dt:4,nt:8,next:6588,nextCheck:64815,str:26819,h:1,d0:6585,d1:64812;
+                ("camera_set_field_of_view", Expression<MethodOrOperator> @:6585 check:64812,op:459,dt:2,nt:9,next:6586,nextCheck:64813,str:4791,h:0,d0:0,d1:0;
+                    (60f, Expression<Float> @:6586 check:64813,op:6,dt:6,nt:9,next:6587,nextCheck:64814,str:26845,h:1,d0:0,d1:17008;
+                        (0, Expression<Short> @:6587 check:64814,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:26848,h:1,d0:0,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:6588 check:64815,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:26853,h:1,d0:6589,d1:64816;
+                ("print", Expression<MethodOrOperator> @:6589 check:64816,op:27,dt:2,nt:9,next:6590,nextCheck:64817,str:86,h:0,d0:0,d1:0;
+                    ("fov change: 38 -> 60 over 0 ticks", Expression<String> @:6590 check:64817,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:11166,h:0,d0:11166,d1:0;))))))

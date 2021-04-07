@@ -1,10 +1,10 @@
 
-("sleep_first_halls", MethodDecl<Void> @:394 op:0,dt:0,nt:65535,next:24283,str:36166,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:24283 op:0,dt:4,nt:8,next:65535,str:822,d0:24284,d1:49744;
-        ("begin", Expression<MethodOrOperator> @:24284 op:0,dt:2,nt:9,next:24277,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:24277 op:20,dt:4,nt:8,next:24280,str:862,d0:24278,d1:49738;
-                ("sleep_forever", Expression<MethodOrOperator> @:24278 op:20,dt:2,nt:9,next:24279,str:15175,d0:0,d1:0;
-                    ("to_underhangar_firsttime", Expression<ScriptReference> @:24279 op:10,dt:10,nt:9,next:65535,str:35647,d0:315,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:24280 op:20,dt:4,nt:8,next:65535,str:905,d0:24281,d1:49741;
-                ("sleep_forever", Expression<MethodOrOperator> @:24281 op:20,dt:2,nt:9,next:24282,str:15175,d0:0,d1:0;
-                    ("first_hall_reinforce", Expression<ScriptReference> @:24282 op:10,dt:10,nt:9,next:65535,str:26796,d0:314,d1:65535;))))))
+("sleep_first_halls", MethodDecl<Void> @:394 check:0,op:0,dt:0,nt:65535,next:24283,nextCheck:49743,str:36166,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:24283 check:49743,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:822,h:4,d0:24284,d1:49744;
+        ("begin", Expression<MethodOrOperator> @:24284 check:49744,op:0,dt:2,nt:9,next:24277,nextCheck:49737,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:24277 check:49737,op:20,dt:4,nt:8,next:24280,nextCheck:49740,str:862,h:4,d0:24278,d1:49738;
+                ("sleep_forever", Expression<MethodOrOperator> @:24278 check:49738,op:20,dt:2,nt:9,next:24279,nextCheck:49739,str:15175,h:0,d0:0,d1:0;
+                    ("to_underhangar_firsttime", Expression<ScriptReference> @:24279 check:49739,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:35647,h:0,d0:315,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:24280 check:49740,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:905,h:4,d0:24281,d1:49741;
+                ("sleep_forever", Expression<MethodOrOperator> @:24281 check:49741,op:20,dt:2,nt:9,next:24282,nextCheck:49742,str:15175,h:0,d0:0,d1:0;
+                    ("first_hall_reinforce", Expression<ScriptReference> @:24282 check:49742,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:26796,h:0,d0:314,d1:65535;))))))

@@ -1,11 +1,11 @@
 
-("sc_qz_initial", MethodDecl<Void> @:175 op:0,dt:0,nt:65535,next:6042,str:26649,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6042 op:0,dt:4,nt:8,next:65535,str:2649,d0:6043,d1:64270;
-        ("begin", Expression<MethodOrOperator> @:6043 op:0,dt:2,nt:9,next:6035,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6035 op:21,dt:4,nt:8,next:65535,str:2681,d0:6036,d1:64263;
-                ("sleep_until", Expression<MethodOrOperator> @:6036 op:21,dt:2,nt:9,next:6037,str:231,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:6037 op:363,dt:5,nt:8,next:65535,str:2694,d0:6038,d1:64265;
-                        ("ai_scene", Expression<MethodOrOperator> @:6038 op:363,dt:2,nt:9,next:6039,str:12921,d0:0,d1:0;
-                            ("sc_qz_ini", Expression<StringId> @:6039 op:11,dt:11,nt:9,next:6040,str:14765,d0:13902,d1:2304;
-                                ("cs_sc_qz_ini", Expression<AIScript> @:6040 op:21,dt:21,nt:9,next:6041,str:14775,d0:174,d1:0;
-                                    ("qz_ini_ins_pods", Expression<AI> @:6041 op:19,dt:19,nt:9,next:65535,str:14555,d0:89,d1:0;))))))))))
+("sc_qz_initial", MethodDecl<Void> @:175 check:0,op:0,dt:0,nt:65535,next:6042,nextCheck:64269,str:26649,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6042 check:64269,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:2649,h:1,d0:6043,d1:64270;
+        ("begin", Expression<MethodOrOperator> @:6043 check:64270,op:0,dt:2,nt:9,next:6035,nextCheck:64262,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6035 check:64262,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:2681,h:1,d0:6036,d1:64263;
+                ("sleep_until", Expression<MethodOrOperator> @:6036 check:64263,op:21,dt:2,nt:9,next:6037,nextCheck:64264,str:231,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:6037 check:64264,op:363,dt:5,nt:8,next:65535,nextCheck:65535,str:2694,h:1,d0:6038,d1:64265;
+                        ("ai_scene", Expression<MethodOrOperator> @:6038 check:64265,op:363,dt:2,nt:9,next:6039,nextCheck:64266,str:12921,h:0,d0:0,d1:0;
+                            ("sc_qz_ini", Expression<StringId> @:6039 check:64266,op:11,dt:11,nt:9,next:6040,nextCheck:64267,str:14765,h:0,d0:13902,d1:2304;
+                                ("cs_sc_qz_ini", Expression<AIScript> @:6040 check:64267,op:21,dt:21,nt:9,next:6041,nextCheck:64268,str:14775,h:0,d0:174,d1:0;
+                                    ("qz_ini_ins_pods", Expression<AI> @:6041 check:64268,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:14555,h:0,d0:89,d1:0;))))))))))

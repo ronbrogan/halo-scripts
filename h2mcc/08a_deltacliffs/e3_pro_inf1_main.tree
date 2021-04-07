@@ -1,23 +1,23 @@
 
-("e3_pro_inf1_main", MethodDecl<Void> @:184 op:0,dt:0,nt:65535,next:6807,str:13230,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6807 op:0,dt:4,nt:8,next:65535,str:20633,d0:6808,d1:65035;
-        ("begin", Expression<MethodOrOperator> @:6808 op:0,dt:2,nt:9,next:6788,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6788 op:21,dt:4,nt:8,next:6804,str:20703,d0:6789,d1:65016;
-                ("sleep_until", Expression<MethodOrOperator> @:6789 op:21,dt:2,nt:9,next:6790,str:294,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:6790 op:5,dt:5,nt:8,next:6803,str:20720,d0:6791,d1:65018;
-                        ("and", Expression<MethodOrOperator> @:6791 op:5,dt:2,nt:9,next:6792,str:730,d0:0,d1:0;
-                            (____, BuiltinInvocation<Boolean> @:6792 op:15,dt:5,nt:8,next:6798,str:20729,d0:6793,d1:65020;
-                                (">", Expression<MethodOrOperator> @:6793 op:15,dt:2,nt:9,next:6794,str:6188,d0:0,d1:0;
-                                    (-4.2220216E+37f, BuiltinInvocation<Float> @:6794 op:257,dt:6,nt:8,next:6797,str:20732,d0:6795,d1:65022;
-                                        ("device_get_position", Expression<MethodOrOperator> @:6795 op:257,dt:2,nt:9,next:6796,str:7036,d0:0,d1:0;
-                                            ("e3_exit_door", Expression<Device> @:6796 op:60,dt:54,nt:9,next:65535,str:12851,d0:45,d1:65535;)))
-                                    (0f, Expression<Float> @:6797 op:6,dt:6,nt:9,next:65535,str:20767,d0:0,d1:0;)))
-                            (____, BuiltinInvocation<Boolean> @:6798 op:33,dt:5,nt:8,next:65535,str:20774,d0:6799,d1:65026;
-                                ("volume_test_objects", Expression<MethodOrOperator> @:6799 op:33,dt:2,nt:9,next:6800,str:7259,d0:0,d1:0;
-                                    ("tv_e3_near_exit", Expression<Trigger> @:6800 op:13,dt:13,nt:9,next:6801,str:12864,d0:63,d1:0;
-                                        (____, BuiltinInvocation<List> @:6801 op:28,dt:31,nt:8,next:65535,str:20811,d0:6802,d1:65029;
-                                            ("players", Expression<MethodOrOperator> @:6802 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;)))))))
-                    (15, Expression<Short> @:6803 op:7,dt:7,nt:9,next:65535,str:20831,d0:15,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6804 op:290,dt:4,nt:8,next:65535,str:20840,d0:6805,d1:65032;
-                ("ai_place", Expression<MethodOrOperator> @:6805 op:290,dt:2,nt:9,next:6806,str:6964,d0:0,d1:0;
-                    ("e3_pro_inf1", Expression<AI> @:6806 op:19,dt:19,nt:9,next:65535,str:12880,d0:23,d1:0;))))))
+("e3_pro_inf1_main", MethodDecl<Void> @:184 check:0,op:0,dt:0,nt:65535,next:6807,nextCheck:65034,str:13230,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6807 check:65034,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:20633,h:1,d0:6808,d1:65035;
+        ("begin", Expression<MethodOrOperator> @:6808 check:65035,op:0,dt:2,nt:9,next:6788,nextCheck:65015,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6788 check:65015,op:21,dt:4,nt:8,next:6804,nextCheck:65031,str:20703,h:1,d0:6789,d1:65016;
+                ("sleep_until", Expression<MethodOrOperator> @:6789 check:65016,op:21,dt:2,nt:9,next:6790,nextCheck:65017,str:294,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:6790 check:65017,op:5,dt:5,nt:8,next:6803,nextCheck:65030,str:20720,h:1,d0:6791,d1:65018;
+                        ("and", Expression<MethodOrOperator> @:6791 check:65018,op:5,dt:2,nt:9,next:6792,nextCheck:65019,str:730,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Boolean> @:6792 check:65019,op:15,dt:5,nt:8,next:6798,nextCheck:65025,str:20729,h:1,d0:6793,d1:65020;
+                                (">", Expression<MethodOrOperator> @:6793 check:65020,op:15,dt:2,nt:9,next:6794,nextCheck:65021,str:6188,h:0,d0:0,d1:0;
+                                    (-4.2220216E+37f, BuiltinInvocation<Float> @:6794 check:65021,op:257,dt:6,nt:8,next:6797,nextCheck:65024,str:20732,h:1,d0:6795,d1:65022;
+                                        ("device_get_position", Expression<MethodOrOperator> @:6795 check:65022,op:257,dt:2,nt:9,next:6796,nextCheck:65023,str:7036,h:0,d0:0,d1:0;
+                                            ("e3_exit_door", Expression<Device> @:6796 check:65023,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:12851,h:0,d0:45,d1:65535;)))
+                                    (0f, Expression<Float> @:6797 check:65024,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:20767,h:1,d0:0,d1:0;)))
+                            (____, BuiltinInvocation<Boolean> @:6798 check:65025,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:20774,h:1,d0:6799,d1:65026;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:6799 check:65026,op:33,dt:2,nt:9,next:6800,nextCheck:65027,str:7259,h:0,d0:0,d1:0;
+                                    ("tv_e3_near_exit", Expression<Trigger> @:6800 check:65027,op:13,dt:13,nt:9,next:6801,nextCheck:65028,str:12864,h:0,d0:63,d1:0;
+                                        (____, BuiltinInvocation<List> @:6801 check:65028,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:20811,h:1,d0:6802,d1:65029;
+                                            ("players", Expression<MethodOrOperator> @:6802 check:65029,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:84,h:0,d0:0,d1:0;)))))))
+                    (15, Expression<Short> @:6803 check:65030,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:20831,h:1,d0:15,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6804 check:65031,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:20840,h:1,d0:6805,d1:65032;
+                ("ai_place", Expression<MethodOrOperator> @:6805 check:65032,op:290,dt:2,nt:9,next:6806,nextCheck:65033,str:6964,h:0,d0:0,d1:0;
+                    ("e3_pro_inf1", Expression<AI> @:6806 check:65033,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:12880,h:0,d0:23,d1:0;))))))

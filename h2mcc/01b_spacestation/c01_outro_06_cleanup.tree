@@ -1,13 +1,13 @@
 
-("c01_outro_06_cleanup", MethodDecl<Void> @:254 op:0,dt:0,nt:65535,next:9731,str:23432,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:9731 op:0,dt:4,nt:8,next:65535,str:52518,d0:9732,d1:35192;
-        ("begin", Expression<MethodOrOperator> @:9732 op:0,dt:2,nt:9,next:9722,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:9722 op:52,dt:4,nt:8,next:9725,str:52564,d0:9723,d1:35183;
-                ("object_destroy", Expression<MethodOrOperator> @:9723 op:52,dt:2,nt:9,next:9724,str:2937,d0:0,d1:0;
-                    (4294902047, Expression<Entity> @:9724 op:56,dt:50,nt:9,next:65535,str:21783,d0:287,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:9725 op:52,dt:4,nt:8,next:9728,str:52595,d0:9726,d1:35186;
-                ("object_destroy", Expression<MethodOrOperator> @:9726 op:52,dt:2,nt:9,next:9727,str:2937,d0:0,d1:0;
-                    (4294901760, Expression<Entity> @:9727 op:56,dt:50,nt:9,next:65535,str:18314,d0:0,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:9728 op:53,dt:4,nt:8,next:65535,str:52621,d0:9729,d1:35189;
-                ("object_destroy_containing", Expression<MethodOrOperator> @:9729 op:53,dt:2,nt:9,next:9730,str:3265,d0:0,d1:0;
-                    ("airlock_debris", Expression<String> @:9730 op:9,dt:9,nt:9,next:65535,str:23295,d0:23295,d1:0;))))))
+("c01_outro_06_cleanup", MethodDecl<Void> @:254 check:0,op:0,dt:0,nt:65535,next:9731,nextCheck:35191,str:23432,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:9731 check:35191,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:52518,h:1,d0:9732,d1:35192;
+        ("begin", Expression<MethodOrOperator> @:9732 check:35192,op:0,dt:2,nt:9,next:9722,nextCheck:35182,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:9722 check:35182,op:52,dt:4,nt:8,next:9725,nextCheck:35185,str:52564,h:1,d0:9723,d1:35183;
+                ("object_destroy", Expression<MethodOrOperator> @:9723 check:35183,op:52,dt:2,nt:9,next:9724,nextCheck:35184,str:2937,h:0,d0:0,d1:0;
+                    (4294902047, Expression<Entity> @:9724 check:35184,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:21783,h:0,d0:287,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:9725 check:35185,op:52,dt:4,nt:8,next:9728,nextCheck:35188,str:52595,h:1,d0:9726,d1:35186;
+                ("object_destroy", Expression<MethodOrOperator> @:9726 check:35186,op:52,dt:2,nt:9,next:9727,nextCheck:35187,str:2937,h:0,d0:0,d1:0;
+                    (4294901760, Expression<Entity> @:9727 check:35187,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:18314,h:0,d0:0,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:9728 check:35188,op:53,dt:4,nt:8,next:65535,nextCheck:65535,str:52621,h:1,d0:9729,d1:35189;
+                ("object_destroy_containing", Expression<MethodOrOperator> @:9729 check:35189,op:53,dt:2,nt:9,next:9730,nextCheck:35190,str:3265,h:0,d0:0,d1:0;
+                    ("airlock_debris", Expression<String> @:9730 check:35190,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:23295,h:0,d0:23295,d1:0;))))))

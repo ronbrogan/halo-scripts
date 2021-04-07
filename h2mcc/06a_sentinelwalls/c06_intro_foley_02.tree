@@ -1,15 +1,15 @@
 
-("c06_intro_foley_02", MethodDecl<Void> @:127 op:0,dt:0,nt:65535,next:4154,str:10486,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4154 op:0,dt:4,nt:8,next:65535,str:47994,d0:4155,d1:62382;
-        ("begin", Expression<MethodOrOperator> @:4155 op:0,dt:2,nt:9,next:4143,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4143 op:19,dt:4,nt:8,next:4146,str:48031,d0:4144,d1:62371;
-                ("sleep", Expression<MethodOrOperator> @:4144 op:19,dt:2,nt:9,next:4145,str:80,d0:0,d1:0;
-                    (0, Expression<Short> @:4145 op:7,dt:7,nt:9,next:65535,str:48038,d0:0,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:4146 op:596,dt:4,nt:8,next:4151,str:48043,d0:4147,d1:62374;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:4147 op:596,dt:2,nt:9,next:4148,str:1619,d0:0,d1:0;
-                    ("sound\cinematics\06_sentinelwalls\c06_intro\foley\c06_intro_02_fol", Expression<Sound> @:4148 op:32,dt:32,nt:9,next:4149,str:9594,d0:875,d1:58593;
-                        (4294967295, Expression<Entity> @:4149 op:50,dt:50,nt:9,next:4150,str:1694,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:4150 op:6,dt:6,nt:9,next:65535,str:48136,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:4151 op:27,dt:4,nt:8,next:65535,str:48141,d0:4152,d1:62379;
-                ("print", Expression<MethodOrOperator> @:4152 op:27,dt:2,nt:9,next:4153,str:86,d0:0,d1:0;
-                    ("c06_intro foley 02 start", Expression<String> @:4153 op:9,dt:9,nt:9,next:65535,str:9755,d0:9755,d1:0;))))))
+("c06_intro_foley_02", MethodDecl<Void> @:127 check:0,op:0,dt:0,nt:65535,next:4154,nextCheck:62381,str:10486,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4154 check:62381,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:47994,h:0,d0:4155,d1:62382;
+        ("begin", Expression<MethodOrOperator> @:4155 check:62382,op:0,dt:2,nt:9,next:4143,nextCheck:62370,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4143 check:62370,op:19,dt:4,nt:8,next:4146,nextCheck:62373,str:48031,h:0,d0:4144,d1:62371;
+                ("sleep", Expression<MethodOrOperator> @:4144 check:62371,op:19,dt:2,nt:9,next:4145,nextCheck:62372,str:80,h:0,d0:0,d1:0;
+                    (0, Expression<Short> @:4145 check:62372,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:48038,h:0,d0:0,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:4146 check:62373,op:596,dt:4,nt:8,next:4151,nextCheck:62378,str:48043,h:0,d0:4147,d1:62374;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:4147 check:62374,op:596,dt:2,nt:9,next:4148,nextCheck:62375,str:1619,h:0,d0:0,d1:0;
+                    ("sound\cinematics\06_sentinelwalls\c06_intro\foley\c06_intro_02_fol", Expression<Sound> @:4148 check:62375,op:32,dt:32,nt:9,next:4149,nextCheck:62376,str:9594,h:0,d0:875,d1:58593;
+                        (4294967295, Expression<Entity> @:4149 check:62376,op:50,dt:50,nt:9,next:4150,nextCheck:62377,str:1694,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:4150 check:62377,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:48136,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:4151 check:62378,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:48141,h:0,d0:4152,d1:62379;
+                ("print", Expression<MethodOrOperator> @:4152 check:62379,op:27,dt:2,nt:9,next:4153,nextCheck:62380,str:86,h:0,d0:0,d1:0;
+                    ("c06_intro foley 02 start", Expression<String> @:4153 check:62380,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:9755,h:0,d0:9755,d1:0;))))))

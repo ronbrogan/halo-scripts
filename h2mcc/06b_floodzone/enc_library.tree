@@ -1,14 +1,14 @@
 
-("enc_library", MethodDecl<Void> @:282 op:0,dt:0,nt:65535,next:13750,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:13750 op:0,dt:4,nt:8,next:65535,str:32349,d0:13751,d1:39211;
-        ("begin", Expression<MethodOrOperator> @:13751 op:0,dt:2,nt:9,next:13740,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:13740 op:27,dt:4,nt:8,next:13743,str:32379,d0:13741,d1:39201;
-                ("print", Expression<MethodOrOperator> @:13741 op:27,dt:2,nt:9,next:13742,str:91,d0:0,d1:0;
-                    ("initialize library scripts", Expression<String> @:13742 op:9,dt:9,nt:9,next:65535,str:27794,d0:27794,d1:0;)))
-            (____, BuiltinInvocation<Void> @:13743 op:587,dt:4,nt:8,next:13745,str:32418,d0:13744,d1:39204;
-                ("game_save", Expression<MethodOrOperator> @:13744 op:587,dt:2,nt:9,next:65535,str:18092,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:13745 op:587,dt:4,nt:8,next:13747,str:32434,d0:13746,d1:39206;
-                ("game_save", Expression<MethodOrOperator> @:13746 op:587,dt:2,nt:9,next:65535,str:18092,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:13747 op:317,dt:4,nt:8,next:65535,str:32448,d0:13748,d1:39208;
-                ("ai_renew", Expression<MethodOrOperator> @:13748 op:317,dt:2,nt:9,next:13749,str:18416,d0:0,d1:0;
-                    ("covenant", Expression<AI> @:13749 op:19,dt:19,nt:9,next:65535,str:10547,d0:0,d1:16384;))))))
+("enc_library", MethodDecl<Void> @:282 check:0,op:0,dt:0,nt:65535,next:13750,nextCheck:39210,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:13750 check:39210,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:32349,h:2,d0:13751,d1:39211;
+        ("begin", Expression<MethodOrOperator> @:13751 check:39211,op:0,dt:2,nt:9,next:13740,nextCheck:39200,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:13740 check:39200,op:27,dt:4,nt:8,next:13743,nextCheck:39203,str:32379,h:2,d0:13741,d1:39201;
+                ("print", Expression<MethodOrOperator> @:13741 check:39201,op:27,dt:2,nt:9,next:13742,nextCheck:39202,str:91,h:0,d0:0,d1:0;
+                    ("initialize library scripts", Expression<String> @:13742 check:39202,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:27794,h:0,d0:27794,d1:0;)))
+            (____, BuiltinInvocation<Void> @:13743 check:39203,op:587,dt:4,nt:8,next:13745,nextCheck:39205,str:32418,h:2,d0:13744,d1:39204;
+                ("game_save", Expression<MethodOrOperator> @:13744 check:39204,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:18092,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:13745 check:39205,op:587,dt:4,nt:8,next:13747,nextCheck:39207,str:32434,h:2,d0:13746,d1:39206;
+                ("game_save", Expression<MethodOrOperator> @:13746 check:39206,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:18092,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:13747 check:39207,op:317,dt:4,nt:8,next:65535,nextCheck:65535,str:32448,h:2,d0:13748,d1:39208;
+                ("ai_renew", Expression<MethodOrOperator> @:13748 check:39208,op:317,dt:2,nt:9,next:13749,nextCheck:39209,str:18416,h:0,d0:0,d1:0;
+                    ("covenant", Expression<AI> @:13749 check:39209,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:10547,h:0,d0:0,d1:16384;))))))

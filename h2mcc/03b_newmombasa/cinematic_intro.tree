@@ -1,12 +1,12 @@
 
-("cinematic_intro", MethodDecl<Void> @:177 op:0,dt:0,nt:65535,next:5786,str:31411,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5786 op:0,dt:4,nt:8,next:65535,str:3239,d0:5787,d1:64014;
-        ("begin", Expression<MethodOrOperator> @:5787 op:0,dt:2,nt:9,next:5778,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5778 op:2,dt:4,nt:8,next:5784,str:3277,d0:5779,d1:64006;
-                ("if", Expression<MethodOrOperator> @:5779 op:2,dt:2,nt:9,next:5780,str:461,d0:0,d1:0;
-                    ("cinematic_skip_start", ScriptInvocation<Boolean> @:5780 op:7,dt:5,nt:10,next:5782,str:3281,d0:5781,d1:64008;
-                        ("cinematic_skip_start", Expression<MethodOrOperator> @:5781 op:7,dt:2,nt:9,next:65535,str:13128,d0:0,d1:0;))
-                    ("c03_intra1", ScriptInvocation<Void> @:5782 op:88,dt:4,nt:10,next:65535,str:3307,d0:5783,d1:64010;
-                        ("c03_intra1", Expression<MethodOrOperator> @:5783 op:88,dt:2,nt:9,next:65535,str:13149,d0:0,d1:0;))))
-            ("cinematic_skip_stop", ScriptInvocation<Void> @:5784 op:8,dt:4,nt:10,next:65535,str:3326,d0:5785,d1:64012;
-                ("cinematic_skip_stop", Expression<MethodOrOperator> @:5785 op:8,dt:2,nt:9,next:65535,str:13160,d0:0,d1:0;)))))
+("cinematic_intro", MethodDecl<Void> @:177 check:0,op:0,dt:0,nt:65535,next:5786,nextCheck:64013,str:31411,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5786 check:64013,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:3239,h:1,d0:5787,d1:64014;
+        ("begin", Expression<MethodOrOperator> @:5787 check:64014,op:0,dt:2,nt:9,next:5778,nextCheck:64005,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5778 check:64005,op:2,dt:4,nt:8,next:5784,nextCheck:64011,str:3277,h:1,d0:5779,d1:64006;
+                ("if", Expression<MethodOrOperator> @:5779 check:64006,op:2,dt:2,nt:9,next:5780,nextCheck:64007,str:461,h:0,d0:0,d1:0;
+                    ("cinematic_skip_start", ScriptInvocation<Boolean> @:5780 check:64007,op:7,dt:5,nt:10,next:5782,nextCheck:64009,str:3281,h:1,d0:5781,d1:64008;
+                        ("cinematic_skip_start", Expression<MethodOrOperator> @:5781 check:64008,op:7,dt:2,nt:9,next:65535,nextCheck:65535,str:13128,h:0,d0:0,d1:0;))
+                    ("c03_intra1", ScriptInvocation<Void> @:5782 check:64009,op:88,dt:4,nt:10,next:65535,nextCheck:65535,str:3307,h:1,d0:5783,d1:64010;
+                        ("c03_intra1", Expression<MethodOrOperator> @:5783 check:64010,op:88,dt:2,nt:9,next:65535,nextCheck:65535,str:13149,h:0,d0:0,d1:0;))))
+            ("cinematic_skip_stop", ScriptInvocation<Void> @:5784 check:64011,op:8,dt:4,nt:10,next:65535,nextCheck:65535,str:3326,h:1,d0:5785,d1:64012;
+                ("cinematic_skip_stop", Expression<MethodOrOperator> @:5785 check:64012,op:8,dt:2,nt:9,next:65535,nextCheck:65535,str:13160,h:0,d0:0,d1:0;)))))

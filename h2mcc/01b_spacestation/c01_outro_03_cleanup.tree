@@ -1,7 +1,7 @@
 
-("c01_outro_03_cleanup", MethodDecl<Void> @:218 op:0,dt:0,nt:65535,next:8542,str:20990,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:8542 op:0,dt:4,nt:8,next:65535,str:38758,d0:8543,d1:34003;
-        ("begin", Expression<MethodOrOperator> @:8543 op:0,dt:2,nt:9,next:8539,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:8539 op:53,dt:4,nt:8,next:65535,str:38803,d0:8540,d1:34000;
-                ("object_destroy_containing", Expression<MethodOrOperator> @:8540 op:53,dt:2,nt:9,next:8541,str:3265,d0:0,d1:0;
-                    ("sparks_backward", Expression<String> @:8541 op:9,dt:9,nt:9,next:65535,str:20518,d0:20518,d1:0;))))))
+("c01_outro_03_cleanup", MethodDecl<Void> @:218 check:0,op:0,dt:0,nt:65535,next:8542,nextCheck:34002,str:20990,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:8542 check:34002,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:38758,h:1,d0:8543,d1:34003;
+        ("begin", Expression<MethodOrOperator> @:8543 check:34003,op:0,dt:2,nt:9,next:8539,nextCheck:33999,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:8539 check:33999,op:53,dt:4,nt:8,next:65535,nextCheck:65535,str:38803,h:1,d0:8540,d1:34000;
+                ("object_destroy_containing", Expression<MethodOrOperator> @:8540 check:34000,op:53,dt:2,nt:9,next:8541,nextCheck:34001,str:3265,h:0,d0:0,d1:0;
+                    ("sparks_backward", Expression<String> @:8541 check:34001,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:20518,h:0,d0:20518,d1:0;))))))

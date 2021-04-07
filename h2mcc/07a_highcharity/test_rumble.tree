@@ -1,9 +1,9 @@
 
-("test_rumble", MethodDecl<Void> @:201 op:0,dt:0,nt:65535,next:7253,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:7253 op:0,dt:4,nt:8,next:65535,str:30440,d0:7254,d1:65481;
-        ("begin", Expression<MethodOrOperator> @:7254 op:0,dt:2,nt:9,next:7248,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:7248 op:43,dt:4,nt:8,next:65535,str:30474,d0:7249,d1:65476;
-                ("damage_object", Expression<MethodOrOperator> @:7249 op:43,dt:2,nt:9,next:7250,str:16712,d0:0,d1:0;
-                    ("objects\cinematics\human\inamberclad_to_scale\damage_effects\ioc_flyby", Expression<DamageEffect> @:7250 op:34,dt:34,nt:9,next:7251,str:16726,d0:8051,d1:33083;
-                        ("player0", ScriptInvocation<Entity> @:7251 op:0,dt:50,nt:10,next:65535,str:30560,d0:7252,d1:65479;
-                            ("player0", Expression<MethodOrOperator> @:7252 op:0,dt:2,nt:9,next:65535,str:602,d0:0,d1:0;))))))))
+("test_rumble", MethodDecl<Void> @:201 check:0,op:0,dt:0,nt:65535,next:7253,nextCheck:65480,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:7253 check:65480,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:30440,h:1,d0:7254,d1:65481;
+        ("begin", Expression<MethodOrOperator> @:7254 check:65481,op:0,dt:2,nt:9,next:7248,nextCheck:65475,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:7248 check:65475,op:43,dt:4,nt:8,next:65535,nextCheck:65535,str:30474,h:1,d0:7249,d1:65476;
+                ("damage_object", Expression<MethodOrOperator> @:7249 check:65476,op:43,dt:2,nt:9,next:7250,nextCheck:65477,str:16712,h:0,d0:0,d1:0;
+                    ("objects\cinematics\human\inamberclad_to_scale\damage_effects\ioc_flyby", Expression<DamageEffect> @:7250 check:65477,op:34,dt:34,nt:9,next:7251,nextCheck:65478,str:16726,h:0,d0:8051,d1:33083;
+                        ("player0", ScriptInvocation<Entity> @:7251 check:65478,op:0,dt:50,nt:10,next:65535,nextCheck:65535,str:30560,h:1,d0:7252,d1:65479;
+                            ("player0", Expression<MethodOrOperator> @:7252 check:65479,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:602,h:0,d0:0,d1:0;))))))))

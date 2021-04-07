@@ -1,19 +1,19 @@
 
-("x08_10_setup", MethodDecl<Void> @:110 op:0,dt:0,nt:65535,next:3096,str:7371,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3096 op:0,dt:4,nt:8,next:65535,str:40468,d0:3097,d1:61324;
-        ("begin", Expression<MethodOrOperator> @:3097 op:0,dt:2,nt:9,next:3081,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3081 op:22,dt:4,nt:8,next:3084,str:40505,d0:3082,d1:61309;
-                ("wake", Expression<MethodOrOperator> @:3082 op:22,dt:2,nt:9,next:3083,str:1146,d0:0,d1:0;
-                    ("x08_foley_10", Expression<ScriptReference> @:3083 op:10,dt:10,nt:9,next:65535,str:7358,d0:105,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3084 op:22,dt:4,nt:8,next:3087,str:40527,d0:3085,d1:61312;
-                ("wake", Expression<MethodOrOperator> @:3085 op:22,dt:2,nt:9,next:3086,str:1146,d0:0,d1:0;
-                    ("x08_0340_mas", Expression<ScriptReference> @:3086 op:10,dt:10,nt:9,next:65535,str:7132,d0:106,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3087 op:22,dt:4,nt:8,next:3090,str:40549,d0:3088,d1:61315;
-                ("wake", Expression<MethodOrOperator> @:3088 op:22,dt:2,nt:9,next:3089,str:1146,d0:0,d1:0;
-                    ("x08_0350_der", Expression<ScriptReference> @:3089 op:10,dt:10,nt:9,next:65535,str:7203,d0:107,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3090 op:22,dt:4,nt:8,next:3093,str:40571,d0:3091,d1:61318;
-                ("wake", Expression<MethodOrOperator> @:3091 op:22,dt:2,nt:9,next:3092,str:1146,d0:0,d1:0;
-                    ("x08_0360_grv", Expression<ScriptReference> @:3092 op:10,dt:10,nt:9,next:65535,str:7274,d0:108,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3093 op:22,dt:4,nt:8,next:65535,str:40593,d0:3094,d1:61321;
-                ("wake", Expression<MethodOrOperator> @:3094 op:22,dt:2,nt:9,next:3095,str:1146,d0:0,d1:0;
-                    ("x08_0370_grv", Expression<ScriptReference> @:3095 op:10,dt:10,nt:9,next:65535,str:7345,d0:109,d1:65535;))))))
+("x08_10_setup", MethodDecl<Void> @:110 check:0,op:0,dt:0,nt:65535,next:3096,nextCheck:61323,str:7371,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3096 check:61323,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:40468,h:0,d0:3097,d1:61324;
+        ("begin", Expression<MethodOrOperator> @:3097 check:61324,op:0,dt:2,nt:9,next:3081,nextCheck:61308,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3081 check:61308,op:22,dt:4,nt:8,next:3084,nextCheck:61311,str:40505,h:0,d0:3082,d1:61309;
+                ("wake", Expression<MethodOrOperator> @:3082 check:61309,op:22,dt:2,nt:9,next:3083,nextCheck:61310,str:1146,h:0,d0:0,d1:0;
+                    ("x08_foley_10", Expression<ScriptReference> @:3083 check:61310,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:7358,h:0,d0:105,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3084 check:61311,op:22,dt:4,nt:8,next:3087,nextCheck:61314,str:40527,h:0,d0:3085,d1:61312;
+                ("wake", Expression<MethodOrOperator> @:3085 check:61312,op:22,dt:2,nt:9,next:3086,nextCheck:61313,str:1146,h:0,d0:0,d1:0;
+                    ("x08_0340_mas", Expression<ScriptReference> @:3086 check:61313,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:7132,h:0,d0:106,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3087 check:61314,op:22,dt:4,nt:8,next:3090,nextCheck:61317,str:40549,h:0,d0:3088,d1:61315;
+                ("wake", Expression<MethodOrOperator> @:3088 check:61315,op:22,dt:2,nt:9,next:3089,nextCheck:61316,str:1146,h:0,d0:0,d1:0;
+                    ("x08_0350_der", Expression<ScriptReference> @:3089 check:61316,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:7203,h:0,d0:107,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3090 check:61317,op:22,dt:4,nt:8,next:3093,nextCheck:61320,str:40571,h:0,d0:3091,d1:61318;
+                ("wake", Expression<MethodOrOperator> @:3091 check:61318,op:22,dt:2,nt:9,next:3092,nextCheck:61319,str:1146,h:0,d0:0,d1:0;
+                    ("x08_0360_grv", Expression<ScriptReference> @:3092 check:61319,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:7274,h:0,d0:108,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3093 check:61320,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:40593,h:0,d0:3094,d1:61321;
+                ("wake", Expression<MethodOrOperator> @:3094 check:61321,op:22,dt:2,nt:9,next:3095,nextCheck:61322,str:1146,h:0,d0:0,d1:0;
+                    ("x08_0370_grv", Expression<ScriptReference> @:3095 check:61322,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:7345,h:0,d0:109,d1:65535;))))))

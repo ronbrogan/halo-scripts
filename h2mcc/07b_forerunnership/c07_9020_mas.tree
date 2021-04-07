@@ -1,16 +1,16 @@
 
-("c07_9020_mas", MethodDecl<Void> @:89 op:0,dt:0,nt:65535,next:2751,str:7640,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2751 op:0,dt:4,nt:8,next:65535,str:33374,d0:2752,d1:60979;
-        ("begin", Expression<MethodOrOperator> @:2752 op:0,dt:2,nt:9,next:2739,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2739 op:19,dt:4,nt:8,next:2742,str:33405,d0:2740,d1:60967;
-                ("sleep", Expression<MethodOrOperator> @:2740 op:19,dt:2,nt:9,next:2741,str:80,d0:0,d1:0;
-                    (104, Expression<Short> @:2741 op:7,dt:7,nt:9,next:65535,str:33412,d0:104,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2742 op:596,dt:4,nt:8,next:2747,str:33419,d0:2743,d1:60970;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:2743 op:596,dt:2,nt:9,next:2744,str:1299,d0:0,d1:0;
-                    ("sound\dialog\levels\07_highcharity\cinematic\c07_9020_mas", Expression<Sound> @:2744 op:32,dt:32,nt:9,next:2745,str:7582,d0:900,d1:58618;
-                        (4294901887, Expression<Entity> @:2745 op:56,dt:50,nt:9,next:2746,str:6160,d0:127,d1:65535;
-                            (1f, Expression<Float> @:2746 op:6,dt:6,nt:9,next:65535,str:33510,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:2747 op:562,dt:4,nt:8,next:65535,str:33515,d0:2748,d1:60975;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:2748 op:562,dt:2,nt:9,next:2749,str:3020,d0:0,d1:0;
-                    ("c07_9020_mas", Expression<StringId> @:2749 op:11,dt:11,nt:9,next:2750,str:7640,d0:4045,d1:3072;
-                        (2f, Expression<Float> @:2750 op:6,dt:6,nt:9,next:65535,str:33548,d0:0,d1:16384;)))))))
+("c07_9020_mas", MethodDecl<Void> @:89 check:0,op:0,dt:0,nt:65535,next:2751,nextCheck:60978,str:7640,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2751 check:60978,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:33374,h:0,d0:2752,d1:60979;
+        ("begin", Expression<MethodOrOperator> @:2752 check:60979,op:0,dt:2,nt:9,next:2739,nextCheck:60966,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2739 check:60966,op:19,dt:4,nt:8,next:2742,nextCheck:60969,str:33405,h:0,d0:2740,d1:60967;
+                ("sleep", Expression<MethodOrOperator> @:2740 check:60967,op:19,dt:2,nt:9,next:2741,nextCheck:60968,str:80,h:0,d0:0,d1:0;
+                    (104, Expression<Short> @:2741 check:60968,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:33412,h:0,d0:104,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2742 check:60969,op:596,dt:4,nt:8,next:2747,nextCheck:60974,str:33419,h:0,d0:2743,d1:60970;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:2743 check:60970,op:596,dt:2,nt:9,next:2744,nextCheck:60971,str:1299,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\07_highcharity\cinematic\c07_9020_mas", Expression<Sound> @:2744 check:60971,op:32,dt:32,nt:9,next:2745,nextCheck:60972,str:7582,h:0,d0:900,d1:58618;
+                        (4294901887, Expression<Entity> @:2745 check:60972,op:56,dt:50,nt:9,next:2746,nextCheck:60973,str:6160,h:0,d0:127,d1:65535;
+                            (1f, Expression<Float> @:2746 check:60973,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:33510,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:2747 check:60974,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:33515,h:0,d0:2748,d1:60975;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:2748 check:60975,op:562,dt:2,nt:9,next:2749,nextCheck:60976,str:3020,h:0,d0:0,d1:0;
+                    ("c07_9020_mas", Expression<StringId> @:2749 check:60976,op:11,dt:11,nt:9,next:2750,nextCheck:60977,str:7640,h:0,d0:4045,d1:3072;
+                        (2f, Expression<Float> @:2750 check:60977,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:33548,h:0,d0:0,d1:16384;)))))))

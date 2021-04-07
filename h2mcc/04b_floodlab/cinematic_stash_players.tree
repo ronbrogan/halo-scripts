@@ -1,18 +1,18 @@
 
-("cinematic_stash_players", MethodDecl<Void> @:17 op:0,dt:0,nt:65535,next:434,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:434 op:0,dt:4,nt:8,next:65535,str:4436,d0:435,d1:58662;
-        ("begin", Expression<MethodOrOperator> @:435 op:0,dt:2,nt:9,next:420,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:420 op:57,dt:4,nt:8,next:425,str:4482,d0:421,d1:58648;
-                ("object_hide", Expression<MethodOrOperator> @:421 op:57,dt:2,nt:9,next:422,str:799,d0:0,d1:0;
-                    ("player0", ScriptInvocation<Entity> @:422 op:0,dt:50,nt:10,next:424,str:4495,d0:423,d1:58650;
-                        ("player0", Expression<MethodOrOperator> @:423 op:0,dt:2,nt:9,next:65535,str:811,d0:0,d1:0;))
-                    (True, Expression<Boolean> @:424 op:5,dt:5,nt:9,next:65535,str:4505,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:425 op:57,dt:4,nt:8,next:430,str:4513,d0:426,d1:58653;
-                ("object_hide", Expression<MethodOrOperator> @:426 op:57,dt:2,nt:9,next:427,str:799,d0:0,d1:0;
-                    ("player1", ScriptInvocation<Entity> @:427 op:1,dt:50,nt:10,next:429,str:4526,d0:428,d1:58655;
-                        ("player1", Expression<MethodOrOperator> @:428 op:1,dt:2,nt:9,next:65535,str:819,d0:0,d1:0;))
-                    (True, Expression<Boolean> @:429 op:5,dt:5,nt:9,next:65535,str:4536,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:430 op:90,dt:4,nt:8,next:65535,str:4544,d0:431,d1:58658;
-                ("object_cannot_take_damage", Expression<MethodOrOperator> @:431 op:90,dt:2,nt:9,next:432,str:827,d0:0,d1:0;
-                    (____, BuiltinInvocation<List> @:432 op:28,dt:31,nt:8,next:65535,str:4571,d0:433,d1:58660;
-                        ("players", Expression<MethodOrOperator> @:433 op:28,dt:2,nt:9,next:65535,str:230,d0:0,d1:0;)))))))
+("cinematic_stash_players", MethodDecl<Void> @:17 check:0,op:0,dt:0,nt:65535,next:434,nextCheck:58661,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:434 check:58661,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:4436,h:0,d0:435,d1:58662;
+        ("begin", Expression<MethodOrOperator> @:435 check:58662,op:0,dt:2,nt:9,next:420,nextCheck:58647,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:420 check:58647,op:57,dt:4,nt:8,next:425,nextCheck:58652,str:4482,h:0,d0:421,d1:58648;
+                ("object_hide", Expression<MethodOrOperator> @:421 check:58648,op:57,dt:2,nt:9,next:422,nextCheck:58649,str:799,h:0,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:422 check:58649,op:0,dt:50,nt:10,next:424,nextCheck:58651,str:4495,h:0,d0:423,d1:58650;
+                        ("player0", Expression<MethodOrOperator> @:423 check:58650,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:811,h:0,d0:0,d1:0;))
+                    (True, Expression<Boolean> @:424 check:58651,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:4505,h:0,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:425 check:58652,op:57,dt:4,nt:8,next:430,nextCheck:58657,str:4513,h:0,d0:426,d1:58653;
+                ("object_hide", Expression<MethodOrOperator> @:426 check:58653,op:57,dt:2,nt:9,next:427,nextCheck:58654,str:799,h:0,d0:0,d1:0;
+                    ("player1", ScriptInvocation<Entity> @:427 check:58654,op:1,dt:50,nt:10,next:429,nextCheck:58656,str:4526,h:0,d0:428,d1:58655;
+                        ("player1", Expression<MethodOrOperator> @:428 check:58655,op:1,dt:2,nt:9,next:65535,nextCheck:65535,str:819,h:0,d0:0,d1:0;))
+                    (True, Expression<Boolean> @:429 check:58656,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:4536,h:0,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:430 check:58657,op:90,dt:4,nt:8,next:65535,nextCheck:65535,str:4544,h:0,d0:431,d1:58658;
+                ("object_cannot_take_damage", Expression<MethodOrOperator> @:431 check:58658,op:90,dt:2,nt:9,next:432,nextCheck:58659,str:827,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<List> @:432 check:58659,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:4571,h:0,d0:433,d1:58660;
+                        ("players", Expression<MethodOrOperator> @:433 check:58660,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:230,h:0,d0:0,d1:0;)))))))

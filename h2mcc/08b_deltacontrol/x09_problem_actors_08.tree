@@ -1,24 +1,24 @@
 
-("x09_problem_actors_08", MethodDecl<Void> @:223 op:0,dt:0,nt:65535,next:8353,str:20517,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:8353 op:0,dt:4,nt:8,next:65535,str:31788,d0:8354,d1:33814;
-        ("begin", Expression<MethodOrOperator> @:8354 op:0,dt:2,nt:9,next:8333,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:8333 op:27,dt:4,nt:8,next:8336,str:31832,d0:8334,d1:33794;
-                ("print", Expression<MethodOrOperator> @:8334 op:27,dt:2,nt:9,next:8335,str:91,d0:0,d1:0;
-                    ("problem actors", Expression<String> @:8335 op:9,dt:9,nt:9,next:65535,str:8245,d0:8245,d1:0;)))
-            (____, BuiltinInvocation<Void> @:8336 op:48,dt:4,nt:8,next:8339,str:31859,d0:8337,d1:33797;
-                ("object_create_anew", Expression<MethodOrOperator> @:8337 op:48,dt:2,nt:9,next:8338,str:8260,d0:0,d1:0;
-                    ("chief", Expression<EntityIdentifier> @:8338 op:56,dt:56,nt:9,next:65535,str:20067,d0:93,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8339 op:48,dt:4,nt:8,next:8342,str:31888,d0:8340,d1:33800;
-                ("object_create_anew", Expression<MethodOrOperator> @:8340 op:48,dt:2,nt:9,next:8341,str:8260,d0:0,d1:0;
-                    ("x09_alcove", Expression<EntityIdentifier> @:8341 op:56,dt:56,nt:9,next:65535,str:20073,d0:42,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8342 op:48,dt:4,nt:8,next:8345,str:31922,d0:8343,d1:33803;
-                ("object_create_anew", Expression<MethodOrOperator> @:8343 op:48,dt:2,nt:9,next:8344,str:8260,d0:0,d1:0;
-                    ("bloom_quad", Expression<EntityIdentifier> @:8344 op:56,dt:56,nt:9,next:65535,str:20084,d0:71,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8345 op:92,dt:4,nt:8,next:8349,str:31959,d0:8346,d1:33806;
-                ("object_cinematic_lod", Expression<MethodOrOperator> @:8346 op:92,dt:2,nt:9,next:8347,str:8327,d0:0,d1:0;
-                    (4294901853, Expression<Entity> @:8347 op:56,dt:50,nt:9,next:8348,str:20067,d0:93,d1:65535;
-                        (True, Expression<Boolean> @:8348 op:5,dt:5,nt:9,next:65535,str:31987,d0:65281,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:8349 op:92,dt:4,nt:8,next:65535,str:31995,d0:8350,d1:33810;
-                ("object_cinematic_lod", Expression<MethodOrOperator> @:8350 op:92,dt:2,nt:9,next:8351,str:8327,d0:0,d1:0;
-                    (4294901802, Expression<Entity> @:8351 op:56,dt:50,nt:9,next:8352,str:20073,d0:42,d1:65535;
-                        (True, Expression<Boolean> @:8352 op:5,dt:5,nt:9,next:65535,str:32028,d0:65281,d1:65535;)))))))
+("x09_problem_actors_08", MethodDecl<Void> @:223 check:0,op:0,dt:0,nt:65535,next:8353,nextCheck:33813,str:20517,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:8353 check:33813,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:31788,h:1,d0:8354,d1:33814;
+        ("begin", Expression<MethodOrOperator> @:8354 check:33814,op:0,dt:2,nt:9,next:8333,nextCheck:33793,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:8333 check:33793,op:27,dt:4,nt:8,next:8336,nextCheck:33796,str:31832,h:1,d0:8334,d1:33794;
+                ("print", Expression<MethodOrOperator> @:8334 check:33794,op:27,dt:2,nt:9,next:8335,nextCheck:33795,str:91,h:0,d0:0,d1:0;
+                    ("problem actors", Expression<String> @:8335 check:33795,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8245,h:0,d0:8245,d1:0;)))
+            (____, BuiltinInvocation<Void> @:8336 check:33796,op:48,dt:4,nt:8,next:8339,nextCheck:33799,str:31859,h:1,d0:8337,d1:33797;
+                ("object_create_anew", Expression<MethodOrOperator> @:8337 check:33797,op:48,dt:2,nt:9,next:8338,nextCheck:33798,str:8260,h:0,d0:0,d1:0;
+                    ("chief", Expression<EntityIdentifier> @:8338 check:33798,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:20067,h:0,d0:93,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8339 check:33799,op:48,dt:4,nt:8,next:8342,nextCheck:33802,str:31888,h:1,d0:8340,d1:33800;
+                ("object_create_anew", Expression<MethodOrOperator> @:8340 check:33800,op:48,dt:2,nt:9,next:8341,nextCheck:33801,str:8260,h:0,d0:0,d1:0;
+                    ("x09_alcove", Expression<EntityIdentifier> @:8341 check:33801,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:20073,h:0,d0:42,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8342 check:33802,op:48,dt:4,nt:8,next:8345,nextCheck:33805,str:31922,h:1,d0:8343,d1:33803;
+                ("object_create_anew", Expression<MethodOrOperator> @:8343 check:33803,op:48,dt:2,nt:9,next:8344,nextCheck:33804,str:8260,h:0,d0:0,d1:0;
+                    ("bloom_quad", Expression<EntityIdentifier> @:8344 check:33804,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:20084,h:0,d0:71,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8345 check:33805,op:92,dt:4,nt:8,next:8349,nextCheck:33809,str:31959,h:1,d0:8346,d1:33806;
+                ("object_cinematic_lod", Expression<MethodOrOperator> @:8346 check:33806,op:92,dt:2,nt:9,next:8347,nextCheck:33807,str:8327,h:0,d0:0,d1:0;
+                    (4294901853, Expression<Entity> @:8347 check:33807,op:56,dt:50,nt:9,next:8348,nextCheck:33808,str:20067,h:0,d0:93,d1:65535;
+                        (True, Expression<Boolean> @:8348 check:33808,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:31987,h:1,d0:65281,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:8349 check:33809,op:92,dt:4,nt:8,next:65535,nextCheck:65535,str:31995,h:1,d0:8350,d1:33810;
+                ("object_cinematic_lod", Expression<MethodOrOperator> @:8350 check:33810,op:92,dt:2,nt:9,next:8351,nextCheck:33811,str:8327,h:0,d0:0,d1:0;
+                    (4294901802, Expression<Entity> @:8351 check:33811,op:56,dt:50,nt:9,next:8352,nextCheck:33812,str:20073,h:0,d0:42,d1:65535;
+                        (True, Expression<Boolean> @:8352 check:33812,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:32028,h:1,d0:65281,d1:65535;)))))))

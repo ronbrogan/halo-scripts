@@ -1,16 +1,16 @@
 
-("c08_2010_soc", MethodDecl<Void> @:37 op:0,dt:0,nt:65535,next:1074,str:2604,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:1074 op:0,dt:4,nt:8,next:65535,str:12530,d0:1075,d1:59302;
-        ("begin", Expression<MethodOrOperator> @:1075 op:0,dt:2,nt:9,next:1062,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:1062 op:19,dt:4,nt:8,next:1065,str:12561,d0:1063,d1:59290;
-                ("sleep", Expression<MethodOrOperator> @:1063 op:19,dt:2,nt:9,next:1064,str:143,d0:0,d1:0;
-                    (461, Expression<Short> @:1064 op:7,dt:7,nt:9,next:65535,str:12568,d0:461,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1065 op:596,dt:4,nt:8,next:1070,str:12575,d0:1066,d1:59293;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:1066 op:596,dt:2,nt:9,next:1067,str:1217,d0:0,d1:0;
-                    ("sound\dialog\levels\08_controlroom\cinematic\c08_2010_soc", Expression<Sound> @:1067 op:32,dt:32,nt:9,next:1068,str:2517,d0:620,d1:58338;
-                        (4294901778, Expression<Entity> @:1068 op:56,dt:50,nt:9,next:1069,str:2575,d0:18,d1:65535;
-                            (1f, Expression<Float> @:1069 op:6,dt:6,nt:9,next:65535,str:12664,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:1070 op:562,dt:4,nt:8,next:65535,str:12669,d0:1071,d1:59298;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:1071 op:562,dt:2,nt:9,next:1072,str:2585,d0:0,d1:0;
-                    ("c08_2010_soc", Expression<StringId> @:1072 op:11,dt:11,nt:9,next:1073,str:2604,d0:3547,d1:3072;
-                        (3f, Expression<Float> @:1073 op:6,dt:6,nt:9,next:65535,str:12702,d0:0,d1:16448;)))))))
+("c08_2010_soc", MethodDecl<Void> @:37 check:0,op:0,dt:0,nt:65535,next:1074,nextCheck:59301,str:2604,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:1074 check:59301,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:12530,h:0,d0:1075,d1:59302;
+        ("begin", Expression<MethodOrOperator> @:1075 check:59302,op:0,dt:2,nt:9,next:1062,nextCheck:59289,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1062 check:59289,op:19,dt:4,nt:8,next:1065,nextCheck:59292,str:12561,h:0,d0:1063,d1:59290;
+                ("sleep", Expression<MethodOrOperator> @:1063 check:59290,op:19,dt:2,nt:9,next:1064,nextCheck:59291,str:143,h:0,d0:0,d1:0;
+                    (461, Expression<Short> @:1064 check:59291,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:12568,h:0,d0:461,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1065 check:59292,op:596,dt:4,nt:8,next:1070,nextCheck:59297,str:12575,h:0,d0:1066,d1:59293;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:1066 check:59293,op:596,dt:2,nt:9,next:1067,nextCheck:59294,str:1217,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\08_controlroom\cinematic\c08_2010_soc", Expression<Sound> @:1067 check:59294,op:32,dt:32,nt:9,next:1068,nextCheck:59295,str:2517,h:0,d0:620,d1:58338;
+                        (4294901778, Expression<Entity> @:1068 check:59295,op:56,dt:50,nt:9,next:1069,nextCheck:59296,str:2575,h:0,d0:18,d1:65535;
+                            (1f, Expression<Float> @:1069 check:59296,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:12664,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:1070 check:59297,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:12669,h:0,d0:1071,d1:59298;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:1071 check:59298,op:562,dt:2,nt:9,next:1072,nextCheck:59299,str:2585,h:0,d0:0,d1:0;
+                    ("c08_2010_soc", Expression<StringId> @:1072 check:59299,op:11,dt:11,nt:9,next:1073,nextCheck:59300,str:2604,h:0,d0:3547,d1:3072;
+                        (3f, Expression<Float> @:1073 check:59300,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:12702,h:0,d0:0,d1:16448;)))))))

@@ -1,12 +1,12 @@
 
-("e13_end_clear", MethodDecl<Boolean> @:170 op:0,dt:0,nt:65535,next:5886,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Boolean> @:5886 op:0,dt:5,nt:8,next:65535,str:3113,d0:5887,d1:64114;
-        ("begin", Expression<MethodOrOperator> @:5887 op:0,dt:2,nt:9,next:5878,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Boolean> @:5878 op:25,dt:5,nt:8,next:65535,str:3152,d0:5879,d1:64106;
-                ("not", Expression<MethodOrOperator> @:5879 op:25,dt:2,nt:9,next:5880,str:460,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:5880 op:33,dt:5,nt:8,next:65535,str:3157,d0:5881,d1:64108;
-                        ("volume_test_objects", Expression<MethodOrOperator> @:5881 op:33,dt:2,nt:9,next:5882,str:11142,d0:0,d1:0;
-                            ("tv_e13_end_area", Expression<Trigger> @:5882 op:13,dt:13,nt:9,next:5883,str:12634,d0:118,d1:0;
-                                (____, BuiltinInvocation<List> @:5883 op:332,dt:31,nt:8,next:65535,str:3194,d0:5884,d1:64111;
-                                    ("ai_actors", Expression<MethodOrOperator> @:5884 op:332,dt:2,nt:9,next:5885,str:12650,d0:0,d1:0;
-                                        ("e13_cov", Expression<AI> @:5885 op:19,dt:19,nt:9,next:65535,str:12660,d0:44,d1:16384;)))))))))))
+("e13_end_clear", MethodDecl<Boolean> @:170 check:0,op:0,dt:0,nt:65535,next:5886,nextCheck:64113,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Boolean> @:5886 check:64113,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:3113,h:1,d0:5887,d1:64114;
+        ("begin", Expression<MethodOrOperator> @:5887 check:64114,op:0,dt:2,nt:9,next:5878,nextCheck:64105,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Boolean> @:5878 check:64105,op:25,dt:5,nt:8,next:65535,nextCheck:65535,str:3152,h:1,d0:5879,d1:64106;
+                ("not", Expression<MethodOrOperator> @:5879 check:64106,op:25,dt:2,nt:9,next:5880,nextCheck:64107,str:460,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:5880 check:64107,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:3157,h:1,d0:5881,d1:64108;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:5881 check:64108,op:33,dt:2,nt:9,next:5882,nextCheck:64109,str:11142,h:0,d0:0,d1:0;
+                            ("tv_e13_end_area", Expression<Trigger> @:5882 check:64109,op:13,dt:13,nt:9,next:5883,nextCheck:64110,str:12634,h:0,d0:118,d1:0;
+                                (____, BuiltinInvocation<List> @:5883 check:64110,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:3194,h:1,d0:5884,d1:64111;
+                                    ("ai_actors", Expression<MethodOrOperator> @:5884 check:64111,op:332,dt:2,nt:9,next:5885,nextCheck:64112,str:12650,h:0,d0:0,d1:0;
+                                        ("e13_cov", Expression<AI> @:5885 check:64112,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:12660,h:0,d0:44,d1:16384;)))))))))))

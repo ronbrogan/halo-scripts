@@ -1,9 +1,9 @@
 
-("temple_hunker", MethodDecl<Void> @:254 op:0,dt:0,nt:65535,next:16417,str:27867,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:16417 op:0,dt:4,nt:8,next:65535,str:44096,d0:16418,d1:41878;
-        ("begin", Expression<MethodOrOperator> @:16418 op:0,dt:2,nt:9,next:16412,str:142,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:16412 op:423,dt:4,nt:8,next:16415,str:44135,d0:16413,d1:41873;
-                ("cs_crouch", Expression<MethodOrOperator> @:16413 op:423,dt:2,nt:9,next:16414,str:27472,d0:0,d1:0;
-                    (True, Expression<Boolean> @:16414 op:5,dt:5,nt:9,next:65535,str:44146,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16415 op:20,dt:4,nt:8,next:65535,str:44154,d0:16416,d1:41876;
-                ("sleep_forever", Expression<MethodOrOperator> @:16416 op:20,dt:2,nt:9,next:65535,str:8566,d0:0,d1:0;)))))
+("temple_hunker", MethodDecl<Void> @:254 check:0,op:0,dt:0,nt:65535,next:16417,nextCheck:41877,str:27867,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:16417 check:41877,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:44096,h:2,d0:16418,d1:41878;
+        ("begin", Expression<MethodOrOperator> @:16418 check:41878,op:0,dt:2,nt:9,next:16412,nextCheck:41872,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:16412 check:41872,op:423,dt:4,nt:8,next:16415,nextCheck:41875,str:44135,h:2,d0:16413,d1:41873;
+                ("cs_crouch", Expression<MethodOrOperator> @:16413 check:41873,op:423,dt:2,nt:9,next:16414,nextCheck:41874,str:27472,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16414 check:41874,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:44146,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16415 check:41875,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:44154,h:2,d0:16416,d1:41876;
+                ("sleep_forever", Expression<MethodOrOperator> @:16416 check:41876,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:8566,h:0,d0:0,d1:0;)))))

@@ -1,40 +1,40 @@
 
-("x07_0080_jon", MethodDecl<Void> @:87 op:0,dt:0,nt:65535,next:2621,str:7321,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2621 op:0,dt:4,nt:8,next:65535,str:31887,d0:2622,d1:60849;
-        ("begin", Expression<MethodOrOperator> @:2622 op:0,dt:2,nt:9,next:2585,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2585 op:19,dt:4,nt:8,next:2588,str:31920,d0:2586,d1:60813;
-                ("sleep", Expression<MethodOrOperator> @:2586 op:19,dt:2,nt:9,next:2587,str:85,d0:0,d1:0;
-                    (678, Expression<Short> @:2587 op:7,dt:7,nt:9,next:65535,str:31927,d0:678,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2588 op:220,dt:4,nt:8,next:2594,str:31934,d0:2589,d1:60816;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2589 op:220,dt:2,nt:9,next:2590,str:5534,d0:0,d1:0;
-                    ("johnson", Expression<Unit> @:2590 op:57,dt:51,nt:9,next:2591,str:6335,d0:26,d1:65535;
-                        ("annoyed", Expression<StringId> @:2591 op:11,dt:11,nt:9,next:2592,str:7229,d0:429,d1:1792;
-                            (0.75f, Expression<Float> @:2592 op:6,dt:6,nt:9,next:2593,str:31976,d0:0,d1:16192;
-                                (60, Expression<Short> @:2593 op:7,dt:7,nt:9,next:65535,str:31980,d0:60,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:2594 op:27,dt:4,nt:8,next:2597,str:31986,d0:2595,d1:60822;
-                ("print", Expression<MethodOrOperator> @:2595 op:27,dt:2,nt:9,next:2596,str:91,d0:0,d1:0;
-                    ("johnson - annoyed .75 60", Expression<String> @:2596 op:9,dt:9,nt:9,next:65535,str:7237,d0:7237,d1:0;)))
-            (____, BuiltinInvocation<Void> @:2597 op:19,dt:4,nt:8,next:2600,str:32025,d0:2598,d1:60825;
-                ("sleep", Expression<MethodOrOperator> @:2598 op:19,dt:2,nt:9,next:2599,str:85,d0:0,d1:0;
-                    (10, Expression<Short> @:2599 op:7,dt:7,nt:9,next:65535,str:32032,d0:10,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2600 op:596,dt:4,nt:8,next:2605,str:32053,d0:2601,d1:60828;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:2601 op:596,dt:2,nt:9,next:2602,str:1250,d0:0,d1:0;
-                    ("sound\dialog\levels\06_sentinelwall\cinematic\x07_0080_jon", Expression<Sound> @:2602 op:32,dt:32,nt:9,next:2603,str:7262,d0:979,d1:58697;
-                        (4294901786, Expression<Entity> @:2603 op:56,dt:50,nt:9,next:2604,str:6335,d0:26,d1:65535;
-                            (1f, Expression<Float> @:2604 op:6,dt:6,nt:9,next:65535,str:32141,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:2605 op:562,dt:4,nt:8,next:2609,str:32146,d0:2606,d1:60833;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:2606 op:562,dt:2,nt:9,next:2607,str:1534,d0:0,d1:0;
-                    ("x07_0080_jon", Expression<StringId> @:2607 op:11,dt:11,nt:9,next:2608,str:7321,d0:4926,d1:3072;
-                        (1f, Expression<Float> @:2608 op:6,dt:6,nt:9,next:65535,str:32179,d0:0,d1:16256;))))
-            (____, BuiltinInvocation<Void> @:2609 op:19,dt:4,nt:8,next:2612,str:32187,d0:2610,d1:60837;
-                ("sleep", Expression<MethodOrOperator> @:2610 op:19,dt:2,nt:9,next:2611,str:85,d0:0,d1:0;
-                    (45, Expression<Short> @:2611 op:7,dt:7,nt:9,next:65535,str:32194,d0:45,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2612 op:220,dt:4,nt:8,next:2618,str:32200,d0:2613,d1:60840;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2613 op:220,dt:2,nt:9,next:2614,str:5534,d0:0,d1:0;
-                    ("johnson", Expression<Unit> @:2614 op:57,dt:51,nt:9,next:2615,str:6335,d0:26,d1:65535;
-                        ("shocked", Expression<StringId> @:2615 op:11,dt:11,nt:9,next:2616,str:6450,d0:426,d1:1792;
-                            (0.5f, Expression<Float> @:2616 op:6,dt:6,nt:9,next:2617,str:32242,d0:0,d1:16128;
-                                (30, Expression<Short> @:2617 op:7,dt:7,nt:9,next:65535,str:32245,d0:30,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:2618 op:27,dt:4,nt:8,next:65535,str:32251,d0:2619,d1:60846;
-                ("print", Expression<MethodOrOperator> @:2619 op:27,dt:2,nt:9,next:2620,str:91,d0:0,d1:0;
-                    ("johnson - shocked .5 30", Expression<String> @:2620 op:9,dt:9,nt:9,next:65535,str:7334,d0:7334,d1:0;))))))
+("x07_0080_jon", MethodDecl<Void> @:87 check:0,op:0,dt:0,nt:65535,next:2621,nextCheck:60848,str:7321,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2621 check:60848,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:31887,h:0,d0:2622,d1:60849;
+        ("begin", Expression<MethodOrOperator> @:2622 check:60849,op:0,dt:2,nt:9,next:2585,nextCheck:60812,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2585 check:60812,op:19,dt:4,nt:8,next:2588,nextCheck:60815,str:31920,h:0,d0:2586,d1:60813;
+                ("sleep", Expression<MethodOrOperator> @:2586 check:60813,op:19,dt:2,nt:9,next:2587,nextCheck:60814,str:85,h:0,d0:0,d1:0;
+                    (678, Expression<Short> @:2587 check:60814,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:31927,h:0,d0:678,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2588 check:60815,op:220,dt:4,nt:8,next:2594,nextCheck:60821,str:31934,h:0,d0:2589,d1:60816;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2589 check:60816,op:220,dt:2,nt:9,next:2590,nextCheck:60817,str:5534,h:0,d0:0,d1:0;
+                    ("johnson", Expression<Unit> @:2590 check:60817,op:57,dt:51,nt:9,next:2591,nextCheck:60818,str:6335,h:0,d0:26,d1:65535;
+                        ("annoyed", Expression<StringId> @:2591 check:60818,op:11,dt:11,nt:9,next:2592,nextCheck:60819,str:7229,h:0,d0:429,d1:1792;
+                            (0.75f, Expression<Float> @:2592 check:60819,op:6,dt:6,nt:9,next:2593,nextCheck:60820,str:31976,h:0,d0:0,d1:16192;
+                                (60, Expression<Short> @:2593 check:60820,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:31980,h:0,d0:60,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:2594 check:60821,op:27,dt:4,nt:8,next:2597,nextCheck:60824,str:31986,h:0,d0:2595,d1:60822;
+                ("print", Expression<MethodOrOperator> @:2595 check:60822,op:27,dt:2,nt:9,next:2596,nextCheck:60823,str:91,h:0,d0:0,d1:0;
+                    ("johnson - annoyed .75 60", Expression<String> @:2596 check:60823,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:7237,h:0,d0:7237,d1:0;)))
+            (____, BuiltinInvocation<Void> @:2597 check:60824,op:19,dt:4,nt:8,next:2600,nextCheck:60827,str:32025,h:0,d0:2598,d1:60825;
+                ("sleep", Expression<MethodOrOperator> @:2598 check:60825,op:19,dt:2,nt:9,next:2599,nextCheck:60826,str:85,h:0,d0:0,d1:0;
+                    (10, Expression<Short> @:2599 check:60826,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:32032,h:0,d0:10,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2600 check:60827,op:596,dt:4,nt:8,next:2605,nextCheck:60832,str:32053,h:0,d0:2601,d1:60828;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:2601 check:60828,op:596,dt:2,nt:9,next:2602,nextCheck:60829,str:1250,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\06_sentinelwall\cinematic\x07_0080_jon", Expression<Sound> @:2602 check:60829,op:32,dt:32,nt:9,next:2603,nextCheck:60830,str:7262,h:0,d0:979,d1:58697;
+                        (4294901786, Expression<Entity> @:2603 check:60830,op:56,dt:50,nt:9,next:2604,nextCheck:60831,str:6335,h:0,d0:26,d1:65535;
+                            (1f, Expression<Float> @:2604 check:60831,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:32141,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:2605 check:60832,op:562,dt:4,nt:8,next:2609,nextCheck:60836,str:32146,h:0,d0:2606,d1:60833;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:2606 check:60833,op:562,dt:2,nt:9,next:2607,nextCheck:60834,str:1534,h:0,d0:0,d1:0;
+                    ("x07_0080_jon", Expression<StringId> @:2607 check:60834,op:11,dt:11,nt:9,next:2608,nextCheck:60835,str:7321,h:0,d0:4926,d1:3072;
+                        (1f, Expression<Float> @:2608 check:60835,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:32179,h:0,d0:0,d1:16256;))))
+            (____, BuiltinInvocation<Void> @:2609 check:60836,op:19,dt:4,nt:8,next:2612,nextCheck:60839,str:32187,h:0,d0:2610,d1:60837;
+                ("sleep", Expression<MethodOrOperator> @:2610 check:60837,op:19,dt:2,nt:9,next:2611,nextCheck:60838,str:85,h:0,d0:0,d1:0;
+                    (45, Expression<Short> @:2611 check:60838,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:32194,h:0,d0:45,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2612 check:60839,op:220,dt:4,nt:8,next:2618,nextCheck:60845,str:32200,h:0,d0:2613,d1:60840;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2613 check:60840,op:220,dt:2,nt:9,next:2614,nextCheck:60841,str:5534,h:0,d0:0,d1:0;
+                    ("johnson", Expression<Unit> @:2614 check:60841,op:57,dt:51,nt:9,next:2615,nextCheck:60842,str:6335,h:0,d0:26,d1:65535;
+                        ("shocked", Expression<StringId> @:2615 check:60842,op:11,dt:11,nt:9,next:2616,nextCheck:60843,str:6450,h:0,d0:426,d1:1792;
+                            (0.5f, Expression<Float> @:2616 check:60843,op:6,dt:6,nt:9,next:2617,nextCheck:60844,str:32242,h:0,d0:0,d1:16128;
+                                (30, Expression<Short> @:2617 check:60844,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:32245,h:0,d0:30,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:2618 check:60845,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:32251,h:0,d0:2619,d1:60846;
+                ("print", Expression<MethodOrOperator> @:2619 check:60846,op:27,dt:2,nt:9,next:2620,nextCheck:60847,str:91,h:0,d0:0,d1:0;
+                    ("johnson - shocked .5 30", Expression<String> @:2620 check:60847,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:7334,h:0,d0:7334,d1:0;))))))

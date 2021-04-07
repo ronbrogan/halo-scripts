@@ -1,23 +1,23 @@
 
-("mission_main", MethodDecl<Void> @:430 op:0,dt:0,nt:65535,next:15731,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:15731 op:0,dt:4,nt:8,next:65535,str:9343,d0:15732,d1:41192;
-        ("begin", Expression<MethodOrOperator> @:15732 op:0,dt:2,nt:9,next:15712,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:15712 op:310,dt:4,nt:8,next:15716,str:9402,d0:15713,d1:41173;
-                ("ai_allegiance", Expression<MethodOrOperator> @:15713 op:310,dt:2,nt:9,next:15714,str:31666,d0:0,d1:0;
-                    ("player", Expression<Team> @:15714 op:45,dt:45,nt:9,next:15715,str:17564,d0:1,d1:65535;
-                        ("human", Expression<Team> @:15715 op:45,dt:45,nt:9,next:65535,str:31680,d0:2,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:15716 op:310,dt:4,nt:8,next:15720,str:9433,d0:15717,d1:41177;
-                ("ai_allegiance", Expression<MethodOrOperator> @:15717 op:310,dt:2,nt:9,next:15718,str:31666,d0:0,d1:0;
-                    ("covenant", Expression<Team> @:15718 op:45,dt:45,nt:9,next:15719,str:31686,d0:3,d1:65535;
-                        ("prophet", Expression<Team> @:15719 op:45,dt:45,nt:9,next:65535,str:31695,d0:7,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:15720 op:752,dt:4,nt:8,next:15722,str:9492,d0:15721,d1:41181;
-                ("objectives_clear", Expression<MethodOrOperator> @:15721 op:752,dt:2,nt:9,next:65535,str:31703,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:15722 op:2,dt:4,nt:8,next:65535,str:9601,d0:15723,d1:41183;
-                ("if", Expression<MethodOrOperator> @:15723 op:2,dt:2,nt:9,next:15724,str:461,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:15724 op:15,dt:5,nt:8,next:15729,str:9605,d0:15725,d1:41185;
-                        (">", Expression<MethodOrOperator> @:15725 op:15,dt:2,nt:9,next:15726,str:18883,d0:0,d1:0;
-                            ("player_count", ScriptInvocation<Short> @:15726 op:2,dt:7,nt:10,next:15728,str:9608,d0:15727,d1:41187;
-                                ("player_count", Expression<MethodOrOperator> @:15727 op:2,dt:2,nt:9,next:65535,str:31720,d0:0,d1:0;))
-                            (0, Expression<Short> @:15728 op:7,dt:7,nt:9,next:65535,str:9623,d0:0,d1:65535;)))
-                    ("start", ScriptInvocation<Void> @:15729 op:429,dt:4,nt:10,next:65535,str:9627,d0:15730,d1:41190;
-                        ("start", Expression<MethodOrOperator> @:15730 op:429,dt:2,nt:9,next:65535,str:31733,d0:0,d1:0;)))))))
+("mission_main", MethodDecl<Void> @:430 check:0,op:0,dt:0,nt:65535,next:15731,nextCheck:41191,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:15731 check:41191,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9343,h:3,d0:15732,d1:41192;
+        ("begin", Expression<MethodOrOperator> @:15732 check:41192,op:0,dt:2,nt:9,next:15712,nextCheck:41172,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:15712 check:41172,op:310,dt:4,nt:8,next:15716,nextCheck:41176,str:9402,h:3,d0:15713,d1:41173;
+                ("ai_allegiance", Expression<MethodOrOperator> @:15713 check:41173,op:310,dt:2,nt:9,next:15714,nextCheck:41174,str:31666,h:0,d0:0,d1:0;
+                    ("player", Expression<Team> @:15714 check:41174,op:45,dt:45,nt:9,next:15715,nextCheck:41175,str:17564,h:0,d0:1,d1:65535;
+                        ("human", Expression<Team> @:15715 check:41175,op:45,dt:45,nt:9,next:65535,nextCheck:65535,str:31680,h:0,d0:2,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:15716 check:41176,op:310,dt:4,nt:8,next:15720,nextCheck:41180,str:9433,h:3,d0:15717,d1:41177;
+                ("ai_allegiance", Expression<MethodOrOperator> @:15717 check:41177,op:310,dt:2,nt:9,next:15718,nextCheck:41178,str:31666,h:0,d0:0,d1:0;
+                    ("covenant", Expression<Team> @:15718 check:41178,op:45,dt:45,nt:9,next:15719,nextCheck:41179,str:31686,h:0,d0:3,d1:65535;
+                        ("prophet", Expression<Team> @:15719 check:41179,op:45,dt:45,nt:9,next:65535,nextCheck:65535,str:31695,h:0,d0:7,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:15720 check:41180,op:752,dt:4,nt:8,next:15722,nextCheck:41182,str:9492,h:3,d0:15721,d1:41181;
+                ("objectives_clear", Expression<MethodOrOperator> @:15721 check:41181,op:752,dt:2,nt:9,next:65535,nextCheck:65535,str:31703,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:15722 check:41182,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:9601,h:3,d0:15723,d1:41183;
+                ("if", Expression<MethodOrOperator> @:15723 check:41183,op:2,dt:2,nt:9,next:15724,nextCheck:41184,str:461,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:15724 check:41184,op:15,dt:5,nt:8,next:15729,nextCheck:41189,str:9605,h:3,d0:15725,d1:41185;
+                        (">", Expression<MethodOrOperator> @:15725 check:41185,op:15,dt:2,nt:9,next:15726,nextCheck:41186,str:18883,h:0,d0:0,d1:0;
+                            ("player_count", ScriptInvocation<Short> @:15726 check:41186,op:2,dt:7,nt:10,next:15728,nextCheck:41188,str:9608,h:3,d0:15727,d1:41187;
+                                ("player_count", Expression<MethodOrOperator> @:15727 check:41187,op:2,dt:2,nt:9,next:65535,nextCheck:65535,str:31720,h:0,d0:0,d1:0;))
+                            (0, Expression<Short> @:15728 check:41188,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:9623,h:3,d0:0,d1:65535;)))
+                    ("start", ScriptInvocation<Void> @:15729 check:41189,op:429,dt:4,nt:10,next:65535,nextCheck:65535,str:9627,h:3,d0:15730,d1:41190;
+                        ("start", Expression<MethodOrOperator> @:15730 check:41190,op:429,dt:2,nt:9,next:65535,nextCheck:65535,str:31733,h:0,d0:0,d1:0;)))))))

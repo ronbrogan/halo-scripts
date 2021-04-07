@@ -1,16 +1,16 @@
 
-("cs_go_to_bridge", MethodDecl<Void> @:339 op:0,dt:0,nt:65535,next:16710,str:26446,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:16710 op:0,dt:4,nt:8,next:65535,str:32989,d0:16711,d1:42171;
-        ("begin", Expression<MethodOrOperator> @:16711 op:0,dt:2,nt:9,next:16698,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:16698 op:449,dt:4,nt:8,next:16701,str:33030,d0:16699,d1:42159;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:16699 op:449,dt:2,nt:9,next:16700,str:1239,d0:0,d1:0;
-                    (True, Expression<Boolean> @:16700 op:5,dt:5,nt:9,next:65535,str:33062,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16701 op:385,dt:4,nt:8,next:16704,str:33070,d0:16702,d1:42162;
-                ("cs_go_to", Expression<MethodOrOperator> @:16702 op:385,dt:2,nt:9,next:16703,str:1290,d0:0,d1:0;
-                    ("qz_ini/p0", Expression<SpatialPoint> @:16703 op:28,dt:28,nt:9,next:65535,str:26288,d0:1,d1:8;)))
-            (____, BuiltinInvocation<Void> @:16704 op:385,dt:4,nt:8,next:16707,str:33093,d0:16705,d1:42165;
-                ("cs_go_to", Expression<MethodOrOperator> @:16705 op:385,dt:2,nt:9,next:16706,str:1290,d0:0,d1:0;
-                    ("qz_ini/p1", Expression<SpatialPoint> @:16706 op:28,dt:28,nt:9,next:65535,str:26298,d0:2,d1:8;)))
-            (____, BuiltinInvocation<Void> @:16707 op:385,dt:4,nt:8,next:65535,str:33116,d0:16708,d1:42168;
-                ("cs_go_to", Expression<MethodOrOperator> @:16708 op:385,dt:2,nt:9,next:16709,str:1290,d0:0,d1:0;
-                    ("qz_ini/bridge", Expression<SpatialPoint> @:16709 op:28,dt:28,nt:9,next:65535,str:26308,d0:0,d1:8;))))))
+("cs_go_to_bridge", MethodDecl<Void> @:339 check:0,op:0,dt:0,nt:65535,next:16710,nextCheck:42170,str:26446,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:16710 check:42170,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:32989,h:2,d0:16711,d1:42171;
+        ("begin", Expression<MethodOrOperator> @:16711 check:42171,op:0,dt:2,nt:9,next:16698,nextCheck:42158,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:16698 check:42158,op:449,dt:4,nt:8,next:16701,nextCheck:42161,str:33030,h:2,d0:16699,d1:42159;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:16699 check:42159,op:449,dt:2,nt:9,next:16700,nextCheck:42160,str:1239,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16700 check:42160,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:33062,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16701 check:42161,op:385,dt:4,nt:8,next:16704,nextCheck:42164,str:33070,h:2,d0:16702,d1:42162;
+                ("cs_go_to", Expression<MethodOrOperator> @:16702 check:42162,op:385,dt:2,nt:9,next:16703,nextCheck:42163,str:1290,h:0,d0:0,d1:0;
+                    ("qz_ini/p0", Expression<SpatialPoint> @:16703 check:42163,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:26288,h:0,d0:1,d1:8;)))
+            (____, BuiltinInvocation<Void> @:16704 check:42164,op:385,dt:4,nt:8,next:16707,nextCheck:42167,str:33093,h:2,d0:16705,d1:42165;
+                ("cs_go_to", Expression<MethodOrOperator> @:16705 check:42165,op:385,dt:2,nt:9,next:16706,nextCheck:42166,str:1290,h:0,d0:0,d1:0;
+                    ("qz_ini/p1", Expression<SpatialPoint> @:16706 check:42166,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:26298,h:0,d0:2,d1:8;)))
+            (____, BuiltinInvocation<Void> @:16707 check:42167,op:385,dt:4,nt:8,next:65535,nextCheck:65535,str:33116,h:2,d0:16708,d1:42168;
+                ("cs_go_to", Expression<MethodOrOperator> @:16708 check:42168,op:385,dt:2,nt:9,next:16709,nextCheck:42169,str:1290,h:0,d0:0,d1:0;
+                    ("qz_ini/bridge", Expression<SpatialPoint> @:16709 check:42169,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:26308,h:0,d0:0,d1:8;))))))

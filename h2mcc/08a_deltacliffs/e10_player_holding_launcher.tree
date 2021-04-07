@@ -1,11 +1,11 @@
 
-("e10_player_holding_launcher", MethodDecl<Boolean> @:88 op:0,dt:0,nt:65535,next:2684,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Boolean> @:2684 op:0,dt:5,nt:8,next:65535,str:33092,d0:2685,d1:60912;
-        ("begin", Expression<MethodOrOperator> @:2685 op:0,dt:2,nt:9,next:2677,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Boolean> @:2677 op:242,dt:5,nt:8,next:65535,str:33145,d0:2678,d1:60905;
-                ("unit_has_weapon", Expression<MethodOrOperator> @:2678 op:242,dt:2,nt:9,next:2679,str:5872,d0:0,d1:0;
-                    (____, BuiltinInvocation<Unit> @:2679 op:24,dt:51,nt:8,next:2683,str:33162,d0:2680,d1:60907;
-                        ("unit", Expression<MethodOrOperator> @:2680 op:24,dt:2,nt:9,next:2681,str:70,d0:0,d1:0;
-                            ("player0", ScriptInvocation<Entity> @:2681 op:0,dt:50,nt:10,next:65535,str:33168,d0:2682,d1:60909;
-                                ("player0", Expression<MethodOrOperator> @:2682 op:0,dt:2,nt:9,next:65535,str:665,d0:0,d1:0;))))
-                    ("objects\weapons\support_high\rocket_launcher\rocket_launcher.weapon", Expression<TagReference> @:2683 op:38,dt:38,nt:9,next:65535,str:5888,d0:5615,d1:63503;))))))
+("e10_player_holding_launcher", MethodDecl<Boolean> @:88 check:0,op:0,dt:0,nt:65535,next:2684,nextCheck:60911,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Boolean> @:2684 check:60911,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:33092,h:0,d0:2685,d1:60912;
+        ("begin", Expression<MethodOrOperator> @:2685 check:60912,op:0,dt:2,nt:9,next:2677,nextCheck:60904,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Boolean> @:2677 check:60904,op:242,dt:5,nt:8,next:65535,nextCheck:65535,str:33145,h:0,d0:2678,d1:60905;
+                ("unit_has_weapon", Expression<MethodOrOperator> @:2678 check:60905,op:242,dt:2,nt:9,next:2679,nextCheck:60906,str:5872,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Unit> @:2679 check:60906,op:24,dt:51,nt:8,next:2683,nextCheck:60910,str:33162,h:0,d0:2680,d1:60907;
+                        ("unit", Expression<MethodOrOperator> @:2680 check:60907,op:24,dt:2,nt:9,next:2681,nextCheck:60908,str:70,h:0,d0:0,d1:0;
+                            ("player0", ScriptInvocation<Entity> @:2681 check:60908,op:0,dt:50,nt:10,next:65535,nextCheck:65535,str:33168,h:0,d0:2682,d1:60909;
+                                ("player0", Expression<MethodOrOperator> @:2682 check:60909,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:665,h:0,d0:0,d1:0;))))
+                    ("objects\weapons\support_high\rocket_launcher\rocket_launcher.weapon", Expression<TagReference> @:2683 check:60910,op:38,dt:38,nt:9,next:65535,nextCheck:65535,str:5888,h:0,d0:5615,d1:63503;))))))

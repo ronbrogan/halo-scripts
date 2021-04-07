@@ -1,17 +1,17 @@
 
-("test", MethodDecl<Void> @:196 op:0,dt:0,nt:65535,next:7073,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:7073 op:0,dt:4,nt:8,next:65535,str:28813,d0:7074,d1:65301;
-        ("begin", Expression<MethodOrOperator> @:7074 op:0,dt:2,nt:9,next:7060,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:7060 op:27,dt:4,nt:8,next:7063,str:28840,d0:7061,d1:65288;
-                ("print", Expression<MethodOrOperator> @:7061 op:27,dt:2,nt:9,next:7062,str:86,d0:0,d1:0;
-                    ("effect - infection burrow", Expression<String> @:7062 op:9,dt:9,nt:9,next:65535,str:15477,d0:15477,d1:0;)))
-            (____, BuiltinInvocation<Void> @:7063 op:41,dt:4,nt:8,next:7068,str:28878,d0:7064,d1:65291;
-                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:7064 op:41,dt:2,nt:9,next:7065,str:7832,d0:0,d1:0;
-                    ("effects\cinematics\07\flood_burrowing", Expression<Effect> @:7065 op:33,dt:33,nt:9,next:7066,str:15503,d0:1145,d1:58863;
-                        (4294902026, Expression<Entity> @:7066 op:56,dt:50,nt:9,next:7067,str:14908,d0:266,d1:65535;
-                            ("mouth", Expression<StringId> @:7067 op:11,dt:11,nt:9,next:65535,str:15541,d0:4387,d1:1280;)))))
-            (____, BuiltinInvocation<Void> @:7068 op:41,dt:4,nt:8,next:65535,str:28974,d0:7069,d1:65296;
-                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:7069 op:41,dt:2,nt:9,next:7070,str:7832,d0:0,d1:0;
-                    ("effects\cinematics\07\flood_burrowing", Expression<Effect> @:7070 op:33,dt:33,nt:9,next:7071,str:15503,d0:1145,d1:58863;
-                        (4294902024, Expression<Entity> @:7071 op:56,dt:50,nt:9,next:7072,str:14890,d0:264,d1:65535;
-                            ("mouth", Expression<StringId> @:7072 op:11,dt:11,nt:9,next:65535,str:15541,d0:4387,d1:1280;))))))))
+("test", MethodDecl<Void> @:196 check:0,op:0,dt:0,nt:65535,next:7073,nextCheck:65300,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:7073 check:65300,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28813,h:1,d0:7074,d1:65301;
+        ("begin", Expression<MethodOrOperator> @:7074 check:65301,op:0,dt:2,nt:9,next:7060,nextCheck:65287,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:7060 check:65287,op:27,dt:4,nt:8,next:7063,nextCheck:65290,str:28840,h:1,d0:7061,d1:65288;
+                ("print", Expression<MethodOrOperator> @:7061 check:65288,op:27,dt:2,nt:9,next:7062,nextCheck:65289,str:86,h:0,d0:0,d1:0;
+                    ("effect - infection burrow", Expression<String> @:7062 check:65289,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:15477,h:0,d0:15477,d1:0;)))
+            (____, BuiltinInvocation<Void> @:7063 check:65290,op:41,dt:4,nt:8,next:7068,nextCheck:65295,str:28878,h:1,d0:7064,d1:65291;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:7064 check:65291,op:41,dt:2,nt:9,next:7065,nextCheck:65292,str:7832,h:0,d0:0,d1:0;
+                    ("effects\cinematics\07\flood_burrowing", Expression<Effect> @:7065 check:65292,op:33,dt:33,nt:9,next:7066,nextCheck:65293,str:15503,h:0,d0:1145,d1:58863;
+                        (4294902026, Expression<Entity> @:7066 check:65293,op:56,dt:50,nt:9,next:7067,nextCheck:65294,str:14908,h:0,d0:266,d1:65535;
+                            ("mouth", Expression<StringId> @:7067 check:65294,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:15541,h:0,d0:4387,d1:1280;)))))
+            (____, BuiltinInvocation<Void> @:7068 check:65295,op:41,dt:4,nt:8,next:65535,nextCheck:65535,str:28974,h:1,d0:7069,d1:65296;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:7069 check:65296,op:41,dt:2,nt:9,next:7070,nextCheck:65297,str:7832,h:0,d0:0,d1:0;
+                    ("effects\cinematics\07\flood_burrowing", Expression<Effect> @:7070 check:65297,op:33,dt:33,nt:9,next:7071,nextCheck:65298,str:15503,h:0,d0:1145,d1:58863;
+                        (4294902024, Expression<Entity> @:7071 check:65298,op:56,dt:50,nt:9,next:7072,nextCheck:65299,str:14890,h:0,d0:264,d1:65535;
+                            ("mouth", Expression<StringId> @:7072 check:65299,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:15541,h:0,d0:4387,d1:1280;))))))))

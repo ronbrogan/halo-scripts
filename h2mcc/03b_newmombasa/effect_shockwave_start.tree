@@ -1,13 +1,13 @@
 
-("effect_shockwave_start", MethodDecl<Void> @:158 op:0,dt:0,nt:65535,next:5176,str:12071,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5176 op:0,dt:4,nt:8,next:65535,str:62095,d0:5177,d1:63404;
-        ("begin", Expression<MethodOrOperator> @:5177 op:0,dt:2,nt:9,next:5167,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5167 op:19,dt:4,nt:8,next:5170,str:62136,d0:5168,d1:63395;
-                ("sleep", Expression<MethodOrOperator> @:5168 op:19,dt:2,nt:9,next:5169,str:85,d0:0,d1:0;
-                    (218, Expression<Short> @:5169 op:7,dt:7,nt:9,next:65535,str:62143,d0:218,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5170 op:48,dt:4,nt:8,next:5173,str:62150,d0:5171,d1:63398;
-                ("object_create_anew", Expression<MethodOrOperator> @:5171 op:48,dt:2,nt:9,next:5172,str:2379,d0:0,d1:0;
-                    ("x03_shockwave_start", Expression<EntityIdentifier> @:5172 op:56,dt:56,nt:9,next:65535,str:11974,d0:69,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5173 op:27,dt:4,nt:8,next:65535,str:62193,d0:5174,d1:63401;
-                ("print", Expression<MethodOrOperator> @:5174 op:27,dt:2,nt:9,next:5175,str:91,d0:0,d1:0;
-                    ("effect - shockwave start", Expression<String> @:5175 op:9,dt:9,nt:9,next:65535,str:11994,d0:11994,d1:0;))))))
+("effect_shockwave_start", MethodDecl<Void> @:158 check:0,op:0,dt:0,nt:65535,next:5176,nextCheck:63403,str:12071,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5176 check:63403,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:62095,h:0,d0:5177,d1:63404;
+        ("begin", Expression<MethodOrOperator> @:5177 check:63404,op:0,dt:2,nt:9,next:5167,nextCheck:63394,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5167 check:63394,op:19,dt:4,nt:8,next:5170,nextCheck:63397,str:62136,h:0,d0:5168,d1:63395;
+                ("sleep", Expression<MethodOrOperator> @:5168 check:63395,op:19,dt:2,nt:9,next:5169,nextCheck:63396,str:85,h:0,d0:0,d1:0;
+                    (218, Expression<Short> @:5169 check:63396,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:62143,h:0,d0:218,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5170 check:63397,op:48,dt:4,nt:8,next:5173,nextCheck:63400,str:62150,h:0,d0:5171,d1:63398;
+                ("object_create_anew", Expression<MethodOrOperator> @:5171 check:63398,op:48,dt:2,nt:9,next:5172,nextCheck:63399,str:2379,h:0,d0:0,d1:0;
+                    ("x03_shockwave_start", Expression<EntityIdentifier> @:5172 check:63399,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:11974,h:0,d0:69,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5173 check:63400,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:62193,h:0,d0:5174,d1:63401;
+                ("print", Expression<MethodOrOperator> @:5174 check:63401,op:27,dt:2,nt:9,next:5175,nextCheck:63402,str:91,h:0,d0:0,d1:0;
+                    ("effect - shockwave start", Expression<String> @:5175 check:63402,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:11994,h:0,d0:11994,d1:0;))))))

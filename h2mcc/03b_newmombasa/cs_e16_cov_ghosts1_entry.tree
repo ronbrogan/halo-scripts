@@ -1,13 +1,13 @@
 
-("cs_e16_cov_ghosts1_entry", MethodDecl<Void> @:383 op:0,dt:0,nt:65535,next:13750,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:13750 op:0,dt:4,nt:8,next:65535,str:48333,d0:13751,d1:39211;
-        ("begin", Expression<MethodOrOperator> @:13751 op:0,dt:2,nt:9,next:13741,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:13741 op:444,dt:4,nt:8,next:13744,str:48383,d0:13742,d1:39202;
-                ("cs_enable_moving", Expression<MethodOrOperator> @:13742 op:444,dt:2,nt:9,next:13743,str:16035,d0:0,d1:0;
-                    (True, Expression<Boolean> @:13743 op:5,dt:5,nt:9,next:65535,str:48401,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:13744 op:438,dt:4,nt:8,next:13747,str:48409,d0:13745,d1:39205;
-                ("cs_vehicle_boost", Expression<MethodOrOperator> @:13745 op:438,dt:2,nt:9,next:13746,str:15358,d0:0,d1:0;
-                    (True, Expression<Boolean> @:13746 op:5,dt:5,nt:9,next:65535,str:48427,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:13747 op:19,dt:4,nt:8,next:65535,str:48435,d0:13748,d1:39208;
-                ("sleep", Expression<MethodOrOperator> @:13748 op:19,dt:2,nt:9,next:13749,str:85,d0:0,d1:0;
-                    (150, Expression<Short> @:13749 op:7,dt:7,nt:9,next:65535,str:48442,d0:150,d1:65535;))))))
+("cs_e16_cov_ghosts1_entry", MethodDecl<Void> @:383 check:0,op:0,dt:0,nt:65535,next:13750,nextCheck:39210,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:13750 check:39210,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:48333,h:2,d0:13751,d1:39211;
+        ("begin", Expression<MethodOrOperator> @:13751 check:39211,op:0,dt:2,nt:9,next:13741,nextCheck:39201,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:13741 check:39201,op:444,dt:4,nt:8,next:13744,nextCheck:39204,str:48383,h:2,d0:13742,d1:39202;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:13742 check:39202,op:444,dt:2,nt:9,next:13743,nextCheck:39203,str:16035,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:13743 check:39203,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:48401,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:13744 check:39204,op:438,dt:4,nt:8,next:13747,nextCheck:39207,str:48409,h:2,d0:13745,d1:39205;
+                ("cs_vehicle_boost", Expression<MethodOrOperator> @:13745 check:39205,op:438,dt:2,nt:9,next:13746,nextCheck:39206,str:15358,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:13746 check:39206,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:48427,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:13747 check:39207,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:48435,h:2,d0:13748,d1:39208;
+                ("sleep", Expression<MethodOrOperator> @:13748 check:39208,op:19,dt:2,nt:9,next:13749,nextCheck:39209,str:85,h:0,d0:0,d1:0;
+                    (150, Expression<Short> @:13749 check:39209,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:48442,h:2,d0:150,d1:65535;))))))

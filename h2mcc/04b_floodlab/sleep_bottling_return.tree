@@ -1,22 +1,22 @@
 
-("sleep_bottling_return", MethodDecl<Void> @:375 op:0,dt:0,nt:65535,next:31530,str:42319,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:31530 op:0,dt:4,nt:8,next:65535,str:40022,d0:31531,d1:56991;
-        ("begin", Expression<MethodOrOperator> @:31531 op:0,dt:2,nt:9,next:31512,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:31512 op:20,dt:4,nt:8,next:31515,str:40066,d0:31513,d1:56973;
-                ("sleep_forever", Expression<MethodOrOperator> @:31513 op:20,dt:2,nt:9,next:31514,str:9739,d0:0,d1:0;
-                    ("bottling_secondtime_start", Expression<ScriptReference> @:31514 op:10,dt:10,nt:9,next:65535,str:39101,d0:311,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:31515 op:20,dt:4,nt:8,next:31518,str:40110,d0:31516,d1:56976;
-                ("sleep_forever", Expression<MethodOrOperator> @:31516 op:20,dt:2,nt:9,next:31517,str:9739,d0:0,d1:0;
-                    ("bottling_return_s_respawner", Expression<ScriptReference> @:31517 op:10,dt:10,nt:9,next:65535,str:33532,d0:301,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:31518 op:20,dt:4,nt:8,next:31521,str:40156,d0:31519,d1:56979;
-                ("sleep_forever", Expression<MethodOrOperator> @:31519 op:20,dt:2,nt:9,next:31520,str:9739,d0:0,d1:0;
-                    ("bottling_return_cf_respawner", Expression<ScriptReference> @:31520 op:10,dt:10,nt:9,next:65535,str:33560,d0:302,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:31521 op:20,dt:4,nt:8,next:31524,str:40203,d0:31522,d1:56982;
-                ("sleep_forever", Expression<MethodOrOperator> @:31522 op:20,dt:2,nt:9,next:31523,str:9739,d0:0,d1:0;
-                    ("bottling_return_ca_respawner", Expression<ScriptReference> @:31523 op:10,dt:10,nt:9,next:65535,str:33589,d0:303,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:31524 op:20,dt:4,nt:8,next:31527,str:40250,d0:31525,d1:56985;
-                ("sleep_forever", Expression<MethodOrOperator> @:31525 op:20,dt:2,nt:9,next:31526,str:9739,d0:0,d1:0;
-                    ("to_underhangar_secondtime", Expression<ScriptReference> @:31526 op:10,dt:10,nt:9,next:65535,str:39127,d0:320,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:31527 op:20,dt:4,nt:8,next:65535,str:40294,d0:31528,d1:56988;
-                ("sleep_forever", Expression<MethodOrOperator> @:31528 op:20,dt:2,nt:9,next:31529,str:9739,d0:0,d1:0;
-                    ("bottling_return_commander", Expression<ScriptReference> @:31529 op:10,dt:10,nt:9,next:65535,str:33309,d0:304,d1:65535;))))))
+("sleep_bottling_return", MethodDecl<Void> @:375 check:0,op:0,dt:0,nt:65535,next:31530,nextCheck:56990,str:42319,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:31530 check:56990,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:40022,h:4,d0:31531,d1:56991;
+        ("begin", Expression<MethodOrOperator> @:31531 check:56991,op:0,dt:2,nt:9,next:31512,nextCheck:56972,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:31512 check:56972,op:20,dt:4,nt:8,next:31515,nextCheck:56975,str:40066,h:4,d0:31513,d1:56973;
+                ("sleep_forever", Expression<MethodOrOperator> @:31513 check:56973,op:20,dt:2,nt:9,next:31514,nextCheck:56974,str:9739,h:0,d0:0,d1:0;
+                    ("bottling_secondtime_start", Expression<ScriptReference> @:31514 check:56974,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:39101,h:0,d0:311,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:31515 check:56975,op:20,dt:4,nt:8,next:31518,nextCheck:56978,str:40110,h:4,d0:31516,d1:56976;
+                ("sleep_forever", Expression<MethodOrOperator> @:31516 check:56976,op:20,dt:2,nt:9,next:31517,nextCheck:56977,str:9739,h:0,d0:0,d1:0;
+                    ("bottling_return_s_respawner", Expression<ScriptReference> @:31517 check:56977,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:33532,h:0,d0:301,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:31518 check:56978,op:20,dt:4,nt:8,next:31521,nextCheck:56981,str:40156,h:4,d0:31519,d1:56979;
+                ("sleep_forever", Expression<MethodOrOperator> @:31519 check:56979,op:20,dt:2,nt:9,next:31520,nextCheck:56980,str:9739,h:0,d0:0,d1:0;
+                    ("bottling_return_cf_respawner", Expression<ScriptReference> @:31520 check:56980,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:33560,h:0,d0:302,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:31521 check:56981,op:20,dt:4,nt:8,next:31524,nextCheck:56984,str:40203,h:4,d0:31522,d1:56982;
+                ("sleep_forever", Expression<MethodOrOperator> @:31522 check:56982,op:20,dt:2,nt:9,next:31523,nextCheck:56983,str:9739,h:0,d0:0,d1:0;
+                    ("bottling_return_ca_respawner", Expression<ScriptReference> @:31523 check:56983,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:33589,h:0,d0:303,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:31524 check:56984,op:20,dt:4,nt:8,next:31527,nextCheck:56987,str:40250,h:4,d0:31525,d1:56985;
+                ("sleep_forever", Expression<MethodOrOperator> @:31525 check:56985,op:20,dt:2,nt:9,next:31526,nextCheck:56986,str:9739,h:0,d0:0,d1:0;
+                    ("to_underhangar_secondtime", Expression<ScriptReference> @:31526 check:56986,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:39127,h:0,d0:320,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:31527 check:56987,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:40294,h:4,d0:31528,d1:56988;
+                ("sleep_forever", Expression<MethodOrOperator> @:31528 check:56988,op:20,dt:2,nt:9,next:31529,nextCheck:56989,str:9739,h:0,d0:0,d1:0;
+                    ("bottling_return_commander", Expression<ScriptReference> @:31529 check:56989,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:33309,h:0,d0:304,d1:65535;))))))

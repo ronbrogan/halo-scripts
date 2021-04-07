@@ -1,17 +1,17 @@
 
-("l06_0300_tar", MethodDecl<Void> @:61 op:0,dt:0,nt:65535,next:1814,str:4902,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:1814 op:0,dt:4,nt:8,next:65535,str:22035,d0:1815,d1:60042;
-        ("begin", Expression<MethodOrOperator> @:1815 op:0,dt:2,nt:9,next:1801,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:1801 op:19,dt:4,nt:8,next:1804,str:22066,d0:1802,d1:60029;
-                ("sleep", Expression<MethodOrOperator> @:1802 op:19,dt:2,nt:9,next:1803,str:85,d0:0,d1:0;
-                    (74, Expression<Short> @:1803 op:7,dt:7,nt:9,next:65535,str:22073,d0:74,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1804 op:598,dt:4,nt:8,next:1810,str:22079,d0:1805,d1:60032;
-                ("sound_impulse_start_effect", Expression<MethodOrOperator> @:1805 op:598,dt:2,nt:9,next:1806,str:4807,d0:0,d1:0;
-                    ("sound\dialog\levels\06_sentinelwall\mission\l06_0300_tar", Expression<Sound> @:1806 op:32,dt:32,nt:9,next:1807,str:4834,d0:886,d1:58604;
-                        (4294967295, Expression<Entity> @:1807 op:50,dt:50,nt:9,next:1808,str:1,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:1808 op:6,dt:6,nt:9,next:1809,str:22169,d0:0,d1:16256;
-                                ("radio_covy", Expression<StringId> @:1809 op:11,dt:11,nt:9,next:65535,str:4891,d0:13502,d1:2560;))))))
-            (____, BuiltinInvocation<Void> @:1810 op:562,dt:4,nt:8,next:65535,str:22185,d0:1811,d1:60038;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:1811 op:562,dt:2,nt:9,next:1812,str:1534,d0:0,d1:0;
-                    ("l06_0300_tar", Expression<StringId> @:1812 op:11,dt:11,nt:9,next:1813,str:4902,d0:3901,d1:3072;
-                        (2f, Expression<Float> @:1813 op:6,dt:6,nt:9,next:65535,str:22218,d0:0,d1:16384;)))))))
+("l06_0300_tar", MethodDecl<Void> @:61 check:0,op:0,dt:0,nt:65535,next:1814,nextCheck:60041,str:4902,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:1814 check:60041,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:22035,h:0,d0:1815,d1:60042;
+        ("begin", Expression<MethodOrOperator> @:1815 check:60042,op:0,dt:2,nt:9,next:1801,nextCheck:60028,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1801 check:60028,op:19,dt:4,nt:8,next:1804,nextCheck:60031,str:22066,h:0,d0:1802,d1:60029;
+                ("sleep", Expression<MethodOrOperator> @:1802 check:60029,op:19,dt:2,nt:9,next:1803,nextCheck:60030,str:85,h:0,d0:0,d1:0;
+                    (74, Expression<Short> @:1803 check:60030,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:22073,h:0,d0:74,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1804 check:60031,op:598,dt:4,nt:8,next:1810,nextCheck:60037,str:22079,h:0,d0:1805,d1:60032;
+                ("sound_impulse_start_effect", Expression<MethodOrOperator> @:1805 check:60032,op:598,dt:2,nt:9,next:1806,nextCheck:60033,str:4807,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\06_sentinelwall\mission\l06_0300_tar", Expression<Sound> @:1806 check:60033,op:32,dt:32,nt:9,next:1807,nextCheck:60034,str:4834,h:0,d0:886,d1:58604;
+                        (4294967295, Expression<Entity> @:1807 check:60034,op:50,dt:50,nt:9,next:1808,nextCheck:60035,str:1,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:1808 check:60035,op:6,dt:6,nt:9,next:1809,nextCheck:60036,str:22169,h:0,d0:0,d1:16256;
+                                ("radio_covy", Expression<StringId> @:1809 check:60036,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:4891,h:0,d0:13502,d1:2560;))))))
+            (____, BuiltinInvocation<Void> @:1810 check:60037,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:22185,h:0,d0:1811,d1:60038;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:1811 check:60038,op:562,dt:2,nt:9,next:1812,nextCheck:60039,str:1534,h:0,d0:0,d1:0;
+                    ("l06_0300_tar", Expression<StringId> @:1812 check:60039,op:11,dt:11,nt:9,next:1813,nextCheck:60040,str:4902,h:0,d0:3901,d1:3072;
+                        (2f, Expression<Float> @:1813 check:60040,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:22218,h:0,d0:0,d1:16384;)))))))

@@ -1,15 +1,15 @@
 
-("effect_pelican_hit_01", MethodDecl<Void> @:102 op:0,dt:0,nt:65535,next:3665,str:8709,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3665 op:0,dt:4,nt:8,next:65535,str:40354,d0:3666,d1:61893;
-        ("begin", Expression<MethodOrOperator> @:3666 op:0,dt:2,nt:9,next:3654,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3654 op:19,dt:4,nt:8,next:3657,str:40396,d0:3655,d1:61882;
-                ("sleep", Expression<MethodOrOperator> @:3655 op:19,dt:2,nt:9,next:3656,str:143,d0:0,d1:0;
-                    (265, Expression<Short> @:3656 op:7,dt:7,nt:9,next:65535,str:40403,d0:265,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3657 op:27,dt:4,nt:8,next:3660,str:40410,d0:3658,d1:61885;
-                ("print", Expression<MethodOrOperator> @:3658 op:27,dt:2,nt:9,next:3659,str:149,d0:0,d1:0;
-                    ("pelican hit", Expression<String> @:3659 op:9,dt:9,nt:9,next:65535,str:7892,d0:7892,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3660 op:41,dt:4,nt:8,next:65535,str:40434,d0:3661,d1:61888;
-                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:3661 op:41,dt:2,nt:9,next:3662,str:7645,d0:0,d1:0;
-                    ("effects\generic\explosions_air\human_vehicle_air_hit", Expression<Effect> @:3662 op:33,dt:33,nt:9,next:3663,str:7904,d0:995,d1:58713;
-                        (4294901837, Expression<Entity> @:3663 op:56,dt:50,nt:9,next:3664,str:1439,d0:77,d1:65535;
-                            ("johnson", Expression<StringId> @:3664 op:11,dt:11,nt:9,next:65535,str:2043,d0:2444,d1:1792;))))))))
+("effect_pelican_hit_01", MethodDecl<Void> @:102 check:0,op:0,dt:0,nt:65535,next:3665,nextCheck:61892,str:8709,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3665 check:61892,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:40354,h:0,d0:3666,d1:61893;
+        ("begin", Expression<MethodOrOperator> @:3666 check:61893,op:0,dt:2,nt:9,next:3654,nextCheck:61881,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3654 check:61881,op:19,dt:4,nt:8,next:3657,nextCheck:61884,str:40396,h:0,d0:3655,d1:61882;
+                ("sleep", Expression<MethodOrOperator> @:3655 check:61882,op:19,dt:2,nt:9,next:3656,nextCheck:61883,str:143,h:0,d0:0,d1:0;
+                    (265, Expression<Short> @:3656 check:61883,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:40403,h:0,d0:265,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3657 check:61884,op:27,dt:4,nt:8,next:3660,nextCheck:61887,str:40410,h:0,d0:3658,d1:61885;
+                ("print", Expression<MethodOrOperator> @:3658 check:61885,op:27,dt:2,nt:9,next:3659,nextCheck:61886,str:149,h:0,d0:0,d1:0;
+                    ("pelican hit", Expression<String> @:3659 check:61886,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:7892,h:0,d0:7892,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3660 check:61887,op:41,dt:4,nt:8,next:65535,nextCheck:65535,str:40434,h:0,d0:3661,d1:61888;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:3661 check:61888,op:41,dt:2,nt:9,next:3662,nextCheck:61889,str:7645,h:0,d0:0,d1:0;
+                    ("effects\generic\explosions_air\human_vehicle_air_hit", Expression<Effect> @:3662 check:61889,op:33,dt:33,nt:9,next:3663,nextCheck:61890,str:7904,h:0,d0:995,d1:58713;
+                        (4294901837, Expression<Entity> @:3663 check:61890,op:56,dt:50,nt:9,next:3664,nextCheck:61891,str:1439,h:0,d0:77,d1:65535;
+                            ("johnson", Expression<StringId> @:3664 check:61891,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:2043,h:0,d0:2444,d1:1792;))))))))

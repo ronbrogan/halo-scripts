@@ -1,11 +1,11 @@
 
-("e22_fld_inf0_main", MethodDecl<Void> @:256 op:0,dt:0,nt:65535,next:11774,str:23764,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:11774 op:0,dt:4,nt:8,next:65535,str:6167,d0:11775,d1:37235;
-        ("begin", Expression<MethodOrOperator> @:11775 op:0,dt:2,nt:9,next:11767,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:11767 op:21,dt:4,nt:8,next:11771,str:6203,d0:11768,d1:37228;
-                ("sleep_until", Expression<MethodOrOperator> @:11768 op:21,dt:2,nt:9,next:11769,str:236,d0:0,d1:0;
-                    ("g_key_lock0_first_loadpoint", VariableAccess<Boolean> @:11769 op:5,dt:5,nt:13,next:11770,str:20173,d0:58,d1:0;
-                        (10, Expression<Short> @:11770 op:7,dt:7,nt:9,next:65535,str:6244,d0:10,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:11771 op:290,dt:4,nt:8,next:65535,str:6273,d0:11772,d1:37232;
-                ("ai_place", Expression<MethodOrOperator> @:11772 op:290,dt:2,nt:9,next:11773,str:16231,d0:0,d1:0;
-                    ("e22_fld_inf0", Expression<AI> @:11773 op:19,dt:19,nt:9,next:65535,str:23720,d0:59,d1:16384;))))))
+("e22_fld_inf0_main", MethodDecl<Void> @:256 check:0,op:0,dt:0,nt:65535,next:11774,nextCheck:37234,str:23764,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:11774 check:37234,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:6167,h:2,d0:11775,d1:37235;
+        ("begin", Expression<MethodOrOperator> @:11775 check:37235,op:0,dt:2,nt:9,next:11767,nextCheck:37227,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:11767 check:37227,op:21,dt:4,nt:8,next:11771,nextCheck:37231,str:6203,h:2,d0:11768,d1:37228;
+                ("sleep_until", Expression<MethodOrOperator> @:11768 check:37228,op:21,dt:2,nt:9,next:11769,nextCheck:37229,str:236,h:0,d0:0,d1:0;
+                    ("g_key_lock0_first_loadpoint", VariableAccess<Boolean> @:11769 check:37229,op:5,dt:5,nt:13,next:11770,nextCheck:37230,str:20173,h:0,d0:58,d1:0;
+                        (10, Expression<Short> @:11770 check:37230,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:6244,h:2,d0:10,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:11771 check:37231,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:6273,h:2,d0:11772,d1:37232;
+                ("ai_place", Expression<MethodOrOperator> @:11772 check:37232,op:290,dt:2,nt:9,next:11773,nextCheck:37233,str:16231,h:0,d0:0,d1:0;
+                    ("e22_fld_inf0", Expression<AI> @:11773 check:37233,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:23720,h:0,d0:59,d1:16384;))))))

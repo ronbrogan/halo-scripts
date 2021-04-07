@@ -1,10 +1,10 @@
 
-("x03_08_predict_stub", MethodDecl<Void> @:36 op:0,dt:0,nt:65535,next:20485,str:12190,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:20485 op:0,dt:4,nt:8,next:65535,str:26279,d0:20486,d1:45946;
-        ("begin", Expression<MethodOrOperator> @:20486 op:0,dt:2,nt:9,next:20479,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:20479 op:27,dt:4,nt:8,next:20482,str:26321,d0:20480,d1:45940;
-                ("print", Expression<MethodOrOperator> @:20480 op:27,dt:2,nt:9,next:20481,str:91,d0:0,d1:0;
-                    ("!!!08 predict", Expression<String> @:20481 op:9,dt:9,nt:9,next:65535,str:1303,d0:1303,d1:0;)))
-            (____, BuiltinInvocation<Void> @:20482 op:22,dt:4,nt:8,next:65535,str:26347,d0:20483,d1:45943;
-                ("wake", Expression<MethodOrOperator> @:20483 op:22,dt:2,nt:9,next:20484,str:1071,d0:0,d1:0;
-                    ("x03_08_predict", Expression<ScriptReference> @:20484 op:10,dt:10,nt:9,next:65535,str:1317,d0:443,d1:65535;))))))
+("x03_08_predict_stub", MethodDecl<Void> @:36 check:0,op:0,dt:0,nt:65535,next:20485,nextCheck:45945,str:12190,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:20485 check:45945,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:26279,h:4,d0:20486,d1:45946;
+        ("begin", Expression<MethodOrOperator> @:20486 check:45946,op:0,dt:2,nt:9,next:20479,nextCheck:45939,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:20479 check:45939,op:27,dt:4,nt:8,next:20482,nextCheck:45942,str:26321,h:4,d0:20480,d1:45940;
+                ("print", Expression<MethodOrOperator> @:20480 check:45940,op:27,dt:2,nt:9,next:20481,nextCheck:45941,str:91,h:0,d0:0,d1:0;
+                    ("!!!08 predict", Expression<String> @:20481 check:45941,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:1303,h:0,d0:1303,d1:0;)))
+            (____, BuiltinInvocation<Void> @:20482 check:45942,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:26347,h:4,d0:20483,d1:45943;
+                ("wake", Expression<MethodOrOperator> @:20483 check:45943,op:22,dt:2,nt:9,next:20484,nextCheck:45944,str:1071,h:0,d0:0,d1:0;
+                    ("x03_08_predict", Expression<ScriptReference> @:20484 check:45944,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:1317,h:0,d0:443,d1:65535;))))))

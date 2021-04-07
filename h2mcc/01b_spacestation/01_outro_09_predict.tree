@@ -1,11 +1,11 @@
 
-("01_outro_09_predict", MethodDecl<Void> @:417 op:0,dt:0,nt:65535,next:26357,str:1406,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:26357 op:0,dt:4,nt:8,next:65535,str:25291,d0:26358,d1:51818;
-        ("begin", Expression<MethodOrOperator> @:26358 op:0,dt:2,nt:9,next:26350,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:26350 op:19,dt:4,nt:8,next:26353,str:25332,d0:26351,d1:51811;
-                ("sleep", Expression<MethodOrOperator> @:26351 op:19,dt:2,nt:9,next:26352,str:90,d0:0,d1:0;
-                    (2, Expression<Short> @:26352 op:7,dt:7,nt:9,next:65535,str:25339,d0:2,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:26353 op:880,dt:4,nt:8,next:65535,str:25346,d0:26354,d1:51814;
-                ("predict_model_section", Expression<MethodOrOperator> @:26354 op:880,dt:2,nt:9,next:26355,str:44428,d0:0,d1:0;
-                    ("objects\cinematics\matte_paintings\africa_space\africa_space", Expression<Model> @:26355 op:41,dt:41,nt:9,next:26356,str:49253,d0:5531,d1:63419;
-                        (0, Expression<Int> @:26356 op:8,dt:8,nt:9,next:65535,str:25430,d0:0,d1:0;)))))))
+("01_outro_09_predict", MethodDecl<Void> @:417 check:0,op:0,dt:0,nt:65535,next:26357,nextCheck:51817,str:1406,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:26357 check:51817,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:25291,h:5,d0:26358,d1:51818;
+        ("begin", Expression<MethodOrOperator> @:26358 check:51818,op:0,dt:2,nt:9,next:26350,nextCheck:51810,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:26350 check:51810,op:19,dt:4,nt:8,next:26353,nextCheck:51813,str:25332,h:5,d0:26351,d1:51811;
+                ("sleep", Expression<MethodOrOperator> @:26351 check:51811,op:19,dt:2,nt:9,next:26352,nextCheck:51812,str:90,h:0,d0:0,d1:0;
+                    (2, Expression<Short> @:26352 check:51812,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:25339,h:5,d0:2,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:26353 check:51813,op:880,dt:4,nt:8,next:65535,nextCheck:65535,str:25346,h:5,d0:26354,d1:51814;
+                ("predict_model_section", Expression<MethodOrOperator> @:26354 check:51814,op:880,dt:2,nt:9,next:26355,nextCheck:51815,str:44428,h:0,d0:0,d1:0;
+                    ("objects\cinematics\matte_paintings\africa_space\africa_space", Expression<Model> @:26355 check:51815,op:41,dt:41,nt:9,next:26356,nextCheck:51816,str:49253,h:0,d0:5531,d1:63419;
+                        (0, Expression<Int> @:26356 check:51816,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:25430,h:5,d0:0,d1:0;)))))))

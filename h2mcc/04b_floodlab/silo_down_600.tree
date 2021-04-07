@@ -1,17 +1,17 @@
 
-("silo_down_600", MethodDecl<Void> @:184 op:0,dt:0,nt:65535,next:6487,str:16583,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6487 op:0,dt:4,nt:8,next:65535,str:9216,d0:6488,d1:64715;
-        ("begin", Expression<MethodOrOperator> @:6488 op:0,dt:2,nt:9,next:6474,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6474 op:266,dt:4,nt:8,next:6479,str:9252,d0:6475,d1:64702;
-                ("device_set_position_track", Expression<MethodOrOperator> @:6475 op:266,dt:2,nt:9,next:6476,str:15363,d0:0,d1:0;
-                    ("elev_silo", Expression<Device> @:6476 op:60,dt:54,nt:9,next:6477,str:15218,d0:385,d1:65535;
-                        ("down_600", Expression<StringId> @:6477 op:11,dt:11,nt:9,next:6478,str:15431,d0:11713,d1:2048;
-                            (0f, Expression<Float> @:6478 op:6,dt:6,nt:9,next:65535,str:9298,d0:0,d1:0;)))))
-            (____, BuiltinInvocation<Void> @:6479 op:268,dt:4,nt:8,next:65535,str:9303,d0:6480,d1:64707;
-                ("device_animate_position", Expression<MethodOrOperator> @:6480 op:268,dt:2,nt:9,next:6481,str:15398,d0:0,d1:0;
-                    ("elev_silo", Expression<Device> @:6481 op:60,dt:54,nt:9,next:6482,str:15218,d0:385,d1:65535;
-                        (1f, Expression<Float> @:6482 op:6,dt:6,nt:9,next:6483,str:9338,d0:0,d1:16256;
-                            (15f, Expression<Float> @:6483 op:6,dt:6,nt:9,next:6484,str:9340,d0:0,d1:16752;
-                                (1f, Expression<Float> @:6484 op:6,dt:6,nt:9,next:6485,str:9343,d0:0,d1:16256;
-                                    (1f, Expression<Float> @:6485 op:6,dt:6,nt:9,next:6486,str:9345,d0:0,d1:16256;
-                                        (False, Expression<Boolean> @:6486 op:5,dt:5,nt:9,next:65535,str:9347,d0:65280,d1:65535;)))))))))))
+("silo_down_600", MethodDecl<Void> @:184 check:0,op:0,dt:0,nt:65535,next:6487,nextCheck:64714,str:16583,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6487 check:64714,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:9216,h:1,d0:6488,d1:64715;
+        ("begin", Expression<MethodOrOperator> @:6488 check:64715,op:0,dt:2,nt:9,next:6474,nextCheck:64701,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6474 check:64701,op:266,dt:4,nt:8,next:6479,nextCheck:64706,str:9252,h:1,d0:6475,d1:64702;
+                ("device_set_position_track", Expression<MethodOrOperator> @:6475 check:64702,op:266,dt:2,nt:9,next:6476,nextCheck:64703,str:15363,h:0,d0:0,d1:0;
+                    ("elev_silo", Expression<Device> @:6476 check:64703,op:60,dt:54,nt:9,next:6477,nextCheck:64704,str:15218,h:0,d0:385,d1:65535;
+                        ("down_600", Expression<StringId> @:6477 check:64704,op:11,dt:11,nt:9,next:6478,nextCheck:64705,str:15431,h:0,d0:11713,d1:2048;
+                            (0f, Expression<Float> @:6478 check:64705,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:9298,h:1,d0:0,d1:0;)))))
+            (____, BuiltinInvocation<Void> @:6479 check:64706,op:268,dt:4,nt:8,next:65535,nextCheck:65535,str:9303,h:1,d0:6480,d1:64707;
+                ("device_animate_position", Expression<MethodOrOperator> @:6480 check:64707,op:268,dt:2,nt:9,next:6481,nextCheck:64708,str:15398,h:0,d0:0,d1:0;
+                    ("elev_silo", Expression<Device> @:6481 check:64708,op:60,dt:54,nt:9,next:6482,nextCheck:64709,str:15218,h:0,d0:385,d1:65535;
+                        (1f, Expression<Float> @:6482 check:64709,op:6,dt:6,nt:9,next:6483,nextCheck:64710,str:9338,h:1,d0:0,d1:16256;
+                            (15f, Expression<Float> @:6483 check:64710,op:6,dt:6,nt:9,next:6484,nextCheck:64711,str:9340,h:1,d0:0,d1:16752;
+                                (1f, Expression<Float> @:6484 check:64711,op:6,dt:6,nt:9,next:6485,nextCheck:64712,str:9343,h:1,d0:0,d1:16256;
+                                    (1f, Expression<Float> @:6485 check:64712,op:6,dt:6,nt:9,next:6486,nextCheck:64713,str:9345,h:1,d0:0,d1:16256;
+                                        (False, Expression<Boolean> @:6486 check:64713,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9347,h:1,d0:65280,d1:65535;)))))))))))

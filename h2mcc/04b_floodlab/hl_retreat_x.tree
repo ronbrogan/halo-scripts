@@ -1,13 +1,13 @@
 
-("hl_retreat_x", MethodDecl<Void> @:281 op:0,dt:0,nt:65535,next:17033,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:17033 op:0,dt:4,nt:8,next:65535,str:49332,d0:17034,d1:42494;
-        ("begin", Expression<MethodOrOperator> @:17034 op:0,dt:2,nt:9,next:17024,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:17024 op:449,dt:4,nt:8,next:17027,str:49370,d0:17025,d1:42485;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:17025 op:449,dt:2,nt:9,next:17026,str:11827,d0:0,d1:0;
-                    (True, Expression<Boolean> @:17026 op:5,dt:5,nt:9,next:65535,str:49402,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:17027 op:385,dt:4,nt:8,next:17030,str:49410,d0:17028,d1:42488;
-                ("cs_go_to", Expression<MethodOrOperator> @:17028 op:385,dt:2,nt:9,next:17029,str:11858,d0:0,d1:0;
-                    ("fake_cinematics/p4", Expression<SpatialPoint> @:17029 op:28,dt:28,nt:9,next:65535,str:29170,d0:4,d1:5;)))
-            (____, BuiltinInvocation<Void> @:17030 op:298,dt:4,nt:8,next:65535,str:49442,d0:17031,d1:42491;
-                ("ai_erase", Expression<MethodOrOperator> @:17031 op:298,dt:2,nt:9,next:17032,str:11890,d0:0,d1:0;
-                    ("heretic_leader_04", Expression<AI> @:17032 op:19,dt:19,nt:9,next:65535,str:29189,d0:92,d1:0;))))))
+("hl_retreat_x", MethodDecl<Void> @:281 check:0,op:0,dt:0,nt:65535,next:17033,nextCheck:42493,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:17033 check:42493,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:49332,h:2,d0:17034,d1:42494;
+        ("begin", Expression<MethodOrOperator> @:17034 check:42494,op:0,dt:2,nt:9,next:17024,nextCheck:42484,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:17024 check:42484,op:449,dt:4,nt:8,next:17027,nextCheck:42487,str:49370,h:2,d0:17025,d1:42485;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:17025 check:42485,op:449,dt:2,nt:9,next:17026,nextCheck:42486,str:11827,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:17026 check:42486,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:49402,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:17027 check:42487,op:385,dt:4,nt:8,next:17030,nextCheck:42490,str:49410,h:2,d0:17028,d1:42488;
+                ("cs_go_to", Expression<MethodOrOperator> @:17028 check:42488,op:385,dt:2,nt:9,next:17029,nextCheck:42489,str:11858,h:0,d0:0,d1:0;
+                    ("fake_cinematics/p4", Expression<SpatialPoint> @:17029 check:42489,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:29170,h:0,d0:4,d1:5;)))
+            (____, BuiltinInvocation<Void> @:17030 check:42490,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:49442,h:2,d0:17031,d1:42491;
+                ("ai_erase", Expression<MethodOrOperator> @:17031 check:42491,op:298,dt:2,nt:9,next:17032,nextCheck:42492,str:11890,h:0,d0:0,d1:0;
+                    ("heretic_leader_04", Expression<AI> @:17032 check:42492,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:29189,h:0,d0:92,d1:0;))))))

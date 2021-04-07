@@ -1,13 +1,13 @@
 
-("destroy_miranda", MethodDecl<Void> @:116 op:0,dt:0,nt:65535,next:3652,str:9681,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3652 op:0,dt:4,nt:8,next:65535,str:44352,d0:3653,d1:61880;
-        ("begin", Expression<MethodOrOperator> @:3653 op:0,dt:2,nt:9,next:3643,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3643 op:19,dt:4,nt:8,next:3646,str:44386,d0:3644,d1:61871;
-                ("sleep", Expression<MethodOrOperator> @:3644 op:19,dt:2,nt:9,next:3645,str:85,d0:0,d1:0;
-                    (428, Expression<Short> @:3645 op:7,dt:7,nt:9,next:65535,str:44393,d0:428,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3646 op:52,dt:4,nt:8,next:3649,str:44400,d0:3647,d1:61874;
-                ("object_destroy", Expression<MethodOrOperator> @:3647 op:52,dt:2,nt:9,next:3648,str:3487,d0:0,d1:0;
-                    (4294901785, Expression<Entity> @:3648 op:56,dt:50,nt:9,next:65535,str:5468,d0:25,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3649 op:27,dt:4,nt:8,next:65535,str:44427,d0:3650,d1:61877;
-                ("print", Expression<MethodOrOperator> @:3650 op:27,dt:2,nt:9,next:3651,str:91,d0:0,d1:0;
-                    ("destroy miranda", Expression<String> @:3651 op:9,dt:9,nt:9,next:65535,str:9603,d0:9603,d1:0;))))))
+("destroy_miranda", MethodDecl<Void> @:116 check:0,op:0,dt:0,nt:65535,next:3652,nextCheck:61879,str:9681,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3652 check:61879,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:44352,h:0,d0:3653,d1:61880;
+        ("begin", Expression<MethodOrOperator> @:3653 check:61880,op:0,dt:2,nt:9,next:3643,nextCheck:61870,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3643 check:61870,op:19,dt:4,nt:8,next:3646,nextCheck:61873,str:44386,h:0,d0:3644,d1:61871;
+                ("sleep", Expression<MethodOrOperator> @:3644 check:61871,op:19,dt:2,nt:9,next:3645,nextCheck:61872,str:85,h:0,d0:0,d1:0;
+                    (428, Expression<Short> @:3645 check:61872,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:44393,h:0,d0:428,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3646 check:61873,op:52,dt:4,nt:8,next:3649,nextCheck:61876,str:44400,h:0,d0:3647,d1:61874;
+                ("object_destroy", Expression<MethodOrOperator> @:3647 check:61874,op:52,dt:2,nt:9,next:3648,nextCheck:61875,str:3487,h:0,d0:0,d1:0;
+                    (4294901785, Expression<Entity> @:3648 check:61875,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:5468,h:0,d0:25,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3649 check:61876,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:44427,h:0,d0:3650,d1:61877;
+                ("print", Expression<MethodOrOperator> @:3650 check:61877,op:27,dt:2,nt:9,next:3651,nextCheck:61878,str:91,h:0,d0:0,d1:0;
+                    ("destroy miranda", Expression<String> @:3651 check:61878,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:9603,h:0,d0:9603,d1:0;))))))

@@ -1,33 +1,33 @@
 
-("you_win", MethodDecl<Void> @:358 op:0,dt:0,nt:65535,next:17967,str:31303,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:17967 op:0,dt:4,nt:8,next:65535,str:45604,d0:17968,d1:43428;
-        ("begin", Expression<MethodOrOperator> @:17968 op:0,dt:2,nt:9,next:17938,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:17938 op:2,dt:4,nt:8,next:17944,str:45630,d0:17939,d1:43399;
-                ("if", Expression<MethodOrOperator> @:17939 op:2,dt:2,nt:9,next:17940,str:456,d0:0,d1:0;
-                    ("debug", VariableAccess<Boolean> @:17940 op:5,dt:5,nt:13,next:17941,str:11238,d0:3,d1:0;
-                        (____, BuiltinInvocation<Void> @:17941 op:27,dt:4,nt:8,next:65535,str:45640,d0:17942,d1:43402;
-                            ("print", Expression<MethodOrOperator> @:17942 op:27,dt:2,nt:9,next:17943,str:86,d0:0,d1:0;
-                                ("you win script called...", Expression<String> @:17943 op:9,dt:9,nt:9,next:65535,str:27515,d0:27515,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:17944 op:21,dt:4,nt:8,next:17953,str:45678,d0:17945,d1:43405;
-                ("sleep_until", Expression<MethodOrOperator> @:17945 op:21,dt:2,nt:9,next:17946,str:231,d0:0,d1:0;
-                    ("g_qz_phantom", VariableAccess<Boolean> @:17946 op:5,dt:5,nt:13,next:17947,str:27540,d0:118,d1:0;
-                        (30, Expression<Short> @:17947 op:7,dt:7,nt:9,next:17948,str:45704,d0:30,d1:65535;
-                            (____, BuiltinInvocation<Int> @:17948 op:9,dt:8,nt:8,next:65535,str:45707,d0:17949,d1:43409;
-                                ("*", Expression<MethodOrOperator> @:17949 op:9,dt:2,nt:9,next:17950,str:981,d0:0,d1:0;
-                                    (30f, Expression<Float> @:17950 op:6,dt:6,nt:9,next:17951,str:45710,d0:0,d1:16880;
-                                        (60f, Expression<Float> @:17951 op:6,dt:6,nt:9,next:17952,str:45713,d0:0,d1:17008;
-                                            (2f, Expression<Float> @:17952 op:6,dt:6,nt:9,next:65535,str:45716,d0:0,d1:16384;)))))))))
-            (____, BuiltinInvocation<Void> @:17953 op:19,dt:4,nt:8,next:17956,str:45722,d0:17954,d1:43414;
-                ("sleep", Expression<MethodOrOperator> @:17954 op:19,dt:2,nt:9,next:17955,str:80,d0:0,d1:0;
-                    (120, Expression<Short> @:17955 op:7,dt:7,nt:9,next:65535,str:45729,d0:120,d1:65535;)))
-            ("playtest_mission", ScriptInvocation<Void> @:17956 op:23,dt:4,nt:10,next:17958,str:45736,d0:17957,d1:43417;
-                ("playtest_mission", Expression<MethodOrOperator> @:17957 op:23,dt:2,nt:9,next:65535,str:27553,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:17958 op:614,dt:4,nt:8,next:17963,str:45760,d0:17959,d1:43419;
-                ("sound_class_set_gain", Expression<MethodOrOperator> @:17959 op:614,dt:2,nt:9,next:17960,str:6960,d0:0,d1:0;
-                    ("", Expression<String> @:17960 op:9,dt:9,nt:9,next:17961,str:0,d0:0,d1:0;
-                        (0f, Expression<Float> @:17961 op:6,dt:6,nt:9,next:17962,str:45785,d0:0,d1:0;
-                            (15, Expression<Short> @:17962 op:7,dt:7,nt:9,next:65535,str:45787,d0:15,d1:65535;)))))
-            ("cinematic_fade_to_white", ScriptInvocation<Void> @:17963 op:9,dt:4,nt:10,next:17965,str:45793,d0:17964,d1:43424;
-                ("cinematic_fade_to_white", Expression<MethodOrOperator> @:17964 op:9,dt:2,nt:9,next:65535,str:27570,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:17965 op:565,dt:4,nt:8,next:65535,str:45823,d0:17966,d1:43426;
-                ("game_won", Expression<MethodOrOperator> @:17966 op:565,dt:2,nt:9,next:65535,str:27594,d0:0,d1:0;)))))
+("you_win", MethodDecl<Void> @:358 check:0,op:0,dt:0,nt:65535,next:17967,nextCheck:43427,str:31303,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:17967 check:43427,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:45604,h:2,d0:17968,d1:43428;
+        ("begin", Expression<MethodOrOperator> @:17968 check:43428,op:0,dt:2,nt:9,next:17938,nextCheck:43398,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:17938 check:43398,op:2,dt:4,nt:8,next:17944,nextCheck:43404,str:45630,h:2,d0:17939,d1:43399;
+                ("if", Expression<MethodOrOperator> @:17939 check:43399,op:2,dt:2,nt:9,next:17940,nextCheck:43400,str:456,h:0,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:17940 check:43400,op:5,dt:5,nt:13,next:17941,nextCheck:43401,str:11238,h:0,d0:3,d1:0;
+                        (____, BuiltinInvocation<Void> @:17941 check:43401,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:45640,h:2,d0:17942,d1:43402;
+                            ("print", Expression<MethodOrOperator> @:17942 check:43402,op:27,dt:2,nt:9,next:17943,nextCheck:43403,str:86,h:0,d0:0,d1:0;
+                                ("you win script called...", Expression<String> @:17943 check:43403,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:27515,h:0,d0:27515,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:17944 check:43404,op:21,dt:4,nt:8,next:17953,nextCheck:43413,str:45678,h:2,d0:17945,d1:43405;
+                ("sleep_until", Expression<MethodOrOperator> @:17945 check:43405,op:21,dt:2,nt:9,next:17946,nextCheck:43406,str:231,h:0,d0:0,d1:0;
+                    ("g_qz_phantom", VariableAccess<Boolean> @:17946 check:43406,op:5,dt:5,nt:13,next:17947,nextCheck:43407,str:27540,h:0,d0:118,d1:0;
+                        (30, Expression<Short> @:17947 check:43407,op:7,dt:7,nt:9,next:17948,nextCheck:43408,str:45704,h:2,d0:30,d1:65535;
+                            (____, BuiltinInvocation<Int> @:17948 check:43408,op:9,dt:8,nt:8,next:65535,nextCheck:65535,str:45707,h:2,d0:17949,d1:43409;
+                                ("*", Expression<MethodOrOperator> @:17949 check:43409,op:9,dt:2,nt:9,next:17950,nextCheck:43410,str:981,h:0,d0:0,d1:0;
+                                    (30f, Expression<Float> @:17950 check:43410,op:6,dt:6,nt:9,next:17951,nextCheck:43411,str:45710,h:2,d0:0,d1:16880;
+                                        (60f, Expression<Float> @:17951 check:43411,op:6,dt:6,nt:9,next:17952,nextCheck:43412,str:45713,h:2,d0:0,d1:17008;
+                                            (2f, Expression<Float> @:17952 check:43412,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:45716,h:2,d0:0,d1:16384;)))))))))
+            (____, BuiltinInvocation<Void> @:17953 check:43413,op:19,dt:4,nt:8,next:17956,nextCheck:43416,str:45722,h:2,d0:17954,d1:43414;
+                ("sleep", Expression<MethodOrOperator> @:17954 check:43414,op:19,dt:2,nt:9,next:17955,nextCheck:43415,str:80,h:0,d0:0,d1:0;
+                    (120, Expression<Short> @:17955 check:43415,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:45729,h:2,d0:120,d1:65535;)))
+            ("playtest_mission", ScriptInvocation<Void> @:17956 check:43416,op:23,dt:4,nt:10,next:17958,nextCheck:43418,str:45736,h:2,d0:17957,d1:43417;
+                ("playtest_mission", Expression<MethodOrOperator> @:17957 check:43417,op:23,dt:2,nt:9,next:65535,nextCheck:65535,str:27553,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:17958 check:43418,op:614,dt:4,nt:8,next:17963,nextCheck:43423,str:45760,h:2,d0:17959,d1:43419;
+                ("sound_class_set_gain", Expression<MethodOrOperator> @:17959 check:43419,op:614,dt:2,nt:9,next:17960,nextCheck:43420,str:6960,h:0,d0:0,d1:0;
+                    ("", Expression<String> @:17960 check:43420,op:9,dt:9,nt:9,next:17961,nextCheck:43421,str:0,h:0,d0:0,d1:0;
+                        (0f, Expression<Float> @:17961 check:43421,op:6,dt:6,nt:9,next:17962,nextCheck:43422,str:45785,h:2,d0:0,d1:0;
+                            (15, Expression<Short> @:17962 check:43422,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:45787,h:2,d0:15,d1:65535;)))))
+            ("cinematic_fade_to_white", ScriptInvocation<Void> @:17963 check:43423,op:9,dt:4,nt:10,next:17965,nextCheck:43425,str:45793,h:2,d0:17964,d1:43424;
+                ("cinematic_fade_to_white", Expression<MethodOrOperator> @:17964 check:43424,op:9,dt:2,nt:9,next:65535,nextCheck:65535,str:27570,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:17965 check:43425,op:565,dt:4,nt:8,next:65535,nextCheck:65535,str:45823,h:2,d0:17966,d1:43426;
+                ("game_won", Expression<MethodOrOperator> @:17966 check:43426,op:565,dt:2,nt:9,next:65535,nextCheck:65535,str:27594,h:0,d0:0,d1:0;)))))

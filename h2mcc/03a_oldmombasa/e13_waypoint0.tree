@@ -1,10 +1,10 @@
 
-("e13_waypoint0", MethodDecl<Boolean> @:173 op:0,dt:0,nt:65535,next:5927,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Boolean> @:5927 op:0,dt:5,nt:8,next:65535,str:3451,d0:5928,d1:64155;
-        ("begin", Expression<MethodOrOperator> @:5928 op:0,dt:2,nt:9,next:5921,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Boolean> @:5921 op:33,dt:5,nt:8,next:65535,str:3490,d0:5922,d1:64149;
-                ("volume_test_objects", Expression<MethodOrOperator> @:5922 op:33,dt:2,nt:9,next:5923,str:11142,d0:0,d1:0;
-                    ("tv_e13_waypoint0", Expression<Trigger> @:5923 op:13,dt:13,nt:9,next:5924,str:12685,d0:94,d1:0;
-                        (____, BuiltinInvocation<List> @:5924 op:332,dt:31,nt:8,next:65535,str:3528,d0:5925,d1:64152;
-                            ("ai_actors", Expression<MethodOrOperator> @:5925 op:332,dt:2,nt:9,next:5926,str:12650,d0:0,d1:0;
-                                ("ai_current_squad", VariableAccess<AI> @:5926 op:19,dt:19,nt:13,next:65535,str:12161,d0:33563,d1:65535;)))))))))
+("e13_waypoint0", MethodDecl<Boolean> @:173 check:0,op:0,dt:0,nt:65535,next:5927,nextCheck:64154,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Boolean> @:5927 check:64154,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:3451,h:1,d0:5928,d1:64155;
+        ("begin", Expression<MethodOrOperator> @:5928 check:64155,op:0,dt:2,nt:9,next:5921,nextCheck:64148,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Boolean> @:5921 check:64148,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:3490,h:1,d0:5922,d1:64149;
+                ("volume_test_objects", Expression<MethodOrOperator> @:5922 check:64149,op:33,dt:2,nt:9,next:5923,nextCheck:64150,str:11142,h:0,d0:0,d1:0;
+                    ("tv_e13_waypoint0", Expression<Trigger> @:5923 check:64150,op:13,dt:13,nt:9,next:5924,nextCheck:64151,str:12685,h:0,d0:94,d1:0;
+                        (____, BuiltinInvocation<List> @:5924 check:64151,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:3528,h:1,d0:5925,d1:64152;
+                            ("ai_actors", Expression<MethodOrOperator> @:5925 check:64152,op:332,dt:2,nt:9,next:5926,nextCheck:64153,str:12650,h:0,d0:0,d1:0;
+                                ("ai_current_squad", VariableAccess<AI> @:5926 check:64153,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33563,d1:65535;)))))))))

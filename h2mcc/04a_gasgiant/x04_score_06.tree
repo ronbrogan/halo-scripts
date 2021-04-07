@@ -1,15 +1,15 @@
 
-("x04_score_06", MethodDecl<Void> @:89 op:0,dt:0,nt:65535,next:2635,str:6709,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2635 op:0,dt:4,nt:8,next:65535,str:31646,d0:2636,d1:60863;
-        ("begin", Expression<MethodOrOperator> @:2636 op:0,dt:2,nt:9,next:2624,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2624 op:19,dt:4,nt:8,next:2627,str:31677,d0:2625,d1:60852;
-                ("sleep", Expression<MethodOrOperator> @:2625 op:19,dt:2,nt:9,next:2626,str:85,d0:0,d1:0;
-                    (0, Expression<Short> @:2626 op:7,dt:7,nt:9,next:65535,str:31684,d0:0,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2627 op:596,dt:4,nt:8,next:2632,str:31689,d0:2628,d1:60855;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:2628 op:596,dt:2,nt:9,next:2629,str:1409,d0:0,d1:0;
-                    ("sound\cinematics\04_alphagas\x04\music\06_mus", Expression<Sound> @:2629 op:32,dt:32,nt:9,next:2630,str:5942,d0:817,d1:58535;
-                        (4294967295, Expression<Entity> @:2630 op:50,dt:50,nt:9,next:2631,str:1,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:2631 op:6,dt:6,nt:9,next:65535,str:31761,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:2632 op:27,dt:4,nt:8,next:65535,str:31766,d0:2633,d1:60860;
-                ("print", Expression<MethodOrOperator> @:2633 op:27,dt:2,nt:9,next:2634,str:91,d0:0,d1:0;
-                    ("x04 score 06 start", Expression<String> @:2634 op:9,dt:9,nt:9,next:65535,str:6053,d0:6053,d1:0;))))))
+("x04_score_06", MethodDecl<Void> @:89 check:0,op:0,dt:0,nt:65535,next:2635,nextCheck:60862,str:6709,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2635 check:60862,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:31646,h:0,d0:2636,d1:60863;
+        ("begin", Expression<MethodOrOperator> @:2636 check:60863,op:0,dt:2,nt:9,next:2624,nextCheck:60851,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2624 check:60851,op:19,dt:4,nt:8,next:2627,nextCheck:60854,str:31677,h:0,d0:2625,d1:60852;
+                ("sleep", Expression<MethodOrOperator> @:2625 check:60852,op:19,dt:2,nt:9,next:2626,nextCheck:60853,str:85,h:0,d0:0,d1:0;
+                    (0, Expression<Short> @:2626 check:60853,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:31684,h:0,d0:0,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2627 check:60854,op:596,dt:4,nt:8,next:2632,nextCheck:60859,str:31689,h:0,d0:2628,d1:60855;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:2628 check:60855,op:596,dt:2,nt:9,next:2629,nextCheck:60856,str:1409,h:0,d0:0,d1:0;
+                    ("sound\cinematics\04_alphagas\x04\music\06_mus", Expression<Sound> @:2629 check:60856,op:32,dt:32,nt:9,next:2630,nextCheck:60857,str:5942,h:0,d0:817,d1:58535;
+                        (4294967295, Expression<Entity> @:2630 check:60857,op:50,dt:50,nt:9,next:2631,nextCheck:60858,str:1,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:2631 check:60858,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:31761,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:2632 check:60859,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:31766,h:0,d0:2633,d1:60860;
+                ("print", Expression<MethodOrOperator> @:2633 check:60860,op:27,dt:2,nt:9,next:2634,nextCheck:60861,str:91,h:0,d0:0,d1:0;
+                    ("x04 score 06 start", Expression<String> @:2634 check:60861,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:6053,h:0,d0:6053,d1:0;))))))

@@ -1,14 +1,14 @@
 
-("cs_e12_pro_inf0_1_wait", MethodDecl<Void> @:342 op:0,dt:0,nt:65535,next:11682,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:11682 op:0,dt:4,nt:8,next:65535,str:7955,d0:11683,d1:37143;
-        ("begin", Expression<MethodOrOperator> @:11683 op:0,dt:2,nt:9,next:11672,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:11672 op:423,dt:4,nt:8,next:11675,str:8003,d0:11673,d1:37133;
-                ("cs_crouch", Expression<MethodOrOperator> @:11673 op:423,dt:2,nt:9,next:11674,str:1397,d0:0,d1:0;
-                    (True, Expression<Boolean> @:11674 op:5,dt:5,nt:9,next:65535,str:8014,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:11675 op:21,dt:4,nt:8,next:65535,str:8022,d0:11676,d1:37136;
-                ("sleep_until", Expression<MethodOrOperator> @:11676 op:21,dt:2,nt:9,next:11677,str:236,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:11677 op:337,dt:5,nt:8,next:11681,str:8035,d0:11678,d1:37138;
-                        ("ai_trigger_test", Expression<MethodOrOperator> @:11678 op:337,dt:2,nt:9,next:11679,str:27102,d0:0,d1:0;
-                            ("e12_pro_inf0_sighted_player", Expression<String> @:11679 op:9,dt:9,nt:9,next:11680,str:27118,d0:27118,d1:0;
-                                ("e12_pro_inf0", Expression<AI> @:11680 op:19,dt:19,nt:9,next:65535,str:27146,d0:48,d1:16384;))))
-                    (15, Expression<Short> @:11681 op:7,dt:7,nt:9,next:65535,str:8094,d0:15,d1:65535;))))))
+("cs_e12_pro_inf0_1_wait", MethodDecl<Void> @:342 check:0,op:0,dt:0,nt:65535,next:11682,nextCheck:37142,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:11682 check:37142,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:7955,h:2,d0:11683,d1:37143;
+        ("begin", Expression<MethodOrOperator> @:11683 check:37143,op:0,dt:2,nt:9,next:11672,nextCheck:37132,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:11672 check:37132,op:423,dt:4,nt:8,next:11675,nextCheck:37135,str:8003,h:2,d0:11673,d1:37133;
+                ("cs_crouch", Expression<MethodOrOperator> @:11673 check:37133,op:423,dt:2,nt:9,next:11674,nextCheck:37134,str:1397,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11674 check:37134,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:8014,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:11675 check:37135,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:8022,h:2,d0:11676,d1:37136;
+                ("sleep_until", Expression<MethodOrOperator> @:11676 check:37136,op:21,dt:2,nt:9,next:11677,nextCheck:37137,str:236,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:11677 check:37137,op:337,dt:5,nt:8,next:11681,nextCheck:37141,str:8035,h:2,d0:11678,d1:37138;
+                        ("ai_trigger_test", Expression<MethodOrOperator> @:11678 check:37138,op:337,dt:2,nt:9,next:11679,nextCheck:37139,str:27102,h:0,d0:0,d1:0;
+                            ("e12_pro_inf0_sighted_player", Expression<String> @:11679 check:37139,op:9,dt:9,nt:9,next:11680,nextCheck:37140,str:27118,h:0,d0:27118,d1:0;
+                                ("e12_pro_inf0", Expression<AI> @:11680 check:37140,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:27146,h:0,d0:48,d1:16384;))))
+                    (15, Expression<Short> @:11681 check:37141,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:8094,h:2,d0:15,d1:65535;))))))

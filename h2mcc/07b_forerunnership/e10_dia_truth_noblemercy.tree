@@ -1,19 +1,19 @@
 
-("e10_dia_truth_noblemercy", MethodDecl<Void> @:149 op:0,dt:0,nt:65535,next:4244,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4244 op:0,dt:4,nt:8,next:65535,str:53670,d0:4245,d1:62472;
-        ("begin", Expression<MethodOrOperator> @:4245 op:0,dt:2,nt:9,next:4229,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4229 op:2,dt:4,nt:8,next:4235,str:53745,d0:4230,d1:62457;
-                ("if", Expression<MethodOrOperator> @:4230 op:2,dt:2,nt:9,next:4231,str:456,d0:0,d1:0;
-                    ("dialogue", VariableAccess<Boolean> @:4231 op:5,dt:5,nt:13,next:4232,str:10462,d0:3,d1:0;
-                        (____, BuiltinInvocation<Void> @:4232 op:27,dt:4,nt:8,next:65535,str:53758,d0:4233,d1:62460;
-                            ("print", Expression<MethodOrOperator> @:4233 op:27,dt:2,nt:9,next:4234,str:86,d0:0,d1:0;
-                                ("truth: noble mercy is here, at my side - his wise counsel ever in my ears!", Expression<String> @:4234 op:9,dt:9,nt:9,next:65535,str:12281,d0:12281,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:4235 op:19,dt:4,nt:8,next:4241,str:53846,d0:4236,d1:62463;
-                ("sleep", Expression<MethodOrOperator> @:4236 op:19,dt:2,nt:9,next:4237,str:80,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:4237 op:362,dt:7,nt:8,next:65535,str:53853,d0:4238,d1:62465;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4238 op:362,dt:2,nt:9,next:4239,str:10552,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:4239 op:50,dt:50,nt:9,next:4240,str:1386,d0:65535,d1:65535;
-                                ("0270", Expression<StringId> @:4240 op:11,dt:11,nt:9,next:65535,str:12356,d0:13468,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:4241 op:19,dt:4,nt:8,next:65535,str:53891,d0:4242,d1:62469;
-                ("sleep", Expression<MethodOrOperator> @:4242 op:19,dt:2,nt:9,next:4243,str:80,d0:0,d1:0;
-                    ("dialogue_pause", VariableAccess<Short> @:4243 op:7,dt:7,nt:13,next:65535,str:10580,d0:4,d1:0;))))))
+("e10_dia_truth_noblemercy", MethodDecl<Void> @:149 check:0,op:0,dt:0,nt:65535,next:4244,nextCheck:62471,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4244 check:62471,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:53670,h:0,d0:4245,d1:62472;
+        ("begin", Expression<MethodOrOperator> @:4245 check:62472,op:0,dt:2,nt:9,next:4229,nextCheck:62456,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4229 check:62456,op:2,dt:4,nt:8,next:4235,nextCheck:62462,str:53745,h:0,d0:4230,d1:62457;
+                ("if", Expression<MethodOrOperator> @:4230 check:62457,op:2,dt:2,nt:9,next:4231,nextCheck:62458,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:4231 check:62458,op:5,dt:5,nt:13,next:4232,nextCheck:62459,str:10462,h:0,d0:3,d1:0;
+                        (____, BuiltinInvocation<Void> @:4232 check:62459,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:53758,h:0,d0:4233,d1:62460;
+                            ("print", Expression<MethodOrOperator> @:4233 check:62460,op:27,dt:2,nt:9,next:4234,nextCheck:62461,str:86,h:0,d0:0,d1:0;
+                                ("truth: noble mercy is here, at my side - his wise counsel ever in my ears!", Expression<String> @:4234 check:62461,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12281,h:0,d0:12281,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:4235 check:62462,op:19,dt:4,nt:8,next:4241,nextCheck:62468,str:53846,h:0,d0:4236,d1:62463;
+                ("sleep", Expression<MethodOrOperator> @:4236 check:62463,op:19,dt:2,nt:9,next:4237,nextCheck:62464,str:80,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:4237 check:62464,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:53853,h:0,d0:4238,d1:62465;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4238 check:62465,op:362,dt:2,nt:9,next:4239,nextCheck:62466,str:10552,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:4239 check:62466,op:50,dt:50,nt:9,next:4240,nextCheck:62467,str:1386,h:0,d0:65535,d1:65535;
+                                ("0270", Expression<StringId> @:4240 check:62467,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12356,h:0,d0:13468,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:4241 check:62468,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:53891,h:0,d0:4242,d1:62469;
+                ("sleep", Expression<MethodOrOperator> @:4242 check:62469,op:19,dt:2,nt:9,next:4243,nextCheck:62470,str:80,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:4243 check:62470,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:10580,h:0,d0:4,d1:0;))))))

@@ -1,8 +1,8 @@
 
-("e2_cov_spectre0_main", MethodDecl<Void> @:505 op:0,dt:0,nt:65535,next:20115,str:39620,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:20115 op:0,dt:4,nt:8,next:65535,str:1263,d0:20116,d1:45576;
-        ("begin", Expression<MethodOrOperator> @:20116 op:0,dt:2,nt:9,next:20111,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:20111 op:309,dt:4,nt:8,next:65535,str:1302,d0:20112,d1:45572;
-                ("ai_migrate", Expression<MethodOrOperator> @:20112 op:309,dt:2,nt:9,next:20113,str:32380,d0:0,d1:0;
-                    ("e1_cov_spectre0", Expression<AI> @:20113 op:19,dt:19,nt:9,next:20114,str:39535,d0:2,d1:0;
-                        ("e2_cov_spectre0", Expression<AI> @:20114 op:19,dt:19,nt:9,next:65535,str:39551,d0:11,d1:0;)))))))
+("e2_cov_spectre0_main", MethodDecl<Void> @:505 check:0,op:0,dt:0,nt:65535,next:20115,nextCheck:45575,str:39620,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:20115 check:45575,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1263,h:4,d0:20116,d1:45576;
+        ("begin", Expression<MethodOrOperator> @:20116 check:45576,op:0,dt:2,nt:9,next:20111,nextCheck:45571,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:20111 check:45571,op:309,dt:4,nt:8,next:65535,nextCheck:65535,str:1302,h:4,d0:20112,d1:45572;
+                ("ai_migrate", Expression<MethodOrOperator> @:20112 check:45572,op:309,dt:2,nt:9,next:20113,nextCheck:45573,str:32380,h:0,d0:0,d1:0;
+                    ("e1_cov_spectre0", Expression<AI> @:20113 check:45573,op:19,dt:19,nt:9,next:20114,nextCheck:45574,str:39535,h:0,d0:2,d1:0;
+                        ("e2_cov_spectre0", Expression<AI> @:20114 check:45574,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:39551,h:0,d0:11,d1:0;)))))))

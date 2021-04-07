@@ -1,13 +1,13 @@
 
-("e12_safe_to_spawn_flood", MethodDecl<Void> @:169 op:0,dt:0,nt:65535,next:5225,str:14482,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5225 op:0,dt:4,nt:8,next:65535,str:2247,d0:5226,d1:63453;
-        ("begin", Expression<MethodOrOperator> @:5226 op:0,dt:2,nt:9,next:5216,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5216 op:21,dt:4,nt:8,next:65535,str:2347,d0:5217,d1:63444;
-                ("sleep_until", Expression<MethodOrOperator> @:5217 op:21,dt:2,nt:9,next:5218,str:231,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:5218 op:18,dt:5,nt:8,next:5224,str:2360,d0:5219,d1:63446;
-                        ("<=", Expression<MethodOrOperator> @:5219 op:18,dt:2,nt:9,next:5220,str:14395,d0:0,d1:0;
-                            (____, BuiltinInvocation<Short> @:5220 op:331,dt:7,nt:8,next:5223,str:2364,d0:5221,d1:63448;
-                                ("ai_nonswarm_count", Expression<MethodOrOperator> @:5221 op:331,dt:2,nt:9,next:5222,str:14398,d0:0,d1:0;
-                                    ("e12_flood_rush", Expression<AI> @:5222 op:19,dt:19,nt:9,next:65535,str:14416,d0:26,d1:16384;)))
-                            (4, Expression<Short> @:5223 op:7,dt:7,nt:9,next:65535,str:2399,d0:4,d1:65535;)))
-                    (15, Expression<Short> @:5224 op:7,dt:7,nt:9,next:65535,str:2402,d0:15,d1:65535;))))))
+("e12_safe_to_spawn_flood", MethodDecl<Void> @:169 check:0,op:0,dt:0,nt:65535,next:5225,nextCheck:63452,str:14482,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5225 check:63452,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:2247,h:1,d0:5226,d1:63453;
+        ("begin", Expression<MethodOrOperator> @:5226 check:63453,op:0,dt:2,nt:9,next:5216,nextCheck:63443,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5216 check:63443,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:2347,h:1,d0:5217,d1:63444;
+                ("sleep_until", Expression<MethodOrOperator> @:5217 check:63444,op:21,dt:2,nt:9,next:5218,nextCheck:63445,str:231,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:5218 check:63445,op:18,dt:5,nt:8,next:5224,nextCheck:63451,str:2360,h:1,d0:5219,d1:63446;
+                        ("<=", Expression<MethodOrOperator> @:5219 check:63446,op:18,dt:2,nt:9,next:5220,nextCheck:63447,str:14395,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Short> @:5220 check:63447,op:331,dt:7,nt:8,next:5223,nextCheck:63450,str:2364,h:1,d0:5221,d1:63448;
+                                ("ai_nonswarm_count", Expression<MethodOrOperator> @:5221 check:63448,op:331,dt:2,nt:9,next:5222,nextCheck:63449,str:14398,h:0,d0:0,d1:0;
+                                    ("e12_flood_rush", Expression<AI> @:5222 check:63449,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:14416,h:0,d0:26,d1:16384;)))
+                            (4, Expression<Short> @:5223 check:63450,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2399,h:1,d0:4,d1:65535;)))
+                    (15, Expression<Short> @:5224 check:63451,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2402,h:1,d0:15,d1:65535;))))))

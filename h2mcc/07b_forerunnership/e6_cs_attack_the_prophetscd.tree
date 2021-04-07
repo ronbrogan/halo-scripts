@@ -1,21 +1,21 @@
 
-("e6_cs_attack_the_prophetscd", MethodDecl<Void> @:202 op:0,dt:0,nt:65535,next:8729,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:8729 op:0,dt:4,nt:8,next:65535,str:45606,d0:8730,d1:34190;
-        ("begin", Expression<MethodOrOperator> @:8730 op:0,dt:2,nt:9,next:8712,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:8712 op:449,dt:4,nt:8,next:8715,str:45729,d0:8713,d1:34173;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:8713 op:449,dt:2,nt:9,next:8714,str:19767,d0:0,d1:0;
-                    (True, Expression<Boolean> @:8714 op:5,dt:5,nt:9,next:65535,str:45761,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8715 op:435,dt:4,nt:8,next:8718,str:45766,d0:8716,d1:34176;
-                ("cs_ignore_obstacles", Expression<MethodOrOperator> @:8716 op:435,dt:2,nt:9,next:8717,str:19798,d0:0,d1:0;
-                    (True, Expression<Boolean> @:8717 op:5,dt:5,nt:9,next:65535,str:45787,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8718 op:448,dt:4,nt:8,next:8721,str:45792,d0:8719,d1:34179;
-                ("cs_force_combat_status", Expression<MethodOrOperator> @:8719 op:448,dt:2,nt:9,next:8720,str:19818,d0:0,d1:0;
-                    (3, Expression<Short> @:8720 op:7,dt:7,nt:9,next:65535,str:45816,d0:3,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8721 op:387,dt:4,nt:8,next:8725,str:45821,d0:8722,d1:34182;
-                ("cs_go_by", Expression<MethodOrOperator> @:8722 op:387,dt:2,nt:9,next:8723,str:19841,d0:0,d1:0;
-                    ("e6_attack/p0", Expression<SpatialPoint> @:8723 op:28,dt:28,nt:9,next:8724,str:19850,d0:0,d1:8;
-                        ("e6_attack/p1", Expression<SpatialPoint> @:8724 op:28,dt:28,nt:9,next:65535,str:19863,d0:1,d1:8;))))
-            (____, BuiltinInvocation<Void> @:8725 op:387,dt:4,nt:8,next:65535,str:45860,d0:8726,d1:34186;
-                ("cs_go_by", Expression<MethodOrOperator> @:8726 op:387,dt:2,nt:9,next:8727,str:19841,d0:0,d1:0;
-                    ("e6_attack/p2", Expression<SpatialPoint> @:8727 op:28,dt:28,nt:9,next:8728,str:19876,d0:2,d1:8;
-                        ("e6_attack/p3", Expression<SpatialPoint> @:8728 op:28,dt:28,nt:9,next:65535,str:19889,d0:3,d1:8;)))))))
+("e6_cs_attack_the_prophetscd", MethodDecl<Void> @:202 check:0,op:0,dt:0,nt:65535,next:8729,nextCheck:34189,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:8729 check:34189,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:45606,h:1,d0:8730,d1:34190;
+        ("begin", Expression<MethodOrOperator> @:8730 check:34190,op:0,dt:2,nt:9,next:8712,nextCheck:34172,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:8712 check:34172,op:449,dt:4,nt:8,next:8715,nextCheck:34175,str:45729,h:1,d0:8713,d1:34173;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:8713 check:34173,op:449,dt:2,nt:9,next:8714,nextCheck:34174,str:19767,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:8714 check:34174,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:45761,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8715 check:34175,op:435,dt:4,nt:8,next:8718,nextCheck:34178,str:45766,h:1,d0:8716,d1:34176;
+                ("cs_ignore_obstacles", Expression<MethodOrOperator> @:8716 check:34176,op:435,dt:2,nt:9,next:8717,nextCheck:34177,str:19798,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:8717 check:34177,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:45787,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8718 check:34178,op:448,dt:4,nt:8,next:8721,nextCheck:34181,str:45792,h:1,d0:8719,d1:34179;
+                ("cs_force_combat_status", Expression<MethodOrOperator> @:8719 check:34179,op:448,dt:2,nt:9,next:8720,nextCheck:34180,str:19818,h:0,d0:0,d1:0;
+                    (3, Expression<Short> @:8720 check:34180,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:45816,h:1,d0:3,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8721 check:34181,op:387,dt:4,nt:8,next:8725,nextCheck:34185,str:45821,h:1,d0:8722,d1:34182;
+                ("cs_go_by", Expression<MethodOrOperator> @:8722 check:34182,op:387,dt:2,nt:9,next:8723,nextCheck:34183,str:19841,h:0,d0:0,d1:0;
+                    ("e6_attack/p0", Expression<SpatialPoint> @:8723 check:34183,op:28,dt:28,nt:9,next:8724,nextCheck:34184,str:19850,h:0,d0:0,d1:8;
+                        ("e6_attack/p1", Expression<SpatialPoint> @:8724 check:34184,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:19863,h:0,d0:1,d1:8;))))
+            (____, BuiltinInvocation<Void> @:8725 check:34185,op:387,dt:4,nt:8,next:65535,nextCheck:65535,str:45860,h:1,d0:8726,d1:34186;
+                ("cs_go_by", Expression<MethodOrOperator> @:8726 check:34186,op:387,dt:2,nt:9,next:8727,nextCheck:34187,str:19841,h:0,d0:0,d1:0;
+                    ("e6_attack/p2", Expression<SpatialPoint> @:8727 check:34187,op:28,dt:28,nt:9,next:8728,nextCheck:34188,str:19876,h:0,d0:2,d1:8;
+                        ("e6_attack/p3", Expression<SpatialPoint> @:8728 check:34188,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:19889,h:0,d0:3,d1:8;)))))))

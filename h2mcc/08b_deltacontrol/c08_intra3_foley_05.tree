@@ -1,15 +1,15 @@
 
-("c08_intra3_foley_05", MethodDecl<Void> @:151 op:0,dt:0,nt:65535,next:6103,str:15715,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6103 op:0,dt:4,nt:8,next:65535,str:5484,d0:6104,d1:64331;
-        ("begin", Expression<MethodOrOperator> @:6104 op:0,dt:2,nt:9,next:6092,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6092 op:19,dt:4,nt:8,next:6095,str:5522,d0:6093,d1:64320;
-                ("sleep", Expression<MethodOrOperator> @:6093 op:19,dt:2,nt:9,next:6094,str:85,d0:0,d1:0;
-                    (0, Expression<Short> @:6094 op:7,dt:7,nt:9,next:65535,str:5529,d0:0,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6095 op:596,dt:4,nt:8,next:6100,str:5534,d0:6096,d1:64323;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:6096 op:596,dt:2,nt:9,next:6097,str:1586,d0:0,d1:0;
-                    ("sound\cinematics\08_deltacliffs\c08_intra3\foley\c08_intra3_05_fol", Expression<Sound> @:6097 op:32,dt:32,nt:9,next:6098,str:15144,d0:799,d1:58517;
-                        (4294967295, Expression<Entity> @:6098 op:50,dt:50,nt:9,next:6099,str:1,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:6099 op:6,dt:6,nt:9,next:65535,str:5627,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:6100 op:27,dt:4,nt:8,next:65535,str:5632,d0:6101,d1:64328;
-                ("print", Expression<MethodOrOperator> @:6101 op:27,dt:2,nt:9,next:6102,str:91,d0:0,d1:0;
-                    ("c08_intra3 foley 05 start", Expression<String> @:6102 op:9,dt:9,nt:9,next:65535,str:15211,d0:15211,d1:0;))))))
+("c08_intra3_foley_05", MethodDecl<Void> @:151 check:0,op:0,dt:0,nt:65535,next:6103,nextCheck:64330,str:15715,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6103 check:64330,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:5484,h:1,d0:6104,d1:64331;
+        ("begin", Expression<MethodOrOperator> @:6104 check:64331,op:0,dt:2,nt:9,next:6092,nextCheck:64319,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6092 check:64319,op:19,dt:4,nt:8,next:6095,nextCheck:64322,str:5522,h:1,d0:6093,d1:64320;
+                ("sleep", Expression<MethodOrOperator> @:6093 check:64320,op:19,dt:2,nt:9,next:6094,nextCheck:64321,str:85,h:0,d0:0,d1:0;
+                    (0, Expression<Short> @:6094 check:64321,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:5529,h:1,d0:0,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6095 check:64322,op:596,dt:4,nt:8,next:6100,nextCheck:64327,str:5534,h:1,d0:6096,d1:64323;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:6096 check:64323,op:596,dt:2,nt:9,next:6097,nextCheck:64324,str:1586,h:0,d0:0,d1:0;
+                    ("sound\cinematics\08_deltacliffs\c08_intra3\foley\c08_intra3_05_fol", Expression<Sound> @:6097 check:64324,op:32,dt:32,nt:9,next:6098,nextCheck:64325,str:15144,h:0,d0:799,d1:58517;
+                        (4294967295, Expression<Entity> @:6098 check:64325,op:50,dt:50,nt:9,next:6099,nextCheck:64326,str:1,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:6099 check:64326,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:5627,h:1,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:6100 check:64327,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:5632,h:1,d0:6101,d1:64328;
+                ("print", Expression<MethodOrOperator> @:6101 check:64328,op:27,dt:2,nt:9,next:6102,nextCheck:64329,str:91,h:0,d0:0,d1:0;
+                    ("c08_intra3 foley 05 start", Expression<String> @:6102 check:64329,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:15211,h:0,d0:15211,d1:0;))))))

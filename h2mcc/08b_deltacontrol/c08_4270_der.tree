@@ -1,16 +1,16 @@
 
-("c08_4270_der", MethodDecl<Void> @:145 op:0,dt:0,nt:65535,next:5928,str:14785,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5928 op:0,dt:4,nt:8,next:65535,str:3049,d0:5929,d1:64156;
-        ("begin", Expression<MethodOrOperator> @:5929 op:0,dt:2,nt:9,next:5916,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5916 op:19,dt:4,nt:8,next:5919,str:3080,d0:5917,d1:64144;
-                ("sleep", Expression<MethodOrOperator> @:5917 op:19,dt:2,nt:9,next:5918,str:85,d0:0,d1:0;
-                    (189, Expression<Short> @:5918 op:7,dt:7,nt:9,next:65535,str:3087,d0:189,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5919 op:596,dt:4,nt:8,next:5924,str:3094,d0:5920,d1:64147;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:5920 op:596,dt:2,nt:9,next:5921,str:1586,d0:0,d1:0;
-                    ("sound\dialog\levels\08_controlroom\cinematic\c08_4270_der", Expression<Sound> @:5921 op:32,dt:32,nt:9,next:5922,str:14727,d0:795,d1:58513;
-                        (4294901842, Expression<Entity> @:5922 op:56,dt:50,nt:9,next:5923,str:12582,d0:82,d1:65535;
-                            (1f, Expression<Float> @:5923 op:6,dt:6,nt:9,next:65535,str:3181,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:5924 op:562,dt:4,nt:8,next:65535,str:3186,d0:5925,d1:64152;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:5925 op:562,dt:2,nt:9,next:5926,str:7661,d0:0,d1:0;
-                    ("c08_4270_der", Expression<StringId> @:5926 op:11,dt:11,nt:9,next:5927,str:14785,d0:4677,d1:3072;
-                        (4f, Expression<Float> @:5927 op:6,dt:6,nt:9,next:65535,str:3219,d0:0,d1:16512;)))))))
+("c08_4270_der", MethodDecl<Void> @:145 check:0,op:0,dt:0,nt:65535,next:5928,nextCheck:64155,str:14785,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5928 check:64155,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:3049,h:1,d0:5929,d1:64156;
+        ("begin", Expression<MethodOrOperator> @:5929 check:64156,op:0,dt:2,nt:9,next:5916,nextCheck:64143,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5916 check:64143,op:19,dt:4,nt:8,next:5919,nextCheck:64146,str:3080,h:1,d0:5917,d1:64144;
+                ("sleep", Expression<MethodOrOperator> @:5917 check:64144,op:19,dt:2,nt:9,next:5918,nextCheck:64145,str:85,h:0,d0:0,d1:0;
+                    (189, Expression<Short> @:5918 check:64145,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:3087,h:1,d0:189,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5919 check:64146,op:596,dt:4,nt:8,next:5924,nextCheck:64151,str:3094,h:1,d0:5920,d1:64147;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:5920 check:64147,op:596,dt:2,nt:9,next:5921,nextCheck:64148,str:1586,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\08_controlroom\cinematic\c08_4270_der", Expression<Sound> @:5921 check:64148,op:32,dt:32,nt:9,next:5922,nextCheck:64149,str:14727,h:0,d0:795,d1:58513;
+                        (4294901842, Expression<Entity> @:5922 check:64149,op:56,dt:50,nt:9,next:5923,nextCheck:64150,str:12582,h:0,d0:82,d1:65535;
+                            (1f, Expression<Float> @:5923 check:64150,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:3181,h:1,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:5924 check:64151,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:3186,h:1,d0:5925,d1:64152;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:5925 check:64152,op:562,dt:2,nt:9,next:5926,nextCheck:64153,str:7661,h:0,d0:0,d1:0;
+                    ("c08_4270_der", Expression<StringId> @:5926 check:64153,op:11,dt:11,nt:9,next:5927,nextCheck:64154,str:14785,h:0,d0:4677,d1:3072;
+                        (4f, Expression<Float> @:5927 check:64154,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:3219,h:1,d0:0,d1:16512;)))))))

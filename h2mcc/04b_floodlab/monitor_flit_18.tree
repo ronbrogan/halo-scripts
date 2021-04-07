@@ -1,11 +1,11 @@
 
-("monitor_flit_18", MethodDecl<Void> @:353 op:0,dt:0,nt:65535,next:29819,str:37910,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:29819 op:0,dt:4,nt:8,next:65535,str:21906,d0:29820,d1:55280;
-        ("begin", Expression<MethodOrOperator> @:29820 op:0,dt:2,nt:9,next:29812,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:29812 op:379,dt:4,nt:8,next:29815,str:21947,d0:29813,d1:55273;
-                ("cs_fly_to", Expression<MethodOrOperator> @:29813 op:379,dt:2,nt:9,next:29814,str:12396,d0:0,d1:0;
-                    ("monitor_wander/p17", Expression<SpatialPoint> @:29814 op:28,dt:28,nt:9,next:65535,str:37581,d0:17,d1:8;)))
-            (____, BuiltinInvocation<Void> @:29815 op:4,dt:4,nt:8,next:65535,str:21980,d0:29816,d1:55276;
-                ("set", Expression<MethodOrOperator> @:29816 op:4,dt:2,nt:9,next:29817,str:2644,d0:0,d1:0;
-                    ("monitor_available", VariableAccess<Boolean> @:29817 op:65535,dt:5,nt:13,next:29818,str:36433,d0:44,d1:0;
-                        (True, Expression<Boolean> @:29818 op:5,dt:5,nt:9,next:65535,str:22003,d0:65281,d1:65535;)))))))
+("monitor_flit_18", MethodDecl<Void> @:353 check:0,op:0,dt:0,nt:65535,next:29819,nextCheck:55279,str:37910,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:29819 check:55279,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:21906,h:4,d0:29820,d1:55280;
+        ("begin", Expression<MethodOrOperator> @:29820 check:55280,op:0,dt:2,nt:9,next:29812,nextCheck:55272,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:29812 check:55272,op:379,dt:4,nt:8,next:29815,nextCheck:55275,str:21947,h:4,d0:29813,d1:55273;
+                ("cs_fly_to", Expression<MethodOrOperator> @:29813 check:55273,op:379,dt:2,nt:9,next:29814,nextCheck:55274,str:12396,h:0,d0:0,d1:0;
+                    ("monitor_wander/p17", Expression<SpatialPoint> @:29814 check:55274,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:37581,h:0,d0:17,d1:8;)))
+            (____, BuiltinInvocation<Void> @:29815 check:55275,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:21980,h:4,d0:29816,d1:55276;
+                ("set", Expression<MethodOrOperator> @:29816 check:55276,op:4,dt:2,nt:9,next:29817,nextCheck:55277,str:2644,h:0,d0:0,d1:0;
+                    ("monitor_available", VariableAccess<Boolean> @:29817 check:55277,op:65535,dt:5,nt:13,next:29818,nextCheck:55278,str:36433,h:0,d0:44,d1:0;
+                        (True, Expression<Boolean> @:29818 check:55278,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:22003,h:4,d0:65281,d1:65535;)))))))

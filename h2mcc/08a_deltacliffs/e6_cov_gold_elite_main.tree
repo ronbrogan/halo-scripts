@@ -1,11 +1,11 @@
 
-("e6_cov_gold_elite_main", MethodDecl<Void> @:157 op:0,dt:0,nt:65535,next:5875,str:11634,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5875 op:0,dt:4,nt:8,next:65535,str:7059,d0:5876,d1:64103;
-        ("begin", Expression<MethodOrOperator> @:5876 op:0,dt:2,nt:9,next:5868,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5868 op:309,dt:4,nt:8,next:5872,str:7100,d0:5869,d1:64096;
-                ("ai_migrate", Expression<MethodOrOperator> @:5869 op:309,dt:2,nt:9,next:5870,str:8110,d0:0,d1:0;
-                    ("e5_cov_gold_elite", Expression<AI> @:5870 op:19,dt:19,nt:9,next:5871,str:11387,d0:32,d1:0;
-                        ("e6_cov_gold_elite", Expression<AI> @:5871 op:19,dt:19,nt:9,next:65535,str:11345,d0:38,d1:0;))))
-            (____, BuiltinInvocation<Void> @:5872 op:316,dt:4,nt:8,next:65535,str:7151,d0:5873,d1:64100;
-                ("ai_teleport_to_starting_location_if_outside_bsp", Expression<MethodOrOperator> @:5873 op:316,dt:2,nt:9,next:5874,str:11405,d0:0,d1:0;
-                    ("e6_cov_gold_elite", Expression<AI> @:5874 op:19,dt:19,nt:9,next:65535,str:11345,d0:38,d1:0;))))))
+("e6_cov_gold_elite_main", MethodDecl<Void> @:157 check:0,op:0,dt:0,nt:65535,next:5875,nextCheck:64102,str:11634,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5875 check:64102,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:7059,h:1,d0:5876,d1:64103;
+        ("begin", Expression<MethodOrOperator> @:5876 check:64103,op:0,dt:2,nt:9,next:5868,nextCheck:64095,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5868 check:64095,op:309,dt:4,nt:8,next:5872,nextCheck:64099,str:7100,h:1,d0:5869,d1:64096;
+                ("ai_migrate", Expression<MethodOrOperator> @:5869 check:64096,op:309,dt:2,nt:9,next:5870,nextCheck:64097,str:8110,h:0,d0:0,d1:0;
+                    ("e5_cov_gold_elite", Expression<AI> @:5870 check:64097,op:19,dt:19,nt:9,next:5871,nextCheck:64098,str:11387,h:0,d0:32,d1:0;
+                        ("e6_cov_gold_elite", Expression<AI> @:5871 check:64098,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:11345,h:0,d0:38,d1:0;))))
+            (____, BuiltinInvocation<Void> @:5872 check:64099,op:316,dt:4,nt:8,next:65535,nextCheck:65535,str:7151,h:1,d0:5873,d1:64100;
+                ("ai_teleport_to_starting_location_if_outside_bsp", Expression<MethodOrOperator> @:5873 check:64100,op:316,dt:2,nt:9,next:5874,nextCheck:64101,str:11405,h:0,d0:0,d1:0;
+                    ("e6_cov_gold_elite", Expression<AI> @:5874 check:64101,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:11345,h:0,d0:38,d1:0;))))))

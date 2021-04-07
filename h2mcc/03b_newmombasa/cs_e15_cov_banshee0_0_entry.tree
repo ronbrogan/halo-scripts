@@ -1,10 +1,10 @@
 
-("cs_e15_cov_banshee0_0_entry", MethodDecl<Void> @:399 op:0,dt:0,nt:65535,next:14462,str:29544,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:14462 op:0,dt:4,nt:8,next:65535,str:58069,d0:14463,d1:39923;
-        ("begin", Expression<MethodOrOperator> @:14463 op:0,dt:2,nt:9,next:14456,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:14456 op:438,dt:4,nt:8,next:14459,str:58122,d0:14457,d1:39917;
-                ("cs_vehicle_boost", Expression<MethodOrOperator> @:14457 op:438,dt:2,nt:9,next:14458,str:15358,d0:0,d1:0;
-                    (True, Expression<Boolean> @:14458 op:5,dt:5,nt:9,next:65535,str:58140,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:14459 op:383,dt:4,nt:8,next:65535,str:58148,d0:14460,d1:39920;
-                ("cs_fly_by", Expression<MethodOrOperator> @:14460 op:383,dt:2,nt:9,next:14461,str:15426,d0:0,d1:0;
-                    ("e15_overflights/p1", Expression<SpatialPoint> @:14461 op:28,dt:28,nt:9,next:65535,str:29386,d0:1,d1:5;))))))
+("cs_e15_cov_banshee0_0_entry", MethodDecl<Void> @:399 check:0,op:0,dt:0,nt:65535,next:14462,nextCheck:39922,str:29544,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:14462 check:39922,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:58069,h:2,d0:14463,d1:39923;
+        ("begin", Expression<MethodOrOperator> @:14463 check:39923,op:0,dt:2,nt:9,next:14456,nextCheck:39916,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:14456 check:39916,op:438,dt:4,nt:8,next:14459,nextCheck:39919,str:58122,h:2,d0:14457,d1:39917;
+                ("cs_vehicle_boost", Expression<MethodOrOperator> @:14457 check:39917,op:438,dt:2,nt:9,next:14458,nextCheck:39918,str:15358,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:14458 check:39918,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:58140,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:14459 check:39919,op:383,dt:4,nt:8,next:65535,nextCheck:65535,str:58148,h:2,d0:14460,d1:39920;
+                ("cs_fly_by", Expression<MethodOrOperator> @:14460 check:39920,op:383,dt:2,nt:9,next:14461,nextCheck:39921,str:15426,h:0,d0:0,d1:0;
+                    ("e15_overflights/p1", Expression<SpatialPoint> @:14461 check:39921,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:29386,h:0,d0:1,d1:5;))))))

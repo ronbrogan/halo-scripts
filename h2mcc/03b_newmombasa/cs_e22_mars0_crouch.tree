@@ -1,18 +1,18 @@
 
-("cs_e22_mars0_crouch", MethodDecl<Void> @:274 op:0,dt:0,nt:65535,next:9246,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:9246 op:0,dt:4,nt:8,next:65535,str:51236,d0:9247,d1:34707;
-        ("begin", Expression<MethodOrOperator> @:9247 op:0,dt:2,nt:9,next:9232,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:9232 op:445,dt:4,nt:8,next:9235,str:51281,d0:9233,d1:34693;
-                ("cs_enable_dialogue", Expression<MethodOrOperator> @:9233 op:445,dt:2,nt:9,next:9234,str:19444,d0:0,d1:0;
-                    (True, Expression<Boolean> @:9234 op:5,dt:5,nt:9,next:65535,str:51301,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:9235 op:422,dt:4,nt:8,next:9238,str:51309,d0:9236,d1:34696;
-                ("cs_movement_mode", Expression<MethodOrOperator> @:9236 op:422,dt:2,nt:9,next:9237,str:19154,d0:0,d1:0;
-                    ("ai_movement_combat", VariableAccess<Short> @:9237 op:7,dt:7,nt:13,next:65535,str:19171,d0:33583,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:9238 op:423,dt:4,nt:8,next:9241,str:51349,d0:9239,d1:34699;
-                ("cs_crouch", Expression<MethodOrOperator> @:9239 op:423,dt:2,nt:9,next:9240,str:16563,d0:0,d1:0;
-                    (True, Expression<Boolean> @:9240 op:5,dt:5,nt:9,next:65535,str:51360,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:9241 op:394,dt:4,nt:8,next:9244,str:51368,d0:9242,d1:34702;
-                ("cs_look_player", Expression<MethodOrOperator> @:9242 op:394,dt:2,nt:9,next:9243,str:18868,d0:0,d1:0;
-                    (True, Expression<Boolean> @:9243 op:5,dt:5,nt:9,next:65535,str:51384,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:9244 op:20,dt:4,nt:8,next:65535,str:51392,d0:9245,d1:34705;
-                ("sleep_forever", Expression<MethodOrOperator> @:9245 op:20,dt:2,nt:9,next:65535,str:13964,d0:0,d1:0;)))))
+("cs_e22_mars0_crouch", MethodDecl<Void> @:274 check:0,op:0,dt:0,nt:65535,next:9246,nextCheck:34706,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:9246 check:34706,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:51236,h:1,d0:9247,d1:34707;
+        ("begin", Expression<MethodOrOperator> @:9247 check:34707,op:0,dt:2,nt:9,next:9232,nextCheck:34692,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:9232 check:34692,op:445,dt:4,nt:8,next:9235,nextCheck:34695,str:51281,h:1,d0:9233,d1:34693;
+                ("cs_enable_dialogue", Expression<MethodOrOperator> @:9233 check:34693,op:445,dt:2,nt:9,next:9234,nextCheck:34694,str:19444,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:9234 check:34694,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:51301,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:9235 check:34695,op:422,dt:4,nt:8,next:9238,nextCheck:34698,str:51309,h:1,d0:9236,d1:34696;
+                ("cs_movement_mode", Expression<MethodOrOperator> @:9236 check:34696,op:422,dt:2,nt:9,next:9237,nextCheck:34697,str:19154,h:0,d0:0,d1:0;
+                    ("ai_movement_combat", VariableAccess<Short> @:9237 check:34697,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:19171,h:0,d0:33583,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:9238 check:34698,op:423,dt:4,nt:8,next:9241,nextCheck:34701,str:51349,h:1,d0:9239,d1:34699;
+                ("cs_crouch", Expression<MethodOrOperator> @:9239 check:34699,op:423,dt:2,nt:9,next:9240,nextCheck:34700,str:16563,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:9240 check:34700,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:51360,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:9241 check:34701,op:394,dt:4,nt:8,next:9244,nextCheck:34704,str:51368,h:1,d0:9242,d1:34702;
+                ("cs_look_player", Expression<MethodOrOperator> @:9242 check:34702,op:394,dt:2,nt:9,next:9243,nextCheck:34703,str:18868,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:9243 check:34703,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:51384,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:9244 check:34704,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:51392,h:1,d0:9245,d1:34705;
+                ("sleep_forever", Expression<MethodOrOperator> @:9245 check:34705,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:13964,h:0,d0:0,d1:0;)))))

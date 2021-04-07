@@ -1,11 +1,11 @@
 
-("e20_mars_warthog0_main", MethodDecl<Void> @:329 op:0,dt:0,nt:65535,next:11667,str:24717,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:11667 op:0,dt:4,nt:8,next:65535,str:18763,d0:11668,d1:37128;
-        ("begin", Expression<MethodOrOperator> @:11668 op:0,dt:2,nt:9,next:11660,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:11660 op:309,dt:4,nt:8,next:11664,str:18837,d0:11661,d1:37121;
-                ("ai_migrate", Expression<MethodOrOperator> @:11661 op:309,dt:2,nt:9,next:11662,str:18379,d0:0,d1:0;
-                    ("e19_mars_warthog0", Expression<AI> @:11662 op:19,dt:19,nt:9,next:11663,str:24598,d0:48,d1:0;
-                        ("e20_mars_warthog0", Expression<AI> @:11663 op:19,dt:19,nt:9,next:65535,str:24079,d0:55,d1:0;))))
-            (____, BuiltinInvocation<Void> @:11664 op:22,dt:4,nt:8,next:65535,str:18888,d0:11665,d1:37125;
-                ("wake", Expression<MethodOrOperator> @:11665 op:22,dt:2,nt:9,next:11666,str:1071,d0:0,d1:0;
-                    ("e20_mars_warthog1_main", Expression<ScriptReference> @:11666 op:10,dt:10,nt:9,next:65535,str:24616,d0:328,d1:65535;))))))
+("e20_mars_warthog0_main", MethodDecl<Void> @:329 check:0,op:0,dt:0,nt:65535,next:11667,nextCheck:37127,str:24717,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:11667 check:37127,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:18763,h:2,d0:11668,d1:37128;
+        ("begin", Expression<MethodOrOperator> @:11668 check:37128,op:0,dt:2,nt:9,next:11660,nextCheck:37120,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:11660 check:37120,op:309,dt:4,nt:8,next:11664,nextCheck:37124,str:18837,h:2,d0:11661,d1:37121;
+                ("ai_migrate", Expression<MethodOrOperator> @:11661 check:37121,op:309,dt:2,nt:9,next:11662,nextCheck:37122,str:18379,h:0,d0:0,d1:0;
+                    ("e19_mars_warthog0", Expression<AI> @:11662 check:37122,op:19,dt:19,nt:9,next:11663,nextCheck:37123,str:24598,h:0,d0:48,d1:0;
+                        ("e20_mars_warthog0", Expression<AI> @:11663 check:37123,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:24079,h:0,d0:55,d1:0;))))
+            (____, BuiltinInvocation<Void> @:11664 check:37124,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:18888,h:2,d0:11665,d1:37125;
+                ("wake", Expression<MethodOrOperator> @:11665 check:37125,op:22,dt:2,nt:9,next:11666,nextCheck:37126,str:1071,h:0,d0:0,d1:0;
+                    ("e20_mars_warthog1_main", Expression<ScriptReference> @:11666 check:37126,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:24616,h:0,d0:328,d1:65535;))))))

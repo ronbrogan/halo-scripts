@@ -1,12 +1,12 @@
 
-("cs_trm1_bunker", MethodDecl<Void> @:351 op:0,dt:0,nt:65535,next:16426,str:38829,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:16426 op:0,dt:4,nt:8,next:65535,str:2452,d0:16427,d1:41887;
-        ("begin", Expression<MethodOrOperator> @:16427 op:0,dt:2,nt:9,next:16418,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:16418 op:444,dt:4,nt:8,next:16421,str:2492,d0:16419,d1:41879;
-                ("cs_enable_moving", Expression<MethodOrOperator> @:16419 op:444,dt:2,nt:9,next:16420,str:37929,d0:0,d1:0;
-                    (False, Expression<Boolean> @:16420 op:5,dt:5,nt:9,next:65535,str:2510,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16421 op:423,dt:4,nt:8,next:16424,str:2515,d0:16422,d1:41882;
-                ("cs_crouch", Expression<MethodOrOperator> @:16422 op:423,dt:2,nt:9,next:16423,str:37946,d0:0,d1:0;
-                    (True, Expression<Boolean> @:16423 op:5,dt:5,nt:9,next:65535,str:2526,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16424 op:20,dt:4,nt:8,next:65535,str:2531,d0:16425,d1:41885;
-                ("sleep_forever", Expression<MethodOrOperator> @:16425 op:20,dt:2,nt:9,next:65535,str:27349,d0:0,d1:0;)))))
+("cs_trm1_bunker", MethodDecl<Void> @:351 check:0,op:0,dt:0,nt:65535,next:16426,nextCheck:41886,str:38829,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:16426 check:41886,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:2452,h:3,d0:16427,d1:41887;
+        ("begin", Expression<MethodOrOperator> @:16427 check:41887,op:0,dt:2,nt:9,next:16418,nextCheck:41878,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:16418 check:41878,op:444,dt:4,nt:8,next:16421,nextCheck:41881,str:2492,h:3,d0:16419,d1:41879;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:16419 check:41879,op:444,dt:2,nt:9,next:16420,nextCheck:41880,str:37929,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:16420 check:41880,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:2510,h:3,d0:65280,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16421 check:41881,op:423,dt:4,nt:8,next:16424,nextCheck:41884,str:2515,h:3,d0:16422,d1:41882;
+                ("cs_crouch", Expression<MethodOrOperator> @:16422 check:41882,op:423,dt:2,nt:9,next:16423,nextCheck:41883,str:37946,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16423 check:41883,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:2526,h:3,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16424 check:41884,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:2531,h:3,d0:16425,d1:41885;
+                ("sleep_forever", Expression<MethodOrOperator> @:16425 check:41885,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:27349,h:0,d0:0,d1:0;)))))

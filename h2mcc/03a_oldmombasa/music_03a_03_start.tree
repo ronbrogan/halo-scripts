@@ -1,12 +1,12 @@
 
-("music_03a_03_start", MethodDecl<Void> @:140 op:0,dt:0,nt:65535,next:5018,str:23301,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5018 op:0,dt:4,nt:8,next:65535,str:55451,d0:5019,d1:63246;
-        ("begin", Expression<MethodOrOperator> @:5019 op:0,dt:2,nt:9,next:5010,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5010 op:27,dt:4,nt:8,next:5013,str:55508,d0:5011,d1:63238;
-                ("print", Expression<MethodOrOperator> @:5011 op:27,dt:2,nt:9,next:5012,str:149,d0:0,d1:0;
-                    ("music 03a_03 start", Expression<String> @:5012 op:9,dt:9,nt:9,next:65535,str:10381,d0:10381,d1:0;)))
-            (____, BuiltinInvocation<Void> @:5013 op:605,dt:4,nt:8,next:65535,str:55539,d0:5014,d1:63241;
-                ("sound_looping_start", Expression<MethodOrOperator> @:5014 op:605,dt:2,nt:9,next:5015,str:10061,d0:0,d1:0;
-                    ("scenarios\solo\03a_oldmombasa\03a_music\03a_03", Expression<LoopingSound> @:5015 op:35,dt:35,nt:9,next:5016,str:10400,d0:8246,d1:33390;
-                        (4294967295, Expression<Entity> @:5016 op:50,dt:50,nt:9,next:5017,str:1,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:5017 op:6,dt:6,nt:9,next:65535,str:55614,d0:0,d1:16256;))))))))
+("music_03a_03_start", MethodDecl<Void> @:140 check:0,op:0,dt:0,nt:65535,next:5018,nextCheck:63245,str:23301,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5018 check:63245,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:55451,h:0,d0:5019,d1:63246;
+        ("begin", Expression<MethodOrOperator> @:5019 check:63246,op:0,dt:2,nt:9,next:5010,nextCheck:63237,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5010 check:63237,op:27,dt:4,nt:8,next:5013,nextCheck:63240,str:55508,h:0,d0:5011,d1:63238;
+                ("print", Expression<MethodOrOperator> @:5011 check:63238,op:27,dt:2,nt:9,next:5012,nextCheck:63239,str:149,h:0,d0:0,d1:0;
+                    ("music 03a_03 start", Expression<String> @:5012 check:63239,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:10381,h:0,d0:10381,d1:0;)))
+            (____, BuiltinInvocation<Void> @:5013 check:63240,op:605,dt:4,nt:8,next:65535,nextCheck:65535,str:55539,h:0,d0:5014,d1:63241;
+                ("sound_looping_start", Expression<MethodOrOperator> @:5014 check:63241,op:605,dt:2,nt:9,next:5015,nextCheck:63242,str:10061,h:0,d0:0,d1:0;
+                    ("scenarios\solo\03a_oldmombasa\03a_music\03a_03", Expression<LoopingSound> @:5015 check:63242,op:35,dt:35,nt:9,next:5016,nextCheck:63243,str:10400,h:0,d0:8246,d1:33390;
+                        (4294967295, Expression<Entity> @:5016 check:63243,op:50,dt:50,nt:9,next:5017,nextCheck:63244,str:1,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:5017 check:63244,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:55614,h:0,d0:0,d1:16256;))))))))

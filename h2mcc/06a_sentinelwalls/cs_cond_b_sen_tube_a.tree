@@ -1,20 +1,20 @@
 
-("cs_cond_b_sen_tube_a", MethodDecl<Void> @:327 op:0,dt:0,nt:65535,next:16115,str:25755,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:16115 op:0,dt:4,nt:8,next:65535,str:26839,d0:16116,d1:41576;
-        ("begin", Expression<MethodOrOperator> @:16116 op:0,dt:2,nt:9,next:16099,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:16099 op:449,dt:4,nt:8,next:16102,str:26885,d0:16100,d1:41560;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:16100 op:449,dt:2,nt:9,next:16101,str:1239,d0:0,d1:0;
-                    (True, Expression<Boolean> @:16101 op:5,dt:5,nt:9,next:65535,str:26917,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16102 op:381,dt:4,nt:8,next:16106,str:26959,d0:16103,d1:41563;
-                ("cs_fly_to_and_face", Expression<MethodOrOperator> @:16103 op:381,dt:2,nt:9,next:16104,str:17625,d0:0,d1:0;
-                    ("cond_b/p0", Expression<SpatialPoint> @:16104 op:28,dt:28,nt:9,next:16105,str:25635,d0:0,d1:7;
-                        ("cond_b/p1", Expression<SpatialPoint> @:16105 op:28,dt:28,nt:9,next:65535,str:25645,d0:1,d1:7;))))
-            (____, BuiltinInvocation<Void> @:16106 op:379,dt:4,nt:8,next:16109,str:27002,d0:16107,d1:41567;
-                ("cs_fly_to", Expression<MethodOrOperator> @:16107 op:379,dt:2,nt:9,next:16108,str:17940,d0:0,d1:0;
-                    ("cond_b/p1", Expression<SpatialPoint> @:16108 op:28,dt:28,nt:9,next:65535,str:25645,d0:1,d1:7;)))
-            (____, BuiltinInvocation<Void> @:16109 op:379,dt:4,nt:8,next:16112,str:27026,d0:16110,d1:41570;
-                ("cs_fly_to", Expression<MethodOrOperator> @:16110 op:379,dt:2,nt:9,next:16111,str:17940,d0:0,d1:0;
-                    ("cond_b/p2", Expression<SpatialPoint> @:16111 op:28,dt:28,nt:9,next:65535,str:25655,d0:2,d1:7;)))
-            (____, BuiltinInvocation<Void> @:16112 op:379,dt:4,nt:8,next:65535,str:27050,d0:16113,d1:41573;
-                ("cs_fly_to", Expression<MethodOrOperator> @:16113 op:379,dt:2,nt:9,next:16114,str:17940,d0:0,d1:0;
-                    ("cond_b/p3", Expression<SpatialPoint> @:16114 op:28,dt:28,nt:9,next:65535,str:25665,d0:3,d1:7;))))))
+("cs_cond_b_sen_tube_a", MethodDecl<Void> @:327 check:0,op:0,dt:0,nt:65535,next:16115,nextCheck:41575,str:25755,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:16115 check:41575,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:26839,h:2,d0:16116,d1:41576;
+        ("begin", Expression<MethodOrOperator> @:16116 check:41576,op:0,dt:2,nt:9,next:16099,nextCheck:41559,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:16099 check:41559,op:449,dt:4,nt:8,next:16102,nextCheck:41562,str:26885,h:2,d0:16100,d1:41560;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:16100 check:41560,op:449,dt:2,nt:9,next:16101,nextCheck:41561,str:1239,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16101 check:41561,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:26917,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16102 check:41562,op:381,dt:4,nt:8,next:16106,nextCheck:41566,str:26959,h:2,d0:16103,d1:41563;
+                ("cs_fly_to_and_face", Expression<MethodOrOperator> @:16103 check:41563,op:381,dt:2,nt:9,next:16104,nextCheck:41564,str:17625,h:0,d0:0,d1:0;
+                    ("cond_b/p0", Expression<SpatialPoint> @:16104 check:41564,op:28,dt:28,nt:9,next:16105,nextCheck:41565,str:25635,h:0,d0:0,d1:7;
+                        ("cond_b/p1", Expression<SpatialPoint> @:16105 check:41565,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:25645,h:0,d0:1,d1:7;))))
+            (____, BuiltinInvocation<Void> @:16106 check:41566,op:379,dt:4,nt:8,next:16109,nextCheck:41569,str:27002,h:2,d0:16107,d1:41567;
+                ("cs_fly_to", Expression<MethodOrOperator> @:16107 check:41567,op:379,dt:2,nt:9,next:16108,nextCheck:41568,str:17940,h:0,d0:0,d1:0;
+                    ("cond_b/p1", Expression<SpatialPoint> @:16108 check:41568,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:25645,h:0,d0:1,d1:7;)))
+            (____, BuiltinInvocation<Void> @:16109 check:41569,op:379,dt:4,nt:8,next:16112,nextCheck:41572,str:27026,h:2,d0:16110,d1:41570;
+                ("cs_fly_to", Expression<MethodOrOperator> @:16110 check:41570,op:379,dt:2,nt:9,next:16111,nextCheck:41571,str:17940,h:0,d0:0,d1:0;
+                    ("cond_b/p2", Expression<SpatialPoint> @:16111 check:41571,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:25655,h:0,d0:2,d1:7;)))
+            (____, BuiltinInvocation<Void> @:16112 check:41572,op:379,dt:4,nt:8,next:65535,nextCheck:65535,str:27050,h:2,d0:16113,d1:41573;
+                ("cs_fly_to", Expression<MethodOrOperator> @:16113 check:41573,op:379,dt:2,nt:9,next:16114,nextCheck:41574,str:17940,h:0,d0:0,d1:0;
+                    ("cond_b/p3", Expression<SpatialPoint> @:16114 check:41574,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:25665,h:0,d0:3,d1:7;))))))

@@ -1,19 +1,19 @@
 
-("sleep_temple_ent", MethodDecl<Void> @:348 op:0,dt:0,nt:65535,next:24760,str:37282,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:24760 op:0,dt:4,nt:8,next:65535,str:13347,d0:24761,d1:50221;
-        ("begin", Expression<MethodOrOperator> @:24761 op:0,dt:2,nt:9,next:24745,str:54,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:24745 op:20,dt:4,nt:8,next:24748,str:13386,d0:24746,d1:50206;
-                ("sleep_forever", Expression<MethodOrOperator> @:24746 op:20,dt:2,nt:9,next:24747,str:13223,d0:0,d1:0;
-                    ("old_temple_entrance_start", Expression<ScriptReference> @:24747 op:10,dt:10,nt:9,next:65535,str:36607,d0:279,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:24748 op:20,dt:4,nt:8,next:24751,str:13430,d0:24749,d1:50209;
-                ("sleep_forever", Expression<MethodOrOperator> @:24749 op:20,dt:2,nt:9,next:24750,str:13223,d0:0,d1:0;
-                    ("temple_ent_ghost_alert", Expression<ScriptReference> @:24750 op:10,dt:10,nt:9,next:65535,str:26795,d0:275,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:24751 op:20,dt:4,nt:8,next:24754,str:13471,d0:24752,d1:50212;
-                ("sleep_forever", Expression<MethodOrOperator> @:24752 op:20,dt:2,nt:9,next:24753,str:13223,d0:0,d1:0;
-                    ("temple_ent_veh_spawn", Expression<ScriptReference> @:24753 op:10,dt:10,nt:9,next:65535,str:26883,d0:276,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:24754 op:20,dt:4,nt:8,next:24757,str:13510,d0:24755,d1:50215;
-                ("sleep_forever", Expression<MethodOrOperator> @:24755 op:20,dt:2,nt:9,next:24756,str:13223,d0:0,d1:0;
-                    ("temple_ent_reminder", Expression<ScriptReference> @:24756 op:10,dt:10,nt:9,next:65535,str:27030,d0:278,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:24757 op:20,dt:4,nt:8,next:65535,str:13548,d0:24758,d1:50218;
-                ("sleep_forever", Expression<MethodOrOperator> @:24758 op:20,dt:2,nt:9,next:24759,str:13223,d0:0,d1:0;
-                    ("temple_ent_arch", Expression<ScriptReference> @:24759 op:10,dt:10,nt:9,next:65535,str:36633,d0:280,d1:65535;))))))
+("sleep_temple_ent", MethodDecl<Void> @:348 check:0,op:0,dt:0,nt:65535,next:24760,nextCheck:50220,str:37282,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:24760 check:50220,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:13347,h:4,d0:24761,d1:50221;
+        ("begin", Expression<MethodOrOperator> @:24761 check:50221,op:0,dt:2,nt:9,next:24745,nextCheck:50205,str:54,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:24745 check:50205,op:20,dt:4,nt:8,next:24748,nextCheck:50208,str:13386,h:4,d0:24746,d1:50206;
+                ("sleep_forever", Expression<MethodOrOperator> @:24746 check:50206,op:20,dt:2,nt:9,next:24747,nextCheck:50207,str:13223,h:0,d0:0,d1:0;
+                    ("old_temple_entrance_start", Expression<ScriptReference> @:24747 check:50207,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:36607,h:0,d0:279,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:24748 check:50208,op:20,dt:4,nt:8,next:24751,nextCheck:50211,str:13430,h:4,d0:24749,d1:50209;
+                ("sleep_forever", Expression<MethodOrOperator> @:24749 check:50209,op:20,dt:2,nt:9,next:24750,nextCheck:50210,str:13223,h:0,d0:0,d1:0;
+                    ("temple_ent_ghost_alert", Expression<ScriptReference> @:24750 check:50210,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:26795,h:0,d0:275,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:24751 check:50211,op:20,dt:4,nt:8,next:24754,nextCheck:50214,str:13471,h:4,d0:24752,d1:50212;
+                ("sleep_forever", Expression<MethodOrOperator> @:24752 check:50212,op:20,dt:2,nt:9,next:24753,nextCheck:50213,str:13223,h:0,d0:0,d1:0;
+                    ("temple_ent_veh_spawn", Expression<ScriptReference> @:24753 check:50213,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:26883,h:0,d0:276,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:24754 check:50214,op:20,dt:4,nt:8,next:24757,nextCheck:50217,str:13510,h:4,d0:24755,d1:50215;
+                ("sleep_forever", Expression<MethodOrOperator> @:24755 check:50215,op:20,dt:2,nt:9,next:24756,nextCheck:50216,str:13223,h:0,d0:0,d1:0;
+                    ("temple_ent_reminder", Expression<ScriptReference> @:24756 check:50216,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:27030,h:0,d0:278,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:24757 check:50217,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:13548,h:4,d0:24758,d1:50218;
+                ("sleep_forever", Expression<MethodOrOperator> @:24758 check:50218,op:20,dt:2,nt:9,next:24759,nextCheck:50219,str:13223,h:0,d0:0,d1:0;
+                    ("temple_ent_arch", Expression<ScriptReference> @:24759 check:50219,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:36633,h:0,d0:280,d1:65535;))))))

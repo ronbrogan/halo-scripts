@@ -1,14 +1,14 @@
 
-("c01_outro_04_cleanup", MethodDecl<Void> @:234 op:0,dt:0,nt:65535,next:9001,str:22162,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:9001 op:0,dt:4,nt:8,next:65535,str:43645,d0:9002,d1:34462;
-        ("begin", Expression<MethodOrOperator> @:9002 op:0,dt:2,nt:9,next:8991,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:8991 op:76,dt:4,nt:8,next:8995,str:43688,d0:8992,d1:34452;
-                ("objects_detach", Expression<MethodOrOperator> @:8992 op:76,dt:2,nt:9,next:8993,str:21657,d0:0,d1:0;
-                    (4294902010, Expression<Entity> @:8993 op:56,dt:50,nt:9,next:8994,str:20689,d0:250,d1:65535;
-                        (4294902055, Expression<Entity> @:8994 op:56,dt:50,nt:9,next:65535,str:21711,d0:295,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:8995 op:53,dt:4,nt:8,next:8998,str:43745,d0:8996,d1:34456;
-                ("object_destroy_containing", Expression<MethodOrOperator> @:8996 op:53,dt:2,nt:9,next:8997,str:3265,d0:0,d1:0;
-                    ("elevator", Expression<String> @:8997 op:9,dt:9,nt:9,next:65535,str:21988,d0:21988,d1:0;)))
-            (____, BuiltinInvocation<Void> @:8998 op:52,dt:4,nt:8,next:65535,str:43784,d0:8999,d1:34459;
-                ("object_destroy", Expression<MethodOrOperator> @:8999 op:52,dt:2,nt:9,next:9000,str:2937,d0:0,d1:0;
-                    (4294902014, Expression<Entity> @:9000 op:56,dt:50,nt:9,next:65535,str:21629,d0:254,d1:65535;))))))
+("c01_outro_04_cleanup", MethodDecl<Void> @:234 check:0,op:0,dt:0,nt:65535,next:9001,nextCheck:34461,str:22162,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:9001 check:34461,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:43645,h:1,d0:9002,d1:34462;
+        ("begin", Expression<MethodOrOperator> @:9002 check:34462,op:0,dt:2,nt:9,next:8991,nextCheck:34451,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:8991 check:34451,op:76,dt:4,nt:8,next:8995,nextCheck:34455,str:43688,h:1,d0:8992,d1:34452;
+                ("objects_detach", Expression<MethodOrOperator> @:8992 check:34452,op:76,dt:2,nt:9,next:8993,nextCheck:34453,str:21657,h:0,d0:0,d1:0;
+                    (4294902010, Expression<Entity> @:8993 check:34453,op:56,dt:50,nt:9,next:8994,nextCheck:34454,str:20689,h:0,d0:250,d1:65535;
+                        (4294902055, Expression<Entity> @:8994 check:34454,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:21711,h:0,d0:295,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:8995 check:34455,op:53,dt:4,nt:8,next:8998,nextCheck:34458,str:43745,h:1,d0:8996,d1:34456;
+                ("object_destroy_containing", Expression<MethodOrOperator> @:8996 check:34456,op:53,dt:2,nt:9,next:8997,nextCheck:34457,str:3265,h:0,d0:0,d1:0;
+                    ("elevator", Expression<String> @:8997 check:34457,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:21988,h:0,d0:21988,d1:0;)))
+            (____, BuiltinInvocation<Void> @:8998 check:34458,op:52,dt:4,nt:8,next:65535,nextCheck:65535,str:43784,h:1,d0:8999,d1:34459;
+                ("object_destroy", Expression<MethodOrOperator> @:8999 check:34459,op:52,dt:2,nt:9,next:9000,nextCheck:34460,str:2937,h:0,d0:0,d1:0;
+                    (4294902014, Expression<Entity> @:9000 check:34460,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:21629,h:0,d0:254,d1:65535;))))))

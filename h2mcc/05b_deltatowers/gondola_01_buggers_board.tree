@@ -1,11 +1,11 @@
 
-("gondola_01_buggers_board", MethodDecl<Void> @:168 op:0,dt:0,nt:65535,next:6815,str:16883,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6815 op:0,dt:4,nt:8,next:65535,str:12376,d0:6816,d1:65043;
-        ("begin", Expression<MethodOrOperator> @:6816 op:0,dt:2,nt:9,next:6808,str:142,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6808 op:19,dt:4,nt:8,next:6811,str:12419,d0:6809,d1:65036;
-                ("sleep", Expression<MethodOrOperator> @:6809 op:19,dt:2,nt:9,next:6810,str:221,d0:0,d1:0;
-                    (150, Expression<Short> @:6810 op:7,dt:7,nt:9,next:65535,str:12426,d0:150,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6811 op:291,dt:4,nt:8,next:65535,str:12433,d0:6812,d1:65039;
-                ("ai_place", Expression<MethodOrOperator> @:6812 op:291,dt:2,nt:9,next:6813,str:10304,d0:0,d1:0;
-                    ("gondola_01_bugs_new", Expression<AI> @:6813 op:19,dt:19,nt:9,next:6814,str:15317,d0:150,d1:0;
-                        (4, Expression<Short> @:6814 op:7,dt:7,nt:9,next:65535,str:12463,d0:4,d1:65535;)))))))
+("gondola_01_buggers_board", MethodDecl<Void> @:168 check:0,op:0,dt:0,nt:65535,next:6815,nextCheck:65042,str:16883,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6815 check:65042,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:12376,h:1,d0:6816,d1:65043;
+        ("begin", Expression<MethodOrOperator> @:6816 check:65043,op:0,dt:2,nt:9,next:6808,nextCheck:65035,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6808 check:65035,op:19,dt:4,nt:8,next:6811,nextCheck:65038,str:12419,h:1,d0:6809,d1:65036;
+                ("sleep", Expression<MethodOrOperator> @:6809 check:65036,op:19,dt:2,nt:9,next:6810,nextCheck:65037,str:221,h:0,d0:0,d1:0;
+                    (150, Expression<Short> @:6810 check:65037,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:12426,h:1,d0:150,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6811 check:65038,op:291,dt:4,nt:8,next:65535,nextCheck:65535,str:12433,h:1,d0:6812,d1:65039;
+                ("ai_place", Expression<MethodOrOperator> @:6812 check:65039,op:291,dt:2,nt:9,next:6813,nextCheck:65040,str:10304,h:0,d0:0,d1:0;
+                    ("gondola_01_bugs_new", Expression<AI> @:6813 check:65040,op:19,dt:19,nt:9,next:6814,nextCheck:65041,str:15317,h:0,d0:150,d1:0;
+                        (4, Expression<Short> @:6814 check:65041,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:12463,h:1,d0:4,d1:65535;)))))))

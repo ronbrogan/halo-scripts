@@ -1,22 +1,22 @@
 
-("effect_beams", MethodDecl<Void> @:80 op:0,dt:0,nt:65535,next:2777,str:7328,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2777 op:0,dt:4,nt:8,next:65535,str:32824,d0:2778,d1:61005;
-        ("begin", Expression<MethodOrOperator> @:2778 op:0,dt:2,nt:9,next:2759,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2759 op:19,dt:4,nt:8,next:2762,str:32855,d0:2760,d1:60987;
-                ("sleep", Expression<MethodOrOperator> @:2760 op:19,dt:2,nt:9,next:2761,str:90,d0:0,d1:0;
-                    (378, Expression<Short> @:2761 op:7,dt:7,nt:9,next:65535,str:32862,d0:378,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2762 op:27,dt:4,nt:8,next:2765,str:32869,d0:2763,d1:60990;
-                ("print", Expression<MethodOrOperator> @:2763 op:27,dt:2,nt:9,next:2764,str:96,d0:0,d1:0;
-                    ("effect - beam 01", Expression<String> @:2764 op:9,dt:9,nt:9,next:65535,str:6912,d0:6912,d1:0;)))
-            (____, BuiltinInvocation<Void> @:2765 op:46,dt:4,nt:8,next:2768,str:32898,d0:2766,d1:60993;
-                ("object_create", Expression<MethodOrOperator> @:2766 op:46,dt:2,nt:9,next:2767,str:6884,d0:0,d1:0;
-                    ("beam_01", Expression<EntityIdentifier> @:2767 op:56,dt:56,nt:9,next:65535,str:6929,d0:252,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2768 op:19,dt:4,nt:8,next:2771,str:32924,d0:2769,d1:60996;
-                ("sleep", Expression<MethodOrOperator> @:2769 op:19,dt:2,nt:9,next:2770,str:90,d0:0,d1:0;
-                    (69, Expression<Short> @:2770 op:7,dt:7,nt:9,next:65535,str:32931,d0:69,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2771 op:27,dt:4,nt:8,next:2774,str:32937,d0:2772,d1:60999;
-                ("print", Expression<MethodOrOperator> @:2772 op:27,dt:2,nt:9,next:2773,str:96,d0:0,d1:0;
-                    ("effect - beam 02", Expression<String> @:2773 op:9,dt:9,nt:9,next:65535,str:6937,d0:6937,d1:0;)))
-            (____, BuiltinInvocation<Void> @:2774 op:46,dt:4,nt:8,next:65535,str:32966,d0:2775,d1:61002;
-                ("object_create", Expression<MethodOrOperator> @:2775 op:46,dt:2,nt:9,next:2776,str:6884,d0:0,d1:0;
-                    ("beam_02", Expression<EntityIdentifier> @:2776 op:56,dt:56,nt:9,next:65535,str:6954,d0:251,d1:65535;))))))
+("effect_beams", MethodDecl<Void> @:80 check:0,op:0,dt:0,nt:65535,next:2777,nextCheck:61004,str:7328,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2777 check:61004,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:32824,h:0,d0:2778,d1:61005;
+        ("begin", Expression<MethodOrOperator> @:2778 check:61005,op:0,dt:2,nt:9,next:2759,nextCheck:60986,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2759 check:60986,op:19,dt:4,nt:8,next:2762,nextCheck:60989,str:32855,h:0,d0:2760,d1:60987;
+                ("sleep", Expression<MethodOrOperator> @:2760 check:60987,op:19,dt:2,nt:9,next:2761,nextCheck:60988,str:90,h:0,d0:0,d1:0;
+                    (378, Expression<Short> @:2761 check:60988,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:32862,h:0,d0:378,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2762 check:60989,op:27,dt:4,nt:8,next:2765,nextCheck:60992,str:32869,h:0,d0:2763,d1:60990;
+                ("print", Expression<MethodOrOperator> @:2763 check:60990,op:27,dt:2,nt:9,next:2764,nextCheck:60991,str:96,h:0,d0:0,d1:0;
+                    ("effect - beam 01", Expression<String> @:2764 check:60991,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:6912,h:0,d0:6912,d1:0;)))
+            (____, BuiltinInvocation<Void> @:2765 check:60992,op:46,dt:4,nt:8,next:2768,nextCheck:60995,str:32898,h:0,d0:2766,d1:60993;
+                ("object_create", Expression<MethodOrOperator> @:2766 check:60993,op:46,dt:2,nt:9,next:2767,nextCheck:60994,str:6884,h:0,d0:0,d1:0;
+                    ("beam_01", Expression<EntityIdentifier> @:2767 check:60994,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:6929,h:0,d0:252,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2768 check:60995,op:19,dt:4,nt:8,next:2771,nextCheck:60998,str:32924,h:0,d0:2769,d1:60996;
+                ("sleep", Expression<MethodOrOperator> @:2769 check:60996,op:19,dt:2,nt:9,next:2770,nextCheck:60997,str:90,h:0,d0:0,d1:0;
+                    (69, Expression<Short> @:2770 check:60997,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:32931,h:0,d0:69,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2771 check:60998,op:27,dt:4,nt:8,next:2774,nextCheck:61001,str:32937,h:0,d0:2772,d1:60999;
+                ("print", Expression<MethodOrOperator> @:2772 check:60999,op:27,dt:2,nt:9,next:2773,nextCheck:61000,str:96,h:0,d0:0,d1:0;
+                    ("effect - beam 02", Expression<String> @:2773 check:61000,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:6937,h:0,d0:6937,d1:0;)))
+            (____, BuiltinInvocation<Void> @:2774 check:61001,op:46,dt:4,nt:8,next:65535,nextCheck:65535,str:32966,h:0,d0:2775,d1:61002;
+                ("object_create", Expression<MethodOrOperator> @:2775 check:61002,op:46,dt:2,nt:9,next:2776,nextCheck:61003,str:6884,h:0,d0:0,d1:0;
+                    ("beam_02", Expression<EntityIdentifier> @:2776 check:61003,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:6954,h:0,d0:251,d1:65535;))))))

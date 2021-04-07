@@ -1,16 +1,16 @@
 
-("e8_cov_inf1_main", MethodDecl<Void> @:283 op:0,dt:0,nt:65535,next:10719,str:20142,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:10719 op:0,dt:4,nt:8,next:65535,str:1915,d0:10720,d1:36180;
-        ("begin", Expression<MethodOrOperator> @:10720 op:0,dt:2,nt:9,next:10707,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:10707 op:21,dt:4,nt:8,next:10715,str:1987,d0:10708,d1:36168;
-                ("sleep_until", Expression<MethodOrOperator> @:10708 op:21,dt:2,nt:9,next:10709,str:294,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:10709 op:15,dt:5,nt:8,next:65535,str:2000,d0:10710,d1:36170;
-                        (">", Expression<MethodOrOperator> @:10710 op:15,dt:2,nt:9,next:10711,str:12453,d0:0,d1:0;
-                            (____, BuiltinInvocation<Short> @:10711 op:335,dt:7,nt:8,next:10714,str:2003,d0:10712,d1:36172;
-                                ("ai_spawn_count", Expression<MethodOrOperator> @:10712 op:335,dt:2,nt:9,next:10713,str:16178,d0:0,d1:0;
-                                    ("e8_cov_phantom0", Expression<AI> @:10713 op:19,dt:19,nt:9,next:65535,str:19623,d0:74,d1:0;)))
-                            (0, Expression<Short> @:10714 op:7,dt:7,nt:9,next:65535,str:2036,d0:0,d1:65535;)))))
-            (____, BuiltinInvocation<Void> @:10715 op:292,dt:4,nt:8,next:65535,str:2042,d0:10716,d1:36176;
-                ("ai_place_in_vehicle", Expression<MethodOrOperator> @:10716 op:292,dt:2,nt:9,next:10717,str:17565,d0:0,d1:0;
-                    ("e8_cov_inf1", Expression<AI> @:10717 op:19,dt:19,nt:9,next:10718,str:19925,d0:70,d1:0;
-                        ("e8_cov_phantom0", Expression<AI> @:10718 op:19,dt:19,nt:9,next:65535,str:19623,d0:74,d1:0;)))))))
+("e8_cov_inf1_main", MethodDecl<Void> @:283 check:0,op:0,dt:0,nt:65535,next:10719,nextCheck:36179,str:20142,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:10719 check:36179,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1915,h:2,d0:10720,d1:36180;
+        ("begin", Expression<MethodOrOperator> @:10720 check:36180,op:0,dt:2,nt:9,next:10707,nextCheck:36167,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:10707 check:36167,op:21,dt:4,nt:8,next:10715,nextCheck:36175,str:1987,h:2,d0:10708,d1:36168;
+                ("sleep_until", Expression<MethodOrOperator> @:10708 check:36168,op:21,dt:2,nt:9,next:10709,nextCheck:36169,str:294,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:10709 check:36169,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:2000,h:2,d0:10710,d1:36170;
+                        (">", Expression<MethodOrOperator> @:10710 check:36170,op:15,dt:2,nt:9,next:10711,nextCheck:36171,str:12453,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Short> @:10711 check:36171,op:335,dt:7,nt:8,next:10714,nextCheck:36174,str:2003,h:2,d0:10712,d1:36172;
+                                ("ai_spawn_count", Expression<MethodOrOperator> @:10712 check:36172,op:335,dt:2,nt:9,next:10713,nextCheck:36173,str:16178,h:0,d0:0,d1:0;
+                                    ("e8_cov_phantom0", Expression<AI> @:10713 check:36173,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19623,h:0,d0:74,d1:0;)))
+                            (0, Expression<Short> @:10714 check:36174,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2036,h:2,d0:0,d1:65535;)))))
+            (____, BuiltinInvocation<Void> @:10715 check:36175,op:292,dt:4,nt:8,next:65535,nextCheck:65535,str:2042,h:2,d0:10716,d1:36176;
+                ("ai_place_in_vehicle", Expression<MethodOrOperator> @:10716 check:36176,op:292,dt:2,nt:9,next:10717,nextCheck:36177,str:17565,h:0,d0:0,d1:0;
+                    ("e8_cov_inf1", Expression<AI> @:10717 check:36177,op:19,dt:19,nt:9,next:10718,nextCheck:36178,str:19925,h:0,d0:70,d1:0;
+                        ("e8_cov_phantom0", Expression<AI> @:10718 check:36178,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19623,h:0,d0:74,d1:0;)))))))

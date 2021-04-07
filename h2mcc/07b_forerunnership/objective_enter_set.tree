@@ -1,16 +1,16 @@
 
-("objective_enter_set", MethodDecl<Void> @:127 op:0,dt:0,nt:65535,next:3716,str:22840,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3716 op:0,dt:4,nt:8,next:65535,str:45751,d0:3717,d1:61944;
-        ("begin", Expression<MethodOrOperator> @:3717 op:0,dt:2,nt:9,next:3704,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3704 op:19,dt:4,nt:8,next:3707,str:45789,d0:3705,d1:61932;
-                ("sleep", Expression<MethodOrOperator> @:3705 op:19,dt:2,nt:9,next:3706,str:80,d0:0,d1:0;
-                    (30, Expression<Short> @:3706 op:7,dt:7,nt:9,next:65535,str:45796,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3707 op:27,dt:4,nt:8,next:3710,str:45802,d0:3708,d1:61935;
-                ("print", Expression<MethodOrOperator> @:3708 op:27,dt:2,nt:9,next:3709,str:86,d0:0,d1:0;
-                    ("new objective set:", Expression<String> @:3709 op:9,dt:9,nt:9,next:65535,str:10152,d0:10152,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3710 op:27,dt:4,nt:8,next:3713,str:45833,d0:3711,d1:61938;
-                ("print", Expression<MethodOrOperator> @:3711 op:27,dt:2,nt:9,next:3712,str:86,d0:0,d1:0;
-                    ("fight your way back inside the mausoleum-tower.", Expression<String> @:3712 op:9,dt:9,nt:9,next:65535,str:10171,d0:10171,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3713 op:753,dt:4,nt:8,next:65535,str:45893,d0:3714,d1:61941;
-                ("objectives_show_up_to", Expression<MethodOrOperator> @:3714 op:753,dt:2,nt:9,next:3715,str:10219,d0:0,d1:0;
-                    (0, Expression<Int> @:3715 op:8,dt:8,nt:9,next:65535,str:45916,d0:0,d1:0;))))))
+("objective_enter_set", MethodDecl<Void> @:127 check:0,op:0,dt:0,nt:65535,next:3716,nextCheck:61943,str:22840,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3716 check:61943,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:45751,h:0,d0:3717,d1:61944;
+        ("begin", Expression<MethodOrOperator> @:3717 check:61944,op:0,dt:2,nt:9,next:3704,nextCheck:61931,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3704 check:61931,op:19,dt:4,nt:8,next:3707,nextCheck:61934,str:45789,h:0,d0:3705,d1:61932;
+                ("sleep", Expression<MethodOrOperator> @:3705 check:61932,op:19,dt:2,nt:9,next:3706,nextCheck:61933,str:80,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:3706 check:61933,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:45796,h:0,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3707 check:61934,op:27,dt:4,nt:8,next:3710,nextCheck:61937,str:45802,h:0,d0:3708,d1:61935;
+                ("print", Expression<MethodOrOperator> @:3708 check:61935,op:27,dt:2,nt:9,next:3709,nextCheck:61936,str:86,h:0,d0:0,d1:0;
+                    ("new objective set:", Expression<String> @:3709 check:61936,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:10152,h:0,d0:10152,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3710 check:61937,op:27,dt:4,nt:8,next:3713,nextCheck:61940,str:45833,h:0,d0:3711,d1:61938;
+                ("print", Expression<MethodOrOperator> @:3711 check:61938,op:27,dt:2,nt:9,next:3712,nextCheck:61939,str:86,h:0,d0:0,d1:0;
+                    ("fight your way back inside the mausoleum-tower.", Expression<String> @:3712 check:61939,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:10171,h:0,d0:10171,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3713 check:61940,op:753,dt:4,nt:8,next:65535,nextCheck:65535,str:45893,h:0,d0:3714,d1:61941;
+                ("objectives_show_up_to", Expression<MethodOrOperator> @:3714 check:61941,op:753,dt:2,nt:9,next:3715,nextCheck:61942,str:10219,h:0,d0:0,d1:0;
+                    (0, Expression<Int> @:3715 check:61942,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:45916,h:0,d0:0,d1:0;))))))

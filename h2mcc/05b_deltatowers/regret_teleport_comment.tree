@@ -1,42 +1,42 @@
 
-("regret_teleport_comment", MethodDecl<Void> @:268 op:0,dt:0,nt:65535,next:17405,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:17405 op:0,dt:4,nt:8,next:65535,str:55522,d0:17406,d1:42866;
-        ("begin", Expression<MethodOrOperator> @:17406 op:0,dt:2,nt:9,next:17367,str:142,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:17367 op:21,dt:4,nt:8,next:17373,str:55564,d0:17368,d1:42828;
-                ("sleep_until", Expression<MethodOrOperator> @:17368 op:21,dt:2,nt:9,next:17369,str:372,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:17369 op:13,dt:5,nt:8,next:65535,str:55577,d0:17370,d1:42830;
-                        ("=", Expression<MethodOrOperator> @:17370 op:13,dt:2,nt:9,next:17371,str:437,d0:0,d1:0;
-                            ("bossfight_chatter", VariableAccess<Boolean> @:17371 op:0,dt:5,nt:13,next:17372,str:28336,d0:25,d1:0;
-                                (True, Expression<Boolean> @:17372 op:5,dt:5,nt:9,next:65535,str:55598,d0:65281,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:17373 op:4,dt:4,nt:8,next:17377,str:55607,d0:17374,d1:42834;
-                ("set", Expression<MethodOrOperator> @:17374 op:4,dt:2,nt:9,next:17375,str:2971,d0:0,d1:0;
-                    ("bossfight_chatter", VariableAccess<Boolean> @:17375 op:65535,dt:5,nt:13,next:17376,str:28336,d0:25,d1:0;
-                        (False, Expression<Boolean> @:17376 op:5,dt:5,nt:9,next:65535,str:55630,d0:65280,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:17377 op:281,dt:4,nt:8,next:17380,str:55639,d0:17378,d1:42838;
-                ("ai_dialogue_enable", Expression<MethodOrOperator> @:17378 op:281,dt:2,nt:9,next:17379,str:10448,d0:0,d1:0;
-                    (False, Expression<Boolean> @:17379 op:5,dt:5,nt:9,next:65535,str:55659,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:17380 op:19,dt:4,nt:8,next:17383,str:55668,d0:17381,d1:42841;
-                ("sleep", Expression<MethodOrOperator> @:17381 op:19,dt:2,nt:9,next:17382,str:221,d0:0,d1:0;
-                    (60, Expression<Short> @:17382 op:7,dt:7,nt:9,next:65535,str:55675,d0:60,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:17383 op:27,dt:4,nt:8,next:17386,str:55681,d0:17384,d1:42844;
-                ("print", Expression<MethodOrOperator> @:17384 op:27,dt:2,nt:9,next:17385,str:227,d0:0,d1:0;
-                    ("cortana: 'phased spatial relocation! the same technology the monitor used on the first halo.'", Expression<String> @:17385 op:9,dt:9,nt:9,next:65535,str:29225,d0:29225,d1:0;)))
-            (____, BuiltinInvocation<Void> @:17386 op:27,dt:4,nt:8,next:17389,str:55788,d0:17387,d1:42847;
-                ("print", Expression<MethodOrOperator> @:17387 op:27,dt:2,nt:9,next:17388,str:227,d0:0,d1:0;
-                    ("'seems the prophets save the best toys for themselves�'", Expression<String> @:17388 op:9,dt:9,nt:9,next:65535,str:29319,d0:29319,d1:0;)))
-            (____, BuiltinInvocation<Void> @:17389 op:19,dt:4,nt:8,next:17395,str:55856,d0:17390,d1:42850;
-                ("sleep", Expression<MethodOrOperator> @:17390 op:19,dt:2,nt:9,next:17391,str:221,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:17391 op:362,dt:7,nt:8,next:65535,str:55863,d0:17392,d1:42852;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:17392 op:362,dt:2,nt:9,next:17393,str:10115,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:17393 op:50,dt:50,nt:9,next:17394,str:52,d0:65535,d1:65535;
-                                ("1260", Expression<StringId> @:17394 op:11,dt:11,nt:9,next:65535,str:29375,d0:12513,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:17395 op:19,dt:4,nt:8,next:17398,str:55989,d0:17396,d1:42856;
-                ("sleep", Expression<MethodOrOperator> @:17396 op:19,dt:2,nt:9,next:17397,str:221,d0:0,d1:0;
-                    (30, Expression<Short> @:17397 op:7,dt:7,nt:9,next:65535,str:55996,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:17398 op:281,dt:4,nt:8,next:17401,str:56002,d0:17399,d1:42859;
-                ("ai_dialogue_enable", Expression<MethodOrOperator> @:17399 op:281,dt:2,nt:9,next:17400,str:10448,d0:0,d1:0;
-                    (True, Expression<Boolean> @:17400 op:5,dt:5,nt:9,next:65535,str:56022,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:17401 op:4,dt:4,nt:8,next:65535,str:56030,d0:17402,d1:42862;
-                ("set", Expression<MethodOrOperator> @:17402 op:4,dt:2,nt:9,next:17403,str:2971,d0:0,d1:0;
-                    ("bossfight_chatter", VariableAccess<Boolean> @:17403 op:65535,dt:5,nt:13,next:17404,str:28336,d0:25,d1:0;
-                        (True, Expression<Boolean> @:17404 op:5,dt:5,nt:9,next:65535,str:56053,d0:65281,d1:65535;)))))))
+("regret_teleport_comment", MethodDecl<Void> @:268 check:0,op:0,dt:0,nt:65535,next:17405,nextCheck:42865,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:17405 check:42865,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:55522,h:2,d0:17406,d1:42866;
+        ("begin", Expression<MethodOrOperator> @:17406 check:42866,op:0,dt:2,nt:9,next:17367,nextCheck:42827,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:17367 check:42827,op:21,dt:4,nt:8,next:17373,nextCheck:42833,str:55564,h:2,d0:17368,d1:42828;
+                ("sleep_until", Expression<MethodOrOperator> @:17368 check:42828,op:21,dt:2,nt:9,next:17369,nextCheck:42829,str:372,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:17369 check:42829,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:55577,h:2,d0:17370,d1:42830;
+                        ("=", Expression<MethodOrOperator> @:17370 check:42830,op:13,dt:2,nt:9,next:17371,nextCheck:42831,str:437,h:0,d0:0,d1:0;
+                            ("bossfight_chatter", VariableAccess<Boolean> @:17371 check:42831,op:0,dt:5,nt:13,next:17372,nextCheck:42832,str:28336,h:0,d0:25,d1:0;
+                                (True, Expression<Boolean> @:17372 check:42832,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:55598,h:2,d0:65281,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:17373 check:42833,op:4,dt:4,nt:8,next:17377,nextCheck:42837,str:55607,h:2,d0:17374,d1:42834;
+                ("set", Expression<MethodOrOperator> @:17374 check:42834,op:4,dt:2,nt:9,next:17375,nextCheck:42835,str:2971,h:0,d0:0,d1:0;
+                    ("bossfight_chatter", VariableAccess<Boolean> @:17375 check:42835,op:65535,dt:5,nt:13,next:17376,nextCheck:42836,str:28336,h:0,d0:25,d1:0;
+                        (False, Expression<Boolean> @:17376 check:42836,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:55630,h:2,d0:65280,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:17377 check:42837,op:281,dt:4,nt:8,next:17380,nextCheck:42840,str:55639,h:2,d0:17378,d1:42838;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:17378 check:42838,op:281,dt:2,nt:9,next:17379,nextCheck:42839,str:10448,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:17379 check:42839,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:55659,h:2,d0:65280,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:17380 check:42840,op:19,dt:4,nt:8,next:17383,nextCheck:42843,str:55668,h:2,d0:17381,d1:42841;
+                ("sleep", Expression<MethodOrOperator> @:17381 check:42841,op:19,dt:2,nt:9,next:17382,nextCheck:42842,str:221,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:17382 check:42842,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55675,h:2,d0:60,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:17383 check:42843,op:27,dt:4,nt:8,next:17386,nextCheck:42846,str:55681,h:2,d0:17384,d1:42844;
+                ("print", Expression<MethodOrOperator> @:17384 check:42844,op:27,dt:2,nt:9,next:17385,nextCheck:42845,str:227,h:0,d0:0,d1:0;
+                    ("cortana: 'phased spatial relocation! the same technology the monitor used on the first halo.'", Expression<String> @:17385 check:42845,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:29225,h:0,d0:29225,d1:0;)))
+            (____, BuiltinInvocation<Void> @:17386 check:42846,op:27,dt:4,nt:8,next:17389,nextCheck:42849,str:55788,h:2,d0:17387,d1:42847;
+                ("print", Expression<MethodOrOperator> @:17387 check:42847,op:27,dt:2,nt:9,next:17388,nextCheck:42848,str:227,h:0,d0:0,d1:0;
+                    ("'seems the prophets save the best toys for themselves�'", Expression<String> @:17388 check:42848,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:29319,h:0,d0:29319,d1:0;)))
+            (____, BuiltinInvocation<Void> @:17389 check:42849,op:19,dt:4,nt:8,next:17395,nextCheck:42855,str:55856,h:2,d0:17390,d1:42850;
+                ("sleep", Expression<MethodOrOperator> @:17390 check:42850,op:19,dt:2,nt:9,next:17391,nextCheck:42851,str:221,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:17391 check:42851,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:55863,h:2,d0:17392,d1:42852;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:17392 check:42852,op:362,dt:2,nt:9,next:17393,nextCheck:42853,str:10115,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:17393 check:42853,op:50,dt:50,nt:9,next:17394,nextCheck:42854,str:52,h:0,d0:65535,d1:65535;
+                                ("1260", Expression<StringId> @:17394 check:42854,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:29375,h:0,d0:12513,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:17395 check:42855,op:19,dt:4,nt:8,next:17398,nextCheck:42858,str:55989,h:2,d0:17396,d1:42856;
+                ("sleep", Expression<MethodOrOperator> @:17396 check:42856,op:19,dt:2,nt:9,next:17397,nextCheck:42857,str:221,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:17397 check:42857,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55996,h:2,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:17398 check:42858,op:281,dt:4,nt:8,next:17401,nextCheck:42861,str:56002,h:2,d0:17399,d1:42859;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:17399 check:42859,op:281,dt:2,nt:9,next:17400,nextCheck:42860,str:10448,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:17400 check:42860,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:56022,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:17401 check:42861,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:56030,h:2,d0:17402,d1:42862;
+                ("set", Expression<MethodOrOperator> @:17402 check:42862,op:4,dt:2,nt:9,next:17403,nextCheck:42863,str:2971,h:0,d0:0,d1:0;
+                    ("bossfight_chatter", VariableAccess<Boolean> @:17403 check:42863,op:65535,dt:5,nt:13,next:17404,nextCheck:42864,str:28336,h:0,d0:25,d1:0;
+                        (True, Expression<Boolean> @:17404 check:42864,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:56053,h:2,d0:65281,d1:65535;)))))))

@@ -1,23 +1,23 @@
 
-("effect_monitor_yank", MethodDecl<Void> @:109 op:0,dt:0,nt:65535,next:3472,str:9388,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3472 op:0,dt:4,nt:8,next:65535,str:41246,d0:3473,d1:61700;
-        ("begin", Expression<MethodOrOperator> @:3473 op:0,dt:2,nt:9,next:3453,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3453 op:676,dt:4,nt:8,next:3455,str:41284,d0:3454,d1:61681;
-                ("time_code_reset", Expression<MethodOrOperator> @:3454 op:676,dt:2,nt:9,next:65535,str:5541,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:3455 op:19,dt:4,nt:8,next:3458,str:41304,d0:3456,d1:61683;
-                ("sleep", Expression<MethodOrOperator> @:3456 op:19,dt:2,nt:9,next:3457,str:289,d0:0,d1:0;
-                    (190, Expression<Short> @:3457 op:7,dt:7,nt:9,next:65535,str:41311,d0:190,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3458 op:27,dt:4,nt:8,next:3461,str:41318,d0:3459,d1:61686;
-                ("print", Expression<MethodOrOperator> @:3459 op:27,dt:2,nt:9,next:3460,str:295,d0:0,d1:0;
-                    ("effect - monitor yank", Expression<String> @:3460 op:9,dt:9,nt:9,next:65535,str:9255,d0:9255,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3461 op:60,dt:4,nt:8,next:3467,str:41352,d0:3462,d1:61689;
-                ("object_set_function_variable", Expression<MethodOrOperator> @:3462 op:60,dt:2,nt:9,next:3463,str:6635,d0:0,d1:0;
-                    (4294902032, Expression<Entity> @:3463 op:56,dt:50,nt:9,next:3464,str:6383,d0:272,d1:65535;
-                        ("talking", Expression<StringId> @:3464 op:11,dt:11,nt:9,next:3465,str:9277,d0:9517,d1:1792;
-                            (0f, Expression<Float> @:3465 op:6,dt:6,nt:9,next:3466,str:41398,d0:0,d1:0;
-                                (0f, Expression<Float> @:3466 op:6,dt:6,nt:9,next:65535,str:41400,d0:0,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:3467 op:41,dt:4,nt:8,next:65535,str:41405,d0:3468,d1:61695;
-                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:3468 op:41,dt:2,nt:9,next:3469,str:7070,d0:0,d1:0;
-                    ("effects\objects\characters\monitor\monitor_scrambled", Expression<Effect> @:3469 op:33,dt:33,nt:9,next:3470,str:9285,d0:1384,d1:59102;
-                        (4294902032, Expression<Entity> @:3470 op:56,dt:50,nt:9,next:3471,str:6383,d0:272,d1:65535;
-                            ("body", Expression<StringId> @:3471 op:11,dt:11,nt:9,next:65535,str:8320,d0:189,d1:1024;))))))))
+("effect_monitor_yank", MethodDecl<Void> @:109 check:0,op:0,dt:0,nt:65535,next:3472,nextCheck:61699,str:9388,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3472 check:61699,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:41246,h:0,d0:3473,d1:61700;
+        ("begin", Expression<MethodOrOperator> @:3473 check:61700,op:0,dt:2,nt:9,next:3453,nextCheck:61680,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3453 check:61680,op:676,dt:4,nt:8,next:3455,nextCheck:61682,str:41284,h:0,d0:3454,d1:61681;
+                ("time_code_reset", Expression<MethodOrOperator> @:3454 check:61681,op:676,dt:2,nt:9,next:65535,nextCheck:65535,str:5541,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:3455 check:61682,op:19,dt:4,nt:8,next:3458,nextCheck:61685,str:41304,h:0,d0:3456,d1:61683;
+                ("sleep", Expression<MethodOrOperator> @:3456 check:61683,op:19,dt:2,nt:9,next:3457,nextCheck:61684,str:289,h:0,d0:0,d1:0;
+                    (190, Expression<Short> @:3457 check:61684,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:41311,h:0,d0:190,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3458 check:61685,op:27,dt:4,nt:8,next:3461,nextCheck:61688,str:41318,h:0,d0:3459,d1:61686;
+                ("print", Expression<MethodOrOperator> @:3459 check:61686,op:27,dt:2,nt:9,next:3460,nextCheck:61687,str:295,h:0,d0:0,d1:0;
+                    ("effect - monitor yank", Expression<String> @:3460 check:61687,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:9255,h:0,d0:9255,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3461 check:61688,op:60,dt:4,nt:8,next:3467,nextCheck:61694,str:41352,h:0,d0:3462,d1:61689;
+                ("object_set_function_variable", Expression<MethodOrOperator> @:3462 check:61689,op:60,dt:2,nt:9,next:3463,nextCheck:61690,str:6635,h:0,d0:0,d1:0;
+                    (4294902032, Expression<Entity> @:3463 check:61690,op:56,dt:50,nt:9,next:3464,nextCheck:61691,str:6383,h:0,d0:272,d1:65535;
+                        ("talking", Expression<StringId> @:3464 check:61691,op:11,dt:11,nt:9,next:3465,nextCheck:61692,str:9277,h:0,d0:9517,d1:1792;
+                            (0f, Expression<Float> @:3465 check:61692,op:6,dt:6,nt:9,next:3466,nextCheck:61693,str:41398,h:0,d0:0,d1:0;
+                                (0f, Expression<Float> @:3466 check:61693,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:41400,h:0,d0:0,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:3467 check:61694,op:41,dt:4,nt:8,next:65535,nextCheck:65535,str:41405,h:0,d0:3468,d1:61695;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:3468 check:61695,op:41,dt:2,nt:9,next:3469,nextCheck:61696,str:7070,h:0,d0:0,d1:0;
+                    ("effects\objects\characters\monitor\monitor_scrambled", Expression<Effect> @:3469 check:61696,op:33,dt:33,nt:9,next:3470,nextCheck:61697,str:9285,h:0,d0:1384,d1:59102;
+                        (4294902032, Expression<Entity> @:3470 check:61697,op:56,dt:50,nt:9,next:3471,nextCheck:61698,str:6383,h:0,d0:272,d1:65535;
+                            ("body", Expression<StringId> @:3471 check:61698,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:8320,h:0,d0:189,d1:1024;))))))))

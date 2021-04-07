@@ -1,10 +1,10 @@
 
-("objective4_set", MethodDecl<Void> @:281 op:0,dt:0,nt:65535,next:10113,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:10113 op:0,dt:4,nt:8,next:65535,str:52292,d0:10114,d1:35574;
-        ("begin", Expression<MethodOrOperator> @:10114 op:0,dt:2,nt:9,next:10107,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:10107 op:19,dt:4,nt:8,next:10110,str:52325,d0:10108,d1:35568;
-                ("sleep", Expression<MethodOrOperator> @:10108 op:19,dt:2,nt:9,next:10109,str:85,d0:0,d1:0;
-                    (180, Expression<Short> @:10109 op:7,dt:7,nt:9,next:65535,str:52332,d0:180,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10110 op:753,dt:4,nt:8,next:65535,str:52339,d0:10111,d1:35571;
-                ("objectives_show_up_to", Expression<MethodOrOperator> @:10111 op:753,dt:2,nt:9,next:10112,str:23940,d0:0,d1:0;
-                    (4, Expression<Int> @:10112 op:8,dt:8,nt:9,next:65535,str:52362,d0:4,d1:0;))))))
+("objective4_set", MethodDecl<Void> @:281 check:0,op:0,dt:0,nt:65535,next:10113,nextCheck:35573,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:10113 check:35573,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:52292,h:1,d0:10114,d1:35574;
+        ("begin", Expression<MethodOrOperator> @:10114 check:35574,op:0,dt:2,nt:9,next:10107,nextCheck:35567,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:10107 check:35567,op:19,dt:4,nt:8,next:10110,nextCheck:35570,str:52325,h:1,d0:10108,d1:35568;
+                ("sleep", Expression<MethodOrOperator> @:10108 check:35568,op:19,dt:2,nt:9,next:10109,nextCheck:35569,str:85,h:0,d0:0,d1:0;
+                    (180, Expression<Short> @:10109 check:35569,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:52332,h:1,d0:180,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10110 check:35570,op:753,dt:4,nt:8,next:65535,nextCheck:65535,str:52339,h:1,d0:10111,d1:35571;
+                ("objectives_show_up_to", Expression<MethodOrOperator> @:10111 check:35571,op:753,dt:2,nt:9,next:10112,nextCheck:35572,str:23940,h:0,d0:0,d1:0;
+                    (4, Expression<Int> @:10112 check:35572,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:52362,h:1,d0:4,d1:0;))))))

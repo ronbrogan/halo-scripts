@@ -1,13 +1,13 @@
 
-("objective3_set", MethodDecl<Void> @:72 op:0,dt:0,nt:65535,next:2397,str:8399,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2397 op:0,dt:4,nt:8,next:65535,str:28244,d0:2398,d1:60625;
-        ("begin", Expression<MethodOrOperator> @:2398 op:0,dt:2,nt:9,next:2388,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2388 op:19,dt:4,nt:8,next:2391,str:28277,d0:2389,d1:60616;
-                ("sleep", Expression<MethodOrOperator> @:2389 op:19,dt:2,nt:9,next:2390,str:143,d0:0,d1:0;
-                    (30, Expression<Short> @:2390 op:7,dt:7,nt:9,next:65535,str:28284,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2391 op:27,dt:4,nt:8,next:2394,str:28290,d0:2392,d1:60619;
-                ("print", Expression<MethodOrOperator> @:2392 op:27,dt:2,nt:9,next:2393,str:149,d0:0,d1:0;
-                    ("new objective set: raze the brute encampment", Expression<String> @:2393 op:9,dt:9,nt:9,next:65535,str:5214,d0:5214,d1:0;)))
-            (____, BuiltinInvocation<Void> @:2394 op:753,dt:4,nt:8,next:65535,str:28347,d0:2395,d1:60622;
-                ("objectives_show_up_to", Expression<MethodOrOperator> @:2395 op:753,dt:2,nt:9,next:2396,str:4904,d0:0,d1:0;
-                    (3, Expression<Int> @:2396 op:8,dt:8,nt:9,next:65535,str:28370,d0:3,d1:0;))))))
+("objective3_set", MethodDecl<Void> @:72 check:0,op:0,dt:0,nt:65535,next:2397,nextCheck:60624,str:8399,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2397 check:60624,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28244,h:0,d0:2398,d1:60625;
+        ("begin", Expression<MethodOrOperator> @:2398 check:60625,op:0,dt:2,nt:9,next:2388,nextCheck:60615,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2388 check:60615,op:19,dt:4,nt:8,next:2391,nextCheck:60618,str:28277,h:0,d0:2389,d1:60616;
+                ("sleep", Expression<MethodOrOperator> @:2389 check:60616,op:19,dt:2,nt:9,next:2390,nextCheck:60617,str:143,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:2390 check:60617,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28284,h:0,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2391 check:60618,op:27,dt:4,nt:8,next:2394,nextCheck:60621,str:28290,h:0,d0:2392,d1:60619;
+                ("print", Expression<MethodOrOperator> @:2392 check:60619,op:27,dt:2,nt:9,next:2393,nextCheck:60620,str:149,h:0,d0:0,d1:0;
+                    ("new objective set: raze the brute encampment", Expression<String> @:2393 check:60620,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:5214,h:0,d0:5214,d1:0;)))
+            (____, BuiltinInvocation<Void> @:2394 check:60621,op:753,dt:4,nt:8,next:65535,nextCheck:65535,str:28347,h:0,d0:2395,d1:60622;
+                ("objectives_show_up_to", Expression<MethodOrOperator> @:2395 check:60622,op:753,dt:2,nt:9,next:2396,nextCheck:60623,str:4904,h:0,d0:0,d1:0;
+                    (3, Expression<Int> @:2396 check:60623,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:28370,h:0,d0:3,d1:0;))))))

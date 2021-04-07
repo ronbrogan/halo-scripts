@@ -1,25 +1,25 @@
 
-("dogfight_flak_warn", MethodDecl<Void> @:384 op:0,dt:0,nt:65535,next:23693,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:23693 op:0,dt:4,nt:8,next:65535,str:59790,d0:23694,d1:49154;
-        ("begin", Expression<MethodOrOperator> @:23694 op:0,dt:2,nt:9,next:23672,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:23672 op:281,dt:4,nt:8,next:23675,str:59827,d0:23673,d1:49133;
-                ("ai_dialogue_enable", Expression<MethodOrOperator> @:23673 op:281,dt:2,nt:9,next:23674,str:17599,d0:0,d1:0;
-                    (False, Expression<Boolean> @:23674 op:5,dt:5,nt:9,next:65535,str:59847,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:23675 op:19,dt:4,nt:8,next:23678,str:59856,d0:23676,d1:49136;
-                ("sleep", Expression<MethodOrOperator> @:23676 op:19,dt:2,nt:9,next:23677,str:85,d0:0,d1:0;
-                    (60, Expression<Short> @:23677 op:7,dt:7,nt:9,next:65535,str:59863,d0:60,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:23678 op:27,dt:4,nt:8,next:23681,str:59869,d0:23679,d1:49139;
-                ("print", Expression<MethodOrOperator> @:23679 op:27,dt:2,nt:9,next:23680,str:91,d0:0,d1:0;
-                    ("spec-ops commander: 'look sharp, arbiter! they're putting-up heavy flak!'", Expression<String> @:23680 op:9,dt:9,nt:9,next:65535,str:34746,d0:34746,d1:0;)))
-            (____, BuiltinInvocation<Void> @:23681 op:19,dt:4,nt:8,next:23687,str:59955,d0:23682,d1:49142;
-                ("sleep", Expression<MethodOrOperator> @:23682 op:19,dt:2,nt:9,next:23683,str:85,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:23683 op:362,dt:7,nt:8,next:65535,str:59962,d0:23684,d1:49144;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:23684 op:362,dt:2,nt:9,next:23685,str:17710,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:23685 op:50,dt:50,nt:9,next:23686,str:1,d0:65535,d1:65535;
-                                ("1200", Expression<StringId> @:23686 op:11,dt:11,nt:9,next:65535,str:34820,d0:11754,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:23687 op:19,dt:4,nt:8,next:23690,str:60094,d0:23688,d1:49148;
-                ("sleep", Expression<MethodOrOperator> @:23688 op:19,dt:2,nt:9,next:23689,str:85,d0:0,d1:0;
-                    (30, Expression<Short> @:23689 op:7,dt:7,nt:9,next:65535,str:60101,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:23690 op:281,dt:4,nt:8,next:65535,str:60107,d0:23691,d1:49151;
-                ("ai_dialogue_enable", Expression<MethodOrOperator> @:23691 op:281,dt:2,nt:9,next:23692,str:17599,d0:0,d1:0;
-                    (True, Expression<Boolean> @:23692 op:5,dt:5,nt:9,next:65535,str:60127,d0:65281,d1:65535;))))))
+("dogfight_flak_warn", MethodDecl<Void> @:384 check:0,op:0,dt:0,nt:65535,next:23693,nextCheck:49153,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:23693 check:49153,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:59790,h:3,d0:23694,d1:49154;
+        ("begin", Expression<MethodOrOperator> @:23694 check:49154,op:0,dt:2,nt:9,next:23672,nextCheck:49132,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:23672 check:49132,op:281,dt:4,nt:8,next:23675,nextCheck:49135,str:59827,h:3,d0:23673,d1:49133;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:23673 check:49133,op:281,dt:2,nt:9,next:23674,nextCheck:49134,str:17599,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:23674 check:49134,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:59847,h:3,d0:65280,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:23675 check:49135,op:19,dt:4,nt:8,next:23678,nextCheck:49138,str:59856,h:3,d0:23676,d1:49136;
+                ("sleep", Expression<MethodOrOperator> @:23676 check:49136,op:19,dt:2,nt:9,next:23677,nextCheck:49137,str:85,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:23677 check:49137,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:59863,h:3,d0:60,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:23678 check:49138,op:27,dt:4,nt:8,next:23681,nextCheck:49141,str:59869,h:3,d0:23679,d1:49139;
+                ("print", Expression<MethodOrOperator> @:23679 check:49139,op:27,dt:2,nt:9,next:23680,nextCheck:49140,str:91,h:0,d0:0,d1:0;
+                    ("spec-ops commander: 'look sharp, arbiter! they're putting-up heavy flak!'", Expression<String> @:23680 check:49140,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:34746,h:0,d0:34746,d1:0;)))
+            (____, BuiltinInvocation<Void> @:23681 check:49141,op:19,dt:4,nt:8,next:23687,nextCheck:49147,str:59955,h:3,d0:23682,d1:49142;
+                ("sleep", Expression<MethodOrOperator> @:23682 check:49142,op:19,dt:2,nt:9,next:23683,nextCheck:49143,str:85,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:23683 check:49143,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:59962,h:3,d0:23684,d1:49144;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:23684 check:49144,op:362,dt:2,nt:9,next:23685,nextCheck:49145,str:17710,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:23685 check:49145,op:50,dt:50,nt:9,next:23686,nextCheck:49146,str:1,h:0,d0:65535,d1:65535;
+                                ("1200", Expression<StringId> @:23686 check:49146,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:34820,h:0,d0:11754,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:23687 check:49147,op:19,dt:4,nt:8,next:23690,nextCheck:49150,str:60094,h:3,d0:23688,d1:49148;
+                ("sleep", Expression<MethodOrOperator> @:23688 check:49148,op:19,dt:2,nt:9,next:23689,nextCheck:49149,str:85,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:23689 check:49149,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:60101,h:3,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:23690 check:49150,op:281,dt:4,nt:8,next:65535,nextCheck:65535,str:60107,h:3,d0:23691,d1:49151;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:23691 check:49151,op:281,dt:2,nt:9,next:23692,nextCheck:49152,str:17599,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:23692 check:49152,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:60127,h:3,d0:65281,d1:65535;))))))

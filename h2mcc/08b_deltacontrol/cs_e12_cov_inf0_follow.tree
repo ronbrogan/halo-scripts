@@ -1,7 +1,7 @@
 
-("cs_e12_cov_inf0_follow", MethodDecl<Void> @:346 op:0,dt:0,nt:65535,next:11772,str:28205,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:11772 op:0,dt:4,nt:8,next:65535,str:8774,d0:11773,d1:37233;
-        ("begin", Expression<MethodOrOperator> @:11773 op:0,dt:2,nt:9,next:11769,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:11769 op:19,dt:4,nt:8,next:65535,str:8822,d0:11770,d1:37230;
-                ("sleep", Expression<MethodOrOperator> @:11770 op:19,dt:2,nt:9,next:11771,str:85,d0:0,d1:0;
-                    (1, Expression<Short> @:11771 op:7,dt:7,nt:9,next:65535,str:8829,d0:1,d1:65535;))))))
+("cs_e12_cov_inf0_follow", MethodDecl<Void> @:346 check:0,op:0,dt:0,nt:65535,next:11772,nextCheck:37232,str:28205,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:11772 check:37232,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:8774,h:2,d0:11773,d1:37233;
+        ("begin", Expression<MethodOrOperator> @:11773 check:37233,op:0,dt:2,nt:9,next:11769,nextCheck:37229,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:11769 check:37229,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:8822,h:2,d0:11770,d1:37230;
+                ("sleep", Expression<MethodOrOperator> @:11770 check:37230,op:19,dt:2,nt:9,next:11771,nextCheck:37231,str:85,h:0,d0:0,d1:0;
+                    (1, Expression<Short> @:11771 check:37231,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:8829,h:2,d0:1,d1:65535;))))))

@@ -1,37 +1,37 @@
 
-("c01_9230_jon", MethodDecl<Void> @:282 op:0,dt:0,nt:65535,next:10792,str:25842,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:10792 op:0,dt:4,nt:8,next:65535,str:1518,d0:10793,d1:36253;
-        ("begin", Expression<MethodOrOperator> @:10793 op:0,dt:2,nt:9,next:10759,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:10759 op:19,dt:4,nt:8,next:10762,str:1549,d0:10760,d1:36220;
-                ("sleep", Expression<MethodOrOperator> @:10760 op:19,dt:2,nt:9,next:10761,str:90,d0:0,d1:0;
-                    (415, Expression<Short> @:10761 op:7,dt:7,nt:9,next:65535,str:1556,d0:415,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10762 op:596,dt:4,nt:8,next:10767,str:1563,d0:10763,d1:36223;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:10763 op:596,dt:2,nt:9,next:10764,str:1446,d0:0,d1:0;
-                    ("sound\dialog\levels\01_spacestation\cinematic\c01_9230_jon", Expression<Sound> @:10764 op:32,dt:32,nt:9,next:10765,str:25783,d0:4653,d1:62541;
-                        (4294902068, Expression<Entity> @:10765 op:56,dt:50,nt:9,next:10766,str:18461,d0:308,d1:65535;
-                            (1f, Expression<Float> @:10766 op:6,dt:6,nt:9,next:65535,str:1651,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:10767 op:562,dt:4,nt:8,next:10771,str:1656,d0:10768,d1:36228;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:10768 op:562,dt:2,nt:9,next:10769,str:1689,d0:0,d1:0;
-                    ("c01_9230_jon", Expression<StringId> @:10769 op:11,dt:11,nt:9,next:10770,str:25842,d0:9888,d1:3072;
-                        (1f, Expression<Float> @:10770 op:6,dt:6,nt:9,next:65535,str:1689,d0:0,d1:16256;))))
-            (____, BuiltinInvocation<Void> @:10771 op:220,dt:4,nt:8,next:10777,str:1697,d0:10772,d1:36232;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:10772 op:220,dt:2,nt:9,next:10773,str:1808,d0:0,d1:0;
-                    ("johnson", Expression<Unit> @:10773 op:57,dt:51,nt:9,next:10774,str:18461,d0:308,d1:65535;
-                        ("happy", Expression<StringId> @:10774 op:11,dt:11,nt:9,next:10775,str:2010,d0:422,d1:1280;
-                            (0.75f, Expression<Float> @:10775 op:6,dt:6,nt:9,next:10776,str:1737,d0:0,d1:16192;
-                                (90, Expression<Short> @:10776 op:7,dt:7,nt:9,next:65535,str:1741,d0:90,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:10777 op:27,dt:4,nt:8,next:10780,str:1747,d0:10778,d1:36238;
-                ("print", Expression<MethodOrOperator> @:10778 op:27,dt:2,nt:9,next:10779,str:96,d0:0,d1:0;
-                    ("johnson - happy .75 90", Expression<String> @:10779 op:9,dt:9,nt:9,next:65535,str:25855,d0:25855,d1:0;)))
-            (____, BuiltinInvocation<Void> @:10780 op:19,dt:4,nt:8,next:10783,str:1785,d0:10781,d1:36241;
-                ("sleep", Expression<MethodOrOperator> @:10781 op:19,dt:2,nt:9,next:10782,str:90,d0:0,d1:0;
-                    (41, Expression<Short> @:10782 op:7,dt:7,nt:9,next:65535,str:1792,d0:41,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10783 op:220,dt:4,nt:8,next:10789,str:1801,d0:10784,d1:36244;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:10784 op:220,dt:2,nt:9,next:10785,str:1808,d0:0,d1:0;
-                    ("miranda", Expression<Unit> @:10785 op:57,dt:51,nt:9,next:10786,str:18453,d0:307,d1:65535;
-                        ("happy", Expression<StringId> @:10786 op:11,dt:11,nt:9,next:10787,str:2010,d0:422,d1:1280;
-                            (0.25f, Expression<Float> @:10787 op:6,dt:6,nt:9,next:10788,str:1841,d0:0,d1:16000;
-                                (60, Expression<Short> @:10788 op:7,dt:7,nt:9,next:65535,str:1845,d0:60,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:10789 op:27,dt:4,nt:8,next:65535,str:1851,d0:10790,d1:36250;
-                ("print", Expression<MethodOrOperator> @:10790 op:27,dt:2,nt:9,next:10791,str:96,d0:0,d1:0;
-                    ("miranda - happy .25 60", Expression<String> @:10791 op:9,dt:9,nt:9,next:65535,str:25878,d0:25878,d1:0;))))))
+("c01_9230_jon", MethodDecl<Void> @:282 check:0,op:0,dt:0,nt:65535,next:10792,nextCheck:36252,str:25842,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:10792 check:36252,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1518,h:2,d0:10793,d1:36253;
+        ("begin", Expression<MethodOrOperator> @:10793 check:36253,op:0,dt:2,nt:9,next:10759,nextCheck:36219,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:10759 check:36219,op:19,dt:4,nt:8,next:10762,nextCheck:36222,str:1549,h:2,d0:10760,d1:36220;
+                ("sleep", Expression<MethodOrOperator> @:10760 check:36220,op:19,dt:2,nt:9,next:10761,nextCheck:36221,str:90,h:0,d0:0,d1:0;
+                    (415, Expression<Short> @:10761 check:36221,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:1556,h:2,d0:415,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10762 check:36222,op:596,dt:4,nt:8,next:10767,nextCheck:36227,str:1563,h:2,d0:10763,d1:36223;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:10763 check:36223,op:596,dt:2,nt:9,next:10764,nextCheck:36224,str:1446,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\01_spacestation\cinematic\c01_9230_jon", Expression<Sound> @:10764 check:36224,op:32,dt:32,nt:9,next:10765,nextCheck:36225,str:25783,h:0,d0:4653,d1:62541;
+                        (4294902068, Expression<Entity> @:10765 check:36225,op:56,dt:50,nt:9,next:10766,nextCheck:36226,str:18461,h:0,d0:308,d1:65535;
+                            (1f, Expression<Float> @:10766 check:36226,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:1651,h:2,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:10767 check:36227,op:562,dt:4,nt:8,next:10771,nextCheck:36231,str:1656,h:2,d0:10768,d1:36228;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:10768 check:36228,op:562,dt:2,nt:9,next:10769,nextCheck:36229,str:1689,h:0,d0:0,d1:0;
+                    ("c01_9230_jon", Expression<StringId> @:10769 check:36229,op:11,dt:11,nt:9,next:10770,nextCheck:36230,str:25842,h:0,d0:9888,d1:3072;
+                        (1f, Expression<Float> @:10770 check:36230,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:1689,h:2,d0:0,d1:16256;))))
+            (____, BuiltinInvocation<Void> @:10771 check:36231,op:220,dt:4,nt:8,next:10777,nextCheck:36237,str:1697,h:2,d0:10772,d1:36232;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:10772 check:36232,op:220,dt:2,nt:9,next:10773,nextCheck:36233,str:1808,h:0,d0:0,d1:0;
+                    ("johnson", Expression<Unit> @:10773 check:36233,op:57,dt:51,nt:9,next:10774,nextCheck:36234,str:18461,h:0,d0:308,d1:65535;
+                        ("happy", Expression<StringId> @:10774 check:36234,op:11,dt:11,nt:9,next:10775,nextCheck:36235,str:2010,h:0,d0:422,d1:1280;
+                            (0.75f, Expression<Float> @:10775 check:36235,op:6,dt:6,nt:9,next:10776,nextCheck:36236,str:1737,h:2,d0:0,d1:16192;
+                                (90, Expression<Short> @:10776 check:36236,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:1741,h:2,d0:90,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:10777 check:36237,op:27,dt:4,nt:8,next:10780,nextCheck:36240,str:1747,h:2,d0:10778,d1:36238;
+                ("print", Expression<MethodOrOperator> @:10778 check:36238,op:27,dt:2,nt:9,next:10779,nextCheck:36239,str:96,h:0,d0:0,d1:0;
+                    ("johnson - happy .75 90", Expression<String> @:10779 check:36239,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:25855,h:0,d0:25855,d1:0;)))
+            (____, BuiltinInvocation<Void> @:10780 check:36240,op:19,dt:4,nt:8,next:10783,nextCheck:36243,str:1785,h:2,d0:10781,d1:36241;
+                ("sleep", Expression<MethodOrOperator> @:10781 check:36241,op:19,dt:2,nt:9,next:10782,nextCheck:36242,str:90,h:0,d0:0,d1:0;
+                    (41, Expression<Short> @:10782 check:36242,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:1792,h:2,d0:41,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10783 check:36243,op:220,dt:4,nt:8,next:10789,nextCheck:36249,str:1801,h:2,d0:10784,d1:36244;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:10784 check:36244,op:220,dt:2,nt:9,next:10785,nextCheck:36245,str:1808,h:0,d0:0,d1:0;
+                    ("miranda", Expression<Unit> @:10785 check:36245,op:57,dt:51,nt:9,next:10786,nextCheck:36246,str:18453,h:0,d0:307,d1:65535;
+                        ("happy", Expression<StringId> @:10786 check:36246,op:11,dt:11,nt:9,next:10787,nextCheck:36247,str:2010,h:0,d0:422,d1:1280;
+                            (0.25f, Expression<Float> @:10787 check:36247,op:6,dt:6,nt:9,next:10788,nextCheck:36248,str:1841,h:2,d0:0,d1:16000;
+                                (60, Expression<Short> @:10788 check:36248,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:1845,h:2,d0:60,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:10789 check:36249,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:1851,h:2,d0:10790,d1:36250;
+                ("print", Expression<MethodOrOperator> @:10790 check:36250,op:27,dt:2,nt:9,next:10791,nextCheck:36251,str:96,h:0,d0:0,d1:0;
+                    ("miranda - happy .25 60", Expression<String> @:10791 check:36251,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:25878,h:0,d0:25878,d1:0;))))))

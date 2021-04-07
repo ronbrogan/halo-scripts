@@ -1,22 +1,22 @@
 
-("x09_hood_emotion_08", MethodDecl<Void> @:239 op:0,dt:0,nt:65535,next:8824,str:21323,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:8824 op:0,dt:4,nt:8,next:65535,str:37409,d0:8825,d1:34285;
-        ("begin", Expression<MethodOrOperator> @:8825 op:0,dt:2,nt:9,next:8806,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:8806 op:19,dt:4,nt:8,next:8809,str:37447,d0:8807,d1:34267;
-                ("sleep", Expression<MethodOrOperator> @:8807 op:19,dt:2,nt:9,next:8808,str:85,d0:0,d1:0;
-                    (43, Expression<Short> @:8808 op:7,dt:7,nt:9,next:65535,str:37454,d0:43,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8809 op:220,dt:4,nt:8,next:8815,str:37460,d0:8810,d1:34270;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:8810 op:220,dt:2,nt:9,next:8811,str:9899,d0:0,d1:0;
-                    ("hood", Expression<Unit> @:8811 op:57,dt:51,nt:9,next:8812,str:21012,d0:92,d1:65535;
-                        ("shocked", Expression<StringId> @:8812 op:11,dt:11,nt:9,next:8813,str:14695,d0:426,d1:1792;
-                            (0.5f, Expression<Float> @:8813 op:6,dt:6,nt:9,next:8814,str:37499,d0:0,d1:16128;
-                                (30, Expression<Short> @:8814 op:7,dt:7,nt:9,next:65535,str:37502,d0:30,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:8815 op:19,dt:4,nt:8,next:8818,str:37508,d0:8816,d1:34276;
-                ("sleep", Expression<MethodOrOperator> @:8816 op:19,dt:2,nt:9,next:8817,str:85,d0:0,d1:0;
-                    (45, Expression<Short> @:8817 op:7,dt:7,nt:9,next:65535,str:37515,d0:45,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:8818 op:220,dt:4,nt:8,next:65535,str:37521,d0:8819,d1:34279;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:8819 op:220,dt:2,nt:9,next:8820,str:9899,d0:0,d1:0;
-                    ("hood", Expression<Unit> @:8820 op:57,dt:51,nt:9,next:8821,str:21012,d0:92,d1:65535;
-                        ("happy", Expression<StringId> @:8821 op:11,dt:11,nt:9,next:8822,str:21304,d0:422,d1:1280;
-                            (0.25f, Expression<Float> @:8822 op:6,dt:6,nt:9,next:8823,str:37558,d0:0,d1:16000;
-                                (90, Expression<Short> @:8823 op:7,dt:7,nt:9,next:65535,str:37562,d0:90,d1:65535;)))))))))
+("x09_hood_emotion_08", MethodDecl<Void> @:239 check:0,op:0,dt:0,nt:65535,next:8824,nextCheck:34284,str:21323,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:8824 check:34284,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:37409,h:1,d0:8825,d1:34285;
+        ("begin", Expression<MethodOrOperator> @:8825 check:34285,op:0,dt:2,nt:9,next:8806,nextCheck:34266,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:8806 check:34266,op:19,dt:4,nt:8,next:8809,nextCheck:34269,str:37447,h:1,d0:8807,d1:34267;
+                ("sleep", Expression<MethodOrOperator> @:8807 check:34267,op:19,dt:2,nt:9,next:8808,nextCheck:34268,str:85,h:0,d0:0,d1:0;
+                    (43, Expression<Short> @:8808 check:34268,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:37454,h:1,d0:43,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8809 check:34269,op:220,dt:4,nt:8,next:8815,nextCheck:34275,str:37460,h:1,d0:8810,d1:34270;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:8810 check:34270,op:220,dt:2,nt:9,next:8811,nextCheck:34271,str:9899,h:0,d0:0,d1:0;
+                    ("hood", Expression<Unit> @:8811 check:34271,op:57,dt:51,nt:9,next:8812,nextCheck:34272,str:21012,h:0,d0:92,d1:65535;
+                        ("shocked", Expression<StringId> @:8812 check:34272,op:11,dt:11,nt:9,next:8813,nextCheck:34273,str:14695,h:0,d0:426,d1:1792;
+                            (0.5f, Expression<Float> @:8813 check:34273,op:6,dt:6,nt:9,next:8814,nextCheck:34274,str:37499,h:1,d0:0,d1:16128;
+                                (30, Expression<Short> @:8814 check:34274,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:37502,h:1,d0:30,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:8815 check:34275,op:19,dt:4,nt:8,next:8818,nextCheck:34278,str:37508,h:1,d0:8816,d1:34276;
+                ("sleep", Expression<MethodOrOperator> @:8816 check:34276,op:19,dt:2,nt:9,next:8817,nextCheck:34277,str:85,h:0,d0:0,d1:0;
+                    (45, Expression<Short> @:8817 check:34277,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:37515,h:1,d0:45,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:8818 check:34278,op:220,dt:4,nt:8,next:65535,nextCheck:65535,str:37521,h:1,d0:8819,d1:34279;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:8819 check:34279,op:220,dt:2,nt:9,next:8820,nextCheck:34280,str:9899,h:0,d0:0,d1:0;
+                    ("hood", Expression<Unit> @:8820 check:34280,op:57,dt:51,nt:9,next:8821,nextCheck:34281,str:21012,h:0,d0:92,d1:65535;
+                        ("happy", Expression<StringId> @:8821 check:34281,op:11,dt:11,nt:9,next:8822,nextCheck:34282,str:21304,h:0,d0:422,d1:1280;
+                            (0.25f, Expression<Float> @:8822 check:34282,op:6,dt:6,nt:9,next:8823,nextCheck:34283,str:37558,h:1,d0:0,d1:16000;
+                                (90, Expression<Short> @:8823 check:34283,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:37562,h:1,d0:90,d1:65535;)))))))))

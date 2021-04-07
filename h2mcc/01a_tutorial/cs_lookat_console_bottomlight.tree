@@ -1,23 +1,23 @@
 
-("cs_lookat_console_bottomlight", MethodDecl<Void> @:34 op:0,dt:0,nt:65535,next:1125,str:7977,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:1125 op:0,dt:4,nt:8,next:65535,str:11984,d0:1126,d1:59353;
-        ("begin", Expression<MethodOrOperator> @:1126 op:0,dt:2,nt:9,next:1106,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:1106 op:398,dt:4,nt:8,next:1110,str:12039,d0:1107,d1:59334;
-                ("cs_aim_object", Expression<MethodOrOperator> @:1107 op:398,dt:2,nt:9,next:1108,str:1333,d0:0,d1:0;
-                    (True, Expression<Boolean> @:1108 op:5,dt:5,nt:9,next:1109,str:12054,d0:65281,d1:65535;
-                        (4294901767, Expression<Entity> @:1109 op:56,dt:50,nt:9,next:65535,str:1406,d0:7,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:1110 op:19,dt:4,nt:8,next:1113,str:12083,d0:1111,d1:59338;
-                ("sleep", Expression<MethodOrOperator> @:1111 op:19,dt:2,nt:9,next:1112,str:90,d0:0,d1:0;
-                    (45, Expression<Short> @:1112 op:7,dt:7,nt:9,next:65535,str:12090,d0:45,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1113 op:399,dt:4,nt:8,next:1117,str:12096,d0:1114,d1:59341;
-                ("cs_face", Expression<MethodOrOperator> @:1114 op:399,dt:2,nt:9,next:1115,str:1368,d0:0,d1:0;
-                    (True, Expression<Boolean> @:1115 op:5,dt:5,nt:9,next:1116,str:12105,d0:65281,d1:65535;
-                        ("guns_points/console_inhibitor", Expression<SpatialPoint> @:1116 op:28,dt:28,nt:9,next:65535,str:1376,d0:3,d1:0;))))
-            (____, BuiltinInvocation<Void> @:1117 op:19,dt:4,nt:8,next:1120,str:12140,d0:1118,d1:59345;
-                ("sleep", Expression<MethodOrOperator> @:1118 op:19,dt:2,nt:9,next:1119,str:90,d0:0,d1:0;
-                    (30, Expression<Short> @:1119 op:7,dt:7,nt:9,next:65535,str:12147,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1120 op:400,dt:4,nt:8,next:1123,str:12153,d0:1121,d1:59348;
-                ("cs_face_player", Expression<MethodOrOperator> @:1121 op:400,dt:2,nt:9,next:1122,str:1194,d0:0,d1:0;
-                    (True, Expression<Boolean> @:1122 op:5,dt:5,nt:9,next:65535,str:12169,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1123 op:20,dt:4,nt:8,next:65535,str:12174,d0:1124,d1:59351;
-                ("sleep_forever", Expression<MethodOrOperator> @:1124 op:20,dt:2,nt:9,next:65535,str:1209,d0:0,d1:0;)))))
+("cs_lookat_console_bottomlight", MethodDecl<Void> @:34 check:0,op:0,dt:0,nt:65535,next:1125,nextCheck:59352,str:7977,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:1125 check:59352,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:11984,h:0,d0:1126,d1:59353;
+        ("begin", Expression<MethodOrOperator> @:1126 check:59353,op:0,dt:2,nt:9,next:1106,nextCheck:59333,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1106 check:59333,op:398,dt:4,nt:8,next:1110,nextCheck:59337,str:12039,h:0,d0:1107,d1:59334;
+                ("cs_aim_object", Expression<MethodOrOperator> @:1107 check:59334,op:398,dt:2,nt:9,next:1108,nextCheck:59335,str:1333,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:1108 check:59335,op:5,dt:5,nt:9,next:1109,nextCheck:59336,str:12054,h:0,d0:65281,d1:65535;
+                        (4294901767, Expression<Entity> @:1109 check:59336,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:1406,h:0,d0:7,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:1110 check:59337,op:19,dt:4,nt:8,next:1113,nextCheck:59340,str:12083,h:0,d0:1111,d1:59338;
+                ("sleep", Expression<MethodOrOperator> @:1111 check:59338,op:19,dt:2,nt:9,next:1112,nextCheck:59339,str:90,h:0,d0:0,d1:0;
+                    (45, Expression<Short> @:1112 check:59339,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:12090,h:0,d0:45,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1113 check:59340,op:399,dt:4,nt:8,next:1117,nextCheck:59344,str:12096,h:0,d0:1114,d1:59341;
+                ("cs_face", Expression<MethodOrOperator> @:1114 check:59341,op:399,dt:2,nt:9,next:1115,nextCheck:59342,str:1368,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:1115 check:59342,op:5,dt:5,nt:9,next:1116,nextCheck:59343,str:12105,h:0,d0:65281,d1:65535;
+                        ("guns_points/console_inhibitor", Expression<SpatialPoint> @:1116 check:59343,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:1376,h:0,d0:3,d1:0;))))
+            (____, BuiltinInvocation<Void> @:1117 check:59344,op:19,dt:4,nt:8,next:1120,nextCheck:59347,str:12140,h:0,d0:1118,d1:59345;
+                ("sleep", Expression<MethodOrOperator> @:1118 check:59345,op:19,dt:2,nt:9,next:1119,nextCheck:59346,str:90,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:1119 check:59346,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:12147,h:0,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1120 check:59347,op:400,dt:4,nt:8,next:1123,nextCheck:59350,str:12153,h:0,d0:1121,d1:59348;
+                ("cs_face_player", Expression<MethodOrOperator> @:1121 check:59348,op:400,dt:2,nt:9,next:1122,nextCheck:59349,str:1194,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:1122 check:59349,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:12169,h:0,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1123 check:59350,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:12174,h:0,d0:1124,d1:59351;
+                ("sleep_forever", Expression<MethodOrOperator> @:1124 check:59351,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:1209,h:0,d0:0,d1:0;)))))

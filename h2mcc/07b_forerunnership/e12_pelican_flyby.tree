@@ -1,10 +1,10 @@
 
-("e12_pelican_flyby", MethodDecl<Void> @:166 op:0,dt:0,nt:65535,next:4602,str:14574,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4602 op:0,dt:4,nt:8,next:65535,str:58032,d0:4603,d1:62830;
-        ("begin", Expression<MethodOrOperator> @:4603 op:0,dt:2,nt:9,next:4596,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4596 op:290,dt:4,nt:8,next:4599,str:58068,d0:4597,d1:62824;
-                ("ai_place", Expression<MethodOrOperator> @:4597 op:290,dt:2,nt:9,next:4598,str:1215,d0:0,d1:0;
-                    ("e12_cs_pelican1", Expression<AI> @:4598 op:19,dt:19,nt:9,next:65535,str:13449,d0:73,d1:0;)))
-            (____, BuiltinInvocation<Void> @:4599 op:290,dt:4,nt:8,next:65535,str:58097,d0:4600,d1:62827;
-                ("ai_place", Expression<MethodOrOperator> @:4600 op:290,dt:2,nt:9,next:4601,str:1215,d0:0,d1:0;
-                    ("e12_cs_banshee1", Expression<AI> @:4601 op:19,dt:19,nt:9,next:65535,str:13465,d0:74,d1:0;))))))
+("e12_pelican_flyby", MethodDecl<Void> @:166 check:0,op:0,dt:0,nt:65535,next:4602,nextCheck:62829,str:14574,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4602 check:62829,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:58032,h:0,d0:4603,d1:62830;
+        ("begin", Expression<MethodOrOperator> @:4603 check:62830,op:0,dt:2,nt:9,next:4596,nextCheck:62823,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4596 check:62823,op:290,dt:4,nt:8,next:4599,nextCheck:62826,str:58068,h:0,d0:4597,d1:62824;
+                ("ai_place", Expression<MethodOrOperator> @:4597 check:62824,op:290,dt:2,nt:9,next:4598,nextCheck:62825,str:1215,h:0,d0:0,d1:0;
+                    ("e12_cs_pelican1", Expression<AI> @:4598 check:62825,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13449,h:0,d0:73,d1:0;)))
+            (____, BuiltinInvocation<Void> @:4599 check:62826,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:58097,h:0,d0:4600,d1:62827;
+                ("ai_place", Expression<MethodOrOperator> @:4600 check:62827,op:290,dt:2,nt:9,next:4601,nextCheck:62828,str:1215,h:0,d0:0,d1:0;
+                    ("e12_cs_banshee1", Expression<AI> @:4601 check:62828,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13465,h:0,d0:74,d1:0;))))))

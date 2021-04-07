@@ -1,19 +1,19 @@
 
-("e10_dia_civilwar_c", MethodDecl<Void> @:152 op:0,dt:0,nt:65535,next:4307,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4307 op:0,dt:4,nt:8,next:65535,str:54506,d0:4308,d1:62535;
-        ("begin", Expression<MethodOrOperator> @:4308 op:0,dt:2,nt:9,next:4292,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4292 op:2,dt:4,nt:8,next:4298,str:54568,d0:4293,d1:62520;
-                ("if", Expression<MethodOrOperator> @:4293 op:2,dt:2,nt:9,next:4294,str:456,d0:0,d1:0;
-                    ("dialogue", VariableAccess<Boolean> @:4294 op:5,dt:5,nt:13,next:4295,str:10462,d0:3,d1:0;
-                        (____, BuiltinInvocation<Void> @:4295 op:27,dt:4,nt:8,next:65535,str:54581,d0:4296,d1:62523;
-                            ("print", Expression<MethodOrOperator> @:4296 op:27,dt:2,nt:9,next:4297,str:86,d0:0,d1:0;
-                                ("cortana: the grunts seem to be neutral, or at least afraid to announce which side they support. except for truth the prophets aren't saying a word.", Expression<String> @:4297 op:9,dt:9,nt:9,next:65535,str:12495,d0:12495,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:4298 op:19,dt:4,nt:8,next:4304,str:54742,d0:4299,d1:62526;
-                ("sleep", Expression<MethodOrOperator> @:4299 op:19,dt:2,nt:9,next:4300,str:80,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:4300 op:362,dt:7,nt:8,next:65535,str:54749,d0:4301,d1:62528;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4301 op:362,dt:2,nt:9,next:4302,str:10552,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:4302 op:50,dt:50,nt:9,next:4303,str:1386,d0:65535,d1:65535;
-                                ("2900", Expression<StringId> @:4303 op:11,dt:11,nt:9,next:65535,str:10893,d0:13575,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:4304 op:19,dt:4,nt:8,next:65535,str:54787,d0:4305,d1:62532;
-                ("sleep", Expression<MethodOrOperator> @:4305 op:19,dt:2,nt:9,next:4306,str:80,d0:0,d1:0;
-                    ("dialogue_pause", VariableAccess<Short> @:4306 op:7,dt:7,nt:13,next:65535,str:10580,d0:4,d1:0;))))))
+("e10_dia_civilwar_c", MethodDecl<Void> @:152 check:0,op:0,dt:0,nt:65535,next:4307,nextCheck:62534,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4307 check:62534,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:54506,h:0,d0:4308,d1:62535;
+        ("begin", Expression<MethodOrOperator> @:4308 check:62535,op:0,dt:2,nt:9,next:4292,nextCheck:62519,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4292 check:62519,op:2,dt:4,nt:8,next:4298,nextCheck:62525,str:54568,h:0,d0:4293,d1:62520;
+                ("if", Expression<MethodOrOperator> @:4293 check:62520,op:2,dt:2,nt:9,next:4294,nextCheck:62521,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:4294 check:62521,op:5,dt:5,nt:13,next:4295,nextCheck:62522,str:10462,h:0,d0:3,d1:0;
+                        (____, BuiltinInvocation<Void> @:4295 check:62522,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:54581,h:0,d0:4296,d1:62523;
+                            ("print", Expression<MethodOrOperator> @:4296 check:62523,op:27,dt:2,nt:9,next:4297,nextCheck:62524,str:86,h:0,d0:0,d1:0;
+                                ("cortana: the grunts seem to be neutral, or at least afraid to announce which side they support. except for truth the prophets aren't saying a word.", Expression<String> @:4297 check:62524,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12495,h:0,d0:12495,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:4298 check:62525,op:19,dt:4,nt:8,next:4304,nextCheck:62531,str:54742,h:0,d0:4299,d1:62526;
+                ("sleep", Expression<MethodOrOperator> @:4299 check:62526,op:19,dt:2,nt:9,next:4300,nextCheck:62527,str:80,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:4300 check:62527,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:54749,h:0,d0:4301,d1:62528;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4301 check:62528,op:362,dt:2,nt:9,next:4302,nextCheck:62529,str:10552,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:4302 check:62529,op:50,dt:50,nt:9,next:4303,nextCheck:62530,str:1386,h:0,d0:65535,d1:65535;
+                                ("2900", Expression<StringId> @:4303 check:62530,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:10893,h:0,d0:13575,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:4304 check:62531,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:54787,h:0,d0:4305,d1:62532;
+                ("sleep", Expression<MethodOrOperator> @:4305 check:62532,op:19,dt:2,nt:9,next:4306,nextCheck:62533,str:80,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:4306 check:62533,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:10580,h:0,d0:4,d1:0;))))))

@@ -1,17 +1,17 @@
 
-("c05_2080_mir", MethodDecl<Void> @:42 op:0,dt:0,nt:65535,next:1001,str:2355,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:1001 op:0,dt:4,nt:8,next:65535,str:11424,d0:1002,d1:59229;
-        ("begin", Expression<MethodOrOperator> @:1002 op:0,dt:2,nt:9,next:988,str:142,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:988 op:19,dt:4,nt:8,next:991,str:11455,d0:989,d1:59216;
-                ("sleep", Expression<MethodOrOperator> @:989 op:19,dt:2,nt:9,next:990,str:221,d0:0,d1:0;
-                    (678, Expression<Short> @:990 op:7,dt:7,nt:9,next:65535,str:11462,d0:678,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:991 op:598,dt:4,nt:8,next:997,str:11469,d0:992,d1:59219;
-                ("sound_impulse_start_effect", Expression<MethodOrOperator> @:992 op:598,dt:2,nt:9,next:993,str:2252,d0:0,d1:0;
-                    ("sound\dialog\levels\05_deltatemple\cinematics\c05_2080_mir", Expression<Sound> @:993 op:32,dt:32,nt:9,next:994,str:2279,d0:870,d1:58588;
-                        (4294967295, Expression<Entity> @:994 op:50,dt:50,nt:9,next:995,str:52,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:995 op:6,dt:6,nt:9,next:996,str:11561,d0:0,d1:16256;
-                                ("radio_default_in", Expression<StringId> @:996 op:11,dt:11,nt:9,next:65535,str:2338,d0:14337,d1:4096;))))))
-            (____, BuiltinInvocation<Void> @:997 op:562,dt:4,nt:8,next:65535,str:11583,d0:998,d1:59225;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:998 op:562,dt:2,nt:9,next:999,str:1681,d0:0,d1:0;
-                    ("c05_2080_mir", Expression<StringId> @:999 op:11,dt:11,nt:9,next:1000,str:2355,d0:3967,d1:3072;
-                        (1f, Expression<Float> @:1000 op:6,dt:6,nt:9,next:65535,str:11616,d0:0,d1:16256;)))))))
+("c05_2080_mir", MethodDecl<Void> @:42 check:0,op:0,dt:0,nt:65535,next:1001,nextCheck:59228,str:2355,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:1001 check:59228,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:11424,h:0,d0:1002,d1:59229;
+        ("begin", Expression<MethodOrOperator> @:1002 check:59229,op:0,dt:2,nt:9,next:988,nextCheck:59215,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:988 check:59215,op:19,dt:4,nt:8,next:991,nextCheck:59218,str:11455,h:0,d0:989,d1:59216;
+                ("sleep", Expression<MethodOrOperator> @:989 check:59216,op:19,dt:2,nt:9,next:990,nextCheck:59217,str:221,h:0,d0:0,d1:0;
+                    (678, Expression<Short> @:990 check:59217,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:11462,h:0,d0:678,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:991 check:59218,op:598,dt:4,nt:8,next:997,nextCheck:59224,str:11469,h:0,d0:992,d1:59219;
+                ("sound_impulse_start_effect", Expression<MethodOrOperator> @:992 check:59219,op:598,dt:2,nt:9,next:993,nextCheck:59220,str:2252,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\05_deltatemple\cinematics\c05_2080_mir", Expression<Sound> @:993 check:59220,op:32,dt:32,nt:9,next:994,nextCheck:59221,str:2279,h:0,d0:870,d1:58588;
+                        (4294967295, Expression<Entity> @:994 check:59221,op:50,dt:50,nt:9,next:995,nextCheck:59222,str:52,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:995 check:59222,op:6,dt:6,nt:9,next:996,nextCheck:59223,str:11561,h:0,d0:0,d1:16256;
+                                ("radio_default_in", Expression<StringId> @:996 check:59223,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:2338,h:0,d0:14337,d1:4096;))))))
+            (____, BuiltinInvocation<Void> @:997 check:59224,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:11583,h:0,d0:998,d1:59225;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:998 check:59225,op:562,dt:2,nt:9,next:999,nextCheck:59226,str:1681,h:0,d0:0,d1:0;
+                    ("c05_2080_mir", Expression<StringId> @:999 check:59226,op:11,dt:11,nt:9,next:1000,nextCheck:59227,str:2355,h:0,d0:3967,d1:3072;
+                        (1f, Expression<Float> @:1000 check:59227,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:11616,h:0,d0:0,d1:16256;)))))))

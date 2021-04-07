@@ -1,15 +1,15 @@
 
-("scarab_gun_open_down", MethodDecl<Void> @:335 op:0,dt:0,nt:65535,next:11381,str:33653,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:11381 op:0,dt:4,nt:8,next:65535,str:64294,d0:11382,d1:36842;
-        ("begin", Expression<MethodOrOperator> @:11382 op:0,dt:2,nt:9,next:11370,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:11370 op:267,dt:4,nt:8,next:11374,str:64337,d0:11371,d1:36831;
-                ("device_set_overlay_track", Expression<MethodOrOperator> @:11371 op:267,dt:2,nt:9,next:11372,str:26144,d0:0,d1:0;
-                    ("scarab", Expression<Device> @:11372 op:60,dt:54,nt:9,next:11373,str:9846,d0:105,d1:65535;
-                        ("combat:fire_down_open", Expression<StringId> @:11373 op:11,dt:11,nt:9,next:65535,str:26239,d0:5371,d1:5376;))))
-            (____, BuiltinInvocation<Void> @:11374 op:269,dt:4,nt:8,next:65535,str:64395,d0:11375,d1:36835;
-                ("device_animate_overlay", Expression<MethodOrOperator> @:11375 op:269,dt:2,nt:9,next:11376,str:26186,d0:0,d1:0;
-                    ("scarab", Expression<Device> @:11376 op:60,dt:54,nt:9,next:11377,str:9846,d0:105,d1:65535;
-                        (1f, Expression<Float> @:11377 op:6,dt:6,nt:9,next:11378,str:64426,d0:0,d1:16256;
-                            (3.5f, Expression<Float> @:11378 op:6,dt:6,nt:9,next:11379,str:64430,d0:0,d1:16480;
-                                (0f, Expression<Float> @:11379 op:6,dt:6,nt:9,next:11380,str:64434,d0:0,d1:0;
-                                    (0f, Expression<Float> @:11380 op:6,dt:6,nt:9,next:65535,str:64436,d0:0,d1:0;))))))))))
+("scarab_gun_open_down", MethodDecl<Void> @:335 check:0,op:0,dt:0,nt:65535,next:11381,nextCheck:36841,str:33653,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:11381 check:36841,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:64294,h:1,d0:11382,d1:36842;
+        ("begin", Expression<MethodOrOperator> @:11382 check:36842,op:0,dt:2,nt:9,next:11370,nextCheck:36830,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:11370 check:36830,op:267,dt:4,nt:8,next:11374,nextCheck:36834,str:64337,h:1,d0:11371,d1:36831;
+                ("device_set_overlay_track", Expression<MethodOrOperator> @:11371 check:36831,op:267,dt:2,nt:9,next:11372,nextCheck:36832,str:26144,h:0,d0:0,d1:0;
+                    ("scarab", Expression<Device> @:11372 check:36832,op:60,dt:54,nt:9,next:11373,nextCheck:36833,str:9846,h:0,d0:105,d1:65535;
+                        ("combat:fire_down_open", Expression<StringId> @:11373 check:36833,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:26239,h:0,d0:5371,d1:5376;))))
+            (____, BuiltinInvocation<Void> @:11374 check:36834,op:269,dt:4,nt:8,next:65535,nextCheck:65535,str:64395,h:1,d0:11375,d1:36835;
+                ("device_animate_overlay", Expression<MethodOrOperator> @:11375 check:36835,op:269,dt:2,nt:9,next:11376,nextCheck:36836,str:26186,h:0,d0:0,d1:0;
+                    ("scarab", Expression<Device> @:11376 check:36836,op:60,dt:54,nt:9,next:11377,nextCheck:36837,str:9846,h:0,d0:105,d1:65535;
+                        (1f, Expression<Float> @:11377 check:36837,op:6,dt:6,nt:9,next:11378,nextCheck:36838,str:64426,h:1,d0:0,d1:16256;
+                            (3.5f, Expression<Float> @:11378 check:36838,op:6,dt:6,nt:9,next:11379,nextCheck:36839,str:64430,h:1,d0:0,d1:16480;
+                                (0f, Expression<Float> @:11379 check:36839,op:6,dt:6,nt:9,next:11380,nextCheck:36840,str:64434,h:1,d0:0,d1:0;
+                                    (0f, Expression<Float> @:11380 check:36840,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:64436,h:1,d0:0,d1:0;))))))))))

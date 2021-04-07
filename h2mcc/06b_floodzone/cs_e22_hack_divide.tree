@@ -1,20 +1,20 @@
 
-("cs_e22_hack_divide", MethodDecl<Void> @:252 op:0,dt:0,nt:65535,next:11613,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:11613 op:0,dt:4,nt:8,next:65535,str:4302,d0:11614,d1:37074;
-        ("begin", Expression<MethodOrOperator> @:11614 op:0,dt:2,nt:9,next:11597,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:11597 op:2,dt:4,nt:8,next:65535,str:4346,d0:11598,d1:37058;
-                ("if", Expression<MethodOrOperator> @:11598 op:2,dt:2,nt:9,next:11599,str:461,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:11599 op:16,dt:5,nt:8,next:11605,str:4350,d0:11600,d1:37060;
-                        ("<", Expression<MethodOrOperator> @:11600 op:16,dt:2,nt:9,next:11601,str:852,d0:0,d1:0;
-                            (____, BuiltinInvocation<Short> @:11601 op:327,dt:7,nt:8,next:11604,str:4353,d0:11602,d1:37062;
-                                ("ai_living_count", Expression<MethodOrOperator> @:11602 op:327,dt:2,nt:9,next:11603,str:11911,d0:0,d1:0;
-                                    ("e22_cov_inf1_0", Expression<AI> @:11603 op:19,dt:19,nt:9,next:65535,str:23447,d0:142,d1:0;)))
-                            (2, Expression<Short> @:11604 op:7,dt:7,nt:9,next:65535,str:4386,d0:2,d1:65535;)))
-                    (____, BuiltinInvocation<Void> @:11605 op:309,dt:4,nt:8,next:11609,str:4392,d0:11606,d1:37066;
-                        ("ai_migrate", Expression<MethodOrOperator> @:11606 op:309,dt:2,nt:9,next:11607,str:15728,d0:0,d1:0;
-                            ("ai_current_actor", VariableAccess<AI> @:11607 op:19,dt:19,nt:13,next:11608,str:10463,d0:33564,d1:65535;
-                                ("e22_cov_inf1_0", Expression<AI> @:11608 op:19,dt:19,nt:9,next:65535,str:23447,d0:142,d1:0;))))
-                    (____, BuiltinInvocation<Void> @:11609 op:309,dt:4,nt:8,next:65535,str:4440,d0:11610,d1:37070;
-                        ("ai_migrate", Expression<MethodOrOperator> @:11610 op:309,dt:2,nt:9,next:11611,str:15728,d0:0,d1:0;
-                            ("ai_current_actor", VariableAccess<AI> @:11611 op:19,dt:19,nt:13,next:11612,str:10463,d0:33564,d1:65535;
-                                ("e22_cov_inf1_1", Expression<AI> @:11612 op:19,dt:19,nt:9,next:65535,str:23462,d0:143,d1:0;)))))))))
+("cs_e22_hack_divide", MethodDecl<Void> @:252 check:0,op:0,dt:0,nt:65535,next:11613,nextCheck:37073,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:11613 check:37073,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:4302,h:2,d0:11614,d1:37074;
+        ("begin", Expression<MethodOrOperator> @:11614 check:37074,op:0,dt:2,nt:9,next:11597,nextCheck:37057,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:11597 check:37057,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:4346,h:2,d0:11598,d1:37058;
+                ("if", Expression<MethodOrOperator> @:11598 check:37058,op:2,dt:2,nt:9,next:11599,nextCheck:37059,str:461,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:11599 check:37059,op:16,dt:5,nt:8,next:11605,nextCheck:37065,str:4350,h:2,d0:11600,d1:37060;
+                        ("<", Expression<MethodOrOperator> @:11600 check:37060,op:16,dt:2,nt:9,next:11601,nextCheck:37061,str:852,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Short> @:11601 check:37061,op:327,dt:7,nt:8,next:11604,nextCheck:37064,str:4353,h:2,d0:11602,d1:37062;
+                                ("ai_living_count", Expression<MethodOrOperator> @:11602 check:37062,op:327,dt:2,nt:9,next:11603,nextCheck:37063,str:11911,h:0,d0:0,d1:0;
+                                    ("e22_cov_inf1_0", Expression<AI> @:11603 check:37063,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:23447,h:0,d0:142,d1:0;)))
+                            (2, Expression<Short> @:11604 check:37064,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:4386,h:2,d0:2,d1:65535;)))
+                    (____, BuiltinInvocation<Void> @:11605 check:37065,op:309,dt:4,nt:8,next:11609,nextCheck:37069,str:4392,h:2,d0:11606,d1:37066;
+                        ("ai_migrate", Expression<MethodOrOperator> @:11606 check:37066,op:309,dt:2,nt:9,next:11607,nextCheck:37067,str:15728,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:11607 check:37067,op:19,dt:19,nt:13,next:11608,nextCheck:37068,str:10463,h:0,d0:33564,d1:65535;
+                                ("e22_cov_inf1_0", Expression<AI> @:11608 check:37068,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:23447,h:0,d0:142,d1:0;))))
+                    (____, BuiltinInvocation<Void> @:11609 check:37069,op:309,dt:4,nt:8,next:65535,nextCheck:65535,str:4440,h:2,d0:11610,d1:37070;
+                        ("ai_migrate", Expression<MethodOrOperator> @:11610 check:37070,op:309,dt:2,nt:9,next:11611,nextCheck:37071,str:15728,h:0,d0:0,d1:0;
+                            ("ai_current_actor", VariableAccess<AI> @:11611 check:37071,op:19,dt:19,nt:13,next:11612,nextCheck:37072,str:10463,h:0,d0:33564,d1:65535;
+                                ("e22_cov_inf1_1", Expression<AI> @:11612 check:37072,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:23462,h:0,d0:143,d1:0;)))))))))

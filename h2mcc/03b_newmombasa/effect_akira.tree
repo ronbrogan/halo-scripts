@@ -1,13 +1,13 @@
 
-("effect_akira", MethodDecl<Void> @:166 op:0,dt:0,nt:65535,next:5363,str:12429,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5363 op:0,dt:4,nt:8,next:65535,str:64176,d0:5364,d1:63591;
-        ("begin", Expression<MethodOrOperator> @:5364 op:0,dt:2,nt:9,next:5354,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5354 op:19,dt:4,nt:8,next:5357,str:64207,d0:5355,d1:63582;
-                ("sleep", Expression<MethodOrOperator> @:5355 op:19,dt:2,nt:9,next:5356,str:85,d0:0,d1:0;
-                    (130, Expression<Short> @:5356 op:7,dt:7,nt:9,next:65535,str:64214,d0:130,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5357 op:48,dt:4,nt:8,next:5360,str:64221,d0:5358,d1:63585;
-                ("object_create_anew", Expression<MethodOrOperator> @:5358 op:48,dt:2,nt:9,next:5359,str:2379,d0:0,d1:0;
-                    ("x03_shockwave_far", Expression<EntityIdentifier> @:5359 op:56,dt:56,nt:9,next:65535,str:12249,d0:41,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5360 op:27,dt:4,nt:8,next:65535,str:64262,d0:5361,d1:63588;
-                ("print", Expression<MethodOrOperator> @:5361 op:27,dt:2,nt:9,next:5362,str:91,d0:0,d1:0;
-                    ("effect - kaneda!!!", Expression<String> @:5362 op:9,dt:9,nt:9,next:65535,str:12267,d0:12267,d1:0;))))))
+("effect_akira", MethodDecl<Void> @:166 check:0,op:0,dt:0,nt:65535,next:5363,nextCheck:63590,str:12429,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5363 check:63590,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:64176,h:0,d0:5364,d1:63591;
+        ("begin", Expression<MethodOrOperator> @:5364 check:63591,op:0,dt:2,nt:9,next:5354,nextCheck:63581,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5354 check:63581,op:19,dt:4,nt:8,next:5357,nextCheck:63584,str:64207,h:0,d0:5355,d1:63582;
+                ("sleep", Expression<MethodOrOperator> @:5355 check:63582,op:19,dt:2,nt:9,next:5356,nextCheck:63583,str:85,h:0,d0:0,d1:0;
+                    (130, Expression<Short> @:5356 check:63583,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:64214,h:0,d0:130,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5357 check:63584,op:48,dt:4,nt:8,next:5360,nextCheck:63587,str:64221,h:0,d0:5358,d1:63585;
+                ("object_create_anew", Expression<MethodOrOperator> @:5358 check:63585,op:48,dt:2,nt:9,next:5359,nextCheck:63586,str:2379,h:0,d0:0,d1:0;
+                    ("x03_shockwave_far", Expression<EntityIdentifier> @:5359 check:63586,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:12249,h:0,d0:41,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5360 check:63587,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:64262,h:0,d0:5361,d1:63588;
+                ("print", Expression<MethodOrOperator> @:5361 check:63588,op:27,dt:2,nt:9,next:5362,nextCheck:63589,str:91,h:0,d0:0,d1:0;
+                    ("effect - kaneda!!!", Expression<String> @:5362 check:63589,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12267,h:0,d0:12267,d1:0;))))))

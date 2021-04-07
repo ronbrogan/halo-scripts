@@ -1,30 +1,30 @@
 
-("c01_intro_scene_01_cleanup", MethodDecl<Void> @:152 op:0,dt:0,nt:65535,next:7933,str:14070,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:7933 op:0,dt:4,nt:8,next:65535,str:42194,d0:7934,d1:33394;
-        ("begin", Expression<MethodOrOperator> @:7934 op:0,dt:2,nt:9,next:7907,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:7907 op:712,dt:4,nt:8,next:7909,str:42245,d0:7908,d1:33368;
-                ("cinematic_screen_effect_stop", Expression<MethodOrOperator> @:7908 op:712,dt:2,nt:9,next:65535,str:11283,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:7909 op:27,dt:4,nt:8,next:7912,str:42278,d0:7910,d1:33370;
-                ("print", Expression<MethodOrOperator> @:7910 op:27,dt:2,nt:9,next:7911,str:86,d0:0,d1:0;
-                    ("rack focus stop", Expression<String> @:7911 op:9,dt:9,nt:9,next:65535,str:11312,d0:11312,d1:0;)))
-            (____, BuiltinInvocation<Void> @:7912 op:52,dt:4,nt:8,next:7915,str:42308,d0:7913,d1:33373;
-                ("object_destroy", Expression<MethodOrOperator> @:7913 op:52,dt:2,nt:9,next:7914,str:6065,d0:0,d1:0;
-                    (4294901804, Expression<Entity> @:7914 op:56,dt:50,nt:9,next:65535,str:13038,d0:44,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:7915 op:52,dt:4,nt:8,next:7918,str:42333,d0:7916,d1:33376;
-                ("object_destroy", Expression<MethodOrOperator> @:7916 op:52,dt:2,nt:9,next:7917,str:6065,d0:0,d1:0;
-                    (4294901805, Expression<Entity> @:7917 op:56,dt:50,nt:9,next:65535,str:12971,d0:45,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:7918 op:52,dt:4,nt:8,next:7921,str:42359,d0:7919,d1:33379;
-                ("object_destroy", Expression<MethodOrOperator> @:7919 op:52,dt:2,nt:9,next:7920,str:6065,d0:0,d1:0;
-                    (4294901803, Expression<Entity> @:7920 op:56,dt:50,nt:9,next:65535,str:12978,d0:43,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:7921 op:53,dt:4,nt:8,next:7924,str:42384,d0:7922,d1:33382;
-                ("object_destroy_containing", Expression<MethodOrOperator> @:7922 op:53,dt:2,nt:9,next:7923,str:6158,d0:0,d1:0;
-                    ("iac", Expression<String> @:7923 op:9,dt:9,nt:9,next:65535,str:13220,d0:13220,d1:0;)))
-            (____, BuiltinInvocation<Void> @:7924 op:53,dt:4,nt:8,next:7927,str:42418,d0:7925,d1:33385;
-                ("object_destroy_containing", Expression<MethodOrOperator> @:7925 op:53,dt:2,nt:9,next:7926,str:6158,d0:0,d1:0;
-                    ("poa", Expression<String> @:7926 op:9,dt:9,nt:9,next:65535,str:13224,d0:13224,d1:0;)))
-            (____, BuiltinInvocation<Void> @:7927 op:53,dt:4,nt:8,next:7930,str:42452,d0:7928,d1:33388;
-                ("object_destroy_containing", Expression<MethodOrOperator> @:7928 op:53,dt:2,nt:9,next:7929,str:6158,d0:0,d1:0;
-                    ("fighter", Expression<String> @:7929 op:9,dt:9,nt:9,next:65535,str:13228,d0:13228,d1:0;)))
-            (____, BuiltinInvocation<Void> @:7930 op:53,dt:4,nt:8,next:65535,str:42490,d0:7931,d1:33391;
-                ("object_destroy_containing", Expression<MethodOrOperator> @:7931 op:53,dt:2,nt:9,next:7932,str:6158,d0:0,d1:0;
-                    ("matte", Expression<String> @:7932 op:9,dt:9,nt:9,next:65535,str:6152,d0:6152,d1:0;))))))
+("c01_intro_scene_01_cleanup", MethodDecl<Void> @:152 check:0,op:0,dt:0,nt:65535,next:7933,nextCheck:33393,str:14070,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:7933 check:33393,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:42194,h:1,d0:7934,d1:33394;
+        ("begin", Expression<MethodOrOperator> @:7934 check:33394,op:0,dt:2,nt:9,next:7907,nextCheck:33367,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:7907 check:33367,op:712,dt:4,nt:8,next:7909,nextCheck:33369,str:42245,h:1,d0:7908,d1:33368;
+                ("cinematic_screen_effect_stop", Expression<MethodOrOperator> @:7908 check:33368,op:712,dt:2,nt:9,next:65535,nextCheck:65535,str:11283,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:7909 check:33369,op:27,dt:4,nt:8,next:7912,nextCheck:33372,str:42278,h:1,d0:7910,d1:33370;
+                ("print", Expression<MethodOrOperator> @:7910 check:33370,op:27,dt:2,nt:9,next:7911,nextCheck:33371,str:86,h:0,d0:0,d1:0;
+                    ("rack focus stop", Expression<String> @:7911 check:33371,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:11312,h:0,d0:11312,d1:0;)))
+            (____, BuiltinInvocation<Void> @:7912 check:33372,op:52,dt:4,nt:8,next:7915,nextCheck:33375,str:42308,h:1,d0:7913,d1:33373;
+                ("object_destroy", Expression<MethodOrOperator> @:7913 check:33373,op:52,dt:2,nt:9,next:7914,nextCheck:33374,str:6065,h:0,d0:0,d1:0;
+                    (4294901804, Expression<Entity> @:7914 check:33374,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:13038,h:0,d0:44,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:7915 check:33375,op:52,dt:4,nt:8,next:7918,nextCheck:33378,str:42333,h:1,d0:7916,d1:33376;
+                ("object_destroy", Expression<MethodOrOperator> @:7916 check:33376,op:52,dt:2,nt:9,next:7917,nextCheck:33377,str:6065,h:0,d0:0,d1:0;
+                    (4294901805, Expression<Entity> @:7917 check:33377,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:12971,h:0,d0:45,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:7918 check:33378,op:52,dt:4,nt:8,next:7921,nextCheck:33381,str:42359,h:1,d0:7919,d1:33379;
+                ("object_destroy", Expression<MethodOrOperator> @:7919 check:33379,op:52,dt:2,nt:9,next:7920,nextCheck:33380,str:6065,h:0,d0:0,d1:0;
+                    (4294901803, Expression<Entity> @:7920 check:33380,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:12978,h:0,d0:43,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:7921 check:33381,op:53,dt:4,nt:8,next:7924,nextCheck:33384,str:42384,h:1,d0:7922,d1:33382;
+                ("object_destroy_containing", Expression<MethodOrOperator> @:7922 check:33382,op:53,dt:2,nt:9,next:7923,nextCheck:33383,str:6158,h:0,d0:0,d1:0;
+                    ("iac", Expression<String> @:7923 check:33383,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13220,h:0,d0:13220,d1:0;)))
+            (____, BuiltinInvocation<Void> @:7924 check:33384,op:53,dt:4,nt:8,next:7927,nextCheck:33387,str:42418,h:1,d0:7925,d1:33385;
+                ("object_destroy_containing", Expression<MethodOrOperator> @:7925 check:33385,op:53,dt:2,nt:9,next:7926,nextCheck:33386,str:6158,h:0,d0:0,d1:0;
+                    ("poa", Expression<String> @:7926 check:33386,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13224,h:0,d0:13224,d1:0;)))
+            (____, BuiltinInvocation<Void> @:7927 check:33387,op:53,dt:4,nt:8,next:7930,nextCheck:33390,str:42452,h:1,d0:7928,d1:33388;
+                ("object_destroy_containing", Expression<MethodOrOperator> @:7928 check:33388,op:53,dt:2,nt:9,next:7929,nextCheck:33389,str:6158,h:0,d0:0,d1:0;
+                    ("fighter", Expression<String> @:7929 check:33389,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13228,h:0,d0:13228,d1:0;)))
+            (____, BuiltinInvocation<Void> @:7930 check:33390,op:53,dt:4,nt:8,next:65535,nextCheck:65535,str:42490,h:1,d0:7931,d1:33391;
+                ("object_destroy_containing", Expression<MethodOrOperator> @:7931 check:33391,op:53,dt:2,nt:9,next:7932,nextCheck:33392,str:6158,h:0,d0:0,d1:0;
+                    ("matte", Expression<String> @:7932 check:33392,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:6152,h:0,d0:6152,d1:0;))))))

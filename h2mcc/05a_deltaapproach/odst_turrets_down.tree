@@ -1,19 +1,19 @@
 
-("odst_turrets_down", MethodDecl<Void> @:210 op:0,dt:0,nt:65535,next:7903,str:17142,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:7903 op:0,dt:4,nt:8,next:65535,str:30148,d0:7904,d1:33364;
-        ("begin", Expression<MethodOrOperator> @:7904 op:0,dt:2,nt:9,next:7888,str:54,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:7888 op:374,dt:4,nt:8,next:7891,str:30191,d0:7889,d1:33349;
-                ("cs_switch", Expression<MethodOrOperator> @:7889 op:374,dt:2,nt:9,next:7890,str:15425,d0:0,d1:0;
-                    ("lz_odst", Expression<StringId> @:7890 op:11,dt:11,nt:9,next:65535,str:15435,d0:12393,d1:1792;)))
-            (____, BuiltinInvocation<Void> @:7891 op:449,dt:4,nt:8,next:7894,str:30213,d0:7892,d1:33352;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:7892 op:449,dt:2,nt:9,next:7893,str:15268,d0:0,d1:0;
-                    (True, Expression<Boolean> @:7893 op:5,dt:5,nt:9,next:65535,str:30245,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:7894 op:440,dt:4,nt:8,next:7897,str:30253,d0:7895,d1:33355;
-                ("cs_abort_on_damage", Expression<MethodOrOperator> @:7895 op:440,dt:2,nt:9,next:7896,str:15443,d0:0,d1:0;
-                    (True, Expression<Boolean> @:7896 op:5,dt:5,nt:9,next:65535,str:30273,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:7897 op:27,dt:4,nt:8,next:7900,str:30281,d0:7898,d1:33358;
-                ("print", Expression<MethodOrOperator> @:7898 op:27,dt:2,nt:9,next:7899,str:139,d0:0,d1:0;
-                    ("odst: 'clear this lz! the pelicans are right behind us!'", Expression<String> @:7899 op:9,dt:9,nt:9,next:65535,str:17028,d0:17028,d1:0;)))
-            (____, BuiltinInvocation<Void> @:7900 op:418,dt:4,nt:8,next:65535,str:30350,d0:7901,d1:33361;
-                ("cs_play_line", Expression<MethodOrOperator> @:7901 op:418,dt:2,nt:9,next:7902,str:15491,d0:0,d1:0;
-                    ("0010", Expression<StringId> @:7902 op:11,dt:11,nt:9,next:65535,str:17085,d0:12011,d1:1024;))))))
+("odst_turrets_down", MethodDecl<Void> @:210 check:0,op:0,dt:0,nt:65535,next:7903,nextCheck:33363,str:17142,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:7903 check:33363,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:30148,h:1,d0:7904,d1:33364;
+        ("begin", Expression<MethodOrOperator> @:7904 check:33364,op:0,dt:2,nt:9,next:7888,nextCheck:33348,str:54,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:7888 check:33348,op:374,dt:4,nt:8,next:7891,nextCheck:33351,str:30191,h:1,d0:7889,d1:33349;
+                ("cs_switch", Expression<MethodOrOperator> @:7889 check:33349,op:374,dt:2,nt:9,next:7890,nextCheck:33350,str:15425,h:0,d0:0,d1:0;
+                    ("lz_odst", Expression<StringId> @:7890 check:33350,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:15435,h:0,d0:12393,d1:1792;)))
+            (____, BuiltinInvocation<Void> @:7891 check:33351,op:449,dt:4,nt:8,next:7894,nextCheck:33354,str:30213,h:1,d0:7892,d1:33352;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:7892 check:33352,op:449,dt:2,nt:9,next:7893,nextCheck:33353,str:15268,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:7893 check:33353,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:30245,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:7894 check:33354,op:440,dt:4,nt:8,next:7897,nextCheck:33357,str:30253,h:1,d0:7895,d1:33355;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:7895 check:33355,op:440,dt:2,nt:9,next:7896,nextCheck:33356,str:15443,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:7896 check:33356,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:30273,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:7897 check:33357,op:27,dt:4,nt:8,next:7900,nextCheck:33360,str:30281,h:1,d0:7898,d1:33358;
+                ("print", Expression<MethodOrOperator> @:7898 check:33358,op:27,dt:2,nt:9,next:7899,nextCheck:33359,str:139,h:0,d0:0,d1:0;
+                    ("odst: 'clear this lz! the pelicans are right behind us!'", Expression<String> @:7899 check:33359,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:17028,h:0,d0:17028,d1:0;)))
+            (____, BuiltinInvocation<Void> @:7900 check:33360,op:418,dt:4,nt:8,next:65535,nextCheck:65535,str:30350,h:1,d0:7901,d1:33361;
+                ("cs_play_line", Expression<MethodOrOperator> @:7901 check:33361,op:418,dt:2,nt:9,next:7902,nextCheck:33362,str:15491,h:0,d0:0,d1:0;
+                    ("0010", Expression<StringId> @:7902 check:33362,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:17085,h:0,d0:12011,d1:1024;))))))

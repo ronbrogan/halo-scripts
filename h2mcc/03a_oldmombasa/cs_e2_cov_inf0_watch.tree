@@ -1,21 +1,21 @@
 
-("cs_e2_cov_inf0_watch", MethodDecl<Void> @:367 op:0,dt:0,nt:65535,next:15151,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:15151 op:0,dt:4,nt:8,next:65535,str:55662,d0:15152,d1:40612;
-        ("begin", Expression<MethodOrOperator> @:15152 op:0,dt:2,nt:9,next:15134,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:15134 op:440,dt:4,nt:8,next:15137,str:55708,d0:15135,d1:40595;
-                ("cs_abort_on_damage", Expression<MethodOrOperator> @:15135 op:440,dt:2,nt:9,next:15136,str:15078,d0:0,d1:0;
-                    (True, Expression<Boolean> @:15136 op:5,dt:5,nt:9,next:65535,str:55728,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:15137 op:21,dt:4,nt:8,next:65535,str:55757,d0:15138,d1:40598;
-                ("sleep_until", Expression<MethodOrOperator> @:15138 op:21,dt:2,nt:9,next:15139,str:294,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:15139 op:6,dt:5,nt:8,next:15150,str:55773,d0:15140,d1:40600;
-                        ("or", Expression<MethodOrOperator> @:15140 op:6,dt:2,nt:9,next:15141,str:907,d0:0,d1:0;
-                            (____, BuiltinInvocation<Boolean> @:15141 op:33,dt:5,nt:8,next:15146,str:55781,d0:15142,d1:40602;
-                                ("volume_test_objects", Expression<MethodOrOperator> @:15142 op:33,dt:2,nt:9,next:15143,str:11142,d0:0,d1:0;
-                                    ("tv_e2_hunters_bypassed", Expression<Trigger> @:15143 op:13,dt:13,nt:9,next:15144,str:25031,d0:14,d1:0;
-                                        (____, BuiltinInvocation<List> @:15144 op:28,dt:31,nt:8,next:65535,str:55825,d0:15145,d1:40605;
-                                            ("players", Expression<MethodOrOperator> @:15145 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;)))))
-                            (____, BuiltinInvocation<Boolean> @:15146 op:337,dt:5,nt:8,next:65535,str:55840,d0:15147,d1:40607;
-                                ("ai_trigger_test", Expression<MethodOrOperator> @:15147 op:337,dt:2,nt:9,next:15148,str:21970,d0:0,d1:0;
-                                    ("e2_cov_hunters0_active", Expression<String> @:15148 op:9,dt:9,nt:9,next:15149,str:25054,d0:25054,d1:0;
-                                        ("e2_cov_hunters0", Expression<AI> @:15149 op:19,dt:19,nt:9,next:65535,str:24337,d0:31,d1:0;))))))
-                    (15, Expression<Short> @:15150 op:7,dt:7,nt:9,next:65535,str:55905,d0:15,d1:65535;))))))
+("cs_e2_cov_inf0_watch", MethodDecl<Void> @:367 check:0,op:0,dt:0,nt:65535,next:15151,nextCheck:40611,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:15151 check:40611,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:55662,h:2,d0:15152,d1:40612;
+        ("begin", Expression<MethodOrOperator> @:15152 check:40612,op:0,dt:2,nt:9,next:15134,nextCheck:40594,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:15134 check:40594,op:440,dt:4,nt:8,next:15137,nextCheck:40597,str:55708,h:2,d0:15135,d1:40595;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:15135 check:40595,op:440,dt:2,nt:9,next:15136,nextCheck:40596,str:15078,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15136 check:40596,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:55728,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:15137 check:40597,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:55757,h:2,d0:15138,d1:40598;
+                ("sleep_until", Expression<MethodOrOperator> @:15138 check:40598,op:21,dt:2,nt:9,next:15139,nextCheck:40599,str:294,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:15139 check:40599,op:6,dt:5,nt:8,next:15150,nextCheck:40610,str:55773,h:2,d0:15140,d1:40600;
+                        ("or", Expression<MethodOrOperator> @:15140 check:40600,op:6,dt:2,nt:9,next:15141,nextCheck:40601,str:907,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Boolean> @:15141 check:40601,op:33,dt:5,nt:8,next:15146,nextCheck:40606,str:55781,h:2,d0:15142,d1:40602;
+                                ("volume_test_objects", Expression<MethodOrOperator> @:15142 check:40602,op:33,dt:2,nt:9,next:15143,nextCheck:40603,str:11142,h:0,d0:0,d1:0;
+                                    ("tv_e2_hunters_bypassed", Expression<Trigger> @:15143 check:40603,op:13,dt:13,nt:9,next:15144,nextCheck:40604,str:25031,h:0,d0:14,d1:0;
+                                        (____, BuiltinInvocation<List> @:15144 check:40604,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:55825,h:2,d0:15145,d1:40605;
+                                            ("players", Expression<MethodOrOperator> @:15145 check:40605,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:84,h:0,d0:0,d1:0;)))))
+                            (____, BuiltinInvocation<Boolean> @:15146 check:40606,op:337,dt:5,nt:8,next:65535,nextCheck:65535,str:55840,h:2,d0:15147,d1:40607;
+                                ("ai_trigger_test", Expression<MethodOrOperator> @:15147 check:40607,op:337,dt:2,nt:9,next:15148,nextCheck:40608,str:21970,h:0,d0:0,d1:0;
+                                    ("e2_cov_hunters0_active", Expression<String> @:15148 check:40608,op:9,dt:9,nt:9,next:15149,nextCheck:40609,str:25054,h:0,d0:25054,d1:0;
+                                        ("e2_cov_hunters0", Expression<AI> @:15149 check:40609,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:24337,h:0,d0:31,d1:0;))))))
+                    (15, Expression<Short> @:15150 check:40610,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55905,h:2,d0:15,d1:65535;))))))

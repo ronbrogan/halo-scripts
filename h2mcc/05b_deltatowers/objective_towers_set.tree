@@ -1,16 +1,16 @@
 
-("objective_towers_set", MethodDecl<Void> @:111 op:0,dt:0,nt:65535,next:3262,str:32471,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3262 op:0,dt:4,nt:8,next:65535,str:39944,d0:3263,d1:61490;
-        ("begin", Expression<MethodOrOperator> @:3263 op:0,dt:2,nt:9,next:3250,str:142,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3250 op:19,dt:4,nt:8,next:3253,str:39994,d0:3251,d1:61478;
-                ("sleep", Expression<MethodOrOperator> @:3251 op:19,dt:2,nt:9,next:3252,str:221,d0:0,d1:0;
-                    (30, Expression<Short> @:3252 op:7,dt:7,nt:9,next:65535,str:40001,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3253 op:27,dt:4,nt:8,next:3256,str:40018,d0:3254,d1:61481;
-                ("print", Expression<MethodOrOperator> @:3254 op:27,dt:2,nt:9,next:3255,str:227,d0:0,d1:0;
-                    ("new objective set:", Expression<String> @:3255 op:9,dt:9,nt:9,next:65535,str:8700,d0:8700,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3256 op:27,dt:4,nt:8,next:3259,str:40060,d0:3257,d1:61484;
-                ("print", Expression<MethodOrOperator> @:3257 op:27,dt:2,nt:9,next:3258,str:227,d0:0,d1:0;
-                    ("make your way through the first set of towers.", Expression<String> @:3258 op:9,dt:9,nt:9,next:65535,str:8719,d0:8719,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3259 op:753,dt:4,nt:8,next:65535,str:40130,d0:3260,d1:61487;
-                ("objectives_show_up_to", Expression<MethodOrOperator> @:3260 op:753,dt:2,nt:9,next:3261,str:8766,d0:0,d1:0;
-                    (0, Expression<Int> @:3261 op:8,dt:8,nt:9,next:65535,str:40153,d0:0,d1:0;))))))
+("objective_towers_set", MethodDecl<Void> @:111 check:0,op:0,dt:0,nt:65535,next:3262,nextCheck:61489,str:32471,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3262 check:61489,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:39944,h:0,d0:3263,d1:61490;
+        ("begin", Expression<MethodOrOperator> @:3263 check:61490,op:0,dt:2,nt:9,next:3250,nextCheck:61477,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3250 check:61477,op:19,dt:4,nt:8,next:3253,nextCheck:61480,str:39994,h:0,d0:3251,d1:61478;
+                ("sleep", Expression<MethodOrOperator> @:3251 check:61478,op:19,dt:2,nt:9,next:3252,nextCheck:61479,str:221,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:3252 check:61479,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:40001,h:0,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3253 check:61480,op:27,dt:4,nt:8,next:3256,nextCheck:61483,str:40018,h:0,d0:3254,d1:61481;
+                ("print", Expression<MethodOrOperator> @:3254 check:61481,op:27,dt:2,nt:9,next:3255,nextCheck:61482,str:227,h:0,d0:0,d1:0;
+                    ("new objective set:", Expression<String> @:3255 check:61482,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8700,h:0,d0:8700,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3256 check:61483,op:27,dt:4,nt:8,next:3259,nextCheck:61486,str:40060,h:0,d0:3257,d1:61484;
+                ("print", Expression<MethodOrOperator> @:3257 check:61484,op:27,dt:2,nt:9,next:3258,nextCheck:61485,str:227,h:0,d0:0,d1:0;
+                    ("make your way through the first set of towers.", Expression<String> @:3258 check:61485,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8719,h:0,d0:8719,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3259 check:61486,op:753,dt:4,nt:8,next:65535,nextCheck:65535,str:40130,h:0,d0:3260,d1:61487;
+                ("objectives_show_up_to", Expression<MethodOrOperator> @:3260 check:61487,op:753,dt:2,nt:9,next:3261,nextCheck:61488,str:8766,h:0,d0:0,d1:0;
+                    (0, Expression<Int> @:3261 check:61488,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:40153,h:0,d0:0,d1:0;))))))

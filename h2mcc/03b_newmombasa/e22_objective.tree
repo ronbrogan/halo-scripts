@@ -1,21 +1,21 @@
 
-("e22_objective", MethodDecl<Void> @:293 op:0,dt:0,nt:65535,next:10342,str:22306,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:10342 op:0,dt:4,nt:8,next:65535,str:63364,d0:10343,d1:35803;
-        ("begin", Expression<MethodOrOperator> @:10343 op:0,dt:2,nt:9,next:10325,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:10325 op:21,dt:4,nt:8,next:10333,str:63456,d0:10326,d1:35786;
-                ("sleep_until", Expression<MethodOrOperator> @:10326 op:21,dt:2,nt:9,next:10327,str:236,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:10327 op:33,dt:5,nt:8,next:10332,str:63469,d0:10328,d1:35788;
-                        ("volume_test_objects", Expression<MethodOrOperator> @:10328 op:33,dt:2,nt:9,next:10329,str:13230,d0:0,d1:0;
-                            ("tv_e22_scarab_entry_begin", Expression<Trigger> @:10329 op:13,dt:13,nt:9,next:10330,str:18842,d0:33,d1:0;
-                                (____, BuiltinInvocation<List> @:10330 op:28,dt:31,nt:8,next:65535,str:63516,d0:10331,d1:35791;
-                                    ("players", Expression<MethodOrOperator> @:10331 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))
-                    (5, Expression<Short> @:10332 op:7,dt:7,nt:9,next:65535,str:63527,d0:5,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10333 op:22,dt:4,nt:8,next:10336,str:63532,d0:10334,d1:35794;
-                ("wake", Expression<MethodOrOperator> @:10334 op:22,dt:2,nt:9,next:10335,str:1071,d0:0,d1:0;
-                    ("objective2_clear", Expression<ScriptReference> @:10335 op:10,dt:10,nt:9,next:65535,str:21249,d0:184,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10336 op:21,dt:4,nt:8,next:10339,str:63605,d0:10337,d1:35797;
-                ("sleep_until", Expression<MethodOrOperator> @:10337 op:21,dt:2,nt:9,next:10338,str:236,d0:0,d1:0;
-                    ("g_e22_scarab_past_climb", VariableAccess<Boolean> @:10338 op:5,dt:5,nt:13,next:65535,str:19764,d0:33,d1:0;)))
-            (____, BuiltinInvocation<Void> @:10339 op:22,dt:4,nt:8,next:65535,str:63645,d0:10340,d1:35800;
-                ("wake", Expression<MethodOrOperator> @:10340 op:22,dt:2,nt:9,next:10341,str:1071,d0:0,d1:0;
-                    ("objective3_set", Expression<ScriptReference> @:10341 op:10,dt:10,nt:9,next:65535,str:19429,d0:185,d1:65535;))))))
+("e22_objective", MethodDecl<Void> @:293 check:0,op:0,dt:0,nt:65535,next:10342,nextCheck:35802,str:22306,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:10342 check:35802,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:63364,h:1,d0:10343,d1:35803;
+        ("begin", Expression<MethodOrOperator> @:10343 check:35803,op:0,dt:2,nt:9,next:10325,nextCheck:35785,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:10325 check:35785,op:21,dt:4,nt:8,next:10333,nextCheck:35793,str:63456,h:1,d0:10326,d1:35786;
+                ("sleep_until", Expression<MethodOrOperator> @:10326 check:35786,op:21,dt:2,nt:9,next:10327,nextCheck:35787,str:236,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:10327 check:35787,op:33,dt:5,nt:8,next:10332,nextCheck:35792,str:63469,h:1,d0:10328,d1:35788;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:10328 check:35788,op:33,dt:2,nt:9,next:10329,nextCheck:35789,str:13230,h:0,d0:0,d1:0;
+                            ("tv_e22_scarab_entry_begin", Expression<Trigger> @:10329 check:35789,op:13,dt:13,nt:9,next:10330,nextCheck:35790,str:18842,h:0,d0:33,d1:0;
+                                (____, BuiltinInvocation<List> @:10330 check:35790,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:63516,h:1,d0:10331,d1:35791;
+                                    ("players", Expression<MethodOrOperator> @:10331 check:35791,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                    (5, Expression<Short> @:10332 check:35792,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:63527,h:1,d0:5,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10333 check:35793,op:22,dt:4,nt:8,next:10336,nextCheck:35796,str:63532,h:1,d0:10334,d1:35794;
+                ("wake", Expression<MethodOrOperator> @:10334 check:35794,op:22,dt:2,nt:9,next:10335,nextCheck:35795,str:1071,h:0,d0:0,d1:0;
+                    ("objective2_clear", Expression<ScriptReference> @:10335 check:35795,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:21249,h:0,d0:184,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10336 check:35796,op:21,dt:4,nt:8,next:10339,nextCheck:35799,str:63605,h:1,d0:10337,d1:35797;
+                ("sleep_until", Expression<MethodOrOperator> @:10337 check:35797,op:21,dt:2,nt:9,next:10338,nextCheck:35798,str:236,h:0,d0:0,d1:0;
+                    ("g_e22_scarab_past_climb", VariableAccess<Boolean> @:10338 check:35798,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:19764,h:0,d0:33,d1:0;)))
+            (____, BuiltinInvocation<Void> @:10339 check:35799,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:63645,h:1,d0:10340,d1:35800;
+                ("wake", Expression<MethodOrOperator> @:10340 check:35800,op:22,dt:2,nt:9,next:10341,nextCheck:35801,str:1071,h:0,d0:0,d1:0;
+                    ("objective3_set", Expression<ScriptReference> @:10341 check:35801,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:19429,h:0,d0:185,d1:65535;))))))

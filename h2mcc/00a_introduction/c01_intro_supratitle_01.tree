@@ -1,10 +1,10 @@
 
-("c01_intro_supratitle_01", MethodDecl<Void> @:145 op:0,dt:0,nt:65535,next:7579,str:13291,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:7579 op:0,dt:4,nt:8,next:65535,str:38747,d0:7580,d1:33040;
-        ("begin", Expression<MethodOrOperator> @:7580 op:0,dt:2,nt:9,next:7573,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:7573 op:19,dt:4,nt:8,next:7576,str:38789,d0:7574,d1:33034;
-                ("sleep", Expression<MethodOrOperator> @:7574 op:19,dt:2,nt:9,next:7575,str:80,d0:0,d1:0;
-                    (285, Expression<Short> @:7575 op:7,dt:7,nt:9,next:65535,str:38796,d0:285,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:7576 op:559,dt:4,nt:8,next:65535,str:38803,d0:7577,d1:33037;
-                ("cinematic_set_title", Expression<MethodOrOperator> @:7577 op:559,dt:2,nt:9,next:7578,str:3938,d0:0,d1:0;
-                    ("cinematic_title1", Expression<CinematicTitle> @:7578 op:16,dt:16,nt:9,next:65535,str:12930,d0:1,d1:0;))))))
+("c01_intro_supratitle_01", MethodDecl<Void> @:145 check:0,op:0,dt:0,nt:65535,next:7579,nextCheck:33039,str:13291,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:7579 check:33039,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:38747,h:1,d0:7580,d1:33040;
+        ("begin", Expression<MethodOrOperator> @:7580 check:33040,op:0,dt:2,nt:9,next:7573,nextCheck:33033,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:7573 check:33033,op:19,dt:4,nt:8,next:7576,nextCheck:33036,str:38789,h:1,d0:7574,d1:33034;
+                ("sleep", Expression<MethodOrOperator> @:7574 check:33034,op:19,dt:2,nt:9,next:7575,nextCheck:33035,str:80,h:0,d0:0,d1:0;
+                    (285, Expression<Short> @:7575 check:33035,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:38796,h:1,d0:285,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:7576 check:33036,op:559,dt:4,nt:8,next:65535,nextCheck:65535,str:38803,h:1,d0:7577,d1:33037;
+                ("cinematic_set_title", Expression<MethodOrOperator> @:7577 check:33037,op:559,dt:2,nt:9,next:7578,nextCheck:33038,str:3938,h:0,d0:0,d1:0;
+                    ("cinematic_title1", Expression<CinematicTitle> @:7578 check:33038,op:16,dt:16,nt:9,next:65535,nextCheck:65535,str:12930,h:0,d0:1,d1:0;))))))

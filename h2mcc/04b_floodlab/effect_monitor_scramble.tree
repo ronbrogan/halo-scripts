@@ -1,27 +1,27 @@
 
-("effect_monitor_scramble", MethodDecl<Void> @:100 op:0,dt:0,nt:65535,next:3139,str:8482,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3139 op:0,dt:4,nt:8,next:65535,str:37182,d0:3140,d1:61367;
-        ("begin", Expression<MethodOrOperator> @:3140 op:0,dt:2,nt:9,next:3116,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3116 op:19,dt:4,nt:8,next:3119,str:37224,d0:3117,d1:61344;
-                ("sleep", Expression<MethodOrOperator> @:3117 op:19,dt:2,nt:9,next:3118,str:289,d0:0,d1:0;
-                    (423, Expression<Short> @:3118 op:7,dt:7,nt:9,next:65535,str:37231,d0:423,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3119 op:27,dt:4,nt:8,next:3122,str:37238,d0:3120,d1:61347;
-                ("print", Expression<MethodOrOperator> @:3120 op:27,dt:2,nt:9,next:3121,str:295,d0:0,d1:0;
-                    ("effect - monitor scramble", Expression<String> @:3121 op:9,dt:9,nt:9,next:65535,str:8244,d0:8244,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3122 op:41,dt:4,nt:8,next:3127,str:37276,d0:3123,d1:61350;
-                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:3123 op:41,dt:2,nt:9,next:3124,str:7070,d0:0,d1:0;
-                    ("effects\objects\characters\brute\hammer_grappling", Expression<Effect> @:3124 op:33,dt:33,nt:9,next:3125,str:8270,d0:1370,d1:59088;
-                        (4294902032, Expression<Entity> @:3125 op:56,dt:50,nt:9,next:3126,str:6383,d0:272,d1:65535;
-                            ("body", Expression<StringId> @:3126 op:11,dt:11,nt:9,next:65535,str:8320,d0:189,d1:1024;)))))
-            (____, BuiltinInvocation<Void> @:3127 op:653,dt:4,nt:8,next:3132,str:37376,d0:3128,d1:61355;
-                ("player_effect_set_max_rotation", Expression<MethodOrOperator> @:3128 op:653,dt:2,nt:9,next:3129,str:8325,d0:0,d1:0;
-                    (0f, Expression<Float> @:3129 op:6,dt:6,nt:9,next:3130,str:37408,d0:0,d1:0;
-                        (1f, Expression<Float> @:3130 op:6,dt:6,nt:9,next:3131,str:37410,d0:0,d1:16256;
-                            (1f, Expression<Float> @:3131 op:6,dt:6,nt:9,next:65535,str:37412,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:3132 op:655,dt:4,nt:8,next:3136,str:37417,d0:3133,d1:61360;
-                ("player_effect_start", Expression<MethodOrOperator> @:3133 op:655,dt:2,nt:9,next:3134,str:8356,d0:0,d1:0;
-                    (0.25f, Expression<Float> @:3134 op:6,dt:6,nt:9,next:3135,str:37438,d0:0,d1:16000;
-                        (0f, Expression<Float> @:3135 op:6,dt:6,nt:9,next:65535,str:37442,d0:0,d1:0;))))
-            (____, BuiltinInvocation<Void> @:3136 op:656,dt:4,nt:8,next:65535,str:37447,d0:3137,d1:61364;
-                ("player_effect_stop", Expression<MethodOrOperator> @:3137 op:656,dt:2,nt:9,next:3138,str:8376,d0:0,d1:0;
-                    (1.5f, Expression<Float> @:3138 op:6,dt:6,nt:9,next:65535,str:37467,d0:0,d1:16320;))))))
+("effect_monitor_scramble", MethodDecl<Void> @:100 check:0,op:0,dt:0,nt:65535,next:3139,nextCheck:61366,str:8482,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3139 check:61366,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:37182,h:0,d0:3140,d1:61367;
+        ("begin", Expression<MethodOrOperator> @:3140 check:61367,op:0,dt:2,nt:9,next:3116,nextCheck:61343,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3116 check:61343,op:19,dt:4,nt:8,next:3119,nextCheck:61346,str:37224,h:0,d0:3117,d1:61344;
+                ("sleep", Expression<MethodOrOperator> @:3117 check:61344,op:19,dt:2,nt:9,next:3118,nextCheck:61345,str:289,h:0,d0:0,d1:0;
+                    (423, Expression<Short> @:3118 check:61345,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:37231,h:0,d0:423,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3119 check:61346,op:27,dt:4,nt:8,next:3122,nextCheck:61349,str:37238,h:0,d0:3120,d1:61347;
+                ("print", Expression<MethodOrOperator> @:3120 check:61347,op:27,dt:2,nt:9,next:3121,nextCheck:61348,str:295,h:0,d0:0,d1:0;
+                    ("effect - monitor scramble", Expression<String> @:3121 check:61348,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8244,h:0,d0:8244,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3122 check:61349,op:41,dt:4,nt:8,next:3127,nextCheck:61354,str:37276,h:0,d0:3123,d1:61350;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:3123 check:61350,op:41,dt:2,nt:9,next:3124,nextCheck:61351,str:7070,h:0,d0:0,d1:0;
+                    ("effects\objects\characters\brute\hammer_grappling", Expression<Effect> @:3124 check:61351,op:33,dt:33,nt:9,next:3125,nextCheck:61352,str:8270,h:0,d0:1370,d1:59088;
+                        (4294902032, Expression<Entity> @:3125 check:61352,op:56,dt:50,nt:9,next:3126,nextCheck:61353,str:6383,h:0,d0:272,d1:65535;
+                            ("body", Expression<StringId> @:3126 check:61353,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:8320,h:0,d0:189,d1:1024;)))))
+            (____, BuiltinInvocation<Void> @:3127 check:61354,op:653,dt:4,nt:8,next:3132,nextCheck:61359,str:37376,h:0,d0:3128,d1:61355;
+                ("player_effect_set_max_rotation", Expression<MethodOrOperator> @:3128 check:61355,op:653,dt:2,nt:9,next:3129,nextCheck:61356,str:8325,h:0,d0:0,d1:0;
+                    (0f, Expression<Float> @:3129 check:61356,op:6,dt:6,nt:9,next:3130,nextCheck:61357,str:37408,h:0,d0:0,d1:0;
+                        (1f, Expression<Float> @:3130 check:61357,op:6,dt:6,nt:9,next:3131,nextCheck:61358,str:37410,h:0,d0:0,d1:16256;
+                            (1f, Expression<Float> @:3131 check:61358,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:37412,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:3132 check:61359,op:655,dt:4,nt:8,next:3136,nextCheck:61363,str:37417,h:0,d0:3133,d1:61360;
+                ("player_effect_start", Expression<MethodOrOperator> @:3133 check:61360,op:655,dt:2,nt:9,next:3134,nextCheck:61361,str:8356,h:0,d0:0,d1:0;
+                    (0.25f, Expression<Float> @:3134 check:61361,op:6,dt:6,nt:9,next:3135,nextCheck:61362,str:37438,h:0,d0:0,d1:16000;
+                        (0f, Expression<Float> @:3135 check:61362,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:37442,h:0,d0:0,d1:0;))))
+            (____, BuiltinInvocation<Void> @:3136 check:61363,op:656,dt:4,nt:8,next:65535,nextCheck:65535,str:37447,h:0,d0:3137,d1:61364;
+                ("player_effect_stop", Expression<MethodOrOperator> @:3137 check:61364,op:656,dt:2,nt:9,next:3138,nextCheck:61365,str:8376,h:0,d0:0,d1:0;
+                    (1.5f, Expression<Float> @:3138 check:61365,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:37467,h:0,d0:0,d1:16320;))))))

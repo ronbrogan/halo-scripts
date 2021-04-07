@@ -1,16 +1,16 @@
 
-("effect_grav_lift", MethodDecl<Void> @:99 op:0,dt:0,nt:65535,next:3230,str:7856,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3230 op:0,dt:4,nt:8,next:65535,str:38946,d0:3231,d1:61458;
-        ("begin", Expression<MethodOrOperator> @:3231 op:0,dt:2,nt:9,next:3218,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3218 op:19,dt:4,nt:8,next:3221,str:38981,d0:3219,d1:61446;
-                ("sleep", Expression<MethodOrOperator> @:3219 op:19,dt:2,nt:9,next:3220,str:85,d0:0,d1:0;
-                    (330, Expression<Short> @:3220 op:7,dt:7,nt:9,next:65535,str:38988,d0:330,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3221 op:60,dt:4,nt:8,next:3227,str:38995,d0:3222,d1:61449;
-                ("object_set_function_variable", Expression<MethodOrOperator> @:3222 op:60,dt:2,nt:9,next:3223,str:2509,d0:0,d1:0;
-                    (4294901798, Expression<Entity> @:3223 op:56,dt:50,nt:9,next:3224,str:7683,d0:38,d1:65535;
-                        ("grav_lift_control", Expression<StringId> @:3224 op:11,dt:11,nt:9,next:3225,str:7691,d0:5330,d1:4352;
-                            (0f, Expression<Float> @:3225 op:6,dt:6,nt:9,next:3226,str:39053,d0:0,d1:0;
-                                (75f, Expression<Float> @:3226 op:6,dt:6,nt:9,next:65535,str:39055,d0:0,d1:17046;))))))
-            (____, BuiltinInvocation<Void> @:3227 op:27,dt:4,nt:8,next:65535,str:39061,d0:3228,d1:61455;
-                ("print", Expression<MethodOrOperator> @:3228 op:27,dt:2,nt:9,next:3229,str:91,d0:0,d1:0;
-                    ("grav-lift deactivate", Expression<String> @:3229 op:9,dt:9,nt:9,next:65535,str:7709,d0:7709,d1:0;))))))
+("effect_grav_lift", MethodDecl<Void> @:99 check:0,op:0,dt:0,nt:65535,next:3230,nextCheck:61457,str:7856,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3230 check:61457,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:38946,h:0,d0:3231,d1:61458;
+        ("begin", Expression<MethodOrOperator> @:3231 check:61458,op:0,dt:2,nt:9,next:3218,nextCheck:61445,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3218 check:61445,op:19,dt:4,nt:8,next:3221,nextCheck:61448,str:38981,h:0,d0:3219,d1:61446;
+                ("sleep", Expression<MethodOrOperator> @:3219 check:61446,op:19,dt:2,nt:9,next:3220,nextCheck:61447,str:85,h:0,d0:0,d1:0;
+                    (330, Expression<Short> @:3220 check:61447,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:38988,h:0,d0:330,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3221 check:61448,op:60,dt:4,nt:8,next:3227,nextCheck:61454,str:38995,h:0,d0:3222,d1:61449;
+                ("object_set_function_variable", Expression<MethodOrOperator> @:3222 check:61449,op:60,dt:2,nt:9,next:3223,nextCheck:61450,str:2509,h:0,d0:0,d1:0;
+                    (4294901798, Expression<Entity> @:3223 check:61450,op:56,dt:50,nt:9,next:3224,nextCheck:61451,str:7683,h:0,d0:38,d1:65535;
+                        ("grav_lift_control", Expression<StringId> @:3224 check:61451,op:11,dt:11,nt:9,next:3225,nextCheck:61452,str:7691,h:0,d0:5330,d1:4352;
+                            (0f, Expression<Float> @:3225 check:61452,op:6,dt:6,nt:9,next:3226,nextCheck:61453,str:39053,h:0,d0:0,d1:0;
+                                (75f, Expression<Float> @:3226 check:61453,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:39055,h:0,d0:0,d1:17046;))))))
+            (____, BuiltinInvocation<Void> @:3227 check:61454,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:39061,h:0,d0:3228,d1:61455;
+                ("print", Expression<MethodOrOperator> @:3228 check:61455,op:27,dt:2,nt:9,next:3229,nextCheck:61456,str:91,h:0,d0:0,d1:0;
+                    ("grav-lift deactivate", Expression<String> @:3229 check:61456,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:7709,h:0,d0:7709,d1:0;))))))

@@ -1,15 +1,15 @@
 
-("e5_bugger_spawner", MethodDecl<Void> @:218 op:0,dt:0,nt:65535,next:9641,str:20854,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:9641 op:0,dt:4,nt:8,next:65535,str:57297,d0:9642,d1:35102;
-        ("begin", Expression<MethodOrOperator> @:9642 op:0,dt:2,nt:9,next:9630,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:9630 op:21,dt:4,nt:8,next:9638,str:58401,d0:9631,d1:35091;
-                ("sleep_until", Expression<MethodOrOperator> @:9631 op:21,dt:2,nt:9,next:9632,str:231,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:9632 op:18,dt:5,nt:8,next:65535,str:58414,d0:9633,d1:35093;
-                        ("<=", Expression<MethodOrOperator> @:9633 op:18,dt:2,nt:9,next:9634,str:14395,d0:0,d1:0;
-                            (____, BuiltinInvocation<Short> @:9634 op:327,dt:7,nt:8,next:9637,str:58418,d0:9635,d1:35095;
-                                ("ai_living_count", Expression<MethodOrOperator> @:9635 op:327,dt:2,nt:9,next:9636,str:15982,d0:0,d1:0;
-                                    ("e5_pro_bug1", Expression<AI> @:9636 op:19,dt:19,nt:9,next:65535,str:20335,d0:19,d1:0;)))
-                            (2, Expression<Short> @:9637 op:7,dt:7,nt:9,next:65535,str:58448,d0:2,d1:65535;)))))
-            (____, BuiltinInvocation<Void> @:9638 op:290,dt:4,nt:8,next:65535,str:58454,d0:9639,d1:35099;
-                ("ai_place", Expression<MethodOrOperator> @:9639 op:290,dt:2,nt:9,next:9640,str:1215,d0:0,d1:0;
-                    ("e5_pro_bug2_c", Expression<AI> @:9640 op:19,dt:19,nt:9,next:65535,str:19989,d0:21,d1:0;))))))
+("e5_bugger_spawner", MethodDecl<Void> @:218 check:0,op:0,dt:0,nt:65535,next:9641,nextCheck:35101,str:20854,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:9641 check:35101,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:57297,h:1,d0:9642,d1:35102;
+        ("begin", Expression<MethodOrOperator> @:9642 check:35102,op:0,dt:2,nt:9,next:9630,nextCheck:35090,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:9630 check:35090,op:21,dt:4,nt:8,next:9638,nextCheck:35098,str:58401,h:1,d0:9631,d1:35091;
+                ("sleep_until", Expression<MethodOrOperator> @:9631 check:35091,op:21,dt:2,nt:9,next:9632,nextCheck:35092,str:231,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:9632 check:35092,op:18,dt:5,nt:8,next:65535,nextCheck:65535,str:58414,h:1,d0:9633,d1:35093;
+                        ("<=", Expression<MethodOrOperator> @:9633 check:35093,op:18,dt:2,nt:9,next:9634,nextCheck:35094,str:14395,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Short> @:9634 check:35094,op:327,dt:7,nt:8,next:9637,nextCheck:35097,str:58418,h:1,d0:9635,d1:35095;
+                                ("ai_living_count", Expression<MethodOrOperator> @:9635 check:35095,op:327,dt:2,nt:9,next:9636,nextCheck:35096,str:15982,h:0,d0:0,d1:0;
+                                    ("e5_pro_bug1", Expression<AI> @:9636 check:35096,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:20335,h:0,d0:19,d1:0;)))
+                            (2, Expression<Short> @:9637 check:35097,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:58448,h:1,d0:2,d1:65535;)))))
+            (____, BuiltinInvocation<Void> @:9638 check:35098,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:58454,h:1,d0:9639,d1:35099;
+                ("ai_place", Expression<MethodOrOperator> @:9639 check:35099,op:290,dt:2,nt:9,next:9640,nextCheck:35100,str:1215,h:0,d0:0,d1:0;
+                    ("e5_pro_bug2_c", Expression<AI> @:9640 check:35100,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19989,h:0,d0:21,d1:0;))))))

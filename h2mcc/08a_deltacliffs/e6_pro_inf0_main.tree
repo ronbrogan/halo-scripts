@@ -1,15 +1,15 @@
 
-("e6_pro_inf0_main", MethodDecl<Void> @:155 op:0,dt:0,nt:65535,next:5779,str:11697,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5779 op:0,dt:4,nt:8,next:65535,str:5538,d0:5780,d1:64007;
-        ("begin", Expression<MethodOrOperator> @:5780 op:0,dt:2,nt:9,next:5768,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5768 op:290,dt:4,nt:8,next:5771,str:5573,d0:5769,d1:63996;
-                ("ai_place", Expression<MethodOrOperator> @:5769 op:290,dt:2,nt:9,next:5770,str:6964,d0:0,d1:0;
-                    ("e6_pro_inf0", Expression<AI> @:5770 op:19,dt:19,nt:9,next:65535,str:11228,d0:18,d1:16384;)))
-            (____, BuiltinInvocation<Void> @:5771 op:19,dt:4,nt:8,next:5774,str:5598,d0:5772,d1:63999;
-                ("sleep", Expression<MethodOrOperator> @:5772 op:19,dt:2,nt:9,next:5773,str:143,d0:0,d1:0;
-                    (6, Expression<Short> @:5773 op:7,dt:7,nt:9,next:65535,str:5605,d0:6,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5774 op:99,dt:4,nt:8,next:65535,str:5610,d0:5775,d1:64002;
-                ("objects_predict", Expression<MethodOrOperator> @:5775 op:99,dt:2,nt:9,next:5776,str:11240,d0:0,d1:0;
-                    (____, BuiltinInvocation<List> @:5776 op:332,dt:31,nt:8,next:65535,str:5627,d0:5777,d1:64004;
-                        ("ai_actors", Expression<MethodOrOperator> @:5777 op:332,dt:2,nt:9,next:5778,str:7293,d0:0,d1:0;
-                            ("e6_pro_inf0", Expression<AI> @:5778 op:19,dt:19,nt:9,next:65535,str:11228,d0:18,d1:16384;))))))))
+("e6_pro_inf0_main", MethodDecl<Void> @:155 check:0,op:0,dt:0,nt:65535,next:5779,nextCheck:64006,str:11697,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5779 check:64006,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:5538,h:1,d0:5780,d1:64007;
+        ("begin", Expression<MethodOrOperator> @:5780 check:64007,op:0,dt:2,nt:9,next:5768,nextCheck:63995,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5768 check:63995,op:290,dt:4,nt:8,next:5771,nextCheck:63998,str:5573,h:1,d0:5769,d1:63996;
+                ("ai_place", Expression<MethodOrOperator> @:5769 check:63996,op:290,dt:2,nt:9,next:5770,nextCheck:63997,str:6964,h:0,d0:0,d1:0;
+                    ("e6_pro_inf0", Expression<AI> @:5770 check:63997,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:11228,h:0,d0:18,d1:16384;)))
+            (____, BuiltinInvocation<Void> @:5771 check:63998,op:19,dt:4,nt:8,next:5774,nextCheck:64001,str:5598,h:1,d0:5772,d1:63999;
+                ("sleep", Expression<MethodOrOperator> @:5772 check:63999,op:19,dt:2,nt:9,next:5773,nextCheck:64000,str:143,h:0,d0:0,d1:0;
+                    (6, Expression<Short> @:5773 check:64000,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:5605,h:1,d0:6,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5774 check:64001,op:99,dt:4,nt:8,next:65535,nextCheck:65535,str:5610,h:1,d0:5775,d1:64002;
+                ("objects_predict", Expression<MethodOrOperator> @:5775 check:64002,op:99,dt:2,nt:9,next:5776,nextCheck:64003,str:11240,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<List> @:5776 check:64003,op:332,dt:31,nt:8,next:65535,nextCheck:65535,str:5627,h:1,d0:5777,d1:64004;
+                        ("ai_actors", Expression<MethodOrOperator> @:5777 check:64004,op:332,dt:2,nt:9,next:5778,nextCheck:64005,str:7293,h:0,d0:0,d1:0;
+                            ("e6_pro_inf0", Expression<AI> @:5778 check:64005,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:11228,h:0,d0:18,d1:16384;))))))))

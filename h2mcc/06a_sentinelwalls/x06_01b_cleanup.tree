@@ -1,18 +1,18 @@
 
-("x06_01b_cleanup", MethodDecl<Void> @:53 op:0,dt:0,nt:65535,next:1645,str:4194,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:1645 op:0,dt:4,nt:8,next:65535,str:19512,d0:1646,d1:59873;
-        ("begin", Expression<MethodOrOperator> @:1646 op:0,dt:2,nt:9,next:1631,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:1631 op:298,dt:4,nt:8,next:1634,str:19553,d0:1632,d1:59859;
-                ("ai_erase", Expression<MethodOrOperator> @:1632 op:298,dt:2,nt:9,next:1633,str:1570,d0:0,d1:0;
-                    ("elites_03", Expression<AI> @:1633 op:19,dt:19,nt:9,next:65535,str:3436,d0:112,d1:0;)))
-            (____, BuiltinInvocation<Void> @:1634 op:52,dt:4,nt:8,next:1637,str:19579,d0:1635,d1:59862;
-                ("object_destroy", Expression<MethodOrOperator> @:1635 op:52,dt:2,nt:9,next:1636,str:2551,d0:0,d1:0;
-                    (4294901833, Expression<Entity> @:1636 op:56,dt:50,nt:9,next:65535,str:2261,d0:73,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1637 op:52,dt:4,nt:8,next:1640,str:19609,d0:1638,d1:59865;
-                ("object_destroy", Expression<MethodOrOperator> @:1638 op:52,dt:2,nt:9,next:1639,str:2551,d0:0,d1:0;
-                    (4294901860, Expression<Entity> @:1639 op:56,dt:50,nt:9,next:65535,str:2363,d0:100,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1640 op:52,dt:4,nt:8,next:1643,str:19637,d0:1641,d1:59868;
-                ("object_destroy", Expression<MethodOrOperator> @:1641 op:52,dt:2,nt:9,next:1642,str:2551,d0:0,d1:0;
-                    (4294901861, Expression<Entity> @:1642 op:56,dt:50,nt:9,next:65535,str:2083,d0:101,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1643 op:712,dt:4,nt:8,next:65535,str:19668,d0:1644,d1:59871;
-                ("cinematic_screen_effect_stop", Expression<MethodOrOperator> @:1644 op:712,dt:2,nt:9,next:65535,str:3584,d0:0,d1:0;)))))
+("x06_01b_cleanup", MethodDecl<Void> @:53 check:0,op:0,dt:0,nt:65535,next:1645,nextCheck:59872,str:4194,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:1645 check:59872,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:19512,h:0,d0:1646,d1:59873;
+        ("begin", Expression<MethodOrOperator> @:1646 check:59873,op:0,dt:2,nt:9,next:1631,nextCheck:59858,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1631 check:59858,op:298,dt:4,nt:8,next:1634,nextCheck:59861,str:19553,h:0,d0:1632,d1:59859;
+                ("ai_erase", Expression<MethodOrOperator> @:1632 check:59859,op:298,dt:2,nt:9,next:1633,nextCheck:59860,str:1570,h:0,d0:0,d1:0;
+                    ("elites_03", Expression<AI> @:1633 check:59860,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:3436,h:0,d0:112,d1:0;)))
+            (____, BuiltinInvocation<Void> @:1634 check:59861,op:52,dt:4,nt:8,next:1637,nextCheck:59864,str:19579,h:0,d0:1635,d1:59862;
+                ("object_destroy", Expression<MethodOrOperator> @:1635 check:59862,op:52,dt:2,nt:9,next:1636,nextCheck:59863,str:2551,h:0,d0:0,d1:0;
+                    (4294901833, Expression<Entity> @:1636 check:59863,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:2261,h:0,d0:73,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1637 check:59864,op:52,dt:4,nt:8,next:1640,nextCheck:59867,str:19609,h:0,d0:1638,d1:59865;
+                ("object_destroy", Expression<MethodOrOperator> @:1638 check:59865,op:52,dt:2,nt:9,next:1639,nextCheck:59866,str:2551,h:0,d0:0,d1:0;
+                    (4294901860, Expression<Entity> @:1639 check:59866,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:2363,h:0,d0:100,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1640 check:59867,op:52,dt:4,nt:8,next:1643,nextCheck:59870,str:19637,h:0,d0:1641,d1:59868;
+                ("object_destroy", Expression<MethodOrOperator> @:1641 check:59868,op:52,dt:2,nt:9,next:1642,nextCheck:59869,str:2551,h:0,d0:0,d1:0;
+                    (4294901861, Expression<Entity> @:1642 check:59869,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:2083,h:0,d0:101,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1643 check:59870,op:712,dt:4,nt:8,next:65535,nextCheck:65535,str:19668,h:0,d0:1644,d1:59871;
+                ("cinematic_screen_effect_stop", Expression<MethodOrOperator> @:1644 check:59871,op:712,dt:2,nt:9,next:65535,nextCheck:65535,str:3584,h:0,d0:0,d1:0;)))))

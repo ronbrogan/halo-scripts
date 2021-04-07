@@ -1,22 +1,22 @@
 
-("05b_title0", MethodDecl<Void> @:107 op:0,dt:0,nt:65535,next:3162,str:32460,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3162 op:0,dt:4,nt:8,next:65535,str:38932,d0:3163,d1:61390;
-        ("begin", Expression<MethodOrOperator> @:3163 op:0,dt:2,nt:9,next:3144,str:142,d0:0,d1:0;
-            ("cinematic_fade_from_white_bars", ScriptInvocation<Void> @:3144 op:11,dt:4,nt:10,next:3146,str:38961,d0:3145,d1:61372;
-                ("cinematic_fade_from_white_bars", Expression<MethodOrOperator> @:3145 op:11,dt:2,nt:9,next:65535,str:8589,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:3146 op:19,dt:4,nt:8,next:3149,str:38996,d0:3147,d1:61374;
-                ("sleep", Expression<MethodOrOperator> @:3147 op:19,dt:2,nt:9,next:3148,str:221,d0:0,d1:0;
-                    (30, Expression<Short> @:3148 op:7,dt:7,nt:9,next:65535,str:39003,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3149 op:559,dt:4,nt:8,next:3152,str:39009,d0:3150,d1:61377;
-                ("cinematic_set_title", Expression<MethodOrOperator> @:3150 op:559,dt:2,nt:9,next:3151,str:8620,d0:0,d1:0;
-                    ("title_1", Expression<CinematicTitle> @:3151 op:16,dt:16,nt:9,next:65535,str:8640,d0:0,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3152 op:19,dt:4,nt:8,next:3155,str:39041,d0:3153,d1:61380;
-                ("sleep", Expression<MethodOrOperator> @:3153 op:19,dt:2,nt:9,next:3154,str:221,d0:0,d1:0;
-                    (150, Expression<Short> @:3154 op:7,dt:7,nt:9,next:65535,str:39048,d0:150,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3155 op:625,dt:4,nt:8,next:3159,str:39055,d0:3156,d1:61383;
-                ("hud_cinematic_fade", Expression<MethodOrOperator> @:3156 op:625,dt:2,nt:9,next:3157,str:654,d0:0,d1:0;
-                    (1f, Expression<Float> @:3157 op:6,dt:6,nt:9,next:3158,str:39075,d0:0,d1:16256;
-                        (0.5f, Expression<Float> @:3158 op:6,dt:6,nt:9,next:65535,str:39077,d0:0,d1:16128;))))
-            (____, BuiltinInvocation<Void> @:3159 op:557,dt:4,nt:8,next:65535,str:39084,d0:3160,d1:61387;
-                ("cinematic_show_letterbox", Expression<MethodOrOperator> @:3160 op:557,dt:2,nt:9,next:3161,str:8648,d0:0,d1:0;
-                    (False, Expression<Boolean> @:3161 op:5,dt:5,nt:9,next:65535,str:39110,d0:65280,d1:65535;))))))
+("05b_title0", MethodDecl<Void> @:107 check:0,op:0,dt:0,nt:65535,next:3162,nextCheck:61389,str:32460,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3162 check:61389,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:38932,h:0,d0:3163,d1:61390;
+        ("begin", Expression<MethodOrOperator> @:3163 check:61390,op:0,dt:2,nt:9,next:3144,nextCheck:61371,str:142,h:0,d0:0,d1:0;
+            ("cinematic_fade_from_white_bars", ScriptInvocation<Void> @:3144 check:61371,op:11,dt:4,nt:10,next:3146,nextCheck:61373,str:38961,h:0,d0:3145,d1:61372;
+                ("cinematic_fade_from_white_bars", Expression<MethodOrOperator> @:3145 check:61372,op:11,dt:2,nt:9,next:65535,nextCheck:65535,str:8589,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:3146 check:61373,op:19,dt:4,nt:8,next:3149,nextCheck:61376,str:38996,h:0,d0:3147,d1:61374;
+                ("sleep", Expression<MethodOrOperator> @:3147 check:61374,op:19,dt:2,nt:9,next:3148,nextCheck:61375,str:221,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:3148 check:61375,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:39003,h:0,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3149 check:61376,op:559,dt:4,nt:8,next:3152,nextCheck:61379,str:39009,h:0,d0:3150,d1:61377;
+                ("cinematic_set_title", Expression<MethodOrOperator> @:3150 check:61377,op:559,dt:2,nt:9,next:3151,nextCheck:61378,str:8620,h:0,d0:0,d1:0;
+                    ("title_1", Expression<CinematicTitle> @:3151 check:61378,op:16,dt:16,nt:9,next:65535,nextCheck:65535,str:8640,h:0,d0:0,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3152 check:61379,op:19,dt:4,nt:8,next:3155,nextCheck:61382,str:39041,h:0,d0:3153,d1:61380;
+                ("sleep", Expression<MethodOrOperator> @:3153 check:61380,op:19,dt:2,nt:9,next:3154,nextCheck:61381,str:221,h:0,d0:0,d1:0;
+                    (150, Expression<Short> @:3154 check:61381,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:39048,h:0,d0:150,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3155 check:61382,op:625,dt:4,nt:8,next:3159,nextCheck:61386,str:39055,h:0,d0:3156,d1:61383;
+                ("hud_cinematic_fade", Expression<MethodOrOperator> @:3156 check:61383,op:625,dt:2,nt:9,next:3157,nextCheck:61384,str:654,h:0,d0:0,d1:0;
+                    (1f, Expression<Float> @:3157 check:61384,op:6,dt:6,nt:9,next:3158,nextCheck:61385,str:39075,h:0,d0:0,d1:16256;
+                        (0.5f, Expression<Float> @:3158 check:61385,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:39077,h:0,d0:0,d1:16128;))))
+            (____, BuiltinInvocation<Void> @:3159 check:61386,op:557,dt:4,nt:8,next:65535,nextCheck:65535,str:39084,h:0,d0:3160,d1:61387;
+                ("cinematic_show_letterbox", Expression<MethodOrOperator> @:3160 check:61387,op:557,dt:2,nt:9,next:3161,nextCheck:61388,str:8648,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:3161 check:61388,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:39110,h:0,d0:65280,d1:65535;))))))

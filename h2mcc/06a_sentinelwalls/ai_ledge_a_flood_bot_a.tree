@@ -1,14 +1,14 @@
 
-("ai_ledge_a_flood_bot_a", MethodDecl<Void> @:309 op:0,dt:0,nt:65535,next:14747,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:14747 op:0,dt:4,nt:8,next:65535,str:16303,d0:14748,d1:40208;
-        ("begin", Expression<MethodOrOperator> @:14748 op:0,dt:2,nt:9,next:14737,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:14737 op:21,dt:4,nt:8,next:14744,str:16344,d0:14738,d1:40198;
-                ("sleep_until", Expression<MethodOrOperator> @:14738 op:21,dt:2,nt:9,next:14739,str:231,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:14739 op:33,dt:5,nt:8,next:65535,str:16357,d0:14740,d1:40200;
-                        ("volume_test_objects", Expression<MethodOrOperator> @:14740 op:33,dt:2,nt:9,next:14741,str:11664,d0:0,d1:0;
-                            ("tv_ledge_a_bot_a", Expression<Trigger> @:14741 op:13,dt:13,nt:9,next:14742,str:24327,d0:48,d1:0;
-                                (____, BuiltinInvocation<List> @:14742 op:28,dt:31,nt:8,next:65535,str:16395,d0:14743,d1:40203;
-                                    ("players", Expression<MethodOrOperator> @:14743 op:28,dt:2,nt:9,next:65535,str:21,d0:0,d1:0;)))))))
-            (____, BuiltinInvocation<Void> @:14744 op:290,dt:4,nt:8,next:65535,str:16409,d0:14745,d1:40205;
-                ("ai_place", Expression<MethodOrOperator> @:14745 op:290,dt:2,nt:9,next:14746,str:1415,d0:0,d1:0;
-                    ("ledge_a_flood_bot_a", Expression<AI> @:14746 op:19,dt:19,nt:9,next:65535,str:24578,d0:60,d1:0;))))))
+("ai_ledge_a_flood_bot_a", MethodDecl<Void> @:309 check:0,op:0,dt:0,nt:65535,next:14747,nextCheck:40207,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:14747 check:40207,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:16303,h:2,d0:14748,d1:40208;
+        ("begin", Expression<MethodOrOperator> @:14748 check:40208,op:0,dt:2,nt:9,next:14737,nextCheck:40197,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:14737 check:40197,op:21,dt:4,nt:8,next:14744,nextCheck:40204,str:16344,h:2,d0:14738,d1:40198;
+                ("sleep_until", Expression<MethodOrOperator> @:14738 check:40198,op:21,dt:2,nt:9,next:14739,nextCheck:40199,str:231,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:14739 check:40199,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:16357,h:2,d0:14740,d1:40200;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:14740 check:40200,op:33,dt:2,nt:9,next:14741,nextCheck:40201,str:11664,h:0,d0:0,d1:0;
+                            ("tv_ledge_a_bot_a", Expression<Trigger> @:14741 check:40201,op:13,dt:13,nt:9,next:14742,nextCheck:40202,str:24327,h:0,d0:48,d1:0;
+                                (____, BuiltinInvocation<List> @:14742 check:40202,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:16395,h:2,d0:14743,d1:40203;
+                                    ("players", Expression<MethodOrOperator> @:14743 check:40203,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:21,h:0,d0:0,d1:0;)))))))
+            (____, BuiltinInvocation<Void> @:14744 check:40204,op:290,dt:4,nt:8,next:65535,nextCheck:65535,str:16409,h:2,d0:14745,d1:40205;
+                ("ai_place", Expression<MethodOrOperator> @:14745 check:40205,op:290,dt:2,nt:9,next:14746,nextCheck:40206,str:1415,h:0,d0:0,d1:0;
+                    ("ledge_a_flood_bot_a", Expression<AI> @:14746 check:40206,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:24578,h:0,d0:60,d1:0;))))))

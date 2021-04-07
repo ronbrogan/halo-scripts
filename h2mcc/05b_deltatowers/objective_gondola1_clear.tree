@@ -1,13 +1,13 @@
 
-("objective_gondola1_clear", MethodDecl<Void> @:114 op:0,dt:0,nt:65535,next:3310,str:19383,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3310 op:0,dt:4,nt:8,next:65535,str:40566,d0:3311,d1:61538;
-        ("begin", Expression<MethodOrOperator> @:3311 op:0,dt:2,nt:9,next:3301,str:142,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3301 op:27,dt:4,nt:8,next:3304,str:40620,d0:3302,d1:61529;
-                ("print", Expression<MethodOrOperator> @:3302 op:27,dt:2,nt:9,next:3303,str:227,d0:0,d1:0;
-                    ("objective complete:", Expression<String> @:3303 op:9,dt:9,nt:9,next:65535,str:8788,d0:8788,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3304 op:27,dt:4,nt:8,next:3307,str:40663,d0:3305,d1:61532;
-                ("print", Expression<MethodOrOperator> @:3305 op:27,dt:2,nt:9,next:3306,str:227,d0:0,d1:0;
-                    ("ride the gondola to the far towers.", Expression<String> @:3306 op:9,dt:9,nt:9,next:65535,str:8832,d0:8832,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3307 op:754,dt:4,nt:8,next:65535,str:40722,d0:3308,d1:61535;
-                ("objectives_finish_up_to", Expression<MethodOrOperator> @:3308 op:754,dt:2,nt:9,next:3309,str:8808,d0:0,d1:0;
-                    (1, Expression<Int> @:3309 op:8,dt:8,nt:9,next:65535,str:40747,d0:1,d1:0;))))))
+("objective_gondola1_clear", MethodDecl<Void> @:114 check:0,op:0,dt:0,nt:65535,next:3310,nextCheck:61537,str:19383,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3310 check:61537,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:40566,h:0,d0:3311,d1:61538;
+        ("begin", Expression<MethodOrOperator> @:3311 check:61538,op:0,dt:2,nt:9,next:3301,nextCheck:61528,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3301 check:61528,op:27,dt:4,nt:8,next:3304,nextCheck:61531,str:40620,h:0,d0:3302,d1:61529;
+                ("print", Expression<MethodOrOperator> @:3302 check:61529,op:27,dt:2,nt:9,next:3303,nextCheck:61530,str:227,h:0,d0:0,d1:0;
+                    ("objective complete:", Expression<String> @:3303 check:61530,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8788,h:0,d0:8788,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3304 check:61531,op:27,dt:4,nt:8,next:3307,nextCheck:61534,str:40663,h:0,d0:3305,d1:61532;
+                ("print", Expression<MethodOrOperator> @:3305 check:61532,op:27,dt:2,nt:9,next:3306,nextCheck:61533,str:227,h:0,d0:0,d1:0;
+                    ("ride the gondola to the far towers.", Expression<String> @:3306 check:61533,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8832,h:0,d0:8832,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3307 check:61534,op:754,dt:4,nt:8,next:65535,nextCheck:65535,str:40722,h:0,d0:3308,d1:61535;
+                ("objectives_finish_up_to", Expression<MethodOrOperator> @:3308 check:61535,op:754,dt:2,nt:9,next:3309,nextCheck:61536,str:8808,h:0,d0:0,d1:0;
+                    (1, Expression<Int> @:3309 check:61536,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:40747,h:0,d0:1,d1:0;))))))

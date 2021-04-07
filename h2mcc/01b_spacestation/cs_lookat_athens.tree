@@ -1,17 +1,17 @@
 
-("cs_lookat_athens", MethodDecl<Void> @:343 op:0,dt:0,nt:65535,next:15376,str:36063,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:15376 op:0,dt:4,nt:8,next:65535,str:57606,d0:15377,d1:40837;
-        ("begin", Expression<MethodOrOperator> @:15377 op:0,dt:2,nt:9,next:15363,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:15363 op:448,dt:4,nt:8,next:15366,str:57648,d0:15364,d1:40824;
-                ("cs_force_combat_status", Expression<MethodOrOperator> @:15364 op:448,dt:2,nt:9,next:15365,str:15913,d0:0,d1:0;
-                    (2, Expression<Short> @:15365 op:7,dt:7,nt:9,next:65535,str:57672,d0:2,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:15366 op:401,dt:4,nt:8,next:15370,str:57677,d0:15367,d1:40827;
-                ("cs_face_object", Expression<MethodOrOperator> @:15367 op:401,dt:2,nt:9,next:15368,str:31954,d0:0,d1:0;
-                    (True, Expression<Boolean> @:15368 op:5,dt:5,nt:9,next:15369,str:57693,d0:65281,d1:65535;
-                        (4294901771, Expression<Entity> @:15369 op:56,dt:50,nt:9,next:65535,str:36044,d0:11,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:15370 op:386,dt:4,nt:8,next:15374,str:57705,d0:15371,d1:40831;
-                ("cs_go_to", Expression<MethodOrOperator> @:15371 op:386,dt:2,nt:9,next:15372,str:15967,d0:0,d1:0;
-                    ("bay2/window", Expression<SpatialPoint> @:15372 op:28,dt:28,nt:9,next:15373,str:36051,d0:0,d1:2;
-                        (1f, Expression<Float> @:15373 op:6,dt:6,nt:9,next:65535,str:57727,d0:0,d1:16256;))))
-            (____, BuiltinInvocation<Void> @:15374 op:20,dt:4,nt:8,next:65535,str:57732,d0:15375,d1:40835;
-                ("sleep_forever", Expression<MethodOrOperator> @:15375 op:20,dt:2,nt:9,next:65535,str:27349,d0:0,d1:0;)))))
+("cs_lookat_athens", MethodDecl<Void> @:343 check:0,op:0,dt:0,nt:65535,next:15376,nextCheck:40836,str:36063,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:15376 check:40836,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:57606,h:2,d0:15377,d1:40837;
+        ("begin", Expression<MethodOrOperator> @:15377 check:40837,op:0,dt:2,nt:9,next:15363,nextCheck:40823,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:15363 check:40823,op:448,dt:4,nt:8,next:15366,nextCheck:40826,str:57648,h:2,d0:15364,d1:40824;
+                ("cs_force_combat_status", Expression<MethodOrOperator> @:15364 check:40824,op:448,dt:2,nt:9,next:15365,nextCheck:40825,str:15913,h:0,d0:0,d1:0;
+                    (2, Expression<Short> @:15365 check:40825,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:57672,h:2,d0:2,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:15366 check:40826,op:401,dt:4,nt:8,next:15370,nextCheck:40830,str:57677,h:2,d0:15367,d1:40827;
+                ("cs_face_object", Expression<MethodOrOperator> @:15367 check:40827,op:401,dt:2,nt:9,next:15368,nextCheck:40828,str:31954,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15368 check:40828,op:5,dt:5,nt:9,next:15369,nextCheck:40829,str:57693,h:2,d0:65281,d1:65535;
+                        (4294901771, Expression<Entity> @:15369 check:40829,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:36044,h:0,d0:11,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:15370 check:40830,op:386,dt:4,nt:8,next:15374,nextCheck:40834,str:57705,h:2,d0:15371,d1:40831;
+                ("cs_go_to", Expression<MethodOrOperator> @:15371 check:40831,op:386,dt:2,nt:9,next:15372,nextCheck:40832,str:15967,h:0,d0:0,d1:0;
+                    ("bay2/window", Expression<SpatialPoint> @:15372 check:40832,op:28,dt:28,nt:9,next:15373,nextCheck:40833,str:36051,h:0,d0:0,d1:2;
+                        (1f, Expression<Float> @:15373 check:40833,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:57727,h:2,d0:0,d1:16256;))))
+            (____, BuiltinInvocation<Void> @:15374 check:40834,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:57732,h:2,d0:15375,d1:40835;
+                ("sleep_forever", Expression<MethodOrOperator> @:15375 check:40835,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:27349,h:0,d0:0,d1:0;)))))

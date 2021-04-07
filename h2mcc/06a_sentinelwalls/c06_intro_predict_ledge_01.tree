@@ -1,20 +1,20 @@
 
-("c06_intro_predict_ledge_01", MethodDecl<Void> @:132 op:0,dt:0,nt:65535,next:4302,str:10569,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4302 op:0,dt:4,nt:8,next:65535,str:49937,d0:4303,d1:62530;
-        ("begin", Expression<MethodOrOperator> @:4303 op:0,dt:2,nt:9,next:4286,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4286 op:19,dt:4,nt:8,next:4289,str:49982,d0:4287,d1:62514;
-                ("sleep", Expression<MethodOrOperator> @:4287 op:19,dt:2,nt:9,next:4288,str:80,d0:0,d1:0;
-                    (145, Expression<Short> @:4288 op:7,dt:7,nt:9,next:65535,str:49989,d0:145,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:4289 op:27,dt:4,nt:8,next:4292,str:49996,d0:4290,d1:62517;
-                ("print", Expression<MethodOrOperator> @:4290 op:27,dt:2,nt:9,next:4291,str:86,d0:0,d1:0;
-                    ("predict: camera, dervish", Expression<String> @:4291 op:9,dt:9,nt:9,next:65535,str:10135,d0:10135,d1:0;)))
-            (____, BuiltinInvocation<Void> @:4292 op:102,dt:4,nt:8,next:4295,str:50033,d0:4293,d1:62520;
-                ("object_type_predict_high", Expression<MethodOrOperator> @:4293 op:102,dt:2,nt:9,next:4294,str:10160,d0:0,d1:0;
-                    ("objects\characters\dervish\dervish", Expression<TagReference> @:4294 op:38,dt:38,nt:9,next:65535,str:10185,d0:878,d1:58596;)))
-            (____, BuiltinInvocation<Void> @:4295 op:455,dt:4,nt:8,next:65535,str:50097,d0:4296,d1:62523;
-                ("camera_predict_resources_at_frame", Expression<MethodOrOperator> @:4296 op:455,dt:2,nt:9,next:4297,str:10220,d0:0,d1:0;
-                    ("objects\characters\cinematic_camera\06_intro\06_intro", Expression<Animation> @:4297 op:36,dt:36,nt:9,next:4298,str:8935,d0:867,d1:58585;
-                        ("06_intro_02", Expression<StringId> @:4298 op:11,dt:11,nt:9,next:4299,str:10254,d0:3931,d1:2816;
-                            ("none", Expression<Unit> @:4299 op:51,dt:51,nt:9,next:4300,str:1694,d0:65535,d1:65535;
-                                ("anchor_flag_intro", Expression<LocationFlag> @:4300 op:14,dt:14,nt:9,next:4301,str:9001,d0:0,d1:0;
-                                    (165, Expression<Int> @:4301 op:8,dt:8,nt:9,next:65535,str:50223,d0:165,d1:0;))))))))))
+("c06_intro_predict_ledge_01", MethodDecl<Void> @:132 check:0,op:0,dt:0,nt:65535,next:4302,nextCheck:62529,str:10569,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4302 check:62529,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:49937,h:0,d0:4303,d1:62530;
+        ("begin", Expression<MethodOrOperator> @:4303 check:62530,op:0,dt:2,nt:9,next:4286,nextCheck:62513,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4286 check:62513,op:19,dt:4,nt:8,next:4289,nextCheck:62516,str:49982,h:0,d0:4287,d1:62514;
+                ("sleep", Expression<MethodOrOperator> @:4287 check:62514,op:19,dt:2,nt:9,next:4288,nextCheck:62515,str:80,h:0,d0:0,d1:0;
+                    (145, Expression<Short> @:4288 check:62515,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:49989,h:0,d0:145,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:4289 check:62516,op:27,dt:4,nt:8,next:4292,nextCheck:62519,str:49996,h:0,d0:4290,d1:62517;
+                ("print", Expression<MethodOrOperator> @:4290 check:62517,op:27,dt:2,nt:9,next:4291,nextCheck:62518,str:86,h:0,d0:0,d1:0;
+                    ("predict: camera, dervish", Expression<String> @:4291 check:62518,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:10135,h:0,d0:10135,d1:0;)))
+            (____, BuiltinInvocation<Void> @:4292 check:62519,op:102,dt:4,nt:8,next:4295,nextCheck:62522,str:50033,h:0,d0:4293,d1:62520;
+                ("object_type_predict_high", Expression<MethodOrOperator> @:4293 check:62520,op:102,dt:2,nt:9,next:4294,nextCheck:62521,str:10160,h:0,d0:0,d1:0;
+                    ("objects\characters\dervish\dervish", Expression<TagReference> @:4294 check:62521,op:38,dt:38,nt:9,next:65535,nextCheck:65535,str:10185,h:0,d0:878,d1:58596;)))
+            (____, BuiltinInvocation<Void> @:4295 check:62522,op:455,dt:4,nt:8,next:65535,nextCheck:65535,str:50097,h:0,d0:4296,d1:62523;
+                ("camera_predict_resources_at_frame", Expression<MethodOrOperator> @:4296 check:62523,op:455,dt:2,nt:9,next:4297,nextCheck:62524,str:10220,h:0,d0:0,d1:0;
+                    ("objects\characters\cinematic_camera\06_intro\06_intro", Expression<Animation> @:4297 check:62524,op:36,dt:36,nt:9,next:4298,nextCheck:62525,str:8935,h:0,d0:867,d1:58585;
+                        ("06_intro_02", Expression<StringId> @:4298 check:62525,op:11,dt:11,nt:9,next:4299,nextCheck:62526,str:10254,h:0,d0:3931,d1:2816;
+                            ("none", Expression<Unit> @:4299 check:62526,op:51,dt:51,nt:9,next:4300,nextCheck:62527,str:1694,h:0,d0:65535,d1:65535;
+                                ("anchor_flag_intro", Expression<LocationFlag> @:4300 check:62527,op:14,dt:14,nt:9,next:4301,nextCheck:62528,str:9001,h:0,d0:0,d1:0;
+                                    (165, Expression<Int> @:4301 check:62528,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:50223,h:0,d0:165,d1:0;))))))))))

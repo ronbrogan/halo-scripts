@@ -1,17 +1,17 @@
 
-("x05_0280_mir", MethodDecl<Void> @:107 op:0,dt:0,nt:65535,next:3211,str:7804,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3211 op:0,dt:4,nt:8,next:65535,str:37799,d0:3212,d1:61439;
-        ("begin", Expression<MethodOrOperator> @:3212 op:0,dt:2,nt:9,next:3198,str:54,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3198 op:19,dt:4,nt:8,next:3201,str:37830,d0:3199,d1:61426;
-                ("sleep", Expression<MethodOrOperator> @:3199 op:19,dt:2,nt:9,next:3200,str:133,d0:0,d1:0;
-                    (225, Expression<Short> @:3200 op:7,dt:7,nt:9,next:65535,str:37837,d0:225,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3201 op:598,dt:4,nt:8,next:3207,str:37844,d0:3202,d1:61429;
-                ("sound_impulse_start_effect", Expression<MethodOrOperator> @:3202 op:598,dt:2,nt:9,next:3203,str:3061,d0:0,d1:0;
-                    ("sound\dialog\levels\05_deltatemple\cinematics\x05_0280_mir", Expression<Sound> @:3203 op:32,dt:32,nt:9,next:3204,str:7745,d0:973,d1:58691;
-                        (4294967295, Expression<Entity> @:3204 op:50,dt:50,nt:9,next:3205,str:1392,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:3205 op:6,dt:6,nt:9,next:3206,str:37936,d0:0,d1:16256;
-                                ("radio_default_out", Expression<StringId> @:3206 op:11,dt:11,nt:9,next:65535,str:3236,d0:14219,d1:4352;))))))
-            (____, BuiltinInvocation<Void> @:3207 op:562,dt:4,nt:8,next:65535,str:37959,d0:3208,d1:61435;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:3208 op:562,dt:2,nt:9,next:3209,str:2567,d0:0,d1:0;
-                    ("x05_0280_mir", Expression<StringId> @:3209 op:11,dt:11,nt:9,next:3210,str:7804,d0:5094,d1:3072;
-                        (2f, Expression<Float> @:3210 op:6,dt:6,nt:9,next:65535,str:37992,d0:0,d1:16384;)))))))
+("x05_0280_mir", MethodDecl<Void> @:107 check:0,op:0,dt:0,nt:65535,next:3211,nextCheck:61438,str:7804,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3211 check:61438,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:37799,h:0,d0:3212,d1:61439;
+        ("begin", Expression<MethodOrOperator> @:3212 check:61439,op:0,dt:2,nt:9,next:3198,nextCheck:61425,str:54,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3198 check:61425,op:19,dt:4,nt:8,next:3201,nextCheck:61428,str:37830,h:0,d0:3199,d1:61426;
+                ("sleep", Expression<MethodOrOperator> @:3199 check:61426,op:19,dt:2,nt:9,next:3200,nextCheck:61427,str:133,h:0,d0:0,d1:0;
+                    (225, Expression<Short> @:3200 check:61427,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:37837,h:0,d0:225,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3201 check:61428,op:598,dt:4,nt:8,next:3207,nextCheck:61434,str:37844,h:0,d0:3202,d1:61429;
+                ("sound_impulse_start_effect", Expression<MethodOrOperator> @:3202 check:61429,op:598,dt:2,nt:9,next:3203,nextCheck:61430,str:3061,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\05_deltatemple\cinematics\x05_0280_mir", Expression<Sound> @:3203 check:61430,op:32,dt:32,nt:9,next:3204,nextCheck:61431,str:7745,h:0,d0:973,d1:58691;
+                        (4294967295, Expression<Entity> @:3204 check:61431,op:50,dt:50,nt:9,next:3205,nextCheck:61432,str:1392,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:3205 check:61432,op:6,dt:6,nt:9,next:3206,nextCheck:61433,str:37936,h:0,d0:0,d1:16256;
+                                ("radio_default_out", Expression<StringId> @:3206 check:61433,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:3236,h:0,d0:14219,d1:4352;))))))
+            (____, BuiltinInvocation<Void> @:3207 check:61434,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:37959,h:0,d0:3208,d1:61435;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:3208 check:61435,op:562,dt:2,nt:9,next:3209,nextCheck:61436,str:2567,h:0,d0:0,d1:0;
+                    ("x05_0280_mir", Expression<StringId> @:3209 check:61436,op:11,dt:11,nt:9,next:3210,nextCheck:61437,str:7804,h:0,d0:5094,d1:3072;
+                        (2f, Expression<Float> @:3210 check:61437,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:37992,h:0,d0:0,d1:16384;)))))))

@@ -1,24 +1,24 @@
 
-("long_pause_point", MethodDecl<Void> @:340 op:0,dt:0,nt:65535,next:22902,str:35458,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:22902 op:0,dt:4,nt:8,next:65535,str:58730,d0:22903,d1:48363;
-        ("begin", Expression<MethodOrOperator> @:22903 op:0,dt:2,nt:9,next:22882,str:54,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:22882 op:21,dt:4,nt:8,next:22890,str:58772,d0:22883,d1:48343;
-                ("sleep_until", Expression<MethodOrOperator> @:22883 op:21,dt:2,nt:9,next:22884,str:284,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:22884 op:15,dt:5,nt:8,next:65535,str:58785,d0:22885,d1:48345;
-                        (">", Expression<MethodOrOperator> @:22885 op:15,dt:2,nt:9,next:22886,str:14341,d0:0,d1:0;
-                            (____, BuiltinInvocation<Short> @:22886 op:353,dt:7,nt:8,next:22889,str:58788,d0:22887,d1:48347;
-                                ("ai_combat_status", Expression<MethodOrOperator> @:22887 op:353,dt:2,nt:9,next:22888,str:20607,d0:0,d1:0;
-                                    ("ai_current_actor", VariableAccess<AI> @:22888 op:19,dt:19,nt:13,next:65535,str:20624,d0:33564,d1:65535;)))
-                            ("ai_combat_status_idle", VariableAccess<Short> @:22889 op:7,dt:7,nt:13,next:65535,str:20641,d0:33572,d1:65535;)))))
-            (____, BuiltinInvocation<Void> @:22890 op:397,dt:4,nt:8,next:22893,str:58850,d0:22891,d1:48351;
-                ("cs_aim_player", Expression<MethodOrOperator> @:22891 op:397,dt:2,nt:9,next:22892,str:35353,d0:0,d1:0;
-                    (True, Expression<Boolean> @:22892 op:5,dt:5,nt:9,next:65535,str:58865,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:22893 op:416,dt:4,nt:8,next:22899,str:58873,d0:22894,d1:48354;
-                ("cs_custom_animation", Expression<MethodOrOperator> @:22894 op:416,dt:2,nt:9,next:22895,str:35367,d0:0,d1:0;
-                    ("objects\characters\elite\elite", Expression<Animation> @:22895 op:36,dt:36,nt:9,next:22896,str:27997,d0:6980,d1:64891;
-                        ("combat:rifle:warn", Expression<StringId> @:22896 op:11,dt:11,nt:9,next:22897,str:35387,d0:9983,d1:4352;
-                            (1f, Expression<Float> @:22897 op:6,dt:6,nt:9,next:22898,str:58945,d0:0,d1:16256;
-                                (True, Expression<Boolean> @:22898 op:5,dt:5,nt:9,next:65535,str:58947,d0:65281,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:22899 op:397,dt:4,nt:8,next:65535,str:58955,d0:22900,d1:48360;
-                ("cs_aim_player", Expression<MethodOrOperator> @:22900 op:397,dt:2,nt:9,next:22901,str:35353,d0:0,d1:0;
-                    (False, Expression<Boolean> @:22901 op:5,dt:5,nt:9,next:65535,str:58970,d0:65280,d1:65535;))))))
+("long_pause_point", MethodDecl<Void> @:340 check:0,op:0,dt:0,nt:65535,next:22902,nextCheck:48362,str:35458,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:22902 check:48362,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:58730,h:3,d0:22903,d1:48363;
+        ("begin", Expression<MethodOrOperator> @:22903 check:48363,op:0,dt:2,nt:9,next:22882,nextCheck:48342,str:54,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:22882 check:48342,op:21,dt:4,nt:8,next:22890,nextCheck:48350,str:58772,h:3,d0:22883,d1:48343;
+                ("sleep_until", Expression<MethodOrOperator> @:22883 check:48343,op:21,dt:2,nt:9,next:22884,nextCheck:48344,str:284,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:22884 check:48344,op:15,dt:5,nt:8,next:65535,nextCheck:65535,str:58785,h:3,d0:22885,d1:48345;
+                        (">", Expression<MethodOrOperator> @:22885 check:48345,op:15,dt:2,nt:9,next:22886,nextCheck:48346,str:14341,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Short> @:22886 check:48346,op:353,dt:7,nt:8,next:22889,nextCheck:48349,str:58788,h:3,d0:22887,d1:48347;
+                                ("ai_combat_status", Expression<MethodOrOperator> @:22887 check:48347,op:353,dt:2,nt:9,next:22888,nextCheck:48348,str:20607,h:0,d0:0,d1:0;
+                                    ("ai_current_actor", VariableAccess<AI> @:22888 check:48348,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:20624,h:0,d0:33564,d1:65535;)))
+                            ("ai_combat_status_idle", VariableAccess<Short> @:22889 check:48349,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:20641,h:0,d0:33572,d1:65535;)))))
+            (____, BuiltinInvocation<Void> @:22890 check:48350,op:397,dt:4,nt:8,next:22893,nextCheck:48353,str:58850,h:3,d0:22891,d1:48351;
+                ("cs_aim_player", Expression<MethodOrOperator> @:22891 check:48351,op:397,dt:2,nt:9,next:22892,nextCheck:48352,str:35353,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:22892 check:48352,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:58865,h:3,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:22893 check:48353,op:416,dt:4,nt:8,next:22899,nextCheck:48359,str:58873,h:3,d0:22894,d1:48354;
+                ("cs_custom_animation", Expression<MethodOrOperator> @:22894 check:48354,op:416,dt:2,nt:9,next:22895,nextCheck:48355,str:35367,h:0,d0:0,d1:0;
+                    ("objects\characters\elite\elite", Expression<Animation> @:22895 check:48355,op:36,dt:36,nt:9,next:22896,nextCheck:48356,str:27997,h:0,d0:6980,d1:64891;
+                        ("combat:rifle:warn", Expression<StringId> @:22896 check:48356,op:11,dt:11,nt:9,next:22897,nextCheck:48357,str:35387,h:0,d0:9983,d1:4352;
+                            (1f, Expression<Float> @:22897 check:48357,op:6,dt:6,nt:9,next:22898,nextCheck:48358,str:58945,h:3,d0:0,d1:16256;
+                                (True, Expression<Boolean> @:22898 check:48358,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:58947,h:3,d0:65281,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:22899 check:48359,op:397,dt:4,nt:8,next:65535,nextCheck:65535,str:58955,h:3,d0:22900,d1:48360;
+                ("cs_aim_player", Expression<MethodOrOperator> @:22900 check:48360,op:397,dt:2,nt:9,next:22901,nextCheck:48361,str:35353,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:22901 check:48361,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:58970,h:3,d0:65280,d1:65535;))))))

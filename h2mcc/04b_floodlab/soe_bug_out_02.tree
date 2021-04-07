@@ -1,26 +1,26 @@
 
-("soe_bug_out_02", MethodDecl<Void> @:247 op:0,dt:0,nt:65535,next:11253,str:23747,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:11253 op:0,dt:4,nt:8,next:65535,str:54999,d0:11254,d1:36714;
-        ("begin", Expression<MethodOrOperator> @:11254 op:0,dt:2,nt:9,next:11231,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:11231 op:21,dt:4,nt:8,next:11237,str:55039,d0:11232,d1:36692;
-                ("sleep_until", Expression<MethodOrOperator> @:11232 op:21,dt:2,nt:9,next:11233,str:440,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:11233 op:13,dt:5,nt:8,next:65535,str:55052,d0:11234,d1:36694;
-                        ("=", Expression<MethodOrOperator> @:11234 op:13,dt:2,nt:9,next:11235,str:505,d0:0,d1:0;
-                            ("comm_farewell_done", VariableAccess<Boolean> @:11235 op:0,dt:5,nt:13,next:11236,str:21981,d0:24,d1:0;
-                                (True, Expression<Boolean> @:11236 op:5,dt:5,nt:9,next:65535,str:55074,d0:65281,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:11237 op:19,dt:4,nt:8,next:11240,str:55083,d0:11238,d1:36698;
-                ("sleep", Expression<MethodOrOperator> @:11238 op:19,dt:2,nt:9,next:11239,str:289,d0:0,d1:0;
-                    (120, Expression<Short> @:11239 op:7,dt:7,nt:9,next:65535,str:55090,d0:120,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:11240 op:27,dt:4,nt:8,next:11243,str:55097,d0:11241,d1:36701;
-                ("print", Expression<MethodOrOperator> @:11241 op:27,dt:2,nt:9,next:11242,str:295,d0:0,d1:0;
-                    ("spec-ops elite: 'we shall not forget your sacrifice!'", Expression<String> @:11242 op:9,dt:9,nt:9,next:65535,str:22363,d0:22363,d1:0;)))
-            (____, BuiltinInvocation<Void> @:11243 op:418,dt:4,nt:8,next:11246,str:55163,d0:11244,d1:36704;
-                ("cs_play_line", Expression<MethodOrOperator> @:11244 op:418,dt:2,nt:9,next:11245,str:11547,d0:0,d1:0;
-                    ("0160", Expression<StringId> @:11245 op:11,dt:11,nt:9,next:65535,str:22417,d0:12221,d1:1024;)))
-            (____, BuiltinInvocation<Void> @:11246 op:19,dt:4,nt:8,next:11249,str:55185,d0:11247,d1:36707;
-                ("sleep", Expression<MethodOrOperator> @:11247 op:19,dt:2,nt:9,next:11248,str:289,d0:0,d1:0;
-                    (15, Expression<Short> @:11248 op:7,dt:7,nt:9,next:65535,str:55192,d0:15,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:11249 op:4,dt:4,nt:8,next:65535,str:55198,d0:11250,d1:36710;
-                ("set", Expression<MethodOrOperator> @:11250 op:4,dt:2,nt:9,next:11251,str:2644,d0:0,d1:0;
-                    ("soe_farewell_done", VariableAccess<Boolean> @:11251 op:65535,dt:5,nt:13,next:11252,str:22000,d0:25,d1:0;
-                        (True, Expression<Boolean> @:11252 op:5,dt:5,nt:9,next:65535,str:55221,d0:65281,d1:65535;)))))))
+("soe_bug_out_02", MethodDecl<Void> @:247 check:0,op:0,dt:0,nt:65535,next:11253,nextCheck:36713,str:23747,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:11253 check:36713,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:54999,h:1,d0:11254,d1:36714;
+        ("begin", Expression<MethodOrOperator> @:11254 check:36714,op:0,dt:2,nt:9,next:11231,nextCheck:36691,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:11231 check:36691,op:21,dt:4,nt:8,next:11237,nextCheck:36697,str:55039,h:1,d0:11232,d1:36692;
+                ("sleep_until", Expression<MethodOrOperator> @:11232 check:36692,op:21,dt:2,nt:9,next:11233,nextCheck:36693,str:440,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:11233 check:36693,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:55052,h:1,d0:11234,d1:36694;
+                        ("=", Expression<MethodOrOperator> @:11234 check:36694,op:13,dt:2,nt:9,next:11235,nextCheck:36695,str:505,h:0,d0:0,d1:0;
+                            ("comm_farewell_done", VariableAccess<Boolean> @:11235 check:36695,op:0,dt:5,nt:13,next:11236,nextCheck:36696,str:21981,h:0,d0:24,d1:0;
+                                (True, Expression<Boolean> @:11236 check:36696,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:55074,h:1,d0:65281,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:11237 check:36697,op:19,dt:4,nt:8,next:11240,nextCheck:36700,str:55083,h:1,d0:11238,d1:36698;
+                ("sleep", Expression<MethodOrOperator> @:11238 check:36698,op:19,dt:2,nt:9,next:11239,nextCheck:36699,str:289,h:0,d0:0,d1:0;
+                    (120, Expression<Short> @:11239 check:36699,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55090,h:1,d0:120,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:11240 check:36700,op:27,dt:4,nt:8,next:11243,nextCheck:36703,str:55097,h:1,d0:11241,d1:36701;
+                ("print", Expression<MethodOrOperator> @:11241 check:36701,op:27,dt:2,nt:9,next:11242,nextCheck:36702,str:295,h:0,d0:0,d1:0;
+                    ("spec-ops elite: 'we shall not forget your sacrifice!'", Expression<String> @:11242 check:36702,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:22363,h:0,d0:22363,d1:0;)))
+            (____, BuiltinInvocation<Void> @:11243 check:36703,op:418,dt:4,nt:8,next:11246,nextCheck:36706,str:55163,h:1,d0:11244,d1:36704;
+                ("cs_play_line", Expression<MethodOrOperator> @:11244 check:36704,op:418,dt:2,nt:9,next:11245,nextCheck:36705,str:11547,h:0,d0:0,d1:0;
+                    ("0160", Expression<StringId> @:11245 check:36705,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:22417,h:0,d0:12221,d1:1024;)))
+            (____, BuiltinInvocation<Void> @:11246 check:36706,op:19,dt:4,nt:8,next:11249,nextCheck:36709,str:55185,h:1,d0:11247,d1:36707;
+                ("sleep", Expression<MethodOrOperator> @:11247 check:36707,op:19,dt:2,nt:9,next:11248,nextCheck:36708,str:289,h:0,d0:0,d1:0;
+                    (15, Expression<Short> @:11248 check:36708,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:55192,h:1,d0:15,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:11249 check:36709,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:55198,h:1,d0:11250,d1:36710;
+                ("set", Expression<MethodOrOperator> @:11250 check:36710,op:4,dt:2,nt:9,next:11251,nextCheck:36711,str:2644,h:0,d0:0,d1:0;
+                    ("soe_farewell_done", VariableAccess<Boolean> @:11251 check:36711,op:65535,dt:5,nt:13,next:11252,nextCheck:36712,str:22000,h:0,d0:25,d1:0;
+                        (True, Expression<Boolean> @:11252 check:36712,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:55221,h:1,d0:65281,d1:65535;)))))))

@@ -1,21 +1,21 @@
 
-("e22_scarab_appearance_events", MethodDecl<Void> @:289 op:0,dt:0,nt:65535,next:10076,str:20751,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:10076 op:0,dt:4,nt:8,next:65535,str:60023,d0:10077,d1:35537;
-        ("begin", Expression<MethodOrOperator> @:10077 op:0,dt:2,nt:9,next:10059,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:10059 op:19,dt:4,nt:8,next:10062,str:60116,d0:10060,d1:35520;
-                ("sleep", Expression<MethodOrOperator> @:10060 op:19,dt:2,nt:9,next:10061,str:85,d0:0,d1:0;
-                    (60, Expression<Short> @:10061 op:7,dt:7,nt:9,next:65535,str:60123,d0:60,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10062 op:4,dt:4,nt:8,next:10066,str:60129,d0:10063,d1:35523;
-                ("set", Expression<MethodOrOperator> @:10063 op:4,dt:2,nt:9,next:10064,str:2724,d0:0,d1:0;
-                    ("g_e22_scarab_visible", VariableAccess<Boolean> @:10064 op:65535,dt:5,nt:13,next:10065,str:20002,d0:27,d1:0;
-                        (True, Expression<Boolean> @:10065 op:5,dt:5,nt:9,next:65535,str:60155,d0:65281,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:10066 op:19,dt:4,nt:8,next:10069,str:60163,d0:10067,d1:35527;
-                ("sleep", Expression<MethodOrOperator> @:10067 op:19,dt:2,nt:9,next:10068,str:85,d0:0,d1:0;
-                    (180, Expression<Short> @:10068 op:7,dt:7,nt:9,next:65535,str:60170,d0:180,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10069 op:4,dt:4,nt:8,next:10073,str:60177,d0:10070,d1:35530;
-                ("set", Expression<MethodOrOperator> @:10070 op:4,dt:2,nt:9,next:10071,str:2724,d0:0,d1:0;
-                    ("g_e22_scarab_appeared", VariableAccess<Boolean> @:10071 op:65535,dt:5,nt:13,next:10072,str:19867,d0:28,d1:0;
-                        (True, Expression<Boolean> @:10072 op:5,dt:5,nt:9,next:65535,str:60204,d0:65281,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:10073 op:27,dt:4,nt:8,next:65535,str:60212,d0:10074,d1:35534;
-                ("print", Expression<MethodOrOperator> @:10074 op:27,dt:2,nt:9,next:10075,str:91,d0:0,d1:0;
-                    ("g_e22_scarab_appeared ", Expression<String> @:10075 op:9,dt:9,nt:9,next:65535,str:20611,d0:20611,d1:0;))))))
+("e22_scarab_appearance_events", MethodDecl<Void> @:289 check:0,op:0,dt:0,nt:65535,next:10076,nextCheck:35536,str:20751,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:10076 check:35536,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:60023,h:1,d0:10077,d1:35537;
+        ("begin", Expression<MethodOrOperator> @:10077 check:35537,op:0,dt:2,nt:9,next:10059,nextCheck:35519,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:10059 check:35519,op:19,dt:4,nt:8,next:10062,nextCheck:35522,str:60116,h:1,d0:10060,d1:35520;
+                ("sleep", Expression<MethodOrOperator> @:10060 check:35520,op:19,dt:2,nt:9,next:10061,nextCheck:35521,str:85,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:10061 check:35521,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:60123,h:1,d0:60,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10062 check:35522,op:4,dt:4,nt:8,next:10066,nextCheck:35526,str:60129,h:1,d0:10063,d1:35523;
+                ("set", Expression<MethodOrOperator> @:10063 check:35523,op:4,dt:2,nt:9,next:10064,nextCheck:35524,str:2724,h:0,d0:0,d1:0;
+                    ("g_e22_scarab_visible", VariableAccess<Boolean> @:10064 check:35524,op:65535,dt:5,nt:13,next:10065,nextCheck:35525,str:20002,h:0,d0:27,d1:0;
+                        (True, Expression<Boolean> @:10065 check:35525,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:60155,h:1,d0:65281,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:10066 check:35526,op:19,dt:4,nt:8,next:10069,nextCheck:35529,str:60163,h:1,d0:10067,d1:35527;
+                ("sleep", Expression<MethodOrOperator> @:10067 check:35527,op:19,dt:2,nt:9,next:10068,nextCheck:35528,str:85,h:0,d0:0,d1:0;
+                    (180, Expression<Short> @:10068 check:35528,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:60170,h:1,d0:180,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10069 check:35529,op:4,dt:4,nt:8,next:10073,nextCheck:35533,str:60177,h:1,d0:10070,d1:35530;
+                ("set", Expression<MethodOrOperator> @:10070 check:35530,op:4,dt:2,nt:9,next:10071,nextCheck:35531,str:2724,h:0,d0:0,d1:0;
+                    ("g_e22_scarab_appeared", VariableAccess<Boolean> @:10071 check:35531,op:65535,dt:5,nt:13,next:10072,nextCheck:35532,str:19867,h:0,d0:28,d1:0;
+                        (True, Expression<Boolean> @:10072 check:35532,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:60204,h:1,d0:65281,d1:65535;))))
+            (____, BuiltinInvocation<Void> @:10073 check:35533,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:60212,h:1,d0:10074,d1:35534;
+                ("print", Expression<MethodOrOperator> @:10074 check:35534,op:27,dt:2,nt:9,next:10075,nextCheck:35535,str:91,h:0,d0:0,d1:0;
+                    ("g_e22_scarab_appeared ", Expression<String> @:10075 check:35535,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:20611,h:0,d0:20611,d1:0;))))))

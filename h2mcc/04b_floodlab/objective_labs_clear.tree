@@ -1,13 +1,13 @@
 
-("objective_labs_clear", MethodDecl<Void> @:122 op:0,dt:0,nt:65535,next:3890,str:39450,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3890 op:0,dt:4,nt:8,next:65535,str:46195,d0:3891,d1:62118;
-        ("begin", Expression<MethodOrOperator> @:3891 op:0,dt:2,nt:9,next:3881,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3881 op:27,dt:4,nt:8,next:3884,str:46245,d0:3882,d1:62109;
-                ("print", Expression<MethodOrOperator> @:3882 op:27,dt:2,nt:9,next:3883,str:295,d0:0,d1:0;
-                    ("objective complete:", Expression<String> @:3883 op:9,dt:9,nt:9,next:65535,str:9930,d0:9930,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3884 op:27,dt:4,nt:8,next:3887,str:46288,d0:3885,d1:62112;
-                ("print", Expression<MethodOrOperator> @:3885 op:27,dt:2,nt:9,next:3886,str:295,d0:0,d1:0;
-                    ("escape the infested labs.", Expression<String> @:3886 op:9,dt:9,nt:9,next:65535,str:9882,d0:9882,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3887 op:754,dt:4,nt:8,next:65535,str:46337,d0:3888,d1:62115;
-                ("objectives_finish_up_to", Expression<MethodOrOperator> @:3888 op:754,dt:2,nt:9,next:3889,str:9950,d0:0,d1:0;
-                    (0, Expression<Int> @:3889 op:8,dt:8,nt:9,next:65535,str:46362,d0:0,d1:0;))))))
+("objective_labs_clear", MethodDecl<Void> @:122 check:0,op:0,dt:0,nt:65535,next:3890,nextCheck:62117,str:39450,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3890 check:62117,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:46195,h:0,d0:3891,d1:62118;
+        ("begin", Expression<MethodOrOperator> @:3891 check:62118,op:0,dt:2,nt:9,next:3881,nextCheck:62108,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3881 check:62108,op:27,dt:4,nt:8,next:3884,nextCheck:62111,str:46245,h:0,d0:3882,d1:62109;
+                ("print", Expression<MethodOrOperator> @:3882 check:62109,op:27,dt:2,nt:9,next:3883,nextCheck:62110,str:295,h:0,d0:0,d1:0;
+                    ("objective complete:", Expression<String> @:3883 check:62110,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:9930,h:0,d0:9930,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3884 check:62111,op:27,dt:4,nt:8,next:3887,nextCheck:62114,str:46288,h:0,d0:3885,d1:62112;
+                ("print", Expression<MethodOrOperator> @:3885 check:62112,op:27,dt:2,nt:9,next:3886,nextCheck:62113,str:295,h:0,d0:0,d1:0;
+                    ("escape the infested labs.", Expression<String> @:3886 check:62113,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:9882,h:0,d0:9882,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3887 check:62114,op:754,dt:4,nt:8,next:65535,nextCheck:65535,str:46337,h:0,d0:3888,d1:62115;
+                ("objectives_finish_up_to", Expression<MethodOrOperator> @:3888 check:62115,op:754,dt:2,nt:9,next:3889,nextCheck:62116,str:9950,h:0,d0:0,d1:0;
+                    (0, Expression<Int> @:3889 check:62116,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:46362,h:0,d0:0,d1:0;))))))

@@ -1,16 +1,16 @@
 
-("objective_ruins_set", MethodDecl<Void> @:176 op:0,dt:0,nt:65535,next:5962,str:37218,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5962 op:0,dt:4,nt:8,next:65535,str:7716,d0:5963,d1:64190;
-        ("begin", Expression<MethodOrOperator> @:5963 op:0,dt:2,nt:9,next:5950,str:54,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5950 op:19,dt:4,nt:8,next:5953,str:7765,d0:5951,d1:64178;
-                ("sleep", Expression<MethodOrOperator> @:5951 op:19,dt:2,nt:9,next:5952,str:133,d0:0,d1:0;
-                    (30, Expression<Short> @:5952 op:7,dt:7,nt:9,next:65535,str:7772,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5953 op:27,dt:4,nt:8,next:5956,str:7789,d0:5954,d1:64181;
-                ("print", Expression<MethodOrOperator> @:5954 op:27,dt:2,nt:9,next:5955,str:139,d0:0,d1:0;
-                    ("new objective set:", Expression<String> @:5955 op:9,dt:9,nt:9,next:65535,str:13356,d0:13356,d1:0;)))
-            (____, BuiltinInvocation<Void> @:5956 op:27,dt:4,nt:8,next:5959,str:7831,d0:5957,d1:64184;
-                ("print", Expression<MethodOrOperator> @:5957 op:27,dt:2,nt:9,next:5958,str:139,d0:0,d1:0;
-                    ("push through the covenant-held ruins.", Expression<String> @:5958 op:9,dt:9,nt:9,next:65535,str:13522,d0:13522,d1:0;)))
-            (____, BuiltinInvocation<Void> @:5959 op:753,dt:4,nt:8,next:65535,str:7892,d0:5960,d1:64187;
-                ("objectives_show_up_to", Expression<MethodOrOperator> @:5960 op:753,dt:2,nt:9,next:5961,str:13416,d0:0,d1:0;
-                    (2, Expression<Int> @:5961 op:8,dt:8,nt:9,next:65535,str:7915,d0:2,d1:0;))))))
+("objective_ruins_set", MethodDecl<Void> @:176 check:0,op:0,dt:0,nt:65535,next:5962,nextCheck:64189,str:37218,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5962 check:64189,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:7716,h:1,d0:5963,d1:64190;
+        ("begin", Expression<MethodOrOperator> @:5963 check:64190,op:0,dt:2,nt:9,next:5950,nextCheck:64177,str:54,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5950 check:64177,op:19,dt:4,nt:8,next:5953,nextCheck:64180,str:7765,h:1,d0:5951,d1:64178;
+                ("sleep", Expression<MethodOrOperator> @:5951 check:64178,op:19,dt:2,nt:9,next:5952,nextCheck:64179,str:133,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:5952 check:64179,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:7772,h:1,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5953 check:64180,op:27,dt:4,nt:8,next:5956,nextCheck:64183,str:7789,h:1,d0:5954,d1:64181;
+                ("print", Expression<MethodOrOperator> @:5954 check:64181,op:27,dt:2,nt:9,next:5955,nextCheck:64182,str:139,h:0,d0:0,d1:0;
+                    ("new objective set:", Expression<String> @:5955 check:64182,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13356,h:0,d0:13356,d1:0;)))
+            (____, BuiltinInvocation<Void> @:5956 check:64183,op:27,dt:4,nt:8,next:5959,nextCheck:64186,str:7831,h:1,d0:5957,d1:64184;
+                ("print", Expression<MethodOrOperator> @:5957 check:64184,op:27,dt:2,nt:9,next:5958,nextCheck:64185,str:139,h:0,d0:0,d1:0;
+                    ("push through the covenant-held ruins.", Expression<String> @:5958 check:64185,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13522,h:0,d0:13522,d1:0;)))
+            (____, BuiltinInvocation<Void> @:5959 check:64186,op:753,dt:4,nt:8,next:65535,nextCheck:65535,str:7892,h:1,d0:5960,d1:64187;
+                ("objectives_show_up_to", Expression<MethodOrOperator> @:5960 check:64187,op:753,dt:2,nt:9,next:5961,nextCheck:64188,str:13416,h:0,d0:0,d1:0;
+                    (2, Expression<Int> @:5961 check:64188,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:7915,h:1,d0:2,d1:0;))))))

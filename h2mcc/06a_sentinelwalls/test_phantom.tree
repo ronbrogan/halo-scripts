@@ -1,14 +1,14 @@
 
-("test_phantom", MethodDecl<Void> @:268 op:0,dt:0,nt:65535,next:11952,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:11952 op:0,dt:4,nt:8,next:65535,str:57534,d0:11953,d1:37413;
-        ("begin", Expression<MethodOrOperator> @:11953 op:0,dt:2,nt:9,next:11942,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:11942 op:290,dt:4,nt:8,next:11945,str:57569,d0:11943,d1:37403;
-                ("ai_place", Expression<MethodOrOperator> @:11943 op:290,dt:2,nt:9,next:11944,str:1415,d0:0,d1:0;
-                    ("gap_phantom", Expression<AI> @:11944 op:19,dt:19,nt:9,next:65535,str:21444,d0:17,d1:0;)))
-            (____, BuiltinInvocation<Void> @:11945 op:19,dt:4,nt:8,next:11948,str:57594,d0:11946,d1:37406;
-                ("sleep", Expression<MethodOrOperator> @:11946 op:19,dt:2,nt:9,next:11947,str:80,d0:0,d1:0;
-                    (1, Expression<Short> @:11947 op:7,dt:7,nt:9,next:65535,str:57601,d0:1,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:11948 op:366,dt:4,nt:8,next:65535,str:57606,d0:11949,d1:37409;
-                ("cs_run_command_script", Expression<MethodOrOperator> @:11949 op:366,dt:2,nt:9,next:11950,str:1464,d0:0,d1:0;
-                    ("gap_phantom", Expression<AI> @:11950 op:19,dt:19,nt:9,next:11951,str:21444,d0:17,d1:0;
-                        ("cs_gap_phantom", Expression<AIScript> @:11951 op:21,dt:21,nt:9,next:65535,str:21456,d0:267,d1:0;)))))))
+("test_phantom", MethodDecl<Void> @:268 check:0,op:0,dt:0,nt:65535,next:11952,nextCheck:37412,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:11952 check:37412,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:57534,h:1,d0:11953,d1:37413;
+        ("begin", Expression<MethodOrOperator> @:11953 check:37413,op:0,dt:2,nt:9,next:11942,nextCheck:37402,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:11942 check:37402,op:290,dt:4,nt:8,next:11945,nextCheck:37405,str:57569,h:1,d0:11943,d1:37403;
+                ("ai_place", Expression<MethodOrOperator> @:11943 check:37403,op:290,dt:2,nt:9,next:11944,nextCheck:37404,str:1415,h:0,d0:0,d1:0;
+                    ("gap_phantom", Expression<AI> @:11944 check:37404,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:21444,h:0,d0:17,d1:0;)))
+            (____, BuiltinInvocation<Void> @:11945 check:37405,op:19,dt:4,nt:8,next:11948,nextCheck:37408,str:57594,h:1,d0:11946,d1:37406;
+                ("sleep", Expression<MethodOrOperator> @:11946 check:37406,op:19,dt:2,nt:9,next:11947,nextCheck:37407,str:80,h:0,d0:0,d1:0;
+                    (1, Expression<Short> @:11947 check:37407,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:57601,h:1,d0:1,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:11948 check:37408,op:366,dt:4,nt:8,next:65535,nextCheck:65535,str:57606,h:1,d0:11949,d1:37409;
+                ("cs_run_command_script", Expression<MethodOrOperator> @:11949 check:37409,op:366,dt:2,nt:9,next:11950,nextCheck:37410,str:1464,h:0,d0:0,d1:0;
+                    ("gap_phantom", Expression<AI> @:11950 check:37410,op:19,dt:19,nt:9,next:11951,nextCheck:37411,str:21444,h:0,d0:17,d1:0;
+                        ("cs_gap_phantom", Expression<AIScript> @:11951 check:37411,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:21456,h:0,d0:267,d1:0;)))))))

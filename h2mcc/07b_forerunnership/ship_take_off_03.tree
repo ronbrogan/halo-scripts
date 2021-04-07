@@ -1,17 +1,17 @@
 
-("ship_take_off_03", MethodDecl<Void> @:103 op:0,dt:0,nt:65535,next:3170,str:8878,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3170 op:0,dt:4,nt:8,next:65535,str:38961,d0:3171,d1:61398;
-        ("begin", Expression<MethodOrOperator> @:3171 op:0,dt:2,nt:9,next:3157,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3157 op:676,dt:4,nt:8,next:3159,str:38996,d0:3158,d1:61385;
-                ("time_code_reset", Expression<MethodOrOperator> @:3158 op:676,dt:2,nt:9,next:65535,str:1504,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:3159 op:19,dt:4,nt:8,next:3162,str:39016,d0:3160,d1:61387;
-                ("sleep", Expression<MethodOrOperator> @:3160 op:19,dt:2,nt:9,next:3161,str:80,d0:0,d1:0;
-                    (111, Expression<Short> @:3161 op:7,dt:7,nt:9,next:65535,str:39023,d0:111,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3162 op:27,dt:4,nt:8,next:3165,str:39030,d0:3163,d1:61390;
-                ("print", Expression<MethodOrOperator> @:3163 op:27,dt:2,nt:9,next:3164,str:86,d0:0,d1:0;
-                    ("effect - take off 02", Expression<String> @:3164 op:9,dt:9,nt:9,next:65535,str:8656,d0:8656,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3165 op:41,dt:4,nt:8,next:65535,str:39063,d0:3166,d1:61393;
-                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:3166 op:41,dt:2,nt:9,next:3167,str:3541,d0:0,d1:0;
-                    ("effects\objects\cinematics\forerunner_ship\initial_take_off_scale04", Expression<Effect> @:3167 op:33,dt:33,nt:9,next:3168,str:8745,d0:914,d1:58632;
-                        (4294901826, Expression<Entity> @:3168 op:56,dt:50,nt:9,next:3169,str:6329,d0:66,d1:65535;
-                            ("thruster", Expression<StringId> @:3169 op:11,dt:11,nt:9,next:65535,str:6345,d0:3996,d1:2048;))))))))
+("ship_take_off_03", MethodDecl<Void> @:103 check:0,op:0,dt:0,nt:65535,next:3170,nextCheck:61397,str:8878,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3170 check:61397,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:38961,h:0,d0:3171,d1:61398;
+        ("begin", Expression<MethodOrOperator> @:3171 check:61398,op:0,dt:2,nt:9,next:3157,nextCheck:61384,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3157 check:61384,op:676,dt:4,nt:8,next:3159,nextCheck:61386,str:38996,h:0,d0:3158,d1:61385;
+                ("time_code_reset", Expression<MethodOrOperator> @:3158 check:61385,op:676,dt:2,nt:9,next:65535,nextCheck:65535,str:1504,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:3159 check:61386,op:19,dt:4,nt:8,next:3162,nextCheck:61389,str:39016,h:0,d0:3160,d1:61387;
+                ("sleep", Expression<MethodOrOperator> @:3160 check:61387,op:19,dt:2,nt:9,next:3161,nextCheck:61388,str:80,h:0,d0:0,d1:0;
+                    (111, Expression<Short> @:3161 check:61388,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:39023,h:0,d0:111,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3162 check:61389,op:27,dt:4,nt:8,next:3165,nextCheck:61392,str:39030,h:0,d0:3163,d1:61390;
+                ("print", Expression<MethodOrOperator> @:3163 check:61390,op:27,dt:2,nt:9,next:3164,nextCheck:61391,str:86,h:0,d0:0,d1:0;
+                    ("effect - take off 02", Expression<String> @:3164 check:61391,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8656,h:0,d0:8656,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3165 check:61392,op:41,dt:4,nt:8,next:65535,nextCheck:65535,str:39063,h:0,d0:3166,d1:61393;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:3166 check:61393,op:41,dt:2,nt:9,next:3167,nextCheck:61394,str:3541,h:0,d0:0,d1:0;
+                    ("effects\objects\cinematics\forerunner_ship\initial_take_off_scale04", Expression<Effect> @:3167 check:61394,op:33,dt:33,nt:9,next:3168,nextCheck:61395,str:8745,h:0,d0:914,d1:58632;
+                        (4294901826, Expression<Entity> @:3168 check:61395,op:56,dt:50,nt:9,next:3169,nextCheck:61396,str:6329,h:0,d0:66,d1:65535;
+                            ("thruster", Expression<StringId> @:3169 check:61396,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:6345,h:0,d0:3996,d1:2048;))))))))

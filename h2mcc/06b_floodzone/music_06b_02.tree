@@ -1,32 +1,32 @@
 
-("music_06b_02", MethodDecl<Void> @:136 op:0,dt:0,nt:65535,next:4353,str:25674,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4353 op:0,dt:4,nt:8,next:65535,str:52203,d0:4354,d1:62581;
-        ("begin", Expression<MethodOrOperator> @:4354 op:0,dt:2,nt:9,next:4325,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4325 op:21,dt:4,nt:8,next:4328,str:52234,d0:4326,d1:62553;
-                ("sleep_until", Expression<MethodOrOperator> @:4326 op:21,dt:2,nt:9,next:4327,str:236,d0:0,d1:0;
-                    ("g_music_06b_02", VariableAccess<Boolean> @:4327 op:5,dt:5,nt:13,next:65535,str:10841,d0:12,d1:0;)))
-            (____, BuiltinInvocation<Void> @:4328 op:2,dt:4,nt:8,next:4334,str:52265,d0:4329,d1:62556;
-                ("if", Expression<MethodOrOperator> @:4329 op:2,dt:2,nt:9,next:4330,str:461,d0:0,d1:0;
-                    ("debug", VariableAccess<Boolean> @:4330 op:5,dt:5,nt:13,next:4331,str:10635,d0:3,d1:0;
-                        (____, BuiltinInvocation<Void> @:4331 op:27,dt:4,nt:8,next:65535,str:52275,d0:4332,d1:62559;
-                            ("print", Expression<MethodOrOperator> @:4332 op:27,dt:2,nt:9,next:4333,str:91,d0:0,d1:0;
-                                ("start music 06b_02", Expression<String> @:4333 op:9,dt:9,nt:9,next:65535,str:10856,d0:10856,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:4334 op:605,dt:4,nt:8,next:4339,str:52307,d0:4335,d1:62562;
-                ("sound_looping_start", Expression<MethodOrOperator> @:4335 op:605,dt:2,nt:9,next:4336,str:10775,d0:0,d1:0;
-                    ("scenarios\solo\06b_floodzone\06b_music\06b_02", Expression<LoopingSound> @:4336 op:35,dt:35,nt:9,next:4337,str:10875,d0:8047,d1:33023;
-                        (4294967295, Expression<Entity> @:4337 op:50,dt:50,nt:9,next:4338,str:1,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:4338 op:6,dt:6,nt:9,next:65535,str:52379,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:4339 op:21,dt:4,nt:8,next:4344,str:52386,d0:4340,d1:62567;
-                ("sleep_until", Expression<MethodOrOperator> @:4340 op:21,dt:2,nt:9,next:4341,str:236,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:4341 op:25,dt:5,nt:8,next:65535,str:52399,d0:4342,d1:62569;
-                        ("not", Expression<MethodOrOperator> @:4342 op:25,dt:2,nt:9,next:4343,str:402,d0:0,d1:0;
-                            ("g_music_06b_02", VariableAccess<Boolean> @:4343 op:5,dt:5,nt:13,next:65535,str:10841,d0:12,d1:0;)))))
-            (____, BuiltinInvocation<Void> @:4344 op:2,dt:4,nt:8,next:4350,str:52423,d0:4345,d1:62572;
-                ("if", Expression<MethodOrOperator> @:4345 op:2,dt:2,nt:9,next:4346,str:461,d0:0,d1:0;
-                    ("debug", VariableAccess<Boolean> @:4346 op:5,dt:5,nt:13,next:4347,str:10635,d0:3,d1:0;
-                        (____, BuiltinInvocation<Void> @:4347 op:27,dt:4,nt:8,next:65535,str:52433,d0:4348,d1:62575;
-                            ("print", Expression<MethodOrOperator> @:4348 op:27,dt:2,nt:9,next:4349,str:91,d0:0,d1:0;
-                                ("stop music 06b_02", Expression<String> @:4349 op:9,dt:9,nt:9,next:65535,str:10921,d0:10921,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:4350 op:606,dt:4,nt:8,next:65535,str:52464,d0:4351,d1:62578;
-                ("sound_looping_stop", Expression<MethodOrOperator> @:4351 op:606,dt:2,nt:9,next:4352,str:7739,d0:0,d1:0;
-                    ("scenarios\solo\06b_floodzone\06b_music\06b_02", Expression<LoopingSound> @:4352 op:35,dt:35,nt:9,next:65535,str:10875,d0:8047,d1:33023;))))))
+("music_06b_02", MethodDecl<Void> @:136 check:0,op:0,dt:0,nt:65535,next:4353,nextCheck:62580,str:25674,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4353 check:62580,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:52203,h:0,d0:4354,d1:62581;
+        ("begin", Expression<MethodOrOperator> @:4354 check:62581,op:0,dt:2,nt:9,next:4325,nextCheck:62552,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4325 check:62552,op:21,dt:4,nt:8,next:4328,nextCheck:62555,str:52234,h:0,d0:4326,d1:62553;
+                ("sleep_until", Expression<MethodOrOperator> @:4326 check:62553,op:21,dt:2,nt:9,next:4327,nextCheck:62554,str:236,h:0,d0:0,d1:0;
+                    ("g_music_06b_02", VariableAccess<Boolean> @:4327 check:62554,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:10841,h:0,d0:12,d1:0;)))
+            (____, BuiltinInvocation<Void> @:4328 check:62555,op:2,dt:4,nt:8,next:4334,nextCheck:62561,str:52265,h:0,d0:4329,d1:62556;
+                ("if", Expression<MethodOrOperator> @:4329 check:62556,op:2,dt:2,nt:9,next:4330,nextCheck:62557,str:461,h:0,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:4330 check:62557,op:5,dt:5,nt:13,next:4331,nextCheck:62558,str:10635,h:0,d0:3,d1:0;
+                        (____, BuiltinInvocation<Void> @:4331 check:62558,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:52275,h:0,d0:4332,d1:62559;
+                            ("print", Expression<MethodOrOperator> @:4332 check:62559,op:27,dt:2,nt:9,next:4333,nextCheck:62560,str:91,h:0,d0:0,d1:0;
+                                ("start music 06b_02", Expression<String> @:4333 check:62560,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:10856,h:0,d0:10856,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:4334 check:62561,op:605,dt:4,nt:8,next:4339,nextCheck:62566,str:52307,h:0,d0:4335,d1:62562;
+                ("sound_looping_start", Expression<MethodOrOperator> @:4335 check:62562,op:605,dt:2,nt:9,next:4336,nextCheck:62563,str:10775,h:0,d0:0,d1:0;
+                    ("scenarios\solo\06b_floodzone\06b_music\06b_02", Expression<LoopingSound> @:4336 check:62563,op:35,dt:35,nt:9,next:4337,nextCheck:62564,str:10875,h:0,d0:8047,d1:33023;
+                        (4294967295, Expression<Entity> @:4337 check:62564,op:50,dt:50,nt:9,next:4338,nextCheck:62565,str:1,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:4338 check:62565,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:52379,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:4339 check:62566,op:21,dt:4,nt:8,next:4344,nextCheck:62571,str:52386,h:0,d0:4340,d1:62567;
+                ("sleep_until", Expression<MethodOrOperator> @:4340 check:62567,op:21,dt:2,nt:9,next:4341,nextCheck:62568,str:236,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:4341 check:62568,op:25,dt:5,nt:8,next:65535,nextCheck:65535,str:52399,h:0,d0:4342,d1:62569;
+                        ("not", Expression<MethodOrOperator> @:4342 check:62569,op:25,dt:2,nt:9,next:4343,nextCheck:62570,str:402,h:0,d0:0,d1:0;
+                            ("g_music_06b_02", VariableAccess<Boolean> @:4343 check:62570,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:10841,h:0,d0:12,d1:0;)))))
+            (____, BuiltinInvocation<Void> @:4344 check:62571,op:2,dt:4,nt:8,next:4350,nextCheck:62577,str:52423,h:0,d0:4345,d1:62572;
+                ("if", Expression<MethodOrOperator> @:4345 check:62572,op:2,dt:2,nt:9,next:4346,nextCheck:62573,str:461,h:0,d0:0,d1:0;
+                    ("debug", VariableAccess<Boolean> @:4346 check:62573,op:5,dt:5,nt:13,next:4347,nextCheck:62574,str:10635,h:0,d0:3,d1:0;
+                        (____, BuiltinInvocation<Void> @:4347 check:62574,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:52433,h:0,d0:4348,d1:62575;
+                            ("print", Expression<MethodOrOperator> @:4348 check:62575,op:27,dt:2,nt:9,next:4349,nextCheck:62576,str:91,h:0,d0:0,d1:0;
+                                ("stop music 06b_02", Expression<String> @:4349 check:62576,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:10921,h:0,d0:10921,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:4350 check:62577,op:606,dt:4,nt:8,next:65535,nextCheck:65535,str:52464,h:0,d0:4351,d1:62578;
+                ("sound_looping_stop", Expression<MethodOrOperator> @:4351 check:62578,op:606,dt:2,nt:9,next:4352,nextCheck:62579,str:7739,h:0,d0:0,d1:0;
+                    ("scenarios\solo\06b_floodzone\06b_music\06b_02", Expression<LoopingSound> @:4352 check:62579,op:35,dt:35,nt:9,next:65535,nextCheck:65535,str:10875,h:0,d0:8047,d1:33023;))))))

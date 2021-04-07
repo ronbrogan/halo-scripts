@@ -1,18 +1,18 @@
 
-("cs_e8_cov_inf2_patrol0", MethodDecl<Void> @:278 op:0,dt:0,nt:65535,next:10571,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:10571 op:0,dt:4,nt:8,next:65535,str:327,d0:10572,d1:36032;
-        ("begin", Expression<MethodOrOperator> @:10572 op:0,dt:2,nt:9,next:10557,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:10557 op:441,dt:4,nt:8,next:10560,str:375,d0:10558,d1:36018;
-                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:10558 op:441,dt:2,nt:9,next:10559,str:13781,d0:0,d1:0;
-                    ("ai_combat_status_uninspected", VariableAccess<Short> @:10559 op:7,dt:7,nt:13,next:65535,str:19756,d0:33575,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10560 op:440,dt:4,nt:8,next:10563,str:434,d0:10561,d1:36021;
-                ("cs_abort_on_damage", Expression<MethodOrOperator> @:10561 op:440,dt:2,nt:9,next:10562,str:15078,d0:0,d1:0;
-                    (True, Expression<Boolean> @:10562 op:5,dt:5,nt:9,next:65535,str:454,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10563 op:395,dt:4,nt:8,next:10569,str:462,d0:10564,d1:36024;
-                ("cs_look_object", Expression<MethodOrOperator> @:10564 op:395,dt:2,nt:9,next:10565,str:19785,d0:0,d1:0;
-                    (True, Expression<Boolean> @:10565 op:5,dt:5,nt:9,next:10566,str:478,d0:65281,d1:65535;
-                        (____, BuiltinInvocation<Entity> @:10566 op:284,dt:50,nt:8,next:65535,str:483,d0:10567,d1:36027;
-                            ("ai_get_object", Expression<MethodOrOperator> @:10567 op:284,dt:2,nt:9,next:10568,str:4496,d0:0,d1:0;
-                                ("e8_cov_inf2/grunt0", Expression<AI> @:10568 op:19,dt:19,nt:9,next:65535,str:19800,d0:2,d1:49223;))))))
-            (____, BuiltinInvocation<Void> @:10569 op:20,dt:4,nt:8,next:65535,str:521,d0:10570,d1:36030;
-                ("sleep_forever", Expression<MethodOrOperator> @:10570 op:20,dt:2,nt:9,next:65535,str:10303,d0:0,d1:0;)))))
+("cs_e8_cov_inf2_patrol0", MethodDecl<Void> @:278 check:0,op:0,dt:0,nt:65535,next:10571,nextCheck:36031,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:10571 check:36031,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:327,h:2,d0:10572,d1:36032;
+        ("begin", Expression<MethodOrOperator> @:10572 check:36032,op:0,dt:2,nt:9,next:10557,nextCheck:36017,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:10557 check:36017,op:441,dt:4,nt:8,next:10560,nextCheck:36020,str:375,h:2,d0:10558,d1:36018;
+                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:10558 check:36018,op:441,dt:2,nt:9,next:10559,nextCheck:36019,str:13781,h:0,d0:0,d1:0;
+                    ("ai_combat_status_uninspected", VariableAccess<Short> @:10559 check:36019,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:19756,h:0,d0:33575,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10560 check:36020,op:440,dt:4,nt:8,next:10563,nextCheck:36023,str:434,h:2,d0:10561,d1:36021;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:10561 check:36021,op:440,dt:2,nt:9,next:10562,nextCheck:36022,str:15078,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10562 check:36022,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:454,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10563 check:36023,op:395,dt:4,nt:8,next:10569,nextCheck:36029,str:462,h:2,d0:10564,d1:36024;
+                ("cs_look_object", Expression<MethodOrOperator> @:10564 check:36024,op:395,dt:2,nt:9,next:10565,nextCheck:36025,str:19785,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:10565 check:36025,op:5,dt:5,nt:9,next:10566,nextCheck:36026,str:478,h:2,d0:65281,d1:65535;
+                        (____, BuiltinInvocation<Entity> @:10566 check:36026,op:284,dt:50,nt:8,next:65535,nextCheck:65535,str:483,h:2,d0:10567,d1:36027;
+                            ("ai_get_object", Expression<MethodOrOperator> @:10567 check:36027,op:284,dt:2,nt:9,next:10568,nextCheck:36028,str:4496,h:0,d0:0,d1:0;
+                                ("e8_cov_inf2/grunt0", Expression<AI> @:10568 check:36028,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:19800,h:0,d0:2,d1:49223;))))))
+            (____, BuiltinInvocation<Void> @:10569 check:36029,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:521,h:2,d0:10570,d1:36030;
+                ("sleep_forever", Expression<MethodOrOperator> @:10570 check:36030,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:10303,h:0,d0:0,d1:0;)))))

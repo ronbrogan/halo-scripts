@@ -1,15 +1,15 @@
 
-("effect_interior_blast", MethodDecl<Void> @:266 op:0,dt:0,nt:65535,next:10258,str:24808,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:10258 op:0,dt:4,nt:8,next:65535,str:60118,d0:10259,d1:35719;
-        ("begin", Expression<MethodOrOperator> @:10259 op:0,dt:2,nt:9,next:10247,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:10247 op:19,dt:4,nt:8,next:10250,str:60158,d0:10248,d1:35708;
-                ("sleep", Expression<MethodOrOperator> @:10248 op:19,dt:2,nt:9,next:10249,str:90,d0:0,d1:0;
-                    (195, Expression<Short> @:10249 op:7,dt:7,nt:9,next:65535,str:60165,d0:195,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:10250 op:27,dt:4,nt:8,next:10253,str:60172,d0:10251,d1:35711;
-                ("print", Expression<MethodOrOperator> @:10251 op:27,dt:2,nt:9,next:10252,str:96,d0:0,d1:0;
-                    ("interior blast", Expression<String> @:10252 op:9,dt:9,nt:9,next:65535,str:24586,d0:24586,d1:0;)))
-            (____, BuiltinInvocation<Void> @:10253 op:41,dt:4,nt:8,next:65535,str:60199,d0:10254,d1:35714;
-                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:10254 op:41,dt:2,nt:9,next:10255,str:7901,d0:0,d1:0;
-                    ("effects\cinematics\01_outro\cluster_bomb", Expression<Effect> @:10255 op:33,dt:33,nt:9,next:10256,str:24495,d0:4645,d1:62533;
-                        (4294902062, Expression<Entity> @:10256 op:56,dt:50,nt:9,next:10257,str:24601,d0:302,d1:65535;
-                            ("marker", Expression<StringId> @:10257 op:11,dt:11,nt:9,next:65535,str:18360,d0:9864,d1:1536;))))))))
+("effect_interior_blast", MethodDecl<Void> @:266 check:0,op:0,dt:0,nt:65535,next:10258,nextCheck:35718,str:24808,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:10258 check:35718,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:60118,h:1,d0:10259,d1:35719;
+        ("begin", Expression<MethodOrOperator> @:10259 check:35719,op:0,dt:2,nt:9,next:10247,nextCheck:35707,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:10247 check:35707,op:19,dt:4,nt:8,next:10250,nextCheck:35710,str:60158,h:1,d0:10248,d1:35708;
+                ("sleep", Expression<MethodOrOperator> @:10248 check:35708,op:19,dt:2,nt:9,next:10249,nextCheck:35709,str:90,h:0,d0:0,d1:0;
+                    (195, Expression<Short> @:10249 check:35709,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:60165,h:1,d0:195,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:10250 check:35710,op:27,dt:4,nt:8,next:10253,nextCheck:35713,str:60172,h:1,d0:10251,d1:35711;
+                ("print", Expression<MethodOrOperator> @:10251 check:35711,op:27,dt:2,nt:9,next:10252,nextCheck:35712,str:96,h:0,d0:0,d1:0;
+                    ("interior blast", Expression<String> @:10252 check:35712,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:24586,h:0,d0:24586,d1:0;)))
+            (____, BuiltinInvocation<Void> @:10253 check:35713,op:41,dt:4,nt:8,next:65535,nextCheck:65535,str:60199,h:1,d0:10254,d1:35714;
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:10254 check:35714,op:41,dt:2,nt:9,next:10255,nextCheck:35715,str:7901,h:0,d0:0,d1:0;
+                    ("effects\cinematics\01_outro\cluster_bomb", Expression<Effect> @:10255 check:35715,op:33,dt:33,nt:9,next:10256,nextCheck:35716,str:24495,h:0,d0:4645,d1:62533;
+                        (4294902062, Expression<Entity> @:10256 check:35716,op:56,dt:50,nt:9,next:10257,nextCheck:35717,str:24601,h:0,d0:302,d1:65535;
+                            ("marker", Expression<StringId> @:10257 check:35717,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:18360,h:0,d0:9864,d1:1536;))))))))

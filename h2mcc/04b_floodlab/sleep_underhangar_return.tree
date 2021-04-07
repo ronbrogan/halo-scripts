@@ -1,13 +1,13 @@
 
-("sleep_underhangar_return", MethodDecl<Void> @:376 op:0,dt:0,nt:65535,next:31546,str:42367,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:31546 op:0,dt:4,nt:8,next:65535,str:40342,d0:31547,d1:57007;
-        ("begin", Expression<MethodOrOperator> @:31547 op:0,dt:2,nt:9,next:31537,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:31537 op:20,dt:4,nt:8,next:31540,str:40389,d0:31538,d1:56998;
-                ("sleep_forever", Expression<MethodOrOperator> @:31538 op:20,dt:2,nt:9,next:31539,str:9739,d0:0,d1:0;
-                    ("underhangar_secondtime_start", Expression<ScriptReference> @:31539 op:10,dt:10,nt:9,next:65535,str:39153,d0:324,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:31540 op:20,dt:4,nt:8,next:31543,str:40436,d0:31541,d1:57001;
-                ("sleep_forever", Expression<MethodOrOperator> @:31541 op:20,dt:2,nt:9,next:31542,str:9739,d0:0,d1:0;
-                    ("to_hangar_secondtime", Expression<ScriptReference> @:31542 op:10,dt:10,nt:9,next:65535,str:39182,d0:326,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:31543 op:20,dt:4,nt:8,next:65535,str:40475,d0:31544,d1:57004;
-                ("sleep_forever", Expression<MethodOrOperator> @:31544 op:20,dt:2,nt:9,next:31545,str:9739,d0:0,d1:0;
-                    ("underhangar_return_commander", Expression<ScriptReference> @:31545 op:10,dt:10,nt:9,next:65535,str:34743,d0:323,d1:65535;))))))
+("sleep_underhangar_return", MethodDecl<Void> @:376 check:0,op:0,dt:0,nt:65535,next:31546,nextCheck:57006,str:42367,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:31546 check:57006,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:40342,h:4,d0:31547,d1:57007;
+        ("begin", Expression<MethodOrOperator> @:31547 check:57007,op:0,dt:2,nt:9,next:31537,nextCheck:56997,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:31537 check:56997,op:20,dt:4,nt:8,next:31540,nextCheck:57000,str:40389,h:4,d0:31538,d1:56998;
+                ("sleep_forever", Expression<MethodOrOperator> @:31538 check:56998,op:20,dt:2,nt:9,next:31539,nextCheck:56999,str:9739,h:0,d0:0,d1:0;
+                    ("underhangar_secondtime_start", Expression<ScriptReference> @:31539 check:56999,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:39153,h:0,d0:324,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:31540 check:57000,op:20,dt:4,nt:8,next:31543,nextCheck:57003,str:40436,h:4,d0:31541,d1:57001;
+                ("sleep_forever", Expression<MethodOrOperator> @:31541 check:57001,op:20,dt:2,nt:9,next:31542,nextCheck:57002,str:9739,h:0,d0:0,d1:0;
+                    ("to_hangar_secondtime", Expression<ScriptReference> @:31542 check:57002,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:39182,h:0,d0:326,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:31543 check:57003,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:40475,h:4,d0:31544,d1:57004;
+                ("sleep_forever", Expression<MethodOrOperator> @:31544 check:57004,op:20,dt:2,nt:9,next:31545,nextCheck:57005,str:9739,h:0,d0:0,d1:0;
+                    ("underhangar_return_commander", Expression<ScriptReference> @:31545 check:57005,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:34743,h:0,d0:323,d1:65535;))))))

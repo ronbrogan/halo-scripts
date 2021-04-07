@@ -1,13 +1,13 @@
 
-("e12_event_warthog", MethodDecl<Void> @:191 op:0,dt:0,nt:65535,next:6654,str:14257,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6654 op:0,dt:4,nt:8,next:65535,str:14507,d0:6655,d1:64882;
-        ("begin", Expression<MethodOrOperator> @:6655 op:0,dt:2,nt:9,next:6645,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6645 op:46,dt:4,nt:8,next:6648,str:14580,d0:6646,d1:64873;
-                ("object_create", Expression<MethodOrOperator> @:6646 op:46,dt:2,nt:9,next:6647,str:7768,d0:0,d1:0;
-                    ("e12_warthog0", Expression<EntityIdentifier> @:6647 op:56,dt:56,nt:9,next:65535,str:14208,d0:81,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6648 op:79,dt:4,nt:8,next:65535,str:14611,d0:6649,d1:64876;
-                ("object_set_velocity", Expression<MethodOrOperator> @:6649 op:79,dt:2,nt:9,next:6650,str:1549,d0:0,d1:0;
-                    (4294901841, Expression<Entity> @:6650 op:56,dt:50,nt:9,next:6651,str:14208,d0:81,d1:65535;
-                        (11f, Expression<Float> @:6651 op:6,dt:6,nt:9,next:6652,str:14645,d0:0,d1:16688;
-                            (0f, Expression<Float> @:6652 op:6,dt:6,nt:9,next:6653,str:14648,d0:0,d1:0;
-                                (0.25f, Expression<Float> @:6653 op:6,dt:6,nt:9,next:65535,str:14650,d0:0,d1:16000;)))))))))
+("e12_event_warthog", MethodDecl<Void> @:191 check:0,op:0,dt:0,nt:65535,next:6654,nextCheck:64881,str:14257,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6654 check:64881,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:14507,h:1,d0:6655,d1:64882;
+        ("begin", Expression<MethodOrOperator> @:6655 check:64882,op:0,dt:2,nt:9,next:6645,nextCheck:64872,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6645 check:64872,op:46,dt:4,nt:8,next:6648,nextCheck:64875,str:14580,h:1,d0:6646,d1:64873;
+                ("object_create", Expression<MethodOrOperator> @:6646 check:64873,op:46,dt:2,nt:9,next:6647,nextCheck:64874,str:7768,h:0,d0:0,d1:0;
+                    ("e12_warthog0", Expression<EntityIdentifier> @:6647 check:64874,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:14208,h:0,d0:81,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6648 check:64875,op:79,dt:4,nt:8,next:65535,nextCheck:65535,str:14611,h:1,d0:6649,d1:64876;
+                ("object_set_velocity", Expression<MethodOrOperator> @:6649 check:64876,op:79,dt:2,nt:9,next:6650,nextCheck:64877,str:1549,h:0,d0:0,d1:0;
+                    (4294901841, Expression<Entity> @:6650 check:64877,op:56,dt:50,nt:9,next:6651,nextCheck:64878,str:14208,h:0,d0:81,d1:65535;
+                        (11f, Expression<Float> @:6651 check:64878,op:6,dt:6,nt:9,next:6652,nextCheck:64879,str:14645,h:1,d0:0,d1:16688;
+                            (0f, Expression<Float> @:6652 check:64879,op:6,dt:6,nt:9,next:6653,nextCheck:64880,str:14648,h:1,d0:0,d1:0;
+                                (0.25f, Expression<Float> @:6653 check:64880,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:14650,h:1,d0:0,d1:16000;)))))))))

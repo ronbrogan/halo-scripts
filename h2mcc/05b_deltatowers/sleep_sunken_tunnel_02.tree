@@ -1,7 +1,7 @@
 
-("sleep_sunken_tunnel_02", MethodDecl<Void> @:299 op:0,dt:0,nt:65535,next:20615,str:32663,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:20615 op:0,dt:4,nt:8,next:65535,str:22016,d0:20616,d1:46076;
-        ("begin", Expression<MethodOrOperator> @:20616 op:0,dt:2,nt:9,next:20612,str:142,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:20612 op:20,dt:4,nt:8,next:65535,str:22061,d0:20613,d1:46073;
-                ("sleep_forever", Expression<MethodOrOperator> @:20613 op:20,dt:2,nt:9,next:20614,str:8566,d0:0,d1:0;
-                    ("sunken_tunnel2_start", Expression<ScriptReference> @:20614 op:10,dt:10,nt:9,next:65535,str:32098,d0:225,d1:65535;))))))
+("sleep_sunken_tunnel_02", MethodDecl<Void> @:299 check:0,op:0,dt:0,nt:65535,next:20615,nextCheck:46075,str:32663,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:20615 check:46075,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:22016,h:3,d0:20616,d1:46076;
+        ("begin", Expression<MethodOrOperator> @:20616 check:46076,op:0,dt:2,nt:9,next:20612,nextCheck:46072,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:20612 check:46072,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:22061,h:3,d0:20613,d1:46073;
+                ("sleep_forever", Expression<MethodOrOperator> @:20613 check:46073,op:20,dt:2,nt:9,next:20614,nextCheck:46074,str:8566,h:0,d0:0,d1:0;
+                    ("sunken_tunnel2_start", Expression<ScriptReference> @:20614 check:46074,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:32098,h:0,d0:225,d1:65535;))))))

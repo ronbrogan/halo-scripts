@@ -1,34 +1,34 @@
 
-("x05_0140_mir", MethodDecl<Void> @:71 op:0,dt:0,nt:65535,next:2211,str:5458,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2211 op:0,dt:4,nt:8,next:65535,str:25591,d0:2212,d1:60439;
-        ("begin", Expression<MethodOrOperator> @:2212 op:0,dt:2,nt:9,next:2181,str:54,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2181 op:220,dt:4,nt:8,next:2187,str:25624,d0:2182,d1:60409;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2182 op:220,dt:2,nt:9,next:2183,str:2599,d0:0,d1:0;
-                    ("miranda", Expression<Unit> @:2183 op:57,dt:51,nt:9,next:2184,str:1740,d0:71,d1:65535;
-                        ("shocked", Expression<StringId> @:2184 op:11,dt:11,nt:9,next:2185,str:2624,d0:426,d1:1792;
-                            (0.25f, Expression<Float> @:2185 op:6,dt:6,nt:9,next:2186,str:25666,d0:0,d1:16000;
-                                (0, Expression<Short> @:2186 op:7,dt:7,nt:9,next:65535,str:25670,d0:0,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:2187 op:27,dt:4,nt:8,next:2190,str:25675,d0:2188,d1:60415;
-                ("print", Expression<MethodOrOperator> @:2188 op:27,dt:2,nt:9,next:2189,str:139,d0:0,d1:0;
-                    ("miranda - shocked .25 0", Expression<String> @:2189 op:9,dt:9,nt:9,next:65535,str:5375,d0:5375,d1:0;)))
-            (____, BuiltinInvocation<Void> @:2190 op:19,dt:4,nt:8,next:2193,str:25713,d0:2191,d1:60418;
-                ("sleep", Expression<MethodOrOperator> @:2191 op:19,dt:2,nt:9,next:2192,str:133,d0:0,d1:0;
-                    (63, Expression<Short> @:2192 op:7,dt:7,nt:9,next:65535,str:25720,d0:63,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2193 op:596,dt:4,nt:8,next:2198,str:25726,d0:2194,d1:60421;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:2194 op:596,dt:2,nt:9,next:2195,str:1321,d0:0,d1:0;
-                    ("sound\dialog\levels\05_deltatemple\cinematics\x05_0140_mir", Expression<Sound> @:2195 op:32,dt:32,nt:9,next:2196,str:5399,d0:953,d1:58671;
-                        (4294901831, Expression<Entity> @:2196 op:56,dt:50,nt:9,next:2197,str:1740,d0:71,d1:65535;
-                            (1f, Expression<Float> @:2197 op:6,dt:6,nt:9,next:65535,str:25814,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:2198 op:562,dt:4,nt:8,next:2202,str:25819,d0:2199,d1:60426;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:2199 op:562,dt:2,nt:9,next:2200,str:2567,d0:0,d1:0;
-                    ("x05_0140_mir", Expression<StringId> @:2200 op:11,dt:11,nt:9,next:2201,str:5458,d0:5073,d1:3072;
-                        (2f, Expression<Float> @:2201 op:6,dt:6,nt:9,next:65535,str:25852,d0:0,d1:16384;))))
-            (____, BuiltinInvocation<Void> @:2202 op:220,dt:4,nt:8,next:2208,str:25860,d0:2203,d1:60430;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2203 op:220,dt:2,nt:9,next:2204,str:2599,d0:0,d1:0;
-                    ("miranda", Expression<Unit> @:2204 op:57,dt:51,nt:9,next:2205,str:1740,d0:71,d1:65535;
-                        ("pain", Expression<StringId> @:2205 op:11,dt:11,nt:9,next:2206,str:5471,d0:432,d1:1024;
-                            (0.25f, Expression<Float> @:2206 op:6,dt:6,nt:9,next:2207,str:25899,d0:0,d1:16000;
-                                (60, Expression<Short> @:2207 op:7,dt:7,nt:9,next:65535,str:25903,d0:60,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:2208 op:27,dt:4,nt:8,next:65535,str:25909,d0:2209,d1:60436;
-                ("print", Expression<MethodOrOperator> @:2209 op:27,dt:2,nt:9,next:2210,str:139,d0:0,d1:0;
-                    ("miranda - pain .25 60", Expression<String> @:2210 op:9,dt:9,nt:9,next:65535,str:5476,d0:5476,d1:0;))))))
+("x05_0140_mir", MethodDecl<Void> @:71 check:0,op:0,dt:0,nt:65535,next:2211,nextCheck:60438,str:5458,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2211 check:60438,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:25591,h:0,d0:2212,d1:60439;
+        ("begin", Expression<MethodOrOperator> @:2212 check:60439,op:0,dt:2,nt:9,next:2181,nextCheck:60408,str:54,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2181 check:60408,op:220,dt:4,nt:8,next:2187,nextCheck:60414,str:25624,h:0,d0:2182,d1:60409;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2182 check:60409,op:220,dt:2,nt:9,next:2183,nextCheck:60410,str:2599,h:0,d0:0,d1:0;
+                    ("miranda", Expression<Unit> @:2183 check:60410,op:57,dt:51,nt:9,next:2184,nextCheck:60411,str:1740,h:0,d0:71,d1:65535;
+                        ("shocked", Expression<StringId> @:2184 check:60411,op:11,dt:11,nt:9,next:2185,nextCheck:60412,str:2624,h:0,d0:426,d1:1792;
+                            (0.25f, Expression<Float> @:2185 check:60412,op:6,dt:6,nt:9,next:2186,nextCheck:60413,str:25666,h:0,d0:0,d1:16000;
+                                (0, Expression<Short> @:2186 check:60413,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:25670,h:0,d0:0,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:2187 check:60414,op:27,dt:4,nt:8,next:2190,nextCheck:60417,str:25675,h:0,d0:2188,d1:60415;
+                ("print", Expression<MethodOrOperator> @:2188 check:60415,op:27,dt:2,nt:9,next:2189,nextCheck:60416,str:139,h:0,d0:0,d1:0;
+                    ("miranda - shocked .25 0", Expression<String> @:2189 check:60416,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:5375,h:0,d0:5375,d1:0;)))
+            (____, BuiltinInvocation<Void> @:2190 check:60417,op:19,dt:4,nt:8,next:2193,nextCheck:60420,str:25713,h:0,d0:2191,d1:60418;
+                ("sleep", Expression<MethodOrOperator> @:2191 check:60418,op:19,dt:2,nt:9,next:2192,nextCheck:60419,str:133,h:0,d0:0,d1:0;
+                    (63, Expression<Short> @:2192 check:60419,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:25720,h:0,d0:63,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2193 check:60420,op:596,dt:4,nt:8,next:2198,nextCheck:60425,str:25726,h:0,d0:2194,d1:60421;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:2194 check:60421,op:596,dt:2,nt:9,next:2195,nextCheck:60422,str:1321,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\05_deltatemple\cinematics\x05_0140_mir", Expression<Sound> @:2195 check:60422,op:32,dt:32,nt:9,next:2196,nextCheck:60423,str:5399,h:0,d0:953,d1:58671;
+                        (4294901831, Expression<Entity> @:2196 check:60423,op:56,dt:50,nt:9,next:2197,nextCheck:60424,str:1740,h:0,d0:71,d1:65535;
+                            (1f, Expression<Float> @:2197 check:60424,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:25814,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:2198 check:60425,op:562,dt:4,nt:8,next:2202,nextCheck:60429,str:25819,h:0,d0:2199,d1:60426;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:2199 check:60426,op:562,dt:2,nt:9,next:2200,nextCheck:60427,str:2567,h:0,d0:0,d1:0;
+                    ("x05_0140_mir", Expression<StringId> @:2200 check:60427,op:11,dt:11,nt:9,next:2201,nextCheck:60428,str:5458,h:0,d0:5073,d1:3072;
+                        (2f, Expression<Float> @:2201 check:60428,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:25852,h:0,d0:0,d1:16384;))))
+            (____, BuiltinInvocation<Void> @:2202 check:60429,op:220,dt:4,nt:8,next:2208,nextCheck:60435,str:25860,h:0,d0:2203,d1:60430;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:2203 check:60430,op:220,dt:2,nt:9,next:2204,nextCheck:60431,str:2599,h:0,d0:0,d1:0;
+                    ("miranda", Expression<Unit> @:2204 check:60431,op:57,dt:51,nt:9,next:2205,nextCheck:60432,str:1740,h:0,d0:71,d1:65535;
+                        ("pain", Expression<StringId> @:2205 check:60432,op:11,dt:11,nt:9,next:2206,nextCheck:60433,str:5471,h:0,d0:432,d1:1024;
+                            (0.25f, Expression<Float> @:2206 check:60433,op:6,dt:6,nt:9,next:2207,nextCheck:60434,str:25899,h:0,d0:0,d1:16000;
+                                (60, Expression<Short> @:2207 check:60434,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:25903,h:0,d0:60,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:2208 check:60435,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:25909,h:0,d0:2209,d1:60436;
+                ("print", Expression<MethodOrOperator> @:2209 check:60436,op:27,dt:2,nt:9,next:2210,nextCheck:60437,str:139,h:0,d0:0,d1:0;
+                    ("miranda - pain .25 60", Expression<String> @:2210 check:60437,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:5476,h:0,d0:5476,d1:0;))))))

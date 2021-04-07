@@ -1,19 +1,19 @@
 
-("juggernaut_abort", MethodDecl<Void> @:156 op:0,dt:0,nt:65535,next:4751,str:14116,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4751 op:0,dt:4,nt:8,next:65535,str:58143,d0:4752,d1:62979;
-        ("begin", Expression<MethodOrOperator> @:4752 op:0,dt:2,nt:9,next:4736,str:210,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4736 op:2,dt:4,nt:8,next:65535,str:58178,d0:4737,d1:62964;
-                ("if", Expression<MethodOrOperator> @:4737 op:2,dt:2,nt:9,next:4738,str:665,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:4738 op:371,dt:5,nt:8,next:4742,str:58195,d0:4739,d1:62966;
-                        ("cs_command_script_running", Expression<MethodOrOperator> @:4739 op:371,dt:2,nt:9,next:4740,str:12245,d0:0,d1:0;
-                            ("all_allies", Expression<AI> @:4740 op:19,dt:19,nt:9,next:4741,str:11973,d0:0,d1:16384;
-                                ("juggernaut_gosh", Expression<AIScript> @:4741 op:21,dt:21,nt:9,next:65535,str:12148,d0:153,d1:0;))))
-                    (____, BuiltinInvocation<Void> @:4742 op:366,dt:4,nt:8,next:4746,str:58320,d0:4743,d1:62970;
-                        ("cs_run_command_script", Expression<MethodOrOperator> @:4743 op:366,dt:2,nt:9,next:4744,str:12198,d0:0,d1:0;
-                            ("all_allies", Expression<AI> @:4744 op:19,dt:19,nt:9,next:4745,str:11973,d0:0,d1:16384;
-                                ("abort", Expression<AIScript> @:4745 op:21,dt:21,nt:9,next:65535,str:12271,d0:115,d1:0;))))
-                    (____, BuiltinInvocation<Void> @:4746 op:614,dt:4,nt:8,next:65535,str:58365,d0:4747,d1:62974;
-                        ("sound_class_set_gain", Expression<MethodOrOperator> @:4747 op:614,dt:2,nt:9,next:4748,str:2545,d0:0,d1:0;
-                            ("unit_animation", Expression<String> @:4748 op:9,dt:9,nt:9,next:4749,str:12000,d0:12000,d1:0;
-                                (1f, Expression<Float> @:4749 op:6,dt:6,nt:9,next:4750,str:58402,d0:0,d1:16256;
-                                    (1, Expression<Short> @:4750 op:7,dt:7,nt:9,next:65535,str:58404,d0:1,d1:65535;))))))))))
+("juggernaut_abort", MethodDecl<Void> @:156 check:0,op:0,dt:0,nt:65535,next:4751,nextCheck:62978,str:14116,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4751 check:62978,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:58143,h:0,d0:4752,d1:62979;
+        ("begin", Expression<MethodOrOperator> @:4752 check:62979,op:0,dt:2,nt:9,next:4736,nextCheck:62963,str:210,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4736 check:62963,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:58178,h:0,d0:4737,d1:62964;
+                ("if", Expression<MethodOrOperator> @:4737 check:62964,op:2,dt:2,nt:9,next:4738,nextCheck:62965,str:665,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:4738 check:62965,op:371,dt:5,nt:8,next:4742,nextCheck:62969,str:58195,h:0,d0:4739,d1:62966;
+                        ("cs_command_script_running", Expression<MethodOrOperator> @:4739 check:62966,op:371,dt:2,nt:9,next:4740,nextCheck:62967,str:12245,h:0,d0:0,d1:0;
+                            ("all_allies", Expression<AI> @:4740 check:62967,op:19,dt:19,nt:9,next:4741,nextCheck:62968,str:11973,h:0,d0:0,d1:16384;
+                                ("juggernaut_gosh", Expression<AIScript> @:4741 check:62968,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:12148,h:0,d0:153,d1:0;))))
+                    (____, BuiltinInvocation<Void> @:4742 check:62969,op:366,dt:4,nt:8,next:4746,nextCheck:62973,str:58320,h:0,d0:4743,d1:62970;
+                        ("cs_run_command_script", Expression<MethodOrOperator> @:4743 check:62970,op:366,dt:2,nt:9,next:4744,nextCheck:62971,str:12198,h:0,d0:0,d1:0;
+                            ("all_allies", Expression<AI> @:4744 check:62971,op:19,dt:19,nt:9,next:4745,nextCheck:62972,str:11973,h:0,d0:0,d1:16384;
+                                ("abort", Expression<AIScript> @:4745 check:62972,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:12271,h:0,d0:115,d1:0;))))
+                    (____, BuiltinInvocation<Void> @:4746 check:62973,op:614,dt:4,nt:8,next:65535,nextCheck:65535,str:58365,h:0,d0:4747,d1:62974;
+                        ("sound_class_set_gain", Expression<MethodOrOperator> @:4747 check:62974,op:614,dt:2,nt:9,next:4748,nextCheck:62975,str:2545,h:0,d0:0,d1:0;
+                            ("unit_animation", Expression<String> @:4748 check:62975,op:9,dt:9,nt:9,next:4749,nextCheck:62976,str:12000,h:0,d0:12000,d1:0;
+                                (1f, Expression<Float> @:4749 check:62976,op:6,dt:6,nt:9,next:4750,nextCheck:62977,str:58402,h:0,d0:0,d1:16256;
+                                    (1, Expression<Short> @:4750 check:62977,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:58404,h:0,d0:1,d1:65535;))))))))))

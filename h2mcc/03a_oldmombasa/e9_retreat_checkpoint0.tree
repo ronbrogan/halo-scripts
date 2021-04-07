@@ -1,14 +1,14 @@
 
-("e9_retreat_checkpoint0", MethodDecl<Void> @:258 op:0,dt:0,nt:65535,next:9649,str:18343,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:9649 op:0,dt:4,nt:8,next:65535,str:52772,d0:9650,d1:35110;
-        ("begin", Expression<MethodOrOperator> @:9650 op:0,dt:2,nt:9,next:9639,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:9639 op:21,dt:4,nt:8,next:9647,str:52813,d0:9640,d1:35100;
-                ("sleep_until", Expression<MethodOrOperator> @:9640 op:21,dt:2,nt:9,next:9641,str:294,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:9641 op:33,dt:5,nt:8,next:9646,str:52826,d0:9642,d1:35102;
-                        ("volume_test_objects", Expression<MethodOrOperator> @:9642 op:33,dt:2,nt:9,next:9643,str:11142,d0:0,d1:0;
-                            ("tv_e9_retreat_checkpoint", Expression<Trigger> @:9643 op:13,dt:13,nt:9,next:9644,str:18318,d0:106,d1:0;
-                                (____, BuiltinInvocation<List> @:9644 op:28,dt:31,nt:8,next:65535,str:52872,d0:9645,d1:35105;
-                                    ("players", Expression<MethodOrOperator> @:9645 op:28,dt:2,nt:9,next:65535,str:84,d0:0,d1:0;)))))
-                    ("30_seconds", VariableAccess<Short> @:9646 op:7,dt:7,nt:13,next:65535,str:15111,d0:5,d1:0;)))
-            (____, BuiltinInvocation<Void> @:9647 op:587,dt:4,nt:8,next:65535,str:52897,d0:9648,d1:35108;
-                ("game_save", Expression<MethodOrOperator> @:9648 op:587,dt:2,nt:9,next:65535,str:13266,d0:0,d1:0;)))))
+("e9_retreat_checkpoint0", MethodDecl<Void> @:258 check:0,op:0,dt:0,nt:65535,next:9649,nextCheck:35109,str:18343,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:9649 check:35109,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:52772,h:1,d0:9650,d1:35110;
+        ("begin", Expression<MethodOrOperator> @:9650 check:35110,op:0,dt:2,nt:9,next:9639,nextCheck:35099,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:9639 check:35099,op:21,dt:4,nt:8,next:9647,nextCheck:35107,str:52813,h:1,d0:9640,d1:35100;
+                ("sleep_until", Expression<MethodOrOperator> @:9640 check:35100,op:21,dt:2,nt:9,next:9641,nextCheck:35101,str:294,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:9641 check:35101,op:33,dt:5,nt:8,next:9646,nextCheck:35106,str:52826,h:1,d0:9642,d1:35102;
+                        ("volume_test_objects", Expression<MethodOrOperator> @:9642 check:35102,op:33,dt:2,nt:9,next:9643,nextCheck:35103,str:11142,h:0,d0:0,d1:0;
+                            ("tv_e9_retreat_checkpoint", Expression<Trigger> @:9643 check:35103,op:13,dt:13,nt:9,next:9644,nextCheck:35104,str:18318,h:0,d0:106,d1:0;
+                                (____, BuiltinInvocation<List> @:9644 check:35104,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:52872,h:1,d0:9645,d1:35105;
+                                    ("players", Expression<MethodOrOperator> @:9645 check:35105,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:84,h:0,d0:0,d1:0;)))))
+                    ("30_seconds", VariableAccess<Short> @:9646 check:35106,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:15111,h:0,d0:5,d1:0;)))
+            (____, BuiltinInvocation<Void> @:9647 check:35107,op:587,dt:4,nt:8,next:65535,nextCheck:65535,str:52897,h:1,d0:9648,d1:35108;
+                ("game_save", Expression<MethodOrOperator> @:9648 check:35108,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:13266,h:0,d0:0,d1:0;)))))

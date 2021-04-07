@@ -1,23 +1,23 @@
 
-("scarab_no_save", MethodDecl<Void> @:199 op:0,dt:0,nt:65535,next:6132,str:16689,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6132 op:0,dt:4,nt:8,next:65535,str:6615,d0:6133,d1:64360;
-        ("begin", Expression<MethodOrOperator> @:6133 op:0,dt:2,nt:9,next:6113,str:6,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6113 op:21,dt:4,nt:8,next:65535,str:6665,d0:6114,d1:64341;
-                ("sleep_until", Expression<MethodOrOperator> @:6114 op:21,dt:2,nt:9,next:6115,str:236,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:6115 op:0,dt:5,nt:8,next:6131,str:6681,d0:6116,d1:64343;
-                        ("begin", Expression<MethodOrOperator> @:6116 op:0,dt:2,nt:9,next:6117,str:6,d0:0,d1:0;
-                            (____, BuiltinInvocation<Void> @:6117 op:21,dt:4,nt:8,next:6125,str:6692,d0:6118,d1:64345;
-                                ("sleep_until", Expression<MethodOrOperator> @:6118 op:21,dt:2,nt:9,next:6119,str:236,d0:0,d1:0;
-                                    (____, BuiltinInvocation<Boolean> @:6119 op:33,dt:5,nt:8,next:6124,str:6705,d0:6120,d1:64347;
-                                        ("volume_test_objects", Expression<MethodOrOperator> @:6120 op:33,dt:2,nt:9,next:6121,str:13230,d0:0,d1:0;
-                                            ("tv_scarab_no_save", Expression<Trigger> @:6121 op:13,dt:13,nt:9,next:6122,str:13820,d0:116,d1:0;
-                                                (____, BuiltinInvocation<List> @:6122 op:28,dt:31,nt:8,next:65535,str:6744,d0:6123,d1:64350;
-                                                    ("players", Expression<MethodOrOperator> @:6123 op:28,dt:2,nt:9,next:65535,str:26,d0:0,d1:0;)))))
-                                    (5, Expression<Short> @:6124 op:7,dt:7,nt:9,next:65535,str:6755,d0:5,d1:65535;)))
-                            (____, BuiltinInvocation<Void> @:6125 op:588,dt:4,nt:8,next:6127,str:6762,d0:6126,d1:64353;
-                                ("game_save_cancel", Expression<MethodOrOperator> @:6126 op:588,dt:2,nt:9,next:65535,str:13838,d0:0,d1:0;))
-                            (____, BuiltinInvocation<Void> @:6127 op:27,dt:4,nt:8,next:6130,str:6785,d0:6128,d1:64355;
-                                ("print", Expression<MethodOrOperator> @:6128 op:27,dt:2,nt:9,next:6129,str:91,d0:0,d1:0;
-                                    ("game save canceled", Expression<String> @:6129 op:9,dt:9,nt:9,next:65535,str:13855,d0:13855,d1:0;)))
-                            (False, Expression<Boolean> @:6130 op:5,dt:5,nt:9,next:65535,str:6817,d0:65280,d1:65535;)))
-                    (1, Expression<Short> @:6131 op:7,dt:7,nt:9,next:65535,str:6826,d0:1,d1:65535;))))))
+("scarab_no_save", MethodDecl<Void> @:199 check:0,op:0,dt:0,nt:65535,next:6132,nextCheck:64359,str:16689,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6132 check:64359,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:6615,h:1,d0:6133,d1:64360;
+        ("begin", Expression<MethodOrOperator> @:6133 check:64360,op:0,dt:2,nt:9,next:6113,nextCheck:64340,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6113 check:64340,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:6665,h:1,d0:6114,d1:64341;
+                ("sleep_until", Expression<MethodOrOperator> @:6114 check:64341,op:21,dt:2,nt:9,next:6115,nextCheck:64342,str:236,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:6115 check:64342,op:0,dt:5,nt:8,next:6131,nextCheck:64358,str:6681,h:1,d0:6116,d1:64343;
+                        ("begin", Expression<MethodOrOperator> @:6116 check:64343,op:0,dt:2,nt:9,next:6117,nextCheck:64344,str:6,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Void> @:6117 check:64344,op:21,dt:4,nt:8,next:6125,nextCheck:64352,str:6692,h:1,d0:6118,d1:64345;
+                                ("sleep_until", Expression<MethodOrOperator> @:6118 check:64345,op:21,dt:2,nt:9,next:6119,nextCheck:64346,str:236,h:0,d0:0,d1:0;
+                                    (____, BuiltinInvocation<Boolean> @:6119 check:64346,op:33,dt:5,nt:8,next:6124,nextCheck:64351,str:6705,h:1,d0:6120,d1:64347;
+                                        ("volume_test_objects", Expression<MethodOrOperator> @:6120 check:64347,op:33,dt:2,nt:9,next:6121,nextCheck:64348,str:13230,h:0,d0:0,d1:0;
+                                            ("tv_scarab_no_save", Expression<Trigger> @:6121 check:64348,op:13,dt:13,nt:9,next:6122,nextCheck:64349,str:13820,h:0,d0:116,d1:0;
+                                                (____, BuiltinInvocation<List> @:6122 check:64349,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:6744,h:1,d0:6123,d1:64350;
+                                                    ("players", Expression<MethodOrOperator> @:6123 check:64350,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
+                                    (5, Expression<Short> @:6124 check:64351,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:6755,h:1,d0:5,d1:65535;)))
+                            (____, BuiltinInvocation<Void> @:6125 check:64352,op:588,dt:4,nt:8,next:6127,nextCheck:64354,str:6762,h:1,d0:6126,d1:64353;
+                                ("game_save_cancel", Expression<MethodOrOperator> @:6126 check:64353,op:588,dt:2,nt:9,next:65535,nextCheck:65535,str:13838,h:0,d0:0,d1:0;))
+                            (____, BuiltinInvocation<Void> @:6127 check:64354,op:27,dt:4,nt:8,next:6130,nextCheck:64357,str:6785,h:1,d0:6128,d1:64355;
+                                ("print", Expression<MethodOrOperator> @:6128 check:64355,op:27,dt:2,nt:9,next:6129,nextCheck:64356,str:91,h:0,d0:0,d1:0;
+                                    ("game save canceled", Expression<String> @:6129 check:64356,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13855,h:0,d0:13855,d1:0;)))
+                            (False, Expression<Boolean> @:6130 check:64357,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:6817,h:1,d0:65280,d1:65535;)))
+                    (1, Expression<Short> @:6131 check:64358,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:6826,h:1,d0:1,d1:65535;))))))

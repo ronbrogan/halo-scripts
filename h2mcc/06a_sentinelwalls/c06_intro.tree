@@ -1,14 +1,14 @@
 
-("c06_intro", MethodDecl<Void> @:139 op:0,dt:0,nt:65535,next:4573,str:31456,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4573 op:0,dt:4,nt:8,next:65535,str:53457,d0:4574,d1:62801;
-        ("begin", Expression<MethodOrOperator> @:4574 op:0,dt:2,nt:9,next:4563,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4563 op:508,dt:4,nt:8,next:4566,str:53491,d0:4564,d1:62791;
-                ("switch_bsp_by_name", Expression<MethodOrOperator> @:4564 op:508,dt:2,nt:9,next:4565,str:7405,d0:0,d1:0;
-                    ("sentinelhq_1", Expression<Bsp> @:4565 op:26,dt:26,nt:9,next:65535,str:10848,d0:0,d1:0;)))
-            (____, BuiltinInvocation<Void> @:4566 op:19,dt:4,nt:8,next:4569,str:53527,d0:4567,d1:62794;
-                ("sleep", Expression<MethodOrOperator> @:4567 op:19,dt:2,nt:9,next:4568,str:80,d0:0,d1:0;
-                    (5, Expression<Short> @:4568 op:7,dt:7,nt:9,next:65535,str:53534,d0:5,d1:65535;)))
-            ("c06_intro_scene_01", ScriptInvocation<Void> @:4569 op:123,dt:4,nt:10,next:4571,str:53542,d0:4570,d1:62797;
-                ("c06_intro_scene_01", Expression<MethodOrOperator> @:4570 op:123,dt:2,nt:9,next:65535,str:10861,d0:0,d1:0;))
-            ("c06_intro_scene_02", ScriptInvocation<Void> @:4571 op:138,dt:4,nt:10,next:65535,str:53565,d0:4572,d1:62799;
-                ("c06_intro_scene_02", Expression<MethodOrOperator> @:4572 op:138,dt:2,nt:9,next:65535,str:10880,d0:0,d1:0;)))))
+("c06_intro", MethodDecl<Void> @:139 check:0,op:0,dt:0,nt:65535,next:4573,nextCheck:62800,str:31456,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4573 check:62800,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:53457,h:0,d0:4574,d1:62801;
+        ("begin", Expression<MethodOrOperator> @:4574 check:62801,op:0,dt:2,nt:9,next:4563,nextCheck:62790,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4563 check:62790,op:508,dt:4,nt:8,next:4566,nextCheck:62793,str:53491,h:0,d0:4564,d1:62791;
+                ("switch_bsp_by_name", Expression<MethodOrOperator> @:4564 check:62791,op:508,dt:2,nt:9,next:4565,nextCheck:62792,str:7405,h:0,d0:0,d1:0;
+                    ("sentinelhq_1", Expression<Bsp> @:4565 check:62792,op:26,dt:26,nt:9,next:65535,nextCheck:65535,str:10848,h:0,d0:0,d1:0;)))
+            (____, BuiltinInvocation<Void> @:4566 check:62793,op:19,dt:4,nt:8,next:4569,nextCheck:62796,str:53527,h:0,d0:4567,d1:62794;
+                ("sleep", Expression<MethodOrOperator> @:4567 check:62794,op:19,dt:2,nt:9,next:4568,nextCheck:62795,str:80,h:0,d0:0,d1:0;
+                    (5, Expression<Short> @:4568 check:62795,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:53534,h:0,d0:5,d1:65535;)))
+            ("c06_intro_scene_01", ScriptInvocation<Void> @:4569 check:62796,op:123,dt:4,nt:10,next:4571,nextCheck:62798,str:53542,h:0,d0:4570,d1:62797;
+                ("c06_intro_scene_01", Expression<MethodOrOperator> @:4570 check:62797,op:123,dt:2,nt:9,next:65535,nextCheck:65535,str:10861,h:0,d0:0,d1:0;))
+            ("c06_intro_scene_02", ScriptInvocation<Void> @:4571 check:62798,op:138,dt:4,nt:10,next:65535,nextCheck:65535,str:53565,h:0,d0:4572,d1:62799;
+                ("c06_intro_scene_02", Expression<MethodOrOperator> @:4572 check:62799,op:138,dt:2,nt:9,next:65535,nextCheck:65535,str:10880,h:0,d0:0,d1:0;)))))

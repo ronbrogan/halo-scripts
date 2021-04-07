@@ -1,16 +1,16 @@
 
-("objective_lower_specific_set", MethodDecl<Void> @:149 op:0,dt:0,nt:65535,next:4957,str:28523,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4957 op:0,dt:4,nt:8,next:65535,str:56906,d0:4958,d1:63185;
-        ("begin", Expression<MethodOrOperator> @:4958 op:0,dt:2,nt:9,next:4945,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4945 op:19,dt:4,nt:8,next:4948,str:56953,d0:4946,d1:63173;
-                ("sleep", Expression<MethodOrOperator> @:4946 op:19,dt:2,nt:9,next:4947,str:80,d0:0,d1:0;
-                    (30, Expression<Short> @:4947 op:7,dt:7,nt:9,next:65535,str:56960,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:4948 op:27,dt:4,nt:8,next:4951,str:56966,d0:4949,d1:63176;
-                ("print", Expression<MethodOrOperator> @:4949 op:27,dt:2,nt:9,next:4950,str:86,d0:0,d1:0;
-                    ("new objective set:", Expression<String> @:4950 op:9,dt:9,nt:9,next:65535,str:11391,d0:11391,d1:0;)))
-            (____, BuiltinInvocation<Void> @:4951 op:27,dt:4,nt:8,next:4954,str:56997,d0:4952,d1:63179;
-                ("print", Expression<MethodOrOperator> @:4952 op:27,dt:2,nt:9,next:4953,str:86,d0:0,d1:0;
-                    ("power-up the four absorbers to lower the containment-shield.", Expression<String> @:4953 op:9,dt:9,nt:9,next:65535,str:11482,d0:11482,d1:0;)))
-            (____, BuiltinInvocation<Void> @:4954 op:753,dt:4,nt:8,next:65535,str:57070,d0:4955,d1:63182;
-                ("objectives_show_up_to", Expression<MethodOrOperator> @:4955 op:753,dt:2,nt:9,next:4956,str:11440,d0:0,d1:0;
-                    (1, Expression<Int> @:4956 op:8,dt:8,nt:9,next:65535,str:57093,d0:1,d1:0;))))))
+("objective_lower_specific_set", MethodDecl<Void> @:149 check:0,op:0,dt:0,nt:65535,next:4957,nextCheck:63184,str:28523,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4957 check:63184,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:56906,h:0,d0:4958,d1:63185;
+        ("begin", Expression<MethodOrOperator> @:4958 check:63185,op:0,dt:2,nt:9,next:4945,nextCheck:63172,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4945 check:63172,op:19,dt:4,nt:8,next:4948,nextCheck:63175,str:56953,h:0,d0:4946,d1:63173;
+                ("sleep", Expression<MethodOrOperator> @:4946 check:63173,op:19,dt:2,nt:9,next:4947,nextCheck:63174,str:80,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:4947 check:63174,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:56960,h:0,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:4948 check:63175,op:27,dt:4,nt:8,next:4951,nextCheck:63178,str:56966,h:0,d0:4949,d1:63176;
+                ("print", Expression<MethodOrOperator> @:4949 check:63176,op:27,dt:2,nt:9,next:4950,nextCheck:63177,str:86,h:0,d0:0,d1:0;
+                    ("new objective set:", Expression<String> @:4950 check:63177,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:11391,h:0,d0:11391,d1:0;)))
+            (____, BuiltinInvocation<Void> @:4951 check:63178,op:27,dt:4,nt:8,next:4954,nextCheck:63181,str:56997,h:0,d0:4952,d1:63179;
+                ("print", Expression<MethodOrOperator> @:4952 check:63179,op:27,dt:2,nt:9,next:4953,nextCheck:63180,str:86,h:0,d0:0,d1:0;
+                    ("power-up the four absorbers to lower the containment-shield.", Expression<String> @:4953 check:63180,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:11482,h:0,d0:11482,d1:0;)))
+            (____, BuiltinInvocation<Void> @:4954 check:63181,op:753,dt:4,nt:8,next:65535,nextCheck:65535,str:57070,h:0,d0:4955,d1:63182;
+                ("objectives_show_up_to", Expression<MethodOrOperator> @:4955 check:63182,op:753,dt:2,nt:9,next:4956,nextCheck:63183,str:11440,h:0,d0:0,d1:0;
+                    (1, Expression<Int> @:4956 check:63183,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:57093,h:0,d0:1,d1:0;))))))

@@ -1,16 +1,16 @@
 
-("c05_3010_cor", MethodDecl<Void> @:70 op:0,dt:0,nt:65535,next:2027,str:5798,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2027 op:0,dt:4,nt:8,next:65535,str:24091,d0:2028,d1:60255;
-        ("begin", Expression<MethodOrOperator> @:2028 op:0,dt:2,nt:9,next:2015,str:142,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2015 op:19,dt:4,nt:8,next:2018,str:24122,d0:2016,d1:60243;
-                ("sleep", Expression<MethodOrOperator> @:2016 op:19,dt:2,nt:9,next:2017,str:221,d0:0,d1:0;
-                    (275, Expression<Short> @:2017 op:7,dt:7,nt:9,next:65535,str:24129,d0:275,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2018 op:596,dt:4,nt:8,next:2023,str:24136,d0:2019,d1:60246;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:2019 op:596,dt:2,nt:9,next:2020,str:1420,d0:0,d1:0;
-                    ("sound\dialog\levels\05_deltatemple\cinematics\c05_3010_cor", Expression<Sound> @:2020 op:32,dt:32,nt:9,next:2021,str:5739,d0:983,d1:58701;
-                        (4294967295, Expression<Entity> @:2021 op:50,dt:50,nt:9,next:2022,str:52,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:2022 op:6,dt:6,nt:9,next:65535,str:24221,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:2023 op:562,dt:4,nt:8,next:65535,str:24226,d0:2024,d1:60251;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:2024 op:562,dt:2,nt:9,next:2025,str:1681,d0:0,d1:0;
-                    ("c05_3010_cor", Expression<StringId> @:2025 op:11,dt:11,nt:9,next:2026,str:5798,d0:5060,d1:3072;
-                        (2f, Expression<Float> @:2026 op:6,dt:6,nt:9,next:65535,str:24259,d0:0,d1:16384;)))))))
+("c05_3010_cor", MethodDecl<Void> @:70 check:0,op:0,dt:0,nt:65535,next:2027,nextCheck:60254,str:5798,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2027 check:60254,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:24091,h:0,d0:2028,d1:60255;
+        ("begin", Expression<MethodOrOperator> @:2028 check:60255,op:0,dt:2,nt:9,next:2015,nextCheck:60242,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2015 check:60242,op:19,dt:4,nt:8,next:2018,nextCheck:60245,str:24122,h:0,d0:2016,d1:60243;
+                ("sleep", Expression<MethodOrOperator> @:2016 check:60243,op:19,dt:2,nt:9,next:2017,nextCheck:60244,str:221,h:0,d0:0,d1:0;
+                    (275, Expression<Short> @:2017 check:60244,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:24129,h:0,d0:275,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:2018 check:60245,op:596,dt:4,nt:8,next:2023,nextCheck:60250,str:24136,h:0,d0:2019,d1:60246;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:2019 check:60246,op:596,dt:2,nt:9,next:2020,nextCheck:60247,str:1420,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\05_deltatemple\cinematics\c05_3010_cor", Expression<Sound> @:2020 check:60247,op:32,dt:32,nt:9,next:2021,nextCheck:60248,str:5739,h:0,d0:983,d1:58701;
+                        (4294967295, Expression<Entity> @:2021 check:60248,op:50,dt:50,nt:9,next:2022,nextCheck:60249,str:52,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:2022 check:60249,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:24221,h:0,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:2023 check:60250,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:24226,h:0,d0:2024,d1:60251;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:2024 check:60251,op:562,dt:2,nt:9,next:2025,nextCheck:60252,str:1681,h:0,d0:0,d1:0;
+                    ("c05_3010_cor", Expression<StringId> @:2025 check:60252,op:11,dt:11,nt:9,next:2026,nextCheck:60253,str:5798,h:0,d0:5060,d1:3072;
+                        (2f, Expression<Float> @:2026 check:60253,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:24259,h:0,d0:0,d1:16384;)))))))

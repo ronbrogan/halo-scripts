@@ -1,12 +1,12 @@
 
-("music_08a_01_start", MethodDecl<Void> @:75 op:0,dt:0,nt:65535,next:2436,str:16837,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:2436 op:0,dt:4,nt:8,next:65535,str:28785,d0:2437,d1:60664;
-        ("begin", Expression<MethodOrOperator> @:2437 op:0,dt:2,nt:9,next:2428,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2428 op:27,dt:4,nt:8,next:2431,str:28822,d0:2429,d1:60656;
-                ("print", Expression<MethodOrOperator> @:2429 op:27,dt:2,nt:9,next:2430,str:149,d0:0,d1:0;
-                    ("music 08a_01 start", Expression<String> @:2430 op:9,dt:9,nt:9,next:65535,str:5395,d0:5395,d1:0;)))
-            (____, BuiltinInvocation<Void> @:2431 op:605,dt:4,nt:8,next:65535,str:28853,d0:2432,d1:60659;
-                ("sound_looping_start", Expression<MethodOrOperator> @:2432 op:605,dt:2,nt:9,next:2433,str:5414,d0:0,d1:0;
-                    ("scenarios\solo\08a_deltacliffs\08a_music\08a_01", Expression<LoopingSound> @:2433 op:35,dt:35,nt:9,next:2434,str:5296,d0:7095,d1:65006;
-                        (4294967295, Expression<Entity> @:2434 op:50,dt:50,nt:9,next:2435,str:1,d0:65535,d1:65535;
-                            (1f, Expression<Float> @:2435 op:6,dt:6,nt:9,next:65535,str:28929,d0:0,d1:16256;))))))))
+("music_08a_01_start", MethodDecl<Void> @:75 check:0,op:0,dt:0,nt:65535,next:2436,nextCheck:60663,str:16837,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:2436 check:60663,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28785,h:0,d0:2437,d1:60664;
+        ("begin", Expression<MethodOrOperator> @:2437 check:60664,op:0,dt:2,nt:9,next:2428,nextCheck:60655,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2428 check:60655,op:27,dt:4,nt:8,next:2431,nextCheck:60658,str:28822,h:0,d0:2429,d1:60656;
+                ("print", Expression<MethodOrOperator> @:2429 check:60656,op:27,dt:2,nt:9,next:2430,nextCheck:60657,str:149,h:0,d0:0,d1:0;
+                    ("music 08a_01 start", Expression<String> @:2430 check:60657,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:5395,h:0,d0:5395,d1:0;)))
+            (____, BuiltinInvocation<Void> @:2431 check:60658,op:605,dt:4,nt:8,next:65535,nextCheck:65535,str:28853,h:0,d0:2432,d1:60659;
+                ("sound_looping_start", Expression<MethodOrOperator> @:2432 check:60659,op:605,dt:2,nt:9,next:2433,nextCheck:60660,str:5414,h:0,d0:0,d1:0;
+                    ("scenarios\solo\08a_deltacliffs\08a_music\08a_01", Expression<LoopingSound> @:2433 check:60660,op:35,dt:35,nt:9,next:2434,nextCheck:60661,str:5296,h:0,d0:7095,d1:65006;
+                        (4294967295, Expression<Entity> @:2434 check:60661,op:50,dt:50,nt:9,next:2435,nextCheck:60662,str:1,h:0,d0:65535,d1:65535;
+                            (1f, Expression<Float> @:2435 check:60662,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:28929,h:0,d0:0,d1:16256;))))))))

@@ -1,19 +1,19 @@
 
-("e12_dia_tickle_c", MethodDecl<Void> @:164 op:0,dt:0,nt:65535,next:4559,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:4559 op:0,dt:4,nt:8,next:65535,str:57232,d0:4560,d1:62787;
-        ("begin", Expression<MethodOrOperator> @:4560 op:0,dt:2,nt:9,next:4544,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:4544 op:2,dt:4,nt:8,next:4550,str:57267,d0:4545,d1:62772;
-                ("if", Expression<MethodOrOperator> @:4545 op:2,dt:2,nt:9,next:4546,str:456,d0:0,d1:0;
-                    ("dialogue", VariableAccess<Boolean> @:4546 op:5,dt:5,nt:13,next:4547,str:10462,d0:3,d1:0;
-                        (____, BuiltinInvocation<Void> @:4547 op:27,dt:4,nt:8,next:65535,str:57280,d0:4548,d1:62775;
-                            ("print", Expression<MethodOrOperator> @:4548 op:27,dt:2,nt:9,next:4549,str:86,d0:0,d1:0;
-                                ("cortana: chief! leave me!", Expression<String> @:4549 op:9,dt:9,nt:9,next:65535,str:13384,d0:13384,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:4550 op:19,dt:4,nt:8,next:4556,str:57319,d0:4551,d1:62778;
-                ("sleep", Expression<MethodOrOperator> @:4551 op:19,dt:2,nt:9,next:4552,str:80,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:4552 op:362,dt:7,nt:8,next:65535,str:57326,d0:4553,d1:62780;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4553 op:362,dt:2,nt:9,next:4554,str:10552,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:4554 op:50,dt:50,nt:9,next:4555,str:1386,d0:65535,d1:65535;
-                                ("3000", Expression<StringId> @:4555 op:11,dt:11,nt:9,next:65535,str:13410,d0:13585,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:4556 op:19,dt:4,nt:8,next:65535,str:57364,d0:4557,d1:62784;
-                ("sleep", Expression<MethodOrOperator> @:4557 op:19,dt:2,nt:9,next:4558,str:80,d0:0,d1:0;
-                    ("dialogue_pause", VariableAccess<Short> @:4558 op:7,dt:7,nt:13,next:65535,str:10580,d0:4,d1:0;))))))
+("e12_dia_tickle_c", MethodDecl<Void> @:164 check:0,op:0,dt:0,nt:65535,next:4559,nextCheck:62786,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:4559 check:62786,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:57232,h:0,d0:4560,d1:62787;
+        ("begin", Expression<MethodOrOperator> @:4560 check:62787,op:0,dt:2,nt:9,next:4544,nextCheck:62771,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4544 check:62771,op:2,dt:4,nt:8,next:4550,nextCheck:62777,str:57267,h:0,d0:4545,d1:62772;
+                ("if", Expression<MethodOrOperator> @:4545 check:62772,op:2,dt:2,nt:9,next:4546,nextCheck:62773,str:456,h:0,d0:0,d1:0;
+                    ("dialogue", VariableAccess<Boolean> @:4546 check:62773,op:5,dt:5,nt:13,next:4547,nextCheck:62774,str:10462,h:0,d0:3,d1:0;
+                        (____, BuiltinInvocation<Void> @:4547 check:62774,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:57280,h:0,d0:4548,d1:62775;
+                            ("print", Expression<MethodOrOperator> @:4548 check:62775,op:27,dt:2,nt:9,next:4549,nextCheck:62776,str:86,h:0,d0:0,d1:0;
+                                ("cortana: chief! leave me!", Expression<String> @:4549 check:62776,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13384,h:0,d0:13384,d1:0;))))))
+            (____, BuiltinInvocation<Void> @:4550 check:62777,op:19,dt:4,nt:8,next:4556,nextCheck:62783,str:57319,h:0,d0:4551,d1:62778;
+                ("sleep", Expression<MethodOrOperator> @:4551 check:62778,op:19,dt:2,nt:9,next:4552,nextCheck:62779,str:80,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:4552 check:62779,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:57326,h:0,d0:4553,d1:62780;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:4553 check:62780,op:362,dt:2,nt:9,next:4554,nextCheck:62781,str:10552,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:4554 check:62781,op:50,dt:50,nt:9,next:4555,nextCheck:62782,str:1386,h:0,d0:65535,d1:65535;
+                                ("3000", Expression<StringId> @:4555 check:62782,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:13410,h:0,d0:13585,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:4556 check:62783,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:57364,h:0,d0:4557,d1:62784;
+                ("sleep", Expression<MethodOrOperator> @:4557 check:62784,op:19,dt:2,nt:9,next:4558,nextCheck:62785,str:80,h:0,d0:0,d1:0;
+                    ("dialogue_pause", VariableAccess<Short> @:4558 check:62785,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:10580,h:0,d0:4,d1:0;))))))

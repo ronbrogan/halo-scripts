@@ -1,13 +1,13 @@
 
-("sleep_tower1", MethodDecl<Void> @:291 op:0,dt:0,nt:65535,next:20460,str:32505,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:20460 op:0,dt:4,nt:8,next:65535,str:20321,d0:20461,d1:45921;
-        ("begin", Expression<MethodOrOperator> @:20461 op:0,dt:2,nt:9,next:20451,str:142,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:20451 op:20,dt:4,nt:8,next:20454,str:20356,d0:20452,d1:45912;
-                ("sleep_forever", Expression<MethodOrOperator> @:20452 op:20,dt:2,nt:9,next:20453,str:8566,d0:0,d1:0;
-                    ("tower1_start", Expression<ScriptReference> @:20453 op:10,dt:10,nt:9,next:65535,str:31915,d0:143,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:20454 op:20,dt:4,nt:8,next:20457,str:20387,d0:20455,d1:45915;
-                ("sleep_forever", Expression<MethodOrOperator> @:20455 op:20,dt:2,nt:9,next:20456,str:8566,d0:0,d1:0;
-                    ("tower1_holo_looper", Expression<ScriptReference> @:20456 op:10,dt:10,nt:9,next:65535,str:10816,d0:140,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:20457 op:20,dt:4,nt:8,next:65535,str:20424,d0:20458,d1:45918;
-                ("sleep_forever", Expression<MethodOrOperator> @:20458 op:20,dt:2,nt:9,next:20459,str:8566,d0:0,d1:0;
-                    ("tower1_cortana_comment", Expression<ScriptReference> @:20459 op:10,dt:10,nt:9,next:65535,str:10967,d0:142,d1:65535;))))))
+("sleep_tower1", MethodDecl<Void> @:291 check:0,op:0,dt:0,nt:65535,next:20460,nextCheck:45920,str:32505,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:20460 check:45920,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:20321,h:3,d0:20461,d1:45921;
+        ("begin", Expression<MethodOrOperator> @:20461 check:45921,op:0,dt:2,nt:9,next:20451,nextCheck:45911,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:20451 check:45911,op:20,dt:4,nt:8,next:20454,nextCheck:45914,str:20356,h:3,d0:20452,d1:45912;
+                ("sleep_forever", Expression<MethodOrOperator> @:20452 check:45912,op:20,dt:2,nt:9,next:20453,nextCheck:45913,str:8566,h:0,d0:0,d1:0;
+                    ("tower1_start", Expression<ScriptReference> @:20453 check:45913,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:31915,h:0,d0:143,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:20454 check:45914,op:20,dt:4,nt:8,next:20457,nextCheck:45917,str:20387,h:3,d0:20455,d1:45915;
+                ("sleep_forever", Expression<MethodOrOperator> @:20455 check:45915,op:20,dt:2,nt:9,next:20456,nextCheck:45916,str:8566,h:0,d0:0,d1:0;
+                    ("tower1_holo_looper", Expression<ScriptReference> @:20456 check:45916,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:10816,h:0,d0:140,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:20457 check:45917,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:20424,h:3,d0:20458,d1:45918;
+                ("sleep_forever", Expression<MethodOrOperator> @:20458 check:45918,op:20,dt:2,nt:9,next:20459,nextCheck:45919,str:8566,h:0,d0:0,d1:0;
+                    ("tower1_cortana_comment", Expression<ScriptReference> @:20459 check:45919,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:10967,h:0,d0:142,d1:65535;))))))

@@ -1,20 +1,20 @@
 
-("effect_big_foot", MethodDecl<Void> @:114 op:0,dt:0,nt:65535,next:3951,str:8693,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:3951 op:0,dt:4,nt:8,next:65535,str:43570,d0:3952,d1:62179;
-        ("begin", Expression<MethodOrOperator> @:3952 op:0,dt:2,nt:9,next:3935,str:64,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:3935 op:676,dt:4,nt:8,next:3937,str:43604,d0:3936,d1:62163;
-                ("time_code_reset", Expression<MethodOrOperator> @:3936 op:676,dt:2,nt:9,next:65535,str:5243,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:3937 op:19,dt:4,nt:8,next:3940,str:43624,d0:3938,d1:62165;
-                ("sleep", Expression<MethodOrOperator> @:3938 op:19,dt:2,nt:9,next:3939,str:143,d0:0,d1:0;
-                    (126, Expression<Short> @:3939 op:7,dt:7,nt:9,next:65535,str:43631,d0:126,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3940 op:27,dt:4,nt:8,next:3943,str:43638,d0:3941,d1:62168;
-                ("print", Expression<MethodOrOperator> @:3941 op:27,dt:2,nt:9,next:3942,str:149,d0:0,d1:0;
-                    ("big foot", Expression<String> @:3942 op:9,dt:9,nt:9,next:65535,str:8462,d0:8462,d1:0;)))
-            (____, BuiltinInvocation<Void> @:3943 op:42,dt:4,nt:8,next:3947,str:43659,d0:3944,d1:62171;
-                ("damage_new", Expression<MethodOrOperator> @:3944 op:42,dt:2,nt:9,next:3945,str:8084,d0:0,d1:0;
-                    ("objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion", Expression<DamageEffect> @:3945 op:34,dt:34,nt:9,next:3946,str:8095,d0:1014,d1:58732;
-                        ("bus_flag_01", Expression<LocationFlag> @:3946 op:14,dt:14,nt:9,next:65535,str:8471,d0:40,d1:0;))))
-            (____, BuiltinInvocation<Void> @:3947 op:42,dt:4,nt:8,next:65535,str:43761,d0:3948,d1:62175;
-                ("damage_new", Expression<MethodOrOperator> @:3948 op:42,dt:2,nt:9,next:3949,str:8084,d0:0,d1:0;
-                    ("objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion", Expression<DamageEffect> @:3949 op:34,dt:34,nt:9,next:3950,str:8095,d0:1014,d1:58732;
-                        ("bus_flag_02", Expression<LocationFlag> @:3950 op:14,dt:14,nt:9,next:65535,str:8483,d0:41,d1:0;)))))))
+("effect_big_foot", MethodDecl<Void> @:114 check:0,op:0,dt:0,nt:65535,next:3951,nextCheck:62178,str:8693,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:3951 check:62178,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:43570,h:0,d0:3952,d1:62179;
+        ("begin", Expression<MethodOrOperator> @:3952 check:62179,op:0,dt:2,nt:9,next:3935,nextCheck:62162,str:64,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:3935 check:62162,op:676,dt:4,nt:8,next:3937,nextCheck:62164,str:43604,h:0,d0:3936,d1:62163;
+                ("time_code_reset", Expression<MethodOrOperator> @:3936 check:62163,op:676,dt:2,nt:9,next:65535,nextCheck:65535,str:5243,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:3937 check:62164,op:19,dt:4,nt:8,next:3940,nextCheck:62167,str:43624,h:0,d0:3938,d1:62165;
+                ("sleep", Expression<MethodOrOperator> @:3938 check:62165,op:19,dt:2,nt:9,next:3939,nextCheck:62166,str:143,h:0,d0:0,d1:0;
+                    (126, Expression<Short> @:3939 check:62166,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:43631,h:0,d0:126,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:3940 check:62167,op:27,dt:4,nt:8,next:3943,nextCheck:62170,str:43638,h:0,d0:3941,d1:62168;
+                ("print", Expression<MethodOrOperator> @:3941 check:62168,op:27,dt:2,nt:9,next:3942,nextCheck:62169,str:149,h:0,d0:0,d1:0;
+                    ("big foot", Expression<String> @:3942 check:62169,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8462,h:0,d0:8462,d1:0;)))
+            (____, BuiltinInvocation<Void> @:3943 check:62170,op:42,dt:4,nt:8,next:3947,nextCheck:62174,str:43659,h:0,d0:3944,d1:62171;
+                ("damage_new", Expression<MethodOrOperator> @:3944 check:62171,op:42,dt:2,nt:9,next:3945,nextCheck:62172,str:8084,h:0,d0:0,d1:0;
+                    ("objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion", Expression<DamageEffect> @:3945 check:62172,op:34,dt:34,nt:9,next:3946,nextCheck:62173,str:8095,h:0,d0:1014,d1:58732;
+                        ("bus_flag_01", Expression<LocationFlag> @:3946 check:62173,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:8471,h:0,d0:40,d1:0;))))
+            (____, BuiltinInvocation<Void> @:3947 check:62174,op:42,dt:4,nt:8,next:65535,nextCheck:65535,str:43761,h:0,d0:3948,d1:62175;
+                ("damage_new", Expression<MethodOrOperator> @:3948 check:62175,op:42,dt:2,nt:9,next:3949,nextCheck:62176,str:8084,h:0,d0:0,d1:0;
+                    ("objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion", Expression<DamageEffect> @:3949 check:62176,op:34,dt:34,nt:9,next:3950,nextCheck:62177,str:8095,h:0,d0:1014,d1:58732;
+                        ("bus_flag_02", Expression<LocationFlag> @:3950 check:62177,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:8483,h:0,d0:41,d1:0;)))))))

@@ -1,13 +1,13 @@
 
-("objective_truth_clear", MethodDecl<Void> @:224 op:0,dt:0,nt:65535,next:8118,str:42972,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:8118 op:0,dt:4,nt:8,next:65535,str:39689,d0:8119,d1:33579;
-        ("begin", Expression<MethodOrOperator> @:8119 op:0,dt:2,nt:9,next:8109,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:8109 op:27,dt:4,nt:8,next:8112,str:39729,d0:8110,d1:33570;
-                ("print", Expression<MethodOrOperator> @:8110 op:27,dt:2,nt:9,next:8111,str:86,d0:0,d1:0;
-                    ("objective complete:", Expression<String> @:8111 op:9,dt:9,nt:9,next:65535,str:18790,d0:18790,d1:0;)))
-            (____, BuiltinInvocation<Void> @:8112 op:27,dt:4,nt:8,next:8115,str:39761,d0:8113,d1:33573;
-                ("print", Expression<MethodOrOperator> @:8113 op:27,dt:2,nt:9,next:8114,str:86,d0:0,d1:0;
-                    ("follow the prophet of truth to the far tower.", Expression<String> @:8114 op:9,dt:9,nt:9,next:65535,str:18888,d0:18888,d1:0;)))
-            (____, BuiltinInvocation<Void> @:8115 op:754,dt:4,nt:8,next:65535,str:39819,d0:8116,d1:33576;
-                ("objectives_finish_up_to", Expression<MethodOrOperator> @:8116 op:754,dt:2,nt:9,next:8117,str:18810,d0:0,d1:0;
-                    (2, Expression<Int> @:8117 op:8,dt:8,nt:9,next:65535,str:39844,d0:2,d1:0;))))))
+("objective_truth_clear", MethodDecl<Void> @:224 check:0,op:0,dt:0,nt:65535,next:8118,nextCheck:33578,str:42972,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:8118 check:33578,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:39689,h:1,d0:8119,d1:33579;
+        ("begin", Expression<MethodOrOperator> @:8119 check:33579,op:0,dt:2,nt:9,next:8109,nextCheck:33569,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:8109 check:33569,op:27,dt:4,nt:8,next:8112,nextCheck:33572,str:39729,h:1,d0:8110,d1:33570;
+                ("print", Expression<MethodOrOperator> @:8110 check:33570,op:27,dt:2,nt:9,next:8111,nextCheck:33571,str:86,h:0,d0:0,d1:0;
+                    ("objective complete:", Expression<String> @:8111 check:33571,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18790,h:0,d0:18790,d1:0;)))
+            (____, BuiltinInvocation<Void> @:8112 check:33572,op:27,dt:4,nt:8,next:8115,nextCheck:33575,str:39761,h:1,d0:8113,d1:33573;
+                ("print", Expression<MethodOrOperator> @:8113 check:33573,op:27,dt:2,nt:9,next:8114,nextCheck:33574,str:86,h:0,d0:0,d1:0;
+                    ("follow the prophet of truth to the far tower.", Expression<String> @:8114 check:33574,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18888,h:0,d0:18888,d1:0;)))
+            (____, BuiltinInvocation<Void> @:8115 check:33575,op:754,dt:4,nt:8,next:65535,nextCheck:65535,str:39819,h:1,d0:8116,d1:33576;
+                ("objectives_finish_up_to", Expression<MethodOrOperator> @:8116 check:33576,op:754,dt:2,nt:9,next:8117,nextCheck:33577,str:18810,h:0,d0:0,d1:0;
+                    (2, Expression<Int> @:8117 check:33577,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:39844,h:1,d0:2,d1:0;))))))

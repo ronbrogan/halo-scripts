@@ -1,16 +1,16 @@
 
-("cs_trm1_moveto_alock_miranda", MethodDecl<Void> @:358 op:0,dt:0,nt:65535,next:16650,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:16650 op:0,dt:4,nt:8,next:65535,str:4803,d0:16651,d1:42111;
-        ("begin", Expression<MethodOrOperator> @:16651 op:0,dt:2,nt:9,next:16638,str:11,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:16638 op:448,dt:4,nt:8,next:16641,str:4857,d0:16639,d1:42099;
-                ("cs_force_combat_status", Expression<MethodOrOperator> @:16639 op:448,dt:2,nt:9,next:16640,str:15913,d0:0,d1:0;
-                    (2, Expression<Short> @:16640 op:7,dt:7,nt:9,next:65535,str:4881,d0:2,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16641 op:444,dt:4,nt:8,next:16644,str:4886,d0:16642,d1:42102;
-                ("cs_enable_moving", Expression<MethodOrOperator> @:16642 op:444,dt:2,nt:9,next:16643,str:37929,d0:0,d1:0;
-                    (False, Expression<Boolean> @:16643 op:5,dt:5,nt:9,next:65535,str:4904,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16644 op:449,dt:4,nt:8,next:16647,str:4909,d0:16645,d1:42105;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:16645 op:449,dt:2,nt:9,next:16646,str:15936,d0:0,d1:0;
-                    (True, Expression<Boolean> @:16646 op:5,dt:5,nt:9,next:65535,str:4941,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:16647 op:385,dt:4,nt:8,next:65535,str:4946,d0:16648,d1:42108;
-                ("cs_go_to", Expression<MethodOrOperator> @:16648 op:385,dt:2,nt:9,next:16649,str:15967,d0:0,d1:0;
-                    ("trm1/alock_miranda", Expression<SpatialPoint> @:16649 op:28,dt:28,nt:9,next:65535,str:38417,d0:2,d1:3;))))))
+("cs_trm1_moveto_alock_miranda", MethodDecl<Void> @:358 check:0,op:0,dt:0,nt:65535,next:16650,nextCheck:42110,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:16650 check:42110,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:4803,h:3,d0:16651,d1:42111;
+        ("begin", Expression<MethodOrOperator> @:16651 check:42111,op:0,dt:2,nt:9,next:16638,nextCheck:42098,str:11,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:16638 check:42098,op:448,dt:4,nt:8,next:16641,nextCheck:42101,str:4857,h:3,d0:16639,d1:42099;
+                ("cs_force_combat_status", Expression<MethodOrOperator> @:16639 check:42099,op:448,dt:2,nt:9,next:16640,nextCheck:42100,str:15913,h:0,d0:0,d1:0;
+                    (2, Expression<Short> @:16640 check:42100,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:4881,h:3,d0:2,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16641 check:42101,op:444,dt:4,nt:8,next:16644,nextCheck:42104,str:4886,h:3,d0:16642,d1:42102;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:16642 check:42102,op:444,dt:2,nt:9,next:16643,nextCheck:42103,str:37929,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:16643 check:42103,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:4904,h:3,d0:65280,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16644 check:42104,op:449,dt:4,nt:8,next:16647,nextCheck:42107,str:4909,h:3,d0:16645,d1:42105;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:16645 check:42105,op:449,dt:2,nt:9,next:16646,nextCheck:42106,str:15936,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:16646 check:42106,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:4941,h:3,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:16647 check:42107,op:385,dt:4,nt:8,next:65535,nextCheck:65535,str:4946,h:3,d0:16648,d1:42108;
+                ("cs_go_to", Expression<MethodOrOperator> @:16648 check:42108,op:385,dt:2,nt:9,next:16649,nextCheck:42109,str:15967,h:0,d0:0,d1:0;
+                    ("trm1/alock_miranda", Expression<SpatialPoint> @:16649 check:42109,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:38417,h:0,d0:2,d1:3;))))))
