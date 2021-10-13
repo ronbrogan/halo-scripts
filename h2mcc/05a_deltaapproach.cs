@@ -62,7 +62,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.sound_offset = 15;
             this.prediction_offset = 45;
             this.straggler_no = 0;
-            this.phantom_boom = Engine.GetTag<EffectTag>("effects\\scenarios\\solo\\deltatemple\\phantom_explosion", 2230395574U);
+            this.phantom_boom = Engine.GetTag<EffectTag>("effects\\scenarios\\solo\\deltatemple\\phantom_explosion", 2263819425U);
             this.lz_turret_count = 2;
             this.lz_mounted_up = false;
             this.ride_ally_comment_go = false;
@@ -463,7 +463,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_score_01()
         {
             await Engine.sleep(40);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\music\\x05_01_mus", 3838444372U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\music\\x05_01_mus", 3838903131U), default(IGameObject), 1F);
             Engine.print("x05 score 01 start");
         }
 
@@ -471,7 +471,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_foley_01()
         {
             await Engine.sleep(0);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_01_fol", 3838509909U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_01_fol", 3838968668U), default(IGameObject), 1F);
             Engine.print("x05 foley 01 start");
         }
 
@@ -536,20 +536,20 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.cinematic_letterbox_style = 1;
             Engine.camera_set_field_of_view(60F, 0);
             await this.x05_01_predict_stub();
-            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\music\\x05_01_mus", 3838444372U));
-            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_01_fol", 3838509909U));
+            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\music\\x05_01_mus", 3838903131U));
+            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_01_fol", 3838968668U));
             await Engine.sleep(this.prediction_offset);
             await this.x05_01_setup();
-            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\x05\\x05", 3838575446U), "x05_01", default(IUnit), anchor_flag_x05);
-            Engine.scenery_animation_start_relative(iac.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad\\x05\\x05", 3838640983U), "iac_01", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(carrier.Entity, Engine.GetTag<AnimationGraphTag>("scenarios\\objects\\covenant\\military\\capital_ship\\x05\\x05", 3838706520U), "capital_ship_01", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(x05_debris.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\effects\\x05_building_debris\\x05\\x05", 3838772057U), "debris_01", anchor_x05.Entity);
+            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\x05\\x05", 3839034205U), "x05_01", default(IUnit), anchor_flag_x05);
+            Engine.scenery_animation_start_relative(iac.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad\\x05\\x05", 3839099742U), "iac_01", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(carrier.Entity, Engine.GetTag<AnimationGraphTag>("scenarios\\objects\\covenant\\military\\capital_ship\\x05\\x05", 3839165279U), "capital_ship_01", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(x05_debris.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\effects\\x05_building_debris\\x05\\x05", 3839230816U), "debris_01", anchor_x05.Entity);
             Engine.fade_in(0F, 0F, 0F, 30);
             await Engine.sleep((short)((float)Engine.camera_time() - this.prediction_offset));
             await this.x05_02_predict_stub();
             await this.x05_02_problem_actors();
             await Engine.sleep((short)((float)Engine.camera_time() - this.sound_offset));
-            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_02_fol", 3838837594U));
+            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_02_fol", 3839296353U));
             await Engine.sleep((short)Engine.camera_time());
             await this.x05_01_cleanup();
         }
@@ -558,7 +558,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_foley_02()
         {
             await Engine.sleep(0);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_02_fol", 3838837594U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_02_fol", 3839296353U), default(IGameObject), 1F);
             Engine.print("x05 foley 02 start");
         }
 
@@ -566,7 +566,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0010_mir()
         {
             await Engine.sleep(0);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0010_mir", 3838903131U), miranda.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0010_mir", 3839361890U), miranda.Entity, 1F);
             Engine.cinematic_subtitle("x05_0010_mir", 1F);
             Engine.unit_set_emotional_state(miranda.Entity, "shocked", 0.5F, 15);
             Engine.print("miranda - shocked .5 15");
@@ -583,7 +583,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0020_mir()
         {
             await Engine.sleep(25);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0020_mir", 3838968668U), miranda.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0020_mir", 3839427427U), miranda.Entity, 1F);
             Engine.cinematic_subtitle("x05_0020_mir", 1F);
         }
 
@@ -591,7 +591,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0030_no1()
         {
             await Engine.sleep(51);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0030_no1", 3839034205U), nav_officer.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0030_no1", 3839492964U), nav_officer.Entity, 1F);
             Engine.cinematic_subtitle("x05_0030_no1", 2F);
         }
 
@@ -599,7 +599,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0040_wo1()
         {
             await Engine.sleep(127);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0040_wo1", 3839099742U), weap_officer.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0040_wo1", 3839558501U), weap_officer.Entity, 1F);
             Engine.cinematic_subtitle("x05_0040_wo1", 2F);
         }
 
@@ -607,7 +607,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0050_mir()
         {
             await Engine.sleep(204);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0050_mir", 3839165279U), miranda.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0050_mir", 3839624038U), miranda.Entity, 1F);
             Engine.cinematic_subtitle("x05_0050_mir", 2F);
         }
 
@@ -615,7 +615,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0060_mir()
         {
             await Engine.sleep(272);
-            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0060_mir", 3839230816U), default(IGameObject), 1F, "radio_default_in");
+            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0060_mir", 3839689575U), default(IGameObject), 1F, "radio_default_in");
             Engine.cinematic_subtitle("x05_0060_mir", 2F);
         }
 
@@ -623,7 +623,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0070_mir()
         {
             await Engine.sleep(327);
-            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0070_mir", 3839296353U), default(IGameObject), 1F, "radio_default_out");
+            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0070_mir", 3839755112U), default(IGameObject), 1F, "radio_default_out");
             Engine.cinematic_subtitle("x05_0070_mir", 1F);
             await Engine.sleep(27);
             Engine.unit_set_emotional_state(johnson.Entity, "inquisitive", 0.5F, 10);
@@ -634,7 +634,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0080_jon()
         {
             await Engine.sleep(367);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0080_jon", 3839361890U), johnson.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0080_jon", 3839820649U), johnson.Entity, 1F);
             Engine.cinematic_subtitle("x05_0080_jon", 2F);
         }
 
@@ -642,7 +642,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0090_cor()
         {
             await Engine.sleep(437);
-            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0090_cor", 3839427427U), default(IGameObject), 1F, "radio_default_loop");
+            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0090_cor", 3839886186U), default(IGameObject), 1F, "radio_default_loop");
             Engine.cinematic_subtitle("x05_0090_cor", 1F);
         }
 
@@ -650,7 +650,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0100_no1()
         {
             await Engine.sleep(481);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0100_no1", 3839492964U), nav_officer.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0100_no1", 3839951723U), nav_officer.Entity, 1F);
             Engine.cinematic_subtitle("x05_0100_no1", 3F);
             Engine.unit_set_emotional_state(miranda.Entity, "pensive", 0.5F, 0);
             Engine.print("miranda - pensive .5 0");
@@ -671,7 +671,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0110_mir()
         {
             await Engine.sleep(594);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0110_mir", 3839558501U), miranda.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0110_mir", 3840017260U), miranda.Entity, 1F);
             Engine.cinematic_subtitle("x05_0110_mir", 3F);
         }
 
@@ -810,24 +810,24 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_scene_02()
         {
             await this.x05_02_setup();
-            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\x05\\x05", 3838575446U), "x05_02", default(IUnit), anchor_flag_x05);
-            Engine.custom_animation_relative(miranda.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\miranda\\x05\\x05", 3839624038U), "miranda_02", false, anchor_x05.Entity);
-            Engine.custom_animation_relative(chief.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\masterchief\\x05\\x05", 3844146091U), "chief_02", false, anchor_x05.Entity);
-            Engine.custom_animation_relative(johnson.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x05\\x05", 3844211628U), "johnson_02", false, anchor_x05.Entity);
-            Engine.custom_animation_relative(nav_officer.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x05\\x05", 3844211628U), "nav_02", false, anchor_x05.Entity);
-            Engine.custom_animation_relative(weap_officer.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x05\\x05", 3844211628U), "weap_02", false, anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(cigar.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\cigar\\cigar_bent\\x05\\x05", 3844342702U), "cigar_bent_02", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev01_02", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev02_02", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev03_02", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_04.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev04_02", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(iac_bridge.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad_bridge\\x05\\x05", 3844473776U), "bridge_02", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_bay.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad_hevbay\\x05\\x05", 3844539313U), "hevbay_02", anchor_x05.Entity);
+            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\x05\\x05", 3839034205U), "x05_02", default(IUnit), anchor_flag_x05);
+            Engine.custom_animation_relative(miranda.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\miranda\\x05\\x05", 3840082797U), "miranda_02", false, anchor_x05.Entity);
+            Engine.custom_animation_relative(chief.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\masterchief\\x05\\x05", 3844604850U), "chief_02", false, anchor_x05.Entity);
+            Engine.custom_animation_relative(johnson.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x05\\x05", 3844670387U), "johnson_02", false, anchor_x05.Entity);
+            Engine.custom_animation_relative(nav_officer.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x05\\x05", 3844670387U), "nav_02", false, anchor_x05.Entity);
+            Engine.custom_animation_relative(weap_officer.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x05\\x05", 3844670387U), "weap_02", false, anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(cigar.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\cigar\\cigar_bent\\x05\\x05", 3844801461U), "cigar_bent_02", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev01_02", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev02_02", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev03_02", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_04.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev04_02", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(iac_bridge.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad_bridge\\x05\\x05", 3844932535U), "bridge_02", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_bay.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad_hevbay\\x05\\x05", 3844998072U), "hevbay_02", anchor_x05.Entity);
             await Engine.sleep((short)((float)Engine.camera_time() - this.prediction_offset));
             await this.x05_03_predict_stub();
             await Engine.sleep((short)((float)Engine.camera_time() - this.sound_offset));
-            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\music\\x05_03_mus", 3844604850U));
-            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_03_fol", 3844670387U));
+            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\music\\x05_03_mus", 3845063609U));
+            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_03_fol", 3845129146U));
             await Engine.sleep((short)Engine.camera_time());
         }
 
@@ -835,7 +835,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_score_03()
         {
             await Engine.sleep(113);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\music\\x05_03_mus", 3844604850U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\music\\x05_03_mus", 3845063609U), default(IGameObject), 1F);
             Engine.print("x05 score 03 start");
         }
 
@@ -843,7 +843,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_foley_03()
         {
             await Engine.sleep(0);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_03_fol", 3844670387U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_03_fol", 3845129146U), default(IGameObject), 1F);
             Engine.print("x05 foley 03 start");
         }
 
@@ -851,7 +851,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0120_cor()
         {
             await Engine.sleep(60);
-            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0120_cor", 3844735924U), default(IGameObject), 1F, "radio_default_loop");
+            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0120_cor", 3845194683U), default(IGameObject), 1F, "radio_default_loop");
             Engine.cinematic_subtitle("x05_0120_cor", 2F);
         }
 
@@ -878,15 +878,15 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_scene_03()
         {
             await this.x05_03_setup();
-            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\x05\\x05", 3838575446U), "x05_03", default(IUnit), anchor_flag_x05);
-            Engine.scenery_animation_start_relative(iac.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad\\x05\\x05", 3838640983U), "iac_03", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(x05_debris.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\effects\\x05_building_debris\\x05\\x05", 3838772057U), "debris_03", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(delta_halo.Entity, Engine.GetTag<AnimationGraphTag>("scenarios\\objects\\forerunner\\industrial\\halo\\x05\\x05", 3844801461U), "halo_03", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(matte_substance.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\matte_paintings\\substance_space\\x05\\x05", 3844866998U), "substance_space_03", anchor_x05.Entity);
+            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\x05\\x05", 3839034205U), "x05_03", default(IUnit), anchor_flag_x05);
+            Engine.scenery_animation_start_relative(iac.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad\\x05\\x05", 3839099742U), "iac_03", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(x05_debris.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\effects\\x05_building_debris\\x05\\x05", 3839230816U), "debris_03", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(delta_halo.Entity, Engine.GetTag<AnimationGraphTag>("scenarios\\objects\\forerunner\\industrial\\halo\\x05\\x05", 3845260220U), "halo_03", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(matte_substance.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\matte_paintings\\substance_space\\x05\\x05", 3845325757U), "substance_space_03", anchor_x05.Entity);
             await Engine.sleep((short)((float)Engine.camera_time() - this.prediction_offset));
             await this.x05_04_predict_stub();
             await Engine.sleep((short)((float)Engine.camera_time() - this.sound_offset));
-            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_04_fol", 3844932535U));
+            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_04_fol", 3845391294U));
             await Engine.sleep((short)Engine.camera_time());
             Engine.object_destroy(x05_debris.Entity);
         }
@@ -895,7 +895,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_foley_04()
         {
             await Engine.sleep(0);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_04_fol", 3844932535U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_04_fol", 3845391294U), default(IGameObject), 1F);
             Engine.print("x05 foley 04 start");
         }
 
@@ -903,7 +903,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0130_jon()
         {
             await Engine.sleep(12);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0130_jon", 3844998072U), johnson.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0130_jon", 3845456831U), johnson.Entity, 1F);
             Engine.cinematic_subtitle("x05_0130_jon", 1F);
             Engine.unit_set_emotional_state(johnson.Entity, "shocked", 0.75F, 10);
             Engine.print("johnson - shocked .75 10");
@@ -915,7 +915,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.unit_set_emotional_state(miranda.Entity, "shocked", 0.25F, 0);
             Engine.print("miranda - shocked .25 0");
             await Engine.sleep(63);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0140_mir", 3845063609U), miranda.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0140_mir", 3845522368U), miranda.Entity, 1F);
             Engine.cinematic_subtitle("x05_0140_mir", 2F);
             Engine.unit_set_emotional_state(miranda.Entity, "pain", 0.25F, 60);
             Engine.print("miranda - pain .25 60");
@@ -925,7 +925,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0150_mir()
         {
             await Engine.sleep(132);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0150_mir", 3845129146U), miranda.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0150_mir", 3845587905U), miranda.Entity, 1F);
             Engine.cinematic_subtitle("x05_0150_mir", 2F);
         }
 
@@ -933,7 +933,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0160_cor()
         {
             await Engine.sleep(202);
-            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0160_cor", 3845194683U), default(IGameObject), 1F, "radio_default_loop");
+            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0160_cor", 3845653442U), default(IGameObject), 1F, "radio_default_loop");
             Engine.cinematic_subtitle("x05_0160_cor", 4F);
         }
 
@@ -941,7 +941,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0170_mir()
         {
             await Engine.sleep(340);
-            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0170_mir", 3845260220U), default(IGameObject), 1F, "radio_default_loop");
+            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0170_mir", 3845718979U), default(IGameObject), 1F, "radio_default_loop");
             Engine.cinematic_subtitle("x05_0170_mir", 3F);
         }
 
@@ -949,7 +949,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0180_mir()
         {
             await Engine.sleep(418);
-            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0180_mir", 3845325757U), default(IGameObject), 1F, "radio_default_loop");
+            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0180_mir", 3845784516U), default(IGameObject), 1F, "radio_default_loop");
             Engine.cinematic_subtitle("x05_0180_mir", 2F);
             Engine.unit_set_emotional_state(miranda.Entity, "angry", 0.25F, 0);
             Engine.print("miranda - angry .25 0");
@@ -959,7 +959,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0181_mir()
         {
             await Engine.sleep(483);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0181_mir", 3845391294U), miranda.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0181_mir", 3845850053U), miranda.Entity, 1F);
             Engine.cinematic_subtitle("x05_0181_mir", 2F);
             Engine.texture_camera_off();
         }
@@ -968,7 +968,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0190_cor()
         {
             await Engine.sleep(550);
-            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0190_cor", 3845456831U), default(IGameObject), 1F, "radio_default_loop");
+            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0190_cor", 3845915590U), default(IGameObject), 1F, "radio_default_loop");
             Engine.cinematic_subtitle("x05_0190_cor", 1F);
         }
 
@@ -976,7 +976,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0200_mir()
         {
             await Engine.sleep(573);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0200_mir", 3845522368U), miranda.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0200_mir", 3845981127U), miranda.Entity, 1F);
             Engine.cinematic_subtitle("x05_0200_mir", 1F);
         }
 
@@ -984,7 +984,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0210_wo1()
         {
             await Engine.sleep(602);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0210_wo1", 3845587905U), weap_officer.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0210_wo1", 3846046664U), weap_officer.Entity, 1F);
             Engine.cinematic_subtitle("x05_0210_wo1", 3F);
             Engine.unit_set_emotional_state(weap_officer.Entity, "pensive", 0.5F, 60);
             Engine.print("weap_officer - pensive .5 60");
@@ -994,7 +994,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0220_mir()
         {
             await Engine.sleep(704);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0220_mir", 3845653442U), miranda.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0220_mir", 3846112201U), miranda.Entity, 1F);
             Engine.cinematic_subtitle("x05_0220_mir", 1F);
         }
 
@@ -1003,7 +1003,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             Engine.object_create_anew(texture_camera);
             Engine.texture_camera_set_object_marker(texture_camera.Entity, "marker", 50F);
-            Engine.scenery_animation_start_relative(texture_camera.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\texture_camera\\x05\\x05", 3845718979U), "texture_camera_04", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(texture_camera.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\texture_camera\\x05\\x05", 3846177738U), "texture_camera_04", anchor_x05.Entity);
         }
 
         [ScriptMethod(82, Lifecycle.Dormant)]
@@ -1101,23 +1101,23 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_scene_04()
         {
             await this.x05_04_setup();
-            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\x05\\x05", 3838575446U), "x05_04", default(IUnit), anchor_flag_x05);
-            Engine.custom_animation_relative(miranda.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\miranda\\x05\\x05", 3839624038U), "miranda_04", false, anchor_x05.Entity);
-            Engine.custom_animation_relative(chief.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\masterchief\\x05\\x05", 3844146091U), "chief_04", false, anchor_x05.Entity);
-            Engine.custom_animation_relative(johnson.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x05\\x05", 3844211628U), "johnson_04", false, anchor_x05.Entity);
-            Engine.custom_animation_relative(nav_officer.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x05\\x05", 3844211628U), "nav_04", false, anchor_x05.Entity);
-            Engine.custom_animation_relative(weap_officer.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x05\\x05", 3844211628U), "weap_04", false, anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(cigar.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\cigar\\cigar_bent\\x05\\x05", 3844342702U), "cigar_bent_04", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev01_04", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev02_04", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(iac_bridge.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad_bridge\\x05\\x05", 3844473776U), "bridge_04", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_bay.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad_hevbay\\x05\\x05", 3844539313U), "hevbay_04", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(delta_halo.Entity, Engine.GetTag<AnimationGraphTag>("scenarios\\objects\\forerunner\\industrial\\halo\\x05\\x05", 3844801461U), "halo_04", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(matte_substance.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\matte_paintings\\substance_space\\x05\\x05", 3844866998U), "substance_space_04", anchor_x05.Entity);
+            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\x05\\x05", 3839034205U), "x05_04", default(IUnit), anchor_flag_x05);
+            Engine.custom_animation_relative(miranda.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\miranda\\x05\\x05", 3840082797U), "miranda_04", false, anchor_x05.Entity);
+            Engine.custom_animation_relative(chief.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\masterchief\\x05\\x05", 3844604850U), "chief_04", false, anchor_x05.Entity);
+            Engine.custom_animation_relative(johnson.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x05\\x05", 3844670387U), "johnson_04", false, anchor_x05.Entity);
+            Engine.custom_animation_relative(nav_officer.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x05\\x05", 3844670387U), "nav_04", false, anchor_x05.Entity);
+            Engine.custom_animation_relative(weap_officer.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x05\\x05", 3844670387U), "weap_04", false, anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(cigar.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\cigar\\cigar_bent\\x05\\x05", 3844801461U), "cigar_bent_04", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev01_04", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev02_04", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(iac_bridge.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad_bridge\\x05\\x05", 3844932535U), "bridge_04", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_bay.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad_hevbay\\x05\\x05", 3844998072U), "hevbay_04", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(delta_halo.Entity, Engine.GetTag<AnimationGraphTag>("scenarios\\objects\\forerunner\\industrial\\halo\\x05\\x05", 3845260220U), "halo_04", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(matte_substance.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\matte_paintings\\substance_space\\x05\\x05", 3845325757U), "substance_space_04", anchor_x05.Entity);
             await Engine.sleep((short)((float)Engine.camera_time() - this.prediction_offset));
             await this.x05_05_predict_stub();
             await Engine.sleep((short)((float)Engine.camera_time() - this.sound_offset));
-            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_05_fol", 3845784516U));
+            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_05_fol", 3846243275U));
             await Engine.sleep((short)Engine.camera_time());
             await this.x05_04_cleanup();
         }
@@ -1126,7 +1126,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_foley_05()
         {
             await Engine.sleep(0);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_05_fol", 3845784516U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_05_fol", 3846243275U), default(IGameObject), 1F);
             Engine.print("x05 foley 05 start");
         }
 
@@ -1134,7 +1134,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0230_mir()
         {
             await Engine.sleep(0);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0230_mir", 3845850053U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0230_mir", 3846308812U), default(IGameObject), 1F);
             Engine.cinematic_subtitle("x05_0230_mir", 6F);
         }
 
@@ -1160,15 +1160,15 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this.x05_05_setup();
             Engine.camera_set_field_of_view(60F, 0);
             Engine.print("fov change: 34 -> 60 over 0 ticks");
-            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\x05\\x05", 3838575446U), "x05_05", default(IUnit), anchor_flag_x05);
-            Engine.scenery_animation_start_relative(iac.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad\\x05\\x05", 3838640983U), "iac_05", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(delta_halo.Entity, Engine.GetTag<AnimationGraphTag>("scenarios\\objects\\forerunner\\industrial\\halo\\x05\\x05", 3844801461U), "halo_05", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(matte_substance.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\matte_paintings\\substance_space\\x05\\x05", 3844866998U), "substance_space_05", anchor_x05.Entity);
+            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\x05\\x05", 3839034205U), "x05_05", default(IUnit), anchor_flag_x05);
+            Engine.scenery_animation_start_relative(iac.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad\\x05\\x05", 3839099742U), "iac_05", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(delta_halo.Entity, Engine.GetTag<AnimationGraphTag>("scenarios\\objects\\forerunner\\industrial\\halo\\x05\\x05", 3845260220U), "halo_05", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(matte_substance.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\matte_paintings\\substance_space\\x05\\x05", 3845325757U), "substance_space_05", anchor_x05.Entity);
             await Engine.sleep((short)((float)Engine.camera_time() - this.prediction_offset));
             await this.x05_06a_predict_stub();
             await Engine.sleep((short)((float)Engine.camera_time() - this.sound_offset));
-            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\music\\x05_06a_mus", 3845915590U));
-            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_06a_fol", 3845981127U));
+            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\music\\x05_06a_mus", 3846374349U));
+            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_06a_fol", 3846439886U));
             await Engine.sleep((short)Engine.camera_time());
         }
 
@@ -1176,7 +1176,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_score_06a()
         {
             await Engine.sleep(113);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\music\\x05_06a_mus", 3845915590U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\music\\x05_06a_mus", 3846374349U), default(IGameObject), 1F);
             Engine.print("x05 score 06a start");
         }
 
@@ -1184,7 +1184,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_foley_06a()
         {
             await Engine.sleep(0);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_06a_fol", 3845981127U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_06a_fol", 3846439886U), default(IGameObject), 1F);
             Engine.print("x05 foley 06a start");
         }
 
@@ -1192,7 +1192,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0240_mir()
         {
             await Engine.sleep(0);
-            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0240_mir", 3846046664U), default(IGameObject), 1F, "radio_default_in");
+            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0240_mir", 3846505423U), default(IGameObject), 1F, "radio_default_in");
             Engine.cinematic_subtitle("x05_0240_mir", 4F);
         }
 
@@ -1226,16 +1226,16 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_scene_06a()
         {
             await this.x05_06a_setup();
-            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\x05\\x05", 3838575446U), "x05_06a", default(IUnit), anchor_flag_x05);
-            Engine.custom_animation_relative(chief.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\masterchief\\x05\\x05", 3844146091U), "chief_06a", false, anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev01_06a", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_bay.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad_hevbay\\x05\\x05", 3844539313U), "hevbay_06a", anchor_x05.Entity);
+            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\x05\\x05", 3839034205U), "x05_06a", default(IUnit), anchor_flag_x05);
+            Engine.custom_animation_relative(chief.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\masterchief\\x05\\x05", 3844604850U), "chief_06a", false, anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev01_06a", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_bay.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad_hevbay\\x05\\x05", 3844998072U), "hevbay_06a", anchor_x05.Entity);
             Engine.cinematic_screen_effect_start(true);
             await Engine.sleep((short)((float)Engine.camera_time() - this.prediction_offset));
             await this.x05_06b_predict_stub();
             await this.x05_06b_problem_actors();
             await Engine.sleep((short)((float)Engine.camera_time() - this.sound_offset));
-            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_06b_fol", 3846112201U));
+            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_06b_fol", 3846570960U));
             await Engine.sleep((short)((float)Engine.camera_time() - 5));
             Engine.cinematic_screen_effect_set_crossfade(1F);
             await Engine.sleep(5);
@@ -1245,7 +1245,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_foley_06b()
         {
             await Engine.sleep(0);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_06b_fol", 3846112201U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_06b_fol", 3846570960U), default(IGameObject), 1F);
             Engine.print("x05 foley 06b start");
         }
 
@@ -1253,7 +1253,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0250_mir()
         {
             await Engine.sleep(9);
-            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0250_mir", 3846177738U), default(IGameObject), 1F, "radio_default_loop");
+            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0250_mir", 3846636497U), default(IGameObject), 1F, "radio_default_loop");
             Engine.cinematic_subtitle("x05_0250_mir", 3F);
         }
 
@@ -1261,7 +1261,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0260_jon()
         {
             await Engine.sleep(89);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0260_jon", 3846243275U), johnson.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0260_jon", 3846702034U), johnson.Entity, 1F);
             Engine.cinematic_subtitle("x05_0260_jon", 1F);
         }
 
@@ -1269,7 +1269,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0270_mir()
         {
             await Engine.sleep(125);
-            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0270_mir", 3846308812U), default(IGameObject), 1F, "radio_default_loop");
+            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0270_mir", 3846767571U), default(IGameObject), 1F, "radio_default_loop");
             Engine.cinematic_subtitle("x05_0270_mir", 3F);
         }
 
@@ -1277,7 +1277,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0280_mir()
         {
             await Engine.sleep(225);
-            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0280_mir", 3846374349U), default(IGameObject), 1F, "radio_default_out");
+            Engine.sound_impulse_start_effect(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0280_mir", 3846833108U), default(IGameObject), 1F, "radio_default_out");
             Engine.cinematic_subtitle("x05_0280_mir", 2F);
         }
 
@@ -1285,7 +1285,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0290_mas()
         {
             await Engine.sleep(320);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0290_mas", 3846439886U), chief.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0290_mas", 3846898645U), chief.Entity, 1F);
             Engine.cinematic_subtitle("x05_0290_mas", 1F);
         }
 
@@ -1293,7 +1293,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0300_wo1()
         {
             await Engine.sleep(356);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0300_wo1", 3846505423U), weap_officer.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0300_wo1", 3846964182U), weap_officer.Entity, 1F);
             Engine.cinematic_subtitle("x05_0300_wo1", 2F);
         }
 
@@ -1350,18 +1350,18 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_scene_06b()
         {
             await this.x05_06b_setup();
-            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\x05\\x05", 3838575446U), "x05_06b", default(IUnit), anchor_flag_x05);
-            Engine.custom_animation_relative(miranda.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\miranda\\x05\\x05", 3839624038U), "miranda_06b", false, anchor_x05.Entity);
-            Engine.custom_animation_relative(chief.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\masterchief\\x05\\x05", 3844146091U), "chief_06b", false, anchor_x05.Entity);
-            Engine.custom_animation_relative(johnson.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x05\\x05", 3844211628U), "johnson_06b", false, anchor_x05.Entity);
-            Engine.custom_animation_relative(nav_officer.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x05\\x05", 3844211628U), "nav_06b", false, anchor_x05.Entity);
-            Engine.custom_animation_relative(weap_officer.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x05\\x05", 3844211628U), "weap_06b", false, anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev01_06b", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev02_06b", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev03_06b", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_04.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev04_06b", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(iac_bridge.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad_bridge\\x05\\x05", 3844473776U), "bridge_06b", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_bay.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad_hevbay\\x05\\x05", 3844539313U), "hevbay_06b", anchor_x05.Entity);
+            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\x05\\x05", 3839034205U), "x05_06b", default(IUnit), anchor_flag_x05);
+            Engine.custom_animation_relative(miranda.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\miranda\\x05\\x05", 3840082797U), "miranda_06b", false, anchor_x05.Entity);
+            Engine.custom_animation_relative(chief.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\masterchief\\x05\\x05", 3844604850U), "chief_06b", false, anchor_x05.Entity);
+            Engine.custom_animation_relative(johnson.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x05\\x05", 3844670387U), "johnson_06b", false, anchor_x05.Entity);
+            Engine.custom_animation_relative(nav_officer.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x05\\x05", 3844670387U), "nav_06b", false, anchor_x05.Entity);
+            Engine.custom_animation_relative(weap_officer.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x05\\x05", 3844670387U), "weap_06b", false, anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev01_06b", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev02_06b", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev03_06b", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_04.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev04_06b", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(iac_bridge.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad_bridge\\x05\\x05", 3844932535U), "bridge_06b", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_bay.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad_hevbay\\x05\\x05", 3844998072U), "hevbay_06b", anchor_x05.Entity);
             await Engine.sleep((short)((float)Engine.camera_time() - this.prediction_offset));
             await this.x05_07_predict_stub();
             await Engine.sleep((short)((float)Engine.camera_time() - 15));
@@ -1382,15 +1382,15 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_scene_07()
         {
             Engine.wake(new ScriptMethodReference(x05_cinematic_lighting_scene_07));
-            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\x05\\x05", 3838575446U), "x05_07", default(IUnit), anchor_flag_x05);
+            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\x05\\x05", 3839034205U), "x05_07", default(IUnit), anchor_flag_x05);
             Engine.camera_set_field_of_view(60F, 0);
-            Engine.scenery_animation_start_relative(iac.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad\\x05\\x05", 3838640983U), "iac_07", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(matte_substance.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\matte_paintings\\substance_space\\x05\\x05", 3844866998U), "substance_space_07", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(matte_delta_halo_close.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\matte_paintings\\delta_halo_close\\x05\\x05", 3846570960U), "delta_halo_close_07", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(iac.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad\\x05\\x05", 3839099742U), "iac_07", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(matte_substance.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\matte_paintings\\substance_space\\x05\\x05", 3845325757U), "substance_space_07", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(matte_delta_halo_close.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\matte_paintings\\delta_halo_close\\x05\\x05", 3847029719U), "delta_halo_close_07", anchor_x05.Entity);
             await Engine.sleep((short)((float)Engine.camera_time() - this.prediction_offset));
             await this.x05_08_predict_stub();
             await Engine.sleep((short)((float)Engine.camera_time() - this.sound_offset));
-            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_08_fol", 3846636497U));
+            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_08_fol", 3847095256U));
             await Engine.sleep((short)Engine.camera_time());
         }
 
@@ -1398,7 +1398,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_foley_08()
         {
             await Engine.sleep(0);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_08_fol", 3846636497U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\x05\\foley\\x05_08_fol", 3847095256U), default(IGameObject), 1F);
             Engine.print("x05 foley 08 start");
         }
 
@@ -1406,7 +1406,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_0310_cor()
         {
             await Engine.sleep(9);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0310_cor", 3846702034U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\x05_0310_cor", 3847160793U), default(IGameObject), 1F);
             Engine.cinematic_subtitle("x05_0310_cor", 1F);
         }
 
@@ -1414,20 +1414,20 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task effect_hev_release()
         {
             await Engine.sleep(40);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_explosive_bolt", 3846767571U), hev_bay.Entity, "explosive_bolt06");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_launch_steam", 3846833108U), hev_bay.Entity, "steam_vent06");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_explosive_bolt", 3847226330U), hev_bay.Entity, "explosive_bolt06");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_launch_steam", 3847291867U), hev_bay.Entity, "steam_vent06");
             Engine.print("effects - first hev");
             await Engine.sleep(56);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_explosive_bolt", 3846767571U), hev_bay.Entity, "explosive_bolt05");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_launch_steam", 3846833108U), hev_bay.Entity, "steam_vent05");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_explosive_bolt", 3847226330U), hev_bay.Entity, "explosive_bolt05");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_launch_steam", 3847291867U), hev_bay.Entity, "steam_vent05");
             Engine.print("effects - second hev");
             await Engine.sleep(37);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_explosive_bolt", 3846767571U), hev_bay.Entity, "explosive_bolt04");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_launch_steam", 3846833108U), hev_bay.Entity, "steam_vent04");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_explosive_bolt", 3847226330U), hev_bay.Entity, "explosive_bolt04");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_launch_steam", 3847291867U), hev_bay.Entity, "steam_vent04");
             Engine.print("effects - second hev");
             await Engine.sleep(29);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_explosive_bolt", 3846767571U), hev_bay.Entity, "explosive_bolt03");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_launch_steam", 3846833108U), hev_bay.Entity, "steam_vent03");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_explosive_bolt", 3847226330U), hev_bay.Entity, "explosive_bolt03");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_launch_steam", 3847291867U), hev_bay.Entity, "steam_vent03");
             Engine.print("effects - second hev");
         }
 
@@ -1435,7 +1435,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task effect_corona()
         {
             await Engine.sleep(320);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_start", 3846964182U), hev_10.Entity, "");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_start", 3847422941U), hev_10.Entity, "");
             Engine.print("effect - re-entry corona");
         }
 
@@ -1501,29 +1501,29 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_scene_08()
         {
             await this.x05_08_setup();
-            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\x05\\x05", 3838575446U), "x05_08", default(IUnit), anchor_flag_x05);
-            Engine.scenery_animation_start_relative(iac.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad\\x05\\x05", 3838640983U), "iac_08", anchor_x05.Entity);
-            Engine.custom_animation_relative(chief.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\masterchief\\x05\\x05", 3844146091U), "chief_08", false, anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev01_08", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev02_08", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev03_08", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_04.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev04_08", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_05.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev05_08", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_06.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev06_08", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(delta_halo.Entity, Engine.GetTag<AnimationGraphTag>("scenarios\\objects\\forerunner\\industrial\\halo\\x05\\x05", 3844801461U), "halo_08", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_bay.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad_hevbay\\x05\\x05", 3844539313U), "hevbay_08", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(matte_delta_halo_close.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\matte_paintings\\delta_halo_close\\x05\\x05", 3846570960U), "delta_halo_close_08", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_07.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev07_08", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_08.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev08_08", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_09.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev09_08", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_10.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev10_08", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_11.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev11_08", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_12.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev12_08", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_13.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev13_08", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_14.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev14_08", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_15.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev15_08", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_16.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev16_08", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_17.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844408239U), "hev17_08", anchor_x05.Entity);
+            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\x05\\x05", 3839034205U), "x05_08", default(IUnit), anchor_flag_x05);
+            Engine.scenery_animation_start_relative(iac.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad\\x05\\x05", 3839099742U), "iac_08", anchor_x05.Entity);
+            Engine.custom_animation_relative(chief.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\masterchief\\x05\\x05", 3844604850U), "chief_08", false, anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev01_08", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev02_08", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev03_08", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_04.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev04_08", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_05.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev05_08", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_06.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev06_08", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(delta_halo.Entity, Engine.GetTag<AnimationGraphTag>("scenarios\\objects\\forerunner\\industrial\\halo\\x05\\x05", 3845260220U), "halo_08", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_bay.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\inamberclad_hevbay\\x05\\x05", 3844998072U), "hevbay_08", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(matte_delta_halo_close.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\matte_paintings\\delta_halo_close\\x05\\x05", 3847029719U), "delta_halo_close_08", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_07.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev07_08", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_08.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev08_08", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_09.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev09_08", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_10.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev10_08", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_11.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev11_08", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_12.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev12_08", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_13.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev13_08", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_14.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev14_08", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_15.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev15_08", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_16.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev16_08", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_17.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\x05\\x05", 3844866998U), "hev17_08", anchor_x05.Entity);
             await Engine.sleep((short)((float)Engine.camera_time() - 5));
             Engine.fade_out(1F, 1F, 1F, 5);
             await Engine.sleep(5);
@@ -1552,7 +1552,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task c05_intro_foley_01()
         {
             await Engine.sleep(0);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\c05_intro\\foley\\c05_intro_01_fol", 3847029719U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\c05_intro\\foley\\c05_intro_01_fol", 3847488478U), default(IGameObject), 1F);
             Engine.print("c05_intro foley 01 start");
         }
 
@@ -1560,25 +1560,25 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task c05_1010_cor()
         {
             await Engine.sleep(192);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\c05_1010_cor", 3847095256U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\c05_1010_cor", 3847554015U), default(IGameObject), 1F);
             Engine.cinematic_subtitle("c05_1010_cor", 1F);
         }
 
         [ScriptMethod(132, Lifecycle.Dormant)]
         public async Task effect_burn_contrails()
         {
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_burn", 3847160793U), corona_02.Entity, "");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_contrail", 3847226330U), corona_02.Entity, "");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_burn", 3847160793U), corona_03.Entity, "");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_contrail", 3847226330U), corona_03.Entity, "");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_burn", 3847160793U), corona_04.Entity, "");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_contrail", 3847226330U), corona_04.Entity, "");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_burn", 3847160793U), corona_05.Entity, "");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_contrail", 3847226330U), corona_05.Entity, "");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_burn", 3847160793U), corona_06.Entity, "");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_contrail", 3847226330U), corona_06.Entity, "");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_burn", 3847160793U), corona_07.Entity, "");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_contrail", 3847226330U), corona_07.Entity, "");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_burn", 3847619552U), corona_02.Entity, "");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_contrail", 3847685089U), corona_02.Entity, "");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_burn", 3847619552U), corona_03.Entity, "");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_contrail", 3847685089U), corona_03.Entity, "");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_burn", 3847619552U), corona_04.Entity, "");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_contrail", 3847685089U), corona_04.Entity, "");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_burn", 3847619552U), corona_05.Entity, "");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_contrail", 3847685089U), corona_05.Entity, "");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_burn", 3847619552U), corona_06.Entity, "");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_contrail", 3847685089U), corona_06.Entity, "");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_burn", 3847619552U), corona_07.Entity, "");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_reentry_contrail", 3847685089U), corona_07.Entity, "");
             Engine.print("effect - burn, contrail");
         }
 
@@ -1587,7 +1587,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep(259);
             Engine.print("effect - chute pins");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_explosive_bolt", 3846767571U), hev_02.Entity, "cable_release");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_explosive_bolt", 3847226330U), hev_02.Entity, "cable_release");
         }
 
         [ScriptMethod(134, Lifecycle.Dormant)]
@@ -1595,7 +1595,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep(264);
             Engine.print("effect - retro rockets");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847422941U), hev_02.Entity, "retro_rocket");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847881700U), hev_02.Entity, "retro_rocket");
         }
 
         [ScriptMethod(135, Lifecycle.Dormant)]
@@ -1710,30 +1710,30 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.cinematic_letterbox_style = 1;
             Engine.camera_set_field_of_view(60F, 0);
             await this._05_intro_01_predict_stub();
-            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\c05_intro\\foley\\c05_intro_01_fol", 3847029719U));
+            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\c05_intro\\foley\\c05_intro_01_fol", 3847488478U));
             await Engine.sleep(this.prediction_offset);
             await this.c05_intro_01_setup();
-            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\05_intro\\05_intro", 3847619552U), "05_intro_01", default(IUnit), anchor_flag_x05);
-            Engine.custom_animation_relative(chief.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\masterchief\\05_intro\\05_intro", 3847685089U), "chief_01", false, anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev01_01", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev02_01", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev03_01", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_04.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev04_01", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_05.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev05_01", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_06.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev06_01", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_07.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev07_01", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(hev_chute.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\hev_chute\\05_intro\\05_intro", 3847816163U), "hev_chute_01", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(corona_02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev_reentry\\05_intro\\05_intro", 3847881700U), "hev_reentry02_01", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(corona_03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev_reentry\\05_intro\\05_intro", 3847881700U), "hev_reentry03_01", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(corona_04.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev_reentry\\05_intro\\05_intro", 3847881700U), "hev_reentry04_01", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(corona_05.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev_reentry\\05_intro\\05_intro", 3847881700U), "hev_reentry05_01", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(corona_06.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev_reentry\\05_intro\\05_intro", 3847881700U), "hev_reentry06_01", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(corona_07.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev_reentry\\05_intro\\05_intro", 3847881700U), "hev_reentry07_01", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(matte_horizon.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\matte_paintings\\delta_horizon\\05_intro\\05_intro", 3847947237U), "delta_horizon_01", anchor_x05.Entity);
-            Engine.scenery_animation_start_relative(matte_islands.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\matte_paintings\\delta_islands\\05_intro\\05_intro", 3848012774U), "delta_islands_01", anchor_x05.Entity);
+            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\05_intro\\05_intro", 3848078311U), "05_intro_01", default(IUnit), anchor_flag_x05);
+            Engine.custom_animation_relative(chief.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\masterchief\\05_intro\\05_intro", 3848143848U), "chief_01", false, anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev01_01", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev02_01", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev03_01", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_04.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev04_01", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_05.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev05_01", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_06.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev06_01", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_07.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev07_01", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(hev_chute.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\hev_chute\\05_intro\\05_intro", 3848274922U), "hev_chute_01", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(corona_02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev_reentry\\05_intro\\05_intro", 3848340459U), "hev_reentry02_01", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(corona_03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev_reentry\\05_intro\\05_intro", 3848340459U), "hev_reentry03_01", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(corona_04.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev_reentry\\05_intro\\05_intro", 3848340459U), "hev_reentry04_01", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(corona_05.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev_reentry\\05_intro\\05_intro", 3848340459U), "hev_reentry05_01", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(corona_06.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev_reentry\\05_intro\\05_intro", 3848340459U), "hev_reentry06_01", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(corona_07.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev_reentry\\05_intro\\05_intro", 3848340459U), "hev_reentry07_01", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(matte_horizon.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\matte_paintings\\delta_horizon\\05_intro\\05_intro", 3848405996U), "delta_horizon_01", anchor_x05.Entity);
+            Engine.scenery_animation_start_relative(matte_islands.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\matte_paintings\\delta_islands\\05_intro\\05_intro", 3848471533U), "delta_islands_01", anchor_x05.Entity);
             Engine.fade_in(1F, 1F, 1F, 15);
             await Engine.sleep((short)((float)Engine.camera_time() - this.sound_offset));
-            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\c05_intro\\foley\\c05_intro_02_fol", 3848078311U));
+            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\c05_intro\\foley\\c05_intro_02_fol", 3848537070U));
             await Engine.sleep((short)((float)Engine.camera_time() - 15));
             Engine.fade_out(1F, 1F, 1F, 15);
             await Engine.sleep(15);
@@ -1785,7 +1785,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task c05_intro_foley_02()
         {
             await Engine.sleep(0);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\c05_intro\\foley\\c05_intro_02_fol", 3848078311U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\c05_intro\\foley\\c05_intro_02_fol", 3848537070U), default(IGameObject), 1F);
             Engine.print("c05_intro foley 02 start");
         }
 
@@ -1794,13 +1794,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep(1);
             Engine.print("effect - retro-rockets");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847422941U), hev_close_01.Entity, "retro_rocket");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847422941U), hev_close_02.Entity, "retro_rocket");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847422941U), hev_close_03.Entity, "retro_rocket");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847422941U), hev_close_04.Entity, "retro_rocket");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847422941U), hev_close_05.Entity, "retro_rocket");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847422941U), hev_close_06.Entity, "retro_rocket");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847422941U), hev_close_07.Entity, "retro_rocket");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847881700U), hev_close_01.Entity, "retro_rocket");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847881700U), hev_close_02.Entity, "retro_rocket");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847881700U), hev_close_03.Entity, "retro_rocket");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847881700U), hev_close_04.Entity, "retro_rocket");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847881700U), hev_close_05.Entity, "retro_rocket");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847881700U), hev_close_06.Entity, "retro_rocket");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847881700U), hev_close_07.Entity, "retro_rocket");
         }
 
         [ScriptMethod(145, Lifecycle.Dormant)]
@@ -1808,13 +1808,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep(310);
             Engine.print("effect - retro-rockets");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847422941U), hev_close_01.Entity, "retro_rocket");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847422941U), hev_close_02.Entity, "retro_rocket");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847422941U), hev_close_03.Entity, "retro_rocket");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847422941U), hev_close_04.Entity, "retro_rocket");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847422941U), hev_close_05.Entity, "retro_rocket");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847422941U), hev_close_06.Entity, "retro_rocket");
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847422941U), hev_close_07.Entity, "retro_rocket");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847881700U), hev_close_01.Entity, "retro_rocket");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847881700U), hev_close_02.Entity, "retro_rocket");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847881700U), hev_close_03.Entity, "retro_rocket");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847881700U), hev_close_04.Entity, "retro_rocket");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847881700U), hev_close_05.Entity, "retro_rocket");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847881700U), hev_close_06.Entity, "retro_rocket");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_retro_rocket", 3847881700U), hev_close_07.Entity, "retro_rocket");
         }
 
         [ScriptMethod(146, Lifecycle.Dormant)]
@@ -1902,23 +1902,23 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await this._05_intro_02_predict_stub();
             await Engine.sleep(this.prediction_offset);
             await this.c05_intro_02_setup();
-            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\05_intro\\05_intro", 3847619552U), "05_intro_02", default(IUnit), anchor_flag_intro);
-            Engine.custom_animation_relative(grunt_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\grunt\\05_intro\\05_intro", 3848143848U), "grunt_02", false, anchor_intro.Entity);
-            Engine.custom_animation_relative(jackal_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\jackal\\05_intro\\05_intro", 3848209385U), "jackal_02", false, anchor_intro.Entity);
-            Engine.custom_animation_relative(intro_turret.Entity, Engine.GetTag<AnimationGraphTag>("objects\\vehicles\\c_turret_ap\\05_intro\\05_intro", 3848274922U), "turret_02", false, anchor_intro.Entity);
-            Engine.scenery_animation_start_relative(hev_close_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev01_02", anchor_intro.Entity);
-            Engine.scenery_animation_start_relative(hev_close_02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev02_02", anchor_intro.Entity);
-            Engine.scenery_animation_start_relative(hev_close_03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev03_02", anchor_intro.Entity);
-            Engine.scenery_animation_start_relative(hev_close_04.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev04_02", anchor_intro.Entity);
-            Engine.scenery_animation_start_relative(hev_close_05.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev05_02", anchor_intro.Entity);
-            Engine.scenery_animation_start_relative(hev_close_06.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev06_02", anchor_intro.Entity);
-            Engine.scenery_animation_start_relative(hev_close_07.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev07_02", anchor_intro.Entity);
+            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\05_intro\\05_intro", 3848078311U), "05_intro_02", default(IUnit), anchor_flag_intro);
+            Engine.custom_animation_relative(grunt_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\grunt\\05_intro\\05_intro", 3848602607U), "grunt_02", false, anchor_intro.Entity);
+            Engine.custom_animation_relative(jackal_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\jackal\\05_intro\\05_intro", 3848668144U), "jackal_02", false, anchor_intro.Entity);
+            Engine.custom_animation_relative(intro_turret.Entity, Engine.GetTag<AnimationGraphTag>("objects\\vehicles\\c_turret_ap\\05_intro\\05_intro", 3848733681U), "turret_02", false, anchor_intro.Entity);
+            Engine.scenery_animation_start_relative(hev_close_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev01_02", anchor_intro.Entity);
+            Engine.scenery_animation_start_relative(hev_close_02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev02_02", anchor_intro.Entity);
+            Engine.scenery_animation_start_relative(hev_close_03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev03_02", anchor_intro.Entity);
+            Engine.scenery_animation_start_relative(hev_close_04.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev04_02", anchor_intro.Entity);
+            Engine.scenery_animation_start_relative(hev_close_05.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev05_02", anchor_intro.Entity);
+            Engine.scenery_animation_start_relative(hev_close_06.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev06_02", anchor_intro.Entity);
+            Engine.scenery_animation_start_relative(hev_close_07.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev07_02", anchor_intro.Entity);
             await Engine.sleep(5);
             Engine.fade_in(1F, 1F, 1F, 15);
             await Engine.sleep((short)((float)Engine.camera_time() - this.prediction_offset));
             await this._05_intro_03_predict_stub();
             await Engine.sleep((short)((float)Engine.camera_time() - this.sound_offset));
-            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\c05_intro\\foley\\c05_intro_03_fol", 3848340459U));
+            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\c05_intro\\foley\\c05_intro_03_fol", 3848799218U));
             await Engine.sleep((short)Engine.camera_time());
             Engine.cinematic_screen_effect_stop();
         }
@@ -1927,7 +1927,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task c05_intro_foley_03()
         {
             await Engine.sleep(0);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\c05_intro\\foley\\c05_intro_03_fol", 3848340459U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\cinematics\\05_deltahalo\\c05_intro\\foley\\c05_intro_03_fol", 3848799218U), default(IGameObject), 1F);
             Engine.print("c05_intro foley 03 start");
         }
 
@@ -1935,7 +1935,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task c05_1020_cor()
         {
             await Engine.sleep(439);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\c05_1020_cor", 3848405996U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\c05_1020_cor", 3848864755U), default(IGameObject), 1F);
             Engine.cinematic_subtitle("c05_1020_cor", 2.5F);
         }
 
@@ -1943,7 +1943,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task c05_1030_cor()
         {
             await Engine.sleep(552);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\c05_1030_cor", 3848471533U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\05_deltatemple\\cinematics\\c05_1030_cor", 3848930292U), default(IGameObject), 1F);
             Engine.cinematic_subtitle("c05_1030_cor", 1F);
         }
 
@@ -1952,13 +1952,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             Engine.time_code_reset();
             await Engine.sleep(286);
-            Engine.effect_new(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_land", 3848537070U), c05_intro_pod_01);
+            Engine.effect_new(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_land", 3848995829U), c05_intro_pod_01);
             Engine.print("first pod");
             await Engine.sleep(42);
-            Engine.effect_new(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_land", 3848537070U), c05_intro_pod_03);
+            Engine.effect_new(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_land", 3848995829U), c05_intro_pod_03);
             Engine.print("second pod");
             await Engine.sleep(29);
-            Engine.effect_new(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_land", 3848537070U), c05_intro_pod_02);
+            Engine.effect_new(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_land", 3848995829U), c05_intro_pod_02);
             Engine.print("third pod");
         }
 
@@ -1966,7 +1966,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task effect_hev_door_release()
         {
             await Engine.sleep(390);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_door_release", 3848668144U), hev_close_06.Entity, "door_release");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\cinematics\\05\\hev_door_release", 3849126903U), hev_close_06.Entity, "door_release");
             Engine.print("effect - blow pins");
         }
 
@@ -2026,9 +2026,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task late_pods()
         {
             await Engine.sleep(280);
-            Engine.scenery_animation_start_relative(hev_close_06.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev06_03", anchor_intro.Entity);
-            Engine.scenery_animation_start_relative(hev_close_07.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev07_03", anchor_intro.Entity);
-            Engine.scenery_animation_start_relative(hev_close_08.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev08_03", anchor_intro.Entity);
+            Engine.scenery_animation_start_relative(hev_close_06.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev06_03", anchor_intro.Entity);
+            Engine.scenery_animation_start_relative(hev_close_07.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev07_03", anchor_intro.Entity);
+            Engine.scenery_animation_start_relative(hev_close_08.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev08_03", anchor_intro.Entity);
         }
 
         [ScriptMethod(162, Lifecycle.Static)]
@@ -2075,20 +2075,20 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task c05_intro_scene_03()
         {
             await this.c05_intro_03_setup();
-            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\05_intro\\05_intro", 3847619552U), "05_intro_03", default(IUnit), anchor_flag_intro);
-            Engine.custom_animation_relative(grunt_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\grunt\\05_intro\\05_intro", 3848143848U), "grunt_03", false, anchor_intro.Entity);
-            Engine.custom_animation_relative(jackal_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\jackal\\05_intro\\05_intro", 3848209385U), "jackal_03", false, anchor_intro.Entity);
-            Engine.custom_animation_relative(intro_turret.Entity, Engine.GetTag<AnimationGraphTag>("objects\\vehicles\\c_turret_ap\\05_intro\\05_intro", 3848274922U), "turret_03", false, anchor_intro.Entity);
-            Engine.custom_animation_relative(intro_turret_02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\vehicles\\c_turret_ap\\05_intro\\05_intro", 3848274922U), "turret02_03", false, anchor_intro.Entity);
-            Engine.scenery_animation_start_relative(hev_close_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev01_03", anchor_intro.Entity);
-            Engine.scenery_animation_start_relative(hev_close_02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev02_03", anchor_intro.Entity);
-            Engine.scenery_animation_start_relative(hev_close_03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev03_03", anchor_intro.Entity);
-            Engine.scenery_animation_start_relative(hev_close_04.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev04_03", anchor_intro.Entity);
-            Engine.scenery_animation_start_relative(hev_close_05.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3847750626U), "hev05_03", anchor_intro.Entity);
-            Engine.scenery_animation_start_relative(smg_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\weapons\\rifle\\smg\\05_intro\\05_intro", 3848733681U), "smg_03", anchor_intro.Entity);
+            Engine.camera_set_animation_relative(Engine.GetTag<AnimationGraphTag>("objects\\characters\\cinematic_camera\\05_intro\\05_intro", 3848078311U), "05_intro_03", default(IUnit), anchor_flag_intro);
+            Engine.custom_animation_relative(grunt_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\grunt\\05_intro\\05_intro", 3848602607U), "grunt_03", false, anchor_intro.Entity);
+            Engine.custom_animation_relative(jackal_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\jackal\\05_intro\\05_intro", 3848668144U), "jackal_03", false, anchor_intro.Entity);
+            Engine.custom_animation_relative(intro_turret.Entity, Engine.GetTag<AnimationGraphTag>("objects\\vehicles\\c_turret_ap\\05_intro\\05_intro", 3848733681U), "turret_03", false, anchor_intro.Entity);
+            Engine.custom_animation_relative(intro_turret_02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\vehicles\\c_turret_ap\\05_intro\\05_intro", 3848733681U), "turret02_03", false, anchor_intro.Entity);
+            Engine.scenery_animation_start_relative(hev_close_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev01_03", anchor_intro.Entity);
+            Engine.scenery_animation_start_relative(hev_close_02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev02_03", anchor_intro.Entity);
+            Engine.scenery_animation_start_relative(hev_close_03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev03_03", anchor_intro.Entity);
+            Engine.scenery_animation_start_relative(hev_close_04.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev04_03", anchor_intro.Entity);
+            Engine.scenery_animation_start_relative(hev_close_05.Entity, Engine.GetTag<AnimationGraphTag>("objects\\cinematics\\human\\hev\\05_intro\\05_intro", 3848209385U), "hev05_03", anchor_intro.Entity);
+            Engine.scenery_animation_start_relative(smg_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\weapons\\rifle\\smg\\05_intro\\05_intro", 3849192440U), "smg_03", anchor_intro.Entity);
             await Engine.sleep(400);
-            Engine.custom_animation_relative(chief_intro.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\masterchief\\05_intro\\05_intro", 3847685089U), "chief_03", false, anchor_intro.Entity);
-            Engine.scenery_animation_start_relative(rocket_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\weapons\\support_high\\rocket_launcher\\05_intro\\05_intro", 3848799218U), "rocket_03", anchor_intro.Entity);
+            Engine.custom_animation_relative(chief_intro.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\masterchief\\05_intro\\05_intro", 3848143848U), "chief_03", false, anchor_intro.Entity);
+            Engine.scenery_animation_start_relative(rocket_01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\weapons\\support_high\\rocket_launcher\\05_intro\\05_intro", 3849257977U), "rocket_03", anchor_intro.Entity);
             await Engine.sleep((short)((float)Engine.camera_time() - 15));
             Engine.fade_out(1F, 1F, 1F, 15);
             await Engine.sleep(15);
@@ -2238,77 +2238,77 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task music_05a_01_start()
         {
             Engine.print("music 05a_01 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_01", 2227643020U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_01", 2261066871U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(181, Lifecycle.Dormant)]
         public async Task music_05a_02_start()
         {
             Engine.print("music 05a_02 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_02", 2227905168U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_02", 2261329019U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(182, Lifecycle.Dormant)]
         public async Task music_05a_02_stop()
         {
             Engine.print("music 05a_02 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_02", 2227905168U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_02", 2261329019U));
         }
 
         [ScriptMethod(183, Lifecycle.Dormant)]
         public async Task music_05a_03_start()
         {
             Engine.print("music 05a_03 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_03", 2228298390U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_03", 2261722241U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(184, Lifecycle.Dormant)]
         public async Task music_05a_03_stop()
         {
             Engine.print("music 05a_03 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_03", 2228298390U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_03", 2261722241U));
         }
 
         [ScriptMethod(185, Lifecycle.Dormant)]
         public async Task music_05a_04_start()
         {
             Engine.print("music 05a_04 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_04", 2228691612U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_04", 2262115463U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(186, Lifecycle.Dormant)]
         public async Task music_05a_04_start_alt()
         {
             Engine.print("music 05a_04 start alt");
-            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_04", 2228691612U), true);
+            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_04", 2262115463U), true);
         }
 
         [ScriptMethod(187, Lifecycle.Dormant)]
         public async Task music_05a_04_stop()
         {
             Engine.print("music 05a_04 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_04", 2228691612U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_04", 2262115463U));
         }
 
         [ScriptMethod(188, Lifecycle.Dormant)]
         public async Task music_05a_05_start()
         {
             Engine.print("music 05a_05 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_05", 2229740204U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_05", 2263164055U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(189, Lifecycle.Dormant)]
         public async Task music_05a_05_stop()
         {
             Engine.print("music 05a_05 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_05", 2229740204U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_05", 2263164055U));
         }
 
         [ScriptMethod(190, Lifecycle.Dormant)]
         public async Task music_05a_06_start()
         {
             Engine.print("music 05a_06 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_06", 2230133426U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_06", 2263557277U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(191, Lifecycle.Dormant)]
@@ -3620,7 +3620,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.bunker_holo_trans == false)
                     {
                         this.bunker_holo_chant = true;
-                        Engine.custom_animation(regret01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant1a", true);
+                        Engine.custom_animation(regret01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant1a", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret01.Entity, "3000"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.bunker_holo_chant = false;
@@ -3631,7 +3631,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.bunker_holo_trans == false)
                     {
                         this.bunker_holo_chant = true;
-                        Engine.custom_animation(regret01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant2b", true);
+                        Engine.custom_animation(regret01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant2b", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret01.Entity, "3001"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.bunker_holo_chant = false;
@@ -3642,7 +3642,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.bunker_holo_trans == false)
                     {
                         this.bunker_holo_chant = true;
-                        Engine.custom_animation(regret01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant2c", true);
+                        Engine.custom_animation(regret01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant2c", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret01.Entity, "3002"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.bunker_holo_chant = false;
@@ -3653,7 +3653,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.bunker_holo_trans == false)
                     {
                         this.bunker_holo_chant = true;
-                        Engine.custom_animation(regret01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant3a", true);
+                        Engine.custom_animation(regret01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant3a", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret01.Entity, "3003"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.bunker_holo_chant = false;
@@ -3664,7 +3664,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.bunker_holo_trans == false)
                     {
                         this.bunker_holo_chant = true;
-                        Engine.custom_animation(regret01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant3c", true);
+                        Engine.custom_animation(regret01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant3c", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret01.Entity, "3004"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.bunker_holo_chant = false;
@@ -3675,7 +3675,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.bunker_holo_trans == false)
                     {
                         this.bunker_holo_chant = true;
-                        Engine.custom_animation(regret01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant5a", true);
+                        Engine.custom_animation(regret01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant5a", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret01.Entity, "3005"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.bunker_holo_chant = false;
@@ -3686,7 +3686,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.bunker_holo_trans == false)
                     {
                         this.bunker_holo_chant = true;
-                        Engine.custom_animation(regret01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant6a", true);
+                        Engine.custom_animation(regret01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant6a", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret01.Entity, "3006"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.bunker_holo_chant = false;
@@ -3719,12 +3719,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => Engine.objects_can_see_object(Engine.players(), regret01.Entity, 30F) == true && Engine.volume_test_objects(vol_bunker_upper_level, Engine.players()) == true && this.bunker_holo_chant == false);
             Engine.ai_dialogue_enable(false);
             await Engine.sleep(60);
-            Engine.custom_animation(regret01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_l05_0090_por", true);
+            Engine.custom_animation(regret01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_l05_0090_por", true);
             Engine.print("regret: 'the forerunners, our most exalted lords, used the seven sacred rings...'");
             Engine.print("'...to flee a doomed existence - to escape their endless struggle against the flood!'");
             await Engine.sleep(Engine.ai_play_line_on_object(regret01.Entity, "0090"));
             await Engine.sleep(30);
-            Engine.custom_animation(regret01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_l05_0100_por", true);
+            Engine.custom_animation(regret01.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_l05_0100_por", true);
             Engine.print("'long ago, the prophets and elites fought an equally fruitless war.'");
             Engine.print("'indeed, i suspect we would still be at each other's throats had the prophets...'");
             Engine.print("'...not found evidence of the forerunners and their great journey!'");
@@ -3956,8 +3956,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cs_fly_to_and_face(Engine.GetReference<ISpatialPoint>("bridge_airspace/pel7"), Engine.GetReference<ISpatialPoint>("bridge_airspace/pel5"), 1F);
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_bridge_tank, Engine.players()) == false && Engine.volume_test_objects(vol_bridge_tank, Engine.ai_actors(all_allies)) == false && await this.player_count() > 0);
             Engine.vehicle_unload(Engine.ai_vehicle_get_from_starting_location(bridge_pelican.pilot), "pelican_lc");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\vehicles\\scorpion\\scorpion_drop\\mono", 2230461111U), bridge_tank.Entity, 1F);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\vehicles\\scorpion\\scorpion_drop\\reflections", 2230526648U), bridge_tank.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\vehicles\\scorpion\\scorpion_drop\\mono", 2263884962U), bridge_tank.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\vehicles\\scorpion\\scorpion_drop\\reflections", 2263950499U), bridge_tank.Entity, 1F);
             await Engine.sleep(60);
             Engine.vehicle_unload(Engine.ai_vehicle_get_from_starting_location(bridge_pelican.pilot), "pelican_p");
             this.bridge_pelican_arrived = true;
@@ -4745,9 +4745,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.ai_place(envy_elites.Squad);
             Engine.ai_set_active_camo(envy_elites.Squad, true);
             Engine.cs_run_command_script(envy_elites.Squad, new ScriptMethodReference(forever_pause));
-            Engine.custom_animation_loop(Engine.unit(Engine.list_get(Engine.ai_actors(envy_elites.Squad), 0)), Engine.GetTag<AnimationGraphTag>("objects\\characters\\elite\\elite", 4252703556U), "combat:rifle:berserk", true);
-            Engine.custom_animation_loop(Engine.unit(Engine.list_get(Engine.ai_actors(envy_elites.Squad), 1)), Engine.GetTag<AnimationGraphTag>("objects\\characters\\elite\\elite", 4252703556U), "combat:rifle:berserk", true);
-            await Engine.sleep_until(async () => Engine.unit_has_weapon(Engine.unit(await this.player0()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head_sp.weapon", 4218624339U)) || Engine.unit_has_weapon(Engine.unit(await this.player1()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head_sp.weapon", 4218624339U)));
+            Engine.custom_animation_loop(Engine.unit(Engine.list_get(Engine.ai_actors(envy_elites.Squad), 0)), Engine.GetTag<AnimationGraphTag>("objects\\characters\\elite\\elite", 4280229078U), "combat:rifle:berserk", true);
+            Engine.custom_animation_loop(Engine.unit(Engine.list_get(Engine.ai_actors(envy_elites.Squad), 1)), Engine.GetTag<AnimationGraphTag>("objects\\characters\\elite\\elite", 4280229078U), "combat:rifle:berserk", true);
+            await Engine.sleep_until(async () => Engine.unit_has_weapon(Engine.unit(await this.player0()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head_sp.weapon", 4246018785U)) || Engine.unit_has_weapon(Engine.unit(await this.player1()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head_sp.weapon", 4246018785U)));
             Engine.ice_cream_flavor_stock(0);
         }
 
@@ -5676,12 +5676,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_old_temple_court_04, Engine.players()) == true && Engine.objects_can_see_object(Engine.players(), regret02.Entity, 30F) == true && this.court_holo_chant == false);
             Engine.ai_dialogue_enable(false);
             await Engine.sleep(60);
-            Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_l05_0110_por", true);
+            Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_l05_0110_por", true);
             Engine.print("'in a gesture of peace and reconciliation, the prophets promised to find the means...'");
             Engine.print("'...of the forerunners' transcendence, and to share this knowledge with the elites.'");
             await Engine.sleep(Engine.ai_play_line_on_object(regret02.Entity, "0110"));
             await Engine.sleep(30);
-            Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_l05_0120_por", true);
+            Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_l05_0120_por", true);
             Engine.print("'the elites promised to defend the prophets as they searched - '");
             Engine.print("'a simple arrangement that has become our binding covenant!'");
             await Engine.sleep(Engine.ai_play_line_on_object(regret02.Entity, "0120"));
@@ -5714,7 +5714,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.court_holo_trans == false)
                     {
                         this.court_holo_chant = true;
-                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant1a", true);
+                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant1a", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret02.Entity, "3000"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.court_holo_chant = false;
@@ -5725,7 +5725,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.court_holo_trans == false)
                     {
                         this.court_holo_chant = true;
-                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant2b", true);
+                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant2b", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret02.Entity, "3001"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.court_holo_chant = false;
@@ -5736,7 +5736,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.court_holo_trans == false)
                     {
                         this.court_holo_chant = true;
-                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant2c", true);
+                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant2c", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret02.Entity, "3002"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.court_holo_chant = false;
@@ -5747,7 +5747,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.court_holo_trans == false)
                     {
                         this.court_holo_chant = true;
-                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant3a", true);
+                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant3a", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret02.Entity, "3003"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.court_holo_chant = false;
@@ -5758,7 +5758,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.court_holo_trans == false)
                     {
                         this.court_holo_chant = true;
-                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant3c", true);
+                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant3c", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret02.Entity, "3004"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.court_holo_chant = false;
@@ -5769,7 +5769,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.court_holo_trans == false)
                     {
                         this.court_holo_chant = true;
-                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant5a", true);
+                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant5a", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret02.Entity, "3005"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.court_holo_chant = false;
@@ -5780,7 +5780,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.court_holo_trans == false)
                     {
                         this.court_holo_chant = true;
-                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant6a", true);
+                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant6a", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret02.Entity, "3006"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.court_holo_chant = false;
@@ -5804,7 +5804,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.court_holo_trans == false)
                     {
                         this.court_holo_chant = true;
-                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant1a", true);
+                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant1a", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret02.Entity, "3000"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.court_holo_chant = false;
@@ -5815,7 +5815,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.court_holo_trans == false)
                     {
                         this.court_holo_chant = true;
-                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant2b", true);
+                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant2b", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret02.Entity, "3001"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.court_holo_chant = false;
@@ -5826,7 +5826,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.court_holo_trans == false)
                     {
                         this.court_holo_chant = true;
-                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant2c", true);
+                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant2c", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret02.Entity, "3002"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.court_holo_chant = false;
@@ -5837,7 +5837,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.court_holo_trans == false)
                     {
                         this.court_holo_chant = true;
-                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant3a", true);
+                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant3a", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret02.Entity, "3003"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.court_holo_chant = false;
@@ -5848,7 +5848,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.court_holo_trans == false)
                     {
                         this.court_holo_chant = true;
-                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant3c", true);
+                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant3c", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret02.Entity, "3004"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.court_holo_chant = false;
@@ -5859,7 +5859,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.court_holo_trans == false)
                     {
                         this.court_holo_chant = true;
-                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant5a", true);
+                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant5a", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret02.Entity, "3005"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.court_holo_chant = false;
@@ -5870,7 +5870,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.court_holo_trans == false)
                     {
                         this.court_holo_chant = true;
-                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant6a", true);
+                        Engine.custom_animation(regret02.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant6a", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret02.Entity, "3006"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.court_holo_chant = false;
@@ -6283,7 +6283,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.tower1_holo_trans == false)
                     {
                         this.tower1_holo_chant = true;
-                        Engine.custom_animation(regret03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant1a", true);
+                        Engine.custom_animation(regret03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant1a", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret03.Entity, "3000"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.tower1_holo_chant = false;
@@ -6294,7 +6294,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.tower1_holo_trans == false)
                     {
                         this.tower1_holo_chant = true;
-                        Engine.custom_animation(regret03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant2b", true);
+                        Engine.custom_animation(regret03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant2b", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret03.Entity, "3001"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.tower1_holo_chant = false;
@@ -6305,7 +6305,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.tower1_holo_trans == false)
                     {
                         this.tower1_holo_chant = true;
-                        Engine.custom_animation(regret03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant2c", true);
+                        Engine.custom_animation(regret03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant2c", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret03.Entity, "3002"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.tower1_holo_chant = false;
@@ -6316,7 +6316,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.tower1_holo_trans == false)
                     {
                         this.tower1_holo_chant = true;
-                        Engine.custom_animation(regret03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant3a", true);
+                        Engine.custom_animation(regret03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant3a", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret03.Entity, "3003"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.tower1_holo_chant = false;
@@ -6327,7 +6327,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.tower1_holo_trans == false)
                     {
                         this.tower1_holo_chant = true;
-                        Engine.custom_animation(regret03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant3c", true);
+                        Engine.custom_animation(regret03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant3c", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret03.Entity, "3004"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.tower1_holo_chant = false;
@@ -6338,7 +6338,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.tower1_holo_trans == false)
                     {
                         this.tower1_holo_chant = true;
-                        Engine.custom_animation(regret03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant5a", true);
+                        Engine.custom_animation(regret03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant5a", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret03.Entity, "3005"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.tower1_holo_chant = false;
@@ -6349,7 +6349,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     if (this.tower1_holo_trans == false)
                     {
                         this.tower1_holo_chant = true;
-                        Engine.custom_animation(regret03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3896379080U), "regret_chant6a", true);
+                        Engine.custom_animation(regret03.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\prophet\\prophet", 3897165524U), "regret_chant6a", true);
                         await Engine.sleep(Engine.ai_play_line_on_object(regret03.Entity, "3006"));
                         await Engine.sleep((short)Engine.random_range(240, 480));
                         this.tower1_holo_chant = false;
@@ -6376,7 +6376,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep_until(async () => (short)Engine.ai_combat_status(this.ai_current_actor) > this.ai_combat_status_idle);
             Engine.cs_aim_player(true);
-            Engine.cs_custom_animation(Engine.GetTag<AnimationGraphTag>("objects\\characters\\elite\\elite", 4252703556U), "combat:rifle:warn", 1F, true);
+            Engine.cs_custom_animation(Engine.GetTag<AnimationGraphTag>("objects\\characters\\elite\\elite", 4280229078U), "combat:rifle:warn", 1F, true);
             Engine.cs_aim_player(false);
         }
 
@@ -6958,205 +6958,205 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\skies\\solo\\deltatemple\\sky_bsp_00\\sky_bsp_00", 3783000070U), 4);
             await Engine.sleep(2);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_x05"), 0, false);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad\\inamberclad", 3848864755U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad\\inamberclad", 3849323514U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\skies\\generic\\space\\space", 3785556013U), 0);
             await Engine.sleep(5);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\effects\\x05_building_debris\\x05_building_debris", 3850044421U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\covenant\\military\\capital_ship\\capital_ship", 3855877214U), 2);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\effects\\x05_building_debris\\x05_building_debris", 3850503180U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\covenant\\military\\capital_ship\\capital_ship", 3856335973U), 2);
             await Engine.sleep(5);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\special\\null_up\\null_up", 3857056880U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\special\\null_up\\null_up", 3857515639U), 0);
         }
 
         [ScriptMethod(356, Lifecycle.Dormant)]
         public async Task x05_02_predict()
         {
             await Engine.sleep(3);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857187954U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857187954U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_leafy\\tree_leafy_small\\tree_leafy_small", 3860006045U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev_door\\hev_door", 3860530341U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_bridge\\inamberclad_bridge", 3860595878U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857646713U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857646713U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_leafy\\tree_leafy_small\\tree_leafy_small", 3860464804U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev_door\\hev_door", 3860989100U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_bridge\\inamberclad_bridge", 3861054637U), 0);
             await Engine.sleep(4);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_hevbay\\inamberclad_hevbay", 3863807191U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_hevbay\\inamberclad_hevbay", 3864265950U), 0);
             await Engine.sleep(4);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3864921320U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3865380079U), 0);
             await Engine.sleep(15);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 1);
             await Engine.sleep(1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_leafy\\tree_leafy_small\\tree_leafy_small", 3860006045U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_leafy\\tree_leafy_small\\tree_leafy_small", 3860464804U), 0);
             await Engine.sleep(25);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865183468U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865183468U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865183468U), 2);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865642227U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865642227U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865642227U), 2);
             await Engine.sleep(215);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 53);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 74);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 69);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 6);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 57);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 58);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 59);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 60);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 16);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 17);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 18);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 19);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\cigar\\cigar_bent\\cigar_bent", 3871802705U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\effects\\x05_building_debris\\x05_building_debris", 3850044421U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 53);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 74);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 69);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 6);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 57);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 58);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 59);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 60);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 16);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 17);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 18);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 19);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\cigar\\cigar_bent\\cigar_bent", 3872392538U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\effects\\x05_building_debris\\x05_building_debris", 3850503180U), 0);
             await Engine.sleep(215);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857187954U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857187954U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865183468U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865183468U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865183468U), 2);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_bridge\\inamberclad_bridge", 3860595878U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857646713U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857646713U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865642227U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865642227U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865642227U), 2);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_bridge\\inamberclad_bridge", 3861054637U), 0);
         }
 
         [ScriptMethod(357, Lifecycle.Dormant)]
         public async Task x05_03_predict()
         {
             await Engine.sleep(2);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\substance_space\\substance_space", 3872130390U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\effects\\x05_building_debris\\x05_building_debris", 3850044421U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\substance_space\\substance_space", 3872720223U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\effects\\x05_building_debris\\x05_building_debris", 3850503180U), 0);
             await Engine.sleep(5);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\halo\\halo", 3872523612U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\halo\\halo", 3873113445U), 0);
             await Engine.sleep(27);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3864921320U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3865380079U), 0);
             await Engine.sleep(2);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev_chute\\hev_chute", 3873047908U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev_chute\\hev_chute", 3873637741U), 0);
         }
 
         [ScriptMethod(358, Lifecycle.Dormant)]
         public async Task x05_04_predict()
         {
             await Engine.sleep(3);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 53);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 74);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 69);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 6);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 57);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 58);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 59);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 60);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_hevbay\\inamberclad_hevbay", 3863807191U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\cigar\\cigar_bent\\cigar_bent", 3871802705U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 16);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 17);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 18);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 19);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 53);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 74);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 69);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 6);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 57);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 58);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 59);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 60);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_hevbay\\inamberclad_hevbay", 3864265950U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\cigar\\cigar_bent\\cigar_bent", 3872392538U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 16);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 17);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 18);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 19);
             await Engine.sleep(1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3864921320U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3865380079U), 0);
             await Engine.sleep(48);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857187954U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857187954U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\texture_camera\\texture_camera", 3873113445U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_bridge\\inamberclad_bridge", 3860595878U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857646713U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857646713U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\texture_camera\\texture_camera", 3873703278U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_bridge\\inamberclad_bridge", 3861054637U), 0);
             await Engine.sleep(63);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865183468U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865183468U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865183468U), 2);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865642227U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865642227U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865642227U), 2);
             await Engine.sleep(214);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 16);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 17);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 18);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 19);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3864921320U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 53);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 74);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 69);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 6);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 57);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 58);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 59);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 60);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\cigar\\cigar_bent\\cigar_bent", 3871802705U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 16);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 17);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 18);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 19);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3865380079U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 53);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 74);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 69);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 6);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 57);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 58);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 59);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 60);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\cigar\\cigar_bent\\cigar_bent", 3872392538U), 0);
             await Engine.sleep(13);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev_chute\\hev_chute", 3873047908U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev_chute\\hev_chute", 3873637741U), 0);
             await Engine.sleep(128);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857187954U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857187954U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_leafy\\tree_leafy_small\\tree_leafy_small", 3860006045U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865183468U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865183468U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865183468U), 2);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_bridge\\inamberclad_bridge", 3860595878U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857646713U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857646713U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_leafy\\tree_leafy_small\\tree_leafy_small", 3860464804U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865642227U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865642227U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865642227U), 2);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_bridge\\inamberclad_bridge", 3861054637U), 0);
             await Engine.sleep(1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 53);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 74);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 69);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 6);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 57);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 58);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 59);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 60);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 16);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 17);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 18);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 19);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\cigar\\cigar_bent\\cigar_bent", 3871802705U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 53);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 74);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 69);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 6);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 57);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 58);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 59);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 60);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 16);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 17);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 18);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 19);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\cigar\\cigar_bent\\cigar_bent", 3872392538U), 0);
             await Engine.sleep(91);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev_door\\hev_door", 3860530341U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev_door\\hev_door", 3860989100U), 0);
         }
 
         [ScriptMethod(359, Lifecycle.Dormant)]
         public async Task x05_05_predict()
         {
             await Engine.sleep(2);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev_chute\\hev_chute", 3873047908U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3864921320U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev_chute\\hev_chute", 3873637741U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3865380079U), 0);
         }
 
         [ScriptMethod(360, Lifecycle.Dormant)]
         public async Task x05_06a_predict()
         {
             await Engine.sleep(2);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 16);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 17);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 18);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 19);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_hevbay\\inamberclad_hevbay", 3863807191U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 16);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 17);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 18);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 19);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_hevbay\\inamberclad_hevbay", 3864265950U), 0);
         }
 
         [ScriptMethod(361, Lifecycle.Dormant)]
         public async Task x05_06b_predict()
         {
             await Engine.sleep(2);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 53);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 74);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 69);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 6);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 57);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 58);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 60);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 53);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 74);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 69);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 6);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 57);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 58);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 60);
             await Engine.sleep(121);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857187954U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857187954U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865183468U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865183468U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865183468U), 2);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_bridge\\inamberclad_bridge", 3860595878U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857646713U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857646713U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865642227U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865642227U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865642227U), 2);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_bridge\\inamberclad_bridge", 3861054637U), 0);
             await Engine.sleep(238);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857187954U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857187954U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865183468U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865183468U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865183468U), 2);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_bridge\\inamberclad_bridge", 3860595878U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\substance_space\\substance_space", 3872130390U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\halo\\halo", 3872523612U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857646713U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3857646713U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865642227U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865642227U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\crewman\\crewman", 3865642227U), 2);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_bridge\\inamberclad_bridge", 3861054637U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\substance_space\\substance_space", 3872720223U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\halo\\halo", 3873113445U), 0);
             await Engine.sleep(31);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\delta_halo_close\\delta_halo_close", 3873441130U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\delta_halo_close\\delta_halo_close", 3874030963U), 0);
         }
 
         [ScriptMethod(362, Lifecycle.Dormant)]
@@ -7169,51 +7169,51 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x05_08_predict()
         {
             await Engine.sleep(2);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 16);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 17);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 18);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 19);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_hevbay\\inamberclad_hevbay", 3863807191U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 16);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 17);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 18);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 19);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_hevbay\\inamberclad_hevbay", 3864265950U), 0);
             await Engine.sleep(101);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_bridge\\inamberclad_bridge", 3860595878U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\inamberclad_bridge\\inamberclad_bridge", 3861054637U), 0);
             await Engine.sleep(6);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\delta_halo_close\\delta_halo_close", 3873441130U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\delta_halo_close\\delta_halo_close", 3874030963U), 0);
             await Engine.sleep(66);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\halo\\halo", 3872523612U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\substance_space\\substance_space", 3872130390U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\halo\\halo", 3873113445U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\substance_space\\substance_space", 3872720223U), 0);
             await Engine.sleep(40);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 1);
         }
 
         [ScriptMethod(364, Lifecycle.Dormant)]
         public async Task _05_intro_01_predict()
         {
             await Engine.sleep(2);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\delta_islands\\delta_islands", 3873637741U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\delta_horizon\\delta_horizon", 3873834352U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\delta_islands\\delta_islands", 3874227574U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\delta_horizon\\delta_horizon", 3874424185U), 0);
             await Engine.sleep(5);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev_reentry\\hev_reentry", 3874030963U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev_chute\\hev_chute", 3873047908U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev_reentry\\hev_reentry", 3874620796U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev_chute\\hev_chute", 3873637741U), 0);
             await Engine.sleep(75);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3864921320U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3865380079U), 0);
             await Engine.sleep(4);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev_chute\\hev_chute", 3873047908U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev_chute\\hev_chute", 3873637741U), 0);
             await Engine.sleep(97);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 16);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 17);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 18);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 19);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 16);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 17);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 18);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 19);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 1);
             await Engine.sleep(54);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev_chute\\hev_chute", 3873047908U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\delta_islands\\delta_islands", 3873637741U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3864921320U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev_chute\\hev_chute", 3873637741U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\delta_islands\\delta_islands", 3874227574U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3865380079U), 0);
             await Engine.sleep(106);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 0, false);
         }
@@ -7238,11 +7238,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 76, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 80, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 82, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev_door\\hev_door", 3860530341U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_ancient_medium\\tree_ancient_medium", 3874293111U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_ancient_large\\tree_ancient_large", 3874882944U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3864921320U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev_door\\hev_door", 3860989100U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_ancient_medium\\tree_ancient_medium", 3874882944U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_ancient_large\\tree_ancient_large", 3875341703U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3865380079U), 0);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 59, false);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\skies\\solo\\deltatemple\\sky_bsp_00\\sky_bsp_00", 3783000070U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\skies\\solo\\deltatemple\\sky_bsp_00\\sky_bsp_00", 3783000070U), 1);
@@ -7250,24 +7250,24 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\skies\\solo\\deltatemple\\sky_bsp_00\\sky_bsp_00", 3783000070U), 3);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\skies\\solo\\deltatemple\\sky_bsp_00\\sky_bsp_00", 3783000070U), 4);
             await Engine.sleep(5);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\vehicles\\c_turret_ap\\c_turret_ap", 3874948481U), 10);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\vehicles\\c_turret_ap\\c_turret_ap", 3874948481U), 11);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\jackal\\jackal", 3876259221U), 8);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3878487479U), 20);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3878487479U), 21);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3878487479U), 22);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3878487479U), 23);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3878487479U), 24);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\grenade\\plasma_grenade\\plasma_grenade", 3880125904U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 8);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 9);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 10);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 11);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3878487479U), 10);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3878487479U), 11);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3878487479U), 12);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3878487479U), 13);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3878487479U), 14);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\vehicles\\c_turret_ap\\c_turret_ap", 3875407240U), 10);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\vehicles\\c_turret_ap\\c_turret_ap", 3875407240U), 11);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\jackal\\jackal", 3876717980U), 8);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3879077312U), 20);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3879077312U), 21);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3879077312U), 22);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3879077312U), 23);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3879077312U), 24);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\grenade\\plasma_grenade\\plasma_grenade", 3880715737U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 8);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 9);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 10);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 11);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3879077312U), 10);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3879077312U), 11);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3879077312U), 12);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3879077312U), 13);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3879077312U), 14);
             await Engine.sleep(138);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 2, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 29, false);
@@ -7286,17 +7286,17 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 55, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 56, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 119, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_bush\\tree_bush", 3880650200U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_branch\\tree_branch", 3880715737U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_ancient_large\\tree_ancient_large", 3874882944U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\grenade\\plasma_grenade\\plasma_grenade", 3880125904U), 3);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_leafy\\tree_leafy_small\\tree_leafy_small", 3860006045U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_bush\\tree_bush", 3881240033U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_branch\\tree_branch", 3881305570U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_ancient_large\\tree_ancient_large", 3875341703U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\grenade\\plasma_grenade\\plasma_grenade", 3880715737U), 3);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_leafy\\tree_leafy_small\\tree_leafy_small", 3860464804U), 1);
             await Engine.sleep(76);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 1);
             await Engine.sleep(60);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\jackal_shield\\jackal_shield", 3880781274U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\jackal_shield\\jackal_shield", 3880781274U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\jackal_shield\\jackal_shield", 3881371107U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\jackal_shield\\jackal_shield", 3881371107U), 1);
         }
 
         [ScriptMethod(366, Lifecycle.Dormant)]
@@ -7308,33 +7308,33 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(7);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 10, true);
             await Engine.sleep(4);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 1);
             await Engine.sleep(3);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3878487479U), 20);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3878487479U), 21);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3878487479U), 22);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3878487479U), 23);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3878487479U), 24);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev_door\\hev_door", 3860530341U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 11);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 15);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867018504U), 6);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3879077312U), 20);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3879077312U), 21);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3879077312U), 22);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3879077312U), 23);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3879077312U), 24);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev_door\\hev_door", 3860989100U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 11);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 15);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\marine\\marine", 3867673874U), 6);
             await Engine.sleep(1);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 16, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\vehicles\\c_turret_ap\\c_turret_ap", 3874948481U), 10);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\vehicles\\c_turret_ap\\c_turret_ap", 3874948481U), 11);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\vehicles\\c_turret_ap\\c_turret_ap", 3875407240U), 10);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\vehicles\\c_turret_ap\\c_turret_ap", 3875407240U), 11);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\smg\\smg", 3786670142U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_bush\\tree_bush", 3880650200U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_bush\\tree_bush", 3881240033U), 0);
             await Engine.sleep(1);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 59, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 68, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 19, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 20, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\grenade\\frag_grenade\\frag_grenade", 3880977885U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\battle_rifle\\battle_rifle", 3881305570U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\grenade\\frag_grenade\\frag_grenade", 3881567718U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\battle_rifle\\battle_rifle", 3881895403U), 0);
             await Engine.sleep(2);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 88, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_ancient_large\\tree_ancient_large", 3874882944U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_ancient_large\\tree_ancient_large", 3875341703U), 1);
             await Engine.sleep(2);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 29, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 80, true);
@@ -7351,7 +7351,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 28, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 95, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 96, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_ancient_medium\\tree_ancient_medium", 3874293111U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_ancient_medium\\tree_ancient_medium", 3874882944U), 1);
             await Engine.sleep(1);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 27, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 101, true);
@@ -7361,27 +7361,27 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 89, true);
             await Engine.sleep(1);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 99, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 16);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 17);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 18);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 19);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_branch\\tree_branch", 3880715737U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 16);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 17);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 18);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 19);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_branch\\tree_branch", 3881305570U), 0);
             await Engine.sleep(1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\support_high\\rocket_launcher\\rocket_launcher", 3810132388U), 2);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\support_high\\rocket_launcher\\rocket_launcher", 3809935777U), 2);
             await Engine.sleep(1);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 90, true);
             await Engine.sleep(1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\beam_rifle\\beam_rifle", 3882485236U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\beam_rifle\\beam_rifle", 3883075069U), 0);
             await Engine.sleep(2);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 73, true);
             await Engine.sleep(2);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 94, true);
             await Engine.sleep(89);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\special\\invisible_box1x2x2\\invisible_box1x2x2", 3883468291U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\special\\invisible_box1x2x2\\invisible_box1x2x2", 3884058124U), 0);
             await Engine.sleep(1);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 98, true);
             await Engine.sleep(15);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\support_high\\rocket_launcher\\rocket_launcher", 3810132388U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\support_high\\rocket_launcher\\rocket_launcher", 3809935777U), 0);
             await Engine.sleep(22);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 12, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 14, false);
@@ -7397,21 +7397,21 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 71, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 80, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 82, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\jackal\\jackal", 3876259221U), 8);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\jackal_shield\\jackal_shield", 3880781274U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\jackal_shield\\jackal_shield", 3880781274U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_ancient_medium\\tree_ancient_medium", 3874293111U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\jackal\\jackal", 3876717980U), 8);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\jackal_shield\\jackal_shield", 3881371107U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\jackal_shield\\jackal_shield", 3881371107U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_ancient_medium\\tree_ancient_medium", 3874882944U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\smg\\smg", 3786670142U), 2);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 0);
             await Engine.sleep(22);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 88, true);
             await Engine.sleep(2);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\support_high\\rocket_launcher\\rocket_launcher", 3810132388U), 2);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\support_high\\rocket_launcher\\rocket_launcher", 3809935777U), 2);
             await Engine.sleep(5);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 16);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 17);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 18);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 19);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 16);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 17);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 18);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 19);
             await Engine.sleep(2);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 29, false);
             await Engine.sleep(17);
@@ -7427,7 +7427,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 94, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 101, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 98, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\beam_rifle\\beam_rifle", 3882485236U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\beam_rifle\\beam_rifle", 3883075069U), 0);
             await Engine.sleep(8);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 73, true);
             await Engine.sleep(3);
@@ -7447,10 +7447,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 101, true);
             await Engine.sleep(40);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 84, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_ancient_large\\tree_ancient_large", 3874882944U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_ancient\\tree_ancient_large\\tree_ancient_large", 3875341703U), 0);
             await Engine.sleep(4);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859154064U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\hev\\hev", 3859612823U), 1);
             await Engine.sleep(5);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 80, true);
             await Engine.sleep(9);
@@ -7460,11 +7460,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(29);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\smg\\smg", 3786670142U), 2);
             await Engine.sleep(62);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 16);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 17);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 18);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3870688576U), 19);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\support_high\\rocket_launcher\\rocket_launcher", 3810132388U), 2);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 16);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 17);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 18);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3871409483U), 19);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\support_high\\rocket_launcher\\rocket_launcher", 3809935777U), 2);
             await Engine.sleep(65);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 4, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\05a_deltaapproach\\bsp_00"), 3, false);
