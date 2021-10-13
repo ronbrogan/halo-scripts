@@ -1,22 +1,22 @@
 
-("doors_outro_04", MethodDecl<Void> @:229 check:0,op:0,dt:0,nt:65535,next:8860,nextCheck:34320,str:21847,h:0,d0:0,d1:0;
+("doors_outro_04", MethodDecl<Void> @:229 check:0,op:0,dt:0,nt:65535,next:8860,nextCheck:34320,str:21867,h:0,d0:0,d1:0;
     (____, BuiltinInvocation<Void> @:8860 check:34320,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:42269,h:1,d0:8861,d1:34321;
-        ("begin", Expression<MethodOrOperator> @:8861 check:34321,op:0,dt:2,nt:9,next:8842,nextCheck:34302,str:11,h:0,d0:0,d1:0;
+        ("begin", Expression<MethodOrOperator> @:8861 check:34321,op:0,dt:2,nt:9,next:8842,nextCheck:34302,str:31,h:0,d0:0,d1:0;
             (____, BuiltinInvocation<Void> @:8842 check:34302,op:19,dt:4,nt:8,next:8845,nextCheck:34305,str:42304,h:1,d0:8843,d1:34303;
-                ("sleep", Expression<MethodOrOperator> @:8843 check:34303,op:19,dt:2,nt:9,next:8844,nextCheck:34304,str:90,h:0,d0:0,d1:0;
+                ("sleep", Expression<MethodOrOperator> @:8843 check:34303,op:19,dt:2,nt:9,next:8844,nextCheck:34304,str:110,h:0,d0:0,d1:0;
                     (300, Expression<Short> @:8844 check:34304,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:42311,h:1,d0:300,d1:65535;)))
             (____, BuiltinInvocation<Void> @:8845 check:34305,op:256,dt:4,nt:8,next:8849,nextCheck:34309,str:42318,h:1,d0:8846,d1:34306;
-                ("device_set_position", Expression<MethodOrOperator> @:8846 check:34306,op:256,dt:2,nt:9,next:8847,nextCheck:34307,str:3025,h:0,d0:0,d1:0;
-                    ("outro_door_02", Expression<Device> @:8847 check:34307,op:60,dt:54,nt:9,next:8848,nextCheck:34308,str:21597,h:0,d0:429,d1:65535;
+                ("device_set_position", Expression<MethodOrOperator> @:8846 check:34306,op:256,dt:2,nt:9,next:8847,nextCheck:34307,str:3045,h:0,d0:0,d1:0;
+                    ("outro_door_02", Expression<Device> @:8847 check:34307,op:60,dt:54,nt:9,next:8848,nextCheck:34308,str:21617,h:0,d0:429,d1:65535;
                         (1f, Expression<Float> @:8848 check:34308,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:42353,h:1,d0:0,d1:16256;))))
             (____, BuiltinInvocation<Void> @:8849 check:34309,op:19,dt:4,nt:8,next:8852,nextCheck:34312,str:42358,h:1,d0:8850,d1:34310;
-                ("sleep", Expression<MethodOrOperator> @:8850 check:34310,op:19,dt:2,nt:9,next:8851,nextCheck:34311,str:90,h:0,d0:0,d1:0;
+                ("sleep", Expression<MethodOrOperator> @:8850 check:34310,op:19,dt:2,nt:9,next:8851,nextCheck:34311,str:110,h:0,d0:0,d1:0;
                     (150, Expression<Short> @:8851 check:34311,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:42365,h:1,d0:150,d1:65535;)))
             (____, BuiltinInvocation<Void> @:8852 check:34312,op:265,dt:4,nt:8,next:8856,nextCheck:34316,str:42372,h:1,d0:8853,d1:34313;
-                ("device_group_change_only_once_more_set", Expression<MethodOrOperator> @:8853 check:34313,op:265,dt:2,nt:9,next:8854,nextCheck:34314,str:20479,h:0,d0:0,d1:0;
-                    ("outro_door_02", Expression<DeviceGroup> @:8854 check:34314,op:18,dt:18,nt:9,next:8855,nextCheck:34315,str:21597,h:0,d0:2,d1:58726;
+                ("device_group_change_only_once_more_set", Expression<MethodOrOperator> @:8853 check:34313,op:265,dt:2,nt:9,next:8854,nextCheck:34314,str:20499,h:0,d0:0,d1:0;
+                    ("outro_door_02", Expression<DeviceGroup> @:8854 check:34314,op:18,dt:18,nt:9,next:8855,nextCheck:34315,str:21617,h:0,d0:2,d1:58726;
                         (False, Expression<Boolean> @:8855 check:34315,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:42426,h:1,d0:65280,d1:65535;))))
             (____, BuiltinInvocation<Void> @:8856 check:34316,op:256,dt:4,nt:8,next:65535,nextCheck:65535,str:42435,h:1,d0:8857,d1:34317;
-                ("device_set_position", Expression<MethodOrOperator> @:8857 check:34317,op:256,dt:2,nt:9,next:8858,nextCheck:34318,str:3025,h:0,d0:0,d1:0;
-                    ("outro_door_02", Expression<Device> @:8858 check:34318,op:60,dt:54,nt:9,next:8859,nextCheck:34319,str:21597,h:0,d0:429,d1:65535;
+                ("device_set_position", Expression<MethodOrOperator> @:8857 check:34317,op:256,dt:2,nt:9,next:8858,nextCheck:34318,str:3045,h:0,d0:0,d1:0;
+                    ("outro_door_02", Expression<Device> @:8858 check:34318,op:60,dt:54,nt:9,next:8859,nextCheck:34319,str:21617,h:0,d0:429,d1:65535;
                         (0f, Expression<Float> @:8859 check:34319,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:42470,h:1,d0:0,d1:0;)))))))

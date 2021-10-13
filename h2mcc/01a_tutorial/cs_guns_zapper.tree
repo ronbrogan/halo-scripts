@@ -1,23 +1,23 @@
 
-("cs_guns_zapper", MethodDecl<Void> @:39 check:0,op:0,dt:0,nt:65535,next:1237,nextCheck:59464,str:11847,h:0,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:1237 check:59464,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:12980,h:0,d0:1238,d1:59465;
-        ("begin", Expression<MethodOrOperator> @:1238 check:59465,op:0,dt:2,nt:9,next:1218,nextCheck:59445,str:11,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:1218 check:59445,op:448,dt:4,nt:8,next:1221,nextCheck:59448,str:13020,h:0,d0:1219,d1:59446;
-                ("cs_force_combat_status", Expression<MethodOrOperator> @:1219 check:59446,op:448,dt:2,nt:9,next:1220,nextCheck:59447,str:1430,h:0,d0:0,d1:0;
-                    (2, Expression<Short> @:1220 check:59447,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:13044,h:0,d0:2,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1221 check:59448,op:444,dt:4,nt:8,next:1224,nextCheck:59451,str:13049,h:0,d0:1222,d1:59449;
-                ("cs_enable_moving", Expression<MethodOrOperator> @:1222 check:59449,op:444,dt:2,nt:9,next:1223,nextCheck:59450,str:1453,h:0,d0:0,d1:0;
-                    (False, Expression<Boolean> @:1223 check:59450,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:13067,h:0,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1224 check:59451,op:449,dt:4,nt:8,next:1227,nextCheck:59454,str:13072,h:0,d0:1225,d1:59452;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:1225 check:59452,op:449,dt:2,nt:9,next:1226,nextCheck:59453,str:1470,h:0,d0:0,d1:0;
-                    (True, Expression<Boolean> @:1226 check:59453,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:13104,h:0,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1227 check:59454,op:389,dt:4,nt:8,next:1231,nextCheck:59458,str:13109,h:0,d0:1228,d1:59455;
-                ("cs_go_to_and_face", Expression<MethodOrOperator> @:1228 check:59455,op:389,dt:2,nt:9,next:1229,nextCheck:59456,str:1574,h:0,d0:0,d1:0;
-                    ("guns_points/zapper", Expression<SpatialPoint> @:1229 check:59456,op:28,dt:28,nt:9,next:1230,nextCheck:59457,str:1555,h:0,d0:2,d1:0;
-                        ("guns_points/zapper_face", Expression<SpatialPoint> @:1230 check:59457,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:1592,h:0,d0:5,d1:0;))))
-            (____, BuiltinInvocation<Void> @:1231 check:59458,op:399,dt:4,nt:8,next:1235,nextCheck:59462,str:13174,h:0,d0:1232,d1:59459;
-                ("cs_face", Expression<MethodOrOperator> @:1232 check:59459,op:399,dt:2,nt:9,next:1233,nextCheck:59460,str:1368,h:0,d0:0,d1:0;
-                    (True, Expression<Boolean> @:1233 check:59460,op:5,dt:5,nt:9,next:1234,nextCheck:59461,str:13183,h:0,d0:65281,d1:65535;
-                        ("guns_points/zapper_face", Expression<SpatialPoint> @:1234 check:59461,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:1592,h:0,d0:5,d1:0;))))
-            (____, BuiltinInvocation<Void> @:1235 check:59462,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:13212,h:0,d0:1236,d1:59463;
-                ("sleep_forever", Expression<MethodOrOperator> @:1236 check:59463,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:1209,h:0,d0:0,d1:0;)))))
+("cs_guns_zapper", MethodDecl<Void> @:39 check:0,op:0,dt:0,nt:65535,next:1238,nextCheck:59465,str:11889,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:1238 check:59465,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:13483,h:0,d0:1239,d1:59466;
+        ("begin", Expression<MethodOrOperator> @:1239 check:59466,op:0,dt:2,nt:9,next:1219,nextCheck:59446,str:31,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1219 check:59446,op:448,dt:4,nt:8,next:1222,nextCheck:59449,str:13523,h:0,d0:1220,d1:59447;
+                ("cs_force_combat_status", Expression<MethodOrOperator> @:1220 check:59447,op:448,dt:2,nt:9,next:1221,nextCheck:59448,str:1450,h:0,d0:0,d1:0;
+                    (2, Expression<Short> @:1221 check:59448,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:13547,h:0,d0:2,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1222 check:59449,op:444,dt:4,nt:8,next:1225,nextCheck:59452,str:13552,h:0,d0:1223,d1:59450;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:1223 check:59450,op:444,dt:2,nt:9,next:1224,nextCheck:59451,str:1473,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:1224 check:59451,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:13570,h:0,d0:65280,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1225 check:59452,op:449,dt:4,nt:8,next:1228,nextCheck:59455,str:13575,h:0,d0:1226,d1:59453;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:1226 check:59453,op:449,dt:2,nt:9,next:1227,nextCheck:59454,str:1490,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:1227 check:59454,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:13607,h:0,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:1228 check:59455,op:389,dt:4,nt:8,next:1232,nextCheck:59459,str:13612,h:0,d0:1229,d1:59456;
+                ("cs_go_to_and_face", Expression<MethodOrOperator> @:1229 check:59456,op:389,dt:2,nt:9,next:1230,nextCheck:59457,str:1594,h:0,d0:0,d1:0;
+                    ("guns_points/zapper", Expression<SpatialPoint> @:1230 check:59457,op:28,dt:28,nt:9,next:1231,nextCheck:59458,str:1575,h:0,d0:2,d1:0;
+                        ("guns_points/zapper_face", Expression<SpatialPoint> @:1231 check:59458,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:1612,h:0,d0:5,d1:0;))))
+            (____, BuiltinInvocation<Void> @:1232 check:59459,op:399,dt:4,nt:8,next:1236,nextCheck:59463,str:13677,h:0,d0:1233,d1:59460;
+                ("cs_face", Expression<MethodOrOperator> @:1233 check:59460,op:399,dt:2,nt:9,next:1234,nextCheck:59461,str:1388,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:1234 check:59461,op:5,dt:5,nt:9,next:1235,nextCheck:59462,str:13686,h:0,d0:65281,d1:65535;
+                        ("guns_points/zapper_face", Expression<SpatialPoint> @:1235 check:59462,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:1612,h:0,d0:5,d1:0;))))
+            (____, BuiltinInvocation<Void> @:1236 check:59463,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:13715,h:0,d0:1237,d1:59464;
+                ("sleep_forever", Expression<MethodOrOperator> @:1237 check:59464,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:1229,h:0,d0:0,d1:0;)))))

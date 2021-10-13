@@ -1,13 +1,13 @@
 
-("cs_e8_mars_inf0_emerge", MethodDecl<Void> @:414 check:0,op:0,dt:0,nt:65535,next:15438,nextCheck:40898,str:34354,h:0,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:15438 check:40898,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:62625,h:2,d0:15439,d1:40899;
-        ("begin", Expression<MethodOrOperator> @:15439 check:40899,op:0,dt:2,nt:9,next:15429,nextCheck:40889,str:6,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:15429 check:40889,op:441,dt:4,nt:8,next:15432,nextCheck:40892,str:62673,h:2,d0:15430,d1:40890;
-                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:15430 check:40890,op:441,dt:2,nt:9,next:15431,nextCheck:40891,str:29070,h:0,d0:0,d1:0;
-                    ("ai_combat_status_visible", VariableAccess<Short> @:15431 check:40891,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:29423,h:0,d0:33578,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:15432 check:40892,op:449,dt:4,nt:8,next:15435,nextCheck:40895,str:62728,h:2,d0:15433,d1:40893;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:15433 check:40893,op:449,dt:2,nt:9,next:15434,nextCheck:40894,str:1153,h:0,d0:0,d1:0;
-                    (True, Expression<Boolean> @:15434 check:40894,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:62760,h:2,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:15435 check:40895,op:385,dt:4,nt:8,next:65535,nextCheck:65535,str:62768,h:2,d0:15436,d1:40896;
-                ("cs_go_to", Expression<MethodOrOperator> @:15436 check:40896,op:385,dt:2,nt:9,next:15437,nextCheck:40897,str:1184,h:0,d0:0,d1:0;
-                    ("scarab/p2", Expression<SpatialPoint> @:15437 check:40897,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:33497,h:0,d0:13,d1:13;))))))
+("cs_e8_mars_inf0_emerge", MethodDecl<Void> @:414 check:0,op:0,dt:0,nt:65535,next:15431,nextCheck:40891,str:34329,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:15431 check:40891,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:62540,h:2,d0:15432,d1:40892;
+        ("begin", Expression<MethodOrOperator> @:15432 check:40892,op:0,dt:2,nt:9,next:15422,nextCheck:40882,str:21,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:15422 check:40882,op:441,dt:4,nt:8,next:15425,nextCheck:40885,str:62588,h:2,d0:15423,d1:40883;
+                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:15423 check:40883,op:441,dt:2,nt:9,next:15424,nextCheck:40884,str:29045,h:0,d0:0,d1:0;
+                    ("ai_combat_status_visible", VariableAccess<Short> @:15424 check:40884,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:29398,h:0,d0:33576,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:15425 check:40885,op:449,dt:4,nt:8,next:15428,nextCheck:40888,str:62643,h:2,d0:15426,d1:40886;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:15426 check:40886,op:449,dt:2,nt:9,next:15427,nextCheck:40887,str:1168,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:15427 check:40887,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:62675,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:15428 check:40888,op:385,dt:4,nt:8,next:65535,nextCheck:65535,str:62683,h:2,d0:15429,d1:40889;
+                ("cs_go_to", Expression<MethodOrOperator> @:15429 check:40889,op:385,dt:2,nt:9,next:15430,nextCheck:40890,str:1199,h:0,d0:0,d1:0;
+                    ("scarab/p2", Expression<SpatialPoint> @:15430 check:40890,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:33472,h:0,d0:13,d1:13;))))))

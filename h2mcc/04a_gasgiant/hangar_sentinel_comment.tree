@@ -1,36 +1,36 @@
 
-("hangar_sentinel_comment", MethodDecl<Void> @:293 check:0,op:0,dt:0,nt:65535,next:11380,nextCheck:36840,str:23348,h:0,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:11380 check:36840,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1709,h:2,d0:11381,d1:36841;
-        ("begin", Expression<MethodOrOperator> @:11381 check:36841,op:0,dt:2,nt:9,next:11348,nextCheck:36808,str:6,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:11348 check:36808,op:374,dt:4,nt:8,next:11351,nextCheck:36811,str:1758,h:2,d0:11349,d1:36809;
-                ("cs_switch", Expression<MethodOrOperator> @:11349 check:36809,op:374,dt:2,nt:9,next:11350,nextCheck:36810,str:15212,h:0,d0:0,d1:0;
-                    ("elev_elite", Expression<StringId> @:11350 check:36810,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:23085,h:0,d0:12072,d1:2560;)))
-            (____, BuiltinInvocation<Void> @:11351 check:36811,op:440,dt:4,nt:8,next:11354,nextCheck:36814,str:1783,h:2,d0:11352,d1:36812;
-                ("cs_abort_on_damage", Expression<MethodOrOperator> @:11352 check:36812,op:440,dt:2,nt:9,next:11353,nextCheck:36813,str:15227,h:0,d0:0,d1:0;
-                    (True, Expression<Boolean> @:11353 check:36813,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:1803,h:2,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:11354 check:36814,op:446,dt:4,nt:8,next:11357,nextCheck:36817,str:1811,h:2,d0:11355,d1:36815;
-                ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:11355 check:36815,op:446,dt:2,nt:9,next:11356,nextCheck:36816,str:15246,h:0,d0:0,d1:0;
-                    (True, Expression<Boolean> @:11356 check:36816,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:1840,h:2,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:11357 check:36817,op:27,dt:4,nt:8,next:11360,nextCheck:36820,str:1848,h:2,d0:11358,d1:36818;
-                ("print", Expression<MethodOrOperator> @:11358 check:36818,op:27,dt:2,nt:9,next:11359,nextCheck:36819,str:91,h:0,d0:0,d1:0;
-                    ("spec-ops elite: 'sentinels! the holy warriors of the sacred rings!'", Expression<String> @:11359 check:36819,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:23096,h:0,d0:23096,d1:0;)))
-            (____, BuiltinInvocation<Void> @:11360 check:36820,op:396,dt:4,nt:8,next:11364,nextCheck:36824,str:1928,h:2,d0:11361,d1:36821;
-                ("cs_aim", Expression<MethodOrOperator> @:11361 check:36821,op:396,dt:2,nt:9,next:11362,nextCheck:36822,str:18178,h:0,d0:0,d1:0;
-                    (True, Expression<Boolean> @:11362 check:36822,op:5,dt:5,nt:9,next:11363,nextCheck:36823,str:1936,h:2,d0:65281,d1:65535;
-                        ("hangar_too/p0", Expression<SpatialPoint> @:11363 check:36823,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:23164,h:0,d0:18,d1:5;))))
-            (____, BuiltinInvocation<Void> @:11364 check:36824,op:418,dt:4,nt:8,next:11367,nextCheck:36827,str:2041,h:2,d0:11365,d1:36825;
-                ("cs_play_line", Expression<MethodOrOperator> @:11365 check:36825,op:418,dt:2,nt:9,next:11366,nextCheck:36826,str:15305,h:0,d0:0,d1:0;
-                    ("0360", Expression<StringId> @:11366 check:36826,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:23178,h:0,d0:11669,d1:1024;)))
-            (____, BuiltinInvocation<Void> @:11367 check:36827,op:19,dt:4,nt:8,next:11370,nextCheck:36830,str:2063,h:2,d0:11368,d1:36828;
-                ("sleep", Expression<MethodOrOperator> @:11368 check:36828,op:19,dt:2,nt:9,next:11369,nextCheck:36829,str:85,h:0,d0:0,d1:0;
-                    (30, Expression<Short> @:11369 check:36829,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:2070,h:2,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:11370 check:36830,op:27,dt:4,nt:8,next:11373,nextCheck:36833,str:2076,h:2,d0:11371,d1:36831;
-                ("print", Expression<MethodOrOperator> @:11371 check:36831,op:27,dt:2,nt:9,next:11372,nextCheck:36832,str:91,h:0,d0:0,d1:0;
-                    ("'why have they sided with these heretics?'", Expression<String> @:11372 check:36832,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:23183,h:0,d0:23183,d1:0;)))
-            (____, BuiltinInvocation<Void> @:11373 check:36833,op:418,dt:4,nt:8,next:11376,nextCheck:36836,str:2131,h:2,d0:11374,d1:36834;
-                ("cs_play_line", Expression<MethodOrOperator> @:11374 check:36834,op:418,dt:2,nt:9,next:11375,nextCheck:36835,str:15305,h:0,d0:0,d1:0;
-                    ("0370", Expression<StringId> @:11375 check:36835,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:23226,h:0,d0:11670,d1:1024;)))
-            (____, BuiltinInvocation<Void> @:11376 check:36836,op:396,dt:4,nt:8,next:65535,nextCheck:65535,str:2153,h:2,d0:11377,d1:36837;
-                ("cs_aim", Expression<MethodOrOperator> @:11377 check:36837,op:396,dt:2,nt:9,next:11378,nextCheck:36838,str:18178,h:0,d0:0,d1:0;
-                    (False, Expression<Boolean> @:11378 check:36838,op:5,dt:5,nt:9,next:11379,nextCheck:36839,str:2161,h:2,d0:65280,d1:65535;
-                        ("hangar_too/p0", Expression<SpatialPoint> @:11379 check:36839,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:23164,h:0,d0:18,d1:5;)))))))
+("hangar_sentinel_comment", MethodDecl<Void> @:293 check:0,op:0,dt:0,nt:65535,next:11371,nextCheck:36831,str:23331,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:11371 check:36831,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1588,h:2,d0:11372,d1:36832;
+        ("begin", Expression<MethodOrOperator> @:11372 check:36832,op:0,dt:2,nt:9,next:11339,nextCheck:36799,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:11339 check:36799,op:374,dt:4,nt:8,next:11342,nextCheck:36802,str:1637,h:2,d0:11340,d1:36800;
+                ("cs_switch", Expression<MethodOrOperator> @:11340 check:36800,op:374,dt:2,nt:9,next:11341,nextCheck:36801,str:15195,h:0,d0:0,d1:0;
+                    ("elev_elite", Expression<StringId> @:11341 check:36801,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:23068,h:0,d0:12077,d1:2560;)))
+            (____, BuiltinInvocation<Void> @:11342 check:36802,op:440,dt:4,nt:8,next:11345,nextCheck:36805,str:1662,h:2,d0:11343,d1:36803;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:11343 check:36803,op:440,dt:2,nt:9,next:11344,nextCheck:36804,str:15210,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11344 check:36804,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:1682,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:11345 check:36805,op:446,dt:4,nt:8,next:11348,nextCheck:36808,str:1690,h:2,d0:11346,d1:36806;
+                ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:11346 check:36806,op:446,dt:2,nt:9,next:11347,nextCheck:36807,str:15229,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11347 check:36807,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:1719,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:11348 check:36808,op:27,dt:4,nt:8,next:11351,nextCheck:36811,str:1727,h:2,d0:11349,d1:36809;
+                ("print", Expression<MethodOrOperator> @:11349 check:36809,op:27,dt:2,nt:9,next:11350,nextCheck:36810,str:91,h:0,d0:0,d1:0;
+                    ("spec-ops elite: 'sentinels! the holy warriors of the sacred rings!'", Expression<String> @:11350 check:36810,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:23079,h:0,d0:23079,d1:0;)))
+            (____, BuiltinInvocation<Void> @:11351 check:36811,op:396,dt:4,nt:8,next:11355,nextCheck:36815,str:1807,h:2,d0:11352,d1:36812;
+                ("cs_aim", Expression<MethodOrOperator> @:11352 check:36812,op:396,dt:2,nt:9,next:11353,nextCheck:36813,str:18161,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:11353 check:36813,op:5,dt:5,nt:9,next:11354,nextCheck:36814,str:1815,h:2,d0:65281,d1:65535;
+                        ("hangar_too/p0", Expression<SpatialPoint> @:11354 check:36814,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:23147,h:0,d0:18,d1:5;))))
+            (____, BuiltinInvocation<Void> @:11355 check:36815,op:418,dt:4,nt:8,next:11358,nextCheck:36818,str:1920,h:2,d0:11356,d1:36816;
+                ("cs_play_line", Expression<MethodOrOperator> @:11356 check:36816,op:418,dt:2,nt:9,next:11357,nextCheck:36817,str:15288,h:0,d0:0,d1:0;
+                    ("0360", Expression<StringId> @:11357 check:36817,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:23161,h:0,d0:11674,d1:1024;)))
+            (____, BuiltinInvocation<Void> @:11358 check:36818,op:19,dt:4,nt:8,next:11361,nextCheck:36821,str:1942,h:2,d0:11359,d1:36819;
+                ("sleep", Expression<MethodOrOperator> @:11359 check:36819,op:19,dt:2,nt:9,next:11360,nextCheck:36820,str:85,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:11360 check:36820,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:1949,h:2,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:11361 check:36821,op:27,dt:4,nt:8,next:11364,nextCheck:36824,str:1955,h:2,d0:11362,d1:36822;
+                ("print", Expression<MethodOrOperator> @:11362 check:36822,op:27,dt:2,nt:9,next:11363,nextCheck:36823,str:91,h:0,d0:0,d1:0;
+                    ("'why have they sided with these heretics?'", Expression<String> @:11363 check:36823,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:23166,h:0,d0:23166,d1:0;)))
+            (____, BuiltinInvocation<Void> @:11364 check:36824,op:418,dt:4,nt:8,next:11367,nextCheck:36827,str:2010,h:2,d0:11365,d1:36825;
+                ("cs_play_line", Expression<MethodOrOperator> @:11365 check:36825,op:418,dt:2,nt:9,next:11366,nextCheck:36826,str:15288,h:0,d0:0,d1:0;
+                    ("0370", Expression<StringId> @:11366 check:36826,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:23209,h:0,d0:11675,d1:1024;)))
+            (____, BuiltinInvocation<Void> @:11367 check:36827,op:396,dt:4,nt:8,next:65535,nextCheck:65535,str:2032,h:2,d0:11368,d1:36828;
+                ("cs_aim", Expression<MethodOrOperator> @:11368 check:36828,op:396,dt:2,nt:9,next:11369,nextCheck:36829,str:18161,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:11369 check:36829,op:5,dt:5,nt:9,next:11370,nextCheck:36830,str:2040,h:2,d0:65280,d1:65535;
+                        ("hangar_too/p0", Expression<SpatialPoint> @:11370 check:36830,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:23147,h:0,d0:18,d1:5;)))))))

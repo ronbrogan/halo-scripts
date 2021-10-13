@@ -4,7 +4,7 @@
         ("begin", Expression<MethodOrOperator> @:11991 check:37451,op:0,dt:2,nt:9,next:11961,nextCheck:37421,str:6,h:0,d0:0,d1:0;
             (____, BuiltinInvocation<Void> @:11961 check:37421,op:441,dt:4,nt:8,next:11964,nextCheck:37424,str:9805,h:2,d0:11962,d1:37422;
                 ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:11962 check:37422,op:441,dt:2,nt:9,next:11963,nextCheck:37423,str:23073,h:0,d0:0,d1:0;
-                    ("ai_combat_status_clear_los", VariableAccess<Short> @:11963 check:37423,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:23811,h:0,d0:33579,d1:65535;)))
+                    ("ai_combat_status_clear_los", VariableAccess<Short> @:11963 check:37423,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:23811,h:0,d0:33577,d1:65535;)))
             (____, BuiltinInvocation<Void> @:11964 check:37424,op:449,dt:4,nt:8,next:11967,nextCheck:37427,str:9862,h:2,d0:11965,d1:37425;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:11965 check:37425,op:449,dt:2,nt:9,next:11966,nextCheck:37426,str:13859,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:11966 check:37426,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9894,h:2,d0:65281,d1:65535;)))
@@ -12,8 +12,8 @@
                 ("if", Expression<MethodOrOperator> @:11968 check:37428,op:2,dt:2,nt:9,next:11969,nextCheck:37429,str:461,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Boolean> @:11969 check:37429,op:13,dt:5,nt:8,next:11974,nextCheck:37434,str:9979,h:2,d0:11970,d1:37430;
                         ("=", Expression<MethodOrOperator> @:11970 check:37430,op:13,dt:2,nt:9,next:11971,nextCheck:37431,str:301,h:0,d0:0,d1:0;
-                            (____, BuiltinInvocation<Short> @:11971 check:37431,op:509,dt:7,nt:8,next:11973,nextCheck:37433,str:9982,h:2,d0:11972,d1:37432;
-                                ("structure_bsp_index", Expression<MethodOrOperator> @:11972 check:37432,op:509,dt:2,nt:9,next:65535,nextCheck:65535,str:14094,h:0,d0:0,d1:0;))
+                            (____, BuiltinInvocation<Short> @:11971 check:37431,op:511,dt:7,nt:8,next:11973,nextCheck:37433,str:9982,h:2,d0:11972,d1:37432;
+                                ("structure_bsp_index", Expression<MethodOrOperator> @:11972 check:37432,op:511,dt:2,nt:9,next:65535,nextCheck:65535,str:14094,h:0,d0:0,d1:0;))
                             (3, Expression<Short> @:11973 check:37433,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:10004,h:2,d0:3,d1:65535;)))
                     (____, BuiltinInvocation<Void> @:11974 check:37434,op:0,dt:4,nt:8,next:11982,nextCheck:37442,str:10010,h:2,d0:11975,d1:37435;
                         ("begin", Expression<MethodOrOperator> @:11975 check:37435,op:0,dt:2,nt:9,next:11976,nextCheck:37436,str:6,h:0,d0:0,d1:0;

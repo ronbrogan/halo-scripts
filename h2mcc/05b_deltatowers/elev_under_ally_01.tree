@@ -1,16 +1,16 @@
 
-("elev_under_ally_01", MethodDecl<Void> @:198 check:0,op:0,dt:0,nt:65535,next:9412,nextCheck:34872,str:65535,h:0,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:9412 check:34872,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:39154,h:1,d0:9413,d1:34873;
-        ("begin", Expression<MethodOrOperator> @:9413 check:34873,op:0,dt:2,nt:9,next:9400,nextCheck:34860,str:142,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:9400 check:34860,op:374,dt:4,nt:8,next:9403,nextCheck:34863,str:39198,h:1,d0:9401,d1:34861;
-                ("cs_switch", Expression<MethodOrOperator> @:9401 check:34861,op:374,dt:2,nt:9,next:9402,nextCheck:34862,str:12861,h:0,d0:0,d1:0;
-                    ("ally", Expression<StringId> @:9402 check:34862,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:15507,h:0,d0:12756,d1:1024;)))
-            (____, BuiltinInvocation<Void> @:9403 check:34863,op:440,dt:4,nt:8,next:9406,nextCheck:34866,str:39217,h:1,d0:9404,d1:34864;
-                ("cs_abort_on_damage", Expression<MethodOrOperator> @:9404 check:34864,op:440,dt:2,nt:9,next:9405,nextCheck:34865,str:12878,h:0,d0:0,d1:0;
-                    (True, Expression<Boolean> @:9405 check:34865,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:39237,h:1,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:9406 check:34866,op:27,dt:4,nt:8,next:9409,nextCheck:34869,str:39245,h:1,d0:9407,d1:34867;
-                ("print", Expression<MethodOrOperator> @:9407 check:34867,op:27,dt:2,nt:9,next:9408,nextCheck:34868,str:227,h:0,d0:0,d1:0;
-                    ("ally: 'hey, my ears just popped!'", Expression<String> @:9408 check:34868,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:19045,h:0,d0:19045,d1:0;)))
-            (____, BuiltinInvocation<Void> @:9409 check:34869,op:418,dt:4,nt:8,next:65535,nextCheck:65535,str:39291,h:1,d0:9410,d1:34870;
-                ("cs_play_line", Expression<MethodOrOperator> @:9410 check:34870,op:418,dt:2,nt:9,next:9411,nextCheck:34871,str:12920,h:0,d0:0,d1:0;
-                    ("1060", Expression<StringId> @:9411 check:34871,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:19079,h:0,d0:12493,d1:1024;))))))
+("elev_under_ally_01", MethodDecl<Void> @:198 check:0,op:0,dt:0,nt:65535,next:9415,nextCheck:34875,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:9415 check:34875,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:39198,h:1,d0:9416,d1:34876;
+        ("begin", Expression<MethodOrOperator> @:9416 check:34876,op:0,dt:2,nt:9,next:9403,nextCheck:34863,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:9403 check:34863,op:374,dt:4,nt:8,next:9406,nextCheck:34866,str:39242,h:1,d0:9404,d1:34864;
+                ("cs_switch", Expression<MethodOrOperator> @:9404 check:34864,op:374,dt:2,nt:9,next:9405,nextCheck:34865,str:12894,h:0,d0:0,d1:0;
+                    ("ally", Expression<StringId> @:9405 check:34865,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:15540,h:0,d0:12760,d1:1024;)))
+            (____, BuiltinInvocation<Void> @:9406 check:34866,op:440,dt:4,nt:8,next:9409,nextCheck:34869,str:39261,h:1,d0:9407,d1:34867;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:9407 check:34867,op:440,dt:2,nt:9,next:9408,nextCheck:34868,str:12911,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:9408 check:34868,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:39281,h:1,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:9409 check:34869,op:27,dt:4,nt:8,next:9412,nextCheck:34872,str:39289,h:1,d0:9410,d1:34870;
+                ("print", Expression<MethodOrOperator> @:9410 check:34870,op:27,dt:2,nt:9,next:9411,nextCheck:34871,str:227,h:0,d0:0,d1:0;
+                    ("ally: 'hey, my ears just popped!'", Expression<String> @:9411 check:34871,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:19078,h:0,d0:19078,d1:0;)))
+            (____, BuiltinInvocation<Void> @:9412 check:34872,op:418,dt:4,nt:8,next:65535,nextCheck:65535,str:39335,h:1,d0:9413,d1:34873;
+                ("cs_play_line", Expression<MethodOrOperator> @:9413 check:34873,op:418,dt:2,nt:9,next:9414,nextCheck:34874,str:12953,h:0,d0:0,d1:0;
+                    ("1060", Expression<StringId> @:9414 check:34874,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:19112,h:0,d0:12497,d1:1024;))))))

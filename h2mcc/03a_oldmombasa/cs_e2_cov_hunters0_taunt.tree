@@ -15,7 +15,7 @@
                         (">", Expression<MethodOrOperator> @:14824 check:40284,op:15,dt:2,nt:9,next:14825,nextCheck:40285,str:12453,h:0,d0:0,d1:0;
                             (-2.9411396E-21f, BuiltinInvocation<Float> @:14825 check:40285,op:329,dt:6,nt:8,next:14828,nextCheck:40288,str:52634,h:2,d0:14826,d1:40286;
                                 ("ai_strength", Expression<MethodOrOperator> @:14826 check:40286,op:329,dt:2,nt:9,next:14827,nextCheck:40287,str:17138,h:0,d0:0,d1:0;
-                                    ("ai_current_actor", VariableAccess<AI> @:14827 check:40287,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4350,h:0,d0:33564,d1:65535;)))
+                                    ("ai_current_actor", VariableAccess<AI> @:14827 check:40287,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4350,h:0,d0:33562,d1:65535;)))
                             (0.98f, Expression<Float> @:14828 check:40288,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:52665,h:2,d0:57672,d1:16250;)))
                     (____, BuiltinInvocation<Void> @:14829 check:40289,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:52675,h:2,d0:14830,d1:40290;
                         ("begin", Expression<MethodOrOperator> @:14830 check:40290,op:0,dt:2,nt:9,next:14831,nextCheck:40291,str:64,h:0,d0:0,d1:0;
@@ -23,9 +23,9 @@
                                 ("custom_animation", Expression<MethodOrOperator> @:14832 check:40292,op:201,dt:2,nt:9,next:14833,nextCheck:40293,str:23926,h:0,d0:0,d1:0;
                                     (____, BuiltinInvocation<Unit> @:14833 check:40293,op:285,dt:51,nt:8,next:14836,nextCheck:40296,str:52704,h:2,d0:14834,d1:40294;
                                         ("ai_get_unit", Expression<MethodOrOperator> @:14834 check:40294,op:285,dt:2,nt:9,next:14835,nextCheck:40295,str:12785,h:0,d0:0,d1:0;
-                                            ("ai_current_actor", VariableAccess<AI> @:14835 check:40295,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4350,h:0,d0:33564,d1:65535;)))
-                                    ("objects\characters\hunter\hunter", Expression<Animation> @:14836 check:40296,op:36,dt:36,nt:9,next:14837,nextCheck:40297,str:24832,h:0,d0:7339,d1:65247;
-                                        ("combat:unarmed:shakefist", Expression<StringId> @:14837 check:40297,op:11,dt:11,nt:9,next:14838,nextCheck:40298,str:24865,h:0,d0:13699,d1:6144;
+                                            ("ai_current_actor", VariableAccess<AI> @:14835 check:40295,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4350,h:0,d0:33562,d1:65535;)))
+                                    ("objects\characters\hunter\hunter", Expression<Animation> @:14836 check:40296,op:36,dt:36,nt:9,next:14837,nextCheck:40297,str:24832,h:0,d0:7798,d1:32960;
+                                        ("combat:unarmed:shakefist", Expression<StringId> @:14837 check:40297,op:11,dt:11,nt:9,next:14838,nextCheck:40298,str:24865,h:0,d0:13703,d1:6144;
                                             (True, Expression<Boolean> @:14838 check:40298,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:52797,h:2,d0:65281,d1:65535;)))))
                             (____, BuiltinInvocation<Void> @:14839 check:40299,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:52807,h:2,d0:14840,d1:40300;
                                 ("sleep", Expression<MethodOrOperator> @:14840 check:40300,op:19,dt:2,nt:9,next:14841,nextCheck:40301,str:143,h:0,d0:0,d1:0;
@@ -33,4 +33,4 @@
                                         ("unit_get_custom_animation_time", Expression<MethodOrOperator> @:14842 check:40302,op:199,dt:2,nt:9,next:14843,nextCheck:40303,str:23994,h:0,d0:0,d1:0;
                                             (____, BuiltinInvocation<Unit> @:14843 check:40303,op:285,dt:51,nt:8,next:65535,nextCheck:65535,str:52846,h:2,d0:14844,d1:40304;
                                                 ("ai_get_unit", Expression<MethodOrOperator> @:14844 check:40304,op:285,dt:2,nt:9,next:14845,nextCheck:40305,str:12785,h:0,d0:0,d1:0;
-                                                    ("ai_current_actor", VariableAccess<AI> @:14845 check:40305,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4350,h:0,d0:33564,d1:65535;))))))))))))))
+                                                    ("ai_current_actor", VariableAccess<AI> @:14845 check:40305,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4350,h:0,d0:33562,d1:65535;))))))))))))))

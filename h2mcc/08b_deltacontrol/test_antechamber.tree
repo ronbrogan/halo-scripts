@@ -1,20 +1,20 @@
 
-("test_antechamber", MethodDecl<Void> @:356 check:0,op:0,dt:0,nt:65535,next:12328,nextCheck:37788,str:65535,h:0,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:12328 check:37788,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:16002,h:2,d0:12329,d1:37789;
-        ("begin", Expression<MethodOrOperator> @:12329 check:37789,op:0,dt:2,nt:9,next:12312,nextCheck:37772,str:6,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:12312 check:37772,op:507,dt:4,nt:8,next:12315,nextCheck:37775,str:16041,h:2,d0:12313,d1:37773;
-                ("switch_bsp", Expression<MethodOrOperator> @:12313 check:37773,op:507,dt:2,nt:9,next:12314,nextCheck:37774,str:5067,h:0,d0:0,d1:0;
-                    (2, Expression<Short> @:12314 check:37774,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:16053,h:2,d0:2,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:12315 check:37775,op:105,dt:4,nt:8,next:12320,nextCheck:37780,str:16058,h:2,d0:12316,d1:37776;
-                ("object_teleport", Expression<MethodOrOperator> @:12316 check:37776,op:105,dt:2,nt:9,next:12317,nextCheck:37777,str:5131,h:0,d0:0,d1:0;
-                    ("player0", ScriptInvocation<Entity> @:12317 check:37777,op:0,dt:50,nt:10,next:12319,nextCheck:37779,str:16075,h:2,d0:12318,d1:37778;
-                        ("player0", Expression<MethodOrOperator> @:12318 check:37778,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:607,h:0,d0:0,d1:0;))
-                    ("e12_test", Expression<LocationFlag> @:12319 check:37779,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:28623,h:0,d0:6,d1:0;)))
-            (____, BuiltinInvocation<Void> @:12320 check:37780,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:16097,h:2,d0:12321,d1:37781;
-                ("if", Expression<MethodOrOperator> @:12321 check:37781,op:2,dt:2,nt:9,next:12322,nextCheck:37782,str:461,h:0,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:12322 check:37782,op:25,dt:5,nt:8,next:12325,nextCheck:37785,str:16101,h:2,d0:12323,d1:37783;
-                        ("not", Expression<MethodOrOperator> @:12323 check:37783,op:25,dt:2,nt:9,next:12324,nextCheck:37784,str:402,h:0,d0:0,d1:0;
-                            ("g_e12_started", VariableAccess<Boolean> @:12324 check:37784,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:28412,h:0,d0:30,d1:0;)))
-                    (____, BuiltinInvocation<Void> @:12325 check:37785,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:16121,h:2,d0:12326,d1:37786;
-                        ("wake", Expression<MethodOrOperator> @:12326 check:37786,op:22,dt:2,nt:9,next:12327,nextCheck:37787,str:5851,h:0,d0:0,d1:0;
-                            ("e12_main", Expression<ScriptReference> @:12327 check:37787,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:28426,h:0,d0:355,d1:65535;))))))))
+("test_antechamber", MethodDecl<Void> @:356 check:0,op:0,dt:0,nt:65535,next:12321,nextCheck:37781,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:12321 check:37781,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:15917,h:2,d0:12322,d1:37782;
+        ("begin", Expression<MethodOrOperator> @:12322 check:37782,op:0,dt:2,nt:9,next:12305,nextCheck:37765,str:21,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:12305 check:37765,op:509,dt:4,nt:8,next:12308,nextCheck:37768,str:15956,h:2,d0:12306,d1:37766;
+                ("switch_bsp", Expression<MethodOrOperator> @:12306 check:37766,op:509,dt:2,nt:9,next:12307,nextCheck:37767,str:5067,h:0,d0:0,d1:0;
+                    (2, Expression<Short> @:12307 check:37767,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:15968,h:2,d0:2,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:12308 check:37768,op:105,dt:4,nt:8,next:12313,nextCheck:37773,str:15973,h:2,d0:12309,d1:37769;
+                ("object_teleport", Expression<MethodOrOperator> @:12309 check:37769,op:105,dt:2,nt:9,next:12310,nextCheck:37770,str:5131,h:0,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:12310 check:37770,op:0,dt:50,nt:10,next:12312,nextCheck:37772,str:15990,h:2,d0:12311,d1:37771;
+                        ("player0", Expression<MethodOrOperator> @:12311 check:37771,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:622,h:0,d0:0,d1:0;))
+                    ("e12_test", Expression<LocationFlag> @:12312 check:37772,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:28598,h:0,d0:6,d1:0;)))
+            (____, BuiltinInvocation<Void> @:12313 check:37773,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:16012,h:2,d0:12314,d1:37774;
+                ("if", Expression<MethodOrOperator> @:12314 check:37774,op:2,dt:2,nt:9,next:12315,nextCheck:37775,str:476,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:12315 check:37775,op:25,dt:5,nt:8,next:12318,nextCheck:37778,str:16016,h:2,d0:12316,d1:37776;
+                        ("not", Expression<MethodOrOperator> @:12316 check:37776,op:25,dt:2,nt:9,next:12317,nextCheck:37777,str:417,h:0,d0:0,d1:0;
+                            ("g_e12_started", VariableAccess<Boolean> @:12317 check:37777,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:28387,h:0,d0:29,d1:0;)))
+                    (____, BuiltinInvocation<Void> @:12318 check:37778,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:16036,h:2,d0:12319,d1:37779;
+                        ("wake", Expression<MethodOrOperator> @:12319 check:37779,op:22,dt:2,nt:9,next:12320,nextCheck:37780,str:5851,h:0,d0:0,d1:0;
+                            ("e12_main", Expression<ScriptReference> @:12320 check:37780,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:28401,h:0,d0:355,d1:65535;))))))))

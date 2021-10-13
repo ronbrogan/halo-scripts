@@ -1,19 +1,19 @@
 
-("cs_e11_pro_banshees0_0_entry", MethodDecl<Void> @:365 check:0,op:0,dt:0,nt:65535,next:12837,nextCheck:38297,str:65535,h:0,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:12837 check:38297,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:23052,h:2,d0:12838,d1:38298;
-        ("begin", Expression<MethodOrOperator> @:12838 check:38298,op:0,dt:2,nt:9,next:12822,nextCheck:38282,str:6,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:12822 check:38282,op:441,dt:4,nt:8,next:12825,nextCheck:38285,str:23106,h:2,d0:12823,d1:38283;
-                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:12823 check:38283,op:441,dt:2,nt:9,next:12824,nextCheck:38284,str:29070,h:0,d0:0,d1:0;
-                    ("ai_combat_status_visible", VariableAccess<Short> @:12824 check:38284,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:29423,h:0,d0:33578,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:12825 check:38285,op:438,dt:4,nt:8,next:12828,nextCheck:38288,str:23161,h:2,d0:12826,d1:38286;
-                ("cs_vehicle_boost", Expression<MethodOrOperator> @:12826 check:38286,op:438,dt:2,nt:9,next:12827,nextCheck:38287,str:26691,h:0,d0:0,d1:0;
-                    (True, Expression<Boolean> @:12827 check:38287,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:23179,h:2,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:12828 check:38288,op:19,dt:4,nt:8,next:12831,nextCheck:38291,str:23187,h:2,d0:12829,d1:38289;
-                ("sleep", Expression<MethodOrOperator> @:12829 check:38289,op:19,dt:2,nt:9,next:12830,nextCheck:38290,str:85,h:0,d0:0,d1:0;
-                    (90, Expression<Short> @:12830 check:38290,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23194,h:2,d0:90,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:12831 check:38291,op:444,dt:4,nt:8,next:12834,nextCheck:38294,str:23200,h:2,d0:12832,d1:38292;
-                ("cs_enable_moving", Expression<MethodOrOperator> @:12832 check:38292,op:444,dt:2,nt:9,next:12833,nextCheck:38293,str:1094,h:0,d0:0,d1:0;
-                    (True, Expression<Boolean> @:12833 check:38293,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:23218,h:2,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:12834 check:38294,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:23226,h:2,d0:12835,d1:38295;
-                ("sleep", Expression<MethodOrOperator> @:12835 check:38295,op:19,dt:2,nt:9,next:12836,nextCheck:38296,str:85,h:0,d0:0,d1:0;
-                    (150, Expression<Short> @:12836 check:38296,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23233,h:2,d0:150,d1:65535;))))))
+("cs_e11_pro_banshees0_0_entry", MethodDecl<Void> @:365 check:0,op:0,dt:0,nt:65535,next:12830,nextCheck:38290,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:12830 check:38290,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:22967,h:2,d0:12831,d1:38291;
+        ("begin", Expression<MethodOrOperator> @:12831 check:38291,op:0,dt:2,nt:9,next:12815,nextCheck:38275,str:21,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:12815 check:38275,op:441,dt:4,nt:8,next:12818,nextCheck:38278,str:23021,h:2,d0:12816,d1:38276;
+                ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:12816 check:38276,op:441,dt:2,nt:9,next:12817,nextCheck:38277,str:29045,h:0,d0:0,d1:0;
+                    ("ai_combat_status_visible", VariableAccess<Short> @:12817 check:38277,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:29398,h:0,d0:33576,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:12818 check:38278,op:438,dt:4,nt:8,next:12821,nextCheck:38281,str:23076,h:2,d0:12819,d1:38279;
+                ("cs_vehicle_boost", Expression<MethodOrOperator> @:12819 check:38279,op:438,dt:2,nt:9,next:12820,nextCheck:38280,str:26666,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:12820 check:38280,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:23094,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:12821 check:38281,op:19,dt:4,nt:8,next:12824,nextCheck:38284,str:23102,h:2,d0:12822,d1:38282;
+                ("sleep", Expression<MethodOrOperator> @:12822 check:38282,op:19,dt:2,nt:9,next:12823,nextCheck:38283,str:100,h:0,d0:0,d1:0;
+                    (90, Expression<Short> @:12823 check:38283,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23109,h:2,d0:90,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:12824 check:38284,op:444,dt:4,nt:8,next:12827,nextCheck:38287,str:23115,h:2,d0:12825,d1:38285;
+                ("cs_enable_moving", Expression<MethodOrOperator> @:12825 check:38285,op:444,dt:2,nt:9,next:12826,nextCheck:38286,str:1109,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:12826 check:38286,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:23133,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:12827 check:38287,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:23141,h:2,d0:12828,d1:38288;
+                ("sleep", Expression<MethodOrOperator> @:12828 check:38288,op:19,dt:2,nt:9,next:12829,nextCheck:38289,str:100,h:0,d0:0,d1:0;
+                    (150, Expression<Short> @:12829 check:38289,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:23148,h:2,d0:150,d1:65535;))))))

@@ -1,51 +1,51 @@
 
-("island_pelican_comment", MethodDecl<Void> @:229 check:0,op:0,dt:0,nt:65535,next:13784,nextCheck:39244,str:25117,h:0,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:13784 check:39244,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:16924,h:2,d0:13785,d1:39245;
-        ("begin", Expression<MethodOrOperator> @:13785 check:39245,op:0,dt:2,nt:9,next:13737,nextCheck:39197,str:142,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:13737 check:39197,op:281,dt:4,nt:8,next:13740,nextCheck:39200,str:16965,h:2,d0:13738,d1:39198;
-                ("ai_dialogue_enable", Expression<MethodOrOperator> @:13738 check:39198,op:281,dt:2,nt:9,next:13739,nextCheck:39199,str:10448,h:0,d0:0,d1:0;
-                    (False, Expression<Boolean> @:13739 check:39199,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:16985,h:2,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:13740 check:39200,op:19,dt:4,nt:8,next:13743,nextCheck:39203,str:16994,h:2,d0:13741,d1:39201;
-                ("sleep", Expression<MethodOrOperator> @:13741 check:39201,op:19,dt:2,nt:9,next:13742,nextCheck:39202,str:221,h:0,d0:0,d1:0;
-                    (60, Expression<Short> @:13742 check:39202,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17001,h:2,d0:60,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:13743 check:39203,op:27,dt:4,nt:8,next:13746,nextCheck:39206,str:17007,h:2,d0:13744,d1:39204;
-                ("print", Expression<MethodOrOperator> @:13744 check:39204,op:27,dt:2,nt:9,next:13745,nextCheck:39205,str:227,h:0,d0:0,d1:0;
-                    ("pelican pilot: 'this is my last run, chief. i'm nearly out of fuel.'", Expression<String> @:13745 check:39205,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:24584,h:0,d0:24584,d1:0;)))
-            (____, BuiltinInvocation<Void> @:13746 check:39206,op:19,dt:4,nt:8,next:13752,nextCheck:39212,str:17088,h:2,d0:13747,d1:39207;
-                ("sleep", Expression<MethodOrOperator> @:13747 check:39207,op:19,dt:2,nt:9,next:13748,nextCheck:39208,str:221,h:0,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:13748 check:39208,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:17095,h:2,d0:13749,d1:39209;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:13749 check:39209,op:362,dt:2,nt:9,next:13750,nextCheck:39210,str:10115,h:0,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:13750 check:39210,op:50,dt:50,nt:9,next:13751,nextCheck:39211,str:52,h:0,d0:65535,d1:65535;
-                                ("1140", Expression<StringId> @:13751 check:39211,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:24653,h:0,d0:12501,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:13752 check:39212,op:19,dt:4,nt:8,next:13755,nextCheck:39215,str:17221,h:2,d0:13753,d1:39213;
-                ("sleep", Expression<MethodOrOperator> @:13753 check:39213,op:19,dt:2,nt:9,next:13754,nextCheck:39214,str:221,h:0,d0:0,d1:0;
-                    (30, Expression<Short> @:13754 check:39214,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17228,h:2,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:13755 check:39215,op:27,dt:4,nt:8,next:13758,nextCheck:39218,str:17234,h:2,d0:13756,d1:39216;
-                ("print", Expression<MethodOrOperator> @:13756 check:39216,op:27,dt:2,nt:9,next:13757,nextCheck:39217,str:227,h:0,d0:0,d1:0;
-                    ("'we've secured the first tower cluster, so i'll set down there.'", Expression<String> @:13757 check:39217,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:24658,h:0,d0:24658,d1:0;)))
-            (____, BuiltinInvocation<Void> @:13758 check:39218,op:19,dt:4,nt:8,next:13764,nextCheck:39224,str:17311,h:2,d0:13759,d1:39219;
-                ("sleep", Expression<MethodOrOperator> @:13759 check:39219,op:19,dt:2,nt:9,next:13760,nextCheck:39220,str:221,h:0,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:13760 check:39220,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:17318,h:2,d0:13761,d1:39221;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:13761 check:39221,op:362,dt:2,nt:9,next:13762,nextCheck:39222,str:10115,h:0,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:13762 check:39222,op:50,dt:50,nt:9,next:13763,nextCheck:39223,str:52,h:0,d0:65535,d1:65535;
-                                ("1150", Expression<StringId> @:13763 check:39223,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:24723,h:0,d0:12502,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:13764 check:39224,op:19,dt:4,nt:8,next:13767,nextCheck:39227,str:17444,h:2,d0:13765,d1:39225;
-                ("sleep", Expression<MethodOrOperator> @:13765 check:39225,op:19,dt:2,nt:9,next:13766,nextCheck:39226,str:221,h:0,d0:0,d1:0;
-                    (30, Expression<Short> @:13766 check:39226,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17451,h:2,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:13767 check:39227,op:27,dt:4,nt:8,next:13770,nextCheck:39230,str:17457,h:2,d0:13768,d1:39228;
-                ("print", Expression<MethodOrOperator> @:13768 check:39228,op:27,dt:2,nt:9,next:13769,nextCheck:39229,str:227,h:0,d0:0,d1:0;
-                    ("'call when you're ready for evac.'", Expression<String> @:13769 check:39229,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:24728,h:0,d0:24728,d1:0;)))
-            (____, BuiltinInvocation<Void> @:13770 check:39230,op:19,dt:4,nt:8,next:13776,nextCheck:39236,str:17504,h:2,d0:13771,d1:39231;
-                ("sleep", Expression<MethodOrOperator> @:13771 check:39231,op:19,dt:2,nt:9,next:13772,nextCheck:39232,str:221,h:0,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:13772 check:39232,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:17511,h:2,d0:13773,d1:39233;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:13773 check:39233,op:362,dt:2,nt:9,next:13774,nextCheck:39234,str:10115,h:0,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:13774 check:39234,op:50,dt:50,nt:9,next:13775,nextCheck:39235,str:52,h:0,d0:65535,d1:65535;
-                                ("1160", Expression<StringId> @:13775 check:39235,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:24763,h:0,d0:12503,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:13776 check:39236,op:19,dt:4,nt:8,next:13779,nextCheck:39239,str:17637,h:2,d0:13777,d1:39237;
-                ("sleep", Expression<MethodOrOperator> @:13777 check:39237,op:19,dt:2,nt:9,next:13778,nextCheck:39238,str:221,h:0,d0:0,d1:0;
-                    (30, Expression<Short> @:13778 check:39238,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17644,h:2,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:13779 check:39239,op:281,dt:4,nt:8,next:13782,nextCheck:39242,str:17650,h:2,d0:13780,d1:39240;
-                ("ai_dialogue_enable", Expression<MethodOrOperator> @:13780 check:39240,op:281,dt:2,nt:9,next:13781,nextCheck:39241,str:10448,h:0,d0:0,d1:0;
-                    (True, Expression<Boolean> @:13781 check:39241,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:17670,h:2,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:13782 check:39242,op:587,dt:4,nt:8,next:65535,nextCheck:65535,str:17678,h:2,d0:13783,d1:39243;
-                ("game_save", Expression<MethodOrOperator> @:13783 check:39243,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:10957,h:0,d0:0,d1:0;)))))
+("island_pelican_comment", MethodDecl<Void> @:229 check:0,op:0,dt:0,nt:65535,next:13787,nextCheck:39247,str:25150,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:13787 check:39247,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:16968,h:2,d0:13788,d1:39248;
+        ("begin", Expression<MethodOrOperator> @:13788 check:39248,op:0,dt:2,nt:9,next:13740,nextCheck:39200,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:13740 check:39200,op:281,dt:4,nt:8,next:13743,nextCheck:39203,str:17009,h:2,d0:13741,d1:39201;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:13741 check:39201,op:281,dt:2,nt:9,next:13742,nextCheck:39202,str:10481,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:13742 check:39202,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:17029,h:2,d0:65280,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:13743 check:39203,op:19,dt:4,nt:8,next:13746,nextCheck:39206,str:17038,h:2,d0:13744,d1:39204;
+                ("sleep", Expression<MethodOrOperator> @:13744 check:39204,op:19,dt:2,nt:9,next:13745,nextCheck:39205,str:221,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:13745 check:39205,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17045,h:2,d0:60,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:13746 check:39206,op:27,dt:4,nt:8,next:13749,nextCheck:39209,str:17051,h:2,d0:13747,d1:39207;
+                ("print", Expression<MethodOrOperator> @:13747 check:39207,op:27,dt:2,nt:9,next:13748,nextCheck:39208,str:227,h:0,d0:0,d1:0;
+                    ("pelican pilot: 'this is my last run, chief. i'm nearly out of fuel.'", Expression<String> @:13748 check:39208,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:24617,h:0,d0:24617,d1:0;)))
+            (____, BuiltinInvocation<Void> @:13749 check:39209,op:19,dt:4,nt:8,next:13755,nextCheck:39215,str:17132,h:2,d0:13750,d1:39210;
+                ("sleep", Expression<MethodOrOperator> @:13750 check:39210,op:19,dt:2,nt:9,next:13751,nextCheck:39211,str:221,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:13751 check:39211,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:17139,h:2,d0:13752,d1:39212;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:13752 check:39212,op:362,dt:2,nt:9,next:13753,nextCheck:39213,str:10148,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:13753 check:39213,op:50,dt:50,nt:9,next:13754,nextCheck:39214,str:52,h:0,d0:65535,d1:65535;
+                                ("1140", Expression<StringId> @:13754 check:39214,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:24686,h:0,d0:12505,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:13755 check:39215,op:19,dt:4,nt:8,next:13758,nextCheck:39218,str:17265,h:2,d0:13756,d1:39216;
+                ("sleep", Expression<MethodOrOperator> @:13756 check:39216,op:19,dt:2,nt:9,next:13757,nextCheck:39217,str:221,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:13757 check:39217,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17272,h:2,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:13758 check:39218,op:27,dt:4,nt:8,next:13761,nextCheck:39221,str:17278,h:2,d0:13759,d1:39219;
+                ("print", Expression<MethodOrOperator> @:13759 check:39219,op:27,dt:2,nt:9,next:13760,nextCheck:39220,str:227,h:0,d0:0,d1:0;
+                    ("'we've secured the first tower cluster, so i'll set down there.'", Expression<String> @:13760 check:39220,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:24691,h:0,d0:24691,d1:0;)))
+            (____, BuiltinInvocation<Void> @:13761 check:39221,op:19,dt:4,nt:8,next:13767,nextCheck:39227,str:17355,h:2,d0:13762,d1:39222;
+                ("sleep", Expression<MethodOrOperator> @:13762 check:39222,op:19,dt:2,nt:9,next:13763,nextCheck:39223,str:221,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:13763 check:39223,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:17362,h:2,d0:13764,d1:39224;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:13764 check:39224,op:362,dt:2,nt:9,next:13765,nextCheck:39225,str:10148,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:13765 check:39225,op:50,dt:50,nt:9,next:13766,nextCheck:39226,str:52,h:0,d0:65535,d1:65535;
+                                ("1150", Expression<StringId> @:13766 check:39226,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:24756,h:0,d0:12506,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:13767 check:39227,op:19,dt:4,nt:8,next:13770,nextCheck:39230,str:17488,h:2,d0:13768,d1:39228;
+                ("sleep", Expression<MethodOrOperator> @:13768 check:39228,op:19,dt:2,nt:9,next:13769,nextCheck:39229,str:221,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:13769 check:39229,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17495,h:2,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:13770 check:39230,op:27,dt:4,nt:8,next:13773,nextCheck:39233,str:17501,h:2,d0:13771,d1:39231;
+                ("print", Expression<MethodOrOperator> @:13771 check:39231,op:27,dt:2,nt:9,next:13772,nextCheck:39232,str:227,h:0,d0:0,d1:0;
+                    ("'call when you're ready for evac.'", Expression<String> @:13772 check:39232,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:24761,h:0,d0:24761,d1:0;)))
+            (____, BuiltinInvocation<Void> @:13773 check:39233,op:19,dt:4,nt:8,next:13779,nextCheck:39239,str:17548,h:2,d0:13774,d1:39234;
+                ("sleep", Expression<MethodOrOperator> @:13774 check:39234,op:19,dt:2,nt:9,next:13775,nextCheck:39235,str:221,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:13775 check:39235,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:17555,h:2,d0:13776,d1:39236;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:13776 check:39236,op:362,dt:2,nt:9,next:13777,nextCheck:39237,str:10148,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:13777 check:39237,op:50,dt:50,nt:9,next:13778,nextCheck:39238,str:52,h:0,d0:65535,d1:65535;
+                                ("1160", Expression<StringId> @:13778 check:39238,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:24796,h:0,d0:12507,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:13779 check:39239,op:19,dt:4,nt:8,next:13782,nextCheck:39242,str:17681,h:2,d0:13780,d1:39240;
+                ("sleep", Expression<MethodOrOperator> @:13780 check:39240,op:19,dt:2,nt:9,next:13781,nextCheck:39241,str:221,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:13781 check:39241,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:17688,h:2,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:13782 check:39242,op:281,dt:4,nt:8,next:13785,nextCheck:39245,str:17694,h:2,d0:13783,d1:39243;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:13783 check:39243,op:281,dt:2,nt:9,next:13784,nextCheck:39244,str:10481,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:13784 check:39244,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:17714,h:2,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:13785 check:39245,op:589,dt:4,nt:8,next:65535,nextCheck:65535,str:17722,h:2,d0:13786,d1:39246;
+                ("game_save", Expression<MethodOrOperator> @:13786 check:39246,op:589,dt:2,nt:9,next:65535,nextCheck:65535,str:10990,h:0,d0:0,d1:0;)))))

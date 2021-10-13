@@ -7,13 +7,13 @@
                     (4294901862, Expression<Entity> @:7651 check:33111,op:56,dt:50,nt:9,next:7652,nextCheck:33112,str:13941,h:0,d0:102,d1:65535;
                         (____, BuiltinInvocation<Entity> @:7652 check:33112,op:284,dt:50,nt:8,next:65535,nextCheck:65535,str:28063,h:1,d0:7653,d1:33113;
                             ("ai_get_object", Expression<MethodOrOperator> @:7653 check:33113,op:284,dt:2,nt:9,next:7654,nextCheck:33114,str:13874,h:0,d0:0,d1:0;
-                                ("ai_current_actor", VariableAccess<AI> @:7654 check:33114,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:13888,h:0,d0:33564,d1:65535;))))))
+                                ("ai_current_actor", VariableAccess<AI> @:7654 check:33114,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:13888,h:0,d0:33562,d1:65535;))))))
             (____, BuiltinInvocation<Void> @:7655 check:33115,op:201,dt:4,nt:8,next:7663,nextCheck:33123,str:28133,h:1,d0:7656,d1:33116;
                 ("custom_animation", Expression<MethodOrOperator> @:7656 check:33116,op:201,dt:2,nt:9,next:7657,nextCheck:33117,str:16183,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Unit> @:7657 check:33117,op:285,dt:51,nt:8,next:7660,nextCheck:33120,str:28151,h:1,d0:7658,d1:33118;
                         ("ai_get_unit", Expression<MethodOrOperator> @:7658 check:33118,op:285,dt:2,nt:9,next:7659,nextCheck:33119,str:16200,h:0,d0:0,d1:0;
-                            ("ai_current_actor", VariableAccess<AI> @:7659 check:33119,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:13888,h:0,d0:33564,d1:65535;)))
-                    ("objects\characters\elite\elite", Expression<Animation> @:7660 check:33120,op:36,dt:36,nt:9,next:7661,nextCheck:33121,str:16212,h:0,d0:4261,d1:61979;
+                            ("ai_current_actor", VariableAccess<AI> @:7659 check:33119,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:13888,h:0,d0:33562,d1:65535;)))
+                    ("objects\characters\elite\elite", Expression<Animation> @:7660 check:33120,op:36,dt:36,nt:9,next:7661,nextCheck:33121,str:16212,h:0,d0:4603,d1:62322;
                         ("scarab_d_r:any:any:exit", Expression<StringId> @:7661 check:33121,op:11,dt:11,nt:9,next:7662,nextCheck:33122,str:16243,h:0,d0:4555,d1:5888;
                             (True, Expression<Boolean> @:7662 check:33122,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:28241,h:1,d0:65281,d1:65535;)))))
             (____, BuiltinInvocation<Void> @:7663 check:33123,op:19,dt:4,nt:8,next:7670,nextCheck:33130,str:28249,h:1,d0:7664,d1:33124;
@@ -22,15 +22,15 @@
                         ("unit_get_custom_animation_time", Expression<MethodOrOperator> @:7666 check:33126,op:199,dt:2,nt:9,next:7667,nextCheck:33127,str:16267,h:0,d0:0,d1:0;
                             (____, BuiltinInvocation<Unit> @:7667 check:33127,op:285,dt:51,nt:8,next:65535,nextCheck:65535,str:28288,h:1,d0:7668,d1:33128;
                                 ("ai_get_unit", Expression<MethodOrOperator> @:7668 check:33128,op:285,dt:2,nt:9,next:7669,nextCheck:33129,str:16200,h:0,d0:0,d1:0;
-                                    ("ai_current_actor", VariableAccess<AI> @:7669 check:33129,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:13888,h:0,d0:33564,d1:65535;)))))))
+                                    ("ai_current_actor", VariableAccess<AI> @:7669 check:33129,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:13888,h:0,d0:33562,d1:65535;)))))))
             (____, BuiltinInvocation<Void> @:7670 check:33130,op:200,dt:4,nt:8,next:7675,nextCheck:33135,str:28323,h:1,d0:7671,d1:33131;
                 ("unit_stop_custom_animation", Expression<MethodOrOperator> @:7671 check:33131,op:200,dt:2,nt:9,next:7672,nextCheck:33132,str:16298,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Unit> @:7672 check:33132,op:285,dt:51,nt:8,next:65535,nextCheck:65535,str:28351,h:1,d0:7673,d1:33133;
                         ("ai_get_unit", Expression<MethodOrOperator> @:7673 check:33133,op:285,dt:2,nt:9,next:7674,nextCheck:33134,str:16200,h:0,d0:0,d1:0;
-                            ("ai_current_actor", VariableAccess<AI> @:7674 check:33134,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:13888,h:0,d0:33564,d1:65535;)))))
+                            ("ai_current_actor", VariableAccess<AI> @:7674 check:33134,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:13888,h:0,d0:33562,d1:65535;)))))
             (____, BuiltinInvocation<Void> @:7675 check:33135,op:85,dt:4,nt:8,next:65535,nextCheck:65535,str:28406,h:1,d0:7676,d1:33136;
                 ("object_cannot_die", Expression<MethodOrOperator> @:7676 check:33136,op:85,dt:2,nt:9,next:7677,nextCheck:33137,str:16325,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Entity> @:7677 check:33137,op:284,dt:50,nt:8,next:7680,nextCheck:33140,str:28425,h:1,d0:7678,d1:33138;
                         ("ai_get_object", Expression<MethodOrOperator> @:7678 check:33138,op:284,dt:2,nt:9,next:7679,nextCheck:33139,str:13874,h:0,d0:0,d1:0;
-                            ("ai_current_actor", VariableAccess<AI> @:7679 check:33139,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:13888,h:0,d0:33564,d1:65535;)))
+                            ("ai_current_actor", VariableAccess<AI> @:7679 check:33139,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:13888,h:0,d0:33562,d1:65535;)))
                     (False, Expression<Boolean> @:7680 check:33140,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:28458,h:1,d0:65280,d1:65535;))))))

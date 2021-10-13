@@ -1,23 +1,23 @@
 
-("test_scarab_boarding", MethodDecl<Void> @:439 check:0,op:0,dt:0,nt:65535,next:17056,nextCheck:42516,str:65535,h:0,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:17056 check:42516,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:19298,h:3,d0:17057,d1:42517;
-        ("begin", Expression<MethodOrOperator> @:17057 check:42517,op:0,dt:2,nt:9,next:17037,nextCheck:42497,str:6,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:17037 check:42497,op:105,dt:4,nt:8,next:17042,nextCheck:42502,str:19341,h:3,d0:17038,d1:42498;
-                ("object_teleport", Expression<MethodOrOperator> @:17038 check:42498,op:105,dt:2,nt:9,next:17039,nextCheck:42499,str:5131,h:0,d0:0,d1:0;
-                    ("player0", ScriptInvocation<Entity> @:17039 check:42499,op:0,dt:50,nt:10,next:17041,nextCheck:42501,str:19358,h:3,d0:17040,d1:42500;
-                        ("player0", Expression<MethodOrOperator> @:17040 check:42500,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:607,h:0,d0:0,d1:0;))
-                    ("e7_test", Expression<LocationFlag> @:17041 check:42501,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:35994,h:0,d0:5,d1:0;)))
-            (____, BuiltinInvocation<Void> @:17042 check:42502,op:290,dt:4,nt:8,next:17045,nextCheck:42505,str:19379,h:3,d0:17043,d1:42503;
-                ("ai_place", Expression<MethodOrOperator> @:17043 check:42503,op:290,dt:2,nt:9,next:17044,nextCheck:42504,str:5315,h:0,d0:0,d1:0;
-                    ("e7_cov_inf0", Expression<AI> @:17044 check:42504,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:35543,h:0,d0:52,d1:0;)))
-            (____, BuiltinInvocation<Void> @:17045 check:42505,op:290,dt:4,nt:8,next:17048,nextCheck:42508,str:19404,h:3,d0:17046,d1:42506;
-                ("ai_place", Expression<MethodOrOperator> @:17046 check:42506,op:290,dt:2,nt:9,next:17047,nextCheck:42507,str:5315,h:0,d0:0,d1:0;
-                    ("e7_cov_hunters0", Expression<AI> @:17047 check:42507,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:35520,h:0,d0:53,d1:0;)))
-            (____, BuiltinInvocation<Void> @:17048 check:42508,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:19433,h:3,d0:17049,d1:42509;
-                ("if", Expression<MethodOrOperator> @:17049 check:42509,op:2,dt:2,nt:9,next:17050,nextCheck:42510,str:461,h:0,d0:0,d1:0;
-                    (____, BuiltinInvocation<Boolean> @:17050 check:42510,op:25,dt:5,nt:8,next:17053,nextCheck:42513,str:19437,h:3,d0:17051,d1:42511;
-                        ("not", Expression<MethodOrOperator> @:17051 check:42511,op:25,dt:2,nt:9,next:17052,nextCheck:42512,str:402,h:0,d0:0,d1:0;
-                            ("g_e7_started", VariableAccess<Boolean> @:17052 check:42512,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:35846,h:0,d0:51,d1:0;)))
-                    (____, BuiltinInvocation<Void> @:17053 check:42513,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:19456,h:3,d0:17054,d1:42514;
-                        ("wake", Expression<MethodOrOperator> @:17054 check:42514,op:22,dt:2,nt:9,next:17055,nextCheck:42515,str:5851,h:0,d0:0,d1:0;
-                            ("e7_main", Expression<ScriptReference> @:17055 check:42515,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:35859,h:0,d0:438,d1:65535;))))))))
+("test_scarab_boarding", MethodDecl<Void> @:439 check:0,op:0,dt:0,nt:65535,next:17049,nextCheck:42509,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:17049 check:42509,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:19213,h:3,d0:17050,d1:42510;
+        ("begin", Expression<MethodOrOperator> @:17050 check:42510,op:0,dt:2,nt:9,next:17030,nextCheck:42490,str:21,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:17030 check:42490,op:105,dt:4,nt:8,next:17035,nextCheck:42495,str:19256,h:3,d0:17031,d1:42491;
+                ("object_teleport", Expression<MethodOrOperator> @:17031 check:42491,op:105,dt:2,nt:9,next:17032,nextCheck:42492,str:5131,h:0,d0:0,d1:0;
+                    ("player0", ScriptInvocation<Entity> @:17032 check:42492,op:0,dt:50,nt:10,next:17034,nextCheck:42494,str:19273,h:3,d0:17033,d1:42493;
+                        ("player0", Expression<MethodOrOperator> @:17033 check:42493,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:622,h:0,d0:0,d1:0;))
+                    ("e7_test", Expression<LocationFlag> @:17034 check:42494,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:35969,h:0,d0:5,d1:0;)))
+            (____, BuiltinInvocation<Void> @:17035 check:42495,op:290,dt:4,nt:8,next:17038,nextCheck:42498,str:19294,h:3,d0:17036,d1:42496;
+                ("ai_place", Expression<MethodOrOperator> @:17036 check:42496,op:290,dt:2,nt:9,next:17037,nextCheck:42497,str:5315,h:0,d0:0,d1:0;
+                    ("e7_cov_inf0", Expression<AI> @:17037 check:42497,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:35518,h:0,d0:52,d1:0;)))
+            (____, BuiltinInvocation<Void> @:17038 check:42498,op:290,dt:4,nt:8,next:17041,nextCheck:42501,str:19319,h:3,d0:17039,d1:42499;
+                ("ai_place", Expression<MethodOrOperator> @:17039 check:42499,op:290,dt:2,nt:9,next:17040,nextCheck:42500,str:5315,h:0,d0:0,d1:0;
+                    ("e7_cov_hunters0", Expression<AI> @:17040 check:42500,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:35495,h:0,d0:53,d1:0;)))
+            (____, BuiltinInvocation<Void> @:17041 check:42501,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:19348,h:3,d0:17042,d1:42502;
+                ("if", Expression<MethodOrOperator> @:17042 check:42502,op:2,dt:2,nt:9,next:17043,nextCheck:42503,str:476,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Boolean> @:17043 check:42503,op:25,dt:5,nt:8,next:17046,nextCheck:42506,str:19352,h:3,d0:17044,d1:42504;
+                        ("not", Expression<MethodOrOperator> @:17044 check:42504,op:25,dt:2,nt:9,next:17045,nextCheck:42505,str:417,h:0,d0:0,d1:0;
+                            ("g_e7_started", VariableAccess<Boolean> @:17045 check:42505,op:5,dt:5,nt:13,next:65535,nextCheck:65535,str:35821,h:0,d0:50,d1:0;)))
+                    (____, BuiltinInvocation<Void> @:17046 check:42506,op:22,dt:4,nt:8,next:65535,nextCheck:65535,str:19371,h:3,d0:17047,d1:42507;
+                        ("wake", Expression<MethodOrOperator> @:17047 check:42507,op:22,dt:2,nt:9,next:17048,nextCheck:42508,str:5851,h:0,d0:0,d1:0;
+                            ("e7_main", Expression<ScriptReference> @:17048 check:42508,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:35834,h:0,d0:438,d1:65535;))))))))

@@ -1,20 +1,20 @@
 
-("cam_shake", MethodDecl<Void> @:185 check:0,op:0,dt:0,nt:65535,next:8249,nextCheck:33709,str:17640,h:0,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:8249 check:33709,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:27299,h:1,d0:8250,d1:33710;
-        ("begin", Expression<MethodOrOperator> @:8250 check:33710,op:0,dt:2,nt:9,next:8233,nextCheck:33693,str:142,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:8233 check:33693,op:653,dt:4,nt:8,next:8238,nextCheck:33698,str:27331,h:1,d0:8234,d1:33694;
-                ("player_effect_set_max_rotation", Expression<MethodOrOperator> @:8234 check:33694,op:653,dt:2,nt:9,next:8235,nextCheck:33695,str:17179,h:0,d0:0,d1:0;
-                    (0f, Expression<Float> @:8235 check:33695,op:6,dt:6,nt:9,next:8236,nextCheck:33696,str:27363,h:1,d0:0,d1:0;
-                        (2f, Expression<Float> @:8236 check:33696,op:6,dt:6,nt:9,next:8237,nextCheck:33697,str:27365,h:1,d0:0,d1:16384;
-                            (2f, Expression<Float> @:8237 check:33697,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:27367,h:1,d0:0,d1:16384;)))))
-            (____, BuiltinInvocation<Void> @:8238 check:33698,op:654,dt:4,nt:8,next:8242,nextCheck:33702,str:27372,h:1,d0:8239,d1:33699;
-                ("player_effect_set_max_vibration", Expression<MethodOrOperator> @:8239 check:33699,op:654,dt:2,nt:9,next:8240,nextCheck:33700,str:17210,h:0,d0:0,d1:0;
-                    (1f, Expression<Float> @:8240 check:33700,op:6,dt:6,nt:9,next:8241,nextCheck:33701,str:27405,h:1,d0:0,d1:16256;
-                        (1f, Expression<Float> @:8241 check:33701,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:27407,h:1,d0:0,d1:16256;))))
-            (____, BuiltinInvocation<Void> @:8242 check:33702,op:655,dt:4,nt:8,next:8246,nextCheck:33706,str:27412,h:1,d0:8243,d1:33703;
-                ("player_effect_start", Expression<MethodOrOperator> @:8243 check:33703,op:655,dt:2,nt:9,next:8244,nextCheck:33704,str:17242,h:0,d0:0,d1:0;
-                    (0.5f, Expression<Float> @:8244 check:33704,op:6,dt:6,nt:9,next:8245,nextCheck:33705,str:27433,h:1,d0:0,d1:16128;
-                        (0f, Expression<Float> @:8245 check:33705,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:27436,h:1,d0:0,d1:0;))))
-            (____, BuiltinInvocation<Void> @:8246 check:33706,op:656,dt:4,nt:8,next:65535,nextCheck:65535,str:27441,h:1,d0:8247,d1:33707;
-                ("player_effect_stop", Expression<MethodOrOperator> @:8247 check:33707,op:656,dt:2,nt:9,next:8248,nextCheck:33708,str:17262,h:0,d0:0,d1:0;
-                    (1f, Expression<Float> @:8248 check:33708,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:27461,h:1,d0:0,d1:16256;))))))
+("cam_shake", MethodDecl<Void> @:185 check:0,op:0,dt:0,nt:65535,next:8252,nextCheck:33712,str:17673,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:8252 check:33712,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:27343,h:1,d0:8253,d1:33713;
+        ("begin", Expression<MethodOrOperator> @:8253 check:33713,op:0,dt:2,nt:9,next:8236,nextCheck:33696,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:8236 check:33696,op:655,dt:4,nt:8,next:8241,nextCheck:33701,str:27375,h:1,d0:8237,d1:33697;
+                ("player_effect_set_max_rotation", Expression<MethodOrOperator> @:8237 check:33697,op:655,dt:2,nt:9,next:8238,nextCheck:33698,str:17212,h:0,d0:0,d1:0;
+                    (0f, Expression<Float> @:8238 check:33698,op:6,dt:6,nt:9,next:8239,nextCheck:33699,str:27407,h:1,d0:0,d1:0;
+                        (2f, Expression<Float> @:8239 check:33699,op:6,dt:6,nt:9,next:8240,nextCheck:33700,str:27409,h:1,d0:0,d1:16384;
+                            (2f, Expression<Float> @:8240 check:33700,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:27411,h:1,d0:0,d1:16384;)))))
+            (____, BuiltinInvocation<Void> @:8241 check:33701,op:656,dt:4,nt:8,next:8245,nextCheck:33705,str:27416,h:1,d0:8242,d1:33702;
+                ("player_effect_set_max_vibration", Expression<MethodOrOperator> @:8242 check:33702,op:656,dt:2,nt:9,next:8243,nextCheck:33703,str:17243,h:0,d0:0,d1:0;
+                    (1f, Expression<Float> @:8243 check:33703,op:6,dt:6,nt:9,next:8244,nextCheck:33704,str:27449,h:1,d0:0,d1:16256;
+                        (1f, Expression<Float> @:8244 check:33704,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:27451,h:1,d0:0,d1:16256;))))
+            (____, BuiltinInvocation<Void> @:8245 check:33705,op:657,dt:4,nt:8,next:8249,nextCheck:33709,str:27456,h:1,d0:8246,d1:33706;
+                ("player_effect_start", Expression<MethodOrOperator> @:8246 check:33706,op:657,dt:2,nt:9,next:8247,nextCheck:33707,str:17275,h:0,d0:0,d1:0;
+                    (0.5f, Expression<Float> @:8247 check:33707,op:6,dt:6,nt:9,next:8248,nextCheck:33708,str:27477,h:1,d0:0,d1:16128;
+                        (0f, Expression<Float> @:8248 check:33708,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:27480,h:1,d0:0,d1:0;))))
+            (____, BuiltinInvocation<Void> @:8249 check:33709,op:658,dt:4,nt:8,next:65535,nextCheck:65535,str:27485,h:1,d0:8250,d1:33710;
+                ("player_effect_stop", Expression<MethodOrOperator> @:8250 check:33710,op:658,dt:2,nt:9,next:8251,nextCheck:33711,str:17295,h:0,d0:0,d1:0;
+                    (1f, Expression<Float> @:8251 check:33711,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:27505,h:1,d0:0,d1:16256;))))))

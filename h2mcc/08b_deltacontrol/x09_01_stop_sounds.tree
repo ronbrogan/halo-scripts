@@ -1,19 +1,19 @@
 
-("x09_01_stop_sounds", MethodDecl<Void> @:165 check:0,op:0,dt:0,nt:65535,next:6650,nextCheck:64877,str:16629,h:0,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6650 check:64877,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:11989,h:1,d0:6651,d1:64878;
-        ("begin", Expression<MethodOrOperator> @:6651 check:64878,op:0,dt:2,nt:9,next:6635,nextCheck:64862,str:6,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6635 check:64862,op:19,dt:4,nt:8,next:6638,nextCheck:64865,str:12026,h:1,d0:6636,d1:64863;
-                ("sleep", Expression<MethodOrOperator> @:6636 check:64863,op:19,dt:2,nt:9,next:6637,nextCheck:64864,str:85,h:0,d0:0,d1:0;
-                    (383, Expression<Short> @:6637 check:64864,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:12033,h:1,d0:383,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6638 check:64865,op:27,dt:4,nt:8,next:6641,nextCheck:64868,str:12040,h:1,d0:6639,d1:64866;
-                ("print", Expression<MethodOrOperator> @:6639 check:64866,op:27,dt:2,nt:9,next:6640,nextCheck:64867,str:91,h:0,d0:0,d1:0;
-                    ("sound looping stop", Expression<String> @:6640 check:64867,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:16513,h:0,d0:16513,d1:0;)))
-            (____, BuiltinInvocation<Void> @:6641 check:64868,op:606,dt:4,nt:8,next:6644,nextCheck:64871,str:12071,h:1,d0:6642,d1:64869;
-                ("sound_looping_stop", Expression<MethodOrOperator> @:6642 check:64869,op:606,dt:2,nt:9,next:6643,nextCheck:64870,str:16532,h:0,d0:0,d1:0;
-                    ("scenarios\solo\08b_deltacontrol\08b_music\08b_11", Expression<LoopingSound> @:6643 check:64870,op:35,dt:35,nt:9,next:65535,nextCheck:65535,str:4683,h:0,d0:817,d1:58535;)))
-            (____, BuiltinInvocation<Void> @:6644 check:64871,op:606,dt:4,nt:8,next:6647,nextCheck:64874,str:12143,h:1,d0:6645,d1:64872;
-                ("sound_looping_stop", Expression<MethodOrOperator> @:6645 check:64872,op:606,dt:2,nt:9,next:6646,nextCheck:64873,str:16532,h:0,d0:0,d1:0;
-                    ("scenarios\solo\08b_deltacontrol\08b_music\08b_12", Expression<LoopingSound> @:6646 check:64873,op:35,dt:35,nt:9,next:65535,nextCheck:65535,str:4769,h:0,d0:823,d1:58541;)))
-            (____, BuiltinInvocation<Void> @:6647 check:64874,op:606,dt:4,nt:8,next:65535,nextCheck:65535,str:12215,h:1,d0:6648,d1:64875;
-                ("sound_looping_stop", Expression<MethodOrOperator> @:6648 check:64875,op:606,dt:2,nt:9,next:6649,nextCheck:64876,str:16532,h:0,d0:0,d1:0;
-                    ("scenarios\solo\08b_deltacontrol\08b_music\08b_13", Expression<LoopingSound> @:6649 check:64876,op:35,dt:35,nt:9,next:65535,nextCheck:65535,str:4840,h:0,d0:829,d1:58547;))))))
+("x09_01_stop_sounds", MethodDecl<Void> @:165 check:0,op:0,dt:0,nt:65535,next:6643,nextCheck:64870,str:16604,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6643 check:64870,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:11904,h:1,d0:6644,d1:64871;
+        ("begin", Expression<MethodOrOperator> @:6644 check:64871,op:0,dt:2,nt:9,next:6628,nextCheck:64855,str:21,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6628 check:64855,op:19,dt:4,nt:8,next:6631,nextCheck:64858,str:11941,h:1,d0:6629,d1:64856;
+                ("sleep", Expression<MethodOrOperator> @:6629 check:64856,op:19,dt:2,nt:9,next:6630,nextCheck:64857,str:100,h:0,d0:0,d1:0;
+                    (383, Expression<Short> @:6630 check:64857,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:11948,h:1,d0:383,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6631 check:64858,op:27,dt:4,nt:8,next:6634,nextCheck:64861,str:11955,h:1,d0:6632,d1:64859;
+                ("print", Expression<MethodOrOperator> @:6632 check:64859,op:27,dt:2,nt:9,next:6633,nextCheck:64860,str:106,h:0,d0:0,d1:0;
+                    ("sound looping stop", Expression<String> @:6633 check:64860,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:16488,h:0,d0:16488,d1:0;)))
+            (____, BuiltinInvocation<Void> @:6634 check:64861,op:608,dt:4,nt:8,next:6637,nextCheck:64864,str:11986,h:1,d0:6635,d1:64862;
+                ("sound_looping_stop", Expression<MethodOrOperator> @:6635 check:64862,op:608,dt:2,nt:9,next:6636,nextCheck:64863,str:16507,h:0,d0:0,d1:0;
+                    ("scenarios\solo\08b_deltacontrol\08b_music\08b_11", Expression<LoopingSound> @:6636 check:64863,op:35,dt:35,nt:9,next:65535,nextCheck:65535,str:4685,h:0,d0:726,d1:58444;)))
+            (____, BuiltinInvocation<Void> @:6637 check:64864,op:608,dt:4,nt:8,next:6640,nextCheck:64867,str:12058,h:1,d0:6638,d1:64865;
+                ("sound_looping_stop", Expression<MethodOrOperator> @:6638 check:64865,op:608,dt:2,nt:9,next:6639,nextCheck:64866,str:16507,h:0,d0:0,d1:0;
+                    ("scenarios\solo\08b_deltacontrol\08b_music\08b_12", Expression<LoopingSound> @:6639 check:64866,op:35,dt:35,nt:9,next:65535,nextCheck:65535,str:4771,h:0,d0:732,d1:58450;)))
+            (____, BuiltinInvocation<Void> @:6640 check:64867,op:608,dt:4,nt:8,next:65535,nextCheck:65535,str:12130,h:1,d0:6641,d1:64868;
+                ("sound_looping_stop", Expression<MethodOrOperator> @:6641 check:64868,op:608,dt:2,nt:9,next:6642,nextCheck:64869,str:16507,h:0,d0:0,d1:0;
+                    ("scenarios\solo\08b_deltacontrol\08b_music\08b_13", Expression<LoopingSound> @:6642 check:64869,op:35,dt:35,nt:9,next:65535,nextCheck:65535,str:4842,h:0,d0:738,d1:58456;))))))

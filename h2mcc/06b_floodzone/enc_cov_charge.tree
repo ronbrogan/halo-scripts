@@ -2,14 +2,14 @@
 ("enc_cov_charge", MethodDecl<Void> @:276 check:0,op:0,dt:0,nt:65535,next:12762,nextCheck:38222,str:24820,h:0,d0:0,d1:0;
     (____, BuiltinInvocation<Void> @:12762 check:38222,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:20746,h:2,d0:12763,d1:38223;
         ("begin", Expression<MethodOrOperator> @:12763 check:38223,op:0,dt:2,nt:9,next:12627,nextCheck:38087,str:6,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:12627 check:38087,op:786,dt:4,nt:8,next:12630,nextCheck:38090,str:20780,h:2,d0:12628,d1:38088;
-                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:12628 check:38088,op:786,dt:2,nt:9,next:12629,nextCheck:38089,str:22072,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:12627 check:38087,op:788,dt:4,nt:8,next:12630,nextCheck:38090,str:20780,h:2,d0:12628,d1:38088;
+                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:12628 check:38088,op:788,dt:2,nt:9,next:12629,nextCheck:38089,str:22072,h:0,d0:0,d1:0;
                     ("enc_cov_charge", Expression<String> @:12629 check:38089,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:24820,h:0,d0:24820,d1:0;)))
             (____, BuiltinInvocation<Void> @:12630 check:38090,op:27,dt:4,nt:8,next:12633,nextCheck:38093,str:20830,h:2,d0:12631,d1:38091;
                 ("print", Expression<MethodOrOperator> @:12631 check:38091,op:27,dt:2,nt:9,next:12632,nextCheck:38092,str:91,h:0,d0:0,d1:0;
                     ("initialize covenant charge scripts", Expression<String> @:12632 check:38092,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:24835,h:0,d0:24835,d1:0;)))
-            (____, BuiltinInvocation<Void> @:12633 check:38093,op:587,dt:4,nt:8,next:12635,nextCheck:38095,str:20878,h:2,d0:12634,d1:38094;
-                ("game_save", Expression<MethodOrOperator> @:12634 check:38094,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:18092,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:12633 check:38093,op:589,dt:4,nt:8,next:12635,nextCheck:38095,str:20878,h:2,d0:12634,d1:38094;
+                ("game_save", Expression<MethodOrOperator> @:12634 check:38094,op:589,dt:2,nt:9,next:65535,nextCheck:65535,str:18092,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:12635 check:38095,op:63,dt:4,nt:8,next:12639,nextCheck:38099,str:20897,h:2,d0:12636,d1:38096;
                 ("object_dynamic_simulation_disable", Expression<MethodOrOperator> @:12636 check:38096,op:63,dt:2,nt:9,next:12637,nextCheck:38097,str:24870,h:0,d0:0,d1:0;
                     (4294901833, Expression<Entity> @:12637 check:38097,op:56,dt:50,nt:9,next:12638,nextCheck:38098,str:24904,h:0,d0:73,d1:65535;
@@ -42,7 +42,7 @@
                                     (____, BuiltinInvocation<Vehicle> @:12664 check:38124,op:341,dt:52,nt:8,next:12667,nextCheck:38127,str:21243,h:2,d0:12665,d1:38125;
                                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:12665 check:38125,op:341,dt:2,nt:9,next:12666,nextCheck:38126,str:13188,h:0,d0:0,d1:0;
                                             ("qz_cov_def_spectre/spectre", Expression<AI> @:12666 check:38126,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13226,h:0,d0:0,d1:49153;)))
-                                    ("spectre_d", Expression<StringId> @:12667 check:38127,op:11,dt:11,nt:9,next:12668,nextCheck:38128,str:13253,h:0,d0:4633,d1:2304;
+                                    ("spectre_d", Expression<StringId> @:12667 check:38127,op:11,dt:11,nt:9,next:12668,nextCheck:38128,str:13253,h:0,d0:4635,d1:2304;
                                         (____, BuiltinInvocation<List> @:12668 check:38128,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:21322,h:2,d0:12669,d1:38129;
                                             ("players", Expression<MethodOrOperator> @:12669 check:38129,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
                             (____, BuiltinInvocation<Boolean> @:12670 check:38130,op:223,dt:5,nt:8,next:12678,nextCheck:38138,str:21338,h:2,d0:12671,d1:38131;
@@ -50,7 +50,7 @@
                                     (____, BuiltinInvocation<Vehicle> @:12672 check:38132,op:341,dt:52,nt:8,next:12675,nextCheck:38135,str:21362,h:2,d0:12673,d1:38133;
                                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:12673 check:38133,op:341,dt:2,nt:9,next:12674,nextCheck:38134,str:13188,h:0,d0:0,d1:0;
                                             ("qz_cov_def_spectre/spectre", Expression<AI> @:12674 check:38134,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13226,h:0,d0:0,d1:49153;)))
-                                    ("spectre_p_l", Expression<StringId> @:12675 check:38135,op:11,dt:11,nt:9,next:12676,nextCheck:38136,str:13575,h:0,d0:4641,d1:2816;
+                                    ("spectre_p_l", Expression<StringId> @:12675 check:38135,op:11,dt:11,nt:9,next:12676,nextCheck:38136,str:13575,h:0,d0:4643,d1:2816;
                                         (____, BuiltinInvocation<List> @:12676 check:38136,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:21443,h:2,d0:12677,d1:38137;
                                             ("players", Expression<MethodOrOperator> @:12677 check:38137,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
                             (____, BuiltinInvocation<Boolean> @:12678 check:38138,op:223,dt:5,nt:8,next:12686,nextCheck:38146,str:21459,h:2,d0:12679,d1:38139;
@@ -58,7 +58,7 @@
                                     (____, BuiltinInvocation<Vehicle> @:12680 check:38140,op:341,dt:52,nt:8,next:12683,nextCheck:38143,str:21483,h:2,d0:12681,d1:38141;
                                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:12681 check:38141,op:341,dt:2,nt:9,next:12682,nextCheck:38142,str:13188,h:0,d0:0,d1:0;
                                             ("qz_cov_def_spectre/spectre", Expression<AI> @:12682 check:38142,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13226,h:0,d0:0,d1:49153;)))
-                                    ("spectre_p_r", Expression<StringId> @:12683 check:38143,op:11,dt:11,nt:9,next:12684,nextCheck:38144,str:13587,h:0,d0:4642,d1:2816;
+                                    ("spectre_p_r", Expression<StringId> @:12683 check:38143,op:11,dt:11,nt:9,next:12684,nextCheck:38144,str:13587,h:0,d0:4644,d1:2816;
                                         (____, BuiltinInvocation<List> @:12684 check:38144,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:21564,h:2,d0:12685,d1:38145;
                                             ("players", Expression<MethodOrOperator> @:12685 check:38145,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
                             (____, BuiltinInvocation<Boolean> @:12686 check:38146,op:223,dt:5,nt:8,next:12694,nextCheck:38154,str:21580,h:2,d0:12687,d1:38147;
@@ -66,7 +66,7 @@
                                     (____, BuiltinInvocation<Vehicle> @:12688 check:38148,op:341,dt:52,nt:8,next:12691,nextCheck:38151,str:21604,h:2,d0:12689,d1:38149;
                                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:12689 check:38149,op:341,dt:2,nt:9,next:12690,nextCheck:38150,str:13188,h:0,d0:0,d1:0;
                                             ("qz_cov_def_spectre/spectre", Expression<AI> @:12690 check:38150,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13226,h:0,d0:0,d1:49153;)))
-                                    ("spectre_g", Expression<StringId> @:12691 check:38151,op:11,dt:11,nt:9,next:12692,nextCheck:38152,str:13599,h:0,d0:4634,d1:2304;
+                                    ("spectre_g", Expression<StringId> @:12691 check:38151,op:11,dt:11,nt:9,next:12692,nextCheck:38152,str:13599,h:0,d0:4636,d1:2304;
                                         (____, BuiltinInvocation<List> @:12692 check:38152,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:21683,h:2,d0:12693,d1:38153;
                                             ("players", Expression<MethodOrOperator> @:12693 check:38153,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
                             (____, BuiltinInvocation<Boolean> @:12694 check:38154,op:223,dt:5,nt:8,next:12702,nextCheck:38162,str:21699,h:2,d0:12695,d1:38155;
@@ -74,7 +74,7 @@
                                     (____, BuiltinInvocation<Vehicle> @:12696 check:38156,op:341,dt:52,nt:8,next:12699,nextCheck:38159,str:21723,h:2,d0:12697,d1:38157;
                                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:12697 check:38157,op:341,dt:2,nt:9,next:12698,nextCheck:38158,str:13188,h:0,d0:0,d1:0;
                                             ("qz_cov_def_ghosts/a", Expression<AI> @:12698 check:38158,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13263,h:0,d0:0,d1:49154;)))
-                                    ("ghost_d", Expression<StringId> @:12699 check:38159,op:11,dt:11,nt:9,next:12700,nextCheck:38160,str:13283,h:0,d0:4594,d1:1792;
+                                    ("ghost_d", Expression<StringId> @:12699 check:38159,op:11,dt:11,nt:9,next:12700,nextCheck:38160,str:13283,h:0,d0:4596,d1:1792;
                                         (____, BuiltinInvocation<List> @:12700 check:38160,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:21793,h:2,d0:12701,d1:38161;
                                             ("players", Expression<MethodOrOperator> @:12701 check:38161,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
                             (____, BuiltinInvocation<Boolean> @:12702 check:38162,op:223,dt:5,nt:8,next:65535,nextCheck:65535,str:21809,h:2,d0:12703,d1:38163;
@@ -82,7 +82,7 @@
                                     (____, BuiltinInvocation<Vehicle> @:12704 check:38164,op:341,dt:52,nt:8,next:12707,nextCheck:38167,str:21833,h:2,d0:12705,d1:38165;
                                         ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:12705 check:38165,op:341,dt:2,nt:9,next:12706,nextCheck:38166,str:13188,h:0,d0:0,d1:0;
                                             ("qz_cov_def_ghosts/b", Expression<AI> @:12706 check:38166,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13291,h:0,d0:1,d1:49154;)))
-                                    ("ghost_d", Expression<StringId> @:12707 check:38167,op:11,dt:11,nt:9,next:12708,nextCheck:38168,str:13283,h:0,d0:4594,d1:1792;
+                                    ("ghost_d", Expression<StringId> @:12707 check:38167,op:11,dt:11,nt:9,next:12708,nextCheck:38168,str:13283,h:0,d0:4596,d1:1792;
                                         (____, BuiltinInvocation<List> @:12708 check:38168,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:21903,h:2,d0:12709,d1:38169;
                                             ("players", Expression<MethodOrOperator> @:12709 check:38169,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))))
                     (10, Expression<Short> @:12710 check:38170,op:7,dt:7,nt:9,next:12711,nextCheck:38171,str:21923,h:2,d0:10,d1:65535;
@@ -97,8 +97,8 @@
             (____, BuiltinInvocation<Void> @:12719 check:38179,op:19,dt:4,nt:8,next:12722,nextCheck:38182,str:21977,h:2,d0:12720,d1:38180;
                 ("sleep", Expression<MethodOrOperator> @:12720 check:38180,op:19,dt:2,nt:9,next:12721,nextCheck:38181,str:85,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:12721 check:38181,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:21984,h:2,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:12722 check:38182,op:589,dt:4,nt:8,next:12724,nextCheck:38184,str:21991,h:2,d0:12723,d1:38183;
-                ("game_save_no_timeout", Expression<MethodOrOperator> @:12723 check:38183,op:589,dt:2,nt:9,next:65535,nextCheck:65535,str:18305,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:12722 check:38182,op:591,dt:4,nt:8,next:12724,nextCheck:38184,str:21991,h:2,d0:12723,d1:38183;
+                ("game_save_no_timeout", Expression<MethodOrOperator> @:12723 check:38183,op:591,dt:2,nt:9,next:65535,nextCheck:65535,str:18305,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:12724 check:38184,op:19,dt:4,nt:8,next:12727,nextCheck:38187,str:22017,h:2,d0:12725,d1:38185;
                 ("sleep", Expression<MethodOrOperator> @:12725 check:38185,op:19,dt:2,nt:9,next:12726,nextCheck:38186,str:85,h:0,d0:0,d1:0;
                     (90, Expression<Short> @:12726 check:38186,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:22024,h:2,d0:90,d1:65535;)))
@@ -132,8 +132,8 @@
             (____, BuiltinInvocation<Void> @:12754 check:38214,op:19,dt:4,nt:8,next:12757,nextCheck:38217,str:22365,h:2,d0:12755,d1:38215;
                 ("sleep", Expression<MethodOrOperator> @:12755 check:38215,op:19,dt:2,nt:9,next:12756,nextCheck:38216,str:85,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:12756 check:38216,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:22372,h:2,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:12757 check:38217,op:587,dt:4,nt:8,next:12759,nextCheck:38219,str:22379,h:2,d0:12758,d1:38218;
-                ("game_save", Expression<MethodOrOperator> @:12758 check:38218,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:18092,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:12757 check:38217,op:589,dt:4,nt:8,next:12759,nextCheck:38219,str:22379,h:2,d0:12758,d1:38218;
+                ("game_save", Expression<MethodOrOperator> @:12758 check:38218,op:589,dt:2,nt:9,next:65535,nextCheck:65535,str:18092,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:12759 check:38219,op:317,dt:4,nt:8,next:65535,nextCheck:65535,str:22394,h:2,d0:12760,d1:38220;
                 ("ai_renew", Expression<MethodOrOperator> @:12760 check:38220,op:317,dt:2,nt:9,next:12761,nextCheck:38221,str:18416,h:0,d0:0,d1:0;
                     ("covenant", Expression<AI> @:12761 check:38221,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:10547,h:0,d0:0,d1:16384;))))))

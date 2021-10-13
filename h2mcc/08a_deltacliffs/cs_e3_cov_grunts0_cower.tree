@@ -4,7 +4,7 @@
         ("begin", Expression<MethodOrOperator> @:6741 check:64968,op:0,dt:2,nt:9,next:6701,nextCheck:64928,str:64,h:0,d0:0,d1:0;
             (____, BuiltinInvocation<Void> @:6701 check:64928,op:422,dt:4,nt:8,next:6704,nextCheck:64931,str:19585,h:1,d0:6702,d1:64929;
                 ("cs_movement_mode", Expression<MethodOrOperator> @:6702 check:64929,op:422,dt:2,nt:9,next:6703,nextCheck:64930,str:6820,h:0,d0:0,d1:0;
-                    ("ai_movement_flee", VariableAccess<Short> @:6703 check:64930,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:9393,h:0,d0:33584,d1:65535;)))
+                    ("ai_movement_flee", VariableAccess<Short> @:6703 check:64930,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:9393,h:0,d0:33582,d1:65535;)))
             (____, BuiltinInvocation<Void> @:6704 check:64931,op:21,dt:4,nt:8,next:6728,nextCheck:64955,str:19623,h:1,d0:6705,d1:64932;
                 ("sleep_until", Expression<MethodOrOperator> @:6705 check:64932,op:21,dt:2,nt:9,next:6706,nextCheck:64933,str:294,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Boolean> @:6706 check:64933,op:5,dt:5,nt:8,next:65535,nextCheck:65535,str:19640,h:1,d0:6707,d1:64934;
@@ -12,7 +12,7 @@
                             (____, BuiltinInvocation<Boolean> @:6708 check:64935,op:337,dt:5,nt:8,next:6712,nextCheck:64939,str:19674,h:1,d0:6709,d1:64936;
                                 ("ai_trigger_test", Expression<MethodOrOperator> @:6709 check:64936,op:337,dt:2,nt:9,next:6710,nextCheck:64937,str:9354,h:0,d0:0,d1:0;
                                     ("generic_player_within_2wu", Expression<String> @:6710 check:64937,op:9,dt:9,nt:9,next:6711,nextCheck:64938,str:12675,h:0,d0:12675,d1:0;
-                                        ("ai_current_squad", VariableAccess<AI> @:6711 check:64938,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:6372,h:0,d0:33563,d1:65535;))))
+                                        ("ai_current_squad", VariableAccess<AI> @:6711 check:64938,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:6372,h:0,d0:33561,d1:65535;))))
                             (____, BuiltinInvocation<Boolean> @:6712 check:64939,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:19739,h:1,d0:6713,d1:64940;
                                 ("or", Expression<MethodOrOperator> @:6713 check:64940,op:6,dt:2,nt:9,next:6714,nextCheck:64941,str:907,h:0,d0:0,d1:0;
                                     (____, BuiltinInvocation<Boolean> @:6714 check:64941,op:25,dt:5,nt:8,next:6722,nextCheck:64949,str:19767,h:1,d0:6715,d1:64942;
@@ -27,7 +27,7 @@
                                         ("<=", Expression<MethodOrOperator> @:6723 check:64950,op:18,dt:2,nt:9,next:6724,nextCheck:64951,str:6041,h:0,d0:0,d1:0;
                                             (-3.0589294E+37f, BuiltinInvocation<Float> @:6724 check:64951,op:329,dt:6,nt:8,next:6727,nextCheck:64954,str:19872,h:1,d0:6725,d1:64952;
                                                 ("ai_strength", Expression<MethodOrOperator> @:6725 check:64952,op:329,dt:2,nt:9,next:6726,nextCheck:64953,str:8980,h:0,d0:0,d1:0;
-                                                    ("ai_current_squad", VariableAccess<AI> @:6726 check:64953,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:6372,h:0,d0:33563,d1:65535;)))
+                                                    ("ai_current_squad", VariableAccess<AI> @:6726 check:64953,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:6372,h:0,d0:33561,d1:65535;)))
                                             (0.5f, Expression<Float> @:6727 check:64954,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:19903,h:1,d0:0,d1:16128;)))))))))
             (____, BuiltinInvocation<Void> @:6728 check:64955,op:394,dt:4,nt:8,next:6731,nextCheck:64958,str:19925,h:1,d0:6729,d1:64956;
                 ("cs_look_player", Expression<MethodOrOperator> @:6729 check:64956,op:394,dt:2,nt:9,next:6730,nextCheck:64957,str:6579,h:0,d0:0,d1:0;
@@ -37,7 +37,7 @@
                     ("grunt scene", Expression<String> @:6733 check:64960,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12731,h:0,d0:12731,d1:0;)))
             (____, BuiltinInvocation<Void> @:6734 check:64961,op:361,dt:4,nt:8,next:6738,nextCheck:64965,str:19973,h:1,d0:6735,d1:64962;
                 ("ai_play_line_at_player", Expression<MethodOrOperator> @:6735 check:64962,op:361,dt:2,nt:9,next:6736,nextCheck:64963,str:6641,h:0,d0:0,d1:0;
-                    ("ai_current_actor", VariableAccess<AI> @:6736 check:64963,op:19,dt:19,nt:13,next:6737,nextCheck:64964,str:6458,h:0,d0:33564,d1:65535;
-                        ("0460", Expression<StringId> @:6737 check:64964,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12743,h:0,d0:13037,d1:1024;))))
+                    ("ai_current_actor", VariableAccess<AI> @:6736 check:64963,op:19,dt:19,nt:13,next:6737,nextCheck:64964,str:6458,h:0,d0:33562,d1:65535;
+                        ("0460", Expression<StringId> @:6737 check:64964,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12743,h:0,d0:13040,d1:1024;))))
             (____, BuiltinInvocation<Void> @:6738 check:64965,op:20,dt:4,nt:8,next:65535,nextCheck:65535,str:20022,h:1,d0:6739,d1:64966;
                 ("sleep_forever", Expression<MethodOrOperator> @:6739 check:64966,op:20,dt:2,nt:9,next:65535,nextCheck:65535,str:8173,h:0,d0:0,d1:0;)))))

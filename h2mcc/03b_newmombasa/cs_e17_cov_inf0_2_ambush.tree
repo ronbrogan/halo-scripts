@@ -4,7 +4,7 @@
         ("begin", Expression<MethodOrOperator> @:13073 check:38533,op:0,dt:2,nt:9,next:13043,nextCheck:38503,str:6,h:0,d0:0,d1:0;
             (____, BuiltinInvocation<Void> @:13043 check:38503,op:441,dt:4,nt:8,next:13046,nextCheck:38506,str:39205,h:2,d0:13044,d1:38504;
                 ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:13044 check:38504,op:441,dt:2,nt:9,next:13045,nextCheck:38505,str:22358,h:0,d0:0,d1:0;
-                    ("ai_combat_status_dangerous", VariableAccess<Short> @:13045 check:38505,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:25564,h:0,d0:33580,d1:65535;)))
+                    ("ai_combat_status_dangerous", VariableAccess<Short> @:13045 check:38505,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:25564,h:0,d0:33578,d1:65535;)))
             (____, BuiltinInvocation<Void> @:13046 check:38506,op:440,dt:4,nt:8,next:13049,nextCheck:38509,str:39262,h:2,d0:13047,d1:38507;
                 ("cs_abort_on_damage", Expression<MethodOrOperator> @:13047 check:38507,op:440,dt:2,nt:9,next:13048,nextCheck:38508,str:16394,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:13048 check:38508,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:39282,h:2,d0:65281,d1:65535;)))
@@ -23,11 +23,11 @@
                                     ("tv_e17_section3", Expression<Trigger> @:13061 check:38521,op:13,dt:13,nt:9,next:13062,nextCheck:38522,str:26837,h:0,d0:70,d1:0;
                                         (____, BuiltinInvocation<Entity> @:13062 check:38522,op:284,dt:50,nt:8,next:65535,nextCheck:65535,str:39397,h:2,d0:13063,d1:38523;
                                             ("ai_get_object", Expression<MethodOrOperator> @:13063 check:38523,op:284,dt:2,nt:9,next:13064,nextCheck:38524,str:13874,h:0,d0:0,d1:0;
-                                                ("ai_current_actor", VariableAccess<AI> @:13064 check:38524,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:13888,h:0,d0:33564,d1:65535;))))))
+                                                ("ai_current_actor", VariableAccess<AI> @:13064 check:38524,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:13888,h:0,d0:33562,d1:65535;))))))
                             (____, BuiltinInvocation<Boolean> @:13065 check:38525,op:16,dt:5,nt:8,next:65535,nextCheck:65535,str:39435,h:2,d0:13066,d1:38526;
                                 ("<", Expression<MethodOrOperator> @:13066 check:38526,op:16,dt:2,nt:9,next:13067,nextCheck:38527,str:852,h:0,d0:0,d1:0;
                                     (-2.071173E-25f, BuiltinInvocation<Float> @:13067 check:38527,op:329,dt:6,nt:8,next:13070,nextCheck:38530,str:39438,h:2,d0:13068,d1:38528;
                                         ("ai_strength", Expression<MethodOrOperator> @:13068 check:38528,op:329,dt:2,nt:9,next:13069,nextCheck:38529,str:26533,h:0,d0:0,d1:0;
-                                            ("ai_current_squad", VariableAccess<AI> @:13069 check:38529,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:22760,h:0,d0:33563,d1:65535;)))
+                                            ("ai_current_squad", VariableAccess<AI> @:13069 check:38529,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:22760,h:0,d0:33561,d1:65535;)))
                                     (1f, Expression<Float> @:13070 check:38530,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:39469,h:2,d0:0,d1:16256;)))))
                     (10, Expression<Short> @:13071 check:38531,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:39482,h:2,d0:10,d1:65535;))))))

@@ -12,8 +12,8 @@
                 ("sleep_until", Expression<MethodOrOperator> @:7446 check:32906,op:21,dt:2,nt:9,next:7447,nextCheck:32907,str:294,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Boolean> @:7447 check:32907,op:13,dt:5,nt:8,next:65535,nextCheck:65535,str:28903,h:1,d0:7448,d1:32908;
                         ("=", Expression<MethodOrOperator> @:7448 check:32908,op:13,dt:2,nt:9,next:7449,nextCheck:32909,str:359,h:0,d0:0,d1:0;
-                            (____, BuiltinInvocation<Short> @:7449 check:32909,op:509,dt:7,nt:8,next:7451,nextCheck:32911,str:28906,h:1,d0:7450,d1:32910;
-                                ("structure_bsp_index", Expression<MethodOrOperator> @:7450 check:32910,op:509,dt:2,nt:9,next:65535,nextCheck:65535,str:11512,h:0,d0:0,d1:0;))
+                            (____, BuiltinInvocation<Short> @:7449 check:32909,op:511,dt:7,nt:8,next:7451,nextCheck:32911,str:28906,h:1,d0:7450,d1:32910;
+                                ("structure_bsp_index", Expression<MethodOrOperator> @:7450 check:32910,op:511,dt:2,nt:9,next:65535,nextCheck:65535,str:11512,h:0,d0:0,d1:0;))
                             (1, Expression<Short> @:7451 check:32911,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:28928,h:1,d0:1,d1:65535;)))))
             (____, BuiltinInvocation<Void> @:7452 check:32912,op:444,dt:4,nt:8,next:7455,nextCheck:32915,str:28934,h:1,d0:7453,d1:32913;
                 ("cs_enable_moving", Expression<MethodOrOperator> @:7453 check:32913,op:444,dt:2,nt:9,next:7454,nextCheck:32914,str:6277,h:0,d0:0,d1:0;
@@ -23,8 +23,8 @@
                     (False, Expression<Boolean> @:7457 check:32917,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:28980,h:1,d0:65280,d1:65535;)))
             (____, BuiltinInvocation<Void> @:7458 check:32918,op:360,dt:4,nt:8,next:7462,nextCheck:32922,str:28989,h:1,d0:7459,d1:32919;
                 ("ai_play_line", Expression<MethodOrOperator> @:7459 check:32919,op:360,dt:2,nt:9,next:7460,nextCheck:32920,str:6561,h:0,d0:0,d1:0;
-                    ("ai_current_actor", VariableAccess<AI> @:7460 check:32920,op:19,dt:19,nt:13,next:7461,nextCheck:32921,str:6458,h:0,d0:33564,d1:65535;
-                        ("0370", Expression<StringId> @:7461 check:32921,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:13565,h:0,d0:13028,d1:1024;))))
+                    ("ai_current_actor", VariableAccess<AI> @:7460 check:32920,op:19,dt:19,nt:13,next:7461,nextCheck:32921,str:6458,h:0,d0:33562,d1:65535;
+                        ("0370", Expression<StringId> @:7461 check:32921,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:13565,h:0,d0:13031,d1:1024;))))
             (____, BuiltinInvocation<Void> @:7462 check:32922,op:385,dt:4,nt:8,next:7465,nextCheck:32925,str:29029,h:1,d0:7463,d1:32923;
                 ("cs_go_to", Expression<MethodOrOperator> @:7463 check:32923,op:385,dt:2,nt:9,next:7464,nextCheck:32924,str:6475,h:0,d0:0,d1:0;
                     ("e2_sword_elites/p0", Expression<SpatialPoint> @:7464 check:32924,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:13570,h:0,d0:0,d1:7;)))
@@ -51,5 +51,5 @@
                                                     ("e2_pro_inf0", Expression<AI> @:7485 check:32945,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:13608,h:0,d0:14,d1:0;)))
                                             (____, BuiltinInvocation<Entity> @:7486 check:32946,op:284,dt:50,nt:8,next:65535,nextCheck:65535,str:29226,h:1,d0:7487,d1:32947;
                                                 ("ai_get_object", Expression<MethodOrOperator> @:7487 check:32947,op:284,dt:2,nt:9,next:7488,nextCheck:32948,str:9340,h:0,d0:0,d1:0;
-                                                    ("ai_current_actor", VariableAccess<AI> @:7488 check:32948,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:6458,h:0,d0:33564,d1:65535;)))))
+                                                    ("ai_current_actor", VariableAccess<AI> @:7488 check:32948,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:6458,h:0,d0:33562,d1:65535;)))))
                                     (2f, Expression<Float> @:7489 check:32949,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:29260,h:1,d0:0,d1:16384;))))))))))

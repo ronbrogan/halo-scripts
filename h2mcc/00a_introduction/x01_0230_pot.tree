@@ -1,40 +1,40 @@
 
-("x01_0230_pot", MethodDecl<Void> @:115 check:0,op:0,dt:0,nt:65535,next:6547,nextCheck:64774,str:11039,h:0,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:6547 check:64774,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:26054,h:1,d0:6548,d1:64775;
-        ("begin", Expression<MethodOrOperator> @:6548 check:64775,op:0,dt:2,nt:9,next:6511,nextCheck:64738,str:1,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:6511 check:64738,op:19,dt:4,nt:8,next:6514,nextCheck:64741,str:26085,h:1,d0:6512,d1:64739;
+("x01_0230_pot", MethodDecl<Void> @:115 check:0,op:0,dt:0,nt:65535,next:6538,nextCheck:64765,str:11022,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:6538 check:64765,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:25975,h:1,d0:6539,d1:64766;
+        ("begin", Expression<MethodOrOperator> @:6539 check:64766,op:0,dt:2,nt:9,next:6502,nextCheck:64729,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6502 check:64729,op:19,dt:4,nt:8,next:6505,nextCheck:64732,str:26006,h:1,d0:6503,d1:64730;
+                ("sleep", Expression<MethodOrOperator> @:6503 check:64730,op:19,dt:2,nt:9,next:6504,nextCheck:64731,str:80,h:0,d0:0,d1:0;
+                    (470, Expression<Short> @:6504 check:64731,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:26013,h:1,d0:470,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6505 check:64732,op:220,dt:4,nt:8,next:6511,nextCheck:64738,str:26023,h:1,d0:6506,d1:64733;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:6506 check:64733,op:220,dt:2,nt:9,next:6507,nextCheck:64734,str:9441,h:0,d0:0,d1:0;
+                    ("truth", Expression<Unit> @:6507 check:64734,op:57,dt:51,nt:9,next:6508,nextCheck:64735,str:6687,h:0,d0:57,d1:65535;
+                        ("angry", Expression<StringId> @:6508 check:64735,op:11,dt:11,nt:9,next:6509,nextCheck:64736,str:9547,h:0,d0:430,d1:1280;
+                            (0.25f, Expression<Float> @:6509 check:64736,op:6,dt:6,nt:9,next:6510,nextCheck:64737,str:26061,h:1,d0:0,d1:16000;
+                                (60, Expression<Short> @:6510 check:64737,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:26065,h:1,d0:60,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:6511 check:64738,op:19,dt:4,nt:8,next:6514,nextCheck:64741,str:26074,h:1,d0:6512,d1:64739;
                 ("sleep", Expression<MethodOrOperator> @:6512 check:64739,op:19,dt:2,nt:9,next:6513,nextCheck:64740,str:80,h:0,d0:0,d1:0;
-                    (470, Expression<Short> @:6513 check:64740,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:26092,h:1,d0:470,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6514 check:64741,op:220,dt:4,nt:8,next:6520,nextCheck:64747,str:26102,h:1,d0:6515,d1:64742;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:6515 check:64742,op:220,dt:2,nt:9,next:6516,nextCheck:64743,str:9441,h:0,d0:0,d1:0;
-                    ("truth", Expression<Unit> @:6516 check:64743,op:57,dt:51,nt:9,next:6517,nextCheck:64744,str:6687,h:0,d0:57,d1:65535;
-                        ("angry", Expression<StringId> @:6517 check:64744,op:11,dt:11,nt:9,next:6518,nextCheck:64745,str:9547,h:0,d0:430,d1:1280;
-                            (0.25f, Expression<Float> @:6518 check:64745,op:6,dt:6,nt:9,next:6519,nextCheck:64746,str:26140,h:1,d0:0,d1:16000;
-                                (60, Expression<Short> @:6519 check:64746,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:26144,h:1,d0:60,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:6520 check:64747,op:19,dt:4,nt:8,next:6523,nextCheck:64750,str:26153,h:1,d0:6521,d1:64748;
-                ("sleep", Expression<MethodOrOperator> @:6521 check:64748,op:19,dt:2,nt:9,next:6522,nextCheck:64749,str:80,h:0,d0:0,d1:0;
-                    (20, Expression<Short> @:6522 check:64749,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:26160,h:1,d0:20,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6523 check:64750,op:596,dt:4,nt:8,next:6528,nextCheck:64755,str:26166,h:1,d0:6524,d1:64751;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:6524 check:64751,op:596,dt:2,nt:9,next:6525,nextCheck:64752,str:3766,h:0,d0:0,d1:0;
-                    ("sound\dialog\levels\01_spacestation\cinematic\x01_0230_pot", Expression<Sound> @:6525 check:64752,op:32,dt:32,nt:9,next:6526,nextCheck:64753,str:10980,h:0,d0:2760,d1:60478;
-                        (4294901817, Expression<Entity> @:6526 check:64753,op:56,dt:50,nt:9,next:6527,nextCheck:64754,str:6687,h:0,d0:57,d1:65535;
-                            (1f, Expression<Float> @:6527 check:64754,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:26252,h:1,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:6528 check:64755,op:562,dt:4,nt:8,next:6532,nextCheck:64759,str:26257,h:1,d0:6529,d1:64756;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:6529 check:64756,op:562,dt:2,nt:9,next:6530,nextCheck:64757,str:5905,h:0,d0:0,d1:0;
-                    ("x01_0230_pot", Expression<StringId> @:6530 check:64757,op:11,dt:11,nt:9,next:6531,nextCheck:64758,str:11039,h:0,d0:9666,d1:3072;
-                        (7f, Expression<Float> @:6531 check:64758,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:26290,h:1,d0:0,d1:16608;))))
-            (____, BuiltinInvocation<Void> @:6532 check:64759,op:220,dt:4,nt:8,next:6538,nextCheck:64765,str:26298,h:1,d0:6533,d1:64760;
+                    (20, Expression<Short> @:6513 check:64740,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:26081,h:1,d0:20,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6514 check:64741,op:598,dt:4,nt:8,next:6519,nextCheck:64746,str:26087,h:1,d0:6515,d1:64742;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:6515 check:64742,op:598,dt:2,nt:9,next:6516,nextCheck:64743,str:3766,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\01_spacestation\cinematic\x01_0230_pot", Expression<Sound> @:6516 check:64743,op:32,dt:32,nt:9,next:6517,nextCheck:64744,str:10963,h:0,d0:2776,d1:60494;
+                        (4294901817, Expression<Entity> @:6517 check:64744,op:56,dt:50,nt:9,next:6518,nextCheck:64745,str:6687,h:0,d0:57,d1:65535;
+                            (1f, Expression<Float> @:6518 check:64745,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:26173,h:1,d0:0,d1:16256;)))))
+            (____, BuiltinInvocation<Void> @:6519 check:64746,op:564,dt:4,nt:8,next:6523,nextCheck:64750,str:26178,h:1,d0:6520,d1:64747;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:6520 check:64747,op:564,dt:2,nt:9,next:6521,nextCheck:64748,str:5905,h:0,d0:0,d1:0;
+                    ("x01_0230_pot", Expression<StringId> @:6521 check:64748,op:11,dt:11,nt:9,next:6522,nextCheck:64749,str:11022,h:0,d0:9666,d1:3072;
+                        (7f, Expression<Float> @:6522 check:64749,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:26211,h:1,d0:0,d1:16608;))))
+            (____, BuiltinInvocation<Void> @:6523 check:64750,op:220,dt:4,nt:8,next:6529,nextCheck:64756,str:26219,h:1,d0:6524,d1:64751;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:6524 check:64751,op:220,dt:2,nt:9,next:6525,nextCheck:64752,str:9441,h:0,d0:0,d1:0;
+                    ("regret", Expression<Unit> @:6525 check:64752,op:57,dt:51,nt:9,next:6526,nextCheck:64753,str:6086,h:0,d0:56,d1:65535;
+                        ("shocked", Expression<StringId> @:6526 check:64753,op:11,dt:11,nt:9,next:6527,nextCheck:64754,str:11035,h:0,d0:426,d1:1792;
+                            (0.5f, Expression<Float> @:6527 check:64754,op:6,dt:6,nt:9,next:6528,nextCheck:64755,str:26260,h:1,d0:0,d1:16128;
+                                (30, Expression<Short> @:6528 check:64755,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:26263,h:1,d0:30,d1:65535;))))))
+            (____, BuiltinInvocation<Void> @:6529 check:64756,op:19,dt:4,nt:8,next:6532,nextCheck:64759,str:26269,h:1,d0:6530,d1:64757;
+                ("sleep", Expression<MethodOrOperator> @:6530 check:64757,op:19,dt:2,nt:9,next:6531,nextCheck:64758,str:80,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:6531 check:64758,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:26276,h:1,d0:60,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:6532 check:64759,op:220,dt:4,nt:8,next:65535,nextCheck:65535,str:26282,h:1,d0:6533,d1:64760;
                 ("unit_set_emotional_state", Expression<MethodOrOperator> @:6533 check:64760,op:220,dt:2,nt:9,next:6534,nextCheck:64761,str:9441,h:0,d0:0,d1:0;
                     ("regret", Expression<Unit> @:6534 check:64761,op:57,dt:51,nt:9,next:6535,nextCheck:64762,str:6086,h:0,d0:56,d1:65535;
-                        ("shocked", Expression<StringId> @:6535 check:64762,op:11,dt:11,nt:9,next:6536,nextCheck:64763,str:11052,h:0,d0:426,d1:1792;
-                            (0.5f, Expression<Float> @:6536 check:64763,op:6,dt:6,nt:9,next:6537,nextCheck:64764,str:26339,h:1,d0:0,d1:16128;
-                                (30, Expression<Short> @:6537 check:64764,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:26342,h:1,d0:30,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:6538 check:64765,op:19,dt:4,nt:8,next:6541,nextCheck:64768,str:26348,h:1,d0:6539,d1:64766;
-                ("sleep", Expression<MethodOrOperator> @:6539 check:64766,op:19,dt:2,nt:9,next:6540,nextCheck:64767,str:80,h:0,d0:0,d1:0;
-                    (60, Expression<Short> @:6540 check:64767,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:26355,h:1,d0:60,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6541 check:64768,op:220,dt:4,nt:8,next:65535,nextCheck:65535,str:26361,h:1,d0:6542,d1:64769;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:6542 check:64769,op:220,dt:2,nt:9,next:6543,nextCheck:64770,str:9441,h:0,d0:0,d1:0;
-                    ("regret", Expression<Unit> @:6543 check:64770,op:57,dt:51,nt:9,next:6544,nextCheck:64771,str:6086,h:0,d0:56,d1:65535;
-                        ("arrogant", Expression<StringId> @:6544 check:64771,op:11,dt:11,nt:9,next:6545,nextCheck:64772,str:9466,h:0,d0:428,d1:2048;
-                            (0.5f, Expression<Float> @:6545 check:64772,op:6,dt:6,nt:9,next:6546,nextCheck:64773,str:26403,h:1,d0:0,d1:16128;
-                                (60, Expression<Short> @:6546 check:64773,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:26406,h:1,d0:60,d1:65535;)))))))))
+                        ("arrogant", Expression<StringId> @:6535 check:64762,op:11,dt:11,nt:9,next:6536,nextCheck:64763,str:9466,h:0,d0:428,d1:2048;
+                            (0.5f, Expression<Float> @:6536 check:64763,op:6,dt:6,nt:9,next:6537,nextCheck:64764,str:26324,h:1,d0:0,d1:16128;
+                                (60, Expression<Short> @:6537 check:64764,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:26327,h:1,d0:60,d1:65535;)))))))))

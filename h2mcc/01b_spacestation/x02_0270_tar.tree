@@ -1,21 +1,21 @@
 
-("x02_0270_tar", MethodDecl<Void> @:112 check:0,op:0,dt:0,nt:65535,next:4312,nextCheck:62539,str:11526,h:0,d0:0,d1:0;
+("x02_0270_tar", MethodDecl<Void> @:112 check:0,op:0,dt:0,nt:65535,next:4312,nextCheck:62539,str:11546,h:0,d0:0,d1:0;
     (____, BuiltinInvocation<Void> @:4312 check:62539,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:52628,h:0,d0:4313,d1:62540;
-        ("begin", Expression<MethodOrOperator> @:4313 check:62540,op:0,dt:2,nt:9,next:4295,nextCheck:62522,str:11,h:0,d0:0,d1:0;
+        ("begin", Expression<MethodOrOperator> @:4313 check:62540,op:0,dt:2,nt:9,next:4295,nextCheck:62522,str:31,h:0,d0:0,d1:0;
             (____, BuiltinInvocation<Void> @:4295 check:62522,op:19,dt:4,nt:8,next:4298,nextCheck:62525,str:52659,h:0,d0:4296,d1:62523;
-                ("sleep", Expression<MethodOrOperator> @:4296 check:62523,op:19,dt:2,nt:9,next:4297,nextCheck:62524,str:90,h:0,d0:0,d1:0;
+                ("sleep", Expression<MethodOrOperator> @:4296 check:62523,op:19,dt:2,nt:9,next:4297,nextCheck:62524,str:110,h:0,d0:0,d1:0;
                     (245, Expression<Short> @:4297 check:62524,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:52666,h:0,d0:245,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:4298 check:62525,op:596,dt:4,nt:8,next:4303,nextCheck:62530,str:52673,h:0,d0:4299,d1:62526;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:4299 check:62526,op:596,dt:2,nt:9,next:4300,nextCheck:62527,str:1446,h:0,d0:0,d1:0;
-                    ("sound\dialog\levels\01_spacestation\cinematic\x02_0270_tar", Expression<Sound> @:4300 check:62527,op:32,dt:32,nt:9,next:4301,nextCheck:62528,str:11467,h:0,d0:4536,d1:62424;
-                        (4294902075, Expression<Entity> @:4301 check:62528,op:56,dt:50,nt:9,next:4302,nextCheck:62529,str:2736,h:0,d0:315,d1:65535;
+            (____, BuiltinInvocation<Void> @:4298 check:62525,op:598,dt:4,nt:8,next:4303,nextCheck:62530,str:52673,h:0,d0:4299,d1:62526;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:4299 check:62526,op:598,dt:2,nt:9,next:4300,nextCheck:62527,str:1466,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\01_spacestation\cinematic\x02_0270_tar", Expression<Sound> @:4300 check:62527,op:32,dt:32,nt:9,next:4301,nextCheck:62528,str:11487,h:0,d0:5050,d1:62963;
+                        (4294902075, Expression<Entity> @:4301 check:62528,op:56,dt:50,nt:9,next:4302,nextCheck:62529,str:2756,h:0,d0:315,d1:65535;
                             (1f, Expression<Float> @:4302 check:62529,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:52762,h:0,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:4303 check:62530,op:562,dt:4,nt:8,next:4307,nextCheck:62534,str:52767,h:0,d0:4304,d1:62531;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:4304 check:62531,op:562,dt:2,nt:9,next:4305,nextCheck:62532,str:1689,h:0,d0:0,d1:0;
-                    ("x02_0270_tar", Expression<StringId> @:4305 check:62532,op:11,dt:11,nt:9,next:4306,nextCheck:62533,str:11526,h:0,d0:9618,d1:3072;
+            (____, BuiltinInvocation<Void> @:4303 check:62530,op:564,dt:4,nt:8,next:4307,nextCheck:62534,str:52767,h:0,d0:4304,d1:62531;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:4304 check:62531,op:564,dt:2,nt:9,next:4305,nextCheck:62532,str:1709,h:0,d0:0,d1:0;
+                    ("x02_0270_tar", Expression<StringId> @:4305 check:62532,op:11,dt:11,nt:9,next:4306,nextCheck:62533,str:11546,h:0,d0:9624,d1:3072;
                         (2f, Expression<Float> @:4306 check:62533,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:52800,h:0,d0:0,d1:16384;))))
             (____, BuiltinInvocation<Void> @:4307 check:62534,op:41,dt:4,nt:8,next:65535,nextCheck:65535,str:52805,h:0,d0:4308,d1:62535;
-                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:4308 check:62535,op:41,dt:2,nt:9,next:4309,nextCheck:62536,str:7901,h:0,d0:0,d1:0;
-                    ("effects\cinematics\02\charred_smoke_medium", Expression<Effect> @:4309 check:62536,op:33,dt:33,nt:9,next:4310,nextCheck:62537,str:11539,h:0,d0:4537,d1:62425;
-                        (4294902087, Expression<Entity> @:4310 check:62537,op:56,dt:50,nt:9,next:4311,nextCheck:62538,str:2728,h:0,d0:327,d1:65535;
-                            ("head", Expression<StringId> @:4311 check:62538,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:3132,h:0,d0:149,d1:1024;))))))))
+                ("effect_new_on_object_marker", Expression<MethodOrOperator> @:4308 check:62535,op:41,dt:2,nt:9,next:4309,nextCheck:62536,str:7921,h:0,d0:0,d1:0;
+                    ("effects\cinematics\02\charred_smoke_medium", Expression<Effect> @:4309 check:62536,op:33,dt:33,nt:9,next:4310,nextCheck:62537,str:11559,h:0,d0:5051,d1:62964;
+                        (4294902087, Expression<Entity> @:4310 check:62537,op:56,dt:50,nt:9,next:4311,nextCheck:62538,str:2748,h:0,d0:327,d1:65535;
+                            ("head", Expression<StringId> @:4311 check:62538,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:3152,h:0,d0:149,d1:1024;))))))))

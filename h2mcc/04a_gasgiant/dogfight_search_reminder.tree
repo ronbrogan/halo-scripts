@@ -1,25 +1,25 @@
 
-("dogfight_search_reminder", MethodDecl<Void> @:356 check:0,op:0,dt:0,nt:65535,next:20821,nextCheck:46281,str:33206,h:0,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:20821 check:46281,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:29046,h:3,d0:20822,d1:46282;
-        ("begin", Expression<MethodOrOperator> @:20822 check:46282,op:0,dt:2,nt:9,next:20800,nextCheck:46260,str:6,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:20800 check:46260,op:281,dt:4,nt:8,next:20803,nextCheck:46263,str:29089,h:3,d0:20801,d1:46261;
-                ("ai_dialogue_enable", Expression<MethodOrOperator> @:20801 check:46261,op:281,dt:2,nt:9,next:20802,nextCheck:46262,str:17599,h:0,d0:0,d1:0;
-                    (False, Expression<Boolean> @:20802 check:46262,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:29109,h:3,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:20803 check:46263,op:19,dt:4,nt:8,next:20806,nextCheck:46266,str:29118,h:3,d0:20804,d1:46264;
-                ("sleep", Expression<MethodOrOperator> @:20804 check:46264,op:19,dt:2,nt:9,next:20805,nextCheck:46265,str:85,h:0,d0:0,d1:0;
-                    (60, Expression<Short> @:20805 check:46265,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:29125,h:3,d0:60,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:20806 check:46266,op:27,dt:4,nt:8,next:20809,nextCheck:46269,str:29131,h:3,d0:20807,d1:46267;
-                ("print", Expression<MethodOrOperator> @:20807 check:46267,op:27,dt:2,nt:9,next:20808,nextCheck:46268,str:91,h:0,d0:0,d1:0;
-                    ("spec-ops commander: 'no sign of the heretic-leader or his banshee. we must keep searching!'", Expression<String> @:20808 check:46268,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:31812,h:0,d0:31812,d1:0;)))
-            (____, BuiltinInvocation<Void> @:20809 check:46269,op:19,dt:4,nt:8,next:20815,nextCheck:46275,str:29235,h:3,d0:20810,d1:46270;
-                ("sleep", Expression<MethodOrOperator> @:20810 check:46270,op:19,dt:2,nt:9,next:20811,nextCheck:46271,str:85,h:0,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:20811 check:46271,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:29242,h:3,d0:20812,d1:46272;
-                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:20812 check:46272,op:362,dt:2,nt:9,next:20813,nextCheck:46273,str:17710,h:0,d0:0,d1:0;
-                            (4294967295, Expression<Entity> @:20813 check:46273,op:50,dt:50,nt:9,next:20814,nextCheck:46274,str:1,h:0,d0:65535,d1:65535;
-                                ("1210", Expression<StringId> @:20814 check:46274,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:31904,h:0,d0:11755,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:20815 check:46275,op:19,dt:4,nt:8,next:20818,nextCheck:46278,str:29374,h:3,d0:20816,d1:46276;
-                ("sleep", Expression<MethodOrOperator> @:20816 check:46276,op:19,dt:2,nt:9,next:20817,nextCheck:46277,str:85,h:0,d0:0,d1:0;
-                    (30, Expression<Short> @:20817 check:46277,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:29381,h:3,d0:30,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:20818 check:46278,op:281,dt:4,nt:8,next:65535,nextCheck:65535,str:29387,h:3,d0:20819,d1:46279;
-                ("ai_dialogue_enable", Expression<MethodOrOperator> @:20819 check:46279,op:281,dt:2,nt:9,next:20820,nextCheck:46280,str:17599,h:0,d0:0,d1:0;
-                    (True, Expression<Boolean> @:20820 check:46280,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:29407,h:3,d0:65281,d1:65535;))))))
+("dogfight_search_reminder", MethodDecl<Void> @:356 check:0,op:0,dt:0,nt:65535,next:20812,nextCheck:46272,str:33189,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:20812 check:46272,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28925,h:3,d0:20813,d1:46273;
+        ("begin", Expression<MethodOrOperator> @:20813 check:46273,op:0,dt:2,nt:9,next:20791,nextCheck:46251,str:6,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:20791 check:46251,op:281,dt:4,nt:8,next:20794,nextCheck:46254,str:28968,h:3,d0:20792,d1:46252;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:20792 check:46252,op:281,dt:2,nt:9,next:20793,nextCheck:46253,str:17582,h:0,d0:0,d1:0;
+                    (False, Expression<Boolean> @:20793 check:46253,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:28988,h:3,d0:65280,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:20794 check:46254,op:19,dt:4,nt:8,next:20797,nextCheck:46257,str:28997,h:3,d0:20795,d1:46255;
+                ("sleep", Expression<MethodOrOperator> @:20795 check:46255,op:19,dt:2,nt:9,next:20796,nextCheck:46256,str:85,h:0,d0:0,d1:0;
+                    (60, Expression<Short> @:20796 check:46256,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:29004,h:3,d0:60,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:20797 check:46257,op:27,dt:4,nt:8,next:20800,nextCheck:46260,str:29010,h:3,d0:20798,d1:46258;
+                ("print", Expression<MethodOrOperator> @:20798 check:46258,op:27,dt:2,nt:9,next:20799,nextCheck:46259,str:91,h:0,d0:0,d1:0;
+                    ("spec-ops commander: 'no sign of the heretic-leader or his banshee. we must keep searching!'", Expression<String> @:20799 check:46259,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:31795,h:0,d0:31795,d1:0;)))
+            (____, BuiltinInvocation<Void> @:20800 check:46260,op:19,dt:4,nt:8,next:20806,nextCheck:46266,str:29114,h:3,d0:20801,d1:46261;
+                ("sleep", Expression<MethodOrOperator> @:20801 check:46261,op:19,dt:2,nt:9,next:20802,nextCheck:46262,str:85,h:0,d0:0,d1:0;
+                    (____, BuiltinInvocation<Short> @:20802 check:46262,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:29121,h:3,d0:20803,d1:46263;
+                        ("ai_play_line_on_object", Expression<MethodOrOperator> @:20803 check:46263,op:362,dt:2,nt:9,next:20804,nextCheck:46264,str:17693,h:0,d0:0,d1:0;
+                            (4294967295, Expression<Entity> @:20804 check:46264,op:50,dt:50,nt:9,next:20805,nextCheck:46265,str:1,h:0,d0:65535,d1:65535;
+                                ("1210", Expression<StringId> @:20805 check:46265,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:31887,h:0,d0:11760,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:20806 check:46266,op:19,dt:4,nt:8,next:20809,nextCheck:46269,str:29253,h:3,d0:20807,d1:46267;
+                ("sleep", Expression<MethodOrOperator> @:20807 check:46267,op:19,dt:2,nt:9,next:20808,nextCheck:46268,str:85,h:0,d0:0,d1:0;
+                    (30, Expression<Short> @:20808 check:46268,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:29260,h:3,d0:30,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:20809 check:46269,op:281,dt:4,nt:8,next:65535,nextCheck:65535,str:29266,h:3,d0:20810,d1:46270;
+                ("ai_dialogue_enable", Expression<MethodOrOperator> @:20810 check:46270,op:281,dt:2,nt:9,next:20811,nextCheck:46271,str:17582,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:20811 check:46271,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:29286,h:3,d0:65281,d1:65535;))))))

@@ -1,37 +1,37 @@
 
-("x02_0420_to1", MethodDecl<Void> @:163 check:0,op:0,dt:0,nt:65535,next:6609,nextCheck:64836,str:16154,h:0,d0:0,d1:0;
+("x02_0420_to1", MethodDecl<Void> @:163 check:0,op:0,dt:0,nt:65535,next:6609,nextCheck:64836,str:16174,h:0,d0:0,d1:0;
     (____, BuiltinInvocation<Void> @:6609 check:64836,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:15034,h:1,d0:6610,d1:64837;
-        ("begin", Expression<MethodOrOperator> @:6610 check:64837,op:0,dt:2,nt:9,next:6576,nextCheck:64803,str:11,h:0,d0:0,d1:0;
+        ("begin", Expression<MethodOrOperator> @:6610 check:64837,op:0,dt:2,nt:9,next:6576,nextCheck:64803,str:31,h:0,d0:0,d1:0;
             (____, BuiltinInvocation<Void> @:6576 check:64803,op:19,dt:4,nt:8,next:6579,nextCheck:64806,str:15065,h:1,d0:6577,d1:64804;
-                ("sleep", Expression<MethodOrOperator> @:6577 check:64804,op:19,dt:2,nt:9,next:6578,nextCheck:64805,str:90,h:0,d0:0,d1:0;
+                ("sleep", Expression<MethodOrOperator> @:6577 check:64804,op:19,dt:2,nt:9,next:6578,nextCheck:64805,str:110,h:0,d0:0,d1:0;
                     (107, Expression<Short> @:6578 check:64805,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:15072,h:1,d0:107,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6579 check:64806,op:596,dt:4,nt:8,next:6584,nextCheck:64811,str:15079,h:1,d0:6580,d1:64807;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:6580 check:64807,op:596,dt:2,nt:9,next:6581,nextCheck:64808,str:1446,h:0,d0:0,d1:0;
-                    ("sound\dialog\levels\01_spacestation\cinematic\x02_0420_to1", Expression<Sound> @:6581 check:64808,op:32,dt:32,nt:9,next:6582,nextCheck:64809,str:16095,h:0,d0:4570,d1:62458;
-                        (4294967295, Expression<Entity> @:6582 check:64809,op:50,dt:50,nt:9,next:6583,nextCheck:64810,str:1520,h:0,d0:65535,d1:65535;
+            (____, BuiltinInvocation<Void> @:6579 check:64806,op:598,dt:4,nt:8,next:6584,nextCheck:64811,str:15079,h:1,d0:6580,d1:64807;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:6580 check:64807,op:598,dt:2,nt:9,next:6581,nextCheck:64808,str:1466,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\01_spacestation\cinematic\x02_0420_to1", Expression<Sound> @:6581 check:64808,op:32,dt:32,nt:9,next:6582,nextCheck:64809,str:16115,h:0,d0:5084,d1:62997;
+                        (4294967295, Expression<Entity> @:6582 check:64809,op:50,dt:50,nt:9,next:6583,nextCheck:64810,str:1540,h:0,d0:65535,d1:65535;
                             (1f, Expression<Float> @:6583 check:64810,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:15164,h:1,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:6584 check:64811,op:562,dt:4,nt:8,next:6588,nextCheck:64815,str:15169,h:1,d0:6585,d1:64812;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:6585 check:64812,op:562,dt:2,nt:9,next:6586,nextCheck:64813,str:1689,h:0,d0:0,d1:0;
-                    ("x02_0420_to1", Expression<StringId> @:6586 check:64813,op:11,dt:11,nt:9,next:6587,nextCheck:64814,str:16154,h:0,d0:9763,d1:3072;
+            (____, BuiltinInvocation<Void> @:6584 check:64811,op:564,dt:4,nt:8,next:6588,nextCheck:64815,str:15169,h:1,d0:6585,d1:64812;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:6585 check:64812,op:564,dt:2,nt:9,next:6586,nextCheck:64813,str:1709,h:0,d0:0,d1:0;
+                    ("x02_0420_to1", Expression<StringId> @:6586 check:64813,op:11,dt:11,nt:9,next:6587,nextCheck:64814,str:16174,h:0,d0:9769,d1:3072;
                         (1.5f, Expression<Float> @:6587 check:64814,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:15202,h:1,d0:0,d1:16320;))))
             (____, BuiltinInvocation<Void> @:6588 check:64815,op:220,dt:4,nt:8,next:6594,nextCheck:64821,str:15212,h:1,d0:6589,d1:64816;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:6589 check:64816,op:220,dt:2,nt:9,next:6590,nextCheck:64817,str:1808,h:0,d0:0,d1:0;
-                    ("marine_01", Expression<Unit> @:6590 check:64817,op:57,dt:51,nt:9,next:6591,nextCheck:64818,str:7676,h:0,d0:328,d1:65535;
-                        ("annoyed", Expression<StringId> @:6591 check:64818,op:11,dt:11,nt:9,next:6592,nextCheck:64819,str:1833,h:0,d0:429,d1:1792;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:6589 check:64816,op:220,dt:2,nt:9,next:6590,nextCheck:64817,str:1828,h:0,d0:0,d1:0;
+                    ("marine_01", Expression<Unit> @:6590 check:64817,op:57,dt:51,nt:9,next:6591,nextCheck:64818,str:7696,h:0,d0:328,d1:65535;
+                        ("annoyed", Expression<StringId> @:6591 check:64818,op:11,dt:11,nt:9,next:6592,nextCheck:64819,str:1853,h:0,d0:429,d1:1792;
                             (0.5f, Expression<Float> @:6592 check:64819,op:6,dt:6,nt:9,next:6593,nextCheck:64820,str:15256,h:1,d0:0,d1:16128;
                                 (0, Expression<Short> @:6593 check:64820,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:15259,h:1,d0:0,d1:65535;))))))
             (____, BuiltinInvocation<Void> @:6594 check:64821,op:220,dt:4,nt:8,next:6600,nextCheck:64827,str:15264,h:1,d0:6595,d1:64822;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:6595 check:64822,op:220,dt:2,nt:9,next:6596,nextCheck:64823,str:1808,h:0,d0:0,d1:0;
-                    ("marine_01", Expression<Unit> @:6596 check:64823,op:57,dt:51,nt:9,next:6597,nextCheck:64824,str:7676,h:0,d0:328,d1:65535;
-                        ("pensive", Expression<StringId> @:6597 check:64824,op:11,dt:11,nt:9,next:6598,nextCheck:64825,str:2111,h:0,d0:431,d1:1792;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:6595 check:64822,op:220,dt:2,nt:9,next:6596,nextCheck:64823,str:1828,h:0,d0:0,d1:0;
+                    ("marine_01", Expression<Unit> @:6596 check:64823,op:57,dt:51,nt:9,next:6597,nextCheck:64824,str:7696,h:0,d0:328,d1:65535;
+                        ("pensive", Expression<StringId> @:6597 check:64824,op:11,dt:11,nt:9,next:6598,nextCheck:64825,str:2131,h:0,d0:431,d1:1792;
                             (0.5f, Expression<Float> @:6598 check:64825,op:6,dt:6,nt:9,next:6599,nextCheck:64826,str:15308,h:1,d0:0,d1:16128;
                                 (0, Expression<Short> @:6599 check:64826,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:15311,h:1,d0:0,d1:65535;))))))
             (____, BuiltinInvocation<Void> @:6600 check:64827,op:19,dt:4,nt:8,next:6603,nextCheck:64830,str:15319,h:1,d0:6601,d1:64828;
-                ("sleep", Expression<MethodOrOperator> @:6601 check:64828,op:19,dt:2,nt:9,next:6602,nextCheck:64829,str:90,h:0,d0:0,d1:0;
+                ("sleep", Expression<MethodOrOperator> @:6601 check:64828,op:19,dt:2,nt:9,next:6602,nextCheck:64829,str:110,h:0,d0:0,d1:0;
                     (45, Expression<Short> @:6602 check:64829,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:15326,h:1,d0:45,d1:65535;)))
             (____, BuiltinInvocation<Void> @:6603 check:64830,op:220,dt:4,nt:8,next:65535,nextCheck:65535,str:15335,h:1,d0:6604,d1:64831;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:6604 check:64831,op:220,dt:2,nt:9,next:6605,nextCheck:64832,str:1808,h:0,d0:0,d1:0;
-                    ("marine_01", Expression<Unit> @:6605 check:64832,op:57,dt:51,nt:9,next:6606,nextCheck:64833,str:7676,h:0,d0:328,d1:65535;
-                        ("annoyed", Expression<StringId> @:6606 check:64833,op:11,dt:11,nt:9,next:6607,nextCheck:64834,str:1833,h:0,d0:429,d1:1792;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:6604 check:64831,op:220,dt:2,nt:9,next:6605,nextCheck:64832,str:1828,h:0,d0:0,d1:0;
+                    ("marine_01", Expression<Unit> @:6605 check:64832,op:57,dt:51,nt:9,next:6606,nextCheck:64833,str:7696,h:0,d0:328,d1:65535;
+                        ("annoyed", Expression<StringId> @:6606 check:64833,op:11,dt:11,nt:9,next:6607,nextCheck:64834,str:1853,h:0,d0:429,d1:1792;
                             (1f, Expression<Float> @:6607 check:64834,op:6,dt:6,nt:9,next:6608,nextCheck:64835,str:15379,h:1,d0:0,d1:16256;
                                 (10, Expression<Short> @:6608 check:64835,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:15381,h:1,d0:10,d1:65535;)))))))))

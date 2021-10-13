@@ -2,14 +2,14 @@
 ("enc_qz_ext_b", MethodDecl<Void> @:280 check:0,op:0,dt:0,nt:65535,next:13635,nextCheck:39095,str:26949,h:0,d0:0,d1:0;
     (____, BuiltinInvocation<Void> @:13635 check:39095,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:28262,h:2,d0:13636,d1:39096;
         ("begin", Expression<MethodOrOperator> @:13636 check:39096,op:0,dt:2,nt:9,next:13321,nextCheck:38781,str:6,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:13321 check:38781,op:786,dt:4,nt:8,next:13324,nextCheck:38784,str:28294,h:2,d0:13322,d1:38782;
-                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:13322 check:38782,op:786,dt:2,nt:9,next:13323,nextCheck:38783,str:22072,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:13321 check:38781,op:788,dt:4,nt:8,next:13324,nextCheck:38784,str:28294,h:2,d0:13322,d1:38782;
+                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:13322 check:38782,op:788,dt:2,nt:9,next:13323,nextCheck:38783,str:22072,h:0,d0:0,d1:0;
                     ("enc_ext_b_fact_exit", Expression<String> @:13323 check:38783,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:26504,h:0,d0:26504,d1:0;)))
             (____, BuiltinInvocation<Void> @:13324 check:38784,op:27,dt:4,nt:8,next:13327,nextCheck:38787,str:28349,h:2,d0:13325,d1:38785;
                 ("print", Expression<MethodOrOperator> @:13325 check:38785,op:27,dt:2,nt:9,next:13326,nextCheck:38786,str:91,h:0,d0:0,d1:0;
                     ("initialize quarantine zone exterior b scripts", Expression<String> @:13326 check:38786,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:26524,h:0,d0:26524,d1:0;)))
-            (____, BuiltinInvocation<Void> @:13327 check:38787,op:589,dt:4,nt:8,next:13329,nextCheck:38789,str:28408,h:2,d0:13328,d1:38788;
-                ("game_save_no_timeout", Expression<MethodOrOperator> @:13328 check:38788,op:589,dt:2,nt:9,next:65535,nextCheck:65535,str:18305,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:13327 check:38787,op:591,dt:4,nt:8,next:13329,nextCheck:38789,str:28408,h:2,d0:13328,d1:38788;
+                ("game_save_no_timeout", Expression<MethodOrOperator> @:13328 check:38788,op:591,dt:2,nt:9,next:65535,nextCheck:65535,str:18305,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:13329 check:38789,op:317,dt:4,nt:8,next:13332,nextCheck:38792,str:28434,h:2,d0:13330,d1:38790;
                 ("ai_renew", Expression<MethodOrOperator> @:13330 check:38790,op:317,dt:2,nt:9,next:13331,nextCheck:38791,str:18416,h:0,d0:0,d1:0;
                     ("covenant", Expression<AI> @:13331 check:38791,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:10547,h:0,d0:0,d1:16384;)))
@@ -63,8 +63,8 @@
                             ("tv_ext_b_fact_mid", Expression<Trigger> @:13379 check:38839,op:13,dt:13,nt:9,next:13380,nextCheck:38840,str:26840,h:0,d0:75,d1:0;
                                 (____, BuiltinInvocation<List> @:13380 check:38840,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:29053,h:2,d0:13381,d1:38841;
                                     ("players", Expression<MethodOrOperator> @:13381 check:38841,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))))
-            (____, BuiltinInvocation<Void> @:13382 check:38842,op:587,dt:4,nt:8,next:13384,nextCheck:38844,str:29068,h:2,d0:13383,d1:38843;
-                ("game_save", Expression<MethodOrOperator> @:13383 check:38843,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:18092,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:13382 check:38842,op:589,dt:4,nt:8,next:13384,nextCheck:38844,str:29068,h:2,d0:13383,d1:38843;
+                ("game_save", Expression<MethodOrOperator> @:13383 check:38843,op:589,dt:2,nt:9,next:65535,nextCheck:65535,str:18092,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:13384 check:38844,op:2,dt:4,nt:8,next:13396,nextCheck:38856,str:29083,h:2,d0:13385,d1:38845;
                 ("if", Expression<MethodOrOperator> @:13385 check:38845,op:2,dt:2,nt:9,next:13386,nextCheck:38846,str:461,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Boolean> @:13386 check:38846,op:124,dt:5,nt:8,next:13390,nextCheck:38850,str:29087,h:2,d0:13387,d1:38847;
@@ -101,11 +101,11 @@
                                         (____, BuiltinInvocation<List> @:13417 check:38877,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:29352,h:2,d0:13418,d1:38878;
                                             ("players", Expression<MethodOrOperator> @:13418 check:38878,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))))
                     (5, Expression<Short> @:13419 check:38879,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:29372,h:2,d0:5,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:13420 check:38880,op:786,dt:4,nt:8,next:13423,nextCheck:38883,str:29378,h:2,d0:13421,d1:38881;
-                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:13421 check:38881,op:786,dt:2,nt:9,next:13422,nextCheck:38882,str:22072,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:13420 check:38880,op:788,dt:4,nt:8,next:13423,nextCheck:38883,str:29378,h:2,d0:13421,d1:38881;
+                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:13421 check:38881,op:788,dt:2,nt:9,next:13422,nextCheck:38882,str:22072,h:0,d0:0,d1:0;
                     ("enc_qz_ext_b", Expression<String> @:13422 check:38882,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:26949,h:0,d0:26949,d1:0;)))
-            (____, BuiltinInvocation<Void> @:13423 check:38883,op:587,dt:4,nt:8,next:13425,nextCheck:38885,str:29426,h:2,d0:13424,d1:38884;
-                ("game_save", Expression<MethodOrOperator> @:13424 check:38884,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:18092,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:13423 check:38883,op:589,dt:4,nt:8,next:13425,nextCheck:38885,str:29426,h:2,d0:13424,d1:38884;
+                ("game_save", Expression<MethodOrOperator> @:13424 check:38884,op:589,dt:2,nt:9,next:65535,nextCheck:65535,str:18092,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:13425 check:38885,op:317,dt:4,nt:8,next:13428,nextCheck:38888,str:29441,h:2,d0:13426,d1:38886;
                 ("ai_renew", Expression<MethodOrOperator> @:13426 check:38886,op:317,dt:2,nt:9,next:13427,nextCheck:38887,str:18416,h:0,d0:0,d1:0;
                     ("covenant", Expression<AI> @:13427 check:38887,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:10547,h:0,d0:0,d1:16384;)))
@@ -175,8 +175,8 @@
                                         (____, BuiltinInvocation<List> @:13491 check:38951,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:30039,h:2,d0:13492,d1:38952;
                                             ("players", Expression<MethodOrOperator> @:13492 check:38952,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))))
                     (5, Expression<Short> @:13493 check:38953,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:30059,h:2,d0:5,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:13494 check:38954,op:589,dt:4,nt:8,next:13496,nextCheck:38956,str:30065,h:2,d0:13495,d1:38955;
-                ("game_save_no_timeout", Expression<MethodOrOperator> @:13495 check:38955,op:589,dt:2,nt:9,next:65535,nextCheck:65535,str:18305,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:13494 check:38954,op:591,dt:4,nt:8,next:13496,nextCheck:38956,str:30065,h:2,d0:13495,d1:38955;
+                ("game_save_no_timeout", Expression<MethodOrOperator> @:13495 check:38955,op:591,dt:2,nt:9,next:65535,nextCheck:65535,str:18305,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:13496 check:38956,op:317,dt:4,nt:8,next:13499,nextCheck:38959,str:30091,h:2,d0:13497,d1:38957;
                 ("ai_renew", Expression<MethodOrOperator> @:13497 check:38957,op:317,dt:2,nt:9,next:13498,nextCheck:38958,str:18416,h:0,d0:0,d1:0;
                     ("covenant", Expression<AI> @:13498 check:38958,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:10547,h:0,d0:0,d1:16384;)))
@@ -198,11 +198,11 @@
                                 (____, BuiltinInvocation<List> @:13514 check:38974,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:30270,h:2,d0:13515,d1:38975;
                                     ("players", Expression<MethodOrOperator> @:13515 check:38975,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
                     (5, Expression<Short> @:13516 check:38976,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:30281,h:2,d0:5,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:13517 check:38977,op:786,dt:4,nt:8,next:13520,nextCheck:38980,str:30287,h:2,d0:13518,d1:38978;
-                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:13518 check:38978,op:786,dt:2,nt:9,next:13519,nextCheck:38979,str:22072,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:13517 check:38977,op:788,dt:4,nt:8,next:13520,nextCheck:38980,str:30287,h:2,d0:13518,d1:38978;
+                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:13518 check:38978,op:788,dt:2,nt:9,next:13519,nextCheck:38979,str:22072,h:0,d0:0,d1:0;
                     ("enc_qz_ext_b_bk", Expression<String> @:13519 check:38979,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:27118,h:0,d0:27118,d1:0;)))
-            (____, BuiltinInvocation<Void> @:13520 check:38980,op:589,dt:4,nt:8,next:13522,nextCheck:38982,str:30338,h:2,d0:13521,d1:38981;
-                ("game_save_no_timeout", Expression<MethodOrOperator> @:13521 check:38981,op:589,dt:2,nt:9,next:65535,nextCheck:65535,str:18305,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:13520 check:38980,op:591,dt:4,nt:8,next:13522,nextCheck:38982,str:30338,h:2,d0:13521,d1:38981;
+                ("game_save_no_timeout", Expression<MethodOrOperator> @:13521 check:38981,op:591,dt:2,nt:9,next:65535,nextCheck:65535,str:18305,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:13522 check:38982,op:317,dt:4,nt:8,next:13525,nextCheck:38985,str:30364,h:2,d0:13523,d1:38983;
                 ("ai_renew", Expression<MethodOrOperator> @:13523 check:38983,op:317,dt:2,nt:9,next:13524,nextCheck:38984,str:18416,h:0,d0:0,d1:0;
                     ("covenant", Expression<AI> @:13524 check:38984,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:10547,h:0,d0:0,d1:16384;)))
@@ -245,11 +245,11 @@
                                 (____, BuiltinInvocation<List> @:13561 check:39021,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:30792,h:2,d0:13562,d1:39022;
                                     ("players", Expression<MethodOrOperator> @:13562 check:39022,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))
                     (5, Expression<Short> @:13563 check:39023,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:30803,h:2,d0:5,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:13564 check:39024,op:786,dt:4,nt:8,next:13567,nextCheck:39027,str:30809,h:2,d0:13565,d1:39025;
-                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:13565 check:39025,op:786,dt:2,nt:9,next:13566,nextCheck:39026,str:22072,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:13564 check:39024,op:788,dt:4,nt:8,next:13567,nextCheck:39027,str:30809,h:2,d0:13565,d1:39025;
+                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:13565 check:39025,op:788,dt:2,nt:9,next:13566,nextCheck:39026,str:22072,h:0,d0:0,d1:0;
                     ("enc_qz_ext_b_exit", Expression<String> @:13566 check:39026,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:27270,h:0,d0:27270,d1:0;)))
-            (____, BuiltinInvocation<Void> @:13567 check:39027,op:587,dt:4,nt:8,next:13569,nextCheck:39029,str:30862,h:2,d0:13568,d1:39028;
-                ("game_save", Expression<MethodOrOperator> @:13568 check:39028,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:18092,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:13567 check:39027,op:589,dt:4,nt:8,next:13569,nextCheck:39029,str:30862,h:2,d0:13568,d1:39028;
+                ("game_save", Expression<MethodOrOperator> @:13568 check:39028,op:589,dt:2,nt:9,next:65535,nextCheck:65535,str:18092,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:13569 check:39029,op:317,dt:4,nt:8,next:13572,nextCheck:39032,str:30877,h:2,d0:13570,d1:39030;
                 ("ai_renew", Expression<MethodOrOperator> @:13570 check:39030,op:317,dt:2,nt:9,next:13571,nextCheck:39031,str:18416,h:0,d0:0,d1:0;
                     ("covenant", Expression<AI> @:13571 check:39031,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:10547,h:0,d0:0,d1:16384;)))
@@ -294,8 +294,8 @@
                                         (____, BuiltinInvocation<List> @:13610 check:39070,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:31249,h:2,d0:13611,d1:39071;
                                             ("players", Expression<MethodOrOperator> @:13611 check:39071,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:26,h:0,d0:0,d1:0;)))))))
                     (5, Expression<Short> @:13612 check:39072,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:31269,h:2,d0:5,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:13613 check:39073,op:589,dt:4,nt:8,next:13615,nextCheck:39075,str:31275,h:2,d0:13614,d1:39074;
-                ("game_save_no_timeout", Expression<MethodOrOperator> @:13614 check:39074,op:589,dt:2,nt:9,next:65535,nextCheck:65535,str:18305,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:13613 check:39073,op:591,dt:4,nt:8,next:13615,nextCheck:39075,str:31275,h:2,d0:13614,d1:39074;
+                ("game_save_no_timeout", Expression<MethodOrOperator> @:13614 check:39074,op:591,dt:2,nt:9,next:65535,nextCheck:65535,str:18305,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:13615 check:39075,op:317,dt:4,nt:8,next:13618,nextCheck:39078,str:31301,h:2,d0:13616,d1:39076;
                 ("ai_renew", Expression<MethodOrOperator> @:13616 check:39076,op:317,dt:2,nt:9,next:13617,nextCheck:39077,str:18416,h:0,d0:0,d1:0;
                     ("covenant", Expression<AI> @:13617 check:39077,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:10547,h:0,d0:0,d1:16384;)))

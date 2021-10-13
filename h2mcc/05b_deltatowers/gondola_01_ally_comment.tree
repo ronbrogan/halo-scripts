@@ -1,49 +1,49 @@
 
-("gondola_01_ally_comment", MethodDecl<Void> @:153 check:0,op:0,dt:0,nt:65535,next:5201,nextCheck:63428,str:14907,h:0,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5201 check:63428,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:61695,h:0,d0:5202,d1:63429;
-        ("begin", Expression<MethodOrOperator> @:5202 check:63429,op:0,dt:2,nt:9,next:5156,nextCheck:63383,str:142,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5156 check:63383,op:374,dt:4,nt:8,next:5159,nextCheck:63386,str:61744,h:0,d0:5157,d1:63384;
-                ("cs_switch", Expression<MethodOrOperator> @:5157 check:63384,op:374,dt:2,nt:9,next:5158,nextCheck:63385,str:12861,h:0,d0:0,d1:0;
-                    ("ally01", Expression<StringId> @:5158 check:63385,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12871,h:0,d0:12753,d1:1536;)))
-            (____, BuiltinInvocation<Void> @:5159 check:63386,op:449,dt:4,nt:8,next:5162,nextCheck:63389,str:61765,h:0,d0:5160,d1:63387;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:5160 check:63387,op:449,dt:2,nt:9,next:5161,nextCheck:63388,str:11009,h:0,d0:0,d1:0;
-                    (True, Expression<Boolean> @:5161 check:63388,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:61797,h:0,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5162 check:63389,op:440,dt:4,nt:8,next:5165,nextCheck:63392,str:61805,h:0,d0:5163,d1:63390;
-                ("cs_abort_on_damage", Expression<MethodOrOperator> @:5163 check:63390,op:440,dt:2,nt:9,next:5164,nextCheck:63391,str:12878,h:0,d0:0,d1:0;
-                    (True, Expression<Boolean> @:5164 check:63391,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:61825,h:0,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5165 check:63392,op:27,dt:4,nt:8,next:5168,nextCheck:63395,str:61833,h:0,d0:5166,d1:63393;
-                ("print", Expression<MethodOrOperator> @:5166 check:63393,op:27,dt:2,nt:9,next:5167,nextCheck:63394,str:227,h:0,d0:0,d1:0;
-                    ("ally_01: 'all aboard!'", Expression<String> @:5167 check:63394,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12897,h:0,d0:12897,d1:0;)))
-            (____, BuiltinInvocation<Void> @:5168 check:63395,op:418,dt:4,nt:8,next:5171,nextCheck:63398,str:61868,h:0,d0:5169,d1:63396;
-                ("cs_play_line", Expression<MethodOrOperator> @:5169 check:63396,op:418,dt:2,nt:9,next:5170,nextCheck:63397,str:12920,h:0,d0:0,d1:0;
-                    ("0920", Expression<StringId> @:5170 check:63397,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12933,h:0,d0:12479,d1:1024;)))
-            (____, BuiltinInvocation<Void> @:5171 check:63398,op:374,dt:4,nt:8,next:5174,nextCheck:63401,str:61892,h:0,d0:5172,d1:63399;
-                ("cs_switch", Expression<MethodOrOperator> @:5172 check:63399,op:374,dt:2,nt:9,next:5173,nextCheck:63400,str:12861,h:0,d0:0,d1:0;
-                    ("ally02", Expression<StringId> @:5173 check:63400,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12938,h:0,d0:12754,d1:1536;)))
-            (____, BuiltinInvocation<Void> @:5174 check:63401,op:449,dt:4,nt:8,next:5177,nextCheck:63404,str:61913,h:0,d0:5175,d1:63402;
-                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:5175 check:63402,op:449,dt:2,nt:9,next:5176,nextCheck:63403,str:11009,h:0,d0:0,d1:0;
-                    (True, Expression<Boolean> @:5176 check:63403,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:61945,h:0,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5177 check:63404,op:440,dt:4,nt:8,next:5180,nextCheck:63407,str:61953,h:0,d0:5178,d1:63405;
-                ("cs_abort_on_damage", Expression<MethodOrOperator> @:5178 check:63405,op:440,dt:2,nt:9,next:5179,nextCheck:63406,str:12878,h:0,d0:0,d1:0;
-                    (True, Expression<Boolean> @:5179 check:63406,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:61973,h:0,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5180 check:63407,op:19,dt:4,nt:8,next:5183,nextCheck:63410,str:61981,h:0,d0:5181,d1:63408;
-                ("sleep", Expression<MethodOrOperator> @:5181 check:63408,op:19,dt:2,nt:9,next:5182,nextCheck:63409,str:221,h:0,d0:0,d1:0;
-                    (5, Expression<Short> @:5182 check:63409,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:61988,h:0,d0:5,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5183 check:63410,op:27,dt:4,nt:8,next:5186,nextCheck:63413,str:61993,h:0,d0:5184,d1:63411;
-                ("print", Expression<MethodOrOperator> @:5184 check:63411,op:27,dt:2,nt:9,next:5185,nextCheck:63412,str:227,h:0,d0:0,d1:0;
-                    ("ally_02: 'i'll drive!'", Expression<String> @:5185 check:63412,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12945,h:0,d0:12945,d1:0;)))
-            (____, BuiltinInvocation<Void> @:5186 check:63413,op:418,dt:4,nt:8,next:5189,nextCheck:63416,str:62028,h:0,d0:5187,d1:63414;
-                ("cs_play_line", Expression<MethodOrOperator> @:5187 check:63414,op:418,dt:2,nt:9,next:5188,nextCheck:63415,str:12920,h:0,d0:0,d1:0;
-                    ("0930", Expression<StringId> @:5188 check:63415,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12968,h:0,d0:12480,d1:1024;)))
-            (____, BuiltinInvocation<Void> @:5189 check:63416,op:374,dt:4,nt:8,next:5192,nextCheck:63419,str:62052,h:0,d0:5190,d1:63417;
-                ("cs_switch", Expression<MethodOrOperator> @:5190 check:63417,op:374,dt:2,nt:9,next:5191,nextCheck:63418,str:12861,h:0,d0:0,d1:0;
-                    ("ally01", Expression<StringId> @:5191 check:63418,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12871,h:0,d0:12753,d1:1536;)))
-            (____, BuiltinInvocation<Void> @:5192 check:63419,op:19,dt:4,nt:8,next:5195,nextCheck:63422,str:62073,h:0,d0:5193,d1:63420;
-                ("sleep", Expression<MethodOrOperator> @:5193 check:63420,op:19,dt:2,nt:9,next:5194,nextCheck:63421,str:221,h:0,d0:0,d1:0;
-                    (15, Expression<Short> @:5194 check:63421,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:62080,h:0,d0:15,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5195 check:63422,op:27,dt:4,nt:8,next:5198,nextCheck:63425,str:62086,h:0,d0:5196,d1:63423;
-                ("print", Expression<MethodOrOperator> @:5196 check:63423,op:27,dt:2,nt:9,next:5197,nextCheck:63424,str:227,h:0,d0:0,d1:0;
-                    ("ally_01: 'what's to drive? it comes here. it goes there.'", Expression<String> @:5197 check:63424,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12973,h:0,d0:12973,d1:0;)))
-            (____, BuiltinInvocation<Void> @:5198 check:63425,op:418,dt:4,nt:8,next:65535,nextCheck:65535,str:62156,h:0,d0:5199,d1:63426;
-                ("cs_play_line", Expression<MethodOrOperator> @:5199 check:63426,op:418,dt:2,nt:9,next:5200,nextCheck:63427,str:12920,h:0,d0:0,d1:0;
-                    ("0940", Expression<StringId> @:5200 check:63427,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:13031,h:0,d0:12481,d1:1024;))))))
+("gondola_01_ally_comment", MethodDecl<Void> @:153 check:0,op:0,dt:0,nt:65535,next:5204,nextCheck:63431,str:14940,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:5204 check:63431,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:61739,h:0,d0:5205,d1:63432;
+        ("begin", Expression<MethodOrOperator> @:5205 check:63432,op:0,dt:2,nt:9,next:5159,nextCheck:63386,str:142,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:5159 check:63386,op:374,dt:4,nt:8,next:5162,nextCheck:63389,str:61788,h:0,d0:5160,d1:63387;
+                ("cs_switch", Expression<MethodOrOperator> @:5160 check:63387,op:374,dt:2,nt:9,next:5161,nextCheck:63388,str:12894,h:0,d0:0,d1:0;
+                    ("ally01", Expression<StringId> @:5161 check:63388,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12904,h:0,d0:12757,d1:1536;)))
+            (____, BuiltinInvocation<Void> @:5162 check:63389,op:449,dt:4,nt:8,next:5165,nextCheck:63392,str:61809,h:0,d0:5163,d1:63390;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:5163 check:63390,op:449,dt:2,nt:9,next:5164,nextCheck:63391,str:11042,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:5164 check:63391,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:61841,h:0,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5165 check:63392,op:440,dt:4,nt:8,next:5168,nextCheck:63395,str:61849,h:0,d0:5166,d1:63393;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:5166 check:63393,op:440,dt:2,nt:9,next:5167,nextCheck:63394,str:12911,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:5167 check:63394,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:61869,h:0,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5168 check:63395,op:27,dt:4,nt:8,next:5171,nextCheck:63398,str:61877,h:0,d0:5169,d1:63396;
+                ("print", Expression<MethodOrOperator> @:5169 check:63396,op:27,dt:2,nt:9,next:5170,nextCheck:63397,str:227,h:0,d0:0,d1:0;
+                    ("ally_01: 'all aboard!'", Expression<String> @:5170 check:63397,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12930,h:0,d0:12930,d1:0;)))
+            (____, BuiltinInvocation<Void> @:5171 check:63398,op:418,dt:4,nt:8,next:5174,nextCheck:63401,str:61912,h:0,d0:5172,d1:63399;
+                ("cs_play_line", Expression<MethodOrOperator> @:5172 check:63399,op:418,dt:2,nt:9,next:5173,nextCheck:63400,str:12953,h:0,d0:0,d1:0;
+                    ("0920", Expression<StringId> @:5173 check:63400,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12966,h:0,d0:12483,d1:1024;)))
+            (____, BuiltinInvocation<Void> @:5174 check:63401,op:374,dt:4,nt:8,next:5177,nextCheck:63404,str:61936,h:0,d0:5175,d1:63402;
+                ("cs_switch", Expression<MethodOrOperator> @:5175 check:63402,op:374,dt:2,nt:9,next:5176,nextCheck:63403,str:12894,h:0,d0:0,d1:0;
+                    ("ally02", Expression<StringId> @:5176 check:63403,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12971,h:0,d0:12758,d1:1536;)))
+            (____, BuiltinInvocation<Void> @:5177 check:63404,op:449,dt:4,nt:8,next:5180,nextCheck:63407,str:61957,h:0,d0:5178,d1:63405;
+                ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:5178 check:63405,op:449,dt:2,nt:9,next:5179,nextCheck:63406,str:11042,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:5179 check:63406,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:61989,h:0,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5180 check:63407,op:440,dt:4,nt:8,next:5183,nextCheck:63410,str:61997,h:0,d0:5181,d1:63408;
+                ("cs_abort_on_damage", Expression<MethodOrOperator> @:5181 check:63408,op:440,dt:2,nt:9,next:5182,nextCheck:63409,str:12911,h:0,d0:0,d1:0;
+                    (True, Expression<Boolean> @:5182 check:63409,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:62017,h:0,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5183 check:63410,op:19,dt:4,nt:8,next:5186,nextCheck:63413,str:62025,h:0,d0:5184,d1:63411;
+                ("sleep", Expression<MethodOrOperator> @:5184 check:63411,op:19,dt:2,nt:9,next:5185,nextCheck:63412,str:221,h:0,d0:0,d1:0;
+                    (5, Expression<Short> @:5185 check:63412,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:62032,h:0,d0:5,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5186 check:63413,op:27,dt:4,nt:8,next:5189,nextCheck:63416,str:62037,h:0,d0:5187,d1:63414;
+                ("print", Expression<MethodOrOperator> @:5187 check:63414,op:27,dt:2,nt:9,next:5188,nextCheck:63415,str:227,h:0,d0:0,d1:0;
+                    ("ally_02: 'i'll drive!'", Expression<String> @:5188 check:63415,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12978,h:0,d0:12978,d1:0;)))
+            (____, BuiltinInvocation<Void> @:5189 check:63416,op:418,dt:4,nt:8,next:5192,nextCheck:63419,str:62072,h:0,d0:5190,d1:63417;
+                ("cs_play_line", Expression<MethodOrOperator> @:5190 check:63417,op:418,dt:2,nt:9,next:5191,nextCheck:63418,str:12953,h:0,d0:0,d1:0;
+                    ("0930", Expression<StringId> @:5191 check:63418,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:13001,h:0,d0:12484,d1:1024;)))
+            (____, BuiltinInvocation<Void> @:5192 check:63419,op:374,dt:4,nt:8,next:5195,nextCheck:63422,str:62096,h:0,d0:5193,d1:63420;
+                ("cs_switch", Expression<MethodOrOperator> @:5193 check:63420,op:374,dt:2,nt:9,next:5194,nextCheck:63421,str:12894,h:0,d0:0,d1:0;
+                    ("ally01", Expression<StringId> @:5194 check:63421,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12904,h:0,d0:12757,d1:1536;)))
+            (____, BuiltinInvocation<Void> @:5195 check:63422,op:19,dt:4,nt:8,next:5198,nextCheck:63425,str:62117,h:0,d0:5196,d1:63423;
+                ("sleep", Expression<MethodOrOperator> @:5196 check:63423,op:19,dt:2,nt:9,next:5197,nextCheck:63424,str:221,h:0,d0:0,d1:0;
+                    (15, Expression<Short> @:5197 check:63424,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:62124,h:0,d0:15,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5198 check:63425,op:27,dt:4,nt:8,next:5201,nextCheck:63428,str:62130,h:0,d0:5199,d1:63426;
+                ("print", Expression<MethodOrOperator> @:5199 check:63426,op:27,dt:2,nt:9,next:5200,nextCheck:63427,str:227,h:0,d0:0,d1:0;
+                    ("ally_01: 'what's to drive? it comes here. it goes there.'", Expression<String> @:5200 check:63427,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:13006,h:0,d0:13006,d1:0;)))
+            (____, BuiltinInvocation<Void> @:5201 check:63428,op:418,dt:4,nt:8,next:65535,nextCheck:65535,str:62200,h:0,d0:5202,d1:63429;
+                ("cs_play_line", Expression<MethodOrOperator> @:5202 check:63429,op:418,dt:2,nt:9,next:5203,nextCheck:63430,str:12953,h:0,d0:0,d1:0;
+                    ("0940", Expression<StringId> @:5203 check:63430,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:13064,h:0,d0:12485,d1:1024;))))))

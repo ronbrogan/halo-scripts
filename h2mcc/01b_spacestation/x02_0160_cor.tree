@@ -1,25 +1,25 @@
 
-("x02_0160_cor", MethodDecl<Void> @:89 check:0,op:0,dt:0,nt:65535,next:3099,nextCheck:61326,str:7877,h:0,d0:0,d1:0;
+("x02_0160_cor", MethodDecl<Void> @:89 check:0,op:0,dt:0,nt:65535,next:3099,nextCheck:61326,str:7897,h:0,d0:0,d1:0;
     (____, BuiltinInvocation<Void> @:3099 check:61326,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:36541,h:0,d0:3100,d1:61327;
-        ("begin", Expression<MethodOrOperator> @:3100 check:61327,op:0,dt:2,nt:9,next:3078,nextCheck:61305,str:11,h:0,d0:0,d1:0;
+        ("begin", Expression<MethodOrOperator> @:3100 check:61327,op:0,dt:2,nt:9,next:3078,nextCheck:61305,str:31,h:0,d0:0,d1:0;
             (____, BuiltinInvocation<Void> @:3078 check:61305,op:220,dt:4,nt:8,next:3084,nextCheck:61311,str:36574,h:0,d0:3079,d1:61306;
-                ("unit_set_emotional_state", Expression<MethodOrOperator> @:3079 check:61306,op:220,dt:2,nt:9,next:3080,nextCheck:61307,str:1808,h:0,d0:0,d1:0;
-                    ("cortana_x02", Expression<Unit> @:3080 check:61307,op:57,dt:51,nt:9,next:3081,nextCheck:61308,str:7784,h:0,d0:312,d1:65535;
-                        ("angry", Expression<StringId> @:3081 check:61308,op:11,dt:11,nt:9,next:3082,nextCheck:61309,str:7686,h:0,d0:430,d1:1280;
+                ("unit_set_emotional_state", Expression<MethodOrOperator> @:3079 check:61306,op:220,dt:2,nt:9,next:3080,nextCheck:61307,str:1828,h:0,d0:0,d1:0;
+                    ("cortana_x02", Expression<Unit> @:3080 check:61307,op:57,dt:51,nt:9,next:3081,nextCheck:61308,str:7804,h:0,d0:312,d1:65535;
+                        ("angry", Expression<StringId> @:3081 check:61308,op:11,dt:11,nt:9,next:3082,nextCheck:61309,str:7706,h:0,d0:430,d1:1280;
                             (0.15f, Expression<Float> @:3082 check:61309,op:6,dt:6,nt:9,next:3083,nextCheck:61310,str:36618,h:0,d0:39322,d1:15897;
                                 (0, Expression<Short> @:3083 check:61310,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:36622,h:0,d0:0,d1:65535;))))))
             (____, BuiltinInvocation<Void> @:3084 check:61311,op:27,dt:4,nt:8,next:3087,nextCheck:61314,str:36627,h:0,d0:3085,d1:61312;
-                ("print", Expression<MethodOrOperator> @:3085 check:61312,op:27,dt:2,nt:9,next:3086,nextCheck:61313,str:96,h:0,d0:0,d1:0;
-                    ("cortana - angry .15 0", Expression<String> @:3086 check:61313,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:7796,h:0,d0:7796,d1:0;)))
+                ("print", Expression<MethodOrOperator> @:3085 check:61312,op:27,dt:2,nt:9,next:3086,nextCheck:61313,str:116,h:0,d0:0,d1:0;
+                    ("cortana - angry .15 0", Expression<String> @:3086 check:61313,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:7816,h:0,d0:7816,d1:0;)))
             (____, BuiltinInvocation<Void> @:3087 check:61314,op:19,dt:4,nt:8,next:3090,nextCheck:61317,str:36664,h:0,d0:3088,d1:61315;
-                ("sleep", Expression<MethodOrOperator> @:3088 check:61315,op:19,dt:2,nt:9,next:3089,nextCheck:61316,str:90,h:0,d0:0,d1:0;
+                ("sleep", Expression<MethodOrOperator> @:3088 check:61315,op:19,dt:2,nt:9,next:3089,nextCheck:61316,str:110,h:0,d0:0,d1:0;
                     (524, Expression<Short> @:3089 check:61316,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:36671,h:0,d0:524,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:3090 check:61317,op:596,dt:4,nt:8,next:3095,nextCheck:61322,str:36678,h:0,d0:3091,d1:61318;
-                ("sound_impulse_start", Expression<MethodOrOperator> @:3091 check:61318,op:596,dt:2,nt:9,next:3092,nextCheck:61319,str:1446,h:0,d0:0,d1:0;
-                    ("sound\dialog\levels\01_spacestation\cinematic\x02_0160_cor", Expression<Sound> @:3092 check:61319,op:32,dt:32,nt:9,next:3093,nextCheck:61320,str:7818,h:0,d0:4502,d1:62390;
-                        (4294902072, Expression<Entity> @:3093 check:61320,op:56,dt:50,nt:9,next:3094,nextCheck:61321,str:7784,h:0,d0:312,d1:65535;
+            (____, BuiltinInvocation<Void> @:3090 check:61317,op:598,dt:4,nt:8,next:3095,nextCheck:61322,str:36678,h:0,d0:3091,d1:61318;
+                ("sound_impulse_start", Expression<MethodOrOperator> @:3091 check:61318,op:598,dt:2,nt:9,next:3092,nextCheck:61319,str:1466,h:0,d0:0,d1:0;
+                    ("sound\dialog\levels\01_spacestation\cinematic\x02_0160_cor", Expression<Sound> @:3092 check:61319,op:32,dt:32,nt:9,next:3093,nextCheck:61320,str:7838,h:0,d0:5016,d1:62929;
+                        (4294902072, Expression<Entity> @:3093 check:61320,op:56,dt:50,nt:9,next:3094,nextCheck:61321,str:7804,h:0,d0:312,d1:65535;
                             (1f, Expression<Float> @:3094 check:61321,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:36770,h:0,d0:0,d1:16256;)))))
-            (____, BuiltinInvocation<Void> @:3095 check:61322,op:562,dt:4,nt:8,next:65535,nextCheck:65535,str:36775,h:0,d0:3096,d1:61323;
-                ("cinematic_subtitle", Expression<MethodOrOperator> @:3096 check:61323,op:562,dt:2,nt:9,next:3097,nextCheck:61324,str:1689,h:0,d0:0,d1:0;
-                    ("x02_0160_cor", Expression<StringId> @:3097 check:61324,op:11,dt:11,nt:9,next:3098,nextCheck:61325,str:7877,h:0,d0:9569,d1:3072;
+            (____, BuiltinInvocation<Void> @:3095 check:61322,op:564,dt:4,nt:8,next:65535,nextCheck:65535,str:36775,h:0,d0:3096,d1:61323;
+                ("cinematic_subtitle", Expression<MethodOrOperator> @:3096 check:61323,op:564,dt:2,nt:9,next:3097,nextCheck:61324,str:1709,h:0,d0:0,d1:0;
+                    ("x02_0160_cor", Expression<StringId> @:3097 check:61324,op:11,dt:11,nt:9,next:3098,nextCheck:61325,str:7897,h:0,d0:9575,d1:3072;
                         (3f, Expression<Float> @:3098 check:61325,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:36808,h:0,d0:0,d1:16448;)))))))

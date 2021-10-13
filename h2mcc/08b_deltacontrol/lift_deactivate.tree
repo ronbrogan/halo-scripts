@@ -1,21 +1,21 @@
 
-("lift_deactivate", MethodDecl<Void> @:177 check:0,op:0,dt:0,nt:65535,next:7032,nextCheck:65259,str:17231,h:0,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:7032 check:65259,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:16664,h:1,d0:7033,d1:65260;
-        ("begin", Expression<MethodOrOperator> @:7033 check:65260,op:0,dt:2,nt:9,next:7015,nextCheck:65242,str:6,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:7015 check:65242,op:19,dt:4,nt:8,next:7018,nextCheck:65245,str:16698,h:1,d0:7016,d1:65243;
-                ("sleep", Expression<MethodOrOperator> @:7016 check:65243,op:19,dt:2,nt:9,next:7017,nextCheck:65244,str:85,h:0,d0:0,d1:0;
-                    (93, Expression<Short> @:7017 check:65244,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:16705,h:1,d0:93,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:7018 check:65245,op:27,dt:4,nt:8,next:7021,nextCheck:65248,str:16711,h:1,d0:7019,d1:65246;
-                ("print", Expression<MethodOrOperator> @:7019 check:65246,op:27,dt:2,nt:9,next:7020,nextCheck:65247,str:91,h:0,d0:0,d1:0;
-                    ("lift deactivate", Expression<String> @:7020 check:65247,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:17175,h:0,d0:17175,d1:0;)))
-            (____, BuiltinInvocation<Void> @:7021 check:65248,op:60,dt:4,nt:8,next:7027,nextCheck:65254,str:16739,h:1,d0:7022,d1:65249;
-                ("object_set_function_variable", Expression<MethodOrOperator> @:7022 check:65249,op:60,dt:2,nt:9,next:7023,nextCheck:65250,str:4956,h:0,d0:0,d1:0;
-                    (4294901804, Expression<Entity> @:7023 check:65250,op:56,dt:50,nt:9,next:7024,nextCheck:65251,str:17191,h:0,d0:44,d1:65535;
-                        ("effect", Expression<StringId> @:7024 check:65251,op:11,dt:11,nt:9,next:7025,nextCheck:65252,str:16199,h:0,d0:5263,d1:1536;
-                            (0f, Expression<Float> @:7025 check:65252,op:6,dt:6,nt:9,next:7026,nextCheck:65253,str:16785,h:1,d0:0,d1:0;
-                                (90f, Expression<Float> @:7026 check:65253,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:16787,h:1,d0:0,d1:17076;))))))
-            (____, BuiltinInvocation<Void> @:7027 check:65254,op:614,dt:4,nt:8,next:65535,nextCheck:65535,str:16793,h:1,d0:7028,d1:65255;
-                ("sound_class_set_gain", Expression<MethodOrOperator> @:7028 check:65255,op:614,dt:2,nt:9,next:7029,nextCheck:65256,str:8509,h:0,d0:0,d1:0;
-                    ("device", Expression<String> @:7029 check:65256,op:9,dt:9,nt:9,next:7030,nextCheck:65257,str:17200,h:0,d0:17200,d1:0;
-                        (0f, Expression<Float> @:7030 check:65257,op:6,dt:6,nt:9,next:7031,nextCheck:65258,str:16822,h:1,d0:0,d1:0;
-                            (30, Expression<Short> @:7031 check:65258,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:16824,h:1,d0:30,d1:65535;))))))))
+("lift_deactivate", MethodDecl<Void> @:177 check:0,op:0,dt:0,nt:65535,next:7025,nextCheck:65252,str:17206,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:7025 check:65252,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:16579,h:1,d0:7026,d1:65253;
+        ("begin", Expression<MethodOrOperator> @:7026 check:65253,op:0,dt:2,nt:9,next:7008,nextCheck:65235,str:21,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:7008 check:65235,op:19,dt:4,nt:8,next:7011,nextCheck:65238,str:16613,h:1,d0:7009,d1:65236;
+                ("sleep", Expression<MethodOrOperator> @:7009 check:65236,op:19,dt:2,nt:9,next:7010,nextCheck:65237,str:100,h:0,d0:0,d1:0;
+                    (93, Expression<Short> @:7010 check:65237,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:16620,h:1,d0:93,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:7011 check:65238,op:27,dt:4,nt:8,next:7014,nextCheck:65241,str:16626,h:1,d0:7012,d1:65239;
+                ("print", Expression<MethodOrOperator> @:7012 check:65239,op:27,dt:2,nt:9,next:7013,nextCheck:65240,str:106,h:0,d0:0,d1:0;
+                    ("lift deactivate", Expression<String> @:7013 check:65240,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:17150,h:0,d0:17150,d1:0;)))
+            (____, BuiltinInvocation<Void> @:7014 check:65241,op:60,dt:4,nt:8,next:7020,nextCheck:65247,str:16654,h:1,d0:7015,d1:65242;
+                ("object_set_function_variable", Expression<MethodOrOperator> @:7015 check:65242,op:60,dt:2,nt:9,next:7016,nextCheck:65243,str:4956,h:0,d0:0,d1:0;
+                    (4294901804, Expression<Entity> @:7016 check:65243,op:56,dt:50,nt:9,next:7017,nextCheck:65244,str:17166,h:0,d0:44,d1:65535;
+                        ("effect", Expression<StringId> @:7017 check:65244,op:11,dt:11,nt:9,next:7018,nextCheck:65245,str:16174,h:0,d0:7018,d1:1536;
+                            (0f, Expression<Float> @:7018 check:65245,op:6,dt:6,nt:9,next:7019,nextCheck:65246,str:16700,h:1,d0:0,d1:0;
+                                (90f, Expression<Float> @:7019 check:65246,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:16702,h:1,d0:0,d1:17076;))))))
+            (____, BuiltinInvocation<Void> @:7020 check:65247,op:616,dt:4,nt:8,next:65535,nextCheck:65535,str:16708,h:1,d0:7021,d1:65248;
+                ("sound_class_set_gain", Expression<MethodOrOperator> @:7021 check:65248,op:616,dt:2,nt:9,next:7022,nextCheck:65249,str:8484,h:0,d0:0,d1:0;
+                    ("device", Expression<String> @:7022 check:65249,op:9,dt:9,nt:9,next:7023,nextCheck:65250,str:17175,h:0,d0:17175,d1:0;
+                        (0f, Expression<Float> @:7023 check:65250,op:6,dt:6,nt:9,next:7024,nextCheck:65251,str:16737,h:1,d0:0,d1:0;
+                            (30, Expression<Short> @:7024 check:65251,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:16739,h:1,d0:30,d1:65535;))))))))

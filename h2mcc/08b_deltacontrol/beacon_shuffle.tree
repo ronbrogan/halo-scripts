@@ -1,16 +1,16 @@
 
-("beacon_shuffle", MethodDecl<Void> @:199 check:0,op:0,dt:0,nt:65535,next:7656,nextCheck:33116,str:18854,h:0,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:7656 check:33116,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:24136,h:1,d0:7657,d1:33117;
-        ("begin", Expression<MethodOrOperator> @:7657 check:33117,op:0,dt:2,nt:9,next:7644,nextCheck:33104,str:6,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:7644 check:33104,op:19,dt:4,nt:8,next:7647,nextCheck:33107,str:24172,h:1,d0:7645,d1:33105;
-                ("sleep", Expression<MethodOrOperator> @:7645 check:33105,op:19,dt:2,nt:9,next:7646,nextCheck:33106,str:85,h:0,d0:0,d1:0;
-                    (140, Expression<Short> @:7646 check:33106,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:24179,h:1,d0:140,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:7647 check:33107,op:27,dt:4,nt:8,next:7650,nextCheck:33110,str:24186,h:1,d0:7648,d1:33108;
-                ("print", Expression<MethodOrOperator> @:7648 check:33108,op:27,dt:2,nt:9,next:7649,nextCheck:33109,str:91,h:0,d0:0,d1:0;
-                    ("beacon 01 -> beacon 02", Expression<String> @:7649 check:33109,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18764,h:0,d0:18764,d1:0;)))
-            (____, BuiltinInvocation<Void> @:7650 check:33110,op:52,dt:4,nt:8,next:7653,nextCheck:33113,str:24221,h:1,d0:7651,d1:33111;
-                ("object_destroy", Expression<MethodOrOperator> @:7651 check:33111,op:52,dt:2,nt:9,next:7652,nextCheck:33112,str:8453,h:0,d0:0,d1:0;
-                    (4294901880, Expression<Entity> @:7652 check:33112,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:18787,h:0,d0:120,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:7653 check:33113,op:48,dt:4,nt:8,next:65535,nextCheck:65535,str:24250,h:1,d0:7654,d1:33114;
-                ("object_create_anew", Expression<MethodOrOperator> @:7654 check:33114,op:48,dt:2,nt:9,next:7655,nextCheck:33115,str:8260,h:0,d0:0,d1:0;
-                    ("beacon_02", Expression<EntityIdentifier> @:7655 check:33115,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:18797,h:0,d0:119,d1:65535;))))))
+("beacon_shuffle", MethodDecl<Void> @:199 check:0,op:0,dt:0,nt:65535,next:7649,nextCheck:33109,str:18829,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:7649 check:33109,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:24051,h:1,d0:7650,d1:33110;
+        ("begin", Expression<MethodOrOperator> @:7650 check:33110,op:0,dt:2,nt:9,next:7637,nextCheck:33097,str:21,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:7637 check:33097,op:19,dt:4,nt:8,next:7640,nextCheck:33100,str:24087,h:1,d0:7638,d1:33098;
+                ("sleep", Expression<MethodOrOperator> @:7638 check:33098,op:19,dt:2,nt:9,next:7639,nextCheck:33099,str:100,h:0,d0:0,d1:0;
+                    (140, Expression<Short> @:7639 check:33099,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:24094,h:1,d0:140,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:7640 check:33100,op:27,dt:4,nt:8,next:7643,nextCheck:33103,str:24101,h:1,d0:7641,d1:33101;
+                ("print", Expression<MethodOrOperator> @:7641 check:33101,op:27,dt:2,nt:9,next:7642,nextCheck:33102,str:106,h:0,d0:0,d1:0;
+                    ("beacon 01 -> beacon 02", Expression<String> @:7642 check:33102,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:18739,h:0,d0:18739,d1:0;)))
+            (____, BuiltinInvocation<Void> @:7643 check:33103,op:52,dt:4,nt:8,next:7646,nextCheck:33106,str:24136,h:1,d0:7644,d1:33104;
+                ("object_destroy", Expression<MethodOrOperator> @:7644 check:33104,op:52,dt:2,nt:9,next:7645,nextCheck:33105,str:8428,h:0,d0:0,d1:0;
+                    (4294901880, Expression<Entity> @:7645 check:33105,op:56,dt:50,nt:9,next:65535,nextCheck:65535,str:18762,h:0,d0:120,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:7646 check:33106,op:48,dt:4,nt:8,next:65535,nextCheck:65535,str:24165,h:1,d0:7647,d1:33107;
+                ("object_create_anew", Expression<MethodOrOperator> @:7647 check:33107,op:48,dt:2,nt:9,next:7648,nextCheck:33108,str:8235,h:0,d0:0,d1:0;
+                    ("beacon_02", Expression<EntityIdentifier> @:7648 check:33108,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:18772,h:0,d0:119,d1:65535;))))))

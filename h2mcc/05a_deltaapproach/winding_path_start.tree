@@ -10,11 +10,11 @@
                 ("ai_disposable", Expression<MethodOrOperator> @:14146 check:39606,op:300,dt:2,nt:9,next:14147,nextCheck:39607,str:19350,h:0,d0:0,d1:0;
                     ("bridge_enemies_all", Expression<AI> @:14147 check:39607,op:19,dt:19,nt:9,next:14148,nextCheck:39608,str:25559,h:0,d0:15,d1:16384;
                         (True, Expression<Boolean> @:14148 check:39608,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:33018,h:2,d0:65281,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:14149 check:39609,op:786,dt:4,nt:8,next:14152,nextCheck:39612,str:33026,h:2,d0:14150,d1:39610;
-                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:14150 check:39610,op:786,dt:2,nt:9,next:14151,nextCheck:39611,str:18081,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:14149 check:39609,op:788,dt:4,nt:8,next:14152,nextCheck:39612,str:33026,h:2,d0:14150,d1:39610;
+                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:14150 check:39610,op:788,dt:2,nt:9,next:14151,nextCheck:39611,str:18081,h:0,d0:0,d1:0;
                     ("05a_4_winding_path", Expression<String> @:14151 check:39611,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:25578,h:0,d0:25578,d1:0;)))
-            (____, BuiltinInvocation<Void> @:14152 check:39612,op:587,dt:4,nt:8,next:14154,nextCheck:39614,str:33081,h:2,d0:14153,d1:39613;
-                ("game_save", Expression<MethodOrOperator> @:14153 check:39613,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:13330,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:14152 check:39612,op:589,dt:4,nt:8,next:14154,nextCheck:39614,str:33081,h:2,d0:14153,d1:39613;
+                ("game_save", Expression<MethodOrOperator> @:14153 check:39613,op:589,dt:2,nt:9,next:65535,nextCheck:65535,str:13330,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:14154 check:39614,op:22,dt:4,nt:8,next:14157,nextCheck:39617,str:33095,h:2,d0:14155,d1:39615;
                 ("wake", Expression<MethodOrOperator> @:14155 check:39615,op:22,dt:2,nt:9,next:14156,nextCheck:39616,str:1119,h:0,d0:0,d1:0;
                     ("waterfall_toggle", Expression<ScriptReference> @:14156 check:39616,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:25597,h:0,d0:265,d1:65535;)))
@@ -144,8 +144,8 @@
                                         (____, BuiltinInvocation<List> @:14280 check:39740,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:34170,h:2,d0:14281,d1:39741;
                                             ("players", Expression<MethodOrOperator> @:14281 check:39741,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:74,h:0,d0:0,d1:0;)))))
                             (True, Expression<Boolean> @:14282 check:39742,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:34181,h:2,d0:65281,d1:65535;)))))
-            (____, BuiltinInvocation<Void> @:14283 check:39743,op:587,dt:4,nt:8,next:14285,nextCheck:39745,str:34190,h:2,d0:14284,d1:39744;
-                ("game_save", Expression<MethodOrOperator> @:14284 check:39744,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:13330,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:14283 check:39743,op:589,dt:4,nt:8,next:14285,nextCheck:39745,str:34190,h:2,d0:14284,d1:39744;
+                ("game_save", Expression<MethodOrOperator> @:14284 check:39744,op:589,dt:2,nt:9,next:65535,nextCheck:65535,str:13330,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:14285 check:39745,op:2,dt:4,nt:8,next:14297,nextCheck:39757,str:34215,h:2,d0:14286,d1:39746;
                 ("if", Expression<MethodOrOperator> @:14286 check:39746,op:2,dt:2,nt:9,next:14287,nextCheck:39747,str:509,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Boolean> @:14287 check:39747,op:16,dt:5,nt:8,next:14293,nextCheck:39753,str:34219,h:2,d0:14288,d1:39748;
@@ -256,8 +256,8 @@
                                                 ("ai_spawn_count", Expression<MethodOrOperator> @:14392 check:39852,op:335,dt:2,nt:9,next:14393,nextCheck:39853,str:22657,h:0,d0:0,d1:0;
                                                     ("winding_path_ghosts_02", Expression<AI> @:14393 check:39853,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25804,h:0,d0:69,d1:0;)))
                                             ("w_path_spawn_count", VariableAccess<Short> @:14394 check:39854,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:25632,h:0,d0:24,d1:0;)))))))))
-            (____, BuiltinInvocation<Void> @:14395 check:39855,op:587,dt:4,nt:8,next:14397,nextCheck:39857,str:35104,h:2,d0:14396,d1:39856;
-                ("game_save", Expression<MethodOrOperator> @:14396 check:39856,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:13330,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:14395 check:39855,op:589,dt:4,nt:8,next:14397,nextCheck:39857,str:35104,h:2,d0:14396,d1:39856;
+                ("game_save", Expression<MethodOrOperator> @:14396 check:39856,op:589,dt:2,nt:9,next:65535,nextCheck:65535,str:13330,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:14397 check:39857,op:2,dt:4,nt:8,next:14409,nextCheck:39869,str:35118,h:2,d0:14398,d1:39858;
                 ("if", Expression<MethodOrOperator> @:14398 check:39858,op:2,dt:2,nt:9,next:14399,nextCheck:39859,str:509,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Boolean> @:14399 check:39859,op:16,dt:5,nt:8,next:14405,nextCheck:39865,str:35122,h:2,d0:14400,d1:39860;
@@ -308,5 +308,5 @@
                                         ("ai_living_count", Expression<MethodOrOperator> @:14444 check:39904,op:327,dt:2,nt:9,next:14445,nextCheck:39905,str:15991,h:0,d0:0,d1:0;
                                             ("winding_path_jackals", Expression<AI> @:14445 check:39905,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:25827,h:0,d0:73,d1:0;)))
                                     (1, Expression<Short> @:14446 check:39906,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:35540,h:2,d0:1,d1:65535;)))))))
-            (____, BuiltinInvocation<Void> @:14447 check:39907,op:587,dt:4,nt:8,next:65535,nextCheck:65535,str:35554,h:2,d0:14448,d1:39908;
-                ("game_save", Expression<MethodOrOperator> @:14448 check:39908,op:587,dt:2,nt:9,next:65535,nextCheck:65535,str:13330,h:0,d0:0,d1:0;)))))
+            (____, BuiltinInvocation<Void> @:14447 check:39907,op:589,dt:4,nt:8,next:65535,nextCheck:65535,str:35554,h:2,d0:14448,d1:39908;
+                ("game_save", Expression<MethodOrOperator> @:14448 check:39908,op:589,dt:2,nt:9,next:65535,nextCheck:65535,str:13330,h:0,d0:0,d1:0;)))))

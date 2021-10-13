@@ -1,61 +1,61 @@
 
 ("sc_cond_cov", MethodDecl<Void> @:164 check:0,op:0,dt:0,nt:65535,next:5502,nextCheck:63729,str:12944,h:0,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:5502 check:63729,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:62333,h:0,d0:5503,d1:63730;
+    (____, BuiltinInvocation<Void> @:5502 check:63729,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:62337,h:0,d0:5503,d1:63730;
         ("begin", Expression<MethodOrOperator> @:5503 check:63730,op:0,dt:2,nt:9,next:5445,nextCheck:63672,str:1,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:5445 check:63672,op:19,dt:4,nt:8,next:5448,nextCheck:63675,str:62370,h:0,d0:5446,d1:63673;
+            (____, BuiltinInvocation<Void> @:5445 check:63672,op:19,dt:4,nt:8,next:5448,nextCheck:63675,str:62374,h:0,d0:5446,d1:63673;
                 ("sleep", Expression<MethodOrOperator> @:5446 check:63673,op:19,dt:2,nt:9,next:5447,nextCheck:63674,str:80,h:0,d0:0,d1:0;
-                    (60, Expression<Short> @:5447 check:63674,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:62377,h:0,d0:60,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:5448 check:63675,op:374,dt:4,nt:8,next:5451,nextCheck:63678,str:62386,h:0,d0:5449,d1:63676;
+                    (60, Expression<Short> @:5447 check:63674,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:62381,h:0,d0:60,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:5448 check:63675,op:374,dt:4,nt:8,next:5451,nextCheck:63678,str:62390,h:0,d0:5449,d1:63676;
                 ("cs_switch", Expression<MethodOrOperator> @:5449 check:63676,op:374,dt:2,nt:9,next:5450,nextCheck:63677,str:12741,h:0,d0:0,d1:0;
-                    ("grunt", Expression<StringId> @:5450 check:63677,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12751,h:0,d0:7816,d1:1280;)))
-            (____, BuiltinInvocation<Void> @:5451 check:63678,op:2,dt:4,nt:8,next:5457,nextCheck:63684,str:62409,h:0,d0:5452,d1:63679;
+                    ("grunt", Expression<StringId> @:5450 check:63677,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12751,h:0,d0:7815,d1:1280;)))
+            (____, BuiltinInvocation<Void> @:5451 check:63678,op:2,dt:4,nt:8,next:5457,nextCheck:63684,str:62413,h:0,d0:5452,d1:63679;
                 ("if", Expression<MethodOrOperator> @:5452 check:63679,op:2,dt:2,nt:9,next:5453,nextCheck:63680,str:456,h:0,d0:0,d1:0;
                     ("dialogue", VariableAccess<Boolean> @:5453 check:63680,op:5,dt:5,nt:13,next:5454,nextCheck:63681,str:12757,h:0,d0:4,d1:0;
-                        (____, BuiltinInvocation<Void> @:5454 check:63681,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:62422,h:0,d0:5455,d1:63682;
+                        (____, BuiltinInvocation<Void> @:5454 check:63681,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:62426,h:0,d0:5455,d1:63682;
                             ("print", Expression<MethodOrOperator> @:5455 check:63682,op:27,dt:2,nt:9,next:5456,nextCheck:63683,str:86,h:0,d0:0,d1:0;
                                 ("grunt: arbiter our savior!", Expression<String> @:5456 check:63683,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12766,h:0,d0:12766,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:5457 check:63684,op:19,dt:4,nt:8,next:5463,nextCheck:63690,str:62462,h:0,d0:5458,d1:63685;
+            (____, BuiltinInvocation<Void> @:5457 check:63684,op:19,dt:4,nt:8,next:5463,nextCheck:63690,str:62466,h:0,d0:5458,d1:63685;
                 ("sleep", Expression<MethodOrOperator> @:5458 check:63685,op:19,dt:2,nt:9,next:5459,nextCheck:63686,str:80,h:0,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:5459 check:63686,op:361,dt:7,nt:8,next:65535,nextCheck:65535,str:62469,h:0,d0:5460,d1:63687;
+                    (____, BuiltinInvocation<Short> @:5459 check:63686,op:361,dt:7,nt:8,next:65535,nextCheck:65535,str:62473,h:0,d0:5460,d1:63687;
                         ("ai_play_line_at_player", Expression<MethodOrOperator> @:5460 check:63687,op:361,dt:2,nt:9,next:5461,nextCheck:63688,str:12793,h:0,d0:0,d1:0;
                             ("cond_a_cov", Expression<AI> @:5461 check:63688,op:19,dt:19,nt:9,next:5462,nextCheck:63689,str:12816,h:0,d0:8,d1:0;
-                                ("0400", Expression<StringId> @:5462 check:63689,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12827,h:0,d0:13693,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:5463 check:63690,op:19,dt:4,nt:8,next:5469,nextCheck:63696,str:62513,h:0,d0:5464,d1:63691;
+                                ("0400", Expression<StringId> @:5462 check:63689,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12827,h:0,d0:13696,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:5463 check:63690,op:19,dt:4,nt:8,next:5469,nextCheck:63696,str:62517,h:0,d0:5464,d1:63691;
                 ("sleep", Expression<MethodOrOperator> @:5464 check:63691,op:19,dt:2,nt:9,next:5465,nextCheck:63692,str:80,h:0,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:5465 check:63692,op:9,dt:7,nt:8,next:65535,nextCheck:65535,str:62520,h:0,d0:5466,d1:63693;
+                    (____, BuiltinInvocation<Short> @:5465 check:63692,op:9,dt:7,nt:8,next:65535,nextCheck:65535,str:62524,h:0,d0:5466,d1:63693;
                         ("*", Expression<MethodOrOperator> @:5466 check:63693,op:9,dt:2,nt:9,next:5467,nextCheck:63694,str:981,h:0,d0:0,d1:0;
                             ("dialogue_pause", VariableAccess<Float> @:5467 check:63694,op:6,dt:6,nt:13,next:5468,nextCheck:63695,str:12832,h:0,d0:36,d1:0;
-                                (3f, Expression<Float> @:5468 check:63695,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:62538,h:0,d0:0,d1:16448;))))))
-            (____, BuiltinInvocation<Void> @:5469 check:63696,op:2,dt:4,nt:8,next:5475,nextCheck:63702,str:62546,h:0,d0:5470,d1:63697;
+                                (3f, Expression<Float> @:5468 check:63695,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:62542,h:0,d0:0,d1:16448;))))))
+            (____, BuiltinInvocation<Void> @:5469 check:63696,op:2,dt:4,nt:8,next:5475,nextCheck:63702,str:62550,h:0,d0:5470,d1:63697;
                 ("if", Expression<MethodOrOperator> @:5470 check:63697,op:2,dt:2,nt:9,next:5471,nextCheck:63698,str:456,h:0,d0:0,d1:0;
                     ("dialogue", VariableAccess<Boolean> @:5471 check:63698,op:5,dt:5,nt:13,next:5472,nextCheck:63699,str:12757,h:0,d0:4,d1:0;
-                        (____, BuiltinInvocation<Void> @:5472 check:63699,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:62559,h:0,d0:5473,d1:63700;
+                        (____, BuiltinInvocation<Void> @:5472 check:63699,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:62563,h:0,d0:5473,d1:63700;
                             ("print", Expression<MethodOrOperator> @:5473 check:63700,op:27,dt:2,nt:9,next:5474,nextCheck:63701,str:86,h:0,d0:0,d1:0;
                                 ("grunt: stupid jackal, say thank you!", Expression<String> @:5474 check:63701,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12847,h:0,d0:12847,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:5475 check:63702,op:19,dt:4,nt:8,next:5481,nextCheck:63708,str:62609,h:0,d0:5476,d1:63703;
+            (____, BuiltinInvocation<Void> @:5475 check:63702,op:19,dt:4,nt:8,next:5481,nextCheck:63708,str:62613,h:0,d0:5476,d1:63703;
                 ("sleep", Expression<MethodOrOperator> @:5476 check:63703,op:19,dt:2,nt:9,next:5477,nextCheck:63704,str:80,h:0,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:5477 check:63704,op:361,dt:7,nt:8,next:65535,nextCheck:65535,str:62616,h:0,d0:5478,d1:63705;
+                    (____, BuiltinInvocation<Short> @:5477 check:63704,op:361,dt:7,nt:8,next:65535,nextCheck:65535,str:62620,h:0,d0:5478,d1:63705;
                         ("ai_play_line_at_player", Expression<MethodOrOperator> @:5478 check:63705,op:361,dt:2,nt:9,next:5479,nextCheck:63706,str:12793,h:0,d0:0,d1:0;
                             ("cond_a_cov", Expression<AI> @:5479 check:63706,op:19,dt:19,nt:9,next:5480,nextCheck:63707,str:12816,h:0,d0:8,d1:0;
-                                ("0410", Expression<StringId> @:5480 check:63707,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12884,h:0,d0:13694,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:5481 check:63708,op:19,dt:4,nt:8,next:5484,nextCheck:63711,str:62660,h:0,d0:5482,d1:63709;
+                                ("0410", Expression<StringId> @:5480 check:63707,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12884,h:0,d0:13697,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:5481 check:63708,op:19,dt:4,nt:8,next:5484,nextCheck:63711,str:62664,h:0,d0:5482,d1:63709;
                 ("sleep", Expression<MethodOrOperator> @:5482 check:63709,op:19,dt:2,nt:9,next:5483,nextCheck:63710,str:80,h:0,d0:0,d1:0;
                     ("dialogue_pause", VariableAccess<Short> @:5483 check:63710,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:12832,h:0,d0:36,d1:0;)))
-            (____, BuiltinInvocation<Void> @:5484 check:63711,op:374,dt:4,nt:8,next:5487,nextCheck:63714,str:62687,h:0,d0:5485,d1:63712;
+            (____, BuiltinInvocation<Void> @:5484 check:63711,op:374,dt:4,nt:8,next:5487,nextCheck:63714,str:62691,h:0,d0:5485,d1:63712;
                 ("cs_switch", Expression<MethodOrOperator> @:5485 check:63712,op:374,dt:2,nt:9,next:5486,nextCheck:63713,str:12741,h:0,d0:0,d1:0;
-                    ("jackal", Expression<StringId> @:5486 check:63713,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12889,h:0,d0:7817,d1:1536;)))
-            (____, BuiltinInvocation<Void> @:5487 check:63714,op:2,dt:4,nt:8,next:5493,nextCheck:63720,str:62710,h:0,d0:5488,d1:63715;
+                    ("jackal", Expression<StringId> @:5486 check:63713,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12889,h:0,d0:7816,d1:1536;)))
+            (____, BuiltinInvocation<Void> @:5487 check:63714,op:2,dt:4,nt:8,next:5493,nextCheck:63720,str:62714,h:0,d0:5488,d1:63715;
                 ("if", Expression<MethodOrOperator> @:5488 check:63715,op:2,dt:2,nt:9,next:5489,nextCheck:63716,str:456,h:0,d0:0,d1:0;
                     ("dialogue", VariableAccess<Boolean> @:5489 check:63716,op:5,dt:5,nt:13,next:5490,nextCheck:63717,str:12757,h:0,d0:4,d1:0;
-                        (____, BuiltinInvocation<Void> @:5490 check:63717,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:62723,h:0,d0:5491,d1:63718;
+                        (____, BuiltinInvocation<Void> @:5490 check:63717,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:62727,h:0,d0:5491,d1:63718;
                             ("print", Expression<MethodOrOperator> @:5491 check:63718,op:27,dt:2,nt:9,next:5492,nextCheck:63719,str:86,h:0,d0:0,d1:0;
                                 ("jackal: hissss.....", Expression<String> @:5492 check:63719,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:12896,h:0,d0:12896,d1:0;))))))
-            (____, BuiltinInvocation<Void> @:5493 check:63720,op:19,dt:4,nt:8,next:5499,nextCheck:63726,str:62756,h:0,d0:5494,d1:63721;
+            (____, BuiltinInvocation<Void> @:5493 check:63720,op:19,dt:4,nt:8,next:5499,nextCheck:63726,str:62760,h:0,d0:5494,d1:63721;
                 ("sleep", Expression<MethodOrOperator> @:5494 check:63721,op:19,dt:2,nt:9,next:5495,nextCheck:63722,str:80,h:0,d0:0,d1:0;
-                    (____, BuiltinInvocation<Short> @:5495 check:63722,op:361,dt:7,nt:8,next:65535,nextCheck:65535,str:62763,h:0,d0:5496,d1:63723;
+                    (____, BuiltinInvocation<Short> @:5495 check:63722,op:361,dt:7,nt:8,next:65535,nextCheck:65535,str:62767,h:0,d0:5496,d1:63723;
                         ("ai_play_line_at_player", Expression<MethodOrOperator> @:5496 check:63723,op:361,dt:2,nt:9,next:5497,nextCheck:63724,str:12793,h:0,d0:0,d1:0;
                             ("cond_a_cov", Expression<AI> @:5497 check:63724,op:19,dt:19,nt:9,next:5498,nextCheck:63725,str:12816,h:0,d0:8,d1:0;
-                                ("0420", Expression<StringId> @:5498 check:63725,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12916,h:0,d0:13695,d1:1024;))))))
-            (____, BuiltinInvocation<Void> @:5499 check:63726,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:62807,h:0,d0:5500,d1:63727;
+                                ("0420", Expression<StringId> @:5498 check:63725,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:12916,h:0,d0:13698,d1:1024;))))))
+            (____, BuiltinInvocation<Void> @:5499 check:63726,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:62811,h:0,d0:5500,d1:63727;
                 ("sleep", Expression<MethodOrOperator> @:5500 check:63727,op:19,dt:2,nt:9,next:5501,nextCheck:63728,str:80,h:0,d0:0,d1:0;
                     ("dialogue_pause", VariableAccess<Short> @:5501 check:63728,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:12832,h:0,d0:36,d1:0;))))))
