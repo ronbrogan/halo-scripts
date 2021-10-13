@@ -1,7 +1,7 @@
 
-("activate_stealth_toggle_monitor", MethodDecl<Void> @:20 op:0,dt:0,nt:65535,next:625,str:65535,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:625 op:0,dt:4,nt:8,next:65535,str:7315,d0:626,d1:58853;
-        ("begin", Expression<MethodOrOperator> @:626 op:0,dt:2,nt:9,next:622,str:1,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:622 op:19,dt:4,nt:8,next:65535,str:7369,d0:623,d1:58850;
-                ("sleep", Expression<MethodOrOperator> @:623 op:19,dt:2,nt:9,next:624,str:80,d0:0,d1:0;
-                    (1, Expression<Short> @:624 op:7,dt:7,nt:9,next:65535,str:7376,d0:1,d1:65535;))))))
+("activate_stealth_toggle_monitor", MethodDecl<Void> @:20 check:0,op:0,dt:0,nt:65535,next:625,nextCheck:58852,str:65535,h:0,d0:0,d1:0;
+    (____, BuiltinInvocation<Void> @:625 check:58852,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:7315,h:0,d0:626,d1:58853;
+        ("begin", Expression<MethodOrOperator> @:626 check:58853,op:0,dt:2,nt:9,next:622,nextCheck:58849,str:1,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:622 check:58849,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:7369,h:0,d0:623,d1:58850;
+                ("sleep", Expression<MethodOrOperator> @:623 check:58850,op:19,dt:2,nt:9,next:624,nextCheck:58851,str:80,h:0,d0:0,d1:0;
+                    (1, Expression<Short> @:624 check:58851,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:7376,h:0,d0:1,d1:65535;))))))
