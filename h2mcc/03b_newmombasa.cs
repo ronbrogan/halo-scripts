@@ -2281,56 +2281,56 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task music_03b_01_stop()
         {
             Engine.print("music 03b_01 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03b_newmombasa\\03b_music\\03b_01", 2245862403U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03b_newmombasa\\03b_music\\03b_01", 2246124551U));
         }
 
         [ScriptMethod(187, Lifecycle.Dormant)]
         public async Task music_03b_01_start_alt()
         {
             Engine.print("music 03b_01 start alt");
-            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03b_newmombasa\\03b_music\\03b_01", 2245862403U), true);
+            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03b_newmombasa\\03b_music\\03b_01", 2246124551U), true);
         }
 
         [ScriptMethod(188, Lifecycle.Dormant)]
         public async Task music_03b_01_start()
         {
             Engine.print("music 03b_01 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03b_newmombasa\\03b_music\\03b_01", 2245862403U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03b_newmombasa\\03b_music\\03b_01", 2246124551U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(189, Lifecycle.Dormant)]
         public async Task music_03b_02_stop()
         {
             Engine.print("music 03b_02 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03b_newmombasa\\03b_music\\03b_02", 2246648847U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03b_newmombasa\\03b_music\\03b_02", 2246910995U));
         }
 
         [ScriptMethod(190, Lifecycle.Dormant)]
         public async Task music_03b_02_start()
         {
             Engine.print("music 03b_02 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03b_newmombasa\\03b_music\\03b_02", 2246648847U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03b_newmombasa\\03b_music\\03b_02", 2246910995U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(191, Lifecycle.Dormant)]
         public async Task music_03b_03_stop()
         {
             Engine.print("music 03b_03 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03b_newmombasa\\03b_music\\03b_03", 2247042069U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03b_newmombasa\\03b_music\\03b_03", 2247304217U));
         }
 
         [ScriptMethod(192, Lifecycle.Dormant)]
         public async Task music_03b_03_start()
         {
             Engine.print("music 03b_03 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03b_newmombasa\\03b_music\\03b_03", 2247042069U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03b_newmombasa\\03b_music\\03b_03", 2247304217U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(193, Lifecycle.Dormant)]
         public async Task music_03b_04_stop()
         {
             Engine.print("music 03b_04 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03b_newmombasa\\03b_music\\03b_04", 2247566365U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03b_newmombasa\\03b_music\\03b_04", 2247828513U));
         }
 
         [ScriptMethod(194, Lifecycle.Dormant)]
@@ -2338,7 +2338,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_scarab, Engine.players()), 15);
             Engine.print("music 03b_04 start alt");
-            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03b_newmombasa\\03b_music\\03b_04", 2247566365U), true);
+            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03b_newmombasa\\03b_music\\03b_04", 2247828513U), true);
         }
 
         [ScriptMethod(195, Lifecycle.Dormant)]
@@ -2346,7 +2346,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_e23_entry_door, Engine.players()), 15);
             Engine.print("music 03b_04 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03b_newmombasa\\03b_music\\03b_04", 2247566365U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03b_newmombasa\\03b_music\\03b_04", 2247828513U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(196, Lifecycle.Static)]
@@ -2838,7 +2838,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task cs_e23_cov_inf1_pilot_exit()
         {
             Engine.objects_detach(scarab.Entity, Engine.ai_get_object(this.ai_current_actor));
-            Engine.custom_animation(Engine.ai_get_unit(this.ai_current_actor), Engine.GetTag<AnimationGraphTag>("objects\\characters\\elite\\elite", 4084339195U), "scarab_d_r:any:any:exit", true);
+            Engine.custom_animation(Engine.ai_get_unit(this.ai_current_actor), Engine.GetTag<AnimationGraphTag>("objects\\characters\\elite\\elite", 4084732417U), "scarab_d_r:any:any:exit", true);
             await Engine.sleep(Engine.unit_get_custom_animation_time(Engine.ai_get_unit(this.ai_current_actor)));
             Engine.unit_stop_custom_animation(Engine.ai_get_unit(this.ai_current_actor));
             Engine.object_cannot_die(Engine.ai_get_object(this.ai_current_actor), false);
@@ -2850,7 +2850,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_cannot_die(Engine.ai_get_object(this.ai_current_actor), true);
             Engine.cs_queue_command_script(this.ai_current_actor, new ScriptMethodReference(cs_e23_cov_inf1_pilot_exit));
             Engine.cs_abort_on_damage(true);
-            Engine.custom_animation_loop(Engine.ai_get_unit(this.ai_current_actor), Engine.GetTag<AnimationGraphTag>("objects\\characters\\elite\\elite", 4084339195U), "scarab_d_r:any:any:idle:var0", false);
+            Engine.custom_animation_loop(Engine.ai_get_unit(this.ai_current_actor), Engine.GetTag<AnimationGraphTag>("objects\\characters\\elite\\elite", 4084732417U), "scarab_d_r:any:any:idle:var0", false);
             Engine.objects_attach(scarab.Entity, "scarab_d_l", Engine.ai_get_object(this.ai_current_actor), "");
             await Engine.sleep_until(async () => Engine.objects_distance_to_object(Engine.players(), Engine.ai_get_object(this.ai_current_actor)) < 7F, 10);
             Engine.objects_detach(scarab.Entity, Engine.ai_get_object(this.ai_current_actor));
@@ -2863,7 +2863,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_cannot_die(Engine.ai_get_object(this.ai_current_actor), true);
             Engine.cs_queue_command_script(this.ai_current_actor, new ScriptMethodReference(cs_e23_cov_inf1_pilot_exit));
             Engine.cs_abort_on_damage(true);
-            Engine.custom_animation_loop(Engine.ai_get_unit(this.ai_current_actor), Engine.GetTag<AnimationGraphTag>("objects\\characters\\elite\\elite", 4084339195U), "scarab_d_r:any:any:idle:var0", false);
+            Engine.custom_animation_loop(Engine.ai_get_unit(this.ai_current_actor), Engine.GetTag<AnimationGraphTag>("objects\\characters\\elite\\elite", 4084732417U), "scarab_d_r:any:any:idle:var0", false);
             Engine.objects_attach(scarab.Entity, "scarab_d_r", Engine.ai_get_object(this.ai_current_actor), "");
             await Engine.sleep_until(async () => Engine.objects_distance_to_object(Engine.players(), Engine.ai_get_object(this.ai_current_actor)) < 7F, 10);
             Engine.objects_detach(scarab.Entity, Engine.ai_get_object(this.ai_current_actor));
@@ -4477,7 +4477,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             }
 
             Engine.object_create(key);
-            await Engine.sleep_until(async () => Engine.unit_has_weapon(Engine.unit(await this.player0()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head_sp.weapon", 2168659840U)) || Engine.unit_has_weapon(Engine.unit(await this.player1()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head_sp.weapon", 2168659840U)));
+            await Engine.sleep_until(async () => Engine.unit_has_weapon(Engine.unit(await this.player0()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head_sp.weapon", 2169053062U)) || Engine.unit_has_weapon(Engine.unit(await this.player1()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head_sp.weapon", 2169053062U)));
             Engine.ice_cream_flavor_stock(9);
         }
 
@@ -4536,13 +4536,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_cannot_die(Engine.ai_get_object(e17_mars_inf0.passenger0), true);
             Engine.cs_go_to(Engine.GetReference<ISpatialPoint>("e17_mars_inf0_entry/p0"));
             await Engine.sleep_until(async () => Engine.objects_distance_to_object(Engine.players(), Engine.ai_get_object(this.ai_current_actor)) < 13F || Engine.volume_test_objects(tv_e17_near_first_wall, Engine.players()), 15, this.one_minute);
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("sound\\vehicles\\warthog\\warthog_horn\\warthog_horn", 4249885582U), Engine.ai_vehicle_get(this.ai_current_actor), 1.5F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("sound\\vehicles\\warthog\\warthog_horn\\warthog_horn", 4250278804U), Engine.ai_vehicle_get(this.ai_current_actor), 1.5F);
             await Engine.sleep(5);
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("sound\\vehicles\\warthog\\warthog_horn\\warthog_horn", 4249885582U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("sound\\vehicles\\warthog\\warthog_horn\\warthog_horn", 4250278804U));
             await Engine.sleep(5);
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("sound\\vehicles\\warthog\\warthog_horn\\warthog_horn", 4249885582U), Engine.ai_vehicle_get(this.ai_current_actor), 1.5F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("sound\\vehicles\\warthog\\warthog_horn\\warthog_horn", 4250278804U), Engine.ai_vehicle_get(this.ai_current_actor), 1.5F);
             await Engine.sleep(15);
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("sound\\vehicles\\warthog\\warthog_horn\\warthog_horn", 4249885582U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("sound\\vehicles\\warthog\\warthog_horn\\warthog_horn", 4250278804U));
             await Engine.sleep_until(async () => Engine.objects_distance_to_object(Engine.players(), Engine.ai_get_object(this.ai_current_actor)) < 10F || (float)Engine.ai_strength(this.ai_current_actor) <= 0.5F || (float)Engine.ai_strength(this.ai_current_squad) <= 0.75F || Engine.volume_test_objects(tv_e17_first_wall_approach, Engine.players()), 15, 600);
             Engine.cs_go_by(Engine.GetReference<ISpatialPoint>("e17_mars_inf0_entry/p0_1"), Engine.GetReference<ISpatialPoint>("e17_mars_inf0_entry/p1"));
             Engine.cs_go_to(Engine.GetReference<ISpatialPoint>("e17_mars_inf0_entry/p1"));
@@ -4560,7 +4560,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.print("marine: hey, sir!");
             Engine.cs_approach_player(1F, 10F, 15F);
             await Engine.sleep(Engine.ai_play_line_at_player(this.ai_current_actor, "0640"));
-            await Engine.sleep_until(async () => !(Engine.unit_has_weapon(Engine.ai_get_unit(this.ai_current_actor), Engine.GetTag<BaseTag>("objects\\weapons\\rifle\\shotgun\\shotgun.weapon", 2164203324U))) || Engine.objects_distance_to_object(Engine.players(), Engine.ai_get_object(this.ai_current_actor)) > 5F, 15, this.one_minute);
+            await Engine.sleep_until(async () => !(Engine.unit_has_weapon(Engine.ai_get_unit(this.ai_current_actor), Engine.GetTag<BaseTag>("objects\\weapons\\rifle\\shotgun\\shotgun.weapon", 2164596546U))) || Engine.objects_distance_to_object(Engine.players(), Engine.ai_get_object(this.ai_current_actor)) > 5F, 15, this.one_minute);
         }
 
         [ScriptMethod(358, Lifecycle.CommandScript)]
@@ -5098,7 +5098,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(401, Lifecycle.CommandScript)]
         public async Task cs_e15_mars_inf0_unload()
         {
-            if ((short)Engine.ai_living_count(e15_mars_inf0.Squad) > 1 && !(Engine.unit_has_weapon(Engine.ai_get_unit(this.ai_current_actor), Engine.GetTag<BaseTag>("objects\\weapons\\support_high\\rocket_launcher\\rocket_launcher.weapon", 2160598789U))))
+            if ((short)Engine.ai_living_count(e15_mars_inf0.Squad) > 1 && !(Engine.unit_has_weapon(Engine.ai_get_unit(this.ai_current_actor), Engine.GetTag<BaseTag>("objects\\weapons\\support_high\\rocket_launcher\\rocket_launcher.weapon", 2160992011U))))
             {
                 await Engine.sleep(30);
                 Engine.ai_vehicle_exit(this.ai_current_actor);
@@ -6515,7 +6515,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\earthcity\\signage\\sign_hog\\sign_hog", 3876980128U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\earthcity\\signage\\sign_hor_facade\\sign_hor_facade", 3877176739U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\earthcity\\streetobjects\\streetobj_big_generator\\streetobj_big_generator", 3877373350U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\earthcity\\streetobjects\\streetobj_dumpster\\streetobj_dumpster", 3877963183U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\earthcity\\streetobjects\\streetobj_dumpster\\streetobj_dumpster", 3878356405U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\vehicles\\civilian\\panel_truck\\panel_truck", 3858105472U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\vehicles\\civilian\\bus\\bus", 3847881700U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\skies\\solo\\earthcity\\bsp1\\bsp1", 3783000070U), 0);
@@ -6527,7 +6527,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task x03_08_predict()
         {
             await Engine.sleep(1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\effects\\slipspace_shockwave_closeup\\slipspace_shockwave_closeup", 3879077312U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\effects\\slipspace_shockwave_closeup\\slipspace_shockwave_closeup", 3879470534U), 0);
             await Engine.sleep(72);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\vehicles\\civilian\\panel_truck\\panel_truck", 3858105472U), 2);
             await Engine.sleep(5);
@@ -6536,7 +6536,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\vehicles\\civilian\\bus\\bus", 3847881700U), 2);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\texture_camera\\texture_camera", 3876324758U), 0);
             await Engine.sleep(4);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\effects\\slipspace_shockwave\\slipspace_shockwave", 3879273923U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\effects\\slipspace_shockwave\\slipspace_shockwave", 3879667145U), 0);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\03a_oldmombasa\\earthcity_cine_intro_bsp"), 65, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\03a_oldmombasa\\earthcity_cine_intro_bsp"), 51, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\03a_oldmombasa\\earthcity_cine_intro_bsp"), 43, true);

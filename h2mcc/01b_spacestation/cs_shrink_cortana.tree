@@ -10,10 +10,10 @@
                     (60, Expression<Short> @:18062 check:43522,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:22377,h:3,d0:60,d1:65535;)))
             (____, BuiltinInvocation<Void> @:18063 check:43523,op:41,dt:4,nt:8,next:18070,nextCheck:43530,str:22383,h:3,d0:18064,d1:43524;
                 ("effect_new_on_object_marker", Expression<MethodOrOperator> @:18064 check:43524,op:41,dt:2,nt:9,next:18065,nextCheck:43525,str:7921,h:0,d0:0,d1:0;
-                    ("effects\objects\characters\cortana\teleport_out", Expression<Effect> @:18065 check:43525,op:33,dt:33,nt:9,next:18066,nextCheck:43526,str:42109,h:0,d0:5424,d1:63337;
+                    ("effects\objects\characters\cortana\teleport_out", Expression<Effect> @:18065 check:43525,op:33,dt:33,nt:9,next:18066,nextCheck:43526,str:42109,h:0,d0:5425,d1:63338;
                         (____, BuiltinInvocation<Entity> @:18066 check:43526,op:284,dt:50,nt:8,next:18069,nextCheck:43529,str:22460,h:3,d0:18067,d1:43527;
                             ("ai_get_object", Expression<MethodOrOperator> @:18067 check:43527,op:284,dt:2,nt:9,next:18068,nextCheck:43528,str:31906,h:0,d0:0,d1:0;
-                                ("ai_current_actor", VariableAccess<AI> @:18068 check:43528,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:32018,h:0,d0:33562,d1:65535;)))
+                                ("ai_current_actor", VariableAccess<AI> @:18068 check:43528,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:32018,h:0,d0:33556,d1:65535;)))
                         ("body", Expression<StringId> @:18069 check:43529,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:42085,h:0,d0:189,d1:1024;))))
             (____, BuiltinInvocation<Void> @:18070 check:43530,op:19,dt:4,nt:8,next:18073,nextCheck:43533,str:22503,h:3,d0:18071,d1:43531;
                 ("sleep", Expression<MethodOrOperator> @:18071 check:43531,op:19,dt:2,nt:9,next:18072,nextCheck:43532,str:110,h:0,d0:0,d1:0;
@@ -22,7 +22,7 @@
                 ("object_set_scale", Expression<MethodOrOperator> @:18074 check:43534,op:77,dt:2,nt:9,next:18075,nextCheck:43535,str:42008,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Entity> @:18075 check:43535,op:284,dt:50,nt:8,next:18078,nextCheck:43538,str:22533,h:3,d0:18076,d1:43536;
                         ("ai_get_object", Expression<MethodOrOperator> @:18076 check:43536,op:284,dt:2,nt:9,next:18077,nextCheck:43537,str:31906,h:0,d0:0,d1:0;
-                            ("ai_current_actor", VariableAccess<AI> @:18077 check:43537,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:32018,h:0,d0:33562,d1:65535;)))
+                            ("ai_current_actor", VariableAccess<AI> @:18077 check:43537,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:32018,h:0,d0:33556,d1:65535;)))
                     (0.01f, Expression<Float> @:18078 check:43538,op:6,dt:6,nt:9,next:18079,nextCheck:43539,str:22566,h:3,d0:55050,d1:15395;
                         (20, Expression<Short> @:18079 check:43539,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:22571,h:3,d0:20,d1:65535;))))
             (____, BuiltinInvocation<Void> @:18080 check:43540,op:19,dt:4,nt:8,next:18083,nextCheck:43543,str:22577,h:3,d0:18081,d1:43541;
@@ -30,4 +30,4 @@
                     (30, Expression<Short> @:18082 check:43542,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:22584,h:3,d0:30,d1:65535;)))
             (____, BuiltinInvocation<Void> @:18083 check:43543,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:22590,h:3,d0:18084,d1:43544;
                 ("ai_erase", Expression<MethodOrOperator> @:18084 check:43544,op:298,dt:2,nt:9,next:18085,nextCheck:43545,str:31936,h:0,d0:0,d1:0;
-                    ("ai_current_actor", VariableAccess<AI> @:18085 check:43545,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:32018,h:0,d0:33562,d1:65535;))))))
+                    ("ai_current_actor", VariableAccess<AI> @:18085 check:43545,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:32018,h:0,d0:33556,d1:65535;))))))

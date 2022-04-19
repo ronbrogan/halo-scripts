@@ -112,8 +112,8 @@
                 ("device_set_position_immediate", Expression<MethodOrOperator> @:23981 check:49441,op:258,dt:2,nt:9,next:23982,nextCheck:49442,str:15579,h:0,d0:0,d1:0;
                     ("banshee_ledge_access_01", Expression<Device> @:23982 check:49442,op:60,dt:54,nt:9,next:23983,nextCheck:49443,str:32287,h:0,d0:354,d1:65535;
                         (0f, Expression<Float> @:23983 check:49443,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:41954,h:3,d0:0,d1:0;))))
-            (____, BuiltinInvocation<Void> @:23984 check:49444,op:645,dt:4,nt:8,next:23988,nextCheck:49448,str:41959,h:3,d0:23985,d1:49445;
-                ("deactivate_team_nav_point_flag", Expression<MethodOrOperator> @:23985 check:49445,op:645,dt:2,nt:9,next:23986,nextCheck:49446,str:33064,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:23984 check:49444,op:643,dt:4,nt:8,next:23988,nextCheck:49448,str:41959,h:3,d0:23985,d1:49445;
+                ("deactivate_team_nav_point_flag", Expression<MethodOrOperator> @:23985 check:49445,op:643,dt:2,nt:9,next:23986,nextCheck:49446,str:33064,h:0,d0:0,d1:0;
                     ("player", Expression<Team> @:23986 check:49446,op:45,dt:45,nt:9,next:23987,nextCheck:49447,str:24912,h:0,d0:1,d1:65535;
                         ("he_went_here", Expression<LocationFlag> @:23987 check:49447,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:31692,h:0,d0:71,d1:0;))))
             (____, BuiltinInvocation<Void> @:23988 check:49448,op:53,dt:4,nt:8,next:23991,nextCheck:49451,str:42196,h:3,d0:23989,d1:49449;
@@ -150,15 +150,15 @@
             (____, BuiltinInvocation<Void> @:24019 check:49479,op:19,dt:4,nt:8,next:24022,nextCheck:49482,str:42500,h:3,d0:24020,d1:49480;
                 ("sleep", Expression<MethodOrOperator> @:24020 check:49480,op:19,dt:2,nt:9,next:24021,nextCheck:49481,str:289,h:0,d0:0,d1:0;
                     (1, Expression<Short> @:24021 check:49481,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:42507,h:3,d0:1,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:24022 check:49482,op:899,dt:4,nt:8,next:24024,nextCheck:49484,str:42512,h:3,d0:24023,d1:49483;
-                ("cache_block_for_one_frame", Expression<MethodOrOperator> @:24023 check:49483,op:899,dt:2,nt:9,next:65535,nextCheck:65535,str:23575,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:24022 check:49482,op:875,dt:4,nt:8,next:24024,nextCheck:49484,str:42512,h:3,d0:24023,d1:49483;
+                ("cache_block_for_one_frame", Expression<MethodOrOperator> @:24023 check:49483,op:875,dt:2,nt:9,next:65535,nextCheck:65535,str:23575,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:24024 check:49484,op:19,dt:4,nt:8,next:24027,nextCheck:49487,str:42542,h:3,d0:24025,d1:49485;
                 ("sleep", Expression<MethodOrOperator> @:24025 check:49485,op:19,dt:2,nt:9,next:24026,nextCheck:49486,str:289,h:0,d0:0,d1:0;
                     (1, Expression<Short> @:24026 check:49486,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:42549,h:3,d0:1,d1:65535;)))
             ("cinematic_fade_from_white", ScriptInvocation<Void> @:24027 check:49487,op:10,dt:4,nt:10,next:24029,nextCheck:49489,str:42554,h:3,d0:24028,d1:49488;
                 ("cinematic_fade_from_white", Expression<MethodOrOperator> @:24028 check:49488,op:10,dt:2,nt:9,next:65535,nextCheck:65535,str:23601,h:0,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:24029 check:49489,op:788,dt:4,nt:8,next:24032,nextCheck:49492,str:42586,h:3,d0:24030,d1:49490;
-                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:24030 check:49490,op:788,dt:2,nt:9,next:24031,nextCheck:49491,str:11261,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:24029 check:49489,op:766,dt:4,nt:8,next:24032,nextCheck:49492,str:42586,h:3,d0:24030,d1:49490;
+                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:24030 check:49490,op:766,dt:2,nt:9,next:24031,nextCheck:49491,str:11261,h:0,d0:0,d1:0;
                     ("04b_18_bottling_return_01", Expression<String> @:24031 check:49491,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:33218,h:0,d0:33218,d1:0;)))
             (____, BuiltinInvocation<Void> @:24032 check:49492,op:592,dt:4,nt:8,next:24034,nextCheck:49494,str:42648,h:3,d0:24033,d1:49493;
                 ("game_save_immediate", Expression<MethodOrOperator> @:24033 check:49493,op:592,dt:2,nt:9,next:65535,nextCheck:65535,str:16272,h:0,d0:0,d1:0;))
@@ -256,8 +256,8 @@
                                         (____, BuiltinInvocation<List> @:24125 check:49585,op:28,dt:31,nt:8,next:65535,nextCheck:65535,str:43537,h:3,d0:24126,d1:49586;
                                             ("players", Expression<MethodOrOperator> @:24126 check:49586,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:230,h:0,d0:0,d1:0;)))))
                             (True, Expression<Boolean> @:24127 check:49587,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:43548,h:3,d0:65281,d1:65535;)))))
-            (____, BuiltinInvocation<Void> @:24128 check:49588,op:788,dt:4,nt:8,next:24131,nextCheck:49591,str:43557,h:3,d0:24129,d1:49589;
-                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:24129 check:49589,op:788,dt:2,nt:9,next:24130,nextCheck:49590,str:11261,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:24128 check:49588,op:766,dt:4,nt:8,next:24131,nextCheck:49591,str:43557,h:3,d0:24129,d1:49589;
+                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:24129 check:49589,op:766,dt:2,nt:9,next:24130,nextCheck:49590,str:11261,h:0,d0:0,d1:0;
                     ("04b_19_bottling_return_02", Expression<String> @:24130 check:49590,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:33477,h:0,d0:33477,d1:0;)))
             (____, BuiltinInvocation<Void> @:24131 check:49591,op:589,dt:4,nt:8,next:24133,nextCheck:49593,str:43619,h:3,d0:24132,d1:49592;
                 ("game_save", Expression<MethodOrOperator> @:24132 check:49592,op:589,dt:2,nt:9,next:65535,nextCheck:65535,str:9837,h:0,d0:0,d1:0;))

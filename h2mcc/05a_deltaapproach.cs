@@ -62,7 +62,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.sound_offset = 15;
             this.prediction_offset = 45;
             this.straggler_no = 0;
-            this.phantom_boom = Engine.GetTag<EffectTag>("effects\\scenarios\\solo\\deltatemple\\phantom_explosion", 2263819425U);
+            this.phantom_boom = Engine.GetTag<EffectTag>("effects\\scenarios\\solo\\deltatemple\\phantom_explosion", 2263884962U);
             this.lz_turret_count = 2;
             this.lz_mounted_up = false;
             this.ride_ally_comment_go = false;
@@ -2238,77 +2238,77 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task music_05a_01_start()
         {
             Engine.print("music 05a_01 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_01", 2261066871U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_01", 2261132408U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(181, Lifecycle.Dormant)]
         public async Task music_05a_02_start()
         {
             Engine.print("music 05a_02 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_02", 2261329019U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_02", 2261394556U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(182, Lifecycle.Dormant)]
         public async Task music_05a_02_stop()
         {
             Engine.print("music 05a_02 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_02", 2261329019U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_02", 2261394556U));
         }
 
         [ScriptMethod(183, Lifecycle.Dormant)]
         public async Task music_05a_03_start()
         {
             Engine.print("music 05a_03 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_03", 2261722241U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_03", 2261787778U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(184, Lifecycle.Dormant)]
         public async Task music_05a_03_stop()
         {
             Engine.print("music 05a_03 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_03", 2261722241U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_03", 2261787778U));
         }
 
         [ScriptMethod(185, Lifecycle.Dormant)]
         public async Task music_05a_04_start()
         {
             Engine.print("music 05a_04 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_04", 2262115463U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_04", 2262181000U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(186, Lifecycle.Dormant)]
         public async Task music_05a_04_start_alt()
         {
             Engine.print("music 05a_04 start alt");
-            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_04", 2262115463U), true);
+            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_04", 2262181000U), true);
         }
 
         [ScriptMethod(187, Lifecycle.Dormant)]
         public async Task music_05a_04_stop()
         {
             Engine.print("music 05a_04 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_04", 2262115463U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_04", 2262181000U));
         }
 
         [ScriptMethod(188, Lifecycle.Dormant)]
         public async Task music_05a_05_start()
         {
             Engine.print("music 05a_05 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_05", 2263164055U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_05", 2263229592U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(189, Lifecycle.Dormant)]
         public async Task music_05a_05_stop()
         {
             Engine.print("music 05a_05 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_05", 2263164055U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_05", 2263229592U));
         }
 
         [ScriptMethod(190, Lifecycle.Dormant)]
         public async Task music_05a_06_start()
         {
             Engine.print("music 05a_06 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_06", 2263557277U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\05a_deltaapproach\\05a_music\\05a_06", 2263622814U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(191, Lifecycle.Dormant)]
@@ -3956,8 +3956,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cs_fly_to_and_face(Engine.GetReference<ISpatialPoint>("bridge_airspace/pel7"), Engine.GetReference<ISpatialPoint>("bridge_airspace/pel5"), 1F);
             await Engine.sleep_until(async () => Engine.volume_test_objects(vol_bridge_tank, Engine.players()) == false && Engine.volume_test_objects(vol_bridge_tank, Engine.ai_actors(all_allies)) == false && await this.player_count() > 0);
             Engine.vehicle_unload(Engine.ai_vehicle_get_from_starting_location(bridge_pelican.pilot), "pelican_lc");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\vehicles\\scorpion\\scorpion_drop\\mono", 2263884962U), bridge_tank.Entity, 1F);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\vehicles\\scorpion\\scorpion_drop\\reflections", 2263950499U), bridge_tank.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\vehicles\\scorpion\\scorpion_drop\\mono", 2263950499U), bridge_tank.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\vehicles\\scorpion\\scorpion_drop\\reflections", 2264016036U), bridge_tank.Entity, 1F);
             await Engine.sleep(60);
             Engine.vehicle_unload(Engine.ai_vehicle_get_from_starting_location(bridge_pelican.pilot), "pelican_p");
             this.bridge_pelican_arrived = true;

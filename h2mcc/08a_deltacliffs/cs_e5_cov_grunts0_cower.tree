@@ -4,10 +4,10 @@
         ("begin", Expression<MethodOrOperator> @:6132 check:64359,op:0,dt:2,nt:9,next:6070,nextCheck:64297,str:64,h:0,d0:0,d1:0;
             (____, BuiltinInvocation<Void> @:6070 check:64297,op:422,dt:4,nt:8,next:6073,nextCheck:64300,str:10673,h:1,d0:6071,d1:64298;
                 ("cs_movement_mode", Expression<MethodOrOperator> @:6071 check:64298,op:422,dt:2,nt:9,next:6072,nextCheck:64299,str:6820,h:0,d0:0,d1:0;
-                    ("ai_movement_flee", VariableAccess<Short> @:6072 check:64299,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:9393,h:0,d0:33582,d1:65535;)))
+                    ("ai_movement_flee", VariableAccess<Short> @:6072 check:64299,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:9393,h:0,d0:33576,d1:65535;)))
             (____, BuiltinInvocation<Void> @:6073 check:64300,op:314,dt:4,nt:8,next:6077,nextCheck:64304,str:10743,h:1,d0:6074,d1:64301;
                 ("ai_disregard", Expression<MethodOrOperator> @:6074 check:64301,op:314,dt:2,nt:9,next:6075,nextCheck:64302,str:9327,h:0,d0:0,d1:0;
-                    ("ai_current_actor", VariableAccess<List> @:6075 check:64302,op:31,dt:31,nt:13,next:6076,nextCheck:64303,str:6458,h:0,d0:33562,d1:65535;
+                    ("ai_current_actor", VariableAccess<List> @:6075 check:64302,op:31,dt:31,nt:13,next:6076,nextCheck:64303,str:6458,h:0,d0:33556,d1:65535;
                         (True, Expression<Boolean> @:6076 check:64303,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:10774,h:1,d0:65281,d1:65535;))))
             (____, BuiltinInvocation<Void> @:6077 check:64304,op:21,dt:4,nt:8,next:6108,nextCheck:64335,str:10845,h:1,d0:6078,d1:64305;
                 ("sleep_until", Expression<MethodOrOperator> @:6078 check:64305,op:21,dt:2,nt:9,next:6079,nextCheck:64306,str:294,h:0,d0:0,d1:0;
@@ -33,7 +33,7 @@
                                                 ("players", Expression<MethodOrOperator> @:6098 check:64325,op:28,dt:2,nt:9,next:65535,nextCheck:65535,str:84,h:0,d0:0,d1:0;))
                                             (____, BuiltinInvocation<Entity> @:6099 check:64326,op:284,dt:50,nt:8,next:65535,nextCheck:65535,str:10988,h:1,d0:6100,d1:64327;
                                                 ("ai_get_object", Expression<MethodOrOperator> @:6100 check:64327,op:284,dt:2,nt:9,next:6101,nextCheck:64328,str:9340,h:0,d0:0,d1:0;
-                                                    ("ai_current_actor", VariableAccess<AI> @:6101 check:64328,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:6458,h:0,d0:33562,d1:65535;)))))
+                                                    ("ai_current_actor", VariableAccess<AI> @:6101 check:64328,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:6458,h:0,d0:33556,d1:65535;)))))
                                     (0.75f, Expression<Float> @:6102 check:64329,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:11022,h:1,d0:0,d1:16192;)))
                             (____, BuiltinInvocation<Boolean> @:6103 check:64330,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:11032,h:1,d0:6104,d1:64331;
                                 (">=", Expression<MethodOrOperator> @:6104 check:64331,op:17,dt:2,nt:9,next:6105,nextCheck:64332,str:734,h:0,d0:0,d1:0;
@@ -61,5 +61,5 @@
                                 (45, Expression<Short> @:6126 check:64353,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:11209,h:1,d0:45,d1:65535;))))))
             (____, BuiltinInvocation<Void> @:6127 check:64354,op:314,dt:4,nt:8,next:65535,nextCheck:65535,str:11256,h:1,d0:6128,d1:64355;
                 ("ai_disregard", Expression<MethodOrOperator> @:6128 check:64355,op:314,dt:2,nt:9,next:6129,nextCheck:64356,str:9327,h:0,d0:0,d1:0;
-                    ("ai_current_actor", VariableAccess<List> @:6129 check:64356,op:31,dt:31,nt:13,next:6130,nextCheck:64357,str:6458,h:0,d0:33562,d1:65535;
+                    ("ai_current_actor", VariableAccess<List> @:6129 check:64356,op:31,dt:31,nt:13,next:6130,nextCheck:64357,str:6458,h:0,d0:33556,d1:65535;
                         (False, Expression<Boolean> @:6130 check:64357,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:11287,h:1,d0:65280,d1:65535;)))))))

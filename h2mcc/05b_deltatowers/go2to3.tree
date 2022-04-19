@@ -5,7 +5,7 @@
             (____, BuiltinInvocation<Void> @:8703 check:34163,op:266,dt:4,nt:8,next:8708,nextCheck:34168,str:31260,h:1,d0:8704,d1:34164;
                 ("device_set_position_track", Expression<MethodOrOperator> @:8704 check:34164,op:266,dt:2,nt:9,next:8705,nextCheck:34165,str:17314,h:0,d0:0,d1:0;
                     ("elev_up", Expression<Device> @:8705 check:34165,op:60,dt:54,nt:9,next:8706,nextCheck:34166,str:17869,h:0,d0:89,d1:65535;
-                        ("transition_2to3", Expression<StringId> @:8706 check:34166,op:11,dt:11,nt:9,next:8707,nextCheck:34167,str:17877,h:0,d0:12160,d1:3840;
+                        ("transition_2to3", Expression<StringId> @:8706 check:34166,op:11,dt:11,nt:9,next:8707,nextCheck:34167,str:17877,h:0,d0:12161,d1:3840;
                             (0f, Expression<Float> @:8707 check:34167,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:31311,h:1,d0:0,d1:0;)))))
             (____, BuiltinInvocation<Void> @:8708 check:34168,op:268,dt:4,nt:8,next:8716,nextCheck:34176,str:31316,h:1,d0:8709,d1:34169;
                 ("device_animate_position", Expression<MethodOrOperator> @:8709 check:34169,op:268,dt:2,nt:9,next:8710,nextCheck:34170,str:17367,h:0,d0:0,d1:0;
@@ -49,7 +49,7 @@
                                     ("2to3_teleport", Expression<LocationFlag> @:8747 check:34207,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:17911,h:0,d0:61,d1:0;)))
                             (____, BuiltinInvocation<Void> @:8748 check:34208,op:41,dt:4,nt:8,next:65535,nextCheck:65535,str:31594,h:1,d0:8749,d1:34209;
                                 ("effect_new_on_object_marker", Expression<MethodOrOperator> @:8749 check:34209,op:41,dt:2,nt:9,next:8750,nextCheck:34210,str:2384,h:0,d0:0,d1:0;
-                                    ("effects\gameplay\coop_teleport", Expression<Effect> @:8750 check:34210,op:33,dt:33,nt:9,next:8751,nextCheck:34211,str:17445,h:0,d0:8835,d1:34005;
+                                    ("effects\gameplay\coop_teleport", Expression<Effect> @:8750 check:34210,op:33,dt:33,nt:9,next:8751,nextCheck:34211,str:17445,h:0,d0:8836,d1:34006;
                                         ("player0", ScriptInvocation<Entity> @:8751 check:34211,op:0,dt:50,nt:10,next:8753,nextCheck:34213,str:31656,h:1,d0:8752,d1:34212;
                                             ("player0", Expression<MethodOrOperator> @:8752 check:34212,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:743,h:0,d0:0,d1:0;))
                                         (0, Expression<StringId> @:8753 check:34213,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:0,h:0,d0:0,d1:0;))))))))
@@ -79,7 +79,7 @@
                                     ("2to3_teleport", Expression<LocationFlag> @:8777 check:34237,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:17911,h:0,d0:61,d1:0;)))
                             (____, BuiltinInvocation<Void> @:8778 check:34238,op:41,dt:4,nt:8,next:65535,nextCheck:65535,str:31852,h:1,d0:8779,d1:34239;
                                 ("effect_new_on_object_marker", Expression<MethodOrOperator> @:8779 check:34239,op:41,dt:2,nt:9,next:8780,nextCheck:34240,str:2384,h:0,d0:0,d1:0;
-                                    ("effects\gameplay\coop_teleport", Expression<Effect> @:8780 check:34240,op:33,dt:33,nt:9,next:8781,nextCheck:34241,str:17445,h:0,d0:8835,d1:34005;
+                                    ("effects\gameplay\coop_teleport", Expression<Effect> @:8780 check:34240,op:33,dt:33,nt:9,next:8781,nextCheck:34241,str:17445,h:0,d0:8836,d1:34006;
                                         ("player0", ScriptInvocation<Entity> @:8781 check:34241,op:0,dt:50,nt:10,next:8783,nextCheck:34243,str:31914,h:1,d0:8782,d1:34242;
                                             ("player0", Expression<MethodOrOperator> @:8782 check:34242,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:743,h:0,d0:0,d1:0;))
                                         (0, Expression<StringId> @:8783 check:34243,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:0,h:0,d0:0,d1:0;))))))))
@@ -112,7 +112,7 @@
                     (1, Expression<Short> @:8810 check:34270,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:32161,h:1,d0:1,d1:65535;)))
             (____, BuiltinInvocation<Void> @:8811 check:34271,op:598,dt:4,nt:8,next:8816,nextCheck:34276,str:32226,h:1,d0:8812,d1:34272;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:8812 check:34272,op:598,dt:2,nt:9,next:8813,nextCheck:34273,str:1420,h:0,d0:0,d1:0;
-                    ("sound\ambience\device_machines\delta_sub\sub_water_in_out\sub_impact_water", Expression<Sound> @:8813 check:34273,op:32,dt:32,nt:9,next:8814,nextCheck:34274,str:17586,h:0,d0:9084,d1:34254;
+                    ("sound\ambience\device_machines\delta_sub\sub_water_in_out\sub_impact_water", Expression<Sound> @:8813 check:34273,op:32,dt:32,nt:9,next:8814,nextCheck:34274,str:17586,h:0,d0:9085,d1:34255;
                         (4294967295, Expression<Entity> @:8814 check:34274,op:50,dt:50,nt:9,next:8815,nextCheck:34275,str:52,h:0,d0:65535,d1:65535;
                             (1f, Expression<Float> @:8815 check:34275,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:32329,h:1,d0:0,d1:16256;)))))
             (____, BuiltinInvocation<Void> @:8816 check:34276,op:52,dt:4,nt:8,next:8819,nextCheck:34279,str:32335,h:1,d0:8817,d1:34277;
@@ -292,7 +292,7 @@
                     (1, Expression<Short> @:8990 check:34450,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:33560,h:1,d0:1,d1:65535;)))
             (____, BuiltinInvocation<Void> @:8991 check:34451,op:598,dt:4,nt:8,next:8996,nextCheck:34456,str:33623,h:1,d0:8992,d1:34452;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:8992 check:34452,op:598,dt:2,nt:9,next:8993,nextCheck:34453,str:1420,h:0,d0:0,d1:0;
-                    ("sound\ambience\device_machines\delta_sub\sub_water_in_out\sub_out_of_water", Expression<Sound> @:8993 check:34453,op:32,dt:32,nt:9,next:8994,nextCheck:34454,str:17782,h:0,d0:9086,d1:34256;
+                    ("sound\ambience\device_machines\delta_sub\sub_water_in_out\sub_out_of_water", Expression<Sound> @:8993 check:34453,op:32,dt:32,nt:9,next:8994,nextCheck:34454,str:17782,h:0,d0:9087,d1:34257;
                         (4294967295, Expression<Entity> @:8994 check:34454,op:50,dt:50,nt:9,next:8995,nextCheck:34455,str:52,h:0,d0:65535,d1:65535;
                             (1f, Expression<Float> @:8995 check:34455,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:33726,h:1,d0:0,d1:16256;)))))
             (____, BuiltinInvocation<Void> @:8996 check:34456,op:52,dt:4,nt:8,next:8999,nextCheck:34459,str:33732,h:1,d0:8997,d1:34457;

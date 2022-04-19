@@ -90,7 +90,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.g_e8_warthog = default(IVehicle);
             this.g_e10_warthog = default(IVehicle);
             this.g_e10_cov_phantom0_leaving = false;
-            this.g_e11_pod_impact_effect = Engine.GetTag<EffectTag>("effects\\scenarios\\solo\\earthcity\\e11_insertion_pod_impact", 2223383097U);
+            this.g_e11_pod_impact_effect = Engine.GetTag<EffectTag>("effects\\scenarios\\solo\\earthcity\\e11_insertion_pod_impact", 2223776319U);
             this.g_e10_started = false;
             this.g_e10_cov_phantom0_arrived = false;
             this.g_e10_cov_ghosts0_unloaded = false;
@@ -1617,7 +1617,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 await Engine.sleep(30);
                 Engine.fade_in(0F, 0F, 0F, 30);
                 Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\03_earthcity\\mission\\l03_9000_cor", 3849454588U), default(IGameObject), 1F);
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\visual_effects\\oldmombasa_intro_tinnitus", 2218467822U), default(IGameObject), 1F);
+                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\visual_effects\\oldmombasa_intro_tinnitus", 2218861044U), default(IGameObject), 1F);
                 await Engine.sleep(35);
                 Engine.fade_out(0F, 0F, 0F, 30);
                 await Engine.sleep(45);
@@ -1646,7 +1646,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 await Engine.sleep(30);
                 Engine.fade_in(0F, 0F, 0F, 30);
                 Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\03_earthcity\\mission\\l03_9030_cor", 3849520125U), default(IGameObject), 1F);
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\visual_effects\\oldmombasa_intro_tinnitus", 2218467822U), default(IGameObject), 1F);
+                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\visual_effects\\oldmombasa_intro_tinnitus", 2218861044U), default(IGameObject), 1F);
                 await Engine.sleep(35);
                 Engine.fade_out(0F, 0F, 0F, 30);
                 await Engine.sleep(45);
@@ -1675,7 +1675,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 await Engine.sleep(30);
                 Engine.fade_in(0F, 0F, 0F, 30);
                 Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\03_earthcity\\mission\\l03_9020_cor", 3849585662U), default(IGameObject), 1F);
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\visual_effects\\oldmombasa_intro_tinnitus", 2218467822U), default(IGameObject), 1F);
+                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\visual_effects\\oldmombasa_intro_tinnitus", 2218861044U), default(IGameObject), 1F);
                 await Engine.sleep(35);
                 Engine.fade_out(0F, 0F, 0F, 30);
                 await Engine.sleep(45);
@@ -1704,7 +1704,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 await Engine.sleep(30);
                 Engine.fade_in(0F, 0F, 0F, 30);
                 Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\03_earthcity\\mission\\l03_9010_cor", 3849651199U), default(IGameObject), 1F);
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\visual_effects\\oldmombasa_intro_tinnitus", 2218467822U), default(IGameObject), 1F);
+                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound_remastered\\visual_effects\\oldmombasa_intro_tinnitus", 2218861044U), default(IGameObject), 1F);
                 await Engine.sleep(35);
                 Engine.fade_out(0F, 0F, 0F, 30);
                 await Engine.sleep(45);
@@ -1837,14 +1837,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task music_03a_01_start()
         {
             Engine.print("music 03a_01 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_01", 2218533359U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_01", 2218926581U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(135, Lifecycle.Dormant)]
         public async Task music_03a_01_stop()
         {
             Engine.print("music 03a_01 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_01", 2218533359U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_01", 2218926581U));
         }
 
         [ScriptMethod(136, Lifecycle.Dormant)]
@@ -1852,7 +1852,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep(this.two_minutes);
             Engine.print("music 03a_02 stop alt");
-            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_02", 2218926581U), false);
+            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_02", 2219319803U), false);
         }
 
         [ScriptMethod(137, Lifecycle.Dormant)]
@@ -1860,7 +1860,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep(this.one_minute);
             Engine.print("music 03a_02 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_02", 2218926581U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_02", 2219319803U));
             Engine.sleep_forever(new ScriptMethodReference(music_03a_02_stop_alt));
         }
 
@@ -1868,7 +1868,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task music_03a_02_start_alt()
         {
             Engine.print("music 03a_02 start alt");
-            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_02", 2218926581U), true);
+            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_02", 2219319803U), true);
             Engine.wake(new ScriptMethodReference(music_03a_02_stop_alt));
         }
 
@@ -1876,35 +1876,35 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task music_03a_02_start()
         {
             Engine.print("music 03a_02 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_02", 2218926581U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_02", 2219319803U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(140, Lifecycle.Dormant)]
         public async Task music_03a_03_start()
         {
             Engine.print("music 03a_03 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_03", 2219713025U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_03", 2220106247U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(141, Lifecycle.Dormant)]
         public async Task music_03a_03_stop()
         {
             Engine.print("music 03a_03 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_03", 2219713025U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_03", 2220106247U));
         }
 
         [ScriptMethod(142, Lifecycle.Dormant)]
         public async Task music_03a_04_start()
         {
             Engine.print("music 03a_04 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_04", 2220237321U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_04", 2220630543U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(143, Lifecycle.Dormant)]
         public async Task music_03a_04_stop()
         {
             Engine.print("music 03a_04 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_04", 2220237321U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_04", 2220630543U));
         }
 
         [ScriptMethod(144, Lifecycle.Dormant)]
@@ -1912,35 +1912,35 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep(60);
             Engine.print("music 03a_05 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_05", 2220630543U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_05", 2221023765U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(145, Lifecycle.Dormant)]
         public async Task music_03a_05_stop()
         {
             Engine.print("music 03a_05 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_05", 2220630543U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_05", 2221023765U));
         }
 
         [ScriptMethod(146, Lifecycle.Dormant)]
         public async Task music_03a_06_start()
         {
             Engine.print("music 03a_06 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_06", 2221154839U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_06", 2221548061U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(147, Lifecycle.Dormant)]
         public async Task music_03a_06_stop()
         {
             Engine.print("music 03a_06 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_06", 2221154839U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_06", 2221548061U));
         }
 
         [ScriptMethod(148, Lifecycle.Dormant)]
         public async Task music_03a_065_start()
         {
             Engine.print("music 03a_065 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_065", 2221548061U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_065", 2221941283U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(149, Lifecycle.Dormant)]
@@ -1948,14 +1948,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep(this.two_minutes);
             Engine.print("music 03a_065 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_065", 2221548061U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_065", 2221941283U));
         }
 
         [ScriptMethod(150, Lifecycle.Dormant)]
         public async Task music_03a_065_start_alt()
         {
             Engine.print("music 03a_065 start alt");
-            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_065", 2221548061U), true);
+            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_065", 2221941283U), true);
             Engine.wake(new ScriptMethodReference(music_03a_065_stop));
         }
 
@@ -1963,35 +1963,35 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task music_03a_066_start()
         {
             Engine.print("music 03a_066 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_066", 2222203431U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_066", 2222596653U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(152, Lifecycle.Dormant)]
         public async Task music_03a_067_start()
         {
             Engine.print("music 03a_067 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_067", 2222465579U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_067", 2222858801U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(153, Lifecycle.Dormant)]
         public async Task music_03a_067_stop()
         {
             Engine.print("music 03a_067 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_067", 2222465579U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_067", 2222858801U));
         }
 
         [ScriptMethod(154, Lifecycle.Dormant)]
         public async Task music_03a_07_start()
         {
             Engine.print("music 03a_07 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_07", 2222858801U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_07", 2223252023U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(155, Lifecycle.Dormant)]
         public async Task music_03a_07_stop()
         {
             Engine.print("music 03a_07 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_07", 2222858801U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\03a_oldmombasa\\03a_music\\03a_07", 2223252023U));
         }
 
         [ScriptMethod(156, Lifecycle.Static)]
@@ -4999,7 +4999,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.cs_abort_on_damage(true);
             if ((float)Engine.ai_strength(this.ai_current_actor) > 0.98F)
             {
-                Engine.custom_animation(Engine.ai_get_unit(this.ai_current_actor), Engine.GetTag<AnimationGraphTag>("objects\\characters\\hunter\\hunter", 2160074358U), "combat:unarmed:shakefist", true);
+                Engine.custom_animation(Engine.ai_get_unit(this.ai_current_actor), Engine.GetTag<AnimationGraphTag>("objects\\characters\\hunter\\hunter", 2160467580U), "combat:unarmed:shakefist", true);
                 await Engine.sleep(Engine.unit_get_custom_animation_time(Engine.ai_get_unit(this.ai_current_actor)));
             }
         }
@@ -5019,7 +5019,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => await this.player_in_vehicle() || Engine.objects_distance_to_object(Engine.ai_actors(this.ai_current_squad), await this.player0()) <= 3F || (bool)Engine.game_is_cooperative() && Engine.objects_distance_to_object(Engine.ai_actors(this.ai_current_squad), await this.player1()) <= 3F || (bool)Engine.ai_trigger_test("generic_player_fired", this.ai_current_squad) && Engine.objects_can_see_flag(Engine.players(), e2_cov_hunters0_entry, 20F) || (float)Engine.ai_strength(this.ai_current_squad) < 0.98F, 5, 120);
             if (!(await this.player_in_vehicle() || Engine.objects_distance_to_object(Engine.ai_actors(this.ai_current_squad), await this.player0()) <= 3F || (bool)Engine.game_is_cooperative() && Engine.objects_distance_to_object(Engine.ai_actors(this.ai_current_squad), await this.player1()) <= 3F || (bool)Engine.ai_trigger_test("generic_player_fired", this.ai_current_squad) && Engine.objects_can_see_flag(Engine.players(), e2_cov_hunters0_entry, 20F) || (float)Engine.ai_strength(this.ai_current_squad) < 0.98F))
             {
-                Engine.custom_animation(Engine.ai_get_unit(this.ai_current_actor), Engine.GetTag<AnimationGraphTag>("objects\\characters\\hunter\\hunter", 2160074358U), "combat:unarmed:taunt", true);
+                Engine.custom_animation(Engine.ai_get_unit(this.ai_current_actor), Engine.GetTag<AnimationGraphTag>("objects\\characters\\hunter\\hunter", 2160467580U), "combat:unarmed:taunt", true);
                 await Engine.sleep(Engine.unit_get_custom_animation_time(Engine.ai_get_unit(this.ai_current_actor)));
             }
 
@@ -5119,7 +5119,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep_until(async () => Engine.objects_can_see_flag(Engine.players(), e2_wall_tap, 30F), 15, this.one_minute);
             Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\materials\\hard\\metal_thin\\metal_thin_large", 4281277690U));
-            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\visual_effects\\explosion_medium_metal_bits", 2223579708U));
+            Engine.sound_impulse_predict(Engine.GetTag<SoundTag>("sound\\visual_effects\\explosion_medium_metal_bits", 2223972930U));
             await Engine.sleep(30);
             Engine.device_set_position(e2_hunter_door.Entity, 0.5F);
             Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\materials\\hard\\metal_thin\\metal_thin_large", 4281277690U), e2_hunter_door_sound_source.Entity, 1F);
@@ -5135,7 +5135,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.object_damage_damage_section(e2_hunter_door.Entity, "body_hit1", 1.1F);
             await Engine.sleep(160);
             Engine.device_set_position_immediate(e2_hunter_door.Entity, 0.01F);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\visual_effects\\explosion_medium_metal_bits", 2223579708U), e2_hunter_door_sound_source.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\visual_effects\\explosion_medium_metal_bits", 2223972930U), e2_hunter_door_sound_source.Entity, 1F);
             await Engine.sleep(1);
             Engine.object_damage_damage_section(e2_hunter_door.Entity, "body_main", 1.1F);
             await Engine.sleep(1);

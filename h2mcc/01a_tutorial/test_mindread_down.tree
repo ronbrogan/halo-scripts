@@ -51,19 +51,19 @@
                                     ("look at the bottom light, son.", Expression<String> @:3994 check:62221,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:8070,h:0,d0:8070,d1:0;)))
                             (____, BuiltinInvocation<Void> @:3995 check:62222,op:598,dt:4,nt:8,next:4002,nextCheck:62229,str:46669,h:0,d0:3996,d1:62223;
                                 ("sound_impulse_start", Expression<MethodOrOperator> @:3996 check:62223,op:598,dt:2,nt:9,next:3997,nextCheck:62224,str:1944,h:0,d0:0,d1:0;
-                                    ("sound\dialog\levels\01_spacestation\mission\l01_3060_gun", Expression<Sound> @:3997 check:62224,op:32,dt:32,nt:9,next:3998,nextCheck:62225,str:8101,h:0,d0:1426,d1:59144;
+                                    ("sound\dialog\levels\01_spacestation\mission\l01_3060_gun", Expression<Sound> @:3997 check:62224,op:32,dt:32,nt:9,next:3998,nextCheck:62225,str:8101,h:0,d0:1431,d1:59149;
                                         (____, BuiltinInvocation<Entity> @:3998 check:62225,op:284,dt:50,nt:8,next:4001,nextCheck:62228,str:46747,h:0,d0:3999,d1:62226;
                                             ("ai_get_object", Expression<MethodOrOperator> @:3999 check:62226,op:284,dt:2,nt:9,next:4000,nextCheck:62227,str:1258,h:0,d0:0,d1:0;
                                                 ("guns", Expression<AI> @:4000 check:62227,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1272,h:0,d0:0,d1:0;)))
                                         (1f, Expression<Float> @:4001 check:62228,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:46768,h:0,d0:0,d1:16256;))))
-                            (____, BuiltinInvocation<Void> @:4002 check:62229,op:634,dt:4,nt:8,next:4005,nextCheck:62232,str:46781,h:0,d0:4003,d1:62230;
-                                ("hud_set_training_text", Expression<MethodOrOperator> @:4003 check:62230,op:634,dt:2,nt:9,next:4004,nextCheck:62231,str:1030,h:0,d0:0,d1:0;
-                                    ("tutorial_look_down", Expression<StringId> @:4004 check:62231,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:8158,h:0,d0:7552,d1:4608;)))
-                            (____, BuiltinInvocation<Void> @:4005 check:62232,op:633,dt:4,nt:8,next:4008,nextCheck:62235,str:46834,h:0,d0:4006,d1:62233;
-                                ("hud_show_training_text", Expression<MethodOrOperator> @:4006 check:62233,op:633,dt:2,nt:9,next:4007,nextCheck:62234,str:1071,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Void> @:4002 check:62229,op:632,dt:4,nt:8,next:4005,nextCheck:62232,str:46781,h:0,d0:4003,d1:62230;
+                                ("hud_set_training_text", Expression<MethodOrOperator> @:4003 check:62230,op:632,dt:2,nt:9,next:4004,nextCheck:62231,str:1030,h:0,d0:0,d1:0;
+                                    ("tutorial_look_down", Expression<StringId> @:4004 check:62231,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:8158,h:0,d0:7553,d1:4608;)))
+                            (____, BuiltinInvocation<Void> @:4005 check:62232,op:631,dt:4,nt:8,next:4008,nextCheck:62235,str:46834,h:0,d0:4006,d1:62233;
+                                ("hud_show_training_text", Expression<MethodOrOperator> @:4006 check:62233,op:631,dt:2,nt:9,next:4007,nextCheck:62234,str:1071,h:0,d0:0,d1:0;
                                     (True, Expression<Boolean> @:4007 check:62234,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:46858,h:0,d0:65281,d1:65535;)))
-                            (____, BuiltinInvocation<Void> @:4008 check:62235,op:635,dt:4,nt:8,next:65535,nextCheck:65535,str:46871,h:0,d0:4009,d1:62236;
-                                ("hud_enable_training", Expression<MethodOrOperator> @:4009 check:62236,op:635,dt:2,nt:9,next:4010,nextCheck:62237,str:7718,h:0,d0:0,d1:0;
+                            (____, BuiltinInvocation<Void> @:4008 check:62235,op:633,dt:4,nt:8,next:65535,nextCheck:65535,str:46871,h:0,d0:4009,d1:62236;
+                                ("hud_enable_training", Expression<MethodOrOperator> @:4009 check:62236,op:633,dt:2,nt:9,next:4010,nextCheck:62237,str:7718,h:0,d0:0,d1:0;
                                     (True, Expression<Boolean> @:4010 check:62237,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:46892,h:0,d0:65281,d1:65535;)))))))
             (____, BuiltinInvocation<Void> @:4011 check:62238,op:366,dt:4,nt:8,next:4015,nextCheck:62242,str:46912,h:0,d0:4012,d1:62239;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:4012 check:62239,op:366,dt:2,nt:9,next:4013,nextCheck:62240,str:3103,h:0,d0:0,d1:0;
@@ -85,11 +85,11 @@
             (____, BuiltinInvocation<Void> @:4028 check:62255,op:479,dt:4,nt:8,next:4031,nextCheck:62258,str:47097,h:0,d0:4029,d1:62256;
                 ("player_camera_control", Expression<MethodOrOperator> @:4029 check:62256,op:479,dt:2,nt:9,next:4030,nextCheck:62257,str:521,h:0,d0:0,d1:0;
                     (False, Expression<Boolean> @:4030 check:62257,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:47120,h:0,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:4031 check:62258,op:635,dt:4,nt:8,next:4034,nextCheck:62261,str:47125,h:0,d0:4032,d1:62259;
-                ("hud_enable_training", Expression<MethodOrOperator> @:4032 check:62259,op:635,dt:2,nt:9,next:4033,nextCheck:62260,str:7718,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4031 check:62258,op:633,dt:4,nt:8,next:4034,nextCheck:62261,str:47125,h:0,d0:4032,d1:62259;
+                ("hud_enable_training", Expression<MethodOrOperator> @:4032 check:62259,op:633,dt:2,nt:9,next:4033,nextCheck:62260,str:7718,h:0,d0:0,d1:0;
                     (False, Expression<Boolean> @:4033 check:62260,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:47146,h:0,d0:65280,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:4034 check:62261,op:633,dt:4,nt:8,next:4037,nextCheck:62264,str:47151,h:0,d0:4035,d1:62262;
-                ("hud_show_training_text", Expression<MethodOrOperator> @:4035 check:62262,op:633,dt:2,nt:9,next:4036,nextCheck:62263,str:1071,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:4034 check:62261,op:631,dt:4,nt:8,next:4037,nextCheck:62264,str:47151,h:0,d0:4035,d1:62262;
+                ("hud_show_training_text", Expression<MethodOrOperator> @:4035 check:62262,op:631,dt:2,nt:9,next:4036,nextCheck:62263,str:1071,h:0,d0:0,d1:0;
                     (False, Expression<Boolean> @:4036 check:62263,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:47175,h:0,d0:65280,d1:65535;)))
             (____, BuiltinInvocation<Void> @:4037 check:62264,op:52,dt:4,nt:8,next:4040,nextCheck:62267,str:47180,h:0,d0:4038,d1:62265;
                 ("object_destroy", Expression<MethodOrOperator> @:4038 check:62265,op:52,dt:2,nt:9,next:4039,nextCheck:62266,str:7766,h:0,d0:0,d1:0;
@@ -169,4 +169,4 @@
                 ("sleep", Expression<MethodOrOperator> @:4104 check:62331,op:19,dt:2,nt:9,next:4105,nextCheck:62332,str:110,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Short> @:4105 check:62332,op:603,dt:7,nt:8,next:65535,nextCheck:65535,str:48040,h:0,d0:4106,d1:62333;
                         ("sound_impulse_language_time", Expression<MethodOrOperator> @:4106 check:62333,op:603,dt:2,nt:9,next:4107,nextCheck:62334,str:2067,h:0,d0:0,d1:0;
-                            ("sound\dialog\levels\01_spacestation\mission\l01_3060_gun", Expression<Sound> @:4107 check:62334,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:8101,h:0,d0:1426,d1:59144;))))))))
+                            ("sound\dialog\levels\01_spacestation\mission\l01_3060_gun", Expression<Sound> @:4107 check:62334,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:8101,h:0,d0:1431,d1:59149;))))))))

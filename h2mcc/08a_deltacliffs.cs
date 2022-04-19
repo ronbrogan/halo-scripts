@@ -65,7 +65,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.g_e10_started = false;
             this.g_e10_pro_inf1_2_count = 4;
             this.g_e10_weapon_scene0_actor = default(IUnit);
-            this.g_e10_pod_impact_effect = Engine.GetTag<EffectTag>("effects\\scenarios\\solo\\earthcity\\e11_insertion_pod_impact", 4276493467U);
+            this.g_e10_pod_impact_effect = Engine.GetTag<EffectTag>("effects\\scenarios\\solo\\earthcity\\e11_insertion_pod_impact", 4276886689U);
             this.g_e9_started = false;
             this.g_e8_started = false;
             this.g_e7_started = false;
@@ -84,7 +84,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             this.g_e1_pro_inf1_was_alerted = false;
             this.g_e1_stealth_major_done = false;
             this.g_e1_zealot_revealed = false;
-            this.g_e1_pod_impact_effect = Engine.GetTag<EffectTag>("effects\\scenarios\\solo\\earthcity\\e11_insertion_pod_impact", 4276493467U);
+            this.g_e1_pod_impact_effect = Engine.GetTag<EffectTag>("effects\\scenarios\\solo\\earthcity\\e11_insertion_pod_impact", 4276886689U);
         }
 
 #endregion
@@ -943,70 +943,70 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task music_08a_01_stop()
         {
             Engine.print("music 08a_01 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\08a_deltacliffs\\08a_music\\08a_01", 4274003061U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\08a_deltacliffs\\08a_music\\08a_01", 4274396283U));
         }
 
         [ScriptMethod(74, Lifecycle.Dormant)]
         public async Task music_08a_01_start_alt()
         {
             Engine.print("music 08a_01 start alt");
-            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\08a_deltacliffs\\08a_music\\08a_01", 4274003061U), true);
+            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\08a_deltacliffs\\08a_music\\08a_01", 4274396283U), true);
         }
 
         [ScriptMethod(75, Lifecycle.Dormant)]
         public async Task music_08a_01_start()
         {
             Engine.print("music 08a_01 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\08a_deltacliffs\\08a_music\\08a_01", 4274003061U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\08a_deltacliffs\\08a_music\\08a_01", 4274396283U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(76, Lifecycle.Dormant)]
         public async Task music_08a_02_stop()
         {
             Engine.print("music 08a_02 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\08a_deltacliffs\\08a_music\\08a_02", 4274789505U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\08a_deltacliffs\\08a_music\\08a_02", 4275182727U));
         }
 
         [ScriptMethod(77, Lifecycle.Dormant)]
         public async Task music_08a_02_start()
         {
             Engine.print("music 08a_02 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\08a_deltacliffs\\08a_music\\08a_02", 4274789505U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\08a_deltacliffs\\08a_music\\08a_02", 4275182727U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(78, Lifecycle.Dormant)]
         public async Task music_08a_03_stop()
         {
             Engine.print("music 08a_03 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\08a_deltacliffs\\08a_music\\08a_03", 4275182727U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\08a_deltacliffs\\08a_music\\08a_03", 4275575949U));
         }
 
         [ScriptMethod(79, Lifecycle.Dormant)]
         public async Task music_08a_03_start_alt()
         {
             Engine.print("music 08a_01 start alt");
-            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\08a_deltacliffs\\08a_music\\08a_03", 4275182727U), true);
+            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\08a_deltacliffs\\08a_music\\08a_03", 4275575949U), true);
         }
 
         [ScriptMethod(80, Lifecycle.Dormant)]
         public async Task music_08a_03_start()
         {
             Engine.print("music 08a_03 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\08a_deltacliffs\\08a_music\\08a_03", 4275182727U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\08a_deltacliffs\\08a_music\\08a_03", 4275575949U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(81, Lifecycle.Dormant)]
         public async Task music_08a_04_start()
         {
             Engine.print("music 08a_04 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\08a_deltacliffs\\08a_music\\08a_04", 4275969171U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\08a_deltacliffs\\08a_music\\08a_04", 4276362393U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(82, Lifecycle.Dormant)]
         public async Task music_08a_05_start()
         {
             Engine.print("music 08a_05 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\08a_deltacliffs\\08a_music\\08a_05", 4276231319U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\08a_deltacliffs\\08a_music\\08a_05", 4276624541U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(83, Lifecycle.Dormant)]

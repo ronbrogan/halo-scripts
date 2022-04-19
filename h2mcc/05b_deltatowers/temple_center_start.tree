@@ -16,8 +16,8 @@
                 ("ai_disposable", Expression<MethodOrOperator> @:19912 check:45372,op:300,dt:2,nt:9,next:19913,nextCheck:45373,str:11263,h:0,d0:0,d1:0;
                     ("temple_entry_enemies", Expression<AI> @:19913 check:45373,op:19,dt:19,nt:9,next:19914,nextCheck:45374,str:27777,h:0,d0:30,d1:16384;
                         (True, Expression<Boolean> @:19914 check:45374,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:13707,h:3,d0:65281,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:19915 check:45375,op:788,dt:4,nt:8,next:19918,nextCheck:45378,str:13715,h:3,d0:19916,d1:45376;
-                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:19916 check:45376,op:788,dt:2,nt:9,next:19917,nextCheck:45377,str:10730,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:19915 check:45375,op:766,dt:4,nt:8,next:19918,nextCheck:45378,str:13715,h:3,d0:19916,d1:45376;
+                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:19916 check:45376,op:766,dt:2,nt:9,next:19917,nextCheck:45377,str:10730,h:0,d0:0,d1:0;
                     ("05b_16_temple_center", Expression<String> @:19917 check:45377,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:31308,h:0,d0:31308,d1:0;)))
             (____, BuiltinInvocation<Void> @:19918 check:45378,op:317,dt:4,nt:8,next:19921,nextCheck:45381,str:13772,h:3,d0:19919,d1:45379;
                 ("ai_renew", Expression<MethodOrOperator> @:19919 check:45379,op:317,dt:2,nt:9,next:19920,nextCheck:45380,str:11291,h:0,d0:0,d1:0;
@@ -61,7 +61,7 @@
             (____, BuiltinInvocation<Void> @:19957 check:45417,op:60,dt:4,nt:8,next:19963,nextCheck:45423,str:14252,h:3,d0:19958,d1:45418;
                 ("object_set_function_variable", Expression<MethodOrOperator> @:19958 check:45418,op:60,dt:2,nt:9,next:19959,nextCheck:45419,str:14151,h:0,d0:0,d1:0;
                     ("regret_throne", VariableAccess<Entity> @:19959 check:45419,op:50,dt:50,nt:13,next:19960,nextCheck:45420,str:30923,h:0,d0:31,d1:0;
-                        ("effects", Expression<StringId> @:19960 check:45420,op:11,dt:11,nt:9,next:19961,nextCheck:45421,str:30969,h:0,d0:11599,d1:1792;
+                        ("effects", Expression<StringId> @:19960 check:45420,op:11,dt:11,nt:9,next:19961,nextCheck:45421,str:30969,h:0,d0:11600,d1:1792;
                             (1f, Expression<Float> @:19961 check:45421,op:6,dt:6,nt:9,next:19962,nextCheck:45422,str:14306,h:3,d0:0,d1:16256;
                                 (1f, Expression<Float> @:19962 check:45422,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:14308,h:3,d0:0,d1:16256;))))))
             (____, BuiltinInvocation<Void> @:19963 check:45423,op:291,dt:4,nt:8,next:19967,nextCheck:45427,str:14315,h:3,d0:19964,d1:45424;
@@ -315,7 +315,7 @@
                     (____, BuiltinInvocation<Short> @:20211 check:45671,op:362,dt:7,nt:8,next:65535,nextCheck:65535,str:16650,h:3,d0:20212,d1:45672;
                         ("ai_play_line_on_object", Expression<MethodOrOperator> @:20212 check:45672,op:362,dt:2,nt:9,next:20213,nextCheck:45673,str:10148,h:0,d0:0,d1:0;
                             (4294967295, Expression<Entity> @:20213 check:45673,op:50,dt:50,nt:9,next:20214,nextCheck:45674,str:52,h:0,d0:65535,d1:65535;
-                                ("0220", Expression<StringId> @:20214 check:45674,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:28965,h:0,d0:12420,d1:1024;))))))
+                                ("0220", Expression<StringId> @:20214 check:45674,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:28965,h:0,d0:12421,d1:1024;))))))
             (____, BuiltinInvocation<Void> @:20215 check:45675,op:19,dt:4,nt:8,next:20218,nextCheck:45678,str:16780,h:3,d0:20216,d1:45676;
                 ("sleep", Expression<MethodOrOperator> @:20216 check:45676,op:19,dt:2,nt:9,next:20217,nextCheck:45677,str:221,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:20217 check:45677,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:16787,h:3,d0:30,d1:65535;)))

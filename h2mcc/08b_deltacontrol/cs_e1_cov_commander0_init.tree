@@ -4,7 +4,7 @@
         ("begin", Expression<MethodOrOperator> @:20514 check:45974,op:0,dt:2,nt:9,next:20445,nextCheck:45905,str:21,h:0,d0:0,d1:0;
             (____, BuiltinInvocation<Void> @:20445 check:45905,op:350,dt:4,nt:8,next:20448,nextCheck:45908,str:6652,h:4,d0:20446,d1:45906;
                 ("ai_vehicle_exit", Expression<MethodOrOperator> @:20446 check:45906,op:350,dt:2,nt:9,next:20447,nextCheck:45907,str:27405,h:0,d0:0,d1:0;
-                    ("ai_current_actor", VariableAccess<AI> @:20447 check:45907,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:1286,h:0,d0:33562,d1:65535;)))
+                    ("ai_current_actor", VariableAccess<AI> @:20447 check:45907,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:1286,h:0,d0:33556,d1:65535;)))
             (____, BuiltinInvocation<Void> @:20448 check:45908,op:21,dt:4,nt:8,next:20458,nextCheck:45918,str:6731,h:4,d0:20449,d1:45909;
                 ("sleep_until", Expression<MethodOrOperator> @:20449 check:45909,op:21,dt:2,nt:9,next:20450,nextCheck:45910,str:251,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Boolean> @:20450 check:45910,op:25,dt:5,nt:8,next:20457,nextCheck:45917,str:6744,h:4,d0:20451,d1:45911;
@@ -13,7 +13,7 @@
                                 ("unit_in_vehicle", Expression<MethodOrOperator> @:20453 check:45913,op:222,dt:2,nt:9,next:20454,nextCheck:45914,str:23735,h:0,d0:0,d1:0;
                                     (____, BuiltinInvocation<Unit> @:20454 check:45914,op:285,dt:51,nt:8,next:65535,nextCheck:65535,str:6766,h:4,d0:20455,d1:45915;
                                         ("ai_get_unit", Expression<MethodOrOperator> @:20455 check:45915,op:285,dt:2,nt:9,next:20456,nextCheck:45916,str:1274,h:0,d0:0,d1:0;
-                                            ("ai_current_actor", VariableAccess<AI> @:20456 check:45916,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:1286,h:0,d0:33562,d1:65535;)))))))
+                                            ("ai_current_actor", VariableAccess<AI> @:20456 check:45916,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:1286,h:0,d0:33556,d1:65535;)))))))
                     (5, Expression<Short> @:20457 check:45917,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:6799,h:4,d0:5,d1:65535;)))
             (____, BuiltinInvocation<Void> @:20458 check:45918,op:449,dt:4,nt:8,next:20461,nextCheck:45921,str:6831,h:4,d0:20459,d1:45919;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:20459 check:45919,op:449,dt:2,nt:9,next:20460,nextCheck:45920,str:1168,h:0,d0:0,d1:0;

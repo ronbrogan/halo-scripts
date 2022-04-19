@@ -4,7 +4,7 @@
         ("begin", Expression<MethodOrOperator> @:11165 check:36625,op:0,dt:2,nt:9,next:11141,nextCheck:36601,str:1,h:0,d0:0,d1:0;
             (____, BuiltinInvocation<Void> @:11141 check:36601,op:422,dt:4,nt:8,next:11144,nextCheck:36604,str:13338,h:2,d0:11142,d1:36602;
                 ("cs_movement_mode", Expression<MethodOrOperator> @:11142 check:36602,op:422,dt:2,nt:9,next:11143,nextCheck:36603,str:21640,h:0,d0:0,d1:0;
-                    ("ai_movement_combat", VariableAccess<Short> @:11143 check:36603,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:23867,h:0,d0:33581,d1:65535;)))
+                    ("ai_movement_combat", VariableAccess<Short> @:11143 check:36603,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:23867,h:0,d0:33575,d1:65535;)))
             (____, BuiltinInvocation<Void> @:11144 check:36604,op:449,dt:4,nt:8,next:11147,nextCheck:36607,str:13378,h:2,d0:11145,d1:36605;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:11145 check:36605,op:449,dt:2,nt:9,next:11146,nextCheck:36606,str:19767,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:11146 check:36606,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:13410,h:2,d0:65281,d1:65535;)))
@@ -15,7 +15,7 @@
                 ("object_set_velocity", Expression<MethodOrOperator> @:11151 check:36611,op:79,dt:2,nt:9,next:11152,nextCheck:36612,str:21906,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Entity> @:11152 check:36612,op:284,dt:50,nt:8,next:11155,nextCheck:36615,str:13451,h:2,d0:11153,d1:36613;
                         ("ai_get_object", Expression<MethodOrOperator> @:11153 check:36613,op:284,dt:2,nt:9,next:11154,nextCheck:36614,str:9291,h:0,d0:0,d1:0;
-                            ("ai_current_actor", VariableAccess<AI> @:11154 check:36614,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:9305,h:0,d0:33562,d1:65535;)))
+                            ("ai_current_actor", VariableAccess<AI> @:11154 check:36614,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:9305,h:0,d0:33556,d1:65535;)))
                     (4f, Expression<Float> @:11155 check:36615,op:6,dt:6,nt:9,next:11156,nextCheck:36616,str:13484,h:2,d0:0,d1:16512;
                         (0f, Expression<Float> @:11156 check:36616,op:6,dt:6,nt:9,next:11157,nextCheck:36617,str:13486,h:2,d0:0,d1:0;
                             (1.5f, Expression<Float> @:11157 check:36617,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:13488,h:2,d0:0,d1:16320;)))))
@@ -24,4 +24,4 @@
                     ("cinematic_fld_inf0/p0", Expression<SpatialPoint> @:11160 check:36620,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:23886,h:0,d0:0,d1:12;)))
             (____, BuiltinInvocation<Void> @:11161 check:36621,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:13530,h:2,d0:11162,d1:36622;
                 ("ai_erase", Expression<MethodOrOperator> @:11162 check:36622,op:298,dt:2,nt:9,next:11163,nextCheck:36623,str:13590,h:0,d0:0,d1:0;
-                    ("ai_current_actor", VariableAccess<AI> @:11163 check:36623,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:9305,h:0,d0:33562,d1:65535;))))))
+                    ("ai_current_actor", VariableAccess<AI> @:11163 check:36623,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:9305,h:0,d0:33556,d1:65535;))))))

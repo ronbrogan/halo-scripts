@@ -4,7 +4,7 @@
         ("begin", Expression<MethodOrOperator> @:15048 check:40508,op:0,dt:2,nt:9,next:14852,nextCheck:40312,str:64,h:0,d0:0,d1:0;
             (____, BuiltinInvocation<Void> @:14852 check:40312,op:367,dt:4,nt:8,next:14856,nextCheck:40316,str:52946,h:2,d0:14853,d1:40313;
                 ("cs_queue_command_script", Expression<MethodOrOperator> @:14853 check:40313,op:367,dt:2,nt:9,next:14854,nextCheck:40314,str:11444,h:0,d0:0,d1:0;
-                    ("ai_current_actor", VariableAccess<AI> @:14854 check:40314,op:19,dt:19,nt:13,next:14855,nextCheck:40315,str:4350,h:0,d0:33562,d1:65535;
+                    ("ai_current_actor", VariableAccess<AI> @:14854 check:40314,op:19,dt:19,nt:13,next:14855,nextCheck:40315,str:4350,h:0,d0:33556,d1:65535;
                         ("cs_e2_cov_hunters0_taunt", Expression<AIScript> @:14855 check:40315,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:24890,h:0,d0:364,d1:0;))))
             (____, BuiltinInvocation<Void> @:14856 check:40316,op:19,dt:4,nt:8,next:14859,nextCheck:40319,str:53016,h:2,d0:14857,d1:40317;
                 ("sleep", Expression<MethodOrOperator> @:14857 check:40317,op:19,dt:2,nt:9,next:14858,nextCheck:40318,str:143,h:0,d0:0,d1:0;
@@ -29,7 +29,7 @@
                     (True, Expression<Boolean> @:14876 check:40336,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:53196,h:2,d0:65281,d1:65535;)))
             (____, BuiltinInvocation<Void> @:14877 check:40337,op:422,dt:4,nt:8,next:14880,nextCheck:40340,str:53204,h:2,d0:14878,d1:40338;
                 ("cs_movement_mode", Expression<MethodOrOperator> @:14878 check:40338,op:422,dt:2,nt:9,next:14879,nextCheck:40339,str:21000,h:0,d0:0,d1:0;
-                    ("ai_movement_combat", VariableAccess<Short> @:14879 check:40339,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:21060,h:0,d0:33581,d1:65535;)))
+                    ("ai_movement_combat", VariableAccess<Short> @:14879 check:40339,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:21060,h:0,d0:33575,d1:65535;)))
             (____, BuiltinInvocation<Void> @:14880 check:40340,op:21,dt:4,nt:8,next:14930,nextCheck:40390,str:53266,h:2,d0:14881,d1:40341;
                 ("sleep_until", Expression<MethodOrOperator> @:14881 check:40341,op:21,dt:2,nt:9,next:14882,nextCheck:40342,str:294,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Boolean> @:14882 check:40342,op:6,dt:5,nt:8,next:14928,nextCheck:40388,str:53283,h:2,d0:14883,d1:40343;
@@ -42,7 +42,7 @@
                                         ("objects_distance_to_object", Expression<MethodOrOperator> @:14889 check:40349,op:114,dt:2,nt:9,next:14890,nextCheck:40350,str:12797,h:0,d0:0,d1:0;
                                             (____, BuiltinInvocation<List> @:14890 check:40350,op:332,dt:31,nt:8,next:14893,nextCheck:40353,str:53347,h:2,d0:14891,d1:40351;
                                                 ("ai_actors", Expression<MethodOrOperator> @:14891 check:40351,op:332,dt:2,nt:9,next:14892,nextCheck:40352,str:12650,h:0,d0:0,d1:0;
-                                                    ("ai_current_squad", VariableAccess<AI> @:14892 check:40352,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33561,d1:65535;)))
+                                                    ("ai_current_squad", VariableAccess<AI> @:14892 check:40352,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33555,d1:65535;)))
                                             ("player0", ScriptInvocation<Entity> @:14893 check:40353,op:0,dt:50,nt:10,next:65535,nextCheck:65535,str:53376,h:2,d0:14894,d1:40354;
                                                 ("player0", Expression<MethodOrOperator> @:14894 check:40354,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:665,h:0,d0:0,d1:0;))))
                                     (3f, Expression<Float> @:14895 check:40355,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:53387,h:2,d0:0,d1:16448;)))
@@ -56,7 +56,7 @@
                                                 ("objects_distance_to_object", Expression<MethodOrOperator> @:14903 check:40363,op:114,dt:2,nt:9,next:14904,nextCheck:40364,str:12797,h:0,d0:0,d1:0;
                                                     (____, BuiltinInvocation<List> @:14904 check:40364,op:332,dt:31,nt:8,next:14907,nextCheck:40367,str:53466,h:2,d0:14905,d1:40365;
                                                         ("ai_actors", Expression<MethodOrOperator> @:14905 check:40365,op:332,dt:2,nt:9,next:14906,nextCheck:40366,str:12650,h:0,d0:0,d1:0;
-                                                            ("ai_current_squad", VariableAccess<AI> @:14906 check:40366,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33561,d1:65535;)))
+                                                            ("ai_current_squad", VariableAccess<AI> @:14906 check:40366,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33555,d1:65535;)))
                                                     ("player1", ScriptInvocation<Entity> @:14907 check:40367,op:1,dt:50,nt:10,next:65535,nextCheck:65535,str:53495,h:2,d0:14908,d1:40368;
                                                         ("player1", Expression<MethodOrOperator> @:14908 check:40368,op:1,dt:2,nt:9,next:65535,nextCheck:65535,str:673,h:0,d0:0,d1:0;))))
                                             (3f, Expression<Float> @:14909 check:40369,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:53506,h:2,d0:0,d1:16448;)))))
@@ -65,7 +65,7 @@
                                     (____, BuiltinInvocation<Boolean> @:14912 check:40372,op:337,dt:5,nt:8,next:14916,nextCheck:40376,str:53532,h:2,d0:14913,d1:40373;
                                         ("ai_trigger_test", Expression<MethodOrOperator> @:14913 check:40373,op:337,dt:2,nt:9,next:14914,nextCheck:40374,str:21970,h:0,d0:0,d1:0;
                                             ("generic_player_fired", Expression<String> @:14914 check:40374,op:9,dt:9,nt:9,next:14915,nextCheck:40375,str:24942,h:0,d0:24942,d1:0;
-                                                ("ai_current_squad", VariableAccess<AI> @:14915 check:40375,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33561,d1:65535;))))
+                                                ("ai_current_squad", VariableAccess<AI> @:14915 check:40375,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33555,d1:65535;))))
                                     (____, BuiltinInvocation<Boolean> @:14916 check:40376,op:113,dt:5,nt:8,next:65535,nextCheck:65535,str:53593,h:2,d0:14917,d1:40377;
                                         ("objects_can_see_flag", Expression<MethodOrOperator> @:14917 check:40377,op:113,dt:2,nt:9,next:14918,nextCheck:40378,str:15794,h:0,d0:0,d1:0;
                                             (____, BuiltinInvocation<List> @:14918 check:40378,op:28,dt:31,nt:8,next:14920,nextCheck:40380,str:53615,h:2,d0:14919,d1:40379;
@@ -76,7 +76,7 @@
                                 ("<", Expression<MethodOrOperator> @:14923 check:40383,op:16,dt:2,nt:9,next:14924,nextCheck:40384,str:910,h:0,d0:0,d1:0;
                                     (-5.1146956E-21f, BuiltinInvocation<Float> @:14924 check:40384,op:329,dt:6,nt:8,next:14927,nextCheck:40387,str:53664,h:2,d0:14925,d1:40385;
                                         ("ai_strength", Expression<MethodOrOperator> @:14925 check:40385,op:329,dt:2,nt:9,next:14926,nextCheck:40386,str:17138,h:0,d0:0,d1:0;
-                                            ("ai_current_squad", VariableAccess<AI> @:14926 check:40386,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33561,d1:65535;)))
+                                            ("ai_current_squad", VariableAccess<AI> @:14926 check:40386,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33555,d1:65535;)))
                                     (0.98f, Expression<Float> @:14927 check:40387,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:53695,h:2,d0:57672,d1:16250;)))))
                     (5, Expression<Short> @:14928 check:40388,op:7,dt:7,nt:9,next:14929,nextCheck:40389,str:53710,h:2,d0:5,d1:65535;
                         (120, Expression<Int> @:14929 check:40389,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:53715,h:2,d0:120,d1:0;))))
@@ -94,7 +94,7 @@
                                                 ("objects_distance_to_object", Expression<MethodOrOperator> @:14941 check:40401,op:114,dt:2,nt:9,next:14942,nextCheck:40402,str:12797,h:0,d0:0,d1:0;
                                                     (____, BuiltinInvocation<List> @:14942 check:40402,op:332,dt:31,nt:8,next:14945,nextCheck:40405,str:53823,h:2,d0:14943,d1:40403;
                                                         ("ai_actors", Expression<MethodOrOperator> @:14943 check:40403,op:332,dt:2,nt:9,next:14944,nextCheck:40404,str:12650,h:0,d0:0,d1:0;
-                                                            ("ai_current_squad", VariableAccess<AI> @:14944 check:40404,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33561,d1:65535;)))
+                                                            ("ai_current_squad", VariableAccess<AI> @:14944 check:40404,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33555,d1:65535;)))
                                                     ("player0", ScriptInvocation<Entity> @:14945 check:40405,op:0,dt:50,nt:10,next:65535,nextCheck:65535,str:53852,h:2,d0:14946,d1:40406;
                                                         ("player0", Expression<MethodOrOperator> @:14946 check:40406,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:665,h:0,d0:0,d1:0;))))
                                             (3f, Expression<Float> @:14947 check:40407,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:53863,h:2,d0:0,d1:16448;)))
@@ -108,7 +108,7 @@
                                                         ("objects_distance_to_object", Expression<MethodOrOperator> @:14955 check:40415,op:114,dt:2,nt:9,next:14956,nextCheck:40416,str:12797,h:0,d0:0,d1:0;
                                                             (____, BuiltinInvocation<List> @:14956 check:40416,op:332,dt:31,nt:8,next:14959,nextCheck:40419,str:53945,h:2,d0:14957,d1:40417;
                                                                 ("ai_actors", Expression<MethodOrOperator> @:14957 check:40417,op:332,dt:2,nt:9,next:14958,nextCheck:40418,str:12650,h:0,d0:0,d1:0;
-                                                                    ("ai_current_squad", VariableAccess<AI> @:14958 check:40418,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33561,d1:65535;)))
+                                                                    ("ai_current_squad", VariableAccess<AI> @:14958 check:40418,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33555,d1:65535;)))
                                                             ("player1", ScriptInvocation<Entity> @:14959 check:40419,op:1,dt:50,nt:10,next:65535,nextCheck:65535,str:53974,h:2,d0:14960,d1:40420;
                                                                 ("player1", Expression<MethodOrOperator> @:14960 check:40420,op:1,dt:2,nt:9,next:65535,nextCheck:65535,str:673,h:0,d0:0,d1:0;))))
                                                     (3f, Expression<Float> @:14961 check:40421,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:53985,h:2,d0:0,d1:16448;)))))
@@ -117,7 +117,7 @@
                                             (____, BuiltinInvocation<Boolean> @:14964 check:40424,op:337,dt:5,nt:8,next:14968,nextCheck:40428,str:54012,h:2,d0:14965,d1:40425;
                                                 ("ai_trigger_test", Expression<MethodOrOperator> @:14965 check:40425,op:337,dt:2,nt:9,next:14966,nextCheck:40426,str:21970,h:0,d0:0,d1:0;
                                                     ("generic_player_fired", Expression<String> @:14966 check:40426,op:9,dt:9,nt:9,next:14967,nextCheck:40427,str:24942,h:0,d0:24942,d1:0;
-                                                        ("ai_current_squad", VariableAccess<AI> @:14967 check:40427,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33561,d1:65535;))))
+                                                        ("ai_current_squad", VariableAccess<AI> @:14967 check:40427,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33555,d1:65535;))))
                                             (____, BuiltinInvocation<Boolean> @:14968 check:40428,op:113,dt:5,nt:8,next:65535,nextCheck:65535,str:54073,h:2,d0:14969,d1:40429;
                                                 ("objects_can_see_flag", Expression<MethodOrOperator> @:14969 check:40429,op:113,dt:2,nt:9,next:14970,nextCheck:40430,str:15794,h:0,d0:0,d1:0;
                                                     (____, BuiltinInvocation<List> @:14970 check:40430,op:28,dt:31,nt:8,next:14972,nextCheck:40432,str:54095,h:2,d0:14971,d1:40431;
@@ -128,7 +128,7 @@
                                         ("<", Expression<MethodOrOperator> @:14975 check:40435,op:16,dt:2,nt:9,next:14976,nextCheck:40436,str:910,h:0,d0:0,d1:0;
                                             (-6.491145E-21f, BuiltinInvocation<Float> @:14976 check:40436,op:329,dt:6,nt:8,next:14979,nextCheck:40439,str:54145,h:2,d0:14977,d1:40437;
                                                 ("ai_strength", Expression<MethodOrOperator> @:14977 check:40437,op:329,dt:2,nt:9,next:14978,nextCheck:40438,str:17138,h:0,d0:0,d1:0;
-                                                    ("ai_current_squad", VariableAccess<AI> @:14978 check:40438,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33561,d1:65535;)))
+                                                    ("ai_current_squad", VariableAccess<AI> @:14978 check:40438,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33555,d1:65535;)))
                                             (0.98f, Expression<Float> @:14979 check:40439,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:54176,h:2,d0:57672,d1:16250;)))))))
                     (____, BuiltinInvocation<Void> @:14980 check:40440,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:54197,h:2,d0:14981,d1:40441;
                         ("begin", Expression<MethodOrOperator> @:14981 check:40441,op:0,dt:2,nt:9,next:14982,nextCheck:40442,str:64,h:0,d0:0,d1:0;
@@ -136,8 +136,8 @@
                                 ("custom_animation", Expression<MethodOrOperator> @:14983 check:40443,op:201,dt:2,nt:9,next:14984,nextCheck:40444,str:23926,h:0,d0:0,d1:0;
                                     (____, BuiltinInvocation<Unit> @:14984 check:40444,op:285,dt:51,nt:8,next:14987,nextCheck:40447,str:54226,h:2,d0:14985,d1:40445;
                                         ("ai_get_unit", Expression<MethodOrOperator> @:14985 check:40445,op:285,dt:2,nt:9,next:14986,nextCheck:40446,str:12785,h:0,d0:0,d1:0;
-                                            ("ai_current_actor", VariableAccess<AI> @:14986 check:40446,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4350,h:0,d0:33562,d1:65535;)))
-                                    ("objects\characters\hunter\hunter", Expression<Animation> @:14987 check:40447,op:36,dt:36,nt:9,next:14988,nextCheck:40448,str:24832,h:0,d0:7798,d1:32960;
+                                            ("ai_current_actor", VariableAccess<AI> @:14986 check:40446,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4350,h:0,d0:33556,d1:65535;)))
+                                    ("objects\characters\hunter\hunter", Expression<Animation> @:14987 check:40447,op:36,dt:36,nt:9,next:14988,nextCheck:40448,str:24832,h:0,d0:7804,d1:32966;
                                         ("combat:unarmed:taunt", Expression<StringId> @:14988 check:40448,op:11,dt:11,nt:9,next:14989,nextCheck:40449,str:24985,h:0,d0:4363,d1:5120;
                                             (True, Expression<Boolean> @:14989 check:40449,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:54315,h:2,d0:65281,d1:65535;)))))
                             (____, BuiltinInvocation<Void> @:14990 check:40450,op:19,dt:4,nt:8,next:65535,nextCheck:65535,str:54325,h:2,d0:14991,d1:40451;
@@ -146,7 +146,7 @@
                                         ("unit_get_custom_animation_time", Expression<MethodOrOperator> @:14993 check:40453,op:199,dt:2,nt:9,next:14994,nextCheck:40454,str:23994,h:0,d0:0,d1:0;
                                             (____, BuiltinInvocation<Unit> @:14994 check:40454,op:285,dt:51,nt:8,next:65535,nextCheck:65535,str:54364,h:2,d0:14995,d1:40455;
                                                 ("ai_get_unit", Expression<MethodOrOperator> @:14995 check:40455,op:285,dt:2,nt:9,next:14996,nextCheck:40456,str:12785,h:0,d0:0,d1:0;
-                                                    ("ai_current_actor", VariableAccess<AI> @:14996 check:40456,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4350,h:0,d0:33562,d1:65535;)))))))))))
+                                                    ("ai_current_actor", VariableAccess<AI> @:14996 check:40456,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4350,h:0,d0:33556,d1:65535;)))))))))))
             (____, BuiltinInvocation<Void> @:14997 check:40457,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:54431,h:2,d0:14998,d1:40458;
                 ("sleep_until", Expression<MethodOrOperator> @:14998 check:40458,op:21,dt:2,nt:9,next:14999,nextCheck:40459,str:294,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Boolean> @:14999 check:40459,op:6,dt:5,nt:8,next:15045,nextCheck:40505,str:54448,h:2,d0:15000,d1:40460;
@@ -159,7 +159,7 @@
                                         ("objects_distance_to_object", Expression<MethodOrOperator> @:15006 check:40466,op:114,dt:2,nt:9,next:15007,nextCheck:40467,str:12797,h:0,d0:0,d1:0;
                                             (____, BuiltinInvocation<List> @:15007 check:40467,op:332,dt:31,nt:8,next:15010,nextCheck:40470,str:54512,h:2,d0:15008,d1:40468;
                                                 ("ai_actors", Expression<MethodOrOperator> @:15008 check:40468,op:332,dt:2,nt:9,next:15009,nextCheck:40469,str:12650,h:0,d0:0,d1:0;
-                                                    ("ai_current_squad", VariableAccess<AI> @:15009 check:40469,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33561,d1:65535;)))
+                                                    ("ai_current_squad", VariableAccess<AI> @:15009 check:40469,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33555,d1:65535;)))
                                             ("player0", ScriptInvocation<Entity> @:15010 check:40470,op:0,dt:50,nt:10,next:65535,nextCheck:65535,str:54541,h:2,d0:15011,d1:40471;
                                                 ("player0", Expression<MethodOrOperator> @:15011 check:40471,op:0,dt:2,nt:9,next:65535,nextCheck:65535,str:665,h:0,d0:0,d1:0;))))
                                     (4f, Expression<Float> @:15012 check:40472,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:54552,h:2,d0:0,d1:16512;)))
@@ -173,7 +173,7 @@
                                                 ("objects_distance_to_object", Expression<MethodOrOperator> @:15020 check:40480,op:114,dt:2,nt:9,next:15021,nextCheck:40481,str:12797,h:0,d0:0,d1:0;
                                                     (____, BuiltinInvocation<List> @:15021 check:40481,op:332,dt:31,nt:8,next:15024,nextCheck:40484,str:54631,h:2,d0:15022,d1:40482;
                                                         ("ai_actors", Expression<MethodOrOperator> @:15022 check:40482,op:332,dt:2,nt:9,next:15023,nextCheck:40483,str:12650,h:0,d0:0,d1:0;
-                                                            ("ai_current_squad", VariableAccess<AI> @:15023 check:40483,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33561,d1:65535;)))
+                                                            ("ai_current_squad", VariableAccess<AI> @:15023 check:40483,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33555,d1:65535;)))
                                                     ("player1", ScriptInvocation<Entity> @:15024 check:40484,op:1,dt:50,nt:10,next:65535,nextCheck:65535,str:54660,h:2,d0:15025,d1:40485;
                                                         ("player1", Expression<MethodOrOperator> @:15025 check:40485,op:1,dt:2,nt:9,next:65535,nextCheck:65535,str:673,h:0,d0:0,d1:0;))))
                                             (4f, Expression<Float> @:15026 check:40486,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:54671,h:2,d0:0,d1:16512;)))))
@@ -182,7 +182,7 @@
                                     (____, BuiltinInvocation<Boolean> @:15029 check:40489,op:337,dt:5,nt:8,next:15033,nextCheck:40493,str:54697,h:2,d0:15030,d1:40490;
                                         ("ai_trigger_test", Expression<MethodOrOperator> @:15030 check:40490,op:337,dt:2,nt:9,next:15031,nextCheck:40491,str:21970,h:0,d0:0,d1:0;
                                             ("generic_player_fired", Expression<String> @:15031 check:40491,op:9,dt:9,nt:9,next:15032,nextCheck:40492,str:24942,h:0,d0:24942,d1:0;
-                                                ("ai_current_squad", VariableAccess<AI> @:15032 check:40492,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33561,d1:65535;))))
+                                                ("ai_current_squad", VariableAccess<AI> @:15032 check:40492,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33555,d1:65535;))))
                                     (____, BuiltinInvocation<Boolean> @:15033 check:40493,op:113,dt:5,nt:8,next:65535,nextCheck:65535,str:54758,h:2,d0:15034,d1:40494;
                                         ("objects_can_see_flag", Expression<MethodOrOperator> @:15034 check:40494,op:113,dt:2,nt:9,next:15035,nextCheck:40495,str:15794,h:0,d0:0,d1:0;
                                             (____, BuiltinInvocation<List> @:15035 check:40495,op:28,dt:31,nt:8,next:15037,nextCheck:40497,str:54780,h:2,d0:15036,d1:40496;
@@ -193,7 +193,7 @@
                                 ("<", Expression<MethodOrOperator> @:15040 check:40500,op:16,dt:2,nt:9,next:15041,nextCheck:40501,str:910,h:0,d0:0,d1:0;
                                     (-9.647151E-21f, BuiltinInvocation<Float> @:15041 check:40501,op:329,dt:6,nt:8,next:15044,nextCheck:40504,str:54829,h:2,d0:15042,d1:40502;
                                         ("ai_strength", Expression<MethodOrOperator> @:15042 check:40502,op:329,dt:2,nt:9,next:15043,nextCheck:40503,str:17138,h:0,d0:0,d1:0;
-                                            ("ai_current_squad", VariableAccess<AI> @:15043 check:40503,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33561,d1:65535;)))
+                                            ("ai_current_squad", VariableAccess<AI> @:15043 check:40503,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33555,d1:65535;)))
                                     (0.98f, Expression<Float> @:15044 check:40504,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:54860,h:2,d0:57672,d1:16250;)))))
                     (5, Expression<Short> @:15045 check:40505,op:7,dt:7,nt:9,next:15046,nextCheck:40506,str:54875,h:2,d0:5,d1:65535;
                         (120, Expression<Int> @:15046 check:40506,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:54880,h:2,d0:120,d1:0;)))))))

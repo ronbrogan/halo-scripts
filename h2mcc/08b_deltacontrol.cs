@@ -4573,47 +4573,47 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(371, Lifecycle.Static)]
         public async Task<int> e11_pro_wraiths1_living_count()
         {
-            float ifResult_19235765 = default(float);
+            float ifResult_27581418 = default(float);
             if (Engine.unit_get_health(Engine.ai_vehicle_get_from_starting_location(e11_pro_wraith1_0.wraith)) > 0F)
             {
-                ifResult_19235765 = 1F;
+                ifResult_27581418 = 1F;
             }
             else
             {
-                ifResult_19235765 = 0F;
+                ifResult_27581418 = 0F;
             }
 
-            float ifResult_35576828 = default(float);
+            float ifResult_34077823 = default(float);
             if (Engine.unit_get_health(Engine.ai_vehicle_get_from_starting_location(e11_pro_wraith1_1.wraith)) > 0F)
             {
-                ifResult_35576828 = 1F;
+                ifResult_34077823 = 1F;
             }
             else
             {
-                ifResult_35576828 = 0F;
+                ifResult_34077823 = 0F;
             }
 
-            float ifResult_10133236 = default(float);
+            float ifResult_34955895 = default(float);
             if (Engine.unit_get_health(Engine.ai_vehicle_get_from_starting_location(e11_pro_wraith1_2.wraith)) > 0F)
             {
-                ifResult_10133236 = 1F;
+                ifResult_34955895 = 1F;
             }
             else
             {
-                ifResult_10133236 = 0F;
+                ifResult_34955895 = 0F;
             }
 
-            float ifResult_53120045 = default(float);
+            float ifResult_37247180 = default(float);
             if (Engine.unit_get_health(Engine.ai_vehicle_get_from_starting_location(e11_pro_wraith1_3.wraith)) > 0F)
             {
-                ifResult_53120045 = 1F;
+                ifResult_37247180 = 1F;
             }
             else
             {
-                ifResult_53120045 = 0F;
+                ifResult_37247180 = 0F;
             }
 
-            return (short)(ifResult_19235765 + ifResult_35576828 + ifResult_10133236 + ifResult_53120045);
+            return (short)(ifResult_27581418 + ifResult_34077823 + ifResult_34955895 + ifResult_37247180);
         }
 
         [ScriptMethod(372, Lifecycle.Static)]
@@ -7523,16 +7523,16 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\control_walkway\\control_walkway", 3906340704U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\energy_blade\\energy_blade", 3854500937U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\energy_blade\\energy_blade", 3854500937U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\index\\index_full\\index_full", 3908044666U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\holo_panels\\control_room_index_board\\control_room_index_board", 3908372351U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\control_boss_platform\\control_boss_platform", 3908962184U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\index\\index_full\\index_full", 3908437888U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\holo_panels\\control_room_index_board\\control_room_index_board", 3908765573U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\control_boss_platform\\control_boss_platform", 3909355406U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3881240033U), 0);
             await Engine.sleep(355);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 5, true);
             await Engine.sleep(2);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 2, true);
             await Engine.sleep(4);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913025478U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913418700U), 0);
             await Engine.sleep(83);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 1, false);
         }
@@ -7553,7 +7553,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 1, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 2, true);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\plasma_rifle\\plasma_rifle", 3788701789U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913025478U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913418700U), 0);
             await Engine.sleep(9);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 5, true);
             await Engine.sleep(72);
@@ -7561,7 +7561,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(200);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 2, true);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\plasma_rifle\\plasma_rifle", 3788701789U), 3);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913025478U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913418700U), 0);
             await Engine.sleep(21);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 5, true);
             await Engine.sleep(72);
@@ -7581,14 +7581,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\brute\\brute", 3902539558U), 43);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3904833353U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3904833353U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\holo_panels\\control_room_index_board\\control_room_index_board", 3908372351U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\holo_panels\\control_room_index_board\\control_room_index_board", 3908765573U), 0);
             await Engine.sleep(174);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 1, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 2, true);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\dervish\\dervish", 3888383566U), 8);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\dervish\\dervish", 3888383566U), 10);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\plasma_rifle\\plasma_rifle", 3788701789U), 3);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913025478U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913418700U), 0);
         }
 
         [ScriptMethod(537, Lifecycle.Dormant)]
@@ -7612,7 +7612,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\brute\\brute", 3902539558U), 43);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3904833353U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3904833353U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\holo_panels\\control_room_index_board\\control_room_index_board", 3908372351U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\holo_panels\\control_room_index_board\\control_room_index_board", 3908765573U), 0);
             await Engine.sleep(157);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 1, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 2, true);
@@ -7628,7 +7628,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\dervish\\dervish", 3888383566U), 8);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\dervish\\dervish", 3888383566U), 10);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\plasma_rifle\\plasma_rifle", 3788701789U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913025478U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913418700U), 0);
             await Engine.sleep(28);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\plasma_rifle\\plasma_rifle", 3788701789U), 1);
             await Engine.sleep(6);
@@ -7645,7 +7645,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 5, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 8, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 5, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\holo_panels\\control_room_index_board\\control_room_index_board", 3908372351U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\holo_panels\\control_room_index_board\\control_room_index_board", 3908765573U), 0);
             await Engine.sleep(54);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 2, true);
             await Engine.sleep(90);
@@ -7659,7 +7659,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\brute\\brute", 3902539558U), 43);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3904833353U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3904833353U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\holo_panels\\control_room_index_board\\control_room_index_board", 3908372351U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\holo_panels\\control_room_index_board\\control_room_index_board", 3908765573U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\monitor\\monitor", 3901687577U), 2);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\brute\\brute", 3902539558U), 27);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\brute\\brute", 3902539558U), 28);
@@ -7680,7 +7680,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\dervish\\dervish", 3888383566U), 8);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\dervish\\dervish", 3888383566U), 10);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\plasma_rifle\\plasma_rifle", 3788701789U), 3);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913025478U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913418700U), 0);
         }
 
         [ScriptMethod(538, Lifecycle.Dormant)]
@@ -7703,7 +7703,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\brute\\brute", 3902539558U), 43);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3904833353U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3904833353U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\holo_panels\\control_room_index_board\\control_room_index_board", 3908372351U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\holo_panels\\control_room_index_board\\control_room_index_board", 3908765573U), 0);
             await Engine.sleep(186);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 1, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 8, false);
@@ -7720,10 +7720,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\dervish\\dervish", 3888383566U), 8);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\dervish\\dervish", 3888383566U), 10);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\plasma_rifle\\plasma_rifle", 3788701789U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913025478U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913418700U), 0);
             await Engine.sleep(185);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 5, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\holo_panels\\control_room_index_board\\control_room_index_board", 3908372351U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\holo_panels\\control_room_index_board\\control_room_index_board", 3908765573U), 0);
             await Engine.sleep(250);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 1, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 2, true);
@@ -7739,7 +7739,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\dervish\\dervish", 3888383566U), 8);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\dervish\\dervish", 3888383566U), 10);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\plasma_rifle\\plasma_rifle", 3788701789U), 3);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913025478U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913418700U), 0);
         }
 
         [ScriptMethod(539, Lifecycle.Dormant)]
@@ -7761,10 +7761,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\brute\\brute", 3902539558U), 43);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3904833353U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3904833353U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\holo_panels\\control_room_index_board\\control_room_index_board", 3908372351U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\holo_panels\\control_room_index_board\\control_room_index_board", 3908765573U), 0);
             await Engine.sleep(1);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 8, false);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\gravity_hammer\\gravity_hammer", 3913156552U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\gravity_hammer\\gravity_hammer", 3913549774U), 0);
             await Engine.sleep(51);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 1, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 2, true);
@@ -7780,18 +7780,18 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\dervish\\dervish", 3888383566U), 8);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\dervish\\dervish", 3888383566U), 10);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\plasma_rifle\\plasma_rifle", 3788701789U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913025478U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913418700U), 0);
             await Engine.sleep(11);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 8, false);
             await Engine.sleep(8);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 5, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\gravity_hammer\\gravity_hammer", 3913156552U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\holo_panels\\control_room_index_board\\control_room_index_board", 3908372351U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\gravity_hammer\\gravity_hammer", 3913549774U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\holo_panels\\control_room_index_board\\control_room_index_board", 3908765573U), 0);
             await Engine.sleep(18);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 1, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 5, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 2, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913025478U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913418700U), 0);
             await Engine.sleep(10);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp3"), 8, false);
             await Engine.sleep(107);
@@ -7824,8 +7824,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 3, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 9, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 14, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\control_rotors\\control_rotors", 3913549774U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\control_room\\grav_lift\\grav_lift", 3914008533U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\control_rotors\\control_rotors", 3913942996U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\control_room\\grav_lift\\grav_lift", 3914401755U), 0);
             await Engine.sleep(5);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3904833353U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3904833353U), 1);
@@ -7846,8 +7846,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 10, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 12, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 7, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913025478U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\control_room\\grav_lift\\grav_lift", 3914008533U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913418700U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\control_room\\grav_lift\\grav_lift", 3914401755U), 0);
             await Engine.sleep(4);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3904833353U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3904833353U), 1);
@@ -7867,9 +7867,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 5, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 9, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 7, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\control_room\\grav_lift\\grav_lift", 3914008533U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\control_room\\grav_lift\\grav_lift", 3914401755U), 0);
             await Engine.sleep(53);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\index\\index_full\\index_full", 3908044666U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\index\\index_full\\index_full", 3908437888U), 0);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 12, true);
             await Engine.sleep(4);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 9, false);
@@ -7887,7 +7887,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(2);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 14, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 2, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913025478U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913418700U), 0);
             await Engine.sleep(58);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 11, false);
             await Engine.sleep(8);
@@ -7938,7 +7938,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\door_large\\door_large", 3883140606U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_redcedar\\redcedar_l\\redcedar_l", 3881174496U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\nature\\trees\\tree_redcedar\\redcedar_m\\redcedar_m", 3880650200U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\effects\\control_room_beam\\control_room_beam", 3914729440U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\effects\\control_room_beam\\control_room_beam", 3915122662U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\skies\\solo\\deltacontrolroom\\deltacontrolroom_08b\\deltacontrolroom_08b", 3783000070U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\skies\\solo\\deltacontrolroom\\deltacontrolroom_08b\\deltacontrolroom_08b", 3783000070U), 1);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\skies\\solo\\deltacontrolroom\\deltacontrolroom_08b\\deltacontrolroom_08b", 3783000070U), 2);
@@ -7975,13 +7975,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep(2);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp0"), 75, false);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\high_charity_exterior\\high_charity_exterior", 3914794977U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\substance_space\\substance_space", 3915122662U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\delta_halo_quarter\\delta_halo_quarter", 3915319273U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\halo\\halo", 3915515884U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\high_charity_exterior\\high_charity_exterior", 3915188199U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\substance_space\\substance_space", 3915515884U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\delta_halo_quarter\\delta_halo_quarter", 3915712495U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\halo\\halo", 3915909106U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\skies\\generic\\space\\space", 3785097254U), 0);
             await Engine.sleep(131);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\effects\\halo_disarm\\halo_disarm", 3916171254U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\effects\\halo_disarm\\halo_disarm", 3916564476U), 0);
         }
 
         [ScriptMethod(545, Lifecycle.Dormant)]
@@ -8002,10 +8002,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 7, true);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3904833353U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\miranda\\miranda", 3904833353U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\index\\index_full\\index_full", 3908044666U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\forerunner\\beacon_halo_holo\\beacon_halo_holo", 3916236791U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\index\\index_full\\index_full", 3908437888U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\forerunner\\beacon_halo_holo\\beacon_halo_holo", 3916630013U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3881240033U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913025478U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913418700U), 0);
             await Engine.sleep(19);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 14, true);
             await Engine.sleep(113);
@@ -8032,7 +8032,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 2, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 12, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 4, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913025478U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913418700U), 0);
             await Engine.sleep(303);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 11, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 9, false);
@@ -8043,14 +8043,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 4, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 6, true);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\monitor\\monitor", 3901687577U), 2);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\forerunner\\beacon_halo_holo\\beacon_halo_holo", 3916236791U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913025478U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\forerunner\\beacon_halo_holo\\beacon_halo_holo", 3916630013U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913418700U), 0);
             await Engine.sleep(8);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 8, true);
             await Engine.sleep(126);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp4"), 14, true);
             await Engine.sleep(39);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913025478U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltacontrolroom\\lightfixture_indirect_blurple\\lightfixture_indirect_blurple", 3913418700U), 0);
             await Engine.sleep(46);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\monitor\\monitor", 3901687577U), 2);
             await Engine.sleep(140);
@@ -8082,39 +8082,39 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep(2);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\08b_deltacontrol\\deltacontrolroom_bsp0"), 75, false);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\moon\\moon", 3917416457U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\earth_space\\earth_space", 3917613068U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\forerunner\\forerunner_ship\\forerunner_ship", 3917809679U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\special\\null_up\\null_up", 3918923808U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\moon\\moon", 3917809679U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\matte_paintings\\earth_space\\earth_space", 3918006290U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\forerunner\\forerunner_ship\\forerunner_ship", 3918202901U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\special\\null_up\\null_up", 3919317030U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\skies\\generic\\space\\space", 3785097254U), 0);
             await Engine.sleep(123);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\special\\null_up\\null_up", 3918923808U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\special\\null_up\\null_up", 3919317030U), 0);
             await Engine.sleep(36);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\forerunner\\forerunner_ship_alcove\\forerunner_ship_alcove", 3919054882U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\forerunner\\forerunner_ship_alcove\\forerunner_ship_alcove", 3919448104U), 0);
         }
 
         [ScriptMethod(548, Lifecycle.Dormant)]
         public async Task x09_08_predict()
         {
             await Engine.sleep(2);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\special\\bloom_quad\\bloom_quad", 3920365622U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3920562233U), 16);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3920562233U), 17);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3920562233U), 18);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3920562233U), 19);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\special\\bloom_quad\\bloom_quad", 3920758844U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3920955455U), 16);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3920955455U), 17);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3920955455U), 18);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3920955455U), 19);
             await Engine.sleep(5);
             await Engine.sleep(119);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\lord_hood\\lord_hood", 3921217603U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\lord_hood\\lord_hood", 3921217603U), 1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\cairo_bridge\\cairo_bridge", 3922004047U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\special\\null_up\\null_up", 3918923808U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\human\\military\\emergency\\emergency", 3925870730U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\lord_hood\\lord_hood", 3921610825U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\lord_hood\\lord_hood", 3921610825U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\human\\cairo_bridge\\cairo_bridge", 3922397269U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\special\\null_up\\null_up", 3919317030U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\human\\military\\emergency\\emergency", 3926198415U), 0);
             await Engine.sleep(153);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3920562233U), 16);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3920562233U), 17);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3920562233U), 18);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3920562233U), 19);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\special\\bloom_quad\\bloom_quad", 3920365622U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3920955455U), 16);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3920955455U), 17);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3920955455U), 18);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\masterchief\\masterchief", 3920955455U), 19);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\special\\bloom_quad\\bloom_quad", 3920758844U), 0);
             await Engine.sleep(678);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 27, false);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3881240033U), 0);
@@ -8134,7 +8134,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 23, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 24, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 25, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\flood\\flood_spore\\flood_spore", 3926001804U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\flood\\flood_spore\\flood_spore", 3926329489U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\skies\\solo\\highcharity\\highcharity", 3786145846U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\skies\\solo\\highcharity\\highcharity", 3786145846U), 1);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\skies\\solo\\highcharity\\highcharity", 3786145846U), 2);
@@ -8177,19 +8177,19 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\energy_blade\\energy_blade", 3854500937U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\energy_blade\\energy_blade", 3854500937U), 1);
             await Engine.sleep(1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltatemple\\temple_dynamic\\bowl_short\\bowl_short", 3926198415U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltatemple\\temple_dynamic\\bowl_short\\bowl_short", 3926526100U), 0);
             await Engine.sleep(1);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\covenant\\military\\cov_recharge_station\\recharge_station_cell\\recharge_station_cell", 3899787004U), 0);
             await Engine.sleep(1);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\gear\\covenant\\military\\crate_space\\crate_space", 3881698792U), 0);
             await Engine.sleep(2);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltatemple\\temple_dynamic\\bowl_tall\\bowl_tall", 3926722711U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\deltatemple\\temple_dynamic\\bowl_tall\\bowl_tall", 3927050396U), 0);
             await Engine.sleep(1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\gear\\covenant\\military\\battery\\battery", 3926788248U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\gear\\covenant\\military\\battery\\battery", 3927115933U), 0);
             await Engine.sleep(1);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 13, true);
             await Engine.sleep(12);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\multi\\lockout\\power_module\\power_module", 3927115933U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\multi\\lockout\\power_module\\power_module", 3927443618U), 0);
             await Engine.sleep(18);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 26, true);
             await Engine.sleep(6);
@@ -8202,43 +8202,43 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(2);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 2, false);
             await Engine.sleep(7);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\gravemind\\tentacle_capture\\tentacle_capture", 3927574692U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\gravemind\\tentacle_capture\\tentacle_capture", 3927574692U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\gravemind\\tentacle_capture\\tentacle_capture", 3927902377U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\gravemind\\tentacle_capture\\tentacle_capture", 3927902377U), 1);
             await Engine.sleep(28);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 0, true);
             await Engine.sleep(15);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\highcharity\\interior_objects\\cov_gravcolumn\\garbage\\cov_gravcolumn_top\\cov_gravcolumn_top", 3928361136U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\highcharity\\interior_objects\\cov_gravcolumn\\garbage\\cov_gravcolumn_top\\cov_gravcolumn_top", 3928688821U), 0);
             await Engine.sleep(8);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\highcharity\\interior_objects\\cov_gravcolumn\\cov_gravcolumn", 3929278654U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\highcharity\\interior_objects\\cov_gravcolumn\\cov_gravcolumn", 3929606339U), 1);
             await Engine.sleep(18);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 32, true);
             await Engine.sleep(14);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\highcharity\\interior_objects\\cov_chubby\\cov_chubby", 3930392783U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\highcharity\\interior_objects\\cov_chubby\\cov_chubby", 3930720468U), 0);
             await Engine.sleep(5);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\flood\\flood_clump\\flood_clump", 3931179227U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\flood\\flood_sack\\flood_sack", 3931441375U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\flood\\flood_clump\\flood_clump", 3931506912U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\flood\\flood_sack\\flood_sack", 3931769060U), 0);
             await Engine.sleep(1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\flood\\flood_pod\\flood_pod", 3931637986U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\flood\\flood_floor_clump_small\\flood_floor_clump_small", 3931703523U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\flood\\flood_pod\\flood_pod", 3931965671U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\flood\\flood_floor_clump_small\\flood_floor_clump_small", 3932031208U), 0);
             await Engine.sleep(1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\highcharity\\high_door_grand\\high_door_grand", 3931769060U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\highcharity\\high_door_grand\\high_door_grand", 3932096745U), 0);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 15, false);
             await Engine.sleep(2);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 15, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 13, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 30, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 45, false);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\covenant\\residential\\holo_panels\\holo_hallway_signs\\holo_hallway_signs", 3932817652U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\covenant\\residential\\holo_panels\\holo_hallway_signs\\holo_hallway_signs", 3933145337U), 0);
             await Engine.sleep(1);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\highcharity\\high_door\\high_door", 3932883189U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\highcharity\\high_door\\high_door", 3933210874U), 0);
             await Engine.sleep(3);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 31, true);
             await Engine.sleep(6);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\flood\\flood_generator\\flood_generator", 3932948726U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\flood\\flood_generator\\flood_generator", 3933276411U), 0);
             await Engine.sleep(9);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 33, true);
             await Engine.sleep(3);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\highcharity\\interior_objects\\cov_gravcolumn\\garbage\\cov_gravcolumn_bottom_garbage_1\\cov_gravcolumn_bottom_garbage_1", 3933014263U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\highcharity\\interior_objects\\cov_gravcolumn\\garbage\\cov_gravcolumn_bottom_garbage_1\\cov_gravcolumn_bottom_garbage_1", 3933341948U), 0);
         }
 
         [ScriptMethod(550, Lifecycle.Dormant)]
@@ -8255,11 +8255,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 1, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 2, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 3, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\highcharity\\interior_objects\\cov_chubby\\cov_chubby", 3930392783U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\highcharity\\high_small_door\\high_small_door", 3933145337U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\cortana\\cortana", 3933473022U), 6);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\cortana\\cortana", 3933473022U), 7);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\cortana\\cortana", 3933473022U), 8);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\highcharity\\interior_objects\\cov_chubby\\cov_chubby", 3930720468U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\highcharity\\high_small_door\\high_small_door", 3933473022U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\cortana\\cortana", 3933800707U), 6);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\cortana\\cortana", 3933800707U), 7);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\cortana\\cortana", 3933800707U), 8);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\cinematics\\texture_camera\\texture_camera", 3901622040U), 0);
             await Engine.sleep(236);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 11, false);
@@ -8273,7 +8273,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 40, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 3, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_0"), 4, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\highcharity\\high_door\\high_door", 3932883189U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\highcharity\\high_door\\high_door", 3933210874U), 0);
         }
     }
 }

@@ -25,17 +25,17 @@
                                                         ("unit_has_weapon", Expression<MethodOrOperator> @:17593 check:43053,op:242,dt:2,nt:9,next:17594,nextCheck:43054,str:31276,h:0,d0:0,d1:0;
                                                             (____, BuiltinInvocation<Unit> @:17594 check:43054,op:285,dt:51,nt:8,next:17597,nextCheck:43057,str:27005,h:3,d0:17595,d1:43055;
                                                                 ("ai_get_unit", Expression<MethodOrOperator> @:17595 check:43055,op:285,dt:2,nt:9,next:17596,nextCheck:43056,str:1274,h:0,d0:0,d1:0;
-                                                                    ("ai_current_actor", VariableAccess<AI> @:17596 check:43056,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:1286,h:0,d0:33562,d1:65535;)))
+                                                                    ("ai_current_actor", VariableAccess<AI> @:17596 check:43056,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:1286,h:0,d0:33556,d1:65535;)))
                                                             ("objects\weapons\melee\energy_blade\energy_blade.weapon", Expression<TagReference> @:17597 check:43057,op:38,dt:38,nt:9,next:65535,nextCheck:65535,str:36517,h:0,d0:1095,d1:58813;)))))
                                             (____, BuiltinInvocation<Boolean> @:17598 check:43058,op:16,dt:5,nt:8,next:65535,nextCheck:65535,str:27101,h:3,d0:17599,d1:43059;
                                                 ("<", Expression<MethodOrOperator> @:17599 check:43059,op:16,dt:2,nt:9,next:17600,nextCheck:43060,str:867,h:0,d0:0,d1:0;
                                                     (____, BuiltinInvocation<Short> @:17600 check:43060,op:353,dt:7,nt:8,next:17603,nextCheck:43063,str:27104,h:3,d0:17601,d1:43061;
                                                         ("ai_combat_status", Expression<MethodOrOperator> @:17601 check:43061,op:353,dt:2,nt:9,next:17602,nextCheck:43062,str:27205,h:0,d0:0,d1:0;
-                                                            ("ai_current_actor", VariableAccess<AI> @:17602 check:43062,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:1286,h:0,d0:33562,d1:65535;)))
-                                                    ("ai_combat_status_certain", VariableAccess<Short> @:17603 check:43063,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:36032,h:0,d0:33575,d1:65535;)))))
+                                                            ("ai_current_actor", VariableAccess<AI> @:17602 check:43062,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:1286,h:0,d0:33556,d1:65535;)))
+                                                    ("ai_combat_status_certain", VariableAccess<Short> @:17603 check:43063,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:36032,h:0,d0:33569,d1:65535;)))))
                                     (____, BuiltinInvocation<Void> @:17604 check:43064,op:368,dt:4,nt:8,next:65535,nextCheck:65535,str:27178,h:3,d0:17605,d1:43065;
                                         ("cs_stack_command_script", Expression<MethodOrOperator> @:17605 check:43065,op:368,dt:2,nt:9,next:17606,nextCheck:43066,str:29170,h:0,d0:0,d1:0;
-                                            ("ai_current_actor", VariableAccess<AI> @:17606 check:43066,op:19,dt:19,nt:13,next:17607,nextCheck:43067,str:1286,h:0,d0:33562,d1:65535;
+                                            ("ai_current_actor", VariableAccess<AI> @:17606 check:43066,op:19,dt:19,nt:13,next:17607,nextCheck:43067,str:1286,h:0,d0:33556,d1:65535;
                                                 ("cs_e6_release_captives", Expression<AIScript> @:17607 check:43067,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:36572,h:0,d0:447,d1:0;))))))
                             (____, BuiltinInvocation<Boolean> @:17608 check:43068,op:6,dt:5,nt:8,next:65535,nextCheck:65535,str:27341,h:3,d0:17609,d1:43069;
                                 ("or", Expression<MethodOrOperator> @:17609 check:43069,op:6,dt:2,nt:9,next:17610,nextCheck:43070,str:864,h:0,d0:0,d1:0;
@@ -45,6 +45,6 @@
                                         ("unit_has_weapon", Expression<MethodOrOperator> @:17613 check:43073,op:242,dt:2,nt:9,next:17614,nextCheck:43074,str:31276,h:0,d0:0,d1:0;
                                             (____, BuiltinInvocation<Unit> @:17614 check:43074,op:285,dt:51,nt:8,next:17617,nextCheck:43077,str:27390,h:3,d0:17615,d1:43075;
                                                 ("ai_get_unit", Expression<MethodOrOperator> @:17615 check:43075,op:285,dt:2,nt:9,next:17616,nextCheck:43076,str:1274,h:0,d0:0,d1:0;
-                                                    ("ai_current_actor", VariableAccess<AI> @:17616 check:43076,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:1286,h:0,d0:33562,d1:65535;)))
+                                                    ("ai_current_actor", VariableAccess<AI> @:17616 check:43076,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:1286,h:0,d0:33556,d1:65535;)))
                                             ("objects\weapons\melee\energy_blade\energy_blade.weapon", Expression<TagReference> @:17617 check:43077,op:38,dt:38,nt:9,next:65535,nextCheck:65535,str:36517,h:0,d0:1095,d1:58813;)))))))
                     (60, Expression<Short> @:17618 check:43078,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:27493,h:3,d0:60,d1:65535;))))))

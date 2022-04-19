@@ -196,8 +196,8 @@
                 ("ai_place", Expression<MethodOrOperator> @:21130 check:46590,op:291,dt:2,nt:9,next:21131,nextCheck:46591,str:11303,h:0,d0:0,d1:0;
                     ("dogfighters_init", Expression<AI> @:21131 check:46591,op:19,dt:19,nt:9,next:21132,nextCheck:46592,str:31634,h:0,d0:96,d1:0;
                         (2, Expression<Short> @:21132 check:46592,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:19616,h:3,d0:2,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:21133 check:46593,op:641,dt:4,nt:8,next:21139,nextCheck:46599,str:19621,h:3,d0:21134,d1:46594;
-                ("activate_team_nav_point_flag", Expression<MethodOrOperator> @:21134 check:46594,op:641,dt:2,nt:9,next:21135,nextCheck:46595,str:31651,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:21133 check:46593,op:639,dt:4,nt:8,next:21139,nextCheck:46599,str:19621,h:3,d0:21134,d1:46594;
+                ("activate_team_nav_point_flag", Expression<MethodOrOperator> @:21134 check:46594,op:639,dt:2,nt:9,next:21135,nextCheck:46595,str:31651,h:0,d0:0,d1:0;
                     ("default_red", Expression<NavigationPoint> @:21135 check:46595,op:27,dt:27,nt:9,next:21136,nextCheck:46596,str:31680,h:0,d0:1,d1:0;
                         ("player", Expression<Team> @:21136 check:46596,op:45,dt:45,nt:9,next:21137,nextCheck:46597,str:24912,h:0,d0:1,d1:65535;
                             ("he_went_here", Expression<LocationFlag> @:21137 check:46597,op:14,dt:14,nt:9,next:21138,nextCheck:46598,str:31692,h:0,d0:71,d1:0;
@@ -208,15 +208,15 @@
             (____, BuiltinInvocation<Void> @:21142 check:46602,op:19,dt:4,nt:8,next:21145,nextCheck:46605,str:19713,h:3,d0:21143,d1:46603;
                 ("sleep", Expression<MethodOrOperator> @:21143 check:46603,op:19,dt:2,nt:9,next:21144,nextCheck:46604,str:289,h:0,d0:0,d1:0;
                     (1, Expression<Short> @:21144 check:46604,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:19720,h:3,d0:1,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:21145 check:46605,op:899,dt:4,nt:8,next:21147,nextCheck:46607,str:19725,h:3,d0:21146,d1:46606;
-                ("cache_block_for_one_frame", Expression<MethodOrOperator> @:21146 check:46606,op:899,dt:2,nt:9,next:65535,nextCheck:65535,str:23575,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:21145 check:46605,op:875,dt:4,nt:8,next:21147,nextCheck:46607,str:19725,h:3,d0:21146,d1:46606;
+                ("cache_block_for_one_frame", Expression<MethodOrOperator> @:21146 check:46606,op:875,dt:2,nt:9,next:65535,nextCheck:65535,str:23575,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:21147 check:46607,op:19,dt:4,nt:8,next:21150,nextCheck:46610,str:19755,h:3,d0:21148,d1:46608;
                 ("sleep", Expression<MethodOrOperator> @:21148 check:46608,op:19,dt:2,nt:9,next:21149,nextCheck:46609,str:289,h:0,d0:0,d1:0;
                     (1, Expression<Short> @:21149 check:46609,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:19762,h:3,d0:1,d1:65535;)))
             ("cinematic_fade_from_white", ScriptInvocation<Void> @:21150 check:46610,op:10,dt:4,nt:10,next:21152,nextCheck:46612,str:19767,h:3,d0:21151,d1:46611;
                 ("cinematic_fade_from_white", Expression<MethodOrOperator> @:21151 check:46611,op:10,dt:2,nt:9,next:65535,nextCheck:65535,str:23601,h:0,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:21152 check:46612,op:788,dt:4,nt:8,next:21155,nextCheck:46615,str:19799,h:3,d0:21153,d1:46613;
-                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:21153 check:46613,op:788,dt:2,nt:9,next:21154,nextCheck:46614,str:11261,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:21152 check:46612,op:766,dt:4,nt:8,next:21155,nextCheck:46615,str:19799,h:3,d0:21153,d1:46613;
+                ("data_mine_set_mission_segment", Expression<MethodOrOperator> @:21153 check:46613,op:766,dt:2,nt:9,next:21154,nextCheck:46614,str:11261,h:0,d0:0,d1:0;
                     ("04b_17_dogfight", Expression<String> @:21154 check:46614,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:31705,h:0,d0:31705,d1:0;)))
             (____, BuiltinInvocation<Void> @:21155 check:46615,op:592,dt:4,nt:8,next:21157,nextCheck:46617,str:19851,h:3,d0:21156,d1:46616;
                 ("game_save_immediate", Expression<MethodOrOperator> @:21156 check:46616,op:592,dt:2,nt:9,next:65535,nextCheck:65535,str:16272,h:0,d0:0,d1:0;))

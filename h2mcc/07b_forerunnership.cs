@@ -1338,7 +1338,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(5);
             Engine.unit_set_emotional_state(Engine.ai_get_unit(this.ai_current_actor), "disappointed", 0.5F, 0);
             Engine.object_dynamic_simulation_disable(Engine.ai_get_object(this.ai_current_actor), true);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 4255718237U), Engine.ai_get_object(this.ai_current_actor), "effect");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 4256111459U), Engine.ai_get_object(this.ai_current_actor), "effect");
             await Engine.sleep(1);
             Engine.object_hide(Engine.ai_get_object(this.ai_current_actor), false);
             Engine.object_set_scale(Engine.ai_get_object(this.ai_current_actor), 0.65F, 20);
@@ -1350,14 +1350,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task music_07b_01_start()
         {
             Engine.print("music 07b_01 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_01", 4255783774U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_01", 4256176996U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(112, Lifecycle.Dormant)]
         public async Task music_07b_01_stop()
         {
             Engine.print("music 07b_01 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_01", 4255783774U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_01", 4256176996U));
         }
 
         [ScriptMethod(113, Lifecycle.Static)]
@@ -1370,63 +1370,63 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task music_07b_02_start()
         {
             Engine.print("music 07b_02 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_02", 4256176996U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_02", 4256570218U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(115, Lifecycle.Dormant)]
         public async Task music_07b_03_start()
         {
             Engine.print("music 07b_03 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_03", 4256439144U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_03", 4256832366U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(116, Lifecycle.Dormant)]
         public async Task music_07b_03_stop()
         {
             Engine.print("music 07b_03 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_03", 4256439144U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_03", 4256832366U));
         }
 
         [ScriptMethod(117, Lifecycle.Dormant)]
         public async Task music_07b_04_start()
         {
             Engine.print("music 07b_04 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_04", 4257094514U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_04", 4257487736U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(118, Lifecycle.Dormant)]
         public async Task music_07b_04_stop()
         {
             Engine.print("music 07b_04 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_04", 4257094514U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_04", 4257487736U));
         }
 
         [ScriptMethod(119, Lifecycle.Dormant)]
         public async Task music_07b_05_start()
         {
             Engine.print("music 07b_05 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_05", 4257487736U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_05", 4257880958U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(120, Lifecycle.Dormant)]
         public async Task music_07b_05_stop()
         {
             Engine.print("music 07b_05 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_05", 4257487736U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_05", 4257880958U));
         }
 
         [ScriptMethod(121, Lifecycle.Dormant)]
         public async Task music_07b_06_start()
         {
             Engine.print("music 07b_06 start");
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_06", 4257880958U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_06", 4258274180U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(122, Lifecycle.Dormant)]
         public async Task music_07b_06_stop()
         {
             Engine.print("music 07b_06 stop");
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_06", 4257880958U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07b_forerunnership\\07b_music\\07b_06", 4258274180U));
         }
 
         [ScriptMethod(123, Lifecycle.Dormant)]
@@ -2203,11 +2203,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("final battle midpoint...");
                 this.g_e12_final_battle_mid = true;
                 await this.e12_safe_to_spawn_flood();
-                Engine.begin_random(async () => Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e12_howler1.Entity, 1F), 
+                Engine.begin_random(async () => Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e12_howler1.Entity, 1F), 
                     async () => Engine.ai_place(e12_fld_inf4.guy1), 
                     async () => Engine.ai_place(e12_fld_inf4.guy2), 
                     async () => Engine.ai_place(e12_fld_inf4.guya), 
-                    async () => Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e12_howler2.Entity, 1F), 
+                    async () => Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e12_howler2.Entity, 1F), 
                     async () => Engine.ai_place(e12_fld_inf4.guy3), 
                     async () => Engine.ai_place(e12_fld_inf4.guy4), 
                     async () => Engine.ai_place(e12_fld_inf4.guyz));
@@ -2246,10 +2246,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("final battle midpoint...");
                 this.g_e12_final_battle_mid = true;
                 await this.e12_safe_to_spawn_flood();
-                Engine.begin_random(async () => Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e12_howler1.Entity, 1F), 
+                Engine.begin_random(async () => Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e12_howler1.Entity, 1F), 
                     async () => Engine.ai_place(e12_fld_inf4.guy1), 
                     async () => Engine.ai_place(e12_fld_inf4.guy2), 
-                    async () => Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e12_howler2.Entity, 1F), 
+                    async () => Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e12_howler2.Entity, 1F), 
                     async () => Engine.ai_place(e12_fld_inf4.guy3), 
                     async () => Engine.ai_place(e12_fld_inf4.guy4));
                 Engine.begin_random(async () => await this.e12_safe_to_spawn_flood(), 
@@ -2501,12 +2501,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 if ((short)Engine.ai_living_count(e10_flood_storm) <= 3)
                 {
-                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e10_howler1.Entity, 1F);
+                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e10_howler1.Entity, 1F);
                     Engine.ai_place(e10_fld_inf1.guy1);
                     Engine.ai_place(e10_fld_inf1.guy2);
                     Engine.ai_place(e10_fld_inf1.guy3);
                     await Engine.sleep((short)Engine.random_range(90, 150));
-                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e10_howler3.Entity, 1F);
+                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e10_howler3.Entity, 1F);
                     Engine.ai_place(e10_fld_inf1.guy7);
                     Engine.ai_place(e10_fld_inf1.guy8);
                     Engine.ai_place(e10_fld_inf1.guy9);
@@ -2522,12 +2522,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 if ((short)Engine.ai_living_count(e10_flood_storm) <= 3)
                 {
-                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e10_howler2.Entity, 1F);
+                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e10_howler2.Entity, 1F);
                     Engine.ai_place(e10_fld_inf1.guy4);
                     Engine.ai_place(e10_fld_inf1.guy5);
                     Engine.ai_place(e10_fld_inf1.guy6);
                     await Engine.sleep((short)Engine.random_range(90, 150));
-                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e10_howler4.Entity, 1F);
+                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e10_howler4.Entity, 1F);
                     Engine.ai_place(e10_fld_inf1.guy10);
                     Engine.ai_place(e10_fld_inf1.guy11);
                     Engine.ai_place(e10_fld_inf1.guy12);
@@ -2538,12 +2538,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 if ((short)Engine.ai_living_count(e10_flood_storm) <= 3)
                 {
-                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e10_howler1.Entity, 1F);
+                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e10_howler1.Entity, 1F);
                     Engine.ai_place(e10_fld_inf1.guy1);
                     Engine.ai_place(e10_fld_inf1.guy2);
                     Engine.ai_place(e10_fld_inf1.guy3);
                     await Engine.sleep((short)Engine.random_range(90, 150));
-                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e10_howler4.Entity, 1F);
+                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e10_howler4.Entity, 1F);
                     Engine.ai_place(e10_fld_inf1.guy10);
                     Engine.ai_place(e10_fld_inf1.guy11);
                     Engine.ai_place(e10_fld_inf1.guy12);
@@ -2554,12 +2554,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 if ((short)Engine.ai_living_count(e10_flood_storm) <= 3)
                 {
-                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e10_howler2.Entity, 1F);
+                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e10_howler2.Entity, 1F);
                     Engine.ai_place(e10_fld_inf1.guy4);
                     Engine.ai_place(e10_fld_inf1.guy5);
                     Engine.ai_place(e10_fld_inf1.guy6);
                     await Engine.sleep((short)Engine.random_range(90, 150));
-                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e10_howler3.Entity, 1F);
+                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e10_howler3.Entity, 1F);
                     Engine.ai_place(e10_fld_inf1.guy7);
                     Engine.ai_place(e10_fld_inf1.guy8);
                     Engine.ai_place(e10_fld_inf1.guy9);
@@ -2726,7 +2726,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                         {
                             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_e9_surprise, Engine.players()));
                             Engine.ai_place(e9_fld_inf1.guy1);
-                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e9_howler1.Entity, 1F);
+                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e9_howler1.Entity, 1F);
                         }
                     }, 
                         async () =>
@@ -2861,11 +2861,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     {
                         if (Engine.random_range(0, 2) == 1 ? true : false)
                         {
-                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e8_howler1.Entity, 1F);
+                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e8_howler1.Entity, 1F);
                         }
                         else
                         {
-                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e8_howler3.Entity, 1F);
+                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e8_howler3.Entity, 1F);
                         }
 
                         Engine.ai_place(e8_fld_inf1.guy10);
@@ -2878,11 +2878,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     {
                         if (Engine.random_range(0, 2) == 1 ? true : false)
                         {
-                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e8_howler1.Entity, 1F);
+                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e8_howler1.Entity, 1F);
                         }
                         else
                         {
-                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e8_howler3.Entity, 1F);
+                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e8_howler3.Entity, 1F);
                         }
 
                         Engine.ai_place(e8_fld_inf1.guy9);
@@ -2912,11 +2912,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     {
                         if (Engine.random_range(0, 2) == 1 ? true : false)
                         {
-                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e8_howler1.Entity, 1F);
+                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e8_howler1.Entity, 1F);
                         }
                         else
                         {
-                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e8_howler3.Entity, 1F);
+                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e8_howler3.Entity, 1F);
                         }
 
                         Engine.ai_place(e8_fld_inf1.guy10);
@@ -2929,11 +2929,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     {
                         if (Engine.random_range(0, 2) == 1 ? true : false)
                         {
-                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e8_howler1.Entity, 1F);
+                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e8_howler1.Entity, 1F);
                         }
                         else
                         {
-                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e8_howler3.Entity, 1F);
+                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e8_howler3.Entity, 1F);
                         }
 
                         Engine.ai_place(e8_fld_inf1.guy9);
@@ -3039,11 +3039,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     {
                         if (Engine.random_range(0, 2) == 1 ? true : false)
                         {
-                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e8_howler1.Entity, 1F);
+                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e8_howler1.Entity, 1F);
                         }
                         else
                         {
-                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e8_howler3.Entity, 1F);
+                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e8_howler3.Entity, 1F);
                         }
 
                         Engine.ai_place(e8_fld_inf1.guy9);
@@ -3057,11 +3057,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     {
                         if (Engine.random_range(0, 2) == 1 ? true : false)
                         {
-                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e8_howler1.Entity, 1F);
+                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e8_howler1.Entity, 1F);
                         }
                         else
                         {
-                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e8_howler3.Entity, 1F);
+                            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e8_howler3.Entity, 1F);
                         }
 
                         Engine.ai_place(e8_fld_inf1.guy10);
@@ -3290,7 +3290,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 if ((short)Engine.ai_living_count(e6_flood_storm) <= 5 && Engine.volume_test_objects(tv_e6_ambusher, Engine.players()))
                 {
-                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e6_howler_spec1.Entity, 1F);
+                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e6_howler_spec1.Entity, 1F);
                     Engine.ai_place(e6_fld_inf4.guy1);
                     if (this.g_e6_move_on)
                     {
@@ -3309,7 +3309,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 if ((short)Engine.ai_living_count(e6_flood_storm) <= 5 && Engine.volume_test_objects(tv_e6_ambusher, Engine.players()))
                 {
-                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e6_howler_spec2.Entity, 1F);
+                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e6_howler_spec2.Entity, 1F);
                     Engine.ai_place(e6_fld_inf4.guy4);
                     if (this.g_e6_move_on)
                     {
@@ -3328,7 +3328,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 if ((short)Engine.ai_living_count(e6_flood_storm) <= 5 && Engine.volume_test_objects(tv_e6_ambusher, Engine.players()))
                 {
-                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e6_howler_spec3.Entity, 1F);
+                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e6_howler_spec3.Entity, 1F);
                     Engine.ai_place(e6_fld_inf4.guy6);
                     if (this.g_e6_move_on)
                     {
@@ -3347,7 +3347,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 if ((short)Engine.ai_living_count(e6_flood_storm) <= 5 && Engine.volume_test_objects(tv_e6_ambusher, Engine.players()))
                 {
-                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e6_howler_spec4.Entity, 1F);
+                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e6_howler_spec4.Entity, 1F);
                     Engine.ai_place(e6_fld_inf4.guy8);
                     if (this.g_e6_move_on)
                     {
@@ -3366,7 +3366,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 if ((short)Engine.ai_living_count(e6_flood_storm) <= 5 && Engine.volume_test_objects(tv_e6_ambusher, Engine.players()))
                 {
-                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e6_howler_spec4.Entity, 1F);
+                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e6_howler_spec4.Entity, 1F);
                     Engine.ai_place(e6_fld_inf2_z.guy1);
                     await Engine.sleep(6);
                     Engine.ai_migrate(e6_fld_inf2_z.Squad, e6_fld_inf4.Squad);
@@ -3391,7 +3391,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 if ((short)Engine.ai_living_count(e6_flood_storm) <= 5 && Engine.volume_test_objects(tv_e6_ambusher, Engine.players()))
                 {
-                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e6_howler_spec4.Entity, 1F);
+                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e6_howler_spec4.Entity, 1F);
                     Engine.ai_place(e6_fld_inf2_z.guy3);
                     await Engine.sleep(6);
                     Engine.ai_migrate(e6_fld_inf2_z.Squad, e6_fld_inf4.Squad);
@@ -3456,7 +3456,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     await Engine.sleep(10);
                     Engine.ai_place(e6_fld_inf2_a.Squad);
                     Engine.ai_place(e6_fld_inf2_b.Squad);
-                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e6_howler1.Entity, 1F);
+                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e6_howler1.Entity, 1F);
                 }
             }, 
                 async () =>
@@ -3466,7 +3466,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     await Engine.sleep(10);
                     Engine.ai_place(e6_fld_inf2_c.Squad);
                     Engine.ai_place(e6_fld_inf2_d.Squad);
-                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4258667402U), e6_howler2.Entity, 1F);
+                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\characters\\flood\\flood_howls", 4259060624U), e6_howler2.Entity, 1F);
                 }
             });
             await Engine.sleep_until(async () => (short)Engine.ai_nonswarm_count(e6_flood_group_2) <= 1, 10, 300);

@@ -9,15 +9,15 @@
                 ("object_cannot_take_damage", Expression<MethodOrOperator> @:12536 check:37996,op:90,dt:2,nt:9,next:12537,nextCheck:37997,str:618,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<List> @:12537 check:37997,op:284,dt:31,nt:8,next:65535,nextCheck:65535,str:62912,h:1,d0:12538,d1:37998;
                         ("ai_get_object", Expression<MethodOrOperator> @:12538 check:37998,op:284,dt:2,nt:9,next:12539,nextCheck:37999,str:2308,h:0,d0:0,d1:0;
-                            ("ai_current_actor", VariableAccess<AI> @:12539 check:37999,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:3463,h:0,d0:33562,d1:65535;)))))
+                            ("ai_current_actor", VariableAccess<AI> @:12539 check:37999,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:3463,h:0,d0:33556,d1:65535;)))))
             (____, BuiltinInvocation<Void> @:12540 check:38000,op:21,dt:4,nt:8,next:12548,nextCheck:38008,str:62948,h:1,d0:12541,d1:38001;
                 ("sleep_until", Expression<MethodOrOperator> @:12541 check:38001,op:21,dt:2,nt:9,next:12542,nextCheck:38002,str:231,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Boolean> @:12542 check:38002,op:17,dt:5,nt:8,next:65535,nextCheck:65535,str:62961,h:1,d0:12543,d1:38003;
                         (">=", Expression<MethodOrOperator> @:12543 check:38003,op:17,dt:2,nt:9,next:12544,nextCheck:38004,str:671,h:0,d0:0,d1:0;
                             (____, BuiltinInvocation<Short> @:12544 check:38004,op:353,dt:7,nt:8,next:12547,nextCheck:38007,str:62965,h:1,d0:12545,d1:38005;
                                 ("ai_combat_status", Expression<MethodOrOperator> @:12545 check:38005,op:353,dt:2,nt:9,next:12546,nextCheck:38006,str:17395,h:0,d0:0,d1:0;
-                                    ("ai_current_actor", VariableAccess<AI> @:12546 check:38006,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:3463,h:0,d0:33562,d1:65535;)))
-                            ("ai_combat_status_certain", VariableAccess<Short> @:12547 check:38007,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:22241,h:0,d0:33575,d1:65535;)))))
+                                    ("ai_current_actor", VariableAccess<AI> @:12546 check:38006,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:3463,h:0,d0:33556,d1:65535;)))
+                            ("ai_combat_status_certain", VariableAccess<Short> @:12547 check:38007,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:22241,h:0,d0:33569,d1:65535;)))))
             (____, BuiltinInvocation<Void> @:12548 check:38008,op:19,dt:4,nt:8,next:12554,nextCheck:38014,str:63030,h:1,d0:12549,d1:38009;
                 ("sleep", Expression<MethodOrOperator> @:12549 check:38009,op:19,dt:2,nt:9,next:12550,nextCheck:38010,str:80,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Short> @:12550 check:38010,op:9,dt:7,nt:8,next:65535,nextCheck:65535,str:63037,h:1,d0:12551,d1:38011;
@@ -28,4 +28,4 @@
                 ("object_can_take_damage", Expression<MethodOrOperator> @:12555 check:38015,op:91,dt:2,nt:9,next:12556,nextCheck:38016,str:644,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<List> @:12556 check:38016,op:284,dt:31,nt:8,next:65535,nextCheck:65535,str:63073,h:1,d0:12557,d1:38017;
                         ("ai_get_object", Expression<MethodOrOperator> @:12557 check:38017,op:284,dt:2,nt:9,next:12558,nextCheck:38018,str:2308,h:0,d0:0,d1:0;
-                            ("ai_current_actor", VariableAccess<AI> @:12558 check:38018,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:3463,h:0,d0:33562,d1:65535;))))))))
+                            ("ai_current_actor", VariableAccess<AI> @:12558 check:38018,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:3463,h:0,d0:33556,d1:65535;))))))))

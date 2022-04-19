@@ -14,8 +14,8 @@
                                     ("elevator_tram", Expression<Device> @:6225 check:64452,op:60,dt:54,nt:9,next:65535,nextCheck:65535,str:7307,h:0,d0:11,d1:65535;)))
                             (1f, Expression<Float> @:6226 check:64453,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:7898,h:1,d0:0,d1:16256;)))
                     (1, Expression<Short> @:6227 check:64454,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:7901,h:1,d0:1,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6228 check:64455,op:755,dt:4,nt:8,next:6231,nextCheck:64458,str:7906,h:1,d0:6229,d1:64456;
-                ("objectives_show_up_to", Expression<MethodOrOperator> @:6229 check:64456,op:755,dt:2,nt:9,next:6230,nextCheck:64457,str:4639,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6228 check:64455,op:737,dt:4,nt:8,next:6231,nextCheck:64458,str:7906,h:1,d0:6229,d1:64456;
+                ("objectives_show_up_to", Expression<MethodOrOperator> @:6229 check:64456,op:737,dt:2,nt:9,next:6230,nextCheck:64457,str:4639,h:0,d0:0,d1:0;
                     (4, Expression<Int> @:6230 check:64457,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:7929,h:1,d0:4,d1:0;)))
             (____, BuiltinInvocation<Void> @:6231 check:64458,op:366,dt:4,nt:8,next:6235,nextCheck:64462,str:7934,h:1,d0:6232,d1:64459;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:6232 check:64459,op:366,dt:2,nt:9,next:6233,nextCheck:64460,str:3103,h:0,d0:0,d1:0;
@@ -25,7 +25,7 @@
                 ("sleep", Expression<MethodOrOperator> @:6236 check:64463,op:19,dt:2,nt:9,next:6237,nextCheck:64464,str:110,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Short> @:6237 check:64464,op:603,dt:7,nt:8,next:65535,nextCheck:65535,str:7993,h:1,d0:6238,d1:64465;
                         ("sound_impulse_language_time", Expression<MethodOrOperator> @:6238 check:64465,op:603,dt:2,nt:9,next:6239,nextCheck:64466,str:2067,h:0,d0:0,d1:0;
-                            ("sound\dialog\levels\01_spacestation\mission\l01_1810_jon", Expression<Sound> @:6239 check:64466,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:14020,h:0,d0:1467,d1:59185;)))))
+                            ("sound\dialog\levels\01_spacestation\mission\l01_1810_jon", Expression<Sound> @:6239 check:64466,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:14020,h:0,d0:1472,d1:59190;)))))
             (____, BuiltinInvocation<Void> @:6240 check:64467,op:21,dt:4,nt:8,next:6256,nextCheck:64483,str:8083,h:1,d0:6241,d1:64468;
                 ("sleep_until", Expression<MethodOrOperator> @:6241 check:64468,op:21,dt:2,nt:9,next:6242,nextCheck:64469,str:261,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Boolean> @:6242 check:64469,op:5,dt:5,nt:8,next:6255,nextCheck:64482,str:8099,h:1,d0:6243,d1:64470;
@@ -58,16 +58,16 @@
                                         ("cs_johnson_tram", Expression<AIScript> @:6269 check:64496,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:14101,h:0,d0:45,d1:0;))))))
                     (1, Expression<Short> @:6270 check:64497,op:7,dt:7,nt:9,next:6271,nextCheck:64498,str:8367,h:1,d0:1,d1:65535;
                         (150, Expression<Int> @:6271 check:64498,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:8369,h:1,d0:150,d1:0;))))
-            (____, BuiltinInvocation<Void> @:6272 check:64499,op:756,dt:4,nt:8,next:6275,nextCheck:64502,str:8378,h:1,d0:6273,d1:64500;
-                ("objectives_finish_up_to", Expression<MethodOrOperator> @:6273 check:64500,op:756,dt:2,nt:9,next:6274,nextCheck:64501,str:4615,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6272 check:64499,op:738,dt:4,nt:8,next:6275,nextCheck:64502,str:8378,h:1,d0:6273,d1:64500;
+                ("objectives_finish_up_to", Expression<MethodOrOperator> @:6273 check:64500,op:738,dt:2,nt:9,next:6274,nextCheck:64501,str:4615,h:0,d0:0,d1:0;
                     (4, Expression<Int> @:6274 check:64501,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:8403,h:1,d0:4,d1:0;)))
             (____, BuiltinInvocation<Void> @:6275 check:64502,op:201,dt:4,nt:8,next:6283,nextCheck:64510,str:8408,h:1,d0:6276,d1:64503;
                 ("custom_animation", Expression<MethodOrOperator> @:6276 check:64503,op:201,dt:2,nt:9,next:6277,nextCheck:64504,str:4541,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Unit> @:6277 check:64504,op:285,dt:51,nt:8,next:6280,nextCheck:64507,str:8426,h:1,d0:6278,d1:64505;
                         ("ai_get_unit", Expression<MethodOrOperator> @:6278 check:64505,op:285,dt:2,nt:9,next:6279,nextCheck:64506,str:2500,h:0,d0:0,d1:0;
                             ("johnson", Expression<AI> @:6279 check:64506,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1310,h:0,d0:1,d1:0;)))
-                    ("objects\characters\marine\tutorial\tutorial", Expression<Animation> @:6280 check:64507,op:36,dt:36,nt:9,next:6281,nextCheck:64508,str:4558,h:0,d0:1401,d1:59119;
-                        ("l01_0010_jon", Expression<StringId> @:6281 check:64508,op:11,dt:11,nt:9,next:6282,nextCheck:64509,str:14201,h:0,d0:5245,d1:3072;
+                    ("objects\characters\marine\tutorial\tutorial", Expression<Animation> @:6280 check:64507,op:36,dt:36,nt:9,next:6281,nextCheck:64508,str:4558,h:0,d0:1406,d1:59124;
+                        ("l01_0010_jon", Expression<StringId> @:6281 check:64508,op:11,dt:11,nt:9,next:6282,nextCheck:64509,str:14201,h:0,d0:5246,d1:3072;
                             (True, Expression<Boolean> @:6282 check:64509,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:8509,h:1,d0:65281,d1:65535;)))))
             (____, BuiltinInvocation<Void> @:6283 check:64510,op:19,dt:4,nt:8,next:6286,nextCheck:64513,str:8517,h:1,d0:6284,d1:64511;
                 ("sleep", Expression<MethodOrOperator> @:6284 check:64511,op:19,dt:2,nt:9,next:6285,nextCheck:64512,str:110,h:0,d0:0,d1:0;
@@ -76,13 +76,13 @@
                 ("sleep", Expression<MethodOrOperator> @:6287 check:64514,op:19,dt:2,nt:9,next:6288,nextCheck:64515,str:110,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Short> @:6288 check:64515,op:603,dt:7,nt:8,next:65535,nextCheck:65535,str:8539,h:1,d0:6289,d1:64516;
                         ("sound_impulse_language_time", Expression<MethodOrOperator> @:6289 check:64516,op:603,dt:2,nt:9,next:6290,nextCheck:64517,str:2067,h:0,d0:0,d1:0;
-                            ("sound\dialog\levels\01_spacestation\mission\l01_1810_jon", Expression<Sound> @:6290 check:64517,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:14020,h:0,d0:1467,d1:59185;)))))
+                            ("sound\dialog\levels\01_spacestation\mission\l01_1810_jon", Expression<Sound> @:6290 check:64517,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:14020,h:0,d0:1472,d1:59190;)))))
             (____, BuiltinInvocation<Void> @:6291 check:64518,op:27,dt:4,nt:8,next:6294,nextCheck:64521,str:8629,h:1,d0:6292,d1:64519;
                 ("print", Expression<MethodOrOperator> @:6292 check:64519,op:27,dt:2,nt:9,next:6293,nextCheck:64520,str:116,h:0,d0:0,d1:0;
                     ("earth. haven't seen it in years.", Expression<String> @:6293 check:64520,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:14214,h:0,d0:14214,d1:0;)))
             (____, BuiltinInvocation<Void> @:6294 check:64521,op:598,dt:4,nt:8,next:6301,nextCheck:64528,str:8674,h:1,d0:6295,d1:64522;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:6295 check:64522,op:598,dt:2,nt:9,next:6296,nextCheck:64523,str:1944,h:0,d0:0,d1:0;
-                    ("sound\dialog\levels\01_spacestation\mission\l01_0010_jon", Expression<Sound> @:6296 check:64523,op:32,dt:32,nt:9,next:6297,nextCheck:64524,str:14247,h:0,d0:1468,d1:59186;
+                    ("sound\dialog\levels\01_spacestation\mission\l01_0010_jon", Expression<Sound> @:6296 check:64523,op:32,dt:32,nt:9,next:6297,nextCheck:64524,str:14247,h:0,d0:1473,d1:59191;
                         (____, BuiltinInvocation<Entity> @:6297 check:64524,op:284,dt:50,nt:8,next:6300,nextCheck:64527,str:8752,h:1,d0:6298,d1:64525;
                             ("ai_get_object", Expression<MethodOrOperator> @:6298 check:64525,op:284,dt:2,nt:9,next:6299,nextCheck:64526,str:1258,h:0,d0:0,d1:0;
                                 ("johnson", Expression<AI> @:6299 check:64526,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1310,h:0,d0:1,d1:0;)))
@@ -93,11 +93,11 @@
                         ("-", Expression<MethodOrOperator> @:6304 check:64531,op:8,dt:2,nt:9,next:6305,nextCheck:64532,str:8534,h:0,d0:0,d1:0;
                             (-3.0966074E+36f, BuiltinInvocation<Float> @:6305 check:64532,op:603,dt:6,nt:8,next:6308,nextCheck:64535,str:8791,h:1,d0:6306,d1:64533;
                                 ("sound_impulse_language_time", Expression<MethodOrOperator> @:6306 check:64533,op:603,dt:2,nt:9,next:6307,nextCheck:64534,str:2067,h:0,d0:0,d1:0;
-                                    ("sound\dialog\levels\01_spacestation\mission\l01_0010_jon", Expression<Sound> @:6307 check:64534,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:14247,h:0,d0:1468,d1:59186;)))
+                                    ("sound\dialog\levels\01_spacestation\mission\l01_0010_jon", Expression<Sound> @:6307 check:64534,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:14247,h:0,d0:1473,d1:59191;)))
                             (30f, Expression<Float> @:6308 check:64535,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:8878,h:1,d0:0,d1:16880;)))))
             (____, BuiltinInvocation<Void> @:6309 check:64536,op:607,dt:4,nt:8,next:6314,nextCheck:64541,str:8887,h:1,d0:6310,d1:64537;
                 ("sound_looping_start", Expression<MethodOrOperator> @:6310 check:64537,op:607,dt:2,nt:9,next:6311,nextCheck:64538,str:14304,h:0,d0:0,d1:0;
-                    ("scenarios\solo\01a_tutorial\01a_music\01a_01", Expression<LoopingSound> @:6311 check:64538,op:35,dt:35,nt:9,next:6312,nextCheck:64539,str:14324,h:0,d0:1469,d1:59187;
+                    ("scenarios\solo\01a_tutorial\01a_music\01a_01", Expression<LoopingSound> @:6311 check:64538,op:35,dt:35,nt:9,next:6312,nextCheck:64539,str:14324,h:0,d0:1474,d1:59192;
                         (4294967295, Expression<Entity> @:6312 check:64539,op:50,dt:50,nt:9,next:6313,nextCheck:64540,str:14369,h:0,d0:65535,d1:65535;
                             (1f, Expression<Float> @:6313 check:64540,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:8960,h:1,d0:0,d1:16256;)))))
             (____, BuiltinInvocation<Void> @:6314 check:64541,op:256,dt:4,nt:8,next:6318,nextCheck:64545,str:8979,h:1,d0:6315,d1:64542;
@@ -125,15 +125,15 @@
                     (____, BuiltinInvocation<Unit> @:6336 check:64563,op:285,dt:51,nt:8,next:6339,nextCheck:64566,str:9140,h:1,d0:6337,d1:64564;
                         ("ai_get_unit", Expression<MethodOrOperator> @:6337 check:64564,op:285,dt:2,nt:9,next:6338,nextCheck:64565,str:2500,h:0,d0:0,d1:0;
                             ("johnson", Expression<AI> @:6338 check:64565,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1310,h:0,d0:1,d1:0;)))
-                    ("objects\characters\marine\tutorial\tutorial", Expression<Animation> @:6339 check:64566,op:36,dt:36,nt:9,next:6340,nextCheck:64567,str:4558,h:0,d0:1401,d1:59119;
-                        ("l01_0020_jon", Expression<StringId> @:6340 check:64567,op:11,dt:11,nt:9,next:6341,nextCheck:64568,str:14374,h:0,d0:5246,d1:3072;
+                    ("objects\characters\marine\tutorial\tutorial", Expression<Animation> @:6339 check:64566,op:36,dt:36,nt:9,next:6340,nextCheck:64567,str:4558,h:0,d0:1406,d1:59124;
+                        ("l01_0020_jon", Expression<StringId> @:6340 check:64567,op:11,dt:11,nt:9,next:6341,nextCheck:64568,str:14374,h:0,d0:5247,d1:3072;
                             (True, Expression<Boolean> @:6341 check:64568,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:9223,h:1,d0:65281,d1:65535;)))))
             (____, BuiltinInvocation<Void> @:6342 check:64569,op:27,dt:4,nt:8,next:6345,nextCheck:64572,str:9231,h:1,d0:6343,d1:64570;
                 ("print", Expression<MethodOrOperator> @:6343 check:64570,op:27,dt:2,nt:9,next:6344,nextCheck:64571,str:116,h:0,d0:0,d1:0;
                     ("when i shipped out for basic, the orbital defense grid was all theory and politics.", Expression<String> @:6344 check:64571,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:14387,h:0,d0:14387,d1:0;)))
             (____, BuiltinInvocation<Void> @:6345 check:64572,op:598,dt:4,nt:8,next:6352,nextCheck:64579,str:9327,h:1,d0:6346,d1:64573;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:6346 check:64573,op:598,dt:2,nt:9,next:6347,nextCheck:64574,str:1944,h:0,d0:0,d1:0;
-                    ("sound\dialog\levels\01_spacestation\mission\l01_0020_jon", Expression<Sound> @:6347 check:64574,op:32,dt:32,nt:9,next:6348,nextCheck:64575,str:14471,h:0,d0:1473,d1:59191;
+                    ("sound\dialog\levels\01_spacestation\mission\l01_0020_jon", Expression<Sound> @:6347 check:64574,op:32,dt:32,nt:9,next:6348,nextCheck:64575,str:14471,h:0,d0:1478,d1:59196;
                         (____, BuiltinInvocation<Entity> @:6348 check:64575,op:284,dt:50,nt:8,next:6351,nextCheck:64578,str:9405,h:1,d0:6349,d1:64576;
                             ("ai_get_object", Expression<MethodOrOperator> @:6349 check:64576,op:284,dt:2,nt:9,next:6350,nextCheck:64577,str:1258,h:0,d0:0,d1:0;
                                 ("johnson", Expression<AI> @:6350 check:64577,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1310,h:0,d0:1,d1:0;)))
@@ -142,7 +142,7 @@
                 ("sleep", Expression<MethodOrOperator> @:6353 check:64580,op:19,dt:2,nt:9,next:6354,nextCheck:64581,str:110,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Short> @:6354 check:64581,op:603,dt:7,nt:8,next:65535,nextCheck:65535,str:9441,h:1,d0:6355,d1:64582;
                         ("sound_impulse_language_time", Expression<MethodOrOperator> @:6355 check:64582,op:603,dt:2,nt:9,next:6356,nextCheck:64583,str:2067,h:0,d0:0,d1:0;
-                            ("sound\dialog\levels\01_spacestation\mission\l01_0020_jon", Expression<Sound> @:6356 check:64583,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:14471,h:0,d0:1473,d1:59191;)))))
+                            ("sound\dialog\levels\01_spacestation\mission\l01_0020_jon", Expression<Sound> @:6356 check:64583,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:14471,h:0,d0:1478,d1:59196;)))))
             (____, BuiltinInvocation<Void> @:6357 check:64584,op:21,dt:4,nt:8,next:6366,nextCheck:64593,str:9533,h:1,d0:6358,d1:64585;
                 ("sleep_until", Expression<MethodOrOperator> @:6358 check:64585,op:21,dt:2,nt:9,next:6359,nextCheck:64586,str:261,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Boolean> @:6359 check:64586,op:17,dt:5,nt:8,next:6365,nextCheck:64592,str:9546,h:1,d0:6360,d1:64587;
@@ -161,7 +161,7 @@
                     ("now look. the cairo is just one of three-hundred geo-sync platforms.", Expression<String> @:6372 check:64599,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:14545,h:0,d0:14545,d1:0;)))
             (____, BuiltinInvocation<Void> @:6373 check:64600,op:598,dt:4,nt:8,next:6380,nextCheck:64607,str:9723,h:1,d0:6374,d1:64601;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:6374 check:64601,op:598,dt:2,nt:9,next:6375,nextCheck:64602,str:1944,h:0,d0:0,d1:0;
-                    ("sound\dialog\levels\01_spacestation\mission\l01_0021_jon", Expression<Sound> @:6375 check:64602,op:32,dt:32,nt:9,next:6376,nextCheck:64603,str:14614,h:0,d0:1474,d1:59192;
+                    ("sound\dialog\levels\01_spacestation\mission\l01_0021_jon", Expression<Sound> @:6375 check:64602,op:32,dt:32,nt:9,next:6376,nextCheck:64603,str:14614,h:0,d0:1479,d1:59197;
                         (____, BuiltinInvocation<Entity> @:6376 check:64603,op:284,dt:50,nt:8,next:6379,nextCheck:64606,str:9801,h:1,d0:6377,d1:64604;
                             ("ai_get_object", Expression<MethodOrOperator> @:6377 check:64604,op:284,dt:2,nt:9,next:6378,nextCheck:64605,str:1258,h:0,d0:0,d1:0;
                                 ("johnson", Expression<AI> @:6378 check:64605,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1310,h:0,d0:1,d1:0;)))
@@ -170,7 +170,7 @@
                 ("sleep", Expression<MethodOrOperator> @:6381 check:64608,op:19,dt:2,nt:9,next:6382,nextCheck:64609,str:110,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Short> @:6382 check:64609,op:603,dt:7,nt:8,next:65535,nextCheck:65535,str:9837,h:1,d0:6383,d1:64610;
                         ("sound_impulse_language_time", Expression<MethodOrOperator> @:6383 check:64610,op:603,dt:2,nt:9,next:6384,nextCheck:64611,str:2067,h:0,d0:0,d1:0;
-                            ("sound\dialog\levels\01_spacestation\mission\l01_0021_jon", Expression<Sound> @:6384 check:64611,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:14614,h:0,d0:1474,d1:59192;)))))
+                            ("sound\dialog\levels\01_spacestation\mission\l01_0021_jon", Expression<Sound> @:6384 check:64611,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:14614,h:0,d0:1479,d1:59197;)))))
             (____, BuiltinInvocation<Void> @:6385 check:64612,op:21,dt:4,nt:8,next:6394,nextCheck:64621,str:9929,h:1,d0:6386,d1:64613;
                 ("sleep_until", Expression<MethodOrOperator> @:6386 check:64613,op:21,dt:2,nt:9,next:6387,nextCheck:64614,str:261,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Boolean> @:6387 check:64614,op:17,dt:5,nt:8,next:6393,nextCheck:64620,str:9942,h:1,d0:6388,d1:64615;
@@ -185,8 +185,8 @@
                     (____, BuiltinInvocation<Unit> @:6396 check:64623,op:285,dt:51,nt:8,next:6399,nextCheck:64626,str:10005,h:1,d0:6397,d1:64624;
                         ("ai_get_unit", Expression<MethodOrOperator> @:6397 check:64624,op:285,dt:2,nt:9,next:6398,nextCheck:64625,str:2500,h:0,d0:0,d1:0;
                             ("johnson", Expression<AI> @:6398 check:64625,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1310,h:0,d0:1,d1:0;)))
-                    ("objects\characters\marine\tutorial\tutorial", Expression<Animation> @:6399 check:64626,op:36,dt:36,nt:9,next:6400,nextCheck:64627,str:4558,h:0,d0:1401,d1:59119;
-                        ("l01_0030_jon", Expression<StringId> @:6400 check:64627,op:11,dt:11,nt:9,next:6401,nextCheck:64628,str:14671,h:0,d0:5247,d1:3072;
+                    ("objects\characters\marine\tutorial\tutorial", Expression<Animation> @:6399 check:64626,op:36,dt:36,nt:9,next:6400,nextCheck:64627,str:4558,h:0,d0:1406,d1:59124;
+                        ("l01_0030_jon", Expression<StringId> @:6400 check:64627,op:11,dt:11,nt:9,next:6401,nextCheck:64628,str:14671,h:0,d0:5248,d1:3072;
                             (True, Expression<Boolean> @:6401 check:64628,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:10088,h:1,d0:65281,d1:65535;)))))
             (____, BuiltinInvocation<Void> @:6402 check:64629,op:19,dt:4,nt:8,next:6405,nextCheck:64632,str:10096,h:1,d0:6403,d1:64630;
                 ("sleep", Expression<MethodOrOperator> @:6403 check:64630,op:19,dt:2,nt:9,next:6404,nextCheck:64631,str:110,h:0,d0:0,d1:0;
@@ -196,7 +196,7 @@
                     ("that mac-gun can put a round clean through a covenant capital-ship.", Expression<String> @:6407 check:64634,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:14684,h:0,d0:14684,d1:0;)))
             (____, BuiltinInvocation<Void> @:6408 check:64635,op:598,dt:4,nt:8,next:6415,nextCheck:64642,str:10189,h:1,d0:6409,d1:64636;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:6409 check:64636,op:598,dt:2,nt:9,next:6410,nextCheck:64637,str:1944,h:0,d0:0,d1:0;
-                    ("sound\dialog\levels\01_spacestation\mission\l01_0030_jon", Expression<Sound> @:6410 check:64637,op:32,dt:32,nt:9,next:6411,nextCheck:64638,str:14752,h:0,d0:1475,d1:59193;
+                    ("sound\dialog\levels\01_spacestation\mission\l01_0030_jon", Expression<Sound> @:6410 check:64637,op:32,dt:32,nt:9,next:6411,nextCheck:64638,str:14752,h:0,d0:1480,d1:59198;
                         (____, BuiltinInvocation<Entity> @:6411 check:64638,op:284,dt:50,nt:8,next:6414,nextCheck:64641,str:10267,h:1,d0:6412,d1:64639;
                             ("ai_get_object", Expression<MethodOrOperator> @:6412 check:64639,op:284,dt:2,nt:9,next:6413,nextCheck:64640,str:1258,h:0,d0:0,d1:0;
                                 ("johnson", Expression<AI> @:6413 check:64640,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1310,h:0,d0:1,d1:0;)))
@@ -205,7 +205,7 @@
                 ("sleep", Expression<MethodOrOperator> @:6416 check:64643,op:19,dt:2,nt:9,next:6417,nextCheck:64644,str:110,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Short> @:6417 check:64644,op:603,dt:7,nt:8,next:65535,nextCheck:65535,str:10303,h:1,d0:6418,d1:64645;
                         ("sound_impulse_language_time", Expression<MethodOrOperator> @:6418 check:64645,op:603,dt:2,nt:9,next:6419,nextCheck:64646,str:2067,h:0,d0:0,d1:0;
-                            ("sound\dialog\levels\01_spacestation\mission\l01_0030_jon", Expression<Sound> @:6419 check:64646,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:14752,h:0,d0:1475,d1:59193;)))))
+                            ("sound\dialog\levels\01_spacestation\mission\l01_0030_jon", Expression<Sound> @:6419 check:64646,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:14752,h:0,d0:1480,d1:59198;)))))
             (____, BuiltinInvocation<Void> @:6420 check:64647,op:21,dt:4,nt:8,next:6429,nextCheck:64656,str:10395,h:1,d0:6421,d1:64648;
                 ("sleep_until", Expression<MethodOrOperator> @:6421 check:64648,op:21,dt:2,nt:9,next:6422,nextCheck:64649,str:261,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Boolean> @:6422 check:64649,op:17,dt:5,nt:8,next:6428,nextCheck:64655,str:10408,h:1,d0:6423,d1:64650;
@@ -230,15 +230,15 @@
                     (____, BuiltinInvocation<Unit> @:6441 check:64668,op:285,dt:51,nt:8,next:6444,nextCheck:64671,str:10549,h:1,d0:6442,d1:64669;
                         ("ai_get_unit", Expression<MethodOrOperator> @:6442 check:64669,op:285,dt:2,nt:9,next:6443,nextCheck:64670,str:2500,h:0,d0:0,d1:0;
                             ("johnson", Expression<AI> @:6443 check:64670,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1310,h:0,d0:1,d1:0;)))
-                    ("objects\characters\marine\tutorial\tutorial", Expression<Animation> @:6444 check:64671,op:36,dt:36,nt:9,next:6445,nextCheck:64672,str:4558,h:0,d0:1401,d1:59119;
-                        ("l01_0040_jon", Expression<StringId> @:6445 check:64672,op:11,dt:11,nt:9,next:6446,nextCheck:64673,str:14825,h:0,d0:5248,d1:3072;
+                    ("objects\characters\marine\tutorial\tutorial", Expression<Animation> @:6444 check:64671,op:36,dt:36,nt:9,next:6445,nextCheck:64672,str:4558,h:0,d0:1406,d1:59124;
+                        ("l01_0040_jon", Expression<StringId> @:6445 check:64672,op:11,dt:11,nt:9,next:6446,nextCheck:64673,str:14825,h:0,d0:5249,d1:3072;
                             (True, Expression<Boolean> @:6446 check:64673,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:10632,h:1,d0:65281,d1:65535;)))))
             (____, BuiltinInvocation<Void> @:6447 check:64674,op:27,dt:4,nt:8,next:6450,nextCheck:64677,str:10640,h:1,d0:6448,d1:64675;
                 ("print", Expression<MethodOrOperator> @:6448 check:64675,op:27,dt:2,nt:9,next:6449,nextCheck:64676,str:116,h:0,d0:0,d1:0;
                     ("with coordinated fire from the athens and the malta, nothing's getting past this battle-cluster in one piece.", Expression<String> @:6449 check:64676,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:14838,h:0,d0:14838,d1:0;)))
             (____, BuiltinInvocation<Void> @:6450 check:64677,op:598,dt:4,nt:8,next:6457,nextCheck:64684,str:10762,h:1,d0:6451,d1:64678;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:6451 check:64678,op:598,dt:2,nt:9,next:6452,nextCheck:64679,str:1944,h:0,d0:0,d1:0;
-                    ("sound\dialog\levels\01_spacestation\mission\l01_0040_jon", Expression<Sound> @:6452 check:64679,op:32,dt:32,nt:9,next:6453,nextCheck:64680,str:14948,h:0,d0:1476,d1:59194;
+                    ("sound\dialog\levels\01_spacestation\mission\l01_0040_jon", Expression<Sound> @:6452 check:64679,op:32,dt:32,nt:9,next:6453,nextCheck:64680,str:14948,h:0,d0:1481,d1:59199;
                         (____, BuiltinInvocation<Entity> @:6453 check:64680,op:284,dt:50,nt:8,next:6456,nextCheck:64683,str:10840,h:1,d0:6454,d1:64681;
                             ("ai_get_object", Expression<MethodOrOperator> @:6454 check:64681,op:284,dt:2,nt:9,next:6455,nextCheck:64682,str:1258,h:0,d0:0,d1:0;
                                 ("johnson", Expression<AI> @:6455 check:64682,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1310,h:0,d0:1,d1:0;)))
@@ -247,7 +247,7 @@
                 ("sleep", Expression<MethodOrOperator> @:6458 check:64685,op:19,dt:2,nt:9,next:6459,nextCheck:64686,str:110,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Short> @:6459 check:64686,op:603,dt:7,nt:8,next:65535,nextCheck:65535,str:10876,h:1,d0:6460,d1:64687;
                         ("sound_impulse_language_time", Expression<MethodOrOperator> @:6460 check:64687,op:603,dt:2,nt:9,next:6461,nextCheck:64688,str:2067,h:0,d0:0,d1:0;
-                            ("sound\dialog\levels\01_spacestation\mission\l01_0040_jon", Expression<Sound> @:6461 check:64688,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:14948,h:0,d0:1476,d1:59194;)))))
+                            ("sound\dialog\levels\01_spacestation\mission\l01_0040_jon", Expression<Sound> @:6461 check:64688,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:14948,h:0,d0:1481,d1:59199;)))))
             (____, BuiltinInvocation<Void> @:6462 check:64689,op:19,dt:4,nt:8,next:6465,nextCheck:64692,str:10966,h:1,d0:6463,d1:64690;
                 ("sleep", Expression<MethodOrOperator> @:6463 check:64690,op:19,dt:2,nt:9,next:6464,nextCheck:64691,str:110,h:0,d0:0,d1:0;
                     (15, Expression<Short> @:6464 check:64691,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:10973,h:1,d0:15,d1:65535;)))
@@ -265,15 +265,15 @@
                     (____, BuiltinInvocation<Unit> @:6476 check:64703,op:285,dt:51,nt:8,next:6479,nextCheck:64706,str:11104,h:1,d0:6477,d1:64704;
                         ("ai_get_unit", Expression<MethodOrOperator> @:6477 check:64704,op:285,dt:2,nt:9,next:6478,nextCheck:64705,str:2500,h:0,d0:0,d1:0;
                             ("johnson", Expression<AI> @:6478 check:64705,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1310,h:0,d0:1,d1:0;)))
-                    ("objects\characters\marine\tutorial\tutorial", Expression<Animation> @:6479 check:64706,op:36,dt:36,nt:9,next:6480,nextCheck:64707,str:4558,h:0,d0:1401,d1:59119;
-                        ("l01_0050_jon", Expression<StringId> @:6480 check:64707,op:11,dt:11,nt:9,next:6481,nextCheck:64708,str:15005,h:0,d0:5249,d1:3072;
+                    ("objects\characters\marine\tutorial\tutorial", Expression<Animation> @:6479 check:64706,op:36,dt:36,nt:9,next:6480,nextCheck:64707,str:4558,h:0,d0:1406,d1:59124;
+                        ("l01_0050_jon", Expression<StringId> @:6480 check:64707,op:11,dt:11,nt:9,next:6481,nextCheck:64708,str:15005,h:0,d0:5250,d1:3072;
                             (True, Expression<Boolean> @:6481 check:64708,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:11187,h:1,d0:65281,d1:65535;)))))
             (____, BuiltinInvocation<Void> @:6482 check:64709,op:27,dt:4,nt:8,next:6485,nextCheck:64712,str:11195,h:1,d0:6483,d1:64710;
                 ("print", Expression<MethodOrOperator> @:6483 check:64710,op:27,dt:2,nt:9,next:6484,nextCheck:64711,str:116,h:0,d0:0,d1:0;
                     ("ships have been arriving all morning.", Expression<String> @:6484 check:64711,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:15018,h:0,d0:15018,d1:0;)))
             (____, BuiltinInvocation<Void> @:6485 check:64712,op:598,dt:4,nt:8,next:6492,nextCheck:64719,str:11245,h:1,d0:6486,d1:64713;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:6486 check:64713,op:598,dt:2,nt:9,next:6487,nextCheck:64714,str:1944,h:0,d0:0,d1:0;
-                    ("sound\dialog\levels\01_spacestation\mission\l01_0050_jon", Expression<Sound> @:6487 check:64714,op:32,dt:32,nt:9,next:6488,nextCheck:64715,str:15056,h:0,d0:1477,d1:59195;
+                    ("sound\dialog\levels\01_spacestation\mission\l01_0050_jon", Expression<Sound> @:6487 check:64714,op:32,dt:32,nt:9,next:6488,nextCheck:64715,str:15056,h:0,d0:1482,d1:59200;
                         (____, BuiltinInvocation<Entity> @:6488 check:64715,op:284,dt:50,nt:8,next:6491,nextCheck:64718,str:11323,h:1,d0:6489,d1:64716;
                             ("ai_get_object", Expression<MethodOrOperator> @:6489 check:64716,op:284,dt:2,nt:9,next:6490,nextCheck:64717,str:1258,h:0,d0:0,d1:0;
                                 ("johnson", Expression<AI> @:6490 check:64717,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1310,h:0,d0:1,d1:0;)))
@@ -282,10 +282,10 @@
                 ("sleep", Expression<MethodOrOperator> @:6493 check:64720,op:19,dt:2,nt:9,next:6494,nextCheck:64721,str:110,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Short> @:6494 check:64721,op:603,dt:7,nt:8,next:65535,nextCheck:65535,str:11359,h:1,d0:6495,d1:64722;
                         ("sound_impulse_language_time", Expression<MethodOrOperator> @:6495 check:64722,op:603,dt:2,nt:9,next:6496,nextCheck:64723,str:2067,h:0,d0:0,d1:0;
-                            ("sound\dialog\levels\01_spacestation\mission\l01_0050_jon", Expression<Sound> @:6496 check:64723,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:15056,h:0,d0:1477,d1:59195;)))))
+                            ("sound\dialog\levels\01_spacestation\mission\l01_0050_jon", Expression<Sound> @:6496 check:64723,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:15056,h:0,d0:1482,d1:59200;)))))
             (____, BuiltinInvocation<Void> @:6497 check:64724,op:608,dt:4,nt:8,next:6500,nextCheck:64727,str:11449,h:1,d0:6498,d1:64725;
                 ("sound_looping_stop", Expression<MethodOrOperator> @:6498 check:64725,op:608,dt:2,nt:9,next:6499,nextCheck:64726,str:15113,h:0,d0:0,d1:0;
-                    ("scenarios\solo\01a_tutorial\01a_music\01a_01", Expression<LoopingSound> @:6499 check:64726,op:35,dt:35,nt:9,next:65535,nextCheck:65535,str:14324,h:0,d0:1469,d1:59187;)))
+                    ("scenarios\solo\01a_tutorial\01a_music\01a_01", Expression<LoopingSound> @:6499 check:64726,op:35,dt:35,nt:9,next:65535,nextCheck:65535,str:14324,h:0,d0:1474,d1:59192;)))
             (____, BuiltinInvocation<Void> @:6500 check:64727,op:21,dt:4,nt:8,next:6509,nextCheck:64736,str:11533,h:1,d0:6501,d1:64728;
                 ("sleep_until", Expression<MethodOrOperator> @:6501 check:64728,op:21,dt:2,nt:9,next:6502,nextCheck:64729,str:261,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Boolean> @:6502 check:64729,op:17,dt:5,nt:8,next:6508,nextCheck:64735,str:11546,h:1,d0:6503,d1:64730;
@@ -303,15 +303,15 @@
                     (____, BuiltinInvocation<Unit> @:6514 check:64741,op:285,dt:51,nt:8,next:6517,nextCheck:64744,str:11619,h:1,d0:6515,d1:64742;
                         ("ai_get_unit", Expression<MethodOrOperator> @:6515 check:64742,op:285,dt:2,nt:9,next:6516,nextCheck:64743,str:2500,h:0,d0:0,d1:0;
                             ("johnson", Expression<AI> @:6516 check:64743,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1310,h:0,d0:1,d1:0;)))
-                    ("objects\characters\marine\tutorial\tutorial", Expression<Animation> @:6517 check:64744,op:36,dt:36,nt:9,next:6518,nextCheck:64745,str:4558,h:0,d0:1401,d1:59119;
-                        ("l01_0051_jon", Expression<StringId> @:6518 check:64745,op:11,dt:11,nt:9,next:6519,nextCheck:64746,str:15132,h:0,d0:5250,d1:3072;
+                    ("objects\characters\marine\tutorial\tutorial", Expression<Animation> @:6517 check:64744,op:36,dt:36,nt:9,next:6518,nextCheck:64745,str:4558,h:0,d0:1406,d1:59124;
+                        ("l01_0051_jon", Expression<StringId> @:6518 check:64745,op:11,dt:11,nt:9,next:6519,nextCheck:64746,str:15132,h:0,d0:5251,d1:3072;
                             (True, Expression<Boolean> @:6519 check:64746,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:11702,h:1,d0:65281,d1:65535;)))))
             (____, BuiltinInvocation<Void> @:6520 check:64747,op:27,dt:4,nt:8,next:6523,nextCheck:64750,str:11710,h:1,d0:6521,d1:64748;
                 ("print", Expression<MethodOrOperator> @:6521 check:64748,op:27,dt:2,nt:9,next:6522,nextCheck:64749,str:116,h:0,d0:0,d1:0;
                     ("nobody's saying much, but i'll bet something big's about to happen.", Expression<String> @:6522 check:64749,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:15145,h:0,d0:15145,d1:0;)))
             (____, BuiltinInvocation<Void> @:6523 check:64750,op:598,dt:4,nt:8,next:6530,nextCheck:64757,str:11790,h:1,d0:6524,d1:64751;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:6524 check:64751,op:598,dt:2,nt:9,next:6525,nextCheck:64752,str:1944,h:0,d0:0,d1:0;
-                    ("sound\dialog\levels\01_spacestation\mission\l01_0051_jon", Expression<Sound> @:6525 check:64752,op:32,dt:32,nt:9,next:6526,nextCheck:64753,str:15213,h:0,d0:1478,d1:59196;
+                    ("sound\dialog\levels\01_spacestation\mission\l01_0051_jon", Expression<Sound> @:6525 check:64752,op:32,dt:32,nt:9,next:6526,nextCheck:64753,str:15213,h:0,d0:1483,d1:59201;
                         (____, BuiltinInvocation<Entity> @:6526 check:64753,op:284,dt:50,nt:8,next:6529,nextCheck:64756,str:11868,h:1,d0:6527,d1:64754;
                             ("ai_get_object", Expression<MethodOrOperator> @:6527 check:64754,op:284,dt:2,nt:9,next:6528,nextCheck:64755,str:1258,h:0,d0:0,d1:0;
                                 ("johnson", Expression<AI> @:6528 check:64755,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1310,h:0,d0:1,d1:0;)))
@@ -320,7 +320,7 @@
                 ("sleep", Expression<MethodOrOperator> @:6531 check:64758,op:19,dt:2,nt:9,next:6532,nextCheck:64759,str:110,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Short> @:6532 check:64759,op:603,dt:7,nt:8,next:65535,nextCheck:65535,str:11904,h:1,d0:6533,d1:64760;
                         ("sound_impulse_language_time", Expression<MethodOrOperator> @:6533 check:64760,op:603,dt:2,nt:9,next:6534,nextCheck:64761,str:2067,h:0,d0:0,d1:0;
-                            ("sound\dialog\levels\01_spacestation\mission\l01_0051_jon", Expression<Sound> @:6534 check:64761,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:15213,h:0,d0:1478,d1:59196;)))))
+                            ("sound\dialog\levels\01_spacestation\mission\l01_0051_jon", Expression<Sound> @:6534 check:64761,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:15213,h:0,d0:1483,d1:59201;)))))
             (____, BuiltinInvocation<Void> @:6535 check:64762,op:366,dt:4,nt:8,next:6539,nextCheck:64766,str:11996,h:1,d0:6536,d1:64763;
                 ("cs_run_command_script", Expression<MethodOrOperator> @:6536 check:64763,op:366,dt:2,nt:9,next:6537,nextCheck:64764,str:3103,h:0,d0:0,d1:0;
                     ("johnson", Expression<AI> @:6537 check:64764,op:19,dt:19,nt:9,next:6538,nextCheck:64765,str:1310,h:0,d0:1,d1:0;

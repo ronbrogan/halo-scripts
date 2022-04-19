@@ -2,19 +2,19 @@
 ("c07_intra1_06_dof_01", MethodDecl<Void> @:47 check:0,op:0,dt:0,nt:65535,next:1321,nextCheck:59548,str:3699,h:0,d0:0,d1:0;
     (____, BuiltinInvocation<Void> @:1321 check:59548,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:15867,h:0,d0:1322,d1:59549;
         ("begin", Expression<MethodOrOperator> @:1322 check:59549,op:0,dt:2,nt:9,next:1291,nextCheck:59518,str:1,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:1291 check:59518,op:678,dt:4,nt:8,next:1293,nextCheck:59520,str:15906,h:0,d0:1292,d1:59519;
-                ("time_code_reset", Expression<MethodOrOperator> @:1292 check:59519,op:678,dt:2,nt:9,next:65535,nextCheck:65535,str:1504,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:1291 check:59518,op:663,dt:4,nt:8,next:1293,nextCheck:59520,str:15906,h:0,d0:1292,d1:59519;
+                ("time_code_reset", Expression<MethodOrOperator> @:1292 check:59519,op:663,dt:2,nt:9,next:65535,nextCheck:65535,str:1504,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:1293 check:59520,op:19,dt:4,nt:8,next:1296,nextCheck:59523,str:15929,h:0,d0:1294,d1:59521;
                 ("sleep", Expression<MethodOrOperator> @:1294 check:59521,op:19,dt:2,nt:9,next:1295,nextCheck:59522,str:80,h:0,d0:0,d1:0;
                     (121, Expression<Short> @:1295 check:59522,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:15936,h:0,d0:121,d1:65535;)))
             (____, BuiltinInvocation<Void> @:1296 check:59523,op:27,dt:4,nt:8,next:1299,nextCheck:59526,str:15943,h:0,d0:1297,d1:59524;
                 ("print", Expression<MethodOrOperator> @:1297 check:59524,op:27,dt:2,nt:9,next:1298,nextCheck:59525,str:86,h:0,d0:0,d1:0;
                     ("rack focus", Expression<String> @:1298 check:59525,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:1593,h:0,d0:1593,d1:0;)))
-            (____, BuiltinInvocation<Void> @:1299 check:59526,op:710,dt:4,nt:8,next:1302,nextCheck:59529,str:15966,h:0,d0:1300,d1:59527;
-                ("cinematic_screen_effect_start", Expression<MethodOrOperator> @:1300 check:59527,op:710,dt:2,nt:9,next:1301,nextCheck:59528,str:1520,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1299 check:59526,op:695,dt:4,nt:8,next:1302,nextCheck:59529,str:15966,h:0,d0:1300,d1:59527;
+                ("cinematic_screen_effect_start", Expression<MethodOrOperator> @:1300 check:59527,op:695,dt:2,nt:9,next:1301,nextCheck:59528,str:1520,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:1301 check:59528,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:15997,h:0,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1302 check:59529,op:711,dt:4,nt:8,next:1311,nextCheck:59538,str:16002,h:0,d0:1303,d1:59530;
-                ("cinematic_screen_effect_set_depth_of_field", Expression<MethodOrOperator> @:1303 check:59530,op:711,dt:2,nt:9,next:1304,nextCheck:59531,str:1550,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1302 check:59529,op:696,dt:4,nt:8,next:1311,nextCheck:59538,str:16002,h:0,d0:1303,d1:59530;
+                ("cinematic_screen_effect_set_depth_of_field", Expression<MethodOrOperator> @:1303 check:59530,op:696,dt:2,nt:9,next:1304,nextCheck:59531,str:1550,h:0,d0:0,d1:0;
                     (0.4f, Expression<Float> @:1304 check:59531,op:6,dt:6,nt:9,next:1305,nextCheck:59532,str:16046,h:0,d0:52429,d1:16076;
                         (0.5f, Expression<Float> @:1305 check:59532,op:6,dt:6,nt:9,next:1306,nextCheck:59533,str:16049,h:0,d0:0,d1:16128;
                             (0.5f, Expression<Float> @:1306 check:59533,op:6,dt:6,nt:9,next:1307,nextCheck:59534,str:16052,h:0,d0:0,d1:16128;
@@ -22,13 +22,13 @@
                                     (0f, Expression<Float> @:1308 check:59535,op:6,dt:6,nt:9,next:1309,nextCheck:59536,str:16057,h:0,d0:0,d1:0;
                                         (0f, Expression<Float> @:1309 check:59536,op:6,dt:6,nt:9,next:1310,nextCheck:59537,str:16059,h:0,d0:0,d1:0;
                                             (0f, Expression<Float> @:1310 check:59537,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:16061,h:0,d0:0,d1:0;)))))))))
-            (____, BuiltinInvocation<Void> @:1311 check:59538,op:678,dt:4,nt:8,next:1313,nextCheck:59540,str:16069,h:0,d0:1312,d1:59539;
-                ("time_code_reset", Expression<MethodOrOperator> @:1312 check:59539,op:678,dt:2,nt:9,next:65535,nextCheck:65535,str:1504,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:1311 check:59538,op:663,dt:4,nt:8,next:1313,nextCheck:59540,str:16069,h:0,d0:1312,d1:59539;
+                ("time_code_reset", Expression<MethodOrOperator> @:1312 check:59539,op:663,dt:2,nt:9,next:65535,nextCheck:65535,str:1504,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:1313 check:59540,op:19,dt:4,nt:8,next:1316,nextCheck:59543,str:16092,h:0,d0:1314,d1:59541;
                 ("sleep", Expression<MethodOrOperator> @:1314 check:59541,op:19,dt:2,nt:9,next:1315,nextCheck:59542,str:80,h:0,d0:0,d1:0;
                     (153, Expression<Short> @:1315 check:59542,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:16099,h:0,d0:153,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1316 check:59543,op:714,dt:4,nt:8,next:1318,nextCheck:59545,str:16106,h:0,d0:1317,d1:59544;
-                ("cinematic_screen_effect_stop", Expression<MethodOrOperator> @:1317 check:59544,op:714,dt:2,nt:9,next:65535,nextCheck:65535,str:1604,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:1316 check:59543,op:699,dt:4,nt:8,next:1318,nextCheck:59545,str:16106,h:0,d0:1317,d1:59544;
+                ("cinematic_screen_effect_stop", Expression<MethodOrOperator> @:1317 check:59544,op:699,dt:2,nt:9,next:65535,nextCheck:65535,str:1604,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:1318 check:59545,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:16139,h:0,d0:1319,d1:59546;
                 ("print", Expression<MethodOrOperator> @:1319 check:59546,op:27,dt:2,nt:9,next:1320,nextCheck:59547,str:86,h:0,d0:0,d1:0;
                     ("rack focus stop", Expression<String> @:1320 check:59547,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:1633,h:0,d0:1633,d1:0;))))))

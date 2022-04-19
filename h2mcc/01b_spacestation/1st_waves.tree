@@ -4,7 +4,7 @@
         ("begin", Expression<MethodOrOperator> @:14317 check:39777,op:0,dt:2,nt:9,next:14111,nextCheck:39571,str:31,h:0,d0:0,d1:0;
             (____, BuiltinInvocation<Void> @:14111 check:39571,op:41,dt:4,nt:8,next:14116,nextCheck:39576,str:45091,h:2,d0:14112,d1:39572;
                 ("effect_new_on_object_marker", Expression<MethodOrOperator> @:14112 check:39572,op:41,dt:2,nt:9,next:14113,nextCheck:39573,str:7921,h:0,d0:0,d1:0;
-                    ("effects\scenarios\solo\spacestation\door_charging", Expression<Effect> @:14113 check:39573,op:33,dt:33,nt:9,next:14114,nextCheck:39574,str:33002,h:0,d0:5286,d1:63199;
+                    ("effects\scenarios\solo\spacestation\door_charging", Expression<Effect> @:14113 check:39573,op:33,dt:33,nt:9,next:14114,nextCheck:39574,str:33002,h:0,d0:5287,d1:63200;
                         (4294902013, Expression<Entity> @:14114 check:39574,op:56,dt:50,nt:9,next:14115,nextCheck:39575,str:31959,h:0,d0:253,d1:65535;
                             (0, Expression<StringId> @:14115 check:39575,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:0,h:0,d0:0,d1:0;)))))
             (____, BuiltinInvocation<Void> @:14116 check:39576,op:19,dt:4,nt:8,next:14119,nextCheck:39579,str:45191,h:2,d0:14117,d1:39577;
@@ -27,23 +27,23 @@
                     (30, Expression<Short> @:14133 check:39593,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:45370,h:2,d0:30,d1:65535;)))
             (____, BuiltinInvocation<Void> @:14134 check:39594,op:42,dt:4,nt:8,next:14138,nextCheck:39598,str:45378,h:2,d0:14135,d1:39595;
                 ("damage_new", Expression<MethodOrOperator> @:14135 check:39595,op:42,dt:2,nt:9,next:14136,nextCheck:39596,str:33146,h:0,d0:0,d1:0;
-                    ("objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion", Expression<DamageEffect> @:14136 check:39596,op:34,dt:34,nt:9,next:14137,nextCheck:39597,str:33157,h:0,d0:5299,d1:63212;
+                    ("objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion", Expression<DamageEffect> @:14136 check:39596,op:34,dt:34,nt:9,next:14137,nextCheck:39597,str:33157,h:0,d0:5300,d1:63213;
                         ("1st_blast_flag_1", Expression<LocationFlag> @:14137 check:39597,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:33232,h:0,d0:28,d1:0;))))
             (____, BuiltinInvocation<Void> @:14138 check:39598,op:598,dt:4,nt:8,next:14143,nextCheck:39603,str:45485,h:2,d0:14139,d1:39599;
                 ("sound_impulse_start", Expression<MethodOrOperator> @:14139 check:39599,op:598,dt:2,nt:9,next:14140,nextCheck:39600,str:1466,h:0,d0:0,d1:0;
-                    ("sound\visual_effects\explosion_medium_metal_bits", Expression<Sound> @:14140 check:39600,op:32,dt:32,nt:9,next:14141,nextCheck:39601,str:33249,h:0,d0:5300,d1:63213;
+                    ("sound\visual_effects\explosion_medium_metal_bits", Expression<Sound> @:14140 check:39600,op:32,dt:32,nt:9,next:14141,nextCheck:39601,str:33249,h:0,d0:5301,d1:63214;
                         (4294902013, Expression<Entity> @:14141 check:39601,op:56,dt:50,nt:9,next:14142,nextCheck:39602,str:31959,h:0,d0:253,d1:65535;
                             (1f, Expression<Float> @:14142 check:39602,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:45570,h:2,d0:0,d1:16256;)))))
             (____, BuiltinInvocation<Void> @:14143 check:39603,op:42,dt:4,nt:8,next:14147,nextCheck:39607,str:45575,h:2,d0:14144,d1:39604;
                 ("damage_new", Expression<MethodOrOperator> @:14144 check:39604,op:42,dt:2,nt:9,next:14145,nextCheck:39605,str:33146,h:0,d0:0,d1:0;
-                    ("objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion", Expression<DamageEffect> @:14145 check:39605,op:34,dt:34,nt:9,next:14146,nextCheck:39606,str:33157,h:0,d0:5299,d1:63212;
+                    ("objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion", Expression<DamageEffect> @:14145 check:39605,op:34,dt:34,nt:9,next:14146,nextCheck:39606,str:33157,h:0,d0:5300,d1:63213;
                         ("1st_blast_flag_2", Expression<LocationFlag> @:14146 check:39606,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:33298,h:0,d0:29,d1:0;))))
             (____, BuiltinInvocation<Void> @:14147 check:39607,op:19,dt:4,nt:8,next:14150,nextCheck:39610,str:45684,h:2,d0:14148,d1:39608;
                 ("sleep", Expression<MethodOrOperator> @:14148 check:39608,op:19,dt:2,nt:9,next:14149,nextCheck:39609,str:110,h:0,d0:0,d1:0;
                     (1, Expression<Short> @:14149 check:39609,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:45691,h:2,d0:1,d1:65535;)))
             (____, BuiltinInvocation<Void> @:14150 check:39610,op:608,dt:4,nt:8,next:14153,nextCheck:39613,str:45696,h:2,d0:14151,d1:39611;
                 ("sound_looping_stop", Expression<MethodOrOperator> @:14151 check:39611,op:608,dt:2,nt:9,next:14152,nextCheck:39612,str:33315,h:0,d0:0,d1:0;
-                    ("sound\ambience\spacestation\ss_behind_bulkhead\ss_behind_bulkhead", Expression<LoopingSound> @:14152 check:39612,op:35,dt:35,nt:9,next:65535,nextCheck:65535,str:32936,h:0,d0:5282,d1:63195;)))
+                    ("sound\ambience\spacestation\ss_behind_bulkhead\ss_behind_bulkhead", Expression<LoopingSound> @:14152 check:39612,op:35,dt:35,nt:9,next:65535,nextCheck:65535,str:32936,h:0,d0:5283,d1:63196;)))
             (____, BuiltinInvocation<Void> @:14153 check:39613,op:84,dt:4,nt:8,next:14158,nextCheck:39618,str:45785,h:2,d0:14154,d1:39614;
                 ("object_damage_damage_section", Expression<MethodOrOperator> @:14154 check:39614,op:84,dt:2,nt:9,next:14155,nextCheck:39615,str:33334,h:0,d0:0,d1:0;
                     (4294902013, Expression<Entity> @:14155 check:39615,op:56,dt:50,nt:9,next:14156,nextCheck:39616,str:31959,h:0,d0:253,d1:65535;
@@ -54,15 +54,15 @@
                     (3, Expression<Short> @:14160 check:39620,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:45847,h:2,d0:3,d1:65535;)))
             (____, BuiltinInvocation<Void> @:14161 check:39621,op:42,dt:4,nt:8,next:14165,nextCheck:39625,str:45852,h:2,d0:14162,d1:39622;
                 ("damage_new", Expression<MethodOrOperator> @:14162 check:39622,op:42,dt:2,nt:9,next:14163,nextCheck:39623,str:33146,h:0,d0:0,d1:0;
-                    ("objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion", Expression<DamageEffect> @:14163 check:39623,op:34,dt:34,nt:9,next:14164,nextCheck:39624,str:33157,h:0,d0:5299,d1:63212;
+                    ("objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion", Expression<DamageEffect> @:14163 check:39623,op:34,dt:34,nt:9,next:14164,nextCheck:39624,str:33157,h:0,d0:5300,d1:63213;
                         ("1st_blast_flag_1", Expression<LocationFlag> @:14164 check:39624,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:33232,h:0,d0:28,d1:0;))))
             (____, BuiltinInvocation<Void> @:14165 check:39625,op:42,dt:4,nt:8,next:14169,nextCheck:39629,str:45959,h:2,d0:14166,d1:39626;
                 ("damage_new", Expression<MethodOrOperator> @:14166 check:39626,op:42,dt:2,nt:9,next:14167,nextCheck:39627,str:33146,h:0,d0:0,d1:0;
-                    ("objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion", Expression<DamageEffect> @:14167 check:39627,op:34,dt:34,nt:9,next:14168,nextCheck:39628,str:33157,h:0,d0:5299,d1:63212;
+                    ("objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion", Expression<DamageEffect> @:14167 check:39627,op:34,dt:34,nt:9,next:14168,nextCheck:39628,str:33157,h:0,d0:5300,d1:63213;
                         ("1st_blast_flag_2", Expression<LocationFlag> @:14168 check:39628,op:14,dt:14,nt:9,next:65535,nextCheck:65535,str:33298,h:0,d0:29,d1:0;))))
             (____, BuiltinInvocation<Void> @:14169 check:39629,op:607,dt:4,nt:8,next:14174,nextCheck:39634,str:46068,h:2,d0:14170,d1:39630;
                 ("sound_looping_start", Expression<MethodOrOperator> @:14170 check:39630,op:607,dt:2,nt:9,next:14171,nextCheck:39631,str:28108,h:0,d0:0,d1:0;
-                    ("scenarios\solo\01b_spacestation\01b_music\01b_02", Expression<LoopingSound> @:14171 check:39631,op:35,dt:35,nt:9,next:14172,nextCheck:39632,str:33368,h:0,d0:5301,d1:63214;
+                    ("scenarios\solo\01b_spacestation\01b_music\01b_02", Expression<LoopingSound> @:14171 check:39631,op:35,dt:35,nt:9,next:14172,nextCheck:39632,str:33368,h:0,d0:5302,d1:63215;
                         (4294967295, Expression<Entity> @:14172 check:39632,op:50,dt:50,nt:9,next:14173,nextCheck:39633,str:1540,h:0,d0:65535,d1:65535;
                             (1f, Expression<Float> @:14173 check:39633,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:46143,h:2,d0:0,d1:16256;)))))
             (____, BuiltinInvocation<Void> @:14174 check:39634,op:366,dt:4,nt:8,next:14178,nextCheck:39638,str:46148,h:2,d0:14175,d1:39635;

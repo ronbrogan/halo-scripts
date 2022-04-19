@@ -11,21 +11,21 @@
             (____, BuiltinInvocation<Void> @:2220 check:60447,op:450,dt:4,nt:8,next:2223,nextCheck:60450,str:26081,h:0,d0:2221,d1:60448;
                 ("camera_control", Expression<MethodOrOperator> @:2221 check:60448,op:450,dt:2,nt:9,next:2222,nextCheck:60449,str:249,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:2222 check:60449,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:26097,h:0,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:2223 check:60450,op:929,dt:4,nt:8,next:2226,nextCheck:60453,str:26103,h:0,d0:2224,d1:60451;
-                ("cinematic_start_movie", Expression<MethodOrOperator> @:2224 check:60451,op:929,dt:2,nt:9,next:2225,nextCheck:60452,str:2606,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2223 check:60450,op:889,dt:4,nt:8,next:2226,nextCheck:60453,str:26103,h:0,d0:2224,d1:60451;
+                ("cinematic_start_movie", Expression<MethodOrOperator> @:2224 check:60451,op:889,dt:2,nt:9,next:2225,nextCheck:60452,str:2606,h:0,d0:0,d1:0;
                     ("floodlab_outro1", Expression<String> @:2225 check:60452,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:5763,h:0,d0:5763,d1:0;)))
             (____, BuiltinInvocation<Void> @:2226 check:60453,op:555,dt:4,nt:8,next:2228,nextCheck:60455,str:26147,h:0,d0:2227,d1:60454;
                 ("cinematic_start", Expression<MethodOrOperator> @:2227 check:60454,op:555,dt:2,nt:9,next:65535,nextCheck:65535,str:264,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:2228 check:60455,op:4,dt:4,nt:8,next:2232,nextCheck:60459,str:26167,h:0,d0:2229,d1:60456;
                 ("set", Expression<MethodOrOperator> @:2229 check:60456,op:4,dt:2,nt:9,next:2230,nextCheck:60457,str:2644,h:0,d0:0,d1:0;
-                    ("cinematic_letterbox_style", VariableAccess<Int> @:2230 check:60457,op:65535,dt:8,nt:13,next:2231,nextCheck:60458,str:2648,h:0,d0:33752,d1:65535;
+                    ("cinematic_letterbox_style", VariableAccess<Int> @:2230 check:60457,op:65535,dt:8,nt:13,next:2231,nextCheck:60458,str:2648,h:0,d0:33746,d1:65535;
                         (1, Expression<Int> @:2231 check:60458,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:26198,h:0,d0:1,d1:0;))))
             (____, BuiltinInvocation<Void> @:2232 check:60459,op:461,dt:4,nt:8,next:2236,nextCheck:60463,str:26203,h:0,d0:2233,d1:60460;
                 ("camera_set_field_of_view", Expression<MethodOrOperator> @:2233 check:60460,op:461,dt:2,nt:9,next:2234,nextCheck:60461,str:2674,h:0,d0:0,d1:0;
                     (60f, Expression<Float> @:2234 check:60461,op:6,dt:6,nt:9,next:2235,nextCheck:60462,str:26229,h:0,d0:0,d1:17008;
                         (0, Expression<Short> @:2235 check:60462,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:26232,h:0,d0:0,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:2236 check:60463,op:905,dt:4,nt:8,next:2238,nextCheck:60465,str:26240,h:0,d0:2237,d1:60464;
-                ("cinematic_lightmap_shadow_enable", Expression<MethodOrOperator> @:2237 check:60464,op:905,dt:2,nt:9,next:65535,nextCheck:65535,str:2699,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:2236 check:60463,op:881,dt:4,nt:8,next:2238,nextCheck:60465,str:26240,h:0,d0:2237,d1:60464;
+                ("cinematic_lightmap_shadow_enable", Expression<MethodOrOperator> @:2237 check:60464,op:881,dt:2,nt:9,next:65535,nextCheck:65535,str:2699,h:0,d0:0,d1:0;))
             ("04_outro1_01_predict_stub", ScriptInvocation<Void> @:2238 check:60465,op:27,dt:4,nt:10,next:2240,nextCheck:60467,str:26351,h:0,d0:2239,d1:60466;
                 ("04_outro1_01_predict_stub", Expression<MethodOrOperator> @:2239 check:60466,op:27,dt:2,nt:9,next:65535,nextCheck:65535,str:5779,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:2240 check:60467,op:596,dt:4,nt:8,next:2243,nextCheck:60470,str:26381,h:0,d0:2241,d1:60468;
@@ -94,8 +94,8 @@
                 ("sleep", Expression<MethodOrOperator> @:2303 check:60530,op:19,dt:2,nt:9,next:2304,nextCheck:60531,str:289,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Short> @:2304 check:60531,op:460,dt:7,nt:8,next:65535,nextCheck:65535,str:27435,h:0,d0:2305,d1:60532;
                         ("camera_time", Expression<MethodOrOperator> @:2305 check:60532,op:460,dt:2,nt:9,next:65535,nextCheck:65535,str:3249,h:0,d0:0,d1:0;))))
-            (____, BuiltinInvocation<Void> @:2306 check:60533,op:714,dt:4,nt:8,next:2308,nextCheck:60535,str:27455,h:0,d0:2307,d1:60534;
-                ("cinematic_screen_effect_stop", Expression<MethodOrOperator> @:2307 check:60534,op:714,dt:2,nt:9,next:65535,nextCheck:65535,str:6189,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:2306 check:60533,op:699,dt:4,nt:8,next:2308,nextCheck:60535,str:27455,h:0,d0:2307,d1:60534;
+                ("cinematic_screen_effect_stop", Expression<MethodOrOperator> @:2307 check:60534,op:699,dt:2,nt:9,next:65535,nextCheck:65535,str:6189,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:2308 check:60535,op:27,dt:4,nt:8,next:65535,nextCheck:65535,str:27488,h:0,d0:2309,d1:60536;
                 ("print", Expression<MethodOrOperator> @:2309 check:60536,op:27,dt:2,nt:9,next:2310,nextCheck:60537,str:295,h:0,d0:0,d1:0;
                     ("rack focus stop", Expression<String> @:2310 check:60537,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:6218,h:0,d0:6218,d1:0;))))))

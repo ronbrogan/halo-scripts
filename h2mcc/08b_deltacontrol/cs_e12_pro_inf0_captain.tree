@@ -14,8 +14,8 @@
                         (">", Expression<MethodOrOperator> @:11780 check:37240,op:15,dt:2,nt:9,next:11781,nextCheck:37241,str:2531,h:0,d0:0,d1:0;
                             (____, BuiltinInvocation<Short> @:11781 check:37241,op:353,dt:7,nt:8,next:11784,nextCheck:37244,str:8873,h:2,d0:11782,d1:37242;
                                 ("ai_combat_status", Expression<MethodOrOperator> @:11782 check:37242,op:353,dt:2,nt:9,next:11783,nextCheck:37243,str:27205,h:0,d0:0,d1:0;
-                                    ("ai_current_actor", VariableAccess<AI> @:11783 check:37243,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:1286,h:0,d0:33562,d1:65535;)))
-                            ("ai_combat_status_active", VariableAccess<Short> @:11784 check:37244,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:27222,h:0,d0:33572,d1:65535;)))))
+                                    ("ai_current_actor", VariableAccess<AI> @:11783 check:37243,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:1286,h:0,d0:33556,d1:65535;)))
+                            ("ai_combat_status_active", VariableAccess<Short> @:11784 check:37244,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:27222,h:0,d0:33566,d1:65535;)))))
             (____, BuiltinInvocation<Void> @:11785 check:37245,op:444,dt:4,nt:8,next:11788,nextCheck:37248,str:8957,h:2,d0:11786,d1:37246;
                 ("cs_enable_moving", Expression<MethodOrOperator> @:11786 check:37246,op:444,dt:2,nt:9,next:11787,nextCheck:37247,str:1109,h:0,d0:0,d1:0;
                     (False, Expression<Boolean> @:11787 check:37247,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:8975,h:2,d0:65280,d1:65535;)))
@@ -35,8 +35,8 @@
                 ("sleep", Expression<MethodOrOperator> @:11801 check:37261,op:19,dt:2,nt:9,next:11802,nextCheck:37262,str:100,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Short> @:11802 check:37262,op:360,dt:7,nt:8,next:65535,nextCheck:65535,str:9086,h:2,d0:11803,d1:37263;
                         ("ai_play_line", Expression<MethodOrOperator> @:11803 check:37263,op:360,dt:2,nt:9,next:11804,nextCheck:37264,str:27289,h:0,d0:0,d1:0;
-                            ("ai_current_actor", VariableAccess<AI> @:11804 check:37264,op:19,dt:19,nt:13,next:11805,nextCheck:37265,str:1286,h:0,d0:33562,d1:65535;
-                                ("0940", Expression<StringId> @:11805 check:37265,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:27302,h:0,d0:13585,d1:1024;))))))
+                            ("ai_current_actor", VariableAccess<AI> @:11804 check:37264,op:19,dt:19,nt:13,next:11805,nextCheck:37265,str:1286,h:0,d0:33556,d1:65535;
+                                ("0940", Expression<StringId> @:11805 check:37265,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:27302,h:0,d0:13586,d1:1024;))))))
             (____, BuiltinInvocation<Void> @:11806 check:37266,op:19,dt:4,nt:8,next:11809,nextCheck:37269,str:9126,h:2,d0:11807,d1:37267;
                 ("sleep", Expression<MethodOrOperator> @:11807 check:37267,op:19,dt:2,nt:9,next:11808,nextCheck:37268,str:100,h:0,d0:0,d1:0;
                     (20, Expression<Short> @:11808 check:37268,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:9133,h:2,d0:20,d1:65535;)))
@@ -50,5 +50,5 @@
                 ("sleep", Expression<MethodOrOperator> @:11816 check:37276,op:19,dt:2,nt:9,next:11817,nextCheck:37277,str:100,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Short> @:11817 check:37277,op:360,dt:7,nt:8,next:65535,nextCheck:65535,str:9237,h:2,d0:11818,d1:37278;
                         ("ai_play_line", Expression<MethodOrOperator> @:11818 check:37278,op:360,dt:2,nt:9,next:11819,nextCheck:37279,str:27289,h:0,d0:0,d1:0;
-                            ("ai_current_actor", VariableAccess<AI> @:11819 check:37279,op:19,dt:19,nt:13,next:11820,nextCheck:37280,str:1286,h:0,d0:33562,d1:65535;
-                                ("0950", Expression<StringId> @:11820 check:37280,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:27360,h:0,d0:13586,d1:1024;)))))))))
+                            ("ai_current_actor", VariableAccess<AI> @:11819 check:37279,op:19,dt:19,nt:13,next:11820,nextCheck:37280,str:1286,h:0,d0:33556,d1:65535;
+                                ("0950", Expression<StringId> @:11820 check:37280,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:27360,h:0,d0:13587,d1:1024;)))))))))

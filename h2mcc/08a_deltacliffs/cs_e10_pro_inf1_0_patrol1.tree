@@ -4,7 +4,7 @@
         ("begin", Expression<MethodOrOperator> @:2998 check:61225,op:0,dt:2,nt:9,next:2927,nextCheck:61154,str:64,h:0,d0:0,d1:0;
             (____, BuiltinInvocation<Void> @:2927 check:61154,op:441,dt:4,nt:8,next:2930,nextCheck:61157,str:35893,h:0,d0:2928,d1:61155;
                 ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:2928 check:61155,op:441,dt:2,nt:9,next:2929,nextCheck:61156,str:6669,h:0,d0:0,d1:0;
-                    ("ai_combat_status_active", VariableAccess<Short> @:2929 check:61156,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:6695,h:0,d0:33572,d1:65535;)))
+                    ("ai_combat_status_active", VariableAccess<Short> @:2929 check:61156,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:6695,h:0,d0:33566,d1:65535;)))
             (____, BuiltinInvocation<Void> @:2930 check:61157,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:35947,h:0,d0:2931,d1:61158;
                 ("sleep_until", Expression<MethodOrOperator> @:2931 check:61158,op:21,dt:2,nt:9,next:2932,nextCheck:61159,str:294,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Boolean> @:2932 check:61159,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:35963,h:0,d0:2933,d1:61160;
@@ -14,7 +14,7 @@
                                     ("e10_patrol/p2", Expression<SpatialPoint> @:2936 check:61163,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:6806,h:0,d0:3,d1:21;)))
                             (____, BuiltinInvocation<Void> @:2937 check:61164,op:422,dt:4,nt:8,next:2940,nextCheck:61167,str:36031,h:0,d0:2938,d1:61165;
                                 ("cs_movement_mode", Expression<MethodOrOperator> @:2938 check:61165,op:422,dt:2,nt:9,next:2939,nextCheck:61166,str:6820,h:0,d0:0,d1:0;
-                                    ("ai_movement_combat", VariableAccess<Short> @:2939 check:61166,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:6837,h:0,d0:33581,d1:65535;)))
+                                    ("ai_movement_combat", VariableAccess<Short> @:2939 check:61166,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:6837,h:0,d0:33575,d1:65535;)))
                             (____, BuiltinInvocation<Void> @:2940 check:61167,op:396,dt:4,nt:8,next:2944,nextCheck:61171,str:36073,h:0,d0:2941,d1:61168;
                                 ("cs_aim", Expression<MethodOrOperator> @:2941 check:61168,op:396,dt:2,nt:9,next:2942,nextCheck:61169,str:6856,h:0,d0:0,d1:0;
                                     (True, Expression<Boolean> @:2942 check:61169,op:5,dt:5,nt:9,next:2943,nextCheck:61170,str:36081,h:0,d0:65281,d1:65535;
@@ -53,7 +53,7 @@
                                         ("e10_patrol/s0", Expression<SpatialPoint> @:2975 check:61202,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:6863,h:0,d0:4,d1:21;))))
                             (____, BuiltinInvocation<Void> @:2976 check:61203,op:422,dt:4,nt:8,next:2979,nextCheck:61206,str:36376,h:0,d0:2977,d1:61204;
                                 ("cs_movement_mode", Expression<MethodOrOperator> @:2977 check:61204,op:422,dt:2,nt:9,next:2978,nextCheck:61205,str:6820,h:0,d0:0,d1:0;
-                                    ("ai_movement_patrol", VariableAccess<Short> @:2978 check:61205,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:6892,h:0,d0:33579,d1:65535;)))
+                                    ("ai_movement_patrol", VariableAccess<Short> @:2978 check:61205,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:6892,h:0,d0:33573,d1:65535;)))
                             (____, BuiltinInvocation<Void> @:2979 check:61206,op:385,dt:4,nt:8,next:2982,nextCheck:61209,str:36418,h:0,d0:2980,d1:61207;
                                 ("cs_go_to", Expression<MethodOrOperator> @:2980 check:61207,op:385,dt:2,nt:9,next:2981,nextCheck:61208,str:6475,h:0,d0:0,d1:0;
                                     ("e10_patrol/p3", Expression<SpatialPoint> @:2981 check:61208,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:6911,h:0,d0:6,d1:21;)))

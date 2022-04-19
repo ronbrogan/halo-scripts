@@ -10,7 +10,7 @@
                     (True, Expression<Boolean> @:13390 check:38850,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:34849,h:2,d0:65281,d1:65535;)))
             (____, BuiltinInvocation<Void> @:13391 check:38851,op:441,dt:4,nt:8,next:13394,nextCheck:38854,str:34857,h:2,d0:13392,d1:38852;
                 ("cs_abort_on_combat_status", Expression<MethodOrOperator> @:13392 check:38852,op:441,dt:2,nt:9,next:13393,nextCheck:38853,str:13781,h:0,d0:0,d1:0;
-                    ("ai_combat_status_clear_los", VariableAccess<Short> @:13393 check:38853,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:13973,h:0,d0:33577,d1:65535;)))
+                    ("ai_combat_status_clear_los", VariableAccess<Short> @:13393 check:38853,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:13973,h:0,d0:33571,d1:65535;)))
             (____, BuiltinInvocation<Void> @:13394 check:38854,op:21,dt:4,nt:8,next:65535,nextCheck:65535,str:34914,h:2,d0:13395,d1:38855;
                 ("sleep_until", Expression<MethodOrOperator> @:13395 check:38855,op:21,dt:2,nt:9,next:13396,nextCheck:38856,str:294,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Boolean> @:13396 check:38856,op:6,dt:5,nt:8,next:13409,nextCheck:38869,str:34930,h:2,d0:13397,d1:38857;
@@ -19,8 +19,8 @@
                                 (">=", Expression<MethodOrOperator> @:13399 check:38859,op:17,dt:2,nt:9,next:13400,nextCheck:38860,str:734,h:0,d0:0,d1:0;
                                     (____, BuiltinInvocation<Short> @:13400 check:38860,op:353,dt:7,nt:8,next:13403,nextCheck:38863,str:34942,h:2,d0:13401,d1:38861;
                                         ("ai_combat_status", Expression<MethodOrOperator> @:13401 check:38861,op:353,dt:2,nt:9,next:13402,nextCheck:38862,str:13709,h:0,d0:0,d1:0;
-                                            ("ai_current_squad", VariableAccess<AI> @:13402 check:38862,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33561,d1:65535;)))
-                                    ("ai_combat_status_clear_los", VariableAccess<Short> @:13403 check:38863,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:13973,h:0,d0:33577,d1:65535;)))
+                                            ("ai_current_squad", VariableAccess<AI> @:13402 check:38862,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:12161,h:0,d0:33555,d1:65535;)))
+                                    ("ai_combat_status_clear_los", VariableAccess<Short> @:13403 check:38863,op:7,dt:7,nt:13,next:65535,nextCheck:65535,str:13973,h:0,d0:33571,d1:65535;)))
                             (____, BuiltinInvocation<Boolean> @:13404 check:38864,op:33,dt:5,nt:8,next:65535,nextCheck:65535,str:35010,h:2,d0:13405,d1:38865;
                                 ("volume_test_objects", Expression<MethodOrOperator> @:13405 check:38865,op:33,dt:2,nt:9,next:13406,nextCheck:38866,str:11142,h:0,d0:0,d1:0;
                                     ("tv_e4_cov_inf2_begin", Expression<Trigger> @:13406 check:38866,op:13,dt:13,nt:9,next:13407,nextCheck:38867,str:22917,h:0,d0:121,d1:0;

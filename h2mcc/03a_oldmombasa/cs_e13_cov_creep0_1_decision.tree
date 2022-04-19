@@ -28,11 +28,11 @@
                         ("begin", Expression<MethodOrOperator> @:5712 check:63939,op:0,dt:2,nt:9,next:5713,nextCheck:63940,str:64,h:0,d0:0,d1:0;
                             (____, BuiltinInvocation<Void> @:5713 check:63940,op:367,dt:4,nt:8,next:5717,nextCheck:63944,str:1044,h:1,d0:5714,d1:63941;
                                 ("cs_queue_command_script", Expression<MethodOrOperator> @:5714 check:63941,op:367,dt:2,nt:9,next:5715,nextCheck:63942,str:11444,h:0,d0:0,d1:0;
-                                    ("ai_current_actor", VariableAccess<AI> @:5715 check:63942,op:19,dt:19,nt:13,next:5716,nextCheck:63943,str:4350,h:0,d0:33562,d1:65535;
+                                    ("ai_current_actor", VariableAccess<AI> @:5715 check:63942,op:19,dt:19,nt:13,next:5716,nextCheck:63943,str:4350,h:0,d0:33556,d1:65535;
                                         ("cs_e13_cov_creep0_drive1", Expression<AIScript> @:5716 check:63943,op:21,dt:21,nt:9,next:65535,nextCheck:65535,str:12122,h:0,d0:164,d1:0;))))
                             (____, BuiltinInvocation<Void> @:5717 check:63944,op:334,dt:4,nt:8,next:65535,nextCheck:65535,str:1116,h:1,d0:5718,d1:63945;
                                 ("ai_set_orders", Expression<MethodOrOperator> @:5718 check:63945,op:334,dt:2,nt:9,next:5719,nextCheck:63946,str:12147,h:0,d0:0,d1:0;
-                                    ("ai_current_squad", VariableAccess<AI> @:5719 check:63946,op:19,dt:19,nt:13,next:5720,nextCheck:63947,str:12161,h:0,d0:33561,d1:65535;
+                                    ("ai_current_squad", VariableAccess<AI> @:5719 check:63946,op:19,dt:19,nt:13,next:5720,nextCheck:63947,str:12161,h:0,d0:33555,d1:65535;
                                         ("e13_cov_creep0_defend", Expression<AIOrders> @:5720 check:63947,op:23,dt:23,nt:9,next:65535,nextCheck:65535,str:12178,h:0,d0:176,d1:0;))))))
                     (____, BuiltinInvocation<Void> @:5721 check:63948,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:1206,h:1,d0:5722,d1:63949;
                         ("begin", Expression<MethodOrOperator> @:5722 check:63949,op:0,dt:2,nt:9,next:5723,nextCheck:63950,str:64,h:0,d0:0,d1:0;
@@ -53,13 +53,13 @@
                                 ("vehicle_unload", Expression<MethodOrOperator> @:5737 check:63964,op:233,dt:2,nt:9,next:5738,nextCheck:63965,str:11331,h:0,d0:0,d1:0;
                                     (____, BuiltinInvocation<Entity> @:5738 check:63965,op:340,dt:50,nt:8,next:5741,nextCheck:63968,str:1382,h:1,d0:5739,d1:63966;
                                         ("ai_vehicle_get", Expression<MethodOrOperator> @:5739 check:63966,op:340,dt:2,nt:9,next:5740,nextCheck:63967,str:4335,h:0,d0:0,d1:0;
-                                            ("ai_current_actor", VariableAccess<AI> @:5740 check:63967,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4350,h:0,d0:33562,d1:65535;)))
+                                            ("ai_current_actor", VariableAccess<AI> @:5740 check:63967,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4350,h:0,d0:33556,d1:65535;)))
                                     ("creep_p_l01", Expression<VehicleSeat> @:5741 check:63968,op:12,dt:12,nt:9,next:65535,nextCheck:65535,str:12271,h:0,d0:2,d1:1;)))
                             (____, BuiltinInvocation<Void> @:5742 check:63969,op:233,dt:4,nt:8,next:5748,nextCheck:63975,str:1435,h:1,d0:5743,d1:63970;
                                 ("vehicle_unload", Expression<MethodOrOperator> @:5743 check:63970,op:233,dt:2,nt:9,next:5744,nextCheck:63971,str:11331,h:0,d0:0,d1:0;
                                     (____, BuiltinInvocation<Entity> @:5744 check:63971,op:340,dt:50,nt:8,next:5747,nextCheck:63974,str:1451,h:1,d0:5745,d1:63972;
                                         ("ai_vehicle_get", Expression<MethodOrOperator> @:5745 check:63972,op:340,dt:2,nt:9,next:5746,nextCheck:63973,str:4335,h:0,d0:0,d1:0;
-                                            ("ai_current_actor", VariableAccess<AI> @:5746 check:63973,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4350,h:0,d0:33562,d1:65535;)))
+                                            ("ai_current_actor", VariableAccess<AI> @:5746 check:63973,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4350,h:0,d0:33556,d1:65535;)))
                                     ("creep_p_r01", Expression<VehicleSeat> @:5747 check:63974,op:12,dt:12,nt:9,next:65535,nextCheck:65535,str:12283,h:0,d0:3,d1:1;)))
                             (____, BuiltinInvocation<Void> @:5748 check:63975,op:19,dt:4,nt:8,next:5751,nextCheck:63978,str:1504,h:1,d0:5749,d1:63976;
                                 ("sleep", Expression<MethodOrOperator> @:5749 check:63976,op:19,dt:2,nt:9,next:5750,nextCheck:63977,str:143,h:0,d0:0,d1:0;
@@ -68,17 +68,17 @@
                                 ("vehicle_unload", Expression<MethodOrOperator> @:5752 check:63979,op:233,dt:2,nt:9,next:5753,nextCheck:63980,str:11331,h:0,d0:0,d1:0;
                                     (____, BuiltinInvocation<Entity> @:5753 check:63980,op:340,dt:50,nt:8,next:5756,nextCheck:63983,str:1535,h:1,d0:5754,d1:63981;
                                         ("ai_vehicle_get", Expression<MethodOrOperator> @:5754 check:63981,op:340,dt:2,nt:9,next:5755,nextCheck:63982,str:4335,h:0,d0:0,d1:0;
-                                            ("ai_current_actor", VariableAccess<AI> @:5755 check:63982,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4350,h:0,d0:33562,d1:65535;)))
+                                            ("ai_current_actor", VariableAccess<AI> @:5755 check:63982,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4350,h:0,d0:33556,d1:65535;)))
                                     ("creep_sc01", Expression<VehicleSeat> @:5756 check:63983,op:12,dt:12,nt:9,next:65535,nextCheck:65535,str:11346,h:0,d0:1,d1:1;)))
                             (____, BuiltinInvocation<Void> @:5757 check:63984,op:350,dt:4,nt:8,next:5760,nextCheck:63987,str:1587,h:1,d0:5758,d1:63985;
                                 ("ai_vehicle_exit", Expression<MethodOrOperator> @:5758 check:63985,op:350,dt:2,nt:9,next:5759,nextCheck:63986,str:11357,h:0,d0:0,d1:0;
-                                    ("ai_current_actor", VariableAccess<AI> @:5759 check:63986,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4350,h:0,d0:33562,d1:65535;)))
+                                    ("ai_current_actor", VariableAccess<AI> @:5759 check:63986,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:4350,h:0,d0:33556,d1:65535;)))
                             (____, BuiltinInvocation<Void> @:5760 check:63987,op:19,dt:4,nt:8,next:5763,nextCheck:63990,str:1626,h:1,d0:5761,d1:63988;
                                 ("sleep", Expression<MethodOrOperator> @:5761 check:63988,op:19,dt:2,nt:9,next:5762,nextCheck:63989,str:143,h:0,d0:0,d1:0;
                                     (30, Expression<Short> @:5762 check:63989,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:1633,h:1,d0:30,d1:65535;)))
                             (____, BuiltinInvocation<Void> @:5763 check:63990,op:345,dt:4,nt:8,next:65535,nextCheck:65535,str:1641,h:1,d0:5764,d1:63991;
                                 ("ai_vehicle_enter", Expression<MethodOrOperator> @:5764 check:63991,op:345,dt:2,nt:9,next:5765,nextCheck:63992,str:12295,h:0,d0:0,d1:0;
-                                    ("ai_current_actor", VariableAccess<AI> @:5765 check:63992,op:19,dt:19,nt:13,next:5766,nextCheck:63993,str:4350,h:0,d0:33562,d1:65535;
+                                    ("ai_current_actor", VariableAccess<AI> @:5765 check:63992,op:19,dt:19,nt:13,next:5766,nextCheck:63993,str:4350,h:0,d0:33556,d1:65535;
                                         (____, BuiltinInvocation<Unit> @:5766 check:63993,op:341,dt:51,nt:8,next:65535,nextCheck:65535,str:1676,h:1,d0:5767,d1:63994;
                                             ("ai_vehicle_get_from_starting_location", Expression<MethodOrOperator> @:5767 check:63994,op:341,dt:2,nt:9,next:5768,nextCheck:63995,str:4431,h:0,d0:0,d1:0;
                                                 ("e13_cov_ghosts0/ghost1", Expression<AI> @:5768 check:63995,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:12430,h:0,d0:0,d1:49277;)))))))))))))

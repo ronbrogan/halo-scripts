@@ -2,8 +2,8 @@
 ("prompt_zapper_getin", MethodDecl<Boolean> @:56 check:0,op:0,dt:0,nt:65535,next:2927,nextCheck:61154,str:11975,h:0,d0:0,d1:0;
     (____, BuiltinInvocation<Boolean> @:2927 check:61154,op:0,dt:5,nt:8,next:65535,nextCheck:65535,str:28561,h:0,d0:2928,d1:61155;
         ("begin", Expression<MethodOrOperator> @:2928 check:61155,op:0,dt:2,nt:9,next:2520,nextCheck:60747,str:31,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:2520 check:60747,op:633,dt:4,nt:8,next:2523,nextCheck:60750,str:28606,h:0,d0:2521,d1:60748;
-                ("hud_show_training_text", Expression<MethodOrOperator> @:2521 check:60748,op:633,dt:2,nt:9,next:2522,nextCheck:60749,str:1071,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:2520 check:60747,op:631,dt:4,nt:8,next:2523,nextCheck:60750,str:28606,h:0,d0:2521,d1:60748;
+                ("hud_show_training_text", Expression<MethodOrOperator> @:2521 check:60748,op:631,dt:2,nt:9,next:2522,nextCheck:60749,str:1071,h:0,d0:0,d1:0;
                     (False, Expression<Boolean> @:2522 check:60749,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:28630,h:0,d0:65280,d1:65535;)))
             (____, BuiltinInvocation<Void> @:2523 check:60750,op:2,dt:4,nt:8,next:2919,nextCheck:61146,str:28635,h:0,d0:2525,d1:60752;
                 ("if", Expression<MethodOrOperator> @:2525 check:60752,op:2,dt:2,nt:9,next:2526,nextCheck:60753,str:486,h:0,d0:0,d1:0;
@@ -20,14 +20,14 @@
                                             (____, BuiltinInvocation<Unit> @:2534 check:60761,op:285,dt:51,nt:8,next:2537,nextCheck:60764,str:28716,h:0,d0:2535,d1:60762;
                                                 ("ai_get_unit", Expression<MethodOrOperator> @:2535 check:60762,op:285,dt:2,nt:9,next:2536,nextCheck:60763,str:2500,h:0,d0:0,d1:0;
                                                     ("guns", Expression<AI> @:2536 check:60763,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1272,h:0,d0:0,d1:0;)))
-                                            ("objects\characters\marine\tutorial\tutorial", Expression<Animation> @:2537 check:60764,op:36,dt:36,nt:9,next:2538,nextCheck:60765,str:4558,h:0,d0:1401,d1:59119;
-                                                ("l01_0900_jon", Expression<StringId> @:2538 check:60765,op:11,dt:11,nt:9,next:2539,nextCheck:60766,str:4602,h:0,d0:5253,d1:3072;
+                                            ("objects\characters\marine\tutorial\tutorial", Expression<Animation> @:2537 check:60764,op:36,dt:36,nt:9,next:2538,nextCheck:60765,str:4558,h:0,d0:1406,d1:59124;
+                                                ("l01_0900_jon", Expression<StringId> @:2538 check:60765,op:11,dt:11,nt:9,next:2539,nextCheck:60766,str:4602,h:0,d0:5254,d1:3072;
                                                     (True, Expression<Boolean> @:2539 check:60766,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:28796,h:0,d0:65281,d1:65535;)))))
-                                    (____, BuiltinInvocation<Void> @:2540 check:60767,op:756,dt:4,nt:8,next:2543,nextCheck:60770,str:28814,h:0,d0:2541,d1:60768;
-                                        ("objectives_finish_up_to", Expression<MethodOrOperator> @:2541 check:60768,op:756,dt:2,nt:9,next:2542,nextCheck:60769,str:4615,h:0,d0:0,d1:0;
+                                    (____, BuiltinInvocation<Void> @:2540 check:60767,op:738,dt:4,nt:8,next:2543,nextCheck:60770,str:28814,h:0,d0:2541,d1:60768;
+                                        ("objectives_finish_up_to", Expression<MethodOrOperator> @:2541 check:60768,op:738,dt:2,nt:9,next:2542,nextCheck:60769,str:4615,h:0,d0:0,d1:0;
                                             (0, Expression<Int> @:2542 check:60769,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:28839,h:0,d0:0,d1:0;)))
-                                    (____, BuiltinInvocation<Void> @:2543 check:60770,op:755,dt:4,nt:8,next:2546,nextCheck:60773,str:28854,h:0,d0:2544,d1:60771;
-                                        ("objectives_show_up_to", Expression<MethodOrOperator> @:2544 check:60771,op:755,dt:2,nt:9,next:2545,nextCheck:60772,str:4639,h:0,d0:0,d1:0;
+                                    (____, BuiltinInvocation<Void> @:2543 check:60770,op:737,dt:4,nt:8,next:2546,nextCheck:60773,str:28854,h:0,d0:2544,d1:60771;
+                                        ("objectives_show_up_to", Expression<MethodOrOperator> @:2544 check:60771,op:737,dt:2,nt:9,next:2545,nextCheck:60772,str:4639,h:0,d0:0,d1:0;
                                             (1, Expression<Int> @:2545 check:60772,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:28877,h:0,d0:1,d1:0;)))
                                     (____, BuiltinInvocation<Void> @:2546 check:60773,op:19,dt:4,nt:8,next:2549,nextCheck:60776,str:28892,h:0,d0:2547,d1:60774;
                                         ("sleep", Expression<MethodOrOperator> @:2547 check:60774,op:19,dt:2,nt:9,next:2548,nextCheck:60775,str:110,h:0,d0:0,d1:0;
@@ -37,7 +37,7 @@
                                             ("step on in. i'll show you.", Expression<String> @:2551 check:60778,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:4661,h:0,d0:4661,d1:0;)))
                                     (____, BuiltinInvocation<Void> @:2552 check:60779,op:598,dt:4,nt:8,next:2559,nextCheck:60786,str:28964,h:0,d0:2553,d1:60780;
                                         ("sound_impulse_start", Expression<MethodOrOperator> @:2553 check:60780,op:598,dt:2,nt:9,next:2554,nextCheck:60781,str:1944,h:0,d0:0,d1:0;
-                                            ("sound\dialog\levels\01_spacestation\mission\l01_0900_gun", Expression<Sound> @:2554 check:60781,op:32,dt:32,nt:9,next:2555,nextCheck:60782,str:4688,h:0,d0:1403,d1:59121;
+                                            ("sound\dialog\levels\01_spacestation\mission\l01_0900_gun", Expression<Sound> @:2554 check:60781,op:32,dt:32,nt:9,next:2555,nextCheck:60782,str:4688,h:0,d0:1408,d1:59126;
                                                 (____, BuiltinInvocation<Entity> @:2555 check:60782,op:284,dt:50,nt:8,next:2558,nextCheck:60785,str:29042,h:0,d0:2556,d1:60783;
                                                     ("ai_get_object", Expression<MethodOrOperator> @:2556 check:60783,op:284,dt:2,nt:9,next:2557,nextCheck:60784,str:1258,h:0,d0:0,d1:0;
                                                         ("guns", Expression<AI> @:2557 check:60784,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1272,h:0,d0:0,d1:0;)))
@@ -47,11 +47,11 @@
                                             ("timer_prompt_zapper", VariableAccess<Short> @:2561 check:60788,op:65535,dt:7,nt:13,next:2562,nextCheck:60789,str:3653,h:0,d0:39,d1:0;
                                                 (____, BuiltinInvocation<Short> @:2562 check:60789,op:9,dt:7,nt:8,next:65535,nextCheck:65535,str:29103,h:0,d0:2563,d1:60790;
                                                     ("*", Expression<MethodOrOperator> @:2563 check:60790,op:9,dt:2,nt:9,next:2564,nextCheck:60791,str:16,h:0,d0:0,d1:0;
-                                                        (-4.7977747E+27f, BuiltinInvocation<Float> @:2564 check:60791,op:946,dt:6,nt:8,next:2566,nextCheck:60793,str:29106,h:0,d0:2565,d1:60792;
-                                                            ("game_tick_rate_scalar", Expression<MethodOrOperator> @:2565 check:60792,op:946,dt:2,nt:9,next:65535,nextCheck:65535,str:2045,h:0,d0:0,d1:0;))
+                                                        (-4.7977747E+27f, BuiltinInvocation<Float> @:2564 check:60791,op:906,dt:6,nt:8,next:2566,nextCheck:60793,str:29106,h:0,d0:2565,d1:60792;
+                                                            ("game_tick_rate_scalar", Expression<MethodOrOperator> @:2565 check:60792,op:906,dt:2,nt:9,next:65535,nextCheck:65535,str:2045,h:0,d0:0,d1:0;))
                                                         (-4.836461E+27f, BuiltinInvocation<Float> @:2566 check:60793,op:603,dt:6,nt:8,next:65535,nextCheck:65535,str:29130,h:0,d0:2567,d1:60794;
                                                             ("sound_impulse_language_time", Expression<MethodOrOperator> @:2567 check:60794,op:603,dt:2,nt:9,next:2568,nextCheck:60795,str:2067,h:0,d0:0,d1:0;
-                                                                ("sound\dialog\levels\01_spacestation\mission\l01_0900_gun", Expression<Sound> @:2568 check:60795,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:4688,h:0,d0:1403,d1:59121;))))))))
+                                                                ("sound\dialog\levels\01_spacestation\mission\l01_0900_gun", Expression<Sound> @:2568 check:60795,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:4688,h:0,d0:1408,d1:59126;))))))))
                                     (____, BuiltinInvocation<Void> @:2569 check:60796,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:29231,h:0,d0:2570,d1:60797;
                                         ("set", Expression<MethodOrOperator> @:2570 check:60797,op:4,dt:2,nt:9,next:2571,nextCheck:60798,str:2021,h:0,d0:0,d1:0;
                                             ("timer_prompt_zapper_getin", VariableAccess<Short> @:2571 check:60798,op:65535,dt:7,nt:13,next:2572,nextCheck:60799,str:4745,h:0,d0:41,d1:0;
@@ -81,7 +81,7 @@
                                                     ("step into the red sqaure, chief, and we'll get started.", Expression<String> @:2592 check:60819,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:4771,h:0,d0:4771,d1:0;)))
                                             (____, BuiltinInvocation<Void> @:2593 check:60820,op:598,dt:4,nt:8,next:2600,nextCheck:60827,str:29541,h:0,d0:2594,d1:60821;
                                                 ("sound_impulse_start", Expression<MethodOrOperator> @:2594 check:60821,op:598,dt:2,nt:9,next:2595,nextCheck:60822,str:1944,h:0,d0:0,d1:0;
-                                                    ("sound\dialog\levels\01_spacestation\mission\l01_3230_gun", Expression<Sound> @:2595 check:60822,op:32,dt:32,nt:9,next:2596,nextCheck:60823,str:4827,h:0,d0:1404,d1:59122;
+                                                    ("sound\dialog\levels\01_spacestation\mission\l01_3230_gun", Expression<Sound> @:2595 check:60822,op:32,dt:32,nt:9,next:2596,nextCheck:60823,str:4827,h:0,d0:1409,d1:59127;
                                                         (____, BuiltinInvocation<Entity> @:2596 check:60823,op:284,dt:50,nt:8,next:2599,nextCheck:60826,str:29619,h:0,d0:2597,d1:60824;
                                                             ("ai_get_object", Expression<MethodOrOperator> @:2597 check:60824,op:284,dt:2,nt:9,next:2598,nextCheck:60825,str:1258,h:0,d0:0,d1:0;
                                                                 ("guns", Expression<AI> @:2598 check:60825,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1272,h:0,d0:0,d1:0;)))
@@ -91,11 +91,11 @@
                                                     ("timer_prompt_zapper", VariableAccess<Short> @:2602 check:60829,op:65535,dt:7,nt:13,next:2603,nextCheck:60830,str:3653,h:0,d0:39,d1:0;
                                                         (____, BuiltinInvocation<Short> @:2603 check:60830,op:9,dt:7,nt:8,next:65535,nextCheck:65535,str:29680,h:0,d0:2604,d1:60831;
                                                             ("*", Expression<MethodOrOperator> @:2604 check:60831,op:9,dt:2,nt:9,next:2605,nextCheck:60832,str:16,h:0,d0:0,d1:0;
-                                                                (-6.229924E+27f, BuiltinInvocation<Float> @:2605 check:60832,op:946,dt:6,nt:8,next:2607,nextCheck:60834,str:29683,h:0,d0:2606,d1:60833;
-                                                                    ("game_tick_rate_scalar", Expression<MethodOrOperator> @:2606 check:60833,op:946,dt:2,nt:9,next:65535,nextCheck:65535,str:2045,h:0,d0:0,d1:0;))
+                                                                (-6.229924E+27f, BuiltinInvocation<Float> @:2605 check:60832,op:906,dt:6,nt:8,next:2607,nextCheck:60834,str:29683,h:0,d0:2606,d1:60833;
+                                                                    ("game_tick_rate_scalar", Expression<MethodOrOperator> @:2606 check:60833,op:906,dt:2,nt:9,next:65535,nextCheck:65535,str:2045,h:0,d0:0,d1:0;))
                                                                 (-6.3072966E+27f, BuiltinInvocation<Float> @:2607 check:60834,op:603,dt:6,nt:8,next:65535,nextCheck:65535,str:29707,h:0,d0:2608,d1:60835;
                                                                     ("sound_impulse_language_time", Expression<MethodOrOperator> @:2608 check:60835,op:603,dt:2,nt:9,next:2609,nextCheck:60836,str:2067,h:0,d0:0,d1:0;
-                                                                        ("sound\dialog\levels\01_spacestation\mission\l01_3230_gun", Expression<Sound> @:2609 check:60836,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:4827,h:0,d0:1404,d1:59122;))))))))
+                                                                        ("sound\dialog\levels\01_spacestation\mission\l01_3230_gun", Expression<Sound> @:2609 check:60836,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:4827,h:0,d0:1409,d1:59127;))))))))
                                             (____, BuiltinInvocation<Void> @:2610 check:60837,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:29808,h:0,d0:2611,d1:60838;
                                                 ("set", Expression<MethodOrOperator> @:2611 check:60838,op:4,dt:2,nt:9,next:2612,nextCheck:60839,str:2021,h:0,d0:0,d1:0;
                                                     ("timer_prompt_zapper_getin", VariableAccess<Short> @:2612 check:60839,op:65535,dt:7,nt:13,next:2613,nextCheck:60840,str:4745,h:0,d0:41,d1:0;
@@ -125,7 +125,7 @@
                                                             ("chief? stand in the red square.", Expression<String> @:2633 check:60860,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:4884,h:0,d0:4884,d1:0;)))
                                                     (____, BuiltinInvocation<Void> @:2634 check:60861,op:598,dt:4,nt:8,next:2641,nextCheck:60868,str:30094,h:0,d0:2635,d1:60862;
                                                         ("sound_impulse_start", Expression<MethodOrOperator> @:2635 check:60862,op:598,dt:2,nt:9,next:2636,nextCheck:60863,str:1944,h:0,d0:0,d1:0;
-                                                            ("sound\dialog\levels\01_spacestation\mission\l01_3240_gun", Expression<Sound> @:2636 check:60863,op:32,dt:32,nt:9,next:2637,nextCheck:60864,str:4916,h:0,d0:1405,d1:59123;
+                                                            ("sound\dialog\levels\01_spacestation\mission\l01_3240_gun", Expression<Sound> @:2636 check:60863,op:32,dt:32,nt:9,next:2637,nextCheck:60864,str:4916,h:0,d0:1410,d1:59128;
                                                                 (____, BuiltinInvocation<Entity> @:2637 check:60864,op:284,dt:50,nt:8,next:2640,nextCheck:60867,str:30172,h:0,d0:2638,d1:60865;
                                                                     ("ai_get_object", Expression<MethodOrOperator> @:2638 check:60865,op:284,dt:2,nt:9,next:2639,nextCheck:60866,str:1258,h:0,d0:0,d1:0;
                                                                         ("guns", Expression<AI> @:2639 check:60866,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1272,h:0,d0:0,d1:0;)))
@@ -135,11 +135,11 @@
                                                             ("timer_prompt_zapper", VariableAccess<Short> @:2643 check:60870,op:65535,dt:7,nt:13,next:2644,nextCheck:60871,str:3653,h:0,d0:39,d1:0;
                                                                 (____, BuiltinInvocation<Short> @:2644 check:60871,op:9,dt:7,nt:8,next:65535,nextCheck:65535,str:30233,h:0,d0:2645,d1:60872;
                                                                     ("*", Expression<MethodOrOperator> @:2645 check:60872,op:9,dt:2,nt:9,next:2646,nextCheck:60873,str:16,h:0,d0:0,d1:0;
-                                                                        (-7.816059E+27f, BuiltinInvocation<Float> @:2646 check:60873,op:946,dt:6,nt:8,next:2648,nextCheck:60875,str:30236,h:0,d0:2647,d1:60874;
-                                                                            ("game_tick_rate_scalar", Expression<MethodOrOperator> @:2647 check:60874,op:946,dt:2,nt:9,next:65535,nextCheck:65535,str:2045,h:0,d0:0,d1:0;))
+                                                                        (-7.816059E+27f, BuiltinInvocation<Float> @:2646 check:60873,op:906,dt:6,nt:8,next:2648,nextCheck:60875,str:30236,h:0,d0:2647,d1:60874;
+                                                                            ("game_tick_rate_scalar", Expression<MethodOrOperator> @:2647 check:60874,op:906,dt:2,nt:9,next:65535,nextCheck:65535,str:2045,h:0,d0:0,d1:0;))
                                                                         (-7.8934314E+27f, BuiltinInvocation<Float> @:2648 check:60875,op:603,dt:6,nt:8,next:65535,nextCheck:65535,str:30260,h:0,d0:2649,d1:60876;
                                                                             ("sound_impulse_language_time", Expression<MethodOrOperator> @:2649 check:60876,op:603,dt:2,nt:9,next:2650,nextCheck:60877,str:2067,h:0,d0:0,d1:0;
-                                                                                ("sound\dialog\levels\01_spacestation\mission\l01_3240_gun", Expression<Sound> @:2650 check:60877,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:4916,h:0,d0:1405,d1:59123;))))))))
+                                                                                ("sound\dialog\levels\01_spacestation\mission\l01_3240_gun", Expression<Sound> @:2650 check:60877,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:4916,h:0,d0:1410,d1:59128;))))))))
                                                     (____, BuiltinInvocation<Void> @:2651 check:60878,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:30361,h:0,d0:2652,d1:60879;
                                                         ("set", Expression<MethodOrOperator> @:2652 check:60879,op:4,dt:2,nt:9,next:2653,nextCheck:60880,str:2021,h:0,d0:0,d1:0;
                                                             ("timer_prompt_zapper_getin", VariableAccess<Short> @:2653 check:60880,op:65535,dt:7,nt:13,next:2654,nextCheck:60881,str:4745,h:0,d0:41,d1:0;
@@ -169,7 +169,7 @@
                                                                     ("you have to stand in the red square before we can start the test.", Expression<String> @:2674 check:60901,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:4973,h:0,d0:4973,d1:0;)))
                                                             (____, BuiltinInvocation<Void> @:2675 check:60902,op:598,dt:4,nt:8,next:2682,nextCheck:60909,str:30682,h:0,d0:2676,d1:60903;
                                                                 ("sound_impulse_start", Expression<MethodOrOperator> @:2676 check:60903,op:598,dt:2,nt:9,next:2677,nextCheck:60904,str:1944,h:0,d0:0,d1:0;
-                                                                    ("sound\dialog\levels\01_spacestation\mission\l01_3250_gun", Expression<Sound> @:2677 check:60904,op:32,dt:32,nt:9,next:2678,nextCheck:60905,str:5039,h:0,d0:1406,d1:59124;
+                                                                    ("sound\dialog\levels\01_spacestation\mission\l01_3250_gun", Expression<Sound> @:2677 check:60904,op:32,dt:32,nt:9,next:2678,nextCheck:60905,str:5039,h:0,d0:1411,d1:59129;
                                                                         (____, BuiltinInvocation<Entity> @:2678 check:60905,op:284,dt:50,nt:8,next:2681,nextCheck:60908,str:30760,h:0,d0:2679,d1:60906;
                                                                             ("ai_get_object", Expression<MethodOrOperator> @:2679 check:60906,op:284,dt:2,nt:9,next:2680,nextCheck:60907,str:1258,h:0,d0:0,d1:0;
                                                                                 ("guns", Expression<AI> @:2680 check:60907,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1272,h:0,d0:0,d1:0;)))
@@ -179,11 +179,11 @@
                                                                     ("timer_prompt_zapper", VariableAccess<Short> @:2684 check:60911,op:65535,dt:7,nt:13,next:2685,nextCheck:60912,str:3653,h:0,d0:39,d1:0;
                                                                         (____, BuiltinInvocation<Short> @:2685 check:60912,op:9,dt:7,nt:8,next:65535,nextCheck:65535,str:30821,h:0,d0:2686,d1:60913;
                                                                             ("*", Expression<MethodOrOperator> @:2686 check:60913,op:9,dt:2,nt:9,next:2687,nextCheck:60914,str:16,h:0,d0:0,d1:0;
-                                                                                (-9.402194E+27f, BuiltinInvocation<Float> @:2687 check:60914,op:946,dt:6,nt:8,next:2689,nextCheck:60916,str:30824,h:0,d0:2688,d1:60915;
-                                                                                    ("game_tick_rate_scalar", Expression<MethodOrOperator> @:2688 check:60915,op:946,dt:2,nt:9,next:65535,nextCheck:65535,str:2045,h:0,d0:0,d1:0;))
+                                                                                (-9.402194E+27f, BuiltinInvocation<Float> @:2687 check:60914,op:906,dt:6,nt:8,next:2689,nextCheck:60916,str:30824,h:0,d0:2688,d1:60915;
+                                                                                    ("game_tick_rate_scalar", Expression<MethodOrOperator> @:2688 check:60915,op:906,dt:2,nt:9,next:65535,nextCheck:65535,str:2045,h:0,d0:0,d1:0;))
                                                                                 (-9.4795663E+27f, BuiltinInvocation<Float> @:2689 check:60916,op:603,dt:6,nt:8,next:65535,nextCheck:65535,str:30848,h:0,d0:2690,d1:60917;
                                                                                     ("sound_impulse_language_time", Expression<MethodOrOperator> @:2690 check:60917,op:603,dt:2,nt:9,next:2691,nextCheck:60918,str:2067,h:0,d0:0,d1:0;
-                                                                                        ("sound\dialog\levels\01_spacestation\mission\l01_3250_gun", Expression<Sound> @:2691 check:60918,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:5039,h:0,d0:1406,d1:59124;))))))))
+                                                                                        ("sound\dialog\levels\01_spacestation\mission\l01_3250_gun", Expression<Sound> @:2691 check:60918,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:5039,h:0,d0:1411,d1:59129;))))))))
                                                             (____, BuiltinInvocation<Void> @:2692 check:60919,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:30949,h:0,d0:2693,d1:60920;
                                                                 ("set", Expression<MethodOrOperator> @:2693 check:60920,op:4,dt:2,nt:9,next:2694,nextCheck:60921,str:2021,h:0,d0:0,d1:0;
                                                                     ("timer_prompt_zapper_getin", VariableAccess<Short> @:2694 check:60921,op:65535,dt:7,nt:13,next:2695,nextCheck:60922,str:4745,h:0,d0:41,d1:0;
@@ -221,7 +221,7 @@
                                                                             ("go ahead and stand in the red sqaure.� it'll just take a minute.", Expression<String> @:2723 check:60950,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:5096,h:0,d0:5096,d1:0;)))
                                                                     (____, BuiltinInvocation<Void> @:2724 check:60951,op:598,dt:4,nt:8,next:2731,nextCheck:60958,str:31340,h:0,d0:2725,d1:60952;
                                                                         ("sound_impulse_start", Expression<MethodOrOperator> @:2725 check:60952,op:598,dt:2,nt:9,next:2726,nextCheck:60953,str:1944,h:0,d0:0,d1:0;
-                                                                            ("sound\dialog\levels\01_spacestation\mission\l01_3260_gun", Expression<Sound> @:2726 check:60953,op:32,dt:32,nt:9,next:2727,nextCheck:60954,str:5161,h:0,d0:1407,d1:59125;
+                                                                            ("sound\dialog\levels\01_spacestation\mission\l01_3260_gun", Expression<Sound> @:2726 check:60953,op:32,dt:32,nt:9,next:2727,nextCheck:60954,str:5161,h:0,d0:1412,d1:59130;
                                                                                 (____, BuiltinInvocation<Entity> @:2727 check:60954,op:284,dt:50,nt:8,next:2730,nextCheck:60957,str:31418,h:0,d0:2728,d1:60955;
                                                                                     ("ai_get_object", Expression<MethodOrOperator> @:2728 check:60955,op:284,dt:2,nt:9,next:2729,nextCheck:60956,str:1258,h:0,d0:0,d1:0;
                                                                                         ("guns", Expression<AI> @:2729 check:60956,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1272,h:0,d0:0,d1:0;)))
@@ -231,11 +231,11 @@
                                                                             ("timer_prompt_zapper", VariableAccess<Short> @:2733 check:60960,op:65535,dt:7,nt:13,next:2734,nextCheck:60961,str:3653,h:0,d0:39,d1:0;
                                                                                 (____, BuiltinInvocation<Short> @:2734 check:60961,op:9,dt:7,nt:8,next:65535,nextCheck:65535,str:31479,h:0,d0:2735,d1:60962;
                                                                                     ("*", Expression<MethodOrOperator> @:2735 check:60962,op:9,dt:2,nt:9,next:2736,nextCheck:60963,str:16,h:0,d0:0,d1:0;
-                                                                                        (-1.2692117E+28f, BuiltinInvocation<Float> @:2736 check:60963,op:946,dt:6,nt:8,next:2738,nextCheck:60965,str:31482,h:0,d0:2737,d1:60964;
-                                                                                            ("game_tick_rate_scalar", Expression<MethodOrOperator> @:2737 check:60964,op:946,dt:2,nt:9,next:65535,nextCheck:65535,str:2045,h:0,d0:0,d1:0;))
+                                                                                        (-1.2692117E+28f, BuiltinInvocation<Float> @:2736 check:60963,op:906,dt:6,nt:8,next:2738,nextCheck:60965,str:31482,h:0,d0:2737,d1:60964;
+                                                                                            ("game_tick_rate_scalar", Expression<MethodOrOperator> @:2737 check:60964,op:906,dt:2,nt:9,next:65535,nextCheck:65535,str:2045,h:0,d0:0,d1:0;))
                                                                                         (-1.2846862E+28f, BuiltinInvocation<Float> @:2738 check:60965,op:603,dt:6,nt:8,next:65535,nextCheck:65535,str:31506,h:0,d0:2739,d1:60966;
                                                                                             ("sound_impulse_language_time", Expression<MethodOrOperator> @:2739 check:60966,op:603,dt:2,nt:9,next:2740,nextCheck:60967,str:2067,h:0,d0:0,d1:0;
-                                                                                                ("sound\dialog\levels\01_spacestation\mission\l01_3260_gun", Expression<Sound> @:2740 check:60967,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:5161,h:0,d0:1407,d1:59125;))))))))
+                                                                                                ("sound\dialog\levels\01_spacestation\mission\l01_3260_gun", Expression<Sound> @:2740 check:60967,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:5161,h:0,d0:1412,d1:59130;))))))))
                                                                     (____, BuiltinInvocation<Void> @:2741 check:60968,op:4,dt:4,nt:8,next:65535,nextCheck:65535,str:31607,h:0,d0:2742,d1:60969;
                                                                         ("set", Expression<MethodOrOperator> @:2742 check:60969,op:4,dt:2,nt:9,next:2743,nextCheck:60970,str:2021,h:0,d0:0,d1:0;
                                                                             ("timer_prompt_zapper_getin", VariableAccess<Short> @:2743 check:60970,op:65535,dt:7,nt:13,next:2744,nextCheck:60971,str:4745,h:0,d0:41,d1:0;
@@ -273,7 +273,7 @@
                                                                                     ("come on, son, step into the red square.", Expression<String> @:2772 check:60999,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:5218,h:0,d0:5218,d1:0;)))
                                                                             (____, BuiltinInvocation<Void> @:2773 check:61000,op:598,dt:4,nt:8,next:2780,nextCheck:61007,str:31971,h:0,d0:2774,d1:61001;
                                                                                 ("sound_impulse_start", Expression<MethodOrOperator> @:2774 check:61001,op:598,dt:2,nt:9,next:2775,nextCheck:61002,str:1944,h:0,d0:0,d1:0;
-                                                                                    ("sound\dialog\levels\01_spacestation\mission\l01_3270_gun", Expression<Sound> @:2775 check:61002,op:32,dt:32,nt:9,next:2776,nextCheck:61003,str:5258,h:0,d0:1408,d1:59126;
+                                                                                    ("sound\dialog\levels\01_spacestation\mission\l01_3270_gun", Expression<Sound> @:2775 check:61002,op:32,dt:32,nt:9,next:2776,nextCheck:61003,str:5258,h:0,d0:1413,d1:59131;
                                                                                         (____, BuiltinInvocation<Entity> @:2776 check:61003,op:284,dt:50,nt:8,next:2779,nextCheck:61006,str:32049,h:0,d0:2777,d1:61004;
                                                                                             ("ai_get_object", Expression<MethodOrOperator> @:2777 check:61004,op:284,dt:2,nt:9,next:2778,nextCheck:61005,str:1258,h:0,d0:0,d1:0;
                                                                                                 ("guns", Expression<AI> @:2778 check:61005,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1272,h:0,d0:0,d1:0;)))
@@ -283,11 +283,11 @@
                                                                                     ("timer_prompt_zapper", VariableAccess<Short> @:2782 check:61009,op:65535,dt:7,nt:13,next:2783,nextCheck:61010,str:3653,h:0,d0:39,d1:0;
                                                                                         (____, BuiltinInvocation<Short> @:2783 check:61010,op:9,dt:7,nt:8,next:65535,nextCheck:65535,str:32110,h:0,d0:2784,d1:61011;
                                                                                             ("*", Expression<MethodOrOperator> @:2784 check:61011,op:9,dt:2,nt:9,next:2785,nextCheck:61012,str:16,h:0,d0:0,d1:0;
-                                                                                                (-1.6483366E+28f, BuiltinInvocation<Float> @:2785 check:61012,op:946,dt:6,nt:8,next:2787,nextCheck:61014,str:32113,h:0,d0:2786,d1:61013;
-                                                                                                    ("game_tick_rate_scalar", Expression<MethodOrOperator> @:2786 check:61013,op:946,dt:2,nt:9,next:65535,nextCheck:65535,str:2045,h:0,d0:0,d1:0;))
+                                                                                                (-1.6483366E+28f, BuiltinInvocation<Float> @:2785 check:61012,op:906,dt:6,nt:8,next:2787,nextCheck:61014,str:32113,h:0,d0:2786,d1:61013;
+                                                                                                    ("game_tick_rate_scalar", Expression<MethodOrOperator> @:2786 check:61013,op:906,dt:2,nt:9,next:65535,nextCheck:65535,str:2045,h:0,d0:0,d1:0;))
                                                                                                 (-1.6638111E+28f, BuiltinInvocation<Float> @:2787 check:61014,op:603,dt:6,nt:8,next:65535,nextCheck:65535,str:32137,h:0,d0:2788,d1:61015;
                                                                                                     ("sound_impulse_language_time", Expression<MethodOrOperator> @:2788 check:61015,op:603,dt:2,nt:9,next:2789,nextCheck:61016,str:2067,h:0,d0:0,d1:0;
-                                                                                                        ("sound\dialog\levels\01_spacestation\mission\l01_3270_gun", Expression<Sound> @:2789 check:61016,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:5258,h:0,d0:1408,d1:59126;))))))))
+                                                                                                        ("sound\dialog\levels\01_spacestation\mission\l01_3270_gun", Expression<Sound> @:2789 check:61016,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:5258,h:0,d0:1413,d1:59131;))))))))
                                                                             (____, BuiltinInvocation<Void> @:2790 check:61017,op:4,dt:4,nt:8,next:2797,nextCheck:61024,str:32238,h:0,d0:2791,d1:61018;
                                                                                 ("set", Expression<MethodOrOperator> @:2791 check:61018,op:4,dt:2,nt:9,next:2792,nextCheck:61019,str:2021,h:0,d0:0,d1:0;
                                                                                     ("timer_prompt_zapper_getin", VariableAccess<Short> @:2792 check:61019,op:65535,dt:7,nt:13,next:2793,nextCheck:61020,str:4745,h:0,d0:41,d1:0;
@@ -295,11 +295,11 @@
                                                                                             ("+", Expression<MethodOrOperator> @:2794 check:61021,op:7,dt:2,nt:9,next:2795,nextCheck:61022,str:1011,h:0,d0:0,d1:0;
                                                                                                 ("timer_prompt_zapper", VariableAccess<Float> @:2795 check:61022,op:6,dt:6,nt:13,next:2796,nextCheck:61023,str:3653,h:0,d0:39,d1:0;
                                                                                                     ("delay_prompt_long", VariableAccess<Float> @:2796 check:61023,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:4140,h:0,d0:8,d1:0;)))))))
-                                                                            (____, BuiltinInvocation<Void> @:2797 check:61024,op:634,dt:4,nt:8,next:2800,nextCheck:61027,str:32324,h:0,d0:2798,d1:61025;
-                                                                                ("hud_set_training_text", Expression<MethodOrOperator> @:2798 check:61025,op:634,dt:2,nt:9,next:2799,nextCheck:61026,str:1030,h:0,d0:0,d1:0;
-                                                                                    ("tutorial_zapper_getin", Expression<StringId> @:2799 check:61026,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:5315,h:0,d0:7555,d1:5376;)))
-                                                                            (____, BuiltinInvocation<Void> @:2800 check:61027,op:633,dt:4,nt:8,next:65535,nextCheck:65535,str:32382,h:0,d0:2801,d1:61028;
-                                                                                ("hud_show_training_text", Expression<MethodOrOperator> @:2801 check:61028,op:633,dt:2,nt:9,next:2802,nextCheck:61029,str:1071,h:0,d0:0,d1:0;
+                                                                            (____, BuiltinInvocation<Void> @:2797 check:61024,op:632,dt:4,nt:8,next:2800,nextCheck:61027,str:32324,h:0,d0:2798,d1:61025;
+                                                                                ("hud_set_training_text", Expression<MethodOrOperator> @:2798 check:61025,op:632,dt:2,nt:9,next:2799,nextCheck:61026,str:1030,h:0,d0:0,d1:0;
+                                                                                    ("tutorial_zapper_getin", Expression<StringId> @:2799 check:61026,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:5315,h:0,d0:7556,d1:5376;)))
+                                                                            (____, BuiltinInvocation<Void> @:2800 check:61027,op:631,dt:4,nt:8,next:65535,nextCheck:65535,str:32382,h:0,d0:2801,d1:61028;
+                                                                                ("hud_show_training_text", Expression<MethodOrOperator> @:2801 check:61028,op:631,dt:2,nt:9,next:2802,nextCheck:61029,str:1071,h:0,d0:0,d1:0;
                                                                                     (True, Expression<Boolean> @:2802 check:61029,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:32406,h:0,d0:65281,d1:65535;)))))))
                                                             (____, BuiltinInvocation<Void> @:2947 check:61174,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:28635,h:0,d0:2803,d1:61030;
                                                                 ("if", Expression<MethodOrOperator> @:2803 check:61030,op:2,dt:2,nt:9,next:2804,nextCheck:61031,str:486,h:0,d0:0,d1:0;
@@ -331,7 +331,7 @@
                                                                                             ("will you stop screwing around?� stand in the red square!", Expression<String> @:2827 check:61054,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:5337,h:0,d0:5337,d1:0;)))
                                                                                     (____, BuiltinInvocation<Void> @:2828 check:61055,op:598,dt:4,nt:8,next:2835,nextCheck:61062,str:32716,h:0,d0:2829,d1:61056;
                                                                                         ("sound_impulse_start", Expression<MethodOrOperator> @:2829 check:61056,op:598,dt:2,nt:9,next:2830,nextCheck:61057,str:1944,h:0,d0:0,d1:0;
-                                                                                            ("sound\dialog\levels\01_spacestation\mission\l01_3280_gun", Expression<Sound> @:2830 check:61057,op:32,dt:32,nt:9,next:2831,nextCheck:61058,str:5394,h:0,d0:1409,d1:59127;
+                                                                                            ("sound\dialog\levels\01_spacestation\mission\l01_3280_gun", Expression<Sound> @:2830 check:61057,op:32,dt:32,nt:9,next:2831,nextCheck:61058,str:5394,h:0,d0:1414,d1:59132;
                                                                                                 (____, BuiltinInvocation<Entity> @:2831 check:61058,op:284,dt:50,nt:8,next:2834,nextCheck:61061,str:32794,h:0,d0:2832,d1:61059;
                                                                                                     ("ai_get_object", Expression<MethodOrOperator> @:2832 check:61059,op:284,dt:2,nt:9,next:2833,nextCheck:61060,str:1258,h:0,d0:0,d1:0;
                                                                                                         ("guns", Expression<AI> @:2833 check:61060,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1272,h:0,d0:0,d1:0;)))
@@ -341,11 +341,11 @@
                                                                                             ("timer_prompt_zapper", VariableAccess<Short> @:2837 check:61064,op:65535,dt:7,nt:13,next:2838,nextCheck:61065,str:3653,h:0,d0:39,d1:0;
                                                                                                 (____, BuiltinInvocation<Short> @:2838 check:61065,op:9,dt:7,nt:8,next:65535,nextCheck:65535,str:32855,h:0,d0:2839,d1:61066;
                                                                                                     ("*", Expression<MethodOrOperator> @:2839 check:61066,op:9,dt:2,nt:9,next:2840,nextCheck:61067,str:16,h:0,d0:0,d1:0;
-                                                                                                        (-2.1670659E+28f, BuiltinInvocation<Float> @:2840 check:61067,op:946,dt:6,nt:8,next:2842,nextCheck:61069,str:32858,h:0,d0:2841,d1:61068;
-                                                                                                            ("game_tick_rate_scalar", Expression<MethodOrOperator> @:2841 check:61068,op:946,dt:2,nt:9,next:65535,nextCheck:65535,str:2045,h:0,d0:0,d1:0;))
+                                                                                                        (-2.1670659E+28f, BuiltinInvocation<Float> @:2840 check:61067,op:906,dt:6,nt:8,next:2842,nextCheck:61069,str:32858,h:0,d0:2841,d1:61068;
+                                                                                                            ("game_tick_rate_scalar", Expression<MethodOrOperator> @:2841 check:61068,op:906,dt:2,nt:9,next:65535,nextCheck:65535,str:2045,h:0,d0:0,d1:0;))
                                                                                                         (-2.1980149E+28f, BuiltinInvocation<Float> @:2842 check:61069,op:603,dt:6,nt:8,next:65535,nextCheck:65535,str:32882,h:0,d0:2843,d1:61070;
                                                                                                             ("sound_impulse_language_time", Expression<MethodOrOperator> @:2843 check:61070,op:603,dt:2,nt:9,next:2844,nextCheck:61071,str:2067,h:0,d0:0,d1:0;
-                                                                                                                ("sound\dialog\levels\01_spacestation\mission\l01_3280_gun", Expression<Sound> @:2844 check:61071,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:5394,h:0,d0:1409,d1:59127;))))))))
+                                                                                                                ("sound\dialog\levels\01_spacestation\mission\l01_3280_gun", Expression<Sound> @:2844 check:61071,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:5394,h:0,d0:1414,d1:59132;))))))))
                                                                                     (____, BuiltinInvocation<Void> @:2845 check:61072,op:4,dt:4,nt:8,next:2852,nextCheck:61079,str:32983,h:0,d0:2846,d1:61073;
                                                                                         ("set", Expression<MethodOrOperator> @:2846 check:61073,op:4,dt:2,nt:9,next:2847,nextCheck:61074,str:2021,h:0,d0:0,d1:0;
                                                                                             ("timer_prompt_zapper_getin", VariableAccess<Short> @:2847 check:61074,op:65535,dt:7,nt:13,next:2848,nextCheck:61075,str:4745,h:0,d0:41,d1:0;
@@ -353,11 +353,11 @@
                                                                                                     ("+", Expression<MethodOrOperator> @:2849 check:61076,op:7,dt:2,nt:9,next:2850,nextCheck:61077,str:1011,h:0,d0:0,d1:0;
                                                                                                         ("timer_prompt_zapper", VariableAccess<Float> @:2850 check:61077,op:6,dt:6,nt:13,next:2851,nextCheck:61078,str:3653,h:0,d0:39,d1:0;
                                                                                                             ("delay_prompt_long", VariableAccess<Float> @:2851 check:61078,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:4140,h:0,d0:8,d1:0;)))))))
-                                                                                    (____, BuiltinInvocation<Void> @:2852 check:61079,op:634,dt:4,nt:8,next:2855,nextCheck:61082,str:33069,h:0,d0:2853,d1:61080;
-                                                                                        ("hud_set_training_text", Expression<MethodOrOperator> @:2853 check:61080,op:634,dt:2,nt:9,next:2854,nextCheck:61081,str:1030,h:0,d0:0,d1:0;
-                                                                                            ("tutorial_zapper_getin", Expression<StringId> @:2854 check:61081,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:5315,h:0,d0:7555,d1:5376;)))
-                                                                                    (____, BuiltinInvocation<Void> @:2855 check:61082,op:633,dt:4,nt:8,next:65535,nextCheck:65535,str:33127,h:0,d0:2856,d1:61083;
-                                                                                        ("hud_show_training_text", Expression<MethodOrOperator> @:2856 check:61083,op:633,dt:2,nt:9,next:2857,nextCheck:61084,str:1071,h:0,d0:0,d1:0;
+                                                                                    (____, BuiltinInvocation<Void> @:2852 check:61079,op:632,dt:4,nt:8,next:2855,nextCheck:61082,str:33069,h:0,d0:2853,d1:61080;
+                                                                                        ("hud_set_training_text", Expression<MethodOrOperator> @:2853 check:61080,op:632,dt:2,nt:9,next:2854,nextCheck:61081,str:1030,h:0,d0:0,d1:0;
+                                                                                            ("tutorial_zapper_getin", Expression<StringId> @:2854 check:61081,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:5315,h:0,d0:7556,d1:5376;)))
+                                                                                    (____, BuiltinInvocation<Void> @:2855 check:61082,op:631,dt:4,nt:8,next:65535,nextCheck:65535,str:33127,h:0,d0:2856,d1:61083;
+                                                                                        ("hud_show_training_text", Expression<MethodOrOperator> @:2856 check:61083,op:631,dt:2,nt:9,next:2857,nextCheck:61084,str:1071,h:0,d0:0,d1:0;
                                                                                             (True, Expression<Boolean> @:2857 check:61084,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:33151,h:0,d0:65281,d1:65535;)))))))
                                                                     (____, BuiltinInvocation<Void> @:2950 check:61177,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:28635,h:0,d0:2858,d1:61085;
                                                                         ("if", Expression<MethodOrOperator> @:2858 check:61085,op:2,dt:2,nt:9,next:2859,nextCheck:61086,str:486,h:0,d0:0,d1:0;
@@ -389,7 +389,7 @@
                                                                                                     ("stop bustin' my balls, and step in the damn square!", Expression<String> @:2882 check:61109,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:5451,h:0,d0:5451,d1:0;)))
                                                                                             (____, BuiltinInvocation<Void> @:2883 check:61110,op:598,dt:4,nt:8,next:2890,nextCheck:61117,str:33454,h:0,d0:2884,d1:61111;
                                                                                                 ("sound_impulse_start", Expression<MethodOrOperator> @:2884 check:61111,op:598,dt:2,nt:9,next:2885,nextCheck:61112,str:1944,h:0,d0:0,d1:0;
-                                                                                                    ("sound\dialog\levels\01_spacestation\mission\l01_3290_gun", Expression<Sound> @:2885 check:61112,op:32,dt:32,nt:9,next:2886,nextCheck:61113,str:5503,h:0,d0:1410,d1:59128;
+                                                                                                    ("sound\dialog\levels\01_spacestation\mission\l01_3290_gun", Expression<Sound> @:2885 check:61112,op:32,dt:32,nt:9,next:2886,nextCheck:61113,str:5503,h:0,d0:1415,d1:59133;
                                                                                                         (____, BuiltinInvocation<Entity> @:2886 check:61113,op:284,dt:50,nt:8,next:2889,nextCheck:61116,str:33532,h:0,d0:2887,d1:61114;
                                                                                                             ("ai_get_object", Expression<MethodOrOperator> @:2887 check:61114,op:284,dt:2,nt:9,next:2888,nextCheck:61115,str:1258,h:0,d0:0,d1:0;
                                                                                                                 ("guns", Expression<AI> @:2888 check:61115,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:1272,h:0,d0:0,d1:0;)))
@@ -399,11 +399,11 @@
                                                                                                     ("timer_prompt_zapper", VariableAccess<Short> @:2892 check:61119,op:65535,dt:7,nt:13,next:2893,nextCheck:61120,str:3653,h:0,d0:39,d1:0;
                                                                                                         (____, BuiltinInvocation<Short> @:2893 check:61120,op:9,dt:7,nt:8,next:65535,nextCheck:65535,str:33593,h:0,d0:2894,d1:61121;
                                                                                                             ("*", Expression<MethodOrOperator> @:2894 check:61121,op:9,dt:2,nt:9,next:2895,nextCheck:61122,str:16,h:0,d0:0,d1:0;
-                                                                                                                (-3.0181626E+28f, BuiltinInvocation<Float> @:2895 check:61122,op:946,dt:6,nt:8,next:2897,nextCheck:61124,str:33596,h:0,d0:2896,d1:61123;
-                                                                                                                    ("game_tick_rate_scalar", Expression<MethodOrOperator> @:2896 check:61123,op:946,dt:2,nt:9,next:65535,nextCheck:65535,str:2045,h:0,d0:0,d1:0;))
+                                                                                                                (-3.0181626E+28f, BuiltinInvocation<Float> @:2895 check:61122,op:906,dt:6,nt:8,next:2897,nextCheck:61124,str:33596,h:0,d0:2896,d1:61123;
+                                                                                                                    ("game_tick_rate_scalar", Expression<MethodOrOperator> @:2896 check:61123,op:906,dt:2,nt:9,next:65535,nextCheck:65535,str:2045,h:0,d0:0,d1:0;))
                                                                                                                 (-3.0491116E+28f, BuiltinInvocation<Float> @:2897 check:61124,op:603,dt:6,nt:8,next:65535,nextCheck:65535,str:33620,h:0,d0:2898,d1:61125;
                                                                                                                     ("sound_impulse_language_time", Expression<MethodOrOperator> @:2898 check:61125,op:603,dt:2,nt:9,next:2899,nextCheck:61126,str:2067,h:0,d0:0,d1:0;
-                                                                                                                        ("sound\dialog\levels\01_spacestation\mission\l01_3290_gun", Expression<Sound> @:2899 check:61126,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:5503,h:0,d0:1410,d1:59128;))))))))
+                                                                                                                        ("sound\dialog\levels\01_spacestation\mission\l01_3290_gun", Expression<Sound> @:2899 check:61126,op:32,dt:32,nt:9,next:65535,nextCheck:65535,str:5503,h:0,d0:1415,d1:59133;))))))))
                                                                                             (____, BuiltinInvocation<Void> @:2900 check:61127,op:4,dt:4,nt:8,next:2907,nextCheck:61134,str:33721,h:0,d0:2901,d1:61128;
                                                                                                 ("set", Expression<MethodOrOperator> @:2901 check:61128,op:4,dt:2,nt:9,next:2902,nextCheck:61129,str:2021,h:0,d0:0,d1:0;
                                                                                                     ("timer_prompt_zapper_getin", VariableAccess<Short> @:2902 check:61129,op:65535,dt:7,nt:13,next:2903,nextCheck:61130,str:4745,h:0,d0:41,d1:0;
@@ -411,11 +411,11 @@
                                                                                                             ("+", Expression<MethodOrOperator> @:2904 check:61131,op:7,dt:2,nt:9,next:2905,nextCheck:61132,str:1011,h:0,d0:0,d1:0;
                                                                                                                 ("timer_prompt_zapper", VariableAccess<Float> @:2905 check:61132,op:6,dt:6,nt:13,next:2906,nextCheck:61133,str:3653,h:0,d0:39,d1:0;
                                                                                                                     ("delay_prompt_drag", VariableAccess<Float> @:2906 check:61133,op:6,dt:6,nt:13,next:65535,nextCheck:65535,str:4495,h:0,d0:9,d1:0;)))))))
-                                                                                            (____, BuiltinInvocation<Void> @:2907 check:61134,op:634,dt:4,nt:8,next:2910,nextCheck:61137,str:33807,h:0,d0:2908,d1:61135;
-                                                                                                ("hud_set_training_text", Expression<MethodOrOperator> @:2908 check:61135,op:634,dt:2,nt:9,next:2909,nextCheck:61136,str:1030,h:0,d0:0,d1:0;
-                                                                                                    ("tutorial_zapper_getin", Expression<StringId> @:2909 check:61136,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:5315,h:0,d0:7555,d1:5376;)))
-                                                                                            (____, BuiltinInvocation<Void> @:2910 check:61137,op:633,dt:4,nt:8,next:65535,nextCheck:65535,str:33865,h:0,d0:2911,d1:61138;
-                                                                                                ("hud_show_training_text", Expression<MethodOrOperator> @:2911 check:61138,op:633,dt:2,nt:9,next:2912,nextCheck:61139,str:1071,h:0,d0:0,d1:0;
+                                                                                            (____, BuiltinInvocation<Void> @:2907 check:61134,op:632,dt:4,nt:8,next:2910,nextCheck:61137,str:33807,h:0,d0:2908,d1:61135;
+                                                                                                ("hud_set_training_text", Expression<MethodOrOperator> @:2908 check:61135,op:632,dt:2,nt:9,next:2909,nextCheck:61136,str:1030,h:0,d0:0,d1:0;
+                                                                                                    ("tutorial_zapper_getin", Expression<StringId> @:2909 check:61136,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:5315,h:0,d0:7556,d1:5376;)))
+                                                                                            (____, BuiltinInvocation<Void> @:2910 check:61137,op:631,dt:4,nt:8,next:65535,nextCheck:65535,str:33865,h:0,d0:2911,d1:61138;
+                                                                                                ("hud_show_training_text", Expression<MethodOrOperator> @:2911 check:61138,op:631,dt:2,nt:9,next:2912,nextCheck:61139,str:1071,h:0,d0:0,d1:0;
                                                                                                     (True, Expression<Boolean> @:2912 check:61139,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:33889,h:0,d0:65281,d1:65535;)))))))
                                                                             (____, BuiltinInvocation<Void> @:2953 check:61180,op:2,dt:4,nt:8,next:65535,nextCheck:65535,str:28635,h:0,d0:2913,d1:61140;
                                                                                 ("if", Expression<MethodOrOperator> @:2913 check:61140,op:2,dt:2,nt:9,next:2914,nextCheck:61141,str:486,h:0,d0:0,d1:0;

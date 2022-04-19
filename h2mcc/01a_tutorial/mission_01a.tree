@@ -14,8 +14,8 @@
                         ("game_is_cooperative", Expression<MethodOrOperator> @:6628 check:64855,op:570,dt:2,nt:9,next:65535,nextCheck:65535,str:15435,h:0,d0:0,d1:0;))
                     (____, BuiltinInvocation<Void> @:6629 check:64856,op:567,dt:4,nt:8,next:65535,nextCheck:65535,str:13101,h:1,d0:6630,d1:64857;
                         ("game_won", Expression<MethodOrOperator> @:6630 check:64857,op:567,dt:2,nt:9,next:65535,nextCheck:65535,str:15455,h:0,d0:0,d1:0;))))
-            (____, BuiltinInvocation<Void> @:6631 check:64858,op:754,dt:4,nt:8,next:6633,nextCheck:64860,str:13115,h:1,d0:6632,d1:64859;
-                ("objectives_clear", Expression<MethodOrOperator> @:6632 check:64859,op:754,dt:2,nt:9,next:65535,nextCheck:65535,str:15464,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:6631 check:64858,op:736,dt:4,nt:8,next:6633,nextCheck:64860,str:13115,h:1,d0:6632,d1:64859;
+                ("objectives_clear", Expression<MethodOrOperator> @:6632 check:64859,op:736,dt:2,nt:9,next:65535,nextCheck:65535,str:15464,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:6633 check:64860,op:310,dt:4,nt:8,next:6637,nextCheck:64864,str:13136,h:1,d0:6634,d1:64861;
                 ("ai_allegiance", Expression<MethodOrOperator> @:6634 check:64861,op:310,dt:2,nt:9,next:6635,nextCheck:64862,str:15481,h:0,d0:0,d1:0;
                     ("player", Expression<Team> @:6635 check:64862,op:45,dt:45,nt:9,next:6636,nextCheck:64863,str:15495,h:0,d0:1,d1:65535;
@@ -26,8 +26,8 @@
                         (1f, Expression<Float> @:6640 check:64867,op:6,dt:6,nt:9,next:6641,nextCheck:64868,str:13179,h:1,d0:0,d1:16256;
                             (1f, Expression<Float> @:6641 check:64868,op:6,dt:6,nt:9,next:6642,nextCheck:64869,str:13181,h:1,d0:0,d1:16256;
                                 (0, Expression<Short> @:6642 check:64869,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:13183,h:1,d0:0,d1:65535;))))))
-            (____, BuiltinInvocation<Void> @:6643 check:64870,op:635,dt:4,nt:8,next:6646,nextCheck:64873,str:13190,h:1,d0:6644,d1:64871;
-                ("hud_enable_training", Expression<MethodOrOperator> @:6644 check:64871,op:635,dt:2,nt:9,next:6645,nextCheck:64872,str:7718,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6643 check:64870,op:633,dt:4,nt:8,next:6646,nextCheck:64873,str:13190,h:1,d0:6644,d1:64871;
+                ("hud_enable_training", Expression<MethodOrOperator> @:6644 check:64871,op:633,dt:2,nt:9,next:6645,nextCheck:64872,str:7718,h:0,d0:0,d1:0;
                     (False, Expression<Boolean> @:6645 check:64872,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:13211,h:1,d0:65280,d1:65535;)))
             (____, BuiltinInvocation<Void> @:6646 check:64873,op:281,dt:4,nt:8,next:6649,nextCheck:64876,str:13216,h:1,d0:6647,d1:64874;
                 ("ai_dialogue_enable", Expression<MethodOrOperator> @:6647 check:64874,op:281,dt:2,nt:9,next:6648,nextCheck:64875,str:15508,h:0,d0:0,d1:0;
@@ -42,8 +42,8 @@
             (____, BuiltinInvocation<Void> @:6656 check:64883,op:19,dt:4,nt:8,next:6659,nextCheck:64886,str:13324,h:1,d0:6657,d1:64884;
                 ("sleep", Expression<MethodOrOperator> @:6657 check:64884,op:19,dt:2,nt:9,next:6658,nextCheck:64885,str:110,h:0,d0:0,d1:0;
                     (1, Expression<Short> @:6658 check:64885,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:13331,h:1,d0:1,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:6659 check:64886,op:899,dt:4,nt:8,next:6661,nextCheck:64888,str:13336,h:1,d0:6660,d1:64887;
-                ("cache_block_for_one_frame", Expression<MethodOrOperator> @:6660 check:64887,op:899,dt:2,nt:9,next:65535,nextCheck:65535,str:15556,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:6659 check:64886,op:875,dt:4,nt:8,next:6661,nextCheck:64888,str:13336,h:1,d0:6660,d1:64887;
+                ("cache_block_for_one_frame", Expression<MethodOrOperator> @:6660 check:64887,op:875,dt:2,nt:9,next:65535,nextCheck:65535,str:15556,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:6661 check:64888,op:100,dt:4,nt:8,next:6666,nextCheck:64893,str:13366,h:1,d0:6662,d1:64889;
                 ("objects_predict_high", Expression<MethodOrOperator> @:6662 check:64889,op:100,dt:2,nt:9,next:6663,nextCheck:64890,str:15582,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<List> @:6663 check:64890,op:284,dt:31,nt:8,next:65535,nextCheck:65535,str:13388,h:1,d0:6664,d1:64891;
@@ -59,8 +59,8 @@
                     ("training_fade", Expression<ScriptReference> @:6673 check:64900,op:10,dt:10,nt:9,next:65535,nextCheck:65535,str:15634,h:0,d0:75,d1:65535;)))
             ("training_look", ScriptInvocation<Void> @:6674 check:64901,op:68,dt:4,nt:10,next:6676,nextCheck:64903,str:13484,h:1,d0:6675,d1:64902;
                 ("training_look", Expression<MethodOrOperator> @:6675 check:64902,op:68,dt:2,nt:9,next:65535,nextCheck:65535,str:15648,h:0,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:6676 check:64903,op:635,dt:4,nt:8,next:6679,nextCheck:64906,str:13528,h:1,d0:6677,d1:64904;
-                ("hud_enable_training", Expression<MethodOrOperator> @:6677 check:64904,op:635,dt:2,nt:9,next:6678,nextCheck:64905,str:7718,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6676 check:64903,op:633,dt:4,nt:8,next:6679,nextCheck:64906,str:13528,h:1,d0:6677,d1:64904;
+                ("hud_enable_training", Expression<MethodOrOperator> @:6677 check:64904,op:633,dt:2,nt:9,next:6678,nextCheck:64905,str:7718,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:6678 check:64905,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:13549,h:1,d0:65281,d1:65535;)))
             ("training_move", ScriptInvocation<Void> @:6679 check:64906,op:69,dt:4,nt:10,next:6681,nextCheck:64908,str:13554,h:1,d0:6680,d1:64907;
                 ("training_move", Expression<MethodOrOperator> @:6680 check:64907,op:69,dt:2,nt:9,next:65535,nextCheck:65535,str:15662,h:0,d0:0,d1:0;))
@@ -80,10 +80,10 @@
                     ("", Expression<String> @:6694 check:64921,op:9,dt:9,nt:9,next:6695,nextCheck:64922,str:0,h:0,d0:0,d1:0;
                         (0f, Expression<Float> @:6695 check:64922,op:6,dt:6,nt:9,next:6696,nextCheck:64923,str:13729,h:1,d0:0,d1:0;
                             (15, Expression<Short> @:6696 check:64923,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:13731,h:1,d0:15,d1:65535;)))))
-            (____, BuiltinInvocation<Void> @:6697 check:64924,op:924,dt:4,nt:8,next:6699,nextCheck:64926,str:13766,h:1,d0:6698,d1:64925;
-                ("loading_screen_fade_to_white", Expression<MethodOrOperator> @:6698 check:64925,op:924,dt:2,nt:9,next:65535,nextCheck:65535,str:15766,h:0,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:6699 check:64926,op:635,dt:4,nt:8,next:6702,nextCheck:64929,str:13799,h:1,d0:6700,d1:64927;
-                ("hud_enable_training", Expression<MethodOrOperator> @:6700 check:64927,op:635,dt:2,nt:9,next:6701,nextCheck:64928,str:7718,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:6697 check:64924,op:884,dt:4,nt:8,next:6699,nextCheck:64926,str:13766,h:1,d0:6698,d1:64925;
+                ("loading_screen_fade_to_white", Expression<MethodOrOperator> @:6698 check:64925,op:884,dt:2,nt:9,next:65535,nextCheck:65535,str:15766,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:6699 check:64926,op:633,dt:4,nt:8,next:6702,nextCheck:64929,str:13799,h:1,d0:6700,d1:64927;
+                ("hud_enable_training", Expression<MethodOrOperator> @:6700 check:64927,op:633,dt:2,nt:9,next:6701,nextCheck:64928,str:7718,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:6701 check:64928,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:13820,h:1,d0:65281,d1:65535;)))
             (____, BuiltinInvocation<Void> @:6702 check:64929,op:281,dt:4,nt:8,next:6705,nextCheck:64932,str:13825,h:1,d0:6703,d1:64930;
                 ("ai_dialogue_enable", Expression<MethodOrOperator> @:6703 check:64930,op:281,dt:2,nt:9,next:6704,nextCheck:64931,str:15508,h:0,d0:0,d1:0;

@@ -6,8 +6,8 @@
                 ("texture_cache_flush", Expression<MethodOrOperator> @:1107 check:59334,op:532,dt:2,nt:9,next:65535,nextCheck:65535,str:2470,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:1108 check:59335,op:533,dt:4,nt:8,next:1110,nextCheck:59337,str:13323,h:0,d0:1109,d1:59336;
                 ("geometry_cache_flush", Expression<MethodOrOperator> @:1109 check:59336,op:533,dt:2,nt:9,next:65535,nextCheck:65535,str:2490,h:0,d0:0,d1:0;))
-            (____, BuiltinInvocation<Void> @:1110 check:59337,op:880,dt:4,nt:8,next:1113,nextCheck:59340,str:13351,h:0,d0:1111,d1:59338;
-                ("cinematic_enable_ambience_details", Expression<MethodOrOperator> @:1111 check:59338,op:880,dt:2,nt:9,next:1112,nextCheck:59339,str:2511,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1110 check:59337,op:856,dt:4,nt:8,next:1113,nextCheck:59340,str:13351,h:0,d0:1111,d1:59338;
+                ("cinematic_enable_ambience_details", Expression<MethodOrOperator> @:1111 check:59338,op:856,dt:2,nt:9,next:1112,nextCheck:59339,str:2511,h:0,d0:0,d1:0;
                     (False, Expression<Boolean> @:1112 check:59339,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:13386,h:0,d0:65280,d1:65535;)))
             (____, BuiltinInvocation<Void> @:1113 check:59340,op:616,dt:4,nt:8,next:1118,nextCheck:59345,str:13393,h:0,d0:1114,d1:59341;
                 ("sound_class_set_gain", Expression<MethodOrOperator> @:1114 check:59341,op:616,dt:2,nt:9,next:1115,nextCheck:59342,str:2545,h:0,d0:0,d1:0;
@@ -26,21 +26,21 @@
             (____, BuiltinInvocation<Void> @:1127 check:59354,op:450,dt:4,nt:8,next:1130,nextCheck:59357,str:13494,h:0,d0:1128,d1:59355;
                 ("camera_control", Expression<MethodOrOperator> @:1128 check:59355,op:450,dt:2,nt:9,next:1129,nextCheck:59356,str:249,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:1129 check:59356,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:13510,h:0,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:1130 check:59357,op:929,dt:4,nt:8,next:1133,nextCheck:59360,str:13516,h:0,d0:1131,d1:59358;
-                ("cinematic_start_movie", Expression<MethodOrOperator> @:1131 check:59358,op:929,dt:2,nt:9,next:1132,nextCheck:59359,str:2606,h:0,d0:0,d1:0;
+            (____, BuiltinInvocation<Void> @:1130 check:59357,op:889,dt:4,nt:8,next:1133,nextCheck:59360,str:13516,h:0,d0:1131,d1:59358;
+                ("cinematic_start_movie", Expression<MethodOrOperator> @:1131 check:59358,op:889,dt:2,nt:9,next:1132,nextCheck:59359,str:2606,h:0,d0:0,d1:0;
                     ("floodlab_intra0", Expression<String> @:1132 check:59359,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:2628,h:0,d0:2628,d1:0;)))
             (____, BuiltinInvocation<Void> @:1133 check:59360,op:555,dt:4,nt:8,next:1135,nextCheck:59362,str:13560,h:0,d0:1134,d1:59361;
                 ("cinematic_start", Expression<MethodOrOperator> @:1134 check:59361,op:555,dt:2,nt:9,next:65535,nextCheck:65535,str:264,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:1135 check:59362,op:4,dt:4,nt:8,next:1139,nextCheck:59366,str:13580,h:0,d0:1136,d1:59363;
                 ("set", Expression<MethodOrOperator> @:1136 check:59363,op:4,dt:2,nt:9,next:1137,nextCheck:59364,str:2644,h:0,d0:0,d1:0;
-                    ("cinematic_letterbox_style", VariableAccess<Int> @:1137 check:59364,op:65535,dt:8,nt:13,next:1138,nextCheck:59365,str:2648,h:0,d0:33752,d1:65535;
+                    ("cinematic_letterbox_style", VariableAccess<Int> @:1137 check:59364,op:65535,dt:8,nt:13,next:1138,nextCheck:59365,str:2648,h:0,d0:33746,d1:65535;
                         (1, Expression<Int> @:1138 check:59365,op:8,dt:8,nt:9,next:65535,nextCheck:65535,str:13611,h:0,d0:1,d1:0;))))
             (____, BuiltinInvocation<Void> @:1139 check:59366,op:461,dt:4,nt:8,next:1143,nextCheck:59370,str:13616,h:0,d0:1140,d1:59367;
                 ("camera_set_field_of_view", Expression<MethodOrOperator> @:1140 check:59367,op:461,dt:2,nt:9,next:1141,nextCheck:59368,str:2674,h:0,d0:0,d1:0;
                     (60f, Expression<Float> @:1141 check:59368,op:6,dt:6,nt:9,next:1142,nextCheck:59369,str:13642,h:0,d0:0,d1:17008;
                         (0, Expression<Short> @:1142 check:59369,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:13645,h:0,d0:0,d1:65535;))))
-            (____, BuiltinInvocation<Void> @:1143 check:59370,op:905,dt:4,nt:8,next:1145,nextCheck:59372,str:13653,h:0,d0:1144,d1:59371;
-                ("cinematic_lightmap_shadow_enable", Expression<MethodOrOperator> @:1144 check:59371,op:905,dt:2,nt:9,next:65535,nextCheck:65535,str:2699,h:0,d0:0,d1:0;))
+            (____, BuiltinInvocation<Void> @:1143 check:59370,op:881,dt:4,nt:8,next:1145,nextCheck:59372,str:13653,h:0,d0:1144,d1:59371;
+                ("cinematic_lightmap_shadow_enable", Expression<MethodOrOperator> @:1144 check:59371,op:881,dt:2,nt:9,next:65535,nextCheck:65535,str:2699,h:0,d0:0,d1:0;))
             ("04_intra0_predict_stub", ScriptInvocation<Void> @:1145 check:59372,op:24,dt:4,nt:10,next:1147,nextCheck:59374,str:13764,h:0,d0:1146,d1:59373;
                 ("04_intra0_predict_stub", Expression<MethodOrOperator> @:1146 check:59373,op:24,dt:2,nt:9,next:65535,nextCheck:65535,str:2732,h:0,d0:0,d1:0;))
             (____, BuiltinInvocation<Void> @:1147 check:59374,op:596,dt:4,nt:8,next:1150,nextCheck:59377,str:13791,h:0,d0:1148,d1:59375;

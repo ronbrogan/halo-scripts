@@ -2614,15 +2614,15 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(201, Lifecycle.Static)]
         public async Task test_rumble()
         {
-            Engine.damage_object(Engine.GetTag<DamageEffectTag>("objects\\cinematics\\human\\inamberclad_to_scale\\damage_effects\\ioc_flyby", 2203591040U), await this.player0());
+            Engine.damage_object(Engine.GetTag<DamageEffectTag>("objects\\cinematics\\human\\inamberclad_to_scale\\damage_effects\\ioc_flyby", 2203656577U), await this.player0());
         }
 
         [ScriptMethod(202, Lifecycle.Static)]
         public async Task test_ioc()
         {
             Engine.object_create(ioc_effect);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\visual_effects\\inamberclad_flyby\\slipspace", 2203656577U), rupture.Entity, 1F);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\visual_effects\\inamberclad_flyby\\inamberclad_flyby", 2203787651U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\visual_effects\\inamberclad_flyby\\slipspace", 2203722114U), rupture.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\visual_effects\\inamberclad_flyby\\inamberclad_flyby", 2203853188U), default(IGameObject), 1F);
             await Engine.sleep(3);
             Engine.object_create(ioc);
             Engine.device_set_position_track(ioc.Entity, "high_charity_flyby", 0F);
@@ -2630,7 +2630,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(30);
             Engine.object_destroy(ioc_effect.Entity);
             await Engine.sleep(30);
-            Engine.damage_object(Engine.GetTag<DamageEffectTag>("objects\\cinematics\\human\\inamberclad_to_scale\\damage_effects\\ioc_flyby", 2203591040U), await this.player0());
+            Engine.damage_object(Engine.GetTag<DamageEffectTag>("objects\\cinematics\\human\\inamberclad_to_scale\\damage_effects\\ioc_flyby", 2203656577U), await this.player0());
             await Engine.sleep_until(async () => Engine.device_get_position(ioc.Entity) >= 1F);
             Engine.object_destroy(ioc.Entity);
         }
@@ -2681,7 +2681,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             Engine.cs_enable_dialogue(false);
             await Engine.sleep(60);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203918725U), Engine.ai_get_object(this.ai_current_actor), "effect");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203984262U), Engine.ai_get_object(this.ai_current_actor), "effect");
             await Engine.sleep(3);
             Engine.object_set_scale(Engine.ai_get_object(this.ai_current_actor), 0.01F, 10);
             await Engine.sleep(30);
@@ -2698,7 +2698,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(1);
             Engine.device_set_position(ice_cream_effect.Entity, 1F);
             Engine.ai_set_active_camo(ice_cream_grunt.Squad, true);
-            await Engine.sleep_until(async () => Engine.unit_has_weapon(Engine.unit(await this.player0()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head.weapon", 4237957853U)) || Engine.unit_has_weapon(Engine.unit(await this.player1()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head.weapon", 4237957853U)));
+            await Engine.sleep_until(async () => Engine.unit_has_weapon(Engine.unit(await this.player0()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head.weapon", 4238351075U)) || Engine.unit_has_weapon(Engine.unit(await this.player1()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head.weapon", 4238351075U)));
             if (this.debug)
             {
                 Engine.print("you're going to get fat!!!!! or dead...");
@@ -2721,14 +2721,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("start music 07a_01");
             }
 
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_01", 2204377484U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_01", 2204443021U), default(IGameObject), 1F);
             await Engine.sleep_until(async () => !(this.g_music_07a_01));
             if (this.debug)
             {
                 Engine.print("stop music 07a_01");
             }
 
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_01", 2204377484U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_01", 2204443021U));
         }
 
         [ScriptMethod(208, Lifecycle.Dormant)]
@@ -2740,14 +2740,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("start music 07a_02");
             }
 
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_02", 2204770706U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_02", 2204836243U), default(IGameObject), 1F);
             await Engine.sleep_until(async () => !(this.g_music_07a_02));
             if (this.debug)
             {
                 Engine.print("stop music 07a_02");
             }
 
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_02", 2204770706U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_02", 2204836243U));
         }
 
         [ScriptMethod(209, Lifecycle.Dormant)]
@@ -2759,21 +2759,21 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("start music 07a_03");
             }
 
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_03", 2205163928U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_03", 2205229465U), default(IGameObject), 1F);
             await Engine.sleep_until(async () => this.g_music_07a_03_alt);
             if (this.debug)
             {
                 Engine.print("set music 07a_03 alternate");
             }
 
-            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_03", 2205163928U), true);
+            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_03", 2205229465U), true);
             await Engine.sleep_until(async () => !(this.g_music_07a_03));
             if (this.debug)
             {
                 Engine.print("stop music 07a_03");
             }
 
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_03", 2205163928U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_03", 2205229465U));
         }
 
         [ScriptMethod(210, Lifecycle.Dormant)]
@@ -2785,21 +2785,21 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("start music 07a_04");
             }
 
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_04", 2205688224U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_04", 2205753761U), default(IGameObject), 1F);
             await Engine.sleep_until(async () => this.g_music_07a_04_alt);
             if (this.debug)
             {
                 Engine.print("set music 07a_04 alternate");
             }
 
-            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_04", 2205688224U), true);
+            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_04", 2205753761U), true);
             await Engine.sleep_until(async () => !(this.g_music_07a_04));
             if (this.debug)
             {
                 Engine.print("stop music 07a_04");
             }
 
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_04", 2205688224U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_04", 2205753761U));
         }
 
         [ScriptMethod(211, Lifecycle.Dormant)]
@@ -2811,14 +2811,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("start music 07a_05");
             }
 
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_05", 2206343594U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_05", 2206409131U), default(IGameObject), 1F);
             await Engine.sleep_until(async () => !(this.g_music_07a_05));
             if (this.debug)
             {
                 Engine.print("stop music 07a_05");
             }
 
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_05", 2206343594U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_05", 2206409131U));
         }
 
         [ScriptMethod(212, Lifecycle.Dormant)]
@@ -2830,7 +2830,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("start music 07a_06");
             }
 
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_06", 2206736816U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_06", 2206802353U), default(IGameObject), 1F);
         }
 
         [ScriptMethod(213, Lifecycle.Dormant)]
@@ -2842,21 +2842,21 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("start music 07a_07");
             }
 
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_07", 2206998964U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_07", 2207064501U), default(IGameObject), 1F);
             await Engine.sleep_until(async () => this.g_music_07a_07_alt);
             if (this.debug)
             {
                 Engine.print("set music 07a_07 alternate");
             }
 
-            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_07", 2206998964U), true);
+            Engine.sound_looping_set_alternate(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_07", 2207064501U), true);
             await Engine.sleep_until(async () => !(this.g_music_07a_07));
             if (this.debug)
             {
                 Engine.print("stop music 07a_07");
             }
 
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_07", 2206998964U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_07", 2207064501U));
         }
 
         [ScriptMethod(214, Lifecycle.Dormant)]
@@ -2868,14 +2868,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("start music 07a_08");
             }
 
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_08", 2207785408U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_08", 2207850945U), default(IGameObject), 1F);
             await Engine.sleep_until(async () => !(this.g_music_07a_08));
             if (this.debug)
             {
                 Engine.print("stop music 07a_08");
             }
 
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_08", 2207785408U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\07a_highcharity\\07a_music\\07a_08", 2207850945U));
         }
 
         [ScriptMethod(215, Lifecycle.Dormant)]
@@ -3173,24 +3173,24 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("brute: the demon has infiltrated the council chamber?!");
             }
 
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1000_bth", 4271447260U), council_sound_a.Entity, 1F);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1000_bth", 4271447260U), council_sound_b.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1000_bth", 4271447260U), council_sound_c.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1000_bth", 4271447260U), council_sound_d.Entity, 1F, 1);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1000_bth", 4271840482U), council_sound_a.Entity, 1F);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1000_bth", 4271840482U), council_sound_b.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1000_bth", 4271840482U), council_sound_c.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1000_bth", 4271840482U), council_sound_d.Entity, 1F, 1);
             await Engine.sleep(1);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1000_bth", 4271447260U)));
+            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1000_bth", 4271840482U)));
             await Engine.sleep(this.dialogue_pause);
             if (this.dialogue)
             {
                 Engine.print("brute: protect the hierarchs! seal the exits!");
             }
 
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1010_bth", 4271512797U), council_sound_a.Entity, 1F);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1010_bth", 4271512797U), council_sound_b.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1010_bth", 4271512797U), council_sound_c.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1010_bth", 4271512797U), council_sound_d.Entity, 1F, 1);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1010_bth", 4271906019U), council_sound_a.Entity, 1F);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1010_bth", 4271906019U), council_sound_b.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1010_bth", 4271906019U), council_sound_c.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1010_bth", 4271906019U), council_sound_d.Entity, 1F, 1);
             await Engine.sleep(1);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1010_bth", 4271512797U)));
+            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1010_bth", 4271906019U)));
             await Engine.sleep((short)(this.dialogue_pause * 2));
             if (this.dialogue)
             {
@@ -3236,14 +3236,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     Engine.ai_place(cortana_0.a);
                     this.g_council_exit_reminder = true;
                     await Engine.sleep(5);
-                    Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203918725U), bsp_0_holo_a.Entity, "effect");
+                    Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203984262U), bsp_0_holo_a.Entity, "effect");
                 }
                 else if (Engine.objects_distance_to_object(Engine.players(), bsp_0_holo_b.Entity) > 0F && Engine.objects_distance_to_object(Engine.players(), bsp_0_holo_b.Entity) < 2.5F)
                 {
                     Engine.ai_place(cortana_0.b);
                     this.g_council_exit_reminder = true;
                     await Engine.sleep(5);
-                    Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203918725U), bsp_0_holo_b.Entity, "effect");
+                    Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203984262U), bsp_0_holo_b.Entity, "effect");
                 }
 
                 return this.g_council_exit_reminder;
@@ -3296,7 +3296,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(1);
             Engine.ai_place(cortana_0.f);
             await Engine.sleep(5);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203918725U), bsp_0_holo_f.Entity, "effect");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203984262U), bsp_0_holo_f.Entity, "effect");
             await Engine.sleep_until(async () => Engine.objects_distance_to_object(Engine.players(), bsp_0_holo_f.Entity) > 0F && Engine.objects_distance_to_object(Engine.players(), bsp_0_holo_f.Entity) < 4F);
             this.g_music_07a_02 = true;
             if (this.dialogue)
@@ -3385,7 +3385,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(1);
             Engine.ai_place(cortana_0.i);
             await Engine.sleep(5);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203918725U), bsp_0_holo_i.Entity, "effect");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203984262U), bsp_0_holo_i.Entity, "effect");
             await Engine.sleep(90);
             await Engine.sleep_until(async () => !(Engine.volume_test_objects(tv_dervish_ledge_fr, Engine.ai_actors(prophets))) && !(Engine.volume_test_objects(tv_dervish_ledge_bk, Engine.ai_actors(prophets))));
             this.g_dervish_ledge_orders = true;
@@ -3434,29 +3434,29 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("brute: reinforce all approaches to the holding-pens!");
             }
 
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1020_bth", 4271578334U), corr_a_sound_a.Entity, 1F);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1020_bth", 4271578334U), corr_a_sound_b.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1020_bth", 4271578334U), corr_a_sound_c.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1020_bth", 4271578334U), corr_a_sound_d.Entity, 1F, 1);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1020_bth", 4271578334U)));
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1020_bth", 4271971556U), corr_a_sound_a.Entity, 1F);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1020_bth", 4271971556U), corr_a_sound_b.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1020_bth", 4271971556U), corr_a_sound_c.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1020_bth", 4271971556U), corr_a_sound_d.Entity, 1F, 1);
+            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1020_bth", 4271971556U)));
             await Engine.sleep(this.dialogue_pause);
             if (this.dialogue)
             {
                 Engine.print("brute: slay the demon on sight!");
             }
 
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1030_bth", 4271643871U), corr_a_sound_a.Entity, 1F);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1030_bth", 4271643871U), corr_a_sound_b.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1030_bth", 4271643871U), corr_a_sound_c.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1030_bth", 4271643871U), corr_a_sound_d.Entity, 1F, 1);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1030_bth", 4271643871U)));
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1030_bth", 4272037093U), corr_a_sound_a.Entity, 1F);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1030_bth", 4272037093U), corr_a_sound_b.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1030_bth", 4272037093U), corr_a_sound_c.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1030_bth", 4272037093U), corr_a_sound_d.Entity, 1F, 1);
+            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1030_bth", 4272037093U)));
             await Engine.sleep((short)(this.dialogue_pause * 5));
             await Engine.sleep_until(async () => Engine.objects_distance_to_object(Engine.players(), grand_b_holo_b.Entity) > 0F && Engine.objects_distance_to_object(Engine.players(), grand_b_holo_b.Entity) < 5F, 5);
             await this.erase_cortana();
             await Engine.sleep(1);
             Engine.ai_place(cortana_grand_b.b);
             await Engine.sleep(5);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203918725U), grand_b_holo_b.Entity, "effect");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203984262U), grand_b_holo_b.Entity, "effect");
             await Engine.sleep(30);
             if (this.dialogue)
             {
@@ -3500,7 +3500,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => (short)Engine.ai_living_count(hall_b_prophets) <= 3);
             Engine.ai_place(cortana_corridor_a.o);
             await Engine.sleep(5);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203918725U), hall_a_holo_o.Entity, "effect");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203984262U), hall_a_holo_o.Entity, "effect");
             await Engine.sleep_until(async () => Engine.objects_distance_to_object(Engine.players(), hall_a_holo_o.Entity) > 0F && Engine.objects_distance_to_object(Engine.players(), hall_a_holo_o.Entity) < 4.5F);
             if (this.dialogue)
             {
@@ -3520,7 +3520,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(1);
             Engine.ai_place(cortana_room_a.m);
             await Engine.sleep(5);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203918725U), room_a_holo_m.Entity, "effect");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203984262U), room_a_holo_m.Entity, "effect");
             await Engine.sleep_until(async () => Engine.objects_distance_to_object(Engine.players(), jail_down.Entity) > 0F && Engine.objects_distance_to_object(Engine.players(), jail_down.Entity) < 3.5F, 5);
             await Engine.sleep(15);
             if (this.dialogue)
@@ -3564,7 +3564,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(1);
             Engine.ai_place(cortana_jail.h);
             await Engine.sleep(5);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203918725U), jail_ped_h.Entity, "effect");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203984262U), jail_ped_h.Entity, "effect");
             await Engine.sleep(60);
             if (this.dialogue)
             {
@@ -3603,7 +3603,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(1);
             Engine.ai_place(cortana_jail.n);
             await Engine.sleep(5);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203918725U), jail_ped_n.Entity, "effect");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203984262U), jail_ped_n.Entity, "effect");
             await Engine.sleep(60);
             if (this.dialogue)
             {
@@ -3787,13 +3787,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 Engine.ai_place(cortana_jail.a);
                 await Engine.sleep(5);
-                Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203918725U), jail_ped_a.Entity, "effect");
+                Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203984262U), jail_ped_a.Entity, "effect");
             }
             else
             {
                 Engine.ai_place(cortana_jail.b);
                 await Engine.sleep(5);
-                Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203918725U), jail_ped_b.Entity, "effect");
+                Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203984262U), jail_ped_b.Entity, "effect");
             }
 
             await Engine.sleep(90);
@@ -3825,12 +3825,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("truth: fear not my brothers! the sacred icon is secure!");
             }
 
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0140_pot", 4270136520U), corr_b_sound_a.Entity, 1F);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0140_pot", 4270136520U), corr_b_sound_b.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0140_pot", 4270136520U), corr_b_sound_c.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0140_pot", 4270136520U), corr_b_sound_d.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0140_pot", 4270136520U), corr_b_sound_i.Entity, 1F, 1);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0140_pot", 4270136520U)));
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0140_pot", 4270529742U), corr_b_sound_a.Entity, 1F);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0140_pot", 4270529742U), corr_b_sound_b.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0140_pot", 4270529742U), corr_b_sound_c.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0140_pot", 4270529742U), corr_b_sound_d.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0140_pot", 4270529742U), corr_b_sound_i.Entity, 1F, 1);
+            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0140_pot", 4270529742U)));
             await Engine.sleep(this.dialogue_pause);
             if (this.dialogue)
             {
@@ -3842,12 +3842,12 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("truth: for that, they have our thanks!");
             }
 
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0150_pot", 4270202057U), corr_b_sound_a.Entity, 1F);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0150_pot", 4270202057U), corr_b_sound_b.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0150_pot", 4270202057U), corr_b_sound_c.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0150_pot", 4270202057U), corr_b_sound_d.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0150_pot", 4270202057U), corr_b_sound_i.Entity, 1F, 1);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0150_pot", 4270202057U)));
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0150_pot", 4270595279U), corr_b_sound_a.Entity, 1F);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0150_pot", 4270595279U), corr_b_sound_b.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0150_pot", 4270595279U), corr_b_sound_c.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0150_pot", 4270595279U), corr_b_sound_d.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0150_pot", 4270595279U), corr_b_sound_i.Entity, 1F, 1);
+            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0150_pot", 4270595279U)));
             await Engine.sleep((short)(this.dialogue_pause * 4));
             if (this.dialogue)
             {
@@ -3877,16 +3877,16 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("truth: and in doing so, put all our lives at risk!");
             }
 
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0220_pot", 4270660816U), corr_b_sound_a.Entity, 1F);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0220_pot", 4270660816U), corr_b_sound_b.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0220_pot", 4270660816U), corr_b_sound_c.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0220_pot", 4270660816U), corr_b_sound_d.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0220_pot", 4270660816U), corr_b_sound_e.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0220_pot", 4270660816U), corr_b_sound_f.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0220_pot", 4270660816U), corr_b_sound_g.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0220_pot", 4270660816U), corr_b_sound_h.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0220_pot", 4270660816U), corr_b_sound_i.Entity, 1F, 1);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0220_pot", 4270660816U)));
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0220_pot", 4271054038U), corr_b_sound_a.Entity, 1F);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0220_pot", 4271054038U), corr_b_sound_b.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0220_pot", 4271054038U), corr_b_sound_c.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0220_pot", 4271054038U), corr_b_sound_d.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0220_pot", 4271054038U), corr_b_sound_e.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0220_pot", 4271054038U), corr_b_sound_f.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0220_pot", 4271054038U), corr_b_sound_g.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0220_pot", 4271054038U), corr_b_sound_h.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0220_pot", 4271054038U), corr_b_sound_i.Entity, 1F, 1);
+            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0220_pot", 4271054038U)));
             await Engine.sleep(this.dialogue_pause);
             if (this.dialogue)
             {
@@ -3898,16 +3898,16 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("truth: will keep us safe whilst we find the path!");
             }
 
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0240_pot", 4270791890U), corr_b_sound_a.Entity, 1F);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0240_pot", 4270791890U), corr_b_sound_b.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0240_pot", 4270791890U), corr_b_sound_c.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0240_pot", 4270791890U), corr_b_sound_d.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0240_pot", 4270791890U), corr_b_sound_e.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0240_pot", 4270791890U), corr_b_sound_f.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0240_pot", 4270791890U), corr_b_sound_g.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0240_pot", 4270791890U), corr_b_sound_h.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0240_pot", 4270791890U), corr_b_sound_i.Entity, 1F, 1);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0240_pot", 4270791890U)));
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0240_pot", 4271185112U), corr_b_sound_a.Entity, 1F);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0240_pot", 4271185112U), corr_b_sound_b.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0240_pot", 4271185112U), corr_b_sound_c.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0240_pot", 4271185112U), corr_b_sound_d.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0240_pot", 4271185112U), corr_b_sound_e.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0240_pot", 4271185112U), corr_b_sound_f.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0240_pot", 4271185112U), corr_b_sound_g.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0240_pot", 4271185112U), corr_b_sound_h.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0240_pot", 4271185112U), corr_b_sound_i.Entity, 1F, 1);
+            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0240_pot", 4271185112U)));
             await Engine.sleep((short)(this.dialogue_pause * 4));
             if (this.dialogue)
             {
@@ -3944,13 +3944,13 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("truth: they ask for your allegiance, and you shall give it!");
             }
 
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0230_pot", 4270726353U), ext_a_sound_a.Entity, 1F);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0230_pot", 4270726353U), ext_a_sound_b.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0230_pot", 4270726353U), ext_a_sound_d.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0230_pot", 4270726353U), ext_a_sound_e.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0230_pot", 4270726353U), ext_a_sound_f.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0230_pot", 4270726353U), ext_a_sound_g.Entity, 1F, 1);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0230_pot", 4270726353U)));
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0230_pot", 4271119575U), ext_a_sound_a.Entity, 1F);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0230_pot", 4271119575U), ext_a_sound_b.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0230_pot", 4271119575U), ext_a_sound_d.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0230_pot", 4271119575U), ext_a_sound_e.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0230_pot", 4271119575U), ext_a_sound_f.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0230_pot", 4271119575U), ext_a_sound_g.Entity, 1F, 1);
+            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0230_pot", 4271119575U)));
             await Engine.sleep(this.dialogue_pause);
             if (this.dialogue)
             {
@@ -3987,8 +3987,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task in_amber_clad()
         {
             Engine.object_create(ioc_effect);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\visual_effects\\inamberclad_flyby\\slipspace", 2203656577U), rupture.Entity, 1F);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\visual_effects\\inamberclad_flyby\\inamberclad_flyby", 2203787651U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\visual_effects\\inamberclad_flyby\\slipspace", 2203722114U), rupture.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\visual_effects\\inamberclad_flyby\\inamberclad_flyby", 2203853188U), default(IGameObject), 1F);
             await Engine.sleep(3);
             Engine.object_create(ioc);
             Engine.device_set_position_track(ioc.Entity, "high_charity_flyby", 0F);
@@ -3996,7 +3996,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(30);
             Engine.object_destroy(ioc_effect.Entity);
             await Engine.sleep(30);
-            Engine.damage_object(Engine.GetTag<DamageEffectTag>("objects\\cinematics\\human\\inamberclad_to_scale\\damage_effects\\ioc_flyby", 2203591040U), await this.player0());
+            Engine.damage_object(Engine.GetTag<DamageEffectTag>("objects\\cinematics\\human\\inamberclad_to_scale\\damage_effects\\ioc_flyby", 2203656577U), await this.player0());
             await Engine.sleep_until(async () => Engine.device_get_position(ioc.Entity) >= 1F);
             Engine.object_destroy(ioc.Entity);
         }
@@ -4060,10 +4060,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("truth: and we shall walk it side-by-side!");
             }
 
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0180_pot", 4270398668U), ioc_sound_a.Entity, 1F);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0180_pot", 4270398668U), ioc_sound_b.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0180_pot", 4270398668U), ioc_sound_c.Entity, 1F, 1);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0180_pot", 4270398668U)));
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0180_pot", 4270791890U), ioc_sound_a.Entity, 1F);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0180_pot", 4270791890U), ioc_sound_b.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0180_pot", 4270791890U), ioc_sound_c.Entity, 1F, 1);
+            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0180_pot", 4270791890U)));
             await Engine.sleep(this.dialogue_pause);
             this.g_truth_speaking = false;
         }
@@ -4075,7 +4075,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(1);
             Engine.ai_place(cortana_3a.tram_a);
             await Engine.sleep(5);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203918725U), garden_a_holo_a.Entity, "effect");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203984262U), garden_a_holo_a.Entity, "effect");
             await Engine.sleep(120);
             await Engine.sleep_until(async () => Engine.objects_distance_to_object(Engine.players(), garden_a_holo_a.Entity) > 0F && Engine.objects_distance_to_object(Engine.players(), garden_a_holo_a.Entity) < 4F, 5);
             if (this.dialogue)
@@ -4106,10 +4106,10 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("truth: is near at hand!");
             }
 
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0320_pot", 4271316186U), ioc_sound_a.Entity, 1F);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0320_pot", 4271316186U), ioc_sound_b.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0320_pot", 4271316186U), ioc_sound_c.Entity, 1F, 1);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0320_pot", 4271316186U)));
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0320_pot", 4271709408U), ioc_sound_a.Entity, 1F);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0320_pot", 4271709408U), ioc_sound_b.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0320_pot", 4271709408U), ioc_sound_c.Entity, 1F, 1);
+            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0320_pot", 4271709408U)));
             await Engine.sleep(this.dialogue_pause);
             if (this.dialogue)
             {
@@ -4163,24 +4163,24 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("truth: at this moment, the councilors gather on halo to see the icon safely placed!");
             }
 
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0160_pot", 4270267594U), midtower_sound_a.Entity, 1F);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0160_pot", 4270267594U), midtower_sound_b.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0160_pot", 4270267594U), midtower_sound_c.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0160_pot", 4270267594U), midtower_sound_d.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0160_pot", 4270267594U), midtower_sound_e.Entity, 1F, 1);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0160_pot", 4270267594U)));
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0160_pot", 4270660816U), midtower_sound_a.Entity, 1F);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0160_pot", 4270660816U), midtower_sound_b.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0160_pot", 4270660816U), midtower_sound_c.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0160_pot", 4270660816U), midtower_sound_d.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0160_pot", 4270660816U), midtower_sound_e.Entity, 1F, 1);
+            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0160_pot", 4270660816U)));
             await Engine.sleep(this.dialogue_pause);
             if (this.dialogue)
             {
                 Engine.print("brute: rise, pack-brothers! death to the elites!");
             }
 
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1040_bth", 4271709408U), midtower_sound_a.Entity, 1F);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1040_bth", 4271709408U), midtower_sound_b.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1040_bth", 4271709408U), midtower_sound_c.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1040_bth", 4271709408U), midtower_sound_d.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1040_bth", 4271709408U), midtower_sound_e.Entity, 1F, 1);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1040_bth", 4271709408U)));
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1040_bth", 4272102630U), midtower_sound_a.Entity, 1F);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1040_bth", 4272102630U), midtower_sound_b.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1040_bth", 4272102630U), midtower_sound_c.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1040_bth", 4272102630U), midtower_sound_d.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1040_bth", 4272102630U), midtower_sound_e.Entity, 1F, 1);
+            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1040_bth", 4272102630U)));
             await Engine.sleep(this.dialogue_pause);
             if (this.dialogue)
             {
@@ -4192,24 +4192,24 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("truth: what have they to say now?");
             }
 
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0310_pot", 4271250649U), midtower_sound_a.Entity, 1F);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0310_pot", 4271250649U), midtower_sound_b.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0310_pot", 4271250649U), midtower_sound_c.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0310_pot", 4271250649U), midtower_sound_d.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0310_pot", 4271250649U), midtower_sound_e.Entity, 1F, 1);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0310_pot", 4271250649U)));
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0310_pot", 4271643871U), midtower_sound_a.Entity, 1F);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0310_pot", 4271643871U), midtower_sound_b.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0310_pot", 4271643871U), midtower_sound_c.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0310_pot", 4271643871U), midtower_sound_d.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0310_pot", 4271643871U), midtower_sound_e.Entity, 1F, 1);
+            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0310_pot", 4271643871U)));
             await Engine.sleep(this.dialogue_pause);
             if (this.dialogue)
             {
                 Engine.print("brute: once the towers are cleared, we'll drive them from the lower districts!");
             }
 
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1050_bth", 4271774945U), midtower_sound_a.Entity, 1F);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1050_bth", 4271774945U), midtower_sound_b.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1050_bth", 4271774945U), midtower_sound_c.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1050_bth", 4271774945U), midtower_sound_d.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1050_bth", 4271774945U), midtower_sound_e.Entity, 1F, 1);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1050_bth", 4271774945U)));
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1050_bth", 4272168167U), midtower_sound_a.Entity, 1F);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1050_bth", 4272168167U), midtower_sound_b.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1050_bth", 4272168167U), midtower_sound_c.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1050_bth", 4272168167U), midtower_sound_d.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1050_bth", 4272168167U), midtower_sound_e.Entity, 1F, 1);
+            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1050_bth", 4272168167U)));
         }
 
         [ScriptMethod(267, Lifecycle.Dormant)]
@@ -4226,45 +4226,45 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("truth: the great journey begins with halo!");
             }
 
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0290_pot", 4271119575U), garden_b_sound_a.Entity, 1F);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0290_pot", 4271119575U), garden_b_sound_b.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0290_pot", 4271119575U), garden_b_sound_c.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0290_pot", 4271119575U), garden_b_sound_e.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0290_pot", 4271119575U), garden_b_sound_f.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0290_pot", 4271119575U), garden_b_sound_g.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0290_pot", 4271119575U), garden_b_sound_h.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0290_pot", 4271119575U), garden_b_sound_d.Entity, 1F, 1);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0290_pot", 4271119575U)));
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0290_pot", 4271512797U), garden_b_sound_a.Entity, 1F);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0290_pot", 4271512797U), garden_b_sound_b.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0290_pot", 4271512797U), garden_b_sound_c.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0290_pot", 4271512797U), garden_b_sound_e.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0290_pot", 4271512797U), garden_b_sound_f.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0290_pot", 4271512797U), garden_b_sound_g.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0290_pot", 4271512797U), garden_b_sound_h.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0290_pot", 4271512797U), garden_b_sound_d.Entity, 1F, 1);
+            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0290_pot", 4271512797U)));
             await Engine.sleep(this.dialogue_pause);
             if (this.dialogue)
             {
                 Engine.print("brute: the elites are falling back to the mausoleum!");
             }
 
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1060_bth", 4271840482U), garden_b_sound_a.Entity, 1F);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1060_bth", 4271840482U), garden_b_sound_b.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1060_bth", 4271840482U), garden_b_sound_c.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1060_bth", 4271840482U), garden_b_sound_e.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1060_bth", 4271840482U), garden_b_sound_f.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1060_bth", 4271840482U), garden_b_sound_g.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1060_bth", 4271840482U), garden_b_sound_h.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1060_bth", 4271840482U), garden_b_sound_d.Entity, 1F, 1);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1060_bth", 4271840482U)));
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1060_bth", 4272233704U), garden_b_sound_a.Entity, 1F);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1060_bth", 4272233704U), garden_b_sound_b.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1060_bth", 4272233704U), garden_b_sound_c.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1060_bth", 4272233704U), garden_b_sound_e.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1060_bth", 4272233704U), garden_b_sound_f.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1060_bth", 4272233704U), garden_b_sound_g.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1060_bth", 4272233704U), garden_b_sound_h.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1060_bth", 4272233704U), garden_b_sound_d.Entity, 1F, 1);
+            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1060_bth", 4272233704U)));
             await Engine.sleep(this.dialogue_pause);
             if (this.dialogue)
             {
                 Engine.print("brute: fools! their arbiter can do nothing for them now!");
             }
 
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1070_bth", 4271906019U), garden_b_sound_a.Entity, 1F);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1070_bth", 4271906019U), garden_b_sound_b.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1070_bth", 4271906019U), garden_b_sound_c.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1070_bth", 4271906019U), garden_b_sound_e.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1070_bth", 4271906019U), garden_b_sound_f.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1070_bth", 4271906019U), garden_b_sound_g.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1070_bth", 4271906019U), garden_b_sound_h.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1070_bth", 4271906019U), garden_b_sound_d.Entity, 1F, 1);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1070_bth", 4271906019U)));
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1070_bth", 4272299241U), garden_b_sound_a.Entity, 1F);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1070_bth", 4272299241U), garden_b_sound_b.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1070_bth", 4272299241U), garden_b_sound_c.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1070_bth", 4272299241U), garden_b_sound_e.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1070_bth", 4272299241U), garden_b_sound_f.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1070_bth", 4272299241U), garden_b_sound_g.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1070_bth", 4272299241U), garden_b_sound_h.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1070_bth", 4272299241U), garden_b_sound_d.Entity, 1F, 1);
+            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_1070_bth", 4272299241U)));
             await Engine.sleep(this.dialogue_pause);
             if (this.dialogue)
             {
@@ -4276,15 +4276,15 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("truth: what have we foretold that has not come to pass?");
             }
 
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0300_pot", 4271185112U), garden_b_sound_a.Entity, 1F);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0300_pot", 4271185112U), garden_b_sound_b.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0300_pot", 4271185112U), garden_b_sound_c.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0300_pot", 4271185112U), garden_b_sound_e.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0300_pot", 4271185112U), garden_b_sound_f.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0300_pot", 4271185112U), garden_b_sound_g.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0300_pot", 4271185112U), garden_b_sound_h.Entity, 1F, 1);
-            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0300_pot", 4271185112U), garden_b_sound_d.Entity, 1F, 1);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0300_pot", 4271185112U)));
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0300_pot", 4271578334U), garden_b_sound_a.Entity, 1F);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0300_pot", 4271578334U), garden_b_sound_b.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0300_pot", 4271578334U), garden_b_sound_c.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0300_pot", 4271578334U), garden_b_sound_e.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0300_pot", 4271578334U), garden_b_sound_f.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0300_pot", 4271578334U), garden_b_sound_g.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0300_pot", 4271578334U), garden_b_sound_h.Entity, 1F, 1);
+            Engine.sound_impulse_trigger(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0300_pot", 4271578334U), garden_b_sound_d.Entity, 1F, 1);
+            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\07_highcharity\\mission\\l07_0300_pot", 4271578334U)));
         }
 
         [ScriptMethod(268, Lifecycle.Dormant)]
@@ -4322,7 +4322,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(30);
             Engine.ai_place(cortana_maus.a);
             await Engine.sleep(5);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203918725U), maus_inner_holo_a.Entity, "effect");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203984262U), maus_inner_holo_a.Entity, "effect");
             await Engine.sleep(45);
             if (this.dialogue)
             {
@@ -4341,7 +4341,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             Engine.ai_place(cortana_maus.j);
             await Engine.sleep(5);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203918725U), maus_inner_holo_j.Entity, "effect");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203984262U), maus_inner_holo_j.Entity, "effect");
             await Engine.sleep_until(async () => Engine.objects_distance_to_object(Engine.players(), maus_inner_holo_j.Entity) > 0F && Engine.objects_distance_to_object(Engine.players(), maus_inner_holo_j.Entity) < 6F, 30, 30 * 60 * 2);
             if (this.dialogue)
             {
@@ -4380,7 +4380,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(1);
             Engine.ai_place(cortana_maus.f);
             await Engine.sleep(5);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203918725U), maus_inner_holo_f.Entity, "effect");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203984262U), maus_inner_holo_f.Entity, "effect");
             Engine.device_one_sided_set(maus_inner_exit.Entity, false);
             await Engine.sleep(1);
             await Engine.sleep_until(async () => Engine.objects_distance_to_object(Engine.players(), maus_inner_holo_f.Entity) > 0F && Engine.objects_distance_to_object(Engine.players(), maus_inner_holo_f.Entity) < 7F, 5);
@@ -6044,7 +6044,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(1);
             Engine.ai_place(cortana_jail.p);
             await Engine.sleep(5);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203918725U), jail_ped_p.Entity, "effect");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203984262U), jail_ped_p.Entity, "effect");
             await Engine.sleep_until(async () => this.jail_a_doors_open);
             Engine.ai_disregard(Engine.ai_actors(jail_a_marines.Squad), false);
             Engine.ai_set_orders(jail_a_marines.Squad, jail_marines_mid);
@@ -6073,7 +6073,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(1);
             Engine.ai_place(cortana_jail.q);
             await Engine.sleep(5);
-            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203918725U), jail_ped_q.Entity, "effect");
+            Engine.effect_new_on_object_marker(Engine.GetTag<EffectTag>("effects\\objects\\characters\\cortana\\cortana_on_off_65", 2203984262U), jail_ped_q.Entity, "effect");
             await Engine.sleep_until(async () => this.jail_b_doors_open);
             Engine.ai_disregard(Engine.ai_actors(jail_b_marines.Squad), false);
             Engine.ai_set_orders(jail_b_marines.Squad, jail_marines_bot);
@@ -9127,8 +9127,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3883599365U), 2);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3883599365U), 3);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3883599365U), 4);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\energy_blade\\energy_blade", 3908241277U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\energy_blade\\energy_blade", 3908241277U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\energy_blade\\energy_blade", 3908634499U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\energy_blade\\energy_blade", 3908634499U), 1);
             await Engine.sleep(62);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_5"), 4, true);
             await Engine.sleep(3);
@@ -9173,7 +9173,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task _07_intra1_02_predict()
         {
             await Engine.sleep(7);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\flood_infection\\flood_infection", 3908831110U), 2);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\flood_infection\\flood_infection", 3909224332U), 2);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\forerunner\\industrial\\index\\index_full\\index_full", 3886417456U), 0);
             await Engine.sleep(72);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\vehicles\\phantom\\turrets\\chin_gun\\chin_gun", 3895264951U), 6);
@@ -9195,7 +9195,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3860792489U), 0);
             await Engine.sleep(100);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_5"), 14, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\flood_infection\\flood_infection", 3908831110U), 2);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\flood_infection\\flood_infection", 3909224332U), 2);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\brute\\brute", 3883664902U), 27);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\brute\\brute", 3883664902U), 28);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\brute\\brute", 3883664902U), 30);
@@ -9203,7 +9203,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\brute\\brute", 3883664902U), 32);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\brute\\brute", 3883664902U), 38);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\brute\\brute", 3883664902U), 41);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\flood_infection\\flood_infection", 3908831110U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\flood_infection\\flood_infection", 3909224332U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\vehicles\\phantom\\turrets\\chin_gun\\chin_gun", 3895264951U), 6);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\vehicles\\phantom\\turrets\\chin_gun\\chin_gun", 3895264951U), 7);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\special\\cooke_cutter_1x1\\cooke_cutter_1x1", 3894478507U), 0);
@@ -9220,7 +9220,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(1);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\smg\\smg", 3893298841U), 2);
             await Engine.sleep(8);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\flood_infection\\flood_infection", 3908831110U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\flood_infection\\flood_infection", 3909224332U), 1);
         }
 
         [ScriptMethod(449, Lifecycle.Dormant)]
@@ -9250,8 +9250,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3883599365U), 3);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\grunt\\grunt", 3883599365U), 4);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\smg\\smg", 3893298841U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\energy_blade\\energy_blade", 3908241277U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\energy_blade\\energy_blade", 3908241277U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\energy_blade\\energy_blade", 3908634499U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\energy_blade\\energy_blade", 3908634499U), 1);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\cinematics\\cinematic_anchor\\cinematic_anchor", 3860792489U), 0);
             await Engine.sleep(3);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\prophet\\prophet", 3887793733U), 0);
@@ -9260,7 +9260,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep(100);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_5"), 18, false);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_5"), 14, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\flood_infection\\flood_infection", 3908831110U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\flood_infection\\flood_infection", 3909224332U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\special\\cooke_cutter_1x1\\cooke_cutter_1x1", 3894478507U), 0);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\rifle\\smg\\smg", 3893298841U), 2);
             await Engine.sleep(51);
@@ -9273,7 +9273,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_5"), 10, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_5"), 11, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_5"), 12, true);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\flood_infection\\flood_infection", 3908831110U), 2);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\flood_infection\\flood_infection", 3909224332U), 2);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("scenarios\\objects\\solo\\highcharity\\high_door_grand\\high_door_grand", 3875931536U), 0);
             await Engine.sleep(9);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_5"), 11, true);
@@ -9310,8 +9310,8 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\prophet\\prophet", 3887793733U), 12);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\prophet\\prophet", 3887793733U), 2);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\prophet\\prophet", 3887793733U), 10);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\energy_blade\\energy_blade", 3908241277U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\energy_blade\\energy_blade", 3908241277U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\energy_blade\\energy_blade", 3908634499U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\energy_blade\\energy_blade", 3908634499U), 1);
             await Engine.sleep(16);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_5"), 2, true);
             Engine.predict_structure_section(Engine.GetReference<IBsp>("scenarios\\solo\\07a_highcharity\\high_5"), 5, true);
@@ -9362,11 +9362,11 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\prophet\\prophet", 3887793733U), 12);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\prophet\\prophet", 3887793733U), 2);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\prophet\\prophet", 3887793733U), 10);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\energy_blade\\energy_blade", 3908241277U), 0);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\energy_blade\\energy_blade", 3908241277U), 1);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\energy_blade\\energy_blade", 3908634499U), 0);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\energy_blade\\energy_blade", 3908634499U), 1);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\weapons\\melee\\pike\\pike", 3865511153U), 0);
             await Engine.sleep(3);
-            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\flood_infection\\flood_infection", 3908831110U), 2);
+            Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\flood_infection\\flood_infection", 3909224332U), 2);
             await Engine.sleep(27);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\prophet\\prophet", 3887793733U), 11);
             Engine.predict_model_section(Engine.GetTag<RenderModelTag>("objects\\characters\\prophet\\prophet", 3887793733U), 12);
