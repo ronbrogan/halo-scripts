@@ -8,7 +8,7 @@
                         ("ai_get_unit", Expression<MethodOrOperator> @:8471 check:33931,op:285,dt:2,nt:9,next:8472,nextCheck:33932,str:6446,h:0,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:8472 check:33932,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:6458,h:0,d0:33556,d1:65535;)))
                     ("objects\characters\elite\elite", Expression<Animation> @:8473 check:33933,op:36,dt:36,nt:9,next:8474,nextCheck:33934,str:15060,h:0,d0:2902,d1:60809;
-                        ("combat:unarmed:mortal_wound", Expression<StringId> @:8474 check:33934,op:11,dt:11,nt:9,next:8475,nextCheck:33935,str:15091,h:0,d0:8467,d1:6912;
+                        ("combat:unarmed:mortal_wound", Expression<StringId> @:8474 check:33934,op:11,dt:11,nt:9,next:8475,nextCheck:33935,str:15091,h:0,d0:8488,d1:6912;
                             (False, Expression<Boolean> @:8475 check:33935,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:41180,h:1,d0:65280,d1:65535;)))))
             (____, BuiltinInvocation<Void> @:8476 check:33936,op:228,dt:4,nt:8,next:8483,nextCheck:33943,str:41211,h:1,d0:8477,d1:33937;
                 ("unit_set_maximum_vitality", Expression<MethodOrOperator> @:8477 check:33937,op:228,dt:2,nt:9,next:8478,nextCheck:33938,str:837,h:0,d0:0,d1:0;
@@ -37,7 +37,7 @@
                     (____, BuiltinInvocation<Short> @:8500 check:33960,op:361,dt:7,nt:8,next:65535,nextCheck:65535,str:41486,h:1,d0:8501,d1:33961;
                         ("ai_play_line_at_player", Expression<MethodOrOperator> @:8501 check:33961,op:361,dt:2,nt:9,next:8502,nextCheck:33962,str:6641,h:0,d0:0,d1:0;
                             ("ai_current_actor", VariableAccess<AI> @:8502 check:33962,op:19,dt:19,nt:13,next:8503,nextCheck:33963,str:6458,h:0,d0:33556,d1:65535;
-                                ("0200", Expression<StringId> @:8503 check:33963,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:15119,h:0,d0:13013,d1:1024;))))))
+                                ("0200", Expression<StringId> @:8503 check:33963,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:15119,h:0,d0:13034,d1:1024;))))))
             (____, BuiltinInvocation<Void> @:8504 check:33964,op:19,dt:4,nt:8,next:8507,nextCheck:33967,str:41536,h:1,d0:8505,d1:33965;
                 ("sleep", Expression<MethodOrOperator> @:8505 check:33965,op:19,dt:2,nt:9,next:8506,nextCheck:33966,str:143,h:0,d0:0,d1:0;
                     (45, Expression<Short> @:8506 check:33966,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:41543,h:1,d0:45,d1:65535;)))

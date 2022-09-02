@@ -4,7 +4,7 @@
         ("begin", Expression<MethodOrOperator> @:9587 check:35047,op:0,dt:2,nt:9,next:9423,nextCheck:34883,str:6,h:0,d0:0,d1:0;
             (____, BuiltinInvocation<Void> @:9423 check:34883,op:374,dt:4,nt:8,next:9426,nextCheck:34886,str:45295,h:1,d0:9424,d1:34884;
                 ("cs_switch", Expression<MethodOrOperator> @:9424 check:34884,op:374,dt:2,nt:9,next:9425,nextCheck:34885,str:15195,h:0,d0:0,d1:0;
-                    ("chat_her_02", Expression<StringId> @:9425 check:34885,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20287,h:0,d0:12075,d1:2816;)))
+                    ("chat_her_02", Expression<StringId> @:9425 check:34885,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20287,h:0,d0:12096,d1:2816;)))
             (____, BuiltinInvocation<Void> @:9426 check:34886,op:439,dt:4,nt:8,next:9429,nextCheck:34889,str:45321,h:1,d0:9427,d1:34887;
                 ("cs_abort_on_alert", Expression<MethodOrOperator> @:9427 check:34887,op:439,dt:2,nt:9,next:9428,nextCheck:34888,str:15140,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:9428 check:34888,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:45340,h:1,d0:65281,d1:65535;)))
@@ -19,7 +19,7 @@
                     (True, Expression<Boolean> @:9437 check:34897,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:45422,h:1,d0:65281,d1:65535;)))
             (____, BuiltinInvocation<Void> @:9438 check:34898,op:374,dt:4,nt:8,next:9441,nextCheck:34901,str:45432,h:1,d0:9439,d1:34899;
                 ("cs_switch", Expression<MethodOrOperator> @:9439 check:34899,op:374,dt:2,nt:9,next:9440,nextCheck:34900,str:15195,h:0,d0:0,d1:0;
-                    ("chat_her_01", Expression<StringId> @:9440 check:34900,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20314,h:0,d0:12074,d1:2816;)))
+                    ("chat_her_01", Expression<StringId> @:9440 check:34900,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20314,h:0,d0:12095,d1:2816;)))
             (____, BuiltinInvocation<Void> @:9441 check:34901,op:439,dt:4,nt:8,next:9444,nextCheck:34904,str:45458,h:1,d0:9442,d1:34902;
                 ("cs_abort_on_alert", Expression<MethodOrOperator> @:9442 check:34902,op:439,dt:2,nt:9,next:9443,nextCheck:34903,str:15140,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:9443 check:34903,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:45477,h:1,d0:65281,d1:65535;)))
@@ -39,7 +39,7 @@
             (____, BuiltinInvocation<Void> @:9457 check:34917,op:416,dt:4,nt:8,next:9463,nextCheck:34923,str:45643,h:1,d0:9458,d1:34918;
                 ("cs_custom_animation", Expression<MethodOrOperator> @:9458 check:34918,op:416,dt:2,nt:9,next:9459,nextCheck:34919,str:20399,h:0,d0:0,d1:0;
                     ("objects\characters\elite\elite", Expression<Animation> @:9459 check:34919,op:36,dt:36,nt:9,next:9460,nextCheck:34920,str:19615,h:0,d0:1661,d1:59379;
-                        ("uplink_station", Expression<StringId> @:9460 check:34920,op:11,dt:11,nt:9,next:9461,nextCheck:34921,str:19646,h:0,d0:5457,d1:3584;
+                        ("uplink_station", Expression<StringId> @:9460 check:34920,op:11,dt:11,nt:9,next:9461,nextCheck:34921,str:19646,h:0,d0:5478,d1:3584;
                             (0f, Expression<Float> @:9461 check:34921,op:6,dt:6,nt:9,next:9462,nextCheck:34922,str:45712,h:1,d0:0,d1:0;
                                 (True, Expression<Boolean> @:9462 check:34922,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:45714,h:1,d0:65281,d1:65535;))))))
             (____, BuiltinInvocation<Void> @:9463 check:34923,op:202,dt:4,nt:8,next:9473,nextCheck:34933,str:45722,h:1,d0:9464,d1:34924;
@@ -50,11 +50,11 @@
                                 ("ai_get_object", Expression<MethodOrOperator> @:9468 check:34928,op:284,dt:2,nt:9,next:9469,nextCheck:34929,str:17926,h:0,d0:0,d1:0;
                                     ("ai_current_actor", VariableAccess<AI> @:9469 check:34929,op:19,dt:19,nt:13,next:65535,nextCheck:65535,str:17492,h:0,d0:33556,d1:65535;)))))
                     ("objects\characters\elite\elite", Expression<Animation> @:9470 check:34930,op:36,dt:36,nt:9,next:9471,nextCheck:34931,str:19615,h:0,d0:1661,d1:59379;
-                        ("uplink_station", Expression<StringId> @:9471 check:34931,op:11,dt:11,nt:9,next:9472,nextCheck:34932,str:19646,h:0,d0:5457,d1:3584;
+                        ("uplink_station", Expression<StringId> @:9471 check:34931,op:11,dt:11,nt:9,next:9472,nextCheck:34932,str:19646,h:0,d0:5478,d1:3584;
                             (True, Expression<Boolean> @:9472 check:34932,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:45833,h:1,d0:65281,d1:65535;)))))
             (____, BuiltinInvocation<Void> @:9473 check:34933,op:374,dt:4,nt:8,next:9476,nextCheck:34936,str:45843,h:1,d0:9474,d1:34934;
                 ("cs_switch", Expression<MethodOrOperator> @:9474 check:34934,op:374,dt:2,nt:9,next:9475,nextCheck:34935,str:15195,h:0,d0:0,d1:0;
-                    ("chat_her_02", Expression<StringId> @:9475 check:34935,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20287,h:0,d0:12075,d1:2816;)))
+                    ("chat_her_02", Expression<StringId> @:9475 check:34935,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20287,h:0,d0:12096,d1:2816;)))
             (____, BuiltinInvocation<Void> @:9476 check:34936,op:449,dt:4,nt:8,next:9479,nextCheck:34939,str:45869,h:1,d0:9477,d1:34937;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:9477 check:34937,op:449,dt:2,nt:9,next:9478,nextCheck:34938,str:17406,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:9478 check:34938,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:45901,h:1,d0:65281,d1:65535;)))
@@ -72,10 +72,10 @@
                     ("heretic_01: 'any word on our missing brothers?'", Expression<String> @:9490 check:34950,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:20431,h:0,d0:20431,d1:0;)))
             (____, BuiltinInvocation<Void> @:9491 check:34951,op:418,dt:4,nt:8,next:9494,nextCheck:34954,str:46045,h:1,d0:9492,d1:34952;
                 ("cs_play_line", Expression<MethodOrOperator> @:9492 check:34952,op:418,dt:2,nt:9,next:9493,nextCheck:34953,str:15288,h:0,d0:0,d1:0;
-                    ("0270", Expression<StringId> @:9493 check:34953,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20479,h:0,d0:11665,d1:1024;)))
+                    ("0270", Expression<StringId> @:9493 check:34953,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20479,h:0,d0:11686,d1:1024;)))
             (____, BuiltinInvocation<Void> @:9494 check:34954,op:374,dt:4,nt:8,next:9497,nextCheck:34957,str:46069,h:1,d0:9495,d1:34955;
                 ("cs_switch", Expression<MethodOrOperator> @:9495 check:34955,op:374,dt:2,nt:9,next:9496,nextCheck:34956,str:15195,h:0,d0:0,d1:0;
-                    ("chat_her_01", Expression<StringId> @:9496 check:34956,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20314,h:0,d0:12074,d1:2816;)))
+                    ("chat_her_01", Expression<StringId> @:9496 check:34956,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20314,h:0,d0:12095,d1:2816;)))
             (____, BuiltinInvocation<Void> @:9497 check:34957,op:200,dt:4,nt:8,next:9504,nextCheck:34964,str:46095,h:1,d0:9498,d1:34958;
                 ("unit_stop_custom_animation", Expression<MethodOrOperator> @:9498 check:34958,op:200,dt:2,nt:9,next:9499,nextCheck:34959,str:19110,h:0,d0:0,d1:0;
                     (____, BuiltinInvocation<Unit> @:9499 check:34959,op:24,dt:51,nt:8,next:65535,nextCheck:65535,str:46123,h:1,d0:9500,d1:34960;
@@ -101,7 +101,7 @@
                     ("heretic_02: 'still nothing.'", Expression<String> @:9519 check:34979,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:20492,h:0,d0:20492,d1:0;)))
             (____, BuiltinInvocation<Void> @:9520 check:34980,op:418,dt:4,nt:8,next:9523,nextCheck:34983,str:46323,h:1,d0:9521,d1:34981;
                 ("cs_play_line", Expression<MethodOrOperator> @:9521 check:34981,op:418,dt:2,nt:9,next:9522,nextCheck:34982,str:15288,h:0,d0:0,d1:0;
-                    ("0280", Expression<StringId> @:9522 check:34982,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20521,h:0,d0:11666,d1:1024;)))
+                    ("0280", Expression<StringId> @:9522 check:34982,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20521,h:0,d0:11687,d1:1024;)))
             (____, BuiltinInvocation<Void> @:9523 check:34983,op:19,dt:4,nt:8,next:9526,nextCheck:34986,str:46345,h:1,d0:9524,d1:34984;
                 ("sleep", Expression<MethodOrOperator> @:9524 check:34984,op:19,dt:2,nt:9,next:9525,nextCheck:34985,str:85,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:9525 check:34985,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:46352,h:1,d0:30,d1:65535;)))
@@ -110,13 +110,13 @@
                     ("heretic_02: 'and given what sleeps here, i fear they are lost.'", Expression<String> @:9528 check:34988,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:20526,h:0,d0:20526,d1:0;)))
             (____, BuiltinInvocation<Void> @:9529 check:34989,op:418,dt:4,nt:8,next:9532,nextCheck:34992,str:46434,h:1,d0:9530,d1:34990;
                 ("cs_play_line", Expression<MethodOrOperator> @:9530 check:34990,op:418,dt:2,nt:9,next:9531,nextCheck:34991,str:15288,h:0,d0:0,d1:0;
-                    ("0290", Expression<StringId> @:9531 check:34991,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20590,h:0,d0:11667,d1:1024;)))
+                    ("0290", Expression<StringId> @:9531 check:34991,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20590,h:0,d0:11688,d1:1024;)))
             (____, BuiltinInvocation<Void> @:9532 check:34992,op:19,dt:4,nt:8,next:9535,nextCheck:34995,str:46456,h:1,d0:9533,d1:34993;
                 ("sleep", Expression<MethodOrOperator> @:9533 check:34993,op:19,dt:2,nt:9,next:9534,nextCheck:34994,str:85,h:0,d0:0,d1:0;
                     (15, Expression<Short> @:9534 check:34994,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:46463,h:1,d0:15,d1:65535;)))
             (____, BuiltinInvocation<Void> @:9535 check:34995,op:374,dt:4,nt:8,next:9538,nextCheck:34998,str:46471,h:1,d0:9536,d1:34996;
                 ("cs_switch", Expression<MethodOrOperator> @:9536 check:34996,op:374,dt:2,nt:9,next:9537,nextCheck:34997,str:15195,h:0,d0:0,d1:0;
-                    ("chat_her_02", Expression<StringId> @:9537 check:34997,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20287,h:0,d0:12075,d1:2816;)))
+                    ("chat_her_02", Expression<StringId> @:9537 check:34997,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20287,h:0,d0:12096,d1:2816;)))
             (____, BuiltinInvocation<Void> @:9538 check:34998,op:446,dt:4,nt:8,next:9541,nextCheck:35001,str:46497,h:1,d0:9539,d1:34999;
                 ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:9539 check:34999,op:446,dt:2,nt:9,next:9540,nextCheck:35000,str:15229,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:9540 check:35000,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:46526,h:1,d0:65281,d1:65535;)))
@@ -125,13 +125,13 @@
                     ("heretic_01: 'surely the oracle will protect us?'", Expression<String> @:9543 check:35003,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:20595,h:0,d0:20595,d1:0;)))
             (____, BuiltinInvocation<Void> @:9544 check:35004,op:418,dt:4,nt:8,next:9547,nextCheck:35007,str:46595,h:1,d0:9545,d1:35005;
                 ("cs_play_line", Expression<MethodOrOperator> @:9545 check:35005,op:418,dt:2,nt:9,next:9546,nextCheck:35006,str:15288,h:0,d0:0,d1:0;
-                    ("0300", Expression<StringId> @:9546 check:35006,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20644,h:0,d0:11668,d1:1024;)))
+                    ("0300", Expression<StringId> @:9546 check:35006,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20644,h:0,d0:11689,d1:1024;)))
             (____, BuiltinInvocation<Void> @:9547 check:35007,op:19,dt:4,nt:8,next:9550,nextCheck:35010,str:46617,h:1,d0:9548,d1:35008;
                 ("sleep", Expression<MethodOrOperator> @:9548 check:35008,op:19,dt:2,nt:9,next:9549,nextCheck:35009,str:85,h:0,d0:0,d1:0;
                     (15, Expression<Short> @:9549 check:35009,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:46624,h:1,d0:15,d1:65535;)))
             (____, BuiltinInvocation<Void> @:9550 check:35010,op:374,dt:4,nt:8,next:9553,nextCheck:35013,str:46633,h:1,d0:9551,d1:35011;
                 ("cs_switch", Expression<MethodOrOperator> @:9551 check:35011,op:374,dt:2,nt:9,next:9552,nextCheck:35012,str:15195,h:0,d0:0,d1:0;
-                    ("chat_her_01", Expression<StringId> @:9552 check:35012,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20314,h:0,d0:12074,d1:2816;)))
+                    ("chat_her_01", Expression<StringId> @:9552 check:35012,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20314,h:0,d0:12095,d1:2816;)))
             (____, BuiltinInvocation<Void> @:9553 check:35013,op:446,dt:4,nt:8,next:9556,nextCheck:35016,str:46659,h:1,d0:9554,d1:35014;
                 ("cs_suppress_dialogue_global", Expression<MethodOrOperator> @:9554 check:35014,op:446,dt:2,nt:9,next:9555,nextCheck:35015,str:15229,h:0,d0:0,d1:0;
                     (True, Expression<Boolean> @:9555 check:35015,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:46688,h:1,d0:65281,d1:65535;)))
@@ -140,7 +140,7 @@
                     ("heretic_02: 'perhaps. but i fear its sentinels are too few.'", Expression<String> @:9558 check:35018,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:20649,h:0,d0:20649,d1:0;)))
             (____, BuiltinInvocation<Void> @:9559 check:35019,op:418,dt:4,nt:8,next:9562,nextCheck:35022,str:46769,h:1,d0:9560,d1:35020;
                 ("cs_play_line", Expression<MethodOrOperator> @:9560 check:35020,op:418,dt:2,nt:9,next:9561,nextCheck:35021,str:15288,h:0,d0:0,d1:0;
-                    ("0310", Expression<StringId> @:9561 check:35021,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20710,h:0,d0:11669,d1:1024;)))
+                    ("0310", Expression<StringId> @:9561 check:35021,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20710,h:0,d0:11690,d1:1024;)))
             (____, BuiltinInvocation<Void> @:9562 check:35022,op:19,dt:4,nt:8,next:9565,nextCheck:35025,str:46791,h:1,d0:9563,d1:35023;
                 ("sleep", Expression<MethodOrOperator> @:9563 check:35023,op:19,dt:2,nt:9,next:9564,nextCheck:35024,str:85,h:0,d0:0,d1:0;
                     (15, Expression<Short> @:9564 check:35024,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:46798,h:1,d0:15,d1:65535;)))
@@ -149,7 +149,7 @@
                     ("heretic_02: 'better we protect ourselves.'", Expression<String> @:9567 check:35027,op:9,dt:9,nt:9,next:65535,nextCheck:65535,str:20715,h:0,d0:20715,d1:0;)))
             (____, BuiltinInvocation<Void> @:9568 check:35028,op:418,dt:4,nt:8,next:9571,nextCheck:35031,str:46859,h:1,d0:9569,d1:35029;
                 ("cs_play_line", Expression<MethodOrOperator> @:9569 check:35029,op:418,dt:2,nt:9,next:9570,nextCheck:35030,str:15288,h:0,d0:0,d1:0;
-                    ("0320", Expression<StringId> @:9570 check:35030,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20758,h:0,d0:11670,d1:1024;)))
+                    ("0320", Expression<StringId> @:9570 check:35030,op:11,dt:11,nt:9,next:65535,nextCheck:65535,str:20758,h:0,d0:11691,d1:1024;)))
             (____, BuiltinInvocation<Void> @:9571 check:35031,op:19,dt:4,nt:8,next:9574,nextCheck:35034,str:46881,h:1,d0:9572,d1:35032;
                 ("sleep", Expression<MethodOrOperator> @:9572 check:35032,op:19,dt:2,nt:9,next:9573,nextCheck:35033,str:85,h:0,d0:0,d1:0;
                     (30, Expression<Short> @:9573 check:35033,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:46888,h:1,d0:30,d1:65535;)))

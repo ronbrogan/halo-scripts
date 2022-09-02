@@ -1,24 +1,24 @@
 
 ("dervish_chase_02", MethodDecl<Void> @:297 check:0,op:0,dt:0,nt:65535,next:21340,nextCheck:46800,str:32350,h:0,d0:0,d1:0;
-    (____, BuiltinInvocation<Void> @:21340 check:46800,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:21322,h:3,d0:21341,d1:46801;
+    (____, BuiltinInvocation<Void> @:21340 check:46800,op:0,dt:4,nt:8,next:65535,nextCheck:65535,str:21323,h:3,d0:21341,d1:46801;
         ("begin", Expression<MethodOrOperator> @:21341 check:46801,op:0,dt:2,nt:9,next:21320,nextCheck:46780,str:210,h:0,d0:0,d1:0;
-            (____, BuiltinInvocation<Void> @:21320 check:46780,op:449,dt:4,nt:8,next:21323,nextCheck:46783,str:21364,h:3,d0:21321,d1:46781;
+            (____, BuiltinInvocation<Void> @:21320 check:46780,op:449,dt:4,nt:8,next:21323,nextCheck:46783,str:21365,h:3,d0:21321,d1:46781;
                 ("cs_enable_pathfinding_failsafe", Expression<MethodOrOperator> @:21321 check:46781,op:449,dt:2,nt:9,next:21322,nextCheck:46782,str:11827,h:0,d0:0,d1:0;
-                    (True, Expression<Boolean> @:21322 check:46782,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:21396,h:3,d0:65281,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:21323 check:46783,op:379,dt:4,nt:8,next:21326,nextCheck:46786,str:21404,h:3,d0:21324,d1:46784;
+                    (True, Expression<Boolean> @:21322 check:46782,op:5,dt:5,nt:9,next:65535,nextCheck:65535,str:21397,h:3,d0:65281,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:21323 check:46783,op:379,dt:4,nt:8,next:21326,nextCheck:46786,str:21405,h:3,d0:21324,d1:46784;
                 ("cs_fly_to", Expression<MethodOrOperator> @:21324 check:46784,op:379,dt:2,nt:9,next:21325,nextCheck:46785,str:12396,h:0,d0:0,d1:0;
                     ("airspace3/p7", Expression<SpatialPoint> @:21325 check:46785,op:28,dt:28,nt:9,next:65535,nextCheck:65535,str:31985,h:0,d0:7,d1:6;)))
-            (____, BuiltinInvocation<Void> @:21326 check:46786,op:19,dt:4,nt:8,next:21329,nextCheck:46789,str:21431,h:3,d0:21327,d1:46787;
+            (____, BuiltinInvocation<Void> @:21326 check:46786,op:19,dt:4,nt:8,next:21329,nextCheck:46789,str:21432,h:3,d0:21327,d1:46787;
                 ("sleep", Expression<MethodOrOperator> @:21327 check:46787,op:19,dt:2,nt:9,next:21328,nextCheck:46788,str:289,h:0,d0:0,d1:0;
-                    (15, Expression<Short> @:21328 check:46788,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:21438,h:3,d0:15,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:21329 check:46789,op:48,dt:4,nt:8,next:21332,nextCheck:46792,str:21444,h:3,d0:21330,d1:46790;
+                    (15, Expression<Short> @:21328 check:46788,op:7,dt:7,nt:9,next:65535,nextCheck:65535,str:21439,h:3,d0:15,d1:65535;)))
+            (____, BuiltinInvocation<Void> @:21329 check:46789,op:48,dt:4,nt:8,next:21332,nextCheck:46792,str:21445,h:3,d0:21330,d1:46790;
                 ("object_create_anew", Expression<MethodOrOperator> @:21330 check:46790,op:48,dt:2,nt:9,next:21331,nextCheck:46791,str:2195,h:0,d0:0,d1:0;
                     ("player_fake_banshee", Expression<EntityIdentifier> @:21331 check:46791,op:56,dt:56,nt:9,next:65535,nextCheck:65535,str:31998,h:0,d0:290,d1:65535;)))
-            (____, BuiltinInvocation<Void> @:21332 check:46792,op:84,dt:4,nt:8,next:21337,nextCheck:46797,str:21487,h:3,d0:21333,d1:46793;
+            (____, BuiltinInvocation<Void> @:21332 check:46792,op:84,dt:4,nt:8,next:21337,nextCheck:46797,str:21488,h:3,d0:21333,d1:46793;
                 ("object_damage_damage_section", Expression<MethodOrOperator> @:21333 check:46793,op:84,dt:2,nt:9,next:21334,nextCheck:46794,str:32018,h:0,d0:0,d1:0;
                     (4294902050, Expression<Entity> @:21334 check:46794,op:56,dt:50,nt:9,next:21335,nextCheck:46795,str:31998,h:0,d0:290,d1:65535;
-                        ("main", Expression<StringId> @:21335 check:46795,op:11,dt:11,nt:9,next:21336,nextCheck:46796,str:32047,h:0,d0:6997,d1:1024;
-                            (2f, Expression<Float> @:21336 check:46796,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:21544,h:3,d0:0,d1:16384;)))))
-            (____, BuiltinInvocation<Void> @:21337 check:46797,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:21549,h:3,d0:21338,d1:46798;
+                        ("main", Expression<StringId> @:21335 check:46795,op:11,dt:11,nt:9,next:21336,nextCheck:46796,str:32047,h:0,d0:7018,d1:1024;
+                            (2f, Expression<Float> @:21336 check:46796,op:6,dt:6,nt:9,next:65535,nextCheck:65535,str:21545,h:3,d0:0,d1:16384;)))))
+            (____, BuiltinInvocation<Void> @:21337 check:46797,op:298,dt:4,nt:8,next:65535,nextCheck:65535,str:21550,h:3,d0:21338,d1:46798;
                 ("ai_erase", Expression<MethodOrOperator> @:21338 check:46798,op:298,dt:2,nt:9,next:21339,nextCheck:46799,str:11890,h:0,d0:0,d1:0;
                     ("dervish_02", Expression<AI> @:21339 check:46799,op:19,dt:19,nt:9,next:65535,nextCheck:65535,str:4943,h:0,d0:94,d1:0;))))))
