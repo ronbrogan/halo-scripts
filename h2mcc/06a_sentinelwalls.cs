@@ -1944,7 +1944,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task ice_cream_mythic()
         {
             Engine.object_create(ice_cream_head);
-            await Engine.sleep_until(async () => Engine.unit_has_weapon(Engine.unit(await this.player0()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head_sp.weapon", 4266400791U)) || Engine.unit_has_weapon(Engine.unit(await this.player1()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head_sp.weapon", 4266400791U)), 5);
+            await Engine.sleep_until(async () => Engine.unit_has_weapon(Engine.unit(await this.player0()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head_sp.weapon", 4266007569U)) || Engine.unit_has_weapon(Engine.unit(await this.player1()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head_sp.weapon", 4266007569U)), 5);
             if (this.debug)
             {
                 Engine.print("you're going to get fat!!!!! or dead...");
@@ -2068,21 +2068,21 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("start music 06a_01");
             }
 
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_01", 2220761615U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_01", 2220368393U), default(IGameObject), 1F);
             await Engine.sleep(30);
             if (this.debug)
             {
                 Engine.print("start music 06a_02");
             }
 
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_02", 2221154837U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_02", 2220761615U), default(IGameObject), 1F);
             await Engine.sleep_until(async () => Engine.volume_test_objects(tv_ins_slide_bottom, Engine.players()));
             if (this.debug)
             {
                 Engine.print("stop music 06a_01");
             }
 
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_01", 2220761615U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_01", 2220368393U));
         }
 
         [ScriptMethod(156, Lifecycle.Dormant)]
@@ -2094,14 +2094,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("start music 06a_03");
             }
 
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_03", 2221416985U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_03", 2221023763U), default(IGameObject), 1F);
             await Engine.sleep_until(async () => !(this.g_music_06a_03));
             if (this.debug)
             {
                 Engine.print("stop music 06a_03");
             }
 
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_03", 2221416985U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_03", 2221023763U));
         }
 
         [ScriptMethod(157, Lifecycle.Dormant)]
@@ -2113,14 +2113,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("start music 06a_04");
             }
 
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_04", 2221810207U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_04", 2221416985U), default(IGameObject), 1F);
             await Engine.sleep_until(async () => !(this.g_music_06a_04));
             if (this.debug)
             {
                 Engine.print("stop music 06a_04");
             }
 
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_04", 2221810207U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_04", 2221416985U));
         }
 
         [ScriptMethod(158, Lifecycle.Dormant)]
@@ -2132,14 +2132,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("start music 06a_05");
             }
 
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_05", 2222203429U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_05", 2221810207U), default(IGameObject), 1F);
             await Engine.sleep_until(async () => !(this.g_music_06a_05));
             if (this.debug)
             {
                 Engine.print("stop music 06a_05");
             }
 
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_05", 2222203429U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_05", 2221810207U));
         }
 
         [ScriptMethod(159, Lifecycle.Dormant)]
@@ -2151,14 +2151,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("start music 06a_06");
             }
 
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_06", 2222596651U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_06", 2222203429U), default(IGameObject), 1F);
             await Engine.sleep_until(async () => !(this.g_music_06a_06));
             if (this.debug)
             {
                 Engine.print("stop music 06a_06");
             }
 
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_06", 2222596651U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_06", 2222203429U));
         }
 
         [ScriptMethod(160, Lifecycle.Dormant)]
@@ -2170,14 +2170,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("start music 06a_07");
             }
 
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_07", 2222989873U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_07", 2222596651U), default(IGameObject), 1F);
             await Engine.sleep_until(async () => !(this.g_music_06a_07));
             if (this.debug)
             {
                 Engine.print("stop music 06a_07");
             }
 
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_07", 2222989873U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_07", 2222596651U));
         }
 
         [ScriptMethod(161, Lifecycle.Dormant)]
@@ -2189,14 +2189,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("start music 06a_08");
             }
 
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_08", 2223120947U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_08", 2222727725U), default(IGameObject), 1F);
             await Engine.sleep_until(async () => !(this.g_music_06a_08));
             if (this.debug)
             {
                 Engine.print("stop music 06a_08");
             }
 
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_08", 2223120947U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_08", 2222727725U));
         }
 
         [ScriptMethod(162, Lifecycle.Dormant)]
@@ -2208,7 +2208,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("start music 06a_09");
             }
 
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_09", 2223514169U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_09", 2223120947U), default(IGameObject), 1F);
             this.g_music_06a_08 = false;
         }
 
@@ -2221,14 +2221,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 Engine.print("start music 06a_10");
             }
 
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_10", 2223776317U), default(IGameObject), 1F);
+            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_10", 2223383095U), default(IGameObject), 1F);
             await Engine.sleep_until(async () => !(this.g_music_06a_10));
             if (this.debug)
             {
                 Engine.print("stop music 06a_10");
             }
 
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_10", 2223776317U));
+            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\06a_sentinelwalls\\06a_music\\06a_10", 2223383095U));
         }
 
         [ScriptMethod(164, Lifecycle.CommandScript)]
@@ -2697,7 +2697,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 await Engine.sleep_until(async () => Engine.device_group_get(group_ins) > 0F || Engine.object_get_shield(absorber_ins.Entity) <= 0F, 1);
                 Engine.device_set_position(piston_ins.Entity, 1F);
-                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2224169539U), absorber_ins.Entity);
+                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2223776317U), absorber_ins.Entity);
                 await Engine.sleep(this.piston_open_time);
                 await Engine.sleep_until(async () => !(Engine.volume_test_objects_all(tv_piston_ins, Engine.players())));
                 Engine.device_set_position(piston_ins.Entity, 0F);
@@ -2713,7 +2713,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 await Engine.sleep_until(async () => Engine.device_group_get(group_a) > 0F || Engine.object_get_shield(absorber_a.Entity) <= 0F, 1);
                 Engine.device_set_position(piston_a.Entity, 1F);
-                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2224169539U), absorber_a.Entity);
+                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2223776317U), absorber_a.Entity);
                 await Engine.sleep(this.piston_open_time);
                 await Engine.sleep_until(async () => !(Engine.volume_test_objects_all(tv_piston_a, Engine.players())));
                 Engine.device_set_position(piston_a.Entity, 0F);
@@ -2729,7 +2729,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 await Engine.sleep_until(async () => Engine.device_group_get(group_b) > 0F || Engine.object_get_shield(absorber_b.Entity) <= 0F, 1);
                 Engine.device_set_position(piston_b.Entity, 1F);
-                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2224169539U), absorber_b.Entity);
+                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2223776317U), absorber_b.Entity);
                 await Engine.sleep(this.piston_open_time);
                 await Engine.sleep_until(async () => !(Engine.volume_test_objects_all(tv_piston_b, Engine.players())));
                 Engine.device_set_position(piston_b.Entity, 0F);
@@ -2745,7 +2745,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 await Engine.sleep_until(async () => Engine.device_group_get(group_c) > 0F || Engine.object_get_shield(absorber_c.Entity) <= 0F, 1);
                 Engine.device_set_position(piston_c.Entity, 1F);
-                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2224169539U), absorber_c.Entity);
+                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2223776317U), absorber_c.Entity);
                 await Engine.sleep(this.piston_open_time);
                 await Engine.sleep_until(async () => !(Engine.volume_test_objects_all(tv_piston_c, Engine.players())));
                 Engine.device_set_position(piston_c.Entity, 0F);
@@ -2761,7 +2761,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 await Engine.sleep_until(async () => Engine.device_group_get(group_d) > 0F || Engine.object_get_shield(absorber_d.Entity) <= 0F, 1);
                 Engine.device_set_position(piston_d.Entity, 1F);
-                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2224169539U), absorber_d.Entity);
+                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2223776317U), absorber_d.Entity);
                 await Engine.sleep(this.piston_open_time);
                 await Engine.sleep_until(async () => !(Engine.volume_test_objects_all(tv_piston_d, Engine.players())));
                 Engine.device_set_position(piston_d.Entity, 0F);
@@ -2777,7 +2777,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 await Engine.sleep_until(async () => Engine.device_group_get(group_plug_landing) > 0F || Engine.object_get_shield(absorber_plug_landing.Entity) <= 0F, 1);
                 Engine.device_set_position(piston_plug_landing.Entity, 1F);
-                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2224169539U), absorber_plug_landing.Entity);
+                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2223776317U), absorber_plug_landing.Entity);
                 await Engine.sleep(this.piston_open_time);
                 await Engine.sleep_until(async () => !(Engine.volume_test_objects_all(tv_piston_plug_landing, Engine.players())));
                 Engine.device_set_position(piston_plug_landing.Entity, 0F);
@@ -2793,7 +2793,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 await Engine.sleep_until(async () => Engine.device_group_get(group_e) > 0F || Engine.object_get_shield(absorber_e.Entity) <= 0F, 1);
                 Engine.device_set_position(piston_e.Entity, 1F);
-                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2224169539U), absorber_e.Entity);
+                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2223776317U), absorber_e.Entity);
                 await Engine.sleep(this.piston_open_time);
                 await Engine.sleep_until(async () => !(Engine.volume_test_objects_all(tv_piston_e, Engine.players())));
                 Engine.device_set_position(piston_e.Entity, 0F);
@@ -2809,7 +2809,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 await Engine.sleep_until(async () => Engine.device_group_get(group_f) > 0F || Engine.object_get_shield(absorber_f.Entity) <= 0F, 1);
                 Engine.device_set_position(piston_f.Entity, 1F);
-                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2224169539U), absorber_f.Entity);
+                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2223776317U), absorber_f.Entity);
                 await Engine.sleep(this.piston_open_time);
                 await Engine.sleep_until(async () => !(Engine.volume_test_objects_all(tv_piston_f, Engine.players())));
                 Engine.device_set_position(piston_f.Entity, 0F);
@@ -2825,7 +2825,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 await Engine.sleep_until(async () => Engine.device_group_get(group_g) > 0F || Engine.object_get_shield(absorber_g.Entity) <= 0F, 1);
                 Engine.device_set_position(piston_g.Entity, 1F);
-                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2224169539U), absorber_g.Entity);
+                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2223776317U), absorber_g.Entity);
                 await Engine.sleep(this.piston_open_time);
                 await Engine.sleep_until(async () => !(Engine.volume_test_objects_all(tv_piston_g, Engine.players())));
                 Engine.device_set_position(piston_g.Entity, 0F);
@@ -2841,7 +2841,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 await Engine.sleep_until(async () => Engine.device_group_get(group_h) > 0F || Engine.object_get_shield(absorber_h.Entity) <= 0F, 1);
                 Engine.device_set_position(piston_h.Entity, 1F);
-                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2224169539U), absorber_h.Entity);
+                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2223776317U), absorber_h.Entity);
                 if (this.g_music_06a_07)
                 {
                     this.g_music_06a_07 = false;
@@ -2862,7 +2862,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 await Engine.sleep_until(async () => Engine.device_group_get(group_i) > 0F || Engine.object_get_shield(absorber_i.Entity) <= 0F, 1);
                 Engine.device_set_position(piston_i.Entity, 1F);
-                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2224169539U), absorber_i.Entity);
+                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2223776317U), absorber_i.Entity);
                 if (this.g_music_06a_06)
                 {
                     this.g_music_06a_06 = false;
@@ -2883,7 +2883,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 await Engine.sleep_until(async () => Engine.device_group_get(group_ledge_b) > 0F || Engine.object_get_shield(absorber_ledge_b.Entity) <= 0F, 1);
                 Engine.device_set_position(piston_ledge_b.Entity, 1F);
-                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2224169539U), absorber_ledge_b.Entity);
+                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2223776317U), absorber_ledge_b.Entity);
                 await Engine.sleep(this.piston_open_time);
                 await Engine.sleep_until(async () => !(Engine.volume_test_objects_all(tv_piston_ledge_b, Engine.players())));
                 Engine.device_set_position(piston_ledge_b.Entity, 0F);
@@ -2899,7 +2899,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 await Engine.sleep_until(async () => Engine.device_group_get(group_ledge_c) > 0F || Engine.object_get_shield(absorber_ledge_c.Entity) <= 0F, 1);
                 Engine.device_set_position(piston_ledge_c.Entity, 1F);
-                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2224169539U), absorber_ledge_c.Entity);
+                Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2223776317U), absorber_ledge_c.Entity);
                 await Engine.sleep(this.piston_open_time);
                 await Engine.sleep_until(async () => !(Engine.volume_test_objects_all(tv_piston_ledge_c, Engine.players())));
                 Engine.device_set_position(piston_ledge_c.Entity, 0F);
@@ -4161,7 +4161,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => Engine.device_group_get(group_plug_c) > 0F || Engine.object_get_shield(plugabsorber08.Entity) <= 0F, 5);
             Engine.device_set_position(plug_thin_fr.Entity, 1F);
             Engine.device_set_position(plug_thick_fr.Entity, 1F);
-            Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2224169539U), plugabsorber08.Entity);
+            Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2223776317U), plugabsorber08.Entity);
         }
 
         [ScriptMethod(262, Lifecycle.Dormant)]
@@ -4170,7 +4170,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => Engine.device_group_get(group_plug_d) > 0F || Engine.object_get_shield(plugabsorber07.Entity) <= 0F, 5);
             Engine.device_set_position(plug_thin_br.Entity, 1F);
             Engine.device_set_position(plug_thick_br.Entity, 1F);
-            Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2224169539U), plugabsorber07.Entity);
+            Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2223776317U), plugabsorber07.Entity);
         }
 
         [ScriptMethod(263, Lifecycle.Dormant)]
@@ -4179,7 +4179,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => Engine.device_group_get(group_plug_a) > 0F || Engine.object_get_shield(plugabsorber06.Entity) <= 0F, 5);
             Engine.device_set_position(plug_thin_bl.Entity, 1F);
             Engine.device_set_position(plug_thick_bl.Entity, 1F);
-            Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2224169539U), plugabsorber06.Entity);
+            Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2223776317U), plugabsorber06.Entity);
         }
 
         [ScriptMethod(264, Lifecycle.Dormant)]
@@ -4188,7 +4188,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => Engine.device_group_get(group_plug_b) > 0F || Engine.object_get_shield(plugabsorber05.Entity) <= 0F, 5);
             Engine.device_set_position(plug_thin_fl.Entity, 1F);
             Engine.device_set_position(plug_thick_fl.Entity, 1F);
-            Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2224169539U), plugabsorber05.Entity);
+            Engine.damage_object(Engine.GetTag<DamageEffectTag>("scenarios\\objects\\solo\\sentinelhq\\door_piston_absorber\\damage_effects\\damage_absorber", 2223776317U), plugabsorber05.Entity);
         }
 
         [ScriptMethod(265, Lifecycle.Static)]
@@ -4390,7 +4390,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         public async Task cs_move_plug()
         {
             Engine.wake(new ScriptMethodReference(lower_shield));
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\visual_effects\\sentinel_wall_power_down", 2224235076U), default(IGameObject), 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\visual_effects\\sentinel_wall_power_down", 2223841854U), default(IGameObject), 1F);
             Engine.ai_kill(plug_launch_sen.Squad);
             Engine.ai_kill(plug_launch_enforcer.Squad);
             Engine.begin_random(async () => await Engine.sleep((short)Engine.random_range(0, 10)), 
@@ -5777,17 +5777,17 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep_until(async () =>
             {
-                Engine.begin_random(async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2224300613U), mortar_a), 
+                Engine.begin_random(async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2223907391U), mortar_a), 
                     async () => await Engine.sleep((short)Engine.random_range(15, 45)), 
-                    async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2224300613U), mortar_b), 
+                    async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2223907391U), mortar_b), 
                     async () => await Engine.sleep((short)Engine.random_range(15, 45)), 
-                    async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2224300613U), mortar_c), 
+                    async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2223907391U), mortar_c), 
                     async () => await Engine.sleep((short)Engine.random_range(15, 45)), 
-                    async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2224300613U), mortar_d), 
+                    async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2223907391U), mortar_d), 
                     async () => await Engine.sleep((short)Engine.random_range(15, 45)), 
-                    async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2224300613U), mortar_e), 
+                    async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2223907391U), mortar_e), 
                     async () => await Engine.sleep((short)Engine.random_range(15, 45)), 
-                    async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2224300613U), mortar_f), 
+                    async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2223907391U), mortar_f), 
                     async () => await Engine.sleep((short)Engine.random_range(15, 45)));
                 return this.g_mortar_fire;
             });
@@ -5798,17 +5798,17 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             await Engine.sleep_until(async () =>
             {
-                Engine.begin_random(async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2224300613U), mortar_a), 
+                Engine.begin_random(async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2223907391U), mortar_a), 
                     async () => await Engine.sleep((short)Engine.random_range(15, 45)), 
-                    async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2224300613U), mortar_b), 
+                    async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2223907391U), mortar_b), 
                     async () => await Engine.sleep((short)Engine.random_range(15, 45)), 
-                    async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2224300613U), mortar_c), 
+                    async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2223907391U), mortar_c), 
                     async () => await Engine.sleep((short)Engine.random_range(15, 45)), 
-                    async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2224300613U), mortar_d), 
+                    async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2223907391U), mortar_d), 
                     async () => await Engine.sleep((short)Engine.random_range(15, 45)), 
-                    async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2224300613U), mortar_e), 
+                    async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2223907391U), mortar_e), 
                     async () => await Engine.sleep((short)Engine.random_range(15, 45)), 
-                    async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2224300613U), mortar_f), 
+                    async () => Engine.effect_new(Engine.GetTag<EffectTag>("effects\\design\\mortar_emitter\\mortar_emitter", 2223907391U), mortar_f), 
                     async () => await Engine.sleep((short)Engine.random_range(15, 45)));
                 return this.g_mortar_fire;
             });
@@ -5951,7 +5951,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             await Engine.sleep_until(async () => Engine.objects_can_see_object(Engine.players(), factory.Entity, 30F) || Engine.volume_test_objects(tv_qz_camp, Engine.players()), 30, 180);
             await Engine.sleep(30);
             Engine.device_set_position(factory.Entity, 1F);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\visual_effects\\shq_factory_explode\\factory_explode", 4287634779U), factory_sound.Entity, 1F);
+            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\visual_effects\\shq_factory_explode\\factory_explode", 4287241557U), factory_sound.Entity, 1F);
             this.g_mortar_fire = true;
             await Engine.sleep_until(async () => Engine.device_get_position(factory.Entity) >= 0.025F, 10);
             Engine.wake(new ScriptMethodReference(ai_cov_ins_pods));

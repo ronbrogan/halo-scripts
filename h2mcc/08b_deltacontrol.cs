@@ -4573,47 +4573,47 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(371, Lifecycle.Static)]
         public async Task<int> e11_pro_wraiths1_living_count()
         {
-            float ifResult_27581418 = default(float);
+            float ifResult_40574674 = default(float);
             if (Engine.unit_get_health(Engine.ai_vehicle_get_from_starting_location(e11_pro_wraith1_0.wraith)) > 0F)
             {
-                ifResult_27581418 = 1F;
+                ifResult_40574674 = 1F;
             }
             else
             {
-                ifResult_27581418 = 0F;
+                ifResult_40574674 = 0F;
             }
 
-            float ifResult_34077823 = default(float);
+            float ifResult_63601460 = default(float);
             if (Engine.unit_get_health(Engine.ai_vehicle_get_from_starting_location(e11_pro_wraith1_1.wraith)) > 0F)
             {
-                ifResult_34077823 = 1F;
+                ifResult_63601460 = 1F;
             }
             else
             {
-                ifResult_34077823 = 0F;
+                ifResult_63601460 = 0F;
             }
 
-            float ifResult_34955895 = default(float);
+            float ifResult_55432838 = default(float);
             if (Engine.unit_get_health(Engine.ai_vehicle_get_from_starting_location(e11_pro_wraith1_2.wraith)) > 0F)
             {
-                ifResult_34955895 = 1F;
+                ifResult_55432838 = 1F;
             }
             else
             {
-                ifResult_34955895 = 0F;
+                ifResult_55432838 = 0F;
             }
 
-            float ifResult_37247180 = default(float);
+            float ifResult_63913605 = default(float);
             if (Engine.unit_get_health(Engine.ai_vehicle_get_from_starting_location(e11_pro_wraith1_3.wraith)) > 0F)
             {
-                ifResult_37247180 = 1F;
+                ifResult_63913605 = 1F;
             }
             else
             {
-                ifResult_37247180 = 0F;
+                ifResult_63913605 = 0F;
             }
 
-            return (short)(ifResult_27581418 + ifResult_34077823 + ifResult_34955895 + ifResult_37247180);
+            return (short)(ifResult_40574674 + ifResult_63601460 + ifResult_55432838 + ifResult_63913605);
         }
 
         [ScriptMethod(372, Lifecycle.Static)]

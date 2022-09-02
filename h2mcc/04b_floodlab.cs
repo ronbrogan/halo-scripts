@@ -6425,9 +6425,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             Engine.camera_set(cam03, 90);
             await Engine.sleep_until(async () => Engine.unit_in_vehicle(Engine.unit(Engine.list_get(Engine.ai_actors(dervish_01.Squad), 0))) == true);
             Engine.camera_set(cam04, 120);
+            await Engine.sleep(120);
+            Engine.fade_out(1F, 1F, 1F, 30);
             await Engine.sleep(90);
-            Engine.fade_out(1F, 1F, 1F, 15);
-            await Engine.sleep(20);
             Engine.ai_erase(dervish_01.Squad);
             Engine.ai_erase(heretic_leader_04.Squad);
             Engine.device_operates_automatically_set(hl_ledge_ext.Entity, false);
