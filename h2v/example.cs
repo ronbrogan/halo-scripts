@@ -14,7 +14,7 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
         [ScriptMethod(0, Lifecycle.Static)]
         public async Task<IUnit> player0()
         {
-            return Engine.unit(Engine.list_get(Engine.players(), 0));
+            return unit(list_get(players(), 0));
         }
     }
 }

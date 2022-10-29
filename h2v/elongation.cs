@@ -23,50 +23,50 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
         [ScriptMethod(0, Lifecycle.Continuous)]
         public async Task crate_spawner_right()
         {
-            Engine.object_create(crate_right00);
-            await Engine.sleep(this.k_crate_spacing);
-            Engine.object_create(crate_right01);
-            await Engine.sleep(this.k_crate_spacing);
-            Engine.object_create(crate_right02);
-            await Engine.sleep(this.k_crate_spacing);
-            Engine.object_create(crate_right03);
-            await Engine.sleep(this.k_crate_spacing);
-            Engine.object_create(crate_right04);
-            await Engine.sleep(this.k_crate_spacing);
-            Engine.object_create(crate_right05);
-            await Engine.sleep(this.k_crate_spacing);
-            Engine.object_create(crate_right06);
-            await Engine.sleep(this.k_crate_spacing);
-            Engine.object_create(crate_right07);
-            await Engine.sleep(this.k_crate_spacing);
+            object_create(crate_right00);
+            await sleep(this.k_crate_spacing);
+            object_create(crate_right01);
+            await sleep(this.k_crate_spacing);
+            object_create(crate_right02);
+            await sleep(this.k_crate_spacing);
+            object_create(crate_right03);
+            await sleep(this.k_crate_spacing);
+            object_create(crate_right04);
+            await sleep(this.k_crate_spacing);
+            object_create(crate_right05);
+            await sleep(this.k_crate_spacing);
+            object_create(crate_right06);
+            await sleep(this.k_crate_spacing);
+            object_create(crate_right07);
+            await sleep(this.k_crate_spacing);
         }
 
         [ScriptMethod(1, Lifecycle.Continuous)]
         public async Task crate_spawner_left()
         {
-            Engine.object_create(crate_left00);
-            await Engine.sleep(this.k_crate_spacing);
-            Engine.object_create(crate_left01);
-            await Engine.sleep(this.k_crate_spacing);
-            Engine.object_create(crate_left02);
-            await Engine.sleep(this.k_crate_spacing);
-            Engine.object_create(crate_left03);
-            await Engine.sleep(this.k_crate_spacing);
-            Engine.object_create(crate_left04);
-            await Engine.sleep(this.k_crate_spacing);
-            Engine.object_create(crate_left05);
-            await Engine.sleep(this.k_crate_spacing);
-            Engine.object_create(crate_left06);
-            await Engine.sleep(this.k_crate_spacing);
-            Engine.object_create(crate_left07);
-            await Engine.sleep(this.k_crate_spacing);
+            object_create(crate_left00);
+            await sleep(this.k_crate_spacing);
+            object_create(crate_left01);
+            await sleep(this.k_crate_spacing);
+            object_create(crate_left02);
+            await sleep(this.k_crate_spacing);
+            object_create(crate_left03);
+            await sleep(this.k_crate_spacing);
+            object_create(crate_left04);
+            await sleep(this.k_crate_spacing);
+            object_create(crate_left05);
+            await sleep(this.k_crate_spacing);
+            object_create(crate_left06);
+            await sleep(this.k_crate_spacing);
+            object_create(crate_left07);
+            await sleep(this.k_crate_spacing);
         }
 
         [ScriptMethod(2, Lifecycle.Continuous)]
         public async Task crate_eraser()
         {
-            Engine.object_destroy(Engine.list_get(Engine.volume_return_objects(tv_crate_eraser_left), 0));
-            Engine.object_destroy(Engine.list_get(Engine.volume_return_objects(tv_crate_eraser_right), 0));
+            object_destroy(list_get(volume_return_objects(tv_crate_eraser_left), 0));
+            object_destroy(list_get(volume_return_objects(tv_crate_eraser_right), 0));
         }
     }
 }

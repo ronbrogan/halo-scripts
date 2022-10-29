@@ -23,208 +23,208 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
         [ScriptMethod(0, Lifecycle.Static)]
         public async Task<IUnit> player0()
         {
-            return Engine.unit(Engine.list_get(Engine.players(), 0));
+            return unit(list_get(players(), 0));
         }
 
         [ScriptMethod(1, Lifecycle.Static)]
         public async Task<IUnit> player1()
         {
-            return Engine.unit(Engine.list_get(Engine.players(), 1));
+            return unit(list_get(players(), 1));
         }
 
         [ScriptMethod(2, Lifecycle.Static)]
         public async Task<int> player_count()
         {
-            return Engine.list_count(Engine.players());
+            return list_count(players());
         }
 
         [ScriptMethod(3, Lifecycle.Static)]
         public async Task end_segment()
         {
-            Engine.camera_control(true);
-            Engine.cinematic_start();
-            Engine.fade_out(0F, 0F, 0F, 15);
-            await Engine.sleep(30);
-            Engine.print("end gameplay segment!  thank you for playing!");
-            await Engine.sleep(15);
-            Engine.print("grab jaime or paul to give feedback!");
-            Engine.player_action_test_reset();
-            await Engine.sleep(15);
-            Engine.print("press the �a� button to reset!");
-            await Engine.sleep_until(async () => (bool)Engine.player_action_test_accept());
-            Engine.print("reloading map...");
-            await Engine.sleep(15);
-            Engine.map_reset();
+            camera_control(true);
+            cinematic_start();
+            fade_out(0F, 0F, 0F, 15);
+            await sleep(30);
+            print("end gameplay segment!  thank you for playing!");
+            await sleep(15);
+            print("grab jaime or paul to give feedback!");
+            player_action_test_reset();
+            await sleep(15);
+            print("press the �a� button to reset!");
+            await sleep_until(async () => (bool)player_action_test_accept());
+            print("reloading map...");
+            await sleep(15);
+            map_reset();
         }
 
         [ScriptMethod(4, Lifecycle.Static)]
         public async Task<bool> difficulty_legendary()
         {
-            return Engine.game_difficulty_get() == GameDifficulty.Legendary();
+            return game_difficulty_get() == GameDifficulty.Legendary();
         }
 
         [ScriptMethod(5, Lifecycle.Static)]
         public async Task<bool> difficulty_heroic()
         {
-            return Engine.game_difficulty_get() == GameDifficulty.Heroic();
+            return game_difficulty_get() == GameDifficulty.Heroic();
         }
 
         [ScriptMethod(6, Lifecycle.Static)]
         public async Task<bool> difficulty_normal()
         {
-            return Engine.game_difficulty_get() == GameDifficulty.Normal();
+            return game_difficulty_get() == GameDifficulty.Normal();
         }
 
         [ScriptMethod(7, Lifecycle.Static)]
         public async Task<bool> cinematic_skip_start()
         {
-            Engine.cinematic_skip_start_internal();
-            Engine.game_save_immediate();
-            await Engine.sleep_until(async () => !((bool)Engine.game_saving()), 1);
-            return !((bool)Engine.game_reverted());
+            cinematic_skip_start_internal();
+            game_save_immediate();
+            await sleep_until(async () => !((bool)game_saving()), 1);
+            return !((bool)game_reverted());
         }
 
         [ScriptMethod(8, Lifecycle.Static)]
         public async Task cinematic_skip_stop()
         {
-            Engine.cinematic_skip_stop_internal();
-            if (!((bool)Engine.game_reverted()))
+            cinematic_skip_stop_internal();
+            if (!((bool)game_reverted()))
             {
-                Engine.game_revert();
+                game_revert();
             }
         }
 
         [ScriptMethod(9, Lifecycle.Static)]
         public async Task cinematic_fade_to_white()
         {
-            Engine.player_enable_input(false);
-            Engine.player_camera_control(false);
-            Engine.fade_out(1F, 1F, 1F, 15);
-            await Engine.sleep(15);
-            Engine.hud_cinematic_fade(0F, 0.5F);
-            Engine.cinematic_start();
-            Engine.camera_control(true);
+            player_enable_input(false);
+            player_camera_control(false);
+            fade_out(1F, 1F, 1F, 15);
+            await sleep(15);
+            hud_cinematic_fade(0F, 0.5F);
+            cinematic_start();
+            camera_control(true);
         }
 
         [ScriptMethod(10, Lifecycle.Static)]
         public async Task cinematic_fade_from_white()
         {
-            Engine.hud_cinematic_fade(1F, 0.5F);
-            Engine.cinematic_stop();
-            Engine.camera_control(false);
-            Engine.fade_in(1F, 1F, 1F, 15);
-            await Engine.sleep(15);
-            Engine.player_enable_input(true);
-            Engine.player_camera_control(true);
+            hud_cinematic_fade(1F, 0.5F);
+            cinematic_stop();
+            camera_control(false);
+            fade_in(1F, 1F, 1F, 15);
+            await sleep(15);
+            player_enable_input(true);
+            player_camera_control(true);
         }
 
         [ScriptMethod(11, Lifecycle.Static)]
         public async Task cinematic_fade_from_white_bars()
         {
-            Engine.cinematic_stop();
-            Engine.cinematic_show_letterbox_immediate(true);
-            Engine.camera_control(false);
-            Engine.fade_in(1F, 1F, 1F, 15);
-            await Engine.sleep(15);
-            Engine.player_enable_input(true);
-            Engine.player_camera_control(true);
+            cinematic_stop();
+            cinematic_show_letterbox_immediate(true);
+            camera_control(false);
+            fade_in(1F, 1F, 1F, 15);
+            await sleep(15);
+            player_enable_input(true);
+            player_camera_control(true);
         }
 
         [ScriptMethod(12, Lifecycle.Static)]
         public async Task cinematic_fade_from_black_bars()
         {
-            Engine.cinematic_stop();
-            Engine.cinematic_show_letterbox_immediate(true);
-            Engine.camera_control(false);
-            Engine.fade_in(0F, 0F, 0F, 15);
-            await Engine.sleep(15);
-            Engine.player_enable_input(true);
-            Engine.player_camera_control(true);
+            cinematic_stop();
+            cinematic_show_letterbox_immediate(true);
+            camera_control(false);
+            fade_in(0F, 0F, 0F, 15);
+            await sleep(15);
+            player_enable_input(true);
+            player_camera_control(true);
         }
 
         [ScriptMethod(13, Lifecycle.Static)]
         public async Task cinematic_fade_to_black()
         {
-            Engine.player_enable_input(false);
-            Engine.player_camera_control(false);
-            Engine.fade_out(0F, 0F, 0F, 15);
-            await Engine.sleep(15);
-            Engine.hud_cinematic_fade(0F, 0.5F);
-            Engine.cinematic_start();
-            Engine.camera_control(true);
+            player_enable_input(false);
+            player_camera_control(false);
+            fade_out(0F, 0F, 0F, 15);
+            await sleep(15);
+            hud_cinematic_fade(0F, 0.5F);
+            cinematic_start();
+            camera_control(true);
         }
 
         [ScriptMethod(14, Lifecycle.Static)]
         public async Task cinematic_fade_from_black()
         {
-            Engine.hud_cinematic_fade(1F, 0.5F);
-            Engine.cinematic_stop();
-            Engine.camera_control(false);
-            Engine.fade_in(0F, 0F, 0F, 15);
-            await Engine.sleep(15);
-            Engine.player_enable_input(true);
-            Engine.player_camera_control(true);
+            hud_cinematic_fade(1F, 0.5F);
+            cinematic_stop();
+            camera_control(false);
+            fade_in(0F, 0F, 0F, 15);
+            await sleep(15);
+            player_enable_input(true);
+            player_camera_control(true);
         }
 
         [ScriptMethod(15, Lifecycle.Static)]
         public async Task cinematic_snap_to_black()
         {
-            Engine.player_enable_input(false);
-            Engine.player_camera_control(false);
-            Engine.fade_out(0F, 0F, 0F, 0);
-            Engine.hud_cinematic_fade(0F, 0F);
-            Engine.cinematic_start();
-            Engine.cinematic_show_letterbox_immediate(true);
-            Engine.camera_control(true);
+            player_enable_input(false);
+            player_camera_control(false);
+            fade_out(0F, 0F, 0F, 0);
+            hud_cinematic_fade(0F, 0F);
+            cinematic_start();
+            cinematic_show_letterbox_immediate(true);
+            camera_control(true);
         }
 
         [ScriptMethod(16, Lifecycle.Static)]
         public async Task cinematic_stash_players()
         {
-            Engine.object_hide(await this.player0(), true);
-            Engine.object_hide(await this.player1(), true);
-            Engine.object_cannot_take_damage(Engine.players());
+            object_hide(await this.player0(), true);
+            object_hide(await this.player1(), true);
+            object_cannot_take_damage(players());
         }
 
         [ScriptMethod(17, Lifecycle.Static)]
         public async Task cinematic_unstash_players()
         {
-            Engine.object_hide(await this.player0(), false);
-            Engine.object_hide(await this.player1(), false);
-            Engine.object_can_take_damage(Engine.players());
+            object_hide(await this.player0(), false);
+            object_hide(await this.player1(), false);
+            object_can_take_damage(players());
         }
 
         [ScriptMethod(18, Lifecycle.Dormant)]
         public async Task _stealth_toggle_monitor()
         {
-            await Engine.sleep_until(async () =>
+            await sleep_until(async () =>
             {
-                await Engine.sleep_until(async () =>
+                await sleep_until(async () =>
                 {
-                    if (Engine.unit_get_shield(await this.player0()) >= 1F && (bool)Engine.player_action_test_vision_trigger())
+                    if (unit_get_shield(await this.player0()) >= 1F && (bool)player_action_test_vision_trigger())
                     {
                         return 1F == 1F;
                     }
                     else
                     {
-                        Engine.player_action_test_reset();
+                        player_action_test_reset();
                         return 1F == 0F;
                     }
                 }, 1);
-                Engine.cheat_active_camouflage_by_player(0, true);
-                Engine.print("stealth engaged");
-                Engine.unit_set_maximum_vitality(await this.player0(), 50F, 0F);
-                Engine.unit_set_current_vitality(await this.player0(), 50F, 0F);
-                Engine.object_set_shield(await this.player0(), 0F);
-                await Engine.sleep(30);
-                Engine.player_action_test_reset();
-                await Engine.sleep_until(async () => Engine.object_get_health(await this.player0()) < 1F || (bool)Engine.player_action_test_vision_trigger(), 1);
-                Engine.cheat_active_camouflage_by_player(0, false);
-                Engine.print("stealth disengaged");
-                Engine.unit_set_maximum_vitality(await this.player0(), 30F, 70F);
-                Engine.object_set_shield(await this.player0(), 0F);
-                await Engine.sleep(30);
-                Engine.player_action_test_reset();
+                cheat_active_camouflage_by_player(0, true);
+                print("stealth engaged");
+                unit_set_maximum_vitality(await this.player0(), 50F, 0F);
+                unit_set_current_vitality(await this.player0(), 50F, 0F);
+                object_set_shield(await this.player0(), 0F);
+                await sleep(30);
+                player_action_test_reset();
+                await sleep_until(async () => object_get_health(await this.player0()) < 1F || (bool)player_action_test_vision_trigger(), 1);
+                cheat_active_camouflage_by_player(0, false);
+                print("stealth disengaged");
+                unit_set_maximum_vitality(await this.player0(), 30F, 70F);
+                object_set_shield(await this.player0(), 0F);
+                await sleep(30);
+                player_action_test_reset();
                 return false;
             }, 1);
         }
@@ -232,32 +232,32 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
         [ScriptMethod(19, Lifecycle.Dormant)]
         public async Task _stealth_timer_monitor()
         {
-            await Engine.sleep_until(async () =>
+            await sleep_until(async () =>
             {
-                await Engine.sleep_until(async () =>
+                await sleep_until(async () =>
                 {
-                    if ((bool)Engine.player_action_test_vision_trigger())
+                    if ((bool)player_action_test_vision_trigger())
                     {
                         return 1F == 1F;
                     }
                     else
                     {
-                        Engine.player_action_test_reset();
+                        player_action_test_reset();
                         return 1F == 0F;
                     }
                 }, 1);
-                Engine.cheat_active_camouflage_by_player(0, true);
-                Engine.print("stealth engaged");
-                await Engine.sleep(15);
-                Engine.player_action_test_reset();
-                await Engine.sleep_until(async () => (bool)Engine.player_action_test_vision_trigger() || (bool)Engine.player_action_test_primary_trigger() || (bool)Engine.player_action_test_grenade_trigger() || (bool)Engine.player_action_test_melee(), 1, 9 * 30);
-                Engine.cheat_active_camouflage_by_player(0, false);
-                Engine.print("stealth disengaged");
-                await Engine.sleep(30);
-                Engine.player_action_test_reset();
-                await Engine.sleep_until(async () =>
+                cheat_active_camouflage_by_player(0, true);
+                print("stealth engaged");
+                await sleep(15);
+                player_action_test_reset();
+                await sleep_until(async () => (bool)player_action_test_vision_trigger() || (bool)player_action_test_primary_trigger() || (bool)player_action_test_grenade_trigger() || (bool)player_action_test_melee(), 1, 9 * 30);
+                cheat_active_camouflage_by_player(0, false);
+                print("stealth disengaged");
+                await sleep(30);
+                player_action_test_reset();
+                await sleep_until(async () =>
                 {
-                    Engine.print("+");
+                    print("+");
                     return false;
                 }, 30, 5 * 30);
                 return false;
@@ -267,27 +267,27 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
         [ScriptMethod(20, Lifecycle.Static)]
         public async Task activate_stealth_toggle_monitor()
         {
-            await Engine.sleep(1);
+            await sleep(1);
         }
 
         [ScriptMethod(21, Lifecycle.Static)]
         public async Task activate_stealth_timer_monitor()
         {
-            await Engine.sleep(1);
+            await sleep(1);
         }
 
         [ScriptMethod(22, Lifecycle.Static)]
         public async Task playtest_mission()
         {
-            if ((bool)Engine.game_is_playtest())
+            if ((bool)game_is_playtest())
             {
-                await Engine.sleep(30);
-                Engine.hud_set_training_text("playtest_raisehand");
-                Engine.hud_show_training_text(true);
-                Engine.player_action_test_reset();
-                await Engine.sleep_until(async () => (bool)Engine.player_action_test_accept(), 1);
-                Engine.hud_show_training_text(false);
-                await Engine.sleep(30);
+                await sleep(30);
+                hud_set_training_text("playtest_raisehand");
+                hud_show_training_text(true);
+                player_action_test_reset();
+                await sleep_until(async () => (bool)player_action_test_accept(), 1);
+                hud_show_training_text(false);
+                await sleep(30);
             }
         }
 

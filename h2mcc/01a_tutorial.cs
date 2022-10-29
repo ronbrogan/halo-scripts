@@ -61,7 +61,7 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             this.Engine = scriptEngine;
             this.data_mine_mission_segment = "";
-            this.tick_seconds = Engine.game_tick_rate();
+            this.tick_seconds = game_tick_rate();
             this.global_random = 0;
             this.global_random_rumble = 0;
             this.global_random_bridge = 0;
@@ -111,220 +111,220 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(0, Lifecycle.Static)]
         public async Task<IUnit> player0()
         {
-            return Engine.unit(Engine.list_get(Engine.players(), 0));
+            return unit(list_get(players(), 0));
         }
 
         [ScriptMethod(1, Lifecycle.Static)]
         public async Task<IUnit> player1()
         {
-            return Engine.unit(Engine.list_get(Engine.players(), 1));
+            return unit(list_get(players(), 1));
         }
 
         [ScriptMethod(2, Lifecycle.Static)]
         public async Task<int> player_count()
         {
-            return Engine.list_count(Engine.players());
+            return list_count(players());
         }
 
         [ScriptMethod(3, Lifecycle.Static)]
         public async Task end_segment()
         {
-            Engine.camera_control(true);
-            Engine.cinematic_start();
-            Engine.fade_out(0F, 0F, 0F, 15);
-            await Engine.sleep(30);
-            Engine.print("end gameplay segment!  thank you for playing!");
-            await Engine.sleep(15);
-            Engine.print("grab jaime or paul to give feedback!");
-            Engine.player_action_test_reset();
-            await Engine.sleep(15);
-            Engine.print("press the �a� button to reset!");
-            await Engine.sleep_until(async () => (bool)Engine.player_action_test_accept());
-            Engine.print("reloading map...");
-            await Engine.sleep(15);
-            Engine.map_reset();
+            camera_control(true);
+            cinematic_start();
+            fade_out(0F, 0F, 0F, 15);
+            await sleep(30);
+            print("end gameplay segment!  thank you for playing!");
+            await sleep(15);
+            print("grab jaime or paul to give feedback!");
+            player_action_test_reset();
+            await sleep(15);
+            print("press the �a� button to reset!");
+            await sleep_until(async () => (bool)player_action_test_accept());
+            print("reloading map...");
+            await sleep(15);
+            map_reset();
         }
 
         [ScriptMethod(4, Lifecycle.Static)]
         public async Task<bool> difficulty_legendary()
         {
-            return Engine.game_difficulty_get() == GameDifficulty.Legendary();
+            return game_difficulty_get() == GameDifficulty.Legendary();
         }
 
         [ScriptMethod(5, Lifecycle.Static)]
         public async Task<bool> difficulty_heroic()
         {
-            return Engine.game_difficulty_get() == GameDifficulty.Heroic();
+            return game_difficulty_get() == GameDifficulty.Heroic();
         }
 
         [ScriptMethod(6, Lifecycle.Static)]
         public async Task<bool> difficulty_normal()
         {
-            return Engine.game_difficulty_get() == GameDifficulty.Normal();
+            return game_difficulty_get() == GameDifficulty.Normal();
         }
 
         [ScriptMethod(7, Lifecycle.Static)]
         public async Task<bool> cinematic_skip_start()
         {
-            Engine.cinematic_skip_start_internal();
-            Engine.game_save_cinematic_skip();
-            await Engine.sleep_until(async () => !((bool)Engine.game_saving()), 1);
-            return !((bool)Engine.game_reverted());
+            cinematic_skip_start_internal();
+            game_save_cinematic_skip();
+            await sleep_until(async () => !((bool)game_saving()), 1);
+            return !((bool)game_reverted());
         }
 
         [ScriptMethod(8, Lifecycle.Static)]
         public async Task cinematic_skip_stop()
         {
-            Engine.cinematic_skip_stop_internal();
-            if (!((bool)Engine.game_reverted()))
+            cinematic_skip_stop_internal();
+            if (!((bool)game_reverted()))
             {
-                Engine.game_revert();
+                game_revert();
             }
         }
 
         [ScriptMethod(9, Lifecycle.Static)]
         public async Task cinematic_fade_to_white()
         {
-            Engine.player_enable_input(false);
-            Engine.player_camera_control(false);
-            Engine.hud_cinematic_fade(0F, 0.5F);
-            Engine.cinematic_start();
-            Engine.fade_out(1F, 1F, 1F, 30);
-            await Engine.sleep(30);
-            Engine.camera_control(true);
+            player_enable_input(false);
+            player_camera_control(false);
+            hud_cinematic_fade(0F, 0.5F);
+            cinematic_start();
+            fade_out(1F, 1F, 1F, 30);
+            await sleep(30);
+            camera_control(true);
         }
 
         [ScriptMethod(10, Lifecycle.Static)]
         public async Task cinematic_fade_from_white()
         {
-            Engine.hud_cinematic_fade(1F, 0.5F);
-            Engine.cinematic_stop();
-            Engine.camera_control(false);
-            Engine.fade_in(1F, 1F, 1F, 15);
-            await Engine.sleep(15);
-            Engine.player_enable_input(true);
-            Engine.player_camera_control(true);
+            hud_cinematic_fade(1F, 0.5F);
+            cinematic_stop();
+            camera_control(false);
+            fade_in(1F, 1F, 1F, 15);
+            await sleep(15);
+            player_enable_input(true);
+            player_camera_control(true);
         }
 
         [ScriptMethod(11, Lifecycle.Static)]
         public async Task cinematic_fade_from_white_bars()
         {
-            Engine.cinematic_stop();
-            Engine.cinematic_show_letterbox_immediate(true);
-            Engine.camera_control(false);
-            Engine.fade_in(1F, 1F, 1F, 15);
-            await Engine.sleep(15);
-            Engine.player_enable_input(true);
-            Engine.player_camera_control(true);
+            cinematic_stop();
+            cinematic_show_letterbox_immediate(true);
+            camera_control(false);
+            fade_in(1F, 1F, 1F, 15);
+            await sleep(15);
+            player_enable_input(true);
+            player_camera_control(true);
         }
 
         [ScriptMethod(12, Lifecycle.Static)]
         public async Task cinematic_fade_from_black_bars()
         {
-            Engine.cinematic_stop();
-            Engine.cinematic_show_letterbox_immediate(true);
-            Engine.camera_control(false);
-            Engine.fade_in(0F, 0F, 0F, 15);
-            await Engine.sleep(15);
-            Engine.player_enable_input(true);
-            Engine.player_camera_control(true);
+            cinematic_stop();
+            cinematic_show_letterbox_immediate(true);
+            camera_control(false);
+            fade_in(0F, 0F, 0F, 15);
+            await sleep(15);
+            player_enable_input(true);
+            player_camera_control(true);
         }
 
         [ScriptMethod(13, Lifecycle.Static)]
         public async Task cinematic_fade_to_black()
         {
-            Engine.player_enable_input(false);
-            Engine.player_camera_control(false);
-            Engine.hud_cinematic_fade(0F, 0.5F);
-            Engine.cinematic_start();
-            Engine.fade_out(0F, 0F, 0F, 30);
-            await Engine.sleep(30);
-            Engine.camera_control(true);
+            player_enable_input(false);
+            player_camera_control(false);
+            hud_cinematic_fade(0F, 0.5F);
+            cinematic_start();
+            fade_out(0F, 0F, 0F, 30);
+            await sleep(30);
+            camera_control(true);
         }
 
         [ScriptMethod(14, Lifecycle.Static)]
         public async Task cinematic_fade_from_black()
         {
-            Engine.hud_cinematic_fade(1F, 0.5F);
-            Engine.cinematic_stop();
-            Engine.camera_control(false);
-            Engine.fade_in(0F, 0F, 0F, 15);
-            await Engine.sleep(15);
-            Engine.player_enable_input(true);
-            Engine.player_camera_control(true);
+            hud_cinematic_fade(1F, 0.5F);
+            cinematic_stop();
+            camera_control(false);
+            fade_in(0F, 0F, 0F, 15);
+            await sleep(15);
+            player_enable_input(true);
+            player_camera_control(true);
         }
 
         [ScriptMethod(15, Lifecycle.Static)]
         public async Task cinematic_snap_to_black()
         {
-            Engine.player_enable_input(false);
-            Engine.player_camera_control(false);
-            Engine.fade_out(0F, 0F, 0F, 0);
-            Engine.hud_cinematic_fade(0F, 0F);
-            Engine.cinematic_start();
-            Engine.cinematic_show_letterbox_immediate(true);
-            Engine.camera_control(true);
+            player_enable_input(false);
+            player_camera_control(false);
+            fade_out(0F, 0F, 0F, 0);
+            hud_cinematic_fade(0F, 0F);
+            cinematic_start();
+            cinematic_show_letterbox_immediate(true);
+            camera_control(true);
         }
 
         [ScriptMethod(16, Lifecycle.Static)]
         public async Task cinematic_snap_to_white()
         {
-            Engine.player_enable_input(false);
-            Engine.player_camera_control(false);
-            Engine.fade_out(1F, 1F, 1F, 0);
-            Engine.hud_cinematic_fade(0F, 0F);
-            Engine.cinematic_start();
-            Engine.cinematic_show_letterbox_immediate(true);
-            Engine.camera_control(true);
+            player_enable_input(false);
+            player_camera_control(false);
+            fade_out(1F, 1F, 1F, 0);
+            hud_cinematic_fade(0F, 0F);
+            cinematic_start();
+            cinematic_show_letterbox_immediate(true);
+            camera_control(true);
         }
 
         [ScriptMethod(17, Lifecycle.Static)]
         public async Task cinematic_stash_players()
         {
-            Engine.object_hide(await this.player0(), true);
-            Engine.object_hide(await this.player1(), true);
-            Engine.object_cannot_take_damage(Engine.players());
+            object_hide(await this.player0(), true);
+            object_hide(await this.player1(), true);
+            object_cannot_take_damage(players());
         }
 
         [ScriptMethod(18, Lifecycle.Static)]
         public async Task cinematic_unstash_players()
         {
-            Engine.object_hide(await this.player0(), false);
-            Engine.object_hide(await this.player1(), false);
-            Engine.object_can_take_damage(Engine.players());
+            object_hide(await this.player0(), false);
+            object_hide(await this.player1(), false);
+            object_can_take_damage(players());
         }
 
         [ScriptMethod(19, Lifecycle.Dormant)]
         public async Task _stealth_toggle_monitor()
         {
-            await Engine.sleep_until(async () =>
+            await sleep_until(async () =>
             {
-                await Engine.sleep_until(async () =>
+                await sleep_until(async () =>
                 {
-                    if (Engine.unit_get_shield(await this.player0()) >= 1F && (bool)Engine.player_action_test_vision_trigger())
+                    if (unit_get_shield(await this.player0()) >= 1F && (bool)player_action_test_vision_trigger())
                     {
                         return 1F == 1F;
                     }
                     else
                     {
-                        Engine.player_action_test_reset();
+                        player_action_test_reset();
                         return 1F == 0F;
                     }
                 }, 1);
-                Engine.cheat_active_camouflage_by_player(0, true);
-                Engine.print("stealth engaged");
-                Engine.unit_set_maximum_vitality(await this.player0(), 50F, 0F);
-                Engine.unit_set_current_vitality(await this.player0(), 50F, 0F);
-                Engine.object_set_shield(await this.player0(), 0F);
-                await Engine.sleep(30);
-                Engine.player_action_test_reset();
-                await Engine.sleep_until(async () => Engine.object_get_health(await this.player0()) < 1F || (bool)Engine.player_action_test_vision_trigger(), 1);
-                Engine.cheat_active_camouflage_by_player(0, false);
-                Engine.print("stealth disengaged");
-                Engine.unit_set_maximum_vitality(await this.player0(), 30F, 70F);
-                Engine.object_set_shield(await this.player0(), 0F);
-                await Engine.sleep(30);
-                Engine.player_action_test_reset();
+                cheat_active_camouflage_by_player(0, true);
+                print("stealth engaged");
+                unit_set_maximum_vitality(await this.player0(), 50F, 0F);
+                unit_set_current_vitality(await this.player0(), 50F, 0F);
+                object_set_shield(await this.player0(), 0F);
+                await sleep(30);
+                player_action_test_reset();
+                await sleep_until(async () => object_get_health(await this.player0()) < 1F || (bool)player_action_test_vision_trigger(), 1);
+                cheat_active_camouflage_by_player(0, false);
+                print("stealth disengaged");
+                unit_set_maximum_vitality(await this.player0(), 30F, 70F);
+                object_set_shield(await this.player0(), 0F);
+                await sleep(30);
+                player_action_test_reset();
                 return false;
             }, 1);
         }
@@ -332,32 +332,32 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(20, Lifecycle.Dormant)]
         public async Task _stealth_timer_monitor()
         {
-            await Engine.sleep_until(async () =>
+            await sleep_until(async () =>
             {
-                await Engine.sleep_until(async () =>
+                await sleep_until(async () =>
                 {
-                    if ((bool)Engine.player_action_test_vision_trigger())
+                    if ((bool)player_action_test_vision_trigger())
                     {
                         return 1F == 1F;
                     }
                     else
                     {
-                        Engine.player_action_test_reset();
+                        player_action_test_reset();
                         return 1F == 0F;
                     }
                 }, 1);
-                Engine.cheat_active_camouflage_by_player(0, true);
-                Engine.print("stealth engaged");
-                await Engine.sleep(15);
-                Engine.player_action_test_reset();
-                await Engine.sleep_until(async () => (bool)Engine.player_action_test_vision_trigger() || (bool)Engine.player_action_test_primary_trigger() || (bool)Engine.player_action_test_grenade_trigger() || (bool)Engine.player_action_test_melee(), 1, 9 * 30);
-                Engine.cheat_active_camouflage_by_player(0, false);
-                Engine.print("stealth disengaged");
-                await Engine.sleep(30);
-                Engine.player_action_test_reset();
-                await Engine.sleep_until(async () =>
+                cheat_active_camouflage_by_player(0, true);
+                print("stealth engaged");
+                await sleep(15);
+                player_action_test_reset();
+                await sleep_until(async () => (bool)player_action_test_vision_trigger() || (bool)player_action_test_primary_trigger() || (bool)player_action_test_grenade_trigger() || (bool)player_action_test_melee(), 1, 9 * 30);
+                cheat_active_camouflage_by_player(0, false);
+                print("stealth disengaged");
+                await sleep(30);
+                player_action_test_reset();
+                await sleep_until(async () =>
                 {
-                    Engine.print("+");
+                    print("+");
                     return false;
                 }, 30, 5 * 30);
                 return false;
@@ -367,294 +367,294 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(21, Lifecycle.Static)]
         public async Task activate_stealth_toggle_monitor()
         {
-            await Engine.sleep(1);
+            await sleep(1);
         }
 
         [ScriptMethod(22, Lifecycle.Static)]
         public async Task activate_stealth_timer_monitor()
         {
-            await Engine.sleep(1);
+            await sleep(1);
         }
 
         [ScriptMethod(23, Lifecycle.Static)]
         public async Task playtest_mission()
         {
-            if ((bool)Engine.game_is_playtest())
+            if ((bool)game_is_playtest())
             {
-                await Engine.sleep(30);
-                Engine.hud_set_training_text("playtest_raisehand");
-                Engine.hud_show_training_text(true);
-                Engine.player_action_test_reset();
-                await Engine.sleep_until(async () => (bool)Engine.player_action_test_accept(), 1);
-                Engine.hud_show_training_text(false);
-                await Engine.sleep(30);
+                await sleep(30);
+                hud_set_training_text("playtest_raisehand");
+                hud_show_training_text(true);
+                player_action_test_reset();
+                await sleep_until(async () => (bool)player_action_test_accept(), 1);
+                hud_show_training_text(false);
+                await sleep(30);
             }
         }
 
         [ScriptMethod(24, Lifecycle.Static)]
         public async Task save_look_start()
         {
-            if ((bool)Engine.game_safe_to_save())
+            if ((bool)game_safe_to_save())
             {
-                Engine.data_mine_set_mission_segment("01a_look_start");
+                data_mine_set_mission_segment("01a_look_start");
             }
         }
 
         [ScriptMethod(25, Lifecycle.Static)]
         public async Task save_move_start()
         {
-            Engine.game_save();
-            if ((bool)Engine.game_safe_to_save())
+            game_save();
+            if ((bool)game_safe_to_save())
             {
-                Engine.data_mine_set_mission_segment("01a_move_start");
+                data_mine_set_mission_segment("01a_move_start");
             }
         }
 
         [ScriptMethod(26, Lifecycle.Static)]
         public async Task save_shield_start()
         {
-            Engine.game_save();
-            if ((bool)Engine.game_safe_to_save())
+            game_save();
+            if ((bool)game_safe_to_save())
             {
-                Engine.data_mine_set_mission_segment("01a_shield_start");
+                data_mine_set_mission_segment("01a_shield_start");
             }
         }
 
         [ScriptMethod(27, Lifecycle.Static)]
         public async Task save_tram_start()
         {
-            Engine.game_save();
-            if ((bool)Engine.game_safe_to_save())
+            game_save();
+            if ((bool)game_safe_to_save())
             {
-                Engine.data_mine_set_mission_segment("01a_tram_start");
+                data_mine_set_mission_segment("01a_tram_start");
             }
         }
 
         [ScriptMethod(28, Lifecycle.CommandScript)]
         public async Task cs_lookat_player()
         {
-            Engine.cs_face_player(true);
-            Engine.sleep_forever();
+            cs_face_player(true);
+            sleep_forever();
         }
 
         [ScriptMethod(29, Lifecycle.CommandScript)]
         public async Task cs_lookat_guns()
         {
-            Engine.cs_face_object(true, Engine.ai_get_object(guns.Squad));
-            Engine.sleep_forever();
+            cs_face_object(true, ai_get_object(guns.Squad));
+            sleep_forever();
         }
 
         [ScriptMethod(30, Lifecycle.CommandScript)]
         public async Task cs_johnson_glanceat_guns()
         {
-            Engine.cs_enable_looking(true);
-            Engine.cs_look_object(true, Engine.ai_get_object(guns.Squad));
-            Engine.sleep_forever();
+            cs_enable_looking(true);
+            cs_look_object(true, ai_get_object(guns.Squad));
+            sleep_forever();
         }
 
         [ScriptMethod(31, Lifecycle.CommandScript)]
         public async Task cs_lookat_johnson()
         {
-            Engine.cs_face_object(true, Engine.ai_get_object(johnson.Squad));
-            Engine.sleep_forever();
+            cs_face_object(true, ai_get_object(johnson.Squad));
+            sleep_forever();
         }
 
         [ScriptMethod(32, Lifecycle.CommandScript)]
         public async Task cs_lookat_console_zapper()
         {
-            Engine.cs_look(true, Engine.GetReference<ISpatialPoint>("guns_points/console_zapper"));
-            await Engine.sleep(45);
-            Engine.cs_face_player(true);
-            Engine.sleep_forever();
+            cs_look(true, GetReference<ISpatialPoint>("guns_points/console_zapper"));
+            await sleep(45);
+            cs_face_player(true);
+            sleep_forever();
         }
 
         [ScriptMethod(33, Lifecycle.CommandScript)]
         public async Task cs_lookat_console_toplight()
         {
-            Engine.cs_aim_object(true, looker_light_top_red.Entity);
-            await Engine.sleep(45);
-            Engine.cs_face(true, Engine.GetReference<ISpatialPoint>("guns_points/console_inhibitor"));
-            await Engine.sleep(30);
-            Engine.cs_face_player(true);
-            Engine.sleep_forever();
+            cs_aim_object(true, looker_light_top_red.Entity);
+            await sleep(45);
+            cs_face(true, GetReference<ISpatialPoint>("guns_points/console_inhibitor"));
+            await sleep(30);
+            cs_face_player(true);
+            sleep_forever();
         }
 
         [ScriptMethod(34, Lifecycle.CommandScript)]
         public async Task cs_lookat_console_bottomlight()
         {
-            Engine.cs_aim_object(true, looker_light_bottom_red.Entity);
-            await Engine.sleep(45);
-            Engine.cs_face(true, Engine.GetReference<ISpatialPoint>("guns_points/console_inhibitor"));
-            await Engine.sleep(30);
-            Engine.cs_face_player(true);
-            Engine.sleep_forever();
+            cs_aim_object(true, looker_light_bottom_red.Entity);
+            await sleep(45);
+            cs_face(true, GetReference<ISpatialPoint>("guns_points/console_inhibitor"));
+            await sleep(30);
+            cs_face_player(true);
+            sleep_forever();
         }
 
         [ScriptMethod(35, Lifecycle.CommandScript)]
         public async Task cs_lookat_console_inhibitor()
         {
-            Engine.cs_face(true, Engine.GetReference<ISpatialPoint>("guns_points/console_inhibitor"));
-            await Engine.sleep(30);
-            Engine.cs_face_player(true);
-            Engine.sleep_forever();
+            cs_face(true, GetReference<ISpatialPoint>("guns_points/console_inhibitor"));
+            await sleep(30);
+            cs_face_player(true);
+            sleep_forever();
         }
 
         [ScriptMethod(36, Lifecycle.CommandScript)]
         public async Task cs_guns_start()
         {
-            Engine.cs_force_combat_status(2);
-            Engine.cs_enable_moving(false);
-            Engine.cs_enable_pathfinding_failsafe(true);
-            Engine.cs_go_to(Engine.GetReference<ISpatialPoint>("guns_points/start"));
-            Engine.cs_face_player(true);
-            Engine.sleep_forever();
+            cs_force_combat_status(2);
+            cs_enable_moving(false);
+            cs_enable_pathfinding_failsafe(true);
+            cs_go_to(GetReference<ISpatialPoint>("guns_points/start"));
+            cs_face_player(true);
+            sleep_forever();
         }
 
         [ScriptMethod(37, Lifecycle.CommandScript)]
         public async Task cs_guns_zapper_halfway()
         {
-            Engine.cs_force_combat_status(2);
-            Engine.cs_enable_moving(false);
-            Engine.cs_enable_pathfinding_failsafe(true);
-            Engine.cs_go_to(Engine.GetReference<ISpatialPoint>("guns_points/zapper_halfway"));
-            Engine.cs_face_player(true);
-            Engine.sleep_forever();
+            cs_force_combat_status(2);
+            cs_enable_moving(false);
+            cs_enable_pathfinding_failsafe(true);
+            cs_go_to(GetReference<ISpatialPoint>("guns_points/zapper_halfway"));
+            cs_face_player(true);
+            sleep_forever();
         }
 
         [ScriptMethod(38, Lifecycle.CommandScript)]
         public async Task cs_guns_zapper_wait()
         {
-            Engine.cs_force_combat_status(2);
-            Engine.cs_enable_moving(false);
-            Engine.cs_enable_pathfinding_failsafe(true);
-            Engine.cs_go_to(Engine.GetReference<ISpatialPoint>("guns_points/zapper"));
-            Engine.cs_face_player(true);
-            Engine.sleep_forever();
+            cs_force_combat_status(2);
+            cs_enable_moving(false);
+            cs_enable_pathfinding_failsafe(true);
+            cs_go_to(GetReference<ISpatialPoint>("guns_points/zapper"));
+            cs_face_player(true);
+            sleep_forever();
         }
 
         [ScriptMethod(39, Lifecycle.CommandScript)]
         public async Task cs_guns_zapper()
         {
-            Engine.cs_force_combat_status(2);
-            Engine.cs_enable_moving(false);
-            Engine.cs_enable_pathfinding_failsafe(true);
-            Engine.cs_go_to_and_face(Engine.GetReference<ISpatialPoint>("guns_points/zapper"), Engine.GetReference<ISpatialPoint>("guns_points/zapper_face"));
-            Engine.cs_face(true, Engine.GetReference<ISpatialPoint>("guns_points/zapper_face"));
-            Engine.sleep_forever();
+            cs_force_combat_status(2);
+            cs_enable_moving(false);
+            cs_enable_pathfinding_failsafe(true);
+            cs_go_to_and_face(GetReference<ISpatialPoint>("guns_points/zapper"), GetReference<ISpatialPoint>("guns_points/zapper_face"));
+            cs_face(true, GetReference<ISpatialPoint>("guns_points/zapper_face"));
+            sleep_forever();
         }
 
         [ScriptMethod(40, Lifecycle.CommandScript)]
         public async Task cs_guns_zapper_prompt()
         {
-            Engine.cs_force_combat_status(2);
-            Engine.cs_enable_moving(false);
-            Engine.cs_enable_pathfinding_failsafe(true);
-            Engine.cs_face_player(true);
-            await Engine.sleep(90);
-            Engine.cs_face_player(false);
-            Engine.cs_go_to_and_face(Engine.GetReference<ISpatialPoint>("guns_points/zapper"), Engine.GetReference<ISpatialPoint>("guns_points/zapper_face"));
-            Engine.cs_face(true, Engine.GetReference<ISpatialPoint>("guns_points/zapper_face"));
-            Engine.sleep_forever();
+            cs_force_combat_status(2);
+            cs_enable_moving(false);
+            cs_enable_pathfinding_failsafe(true);
+            cs_face_player(true);
+            await sleep(90);
+            cs_face_player(false);
+            cs_go_to_and_face(GetReference<ISpatialPoint>("guns_points/zapper"), GetReference<ISpatialPoint>("guns_points/zapper_face"));
+            cs_face(true, GetReference<ISpatialPoint>("guns_points/zapper_face"));
+            sleep_forever();
         }
 
         [ScriptMethod(41, Lifecycle.CommandScript)]
         public async Task cs_johnson_start()
         {
-            Engine.cs_force_combat_status(2);
-            Engine.cs_enable_moving(false);
-            Engine.cs_enable_pathfinding_failsafe(true);
-            Engine.cs_go_to(Engine.GetReference<ISpatialPoint>("johnson_points/start"));
-            Engine.cs_face_player(true);
-            Engine.sleep_forever();
+            cs_force_combat_status(2);
+            cs_enable_moving(false);
+            cs_enable_pathfinding_failsafe(true);
+            cs_go_to(GetReference<ISpatialPoint>("johnson_points/start"));
+            cs_face_player(true);
+            sleep_forever();
         }
 
         [ScriptMethod(42, Lifecycle.CommandScript)]
         public async Task cs_johnson_elevator()
         {
-            Engine.cs_force_combat_status(2);
-            Engine.cs_enable_moving(false);
-            Engine.cs_enable_pathfinding_failsafe(true);
-            Engine.cs_go_to(Engine.GetReference<ISpatialPoint>("johnson_points/elevator"));
-            Engine.cs_face_player(true);
-            Engine.sleep_forever();
+            cs_force_combat_status(2);
+            cs_enable_moving(false);
+            cs_enable_pathfinding_failsafe(true);
+            cs_go_to(GetReference<ISpatialPoint>("johnson_points/elevator"));
+            cs_face_player(true);
+            sleep_forever();
         }
 
         [ScriptMethod(43, Lifecycle.CommandScript)]
         public async Task cs_johnson_elevator_face_guns()
         {
-            Engine.cs_force_combat_status(2);
-            Engine.cs_enable_moving(false);
-            Engine.cs_enable_pathfinding_failsafe(true);
-            Engine.cs_go_to(Engine.GetReference<ISpatialPoint>("johnson_points/elevator"));
-            Engine.cs_face_object(true, Engine.ai_get_object(guns.Squad));
-            Engine.sleep_forever();
+            cs_force_combat_status(2);
+            cs_enable_moving(false);
+            cs_enable_pathfinding_failsafe(true);
+            cs_go_to(GetReference<ISpatialPoint>("johnson_points/elevator"));
+            cs_face_object(true, ai_get_object(guns.Squad));
+            sleep_forever();
         }
 
         [ScriptMethod(44, Lifecycle.CommandScript)]
         public async Task cs_guns_elevator()
         {
-            Engine.cs_force_combat_status(2);
-            Engine.cs_enable_moving(false);
-            Engine.cs_enable_pathfinding_failsafe(true);
-            Engine.cs_go_to(Engine.GetReference<ISpatialPoint>("guns_points/elevator"));
-            Engine.cs_face_player(true);
-            Engine.sleep_forever();
+            cs_force_combat_status(2);
+            cs_enable_moving(false);
+            cs_enable_pathfinding_failsafe(true);
+            cs_go_to(GetReference<ISpatialPoint>("guns_points/elevator"));
+            cs_face_player(true);
+            sleep_forever();
         }
 
         [ScriptMethod(45, Lifecycle.CommandScript)]
         public async Task cs_johnson_tram()
         {
-            Engine.cs_force_combat_status(2);
-            Engine.cs_enable_moving(false);
-            Engine.cs_enable_pathfinding_failsafe(true);
-            Engine.cs_go_to_and_face(Engine.GetReference<ISpatialPoint>("johnson_points/tram"), Engine.GetReference<ISpatialPoint>("johnson_points/earth"));
-            Engine.cs_face(true, Engine.GetReference<ISpatialPoint>("johnson_points/earth"));
-            Engine.sleep_forever();
+            cs_force_combat_status(2);
+            cs_enable_moving(false);
+            cs_enable_pathfinding_failsafe(true);
+            cs_go_to_and_face(GetReference<ISpatialPoint>("johnson_points/tram"), GetReference<ISpatialPoint>("johnson_points/earth"));
+            cs_face(true, GetReference<ISpatialPoint>("johnson_points/earth"));
+            sleep_forever();
         }
 
         [ScriptMethod(46, Lifecycle.CommandScript)]
         public async Task cs_lookat_macgun()
         {
-            Engine.cs_force_combat_status(2);
-            Engine.cs_enable_moving(false);
-            Engine.cs_enable_pathfinding_failsafe(true);
-            Engine.cs_ignore_obstacles(true);
-            Engine.cs_go_to_and_face(Engine.GetReference<ISpatialPoint>("johnson_points/tram_2"), Engine.GetReference<ISpatialPoint>("johnson_points/macgun"));
-            Engine.cs_face(true, Engine.GetReference<ISpatialPoint>("johnson_points/macgun"));
-            Engine.sleep_forever();
+            cs_force_combat_status(2);
+            cs_enable_moving(false);
+            cs_enable_pathfinding_failsafe(true);
+            cs_ignore_obstacles(true);
+            cs_go_to_and_face(GetReference<ISpatialPoint>("johnson_points/tram_2"), GetReference<ISpatialPoint>("johnson_points/macgun"));
+            cs_face(true, GetReference<ISpatialPoint>("johnson_points/macgun"));
+            sleep_forever();
         }
 
         [ScriptMethod(47, Lifecycle.CommandScript)]
         public async Task cs_lookat_malta()
         {
-            Engine.cs_face(true, Engine.GetReference<ISpatialPoint>("johnson_points/malta"));
-            Engine.sleep_forever();
+            cs_face(true, GetReference<ISpatialPoint>("johnson_points/malta"));
+            sleep_forever();
         }
 
         [ScriptMethod(48, Lifecycle.CommandScript)]
         public async Task cs_lookat_fleet()
         {
-            Engine.cs_face_object(true, inamberclad.Entity);
-            Engine.cs_look_object(true, inamberclad.Entity);
-            Engine.sleep_forever();
+            cs_face_object(true, inamberclad.Entity);
+            cs_look_object(true, inamberclad.Entity);
+            sleep_forever();
         }
 
         [ScriptMethod(49, Lifecycle.CommandScript)]
         public async Task cs_johnson_lookat_station()
         {
-            Engine.cs_face(true, Engine.GetReference<ISpatialPoint>("johnson_points/station"));
-            Engine.sleep_forever();
+            cs_face(true, GetReference<ISpatialPoint>("johnson_points/station"));
+            sleep_forever();
         }
 
         [ScriptMethod(50, Lifecycle.CommandScript)]
         public async Task cs_johnson_station()
         {
-            Engine.cs_force_combat_status(2);
-            Engine.cs_enable_moving(false);
-            Engine.cs_enable_pathfinding_failsafe(true);
-            Engine.cs_go_to(Engine.GetReference<ISpatialPoint>("johnson_points/station"));
-            Engine.cs_face_player(true);
-            Engine.sleep_forever();
+            cs_force_combat_status(2);
+            cs_enable_moving(false);
+            cs_enable_pathfinding_failsafe(true);
+            cs_go_to(GetReference<ISpatialPoint>("johnson_points/station"));
+            cs_face_player(true);
+            sleep_forever();
         }
 
         [ScriptMethod(51, Lifecycle.Static)]
@@ -662,16 +662,16 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             if (this.counter_prompt_looker_start == 0)
             {
-                Engine.print("go ahead and look at each of the four lights, chief.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3110_gun", 3873506667U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_looker = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3110_gun", 3873506667U)));
+                print("go ahead and look at each of the four lights, chief.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3110_gun", 3873506667U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_looker = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3110_gun", 3873506667U)));
                 this.timer_prompt_looker = (short)(this.timer_prompt_looker + this.delay_prompt_short);
             }
             else if (this.counter_prompt_looker_start == 1)
             {
-                Engine.print("go ahead and target them one more time.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1360_gun", 3873572204U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_looker = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1360_gun", 3873572204U)));
+                print("go ahead and target them one more time.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1360_gun", 3873572204U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_looker = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1360_gun", 3873572204U)));
                 this.timer_prompt_looker = (short)(this.timer_prompt_looker + this.delay_prompt_medium);
             }
             else if (true)
@@ -688,32 +688,32 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             if (this.counter_prompt_looker == 0)
             {
-                Engine.print("you have to look at each light until it turns green.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1310_gun", 3873637741U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_looker = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1310_gun", 3873637741U)));
+                print("you have to look at each light until it turns green.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1310_gun", 3873637741U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_looker = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1310_gun", 3873637741U)));
                 this.timer_prompt_looker = (short)(this.timer_prompt_looker + this.delay_prompt_short);
             }
             else if (this.counter_prompt_looker == 1)
             {
-                Engine.print("you gotta look at all the lights to complete the test.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1370_gun", 3873703278U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_looker = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1370_gun", 3873703278U)));
+                print("you gotta look at all the lights to complete the test.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1370_gun", 3873703278U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_looker = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1370_gun", 3873703278U)));
                 this.timer_prompt_looker = (short)(this.timer_prompt_looker + this.delay_prompt_short);
             }
             else if (this.counter_prompt_looker == 2)
             {
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
-                Engine.print("look at the lights, chief, one by one.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1300_gun", 3873768815U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_looker = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1300_gun", 3873768815U)));
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
+                print("look at the lights, chief, one by one.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1300_gun", 3873768815U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_looker = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1300_gun", 3873768815U)));
                 this.timer_prompt_looker = (short)(this.timer_prompt_looker + this.delay_prompt_medium);
             }
             else if (this.counter_prompt_looker == 3)
             {
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
-                Engine.print("please look at the lights again, son.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1350_gun", 3873834352U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_looker = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1350_gun", 3873834352U)));
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
+                print("please look at the lights again, son.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1350_gun", 3873834352U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_looker = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1350_gun", 3873834352U)));
                 this.timer_prompt_looker = (short)(this.timer_prompt_looker + this.delay_prompt_medium);
             }
             else if (true)
@@ -730,25 +730,25 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             if (this.counter_prompt_start_spot == 0)
             {
-                Engine.print("go on, walk around, try it out.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0820_gun", 3873899889U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_start_spot = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0820_gun", 3873899889U)));
+                print("go on, walk around, try it out.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0820_gun", 3873899889U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_start_spot = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0820_gun", 3873899889U)));
                 this.timer_prompt_start_spot = (short)(this.timer_prompt_start_spot + this.delay_prompt_short);
             }
             else if (this.counter_prompt_start_spot == 1)
             {
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "inquisitive", 0.5F, 1);
-                Engine.print("something wrong son?  can't you move?");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0830_gun", 3873965426U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_start_spot = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0830_gun", 3873965426U)));
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "inquisitive", 0.5F, 1);
+                print("something wrong son?  can't you move?");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0830_gun", 3873965426U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_start_spot = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0830_gun", 3873965426U)));
                 this.timer_prompt_start_spot = (short)(this.timer_prompt_start_spot + this.delay_prompt_medium);
             }
             else if (this.counter_prompt_start_spot == 2)
             {
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "inquisitive", 0.5F, 1);
-                Engine.print("inhibitors are definitely off. you should be able to walk around.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0840_gun", 3874030963U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_start_spot = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0840_gun", 3874030963U)));
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "inquisitive", 0.5F, 1);
+                print("inhibitors are definitely off. you should be able to walk around.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0840_gun", 3874030963U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_start_spot = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0840_gun", 3874030963U)));
                 this.timer_prompt_start_spot = (short)(this.timer_prompt_start_spot + this.delay_prompt_medium);
             }
             else if (true)
@@ -765,36 +765,36 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             if (this.counter_prompt_careful == 0)
             {
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_player));
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "scared", 0.5F, 1);
-                await Engine.sleep(8);
-                Engine.print("hey! take it easy!");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0850_gun", 3874096500U), Engine.ai_get_object(guns.Squad), 1F);
-                await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0850_gun", 3874096500U)));
-                await Engine.sleep(30);
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_wait));
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_player));
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "scared", 0.5F, 1);
+                await sleep(8);
+                print("hey! take it easy!");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0850_gun", 3874096500U), ai_get_object(guns.Squad), 1F);
+                await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0850_gun", 3874096500U)));
+                await sleep(30);
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_wait));
             }
             else if (this.counter_prompt_careful == 1)
             {
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_player));
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "scared", 0.5F, 1);
-                await Engine.sleep(8);
-                Engine.print("careful! you'll tear a tendon doing that!");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0860_gun", 3874162037U), Engine.ai_get_object(guns.Squad), 1F);
-                await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0860_gun", 3874162037U)));
-                await Engine.sleep(30);
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_wait));
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_player));
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "scared", 0.5F, 1);
+                await sleep(8);
+                print("careful! you'll tear a tendon doing that!");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0860_gun", 3874162037U), ai_get_object(guns.Squad), 1F);
+                await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0860_gun", 3874162037U)));
+                await sleep(30);
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_wait));
             }
             else if (this.counter_prompt_careful == 2)
             {
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_player));
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
-                await Engine.sleep(8);
-                Engine.print("fine. but don't come crying to me when your rip your leg out of its socket.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0870_gun", 3874227574U), Engine.ai_get_object(guns.Squad), 1F);
-                await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0870_gun", 3874227574U)));
-                await Engine.sleep(30);
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_wait));
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_player));
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
+                await sleep(8);
+                print("fine. but don't come crying to me when your rip your leg out of its socket.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0870_gun", 3874227574U), ai_get_object(guns.Squad), 1F);
+                await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0870_gun", 3874227574U)));
+                await sleep(30);
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_wait));
             }
             else if (true)
             {
@@ -809,82 +809,82 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(55, Lifecycle.Static)]
         public async Task<bool> prompt_zapper_lookatme()
         {
-            Engine.hud_show_training_text(false);
+            hud_show_training_text(false);
             if (this.counter_prompt_zapper_lookatme == 0)
             {
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
-                await Engine.sleep(30);
-                Engine.print("are you listening to me?.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3160_gun", 3874293111U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3160_gun", 3874293111U)));
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
+                await sleep(30);
+                print("are you listening to me?.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3160_gun", 3874293111U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3160_gun", 3874293111U)));
                 this.timer_prompt_zapper_lookatme = (short)(this.timer_prompt_zapper + this.delay_prompt_short);
             }
             else if (this.counter_prompt_zapper_lookatme == 1)
             {
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
-                await Engine.sleep(30);
-                Engine.print("over here, chief.  focus.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3170_gun", 3874358648U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3170_gun", 3874358648U)));
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
+                await sleep(30);
+                print("over here, chief.  focus.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3170_gun", 3874358648U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3170_gun", 3874358648U)));
                 this.timer_prompt_zapper_lookatme = (short)(this.timer_prompt_zapper + this.delay_prompt_short);
             }
             else if (this.counter_prompt_zapper_lookatme == 2)
             {
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
-                await Engine.sleep(30);
-                Engine.print("it's considered respectful to look at someone when they are talking.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3180_gun", 3874424185U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3180_gun", 3874424185U)));
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
+                await sleep(30);
+                print("it's considered respectful to look at someone when they are talking.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3180_gun", 3874424185U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3180_gun", 3874424185U)));
                 this.timer_prompt_zapper_lookatme = (short)(this.timer_prompt_zapper + this.delay_prompt_medium);
             }
             else if (this.counter_prompt_zapper_lookatme == 3)
             {
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "angry", 0.5F, 1);
-                await Engine.sleep(30);
-                Engine.print("this is important, you could at least look at me while i explain it.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3190_gun", 3874489722U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3190_gun", 3874489722U)));
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "angry", 0.5F, 1);
+                await sleep(30);
+                print("this is important, you could at least look at me while i explain it.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3190_gun", 3874489722U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3190_gun", 3874489722U)));
                 this.timer_prompt_zapper_lookatme = (short)(this.timer_prompt_zapper + this.delay_prompt_medium);
             }
             else if (this.counter_prompt_zapper_lookatme == 4)
             {
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "angry", 0.5F, 1);
-                await Engine.sleep(30);
-                Engine.print("i'm talking to you, chief.  loot at me.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3200_gun", 3874555259U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3200_gun", 3874555259U)));
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "angry", 0.5F, 1);
+                await sleep(30);
+                print("i'm talking to you, chief.  loot at me.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3200_gun", 3874555259U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3200_gun", 3874555259U)));
                 this.timer_prompt_zapper_lookatme = (short)(this.timer_prompt_zapper + this.delay_prompt_long);
-                Engine.hud_set_training_text("tutorial_zapper_lookatme");
-                Engine.hud_show_training_text(true);
+                hud_set_training_text("tutorial_zapper_lookatme");
+                hud_show_training_text(true);
             }
             else if (this.counter_prompt_zapper_lookatme == 5)
             {
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "angry", 0.5F, 1);
-                await Engine.sleep(30);
-                Engine.print("i know you spartans think you know everything, but it couldn't hurt you to at least look this way.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3210_gun", 3874620796U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3210_gun", 3874620796U)));
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "angry", 0.5F, 1);
+                await sleep(30);
+                print("i know you spartans think you know everything, but it couldn't hurt you to at least look this way.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3210_gun", 3874620796U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3210_gun", 3874620796U)));
                 this.timer_prompt_zapper_lookatme = (short)(this.timer_prompt_zapper + this.delay_prompt_long);
-                Engine.hud_set_training_text("tutorial_zapper_lookatme");
-                Engine.hud_show_training_text(true);
+                hud_set_training_text("tutorial_zapper_lookatme");
+                hud_show_training_text(true);
             }
             else if (this.counter_prompt_zapper_lookatme == 6)
             {
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "angry", 0.5F, 1);
-                await Engine.sleep(30);
-                Engine.print("look, just because the brass kisses your ass, doesn't mean i will.  look at me when i talk to you!");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3220_gun", 3874686333U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3220_gun", 3874686333U)));
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "angry", 0.5F, 1);
+                await sleep(30);
+                print("look, just because the brass kisses your ass, doesn't mean i will.  look at me when i talk to you!");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3220_gun", 3874686333U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3220_gun", 3874686333U)));
                 this.timer_prompt_zapper_lookatme = (short)(this.timer_prompt_zapper + this.delay_prompt_drag);
-                Engine.hud_set_training_text("tutorial_zapper_lookatme");
-                Engine.hud_show_training_text(true);
+                hud_set_training_text("tutorial_zapper_lookatme");
+                hud_show_training_text(true);
             }
             else if (true)
             {
@@ -898,90 +898,90 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(56, Lifecycle.Static)]
         public async Task<bool> prompt_zapper_getin()
         {
-            Engine.hud_show_training_text(false);
+            hud_show_training_text(false);
             if (this.counter_prompt_zapper_getin == 0)
             {
-                Engine.custom_animation(Engine.ai_get_unit(guns.Squad), Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0900_jon", true);
-                Engine.objectives_finish_up_to(0);
-                Engine.objectives_show_up_to(1);
-                await Engine.sleep(10);
-                Engine.print("step on in. i'll show you.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0900_gun", 3874882944U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0900_gun", 3874882944U)));
+                custom_animation(ai_get_unit(guns.Squad), GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0900_jon", true);
+                objectives_finish_up_to(0);
+                objectives_show_up_to(1);
+                await sleep(10);
+                print("step on in. i'll show you.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0900_gun", 3874882944U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0900_gun", 3874882944U)));
                 this.timer_prompt_zapper_getin = (short)(this.timer_prompt_zapper + this.delay_prompt_short);
             }
             else if (this.counter_prompt_zapper_getin == 1)
             {
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
-                await Engine.sleep(30);
-                Engine.print("step into the red sqaure, chief, and we'll get started.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3230_gun", 3874948481U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3230_gun", 3874948481U)));
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
+                await sleep(30);
+                print("step into the red sqaure, chief, and we'll get started.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3230_gun", 3874948481U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3230_gun", 3874948481U)));
                 this.timer_prompt_zapper_getin = (short)(this.timer_prompt_zapper + this.delay_prompt_short);
             }
             else if (this.counter_prompt_zapper_getin == 2)
             {
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
-                await Engine.sleep(30);
-                Engine.print("chief? stand in the red square.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3240_gun", 3875014018U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3240_gun", 3875014018U)));
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
+                await sleep(30);
+                print("chief? stand in the red square.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3240_gun", 3875014018U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3240_gun", 3875014018U)));
                 this.timer_prompt_zapper_getin = (short)(this.timer_prompt_zapper + this.delay_prompt_medium);
             }
             else if (this.counter_prompt_zapper_getin == 3)
             {
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
-                await Engine.sleep(30);
-                Engine.print("you have to stand in the red square before we can start the test.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3250_gun", 3875079555U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3250_gun", 3875079555U)));
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
+                await sleep(30);
+                print("you have to stand in the red square before we can start the test.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3250_gun", 3875079555U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3250_gun", 3875079555U)));
                 this.timer_prompt_zapper_getin = (short)(this.timer_prompt_zapper + this.delay_prompt_medium);
             }
             else if (this.counter_prompt_zapper_getin == 4)
             {
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
-                await Engine.sleep(30);
-                Engine.print("go ahead and stand in the red sqaure.� it'll just take a minute.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3260_gun", 3875145092U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3260_gun", 3875145092U)));
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
+                await sleep(30);
+                print("go ahead and stand in the red sqaure.� it'll just take a minute.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3260_gun", 3875145092U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3260_gun", 3875145092U)));
                 this.timer_prompt_zapper_getin = (short)(this.timer_prompt_zapper + this.delay_prompt_long);
             }
             else if (this.counter_prompt_zapper_getin == 5)
             {
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
-                await Engine.sleep(30);
-                Engine.print("come on, son, step into the red square.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3270_gun", 3875210629U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3270_gun", 3875210629U)));
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
+                await sleep(30);
+                print("come on, son, step into the red square.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3270_gun", 3875210629U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3270_gun", 3875210629U)));
                 this.timer_prompt_zapper_getin = (short)(this.timer_prompt_zapper + this.delay_prompt_long);
-                Engine.hud_set_training_text("tutorial_zapper_getin");
-                Engine.hud_show_training_text(true);
+                hud_set_training_text("tutorial_zapper_getin");
+                hud_show_training_text(true);
             }
             else if (this.counter_prompt_zapper_getin == 6)
             {
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
-                await Engine.sleep(30);
-                Engine.print("will you stop screwing around?� stand in the red square!");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3280_gun", 3875276166U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3280_gun", 3875276166U)));
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
+                await sleep(30);
+                print("will you stop screwing around?� stand in the red square!");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3280_gun", 3875276166U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3280_gun", 3875276166U)));
                 this.timer_prompt_zapper_getin = (short)(this.timer_prompt_zapper + this.delay_prompt_long);
-                Engine.hud_set_training_text("tutorial_zapper_getin");
-                Engine.hud_show_training_text(true);
+                hud_set_training_text("tutorial_zapper_getin");
+                hud_show_training_text(true);
             }
             else if (this.counter_prompt_zapper_getin == 7)
             {
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "angry", 0.5F, 1);
-                await Engine.sleep(30);
-                Engine.print("stop bustin' my balls, and step in the damn square!");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3290_gun", 3875341703U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3290_gun", 3875341703U)));
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_prompt));
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "angry", 0.5F, 1);
+                await sleep(30);
+                print("stop bustin' my balls, and step in the damn square!");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3290_gun", 3875341703U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3290_gun", 3875341703U)));
                 this.timer_prompt_zapper_getin = (short)(this.timer_prompt_zapper + this.delay_prompt_drag);
-                Engine.hud_set_training_text("tutorial_zapper_getin");
-                Engine.hud_show_training_text(true);
+                hud_set_training_text("tutorial_zapper_getin");
+                hud_show_training_text(true);
             }
             else if (true)
             {
@@ -995,76 +995,76 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(57, Lifecycle.Static)]
         public async Task<bool> prompt_zapper_button()
         {
-            Engine.hud_show_training_text(false);
+            hud_show_training_text(false);
             if (this.counter_prompt_zapper_button == 0)
             {
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "angry", 0F, 1);
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "annoyed", 0F, 1);
-                Engine.device_set_power(zapper_control.Entity, 1F);
-                Engine.print("your new armor's shields are extremely resilient - very efficient.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0880_gun", 3875407240U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0880_gun", 3875407240U)));
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "angry", 0F, 1);
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "annoyed", 0F, 1);
+                device_set_power(zapper_control.Entity, 1F);
+                print("your new armor's shields are extremely resilient - very efficient.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0880_gun", 3875407240U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0880_gun", 3875407240U)));
                 this.timer_prompt_zapper_button = (short)(this.timer_prompt_zapper + 0);
             }
             else if (this.counter_prompt_zapper_button == 1)
             {
-                Engine.print("much better than the covenant tech we used for the mark-five.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0890_gun", 3875472777U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0890_gun", 3875472777U)));
+                print("much better than the covenant tech we used for the mark-five.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0890_gun", 3875472777U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0890_gun", 3875472777U)));
                 this.timer_prompt_zapper_button = (short)(this.timer_prompt_zapper + 0);
             }
             else if (this.counter_prompt_zapper_button == 2)
             {
-                Engine.custom_animation(Engine.ai_get_unit(guns.Squad), Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0910_jon", true);
-                Engine.objectives_finish_up_to(1);
-                Engine.objectives_show_up_to(2);
-                await Engine.sleep(10);
-                Engine.print("go ahead and use the switch in front of you to start the shield test.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3300_gun", 3875538314U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3300_gun", 3875538314U)));
+                custom_animation(ai_get_unit(guns.Squad), GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0910_jon", true);
+                objectives_finish_up_to(1);
+                objectives_show_up_to(2);
+                await sleep(10);
+                print("go ahead and use the switch in front of you to start the shield test.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3300_gun", 3875538314U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3300_gun", 3875538314U)));
                 this.timer_prompt_zapper_button = (short)(this.timer_prompt_zapper + this.delay_prompt_short);
             }
             else if (this.counter_prompt_zapper_button == 3)
             {
-                Engine.print("just place your hand on the touchpad to activate the switch.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3310_gun", 3875603851U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3310_gun", 3875603851U)));
+                print("just place your hand on the touchpad to activate the switch.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3310_gun", 3875603851U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3310_gun", 3875603851U)));
                 this.timer_prompt_zapper_button = (short)(this.timer_prompt_zapper + this.delay_prompt_medium);
             }
             else if (this.counter_prompt_zapper_button == 4)
             {
-                Engine.print("hit the switch, it won't hurt�.much");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3340_gun", 3875669388U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3340_gun", 3875669388U)));
+                print("hit the switch, it won't hurt�.much");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3340_gun", 3875669388U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3340_gun", 3875669388U)));
                 this.timer_prompt_zapper_button = (short)(this.timer_prompt_zapper + this.delay_prompt_medium);
             }
             else if (this.counter_prompt_zapper_button == 5)
             {
-                Engine.print("go ahead and use that switch in front of you.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3330_gun", 3875734925U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3330_gun", 3875734925U)));
+                print("go ahead and use that switch in front of you.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3330_gun", 3875734925U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3330_gun", 3875734925U)));
                 this.timer_prompt_zapper_button = (short)(this.timer_prompt_zapper + this.delay_prompt_long);
-                Engine.hud_set_training_text("tutorial_zapper_button");
-                Engine.hud_show_training_text(true);
+                hud_set_training_text("tutorial_zapper_button");
+                hud_show_training_text(true);
             }
             else if (this.counter_prompt_zapper_button == 6)
             {
-                Engine.print("the switch right in front of you will start the shield test.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3320_gun", 3875800462U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3320_gun", 3875800462U)));
+                print("the switch right in front of you will start the shield test.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3320_gun", 3875800462U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3320_gun", 3875800462U)));
                 this.timer_prompt_zapper_button = (short)(this.timer_prompt_zapper + this.delay_prompt_long);
-                Engine.hud_set_training_text("tutorial_zapper_button");
-                Engine.hud_show_training_text(true);
+                hud_set_training_text("tutorial_zapper_button");
+                hud_show_training_text(true);
             }
             else if (this.counter_prompt_zapper_button == 7)
             {
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
-                Engine.print("it's a switch.  you press it.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3350_gun", 3875865999U), Engine.ai_get_object(guns.Squad), 1F);
-                this.timer_prompt_zapper = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3350_gun", 3875865999U)));
+                unit_set_emotional_state(ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
+                print("it's a switch.  you press it.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3350_gun", 3875865999U), ai_get_object(guns.Squad), 1F);
+                this.timer_prompt_zapper = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3350_gun", 3875865999U)));
                 this.timer_prompt_zapper_button = (short)(this.timer_prompt_zapper + this.delay_prompt_drag);
-                Engine.hud_set_training_text("tutorial_zapper_button");
-                Engine.hud_show_training_text(true);
+                hud_set_training_text("tutorial_zapper_button");
+                hud_show_training_text(true);
             }
             else if (true)
             {
@@ -1078,60 +1078,60 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(58, Lifecycle.Static)]
         public async Task<bool> prompt_elevator_plr()
         {
-            Engine.hud_show_training_text(false);
+            hud_show_training_text(false);
             if (this.counter_prompt_elevator_plr == 0)
             {
                 this.timer_prompt_elevator_plr = (short)(this.timer_prompt_elevator_plr + this.delay_prompt_short);
-                Engine.objectives_show_up_to(3);
+                objectives_show_up_to(3);
             }
             else if (this.counter_prompt_elevator_plr == 1)
             {
-                Engine.print("c'mon, chief, they're ready for us on the bridge.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1640_jon", 3875931536U), Engine.ai_get_object(johnson.Squad), 1F);
-                this.timer_prompt_elevator_plr = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1640_jon", 3875931536U)));
+                print("c'mon, chief, they're ready for us on the bridge.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1640_jon", 3875931536U), ai_get_object(johnson.Squad), 1F);
+                this.timer_prompt_elevator_plr = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1640_jon", 3875931536U)));
                 this.timer_prompt_elevator_plr = (short)(this.timer_prompt_elevator_plr + this.delay_prompt_short);
             }
             else if (this.counter_prompt_elevator_plr == 2)
             {
-                Engine.print("get on the lift, cheif, we're gonna be late.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1650_jon", 3875997073U), Engine.ai_get_object(johnson.Squad), 1F);
-                this.timer_prompt_elevator_plr = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1650_jon", 3875997073U)));
+                print("get on the lift, cheif, we're gonna be late.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1650_jon", 3875997073U), ai_get_object(johnson.Squad), 1F);
+                this.timer_prompt_elevator_plr = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1650_jon", 3875997073U)));
                 this.timer_prompt_elevator_plr = (short)(this.timer_prompt_elevator_plr + this.delay_prompt_long);
                 this.timer_prompt_elevator_plr = (short)(this.timer_prompt_elevator_plr + this.delay_prompt_medium);
             }
             else if (this.counter_prompt_elevator_plr == 3)
             {
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(johnson.Squad), "annoyed", 0.5F, 1);
-                Engine.print("i don't want to keep the brass waiting, chief.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1660_jon", 3876062610U), Engine.ai_get_object(johnson.Squad), 1F);
-                this.timer_prompt_elevator_plr = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1660_jon", 3876062610U)));
+                unit_set_emotional_state(ai_get_unit(johnson.Squad), "annoyed", 0.5F, 1);
+                print("i don't want to keep the brass waiting, chief.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1660_jon", 3876062610U), ai_get_object(johnson.Squad), 1F);
+                this.timer_prompt_elevator_plr = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1660_jon", 3876062610U)));
                 this.timer_prompt_elevator_plr = (short)(this.timer_prompt_elevator_plr + this.delay_prompt_long);
                 this.timer_prompt_elevator_plr = (short)(this.timer_prompt_elevator_plr + this.delay_prompt_medium);
             }
             else if (this.counter_prompt_elevator_plr == 4)
             {
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(johnson.Squad), "annoyed", 0.5F, 1);
-                Engine.print("fine. you can tell lord hood why we're late!");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1670_jon", 3876128147U), Engine.ai_get_object(johnson.Squad), 1F);
-                this.timer_prompt_elevator_plr = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1670_jon", 3876128147U)));
+                unit_set_emotional_state(ai_get_unit(johnson.Squad), "annoyed", 0.5F, 1);
+                print("fine. you can tell lord hood why we're late!");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1670_jon", 3876128147U), ai_get_object(johnson.Squad), 1F);
+                this.timer_prompt_elevator_plr = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1670_jon", 3876128147U)));
                 this.timer_prompt_elevator_plr = (short)(this.timer_prompt_elevator_plr + this.delay_prompt_long);
                 this.timer_prompt_elevator_plr = (short)(this.timer_prompt_elevator_plr + this.delay_prompt_long);
             }
             else if (this.counter_prompt_elevator_plr == 5)
             {
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(johnson.Squad), "angry", 0.5F, 1);
-                Engine.print("get your shiny green posterior on this elevator!");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1680_jon", 3876193684U), Engine.ai_get_object(johnson.Squad), 1F);
-                this.timer_prompt_elevator_plr = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1680_jon", 3876193684U)));
+                unit_set_emotional_state(ai_get_unit(johnson.Squad), "angry", 0.5F, 1);
+                print("get your shiny green posterior on this elevator!");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1680_jon", 3876193684U), ai_get_object(johnson.Squad), 1F);
+                this.timer_prompt_elevator_plr = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1680_jon", 3876193684U)));
                 this.timer_prompt_elevator_plr = (short)(this.timer_prompt_elevator_plr + this.delay_prompt_long);
                 this.timer_prompt_elevator_plr = (short)(this.timer_prompt_elevator_plr + this.delay_prompt_long);
             }
             else if (this.counter_prompt_elevator_plr == 6)
             {
-                Engine.unit_set_emotional_state(Engine.ai_get_unit(johnson.Squad), "angry", 0.5F, 1);
-                Engine.print("would it help if i said please?");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1690_jon", 3876259221U), Engine.ai_get_object(johnson.Squad), 1F);
-                this.timer_prompt_elevator_plr = (short)(Engine.game_tick_rate_scalar() * (float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1690_jon", 3876259221U)));
+                unit_set_emotional_state(ai_get_unit(johnson.Squad), "angry", 0.5F, 1);
+                print("would it help if i said please?");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1690_jon", 3876259221U), ai_get_object(johnson.Squad), 1F);
+                this.timer_prompt_elevator_plr = (short)(game_tick_rate_scalar() * (float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1690_jon", 3876259221U)));
                 this.timer_prompt_elevator_plr = (short)(this.timer_prompt_elevator_plr + this.delay_prompt_long);
                 this.timer_prompt_elevator_plr = (short)(this.timer_prompt_elevator_plr + this.delay_prompt_drag);
                 this.mark_ice_cream = true;
@@ -1148,60 +1148,60 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(59, Lifecycle.Static)]
         public async Task training_setup()
         {
-            Engine.game_can_use_flashlights(false);
-            Engine.unit_set_maximum_vitality(await this.player0(), 30F, 1F);
-            Engine.device_set_power(zapper_control.Entity, 0F);
-            Engine.device_set_position_immediate(elevator_tram.Entity, 0F);
-            Engine.ai_place(guns.Squad);
-            Engine.ai_cannot_die(guns.Squad, true);
-            Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_start));
+            game_can_use_flashlights(false);
+            unit_set_maximum_vitality(await this.player0(), 30F, 1F);
+            device_set_power(zapper_control.Entity, 0F);
+            device_set_position_immediate(elevator_tram.Entity, 0F);
+            ai_place(guns.Squad);
+            ai_cannot_die(guns.Squad, true);
+            cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_start));
         }
 
         [ScriptMethod(60, Lifecycle.Startup)]
         public async Task icecream()
         {
-            await Engine.sleep_until(async () => this.mark_ice_cream && await this.difficulty_legendary(), 1);
-            Engine.object_create(cookiesncream);
-            await Engine.sleep_until(async () => Engine.unit_has_weapon(Engine.unit(await this.player0()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head_sp.weapon", 3827172008U)) || Engine.unit_has_weapon(Engine.unit(await this.player1()), Engine.GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head_sp.weapon", 3827172008U)), 1);
-            Engine.ice_cream_flavor_stock(14);
-            Engine.print("blam");
+            await sleep_until(async () => this.mark_ice_cream && await this.difficulty_legendary(), 1);
+            object_create(cookiesncream);
+            await sleep_until(async () => unit_has_weapon(unit(await this.player0()), GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head_sp.weapon", 3827172008U)) || unit_has_weapon(unit(await this.player1()), GetTag<BaseTag>("objects\\weapons\\multiplayer\\ball\\head_sp.weapon", 3827172008U)), 1);
+            ice_cream_flavor_stock(14);
+            print("blam");
         }
 
         [ScriptMethod(61, Lifecycle.Static)]
         public async Task test_mindread_up()
         {
-            Engine.object_create(looker_light_top_red);
-            Engine.player_action_test_reset();
-            Engine.player_action_test_look_up_begin();
-            Engine.player_camera_control(true);
-            Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_toplight));
-            await Engine.sleep_until(async () => Engine.objects_can_see_object(Engine.players(), looker_light_top_red.Entity, 5F) || (bool)Engine.player0_looking_up(), 1, 360);
-            if (!(Engine.objects_can_see_object(Engine.players(), looker_light_top_red.Entity, 5F) || (bool)Engine.player0_looking_up()))
+            object_create(looker_light_top_red);
+            player_action_test_reset();
+            player_action_test_look_up_begin();
+            player_camera_control(true);
+            cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_toplight));
+            await sleep_until(async () => objects_can_see_object(players(), looker_light_top_red.Entity, 5F) || (bool)player0_looking_up(), 1, 360);
+            if (!(objects_can_see_object(players(), looker_light_top_red.Entity, 5F) || (bool)player0_looking_up()))
             {
-                Engine.print("go ahead and look at the top light, chief.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3070_gun", 3876324758U), Engine.ai_get_object(guns.Squad), 1F);
-                Engine.hud_set_training_text("tutorial_look_up");
-                Engine.hud_show_training_text(true);
-                Engine.hud_enable_training(true);
+                print("go ahead and look at the top light, chief.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3070_gun", 3876324758U), ai_get_object(guns.Squad), 1F);
+                hud_set_training_text("tutorial_look_up");
+                hud_show_training_text(true);
+                hud_enable_training(true);
             }
 
-            Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_inhibitor));
-            await Engine.sleep_until(async () => Engine.objects_can_see_object(Engine.players(), looker_light_top_red.Entity, 5F) || (bool)Engine.player0_looking_up(), 1);
-            Engine.player_camera_control(false);
-            Engine.hud_enable_training(false);
-            Engine.hud_show_training_text(false);
-            Engine.object_destroy(looker_light_top_red.Entity);
-            if (!((bool)Engine.player_action_test_lookstick_backward()))
+            cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_inhibitor));
+            await sleep_until(async () => objects_can_see_object(players(), looker_light_top_red.Entity, 5F) || (bool)player0_looking_up(), 1);
+            player_camera_control(false);
+            hud_enable_training(false);
+            hud_show_training_text(false);
+            object_destroy(looker_light_top_red.Entity);
+            if (!((bool)player_action_test_lookstick_backward()))
             {
                 this.counter_mindread_normal_success = (short)(this.counter_mindread_normal_success + 1);
                 this.counter_mindread_invert_success = 0;
-                Engine.print("normal success");
+                print("normal success");
             }
-            else if (!((bool)Engine.player_action_test_lookstick_forward()))
+            else if (!((bool)player_action_test_lookstick_forward()))
             {
                 this.counter_mindread_invert_success = (short)(this.counter_mindread_invert_success + 1);
                 this.counter_mindread_normal_success = 0;
-                Engine.print("invert success");
+                print("invert success");
             }
             else if (true)
             {
@@ -1209,47 +1209,47 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 this.counter_mindread_invert_success = 0;
             }
 
-            Engine.player_camera_control(false);
-            Engine.player_action_test_look_pitch_end();
-            Engine.player_action_test_reset();
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3070_gun", 3876324758U)));
+            player_camera_control(false);
+            player_action_test_look_pitch_end();
+            player_action_test_reset();
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3070_gun", 3876324758U)));
         }
 
         [ScriptMethod(62, Lifecycle.Static)]
         public async Task test_mindread_down()
         {
-            Engine.object_create(looker_light_bottom_red);
-            Engine.player_action_test_reset();
-            Engine.player_action_test_look_down_begin();
-            Engine.player_camera_control(true);
-            Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_bottomlight));
-            await Engine.sleep_until(async () => Engine.objects_can_see_object(Engine.players(), looker_light_bottom_red.Entity, 3F) || (bool)Engine.player0_looking_down(), 1, 360);
-            if (!(Engine.objects_can_see_object(Engine.players(), looker_light_bottom_red.Entity, 3F) || (bool)Engine.player0_looking_down()))
+            object_create(looker_light_bottom_red);
+            player_action_test_reset();
+            player_action_test_look_down_begin();
+            player_camera_control(true);
+            cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_bottomlight));
+            await sleep_until(async () => objects_can_see_object(players(), looker_light_bottom_red.Entity, 3F) || (bool)player0_looking_down(), 1, 360);
+            if (!(objects_can_see_object(players(), looker_light_bottom_red.Entity, 3F) || (bool)player0_looking_down()))
             {
-                Engine.print("look at the bottom light, son.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3060_gun", 3876390295U), Engine.ai_get_object(guns.Squad), 1F);
-                Engine.hud_set_training_text("tutorial_look_down");
-                Engine.hud_show_training_text(true);
-                Engine.hud_enable_training(true);
+                print("look at the bottom light, son.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3060_gun", 3876390295U), ai_get_object(guns.Squad), 1F);
+                hud_set_training_text("tutorial_look_down");
+                hud_show_training_text(true);
+                hud_enable_training(true);
             }
 
-            Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_inhibitor));
-            await Engine.sleep_until(async () => Engine.objects_can_see_object(Engine.players(), looker_light_bottom_red.Entity, 3F) || (bool)Engine.player0_looking_down(), 1);
-            Engine.player_camera_control(false);
-            Engine.hud_enable_training(false);
-            Engine.hud_show_training_text(false);
-            Engine.object_destroy(looker_light_bottom_red.Entity);
-            if (!((bool)Engine.player_action_test_lookstick_forward()))
+            cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_inhibitor));
+            await sleep_until(async () => objects_can_see_object(players(), looker_light_bottom_red.Entity, 3F) || (bool)player0_looking_down(), 1);
+            player_camera_control(false);
+            hud_enable_training(false);
+            hud_show_training_text(false);
+            object_destroy(looker_light_bottom_red.Entity);
+            if (!((bool)player_action_test_lookstick_forward()))
             {
                 this.counter_mindread_normal_success = (short)(this.counter_mindread_normal_success + 1);
                 this.counter_mindread_invert_success = 0;
-                Engine.print("normal success");
+                print("normal success");
             }
-            else if (!((bool)Engine.player_action_test_lookstick_backward()))
+            else if (!((bool)player_action_test_lookstick_backward()))
             {
                 this.counter_mindread_invert_success = (short)(this.counter_mindread_invert_success + 1);
                 this.counter_mindread_normal_success = 0;
-                Engine.print("invert success");
+                print("invert success");
             }
             else if (true)
             {
@@ -1257,40 +1257,40 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                 this.counter_mindread_invert_success = 0;
             }
 
-            Engine.player_camera_control(false);
-            Engine.player_action_test_look_pitch_end();
-            Engine.player_action_test_reset();
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3060_gun", 3876390295U)));
+            player_camera_control(false);
+            player_action_test_look_pitch_end();
+            player_action_test_reset();
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3060_gun", 3876390295U)));
         }
 
         [ScriptMethod(63, Lifecycle.Static)]
         public async Task training_looker_lights_on()
         {
-            Engine.object_destroy(looker_light_left_green.Entity);
-            Engine.object_create(looker_light_left_red);
+            object_destroy(looker_light_left_green.Entity);
+            object_create(looker_light_left_red);
             this.mark_looker_light_left = true;
-            Engine.object_destroy(looker_light_right_green.Entity);
-            Engine.object_create(looker_light_right_red);
+            object_destroy(looker_light_right_green.Entity);
+            object_create(looker_light_right_red);
             this.mark_looker_light_right = true;
-            Engine.object_destroy(looker_light_top_green.Entity);
-            Engine.object_create(looker_light_top_red);
+            object_destroy(looker_light_top_green.Entity);
+            object_create(looker_light_top_red);
             this.mark_looker_light_top = true;
-            Engine.object_destroy(looker_light_bottom_green.Entity);
-            Engine.object_create(looker_light_bottom_red);
+            object_destroy(looker_light_bottom_green.Entity);
+            object_create(looker_light_bottom_red);
             this.mark_looker_light_bottom = true;
         }
 
         [ScriptMethod(64, Lifecycle.Static)]
         public async Task training_looker_lights_off()
         {
-            Engine.object_destroy(looker_light_left_green.Entity);
-            Engine.object_destroy(looker_light_left_red.Entity);
-            Engine.object_destroy(looker_light_right_green.Entity);
-            Engine.object_destroy(looker_light_right_red.Entity);
-            Engine.object_destroy(looker_light_top_green.Entity);
-            Engine.object_destroy(looker_light_top_red.Entity);
-            Engine.object_destroy(looker_light_bottom_green.Entity);
-            Engine.object_destroy(looker_light_bottom_red.Entity);
+            object_destroy(looker_light_left_green.Entity);
+            object_destroy(looker_light_left_red.Entity);
+            object_destroy(looker_light_right_green.Entity);
+            object_destroy(looker_light_right_red.Entity);
+            object_destroy(looker_light_top_green.Entity);
+            object_destroy(looker_light_top_red.Entity);
+            object_destroy(looker_light_bottom_green.Entity);
+            object_destroy(looker_light_bottom_red.Entity);
         }
 
         [ScriptMethod(65, Lifecycle.Static)]
@@ -1306,37 +1306,37 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             {
                 await this.training_looker_lights_on();
                 await this.prompt_looker_start();
-                await Engine.sleep_until(async () =>
+                await sleep_until(async () =>
                 {
                     if (await this.test_all_lights_off())
                     {
                         return true;
                     }
-                    else if (Engine.objects_can_see_object(Engine.players(), looker_light_left_red.Entity, 5F))
+                    else if (objects_can_see_object(players(), looker_light_left_red.Entity, 5F))
                     {
-                        Engine.object_destroy(looker_light_left_red.Entity);
-                        Engine.object_create_anew(looker_light_left_green);
+                        object_destroy(looker_light_left_red.Entity);
+                        object_create_anew(looker_light_left_green);
                         this.mark_looker_light_left = false;
                         return this.mark_looker_light_left;
                     }
-                    else if (Engine.objects_can_see_object(Engine.players(), looker_light_right_red.Entity, 5F))
+                    else if (objects_can_see_object(players(), looker_light_right_red.Entity, 5F))
                     {
-                        Engine.object_destroy(looker_light_right_red.Entity);
-                        Engine.object_create_anew(looker_light_right_green);
+                        object_destroy(looker_light_right_red.Entity);
+                        object_create_anew(looker_light_right_green);
                         this.mark_looker_light_right = false;
                         return this.mark_looker_light_right;
                     }
-                    else if (Engine.objects_can_see_object(Engine.players(), looker_light_top_red.Entity, 5F))
+                    else if (objects_can_see_object(players(), looker_light_top_red.Entity, 5F))
                     {
-                        Engine.object_destroy(looker_light_top_red.Entity);
-                        Engine.object_create_anew(looker_light_top_green);
+                        object_destroy(looker_light_top_red.Entity);
+                        object_create_anew(looker_light_top_green);
                         this.mark_looker_light_top = false;
                         return this.mark_looker_light_top;
                     }
-                    else if (Engine.objects_can_see_object(Engine.players(), looker_light_bottom_red.Entity, 5F))
+                    else if (objects_can_see_object(players(), looker_light_bottom_red.Entity, 5F))
                     {
-                        Engine.object_destroy(looker_light_bottom_red.Entity);
-                        Engine.object_create_anew(looker_light_bottom_green);
+                        object_destroy(looker_light_bottom_red.Entity);
+                        object_create_anew(looker_light_bottom_green);
                         this.mark_looker_light_bottom = false;
                         return this.mark_looker_light_bottom;
                     }
@@ -1353,51 +1353,51 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
             }
 
             this.counter_training_pitch_choose = (short)(this.counter_training_pitch_choose + 1);
-            if ((bool)Engine.controller_get_look_invert())
+            if ((bool)controller_get_look_invert())
             {
-                Engine.print("should i leave it inverted, or put it back to normal?");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1450_gun", 3876455832U), Engine.ai_get_object(guns.Squad), 1F);
-                await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1450_gun", 3876455832U)));
-                Engine.print("press a to leave lookstick inverted, press b to try it normal.");
-                Engine.hud_set_training_text("tutorial_choose_invert");
+                print("should i leave it inverted, or put it back to normal?");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1450_gun", 3876455832U), ai_get_object(guns.Squad), 1F);
+                await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1450_gun", 3876455832U)));
+                print("press a to leave lookstick inverted, press b to try it normal.");
+                hud_set_training_text("tutorial_choose_invert");
             }
             else
             {
-                Engine.print("should i leave it normal, or put it back to inverted?");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1470_gun", 3876521369U), Engine.ai_get_object(guns.Squad), 1F);
-                await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1470_gun", 3876521369U)));
-                Engine.print("press a to leave lookstick normal, press b to try it inverted.");
-                Engine.hud_set_training_text("tutorial_choose_normal");
+                print("should i leave it normal, or put it back to inverted?");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1470_gun", 3876521369U), ai_get_object(guns.Squad), 1F);
+                await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1470_gun", 3876521369U)));
+                print("press a to leave lookstick normal, press b to try it inverted.");
+                hud_set_training_text("tutorial_choose_normal");
             }
 
-            Engine.hud_show_training_text(true);
-            Engine.hud_enable_training(true);
-            Engine.player_action_test_reset();
-            await Engine.sleep_until(async () => (bool)Engine.player_action_test_accept() || (bool)Engine.player_action_test_cancel(), 1);
-            Engine.hud_enable_training(false);
-            Engine.hud_show_training_text(false);
-            if ((bool)Engine.player_action_test_accept())
+            hud_show_training_text(true);
+            hud_enable_training(true);
+            player_action_test_reset();
+            await sleep_until(async () => (bool)player_action_test_accept() || (bool)player_action_test_cancel(), 1);
+            hud_enable_training(false);
+            hud_show_training_text(false);
+            if ((bool)player_action_test_accept())
             {
                 return true;
             }
             else
             {
-                Engine.controller_set_look_invert(!((bool)Engine.controller_get_look_invert()));
-                if ((bool)Engine.controller_get_look_invert())
+                controller_set_look_invert(!((bool)controller_get_look_invert()));
+                if ((bool)controller_get_look_invert())
                 {
-                    Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_inhibitor));
-                    await Engine.sleep(15);
-                    Engine.print("ok, now it's inverted.");
-                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1480_gun", 3876586906U), Engine.ai_get_object(guns.Squad), 1F);
-                    await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1480_gun", 3876586906U)));
+                    cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_inhibitor));
+                    await sleep(15);
+                    print("ok, now it's inverted.");
+                    sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1480_gun", 3876586906U), ai_get_object(guns.Squad), 1F);
+                    await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1480_gun", 3876586906U)));
                 }
                 else
                 {
-                    Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_inhibitor));
-                    await Engine.sleep(15);
-                    Engine.print("ok, now it's back to normal.");
-                    Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1460_gun", 3876652443U), Engine.ai_get_object(guns.Squad), 1F);
-                    await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1460_gun", 3876652443U)));
+                    cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_inhibitor));
+                    await sleep(15);
+                    print("ok, now it's back to normal.");
+                    sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1460_gun", 3876652443U), ai_get_object(guns.Squad), 1F);
+                    await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1460_gun", 3876652443U)));
                 }
 
                 return false;
@@ -1409,125 +1409,125 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         {
             if (this.counter_mindread_normal_success >= this.counter_mindread_invert_success)
             {
-                Engine.controller_set_look_invert(false);
+                controller_set_look_invert(false);
             }
             else
             {
-                Engine.controller_set_look_invert(true);
+                controller_set_look_invert(true);
             }
 
-            Engine.print("tracking looks sketchy, i'm going to run you through the full diagnostic.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3100_gun", 3876717980U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3100_gun", 3876717980U)));
-            if ((bool)Engine.controller_get_look_invert())
+            print("tracking looks sketchy, i'm going to run you through the full diagnostic.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3100_gun", 3876717980U), ai_get_object(guns.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3100_gun", 3876717980U)));
+            if ((bool)controller_get_look_invert())
             {
-                Engine.print("the diagnostic software set your targeting system to be inverted");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3130_gun", 3876783517U), Engine.ai_get_object(guns.Squad), 1F);
-                await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3130_gun", 3876783517U)));
+                print("the diagnostic software set your targeting system to be inverted");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3130_gun", 3876783517U), ai_get_object(guns.Squad), 1F);
+                await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3130_gun", 3876783517U)));
             }
             else
             {
-                Engine.print("the diagnostic software set your targeting system to be normal");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3120_gun", 3876849054U), Engine.ai_get_object(guns.Squad), 1F);
-                await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3120_gun", 3876849054U)));
+                print("the diagnostic software set your targeting system to be normal");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3120_gun", 3876849054U), ai_get_object(guns.Squad), 1F);
+                await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3120_gun", 3876849054U)));
             }
 
-            await Engine.sleep_until(async () => await this.training_pitch_choose(), 1);
-            if ((bool)Engine.controller_get_look_invert())
+            await sleep_until(async () => await this.training_pitch_choose(), 1);
+            if ((bool)controller_get_look_invert())
             {
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_inhibitor));
-                await Engine.sleep(15);
-                Engine.hud_set_training_text("tutorial_set_invert");
-                Engine.hud_show_training_text(true);
-                Engine.hud_enable_training(true);
-                Engine.print("i'll leave your targeting set to inverted.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1570_gun", 3876914591U), Engine.ai_get_object(guns.Squad), 1F);
-                await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1570_gun", 3876914591U)));
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_inhibitor));
+                await sleep(15);
+                hud_set_training_text("tutorial_set_invert");
+                hud_show_training_text(true);
+                hud_enable_training(true);
+                print("i'll leave your targeting set to inverted.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1570_gun", 3876914591U), ai_get_object(guns.Squad), 1F);
+                await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1570_gun", 3876914591U)));
             }
             else
             {
-                Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_inhibitor));
-                await Engine.sleep(15);
-                Engine.hud_set_training_text("tutorial_set_normal");
-                Engine.hud_show_training_text(true);
-                Engine.hud_enable_training(true);
-                Engine.print("i'll leave your targeting set to normal.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1560_gun", 3876980128U), Engine.ai_get_object(guns.Squad), 1F);
-                await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1560_gun", 3876980128U)));
+                cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_inhibitor));
+                await sleep(15);
+                hud_set_training_text("tutorial_set_normal");
+                hud_show_training_text(true);
+                hud_enable_training(true);
+                print("i'll leave your targeting set to normal.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1560_gun", 3876980128U), ai_get_object(guns.Squad), 1F);
+                await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1560_gun", 3876980128U)));
             }
 
-            Engine.print("if you change your mind, you can switch the setting anytime.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1580_gun", 3877045665U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1580_gun", 3877045665U)));
-            Engine.hud_enable_training(false);
-            Engine.hud_show_training_text(false);
+            print("if you change your mind, you can switch the setting anytime.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1580_gun", 3877045665U), ai_get_object(guns.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1580_gun", 3877045665U)));
+            hud_enable_training(false);
+            hud_show_training_text(false);
         }
 
         [ScriptMethod(68, Lifecycle.Static)]
         public async Task training_look()
         {
-            Engine.print("well...  i guess it was all obsolete anyway.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0600_gun", 3877111202U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0600_gun", 3877111202U)));
-            Engine.custom_animation(Engine.ai_get_unit(guns.Squad), Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0610_jon", true);
-            await Engine.sleep(15);
-            Engine.print("your new suit is a mark vi, sent up from songnam this morning.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0610_gun", 3877176739U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0610_gun", 3877176739U)));
-            Engine.print("try to take it easy until you get used to it.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0620_gun", 3877242276U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0620_gun", 3877242276U)));
-            Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_inhibitor));
-            await Engine.sleep(30);
-            Engine.print("ok.  let's test your targeting, first thing.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0630_gun", 3877307813U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0630_gun", 3877307813U)));
-            Engine.objectives_show_up_to(0);
-            Engine.print("please look at the top light.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3000_gun", 3877373350U), Engine.ai_get_object(guns.Squad), 1F);
+            print("well...  i guess it was all obsolete anyway.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0600_gun", 3877111202U), ai_get_object(guns.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0600_gun", 3877111202U)));
+            custom_animation(ai_get_unit(guns.Squad), GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0610_jon", true);
+            await sleep(15);
+            print("your new suit is a mark vi, sent up from songnam this morning.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0610_gun", 3877176739U), ai_get_object(guns.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0610_gun", 3877176739U)));
+            print("try to take it easy until you get used to it.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0620_gun", 3877242276U), ai_get_object(guns.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0620_gun", 3877242276U)));
+            cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_inhibitor));
+            await sleep(30);
+            print("ok.  let's test your targeting, first thing.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0630_gun", 3877307813U), ai_get_object(guns.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0630_gun", 3877307813U)));
+            objectives_show_up_to(0);
+            print("please look at the top light.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3000_gun", 3877373350U), ai_get_object(guns.Squad), 1F);
             await this.test_mindread_up();
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3000_gun", 3877373350U)));
-            Engine.print("good.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0650_gun", 3877438887U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0650_gun", 3877438887U)));
-            Engine.print("now look at the bottom light.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3010_gun", 3877504424U), Engine.ai_get_object(guns.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3000_gun", 3877373350U)));
+            print("good.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0650_gun", 3877438887U), ai_get_object(guns.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0650_gun", 3877438887U)));
+            print("now look at the bottom light.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3010_gun", 3877504424U), ai_get_object(guns.Squad), 1F);
             await this.test_mindread_down();
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3010_gun", 3877504424U)));
-            Engine.print("allright");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0670_gun", 3877569961U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0670_gun", 3877569961U)));
-            Engine.print("look at the top light again.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3020_gun", 3877635498U), Engine.ai_get_object(guns.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3010_gun", 3877504424U)));
+            print("allright");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0670_gun", 3877569961U), ai_get_object(guns.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0670_gun", 3877569961U)));
+            print("look at the top light again.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3020_gun", 3877635498U), ai_get_object(guns.Squad), 1F);
             await this.test_mindread_up();
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3020_gun", 3877635498U)));
-            Engine.print("that's it�");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0760_gun", 3877701035U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0760_gun", 3877701035U)));
-            Engine.print("now the bottom one.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3030_gun", 3877766572U), Engine.ai_get_object(guns.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3020_gun", 3877635498U)));
+            print("that's it�");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0760_gun", 3877701035U), ai_get_object(guns.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0760_gun", 3877701035U)));
+            print("now the bottom one.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3030_gun", 3877766572U), ai_get_object(guns.Squad), 1F);
             await this.test_mindread_down();
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3030_gun", 3877766572U)));
-            Engine.print("ok.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0740_gun", 3877832109U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep(30);
-            Engine.player_camera_control(true);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0740_gun", 3877832109U)));
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3030_gun", 3877766572U)));
+            print("ok.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0740_gun", 3877832109U), ai_get_object(guns.Squad), 1F);
+            await sleep(30);
+            player_camera_control(true);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0740_gun", 3877832109U)));
             if (this.counter_mindread_normal_success >= 2)
             {
-                await Engine.sleep(30);
-                Engine.print("everything checks out.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0770_gun", 3877897646U), Engine.ai_get_object(guns.Squad), 1F);
-                await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0770_gun", 3877897646U)));
-                Engine.controller_set_look_invert(false);
+                await sleep(30);
+                print("everything checks out.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0770_gun", 3877897646U), ai_get_object(guns.Squad), 1F);
+                await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0770_gun", 3877897646U)));
+                controller_set_look_invert(false);
             }
             else if (this.counter_mindread_invert_success >= 2)
             {
-                await Engine.sleep(30);
-                Engine.print("everything checks out.");
-                Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0770_gun", 3877897646U), Engine.ai_get_object(guns.Squad), 1F);
-                await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0770_gun", 3877897646U)));
-                Engine.controller_set_look_invert(true);
+                await sleep(30);
+                print("everything checks out.");
+                sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0770_gun", 3877897646U), ai_get_object(guns.Squad), 1F);
+                await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0770_gun", 3877897646U)));
+                controller_set_look_invert(true);
             }
             else if (true)
             {
@@ -1540,27 +1540,27 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
         [ScriptMethod(69, Lifecycle.Static)]
         public async Task training_move()
         {
-            Engine.print("stand-by. i'm going to offline the inhibitors�");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0790_gun", 3877963183U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0790_gun", 3877963183U)));
-            Engine.device_set_position(inhibitor.Entity, 1F);
-            Engine.player_disable_movement(false);
-            Engine.hud_enable_training(true);
-            Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_inhibitor));
-            await Engine.sleep(30);
-            Engine.custom_animation(Engine.ai_get_unit(guns.Squad), Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0800_jon", true);
-            await Engine.sleep(10);
-            Engine.print("move around a little, get a feel for it.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0800_gun", 3878028720U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0800_gun", 3878028720U)));
-            Engine.print("when you're ready, come and meet me by the zapper.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0810_gun", 3878094257U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0810_gun", 3878094257U)));
-            Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_halfway));
+            print("stand-by. i'm going to offline the inhibitors�");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0790_gun", 3877963183U), ai_get_object(guns.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0790_gun", 3877963183U)));
+            device_set_position(inhibitor.Entity, 1F);
+            player_disable_movement(false);
+            hud_enable_training(true);
+            cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_inhibitor));
+            await sleep(30);
+            custom_animation(ai_get_unit(guns.Squad), GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0800_jon", true);
+            await sleep(10);
+            print("move around a little, get a feel for it.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0800_gun", 3878028720U), ai_get_object(guns.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0800_gun", 3878028720U)));
+            print("when you're ready, come and meet me by the zapper.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0810_gun", 3878094257U), ai_get_object(guns.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0810_gun", 3878094257U)));
+            cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_halfway));
             this.timer_prompt_start_spot = (short)(this.timer_prompt_start_spot + this.delay_prompt_short);
-            await Engine.sleep_until(async () =>
+            await sleep_until(async () =>
             {
-                if (!(Engine.volume_test_objects(tv_start_spot, Engine.players())))
+                if (!(volume_test_objects(tv_start_spot, players())))
                 {
                     return true;
                 }
@@ -1574,16 +1574,16 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     return await this.prompt_start_spot();
                 }
             }, 1);
-            Engine.hud_show_training_text(false);
-            Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_wait));
+            hud_show_training_text(false);
+            cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper_wait));
         }
 
         [ScriptMethod(70, Lifecycle.Static)]
         public async Task training_shield()
         {
-            await Engine.sleep_until(async () =>
+            await sleep_until(async () =>
             {
-                if (Engine.objects_distance_to_flag(Engine.players(), zapper_flag) < 2.5F)
+                if (objects_distance_to_flag(players(), zapper_flag) < 2.5F)
                 {
                     return true;
                 }
@@ -1592,14 +1592,14 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     this.timer_prompt_careful = (short)(this.timer_prompt_careful - 1);
                     return false;
                 }
-                else if ((bool)Engine.game_safe_to_save())
+                else if ((bool)game_safe_to_save())
                 {
                     return false;
                 }
                 else if (true)
                 {
-                    await Engine.sleep(30);
-                    if (!((bool)Engine.game_safe_to_save()))
+                    await sleep(30);
+                    if (!((bool)game_safe_to_save()))
                     {
                         return await this.prompt_careful();
                     }
@@ -1609,25 +1609,25 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     }
                 }
             }, 1);
-            await Engine.sleep_until(async () => Engine.objects_distance_to_flag(Engine.ai_get_object(guns.Squad), zapper_flag) < 1.5F, 1);
-            await Engine.sleep_until(async () => Engine.objects_distance_to_object(Engine.players(), Engine.ai_get_object(guns.Squad)) < 2.5F, 1);
-            Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "inquisitive", 0F, 1);
-            Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "angry", 0F, 1);
-            Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "annoyed", 0F, 1);
-            Engine.print("pay attention because i'm only going to over this once.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3150_gun", 3878159794U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3150_gun", 3878159794U)));
-            Engine.print("this station will test your recharging energy shields");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3140_gun", 3878225331U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3140_gun", 3878225331U)));
-            Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper));
-            await Engine.sleep_until(async () =>
+            await sleep_until(async () => objects_distance_to_flag(ai_get_object(guns.Squad), zapper_flag) < 1.5F, 1);
+            await sleep_until(async () => objects_distance_to_object(players(), ai_get_object(guns.Squad)) < 2.5F, 1);
+            unit_set_emotional_state(ai_get_unit(guns.Squad), "inquisitive", 0F, 1);
+            unit_set_emotional_state(ai_get_unit(guns.Squad), "angry", 0F, 1);
+            unit_set_emotional_state(ai_get_unit(guns.Squad), "annoyed", 0F, 1);
+            print("pay attention because i'm only going to over this once.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3150_gun", 3878159794U), ai_get_object(guns.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3150_gun", 3878159794U)));
+            print("this station will test your recharging energy shields");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3140_gun", 3878225331U), ai_get_object(guns.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3140_gun", 3878225331U)));
+            cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_zapper));
+            await sleep_until(async () =>
             {
-                if (Engine.device_group_get(zapper_control_group) == 1F)
+                if (device_group_get(zapper_control_group) == 1F)
                 {
                     return true;
                 }
-                else if (Engine.objects_distance_to_object(Engine.players(), Engine.ai_get_object(guns.Squad)) > 2.5F)
+                else if (objects_distance_to_object(players(), ai_get_object(guns.Squad)) > 2.5F)
                 {
                     return false;
                 }
@@ -1641,9 +1641,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     this.timer_prompt_zapper_lookatme = (short)(this.timer_prompt_zapper_lookatme - 1);
                     this.timer_prompt_zapper_getin = (short)(this.timer_prompt_zapper_getin - 1);
                     this.timer_prompt_zapper_button = (short)(this.timer_prompt_zapper_button - 1);
-                    if (Engine.objects_can_see_object(await this.player0(), Engine.ai_get_object(guns.Squad), 40F))
+                    if (objects_can_see_object(await this.player0(), ai_get_object(guns.Squad), 40F))
                     {
-                        await Engine.sleep(15);
+                        await sleep(15);
                         this.timer_prompt_zapper_lookatme = 0;
                     }
 
@@ -1654,9 +1654,9 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     this.timer_prompt_zapper_lookatme = (short)(this.timer_prompt_zapper_lookatme - 1);
                     this.timer_prompt_zapper_getin = (short)(this.timer_prompt_zapper_getin - 1);
                     this.timer_prompt_zapper_button = (short)(this.timer_prompt_zapper_button - 1);
-                    if (Engine.volume_test_objects(tv_zapper, Engine.players()))
+                    if (volume_test_objects(tv_zapper, players()))
                     {
-                        await Engine.sleep(15);
+                        await sleep(15);
                         this.timer_prompt_zapper_getin = 0;
                     }
 
@@ -1667,19 +1667,19 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     this.timer_prompt_zapper_button = (short)(this.timer_prompt_zapper_button - 1);
                     this.timer_prompt_zapper_getin = (short)(this.timer_prompt_zapper_getin - 1);
                     this.timer_prompt_zapper_button = (short)(this.timer_prompt_zapper_button - 1);
-                    if (Engine.device_group_get(zapper_control_group) == 1F)
+                    if (device_group_get(zapper_control_group) == 1F)
                     {
-                        await Engine.sleep(15);
+                        await sleep(15);
                         this.timer_prompt_zapper_button = 0;
                     }
 
                     return false;
                 }
-                else if (!(Engine.objects_can_see_object(await this.player0(), Engine.ai_get_object(guns.Squad), 40F)))
+                else if (!(objects_can_see_object(await this.player0(), ai_get_object(guns.Squad), 40F)))
                 {
                     return await this.prompt_zapper_lookatme();
                 }
-                else if (!(Engine.volume_test_objects(tv_zapper, Engine.players())))
+                else if (!(volume_test_objects(tv_zapper, players())))
                 {
                     return await this.prompt_zapper_getin();
                 }
@@ -1688,131 +1688,131 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     return await this.prompt_zapper_button();
                 }
             }, 1);
-            Engine.objectives_finish_up_to(2);
-            Engine.device_set_power(zapper.Entity, 1F);
-            Engine.device_set_power(zapper_cage.Entity, 1F);
-            Engine.hud_show_training_text(false);
-            Engine.unit_set_maximum_vitality(await this.player0(), 30F, 70F);
-            Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_zapper));
-            await Engine.sleep(90);
-            Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_zapper));
-            await Engine.sleep(15);
-            Engine.unit_set_current_vitality(await this.player0(), 30F, 0F);
-            await Engine.sleep(15);
-            Engine.print("bingo!");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0940_gun", 3878290868U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep(30);
-            Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_zapper));
-            Engine.print("as you can see, they re-charge a lot faster.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0950_gun", 3878356405U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep(45);
-            Engine.ai_place(johnson.Squad);
-            Engine.ai_cannot_die(johnson.Squad, true);
-            Engine.cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_johnson_elevator));
-            Engine.device_set_position(door_elevator_tram_bot.Entity, 1F);
-            await Engine.sleep_until(async () => Engine.device_get_position(door_elevator_tram_bot.Entity) == 1F, 1);
-            Engine.cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_johnson_start));
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0950_gun", 3878356405U)));
-            await Engine.sleep(60);
-            Engine.device_set_power(zapper.Entity, 0F);
-            Engine.device_set_power(zapper_cage.Entity, 0F);
-            await Engine.sleep(30);
-            Engine.custom_animation(Engine.ai_get_unit(guns.Squad), Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0960_jon", true);
-            Engine.print("if your shields go down, find some cover, wait for the meter to read fully-charged.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0960_gun", 3878421942U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep(45);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0960_gun", 3878421942U)));
-            Engine.print("that, or he can just hide behind me.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0970_jon", 3878487479U), Engine.ai_get_object(johnson.Squad), 1F);
-            await Engine.sleep(30);
-            Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_johnson));
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0970_jon", 3878487479U)));
-            await Engine.sleep(15);
-            Engine.cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_johnson_glanceat_guns));
-            await Engine.sleep_until(async () => Engine.objects_can_see_object(await this.player0(), Engine.ai_get_object(johnson.Squad), 40F), 1, 90);
-            Engine.unit_set_emotional_state(Engine.ai_get_unit(johnson.Squad), "inquisitive", 0.5F, 1);
-            Engine.print("you done with my boy here? i don't see any training-wheels�");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1000_jon", 3878553016U), Engine.ai_get_object(johnson.Squad), 1F);
-            await Engine.sleep((short)((float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1000_jon", 3878553016U)) - 90));
-            Engine.cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_lookat_player));
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1000_jon", 3878553016U)));
-            Engine.print("his armor's working fine.");
-            Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1010_gun", 3878618553U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1010_gun", 3878618553U)));
-            await Engine.sleep(15);
-            Engine.unit_set_emotional_state(Engine.ai_get_unit(johnson.Squad), "inquisitive", 0F, 1);
-            Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_player));
-            await Engine.sleep_until(async () => Engine.objects_can_see_object(await this.player0(), Engine.ai_get_object(guns.Squad), 40F), 1, 90);
-            Engine.print("you're free to go, son.  just remember: take things slow.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0980_gun", 3878684090U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep((short)((float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0980_gun", 3878684090U)) - 60));
-            Engine.cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_lookat_player));
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0980_gun", 3878684090U)));
+            objectives_finish_up_to(2);
+            device_set_power(zapper.Entity, 1F);
+            device_set_power(zapper_cage.Entity, 1F);
+            hud_show_training_text(false);
+            unit_set_maximum_vitality(await this.player0(), 30F, 70F);
+            cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_zapper));
+            await sleep(90);
+            cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_zapper));
+            await sleep(15);
+            unit_set_current_vitality(await this.player0(), 30F, 0F);
+            await sleep(15);
+            print("bingo!");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0940_gun", 3878290868U), ai_get_object(guns.Squad), 1F);
+            await sleep(30);
+            cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_console_zapper));
+            print("as you can see, they re-charge a lot faster.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0950_gun", 3878356405U), ai_get_object(guns.Squad), 1F);
+            await sleep(45);
+            ai_place(johnson.Squad);
+            ai_cannot_die(johnson.Squad, true);
+            cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_johnson_elevator));
+            device_set_position(door_elevator_tram_bot.Entity, 1F);
+            await sleep_until(async () => device_get_position(door_elevator_tram_bot.Entity) == 1F, 1);
+            cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_johnson_start));
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0950_gun", 3878356405U)));
+            await sleep(60);
+            device_set_power(zapper.Entity, 0F);
+            device_set_power(zapper_cage.Entity, 0F);
+            await sleep(30);
+            custom_animation(ai_get_unit(guns.Squad), GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0960_jon", true);
+            print("if your shields go down, find some cover, wait for the meter to read fully-charged.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0960_gun", 3878421942U), ai_get_object(guns.Squad), 1F);
+            await sleep(45);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0960_gun", 3878421942U)));
+            print("that, or he can just hide behind me.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0970_jon", 3878487479U), ai_get_object(johnson.Squad), 1F);
+            await sleep(30);
+            cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_johnson));
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0970_jon", 3878487479U)));
+            await sleep(15);
+            cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_johnson_glanceat_guns));
+            await sleep_until(async () => objects_can_see_object(await this.player0(), ai_get_object(johnson.Squad), 40F), 1, 90);
+            unit_set_emotional_state(ai_get_unit(johnson.Squad), "inquisitive", 0.5F, 1);
+            print("you done with my boy here? i don't see any training-wheels�");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1000_jon", 3878553016U), ai_get_object(johnson.Squad), 1F);
+            await sleep((short)((float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1000_jon", 3878553016U)) - 90));
+            cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_lookat_player));
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1000_jon", 3878553016U)));
+            print("his armor's working fine.");
+            unit_set_emotional_state(ai_get_unit(guns.Squad), "annoyed", 0.5F, 1);
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1010_gun", 3878618553U), ai_get_object(guns.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1010_gun", 3878618553U)));
+            await sleep(15);
+            unit_set_emotional_state(ai_get_unit(johnson.Squad), "inquisitive", 0F, 1);
+            cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_lookat_player));
+            await sleep_until(async () => objects_can_see_object(await this.player0(), ai_get_object(guns.Squad), 40F), 1, 90);
+            print("you're free to go, son.  just remember: take things slow.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0980_gun", 3878684090U), ai_get_object(guns.Squad), 1F);
+            await sleep((short)((float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0980_gun", 3878684090U)) - 60));
+            cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_lookat_player));
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0980_gun", 3878684090U)));
         }
 
         [ScriptMethod(71, Lifecycle.Dormant)]
         public async Task training_done_tram()
         {
-            Engine.ai_place(atr1_mar.Squad);
-            Engine.ai_place(mid_mar.Squad);
-            Engine.device_set_position_immediate(door_tram_2.Entity, 1F);
-            await Engine.sleep_until(async () => Engine.device_get_position(tram.Entity) >= 0.25F, 1);
-            Engine.device_set_position(door_tram_2.Entity, 0F);
-            await Engine.sleep(30);
-            Engine.ai_erase(atr1_mar.Squad);
-            await Engine.sleep_until(async () => Engine.device_get_position(tram.Entity) >= 0.45F, 1);
-            Engine.device_set_position(door_tram_3.Entity, 1F);
-            Engine.ai_place(atr2_mar.Squad);
-            await Engine.sleep_until(async () => Engine.device_get_position(tram.Entity) >= 0.55F, 1);
-            Engine.device_set_position(door_tram_3.Entity, 0F);
-            await Engine.sleep(30);
-            Engine.ai_erase(mid_mar.Squad);
-            await Engine.sleep_until(async () => Engine.device_get_position(tram.Entity) >= 0.75F, 1);
-            Engine.device_set_position(door_tram_4.Entity, 1F);
-            Engine.object_create_anew(tram_marine_1);
-            Engine.object_create_anew(tram_marine_2);
-            Engine.object_create_anew(tram_marine_3);
-            Engine.object_create_anew(tram_marine_4);
-            Engine.object_create_anew(tram_marine_5);
-            Engine.object_create_anew(tram_marine_6);
-            Engine.object_create_anew(tram_marine_7);
-            Engine.custom_animation_loop(tram_marine_1.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x02\\x02", 3878749627U), "marine_whistle_loop", false);
-            Engine.custom_animation_loop(tram_marine_2.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x02\\x02", 3878749627U), "marine_fist_loop", false);
-            Engine.custom_animation_loop(tram_marine_3.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x02\\x02", 3878749627U), "marine_clapping_loop", false);
-            await Engine.sleep(5);
-            Engine.custom_animation_loop(tram_marine_6.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x02\\x02", 3878749627U), "marine_whistle_loop", false);
-            Engine.custom_animation_loop(tram_marine_5.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x02\\x02", 3878749627U), "marine_fist_loop", false);
-            Engine.custom_animation_loop(tram_marine_4.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x02\\x02", 3878749627U), "marine_clapping_loop", false);
-            await Engine.sleep(5);
-            Engine.custom_animation_loop(tram_marine_7.Entity, Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\x02\\x02", 3878749627U), "marine_whistle_loop", false);
-            await Engine.sleep_until(async () => Engine.device_get_position(tram.Entity) >= 0.9F, 1);
-            Engine.device_set_position(door_tram_4.Entity, 0F);
-            await Engine.sleep(30);
-            Engine.ai_erase(atr2_mar.Squad);
+            ai_place(atr1_mar.Squad);
+            ai_place(mid_mar.Squad);
+            device_set_position_immediate(door_tram_2.Entity, 1F);
+            await sleep_until(async () => device_get_position(tram.Entity) >= 0.25F, 1);
+            device_set_position(door_tram_2.Entity, 0F);
+            await sleep(30);
+            ai_erase(atr1_mar.Squad);
+            await sleep_until(async () => device_get_position(tram.Entity) >= 0.45F, 1);
+            device_set_position(door_tram_3.Entity, 1F);
+            ai_place(atr2_mar.Squad);
+            await sleep_until(async () => device_get_position(tram.Entity) >= 0.55F, 1);
+            device_set_position(door_tram_3.Entity, 0F);
+            await sleep(30);
+            ai_erase(mid_mar.Squad);
+            await sleep_until(async () => device_get_position(tram.Entity) >= 0.75F, 1);
+            device_set_position(door_tram_4.Entity, 1F);
+            object_create_anew(tram_marine_1);
+            object_create_anew(tram_marine_2);
+            object_create_anew(tram_marine_3);
+            object_create_anew(tram_marine_4);
+            object_create_anew(tram_marine_5);
+            object_create_anew(tram_marine_6);
+            object_create_anew(tram_marine_7);
+            custom_animation_loop(tram_marine_1.Entity, GetTag<AnimationGraphTag>("objects\\characters\\marine\\x02\\x02", 3878749627U), "marine_whistle_loop", false);
+            custom_animation_loop(tram_marine_2.Entity, GetTag<AnimationGraphTag>("objects\\characters\\marine\\x02\\x02", 3878749627U), "marine_fist_loop", false);
+            custom_animation_loop(tram_marine_3.Entity, GetTag<AnimationGraphTag>("objects\\characters\\marine\\x02\\x02", 3878749627U), "marine_clapping_loop", false);
+            await sleep(5);
+            custom_animation_loop(tram_marine_6.Entity, GetTag<AnimationGraphTag>("objects\\characters\\marine\\x02\\x02", 3878749627U), "marine_whistle_loop", false);
+            custom_animation_loop(tram_marine_5.Entity, GetTag<AnimationGraphTag>("objects\\characters\\marine\\x02\\x02", 3878749627U), "marine_fist_loop", false);
+            custom_animation_loop(tram_marine_4.Entity, GetTag<AnimationGraphTag>("objects\\characters\\marine\\x02\\x02", 3878749627U), "marine_clapping_loop", false);
+            await sleep(5);
+            custom_animation_loop(tram_marine_7.Entity, GetTag<AnimationGraphTag>("objects\\characters\\marine\\x02\\x02", 3878749627U), "marine_whistle_loop", false);
+            await sleep_until(async () => device_get_position(tram.Entity) >= 0.9F, 1);
+            device_set_position(door_tram_4.Entity, 0F);
+            await sleep(30);
+            ai_erase(atr2_mar.Squad);
         }
 
         [ScriptMethod(72, Lifecycle.Static)]
         public async Task training_done()
         {
-            Engine.device_set_position_immediate(tram.Entity, 0F);
-            Engine.cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_lookat_guns));
-            Engine.print("don't worry, i'll hold his hand.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1040_jon", 3878815164U), Engine.ai_get_object(johnson.Squad), 1F);
-            await Engine.sleep((short)((float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1040_jon", 3878815164U)) - 30));
-            Engine.cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_johnson_elevator));
-            await Engine.sleep(15);
-            Engine.cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_elevator));
-            await Engine.sleep(15);
-            await Engine.sleep_until(async () => Engine.volume_test_objects_all(tv_elevator_tram_bot, Engine.ai_get_object(johnson.Squad)), 1, 30 * 30);
-            if (!(Engine.volume_test_objects_all(tv_elevator_tram_bot, Engine.ai_get_object(johnson.Squad))))
+            device_set_position_immediate(tram.Entity, 0F);
+            cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_lookat_guns));
+            print("don't worry, i'll hold his hand.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1040_jon", 3878815164U), ai_get_object(johnson.Squad), 1F);
+            await sleep((short)((float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1040_jon", 3878815164U)) - 30));
+            cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_johnson_elevator));
+            await sleep(15);
+            cs_run_command_script(guns.Squad, new ScriptMethodReference(cs_guns_elevator));
+            await sleep(15);
+            await sleep_until(async () => volume_test_objects_all(tv_elevator_tram_bot, ai_get_object(johnson.Squad)), 1, 30 * 30);
+            if (!(volume_test_objects_all(tv_elevator_tram_bot, ai_get_object(johnson.Squad))))
             {
-                Engine.object_teleport(Engine.ai_get_object(johnson.Squad), tram_flag);
+                object_teleport(ai_get_object(johnson.Squad), tram_flag);
             }
 
-            await Engine.sleep_until(async () =>
+            await sleep_until(async () =>
             {
-                if (Engine.volume_test_objects_all(tv_elevator_tram_bot, Engine.players()))
+                if (volume_test_objects_all(tv_elevator_tram_bot, players()))
                 {
                     return true;
                 }
@@ -1826,157 +1826,157 @@ namespace OpenH2.Scripts.Generatedscenarios.solo
                     return await this.prompt_elevator_plr();
                 }
             }, 1);
-            Engine.objectives_finish_up_to(3);
-            Engine.object_create(wall_elevator_tram_bot);
+            objectives_finish_up_to(3);
+            object_create(wall_elevator_tram_bot);
             this.mark_training_done = true;
-            await Engine.sleep_until(async () => Engine.objects_distance_to_flag(Engine.ai_get_object(guns.Squad), tram_flag) < 2.5F, 1, 210);
-            Engine.cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_johnson_elevator_face_guns));
-            Engine.print("so johnson, when you gonna tell me how you made it back home in one piece?");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3360_gun", 3878880701U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3360_gun", 3878880701U)));
-            Engine.print("sorry, guns.  it's classified.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0990_jon", 3878946238U), Engine.ai_get_object(johnson.Squad), 1F);
-            await Engine.sleep((short)((float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0990_jon", 3878946238U)) - 0));
-            Engine.unit_set_emotional_state(Engine.ai_get_unit(guns.Squad), "angry", 0.5F, 1);
-            await Engine.sleep(5);
-            Engine.print("(humphs) my ass! well you can forget about those adjustments to your a2's scope! and you're sure as hell not getting one of the new m7s!");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3370_gun", 3879011775U), Engine.ai_get_object(guns.Squad), 1F);
-            await Engine.sleep(30);
-            await Engine.sleep((short)Engine.random_range(25, 75));
-            Engine.device_set_position(elevator_tram.Entity, 1F);
-            Engine.device_set_position(door_elevator_tram_bot.Entity, 0F);
-            await Engine.sleep_until(async () => Engine.device_get_position(door_elevator_tram_bot.Entity) == 0F, 1);
-            Engine.sound_impulse_stop(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3370_gun", 3879011775U));
-            await Engine.sleep(10);
-            Engine.print("well he's in a particularly fine mood. maybe lord hood forgot to give him an invitation.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1810_jon", 3879077312U), Engine.ai_get_object(johnson.Squad), 1F);
+            await sleep_until(async () => objects_distance_to_flag(ai_get_object(guns.Squad), tram_flag) < 2.5F, 1, 210);
+            cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_johnson_elevator_face_guns));
+            print("so johnson, when you gonna tell me how you made it back home in one piece?");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3360_gun", 3878880701U), ai_get_object(guns.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3360_gun", 3878880701U)));
+            print("sorry, guns.  it's classified.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0990_jon", 3878946238U), ai_get_object(johnson.Squad), 1F);
+            await sleep((short)((float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0990_jon", 3878946238U)) - 0));
+            unit_set_emotional_state(ai_get_unit(guns.Squad), "angry", 0.5F, 1);
+            await sleep(5);
+            print("(humphs) my ass! well you can forget about those adjustments to your a2's scope! and you're sure as hell not getting one of the new m7s!");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3370_gun", 3879011775U), ai_get_object(guns.Squad), 1F);
+            await sleep(30);
+            await sleep((short)random_range(25, 75));
+            device_set_position(elevator_tram.Entity, 1F);
+            device_set_position(door_elevator_tram_bot.Entity, 0F);
+            await sleep_until(async () => device_get_position(door_elevator_tram_bot.Entity) == 0F, 1);
+            sound_impulse_stop(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_3370_gun", 3879011775U));
+            await sleep(10);
+            print("well he's in a particularly fine mood. maybe lord hood forgot to give him an invitation.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1810_jon", 3879077312U), ai_get_object(johnson.Squad), 1F);
         }
 
         [ScriptMethod(73, Lifecycle.Static)]
         public async Task training_tram()
         {
-            Engine.wake(new ScriptMethodReference(training_done_tram));
-            await Engine.sleep_until(async () => Engine.device_get_position(elevator_tram.Entity) == 1F, 1);
-            Engine.objectives_show_up_to(4);
-            Engine.cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_johnson_tram));
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1810_jon", 3879077312U)));
-            await Engine.sleep_until(async () => Engine.volume_test_objects_all(tv_tram, Engine.players()) && Engine.volume_test_objects(tv_tram, Engine.ai_get_object(johnson.Squad)), 1);
-            Engine.object_destroy_containing("wall_platform");
-            Engine.object_create(wall_tram);
-            await Engine.sleep_until(async () => !(Engine.cs_command_script_running(johnson.Squad, new ScriptMethodReference(cs_johnson_tram))), 1, 150);
-            Engine.objectives_finish_up_to(4);
-            Engine.custom_animation(Engine.ai_get_unit(johnson.Squad), Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0010_jon", true);
-            await Engine.sleep(10);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1810_jon", 3879077312U)));
-            Engine.print("earth. haven't seen it in years.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0010_jon", 3879142849U), Engine.ai_get_object(johnson.Squad), 1F);
-            await Engine.sleep((short)((float)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0010_jon", 3879142849U)) - 30));
-            Engine.sound_looping_start(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\01a_tutorial\\01a_music\\01a_01", 3879208386U), default(IGameObject), 1F);
-            Engine.device_set_position(elevator_tram.Entity, 0F);
-            Engine.device_set_position(tram.Entity, 1F);
-            await Engine.sleep_until(async () => Engine.device_get_position(tram.Entity) >= 0.08F, 1);
-            await Engine.sleep(30);
-            Engine.custom_animation(Engine.ai_get_unit(johnson.Squad), Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0020_jon", true);
-            Engine.print("when i shipped out for basic, the orbital defense grid was all theory and politics.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0020_jon", 3879470534U), Engine.ai_get_object(johnson.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0020_jon", 3879470534U)));
-            await Engine.sleep_until(async () => Engine.device_get_position(tram.Entity) >= 0.175F, 1);
-            Engine.cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_lookat_macgun));
-            Engine.print("now look. the cairo is just one of three-hundred geo-sync platforms.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0021_jon", 3879536071U), Engine.ai_get_object(johnson.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0021_jon", 3879536071U)));
-            await Engine.sleep_until(async () => Engine.device_get_position(tram.Entity) >= 0.275F, 1);
-            Engine.custom_animation(Engine.ai_get_unit(johnson.Squad), Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0030_jon", true);
-            await Engine.sleep(10);
-            Engine.print("that mac-gun can put a round clean through a covenant capital-ship.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0030_jon", 3879601608U), Engine.ai_get_object(johnson.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0030_jon", 3879601608U)));
-            await Engine.sleep_until(async () => Engine.device_get_position(tram.Entity) >= 0.415F, 1);
-            Engine.cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_lookat_malta));
-            await Engine.sleep(45);
-            await Engine.sleep(45);
-            Engine.custom_animation(Engine.ai_get_unit(johnson.Squad), Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0040_jon", true);
-            Engine.print("with coordinated fire from the athens and the malta, nothing's getting past this battle-cluster in one piece.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0040_jon", 3879667145U), Engine.ai_get_object(johnson.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0040_jon", 3879667145U)));
-            await Engine.sleep(15);
-            await Engine.sleep_until(async () => Engine.device_get_position(tram.Entity) >= 0.7F, 1);
-            Engine.custom_animation(Engine.ai_get_unit(johnson.Squad), Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0050_jon", true);
-            Engine.print("ships have been arriving all morning.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0050_jon", 3879732682U), Engine.ai_get_object(johnson.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0050_jon", 3879732682U)));
-            Engine.sound_looping_stop(Engine.GetTag<LoopingSoundTag>("scenarios\\solo\\01a_tutorial\\01a_music\\01a_01", 3879208386U));
-            await Engine.sleep_until(async () => Engine.device_get_position(tram.Entity) >= 0.75F, 1);
-            await Engine.sleep(30);
-            Engine.custom_animation(Engine.ai_get_unit(johnson.Squad), Engine.GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0051_jon", true);
-            Engine.print("nobody's saying much, but i'll bet something big's about to happen.");
-            Engine.sound_impulse_start(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0051_jon", 3879798219U), Engine.ai_get_object(johnson.Squad), 1F);
-            await Engine.sleep((short)Engine.sound_impulse_language_time(Engine.GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0051_jon", 3879798219U)));
-            Engine.cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_johnson_lookat_station));
-            await Engine.sleep_until(async () => Engine.device_get_position(tram.Entity) >= 0.975F, 1);
-            await Engine.sleep(30);
-            Engine.cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_johnson_station));
-            await Engine.sleep_until(async () => !(Engine.volume_test_objects_all(tv_station, Engine.players())), 1, 150);
+            wake(new ScriptMethodReference(training_done_tram));
+            await sleep_until(async () => device_get_position(elevator_tram.Entity) == 1F, 1);
+            objectives_show_up_to(4);
+            cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_johnson_tram));
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1810_jon", 3879077312U)));
+            await sleep_until(async () => volume_test_objects_all(tv_tram, players()) && volume_test_objects(tv_tram, ai_get_object(johnson.Squad)), 1);
+            object_destroy_containing("wall_platform");
+            object_create(wall_tram);
+            await sleep_until(async () => !(cs_command_script_running(johnson.Squad, new ScriptMethodReference(cs_johnson_tram))), 1, 150);
+            objectives_finish_up_to(4);
+            custom_animation(ai_get_unit(johnson.Squad), GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0010_jon", true);
+            await sleep(10);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_1810_jon", 3879077312U)));
+            print("earth. haven't seen it in years.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0010_jon", 3879142849U), ai_get_object(johnson.Squad), 1F);
+            await sleep((short)((float)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0010_jon", 3879142849U)) - 30));
+            sound_looping_start(GetTag<LoopingSoundTag>("scenarios\\solo\\01a_tutorial\\01a_music\\01a_01", 3879208386U), default(IGameObject), 1F);
+            device_set_position(elevator_tram.Entity, 0F);
+            device_set_position(tram.Entity, 1F);
+            await sleep_until(async () => device_get_position(tram.Entity) >= 0.08F, 1);
+            await sleep(30);
+            custom_animation(ai_get_unit(johnson.Squad), GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0020_jon", true);
+            print("when i shipped out for basic, the orbital defense grid was all theory and politics.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0020_jon", 3879470534U), ai_get_object(johnson.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0020_jon", 3879470534U)));
+            await sleep_until(async () => device_get_position(tram.Entity) >= 0.175F, 1);
+            cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_lookat_macgun));
+            print("now look. the cairo is just one of three-hundred geo-sync platforms.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0021_jon", 3879536071U), ai_get_object(johnson.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0021_jon", 3879536071U)));
+            await sleep_until(async () => device_get_position(tram.Entity) >= 0.275F, 1);
+            custom_animation(ai_get_unit(johnson.Squad), GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0030_jon", true);
+            await sleep(10);
+            print("that mac-gun can put a round clean through a covenant capital-ship.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0030_jon", 3879601608U), ai_get_object(johnson.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0030_jon", 3879601608U)));
+            await sleep_until(async () => device_get_position(tram.Entity) >= 0.415F, 1);
+            cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_lookat_malta));
+            await sleep(45);
+            await sleep(45);
+            custom_animation(ai_get_unit(johnson.Squad), GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0040_jon", true);
+            print("with coordinated fire from the athens and the malta, nothing's getting past this battle-cluster in one piece.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0040_jon", 3879667145U), ai_get_object(johnson.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0040_jon", 3879667145U)));
+            await sleep(15);
+            await sleep_until(async () => device_get_position(tram.Entity) >= 0.7F, 1);
+            custom_animation(ai_get_unit(johnson.Squad), GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0050_jon", true);
+            print("ships have been arriving all morning.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0050_jon", 3879732682U), ai_get_object(johnson.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0050_jon", 3879732682U)));
+            sound_looping_stop(GetTag<LoopingSoundTag>("scenarios\\solo\\01a_tutorial\\01a_music\\01a_01", 3879208386U));
+            await sleep_until(async () => device_get_position(tram.Entity) >= 0.75F, 1);
+            await sleep(30);
+            custom_animation(ai_get_unit(johnson.Squad), GetTag<AnimationGraphTag>("objects\\characters\\marine\\tutorial\\tutorial", 3874751870U), "l01_0051_jon", true);
+            print("nobody's saying much, but i'll bet something big's about to happen.");
+            sound_impulse_start(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0051_jon", 3879798219U), ai_get_object(johnson.Squad), 1F);
+            await sleep((short)sound_impulse_language_time(GetTag<SoundTag>("sound\\dialog\\levels\\01_spacestation\\mission\\l01_0051_jon", 3879798219U)));
+            cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_johnson_lookat_station));
+            await sleep_until(async () => device_get_position(tram.Entity) >= 0.975F, 1);
+            await sleep(30);
+            cs_run_command_script(johnson.Squad, new ScriptMethodReference(cs_johnson_station));
+            await sleep_until(async () => !(volume_test_objects_all(tv_station, players())), 1, 150);
         }
 
         [ScriptMethod(74, Lifecycle.Static)]
         public async Task start_mission()
         {
-            await Engine.sleep(10);
-            Engine.print("01a tutorial");
-            Engine.print("designer - jaime");
-            Engine.print("env. artists - paul, dave");
+            await sleep(10);
+            print("01a tutorial");
+            print("designer - jaime");
+            print("env. artists - paul, dave");
         }
 
         [ScriptMethod(75, Lifecycle.Dormant)]
         public async Task training_fade()
         {
-            Engine.player_disable_movement(true);
-            Engine.player_camera_control(false);
-            await Engine.sleep(30);
-            Engine.cinematic_set_title(title_1);
-            await Engine.sleep(150);
-            Engine.hud_cinematic_fade(1F, 0.5F);
-            Engine.cinematic_show_letterbox(false);
+            player_disable_movement(true);
+            player_camera_control(false);
+            await sleep(30);
+            cinematic_set_title(title_1);
+            await sleep(150);
+            hud_cinematic_fade(1F, 0.5F);
+            cinematic_show_letterbox(false);
         }
 
         [ScriptMethod(76, Lifecycle.Startup)]
         public async Task mission_01a()
         {
-            Engine.player_disable_movement(true);
-            Engine.player_camera_control(false);
-            if ((bool)Engine.game_is_cooperative())
+            player_disable_movement(true);
+            player_camera_control(false);
+            if ((bool)game_is_cooperative())
             {
-                Engine.game_won();
+                game_won();
             }
 
-            Engine.objectives_clear();
-            Engine.ai_allegiance(player, human);
-            Engine.fade_out(1F, 1F, 1F, 0);
-            Engine.hud_enable_training(false);
-            Engine.ai_dialogue_enable(false);
+            objectives_clear();
+            ai_allegiance(player, human);
+            fade_out(1F, 1F, 1F, 0);
+            hud_enable_training(false);
+            ai_dialogue_enable(false);
             await this.start_mission();
             await this.training_setup();
-            Engine.camera_control(false);
-            await Engine.sleep(1);
-            await Engine.cache_block_for_one_frame();
-            Engine.objects_predict_high(Engine.ai_get_object(guns.Squad));
-            await Engine.sleep(2);
+            camera_control(false);
+            await sleep(1);
+            await cache_block_for_one_frame();
+            objects_predict_high(ai_get_object(guns.Squad));
+            await sleep(2);
             await this.cinematic_fade_from_white_bars();
-            Engine.wake(new ScriptMethodReference(training_fade));
+            wake(new ScriptMethodReference(training_fade));
             await this.training_look();
-            Engine.hud_enable_training(true);
+            hud_enable_training(true);
             await this.training_move();
             await this.training_shield();
             await this.save_tram_start();
             await this.training_done();
             await this.training_tram();
-            Engine.print("you win!");
-            Engine.sound_class_set_gain("", 0F, 15);
-            Engine.loading_screen_fade_to_white();
-            Engine.hud_enable_training(true);
-            Engine.ai_dialogue_enable(true);
-            Engine.game_won();
+            print("you win!");
+            sound_class_set_gain("", 0F, 15);
+            loading_screen_fade_to_white();
+            hud_enable_training(true);
+            ai_dialogue_enable(true);
+            game_won();
         }
     }
 }

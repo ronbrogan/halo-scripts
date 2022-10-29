@@ -23,88 +23,88 @@ namespace OpenH2.Scripts.Generatedscenarios.multi
         [ScriptMethod(0, Lifecycle.Continuous)]
         public async Task recycling_can_spawner_r()
         {
-            await Engine.sleep(200);
-            if (Engine.list_count(hanger_can_01.Entity) == 0)
+            await sleep(200);
+            if (list_count(hanger_can_01.Entity) == 0)
             {
-                Engine.object_create(hanger_can_01);
-                await Engine.sleep(this.launch_time);
+                object_create(hanger_can_01);
+                await sleep(this.launch_time);
             }
 
-            if (Engine.list_count(hanger_can_02.Entity) == 0)
+            if (list_count(hanger_can_02.Entity) == 0)
             {
-                Engine.object_create(hanger_can_02);
-                await Engine.sleep(this.launch_time);
+                object_create(hanger_can_02);
+                await sleep(this.launch_time);
             }
 
-            if (Engine.list_count(hanger_can_03.Entity) == 0)
+            if (list_count(hanger_can_03.Entity) == 0)
             {
-                Engine.object_create(hanger_can_03);
-                await Engine.sleep(this.launch_time);
+                object_create(hanger_can_03);
+                await sleep(this.launch_time);
             }
 
-            if (Engine.list_count(hanger_can_04.Entity) == 0)
+            if (list_count(hanger_can_04.Entity) == 0)
             {
-                Engine.object_create(hanger_can_04);
-                await Engine.sleep(this.launch_time);
+                object_create(hanger_can_04);
+                await sleep(this.launch_time);
             }
 
-            if (Engine.list_count(hanger_can_05.Entity) == 0)
+            if (list_count(hanger_can_05.Entity) == 0)
             {
-                Engine.object_create(hanger_can_05);
-                await Engine.sleep(this.launch_time);
+                object_create(hanger_can_05);
+                await sleep(this.launch_time);
             }
 
-            if (Engine.list_count(hanger_can_06.Entity) == 0)
+            if (list_count(hanger_can_06.Entity) == 0)
             {
-                Engine.object_create(hanger_can_06);
-                await Engine.sleep(this.launch_time);
+                object_create(hanger_can_06);
+                await sleep(this.launch_time);
             }
         }
 
         [ScriptMethod(1, Lifecycle.Continuous)]
         public async Task recycling_can_spawner_l()
         {
-            if (Engine.list_count(hanger_can_07.Entity) == 0)
+            if (list_count(hanger_can_07.Entity) == 0)
             {
-                Engine.object_create(hanger_can_07);
-                await Engine.sleep(this.launch_time);
+                object_create(hanger_can_07);
+                await sleep(this.launch_time);
             }
 
-            if (Engine.list_count(hanger_can_08.Entity) == 0)
+            if (list_count(hanger_can_08.Entity) == 0)
             {
-                Engine.object_create(hanger_can_08);
-                await Engine.sleep(this.launch_time);
+                object_create(hanger_can_08);
+                await sleep(this.launch_time);
             }
 
-            if (Engine.list_count(hanger_can_09.Entity) == 0)
+            if (list_count(hanger_can_09.Entity) == 0)
             {
-                Engine.object_create(hanger_can_09);
-                await Engine.sleep(this.launch_time);
+                object_create(hanger_can_09);
+                await sleep(this.launch_time);
             }
 
-            if (Engine.list_count(hanger_can_10.Entity) == 0)
+            if (list_count(hanger_can_10.Entity) == 0)
             {
-                Engine.object_create(hanger_can_10);
-                await Engine.sleep(this.launch_time);
+                object_create(hanger_can_10);
+                await sleep(this.launch_time);
             }
 
-            if (Engine.list_count(hanger_can_11.Entity) == 0)
+            if (list_count(hanger_can_11.Entity) == 0)
             {
-                Engine.object_create(hanger_can_11);
-                await Engine.sleep(this.launch_time);
+                object_create(hanger_can_11);
+                await sleep(this.launch_time);
             }
 
-            if (Engine.list_count(hanger_can_12.Entity) == 0)
+            if (list_count(hanger_can_12.Entity) == 0)
             {
-                Engine.object_create(hanger_can_12);
-                await Engine.sleep(this.launch_time);
+                object_create(hanger_can_12);
+                await sleep(this.launch_time);
             }
         }
 
         [ScriptMethod(2, Lifecycle.Continuous)]
         public async Task hanger_can_killer()
         {
-            Engine.object_destroy(Engine.list_get(Engine.volume_return_objects(can_kill_volume), 0));
+            object_destroy(list_get(volume_return_objects(can_kill_volume), 0));
         }
     }
 }
